@@ -1,0 +1,60 @@
+---
+title: CreateFolderPathResponse
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 569eaca5-6761-4f5d-aa19-2bf3ac584ae3
+description: Элемент CreateFolderPathResponse используется для возврата путь к папке.
+ms.openlocfilehash: f6cc8e63aec4cd7868fffa1a4b7c312c741d9c60
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19761879"
+---
+# <a name="createfolderpathresponse"></a>CreateFolderPathResponse
+
+Элемент **CreateFolderPathResponse** используется для возврата путь к папке. 
+  
+```XML
+<CreateFolderPathResponse>
+   <ResponseMessages/>
+</CreateFolderPathResponse>
+```
+
+ **CreateFolderPathResponseType**
+## <a name="attributes-and-elements"></a>Атрибуты и элементы
+
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+  
+### <a name="attributes"></a>Атрибуты
+
+Нет.
+  
+### <a name="child-elements"></a>Дочерние элементы
+
+[ResponseMessages](responsemessages.md)
+  
+### <a name="parent-elements"></a>Родительские элементы
+
+Нет.
+  
+## <a name="remarks"></a>Замечания
+
+Этот элемент появился в Exchange Server 2013.
+  
+Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
+  
+## <a name="element-information"></a>Сведения об элементе
+
+|||
+|:-----|:-----|
+|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Имя схемы  <br/> |Схема Messages  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
+|Может быть пустым  <br/> |Нет  <br/> |
+   
+
