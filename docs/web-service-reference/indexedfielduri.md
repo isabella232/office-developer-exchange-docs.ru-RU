@@ -1,0 +1,87 @@
+---
+title: IndexedFieldURI
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IndexedFieldURI
+api_type:
+- schema
+ms.assetid: 5c9cd0b5-7eca-480a-8730-fe98b1779afa
+description: Элемент IndexedFieldURI определяет отдельных элементов словаря.
+ms.openlocfilehash: 6a75e8855ecabf15ca31bb1e05d569c258a43b0b
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19833909"
+---
+# <a name="indexedfielduri"></a>IndexedFieldURI
+
+Элемент **IndexedFieldURI** определяет отдельных элементов словаря. 
+  
+```xml
+<IndexedFieldURI FieldURI="" FieldIndex="" />
+```
+
+ **PathToIndexedFieldType**
+## <a name="attributes-and-elements"></a>Атрибуты и элементы
+
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+  
+### <a name="attributes"></a>Атрибуты
+
+|**Атрибут**|**Описание**|
+|:-----|:-----|
+|**FieldURI** <br/> |Задает словарь, содержащий возвращаемый элемент. Этот атрибут является обязательным.  <br/> |
+|**FieldIndex** <br/> |Определяет возвращаемый элемент словаря. Этот атрибут является обязательным.  <br/> |
+   
+#### <a name="fielduri-attribute"></a>Атрибут FieldURI
+
+|**Значение**|**Описание**|
+|:-----|:-----|
+|элемент: InternetMessageHeader  <br/> |Представляет заголовок сообщения элемента.  <br/> |
+|Контакты: ImAddress  <br/> |Представляет обмена мгновенными сообщениями адрес контакта.  <br/> |
+|Контакты: PhysicalAddress:Street  <br/> |Представляет почтовый адрес контакта.  <br/> |
+|Контакты: PhysicalAddress:City  <br/> |Представляет город контакта.  <br/> |
+|Контакты: PhysicalAddress:State  <br/> |Представляет состояние контакта.  <br/> |
+|Контакты: PhysicalAddress:Country  <br/> |Представляет страны или региона контакта.  <br/> |
+|Контакты: PhysicalAddress:PostalCode  <br/> |Представляет почтовый индекс контакта.  <br/> |
+|Контакты: PhoneNumber  <br/> |Представляет номер телефона контакта.  <br/> |
+|Контакты: EmailAddress  <br/> |Представляет адрес электронной почты контакта.  <br/> |
+|distributionlist:Members:member  <br/> |Представляет элемент в список рассылки.  <br/> |
+   
+### <a name="child-elements"></a>Дочерние элементы
+
+Нет.
+  
+### <a name="parent-elements"></a>Родительские элементы
+
+|**Элемент**|**Описание**|
+|:-----|:-----|
+|[AdditionalProperties](additionalproperties.md) <br/> |Определяет дополнительные свойства для получения, установки или создать.  <br/> |
+|[AggregateOn](aggregateon.md) <br/> |Представляет свойство, которое используется для определения порядка сгруппированные элементы для группированных FindItem набора результатов.  <br/> |
+|[GroupBy](groupby.md) <br/> |Задает произвольную группировки для запросов FindItem.  <br/> |
+   
+## <a name="remarks"></a>Замечания
+
+Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
+  
+## <a name="element-information"></a>Сведения об элементе
+
+|||
+|:-----|:-----|
+|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Имя схемы  <br/> |Схема Types  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
+|Может быть пустым  <br/> |False  <br/> |
+   
+## <a name="see-also"></a>См. также
+
+
+
+- [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
+
