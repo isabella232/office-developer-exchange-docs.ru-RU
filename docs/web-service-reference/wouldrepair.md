@@ -1,0 +1,53 @@
+---
+title: WouldRepair
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: b6987bac-7e16-4a6c-b5f7-ef0e99ff520b
+description: Элемент WouldRepair предназначена только для внутреннего использования.
+ms.openlocfilehash: e3d7f1e9e736da9a0774e371a6cfca80e348c013
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19840533"
+---
+# <a name="wouldrepair"></a>WouldRepair
+
+Элемент **WouldRepair** предназначена только для внутреннего использования. 
+
+## <a name="attributes-and-elements"></a>Атрибуты и элементы
+
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+  
+### <a name="attributes"></a>Атрибуты
+
+Нет.
+  
+### <a name="child-elements"></a>Дочерние элементы
+
+Нет.
+  
+### <a name="parent-elements"></a>Родительские элементы
+
+Нет.
+  
+## <a name="remarks"></a>Замечания
+
+Этот элемент появился в Exchange Server 2013.
+  
+Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
+  
+## <a name="element-information"></a>Сведения об элементе
+
+|||
+|:-----|:-----|
+|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Имя схемы  <br/> |Схема Types  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
+|Может быть пустым  <br/> ||
+   
+
