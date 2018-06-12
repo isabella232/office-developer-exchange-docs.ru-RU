@@ -1,0 +1,82 @@
+---
+title: MergedFreeBusyIntervalInMinutes
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MergedFreeBusyIntervalInMinutes
+api_type:
+- schema
+ms.assetid: 481cdbc6-d5aa-49fa-a3fa-9d119d3dca99
+description: Элемент MergedFreeBusyIntervalInMinutes представляет разницу между двумя последовательными разъемов FreeBusyMerged представления.
+ms.openlocfilehash: 99c8c69424a0a9d9594005fdf6b2ceba53e6288a
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19834451"
+---
+# <a name="mergedfreebusyintervalinminutes"></a>MergedFreeBusyIntervalInMinutes
+
+Элемент **MergedFreeBusyIntervalInMinutes** представляет разницу между двумя последовательными разъемов **FreeBusyMerged** представления. 
+  
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+  
+[FreeBusyViewOptions](freebusyviewoptions.md)
+  
+[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)
+  
+```xml
+<MergedFreeBusyIntervalInMinutes>...</MergedFreeBusyIntervalInMinutes>
+```
+
+ **int**
+## <a name="attributes-and-elements"></a>Атрибуты и элементы
+
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+  
+### <a name="attributes"></a>Атрибуты
+
+Нет.
+  
+### <a name="child-elements"></a>Дочерние элементы
+
+Нет.
+  
+### <a name="parent-elements"></a>Родительские элементы
+
+|**Элемент**|**Описание**|
+|:-----|:-----|
+|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Указывает тип сведений о доступности, возвращаемого в ответе.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
+   
+## <a name="text-value"></a>Текстовое значение
+
+Текстовое значение является обязательным. Текстовое значение представляет время в минутах. Значение по умолчанию — 30 минут. Шесть минут — минимальный интервал и один день (1440 минут) — это максимальный интервал для данного элемента.
+  
+## <a name="remarks"></a>Замечания
+
+Это значение используется только в том случае, если элемент [RequestedView](requestedview.md) равен **MergedOnly**, **FreeBusyMerged**или **DetailedMerge**. Это тип данных integer. Поток, содержащий интервалы, определенные этим элементом, возвращается в элементе [MergedFreeBusy](mergedfreebusy.md) . 
+  
+## <a name="element-information"></a>Сведения об элементе
+
+|||
+|:-----|:-----|
+|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Имя схемы  <br/> |Схема Types  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
+|Может быть пустым  <br/> |False  <br/> |
+   
+## <a name="see-also"></a>См. также
+
+
+
+[Операция GetUserAvailability](getuseravailability-operation.md)
+  
+[Операция GetUserOofSettings](getuseroofsettings-operation.md)
+
+
+[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+
