@@ -10,7 +10,7 @@ ms.openlocfilehash: d9eef3bdc76c16cf92bdbb39b36be067f0c06215
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19761178"
 ---
 # <a name="improving-performance-when-using-autodiscover-for-exchange"></a>Повышение производительности при использовании автообнаружения для Exchange

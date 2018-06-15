@@ -1,5 +1,5 @@
 ---
-title: Priority
+title: SendItemResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,27 +7,29 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 api_name:
-- Priority
+- SendItemResponse
 api_type:
 - schema
-ms.assetid: e1adb8b9-e3d5-469a-b188-822733d2503e
-description: Элемент приоритет указывает порядок, в котором будет выполняться правило.
-ms.openlocfilehash: 49e9bda063d8766ff49c8a2e9574c986bcfdbeb2
+ms.assetid: 26ac41c7-57d9-473e-ab7a-bae93e1d2aba
+description: Элемент SendItemResponse определяет ответ на запрос SendItem.
+ms.openlocfilehash: 41f450e1d4c95f7ba389adcaa2ed7e18ea74d61c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
-ms.locfileid: "19834888"
+ms.locfileid: "19835339"
 ---
-# <a name="priority"></a>Priority
+# <a name="senditemresponse"></a>SendItemResponse
 
-Элемент **приоритет** указывает порядок, в котором будет выполняться правило. 
+Элемент **SendItemResponse** определяет ответ на запрос SendItem. 
   
-```XML
-<Priority/>
+```xml
+<SendItemResponse>
+   <ResponseMessages/>
+</SendItemResponse>
 ```
 
- **int**
+ **SendItemResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -38,21 +40,17 @@ ms.locfileid: "19834888"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
-  
-### <a name="parent-elements"></a>Родительские элементы
-
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Правило (RuleType)](rule-ruletype.md) <br/> |Представляет правило в почтовом ящике пользователя.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
    
-## <a name="text-value"></a>Текстовое значение
+### <a name="parent-elements"></a>Родительские элементы
 
-Текстовое значение для элемента **приоритет** — целое число, указывающее порядок выполнения, в котором должна запускаться правило. 
+Нет.
   
 ## <a name="remarks"></a>Замечания
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
+Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -65,6 +63,11 @@ ms.locfileid: "19834888"
    
 ## <a name="see-also"></a>См. также
 
+
+
+[SendItem Operation](senditem-operation.md)
+  
+[SendItem](senditem.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

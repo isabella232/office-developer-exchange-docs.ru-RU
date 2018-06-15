@@ -1,29 +1,35 @@
 ---
-title: Сообщение об ошибке (NonIndexableItemStatisticType)
+title: GetUserRetentionPolicyTagsResponseMessage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: b676d5be-07f8-4b0b-80bc-28a79a4a7cf4
-description: Сообщение об ошибке элемент содержит сообщение об ошибке с описанием, почему элемент не индексируются.
-ms.openlocfilehash: a33082f6a442e1720c667f1b28ed52c39fa03797
+ms.assetid: 9991d6e0-8c31-4e73-8af3-da4298474b66
+description: Элемент GetUserRetentionPolicyTagsResponseMessage указывает сообщение ответа на запрос GetUserRetentionPolicyTags.
+ms.openlocfilehash: db73cb7f1922d845c9565753ff8d4917b82b1259
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
-ms.locfileid: "19762386"
+ms.locfileid: "19833701"
 ---
-# <a name="errormessage-nonindexableitemstatistictype"></a>Сообщение об ошибке (NonIndexableItemStatisticType)
+# <a name="getuserretentionpolicytagsresponsemessage"></a>GetUserRetentionPolicyTagsResponseMessage
 
-**Сообщение об ошибке** элемент содержит сообщение об ошибке с описанием, почему элемент не индексируются. 
+Элемент **GetUserRetentionPolicyTagsResponseMessage** указывает сообщение ответа на запрос **GetUserRetentionPolicyTags** . 
   
 ```XML
-<ErrorMessage></ErrorMessage>
+<GetUserRetentionPolicyTagsResponseMessage>
+   <MessageText/>
+   <ResponseCode/>
+   <DescriptiveLinkKey/>
+   <MessageXml/>
+   <RetentionPolicyTags/>
+</GetUserRetentionPolicyTagsResponseMessage>
 ```
 
- **string**
+ **GetUserRetentionPolicyTagsResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -34,15 +40,11 @@ ms.locfileid: "19762386"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [RetentionPolicyTags](retentionpolicytags.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[NonIndexableItemStatistic](nonindexableitemstatistic.md)
-  
-## <a name="text-value"></a>Текстовое значение
-
-Текстовое значение элемента **сообщение об ошибке** — это сообщение об ошибке с описанием, почему элемент не индексируются. 
+[ResponseMessages](responsemessages.md)
   
 ## <a name="remarks"></a>Замечания
 
@@ -56,7 +58,7 @@ ms.locfileid: "19762386"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
-|Может быть пустым  <br/> |False  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
+|Может быть пустым  <br/> |Нет  <br/> |
    
 
