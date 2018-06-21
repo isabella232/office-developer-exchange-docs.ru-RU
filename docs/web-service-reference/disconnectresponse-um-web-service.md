@@ -15,7 +15,7 @@ ms.openlocfilehash: 47d432065f0c983a511e2ffda1ba789546a82f2f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19762143"
 ---
 # <a name="disconnectresponse-um-web-service"></a>DisconnectResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
