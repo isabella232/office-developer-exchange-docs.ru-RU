@@ -13,12 +13,12 @@ ms.openlocfilehash: 31662ebdcb8286feb506e59c10d45055d71d6652
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761373"
 ---
-# <a name="alternatemailboxes-soap"></a><span data-ttu-id="46031-103">AlternateMailboxes (SOAP)</span><span class="sxs-lookup"><span data-stu-id="46031-103">AlternateMailboxes (SOAP)</span></span>
+# <a name="alternatemailboxes-soap"></a><span data-ttu-id="3771c-103">AlternateMailboxes (SOAP)</span><span class="sxs-lookup"><span data-stu-id="3771c-103">AlternateMailboxes (SOAP)</span></span>
 
-<span data-ttu-id="46031-104">Элемент **AlternateMailboxes** представляет коллекцию альтернативного почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="46031-104">The **AlternateMailboxes** element represents a collection of alternate mailboxes.</span></span> 
+<span data-ttu-id="3771c-104">Элемент **AlternateMailboxes** представляет коллекцию альтернативного почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="3771c-104">The **AlternateMailboxes** element represents a collection of alternate mailboxes.</span></span> 
   
 ```XML
 <AlternateMailboxes>
@@ -26,38 +26,38 @@ ms.locfileid: "19761373"
 </AlternateMailboxes>
 ```
 
- <span data-ttu-id="46031-105">**AlternateMailboxes**</span><span class="sxs-lookup"><span data-stu-id="46031-105">**AlternateMailboxes**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="46031-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="46031-106">Attributes and elements</span></span>
+ <span data-ttu-id="3771c-105">**AlternateMailboxes**</span><span class="sxs-lookup"><span data-stu-id="3771c-105">**AlternateMailboxes**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="3771c-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="3771c-106">Attributes and elements</span></span>
 
-<span data-ttu-id="46031-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="46031-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="3771c-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="3771c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="46031-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="46031-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="3771c-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="3771c-108">Attributes</span></span>
 
-<span data-ttu-id="46031-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="46031-109">None.</span></span>
+<span data-ttu-id="3771c-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="3771c-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="46031-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="46031-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="3771c-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="3771c-110">Child elements</span></span>
 
-|<span data-ttu-id="46031-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="46031-111">**Element**</span></span>|<span data-ttu-id="46031-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="46031-112">**Description**</span></span>|
+|<span data-ttu-id="3771c-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="3771c-111">**Element**</span></span>|<span data-ttu-id="3771c-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3771c-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="46031-113">AlternateMailbox (SOAP)</span><span class="sxs-lookup"><span data-stu-id="46031-113">AlternateMailbox (SOAP)</span></span>](alternatemailbox-soap.md) <br/> |<span data-ttu-id="46031-114">Представляет альтернативного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="46031-114">Represents an alternate mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="3771c-113">AlternateMailbox (SOAP)</span><span class="sxs-lookup"><span data-stu-id="3771c-113">AlternateMailbox (SOAP)</span></span>](alternatemailbox-soap.md) <br/> |<span data-ttu-id="3771c-114">Представляет альтернативного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="3771c-114">Represents an alternate mailbox.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="46031-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="46031-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="3771c-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="3771c-115">Parent elements</span></span>
 
-|<span data-ttu-id="46031-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="46031-116">**Element**</span></span>|<span data-ttu-id="46031-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="46031-117">**Description**</span></span>|
+|<span data-ttu-id="3771c-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="3771c-116">**Element**</span></span>|<span data-ttu-id="3771c-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3771c-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="46031-118">AlternateMailboxCollectionSetting (SOAP)</span><span class="sxs-lookup"><span data-stu-id="46031-118">AlternateMailboxCollectionSetting (SOAP)</span></span>](alternatemailboxcollectionsetting-soap.md) <br/> |<span data-ttu-id="46031-119">Содержит коллекцию параметров альтернативного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="46031-119">Contains a collection of alternate mailbox settings.</span></span>  <br/> |
+|[<span data-ttu-id="3771c-118">AlternateMailboxCollectionSetting (SOAP)</span><span class="sxs-lookup"><span data-stu-id="3771c-118">AlternateMailboxCollectionSetting (SOAP)</span></span>](alternatemailboxcollectionsetting-soap.md) <br/> |<span data-ttu-id="3771c-119">Содержит коллекцию параметров альтернативного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="3771c-119">Contains a collection of alternate mailbox settings.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="46031-120">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="46031-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="3771c-120">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="3771c-120">Text value</span></span>
 
-<span data-ttu-id="46031-121">Нет.</span><span class="sxs-lookup"><span data-stu-id="46031-121">None.</span></span>
+<span data-ttu-id="3771c-121">Нет.</span><span class="sxs-lookup"><span data-stu-id="3771c-121">None.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="46031-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="46031-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="3771c-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="3771c-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="46031-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="46031-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="46031-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="46031-124">Schema Name</span></span>  <br/> |<span data-ttu-id="46031-125">Схема службы автообнаружения</span><span class="sxs-lookup"><span data-stu-id="46031-125">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="46031-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="46031-126">Validation File</span></span>  <br/> |<span data-ttu-id="46031-127">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="46031-127">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="46031-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="46031-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="46031-129">True</span><span class="sxs-lookup"><span data-stu-id="46031-129">True</span></span>  <br/> |
+|<span data-ttu-id="3771c-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="3771c-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="3771c-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="3771c-124">Schema Name</span></span>  <br/> |<span data-ttu-id="3771c-125">Схема службы автообнаружения</span><span class="sxs-lookup"><span data-stu-id="3771c-125">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="3771c-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="3771c-126">Validation File</span></span>  <br/> |<span data-ttu-id="3771c-127">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="3771c-127">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="3771c-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="3771c-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="3771c-129">True</span><span class="sxs-lookup"><span data-stu-id="3771c-129">True</span></span>  <br/> |
    
 

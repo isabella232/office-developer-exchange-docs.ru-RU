@@ -16,24 +16,24 @@ ms.openlocfilehash: 412710f32ed8702e1a28a596833c3a7e47e3ed76
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762840"
 ---
-# <a name="getitem-operation-task"></a><span data-ttu-id="ac3e0-103">Операции GetItem (задача)</span><span class="sxs-lookup"><span data-stu-id="ac3e0-103">GetItem operation (task)</span></span>
+# <a name="getitem-operation-task"></a><span data-ttu-id="40215-103">Операции GetItem (задача)</span><span class="sxs-lookup"><span data-stu-id="40215-103">GetItem operation (task)</span></span>
 
-<span data-ttu-id="ac3e0-104">Операции GetItem используется для получения задачи из хранилища Exchange.</span><span class="sxs-lookup"><span data-stu-id="ac3e0-104">The GetItem operation is used to get tasks from the Exchange store.</span></span>
+<span data-ttu-id="40215-104">Операции GetItem используется для получения задачи из хранилища Exchange.</span><span class="sxs-lookup"><span data-stu-id="40215-104">The GetItem operation is used to get tasks from the Exchange store.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ac3e0-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="ac3e0-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="40215-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="40215-105">Remarks</span></span>
 
-<span data-ttu-id="ac3e0-106">Формат запроса GetItem для задач, совпадает с GetItem для любой другой тип элемента.</span><span class="sxs-lookup"><span data-stu-id="ac3e0-106">The format of the GetItem request for tasks is the same as GetItem for any other item type.</span></span> <span data-ttu-id="ac3e0-107">Единственное отличие заключается в котором можно запросить дополнительные свойства в фигуре ответа.</span><span class="sxs-lookup"><span data-stu-id="ac3e0-107">The only difference is in which additional properties can be requested within the response shape.</span></span> <span data-ttu-id="ac3e0-108">Такие дополнительные свойства должен быть свойства, связанные с задач или расширенные свойства.</span><span class="sxs-lookup"><span data-stu-id="ac3e0-108">Such additional properties must either be task-related properties or extended properties.</span></span>
+<span data-ttu-id="40215-106">Формат запроса GetItem для задач, совпадает с GetItem для любой другой тип элемента.</span><span class="sxs-lookup"><span data-stu-id="40215-106">The format of the GetItem request for tasks is the same as GetItem for any other item type.</span></span> <span data-ttu-id="40215-107">Единственное отличие заключается в котором можно запросить дополнительные свойства в фигуре ответа.</span><span class="sxs-lookup"><span data-stu-id="40215-107">The only difference is in which additional properties can be requested within the response shape.</span></span> <span data-ttu-id="40215-108">Такие дополнительные свойства должен быть свойства, связанные с задач или расширенные свойства.</span><span class="sxs-lookup"><span data-stu-id="40215-108">Such additional properties must either be task-related properties or extended properties.</span></span>
   
-## <a name="task-getitem-request-example"></a><span data-ttu-id="ac3e0-109">Пример запроса GetItem задач</span><span class="sxs-lookup"><span data-stu-id="ac3e0-109">Task GetItem request example</span></span>
+## <a name="task-getitem-request-example"></a><span data-ttu-id="40215-109">Пример запроса GetItem задач</span><span class="sxs-lookup"><span data-stu-id="40215-109">Task GetItem request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="ac3e0-110">Описание</span><span class="sxs-lookup"><span data-stu-id="ac3e0-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="40215-110">Описание</span><span class="sxs-lookup"><span data-stu-id="40215-110">Description</span></span>
 
-<span data-ttu-id="ac3e0-111">Приведенный ниже запрос GetItem показано, как получить элемента задачи.</span><span class="sxs-lookup"><span data-stu-id="ac3e0-111">The following example of a GetItem request shows how to get a task item.</span></span>
+<span data-ttu-id="40215-111">Приведенный ниже запрос GetItem показано, как получить элемента задачи.</span><span class="sxs-lookup"><span data-stu-id="40215-111">The following example of a GetItem request shows how to get a task item.</span></span>
   
-### <a name="code"></a><span data-ttu-id="ac3e0-112">Программа</span><span class="sxs-lookup"><span data-stu-id="ac3e0-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="40215-112">Программа</span><span class="sxs-lookup"><span data-stu-id="40215-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -55,32 +55,32 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="ac3e0-113">Комментарии</span><span class="sxs-lookup"><span data-stu-id="ac3e0-113">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="40215-113">Комментарии</span><span class="sxs-lookup"><span data-stu-id="40215-113">Comments</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ac3e0-114">Идентификатор элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="ac3e0-114">The item identifier and change key have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="40215-114">Идентификатор элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="40215-114">The item identifier and change key have been shortened to preserve readability.</span></span> 
   
-### <a name="request-elements"></a><span data-ttu-id="ac3e0-115">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="ac3e0-115">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="40215-115">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="40215-115">Request elements</span></span>
 
-<span data-ttu-id="ac3e0-116">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="ac3e0-116">The following elements are used in the request:</span></span>
+<span data-ttu-id="40215-116">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="40215-116">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="ac3e0-117">GetItem</span><span class="sxs-lookup"><span data-stu-id="ac3e0-117">GetItem</span></span>](getitem.md)
+- [<span data-ttu-id="40215-117">GetItem</span><span class="sxs-lookup"><span data-stu-id="40215-117">GetItem</span></span>](getitem.md)
     
-- [<span data-ttu-id="ac3e0-118">ItemShape</span><span class="sxs-lookup"><span data-stu-id="ac3e0-118">ItemShape</span></span>](itemshape.md)
+- [<span data-ttu-id="40215-118">ItemShape</span><span class="sxs-lookup"><span data-stu-id="40215-118">ItemShape</span></span>](itemshape.md)
     
-- [<span data-ttu-id="ac3e0-119">BaseShape</span><span class="sxs-lookup"><span data-stu-id="ac3e0-119">BaseShape</span></span>](baseshape.md)
+- [<span data-ttu-id="40215-119">BaseShape</span><span class="sxs-lookup"><span data-stu-id="40215-119">BaseShape</span></span>](baseshape.md)
     
-- [<span data-ttu-id="ac3e0-120">Что ItemID</span><span class="sxs-lookup"><span data-stu-id="ac3e0-120">ItemIds</span></span>](itemids.md)
+- [<span data-ttu-id="40215-120">Что ItemID</span><span class="sxs-lookup"><span data-stu-id="40215-120">ItemIds</span></span>](itemids.md)
     
-- [<span data-ttu-id="ac3e0-121">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="ac3e0-121">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="40215-121">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="40215-121">ItemId</span></span>](itemid.md)
     
-## <a name="task-getitem-response-example"></a><span data-ttu-id="ac3e0-122">Пример ответа GetItem задач</span><span class="sxs-lookup"><span data-stu-id="ac3e0-122">Task GetItem response example</span></span>
+## <a name="task-getitem-response-example"></a><span data-ttu-id="40215-122">Пример ответа GetItem задач</span><span class="sxs-lookup"><span data-stu-id="40215-122">Task GetItem response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="ac3e0-123">Описание</span><span class="sxs-lookup"><span data-stu-id="ac3e0-123">Description</span></span>
+### <a name="description"></a><span data-ttu-id="40215-123">Описание</span><span class="sxs-lookup"><span data-stu-id="40215-123">Description</span></span>
 
-<span data-ttu-id="ac3e0-124">В следующем примере показано успешного ответа на запрос GetItem.</span><span class="sxs-lookup"><span data-stu-id="ac3e0-124">The following example shows a successful response to a GetItem request.</span></span>
+<span data-ttu-id="40215-124">В следующем примере показано успешного ответа на запрос GetItem.</span><span class="sxs-lookup"><span data-stu-id="40215-124">The following example shows a successful response to a GetItem request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="ac3e0-125">Программа</span><span class="sxs-lookup"><span data-stu-id="ac3e0-125">Code</span></span>
+### <a name="code"></a><span data-ttu-id="40215-125">Программа</span><span class="sxs-lookup"><span data-stu-id="40215-125">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -133,87 +133,87 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="ac3e0-126">Комментарии</span><span class="sxs-lookup"><span data-stu-id="ac3e0-126">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="40215-126">Комментарии</span><span class="sxs-lookup"><span data-stu-id="40215-126">Comments</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ac3e0-127">Идентификаторы элементов и папок и ключей изменения URL были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="ac3e0-127">The item and folder identifiers and change keys have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="40215-127">Идентификаторы элементов и папок и ключей изменения URL были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="40215-127">The item and folder identifiers and change keys have been shortened to preserve readability.</span></span> 
   
-### <a name="successful-response-elements"></a><span data-ttu-id="ac3e0-128">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="ac3e0-128">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="40215-128">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="40215-128">Successful response elements</span></span>
 
-<span data-ttu-id="ac3e0-129">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="ac3e0-129">The following elements are used in the response:</span></span>
+<span data-ttu-id="40215-129">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="40215-129">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="ac3e0-130">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="ac3e0-130">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="40215-130">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="40215-130">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="ac3e0-131">GetItemResponse</span><span class="sxs-lookup"><span data-stu-id="ac3e0-131">GetItemResponse</span></span>](getitemresponse.md)
+- [<span data-ttu-id="40215-131">GetItemResponse</span><span class="sxs-lookup"><span data-stu-id="40215-131">GetItemResponse</span></span>](getitemresponse.md)
     
-- [<span data-ttu-id="ac3e0-132">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="ac3e0-132">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="40215-132">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="40215-132">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="ac3e0-133">GetItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="ac3e0-133">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
+- [<span data-ttu-id="40215-133">GetItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="40215-133">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
     
-- [<span data-ttu-id="ac3e0-134">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="ac3e0-134">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="40215-134">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="40215-134">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="ac3e0-135">Элементы</span><span class="sxs-lookup"><span data-stu-id="ac3e0-135">Items</span></span>](items.md)
+- [<span data-ttu-id="40215-135">Элементы</span><span class="sxs-lookup"><span data-stu-id="40215-135">Items</span></span>](items.md)
     
-- [<span data-ttu-id="ac3e0-136">Задача</span><span class="sxs-lookup"><span data-stu-id="ac3e0-136">Task</span></span>](task.md)
+- [<span data-ttu-id="40215-136">Задача</span><span class="sxs-lookup"><span data-stu-id="40215-136">Task</span></span>](task.md)
     
-- [<span data-ttu-id="ac3e0-137">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="ac3e0-137">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="40215-137">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="40215-137">ItemId</span></span>](itemid.md)
     
-- [<span data-ttu-id="ac3e0-138">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="ac3e0-138">ParentFolderId</span></span>](parentfolderid.md)
+- [<span data-ttu-id="40215-138">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="40215-138">ParentFolderId</span></span>](parentfolderid.md)
     
-- [<span data-ttu-id="ac3e0-139">ItemClass</span><span class="sxs-lookup"><span data-stu-id="ac3e0-139">ItemClass</span></span>](itemclass.md)
+- [<span data-ttu-id="40215-139">ItemClass</span><span class="sxs-lookup"><span data-stu-id="40215-139">ItemClass</span></span>](itemclass.md)
     
-- [<span data-ttu-id="ac3e0-140">Subject</span><span class="sxs-lookup"><span data-stu-id="ac3e0-140">Subject</span></span>](subject.md)
+- [<span data-ttu-id="40215-140">Subject</span><span class="sxs-lookup"><span data-stu-id="40215-140">Subject</span></span>](subject.md)
     
-- [<span data-ttu-id="ac3e0-141">Уровень конфиденциальности сообщения</span><span class="sxs-lookup"><span data-stu-id="ac3e0-141">Sensitivity</span></span>](sensitivity.md)
+- [<span data-ttu-id="40215-141">Уровень конфиденциальности сообщения</span><span class="sxs-lookup"><span data-stu-id="40215-141">Sensitivity</span></span>](sensitivity.md)
     
-- [<span data-ttu-id="ac3e0-142">Body</span><span class="sxs-lookup"><span data-stu-id="ac3e0-142">Body</span></span>](body.md)
+- [<span data-ttu-id="40215-142">Body</span><span class="sxs-lookup"><span data-stu-id="40215-142">Body</span></span>](body.md)
     
-- [<span data-ttu-id="ac3e0-143">DateTimeReceived</span><span class="sxs-lookup"><span data-stu-id="ac3e0-143">DateTimeReceived</span></span>](datetimereceived.md)
+- [<span data-ttu-id="40215-143">DateTimeReceived</span><span class="sxs-lookup"><span data-stu-id="40215-143">DateTimeReceived</span></span>](datetimereceived.md)
     
-- [<span data-ttu-id="ac3e0-144">Размер</span><span class="sxs-lookup"><span data-stu-id="ac3e0-144">Size</span></span>](size.md)
+- [<span data-ttu-id="40215-144">Размер</span><span class="sxs-lookup"><span data-stu-id="40215-144">Size</span></span>](size.md)
     
-- [<span data-ttu-id="ac3e0-145">Важность</span><span class="sxs-lookup"><span data-stu-id="ac3e0-145">Importance</span></span>](importance.md)
+- [<span data-ttu-id="40215-145">Важность</span><span class="sxs-lookup"><span data-stu-id="40215-145">Importance</span></span>](importance.md)
     
-- [<span data-ttu-id="ac3e0-146">IsSubmitted</span><span class="sxs-lookup"><span data-stu-id="ac3e0-146">IsSubmitted</span></span>](issubmitted.md)
+- [<span data-ttu-id="40215-146">IsSubmitted</span><span class="sxs-lookup"><span data-stu-id="40215-146">IsSubmitted</span></span>](issubmitted.md)
     
-- [<span data-ttu-id="ac3e0-147">IsDraft</span><span class="sxs-lookup"><span data-stu-id="ac3e0-147">IsDraft</span></span>](isdraft.md)
+- [<span data-ttu-id="40215-147">IsDraft</span><span class="sxs-lookup"><span data-stu-id="40215-147">IsDraft</span></span>](isdraft.md)
     
-- [<span data-ttu-id="ac3e0-148">IsFromMe</span><span class="sxs-lookup"><span data-stu-id="ac3e0-148">IsFromMe</span></span>](isfromme.md)
+- [<span data-ttu-id="40215-148">IsFromMe</span><span class="sxs-lookup"><span data-stu-id="40215-148">IsFromMe</span></span>](isfromme.md)
     
-- [<span data-ttu-id="ac3e0-149">IsResend</span><span class="sxs-lookup"><span data-stu-id="ac3e0-149">IsResend</span></span>](isresend.md)
+- [<span data-ttu-id="40215-149">IsResend</span><span class="sxs-lookup"><span data-stu-id="40215-149">IsResend</span></span>](isresend.md)
     
-- [<span data-ttu-id="ac3e0-150">IsUnmodified</span><span class="sxs-lookup"><span data-stu-id="ac3e0-150">IsUnmodified</span></span>](isunmodified.md)
+- [<span data-ttu-id="40215-150">IsUnmodified</span><span class="sxs-lookup"><span data-stu-id="40215-150">IsUnmodified</span></span>](isunmodified.md)
     
-- [<span data-ttu-id="ac3e0-151">DateTimeSent</span><span class="sxs-lookup"><span data-stu-id="ac3e0-151">DateTimeSent</span></span>](datetimesent.md)
+- [<span data-ttu-id="40215-151">DateTimeSent</span><span class="sxs-lookup"><span data-stu-id="40215-151">DateTimeSent</span></span>](datetimesent.md)
     
-- [<span data-ttu-id="ac3e0-152">DateTimeCreated</span><span class="sxs-lookup"><span data-stu-id="ac3e0-152">DateTimeCreated</span></span>](datetimecreated.md)
+- [<span data-ttu-id="40215-152">DateTimeCreated</span><span class="sxs-lookup"><span data-stu-id="40215-152">DateTimeCreated</span></span>](datetimecreated.md)
     
-- [<span data-ttu-id="ac3e0-153">HasAttachments</span><span class="sxs-lookup"><span data-stu-id="ac3e0-153">HasAttachments</span></span>](hasattachments.md)
+- [<span data-ttu-id="40215-153">HasAttachments</span><span class="sxs-lookup"><span data-stu-id="40215-153">HasAttachments</span></span>](hasattachments.md)
     
-- [<span data-ttu-id="ac3e0-154">Язык и региональные параметры</span><span class="sxs-lookup"><span data-stu-id="ac3e0-154">Culture</span></span>](culture.md)
+- [<span data-ttu-id="40215-154">Язык и региональные параметры</span><span class="sxs-lookup"><span data-stu-id="40215-154">Culture</span></span>](culture.md)
     
-- [<span data-ttu-id="ac3e0-155">ChangeCount</span><span class="sxs-lookup"><span data-stu-id="ac3e0-155">ChangeCount</span></span>](changecount.md)
+- [<span data-ttu-id="40215-155">ChangeCount</span><span class="sxs-lookup"><span data-stu-id="40215-155">ChangeCount</span></span>](changecount.md)
     
-- [<span data-ttu-id="ac3e0-156">IsComplete</span><span class="sxs-lookup"><span data-stu-id="ac3e0-156">IsComplete</span></span>](iscomplete.md)
+- [<span data-ttu-id="40215-156">IsComplete</span><span class="sxs-lookup"><span data-stu-id="40215-156">IsComplete</span></span>](iscomplete.md)
     
-- [<span data-ttu-id="ac3e0-157">IsRecurring</span><span class="sxs-lookup"><span data-stu-id="ac3e0-157">IsRecurring</span></span>](isrecurring.md)
+- [<span data-ttu-id="40215-157">IsRecurring</span><span class="sxs-lookup"><span data-stu-id="40215-157">IsRecurring</span></span>](isrecurring.md)
     
-- [<span data-ttu-id="ac3e0-158">PercentComplete</span><span class="sxs-lookup"><span data-stu-id="ac3e0-158">PercentComplete</span></span>](percentcomplete.md)
+- [<span data-ttu-id="40215-158">PercentComplete</span><span class="sxs-lookup"><span data-stu-id="40215-158">PercentComplete</span></span>](percentcomplete.md)
     
-- [<span data-ttu-id="ac3e0-159">Состояние</span><span class="sxs-lookup"><span data-stu-id="ac3e0-159">Status</span></span>](status.md)
+- [<span data-ttu-id="40215-159">Состояние</span><span class="sxs-lookup"><span data-stu-id="40215-159">Status</span></span>](status.md)
     
-- [<span data-ttu-id="ac3e0-160">StatusDescription</span><span class="sxs-lookup"><span data-stu-id="ac3e0-160">StatusDescription</span></span>](statusdescription.md)
+- [<span data-ttu-id="40215-160">StatusDescription</span><span class="sxs-lookup"><span data-stu-id="40215-160">StatusDescription</span></span>](statusdescription.md)
     
-## <a name="see-also"></a><span data-ttu-id="ac3e0-161">См. также</span><span class="sxs-lookup"><span data-stu-id="ac3e0-161">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="40215-161">См. также</span><span class="sxs-lookup"><span data-stu-id="40215-161">See also</span></span>
 
 
 
-[<span data-ttu-id="ac3e0-162">GetItem Operation</span><span class="sxs-lookup"><span data-stu-id="ac3e0-162">GetItem operation</span></span>](getitem-operation.md)
+[<span data-ttu-id="40215-162">GetItem Operation</span><span class="sxs-lookup"><span data-stu-id="40215-162">GetItem operation</span></span>](getitem-operation.md)
 
 
-[<span data-ttu-id="ac3e0-163">Создание задач</span><span class="sxs-lookup"><span data-stu-id="ac3e0-163">Creating Tasks</span></span>](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[<span data-ttu-id="40215-163">Создание задач</span><span class="sxs-lookup"><span data-stu-id="40215-163">Creating Tasks</span></span>](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[<span data-ttu-id="ac3e0-164">Обновление задач</span><span class="sxs-lookup"><span data-stu-id="ac3e0-164">Updating Tasks</span></span>](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
+[<span data-ttu-id="40215-164">Обновление задач</span><span class="sxs-lookup"><span data-stu-id="40215-164">Updating Tasks</span></span>](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
   
-[<span data-ttu-id="ac3e0-165">Удаление задачи</span><span class="sxs-lookup"><span data-stu-id="ac3e0-165">Deleting Tasks</span></span>](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[<span data-ttu-id="40215-165">Удаление задачи</span><span class="sxs-lookup"><span data-stu-id="40215-165">Deleting Tasks</span></span>](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

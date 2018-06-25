@@ -16,12 +16,12 @@ ms.openlocfilehash: e5244e74bdd5a4b8e22c6e63811db53b46fa353a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762606"
 ---
-# <a name="firstoccurrence"></a><span data-ttu-id="6fa60-103">FirstOccurrence</span><span class="sxs-lookup"><span data-stu-id="6fa60-103">FirstOccurrence</span></span>
+# <a name="firstoccurrence"></a><span data-ttu-id="fae1a-103">FirstOccurrence</span><span class="sxs-lookup"><span data-stu-id="fae1a-103">FirstOccurrence</span></span>
 
-<span data-ttu-id="6fa60-104">Элемент **FirstOccurrence** представляет первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="6fa60-104">The **FirstOccurrence** element represents the first occurrence of a recurring calendar item.</span></span> 
+<span data-ttu-id="fae1a-104">Элемент **FirstOccurrence** представляет первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="fae1a-104">The **FirstOccurrence** element represents the first occurrence of a recurring calendar item.</span></span> 
   
 ```xml
 <FirstOccurrence>
@@ -32,51 +32,51 @@ ms.locfileid: "19762606"
 </FirstOccurrence>
 ```
 
- <span data-ttu-id="6fa60-105">**OccurrenceInfoType**</span><span class="sxs-lookup"><span data-stu-id="6fa60-105">**OccurrenceInfoType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="6fa60-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="6fa60-106">Attributes and elements</span></span>
+ <span data-ttu-id="fae1a-105">**OccurrenceInfoType**</span><span class="sxs-lookup"><span data-stu-id="fae1a-105">**OccurrenceInfoType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="fae1a-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="fae1a-106">Attributes and elements</span></span>
 
-<span data-ttu-id="6fa60-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="6fa60-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="fae1a-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="fae1a-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="6fa60-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="6fa60-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="fae1a-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="fae1a-108">Attributes</span></span>
 
-<span data-ttu-id="6fa60-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="6fa60-109">None.</span></span>
+<span data-ttu-id="fae1a-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="fae1a-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="6fa60-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="6fa60-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="fae1a-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="fae1a-110">Child elements</span></span>
 
-|<span data-ttu-id="6fa60-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6fa60-111">**Element**</span></span>|<span data-ttu-id="6fa60-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6fa60-112">**Description**</span></span>|
+|<span data-ttu-id="fae1a-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="fae1a-111">**Element**</span></span>|<span data-ttu-id="fae1a-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="fae1a-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="6fa60-113">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="6fa60-113">ItemId</span></span>](itemid.md) <br/> |<span data-ttu-id="6fa60-114">Содержит уникальный идентификатор и меняет ключ первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="6fa60-114">Contains the unique identifier and change key of the first occurrence of a recurring calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="6fa60-115">Start</span><span class="sxs-lookup"><span data-stu-id="6fa60-115">Start</span></span>](start.md) <br/> |<span data-ttu-id="6fa60-116">Представляет время начала первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="6fa60-116">Represents the start time of the first occurrence of a recurring calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="6fa60-117">End</span><span class="sxs-lookup"><span data-stu-id="6fa60-117">End </span></span>](end-ex15websvcsotherref.md) <br/> |<span data-ttu-id="6fa60-118">Представляет время окончания первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="6fa60-118">Represents the end time of the first occurrence of a recurring calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="6fa60-119">OriginalStart</span><span class="sxs-lookup"><span data-stu-id="6fa60-119">OriginalStart</span></span>](originalstart.md) <br/> |<span data-ttu-id="6fa60-120">Представляет исходное время начала первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="6fa60-120">Represents the original start time of the first occurrence of a recurring calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="fae1a-113">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="fae1a-113">ItemId</span></span>](itemid.md) <br/> |<span data-ttu-id="fae1a-114">Содержит уникальный идентификатор и меняет ключ первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="fae1a-114">Contains the unique identifier and change key of the first occurrence of a recurring calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="fae1a-115">Start</span><span class="sxs-lookup"><span data-stu-id="fae1a-115">Start</span></span>](start.md) <br/> |<span data-ttu-id="fae1a-116">Представляет время начала первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="fae1a-116">Represents the start time of the first occurrence of a recurring calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="fae1a-117">End</span><span class="sxs-lookup"><span data-stu-id="fae1a-117">End </span></span>](end-ex15websvcsotherref.md) <br/> |<span data-ttu-id="fae1a-118">Представляет время окончания первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="fae1a-118">Represents the end time of the first occurrence of a recurring calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="fae1a-119">OriginalStart</span><span class="sxs-lookup"><span data-stu-id="fae1a-119">OriginalStart</span></span>](originalstart.md) <br/> |<span data-ttu-id="fae1a-120">Представляет исходное время начала первого появления повторяющегося элемента календаря.</span><span class="sxs-lookup"><span data-stu-id="fae1a-120">Represents the original start time of the first occurrence of a recurring calendar item.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="6fa60-121">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="6fa60-121">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="fae1a-121">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="fae1a-121">Parent elements</span></span>
 
-|<span data-ttu-id="6fa60-122">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6fa60-122">**Element**</span></span>|<span data-ttu-id="6fa60-123">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6fa60-123">**Description**</span></span>|
+|<span data-ttu-id="fae1a-122">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="fae1a-122">**Element**</span></span>|<span data-ttu-id="fae1a-123">**Описание**</span><span class="sxs-lookup"><span data-stu-id="fae1a-123">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="6fa60-124">Элемента календаря, имеющего</span><span class="sxs-lookup"><span data-stu-id="6fa60-124">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="6fa60-125">Представляет элемент календаря Exchange.</span><span class="sxs-lookup"><span data-stu-id="6fa60-125">Represents an Exchange calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="6fa60-126">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="6fa60-126">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="6fa60-127">Представляет приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="6fa60-127">Represents a meeting request in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="fae1a-124">Элемента календаря, имеющего</span><span class="sxs-lookup"><span data-stu-id="fae1a-124">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="fae1a-125">Представляет элемент календаря Exchange.</span><span class="sxs-lookup"><span data-stu-id="fae1a-125">Represents an Exchange calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="fae1a-126">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="fae1a-126">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="fae1a-127">Представляет приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="fae1a-127">Represents a meeting request in the Exchange store.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6fa60-128">Замечания</span><span class="sxs-lookup"><span data-stu-id="6fa60-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fae1a-128">Замечания</span><span class="sxs-lookup"><span data-stu-id="fae1a-128">Remarks</span></span>
 
-<span data-ttu-id="6fa60-129">Этот элемент является допустимым, если [CalendarItemType](calendaritemtype.md) имеет значение RecurringMaster.</span><span class="sxs-lookup"><span data-stu-id="6fa60-129">This element is valid if [CalendarItemType](calendaritemtype.md) has the RecurringMaster value.</span></span> 
+<span data-ttu-id="fae1a-129">Этот элемент является допустимым, если [CalendarItemType](calendaritemtype.md) имеет значение RecurringMaster.</span><span class="sxs-lookup"><span data-stu-id="fae1a-129">This element is valid if [CalendarItemType](calendaritemtype.md) has the RecurringMaster value.</span></span> 
   
-<span data-ttu-id="6fa60-130">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="6fa60-130">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="fae1a-130">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="fae1a-130">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="6fa60-131">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="6fa60-131">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="fae1a-131">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="fae1a-131">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="6fa60-132">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="6fa60-132">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="6fa60-133">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="6fa60-133">Schema name</span></span>  <br/> |<span data-ttu-id="6fa60-134">Схема Types</span><span class="sxs-lookup"><span data-stu-id="6fa60-134">Types schema</span></span>  <br/> |
-|<span data-ttu-id="6fa60-135">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="6fa60-135">Validation file</span></span>  <br/> |<span data-ttu-id="6fa60-136">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="6fa60-136">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="6fa60-137">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="6fa60-137">Can be empty</span></span>  <br/> |<span data-ttu-id="6fa60-138">False</span><span class="sxs-lookup"><span data-stu-id="6fa60-138">False</span></span>  <br/> |
+|<span data-ttu-id="fae1a-132">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="fae1a-132">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="fae1a-133">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="fae1a-133">Schema name</span></span>  <br/> |<span data-ttu-id="fae1a-134">Схема Types</span><span class="sxs-lookup"><span data-stu-id="fae1a-134">Types schema</span></span>  <br/> |
+|<span data-ttu-id="fae1a-135">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="fae1a-135">Validation file</span></span>  <br/> |<span data-ttu-id="fae1a-136">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="fae1a-136">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="fae1a-137">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="fae1a-137">Can be empty</span></span>  <br/> |<span data-ttu-id="fae1a-138">False</span><span class="sxs-lookup"><span data-stu-id="fae1a-138">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="6fa60-139">См. также</span><span class="sxs-lookup"><span data-stu-id="6fa60-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fae1a-139">См. также</span><span class="sxs-lookup"><span data-stu-id="fae1a-139">See also</span></span>
 
 
 
-- [<span data-ttu-id="6fa60-140">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="6fa60-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="fae1a-140">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="fae1a-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
   
-[<span data-ttu-id="6fa60-141">Справка по веб-служб Exchange для Exchange</span><span class="sxs-lookup"><span data-stu-id="6fa60-141">EWS reference for Exchange</span></span>](ews-reference-for-exchange.md)
+[<span data-ttu-id="fae1a-141">Справка по веб-служб Exchange для Exchange</span><span class="sxs-lookup"><span data-stu-id="fae1a-141">EWS reference for Exchange</span></span>](ews-reference-for-exchange.md)
 

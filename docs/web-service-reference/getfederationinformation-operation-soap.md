@@ -13,22 +13,22 @@ ms.openlocfilehash: bf38b2f2b3db3e38b9b0157d1677efe4fc274e1b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762792"
 ---
-# <a name="getfederationinformation-operation-soap"></a><span data-ttu-id="eb07e-103">Операция GetFederationInformation (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-103">GetFederationInformation operation (SOAP)</span></span>
+# <a name="getfederationinformation-operation-soap"></a><span data-ttu-id="c52c0-103">Операция GetFederationInformation (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-103">GetFederationInformation operation (SOAP)</span></span>
 
-<span data-ttu-id="eb07e-104">Операция **GetFederationInformation** предоставляет сведения о состоянии федерации организации, такие как целевой URI, используемый для разрешения на запрос маркера, предназначены для этой организации и других доменов, организации также федеративными.</span><span class="sxs-lookup"><span data-stu-id="eb07e-104">The **GetFederationInformation** operation provides information about the federation status of the organization, such as the target URI to be used when requesting tokens that are targeted at this organization, and the other domains that the organization has also federated.</span></span> 
+<span data-ttu-id="c52c0-104">Операция **GetFederationInformation** предоставляет сведения о состоянии федерации организации, такие как целевой URI, используемый для разрешения на запрос маркера, предназначены для этой организации и других доменов, организации также федеративными.</span><span class="sxs-lookup"><span data-stu-id="c52c0-104">The **GetFederationInformation** operation provides information about the federation status of the organization, such as the target URI to be used when requesting tokens that are targeted at this organization, and the other domains that the organization has also federated.</span></span> 
   
-<span data-ttu-id="eb07e-105">Можно совместно использовать только федеративными организациями, календарь, контакты и сообщения, чтобы внешние пользователи.</span><span class="sxs-lookup"><span data-stu-id="eb07e-105">Only federated organizations can share calendar, contacts, and messages to external users.</span></span>
+<span data-ttu-id="c52c0-105">Можно совместно использовать только федеративными организациями, календарь, контакты и сообщения, чтобы внешние пользователи.</span><span class="sxs-lookup"><span data-stu-id="c52c0-105">Only federated organizations can share calendar, contacts, and messages to external users.</span></span>
   
-## <a name="getfederationinformation-request-example"></a><span data-ttu-id="eb07e-106">Пример запроса GetFederationInformation</span><span class="sxs-lookup"><span data-stu-id="eb07e-106">GetFederationInformation request example</span></span>
+## <a name="getfederationinformation-request-example"></a><span data-ttu-id="c52c0-106">Пример запроса GetFederationInformation</span><span class="sxs-lookup"><span data-stu-id="c52c0-106">GetFederationInformation request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="eb07e-107">Описание</span><span class="sxs-lookup"><span data-stu-id="eb07e-107">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c52c0-107">Описание</span><span class="sxs-lookup"><span data-stu-id="c52c0-107">Description</span></span>
 
-<span data-ttu-id="eb07e-108">В следующем примере запрос **GetFederationInformation** показано запрос сведений о федерации пользователя.</span><span class="sxs-lookup"><span data-stu-id="eb07e-108">The following example of a **GetFederationInformation** request shows a request for a user's federation information.</span></span> <span data-ttu-id="eb07e-109">Клиент отправляет запрос на сервер.</span><span class="sxs-lookup"><span data-stu-id="eb07e-109">The client sends this request to the server.</span></span> 
+<span data-ttu-id="c52c0-108">В следующем примере запрос **GetFederationInformation** показано запрос сведений о федерации пользователя.</span><span class="sxs-lookup"><span data-stu-id="c52c0-108">The following example of a **GetFederationInformation** request shows a request for a user's federation information.</span></span> <span data-ttu-id="c52c0-109">Клиент отправляет запрос на сервер.</span><span class="sxs-lookup"><span data-stu-id="c52c0-109">The client sends this request to the server.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="eb07e-110">Программа</span><span class="sxs-lookup"><span data-stu-id="eb07e-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c52c0-110">Программа</span><span class="sxs-lookup"><span data-stu-id="c52c0-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
@@ -60,23 +60,23 @@ ms.locfileid: "19762792"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a><span data-ttu-id="eb07e-111">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="eb07e-111">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="c52c0-111">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="c52c0-111">Request elements</span></span>
 
-<span data-ttu-id="eb07e-112">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="eb07e-112">The following elements are used in the request:</span></span>
+<span data-ttu-id="c52c0-112">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c52c0-112">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="eb07e-113">GetFederationInformationRequestMessage (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-113">GetFederationInformationRequestMessage (SOAP)</span></span>](getfederationinformationrequestmessage-soap.md)
+- [<span data-ttu-id="c52c0-113">GetFederationInformationRequestMessage (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-113">GetFederationInformationRequestMessage (SOAP)</span></span>](getfederationinformationrequestmessage-soap.md)
     
-- [<span data-ttu-id="eb07e-114">Запрос (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-114">Request (SOAP)</span></span>](request-soap.md)
+- [<span data-ttu-id="c52c0-114">Запрос (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-114">Request (SOAP)</span></span>](request-soap.md)
     
-- [<span data-ttu-id="eb07e-115">Домен (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-115">Domain (SOAP)</span></span>](domain-soap.md)
+- [<span data-ttu-id="c52c0-115">Домен (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-115">Domain (SOAP)</span></span>](domain-soap.md)
     
-## <a name="getfederationinformation-response-example"></a><span data-ttu-id="eb07e-116">Пример ответа GetFederationInformation</span><span class="sxs-lookup"><span data-stu-id="eb07e-116">GetFederationInformation response example</span></span>
+## <a name="getfederationinformation-response-example"></a><span data-ttu-id="c52c0-116">Пример ответа GetFederationInformation</span><span class="sxs-lookup"><span data-stu-id="c52c0-116">GetFederationInformation response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="eb07e-117">Описание</span><span class="sxs-lookup"><span data-stu-id="eb07e-117">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c52c0-117">Описание</span><span class="sxs-lookup"><span data-stu-id="c52c0-117">Description</span></span>
 
-<span data-ttu-id="eb07e-118">В следующем примере показано успешного ответа на запрос **GetFederationInformation** , сервер отправляет клиенту.</span><span class="sxs-lookup"><span data-stu-id="eb07e-118">The following example shows a successful response to the **GetFederationInformation** request that the server sends to the client.</span></span> 
+<span data-ttu-id="c52c0-118">В следующем примере показано успешного ответа на запрос **GetFederationInformation** , сервер отправляет клиенту.</span><span class="sxs-lookup"><span data-stu-id="c52c0-118">The following example shows a successful response to the **GetFederationInformation** request that the server sends to the client.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="eb07e-119">Программа</span><span class="sxs-lookup"><span data-stu-id="eb07e-119">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c52c0-119">Программа</span><span class="sxs-lookup"><span data-stu-id="c52c0-119">Code</span></span>
 
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" 
@@ -105,26 +105,26 @@ xmlns:a="http://www.w3.org/2005/08/addressing">
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a><span data-ttu-id="eb07e-120">Элементы ответа</span><span class="sxs-lookup"><span data-stu-id="eb07e-120">Response elements</span></span>
+### <a name="response-elements"></a><span data-ttu-id="c52c0-120">Элементы ответа</span><span class="sxs-lookup"><span data-stu-id="c52c0-120">Response elements</span></span>
 
-<span data-ttu-id="eb07e-121">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="eb07e-121">The following elements are used in the response:</span></span>
+<span data-ttu-id="c52c0-121">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c52c0-121">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="eb07e-122">GetFederationInformationResponseMessage (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-122">GetFederationInformationResponseMessage (SOAP)</span></span>](getfederationinformationresponsemessage-soap.md)
+- [<span data-ttu-id="c52c0-122">GetFederationInformationResponseMessage (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-122">GetFederationInformationResponseMessage (SOAP)</span></span>](getfederationinformationresponsemessage-soap.md)
     
-- [<span data-ttu-id="eb07e-123">Ответ (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-123">Response (SOAP)</span></span>](response-soap.md)
+- [<span data-ttu-id="c52c0-123">Ответ (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-123">Response (SOAP)</span></span>](response-soap.md)
     
-- [<span data-ttu-id="eb07e-124">Код ошибки (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-124">ErrorCode (SOAP)</span></span>](errorcode-soap.md)
+- [<span data-ttu-id="c52c0-124">Код ошибки (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-124">ErrorCode (SOAP)</span></span>](errorcode-soap.md)
     
-- [<span data-ttu-id="eb07e-125">Сообщение об ошибке (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-125">ErrorMessage (SOAP)</span></span>](errormessage-soap.md)
+- [<span data-ttu-id="c52c0-125">Сообщение об ошибке (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-125">ErrorMessage (SOAP)</span></span>](errormessage-soap.md)
     
-- [<span data-ttu-id="eb07e-126">ApplicationUri (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-126">ApplicationUri (SOAP)</span></span>](applicationuri-soap.md)
+- [<span data-ttu-id="c52c0-126">ApplicationUri (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-126">ApplicationUri (SOAP)</span></span>](applicationuri-soap.md)
     
-- [<span data-ttu-id="eb07e-127">Домены (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-127">Domains (SOAP)</span></span>](domains-soap.md)
+- [<span data-ttu-id="c52c0-127">Домены (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-127">Domains (SOAP)</span></span>](domains-soap.md)
     
-- [<span data-ttu-id="eb07e-128">Домен (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-128">Domain (SOAP)</span></span>](domain-soap.md)
+- [<span data-ttu-id="c52c0-128">Домен (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-128">Domain (SOAP)</span></span>](domain-soap.md)
     
-## <a name="see-also"></a><span data-ttu-id="eb07e-129">См. также</span><span class="sxs-lookup"><span data-stu-id="eb07e-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c52c0-129">См. также</span><span class="sxs-lookup"><span data-stu-id="c52c0-129">See also</span></span>
 
-- [<span data-ttu-id="eb07e-130">Операция GetUserSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-130">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
-- [<span data-ttu-id="eb07e-131">Операция GetDomainSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="eb07e-131">GetDomainSettings operation (SOAP)</span></span>](getdomainsettings-operation-soap.md)
+- [<span data-ttu-id="c52c0-130">Операция GetUserSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-130">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
+- [<span data-ttu-id="c52c0-131">Операция GetDomainSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="c52c0-131">GetDomainSettings operation (SOAP)</span></span>](getdomainsettings-operation-soap.md)
 

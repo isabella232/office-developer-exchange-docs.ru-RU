@@ -16,20 +16,20 @@ ms.openlocfilehash: 2a485b84ee87aec2ed807e3f4f0901b83432fa0a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761424"
 ---
-# <a name="applyconversationaction-operation"></a><span data-ttu-id="6608c-105">Операция ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="6608c-105">ApplyConversationAction operation</span></span>
+# <a name="applyconversationaction-operation"></a><span data-ttu-id="72fc7-105">Операция ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="72fc7-105">ApplyConversationAction operation</span></span>
 
-<span data-ttu-id="6608c-106">Операция **ApplyConversationAction** задает одноразовый или исполнению действие для всех элементов в беседе.</span><span class="sxs-lookup"><span data-stu-id="6608c-106">The **ApplyConversationAction** operation sets a one-time or follow up action on all the items in a conversation.</span></span> <span data-ttu-id="6608c-107">Операция **ApplyConversationAction** позволяет распределить по категориям, перемещение, копирование, удаление и устанавливать состояние чтения всех элементов в беседе.</span><span class="sxs-lookup"><span data-stu-id="6608c-107">The **ApplyConversationAction** operation allows you to categorize, move, copy, delete, and set the read state on all items in a conversation.</span></span> <span data-ttu-id="6608c-108">Действия можно также задать для новых сообщений в беседе.</span><span class="sxs-lookup"><span data-stu-id="6608c-108">Actions can also be set for new messages in a conversation.</span></span> 
+<span data-ttu-id="72fc7-106">Операция **ApplyConversationAction** задает одноразовый или исполнению действие для всех элементов в беседе.</span><span class="sxs-lookup"><span data-stu-id="72fc7-106">The **ApplyConversationAction** operation sets a one-time or follow up action on all the items in a conversation.</span></span> <span data-ttu-id="72fc7-107">Операция **ApplyConversationAction** позволяет распределить по категориям, перемещение, копирование, удаление и устанавливать состояние чтения всех элементов в беседе.</span><span class="sxs-lookup"><span data-stu-id="72fc7-107">The **ApplyConversationAction** operation allows you to categorize, move, copy, delete, and set the read state on all items in a conversation.</span></span> <span data-ttu-id="72fc7-108">Действия можно также задать для новых сообщений в беседе.</span><span class="sxs-lookup"><span data-stu-id="72fc7-108">Actions can also be set for new messages in a conversation.</span></span> 
   
-## <a name="applyconversationaction-request-example"></a><span data-ttu-id="6608c-109">Пример запроса ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="6608c-109">ApplyConversationAction request example</span></span>
+## <a name="applyconversationaction-request-example"></a><span data-ttu-id="72fc7-109">Пример запроса ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="72fc7-109">ApplyConversationAction request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="6608c-110">Описание</span><span class="sxs-lookup"><span data-stu-id="6608c-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="72fc7-110">Описание</span><span class="sxs-lookup"><span data-stu-id="72fc7-110">Description</span></span>
 
-<span data-ttu-id="6608c-111">В следующем примере запрос **ApplyConversationAction** показано, как перемещать элементы в указанной беседе в другую папку.</span><span class="sxs-lookup"><span data-stu-id="6608c-111">The following example of an **ApplyConversationAction** request shows how to move the items in the specified conversation to another folder.</span></span> <span data-ttu-id="6608c-112">Также элементы, добавляемые к беседе будут перемещены в указанную папку.</span><span class="sxs-lookup"><span data-stu-id="6608c-112">Items that are added to the conversation will also be moved to the specified folder.</span></span> 
+<span data-ttu-id="72fc7-111">В следующем примере запрос **ApplyConversationAction** показано, как перемещать элементы в указанной беседе в другую папку.</span><span class="sxs-lookup"><span data-stu-id="72fc7-111">The following example of an **ApplyConversationAction** request shows how to move the items in the specified conversation to another folder.</span></span> <span data-ttu-id="72fc7-112">Также элементы, добавляемые к беседе будут перемещены в указанную папку.</span><span class="sxs-lookup"><span data-stu-id="72fc7-112">Items that are added to the conversation will also be moved to the specified folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="6608c-113">Программа</span><span class="sxs-lookup"><span data-stu-id="6608c-113">Code</span></span>
+### <a name="code"></a><span data-ttu-id="72fc7-113">Программа</span><span class="sxs-lookup"><span data-stu-id="72fc7-113">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -57,17 +57,17 @@ ms.locfileid: "19761424"
 </soap:Envelope>
 ```
 
-### <a name="remarks"></a><span data-ttu-id="6608c-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="6608c-114">Remarks</span></span>
+### <a name="remarks"></a><span data-ttu-id="72fc7-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="72fc7-114">Remarks</span></span>
 
-<span data-ttu-id="6608c-115">Идентификаторы беседы и папки URL-были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="6608c-115">The conversation and folder identifiers have been shortened to preserve readability.</span></span>
+<span data-ttu-id="72fc7-115">Идентификаторы беседы и папки URL-были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="72fc7-115">The conversation and folder identifiers have been shortened to preserve readability.</span></span>
   
-## <a name="applyconversationaction-response-example"></a><span data-ttu-id="6608c-116">Пример ответа ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="6608c-116">ApplyConversationAction response example</span></span>
+## <a name="applyconversationaction-response-example"></a><span data-ttu-id="72fc7-116">Пример ответа ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="72fc7-116">ApplyConversationAction response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="6608c-117">Описание</span><span class="sxs-lookup"><span data-stu-id="6608c-117">Description</span></span>
+### <a name="description"></a><span data-ttu-id="72fc7-117">Описание</span><span class="sxs-lookup"><span data-stu-id="72fc7-117">Description</span></span>
 
-<span data-ttu-id="6608c-118">В следующем примере показано успешного ответа на запрос **ApplyConversationAction** .</span><span class="sxs-lookup"><span data-stu-id="6608c-118">The following example shows a successful response to an **ApplyConversationAction** request.</span></span> 
+<span data-ttu-id="72fc7-118">В следующем примере показано успешного ответа на запрос **ApplyConversationAction** .</span><span class="sxs-lookup"><span data-stu-id="72fc7-118">The following example shows a successful response to an **ApplyConversationAction** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="6608c-119">Программа</span><span class="sxs-lookup"><span data-stu-id="6608c-119">Code</span></span>
+### <a name="code"></a><span data-ttu-id="72fc7-119">Программа</span><span class="sxs-lookup"><span data-stu-id="72fc7-119">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,10 +97,10 @@ ms.locfileid: "19761424"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="6608c-120">См. также</span><span class="sxs-lookup"><span data-stu-id="6608c-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="72fc7-120">См. также</span><span class="sxs-lookup"><span data-stu-id="72fc7-120">See also</span></span>
 
-- [<span data-ttu-id="6608c-121">Операция ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="6608c-121">ApplyConversationAction operation</span></span>](applyconversationaction-operation.md)
-- [<span data-ttu-id="6608c-122">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="6608c-122">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
-- [<span data-ttu-id="6608c-123">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="6608c-123">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
-- [<span data-ttu-id="6608c-124">Conversations in EWS</span><span class="sxs-lookup"><span data-stu-id="6608c-124">Conversations in EWS</span></span>](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+- [<span data-ttu-id="72fc7-121">Операция ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="72fc7-121">ApplyConversationAction operation</span></span>](applyconversationaction-operation.md)
+- [<span data-ttu-id="72fc7-122">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="72fc7-122">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="72fc7-123">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="72fc7-123">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="72fc7-124">Conversations in EWS</span><span class="sxs-lookup"><span data-stu-id="72fc7-124">Conversations in EWS</span></span>](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

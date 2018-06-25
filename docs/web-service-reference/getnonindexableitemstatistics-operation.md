@@ -12,37 +12,37 @@ ms.openlocfilehash: 35c2d3321c6e1a3154c88307d0e875cd6997e7fb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762858"
 ---
-# <a name="getnonindexableitemstatistics-operation"></a><span data-ttu-id="36831-103">Операция GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="36831-103">GetNonIndexableItemStatistics operation</span></span>
+# <a name="getnonindexableitemstatistics-operation"></a><span data-ttu-id="153ff-103">Операция GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="153ff-103">GetNonIndexableItemStatistics operation</span></span>
 
-<span data-ttu-id="36831-104">Найдите сведения о **GetNonIndexableItemStatistics** операции веб-служб Exchange.</span><span class="sxs-lookup"><span data-stu-id="36831-104">Find information about the **GetNonIndexableItemStatistics** EWS operation.</span></span> 
+<span data-ttu-id="153ff-104">Найдите сведения о **GetNonIndexableItemStatistics** операции веб-служб Exchange.</span><span class="sxs-lookup"><span data-stu-id="153ff-104">Find information about the **GetNonIndexableItemStatistics** EWS operation.</span></span> 
   
-<span data-ttu-id="36831-105">Операция **GetNonIndexableItemStatistics** извлекает число элементов, которые не могут быть индексированы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="36831-105">The **GetNonIndexableItemStatistics** operation retrieves the count of items that cannot be indexed in a mailbox.</span></span> 
+<span data-ttu-id="153ff-105">Операция **GetNonIndexableItemStatistics** извлекает число элементов, которые не могут быть индексированы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="153ff-105">The **GetNonIndexableItemStatistics** operation retrieves the count of items that cannot be indexed in a mailbox.</span></span> 
   
-<span data-ttu-id="36831-106">Эта операция появилась в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="36831-106">This operation was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="153ff-106">Эта операция появилась в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="153ff-106">This operation was introduced in Exchange Server 2013.</span></span>
   
-## <a name="using-the-getnonindexableitemstatistics-operation"></a><span data-ttu-id="36831-107">С помощью операции GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="36831-107">Using the GetNonIndexableItemStatistics operation</span></span>
+## <a name="using-the-getnonindexableitemstatistics-operation"></a><span data-ttu-id="153ff-107">С помощью операции GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="153ff-107">Using the GetNonIndexableItemStatistics operation</span></span>
 
-<span data-ttu-id="36831-108">Операция **GetNonIndexableItemStatistics** подсчитывает элементы почтовых ящиков, которые не могут быть индексированы.</span><span class="sxs-lookup"><span data-stu-id="36831-108">The **GetNonIndexableItemStatistics** operation counts mailbox items that cannot be indexed.</span></span> <span data-ttu-id="36831-109">Во время поиска обнаружения не поиска элементов, которые не могут быть индексированы.</span><span class="sxs-lookup"><span data-stu-id="36831-109">Items that cannot be indexed are not searched during a discovery search.</span></span> 
+<span data-ttu-id="153ff-108">Операция **GetNonIndexableItemStatistics** подсчитывает элементы почтовых ящиков, которые не могут быть индексированы.</span><span class="sxs-lookup"><span data-stu-id="153ff-108">The **GetNonIndexableItemStatistics** operation counts mailbox items that cannot be indexed.</span></span> <span data-ttu-id="153ff-109">Во время поиска обнаружения не поиска элементов, которые не могут быть индексированы.</span><span class="sxs-lookup"><span data-stu-id="153ff-109">Items that cannot be indexed are not searched during a discovery search.</span></span> 
   
-### <a name="getnonindexableitemstatistics-operation-soap-headers"></a><span data-ttu-id="36831-110">Заголовки SOAP GetNonIndexableItemStatistics операции</span><span class="sxs-lookup"><span data-stu-id="36831-110">GetNonIndexableItemStatistics operation SOAP headers</span></span>
+### <a name="getnonindexableitemstatistics-operation-soap-headers"></a><span data-ttu-id="153ff-110">Заголовки SOAP GetNonIndexableItemStatistics операции</span><span class="sxs-lookup"><span data-stu-id="153ff-110">GetNonIndexableItemStatistics operation SOAP headers</span></span>
 
-<span data-ttu-id="36831-111">Операция **GetNonIndexableItemStatistics** можно использовать заголовки SOAP, которые перечислены в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="36831-111">The **GetNonIndexableItemStatistics** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="153ff-111">Операция **GetNonIndexableItemStatistics** можно использовать заголовки SOAP, которые перечислены в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="153ff-111">The **GetNonIndexableItemStatistics** operation can use the SOAP headers that are listed in the following table.</span></span> 
   
-|<span data-ttu-id="36831-112">**Имя заголовка**</span><span class="sxs-lookup"><span data-stu-id="36831-112">**Header name**</span></span>|<span data-ttu-id="36831-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="36831-113">**Element**</span></span>|<span data-ttu-id="36831-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="36831-114">**Description**</span></span>|
+|<span data-ttu-id="153ff-112">**Имя заголовка**</span><span class="sxs-lookup"><span data-stu-id="153ff-112">**Header name**</span></span>|<span data-ttu-id="153ff-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="153ff-113">**Element**</span></span>|<span data-ttu-id="153ff-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="153ff-114">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="36831-115">**ManagementRole**</span><span class="sxs-lookup"><span data-stu-id="36831-115">**ManagementRole**</span></span> <br/> |[<span data-ttu-id="36831-116">ManagementRole</span><span class="sxs-lookup"><span data-stu-id="36831-116">ManagementRole</span></span>](managementrole.md) <br/> |<span data-ttu-id="36831-117">Идентифицирует ролей сервера, необходимых в порядке для абонентов для запроса.</span><span class="sxs-lookup"><span data-stu-id="36831-117">Identifies the server roles that are necessary in order for the caller to make the request.</span></span> <span data-ttu-id="36831-118">Этот заголовок можно применять к запросу.</span><span class="sxs-lookup"><span data-stu-id="36831-118">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="36831-119">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="36831-119">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="36831-120">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="36831-120">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="36831-121">Определяет версию схемы для операции запроса.</span><span class="sxs-lookup"><span data-stu-id="36831-121">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="36831-122">Этот заголовок можно применять к запросу.</span><span class="sxs-lookup"><span data-stu-id="36831-122">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="36831-123">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="36831-123">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="36831-124">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="36831-124">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="36831-125">Определяет версию сервера, ответившего на запрос.</span><span class="sxs-lookup"><span data-stu-id="36831-125">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="36831-126">Этот заголовок можно применять, чтобы получить ответ.</span><span class="sxs-lookup"><span data-stu-id="36831-126">This header is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="153ff-115">**ManagementRole**</span><span class="sxs-lookup"><span data-stu-id="153ff-115">**ManagementRole**</span></span> <br/> |[<span data-ttu-id="153ff-116">ManagementRole</span><span class="sxs-lookup"><span data-stu-id="153ff-116">ManagementRole</span></span>](managementrole.md) <br/> |<span data-ttu-id="153ff-117">Идентифицирует ролей сервера, необходимых в порядке для абонентов для запроса.</span><span class="sxs-lookup"><span data-stu-id="153ff-117">Identifies the server roles that are necessary in order for the caller to make the request.</span></span> <span data-ttu-id="153ff-118">Этот заголовок можно применять к запросу.</span><span class="sxs-lookup"><span data-stu-id="153ff-118">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="153ff-119">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="153ff-119">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="153ff-120">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="153ff-120">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="153ff-121">Определяет версию схемы для операции запроса.</span><span class="sxs-lookup"><span data-stu-id="153ff-121">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="153ff-122">Этот заголовок можно применять к запросу.</span><span class="sxs-lookup"><span data-stu-id="153ff-122">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="153ff-123">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="153ff-123">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="153ff-124">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="153ff-124">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="153ff-125">Определяет версию сервера, ответившего на запрос.</span><span class="sxs-lookup"><span data-stu-id="153ff-125">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="153ff-126">Этот заголовок можно применять, чтобы получить ответ.</span><span class="sxs-lookup"><span data-stu-id="153ff-126">This header is applicable to a response.</span></span>  <br/> |
    
-## <a name="getnonindexableitemstatistics-operation-request-example-get-the-count-of-items-that-cannot-be-indexed-in-a-mailbox"></a><span data-ttu-id="36831-127">Пример запроса GetNonIndexableItemStatistics операции: получение числа элементов, которые не могут быть индексированы в почтовом ящике</span><span class="sxs-lookup"><span data-stu-id="36831-127">GetNonIndexableItemStatistics operation request example: Get the count of items that cannot be indexed in a mailbox</span></span>
+## <a name="getnonindexableitemstatistics-operation-request-example-get-the-count-of-items-that-cannot-be-indexed-in-a-mailbox"></a><span data-ttu-id="153ff-127">Пример запроса GetNonIndexableItemStatistics операции: получение числа элементов, которые не могут быть индексированы в почтовом ящике</span><span class="sxs-lookup"><span data-stu-id="153ff-127">GetNonIndexableItemStatistics operation request example: Get the count of items that cannot be indexed in a mailbox</span></span>
 
-<span data-ttu-id="36831-128">В следующем примере запрос операции **GetNonIndexableItemStatistics** показано, как запросить число элементов, которые не могут быть индексированы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="36831-128">The following example of a **GetNonIndexableItemStatistics** operation request shows how to request the count of items that cannot be indexed in a mailbox.</span></span> 
+<span data-ttu-id="153ff-128">В следующем примере запрос операции **GetNonIndexableItemStatistics** показано, как запросить число элементов, которые не могут быть индексированы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="153ff-128">The following example of a **GetNonIndexableItemStatistics** operation request shows how to request the count of items that cannot be indexed in a mailbox.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="36831-129">Все устаревшие доменных имен в этом примере имеют сокращение, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="36831-129">All legacy domain names in this example have be shortened to preserve readability.</span></span> 
+> <span data-ttu-id="153ff-129">Все устаревшие доменных имен в этом примере имеют сокращение, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="153ff-129">All legacy domain names in this example have be shortened to preserve readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -64,19 +64,19 @@ ms.locfileid: "19762858"
 
 ```
 
-<span data-ttu-id="36831-130">Запрос SOAP body содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="36831-130">The request SOAP body contains the following elements:</span></span>
+<span data-ttu-id="153ff-130">Запрос SOAP body содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="153ff-130">The request SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="36831-131">GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="36831-131">GetNonIndexableItemStatistics</span></span>](getnonindexableitemstatistics.md)
+- [<span data-ttu-id="153ff-131">GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="153ff-131">GetNonIndexableItemStatistics</span></span>](getnonindexableitemstatistics.md)
     
-- [<span data-ttu-id="36831-132">Почтовые ящики (NonEmptyArrayOfLegacyDNsType)</span><span class="sxs-lookup"><span data-stu-id="36831-132">Mailboxes (NonEmptyArrayOfLegacyDNsType)</span></span>](mailboxes-nonemptyarrayoflegacydnstype.md)
+- [<span data-ttu-id="153ff-132">Почтовые ящики (NonEmptyArrayOfLegacyDNsType)</span><span class="sxs-lookup"><span data-stu-id="153ff-132">Mailboxes (NonEmptyArrayOfLegacyDNsType)</span></span>](mailboxes-nonemptyarrayoflegacydnstype.md)
     
-- [<span data-ttu-id="36831-133">LegacyDN</span><span class="sxs-lookup"><span data-stu-id="36831-133">LegacyDN</span></span>](legacydn.md)
+- [<span data-ttu-id="153ff-133">LegacyDN</span><span class="sxs-lookup"><span data-stu-id="153ff-133">LegacyDN</span></span>](legacydn.md)
     
-- [<span data-ttu-id="36831-134">SearchArchiveOnly</span><span class="sxs-lookup"><span data-stu-id="36831-134">SearchArchiveOnly</span></span>](searcharchiveonly.md)
+- [<span data-ttu-id="153ff-134">SearchArchiveOnly</span><span class="sxs-lookup"><span data-stu-id="153ff-134">SearchArchiveOnly</span></span>](searcharchiveonly.md)
     
-## <a name="successful-getnonindexableitemstatistics-operation-response"></a><span data-ttu-id="36831-135">Успешные операции ответа GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="36831-135">Successful GetNonIndexableItemStatistics operation response</span></span>
+## <a name="successful-getnonindexableitemstatistics-operation-response"></a><span data-ttu-id="153ff-135">Успешные операции ответа GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="153ff-135">Successful GetNonIndexableItemStatistics operation response</span></span>
 
-<span data-ttu-id="36831-136">В следующем примере показано успешного ответа на запрос операции **GetNonIndexableItemStatistics** для получения количества элементов, которые не могут быть индексированы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="36831-136">The following example shows a successful response to a **GetNonIndexableItemStatistics** operation request to get the count of items that cannot be indexed in a mailbox.</span></span> 
+<span data-ttu-id="153ff-136">В следующем примере показано успешного ответа на запрос операции **GetNonIndexableItemStatistics** для получения количества элементов, которые не могут быть индексированы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="153ff-136">The following example shows a successful response to a **GetNonIndexableItemStatistics** operation request to get the count of items that cannot be indexed in a mailbox.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -109,23 +109,23 @@ ms.locfileid: "19762858"
 
 ```
 
-<span data-ttu-id="36831-137">Ответ SOAP body содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="36831-137">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="153ff-137">Ответ SOAP body содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="153ff-137">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="36831-138">GetNonIndexableItemStatisticsResponse</span><span class="sxs-lookup"><span data-stu-id="36831-138">GetNonIndexableItemStatisticsResponse</span></span>](getnonindexableitemstatisticsresponse.md)
+- [<span data-ttu-id="153ff-138">GetNonIndexableItemStatisticsResponse</span><span class="sxs-lookup"><span data-stu-id="153ff-138">GetNonIndexableItemStatisticsResponse</span></span>](getnonindexableitemstatisticsresponse.md)
     
-- [<span data-ttu-id="36831-139">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="36831-139">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="153ff-139">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="153ff-139">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="36831-140">NonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="36831-140">NonIndexableItemStatistics</span></span>](nonindexableitemstatistics.md)
+- [<span data-ttu-id="153ff-140">NonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="153ff-140">NonIndexableItemStatistics</span></span>](nonindexableitemstatistics.md)
     
-- [<span data-ttu-id="36831-141">NonIndexableItemStatistic</span><span class="sxs-lookup"><span data-stu-id="36831-141">NonIndexableItemStatistic</span></span>](nonindexableitemstatistic.md)
+- [<span data-ttu-id="153ff-141">NonIndexableItemStatistic</span><span class="sxs-lookup"><span data-stu-id="153ff-141">NonIndexableItemStatistic</span></span>](nonindexableitemstatistic.md)
     
-- [<span data-ttu-id="36831-142">Почтовый ящик (строка)</span><span class="sxs-lookup"><span data-stu-id="36831-142">Mailbox (string)</span></span>](mailbox-string.md)
+- [<span data-ttu-id="153ff-142">Почтовый ящик (строка)</span><span class="sxs-lookup"><span data-stu-id="153ff-142">Mailbox (string)</span></span>](mailbox-string.md)
     
-- [<span data-ttu-id="36831-143">ItemCount</span><span class="sxs-lookup"><span data-stu-id="36831-143">ItemCount</span></span>](itemcount.md)
+- [<span data-ttu-id="153ff-143">ItemCount</span><span class="sxs-lookup"><span data-stu-id="153ff-143">ItemCount</span></span>](itemcount.md)
     
-## <a name="getnonindexableitemstatistics-operation-error-response"></a><span data-ttu-id="36831-144">Ошибка операции GetNonIndexableItemStatistics ответа</span><span class="sxs-lookup"><span data-stu-id="36831-144">GetNonIndexableItemStatistics operation error response</span></span>
+## <a name="getnonindexableitemstatistics-operation-error-response"></a><span data-ttu-id="153ff-144">Ошибка операции GetNonIndexableItemStatistics ответа</span><span class="sxs-lookup"><span data-stu-id="153ff-144">GetNonIndexableItemStatistics operation error response</span></span>
 
-<span data-ttu-id="36831-145">В следующем примере показано ошибочный ответ на запрос операции **GetNonIndexableItemStatistics** .</span><span class="sxs-lookup"><span data-stu-id="36831-145">The following example shows an error response to a **GetNonIndexableItemStatistics** operation request.</span></span> <span data-ttu-id="36831-146">Это ответ на запрос для получения количества элементов, которые не могут быть индексированы из более одного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="36831-146">This is a response to a request to get the count of items that cannot be indexed from more than one mailbox.</span></span> 
+<span data-ttu-id="153ff-145">В следующем примере показано ошибочный ответ на запрос операции **GetNonIndexableItemStatistics** .</span><span class="sxs-lookup"><span data-stu-id="153ff-145">The following example shows an error response to a **GetNonIndexableItemStatistics** operation request.</span></span> <span data-ttu-id="153ff-146">Это ответ на запрос для получения количества элементов, которые не могут быть индексированы из более одного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="153ff-146">This is a response to a request to get the count of items that cannot be indexed from more than one mailbox.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -154,32 +154,32 @@ ms.locfileid: "19762858"
 
 ```
 
-<span data-ttu-id="36831-147">Ошибка ответ SOAP body содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="36831-147">The error response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="153ff-147">Ошибка ответ SOAP body содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="153ff-147">The error response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="36831-148">GetNonIndexableItemStatisticsResponse</span><span class="sxs-lookup"><span data-stu-id="36831-148">GetNonIndexableItemStatisticsResponse</span></span>](getnonindexableitemstatisticsresponse.md)
+- [<span data-ttu-id="153ff-148">GetNonIndexableItemStatisticsResponse</span><span class="sxs-lookup"><span data-stu-id="153ff-148">GetNonIndexableItemStatisticsResponse</span></span>](getnonindexableitemstatisticsresponse.md)
     
-- [<span data-ttu-id="36831-149">MessageText</span><span class="sxs-lookup"><span data-stu-id="36831-149">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="153ff-149">MessageText</span><span class="sxs-lookup"><span data-stu-id="153ff-149">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="36831-150">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="36831-150">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="153ff-150">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="153ff-150">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="36831-151">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="36831-151">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="153ff-151">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="153ff-151">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-<span data-ttu-id="36831-152">Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="36831-152">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
+<span data-ttu-id="153ff-152">Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="153ff-152">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="36831-153">См. также</span><span class="sxs-lookup"><span data-stu-id="36831-153">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="153ff-153">См. также</span><span class="sxs-lookup"><span data-stu-id="153ff-153">See also</span></span>
 
-- [<span data-ttu-id="36831-154">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="36831-154">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="153ff-154">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="153ff-154">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
     
-- [<span data-ttu-id="36831-155">Операция GetSearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="36831-155">GetSearchableMailboxes operation</span></span>](getsearchablemailboxes-operation.md)
+- [<span data-ttu-id="153ff-155">Операция GetSearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="153ff-155">GetSearchableMailboxes operation</span></span>](getsearchablemailboxes-operation.md)
     
-- [<span data-ttu-id="36831-156">Операция SearchMailboxes</span><span class="sxs-lookup"><span data-stu-id="36831-156">SearchMailboxes operation</span></span>](searchmailboxes-operation.md)
+- [<span data-ttu-id="153ff-156">Операция SearchMailboxes</span><span class="sxs-lookup"><span data-stu-id="153ff-156">SearchMailboxes operation</span></span>](searchmailboxes-operation.md)
     
-- [<span data-ttu-id="36831-157">Операция GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="36831-157">GetHoldOnMailboxes operation</span></span>](getholdonmailboxes-operation.md)
+- [<span data-ttu-id="153ff-157">Операция GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="153ff-157">GetHoldOnMailboxes operation</span></span>](getholdonmailboxes-operation.md)
     
-- [<span data-ttu-id="36831-158">Операция SetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="36831-158">SetHoldOnMailboxes operation</span></span>](setholdonmailboxes-operation.md)
+- [<span data-ttu-id="153ff-158">Операция SetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="153ff-158">SetHoldOnMailboxes operation</span></span>](setholdonmailboxes-operation.md)
     
-- [<span data-ttu-id="36831-159">Операция GetDiscoverySearchConfiguration</span><span class="sxs-lookup"><span data-stu-id="36831-159">GetDiscoverySearchConfiguration operation</span></span>](getdiscoverysearchconfiguration-operation.md)
+- [<span data-ttu-id="153ff-159">Операция GetDiscoverySearchConfiguration</span><span class="sxs-lookup"><span data-stu-id="153ff-159">GetDiscoverySearchConfiguration operation</span></span>](getdiscoverysearchconfiguration-operation.md)
     
-- [<span data-ttu-id="36831-160">Операция GetNonIndexableItemDetails</span><span class="sxs-lookup"><span data-stu-id="36831-160">GetNonIndexableItemDetails operation</span></span>](getnonindexableitemdetails-operation.md)
+- [<span data-ttu-id="153ff-160">Операция GetNonIndexableItemDetails</span><span class="sxs-lookup"><span data-stu-id="153ff-160">GetNonIndexableItemDetails operation</span></span>](getnonindexableitemdetails-operation.md)
     
 

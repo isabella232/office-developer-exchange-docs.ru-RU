@@ -12,12 +12,12 @@ ms.openlocfilehash: f4ecc858af2150bb3f88ebdf9ed541892f2fead1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762898"
 ---
-# <a name="getreminders"></a><span data-ttu-id="89c80-103">GetReminders</span><span class="sxs-lookup"><span data-stu-id="89c80-103">GetReminders</span></span>
+# <a name="getreminders"></a><span data-ttu-id="3f682-103">GetReminders</span><span class="sxs-lookup"><span data-stu-id="3f682-103">GetReminders</span></span>
 
-<span data-ttu-id="89c80-104">Элемент **GetReminders** определяет запрос на получение напоминаний.</span><span class="sxs-lookup"><span data-stu-id="89c80-104">The **GetReminders** element specifies a request to get reminders.</span></span> 
+<span data-ttu-id="3f682-104">Элемент **GetReminders** определяет запрос на получение напоминаний.</span><span class="sxs-lookup"><span data-stu-id="3f682-104">The **GetReminders** element specifies a request to get reminders.</span></span> 
   
 ```XML
 <GetReminders>
@@ -29,41 +29,41 @@ ms.locfileid: "19762898"
 
 ```
 
- <span data-ttu-id="89c80-105">**GetRemindersType**</span><span class="sxs-lookup"><span data-stu-id="89c80-105">**GetRemindersType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="89c80-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="89c80-106">Attributes and elements</span></span>
+ <span data-ttu-id="3f682-105">**GetRemindersType**</span><span class="sxs-lookup"><span data-stu-id="3f682-105">**GetRemindersType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="3f682-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="3f682-106">Attributes and elements</span></span>
 
-<span data-ttu-id="89c80-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="89c80-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="3f682-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="3f682-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="89c80-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="89c80-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="3f682-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="3f682-108">Attributes</span></span>
 
-<span data-ttu-id="89c80-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="89c80-109">None.</span></span>
+<span data-ttu-id="3f682-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="3f682-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="89c80-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="89c80-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="3f682-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="3f682-110">Child elements</span></span>
 
-<span data-ttu-id="89c80-111">[BeginTime](begintime.md) | [EndTime (ReminderMessageDataType)](endtime-remindermessagedatatype.md) | [MaxItems](maxitems.md) | [ReminderType](remindertype.md)</span><span class="sxs-lookup"><span data-stu-id="89c80-111">[BeginTime](begintime.md) | [EndTime (ReminderMessageDataType)](endtime-remindermessagedatatype.md) | [MaxItems](maxitems.md) | [ReminderType](remindertype.md)</span></span>
+<span data-ttu-id="3f682-111">[BeginTime](begintime.md) | [EndTime (ReminderMessageDataType)](endtime-remindermessagedatatype.md) | [MaxItems](maxitems.md) | [ReminderType](remindertype.md)</span><span class="sxs-lookup"><span data-stu-id="3f682-111">[BeginTime](begintime.md) | [EndTime (ReminderMessageDataType)](endtime-remindermessagedatatype.md) | [MaxItems](maxitems.md) | [ReminderType](remindertype.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="89c80-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="89c80-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="3f682-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="3f682-112">Parent elements</span></span>
 
-<span data-ttu-id="89c80-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="89c80-113">None.</span></span>
+<span data-ttu-id="3f682-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="3f682-113">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="89c80-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="89c80-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f682-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="3f682-114">Remarks</span></span>
 
-<span data-ttu-id="89c80-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="89c80-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="3f682-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3f682-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="89c80-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="89c80-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="3f682-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="3f682-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="89c80-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="89c80-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="3f682-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="3f682-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="89c80-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="89c80-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="89c80-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="89c80-119">Schema Name</span></span>  <br/> |<span data-ttu-id="89c80-120">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="89c80-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="89c80-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="89c80-121">Validation File</span></span>  <br/> |<span data-ttu-id="89c80-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="89c80-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="89c80-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="89c80-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="89c80-124">True</span><span class="sxs-lookup"><span data-stu-id="89c80-124">True</span></span>  <br/> |
+|<span data-ttu-id="3f682-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="3f682-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="3f682-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="3f682-119">Schema Name</span></span>  <br/> |<span data-ttu-id="3f682-120">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="3f682-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="3f682-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="3f682-121">Validation File</span></span>  <br/> |<span data-ttu-id="3f682-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="3f682-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="3f682-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="3f682-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="3f682-124">True</span><span class="sxs-lookup"><span data-stu-id="3f682-124">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="89c80-125">См. также</span><span class="sxs-lookup"><span data-stu-id="89c80-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f682-125">См. также</span><span class="sxs-lookup"><span data-stu-id="3f682-125">See also</span></span>
 
 
 
-- [<span data-ttu-id="89c80-126">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="89c80-126">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="3f682-126">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="3f682-126">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

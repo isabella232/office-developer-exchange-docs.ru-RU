@@ -16,12 +16,12 @@ ms.openlocfilehash: 9e0128ee3fa2b6ffdc5975946694475afec53c25
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761379"
 ---
-# <a name="and-protectionruleandtype"></a><span data-ttu-id="4ae66-103">И (ProtectionRuleAndType)</span><span class="sxs-lookup"><span data-stu-id="4ae66-103">And (ProtectionRuleAndType)</span></span>
+# <a name="and-protectionruleandtype"></a><span data-ttu-id="1050b-103">И (ProtectionRuleAndType)</span><span class="sxs-lookup"><span data-stu-id="1050b-103">And (ProtectionRuleAndType)</span></span>
 
-<span data-ttu-id="4ae66-104">Элемент **и** указывает, что все дочерние элементы должны соответствовать значение **true**.</span><span class="sxs-lookup"><span data-stu-id="4ae66-104">The **And** element specifies that all child elements must match to evaluate to **true**.</span></span>
+<span data-ttu-id="1050b-104">Элемент **и** указывает, что все дочерние элементы должны соответствовать значение **true**.</span><span class="sxs-lookup"><span data-stu-id="1050b-104">The **And** element specifies that all child elements must match to evaluate to **true**.</span></span>
   
 ```xml
 <And>
@@ -33,50 +33,50 @@ ms.locfileid: "19761379"
 </And>
 ```
 
- <span data-ttu-id="4ae66-105">**ProtectionRuleAndType**</span><span class="sxs-lookup"><span data-stu-id="4ae66-105">**ProtectionRuleAndType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="4ae66-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="4ae66-106">Attributes and elements</span></span>
+ <span data-ttu-id="1050b-105">**ProtectionRuleAndType**</span><span class="sxs-lookup"><span data-stu-id="1050b-105">**ProtectionRuleAndType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="1050b-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="1050b-106">Attributes and elements</span></span>
 
-<span data-ttu-id="4ae66-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="4ae66-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="1050b-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="1050b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="4ae66-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="4ae66-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="1050b-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="1050b-108">Attributes</span></span>
 
-<span data-ttu-id="4ae66-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="4ae66-109">None.</span></span>
+<span data-ttu-id="1050b-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="1050b-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="4ae66-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="4ae66-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="1050b-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="1050b-110">Child elements</span></span>
 
-|<span data-ttu-id="4ae66-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="4ae66-111">**Element**</span></span>|<span data-ttu-id="4ae66-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="4ae66-112">**Description**</span></span>|
+|<span data-ttu-id="1050b-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="1050b-111">**Element**</span></span>|<span data-ttu-id="1050b-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="1050b-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="4ae66-113">AllInternal</span><span class="sxs-lookup"><span data-stu-id="4ae66-113">AllInternal</span></span>](allinternal.md) <br/> |<span data-ttu-id="4ae66-114">Имеет значение **true** , если все получатели сообщения электронной почты являются внутренними относительно организации отправителя.</span><span class="sxs-lookup"><span data-stu-id="4ae66-114">Evaluates to **true** if all recipients of an e-mail message are internal to the sender's organization.</span></span>  <br/> |
-|<span data-ttu-id="4ae66-115">**И**</span><span class="sxs-lookup"><span data-stu-id="4ae66-115">**And**</span></span> <br/> |<span data-ttu-id="4ae66-116">Указывает, что все дочерние элементы должны соответствовать значение **true**.</span><span class="sxs-lookup"><span data-stu-id="4ae66-116">Specifies that all child elements must match to evaluate to **true**.</span></span>  <br/> |
-|[<span data-ttu-id="4ae66-117">RecipientIs</span><span class="sxs-lookup"><span data-stu-id="4ae66-117">RecipientIs</span></span>](recipientis.md) <br/> |<span data-ttu-id="4ae66-118">Указывает, что какого-либо получателя сообщения электронной почты, соответствует любому из заданных получателей в дочерних элементов [значение (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .</span><span class="sxs-lookup"><span data-stu-id="4ae66-118">Specifies that any recipient of the e-mail message matches any of the specified recipients in the child [Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) elements.</span></span>  <br/> |
-|[<span data-ttu-id="4ae66-119">SenderDepartments</span><span class="sxs-lookup"><span data-stu-id="4ae66-119">SenderDepartments</span></span>](senderdepartments.md) <br/> |<span data-ttu-id="4ae66-120">Указывает, что отдела отправителя соответствует любому из указанного подразделения в дочерних элементов [значение (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .</span><span class="sxs-lookup"><span data-stu-id="4ae66-120">Specifies that the department of the sender matches any of the specified departments in the child [Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) elements.</span></span>  <br/> |
-|[<span data-ttu-id="4ae66-121">Значение true</span><span class="sxs-lookup"><span data-stu-id="4ae66-121">True</span></span>](true.md) <br/> |<span data-ttu-id="4ae66-122">Указывает условие, которое всегда соответствует.</span><span class="sxs-lookup"><span data-stu-id="4ae66-122">Specifies a condition that always matches.</span></span>  <br/> |
+|[<span data-ttu-id="1050b-113">AllInternal</span><span class="sxs-lookup"><span data-stu-id="1050b-113">AllInternal</span></span>](allinternal.md) <br/> |<span data-ttu-id="1050b-114">Имеет значение **true** , если все получатели сообщения электронной почты являются внутренними относительно организации отправителя.</span><span class="sxs-lookup"><span data-stu-id="1050b-114">Evaluates to **true** if all recipients of an e-mail message are internal to the sender's organization.</span></span>  <br/> |
+|<span data-ttu-id="1050b-115">**И**</span><span class="sxs-lookup"><span data-stu-id="1050b-115">**And**</span></span> <br/> |<span data-ttu-id="1050b-116">Указывает, что все дочерние элементы должны соответствовать значение **true**.</span><span class="sxs-lookup"><span data-stu-id="1050b-116">Specifies that all child elements must match to evaluate to **true**.</span></span>  <br/> |
+|[<span data-ttu-id="1050b-117">RecipientIs</span><span class="sxs-lookup"><span data-stu-id="1050b-117">RecipientIs</span></span>](recipientis.md) <br/> |<span data-ttu-id="1050b-118">Указывает, что какого-либо получателя сообщения электронной почты, соответствует любому из заданных получателей в дочерних элементов [значение (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .</span><span class="sxs-lookup"><span data-stu-id="1050b-118">Specifies that any recipient of the e-mail message matches any of the specified recipients in the child [Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) elements.</span></span>  <br/> |
+|[<span data-ttu-id="1050b-119">SenderDepartments</span><span class="sxs-lookup"><span data-stu-id="1050b-119">SenderDepartments</span></span>](senderdepartments.md) <br/> |<span data-ttu-id="1050b-120">Указывает, что отдела отправителя соответствует любому из указанного подразделения в дочерних элементов [значение (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .</span><span class="sxs-lookup"><span data-stu-id="1050b-120">Specifies that the department of the sender matches any of the specified departments in the child [Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) elements.</span></span>  <br/> |
+|[<span data-ttu-id="1050b-121">Значение true</span><span class="sxs-lookup"><span data-stu-id="1050b-121">True</span></span>](true.md) <br/> |<span data-ttu-id="1050b-122">Указывает условие, которое всегда соответствует.</span><span class="sxs-lookup"><span data-stu-id="1050b-122">Specifies a condition that always matches.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="4ae66-123">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="4ae66-123">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="1050b-123">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="1050b-123">Parent elements</span></span>
 
-|<span data-ttu-id="4ae66-124">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="4ae66-124">**Element**</span></span>|<span data-ttu-id="4ae66-125">**Описание**</span><span class="sxs-lookup"><span data-stu-id="4ae66-125">**Description**</span></span>|
+|<span data-ttu-id="1050b-124">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="1050b-124">**Element**</span></span>|<span data-ttu-id="1050b-125">**Описание**</span><span class="sxs-lookup"><span data-stu-id="1050b-125">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="4ae66-126">Условие</span><span class="sxs-lookup"><span data-stu-id="4ae66-126">Condition</span></span>](condition.md) <br/> |<span data-ttu-id="4ae66-127">Определяет условие, которое должно выполняться для части действия правила для выполнения.</span><span class="sxs-lookup"><span data-stu-id="4ae66-127">Identifies the condition that must be satisfied for the action part of the rule to be executed.</span></span>  <br/> |
-|<span data-ttu-id="4ae66-128">**И**</span><span class="sxs-lookup"><span data-stu-id="4ae66-128">**And**</span></span> <br/> |<span data-ttu-id="4ae66-129">Указывает, что все дочерние элементы должны соответствовать значение **true**.</span><span class="sxs-lookup"><span data-stu-id="4ae66-129">Specifies that all child elements must match to evaluate to **true**.</span></span>  <br/> |
+|[<span data-ttu-id="1050b-126">Условие</span><span class="sxs-lookup"><span data-stu-id="1050b-126">Condition</span></span>](condition.md) <br/> |<span data-ttu-id="1050b-127">Определяет условие, которое должно выполняться для части действия правила для выполнения.</span><span class="sxs-lookup"><span data-stu-id="1050b-127">Identifies the condition that must be satisfied for the action part of the rule to be executed.</span></span>  <br/> |
+|<span data-ttu-id="1050b-128">**И**</span><span class="sxs-lookup"><span data-stu-id="1050b-128">**And**</span></span> <br/> |<span data-ttu-id="1050b-129">Указывает, что все дочерние элементы должны соответствовать значение **true**.</span><span class="sxs-lookup"><span data-stu-id="1050b-129">Specifies that all child elements must match to evaluate to **true**.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="4ae66-130">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="4ae66-130">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="1050b-130">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="1050b-130">Text value</span></span>
 
-<span data-ttu-id="4ae66-131">Нет.</span><span class="sxs-lookup"><span data-stu-id="4ae66-131">None.</span></span>
+<span data-ttu-id="1050b-131">Нет.</span><span class="sxs-lookup"><span data-stu-id="1050b-131">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4ae66-132">Замечания</span><span class="sxs-lookup"><span data-stu-id="4ae66-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1050b-132">Замечания</span><span class="sxs-lookup"><span data-stu-id="1050b-132">Remarks</span></span>
 
-<span data-ttu-id="4ae66-133">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="4ae66-133">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="1050b-133">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="1050b-133">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="4ae66-134">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="4ae66-134">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="1050b-134">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="1050b-134">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="4ae66-135">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="4ae66-135">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="4ae66-136">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="4ae66-136">Schema Name</span></span>  <br/> |<span data-ttu-id="4ae66-137">Схема Types</span><span class="sxs-lookup"><span data-stu-id="4ae66-137">Types schema</span></span>  <br/> |
-|<span data-ttu-id="4ae66-138">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="4ae66-138">Validation File</span></span>  <br/> |<span data-ttu-id="4ae66-139">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="4ae66-139">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="4ae66-140">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="4ae66-140">Can be Empty</span></span>  <br/> |<span data-ttu-id="4ae66-141">False</span><span class="sxs-lookup"><span data-stu-id="4ae66-141">False</span></span>  <br/> |
+|<span data-ttu-id="1050b-135">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="1050b-135">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="1050b-136">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="1050b-136">Schema Name</span></span>  <br/> |<span data-ttu-id="1050b-137">Схема Types</span><span class="sxs-lookup"><span data-stu-id="1050b-137">Types schema</span></span>  <br/> |
+|<span data-ttu-id="1050b-138">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="1050b-138">Validation File</span></span>  <br/> |<span data-ttu-id="1050b-139">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="1050b-139">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="1050b-140">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="1050b-140">Can be Empty</span></span>  <br/> |<span data-ttu-id="1050b-141">False</span><span class="sxs-lookup"><span data-stu-id="1050b-141">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="4ae66-142">См. также</span><span class="sxs-lookup"><span data-stu-id="4ae66-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1050b-142">См. также</span><span class="sxs-lookup"><span data-stu-id="1050b-142">See also</span></span>
 
-- [<span data-ttu-id="4ae66-143">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="4ae66-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="1050b-143">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="1050b-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
