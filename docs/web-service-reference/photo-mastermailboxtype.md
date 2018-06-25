@@ -12,33 +12,33 @@ ms.openlocfilehash: 93e41e137b571403ecba9950123278b09491acbb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834783"
 ---
-# <a name="photo-mastermailboxtype"></a><span data-ttu-id="f13b5-103">Фотография (MasterMailboxType)</span><span class="sxs-lookup"><span data-stu-id="f13b5-103">Photo (MasterMailboxType)</span></span>
+# <a name="photo-mastermailboxtype"></a><span data-ttu-id="fda66-103">Фотография (MasterMailboxType)</span><span class="sxs-lookup"><span data-stu-id="fda66-103">Photo (MasterMailboxType)</span></span>
 
-<span data-ttu-id="f13b5-104">Элемент **фотографий (MasterMailboxType)** предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="f13b5-104">The **Photo (MasterMailboxType)** element is intended for internal use only.</span></span> 
+<span data-ttu-id="fda66-104">Элемент **фотографий (MasterMailboxType)** предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="fda66-104">The **Photo (MasterMailboxType)** element is intended for internal use only.</span></span> 
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="f13b5-105">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="f13b5-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="fda66-105">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="fda66-105">Attributes and elements</span></span>
 
-<span data-ttu-id="f13b5-106">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="f13b5-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="fda66-106">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="fda66-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f13b5-107">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="f13b5-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="fda66-107">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="fda66-107">Attributes</span></span>
 
-<span data-ttu-id="f13b5-108">Нет.</span><span class="sxs-lookup"><span data-stu-id="f13b5-108">None.</span></span>
+<span data-ttu-id="fda66-108">Нет.</span><span class="sxs-lookup"><span data-stu-id="fda66-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="f13b5-109">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="f13b5-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="fda66-109">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="fda66-109">Child elements</span></span>
 
-<span data-ttu-id="f13b5-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="f13b5-110">None.</span></span>
+<span data-ttu-id="fda66-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="fda66-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="f13b5-111">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="f13b5-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="fda66-111">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="fda66-111">Parent elements</span></span>
 
-<span data-ttu-id="f13b5-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="f13b5-112">None.</span></span>
+<span data-ttu-id="fda66-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="fda66-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f13b5-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="f13b5-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fda66-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="fda66-113">Remarks</span></span>
 
-<span data-ttu-id="f13b5-114">Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="f13b5-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="fda66-114">Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="fda66-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
   
-<span data-ttu-id="f13b5-115">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="f13b5-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="fda66-115">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="fda66-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

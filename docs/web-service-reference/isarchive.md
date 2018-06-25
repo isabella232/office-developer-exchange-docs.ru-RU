@@ -12,56 +12,56 @@ ms.openlocfilehash: 417afd1afc25e5872d1f511feff34494fe6b7b62
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833990"
 ---
-# <a name="isarchive"></a><span data-ttu-id="190cc-103">IsArchive</span><span class="sxs-lookup"><span data-stu-id="190cc-103">IsArchive</span></span>
+# <a name="isarchive"></a><span data-ttu-id="2e4fb-103">IsArchive</span><span class="sxs-lookup"><span data-stu-id="2e4fb-103">IsArchive</span></span>
 
-<span data-ttu-id="190cc-104">Элемент **IsArchive** Указывает логическое значение, указывающее, является ли почтовом ящике архивного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="190cc-104">The **IsArchive** element specifies a Boolean value that indicates whether the mailbox is an archive mailbox.</span></span> 
+<span data-ttu-id="2e4fb-104">Элемент **IsArchive** Указывает логическое значение, указывающее, является ли почтовом ящике архивного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="2e4fb-104">The **IsArchive** element specifies a Boolean value that indicates whether the mailbox is an archive mailbox.</span></span> 
   
 ```XML
 <IsArchive>true | false</IsArchive>
 ```
 
- <span data-ttu-id="190cc-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="190cc-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="190cc-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="190cc-106">Attributes and elements</span></span>
+ <span data-ttu-id="2e4fb-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="2e4fb-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="2e4fb-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="2e4fb-106">Attributes and elements</span></span>
 
-<span data-ttu-id="190cc-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="190cc-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="2e4fb-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="2e4fb-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="190cc-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="190cc-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="2e4fb-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="2e4fb-108">Attributes</span></span>
 
-<span data-ttu-id="190cc-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="190cc-109">None.</span></span>
+<span data-ttu-id="2e4fb-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="2e4fb-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="190cc-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="190cc-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="2e4fb-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="2e4fb-110">Child elements</span></span>
 
-<span data-ttu-id="190cc-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="190cc-111">None.</span></span>
+<span data-ttu-id="2e4fb-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="2e4fb-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="190cc-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="190cc-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="2e4fb-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="2e4fb-112">Parent elements</span></span>
 
-<span data-ttu-id="190cc-113">[FailedMailbox](failedmailbox.md) | [RetentionPolicyTag](retentionpolicytag.md)</span><span class="sxs-lookup"><span data-stu-id="190cc-113">[FailedMailbox](failedmailbox.md) | [RetentionPolicyTag](retentionpolicytag.md)</span></span>
+<span data-ttu-id="2e4fb-113">[FailedMailbox](failedmailbox.md) | [RetentionPolicyTag](retentionpolicytag.md)</span><span class="sxs-lookup"><span data-stu-id="2e4fb-113">[FailedMailbox](failedmailbox.md) | [RetentionPolicyTag](retentionpolicytag.md)</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="190cc-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="190cc-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="2e4fb-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="2e4fb-114">Text value</span></span>
 
-<span data-ttu-id="190cc-115">Текстовое значение **true** для элемента **IsArchive** указывает, что целевой почтовый ящик архивного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="190cc-115">A text value of **true** for the **IsArchive** element indicates that the target mailbox is an archive mailbox.</span></span> <span data-ttu-id="190cc-116">Значение **false** указывает, что целевой почтовый ящик не архивного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="190cc-116">A value of **false** indicates that the target mailbox is not an archive mailbox.</span></span> 
+<span data-ttu-id="2e4fb-115">Текстовое значение **true** для элемента **IsArchive** указывает, что целевой почтовый ящик архивного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="2e4fb-115">A text value of **true** for the **IsArchive** element indicates that the target mailbox is an archive mailbox.</span></span> <span data-ttu-id="2e4fb-116">Значение **false** указывает, что целевой почтовый ящик не архивного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="2e4fb-116">A value of **false** indicates that the target mailbox is not an archive mailbox.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="190cc-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="190cc-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2e4fb-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="2e4fb-117">Remarks</span></span>
 
-<span data-ttu-id="190cc-118">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="190cc-118">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="2e4fb-118">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2e4fb-118">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="190cc-119">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="190cc-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="2e4fb-119">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="2e4fb-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="190cc-120">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="190cc-120">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="2e4fb-120">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="2e4fb-120">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="190cc-121">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="190cc-121">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="190cc-122">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="190cc-122">Schema Name</span></span>  <br/> |<span data-ttu-id="190cc-123">Схема типа</span><span class="sxs-lookup"><span data-stu-id="190cc-123">Type schema</span></span>  <br/> |
-|<span data-ttu-id="190cc-124">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="190cc-124">Validation File</span></span>  <br/> |<span data-ttu-id="190cc-125">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="190cc-125">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="190cc-126">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="190cc-126">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="2e4fb-121">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="2e4fb-121">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="2e4fb-122">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="2e4fb-122">Schema Name</span></span>  <br/> |<span data-ttu-id="2e4fb-123">Схема типа</span><span class="sxs-lookup"><span data-stu-id="2e4fb-123">Type schema</span></span>  <br/> |
+|<span data-ttu-id="2e4fb-124">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="2e4fb-124">Validation File</span></span>  <br/> |<span data-ttu-id="2e4fb-125">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="2e4fb-125">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="2e4fb-126">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="2e4fb-126">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="190cc-127">См. также</span><span class="sxs-lookup"><span data-stu-id="190cc-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2e4fb-127">См. также</span><span class="sxs-lookup"><span data-stu-id="2e4fb-127">See also</span></span>
 
 
 
-- [<span data-ttu-id="190cc-128">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="190cc-128">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="2e4fb-128">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="2e4fb-128">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

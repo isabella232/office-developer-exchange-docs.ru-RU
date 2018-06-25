@@ -16,12 +16,12 @@ ms.openlocfilehash: 800056666e486e9337dcd1c2786f7e6db1e060bb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833961"
 ---
-# <a name="invalidrecipient"></a><span data-ttu-id="59739-103">InvalidRecipient</span><span class="sxs-lookup"><span data-stu-id="59739-103">InvalidRecipient</span></span>
+# <a name="invalidrecipient"></a><span data-ttu-id="6b2c6-103">InvalidRecipient</span><span class="sxs-lookup"><span data-stu-id="6b2c6-103">InvalidRecipient</span></span>
 
-<span data-ttu-id="59739-104">Элемент **InvalidRecipient** содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым.</span><span class="sxs-lookup"><span data-stu-id="59739-104">The **InvalidRecipient** element contains the SMTP address of the invalid recipient and information about why the recipient is invalid.</span></span> 
+<span data-ttu-id="6b2c6-104">Элемент **InvalidRecipient** содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-104">The **InvalidRecipient** element contains the SMTP address of the invalid recipient and information about why the recipient is invalid.</span></span> 
   
 ```XML
 <InvalidRecipient>
@@ -32,48 +32,48 @@ ms.locfileid: "19833961"
 
 ```
 
- <span data-ttu-id="59739-105">**InvalidRecipientType**</span><span class="sxs-lookup"><span data-stu-id="59739-105">**InvalidRecipientType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="59739-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="59739-106">Attributes and elements</span></span>
+ <span data-ttu-id="6b2c6-105">**InvalidRecipientType**</span><span class="sxs-lookup"><span data-stu-id="6b2c6-105">**InvalidRecipientType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6b2c6-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="6b2c6-106">Attributes and elements</span></span>
 
-<span data-ttu-id="59739-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="59739-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6b2c6-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="59739-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="59739-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6b2c6-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="6b2c6-108">Attributes</span></span>
 
-<span data-ttu-id="59739-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="59739-109">None.</span></span>
+<span data-ttu-id="6b2c6-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="59739-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="59739-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6b2c6-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="6b2c6-110">Child elements</span></span>
 
-|<span data-ttu-id="59739-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="59739-111">**Element**</span></span>|<span data-ttu-id="59739-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="59739-112">**Description**</span></span>|
+|<span data-ttu-id="6b2c6-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6b2c6-111">**Element**</span></span>|<span data-ttu-id="6b2c6-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6b2c6-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="59739-113">SmtpAddress</span><span class="sxs-lookup"><span data-stu-id="59739-113">SmtpAddress</span></span>](smtpaddress.md) <br/> |<span data-ttu-id="59739-114">Содержит SMTP-адрес недопустимого получателя.</span><span class="sxs-lookup"><span data-stu-id="59739-114">Contains the SMTP address of the invalid recipient.</span></span> <span data-ttu-id="59739-115">Этот элемент обязательный.</span><span class="sxs-lookup"><span data-stu-id="59739-115">This element is required.</span></span>  <br/> |
-|[<span data-ttu-id="59739-116">ResponseCode (InvalidRecipientResponseCodeType)</span><span class="sxs-lookup"><span data-stu-id="59739-116">ResponseCode (InvalidRecipientResponseCodeType)</span></span>](responsecode-invalidrecipientresponsecodetype.md) <br/> |<span data-ttu-id="59739-117">Содержит код ошибки, которая идентифицирует ошибку, с которым возникла запроса.</span><span class="sxs-lookup"><span data-stu-id="59739-117">Provides an error code that identifies the specific error that the request encountered.</span></span> <span data-ttu-id="59739-118">Этот элемент обязательный.</span><span class="sxs-lookup"><span data-stu-id="59739-118">This element is required.</span></span>  <br/> |
-|[<span data-ttu-id="59739-119">MessageText</span><span class="sxs-lookup"><span data-stu-id="59739-119">MessageText</span></span>](messagetext.md) <br/> |<span data-ttu-id="59739-120">Предоставляет текстовое описание состояния ответа.</span><span class="sxs-lookup"><span data-stu-id="59739-120">Provides a text description of the status of the response.</span></span> <span data-ttu-id="59739-121">Этот элемент является необязательным.</span><span class="sxs-lookup"><span data-stu-id="59739-121">This element is optional.</span></span>  <br/> |
+|[<span data-ttu-id="6b2c6-113">SmtpAddress</span><span class="sxs-lookup"><span data-stu-id="6b2c6-113">SmtpAddress</span></span>](smtpaddress.md) <br/> |<span data-ttu-id="6b2c6-114">Содержит SMTP-адрес недопустимого получателя.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-114">Contains the SMTP address of the invalid recipient.</span></span> <span data-ttu-id="6b2c6-115">Этот элемент обязательный.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-115">This element is required.</span></span>  <br/> |
+|[<span data-ttu-id="6b2c6-116">ResponseCode (InvalidRecipientResponseCodeType)</span><span class="sxs-lookup"><span data-stu-id="6b2c6-116">ResponseCode (InvalidRecipientResponseCodeType)</span></span>](responsecode-invalidrecipientresponsecodetype.md) <br/> |<span data-ttu-id="6b2c6-117">Содержит код ошибки, которая идентифицирует ошибку, с которым возникла запроса.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-117">Provides an error code that identifies the specific error that the request encountered.</span></span> <span data-ttu-id="6b2c6-118">Этот элемент обязательный.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-118">This element is required.</span></span>  <br/> |
+|[<span data-ttu-id="6b2c6-119">MessageText</span><span class="sxs-lookup"><span data-stu-id="6b2c6-119">MessageText</span></span>](messagetext.md) <br/> |<span data-ttu-id="6b2c6-120">Предоставляет текстовое описание состояния ответа.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-120">Provides a text description of the status of the response.</span></span> <span data-ttu-id="6b2c6-121">Этот элемент является необязательным.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-121">This element is optional.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="59739-122">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="59739-122">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6b2c6-122">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="6b2c6-122">Parent elements</span></span>
 
-|<span data-ttu-id="59739-123">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="59739-123">**Element**</span></span>|<span data-ttu-id="59739-124">**Описание**</span><span class="sxs-lookup"><span data-stu-id="59739-124">**Description**</span></span>|
+|<span data-ttu-id="6b2c6-123">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6b2c6-123">**Element**</span></span>|<span data-ttu-id="6b2c6-124">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6b2c6-124">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="59739-125">InvalidRecipients</span><span class="sxs-lookup"><span data-stu-id="59739-125">InvalidRecipients</span></span>](invalidrecipients.md) <br/> |<span data-ttu-id="59739-126">Представляет получателей запрос на общий доступ к папке, которые являются недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="59739-126">Represents the recipients of a folder sharing request that are invalid.</span></span>  <br/> |
+|[<span data-ttu-id="6b2c6-125">InvalidRecipients</span><span class="sxs-lookup"><span data-stu-id="6b2c6-125">InvalidRecipients</span></span>](invalidrecipients.md) <br/> |<span data-ttu-id="6b2c6-126">Представляет получателей запрос на общий доступ к папке, которые являются недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-126">Represents the recipients of a folder sharing request that are invalid.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="59739-127">Замечания</span><span class="sxs-lookup"><span data-stu-id="59739-127">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6b2c6-127">Замечания</span><span class="sxs-lookup"><span data-stu-id="6b2c6-127">Remarks</span></span>
 
-<span data-ttu-id="59739-128">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="59739-128">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="6b2c6-128">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="6b2c6-128">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="59739-129">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="59739-129">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6b2c6-129">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="6b2c6-129">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="59739-130">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="59739-130">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="59739-131">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="59739-131">Schema Name</span></span>  <br/> |<span data-ttu-id="59739-132">Схема Types</span><span class="sxs-lookup"><span data-stu-id="59739-132">Types schema</span></span>  <br/> |
-|<span data-ttu-id="59739-133">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="59739-133">Validation File</span></span>  <br/> |<span data-ttu-id="59739-134">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="59739-134">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="59739-135">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="59739-135">Can be Empty</span></span>  <br/> |<span data-ttu-id="59739-136">False</span><span class="sxs-lookup"><span data-stu-id="59739-136">False</span></span>  <br/> |
+|<span data-ttu-id="6b2c6-130">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="6b2c6-130">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="6b2c6-131">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="6b2c6-131">Schema Name</span></span>  <br/> |<span data-ttu-id="6b2c6-132">Схема Types</span><span class="sxs-lookup"><span data-stu-id="6b2c6-132">Types schema</span></span>  <br/> |
+|<span data-ttu-id="6b2c6-133">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="6b2c6-133">Validation File</span></span>  <br/> |<span data-ttu-id="6b2c6-134">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="6b2c6-134">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="6b2c6-135">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="6b2c6-135">Can be Empty</span></span>  <br/> |<span data-ttu-id="6b2c6-136">False</span><span class="sxs-lookup"><span data-stu-id="6b2c6-136">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="59739-137">См. также</span><span class="sxs-lookup"><span data-stu-id="59739-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6b2c6-137">См. также</span><span class="sxs-lookup"><span data-stu-id="6b2c6-137">See also</span></span>
 
 
 
-[<span data-ttu-id="59739-138">Операция GetSharingMetadata</span><span class="sxs-lookup"><span data-stu-id="59739-138">GetSharingMetadata operation</span></span>](getsharingmetadata-operation.md)
+[<span data-ttu-id="6b2c6-138">Операция GetSharingMetadata</span><span class="sxs-lookup"><span data-stu-id="6b2c6-138">GetSharingMetadata operation</span></span>](getsharingmetadata-operation.md)
 
 
-- [<span data-ttu-id="59739-139">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="59739-139">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="6b2c6-139">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="6b2c6-139">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

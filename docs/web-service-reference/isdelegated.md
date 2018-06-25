@@ -16,59 +16,59 @@ ms.openlocfilehash: a6f42a57b2d0fdb760e4c36d3211ba57289a3c7c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834005"
 ---
-# <a name="isdelegated"></a><span data-ttu-id="0c84d-103">IsDelegated</span><span class="sxs-lookup"><span data-stu-id="0c84d-103">IsDelegated</span></span>
+# <a name="isdelegated"></a><span data-ttu-id="f2585-103">IsDelegated</span><span class="sxs-lookup"><span data-stu-id="f2585-103">IsDelegated</span></span>
 
-<span data-ttu-id="0c84d-104">Элемент **IsDelegated** указывает, обработано ли собрания с помощью учетной записи, имеющей права доступа делегата.</span><span class="sxs-lookup"><span data-stu-id="0c84d-104">The **IsDelegated** element indicates whether a meeting was handled by an account that has delegate access.</span></span> 
+<span data-ttu-id="f2585-104">Элемент **IsDelegated** указывает, обработано ли собрания с помощью учетной записи, имеющей права доступа делегата.</span><span class="sxs-lookup"><span data-stu-id="f2585-104">The **IsDelegated** element indicates whether a meeting was handled by an account that has delegate access.</span></span> 
   
 ```xml
 <IsDelegated/>
 ```
 
- <span data-ttu-id="0c84d-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="0c84d-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="0c84d-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="0c84d-106">Attributes and elements</span></span>
+ <span data-ttu-id="f2585-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="f2585-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="f2585-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="f2585-106">Attributes and elements</span></span>
 
-<span data-ttu-id="0c84d-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="0c84d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="f2585-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="f2585-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="0c84d-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="0c84d-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="f2585-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="f2585-108">Attributes</span></span>
 
-<span data-ttu-id="0c84d-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="0c84d-109">None.</span></span>
+<span data-ttu-id="f2585-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="f2585-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="0c84d-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="0c84d-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="f2585-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="f2585-110">Child elements</span></span>
 
-<span data-ttu-id="0c84d-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="0c84d-111">None.</span></span>
+<span data-ttu-id="f2585-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="f2585-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="0c84d-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="0c84d-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="f2585-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="f2585-112">Parent elements</span></span>
 
-|<span data-ttu-id="0c84d-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="0c84d-113">**Element**</span></span>|<span data-ttu-id="0c84d-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0c84d-114">**Description**</span></span>|
+|<span data-ttu-id="f2585-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="f2585-113">**Element**</span></span>|<span data-ttu-id="f2585-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f2585-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="0c84d-115">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="0c84d-115">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="0c84d-116">Представляет отмену собрания в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="0c84d-116">Represents a meeting cancellation in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="0c84d-117">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="0c84d-117">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="0c84d-118">Представляет собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="0c84d-118">Represents a meeting in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="0c84d-119">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="0c84d-119">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="0c84d-120">Представляет приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="0c84d-120">Represents a meeting request in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="0c84d-121">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="0c84d-121">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="0c84d-122">Представляет ответ на приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="0c84d-122">Represents a meeting response in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="f2585-115">MeetingCancellation</span><span class="sxs-lookup"><span data-stu-id="f2585-115">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="f2585-116">Представляет отмену собрания в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="f2585-116">Represents a meeting cancellation in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="f2585-117">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="f2585-117">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="f2585-118">Представляет собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="f2585-118">Represents a meeting in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="f2585-119">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="f2585-119">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="f2585-120">Представляет приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="f2585-120">Represents a meeting request in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="f2585-121">MeetingResponse</span><span class="sxs-lookup"><span data-stu-id="f2585-121">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="f2585-122">Представляет ответ на приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="f2585-122">Represents a meeting response in the Exchange store.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="0c84d-123">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="0c84d-123">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="f2585-123">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="f2585-123">Text value</span></span>
 
-<span data-ttu-id="0c84d-124">Текстовое значение **true,** указывает, что приглашение на собрание было обработано под учетной записью, имеющей права доступа делегата.</span><span class="sxs-lookup"><span data-stu-id="0c84d-124">A text value of **true** indicates that the meeting was handled by an account that has delegate access.</span></span> 
+<span data-ttu-id="f2585-124">Текстовое значение **true,** указывает, что приглашение на собрание было обработано под учетной записью, имеющей права доступа делегата.</span><span class="sxs-lookup"><span data-stu-id="f2585-124">A text value of **true** indicates that the meeting was handled by an account that has delegate access.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="0c84d-125">Замечания</span><span class="sxs-lookup"><span data-stu-id="0c84d-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f2585-125">Замечания</span><span class="sxs-lookup"><span data-stu-id="f2585-125">Remarks</span></span>
 
-<span data-ttu-id="0c84d-126">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="0c84d-126">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="f2585-126">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="f2585-126">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="0c84d-127">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="0c84d-127">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="f2585-127">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="f2585-127">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="0c84d-128">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="0c84d-128">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="0c84d-129">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="0c84d-129">Schema Name</span></span>  <br/> |<span data-ttu-id="0c84d-130">Схема Types</span><span class="sxs-lookup"><span data-stu-id="0c84d-130">Types schema</span></span>  <br/> |
-|<span data-ttu-id="0c84d-131">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="0c84d-131">Validation File</span></span>  <br/> |<span data-ttu-id="0c84d-132">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="0c84d-132">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="0c84d-133">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="0c84d-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="0c84d-134">False</span><span class="sxs-lookup"><span data-stu-id="0c84d-134">False</span></span>  <br/> |
+|<span data-ttu-id="f2585-128">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="f2585-128">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="f2585-129">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="f2585-129">Schema Name</span></span>  <br/> |<span data-ttu-id="f2585-130">Схема Types</span><span class="sxs-lookup"><span data-stu-id="f2585-130">Types schema</span></span>  <br/> |
+|<span data-ttu-id="f2585-131">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="f2585-131">Validation File</span></span>  <br/> |<span data-ttu-id="f2585-132">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="f2585-132">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="f2585-133">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="f2585-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="f2585-134">False</span><span class="sxs-lookup"><span data-stu-id="f2585-134">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0c84d-135">См. также</span><span class="sxs-lookup"><span data-stu-id="0c84d-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f2585-135">См. также</span><span class="sxs-lookup"><span data-stu-id="f2585-135">See also</span></span>
 
 
 
-- [<span data-ttu-id="0c84d-136">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="0c84d-136">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="f2585-136">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="f2585-136">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

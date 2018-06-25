@@ -12,12 +12,12 @@ ms.openlocfilehash: bbf04c0e6110899db0da55f2aafea23c4e45b7a8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834759"
 ---
-# <a name="phonenumber"></a><span data-ttu-id="755f4-103">PhoneNumber</span><span class="sxs-lookup"><span data-stu-id="755f4-103">PhoneNumber</span></span>
+# <a name="phonenumber"></a><span data-ttu-id="07820-103">PhoneNumber</span><span class="sxs-lookup"><span data-stu-id="07820-103">PhoneNumber</span></span>
 
-<span data-ttu-id="755f4-104">Элемент **PhoneNumber** указывает номер телефона по умолчанию связанного пользователя.</span><span class="sxs-lookup"><span data-stu-id="755f4-104">The **PhoneNumber** element specifies the default phone number of the associated persona.</span></span> 
+<span data-ttu-id="07820-104">Элемент **PhoneNumber** указывает номер телефона по умолчанию связанного пользователя.</span><span class="sxs-lookup"><span data-stu-id="07820-104">The **PhoneNumber** element specifies the default phone number of the associated persona.</span></span> 
   
 ```XML
 <PhoneNumber>
@@ -26,36 +26,36 @@ ms.locfileid: "19834759"
 </PhoneNumber>
 ```
 
- <span data-ttu-id="755f4-105">**PersonaPhoneNumberType**</span><span class="sxs-lookup"><span data-stu-id="755f4-105">**PersonaPhoneNumberType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="755f4-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="755f4-106">Attributes and elements</span></span>
+ <span data-ttu-id="07820-105">**PersonaPhoneNumberType**</span><span class="sxs-lookup"><span data-stu-id="07820-105">**PersonaPhoneNumberType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="07820-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="07820-106">Attributes and elements</span></span>
 
-<span data-ttu-id="755f4-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="755f4-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="07820-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="07820-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="755f4-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="755f4-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="07820-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="07820-108">Attributes</span></span>
 
-<span data-ttu-id="755f4-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="755f4-109">None.</span></span>
+<span data-ttu-id="07820-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="07820-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="755f4-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="755f4-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="07820-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="07820-110">Child elements</span></span>
 
-<span data-ttu-id="755f4-111">[Номер](number.md) | [типа (string)](type-string.md)</span><span class="sxs-lookup"><span data-stu-id="755f4-111">[Number](number.md) | [Type (string)](type-string.md)</span></span>
+<span data-ttu-id="07820-111">[Номер](number.md) | [типа (string)](type-string.md)</span><span class="sxs-lookup"><span data-stu-id="07820-111">[Number](number.md) | [Type (string)](type-string.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="755f4-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="755f4-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="07820-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="07820-112">Parent elements</span></span>
 
-[<span data-ttu-id="755f4-113">Пользователь</span><span class="sxs-lookup"><span data-stu-id="755f4-113">Persona</span></span>](persona.md)
+[<span data-ttu-id="07820-113">Пользователь</span><span class="sxs-lookup"><span data-stu-id="07820-113">Persona</span></span>](persona.md)
   
-## <a name="remarks"></a><span data-ttu-id="755f4-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="755f4-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="07820-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="07820-114">Remarks</span></span>
 
-<span data-ttu-id="755f4-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="755f4-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="07820-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="07820-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="755f4-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="755f4-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="07820-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="07820-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="755f4-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="755f4-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="07820-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="07820-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="755f4-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="755f4-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="755f4-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="755f4-119">Schema name</span></span>  <br/> |<span data-ttu-id="755f4-120">Схема Types</span><span class="sxs-lookup"><span data-stu-id="755f4-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="755f4-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="755f4-121">Validation file</span></span>  <br/> |<span data-ttu-id="755f4-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="755f4-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="755f4-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="755f4-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="07820-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="07820-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="07820-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="07820-119">Schema name</span></span>  <br/> |<span data-ttu-id="07820-120">Схема Types</span><span class="sxs-lookup"><span data-stu-id="07820-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="07820-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="07820-121">Validation file</span></span>  <br/> |<span data-ttu-id="07820-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="07820-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="07820-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="07820-123">Can be empty</span></span>  <br/> ||
    
 

@@ -12,12 +12,12 @@ ms.openlocfilehash: b2b3e93101a9ae2ad4241e6aad79825c190c5222
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834437"
 ---
-# <a name="meetingsuggestions"></a><span data-ttu-id="b2487-103">MeetingSuggestions</span><span class="sxs-lookup"><span data-stu-id="b2487-103">MeetingSuggestions</span></span>
+# <a name="meetingsuggestions"></a><span data-ttu-id="f02b0-103">MeetingSuggestions</span><span class="sxs-lookup"><span data-stu-id="f02b0-103">MeetingSuggestions</span></span>
 
-<span data-ttu-id="b2487-104">Элемент **MeetingSuggestions** указывает массив **MeetingSuggestion** элементов, содержащих результаты извлечения сущности.</span><span class="sxs-lookup"><span data-stu-id="b2487-104">The **MeetingSuggestions** element specifies an array of **MeetingSuggestion** elements that contain entity extraction results.</span></span> 
+<span data-ttu-id="f02b0-104">Элемент **MeetingSuggestions** указывает массив **MeetingSuggestion** элементов, содержащих результаты извлечения сущности.</span><span class="sxs-lookup"><span data-stu-id="f02b0-104">The **MeetingSuggestions** element specifies an array of **MeetingSuggestion** elements that contain entity extraction results.</span></span> 
   
 ```XML
 <MeetingSuggestions>
@@ -25,36 +25,36 @@ ms.locfileid: "19834437"
 </MeetingSuggestions>
 ```
 
- <span data-ttu-id="b2487-105">**ArrayOfMeetingSuggestionsType**</span><span class="sxs-lookup"><span data-stu-id="b2487-105">**ArrayOfMeetingSuggestionsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="b2487-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="b2487-106">Attributes and elements</span></span>
+ <span data-ttu-id="f02b0-105">**ArrayOfMeetingSuggestionsType**</span><span class="sxs-lookup"><span data-stu-id="f02b0-105">**ArrayOfMeetingSuggestionsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="f02b0-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="f02b0-106">Attributes and elements</span></span>
 
-<span data-ttu-id="b2487-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="b2487-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="f02b0-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="f02b0-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="b2487-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="b2487-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="f02b0-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="f02b0-108">Attributes</span></span>
 
-<span data-ttu-id="b2487-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="b2487-109">None.</span></span>
+<span data-ttu-id="f02b0-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="f02b0-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="b2487-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="b2487-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="f02b0-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="f02b0-110">Child elements</span></span>
 
-[<span data-ttu-id="b2487-111">MeetingSuggestion</span><span class="sxs-lookup"><span data-stu-id="b2487-111">MeetingSuggestion</span></span>](meetingsuggestion.md)
+[<span data-ttu-id="f02b0-111">MeetingSuggestion</span><span class="sxs-lookup"><span data-stu-id="f02b0-111">MeetingSuggestion</span></span>](meetingsuggestion.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="b2487-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="b2487-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="f02b0-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="f02b0-112">Parent elements</span></span>
 
-[<span data-ttu-id="b2487-113">EntityExtractionResult</span><span class="sxs-lookup"><span data-stu-id="b2487-113">EntityExtractionResult</span></span>](entityextractionresult.md)
+[<span data-ttu-id="f02b0-113">EntityExtractionResult</span><span class="sxs-lookup"><span data-stu-id="f02b0-113">EntityExtractionResult</span></span>](entityextractionresult.md)
   
-## <a name="remarks"></a><span data-ttu-id="b2487-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="b2487-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f02b0-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="f02b0-114">Remarks</span></span>
 
-<span data-ttu-id="b2487-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b2487-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="f02b0-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f02b0-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="b2487-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="b2487-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="f02b0-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="f02b0-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="b2487-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="b2487-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="f02b0-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="f02b0-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="b2487-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="b2487-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="b2487-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="b2487-119">Schema name</span></span>  <br/> |<span data-ttu-id="b2487-120">Схема Types</span><span class="sxs-lookup"><span data-stu-id="b2487-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="b2487-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="b2487-121">Validation file</span></span>  <br/> |<span data-ttu-id="b2487-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="b2487-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="b2487-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="b2487-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="f02b0-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="f02b0-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="f02b0-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="f02b0-119">Schema name</span></span>  <br/> |<span data-ttu-id="f02b0-120">Схема Types</span><span class="sxs-lookup"><span data-stu-id="f02b0-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="f02b0-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="f02b0-121">Validation file</span></span>  <br/> |<span data-ttu-id="f02b0-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="f02b0-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="f02b0-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="f02b0-123">Can be empty</span></span>  <br/> ||
    
 
