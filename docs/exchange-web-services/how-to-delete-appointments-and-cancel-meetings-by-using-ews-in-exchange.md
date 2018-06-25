@@ -10,7 +10,7 @@ ms.openlocfilehash: bd7eac803fedffc51133324259f68fd25652fcff
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761002"
 ---
 # <a name="delete-appointments-and-cancel-meetings-by-using-ews-in-exchange"></a>Удаление встреч и отмены собраний с помощью веб-служб Exchange в Exchange

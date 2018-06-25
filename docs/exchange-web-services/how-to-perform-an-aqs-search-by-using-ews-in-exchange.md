@@ -10,7 +10,7 @@ ms.openlocfilehash: dc859e24fa80cd5627477182979c9cc9527818d6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761113"
 ---
 # <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>Выполнение поискового запроса AQS с помощью веб-служб Exchange в Exchange
@@ -40,16 +40,16 @@ ms.locfileid: "19761113"
 
 |**Ключевое слово**|**Value type**|**Пример**|
 |:-----|:-----|:-----|
-|subject  <br/> |Строка  <br/> |Тема: проекта  <br/> |
-|body  <br/> |Строка  <br/> |графики BODY: продаж  <br/> |
-|вложение  <br/> |Строка  <br/> |вложения: отчет  <br/> |
-|to  <br/> |Строка  <br/> |Чтобы: «Sadie Daniels»  <br/> |
-|from  <br/> |Строка  <br/> |от: надеюсь,  <br/> |
-|cc  <br/> |Строка  <br/> |Копия: «Ronnie Sturgis»  <br/> |
-|bcc  <br/> |Строка  <br/> |BCC:mack  <br/> |
-|participants  <br/> |Строка  <br/> |Участники: sadie  <br/> |
+|subject  <br/> |String  <br/> |Тема: проекта  <br/> |
+|body  <br/> |String  <br/> |графики BODY: продаж  <br/> |
+|вложение  <br/> |String  <br/> |вложения: отчет  <br/> |
+|to  <br/> |String  <br/> |Чтобы: «Sadie Daniels»  <br/> |
+|from  <br/> |String  <br/> |от: надеюсь,  <br/> |
+|cc  <br/> |String  <br/> |Копия: «Ronnie Sturgis»  <br/> |
+|bcc  <br/> |String  <br/> |BCC:mack  <br/> |
+|participants  <br/> |String  <br/> |Участники: sadie  <br/> |
 |category  <br/> |String  <br/> |Категория: проект  <br/> |
-|importance  <br/> |Строка  <br/> |Важность: высокая  <br/> |
+|importance  <br/> |String  <br/> |Важность: высокая  <br/> |
 |Тип  <br/> |Тип элемента  <br/> |Тип: собрания  <br/> |
 |Отправленные  <br/> |Date  <br/> |отправлено: 12/10/2013  <br/> |
 |Получено  <br/> |Date  <br/> |Получено: за вчерашний день  <br/> |

@@ -10,7 +10,7 @@ ms.openlocfilehash: 71ef7674086607e1544111071928f3dd74073a77
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761143"
 ---
 # <a name="work-with-conversations-by-using-ews-in-exchange"></a>Работа с беседы с помощью веб-служб Exchange в Exchange

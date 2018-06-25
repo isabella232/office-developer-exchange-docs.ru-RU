@@ -10,7 +10,7 @@ ms.openlocfilehash: e84a563bb094a2fe03e08f8e1a81b2b054d45850
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761009"
 ---
 # <a name="get-service-configuration-information-by-using-ews-in-exchange"></a>Получение сведений о конфигурации службы с помощью веб-служб Exchange в Exchange

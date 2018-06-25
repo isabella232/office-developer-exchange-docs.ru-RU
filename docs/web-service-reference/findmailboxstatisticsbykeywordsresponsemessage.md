@@ -12,7 +12,7 @@ ms.openlocfilehash: 9479252ed53335d07a6402707bc69e5eaadfa7c8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762582"
 ---
 # <a name="findmailboxstatisticsbykeywordsresponsemessage"></a>FindMailboxStatisticsByKeywordsResponseMessage
@@ -46,7 +46,7 @@ ms.locfileid: "19762582"
 |:-----|:-----|
 |Успешное выполнение  <br/> |Означает успешное выполнение.  <br/> |
 |Предупреждающая  <br/> |Указывает на предупреждение.  <br/> |
-|Error  <br/> |Отображается сообщение об ошибке.  <br/> |
+|Ошибка  <br/> |Отображается сообщение об ошибке.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

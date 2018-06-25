@@ -10,7 +10,7 @@ ms.openlocfilehash: 16f0604a16785c34dd04bdabedeedd331668a479
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761082"
 ---
 # <a name="move-and-copy-email-messages-by-using-ews-in-exchange"></a>Перемещение и копирование сообщений электронной почты с помощью веб-служб Exchange в Exchange

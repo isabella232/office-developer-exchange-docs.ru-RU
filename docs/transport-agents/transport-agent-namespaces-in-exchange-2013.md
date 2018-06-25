@@ -12,7 +12,7 @@ ms.openlocfilehash: a8189ca9915312b64fefda3091f8f81e51271ad6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761320"
 ---
 # <a name="transport-agent-namespaces-in-exchange-2013"></a>Транспорта агента пространства имен в Exchange 2013

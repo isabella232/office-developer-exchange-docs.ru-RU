@@ -16,7 +16,7 @@ ms.openlocfilehash: d8c5571cfc9c2ea6aaf09cb26a0e47e4abfc3f40
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761472"
 ---
 # <a name="applyconversationactionresponsemessage"></a>ApplyConversationActionResponseMessage
@@ -45,7 +45,7 @@ ms.locfileid: "19761472"
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Описание состояния ответа.<br/><br/>Для этого атрибута допустимы следующие значения:<ul><li>Успешное выполнение</li><li>Предупреждающая</li><li>Error</li></ul> |
+|**ResponseClass** <br/> | Описание состояния ответа.<br/><br/>Для этого атрибута допустимы следующие значения:<ul><li>Успешное выполнение</li><li>Предупреждающая</li><li>Ошибка</li></ul> |
    
 #### <a name="responseclass-attribute-values"></a>Значения атрибутов ResponseClass
 

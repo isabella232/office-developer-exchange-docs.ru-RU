@@ -10,7 +10,7 @@ ms.openlocfilehash: 2f1428251084a7f2bf8d589a788c143f34b64d5c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761110"
 ---
 # <a name="respond-to-email-messages-by-using-ews-in-exchange"></a>Ответ на сообщения электронной почты с помощью веб-служб Exchange в Exchange

@@ -12,7 +12,7 @@ ms.openlocfilehash: 7541fa6330ee96f7791febfabc672dbcf0e95b54
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762477"
 ---
 # <a name="extendedproperty-pathtoextendedfieldtype"></a>ExtendedProperty (PathToExtendedFieldType)
@@ -71,7 +71,7 @@ ms.locfileid: "19762477"
 |CurrencyArray  <br/> |Указывает массив значений валюты.  <br/> |
 |Double  <br/> |Указывает значение **типа double**.  <br/> |
 |DoubleArray  <br/> |Указывает массив значений **двойной точности** .  <br/> |
-|Error  <br/> |Отображается сообщение об ошибке. Это исключительно в целях создания отчетов об ошибках. Он не может использоваться в ограничения или для получения и установки значений.  <br/> |
+|Ошибка  <br/> |Отображается сообщение об ошибке. Это исключительно в целях создания отчетов об ошибках. Он не может использоваться в ограничения или для получения и установки значений.  <br/> |
 |Float  <br/> |Указывает **число с плавающей запятой**.  <br/> |
 |FloatArray  <br/> |Указывает массив значений **с плавающей запятой** .  <br/> |
 |Целое число  <br/> |Указывает целое число.  <br/> |
@@ -85,7 +85,7 @@ ms.locfileid: "19762477"
 |ShortArray  <br/> |Указывает массив **коротких** значений.  <br/> |
 |SystemTime  <br/> |Указывает значение времени системы.  <br/> |
 |SystemTimeArray  <br/> |Указывает массив значений времени системы.  <br/> |
-|Строка  <br/> |Указывает строку.  <br/> |
+|String  <br/> |Указывает строку.  <br/> |
 |StringArray  <br/> |Указывает массив строк.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы

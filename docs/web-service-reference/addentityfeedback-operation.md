@@ -12,7 +12,7 @@ ms.openlocfilehash: b695806f543827d78aea139ffcbd7e4af58b9fef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761343"
 ---
 # <a name="addentityfeedback-operation"></a>Операция AddEntityFeedback
@@ -68,13 +68,13 @@ ms.locfileid: "19761343"
 |**ClientEventTimeLocal** <br/> |Да  <br/> |Местное время возникновения события на стороне клиента.  <br/> |DateTime  <br/> |
 |**ClientId** <br/> |Да  <br/> |Тип клиента (например, Outlook, OWA, и т.д.).  <br/> |Перечисление ClientIDType  <br/> |
 |**ClientSessionId** <br/> |Да  <br/> |Идентификатор GUID, идентифицирующий идентификатор сеанса. Созданный на стороне клиента.  <br/> |GUID  <br/> |
-|**ClientVersion** <br/> |Да  <br/> |Версия клиента (например, 15.01.0101.000).  <br/> |Строка  <br/> |
+|**ClientVersion** <br/> |Да  <br/> |Версия клиента (например, 15.01.0101.000).  <br/> |String  <br/> |
 |**EntityAddSource** <br/> |Нет  <br/> |Источник EntityAded (например, EntityRelevanceAPI, типы, вставляемую).  <br/> |Перечисление EntityAddSource  <br/> |
 |**EntrySequenceNumber** <br/> |Да  <br/> |Целое число добавочного на сеанс клиента. Используется для выявления потери данных.  <br/> |Int  <br/> |
-|**EventType** <br/> |Да  <br/> |Тип события (например добавлена сущности, сущность удалена).  <br/> |Строка  <br/> |
+|**EventType** <br/> |Да  <br/> |Тип события (например добавлена сущности, сущность удалена).  <br/> |String  <br/> |
 |**JSONPropertyBag** <br/> |Нет  <br/> |Дополнительные свойства, связанные с событием (JSON больших двоичных объектов из пары "ключ значение").  <br/> |JSON больших двоичных объектов  <br/> |
 |**TargetEntityList** <br/> |Нет  <br/> |Список сущностей, связанный с событием.  <br/> |Строка JSON  <br/> |
-|**TransactionId** <br/> |Нет  <br/> |Идентификатор (GUID) сопоставления идентификатора журнала запросов.  <br/> |Строка  <br/> |
+|**TransactionId** <br/> |Нет  <br/> |Идентификатор (GUID) сопоставления идентификатора журнала запросов.  <br/> |String  <br/> |
    
 ### <a name="successful-addentityfeedback-operation-response"></a>Успешные операции ответа AddEntityFeedback
 

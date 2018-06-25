@@ -10,7 +10,7 @@ ms.openlocfilehash: b3357f24e07a9c1b3b37ccb63b0f4f0d0a1d6fcf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760992"
 ---
 # <a name="create-contact-groups-by-using-ews-in-exchange"></a>Создание группы контактов с помощью веб-служб Exchange в Exchange

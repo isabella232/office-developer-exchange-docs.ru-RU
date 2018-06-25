@@ -10,7 +10,7 @@ ms.openlocfilehash: ccecacc9c8beef464727efbc9d1fced7a81f9b7c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761016"
 ---
 # <a name="generate-a-list-of-autodiscover-endpoints"></a>Создать список конечных точек службы автообнаружения

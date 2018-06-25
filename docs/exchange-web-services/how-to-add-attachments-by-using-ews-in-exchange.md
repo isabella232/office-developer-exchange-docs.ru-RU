@@ -10,7 +10,7 @@ ms.openlocfilehash: dbfff879c92dafeec588d79cddd92e294b763c06
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761005"
 ---
 # <a name="add-attachments-by-using-ews-in-exchange"></a>Добавление вложения с помощью веб-служб Exchange в Exchange
