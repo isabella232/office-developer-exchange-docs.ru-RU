@@ -1,5 +1,5 @@
 ---
-title: Строка
+title: String
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -16,10 +16,10 @@ ms.openlocfilehash: 66260c7ebcb56049a78c5eddbe057dfa8d61f193
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835607"
 ---
-# <a name="string"></a>Строка
+# <a name="string"></a>String
 
 **Строковый** элемент представляет строку, которая используется с элементами, контакты, задачи и бесед. 
   
