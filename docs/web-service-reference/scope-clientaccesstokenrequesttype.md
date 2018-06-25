@@ -12,59 +12,59 @@ ms.openlocfilehash: 0439b494db7e4e1c097039a81394af9441613555
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835274"
 ---
-# <a name="scope-clientaccesstokenrequesttype"></a><span data-ttu-id="8c5cb-103">Область (ClientAccessTokenRequestType)</span><span class="sxs-lookup"><span data-stu-id="8c5cb-103">Scope (ClientAccessTokenRequestType)</span></span>
+# <a name="scope-clientaccesstokenrequesttype"></a><span data-ttu-id="8f286-103">Область (ClientAccessTokenRequestType)</span><span class="sxs-lookup"><span data-stu-id="8f286-103">Scope (ClientAccessTokenRequestType)</span></span>
 
-<span data-ttu-id="8c5cb-104">Элемент **области (ClientAccessTokenRequestType)** область маркеров.</span><span class="sxs-lookup"><span data-stu-id="8c5cb-104">The **Scope (ClientAccessTokenRequestType)** element specifies a token scope.</span></span> 
+<span data-ttu-id="8f286-104">Элемент **области (ClientAccessTokenRequestType)** область маркеров.</span><span class="sxs-lookup"><span data-stu-id="8f286-104">The **Scope (ClientAccessTokenRequestType)** element specifies a token scope.</span></span> 
   
 ```XML
 <Scope/>
 ```
 
- <span data-ttu-id="8c5cb-105">**string**</span><span class="sxs-lookup"><span data-stu-id="8c5cb-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="8c5cb-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="8c5cb-106">Attributes and elements</span></span>
+ <span data-ttu-id="8f286-105">**string**</span><span class="sxs-lookup"><span data-stu-id="8f286-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="8f286-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="8f286-106">Attributes and elements</span></span>
 
-<span data-ttu-id="8c5cb-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="8c5cb-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="8f286-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="8f286-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8c5cb-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="8c5cb-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="8f286-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="8f286-108">Attributes</span></span>
 
-<span data-ttu-id="8c5cb-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="8c5cb-109">None.</span></span>
+<span data-ttu-id="8f286-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="8f286-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="8c5cb-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="8c5cb-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="8f286-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="8f286-110">Child elements</span></span>
 
-<span data-ttu-id="8c5cb-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="8c5cb-111">None.</span></span>
+<span data-ttu-id="8f286-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="8f286-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="8c5cb-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="8c5cb-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="8f286-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="8f286-112">Parent elements</span></span>
 
-[<span data-ttu-id="8c5cb-113">TokenRequest</span><span class="sxs-lookup"><span data-stu-id="8c5cb-113">TokenRequest</span></span>](tokenrequest.md)
+[<span data-ttu-id="8f286-113">TokenRequest</span><span class="sxs-lookup"><span data-stu-id="8f286-113">TokenRequest</span></span>](tokenrequest.md)
   
-## <a name="text-value"></a><span data-ttu-id="8c5cb-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="8c5cb-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="8f286-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="8f286-114">Text value</span></span>
 
-<span data-ttu-id="8c5cb-115">Текстовое значение элемента **области (ClientAccessTokenRequestType)** — это маркер области действия.</span><span class="sxs-lookup"><span data-stu-id="8c5cb-115">The text value of the **Scope (ClientAccessTokenRequestType)** element is a token scope.</span></span> 
+<span data-ttu-id="8f286-115">Текстовое значение элемента **области (ClientAccessTokenRequestType)** — это маркер области действия.</span><span class="sxs-lookup"><span data-stu-id="8f286-115">The text value of the **Scope (ClientAccessTokenRequestType)** element is a token scope.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="8c5cb-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="8c5cb-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8f286-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="8f286-116">Remarks</span></span>
 
-<span data-ttu-id="8c5cb-117">Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="8c5cb-117">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="8f286-117">Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="8f286-117">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
   
-<span data-ttu-id="8c5cb-118">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="8c5cb-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="8f286-118">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="8f286-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="8c5cb-119">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="8c5cb-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="8f286-119">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="8f286-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8c5cb-120">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="8c5cb-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="8c5cb-121">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="8c5cb-121">Schema Name</span></span>  <br/> |<span data-ttu-id="8c5cb-122">Схема Types</span><span class="sxs-lookup"><span data-stu-id="8c5cb-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="8c5cb-123">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="8c5cb-123">Validation File</span></span>  <br/> |<span data-ttu-id="8c5cb-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="8c5cb-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="8c5cb-125">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="8c5cb-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="8c5cb-126">True</span><span class="sxs-lookup"><span data-stu-id="8c5cb-126">True</span></span>  <br/> |
+|<span data-ttu-id="8f286-120">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="8f286-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="8f286-121">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="8f286-121">Schema Name</span></span>  <br/> |<span data-ttu-id="8f286-122">Схема Types</span><span class="sxs-lookup"><span data-stu-id="8f286-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="8f286-123">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="8f286-123">Validation File</span></span>  <br/> |<span data-ttu-id="8f286-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="8f286-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="8f286-125">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="8f286-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="8f286-126">True</span><span class="sxs-lookup"><span data-stu-id="8f286-126">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="8c5cb-127">См. также</span><span class="sxs-lookup"><span data-stu-id="8c5cb-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8f286-127">См. также</span><span class="sxs-lookup"><span data-stu-id="8f286-127">See also</span></span>
 
 
 
-[<span data-ttu-id="8c5cb-128">TokenRequest</span><span class="sxs-lookup"><span data-stu-id="8c5cb-128">TokenRequest</span></span>](tokenrequest.md)
+[<span data-ttu-id="8f286-128">TokenRequest</span><span class="sxs-lookup"><span data-stu-id="8f286-128">TokenRequest</span></span>](tokenrequest.md)
 
 
-- [<span data-ttu-id="8c5cb-129">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="8c5cb-129">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="8f286-129">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="8f286-129">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

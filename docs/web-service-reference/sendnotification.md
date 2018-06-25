@@ -16,12 +16,12 @@ ms.openlocfilehash: 2288dbb5cf97b57a64b3c645eb72836342f4c178
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835345"
 ---
-# <a name="sendnotification"></a><span data-ttu-id="ab8a8-103">SendNotification</span><span class="sxs-lookup"><span data-stu-id="ab8a8-103">SendNotification</span></span>
+# <a name="sendnotification"></a><span data-ttu-id="b5465-103">SendNotification</span><span class="sxs-lookup"><span data-stu-id="b5465-103">SendNotification</span></span>
 
-<span data-ttu-id="ab8a8-104">Элемент **SendNotification** содержит push-уведомлений, отправленных с компьютера, на котором выполняется Microsoft Exchange Server 2007 для клиентского приложения.</span><span class="sxs-lookup"><span data-stu-id="ab8a8-104">The **SendNotification** element contains the push notifications that are sent by the computer that is running Microsoft Exchange Server 2007 to the client application.</span></span> 
+<span data-ttu-id="b5465-104">Элемент **SendNotification** содержит push-уведомлений, отправленных с компьютера, на котором выполняется Microsoft Exchange Server 2007 для клиентского приложения.</span><span class="sxs-lookup"><span data-stu-id="b5465-104">The **SendNotification** element contains the push notifications that are sent by the computer that is running Microsoft Exchange Server 2007 to the client application.</span></span> 
   
 ```xml
 <SendNotification>
@@ -29,46 +29,46 @@ ms.locfileid: "19835345"
 </SendNotification>
 ```
 
- <span data-ttu-id="ab8a8-105">**SendNotificationResponseType**</span><span class="sxs-lookup"><span data-stu-id="ab8a8-105">**SendNotificationResponseType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="ab8a8-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="ab8a8-106">Attributes and elements</span></span>
+ <span data-ttu-id="b5465-105">**SendNotificationResponseType**</span><span class="sxs-lookup"><span data-stu-id="b5465-105">**SendNotificationResponseType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b5465-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="b5465-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ab8a8-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="ab8a8-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b5465-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="b5465-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ab8a8-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="ab8a8-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b5465-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="b5465-108">Attributes</span></span>
 
-<span data-ttu-id="ab8a8-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="ab8a8-109">None.</span></span>
+<span data-ttu-id="b5465-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="b5465-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ab8a8-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="ab8a8-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b5465-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="b5465-110">Child elements</span></span>
 
-|<span data-ttu-id="ab8a8-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="ab8a8-111">**Element**</span></span>|<span data-ttu-id="ab8a8-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ab8a8-112">**Description**</span></span>|
+|<span data-ttu-id="b5465-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="b5465-111">**Element**</span></span>|<span data-ttu-id="b5465-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b5465-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="ab8a8-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="ab8a8-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="ab8a8-114">Содержит push-уведомления, отправляемые с сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="ab8a8-114">Contains the push notifications that are sent by the Client Access server.</span></span>  <br/> |
+|[<span data-ttu-id="b5465-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="b5465-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="b5465-114">Содержит push-уведомления, отправляемые с сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="b5465-114">Contains the push notifications that are sent by the Client Access server.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="ab8a8-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="ab8a8-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b5465-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="b5465-115">Parent elements</span></span>
 
-<span data-ttu-id="ab8a8-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="ab8a8-116">None.</span></span>
+<span data-ttu-id="b5465-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="b5465-116">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ab8a8-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="ab8a8-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5465-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="b5465-117">Remarks</span></span>
 
-<span data-ttu-id="ab8a8-118">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="ab8a8-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="b5465-118">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="b5465-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ab8a8-119">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="ab8a8-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b5465-119">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="b5465-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ab8a8-120">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="ab8a8-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="ab8a8-121">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="ab8a8-121">Schema Name</span></span>  <br/> |<span data-ttu-id="ab8a8-122">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="ab8a8-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="ab8a8-123">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="ab8a8-123">Validation File</span></span>  <br/> |<span data-ttu-id="ab8a8-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="ab8a8-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="ab8a8-125">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="ab8a8-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="ab8a8-126">False</span><span class="sxs-lookup"><span data-stu-id="ab8a8-126">False</span></span>  <br/> |
+|<span data-ttu-id="b5465-120">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="b5465-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="b5465-121">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="b5465-121">Schema Name</span></span>  <br/> |<span data-ttu-id="b5465-122">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="b5465-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="b5465-123">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="b5465-123">Validation File</span></span>  <br/> |<span data-ttu-id="b5465-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="b5465-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="b5465-125">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="b5465-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="b5465-126">False</span><span class="sxs-lookup"><span data-stu-id="b5465-126">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ab8a8-127">См. также</span><span class="sxs-lookup"><span data-stu-id="ab8a8-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b5465-127">См. также</span><span class="sxs-lookup"><span data-stu-id="b5465-127">See also</span></span>
 
 
 
-- [<span data-ttu-id="ab8a8-128">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="ab8a8-128">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="b5465-128">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="b5465-128">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
 
-[<span data-ttu-id="ab8a8-129">Уведомления о событиях в веб-служб Exchange</span><span class="sxs-lookup"><span data-stu-id="ab8a8-129">Event notifications in EWS</span></span>](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
+[<span data-ttu-id="b5465-129">Уведомления о событиях в веб-служб Exchange</span><span class="sxs-lookup"><span data-stu-id="b5465-129">Event notifications in EWS</span></span>](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
   
-[<span data-ttu-id="ab8a8-130">Пример приложения для push-уведомлений</span><span class="sxs-lookup"><span data-stu-id="ab8a8-130">Push Notification Sample Application</span></span>](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+[<span data-ttu-id="b5465-130">Пример приложения для push-уведомлений</span><span class="sxs-lookup"><span data-stu-id="b5465-130">Push Notification Sample Application</span></span>](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

@@ -16,31 +16,31 @@ ms.openlocfilehash: 6f3371d19bd8a7fd967d4959d85037ae6b51f6aa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835088"
 ---
-# <a name="removedelegate-operation"></a><span data-ttu-id="5df8e-103">Операция RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="5df8e-103">RemoveDelegate operation</span></span>
+# <a name="removedelegate-operation"></a><span data-ttu-id="fb5aa-103">Операция RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="fb5aa-103">RemoveDelegate operation</span></span>
 
-<span data-ttu-id="5df8e-104">Операция **RemoveDelegate** Удаляет один или несколько делегатов из почтового ящика пользователя.</span><span class="sxs-lookup"><span data-stu-id="5df8e-104">The **RemoveDelegate** operation removes one or more delegates from a user's mailbox.</span></span> 
+<span data-ttu-id="fb5aa-104">Операция **RemoveDelegate** Удаляет один или несколько делегатов из почтового ящика пользователя.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-104">The **RemoveDelegate** operation removes one or more delegates from a user's mailbox.</span></span> 
   
-## <a name="soap-headers"></a><span data-ttu-id="5df8e-105">Заголовки SOAP</span><span class="sxs-lookup"><span data-stu-id="5df8e-105">SOAP Headers</span></span>
+## <a name="soap-headers"></a><span data-ttu-id="fb5aa-105">Заголовки SOAP</span><span class="sxs-lookup"><span data-stu-id="fb5aa-105">SOAP Headers</span></span>
 
-<span data-ttu-id="5df8e-106">Операция **RemoveDelegate** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="5df8e-106">The **RemoveDelegate** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
+<span data-ttu-id="fb5aa-106">Операция **RemoveDelegate** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-106">The **RemoveDelegate** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
   
-|<span data-ttu-id="5df8e-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="5df8e-107">**Header**</span></span>|<span data-ttu-id="5df8e-108">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5df8e-108">**Element**</span></span>|<span data-ttu-id="5df8e-109">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5df8e-109">**Description**</span></span>|
+|<span data-ttu-id="fb5aa-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="fb5aa-107">**Header**</span></span>|<span data-ttu-id="fb5aa-108">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="fb5aa-108">**Element**</span></span>|<span data-ttu-id="fb5aa-109">**Описание**</span><span class="sxs-lookup"><span data-stu-id="fb5aa-109">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="5df8e-110">Олицетворение</span><span class="sxs-lookup"><span data-stu-id="5df8e-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="5df8e-111">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="5df8e-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="5df8e-112">Идентифицирует пользователя, которого олицетворения в клиентском приложении.</span><span class="sxs-lookup"><span data-stu-id="5df8e-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
-|<span data-ttu-id="5df8e-113">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="5df8e-113">MailboxCulture</span></span>  <br/> |[<span data-ttu-id="5df8e-114">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="5df8e-114">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="5df8e-115">Идентифицирует культуры RFC3066, которые будут использоваться для доступа к почтовому ящику.</span><span class="sxs-lookup"><span data-stu-id="5df8e-115">Identifies the RFC3066 culture to be used to access the mailbox.</span></span>  <br/> |
-|<span data-ttu-id="5df8e-116">RequestVersion</span><span class="sxs-lookup"><span data-stu-id="5df8e-116">RequestVersion</span></span>  <br/> |[<span data-ttu-id="5df8e-117">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="5df8e-117">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="5df8e-118">Определяет версию схемы для операции запроса.</span><span class="sxs-lookup"><span data-stu-id="5df8e-118">Identifies the schema version for the operation request.</span></span>  <br/> |
-|<span data-ttu-id="5df8e-119">ServerVersion</span><span class="sxs-lookup"><span data-stu-id="5df8e-119">ServerVersion</span></span>  <br/> |[<span data-ttu-id="5df8e-120">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="5df8e-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="5df8e-121">Определяет версию сервера, ответившего на запрос.</span><span class="sxs-lookup"><span data-stu-id="5df8e-121">Identifies the version of the server that responded to the request.</span></span>  <br/> |
+|<span data-ttu-id="fb5aa-110">Олицетворение</span><span class="sxs-lookup"><span data-stu-id="fb5aa-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="fb5aa-111">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="fb5aa-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="fb5aa-112">Идентифицирует пользователя, которого олицетворения в клиентском приложении.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
+|<span data-ttu-id="fb5aa-113">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="fb5aa-113">MailboxCulture</span></span>  <br/> |[<span data-ttu-id="fb5aa-114">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="fb5aa-114">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="fb5aa-115">Идентифицирует культуры RFC3066, которые будут использоваться для доступа к почтовому ящику.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-115">Identifies the RFC3066 culture to be used to access the mailbox.</span></span>  <br/> |
+|<span data-ttu-id="fb5aa-116">RequestVersion</span><span class="sxs-lookup"><span data-stu-id="fb5aa-116">RequestVersion</span></span>  <br/> |[<span data-ttu-id="fb5aa-117">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="fb5aa-117">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="fb5aa-118">Определяет версию схемы для операции запроса.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-118">Identifies the schema version for the operation request.</span></span>  <br/> |
+|<span data-ttu-id="fb5aa-119">ServerVersion</span><span class="sxs-lookup"><span data-stu-id="fb5aa-119">ServerVersion</span></span>  <br/> |[<span data-ttu-id="fb5aa-120">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="fb5aa-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="fb5aa-121">Определяет версию сервера, ответившего на запрос.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-121">Identifies the version of the server that responded to the request.</span></span>  <br/> |
    
-## <a name="removedelegate-request-example"></a><span data-ttu-id="5df8e-122">Пример запроса RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="5df8e-122">RemoveDelegate request example</span></span>
+## <a name="removedelegate-request-example"></a><span data-ttu-id="fb5aa-122">Пример запроса RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="fb5aa-122">RemoveDelegate request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="5df8e-123">Описание</span><span class="sxs-lookup"><span data-stu-id="5df8e-123">Description</span></span>
+### <a name="description"></a><span data-ttu-id="fb5aa-123">Описание</span><span class="sxs-lookup"><span data-stu-id="fb5aa-123">Description</span></span>
 
-<span data-ttu-id="5df8e-124">В следующем примере кода показано, как удалить два делегата из почтового ящика пользователя user1.</span><span class="sxs-lookup"><span data-stu-id="5df8e-124">The following code example shows how to remove two delegates from user1's mailbox.</span></span> <span data-ttu-id="5df8e-125">В этом примере один делегат удаляется с помощью делегата основного SMTP-адреса и другой удаляется с помощью делегата идентификатор безопасности (SID).</span><span class="sxs-lookup"><span data-stu-id="5df8e-125">In this example, one delegate is removed by using the delegate's primary SMTP address, and the other one is removed by using the delegate's security identifier (SID).</span></span>
+<span data-ttu-id="fb5aa-124">В следующем примере кода показано, как удалить два делегата из почтового ящика пользователя user1.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-124">The following code example shows how to remove two delegates from user1's mailbox.</span></span> <span data-ttu-id="fb5aa-125">В этом примере один делегат удаляется с помощью делегата основного SMTP-адреса и другой удаляется с помощью делегата идентификатор безопасности (SID).</span><span class="sxs-lookup"><span data-stu-id="fb5aa-125">In this example, one delegate is removed by using the delegate's primary SMTP address, and the other one is removed by using the delegate's security identifier (SID).</span></span>
   
-### <a name="code"></a><span data-ttu-id="5df8e-126">Программа</span><span class="sxs-lookup"><span data-stu-id="5df8e-126">Code</span></span>
+### <a name="code"></a><span data-ttu-id="fb5aa-126">Программа</span><span class="sxs-lookup"><span data-stu-id="fb5aa-126">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -68,17 +68,17 @@ ms.locfileid: "19835088"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="5df8e-127">Комментарии</span><span class="sxs-lookup"><span data-stu-id="5df8e-127">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="fb5aa-127">Комментарии</span><span class="sxs-lookup"><span data-stu-id="fb5aa-127">Comments</span></span>
 
-<span data-ttu-id="5df8e-128">Операция **RemoveDelegate** не требуется делегат указанного пользователя нет почтового ящика или находится в службе каталогов Active Directory.</span><span class="sxs-lookup"><span data-stu-id="5df8e-128">The **RemoveDelegate** operation does not require the specified delegate user to have a mailbox or to exist in the Active Directory directory service.</span></span> <span data-ttu-id="5df8e-129">Операция **RemoveDelegate** завершится успешно, если потерянные запись делегата.</span><span class="sxs-lookup"><span data-stu-id="5df8e-129">The **RemoveDelegate** operation will succeed if the delegate entry is orphaned.</span></span> 
+<span data-ttu-id="fb5aa-128">Операция **RemoveDelegate** не требуется делегат указанного пользователя нет почтового ящика или находится в службе каталогов Active Directory.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-128">The **RemoveDelegate** operation does not require the specified delegate user to have a mailbox or to exist in the Active Directory directory service.</span></span> <span data-ttu-id="fb5aa-129">Операция **RemoveDelegate** завершится успешно, если потерянные запись делегата.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-129">The **RemoveDelegate** operation will succeed if the delegate entry is orphaned.</span></span> 
   
-## <a name="removedelegate-response-example"></a><span data-ttu-id="5df8e-130">Пример ответа RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="5df8e-130">RemoveDelegate response example</span></span>
+## <a name="removedelegate-response-example"></a><span data-ttu-id="fb5aa-130">Пример ответа RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="fb5aa-130">RemoveDelegate response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="5df8e-131">Описание</span><span class="sxs-lookup"><span data-stu-id="5df8e-131">Description</span></span>
+### <a name="description"></a><span data-ttu-id="fb5aa-131">Описание</span><span class="sxs-lookup"><span data-stu-id="fb5aa-131">Description</span></span>
 
-<span data-ttu-id="5df8e-132">В следующем примере ответа **RemoveDelegate** показано успешного ответа на запрос **RemoveDelegate** .</span><span class="sxs-lookup"><span data-stu-id="5df8e-132">The following example of a **RemoveDelegate** response shows a successful response to a **RemoveDelegate** request.</span></span> <span data-ttu-id="5df8e-133">Ответ содержит элемент **DelegateUserResponseMessageType** для каждого делегата, удаляется из почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="5df8e-133">The response contains a **DelegateUserResponseMessageType** element for each delegate that is removed from the mailbox.</span></span> 
+<span data-ttu-id="fb5aa-132">В следующем примере ответа **RemoveDelegate** показано успешного ответа на запрос **RemoveDelegate** .</span><span class="sxs-lookup"><span data-stu-id="fb5aa-132">The following example of a **RemoveDelegate** response shows a successful response to a **RemoveDelegate** request.</span></span> <span data-ttu-id="fb5aa-133">Ответ содержит элемент **DelegateUserResponseMessageType** для каждого делегата, удаляется из почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-133">The response contains a **DelegateUserResponseMessageType** element for each delegate that is removed from the mailbox.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="5df8e-134">Программа</span><span class="sxs-lookup"><span data-stu-id="5df8e-134">Code</span></span>
+### <a name="code"></a><span data-ttu-id="fb5aa-134">Программа</span><span class="sxs-lookup"><span data-stu-id="fb5aa-134">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -111,13 +111,13 @@ ms.locfileid: "19835088"
 </soap:Envelope>
 ```
 
-## <a name="removedelegate-error-response-example"></a><span data-ttu-id="5df8e-135">Пример ответа об ошибке RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="5df8e-135">RemoveDelegate Error response example</span></span>
+## <a name="removedelegate-error-response-example"></a><span data-ttu-id="fb5aa-135">Пример ответа об ошибке RemoveDelegate</span><span class="sxs-lookup"><span data-stu-id="fb5aa-135">RemoveDelegate Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="5df8e-136">Описание</span><span class="sxs-lookup"><span data-stu-id="5df8e-136">Description</span></span>
+### <a name="description"></a><span data-ttu-id="fb5aa-136">Описание</span><span class="sxs-lookup"><span data-stu-id="fb5aa-136">Description</span></span>
 
-<span data-ttu-id="5df8e-137">В следующем примере ответа ошибку **RemoveDelegate** показано результаты запроса, чтобы удалить делегата, не существует.</span><span class="sxs-lookup"><span data-stu-id="5df8e-137">The following example of a **RemoveDelegate** error response shows the results of a request to remove a delegate that does not exist.</span></span> 
+<span data-ttu-id="fb5aa-137">В следующем примере ответа ошибку **RemoveDelegate** показано результаты запроса, чтобы удалить делегата, не существует.</span><span class="sxs-lookup"><span data-stu-id="fb5aa-137">The following example of a **RemoveDelegate** error response shows the results of a request to remove a delegate that does not exist.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="5df8e-138">Программа</span><span class="sxs-lookup"><span data-stu-id="5df8e-138">Code</span></span>
+### <a name="code"></a><span data-ttu-id="fb5aa-138">Программа</span><span class="sxs-lookup"><span data-stu-id="fb5aa-138">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -149,9 +149,9 @@ ms.locfileid: "19835088"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="5df8e-139">См. также</span><span class="sxs-lookup"><span data-stu-id="5df8e-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fb5aa-139">См. также</span><span class="sxs-lookup"><span data-stu-id="fb5aa-139">See also</span></span>
 
 
 
-- [<span data-ttu-id="5df8e-140">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="5df8e-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="fb5aa-140">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="fb5aa-140">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

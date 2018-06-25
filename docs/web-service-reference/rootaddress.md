@@ -16,59 +16,59 @@ ms.openlocfilehash: afe544d6ee8dea4cb416ad033ed2cd68976ec087
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835250"
 ---
-# <a name="rootaddress"></a><span data-ttu-id="24fda-103">RootAddress</span><span class="sxs-lookup"><span data-stu-id="24fda-103">RootAddress</span></span>
+# <a name="rootaddress"></a><span data-ttu-id="4d63c-103">RootAddress</span><span class="sxs-lookup"><span data-stu-id="4d63c-103">RootAddress</span></span>
 
-<span data-ttu-id="24fda-104">Элемент **RootAddress** представляет первый адрес, который запускает события для события [RecipientTrackingEvent](recipienttrackingevent.md) .</span><span class="sxs-lookup"><span data-stu-id="24fda-104">The **RootAddress** element represents the first address that starts the event for a [RecipientTrackingEvent](recipienttrackingevent.md) event.</span></span> 
+<span data-ttu-id="4d63c-104">Элемент **RootAddress** представляет первый адрес, который запускает события для события [RecipientTrackingEvent](recipienttrackingevent.md) .</span><span class="sxs-lookup"><span data-stu-id="4d63c-104">The **RootAddress** element represents the first address that starts the event for a [RecipientTrackingEvent](recipienttrackingevent.md) event.</span></span> 
   
 ```xml
 <RootAddress/>
 ```
 
- <span data-ttu-id="24fda-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="24fda-105">**NonEmptyStringType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="24fda-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="24fda-106">Attributes and elements</span></span>
+ <span data-ttu-id="4d63c-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="4d63c-105">**NonEmptyStringType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="4d63c-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="4d63c-106">Attributes and elements</span></span>
 
-<span data-ttu-id="24fda-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="24fda-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="4d63c-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="4d63c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="24fda-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="24fda-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="4d63c-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="4d63c-108">Attributes</span></span>
 
-<span data-ttu-id="24fda-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="24fda-109">None.</span></span>
+<span data-ttu-id="4d63c-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="4d63c-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="24fda-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="24fda-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="4d63c-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="4d63c-110">Child elements</span></span>
 
-<span data-ttu-id="24fda-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="24fda-111">None.</span></span>
+<span data-ttu-id="4d63c-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="4d63c-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="24fda-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="24fda-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="4d63c-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="4d63c-112">Parent elements</span></span>
 
-|<span data-ttu-id="24fda-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="24fda-113">**Element**</span></span>|<span data-ttu-id="24fda-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="24fda-114">**Description**</span></span>|
+|<span data-ttu-id="4d63c-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="4d63c-113">**Element**</span></span>|<span data-ttu-id="4d63c-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="4d63c-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="24fda-115">RecipientTrackingEvent</span><span class="sxs-lookup"><span data-stu-id="24fda-115">RecipientTrackingEvent</span></span>](recipienttrackingevent.md) <br/> |<span data-ttu-id="24fda-116">Содержит сведения для одного события для получателя.</span><span class="sxs-lookup"><span data-stu-id="24fda-116">Contains information for a single event for a recipient.</span></span>  <br/> |
+|[<span data-ttu-id="4d63c-115">RecipientTrackingEvent</span><span class="sxs-lookup"><span data-stu-id="4d63c-115">RecipientTrackingEvent</span></span>](recipienttrackingevent.md) <br/> |<span data-ttu-id="4d63c-116">Содержит сведения для одного события для получателя.</span><span class="sxs-lookup"><span data-stu-id="4d63c-116">Contains information for a single event for a recipient.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="24fda-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="24fda-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="4d63c-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="4d63c-117">Text value</span></span>
 
-<span data-ttu-id="24fda-118">Текстовое значение представляет собой адрес, который запускает отслеживание событий.</span><span class="sxs-lookup"><span data-stu-id="24fda-118">The text value is the address that starts the tracking event.</span></span>
+<span data-ttu-id="4d63c-118">Текстовое значение представляет собой адрес, который запускает отслеживание событий.</span><span class="sxs-lookup"><span data-stu-id="4d63c-118">The text value is the address that starts the tracking event.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="24fda-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="24fda-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4d63c-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="4d63c-119">Remarks</span></span>
 
-<span data-ttu-id="24fda-120">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="24fda-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="4d63c-120">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="4d63c-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="24fda-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="24fda-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="4d63c-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="4d63c-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="24fda-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="24fda-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="24fda-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="24fda-123">Schema Name</span></span>  <br/> |<span data-ttu-id="24fda-124">Схема Types</span><span class="sxs-lookup"><span data-stu-id="24fda-124">Types schema</span></span>  <br/> |
-|<span data-ttu-id="24fda-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="24fda-125">Validation File</span></span>  <br/> |<span data-ttu-id="24fda-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="24fda-126">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="24fda-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="24fda-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="24fda-128">False</span><span class="sxs-lookup"><span data-stu-id="24fda-128">False</span></span>  <br/> |
+|<span data-ttu-id="4d63c-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="4d63c-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="4d63c-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="4d63c-123">Schema Name</span></span>  <br/> |<span data-ttu-id="4d63c-124">Схема Types</span><span class="sxs-lookup"><span data-stu-id="4d63c-124">Types schema</span></span>  <br/> |
+|<span data-ttu-id="4d63c-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="4d63c-125">Validation File</span></span>  <br/> |<span data-ttu-id="4d63c-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="4d63c-126">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="4d63c-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="4d63c-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="4d63c-128">False</span><span class="sxs-lookup"><span data-stu-id="4d63c-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="24fda-129">См. также</span><span class="sxs-lookup"><span data-stu-id="24fda-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4d63c-129">См. также</span><span class="sxs-lookup"><span data-stu-id="4d63c-129">See also</span></span>
 
 
 
-[<span data-ttu-id="24fda-130">Операция GetMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="24fda-130">GetMessageTrackingReport operation</span></span>](getmessagetrackingreport-operation.md)
+[<span data-ttu-id="4d63c-130">Операция GetMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="4d63c-130">GetMessageTrackingReport operation</span></span>](getmessagetrackingreport-operation.md)
 
 
-- [<span data-ttu-id="24fda-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="24fda-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="4d63c-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="4d63c-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

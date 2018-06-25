@@ -16,56 +16,56 @@ ms.openlocfilehash: 09453a4ce787ef83abf41b51e881c8e654c7d4b1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835490"
 ---
-# <a name="sipresponsecode"></a><span data-ttu-id="35a18-103">SIPResponseCode</span><span class="sxs-lookup"><span data-stu-id="35a18-103">SIPResponseCode</span></span>
+# <a name="sipresponsecode"></a><span data-ttu-id="fe668-103">SIPResponseCode</span><span class="sxs-lookup"><span data-stu-id="fe668-103">SIPResponseCode</span></span>
 
-<span data-ttu-id="35a18-104">Элемент **SIPResponseCode** определяет код ответа SIP.</span><span class="sxs-lookup"><span data-stu-id="35a18-104">The **SIPResponseCode** element specifies the SIP response code.</span></span> 
+<span data-ttu-id="fe668-104">Элемент **SIPResponseCode** определяет код ответа SIP.</span><span class="sxs-lookup"><span data-stu-id="fe668-104">The **SIPResponseCode** element specifies the SIP response code.</span></span> 
   
 ```xml
 <SIPResponseCode/>
 ```
 
- <span data-ttu-id="35a18-105">**int**</span><span class="sxs-lookup"><span data-stu-id="35a18-105">**int**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="35a18-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="35a18-106">Attributes and elements</span></span>
+ <span data-ttu-id="fe668-105">**int**</span><span class="sxs-lookup"><span data-stu-id="fe668-105">**int**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="fe668-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="fe668-106">Attributes and elements</span></span>
 
-<span data-ttu-id="35a18-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="35a18-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="fe668-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="fe668-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="35a18-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="35a18-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="fe668-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="fe668-108">Attributes</span></span>
 
-<span data-ttu-id="35a18-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="35a18-109">None.</span></span>
+<span data-ttu-id="fe668-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="fe668-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="35a18-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="35a18-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="fe668-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="fe668-110">Child elements</span></span>
 
-<span data-ttu-id="35a18-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="35a18-111">None.</span></span>
+<span data-ttu-id="fe668-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="fe668-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="35a18-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="35a18-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="fe668-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="fe668-112">Parent elements</span></span>
 
-|<span data-ttu-id="35a18-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="35a18-113">**Element**</span></span>|<span data-ttu-id="35a18-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="35a18-114">**Description**</span></span>|
+|<span data-ttu-id="fe668-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="fe668-113">**Element**</span></span>|<span data-ttu-id="fe668-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="fe668-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="35a18-115">PhoneCallInformation</span><span class="sxs-lookup"><span data-stu-id="35a18-115">PhoneCallInformation</span></span>](phonecallinformation.md) <br/> |<span data-ttu-id="35a18-116">Задает сведения о состоянии для телефонного звонка.</span><span class="sxs-lookup"><span data-stu-id="35a18-116">Specifies the state information for a phone call.</span></span>  <br/> |
+|[<span data-ttu-id="fe668-115">PhoneCallInformation</span><span class="sxs-lookup"><span data-stu-id="fe668-115">PhoneCallInformation</span></span>](phonecallinformation.md) <br/> |<span data-ttu-id="fe668-116">Задает сведения о состоянии для телефонного звонка.</span><span class="sxs-lookup"><span data-stu-id="fe668-116">Specifies the state information for a phone call.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="35a18-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="35a18-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="fe668-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="fe668-117">Text value</span></span>
 
-<span data-ttu-id="35a18-118">Код ответа SIP.</span><span class="sxs-lookup"><span data-stu-id="35a18-118">A SIP response code.</span></span>
+<span data-ttu-id="fe668-118">Код ответа SIP.</span><span class="sxs-lookup"><span data-stu-id="fe668-118">A SIP response code.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="35a18-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="35a18-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fe668-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="fe668-119">Remarks</span></span>
 
-<span data-ttu-id="35a18-120">Схема, описывающая этот элемент находится в каталоге /ews/ компьютера, на котором выполняется Microsoft Exchange Server 2010 с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="35a18-120">The schema that describes this element is located in the /ews/ directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="fe668-120">Схема, описывающая этот элемент находится в каталоге /ews/ компьютера, на котором выполняется Microsoft Exchange Server 2010 с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="fe668-120">The schema that describes this element is located in the /ews/ directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="35a18-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="35a18-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="fe668-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="fe668-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="35a18-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="35a18-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="35a18-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="35a18-123">Schema Name</span></span>  <br/> |<span data-ttu-id="35a18-124">Схема Types</span><span class="sxs-lookup"><span data-stu-id="35a18-124">Types schema</span></span>  <br/> |
-|<span data-ttu-id="35a18-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="35a18-125">Validation File</span></span>  <br/> |<span data-ttu-id="35a18-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="35a18-126">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="35a18-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="35a18-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="35a18-128">False</span><span class="sxs-lookup"><span data-stu-id="35a18-128">False</span></span>  <br/> |
+|<span data-ttu-id="fe668-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="fe668-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="fe668-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="fe668-123">Schema Name</span></span>  <br/> |<span data-ttu-id="fe668-124">Схема Types</span><span class="sxs-lookup"><span data-stu-id="fe668-124">Types schema</span></span>  <br/> |
+|<span data-ttu-id="fe668-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="fe668-125">Validation File</span></span>  <br/> |<span data-ttu-id="fe668-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="fe668-126">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="fe668-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="fe668-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="fe668-128">False</span><span class="sxs-lookup"><span data-stu-id="fe668-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="35a18-129">См. также</span><span class="sxs-lookup"><span data-stu-id="35a18-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fe668-129">См. также</span><span class="sxs-lookup"><span data-stu-id="fe668-129">See also</span></span>
 
 
 
-- [<span data-ttu-id="35a18-130">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="35a18-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="fe668-130">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="fe668-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

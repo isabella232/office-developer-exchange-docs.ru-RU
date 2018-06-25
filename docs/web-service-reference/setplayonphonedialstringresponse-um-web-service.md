@@ -15,52 +15,52 @@ ms.openlocfilehash: ebc64d8f5e565e5efc91b4ecc52f73339aacb281
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835449"
 ---
-# <a name="setplayonphonedialstringresponse-um-web-service"></a><span data-ttu-id="4e302-103">SetPlayOnPhoneDialStringResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="4e302-103">SetPlayOnPhoneDialStringResponse (UM web service)</span></span>
+# <a name="setplayonphonedialstringresponse-um-web-service"></a><span data-ttu-id="9a8b8-103">SetPlayOnPhoneDialStringResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="9a8b8-103">SetPlayOnPhoneDialStringResponse (UM web service)</span></span>
 
-<span data-ttu-id="4e302-104">Элемент **SetPlayOnPhoneDialStringResponse** определяет ответ на запрос [операции SetPlayOnPhoneDialString (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setplayonphonedialstring-operation-um-web-service.md) .</span><span class="sxs-lookup"><span data-stu-id="4e302-104">The **SetPlayOnPhoneDialStringResponse** element defines a response to a [SetPlayOnPhoneDialString operation (UM web service)](setplayonphonedialstring-operation-um-web-service.md) request.</span></span> 
+<span data-ttu-id="9a8b8-104">Элемент **SetPlayOnPhoneDialStringResponse** определяет ответ на запрос [операции SetPlayOnPhoneDialString (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setplayonphonedialstring-operation-um-web-service.md) .</span><span class="sxs-lookup"><span data-stu-id="9a8b8-104">The **SetPlayOnPhoneDialStringResponse** element defines a response to a [SetPlayOnPhoneDialString operation (UM web service)](setplayonphonedialstring-operation-um-web-service.md) request.</span></span> 
   
-[<span data-ttu-id="4e302-105">SetPlayOnPhoneDialStringResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="4e302-105">SetPlayOnPhoneDialStringResponse (UM web service)</span></span>](setplayonphonedialstringresponse-um-web-service.md)
+[<span data-ttu-id="9a8b8-105">SetPlayOnPhoneDialStringResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="9a8b8-105">SetPlayOnPhoneDialStringResponse (UM web service)</span></span>](setplayonphonedialstringresponse-um-web-service.md)
   
 ```xml
 <SetPlayOnPhoneDialStringResponse />
 ```
 
- <span data-ttu-id="4e302-106">**complexType**</span><span class="sxs-lookup"><span data-stu-id="4e302-106">**complexType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="4e302-107">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="4e302-107">Attributes and elements</span></span>
+ <span data-ttu-id="9a8b8-106">**complexType**</span><span class="sxs-lookup"><span data-stu-id="9a8b8-106">**complexType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="9a8b8-107">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="9a8b8-107">Attributes and elements</span></span>
 
-<span data-ttu-id="4e302-108">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="4e302-108">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="9a8b8-108">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="9a8b8-108">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="4e302-109">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="4e302-109">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9a8b8-109">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="9a8b8-109">Attributes</span></span>
 
-<span data-ttu-id="4e302-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="4e302-110">None.</span></span>
+<span data-ttu-id="9a8b8-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="9a8b8-110">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="4e302-111">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="4e302-111">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9a8b8-111">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="9a8b8-111">Child elements</span></span>
 
-<span data-ttu-id="4e302-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="4e302-112">None.</span></span>
+<span data-ttu-id="9a8b8-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="9a8b8-112">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="4e302-113">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="4e302-113">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="9a8b8-113">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="9a8b8-113">Parent elements</span></span>
 
-<span data-ttu-id="4e302-114">Нет.</span><span class="sxs-lookup"><span data-stu-id="4e302-114">None.</span></span>
+<span data-ttu-id="9a8b8-114">Нет.</span><span class="sxs-lookup"><span data-stu-id="9a8b8-114">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="4e302-115">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="4e302-115">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="9a8b8-115">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="9a8b8-115">Text value</span></span>
 
-<span data-ttu-id="4e302-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="4e302-116">None.</span></span>
+<span data-ttu-id="9a8b8-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="9a8b8-116">None.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="4e302-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="4e302-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="9a8b8-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="9a8b8-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="4e302-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="4e302-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="4e302-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="4e302-119">Schema Name</span></span>  <br/> |<span data-ttu-id="4e302-120">Сообщения</span><span class="sxs-lookup"><span data-stu-id="4e302-120">Messages</span></span>  <br/> |
-|<span data-ttu-id="4e302-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="4e302-121">Validation File</span></span>  <br/> |<span data-ttu-id="4e302-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="4e302-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="4e302-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="4e302-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="4e302-124">True</span><span class="sxs-lookup"><span data-stu-id="4e302-124">True</span></span>  <br/> |
+|<span data-ttu-id="9a8b8-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="9a8b8-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="9a8b8-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="9a8b8-119">Schema Name</span></span>  <br/> |<span data-ttu-id="9a8b8-120">Сообщения</span><span class="sxs-lookup"><span data-stu-id="9a8b8-120">Messages</span></span>  <br/> |
+|<span data-ttu-id="9a8b8-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="9a8b8-121">Validation File</span></span>  <br/> |<span data-ttu-id="9a8b8-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="9a8b8-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="9a8b8-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="9a8b8-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="9a8b8-124">True</span><span class="sxs-lookup"><span data-stu-id="9a8b8-124">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="4e302-125">См. также</span><span class="sxs-lookup"><span data-stu-id="4e302-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9a8b8-125">См. также</span><span class="sxs-lookup"><span data-stu-id="9a8b8-125">See also</span></span>
 
 
 
-[<span data-ttu-id="4e302-126">Операция SetPlayOnPhoneDialString (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="4e302-126">SetPlayOnPhoneDialString operation (UM web service)</span></span>](setplayonphonedialstring-operation-um-web-service.md)
+[<span data-ttu-id="9a8b8-126">Операция SetPlayOnPhoneDialString (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="9a8b8-126">SetPlayOnPhoneDialString operation (UM web service)</span></span>](setplayonphonedialstring-operation-um-web-service.md)
 
