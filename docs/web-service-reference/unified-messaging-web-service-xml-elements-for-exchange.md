@@ -15,7 +15,7 @@ ms.openlocfilehash: b843aec19cbcc9bea487a253ff336e51e0825ca7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840270"
 ---
 # <a name="unified-messaging-web-service-xml-elements-for-exchange"></a>Единой системы обмена сообщениями веб-службы XML элементов для Exchange

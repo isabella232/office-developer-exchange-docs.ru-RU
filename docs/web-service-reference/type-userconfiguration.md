@@ -16,7 +16,7 @@ ms.openlocfilehash: 01729f0b5cb71989aef550abb08346cfe9a35789
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840249"
 ---
 # <a name="type-userconfiguration"></a>Тип (UserConfiguration)
@@ -58,7 +58,7 @@ ms.locfileid: "19840249"
 |DateTime  <br/> ||
 |Логический  <br/> ||
 |Байт  <br/> ||
-|Строка  <br/> ||
+|String  <br/> ||
 |Integer32  <br/> ||
 |UnsignedInteger32  <br/> ||
 |Integer64  <br/> ||
