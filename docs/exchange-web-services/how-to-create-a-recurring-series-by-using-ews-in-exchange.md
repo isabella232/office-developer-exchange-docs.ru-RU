@@ -10,7 +10,7 @@ ms.openlocfilehash: db25fd4c97755248ebbbc7637a71749f485f8fa8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760990"
 ---
 # <a name="create-a-recurring-series-by-using-ews-in-exchange"></a>Создание встречи с помощью веб-служб Exchange в Exchange

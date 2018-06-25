@@ -1417,7 +1417,7 @@
                       href: web-service-reference/entry-phonenumber.md
                     - name: Запись (PhysicalAddress)
                       href: web-service-reference/entry-physicaladdress.md
-                    - name: Error
+                    - name: Ошибка
                       href: web-service-reference/error.md
                     - name: Ошибки
                       href: web-service-reference/errors-ex15websvcsotherref.md
@@ -3495,7 +3495,7 @@
                       href: web-service-reference/streamingsubscriptionrequest.md
                     - name: Улица
                       href: web-service-reference/street.md
-                    - name: Строка
+                    - name: String
                       href: web-service-reference/string.md
                     - name: StringArrayAttributedValue
                       href: web-service-reference/stringarrayattributedvalue.md

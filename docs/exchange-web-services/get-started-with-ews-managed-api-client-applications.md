@@ -10,7 +10,7 @@ ms.openlocfilehash: dafc8cbbf172ad725ab83c93553464ba96ef33b8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760968"
 ---
 # <a name="get-started-with-ews-managed-api-client-applications"></a>Начало работы с клиентскими приложениями, использующими управляемый API EWS

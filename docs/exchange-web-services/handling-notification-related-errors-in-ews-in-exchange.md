@@ -10,7 +10,7 @@ ms.openlocfilehash: cb0c16a74e68b5a16ef0f2011f65b22675950f58
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760955"
 ---
 # <a name="handling-notification-related-errors-in-ews-in-exchange"></a>Обработка ошибок, связанных с уведомлений в веб-служб Exchange в Exchange
@@ -21,7 +21,7 @@ ms.locfileid: "19760955"
   
 **В таблице 1. Ошибки, связанные с уведомления и для их обработки**
 
-|Error|Происходит при попытке...|Обработать его с...|
+|Ошибка|Происходит при попытке...|Обработать его с...|
 |:-----|:-----|:-----|
 |**ErrorExceededConnectionCount** |Откройте подключение для получения событий, когда достигнут предел подключения из учетной записи откройте потоковой передачи подключений. | <ul><li>Использование [олицетворения](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx) для [открытия подключения](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).</li><li>Использование меньшего числа подключений для получения событий. Повысить число подписок для каждого подключения с [помощью сходства](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md) , [поместив не более 200 подписки идентификаторы в ту же группу](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_howdoimaintain). Затем можно использовать то же подключение для получения событий для всей группы, сокращения числа необходимых подключений.</li><li>  При изменении значения HangingConnectionLimit в файле web.config для локальную систему Exchange, чтобы переопределить значение по умолчанию из трех подключений. Exchange Online имеет по умолчанию HangingConnectionLimit 10, которая не настраивается.</li></ul> |
 |**ErrorExceededSubscriptionCount** |Создание слишком большого числа подписок. [EwsMaxSubscriptions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.throttlingpolicy.ewsmaxsubscriptions%28v=exchg.150%29.aspx) параметр для политики регулирования определяет максимальное число подписок, которое может создать учетную запись. | <ul><li>Использование [олицетворения](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx) для [создания подписок](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).</li><li>Уменьшение числа подписок.</li></ul> |
