@@ -54,7 +54,7 @@ ms.locfileid: "19760917"
     
 ## <a name="see-also"></a><span data-ttu-id="e6e03-148">См. также</span><span class="sxs-lookup"><span data-stu-id="e6e03-148">See also</span></span>
 
-- [<span data-ttu-id="e6e03-149">Службы теневого копирования томов (Windows)</span><span class="sxs-lookup"><span data-stu-id="e6e03-149">Volume Shadow Copy Service (Windows)</span></span>](http://msdn.microsoft.com/en-us/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
+- [<span data-ttu-id="e6e03-149">Службы теневого копирования томов (Windows)</span><span class="sxs-lookup"><span data-stu-id="e6e03-149">Volume Shadow Copy Service (Windows)</span></span>](http://msdn.microsoft.com/ru-ru/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
 - [<span data-ttu-id="e6e03-150">Сведения об управляемом API EWS, EWS и веб-службах в Exchange</span><span class="sxs-lookup"><span data-stu-id="e6e03-150">Explore the EWS Managed API, EWS, and web services in Exchange</span></span>](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
 - [<span data-ttu-id="e6e03-151">Командная консоль Exchange</span><span class="sxs-lookup"><span data-stu-id="e6e03-151">Exchange Management Shell</span></span>](../management/exchange-management-shell.md)   
 - [<span data-ttu-id="e6e03-152">Агенты транспорта в Exchange</span><span class="sxs-lookup"><span data-stu-id="e6e03-152">Transport agents in Exchange</span></span>](../transport-agents/transport-agents-in-exchange-2013.md) 

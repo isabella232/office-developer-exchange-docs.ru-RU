@@ -69,19 +69,19 @@ ms.locfileid: "19760938"
 
 <span data-ttu-id="740dc-142">Администраторы используют следующие командлеты командной консоли Exchange для настройки доступа к элементам управления веб-служб Exchange:</span><span class="sxs-lookup"><span data-stu-id="740dc-142">Administrators use the following Exchange Management Shell cmdlets to configure EWS access controls:</span></span> 
   
-- [<span data-ttu-id="740dc-143">Get-CASMailbox</span><span class="sxs-lookup"><span data-stu-id="740dc-143">Get-CASMailbox</span></span>](http://technet.microsoft.com/en-us/library/bb124754.aspx)
+- [<span data-ttu-id="740dc-143">Get-CASMailbox</span><span class="sxs-lookup"><span data-stu-id="740dc-143">Get-CASMailbox</span></span>](http://technet.microsoft.com/ru-ru/library/bb124754.aspx)
     
-- [<span data-ttu-id="740dc-144">SET-CASMailbox</span><span class="sxs-lookup"><span data-stu-id="740dc-144">Set-CASMailbox</span></span>](http://technet.microsoft.com/en-us/library/bb125264.aspx)
+- [<span data-ttu-id="740dc-144">SET-CASMailbox</span><span class="sxs-lookup"><span data-stu-id="740dc-144">Set-CASMailbox</span></span>](http://technet.microsoft.com/ru-ru/library/bb125264.aspx)
     
-- [<span data-ttu-id="740dc-145">Get-OrganizationConfig</span><span class="sxs-lookup"><span data-stu-id="740dc-145">Get-OrganizationConfig</span></span>](http://technet.microsoft.com/en-us/library/aa997571.aspx)
+- [<span data-ttu-id="740dc-145">Get-OrganizationConfig</span><span class="sxs-lookup"><span data-stu-id="740dc-145">Get-OrganizationConfig</span></span>](http://technet.microsoft.com/ru-ru/library/aa997571.aspx)
     
-- [<span data-ttu-id="740dc-146">SET-OrganizationConfig</span><span class="sxs-lookup"><span data-stu-id="740dc-146">Set-OrganizationConfig</span></span>](http://technet.microsoft.com/en-us/library/aa997443.aspx)
+- [<span data-ttu-id="740dc-146">SET-OrganizationConfig</span><span class="sxs-lookup"><span data-stu-id="740dc-146">Set-OrganizationConfig</span></span>](http://technet.microsoft.com/ru-ru/library/aa997443.aspx)
     
 ## <a name="see-also"></a><span data-ttu-id="740dc-147">См. также</span><span class="sxs-lookup"><span data-stu-id="740dc-147">See also</span></span>
 
 - [<span data-ttu-id="740dc-148">Начать работу с использованием веб-служб Exchange</span><span class="sxs-lookup"><span data-stu-id="740dc-148">Start using web services in Exchange</span></span>](start-using-web-services-in-exchange.md)  
 - [<span data-ttu-id="740dc-149">Управление доступом к веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="740dc-149">Control access to EWS in Exchange</span></span>](how-to-control-access-to-ews-in-exchange.md)
-- [<span data-ttu-id="740dc-150">Exchange Server PowerShell (Командная консоль Exchange)</span><span class="sxs-lookup"><span data-stu-id="740dc-150">Exchange Server PowerShell (Exchange Management Shell)</span></span>](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
-- [<span data-ttu-id="740dc-151">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="740dc-151">Windows PowerShell</span></span>](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [<span data-ttu-id="740dc-150">Exchange Server PowerShell (Командная консоль Exchange)</span><span class="sxs-lookup"><span data-stu-id="740dc-150">Exchange Server PowerShell (Exchange Management Shell)</span></span>](https://docs.microsoft.com/ru-ru/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
+- [<span data-ttu-id="740dc-151">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="740dc-151">Windows PowerShell</span></span>](http://msdn.microsoft.com/ru-ru/library/dd835506%28v=vs.85%29.aspx)
     
 

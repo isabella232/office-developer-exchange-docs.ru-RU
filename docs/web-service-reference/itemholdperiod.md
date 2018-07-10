@@ -42,7 +42,7 @@ ms.locfileid: "19834144"
   
 ## <a name="text-value"></a><span data-ttu-id="bdf20-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="bdf20-114">Text value</span></span>
 
-<span data-ttu-id="bdf20-115">Текстовое значение может быть «Unlimited» или строковое значение любое значение [Timespan](http://msdn.microsoft.com/en-us/library/1ecy8h51%28v=vs.110%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="bdf20-115">The text value can be "Unlimited" or the string value of any [Timespan](http://msdn.microsoft.com/en-us/library/1ecy8h51%28v=vs.110%29.aspx) value.</span></span> 
+<span data-ttu-id="bdf20-115">Текстовое значение может быть «Unlimited» или строковое значение любое значение [Timespan](http://msdn.microsoft.com/ru-ru/library/1ecy8h51%28v=vs.110%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="bdf20-115">The text value can be "Unlimited" or the string value of any [Timespan](http://msdn.microsoft.com/ru-ru/library/1ecy8h51%28v=vs.110%29.aspx) value.</span></span> 
   
 ## <a name="remarks"></a><span data-ttu-id="bdf20-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="bdf20-116">Remarks</span></span>
 

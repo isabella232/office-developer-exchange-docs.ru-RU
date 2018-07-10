@@ -76,6 +76,6 @@ ms.locfileid: "19760921"
 ## <a name="see-also"></a><span data-ttu-id="fbec4-140">См. также</span><span class="sxs-lookup"><span data-stu-id="fbec4-140">See also</span></span>
 
 - [<span data-ttu-id="fbec4-141">Exchange Online и Exchange (en)</span><span class="sxs-lookup"><span data-stu-id="fbec4-141">Exchange Online and Exchange development</span></span>](../exchange-server-development.md)
-- [<span data-ttu-id="fbec4-142">Резервное копирование, восстановление и аварийное восстановление</span><span class="sxs-lookup"><span data-stu-id="fbec4-142">Backup, Restore, and Disaster Recovery</span></span>](http://technet.microsoft.com/en-us/library/dd876874)
+- [<span data-ttu-id="fbec4-142">Резервное копирование, восстановление и аварийное восстановление</span><span class="sxs-lookup"><span data-stu-id="fbec4-142">Backup, Restore, and Disaster Recovery</span></span>](http://technet.microsoft.com/ru-ru/library/dd876874)
     
 

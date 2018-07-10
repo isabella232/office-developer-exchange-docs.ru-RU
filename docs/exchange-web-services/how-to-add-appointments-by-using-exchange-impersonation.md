@@ -191,7 +191,7 @@ class AppointmentFactory : IAppointmentFactory
 
 - [<span data-ttu-id="9df8b-140">Олицетворение и EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="9df8b-140">Impersonation and EWS in Exchange</span></span>](impersonation-and-ews-in-exchange.md)
     
-- [<span data-ttu-id="9df8b-141">Роль ApplicationImpersonation</span><span class="sxs-lookup"><span data-stu-id="9df8b-141">ApplicationImpersonation role</span></span>](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)
+- [<span data-ttu-id="9df8b-141">Роль ApplicationImpersonation</span><span class="sxs-lookup"><span data-stu-id="9df8b-141">ApplicationImpersonation role</span></span>](http://technet.microsoft.com/ru-ru/library/dd776119%28v=exchg.150%29.aspx)
     
 - [<span data-ttu-id="9df8b-142">Настройка олицетворения</span><span class="sxs-lookup"><span data-stu-id="9df8b-142">Configure impersonation</span></span>](how-to-configure-impersonation.md)
     

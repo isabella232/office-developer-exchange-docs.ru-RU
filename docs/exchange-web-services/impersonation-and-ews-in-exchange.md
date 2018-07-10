@@ -51,7 +51,7 @@ ms.locfileid: "19761131"
     
 - <span data-ttu-id="bf1fb-134">Как правило роль **ApplicationImpersonation** предоставляется учетной записи службы, выделенным для отдельного приложения или группы приложений, а не учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="bf1fb-134">Typically, the **ApplicationImpersonation** role is granted to a service account dedicated to a particular application or group of applications, rather than a user account.</span></span> <span data-ttu-id="bf1fb-135">При необходимости можно создать как числа учетных записей служб.</span><span class="sxs-lookup"><span data-stu-id="bf1fb-135">You can create as many or as few service accounts as you need.</span></span> 
     
-<span data-ttu-id="bf1fb-136">Вы можете читать Дополнительные сведения о [настройке олицетворения](how-to-configure-impersonation.md), но должны работать с администратор Exchange, чтобы убедиться, что созданы учетные записи служб, которые необходимы [разрешения и доступ](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx) , соответствующие требованиям безопасности вашей организация.</span><span class="sxs-lookup"><span data-stu-id="bf1fb-136">You can read more about [configuring impersonation](how-to-configure-impersonation.md), but you should work with your Exchange administrator to ensure that the service accounts that you need are created with the [permissions and access](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx) that meet the security requirements of your organization.</span></span> 
+<span data-ttu-id="bf1fb-136">Вы можете читать Дополнительные сведения о [настройке олицетворения](how-to-configure-impersonation.md), но должны работать с администратор Exchange, чтобы убедиться, что созданы учетные записи служб, которые необходимы [разрешения и доступ](http://technet.microsoft.com/ru-ru/library/dd351175%28v=exchg.150%29.aspx) , соответствующие требованиям безопасности вашей организация.</span><span class="sxs-lookup"><span data-stu-id="bf1fb-136">You can read more about [configuring impersonation](how-to-configure-impersonation.md), but you should work with your Exchange administrator to ensure that the service accounts that you need are created with the [permissions and access](http://technet.microsoft.com/ru-ru/library/dd351175%28v=exchg.150%29.aspx) that meet the security requirements of your organization.</span></span> 
   
 ## <a name="in-this-section"></a><span data-ttu-id="bf1fb-137">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="bf1fb-137">In this section</span></span>
 
@@ -68,6 +68,6 @@ ms.locfileid: "19761131"
     
 - [<span data-ttu-id="bf1fb-143">Передача прав доступа и EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="bf1fb-143">Delegate access and EWS in Exchange</span></span>](delegate-access-and-ews-in-exchange.md)
     
-- [<span data-ttu-id="bf1fb-144">Разрешения Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="bf1fb-144">Exchange 2013 Permissions</span></span>](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx)
+- [<span data-ttu-id="bf1fb-144">Разрешения Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="bf1fb-144">Exchange 2013 Permissions</span></span>](http://technet.microsoft.com/ru-ru/library/dd351175%28v=exchg.150%29.aspx)
     
 

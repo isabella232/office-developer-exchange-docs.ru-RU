@@ -32,7 +32,7 @@ ms.locfileid: "19760977"
   
 - <span data-ttu-id="53c7e-113">[Учетная запись разработчика Office 365](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx).</span><span class="sxs-lookup"><span data-stu-id="53c7e-113">An [Office 365 developer account](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx).</span></span> <span data-ttu-id="53c7e-114">Пробной учетной записи можно использовать для тестирования приложения</span><span class="sxs-lookup"><span data-stu-id="53c7e-114">You can use a trial account to test your application</span></span>
     
-- <span data-ttu-id="53c7e-115">[Библиотека проверки подлинности Azure AD для платформы .NET](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx).</span><span class="sxs-lookup"><span data-stu-id="53c7e-115">The [Azure AD Authentication Library for .NET](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx).</span></span>
+- <span data-ttu-id="53c7e-115">[Библиотека проверки подлинности Azure AD для платформы .NET](http://msdn.microsoft.com/ru-ru/library/office/jj573266.aspx.aspx).</span><span class="sxs-lookup"><span data-stu-id="53c7e-115">The [Azure AD Authentication Library for .NET](http://msdn.microsoft.com/ru-ru/library/office/jj573266.aspx.aspx).</span></span>
     
 - <span data-ttu-id="53c7e-116">[Управляемый API веб-служб Exchange](https://github.com/officedev/ews-managed-api.aspx).</span><span class="sxs-lookup"><span data-stu-id="53c7e-116">[The EWS Managed API](https://github.com/officedev/ews-managed-api.aspx).</span></span>
 
