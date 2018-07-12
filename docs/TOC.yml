@@ -18,45 +18,45 @@
             - name: 'Начало работы с клиентскими приложениями, использующими управляемый API EWS'
               href: exchange-web-services/get-started-with-ews-managed-api-client-applications.md
               items:
-                - name: Ссылки на сборку
+                - name: Ссылка на сборку
                   href: exchange-web-services/how-to-reference-the-ews-managed-api-assembly.md
-                - name: Задать URL-адрес службы веб-служб Exchange
+                - name: Установка URL-адреса службы EWS
                   href: exchange-web-services/how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md
-                - name: Взаимодействие с веб-служб Exchange
+                - name: Связь с EWS
                   href: exchange-web-services/how-to-communicate-with-ews-by-using-the-ews-managed-api.md
-                - name: Трассировка запросы и ответы
+                - name: Трассировка запросов и откликов
                   href: exchange-web-services/how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md
             - name: Начало работы с клиентскими приложениями EWS
               href: exchange-web-services/get-started-with-ews-client-applications.md
-            - name: Функциональные возможности веб-служб Exchange в Exchange версии продуктов
+            - name: Функции EWS в разных версиях продуктов Exchange
               href: exchange-web-services/ews-functionality-in-exchange-product-versions.md
-            - name: Настройка приложения веб-служб Exchange
+            - name: Настройка приложения EWS
               href: exchange-web-services/setting-up-your-ews-application.md
               items:
                 - name: Настройка среды разработки
                   href: exchange-web-services/setting-up-your-exchange-application-development-environment.md
-                - name: Управление доступом к клиентского приложения
+                - name: Управление доступом клиентских приложений
                   href: exchange-web-services/controlling-client-application-access-to-ews-in-exchange.md
                   items:
-                    - name: Управление доступом к веб-служб Exchange
+                    - name: Управление доступом к EWS
                       href: exchange-web-services/how-to-control-access-to-ews-in-exchange.md
                 - name: Управление доступом пользователей
                   href: exchange-web-services/managing-user-access-by-using-ews-in-exchange.md
                 - name: Проверка сертификата сервера
                   href: exchange-web-services/how-to-validate-a-server-certificate-for-the-ews-managed-api.md
-            - name: Аутентификация
+            - name: Проверка подлинности
               href: exchange-web-services/authentication-and-ews-in-exchange.md
               items:
-                - name: Проверка подлинности приложения веб-служб Exchange с помощью OAuth
+                - name: Проверка подлинности приложения EWS с помощью OAuth
                   href: exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md
             - name: Автообнаружение
               href: exchange-web-services/autodiscover-for-exchange.md
               items:
-                - name: Поиск с помощью поиска SCP конечных точек службы автообнаружения
+                - name: Обнаружение конечных точек автообнаружения с помощью поиска SCP
                   href: exchange-web-services/how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md
-                - name: Создать список конечных точек службы автообнаружения
+                - name: Создание списка конечных точек автообнаружения
                   href: exchange-web-services/how-to-generate-a-list-of-autodiscover-endpoints.md
-                - name: Использование службы автообнаружения для поиска точек подключения
+                - name: Поиск точек соединения с помощью службы автообнаружения
                   href: exchange-web-services/how-to-use-autodiscover-to-find-connection-points.md
                 - name: Получение параметров пользователя
                   href: exchange-web-services/how-to-get-user-settings-from-exchange-by-using-autodiscover.md
@@ -66,103 +66,103 @@
                   href: exchange-web-services/how-to-refresh-configuration-information-by-using-autodiscover.md
                 - name: Обработка сообщений об ошибках службы автообнаружения
                   href: exchange-web-services/handling-autodiscover-error-messages.md
-                - name: Улучшения производительности службы автообнаружения
+                - name: Повышение производительности службы автообнаружения
                   href: exchange-web-services/improving-performance-when-using-autodiscover-for-exchange.md
-            - name: Почтовые приложения для Outlook и веб-служб Exchange
+            - name: Почтовые приложения для Outlook и EWS
               href: exchange-web-services/mail-apps-for-outlook-and-ews-in-exchange.md
-            - name: API-интерфейсы REST Office 365
+            - name: "Интерфейсы REST API Office\_365"
               href: exchange-web-services/office-365-rest-apis-for-mail-calendars-and-contacts.md
             - name: Сведения о лицензии
               href: exchange-web-services/license-information.md
         - name: Проектирование
           href: exchange-web-services/ews-client-design-overview-for-exchange.md
           items:
-            - name: Доступность функций API службы Web
+            - name: Доступность функций API веб-служб
               href: exchange-web-services/web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md
-            - name: Версии схемы веб-служб Exchange
+            - name: Версии схемы EWS
               href: exchange-web-services/ews-schema-versions-in-exchange.md
             - name: Параметры конфигурации
               href: exchange-web-services/configuration-options-for-ews-in-exchange.md
               items:
                 - name: Получение сведений о конфигурации службы
                   href: exchange-web-services/how-to-get-service-configuration-information-by-using-ews-in-exchange.md
-            - name: Сравнение Exchange Online и Exchange локальным клиентом для программирования
+            - name: Сравнение программирования локальных клиентов Exchange Online и Exchange
               href: exchange-web-services/comparing-exchange-online-and-exchange-on-premises-client-programming.md
             - name: Регулирование
               href: exchange-web-services/ews-throttling-in-exchange.md
-            - name: Требования к распространения для управляемого API EWS
+            - name: Требования к перераспределению для управляемого API EWS
               href: exchange-web-services/redistribution-requirements-for-the-ews-managed-api.md
-            - name: Оборудование запросы клиентов
+            - name: Инструментирование запросов клиентов
               href: exchange-web-services/instrumenting-client-requests-for-ews-and-rest-in-exchange.md
         - name: Разработка
           href: exchange-web-services/develop-web-service-clients-for-exchange.md
           items:
-            - name: Архивации
+            - name: Архивация
               href: exchange-web-services/archiving-in-ews-in-exchange.md
-            - name: Attachments
+            - name: Вложения
               href: exchange-web-services/attachments-and-ews-in-exchange.md
               items:
-                - name: Добавление вложения
+                - name: Добавление вложений
                   href: exchange-web-services/how-to-add-attachments-by-using-ews-in-exchange.md
                 - name: Получение вложений
                   href: exchange-web-services/how-to-get-attachments-by-using-ews-in-exchange.md
-                - name: Удалить вложения.
+                - name: Удаление вложений
                   href: exchange-web-services/how-to-delete-attachments-by-using-ews-in-exchange.md
             - name: Календари
               href: exchange-web-services/calendars-and-ews-in-exchange.md
               items:
-                - name: Создание встречи и собрания
+                - name: Создание встреч и собраний
                   href: exchange-web-services/how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md
-                - name: Создание событий на целый день
+                - name: Создание событий на весь день
                   href: exchange-web-services/how-to-create-all-day-events-by-using-ews-in-exchange.md
-                - name: Получение встречи и собрания
+                - name: Получение встреч и собраний
                   href: exchange-web-services/how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md
-                - name: Обновление встречи и собрания
+                - name: Обновление встреч и собраний
                   href: exchange-web-services/how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md
-                - name: Удаление встреч и отмены собраний
+                - name: Удаление встреч и отмена собраний
                   href: exchange-web-services/how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md
-                - name: Получение списков комнат
+                - name: Получение списков помещений
                   href: exchange-web-services/how-to-get-room-lists-by-using-ews-in-exchange.md
                 - name: Получение сведений о доступности
                   href: exchange-web-services/how-to-get-free-busy-information-by-using-ews-in-exchange.md
-                - name: Предложение нового времени проведения собрания
+                - name: Предложение нового времени для собрания
                   href: exchange-web-services/how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md
-                - name: Элементы обработка календаря в пакетах
+                - name: Пакетная обработка элементов календаря
                   href: exchange-web-services/how-to-process-calendar-items-in-batches-in-exchange.md
-                - name: Повторяющиеся элементы календаря и веб-служб Exchange
+                - name: Повторяющиеся элементы календаря и EWS
                   href: exchange-web-services/recurrence-patterns-and-ews.md
                   items:
-                    - name: Доступ к ряду
+                    - name: Доступ к повторяющейся серии
                       href: exchange-web-services/how-to-access-a-recurring-series-by-using-ews-in-exchange.md
-                    - name: Создание встречи
+                    - name: Создание повторяющейся серии
                       href: exchange-web-services/how-to-create-a-recurring-series-by-using-ews-in-exchange.md
-                    - name: Удаление встреч в серии повторяющихся
+                    - name: Удаление встреч из серии повторяющихся встреч
                       href: exchange-web-services/how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md
-                    - name: Изменение встречи в ряду
+                    - name: Изменение встреч в серии повторяющихся встреч
                       href: exchange-web-services/how-to-update-a-recurring-series-by-using-ews.md
-                    - name: Обновление серии повторяющихся
+                    - name: Обновление серии повторяющихся событий
                       href: exchange-web-services/how-to-update-a-recurring-series-by-using-ews-in-exchange.md
-            - name: Передача прав доступа
+            - name: Делегированный доступ
               href: exchange-web-services/delegate-access-and-ews-in-exchange.md
               items:
-                - name: Добавление и удаление делегатов
+                - name: Добавление и удаление представителей
                   href: exchange-web-services/how-to-add-and-remove-delegates-by-using-ews-in-exchange.md
-                - name: Доступ к календарю в качестве делегата
+                - name: Доступ к календарю в качестве представителя
                   href: exchange-web-services/how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md
-                - name: Контакты доступа роли представителя
+                - name: Доступ к контактам в качестве представителя
                   href: exchange-web-services/how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md
-                - name: Доступ к электронной почте в качестве делегата
+                - name: Доступ к электронной почте в качестве представителя
                   href: exchange-web-services/how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md
-                - name: Набор разрешений папки
+                - name: Установка разрешений для папок
                   href: exchange-web-services/how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md
-                - name: 'Обработка ошибок, связанных с делегирования'
+                - name: 'Обработка ошибок, связанных с делегированием'
                   href: exchange-web-services/handling-delegation-related-errors-in-ews-in-exchange.md
             - name: Группы рассылки
               href: exchange-web-services/distribution-groups-and-ews-in-exchange.md
               items:
                 - name: Создание групп контактов
                   href: exchange-web-services/how-to-create-contact-groups-by-using-ews-in-exchange.md
-                - name: Разверните узел группы рассылки
+                - name: Расширение групп рассылки
                   href: exchange-web-services/how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md
             - name: Обнаружение электронных данных
               href: exchange-web-services/ediscovery-in-ews-in-exchange.md
@@ -171,33 +171,33 @@
               items:
                 - name: Элементы и свойства электронной почты
                   href: exchange-web-services/email-properties-and-elements-in-ews-in-exchange.md
-                - name: Отправлять сообщения электронной почты
+                - name: Отправка электронных сообщений
                   href: exchange-web-services/how-to-send-email-messages-by-using-ews-in-exchange.md
-                - name: Ответ на сообщения электронной почты
+                - name: Ответы на электронные сообщения
                   href: exchange-web-services/how-to-respond-to-email-messages-by-using-ews-in-exchange.md
-                - name: Перемещение и копирование сообщений электронной почты
+                - name: Перемещение и копирование электронных сообщений
                   href: exchange-web-services/how-to-move-and-copy-email-messages-by-using-ews-in-exchange.md
-                - name: Работа с бесед
+                - name: Работа с беседами
                   href: exchange-web-services/how-to-work-with-conversations-by-using-ews-in-exchange.md
-                - name: Извлечь сущности из сообщения электронной почты
+                - name: Извлечение сущности из электронного сообщения
                   href: exchange-web-services/how-to-extract-an-entity-from-an-email-message-by-using-ews-in-exchange.md
-                - name: Обрабатывать сообщения электронной почты в пакетах
+                - name: Пакетная обработка электронных сообщений
                   href: exchange-web-services/how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md
             - name: Папки и элементы
               href: exchange-web-services/folders-and-items-in-ews-in-exchange.md
               items:
                 - name: Работа с папками
                   href: exchange-web-services/how-to-work-with-folders-by-using-ews-in-exchange.md
-                - name: Работа с скрытые папки
+                - name: Работа со скрытыми папками
                   href: exchange-web-services/how-to-work-with-hidden-folders-by-using-ews-in-exchange.md
                 - name: Работа с элементами
                   href: exchange-web-services/how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md
                 - name: Удаление элементов
                   href: exchange-web-services/deleting-items-by-using-ews-in-exchange.md
                   items:
-                    - name: 'Уведомления для событий, связанных с удаления почтового ящика по запросу'
+                    - name: 'Запрашивание уведомлений о событиях, связанных с удалением почтовых ящиков'
                       href: exchange-web-services/pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange.md
-                    - name: 'Обработка ошибок, связанных с удаления'
+                    - name: 'Обработка ошибок, связанных с удалением'
                       href: exchange-web-services/handling-deletion-related-errors-in-ews-in-exchange.md
                 - name: Экспорт и импорт элементов
                   href: exchange-web-services/exporting-and-importing-items-by-using-ews-in-exchange.md
@@ -213,95 +213,95 @@
               items:
                 - name: Настройка олицетворения
                   href: exchange-web-services/how-to-configure-impersonation.md
-                - name: Идентификация учетной записи для олицетворения
+                - name: Определение учетной записи для олицетворения
                   href: exchange-web-services/how-to-identify-the-account-to-impersonate.md
-                - name: Добавление встреч с использованием олицетворения Exchange
+                - name: Добавление встреч с помощью олицетворения Exchange
                   href: exchange-web-services/how-to-add-appointments-by-using-exchange-impersonation.md
             - name: Управление папкой "Входящие"
               href: exchange-web-services/inbox-management-and-ews-in-exchange.md
               items:
-                - name: Управление правилами папки "Входящие"
+                - name: Управление правилами для папки "Входящие"
                   href: exchange-web-services/how-to-manage-inbox-rules-by-using-ews-in-exchange.md
-                - name: Добавление и удаление адреса электронной почты в списке заблокированных отправителей
+                - name: Добавление и удаление электронных адресов из списка заблокированных отправителей
                   href: exchange-web-services/how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md
             - name: Уведомления и события
               href: exchange-web-services/notification-subscriptions-mailbox-events-and-ews-in-exchange.md
               items:
-                - name: Поток уведомления
+                - name: Потоковые уведомления
                   href: exchange-web-services/how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md
                 - name: Уведомления по запросу
                   href: exchange-web-services/how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md
-                - name: Поддержка сходства
+                - name: Поддержание сходства
                   href: exchange-web-services/how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md
-                - name: 'Обработка ошибок, связанных с уведомлений'
+                - name: 'Обработка ошибок, связанных с уведомлениями'
                   href: exchange-web-services/handling-notification-related-errors-in-ews-in-exchange.md
-            - name: Синхронизация почтового ящика
+            - name: Синхронизация почтовых ящиков
               href: exchange-web-services/mailbox-synchronization-and-ews-in-exchange.md
               items:
                 - name: Синхронизация папок
                   href: exchange-web-services/how-to-synchronize-folders-by-using-ews-in-exchange.md
                 - name: Синхронизация элементов
                   href: exchange-web-services/how-to-synchronize-items-by-using-ews-in-exchange.md
-                - name: 'Обработка ошибок, связанных с синхронизации'
+                - name: 'Обработка ошибок, связанных с синхронизацией'
                   href: exchange-web-services/handling-synchronization-related-errors-in-ews-in-exchange.md
-            - name: Параметры сохраняемого приложения
+            - name: Постоянные параметры приложений
               href: exchange-web-services/persistent-application-settings-in-ews-in-exchange.md
               items:
-                - name: Управление параметрами сохраняемого приложения
+                - name: Управление постоянными параметрами приложений
                   href: exchange-web-services/how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md
             - name: Пользователи и контакты
               href: exchange-web-services/people-and-contacts-in-ews-in-exchange.md
               items:
-                - name: Процесс контакты в пакетах
+                - name: Пакетная обработка контактов
                   href: exchange-web-services/how-to-process-contacts-in-batches-by-using-ews-in-exchange.md
-                - name: Разрешения неоднозначных имен
+                - name: Устранение неоднозначности имен
                   href: exchange-web-services/how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md
-                - name: Получение фотографий
+                - name: Получение фотографий пользователей
                   href: exchange-web-services/how-to-get-user-photos-by-using-ews-in-exchange.md
-            - name: Расширенные свойства и свойства
+            - name: Свойства и расширенные свойства
               href: exchange-web-services/properties-and-extended-properties-in-ews-in-exchange.md
               items:
-                - name: Подготовка к работе x заголовков
+                - name: Подготовка X-заголовков
                   href: exchange-web-services/how-to-provision-x-headers-by-using-ews-in-exchange.md
-                - name: 'Ошибки, связанные с свойство веб-служб Exchange'
+                - name: 'Ошибки, связанные со свойствами EWS'
                   href: exchange-web-services/ews-property-related-errors.md
-            - name: Наборы свойств и ответа фигуры
+            - name: Наборы свойств и формы ответов
               href: exchange-web-services/property-sets-and-response-shapes-in-ews-in-exchange.md
-            - name: Общие папки
+            - name: Общедоступные папки
               href: exchange-web-services/public-folder-access-with-ews-in-exchange.md
               items:
-                - name: Иерархия общедоступных папок маршрутизации запросов
+                - name: Маршрутизация запросов к иерархии общедоступных папок
                   href: exchange-web-services/how-to-route-public-folder-hierarchy-requests.md
-                - name: Маршрутизация запросов контента общей папки
+                - name: Маршрутизация запросов к содержимому общедоступных папок
                   href: exchange-web-services/how-to-route-public-folder-content-requests.md
             - name: Поиск
               href: exchange-web-services/search-and-ews-in-exchange.md
               items:
-                - name: Используйте фильтры поиска
+                - name: Использование фильтров поиска
                   href: exchange-web-services/how-to-use-search-filters-with-ews-in-exchange.md
-                - name: Поиск в AQS
+                - name: Выполнение поиска AQS
                   href: exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange.md
-                - name: Выполнение поиска по выгружаемый
+                - name: Выполнение постраничного поиска
                   href: exchange-web-services/how-to-perform-paged-searches-by-using-ews-in-exchange.md
-                - name: Выполнение поиска по сгруппированных
+                - name: Выполнение группового поиска
                   href: exchange-web-services/how-to-perform-grouped-searches-by-using-ews-in-exchange.md
                 - name: Работа с папками поиска
                   href: exchange-web-services/how-to-work-with-search-folders-by-using-ews-in-exchange.md
-            - name: Часовые пояса и веб-службах Exchange
+            - name: Часовые пояса и EWS в Exchange
               href: exchange-web-services/time-zones-and-ews-in-exchange.md
               items:
-                - name: Создание встречи в конкретного часового пояса
+                - name: Создание встреч в определенном часовом поясе
                   href: exchange-web-services/how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md
                 - name: Обновление часового пояса для встречи
                   href: exchange-web-services/how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md
-            - name: Устранение неполадок приложений веб-служб Exchange
+            - name: Устранение неполадок приложений EWS
               href: exchange-web-services/tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md
-            - name: Проверка результатов вызова веб-служб Exchange или управляемый API EWS
+            - name: Проверка результатов вызова EWS или управляемого API EWS
               href: exchange-web-services/verifying-the-results-of-an-ews-or-ews-managed-api-call.md
         - name: Справочник по веб-службам
           href: web-service-reference/web-services-reference-for-exchange.md
           items:
-            - name: Справочник по веб-служб Exchange
+            - name: Справочник по EWS
               href: web-service-reference/ews-reference-for-exchange.md
               items:
                 - name: Операции EWS
@@ -329,26 +329,26 @@
                       href: web-service-reference/convertid-operation.md
                     - name: Операция CopyFolder
                       href: web-service-reference/copyfolder-operation.md
-                    - name: CopyItem Operation
+                    - name: Операция CopyItem
                       href: web-service-reference/copyitem-operation.md
                     - name: Операция CreateAttachment
                       href: web-service-reference/createattachment-operation.md
-                    - name: CreateFolder Operation
+                    - name: Операция CreateFolder
                       href: web-service-reference/createfolder-operation.md
                     - name: Операция CreateFolderPath
                       href: web-service-reference/createfolderpath-operation.md
-                    - name: CreateItem Operation
+                    - name: Операция CreateItem
                       href: web-service-reference/createitem-operation.md
                       items:
-                        - name: Операции CreateItem (сообщение электронной почты)
+                        - name: Операция CreateItem (электронное сообщение)
                           href: web-service-reference/createitem-operation-email-message.md
-                        - name: Операции CreateItem (элемента календаря)
+                        - name: Операция CreateItem (элемент календаря)
                           href: web-service-reference/createitem-operation-calendar-item.md
-                        - name: Операции CreateItem (запрос на собрание)
+                        - name: Операция CreateItem (приглашение на собрание)
                           href: web-service-reference/createitem-operation-meeting-request.md
-                        - name: Операции CreateItem (задача)
+                        - name: Операция CreateItem (задача)
                           href: web-service-reference/createitem-operation-task.md
-                        - name: Операции CreateItem (контактов)
+                        - name: Операция CreateItem (контакт)
                           href: web-service-reference/createitem-operation-contact.md
                         - name: CreateItem (AcceptSharingInvitation)
                           href: web-service-reference/createitem-acceptsharinginvitation.md
@@ -374,11 +374,11 @@
                       href: web-service-reference/expanddl-operation.md
                     - name: Операция ExportItems
                       href: web-service-reference/exportitems-operation.md
-                    - name: FindConversation Operation
+                    - name: Операция FindConversation
                       href: web-service-reference/findconversation-operation.md
-                    - name: FindFolder Operation
+                    - name: Операция FindFolder
                       href: web-service-reference/findfolder-operation.md
-                    - name: FindItem Operation
+                    - name: Операция FindItem
                       href: web-service-reference/finditem-operation.md
                     - name: Операция FindMessageTrackingReport
                       href: web-service-reference/findmessagetrackingreport-operation.md
@@ -392,7 +392,7 @@
                       href: web-service-reference/getattachment-operation.md
                     - name: Операция GetClientAccessToken
                       href: web-service-reference/getclientaccesstoken-operation.md
-                    - name: GetConversationItems operation
+                    - name: Операция GetConversationItems
                       href: web-service-reference/getconversationitems-operation.md
                     - name: Операция GetDelegate
                       href: web-service-reference/getdelegate-operation.md
@@ -400,7 +400,7 @@
                       href: web-service-reference/getdiscoverysearchconfiguration-operation.md
                     - name: Операция GetEvents
                       href: web-service-reference/getevents-operation.md
-                    - name: GetFolder Operation
+                    - name: Операция GetFolder
                       href: web-service-reference/getfolder-operation.md
                     - name: Операция GetHoldOnMailboxes
                       href: web-service-reference/getholdonmailboxes-operation.md
@@ -410,16 +410,16 @@
                       href: web-service-reference/getimitems-operation.md
                     - name: Операция GetInboxRules
                       href: web-service-reference/getinboxrules-operation.md
-                    - name: GetItem Operation
+                    - name: Операция GetItem
                       href: web-service-reference/getitem-operation.md
                       items:
-                        - name: Операции GetItem (сообщение электронной почты)
+                        - name: Операция GetItem (электронное сообщение)
                           href: web-service-reference/getitem-operation-email-message.md
-                        - name: Операции GetItem (элемента календаря)
+                        - name: Операция GetItem (элемент календаря)
                           href: web-service-reference/getitem-operation-calendar-item.md
-                        - name: Операции GetItem (задача)
+                        - name: Операция GetItem (задача)
                           href: web-service-reference/getitem-operation-task.md
-                        - name: Операции GetItem (контактов)
+                        - name: Операция GetItem (контакт)
                           href: web-service-reference/getitem-operation-contact.md
                     - name: Операция GetMailTips
                       href: web-service-reference/getmailtips-operation.md
@@ -467,11 +467,11 @@
                       href: web-service-reference/installapp-operation.md
                     - name: Операция MarkAllItemsAsRead
                       href: web-service-reference/markallitemsasread-operation.md
-                    - name: MarkAsJunk Operation
+                    - name: Операция MarkAsJunk
                       href: web-service-reference/markasjunk-operation.md
                     - name: Операция MoveFolder
                       href: web-service-reference/movefolder-operation.md
-                    - name: MoveItem Operation
+                    - name: Операция MoveItem
                       href: web-service-reference/moveitem-operation.md
                     - name: Операция PerformReminderAction
                       href: web-service-reference/performreminderaction-operation.md
@@ -493,7 +493,7 @@
                       href: web-service-reference/resolvenames-operation.md
                     - name: Операция SearchMailboxes
                       href: web-service-reference/searchmailboxes-operation.md
-                    - name: SendItem Operation
+                    - name: Операция SendItem
                       href: web-service-reference/senditem-operation.md
                     - name: Операция SetHoldOnMailboxes
                       href: web-service-reference/setholdonmailboxes-operation.md
@@ -503,7 +503,7 @@
                       href: web-service-reference/setimlistmigrationcompleted-operation.md
                     - name: Операция SetUserOofSettings
                       href: web-service-reference/setuseroofsettings-operation.md
-                    - name: Операции подписки
+                    - name: Операции Subscribe
                       href: web-service-reference/subscribe-operation.md
                     - name: Операция SyncFolderHierarchy
                       href: web-service-reference/syncfolderhierarchy-operation.md
@@ -511,7 +511,7 @@
                       href: web-service-reference/syncfolderitems-operation.md
                     - name: Операция UninstallApp
                       href: web-service-reference/uninstallapp-operation.md
-                    - name: Отписаться операции
+                    - name: Операция Unsubscribe
                       href: web-service-reference/unsubscribe-operation.md
                     - name: Операция UpdateDelegate
                       href: web-service-reference/updatedelegate-operation.md
@@ -519,18 +519,18 @@
                       href: web-service-reference/updatefolder-operation.md
                     - name: Операция UpdateInboxRules
                       href: web-service-reference/updateinboxrules-operation.md
-                    - name: UpdateItem Operation
+                    - name: Операция UpdateItem
                       href: web-service-reference/updateitem-operation.md
                       items:
                         - name: Операция UpdateItem (задача)
                           href: web-service-reference/updateitem-operation-task.md
-                        - name: Операция UpdateItem (контактов)
+                        - name: Операция UpdateItem (контакт)
                           href: web-service-reference/updateitem-operation-contact.md
                     - name: Операция UpdateUserConfiguration
                       href: web-service-reference/updateuserconfiguration-operation.md
                     - name: Операция UploadItems
                       href: web-service-reference/uploaditems-operation.md
-                - name: Элементы XML веб-служб Exchange
+                - name: XML-элементы EWS
                   href: web-service-reference/ews-xml-elements-in-exchange.md
                   items:
                     - name: AbsoluteDate
@@ -547,33 +547,33 @@
                       href: web-service-reference/acceptsharinginvitation.md
                     - name: AccessLevel
                       href: web-service-reference/accesslevel.md
-                    - name: Точность
+                    - name: Accuracy
                       href: web-service-reference/accuracy.md
                     - name: ActingAs
                       href: web-service-reference/actingas.md
-                    - name: Действие (ConversationActionTypeType)
+                    - name: Action (ConversationActionTypeType)
                       href: web-service-reference/action-conversationactiontypetype.md
-                    - name: Действие (ProtectionRuleActionType)
+                    - name: Action (ProtectionRuleActionType)
                       href: web-service-reference/action-protectionruleactiontype.md
-                    - name: Действие (SetClientExtensionActionType)
+                    - name: Action (SetClientExtensionActionType)
                       href: web-service-reference/action-setclientextensionactiontype.md
                     - name: ActionUrl
                       href: web-service-reference/actionurl.md
-                    - name: Действия
+                    - name: Actions
                       href: web-service-reference/actions.md
-                    - name: Действия (ArrayOfSetClientExtensionActionsType)
+                    - name: Actions (ArrayOfSetClientExtensionActionsType)
                       href: web-service-reference/actions-arrayofsetclientextensionactionstype.md
-                    - name: Действия (RuleActionsType)
+                    - name: Actions (RuleActionsType)
                       href: web-service-reference/actions-ruleactionstype.md
-                    - name: Тип действия (HoldActionType)
+                    - name: ActionType (HoldActionType)
                       href: web-service-reference/actiontype-holdactiontype.md
-                    - name: Тип действия (ReminderActionType)
+                    - name: ActionType (ReminderActionType)
                       href: web-service-reference/actiontype-reminderactiontype.md
                     - name: ActualWork
                       href: web-service-reference/actualwork.md
                     - name: AddBlankTargetToLinks
                       href: web-service-reference/addblanktargettolinks.md
-                    - name: Метод AddDelegate
+                    - name: AddDelegate
                       href: web-service-reference/adddelegate.md
                     - name: AddDelegateResponse
                       href: web-service-reference/adddelegateresponse.md
@@ -603,17 +603,17 @@
                       href: web-service-reference/addnewteluricontacttogroup.md
                     - name: AddNewTelUriContactToGroupResponse
                       href: web-service-reference/addnewteluricontacttogroupresponse.md
-                    - name: Адрес (ContactType)
+                    - name: Address (ContactType)
                       href: web-service-reference/address-contacttype.md
-                    - name: Адрес (EmailAddressType)
+                    - name: Address (EmailAddressType)
                       href: web-service-reference/address-emailaddresstype.md
-                    - name: Адрес (строка)
+                    - name: Address (строка)
                       href: web-service-reference/address-string.md
                     - name: AddressEntity
                       href: web-service-reference/addressentity.md
-                    - name: Адреса (ArrayOfAddressEntitiesType)
+                    - name: Addresses (ArrayOfAddressEntitiesType)
                       href: web-service-reference/addresses-arrayofaddressentitiestype.md
-                    - name: Адреса (ArrayOfAddressesType)
+                    - name: Addresses (ArrayOfAddressesType)
                       href: web-service-reference/addresses-arrayofaddressestype.md
                     - name: AddressListId
                       href: web-service-reference/addresslistid.md
@@ -627,9 +627,9 @@
                       href: web-service-reference/aggregationrestriction.md
                     - name: Alias
                       href: web-service-reference/alias.md
-                    - name: Псевдоним (FederatedDirectoryGroupType)
+                    - name: Alias (FederatedDirectoryGroupType)
                       href: web-service-reference/alias-federateddirectorygrouptype.md
-                    - name: Псевдоним (MasterMailboxType)
+                    - name: Alias (MasterMailboxType)
                       href: web-service-reference/alias-mastermailboxtype.md
                     - name: AllInternal
                       href: web-service-reference/allinternal.md
@@ -647,15 +647,15 @@
                       href: web-service-reference/altitude.md
                     - name: AltitudeAccuracy
                       href: web-service-reference/altitudeaccuracy.md
-                    - name: и
+                    - name: And
                       href: web-service-reference/and.md
-                    - name: И (ProtectionRuleAndType)
+                    - name: And (ProtectionRuleAndType)
                       href: web-service-reference/and-protectionruleandtype.md
-                    - name: Заметки
+                    - name: Annotation
                       href: web-service-reference/annotation.md
                     - name: ApiVersionSupported
                       href: web-service-reference/apiversionsupported.md
-                    - name: Приложение
+                    - name: App
                       href: web-service-reference/app.md
                     - name: AppendToFolderField
                       href: web-service-reference/appendtofolderfield.md
@@ -685,7 +685,7 @@
                       href: web-service-reference/approvaldecisiontime.md
                     - name: ApprovalRequestData
                       href: web-service-reference/approvalrequestdata.md
-                    - name: Приложения
+                    - name: Apps
                       href: web-service-reference/apps.md
                     - name: AppStatus
                       href: web-service-reference/appstatus-ex15websvcsotherref.md
@@ -699,7 +699,7 @@
                       href: web-service-reference/archivesourcefolderid.md
                     - name: ArchiveTag
                       href: web-service-reference/archivetag.md
-                    - name: Аргумент
+                    - name: Argument
                       href: web-service-reference/argument.md
                     - name: AssignCategories
                       href: web-service-reference/assigncategories.md
@@ -719,9 +719,9 @@
                       href: web-service-reference/association.md
                     - name: AttachLongPathName
                       href: web-service-reference/attachlongpathname.md
-                    - name: Идентификатора вложения AttachmentId
+                    - name: AttachmentId
                       href: web-service-reference/attachmentid.md
-                    - name: Идентификатора вложения AttachmentId (GetAttachment и DeleteAttachment)
+                    - name: AttachmentId (GetAttachment и DeleteAttachment)
                       href: web-service-reference/attachmentid-getattachment-and-deleteattachment.md
                     - name: AttachmentIds
                       href: web-service-reference/attachmentids.md
@@ -731,23 +731,23 @@
                       href: web-service-reference/attachmentshape.md
                     - name: AttemptCount
                       href: web-service-reference/attemptcount.md
-                    - name: Участник
+                    - name: Attendee
                       href: web-service-reference/attendee.md
                     - name: AttendeeConflictDataArray
                       href: web-service-reference/attendeeconflictdataarray.md
                     - name: AttendeeLocation
                       href: web-service-reference/attendeelocation.md
-                    - name: Участники
+                    - name: Attendees
                       href: web-service-reference/attendees.md
                     - name: AttendeeType
                       href: web-service-reference/attendeetype.md
-                    - name: Атрибуты (PersonaAttributionType)
+                    - name: Attribution (PersonaAttributionType)
                       href: web-service-reference/attribution-personaattributiontype.md
-                    - name: Атрибуты (строка)
+                    - name: Attribution (строка)
                       href: web-service-reference/attribution-string.md
-                    - name: Атрибуты (ArrayOfPersonaAttributionsType)
+                    - name: Attributions (ArrayOfPersonaAttributionsType)
                       href: web-service-reference/attributions-arrayofpersonaattributionstype.md
-                    - name: Атрибуты (ArrayOfValueAttributionsType)
+                    - name: Attributions (ArrayOfValueAttributionsType)
                       href: web-service-reference/attributions-arrayofvalueattributionstype.md
                     - name: AudioData
                       href: web-service-reference/audiodata.md
@@ -771,23 +771,23 @@
                       href: web-service-reference/begintime.md
                     - name: Bias
                       href: web-service-reference/bias.md
-                    - name: Смещение (UTC)
+                    - name: Bias (UTC)
                       href: web-service-reference/bias-utc.md
                     - name: BillingInformation
                       href: web-service-reference/billinginformation.md
                     - name: BinaryData
                       href: web-service-reference/binarydata.md
-                    - name: День рождения
+                    - name: Birthday
                       href: web-service-reference/birthday.md
-                    - name: Дни рождения
+                    - name: Birthdays
                       href: web-service-reference/birthdays.md
-                    - name: Битовая маска
+                    - name: Bitmask
                       href: web-service-reference/bitmask.md
                     - name: BlockExternalImages
                       href: web-service-reference/blockexternalimages.md
                     - name: BlockStatus
                       href: web-service-reference/blockstatus.md
-                    - name: Текст сообщений
+                    - name: Bodies
                       href: web-service-reference/bodies.md
                     - name: Body
                       href: web-service-reference/body.md
@@ -821,7 +821,7 @@
                       href: web-service-reference/calendarfolder.md
                     - name: CalendarFolderPermissionLevel
                       href: web-service-reference/calendarfolderpermissionlevel.md
-                    - name: 'Элемента календаря, имеющего'
+                    - name: CalendarItem
                       href: web-service-reference/calendaritem.md
                     - name: CalendarItemType
                       href: web-service-reference/calendaritemtype.md
@@ -835,7 +835,7 @@
                       href: web-service-reference/calendarurl-federateddirectorygrouptype.md
                     - name: CalendarUrl (MasterMailboxType)
                       href: web-service-reference/calendarurl-mastermailboxtype.md
-                    - name: Представления календаря
+                    - name: CalendarView
                       href: web-service-reference/calendarview.md
                     - name: CallbackPhones
                       href: web-service-reference/callbackphones.md
@@ -861,17 +861,17 @@
                       href: web-service-reference/changecount.md
                     - name: ChangeHighlights
                       href: web-service-reference/changehighlights.md
-                    - name: Изменения (иерархии)
+                    - name: Changes (Hierarchy)
                       href: web-service-reference/changes-hierarchy.md
-                    - name: Изменения (элементы)
+                    - name: Changes (Items)
                       href: web-service-reference/changes-items.md
                     - name: ChildFolderCount
                       href: web-service-reference/childfoldercount.md
-                    - name: Дочерние объекты
+                    - name: Children
                       href: web-service-reference/children.md
-                    - name: Дочерние элементы (ArrayOfStringArrayAttributedValuesType)
+                    - name: Children (ArrayOfStringArrayAttributedValuesType)
                       href: web-service-reference/children-arrayofstringarrayattributedvaluestype.md
-                    - name: Город
+                    - name: City
                       href: web-service-reference/city.md
                     - name: ClientExtension
                       href: web-service-reference/clientextension.md
@@ -879,11 +879,11 @@
                       href: web-service-reference/clientextensions.md
                     - name: ClientIntent
                       href: web-service-reference/clientintent.md
-                    - name: Комментарий
+                    - name: Comment
                       href: web-service-reference/comment.md
                     - name: Companies
                       href: web-service-reference/companies.md
-                    - name: Название организации
+                    - name: CompanyName
                       href: web-service-reference/companyname.md
                     - name: CompanyNames
                       href: web-service-reference/companynames.md
@@ -897,15 +897,15 @@
                       href: web-service-reference/completefindingalspeechrecognitionresponse.md
                     - name: CompleteName
                       href: web-service-reference/completename.md
-                    - name: Условие
+                    - name: Condition
                       href: web-service-reference/condition.md
-                    - name: Условие (RestrictionType)
+                    - name: Condition (RestrictionType)
                       href: web-service-reference/condition-restrictiontype.md
-                    - name: Условия
+                    - name: Conditions
                       href: web-service-reference/conditions.md
                     - name: ConferenceType
                       href: web-service-reference/conferencetype.md
-                    - name: Имя_конфигурации
+                    - name: ConfigurationName
                       href: web-service-reference/configurationname.md
                     - name: ConfigurationRequestDetails
                       href: web-service-reference/configurationrequestdetails.md
@@ -923,19 +923,19 @@
                       href: web-service-reference/connectionstatus.md
                     - name: ConnectionTimeout
                       href: web-service-reference/connectiontimeout.md
-                    - name: Константа
+                    - name: Constant
                       href: web-service-reference/constant.md
-                    - name: Контакт
+                    - name: Contact
                       href: web-service-reference/contact.md
-                    - name: Контакт (ContactType)
+                    - name: Contact (ContactType)
                       href: web-service-reference/contact-contacttype.md
                     - name: ContactId
                       href: web-service-reference/contactid.md
                     - name: ContactIds
                       href: web-service-reference/contactids.md
-                    - name: Контакты
+                    - name: Contacts
                       href: web-service-reference/contacts-ex15websvcsotherref.md
-                    - name: Контакты (ArrayOfContactsType)
+                    - name: Contacts (ArrayOfContactsType)
                       href: web-service-reference/contacts-arrayofcontactstype.md
                     - name: ContactsFolder
                       href: web-service-reference/contactsfolder.md
@@ -961,7 +961,7 @@
                       href: web-service-reference/containssubjectorbodystrings.md
                     - name: ContainsSubjectStrings
                       href: web-service-reference/containssubjectstrings.md
-                    - name: Контент
+                    - name: Content
                       href: web-service-reference/content.md
                     - name: ContentExpiryDate
                       href: web-service-reference/contentexpirydate.md
@@ -971,15 +971,15 @@
                       href: web-service-reference/contentlocation.md
                     - name: ContentOwner
                       href: web-service-reference/contentowner.md
-                    - name: contentType
+                    - name: ContentType
                       href: web-service-reference/contenttype.md
                     - name: ContextFolderId
                       href: web-service-reference/contextfolderid.md
-                    - name: Беседы (ConversationRequestType)
+                    - name: Conversation (ConversationRequestType)
                       href: web-service-reference/conversation-conversationrequesttype.md
-                    - name: Беседы (ConversationResponseType)
+                    - name: Conversation (ConversationResponseType)
                       href: web-service-reference/conversation-conversationresponsetype.md
-                    - name: Беседы (ConversationType)
+                    - name: Conversation (ConversationType)
                       href: web-service-reference/conversation-conversationtype.md
                     - name: ConversationAction
                       href: web-service-reference/conversationaction.md
@@ -1029,13 +1029,13 @@
                       href: web-service-reference/copytofolder.md
                     - name: Count
                       href: web-service-reference/count.md
-                    - name: Страна
+                    - name: Country
                       href: web-service-reference/country.md
                     - name: CountryOrRegion
                       href: web-service-reference/countryorregion.md
-                    - name: Создание (FolderSync)
+                    - name: Create (FolderSync)
                       href: web-service-reference/create-foldersync.md
-                    - name: Создание (ItemSync)
+                    - name: Create (ItemSync)
                       href: web-service-reference/create-itemsync.md
                     - name: CreateAssociated
                       href: web-service-reference/createassociated.md
@@ -1097,15 +1097,15 @@
                       href: web-service-reference/dailyrecurrence.md
                     - name: DailyRegeneration
                       href: web-service-reference/dailyregeneration.md
-                    - name: Данные
+                    - name: Data
                       href: web-service-reference/data.md
-                    - name: Данные (base64Binary)
+                    - name: Data (base64Binary)
                       href: web-service-reference/data-base64binary.md
-                    - name: Тип данных
+                    - name: DataType
                       href: web-service-reference/datatype.md
                     - name: Date
                       href: web-service-reference/date.md
-                    - name: Дата (MessageTracking)
+                    - name: Date (MessageTracking)
                       href: web-service-reference/date-messagetracking.md
                     - name: DateTime
                       href: web-service-reference/datetime.md
@@ -1119,15 +1119,15 @@
                       href: web-service-reference/datetimesent.md
                     - name: DateTimeStamp
                       href: web-service-reference/datetimestamp.md
-                    - name: День
+                    - name: Day
                       href: web-service-reference/day.md
-                    - name: Переход на летнее
+                    - name: Daylight
                       href: web-service-reference/daylight.md
                     - name: DaylightTime
                       href: web-service-reference/daylighttime.md
-                    - name: День месяца
+                    - name: DayOfMonth
                       href: web-service-reference/dayofmonth.md
-                    - name: DayOfWeek (часовой пояс)
+                    - name: DayOfWeek (TimeZone)
                       href: web-service-reference/dayofweek-timezone.md
                     - name: DayOfWeek (WorkingPeriod)
                       href: web-service-reference/dayofweek-workingperiod.md
@@ -1143,7 +1143,7 @@
                       href: web-service-reference/daysofweek-daysofweektype.md
                     - name: DeclineItem
                       href: web-service-reference/declineitem.md
-                    - name: Дедупликации
+                    - name: Deduplication
                       href: web-service-reference/deduplication.md
                     - name: DelegatePermissions
                       href: web-service-reference/delegatepermissions.md
@@ -1155,13 +1155,13 @@
                       href: web-service-reference/delegateusers.md
                     - name: DelegationState
                       href: web-service-reference/delegationstate.md
-                    - name: Представитель
+                    - name: Delegator
                       href: web-service-reference/delegator.md
-                    - name: Удаление
+                    - name: Delete
                       href: web-service-reference/delete.md
-                    - name: Удаление (FolderSync)
+                    - name: Delete (FolderSync)
                       href: web-service-reference/delete-foldersync.md
-                    - name: Удаление (ItemSync)
+                    - name: Delete (ItemSync)
                       href: web-service-reference/delete-itemsync.md
                     - name: DeleteAttachment
                       href: web-service-reference/deleteattachment.md
@@ -1213,13 +1213,13 @@
                       href: web-service-reference/deliveryrestricted.md
                     - name: DeliveryStatus
                       href: web-service-reference/deliverystatus.md
-                    - name: Отдел
+                    - name: Department
                       href: web-service-reference/department.md
-                    - name: Отделы
+                    - name: Departments
                       href: web-service-reference/departments.md
-                    - name: Описание
+                    - name: Description
                       href: web-service-reference/description.md
-                    - name: Описание (MasterMailboxType)
+                    - name: Description (MasterMailboxType)
                       href: web-service-reference/description-mastermailboxtype.md
                     - name: DescriptiveLinkKey
                       href: web-service-reference/descriptivelinkkey.md
@@ -1227,13 +1227,13 @@
                       href: web-service-reference/destinationfolderid.md
                     - name: DetailedSuggestionsWindow
                       href: web-service-reference/detailedsuggestionswindow.md
-                    - name: Диагностика (en)
+                    - name: Diagnostics
                       href: web-service-reference/diagnostics.md
                     - name: DiagnosticsLevel
                       href: web-service-reference/diagnosticslevel.md
-                    - name: DialString (веб-служб Exchange)
+                    - name: DialString (веб-службы Exchange)
                       href: web-service-reference/dialstring-exchange-web-services.md
-                    - name: словаря
+                    - name: Dictionary
                       href: web-service-reference/dictionary.md
                     - name: DictionaryEntry
                       href: web-service-reference/dictionaryentry.md
@@ -1271,7 +1271,7 @@
                       href: web-service-reference/displayname-mastermailboxtype.md
                     - name: DisplayName (NonEmptyStringType)
                       href: web-service-reference/displayname-nonemptystringtype.md
-                    - name: Отображаемое имя (строка)
+                    - name: DisplayName (строка)
                       href: web-service-reference/displayname-string.md
                     - name: DisplayName (VotingOptionDataType)
                       href: web-service-reference/displayname-votingoptiondatatype.md
@@ -1307,9 +1307,9 @@
                       href: web-service-reference/distributionlist.md
                     - name: DLExpansion
                       href: web-service-reference/dlexpansion.md
-                    - name: Домен
+                    - name: Domain
                       href: web-service-reference/domain.md
-                    - name: Домен (отслеживания сообщений)
+                    - name: Domain (отслеживание сообщений)
                       href: web-service-reference/domain-message-tracking.md
                     - name: DomainController (MasterMailboxType)
                       href: web-service-reference/domaincontroller-mastermailboxtype.md
@@ -1317,9 +1317,9 @@
                       href: web-service-reference/draftitemids.md
                     - name: DueDate
                       href: web-service-reference/duedate.md
-                    - name: Продолжительность (элементы)
+                    - name: Duration (Items)
                       href: web-service-reference/duration-items.md
-                    - name: Продолжительность (UserOofSettings)
+                    - name: Duration (UserOofSettings)
                       href: web-service-reference/duration-useroofsettings.md
                     - name: EditAllowed
                       href: web-service-reference/editallowed.md
@@ -1327,11 +1327,11 @@
                       href: web-service-reference/edititems.md
                     - name: EffectiveRights
                       href: web-service-reference/effectiverights.md
-                    - name: Электронной почты (EmailAddress)
+                    - name: Email (EmailAddress)
                       href: web-service-reference/email-emailaddress.md
-                    - name: Электронной почты (EmailAddressType)
+                    - name: Email (EmailAddressType)
                       href: web-service-reference/email-emailaddresstype.md
-                    - name: Электронной почты (строка)
+                    - name: Email (строка)
                       href: web-service-reference/email-string.md
                     - name: EmailAddress (EmailAddress)
                       href: web-service-reference/emailaddress-emailaddress.md
@@ -1381,11 +1381,11 @@
                       href: web-service-reference/encryptedsharedfolderdatacollection.md
                     - name: 'End '
                       href: web-service-reference/end-ex15websvcsotherref.md
-                    - name: Конец (ChangeHighlightsType)
+                    - name: End (ChangeHighlightsType)
                       href: web-service-reference/end-changehighlightstype.md
-                    - name: Дата окончания (повторения)
+                    - name: EndDate (повторение)
                       href: web-service-reference/enddate-recurrence.md
-                    - name: Дата окончания (ReminderType)
+                    - name: EndDate (ReminderType)
                       href: web-service-reference/enddate-remindertype.md
                     - name: EndDateRecurrence
                       href: web-service-reference/enddaterecurrence.md
@@ -1393,9 +1393,9 @@
                       href: web-service-reference/enddatetime.md
                     - name: EndNodeUrl
                       href: web-service-reference/endnodeurl.md
-                    - name: Время окончания
+                    - name: EndTime
                       href: web-service-reference/endtime.md
-                    - name: Время окончания (ReminderMessageDataType)
+                    - name: EndTime (ReminderMessageDataType)
                       href: web-service-reference/endtime-remindermessagedatatype.md
                     - name: EndTimeInMinutes
                       href: web-service-reference/endtimeinminutes.md
@@ -1409,33 +1409,33 @@
                       href: web-service-reference/enhancedlocation.md
                     - name: EntityExtractionResult
                       href: web-service-reference/entityextractionresult.md
-                    - name: Запись (EmailAddress)
+                    - name: Entry (EmailAddress)
                       href: web-service-reference/entry-emailaddress.md
-                    - name: Запись (IMAddress)
+                    - name: Entry (IMAddress)
                       href: web-service-reference/entry-imaddress.md
-                    - name: Запись (PhoneNumber)
+                    - name: Entry (PhoneNumber)
                       href: web-service-reference/entry-phonenumber.md
-                    - name: Запись (PhysicalAddress)
+                    - name: Entry (PhysicalAddress)
                       href: web-service-reference/entry-physicaladdress.md
-                    - name: Ошибка
+                    - name: Error
                       href: web-service-reference/error.md
-                    - name: Ошибки
+                    - name: Errors
                       href: web-service-reference/errors-ex15websvcsotherref.md
-                    - name: Код ошибки
+                    - name: ErrorCode
                       href: web-service-reference/errorcode.md
-                    - name: Код ошибки (int)
+                    - name: ErrorCode (int)
                       href: web-service-reference/errorcode-int.md
-                    - name: Код ошибки (ItemIndexErrorType)
+                    - name: ErrorCode (ItemIndexErrorType)
                       href: web-service-reference/errorcode-itemindexerrortype.md
                     - name: ErrorDescription
                       href: web-service-reference/errordescription.md
-                    - name: Сообщение об ошибке
+                    - name: ErrorMessage
                       href: web-service-reference/errormessage.md
-                    - name: Сообщение об ошибке (NonIndexableItemStatisticType)
+                    - name: ErrorMessage (NonIndexableItemStatisticType)
                       href: web-service-reference/errormessage-nonindexableitemstatistictype.md
                     - name: ErrorSubscriptionIds
                       href: web-service-reference/errorsubscriptionids.md
-                    - name: Того
+                    - name: EventData
                       href: web-service-reference/eventdata.md
                     - name: EventDescription
                       href: web-service-reference/eventdescription.md
@@ -1445,7 +1445,7 @@
                       href: web-service-reference/eventtypes.md
                     - name: ExceptionFieldURI
                       href: web-service-reference/exceptionfielduri.md
-                    - name: Исключения
+                    - name: Exceptions
                       href: web-service-reference/exceptions.md
                     - name: ExchangeImpersonation
                       href: web-service-reference/exchangeimpersonation.md
@@ -1453,7 +1453,7 @@
                       href: web-service-reference/exchangestoreid.md
                     - name: ExcludeConflicts
                       href: web-service-reference/excludeconflicts.md
-                    - name: Исключает
+                    - name: Excludes
                       href: web-service-reference/excludes.md
                     - name: ExecutedSearchScope
                       href: web-service-reference/executedsearchscope.md
@@ -1481,11 +1481,11 @@
                       href: web-service-reference/extendedattributes.md
                     - name: ExtendedFieldURI
                       href: web-service-reference/extendedfielduri.md
-                    - name: Свойство ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)
+                    - name: ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)
                       href: web-service-reference/extendedproperties-arrayofextendedpropertyattributedvaluetype.md
-                    - name: Свойство ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)
+                    - name: ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)
                       href: web-service-reference/extendedproperties-nonemptyarrayofextendedfielduris.md
-                    - name: Свойство ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)
+                    - name: ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)
                       href: web-service-reference/extendedproperties-nonemptyarrayofextendedpropertytype.md
                     - name: ExtendedProperty
                       href: web-service-reference/extendedproperty.md
@@ -1523,7 +1523,7 @@
                       href: web-service-reference/fieldorder.md
                     - name: FieldURI
                       href: web-service-reference/fielduri.md
-                    - name: FieldUri (правила)
+                    - name: FieldUri (Rule)
                       href: web-service-reference/fielduri-rule.md
                     - name: FieldURIOrConstant
                       href: web-service-reference/fielduriorconstant.md
@@ -1589,7 +1589,7 @@
                       href: web-service-reference/firstname.md
                     - name: FirstOccurrence
                       href: web-service-reference/firstoccurrence.md
-                    - name: Отметка
+                    - name: Flag
                       href: web-service-reference/flag.md
                     - name: FlaggedForAction
                       href: web-service-reference/flaggedforaction.md
@@ -1613,7 +1613,7 @@
                       href: web-service-reference/foldername.md
                     - name: FolderNames
                       href: web-service-reference/foldernames.md
-                    - name: Папки
+                    - name: Folders
                       href: web-service-reference/folders-ex15websvcsotherref.md
                     - name: FolderShape
                       href: web-service-reference/foldershape.md
@@ -1655,11 +1655,11 @@
                       href: web-service-reference/fromconnectedaccounts.md
                     - name: FromDate
                       href: web-service-reference/fromdate.md
-                    - name: Полное имя
+                    - name: FullName
                       href: web-service-reference/fullname.md
-                    - name: Создание
+                    - name: Generation
                       href: web-service-reference/generation.md
-                    - name: Поколения
+                    - name: Generations
                       href: web-service-reference/generations.md
                     - name: GetAppManifests
                       href: web-service-reference/getappmanifests.md
@@ -1903,9 +1903,9 @@
                       href: web-service-reference/globalunreadcount.md
                     - name: GoodThreshold
                       href: web-service-reference/goodthreshold.md
-                    - name: Группа (ArrayOfFederatedDirectoryGroupsType)
+                    - name: Group (ArrayOfFederatedDirectoryGroupsType)
                       href: web-service-reference/group-arrayoffederateddirectorygroupstype.md
-                    - name: Группа (MailboxAssociationType)
+                    - name: Group (MailboxAssociationType)
                       href: web-service-reference/group-mailboxassociationtype.md
                     - name: GroupAttendeeConflictData
                       href: web-service-reference/groupattendeeconflictdata.md
@@ -1925,11 +1925,11 @@
                       href: web-service-reference/groupingaction.md
                     - name: GroupingAction (ItemType)
                       href: web-service-reference/groupingaction-itemtype.md
-                    - name: Группы
+                    - name: Groups
                       href: web-service-reference/groups.md
-                    - name: Группы (ArrayOfFederatedDirectoryGroupsType)
+                    - name: Groups (ArrayOfFederatedDirectoryGroupsType)
                       href: web-service-reference/groups-arrayoffederateddirectorygroupstype.md
-                    - name: Группы (ArrayOfImGroupType)
+                    - name: Groups (ArrayOfImGroupType)
                       href: web-service-reference/groups-arrayofimgrouptype.md
                     - name: GroupSids
                       href: web-service-reference/groupsids.md
@@ -1967,7 +1967,7 @@
                       href: web-service-reference/hiddenrecipient.md
                     - name: HighlightTerms
                       href: web-service-reference/highlightterms.md
-                    - name: Занятиях
+                    - name: Hobbies
                       href: web-service-reference/hobbies.md
                     - name: HoldId
                       href: web-service-reference/holdid.md
@@ -1979,7 +1979,7 @@
                       href: web-service-reference/homecitysortkey.md
                     - name: HomeFaxes
                       href: web-service-reference/homefaxes.md
-                    - name: Домашняя страница
+                    - name: HomePage
                       href: web-service-reference/homepage.md
                     - name: HomePhones
                       href: web-service-reference/homephones.md
@@ -1989,13 +1989,13 @@
                       href: web-service-reference/iconindex.md
                     - name: ID
                       href: web-service-reference/id.md
-                    - name: Идентификатор (строка)
+                    - name: ID (строка)
                       href: web-service-reference/id-string.md
-                    - name: Идентификатор (EmailAddressType)
+                    - name: Id (EmailAddressType)
                       href: web-service-reference/id-emailaddresstype.md
-                    - name: Идентификатор (ItemIdType)
+                    - name: ID (ItemIdType)
                       href: web-service-reference/id-itemidtype.md
-                    - name: Идентификатор (часовой пояс)
+                    - name: Id (TimeZone)
                       href: web-service-reference/id-timezone.md
                     - name: Identity
                       href: web-service-reference/identity.md
@@ -2003,9 +2003,9 @@
                       href: web-service-reference/identitydetails.md
                     - name: IdOfFolderToShare
                       href: web-service-reference/idoffoldertoshare.md
-                    - name: Идентификаторы
+                    - name: Ids
                       href: web-service-reference/ids.md
-                    - name: Пропуск
+                    - name: Ignore
                       href: web-service-reference/ignore.md
                     - name: ImAddress (NonEmptyStringType)
                       href: web-service-reference/imaddress-nonemptystringtype.md
@@ -2031,7 +2031,7 @@
                       href: web-service-reference/imitemlist.md
                     - name: ImListMigrationCompleted
                       href: web-service-reference/imlistmigrationcompleted.md
-                    - name: Важность
+                    - name: Importance
                       href: web-service-reference/importance.md
                     - name: ImTelephoneNumber
                       href: web-service-reference/imtelephonenumber.md
@@ -2065,9 +2065,9 @@
                       href: web-service-reference/indexedpageitemview.md
                     - name: IndividualAttendeeConflictData
                       href: web-service-reference/individualattendeeconflictdata.md
-                    - name: Инициалы
+                    - name: Initials
                       href: web-service-reference/initials.md
-                    - name: Инициалы (ArrayOfStringAttributedValuesType)
+                    - name: Initials (ArrayOfStringAttributedValuesType)
                       href: web-service-reference/initials-arrayofstringattributedvaluestype.md
                     - name: InlineImageUrlTemplate
                       href: web-service-reference/inlineimageurltemplate.md
@@ -2085,7 +2085,7 @@
                       href: web-service-reference/instancekey.md
                     - name: IntendedFreeBusyStatus
                       href: web-service-reference/intendedfreebusystatus.md
-                    - name: Цель
+                    - name: Intent
                       href: web-service-reference/intent.md
                     - name: InternalDomains (SmtpDomainList)
                       href: web-service-reference/internaldomains-smtpdomainlist.md
@@ -2099,11 +2099,11 @@
                       href: web-service-reference/internetmessageheaders.md
                     - name: InternetMessageId
                       href: web-service-reference/internetmessageid.md
-                    - name: Интервал
+                    - name: Interval
                       href: web-service-reference/interval.md
                     - name: InvalidRecipient
                       href: web-service-reference/invalidrecipient.md
-                    - name: InvalidRecipient (подсказки)
+                    - name: InvalidRecipient (MailTips)
                       href: web-service-reference/invalidrecipient-mailtips.md
                     - name: InvalidRecipients
                       href: web-service-reference/invalidrecipients.md
@@ -2137,11 +2137,11 @@
                       href: web-service-reference/isdeliveryreceiptrequested.md
                     - name: IsDraft
                       href: web-service-reference/isdraft.md
-                    - name: Свойства IsEnabled
+                    - name: IsEnabled
                       href: web-service-reference/isenabled.md
                     - name: IsEncrypted
                       href: web-service-reference/isencrypted.md
-                    - name: Выражение IsEqualTo
+                    - name: IsEqualTo
                       href: web-service-reference/isequalto.md
                     - name: IsException
                       href: web-service-reference/isexception.md
@@ -2253,9 +2253,9 @@
                       href: web-service-reference/isworktime.md
                     - name: IsWritable
                       href: web-service-reference/iswritable.md
-                    - name: Элемент
+                    - name: Item
                       href: web-service-reference/item.md
-                    - name: Элемент (UploadItemType)
+                    - name: Item (UploadItemType)
                       href: web-service-reference/item-uploaditemtype.md
                     - name: ItemAttachment
                       href: web-service-reference/itemattachment.md
@@ -2275,27 +2275,27 @@
                       href: web-service-reference/itemhits.md
                     - name: ItemHoldPeriod
                       href: web-service-reference/itemholdperiod.md
-                    - name: Идентификатор элемента
+                    - name: ItemId
                       href: web-service-reference/itemid.md
                     - name: ItemIds
                       href: web-service-reference/itemids.md
-                    - name: Что ItemID (NonEmptyArrayOfItemIdsType)
+                    - name: ItemIds (NonEmptyArrayOfItemIdsType)
                       href: web-service-reference/itemids-nonemptyarrayofitemidstype.md
-                    - name: Элементы
+                    - name: Items
                       href: web-service-reference/items.md
-                    - name: Элементы (ArrayOfNonIndexableItemDetailsType)
+                    - name: Items (ArrayOfNonIndexableItemDetailsType)
                       href: web-service-reference/items-arrayofnonindexableitemdetailstype.md
-                    - name: Элементы (ArrayOfSearchPreviewItemsType)
+                    - name: Items (ArrayOfSearchPreviewItemsType)
                       href: web-service-reference/items-arrayofsearchpreviewitemstype.md
-                    - name: Элементы (NonEmptyArrayOfAllItemsType)
+                    - name: Items (NonEmptyArrayOfAllItemsType)
                       href: web-service-reference/items-nonemptyarrayofallitemstype.md
-                    - name: Элементы (NonEmptyArrayOfUploadItemsType)
+                    - name: Items (NonEmptyArrayOfUploadItemsType)
                       href: web-service-reference/items-nonemptyarrayofuploaditemstype.md
                     - name: ItemShape
                       href: web-service-reference/itemshape.md
                     - name: ItemVersion
                       href: web-service-reference/itemversion.md
-                    - name: Название должности
+                    - name: JobTitle
                       href: web-service-reference/jobtitle.md
                     - name: JoinDate
                       href: web-service-reference/joindate.md
@@ -2309,9 +2309,9 @@
                       href: web-service-reference/journalfolderpermissionlevel.md
                     - name: KeepProperties
                       href: web-service-reference/keepproperties.md
-                    - name: Ключевое слово
+                    - name: Keyword
                       href: web-service-reference/keyword.md
-                    - name: Ключевые слова
+                    - name: Keywords
                       href: web-service-reference/keywords-ex15websvcsotherref.md
                     - name: KeywordStat
                       href: web-service-reference/keywordstat.md
@@ -2321,7 +2321,7 @@
                       href: web-service-reference/keywordstats.md
                     - name: Language
                       href: web-service-reference/language.md
-                    - name: Язык (DiscoverySearchConfigurationType)
+                    - name: Language (DiscoverySearchConfigurationType)
                       href: web-service-reference/language-discoverysearchconfigurationtype.md
                     - name: LargeAudienceCap
                       href: web-service-reference/largeaudiencecap.md
@@ -2355,13 +2355,13 @@
                       href: web-service-reference/lobbybypass.md
                     - name: Location
                       href: web-service-reference/location.md
-                    - name: Расположение (CalendarEventDetails)
+                    - name: Location (CalendarEventDetails)
                       href: web-service-reference/location-calendareventdetails.md
-                    - name: Расположение (ReminderMessageDataType)
+                    - name: Location (ReminderMessageDataType)
                       href: web-service-reference/location-remindermessagedatatype.md
                     - name: LocationBasedStateDefinition
                       href: web-service-reference/locationbasedstatedefinition.md
-                    - name: Расположения
+                    - name: Locations
                       href: web-service-reference/locations.md
                     - name: LocationSource
                       href: web-service-reference/locationsource.md
@@ -2369,13 +2369,13 @@
                       href: web-service-reference/locationuri.md
                     - name: Longitude
                       href: web-service-reference/longitude.md
-                    - name: Почтовый ящик
+                    - name: Mailbox
                       href: web-service-reference/mailbox.md
-                    - name: Почтовый ящик (строка)
+                    - name: Mailbox (строка)
                       href: web-service-reference/mailbox-string.md
-                    - name: Почтовый ящик (доступность)
+                    - name: Mailbox (доступность)
                       href: web-service-reference/mailbox-availability.md
-                    - name: Почтовый ящик (PreviewItemMailboxType)
+                    - name: Mailbox (PreviewItemMailboxType)
                       href: web-service-reference/mailbox-previewitemmailboxtype.md
                     - name: MailboxCulture
                       href: web-service-reference/mailboxculture.md
@@ -2383,11 +2383,11 @@
                       href: web-service-reference/mailboxdata.md
                     - name: MailboxDataArray
                       href: web-service-reference/mailboxdataarray.md
-                    - name: Почтовые ящики (ArrayOfStringsType)
+                    - name: Mailboxes (ArrayOfStringsType)
                       href: web-service-reference/mailboxes-arrayofstringstype.md
-                    - name: Почтовые ящики (ArrayOfUserMailboxesType)
+                    - name: Mailboxes (ArrayOfUserMailboxesType)
                       href: web-service-reference/mailboxes-arrayofusermailboxestype.md
-                    - name: Почтовые ящики (NonEmptyArrayOfLegacyDNsType)
+                    - name: Mailboxes (NonEmptyArrayOfLegacyDNsType)
                       href: web-service-reference/mailboxes-nonemptyarrayoflegacydnstype.md
                     - name: MailboxFull
                       href: web-service-reference/mailboxfull.md
@@ -2419,7 +2419,7 @@
                       href: web-service-reference/mailboxtype.md
                     - name: MailboxType (MasterMailboxType)
                       href: web-service-reference/mailboxtype-mastermailboxtype.md
-                    - name: Почтовые подсказки
+                    - name: MailTips
                       href: web-service-reference/mailtips.md
                     - name: MailTipsConfiguration (MailTipsServiceConfiguration)
                       href: web-service-reference/mailtipsconfiguration-mailtipsserviceconfiguration.md
@@ -2439,15 +2439,15 @@
                       href: web-service-reference/managedfolderinformation.md
                     - name: ManagementRole
                       href: web-service-reference/managementrole.md
-                    - name: Руководитель
+                    - name: Manager
                       href: web-service-reference/manager.md
-                    - name: Руководители
+                    - name: Managers
                       href: web-service-reference/managers.md
                     - name: ManagerMailbox
                       href: web-service-reference/managermailbox.md
-                    - name: Манифест
+                    - name: Manifest
                       href: web-service-reference/manifest.md
-                    - name: Манифесты
+                    - name: Manifests
                       href: web-service-reference/manifests.md
                     - name: MarkAllItemsAsRead
                       href: web-service-reference/markallitemsasread.md
@@ -2465,7 +2465,7 @@
                       href: web-service-reference/markasread.md
                     - name: MarkImportance
                       href: web-service-reference/markimportance.md
-                    - name: Образец
+                    - name: Master
                       href: web-service-reference/master.md
                     - name: MaxChangesReturned
                       href: web-service-reference/maxchangesreturned.md
@@ -2511,11 +2511,11 @@
                       href: web-service-reference/meetingtimezone.md
                     - name: MeetingWorkspaceUrl
                       href: web-service-reference/meetingworkspaceurl.md
-                    - name: Элемент
+                    - name: Member
                       href: web-service-reference/member-ex15websvcsotherref.md
-                    - name: Элементы
+                    - name: Members
                       href: web-service-reference/members.md
-                    - name: Члены (MemberListType)
+                    - name: Members (MemberListType)
                       href: web-service-reference/members-memberlisttype.md
                     - name: MemberCorrelationKey
                       href: web-service-reference/membercorrelationkey.md
@@ -2525,13 +2525,13 @@
                       href: web-service-reference/mergedfreebusyintervalinminutes.md
                     - name: Message
                       href: web-service-reference/message-ex15websvcsotherref.md
-                    - name: Сообщение (доступность)
+                    - name: Message (доступность)
                       href: web-service-reference/message-availability.md
                     - name: MessageClassifications
                       href: web-service-reference/messageclassifications.md
                     - name: MessageCount
                       href: web-service-reference/messagecount.md
-                    - name: Код сообщения
+                    - name: MessageId
                       href: web-service-reference/messageid.md
                     - name: MessageText
                       href: web-service-reference/messagetext.md
@@ -2547,19 +2547,19 @@
                       href: web-service-reference/messagetypes.md
                     - name: MessageXml
                       href: web-service-reference/messagexml.md
-                    - name: Метаданные
+                    - name: Metadata
                       href: web-service-reference/metadata-ex15websvcsotherref.md
                     - name: MiddleName
                       href: web-service-reference/middlename.md
                     - name: MiddleNames
                       href: web-service-reference/middlenames.md
-                    - name: Расстояние
+                    - name: Mileage
                       href: web-service-reference/mileage.md
                     - name: MimeContent
                       href: web-service-reference/mimecontent.md
                     - name: MimeContentUTF8
                       href: web-service-reference/mimecontentutf8.md
-                    - name: Минимальный размер
+                    - name: MinimumSize
                       href: web-service-reference/minimumsize.md
                     - name: MinimumSuggestionQuality
                       href: web-service-reference/minimumsuggestionquality.md
@@ -2571,15 +2571,15 @@
                       href: web-service-reference/modifiedevent.md
                     - name: ModifiedOccurrences
                       href: web-service-reference/modifiedoccurrences.md
-                    - name: Изменение
+                    - name: Modify
                       href: web-service-reference/modify.md
                     - name: ModifyRecipientsAllowed
                       href: web-service-reference/modifyrecipientsallowed.md
-                    - name: Месяц
+                    - name: Month
                       href: web-service-reference/month.md
-                    - name: Месяц (часовой пояс переходов)
+                    - name: Month (смена часовых поясов)
                       href: web-service-reference/month-time-zone-transition.md
-                    - name: Месяц (повторение элемента)
+                    - name: Month (повторение элемента)
                       href: web-service-reference/month-item-recurrence.md
                     - name: MonthlyRegeneration
                       href: web-service-reference/monthlyregeneration.md
@@ -2609,17 +2609,17 @@
                       href: web-service-reference/mustdisplaycomment.md
                     - name: MyResponseType
                       href: web-service-reference/myresponsetype.md
-                    - name: Имя (AttachmentType)
+                    - name: Name (AttachmentType)
                       href: web-service-reference/name-attachmenttype.md
-                    - name: Имя (EmailAddressType)
+                    - name: Name (EmailAddressType)
                       href: web-service-reference/name-emailaddresstype.md
-                    - name: Имя (EmailAddress)
+                    - name: Name (EmailAddress)
                       href: web-service-reference/name-emailaddress.md
-                    - name: Имя (ExtendedAttributeType)
+                    - name: Name (ExtendedAttributeType)
                       href: web-service-reference/name-extendedattributetype.md
-                    - name: Имя (отслеживания сообщений)
+                    - name: Name (отслеживание сообщений)
                       href: web-service-reference/name-message-tracking.md
-                    - name: Имя (строка)
+                    - name: Name (строка)
                       href: web-service-reference/name-string.md
                     - name: NetShowUrl
                       href: web-service-reference/netshowurl.md
@@ -2635,9 +2635,9 @@
                       href: web-service-reference/nextpredictedaction.md
                     - name: NextPredictedAction (ItemType)
                       href: web-service-reference/nextpredictedaction-itemtype.md
-                    - name: Понятное имя
+                    - name: Nickname
                       href: web-service-reference/nickname.md
-                    - name: Псевдонимы
+                    - name: Nicknames
                       href: web-service-reference/nicknames.md
                     - name: NoEndRecurrence
                       href: web-service-reference/noendrecurrence.md
@@ -2653,19 +2653,19 @@
                       href: web-service-reference/normalizedbody.md
                     - name: NormalizedBodyType
                       href: web-service-reference/normalizedbodytype.md
-                    - name: Не
+                    - name: Not
                       href: web-service-reference/not.md
-                    - name: Примечания (контактов)
+                    - name: Notes (Contact)
                       href: web-service-reference/notes-contact.md
                     - name: NotesFolderPermissionLevel
                       href: web-service-reference/notesfolderpermissionlevel.md
-                    - name: Уведомления
+                    - name: Notification
                       href: web-service-reference/notification-ex15websvcsotherref.md
-                    - name: Уведомления
+                    - name: Notifications
                       href: web-service-reference/notifications.md
                     - name: NotSentToMe
                       href: web-service-reference/notsenttome.md
-                    - name: Число
+                    - name: Number
                       href: web-service-reference/number.md
                     - name: NumberedRecurrence
                       href: web-service-reference/numberedrecurrence.md
@@ -2679,19 +2679,19 @@
                       href: web-service-reference/numberofmemberswithnodata.md
                     - name: NumberOfOccurrences
                       href: web-service-reference/numberofoccurrences.md
-                    - name: Вхождение
+                    - name: Occurrence
                       href: web-service-reference/occurrence.md
-                    - name: Вхождение (часовой пояс переходов)
+                    - name: Occurrence (смена часовых поясов)
                       href: web-service-reference/occurrence-time-zone-transition.md
                     - name: OccurrenceDate
                       href: web-service-reference/occurrencedate.md
                     - name: OccurrenceItemId
                       href: web-service-reference/occurrenceitemid.md
-                    - name: Расположение компании
+                    - name: OfficeLocation
                       href: web-service-reference/officelocation.md
                     - name: OfficeLocations
                       href: web-service-reference/officelocations.md
-                    - name: Смещение
+                    - name: Offset
                       href: web-service-reference/offset.md
                     - name: OldFolderId
                       href: web-service-reference/oldfolderid.md
@@ -2707,7 +2707,7 @@
                       href: web-service-reference/oofstate.md
                     - name: OpenAsAdminOrSystemService
                       href: web-service-reference/openasadminorsystemservice.md
-                    - name: Операции
+                    - name: Operations
                       href: web-service-reference/operations.md
                     - name: OperationIndex
                       href: web-service-reference/operationindex.md
@@ -2715,7 +2715,7 @@
                       href: web-service-reference/optedinto.md
                     - name: OptionalAttendees
                       href: web-service-reference/optionalattendees.md
-                    - name: Или
+                    - name: Or
                       href: web-service-reference/or.md
                     - name: OrganizationMainPhones
                       href: web-service-reference/organizationmainphones.md
@@ -2741,13 +2741,13 @@
                       href: web-service-reference/othertelephones.md
                     - name: OutlookRuleBlobExists
                       href: web-service-reference/outlookruleblobexists.md
-                    - name: Нет на месте
+                    - name: OutOfOffice
                       href: web-service-reference/outofoffice.md
                     - name: OwaLink
                       href: web-service-reference/owalink.md
                     - name: Owner
                       href: web-service-reference/owner.md
-                    - name: Владельцы
+                    - name: Owners
                       href: web-service-reference/owners.md
                     - name: PageDirection
                       href: web-service-reference/pagedirection.md
@@ -2757,7 +2757,7 @@
                       href: web-service-reference/pageitemreference.md
                     - name: PageItemSize
                       href: web-service-reference/pageitemsize.md
-                    - name: Пейджеры
+                    - name: Pagers
                       href: web-service-reference/pagers.md
                     - name: PageSize
                       href: web-service-reference/pagesize.md
@@ -2777,11 +2777,11 @@
                       href: web-service-reference/parentitemid.md
                     - name: PasswordExpirationDate
                       href: web-service-reference/passwordexpirationdate.md
-                    - name: Путь
+                    - name: Path
                       href: web-service-reference/path.md
                     - name: PendingMailTips
                       href: web-service-reference/pendingmailtips.md
-                    - name: Люди
+                    - name: People
                       href: web-service-reference/people.md
                     - name: PeopleUrl (FederatedDirectoryGroupType)
                       href: web-service-reference/peopleurl-federateddirectorygrouptype.md
@@ -2791,23 +2791,23 @@
                       href: web-service-reference/performreminderaction.md
                     - name: PerformReminderActionResponse
                       href: web-service-reference/performreminderactionresponse.md
-                    - name: Точка
+                    - name: Period
                       href: web-service-reference/period.md
-                    - name: Периоды
+                    - name: Periods
                       href: web-service-reference/periods.md
                     - name: PermanentDelete
                       href: web-service-reference/permanentdelete.md
-                    - name: Разрешение
+                    - name: Permission
                       href: web-service-reference/permission.md
                     - name: PermissionLevel
                       href: web-service-reference/permissionlevel.md
-                    - name: Разрешения
+                    - name: Permissions
                       href: web-service-reference/permissions.md
                     - name: PermissionSet (PermissionSetType)
                       href: web-service-reference/permissionset-permissionsettype.md
                     - name: PermissionSet (CalendarPermissionSetType)
                       href: web-service-reference/permissionset-calendarpermissionsettype.md
-                    - name: Пользователь
+                    - name: Persona
                       href: web-service-reference/persona.md
                     - name: PersonaId
                       href: web-service-reference/personaid.md
@@ -2815,7 +2815,7 @@
                       href: web-service-reference/personalhomepages.md
                     - name: PersonaObjectStatus
                       href: web-service-reference/personaobjectstatus.md
-                    - name: Фиктивные пользователи
+                    - name: Personas
                       href: web-service-reference/personas-ex15websvcsotherref.md
                     - name: PersonaShape
                       href: web-service-reference/personashape.md
@@ -2823,9 +2823,9 @@
                       href: web-service-reference/personatype.md
                     - name: PersonName
                       href: web-service-reference/personname.md
-                    - name: Телефон
+                    - name: Phone
                       href: web-service-reference/phone.md
-                    - name: Телефон (PhoneEntityType)
+                    - name: Phone (PhoneEntityType)
                       href: web-service-reference/phone-phoneentitytype.md
                     - name: PhoneCallId
                       href: web-service-reference/phonecallid.md
@@ -2853,7 +2853,7 @@
                       href: web-service-reference/phoneticlastname.md
                     - name: Photo
                       href: web-service-reference/photo.md
-                    - name: Фотография (MasterMailboxType)
+                    - name: Photo (MasterMailboxType)
                       href: web-service-reference/photo-mastermailboxtype.md
                     - name: PhotoUrl
                       href: web-service-reference/photourl.md
@@ -2861,15 +2861,15 @@
                       href: web-service-reference/photourl-federateddirectorygrouptype.md
                     - name: PhysicalAddresses
                       href: web-service-reference/physicaladdresses.md
-                    - name: Свойства
+                    - name: PictureData
                       href: web-service-reference/picturedata.md
-                    - name: PlayOnPhone (веб-служб Exchange)
+                    - name: PlayOnPhone (веб-службы Exchange)
                       href: web-service-reference/playonphone-exchange-web-services.md
                     - name: PlayOnPhoneDialString
                       href: web-service-reference/playonphonedialstring-exchange-web-services.md
                     - name: PlayOnPhoneEnabled
                       href: web-service-reference/playonphoneenabled.md
-                    - name: PlayOnPhoneResponse (веб-служб Exchange)
+                    - name: PlayOnPhoneResponse (веб-службы Exchange)
                       href: web-service-reference/playonphoneresponse-exchange-web-services.md
                     - name: PolicyNudgeRulesConfiguration
                       href: web-service-reference/policynudgerulesconfiguration.md
@@ -2889,7 +2889,7 @@
                       href: web-service-reference/postaladdressattributedvalue.md
                     - name: PostalAddressIndex
                       href: web-service-reference/postaladdressindex.md
-                    - name: Индекс
+                    - name: PostalCode
                       href: web-service-reference/postalcode.md
                     - name: PostedTime
                       href: web-service-reference/postedtime.md
@@ -2905,9 +2905,9 @@
                       href: web-service-reference/predictedactionreason.md
                     - name: PredictedActionReasons
                       href: web-service-reference/predictedactionreasons.md
-                    - name: Докладчики
+                    - name: Presenters
                       href: web-service-reference/presenters.md
-                    - name: Предварительная версия
+                    - name: Preview
                       href: web-service-reference/preview-ex15websvcsotherref.md
                     - name: PreviewItemResponseShape
                       href: web-service-reference/previewitemresponseshape.md
@@ -2915,9 +2915,9 @@
                       href: web-service-reference/previoushopserver.md
                     - name: PreviousWatermark
                       href: web-service-reference/previouswatermark.md
-                    - name: Параметр PrimarySmtpAddress
+                    - name: PrimarySmtpAddress
                       href: web-service-reference/primarysmtpaddress.md
-                    - name: Параметр PrimarySmtpAddress (строка)
+                    - name: PrimarySmtpAddress (строка)
                       href: web-service-reference/primarysmtpaddress-string.md
                     - name: PrincipalName
                       href: web-service-reference/principalname.md
@@ -2927,15 +2927,15 @@
                       href: web-service-reference/priority.md
                     - name: ProcessRightAway
                       href: web-service-reference/processrightaway.md
-                    - name: Род занятий
+                    - name: Profession
                       href: web-service-reference/profession.md
-                    - name: Профессиях
+                    - name: Professions
                       href: web-service-reference/professions.md
                     - name: ProgrammaticAccessAllowed
                       href: web-service-reference/programmaticaccessallowed.md
-                    - name: Свойства (ArrayOfStringsType)
+                    - name: Properties (ArrayOfStringsType)
                       href: web-service-reference/properties-arrayofstringstype.md
-                    - name: Свойства (ArrayOfTrackingPropertiesType)
+                    - name: Properties (ArrayOfTrackingPropertiesType)
                       href: web-service-reference/properties-arrayoftrackingpropertiestype.md
                     - name: ProposedEnd
                       href: web-service-reference/proposedend.md
@@ -2967,19 +2967,19 @@
                       href: web-service-reference/pushsubscriptionrequest.md
                     - name: Query
                       href: web-service-reference/query.md
-                    - name: Строка запроса (QueryStringType)
+                    - name: QueryString (QueryStringType)
                       href: web-service-reference/querystring-querystringtype.md
-                    - name: Строка запроса (строка)
+                    - name: QueryString (строка)
                       href: web-service-reference/querystring-string.md
                     - name: RadioPhones
                       href: web-service-reference/radiophones.md
                     - name: Range
                       href: web-service-reference/range.md
-                    - name: Диапазоны
+                    - name: Ranges
                       href: web-service-reference/ranges.md
                     - name: RawMasterTableXml
                       href: web-service-reference/rawmastertablexml.md
-                    - name: Чтение
+                    - name: Read
                       href: web-service-reference/read.md
                     - name: ReadFlag
                       href: web-service-reference/readflag.md
@@ -2991,13 +2991,13 @@
                       href: web-service-reference/readitems-permissiontype.md
                     - name: ReceiveCopiesOfMeetingMessages
                       href: web-service-reference/receivecopiesofmeetingmessages.md
-                    - name: Получил
+                    - name: ReceivedBy
                       href: web-service-reference/receivedby.md
                     - name: ReceivedRepresenting
                       href: web-service-reference/receivedrepresenting.md
                     - name: ReceivedTime
                       href: web-service-reference/receivedtime.md
-                    - name: Область записи
+                    - name: Recipient
                       href: web-service-reference/recipient.md
                     - name: RecipientAddress
                       href: web-service-reference/recipientaddress.md
@@ -3005,9 +3005,9 @@
                       href: web-service-reference/recipientfilter.md
                     - name: RecipientIs
                       href: web-service-reference/recipientis.md
-                    - name: Получатели (ArrayOfRecipientsType)
+                    - name: Recipients (ArrayOfRecipientsType)
                       href: web-service-reference/recipients-arrayofrecipientstype.md
-                    - name: Получатели (ArrayOfSmtpAddressType)
+                    - name: Recipients (ArrayOfSmtpAddressType)
                       href: web-service-reference/recipients-arrayofsmtpaddresstype.md
                     - name: RecipientTrackingEvent
                       href: web-service-reference/recipienttrackingevent.md
@@ -3017,9 +3017,9 @@
                       href: web-service-reference/recognitionid.md
                     - name: RecognitionResult
                       href: web-service-reference/recognitionresult.md
-                    - name: Повторение (RecurrenceType)
+                    - name: Recurrence (RecurrenceType)
                       href: web-service-reference/recurrence-recurrencetype.md
-                    - name: Повторение (TaskRecurrenceType)
+                    - name: Recurrence (TaskRecurrenceType)
                       href: web-service-reference/recurrence-taskrecurrencetype.md
                     - name: RecurrenceId
                       href: web-service-reference/recurrenceid.md
@@ -3043,11 +3043,11 @@
                       href: web-service-reference/referenceid.md
                     - name: ReferenceItemId
                       href: web-service-reference/referenceitemid.md
-                    - name: Справочные материалы
+                    - name: References
                       href: web-service-reference/references.md
-                    - name: Уточнение
+                    - name: Refiner
                       href: web-service-reference/refiner.md
-                    - name: Уточнения
+                    - name: Refiners
                       href: web-service-reference/refiners.md
                     - name: RefreshSharingFolder
                       href: web-service-reference/refreshsharingfolder.md
@@ -3063,7 +3063,7 @@
                       href: web-service-reference/relativeyearlyrecurrence.md
                     - name: RelevanceScore
                       href: web-service-reference/relevancescore.md
-                    - name: Памятки
+                    - name: Reminder
                       href: web-service-reference/reminder.md
                     - name: ReminderDueBy
                       href: web-service-reference/reminderdueby.md
@@ -3081,7 +3081,7 @@
                       href: web-service-reference/reminderminutesbeforestart.md
                     - name: ReminderNextTime
                       href: web-service-reference/remindernexttime.md
-                    - name: Напоминания
+                    - name: Reminders
                       href: web-service-reference/reminders.md
                     - name: ReminderText
                       href: web-service-reference/remindertext.md
@@ -3125,7 +3125,7 @@
                       href: web-service-reference/replyto.md
                     - name: ReplyToItem
                       href: web-service-reference/replytoitem.md
-                    - name: Шаблон_отчета
+                    - name: ReportTemplate
                       href: web-service-reference/reporttemplate.md
                     - name: RequestedConfiguration
                       href: web-service-reference/requestedconfiguration.md
@@ -3139,7 +3139,7 @@
                       href: web-service-reference/requesttype.md
                     - name: RequiredAttendees
                       href: web-service-reference/requiredattendees.md
-                    - name: Решение
+                    - name: Resolution
                       href: web-service-reference/resolution.md
                     - name: ResolutionSet
                       href: web-service-reference/resolutionset.md
@@ -3149,7 +3149,7 @@
                       href: web-service-reference/resolvenamesresponse.md
                     - name: ResolveNamesResponseMessage
                       href: web-service-reference/resolvenamesresponsemessage.md
-                    - name: Ресурсы
+                    - name: Resources
                       href: web-service-reference/resources.md
                     - name: ResponseCode
                       href: web-service-reference/responsecode.md
@@ -3173,7 +3173,7 @@
                       href: web-service-reference/restrictedgroupidentifier.md
                     - name: RestrictedGroupSids
                       href: web-service-reference/restrictedgroupsids.md
-                    - name: Ограничение
+                    - name: Restriction
                       href: web-service-reference/restriction.md
                     - name: ResultType
                       href: web-service-reference/resulttype.md
@@ -3203,7 +3203,7 @@
                       href: web-service-reference/rightsmanagementlicensedata.md
                     - name: RMSTemplateId
                       href: web-service-reference/rmstemplateid.md
-                    - name: Роль
+                    - name: Role
                       href: web-service-reference/role.md
                     - name: Room
                       href: web-service-reference/room.md
@@ -3211,7 +3211,7 @@
                       href: web-service-reference/roomlist.md
                     - name: RoomLists
                       href: web-service-reference/roomlists.md
-                    - name: Комнат
+                    - name: Rooms
                       href: web-service-reference/rooms.md
                     - name: RootAddress
                       href: web-service-reference/rootaddress.md
@@ -3227,7 +3227,7 @@
                       href: web-service-reference/routingtype-emailaddress.md
                     - name: Rule
                       href: web-service-reference/rule.md
-                    - name: Правило (RuleType)
+                    - name: Rule (RuleType)
                       href: web-service-reference/rule-ruletype.md
                     - name: RuleId
                       href: web-service-reference/ruleid.md
@@ -3235,19 +3235,19 @@
                       href: web-service-reference/ruleoperationerror.md
                     - name: RuleOperationErrors
                       href: web-service-reference/ruleoperationerrors.md
-                    - name: 'Правила '
+                    - name: 'Rules '
                       href: web-service-reference/rules-ex15websvcsotherref.md
                     - name: SavedItemFolderId
                       href: web-service-reference/saveditemfolderid.md
                     - name: SchemaVersionSupported
                       href: web-service-reference/schemaversionsupported.md
-                    - name: Школ
+                    - name: Schools
                       href: web-service-reference/schools.md
-                    - name: Область (ClientAccessTokenRequestType)
+                    - name: Scope (ClientAccessTokenRequestType)
                       href: web-service-reference/scope-clientaccesstokenrequesttype.md
-                    - name: Область (HighlightTermType)
+                    - name: Scope (HighlightTermType)
                       href: web-service-reference/scope-highlighttermtype.md
-                    - name: Область (NonEmptyStringType)
+                    - name: Scope (NonEmptyStringType)
                       href: web-service-reference/scope-nonemptystringtype.md
                     - name: SearchableMailbox
                       href: web-service-reference/searchablemailbox.md
@@ -3283,21 +3283,21 @@
                       href: web-service-reference/searchqueries.md
                     - name: SearchQuery
                       href: web-service-reference/searchquery.md
-                    - name: Область поиска
+                    - name: SearchScope
                       href: web-service-reference/searchscope.md
-                    - name: Класс SecurityIdentifier
+                    - name: SecurityIdentifier
                       href: web-service-reference/securityidentifier.md
                     - name: SeekToConditionPageItemView
                       href: web-service-reference/seektoconditionpageitemview.md
-                    - name: Отправитель
+                    - name: Sender
                       href: web-service-reference/sender.md
-                    - name: Отправитель (EmailAddressType)
+                    - name: Sender (EmailAddressType)
                       href: web-service-reference/sender-emailaddresstype.md
-                    - name: Отправитель (строка)
+                    - name: Sender (строка)
                       href: web-service-reference/sender-string.md
                     - name: SenderDepartments
                       href: web-service-reference/senderdepartments.md
-                    - name: Отправители
+                    - name: Senders
                       href: web-service-reference/senders.md
                     - name: SenderSmtpAddress
                       href: web-service-reference/sendersmtpaddress.md
@@ -3317,7 +3317,7 @@
                       href: web-service-reference/sendnotificationresult.md
                     - name: SendPrompt
                       href: web-service-reference/sendprompt.md
-                    - name: Уровень конфиденциальности сообщения
+                    - name: Sensitivity
                       href: web-service-reference/sensitivity.md
                     - name: SendSMSAlertToRecipients
                       href: web-service-reference/sendsmsalerttorecipients.md
@@ -3335,7 +3335,7 @@
                       href: web-service-reference/senttoorccme.md
                     - name: SerializedSecurityContext
                       href: web-service-reference/serializedsecuritycontext.md
-                    - name: Сервер (MessageTracking)
+                    - name: Server (MessageTracking)
                       href: web-service-reference/server-messagetracking.md
                     - name: ServerHint
                       href: web-service-reference/serverhint.md
@@ -3407,9 +3407,9 @@
                       href: web-service-reference/sipresponsecode.md
                     - name: SIPResponseText
                       href: web-service-reference/sipresponsetext.md
-                    - name: Размер
+                    - name: Size
                       href: web-service-reference/size.md
-                    - name: Размер (long)
+                    - name: Size (long)
                       href: web-service-reference/size-long.md
                     - name: SizeRequested
                       href: web-service-reference/sizerequested.md
@@ -3419,7 +3419,7 @@
                       href: web-service-reference/smtpaddress-federateddirectorygrouptype.md
                     - name: SmtpAddress (MasterMailboxType)
                       href: web-service-reference/smtpaddress-mastermailboxtype.md
-                    - name: Меню "Сортировка"
+                    - name: SortBy
                       href: web-service-reference/sortby.md
                     - name: SortOrder
                       href: web-service-reference/sortorder.md
@@ -3443,11 +3443,11 @@
                       href: web-service-reference/standardgroupby.md
                     - name: StandardTime
                       href: web-service-reference/standardtime.md
-                    - name: Начало
+                    - name: Start
                       href: web-service-reference/start.md
-                    - name: Дата начала
+                    - name: StartDate
                       href: web-service-reference/startdate.md
-                    - name: StartDate (повторения)
+                    - name: StartDate (Recurrence)
                       href: web-service-reference/startdate-recurrence.md
                     - name: StartDateTime
                       href: web-service-reference/startdatetime.md
@@ -3455,9 +3455,9 @@
                       href: web-service-reference/startfindingalspeechrecognition.md
                     - name: StartFindInGALSpeechRecognitionResponse
                       href: web-service-reference/startfindingalspeechrecognitionresponse.md
-                    - name: Время начала
+                    - name: StartTime
                       href: web-service-reference/starttime.md
-                    - name: Время начала (ReminderMessageDataType)
+                    - name: StartTime (ReminderMessageDataType)
                       href: web-service-reference/starttime-remindermessagedatatype.md
                     - name: StartTimeInMinutes
                       href: web-service-reference/starttimeinminutes.md
@@ -3467,17 +3467,17 @@
                       href: web-service-reference/starttimezoneid.md
                     - name: StartWallClock
                       href: web-service-reference/startwallclock.md
-                    - name: Состояние
+                    - name: State
                       href: web-service-reference/state-ex15websvcsotherref.md
-                    - name: Состояние (TeamMailboxLifecycleStateType)
+                    - name: State (TeamMailboxLifecycleStateType)
                       href: web-service-reference/state-teammailboxlifecyclestatetype.md
                     - name: StateDefinition
                       href: web-service-reference/statedefinition.md
-                    - name: Состояние
+                    - name: Status
                       href: web-service-reference/status.md
-                    - name: Состояние (HoldStatusType)
+                    - name: Status (HoldStatusType)
                       href: web-service-reference/status-holdstatustype.md
-                    - name: Состояние (MemberStatusType)
+                    - name: Status (MemberStatusType)
                       href: web-service-reference/status-memberstatustype.md
                     - name: StatusDescription
                       href: web-service-reference/statusdescription.md
@@ -3493,7 +3493,7 @@
                       href: web-service-reference/storeentryid.md
                     - name: StreamingSubscriptionRequest
                       href: web-service-reference/streamingsubscriptionrequest.md
-                    - name: Улица
+                    - name: Street
                       href: web-service-reference/street.md
                     - name: String
                       href: web-service-reference/string.md
@@ -3501,7 +3501,7 @@
                       href: web-service-reference/stringarrayattributedvalue.md
                     - name: StringAttributedValue
                       href: web-service-reference/stringattributedvalue.md
-                    - name: Тема (CalendarEventDetails)
+                    - name: Subject (CalendarEventDetails)
                       href: web-service-reference/subject-calendareventdetails.md
                     - name: Subject
                       href: web-service-reference/subject.md
@@ -3509,7 +3509,7 @@
                       href: web-service-reference/submittedtime.md
                     - name: SubmitTime
                       href: web-service-reference/submittime.md
-                    - name: Подписка
+                    - name: Subscribe
                       href: web-service-reference/subscribe.md
                     - name: SubscribeResponse
                       href: web-service-reference/subscriberesponse.md
@@ -3521,9 +3521,9 @@
                       href: web-service-reference/subscriptionid-getstreamingevents.md
                     - name: SubscriptionStatus
                       href: web-service-reference/subscriptionstatus.md
-                    - name: Суффикс
+                    - name: Suffix
                       href: web-service-reference/suffix.md
-                    - name: Предложения
+                    - name: Suggestion
                       href: web-service-reference/suggestion.md
                     - name: SuggestionArray
                       href: web-service-reference/suggestionarray.md
@@ -3541,9 +3541,9 @@
                       href: web-service-reference/suppressreadreceipt.md
                     - name: SuppressReadReceipts
                       href: web-service-reference/suppressreadreceipts.md
-                    - name: Фамилия
+                    - name: Surname
                       href: web-service-reference/surname.md
-                    - name: Фамилии
+                    - name: Surnames
                       href: web-service-reference/surnames.md
                     - name: SyncFolderHierarchy
                       href: web-service-reference/syncfolderhierarchy.md
@@ -3561,11 +3561,11 @@
                       href: web-service-reference/syncfolderitemsresponsemessage.md
                     - name: SyncScope
                       href: web-service-reference/syncscope.md
-                    - name: Состояние
+                    - name: SyncState
                       href: web-service-reference/syncstate-ex15websvcsotherref.md
-                    - name: Состояние (base64Binary)
+                    - name: SyncState (base64Binary)
                       href: web-service-reference/syncstate-base64binary.md
-                    - name: Задача
+                    - name: Task
                       href: web-service-reference/task.md
                     - name: TasksFolder
                       href: web-service-reference/tasksfolder.md
@@ -3589,49 +3589,49 @@
                       href: web-service-reference/templatename.md
                     - name: TentativelyAcceptItem
                       href: web-service-reference/tentativelyacceptitem.md
-                    - name: Термин
+                    - name: Term
                       href: web-service-reference/term.md
                     - name: TextBody
                       href: web-service-reference/textbody.md
-                    - name: Время
+                    - name: Time
                       href: web-service-reference/time.md
-                    - name: Время (TimeChangeType)
+                    - name: Time (TimeChangeType)
                       href: web-service-reference/time-timechangetype.md
                     - name: TimeOffset
                       href: web-service-reference/timeoffset.md
                     - name: Timeout
                       href: web-service-reference/timeout.md
-                    - name: Время ожидания (длительность)
+                    - name: Timeout (продолжительность)
                       href: web-service-reference/timeout-duration.md
-                    - name: Метка времени
+                    - name: TimeStamp
                       href: web-service-reference/timestamp.md
-                    - name: Значение TimeWindow
+                    - name: TimeWindow
                       href: web-service-reference/timewindow.md
-                    - name: Часовой пояс (доступность)
+                    - name: TimeZone (доступность)
                       href: web-service-reference/timezone-availability.md
-                    - name: Часовой пояс (элемент)
+                    - name: TimeZone (Item)
                       href: web-service-reference/timezone-item.md
                     - name: TimeZoneContext
                       href: web-service-reference/timezonecontext.md
-                    - name: Определение часового пояса
+                    - name: TimeZoneDefinition
                       href: web-service-reference/timezonedefinition.md
                     - name: TimeZoneDefinitions
                       href: web-service-reference/timezonedefinitions.md
-                    - name: название;
+                    - name: Title
                       href: web-service-reference/title.md
-                    - name: Заголовки
+                    - name: Titles
                       href: web-service-reference/titles.md
-                    - name: Чтобы
+                    - name: To
                       href: web-service-reference/to.md
                     - name: ToDate
                       href: web-service-reference/todate.md
                     - name: ToFolderId
                       href: web-service-reference/tofolderid.md
-                    - name: Маркер
+                    - name: Token
                       href: web-service-reference/token.md
-                    - name: Маркер (ClientAccessTokenType)
+                    - name: Token (ClientAccessTokenType)
                       href: web-service-reference/token-clientaccesstokentype.md
-                    - name: Маркер (строка)
+                    - name: Token (строка)
                       href: web-service-reference/token-string.md
                     - name: TokenRequest
                       href: web-service-reference/tokenrequest.md
@@ -3661,9 +3661,9 @@
                       href: web-service-reference/totalwork.md
                     - name: TrackingPropertyType
                       href: web-service-reference/trackingpropertytype.md
-                    - name: Переход
+                    - name: Transition
                       href: web-service-reference/transition.md
-                    - name: Переходы между
+                    - name: Transitions
                       href: web-service-reference/transitions.md
                     - name: TransitionsGroup
                       href: web-service-reference/transitionsgroup.md
@@ -3677,15 +3677,15 @@
                       href: web-service-reference/ttl-clientaccesstokentypetype.md
                     - name: TTYTDDPhoneNumbers
                       href: web-service-reference/ttytddphonenumbers.md
-                    - name: Тип (ElcFolderType)
+                    - name: Type (ElcFolderType)
                       href: web-service-reference/type-elcfoldertype.md
-                    - name: Тип (строка)
+                    - name: Type (строка)
                       href: web-service-reference/type-string.md
-                    - name: Тип (UserConfiguration)
+                    - name: Type (UserConfiguration)
                       href: web-service-reference/type-userconfiguration.md
-                    - name: ИД ПОЛЬЗОВАТЕЛЯ
+                    - name: UID
                       href: web-service-reference/uid.md
-                    - name: ИД пользователя (ReminderType)
+                    - name: UID (ReminderType)
                       href: web-service-reference/uid-remindertype.md
                     - name: UmEnabled
                       href: web-service-reference/umenabled.md
@@ -3723,15 +3723,15 @@
                       href: web-service-reference/unreadcount.md
                     - name: UnresolvedEntry
                       href: web-service-reference/unresolvedentry.md
-                    - name: Отмена подписки
+                    - name: Unsubscribe
                       href: web-service-reference/unsubscribe.md
                     - name: UnsubscribeResponse
                       href: web-service-reference/unsubscriberesponse.md
                     - name: UnsubscribeResponseMessage
                       href: web-service-reference/unsubscriberesponsemessage.md
-                    - name: Обновление (FolderSync)
+                    - name: Update (FolderSync)
                       href: web-service-reference/update-foldersync.md
-                    - name: Обновление (ItemSync)
+                    - name: Update (ItemSync)
                       href: web-service-reference/update-itemsync.md
                     - name: UpdateDelegate
                       href: web-service-reference/updatedelegate.md
@@ -3767,9 +3767,9 @@
                       href: web-service-reference/updatemailboxassociationresponse.md
                     - name: UpdateMailboxAssociationResponseMessage
                       href: web-service-reference/updatemailboxassociationresponsemessage.md
-                    - name: Обновления (папка)
+                    - name: Updates (Folder)
                       href: web-service-reference/updates-folder.md
-                    - name: Обновления (элемент)
+                    - name: Updates (Item)
                       href: web-service-reference/updates-item.md
                     - name: UpdateUserConfiguration
                       href: web-service-reference/updateuserconfiguration.md
@@ -3789,9 +3789,9 @@
                       href: web-service-reference/urlentity.md
                     - name: Urls
                       href: web-service-reference/urls.md
-                    - name: URL-адреса (ArrayOfUrlEntitiesType)
+                    - name: Urls (ArrayOfUrlEntitiesType)
                       href: web-service-reference/urls-arrayofurlentitiestype.md
-                    - name: Пользователь (MailboxAssociationType)
+                    - name: User (MailboxAssociationType)
                       href: web-service-reference/user-mailboxassociationtype.md
                     - name: UserConfiguration
                       href: web-service-reference/userconfiguration.md
@@ -3803,9 +3803,9 @@
                       href: web-service-reference/userdisabledextensions.md
                     - name: UserEnabledExtensions
                       href: web-service-reference/userenabledextensions.md
-                    - name: ИД пользователя
+                    - name: UserId
                       href: web-service-reference/userid.md
-                    - name: Идентификатор пользователя (строка)
+                    - name: UserId (строка)
                       href: web-service-reference/userid-string.md
                     - name: UserIds
                       href: web-service-reference/userids.md
@@ -3825,31 +3825,31 @@
                       href: web-service-reference/usersmimecertificate.md
                     - name: ValidationErrors
                       href: web-service-reference/validationerrors.md
-                    - name: Значение
+                    - name: Value
                       href: web-service-reference/value.md
-                    - name: Значение (ArrayOfStringValueType)
+                    - name: Value (ArrayOfStringValueType)
                       href: web-service-reference/value-arrayofstringvaluetype.md
-                    - name: Значение (BodyContentType)
+                    - name: Value (BodyContentType)
                       href: web-service-reference/value-bodycontenttype.md
-                    - name: Значение (EmailAddressType)
+                    - name: Value (EmailAddressType)
                       href: web-service-reference/value-emailaddresstype.md
-                    - name: Значение (ExtendedAttributeType)
+                    - name: Value (ExtendedAttributeType)
                       href: web-service-reference/value-extendedattributetype.md
-                    - name: Значение (ExtendedPropertyType)
+                    - name: Value (ExtendedPropertyType)
                       href: web-service-reference/value-extendedpropertytype.md
-                    - name: Значение (отслеживания сообщений)
+                    - name: Value (отслеживание сообщений)
                       href: web-service-reference/value-message-tracking.md
-                    - name: Значение (PersonaPhoneNumberType)
+                    - name: Value (PersonaPhoneNumberType)
                       href: web-service-reference/value-personaphonenumbertype.md
-                    - name: Значение (PersonaPostalAddressType)
+                    - name: Value (PersonaPostalAddressType)
                       href: web-service-reference/value-personapostaladdresstype.md
-                    - name: Значение (ProtectionRuleValueType)
+                    - name: Value (ProtectionRuleValueType)
                       href: web-service-reference/value-protectionrulevaluetype.md
-                    - name: Значение (UserConfiguration)
+                    - name: Value (UserConfiguration)
                       href: web-service-reference/value-userconfiguration.md
-                    - name: Значения
+                    - name: Values
                       href: web-service-reference/values.md
-                    - name: Значения (ArrayOfStringValueType)
+                    - name: Values (ArrayOfStringValueType)
                       href: web-service-reference/values-arrayofstringvaluetype.md
                     - name: ViewPrivateItems
                       href: web-service-reference/viewprivateitems.md
@@ -3859,7 +3859,7 @@
                       href: web-service-reference/votingoptiondata.md
                     - name: VotingResponse
                       href: web-service-reference/votingresponse.md
-                    - name: Водяной знак
+                    - name: Watermark
                       href: web-service-reference/watermark.md
                     - name: WebClientEditFormQueryString
                       href: web-service-reference/webclienteditformquerystring.md
@@ -3873,7 +3873,7 @@
                       href: web-service-reference/weeklyrecurrence.md
                     - name: WeeklyRegeneration
                       href: web-service-reference/weeklyregeneration.md
-                    - name: Когда
+                    - name: When
                       href: web-service-reference/when.md
                     - name: WithinDateRange
                       href: web-service-reference/withindaterange.md
@@ -3895,7 +3895,7 @@
                       href: web-service-reference/wouldrepair.md
                     - name: XmlData
                       href: web-service-reference/xmldata.md
-                    - name: Год
+                    - name: Year
                       href: web-service-reference/year.md
                     - name: YearlyRegeneration
                       href: web-service-reference/yearlyregeneration.md
@@ -3911,12 +3911,12 @@
                       href: web-service-reference/yomilastname.md
                     - name: YomiLastNames
                       href: web-service-reference/yomilastnames.md
-            - name: Справочник по управляемым API веб-служб Exchange
+            - name: Справочник по управляемому API EWS
               href: 'https://msdn.microsoft.com/EN-US/library/jj220535(v=exchg.80).aspx'
-            - name: Служба автоматического обнаружения веб-ссылки
+            - name: Справочник по веб-службе автообнаружения
               href: web-service-reference/autodiscover-web-service-reference-for-exchange.md
               items:
-                - name: Веб-служба SOAP автообнаружения ссылки
+                - name: Справочник по веб-службе автообнаружения SOAP
                   href: web-service-reference/soap-autodiscover-web-service-reference-for-exchange.md
                   items:
                     - name: Операция GetDomainSettings (SOAP)
@@ -3927,7 +3927,7 @@
                       href: web-service-reference/getusersettings-operation-soap.md
                     - name: Операция GetOrganizationRelationshipSettings (SOAP)
                       href: web-service-reference/getorganizationrelationshipsettings-operation-soap.md
-                    - name: Элементы XML автоматического обнаружения SOAP
+                    - name: XML-элементы службы автообнаружения SOAP
                       href: web-service-reference/soap-autodiscover-xml-elements-for-exchange-2013.md
                       items:
                         - name: AlternateMailbox (SOAP)
@@ -3964,15 +3964,15 @@
                           href: web-service-reference/documentsharinglocationcollectionsetting-soap.md
                         - name: DomainNames (SOAP)
                           href: web-service-reference/domainnames-soap.md
-                        - name: Домен (SOAP)
+                        - name: Domain (SOAP)
                           href: web-service-reference/domain-soap.md
-                        - name: Домен (GetFederationInformation) (SOAP)
+                        - name: Domain (GetFederationInformation) (SOAP)
                           href: web-service-reference/domain-getfederationinformationsoap.md
                         - name: DomainResponse (SOAP)
                           href: web-service-reference/domainresponse-soap.md
                         - name: DomainResponses (SOAP)
                           href: web-service-reference/domainresponses-soap.md
-                        - name: Домены (SOAP)
+                        - name: Domains (SOAP)
                           href: web-service-reference/domains-soap.md
                         - name: DomainSettingError (SOAP)
                           href: web-service-reference/domainsettingerror-soap.md
@@ -3986,15 +3986,15 @@
                           href: web-service-reference/domainstringsetting-soap.md
                         - name: EncryptionMethod (SOAP)
                           href: web-service-reference/encryptionmethod-soap.md
-                        - name: Конечная точка (SOAP)
+                        - name: Endpoint (SOAP)
                           href: web-service-reference/endpoint-soap.md
-                        - name: Код ошибки (SOAP)
+                        - name: ErrorCode (SOAP)
                           href: web-service-reference/errorcode-soap.md
-                        - name: Сообщение об ошибке (SOAP)
+                        - name: ErrorMessage (SOAP)
                           href: web-service-reference/errormessage-soap.md
                         - name: ExternalAccessAllowed (SOAP)
                           href: web-service-reference/externalaccessallowed-soap.md
-                        - name: Добавляемое (SOAP)
+                        - name: FileExtension (SOAP)
                           href: web-service-reference/fileextension-soap.md
                         - name: FreeBusyAccessEnabled (SOAP)
                           href: web-service-reference/freebusyaccessenabled-soap.md
@@ -4032,7 +4032,7 @@
                           href: web-service-reference/getusersettingsresponse-soap.md
                         - name: GetUserSettingsResponseMessage (SOAP)
                           href: web-service-reference/getusersettingsresponsemessage-soap.md
-                        - name: Имя узла (SOAP)
+                        - name: Hostname (SOAP)
                           href: web-service-reference/hostname-soap.md
                         - name: IsDefault (SOAP)
                           href: web-service-reference/isdefault-soap.md
@@ -4040,7 +4040,7 @@
                           href: web-service-reference/legacydn-soap.md
                         - name: LocationUrl (SOAP)
                           href: web-service-reference/locationurl-soap.md
-                        - name: Почтовый ящик (SOAP)
+                        - name: Mailbox (SOAP)
                           href: web-service-reference/mailbox-soap.md
                         - name: MailTipsAccessEnabled (SOAP)
                           href: web-service-reference/mailtipsaccessenabled-soap.md
@@ -4056,13 +4056,13 @@
                           href: web-service-reference/minorbuildnumber-soap.md
                         - name: MinorVersion (SOAP)
                           href: web-service-reference/minorversion-soap.md
-                        - name: Имя (SOAP)
+                        - name: Name (SOAP)
                           href: web-service-reference/name-soap.md
                         - name: OrganizationRelationshipSettingsCollection (SOAP)
                           href: web-service-reference/organizationrelationshipsettingscollection-soap.md
                         - name: OrganizationRelationshipSettings (SOAP)
                           href: web-service-reference/organizationrelationshipsettings-soap.md
-                        - name: Порт (SOAP)
+                        - name: Port (SOAP)
                           href: web-service-reference/port-soap.md
                         - name: ProtocolConnection (SOAP)
                           href: web-service-reference/protocolconnection-soap.md
@@ -4072,13 +4072,13 @@
                           href: web-service-reference/protocolconnections-soap.md
                         - name: RedirectTarget (SOAP)
                           href: web-service-reference/redirecttarget-soap.md
-                        - name: Запрос (SOAP)
+                        - name: Request (SOAP)
                           href: web-service-reference/request-soap.md
-                        - name: Запрос (SOAP) (GetDomainSettings)
+                        - name: Request (GetDomainSettings) (SOAP)
                           href: web-service-reference/request-getdomainsettingssoap.md
-                        - name: Запрос (SOAP) (GetFederationInformation)
+                        - name: Request (GetFederationInformation) (SOAP)
                           href: web-service-reference/request-getfederationinformationsoap.md
-                        - name: Запрос (SOAP) (GetOrganizationRelationship)
+                        - name: Request (GetOrganizationRelationship) (SOAP)
                           href: web-service-reference/request-getorganizationrelationshipsoap.md
                         - name: RequestedVersion (SOAP)
                           href: web-service-reference/requestedversion-soap.md
@@ -4086,21 +4086,21 @@
                           href: web-service-reference/requestedserverversion-soap.md
                         - name: RequestedSettings (SOAP)
                           href: web-service-reference/requestedsettings-soap.md
-                        - name: Ответ (SOAP)
+                        - name: Response (SOAP)
                           href: web-service-reference/response-soap.md
-                        - name: Ответ (GetDomainSettings) (SOAP)
+                        - name: Response (GetDomainSettings) (SOAP)
                           href: web-service-reference/response-getdomainsettingssoap.md
-                        - name: Ответ (GetFederationInformation) (SOAP)
+                        - name: Response (GetFederationInformation) (SOAP)
                           href: web-service-reference/response-getfederationinformationsoap.md
-                        - name: Ответ (GetOrganizationRelationship) (SOAP)
+                        - name: Response (GetOrganizationRelationship) (SOAP)
                           href: web-service-reference/response-getorganizationrelationshipsoap.md
-                        - name: Сервер (SOAP)
+                        - name: Server (SOAP)
                           href: web-service-reference/server-soap.md
                         - name: ServerVersionInfo (SOAP)
                           href: web-service-reference/serverversioninfo-soap.md
                         - name: ServiceUrl (SOAP)
                           href: web-service-reference/serviceurl-soap.md
-                        - name: Параметр (SOAP)
+                        - name: Setting (SOAP)
                           href: web-service-reference/setting-soap.md
                         - name: SettingName (SOAP)
                           href: web-service-reference/settingname-soap.md
@@ -4120,19 +4120,19 @@
                           href: web-service-reference/tokenissuer-soap.md
                         - name: TokenIssuers (SOAP)
                           href: web-service-reference/tokenissuers-soap.md
-                        - name: Тип (SOAP)
+                        - name: Type (SOAP)
                           href: web-service-reference/type-soap.md
-                        - name: URI (SOAP)
+                        - name: Uri (SOAP)
                           href: web-service-reference/uri-soap.md
-                        - name: URL-адрес (SOAP)
+                        - name: Url (SOAP)
                           href: web-service-reference/url-soap.md
-                        - name: Пользователь (SOAP)
+                        - name: User (SOAP)
                           href: web-service-reference/user-soap.md
-                        - name: Ответ пользователя (SOAP)
+                        - name: UserResponse (SOAP)
                           href: web-service-reference/userresponse-soap.md
                         - name: UserResponses (SOAP)
                           href: web-service-reference/userresponses-soap.md
-                        - name: Пользователи (SOAP)
+                        - name: Users (SOAP)
                           href: web-service-reference/users-soap.md
                         - name: UserSetting (SOAP)
                           href: web-service-reference/usersetting-soap.md
@@ -4140,11 +4140,11 @@
                           href: web-service-reference/usersettingerror-soap.md
                         - name: UserSettingErrors (SOAP)
                           href: web-service-reference/usersettingerrors-soap.md
-                        - name: Параметры пользователя (SOAP)
+                        - name: UserSettings (SOAP)
                           href: web-service-reference/usersettings-soap.md
-                        - name: Значение (SOAP)
+                        - name: Value (SOAP)
                           href: web-service-reference/value-soap.md
-                        - name: Версия (SOAP)
+                        - name: Version (SOAP)
                           href: web-service-reference/version-soap.md
                         - name: WebClientUrl (SOAP)
                           href: web-service-reference/webclienturl-soap.md
@@ -4152,23 +4152,23 @@
                           href: web-service-reference/webclienturlcollectionsetting-soap.md
                         - name: WebClientUrls (SOAP)
                           href: web-service-reference/webclienturls-soap.md
-                - name: Ссылку POX автоматического обнаружения веб-службы
+                - name: Справочник по веб-службе автообнаружения POX
                   href: web-service-reference/pox-autodiscover-web-service-reference-for-exchange.md
                   items:
-                    - name: Запрос автообнаружения POX
+                    - name: Запрос на автообнаружение POX
                       href: web-service-reference/pox-autodiscover-request-for-exchange.md
-                    - name: POX ответа службы автообнаружения
+                    - name: Отклик службы автообнаружения POX
                       href: web-service-reference/pox-autodiscover-response-for-exchange.md
-                    - name: Элементы XML автоматического обнаружения POX
+                    - name: XML-элементы службы автообнаружения POX
                       href: web-service-reference/pox-autodiscover-xml-elements-for-exchange.md
                       items:
                         - name: AcceptableResponseSchema (POX)
                           href: web-service-reference/acceptableresponseschema-pox.md
-                        - name: Учетная запись (POX)
+                        - name: Account (POX)
                           href: web-service-reference/account-pox.md
                         - name: AccountType (POX)
                           href: web-service-reference/accounttype-pox.md
-                        - name: Действие (POX)
+                        - name: Action (POX)
                           href: web-service-reference/action-pox.md
                         - name: AddressBook (POX)
                           href: web-service-reference/addressbook-pox.md
@@ -4178,7 +4178,7 @@
                           href: web-service-reference/authpackage-pox.md
                         - name: AuthRequired (POX)
                           href: web-service-reference/authrequired-pox.md
-                        - name: Автообнаружение (POX)
+                        - name: AutoDiscover (POX)
                           href: web-service-reference/autodiscover-pox.md
                         - name: AutoDiscoverSMTPAddress (POX)
                           href: web-service-reference/autodiscoversmtpaddress-pox.md
@@ -4192,7 +4192,7 @@
                           href: web-service-reference/directoryport-pox.md
                         - name: DisplayName (POX)
                           href: web-service-reference/displayname-pox.md
-                        - name: Имя домена (POX)
+                        - name: DomainName (POX)
                           href: web-service-reference/domainname-pox.md
                         - name: DomainRequired (POX)
                           href: web-service-reference/domainrequired-pox.md
@@ -4204,11 +4204,11 @@
                           href: web-service-reference/ecpurl-extinstall-pox.md
                         - name: EcpUrl-mt (POX)
                           href: web-service-reference/ecpurl-mt-pox.md
-                        - name: EcpUrl фотографий (POX)
+                        - name: EcpUrl-photo (POX)
                           href: web-service-reference/ecpurl-photo-pox.md
-                        - name: Публикация EcpUrl (POX)
+                        - name: EcpUrl-publish (POX)
                           href: web-service-reference/ecpurl-publish-pox.md
-                        - name: Возвращаемое значение EcpUrl (POX)
+                        - name: EcpUrl-ret (POX)
                           href: web-service-reference/ecpurl-ret-pox.md
                         - name: EcpUrl-sms (POX)
                           href: web-service-reference/ecpurl-sms-pox.md
@@ -4220,29 +4220,29 @@
                           href: web-service-reference/ecpurl-tmediting-pox.md
                         - name: EcpUrl-tmHiding (POX)
                           href: web-service-reference/ecpurl-tmhiding-pox.md
-                        - name: EcpUrl-единой системы обмена сообщениями (POX)
+                        - name: EcpUrl-um (POX)
                           href: web-service-reference/ecpurl-um-pox.md
                         - name: EMailAddress (POX)
                           href: web-service-reference/emailaddress-pox.md
                         - name: EmwsUrl (POX)
                           href: web-service-reference/emwsurl-pox.md
-                        - name: Ошибка (POX)
+                        - name: Error (POX)
                           href: web-service-reference/error-pox.md
-                        - name: Код ошибки (POX)
+                        - name: ErrorCode (POX)
                           href: web-service-reference/errorcode-pox.md
                         - name: EwsPartnerUrl (POX)
                           href: web-service-reference/ewspartnerurl-pox.md
                         - name: EwsUrl (POX)
                           href: web-service-reference/ewsurl-pox.md
-                        - name: Внешние (POX)
+                        - name: External (POX)
                           href: web-service-reference/external-pox.md
                         - name: ExternalUrl (POX)
                           href: web-service-reference/externalurl-pox.md
                         - name: GroupingInformation (POX)
                           href: web-service-reference/groupinginformation-pox.md
-                        - name: Изображение (POX)
+                        - name: Image (POX)
                           href: web-service-reference/image-pox.md
-                        - name: Внутренний (POX)
+                        - name: Internal (POX)
                           href: web-service-reference/internal-pox.md
                         - name: InternalUrl (POX)
                           href: web-service-reference/internalurl-pox.md
@@ -4262,7 +4262,7 @@
                           href: web-service-reference/mailstore-pox.md
                         - name: MdbDN (POX)
                           href: web-service-reference/mdbdn-pox.md
-                        - name: Сообщение (POX)
+                        - name: Message (POX)
                           href: web-service-reference/message-pox.md
                         - name: MicrosoftOnline (POX)
                           href: web-service-reference/microsoftonline-pox.md
@@ -4274,9 +4274,9 @@
                           href: web-service-reference/oofurl-pox.md
                         - name: OWAUrl (POX)
                           href: web-service-reference/owaurl-pox.md
-                        - name: Порт (POX)
+                        - name: Port (POX)
                           href: web-service-reference/port-pox.md
-                        - name: Протокол (POX)
+                        - name: Protocol (POX)
                           href: web-service-reference/protocol-pox.md
                         - name: PublicFolderInformation (POX)
                           href: web-service-reference/publicfolderinformation-pox.md
@@ -4288,11 +4288,11 @@
                           href: web-service-reference/redirecturl-pox.md
                         - name: ReferralPort (POX)
                           href: web-service-reference/referralport-pox.md
-                        - name: Запрос (POX)
+                        - name: Request (POX)
                           href: web-service-reference/request-pox.md
-                        - name: Ответ (POX)
+                        - name: Response (POX)
                           href: web-service-reference/response-pox.md
-                        - name: Сервер (POX)
+                        - name: Server (POX)
                           href: web-service-reference/server-pox.md
                         - name: ServerDN (POX)
                           href: web-service-reference/serverdn-pox.md
@@ -4308,151 +4308,151 @@
                           href: web-service-reference/smtplast-pox.md
                         - name: SPA (POX)
                           href: web-service-reference/spa-pox.md
-                        - name: ПРОТОКОЛ SSL (POX)
+                        - name: SSL (POX)
                           href: web-service-reference/ssl-pox.md
                         - name: TTL (POX)
                           href: web-service-reference/ttl-pox.md
-                        - name: Тип (POX)
+                        - name: Type (POX)
                           href: web-service-reference/type-pox.md
                         - name: UMUrl (POX)
                           href: web-service-reference/umurl-pox.md
                         - name: UsePOPAuth (POX)
                           href: web-service-reference/usepopauth-pox.md
-                        - name: Пользователь (POX)
+                        - name: User (POX)
                           href: web-service-reference/user-pox.md
-            - name: Ссылки веб-службу единой системы обмена сообщениями
+            - name: Справочник по веб-службе единой системы обмена сообщениями
               href: web-service-reference/unified-messaging-web-service-reference-for-exchange.md
               items:
                 - name: Операции веб-службы единой системы обмена сообщениями
                   href: web-service-reference/unified-messaging-web-service-operations-for-exchange.md
                   items:
-                    - name: Отключите операции (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция Disconnect (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/disconnect-operation-um-web-service.md
-                    - name: Операция GetCallInfo (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция GetCallInfo (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/getcallinfo-operation-um-web-service.md
-                    - name: Операция GetUMProperties (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция GetUMProperties (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/getumproperties-operation-um-web-service.md
-                    - name: Операция IsUMEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция IsUMEnabled (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/isumenabled-operation-um-web-service.md
-                    - name: Операция PlayOnPhone (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция PlayOnPhone (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/playonphone-operation-um-web-service.md
-                    - name: Операция PlayOnPhoneGreeting (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/playonphonegreeting-operation-um-web-service.md
-                    - name: Операция ResetPIN (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция ResetPIN (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/resetpin-operation-um-web-service.md
-                    - name: Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/setmissedcallnotificationenabled-operation-um-web-service.md
-                    - name: Операция SetOofStatus (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция SetOofStatus (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/setoofstatus-operation-um-web-service.md
-                    - name: Операция SetPlayOnPhoneDialString (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция SetPlayOnPhoneDialString (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/setplayonphonedialstring-operation-um-web-service.md
-                    - name: Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/settelephoneaccessfolderemail-operation-um-web-service.md
-                - name: Единой системы обмена сообщениями веб-службы XML элементов
+                - name: XML-элементы веб-службы единой системы обмена сообщениями
                   href: web-service-reference/unified-messaging-web-service-xml-elements-for-exchange.md
                   items:
-                    - name: base64FolderId (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: base64FolderId (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/base64folderid-um-web-service.md
-                    - name: CallId (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: CallId (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/callid-um-web-service.md
-                    - name: CallState (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: CallState (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/callstate-um-web-service.md
-                    - name: dialString (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: dialString (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/dialstring-um-web-service.md
-                    - name: Отключите (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: Disconnect (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/disconnect-um-web-service.md
-                    - name: DisconnectResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: DisconnectResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/disconnectresponse-um-web-service.md
-                    - name: Идентификатор записи (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: entryId (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/entryid-um-web-service.md
-                    - name: EventCause (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: EventCause (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/eventcause-um-web-service.md
-                    - name: GetCallInfo (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: GetCallInfo (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/getcallinfo-um-web-service.md
-                    - name: GetCallInfoResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: GetCallInfoResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/getcallinforesponse-um-web-service.md
-                    - name: GetUMProperties (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: GetUMProperties (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/getumproperties-um-web-service.md
-                    - name: GetUMPropertiesResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: GetUMPropertiesResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/getumpropertiesresponse-um-web-service.md
-                    - name: GreetingType (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: GreetingType (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/greetingtype-um-web-service.md
-                    - name: IsUMEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: IsUMEnabled (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/isumenabled-um-web-service.md
-                    - name: IsUMEnabledResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: IsUMEnabledResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/isumenabledresponse-um-web-service.md
-                    - name: OofStatus (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: OofStatus (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/oofstatus-um-web-service.md
-                    - name: PlayOnPhoneGreeting (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/playonphonegreeting-um-web-service.md
-                    - name: PlayOnPhoneGreetingResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: PlayOnPhoneGreetingResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/playonphonegreetingresponse-um-web-service.md
-                    - name: PlayOnPhone (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: PlayOnPhone (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/playonphone-um-web-service.md
-                    - name: PlayOnPhoneResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: PlayOnPhoneResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/playonphoneresponse-um-web-service.md
-                    - name: ResetPIN (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: ResetPIN (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/resetpin-um-web-service.md
-                    - name: ResetPINResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: ResetPINResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/resetpinresponse-um-web-service.md
-                    - name: SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/setmissedcallnotificationenabled-um-web-service.md
-                    - name: SetMissedCallNotificationEnabledResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: SetMissedCallNotificationEnabledResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/setmissedcallnotificationenabledresponse-um-web-service.md
-                    - name: SetOofStatus (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: SetOofStatus (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/setoofstatus-um-web-service.md
-                    - name: SetOofStatusResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: SetOofStatusResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/setoofstatusresponse-um-web-service.md
-                    - name: SetPlayOnPhoneDialString (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: SetPlayOnPhoneDialString (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/setplayonphonedialstring-um-web-service.md
-                    - name: SetPlayOnPhoneDialStringResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: SetPlayOnPhoneDialStringResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/setplayonphonedialstringresponse-um-web-service.md
-                    - name: SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/settelephoneaccessfolderemail-um-web-service.md
-                    - name: SetTelephoneAccessFolderEmailResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: SetTelephoneAccessFolderEmailResponse (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/settelephoneaccessfolderemailresponse-um-web-service.md
-                    - name: Состояние (единой системы обмена СООБЩЕНИЯМИ веб-службы - SetMissedCallNotificationEnabled)
+                    - name: "Status (веб-служба единой системы обмена сообщениями\_— SetMissedCallNotificationEnabled)"
                       href: web-service-reference/status-um-web-servicesetmissedcallnotificationenabled.md
-                    - name: Состояние (единой системы обмена СООБЩЕНИЯМИ веб-службы - SetOofStatus)
+                    - name: "Status (веб-служба единой системы обмена сообщениями\_— SetOofStatus)"
                       href: web-service-reference/status-um-web-servicesetoofstatus.md
-                    - name: MissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: MissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/missedcallnotificationenabled-um-web-service.md
-                    - name: PlayOnPhoneDialString (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: PlayOnPhoneDialString (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/playonphonedialstring-um-web-service.md
-                    - name: TelephoneAccessNumbers (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: TelephoneAccessNumbers (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/telephoneaccessnumbers-um-web-service.md
-                    - name: TelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+                    - name: TelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)
                       href: web-service-reference/telephoneaccessfolderemail-um-web-service.md
-            - name: Справочник по веб-служб Exchange автоматически созданный прокси-сервера
+            - name: Справочник по автоматически создаваемому прокси-серверу EWS
               href: 'https://msdn.microsoft.com/EN-US/library/jj190899(v=exchg.150).aspx'
     - name: Командная консоль Exchange
       href: management/exchange-management-shell.md
       items:
-        - name: Создание средств управления Exchange
+        - name: Создание инструментов командной консоли Exchange
           href: management/create-exchange-management-shell-tools.md
           items:
             - name: Новые и обновленные командлеты
               href: management/new-and-updated-exchange-management-shell-cmdlets.md
             - name: Типы входных и выходных данных командлетов
               href: management/exchange-management-shell-cmdlet-input-and-output-types.md
-            - name: Ознакомьтесь со списком пользователей почты
+            - name: Получение списка почтовых пользователей
               href: management/how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md
-            - name: Используйте командлет ответа
+            - name: Использование отклика командлета
               href: management/how-to-use-the-exchange-management-shell-cmdlet-response.md
-        - name: Пространства имен Командная консоль Exchange
+        - name: Пространства имен командной консоли Exchange
           href: management/exchange-management-shell-namespaces.md
     - name: Агенты транспорта
       href: transport-agents/transport-agents-in-exchange-2013.md
       items:
-        - name: Агент транспорта новые и обновленные интерфейсы API
+        - name: Новые и обновленные API агентов транспорта
           href: transport-agents/new-and-updated-transport-agent-apis-in-exchange-2013.md
-        - name: Code samples
+        - name: Примеры кода
           href: transport-agents/transport-agent-code-samples-for-exchange-2013.md
-        - name: Основные понятия агента транспорта
+        - name: 'Понятия, связанные с агентами транспорта'
           href: transport-agents/transport-agent-concepts-in-exchange-2013.md
-        - name: Чтение и изменение сообщений в транспортный конвейер
+        - name: Чтение и изменение сообщений в транспортном конвейере
           href: transport-agents/reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md
-        - name: Создание агенты транспорта
+        - name: Создание агентов транспорта
           href: transport-agents/creating-transport-agents-for-exchange-2013.md
           items:
             - name: Создание агента транспорта RoutingAgent
@@ -4461,13 +4461,13 @@
               href: transport-agents/how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md
             - name: Создание агента транспорта DeliveryAgent
               href: transport-agents/how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md
-        - name: Справочник по агента транспорта
+        - name: Справочник по агентам транспорта
           href: transport-agents/transport-agent-reference-for-exchange-2013.md
           items:
-            - name: Элементы файла конфигурации агентов
+            - name: Элементы файла конфигурации агента
               href: transport-agents/agents-configuration-file-elements-for-exchange-2013.md
               items:
-                - name: агент
+                - name: agent
                   href: transport-agents/agent.md
                 - name: agentExecution
                   href: transport-agents/agentexecution.md
@@ -4479,32 +4479,32 @@
                   href: transport-agents/messagesnapshot.md
                 - name: mexRuntime
                   href: transport-agents/mexruntime.md
-                - name: мониторинг
+                - name: monitoring
                   href: transport-agents/monitoring.md
-            - name: Пространства имен агента транспорта
+            - name: Пространства имен агентов транспорта
               href: transport-agents/transport-agent-namespaces-in-exchange-2013.md
     - name: Резервное копирование и восстановление
       href: backup-restore/backup-and-restore-for-exchange-2013.md
       items:
-        - name: Основные понятия резервное копирование и восстановление
+        - name: 'Понятия, связанные с резервным копированием и восстановлением'
           href: backup-restore/backup-and-restore-concepts-for-exchange-2013.md
           items:
-            - name: Журналы транзакций и файлы контрольной точки
+            - name: Журналы транзакций и файлы контрольных точек
               href: backup-restore/transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md
             - name: Модуль записи Exchange
               href: backup-restore/exchange-writer-in-exchange-2013.md
-        - name: Построение резервное копирование и восстановление приложений
+        - name: Создание приложений для резервного копирования и восстановления
           href: backup-restore/build-backup-and-restore-applications-for-exchange-2013.md
           items:
             - name: Типы операций резервного копирования
               href: backup-restore/types-of-backup-operations-for-exchange-2013.md
-            - name: Восстановление баз данных Exchange 2013
+            - name: "Восстановление баз данных Exchange\_2013"
               href: backup-restore/restoring-exchange-2013-databases.md
-            - name: Проверка целостности резервной копии с помощью CHKSGFILES API
+            - name: Проверка целостности резервной копии с помощью API CHKSGFILES
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md
             - name: Проверка целостности резервной копии с помощью средства Eseutil
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md
-        - name: Справочник по CChkSGFiles классов
+        - name: Справочник по классу CChkSGFiles
           href: backup-restore/cchksgfiles-class-reference.md
           items:
             - name: Функция CChkSGFiles.CMaxDbPerSG
@@ -4519,7 +4519,7 @@
               href: backup-restore/cchksgfiles-errcheckdbpages-function.md
             - name: Функция CChkSGFiles.ErrCheckLogs
               href: backup-restore/cchksgfiles-errchecklogs-function.md
-            - name: Функция CChkSGFiles.ErrGetHeader (зарезервировано)
+            - name: Функция CChkSGFiles.ErrGetHeader (зарезервированная)
               href: backup-restore/cchksgfiles-errgetheader-function-reserved.md
             - name: Функция CChkSGFiles.ErrInit
               href: backup-restore/cchksgfiles-errinit-function.md
@@ -4535,5 +4535,5 @@
               href: backup-restore/cchksgfiles-page_info-struct.md
             - name: Функция CChkSGFiles.PgnoFromFileOffset
               href: backup-restore/cchksgfiles-pgnofromfileoffset-function.md
-    - name: Справочник по API сервера
+    - name: Справочник по серверному API
       href: 'https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx'
