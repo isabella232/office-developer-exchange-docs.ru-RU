@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 96390f92-cab1-4de6-9ec2-a55678fc20af
 description: Узнайте, как создание, получение, обновление и удаление пакетов сообщений электронной почты в одном вызове с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
-ms.openlocfilehash: 30ebbdf4c92111df629c7662987e301d167336e2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b7dcc8f0961a34061b0476e2136193bf21731d99
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761121"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354045"
 ---
 # <a name="process-email-messages-in-batches-by-using-ews-in-exchange"></a>Обрабатывать сообщения электронной почты в пакетах с помощью веб-служб Exchange в Exchange
 
@@ -21,12 +21,12 @@ ms.locfileid: "19761121"
   
 **В таблице 1. Управляемый API EWS методы и операции веб-служб Exchange для работы с пакетов сообщений электронной почты**
 
-|**Чтобы...**|**Используйте этот метод управляемый API EWS**|**Используйте эту операцию EWS**|
+|**Чтобы...**|**Какой метод управляемого API для EWS в этом случае нужен**|**Какая операция EWS в этом случае нужна**|
 |:-----|:-----|:-----|
 |Создание сообщения электронной почты в пакетах  <br/> |[ExchangeService.CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
 |Получение сообщений электронной почты в пакетах  <br/> |[ExchangeService.BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |Обновление сообщений электронной почты в пакетах  <br/> |[ExchangeService.UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Удаление сообщений электронной почты в пакетах  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Удаление сообщений электронной почты в пакетах  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 В этой статье вы узнаете, как для выполнения основных задач для пакетов сообщений электронной почты с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange.
   
@@ -419,7 +419,7 @@ public static void BatchDeleteEmailItems(ExchangeService service, Collection<Ite
 ## <a name="delete-email-messages-in-batches-by-using-ews"></a>Удаление сообщений электронной почты в пакетах с помощью веб-служб Exchange
 <a name="bk_deleteews"> </a>
 
-Сообщения электронной почты в пакетах можно удалить с помощью операции [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) EWS, как показано в следующем примере кода. Это также XML-запрос, который отправляет управляемый API веб-служб Exchange, когда использовать управляемый API веб-служб Exchange для [удаления сообщений электронной почты в пакетах](#bk_deleteewsma).
+Сообщения электронной почты в пакетах можно удалить с помощью операции [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS, как показано в следующем примере кода. Это также XML-запрос, который отправляет управляемый API веб-служб Exchange, когда использовать управляемый API веб-служб Exchange для [удаления сообщений электронной почты в пакетах](#bk_deleteewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -455,11 +455,11 @@ public static void BatchDeleteEmailItems(ExchangeService service, Collection<Ite
   
 Чтобы проверить успешность пакетной обработки с помощью управляемого интерфейса API веб-служб Exchange, можно проверить, что свойство [OverallResult](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx) [ServiceResponseCollection](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx) равен [ServiceResult.Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx). Если это так, все сообщения электронной почты обработаны успешно. Если **OverallResult** не равно **ServiceResult.Success**, один или несколько сообщений не были успешно обработаны. Каждый из объектов, возвращаемых **ServiceResponseCollection** содержит следующие свойства: 
   
-- [Код ошибки](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
+- [ErrorCode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
     
 - [ErrorDetails](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
     
-- [Сообщение об ошибке](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errormessage%28v=exchg.80%29.aspx)
+- [ErrorMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errormessage%28v=exchg.80%29.aspx)
     
 - [ErrorProperties](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorproperties%28v=exchg.80%29.aspx)
     

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 39b6b20b-e081-4347-9e15-9b8cf829fdf0
 description: Узнайте об идентификаторах в Exchange и как их использовать управляемый API EWS и приложения веб-служб Exchange.
-ms.openlocfilehash: c09b54c8ec4f443a64f8222094ccf0a5e1f750e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fbf6d7756f73b1c5d345f3b34deeb7ea8a347986
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760969"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353975"
 ---
 # <a name="ews-identifiers-in-exchange"></a>Идентификаторы веб-служб Exchange в Exchange
 
@@ -36,9 +36,9 @@ ms.locfileid: "19760969"
 
 |**Объект**|**Идентификатор**|**Как она связана с EwsId?**|
 |:-----|:-----|:-----|
-|[Элемента календаря, имеющего](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) <br/> |Дочерний элемент [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) содержит уникальный идентификатор элемента календаря.  <br/> |Дочерний элемент [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) совпадает с EwsId для этого элемента.  <br/> |
+|[CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) <br/> |Дочерний элемент [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) содержит уникальный идентификатор элемента календаря.  <br/> |Дочерний элемент [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) совпадает с EwsId для этого элемента.  <br/> |
 |[ConversationId](http://msdn.microsoft.com/library/d5f1ddb3-9af3-4677-a6ba-111b304a951e%28Office.15%29.aspx) <br/> |В атрибуте **Id** содержит идентификатор для беседы, этот элемент является частью.  <br/> |В атрибуте **Id** совпадает с EwsId для этого элемента.  <br/> |
-|[Идентификатора вложения AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) <br/> |Содержит уникальный идентификатор вложения. Атрибут [RootItemId](http://msdn.microsoft.com/library/f613c705-17ce-48ce-aa64-4dc2cea25e31%28Office.15%29.aspx) содержит уникальный идентификатор корневого элемента хранилища, к которому подключен вложение.  <br/> |Вложения могут быть других элементов в хранилище Exchange, в котором case [идентификатора вложения AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) совпадает с EwsId. Во всех случаях [RootItemId](http://msdn.microsoft.com/library/f613c705-17ce-48ce-aa64-4dc2cea25e31%28Office.15%29.aspx) является EwsId, поскольку он ссылается на элемент в хранилище.  <br/> |
+|[AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) <br/> |Содержит уникальный идентификатор вложения. Атрибут [RootItemId](http://msdn.microsoft.com/library/f613c705-17ce-48ce-aa64-4dc2cea25e31%28Office.15%29.aspx) содержит уникальный идентификатор корневого элемента хранилища, к которому подключен вложение.  <br/> |Вложения могут быть других элементов в хранилище Exchange, в котором case [идентификатора вложения AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) совпадает с EwsId. Во всех случаях [RootItemId](http://msdn.microsoft.com/library/f613c705-17ce-48ce-aa64-4dc2cea25e31%28Office.15%29.aspx) является EwsId, поскольку он ссылается на элемент в хранилище.  <br/> |
 |[PersonaId](http://msdn.microsoft.com/library/eec3a468-afd5-4d72-a61e-cd1964fb686c%28Office.15%29.aspx) <br/> |В атрибуте **Id** возвращает строку, содержащую идентификатор пользователя.  <br/> |В атрибуте **Id** совпадает с EwsId для пользователя.  <br/> |
 |[ContactId](http://msdn.microsoft.com/library/86f66275-1e39-48ed-bd89-ac3bffc465a7%28Office.15%29.aspx) <br/> |В атрибуте **Id** возвращает строку, содержащую идентификатор контакта.  <br/> |В атрибуте **Id** совпадает с EwsId для этого контакта.  <br/> |
 |[GroupId](http://msdn.microsoft.com/library/656d9b9a-8a65-4a75-8466-5b0d96512dab%28Office.15%29.aspx) <br/> |В атрибуте **Id** возвращает строку, содержащую идентификатор группы.  <br/> |В атрибуте **Id** совпадает с EwsId для группы.  <br/> |
@@ -121,19 +121,15 @@ Outlook Web App использует свою собственную верси�
 |EwsLegacyId  <br/> |EwsId, которое применяется к Exchange 2007.  <br/> |
 |EwsId  <br/> |EwsId, которое применяется к Exchange Online и версии Exchange, начиная с Exchange 2007 с пакетом обновления 1.  <br/> |
 |StoreId  <br/> |Идентификатор хранилища Exchange, где хранятся папок и элементов.  <br/> |
-|OwaId  <br/> |Идентификатор Outlook Web App, используемый с Outlook Web App в Exchange 2007 и Exchange 2010.  <br/> > [!NOTE]> Exchange Online и версии Exchange, начиная с Exchange 2013 с помощью EwsId Outlook Web App.           |
+|OwaId  <br/> |Идентификатор Outlook Web App, используемый с Outlook Web App в Exchange 2007 и Exchange 2010. <br/><br/>**Примечание**: Exchange Online и версии Exchange, начиная с Exchange 2013 использование EwsId для Outlook Web App.           |
 |Идентификатор записи  <br/> |Идентификатор MAPI, известен как свойство **PR_ENTRYID** сообщения MAPI.  <br/> |
 |HexEntryId  <br/> |Представление шестнадцатеричном формате свойство **PR_ENTRYID** , используемый для идентификатора события календаря доступности. Это формат идентификатора, используемый Outlook.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-
-- [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
-    
-- [Операция ConvertId](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)
-    
-- [Перечисление ServiceError](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx)
-    
+- [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)  
+- [Операция ConvertId](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)  
+- [Перечисление ServiceError](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx) 
 - [Удаление элементов с помощью веб-служб Exchange в Exchange](deleting-items-by-using-ews-in-exchange.md)
     
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b53ed47a-3d01-4c4e-ad32-fb0532872aad
 description: Узнайте о классов .NET Framework, которые можно использовать в Exchange 2013 агенты транспорта для чтения, записи и изменять сообщения.
-ms.openlocfilehash: c2a5d764140b86ddec49d51ec969aab63eb34f19
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a39d6ecaeb837ce2760d762107e78aa8d4f09f7c
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761322"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354010"
 ---
 # <a name="reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline"></a>Чтение и изменение сообщений в транспортный конвейер Exchange 2013
 
@@ -89,7 +89,7 @@ ms.locfileid: "19761322"
   
 Классы [CalendarReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.aspx) и [CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) используются для чтения и записи iCalendar поток данных. 
   
-CalendarReader принимает для чтения [потока](https://msdn.microsoft.com/library/System.IO.Stream.aspx) в качестве аргумента для его конструкторов. Затем можно использовать методы [ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx) , [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx) и [ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) для последовательного доступа к компонентам iCalendar в поток данных. На основе значения, указанное для свойства [ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) , ошибки в потоке iCalendar вызовет исключение, или в свойство [ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) должно быть задано значение, отличное от [соответствует](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarComplianceStatus.Compliant.aspx) . Вы можете проверить это свойство для обнаружения проблем с входящих данных iCalendar. 
+CalendarReader принимает для чтения [потока](https://msdn.microsoft.com/library/System.IO.Stream.aspx) в качестве аргумента для его конструкторов. Затем можно использовать методы [ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx), [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx)и [ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) для последовательного доступа к компонентам iCalendar в поток данных. На основе значения, указанное для свойства [ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) , ошибки в потоке iCalendar вызовет исключение, или в свойство [ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) должно быть задано значение, отличное от [соответствует](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.contenttypes.icalendar.calendarcompliancestatus.aspx). Вы можете проверить это свойство для обнаружения проблем с входящих данных iCalendar. 
   
 Класс [CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) принимает доступный для записи [поток](https://msdn.microsoft.com/library/System.IO.Stream.aspx) в качестве аргумента для его конструкторов. 
   
@@ -116,7 +116,7 @@ CalendarReader принимает для чтения [потока](https://msd
   
 Класс [MimeDocument](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeDocument.aspx) инкапсулирует DOM. Классы [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx) и [MimeWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeWriter.aspx) представляют состояние компьютеров. Изменение состояния на основе данных, полученных и методами. На рисунках 2-5, диаграммы перехода упрощенный состояний, которые отображают для объекта [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx) , какие методы являются допустимыми вызов из каждого состояния и состояние, приведет к. 
   
-Чтобы использовать эти схемы, следуйте стрелок из одного состояния к другому, отметить вызывает метод или возвращаемые значения, которые вызывают состояния для изменения. На первой схеме Предположим, что вы являетесь в начале потока, к которой принадлежит MimeReader, созданную вами. Чтобы получить состояние заголовков частей вызове [ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx) или [ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx) в указанном порядке. Если есть заголовки (то есть, если MIME имеет правильный формат), будет ввести в состояние заголовков частей. В противном случае будет создано исключение. 
+Чтобы использовать эти схемы, следуйте стрелок из одного состояния к другому, отметить вызывает метод или возвращаемые значения, которые вызывают состояния для изменения. На первой схеме Предположим, что вы являетесь в начале потока, к которой принадлежит MimeReader, созданную вами. Чтобы получить состояние заголовков частей вызове [ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx) или [ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx)в указанном порядке. Если есть заголовки (то есть, если MIME имеет правильный формат), будет ввести в состояние заголовков частей. В противном случае будет создано исключение. 
   
 **На рисунке 2. Схема упрощенный состояний для объектов MimeReader**
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3893be6a-49a7-49f6-bf53-c7f819ec3f87
 description: Элемент DeleteItemField представляет операцию для удаления заданного свойства из элемента во время вызова UpdateItem.
-ms.openlocfilehash: 2388bd10379211a31890b7c4f27920431ce444c8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 571227eece8f717c1bf5da27cfab8ae50dfe3572
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762044"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353884"
 ---
 # <a name="deleteitemfield"></a>DeleteItemField
 
@@ -26,7 +26,7 @@ ms.locfileid: "19762044"
 - [UpdateItem](updateitem.md)  
 - [ItemChanges](itemchanges.md) 
 - [ItemChange](itemchange.md) 
-- [Обновления (элемент)](updates-item.md) 
+- [Updates (Item)](updates-item.md) 
 - [DeleteItemField](deleteitemfield.md)
   
 ```xml
@@ -35,7 +35,20 @@ ms.locfileid: "19762044"
 </DeleteItemField>
 ```
 
- **DeleteItemFieldType**
+```xml
+<DeleteItemField>
+   <IndexedFieldURI/> 
+</DeleteItemField>
+```
+
+```xml
+<DeleteItemField>
+   <ExtendedFieldURI/>
+</DeleteItemField>
+```
+
+**DeleteItemFieldType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -56,7 +69,7 @@ ms.locfileid: "19762044"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Обновления (элемент)](updates-item.md) <br/> |Содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств элемента.  <br/><br/>Ниже приведен выражение XPath для этого элемента.<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Updates (Item)](updates-item.md) <br/> |Содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств элемента.  <br/><br/>Ниже приведен выражение XPath для этого элемента.<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -73,5 +86,5 @@ ms.locfileid: "19762044"
    
 ## <a name="see-also"></a>См. также
 
-- [UpdateItem Operation](updateitem-operation.md)
+- [Операция UpdateItem](updateitem-operation.md)
 

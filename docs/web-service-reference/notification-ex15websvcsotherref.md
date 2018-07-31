@@ -1,5 +1,5 @@
 ---
-title: Уведомления
+title: Notification
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: c9070936-0930-438e-839c-91127256a6c8
 description: Элемент уведомление содержит сведения о подписке и события, произошедшие с момента последнего уведомления.
-ms.openlocfilehash: a769d8988eb68d0fa0b02f3838cd891e714571b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 942ec18521fc484a7a3aa1385fb54f480ce9d11f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834547"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354353"
 ---
-# <a name="notification"></a>Уведомления
+# <a name="notification"></a>Notification
 
 Элемент **уведомление** содержит сведения о подписке и события, произошедшие с момента последнего уведомления. 
   
@@ -32,7 +32,71 @@ ms.locfileid: "19834547"
 </Notification>
 ```
 
- **NotificationType**
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <CreatedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <DeletedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <ModifiedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <MovedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <NewMailEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <StatusEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <FreeBusyChangedEvent/>
+</Notification>
+```
+
+**NotificationType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -83,13 +147,8 @@ ms.locfileid: "19834547"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[Операции подписки](subscribe-operation.md)
-  
-[Операция GetEvents](getevents-operation.md)
-  
-[Операция GetStreamingEvents](getstreamingevents-operation.md)
-  
-[Отписаться операции](unsubscribe-operation.md)
+- [Операции подписки](subscribe-operation.md) 
+- [Операция GetEvents](getevents-operation.md) 
+- [Операция GetStreamingEvents](getstreamingevents-operation.md) 
+- [Отписаться операции](unsubscribe-operation.md)
 

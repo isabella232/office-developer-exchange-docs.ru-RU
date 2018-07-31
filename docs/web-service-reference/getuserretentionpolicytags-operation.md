@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 57c6ff23-5c2c-42ee-824b-5a1b6dafab8c
 description: Найдите сведения о веб-служб Exchange GetUserRetentionPolicyTags операции.
-ms.openlocfilehash: 2b1267ce6822c7bad05ad2ef88547ba75c632ab0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: faf3553c5dd426b522659029bda6819c55f2708d
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833700"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353233"
 ---
 # <a name="getuserretentionpolicytags-operation"></a>Операция GetUserRetentionPolicyTags
 
@@ -167,13 +167,13 @@ ms.locfileid: "19833700"
     
 - [RetentionPolicyTag](retentionpolicytag.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
 - [RetentionId](retentionid.md)
     
 - [RetentionPeriod](retentionperiod.md)
     
-- [Тип (ElcFolderType)](type-elcfoldertype.md)
+- [Type (ElcFolderType)](type-elcfoldertype.md)
     
 - [RetentionAction](retentionaction.md)
     
@@ -189,9 +189,3 @@ ms.locfileid: "19833700"
 
 Коды ошибок, которые являются общими для веб-служб Exchange в разделе [ResponseCode](responsecode.md).
   
-## <a name="see-also"></a>См. также
-
-
-
-[Политики хранения в веб-служб Exchange](http://msdn.microsoft.com/library/a132872f-0228-4bcb-aac2-bf64fb07e58e%28Office.15%29.aspx)
-

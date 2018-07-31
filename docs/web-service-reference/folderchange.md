@@ -12,22 +12,20 @@ api_type:
 - schema
 ms.assetid: 23279750-131b-4e1a-b7d1-be235c4e0891
 description: Элемент FolderChange представляет коллекцию изменений выполняется на одной папке.
-ms.openlocfilehash: 3f8b42ff4ac88eaef53d1d4ec1d61212bc14b8c7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f25defa9974f7b5dd0c683c7657983741890d45d
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762621"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354332"
 ---
 # <a name="folderchange"></a>FolderChange
 
 Элемент **FolderChange** представляет коллекцию изменений выполняется на одной папке. 
   
-[UpdateFolder](updatefolder.md)
-  
-[FolderChanges](folderchanges.md)
-  
-[FolderChange](folderchange.md)
+- [UpdateFolder](updatefolder.md) 
+- [FolderChanges](folderchanges.md) 
+- [FolderChange](folderchange.md)
   
 ```xml
 <FolderChange>
@@ -36,7 +34,15 @@ ms.locfileid: "19762621"
 </FolderChange>
 ```
 
- **FolderChangeType**
+```xml
+<FolderChange>
+   <DistinguishedFolderId/>
+   <Updates/>
+</FolderChange>
+```
+
+**FolderChangeType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -51,7 +57,7 @@ ms.locfileid: "19762621"
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Содержит идентификатор и ключ изменения папки для обновления.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Идентифицирует MicrosoftExchange Server 2007 папок, которые можно ссылаться по имени.  <br/> |
-|[Обновления (папка)](updates-folder.md) <br/> |Определяет тип обновления, который выполняется на папку, определяемую средством параметр [FolderId](folderid.md) или [DistinguishedFolderId](distinguishedfolderid.md) элемент.  <br/> |
+|[Updates (Folder)](updates-folder.md) <br/> |Определяет тип обновления, который выполняется на папку, определяемую средством параметр [FolderId](folderid.md) или [DistinguishedFolderId](distinguishedfolderid.md) элемент.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -74,7 +80,5 @@ ms.locfileid: "19762621"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[Операцию UpdateFolder](updatefolder-operation.md)
+- [Операция UpdateFolder](updatefolder-operation.md)
 

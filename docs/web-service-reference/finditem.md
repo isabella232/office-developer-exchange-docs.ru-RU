@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f7624f5c-c390-4563-ab9a-08f1024fb914
 description: Элемент FindItem определяет запрос для поиска элементов в почтовом ящике.
-ms.openlocfilehash: 9831b034be7deb0cf6e756bb585bdbe34b370afd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6664cd91007f1d39db7e8d446e0135f47d5ab932
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762577"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353926"
 ---
 # <a name="finditem"></a>FindItem
 
@@ -35,7 +35,81 @@ ms.locfileid: "19762577"
 </FindItem>
 ```
 
- **FindItemType**
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <IndexedPageItemView/>
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <ContactsView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <ContactsView/> 
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <CalendarView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <FractionalPageItemView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <FractionalPageItemView/>
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+
+**FindItemType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -61,14 +135,14 @@ ms.locfileid: "19762577"
 |[ItemShape](itemshape.md) <br/> |Определяет свойства элемента и содержимого для включения в [операции FindItem](finditem-operation.md) ответа.  <br/> |
 |[IndexedPageItemView](indexedpageitemview.md) <br/> |Описывает, как выгружаемый элемента сведения возвращаются для запроса **FindItem** . Этот элемент является необязательным.  <br/> |
 |[FractionalPageItemView](fractionalpageitemview.md) <br/> |Описывает, где начала страничного представления и максимальное число элементов, возвращаемых в запросе **FindItem** . Смещение страничного представления от начала набора найденных элементов описывается функцией. Этот элемент является необязательным.  <br/> |
-|[Представления календаря](calendarview.md) <br/> |Содержит время охватывать ограничения для определения критериев поиска для элементов календаря. Этот элемент является необязательным.  <br/> |
+|[CalendarView](calendarview.md) <br/> |Содержит время охватывать ограничения для определения критериев поиска для элементов календаря. Этот элемент является необязательным.  <br/> |
 |[ContactsView](contactsview.md) <br/> |Определяет поиска на основе алфавитном отображения имен контактов. Этот элемент является необязательным.  <br/> |
 |[GroupBy](groupby.md) <br/> |Указывает произвольное группирование для запросов **FindItem** . Этот элемент является необязательным.  <br/> |
 |[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |Содержит стандартные группы для запросов **FindItem** . Этот элемент является необязательным.  <br/> |
-|[Ограничения](restriction.md) <br/> |Задает ограничение или запрос, используемый для фильтрации элементов или папок в **FindItem**/ **FindFolder** и папки операций поиска. Этот элемент является необязательным.  <br/> |
+|[Restriction](restriction.md) <br/> |Задает ограничение или запрос, используемый для фильтрации элементов или папок в **FindItem**/ **FindFolder** и папки операций поиска. Этот элемент является необязательным.  <br/> |
 |[SortOrder](sortorder.md) <br/> |Определяет способ сортировки в запросе FindItem элементов. Этот элемент является необязательным.  <br/> |
 |[ParentFolderIds](parentfolderids.md) <br/> |Идентифицирует папок для поиска для операций FindItem и FindFolder.  <br/> |
-|[Строка запроса (QueryStringType)](querystring-querystringtype.md) <br/> |Содержит строку запроса почтовых ящиков на основе на расширенный синтаксис запроса (AQS).  <br/> |
+|[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |Содержит строку запроса почтовых ящиков на основе на расширенный синтаксис запроса (AQS).  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -91,10 +165,6 @@ ms.locfileid: "19762577"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[FindItem Operation](finditem-operation.md)
-
-
-[Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Операция FindItem](finditem-operation.md)
+- [Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4a15bbc3-5b93-4193-b9ec-da32f0a9a552
 description: Элемент OccurrenceItemId определяет одно вхождение повторяющегося элемента.
-ms.openlocfilehash: e3d7b6efc49775f54219ce0dc0ec39a34a95f8fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 073639ecbca6ffda872e9253b7c7e44c3541f13b
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834639"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353464"
 ---
 # <a name="occurrenceitemid"></a>OccurrenceItemId
 
@@ -50,7 +50,7 @@ ms.locfileid: "19834639"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[GlobalItemIds](globalitemids.md) <br/> |Содержит коллекцию идентификаторов элементов для всех элементов беседы в почтовом ящике.  <br/> |
-|[Что ItemID](itemids.md) <br/> | Содержит уникальные идентификаторы элементов, элементы вхождений и повторяющиеся основные элементы, используемые для удаления, отправка, получение, перемещение и копирование элементов в хранилище Exchange. <br/><br/>Ниже приведены выражения XPath для этого элемента. <br/><br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/><br/>**Примечание**: [операция MoveItem](moveitem-operation.md) и [операции CopyItem](copyitem-operation.md) возможен только с элементами одного календаря и повторяющиеся основные элементы. Недопустимые вхождения элемента с помощью этих операций.           |
+|[ItemIds](itemids.md) <br/> | Содержит уникальные идентификаторы элементов, элементы вхождений и повторяющиеся основные элементы, используемые для удаления, отправка, получение, перемещение и копирование элементов в хранилище Exchange. <br/><br/>Ниже приведены выражения XPath для этого элемента. <br/><br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/><br/>**Примечание**: [операция MoveItem](moveitem-operation.md) и [операции CopyItem](copyitem-operation.md) возможен только с элементами одного календаря и повторяющиеся основные элементы. Недопустимые вхождения элемента с помощью этих операций.           |
 |[ItemChange](itemchange.md) <br/> |Содержит идентификатор элемента и обновления для применения к элементу.<br/><br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
@@ -81,6 +81,6 @@ ms.locfileid: "19834639"
 ## <a name="see-also"></a>См. также
 
 - [RecurringMasterItemId](recurringmasteritemid.md)
-- [FindConversation Operation](findconversation-operation.md)
+- [Операция FindConversation](findconversation-operation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

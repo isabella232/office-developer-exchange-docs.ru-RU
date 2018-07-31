@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
 description: DeletedEvent элемент представляет событие, в котором удаляется элемент или папку.
-ms.openlocfilehash: f06ca0727916f415c648e876f88bf7eacef5a5ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ddc909ffc9c74ea6b423610e915d5b9ff9bff43
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762027"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354409"
 ---
 # <a name="deletedevent"></a>DeletedEvent
 
@@ -28,6 +28,15 @@ ms.locfileid: "19762027"
    <Watermark/>
    <TimeStamp/>
    <ItemId/>
+   <ParentFolderId/>
+</DeletedEvent>
+```
+
+```xml
+<DeletedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
    <ParentFolderId/>
 </DeletedEvent>
 ```
@@ -46,8 +55,8 @@ ms.locfileid: "19762027"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Водяной знак](watermark.md) <br/> |Представляет закладку события в таблице событий почтового ящика.  <br/> |
-|[Метка времени](timestamp.md) <br/> |Представляет отметки времени удаленного почтового ящика события элемента или папки.  <br/> |
+|[Watermark](watermark.md) <br/> |Представляет закладку события в таблице событий почтового ящика.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Представляет отметки времени удаленного почтового ящика события элемента или папки.  <br/> |
 |[FolderId](folderid.md) <br/> |Представляет идентификатор папки "Удаленные".  <br/> |
 |[Идентификатор элемента](itemid.md) <br/> |Представляет идентификатор удаленного элемента.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки удаленного элемента или папки до удаления.  <br/> |

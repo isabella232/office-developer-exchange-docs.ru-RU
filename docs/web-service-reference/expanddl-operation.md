@@ -1,7 +1,7 @@
 ---
 title: Операция ExpandDL
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 07/27/2018
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1f7837e7-9eff-4e10-9577-c40f7ed6af94
 description: Операция ExpandDL предоставляет полного контроля членства списков рассылки.
-ms.openlocfilehash: e4654120881f81a79358e0e7c0ab016f94db3288
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4af6198ff15407b7fb71cdb4010ff6ce035460d0
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762437"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353744"
 ---
 # <a name="expanddl-operation"></a>Операция ExpandDL
 
@@ -64,17 +64,18 @@ ms.locfileid: "19762437"
   
 ### <a name="code"></a>Программа
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2013_SP1" />
+  </soap:Header>
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
-        <t:Mailbox>
-          <t:ItemId Id="xASUAd==" ChangeKey="AAts0Q=="/>
-        </t:Mailbox>
-    </ExpandDL>
+    <m:ExpandDL>
+      <m:Mailbox>
+       <t:EmailAddress>test</t:EmailAddress>
+      </m:Mailbox>
+    </m:ExpandDL>
   </soap:Body>
 </soap:Envelope>
 ```
@@ -91,7 +92,7 @@ ms.locfileid: "19762437"
   
 ### <a name="code"></a>Программа
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -146,7 +147,7 @@ ms.locfileid: "19762437"
   
 ### <a name="code"></a>Программа
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -208,7 +209,7 @@ ms.locfileid: "19762437"
     
 - [Mailbox](mailbox.md)
     
-- [Имя (EmailAddressType)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
@@ -226,7 +227,7 @@ ms.locfileid: "19762437"
   
 ### <a name="code"></a>Программа
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 

@@ -1,19 +1,19 @@
 ---
-title: Добавление встреч с использованием олицетворения Exchange
+title: Добавление встреч с помощью олицетворения Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78d5e51b-900f-4302-b9a8-fdc9aa4b65a5
 description: Узнайте, как использовать олицетворение управляемый API EWS или веб-служб Exchange в Exchange на добавление встреч календарей пользователей.
-ms.openlocfilehash: fe737658b88aca66d8b4c2860245db000888ba17
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ab10a7d65a5603a84e12d918dd54198927d88b8a
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760997"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353457"
 ---
-# <a name="add-appointments-by-using-exchange-impersonation"></a>Добавление встреч с использованием олицетворения Exchange
+# <a name="add-appointments-by-using-exchange-impersonation"></a>Добавление встреч с помощью олицетворения Exchange
 
 Узнайте, как использовать олицетворение управляемый API EWS или веб-служб Exchange в Exchange на добавление встреч календарей пользователей.
   
@@ -25,7 +25,7 @@ ms.locfileid: "19760997"
     
 - Любой элемент, сохранять олицетворенным учетной записи может использоваться только один раз. Если вы хотите сохранить же встречу в нескольких учетных записей, например, необходимо создать [объект для каждой учетной записи](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.aspx) . 
     
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Необходимые разрешения
 
 Приложению учетной записи, используемой для подключения к Exchange server для использования олицетворения. Рекомендуется использовать учетную запись службы для приложения, которому назначена роль олицетворения приложения для учетных записей, которые будут пользоваться. Дополнительные сведения можно [настроить олицетворения](how-to-configure-impersonation.md)
   
@@ -195,12 +195,12 @@ class AppointmentFactory : IAppointmentFactory
     
 - [Настройка олицетворения](how-to-configure-impersonation.md)
     
-- [Идентификация учетной записи для олицетворения](how-to-identify-the-account-to-impersonate.md)
+- [Определение учетной записи для олицетворения](how-to-identify-the-account-to-impersonate.md)
     
 - [Создание встречи и собрания с помощью веб-служб Exchange в Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [Операции CreateItem (элемента календаря)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)
+- [Операция CreateItem (элемент календаря)](../web-service-reference/createitem-operation-calendar-item.md)
     
-- [Свойство ExchangeService.ImpersonatedUserId](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx.aspx)
+- [Свойство ExchangeService.ImpersonatedUserId](https://docs.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
     
 

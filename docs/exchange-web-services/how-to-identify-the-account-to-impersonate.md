@@ -1,19 +1,19 @@
 ---
-title: Идентификация учетной записи для олицетворения
+title: Определение учетной записи для олицетворения
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c7749f12-b97f-48d9-88e5-a545e108efb0
 description: Узнайте, как приложения-службы с помощью веб-служб Exchange для идентификации пользователя для олицетворения.
-ms.openlocfilehash: 78df4b511a9947d4d815b2802a53ab178b14622b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 01c6ee797359c38c8539257003a2f110fdf253cf
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761015"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354297"
 ---
-# <a name="identify-the-account-to-impersonate"></a>Идентификация учетной записи для олицетворения
+# <a name="identify-the-account-to-impersonate"></a>Определение учетной записи для олицетворения
 
 Узнайте, как приложения-службы с помощью веб-служб Exchange для идентификации пользователя для олицетворения.
   
@@ -75,7 +75,7 @@ exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingId
 exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.PrincipleName, "alias@billing.contoso.com");
 ```
 
-В запрос SOAP веб-служб Exchange [элемент PrincipalName (ConnectingSIDType complexType) (EWS)](http://msdn.microsoft.com/library/6aac5388-c971-817b-b0bb-095a2639c6de%28Office.15%29.aspx) элемент содержит имя участника-пользователя для учетной записи пользователя. 
+В запрос SOAP веб-служб Exchange [элемент PrincipalName (ConnectingSIDType complexType) (EWS)](../web-service-reference/principalname.md) элемент содержит имя участника-пользователя для учетной записи пользователя. 
   
 ```XML
 <soap:Header>
@@ -114,7 +114,7 @@ exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingId
 
 - [Олицетворение и EWS в Exchange](impersonation-and-ews-in-exchange.md)
     
-- [Добавление встреч с использованием олицетворения Exchange](how-to-add-appointments-by-using-exchange-impersonation.md)
+- [Добавление встреч с помощью олицетворения Exchange](how-to-add-appointments-by-using-exchange-impersonation.md)
     
 - [Класс ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.aspx)
     

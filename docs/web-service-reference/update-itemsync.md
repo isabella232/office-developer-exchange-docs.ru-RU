@@ -1,5 +1,5 @@
 ---
-title: Обновление (ItemSync)
+title: Update (ItemSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,26 +12,22 @@ api_type:
 - schema
 ms.assetid: 4e204446-1c80-44f9-b93b-77ce630a01a5
 description: Элемент обновления определяет один элемент для обновления в локальном хранилище клиента.
-ms.openlocfilehash: ef1bd46906152affbe54372472766afc2a6ae8c1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf560f18184151a3f17d7016d05cdb725db934ae
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840315"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353632"
 ---
-# <a name="update-itemsync"></a>Обновление (ItemSync)
+# <a name="update-itemsync"></a>Update (ItemSync)
 
 **Обновить** элемент определяет один элемент для обновления в локальном хранилище клиента. 
   
-[SyncFolderItemsResponse](syncfolderitemsresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
-  
-[Изменения (элементы)](changes-items.md)
-  
-[Обновление (ItemSync)](update-itemsync.md)
+- [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
+- [ResponseMessages](responsemessages.md)  
+- [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)  
+- [Changes (Items)](changes-items.md)  
+- [Update (ItemSync)](update-itemsync.md)
   
 ```xml
 <Update>
@@ -39,7 +35,62 @@ ms.locfileid: "19840315"
 </Update>
 ```
 
- **SyncFolderItemsCreateOrUpdateType**
+```xml
+<Update>
+   <MeetingRequest/>
+</Update>
+```
+
+```xml
+<Update>
+   <MeetingCancellation/>
+</Update>
+```
+
+```xml
+<Update>
+   <Task/>
+</Update>
+```
+
+```xml
+<Update>
+   <CalendarItem/>
+</Update>
+```
+
+```xml
+<Update>
+   <MeetingResponse/>
+</Update>
+```
+
+```xml
+<Update>
+   <Message/>
+</Update>
+```
+
+```xml
+<Update>
+   <DistributionList/>
+</Update>
+```
+
+```xml
+<Update>
+   <MeetingMessage/>
+</Update>
+```
+
+```xml
+<Update>
+   <Contact/> 
+</Update>
+```
+
+**SyncFolderItemsCreateOrUpdateType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -53,8 +104,8 @@ ms.locfileid: "19840315"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Элемент](item.md) <br/> |Представляет универсальный элемент Exchange для обновления.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange для обновления.  <br/> |
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange для обновления.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange для обновления.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange для обновления.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange для обновления.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Представляет список рассылки, чтобы обновить.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Представляет сообщение собрания для обновления.  <br/> |
@@ -67,7 +118,7 @@ ms.locfileid: "19840315"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Изменения (элементы)](changes-items.md) <br/> |Содержит массив последовательности типов изменений, которые представляют тип различия между элементами на стороне клиента и элементов на сервере Exchange.  <br/> |
+|[Changes (Items)](changes-items.md) <br/> |Содержит массив последовательности типов изменений, которые представляют тип различия между элементами на стороне клиента и элементов на сервере Exchange.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -84,10 +135,6 @@ ms.locfileid: "19840315"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[Операция SyncFolderItems](syncfolderitems-operation.md)
-
-
+- [Операция SyncFolderItems](syncfolderitems-operation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

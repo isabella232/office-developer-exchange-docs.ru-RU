@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8e71cb44-1df6-444a-add7-0c1363863f65
 description: Элемент папки содержит массив папки, которые используются в операциях папки.
-ms.openlocfilehash: e1b9e337f633dbf6fda159c28725d3fb8dcd55a6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 34372f2480825c7a9977eeae8e730c201307f36b
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762628"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353590"
 ---
 # <a name="folders"></a>Папки
 
@@ -29,7 +29,32 @@ ms.locfileid: "19762628"
 </Folders>
 ```
 
- **ArrayOfFoldersType** или **NonEmptyArrayOfFoldersType**
+```xml
+<Folders>
+   <ContactsFolder/> 
+</Folders>
+```
+
+```xml
+<Folders>
+   <TasksFolder/>
+</Folders>
+```
+
+```xml
+<Folders>
+   <CalendarFolder/>
+</Folders>
+```
+
+```xml
+<Folders>
+   <SearchFolder/> 
+</Folders>
+```
+
+**ArrayOfFoldersType** или **NonEmptyArrayOfFoldersType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -79,7 +104,5 @@ ms.locfileid: "19762628"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
+- [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
 

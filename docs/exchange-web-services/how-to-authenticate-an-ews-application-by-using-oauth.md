@@ -1,19 +1,19 @@
 ---
-title: Проверка подлинности приложения веб-служб Exchange с помощью OAuth
+title: Проверка подлинности приложения EWS с помощью OAuth
 manager: sethgros
-ms.date: 1/15/2015
+ms.date: 07/27/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: Узнайте, как использовать проверку подлинности OAuth с приложениями управляемый API веб-служб Exchange.
-ms.openlocfilehash: 66bbc0525ecf78407e853da0c8dcdec92791ca56
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8b6a3fd72e42a36e31f261205292de28ef341270
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760977"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353583"
 ---
-# <a name="authenticate-an-ews-application-by-using-oauth"></a>Проверка подлинности приложения веб-служб Exchange с помощью OAuth
+# <a name="authenticate-an-ews-application-by-using-oauth"></a>Проверка подлинности приложения EWS с помощью OAuth
 
 Узнайте, как использовать проверку подлинности OAuth с приложениями управляемый API веб-служб Exchange.
   
@@ -30,9 +30,9 @@ ms.locfileid: "19760977"
   
 Чтобы использовать код в этой статье, необходимо иметь доступ к таким компонентам:
   
-- [Учетная запись разработчика Office 365](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx). Пробной учетной записи можно использовать для тестирования приложения
+- [Учетная запись разработчика Office 365](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program). Пробной учетной записи можно использовать для тестирования приложения.
     
-- [Библиотека проверки подлинности Azure AD для платформы .NET](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx).
+- [Библиотека проверки подлинности Azure AD для платформы .NET](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries).
     
 - [Управляемый API веб-служб Exchange](https://github.com/officedev/ews-managed-api.aspx).
 
@@ -40,7 +40,7 @@ ms.locfileid: "19760977"
 
 ## <a name="register-your-application"></a>Регистрация приложения
 
-Чтобы использовать OAuth, приложение должно иметь идентификатор клиента и URI, определяющая приложение, приложения. Если вы еще не зарегистрирован приложения с помощью служб Azure Active Directory, то необходимо вручную добавить приложения с помощью шагов, описанных в разделе [Регистрация приложения вы](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx).
+Чтобы использовать OAuth, приложение должно иметь идентификатор клиента и URI, определяющая приложение, приложения. Если вы еще не зарегистрирован приложения с помощью служб Azure Active Directory, то необходимо вручную добавить приложение, выполнив действия по [регистрации приложения](https://apps.dev.microsoft.com/#/appList).
 
 <a name="bk_getToken"> </a>
 
@@ -177,7 +177,7 @@ namespace TestV1App
 
 ## <a name="see-also"></a>См. также
 
-- [Проверка подлинности и веб-службах Exchange](authentication-and-ews-in-exchange.md)    
-- [Тестирование и развертывание приложений Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx)
+- [Проверка подлинности и EWS в Exchange](authentication-and-ews-in-exchange.md)    
+
     
 

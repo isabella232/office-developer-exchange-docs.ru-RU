@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 476d059d-c243-43e9-b475-319fc413ade2
 description: Элемент Contains представляет выражение поиска, которое определяет, содержит ли данное свойство указанную константу строчного типа.
-ms.openlocfilehash: 083efdf32cd32bea6964361b5b558480aa937280
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b25b69aadf2c331527a17ad81ed46f61aa7b93c2
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761758"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354290"
 ---
 # <a name="contains"></a>Contains
 
@@ -30,7 +30,23 @@ ms.locfileid: "19761758"
 </Contains>
 ```
 
- **ContainsExpressionType**
+```xml
+<Contains ContainmentMode="" ContainmentComparison="">
+   <ExtendedFieldURI/>
+   <Constant/>
+</Contains>
+```
+
+```xml
+<Contains ContainmentMode="" ContainmentComparison="">
+   <IndexedFieldURI/>
+   <Constant/>
+</Contains>
+```
+
+
+**ContainsExpressionType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -72,13 +88,13 @@ ms.locfileid: "19761758"
 |[FieldURI](fielduri.md) <br/> |Идентифицирует часто упоминаемые свойства по URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Идентифицирует отдельных элементов словаря.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Задает свойства MAPI.  <br/> |
-|[Константы](constant.md) <br/> |Задает значение константы в качестве ограничения.  <br/> |
+|[Constant](constant.md) <br/> |Задает значение константы в качестве ограничения.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ограничения](restriction.md) <br/> |Представляет ограничение или запрос, используемый для фильтрации элементов или папок в папке операциях FindItem/FindFolder и поиска.  <br/> |
+|[Restriction](restriction.md) <br/> |Представляет ограничение или запрос, используемый для фильтрации элементов или папок в папке операциях FindItem/FindFolder и поиска.  <br/> |
 |[Не](not.md) <br/> |Представляет выражение поиска, которое Инвертирует логическое значение выражения поиска, которые он содержит.  <br/> |
 |[И](and.md) <br/> |Представляет выражение поиска, которое позволяет выполнять логическое и операции между двумя или более выражений для поиска. Операции получается **значение true,** **Если все выражения поиска, содержащихся в And**.  <br/> |
 |[Или](or.md) <br/> |Представляет выражение поиска, используемая для выполнения логического или выражения поиска, которые он содержит. Элемент [или](or.md) возвращает **значение true** , если какие-либо из их дочерних элементов возвращало **значение true**.  <br/> |
@@ -99,8 +115,6 @@ ms.locfileid: "19761758"
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
-
-
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

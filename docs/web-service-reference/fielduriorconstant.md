@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 89d7a87e-7c93-49b8-83ec-8798e08c1052
 description: Элемент FieldURIOrConstant представляет свойство или постоянное значение для использования при сравнении с другого свойства.
-ms.openlocfilehash: 5195feec2a314d9ec15dc4a25a7a014aded1696a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a24c2fa044e03d0ac6f900625e325600903df8d0
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762535"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354227"
 ---
 # <a name="fielduriorconstant"></a>FieldURIOrConstant
 
@@ -29,7 +29,26 @@ ms.locfileid: "19762535"
 </FieldURIOrConstant>
 ```
 
- **FieldURIOrConstantType**
+```xml
+<FieldURIOrConstant>
+    <IndexedFieldURI/> 
+</FieldURIOrConstant>
+```
+
+```xml
+<FieldURIOrConstant>
+   <FieldURI/>
+</FieldURIOrConstant>
+```
+
+```xml
+<FieldURIOrConstant>
+   <ExtendedFieldURI/> 
+</FieldURIOrConstant>
+```
+
+**FieldURIOrConstantType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -42,7 +61,7 @@ ms.locfileid: "19762535"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Константы](constant.md) <br/> |Задает значение константы в качестве ограничения.  <br/> |
+|[Constant](constant.md) <br/> |Задает значение константы в качестве ограничения.  <br/> |
 |[FieldURI](fielduri.md) <br/> |Идентифицирует часто упоминаемые свойства по URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Идентифицирует отдельных элементов словаря.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Задает свойства MAPI.  <br/> |
@@ -51,7 +70,7 @@ ms.locfileid: "19762535"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Выражение IsEqualTo](isequalto.md) <br/> |Представляет выражение поиска, которое сравнивает свойство с постоянным значением или другим свойством и возвращает значение true, если они равны.  <br/> |
+|[IsEqualTo](isequalto.md) <br/> |Представляет выражение поиска, которое сравнивает свойство с постоянным значением или другим свойством и возвращает значение true, если они равны.  <br/> |
 |[IsGreaterThan](isgreaterthan.md) <br/> |Представляет выражение поиска, которое сравнивает свойство с постоянным значением или другим свойством и возвращает значение true, если первое свойство больше.  <br/> |
 |[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> |Представляет выражение поиска, которое сравнивает свойство с постоянным значением или другим свойством и возвращает значение true, если первое свойство больше или равно второе значение или свойству.  <br/> |
 |[IsLessThan](islessthan.md) <br/> |Представляет выражение поиска, которое сравнивает свойство с постоянным значением или другим свойством и возвращает значение true, если первое свойство меньше, чем второе значение или свойство.  <br/> |
@@ -66,8 +85,7 @@ ms.locfileid: "19762535"
 
 В следующем примере XML показан элемент FieldURIOrConstant, используемый как константа, так и поле URI.
   
-```
-[xml]
+```xml
 <Restriction>
   <Or xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
     <IsEqualTo>
@@ -96,8 +114,6 @@ ms.locfileid: "19762535"
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
-
-
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

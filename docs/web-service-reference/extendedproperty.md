@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f9701409-b620-4afe-b9ee-4c1e95507af7
 description: Элемент ExtendedProperty задает расширенные свойства MAPI для папок и элементов.
-ms.openlocfilehash: 6a0aecc732ef634c2258127fca89b19461e25762
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9a6c44e953cab4900e4b75eb42bdf4d8633e58f9
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762467"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353730"
 ---
 # <a name="extendedproperty"></a>ExtendedProperty
 
@@ -30,7 +30,15 @@ ms.locfileid: "19762467"
 </ExtendedProperty>
 ```
 
- **ExtendedPropertyType**
+```xml
+<ExtendedProperty>
+   <ExtendedFieldURI/>
+   <Value/>
+</ExtendedProperty>
+```
+
+**ExtendedPropertyType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -51,7 +59,7 @@ ms.locfileid: "19762467"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
@@ -82,8 +90,6 @@ ms.locfileid: "19762467"
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
-
-
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

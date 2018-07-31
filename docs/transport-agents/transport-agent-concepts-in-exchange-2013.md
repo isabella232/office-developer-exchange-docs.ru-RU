@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c700af8-2792-4d3f-8571-8860e0550d8e
 description: Найдите сведения о влиянии архитектуры роли конвейера и сервер агента транспорта в Exchange 2013 на разработка агента транспорта и соответствующие им классы, которые можно использовать при разработке агенты транспорта.
-ms.openlocfilehash: 9ddee0d68c9104357f84322b2cce7c5f2576d871
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6f7a03e16b260117c6ee27b86ec0e55b5346e301
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761321"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353709"
 ---
 # <a name="transport-agent-concepts-in-exchange-2013"></a>Транспорта концепции агентов в Exchange 2013
 
@@ -100,7 +100,7 @@ ms.locfileid: "19761321"
 |Тип агента  <br/> |Базовый класс фабрики  <br/> |Базовый класс агентов  <br/> |
 |Получения SMTP  <br/> |[SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
 |Маршрутизация  <br/> |[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) <br/> |[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> |
-|Доставки  <br/> |[DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentFactory`1.aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.aspx) <br/> |
+|Доставки  <br/> |[DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) <br/> |
    
 Эти фабрики и агент базовые классы предоставляют свойства и методы, которые можно использовать для доступа к транспорта события и сообщения. Реализация классов в агента, производные от этих классов. В классе фабрики производные агента переопределение метода **CreateAgent** , чтобы он возвращает новый экземпляр класса агента. 
   

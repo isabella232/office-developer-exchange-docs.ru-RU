@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e2eff26c-3403-45cd-bb74-1eb98c7dbfcd
 description: Элемент IsNotEqualTo представляет выражение поиска, которое сравнивает свойство с постоянным значением или другим свойством и возвращает значение true, если значения не совпадают.
-ms.openlocfilehash: c11f5ba5b8c0672bba0b9ae2a76211ac7d5d94ad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 75b580d97fbadbf3aa28c29159973f53768df624
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834059"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353254"
 ---
 # <a name="isnotequalto"></a>IsNotEqualTo
 
@@ -30,7 +30,22 @@ ms.locfileid: "19834059"
 </IsNotEqualTo>
 ```
 
- **IsNotEqualToType**
+```xml
+<IsNotEqualTo>
+   <ExtendedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsNotEqualTo>
+```
+
+```xml
+<IsNotEqualTo>
+   <IndexedFieldURI/>
+   <FieldURIOrConstant/>
+</IsNotEqualTo>
+```
+
+**IsNotEqualToType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -52,7 +67,7 @@ ms.locfileid: "19834059"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ограничения](restriction.md) <br/> |Представляет ограничение или запрос, используемый для фильтрации элементов или папок в папке операциях FindItem/FindFolder и поиска.  <br/> |
+|[Restriction](restriction.md) <br/> |Представляет ограничение или запрос, используемый для фильтрации элементов или папок в папке операциях FindItem/FindFolder и поиска.  <br/> |
 |[Не](not.md) <br/> |Представляет выражение поиска, которое Инвертирует логическое значение выражения поиска, который он содержит.  <br/> |
 |[И](and.md) <br/> |Представляет выражение поиска, которое позволяет выполнять логическое и операции между двумя или более выражений для поиска. Операции получается **значение true,** **Если все выражения поиска, содержащихся в And**.  <br/> |
 |[Или](or.md) <br/> |Представляет выражение поиска, используемая для выполнения логического или на нем выражением поиска. [Или](or.md) возвращает **значение true,** Если какие-либо из их дочерних элементов возвращало **значение true**. **Или** должен иметь два или несколько дочерних элементов.  <br/> |
@@ -73,8 +88,6 @@ ms.locfileid: "19834059"
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
-
-
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

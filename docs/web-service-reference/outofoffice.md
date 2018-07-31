@@ -1,5 +1,5 @@
 ---
-title: Нет на месте
+title: OutOfOffice
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: fe1256ab-5c0f-467d-abb3-b38a2dc312ae
 description: Нет на месте элемент представляет ответное сообщение и время для отправки сообщения ответа.
-ms.openlocfilehash: 4e1e06ee332c44aeba03e1343c8c3258a2c9631e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f35b84d7a8a37c7a57b58c97fd0d37318bb50a33
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834675"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354269"
 ---
-# <a name="outofoffice"></a>Нет на месте
+# <a name="outofoffice"></a>OutOfOffice
 
 **Нет на месте** элемент представляет ответное сообщение и время для отправки сообщения ответа. 
   
@@ -30,7 +30,14 @@ ms.locfileid: "19834675"
 </OutOfOffice>
 ```
 
- **OutOfOfficeMailTip**
+```XML
+<OutOfOffice>
+   <ReplyBody/>
+</OutOfOffice>
+```
+
+**OutOfOfficeMailTip**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -44,13 +51,13 @@ ms.locfileid: "19834675"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[ReplyBody](replybody.md) <br/> |Содержит сообщение об отсутствии на работе Office (OOF) и язык, используемый для сообщения.  <br/> |
-|[Продолжительность (UserOofSettings)](duration-useroofsettings.md) <br/> |Содержит длительность с поддержкой состояние об отсутствии на работе, если элемент [OofState](oofstate.md) задано значение расписанию.  <br/> |
+|[Duration (UserOofSettings)](duration-useroofsettings.md) <br/> |Содержит длительность с поддержкой состояние об отсутствии на работе, если элемент [OofState](oofstate.md) задано значение расписанию.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Почтовые подсказки](mailtips.md) <br/> |Представляет значения для различных типов почтовые подсказки.  <br/> |
+|[MailTips](mailtips.md) <br/> |Представляет значения для различных типов почтовые подсказки.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -70,8 +77,6 @@ ms.locfileid: "19834675"
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
-
-
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

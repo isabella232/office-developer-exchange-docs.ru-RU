@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c2f3c6a5-e8ea-4375-b41a-686a6f238d33
 description: Узнайте, как и когда до обновления сведений о конфигурации для подключения к Exchange с помощью службы автообнаружения.
-ms.openlocfilehash: ef3b61781cbafa6e7b873336a050c0b8c33a28ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 764909fbe5e4cd62ba6e05bfa4b2c417ef41a9ae
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761128"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353058"
 ---
 # <a name="refresh-configuration-information-by-using-autodiscover"></a>Обновление сведений о конфигурации с помощью службы автообнаружения
 
@@ -67,12 +67,12 @@ ms.locfileid: "19761128"
 |:-----|:-----|:-----|
 |Ошибки при DNS или в сети<br/><br/> Пример: Не удалось найти имя узла.  <br/> |[ServiceRemoteException](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ServiceRemoteException.aspx) <br/> |На ошибки, которое указывает, что сервер не найден или не удалось подключиться к может быть решена ознакомления с службы автообнаружения. <br/><br/> Кэшированные конечной точки веб-служб Exchange могут стать недействительными и автоматического обнаружения могут быть меньше, чтобы они указывали на новый сервер.  <br/> |
 |Состояние ошибки HTTP<br/><br/> Пример: 503 Служба недоступна  <br/> |[ServiceRemoteException](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ServiceRemoteException.aspx) <br/> |Состояние ошибки HTTP может произойти по разным причинам.<br/><br/> Тем не менее рекомендуется попробовать автообнаружения для получения новой конечной точки веб-служб Exchange для пользователя.  <br/> |
-|Коды ошибок веб-служб Exchange <br/><br/> Пример: ErrorConnectionFailed <br/> |[ResponseCodeType](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ResponseCodeType.aspx) <br/> | Большинство кодов ошибок веб-служб Exchange не гарантирует обновление сведений о конфигурации.<br/><br/> Тем не менее следующие специально указывают, что необходимо обновить сведения о конфигурации:<br/>- **ErrorConnectionFailed** <br/>- **ErrorMailboxMoveInProgress** <br/> |
+|Коды ошибок веб-служб Exchange <br/><br/> Пример: ErrorConnectionFailed <br/> |[ResponseCodeType](../web-service-reference/responsecode.md) <br/> | Большинство кодов ошибок веб-служб Exchange не гарантирует обновление сведений о конфигурации.<br/><br/> Тем не менее следующие специально указывают, что необходимо обновить сведения о конфигурации:<br/>- **ErrorConnectionFailed** <br/>- **ErrorMailboxMoveInProgress** <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Автообнаружение для Exchange](autodiscover-for-exchange.md)  
-- [Создать список конечных точек службы автообнаружения](how-to-generate-a-list-of-autodiscover-endpoints.md)   
+- [Создание списка конечных точек автообнаружения](how-to-generate-a-list-of-autodiscover-endpoints.md)   
 - [Получить параметры пользователя из Exchange с помощью службы автообнаружения](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 

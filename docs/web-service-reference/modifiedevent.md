@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ca1309f4-2df7-4289-811c-75c3db0e7072
 description: ModifiedEvent элемент представляет событие, в котором изменения элемента или папки.
-ms.openlocfilehash: fb464fb0a270d8ca7d33d40e5425e260970b2f1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2e9fb870396d49efb5cdf307a502b4111c2e507e
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834482"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353814"
 ---
 # <a name="modifiedevent"></a>ModifiedEvent
 
@@ -33,7 +33,18 @@ ms.locfileid: "19834482"
 </ModifiedEvent>
 ```
 
- **ModifiedEventType**
+```xml
+<ModifiedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <ItemId/> 
+   <ParentFolderId/>
+   <UnreadCount/>
+</ModifiedEvent>
+```
+
+**ModifiedEventType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -46,8 +57,8 @@ ms.locfileid: "19834482"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Водяной знак](watermark.md) <br/> |Представляет закладку события в таблице событий почтового ящика.  <br/> |
-|[Метка времени](timestamp.md) <br/> |Представляет отметки времени событии изменения элемента или папки почтового ящика.  <br/> |
+|[Watermark](watermark.md) <br/> |Представляет закладку события в таблице событий почтового ящика.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Представляет отметки времени событии изменения элемента или папки почтового ящика.  <br/> |
 |[FolderId](folderid.md) <br/> |Представляет идентификатор измененного папки.  <br/> |
 |[Идентификатор элемента](itemid.md) <br/> |Представляет идентификатор измененного элемента.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки изменения элемента или папки.  <br/> |
@@ -76,11 +87,7 @@ ms.locfileid: "19834482"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[Операции подписки](subscribe-operation.md)
-  
-[Операция GetEvents](getevents-operation.md)
-  
-[Отписаться операции](unsubscribe-operation.md)
+- [Операции подписки](subscribe-operation.md)  
+- [Операция GetEvents](getevents-operation.md)  
+- [Отписаться операции](unsubscribe-operation.md)
 

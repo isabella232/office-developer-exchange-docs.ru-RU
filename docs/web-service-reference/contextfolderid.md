@@ -12,24 +12,21 @@ api_type:
 - schema
 ms.assetid: 48de92aa-e124-42b5-89bc-cdce5e93d78b
 description: Элемент ContextFolderId указывает папку, предназначенное для действий, использующих папок. Этот элемент должен присутствовать при копирование, удаление, перемещение и настройка состояние чтения элементов беседы в целевой папке.
-ms.openlocfilehash: bd863d0395b9b9d7b437833acfb656fec4580985
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 94428a079be6da8873c777556771579a7110fb62
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761800"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354283"
 ---
 # <a name="contextfolderid"></a>ContextFolderId
 
 Элемент **ContextFolderId** указывает папку, предназначенное для действий, использующих папок. Этот элемент должен присутствовать при копирование, удаление, перемещение и настройка состояние чтения элементов беседы в целевой папке. 
   
-[ApplyConversationAction](applyconversationaction.md)
-  
-[ConversationActions](conversationactions.md)
-  
-[ConversationAction](conversationaction.md)
-  
-[ContextFolderId](contextfolderid.md)
+- [ApplyConversationAction](applyconversationaction.md) 
+- [ConversationActions](conversationactions.md)
+- [ConversationAction](conversationaction.md)
+- [ContextFolderId](contextfolderid.md)
   
 ```XML
 <ContextFolderId>
@@ -37,7 +34,15 @@ ms.locfileid: "19761800"
 </ContextFolderId>
 ```
 
- **TargetFolderIdType**
+```XML
+<ContextFolderId>
+   <DistinguishedFolderId/>
+</ContextFolderId>
+```
+
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -78,7 +83,5 @@ ms.locfileid: "19761800"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[Операция ApplyConversationAction](applyconversationaction-operation.md)
+- [Операция ApplyConversationAction](applyconversationaction-operation.md)
 

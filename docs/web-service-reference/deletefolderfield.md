@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f9c2187b-4c60-4358-b4b4-ede50eadae48
 description: Элемент DeleteFolderField представляет операцию удаление указанного свойства из папки во время вызова UpdateFolder.
-ms.openlocfilehash: d0a5fb18c5f3445982a6417007ad6af9b1b365af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 60d4a5c19d89c109913e83fea99c2f7910566c72
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762034"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354094"
 ---
 # <a name="deletefolderfield"></a>DeleteFolderField
 
@@ -26,7 +26,7 @@ ms.locfileid: "19762034"
 - [UpdateFolder](updatefolder.md) 
 - [FolderChanges](folderchanges.md)  
 - [FolderChange](folderchange.md)  
-- [Обновления (папка)](updates-folder.md) 
+- [Updates (Folder)](updates-folder.md) 
 - [DeleteFolderField](deletefolderfield.md)
   
 ```xml
@@ -35,7 +35,20 @@ ms.locfileid: "19762034"
 </DeleteFolderField>
 ```
 
- **DeleteFolderFieldType**
+```xml
+<DeleteFolderField>
+   <ExtendedFieldURI/>
+</DeleteFolderField>
+```
+
+```xml
+<DeleteFolderField>
+   <IndexedFieldURI/>
+</DeleteFolderField>
+```
+
+**DeleteFolderFieldType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -56,7 +69,7 @@ ms.locfileid: "19762034"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Обновления (папка)](updates-folder.md) <br/> |Содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств папки.  <br/> Ниже приведен выражение XPath для этого элемента.`/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
+|[Updates (Folder)](updates-folder.md) <br/> |Содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств папки.  <br/> Ниже приведен выражение XPath для этого элемента.`/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -73,5 +86,5 @@ ms.locfileid: "19762034"
    
 ## <a name="see-also"></a>См. также
 
-- [Операцию UpdateFolder](updatefolder-operation.md)
+- [Операция UpdateFolder](updatefolder-operation.md)
 

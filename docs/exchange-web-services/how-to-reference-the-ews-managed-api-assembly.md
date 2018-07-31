@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 130990db-6297-42dc-9f5d-f68a2400872a
 description: Найдите сведения о том, как ссылки на сборку управляемого интерфейса API веб-служб Exchange.
-ms.openlocfilehash: af7b1ec449c24e7fa4db89abb30e5ebc9f8d329e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a08ce43d139440186f611049fa1e457ea44f0362
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761103"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353688"
 ---
 # <a name="reference-the-ews-managed-api-assembly"></a>Ссылки на сборку управляемого интерфейса API веб-служб Exchange
 
@@ -20,7 +20,12 @@ ms.locfileid: "19761103"
 Управляемый API веб-служб Exchange предоставляет простой и полнофункциональных интерфейс для разработки и расширения приложений, использующих веб-служб Exchange (EWS). С помощью Visual Studio или другой редактор кода, чтобы разрабатывать приложения управляемый API веб-служб Exchange, необходимо создать ссылку на сборку управляемого интерфейса API веб-служб Exchange. Если вы еще не установили уже управляемый API веб-служб Exchange, необходимо [загрузить API-интерфейса](http://aka.ms/ews-managed-api-readme).
   
 > [!NOTE]
->  [!Примечание]  Теперь управляемый API EWS доступен в виде проекта с открытым кодом на сайте [GitHub](https://github.com/officedev/ews-managed-api). С помощью библиотеки с открытым кодом вы можете: >  добавлять исправления ошибок и улучшения в API; >  получать исправления ошибок и улучшения до того, как они станут доступны в официальном выпуске; >  получать доступ к самой полной и актуальной реализации API, которую можно использовать для справки или для создания новых библиотек на новых платформах. >  Мы будем рады вашим [дополнениям](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) на сайте GitHub. 
+> Управляемый API EWS теперь доступен в качестве проекта с открытым кодом на [репозиториев](https://github.com/officedev/ews-managed-api). Можно использовать библиотеку открытым кодом на: 
+> - добавлять исправления ошибок и улучшения в API; 
+> - получать исправления ошибок и улучшения до того, как они станут доступны в официальном выпуске; 
+> - получать доступ к самой полной и актуальной реализации API, которую можно использовать для справки или для создания новых библиотек на новых платформах.
+> 
+>  Мы будем рады [Ввод данных](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) с помощью репозиториев. 
   
 ## <a name="referencing-the-assembly"></a>Создание ссылок на сборки
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b790dc8-5c4f-4acf-bbe7-63523395fbe7
 description: Использование командлетов командной консоли Exchange для создания инструмента, который возвращает список пользователей почтового ящика Exchange
-ms.openlocfilehash: 6f64330a11e372bffbea2fcd88bcfa0231ec0f28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9493571e98760e5a11674db9a552111c1ec29b2
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761256"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354003"
 ---
 # <a name="get-a-list-of-mail-users-by-using-the-exchange-management-shell"></a>Ознакомьтесь со списком пользователей почты с помощью командной консоли Exchange
 
@@ -51,23 +51,23 @@ ms.locfileid: "19761256"
 
 Метод подключения к удаленному пространству выполнения, в котором будет использован командлет командной консоли Exchange, зависит от выбранной схемы проверки подлинности. В этом разделе приведены примеры кодов для подключения к удаленному пространству выполнения при использовании одного из методов проверки подлинности, перечисленных в таблице ниже.
   
-|**Метод проверки подлинности**|**Применимо к**|**Универсальный код ресурса (URI)**|
+|**Метод проверки подлинности**|**Область применения**|**Универсальный код ресурса (URI)**|
 |:-----|:-----|:-----|
-|[Подключение к удаленной пространства выполнения на Exchange Online с помощью обычной проверки подлинности](#bk_basic) <br/> |Серверы Exchange Online  <br/> |`https://outlook.office365.com/PowerShell-LiveID`<br/><br/>`https://<server>/PowerShell-LiveID`  <br/> |
-|[Подключение к удаленной пространства выполнения с помощью проверки подлинности сертификата](#bk_cert) <br/> |Серверы Exchange Online и локальные серверы Exchange  <br/> |`https://outlook.office365.com/PowerShell`<br/><br/>`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
-|[Подключение к удаленной пространство на сервере Exchange с помощью проверки подлинности Kerberos](#bk_Kerberos) <br/> |Серверы Exchange Online и локальные серверы Exchange  <br/> |`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
+|[Подключение к удаленному пространству выполнения на сервере Exchange Online с помощью обычной проверки подлинности](#bk_basic) <br/> |Серверы Exchange Online  <br/> |`https://outlook.office365.com/PowerShell-LiveID`<br/><br/>`https://<server>/PowerShell-LiveID`  <br/> |
+|[Подключение к удаленному пространству выполнения с помощью проверки подлинности на основе сертификата](#bk_cert) <br/> |Серверы Exchange Online и локальные серверы Exchange  <br/> |`https://outlook.office365.com/PowerShell`<br/><br/>`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
+|[Подключение к удаленному пространству выполнения на сервере Exchange с помощью проверки подлинности Kerberos](#bk_Kerberos) <br/> |Серверы Exchange Online и локальные серверы Exchange  <br/> |`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
 
 <a name="bk_basic"> </a>
 
 ### <a name="connect-to-a-remote-runspace-on-exchange-online-by-using-basic-authentication"></a>Подключение к удаленному пространству выполнения на сервере Exchange Online с помощью обычной проверки подлинности
 
-В следующем примере кода определяется метод **GetUsersUsingBasicAuth** , который создает пространства выполнения Командная консоль Exchange на удаленном сервере Exchange Online с помощью обычной проверки подлинности. Метод затем вызывает метод **GetUserInformation** , как определено в раздел, [Ознакомьтесь со списком пользователей почтовых ящиков из удаленного пространства выполнения](#bk_remote), чтобы получить список пользователей на удаленном сервере.
+Следующий код определяет метод **GetUsersUsingBasicAuth**, с помощью которого на удаленном сервере Exchange Online создается пространство выполнения для командной консоли Exchange с помощью обычной проверки подлинности. Затем этот метод вызывает метод **GetUserInformation**, как это описано в разделе [Получение списка пользователей почтового ящика из удаленного пространства выполнения](#bk_remote), для возврата списка пользователей на удаленном сервере.
   
 Для этого метода требуются следующие параметры:
   
--  **liveIDConnectionUri** &ndash; Строка, содержащая URI сервера Exchange Online, на котором будет выполнена проверка подлинности приложения. Если запущен Exchange Online в Office 365 — это URI https://outlook.office365.com/PowerShell-LiveID; в противном случае — URI https://\<имя_сервера\>/PowerShell-LiveID. 
+-  **liveIDConnectionUri** &ndash; Строка, содержащая URI сервера Exchange Online, на котором будет выполнена проверка подлинности приложения. Если запущен Exchange Online в Office 365 — это URI `https://outlook.office365.com/PowerShell-LiveID`; в противном случае — это URI `https://<servername>/PowerShell-LiveID`. 
     
--  **schemaUri** &ndash; Строка, содержащая URI документа схемы, который определяет схему Командная консоль Exchange. Схема URI — это http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+-  **schemaUri** &ndash; Строка, содержащая URI документа схемы, который определяет схему Командная консоль Exchange. Схема URI — это `http://schemas.microsoft.com/powershell/Microsoft.Exchange`. 
     
 -  **учетные данные** &ndash; Объект [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) , содержащий учетные данные пользователя, который выполняется приложение. 
     
@@ -107,7 +107,7 @@ public Collection<PSObject> GetUsersUsingBasicAuth(
 
 ### <a name="connect-to-a-remote-runspace-by-using-certificate-authentication"></a>Подключение к удаленному пространству выполнения с помощью проверки подлинности на основе сертификата
 
-В следующем примере кода определяется метод **GetUsersUsingCertificate** , который создает пространства выполнения Командная консоль Exchange на удаленном сервере с помощью сертификата. Метод затем вызывает метод **GetUserInformation** , как определено в раздел, [Ознакомьтесь со списком пользователей почтовых ящиков из удаленного пространства выполнения](#bk_remote), чтобы получить список пользователей на удаленном сервере.
+Следующий код определяет метод **GetUsersUsingCertificate**, с помощью которого на удаленном сервере Exchange Online создается пространство выполнения для командной консоли Exchange с помощью проверки подлинности на основе сертификата. Затем этот метод вызывает метод **GetUserInformation**, как это описано в разделе [Получение списка пользователей почтового ящика из удаленного пространства выполнения](#bk_remote), для возврата списка пользователей на удаленном сервере.
   
 Для этого метода требуются следующие параметры:
   
@@ -160,7 +160,7 @@ public Collection<PSObject> GetUsersUsingCertificate(
 
 ### <a name="connect-to-a-remote-runspace-on-an-exchange-server-by-using-kerberos-authentication"></a>Подключение к удаленному пространству выполнения на сервере Exchange с помощью проверки подлинности Kerberos
 
-В следующем примере кода определяется метод **GetUsersUsingKerberos** , который создает пространства выполнения Командная консоль Exchange на удаленном сервере с использованием проверки подлинности Kerberos. Метод затем вызывает метод **GetUserInformation** , как определено в раздел, [Ознакомьтесь со списком пользователей почтовых ящиков из удаленного пространства выполнения](#bk_remote), чтобы получить список пользователей на удаленном сервере.
+Следующий код определяет метод **GetUsersUsingKerberos**, с помощью которого на удаленном сервере создается пространство выполнения для командной консоли Exchange с помощью проверки подлинности Kerberos. Затем этот метод вызывает **GetUserInformation**, как это описано в разделе [Получение списка пользователей почтового ящика из удаленного пространства](#bk_remote), для возврата списка пользователей на удаленном сервере.
   
 Для этого метода требуются следующие параметры:
   
@@ -253,7 +253,7 @@ End Function
   
 ## <a name="see-also"></a>См. также
 
-- [Создание средств управления Exchange](create-exchange-management-shell-tools.md)   
+- [Создание инструментов командной консоли Exchange](create-exchange-management-shell-tools.md)   
 - [Использование ответа командлет командной консоли Exchange](how-to-use-the-exchange-management-shell-cmdlet-response.md)
     
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 91b86e93-bdde-41c3-9680-45cf61420592
 description: Сведения о настройке среды разработки для создания приложения веб-служб Exchange, который взаимодействует с сервером Exchange.
-ms.openlocfilehash: 0c7d4c6d37b28b6797bdb638930b8582f31ffc5e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 41664304eebf44d7985c774e260038eae4f23156
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761241"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353275"
 ---
 # <a name="setting-up-your-exchange-application-development-environment"></a>Настройка среды разработки приложений Exchange
 
@@ -20,7 +20,12 @@ ms.locfileid: "19761241"
 Прежде чем начать запись приложения веб-служб Exchange (EWS), вам потребуется убедитесь в том, что среды разработки с использованием нескольких минимальным требованиям. Можно использовать управляемый API EWS, стандартный клиентского доступа интерфейс API для приложений .NET Framework для разработки приложения, или можно использовать веб-служб Exchange на свой собственный с нашей без прокси-сервер автоматически. В общем мы рекомендуем использовать управляемый API веб-служб Exchange; Тем не менее можно [изучить различие между этими вариантами](ews-client-design-overview-for-exchange.md) более подробно, чтобы найти, какие лучше подходит для вас. 
   
 > [!NOTE]
->  [!Примечание]  Теперь управляемый API EWS доступен в виде проекта с открытым кодом на сайте [GitHub](https://github.com/officedev/ews-managed-api). С помощью библиотеки с открытым кодом вы можете: >  добавлять исправления ошибок и улучшения в API; >  получать исправления ошибок и улучшения до того, как они станут доступны в официальном выпуске; >  получать доступ к самой полной и актуальной реализации API, которую можно использовать для справки или для создания новых библиотек на новых платформах. >  Мы будем рады вашим [дополнениям](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) на сайте GitHub. 
+> Управляемый API EWS теперь доступен в качестве проекта с открытым кодом на [репозиториев](https://github.com/officedev/ews-managed-api). Можно использовать библиотеку открытым кодом на: 
+> - добавлять исправления ошибок и улучшения в API; 
+> - получать исправления ошибок и улучшения до того, как они станут доступны в официальном выпуске; 
+> - получать доступ к самой полной и актуальной реализации API, которую можно использовать для справки или для создания новых библиотек на новых платформах.
+> 
+>  Мы будем рады [Ввод данных](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) с помощью репозиториев. 
   
 ## <a name="development-environment-for-the-ews-managed-api"></a>Среды разработки для управляемого API EWS
 <a name="bk_EWSMA"> </a>
@@ -35,7 +40,7 @@ ms.locfileid: "19761241"
     
     План Exchange Online можно получить для бизнеса, включая бесплатную пробную версию с [сайта Office 365](http://office.microsoft.com/en-us/business/compare-office-365-for-business-plans-FX102918419.aspx#fbid=1tsGNIE7e3a). Для подключения к почтовому ящику должны быть имя пользователя и учетные данные учетной записи, связанный с почтовым ящиком.
     
-- Версии Visual Studio, начиная с Visual Studio 2005. Если у вас нет в настоящее время Visual Studio, можно загрузить бесплатную версию [Visual Studio 2010 Express](http://www.microsoft.com/visualstudio/eng/products/visual-studio-2010-express).
+- Версии Visual Studio, начиная с Visual Studio 2005. Если у вас нет в настоящее время Visual Studio, можно загрузить [бесплатную версию](https://visualstudio.microsoft.com/).
     
 - Версия .NET Framework, начиная с .NET Framework 3.5. .NET Framework 3.5 можно загрузить из [Центра загрузки Майкрософт](http://go.microsoft.com/fwlink/?LinkId=191777).
     
@@ -54,7 +59,7 @@ ms.locfileid: "19761241"
   
 Второй способ использования веб-служб Exchange является создание прокси-сервер автоматически созданный, которая позволяет работать с этих операций, используя язык .NET, например C#. Вот что необходимо для работы с прокси-сервер автоматически:
   
-- Версии Visual Studio, начиная с Visual Studio 2005, чтобы создать ссылку на прокси-сервера. Можно загрузить бесплатную версию [Visual Studio 2010 Express](http://www.microsoft.com/visualstudio/eng/products/visual-studio-2010-express).
+- Версии Visual Studio, начиная с Visual Studio 2005, чтобы создать ссылку на прокси-сервера. Можно загрузить [бесплатную версию](https://visualstudio.microsoft.com/).
     
 - Версия .NET Framework, начиная с .NET Framework 2.0. .NET Framework 3.5 можно загрузить из [Центра загрузки Майкрософт](http://go.microsoft.com/fwlink/?LinkId=191777).
     
@@ -65,13 +70,9 @@ ms.locfileid: "19761241"
   
 ## <a name="see-also"></a>См. также
 
-
-- [Настройка среды разработки приложений Exchange](setting-up-your-exchange-application-development-environment.md)
-    
-- [Общие сведения о разработке клиента EWS для Exchange](ews-client-design-overview-for-exchange.md)
-    
-- [Управление доступом к веб-служб Exchange в Exchange](how-to-control-access-to-ews-in-exchange.md)
-    
+- [Настройка среды разработки приложений Exchange](setting-up-your-exchange-application-development-environment.md)   
+- [Общие сведения о разработке клиента EWS для Exchange](ews-client-design-overview-for-exchange.md)  
+- [Управление доступом к веб-служб Exchange в Exchange](how-to-control-access-to-ews-in-exchange.md)  
 - [Веб-служб Exchange создан объектных моделей для Exchange](https://msdn.microsoft.com/en-us/library/jj190899)
     
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 42412265-3968-468a-a8c2-7e8af3c6deb9
 description: Узнайте, как удалить встречи и собрания с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
-ms.openlocfilehash: bd7eac803fedffc51133324259f68fd25652fcff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c71272bf753432a9f343adc917b444424fe3ba33
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761002"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354080"
 ---
 # <a name="delete-appointments-and-cancel-meetings-by-using-ews-in-exchange"></a>Удаление встреч и отмены собраний с помощью веб-служб Exchange в Exchange
 
@@ -23,13 +23,14 @@ ms.locfileid: "19761002"
 
 |**Метод управляемого API EWS**|**Операция EWS**|**Назначение**|
 |:-----|:-----|:-----|
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |Удаляет встречи.  <br/> |
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (элемента календаря)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |Удаление собрания.  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |Удаляет встречи.  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (элемента календаря)](../web-service-reference/createitem-operation-calendar-item.md) <br/> |Удаление собрания.  <br/> |
    
-Обратите внимание на то, что при удалении встречи с помощью веб-служб Exchange, используйте операцию [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) , но при удалении собрания можно использовать операцию [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) . Это может показаться нелогичным, но поскольку необходимо создать собрание объект ответа для отправки отмены собрания сообщений участникам. 
-  
-## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>Удаление встречи с помощью управляемого интерфейса API веб-служб Exchange
+Обратите внимание на то, что при удалении встречи с помощью веб-служб Exchange, используйте операцию [DeleteItem](../web-service-reference/deleteitem-operation.md) , но при удалении собрания можно использовать операцию [CreateItem](../web-service-reference/createitem-operation-calendar-item.md) . Это может показаться нелогичным, но поскольку необходимо создать собрание объект ответа для отправки отмены собрания сообщений участникам. 
+
 <a name="bk_DeleteApptEWSMA"> </a>
+
+## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>Удаление встречи с помощью управляемого интерфейса API веб-служб Exchange
 
 В следующем примере кода показано, как использовать метод [Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) для удаления встречу из папки календаря и метод [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) , чтобы убедиться, что встречи был удален, найти его в папку «Удаленные». 
   
@@ -63,7 +64,7 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 Запрос и ответ XML в следующих примерах соответствуют вызовов, сделанных с помощью кода управляемый API EWS в [Удаление встречи с помощью управляемого интерфейса API веб-служб Exchange](#bk_DeleteApptEWSMA). Запрос и ответ также показан XML-кода, проверяет, является ли элемента встречи в папку «Удаленные».
   
-В следующем примере показано запроса XML для операции [DeleteItem](http://msdn.microsoft.com/library/e2152410-41ce-1fe7-8169-f206d5081ebc%28Office.15%29.aspx) удаление встречи. 
+В следующем примере показано запроса XML для операции [DeleteItem](../web-service-reference/deleteitem-operation.md) удаление встречи. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -86,7 +87,7 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 ```
 
-В следующем примере показано ответа XML, возвращенные [DeleteItem операции](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx). Атрибуты **ItemId** и **ChangeKey** сокращаются для удобства чтения. 
+В следующем примере показано XML, возвращенные операцией [DeleteItem](../web-service-reference/deleteitem-operation.md) ответа. Атрибуты **ItemId** и **ChangeKey** сокращаются для удобства чтения. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

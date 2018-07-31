@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 886e7d35-9096-480b-8a8c-a7db27da06c2
 description: Узнайте, как использовать управляемый API EWS или веб-служб Exchange для получения списка всех элементов в папке или список изменений, внесенных в папке, для синхронизации клиента.
-ms.openlocfilehash: ce29a77cee595c2358441e4a22d32d45e78c6e60
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8763c053463e4787741ef992ddb99d29be4192fc
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761118"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353786"
 ---
 # <a name="synchronize-items-by-using-ews-in-exchange"></a>Синхронизация элементов с помощью веб-служб Exchange в Exchange
 
@@ -107,6 +107,8 @@ while (moreChangesAvailable);
 </soap:Envelope>
 ```
 
+<a name="bk_responsesyncfolderitems"> </a>
+
 В следующем примере показано XML-ответ, возвращенный сервером, после обработки запроса операции **SyncFolderItems** от клиента. Первоначального отклика содержит элементы [Создать](http://msdn.microsoft.com/library/cb5e64a2-66a5-4447-921e-7c13efb8f6bf%28Office.15%29.aspx) пять элементов, так как все элементы считаются new во время начальной синхронизации. Для удобства чтения URL были сокращены значения некоторые атрибуты и элементы. 
   
 ```XML
@@ -176,7 +178,7 @@ while (moreChangesAvailable);
 ## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>Получение изменений с момента последней синхронизации с помощью веб-служб Exchange
 <a name="bk_ewsexamplec"> </a>
 
-В следующем примере показано запроса XML для получения списка изменения элементов в папке "Входящие" с помощью операции [SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) . Это также запроса XML, что управляемый API EWS отправляет при [получении списка изменений в папке "Входящие"](#bk_cesyncongoingewsma). В этом примере задается значение элемента [состояние](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) значению, возвращенному в [предыдущем ответе](http://msdn.microsoft.com/library/886e7d35-9096-480b-8a8c-a7db27da06c2bk_ewsexamplea%28Office.15%29.aspx). И в целях демонстрации в этом примере задается элемент [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **AllProperties** вместо **IdOnly** для отображения возвращаемые дополнительные свойства. Установка для элемента [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **IdOnly** является [Рекомендация синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). Для удобства чтения был усечен значение **состояние** . 
+В следующем примере показано запроса XML для получения списка изменения элементов в папке "Входящие" с помощью операции [SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) . Это также запроса XML, что управляемый API EWS отправляет при [получении списка изменений в папке "Входящие"](#bk_cesyncongoingewsma). В этом примере задается значение элемента [состояние](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) значению, возвращенному в [предыдущем ответе](#bk_responsesyncfolderitems). И в целях демонстрации в этом примере задается элемент [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **AllProperties** вместо **IdOnly** для отображения возвращаемые дополнительные свойства. Установка для элемента [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **IdOnly** является [Рекомендация синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). Для удобства чтения был усечен значение **состояние** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

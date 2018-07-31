@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60ac3f7b-ba8a-4c93-99f7-c27002caff93
 description: Сведения о параметрах для управления доступом к клиентских приложений для веб-служб Exchange.
-ms.openlocfilehash: 29a640178afc9814a0b2232225ae4307e49afed2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e3a0e07b733b4ebc070ab6b3fc73c8aec4b62785
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760938"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353065"
 ---
 # <a name="controlling-client-application-access-to-ews-in-exchange"></a>Управление доступом к клиентского приложения для веб-служб Exchange в Exchange
 
@@ -34,7 +34,8 @@ ms.locfileid: "19760938"
     
 Приложения идентифицируются по строка агента пользователя, который они передают в веб-запросов HTTP.
   
-> [! Примечание по безопасности] уровня приложения блокировка не функция безопасности. Строка агента пользователя легко подменить. Если приложения разрешен доступ к веб-служб Exchange, оно должно по-прежнему предоставить учетные данные, сервер проверяет подлинность перед приложения могут подключаться к веб-служб Exchange. 
+> [!IMPORTANT]
+> Блокировка уровня приложения не функция безопасности. Строка агента пользователя легко подменить. Если приложения разрешен доступ к веб-служб Exchange, оно должно по-прежнему предоставить учетные данные, сервер проверяет подлинность перед приложения могут подключаться к веб-служб Exchange. 
   
 Можно настроить управление доступом для владельцев почтовых ящиков, которые подключаются к веб-служб Exchange следующим образом: 
   
@@ -69,12 +70,9 @@ ms.locfileid: "19760938"
 
 Администраторы используют следующие командлеты командной консоли Exchange для настройки доступа к элементам управления веб-служб Exchange: 
   
-- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)
-    
-- [SET-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)
-    
-- [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)
-    
+- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)   
+- [SET-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)   
+- [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)   
 - [SET-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997443.aspx)
     
 ## <a name="see-also"></a>См. также

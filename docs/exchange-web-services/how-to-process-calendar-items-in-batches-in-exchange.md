@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fb2952e2-cbfe-43ac-b746-f071faa7665c
 description: Узнайте, как создание, получение, обновление и удаление пакетов элементов календаря в одном вызове с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
-ms.openlocfilehash: 2c92b492d9b51d0a5ac3140af22e5527e7bf19be
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e18e74490b536c07e90c64f76f81c98b4eab6024
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761117"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353849"
 ---
 # <a name="process-calendar-items-in-batches-in-exchange"></a>В Exchange обработки элементов календаря в пакетах
 
@@ -21,12 +21,12 @@ ms.locfileid: "19761117"
   
 **В таблице 1. Управляемый API EWS методы и операций веб-служб Exchange для работы с пакетами элементов календаря**
 
-|**Чтобы...**|**Используйте этот метод управляемый API EWS**|**Используйте эту операцию EWS**|
+|**Чтобы...**|**Какой метод управляемого API для EWS в этом случае нужен**|**Какая операция EWS в этом случае нужна**|
 |:-----|:-----|:-----|
 |Создание элементов календаря в пакетах  <br/> |[CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
 |Получение элементов календаря в пакетах  <br/> |[BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |Обновление элементов календаря в пакетах  <br/> |[UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Удаление элементов календаря в пакетах  <br/> |[DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Удаление элементов календаря в пакетах  <br/> |[DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 В этой статье вы узнаете, как для выполнения основных задач для пакетов элементов календаря с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange.
   
@@ -698,7 +698,7 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 ## <a name="delete-calendar-items-in-batches-by-using-ews"></a>Удаление элементов календаря партиями с помощью веб-служб Exchange
 <a name="bk_deleteews"> </a>
 
-Элементы календаря в пакетах можно удалить с помощью операции [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) EWS, как показано в следующем примере кода. Это также XML-запрос, который отправляет управляемый API веб-служб Exchange, когда использовать управляемый API веб-служб Exchange для [удаления элементов календаря в пакетах](#bk_deleteewsma). 
+Элементы календаря в пакетах можно удалить с помощью операции [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS, как показано в следующем примере кода. Это также XML-запрос, который отправляет управляемый API веб-служб Exchange, когда использовать управляемый API веб-служб Exchange для [удаления элементов календаря в пакетах](#bk_deleteewsma). 
   
 Атрибуты **ItemId** и **ChangeKey** сокращаются для удобства чтения. 
   
@@ -806,11 +806,11 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
   
 Чтобы проверить успешность пакетной обработки с помощью управляемого интерфейса API веб-служб Exchange, можно проверить, что свойство [OverallResult](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx) [ServiceResponseCollection](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx) равен [ServiceResult.Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx). Если это так, то все элементы календаря обработаны успешно. Если **OverallResult** не равно **ServiceResult.Success**, один или несколько элементов календаря не были успешно обработаны. Каждый из объектов, возвращаемых **ServiceResponseCollection** содержит следующие свойства: 
   
-- [Код ошибки](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
+- [ErrorCode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
     
 - [ErrorDetails](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
     
-- [Сообщение об ошибке](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errormessage%28v=exchg.80%29.aspx)
+- [ErrorMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errormessage%28v=exchg.80%29.aspx)
     
 - [ErrorProperties](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorproperties%28v=exchg.80%29.aspx)
     

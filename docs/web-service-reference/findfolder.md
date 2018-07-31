@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b8a59740-d978-454c-9629-a10792385ba0
 description: Элемент FindFolder определяет запрос для поиска папок в почтовом ящике.
-ms.openlocfilehash: d41283547c443e38e2e87379a7224df9c89f901d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 69fbaebc5615ac7d19512770658cde83e4d352df
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762559"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353534"
 ---
 # <a name="findfolder"></a>FindFolder
 
@@ -32,7 +32,17 @@ ms.locfileid: "19762559"
 </FindFolder>
 ```
 
- **FindFolderType**
+```xml
+<FindFolder Traversal="Shallow/Deep/SoftDeleted">
+   <FolderShape/>
+   <FractionalPageFolderView/>
+   <Restriction/>
+   <ParentFolderIds/>
+</FindFolder>
+```
+
+**FindFolderType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -58,7 +68,7 @@ ms.locfileid: "19762559"
 |[FolderShape](foldershape.md) <br/> |Задает свойства папки для включения в FindFolder ответа.  <br/> |
 |[IndexedPageFolderView](indexedpagefolderview.md) <br/> |Описывает, как выгружаемый элемента сведения возвращаются в ответ FindFolder. Этот элемент является необязательным.  <br/> |
 |[FractionalPageFolderView](fractionalpagefolderview.md) <br/> |Описывает, где начала страничного представления и максимальное число папок, возвращаемых в запросе FindFolder. Этот элемент является необязательным.  <br/> |
-|[Ограничения](restriction.md) <br/> |Задает ограничение или запрос, используемый для фильтрации папок в FindFolder операции. Этот элемент является необязательным.  <br/> |
+|[Restriction](restriction.md) <br/> |Задает ограничение или запрос, используемый для фильтрации папок в FindFolder операции. Этот элемент является необязательным.  <br/> |
 |[ParentFolderIds](parentfolderids.md) <br/> |Идентифицирует папок для операции FindFolder для поиска.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
@@ -73,7 +83,7 @@ ms.locfileid: "19762559"
 
 Пример запроса FindFolder показано, как для формирования запроса, чтобы найти все папки, расположенной в папке "Входящие".
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -101,7 +111,5 @@ ms.locfileid: "19762559"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[FindFolder Operation](findfolder-operation.md)
+- [Операция FindFolder](findfolder-operation.md)
 

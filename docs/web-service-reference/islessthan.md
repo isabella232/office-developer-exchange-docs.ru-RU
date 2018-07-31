@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2550469b-6e5d-45a5-9ecc-090d1b409296
 description: Элемент IsLessThan представляет выражение поиска, которое сравнивает свойство с постоянным значением или другим свойством и возвращает значение true, если первое свойство меньше, чем второй.
-ms.openlocfilehash: 374bfc20b86f99923034f126c3fd1fe9480fdf67
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bec5a9f3e12d0f0aada64d5395bf2e0b4181f162
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834040"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353611"
 ---
 # <a name="islessthan"></a>IsLessThan
 
@@ -30,7 +30,22 @@ ms.locfileid: "19834040"
 </IsLessThan>
 ```
 
- **IsLessThanType**
+```xml
+<IsLessThan>
+   <IndexedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsLessThan>
+```
+
+```xml
+<IsLessThan>
+   <ExtendedFieldURI/>
+   <FieldURIOrConstant/>
+</IsLessThan>
+```
+
+**IsLessThanType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -52,7 +67,7 @@ ms.locfileid: "19834040"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ограничения](restriction.md) <br/> |Представляет ограничение или запрос, используемый для фильтрации элементов или папок в папке операциях FindItem/FindFolder и поиска.  <br/> |
+|[Restriction](restriction.md) <br/> |Представляет ограничение или запрос, используемый для фильтрации элементов или папок в папке операциях FindItem/FindFolder и поиска.  <br/> |
 |[Не](not.md) <br/> |Представляет выражение поиска, которое Инвертирует логическое значение выражения поиска, который он содержит.  <br/> |
 |[И](and.md) <br/> |Представляет выражение поиска, которое позволяет выполнять логическое и операции между двумя или более выражений для поиска. Операции получается **значение true,** **Если все выражения поиска, содержащихся в And**.  <br/> |
 |[Или](or.md) <br/> |Представляет выражение поиска, используемая для выполнения логического или выражения поиска, которые он содержит. [Или](or.md) возвращает значение true, если какие-либо из их дочерних элементов возвращало значение true. [Или](or.md) должен иметь два или несколько дочерних элементов.  <br/> |
@@ -71,8 +86,6 @@ ms.locfileid: "19834040"
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
-
-
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

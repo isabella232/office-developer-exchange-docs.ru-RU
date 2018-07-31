@@ -1,5 +1,5 @@
 ---
-title: Запрос (POX)
+title: Request (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -9,25 +9,31 @@ api_type:
 - schema
 ms.assetid: da54eb32-7ce5-4384-9893-255a2243a959
 description: Элемент запрос содержит запрос к службе автообнаружения.
-ms.openlocfilehash: ed6b0a80e83e160287f382a881dc5405bfb47a37
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3f5d5258a92840fe79c4936370323b78aa4715b3
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835124"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354430"
 ---
-# <a name="request-pox"></a>Запрос (POX)
+# <a name="request-pox"></a>Request (POX)
 
 Элемент **запрос** содержит запрос к службе автообнаружения. 
   
-[Автообнаружение (POX)](autodiscover-pox.md)
-  
-[Запрос (POX)](request-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Request (POX)](request-pox.md)
   
 ```xml
 <Request>
    <AcceptableResponseSchema/>
    <EMailAddress/>
+</Request>
+```
+
+```xml
+<Request>
+   <AcceptableResponseSchema/> 
+   <LegacyDN/>
 </Request>
 ```
 
@@ -51,11 +57,9 @@ ms.locfileid: "19835124"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Автообнаружение (POX)](autodiscover-pox.md) <br/> |Корневой элемент в запросе службы автообнаружения.  <br/> |
+|[AutoDiscover (POX)](autodiscover-pox.md) <br/> |Корневой элемент в запросе службы автообнаружения.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-
-
-[Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 22d30d1f-a84d-48bb-ad8f-ce13f8e76604
 description: Элемент CompleteName представляет полное имя контакта.
-ms.openlocfilehash: 1f6c9ba68fe941f848d0e250a39aea6894fca61e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bca6f7e0eb915841673d00b5485da2f0f9794e80
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761696"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354262"
 ---
 # <a name="completename"></a>CompleteName
 
@@ -53,12 +53,12 @@ ms.locfileid: "19761696"
 |:-----|:-----|
 |[Название](title.md) <br/> |Представляет должность контакта.  <br/> |
 |[FirstName](firstname.md) <br/> |Представляет имя контакта.  <br/> |
-|[Отчество](middlename.md) <br/> |Представляет отчество контакта.  <br/> |
-|[Фамилия](lastname.md) <br/> |Представляет фамилию контакта.  <br/> |
-|[Суффикс](suffix.md) <br/> |Представляет суффикса имени контакта.  <br/> |
-|[Инициалы](initials.md) <br/> |Представляет отчество контакта.  <br/> |
-|[Полное имя](fullname.md) <br/> |Представляет полное имя контакта.  <br/> |
-|[Понятное имя](nickname.md) <br/> |Представляет псевдоним контакта.  <br/> |
+|[MiddleName](middlename.md) <br/> |Представляет отчество контакта.  <br/> |
+|[LastName](lastname.md) <br/> |Представляет фамилию контакта.  <br/> |
+|[Suffix](suffix.md) <br/> |Представляет суффикса имени контакта.  <br/> |
+|[Initials](initials.md) <br/> |Представляет отчество контакта.  <br/> |
+|[FullName](fullname.md) <br/> |Представляет полное имя контакта.  <br/> |
+|[Nickname](nickname.md) <br/> |Представляет псевдоним контакта.  <br/> |
 |[YomiFirstName](yomifirstname.md) <br/> |Представляет имя, используемое в Японии для поиска или фонетическое написание имя японского языка.  <br/> |
 |[YomiLastName](yomilastname.md) <br/> |Представляет имя, используемое в Японии для поиска или фонетическое орфографию японского Фамилия.  <br/> |
    
@@ -70,7 +70,7 @@ ms.locfileid: "19761696"
    
 ## <a name="remarks"></a>Замечания
 
-Свойство [CompleteName](completename.md) является частью фигуры [по умолчанию](https://msdn.microsoft.com/library/ExchangeWebServices.DefaultShapeNamesType.Default.aspx) . В первоначальной версии Microsoft Exchange Server 2007 свойство [CompleteName](completename.md) возвращается [операции GetItem](getitem-operation.md), но не [FindItem операции](finditem-operation.md). Начиная с Exchange Server 2007 с пакетом обновления 1 (SP1), [операция FindItem](finditem-operation.md) также возвращает свойство [CompleteName](completename.md) формы [по умолчанию](https://msdn.microsoft.com/library/ExchangeWebServices.DefaultShapeNamesType.Default.aspx) . Это изменение не влияет на схеме. 
+Свойство CompleteName является частью фигуры [по умолчанию](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . В первоначальной версии Microsoft Exchange Server 2007 свойство CompleteName возвращается [операции GetItem](getitem-operation.md), но не [FindItem операции](finditem-operation.md). Начиная с Exchange Server 2007 с пакетом обновления 1 (SP1), [операция FindItem](finditem-operation.md) также возвращает свойство CompleteName формы [по умолчанию](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . Это изменение не влияет на схеме. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -85,17 +85,7 @@ ms.locfileid: "19761696"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[CompleteNameType](https://msdn.microsoft.com/library/ExchangeWebServices.CompleteNameType.aspx)
-  
-[CompleteName](https://msdn.microsoft.com/library/ExchangeWebServices.ContactItemType.CompleteName.aspx)
-  
-[contactsCompleteName](https://msdn.microsoft.com/library/ExchangeWebServices.UnindexedFieldURIType.contactsCompleteName.aspx)
-
-
+- [CompleteNameType](https://msdn.microsoft.com/library/ExchangeWebServices.CompleteNameType.aspx)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bd6a4265-ad40-43f6-bcc4-0bf5df4e984c
 description: Элемент ToFolderId представляет конечной папки для копируемые или перемещения элемента или папки.
-ms.openlocfilehash: a48309f0b7f5c9bf667fc2eb653a0502832bc996
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9d2fd6c177711cfe3a5d3415320440259e2f5289
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840198"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353660"
 ---
 # <a name="tofolderid"></a>ToFolderId
 
@@ -29,7 +29,14 @@ ms.locfileid: "19840198"
 </ToFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<ToFolderId>
+   <DistinguishedFolderId/>
+</ToFolderId>
+```
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -69,13 +76,8 @@ ms.locfileid: "19840198"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[Операция MoveFolder](movefolder-operation.md)
-  
-[Операция CopyFolder](copyfolder-operation.md)
-  
-[MoveItem Operation](moveitem-operation.md)
-  
-[CopyItem Operation](copyitem-operation.md)
+- [Операция MoveFolder](movefolder-operation.md)  
+- [Операция CopyFolder](copyfolder-operation.md) 
+- [Операция MoveItem](moveitem-operation.md) 
+- [Операция CopyItem](copyitem-operation.md)
 

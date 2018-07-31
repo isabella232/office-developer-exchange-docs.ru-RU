@@ -12,20 +12,19 @@ api_type:
 - schema
 ms.assetid: 56d6aa52-8fa6-4773-9046-44a6f4f5d97c
 description: Элемент ConnectingSID представляет учетную запись для олицетворения при использовании заголовка ExchangeImpersonation SOAP.
-ms.openlocfilehash: 6e0bb90e197ce22bcd982a6d51954a88f3a2cf03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a30f11721506989a84f52dd04c328974f4483956
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761720"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354339"
 ---
 # <a name="connectingsid"></a>ConnectingSID
 
 Элемент **ConnectingSID** представляет учетную запись для олицетворения при использовании заголовка ExchangeImpersonation SOAP. 
   
-[ExchangeImpersonation](exchangeimpersonation.md)
-  
-[ConnectingSID](connectingsid.md)
+- [ExchangeImpersonation](exchangeimpersonation.md) 
+- [ConnectingSID](connectingsid.md)
   
 ```xml
 <ConnectingSID>
@@ -33,7 +32,26 @@ ms.locfileid: "19761720"
 </ConnectingSID>
 ```
 
- **ConnectingSIDType**
+```xml
+<ConnectingSID>
+   <SmtpAddress/>
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+    <SID/> 
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+   <PrimarySmtpAddress/>
+</ConnectingSID>
+```
+
+**ConnectingSIDType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -47,8 +65,8 @@ ms.locfileid: "19761720"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[PrincipalName](principalname.md) <br/> |Представляет имя участника-пользователя (UPN) учетную запись, используемую для олицетворения. Это должно быть имя участника-пользователя для домена, где существует учетная запись пользователя.  <br/> |
-|[ИД БЕЗОПАСНОСТИ](sid.md) <br/> |Представляет идентификатор безопасности (SID) формы языке SDDL определения дескриптор безопасности для учетной записи для использования при олицетворении.  <br/> |
-|[Параметр PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Представляет основной адрес Simple Mail Transfer Protocol (SMTP) учетную запись, используемую для олицетворения Exchange. Если предоставлен основной SMTP-адрес, это потребует дополнительного поиска службы каталогов Active Directory для получения ИД безопасности пользователя. Мы рекомендуем использовать ИД безопасности или имя участника-пользователя, если они доступны.  <br/> |
+|[SID](sid.md) <br/> |Представляет идентификатор безопасности (SID) формы языке SDDL определения дескриптор безопасности для учетной записи для использования при олицетворении.  <br/> |
+|[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Представляет основной адрес Simple Mail Transfer Protocol (SMTP) учетную запись, используемую для олицетворения Exchange. Если предоставлен основной SMTP-адрес, это потребует дополнительного поиска службы каталогов Active Directory для получения ИД безопасности пользователя. Мы рекомендуем использовать ИД безопасности или имя участника-пользователя, если они доступны.  <br/> |
 |[SmtpAddress](smtpaddress.md) <br/> |Представляет адрес Simple Mail Transfer Protocol (SMTP) учетную запись, используемую для олицетворения Exchange. Если предоставлен SMTP-адрес, это потребует дополнительного поиска Active Directory для получения ИД безопасности пользователя. Мы рекомендуем использовать ИД безопасности или имя участника-пользователя, если они доступны.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
@@ -74,7 +92,5 @@ ms.locfileid: "19761720"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[Сервер сервер авторизации в веб-служб Exchange](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+- [Сервер сервер авторизации в веб-служб Exchange](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

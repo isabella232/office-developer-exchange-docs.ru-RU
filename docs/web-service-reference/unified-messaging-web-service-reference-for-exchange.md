@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 83afea8a-c716-41df-9eb2-e1000357afb6
 description: Найдите справочные статьи для веб-службы единой системы обмена сообщениями (UM) в Exchange.
-ms.openlocfilehash: 12ee91c5a8b7e1ba23b937f142a9ae2835697fef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9e124f504ecee517edc51610696f06729904d75f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840268"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354276"
 ---
 # <a name="unified-messaging-web-service-reference-for-exchange"></a>Единой системы обмена сообщениями веб-службы ссылки для Exchange
 
@@ -27,15 +27,16 @@ ms.locfileid: "19840268"
 Можно использовать службу автообнаружения для получения URL-адрес конечной веб-службы единой системы обмена СООБЩЕНИЯМИ. Дополнительные сведения о автообнаружения можно [автообнаружения для Exchange](../exchange-web-services/autodiscover-for-exchange.md).
   
 > [!NOTE]
->  Для версий Exchange, начиная с Exchange 2010, мы рекомендуем использовать операций единой системы обмена сообщениями, доступные в [Веб-служб Exchange (EWS)](http://msdn.microsoft.com/library/60285497-0c4e-4e51-84e1-34dd6d89a5d8%28Office.15%29.aspx) вместо веб-службы единой системы обмена СООБЩЕНИЯМИ по следующим причинам: > иметь возможности единой системы обмена СООБЩЕНИЯМИ на основе веб-служб Exchange поддержку в управляемый API веб-служб Exchange. > В версиях Exchange, начиная с Exchange 2010 новые возможности единой системы обмена СООБЩЕНИЯМИ будут добавлены к веб-служб Exchange, но не к веб-службе единой системы обмена сообщениями. 
+>  Версии Exchange, начиная с Exchange 2010 рекомендуется использовать операций единой системы обмена сообщениями, доступные в [Веб-служб Exchange (EWS)](http://msdn.microsoft.com/library/60285497-0c4e-4e51-84e1-34dd6d89a5d8%28Office.15%29.aspx) вместо веб-службы единой системы обмена СООБЩЕНИЯМИ по следующим причинам: 
+> - Поддержку иметь возможности единой системы обмена СООБЩЕНИЯМИ на основе веб-служб Exchange в управляемый API веб-служб Exchange. 
+> - В версиях Exchange, начиная с Exchange 2010 новые возможности единой системы обмена СООБЩЕНИЯМИ будут добавлены к веб-служб Exchange, но не к веб-службе единой системы обмена сообщениями. 
   
 Веб-службы единой системы обмена СООБЩЕНИЯМИ не имеет явных схемы.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 <a name="bk_InThisSection"> </a>
 
-- [Операции единой системы обмена сообщениями веб-службы для Exchange](unified-messaging-web-service-operations-for-exchange.md)
-    
+- [Операции единой системы обмена сообщениями веб-службы для Exchange](unified-messaging-web-service-operations-for-exchange.md)   
 - [Единой системы обмена сообщениями веб-службы XML элементов для Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
     
 ## <a name="see-also"></a>См. также

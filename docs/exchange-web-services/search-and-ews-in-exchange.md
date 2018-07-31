@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9fa5b836-857e-401d-9450-51e7dbc69104
 description: Узнайте, как выполнять поиск элементов в Exchange с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange.
-ms.openlocfilehash: da24258ba94b842fa97fff92148620344c939f05
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1a8ed6be71d88a02c4ef935864ca15888df90a38
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761246"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354059"
 ---
 # <a name="search-and-ews-in-exchange"></a>Поиск и веб-службах Exchange
 
@@ -28,7 +28,7 @@ ms.locfileid: "19761246"
   
 **В таблице 1. Сценарии фильтры поиска и поисковых запросов**
 
-|**Если вы хотите...**|**Использование...**|**Примечания**|
+|**Задача**|**Использование...**|**Примечания**|
 |:-----|:-----|:-----|
 |Ограничение поиска в определенное свойство или набор свойств  <br/> |Фильтр поиска  <br/> |Фильтры поиска предоставляют наиболее уровень элемента управления, по которому выполняется поиск свойства. Несмотря на то, что строки запроса можно распределять ограниченный набор свойств с помощью расширенный синтаксис запроса (AQS), фильтры поиска можно назначить любое свойство.  <br/> |
 |Создание операций поиска с несколькими условиями  <br/> |Фильтр поиска  <br/> |Фильтры поиска несколько условий поиска может быть присоединен вместе с логической запускалась или или, позволяя поиска как «тема содержит «Заметки к собранию» и отправителя равно «Sadie Daniels»». Несмотря на то, что строки запросов также можно объединить несколько условий поиска, они ограничены набор свойств, поддерживаемых строки запроса.  <br/> |
@@ -111,12 +111,12 @@ view.PropertySet = new PropertySet(ItemSchema.Subject, ItemSchema.DateTimeReceiv
   
 **В таблице 2. Значения обхода поиска**
 
-|**Значение обхода**|**Применимо к**|**Описание**|
+|**Значение обхода**|**Область применения**|**Описание**|
 |:-----|:-----|:-----|
 |Неполная  <br/> |Элементов и папок  <br/> |Поиск частичного ограничены являются прямыми потомками папки поиска.  <br/> |
 |Глубокое  <br/> |Элементы (только для папок поиска) и папок  <br/> |Рекурсивно глубокой поисков поиска выполняется поиск папки и вложенные папки.  <br/> |
-|Связанные  <br/> |Элементы  <br/> |Связанные поиск включаются только связанных элементов из папки поиска. Связанные элементы, скрытые элементы в папке.  <br/> |
-|SoftDeleted  <br/> |Элементов и папок  <br/> |Этот тип обхода является устаревшим. Поиск SoftDeleted включает только элементов, находящихся в корзине. Корзины вместо нее [папки восстанавливаемых элементов](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx) в Exchange Online, Exchange Online как часть Office 365 и версии Exchange, начиная с Exchange 2010.  <br/> |
+|Связанные  <br/> |Items  <br/> |Связанные поиск включаются только связанных элементов из папки поиска. Связанные элементы, скрытые элементы в папке.  <br/> |
+|SoftDeleted  <br/> |Элементов и папок  <br/> |Этот тип обхода является устаревшим. Поиск SoftDeleted включает только элементов, находящихся в корзине. Корзины вместо нее [папки восстанавливаемых элементов](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder) в Exchange Online, Exchange Online как часть Office 365 и версии Exchange, начиная с Exchange 2010.  <br/> |
    
 ## <a name="managing-search-results"></a>Управление результатами поиска
 <a name="bk_ManageSearchResults"> </a>
@@ -170,7 +170,7 @@ static void CreateSearchFolder(ExchangeService service)
 }
 ```
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 <a name="bk_InThisSection"> </a>
 
 - [Используйте фильтры поиска с помощью веб-служб Exchange в Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
@@ -188,7 +188,7 @@ static void CreateSearchFolder(ExchangeService service)
 
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Папка элементов для восстановления](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx)
+- [Папка элементов для восстановления](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder)
     
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     

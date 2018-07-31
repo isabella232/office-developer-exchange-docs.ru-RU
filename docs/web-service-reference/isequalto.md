@@ -1,5 +1,5 @@
 ---
-title: Выражение IsEqualTo
+title: IsEqualTo
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 48e7e067-049c-4184-8026-071e6f558e8a
 description: Выражение IsEqualTo элемент представляет выражение поиска, которое сравнивает свойство с постоянным значением или другим свойством и возвращает значение true, если они равны.
-ms.openlocfilehash: a7a7deed79c271be74bb2ff16dd86605d468721b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 733032819e6875fa878c1cd631d173a1c48ecdfe
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834013"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353163"
 ---
-# <a name="isequalto"></a>Выражение IsEqualTo
+# <a name="isequalto"></a>IsEqualTo
 
 **Выражение IsEqualTo** элемент представляет выражение поиска, которое сравнивает свойство с постоянным значением или другим свойством и возвращает значение true, если они равны. 
   
@@ -30,7 +30,22 @@ ms.locfileid: "19834013"
 </IsEqualTo>
 ```
 
- **IsEqualToType**
+```xml
+<IsEqualTo>
+   <ExtendedFieldURI/>
+   <FieldURIOrConstant/>
+</IsEqualTo>
+```
+
+```xml
+<IsEqualTo>
+   <IndexedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsEqualTo>
+```
+
+**IsEqualToType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -52,7 +67,7 @@ ms.locfileid: "19834013"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ограничения](restriction.md) <br/> |Представляет ограничение или запрос, используемый для фильтрации элементов или папок в папке операциях FindItem/FindFolder и поиска.  <br/> |
+|[Restriction](restriction.md) <br/> |Представляет ограничение или запрос, используемый для фильтрации элементов или папок в папке операциях FindItem/FindFolder и поиска.  <br/> |
 |[Не](not.md) <br/> |Представляет выражение поиска, которое Инвертирует логическое значение выражения поиска, который он содержит.  <br/> |
 |[И](and.md) <br/> |Представляет выражение поиска, которое позволяет выполнять логическое и операции между двумя или более выражений для поиска. Операции получается **значение true,** **Если все выражения поиска, содержащихся в And**.  <br/> |
 |[Или](or.md) <br/> |Представляет выражение поиска, используемая для выполнения логического или на нем выражением поиска. [Или](or.md) возвращает значение true, если какие-либо из их дочерних элементов возвращало значение true. **Или** должен иметь два или несколько дочерних элементов.  <br/> |
@@ -73,8 +88,6 @@ ms.locfileid: "19834013"
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
-
-
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

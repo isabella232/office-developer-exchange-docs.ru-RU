@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 572f8b40-dfa8-47bc-b0c1-e1a7138506fd
 description: MovedEvent элемент представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую.
-ms.openlocfilehash: a375f421ca9159103e47b515729316b21149c68a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 07f9c02ea194187a9fdfb1e27b19eb311392f51f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834479"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353261"
 ---
 # <a name="movedevent"></a>MovedEvent
 
@@ -34,7 +34,20 @@ ms.locfileid: "19834479"
 </MovedEvent>
 ```
 
- **MovedCopiedEventType**
+```xml
+<MovedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+   <OldFolderId/>
+   <OldParentFolderId/>
+</MovedEvent>
+```
+
+
+**MovedCopiedEventType**
+
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
@@ -47,8 +60,8 @@ ms.locfileid: "19834479"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Водяной знак](watermark.md) <br/> |Представляет закладку события в таблице событий почтового ящика.  <br/> |
-|[Метка времени](timestamp.md) <br/> |Представляет метка времени события перемещения элемента или временная папка почтового ящика.  <br/> |
+|[Watermark](watermark.md) <br/> |Представляет закладку события в таблице событий почтового ящика.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Представляет метка времени события перемещения элемента или временная папка почтового ящика.  <br/> |
 |[FolderId](folderid.md) <br/> |Представляет идентификатор перемещенной папки.  <br/> |
 |[Идентификатор элемента](itemid.md) <br/> |Представляет идентификатор перемещаемый элемент.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор папка, содержащая перемещенный элемент или папку.  <br/> |
@@ -77,11 +90,7 @@ ms.locfileid: "19834479"
    
 ## <a name="see-also"></a>См. также
 
-
-
-[Операции подписки](subscribe-operation.md)
-  
-[Операция GetEvents](getevents-operation.md)
-  
-[Отписаться операции](unsubscribe-operation.md)
+- [Операции подписки](subscribe-operation.md) 
+- [Операция GetEvents](getevents-operation.md) 
+- [Отписаться операции](unsubscribe-operation.md)
 
