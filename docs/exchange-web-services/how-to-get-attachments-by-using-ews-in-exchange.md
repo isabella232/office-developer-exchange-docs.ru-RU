@@ -1,37 +1,37 @@
 ---
-title: Получение вложений с помощью веб-служб Exchange в Exchange
+title: Получение вложений с помощью EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 12ce3cc0-a201-42e4-93e1-1f57961ff711
-description: Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Узнайте, как получить вложения из элементов EWS с помощью управляемого API EWS или протокола EWS в Exchange.
+description: Узнайте, как получить вложения из элементов EWS с помощью управляемого API EWS или протокола EWS в Exchange.
 ms.openlocfilehash: 2e1b3cfb346abd068695f66b01f9e34f1f5ff03f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761013"
 ---
-# <a name="get-attachments-by-using-ews-in-exchange"></a>Получение вложений с помощью веб-служб Exchange в Exchange
+# <a name="get-attachments-by-using-ews-in-exchange"></a>Получение вложений с помощью EWS в Exchange
 
-Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Узнайте, как получить вложения из элементов EWS с помощью управляемого API EWS или протокола EWS в Exchange.
+Узнайте, как получить вложения из элементов EWS с помощью управляемого API EWS или протокола EWS в Exchange.
   
-Получить вложения из элемента можно с помощью управляемого API EWS или веб-служб EWS. Извлечение вложений всегда проходит в два этапа, поскольку исходный вызов для получения элемента содержит только метаданные о коллекции вложений элемента. Сперва необходимо извлечь объект, а затем  вложение.
+Получить вложения из элемента можно с помощью управляемого API EWS или веб-служб EWS. Извлечение вложений всегда проходит в два этапа, поскольку исходный вызов для получения элемента содержит только метаданные о коллекции вложений элемента. Сперва необходимо извлечь объект, а затем — вложение.
   
 **Таблица 1. Методы управляемого API EWS и операции EWS для добавления вложений**
 
 |**Задача**|**Метод управляемого API EWS**|**Операция служб EWS**|
 |:-----|:-----|:-----|
-|Получение вложений элемента  <br/> |[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) и [ItemAttachment.Load](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemattachment.load%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) и [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
-|Получение файловых вложений  <br/> |[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) и [FileAttachment.Load](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.fileattachment.load%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) и [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
+|Получение вложений элемента  <br/> |[Item.Bind](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) и [ItemAttachment.Load](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.itemattachment.load%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) и [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
+|Получение файловых вложений  <br/> |[Item.Bind](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) и [FileAttachment.Load](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.fileattachment.load%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) и [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
    
 ## <a name="get-attachments-from-an-email-by-using-the-ews-managed-api"></a>Извлечение вложений из электронного письма с помощью управляемого API EWS
 <a name="bk_getattachewsma"> </a>
 
-В следующем примере кода показано, как для получения объекта [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) с помощью метода **привязки** , а затем выполните итерацию по коллекции вложений и вызовите метод **FileAttachment.Load** или **ItemAttachment.Load** на каждом вложение соответствующим образом. Каждый вложенный файл сохраняется в папку C:\temp\ и каждого вложения элемента загружается в память. Сведения о том, как сохранить вложение элемента в разделе [Сохранить вложенные по электронной почте с помощью управляемого интерфейса API веб-служб Exchange](#bk_saveitemattach).
+Приведенный ниже пример кода демонстрирует способ извлечения объекта [EmailMessage](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) с помощью метода **Bind**, выполнения итерации через коллекцию вложений и вызова метода **FileAttachment.Load** или **ItemAttachment.Load** для каждого вложения при необходимости. Каждое вложение файла сохраняется в папку C:\temp\, а каждое вложение элемента загружается в память. Дополнительные сведения о сохранении вложения элемента см. в разделе [Сохранение вложенной почты с помощью управляемого API EWS](#bk_saveitemattach).
   
-В этом примере предполагается, что **service** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), что **itemId** является классом [ItemId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) сообщения, из которого будут извлекаться вложения, а также что пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что **service** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), что **itemId** является классом [ItemId](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) сообщения, из которого будут извлекаться вложения, а также что пользователь прошел проверку подлинности на сервере Exchange. 
   
 ```cs
 public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemId)
@@ -96,7 +96,7 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-В ответ на запрос **GetItem** сервер отправляет сообщение [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx), содержащее элемент [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError** (что говорит об успешном извлечении письма) и значения [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) существующих вложений. 
+В ответ на запрос **GetItem** сервер отправляет сообщение [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx), содержащее элемент [ResponseCode](http://msdn.microsoft.com/ru-RU/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError** (что говорит об успешном извлечении письма) и значения [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) существующих вложений. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -171,7 +171,7 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-При извлечении только элемента вложения в ответ на запрос **GetAttachment** сервер отправляет сообщение [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx), содержащее элемент [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError** (что говорит об успешном извлечении вложения) и все элементы элемента вложения, т. е. сообщения электронной почты.
+При извлечении только элемента вложения в ответ на запрос **GetAttachment** сервер отправляет сообщение [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx), содержащее элемент [ResponseCode](http://msdn.microsoft.com/ru-RU/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError** (что говорит об успешном извлечении вложения) и все элементы элемента вложения, т. е. сообщения электронной почты.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -259,7 +259,7 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 </s:Envelope>
 ```
 
-При извлечении вложенного файла в ответ на запрос **GetAttachment** сервер отправляет сообщение [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx), содержащее элемент [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError** (что говорит об успешном извлечении вложения) и все элементы вложенного файла.
+При извлечении вложенного файла в ответ на запрос **GetAttachment** сервер отправляет сообщение [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx), содержащее элемент [ResponseCode](http://msdn.microsoft.com/ru-RU/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError** (что говорит об успешном извлечении вложения) и все элементы вложенного файла.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -299,7 +299,7 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 ## <a name="save-an-attached-email-by-using-the-ews-managed-api"></a>Сохранение вложенного сообщения электронной почты с помощью управляемого API EWS
 <a name="bk_saveitemattach"> </a>
 
-Чтобы сохранить содержимое вложения сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange, необходимо сохранить [MimeContent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) в файл. При этом будут потеряны все расширенные свойства, заданные для элемента, например звонящему флаги и категорий. В этом примере сохраняет вложения электронной почты в папку C:\temp\. 
+Чтобы сохранить содержимое вложения почты с помощью управляемого API EWS, нужно сохранить[MimeContent](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) в файл. При этом будут потеряны все расширенные свойства установленные для элемента. Например, отметки "К исполнению" и категории. Этот пример сохраняет вложение почты в папку C:\temp\. 
   
 Обратите внимание, что вам не удастся переместить или скопировать вложение в другую папку, так как элемент вложения не является строго типизированным. Поэтому если нужно переместить вложение в другую папку, используйте приведенный ниже пример кода, а затем [импортируйте файл](how-to-import-items-by-using-ews-in-exchange.md) в другую папку. 
   
@@ -328,10 +328,10 @@ public static void SaveEmailAttachment(ExchangeService service, ItemId itemId)
 ## <a name="see-also"></a>См. также
 
 
-- [Attachments and EWS in Exchange](attachments-and-ews-in-exchange.md)
+- [Вложение и EWS в Exchange](attachments-and-ews-in-exchange.md)
     
-- [Добавление вложения с помощью веб-служб Exchange в Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
+- [Добавление вложений с помощью EWS в Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
     
-- [Удаление вложений с помощью веб-служб Exchange в Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
+- [Удаление вложений с помощью EWS в Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
     
 

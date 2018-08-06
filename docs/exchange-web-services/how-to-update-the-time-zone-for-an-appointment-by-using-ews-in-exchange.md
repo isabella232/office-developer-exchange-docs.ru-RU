@@ -1,21 +1,21 @@
 ---
-title: Обновление часового пояса для встречи с помощью веб-служб Exchange в Exchange
+title: Обновление часового пояса встречи с помощью EWS в Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dc2240c1-5500-4d5c-97d5-09d63ffd30d5
-description: Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Узнайте, как обновить часовой пояс для существующих встреч и собраний с помощью управляемого API EWS и EWS в Exchange.
+description: Узнайте, как изменить часовой пояс для существующей встречи или собрания с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 535eb9f546d9a4353408579f3a24750f32237699
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761126"
 ---
-# <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>Обновление часового пояса для встречи с помощью веб-служб Exchange в Exchange
+# <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>Обновление часового пояса встречи с помощью EWS в Exchange
 
-Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Узнайте, как обновить часовой пояс для существующих встреч и собраний с помощью управляемого API EWS и EWS в Exchange.
+Узнайте, как изменить часовой пояс для существующей встречи или собрания с помощью управляемого API EWS или EWS в Exchange.
   
 При создании встречи или собрания для календаря Exchange часовой пояс, используемый для указания времени начала и окончания, сохраняется как часовой пояс создания встречи. Этот часовой пояс можно изменить с помощью EWS или управляемого API EWS. Тем не менее, изменение часового пояса приводит и к другим последствиям для времени начала и окончания встречи.
   
@@ -27,9 +27,9 @@ ms.locfileid: "19761126"
   
 ## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-the-ews-managed-api"></a>Обновление часового пояса существующей встречи с помощью управляемого API EWS
 
-В следующем примере управляемый API EWS используется для обновления часового пояса на существующую встречу в центре часовой пояс, изменив свойства **Appointment.EndTimeZone** и **Appointment.StartTimeZone** . Если параметр _shiftAppointnment_ имеет значение **true**, код не заданы явно времени начала и завершения для встречи. В этом случае сервер будет сместиться времени начала и завершения для сохранения их в одно и то же время относительно часового пояса в новый часовой пояс. Если задано значение **false**, код преобразует времени начала и завершения явным образом, чтобы сохранить встречу в то же время в формате UTC. 
+В приведенном ниже примере показано как, используя управляемый API EWS, изменить часовой пояс для имеющейся встречи на Центральный часовой пояс путем обновления свойств **Appointment.StartTimeZone** и **Appointment.EndTimeZone**. Если для параметра _shiftAppointnment_ установлено значение **true**, код явным образом не задает время начала и окончания встречи. В этом случае сервер сместит время начала и окончания относительно нового часового пояса таким образом, чтобы оно не изменилось в этом часовом поясе. Если задано значение **false**, код преобразует время начала и окончания явным образом, чтобы время встречи в формате UTC осталось неизменным. 
 
-В этом примере предполагается, что объект **ExchangeService** была ли инициализирована с допустимые значения для свойства [URL-адреса](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) и [учетных данных](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) . 
+В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). 
   
 ```cs
 static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bool shiftAppointment)
@@ -112,7 +112,7 @@ static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bo
 }
 ```
 
-Когда пример используется для обновления встречи, которая начинается в 13:00 по Восточному времени и заканчивается в 14:00 по Восточному времени, при этом для параметра  _shiftAppointment_ задано значение true, а свойству [ExchangeService.TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) присвоен Восточный часовой пояс, результат выглядит следующим образом. 
+Когда пример используется для обновления встречи, которая начинается в 13:00 по Восточному времени и заканчивается в 14:00 по Восточному времени, при этом для параметра  _shiftAppointment_ задано значение true, а свойству [ExchangeService.TimeZone](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) присвоен Восточный часовой пояс, результат выглядит следующим образом. 
   
 ```MS-DOS
 Before update:
@@ -239,7 +239,7 @@ After update:
 ## <a name="see-also"></a>См. также
 
 - [Часовые пояса и EWS в Exchange](time-zones-and-ews-in-exchange.md)   
-- [Создание встречи в конкретного часового пояса с помощью веб-служб Exchange в Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)   
+- [Создание встречи в определенном часовом поясе с помощью EWS в Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)   
 - [Обновление встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

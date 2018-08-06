@@ -8,18 +8,18 @@ ms.assetid: 899ba15b-336d-4f9b-8563-318c61e43713
 description: Здесь вы найдете сведения, которые помогут вам в разработке веб-служб Exchange и клиентских приложений для них.
 ms.openlocfilehash: 2b8b032124e45dda7c83932d519ffb87bcdb5514
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760933"
 ---
 # <a name="develop-web-service-clients-for-exchange"></a>Разработка клиентов веб-служб для Exchange
 
-Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Здесь вы найдете сведения, которые помогут вам в разработке веб-служб Exchange и клиентских приложений для них.
+Здесь вы найдете сведения, которые помогут вам в разработке веб-служб Exchange и клиентских приложений для них.
   
 В статьях этого раздела объясняется, как использовать веб-службы Exchange и веб-службы в клиентских приложениях Exchange для Exchange Online, Exchange Online в рамках Office 365 и локальных версий Exchange, начиная с версии 2013. Кроме того, на примерах показано, как выполнять определенные задачи. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 - [Архивация в веб-служб Exchange в Exchange](archiving-in-ews-in-exchange.md)
     
@@ -63,7 +63,7 @@ ms.locfileid: "19760933"
     
 - [Инструменты и ресурсы для устранения неполадок приложений EWS для Exchange](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)
     
-- [Проверка результатов вызова EWS или EWS управляемых API](verifying-the-results-of-an-ews-or-ews-managed-api-call.md)
+- [Проверка результатов вызова EWS или управляемого API EWS](verifying-the-results-of-an-ews-or-ews-managed-api-call.md)
     
 ## <a name="see-also"></a>См. также
 
