@@ -1,19 +1,19 @@
 ---
-title: Надстройки Outlook и веб-службах Exchange
+title: Надстройки для Outlook и EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 821c8eb9-bb58-42e8-9a3a-61ca635cba59
 description: Найдите сведения о надстройках Outlook и работы с веб-служб Exchange в Exchange.
-ms.openlocfilehash: fc004108c7f31ea6475d61f4e2cd2289b13d27f5
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 7eae834fe0bb93e2e94f094e811ab6cf002fc71b
+ms.sourcegitcommit: 42eecc78e7aed7e95f73370d6c39ab8f4e96bf68
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353639"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25541640"
 ---
-# <a name="outlook-add-ins-and-ews-in-exchange"></a>Надстройки Outlook и веб-службах Exchange
+# <a name="outlook-add-ins-and-ews-in-exchange"></a>Надстройки для Outlook и EWS в Exchange
 
 Найдите сведения о надстройках Outlook и работы с веб-служб Exchange в Exchange.
 
@@ -42,7 +42,7 @@ ms.locfileid: "21353639"
 
 Вашей организации можно установить почтовых приложений на внутреннем сервере для ограничения доступа к авторизованные пользователи, или вы разработчиков приложений и других почтовых приложений можно размещать почтовых приложений в [Магазине Office](http://office.microsoft.com/store/) для продажи для всех. Любой пользователь, запущен Outlook можно загрузить, установить и использовать почтовые приложения из магазина.
 
-Если вы хотите узнать больше о создании почтовых приложений, извлечь [документации надстроек Outlook](/outlook/add-ins/index.md) или пример [выполнения запроса веб-служб Exchange](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) .
+Если вы хотите узнать больше о создании почтовых приложений, извлечь [документации надстроек Outlook](/outlook/add-ins) или пример [выполнения запроса веб-служб Exchange](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) .
 
 ## <a name="ews-and-outlook-add-ins"></a>Надстройки Outlook и веб-служб Exchange
 
@@ -64,7 +64,7 @@ ms.locfileid: "21353639"
 
 |**Папка операций**|**Операции с элементами**|
 |:-----|:-----|
-|[Операция CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> [Операция FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> [Операция GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [Операция UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |[Операция CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [Операция CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> [Операция FindConversation](http://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) <br/> [Операция GetConversationItems](http://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) <br/> [Операция GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [Операция MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) <br/> [Операция MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [Операция SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) <br/> [Операция UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|[CreateFolder Operation](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> [FindFolder Operation](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> [GetFolder Operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [Операцию UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |[CopyItem Operation](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [CreateItem Operation](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [FindItem Operation](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> [FindConversation Operation](http://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) <br/> [GetConversationItems operation](http://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) <br/> [GetItem Operation](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [MarkAsJunk Operation](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) <br/> [MoveItem Operation](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [SendItem Operation](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) <br/> [UpdateItem Operation](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
 
 ### <a name="service-callback-tokens"></a>Служба маркеров обратного вызова
 
@@ -75,11 +75,11 @@ ms.locfileid: "21353639"
 ## <a name="see-also"></a>См. также
 
 
-- [Управление доступом к клиентского приложения для веб-служб Exchange в Exchange](controlling-client-application-access-to-ews-in-exchange.md)
+- [Управление доступом клиентских приложений к EWS в Exchange](controlling-client-application-access-to-ews-in-exchange.md)
 
 - [Метод Mailbox.makeEwsRequestAsync (API JavaScript для Office)](http://msdn.microsoft.com/library/2ec380e0-4a67-4146-92a6-6a39f65dc6f2%28Office.15%29.aspx)
 
-- [Надстройки Outlook](https://docs.microsoft.com/en-us/outlook/add-ins/)
+- [Надстройки Outlook](https://docs.microsoft.com/outlook/add-ins)
 
 - [Метод Mailbox.getUserIdentityTokenAsync (API JavaScript для Office)](http://msdn.microsoft.com/library/c658518b-6867-41a0-99cf-810303e4c539%28Office.15%29.aspx)
 
