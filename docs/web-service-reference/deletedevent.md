@@ -1,5 +1,5 @@
 ---
-title: DeletedEvent
+title: делетедевент
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
-description: DeletedEvent элемент представляет событие, в котором удаляется элемент или папку.
+description: Элемент Делетедевент представляет событие, в котором удаляется элемент или папка.
 ms.openlocfilehash: 5ddc909ffc9c74ea6b423610e915d5b9ff9bff43
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21354409"
 ---
-# <a name="deletedevent"></a><span data-ttu-id="a2b1e-103">DeletedEvent</span><span class="sxs-lookup"><span data-stu-id="a2b1e-103">DeletedEvent</span></span>
+# <a name="deletedevent"></a><span data-ttu-id="e3f5e-103">делетедевент</span><span class="sxs-lookup"><span data-stu-id="e3f5e-103">DeletedEvent</span></span>
 
-<span data-ttu-id="a2b1e-104">**DeletedEvent** элемент представляет событие, в котором удаляется элемент или папку.</span><span class="sxs-lookup"><span data-stu-id="a2b1e-104">The **DeletedEvent** element represents an event in which an item or folder is deleted.</span></span> 
+<span data-ttu-id="e3f5e-104">Элемент **делетедевент** представляет событие, в котором удаляется элемент или папка.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-104">The **DeletedEvent** element represents an event in which an item or folder is deleted.</span></span> 
   
 ```xml
 <DeletedEvent>
@@ -41,48 +41,48 @@ ms.locfileid: "21354409"
 </DeletedEvent>
 ```
 
-<span data-ttu-id="a2b1e-105">**BaseObjectChangedEventType**</span><span class="sxs-lookup"><span data-stu-id="a2b1e-105">**BaseObjectChangedEventType**</span></span>
+<span data-ttu-id="e3f5e-105">**басеобжектчанжедевенттипе**</span><span class="sxs-lookup"><span data-stu-id="e3f5e-105">**BaseObjectChangedEventType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="a2b1e-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="a2b1e-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="e3f5e-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="e3f5e-106">Attributes and elements</span></span>
 
-<span data-ttu-id="a2b1e-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="a2b1e-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="e3f5e-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="a2b1e-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="a2b1e-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="e3f5e-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="e3f5e-108">Attributes</span></span>
 
-<span data-ttu-id="a2b1e-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="a2b1e-109">None.</span></span>
+<span data-ttu-id="e3f5e-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="a2b1e-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="a2b1e-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="e3f5e-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="e3f5e-110">Child elements</span></span>
 
-|<span data-ttu-id="a2b1e-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="a2b1e-111">**Element**</span></span>|<span data-ttu-id="a2b1e-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a2b1e-112">**Description**</span></span>|
+|<span data-ttu-id="e3f5e-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e3f5e-111">**Element**</span></span>|<span data-ttu-id="e3f5e-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e3f5e-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="a2b1e-113">Watermark</span><span class="sxs-lookup"><span data-stu-id="a2b1e-113">Watermark</span></span>](watermark.md) <br/> |<span data-ttu-id="a2b1e-114">Представляет закладку события в таблице событий почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="a2b1e-114">Represents an event bookmark in the mailbox events table.</span></span>  <br/> |
-|[<span data-ttu-id="a2b1e-115">TimeStamp</span><span class="sxs-lookup"><span data-stu-id="a2b1e-115">TimeStamp</span></span>](timestamp.md) <br/> |<span data-ttu-id="a2b1e-116">Представляет отметки времени удаленного почтового ящика события элемента или папки.</span><span class="sxs-lookup"><span data-stu-id="a2b1e-116">Represents the timestamp of a deleted item or folder mailbox event.</span></span>  <br/> |
-|[<span data-ttu-id="a2b1e-117">FolderId</span><span class="sxs-lookup"><span data-stu-id="a2b1e-117">FolderId</span></span>](folderid.md) <br/> |<span data-ttu-id="a2b1e-118">Представляет идентификатор папки "Удаленные".</span><span class="sxs-lookup"><span data-stu-id="a2b1e-118">Represents the identifier of the deleted folder.</span></span>  <br/> |
-|[<span data-ttu-id="a2b1e-119">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="a2b1e-119">ItemId</span></span>](itemid.md) <br/> |<span data-ttu-id="a2b1e-120">Представляет идентификатор удаленного элемента.</span><span class="sxs-lookup"><span data-stu-id="a2b1e-120">Represents the identifier of the deleted item.</span></span>  <br/> |
-|[<span data-ttu-id="a2b1e-121">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="a2b1e-121">ParentFolderId</span></span>](parentfolderid.md) <br/> |<span data-ttu-id="a2b1e-122">Представляет идентификатор родительской папки удаленного элемента или папки до удаления.</span><span class="sxs-lookup"><span data-stu-id="a2b1e-122">Represents the identifier of the parent folder of the deleted item or folder before deletion.</span></span>  <br/> |
+|[<span data-ttu-id="e3f5e-113">Watermark</span><span class="sxs-lookup"><span data-stu-id="e3f5e-113">Watermark</span></span>](watermark.md) <br/> |<span data-ttu-id="e3f5e-114">Представляет закладку события в таблице событий почтовых ящиков.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-114">Represents an event bookmark in the mailbox events table.</span></span>  <br/> |
+|[<span data-ttu-id="e3f5e-115">Метка времени</span><span class="sxs-lookup"><span data-stu-id="e3f5e-115">TimeStamp</span></span>](timestamp.md) <br/> |<span data-ttu-id="e3f5e-116">Представляет метку времени для удаленного события элемента или папки почтового ящика папки.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-116">Represents the timestamp of a deleted item or folder mailbox event.</span></span>  <br/> |
+|[<span data-ttu-id="e3f5e-117">FolderId</span><span class="sxs-lookup"><span data-stu-id="e3f5e-117">FolderId</span></span>](folderid.md) <br/> |<span data-ttu-id="e3f5e-118">Представляет идентификатор удаленной папки.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-118">Represents the identifier of the deleted folder.</span></span>  <br/> |
+|[<span data-ttu-id="e3f5e-119">Идентификатор</span><span class="sxs-lookup"><span data-stu-id="e3f5e-119">ItemId</span></span>](itemid.md) <br/> |<span data-ttu-id="e3f5e-120">Представляет идентификатор удаленного элемента.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-120">Represents the identifier of the deleted item.</span></span>  <br/> |
+|[<span data-ttu-id="e3f5e-121">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="e3f5e-121">ParentFolderId</span></span>](parentfolderid.md) <br/> |<span data-ttu-id="e3f5e-122">Представляет идентификатор родительской папки удаленного элемента или папки перед удалением.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-122">Represents the identifier of the parent folder of the deleted item or folder before deletion.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="a2b1e-123">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="a2b1e-123">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="e3f5e-123">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="e3f5e-123">Parent elements</span></span>
 
-|<span data-ttu-id="a2b1e-124">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="a2b1e-124">**Element**</span></span>|<span data-ttu-id="a2b1e-125">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a2b1e-125">**Description**</span></span>|
+|<span data-ttu-id="e3f5e-124">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e3f5e-124">**Element**</span></span>|<span data-ttu-id="e3f5e-125">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e3f5e-125">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="a2b1e-126">Уведомление</span><span class="sxs-lookup"><span data-stu-id="a2b1e-126">Notification</span></span>](notification-ex15websvcsotherref.md) <br/> |<span data-ttu-id="a2b1e-127">Содержит сведения о подписке и события, произошедшие с момента последнего уведомления.</span><span class="sxs-lookup"><span data-stu-id="a2b1e-127">Contains information about the subscription and the events that have occurred since the last notification.</span></span>  <br/> |
+|[<span data-ttu-id="e3f5e-126">Уведомление</span><span class="sxs-lookup"><span data-stu-id="e3f5e-126">Notification</span></span>](notification-ex15websvcsotherref.md) <br/> |<span data-ttu-id="e3f5e-127">Содержит сведения о подписке и событиях, произошедших с момента последнего уведомления.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-127">Contains information about the subscription and the events that have occurred since the last notification.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a2b1e-128">Замечания</span><span class="sxs-lookup"><span data-stu-id="a2b1e-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e3f5e-128">Примечания</span><span class="sxs-lookup"><span data-stu-id="e3f5e-128">Remarks</span></span>
 
-<span data-ttu-id="a2b1e-129">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="a2b1e-129">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="e3f5e-129">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="e3f5e-129">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="a2b1e-130">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="a2b1e-130">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="e3f5e-130">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="e3f5e-130">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="a2b1e-131">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="a2b1e-131">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="a2b1e-132">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="a2b1e-132">Schema name</span></span>  <br/> |<span data-ttu-id="a2b1e-133">Схема Types</span><span class="sxs-lookup"><span data-stu-id="a2b1e-133">Types schema</span></span>  <br/> |
-|<span data-ttu-id="a2b1e-134">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="a2b1e-134">Validation file</span></span>  <br/> |<span data-ttu-id="a2b1e-135">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="a2b1e-135">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="a2b1e-136">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="a2b1e-136">Can be empty</span></span>  <br/> |<span data-ttu-id="a2b1e-137">False</span><span class="sxs-lookup"><span data-stu-id="a2b1e-137">False</span></span>  <br/> |
+|<span data-ttu-id="e3f5e-131">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="e3f5e-131">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="e3f5e-132">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="e3f5e-132">Schema name</span></span>  <br/> |<span data-ttu-id="e3f5e-133">Схема Types</span><span class="sxs-lookup"><span data-stu-id="e3f5e-133">Types schema</span></span>  <br/> |
+|<span data-ttu-id="e3f5e-134">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="e3f5e-134">Validation file</span></span>  <br/> |<span data-ttu-id="e3f5e-135">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="e3f5e-135">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="e3f5e-136">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="e3f5e-136">Can be empty</span></span>  <br/> |<span data-ttu-id="e3f5e-137">False</span><span class="sxs-lookup"><span data-stu-id="e3f5e-137">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="a2b1e-138">См. также</span><span class="sxs-lookup"><span data-stu-id="a2b1e-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e3f5e-138">См. также</span><span class="sxs-lookup"><span data-stu-id="e3f5e-138">See also</span></span>
 
-- [<span data-ttu-id="a2b1e-139">Операции подписки</span><span class="sxs-lookup"><span data-stu-id="a2b1e-139">Subscribe operation</span></span>](subscribe-operation.md)  
-- [<span data-ttu-id="a2b1e-140">Операция GetEvents</span><span class="sxs-lookup"><span data-stu-id="a2b1e-140">GetEvents operation</span></span>](getevents-operation.md)  
-- [<span data-ttu-id="a2b1e-141">Отписаться операции</span><span class="sxs-lookup"><span data-stu-id="a2b1e-141">Unsubscribe operation</span></span>](unsubscribe-operation.md)
+- [<span data-ttu-id="e3f5e-139">Операции подписки</span><span class="sxs-lookup"><span data-stu-id="e3f5e-139">Subscribe operation</span></span>](subscribe-operation.md)  
+- [<span data-ttu-id="e3f5e-140">Операция GetEvents</span><span class="sxs-lookup"><span data-stu-id="e3f5e-140">GetEvents operation</span></span>](getevents-operation.md)  
+- [<span data-ttu-id="e3f5e-141">Операция по отмене подписки</span><span class="sxs-lookup"><span data-stu-id="e3f5e-141">Unsubscribe operation</span></span>](unsubscribe-operation.md)
 

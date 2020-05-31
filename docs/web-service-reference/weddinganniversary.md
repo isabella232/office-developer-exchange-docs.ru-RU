@@ -1,5 +1,5 @@
 ---
-title: WeddingAnniversary
+title: веддинганниверсари
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 75e3add5-a08f-4a5c-a34c-c36b8291d187
-description: Элемент WeddingAnniversary содержит Годовщина свадьбы контакта.
+description: Элемент Веддинганниверсари содержит годовщину свадьбы контакта.
 ms.openlocfilehash: a0b8333c776195dc53973c6663a4f91f4d8c9aba
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,53 +19,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840503"
 ---
-# <a name="weddinganniversary"></a><span data-ttu-id="db063-103">WeddingAnniversary</span><span class="sxs-lookup"><span data-stu-id="db063-103">WeddingAnniversary</span></span>
+# <a name="weddinganniversary"></a><span data-ttu-id="6c38c-103">веддинганниверсари</span><span class="sxs-lookup"><span data-stu-id="6c38c-103">WeddingAnniversary</span></span>
 
-<span data-ttu-id="db063-104">Элемент **WeddingAnniversary** содержит Годовщина свадьбы контакта.</span><span class="sxs-lookup"><span data-stu-id="db063-104">The **WeddingAnniversary** element contains the wedding anniversary of a contact.</span></span> 
+<span data-ttu-id="6c38c-104">Элемент **веддинганниверсари** содержит годовщину свадьбы контакта.</span><span class="sxs-lookup"><span data-stu-id="6c38c-104">The **WeddingAnniversary** element contains the wedding anniversary of a contact.</span></span> 
   
 ```xml
 <WeddingAnniversary/>
 ```
 
- <span data-ttu-id="db063-105">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="db063-105">**dateTime**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="db063-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="db063-106">Attributes and elements</span></span>
+ <span data-ttu-id="6c38c-105">**дата и время**</span><span class="sxs-lookup"><span data-stu-id="6c38c-105">**dateTime**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6c38c-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="6c38c-106">Attributes and elements</span></span>
 
-<span data-ttu-id="db063-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="db063-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6c38c-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="6c38c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="db063-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="db063-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6c38c-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="6c38c-108">Attributes</span></span>
 
-<span data-ttu-id="db063-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="db063-109">None.</span></span>
+<span data-ttu-id="6c38c-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="6c38c-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="db063-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="db063-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6c38c-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="6c38c-110">Child elements</span></span>
 
-<span data-ttu-id="db063-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="db063-111">None.</span></span>
+<span data-ttu-id="6c38c-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="6c38c-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="db063-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="db063-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6c38c-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="6c38c-112">Parent elements</span></span>
 
-|<span data-ttu-id="db063-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="db063-113">**Element**</span></span>|<span data-ttu-id="db063-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="db063-114">**Description**</span></span>|
+|<span data-ttu-id="6c38c-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6c38c-113">**Element**</span></span>|<span data-ttu-id="6c38c-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6c38c-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="db063-115">Контакт</span><span class="sxs-lookup"><span data-stu-id="db063-115">Contact</span></span>](contact.md) <br/> |<span data-ttu-id="db063-116">Представляет элемент контакта Exchange.</span><span class="sxs-lookup"><span data-stu-id="db063-116">Represents an Exchange contact item.</span></span>  <br/> |
+|[<span data-ttu-id="6c38c-115">Контакт</span><span class="sxs-lookup"><span data-stu-id="6c38c-115">Contact</span></span>](contact.md) <br/> |<span data-ttu-id="6c38c-116">Представляет элемент контакта Exchange.</span><span class="sxs-lookup"><span data-stu-id="6c38c-116">Represents an Exchange contact item.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="db063-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="db063-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="6c38c-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="6c38c-117">Text value</span></span>
 
-<span data-ttu-id="db063-118">Текстовое значение представляет дату Годовщина свадьбы контакта.</span><span class="sxs-lookup"><span data-stu-id="db063-118">The text value represents the date of a contact's wedding anniversary.</span></span>
+<span data-ttu-id="6c38c-118">Текстовое значение представляет дату юбилея свадьбы контакта.</span><span class="sxs-lookup"><span data-stu-id="6c38c-118">The text value represents the date of a contact's wedding anniversary.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="db063-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="db063-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6c38c-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="6c38c-119">Remarks</span></span>
 
-<span data-ttu-id="db063-120">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="db063-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="6c38c-120">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="6c38c-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="db063-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="db063-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6c38c-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="6c38c-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="db063-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="db063-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="db063-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="db063-123">Schema name</span></span>  <br/> |<span data-ttu-id="db063-124">Схема Types</span><span class="sxs-lookup"><span data-stu-id="db063-124">Types schema</span></span>  <br/> |
-|<span data-ttu-id="db063-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="db063-125">Validation file</span></span>  <br/> |<span data-ttu-id="db063-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="db063-126">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="db063-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="db063-127">Can be empty</span></span>  <br/> |<span data-ttu-id="db063-128">False</span><span class="sxs-lookup"><span data-stu-id="db063-128">False</span></span>  <br/> |
+|<span data-ttu-id="6c38c-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="6c38c-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="6c38c-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="6c38c-123">Schema name</span></span>  <br/> |<span data-ttu-id="6c38c-124">Схема Types</span><span class="sxs-lookup"><span data-stu-id="6c38c-124">Types schema</span></span>  <br/> |
+|<span data-ttu-id="6c38c-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="6c38c-125">Validation file</span></span>  <br/> |<span data-ttu-id="6c38c-126">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="6c38c-126">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="6c38c-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="6c38c-127">Can be empty</span></span>  <br/> |<span data-ttu-id="6c38c-128">False</span><span class="sxs-lookup"><span data-stu-id="6c38c-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="db063-129">См. также</span><span class="sxs-lookup"><span data-stu-id="db063-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6c38c-129">См. также</span><span class="sxs-lookup"><span data-stu-id="6c38c-129">See also</span></span>
 
 
 
-- [<span data-ttu-id="db063-130">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="db063-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="6c38c-130">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="6c38c-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

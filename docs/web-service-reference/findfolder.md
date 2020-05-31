@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: b8a59740-d978-454c-9629-a10792385ba0
-description: Элемент FindFolder определяет запрос для поиска папок в почтовом ящике.
+description: Элемент FindFolder определяет запрос на поиск папок в почтовом ящике.
 ms.openlocfilehash: 69fbaebc5615ac7d19512770658cde83e4d352df
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21353534"
 ---
-# <a name="findfolder"></a><span data-ttu-id="74086-103">FindFolder</span><span class="sxs-lookup"><span data-stu-id="74086-103">FindFolder</span></span>
+# <a name="findfolder"></a><span data-ttu-id="b1cd4-103">FindFolder</span><span class="sxs-lookup"><span data-stu-id="b1cd4-103">FindFolder</span></span>
 
-<span data-ttu-id="74086-104">Элемент **FindFolder** определяет запрос для поиска папок в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="74086-104">The **FindFolder** element defines a request to find folders in a mailbox.</span></span> 
+<span data-ttu-id="b1cd4-104">Элемент **FindFolder** определяет запрос на поиск папок в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-104">The **FindFolder** element defines a request to find folders in a mailbox.</span></span> 
   
 ```xml
 <FindFolder Traversal="Shallow/Deep/SoftDeleted">
@@ -41,47 +41,47 @@ ms.locfileid: "21353534"
 </FindFolder>
 ```
 
-<span data-ttu-id="74086-105">**FindFolderType**</span><span class="sxs-lookup"><span data-stu-id="74086-105">**FindFolderType**</span></span>
+<span data-ttu-id="b1cd4-105">**финдфолдертипе**</span><span class="sxs-lookup"><span data-stu-id="b1cd4-105">**FindFolderType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="74086-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="74086-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b1cd4-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="b1cd4-106">Attributes and elements</span></span>
 
-<span data-ttu-id="74086-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="74086-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b1cd4-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="74086-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="74086-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b1cd4-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="b1cd4-108">Attributes</span></span>
 
-|<span data-ttu-id="74086-109">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="74086-109">**Attribute**</span></span>|<span data-ttu-id="74086-110">**Описание**</span><span class="sxs-lookup"><span data-stu-id="74086-110">**Description**</span></span>|
+|<span data-ttu-id="b1cd4-109">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="b1cd4-109">**Attribute**</span></span>|<span data-ttu-id="b1cd4-110">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b1cd4-110">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="74086-111">Обход</span><span class="sxs-lookup"><span data-stu-id="74086-111">Traversal</span></span>  <br/> |<span data-ttu-id="74086-112">Определяет, как выполняется поиск.</span><span class="sxs-lookup"><span data-stu-id="74086-112">Defines how a search is performed.</span></span> <span data-ttu-id="74086-113">Этот атрибут является обязательным.</span><span class="sxs-lookup"><span data-stu-id="74086-113">This attribute is required.</span></span>  <br/> |
+|<span data-ttu-id="b1cd4-111">Обход</span><span class="sxs-lookup"><span data-stu-id="b1cd4-111">Traversal</span></span>  <br/> |<span data-ttu-id="b1cd4-112">Определяет способ выполнения поиска.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-112">Defines how a search is performed.</span></span> <span data-ttu-id="b1cd4-113">Этот атрибут является обязательным.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-113">This attribute is required.</span></span>  <br/> |
    
-#### <a name="traversal-attribute-values"></a><span data-ttu-id="74086-114">Значения атрибутов обхода</span><span class="sxs-lookup"><span data-stu-id="74086-114">Traversal attribute values</span></span>
+#### <a name="traversal-attribute-values"></a><span data-ttu-id="b1cd4-114">Значения атрибутов обхода</span><span class="sxs-lookup"><span data-stu-id="b1cd4-114">Traversal attribute values</span></span>
 
-|<span data-ttu-id="74086-115">**Значение**</span><span class="sxs-lookup"><span data-stu-id="74086-115">**Value**</span></span>|<span data-ttu-id="74086-116">**Описание**</span><span class="sxs-lookup"><span data-stu-id="74086-116">**Description**</span></span>|
+|<span data-ttu-id="b1cd4-115">**Значение**</span><span class="sxs-lookup"><span data-stu-id="b1cd4-115">**Value**</span></span>|<span data-ttu-id="b1cd4-116">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b1cd4-116">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="74086-117">Неполная</span><span class="sxs-lookup"><span data-stu-id="74086-117">Shallow</span></span>  <br/> |<span data-ttu-id="74086-118">Указывает, что операция FindFolder выполнять поиск только в указанной папке и для возвращения только в папке идентификаторов для элементов, которые не были удалены.</span><span class="sxs-lookup"><span data-stu-id="74086-118">Instructs the FindFolder operation to search only the identified folder and to return only the folder IDs for items that have not been deleted.</span></span> <span data-ttu-id="74086-119">Этот процесс называется частичного обхода.</span><span class="sxs-lookup"><span data-stu-id="74086-119">This is called a shallow traversal.</span></span>  <br/> |
-|<span data-ttu-id="74086-120">Глубокое</span><span class="sxs-lookup"><span data-stu-id="74086-120">Deep</span></span>  <br/> |<span data-ttu-id="74086-121">Указывает, что операция FindFolder для поиска во всех дочерних папках определенного родительской папки и возвращает только в папке идентификаторов для элементов, которые не были удалены.</span><span class="sxs-lookup"><span data-stu-id="74086-121">Instructs the FindFolder operation to search in all child folders of the identified parent folder and to return only the folder IDs for items that have not been deleted.</span></span> <span data-ttu-id="74086-122">Этот процесс называется глубину обхода.</span><span class="sxs-lookup"><span data-stu-id="74086-122">This is called a deep traversal.</span></span>  <br/> |
-|<span data-ttu-id="74086-123">SoftDeleted</span><span class="sxs-lookup"><span data-stu-id="74086-123">SoftDeleted</span></span>  <br/> |<span data-ttu-id="74086-124">Указывает, что операция FindFolder для выполнения поиска частичного обхода для удаленных элементов.</span><span class="sxs-lookup"><span data-stu-id="74086-124">Instructs the FindFolder operation to perform a shallow traversal search for deleted items.</span></span>  <br/> |
+|<span data-ttu-id="b1cd4-117">Поверхност</span><span class="sxs-lookup"><span data-stu-id="b1cd4-117">Shallow</span></span>  <br/> |<span data-ttu-id="b1cd4-118">Инструктирует операцию FindFolder для поиска только в идентифицированной папке и возврата только идентификаторов папок для элементов, которые не были удалены.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-118">Instructs the FindFolder operation to search only the identified folder and to return only the folder IDs for items that have not been deleted.</span></span> <span data-ttu-id="b1cd4-119">Это называется неповерхностным обходом.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-119">This is called a shallow traversal.</span></span>  <br/> |
+|<span data-ttu-id="b1cd4-120">Углублен</span><span class="sxs-lookup"><span data-stu-id="b1cd4-120">Deep</span></span>  <br/> |<span data-ttu-id="b1cd4-121">Инструктирует операцию FindFolder для поиска во всех дочерних папках указанной родительской папки и возврата только идентификаторов папок для элементов, которые не были удалены.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-121">Instructs the FindFolder operation to search in all child folders of the identified parent folder and to return only the folder IDs for items that have not been deleted.</span></span> <span data-ttu-id="b1cd4-122">Это называется глубоким обходом.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-122">This is called a deep traversal.</span></span>  <br/> |
+|<span data-ttu-id="b1cd4-123">SoftDeleted</span><span class="sxs-lookup"><span data-stu-id="b1cd4-123">SoftDeleted</span></span>  <br/> |<span data-ttu-id="b1cd4-124">Инструктирует операцию FindFolder для выполнения неполном обходного поиска для удаленных элементов.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-124">Instructs the FindFolder operation to perform a shallow traversal search for deleted items.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="74086-125">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="74086-125">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b1cd4-125">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="b1cd4-125">Child elements</span></span>
 
-|<span data-ttu-id="74086-126">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="74086-126">**Element**</span></span>|<span data-ttu-id="74086-127">**Описание**</span><span class="sxs-lookup"><span data-stu-id="74086-127">**Description**</span></span>|
+|<span data-ttu-id="b1cd4-126">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="b1cd4-126">**Element**</span></span>|<span data-ttu-id="b1cd4-127">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b1cd4-127">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="74086-128">FolderShape</span><span class="sxs-lookup"><span data-stu-id="74086-128">FolderShape</span></span>](foldershape.md) <br/> |<span data-ttu-id="74086-129">Задает свойства папки для включения в FindFolder ответа.</span><span class="sxs-lookup"><span data-stu-id="74086-129">Identifies the folder properties to include in a FindFolder response.</span></span>  <br/> |
-|[<span data-ttu-id="74086-130">IndexedPageFolderView</span><span class="sxs-lookup"><span data-stu-id="74086-130">IndexedPageFolderView</span></span>](indexedpagefolderview.md) <br/> |<span data-ttu-id="74086-131">Описывает, как выгружаемый элемента сведения возвращаются в ответ FindFolder.</span><span class="sxs-lookup"><span data-stu-id="74086-131">Describes how paged item information is returned in a FindFolder response.</span></span> <span data-ttu-id="74086-132">Этот элемент является необязательным.</span><span class="sxs-lookup"><span data-stu-id="74086-132">This element is optional.</span></span>  <br/> |
-|[<span data-ttu-id="74086-133">FractionalPageFolderView</span><span class="sxs-lookup"><span data-stu-id="74086-133">FractionalPageFolderView</span></span>](fractionalpagefolderview.md) <br/> |<span data-ttu-id="74086-134">Описывает, где начала страничного представления и максимальное число папок, возвращаемых в запросе FindFolder.</span><span class="sxs-lookup"><span data-stu-id="74086-134">Describes where the paged view starts and the maximum number of folders returned in a FindFolder request.</span></span> <span data-ttu-id="74086-135">Этот элемент является необязательным.</span><span class="sxs-lookup"><span data-stu-id="74086-135">This element is optional.</span></span>  <br/> |
-|[<span data-ttu-id="74086-136">Restriction</span><span class="sxs-lookup"><span data-stu-id="74086-136">Restriction</span></span>](restriction.md) <br/> |<span data-ttu-id="74086-137">Задает ограничение или запрос, используемый для фильтрации папок в FindFolder операции.</span><span class="sxs-lookup"><span data-stu-id="74086-137">Defines a restriction or query that is used to filter folders in a FindFolder operation.</span></span> <span data-ttu-id="74086-138">Этот элемент является необязательным.</span><span class="sxs-lookup"><span data-stu-id="74086-138">This element is optional.</span></span>  <br/> |
-|[<span data-ttu-id="74086-139">ParentFolderIds</span><span class="sxs-lookup"><span data-stu-id="74086-139">ParentFolderIds</span></span>](parentfolderids.md) <br/> |<span data-ttu-id="74086-140">Идентифицирует папок для операции FindFolder для поиска.</span><span class="sxs-lookup"><span data-stu-id="74086-140">Identifies folders for the FindFolder operation to search.</span></span>  <br/> |
+|[<span data-ttu-id="b1cd4-128">фолдершапе</span><span class="sxs-lookup"><span data-stu-id="b1cd4-128">FolderShape</span></span>](foldershape.md) <br/> |<span data-ttu-id="b1cd4-129">Определяет свойства папки, включаемые в отклике FindFolder.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-129">Identifies the folder properties to include in a FindFolder response.</span></span>  <br/> |
+|[<span data-ttu-id="b1cd4-130">индекседпажефолдервиев</span><span class="sxs-lookup"><span data-stu-id="b1cd4-130">IndexedPageFolderView</span></span>](indexedpagefolderview.md) <br/> |<span data-ttu-id="b1cd4-131">Описывает, как возвращаются сведения о страничном элементе в отклике FindFolder.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-131">Describes how paged item information is returned in a FindFolder response.</span></span> <span data-ttu-id="b1cd4-132">Этот элемент является необязательным.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-132">This element is optional.</span></span>  <br/> |
+|[<span data-ttu-id="b1cd4-133">фрактионалпажефолдервиев</span><span class="sxs-lookup"><span data-stu-id="b1cd4-133">FractionalPageFolderView</span></span>](fractionalpagefolderview.md) <br/> |<span data-ttu-id="b1cd4-134">Описывает, где начинается страничное представление, и максимальное количество папок, возвращаемых в запросе FindFolder.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-134">Describes where the paged view starts and the maximum number of folders returned in a FindFolder request.</span></span> <span data-ttu-id="b1cd4-135">Этот элемент является необязательным.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-135">This element is optional.</span></span>  <br/> |
+|[<span data-ttu-id="b1cd4-136">Restriction</span><span class="sxs-lookup"><span data-stu-id="b1cd4-136">Restriction</span></span>](restriction.md) <br/> |<span data-ttu-id="b1cd4-137">Определяет ограничение или запрос, используемый для фильтрации папок в операции FindFolder.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-137">Defines a restriction or query that is used to filter folders in a FindFolder operation.</span></span> <span data-ttu-id="b1cd4-138">Этот элемент является необязательным.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-138">This element is optional.</span></span>  <br/> |
+|[<span data-ttu-id="b1cd4-139">парентфолдеридс</span><span class="sxs-lookup"><span data-stu-id="b1cd4-139">ParentFolderIds</span></span>](parentfolderids.md) <br/> |<span data-ttu-id="b1cd4-140">Определяет папки для поиска в операции FindFolder.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-140">Identifies folders for the FindFolder operation to search.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="74086-141">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="74086-141">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b1cd4-141">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="b1cd4-141">Parent elements</span></span>
 
-<span data-ttu-id="74086-142">Нет.</span><span class="sxs-lookup"><span data-stu-id="74086-142">None.</span></span>
+<span data-ttu-id="b1cd4-142">Нет.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-142">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="74086-143">Замечания</span><span class="sxs-lookup"><span data-stu-id="74086-143">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b1cd4-143">Примечания</span><span class="sxs-lookup"><span data-stu-id="b1cd4-143">Remarks</span></span>
 
-<span data-ttu-id="74086-144">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="74086-144">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="b1cd4-144">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="b1cd4-144">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="example"></a><span data-ttu-id="74086-145">Пример</span><span class="sxs-lookup"><span data-stu-id="74086-145">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b1cd4-145">Пример</span><span class="sxs-lookup"><span data-stu-id="b1cd4-145">Example</span></span>
 
-<span data-ttu-id="74086-146">Пример запроса FindFolder показано, как для формирования запроса, чтобы найти все папки, расположенной в папке "Входящие".</span><span class="sxs-lookup"><span data-stu-id="74086-146">The following example of a FindFolder request shows how to form a request to find all the folders located in an Inbox.</span></span>
+<span data-ttu-id="b1cd4-146">В следующем примере запроса FindFolder показано, как сформировать запрос на поиск всех папок, расположенных в папке "Входящие".</span><span class="sxs-lookup"><span data-stu-id="b1cd4-146">The following example of a FindFolder request shows how to form a request to find all the folders located in an Inbox.</span></span>
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -100,16 +100,16 @@ ms.locfileid: "21353534"
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a><span data-ttu-id="74086-147">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="74086-147">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b1cd4-147">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="b1cd4-147">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="74086-148">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="74086-148">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="74086-149">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="74086-149">Schema Name</span></span>  <br/> |<span data-ttu-id="74086-150">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="74086-150">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="74086-151">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="74086-151">Validation File</span></span>  <br/> |<span data-ttu-id="74086-152">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="74086-152">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="74086-153">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="74086-153">Can be Empty</span></span>  <br/> |<span data-ttu-id="74086-154">False</span><span class="sxs-lookup"><span data-stu-id="74086-154">False</span></span>  <br/> |
+|<span data-ttu-id="b1cd4-148">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="b1cd4-148">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="b1cd4-149">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="b1cd4-149">Schema Name</span></span>  <br/> |<span data-ttu-id="b1cd4-150">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="b1cd4-150">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="b1cd4-151">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="b1cd4-151">Validation File</span></span>  <br/> |<span data-ttu-id="b1cd4-152">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="b1cd4-152">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="b1cd4-153">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="b1cd4-153">Can be Empty</span></span>  <br/> |<span data-ttu-id="b1cd4-154">False</span><span class="sxs-lookup"><span data-stu-id="b1cd4-154">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="74086-155">См. также</span><span class="sxs-lookup"><span data-stu-id="74086-155">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b1cd4-155">См. также</span><span class="sxs-lookup"><span data-stu-id="b1cd4-155">See also</span></span>
 
-- [<span data-ttu-id="74086-156">Операция FindFolder</span><span class="sxs-lookup"><span data-stu-id="74086-156">FindFolder operation</span></span>](findfolder-operation.md)
+- [<span data-ttu-id="b1cd4-156">Операция FindFolder</span><span class="sxs-lookup"><span data-stu-id="b1cd4-156">FindFolder operation</span></span>](findfolder-operation.md)
 

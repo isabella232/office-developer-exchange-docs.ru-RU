@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1f7837e7-9eff-4e10-9577-c40f7ed6af94
-description: Операция ExpandDL предоставляет полного контроля членства списков рассылки.
+description: Операция ExpandDL предоставляет полное членство в списках рассылки.
 ms.openlocfilehash: 4af6198ff15407b7fb71cdb4010ff6ce035460d0
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -19,50 +19,50 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21353744"
 ---
-# <a name="expanddl-operation"></a><span data-ttu-id="94b65-103">Операция ExpandDL</span><span class="sxs-lookup"><span data-stu-id="94b65-103">ExpandDL operation</span></span>
+# <a name="expanddl-operation"></a><span data-ttu-id="e1f83-103">Операция ExpandDL</span><span class="sxs-lookup"><span data-stu-id="e1f83-103">ExpandDL operation</span></span>
 
-<span data-ttu-id="94b65-104">Операция ExpandDL предоставляет полного контроля членства списков рассылки.</span><span class="sxs-lookup"><span data-stu-id="94b65-104">The ExpandDL operation exposes the full membership of distribution lists.</span></span>
+<span data-ttu-id="e1f83-104">Операция ExpandDL предоставляет полное членство в списках рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-104">The ExpandDL operation exposes the full membership of distribution lists.</span></span>
   
-## <a name="using-the-expanddl-web-method"></a><span data-ttu-id="94b65-105">С помощью ExpandDL веб-метода</span><span class="sxs-lookup"><span data-stu-id="94b65-105">Using the ExpandDL Web Method</span></span>
+## <a name="using-the-expanddl-web-method"></a><span data-ttu-id="e1f83-105">Использование веб-метода ExpandDL</span><span class="sxs-lookup"><span data-stu-id="e1f83-105">Using the ExpandDL Web Method</span></span>
 
-<span data-ttu-id="94b65-106">Операция ExpandDL использует веб-службы, размещенной в Exchange.asmx.</span><span class="sxs-lookup"><span data-stu-id="94b65-106">The ExpandDL operation uses the Web service that is located in Exchange.asmx.</span></span> <span data-ttu-id="94b65-107">Этот метод веб-службы принимает элемент [почтового ящика](mailbox.md) , который может содержать дочерний элемент [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) расширения открытый список рассылки либо [ItemId](itemid.md) дочернего элемента для расширения частной список рассылки.</span><span class="sxs-lookup"><span data-stu-id="94b65-107">This Web service method accepts a [Mailbox](mailbox.md) element that can contain either an [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) child element for an expansion of a public distribution list or an [ItemId](itemid.md) child element for the expansion of a private distribution list.</span></span> 
+<span data-ttu-id="e1f83-106">Операция ExpandDL использует веб-службу, размещенную в Exchange. asmx.</span><span class="sxs-lookup"><span data-stu-id="e1f83-106">The ExpandDL operation uses the Web service that is located in Exchange.asmx.</span></span> <span data-ttu-id="e1f83-107">Этот метод веб-службы принимает элемент [почтового ящика](mailbox.md) , который может содержать дочерний элемент [EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md) для расширения общедоступного списка рассылки или дочернего элемента [ItemId](itemid.md) для расширения частного списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-107">This Web service method accepts a [Mailbox](mailbox.md) element that can contain either an [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) child element for an expansion of a public distribution list or an [ItemId](itemid.md) child element for the expansion of a private distribution list.</span></span> 
   
-<span data-ttu-id="94b65-108">Открытые списки рассылки могут быть развернуты с помощью одного из следующих:</span><span class="sxs-lookup"><span data-stu-id="94b65-108">Public distribution lists can be expanded by using one of the following:</span></span>
+<span data-ttu-id="e1f83-108">Общедоступные списки рассылки можно развернуть с помощью одного из следующих компонентов:</span><span class="sxs-lookup"><span data-stu-id="e1f83-108">Public distribution lists can be expanded by using one of the following:</span></span>
   
-1. <span data-ttu-id="94b65-109">Псевдоним списка рассылки</span><span class="sxs-lookup"><span data-stu-id="94b65-109">Distribution list alias</span></span>
+1. <span data-ttu-id="e1f83-109">Псевдоним списка рассылки</span><span class="sxs-lookup"><span data-stu-id="e1f83-109">Distribution list alias</span></span>
     
-2. <span data-ttu-id="94b65-110">Адрес Simple Mail Transfer Protocol (SMTP)</span><span class="sxs-lookup"><span data-stu-id="94b65-110">The Simple Mail Transfer Protocol (SMTP) address</span></span>
+2. <span data-ttu-id="e1f83-110">SMTP-адрес</span><span class="sxs-lookup"><span data-stu-id="e1f83-110">The Simple Mail Transfer Protocol (SMTP) address</span></span>
     
-3. <span data-ttu-id="94b65-111">X400</span><span class="sxs-lookup"><span data-stu-id="94b65-111">X400</span></span>
+3. <span data-ttu-id="e1f83-111">X400</span><span class="sxs-lookup"><span data-stu-id="e1f83-111">X400</span></span>
     
-4. <span data-ttu-id="94b65-112">X500</span><span class="sxs-lookup"><span data-stu-id="94b65-112">X500</span></span>
+4. <span data-ttu-id="e1f83-112">Х</span><span class="sxs-lookup"><span data-stu-id="e1f83-112">X500</span></span>
     
-5. <span data-ttu-id="94b65-113">Адрес прежних версий Exchange</span><span class="sxs-lookup"><span data-stu-id="94b65-113">Exchange Legacy address</span></span>
+5. <span data-ttu-id="e1f83-113">Устаревший адрес Exchange</span><span class="sxs-lookup"><span data-stu-id="e1f83-113">Exchange Legacy address</span></span>
     
-6. <span data-ttu-id="94b65-114">Имя списка рассылки</span><span class="sxs-lookup"><span data-stu-id="94b65-114">The distribution list name</span></span>
+6. <span data-ttu-id="e1f83-114">Имя списка рассылки</span><span class="sxs-lookup"><span data-stu-id="e1f83-114">The distribution list name</span></span>
     
-7. <span data-ttu-id="94b65-115">Отображаемое имя</span><span class="sxs-lookup"><span data-stu-id="94b65-115">The display name</span></span>
+7. <span data-ttu-id="e1f83-115">Отображаемое имя</span><span class="sxs-lookup"><span data-stu-id="e1f83-115">The display name</span></span>
     
 > [!IMPORTANT]
-> <span data-ttu-id="94b65-116">Отображаемые имена не являются уникальными.</span><span class="sxs-lookup"><span data-stu-id="94b65-116">Display names are not unique.</span></span> <span data-ttu-id="94b65-117">Несколько учетных записей могут совместно использовать же отображаемое имя.</span><span class="sxs-lookup"><span data-stu-id="94b65-117">Multiple accounts can share the same display name.</span></span> 
+> <span data-ttu-id="e1f83-116">Отображаемые имена не являются уникальными.</span><span class="sxs-lookup"><span data-stu-id="e1f83-116">Display names are not unique.</span></span> <span data-ttu-id="e1f83-117">Несколько учетных записей могут иметь одно и то же отображаемое имя.</span><span class="sxs-lookup"><span data-stu-id="e1f83-117">Multiple accounts can share the same display name.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="94b65-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="94b65-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e1f83-118">Примечания</span><span class="sxs-lookup"><span data-stu-id="e1f83-118">Remarks</span></span>
 
-<span data-ttu-id="94b65-119">Расширения рекурсивный не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="94b65-119">Recursive expansion is not supported.</span></span> <span data-ttu-id="94b65-120">Можно развернуть только один список, в одном вызове.</span><span class="sxs-lookup"><span data-stu-id="94b65-120">Only one distribution list can be expanded in a single call.</span></span> <span data-ttu-id="94b65-121">Если более одного списка рассылки соответствующие критериям, веб-службы отчетов об ошибке.</span><span class="sxs-lookup"><span data-stu-id="94b65-121">If more than one distribution list match the criteria, the Web service reports an error.</span></span> <span data-ttu-id="94b65-122">Клиентское приложение может использовать разрешения неоднозначных имен (ANR) для поиска неоднозначные рассылки список, а затем выбрать правильный адрес электронной почты из списка рассылки необходимые как параметр [ExpandDL операции](expanddl-operation.md).</span><span class="sxs-lookup"><span data-stu-id="94b65-122">A client application can use ambiguous name resolution (ANR) to find ambiguous distribution lists and then chose the correct e-mail address of the required distribution list as a parameter for the [ExpandDL operation](expanddl-operation.md).</span></span> <span data-ttu-id="94b65-123">Для получения дополнительных сведений см [ResolveNames операции](resolvenames-operation.md).</span><span class="sxs-lookup"><span data-stu-id="94b65-123">For more information, see [ResolveNames operation](resolvenames-operation.md).</span></span>
+<span data-ttu-id="e1f83-119">Рекурсивное расширение не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="e1f83-119">Recursive expansion is not supported.</span></span> <span data-ttu-id="e1f83-120">В одном вызове можно развернуть только один список рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-120">Only one distribution list can be expanded in a single call.</span></span> <span data-ttu-id="e1f83-121">Если критерию отвечает несколько списков рассылки, веб-служба сообщает об ошибке.</span><span class="sxs-lookup"><span data-stu-id="e1f83-121">If more than one distribution list match the criteria, the Web service reports an error.</span></span> <span data-ttu-id="e1f83-122">Клиентское приложение может использовать разрешение неоднозначных имен, чтобы найти неоднозначные списки рассылки, а затем выбрать правильный адрес электронной почты требуемого списка рассылки в качестве параметра для [операции ExpandDL](expanddl-operation.md).</span><span class="sxs-lookup"><span data-stu-id="e1f83-122">A client application can use ambiguous name resolution (ANR) to find ambiguous distribution lists and then chose the correct e-mail address of the required distribution list as a parameter for the [ExpandDL operation](expanddl-operation.md).</span></span> <span data-ttu-id="e1f83-123">Дополнительные сведения см. в разделе [Operation ResolveNames Operation](resolvenames-operation.md).</span><span class="sxs-lookup"><span data-stu-id="e1f83-123">For more information, see [ResolveNames operation](resolvenames-operation.md).</span></span>
   
-<span data-ttu-id="94b65-124">Открытые списки рассылки, находятся в Active Directory.</span><span class="sxs-lookup"><span data-stu-id="94b65-124">Public distribution lists are located in Active Directory.</span></span> <span data-ttu-id="94b65-125">Они могут быть любая группа рассылки с включенной поддержкой почты или динамической.</span><span class="sxs-lookup"><span data-stu-id="94b65-125">They can be any mail-enabled or dynamic distribution group.</span></span> <span data-ttu-id="94b65-126">Группы не должен быть скрыт из списка адресов и каждый элемент должен иметь адрес электронной почты не пуста.</span><span class="sxs-lookup"><span data-stu-id="94b65-126">The group should not be hidden from the address list and each member should have a non-empty e-mail address.</span></span> <span data-ttu-id="94b65-127">Члены списка рассылки могут быть пользователи с включенной поддержкой почты и контакты, общих папок и списков рассылки с включенной поддержкой почты и динамические группы.</span><span class="sxs-lookup"><span data-stu-id="94b65-127">Members of the distribution list can be mail-enabled users and contacts, public folders, and mail-enabled distribution lists and dynamic groups.</span></span>
+<span data-ttu-id="e1f83-124">Общедоступные списки рассылки находятся в Active Directory.</span><span class="sxs-lookup"><span data-stu-id="e1f83-124">Public distribution lists are located in Active Directory.</span></span> <span data-ttu-id="e1f83-125">Можно использовать любую группу рассылки с поддержкой почты или динамическую группу рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-125">They can be any mail-enabled or dynamic distribution group.</span></span> <span data-ttu-id="e1f83-126">Группу не следует скрывать из списка адресов, а у каждого участника должен быть непустой адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="e1f83-126">The group should not be hidden from the address list and each member should have a non-empty e-mail address.</span></span> <span data-ttu-id="e1f83-127">Членами этого списка рассылки могут быть пользователи и контакты, общедоступные папки и списки рассылки с поддержкой почты и динамические группы.</span><span class="sxs-lookup"><span data-stu-id="e1f83-127">Members of the distribution list can be mail-enabled users and contacts, public folders, and mail-enabled distribution lists and dynamic groups.</span></span>
   
-<span data-ttu-id="94b65-128">Частные списки рассылки, находятся в папке «Контакты» из почтового ящика пользователя.</span><span class="sxs-lookup"><span data-stu-id="94b65-128">Private distribution lists are located in the Contacts folder of a user's mailbox.</span></span> <span data-ttu-id="94b65-129">Частные списки рассылки не имеют адреса электронной почты, поэтому их идентификаторы элемента хранилища используются в запросе ExpandDL.</span><span class="sxs-lookup"><span data-stu-id="94b65-129">Private distribution lists do not have e-mail addresses so their store item identifiers are used in an ExpandDL request.</span></span> <span data-ttu-id="94b65-130">Члены списка рассылки закрытый может быть любого пользователя с включенной поддержкой почты, контакты или списки рассылки из службы каталогов Active Directory или контактов или частные списки рассылки из папки Контакты.</span><span class="sxs-lookup"><span data-stu-id="94b65-130">Members of a private distribution list can be any mail-enabled user, contacts or distribution lists from Active Directory, or contacts or private distribution lists from a user's Contacts folder.</span></span>
+<span data-ttu-id="e1f83-128">Частные списки рассылки находятся в папке "Контакты" в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="e1f83-128">Private distribution lists are located in the Contacts folder of a user's mailbox.</span></span> <span data-ttu-id="e1f83-129">Частные списки рассылки не имеют адресов электронной почты, поэтому их идентификаторы элементов хранилища используются в запросе ExpandDL.</span><span class="sxs-lookup"><span data-stu-id="e1f83-129">Private distribution lists do not have e-mail addresses so their store item identifiers are used in an ExpandDL request.</span></span> <span data-ttu-id="e1f83-130">Членами частного списка рассылки может быть любой пользователь с включенной поддержкой почты, контакты или списки рассылки из Active Directory, а также списки контактов или частных рассылки из папки "Контакты" пользователя.</span><span class="sxs-lookup"><span data-stu-id="e1f83-130">Members of a private distribution list can be any mail-enabled user, contacts or distribution lists from Active Directory, or contacts or private distribution lists from a user's Contacts folder.</span></span>
   
-<span data-ttu-id="94b65-131">Для контактов или частные списки рассылки идентификаторы элементов возвращаемого в ответе.</span><span class="sxs-lookup"><span data-stu-id="94b65-131">For contacts or private distribution lists, the item identifiers are returned in the response.</span></span> <span data-ttu-id="94b65-132">Можно использовать для получения сведений об объекте или чтобы развернуть членство в списке рассылки закрытый.</span><span class="sxs-lookup"><span data-stu-id="94b65-132">This can be used to get information about the object or to expand membership in a private distribution list.</span></span>
+<span data-ttu-id="e1f83-131">Для контактов или частных списков рассылки в ответе возвращаются идентификаторы элементов.</span><span class="sxs-lookup"><span data-stu-id="e1f83-131">For contacts or private distribution lists, the item identifiers are returned in the response.</span></span> <span data-ttu-id="e1f83-132">Этот параметр можно использовать для получения сведений о объекте или для расширения членства в частном списке рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-132">This can be used to get information about the object or to expand membership in a private distribution list.</span></span>
   
-## <a name="expanddl-private-distribution-list-request-example"></a><span data-ttu-id="94b65-133">Пример запроса ExpandDL Private списка рассылки</span><span class="sxs-lookup"><span data-stu-id="94b65-133">ExpandDL Private Distribution List request example</span></span>
+## <a name="expanddl-private-distribution-list-request-example"></a><span data-ttu-id="e1f83-133">Пример запроса частного списка рассылки ExpandDL</span><span class="sxs-lookup"><span data-stu-id="e1f83-133">ExpandDL Private Distribution List request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="94b65-134">Описание</span><span class="sxs-lookup"><span data-stu-id="94b65-134">Description</span></span>
+### <a name="description"></a><span data-ttu-id="e1f83-134">Описание</span><span class="sxs-lookup"><span data-stu-id="e1f83-134">Description</span></span>
 
-<span data-ttu-id="94b65-135">В следующем примере запрос ExpandDL показано, как для формирования запроса разверните список рассылки закрытый.</span><span class="sxs-lookup"><span data-stu-id="94b65-135">The following example of an ExpandDL request shows how to form a request to expand a private distribution list.</span></span>
+<span data-ttu-id="e1f83-135">В приведенном ниже примере запроса ExpandDL показано, как сформировать запрос на развертывание частного списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-135">The following example of an ExpandDL request shows how to form a request to expand a private distribution list.</span></span>
   
-### <a name="code"></a><span data-ttu-id="94b65-136">Программа</span><span class="sxs-lookup"><span data-stu-id="94b65-136">Code</span></span>
+### <a name="code"></a><span data-ttu-id="e1f83-136">Код</span><span class="sxs-lookup"><span data-stu-id="e1f83-136">Code</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,17 +80,17 @@ ms.locfileid: "21353744"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="94b65-137">Комментарии</span><span class="sxs-lookup"><span data-stu-id="94b65-137">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="e1f83-137">Comments</span><span class="sxs-lookup"><span data-stu-id="e1f83-137">Comments</span></span>
 
-<span data-ttu-id="94b65-138">Разверните список рассылки закрытый элемент [почтового ящика](mailbox.md) будет содержать элемент [ItemId](itemid.md) , определяющий список рассылки закрытый в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="94b65-138">To expand a private distribution list, the [Mailbox](mailbox.md) element will contain the [ItemId](itemid.md) element that identifies a private distribution list in the user's mailbox.</span></span> 
+<span data-ttu-id="e1f83-138">Чтобы развернуть частный список рассылки, элемент [Mailbox](mailbox.md) будет содержать элемент [ItemId](itemid.md) , определяющий частный список рассылки в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="e1f83-138">To expand a private distribution list, the [Mailbox](mailbox.md) element will contain the [ItemId](itemid.md) element that identifies a private distribution list in the user's mailbox.</span></span> 
   
-## <a name="expanddl-public-distribution-list-request-example"></a><span data-ttu-id="94b65-139">Пример запроса ExpandDL общедоступных списка рассылки</span><span class="sxs-lookup"><span data-stu-id="94b65-139">ExpandDL Public Distribution List request example</span></span>
+## <a name="expanddl-public-distribution-list-request-example"></a><span data-ttu-id="e1f83-139">Пример общего списка рассылки ExpandDL</span><span class="sxs-lookup"><span data-stu-id="e1f83-139">ExpandDL Public Distribution List request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="94b65-140">Описание</span><span class="sxs-lookup"><span data-stu-id="94b65-140">Description</span></span>
+### <a name="description"></a><span data-ttu-id="e1f83-140">Описание</span><span class="sxs-lookup"><span data-stu-id="e1f83-140">Description</span></span>
 
-<span data-ttu-id="94b65-141">В следующем примере запрос ExpandDL показано, как для формирования запроса, чтобы развернуть открытый список рассылки.</span><span class="sxs-lookup"><span data-stu-id="94b65-141">The following example of an ExpandDL request shows how to form a request to expand a public distribution list.</span></span> <span data-ttu-id="94b65-142">В примере показано использование отображаемое имя, чтобы развернуть список рассылки.</span><span class="sxs-lookup"><span data-stu-id="94b65-142">The example shows the use of a display name to expand a distribution list.</span></span>
+<span data-ttu-id="e1f83-141">В приведенном ниже примере запроса ExpandDL показано, как создать запрос для развертывания общедоступного списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-141">The following example of an ExpandDL request shows how to form a request to expand a public distribution list.</span></span> <span data-ttu-id="e1f83-142">В этом примере показано использование отображаемого имени для развертывания списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-142">The example shows the use of a display name to expand a distribution list.</span></span>
   
-### <a name="code"></a><span data-ttu-id="94b65-143">Программа</span><span class="sxs-lookup"><span data-stu-id="94b65-143">Code</span></span>
+### <a name="code"></a><span data-ttu-id="e1f83-143">Код</span><span class="sxs-lookup"><span data-stu-id="e1f83-143">Code</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,45 +107,45 @@ ms.locfileid: "21353744"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="94b65-144">Комментарии</span><span class="sxs-lookup"><span data-stu-id="94b65-144">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="e1f83-144">Comments</span><span class="sxs-lookup"><span data-stu-id="e1f83-144">Comments</span></span>
 
-<span data-ttu-id="94b65-145">Ответ на этот запрос будет содержать элементы **почтового ящика** , чтобы указать каждого почтового ящика в списке рассылки.</span><span class="sxs-lookup"><span data-stu-id="94b65-145">The response to this request will contain **Mailbox** elements that identify each mailbox in the distribution list.</span></span> <span data-ttu-id="94b65-146">Если список рассылки содержится в список рассылки, раскрытие списков рассылки отдельные необходимо выполнить на список внедренных рассылки.</span><span class="sxs-lookup"><span data-stu-id="94b65-146">If a distribution list is contained within a distribution list, a separate distribution list expansion must be performed on the embedded distribution list.</span></span> <span data-ttu-id="94b65-147">Если этот список рассылки не имеет членов или список рассылки запрошенные не существует, атрибут **ResponseClass** будет содержать значение, равное успеха.</span><span class="sxs-lookup"><span data-stu-id="94b65-147">If the distribution list has no members or the requested distribution list does not exist, the **ResponseClass** attribute will contain a value equal to Success.</span></span> 
+<span data-ttu-id="e1f83-145">Ответ на этот запрос будет содержать элементы **почтовых ящиков** , которые определяют каждый почтовый ящик в списке рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-145">The response to this request will contain **Mailbox** elements that identify each mailbox in the distribution list.</span></span> <span data-ttu-id="e1f83-146">Если список рассылки находится в списке рассылки, для внедренного списка рассылки должно выполняться отдельное расширение списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-146">If a distribution list is contained within a distribution list, a separate distribution list expansion must be performed on the embedded distribution list.</span></span> <span data-ttu-id="e1f83-147">Если в списке рассылки нет участников или запрошенный список рассылки не существует, атрибут **респонсекласс** будет содержать значение Success.</span><span class="sxs-lookup"><span data-stu-id="e1f83-147">If the distribution list has no members or the requested distribution list does not exist, the **ResponseClass** attribute will contain a value equal to Success.</span></span> 
   
-### <a name="request-elements"></a><span data-ttu-id="94b65-148">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="94b65-148">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="e1f83-148">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="e1f83-148">Request elements</span></span>
 
-<span data-ttu-id="94b65-149">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="94b65-149">The following elements are used in the request:</span></span>
+<span data-ttu-id="e1f83-149">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="e1f83-149">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="94b65-150">ExpandDL</span><span class="sxs-lookup"><span data-stu-id="94b65-150">ExpandDL</span></span>](expanddl.md)
+- [<span data-ttu-id="e1f83-150">ExpandDL</span><span class="sxs-lookup"><span data-stu-id="e1f83-150">ExpandDL</span></span>](expanddl.md)
     
-- [<span data-ttu-id="94b65-151">Mailbox</span><span class="sxs-lookup"><span data-stu-id="94b65-151">Mailbox</span></span>](mailbox.md)
+- [<span data-ttu-id="e1f83-151">Mailbox</span><span class="sxs-lookup"><span data-stu-id="e1f83-151">Mailbox</span></span>](mailbox.md)
     
-- <span data-ttu-id="94b65-152">[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) используется для идентификации открытые списки рассылки.</span><span class="sxs-lookup"><span data-stu-id="94b65-152">[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) is used to identify public distribution lists.</span></span> <span data-ttu-id="94b65-153">Элемент [ItemId](itemid.md) используется для идентификации частные списки рассылки.</span><span class="sxs-lookup"><span data-stu-id="94b65-153">The [ItemId](itemid.md) element is used to identify private distribution lists.</span></span> 
+- <span data-ttu-id="e1f83-152">[EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md) используется для идентификации общедоступных списков рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-152">[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) is used to identify public distribution lists.</span></span> <span data-ttu-id="e1f83-153">Элемент [ItemId](itemid.md) используется для идентификации частных списков рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-153">The [ItemId](itemid.md) element is used to identify private distribution lists.</span></span> 
     
 > [!NOTE]
-> <span data-ttu-id="94b65-154">Схема, описывающая эти элементы находится в виртуальном каталоге EWS компьютера, на котором работает MicrosoftExchange Server 2007 с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="94b65-154">The schema that describes these elements is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span> 
+> <span data-ttu-id="e1f83-154">Схема, описывающая эти элементы, находится в виртуальном каталоге EWS компьютера, на котором работает сервер Майкрософт Exchange Server 2007, на котором установлена роль сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="e1f83-154">The schema that describes these elements is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span> 
   
-## <a name="successful-expanddl-response-example"></a><span data-ttu-id="94b65-155">Пример успешного ответа ExpandDL</span><span class="sxs-lookup"><span data-stu-id="94b65-155">Successful ExpandDL response example</span></span>
+## <a name="successful-expanddl-response-example"></a><span data-ttu-id="e1f83-155">Пример успешного ответа ExpandDL</span><span class="sxs-lookup"><span data-stu-id="e1f83-155">Successful ExpandDL response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="94b65-156">Описание</span><span class="sxs-lookup"><span data-stu-id="94b65-156">Description</span></span>
+### <a name="description"></a><span data-ttu-id="e1f83-156">Описание</span><span class="sxs-lookup"><span data-stu-id="e1f83-156">Description</span></span>
 
-<span data-ttu-id="94b65-157">В следующем примере ответа ExpandDL показано ответа на запрос, описанных выше.</span><span class="sxs-lookup"><span data-stu-id="94b65-157">The following example of an ExpandDL response shows a response to the request described above.</span></span> <span data-ttu-id="94b65-158">Раскрытие списка рассылки описываются следующие:</span><span class="sxs-lookup"><span data-stu-id="94b65-158">The distribution list expansion describes the following:</span></span> 
+<span data-ttu-id="e1f83-157">В приведенном ниже примере ответа ExpandDL показан ответ на запрос, описанный выше.</span><span class="sxs-lookup"><span data-stu-id="e1f83-157">The following example of an ExpandDL response shows a response to the request described above.</span></span> <span data-ttu-id="e1f83-158">Раскрытие списка рассылки содержит следующие сведения:</span><span class="sxs-lookup"><span data-stu-id="e1f83-158">The distribution list expansion describes the following:</span></span> 
   
-- <span data-ttu-id="94b65-159">Количество членов списка рассылки, возвращаемого в ответе.</span><span class="sxs-lookup"><span data-stu-id="94b65-159">The number of members of the distribution list that are returned in the response.</span></span>
+- <span data-ttu-id="e1f83-159">Количество членов списка рассылки, возвращаемых в ответе.</span><span class="sxs-lookup"><span data-stu-id="e1f83-159">The number of members of the distribution list that are returned in the response.</span></span>
     
-- <span data-ttu-id="94b65-160">Содержит ли ответ всех членов списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="94b65-160">Whether the response contains all the members of the distribution list.</span></span>
+- <span data-ttu-id="e1f83-160">Содержит ли ответ все члены списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="e1f83-160">Whether the response contains all the members of the distribution list.</span></span>
     
-- <span data-ttu-id="94b65-161">Имя почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="94b65-161">The name of the mailbox.</span></span>
+- <span data-ttu-id="e1f83-161">Имя почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="e1f83-161">The name of the mailbox.</span></span>
     
-- <span data-ttu-id="94b65-162">Адрес электронной почты для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="94b65-162">The e-mail address of the mailbox.</span></span>
+- <span data-ttu-id="e1f83-162">Адрес электронной почты почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="e1f83-162">The e-mail address of the mailbox.</span></span>
     
-- <span data-ttu-id="94b65-163">Тип маршрутизации для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="94b65-163">The routing type for the mailbox.</span></span>
+- <span data-ttu-id="e1f83-163">Тип маршрутизации для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="e1f83-163">The routing type for the mailbox.</span></span>
     
-- <span data-ttu-id="94b65-164">Тип почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="94b65-164">The type of mailbox.</span></span>
+- <span data-ttu-id="e1f83-164">Тип почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="e1f83-164">The type of mailbox.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="94b65-165">Имя списка рассылки не включенных в ответ; Таким образом вы должны отслеживать связи имя запроса.</span><span class="sxs-lookup"><span data-stu-id="94b65-165">The distribution list name is not included in the response; therefore, you must keep track of the name from the request.</span></span> 
+> <span data-ttu-id="e1f83-165">Имя списка рассылки не включается в ответ; Поэтому необходимо следить за именем в запросе.</span><span class="sxs-lookup"><span data-stu-id="e1f83-165">The distribution list name is not included in the response; therefore, you must keep track of the name from the request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="94b65-166">Программа</span><span class="sxs-lookup"><span data-stu-id="94b65-166">Code</span></span>
+### <a name="code"></a><span data-ttu-id="e1f83-166">Код</span><span class="sxs-lookup"><span data-stu-id="e1f83-166">Code</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -191,41 +191,41 @@ ms.locfileid: "21353744"
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a><span data-ttu-id="94b65-167">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="94b65-167">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="e1f83-167">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="e1f83-167">Successful response elements</span></span>
 
-<span data-ttu-id="94b65-168">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="94b65-168">The following elements are used in the response:</span></span>
+<span data-ttu-id="e1f83-168">В отклике используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="e1f83-168">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="94b65-169">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="94b65-169">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="e1f83-169">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="e1f83-169">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="94b65-170">ExpandDLResponse</span><span class="sxs-lookup"><span data-stu-id="94b65-170">ExpandDLResponse</span></span>](expanddlresponse.md)
+- [<span data-ttu-id="e1f83-170">експанддлреспонсе</span><span class="sxs-lookup"><span data-stu-id="e1f83-170">ExpandDLResponse</span></span>](expanddlresponse.md)
     
-- [<span data-ttu-id="94b65-171">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="94b65-171">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="e1f83-171">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="e1f83-171">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="94b65-172">ExpandDLResponseMessage</span><span class="sxs-lookup"><span data-stu-id="94b65-172">ExpandDLResponseMessage</span></span>](expanddlresponsemessage.md)
+- [<span data-ttu-id="e1f83-172">експанддлреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="e1f83-172">ExpandDLResponseMessage</span></span>](expanddlresponsemessage.md)
     
-- [<span data-ttu-id="94b65-173">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="94b65-173">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="e1f83-173">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="e1f83-173">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="94b65-174">DLExpansion</span><span class="sxs-lookup"><span data-stu-id="94b65-174">DLExpansion</span></span>](dlexpansion.md)
+- [<span data-ttu-id="e1f83-174">длекспансион</span><span class="sxs-lookup"><span data-stu-id="e1f83-174">DLExpansion</span></span>](dlexpansion.md)
     
-- [<span data-ttu-id="94b65-175">Mailbox</span><span class="sxs-lookup"><span data-stu-id="94b65-175">Mailbox</span></span>](mailbox.md)
+- [<span data-ttu-id="e1f83-175">Mailbox</span><span class="sxs-lookup"><span data-stu-id="e1f83-175">Mailbox</span></span>](mailbox.md)
     
-- [<span data-ttu-id="94b65-176">Name (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="94b65-176">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
+- [<span data-ttu-id="e1f83-176">Имя (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="e1f83-176">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
     
-- [<span data-ttu-id="94b65-177">EmailAddress (NonEmptyStringType)</span><span class="sxs-lookup"><span data-stu-id="94b65-177">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md)
+- [<span data-ttu-id="e1f83-177">EmailAddress (Нонемптистрингтипе)</span><span class="sxs-lookup"><span data-stu-id="e1f83-177">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md)
     
-- [<span data-ttu-id="94b65-178">RoutingType (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="94b65-178">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
+- [<span data-ttu-id="e1f83-178">Раутингтипе (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="e1f83-178">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
     
-- [<span data-ttu-id="94b65-179">MailboxType</span><span class="sxs-lookup"><span data-stu-id="94b65-179">MailboxType</span></span>](mailboxtype.md)
+- [<span data-ttu-id="e1f83-179">MailboxType</span><span class="sxs-lookup"><span data-stu-id="e1f83-179">MailboxType</span></span>](mailboxtype.md)
     
-<span data-ttu-id="94b65-180">Чтобы найти другие параметры в сообщении ответа операция ExpandDL, изучите иерархия схемы.</span><span class="sxs-lookup"><span data-stu-id="94b65-180">To find other options for the response message of the ExpandDL operation, explore the schema hierarchy.</span></span> <span data-ttu-id="94b65-181">Запустите в элементе [ExpandDLResponse](expanddlresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="94b65-181">Start at the [ExpandDLResponse](expanddlresponse.md) element.</span></span> 
+<span data-ttu-id="e1f83-180">Чтобы найти другие параметры для ответного сообщения операции ExpandDL, изучите иерархию схемы.</span><span class="sxs-lookup"><span data-stu-id="e1f83-180">To find other options for the response message of the ExpandDL operation, explore the schema hierarchy.</span></span> <span data-ttu-id="e1f83-181">Начните с элемента [експанддлреспонсе](expanddlresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="e1f83-181">Start at the [ExpandDLResponse](expanddlresponse.md) element.</span></span> 
   
-## <a name="expanddl-error-response"></a><span data-ttu-id="94b65-182">Ошибка ExpandDL ответа</span><span class="sxs-lookup"><span data-stu-id="94b65-182">ExpandDL error response</span></span>
+## <a name="expanddl-error-response"></a><span data-ttu-id="e1f83-182">Ответ об ошибке ExpandDL</span><span class="sxs-lookup"><span data-stu-id="e1f83-182">ExpandDL error response</span></span>
 
-### <a name="description"></a><span data-ttu-id="94b65-183">Описание</span><span class="sxs-lookup"><span data-stu-id="94b65-183">Description</span></span>
+### <a name="description"></a><span data-ttu-id="e1f83-183">Описание</span><span class="sxs-lookup"><span data-stu-id="e1f83-183">Description</span></span>
 
-<span data-ttu-id="94b65-184">В следующем примере показано ошибочный ответ на запрос ExpandDL.</span><span class="sxs-lookup"><span data-stu-id="94b65-184">The following example shows an error response to an ExpandDL request.</span></span>
+<span data-ttu-id="e1f83-184">В следующем примере показан ответ об ошибке для запроса ExpandDL.</span><span class="sxs-lookup"><span data-stu-id="e1f83-184">The following example shows an error response to an ExpandDL request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="94b65-185">Программа</span><span class="sxs-lookup"><span data-stu-id="94b65-185">Code</span></span>
+### <a name="code"></a><span data-ttu-id="e1f83-185">Код</span><span class="sxs-lookup"><span data-stu-id="e1f83-185">Code</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -253,28 +253,28 @@ ms.locfileid: "21353744"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="94b65-186">Элементы ответа об ошибках</span><span class="sxs-lookup"><span data-stu-id="94b65-186">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="e1f83-186">Элементы ошибочного ответа</span><span class="sxs-lookup"><span data-stu-id="e1f83-186">Error response elements</span></span>
 
-<span data-ttu-id="94b65-187">В ответ на ошибку используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="94b65-187">The following elements are used in the error response:</span></span>
+<span data-ttu-id="e1f83-187">В ответе на сообщение об ошибке используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="e1f83-187">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="94b65-188">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="94b65-188">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="e1f83-188">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="e1f83-188">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="94b65-189">ExpandDLResponse</span><span class="sxs-lookup"><span data-stu-id="94b65-189">ExpandDLResponse</span></span>](expanddlresponse.md)
+- [<span data-ttu-id="e1f83-189">експанддлреспонсе</span><span class="sxs-lookup"><span data-stu-id="e1f83-189">ExpandDLResponse</span></span>](expanddlresponse.md)
     
-- [<span data-ttu-id="94b65-190">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="94b65-190">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="e1f83-190">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="e1f83-190">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="94b65-191">ExpandDLResponseMessage</span><span class="sxs-lookup"><span data-stu-id="94b65-191">ExpandDLResponseMessage</span></span>](expanddlresponsemessage.md)
+- [<span data-ttu-id="e1f83-191">експанддлреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="e1f83-191">ExpandDLResponseMessage</span></span>](expanddlresponsemessage.md)
     
-- [<span data-ttu-id="94b65-192">MessageText</span><span class="sxs-lookup"><span data-stu-id="94b65-192">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="e1f83-192">мессажетекст</span><span class="sxs-lookup"><span data-stu-id="e1f83-192">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="94b65-193">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="94b65-193">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="e1f83-193">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="e1f83-193">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="94b65-194">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="94b65-194">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="e1f83-194">дескриптивелинккэй</span><span class="sxs-lookup"><span data-stu-id="e1f83-194">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-<span data-ttu-id="94b65-195">Чтобы найти другие параметры в сообщении ответа операция ExpandDL, изучите иерархия схемы.</span><span class="sxs-lookup"><span data-stu-id="94b65-195">To find other options for the response message of the ExpandDL operation, explore the schema hierarchy.</span></span> <span data-ttu-id="94b65-196">Запустите в элементе [ExpandDLResponse](expanddlresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="94b65-196">Start at the [ExpandDLResponse](expanddlresponse.md) element.</span></span> 
+<span data-ttu-id="e1f83-195">Чтобы найти другие параметры для ответного сообщения операции ExpandDL, изучите иерархию схемы.</span><span class="sxs-lookup"><span data-stu-id="e1f83-195">To find other options for the response message of the ExpandDL operation, explore the schema hierarchy.</span></span> <span data-ttu-id="e1f83-196">Начните с элемента [експанддлреспонсе](expanddlresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="e1f83-196">Start at the [ExpandDLResponse](expanddlresponse.md) element.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="94b65-197">См. также</span><span class="sxs-lookup"><span data-stu-id="94b65-197">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1f83-197">См. также</span><span class="sxs-lookup"><span data-stu-id="e1f83-197">See also</span></span>
 
-- [<span data-ttu-id="94b65-198">Операция ResolveNames</span><span class="sxs-lookup"><span data-stu-id="94b65-198">ResolveNames operation</span></span>](resolvenames-operation.md)
-- [<span data-ttu-id="94b65-199">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="94b65-199">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="e1f83-198">Операция ResolveNames</span><span class="sxs-lookup"><span data-stu-id="e1f83-198">ResolveNames operation</span></span>](resolvenames-operation.md)
+- [<span data-ttu-id="e1f83-199">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="e1f83-199">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
