@@ -1,5 +1,5 @@
 ---
-title: CreateRuleOperation
+title: креатерулеоператион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e9f70726-db08-4089-839e-a41007d0a473
-description: Элемент CreateRuleOperation представляет операцию для создания нового правила папки «Входящие».
+description: Элемент Креатерулеоператион представляет операцию для создания нового правила для папки "Входящие".
 ms.openlocfilehash: c531f222ffe886e6ef53a99609cfa27e84fd6107
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761912"
 ---
-# <a name="createruleoperation"></a><span data-ttu-id="a3a80-103">CreateRuleOperation</span><span class="sxs-lookup"><span data-stu-id="a3a80-103">CreateRuleOperation</span></span>
+# <a name="createruleoperation"></a><span data-ttu-id="894e2-103">креатерулеоператион</span><span class="sxs-lookup"><span data-stu-id="894e2-103">CreateRuleOperation</span></span>
 
-<span data-ttu-id="a3a80-104">Элемент **CreateRuleOperation** представляет операцию для создания нового правила папки «Входящие».</span><span class="sxs-lookup"><span data-stu-id="a3a80-104">The **CreateRuleOperation** element represents an operation to create a new Inbox rule.</span></span> 
+<span data-ttu-id="894e2-104">Элемент **креатерулеоператион** представляет операцию для создания нового правила для папки "Входящие".</span><span class="sxs-lookup"><span data-stu-id="894e2-104">The **CreateRuleOperation** element represents an operation to create a new Inbox rule.</span></span> 
   
-[<span data-ttu-id="a3a80-105">UpdateInboxRules</span><span class="sxs-lookup"><span data-stu-id="a3a80-105">UpdateInboxRules</span></span>](updateinboxrules.md)
+[<span data-ttu-id="894e2-105">UpdateInboxRules</span><span class="sxs-lookup"><span data-stu-id="894e2-105">UpdateInboxRules</span></span>](updateinboxrules.md)
   
-[<span data-ttu-id="a3a80-106">Операции</span><span class="sxs-lookup"><span data-stu-id="a3a80-106">Operations</span></span>](operations.md)
+[<span data-ttu-id="894e2-106">Operations</span><span class="sxs-lookup"><span data-stu-id="894e2-106">Operations</span></span>](operations.md)
   
 ```xml
 <CreateRuleOperation>
@@ -33,54 +33,54 @@ ms.locfileid: "19761912"
 </CreateRuleOperation>
 ```
 
- <span data-ttu-id="a3a80-107">**CreateRuleOperationType**</span><span class="sxs-lookup"><span data-stu-id="a3a80-107">**CreateRuleOperationType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="a3a80-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="a3a80-108">Attributes and elements</span></span>
+ <span data-ttu-id="894e2-107">**креатерулеоператионтипе**</span><span class="sxs-lookup"><span data-stu-id="894e2-107">**CreateRuleOperationType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="894e2-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="894e2-108">Attributes and elements</span></span>
 
-<span data-ttu-id="a3a80-109">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="a3a80-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="894e2-109">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="894e2-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="a3a80-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="a3a80-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="894e2-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="894e2-110">Attributes</span></span>
 
-<span data-ttu-id="a3a80-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="a3a80-111">None.</span></span>
+<span data-ttu-id="894e2-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="894e2-111">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="a3a80-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="a3a80-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="894e2-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="894e2-112">Child elements</span></span>
 
-|<span data-ttu-id="a3a80-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="a3a80-113">**Element**</span></span>|<span data-ttu-id="a3a80-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a3a80-114">**Description**</span></span>|
+|<span data-ttu-id="894e2-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="894e2-113">**Element**</span></span>|<span data-ttu-id="894e2-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="894e2-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="a3a80-115">Правило (RuleType)</span><span class="sxs-lookup"><span data-stu-id="a3a80-115">Rule (RuleType)</span></span>](rule-ruletype.md) <br/> |<span data-ttu-id="a3a80-116">Представляет правило будет создан в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="a3a80-116">Represents a rule to be created in a user's mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="894e2-115">Правило (RuleType)</span><span class="sxs-lookup"><span data-stu-id="894e2-115">Rule (RuleType)</span></span>](rule-ruletype.md) <br/> |<span data-ttu-id="894e2-116">Представляет правило, которое будет создано в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="894e2-116">Represents a rule to be created in a user's mailbox.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="a3a80-117">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="a3a80-117">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="894e2-117">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="894e2-117">Parent elements</span></span>
 
-|<span data-ttu-id="a3a80-118">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="a3a80-118">**Element**</span></span>|<span data-ttu-id="a3a80-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a3a80-119">**Description**</span></span>|
+|<span data-ttu-id="894e2-118">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="894e2-118">**Element**</span></span>|<span data-ttu-id="894e2-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="894e2-119">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="a3a80-120">Операции</span><span class="sxs-lookup"><span data-stu-id="a3a80-120">Operations</span></span>](operations.md) <br/> |<span data-ttu-id="a3a80-121">Содержит операции, которые могут быть выполнены в папке "Входящие".</span><span class="sxs-lookup"><span data-stu-id="a3a80-121">Contains the operations that can be performed on an Inbox.</span></span>  <br/> |
+|[<span data-ttu-id="894e2-120">Operations</span><span class="sxs-lookup"><span data-stu-id="894e2-120">Operations</span></span>](operations.md) <br/> |<span data-ttu-id="894e2-121">Содержит операции, которые можно выполнить для папки "Входящие".</span><span class="sxs-lookup"><span data-stu-id="894e2-121">Contains the operations that can be performed on an Inbox.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="a3a80-122">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="a3a80-122">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="894e2-122">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="894e2-122">Text value</span></span>
 
-<span data-ttu-id="a3a80-123">Нет.</span><span class="sxs-lookup"><span data-stu-id="a3a80-123">None.</span></span>
+<span data-ttu-id="894e2-123">Нет.</span><span class="sxs-lookup"><span data-stu-id="894e2-123">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a3a80-124">Замечания</span><span class="sxs-lookup"><span data-stu-id="a3a80-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="894e2-124">Примечания</span><span class="sxs-lookup"><span data-stu-id="894e2-124">Remarks</span></span>
 
-<span data-ttu-id="a3a80-125">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="a3a80-125">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="894e2-125">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="894e2-125">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="a3a80-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="a3a80-126">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="894e2-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="894e2-126">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="a3a80-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="a3a80-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="a3a80-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="a3a80-128">Schema Name</span></span>  <br/> |<span data-ttu-id="a3a80-129">Схема Types</span><span class="sxs-lookup"><span data-stu-id="a3a80-129">Types schema</span></span>  <br/> |
-|<span data-ttu-id="a3a80-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="a3a80-130">Validation File</span></span>  <br/> |<span data-ttu-id="a3a80-131">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="a3a80-131">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="a3a80-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="a3a80-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="a3a80-133">False</span><span class="sxs-lookup"><span data-stu-id="a3a80-133">False</span></span>  <br/> |
+|<span data-ttu-id="894e2-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="894e2-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="894e2-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="894e2-128">Schema Name</span></span>  <br/> |<span data-ttu-id="894e2-129">Схема Types</span><span class="sxs-lookup"><span data-stu-id="894e2-129">Types schema</span></span>  <br/> |
+|<span data-ttu-id="894e2-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="894e2-130">Validation File</span></span>  <br/> |<span data-ttu-id="894e2-131">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="894e2-131">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="894e2-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="894e2-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="894e2-133">False</span><span class="sxs-lookup"><span data-stu-id="894e2-133">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="a3a80-134">См. также</span><span class="sxs-lookup"><span data-stu-id="a3a80-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="894e2-134">См. также</span><span class="sxs-lookup"><span data-stu-id="894e2-134">See also</span></span>
 
 
 
-[<span data-ttu-id="a3a80-135">UpdateInboxRules</span><span class="sxs-lookup"><span data-stu-id="a3a80-135">UpdateInboxRules</span></span>](updateinboxrules.md)
+[<span data-ttu-id="894e2-135">UpdateInboxRules</span><span class="sxs-lookup"><span data-stu-id="894e2-135">UpdateInboxRules</span></span>](updateinboxrules.md)
   
-[<span data-ttu-id="a3a80-136">SetRuleOperation</span><span class="sxs-lookup"><span data-stu-id="a3a80-136">SetRuleOperation</span></span>](setruleoperation.md)
+[<span data-ttu-id="894e2-136">сетрулеоператион</span><span class="sxs-lookup"><span data-stu-id="894e2-136">SetRuleOperation</span></span>](setruleoperation.md)
   
-[<span data-ttu-id="a3a80-137">DeleteRuleOperation</span><span class="sxs-lookup"><span data-stu-id="a3a80-137">DeleteRuleOperation</span></span>](deleteruleoperation.md)
+[<span data-ttu-id="894e2-137">делетерулеоператион</span><span class="sxs-lookup"><span data-stu-id="894e2-137">DeleteRuleOperation</span></span>](deleteruleoperation.md)
 
 
-- [<span data-ttu-id="a3a80-138">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="a3a80-138">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="894e2-138">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="894e2-138">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7d5cd08a-fe81-4cb6-a5a0-6dec2d3c93d4
-description: Элемент CopyFolder определяет запрос для копирования папки почтового ящика в хранилище Exchange.
+description: Элемент CopyFolder определяет запрос на копирование папок в почтовом ящике в хранилище Exchange.
 ms.openlocfilehash: 7bcfcc7f4212b3a3bd339fa5863df2990eb20d6d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761838"
 ---
-# <a name="copyfolder"></a><span data-ttu-id="8702a-103">CopyFolder</span><span class="sxs-lookup"><span data-stu-id="8702a-103">CopyFolder</span></span>
+# <a name="copyfolder"></a><span data-ttu-id="44d58-103">CopyFolder</span><span class="sxs-lookup"><span data-stu-id="44d58-103">CopyFolder</span></span>
 
-<span data-ttu-id="8702a-104">Элемент **CopyFolder** определяет запрос для копирования папки почтового ящика в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="8702a-104">The **CopyFolder** element defines a request to copy folders in a mailbox in the Exchange store.</span></span> 
+<span data-ttu-id="44d58-104">Элемент **CopyFolder** определяет запрос на копирование папок в почтовом ящике в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="44d58-104">The **CopyFolder** element defines a request to copy folders in a mailbox in the Exchange store.</span></span> 
   
 ```xml
 <CopyFolder>
@@ -30,42 +30,42 @@ ms.locfileid: "19761838"
 </CopyFolder>
 ```
 
- <span data-ttu-id="8702a-105">**CopyFolderType**</span><span class="sxs-lookup"><span data-stu-id="8702a-105">**CopyFolderType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="8702a-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="8702a-106">Attributes and elements</span></span>
+ <span data-ttu-id="44d58-105">**копифолдертипе**</span><span class="sxs-lookup"><span data-stu-id="44d58-105">**CopyFolderType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="44d58-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="44d58-106">Attributes and elements</span></span>
 
-<span data-ttu-id="8702a-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="8702a-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="44d58-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="44d58-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8702a-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="8702a-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="44d58-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="44d58-108">Attributes</span></span>
 
-<span data-ttu-id="8702a-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="8702a-109">None.</span></span>
+<span data-ttu-id="44d58-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="44d58-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="8702a-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="8702a-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="44d58-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="44d58-110">Child elements</span></span>
 
-|<span data-ttu-id="8702a-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="8702a-111">**Element**</span></span>|<span data-ttu-id="8702a-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="8702a-112">**Description**</span></span>|
+|<span data-ttu-id="44d58-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="44d58-111">**Element**</span></span>|<span data-ttu-id="44d58-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="44d58-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="8702a-113">ToFolderId</span><span class="sxs-lookup"><span data-stu-id="8702a-113">ToFolderId</span></span>](tofolderid.md) <br/> |<span data-ttu-id="8702a-114">Представляет конечной папки для скопированной папке.</span><span class="sxs-lookup"><span data-stu-id="8702a-114">Represents the destination folder for a copied folder.</span></span>  <br/> |
-|[<span data-ttu-id="8702a-115">FolderIds</span><span class="sxs-lookup"><span data-stu-id="8702a-115">FolderIds</span></span>](folderids.md) <br/> |<span data-ttu-id="8702a-116">Содержит набор папок, которые следует скопировать в папку, указанную в элементе [ToFolderId](tofolderid.md) .</span><span class="sxs-lookup"><span data-stu-id="8702a-116">Contains an array of folders to copy to the folder identified by the [ToFolderId](tofolderid.md) element.</span></span>  <br/> |
+|[<span data-ttu-id="44d58-113">тофолдерид</span><span class="sxs-lookup"><span data-stu-id="44d58-113">ToFolderId</span></span>](tofolderid.md) <br/> |<span data-ttu-id="44d58-114">Представляет папку назначения для скопированной папки.</span><span class="sxs-lookup"><span data-stu-id="44d58-114">Represents the destination folder for a copied folder.</span></span>  <br/> |
+|[<span data-ttu-id="44d58-115">фолдеридс</span><span class="sxs-lookup"><span data-stu-id="44d58-115">FolderIds</span></span>](folderids.md) <br/> |<span data-ttu-id="44d58-116">Содержит массив папок, которые необходимо скопировать в папку, определяемую элементом [тофолдерид](tofolderid.md) .</span><span class="sxs-lookup"><span data-stu-id="44d58-116">Contains an array of folders to copy to the folder identified by the [ToFolderId](tofolderid.md) element.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="8702a-117">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="8702a-117">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="44d58-117">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="44d58-117">Parent elements</span></span>
 
-<span data-ttu-id="8702a-118">Нет.</span><span class="sxs-lookup"><span data-stu-id="8702a-118">None.</span></span>
+<span data-ttu-id="44d58-118">Нет.</span><span class="sxs-lookup"><span data-stu-id="44d58-118">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8702a-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="8702a-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="44d58-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="44d58-119">Remarks</span></span>
 
-<span data-ttu-id="8702a-120">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="8702a-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="44d58-120">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="44d58-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="8702a-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="8702a-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="44d58-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="44d58-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8702a-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="8702a-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="8702a-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="8702a-123">Schema Name</span></span>  <br/> |<span data-ttu-id="8702a-124">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="8702a-124">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="8702a-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="8702a-125">Validation File</span></span>  <br/> |<span data-ttu-id="8702a-126">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="8702a-126">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="8702a-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="8702a-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="8702a-128">False</span><span class="sxs-lookup"><span data-stu-id="8702a-128">False</span></span>  <br/> |
+|<span data-ttu-id="44d58-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="44d58-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="44d58-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="44d58-123">Schema Name</span></span>  <br/> |<span data-ttu-id="44d58-124">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="44d58-124">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="44d58-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="44d58-125">Validation File</span></span>  <br/> |<span data-ttu-id="44d58-126">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="44d58-126">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="44d58-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="44d58-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="44d58-128">False</span><span class="sxs-lookup"><span data-stu-id="44d58-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="8702a-129">См. также</span><span class="sxs-lookup"><span data-stu-id="8702a-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="44d58-129">См. также</span><span class="sxs-lookup"><span data-stu-id="44d58-129">See also</span></span>
 
 
 
-[<span data-ttu-id="8702a-130">Операция CopyFolder</span><span class="sxs-lookup"><span data-stu-id="8702a-130">CopyFolder operation</span></span>](copyfolder-operation.md)
+[<span data-ttu-id="44d58-130">Операция CopyFolder</span><span class="sxs-lookup"><span data-stu-id="44d58-130">CopyFolder operation</span></span>](copyfolder-operation.md)
 

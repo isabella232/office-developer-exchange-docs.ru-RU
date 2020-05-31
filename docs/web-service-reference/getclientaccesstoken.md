@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762710"
 ---
-# <a name="getclientaccesstoken"></a><span data-ttu-id="31658-103">GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="31658-103">GetClientAccessToken</span></span>
+# <a name="getclientaccesstoken"></a><span data-ttu-id="c9e91-103">GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="c9e91-103">GetClientAccessToken</span></span>
 
-<span data-ttu-id="31658-104">Элемент **GetClientAccessToken** содержит запрос на получение маркера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="31658-104">The **GetClientAccessToken** element contains a request to get a client access token.</span></span> 
+<span data-ttu-id="c9e91-104">Элемент **GetClientAccessToken** содержит запрос на получение маркера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="c9e91-104">The **GetClientAccessToken** element contains a request to get a client access token.</span></span> 
   
 ```XML
 <GetClientAccessToken>
@@ -25,36 +25,36 @@ ms.locfileid: "19762710"
 </GetClientAccessToken>
 ```
 
- <span data-ttu-id="31658-105">**GetClientAccessTokenType**</span><span class="sxs-lookup"><span data-stu-id="31658-105">**GetClientAccessTokenType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="31658-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="31658-106">Attributes and elements</span></span>
+ <span data-ttu-id="c9e91-105">**жетклиентакцесстокентипе**</span><span class="sxs-lookup"><span data-stu-id="c9e91-105">**GetClientAccessTokenType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c9e91-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="c9e91-106">Attributes and elements</span></span>
 
-<span data-ttu-id="31658-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="31658-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c9e91-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="c9e91-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="31658-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="31658-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c9e91-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="c9e91-108">Attributes</span></span>
 
-<span data-ttu-id="31658-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="31658-109">None.</span></span>
+<span data-ttu-id="c9e91-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="c9e91-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="31658-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="31658-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c9e91-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="c9e91-110">Child elements</span></span>
 
-[<span data-ttu-id="31658-111">TokenRequests</span><span class="sxs-lookup"><span data-stu-id="31658-111">TokenRequests</span></span>](tokenrequests.md)
+[<span data-ttu-id="c9e91-111">токенрекуестс</span><span class="sxs-lookup"><span data-stu-id="c9e91-111">TokenRequests</span></span>](tokenrequests.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="31658-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="31658-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c9e91-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="c9e91-112">Parent elements</span></span>
 
-<span data-ttu-id="31658-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="31658-113">None.</span></span>
+<span data-ttu-id="c9e91-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="c9e91-113">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="31658-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="31658-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c9e91-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="c9e91-114">Remarks</span></span>
 
-<span data-ttu-id="31658-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="31658-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="c9e91-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c9e91-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="31658-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="31658-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="c9e91-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="c9e91-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="31658-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="31658-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="c9e91-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="c9e91-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="31658-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="31658-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="31658-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="31658-119">Schema name</span></span>  <br/> |<span data-ttu-id="31658-120">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="31658-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="31658-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="31658-121">Validation file</span></span>  <br/> |<span data-ttu-id="31658-122">messages.xsd</span><span class="sxs-lookup"><span data-stu-id="31658-122">messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="31658-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="31658-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="c9e91-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="c9e91-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="c9e91-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="c9e91-119">Schema name</span></span>  <br/> |<span data-ttu-id="c9e91-120">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="c9e91-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="c9e91-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="c9e91-121">Validation file</span></span>  <br/> |<span data-ttu-id="c9e91-122">messages. xsd</span><span class="sxs-lookup"><span data-stu-id="c9e91-122">messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="c9e91-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="c9e91-123">Can be empty</span></span>  <br/> ||
    
 

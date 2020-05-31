@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 21a4987c-c24d-4a6e-ace4-e81edcda6303
-description: Найдите сведения о веб-служб Exchange GetAppManifests операции.
+description: Поиск сведений о GetAppManifestsной операции EWS.
 ms.openlocfilehash: 9c919bac9ac0042890d1c439454b37e6b7c60876
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,30 +15,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762683"
 ---
-# <a name="getappmanifests-operation"></a><span data-ttu-id="5f6dd-103">Операция GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="5f6dd-103">GetAppManifests operation</span></span>
+# <a name="getappmanifests-operation"></a><span data-ttu-id="cdb51-103">Операция GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="cdb51-103">GetAppManifests operation</span></span>
 
-<span data-ttu-id="5f6dd-104">Найдите сведения о операции **GetAppManifests** веб-служб Exchange.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-104">Find information about the **GetAppManifests** EWS operation.</span></span> 
+<span data-ttu-id="cdb51-104">Поиск сведений о **GetAppManifestsной** операции EWS.</span><span class="sxs-lookup"><span data-stu-id="cdb51-104">Find information about the **GetAppManifests** EWS operation.</span></span> 
   
-<span data-ttu-id="5f6dd-105">Операция **GetAppManifests** извлекает манифестов приложений.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-105">The **GetAppManifests** operation retrieves app manifests.</span></span> 
+<span data-ttu-id="cdb51-105">Операция **GetAppManifests** получает манифесты приложений.</span><span class="sxs-lookup"><span data-stu-id="cdb51-105">The **GetAppManifests** operation retrieves app manifests.</span></span> 
   
-<span data-ttu-id="5f6dd-106">Эта операция появилась в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-106">This operation was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="cdb51-106">Эта операция появилась в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cdb51-106">This operation was introduced in Exchange Server 2013.</span></span>
   
-## <a name="using-the-getappmanifests-operation"></a><span data-ttu-id="5f6dd-107">С помощью операции GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="5f6dd-107">Using the GetAppManifests operation</span></span>
+## <a name="using-the-getappmanifests-operation"></a><span data-ttu-id="cdb51-107">Использование операции GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="cdb51-107">Using the GetAppManifests operation</span></span>
 
-<span data-ttu-id="5f6dd-108">Операция **GetAppManifests** не имеет аргументов, чтобы запросить манифестов приложений для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-108">The **GetAppManifests** operation does not take any arguments to request the app manifests for a mailbox.</span></span> <span data-ttu-id="5f6dd-109">Ответ будет содержать кодировки Base64 XML-файлах манифестов для каждого приложения, которая устанавливается в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-109">The response will contain base64-encoded XML manifest files for each app that is installed in a mailbox.</span></span> 
+<span data-ttu-id="cdb51-108">Операция **GetAppManifests** не имеет аргументов для запроса манифестов приложений для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="cdb51-108">The **GetAppManifests** operation does not take any arguments to request the app manifests for a mailbox.</span></span> <span data-ttu-id="cdb51-109">Ответ будет содержать XML-файлы манифеста в кодировке Base64 для каждого приложения, установленного в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="cdb51-109">The response will contain base64-encoded XML manifest files for each app that is installed in a mailbox.</span></span> 
   
-### <a name="getappmanifests-operation-soap-headers"></a><span data-ttu-id="5f6dd-110">Заголовки SOAP GetAppManifests операции</span><span class="sxs-lookup"><span data-stu-id="5f6dd-110">GetAppManifests operation SOAP headers</span></span>
+### <a name="getappmanifests-operation-soap-headers"></a><span data-ttu-id="cdb51-110">Заголовки SOAP операции GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="cdb51-110">GetAppManifests operation SOAP headers</span></span>
 
-<span data-ttu-id="5f6dd-111">Операция **GetAppManifests** можно использовать заголовки SOAP, которые перечислены в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-111">The **GetAppManifests** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="cdb51-111">Операция **GetAppManifests** может использовать заголовки SOAP, указанные в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="cdb51-111">The **GetAppManifests** operation can use the SOAP headers that are listed in the following table.</span></span> 
   
-|<span data-ttu-id="5f6dd-112">**Имя заголовка**</span><span class="sxs-lookup"><span data-stu-id="5f6dd-112">**Header name**</span></span>|<span data-ttu-id="5f6dd-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5f6dd-113">**Element**</span></span>|<span data-ttu-id="5f6dd-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5f6dd-114">**Description**</span></span>|
+|<span data-ttu-id="cdb51-112">**Имя заголовка**</span><span class="sxs-lookup"><span data-stu-id="cdb51-112">**Header name**</span></span>|<span data-ttu-id="cdb51-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="cdb51-113">**Element**</span></span>|<span data-ttu-id="cdb51-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="cdb51-114">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="5f6dd-115">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="5f6dd-115">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="5f6dd-116">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="5f6dd-116">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="5f6dd-117">Определяет версию схемы для операции запроса.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-117">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="5f6dd-118">Этот заголовок можно применять к запросу.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-118">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="5f6dd-119">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="5f6dd-119">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="5f6dd-120">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="5f6dd-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="5f6dd-121">Определяет версию сервера, ответившего на запрос.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-121">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="5f6dd-122">Этот заголовок можно применять, чтобы получить ответ.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-122">This header is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="cdb51-115">**рекуестверсион**</span><span class="sxs-lookup"><span data-stu-id="cdb51-115">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="cdb51-116">рекуестсерверверсион</span><span class="sxs-lookup"><span data-stu-id="cdb51-116">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="cdb51-117">Определяет версию схемы для запроса операции.</span><span class="sxs-lookup"><span data-stu-id="cdb51-117">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="cdb51-118">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="cdb51-118">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="cdb51-119">**серверверсион**</span><span class="sxs-lookup"><span data-stu-id="cdb51-119">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="cdb51-120">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="cdb51-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="cdb51-121">Определяет версию сервера, который ответил на запрос.</span><span class="sxs-lookup"><span data-stu-id="cdb51-121">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="cdb51-122">Этот заголовок является применимым для отклика.</span><span class="sxs-lookup"><span data-stu-id="cdb51-122">This header is applicable to a response.</span></span>  <br/> |
    
-## <a name="getappmanifests-operation-request-example-get-the-app-manifests-for-a-mailbox"></a><span data-ttu-id="5f6dd-123">Пример запроса GetAppManifests операции: получение манифестов приложений для почтового ящика</span><span class="sxs-lookup"><span data-stu-id="5f6dd-123">GetAppManifests operation request example: Get the app manifests for a mailbox</span></span>
+## <a name="getappmanifests-operation-request-example-get-the-app-manifests-for-a-mailbox"></a><span data-ttu-id="cdb51-123">Пример запроса операции GetAppManifests: получение манифестов приложений для почтового ящика</span><span class="sxs-lookup"><span data-stu-id="cdb51-123">GetAppManifests operation request example: Get the app manifests for a mailbox</span></span>
 
-<span data-ttu-id="5f6dd-124">В следующем примере запрос операции **GetAppManifests** показано, как получить манифестов приложений для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-124">The following example of a **GetAppManifests** operation request shows how to get the app manifests for a mailbox.</span></span> <span data-ttu-id="5f6dd-125">Элемент [ApiVersionSupported](apiversionsupported.md) и элемент [SchemaVersionSupported](schemaversionsupported.md) являются необязательными.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-125">The [ApiVersionSupported](apiversionsupported.md) element and the [SchemaVersionSupported](schemaversionsupported.md) element are optional.</span></span> 
+<span data-ttu-id="cdb51-124">В следующем примере запроса операции **GetAppManifests** показано, как получить манифесты приложения для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="cdb51-124">The following example of a **GetAppManifests** operation request shows how to get the app manifests for a mailbox.</span></span> <span data-ttu-id="cdb51-125">Элементы [апиверсионсуппортед](apiversionsupported.md) и [счемаверсионсуппортед](schemaversionsupported.md) являются необязательными.</span><span class="sxs-lookup"><span data-stu-id="cdb51-125">The [ApiVersionSupported](apiversionsupported.md) element and the [SchemaVersionSupported](schemaversionsupported.md) element are optional.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -62,20 +62,20 @@ ms.locfileid: "19762683"
 
 ```
 
-<span data-ttu-id="5f6dd-126">Запрос SOAP body содержит следующий элемент:</span><span class="sxs-lookup"><span data-stu-id="5f6dd-126">The request SOAP body contains the following element:</span></span>
+<span data-ttu-id="cdb51-126">Текст SOAP запроса содержит следующий элемент:</span><span class="sxs-lookup"><span data-stu-id="cdb51-126">The request SOAP body contains the following element:</span></span>
   
-- [<span data-ttu-id="5f6dd-127">GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="5f6dd-127">GetAppManifests</span></span>](getappmanifests.md)
+- [<span data-ttu-id="cdb51-127">GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="cdb51-127">GetAppManifests</span></span>](getappmanifests.md)
     
-- [<span data-ttu-id="5f6dd-128">ApiVersionSupported</span><span class="sxs-lookup"><span data-stu-id="5f6dd-128">ApiVersionSupported</span></span>](apiversionsupported.md)
+- [<span data-ttu-id="cdb51-128">апиверсионсуппортед</span><span class="sxs-lookup"><span data-stu-id="cdb51-128">ApiVersionSupported</span></span>](apiversionsupported.md)
     
-- [<span data-ttu-id="5f6dd-129">SchemaVersionSupported</span><span class="sxs-lookup"><span data-stu-id="5f6dd-129">SchemaVersionSupported</span></span>](schemaversionsupported.md)
+- [<span data-ttu-id="cdb51-129">счемаверсионсуппортед</span><span class="sxs-lookup"><span data-stu-id="cdb51-129">SchemaVersionSupported</span></span>](schemaversionsupported.md)
     
-## <a name="successful-getappmanifests-operation-response"></a><span data-ttu-id="5f6dd-130">Успешные операции ответа GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="5f6dd-130">Successful GetAppManifests operation response</span></span>
+## <a name="successful-getappmanifests-operation-response"></a><span data-ttu-id="cdb51-130">Успешный отклик операции GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="cdb51-130">Successful GetAppManifests operation response</span></span>
 
-<span data-ttu-id="5f6dd-131">В следующем примере показано успешного ответа на запрос **GetAppManifests** операции для получения манифестов приложений для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-131">The following example shows a successful response to a **GetAppManifests** operation request to get the app manifests for a mailbox.</span></span> 
+<span data-ttu-id="cdb51-131">В следующем примере показан успешный ответ на запрос операции **GetAppManifests** для получения манифестов приложений для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="cdb51-131">The following example shows a successful response to a **GetAppManifests** operation request to get the app manifests for a mailbox.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="5f6dd-132">Все манифесты приложений base64 произвольно усечен, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-132">All base64 app manifests have been arbitrarily truncated to preserve readability.</span></span> 
+> <span data-ttu-id="cdb51-132">Все манифесты приложений Base64 были произвольно усечены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="cdb51-132">All base64 app manifests have been arbitrarily truncated to preserve readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -106,25 +106,25 @@ ms.locfileid: "19762683"
 </s:Envelope>
 ```
 
-<span data-ttu-id="5f6dd-133">Ответ SOAP body содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="5f6dd-133">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="cdb51-133">Тело SOAP отклика содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="cdb51-133">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="5f6dd-134">GetAppManifestsResponse</span><span class="sxs-lookup"><span data-stu-id="5f6dd-134">GetAppManifestsResponse</span></span>](getappmanifestsresponse.md)
+- [<span data-ttu-id="cdb51-134">жетаппманифестсреспонсе</span><span class="sxs-lookup"><span data-stu-id="cdb51-134">GetAppManifestsResponse</span></span>](getappmanifestsresponse.md)
     
-- [<span data-ttu-id="5f6dd-135">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="5f6dd-135">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="cdb51-135">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="cdb51-135">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="5f6dd-136">Приложения</span><span class="sxs-lookup"><span data-stu-id="5f6dd-136">Apps</span></span>](apps.md)
+- [<span data-ttu-id="cdb51-136">Приложения</span><span class="sxs-lookup"><span data-stu-id="cdb51-136">Apps</span></span>](apps.md)
     
-- [<span data-ttu-id="5f6dd-137">Приложения</span><span class="sxs-lookup"><span data-stu-id="5f6dd-137">App</span></span>](app.md)
+- [<span data-ttu-id="cdb51-137">Приложение</span><span class="sxs-lookup"><span data-stu-id="cdb51-137">App</span></span>](app.md)
     
-- [<span data-ttu-id="5f6dd-138">Манифест</span><span class="sxs-lookup"><span data-stu-id="5f6dd-138">Manifest</span></span>](manifest.md)
+- [<span data-ttu-id="cdb51-138">Манифест</span><span class="sxs-lookup"><span data-stu-id="cdb51-138">Manifest</span></span>](manifest.md)
     
-<span data-ttu-id="5f6dd-139">Ответ SOAP body также может содержать следующий элемент:</span><span class="sxs-lookup"><span data-stu-id="5f6dd-139">The response SOAP body can also contain the following element:</span></span>
+<span data-ttu-id="cdb51-139">Тело SOAP отклика также может содержать следующий элемент:</span><span class="sxs-lookup"><span data-stu-id="cdb51-139">The response SOAP body can also contain the following element:</span></span>
   
-- [<span data-ttu-id="5f6dd-140">Манифесты</span><span class="sxs-lookup"><span data-stu-id="5f6dd-140">Manifests</span></span>](manifests.md)
+- [<span data-ttu-id="cdb51-140">Манифесты</span><span class="sxs-lookup"><span data-stu-id="cdb51-140">Manifests</span></span>](manifests.md)
     
-## <a name="getappmanifests-operation-error-response"></a><span data-ttu-id="5f6dd-141">Ошибка операции GetAppManifests ответа</span><span class="sxs-lookup"><span data-stu-id="5f6dd-141">GetAppManifests operation error response</span></span>
+## <a name="getappmanifests-operation-error-response"></a><span data-ttu-id="cdb51-141">Ответ об ошибке операции GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="cdb51-141">GetAppManifests operation error response</span></span>
 
-<span data-ttu-id="5f6dd-142">Сообщений об ошибках, возвращаемых для этой операции связаны с недопустимый формат входных параметров или универсальные ошибок веб-служб Exchange.</span><span class="sxs-lookup"><span data-stu-id="5f6dd-142">Errors returned for this operation are related to an invalid format of the input parameters or are generic EWS errors.</span></span> <span data-ttu-id="5f6dd-143">Коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="5f6dd-143">For error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
+<span data-ttu-id="cdb51-142">Ошибки, возвращаемые для этой операции, связаны с недопустимым форматом входных параметров или общими ошибками EWS.</span><span class="sxs-lookup"><span data-stu-id="cdb51-142">Errors returned for this operation are related to an invalid format of the input parameters or are generic EWS errors.</span></span> <span data-ttu-id="cdb51-143">Коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="cdb51-143">For error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -155,16 +155,16 @@ ms.locfileid: "19762683"
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="5f6dd-144">См. также</span><span class="sxs-lookup"><span data-stu-id="5f6dd-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cdb51-144">См. также</span><span class="sxs-lookup"><span data-stu-id="cdb51-144">See also</span></span>
 
-- [<span data-ttu-id="5f6dd-145">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="5f6dd-145">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="cdb51-145">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="cdb51-145">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
     
-- [<span data-ttu-id="5f6dd-146">Операция DisableApp</span><span class="sxs-lookup"><span data-stu-id="5f6dd-146">DisableApp operation</span></span>](disableapp-operation.md)
+- [<span data-ttu-id="cdb51-146">Операция DisableApp</span><span class="sxs-lookup"><span data-stu-id="cdb51-146">DisableApp operation</span></span>](disableapp-operation.md)
     
-- [<span data-ttu-id="5f6dd-147">Операция InstallApp</span><span class="sxs-lookup"><span data-stu-id="5f6dd-147">InstallApp operation</span></span>](installapp-operation.md)
+- [<span data-ttu-id="cdb51-147">Операция InstallApp</span><span class="sxs-lookup"><span data-stu-id="cdb51-147">InstallApp operation</span></span>](installapp-operation.md)
     
-- [<span data-ttu-id="5f6dd-148">Операция UninstallApp</span><span class="sxs-lookup"><span data-stu-id="5f6dd-148">UninstallApp operation</span></span>](uninstallapp-operation.md)
+- [<span data-ttu-id="cdb51-148">Операция UninstallApp</span><span class="sxs-lookup"><span data-stu-id="cdb51-148">UninstallApp operation</span></span>](uninstallapp-operation.md)
     
-- [<span data-ttu-id="5f6dd-149">Операция GetAppMarketplaceUrl</span><span class="sxs-lookup"><span data-stu-id="5f6dd-149">GetAppMarketplaceUrl operation</span></span>](getappmarketplaceurl-operation.md)
+- [<span data-ttu-id="cdb51-149">Операция GetAppMarketplaceUrl</span><span class="sxs-lookup"><span data-stu-id="cdb51-149">GetAppMarketplaceUrl operation</span></span>](getappmarketplaceurl-operation.md)
     
 

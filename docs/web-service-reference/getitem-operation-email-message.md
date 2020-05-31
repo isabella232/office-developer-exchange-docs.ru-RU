@@ -1,5 +1,5 @@
 ---
-title: Операции GetItem (сообщение электронной почты)
+title: Операция GetItem (сообщение электронной почты)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e8492e3b-1c8d-4b14-8070-9530f8306edd
-description: Операции GetItem позволяет пользователям получать доступ к информации о сообщениях электронной почты.
+description: Операция GetItem позволяет пользователю получать доступ к сведениям о сообщениях электронной почты.
 ms.openlocfilehash: 133a893ec7cd0c206d9db573f8b952eb3c2286df
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,25 +19,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762833"
 ---
-# <a name="getitem-operation-email-message"></a><span data-ttu-id="c9efe-103">Операции GetItem (сообщение электронной почты)</span><span class="sxs-lookup"><span data-stu-id="c9efe-103">GetItem operation (email message)</span></span>
+# <a name="getitem-operation-email-message"></a><span data-ttu-id="977a3-103">Операция GetItem (сообщение электронной почты)</span><span class="sxs-lookup"><span data-stu-id="977a3-103">GetItem operation (email message)</span></span>
 
-<span data-ttu-id="c9efe-104">Операции GetItem позволяет пользователям получать доступ к информации о сообщениях электронной почты.</span><span class="sxs-lookup"><span data-stu-id="c9efe-104">The GetItem operation allows the user to access information about e-mail messages.</span></span>
+<span data-ttu-id="977a3-104">Операция GetItem позволяет пользователю получать доступ к сведениям о сообщениях электронной почты.</span><span class="sxs-lookup"><span data-stu-id="977a3-104">The GetItem operation allows the user to access information about e-mail messages.</span></span>
   
-## <a name="using-the-getitem-operation-for-messages"></a><span data-ttu-id="c9efe-105">С помощью операции GetItem для сообщений</span><span class="sxs-lookup"><span data-stu-id="c9efe-105">Using the GetItem Operation for Messages</span></span>
+## <a name="using-the-getitem-operation-for-messages"></a><span data-ttu-id="977a3-105">Использование операции GetItem для сообщений</span><span class="sxs-lookup"><span data-stu-id="977a3-105">Using the GetItem Operation for Messages</span></span>
 
-<span data-ttu-id="c9efe-106">Запрос GetItem должен иметь следующие сведения:</span><span class="sxs-lookup"><span data-stu-id="c9efe-106">The GetItem request must have the following information:</span></span>
+<span data-ttu-id="977a3-106">Запрос GetItem должен иметь следующие сведения:</span><span class="sxs-lookup"><span data-stu-id="977a3-106">The GetItem request must have the following information:</span></span>
   
-- <span data-ttu-id="c9efe-107">Элемент [ItemId](itemid.md) для идентификации возвращаемых данных элемента.</span><span class="sxs-lookup"><span data-stu-id="c9efe-107">The [ItemId](itemid.md) element to identify the item information to return.</span></span> 
+- <span data-ttu-id="977a3-107">Элемент [ItemId](itemid.md) для определения возвращаемых сведений об элементе.</span><span class="sxs-lookup"><span data-stu-id="977a3-107">The [ItemId](itemid.md) element to identify the item information to return.</span></span> 
     
-- <span data-ttu-id="c9efe-108">Элемент [ItemShape](itemshape.md) для идентификации возвращаемых свойств элемента.</span><span class="sxs-lookup"><span data-stu-id="c9efe-108">The [ItemShape](itemshape.md) element to identify the item properties to return.</span></span> 
+- <span data-ttu-id="977a3-108">Элемент [итемшапе](itemshape.md) для определения возвращаемых свойств элемента.</span><span class="sxs-lookup"><span data-stu-id="977a3-108">The [ItemShape](itemshape.md) element to identify the item properties to return.</span></span> 
     
-## <a name="getitem-request-example"></a><span data-ttu-id="c9efe-109">Пример запроса GetItem</span><span class="sxs-lookup"><span data-stu-id="c9efe-109">GetItem request example</span></span>
+## <a name="getitem-request-example"></a><span data-ttu-id="977a3-109">Пример запроса GetItem</span><span class="sxs-lookup"><span data-stu-id="977a3-109">GetItem request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="c9efe-110">Описание</span><span class="sxs-lookup"><span data-stu-id="c9efe-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="977a3-110">Описание</span><span class="sxs-lookup"><span data-stu-id="977a3-110">Description</span></span>
 
-<span data-ttu-id="c9efe-111">Приведенный ниже запрос GetItem показано, как получить доступ к информации о сообщениях электронной почты.</span><span class="sxs-lookup"><span data-stu-id="c9efe-111">The following example of a GetItem request shows how to access information about e-mail messages.</span></span>
+<span data-ttu-id="977a3-111">В приведенном ниже примере запроса GetItem показано, как получить доступ к сведениям о сообщениях электронной почты.</span><span class="sxs-lookup"><span data-stu-id="977a3-111">The following example of a GetItem request shows how to access information about e-mail messages.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c9efe-112">Программа</span><span class="sxs-lookup"><span data-stu-id="c9efe-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="977a3-112">Код</span><span class="sxs-lookup"><span data-stu-id="977a3-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -62,29 +62,29 @@ ms.locfileid: "19762833"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a><span data-ttu-id="c9efe-113">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="c9efe-113">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="977a3-113">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="977a3-113">Request elements</span></span>
 
-<span data-ttu-id="c9efe-114">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c9efe-114">The following elements are used in the request:</span></span>
+<span data-ttu-id="977a3-114">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="977a3-114">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="c9efe-115">GetItem</span><span class="sxs-lookup"><span data-stu-id="c9efe-115">GetItem</span></span>](getitem.md)
+- [<span data-ttu-id="977a3-115">GetItem</span><span class="sxs-lookup"><span data-stu-id="977a3-115">GetItem</span></span>](getitem.md)
     
-- [<span data-ttu-id="c9efe-116">ItemShape</span><span class="sxs-lookup"><span data-stu-id="c9efe-116">ItemShape</span></span>](itemshape.md)
+- [<span data-ttu-id="977a3-116">итемшапе</span><span class="sxs-lookup"><span data-stu-id="977a3-116">ItemShape</span></span>](itemshape.md)
     
-- [<span data-ttu-id="c9efe-117">BaseShape</span><span class="sxs-lookup"><span data-stu-id="c9efe-117">BaseShape</span></span>](baseshape.md)
+- [<span data-ttu-id="977a3-117">басешапе</span><span class="sxs-lookup"><span data-stu-id="977a3-117">BaseShape</span></span>](baseshape.md)
     
-- [<span data-ttu-id="c9efe-118">IncludeMimeContent</span><span class="sxs-lookup"><span data-stu-id="c9efe-118">IncludeMimeContent</span></span>](includemimecontent.md)
+- [<span data-ttu-id="977a3-118">инклудемимеконтент</span><span class="sxs-lookup"><span data-stu-id="977a3-118">IncludeMimeContent</span></span>](includemimecontent.md)
     
-- [<span data-ttu-id="c9efe-119">Что ItemID</span><span class="sxs-lookup"><span data-stu-id="c9efe-119">ItemIds</span></span>](itemids.md)
+- [<span data-ttu-id="977a3-119">итемидс</span><span class="sxs-lookup"><span data-stu-id="977a3-119">ItemIds</span></span>](itemids.md)
     
-- [<span data-ttu-id="c9efe-120">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="c9efe-120">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="977a3-120">Идентификатор</span><span class="sxs-lookup"><span data-stu-id="977a3-120">ItemId</span></span>](itemid.md)
     
-## <a name="successful-getitem-e-mail-message-response-example"></a><span data-ttu-id="c9efe-121">Пример успешного ответа GetItem (сообщения электронной почты)</span><span class="sxs-lookup"><span data-stu-id="c9efe-121">Successful GetItem (E-mail Message) response example</span></span>
+## <a name="successful-getitem-e-mail-message-response-example"></a><span data-ttu-id="977a3-121">Пример ответа на сообщение об успешном выполнении операции GetItem (сообщение электронной почты)</span><span class="sxs-lookup"><span data-stu-id="977a3-121">Successful GetItem (E-mail Message) response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="c9efe-122">Описание</span><span class="sxs-lookup"><span data-stu-id="c9efe-122">Description</span></span>
+### <a name="description"></a><span data-ttu-id="977a3-122">Описание</span><span class="sxs-lookup"><span data-stu-id="977a3-122">Description</span></span>
 
-<span data-ttu-id="c9efe-123">В следующем примере показано успешного ответа на запрос GetItem.</span><span class="sxs-lookup"><span data-stu-id="c9efe-123">The following example shows a successful response to the GetItem request.</span></span>
+<span data-ttu-id="977a3-123">В следующем примере показан успешный ответ на запрос GetItem.</span><span class="sxs-lookup"><span data-stu-id="977a3-123">The following example shows a successful response to the GetItem request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c9efe-124">Программа</span><span class="sxs-lookup"><span data-stu-id="c9efe-124">Code</span></span>
+### <a name="code"></a><span data-ttu-id="977a3-124">Код</span><span class="sxs-lookup"><span data-stu-id="977a3-124">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -157,79 +157,79 @@ ms.locfileid: "19762833"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="c9efe-125">Комментарии</span><span class="sxs-lookup"><span data-stu-id="c9efe-125">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="977a3-125">Comments</span><span class="sxs-lookup"><span data-stu-id="977a3-125">Comments</span></span>
 
-<span data-ttu-id="c9efe-126">Содержимое MIME, папки и идентификаторы элементов URL были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="c9efe-126">The MIME content, folder, and item identifiers have been shortened to preserve readability.</span></span>
+<span data-ttu-id="977a3-126">Идентификаторы контента, папки и элемента MIME были сокращены для сохранения удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="977a3-126">The MIME content, folder, and item identifiers have been shortened to preserve readability.</span></span>
   
-### <a name="successful-response-elements"></a><span data-ttu-id="c9efe-127">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="c9efe-127">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="977a3-127">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="977a3-127">Successful response elements</span></span>
 
-<span data-ttu-id="c9efe-128">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c9efe-128">The following elements are used in the response:</span></span>
+<span data-ttu-id="977a3-128">В отклике используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="977a3-128">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="c9efe-129">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c9efe-129">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="977a3-129">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="977a3-129">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="c9efe-130">GetItemResponse</span><span class="sxs-lookup"><span data-stu-id="c9efe-130">GetItemResponse</span></span>](getitemresponse.md)
+- [<span data-ttu-id="977a3-130">жетитемреспонсе</span><span class="sxs-lookup"><span data-stu-id="977a3-130">GetItemResponse</span></span>](getitemresponse.md)
     
-- [<span data-ttu-id="c9efe-131">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c9efe-131">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="977a3-131">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="977a3-131">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="c9efe-132">GetItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c9efe-132">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
+- [<span data-ttu-id="977a3-132">жетитемреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="977a3-132">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
     
-- [<span data-ttu-id="c9efe-133">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c9efe-133">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="977a3-133">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="977a3-133">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="c9efe-134">Элементы</span><span class="sxs-lookup"><span data-stu-id="c9efe-134">Items</span></span>](items.md)
+- [<span data-ttu-id="977a3-134">Items</span><span class="sxs-lookup"><span data-stu-id="977a3-134">Items</span></span>](items.md)
     
-- [<span data-ttu-id="c9efe-135">Message</span><span class="sxs-lookup"><span data-stu-id="c9efe-135">Message</span></span>](message-ex15websvcsotherref.md)
+- [<span data-ttu-id="977a3-135">Сообщение</span><span class="sxs-lookup"><span data-stu-id="977a3-135">Message</span></span>](message-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="c9efe-136">MimeContent</span><span class="sxs-lookup"><span data-stu-id="c9efe-136">MimeContent</span></span>](mimecontent.md)
+- [<span data-ttu-id="977a3-136">Сохранитьmimecontent</span><span class="sxs-lookup"><span data-stu-id="977a3-136">MimeContent</span></span>](mimecontent.md)
     
-- [<span data-ttu-id="c9efe-137">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="c9efe-137">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="977a3-137">Идентификатор</span><span class="sxs-lookup"><span data-stu-id="977a3-137">ItemId</span></span>](itemid.md)
     
-- [<span data-ttu-id="c9efe-138">Subject</span><span class="sxs-lookup"><span data-stu-id="c9efe-138">Subject</span></span>](subject.md)
+- [<span data-ttu-id="977a3-138">Тема</span><span class="sxs-lookup"><span data-stu-id="977a3-138">Subject</span></span>](subject.md)
     
-- [<span data-ttu-id="c9efe-139">Уровень конфиденциальности сообщения</span><span class="sxs-lookup"><span data-stu-id="c9efe-139">Sensitivity</span></span>](sensitivity.md)
+- [<span data-ttu-id="977a3-139">Sensitivity</span><span class="sxs-lookup"><span data-stu-id="977a3-139">Sensitivity</span></span>](sensitivity.md)
     
-- [<span data-ttu-id="c9efe-140">Body</span><span class="sxs-lookup"><span data-stu-id="c9efe-140">Body</span></span>](body.md)
+- [<span data-ttu-id="977a3-140">Основной текст</span><span class="sxs-lookup"><span data-stu-id="977a3-140">Body</span></span>](body.md)
     
-- [<span data-ttu-id="c9efe-141">Размер</span><span class="sxs-lookup"><span data-stu-id="c9efe-141">Size</span></span>](size.md)
+- [<span data-ttu-id="977a3-141">Размер</span><span class="sxs-lookup"><span data-stu-id="977a3-141">Size</span></span>](size.md)
     
-- [<span data-ttu-id="c9efe-142">DateTimeSent</span><span class="sxs-lookup"><span data-stu-id="c9efe-142">DateTimeSent</span></span>](datetimesent.md)
+- [<span data-ttu-id="977a3-142">датетимесент</span><span class="sxs-lookup"><span data-stu-id="977a3-142">DateTimeSent</span></span>](datetimesent.md)
     
-- [<span data-ttu-id="c9efe-143">DateTimeCreated</span><span class="sxs-lookup"><span data-stu-id="c9efe-143">DateTimeCreated</span></span>](datetimecreated.md)
+- [<span data-ttu-id="977a3-143">DateTimeCreated</span><span class="sxs-lookup"><span data-stu-id="977a3-143">DateTimeCreated</span></span>](datetimecreated.md)
     
-- [<span data-ttu-id="c9efe-144">ResponseObjects</span><span class="sxs-lookup"><span data-stu-id="c9efe-144">ResponseObjects</span></span>](responseobjects.md)
+- [<span data-ttu-id="977a3-144">респонсеобжектс</span><span class="sxs-lookup"><span data-stu-id="977a3-144">ResponseObjects</span></span>](responseobjects.md)
     
-- [<span data-ttu-id="c9efe-145">ReplyToItem</span><span class="sxs-lookup"><span data-stu-id="c9efe-145">ReplyToItem</span></span>](replytoitem.md)
+- [<span data-ttu-id="977a3-145">реплитоитем</span><span class="sxs-lookup"><span data-stu-id="977a3-145">ReplyToItem</span></span>](replytoitem.md)
     
-- [<span data-ttu-id="c9efe-146">ReplyAllToItem</span><span class="sxs-lookup"><span data-stu-id="c9efe-146">ReplyAllToItem</span></span>](replyalltoitem.md)
+- [<span data-ttu-id="977a3-146">репляллтоитем</span><span class="sxs-lookup"><span data-stu-id="977a3-146">ReplyAllToItem</span></span>](replyalltoitem.md)
     
-- [<span data-ttu-id="c9efe-147">ForwardItem</span><span class="sxs-lookup"><span data-stu-id="c9efe-147">ForwardItem</span></span>](forwarditem.md)
+- [<span data-ttu-id="977a3-147">форвардитем</span><span class="sxs-lookup"><span data-stu-id="977a3-147">ForwardItem</span></span>](forwarditem.md)
     
-- [<span data-ttu-id="c9efe-148">HasAttachments</span><span class="sxs-lookup"><span data-stu-id="c9efe-148">HasAttachments</span></span>](hasattachments.md)
+- [<span data-ttu-id="977a3-148">HasAttachments</span><span class="sxs-lookup"><span data-stu-id="977a3-148">HasAttachments</span></span>](hasattachments.md)
     
-- [<span data-ttu-id="c9efe-149">ToRecipients</span><span class="sxs-lookup"><span data-stu-id="c9efe-149">ToRecipients</span></span>](torecipients.md)
+- [<span data-ttu-id="977a3-149">ToRecipients</span><span class="sxs-lookup"><span data-stu-id="977a3-149">ToRecipients</span></span>](torecipients.md)
     
-- [<span data-ttu-id="c9efe-150">Mailbox</span><span class="sxs-lookup"><span data-stu-id="c9efe-150">Mailbox</span></span>](mailbox.md)
+- [<span data-ttu-id="977a3-150">Mailbox</span><span class="sxs-lookup"><span data-stu-id="977a3-150">Mailbox</span></span>](mailbox.md)
     
-- [<span data-ttu-id="c9efe-151">Имя (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="c9efe-151">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
+- [<span data-ttu-id="977a3-151">Имя (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="977a3-151">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
     
-- [<span data-ttu-id="c9efe-152">EmailAddress (NonEmptyStringType)</span><span class="sxs-lookup"><span data-stu-id="c9efe-152">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md)
+- [<span data-ttu-id="977a3-152">EmailAddress (Нонемптистрингтипе)</span><span class="sxs-lookup"><span data-stu-id="977a3-152">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md)
     
-- [<span data-ttu-id="c9efe-153">RoutingType (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="c9efe-153">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
+- [<span data-ttu-id="977a3-153">Раутингтипе (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="977a3-153">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
     
-- [<span data-ttu-id="c9efe-154">IsReadReceiptRequested</span><span class="sxs-lookup"><span data-stu-id="c9efe-154">IsReadReceiptRequested</span></span>](isreadreceiptrequested.md)
+- [<span data-ttu-id="977a3-154">исреадрецеиптрекуестед</span><span class="sxs-lookup"><span data-stu-id="977a3-154">IsReadReceiptRequested</span></span>](isreadreceiptrequested.md)
     
-- [<span data-ttu-id="c9efe-155">IsDeliveryReceiptRequested</span><span class="sxs-lookup"><span data-stu-id="c9efe-155">IsDeliveryReceiptRequested</span></span>](isdeliveryreceiptrequested.md)
+- [<span data-ttu-id="977a3-155">исделиверирецеиптрекуестед</span><span class="sxs-lookup"><span data-stu-id="977a3-155">IsDeliveryReceiptRequested</span></span>](isdeliveryreceiptrequested.md)
     
-- [<span data-ttu-id="c9efe-156">From</span><span class="sxs-lookup"><span data-stu-id="c9efe-156">From</span></span>](from.md)
+- [<span data-ttu-id="977a3-156">From</span><span class="sxs-lookup"><span data-stu-id="977a3-156">From</span></span>](from.md)
     
-- [<span data-ttu-id="c9efe-157">IsRead</span><span class="sxs-lookup"><span data-stu-id="c9efe-157">IsRead</span></span>](isread.md)
+- [<span data-ttu-id="977a3-157">IsRead</span><span class="sxs-lookup"><span data-stu-id="977a3-157">IsRead</span></span>](isread.md)
     
-## <a name="getitem-e-mail-message-error-response-example"></a><span data-ttu-id="c9efe-158">Пример ответа об ошибке GetItem (сообщения электронной почты)</span><span class="sxs-lookup"><span data-stu-id="c9efe-158">GetItem (E-mail Message) Error response example</span></span>
+## <a name="getitem-e-mail-message-error-response-example"></a><span data-ttu-id="977a3-158">Пример отклика "GetItem (сообщение электронной почты)"</span><span class="sxs-lookup"><span data-stu-id="977a3-158">GetItem (E-mail Message) Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="c9efe-159">Описание</span><span class="sxs-lookup"><span data-stu-id="c9efe-159">Description</span></span>
+### <a name="description"></a><span data-ttu-id="977a3-159">Описание</span><span class="sxs-lookup"><span data-stu-id="977a3-159">Description</span></span>
 
-<span data-ttu-id="c9efe-160">В следующем примере показано возврату ошибки GetItem запрос.</span><span class="sxs-lookup"><span data-stu-id="c9efe-160">The following example shows an error response to a GetItem request.</span></span> <span data-ttu-id="c9efe-161">Ошибка была вызвана при попытке получения недопустимый дополнительные свойства.</span><span class="sxs-lookup"><span data-stu-id="c9efe-161">The error was caused by an attempt to get an invalid additional property.</span></span>
+<span data-ttu-id="977a3-160">В следующем примере показан ответ об ошибке для запроса GetItem.</span><span class="sxs-lookup"><span data-stu-id="977a3-160">The following example shows an error response to a GetItem request.</span></span> <span data-ttu-id="977a3-161">Ошибка вызвана попыткой получения недопустимого дополнительного свойства.</span><span class="sxs-lookup"><span data-stu-id="977a3-161">The error was caused by an attempt to get an invalid additional property.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c9efe-162">Программа</span><span class="sxs-lookup"><span data-stu-id="c9efe-162">Code</span></span>
+### <a name="code"></a><span data-ttu-id="977a3-162">Код</span><span class="sxs-lookup"><span data-stu-id="977a3-162">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -260,31 +260,31 @@ ms.locfileid: "19762833"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="c9efe-163">Элементы ответа об ошибках</span><span class="sxs-lookup"><span data-stu-id="c9efe-163">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="977a3-163">Элементы ошибочного ответа</span><span class="sxs-lookup"><span data-stu-id="977a3-163">Error response elements</span></span>
 
-<span data-ttu-id="c9efe-164">В ответ на ошибку используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c9efe-164">The following elements are used in the error response:</span></span>
+<span data-ttu-id="977a3-164">В ответе на сообщение об ошибке используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="977a3-164">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="c9efe-165">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c9efe-165">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="977a3-165">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="977a3-165">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="c9efe-166">GetItemResponse</span><span class="sxs-lookup"><span data-stu-id="c9efe-166">GetItemResponse</span></span>](getitemresponse.md)
+- [<span data-ttu-id="977a3-166">жетитемреспонсе</span><span class="sxs-lookup"><span data-stu-id="977a3-166">GetItemResponse</span></span>](getitemresponse.md)
     
-- [<span data-ttu-id="c9efe-167">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c9efe-167">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="977a3-167">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="977a3-167">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="c9efe-168">GetItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c9efe-168">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
+- [<span data-ttu-id="977a3-168">жетитемреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="977a3-168">GetItemResponseMessage</span></span>](getitemresponsemessage.md)
     
-- [<span data-ttu-id="c9efe-169">MessageText</span><span class="sxs-lookup"><span data-stu-id="c9efe-169">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="977a3-169">мессажетекст</span><span class="sxs-lookup"><span data-stu-id="977a3-169">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="c9efe-170">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c9efe-170">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="977a3-170">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="977a3-170">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="c9efe-171">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="c9efe-171">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="977a3-171">дескриптивелинккэй</span><span class="sxs-lookup"><span data-stu-id="977a3-171">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-- [<span data-ttu-id="c9efe-172">MessageXml</span><span class="sxs-lookup"><span data-stu-id="c9efe-172">MessageXml</span></span>](messagexml.md)
+- [<span data-ttu-id="977a3-172">мессажексмл</span><span class="sxs-lookup"><span data-stu-id="977a3-172">MessageXml</span></span>](messagexml.md)
     
-- [<span data-ttu-id="c9efe-173">FieldURI</span><span class="sxs-lookup"><span data-stu-id="c9efe-173">FieldURI</span></span>](fielduri.md)
+- [<span data-ttu-id="977a3-173">фиелдури</span><span class="sxs-lookup"><span data-stu-id="977a3-173">FieldURI</span></span>](fielduri.md)
     
-## <a name="see-also"></a><span data-ttu-id="c9efe-174">См. также</span><span class="sxs-lookup"><span data-stu-id="c9efe-174">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="977a3-174">См. также</span><span class="sxs-lookup"><span data-stu-id="977a3-174">See also</span></span>
 
 
 
-[<span data-ttu-id="c9efe-175">GetItem Operation</span><span class="sxs-lookup"><span data-stu-id="c9efe-175">GetItem operation</span></span>](getitem-operation.md)
+[<span data-ttu-id="977a3-175">Операция GetItem</span><span class="sxs-lookup"><span data-stu-id="977a3-175">GetItem operation</span></span>](getitem-operation.md)
 

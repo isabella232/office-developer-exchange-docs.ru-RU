@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: b0f92682-4895-4bcf-a4a1-e4c2e8403979
-description: Операция DeleteFolder удаление папки из почтового ящика.
+description: Операция DeleteFolder удаляет папки из почтового ящика.
 ms.openlocfilehash: 0fd7c9d4b04a706dcdb83f41087eaa4f3d45f129
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762033"
 ---
-# <a name="deletefolder-operation"></a><span data-ttu-id="48e1b-103">Операция DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="48e1b-103">DeleteFolder operation</span></span>
+# <a name="deletefolder-operation"></a><span data-ttu-id="c90f0-103">Операция DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="c90f0-103">DeleteFolder operation</span></span>
 
-<span data-ttu-id="48e1b-104">Операция **DeleteFolder** удаление папки из почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="48e1b-104">The **DeleteFolder** operation deletes folders from a mailbox.</span></span> 
+<span data-ttu-id="c90f0-104">Операция **DeleteFolder** удаляет папки из почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="c90f0-104">The **DeleteFolder** operation deletes folders from a mailbox.</span></span> 
   
-## <a name="deletefolder-request-example"></a><span data-ttu-id="48e1b-105">Пример запроса DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="48e1b-105">DeleteFolder request example</span></span>
+## <a name="deletefolder-request-example"></a><span data-ttu-id="c90f0-105">Пример запроса DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="c90f0-105">DeleteFolder request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="48e1b-106">Описание</span><span class="sxs-lookup"><span data-stu-id="48e1b-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c90f0-106">Описание</span><span class="sxs-lookup"><span data-stu-id="c90f0-106">Description</span></span>
 
-<span data-ttu-id="48e1b-107">В следующем примере запроса **DeleteFolder** показано, как для формирования запроса, чтобы удалить папку.</span><span class="sxs-lookup"><span data-stu-id="48e1b-107">This following example of a **DeleteFolder** request shows how to form a request to delete a folder.</span></span> 
+<span data-ttu-id="c90f0-107">В следующем примере запроса **DeleteFolder** показано, как сформировать запрос на удаление папки.</span><span class="sxs-lookup"><span data-stu-id="c90f0-107">This following example of a **DeleteFolder** request shows how to form a request to delete a folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="48e1b-108">Программа</span><span class="sxs-lookup"><span data-stu-id="48e1b-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c90f0-108">Код</span><span class="sxs-lookup"><span data-stu-id="c90f0-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -47,35 +47,35 @@ ms.locfileid: "19762033"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="48e1b-109">Комментарии</span><span class="sxs-lookup"><span data-stu-id="48e1b-109">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="c90f0-109">Comments</span><span class="sxs-lookup"><span data-stu-id="c90f0-109">Comments</span></span>
 
-<span data-ttu-id="48e1b-110">В этом примере выполняется окончательного удаления в общей папке.</span><span class="sxs-lookup"><span data-stu-id="48e1b-110">This example performs a hard delete on the folder.</span></span>
+<span data-ttu-id="c90f0-110">В этом примере выполняется окончательное удаление папки.</span><span class="sxs-lookup"><span data-stu-id="c90f0-110">This example performs a hard delete on the folder.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="48e1b-111">Идентификатор папки был усечен, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="48e1b-111">The folder ID has been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="c90f0-111">Идентификатор папки сокращен, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="c90f0-111">The folder ID has been shortened to preserve readability.</span></span> 
   
-### <a name="request-elements"></a><span data-ttu-id="48e1b-112">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="48e1b-112">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="c90f0-112">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="c90f0-112">Request elements</span></span>
 
-<span data-ttu-id="48e1b-113">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="48e1b-113">The following elements are used in the request:</span></span>
+<span data-ttu-id="c90f0-113">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c90f0-113">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="48e1b-114">DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="48e1b-114">DeleteFolder</span></span>](deletefolder.md)
+- [<span data-ttu-id="c90f0-114">DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="c90f0-114">DeleteFolder</span></span>](deletefolder.md)
     
-- [<span data-ttu-id="48e1b-115">FolderIds</span><span class="sxs-lookup"><span data-stu-id="48e1b-115">FolderIds</span></span>](folderids.md)
+- [<span data-ttu-id="c90f0-115">фолдеридс</span><span class="sxs-lookup"><span data-stu-id="c90f0-115">FolderIds</span></span>](folderids.md)
     
-- [<span data-ttu-id="48e1b-116">FolderId</span><span class="sxs-lookup"><span data-stu-id="48e1b-116">FolderId</span></span>](folderid.md)
+- [<span data-ttu-id="c90f0-116">FolderId</span><span class="sxs-lookup"><span data-stu-id="c90f0-116">FolderId</span></span>](folderid.md)
     
 > [!NOTE]
-> <span data-ttu-id="48e1b-117">Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server 2010 с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="48e1b-117">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span> 
+> <span data-ttu-id="c90f0-117">Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="c90f0-117">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span> 
   
-<span data-ttu-id="48e1b-118">Чтобы найти другие параметры для запроса **DeleteFolder** операции, изучите иерархия схемы.</span><span class="sxs-lookup"><span data-stu-id="48e1b-118">To find other options for the request message of the **DeleteFolder** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="48e1b-119">Запустите в элементе [DeleteFolder](deletefolder.md) .</span><span class="sxs-lookup"><span data-stu-id="48e1b-119">Start at the [DeleteFolder](deletefolder.md) element.</span></span> 
+<span data-ttu-id="c90f0-118">Чтобы найти другие параметры сообщения Request операции **DeleteFolder** , изучите иерархию схемы.</span><span class="sxs-lookup"><span data-stu-id="c90f0-118">To find other options for the request message of the **DeleteFolder** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="c90f0-119">Начните с элемента [DeleteFolder](deletefolder.md) .</span><span class="sxs-lookup"><span data-stu-id="c90f0-119">Start at the [DeleteFolder](deletefolder.md) element.</span></span> 
   
-## <a name="successful-deletefolder-response"></a><span data-ttu-id="48e1b-120">Успешного ответа DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="48e1b-120">Successful DeleteFolder response</span></span>
+## <a name="successful-deletefolder-response"></a><span data-ttu-id="c90f0-120">Успешный ответ DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="c90f0-120">Successful DeleteFolder response</span></span>
 
-### <a name="description"></a><span data-ttu-id="48e1b-121">Описание</span><span class="sxs-lookup"><span data-stu-id="48e1b-121">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c90f0-121">Описание</span><span class="sxs-lookup"><span data-stu-id="c90f0-121">Description</span></span>
 
-<span data-ttu-id="48e1b-122">В следующем примере показано успешного ответа на запрос **DeleteFolder** .</span><span class="sxs-lookup"><span data-stu-id="48e1b-122">The following example shows a successful response to the **DeleteFolder** request.</span></span> 
+<span data-ttu-id="c90f0-122">В следующем примере показан успешный ответ на запрос **DeleteFolder** .</span><span class="sxs-lookup"><span data-stu-id="c90f0-122">The following example shows a successful response to the **DeleteFolder** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="48e1b-123">Программа</span><span class="sxs-lookup"><span data-stu-id="48e1b-123">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c90f0-123">Код</span><span class="sxs-lookup"><span data-stu-id="c90f0-123">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -100,29 +100,29 @@ ms.locfileid: "19762033"
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a><span data-ttu-id="48e1b-124">Элементы ответа</span><span class="sxs-lookup"><span data-stu-id="48e1b-124">Response elements</span></span>
+### <a name="response-elements"></a><span data-ttu-id="c90f0-124">Элементы Response</span><span class="sxs-lookup"><span data-stu-id="c90f0-124">Response elements</span></span>
 
-<span data-ttu-id="48e1b-125">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="48e1b-125">The following elements are used in the response:</span></span>
+<span data-ttu-id="c90f0-125">В отклике используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c90f0-125">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="48e1b-126">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="48e1b-126">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="c90f0-126">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="c90f0-126">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="48e1b-127">DeleteFolderResponse</span><span class="sxs-lookup"><span data-stu-id="48e1b-127">DeleteFolderResponse</span></span>](deletefolderresponse.md)
+- [<span data-ttu-id="c90f0-127">делетефолдерреспонсе</span><span class="sxs-lookup"><span data-stu-id="c90f0-127">DeleteFolderResponse</span></span>](deletefolderresponse.md)
     
-- [<span data-ttu-id="48e1b-128">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="48e1b-128">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="c90f0-128">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="c90f0-128">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="48e1b-129">DeleteFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="48e1b-129">DeleteFolderResponseMessage</span></span>](deletefolderresponsemessage.md)
+- [<span data-ttu-id="c90f0-129">делетефолдерреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="c90f0-129">DeleteFolderResponseMessage</span></span>](deletefolderresponsemessage.md)
     
-- [<span data-ttu-id="48e1b-130">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="48e1b-130">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="c90f0-130">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="c90f0-130">ResponseCode</span></span>](responsecode.md)
     
-<span data-ttu-id="48e1b-131">Чтобы найти другие параметры в сообщении ответа **DeleteFolder** операции, изучите иерархия схемы.</span><span class="sxs-lookup"><span data-stu-id="48e1b-131">To find other options for the response message of the **DeleteFolder** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="48e1b-132">Запустите в элементе [DeleteFolderResponse](deletefolderresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="48e1b-132">Start at the [DeleteFolderResponse](deletefolderresponse.md) element.</span></span> 
+<span data-ttu-id="c90f0-131">Чтобы найти другие параметры для ответного сообщения операции **DeleteFolder** , изучите иерархию схемы.</span><span class="sxs-lookup"><span data-stu-id="c90f0-131">To find other options for the response message of the **DeleteFolder** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="c90f0-132">Начните с элемента [делетефолдерреспонсе](deletefolderresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="c90f0-132">Start at the [DeleteFolderResponse](deletefolderresponse.md) element.</span></span> 
   
-## <a name="deletefolder-error-response"></a><span data-ttu-id="48e1b-133">Отклик DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="48e1b-133">DeleteFolder error response</span></span>
+## <a name="deletefolder-error-response"></a><span data-ttu-id="c90f0-133">Ответ об ошибке DeleteFolder</span><span class="sxs-lookup"><span data-stu-id="c90f0-133">DeleteFolder error response</span></span>
 
-### <a name="description"></a><span data-ttu-id="48e1b-134">Описание</span><span class="sxs-lookup"><span data-stu-id="48e1b-134">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c90f0-134">Описание</span><span class="sxs-lookup"><span data-stu-id="c90f0-134">Description</span></span>
 
-<span data-ttu-id="48e1b-135">В следующем примере показано ошибочный ответ на запрос **DeleteFolder** .</span><span class="sxs-lookup"><span data-stu-id="48e1b-135">The following example shows an error response to a **DeleteFolder** request.</span></span> <span data-ttu-id="48e1b-136">Ошибка была вызвана запрос на удаление папки, который не был представлен в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="48e1b-136">The error was caused by a request to delete a folder that was not present in the mailbox.</span></span> 
+<span data-ttu-id="c90f0-135">В следующем примере показан ответ об ошибке для запроса **DeleteFolder** .</span><span class="sxs-lookup"><span data-stu-id="c90f0-135">The following example shows an error response to a **DeleteFolder** request.</span></span> <span data-ttu-id="c90f0-136">Ошибка вызвана запросом на удаление папки, которая отсутствовала в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="c90f0-136">The error was caused by a request to delete a folder that was not present in the mailbox.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="48e1b-137">Программа</span><span class="sxs-lookup"><span data-stu-id="48e1b-137">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c90f0-137">Код</span><span class="sxs-lookup"><span data-stu-id="c90f0-137">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -149,32 +149,32 @@ ms.locfileid: "19762033"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="48e1b-138">Комментарии</span><span class="sxs-lookup"><span data-stu-id="48e1b-138">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="c90f0-138">Comments</span><span class="sxs-lookup"><span data-stu-id="c90f0-138">Comments</span></span>
 
-<span data-ttu-id="48e1b-139">Операция **DeleteFolder** не может использоваться для различающееся папок.</span><span class="sxs-lookup"><span data-stu-id="48e1b-139">The **DeleteFolder** operation cannot be used on distinguished folders.</span></span> 
+<span data-ttu-id="c90f0-139">Операцию **DeleteFolder** нельзя использовать для различающихся папок.</span><span class="sxs-lookup"><span data-stu-id="c90f0-139">The **DeleteFolder** operation cannot be used on distinguished folders.</span></span> 
   
-### <a name="error-response-elements"></a><span data-ttu-id="48e1b-140">Элементы ответа об ошибках</span><span class="sxs-lookup"><span data-stu-id="48e1b-140">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="c90f0-140">Элементы ошибочного ответа</span><span class="sxs-lookup"><span data-stu-id="c90f0-140">Error response elements</span></span>
 
-<span data-ttu-id="48e1b-141">В ответ на ошибку используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="48e1b-141">The following elements are used in the error response:</span></span>
+<span data-ttu-id="c90f0-141">В ответе на сообщение об ошибке используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c90f0-141">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="48e1b-142">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="48e1b-142">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="c90f0-142">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="c90f0-142">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="48e1b-143">DeleteFolderResponse</span><span class="sxs-lookup"><span data-stu-id="48e1b-143">DeleteFolderResponse</span></span>](deletefolderresponse.md)
+- [<span data-ttu-id="c90f0-143">делетефолдерреспонсе</span><span class="sxs-lookup"><span data-stu-id="c90f0-143">DeleteFolderResponse</span></span>](deletefolderresponse.md)
     
-- [<span data-ttu-id="48e1b-144">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="48e1b-144">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="c90f0-144">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="c90f0-144">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="48e1b-145">DeleteFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="48e1b-145">DeleteFolderResponseMessage</span></span>](deletefolderresponsemessage.md)
+- [<span data-ttu-id="c90f0-145">делетефолдерреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="c90f0-145">DeleteFolderResponseMessage</span></span>](deletefolderresponsemessage.md)
     
-- [<span data-ttu-id="48e1b-146">MessageText</span><span class="sxs-lookup"><span data-stu-id="48e1b-146">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="c90f0-146">мессажетекст</span><span class="sxs-lookup"><span data-stu-id="c90f0-146">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="48e1b-147">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="48e1b-147">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="c90f0-147">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="c90f0-147">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="48e1b-148">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="48e1b-148">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="c90f0-148">дескриптивелинккэй</span><span class="sxs-lookup"><span data-stu-id="c90f0-148">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-<span data-ttu-id="48e1b-149">Чтобы найти другие параметры в сообщении об ошибке ответа **DeleteFolder** операции, изучите иерархия схемы.</span><span class="sxs-lookup"><span data-stu-id="48e1b-149">To find other options for the error response message of the **DeleteFolder** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="48e1b-150">Запустите в элементе [DeleteFolderResponse](deletefolderresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="48e1b-150">Start at the [DeleteFolderResponse](deletefolderresponse.md) element.</span></span> 
+<span data-ttu-id="c90f0-149">Чтобы найти другие параметры сообщения об ошибке при выполнении операции **DeleteFolder** , изучите иерархию схемы.</span><span class="sxs-lookup"><span data-stu-id="c90f0-149">To find other options for the error response message of the **DeleteFolder** operation, explore the schema hierarchy.</span></span> <span data-ttu-id="c90f0-150">Начните с элемента [делетефолдерреспонсе](deletefolderresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="c90f0-150">Start at the [DeleteFolderResponse](deletefolderresponse.md) element.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="48e1b-151">См. также</span><span class="sxs-lookup"><span data-stu-id="48e1b-151">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c90f0-151">См. также</span><span class="sxs-lookup"><span data-stu-id="c90f0-151">See also</span></span>
 
-- [<span data-ttu-id="48e1b-152">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="48e1b-152">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
-- [<span data-ttu-id="48e1b-153">Удаление папок</span><span class="sxs-lookup"><span data-stu-id="48e1b-153">Deleting Folders</span></span>](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
+- [<span data-ttu-id="c90f0-152">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="c90f0-152">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="c90f0-153">Удаление папок</span><span class="sxs-lookup"><span data-stu-id="c90f0-153">Deleting Folders</span></span>](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
 

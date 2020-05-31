@@ -1,5 +1,5 @@
 ---
-title: FreeBusyResponseArray
+title: фрибусиреспонсеаррай
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5592a37e-cf4b-4643-8a2a-fa58c40345b9
-description: Элемент FreeBusyResponseArray содержит сведения о доступности запрошенного пользователей, а также состояние ответа.
+description: Элемент Фрибусиреспонсеаррай содержит сведения о доступности запрашиваемых пользователей и состояние отклика.
 ms.openlocfilehash: cc6022c28213667c40dc00b5627ed88c4f78e2f2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762658"
 ---
-# <a name="freebusyresponsearray"></a><span data-ttu-id="5c8d5-103">FreeBusyResponseArray</span><span class="sxs-lookup"><span data-stu-id="5c8d5-103">FreeBusyResponseArray</span></span>
+# <a name="freebusyresponsearray"></a><span data-ttu-id="1fdc7-103">фрибусиреспонсеаррай</span><span class="sxs-lookup"><span data-stu-id="1fdc7-103">FreeBusyResponseArray</span></span>
 
-<span data-ttu-id="5c8d5-104">Элемент **FreeBusyResponseArray** содержит сведения о доступности запрошенного пользователей, а также состояние ответа.</span><span class="sxs-lookup"><span data-stu-id="5c8d5-104">The **FreeBusyResponseArray** element contains the requested users' availability information and the response status.</span></span> 
+<span data-ttu-id="1fdc7-104">Элемент **фрибусиреспонсеаррай** содержит сведения о доступности запрашиваемых пользователей и состояние отклика.</span><span class="sxs-lookup"><span data-stu-id="1fdc7-104">The **FreeBusyResponseArray** element contains the requested users' availability information and the response status.</span></span> 
   
-[<span data-ttu-id="5c8d5-105">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="5c8d5-105">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
+[<span data-ttu-id="1fdc7-105">жетусераваилабилитиреспонсе</span><span class="sxs-lookup"><span data-stu-id="1fdc7-105">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
   
-[<span data-ttu-id="5c8d5-106">FreeBusyResponseArray</span><span class="sxs-lookup"><span data-stu-id="5c8d5-106">FreeBusyResponseArray</span></span>](freebusyresponsearray.md)
+[<span data-ttu-id="1fdc7-106">фрибусиреспонсеаррай</span><span class="sxs-lookup"><span data-stu-id="1fdc7-106">FreeBusyResponseArray</span></span>](freebusyresponsearray.md)
   
 ```xml
 <FreeBusyResponseArray>
@@ -33,50 +33,50 @@ ms.locfileid: "19762658"
 </FreeBusyResponseArray>
 ```
 
- <span data-ttu-id="5c8d5-107">**ArrayOfFreeBusyResponse**</span><span class="sxs-lookup"><span data-stu-id="5c8d5-107">**ArrayOfFreeBusyResponse**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="5c8d5-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="5c8d5-108">Attributes and elements</span></span>
+ <span data-ttu-id="1fdc7-107">**аррайоффрибусиреспонсе**</span><span class="sxs-lookup"><span data-stu-id="1fdc7-107">**ArrayOfFreeBusyResponse**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="1fdc7-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="1fdc7-108">Attributes and elements</span></span>
 
-<span data-ttu-id="5c8d5-109">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="5c8d5-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="1fdc7-109">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="1fdc7-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5c8d5-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="5c8d5-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="1fdc7-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="1fdc7-110">Attributes</span></span>
 
-<span data-ttu-id="5c8d5-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="5c8d5-111">None.</span></span>
+<span data-ttu-id="1fdc7-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="1fdc7-111">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5c8d5-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="5c8d5-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="1fdc7-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="1fdc7-112">Child elements</span></span>
 
-|<span data-ttu-id="5c8d5-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5c8d5-113">**Element**</span></span>|<span data-ttu-id="5c8d5-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5c8d5-114">**Description**</span></span>|
+|<span data-ttu-id="1fdc7-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="1fdc7-113">**Element**</span></span>|<span data-ttu-id="1fdc7-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="1fdc7-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5c8d5-115">FreeBusyResponse</span><span class="sxs-lookup"><span data-stu-id="5c8d5-115">FreeBusyResponse</span></span>](freebusyresponse.md) <br/> |<span data-ttu-id="5c8d5-116">Содержит сведения о доступности для одного почтового ящика пользователя, а также состояние ответа.</span><span class="sxs-lookup"><span data-stu-id="5c8d5-116">Contains the free/busy information for a single mailbox user and the response status.</span></span>  <br/> |
+|[<span data-ttu-id="1fdc7-115">фрибусиреспонсе</span><span class="sxs-lookup"><span data-stu-id="1fdc7-115">FreeBusyResponse</span></span>](freebusyresponse.md) <br/> |<span data-ttu-id="1fdc7-116">Содержит сведения о доступности для одного пользователя почтового ящика и состояние отклика.</span><span class="sxs-lookup"><span data-stu-id="1fdc7-116">Contains the free/busy information for a single mailbox user and the response status.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="5c8d5-117">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="5c8d5-117">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="1fdc7-117">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="1fdc7-117">Parent elements</span></span>
 
-|<span data-ttu-id="5c8d5-118">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5c8d5-118">**Element**</span></span>|<span data-ttu-id="5c8d5-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5c8d5-119">**Description**</span></span>|
+|<span data-ttu-id="1fdc7-118">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="1fdc7-118">**Element**</span></span>|<span data-ttu-id="1fdc7-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="1fdc7-119">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5c8d5-120">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="5c8d5-120">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md) <br/> |<span data-ttu-id="5c8d5-121">Содержит свойства, которые определяют сведения о доступности пользователя или предложенных собраний сведения о времени.</span><span class="sxs-lookup"><span data-stu-id="5c8d5-121">Contains the properties that define user availability information or suggested meeting time information.</span></span>  <br/> <span data-ttu-id="5c8d5-122">Ниже приведен выражение XPath для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="5c8d5-122">The following is the XPath expression to this element:</span></span>  <br/>  `/GetUserAvailabilityResponse` <br/> |
+|[<span data-ttu-id="1fdc7-120">жетусераваилабилитиреспонсе</span><span class="sxs-lookup"><span data-stu-id="1fdc7-120">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md) <br/> |<span data-ttu-id="1fdc7-121">Содержит свойства, которые определяют сведения о доступности пользователей или сведения о предложенном времени собраний.</span><span class="sxs-lookup"><span data-stu-id="1fdc7-121">Contains the properties that define user availability information or suggested meeting time information.</span></span>  <br/> <span data-ttu-id="1fdc7-122">Ниже приведено выражение XPath для этого элемента:</span><span class="sxs-lookup"><span data-stu-id="1fdc7-122">The following is the XPath expression to this element:</span></span>  <br/>  `/GetUserAvailabilityResponse` <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5c8d5-123">Замечания</span><span class="sxs-lookup"><span data-stu-id="5c8d5-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1fdc7-123">Примечания</span><span class="sxs-lookup"><span data-stu-id="1fdc7-123">Remarks</span></span>
 
-<span data-ttu-id="5c8d5-124">Этот элемент не включен в GetUserAvailability ответа, если сведения о доступности не запрашивается.</span><span class="sxs-lookup"><span data-stu-id="5c8d5-124">This element is not included in a GetUserAvailability response if free/busy information is not requested.</span></span>
+<span data-ttu-id="1fdc7-124">Этот элемент не включается в ответ GetUserAvailability, если не запрашиваются сведения о занятости.</span><span class="sxs-lookup"><span data-stu-id="1fdc7-124">This element is not included in a GetUserAvailability response if free/busy information is not requested.</span></span>
   
-<span data-ttu-id="5c8d5-125">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="5c8d5-125">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="1fdc7-125">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="1fdc7-125">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="5c8d5-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="5c8d5-126">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="1fdc7-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="1fdc7-126">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5c8d5-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="5c8d5-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="5c8d5-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="5c8d5-128">Schema Name</span></span>  <br/> |<span data-ttu-id="5c8d5-129">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="5c8d5-129">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="5c8d5-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="5c8d5-130">Validation File</span></span>  <br/> |<span data-ttu-id="5c8d5-131">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="5c8d5-131">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="5c8d5-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="5c8d5-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="5c8d5-133">False</span><span class="sxs-lookup"><span data-stu-id="5c8d5-133">False</span></span>  <br/> |
+|<span data-ttu-id="1fdc7-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="1fdc7-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="1fdc7-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="1fdc7-128">Schema Name</span></span>  <br/> |<span data-ttu-id="1fdc7-129">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="1fdc7-129">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="1fdc7-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="1fdc7-130">Validation File</span></span>  <br/> |<span data-ttu-id="1fdc7-131">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="1fdc7-131">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="1fdc7-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="1fdc7-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="1fdc7-133">False</span><span class="sxs-lookup"><span data-stu-id="1fdc7-133">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="5c8d5-134">См. также</span><span class="sxs-lookup"><span data-stu-id="5c8d5-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1fdc7-134">См. также</span><span class="sxs-lookup"><span data-stu-id="1fdc7-134">See also</span></span>
 
 
 
-[<span data-ttu-id="5c8d5-135">Операция GetUserAvailability</span><span class="sxs-lookup"><span data-stu-id="5c8d5-135">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
+[<span data-ttu-id="1fdc7-135">Операция GetUserAvailability</span><span class="sxs-lookup"><span data-stu-id="1fdc7-135">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
   
-[<span data-ttu-id="5c8d5-136">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="5c8d5-136">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
+[<span data-ttu-id="1fdc7-136">жетусераваилабилитиреспонсе</span><span class="sxs-lookup"><span data-stu-id="1fdc7-136">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
 
 
-[<span data-ttu-id="5c8d5-137">Getting User Availability</span><span class="sxs-lookup"><span data-stu-id="5c8d5-137">Getting User Availability</span></span>](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[<span data-ttu-id="1fdc7-137">Getting User Availability</span><span class="sxs-lookup"><span data-stu-id="1fdc7-137">Getting User Availability</span></span>](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

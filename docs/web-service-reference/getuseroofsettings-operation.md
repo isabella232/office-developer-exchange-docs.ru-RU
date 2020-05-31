@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 153e4440-495b-4972-9811-2fbea740142a
-description: Операция GetUserOofSettings получает параметры об отсутствии на работе Office (OOF) и сообщения пользователя почтового ящика.
+description: Операция GetUserOofSettings Возвращает параметры и сообщения пользователя почтового ящика "нет на месте" (отсутствие на работе).
 ms.openlocfilehash: 75a734999842cc33c213e02dc114f23372ae51fd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,33 +19,33 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833691"
 ---
-# <a name="getuseroofsettings-operation"></a><span data-ttu-id="3d33d-103">Операция GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="3d33d-103">GetUserOofSettings operation</span></span>
+# <a name="getuseroofsettings-operation"></a><span data-ttu-id="84cc9-103">Операция GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="84cc9-103">GetUserOofSettings operation</span></span>
 
-<span data-ttu-id="3d33d-104">Операция **GetUserOofSettings** получает параметры об отсутствии на работе Office (OOF) и сообщения пользователя почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="3d33d-104">The **GetUserOofSettings** operation gets a mailbox user's Out of Office (OOF) settings and messages.</span></span> 
+<span data-ttu-id="84cc9-104">Операция **GetUserOofSettings** Возвращает параметры и сообщения пользователя почтового ящика "нет на месте" (отсутствие на работе).</span><span class="sxs-lookup"><span data-stu-id="84cc9-104">The **GetUserOofSettings** operation gets a mailbox user's Out of Office (OOF) settings and messages.</span></span> 
   
-## <a name="soap-headers"></a><span data-ttu-id="3d33d-105">Заголовки SOAP</span><span class="sxs-lookup"><span data-stu-id="3d33d-105">SOAP Headers</span></span>
+## <a name="soap-headers"></a><span data-ttu-id="84cc9-105">Заголовки SOAP</span><span class="sxs-lookup"><span data-stu-id="84cc9-105">SOAP Headers</span></span>
 
-<span data-ttu-id="3d33d-106">Операция **GetUserOofSettings** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="3d33d-106">The **GetUserOofSettings** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
+<span data-ttu-id="84cc9-106">Операция **GetUserOofSettings** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="84cc9-106">The **GetUserOofSettings** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
   
-|<span data-ttu-id="3d33d-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="3d33d-107">**Header**</span></span>|<span data-ttu-id="3d33d-108">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="3d33d-108">**Element**</span></span>|<span data-ttu-id="3d33d-109">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3d33d-109">**Description**</span></span>|
+|<span data-ttu-id="84cc9-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="84cc9-107">**Header**</span></span>|<span data-ttu-id="84cc9-108">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="84cc9-108">**Element**</span></span>|<span data-ttu-id="84cc9-109">**Описание**</span><span class="sxs-lookup"><span data-stu-id="84cc9-109">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="3d33d-110">Олицетворение</span><span class="sxs-lookup"><span data-stu-id="3d33d-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="3d33d-111">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="3d33d-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="3d33d-112">Идентифицирует пользователя, которого олицетворения в клиентском приложении.</span><span class="sxs-lookup"><span data-stu-id="3d33d-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
-|<span data-ttu-id="3d33d-113">ServerVersion</span><span class="sxs-lookup"><span data-stu-id="3d33d-113">ServerVersion</span></span>  <br/> |[<span data-ttu-id="3d33d-114">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="3d33d-114">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="3d33d-115">Определяет версию сервера, ответившего на запрос.</span><span class="sxs-lookup"><span data-stu-id="3d33d-115">Identifies the version of the server that responded to the request.</span></span>  <br/> |
+|<span data-ttu-id="84cc9-110">Олицетворение</span><span class="sxs-lookup"><span data-stu-id="84cc9-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="84cc9-111">ексчанжеимперсонатион</span><span class="sxs-lookup"><span data-stu-id="84cc9-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="84cc9-112">Идентифицирует пользователя, который олицетворяет клиентское приложение.</span><span class="sxs-lookup"><span data-stu-id="84cc9-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
+|<span data-ttu-id="84cc9-113">серверверсион</span><span class="sxs-lookup"><span data-stu-id="84cc9-113">ServerVersion</span></span>  <br/> |[<span data-ttu-id="84cc9-114">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="84cc9-114">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="84cc9-115">Определяет версию сервера, который ответил на запрос.</span><span class="sxs-lookup"><span data-stu-id="84cc9-115">Identifies the version of the server that responded to the request.</span></span>  <br/> |
    
-## <a name="using-the-getuseroofsettings-operation"></a><span data-ttu-id="3d33d-116">С помощью операции GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="3d33d-116">Using the GetUserOofSettings Operation</span></span>
+## <a name="using-the-getuseroofsettings-operation"></a><span data-ttu-id="84cc9-116">Использование операции GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="84cc9-116">Using the GetUserOofSettings Operation</span></span>
 
-<span data-ttu-id="3d33d-117">Операция **GetUserOofSettings** предоставляет доступ к параметрам пользователя об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="3d33d-117">The **GetUserOofSettings** operation provides access to a user's OOF settings.</span></span> <span data-ttu-id="3d33d-118">Пользователь идентифицируется адрес электронной почты пользователя.</span><span class="sxs-lookup"><span data-stu-id="3d33d-118">A user is identified by the user's email address.</span></span> <span data-ttu-id="3d33d-119">Если сообщение об отсутствии на работе имеет значение null и об отсутствии на работе этот параметр включен, сообщения об отсутствии на работе не отправляются.</span><span class="sxs-lookup"><span data-stu-id="3d33d-119">If the OOF message is null and OOF is enabled, no OOF message is sent.</span></span> 
+<span data-ttu-id="84cc9-117">Операция **GetUserOofSettings** предоставляет доступ к параметрам отсутствия на работе пользователя.</span><span class="sxs-lookup"><span data-stu-id="84cc9-117">The **GetUserOofSettings** operation provides access to a user's OOF settings.</span></span> <span data-ttu-id="84cc9-118">Пользователь идентифицируется по адресу электронной почты пользователя.</span><span class="sxs-lookup"><span data-stu-id="84cc9-118">A user is identified by the user's email address.</span></span> <span data-ttu-id="84cc9-119">Если сообщение об отсутствии на работе имеет значение NULL и включено отсутствие на работе, сообщение об отсутствии на месте не отправляется.</span><span class="sxs-lookup"><span data-stu-id="84cc9-119">If the OOF message is null and OOF is enabled, no OOF message is sent.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="3d33d-120">Если сообщений об отсутствии на работе с MicrosoftOfficeOutlook, эта операция возвращает сообщения об отсутствии на работе в формате HTML.</span><span class="sxs-lookup"><span data-stu-id="3d33d-120">If the OOF messages are set by MicrosoftOfficeOutlook, this operation will return the OOF messages in HTML format.</span></span> 
+> <span data-ttu-id="84cc9-120">Если сообщения об отсутствии на работе задаются Майкрософтofficeoutlook, эта операция возвратит сообщения об отсутствии на работе в формате HTML.</span><span class="sxs-lookup"><span data-stu-id="84cc9-120">If the OOF messages are set by MicrosoftOfficeOutlook, this operation will return the OOF messages in HTML format.</span></span> 
   
-## <a name="getuseroofsettings-request-example"></a><span data-ttu-id="3d33d-121">Пример запроса GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="3d33d-121">GetUserOofSettings request example</span></span>
+## <a name="getuseroofsettings-request-example"></a><span data-ttu-id="84cc9-121">Пример запроса GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="84cc9-121">GetUserOofSettings request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="3d33d-122">Описание</span><span class="sxs-lookup"><span data-stu-id="3d33d-122">Description</span></span>
+### <a name="description"></a><span data-ttu-id="84cc9-122">Описание</span><span class="sxs-lookup"><span data-stu-id="84cc9-122">Description</span></span>
 
-<span data-ttu-id="3d33d-123">В следующем примере показано **GetUserOofSettings** запрос, который получает сведения об отсутствии на работе одного пользователя.</span><span class="sxs-lookup"><span data-stu-id="3d33d-123">The following example shows a **GetUserOofSettings** request that gets a single user's OOF information.</span></span> 
+<span data-ttu-id="84cc9-123">В приведенном ниже примере показан запрос **GetUserOofSettings** , который получает сведения об отсутствии на работе отдельных пользователей.</span><span class="sxs-lookup"><span data-stu-id="84cc9-123">The following example shows a **GetUserOofSettings** request that gets a single user's OOF information.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="3d33d-124">Программа</span><span class="sxs-lookup"><span data-stu-id="3d33d-124">Code</span></span>
+### <a name="code"></a><span data-ttu-id="84cc9-124">Код</span><span class="sxs-lookup"><span data-stu-id="84cc9-124">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -62,23 +62,23 @@ ms.locfileid: "19833691"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a><span data-ttu-id="3d33d-125">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="3d33d-125">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="84cc9-125">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="84cc9-125">Request elements</span></span>
 
-<span data-ttu-id="3d33d-126">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="3d33d-126">The following elements are used in the request:</span></span>
+<span data-ttu-id="84cc9-126">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="84cc9-126">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="3d33d-127">GetUserOofSettingsRequest</span><span class="sxs-lookup"><span data-stu-id="3d33d-127">GetUserOofSettingsRequest</span></span>](getuseroofsettingsrequest.md)
+- [<span data-ttu-id="84cc9-127">жетусеруфсеттингсрекуест</span><span class="sxs-lookup"><span data-stu-id="84cc9-127">GetUserOofSettingsRequest</span></span>](getuseroofsettingsrequest.md)
     
-- [<span data-ttu-id="3d33d-128">Почтовый ящик (доступность)</span><span class="sxs-lookup"><span data-stu-id="3d33d-128">Mailbox (Availability)</span></span>](mailbox-availability.md)
+- [<span data-ttu-id="84cc9-128">Mailbox (доступность)</span><span class="sxs-lookup"><span data-stu-id="84cc9-128">Mailbox (Availability)</span></span>](mailbox-availability.md)
     
-- [<span data-ttu-id="3d33d-129">Адрес (строка)</span><span class="sxs-lookup"><span data-stu-id="3d33d-129">Address (string)</span></span>](address-string.md)
+- [<span data-ttu-id="84cc9-129">Address (строка)</span><span class="sxs-lookup"><span data-stu-id="84cc9-129">Address (string)</span></span>](address-string.md)
     
-## <a name="successful-getuseroofsettings-response-example"></a><span data-ttu-id="3d33d-130">Пример успешного ответа GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="3d33d-130">Successful GetUserOofSettings response example</span></span>
+## <a name="successful-getuseroofsettings-response-example"></a><span data-ttu-id="84cc9-130">Пример успешного ответа GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="84cc9-130">Successful GetUserOofSettings response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="3d33d-131">Описание</span><span class="sxs-lookup"><span data-stu-id="3d33d-131">Description</span></span>
+### <a name="description"></a><span data-ttu-id="84cc9-131">Описание</span><span class="sxs-lookup"><span data-stu-id="84cc9-131">Description</span></span>
 
-<span data-ttu-id="3d33d-132">В следующем примере показано отключенном состоянии об отсутствии на работе с сообщениями об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="3d33d-132">The following example shows a disabled OOF state with the OOF messages.</span></span>
+<span data-ttu-id="84cc9-132">В следующем примере показано отключенное состояние отсутствия на работе с сообщениями об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="84cc9-132">The following example shows a disabled OOF state with the OOF messages.</span></span>
   
-### <a name="code"></a><span data-ttu-id="3d33d-133">Программа</span><span class="sxs-lookup"><span data-stu-id="3d33d-133">Code</span></span>
+### <a name="code"></a><span data-ttu-id="84cc9-133">Код</span><span class="sxs-lookup"><span data-stu-id="84cc9-133">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -114,45 +114,45 @@ ms.locfileid: "19833691"
 </soap:Envelope>
 ```
 
-### <a name="successful-getuseroofsettings-response-elements"></a><span data-ttu-id="3d33d-134">Элементы ответов успешно GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="3d33d-134">Successful GetUserOofSettings response elements</span></span>
+### <a name="successful-getuseroofsettings-response-elements"></a><span data-ttu-id="84cc9-134">Успешные элементы ответа GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="84cc9-134">Successful GetUserOofSettings response elements</span></span>
 
-<span data-ttu-id="3d33d-135">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="3d33d-135">The following elements are used in the response:</span></span>
+<span data-ttu-id="84cc9-135">В отклике используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="84cc9-135">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="3d33d-136">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="3d33d-136">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="84cc9-136">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="84cc9-136">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="3d33d-137">GetUserOofSettingsResponse</span><span class="sxs-lookup"><span data-stu-id="3d33d-137">GetUserOofSettingsResponse</span></span>](getuseroofsettingsresponse.md)
+- [<span data-ttu-id="84cc9-137">жетусеруфсеттингсреспонсе</span><span class="sxs-lookup"><span data-stu-id="84cc9-137">GetUserOofSettingsResponse</span></span>](getuseroofsettingsresponse.md)
     
-- [<span data-ttu-id="3d33d-138">ResponseMessage</span><span class="sxs-lookup"><span data-stu-id="3d33d-138">ResponseMessage</span></span>](responsemessage.md)
+- [<span data-ttu-id="84cc9-138">респонсемессаже</span><span class="sxs-lookup"><span data-stu-id="84cc9-138">ResponseMessage</span></span>](responsemessage.md)
     
-- [<span data-ttu-id="3d33d-139">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="3d33d-139">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="84cc9-139">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="84cc9-139">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="3d33d-140">OofSettings</span><span class="sxs-lookup"><span data-stu-id="3d33d-140">OofSettings</span></span>](oofsettings.md)
+- [<span data-ttu-id="84cc9-140">уфсеттингс</span><span class="sxs-lookup"><span data-stu-id="84cc9-140">OofSettings</span></span>](oofsettings.md)
     
-- [<span data-ttu-id="3d33d-141">OofState</span><span class="sxs-lookup"><span data-stu-id="3d33d-141">OofState</span></span>](oofstate.md)
+- [<span data-ttu-id="84cc9-141">уфстате</span><span class="sxs-lookup"><span data-stu-id="84cc9-141">OofState</span></span>](oofstate.md)
     
-- [<span data-ttu-id="3d33d-142">ExternalAudience</span><span class="sxs-lookup"><span data-stu-id="3d33d-142">ExternalAudience</span></span>](externalaudience.md)
+- [<span data-ttu-id="84cc9-142">екстерналаудиенце</span><span class="sxs-lookup"><span data-stu-id="84cc9-142">ExternalAudience</span></span>](externalaudience.md)
     
-- [<span data-ttu-id="3d33d-143">Продолжительность (UserOofSettings)</span><span class="sxs-lookup"><span data-stu-id="3d33d-143">Duration (UserOofSettings)</span></span>](duration-useroofsettings.md)
+- [<span data-ttu-id="84cc9-143">Продолжительность (Усеруфсеттингс)</span><span class="sxs-lookup"><span data-stu-id="84cc9-143">Duration (UserOofSettings)</span></span>](duration-useroofsettings.md)
     
-- [<span data-ttu-id="3d33d-144">Время начала</span><span class="sxs-lookup"><span data-stu-id="3d33d-144">StartTime</span></span>](starttime.md)
+- [<span data-ttu-id="84cc9-144">StartTime</span><span class="sxs-lookup"><span data-stu-id="84cc9-144">StartTime</span></span>](starttime.md)
     
-- [<span data-ttu-id="3d33d-145">Время окончания</span><span class="sxs-lookup"><span data-stu-id="3d33d-145">EndTime</span></span>](endtime.md)
+- [<span data-ttu-id="84cc9-145">EndTime</span><span class="sxs-lookup"><span data-stu-id="84cc9-145">EndTime</span></span>](endtime.md)
     
-- [<span data-ttu-id="3d33d-146">InternalReply</span><span class="sxs-lookup"><span data-stu-id="3d33d-146">InternalReply</span></span>](internalreply.md)
+- [<span data-ttu-id="84cc9-146">интерналрепли</span><span class="sxs-lookup"><span data-stu-id="84cc9-146">InternalReply</span></span>](internalreply.md)
     
-- [<span data-ttu-id="3d33d-147">ExternalReply</span><span class="sxs-lookup"><span data-stu-id="3d33d-147">ExternalReply</span></span>](externalreply.md)
+- [<span data-ttu-id="84cc9-147">екстерналрепли</span><span class="sxs-lookup"><span data-stu-id="84cc9-147">ExternalReply</span></span>](externalreply.md)
     
-- [<span data-ttu-id="3d33d-148">Message</span><span class="sxs-lookup"><span data-stu-id="3d33d-148">Message</span></span>](message-ex15websvcsotherref.md)
+- [<span data-ttu-id="84cc9-148">Сообщение</span><span class="sxs-lookup"><span data-stu-id="84cc9-148">Message</span></span>](message-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="3d33d-149">AllowExternalOof</span><span class="sxs-lookup"><span data-stu-id="3d33d-149">AllowExternalOof</span></span>](allowexternaloof.md)
+- [<span data-ttu-id="84cc9-149">алловекстерналуф</span><span class="sxs-lookup"><span data-stu-id="84cc9-149">AllowExternalOof</span></span>](allowexternaloof.md)
     
-## <a name="getuseroofsettings-error-response-example"></a><span data-ttu-id="3d33d-150">Пример ответа об ошибке GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="3d33d-150">GetUserOofSettings Error response example</span></span>
+## <a name="getuseroofsettings-error-response-example"></a><span data-ttu-id="84cc9-150">Пример ответа на сообщение об ошибке GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="84cc9-150">GetUserOofSettings Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="3d33d-151">Описание</span><span class="sxs-lookup"><span data-stu-id="3d33d-151">Description</span></span>
+### <a name="description"></a><span data-ttu-id="84cc9-151">Описание</span><span class="sxs-lookup"><span data-stu-id="84cc9-151">Description</span></span>
 
-<span data-ttu-id="3d33d-152">В следующем примере показано возврату ошибки, возникающие при попытке обращения к другому пользователю сведения об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="3d33d-152">The following example shows an error response caused by an attempt to access another user's OOF information.</span></span>
+<span data-ttu-id="84cc9-152">В следующем примере показан ответ об ошибке, вызванный попыткой доступа к сведениям об отсутствии на работе другого пользователя.</span><span class="sxs-lookup"><span data-stu-id="84cc9-152">The following example shows an error response caused by an attempt to access another user's OOF information.</span></span>
   
-### <a name="code"></a><span data-ttu-id="3d33d-153">Программа</span><span class="sxs-lookup"><span data-stu-id="3d33d-153">Code</span></span>
+### <a name="code"></a><span data-ttu-id="84cc9-153">Код</span><span class="sxs-lookup"><span data-stu-id="84cc9-153">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -176,9 +176,9 @@ ms.locfileid: "19833691"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="3d33d-154">См. также</span><span class="sxs-lookup"><span data-stu-id="3d33d-154">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="84cc9-154">См. также</span><span class="sxs-lookup"><span data-stu-id="84cc9-154">See also</span></span>
 
 
 
-- [<span data-ttu-id="3d33d-155">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="3d33d-155">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="84cc9-155">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="84cc9-155">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 55d568bd-8dbc-4d50-b9d7-54b74a54d4b5
-description: Элемент Exists представляет выражение поиска, которое возвращает значение true, если задано указанное свойство элемента.
+description: Элемент EXISTS представляет выражение поиска, которое возвращает значение true, если указанное свойство существует для элемента.
 ms.openlocfilehash: d30f4b505afcac32afbfeaf2289c964ba145668e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762426"
 ---
-# <a name="exists"></a><span data-ttu-id="44544-103">Exists</span><span class="sxs-lookup"><span data-stu-id="44544-103">Exists</span></span>
+# <a name="exists"></a><span data-ttu-id="b9962-103">Exists</span><span class="sxs-lookup"><span data-stu-id="b9962-103">Exists</span></span>
 
-<span data-ttu-id="44544-104">Элемент **Exists** представляет выражение поиска, которое возвращает **значение true, если существует указанное свойство элемента** .</span><span class="sxs-lookup"><span data-stu-id="44544-104">The **Exists** element represents a search expression that returns **true** if the supplied property exists on an item.</span></span> 
+<span data-ttu-id="b9962-104">Элемент **Exists** представляет выражение поиска, которое возвращает **значение true** , если указанное свойство существует для элемента.</span><span class="sxs-lookup"><span data-stu-id="b9962-104">The **Exists** element represents a search expression that returns **true** if the supplied property exists on an item.</span></span> 
   
 ```xml
 <Exists>
@@ -29,48 +29,48 @@ ms.locfileid: "19762426"
 </Exists>
 ```
 
- <span data-ttu-id="44544-105">**ExistsType**</span><span class="sxs-lookup"><span data-stu-id="44544-105">**ExistsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="44544-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="44544-106">Attributes and elements</span></span>
+ <span data-ttu-id="b9962-105">**ексистстипе**</span><span class="sxs-lookup"><span data-stu-id="b9962-105">**ExistsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b9962-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="b9962-106">Attributes and elements</span></span>
 
-<span data-ttu-id="44544-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="44544-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b9962-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="b9962-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="44544-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="44544-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b9962-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="b9962-108">Attributes</span></span>
 
-<span data-ttu-id="44544-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="44544-109">None.</span></span>
+<span data-ttu-id="b9962-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="b9962-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="44544-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="44544-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b9962-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="b9962-110">Child elements</span></span>
 
-|<span data-ttu-id="44544-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="44544-111">**Element**</span></span>|<span data-ttu-id="44544-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="44544-112">**Description**</span></span>|
+|<span data-ttu-id="b9962-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="b9962-111">**Element**</span></span>|<span data-ttu-id="b9962-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b9962-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="44544-113">FieldURI</span><span class="sxs-lookup"><span data-stu-id="44544-113">FieldURI</span></span>](fielduri.md) <br/> |<span data-ttu-id="44544-114">Идентифицирует часто упоминаемые свойства по URI.</span><span class="sxs-lookup"><span data-stu-id="44544-114">Identifies frequently referenced properties by URI.</span></span>  <br/> |
-|[<span data-ttu-id="44544-115">IndexedFieldURI</span><span class="sxs-lookup"><span data-stu-id="44544-115">IndexedFieldURI</span></span>](indexedfielduri.md) <br/> |<span data-ttu-id="44544-116">Идентифицирует отдельных элементов словаря.</span><span class="sxs-lookup"><span data-stu-id="44544-116">Identifies individual members of a dictionary.</span></span>  <br/> |
-|[<span data-ttu-id="44544-117">ExtendedFieldURI</span><span class="sxs-lookup"><span data-stu-id="44544-117">ExtendedFieldURI</span></span>](extendedfielduri.md) <br/> |<span data-ttu-id="44544-118">Задает свойства MAPI.</span><span class="sxs-lookup"><span data-stu-id="44544-118">Identifies MAPI properties.</span></span>  <br/> |
+|[<span data-ttu-id="b9962-113">фиелдури</span><span class="sxs-lookup"><span data-stu-id="b9962-113">FieldURI</span></span>](fielduri.md) <br/> |<span data-ttu-id="b9962-114">Определяет часто упоминаемые свойства по URI.</span><span class="sxs-lookup"><span data-stu-id="b9962-114">Identifies frequently referenced properties by URI.</span></span>  <br/> |
+|[<span data-ttu-id="b9962-115">индекседфиелдури</span><span class="sxs-lookup"><span data-stu-id="b9962-115">IndexedFieldURI</span></span>](indexedfielduri.md) <br/> |<span data-ttu-id="b9962-116">Определяет отдельные элементы словаря.</span><span class="sxs-lookup"><span data-stu-id="b9962-116">Identifies individual members of a dictionary.</span></span>  <br/> |
+|[<span data-ttu-id="b9962-117">екстендедфиелдури</span><span class="sxs-lookup"><span data-stu-id="b9962-117">ExtendedFieldURI</span></span>](extendedfielduri.md) <br/> |<span data-ttu-id="b9962-118">Определяет свойства MAPI.</span><span class="sxs-lookup"><span data-stu-id="b9962-118">Identifies MAPI properties.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="44544-119">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="44544-119">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b9962-119">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="b9962-119">Parent elements</span></span>
 
-|<span data-ttu-id="44544-120">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="44544-120">**Element**</span></span>|<span data-ttu-id="44544-121">**Описание**</span><span class="sxs-lookup"><span data-stu-id="44544-121">**Description**</span></span>|
+|<span data-ttu-id="b9962-120">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="b9962-120">**Element**</span></span>|<span data-ttu-id="b9962-121">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b9962-121">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="44544-122">Ограничения</span><span class="sxs-lookup"><span data-stu-id="44544-122">Restriction</span></span>](restriction.md) <br/> |<span data-ttu-id="44544-123">Представляет ограничение или запрос, используемый для фильтрации элементов или папок в папке операциях FindItem/FindFolder и поиска.</span><span class="sxs-lookup"><span data-stu-id="44544-123">Represents the restriction or query that is used to filter items or folders in FindItem/FindFolder and search folder operations.</span></span>  <br/> |
-|[<span data-ttu-id="44544-124">Не</span><span class="sxs-lookup"><span data-stu-id="44544-124">Not</span></span>](not.md) <br/> |<span data-ttu-id="44544-125">Представляет выражение поиска, которое Инвертирует логическое значение выражения поиска, который он содержит.</span><span class="sxs-lookup"><span data-stu-id="44544-125">Represents a search expression that negates the Boolean value of the search expression that it contains.</span></span>  <br/> |
-|[<span data-ttu-id="44544-126">И</span><span class="sxs-lookup"><span data-stu-id="44544-126">And</span></span>](and.md) <br/> |<span data-ttu-id="44544-127">Представляет выражение поиска, которое позволяет выполнять логическое и операции между двумя или более выражений для поиска.</span><span class="sxs-lookup"><span data-stu-id="44544-127">Represents a search expression that enables you to perform a Boolean And operation between two or more search expressions.</span></span> <span data-ttu-id="44544-128">Результат операции является **значение true** , если все выражения поиска, содержащихся в And имеют **значение true**.</span><span class="sxs-lookup"><span data-stu-id="44544-128">The result of the And operation is **true** if all the search expressions contained within the And are **true**.</span></span>  <br/> |
-|[<span data-ttu-id="44544-129">Или</span><span class="sxs-lookup"><span data-stu-id="44544-129">Or</span></span>](or.md) <br/> |<span data-ttu-id="44544-130">Представляет выражение поиска, используемая для выполнения логического или на нем выражением поиска.</span><span class="sxs-lookup"><span data-stu-id="44544-130">Represents a search expression that performs a logical OR on the search expression that it contains.</span></span> <span data-ttu-id="44544-131">[Или](or.md) возвращает **значение true,** Если какие-либо из их дочерних элементов возвращало **значение true**.</span><span class="sxs-lookup"><span data-stu-id="44544-131">[Or](or.md) will return **true** if any of its children return **true**.</span></span>  <br/> |
+|[<span data-ttu-id="b9962-122">Restriction</span><span class="sxs-lookup"><span data-stu-id="b9962-122">Restriction</span></span>](restriction.md) <br/> |<span data-ttu-id="b9962-123">Представляет ограничение или запрос, используемый для фильтрации элементов или папок в операциях FindItem/FindFolder и папках поиска.</span><span class="sxs-lookup"><span data-stu-id="b9962-123">Represents the restriction or query that is used to filter items or folders in FindItem/FindFolder and search folder operations.</span></span>  <br/> |
+|[<span data-ttu-id="b9962-124">Not</span><span class="sxs-lookup"><span data-stu-id="b9962-124">Not</span></span>](not.md) <br/> |<span data-ttu-id="b9962-125">Представляет выражение поиска, которое инвертирует логическое значение содержащегося в нем выражения поиска.</span><span class="sxs-lookup"><span data-stu-id="b9962-125">Represents a search expression that negates the Boolean value of the search expression that it contains.</span></span>  <br/> |
+|[<span data-ttu-id="b9962-126">And</span><span class="sxs-lookup"><span data-stu-id="b9962-126">And</span></span>](and.md) <br/> |<span data-ttu-id="b9962-127">Представляет выражение поиска, которое позволяет выполнять логическое действие и операцию между двумя или более выражениями поиска.</span><span class="sxs-lookup"><span data-stu-id="b9962-127">Represents a search expression that enables you to perform a Boolean And operation between two or more search expressions.</span></span> <span data-ttu-id="b9962-128">Результат операции and имеет **значение true** , если все выражения поиска, содержащиеся в элементе и, имеют **значение true**.</span><span class="sxs-lookup"><span data-stu-id="b9962-128">The result of the And operation is **true** if all the search expressions contained within the And are **true**.</span></span>  <br/> |
+|[<span data-ttu-id="b9962-129">Or</span><span class="sxs-lookup"><span data-stu-id="b9962-129">Or</span></span>](or.md) <br/> |<span data-ttu-id="b9962-130">Представляет выражение поиска, которое выполняет логическую операцию OR для содержащегося в нем выражения поиска.</span><span class="sxs-lookup"><span data-stu-id="b9962-130">Represents a search expression that performs a logical OR on the search expression that it contains.</span></span> <span data-ttu-id="b9962-131">[Или](or.md) возвращает **значение true** , если любой из дочерних элементов возвращает **значение true**.</span><span class="sxs-lookup"><span data-stu-id="b9962-131">[Or](or.md) will return **true** if any of its children return **true**.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="44544-132">Замечания</span><span class="sxs-lookup"><span data-stu-id="44544-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b9962-132">Примечания</span><span class="sxs-lookup"><span data-stu-id="b9962-132">Remarks</span></span>
 
-<span data-ttu-id="44544-133">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="44544-133">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="b9962-133">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="b9962-133">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="44544-134">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="44544-134">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b9962-134">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="b9962-134">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="44544-135">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="44544-135">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="44544-136">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="44544-136">Schema Name</span></span>  <br/> |<span data-ttu-id="44544-137">Схема Types</span><span class="sxs-lookup"><span data-stu-id="44544-137">Types schema</span></span>  <br/> |
-|<span data-ttu-id="44544-138">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="44544-138">Validation File</span></span>  <br/> |<span data-ttu-id="44544-139">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="44544-139">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="44544-140">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="44544-140">Can be Empty</span></span>  <br/> |<span data-ttu-id="44544-141">False</span><span class="sxs-lookup"><span data-stu-id="44544-141">False</span></span>  <br/> |
+|<span data-ttu-id="b9962-135">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="b9962-135">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="b9962-136">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="b9962-136">Schema Name</span></span>  <br/> |<span data-ttu-id="b9962-137">Схема Types</span><span class="sxs-lookup"><span data-stu-id="b9962-137">Types schema</span></span>  <br/> |
+|<span data-ttu-id="b9962-138">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="b9962-138">Validation File</span></span>  <br/> |<span data-ttu-id="b9962-139">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="b9962-139">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="b9962-140">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="b9962-140">Can be Empty</span></span>  <br/> |<span data-ttu-id="b9962-141">False</span><span class="sxs-lookup"><span data-stu-id="b9962-141">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="44544-142">См. также</span><span class="sxs-lookup"><span data-stu-id="44544-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b9962-142">См. также</span><span class="sxs-lookup"><span data-stu-id="b9962-142">See also</span></span>
 
 
 
-- [<span data-ttu-id="44544-143">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="44544-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="b9962-143">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="b9962-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

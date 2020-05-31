@@ -1,5 +1,5 @@
 ---
-title: GroupIdentifier
+title: граупидентифиер
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: bdc6fc1e-4979-42da-a35b-e3017988c7d3
-description: Элемент GroupIdentifier представляет одиночный идентификатор безопасности и атрибут для группы объектов службы каталогов Active Directory, из которых учетная запись является участником.
+description: Элемент Граупидентифиер представляет один идентификатор безопасности и атрибут для группы объектов службы каталогов Active Directory, членом которой является учетная запись.
 ms.openlocfilehash: d73d72979762238ca09496cfbd6636b4ff44a969
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833767"
 ---
-# <a name="groupidentifier"></a><span data-ttu-id="ab13c-103">GroupIdentifier</span><span class="sxs-lookup"><span data-stu-id="ab13c-103">GroupIdentifier</span></span>
+# <a name="groupidentifier"></a><span data-ttu-id="fd88e-103">граупидентифиер</span><span class="sxs-lookup"><span data-stu-id="fd88e-103">GroupIdentifier</span></span>
 
-<span data-ttu-id="ab13c-104">Элемент **GroupIdentifier** представляет одиночный идентификатор безопасности и атрибут для группы объектов службы каталогов Active Directory, из которых учетная запись является участником.</span><span class="sxs-lookup"><span data-stu-id="ab13c-104">The **GroupIdentifier** element represents a single security identifier and attribute for an Active Directory directory service object group of which the account is a member.</span></span> 
+<span data-ttu-id="fd88e-104">Элемент **граупидентифиер** представляет один идентификатор безопасности и атрибут для группы объектов службы каталогов Active Directory, членом которой является учетная запись.</span><span class="sxs-lookup"><span data-stu-id="fd88e-104">The **GroupIdentifier** element represents a single security identifier and attribute for an Active Directory directory service object group of which the account is a member.</span></span> 
   
 ```xml
 <GroupIdentifier>
@@ -29,45 +29,45 @@ ms.locfileid: "19833767"
 </GroupIdentifier>
 ```
 
- <span data-ttu-id="ab13c-105">**SidAndAttributesType**</span><span class="sxs-lookup"><span data-stu-id="ab13c-105">**SidAndAttributesType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="ab13c-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="ab13c-106">Attributes and elements</span></span>
+ <span data-ttu-id="fd88e-105">**сидандаттрибутестипе**</span><span class="sxs-lookup"><span data-stu-id="fd88e-105">**SidAndAttributesType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="fd88e-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="fd88e-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ab13c-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="ab13c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="fd88e-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="fd88e-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ab13c-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="ab13c-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="fd88e-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="fd88e-108">Attributes</span></span>
 
-|<span data-ttu-id="ab13c-109">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="ab13c-109">**Attribute**</span></span>|<span data-ttu-id="ab13c-110">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ab13c-110">**Description**</span></span>|
+|<span data-ttu-id="fd88e-109">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="fd88e-109">**Attribute**</span></span>|<span data-ttu-id="fd88e-110">**Описание**</span><span class="sxs-lookup"><span data-stu-id="fd88e-110">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="ab13c-111">**Атрибуты**</span><span class="sxs-lookup"><span data-stu-id="ab13c-111">**Attributes**</span></span> <br/> |<span data-ttu-id="ab13c-112">Содержит атрибуты группы.</span><span class="sxs-lookup"><span data-stu-id="ab13c-112">Contains group attributes.</span></span>  <br/> |
+|<span data-ttu-id="fd88e-111">**Attributes**</span><span class="sxs-lookup"><span data-stu-id="fd88e-111">**Attributes**</span></span> <br/> |<span data-ttu-id="fd88e-112">Содержит атрибуты группы.</span><span class="sxs-lookup"><span data-stu-id="fd88e-112">Contains group attributes.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="ab13c-113">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="ab13c-113">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="fd88e-113">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="fd88e-113">Child elements</span></span>
 
-|<span data-ttu-id="ab13c-114">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="ab13c-114">**Element**</span></span>|<span data-ttu-id="ab13c-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ab13c-115">**Description**</span></span>|
+|<span data-ttu-id="fd88e-114">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="fd88e-114">**Element**</span></span>|<span data-ttu-id="fd88e-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="fd88e-115">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="ab13c-116">Класс SecurityIdentifier</span><span class="sxs-lookup"><span data-stu-id="ab13c-116">SecurityIdentifier</span></span>](securityidentifier.md) <br/> |<span data-ttu-id="ab13c-117">Представляет идентификатор безопасности ([SID](sid.md)), который представляет группу формы языке SDDL определения дескриптора безопасности.</span><span class="sxs-lookup"><span data-stu-id="ab13c-117">Represents the security descriptor definition language (SDDL) form of a security identifier ([SID](sid.md)) that represents the group.</span></span>  <br/> |
+|[<span data-ttu-id="fd88e-116">секуритидентифиер</span><span class="sxs-lookup"><span data-stu-id="fd88e-116">SecurityIdentifier</span></span>](securityidentifier.md) <br/> |<span data-ttu-id="fd88e-117">Представляет SDDL-форму идентификатора безопасности ([SID](sid.md)), представляющего группу.</span><span class="sxs-lookup"><span data-stu-id="fd88e-117">Represents the security descriptor definition language (SDDL) form of a security identifier ([SID](sid.md)) that represents the group.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="ab13c-118">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="ab13c-118">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="fd88e-118">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="fd88e-118">Parent elements</span></span>
 
-|<span data-ttu-id="ab13c-119">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="ab13c-119">**Element**</span></span>|<span data-ttu-id="ab13c-120">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ab13c-120">**Description**</span></span>|
+|<span data-ttu-id="fd88e-119">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="fd88e-119">**Element**</span></span>|<span data-ttu-id="fd88e-120">**Описание**</span><span class="sxs-lookup"><span data-stu-id="fd88e-120">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="ab13c-121">GroupSids</span><span class="sxs-lookup"><span data-stu-id="ab13c-121">GroupSids</span></span>](groupsids.md) <br/> |<span data-ttu-id="ab13c-122">Представляет коллекцию идентификаторов безопасности объектов группы Active Directory, которые составляют маркер учетной записи для сериализация маркера.</span><span class="sxs-lookup"><span data-stu-id="ab13c-122">Represents a collection of Active Directory group object security identifiers that make up an account token for token serialization.</span></span> <span data-ttu-id="ab13c-123">Сериализация маркера не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="ab13c-123">Token serialization is not supported.</span></span>  <br/> |
+|[<span data-ttu-id="fd88e-121">граупсидс</span><span class="sxs-lookup"><span data-stu-id="fd88e-121">GroupSids</span></span>](groupsids.md) <br/> |<span data-ttu-id="fd88e-122">Представляет коллекцию идентификаторов безопасности объектов группы Active Directory, которые составляют маркер учетной записи для сериализации маркеров.</span><span class="sxs-lookup"><span data-stu-id="fd88e-122">Represents a collection of Active Directory group object security identifiers that make up an account token for token serialization.</span></span> <span data-ttu-id="fd88e-123">Сериализация маркеров не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="fd88e-123">Token serialization is not supported.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ab13c-124">Замечания</span><span class="sxs-lookup"><span data-stu-id="ab13c-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fd88e-124">Примечания</span><span class="sxs-lookup"><span data-stu-id="fd88e-124">Remarks</span></span>
 
-<span data-ttu-id="ab13c-125">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="ab13c-125">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="fd88e-125">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="fd88e-125">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ab13c-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="ab13c-126">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="fd88e-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="fd88e-126">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ab13c-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="ab13c-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="ab13c-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="ab13c-128">Schema Name</span></span>  <br/> |<span data-ttu-id="ab13c-129">Схема Types</span><span class="sxs-lookup"><span data-stu-id="ab13c-129">Types schema</span></span>  <br/> |
-|<span data-ttu-id="ab13c-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="ab13c-130">Validation File</span></span>  <br/> |<span data-ttu-id="ab13c-131">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ab13c-131">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="ab13c-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="ab13c-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="ab13c-133">False</span><span class="sxs-lookup"><span data-stu-id="ab13c-133">False</span></span>  <br/> |
+|<span data-ttu-id="fd88e-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="fd88e-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="fd88e-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="fd88e-128">Schema Name</span></span>  <br/> |<span data-ttu-id="fd88e-129">Схема Types</span><span class="sxs-lookup"><span data-stu-id="fd88e-129">Types schema</span></span>  <br/> |
+|<span data-ttu-id="fd88e-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="fd88e-130">Validation File</span></span>  <br/> |<span data-ttu-id="fd88e-131">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="fd88e-131">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="fd88e-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="fd88e-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="fd88e-133">False</span><span class="sxs-lookup"><span data-stu-id="fd88e-133">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="ab13c-134">См. также</span><span class="sxs-lookup"><span data-stu-id="ab13c-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fd88e-134">См. также</span><span class="sxs-lookup"><span data-stu-id="fd88e-134">See also</span></span>
 
 
 
-- [<span data-ttu-id="ab13c-135">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="ab13c-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="fd88e-135">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="fd88e-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

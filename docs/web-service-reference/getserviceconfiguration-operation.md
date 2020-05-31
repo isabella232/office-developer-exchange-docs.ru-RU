@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 070cbfe5-325a-4955-8e4a-8230ea0459a7
-description: Операция GetServiceConfiguration получает сведения о конфигурации для указанного типа службы. Эта операция может вернуть параметры конфигурации для службы единой системы обмена сообщениями, правила защиты и почтовые подсказки.
+description: Операция GetServiceConfiguration получает сведения о конфигурации для указанного типа службы. Эта операция может возвращать параметры конфигурации для единой системы обмена сообщениями, правил защиты и почтовых подсказок.
 ms.openlocfilehash: 7fdc4d8defac3d6d352c121483bf8a4c735d9629
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833667"
 ---
-# <a name="getserviceconfiguration-operation"></a><span data-ttu-id="60ae1-104">Операция GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="60ae1-104">GetServiceConfiguration operation</span></span>
+# <a name="getserviceconfiguration-operation"></a><span data-ttu-id="9d573-104">Операция GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="9d573-104">GetServiceConfiguration operation</span></span>
 
-<span data-ttu-id="60ae1-105">Операция **GetServiceConfiguration** получает сведения о конфигурации для указанного типа службы.</span><span class="sxs-lookup"><span data-stu-id="60ae1-105">The **GetServiceConfiguration** operation gets configuration information for the specified type of service.</span></span> <span data-ttu-id="60ae1-106">Эта операция может вернуть параметры конфигурации для службы единой системы обмена сообщениями, правила защиты и почтовые подсказки.</span><span class="sxs-lookup"><span data-stu-id="60ae1-106">This operation can return configuration settings for the Unified Messaging, Protection Rules, and Mail Tips services.</span></span> 
+<span data-ttu-id="9d573-105">Операция **GetServiceConfiguration** получает сведения о конфигурации для указанного типа службы.</span><span class="sxs-lookup"><span data-stu-id="9d573-105">The **GetServiceConfiguration** operation gets configuration information for the specified type of service.</span></span> <span data-ttu-id="9d573-106">Эта операция может возвращать параметры конфигурации для единой системы обмена сообщениями, правил защиты и почтовых подсказок.</span><span class="sxs-lookup"><span data-stu-id="9d573-106">This operation can return configuration settings for the Unified Messaging, Protection Rules, and Mail Tips services.</span></span> 
   
-## <a name="getserviceconfiguration-request-example"></a><span data-ttu-id="60ae1-107">Пример запроса GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="60ae1-107">GetServiceConfiguration request example</span></span>
+## <a name="getserviceconfiguration-request-example"></a><span data-ttu-id="9d573-107">Пример запроса GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="9d573-107">GetServiceConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="60ae1-108">Описание</span><span class="sxs-lookup"><span data-stu-id="60ae1-108">Description</span></span>
+### <a name="description"></a><span data-ttu-id="9d573-108">Описание</span><span class="sxs-lookup"><span data-stu-id="9d573-108">Description</span></span>
 
-<span data-ttu-id="60ae1-109">В следующем примере запрос **GetServiceConfiguration** показано, как для формирования запроса для получения сведений о конфигурации службы единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="60ae1-109">The following example of a **GetServiceConfiguration** request shows how to form a request to get configuration information for the Unified Messaging service.</span></span> 
+<span data-ttu-id="9d573-109">В приведенном ниже примере запроса **GetServiceConfiguration** показано, как сформировать запрос на получение сведений о конфигурации для службы единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="9d573-109">The following example of a **GetServiceConfiguration** request shows how to form a request to get configuration information for the Unified Messaging service.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="60ae1-110">Программа</span><span class="sxs-lookup"><span data-stu-id="60ae1-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="9d573-110">Код</span><span class="sxs-lookup"><span data-stu-id="9d573-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -51,13 +51,13 @@ ms.locfileid: "19833667"
 </soap:Envelope>
 ```
 
-## <a name="getserviceconfiguration-response-example"></a><span data-ttu-id="60ae1-111">Пример ответа GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="60ae1-111">GetServiceConfiguration response example</span></span>
+## <a name="getserviceconfiguration-response-example"></a><span data-ttu-id="9d573-111">Пример отклика GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="9d573-111">GetServiceConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="60ae1-112">Описание</span><span class="sxs-lookup"><span data-stu-id="60ae1-112">Description</span></span>
+### <a name="description"></a><span data-ttu-id="9d573-112">Описание</span><span class="sxs-lookup"><span data-stu-id="9d573-112">Description</span></span>
 
-<span data-ttu-id="60ae1-113">В следующем примере показано успешного ответа на запрос **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="60ae1-113">The following example shows a successful response to the **GetServiceConfiguration** request.</span></span> 
+<span data-ttu-id="9d573-113">В следующем примере показан успешный ответ на запрос **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="9d573-113">The following example shows a successful response to the **GetServiceConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="60ae1-114">Программа</span><span class="sxs-lookup"><span data-stu-id="60ae1-114">Code</span></span>
+### <a name="code"></a><span data-ttu-id="9d573-114">Код</span><span class="sxs-lookup"><span data-stu-id="9d573-114">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -93,13 +93,13 @@ ms.locfileid: "19833667"
 </s:Envelope>
 ```
 
-## <a name="getserviceconfiguration-error-response-example"></a><span data-ttu-id="60ae1-115">Пример ответа об ошибке GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="60ae1-115">GetServiceConfiguration Error response example</span></span>
+## <a name="getserviceconfiguration-error-response-example"></a><span data-ttu-id="9d573-115">Пример ответа на сообщение об ошибке GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="9d573-115">GetServiceConfiguration Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="60ae1-116">Описание</span><span class="sxs-lookup"><span data-stu-id="60ae1-116">Description</span></span>
+### <a name="description"></a><span data-ttu-id="9d573-116">Описание</span><span class="sxs-lookup"><span data-stu-id="9d573-116">Description</span></span>
 
-<span data-ttu-id="60ae1-117">В следующем примере показано ошибочный ответ на запрос **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="60ae1-117">The following example shows an error response to the **GetServiceConfiguration** request.</span></span> <span data-ttu-id="60ae1-118">Эта ошибка была вызвана именем неправильной конфигурации.</span><span class="sxs-lookup"><span data-stu-id="60ae1-118">This error was caused by an incorrect configuration name.</span></span> 
+<span data-ttu-id="9d573-117">В следующем примере показан ответ об ошибке для запроса **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="9d573-117">The following example shows an error response to the **GetServiceConfiguration** request.</span></span> <span data-ttu-id="9d573-118">Эта ошибка вызвана неправильным именем конфигурации.</span><span class="sxs-lookup"><span data-stu-id="9d573-118">This error was caused by an incorrect configuration name.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="60ae1-119">Программа</span><span class="sxs-lookup"><span data-stu-id="60ae1-119">Code</span></span>
+### <a name="code"></a><span data-ttu-id="9d573-119">Код</span><span class="sxs-lookup"><span data-stu-id="9d573-119">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -129,11 +129,11 @@ ms.locfileid: "19833667"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="60ae1-120">См. также</span><span class="sxs-lookup"><span data-stu-id="60ae1-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9d573-120">См. также</span><span class="sxs-lookup"><span data-stu-id="9d573-120">See also</span></span>
 
 
 
-[<span data-ttu-id="60ae1-121">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="60ae1-121">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="9d573-121">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="9d573-121">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="60ae1-122">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="60ae1-122">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="9d573-122">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="9d573-122">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

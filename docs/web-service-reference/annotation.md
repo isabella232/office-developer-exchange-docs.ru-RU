@@ -1,5 +1,5 @@
 ---
-title: Заметки
+title: Метка
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e0392635-9d0f-46d5-84ef-0a8a3036479a
-description: Элемент заметки содержит необязательные примечания, добавлены пользователем.
+description: Элемент Annotation содержит необязательные заметки, добавленные пользователем.
 ms.openlocfilehash: e0170ef9940b64d4c6a10a08182189571f2beb5a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,53 +15,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761378"
 ---
-# <a name="annotation"></a><span data-ttu-id="e8d57-103">Заметки</span><span class="sxs-lookup"><span data-stu-id="e8d57-103">Annotation</span></span>
+# <a name="annotation"></a><span data-ttu-id="2e009-103">Метка</span><span class="sxs-lookup"><span data-stu-id="2e009-103">Annotation</span></span>
 
-<span data-ttu-id="e8d57-104">Элемент **заметки** содержит необязательные примечания, добавлены пользователем.</span><span class="sxs-lookup"><span data-stu-id="e8d57-104">The **Annotation** element contains optional notes added by a user.</span></span> 
+<span data-ttu-id="2e009-104">Элемент **Annotation** содержит необязательные заметки, добавленные пользователем.</span><span class="sxs-lookup"><span data-stu-id="2e009-104">The **Annotation** element contains optional notes added by a user.</span></span> 
   
 ```XML
 <Annotation></Annotation>
 ```
 
- <span data-ttu-id="e8d57-105">**xs: String**</span><span class="sxs-lookup"><span data-stu-id="e8d57-105">**xs:string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="e8d57-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="e8d57-106">Attributes and elements</span></span>
+ <span data-ttu-id="2e009-105">**xs: String**</span><span class="sxs-lookup"><span data-stu-id="2e009-105">**xs:string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="2e009-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="2e009-106">Attributes and elements</span></span>
 
-<span data-ttu-id="e8d57-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="e8d57-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="2e009-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="2e009-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e8d57-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="e8d57-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="2e009-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="2e009-108">Attributes</span></span>
 
-<span data-ttu-id="e8d57-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="e8d57-109">None.</span></span>
+<span data-ttu-id="2e009-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="2e009-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="e8d57-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="e8d57-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="2e009-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="2e009-110">Child elements</span></span>
 
-<span data-ttu-id="e8d57-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="e8d57-111">None.</span></span>
+<span data-ttu-id="2e009-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="2e009-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="e8d57-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="e8d57-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="2e009-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="2e009-112">Parent elements</span></span>
 
-|<span data-ttu-id="e8d57-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e8d57-113">**Element**</span></span>|<span data-ttu-id="e8d57-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e8d57-114">**Description**</span></span>|
+|<span data-ttu-id="2e009-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="2e009-113">**Element**</span></span>|<span data-ttu-id="2e009-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="2e009-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e8d57-115">EnhancedLocation</span><span class="sxs-lookup"><span data-stu-id="e8d57-115">EnhancedLocation</span></span>](enhancedlocation.md) <br/> |<span data-ttu-id="e8d57-116">Задает сведения о расположении таких как имя, адрес и необязательные замечания о расположении.</span><span class="sxs-lookup"><span data-stu-id="e8d57-116">Specifies location information such as the name, address, and optional notes about a location.</span></span>  <br/> |
+|[<span data-ttu-id="2e009-115">EnhancedLocation</span><span class="sxs-lookup"><span data-stu-id="2e009-115">EnhancedLocation</span></span>](enhancedlocation.md) <br/> |<span data-ttu-id="2e009-116">Задает сведения о расположении, такие как имя, адрес и дополнительные заметки о расположении.</span><span class="sxs-lookup"><span data-stu-id="2e009-116">Specifies location information such as the name, address, and optional notes about a location.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="e8d57-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="e8d57-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="2e009-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="2e009-117">Text value</span></span>
 
-<span data-ttu-id="e8d57-118">Текстовое значение элемента создания комментариев является пользователя добавлено примечание о расположении.</span><span class="sxs-lookup"><span data-stu-id="e8d57-118">The text value of the Annotation element is a user added note about a location.</span></span>
+<span data-ttu-id="2e009-118">Текстовое значение элемента Annotation — пользователь добавил Примечание о расположении.</span><span class="sxs-lookup"><span data-stu-id="2e009-118">The text value of the Annotation element is a user added note about a location.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="e8d57-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="e8d57-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2e009-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="2e009-119">Remarks</span></span>
 
-<span data-ttu-id="e8d57-120">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e8d57-120">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="2e009-120">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2e009-120">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="e8d57-121">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="e8d57-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="2e009-121">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="2e009-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="e8d57-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="e8d57-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="2e009-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="2e009-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e8d57-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="e8d57-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="e8d57-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="e8d57-124">Schema Name</span></span>  <br/> |<span data-ttu-id="e8d57-125">Схема типа</span><span class="sxs-lookup"><span data-stu-id="e8d57-125">Type schema</span></span>  <br/> |
-|<span data-ttu-id="e8d57-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="e8d57-126">Validation File</span></span>  <br/> |<span data-ttu-id="e8d57-127">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="e8d57-127">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="e8d57-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="e8d57-128">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="2e009-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="2e009-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="2e009-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="2e009-124">Schema Name</span></span>  <br/> |<span data-ttu-id="2e009-125">Схема типа</span><span class="sxs-lookup"><span data-stu-id="2e009-125">Type schema</span></span>  <br/> |
+|<span data-ttu-id="2e009-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="2e009-126">Validation File</span></span>  <br/> |<span data-ttu-id="2e009-127">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="2e009-127">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="2e009-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="2e009-128">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="e8d57-129">См. также</span><span class="sxs-lookup"><span data-stu-id="e8d57-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2e009-129">См. также</span><span class="sxs-lookup"><span data-stu-id="2e009-129">See also</span></span>
 
-- [<span data-ttu-id="e8d57-130">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="e8d57-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="2e009-130">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="2e009-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

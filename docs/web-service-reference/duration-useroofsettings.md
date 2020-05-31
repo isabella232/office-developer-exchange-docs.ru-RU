@@ -1,5 +1,5 @@
 ---
-title: Продолжительность (UserOofSettings)
+title: Продолжительность (Усеруфсеттингс)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 01d67af3-658e-4acd-93e3-441ae827fdd3
-description: Элемент длительность указывает продолжительность ожидания сообщения об отсутствии на состояние доступен, если элемент OofState задано значение запланировано.
+description: Элемент duration указывает длительность включения состояния "нет на месте" (отсутствие на работе), если для элемента Уфстате задано значение "запланировано".
 ms.openlocfilehash: 62a5492372fd80173d58e965376b7c8c466825a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762235"
 ---
-# <a name="duration-useroofsettings"></a><span data-ttu-id="7a084-103">Продолжительность (UserOofSettings)</span><span class="sxs-lookup"><span data-stu-id="7a084-103">Duration (UserOofSettings)</span></span>
+# <a name="duration-useroofsettings"></a><span data-ttu-id="17925-103">Продолжительность (Усеруфсеттингс)</span><span class="sxs-lookup"><span data-stu-id="17925-103">Duration (UserOofSettings)</span></span>
 
-<span data-ttu-id="7a084-104">Элемент **длительность** указывает продолжительность ожидания сообщения об отсутствии на состояние доступен, если элемент [OofState](oofstate.md) задано значение **Запланировано**.</span><span class="sxs-lookup"><span data-stu-id="7a084-104">The **Duration** element specifies the duration that the out of office (OOF) status is enabled if the [OofState](oofstate.md) element is set to **Scheduled**.</span></span>
+<span data-ttu-id="17925-104">Элемент **Duration** указывает длительность включения состояния "нет на месте" (отсутствие на работе), если для элемента [уфстате](oofstate.md) задано значение " **запланировано**".</span><span class="sxs-lookup"><span data-stu-id="17925-104">The **Duration** element specifies the duration that the out of office (OOF) status is enabled if the [OofState](oofstate.md) element is set to **Scheduled**.</span></span>
   
 ```XML
 <Duration>
@@ -30,39 +30,39 @@ ms.locfileid: "19762235"
 </Duration>
 ```
 
- <span data-ttu-id="7a084-105">**Срок действия**</span><span class="sxs-lookup"><span data-stu-id="7a084-105">**Duration**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="7a084-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="7a084-106">Attributes and elements</span></span>
+ <span data-ttu-id="17925-105">**Duration**</span><span class="sxs-lookup"><span data-stu-id="17925-105">**Duration**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="17925-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="17925-106">Attributes and elements</span></span>
 
-<span data-ttu-id="7a084-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="7a084-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="17925-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="17925-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="7a084-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="7a084-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="17925-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="17925-108">Attributes</span></span>
 
-<span data-ttu-id="7a084-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="7a084-109">None.</span></span>
+<span data-ttu-id="17925-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="17925-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="7a084-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="7a084-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="17925-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="17925-110">Child elements</span></span>
 
-|<span data-ttu-id="7a084-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="7a084-111">**Element**</span></span>|<span data-ttu-id="7a084-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="7a084-112">**Description**</span></span>|
+|<span data-ttu-id="17925-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="17925-111">**Element**</span></span>|<span data-ttu-id="17925-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="17925-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7a084-113">Время начала</span><span class="sxs-lookup"><span data-stu-id="7a084-113">StartTime</span></span>](starttime.md) <br/> |<span data-ttu-id="7a084-114">Представляет начало интервала времени задайте со статусом об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="7a084-114">Represents the start of the time span set with an OOF status.</span></span> <span data-ttu-id="7a084-115">Этот элемент обязательный.</span><span class="sxs-lookup"><span data-stu-id="7a084-115">This element is required.</span></span>  <br/> |
-|[<span data-ttu-id="7a084-116">Время окончания</span><span class="sxs-lookup"><span data-stu-id="7a084-116">EndTime</span></span>](endtime.md) <br/> |<span data-ttu-id="7a084-117">Представляет окончания интервала времени задайте со статусом об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="7a084-117">Represents the end of the time span set with an OOF status.</span></span> <span data-ttu-id="7a084-118">Этот элемент обязательный.</span><span class="sxs-lookup"><span data-stu-id="7a084-118">This element is required.</span></span>  <br/> |
+|[<span data-ttu-id="17925-113">StartTime</span><span class="sxs-lookup"><span data-stu-id="17925-113">StartTime</span></span>](starttime.md) <br/> |<span data-ttu-id="17925-114">Представляет начало временного интервала, установленного со статусом "отсутствие на работе".</span><span class="sxs-lookup"><span data-stu-id="17925-114">Represents the start of the time span set with an OOF status.</span></span> <span data-ttu-id="17925-115">Этот элемент обязательный.</span><span class="sxs-lookup"><span data-stu-id="17925-115">This element is required.</span></span>  <br/> |
+|[<span data-ttu-id="17925-116">EndTime</span><span class="sxs-lookup"><span data-stu-id="17925-116">EndTime</span></span>](endtime.md) <br/> |<span data-ttu-id="17925-117">Представляет конец интервала времени, установленного со статусом "отсутствие на работе".</span><span class="sxs-lookup"><span data-stu-id="17925-117">Represents the end of the time span set with an OOF status.</span></span> <span data-ttu-id="17925-118">Этот элемент обязательный.</span><span class="sxs-lookup"><span data-stu-id="17925-118">This element is required.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="7a084-119">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="7a084-119">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="17925-119">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="17925-119">Parent elements</span></span>
 
-|<span data-ttu-id="7a084-120">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="7a084-120">**Element**</span></span>|<span data-ttu-id="7a084-121">**Описание**</span><span class="sxs-lookup"><span data-stu-id="7a084-121">**Description**</span></span>|
+|<span data-ttu-id="17925-120">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="17925-120">**Element**</span></span>|<span data-ttu-id="17925-121">**Описание**</span><span class="sxs-lookup"><span data-stu-id="17925-121">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7a084-122">UserOofSettings</span><span class="sxs-lookup"><span data-stu-id="7a084-122">UserOofSettings</span></span>](useroofsettings.md) <br/> |<span data-ttu-id="7a084-123">Задает параметры об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="7a084-123">Specifies the OOF settings.</span></span>  <br/><br/><span data-ttu-id="7a084-124">Ниже приведен выражение XPath для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="7a084-124">The following is the XPath expression to this element:</span></span><br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[<span data-ttu-id="7a084-125">OofSettings</span><span class="sxs-lookup"><span data-stu-id="7a084-125">OofSettings</span></span>](oofsettings.md) <br/> |<span data-ttu-id="7a084-126">Содержит параметры об отсутствии на работе.</span><span class="sxs-lookup"><span data-stu-id="7a084-126">Contains the OOF settings.</span></span><br/><br/><span data-ttu-id="7a084-127">Ниже приведен выражение XPath для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="7a084-127">The following is the XPath expression to this element:</span></span><br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
-|[<span data-ttu-id="7a084-128">Нет на месте</span><span class="sxs-lookup"><span data-stu-id="7a084-128">OutOfOffice</span></span>](outofoffice.md) <br/> |<span data-ttu-id="7a084-129">Определяет ответное сообщение об отсутствии на работе Office (OOF) и время для отправки сообщения ответа для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="7a084-129">Defines the Out of Office (OOF) response message and a duration time for sending the response message for a mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="17925-122">усеруфсеттингс</span><span class="sxs-lookup"><span data-stu-id="17925-122">UserOofSettings</span></span>](useroofsettings.md) <br/> |<span data-ttu-id="17925-123">Задает параметры отсутствия на работе.</span><span class="sxs-lookup"><span data-stu-id="17925-123">Specifies the OOF settings.</span></span>  <br/><br/><span data-ttu-id="17925-124">Ниже приведено выражение XPath для этого элемента:</span><span class="sxs-lookup"><span data-stu-id="17925-124">The following is the XPath expression to this element:</span></span><br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[<span data-ttu-id="17925-125">уфсеттингс</span><span class="sxs-lookup"><span data-stu-id="17925-125">OofSettings</span></span>](oofsettings.md) <br/> |<span data-ttu-id="17925-126">Содержит параметры отсутствия на работе.</span><span class="sxs-lookup"><span data-stu-id="17925-126">Contains the OOF settings.</span></span><br/><br/><span data-ttu-id="17925-127">Ниже приведено выражение XPath для этого элемента:</span><span class="sxs-lookup"><span data-stu-id="17925-127">The following is the XPath expression to this element:</span></span><br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[<span data-ttu-id="17925-128">аутофоффице</span><span class="sxs-lookup"><span data-stu-id="17925-128">OutOfOffice</span></span>](outofoffice.md) <br/> |<span data-ttu-id="17925-129">Определяет ответ об отсутствии на работе (отсутствие на работе) и время для отправки ответного сообщения для почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="17925-129">Defines the Out of Office (OOF) response message and a duration time for sending the response message for a mailbox.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7a084-130">Замечания</span><span class="sxs-lookup"><span data-stu-id="7a084-130">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="17925-130">Примечания</span><span class="sxs-lookup"><span data-stu-id="17925-130">Remarks</span></span>
 
-<span data-ttu-id="7a084-131">Тип **длительность** также является типом элементов [DetailedSuggestionsWindow](detailedsuggestionswindow.md), [значение TimeWindow](timewindow.md)и [Нет на месте](outofoffice.md) .</span><span class="sxs-lookup"><span data-stu-id="7a084-131">The **Duration** type is also the type for the [DetailedSuggestionsWindow](detailedsuggestionswindow.md), [TimeWindow](timewindow.md), and [OutOfOffice](outofoffice.md) elements.</span></span> 
+<span data-ttu-id="17925-131">Тип **Duration** также является типом для элементов [детаиледсугжестионсвиндов](detailedsuggestionswindow.md), [TimeWindow](timewindow.md)и [аутофоффице](outofoffice.md) .</span><span class="sxs-lookup"><span data-stu-id="17925-131">The **Duration** type is also the type for the [DetailedSuggestionsWindow](detailedsuggestionswindow.md), [TimeWindow](timewindow.md), and [OutOfOffice](outofoffice.md) elements.</span></span> 
   
-<span data-ttu-id="7a084-132">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="7a084-132">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="17925-132">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="17925-132">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="example"></a><span data-ttu-id="7a084-133">Пример</span><span class="sxs-lookup"><span data-stu-id="7a084-133">Example</span></span>
+## <a name="example"></a><span data-ttu-id="17925-133">Пример</span><span class="sxs-lookup"><span data-stu-id="17925-133">Example</span></span>
 
-<span data-ttu-id="7a084-134">В следующем примере [SetUserOofSettings операция](setuseroofsettings-operation.md) запроса задает [OofState](oofstate.md) **включено**, внешних и внутренних сообщений об отсутствии на работе и задает длительность об отсутствии на работе для 10 дней.</span><span class="sxs-lookup"><span data-stu-id="7a084-134">The following example of a [SetUserOofSettings operation](setuseroofsettings-operation.md) request sets the [OofState](oofstate.md) to **Enabled**, the internal and external OOF messages, and sets the duration of OOF for 10 days.</span></span>
+<span data-ttu-id="17925-134">Следующий пример запроса [операции SetUserOofSettings](setuseroofsettings-operation.md) устанавливает для параметра [уфстате](oofstate.md) значение **Enabled**, внутренние и внешние сообщения об отсутствии на работе, а также задает длительность бездействия в течение 10 дней.</span><span class="sxs-lookup"><span data-stu-id="17925-134">The following example of a [SetUserOofSettings operation](setuseroofsettings-operation.md) request sets the [OofState](oofstate.md) to **Enabled**, the internal and external OOF messages, and sets the duration of OOF for 10 days.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -94,17 +94,17 @@ ms.locfileid: "19762235"
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a><span data-ttu-id="7a084-135">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="7a084-135">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="17925-135">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="17925-135">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="7a084-136">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="7a084-136">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="7a084-137">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="7a084-137">Schema Name</span></span>  <br/> |<span data-ttu-id="7a084-138">Схема Types</span><span class="sxs-lookup"><span data-stu-id="7a084-138">Types schema</span></span>  <br/> |
-|<span data-ttu-id="7a084-139">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="7a084-139">Validation File</span></span>  <br/> |<span data-ttu-id="7a084-140">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="7a084-140">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="7a084-141">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="7a084-141">Can be Empty</span></span>  <br/> |<span data-ttu-id="7a084-142">False</span><span class="sxs-lookup"><span data-stu-id="7a084-142">False</span></span>  <br/> |
+|<span data-ttu-id="17925-136">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="17925-136">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="17925-137">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="17925-137">Schema Name</span></span>  <br/> |<span data-ttu-id="17925-138">Схема Types</span><span class="sxs-lookup"><span data-stu-id="17925-138">Types schema</span></span>  <br/> |
+|<span data-ttu-id="17925-139">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="17925-139">Validation File</span></span>  <br/> |<span data-ttu-id="17925-140">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="17925-140">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="17925-141">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="17925-141">Can be Empty</span></span>  <br/> |<span data-ttu-id="17925-142">False</span><span class="sxs-lookup"><span data-stu-id="17925-142">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="7a084-143">См. также</span><span class="sxs-lookup"><span data-stu-id="7a084-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="17925-143">См. также</span><span class="sxs-lookup"><span data-stu-id="17925-143">See also</span></span>
 
-- [<span data-ttu-id="7a084-144">Операция GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="7a084-144">GetUserOofSettings operation</span></span>](getuseroofsettings-operation.md)  
-- [<span data-ttu-id="7a084-145">Операция SetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="7a084-145">SetUserOofSettings operation</span></span>](setuseroofsettings-operation.md)
+- [<span data-ttu-id="17925-144">Операция GetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="17925-144">GetUserOofSettings operation</span></span>](getuseroofsettings-operation.md)  
+- [<span data-ttu-id="17925-145">Операция SetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="17925-145">SetUserOofSettings operation</span></span>](setuseroofsettings-operation.md)
 

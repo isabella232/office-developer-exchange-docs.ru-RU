@@ -1,12 +1,12 @@
 ---
-title: EcpUrl-единой системы обмена сообщениями (POX)
+title: Екпурл-единой системы обмена сообщениями (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 455c77c6-c03f-49a7-a8ca-aa0023b6e73b
-description: Элемент EcpUrl-единой системы обмена сообщениями указывает сокращенный URL-адрес, который может использоваться совместно с значение элемента EcpUrl (POX) для создания URL-адрес, который можно использовать для доступа к параметрам голосовой почты для пользователя с включенной поддержкой почты.
+description: Элемент Екпурл-единой системы обмена сообщениями указывает на частичный URL-адрес, который можно объединить со значением элемента Екпурл (POX), чтобы создать URL-адрес, который можно использовать для доступа к параметрам голосовой почты для пользователя с включенной поддержкой почты.
 ms.openlocfilehash: 5f9be67f02703bbdfeb114eda13c5ce59f83290d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -14,53 +14,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762247"
 ---
-# <a name="ecpurl-um-pox"></a><span data-ttu-id="03f2d-103">EcpUrl-единой системы обмена сообщениями (POX)</span><span class="sxs-lookup"><span data-stu-id="03f2d-103">EcpUrl-um (POX)</span></span>
+# <a name="ecpurl-um-pox"></a><span data-ttu-id="78177-103">Екпурл-единой системы обмена сообщениями (POX)</span><span class="sxs-lookup"><span data-stu-id="78177-103">EcpUrl-um (POX)</span></span>
 
-<span data-ttu-id="03f2d-104">Элемент **EcpUrl-единой системы обмена сообщениями** указывает сокращенный URL-адрес, который может использоваться совместно с значение элемента [EcpUrl (POX)](ecpurl-pox.md) для создания URL-адрес, который можно использовать для доступа к параметрам голосовой почты для пользователя с включенной поддержкой почты.</span><span class="sxs-lookup"><span data-stu-id="03f2d-104">The **EcpUrl-um** element specifies a partial URL that can be combined with the [EcpUrl (POX)](ecpurl-pox.md) element's value to generate a URL that can be used to access voice mail settings for a mail-enabled user.</span></span> 
+<span data-ttu-id="78177-104">Элемент **екпурл-единой системы обмена сообщениями** указывает на частичный URL-адрес, который можно объединить со значением элемента [екпурл (POX)](ecpurl-pox.md) , чтобы создать URL-адрес, который можно использовать для доступа к параметрам голосовой почты для пользователя с включенной поддержкой почты.</span><span class="sxs-lookup"><span data-stu-id="78177-104">The **EcpUrl-um** element specifies a partial URL that can be combined with the [EcpUrl (POX)](ecpurl-pox.md) element's value to generate a URL that can be used to access voice mail settings for a mail-enabled user.</span></span> 
   
-[<span data-ttu-id="03f2d-105">Автообнаружение (POX)</span><span class="sxs-lookup"><span data-stu-id="03f2d-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
+[<span data-ttu-id="78177-105">Служба автообнаружения (POX)</span><span class="sxs-lookup"><span data-stu-id="78177-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
   
-[<span data-ttu-id="03f2d-106">Ответ (POX)</span><span class="sxs-lookup"><span data-stu-id="03f2d-106">Response (POX)</span></span>](response-pox.md)
+[<span data-ttu-id="78177-106">Ответ (POX)</span><span class="sxs-lookup"><span data-stu-id="78177-106">Response (POX)</span></span>](response-pox.md)
   
-[<span data-ttu-id="03f2d-107">Учетная запись (POX)</span><span class="sxs-lookup"><span data-stu-id="03f2d-107">Account (POX)</span></span>](account-pox.md)
+[<span data-ttu-id="78177-107">Учетная запись (POX)</span><span class="sxs-lookup"><span data-stu-id="78177-107">Account (POX)</span></span>](account-pox.md)
   
-[<span data-ttu-id="03f2d-108">Протокол (POX)</span><span class="sxs-lookup"><span data-stu-id="03f2d-108">Protocol (POX)</span></span>](protocol-pox.md)
+[<span data-ttu-id="78177-108">Протокол (POX)</span><span class="sxs-lookup"><span data-stu-id="78177-108">Protocol (POX)</span></span>](protocol-pox.md)
   
-[<span data-ttu-id="03f2d-109">EcpUrl-единой системы обмена сообщениями (POX)</span><span class="sxs-lookup"><span data-stu-id="03f2d-109">EcpUrl-um (POX)</span></span>](ecpurl-um-pox.md)
+[<span data-ttu-id="78177-109">Екпурл-единой системы обмена сообщениями (POX)</span><span class="sxs-lookup"><span data-stu-id="78177-109">EcpUrl-um (POX)</span></span>](ecpurl-um-pox.md)
   
 ```XML
 <EcpUrl-um/>
 ```
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="03f2d-110">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="03f2d-110">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="78177-110">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="78177-110">Attributes and elements</span></span>
 
-<span data-ttu-id="03f2d-111">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="03f2d-111">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="78177-111">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="78177-111">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="03f2d-112">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="03f2d-112">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="78177-112">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="78177-112">Attributes</span></span>
 
-<span data-ttu-id="03f2d-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="03f2d-113">None.</span></span>
+<span data-ttu-id="78177-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="78177-113">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="03f2d-114">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="03f2d-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="78177-114">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="78177-114">Child elements</span></span>
 
-<span data-ttu-id="03f2d-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="03f2d-115">None.</span></span>
+<span data-ttu-id="78177-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="78177-115">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="03f2d-116">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="03f2d-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="78177-116">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="78177-116">Parent elements</span></span>
 
-|<span data-ttu-id="03f2d-117">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="03f2d-117">**Element**</span></span>|<span data-ttu-id="03f2d-118">**Описание**</span><span class="sxs-lookup"><span data-stu-id="03f2d-118">**Description**</span></span>|
+|<span data-ttu-id="78177-117">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="78177-117">**Element**</span></span>|<span data-ttu-id="78177-118">**Описание**</span><span class="sxs-lookup"><span data-stu-id="78177-118">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="03f2d-119">Протокол (POX)</span><span class="sxs-lookup"><span data-stu-id="03f2d-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="03f2d-120">Содержит спецификации для подключения клиентского компьютера, на котором выполняется Microsoft Exchange Server с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="03f2d-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange Server that has the Client Access server role installed.</span></span>  <br/> |
+|[<span data-ttu-id="78177-119">Протокол (POX)</span><span class="sxs-lookup"><span data-stu-id="78177-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="78177-120">Содержит спецификации для подключения клиента к компьютеру, на котором установлен сервер Microsoft Exchange с установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="78177-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange Server that has the Client Access server role installed.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="03f2d-121">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="03f2d-121">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="78177-121">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="78177-121">Text value</span></span>
 
-<span data-ttu-id="03f2d-122">Текстовое значение представляет сокращенный URL-адрес, который может использоваться совместно с значение элемента [EcpUrl (POX)](ecpurl-pox.md) для создания URL-адрес, который можно использовать для доступа к параметрам голосовой почты для пользователя.</span><span class="sxs-lookup"><span data-stu-id="03f2d-122">The text value represents a partial URL that can be combined with the [EcpUrl (POX)](ecpurl-pox.md) element's value to generate a URL that can be used to access voice mail settings for the user.</span></span> 
+<span data-ttu-id="78177-122">Текстовое значение представляет собой частичный URL-адрес, который можно сочетать со значением элемента [екпурл (POX)](ecpurl-pox.md) для создания URL-адреса, который можно использовать для доступа к параметрам голосовой почты для пользователя.</span><span class="sxs-lookup"><span data-stu-id="78177-122">The text value represents a partial URL that can be combined with the [EcpUrl (POX)](ecpurl-pox.md) element's value to generate a URL that can be used to access voice mail settings for the user.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="03f2d-123">Замечания</span><span class="sxs-lookup"><span data-stu-id="03f2d-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="78177-123">Примечания</span><span class="sxs-lookup"><span data-stu-id="78177-123">Remarks</span></span>
 
-<span data-ttu-id="03f2d-124">Элемент **EcpUrl-единой системы обмена сообщениями** является необязательным дочерним элементом элемента **протокола** .</span><span class="sxs-lookup"><span data-stu-id="03f2d-124">The **EcpUrl-um** element is an optional child element of the **Protocol** element.</span></span> 
+<span data-ttu-id="78177-124">Элемент **екпурл-единой системы обмена сообщениями** — это необязательный дочерний элемент элемента **Protocol** .</span><span class="sxs-lookup"><span data-stu-id="78177-124">The **EcpUrl-um** element is an optional child element of the **Protocol** element.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="03f2d-125">См. также</span><span class="sxs-lookup"><span data-stu-id="03f2d-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="78177-125">См. также</span><span class="sxs-lookup"><span data-stu-id="78177-125">See also</span></span>
 
 
 
-[<span data-ttu-id="03f2d-126">Элементы XML автоматического обнаружения POX для Exchange</span><span class="sxs-lookup"><span data-stu-id="03f2d-126">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
+[<span data-ttu-id="78177-126">XML-элементы автообнаружения POX для Exchange</span><span class="sxs-lookup"><span data-stu-id="78177-126">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
 

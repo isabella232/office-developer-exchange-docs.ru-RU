@@ -16,47 +16,47 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761398"
 ---
-# <a name="applicationuri-soap"></a><span data-ttu-id="3ac41-103">ApplicationUri (SOAP)</span><span class="sxs-lookup"><span data-stu-id="3ac41-103">ApplicationUri (SOAP)</span></span>
+# <a name="applicationuri-soap"></a><span data-ttu-id="b0e27-103">ApplicationUri (SOAP)</span><span class="sxs-lookup"><span data-stu-id="b0e27-103">ApplicationUri (SOAP)</span></span>
 
-<span data-ttu-id="3ac41-104">Элемент **ApplicationUri** определяет расположение приложения.</span><span class="sxs-lookup"><span data-stu-id="3ac41-104">The **ApplicationUri** element defines the location of an application.</span></span> 
+<span data-ttu-id="b0e27-104">Элемент **ApplicationUri** определяет расположение приложения.</span><span class="sxs-lookup"><span data-stu-id="b0e27-104">The **ApplicationUri** element defines the location of an application.</span></span> 
   
 ```XML
 <ApplicationUri/>
 ```
 
- <span data-ttu-id="3ac41-105">**anyURI**</span><span class="sxs-lookup"><span data-stu-id="3ac41-105">**anyURI**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="3ac41-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="3ac41-106">Attributes and elements</span></span>
+ <span data-ttu-id="b0e27-105">**анюри**</span><span class="sxs-lookup"><span data-stu-id="b0e27-105">**anyURI**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b0e27-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="b0e27-106">Attributes and elements</span></span>
 
-<span data-ttu-id="3ac41-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="3ac41-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b0e27-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="b0e27-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="3ac41-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="3ac41-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b0e27-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="b0e27-108">Attributes</span></span>
 
-<span data-ttu-id="3ac41-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="3ac41-109">None.</span></span>
+<span data-ttu-id="b0e27-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="b0e27-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="3ac41-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="3ac41-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b0e27-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="b0e27-110">Child elements</span></span>
 
-<span data-ttu-id="3ac41-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="3ac41-111">None.</span></span>
+<span data-ttu-id="b0e27-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="b0e27-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="3ac41-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="3ac41-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b0e27-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="b0e27-112">Parent elements</span></span>
 
-|<span data-ttu-id="3ac41-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="3ac41-113">**Element**</span></span>|<span data-ttu-id="3ac41-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3ac41-114">**Description**</span></span>|
+|<span data-ttu-id="b0e27-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="b0e27-113">**Element**</span></span>|<span data-ttu-id="b0e27-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b0e27-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="3ac41-115">Ответ (GetFederationInformation) (SOAP)</span><span class="sxs-lookup"><span data-stu-id="3ac41-115">Response (GetFederationInformation) (SOAP)</span></span>](response-getfederationinformationsoap.md) <br/> |<span data-ttu-id="3ac41-116">Содержит сведения о ответа GetFederation.</span><span class="sxs-lookup"><span data-stu-id="3ac41-116">Contains the GetFederation response information.</span></span>  <br/> |
+|[<span data-ttu-id="b0e27-115">Отклик (Жетфедератионинформатион) (SOAP)</span><span class="sxs-lookup"><span data-stu-id="b0e27-115">Response (GetFederationInformation) (SOAP)</span></span>](response-getfederationinformationsoap.md) <br/> |<span data-ttu-id="b0e27-116">Содержит сведения об отклике для Федерации.</span><span class="sxs-lookup"><span data-stu-id="b0e27-116">Contains the GetFederation response information.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="3ac41-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="3ac41-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="b0e27-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="b0e27-117">Text value</span></span>
 
-<span data-ttu-id="3ac41-118">Текстовое значение представляет URI приложения.</span><span class="sxs-lookup"><span data-stu-id="3ac41-118">The text value represents the URI of the application.</span></span>
+<span data-ttu-id="b0e27-118">Текстовое значение представляет универсальный код ресурса (URI) приложения.</span><span class="sxs-lookup"><span data-stu-id="b0e27-118">The text value represents the URI of the application.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="3ac41-119">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="3ac41-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b0e27-119">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="b0e27-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="3ac41-120">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="3ac41-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="3ac41-121">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="3ac41-121">Schema Name</span></span>  <br/> |<span data-ttu-id="3ac41-122">Схема службы автообнаружения</span><span class="sxs-lookup"><span data-stu-id="3ac41-122">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="3ac41-123">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="3ac41-123">Validation File</span></span>  <br/> |<span data-ttu-id="3ac41-124">Mssages.xsd</span><span class="sxs-lookup"><span data-stu-id="3ac41-124">Mssages.xsd</span></span>  <br/> |
-|<span data-ttu-id="3ac41-125">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="3ac41-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="3ac41-126">True</span><span class="sxs-lookup"><span data-stu-id="3ac41-126">True</span></span>  <br/> |
+|<span data-ttu-id="b0e27-120">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="b0e27-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="b0e27-121">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="b0e27-121">Schema Name</span></span>  <br/> |<span data-ttu-id="b0e27-122">Схема автообнаружения</span><span class="sxs-lookup"><span data-stu-id="b0e27-122">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="b0e27-123">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="b0e27-123">Validation File</span></span>  <br/> |<span data-ttu-id="b0e27-124">Мссажес. xsd</span><span class="sxs-lookup"><span data-stu-id="b0e27-124">Mssages.xsd</span></span>  <br/> |
+|<span data-ttu-id="b0e27-125">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="b0e27-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="b0e27-126">True</span><span class="sxs-lookup"><span data-stu-id="b0e27-126">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="3ac41-127">См. также</span><span class="sxs-lookup"><span data-stu-id="3ac41-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b0e27-127">См. также</span><span class="sxs-lookup"><span data-stu-id="b0e27-127">See also</span></span>
 
-- [<span data-ttu-id="3ac41-128">Операция GetFederationInformation (SOAP)</span><span class="sxs-lookup"><span data-stu-id="3ac41-128">GetFederationInformation operation (SOAP)</span></span>](getfederationinformation-operation-soap.md)
+- [<span data-ttu-id="b0e27-128">Операция Жетфедератионинформатион (SOAP)</span><span class="sxs-lookup"><span data-stu-id="b0e27-128">GetFederationInformation operation (SOAP)</span></span>](getfederationinformation-operation-soap.md)
 

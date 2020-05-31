@@ -1,5 +1,5 @@
 ---
-title: Представления календаря
+title: CalendarView
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a4a953b8-0710-416c-95ef-59e51eba9982
-description: Элемент представления календаря определяет операцию FindItem как возвращение элементов календаря в наборе, отображенные в календаре.
+description: Элемент CalendarView определяет операцию FindItem, возвращая элементы календаря в наборе в том виде, в котором они отображаются в календаре.
 ms.openlocfilehash: 79b5ad268a8013092c1122c99bdcd10d876abf2c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,153 +19,153 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761659"
 ---
-# <a name="calendarview"></a><span data-ttu-id="5aa40-103">Представления календаря</span><span class="sxs-lookup"><span data-stu-id="5aa40-103">CalendarView</span></span>
+# <a name="calendarview"></a><span data-ttu-id="ff918-103">CalendarView</span><span class="sxs-lookup"><span data-stu-id="ff918-103">CalendarView</span></span>
 
-<span data-ttu-id="5aa40-104">Элемент **представления календаря** определяет [операции FindItem](finditem-operation.md) как возвращение элементов календаря в наборе, отображенные в календаре.</span><span class="sxs-lookup"><span data-stu-id="5aa40-104">The **CalendarView** element defines a [FindItem operation](finditem-operation.md) as returning calendar items in a set as they appear in a calendar.</span></span> 
+<span data-ttu-id="ff918-104">Элемент **CalendarView** определяет [операцию FindItem](finditem-operation.md) , возвращая элементы календаря в наборе в том виде, в котором они отображаются в календаре.</span><span class="sxs-lookup"><span data-stu-id="ff918-104">The **CalendarView** element defines a [FindItem operation](finditem-operation.md) as returning calendar items in a set as they appear in a calendar.</span></span> 
   
-[<span data-ttu-id="5aa40-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="5aa40-105">FindItem</span></span>](finditem.md)
+[<span data-ttu-id="ff918-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="ff918-105">FindItem</span></span>](finditem.md)
   
-[<span data-ttu-id="5aa40-106">Представления календаря</span><span class="sxs-lookup"><span data-stu-id="5aa40-106">CalendarView</span></span>](calendarview.md)
+[<span data-ttu-id="ff918-106">CalendarView</span><span class="sxs-lookup"><span data-stu-id="ff918-106">CalendarView</span></span>](calendarview.md)
   
 ```XML
 <CalendarView MaxEntriesReturned="" StartDate="" EndDate="" />
 ```
 
-<span data-ttu-id="5aa40-107">**Представления календаря**</span><span class="sxs-lookup"><span data-stu-id="5aa40-107">**CalendarView**</span></span>
+<span data-ttu-id="ff918-107">**CalendarView**</span><span class="sxs-lookup"><span data-stu-id="ff918-107">**CalendarView**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="5aa40-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="5aa40-108">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ff918-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="ff918-108">Attributes and elements</span></span>
 
-<span data-ttu-id="5aa40-109">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="5aa40-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ff918-109">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="ff918-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5aa40-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="5aa40-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ff918-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="ff918-110">Attributes</span></span>
 
-|<span data-ttu-id="5aa40-111">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="5aa40-111">**Attribute**</span></span>|<span data-ttu-id="5aa40-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5aa40-112">**Description**</span></span>|
+|<span data-ttu-id="ff918-111">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="ff918-111">**Attribute**</span></span>|<span data-ttu-id="ff918-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ff918-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="5aa40-113">**MaxEntriesReturned**</span><span class="sxs-lookup"><span data-stu-id="5aa40-113">**MaxEntriesReturned**</span></span> <br/> |<span data-ttu-id="5aa40-114">Описывает максимальное число результатов, возвращаемых в ответе FindItem.</span><span class="sxs-lookup"><span data-stu-id="5aa40-114">Describes the maximum number of results to return in the FindItem response.</span></span>  <br/> |
-|<span data-ttu-id="5aa40-115">**Дата начала**</span><span class="sxs-lookup"><span data-stu-id="5aa40-115">**StartDate**</span></span> <br/> |<span data-ttu-id="5aa40-116">Идентифицирует Пуск промежуток времени, запрос для элементов календаря.</span><span class="sxs-lookup"><span data-stu-id="5aa40-116">Identifies the start of a time span queried for calendar items.</span></span> <span data-ttu-id="5aa40-117">Все элементы календаря, время окончания перед **StartDate** не будут получены.</span><span class="sxs-lookup"><span data-stu-id="5aa40-117">All calendar items that have an end time that is before **StartDate** will not be returned.</span></span> <span data-ttu-id="5aa40-118">Значение **StartDate** можно указать в формате по Гринвичу (UTC), как и в 2006-01-02T12:00:00Z, или в виде, когда указан смещение местного времени и часового пояса, как и в 2006-01-02T04:00:00-08:00.</span><span class="sxs-lookup"><span data-stu-id="5aa40-118">The value of **StartDate** can be specified in coordinated universal time (UTC) format, as in 2006-01-02T12:00:00Z, or in a format where local time and time zone offset is specified, as in 2006-01-02T04:00:00-08:00.</span></span>  <br/><br/><span data-ttu-id="5aa40-119">Этот атрибут является обязательным.</span><span class="sxs-lookup"><span data-stu-id="5aa40-119">This attribute is required.</span></span>  <br/> |
-|<span data-ttu-id="5aa40-120">**Дата окончания**</span><span class="sxs-lookup"><span data-stu-id="5aa40-120">**EndDate**</span></span> <br/> |<span data-ttu-id="5aa40-121">Определяет конец промежуток времени, запрос для элементов календаря.</span><span class="sxs-lookup"><span data-stu-id="5aa40-121">Identifies the end of a time span queried for calendar items.</span></span> <span data-ttu-id="5aa40-122">Не будут возвращены все элементы календаря, имеющие время начала, не ранее **EndDate** .</span><span class="sxs-lookup"><span data-stu-id="5aa40-122">All calendar items that have a start time that is on or after **EndDate** will not be returned.</span></span> <span data-ttu-id="5aa40-123">Значение **EndDate** можно указать в формате UTC, что и 2006-02-02T12:00:00Z, или в виде, когда указан смещение местного времени и часового пояса, как и в 2006-02-02T04:00:00-08:00.</span><span class="sxs-lookup"><span data-stu-id="5aa40-123">The value of **EndDate** can be specified in UTC format, as in 2006-02-02T12:00:00Z, or in a format where local time and time zone offset is specified, as in 2006-02-02T04:00:00-08:00.</span></span>  <br/><br/><span data-ttu-id="5aa40-124">**EndDate** должно быть больше или равно **StartDate**; в противном случае возвращается ошибка.</span><span class="sxs-lookup"><span data-stu-id="5aa40-124">**EndDate** must be greater than or equal to **StartDate**; otherwise an error is returned.</span></span> <span data-ttu-id="5aa40-125">Этот атрибут является обязательным.</span><span class="sxs-lookup"><span data-stu-id="5aa40-125">This attribute is required.</span></span>  <br/> |
+|<span data-ttu-id="ff918-113">**максентриесретурнед**</span><span class="sxs-lookup"><span data-stu-id="ff918-113">**MaxEntriesReturned**</span></span> <br/> |<span data-ttu-id="ff918-114">Описывает максимальное число результатов, возвращаемых в ответе FindItem.</span><span class="sxs-lookup"><span data-stu-id="ff918-114">Describes the maximum number of results to return in the FindItem response.</span></span>  <br/> |
+|<span data-ttu-id="ff918-115">**StartDate**</span><span class="sxs-lookup"><span data-stu-id="ff918-115">**StartDate**</span></span> <br/> |<span data-ttu-id="ff918-116">Указывает начало интервала времени, запрашиваемого для элементов календаря.</span><span class="sxs-lookup"><span data-stu-id="ff918-116">Identifies the start of a time span queried for calendar items.</span></span> <span data-ttu-id="ff918-117">Все элементы календаря с временем окончания, предшествующим **StartDate** , не будут возвращены.</span><span class="sxs-lookup"><span data-stu-id="ff918-117">All calendar items that have an end time that is before **StartDate** will not be returned.</span></span> <span data-ttu-id="ff918-118">Значение **StartDate** может указываться в формате UTC, как в 2006 – 01-02T12:00:00Z или в формате, где указано местное время и смещение часового пояса, как в 2006 – 01-02T04:00:00-08:00.</span><span class="sxs-lookup"><span data-stu-id="ff918-118">The value of **StartDate** can be specified in coordinated universal time (UTC) format, as in 2006-01-02T12:00:00Z, or in a format where local time and time zone offset is specified, as in 2006-01-02T04:00:00-08:00.</span></span>  <br/><br/><span data-ttu-id="ff918-119">Этот атрибут является обязательным.</span><span class="sxs-lookup"><span data-stu-id="ff918-119">This attribute is required.</span></span>  <br/> |
+|<span data-ttu-id="ff918-120">**EndDate**</span><span class="sxs-lookup"><span data-stu-id="ff918-120">**EndDate**</span></span> <br/> |<span data-ttu-id="ff918-121">Определяет конец интервала времени, запрашиваемого для элементов календаря.</span><span class="sxs-lookup"><span data-stu-id="ff918-121">Identifies the end of a time span queried for calendar items.</span></span> <span data-ttu-id="ff918-122">Все элементы календаря, время начала которых находится в начале или после **даты окончания** , не будут возвращены.</span><span class="sxs-lookup"><span data-stu-id="ff918-122">All calendar items that have a start time that is on or after **EndDate** will not be returned.</span></span> <span data-ttu-id="ff918-123">Значение параметра **EndDate** можно указать в формате UTC, как в 2006-02-02T12:00:00Z, или в формате, где указаны местное время и смещение часового пояса, например, в 2006-02-02T04:00:00-08:00.</span><span class="sxs-lookup"><span data-stu-id="ff918-123">The value of **EndDate** can be specified in UTC format, as in 2006-02-02T12:00:00Z, or in a format where local time and time zone offset is specified, as in 2006-02-02T04:00:00-08:00.</span></span>  <br/><br/><span data-ttu-id="ff918-124">Значение **EndDate** должно быть больше или равно значению **StartDate**; в противном случае возвращается ошибка.</span><span class="sxs-lookup"><span data-stu-id="ff918-124">**EndDate** must be greater than or equal to **StartDate**; otherwise an error is returned.</span></span> <span data-ttu-id="ff918-125">Этот атрибут является обязательным.</span><span class="sxs-lookup"><span data-stu-id="ff918-125">This attribute is required.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="5aa40-126">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="5aa40-126">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ff918-126">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="ff918-126">Child elements</span></span>
 
-<span data-ttu-id="5aa40-127">Нет.</span><span class="sxs-lookup"><span data-stu-id="5aa40-127">None.</span></span>
+<span data-ttu-id="ff918-127">Нет.</span><span class="sxs-lookup"><span data-stu-id="ff918-127">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="5aa40-128">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="5aa40-128">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ff918-128">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="ff918-128">Parent elements</span></span>
 
-|<span data-ttu-id="5aa40-129">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5aa40-129">**Element**</span></span>|<span data-ttu-id="5aa40-130">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5aa40-130">**Description**</span></span>|
+|<span data-ttu-id="ff918-129">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="ff918-129">**Element**</span></span>|<span data-ttu-id="ff918-130">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ff918-130">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5aa40-131">FindItem</span><span class="sxs-lookup"><span data-stu-id="5aa40-131">FindItem</span></span>](finditem.md) <br/> |<span data-ttu-id="5aa40-132">Определяет запрос для поиска элементов в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="5aa40-132">Defines a request to find items in a mailbox.</span></span><br/><br/> <span data-ttu-id="5aa40-133">Ниже приведен выражение XPath для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="5aa40-133">The following is the XPath expression to this element:</span></span>  <br/>  `/FindItem` <br/> |
+|[<span data-ttu-id="ff918-131">FindItem</span><span class="sxs-lookup"><span data-stu-id="ff918-131">FindItem</span></span>](finditem.md) <br/> |<span data-ttu-id="ff918-132">Определяет запрос на поиск элементов в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="ff918-132">Defines a request to find items in a mailbox.</span></span><br/><br/> <span data-ttu-id="ff918-133">Ниже приведено выражение XPath для этого элемента:</span><span class="sxs-lookup"><span data-stu-id="ff918-133">The following is the XPath expression to this element:</span></span>  <br/>  `/FindItem` <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5aa40-134">Замечания</span><span class="sxs-lookup"><span data-stu-id="5aa40-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ff918-134">Примечания</span><span class="sxs-lookup"><span data-stu-id="ff918-134">Remarks</span></span>
 
-<span data-ttu-id="5aa40-135">Если в запросе FindItem указан элемент **представления календаря** , веб-службы возвращает список элементов одного календаря и вхождения повторяющихся элементов календаря в диапазон, указанный с **StartDate** и **EndDate**.</span><span class="sxs-lookup"><span data-stu-id="5aa40-135">If the **CalendarView** element is specified in a FindItem request, the Web service returns a list of single calendar items and occurrences of recurring calendar items within the range specified by **StartDate** and **EndDate**.</span></span>
+<span data-ttu-id="ff918-135">Если элемент **CalendarView** указан в запросе FindItem, веб-служба возвращает список одиночных элементов календаря и повторение повторяющихся элементов календаря в диапазоне, заданном в параметрах **StartDate** и **EndDate**.</span><span class="sxs-lookup"><span data-stu-id="ff918-135">If the **CalendarView** element is specified in a FindItem request, the Web service returns a list of single calendar items and occurrences of recurring calendar items within the range specified by **StartDate** and **EndDate**.</span></span>
   
-<span data-ttu-id="5aa40-136">Если элемент **представления календаря** не указан в запросе FindItem, веб-служба возвращает список элементов одного календаря и повторяющихся элементов главного календаря.</span><span class="sxs-lookup"><span data-stu-id="5aa40-136">If the **CalendarView** element is not specified in a FindItem request, the Web service returns a list of single calendar items and recurring master calendar items.</span></span> <span data-ttu-id="5aa40-137">Календарь вхождения повторяющегося элемента календаря не развертываются.</span><span class="sxs-lookup"><span data-stu-id="5aa40-137">Calendar occurrences of a recurring calendar item are not expanded.</span></span> 
+<span data-ttu-id="ff918-136">Если элемент **CalendarView** не указан в запросе FindItem, веб-служба возвращает список одиночных элементов календаря и повторяющихся элементов основного календаря.</span><span class="sxs-lookup"><span data-stu-id="ff918-136">If the **CalendarView** element is not specified in a FindItem request, the Web service returns a list of single calendar items and recurring master calendar items.</span></span> <span data-ttu-id="ff918-137">Экземпляры повторяющегося элемента календаря не разворачиваются.</span><span class="sxs-lookup"><span data-stu-id="ff918-137">Calendar occurrences of a recurring calendar item are not expanded.</span></span> 
   
-<span data-ttu-id="5aa40-138">Запросы представления календаря следует выполнять только используйте следующие свойства, поскольку они поддерживают более быстрых запросов календаря.</span><span class="sxs-lookup"><span data-stu-id="5aa40-138">CalendarView queries should only make use of the following properties since they support faster calendar queries.</span></span>
+<span data-ttu-id="ff918-138">В запросах CalendarView следует использовать только следующие свойства, так как они поддерживают более быстрые запросы в календаре.</span><span class="sxs-lookup"><span data-stu-id="ff918-138">CalendarView queries should only make use of the following properties since they support faster calendar queries.</span></span>
   
-### <a name="recurrence-blob-properties"></a><span data-ttu-id="5aa40-139">Свойства повторения больших двоичных объектов</span><span class="sxs-lookup"><span data-stu-id="5aa40-139">Recurrence blob properties</span></span>
+### <a name="recurrence-blob-properties"></a><span data-ttu-id="ff918-139">Свойства больших двоичных объектов повторения</span><span class="sxs-lookup"><span data-stu-id="ff918-139">Recurrence blob properties</span></span>
   
-- <span data-ttu-id="5aa40-140">MapiStartTime</span><span class="sxs-lookup"><span data-stu-id="5aa40-140">MapiStartTime</span></span>
+- <span data-ttu-id="ff918-140">мапистарттиме</span><span class="sxs-lookup"><span data-stu-id="ff918-140">MapiStartTime</span></span>
     
-- <span data-ttu-id="5aa40-141">MapiEndTime</span><span class="sxs-lookup"><span data-stu-id="5aa40-141">MapiEndTime</span></span>
+- <span data-ttu-id="ff918-141">мапиендтиме</span><span class="sxs-lookup"><span data-stu-id="ff918-141">MapiEndTime</span></span>
     
-- <span data-ttu-id="5aa40-142">SubjectPrefixInternal</span><span class="sxs-lookup"><span data-stu-id="5aa40-142">SubjectPrefixInternal</span></span>
+- <span data-ttu-id="ff918-142">субжектпрефиксинтернал</span><span class="sxs-lookup"><span data-stu-id="ff918-142">SubjectPrefixInternal</span></span>
     
-- <span data-ttu-id="5aa40-143">NormalizedSubjectInternal</span><span class="sxs-lookup"><span data-stu-id="5aa40-143">NormalizedSubjectInternal</span></span>
+- <span data-ttu-id="ff918-143">нормализедсубжектинтернал</span><span class="sxs-lookup"><span data-stu-id="ff918-143">NormalizedSubjectInternal</span></span>
     
-- <span data-ttu-id="5aa40-144">MapiSubject</span><span class="sxs-lookup"><span data-stu-id="5aa40-144">MapiSubject</span></span>
+- <span data-ttu-id="ff918-144">маписубжект</span><span class="sxs-lookup"><span data-stu-id="ff918-144">MapiSubject</span></span>
     
-- <span data-ttu-id="5aa40-145">Location</span><span class="sxs-lookup"><span data-stu-id="5aa40-145">Location</span></span>
+- <span data-ttu-id="ff918-145">Расположение</span><span class="sxs-lookup"><span data-stu-id="ff918-145">Location</span></span>
     
-- <span data-ttu-id="5aa40-146">AppointmentColor</span><span class="sxs-lookup"><span data-stu-id="5aa40-146">AppointmentColor</span></span>
+- <span data-ttu-id="ff918-146">аппоинтментколор</span><span class="sxs-lookup"><span data-stu-id="ff918-146">AppointmentColor</span></span>
     
-- <span data-ttu-id="5aa40-147">MapiIsAllDayEvent</span><span class="sxs-lookup"><span data-stu-id="5aa40-147">MapiIsAllDayEvent</span></span>
+- <span data-ttu-id="ff918-147">мапиисаллдайевент</span><span class="sxs-lookup"><span data-stu-id="ff918-147">MapiIsAllDayEvent</span></span>
     
-- <span data-ttu-id="5aa40-148">MapiHasAttachment</span><span class="sxs-lookup"><span data-stu-id="5aa40-148">MapiHasAttachment</span></span>
+- <span data-ttu-id="ff918-148">мапихасаттачмент</span><span class="sxs-lookup"><span data-stu-id="ff918-148">MapiHasAttachment</span></span>
     
-- <span data-ttu-id="5aa40-149">FreeBusyStatus</span><span class="sxs-lookup"><span data-stu-id="5aa40-149">FreeBusyStatus</span></span>
+- <span data-ttu-id="ff918-149">фрибусистатус</span><span class="sxs-lookup"><span data-stu-id="ff918-149">FreeBusyStatus</span></span>
     
-- <span data-ttu-id="5aa40-150">ReminderIsSetInternal</span><span class="sxs-lookup"><span data-stu-id="5aa40-150">ReminderIsSetInternal</span></span>
+- <span data-ttu-id="ff918-150">реминдериссетинтернал</span><span class="sxs-lookup"><span data-stu-id="ff918-150">ReminderIsSetInternal</span></span>
     
-- <span data-ttu-id="5aa40-151">ReminderMinutesBeforeStartInternal</span><span class="sxs-lookup"><span data-stu-id="5aa40-151">ReminderMinutesBeforeStartInternal</span></span>
+- <span data-ttu-id="ff918-151">реминдерминутесбефорестартинтернал</span><span class="sxs-lookup"><span data-stu-id="ff918-151">ReminderMinutesBeforeStartInternal</span></span>
     
-- <span data-ttu-id="5aa40-152">AppointmentState</span><span class="sxs-lookup"><span data-stu-id="5aa40-152">AppointmentState</span></span>
+- <span data-ttu-id="ff918-152">аппоинтментстате</span><span class="sxs-lookup"><span data-stu-id="ff918-152">AppointmentState</span></span>
     
-- <span data-ttu-id="5aa40-153">AllAttachmentsHidden</span><span class="sxs-lookup"><span data-stu-id="5aa40-153">AllAttachmentsHidden</span></span>
+- <span data-ttu-id="ff918-153">AllAttachmentsHidden</span><span class="sxs-lookup"><span data-stu-id="ff918-153">AllAttachmentsHidden</span></span>
     
-- <span data-ttu-id="5aa40-154">ChangeHighlight</span><span class="sxs-lookup"><span data-stu-id="5aa40-154">ChangeHighlight</span></span>
+- <span data-ttu-id="ff918-154">чанжехигхлигхт</span><span class="sxs-lookup"><span data-stu-id="ff918-154">ChangeHighlight</span></span>
     
-### <a name="calculated-from-the-primary-recurrence-blob-or-master"></a><span data-ttu-id="5aa40-155">Вычисляется из основного повторения больших двоичных объектов или образец</span><span class="sxs-lookup"><span data-stu-id="5aa40-155">Calculated from the primary recurrence blob or master</span></span>
+### <a name="calculated-from-the-primary-recurrence-blob-or-master"></a><span data-ttu-id="ff918-155">Рассчитывается на основе основного объекта BLOB или основного объекта повторения</span><span class="sxs-lookup"><span data-stu-id="ff918-155">Calculated from the primary recurrence blob or master</span></span>
   
-- <span data-ttu-id="5aa40-156">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="5aa40-156">ItemId</span></span>
+- <span data-ttu-id="ff918-156">Идентификатор</span><span class="sxs-lookup"><span data-stu-id="ff918-156">ItemId</span></span>
     
-- <span data-ttu-id="5aa40-157">IsRecurring</span><span class="sxs-lookup"><span data-stu-id="5aa40-157">IsRecurring</span></span>
+- <span data-ttu-id="ff918-157">IsRecurring</span><span class="sxs-lookup"><span data-stu-id="ff918-157">IsRecurring</span></span>
     
-- <span data-ttu-id="5aa40-158">IsException</span><span class="sxs-lookup"><span data-stu-id="5aa40-158">IsException</span></span>
+- <span data-ttu-id="ff918-158">Исключение</span><span class="sxs-lookup"><span data-stu-id="ff918-158">IsException</span></span>
     
-- <span data-ttu-id="5aa40-159">AppointmentRecurring</span><span class="sxs-lookup"><span data-stu-id="5aa40-159">AppointmentRecurring</span></span>
+- <span data-ttu-id="ff918-159">аппоинтментрекурринг</span><span class="sxs-lookup"><span data-stu-id="ff918-159">AppointmentRecurring</span></span>
     
-- <span data-ttu-id="5aa40-160">MapiStartTime</span><span class="sxs-lookup"><span data-stu-id="5aa40-160">MapiStartTime</span></span>
+- <span data-ttu-id="ff918-160">мапистарттиме</span><span class="sxs-lookup"><span data-stu-id="ff918-160">MapiStartTime</span></span>
     
-- <span data-ttu-id="5aa40-161">MapiPRStartDate</span><span class="sxs-lookup"><span data-stu-id="5aa40-161">MapiPRStartDate</span></span>
+- <span data-ttu-id="ff918-161">мапипрстартдате</span><span class="sxs-lookup"><span data-stu-id="ff918-161">MapiPRStartDate</span></span>
     
-- <span data-ttu-id="5aa40-162">MapiEndTime</span><span class="sxs-lookup"><span data-stu-id="5aa40-162">MapiEndTime</span></span>
+- <span data-ttu-id="ff918-162">мапиендтиме</span><span class="sxs-lookup"><span data-stu-id="ff918-162">MapiEndTime</span></span>
     
-- <span data-ttu-id="5aa40-163">MapiPREndDate</span><span class="sxs-lookup"><span data-stu-id="5aa40-163">MapiPREndDate</span></span>
+- <span data-ttu-id="ff918-163">мапипренддате</span><span class="sxs-lookup"><span data-stu-id="ff918-163">MapiPREndDate</span></span>
     
-- <span data-ttu-id="5aa40-164">CalendarItemType</span><span class="sxs-lookup"><span data-stu-id="5aa40-164">CalendarItemType</span></span>
+- <span data-ttu-id="ff918-164">календаритемтипе</span><span class="sxs-lookup"><span data-stu-id="ff918-164">CalendarItemType</span></span>
     
-- <span data-ttu-id="5aa40-165">GlobalObjectId</span><span class="sxs-lookup"><span data-stu-id="5aa40-165">GlobalObjectId</span></span>
+- <span data-ttu-id="ff918-165">глобалобжектид</span><span class="sxs-lookup"><span data-stu-id="ff918-165">GlobalObjectId</span></span>
     
-- <span data-ttu-id="5aa40-166">TimeZoneDefinitionStart</span><span class="sxs-lookup"><span data-stu-id="5aa40-166">TimeZoneDefinitionStart</span></span>
+- <span data-ttu-id="ff918-166">тимезонедефинитионстарт</span><span class="sxs-lookup"><span data-stu-id="ff918-166">TimeZoneDefinitionStart</span></span>
     
-- <span data-ttu-id="5aa40-167">TimeZoneDefinitionEnd</span><span class="sxs-lookup"><span data-stu-id="5aa40-167">TimeZoneDefinitionEnd</span></span>
+- <span data-ttu-id="ff918-167">тимезонедефинитионенд</span><span class="sxs-lookup"><span data-stu-id="ff918-167">TimeZoneDefinitionEnd</span></span>
     
-### <a name="master-calendar-item-properties"></a><span data-ttu-id="5aa40-168">Свойства элемента главного календаря</span><span class="sxs-lookup"><span data-stu-id="5aa40-168">Master calendar item properties</span></span>
+### <a name="master-calendar-item-properties"></a><span data-ttu-id="ff918-168">Свойства элемента главного календаря</span><span class="sxs-lookup"><span data-stu-id="ff918-168">Master calendar item properties</span></span>
   
-- <span data-ttu-id="5aa40-169">Идентификатор записи</span><span class="sxs-lookup"><span data-stu-id="5aa40-169">EntryId</span></span>
+- <span data-ttu-id="ff918-169">Код</span><span class="sxs-lookup"><span data-stu-id="ff918-169">EntryId</span></span>
     
-- <span data-ttu-id="5aa40-170">ChangeKey</span><span class="sxs-lookup"><span data-stu-id="5aa40-170">ChangeKey</span></span>
+- <span data-ttu-id="ff918-170">чанжекэй</span><span class="sxs-lookup"><span data-stu-id="ff918-170">ChangeKey</span></span>
     
-- <span data-ttu-id="5aa40-171">ItemClass</span><span class="sxs-lookup"><span data-stu-id="5aa40-171">ItemClass</span></span>
+- <span data-ttu-id="ff918-171">ItemClass</span><span class="sxs-lookup"><span data-stu-id="ff918-171">ItemClass</span></span>
     
-- <span data-ttu-id="5aa40-172">SentRepresentingEmailAddress</span><span class="sxs-lookup"><span data-stu-id="5aa40-172">SentRepresentingEmailAddress</span></span>
+- <span data-ttu-id="ff918-172">сентрепресентинжемаиладдресс</span><span class="sxs-lookup"><span data-stu-id="ff918-172">SentRepresentingEmailAddress</span></span>
     
-- <span data-ttu-id="5aa40-173">SentRepresentingDisplayName</span><span class="sxs-lookup"><span data-stu-id="5aa40-173">SentRepresentingDisplayName</span></span>
+- <span data-ttu-id="ff918-173">сентрепресентингдисплайнаме</span><span class="sxs-lookup"><span data-stu-id="ff918-173">SentRepresentingDisplayName</span></span>
     
-- <span data-ttu-id="5aa40-174">SentRepresentingEntryId</span><span class="sxs-lookup"><span data-stu-id="5aa40-174">SentRepresentingEntryId</span></span>
+- <span data-ttu-id="ff918-174">сентрепресентинжентрид</span><span class="sxs-lookup"><span data-stu-id="ff918-174">SentRepresentingEntryId</span></span>
     
-- <span data-ttu-id="5aa40-175">AppointmentRecurrenceBlob</span><span class="sxs-lookup"><span data-stu-id="5aa40-175">AppointmentRecurrenceBlob</span></span>
+- <span data-ttu-id="ff918-175">аппоинтментрекурренцеблоб</span><span class="sxs-lookup"><span data-stu-id="ff918-175">AppointmentRecurrenceBlob</span></span>
     
-- <span data-ttu-id="5aa40-176">TimeZone</span><span class="sxs-lookup"><span data-stu-id="5aa40-176">TimeZone</span></span>
+- <span data-ttu-id="ff918-176">TimeZone</span><span class="sxs-lookup"><span data-stu-id="ff918-176">TimeZone</span></span>
     
-- <span data-ttu-id="5aa40-177">TimeZoneBlob</span><span class="sxs-lookup"><span data-stu-id="5aa40-177">TimeZoneBlob</span></span>
+- <span data-ttu-id="ff918-177">тимезонеблоб</span><span class="sxs-lookup"><span data-stu-id="ff918-177">TimeZoneBlob</span></span>
     
-- <span data-ttu-id="5aa40-178">TimeZoneDefinitionRecurring</span><span class="sxs-lookup"><span data-stu-id="5aa40-178">TimeZoneDefinitionRecurring</span></span>
+- <span data-ttu-id="ff918-178">тимезонедефинитионрекурринг</span><span class="sxs-lookup"><span data-stu-id="ff918-178">TimeZoneDefinitionRecurring</span></span>
     
-- <span data-ttu-id="5aa40-179">CleanGlobalObjectId</span><span class="sxs-lookup"><span data-stu-id="5aa40-179">CleanGlobalObjectId</span></span>
+- <span data-ttu-id="ff918-179">клеанглобалобжектид</span><span class="sxs-lookup"><span data-stu-id="ff918-179">CleanGlobalObjectId</span></span>
     
-- <span data-ttu-id="5aa40-180">AppointmentRecurring</span><span class="sxs-lookup"><span data-stu-id="5aa40-180">AppointmentRecurring</span></span>
+- <span data-ttu-id="ff918-180">аппоинтментрекурринг</span><span class="sxs-lookup"><span data-stu-id="ff918-180">AppointmentRecurring</span></span>
     
-- <span data-ttu-id="5aa40-181">IsException</span><span class="sxs-lookup"><span data-stu-id="5aa40-181">IsException</span></span>
+- <span data-ttu-id="ff918-181">Исключение</span><span class="sxs-lookup"><span data-stu-id="ff918-181">IsException</span></span>
     
-- <span data-ttu-id="5aa40-182">IsRecurring</span><span class="sxs-lookup"><span data-stu-id="5aa40-182">IsRecurring</span></span>
+- <span data-ttu-id="ff918-182">IsRecurring</span><span class="sxs-lookup"><span data-stu-id="ff918-182">IsRecurring</span></span>
     
-- <span data-ttu-id="5aa40-183">MapiSensitivity</span><span class="sxs-lookup"><span data-stu-id="5aa40-183">MapiSensitivity</span></span>
+- <span data-ttu-id="ff918-183">маписенситивити</span><span class="sxs-lookup"><span data-stu-id="ff918-183">MapiSensitivity</span></span>
     
-- <span data-ttu-id="5aa40-184">ContainerClass</span><span class="sxs-lookup"><span data-stu-id="5aa40-184">ContainerClass</span></span>
+- <span data-ttu-id="ff918-184">контаинеркласс</span><span class="sxs-lookup"><span data-stu-id="ff918-184">ContainerClass</span></span>
     
-- <span data-ttu-id="5aa40-185">MapiPRStartDate</span><span class="sxs-lookup"><span data-stu-id="5aa40-185">MapiPRStartDate</span></span>
+- <span data-ttu-id="ff918-185">мапипрстартдате</span><span class="sxs-lookup"><span data-stu-id="ff918-185">MapiPRStartDate</span></span>
     
-- <span data-ttu-id="5aa40-186">MapiPREndDate</span><span class="sxs-lookup"><span data-stu-id="5aa40-186">MapiPREndDate</span></span>
+- <span data-ttu-id="ff918-186">мапипренддате</span><span class="sxs-lookup"><span data-stu-id="ff918-186">MapiPREndDate</span></span>
     
-- <span data-ttu-id="5aa40-187">Categories</span><span class="sxs-lookup"><span data-stu-id="5aa40-187">Categories</span></span>
+- <span data-ttu-id="ff918-187">Категории</span><span class="sxs-lookup"><span data-stu-id="ff918-187">Categories</span></span>
     
-<span data-ttu-id="5aa40-188">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="5aa40-188">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="ff918-188">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="ff918-188">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="example"></a><span data-ttu-id="5aa40-189">Пример</span><span class="sxs-lookup"><span data-stu-id="5aa40-189">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ff918-189">Пример</span><span class="sxs-lookup"><span data-stu-id="ff918-189">Example</span></span>
 
-<span data-ttu-id="5aa40-190">В следующем примере показано FindItem запроса.</span><span class="sxs-lookup"><span data-stu-id="5aa40-190">The following example shows a FindItem request.</span></span> <span data-ttu-id="5aa40-191">Успешный запрос возвращает ответ, который включает в себя элементы календаря, запускаемых на 2006-05-18T00:00:00-08:00 или после, так и завершенного перед 2006-05-19T00:00:00-08:00.</span><span class="sxs-lookup"><span data-stu-id="5aa40-191">A successful request returns a response that includes calendar items that started at 2006-05-18T00:00:00-08:00 or after and ended before 2006-05-19T00:00:00-08:00.</span></span>
+<span data-ttu-id="ff918-190">В приведенном ниже примере показан запрос FindItem.</span><span class="sxs-lookup"><span data-stu-id="ff918-190">The following example shows a FindItem request.</span></span> <span data-ttu-id="ff918-191">Успешный запрос возвращает ответ, включающий элементы календаря, запущенные в 2006 г. 05 – 18T00:00:00 – 08:00 или позже и заканчиваются до 2006 г. 05 – 19T00:00:00:00.</span><span class="sxs-lookup"><span data-stu-id="ff918-191">A successful request returns a response that includes calendar items that started at 2006-05-18T00:00:00-08:00 or after and ended before 2006-05-19T00:00:00-08:00.</span></span>
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -192,17 +192,17 @@ ms.locfileid: "19761659"
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a><span data-ttu-id="5aa40-192">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="5aa40-192">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ff918-192">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="ff918-192">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5aa40-193">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="5aa40-193">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="5aa40-194">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="5aa40-194">Schema Name</span></span>  <br/> |<span data-ttu-id="5aa40-195">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="5aa40-195">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="5aa40-196">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="5aa40-196">Validation File</span></span>  <br/> |<span data-ttu-id="5aa40-197">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="5aa40-197">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="5aa40-198">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="5aa40-198">Can be Empty</span></span>  <br/> |<span data-ttu-id="5aa40-199">False</span><span class="sxs-lookup"><span data-stu-id="5aa40-199">False</span></span>  <br/> |
+|<span data-ttu-id="ff918-193">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="ff918-193">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="ff918-194">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="ff918-194">Schema Name</span></span>  <br/> |<span data-ttu-id="ff918-195">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="ff918-195">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="ff918-196">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="ff918-196">Validation File</span></span>  <br/> |<span data-ttu-id="ff918-197">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="ff918-197">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="ff918-198">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="ff918-198">Can be Empty</span></span>  <br/> |<span data-ttu-id="ff918-199">False</span><span class="sxs-lookup"><span data-stu-id="ff918-199">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="5aa40-200">См. также</span><span class="sxs-lookup"><span data-stu-id="5aa40-200">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ff918-200">См. также</span><span class="sxs-lookup"><span data-stu-id="ff918-200">See also</span></span>
 
-- [<span data-ttu-id="5aa40-201">FindItem Operation</span><span class="sxs-lookup"><span data-stu-id="5aa40-201">FindItem operation</span></span>](finditem-operation.md)
-- [<span data-ttu-id="5aa40-202">Поиск элементов</span><span class="sxs-lookup"><span data-stu-id="5aa40-202">Finding Items</span></span>](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [<span data-ttu-id="ff918-201">Операция FindItem</span><span class="sxs-lookup"><span data-stu-id="ff918-201">FindItem operation</span></span>](finditem-operation.md)
+- [<span data-ttu-id="ff918-202">Поиск элементов</span><span class="sxs-lookup"><span data-stu-id="ff918-202">Finding Items</span></span>](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

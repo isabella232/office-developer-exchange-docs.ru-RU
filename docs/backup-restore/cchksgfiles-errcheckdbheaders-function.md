@@ -1,5 +1,5 @@
 ---
-title: Функция CChkSGFiles.ErrCheckDbHeaders
+title: Функция функция cchksgfiles. Еррчеккдбхеадерс
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 75289cd2-35b1-4f75-a651-dce01f1ddda1
-description: 'Последнее изменение: 22 февраля 2013 г.'
+description: 'Дата последнего изменения: 22 февраля 2013 г.'
 ms.openlocfilehash: a407019063b34970e883a00ca4f4d730935d7cba
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760926"
 ---
-# <a name="cchksgfileserrcheckdbheaders-function"></a><span data-ttu-id="c5e2a-103">Функция CChkSGFiles.ErrCheckDbHeaders</span><span class="sxs-lookup"><span data-stu-id="c5e2a-103">CChkSGFiles.ErrCheckDbHeaders function</span></span>
+# <a name="cchksgfileserrcheckdbheaders-function"></a><span data-ttu-id="f27ea-103">Функция функция cchksgfiles. Еррчеккдбхеадерс</span><span class="sxs-lookup"><span data-stu-id="f27ea-103">CChkSGFiles.ErrCheckDbHeaders function</span></span>
 
-<span data-ttu-id="c5e2a-104">**Применимо к:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5e2a-104">**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span></span> 
+<span data-ttu-id="f27ea-104">**Применимо к:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="f27ea-104">**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span></span> 
   
-<span data-ttu-id="c5e2a-105">Проверяет заголовки файлов базы данных, которые были указаны с помощью функции **ErrInit** .</span><span class="sxs-lookup"><span data-stu-id="c5e2a-105">Validates the headers of the database files that were specified by the **ErrInit** function.</span></span> <span data-ttu-id="c5e2a-106">Эта функция также возвращает размер страницы и число страниц в каждой указанной базы данных.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-106">This function also returns the page size and number of pages in each of the specified databases.</span></span> 
+<span data-ttu-id="f27ea-105">Проверяет заголовки файлов базы данных, которые были указаны функцией **ерринит** .</span><span class="sxs-lookup"><span data-stu-id="f27ea-105">Validates the headers of the database files that were specified by the **ErrInit** function.</span></span> <span data-ttu-id="f27ea-106">Эта функция также возвращает размер страницы и количество страниц в каждой из указанных баз данных.</span><span class="sxs-lookup"><span data-stu-id="f27ea-106">This function also returns the page size and number of pages in each of the specified databases.</span></span> 
   
 ```cs
 Vitual ERRErrCheckDbHeaders  
@@ -36,44 +36,44 @@ Vitual ERRErrCheckDbHeaders
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c5e2a-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="c5e2a-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f27ea-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="f27ea-107">Parameters</span></span>
 
-### <a name="pcbdbpagesize"></a><span data-ttu-id="c5e2a-108">pcbDbPageSize</span><span class="sxs-lookup"><span data-stu-id="c5e2a-108">pcbDbPageSize</span></span> 
+### <a name="pcbdbpagesize"></a><span data-ttu-id="f27ea-108">пкбдбпажесизе</span><span class="sxs-lookup"><span data-stu-id="f27ea-108">pcbDbPageSize</span></span> 
   
-<span data-ttu-id="c5e2a-109">Выходной параметр.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-109">Output parameter.</span></span> <span data-ttu-id="c5e2a-110">Размер страницы каждой указанной базы данных, в байтах.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-110">The page size of each of the specified databases, in bytes.</span></span>
+<span data-ttu-id="f27ea-109">Выходной параметр.</span><span class="sxs-lookup"><span data-stu-id="f27ea-109">Output parameter.</span></span> <span data-ttu-id="f27ea-110">Размер страницы каждой из указанных баз данных в байтах.</span><span class="sxs-lookup"><span data-stu-id="f27ea-110">The page size of each of the specified databases, in bytes.</span></span>
     
-### <a name="pcheaderpagesperdb"></a><span data-ttu-id="c5e2a-111">pcHeaderPagesPerDb</span><span class="sxs-lookup"><span data-stu-id="c5e2a-111">pcHeaderPagesPerDb</span></span> 
+### <a name="pcheaderpagesperdb"></a><span data-ttu-id="f27ea-111">пчеадерпажеспердб</span><span class="sxs-lookup"><span data-stu-id="f27ea-111">pcHeaderPagesPerDb</span></span> 
   
-<span data-ttu-id="c5e2a-112">Выходной параметр.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-112">Output parameter.</span></span> <span data-ttu-id="c5e2a-113">Число страниц в начале каждой указанной базы данных, зарезервированные ядро базы данных для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-113">The number of pages at the beginning of each specified database that are reserved by the database engine for internal use.</span></span> <span data-ttu-id="c5e2a-114">Обратите внимание, что вы должны *прохода страницы заголовка в функцию **ErrCheckDbPages** для проверки* .</span><span class="sxs-lookup"><span data-stu-id="c5e2a-114">Note that you should *not* pass header pages to the **ErrCheckDbPages** function for validation.</span></span> 
+<span data-ttu-id="f27ea-112">Выходной параметр.</span><span class="sxs-lookup"><span data-stu-id="f27ea-112">Output parameter.</span></span> <span data-ttu-id="f27ea-113">Количество страниц в начале каждой заданной базы данных, зарезервированных ядром СУБД для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="f27ea-113">The number of pages at the beginning of each specified database that are reserved by the database engine for internal use.</span></span> <span data-ttu-id="f27ea-114">Обратите внимание, что *не* следует передавать страницы заголовков в функцию **еррчеккдбпажес** для проверки.</span><span class="sxs-lookup"><span data-stu-id="f27ea-114">Note that you should *not* pass header pages to the **ErrCheckDbPages** function for validation.</span></span> 
     
-### <a name="pidberrorencountered"></a><span data-ttu-id="c5e2a-115">piDbErrorEncountered</span><span class="sxs-lookup"><span data-stu-id="c5e2a-115">piDbErrorEncountered</span></span>
+### <a name="pidberrorencountered"></a><span data-ttu-id="f27ea-115">пидберроренкаунтеред</span><span class="sxs-lookup"><span data-stu-id="f27ea-115">piDbErrorEncountered</span></span>
   
-<span data-ttu-id="c5e2a-116">Выходной параметр.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-116">Output parameter.</span></span> <span data-ttu-id="c5e2a-117">Если возвращаемое значение функции, указывающий на ошибки, данный параметр будет индекса в массив **rgwszDb []** , переданное в функцию **ErrInit** .</span><span class="sxs-lookup"><span data-stu-id="c5e2a-117">If the return value of the function indicates an error, this parameter will be an index into the **rgwszDb[]** array passed to the **ErrInit** function.</span></span> <span data-ttu-id="c5e2a-118">Индексированный элемент массива представляет базу данных, в котором возникла ошибка.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-118">The indexed array element represents the database in which the error was encountered.</span></span> <span data-ttu-id="c5e2a-119">Если функция не возвращает ошибку, значение этого параметра является недопустимым.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-119">If the function does not return an error value, this parameter value is invalid.</span></span> 
+<span data-ttu-id="f27ea-116">Выходной параметр.</span><span class="sxs-lookup"><span data-stu-id="f27ea-116">Output parameter.</span></span> <span data-ttu-id="f27ea-117">Если возвращаемое значение функции указывает на ошибку, этот параметр будет индексом в массиве **ргвсздб []** , переданном функции **ерринит** .</span><span class="sxs-lookup"><span data-stu-id="f27ea-117">If the return value of the function indicates an error, this parameter will be an index into the **rgwszDb[]** array passed to the **ErrInit** function.</span></span> <span data-ttu-id="f27ea-118">Элемент индексированного массива представляет базу данных, в которой произошла ошибка.</span><span class="sxs-lookup"><span data-stu-id="f27ea-118">The indexed array element represents the database in which the error was encountered.</span></span> <span data-ttu-id="f27ea-119">Если функция не возвращает значение ошибки, значение этого параметра не является допустимым.</span><span class="sxs-lookup"><span data-stu-id="f27ea-119">If the function does not return an error value, this parameter value is invalid.</span></span> 
     
-### <a name="ulflags"></a><span data-ttu-id="c5e2a-120">ulFlags</span><span class="sxs-lookup"><span data-stu-id="c5e2a-120">ulFlags</span></span> 
+### <a name="ulflags"></a><span data-ttu-id="f27ea-120">ulFlags</span><span class="sxs-lookup"><span data-stu-id="f27ea-120">ulFlags</span></span> 
   
-<span data-ttu-id="c5e2a-121">Необязательный параметр ввода.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-121">Optional input parameter.</span></span> <span data-ttu-id="c5e2a-122">Это значение зарезервировано для будущего использования.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-122">This value is reserved for future use.</span></span> <span data-ttu-id="c5e2a-123">Значение, переданное должны быть нуль (0).</span><span class="sxs-lookup"><span data-stu-id="c5e2a-123">The value passed should be 0 (zero).</span></span>
+<span data-ttu-id="f27ea-121">Необязательный входной параметр.</span><span class="sxs-lookup"><span data-stu-id="f27ea-121">Optional input parameter.</span></span> <span data-ttu-id="f27ea-122">Это значение зарезервировано для использования в будущем.</span><span class="sxs-lookup"><span data-stu-id="f27ea-122">This value is reserved for future use.</span></span> <span data-ttu-id="f27ea-123">Передаваемое значение должно быть равно 0 (нулю).</span><span class="sxs-lookup"><span data-stu-id="f27ea-123">The value passed should be 0 (zero).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c5e2a-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c5e2a-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f27ea-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="f27ea-124">Return value</span></span>
 
-<span data-ttu-id="c5e2a-125">Эта функция возвращает код ошибки из [перечисления CChkSGFiles.ERR](cchksgfiles-err-enumeration.md).</span><span class="sxs-lookup"><span data-stu-id="c5e2a-125">This function returns an error code from the [CChkSGFiles.ERR enumeration](cchksgfiles-err-enumeration.md).</span></span>
+<span data-ttu-id="f27ea-125">Эта функция возвращает код ошибки из [перечисления функция cchksgfiles. ERR](cchksgfiles-err-enumeration.md).</span><span class="sxs-lookup"><span data-stu-id="f27ea-125">This function returns an error code from the [CChkSGFiles.ERR enumeration](cchksgfiles-err-enumeration.md).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c5e2a-126">Замечания</span><span class="sxs-lookup"><span data-stu-id="c5e2a-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f27ea-126">Примечания</span><span class="sxs-lookup"><span data-stu-id="f27ea-126">Remarks</span></span>
 
-<span data-ttu-id="c5e2a-127">**ErrCheckDbHeaders** проверяет, что все базы данных, зарегистрированные с **ErrInit** же журнала подписи и база данных размер страницы.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-127">**ErrCheckDbHeaders** verifies that all databases registered with **ErrInit** have the same log signature and database page size.</span></span> <span data-ttu-id="c5e2a-128">Минимальное значение параметра **genMin** и наибольшее значение параметра **genMax** также можно использовать для определения набора файлов журнала, которые необходимо установить все зарегистрированные базы данных в состояние чистого отключения.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-128">You can also use the lowest **genMin** parameter value and the highest **genMax** parameter value to determine the set of log files that are necessary to bring all of the registered databases to a clean-shutdown state.</span></span> 
+<span data-ttu-id="f27ea-127">**Еррчеккдбхеадерс** проверяет, что все базы данных, зарегистрированные в **ерринит** , имеют одинаковую подпись журнала и размер страницы базы данных.</span><span class="sxs-lookup"><span data-stu-id="f27ea-127">**ErrCheckDbHeaders** verifies that all databases registered with **ErrInit** have the same log signature and database page size.</span></span> <span data-ttu-id="f27ea-128">Кроме того, можно использовать самое низкое значение параметра **женмин** и максимальное значение параметра **женмакс** , чтобы определить набор файлов журнала, необходимых для переноса всех зарегистрированных баз данных в состояние чистого отключения.</span><span class="sxs-lookup"><span data-stu-id="f27ea-128">You can also use the lowest **genMin** parameter value and the highest **genMax** parameter value to determine the set of log files that are necessary to bring all of the registered databases to a clean-shutdown state.</span></span> 
   
-<span data-ttu-id="c5e2a-129">Параметр **piDbErrorEncountered** имеет значение только в том случае, если обнаружена ошибка, как указано в отличное от нуля **ErrCheckDbHeaders** возвращаемое значение.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-129">The **piDbErrorEncountered** parameter is set only when an error is detected, as indicated by a non-zero **ErrCheckDbHeaders** return value.</span></span> 
+<span data-ttu-id="f27ea-129">Параметр **пидберроренкаунтеред** задается только при обнаружении ошибки, что определяется ненулевым возвращаемым значением **еррчеккдбхеадерс** .</span><span class="sxs-lookup"><span data-stu-id="f27ea-129">The **piDbErrorEncountered** parameter is set only when an error is detected, as indicated by a non-zero **ErrCheckDbHeaders** return value.</span></span> 
   
-<span data-ttu-id="c5e2a-130">При возникновении ошибки в этой функции, событие ошибки будут добавлены в журнал событий Windows ошибки.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-130">When an error occurs in this function, an error event will be added to the Windows Error event log.</span></span>
+<span data-ttu-id="f27ea-130">При возникновении ошибки в этой функции в журнал событий ошибок Windows добавляется событие Error.</span><span class="sxs-lookup"><span data-stu-id="f27ea-130">When an error occurs in this function, an error event will be added to the Windows Error event log.</span></span>
   
-<span data-ttu-id="c5e2a-131">Можно вызвать **ErrCheckDbHeaders** только после вызова **ErrInit**и его необходимо вызвать до вызова метода **ErrCheckDbPages** и **ErrCheckLogs**.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-131">You can call **ErrCheckDbHeaders** only after calling **ErrInit**, and you must call it before calling **ErrCheckDbPages** and **ErrCheckLogs**.</span></span>
+<span data-ttu-id="f27ea-131">Вы можете вызвать **еррчеккдбхеадерс** только после вызова **ерринит**, и его необходимо вызвать перед вызовом **еррчеккдбпажес** и **еррчекклогс**.</span><span class="sxs-lookup"><span data-stu-id="f27ea-131">You can call **ErrCheckDbHeaders** only after calling **ErrInit**, and you must call it before calling **ErrCheckDbPages** and **ErrCheckLogs**.</span></span>
   
-<span data-ttu-id="c5e2a-132">Если вы используете многопоточного приложения CHKSGFILES, необходимо вызвать функцию **ErrCheckDbHeaders** в части одного потока, и его можно вызвать только один раз для каждого объекта **CCheckSGFiles** .</span><span class="sxs-lookup"><span data-stu-id="c5e2a-132">If you're using CHKSGFILES in a multithreaded application, you must call the **ErrCheckDbHeaders** function in the single-threaded portion, and you can call it only once for each **CCheckSGFiles** object.</span></span> 
+<span data-ttu-id="f27ea-132">Если вы используете ЧКСГФИЛЕС в многопоточном приложении, вы должны вызвать функцию **еррчеккдбхеадерс** в однопотоковой части, и вы можете вызвать ее только один раз для каждого объекта **кчекксгфилес** .</span><span class="sxs-lookup"><span data-stu-id="f27ea-132">If you're using CHKSGFILES in a multithreaded application, you must call the **ErrCheckDbHeaders** function in the single-threaded portion, and you can call it only once for each **CCheckSGFiles** object.</span></span> 
   
-## <a name="requirements"></a><span data-ttu-id="c5e2a-133">Требования</span><span class="sxs-lookup"><span data-stu-id="c5e2a-133">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f27ea-133">Requirements</span><span class="sxs-lookup"><span data-stu-id="f27ea-133">Requirements</span></span>
 
-<span data-ttu-id="c5e2a-134">Exchange 2013 включает в себя только 64-разрядная версия CHKSGFILES API-интерфейса.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-134">Exchange 2013 only includes a 64-bit version of the CHKSGFILES API.</span></span>
+<span data-ttu-id="f27ea-134">Exchange 2013 включает только 64-разрядную версию API ЧКСГФИЛЕС.</span><span class="sxs-lookup"><span data-stu-id="f27ea-134">Exchange 2013 only includes a 64-bit version of the CHKSGFILES API.</span></span>
   
-<span data-ttu-id="c5e2a-135">Учетная запись, приложения в разделе необходимо иметь разрешения доступ на чтение для файлов базы данных и журналов, которые требуется проверить.</span><span class="sxs-lookup"><span data-stu-id="c5e2a-135">The account that the application is running under must have read access permissions to the database and log files that are to be checked.</span></span>
+<span data-ttu-id="f27ea-135">Учетная запись, под которой выполняется приложение, должна иметь разрешения на чтение для базы данных и файлов журнала, которые необходимо проверить.</span><span class="sxs-lookup"><span data-stu-id="f27ea-135">The account that the application is running under must have read access permissions to the database and log files that are to be checked.</span></span>
   
 

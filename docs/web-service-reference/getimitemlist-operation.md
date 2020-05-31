@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e31d14e1-0c1f-4b69-98b7-157d59c13698
-description: Найдите сведения о веб-служб Exchange GetImItemList операции.
+description: Поиск сведений о GetImItemListной операции EWS.
 ms.openlocfilehash: 3977b0ad31e819cd973ce261ba3152b3840003b3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,30 +15,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762816"
 ---
-# <a name="getimitemlist-operation"></a><span data-ttu-id="45982-103">Операция GetImItemList</span><span class="sxs-lookup"><span data-stu-id="45982-103">GetImItemList operation</span></span>
+# <a name="getimitemlist-operation"></a><span data-ttu-id="930e0-103">Операция GetImItemList</span><span class="sxs-lookup"><span data-stu-id="930e0-103">GetImItemList operation</span></span>
 
-<span data-ttu-id="45982-104">Найдите сведения о **GetImItemList** операции веб-служб Exchange.</span><span class="sxs-lookup"><span data-stu-id="45982-104">Find information about the **GetImItemList** EWS operation.</span></span> 
+<span data-ttu-id="930e0-104">Поиск сведений о **GetImItemListной** операции EWS.</span><span class="sxs-lookup"><span data-stu-id="930e0-104">Find information about the **GetImItemList** EWS operation.</span></span> 
   
-## <a name="using-the-getimitemlist-operation"></a><span data-ttu-id="45982-105">С помощью операции GetImItemList</span><span class="sxs-lookup"><span data-stu-id="45982-105">Using the GetImItemList operation</span></span>
+## <a name="using-the-getimitemlist-operation"></a><span data-ttu-id="930e0-105">Использование операции GetImItemList</span><span class="sxs-lookup"><span data-stu-id="930e0-105">Using the GetImItemList operation</span></span>
 
-<span data-ttu-id="45982-106">Операция **GetImItemList** показано получение списка групп мгновенного обмена мгновенными сообщениями и обмена мгновенными Сообщениями контактные действующие лица в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="45982-106">The **GetImItemList** operation retrieves the list of instant messaging (IM) groups and IM contact personas in a mailbox.</span></span> <span data-ttu-id="45982-107">Операция **GetImItemList** не имеет каких-либо аргументов.</span><span class="sxs-lookup"><span data-stu-id="45982-107">The **GetImItemList** operation does not take any arguments.</span></span> 
+<span data-ttu-id="930e0-106">Операция **GetImItemList** извлекает список групп мгновенных сообщений и пользователей контактов для обмена мгновенными сообщениями в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="930e0-106">The **GetImItemList** operation retrieves the list of instant messaging (IM) groups and IM contact personas in a mailbox.</span></span> <span data-ttu-id="930e0-107">Операция **GetImItemList** не имеет аргументов.</span><span class="sxs-lookup"><span data-stu-id="930e0-107">The **GetImItemList** operation does not take any arguments.</span></span> 
   
-<span data-ttu-id="45982-108">Эта операция появилась в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="45982-108">This operation was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="930e0-108">Эта операция появилась в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="930e0-108">This operation was introduced in Exchange Server 2013.</span></span>
   
-### <a name="getimitemlist-operation-soap-headers"></a><span data-ttu-id="45982-109">Заголовки SOAP GetImItemList операции</span><span class="sxs-lookup"><span data-stu-id="45982-109">GetImItemList operation SOAP headers</span></span>
+### <a name="getimitemlist-operation-soap-headers"></a><span data-ttu-id="930e0-109">Заголовки SOAP операции GetImItemList</span><span class="sxs-lookup"><span data-stu-id="930e0-109">GetImItemList operation SOAP headers</span></span>
 
-<span data-ttu-id="45982-110">Операция **GetImItemList** можно использовать заголовки SOAP, которые перечислены в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="45982-110">The **GetImItemList** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="930e0-110">Операция **GetImItemList** может использовать заголовки SOAP, указанные в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="930e0-110">The **GetImItemList** operation can use the SOAP headers that are listed in the following table.</span></span> 
   
-|<span data-ttu-id="45982-111">**Имя заголовка**</span><span class="sxs-lookup"><span data-stu-id="45982-111">**Header name**</span></span>|<span data-ttu-id="45982-112">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="45982-112">**Element**</span></span>|<span data-ttu-id="45982-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="45982-113">**Description**</span></span>|
+|<span data-ttu-id="930e0-111">**Имя заголовка**</span><span class="sxs-lookup"><span data-stu-id="930e0-111">**Header name**</span></span>|<span data-ttu-id="930e0-112">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="930e0-112">**Element**</span></span>|<span data-ttu-id="930e0-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="930e0-113">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="45982-114">**Олицетворение**</span><span class="sxs-lookup"><span data-stu-id="45982-114">**Impersonation**</span></span> <br/> |[<span data-ttu-id="45982-115">ExchangeImpersonation</span><span class="sxs-lookup"><span data-stu-id="45982-115">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="45982-116">Идентифицирует пользователя, которого олицетворения в клиентском приложении.</span><span class="sxs-lookup"><span data-stu-id="45982-116">Identifies the user whom the client application is impersonating.</span></span> <span data-ttu-id="45982-117">Этот заголовок можно применять к запросу.</span><span class="sxs-lookup"><span data-stu-id="45982-117">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="45982-118">**MailboxCulture**</span><span class="sxs-lookup"><span data-stu-id="45982-118">**MailboxCulture**</span></span> <br/> |[<span data-ttu-id="45982-119">MailboxCulture</span><span class="sxs-lookup"><span data-stu-id="45982-119">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="45982-120">Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику.</span><span class="sxs-lookup"><span data-stu-id="45982-120">Identifies the culture, as defined in RFC 3066, "Tags for the Identification of Languages", to be used to access the mailbox.</span></span> <span data-ttu-id="45982-121">Этот заголовок можно применять к запросу.</span><span class="sxs-lookup"><span data-stu-id="45982-121">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="45982-122">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="45982-122">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="45982-123">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="45982-123">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="45982-124">Определяет версию схемы для операции запроса.</span><span class="sxs-lookup"><span data-stu-id="45982-124">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="45982-125">Этот заголовок можно применять к запросу.</span><span class="sxs-lookup"><span data-stu-id="45982-125">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="45982-126">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="45982-126">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="45982-127">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="45982-127">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="45982-128">Определяет версию сервера, ответившего на запрос.</span><span class="sxs-lookup"><span data-stu-id="45982-128">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="45982-129">Этот заголовок можно применять, чтобы получить ответ.</span><span class="sxs-lookup"><span data-stu-id="45982-129">This header is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="930e0-114">**Олицетворение**</span><span class="sxs-lookup"><span data-stu-id="930e0-114">**Impersonation**</span></span> <br/> |[<span data-ttu-id="930e0-115">ексчанжеимперсонатион</span><span class="sxs-lookup"><span data-stu-id="930e0-115">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="930e0-116">Идентифицирует пользователя, который олицетворяет клиентское приложение.</span><span class="sxs-lookup"><span data-stu-id="930e0-116">Identifies the user whom the client application is impersonating.</span></span> <span data-ttu-id="930e0-117">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="930e0-117">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="930e0-118">**маилбокскултуре**</span><span class="sxs-lookup"><span data-stu-id="930e0-118">**MailboxCulture**</span></span> <br/> |[<span data-ttu-id="930e0-119">маилбокскултуре</span><span class="sxs-lookup"><span data-stu-id="930e0-119">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="930e0-120">Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику.</span><span class="sxs-lookup"><span data-stu-id="930e0-120">Identifies the culture, as defined in RFC 3066, "Tags for the Identification of Languages", to be used to access the mailbox.</span></span> <span data-ttu-id="930e0-121">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="930e0-121">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="930e0-122">**рекуестверсион**</span><span class="sxs-lookup"><span data-stu-id="930e0-122">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="930e0-123">рекуестсерверверсион</span><span class="sxs-lookup"><span data-stu-id="930e0-123">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="930e0-124">Определяет версию схемы для запроса операции.</span><span class="sxs-lookup"><span data-stu-id="930e0-124">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="930e0-125">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="930e0-125">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="930e0-126">**серверверсион**</span><span class="sxs-lookup"><span data-stu-id="930e0-126">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="930e0-127">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="930e0-127">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="930e0-128">Определяет версию сервера, который ответил на запрос.</span><span class="sxs-lookup"><span data-stu-id="930e0-128">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="930e0-129">Этот заголовок является применимым для отклика.</span><span class="sxs-lookup"><span data-stu-id="930e0-129">This header is applicable to a response.</span></span>  <br/> |
    
-## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a><span data-ttu-id="45982-130">Пример запроса GetImItemList операции: запрашивать список элементов обмена мгновенными Сообщениями</span><span class="sxs-lookup"><span data-stu-id="45982-130">GetImItemList operation request example: Request your IM items list</span></span>
+## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a><span data-ttu-id="930e0-130">Пример запроса операции GetImItemList: запрос списка элементов для обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="930e0-130">GetImItemList operation request example: Request your IM items list</span></span>
 
-<span data-ttu-id="45982-131">Приведенный ниже запрос операции **GetImItemList** показано, как запросить список групп обмена мгновенными Сообщениями и обмена мгновенными Сообщениями контактов пользователей в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="45982-131">The following example of a **GetImItemList** operation request shows how to request the list of IM groups and IM contact personas in a mailbox.</span></span> <span data-ttu-id="45982-132">Элемент **GetImItemList** это единственный элемент в тексте запроса SOAP.</span><span class="sxs-lookup"><span data-stu-id="45982-132">The **GetImItemList** element is the only element option in the SOAP body.</span></span> 
+<span data-ttu-id="930e0-131">В следующем примере запроса операции **GetImItemList** показано, как запросить список групп IM и пользователей контактов для обмена мгновенными сообщениями в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="930e0-131">The following example of a **GetImItemList** operation request shows how to request the list of IM groups and IM contact personas in a mailbox.</span></span> <span data-ttu-id="930e0-132">Элемент **GetImItemList** является единственным параметром element в теле SOAP.</span><span class="sxs-lookup"><span data-stu-id="930e0-132">The **GetImItemList** element is the only element option in the SOAP body.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -55,18 +55,18 @@ ms.locfileid: "19762816"
 </soap:Envelope>
 ```
 
-<span data-ttu-id="45982-133">Запрос SOAP body содержит следующий элемент:</span><span class="sxs-lookup"><span data-stu-id="45982-133">The request SOAP body contains the following element:</span></span>
+<span data-ttu-id="930e0-133">Текст SOAP запроса содержит следующий элемент:</span><span class="sxs-lookup"><span data-stu-id="930e0-133">The request SOAP body contains the following element:</span></span>
   
-- [<span data-ttu-id="45982-134">GetImItemList</span><span class="sxs-lookup"><span data-stu-id="45982-134">GetImItemList</span></span>](getimitemlist.md)
+- [<span data-ttu-id="930e0-134">GetImItemList</span><span class="sxs-lookup"><span data-stu-id="930e0-134">GetImItemList</span></span>](getimitemlist.md)
     
-## <a name="successful-getimitemlist-operation-response"></a><span data-ttu-id="45982-135">Успешные операции ответа GetImItemList</span><span class="sxs-lookup"><span data-stu-id="45982-135">Successful GetImItemList operation response</span></span>
+## <a name="successful-getimitemlist-operation-response"></a><span data-ttu-id="930e0-135">Успешный отклик операции GetImItemList</span><span class="sxs-lookup"><span data-stu-id="930e0-135">Successful GetImItemList operation response</span></span>
 
-<span data-ttu-id="45982-136">В следующем примере показано успешного ответа на запрос операции **GetImItemList** .</span><span class="sxs-lookup"><span data-stu-id="45982-136">The following example shows a successful response to a **GetImItemList** operation request.</span></span> <span data-ttu-id="45982-137">Ответ содержит четыре группы обмена мгновенными Сообщениями.</span><span class="sxs-lookup"><span data-stu-id="45982-137">The response contains four IM groups.</span></span> <span data-ttu-id="45982-138">Из трех групп обмена мгновенными Сообщениями — другие контакты, метка и "Избранное" — это группы по умолчанию в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="45982-138">Three of the IM groups — Other Contacts, Tagged, and Favorites — are default groups in the Exchange store.</span></span> <span data-ttu-id="45982-139">Группа MyCustomGroup2 — настраиваемой группы, созданные пользователем.</span><span class="sxs-lookup"><span data-stu-id="45982-139">The MyCustomGroup2 group is a custom user-created group.</span></span> <span data-ttu-id="45982-140">Группы «другие контакты» и «метка не имеют члены.</span><span class="sxs-lookup"><span data-stu-id="45982-140">The Other Contacts and Tagged groups do not have members.</span></span> <span data-ttu-id="45982-141">Группа "Избранное" имеет одного элемента контакта.</span><span class="sxs-lookup"><span data-stu-id="45982-141">The Favorites group has a single contact member.</span></span> <span data-ttu-id="45982-142">MyCustomGroup2 имеет два элемента контакта.</span><span class="sxs-lookup"><span data-stu-id="45982-142">The MyCustomGroup2 has two member contacts.</span></span> <span data-ttu-id="45982-143">Идентификаторы элементов, предоставляются таким образом, последующие запросы **GetItem** , могут выполняться для получения дополнительных сведений о контактах обмена мгновенными Сообщениями.</span><span class="sxs-lookup"><span data-stu-id="45982-143">The item identifiers are provided so that subsequent **GetItem** requests can be performed to get more information about the IM contacts.</span></span> 
+<span data-ttu-id="930e0-136">В следующем примере показан успешный ответ на запрос операции **GetImItemList** .</span><span class="sxs-lookup"><span data-stu-id="930e0-136">The following example shows a successful response to a **GetImItemList** operation request.</span></span> <span data-ttu-id="930e0-137">Ответ содержит четыре группы для обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="930e0-137">The response contains four IM groups.</span></span> <span data-ttu-id="930e0-138">Три группы для обмена мгновенными сообщениями — другие контакты, размеченные Теги и Избранное — это группы по умолчанию в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="930e0-138">Three of the IM groups — Other Contacts, Tagged, and Favorites — are default groups in the Exchange store.</span></span> <span data-ttu-id="930e0-139">Группа MyCustomGroup2 — это пользовательская группа, созданная пользователем.</span><span class="sxs-lookup"><span data-stu-id="930e0-139">The MyCustomGroup2 group is a custom user-created group.</span></span> <span data-ttu-id="930e0-140">Другие контакты и группы с тегами не имеют членов.</span><span class="sxs-lookup"><span data-stu-id="930e0-140">The Other Contacts and Tagged groups do not have members.</span></span> <span data-ttu-id="930e0-141">Группа "Избранное" имеет одного участника контакта.</span><span class="sxs-lookup"><span data-stu-id="930e0-141">The Favorites group has a single contact member.</span></span> <span data-ttu-id="930e0-142">У MyCustomGroup2 есть два контакта.</span><span class="sxs-lookup"><span data-stu-id="930e0-142">The MyCustomGroup2 has two member contacts.</span></span> <span data-ttu-id="930e0-143">Идентификаторы элементов предоставляются таким образом, что для получения дополнительных сведений о контактах для обмена мгновенными сообщениями можно выполнить последующие запросы **GetItem** .</span><span class="sxs-lookup"><span data-stu-id="930e0-143">The item identifiers are provided so that subsequent **GetItem** requests can be performed to get more information about the IM contacts.</span></span> 
   
-<span data-ttu-id="45982-144">В этом примере возвращаются два пользователей.</span><span class="sxs-lookup"><span data-stu-id="45982-144">This example returns two personas.</span></span> <span data-ttu-id="45982-145">Первый он представляет двумя элементами контактов: Вадим Smith "и" Tony Smith.</span><span class="sxs-lookup"><span data-stu-id="45982-145">The first persona represents two contact items: Anthony Smith and Tony Smith.</span></span> <span data-ttu-id="45982-146">Объединенный контактные данные возвращаются в объекте **пользователя** .</span><span class="sxs-lookup"><span data-stu-id="45982-146">The combined contact information is returned in the **Persona** object.</span></span> <span data-ttu-id="45982-147">Второй он представляет один контакт с отображаемым именем Terence Adams.</span><span class="sxs-lookup"><span data-stu-id="45982-147">The second persona represents a single contact with the display name of Terence Adams.</span></span> 
+<span data-ttu-id="930e0-144">В этом примере возвращаются два пользователя.</span><span class="sxs-lookup"><span data-stu-id="930e0-144">This example returns two personas.</span></span> <span data-ttu-id="930e0-145">Первый персонаж представляет два элемента контактов: Ансони Смит и Tony Смит.</span><span class="sxs-lookup"><span data-stu-id="930e0-145">The first persona represents two contact items: Anthony Smith and Tony Smith.</span></span> <span data-ttu-id="930e0-146">В объекте **персоны** возвращается Объединенная Контактная информация.</span><span class="sxs-lookup"><span data-stu-id="930e0-146">The combined contact information is returned in the **Persona** object.</span></span> <span data-ttu-id="930e0-147">Второй персонаж представляет один контакт с отображаемым именем Теренце Adams.</span><span class="sxs-lookup"><span data-stu-id="930e0-147">The second persona represents a single contact with the display name of Terence Adams.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="45982-148">Идентификаторы хранилища Exchange, идентификаторы элементов, идентификаторы источника, идентификаторы папок и идентификаторы пользователя URL были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="45982-148">The Exchange store identifiers, item identifiers, source identifiers, folder identifiers, and persona identifiers have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="930e0-148">Идентификаторы хранилища Exchange, идентификаторы элементов, идентификаторы источников, идентификаторы папок и идентификаторы пользователей были сокращены для сохранения удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="930e0-148">The Exchange store identifiers, item identifiers, source identifiers, folder identifiers, and persona identifiers have been shortened to preserve readability.</span></span> 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -348,99 +348,99 @@ ms.locfileid: "19762816"
 </s:Envelope>
 ```
 
-<span data-ttu-id="45982-149">Ответ SOAP body содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="45982-149">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="930e0-149">Тело SOAP отклика содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="930e0-149">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="45982-150">GetImItemListResponse</span><span class="sxs-lookup"><span data-stu-id="45982-150">GetImItemListResponse</span></span>](getimitemlistresponse.md)
+- [<span data-ttu-id="930e0-150">жетимитемлистреспонсе</span><span class="sxs-lookup"><span data-stu-id="930e0-150">GetImItemListResponse</span></span>](getimitemlistresponse.md)
     
-- [<span data-ttu-id="45982-151">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="45982-151">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="930e0-151">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="930e0-151">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="45982-152">ImItemList</span><span class="sxs-lookup"><span data-stu-id="45982-152">ImItemList</span></span>](imitemlist.md)
+- [<span data-ttu-id="930e0-152">имитемлист</span><span class="sxs-lookup"><span data-stu-id="930e0-152">ImItemList</span></span>](imitemlist.md)
     
-- [<span data-ttu-id="45982-153">Отображаемое имя (строка)</span><span class="sxs-lookup"><span data-stu-id="45982-153">DisplayName (string)</span></span>](displayname-string.md)
+- [<span data-ttu-id="930e0-153">DisplayName (строка)</span><span class="sxs-lookup"><span data-stu-id="930e0-153">DisplayName (string)</span></span>](displayname-string.md)
     
-- [<span data-ttu-id="45982-154">GroupType</span><span class="sxs-lookup"><span data-stu-id="45982-154">GroupType</span></span>](grouptype.md)
+- [<span data-ttu-id="930e0-154">GroupType</span><span class="sxs-lookup"><span data-stu-id="930e0-154">GroupType</span></span>](grouptype.md)
     
-- [<span data-ttu-id="45982-155">ExchangeStoreId</span><span class="sxs-lookup"><span data-stu-id="45982-155">ExchangeStoreId</span></span>](exchangestoreid.md)
+- [<span data-ttu-id="930e0-155">ексчанжестореид</span><span class="sxs-lookup"><span data-stu-id="930e0-155">ExchangeStoreId</span></span>](exchangestoreid.md)
     
-- [<span data-ttu-id="45982-156">MemberCorrelationKey</span><span class="sxs-lookup"><span data-stu-id="45982-156">MemberCorrelationKey</span></span>](membercorrelationkey.md)
+- [<span data-ttu-id="930e0-156">мемберкоррелатионкэй</span><span class="sxs-lookup"><span data-stu-id="930e0-156">MemberCorrelationKey</span></span>](membercorrelationkey.md)
     
-- [<span data-ttu-id="45982-157">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="45982-157">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="930e0-157">Идентификатор</span><span class="sxs-lookup"><span data-stu-id="930e0-157">ItemId</span></span>](itemid.md)
     
-- [<span data-ttu-id="45982-158">Действующие лица</span><span class="sxs-lookup"><span data-stu-id="45982-158">Personas</span></span>](personas-ex15websvcsotherref.md)
+- [<span data-ttu-id="930e0-158">Фиктивные пользователи</span><span class="sxs-lookup"><span data-stu-id="930e0-158">Personas</span></span>](personas-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="45982-159">PersonaId</span><span class="sxs-lookup"><span data-stu-id="45982-159">PersonaId</span></span>](personaid.md)
+- [<span data-ttu-id="930e0-159">персонаид</span><span class="sxs-lookup"><span data-stu-id="930e0-159">PersonaId</span></span>](personaid.md)
     
-- [<span data-ttu-id="45982-160">PersonaType</span><span class="sxs-lookup"><span data-stu-id="45982-160">PersonaType</span></span>](personatype.md)
+- [<span data-ttu-id="930e0-160">персонатипе</span><span class="sxs-lookup"><span data-stu-id="930e0-160">PersonaType</span></span>](personatype.md)
     
-- [<span data-ttu-id="45982-161">CreationTime</span><span class="sxs-lookup"><span data-stu-id="45982-161">CreationTime</span></span>](creationtime.md)
+- [<span data-ttu-id="930e0-161">CreationTime</span><span class="sxs-lookup"><span data-stu-id="930e0-161">CreationTime</span></span>](creationtime.md)
     
-- [<span data-ttu-id="45982-162">DisplayNameFirstLast</span><span class="sxs-lookup"><span data-stu-id="45982-162">DisplayNameFirstLast</span></span>](displaynamefirstlast.md)
+- [<span data-ttu-id="930e0-162">дисплайнамефирстласт</span><span class="sxs-lookup"><span data-stu-id="930e0-162">DisplayNameFirstLast</span></span>](displaynamefirstlast.md)
     
-- [<span data-ttu-id="45982-163">DisplayNameLastFirst</span><span class="sxs-lookup"><span data-stu-id="45982-163">DisplayNameLastFirst</span></span>](displaynamelastfirst.md)
+- [<span data-ttu-id="930e0-163">дисплайнамеластфирст</span><span class="sxs-lookup"><span data-stu-id="930e0-163">DisplayNameLastFirst</span></span>](displaynamelastfirst.md)
     
-- [<span data-ttu-id="45982-164">FileAs</span><span class="sxs-lookup"><span data-stu-id="45982-164">FileAs</span></span>](fileas.md)
+- [<span data-ttu-id="930e0-164">FileAs</span><span class="sxs-lookup"><span data-stu-id="930e0-164">FileAs</span></span>](fileas.md)
     
-- [<span data-ttu-id="45982-165">FileAsId</span><span class="sxs-lookup"><span data-stu-id="45982-165">FileAsId</span></span>](fileasid.md)
+- [<span data-ttu-id="930e0-165">филеасид</span><span class="sxs-lookup"><span data-stu-id="930e0-165">FileAsId</span></span>](fileasid.md)
     
-- [<span data-ttu-id="45982-166">GivenName</span><span class="sxs-lookup"><span data-stu-id="45982-166">GivenName</span></span>](givenname.md)
+- [<span data-ttu-id="930e0-166">GivenName</span><span class="sxs-lookup"><span data-stu-id="930e0-166">GivenName</span></span>](givenname.md)
     
-- [<span data-ttu-id="45982-167">Фамилия</span><span class="sxs-lookup"><span data-stu-id="45982-167">Surname</span></span>](surname.md)
+- [<span data-ttu-id="930e0-167">ФИО</span><span class="sxs-lookup"><span data-stu-id="930e0-167">Surname</span></span>](surname.md)
     
-- [<span data-ttu-id="45982-168">EmailAddress (NonEmptyStringType)</span><span class="sxs-lookup"><span data-stu-id="45982-168">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md)
+- [<span data-ttu-id="930e0-168">EmailAddress (Нонемптистрингтипе)</span><span class="sxs-lookup"><span data-stu-id="930e0-168">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md)
     
-- [<span data-ttu-id="45982-169">Имя (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="45982-169">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
+- [<span data-ttu-id="930e0-169">Имя (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="930e0-169">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
     
-- [<span data-ttu-id="45982-170">RoutingType (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="45982-170">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
+- [<span data-ttu-id="930e0-170">Раутингтипе (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="930e0-170">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
     
-- [<span data-ttu-id="45982-171">EmailAddresses (ArrayOfEmailAddressesType)</span><span class="sxs-lookup"><span data-stu-id="45982-171">EmailAddresses (ArrayOfEmailAddressesType)</span></span>](emailaddresses-arrayofemailaddressestype.md)
+- [<span data-ttu-id="930e0-171">EmailAddresses (Аррайофемаиладдрессестипе)</span><span class="sxs-lookup"><span data-stu-id="930e0-171">EmailAddresses (ArrayOfEmailAddressesType)</span></span>](emailaddresses-arrayofemailaddressestype.md)
     
-- [<span data-ttu-id="45982-172">ImAddress (строка)</span><span class="sxs-lookup"><span data-stu-id="45982-172">ImAddress (String)</span></span>](imaddress-string.md)
+- [<span data-ttu-id="930e0-172">Адрес (String)</span><span class="sxs-lookup"><span data-stu-id="930e0-172">ImAddress (String)</span></span>](imaddress-string.md)
     
-- [<span data-ttu-id="45982-173">RelevanceScore</span><span class="sxs-lookup"><span data-stu-id="45982-173">RelevanceScore</span></span>](relevancescore.md)
+- [<span data-ttu-id="930e0-173">релеванцескоре</span><span class="sxs-lookup"><span data-stu-id="930e0-173">RelevanceScore</span></span>](relevancescore.md)
     
-- [<span data-ttu-id="45982-174">Атрибуты (ArrayOfPersonaAttributionsType)</span><span class="sxs-lookup"><span data-stu-id="45982-174">Attributions (ArrayOfPersonaAttributionsType)</span></span>](attributions-arrayofpersonaattributionstype.md)
+- [<span data-ttu-id="930e0-174">Атрибуты (Аррайофперсонааттрибутионстипе)</span><span class="sxs-lookup"><span data-stu-id="930e0-174">Attributions (ArrayOfPersonaAttributionsType)</span></span>](attributions-arrayofpersonaattributionstype.md)
     
-- [<span data-ttu-id="45982-175">Атрибуты (PersonaAttributionType)</span><span class="sxs-lookup"><span data-stu-id="45982-175">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md)
+- [<span data-ttu-id="930e0-175">Атрибуты (Персонааттрибутионтипе)</span><span class="sxs-lookup"><span data-stu-id="930e0-175">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md)
     
-- [<span data-ttu-id="45982-176">Идентификатор (строка)</span><span class="sxs-lookup"><span data-stu-id="45982-176">ID (String)</span></span>](id-string.md)
+- [<span data-ttu-id="930e0-176">ID (строка)</span><span class="sxs-lookup"><span data-stu-id="930e0-176">ID (String)</span></span>](id-string.md)
     
-- [<span data-ttu-id="45982-177">SourceId</span><span class="sxs-lookup"><span data-stu-id="45982-177">SourceId</span></span>](sourceid.md)
+- [<span data-ttu-id="930e0-177">SourceId</span><span class="sxs-lookup"><span data-stu-id="930e0-177">SourceId</span></span>](sourceid.md)
     
-- [<span data-ttu-id="45982-178">IsWritable</span><span class="sxs-lookup"><span data-stu-id="45982-178">IsWritable</span></span>](iswritable.md)
+- [<span data-ttu-id="930e0-178">Доступный для записи</span><span class="sxs-lookup"><span data-stu-id="930e0-178">IsWritable</span></span>](iswritable.md)
     
-- [<span data-ttu-id="45982-179">IsQuickContact</span><span class="sxs-lookup"><span data-stu-id="45982-179">IsQuickContact</span></span>](isquickcontact.md)
+- [<span data-ttu-id="930e0-179">искуиккконтакт</span><span class="sxs-lookup"><span data-stu-id="930e0-179">IsQuickContact</span></span>](isquickcontact.md)
     
-- [<span data-ttu-id="45982-180">IsHidden</span><span class="sxs-lookup"><span data-stu-id="45982-180">IsHidden</span></span>](ishidden.md)
+- [<span data-ttu-id="930e0-180">IsHidden</span><span class="sxs-lookup"><span data-stu-id="930e0-180">IsHidden</span></span>](ishidden.md)
     
-- [<span data-ttu-id="45982-181">FolderId</span><span class="sxs-lookup"><span data-stu-id="45982-181">FolderId</span></span>](folderid.md)
+- [<span data-ttu-id="930e0-181">FolderId</span><span class="sxs-lookup"><span data-stu-id="930e0-181">FolderId</span></span>](folderid.md)
     
-- [<span data-ttu-id="45982-182">StringAttributedValue</span><span class="sxs-lookup"><span data-stu-id="45982-182">StringAttributedValue</span></span>](stringattributedvalue.md)
+- [<span data-ttu-id="930e0-182">стрингаттрибутедвалуе</span><span class="sxs-lookup"><span data-stu-id="930e0-182">StringAttributedValue</span></span>](stringattributedvalue.md)
     
-- [<span data-ttu-id="45982-183">FileAses</span><span class="sxs-lookup"><span data-stu-id="45982-183">FileAses</span></span>](fileases.md)
+- [<span data-ttu-id="930e0-183">филеасес</span><span class="sxs-lookup"><span data-stu-id="930e0-183">FileAses</span></span>](fileases.md)
     
-- [<span data-ttu-id="45982-184">FileAsIds</span><span class="sxs-lookup"><span data-stu-id="45982-184">FileAsIds</span></span>](fileasids.md)
+- [<span data-ttu-id="930e0-184">филеасидс</span><span class="sxs-lookup"><span data-stu-id="930e0-184">FileAsIds</span></span>](fileasids.md)
     
-- [<span data-ttu-id="45982-185">GivenNames</span><span class="sxs-lookup"><span data-stu-id="45982-185">GivenNames</span></span>](givennames.md)
+- [<span data-ttu-id="930e0-185">гивеннамес</span><span class="sxs-lookup"><span data-stu-id="930e0-185">GivenNames</span></span>](givennames.md)
     
-- [<span data-ttu-id="45982-186">Фамилии</span><span class="sxs-lookup"><span data-stu-id="45982-186">Surnames</span></span>](surnames.md)
+- [<span data-ttu-id="930e0-186">Фамилии</span><span class="sxs-lookup"><span data-stu-id="930e0-186">Surnames</span></span>](surnames.md)
     
-- [<span data-ttu-id="45982-187">HomePhones</span><span class="sxs-lookup"><span data-stu-id="45982-187">HomePhones</span></span>](homephones.md)
+- [<span data-ttu-id="930e0-187">хомефонес</span><span class="sxs-lookup"><span data-stu-id="930e0-187">HomePhones</span></span>](homephones.md)
     
-- [<span data-ttu-id="45982-188">PhoneNumberAttributedValue</span><span class="sxs-lookup"><span data-stu-id="45982-188">PhoneNumberAttributedValue</span></span>](phonenumberattributedvalue.md)
+- [<span data-ttu-id="930e0-188">фоненумбераттрибутедвалуе</span><span class="sxs-lookup"><span data-stu-id="930e0-188">PhoneNumberAttributedValue</span></span>](phonenumberattributedvalue.md)
     
-- [<span data-ttu-id="45982-189">MobilePhones</span><span class="sxs-lookup"><span data-stu-id="45982-189">MobilePhones</span></span>](mobilephones.md)
+- [<span data-ttu-id="930e0-189">мобилефонес</span><span class="sxs-lookup"><span data-stu-id="930e0-189">MobilePhones</span></span>](mobilephones.md)
     
-- [<span data-ttu-id="45982-190">Emails1</span><span class="sxs-lookup"><span data-stu-id="45982-190">Emails1</span></span>](emails1.md)
+- [<span data-ttu-id="930e0-190">Emails1</span><span class="sxs-lookup"><span data-stu-id="930e0-190">Emails1</span></span>](emails1.md)
     
-- [<span data-ttu-id="45982-191">EmailAddressAttributedValue</span><span class="sxs-lookup"><span data-stu-id="45982-191">EmailAddressAttributedValue</span></span>](emailaddressattributedvalue.md)
+- [<span data-ttu-id="930e0-191">емаиладдрессаттрибутедвалуе</span><span class="sxs-lookup"><span data-stu-id="930e0-191">EmailAddressAttributedValue</span></span>](emailaddressattributedvalue.md)
     
-- [<span data-ttu-id="45982-192">ImAddresses</span><span class="sxs-lookup"><span data-stu-id="45982-192">ImAddresses</span></span>](imaddresses.md)
+- [<span data-ttu-id="930e0-192">Адреса</span><span class="sxs-lookup"><span data-stu-id="930e0-192">ImAddresses</span></span>](imaddresses.md)
     
-- [<span data-ttu-id="45982-193">Значение (ExtendedPropertyType)</span><span class="sxs-lookup"><span data-stu-id="45982-193">Value (ExtendedPropertyType)</span></span>](value-extendedpropertytype.md)
+- [<span data-ttu-id="930e0-193">Значение (Екстендедпропертитипе)</span><span class="sxs-lookup"><span data-stu-id="930e0-193">Value (ExtendedPropertyType)</span></span>](value-extendedpropertytype.md)
     
-## <a name="getimitemlist-operation-error-response"></a><span data-ttu-id="45982-194">Ошибка операции GetImItemList ответа</span><span class="sxs-lookup"><span data-stu-id="45982-194">GetImItemList operation error response</span></span>
+## <a name="getimitemlist-operation-error-response"></a><span data-ttu-id="930e0-194">Ответ об ошибке операции GetImItemList</span><span class="sxs-lookup"><span data-stu-id="930e0-194">GetImItemList operation error response</span></span>
 
-<span data-ttu-id="45982-195">В следующем примере показано ошибочный ответ на запрос операции **GetImItemList** .</span><span class="sxs-lookup"><span data-stu-id="45982-195">The following example shows an error response to a **GetImItemList** operation request.</span></span> <span data-ttu-id="45982-196">Это ответ на запрос, который содержит версию неправильные запрошенный сервер в заголовке SOAP.</span><span class="sxs-lookup"><span data-stu-id="45982-196">This is a response to a request that contains an incorrect requested server version in the SOAP header.</span></span> <span data-ttu-id="45982-197">Эта ошибка ответа — это ошибки SOAP и не представлено в схеме веб-служб Exchange.</span><span class="sxs-lookup"><span data-stu-id="45982-197">This error response is a SOAP fault and is not represented in the EWS schema.</span></span> 
+<span data-ttu-id="930e0-195">В следующем примере показан ответ об ошибке для запроса операции **GetImItemList** .</span><span class="sxs-lookup"><span data-stu-id="930e0-195">The following example shows an error response to a **GetImItemList** operation request.</span></span> <span data-ttu-id="930e0-196">Это ответ на запрос, который содержит неверную версию запрошенного сервера в заголовке SOAP.</span><span class="sxs-lookup"><span data-stu-id="930e0-196">This is a response to a request that contains an incorrect requested server version in the SOAP header.</span></span> <span data-ttu-id="930e0-197">Этот ошибочный ответ является причиной сбоя SOAP и не представлен в схеме EWS.</span><span class="sxs-lookup"><span data-stu-id="930e0-197">This error response is a SOAP fault and is not represented in the EWS schema.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -458,12 +458,12 @@ ms.locfileid: "19762816"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="45982-198">См. также</span><span class="sxs-lookup"><span data-stu-id="45982-198">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="930e0-198">См. также</span><span class="sxs-lookup"><span data-stu-id="930e0-198">See also</span></span>
 
-- [<span data-ttu-id="45982-199">Операция AddImGroup</span><span class="sxs-lookup"><span data-stu-id="45982-199">AddImGroup operation</span></span>](addimgroup-operation.md)
+- [<span data-ttu-id="930e0-199">Операция AddImGroup</span><span class="sxs-lookup"><span data-stu-id="930e0-199">AddImGroup operation</span></span>](addimgroup-operation.md)
     
-- [<span data-ttu-id="45982-200">Пользователи и контакты в EWS для Exchange</span><span class="sxs-lookup"><span data-stu-id="45982-200">People and contacts in EWS in Exchange</span></span>](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [<span data-ttu-id="930e0-200">Пользователи и контакты в EWS для Exchange</span><span class="sxs-lookup"><span data-stu-id="930e0-200">People and contacts in EWS in Exchange</span></span>](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
-- [<span data-ttu-id="45982-201">Операция GetImItems</span><span class="sxs-lookup"><span data-stu-id="45982-201">GetImItems operation</span></span>](getimitems-operation.md)
+- [<span data-ttu-id="930e0-201">Операция GetImItems</span><span class="sxs-lookup"><span data-stu-id="930e0-201">GetImItems operation</span></span>](getimitems-operation.md)
     
 

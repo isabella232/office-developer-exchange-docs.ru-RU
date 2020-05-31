@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 24d10a15-b942-415e-9024-a6375708f326
-description: Операция GetAttachment используется для извлечения существующие вложения для элементов в хранилище Exchange.
+description: Операция GetAttachment используется для получения существующих вложений на элементы в хранилище Exchange.
 ms.openlocfilehash: c260033208bf49c60463c09041d8ffcc52a8f5c2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762701"
 ---
-# <a name="getattachment-operation"></a><span data-ttu-id="56d8a-103">Операция GetAttachment</span><span class="sxs-lookup"><span data-stu-id="56d8a-103">GetAttachment operation</span></span>
+# <a name="getattachment-operation"></a><span data-ttu-id="69493-103">Операция GetAttachment</span><span class="sxs-lookup"><span data-stu-id="69493-103">GetAttachment operation</span></span>
 
-<span data-ttu-id="56d8a-104">Операция GetAttachment используется для извлечения существующие вложения для элементов в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="56d8a-104">The GetAttachment operation is used to retrieve existing attachments on items in the Exchange store.</span></span>
+<span data-ttu-id="69493-104">Операция GetAttachment используется для получения существующих вложений на элементы в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="69493-104">The GetAttachment operation is used to retrieve existing attachments on items in the Exchange store.</span></span>
   
-## <a name="getattachment-request-example"></a><span data-ttu-id="56d8a-105">Пример запроса GetAttachment</span><span class="sxs-lookup"><span data-stu-id="56d8a-105">GetAttachment request example</span></span>
+## <a name="getattachment-request-example"></a><span data-ttu-id="69493-105">Пример запроса GetAttachment</span><span class="sxs-lookup"><span data-stu-id="69493-105">GetAttachment request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="56d8a-106">Описание</span><span class="sxs-lookup"><span data-stu-id="56d8a-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="69493-106">Описание</span><span class="sxs-lookup"><span data-stu-id="69493-106">Description</span></span>
 
-<span data-ttu-id="56d8a-107">В следующем примере запрос на GetAttachment показано, как для получения вложения.</span><span class="sxs-lookup"><span data-stu-id="56d8a-107">The following example of GetAttachment request shows how to get an attachment.</span></span>
+<span data-ttu-id="69493-107">В приведенном ниже примере запроса GetAttachment показано, как получить вложение.</span><span class="sxs-lookup"><span data-stu-id="69493-107">The following example of GetAttachment request shows how to get an attachment.</span></span>
   
-### <a name="code"></a><span data-ttu-id="56d8a-108">Программа</span><span class="sxs-lookup"><span data-stu-id="56d8a-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="69493-108">Код</span><span class="sxs-lookup"><span data-stu-id="69493-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,34 +49,34 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="56d8a-109">Комментарии</span><span class="sxs-lookup"><span data-stu-id="56d8a-109">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="69493-109">Comments</span><span class="sxs-lookup"><span data-stu-id="69493-109">Comments</span></span>
 
-<span data-ttu-id="56d8a-110">Элемент [AttachmentShape](attachmentshape.md) позволяет указать, какие сведения о вложении должны быть возвращены.</span><span class="sxs-lookup"><span data-stu-id="56d8a-110">The [AttachmentShape](attachmentshape.md) element allows you to specify which attachment information should be returned.</span></span> <span data-ttu-id="56d8a-111">Пустой элемент [AttachmentShape](attachmentshape.md) является допустимым и будут отображаться вложения без содержимого MIME для вложений элемента с типом body текст и без любые дополнительные свойства.</span><span class="sxs-lookup"><span data-stu-id="56d8a-111">An empty [AttachmentShape](attachmentshape.md) element is valid and will render your attachments without MIME content for item attachments, with a text body type, and without any additional properties.</span></span> 
+<span data-ttu-id="69493-110">Элемент [аттачментшапе](attachmentshape.md) позволяет указать, какие сведения о вложении должны быть возвращены.</span><span class="sxs-lookup"><span data-stu-id="69493-110">The [AttachmentShape](attachmentshape.md) element allows you to specify which attachment information should be returned.</span></span> <span data-ttu-id="69493-111">Пустой элемент [аттачментшапе](attachmentshape.md) является допустимым и будет отображать вложения без содержимого MIME для вложений элементов, тип текста текста и без дополнительных свойств.</span><span class="sxs-lookup"><span data-stu-id="69493-111">An empty [AttachmentShape](attachmentshape.md) element is valid and will render your attachments without MIME content for item attachments, with a text body type, and without any additional properties.</span></span> 
   
-<span data-ttu-id="56d8a-112">Коллекция [AttachmentIds](attachmentids.md) позволяет указать один или несколько идентификаторов вложений для возврата.</span><span class="sxs-lookup"><span data-stu-id="56d8a-112">The [AttachmentIds](attachmentids.md) collection allows you to specify one or more attachment identifiers to return.</span></span> <span data-ttu-id="56d8a-113">Обратите внимание, что это RequestAttachmentIdType, поэтому любые AttachmentIds, полученные из **CreateAttachment** должно иметь атрибуты **RootItemId** и **RootItemChangeKey** удалены перед передачей их в **GetAttachment**типа.</span><span class="sxs-lookup"><span data-stu-id="56d8a-113">Note that these are of type RequestAttachmentIdType, so any AttachmentIds that you receive from **CreateAttachment** must have the **RootItemId** and **RootItemChangeKey** attributes removed before passing them to **GetAttachment**.</span></span>
+<span data-ttu-id="69493-112">Коллекция [аттачментидс](attachmentids.md) позволяет указать один или несколько идентификаторов вложений, которые необходимо вернуть.</span><span class="sxs-lookup"><span data-stu-id="69493-112">The [AttachmentIds](attachmentids.md) collection allows you to specify one or more attachment identifiers to return.</span></span> <span data-ttu-id="69493-113">Обратите внимание, что они относятся к типу Рекуестаттачментидтипе, поэтому для всех Аттачментидс, получаемых из **CreateAttachment** , необходимо удалить атрибуты **рутитемид** и **рутитемчанжекэй** , прежде чем передавать их в метод **GetAttachment**.</span><span class="sxs-lookup"><span data-stu-id="69493-113">Note that these are of type RequestAttachmentIdType, so any AttachmentIds that you receive from **CreateAttachment** must have the **RootItemId** and **RootItemChangeKey** attributes removed before passing them to **GetAttachment**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="56d8a-114">Идентификатор вложения и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="56d8a-114">The attachment identifier and change key have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="69493-114">Идентификатор и ключ вложения были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="69493-114">The attachment identifier and change key have been shortened to preserve readability.</span></span> 
   
-### <a name="request-elements"></a><span data-ttu-id="56d8a-115">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="56d8a-115">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="69493-115">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="69493-115">Request elements</span></span>
 
-<span data-ttu-id="56d8a-116">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="56d8a-116">The following elements are used in the request:</span></span>
+<span data-ttu-id="69493-116">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="69493-116">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="56d8a-117">GetAttachment</span><span class="sxs-lookup"><span data-stu-id="56d8a-117">GetAttachment</span></span>](getattachment.md)
+- [<span data-ttu-id="69493-117">GetAttachment</span><span class="sxs-lookup"><span data-stu-id="69493-117">GetAttachment</span></span>](getattachment.md)
     
-- [<span data-ttu-id="56d8a-118">AttachmentShape</span><span class="sxs-lookup"><span data-stu-id="56d8a-118">AttachmentShape</span></span>](attachmentshape.md)
+- [<span data-ttu-id="69493-118">аттачментшапе</span><span class="sxs-lookup"><span data-stu-id="69493-118">AttachmentShape</span></span>](attachmentshape.md)
     
-- [<span data-ttu-id="56d8a-119">AttachmentIds</span><span class="sxs-lookup"><span data-stu-id="56d8a-119">AttachmentIds</span></span>](attachmentids.md)
+- [<span data-ttu-id="69493-119">аттачментидс</span><span class="sxs-lookup"><span data-stu-id="69493-119">AttachmentIds</span></span>](attachmentids.md)
     
-- [<span data-ttu-id="56d8a-120">Идентификатора вложения AttachmentId (GetAttachment и DeleteAttachment)</span><span class="sxs-lookup"><span data-stu-id="56d8a-120">AttachmentId (GetAttachment and DeleteAttachment)</span></span>](attachmentid-getattachment-and-deleteattachment.md)
+- [<span data-ttu-id="69493-120">AttachmentId (GetAttachment и DeleteAttachment)</span><span class="sxs-lookup"><span data-stu-id="69493-120">AttachmentId (GetAttachment and DeleteAttachment)</span></span>](attachmentid-getattachment-and-deleteattachment.md)
     
-## <a name="getattachment-response-example"></a><span data-ttu-id="56d8a-121">Пример ответа GetAttachment</span><span class="sxs-lookup"><span data-stu-id="56d8a-121">GetAttachment response example</span></span>
+## <a name="getattachment-response-example"></a><span data-ttu-id="69493-121">Пример отклика GetAttachment</span><span class="sxs-lookup"><span data-stu-id="69493-121">GetAttachment response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="56d8a-122">Описание</span><span class="sxs-lookup"><span data-stu-id="56d8a-122">Description</span></span>
+### <a name="description"></a><span data-ttu-id="69493-122">Описание</span><span class="sxs-lookup"><span data-stu-id="69493-122">Description</span></span>
 
-<span data-ttu-id="56d8a-123">В следующем примере показано успешного ответа на запрос GetAttachment.</span><span class="sxs-lookup"><span data-stu-id="56d8a-123">The following example shows a successful response to a GetAttachment request.</span></span> <span data-ttu-id="56d8a-124">В этом примере возвращается вложенный файл.</span><span class="sxs-lookup"><span data-stu-id="56d8a-124">This example returns a file attachment.</span></span>
+<span data-ttu-id="69493-123">В следующем примере показан успешный ответ на запрос GetAttachment.</span><span class="sxs-lookup"><span data-stu-id="69493-123">The following example shows a successful response to a GetAttachment request.</span></span> <span data-ttu-id="69493-124">В этом примере возвращается вложенный файл.</span><span class="sxs-lookup"><span data-stu-id="69493-124">This example returns a file attachment.</span></span>
   
-### <a name="code"></a><span data-ttu-id="56d8a-125">Программа</span><span class="sxs-lookup"><span data-stu-id="56d8a-125">Code</span></span>
+### <a name="code"></a><span data-ttu-id="69493-125">Код</span><span class="sxs-lookup"><span data-stu-id="69493-125">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -108,39 +108,39 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="56d8a-126">Комментарии</span><span class="sxs-lookup"><span data-stu-id="56d8a-126">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="69493-126">Comments</span><span class="sxs-lookup"><span data-stu-id="69493-126">Comments</span></span>
 
-<span data-ttu-id="56d8a-127">Ответное сообщение на GetAttachment всегда будет содержать полный вложений; то есть все свойства всегда будут включены.</span><span class="sxs-lookup"><span data-stu-id="56d8a-127">The response messages for GetAttachment will always contain the full attachment; that is, all properties will always be included.</span></span> <span data-ttu-id="56d8a-128">Для файлов вложений эти свойства — это [имя (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md)и [контента](content.md).</span><span class="sxs-lookup"><span data-stu-id="56d8a-128">For file attachments, those properties are [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md), and [Content](content.md).</span></span> <span data-ttu-id="56d8a-129">Для вложений элемента, эти свойства — это [имя (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) и все свойства элемента, как если бы было использовано фигуры **AllProperties** GetItem звонка.</span><span class="sxs-lookup"><span data-stu-id="56d8a-129">For item attachments, those properties are [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) and all of the item's properties, as if the **AllProperties** shape had been used in a GetItem call.</span></span> <span data-ttu-id="56d8a-130">Элемент [AttachmentShape](attachmentshape.md) , если этот параметр указан, позволяет клиентского приложения запросить дополнительные расширенные свойства для вложений элемента.</span><span class="sxs-lookup"><span data-stu-id="56d8a-130">The [AttachmentShape](attachmentshape.md) element, if present, will allow a consumer application to request additional extended properties for item attachments.</span></span> 
+<span data-ttu-id="69493-127">В ответных сообщениях для GetAttachment всегда будет содержаться полное вложение; то есть все свойства всегда будут включены.</span><span class="sxs-lookup"><span data-stu-id="69493-127">The response messages for GetAttachment will always contain the full attachment; that is, all properties will always be included.</span></span> <span data-ttu-id="69493-128">Для вложений файлов эти свойства являются [именами (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), идентификатором [ContentId](contentid.md), [ContentLocation](contentlocation.md)и [содержимым](content.md).</span><span class="sxs-lookup"><span data-stu-id="69493-128">For file attachments, those properties are [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md), and [Content](content.md).</span></span> <span data-ttu-id="69493-129">Для вложений элемента эти свойства являются [именами (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) и всеми свойствами элемента, как если бы фигура **аллпропертиес** была использована при вызове GetItem.</span><span class="sxs-lookup"><span data-stu-id="69493-129">For item attachments, those properties are [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) and all of the item's properties, as if the **AllProperties** shape had been used in a GetItem call.</span></span> <span data-ttu-id="69493-130">Элемент [аттачментшапе](attachmentshape.md) , если он присутствует, позволяет приложению-потребителю запрашивать дополнительные расширенные свойства для вложений элементов.</span><span class="sxs-lookup"><span data-stu-id="69493-130">The [AttachmentShape](attachmentshape.md) element, if present, will allow a consumer application to request additional extended properties for item attachments.</span></span> 
   
-### <a name="successful-response-elements"></a><span data-ttu-id="56d8a-131">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="56d8a-131">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="69493-131">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="69493-131">Successful response elements</span></span>
 
-<span data-ttu-id="56d8a-132">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="56d8a-132">The following elements are used in the response:</span></span>
+<span data-ttu-id="69493-132">В отклике используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="69493-132">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="56d8a-133">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="56d8a-133">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="69493-133">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="69493-133">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="56d8a-134">GetAttachmentResponse</span><span class="sxs-lookup"><span data-stu-id="56d8a-134">GetAttachmentResponse</span></span>](getattachmentresponse.md)
+- [<span data-ttu-id="69493-134">жетаттачментреспонсе</span><span class="sxs-lookup"><span data-stu-id="69493-134">GetAttachmentResponse</span></span>](getattachmentresponse.md)
     
-- [<span data-ttu-id="56d8a-135">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="56d8a-135">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="69493-135">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="69493-135">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="56d8a-136">GetAttachmentResponseMessage</span><span class="sxs-lookup"><span data-stu-id="56d8a-136">GetAttachmentResponseMessage</span></span>](getattachmentresponsemessage.md)
+- [<span data-ttu-id="69493-136">жетаттачментреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="69493-136">GetAttachmentResponseMessage</span></span>](getattachmentresponsemessage.md)
     
-- [<span data-ttu-id="56d8a-137">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="56d8a-137">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="69493-137">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="69493-137">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="56d8a-138">Вложения</span><span class="sxs-lookup"><span data-stu-id="56d8a-138">Attachments</span></span>](attachments-ex15websvcsotherref.md)
+- [<span data-ttu-id="69493-138">Вложения</span><span class="sxs-lookup"><span data-stu-id="69493-138">Attachments</span></span>](attachments-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="56d8a-139">FileAttachment</span><span class="sxs-lookup"><span data-stu-id="56d8a-139">FileAttachment</span></span>](fileattachment.md)
+- [<span data-ttu-id="69493-139">FileAttachment</span><span class="sxs-lookup"><span data-stu-id="69493-139">FileAttachment</span></span>](fileattachment.md)
     
-- [<span data-ttu-id="56d8a-140">Идентификатора вложения AttachmentId (GetAttachment и DeleteAttachment)</span><span class="sxs-lookup"><span data-stu-id="56d8a-140">AttachmentId (GetAttachment and DeleteAttachment)</span></span>](attachmentid-getattachment-and-deleteattachment.md)
+- [<span data-ttu-id="69493-140">AttachmentId (GetAttachment и DeleteAttachment)</span><span class="sxs-lookup"><span data-stu-id="69493-140">AttachmentId (GetAttachment and DeleteAttachment)</span></span>](attachmentid-getattachment-and-deleteattachment.md)
     
-- [<span data-ttu-id="56d8a-141">Имя (AttachmentType)</span><span class="sxs-lookup"><span data-stu-id="56d8a-141">Name (AttachmentType)</span></span>](name-attachmenttype.md)
+- [<span data-ttu-id="69493-141">Имя (AttachmentType)</span><span class="sxs-lookup"><span data-stu-id="69493-141">Name (AttachmentType)</span></span>](name-attachmenttype.md)
     
-- [<span data-ttu-id="56d8a-142">Контентная</span><span class="sxs-lookup"><span data-stu-id="56d8a-142">Content</span></span>](content.md)
+- [<span data-ttu-id="69493-142">Статья</span><span class="sxs-lookup"><span data-stu-id="69493-142">Content</span></span>](content.md)
     
-## <a name="see-also"></a><span data-ttu-id="56d8a-143">См. также</span><span class="sxs-lookup"><span data-stu-id="56d8a-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="69493-143">См. также</span><span class="sxs-lookup"><span data-stu-id="69493-143">See also</span></span>
 
 
 
-[<span data-ttu-id="56d8a-144">Операция CreateAttachment</span><span class="sxs-lookup"><span data-stu-id="56d8a-144">CreateAttachment operation</span></span>](createattachment-operation.md)
+[<span data-ttu-id="69493-144">Операция CreateAttachment</span><span class="sxs-lookup"><span data-stu-id="69493-144">CreateAttachment operation</span></span>](createattachment-operation.md)
   
-[<span data-ttu-id="56d8a-145">Операция DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="56d8a-145">DeleteAttachment operation</span></span>](deleteattachment-operation.md)
+[<span data-ttu-id="69493-145">Операция DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="69493-145">DeleteAttachment operation</span></span>](deleteattachment-operation.md)
 

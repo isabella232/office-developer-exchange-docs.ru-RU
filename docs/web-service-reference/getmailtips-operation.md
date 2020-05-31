@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 025483ec-a9f3-4735-8a95-d26e30ea7974
-description: Операция GetMailTips получает сведения о советы почты для указанного почтового ящика.
+description: Операция с подсказками получает сведения о почтовых подсказках для указанного почтового ящика.
 ms.openlocfilehash: 15c21bef90fdc4cbc6cd65512cdc078fcdf31e60
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762844"
 ---
-# <a name="getmailtips-operation"></a><span data-ttu-id="b4e0f-103">Операция GetMailTips</span><span class="sxs-lookup"><span data-stu-id="b4e0f-103">GetMailTips operation</span></span>
+# <a name="getmailtips-operation"></a><span data-ttu-id="bbb43-103">Операция GetMailTips</span><span class="sxs-lookup"><span data-stu-id="bbb43-103">GetMailTips operation</span></span>
 
-<span data-ttu-id="b4e0f-104">Операция **GetMailTips** получает сведения о советы почты для указанного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b4e0f-104">The **GetMailTips** operation gets the mail tips information for the specified mailbox.</span></span> 
+<span data-ttu-id="bbb43-104">Операция с подсказками получает сведения о **почтовых** подсказках для указанного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="bbb43-104">The **GetMailTips** operation gets the mail tips information for the specified mailbox.</span></span> 
   
-## <a name="getmailtips-request-example"></a><span data-ttu-id="b4e0f-105">Пример запроса GetMailTips</span><span class="sxs-lookup"><span data-stu-id="b4e0f-105">GetMailTips request example</span></span>
+## <a name="getmailtips-request-example"></a><span data-ttu-id="bbb43-105">Пример запроса на получение почтовых подсказок</span><span class="sxs-lookup"><span data-stu-id="bbb43-105">GetMailTips request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="b4e0f-106">Описание</span><span class="sxs-lookup"><span data-stu-id="b4e0f-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="bbb43-106">Описание</span><span class="sxs-lookup"><span data-stu-id="bbb43-106">Description</span></span>
 
-<span data-ttu-id="b4e0f-107">Клиент создает XML-ФАЙЛ запроса и отправляет его на сервер.</span><span class="sxs-lookup"><span data-stu-id="b4e0f-107">The client constructs the request XML and sends it to the server.</span></span> <span data-ttu-id="b4e0f-108">Запрос определяет лицо, которое отправляет клиенту как почтовый ящик для получения почтовые подсказки и запрашиваются какие почтовые подсказки.</span><span class="sxs-lookup"><span data-stu-id="b4e0f-108">The request identifies who the client is sending as, the mailbox to retrieve the mail tips for, and what mail tips are requested.</span></span> <span data-ttu-id="b4e0f-109">В этом примере клиент запрашивает возвращаться, что все почтовые подсказки для выбранного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="b4e0f-109">In this example, the client requests that all mail tips be returned for the selected mailbox.</span></span>
+<span data-ttu-id="bbb43-107">Клиент создает XML-код запроса и отправляет его на сервер.</span><span class="sxs-lookup"><span data-stu-id="bbb43-107">The client constructs the request XML and sends it to the server.</span></span> <span data-ttu-id="bbb43-108">Запрос определяет клиента, который отправляется как, почтовый ящик для получения советов и советов по использованию электронной почты.</span><span class="sxs-lookup"><span data-stu-id="bbb43-108">The request identifies who the client is sending as, the mailbox to retrieve the mail tips for, and what mail tips are requested.</span></span> <span data-ttu-id="bbb43-109">В этом примере клиент запрашивает возвращение всех почтовых подсказок для выбранного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="bbb43-109">In this example, the client requests that all mail tips be returned for the selected mailbox.</span></span>
   
-### <a name="code"></a><span data-ttu-id="b4e0f-110">Программа</span><span class="sxs-lookup"><span data-stu-id="b4e0f-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="bbb43-110">Код</span><span class="sxs-lookup"><span data-stu-id="bbb43-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -58,25 +58,25 @@ ms.locfileid: "19762844"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a><span data-ttu-id="b4e0f-111">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="b4e0f-111">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="bbb43-111">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="bbb43-111">Request elements</span></span>
 
-<span data-ttu-id="b4e0f-112">В запрос включаются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="b4e0f-112">The following elements are included in the request:</span></span>
+<span data-ttu-id="bbb43-112">В запрос включены следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="bbb43-112">The following elements are included in the request:</span></span>
   
-- [<span data-ttu-id="b4e0f-113">GetMailTips</span><span class="sxs-lookup"><span data-stu-id="b4e0f-113">GetMailTips</span></span>](getmailtips.md)
+- [<span data-ttu-id="bbb43-113">GetMailTips</span><span class="sxs-lookup"><span data-stu-id="bbb43-113">GetMailTips</span></span>](getmailtips.md)
     
-- [<span data-ttu-id="b4e0f-114">SendingAs</span><span class="sxs-lookup"><span data-stu-id="b4e0f-114">SendingAs</span></span>](sendingas.md)
+- [<span data-ttu-id="bbb43-114">сендингас</span><span class="sxs-lookup"><span data-stu-id="bbb43-114">SendingAs</span></span>](sendingas.md)
     
-- [<span data-ttu-id="b4e0f-115">Получатели (ArrayOfRecipientsType)</span><span class="sxs-lookup"><span data-stu-id="b4e0f-115">Recipients (ArrayOfRecipientsType)</span></span>](recipients-arrayofrecipientstype.md)
+- [<span data-ttu-id="bbb43-115">Получатели (АррайофреЦипиентстипе)</span><span class="sxs-lookup"><span data-stu-id="bbb43-115">Recipients (ArrayOfRecipientsType)</span></span>](recipients-arrayofrecipientstype.md)
     
-- [<span data-ttu-id="b4e0f-116">MailTipsRequested</span><span class="sxs-lookup"><span data-stu-id="b4e0f-116">MailTipsRequested</span></span>](mailtipsrequested.md)
+- [<span data-ttu-id="bbb43-116">маилтипсрекуестед</span><span class="sxs-lookup"><span data-stu-id="bbb43-116">MailTipsRequested</span></span>](mailtipsrequested.md)
     
-## <a name="successful-getmailtips-response-example"></a><span data-ttu-id="b4e0f-117">Пример успешного ответа GetMailTips</span><span class="sxs-lookup"><span data-stu-id="b4e0f-117">Successful GetMailTips response example</span></span>
+## <a name="successful-getmailtips-response-example"></a><span data-ttu-id="bbb43-117">Пример отклика успешных почтовых подсказок</span><span class="sxs-lookup"><span data-stu-id="bbb43-117">Successful GetMailTips response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="b4e0f-118">Описание</span><span class="sxs-lookup"><span data-stu-id="b4e0f-118">Description</span></span>
+### <a name="description"></a><span data-ttu-id="bbb43-118">Описание</span><span class="sxs-lookup"><span data-stu-id="bbb43-118">Description</span></span>
 
-<span data-ttu-id="b4e0f-119">В следующем примере тело Simple Object Access Protocol (SOAP) показано успешного ответа на запрос **GetMailTips** .</span><span class="sxs-lookup"><span data-stu-id="b4e0f-119">The following Simple Object Access Protocol (SOAP) body example shows a successful response to the **GetMailTips** request.</span></span> 
+<span data-ttu-id="bbb43-119">В приведенном ниже примере кода SOAP показан успешный ответ **на запрос по** подсказке.</span><span class="sxs-lookup"><span data-stu-id="bbb43-119">The following Simple Object Access Protocol (SOAP) body example shows a successful response to the **GetMailTips** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="b4e0f-120">Программа</span><span class="sxs-lookup"><span data-stu-id="b4e0f-120">Code</span></span>
+### <a name="code"></a><span data-ttu-id="bbb43-120">Код</span><span class="sxs-lookup"><span data-stu-id="bbb43-120">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
@@ -122,19 +122,19 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a><span data-ttu-id="b4e0f-121">Элементы ответа</span><span class="sxs-lookup"><span data-stu-id="b4e0f-121">Response elements</span></span>
+### <a name="response-elements"></a><span data-ttu-id="bbb43-121">Элементы Response</span><span class="sxs-lookup"><span data-stu-id="bbb43-121">Response elements</span></span>
 
-<span data-ttu-id="b4e0f-122">В ответе включены следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="b4e0f-122">The following elements are included in the response:</span></span>
+<span data-ttu-id="bbb43-122">В ответ включаются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="bbb43-122">The following elements are included in the response:</span></span>
   
-- [<span data-ttu-id="b4e0f-123">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="b4e0f-123">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="bbb43-123">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="bbb43-123">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="b4e0f-124">Почтовые подсказки</span><span class="sxs-lookup"><span data-stu-id="b4e0f-124">MailTips</span></span>](mailtips.md)
+- [<span data-ttu-id="bbb43-124">Подсказки</span><span class="sxs-lookup"><span data-stu-id="bbb43-124">MailTips</span></span>](mailtips.md)
     
-## <a name="see-also"></a><span data-ttu-id="b4e0f-125">См. также</span><span class="sxs-lookup"><span data-stu-id="b4e0f-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bbb43-125">См. также</span><span class="sxs-lookup"><span data-stu-id="bbb43-125">See also</span></span>
 
 
 
-[<span data-ttu-id="b4e0f-126">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="b4e0f-126">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="bbb43-126">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="bbb43-126">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="b4e0f-127">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="b4e0f-127">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="bbb43-127">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="bbb43-127">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

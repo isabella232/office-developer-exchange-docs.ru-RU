@@ -16,42 +16,42 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762169"
 ---
-# <a name="displayname-pox"></a><span data-ttu-id="7ec51-103">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="7ec51-103">DisplayName (POX)</span></span>
+# <a name="displayname-pox"></a><span data-ttu-id="9c248-103">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="9c248-103">DisplayName (POX)</span></span>
 
-<span data-ttu-id="7ec51-104">Элемент **DisplayName** представляет отображаемое имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="7ec51-104">The **DisplayName** element represents the user's display name.</span></span> 
+<span data-ttu-id="9c248-104">Элемент **DisplayName** представляет отображаемое имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="9c248-104">The **DisplayName** element represents the user's display name.</span></span> 
   
-- [<span data-ttu-id="7ec51-105">Автообнаружение (POX)</span><span class="sxs-lookup"><span data-stu-id="7ec51-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md) 
-- [<span data-ttu-id="7ec51-106">Ответ (POX)</span><span class="sxs-lookup"><span data-stu-id="7ec51-106">Response (POX)</span></span>](response-pox.md) 
-- [<span data-ttu-id="7ec51-107">Пользователь (POX)</span><span class="sxs-lookup"><span data-stu-id="7ec51-107">User (POX)</span></span>](user-pox.md) 
-- [<span data-ttu-id="7ec51-108">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="7ec51-108">DisplayName (POX)</span></span>](displayname-pox.md)
+- [<span data-ttu-id="9c248-105">Служба автообнаружения (POX)</span><span class="sxs-lookup"><span data-stu-id="9c248-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md) 
+- [<span data-ttu-id="9c248-106">Ответ (POX)</span><span class="sxs-lookup"><span data-stu-id="9c248-106">Response (POX)</span></span>](response-pox.md) 
+- [<span data-ttu-id="9c248-107">Пользователь (POX)</span><span class="sxs-lookup"><span data-stu-id="9c248-107">User (POX)</span></span>](user-pox.md) 
+- [<span data-ttu-id="9c248-108">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="9c248-108">DisplayName (POX)</span></span>](displayname-pox.md)
   
 ```xml
 <DisplayName/>
 ```
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="7ec51-109">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="7ec51-109">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="9c248-109">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="9c248-109">Attributes and elements</span></span>
 
-<span data-ttu-id="7ec51-110">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="7ec51-110">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="9c248-110">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="9c248-110">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="7ec51-111">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="7ec51-111">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9c248-111">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="9c248-111">Attributes</span></span>
 
-<span data-ttu-id="7ec51-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="7ec51-112">None.</span></span>
+<span data-ttu-id="9c248-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="9c248-112">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="7ec51-113">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="7ec51-113">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9c248-113">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="9c248-113">Child elements</span></span>
 
-<span data-ttu-id="7ec51-114">Нет.</span><span class="sxs-lookup"><span data-stu-id="7ec51-114">None.</span></span>
+<span data-ttu-id="9c248-114">Нет.</span><span class="sxs-lookup"><span data-stu-id="9c248-114">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="7ec51-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="7ec51-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="9c248-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="9c248-115">Parent elements</span></span>
 
-|<span data-ttu-id="7ec51-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="7ec51-116">**Element**</span></span>|<span data-ttu-id="7ec51-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="7ec51-117">**Description**</span></span>|
+|<span data-ttu-id="9c248-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="9c248-116">**Element**</span></span>|<span data-ttu-id="9c248-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="9c248-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7ec51-118">Пользователь (POX)</span><span class="sxs-lookup"><span data-stu-id="7ec51-118">User (POX)</span></span>](user-pox.md) <br/> |<span data-ttu-id="7ec51-119">Предоставляет сведения о пользователе.</span><span class="sxs-lookup"><span data-stu-id="7ec51-119">Provides user-specific information.</span></span>  <br/> |
+|[<span data-ttu-id="9c248-118">Пользователь (POX)</span><span class="sxs-lookup"><span data-stu-id="9c248-118">User (POX)</span></span>](user-pox.md) <br/> |<span data-ttu-id="9c248-119">Предоставляет сведения, относящиеся к пользователю.</span><span class="sxs-lookup"><span data-stu-id="9c248-119">Provides user-specific information.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="7ec51-120">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="7ec51-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="9c248-120">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="9c248-120">Text value</span></span>
 
-<span data-ttu-id="7ec51-121">Текстовое значение представляет отображаемое имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="7ec51-121">The text value represents the user's display name.</span></span>
+<span data-ttu-id="9c248-121">Текстовое значение представляет отображаемое имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="9c248-121">The text value represents the user's display name.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="7ec51-122">См. также</span><span class="sxs-lookup"><span data-stu-id="7ec51-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9c248-122">См. также</span><span class="sxs-lookup"><span data-stu-id="9c248-122">See also</span></span>
 
-- [<span data-ttu-id="7ec51-123">Элементы XML автоматического обнаружения POX для Exchange</span><span class="sxs-lookup"><span data-stu-id="7ec51-123">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
+- [<span data-ttu-id="9c248-123">XML-элементы автообнаружения POX для Exchange</span><span class="sxs-lookup"><span data-stu-id="9c248-123">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
 
