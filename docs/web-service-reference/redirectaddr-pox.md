@@ -1,5 +1,5 @@
 ---
-title: RedirectAddr (POX)
+title: Редиректаддр (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 0e9fa6b6-7991-4dc1-a59a-48e5f8e041e4
-description: Элемент RedirectAddr указывает адрес электронной почты, который следует использовать для последующего запроса службы автообнаружения.
+description: Элемент Редиректаддр указывает адрес электронной почты, который будет использоваться для последующего запроса автообнаружения.
 ms.openlocfilehash: fe15054b9962fc2decf52ac3c42536e36358948a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,17 +16,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835020"
 ---
-# <a name="redirectaddr-pox"></a>RedirectAddr (POX)
+# <a name="redirectaddr-pox"></a>Редиректаддр (POX)
 
-Элемент **RedirectAddr** указывает адрес электронной почты, который следует использовать для последующего запроса службы автообнаружения. 
+Элемент **редиректаддр** указывает адрес электронной почты, который будет использоваться для последующего запроса автообнаружения. 
   
-[Автообнаружение (POX)](autodiscover-pox.md)
+[Служба автообнаружения (POX)](autodiscover-pox.md)
   
 [Ответ (POX)](response-pox.md)
   
 [Учетная запись (POX)](account-pox.md)
   
-[RedirectAddr (POX)](redirectaddr-pox.md)
+[Редиректаддр (POX)](redirectaddr-pox.md)
   
 ```xml
 <RedirectAddr/>
@@ -34,7 +34,7 @@ ms.locfileid: "19835020"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -52,15 +52,15 @@ ms.locfileid: "19835020"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет адрес электронной почты, который следует использовать для последующего запроса службы автообнаружения.
+Текстовое значение представляет адрес электронной почты, который будет использоваться для последующего запроса автообнаружения.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Если этот элемент присутствует в ответ службы автообнаружения, для выполнения другой запроса с помощью текстовое значение элемента **RedirectAddr** . 
+Если этот элемент присутствует в ответе автообнаружения, выполните другой запрос, используя текстовое значение элемента **редиректаддр** . 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

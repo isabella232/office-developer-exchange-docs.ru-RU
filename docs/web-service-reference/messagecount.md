@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5efc5903-fcb3-44cf-aabb-b6912268df8e
-description: Элемент MessageCount содержит общее число элементов беседы в текущую папку.
+description: Элемент MessageCount содержит общее число элементов беседы в текущей папке.
 ms.openlocfilehash: e598192d8a8eef84706de08245185c9b8d9a5b7f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,9 +21,9 @@ ms.locfileid: "19834453"
 ---
 # <a name="messagecount"></a>MessageCount
 
-Элемент **MessageCount** содержит общее число элементов беседы в текущую папку. 
+Элемент **MessageCount** содержит общее число элементов беседы в текущей папке. 
   
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
@@ -38,7 +38,7 @@ ms.locfileid: "19834453"
  **xs: int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -56,9 +56,9 @@ ms.locfileid: "19834453"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **MessageCount** — общее количество элементов беседы в папке. 
+Текстовое значение элемента **MessageCount** — это общее количество элементов бесед в папке. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -68,7 +68,7 @@ ms.locfileid: "19834453"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

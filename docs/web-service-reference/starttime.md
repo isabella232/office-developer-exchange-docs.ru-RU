@@ -1,5 +1,5 @@
 ---
-title: Время начала
+title: StartTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1fac7937-7a06-4d66-9d2a-14423bcb3b37
-description: Элемент StartTime представляет Пуск промежуток времени.
+description: Элемент StartTime представляет начало интервала времени.
 ms.openlocfilehash: 4346797d755bb6e577e1cacb8bec656a7562bf1f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835560"
 ---
-# <a name="starttime"></a>Время начала
+# <a name="starttime"></a>StartTime
 
-Элемент **StartTime** представляет Пуск промежуток времени. 
+Элемент **StartTime** представляет начало интервала времени. 
   
 ```xml
 <StartTime/
 ```
 
-**dateTime**
+**дата и время**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,20 +45,20 @@ ms.locfileid: "19835560"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Значение TimeWindow](timewindow.md) <br/> |Определяет период времени, запрос пользователя сведений о доступности.  <br/><br/> Ниже приведен выражение XPath для этого элемента.  <br/><br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions/TimeWindow` <br/> |
-|[DetailedSuggestionsWindow](detailedsuggestionswindow.md) <br/> |Определяет период времени, который будет опрошен на наличие подробные сведения о времени предложенного собрания.  <br/><br/> Ниже приведен выражение XPath для этого элемента. <br/> <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions/DetailedSuggestionsWindow` <br/> |
-|[Продолжительность (UserOofSettings)](duration-useroofsettings.md) <br/> | Указывает, во время выполнения, для которого включен состояние об отсутствии на работе Office (OOF), если элемент [OofState](oofstate.md) задано значение **расписанию**.  <br/><br/>  Ниже приведены возможные выражения XPath для этого элемента. <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/Duration` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/Duration` <br/> |
-|[CalendarEvent](calendarevent.md) <br/> |Представляет вхождение элемента уникальный календаря. Используется для обеспечения доступности запросы. Элемент **StartTime** является обязательным в элементе **CalendarEvent** . **Время начала** элемент в элементе **CalendarEvent** является уникальным для типа **CalendarEvent** , несмотря на то, что он содержит те же значения аспекта, которые содержат элементы **StartTime** в тип **длительность** .  <br/><br/> Ниже приведен выражение XPath для этого элемента.  <br/> <br/> `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
+|[TimeWindow](timewindow.md) <br/> |Определяет интервал времени, запрошенный для сведений о доступности пользователя.  <br/><br/> Ниже приведено выражение XPath для этого элемента:  <br/><br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions/TimeWindow` <br/> |
+|[детаиледсугжестионсвиндов](detailedsuggestionswindow.md) <br/> |Определяет интервал времени, на который запрашивается подробная информация о предложенном времени проведения собрания.  <br/><br/> Ниже приведено выражение XPath для этого элемента: <br/> <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions/DetailedSuggestionsWindow` <br/> |
+|[Продолжительность (Усеруфсеттингс)](duration-useroofsettings.md) <br/> | Указывает срок, в течение которого состояние отсутствия на работе (отсутствие на работе) включается, если для элемента [уфстате](oofstate.md) задано значение " **запланировано**".  <br/><br/>  Ниже приведены возможные выражения XPath для этого элемента. <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/Duration` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/Duration` <br/> |
+|[календаревент](calendarevent.md) <br/> |Представляет уникальное вхождение элемента календаря. Используется для запросов о доступности. Элемент **StartTime** необходим в элементе **календаревент** . Элемент **StartTime** в элементе **календаревент** уникален для типа **календаревент** , несмотря на то, что он содержит те же значения аспекта, что и элементы **StartTime** в типе **Duration** .  <br/><br/> Ниже приведено выражение XPath для этого элемента:  <br/> <br/> `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным.
+Необходимо указать текстовое значение.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент [EndTime](endtime.md) представляет конец периода времени. 
+Элемент [EndTime](endtime.md) представляет конец интервала времени. 
   
-Схема включает в себя многие [StartTime](starttime.md) элементы. 
+Схема включает множество элементов [StartTime](starttime.md) . 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
@@ -69,7 +69,7 @@ ms.locfileid: "19835560"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

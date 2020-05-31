@@ -1,5 +1,5 @@
 ---
-title: MaximumResultsByDay
+title: максимумресултсбидай
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: d581a12a-2b8e-4960-ae14-c8c4aa0b1849
-description: Элемент MaximumResultsByDay указывает, сколько раз предложенного собрания в день, возвращаемого в ответе.
+description: Элемент Максимумресултсбидай указывает количество предложенных времени проведения собрания в день, возвращенный в ответе.
 ms.openlocfilehash: 69ab4e0b23f85e5b8786ba2dd934850cadc88f0e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834381"
 ---
-# <a name="maximumresultsbyday"></a>MaximumResultsByDay
+# <a name="maximumresultsbyday"></a>максимумресултсбидай
 
-Элемент **MaximumResultsByDay** указывает, сколько раз предложенного собрания в день, возвращаемого в ответе. 
+Элемент **максимумресултсбидай** указывает количество предложенных времени проведения собрания в день, возвращенный в ответе. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-[SuggestionsViewOptions](suggestionsviewoptions.md)
+[сугжестионсвиевоптионс](suggestionsviewoptions.md)
   
-[MaximumResultsByDay](maximumresultsbyday.md)
+[максимумресултсбидай](maximumresultsbyday.md)
   
 ```xml
 <MaximumResultsByDay>...</MaximumResultsByDay>
@@ -37,7 +37,7 @@ ms.locfileid: "19834381"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -51,18 +51,18 @@ ms.locfileid: "19834381"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведения о предложения о собрании.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Текстовое значение представляет собой целое число.
+Необходимо указать текстовое значение. Текстовое значение представляет целое число.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент является обязательным, если используется элемент [SuggestionsViewOptions](suggestionsviewoptions.md) . 
+Этот элемент является обязательным, если используется элемент [сугжестионсвиевоптионс](suggestionsviewoptions.md) . 
   
 > [!NOTE]
-> Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft® Exchange Server 2007 с установленной ролью сервера клиентского доступа. 
+> Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает Microsoft® Exchange Server 2007, на котором установлена роль сервера клиентского доступа. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -70,7 +70,7 @@ ms.locfileid: "19834381"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

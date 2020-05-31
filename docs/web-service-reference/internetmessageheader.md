@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c70675f8-6feb-4c89-ba48-bce0479b308b
-description: Элемент InternetMessageHeader представляет заголовок сообщения Интернета для заданного заголовка в коллекции заголовков. Чтобы получить вся коллекция заголовков сообщений Интернета, используйте свойство PR_TRANSPORT_MESSAGE_HEADERS. Дополнительные сведения о веб-служб Exchange и Интернет заголовки сообщений, seeGetting заголовков сообщений Интернета в веб-служб Exchange, MIME и отсутствующие заголовков сообщений Интернета.
+description: Элемент InternetMessageHeader представляет заголовок Интернет-сообщения для данного заголовка в коллекции заголовков. Чтобы получить всю коллекцию заголовков сообщений Интернета, используйте свойство PR_TRANSPORT_MESSAGE_HEADERS. Для получения дополнительных сведений о службах EWS и заголовках сообщений Интернета Сижеттинг в службах EWS, MIME и отсутствующих заголовках сообщений через Интернет.
 ms.openlocfilehash: 9457cdabe99c0adcb8183cbc039cc86db881fec7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,22 +21,22 @@ ms.locfileid: "19833952"
 ---
 # <a name="internetmessageheader"></a>InternetMessageHeader
 
-Элемент **InternetMessageHeader** представляет заголовок сообщения Интернета для заданного заголовка в коллекции заголовков. Чтобы получить вся коллекция заголовков сообщений Интернета, используйте свойство **PR_TRANSPORT_MESSAGE_HEADERS** . Дополнительные сведения о веб-служб Exchange и Интернет заголовки сообщений в разделе «Приступая к Интернету заголовки сообщений в [веб-служб Exchange, MIME и отсутствующие заголовков сообщений Интернета](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx).
+Элемент **InternetMessageHeader** представляет заголовок Интернет-сообщения для данного заголовка в коллекции заголовков. Чтобы получить всю коллекцию заголовков сообщений Интернета, используйте свойство **PR_TRANSPORT_MESSAGE_HEADERS** . Дополнительные сведения о службах EWS и заголовках сообщений в Интернете приведены в статье "как заголовки сообщений Интернета в [EWS, MIME и отсутствующие заголовки сообщений в Интернете](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx)".
   
 ```XML
 <InternetMessageHeader HeaderName=""/>
 ```
 
- **InternetHeaderType**
+ **интернесеадертипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**HeaderName** <br/> |Определяет имя заголовка.  <br/> |
+|**хеадернаме** <br/> |Определяет имя заголовка.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -46,15 +46,15 @@ ms.locfileid: "19833952"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Представляет коллекцию всех заголовков сообщений Интернета, содержащихся в элемента в почтовом ящике.  <br/> |
+|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Представляет коллекцию всех заголовков сообщений Интернета, которые находятся в элементе почтового ящика.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет значение для заголовка.
+Текстовое значение представляет значение заголовка.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Ниже приведен управляемый API EWS расширенные определений для свойства **PR_TRANSPORT_MESSAGE_HEADERS** . 
+Ниже приведено определение расширенного свойства управляемого API EWS для свойства **PR_TRANSPORT_MESSAGE_HEADERS** . 
   
 ```cs
 ExtendedPropertyDefinition transportMsgHdr = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);
@@ -68,7 +68,7 @@ ExtendedPropertyDefinition transportMsgHdr = new ExtendedPropertyDefinition(0x00
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -78,5 +78,5 @@ ExtendedPropertyDefinition transportMsgHdr = new ExtendedPropertyDefinition(0x00
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Веб-служб Exchange, MIME и отсутствующие заголовков сообщений Интернета](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx)
+[EWS, MIME и отсутствующие заголовки сообщений Интернета](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx)
 

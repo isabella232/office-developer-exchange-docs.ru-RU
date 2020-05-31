@@ -1,5 +1,5 @@
 ---
-title: SetUserOofSettingsResponse
+title: сетусеруфсеттингсреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8aa4025b-38df-4d63-a6a5-c3b932bec26e
-description: Элемент SetUserOofSettingsResponse содержит результат попытку SetUserOofSettingsRequest сообщение.
+description: Элемент Сетусеруфсеттингсреспонсе содержит результат попытки сообщения Сетусеруфсеттингсрекуест.
 ms.openlocfilehash: ab2eaaad1b7b094baad724ec56f4c26280f1f15f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835471"
 ---
-# <a name="setuseroofsettingsresponse"></a>SetUserOofSettingsResponse
+# <a name="setuseroofsettingsresponse"></a>сетусеруфсеттингсреспонсе
 
-Элемент **SetUserOofSettingsResponse** содержит результат попытку [SetUserOofSettingsRequest](setuseroofsettingsrequest.md) сообщение. 
+Элемент **сетусеруфсеттингсреспонсе** содержит результат попытки сообщения [сетусеруфсеттингсрекуест](setuseroofsettingsrequest.md) . 
   
 ```xml
 <SetUserOofSettingsResponse>
@@ -29,10 +29,10 @@ ms.locfileid: "19835471"
 <SetUserOofSettingsResponse>
 ```
 
- **SetUserOofSettingsResponse**
+ **сетусеруфсеттингсреспонсе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19835471"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> |Содержит описательные сведения о состоянии ответа.  <br/> |
+|[респонсемессаже](responsemessage.md) <br/> |Предоставляет описательные сведения о состоянии отклика.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19835471"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

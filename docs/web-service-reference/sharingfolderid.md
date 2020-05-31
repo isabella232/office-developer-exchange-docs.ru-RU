@@ -1,5 +1,5 @@
 ---
-title: SharingFolderId
+title: шарингфолдерид
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5ad37ceb-2922-4420-9051-c29d0d57c420
-description: Элемент SharingFolderId представляет идентификатор локальной папки в отношении общего доступа.
+description: Элемент Шарингфолдерид представляет идентификатор локальной папки в отношении общего доступа.
 ms.openlocfilehash: e0eb1fbd7155040508daf253f5eb4b1352d7426d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,25 +19,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835485"
 ---
-# <a name="sharingfolderid"></a>SharingFolderId
+# <a name="sharingfolderid"></a>шарингфолдерид
 
-Элемент **SharingFolderId** представляет идентификатор локальной папки в отношении общего доступа. 
+Элемент **шарингфолдерид** представляет идентификатор локальной папки в отношении общего доступа. 
   
 ```xml
 <SharingFolderId Id="" ChangeKey="" />
 ```
 
- **FolderIdType**
+ **фолдеридтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|Id  <br/> |Содержит строку, которая определяет папке в хранилище Exchange. Этот атрибут является обязательным.  <br/> |
-|ChangeKey  <br/> |Содержит строку, которая определяет к папке, которая определена в атрибуте Id версии. Этот атрибут является необязательным. Этот атрибут используется, чтобы убедиться в том, что используется правильный версии папки.  <br/> |
+|Id  <br/> |Содержит строку, определяющую папку в хранилище Exchange. Этот атрибут является обязательным.  <br/> |
+|чанжекэй  <br/> |Содержит строку, определяющую версию папки, определяемую атрибутом ID. Этот атрибут является необязательным. Используйте этот атрибут, чтобы убедиться, что используется правильная версия папки.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -47,13 +47,13 @@ ms.locfileid: "19835485"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RefreshSharingFolder](refreshsharingfolder.md) <br/> |Определяет запрос на обновление указанного локальную папку.  <br/> |
-|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |Определяет ответ на запрос [GetSharingFolder операции](getsharingfolder-operation.md) .  <br/> |
-|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [GetSharingFolder операции](getsharingfolder-operation.md) .  <br/> |
+|[RefreshSharingFolder](refreshsharingfolder.md) <br/> |Определяет запрос на обновление указанной локальной папки.  <br/> |
+|[жетшарингфолдерреспонсе](getsharingfolderresponse.md) <br/> |Определяет ответ на запрос [операции GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
+|[жетшарингфолдерреспонсемессаже](getsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в IIS виртуального каталога веб-служб Exchange узлов компьютера, на котором выполняется Microsoft Exchange Server, на наличие установлена роль сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, на котором размещены веб-службы Exchange компьютера, на котором установлен сервер Microsoft Exchange, на котором установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -61,7 +61,7 @@ ms.locfileid: "19835485"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: TTL (ClientAccessTokenTypeType)
+title: TTL (Клиентакцесстокентипетипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cc8f8caa-fced-49b6-9861-d112590b218a
-description: Элемент TTL указывает срок жизни значение для маркера.
+description: Элемент TTL указывает срок жизни (TTL) для маркера.
 ms.openlocfilehash: 04bd8124c7bd2b02e2ab1cc47ee1d4dca4847079
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840243"
 ---
-# <a name="ttl-clientaccesstokentypetype"></a>TTL (ClientAccessTokenTypeType)
+# <a name="ttl-clientaccesstokentypetype"></a>TTL (Клиентакцесстокентипетипе)
 
-Элемент **TTL** Указывает срок жизни значение для маркера. 
+Элемент **TTL** указывает срок жизни (TTL) для маркера. 
   
 ```XML
 <TTL></TTL>
 ```
 
- **целое число**
+ **положительн**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19840243"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[TokenRequest](tokenrequest.md) | [маркеров](token.md)
+[TokenRequest](tokenrequest.md) | [Маркер](token.md) токенрекуест
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение для элемента **TTL** указывает, как долго маркер действителен. 
+Текстовое значение для элемента **TTL** указывает, сколько времени токен остается действительным. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19840243"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

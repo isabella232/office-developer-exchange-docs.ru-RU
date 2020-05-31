@@ -1,5 +1,5 @@
 ---
-title: LegacyFreeBusyStatus
+title: легацифрибусистатус
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ee5f3046-b79f-4f68-9455-1a688cee2745
-description: Элемент LegacyFreeBusyStatus представляет состояния занятости элемента календаря.
+description: Элемент Легацифрибусистатус представляет сведения о занятости элемента календаря.
 ms.openlocfilehash: 681d7256dbef09c6c43d33ea1fc92b5d05e73a41
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834247"
 ---
-# <a name="legacyfreebusystatus"></a>LegacyFreeBusyStatus
+# <a name="legacyfreebusystatus"></a>легацифрибусистатус
 
-Элемент **LegacyFreeBusyStatus** представляет состояния занятости элемента календаря. 
+Элемент **легацифрибусистатус** представляет сведения о занятости элемента календаря. 
   
 ```xml
 <LegacyFreeBusyStatus/>
 ```
 
-**LegacyFreeBusyType**
+**легацифрибуситипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,21 +45,21 @@ ms.locfileid: "19834247"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Для этого элемента требуется указать текстовое значение. Ниже приведены возможные значения для этого элемента.
+Для этого элемента требуется указать текстовое значение. Ниже приведены возможные текстовые значения для этого элемента:
   
 - Свободна 
-- Под вопросом
+- Занят
 - Занята
-- ОБ ОТСУТСТВИИ НА РАБОТЕ
-- WorkingElsewhere
+- OOF
+- воркинжелсевхере
 - NoData
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -69,7 +69,7 @@ ms.locfileid: "19834247"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

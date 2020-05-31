@@ -1,5 +1,5 @@
 ---
-title: IsNotSupported
+title: иснотсуппортед
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4db469ae-1515-47ea-9905-6aabf199febd
-description: Элемент IsNotSupported указывает, не может быть изменения правила с помощью управляемого кода API-интерфейсы.
+description: Элемент Иснотсуппортед указывает, не может ли правило измениться с помощью API управляемого кода.
 ms.openlocfilehash: 2468d47dbfdcaf1a28ed1a4afb1e7ea60147d1dc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834057"
 ---
-# <a name="isnotsupported"></a>IsNotSupported
+# <a name="isnotsupported"></a>иснотсуппортед
 
-Элемент **IsNotSupported** указывает, не может быть изменения правила с помощью управляемого кода API-интерфейсы. 
+Элемент **иснотсуппортед** указывает, не может ли правило измениться с помощью API управляемого кода. 
   
 ```XML
 <IsNotSupported/>
@@ -30,7 +30,7 @@ ms.locfileid: "19834057"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,9 +48,9 @@ ms.locfileid: "19834057"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true,** указывает, что правило не может изменяться с помощью управляемого кода API-интерфейсы. Значение **false** указывает, что правило можно изменить с помощью управляемого кода API-интерфейсы. 
+Текстовое значение **true** указывает, что правило невозможно изменить с помощью API управляемого кода. Значение **false** указывает, что правило можно изменить с помощью API управляемого кода. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19834057"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

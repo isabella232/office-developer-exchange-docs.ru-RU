@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c99e9a60-9e38-425d-ad03-47c8917f41da
-description: Элемент MeetingSuggestions указывает массив MeetingSuggestion элементов, содержащих результаты извлечения сущности.
+description: Элемент MeetingSuggestions указывает массив элементов свойства meetingsuggestion, содержащих результаты извлечения сущностей.
 ms.openlocfilehash: b2b3e93101a9ae2ad4241e6aad79825c190c5222
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834437"
 ---
 # <a name="meetingsuggestions"></a>MeetingSuggestions
 
-Элемент **MeetingSuggestions** указывает массив **MeetingSuggestion** элементов, содержащих результаты извлечения сущности. 
+Элемент **MeetingSuggestions** указывает массив элементов **Свойства meetingsuggestion** , содержащих результаты извлечения сущностей. 
   
 ```XML
 <MeetingSuggestions>
@@ -25,10 +25,10 @@ ms.locfileid: "19834437"
 </MeetingSuggestions>
 ```
 
- **ArrayOfMeetingSuggestionsType**
+ **аррайофмитингсугжестионстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,9 +40,9 @@ ms.locfileid: "19834437"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[EntityExtractionResult](entityextractionresult.md)
+[ентитекстрактионресулт](entityextractionresult.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19834437"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

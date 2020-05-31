@@ -1,5 +1,5 @@
 ---
-title: SuggestionDayResultArray
+title: сугжестиондайресултаррай
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: eeba9eff-5eca-4002-b5a5-8fb794feaba1
-description: Элемент SuggestionDayResultArray содержит массив приглашений на собрания предложения, упорядоченные по дате.
+description: Элемент Сугжестиондайресултаррай содержит массив предложений о собрании, организованных по дате.
 ms.openlocfilehash: c208104356606a5d9961461ad8743a772d2410d8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840113"
 ---
-# <a name="suggestiondayresultarray"></a>SuggestionDayResultArray
+# <a name="suggestiondayresultarray"></a>сугжестиондайресултаррай
 
-Элемент **SuggestionDayResultArray** содержит массив приглашений на собрания предложения, упорядоченные по дате. 
+Элемент **сугжестиондайресултаррай** содержит массив предложений о собрании, организованных по дате. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[SuggestionsResponse](suggestionsresponse.md)
+[сугжестионсреспонсе](suggestionsresponse.md)
   
-[SuggestionDayResultArray](suggestiondayresultarray.md)
+[сугжестиондайресултаррай](suggestiondayresultarray.md)
   
 ```xml
 <SuggestionDayResultArray>
@@ -35,10 +35,10 @@ ms.locfileid: "19840113"
 </SuggestionDayResultArray>
 ```
 
- **ArrayOfSuggestionDayResult**
+ **аррайофсугжестиондайресулт**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,15 +48,15 @@ ms.locfileid: "19840113"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |Представляет один день, который содержит время предложенного собрания.  <br/> |
+|[сугжестиондайресулт](suggestiondayresult.md) <br/> |Представляет один день, который содержит предложенное время проведения собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionsResponse](suggestionsresponse.md) <br/> |Содержит сведения и предложения о данные ответа для запроса предложений о собрании  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
+|[сугжестионсреспонсе](suggestionsresponse.md) <br/> |Содержит данные ответа и предложения для запрошенных предложений о собрании  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -66,7 +66,7 @@ ms.locfileid: "19840113"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -75,7 +75,7 @@ ms.locfileid: "19840113"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 766878e3-9007-454f-8501-45139bc5c0e2
-description: Элемент RemoveItem представляет объект ответа, который используется для удаления элемента собрания при получении сообщения MeetingCancellation.
+description: Элемент RemoveItem представляет объект Response, который используется для удаления элемента собрания при получении сообщения Митингканцеллатион.
 ms.openlocfilehash: 6897363eba602e6a135ad255822197f9296dd44a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19835108"
 ---
 # <a name="removeitem"></a>RemoveItem
 
-Элемент **RemoveItem** представляет объект ответа, который используется для удаления элемента собрания при получении сообщения MeetingCancellation. 
+Элемент **RemoveItem** представляет объект Response, который используется для удаления элемента собрания при получении сообщения митингканцеллатион. 
   
 ```xml
 <RemoveItem ObjectName="">
@@ -29,40 +29,40 @@ ms.locfileid: "19835108"
 </RemoveItem>
 ```
 
- **RemoveItemType**
+ **ремовеитемтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**Имя объекта** <br/> |Представляет имя объекта класса RemoveItem ответ в виде строки на английском языке.  <br/> |
+|**ObjectName** <br/> |Представляет имя класса объекта ответа RemoveItem в виде строки на английском языке.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ReferenceItemId](referenceitemid.md) <br/> |Определяет элемент, к которому относится объект ответа RemoveItem.  <br/> |
+|[референцеитемид](referenceitemid.md) <br/> |Определяет элемент, на который ссылается объект ответа RemoveItem.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элементы (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Содержит массив элементов для создания в папке, указанной с помощью элемента [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) .  <br/> |
-|[ResponseObjects](responseobjects.md) <br/> |Содержит коллекцию всех объектов ответа, которые связаны с элемента в хранилище Exchange.  <br/> |
+|[Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md) <br/> |Содержит массив элементов для создания в папке, определяемой элементом [ParentFolderId (таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md) .  <br/> |
+|[респонсеобжектс](responseobjects.md) <br/> |Содержит коллекцию всех объектов ответа, связанных с элементом в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
- **RemoveItem** действителен только в [MeetingCancellation](meetingcancellation.md). В противном случае возникает ошибка.
+ **RemoveItem** является допустимым только для [митингканцеллатион](meetingcancellation.md). В противном случае возникает ошибка.
   
 > [!NOTE]
-> [ItemClass](itemclass.md) для отмены собрания — IPM. Schedule.Meeting.Canceled. 
+> [ItemClass](itemclass.md) для отмены собрания — IPM. Schedule. Meeting. Canceled. 
   
-Чтобы удалить [MeetingRequest](meetingrequest.md) и связанного [элемента календаря, имеющего](calendaritem.md), используйте объект ответа [DeclineItem](declineitem.md) вместо **RemoveItem**.
+Чтобы удалить объект [свойство meetingrequest](meetingrequest.md) и связанный с ним [Календаритем](calendaritem.md), вместо **RemoveItem**используйте объект отклика [деклинеитем](declineitem.md) .
   
- **RemoveItem** не поддерживается для делегированный доступ. 
+ **RemoveItem** не поддерживается для делегированного доступа. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -72,7 +72,7 @@ ms.locfileid: "19835108"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

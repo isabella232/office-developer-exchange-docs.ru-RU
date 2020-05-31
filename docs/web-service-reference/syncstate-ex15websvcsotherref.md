@@ -1,5 +1,5 @@
 ---
-title: Состояние
+title: синкстате
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e5ebaae3-0f07-481d-ac67-d9687a3c7ac3
-description: Элемент состояние содержит кодировки Base64 формы данных синхронизации, который обновляется после каждого успешного запроса. Используется для определения состояния синхронизации.
+description: Элемент Синкстате содержит форму синхронизации данных с кодировкой base64, которая обновляется после каждого успешного выполнения запроса. Используется для определения состояния синхронизации.
 ms.openlocfilehash: 3c600dde09fd813dcfb1f6e74671ebe9004701a1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840131"
 ---
-# <a name="syncstate"></a>Состояние
+# <a name="syncstate"></a>синкстате
 
-Элемент **состояние** содержит кодировки Base64 формы данных синхронизации, который обновляется после каждого успешного запроса. Используется для определения состояния синхронизации. 
+Элемент **синкстате** содержит форму синхронизации данных с кодировкой base64, которая обновляется после каждого успешного выполнения запроса. Используется для определения состояния синхронизации. 
   
 ```xml
 <SyncState/>
 ```
 
- **Строка**
+ **String**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,16 +44,16 @@ ms.locfileid: "19840131"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SyncFolderHierarchy](syncfolderhierarchy.md) <br/> |Определяет запрос для синхронизации иерархии папок на клиенте.  <br/> |
-|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderHierarchy.  <br/> |
-|[SyncFolderItems](syncfolderitems.md) <br/> |Определяет запрос для синхронизации элементов в папке хранилища Exchange.  <br/> |
-|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderItems.  <br/> |
+|[SyncFolderHierarchy](syncfolderhierarchy.md) <br/> |Определяет запрос на синхронизацию иерархии папок в клиенте.  <br/> |
+|[синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderHierarchy.  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Определяет запрос на синхронизацию элементов в папке хранилища Exchange.  <br/> |
+|[синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderItems.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным, если используется этот элемент.
+При использовании этого элемента необходимо указать текстовое значение.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -63,7 +63,7 @@ ms.locfileid: "19840131"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

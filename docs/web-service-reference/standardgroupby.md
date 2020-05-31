@@ -1,5 +1,5 @@
 ---
-title: StandardGroupBy
+title: стандардграупби
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 04a84f71-b7eb-44dc-ac2c-ed504b52c463
-description: Элемент StandardGroupBy представляет стандартный группировки и сбор механизмы для группированных FindItem операции.
+description: Элемент Стандардграупби представляет стандартные механизмы группирования и агрегирования для операции сгруппированной операции FindItem.
 ms.openlocfilehash: 8e2ec72a79ebafc2e5757d6dcebb27c0c53ec0b5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,24 +19,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835542"
 ---
-# <a name="standardgroupby"></a>StandardGroupBy
+# <a name="standardgroupby"></a>стандардграупби
 
-Элемент **StandardGroupBy** представляет стандартный группировки и сбор механизмы для группированных FindItem операции. 
+Элемент **стандардграупби** представляет стандартные механизмы группирования и агрегирования для операции сгруппированной операции FindItem. 
   
 [FindItem](finditem.md)
   
-[DistinguishedGroupBy](distinguishedgroupby.md)
+[дистингуишедграупби](distinguishedgroupby.md)
   
-[StandardGroupBy](standardgroupby.md)
+[стандардграупби](standardgroupby.md)
   
 ```xml
 <StandardGroupBy/>
 ```
 
- **StandardGroupByType**
+ **стандардграупбитипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,13 +50,13 @@ ms.locfileid: "19835542"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |Содержит стандартные группы для запросов FindItem.  <br/> |
+|[дистингуишедграупби](distinguishedgroupby.md) <br/> |Предоставляет стандартные группирования для запросов FindItem.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Только одно значение, которое может использоваться для этого элемента — **ConversationTopic**. **ConversationTopic** группы сообщений: ConversationTopic и статистические выражения на элемент: DateTimeReceived (максимум). Дополнительные сведения о объединение можно [AggregateOn](aggregateon.md).
+Необходимо указать текстовое значение. Для этого элемента можно использовать только значение **ConversationTopic**. **ConversationTopic** группы по сообщению: ConversationTopic и статистические выражения для элемента: DateTimeReceived (Maximum). Дополнительные сведения о агрегации приведены в разделе [аггрегатеон](aggregateon.md).
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -66,14 +66,14 @@ ms.locfileid: "19835542"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[FindItem Operation](finditem-operation.md)
+[Операция FindItem](finditem-operation.md)
   
 [FindItem](finditem.md)
 

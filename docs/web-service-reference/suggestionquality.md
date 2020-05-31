@@ -1,5 +1,5 @@
 ---
-title: SuggestionQuality
+title: сугжестионкуалити
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 734f1a58-adda-4830-973e-e84bf7b870d5
-description: Элемент SuggestionQuality представляет качества предложенного собрания.
+description: Элемент Сугжестионкуалити представляет качество предполагаемого времени проведения собрания.
 ms.openlocfilehash: e67e0149226b36c22cdd00acd78f6582f826dd3e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,32 +19,32 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840112"
 ---
-# <a name="suggestionquality"></a>SuggestionQuality
+# <a name="suggestionquality"></a>сугжестионкуалити
 
-Элемент **SuggestionQuality** представляет качества предложенного собрания. 
+Элемент **сугжестионкуалити** представляет качество предполагаемого времени проведения собрания. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[SuggestionsResponse](suggestionsresponse.md)
+[сугжестионсреспонсе](suggestionsresponse.md)
   
-[SuggestionDayResultArray](suggestiondayresultarray.md)
+[сугжестиондайресултаррай](suggestiondayresultarray.md)
   
-[SuggestionDayResult](suggestiondayresult.md)
+[сугжестиондайресулт](suggestiondayresult.md)
   
-[SuggestionArray](suggestionarray.md)
+[сугжестионаррай](suggestionarray.md)
   
-[Предложения](suggestion.md)
+[Предложение](suggestion.md)
   
-[SuggestionQuality](suggestionquality.md)
+[сугжестионкуалити](suggestionquality.md)
   
 ```xml
 <SuggestionQuality>Excellent or Good or Fair or Poor</SuggestionQuality>
 ```
 
- **SuggestionQuality**
+ **сугжестионкуалити**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -58,23 +58,23 @@ ms.locfileid: "19840112"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Предложения](suggestion.md) <br/> |Представляет один предложения о времени на собрания.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[Предложение](suggestion.md) <br/> |Представляет один вариант времени собрания.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее значение **SuggestionQuality** является обязательным. Ниже перечислены возможные значения. 
+Текстовое значение, представляющее значение **сугжестионкуалити** , является обязательным. Ниже перечислены возможные значения. 
   
-- **Отличное** 100 процентов пользователей и ресурсов, доступных для предложенного собрания. 
+- Для предложенного времени собраний доступно **отличное** 100 процентов пользователей и ресурсов. 
     
-- **Хороший** Минимальный процент пользователей и ресурсы, доступные равно или больше, чем значение элемента [GoodThreshold](goodthreshold.md) плюс 50. 
+- **Хороший** Минимальный процент доступных пользователей и ресурсов равен или больше значения элемента [гудсрешолд](goodthreshold.md) плюс 50. 
     
-- **Обычное** Максимальный процент пользователей и ресурсы, доступные для предложенного собрания равно значение элемента [GoodThreshold](goodthreshold.md) плюс 50. Минимальное значение для **Обычное** время собрания качества — 50 процентов. 
+- **Справедливо** Максимальный процент пользователей и ресурсов, доступных для предполагаемого времени проведения собрания, равен значению элемента [гудсрешолд](goodthreshold.md) плюс 50. Минимальное значение времени проведения собрания **Fair** составляет 50 процентов. 
     
-- **Низкий** Меньше 50% пользователей и ресурсов, доступных для предложенного собрания. 
+- **Плохое качество** Для предполагаемого времени проведения собрания доступно менее 50 процентов пользователей и ресурсов. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Тип **SuggestionQuality** также является типом для [DayQuality](dayquality.md) и [MinimumSuggestionQuality](minimumsuggestionquality.md) элементов. 
+Тип **сугжестионкуалити** также является типом для элементов [дайкуалити](dayquality.md) и [минимумсугжестионкуалити](minimumsuggestionquality.md) . 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -84,7 +84,7 @@ ms.locfileid: "19840112"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -93,7 +93,7 @@ ms.locfileid: "19840112"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

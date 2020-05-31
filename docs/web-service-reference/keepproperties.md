@@ -1,5 +1,5 @@
 ---
-title: KeepProperties
+title: киппропертиес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 433f1bdd-2b96-465c-8e9e-e8427fdc2796
-description: Элемент KeepProperties предназначена только для внутреннего использования.
+description: Элемент Киппропертиес предназначен только для внутреннего использования.
 ms.openlocfilehash: e6afbd33269d34d643b60f5844e928c90f58794d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834199"
 ---
-# <a name="keepproperties"></a>KeepProperties
+# <a name="keepproperties"></a>киппропертиес
 
-Элемент **KeepProperties** предназначена только для внутреннего использования. 
+Элемент **киппропертиес** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -35,7 +35,7 @@ ms.locfileid: "19834199"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -47,7 +47,7 @@ ms.locfileid: "19834199"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

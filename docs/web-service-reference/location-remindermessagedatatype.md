@@ -1,5 +1,5 @@
 ---
-title: Расположение (ReminderMessageDataType)
+title: Местоположение (Реминдермессажедататипе)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 173148af-5dda-4322-8d0c-da3ba3780a43
-description: Элемент Location (ReminderMessageDataType) указывает расположение, напоминания для элемента календаря.
+description: Элемент Location (Реминдермессажедататипе) указывает расположение элемента календаря, для которого предназначено напоминание.
 ms.openlocfilehash: 88cc01e42f01f09933fd060080139a69bec104cc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834242"
 ---
-# <a name="location-remindermessagedatatype"></a>Расположение (ReminderMessageDataType)
+# <a name="location-remindermessagedatatype"></a>Местоположение (Реминдермессажедататипе)
 
-Элемент **Location (ReminderMessageDataType)** указывает расположение, напоминания для элемента календаря. 
+Элемент **Location (реминдермессажедататипе)** указывает расположение элемента календаря, для которого предназначено напоминание. 
   
 ```xml
 <Location/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834242"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Памятки](reminder.md)
+[Reminder](reminder.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **расположение** — расположение элемента календаря. 
+Текстовое значение элемента **Location** — это расположение элемента календаря. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,14 +56,14 @@ ms.locfileid: "19834242"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Памятки](reminder.md)
+[Reminder](reminder.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

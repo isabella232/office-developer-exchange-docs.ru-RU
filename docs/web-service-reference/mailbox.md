@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: befc70fd-51cb-4258-884c-80c9050f0e82
-description: Элемент почтового ящика идентифицирует почты объект Active Directory.
+description: Элемент Mailbox определяет объект Active Directory с включенной поддержкой почты.
 ms.openlocfilehash: e9fa21f3678249a9ac13d567b88beaf0177f989f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19834258"
 ---
 # <a name="mailbox"></a>Почтовый ящик
 
-Элемент **почтового ящика** идентифицирует почты объект Active Directory. 
+Элемент **Mailbox** определяет объект Active Directory с включенной поддержкой почты. 
   
 ```XML
 <Mailbox>
@@ -37,7 +37,7 @@ ms.locfileid: "19834258"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -47,52 +47,52 @@ ms.locfileid: "19834258"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (EmailAddressType)](name-emailaddresstype.md) <br/> |Определяет имя почтового ящика пользователя. Этот элемент является необязательным.  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Определяет адрес Simple Mail Transfer Protocol (SMTP) почтового ящика пользователя. Этот элемент является необязательным.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Определяет маршрутизации, используемый для почтового ящика. Значение по умолчанию — SMTP. Этот элемент является необязательным.  <br/> |
+|[Имя (EmailAddressType)](name-emailaddresstype.md) <br/> |Определяет имя пользователя почтового ящика. Этот элемент является необязательным.  <br/> |
+|[EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md) <br/> |Определяет SMTP-адрес пользователя почтового ящика. Этот элемент является необязательным.  <br/> |
+|[Раутингтипе (EmailAddress)](routingtype-emailaddress.md) <br/> |Определяет маршрутизацию, используемую для почтового ящика. По умолчанию используется протокол SMTP. Этот элемент является необязательным.  <br/> |
 |[MailboxType](mailboxtype.md) <br/> |Определяет тип почтового ящика пользователя почтового ящика. Этот элемент является необязательным.  <br/> |
-|[Идентификатор элемента](itemid.md) <br/> |Определяет идентификатор элемента контакта или список рассылки закрытый для получателей из папки Контакты. Этот элемент является необязательным.  <br/> |
+|[Идентификатор](itemid.md) <br/> |Определяет идентификатор контакта или частный список рассылки для получателей из папки "Контакты" пользователя. Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ExpandDL](expanddl.md) <br/> |Определяет запрос на разверните список рассылки. <br/> <br/> Ниже приведен выражение XPath для этого элемента.` /ExpandDL ` <br/> |
+|[ExpandDL](expanddl.md) <br/> |Определяет запрос на развертывание списка рассылки. <br/> <br/> Ниже приведено выражение XPath для этого элемента:` /ExpandDL ` <br/> |
 |[ToRecipients](torecipients.md) <br/> |Содержит массив получателей элемента.  <br/> |
-|[CcRecipients](ccrecipients.md) <br/> |Представляет коллекцию получателей, которые будут получать копии сообщения.  <br/> |
-|[BccRecipients](bccrecipients.md) <br/> |Представляет коллекцию получателей скрытой копии (СК) сообщения электронной почты.  <br/> |
-|[ReplyTo](replyto.md) <br/> |Определяет массив адресов электронной почты, на которые будут отправляться ответы.  <br/> |
-|[Отправитель](sender.md) <br/> |Идентифицирует отправителя элемента.  <br/> |
-|[From](from.md) <br/> |Представляет получателя, у которого было отправлено сообщение.  <br/> |
-|[Организатор](organizer.md) <br/> |Представляет организатора собрания.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> | Идентифицирует папок Microsoft Exchange Server 2007 по умолчанию.  <br/><br/>  Ниже приведены выражения XPath для этого элемента. <br/> <br/>  `/CreateItem/ParentFolderId/DistinguishedFolderId` <br/>  `/CreateFolder/ParentFolderId/DistinguishedFolderId` <br/> |
-|[Решение](resolution.md) <br/> |Содержит одного объекта разрешения.  <br/> |
-|[DLExpansion](dlexpansion.md) <br/> |Содержит массив почтовых ящиков, которые содержатся в списке рассылки.  <br/> |
-|[Attendee](attendee.md) <br/> |Представляет участников и ресурсов для элемента календаря.  <br/> |
-|[CreateManagedFolder](createmanagedfolder.md) <br/> |Определяет запрос на добавление управляемых папок почтового ящика.  <br/> |
-|[Метод AddDelegate](adddelegate.md) <br/> |Определяет запрос на Добавление делегатов к почтовому ящику.  <br/> |
-|[GetDelegate](getdelegate.md) <br/> |Определяет запрос на получение сведений о делегатов к почтовому ящику.  <br/> |
-|[RemoveDelegate](removedelegate.md) <br/> |Определяет запрос для удаления делегатов из почтового ящика.  <br/> |
-|[UpdateDelegate](updatedelegate.md) <br/> |Определяет запрос на обновление делегаты в почтовом ящике.  <br/> |
-|[Получил](receivedby.md) <br/> |Описывает делегат в сценарии доступа делегата.  <br/> |
-|[ReceivedRepresenting](receivedrepresenting.md) <br/> |Описывает участника в сценарии доступа делегата.  <br/> |
-|[Элемент](member-ex15websvcsotherref.md) <br/> |Представляет элемент в список рассылки.  <br/> |
+|[CcRecipients](ccrecipients.md) <br/> |Представляет коллекцию получателей, которые будут получать копию сообщения.  <br/> |
+|[BccRecipients](bccrecipients.md) <br/> |Представляет коллекцию получателей для получения скрытой копии сообщения электронной почты.  <br/> |
+|[ReplyTo](replyto.md) <br/> |Определяет массив адресов электронной почты, в которые должны отправляться ответы.  <br/> |
+|[Sender](sender.md) <br/> |Определяет отправителя элемента.  <br/> |
+|[From](from.md) <br/> |Представляет адрес получателя, от которого было отправлено сообщение.  <br/> |
+|[Organizer](organizer.md) <br/> |Представляет организатор собрания.  <br/> |
+|[дистингуишедфолдерид](distinguishedfolderid.md) <br/> | Определяет стандартные папки Microsoft Exchange Server 2007.  <br/><br/>  Ниже приведены выражения XPath для этого элемента. <br/> <br/>  `/CreateItem/ParentFolderId/DistinguishedFolderId` <br/>  `/CreateFolder/ParentFolderId/DistinguishedFolderId` <br/> |
+|[Resolution](resolution.md) <br/> |Содержит одну разрешенную сущность.  <br/> |
+|[длекспансион](dlexpansion.md) <br/> |Содержит массив почтовых ящиков, содержащихся в списке рассылки.  <br/> |
+|[Attendee](attendee.md) <br/> |Представляет участников и ресурсы для элемента календаря.  <br/> |
+|[CreateManagedFolder](createmanagedfolder.md) <br/> |Определяет запрос на добавление управляемых папок в почтовый ящик.  <br/> |
+|[AddDelegate](adddelegate.md) <br/> |Определяет запрос на добавление делегатов в почтовый ящик.  <br/> |
+|[GetDelegate](getdelegate.md) <br/> |Определяет запрос на получение сведений о делегатах для почтового ящика.  <br/> |
+|[RemoveDelegate](removedelegate.md) <br/> |Определяет запрос на удаление делегатов из почтового ящика.  <br/> |
+|[UpdateDelegate](updatedelegate.md) <br/> |Определяет запрос на обновление делегатов в почтовом ящике.  <br/> |
+|[рецеиведби](receivedby.md) <br/> |Описывает делегат в сценарии доступа делегата.  <br/> |
+|[рецеиведрепресентинг](receivedrepresenting.md) <br/> |Описывает участника в сценарии доступа делегата.  <br/> |
+|[Элемент](member-ex15websvcsotherref.md) <br/> |Представляет члена списка рассылки.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элементы [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) и [ItemId](itemid.md) определение списка рассылки или почтового ящика. 
+Элементы [EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md) и [ItemId](itemid.md) идентифицируют почтовый ящик или список рассылки. 
 
-Элемент [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) определяет почтовый ящик или список рассылки по SMTP-адрес. 
+Элемент [EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md) определяет почтовый ящик или список рассылки по SMTP-адресу. 
 
-Элемент [ItemId](itemid.md) идентифицирует почтового ящика, идентификатор элемента, который связан с определенного почтового ящика. 
+Элемент [ItemId](itemid.md) идентифицирует почтовый ящик по идентификатору элемента, связанному с определенным почтовым ящиком. 
 
-Элемент [ItemId](itemid.md) не может использоваться для отправки сообщения в список рассылки и контактов в папке контактов общедоступной. Ошибка возникает при использовании в ходе операции CreateItem, UpdateItem или SendItem при попытке отправить сообщение в список рассылки или контактов в общей папке контактов. Используйте операцию ExpandDL для получения SMTP-адрес и отправьте сообщение с помощью элемента [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) вместо [ItemId](itemid.md) элемент. 
+Элемент [ItemId](itemid.md) нельзя использовать для отправки сообщения в список рассылки или контакт в общедоступной папке "Контакты". Если при попытке отправить сообщение в список рассылки или контакт в общедоступной папке Contacts, будет выдаваться сообщение об ошибке, если оно используется в операции CreateItem, UpdateItem или SendItem. Используйте операцию ExpandDL для получения SMTP-адреса, а затем отправьте сообщение с помощью элемента [EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md) , а не элемента [ItemId](itemid.md) . 
   
-Другого элемента [почтового ящика (доступность)](mailbox-availability.md), сведения о доступности операций. 
+Другой элемент, [Mailbox (Availability)](mailbox-availability.md), предоставляет сведения об операциях обеспечения доступности. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -102,7 +102,7 @@ ms.locfileid: "19834258"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

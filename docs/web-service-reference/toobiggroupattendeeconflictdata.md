@@ -1,5 +1,5 @@
 ---
-title: TooBigGroupAttendeeConflictData
+title: тубигграупаттендиконфликтдата
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1512428d-ce22-4da9-b1c1-446b4bcd0a21
-description: Элемент TooBigGroupAttendeeConflictData представляет участника, которая разрешается в качестве списка рассылки, но этот список рассылки слишком велик для развертывания.
+description: Элемент Тубигграупаттендиконфликтдата представляет участника, который был разрешен в качестве списка рассылки, но список рассылки слишком велик для расширения.
 ms.openlocfilehash: 1137368d13cb5b88fd2a7866cadc6d69b783c75b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,34 +19,34 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840228"
 ---
-# <a name="toobiggroupattendeeconflictdata"></a>TooBigGroupAttendeeConflictData
+# <a name="toobiggroupattendeeconflictdata"></a>тубигграупаттендиконфликтдата
 
-Элемент **TooBigGroupAttendeeConflictData** представляет участника, которая разрешается в качестве списка рассылки, но этот список рассылки слишком велик для развертывания. 
+Элемент **тубигграупаттендиконфликтдата** представляет участника, который был разрешен в качестве списка рассылки, но список рассылки слишком велик для расширения. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[SuggestionsResponse](suggestionsresponse.md)
+[сугжестионсреспонсе](suggestionsresponse.md)
   
-[SuggestionDayResultArray](suggestiondayresultarray.md)
+[сугжестиондайресултаррай](suggestiondayresultarray.md)
   
-[SuggestionDayResult](suggestiondayresult.md)
+[сугжестиондайресулт](suggestiondayresult.md)
   
-[SuggestionArray](suggestionarray.md)
+[сугжестионаррай](suggestionarray.md)
   
-[Предложения](suggestion.md)
+[Предложение](suggestion.md)
   
-[AttendeeConflictDataArray](attendeeconflictdataarray.md)
+[аттендиконфликтдатааррай](attendeeconflictdataarray.md)
   
-[TooBigGroupAttendeeConflictData](toobiggroupattendeeconflictdata.md)
+[тубигграупаттендиконфликтдата](toobiggroupattendeeconflictdata.md)
   
 ```xml
 <TooBigGroupAttendeeConflictData/>
 ```
 
- **TooBigGroupAttendeeConflictData**
+ **тубигграупаттендиконфликтдата**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -60,11 +60,11 @@ ms.locfileid: "19840228"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Содержит массив данных конфликта участников, определенный в [GetUserAvailabilityRequest](getuseravailabilityrequest.md).  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[аттендиконфликтдатааррай](attendeeconflictdataarray.md) <br/> |Содержит массив данных о конфликтах для участников, идентифицируемых в [жетусераваилабилитирекуест](getuseravailabilityrequest.md).  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Нельзя развернуть, списков рассылки, содержащих более 100 участников.
+Списки рассылки, содержащие более 100 членов, не могут быть развернуты.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -74,7 +74,7 @@ ms.locfileid: "19840228"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -83,7 +83,7 @@ ms.locfileid: "19840228"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

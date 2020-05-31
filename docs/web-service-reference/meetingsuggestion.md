@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d6012063-eb67-4e83-a4a6-33482685083f
-description: Элемент MeetingSuggestion указывает предложенного собрания.
+description: Элемент свойства meetingsuggestion указывает предложенное собрание.
 ms.openlocfilehash: 35b618b32101ea36c35d87ca0737e4a7e04eb3a9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834444"
 ---
 # <a name="meetingsuggestion"></a>MeetingSuggestion
 
-Элемент **MeetingSuggestion** указывает предложенного собрания. 
+Элемент **Свойства meetingsuggestion** указывает предложенное собрание. 
   
 ```XML
 <MeetingSuggestion>
@@ -30,10 +30,10 @@ ms.locfileid: "19834444"
 </MeetingSuggestion>
 ```
 
- **MeetingSuggestionType**
+ **митингсугжестионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,13 +41,13 @@ ms.locfileid: "19834444"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Участники](attendees.md) | [расположение](location.md) | [темы](subject.md) | [MeetingString](meetingstring.md) | [StartTime](starttime.md) | [EndTime](endtime.md)
+[Attendees](attendees.md) | [Location](location.md)Местоположение | [участников субъект](subject.md) | [EndTime](endtime.md) [StartTime](starttime.md)[MeetingString](meetingstring.md)MeetingString | EndTime | 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [MeetingSuggestions](meetingsuggestions.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -59,7 +59,7 @@ ms.locfileid: "19834444"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

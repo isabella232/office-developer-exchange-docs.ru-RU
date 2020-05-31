@@ -1,5 +1,5 @@
 ---
-title: ResponseCode
+title: респонсекоде
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4b84d670-74c9-4d6d-84e7-f0a9f76f0d93
-description: Элемент ResponseCode предоставляет сведения о состоянии о запросе.
+description: Элемент Респонсекоде предоставляет сведения о состоянии запроса.
 ms.openlocfilehash: 7baeb0ab87ffb43ba9d6b4016477888aa4ed613e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,22 +19,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835294"
 ---
-# <a name="responsecode"></a>ResponseCode
+# <a name="responsecode"></a>респонсекоде
 
-Элемент **ResponseCode** предоставляет сведения о состоянии о запросе. 
+Элемент **респонсекоде** предоставляет сведения о состоянии запроса. 
   
-- [ResponseMessage](responsemessage.md) 
-- [ResponseCode](responsecode.md)
+- [респонсемессаже](responsemessage.md) 
+- [респонсекоде](responsecode.md)
   
 ```XML
 <ResponseCode/>
 ```
 
-**ResponseCodeType**
+**респонсекодетипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,547 +48,547 @@ ms.locfileid: "19835294"
 
 |Элемент|Описание|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> | Содержит описательные сведения о состоянии ответа.<br/><br/>  Ниже приведены возможные выражения XPath для этого элемента.<br/><br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/><br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>  `/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>  `/GetUserOofSettingsResponse/ResponseMessage` <br/> |
-|[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [DeleteItem операции](deleteitem-operation.md) .  <br/> |
-|[SendItemResponseMessage](senditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции SendItem](senditem-operation.md) .  <br/> |
-|[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [DeleteFolder операции](deletefolder-operation.md) .  <br/> |
-|[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [DeleteAttachment операции](deleteattachment-operation.md) .  <br/> |
-|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции отказа от подписки](unsubscribe-operation.md) .  <br/> |
-|[CreateFolderResponseMessage](createfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [CreateFolder операции](createfolder-operation.md) .  <br/> |
-|[GetFolderResponseMessage](getfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [GetFolder операции](getfolder-operation.md) .  <br/> |
-|[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [UpdateFolder операции](updatefolder-operation.md) .  <br/> |
-|[MoveFolderResponseMessage](movefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [MoveFolder операции](movefolder-operation.md) .  <br/> |
-|[CopyFolderResponseMessage](copyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [CopyFolder операции](copyfolder-operation.md).  <br/> |
-|[CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [CreateManagedFolder операции](createmanagedfolder-operation.md) .  <br/> |
-|[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [FindFolder операции](findfolder-operation.md) .  <br/> |
-|[CreateItemResponseMessage](createitemresponsemessage.md) <br/> |Содержит состояние и результат один запрос [CreateItem операции](createitem-operation.md) .  <br/> |
-|[GetItemResponseMessage](getitemresponsemessage.md) <br/> |Содержит состояние и результат одной [операции GetItem](getitem-operation.md) запроса.  <br/> |
-|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [UpdateItem операции](updateitem-operation.md) .  <br/> |
-|[MoveItemResponseMessage](moveitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [MoveItem операции](moveitem-operation.md) .  <br/> |
-|[CopyItemResponseMessage](copyitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [CopyItem операции](copyitem-operation.md) .  <br/> |
-|[CreateAttachmentResponseMessage](createattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [CreateAttachment операции](createattachment-operation.md) .  <br/> |
-|[GetAttachmentResponseMessage](getattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции GetAttachment](getattachment-operation.md) .  <br/> |
-|[FindItemResponseMessage](finditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [FindItem операции](finditem-operation.md) .  <br/> |
-|[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Содержит состояние и результат [операции ResolveNames](resolvenames-operation.md) запроса.  <br/> |
-|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [ExpandDL операции](expanddl-operation.md) .  <br/> |
-|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Содержит состояние и результат одной [подписки на операции](subscribe-operation.md) запроса.  <br/> |
-|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [GetEvents операции](getevents-operation.md) .  <br/> |
-|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Содержит состояние и результат одного запроса SendNotification операции.  <br/> |
-|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат [операции SyncFolderHierarchy](syncfolderhierarchy-operation.md) запроса.  <br/> |
-|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат [операции SyncFolderItems](syncfolderitems-operation.md) запроса.  <br/> |
-|[ConvertIdResponseMessage](convertidresponsemessage.md) <br/> |Содержит состояние и результат [операции ConvertId](convertid-operation.md) запроса.  <br/> |
-|[AddDelegateResponse](adddelegateresponse.md) <br/> |Содержит состояние и результат [операции AddDelegate](adddelegate-operation.md) запроса.  <br/> |
-|[GetDelegateResponse](getdelegateresponse.md) <br/> |Содержит состояние и результат [операции GetDelegate](getdelegate-operation.md) запроса.  <br/> |
-|[RemoveDelegateResponse](removedelegateresponse.md) <br/> |Содержит состояние и результат [операции RemoveDelegate](removedelegate-operation.md) запроса.  <br/> |
-|[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |Содержит состояние и результат [операции UpdateDelegate](updatedelegate-operation.md) запроса.  <br/> |
-|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Содержит состояние и результат [операции GetServerTimeZones](getservertimezones-operation.md) запроса.  <br/> |
-|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат [операции GetSharingFolder](getsharingfolder-operation.md) запроса.  <br/> |
-|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |Определяет ответ на запрос [GetSharingFolder операции](getsharingfolder-operation.md) .  <br/> |
-|[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |Содержит состояние и результат [операции GetSharingMetadata](getsharingmetadata-operation.md) запроса.  <br/> |
-|[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |Определяет ответ на запрос [Операция GetSharingMetadata](getsharingmetadata-operation.md) .  <br/> |
-|[RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат [операции RefreshSharingFolder](refreshsharingfolder-operation.md) запроса.  <br/> |
-|[RefreshSharingFolderResponse](refreshsharingfolderresponse.md) <br/> |Определяет ответ на запрос [RefreshSharingFolder операции](refreshsharingfolder-operation.md) .  <br/> |
-|[FindConversationResponse](findconversationresponse.md) <br/> |Содержит состояние и результаты [операции FindConversation](findconversation-operation.md) ответа.  <br/> |
-|[ApplyConversationActionResponseMessage](applyconversationactionresponsemessage.md) <br/> |Содержит состояние и результаты запроса [ApplyConversationAction операции](applyconversationaction-operation.md) .  <br/> |
-|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [EmptyFolder операции](emptyfolder-operation.md) .  <br/> |
-|[UpdateInboxRulesResponse](updateinboxrulesresponse.md) <br/> |Содержит состояние и результат [операции UpdateInboxRules](updateinboxrules-operation.md) запроса.  <br/> |
-|[UploadItemsResponseMessage](uploaditemsresponsemessage.md) <br/> |Содержит состояние и результат [операции UploadItems](uploaditems-operation.md) запроса.  <br/> |
-|[GetInboxRulesResponse](getinboxrulesresponse.md) <br/> |Содержит ответ на [операцию GetInboxRules](getinboxrules-operation.md) *** запроса.  <br/> |
-|[GetServiceConfigurationResponse](getserviceconfigurationresponse.md) <br/> |Содержит ответ на запрос [GetServiceConfiguration операции](getserviceconfiguration-operation.md) .  <br/> |
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
+|[респонсемессаже](responsemessage.md) <br/> | Предоставляет описательные сведения о состоянии отклика.<br/><br/>  Ниже приведены возможные выражения XPath для этого элемента.<br/><br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/><br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>  `/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>  `/GetUserOofSettingsResponse/ResponseMessage` <br/> |
+|[делетеитемреспонсемессаже](deleteitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции DeleteItem](deleteitem-operation.md) .  <br/> |
+|[сендитемреспонсемессаже](senditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции SendItem](senditem-operation.md) .  <br/> |
+|[делетефолдерреспонсемессаже](deletefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции DeleteFolder](deletefolder-operation.md) .  <br/> |
+|[делетеаттачментреспонсемессаже](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции DeleteAttachment](deleteattachment-operation.md) .  <br/> |
+|[унсубскрибереспонсемессаже](unsubscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса [на отмену подписки](unsubscribe-operation.md) .  <br/> |
+|[креатефолдерреспонсемессаже](createfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CreateFolder](createfolder-operation.md) .  <br/> |
+|[жетфолдерреспонсемессаже](getfolderresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции "операция](getfolder-operation.md) получения одного каталога".  <br/> |
+|[упдатефолдерреспонсемессаже](updatefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции операцию UpdateFolder](updatefolder-operation.md) .  <br/> |
+|[мовефолдерреспонсемессаже](movefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции MoveFolder](movefolder-operation.md) .  <br/> |
+|[копифолдерреспонсемессаже](copyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CopyFolder](copyfolder-operation.md).  <br/> |
+|[креатеманажедфолдерреспонсемессаже](createmanagedfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CreateManagedFolder](createmanagedfolder-operation.md) .  <br/> |
+|[финдфолдерреспонсемессаже](findfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции FindFolder](findfolder-operation.md) .  <br/> |
+|[креатеитемреспонсемессаже](createitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CreateItem](createitem-operation.md) .  <br/> |
+|[жетитемреспонсемессаже](getitemresponsemessage.md) <br/> |Содержит состояние и результат выполнения одного запроса [операции GetItem](getitem-operation.md) .  <br/> |
+|[упдатеитемреспонсемессаже](updateitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции UpdateItem](updateitem-operation.md) .  <br/> |
+|[мовеитемреспонсемессаже](moveitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции MoveItem](moveitem-operation.md) .  <br/> |
+|[копитемреспонсемессаже](copyitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CopyItem](copyitem-operation.md) .  <br/> |
+|[креатеаттачментреспонсемессаже](createattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CreateAttachment](createattachment-operation.md) .  <br/> |
+|[жетаттачментреспонсемессаже](getattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции GetAttachment](getattachment-operation.md) .  <br/> |
+|[финдитемреспонсемессаже](finditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции FindItem](finditem-operation.md) .  <br/> |
+|[ресолвенамесреспонсемессаже](resolvenamesresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции ResolveNames](resolvenames-operation.md) .  <br/> |
+|[експанддлреспонсемессаже](expanddlresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции ExpandDL](expanddl-operation.md) .  <br/> |
+|[субскрибереспонсемессаже](subscriberesponsemessage.md) <br/> |Содержит состояние и результат запроса на операцию одиночной [подписки](subscribe-operation.md) .  <br/> |
+|[жетевентсреспонсемессаже](geteventsresponsemessage.md) <br/> |Содержит состояние и результат выполнения одного запроса [операции Events](getevents-operation.md) .  <br/> |
+|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Содержит состояние и результат одного запроса операции Сенднотификатион.  <br/> |
+|[синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции SyncFolderHierarchy](syncfolderhierarchy-operation.md) .  <br/> |
+|[синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции SyncFolderItems](syncfolderitems-operation.md) .  <br/> |
+|[конвертидреспонсемессаже](convertidresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции ConvertId](convertid-operation.md) .  <br/> |
+|[аддделегатереспонсе](adddelegateresponse.md) <br/> |Содержит состояние и результат запроса [операции AddDelegate](adddelegate-operation.md) .  <br/> |
+|[жетделегатереспонсе](getdelegateresponse.md) <br/> |Содержит состояние и результат запроса [операции Delegate](getdelegate-operation.md) .  <br/> |
+|[ремоведелегатереспонсе](removedelegateresponse.md) <br/> |Содержит состояние и результат запроса [операции RemoveDelegate](removedelegate-operation.md) .  <br/> |
+|[упдатеделегатереспонсе](updatedelegateresponse.md) <br/> |Содержит состояние и результат запроса [операции UpdateDelegate](updatedelegate-operation.md) .  <br/> |
+|[жетсервертимезонесреспонсемессаже](getservertimezonesresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции GetServerTimeZones](getservertimezones-operation.md) .  <br/> |
+|[жетшарингфолдерреспонсемессаже](getsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
+|[жетшарингфолдерреспонсе](getsharingfolderresponse.md) <br/> |Определяет ответ на запрос [операции GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
+|[жетшарингметадатареспонсемессаже](getsharingmetadataresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции GetSharingMetadata](getsharingmetadata-operation.md) .  <br/> |
+|[жетшарингметадатареспонсе](getsharingmetadataresponse.md) <br/> |Определяет ответ на запрос [Операция GetSharingMetadata](getsharingmetadata-operation.md) .  <br/> |
+|[рефрешшарингфолдерреспонсемессаже](refreshsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции RefreshSharingFolder](refreshsharingfolder-operation.md) .  <br/> |
+|[рефрешшарингфолдерреспонсе](refreshsharingfolderresponse.md) <br/> |Определяет ответ на запрос [операции RefreshSharingFolder](refreshsharingfolder-operation.md) .  <br/> |
+|[финдконверсатионреспонсе](findconversationresponse.md) <br/> |Содержит состояние и результаты ответа [операции FindConversation](findconversation-operation.md) .  <br/> |
+|[аппликонверсатионактионреспонсемессаже](applyconversationactionresponsemessage.md) <br/> |Содержит состояние и результаты запроса [операции ApplyConversationAction](applyconversationaction-operation.md) .  <br/> |
+|[емптифолдерреспонсемессаже](emptyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции EmptyFolder](emptyfolder-operation.md) .  <br/> |
+|[упдатеинбоксрулесреспонсе](updateinboxrulesresponse.md) <br/> |Содержит состояние и результат запроса [операции UpdateInboxRules](updateinboxrules-operation.md) .  <br/> |
+|[уплоадитемсреспонсемессаже](uploaditemsresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции UploadItems](uploaditems-operation.md) .  <br/> |
+|[жетинбоксрулесреспонсе](getinboxrulesresponse.md) <br/> |Содержит ответ на запрос [операции GetInboxRules](getinboxrules-operation.md) * * * *.  <br/> |
+|[жетсервицеконфигуратионреспонсе](getserviceconfigurationresponse.md) <br/> |Содержит ответ на запрос [операции GetServiceConfiguration](getserviceconfiguration-operation.md) .  <br/> |
+|[сервицеконфигуратионреспонсемессажетипе](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным, если данный элемент используется. В следующей таблице описываются значений, возвращаемых с этим элементом.
+При использовании этого элемента необходимо указать текстовое значение. В следующей таблице описываются значения, возвращаемые с этим элементом.
   
 |Значение|Описание|
 |:-----|:-----|
-|NoError  <br/> |Без ошибок для запроса.  <br/> |
-|ErrorAccessDenied  <br/> |Эта ошибка возникает, когда вызывающей учетной записи нет прав на выполнение запрошенное действие.  <br/> |
-|ErrorAccessModeSpecified  <br/> |Эта ошибка — только для внутреннего использования. Эта ошибка не возвращается.  <br/> |
-|ErrorAccountDisabled  <br/> |Эта ошибка происходит, когда интересующую учетную запись была отключена.  <br/> |
-|ErrorAddDelegatesFailed  <br/> |Эта ошибка возникает, когда список с добавлены делегаты не могут быть сохранены.  <br/> |
-|ErrorAddressSpaceNotFound  <br/> |Эта ошибка возникает, когда запись адресного пространства или имя домена доменных имен (DNS), для обеспечения доступности между лесами не найден в базе данных Active Directory.  <br/> |
-|ErrorADOperation  <br/> |Эта ошибка происходит, когда операция завершилась неудачно из-за проблем связи с доменными службами Active Directory (AD DS).  <br/> |
-|ErrorADSessionFilter  <br/> |Эта ошибка возвращается в том случае, когда запрос операции **ResolveNames** указывает имя, которое не является допустимым.  <br/> |
-|ErrorADUnavailable  <br/> |Эта ошибка возникает при недоступности Доменные службы Active Directory. Повторите попытку позже.  <br/> |
-|ErrorAffectedTaskOccurrencesRequired  <br/> |Эта ошибка указывает, что атрибут **AffectedTaskOccurrences** не указан. Когда элемент [DeleteItem](deleteitem.md) используется для удаления по крайней мере один элемент, который является задачей, и независимо от того, является ли эту задачу повторяющейся или не должно быть указано, чтобы определить **DeleteItem** атрибут **AffectedTaskOccurrences** ли Удаление текущего экземпляра или всего ряда.  <br/> |
-|ErrorArchiveFolderPathCreation  <br/> |Отображается сообщение об ошибке в создание путь папки архива.  <br/> |
-|ErrorArchiveMailboxNotEnabled  <br/> |Указывает, что архивного почтового ящика не был включен.  <br/> |
-|ErrorArchiveMailboxServiceDiscoveryFailed  <br/> |Указывает, что обнаружение службы архивного почтового ящика не удалось.  <br/> |
-|ErrorAttachmentNestLevelLimitExceeded  <br/> |Указывает, что предпринята попытка, чтобы создать элемент с более чем 10 вложений. Это значение появился в Exchange Server 2010 с пакетом обновления 2 (SP2).  <br/> |
-|ErrorAttachmentSizeLimitExceeded  <br/> |Элемент [CreateAttachment](createattachment.md) возвращает эту ошибку при попытке создания вложения с размером превышение Int32.MaxValue, в байтах.  <br/> Элемент [GetAttachment](getattachment.md) возвращает эту ошибку, если при попытке получить существующий вложения с размером превышение Int32.MaxValue, в байтах.  <br/> |
-|ErrorAutoDiscoverFailed  <br/> |Эта ошибка указывает, что веб-служб Exchange попытка определения расположения между лесами компьютер, на котором работает Exchange 2010, которая имеет роль сервера клиентского доступа, установленные с помощью службы автообнаружения, но обращение к службе автообнаружения не удалось.  <br/> |
-|ErrorAvailabilityConfigNotFound  <br/> |Эта ошибка указывает, что сведения о конфигурации доступности в локальном лесу отсутствует в Доменных службах Active Directory.  <br/> |
-|ErrorBatchProcessingStopped  <br/> | Эта ошибка указывает, что возникает исключение при обработке элемента и что исключение скорее всего, будет выполнена для элементов, следуйте. Запросы могут включать несколько элементов; Например запрос операции GetItem может включать несколько идентификаторов. В общем случае элементы, обработанные одному за раз. Если возникает исключение при обработке элемента и, скорее всего, будет выполнена для элементов, следуйте исключение, элементы, следующие за не обрабатывается.  <br/><br/>  Ниже приведены примеры ошибок, которые будут Остановка обработки элементов, выполните:<br/>  <br/>-ErrorAccessDenied  <br/>-ErrorAccountDisabled  <br/>-ErrorADUnavailable  <br/>-ErrorADOperation  <br/>-ErrorConnectionFailed  <br/>-ErrorMailboxStoreUnavailable  <br/>-ErrorMailboxMoveInProgress  <br/>-ErrorPasswordChangeRequired  <br/>-ErrorPasswordExpired  <br/>-ErrorQuotaExceeded  <br/>-ErrorInsufficientResources  <br/> |
-|ErrorCalendarCannotMoveOrCopyOccurrence  <br/> |Эта ошибка возникает при попытке переместить или скопировать вхождение повторяющегося элемента календаря.  <br/> |
-|ErrorCalendarCannotUpdateDeletedItem  <br/> | Эта ошибка возникает при попытке обновления элемента календаря, который находится в папке «Удаленные» и при изменения или отмены собраний, отправляются в соответствии с значение атрибута **SendMeetingInvitationsOrCancellations** . <br/><br/>Ниже приведены возможные значения этого атрибута.  <br/><br/>-SendToAllAndSaveCopy  <br/>-SendToChangedAndSaveCopy  <br/>-SendOnlyToAll  <br/>-SendOnlyToChanged  <br/>  <br/>Тем не менее такое обновление допускается только в том случае, если значение этого атрибута имеет значение SendToNone.  <br/> |
-|ErrorCalendarCannotUseIdForOccurrenceId  <br/> |Эта ошибка происходит, когда операция UpdateItem, GetItem, DeleteItem, MoveItem, CopyItem или SendItem называется и идентификатор, который был указан не является Идентификатором вхождение любой повторяющегося элемента календаря.  <br/> |
-|ErrorCalendarCannotUseIdForRecurringMasterId  <br/> |Эта ошибка происходит, когда операция **UpdateItem**, **GetItem**, **DeleteItem**, **MoveItem**, **CopyItem**или **SendItem** называется и идентификатор, который был указан не является Идентификатором любого повторяющегося элемента шаблона.  <br/> |
-|ErrorCalendarDurationIsTooLong  <br/> |Эта ошибка возникает во время операции **CreateItem** или **UpdateItem** при длительность элемента календаря превышает максимально допустимое, который в данный момент находится 5 лет.  <br/> |
-|ErrorCalendarEndDateIsEarlierThanStartDate  <br/> |Эта ошибка возникает, когда установлено время окончания календаря, в то же время или после времени начала.  <br/> |
-|ErrorCalendarFolderIsInvalidForCalendarView  <br/> |Эта ошибка возникает, если указанная папка для операции **FindItem** с элементом [представления календаря](calendarview.md) не типа папки календаря.  <br/> |
-|ErrorCalendarInvalidAttributeValue  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorCalendarInvalidDayForTimeChangePattern  <br/> |Эта ошибка возникает во время операции **CreateItem** или **UpdateItem** при недопустимые значения даты, WeekendDay и день недели используются для определения изменений шаблон времени.  <br/> |
-|ErrorCalendarInvalidDayForWeeklyRecurrence  <br/> |Эта ошибка возникает во время операции **CreateItem** или **UpdateItem** недопустимые значения даты, день недели и WeekendDay используемый для задания еженедельного повторения.  <br/> |
-|ErrorCalendarInvalidPropertyState  <br/> |Эта ошибка происходит, когда состояние календаря элемента повторения больших двоичных объектов (BLOB) в хранилище Exchange является недопустимым.  <br/> |
-|ErrorCalendarInvalidPropertyValue  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorCalendarInvalidRecurrence  <br/> |Эта ошибка возникает, когда не удается создать указанный экземпляр.  <br/> |
-|ErrorCalendarInvalidTimeZone  <br/> |Эта ошибка возникает, когда обнаружен недопустимый часовой пояс.  <br/> |
-|ErrorCalendarIsCancelledForAccept  <br/> |Эта ошибка означает, что было отменено элемента календаря.  <br/> |
-|ErrorCalendarIsCancelledForDecline  <br/> |Эта ошибка указывает, что было отменено элемента календаря.  <br/> |
-|ErrorCalendarIsCancelledForRemove  <br/> |Эта ошибка указывает, что было отменено элемента календаря.  <br/> |
-|ErrorCalendarIsCancelledForTentative  <br/> |Эта ошибка указывает, что было отменено элемента календаря.  <br/> |
-|ErrorCalendarIsDelegatedForAccept  <br/> |Эта ошибка указывает, что элемент [AcceptItem](acceptitem.md) является недопустимым для календаря элемента или приглашения на собрание в делегированных сценарии.  <br/> |
-|ErrorCalendarIsDelegatedForDecline  <br/> |Эта ошибка указывает, что элемент [DeclineItem](declineitem.md) является недопустимым для календаря элемента или приглашения на собрание в делегированных сценарии.  <br/> |
-|ErrorCalendarIsDelegatedForRemove  <br/> |Эта ошибка указывает, что элемент [RemoveItem](removeitem.md) является недопустимым для отмены собрания в делегированных сценария.  <br/> |
-|ErrorCalendarIsDelegatedForTentative  <br/> |Эта ошибка указывает, что элемент [TentativelyAcceptItem](tentativelyacceptitem.md) является недопустимым для календаря элемента или приглашения на собрание в делегированных сценарии.  <br/> |
-|ErrorCalendarIsNotOrganizer  <br/> |Эта ошибка указывает, что операция (в настоящее время CancelItem) на элемент календаря не является допустимым для участника. Только организатор собрания можно отменить собрание.  <br/> |
-|ErrorCalendarIsOrganizerForAccept  <br/> |Эта ошибка указывает, что [AcceptItem](acceptitem.md) является недопустимым для организатора элемента календаря.  <br/> |
-|ErrorCalendarIsOrganizerForDecline  <br/> |Эта ошибка указывает, что [DeclineItem](declineitem.md) является недопустимым для организатора элемента календаря.  <br/> |
-|ErrorCalendarIsOrganizerForRemove  <br/> |Эта ошибка указывает, что [RemoveItem](removeitem.md) является недопустимым для организатора элемента календаря. Удаление собрания из календаря, организатор необходимо использовать CancelCalendarItem.  <br/> |
-|ErrorCalendarIsOrganizerForTentative  <br/> |Эта ошибка указывает, что [TentativelyAcceptItem](tentativelyacceptitem.md) является недопустимым для организатора элемента календаря.  <br/> |
-|ErrorCalendarMeetingRequestIsOutOfDate  <br/> |Эта ошибка указывает, что приглашения на собрание, устарел и не могут быть обновлены.  <br/> |
-|ErrorCalendarOccurrenceIndexIsOutOfRecurrenceRange  <br/> |Эта ошибка указывает индекс вхождения не ведет появления в текущем повторения. Например если вы попытаетесь обратиться к пятому вхождение в расписании повторов определяет набор из трех вхождений собрания, приведет к данный код ответа.  <br/> |
-|ErrorCalendarOccurrenceIsDeletedFromRecurrence  <br/> |Эта ошибка указывает, что любые операции на удаленных вхождение (адресуемый посредством повторяющихся главного индекса идентификатор и вхождение) является недопустимым.  <br/> |
-|ErrorCalendarOutOfRange  <br/> |Эта ошибка отчета о CreateItem и UpdateItem операции для элементов календаря или свойства повторения задачи, когда значение свойства находится вне диапазона. Например указание пятнадцатый недели, месяца приведет к данный код ответа.  <br/> |
-|ErrorCalendarViewRangeTooBig  <br/> |Эта ошибка возникает при запуске диапазон окончания для [представления календаря](calendarview.md) элемент превышает максимально допустимое, в настоящее время через 2 года.  <br/> |
-|ErrorCallerIsInvalidADAccount  <br/> |Эта ошибка указывает, что запрашивающая учетная запись не является допустимую учетную запись в базу данных каталога.  <br/> |
-|ErrorCannotArchiveCalendarContactTaskFolderException  <br/> |Указывает, что была предпринята попытка архивировать папки контактов задач календаря.  <br/> |
-|ErrorCannotArchiveItemsInPublicFolders  <br/> |Указывает, что была предпринята попытка архивировать элементы в общедоступных папках.  <br/> |
-|ErrorCannotArchiveItemsInArchiveMailbox  <br/> |Указывает, что была предпринята попытка архивировать элементы в архивный почтовый ящик.  <br/> |
-|ErrorCannotCreateCalendarItemInNonCalendarFolder  <br/> |Эта ошибка возникает при создании элемента календаря и **SavedItemFolderId** атрибут относится к папке календаря, отличного от.  <br/> |
-|ErrorCannotCreateContactInNonContactFolder  <br/> |Эта ошибка возникает при создании контакта и **SavedItemFolderId** атрибут относится к папке не контакта.  <br/> |
-|ErrorCannotCreatePostItemInNonMailFolder  <br/> |Эта ошибка указывает, что элемента записи не могут создаваться в папке, отличной от папки почты, например календаря, контактов, задач, заметки и т. д.  <br/> |
-|ErrorCannotCreateTaskInNonTaskFolder  <br/> |Эта ошибка возникает при создании задачи и **SavedItemFolderId** атрибут относится к папке не задач.  <br/> |
-|ErrorCannotDeleteObject  <br/> |Эта ошибка происходит, когда элемент или папку для удаления не может быть удален.  <br/> |
-|ErrorCannotDeleteTaskOccurrence  <br/> |[Операция DeleteItem](deleteitem-operation.md) возвращает эту ошибку, если не удается удалить текущее вхождение повторяющейся задачи. Происходит, только если атрибут **AffectedTaskOccurrences** имеет значение SpecifiedOccurrenceOnly.  <br/> |
-|ErrorCannotDisableMandatoryExtension  <br/> |Указывает, что предпринята попытка, чтобы отключить расширение mandatorty.  <br/> |
-|ErrorCannotEmptyFolder  <br/> |Эта ошибка должна возвращаться при серверу не удается очистить папку.  <br/> |
-|ErrorCannotGetSourceFolderPath  <br/> |Указывает, что не удалось получить путь к исходной папке.  <br/> |
-|ErrorCannotGetExternalEcpUrl  <br/> |Указывает, что сервер не удалось получить внешний URL-адрес для параметры Outlook Web App.  <br/> |
-|ErrorCannotOpenFileAttachment  <br/> |Операция **GetAttachment** возвращает эту ошибку, если он не удается извлечь тело вложенный файл.  <br/> |
-|ErrorCannotSetCalendarPermissionOnNonCalendarFolder  <br/> |Эта ошибка указывает, что вызывающий попытался задать разрешения календаря для календаря, отличного от папки.  <br/> |
-|ErrorCannotSetNonCalendarPermissionOnCalendarFolder  <br/> |Эта ошибка указывает, что вызывающий попытался задать разрешения календаря, отличного от папки календаря.  <br/> |
-|ErrorCannotSetPermissionUnknownEntries  <br/> |Эта ошибка указывает, что нельзя задать Неизвестный разрешения в наборе разрешений.  <br/> |
-|ErrorCannotSpecifySearchFolderAsSourceFolder  <br/> |Указывает, что предпринята попытка, чтобы указать папки поиска в качестве исходной папки.  <br/> |
-|ErrorCannotUseFolderIdForItemId  <br/> |Эта ошибка возникает, когда запрос, который требуется идентификатор элемента присваивается идентификатор папки.  <br/> |
-|ErrorCannotUseItemIdForFolderId  <br/> |Эта ошибка возникает, когда запрос, который требуется идентификатор папки присваивается идентификатор элемента.  <br/> |
-|ErrorChangeKeyRequired  <br/> |Этот код ответа была заменена **ErrorChangeKeyRequiredForWriteOperations** <br/> |
-|ErrorChangeKeyRequiredForWriteOperations  <br/> |Если изменить ключ для элемента отсутствующие или устаревшие этой ошибки. <br/><br/>Для операции SendItem, UpdateItem и UpdateFolder вызывающий объект должен передать в правильное и текущей изменить ключ для элемента. Обратите внимание, что в случае с UpdateItem даже в том случае, если разрешения конфликтов задано значение всегда overwrite.  <br/> |
-|ErrorClientDisconnected  <br/> |Указывает, что клиент был отключен.  <br/> |
-|ErrorClientIntentInvalidStateDefinition  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
-|ErrorClientIntentNotFound  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
-|ErrorConnectionFailed  <br/> |Эта ошибка возникает, когда веб-служб Exchange не удается подключиться к почтовому ящику.  <br/> |
-|ErrorContainsFilterWrongType  <br/> |Эта ошибка указывает, что свойство, который был проверен для фильтра содержит не строковый тип.  <br/> |
-|ErrorContentConversionFailed  <br/> |Операции **GetItem** возвращает эту ошибку, когда веб-служб Exchange не удается получить содержимого MIME для элемента запроса. <br/><br/>Операции **CreateItem** возвращает эту ошибку, если веб-служб Exchange не удается создать элемент из предоставленного содержимого MIME. Обычно это указывает на то, что свойство item повреждена или усечено.  <br/> |
-|ErrorContentIndexingNotEnabled  <br/> |Эта ошибка происходит, когда запрос поиска выполняется с помощью параметра строки запроса и индексации содержимого не включен для целевого почтового ящика.  <br/> |
-|ErrorCorruptData  <br/> |Эта ошибка возникает, когда данные повреждена и не может обработать.  <br/> |
-|ErrorCreateItemAccessDenied  <br/> |Эта ошибка возникает, когда вызывающий не имеет разрешения на создание элемента.  <br/> |
-|ErrorCreateManagedFolderPartialCompletion  <br/> |Эта ошибка возникает, когда один или несколько управляемых папок, которые были указаны в запрос операции CreateManagedFolder не удалось создать. Выполните поиск каждой папки, чтобы определить, какие папки были созданы и папки, которые не существуют.  <br/> |
-|ErrorCreateSubfolderAccessDenied  <br/> |Эта ошибка возникает, когда вызывающий учетная запись не имеет разрешения, необходимые для создания вложенной папке.  <br/> |
-|ErrorCrossMailboxMoveCopy  <br/> |Эта ошибка возникает при попытке переместить элемент или папку из одного почтового ящика в другой. Эта ошибка может возникнуть, если исходный почтовый ящик и почтового ящика назначения отличаются.  <br/> |
-|ErrorCrossSiteRequest  <br/> |Эта ошибка указывает на то, что запрос не допускается, так как сервер клиентского доступа, который должен обработать запрос на другом сайте.  <br/> |
-|ErrorDataSizeLimitExceeded  <br/> |Эта ошибка может возникнуть в следующих сценариях:<br/>  <br/>-Попытка получить доступ или запись свойства элемента, а значение свойства слишком велик.<br/>-Base64 кодировке MIME содержимого, что длина в запросе XML превышает предел.<br/>-Размер текста существующего основной текст элемента, превышает ограничение.<br/>-Получатель пытается записать HTML или текст body, чьи (или объединенный длины в случае append) превышает предел. |
-|ErrorDataSourceOperation  <br/> |Эта ошибка возникает при сбое базового поставщика данных для выполнения операции.  <br/> |
-|ErrorDelegateAlreadyExists  <br/> |Эта ошибка возникает в рамках одной операции **AddDelegate** , когда указанный пользователь уже существует в список делегатов.  <br/> |
-|ErrorDelegateCannotAddOwner  <br/> |Эта ошибка возникает в рамках одной операции **AddDelegate** после указанного пользователя добавляется владелец почтового ящика.  <br/> |
-|ErrorDelegateMissingConfiguration  <br/> |Эта ошибка возникает в ходе операции **GetDelegate** при либо нет не делегат или сведения о на локальном занятости сообщение без Active Directory открытый делегат (без «открытый делегат» или нет записи «Отправить от имени» в AD DS).  <br/> |
-|ErrorDelegateNoUser  <br/> |Эта ошибка возникает, когда указанный пользователь не может быть сопоставлен пользователя в Доменных службах Active Directory.  <br/> |
-|ErrorDelegateValidationFailed  <br/> |Эта ошибка возникает в операции **AddDelegate** , когда добавлены делегированного пользователя не является допустимым.  <br/> |
-|ErrorDeleteDistinguishedFolder  <br/> |Эта ошибка возникает при попытке удалить именованной папки.  <br/> |
-|ErrorDeleteItemsFailed  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorDeleteUnifiedMessagingPromptFailed  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
-|ErrorDistinguishedUserNotSupported  <br/> |Эта ошибка указывает, что идентификатор различающееся пользователя не является допустимым для операции. **DistinguishedUserType** не должны присутствовать в запросе.  <br/> |
-|ErrorDistributionListMemberNotExist  <br/> |Эта ошибка указывает, что списка рассылки запроса не существует в списке рассылки.  <br/> |
-|ErrorDuplicateInputFolderNames  <br/> |Эта ошибка возникает при указании одинаковые имена папок в элементе [FolderNames](foldernames.md) **CreateManagedFolder** операции запроса.  <br/> |
-|ErrorDuplicateSOAPHeader  <br/> |Эта ошибка означает, что повторяющиеся заголовки SOAP.  <br/> |
-|ErrorDuplicateUserIdsSpecified  <br/> |Эта ошибка указывает, что идентификатор пользователя найден в наборе разрешений анонимной или по умолчанию задается несколько раз, либо существуют повторяющиеся идентификаторы безопасности или получателей.  <br/> |
-|ErrorEmailAddressMismatch  <br/> |Эта ошибка возникает при попытке выполнить запрос на создание или изменение параметров поиска папки поиска. Например это может произойти при создании папки поиска в почтовом ящике, но направляются папки поиска необходимо выполнить поиск другого почтового ящика.  <br/> |
-|ErrorEventNotFound  <br/> |Эта ошибка возникает при удалении событий, который связан с водяного знака перед возвращением события. При появлении этой ошибки также удаляется подписки.  <br/> |
-|ErrorExceededConnectionCount  <br/> |Эта ошибка - указывает, что ничего существует несколько параллельных запросов на сервере превышает допустимый политикой пользователя.  <br/> |
-|ErrorExceededSubscriptionCount  <br/> |Эта ошибка указывает, что пользователь регулирование политики, которую превышено максимальное подписки число.  <br/> |
-|ErrorExceededFindCountLimit  <br/> |Эта ошибка указывает, что вызов операции поиска превысил общее число элементов, которые могут быть возвращены.  <br/> |
-|ErrorExpiredSubscription  <br/> |Эта ошибка возникает, если [операция GetEvents](getevents-operation.md) вызывается как подписки удаляется, так как он истек.  <br/> |
-|ErrorExtensionNotFound  <br/> |Указывает, что данное расширение имени файла не найден.  <br/> |
-|ErrorFolderCorrupt  <br/> |Эта ошибка происходит, когда папка повреждена и не могут быть сохранены.  <br/> |
-|ErrorFolderExists  <br/> |Эта ошибка возникает при попытке создайте папку с таким же именем в другую папку в же родительским. Использование повторяющихся имен не допускается.  <br/> |
-|ErrorFolderNotFound  <br/> |Эта ошибка указывает, что идентификатор папки, которая была указана не соответствует допустимую папку или том, что делегат не имеет разрешения на доступ к папке.  <br/> |
-|ErrorFolderPropertRequestFailed  <br/> |Эта ошибка указывает, что свойство не удалось получить. Указывает, что свойство не существует, но, что оно повреждено каким-либо образом, чтобы не удалось выполнить извлечение.  <br/> |
-|ErrorFolderSave  <br/> |Эта ошибка указывает, что папка не удалось созданные или обновленные из-за недопустимом состоянии.  <br/> |
-|ErrorFolderSaveFailed  <br/> |Эта ошибка указывает, что папка не удалось созданные или обновленные из-за недопустимом состоянии.  <br/> |
-|ErrorFolderSavePropertyError  <br/> |Эта ошибка указывает, что папка не удалось созданные или обновленные из-за недопустимости значений свойства. Код ответа список свойств, которые проблемы, возникающие.  <br/> |
-|ErrorFreeBusyDLLimitReached  <br/> |Эта ошибка указывает, что группа максимальное число элементов достигнут для получения сведений о доступности для списка рассылки.  <br/> |
-|ErrorFreeBusyGenerationFailed  <br/> |Если не удается получить сведения о доступности из-за промежуточного сбоя этой ошибки.  <br/> |
-|ErrorGetServerSecurityDescriptorFailed  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorImContactLimitReached  <br/> |Эта ошибка возвращается, когда нельзя добавить новый обмена мгновенными сообщениями контакты обмена Мгновенными сообщениями, так как достигнуто максимальное число контактов. Эта ошибка была представлена в Exchange Server 2013.  <br/> |
-|ErrorImGroupDisplayNameAlreadyExists  <br/> |При попытке добавить отображаемое имя группы при существующей группы уже имеет то же отображаемое имя этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorImGroupLimitReached  <br/> |Эта ошибка возвращается, когда нельзя добавить новые группы обмена мгновенными Сообщениями, так как достигнуто максимальное число групп. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorImpersonateUserDenied  <br/> |Ошибка возвращается в случае сервер сервер авторизации для олицетворения Exchange при вызывающий не имеет необходимых прав для олицетворения определенного пользователя в вопросе. Эта ошибка сопоставляет ms-Exch-EPI-May-Impersonate расширенные право Active Directory.  <br/> |
-|ErrorImpersonationDenied  <br/> |Эта ошибка возвращается в сервер сервер авторизации для олицетворения Exchange при вызывающий не имеет необходимых прав для олицетворения через сервер клиентского доступа, который они берут запрос к. Сопоставляет ms-Exch-EPI-Impersonation расширенные право Active Directory.  <br/> |
-|ErrorImpersonationFailed  <br/> |Эта ошибка указывает, что возникла непредвиденная ошибка при попытке выполнения проверки подлинности сервер сервер. Этот код ответа указывает на то, что учетная запись службы, на котором работает веб-служб Exchange, пул приложений настроен неправильно, что веб-служб Exchange не могут обратиться к каталогу или то, что отношение доверия между лесами не правильно настроить.  <br/> |
-|ErrorIncorrectSchemaVersion  <br/> |Эта ошибка указывает, что запрос является допустимым для текущей версии сервера Exchange, но был недействителен для версии сервера запросов, который был указан.  <br/> |
-|ErrorIncorrectUpdatePropertyCount  <br/> |Эта ошибка указывает, что каждое описание изменений в элементах [UpdateItem](updateitem.md) или [UpdateFolder](updatefolder.md) должно содержать только одно свойство для обновления.  <br/> |
-|ErrorIndividualMailboxLimitReached  <br/> |Эта ошибка возникает, когда запрос содержит слишком много участников для разрешения конфликтов. По умолчанию максимальное количество участников для разрешения конфликтов равно 100.  <br/> |
-|ErrorInsufficientResources  <br/> |Эта ошибка возникает, когда перегрузки сервера почтовых ящиков. Повторите попытку позже.  <br/> |
-|ErrorInternalServerError  <br/> |Эта ошибка указывает, что веб-служб Exchange произошла ошибка, которая не удалось восстановить из и более конкретные код ответа, связанного с возникшей ошибки не существует.  <br/> |
-|ErrorInternalServerTransientError  <br/> |Эта ошибка указывает, что произошла ошибка внутреннего сервера и что запрос необходимо повторить попытку позже.  <br/> |
-|ErrorInvalidAccessLevel  <br/> |Эта ошибка указывает, что уровень доступа с абонентом на данные о доступности является недопустимым.  <br/> |
-|ErrorInvalidArgument  <br/> |Эта ошибка указывает ошибки, возникающие при всех недопустимых аргументов, передаваемых [GetMessageTrackingReport операции](getmessagetrackingreport-operation.md).<br/><br/> Эта ошибка возвращается в следующих случаях: <br/><br/>-Пользователя, указанного в _отправки-как_ параметр не существует в каталоге. <br/>-Пользователя, указанного в _отправки-как_ параметр не является уникальным в каталоге. <br/>- _Отправки-как_ адрес будет пустым.<br/>- _Отправки-как_ адрес не является адресом электронной почты.  <br/> |
-|ErrorInvalidAttachmentId  <br/> |Этой ошибки [операция GetAttachment](getattachment-operation.md) или [DeleteAttachment операции](deleteattachment-operation.md) при вложения, соответствующий указанным Идентификатором не найден.  <br/> |
-|ErrorInvalidAttachmentSubfilter  <br/> |Эта ошибка возникает при попытке выполнить привязку к существующей папки поиска с помощью ограничение сложных вложений в таблице. Простой поддерживает только веб-служб Exchange содержит фильтров к таблице вложений. При попытке привязки к существующей папке поиска с более сложным ограничением таблицы вложений (вложенный фильтр), веб-служб Exchange не удается обработать XML-код для него и возвращает данный код ответа. <br/><br/>Обратите внимание, что по-прежнему можно вызвать операции GetFolder в общей папке, но не запросить элемент [SearchParameters](searchparameters.md) .  <br/> |
-|ErrorInvalidAttachmentSubfilterTextFilter  <br/> |Эта ошибка возникает при попытке выполнить привязку к существующей папки поиска с помощью ограничение сложных вложений в таблице. Простой поддерживает только веб-служб Exchange содержит фильтров к таблице вложений. <br/><br/>При попытке выполнить привязку к существующей папке поиска с более сложным ограничением для таблицы вложений, веб-служб Exchange не удается отобразить XML-код для этого фильтра. В этом случае вложенный фильтр вложений содержит текст фильтр, но не посмотрев отображаемое имя вложения.<br/><br/> Обратите внимание, что по-прежнему можно вызвать операции GetFolder в общей папке, но не запросить элемент [SearchParameters](searchparameters.md) .  <br/> |
-|ErrorInvalidAuthorizationContext  <br/> | Эта ошибка указывает, что не удалось выполнить процедуру авторизации для инициатора запроса.  <br/> |
-|ErrorInvalidChangeKey  <br/> |Эта ошибка происходит, когда получатель проходит в папке или идентификатор элемента с изменить ключ, который невозможно выполнить синтаксический анализ. Например это может быть содержимое недопустимый base64 или пустая строка.  <br/> |
-|ErrorInvalidClientSecurityContext  <br/> |Эта ошибка указывает, что возникла внутренняя ошибка при попытка разрешить удостоверения вызывающей стороны.  <br/> |
-|ErrorInvalidCompleteDate  <br/> |Эта ошибка возвращается при попытке задать значение элемента [CompleteDate](completedate.md) задачи на время в будущем. После преобразования местного времени сервера клиентского доступа [CompleteDate](completedate.md) задачи не может быть присвоено значение, более поздней, чем местного времени на сервере клиентского доступа.  <br/> |
-|ErrorInvalidContactEmailAddress  <br/> |Эта ошибка указывает, что предоставляется недопустимый адрес электронной почты контакта.  <br/> |
-|ErrorInvalidContactEmailIndex  <br/> |Эта ошибка указывает, что указанное значение индекса недопустимый электронной почты запись электронной почты.  <br/> |
-|ErrorInvalidCrossForestCredentials  <br/> |Эта ошибка возникает, когда учетные данные, используемые для прокси-сервера запрос на лес службы другой каталог не выполняется проверка подлинности.  <br/> |
-|ErrorInvalidDelegatePermission  <br/> |Эта ошибка указывает, что разрешения указанной папки являются недопустимыми.  <br/> |
-|ErrorInvalidDelegateUserId  <br/> |Эта ошибка указывает, что идентификатор пользователя указанный делегат является недопустимым.  <br/> |
-|ErrorInvalidExchangeImpersonationHeaderData  <br/> |Эта ошибка возникает во время олицетворения Exchange, когда Звонящий не указывает имя участника-пользователя, адрес электронной почты или ИД безопасности пользователя. Это также возникает, если вызывающего указывает одно или несколько из них и значения будут пустыми.  <br/> |
-|ErrorInvalidExcludesRestriction  <br/> |Эта ошибка возникает, когда Битовая маска, переданный в элемент ограничению [Excludes](excludes.md) не удается выполнить синтаксический анализ.  <br/> |
-|ErrorInvalidExpressionTypeForSubFilter  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidExtendedProperty  <br/> | Эта ошибка возникает при возникновении следующих событий: <br/> <br/>-Вызывающего пытается использовать расширенное свойство, не поддерживаемый веб-служб Exchange.  <br/>-Вызывающего абонента передает Недопустимое сочетание значений атрибутов для расширенного свойства. Это также происходит, если передается без атрибутов. Разрешены только определенные сочетания.  <br/> |
-|ErrorInvalidExtendedPropertyValue  <br/> |Эта ошибка возникает, когда в разделе значение расширенного свойства не соответствует типу свойства. <br/><br/>Например, Установка расширенного свойства, которое имеет PropertyType = «String» для массива целых чисел приведет к данной ошибки. Любое строковое представление, который не является принудительного в тип, который задан для расширенного свойства предоставит Эта ошибка.  <br/> |
-|ErrorInvalidExternalSharingInitiator  <br/> |Эта ошибка указывает, общего доступа отправителю приглашения не была создана общего доступа с приглашением метаданных.  <br/> |
-|ErrorInvalidExternalSharingSubscriber  <br/> |Эта ошибка указывает, что сообщение общего доступа не предназначен для вызывающего абонента.  <br/> |
-|ErrorInvalidFederatedOrganizationId  <br/> |Эта ошибка указывает, что объекты федерации организации инициатора не настроены правильно.  <br/> |
-|ErrorInvalidFolderId  <br/> |Эта ошибка возникает, когда ИД папки поврежден.  <br/> |
-|ErrorInvalidFolderTypeForOperation  <br/> |Эта ошибка указывает, что тип указанная папка является недопустимым для текущей операции. Например не удается создать папку поиска в общей папке.  <br/> |
-|ErrorInvalidFractionalPagingParameters  <br/> | Эта ошибка возникает в дробная разбиение на страницы, когда задан один из следующих: <br/> <br/>-Числителем, больше, чем делителя  <br/>-Числителем, меньше нуля  <br/>-Делителя, меньше или равно нулю  <br/> |
-|ErrorInvalidGetSharingFolderRequest  <br/> |Эта ошибка указывает, что элементы [типа данных](datatype.md) и ShareFolderId операции присваивания являются присутствует в запросе.  <br/> |
-|ErrorInvalidFreeBusyViewType  <br/> |Эта ошибка возникает, когда [операция GetUserAvailability](getuseravailability-operation.md) вызывается с [FreeBusyViewType](freebusyviewtype.md) нет.  <br/> |
-|ErrorInvalidId  <br/> |Эта ошибка указывает, что ключ идентификатора и/или изменение неверный формат.  <br/> |
-|ErrorInvalidIdEmpty  <br/> |Эта ошибка происходит, когда Звонящий указывает атрибут **Id** , пуст.  <br/> |
-|ErrorInvalidLikeRequest  <br/> |Эта ошибка происходит, когда элемент не может быть нравится, что. Версии Exchange, начиная с номер сборки 15.00.0913.09 включать это значение.  <br/> |
-|ErrorInvalidIdMalformed  <br/> |Эта ошибка возникает, когда Звонящий указывает атрибут **Id** , имеет неверный формат.  <br/> |
-|ErrorInvalidIdMalformedEwsLegacyIdFormat  <br/> |Эта ошибка указывает, что идентификатор папки или элемента, в формате Exchange 2007 был указанного запроса с версией Exchange 2007 с пакетом обновления 1 или более поздней версии. Нельзя использовать идентификаторы Exchange 2007 в Exchange 2007 с пакетом обновления 1 или более поздней версии запросы. Необходимо сначала преобразовать с помощью [операции ConvertId](convertid-operation.md) .  <br/> |
-|ErrorInvalidIdMonikerTooLong  <br/> |Эта ошибка возникает, когда Звонящий указывает атрибут **Id** , слишком много времени.  <br/> |
-|ErrorInvalidIdNotAnItemAttachmentId  <br/> |Эта ошибка возвращается в том случае, когда идентификатор, который не является вложение элемента, идентификатор передается в метод веб-службы, требующей идентификатор вложения.  <br/> |
-|ErrorInvalidIdReturnedByResolveNames  <br/> |Эта ошибка возникает, когда контакт в свой почтовый ящик поврежден.  <br/> |
-|ErrorInvalidIdStoreObjectIdTooLong  <br/> |Эта ошибка возникает, когда Звонящий указывает атрибут **Id** , слишком много времени.  <br/> |
-|ErrorInvalidIdTooManyAttachmentLevels  <br/> |Когда иерархия вложений элемента превышает максимум 255 уровней этой ошибки.  <br/> |
-|ErrorInvalidIdXml  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidImContactId  <br/> |Если указанный идентификатор контакта обмена мгновенными Сообщениями не представляет допустимый идентификатор этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorInvalidImDistributionGroupSmtpAddress  <br/> |Если адрес SMTP идентификатор для указанного обмена мгновенными Сообщениями рассылки группы не представляет допустимый идентификатор этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorInvalidImGroupId  <br/> |Если указанный идентификатор группы обмена мгновенными Сообщениями не представляет допустимый идентификатор этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorInvalidIndexedPagingParameters  <br/> |Эта ошибка возникает, если Смещение индексированного постраничного просмотра является отрицательным.  <br/> |
-|ErrorInvalidInternetHeaderChildNodes  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidItemForOperationArchiveItem  <br/> |Указывает, что элемент был недействителен для операции **ArchiveItem** .  <br/> |
-|ErrorInvalidItemForOperationAcceptItem  <br/> |Эта ошибка возникает при попытке использовать объект ответа AcceptItem тип элемента не приглашения на собрание или элемента календаря или при попытке принять вхождение элемента календаря, который находится в папку «Удаленные».  <br/> |
-|ErrorInvalidItemForOperationCancelItem  <br/> |Эта ошибка возникает при попытке использовать объект CancelItem ответа на тип элемента, отличного от элемента календаря.  <br/> |
-|ErrorInvalidItemForOperationCreateItemAttachment  <br/> | При попытке создать вложение элемента неподдерживаемый тип этой ошибки.  <br/><br/>  Типы поддерживаемых элементов для вложений элемента включают следующие объекты:  <br/><br/>- [Элемент](item.md) <br/>- [Сообщение](message-ex15websvcsotherref.md) <br/>- [Элемента календаря, имеющего](calendaritem.md) <br/>- [Задача](task.md) <br/>- [Контакт](contact.md) <br/> <br/> Например если попытаться создать подключение к [MeetingMessage](meetingmessage.md) , встречающиеся этот код ответа.  <br/> |
-|ErrorInvalidItemForOperationCreateItem  <br/> | Эта ошибка возвращается из [операции CreateItem](createitem-operation.md) , если запрос содержит тип не поддерживается. <br/><br/>Поддерживаемые элементы включают следующие объекты:<br/>  <br/>- [Элемент](item.md) <br/>- [Сообщение](message-ex15websvcsotherref.md) <br/>- [Элемента календаря, имеющего](calendaritem.md) <br/>- [Задача](task.md) <br/>- [Контакт](contact.md) <br/><br/>  Определенные типы создаются в качестве побочные эффекты выполнения. Собрания сообщений, например, создаются при отправке элемента календаря для участников; они не создаются явным образом.  <br/> |
-|ErrorInvalidItemForOperationDeclineItem  <br/> |Эта ошибка возникает при попытке использовать объект ответа DeclineItem тип элемента не приглашения на собрание или элемента календаря или при попытке отклонить вхождение элемента календаря, который находится в папку «Удаленные».  <br/> |
-|ErrorInvalidItemForOperationExpandDL  <br/> |Эта ошибка указывает, что [операция ExpandDL](expanddl-operation.md) действителен только в частные списки рассылки.  <br/> |
-|ErrorInvalidItemForOperationRemoveItem  <br/> |Эта ошибка возвращается из объекта ответа RemoveItem, если запрос указывает элемент, который не является собрания элемент отмены.  <br/> |
-|ErrorInvalidItemForOperationSendItem  <br/> |Эта ошибка возвращается из [операции SendItem](senditem-operation.md) , если запрос указывает элемент, который не является элемента сообщения.  <br/> |
-|ErrorInvalidItemForOperationTentative  <br/> |Эта ошибка возникает при попытке использовать [TentativelyAcceptItem](tentativelyacceptitem.md) тип элемента не приглашения на собрание или элемента календаря или при попытке принять под вопросом вхождение элемента календаря, который находится в папку «Удаленные».  <br/> |
-|ErrorInvalidLogonType  <br/> |Эта ошибка — только для внутреннего использования. Эта ошибка не возвращается.  <br/> |
-|ErrorInvalidMailbox  <br/> |Эта ошибка указывает, что [UpdateItem операции](updateitem-operation.md) или [операции CreateItem](createitem-operation.md) сбой при создании или обновлении списка рассылки.  <br/> |
-|ErrorInvalidManagedFolderProperty  <br/> |Эта ошибка возникает, когда структура управляемой папки повреждена и не может быть обработана.  <br/> |
-|ErrorInvalidManagedFolderQuota  <br/> |Эта ошибка возникает, когда квот, заданное для управляемой папки меньше нуля указывает поврежденные управляемых папок.  <br/> |
-|ErrorInvalidManagedFolderSize  <br/> |Эта ошибка возникает, когда размер, заданное для управляемой папки меньше нуля указывает поврежденные управляемых папок.  <br/> |
-|ErrorInvalidMergedFreeBusyInterval  <br/> |Эта ошибка происходит, когда объединенные обмен сведениями о доступности внутреннего заданному является недопустимым. Минимальное значение по умолчанию — 5 минут. Максимальное значение по умолчанию — 1440 минут.  <br/> |
-|ErrorInvalidNameForNameResolution  <br/> |Эта ошибка происходит, когда [операция ResolveNames](resolvenames-operation.md)недопустимое имя. Например строку нулевой длины, пробелом, запятой и тире являются все недопустимые имена.  <br/> |
-|ErrorInvalidNetworkServiceContext  <br/> |Эта ошибка указывает на ошибку в учетную запись сетевой службы на сервере клиентского доступа.  <br/> |
-|ErrorInvalidOofParameter  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidOperation  <br/> | Это общая ошибка, которая будет использоваться при Запрошенная операция является недопустимым. <br/><br/>Например нельзя выполните следующее: <br/> <br/>-Выполните «Глубокий» обзор с помощью [операции FindFolder](findfolder-operation.md) для общей папки.  <br/>-Перемещение или копирование корневой общей папки.  <br/>-Удаление связанного элемента с помощью любого режима, за исключением «Жестко» удалить.  <br/>-Переместить или скопировать связанный элемент.  <br/> |
-|ErrorInvalidOrganizationRelationshipForFreeBusy  <br/> |Эта ошибка указывает, что вызывающего запрошено сведения о доступности для пользователей в другой организации, но организационное отношение не имеет сведений о доступности включен.  <br/> |
-|ErrorInvalidPagingMaxRows  <br/> |Эта ошибка возникает, если потребитель передает ноль или отрицательное значение для максимальное число строк должно быть возвращено.  <br/> |
-|ErrorInvalidParentFolder  <br/> |Эта ошибка возникает, если потребитель передает недопустимый родительской папки для операции. Например, для этой ошибки при попытке создания папки внутри папки поиска.  <br/> |
-|ErrorInvalidPercentCompleteValue  <br/> |Эта ошибка возвращается при попытке задать процент завершения задач недопустимое значение. Значение должно быть между 0 и 100 (включительно).  <br/> |
-|ErrorInvalidPermissionSettings  <br/> |Эта ошибка указывает, что уровень разрешений не соответствует параметры разрешений.  <br/> |
-|ErrorInvalidPhoneCallId  <br/> |Эта ошибка указывает, что идентификатор звонящего не является допустимым.  <br/> |
-|ErrorInvalidPhoneNumber  <br/> |Эта ошибка указывает, что номер телефона неправильно или не соответствуют телефонным обдумайте правила.  <br/> |
-|ErrorInvalidPropertyAppend  <br/> | Эта ошибка возникает, если свойство, которое требуется добавить, не поддерживает добавление. <br/><br/>Ниже приведены только свойства, которые поддерживает добавление. <br/> <br/>-Получателя семейств сайтов (ToRecipients, CcRecipients, BccRecipients)  <br/>-Attendee семейств сайтов (RequiredAttendees, OptionalAttendees, кадров)  <br/>-Body  <br/>-ReplyTo  <br/><br/>  Кроме того эта ошибка происходит, когда текст сообщения добавляется, если формата, указанного в запросе не соответствует формату элемента в хранилище.  <br/> |
-|ErrorInvalidPropertyDelete  <br/> |Эта ошибка возникает, если операция удаления указан в вызове [UpdateItem операции](updateitem-operation.md) или [операции UpdateFolder](updatefolder-operation.md) для свойства, которое не поддерживает операцию удаления. Например нельзя удалить элемент [ItemId](itemid.md) объекта [Item](item.md) .  <br/> |
-|ErrorInvalidPropertyForExists  <br/> |Эта ошибка возникает, если получатель проходит по одному из свойств флаг в фильтре [Exists](exists.md) . Например Эта ошибка возникает, если флаги [IsRead](isread.md) или [IsFromMe](isfromme.md) заданы в элементе [Exists](exists.md) . Запрос следует использовать элемент [выражение IsEqualTo](isequalto.md) для этих как есть флаги и, следовательно, частью отдельное свойство.  <br/> |
-|ErrorInvalidPropertyForOperation  <br/> |Эта ошибка возникает, если свойство, которое требуется для работы с не поддерживает операции.  <br/> |
-|ErrorInvalidPropertyRequest  <br/> | Эта ошибка возникает, если свойство, указанное в запросе не доступен с типом элемента. Например этой ошибки при запросе свойство, которое доступно только на элементы календаря в ходе [операции GetItem](getitem-operation.md) звонок для сообщения или обновляется в рамках одной [операции UpdateItem](updateitem-operation.md) звонков для сообщения. <br/> <br/>  Этот шаг выполняется в следующих операций: <br/> <br/>- [Операции GetItem](getitem-operation.md) <br/>- [Операция GetFolder](getfolder-operation.md) <br/>- [Операция UpdateItem](updateitem-operation.md) <br/>- [Операция UpdateFolder](updatefolder-operation.md) <br/> |
-|ErrorInvalidPropertySet  <br/> |Эта ошибка указывает, что свойство, которое требуется для работы с не поддерживает операции. Например Эта ошибка возвращается, если свойство, которое вы пытаетесь установить доступен только для чтения.  <br/> |
-|ErrorInvalidPropertyUpdateSentMessage  <br/> | Эта ошибка возникает во время [операции UpdateItem](updateitem-operation.md) , когда клиент пытается обновить определенные свойства, которое уже было отправлено сообщение.<br/><br/> Например на отправленное сообщение не удается обновить следующие свойства: <br/> <br/>- [IsReadReceiptRequested](isreadreceiptrequested.md) <br/>- [IsDeliveryReceiptRequested](isdeliveryreceiptrequested.md) <br/> |
-|ErrorInvalidProxySecurityContext  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidPullSubscriptionId  <br/> |Эта ошибка возникает при вызове с помощью идентификатора подписки push [GetEvents операции](getevents-operation.md) или [операции отказа от подписки](unsubscribe-operation.md) Чтобы отписаться от принудительной подписки, необходимо ответить на запрос push отказом от подписки, или отключите веб-службы и дождитесь push-уведомления для времени ожидания.  <br/> |
-|ErrorInvalidPushSubscriptionUrl  <br/> | Эта ошибка возвращается [подписки на операции](subscribe-operation.md) , если он создает подписки «push» и указывает, что URL-адрес, который включен в запрос является недопустимым.<br/><br/>Для веб-служб Exchange для приема URL-адреса должны быть выполнены следующие условия: <br/> <br/>-Длина строки \> 0 и \< 2083.  <br/>-Является http или https.  <br/>— URL-адрес можно преобразовать в классе URI Microsoft .NET Framework.  <br/> |
-|ErrorInvalidRecipients  <br/> |Эта ошибка указывает, что набор получателей сообщения или набор приглашенных элементу календаря является недопустимым. Например будут возвращены Эта ошибка при попытке отправить элемент, который не имеет получателей.  <br/> |
-|ErrorInvalidRecipientSubfilter  <br/> |Эта ошибка указывает, что папка поиска имеет фильтра получателей таблицы, которая не может представлять веб-служб Exchange. Чтобы обойти эту ошибку, извлеките папку, не запрашивая параметры поиска.  <br/> |
-|ErrorInvalidRecipientSubfilterComparison  <br/> |Эта ошибка указывает, что папка поиска имеет фильтра получателей таблицы, которая не может представлять веб-служб Exchange. Чтобы обойти эту ошибку, извлеките папку, не запрашивая параметры поиска.  <br/> |
-|ErrorInvalidRecipientSubfilterOrder  <br/> |Эта ошибка указывает, что папка поиска имеет фильтра получателей таблицы, которая не может представлять веб-служб Exchange. Чтобы обойти эту ошибку, извлеките папку, не запрашивая параметры поиска.  <br/> |
-|ErrorInvalidRecipientSubfilterTextFilter  <br/> |Эта ошибка указывает, что папка поиска имеет фильтра получателей таблицы, которая не может представлять веб-служб Exchange. Чтобы обойти эту ошибку, извлеките папку, не запрашивая параметры поиска.  <br/> |
-|ErrorInvalidReferenceItem  <br/> | Эта ошибка возвращается из [операции CreateItem](createitem-operation.md) для прямого и ответ объекты ответа в следующих сценариях:<br/>  <br/>-Идентификатор указанного элемента не [сообщения](message-ex15websvcsotherref.md), [элемента календаря, имеющего](calendaritem.md)или потомком **сообщения** или **элемента календаря, имеющего**.  <br/>— Идентификатор элемента ссылки для **элемента календаря, имеющего** и организатора пытается Reply или ReplyAll для самого себя.  <br/>-Сообщение является черновиком и Reply или ReplyAll.  <br/>-Элемент ссылки для [SuppressReadReceipt](suppressreadreceipt.md), не является потомком **сообщения**или **сообщения** .  <br/> |
-|ErrorInvalidRequest  <br/> |Эта ошибка возникает, если запрос SOAP содержит заголовок действия SOAP, но не в тексте сообщения SOAP. Обратите внимание, что заголовок действия SOAP не требуется, как веб-служб Exchange можно определить метод, вызываемый из локального имя корневого элемента в тексте запроса SOAP.  <br/> |
-|ErrorInvalidRestriction  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidRetentionTagTypeMismatch  <br/> |Эта ошибка возвращается, когда тега хранения указанного имеет неправильные действие, связанное с ним. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorInvalidRetentionTagInvisible  <br/> |Когда попытка задать тег несуществующий или невидимой для свойства **PolicyTag** этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorInvalidRetentionTagInheritance  <br/> |Когда попытка задать неявных тег для свойства **PolicyTag** этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorInvalidRetentionTagIdGuid  <br/> |Указывает недопустимый идентификатор GUID тега хранения.  <br/> |
-|ErrorInvalidRoutingType  <br/> |Эта ошибка возникает, если тип маршрутизации, которое передается для элемента [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md) является недопустимым. Как правило типа маршрутизации задается для SMTP Simple Mail Transfer Protocol ().  <br/> |
-|ErrorInvalidScheduledOofDuration  <br/> |Эта ошибка возникает, если заданное время окончания периода не превышает время начала или время окончания не происходит в будущем.  <br/> |
-|ErrorInvalidSchemaVersionForMailboxVersion  <br/> |Эта ошибка указывает, что запрос прокси-сервера, который был отправлен на другой сервер не может обслуживать запрос из-за несоответствие управления версиями.  <br/> |
-|ErrorInvalidSecurityDescriptor  <br/> |Эта ошибка указывает, что поврежден дескриптор безопасности в папке календаря в хранилище Exchange.  <br/> |
-|ErrorInvalidSendItemSaveSettings  <br/> |Эта ошибка возникает при попытке отправить элемент, где [SavedItemFolderId](saveditemfolderid.md) указан в запросе, но свойство **SaveItemToFolder** имеет значение **false**.  <br/> |
-|ErrorInvalidSerializedAccessToken  <br/> |Эта ошибка указывает, что маркер, который был передан в заголовке, имеет неверный формат, не ссылается на допустимую учетную запись в каталоге или отсутствует основной группы **ConnectingSID**.  <br/> |
-|ErrorInvalidSharingData  <br/> |Эта ошибка указывает, что общего доступа метаданных является недопустимым. Это может быть вызвано недопустимый XML.  <br/> |
-|ErrorInvalidSharingMessage  <br/> |Эта ошибка указывает на то, что общего доступа сообщение не является допустимым. Это может быть вызвано отсутствующие свойства.  <br/> |
-|ErrorInvalidSid  <br/> |Эта ошибка возникает, когда недопустимое, которое передается ИД безопасности в запросе.  <br/> |
-|ErrorInvalidSIPUri  <br/> |Эта ошибка указывает, что имя SIP, абонентской группы или номер телефона неправильных URI SIP.  <br/> |
-|ErrorInvalidServerVersion  <br/> |Эта ошибка указывает, что версия сервера недопустимый запрос был задан в запросе.  <br/> |
-|ErrorInvalidSmtpAddress  <br/> |Эта ошибка происходит, когда невозможно выполнить синтаксический анализ SMTP-адрес.  <br/> |
-|ErrorInvalidSubfilterType  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidSubfilterTypeNotAttendeeType  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidSubfilterTypeNotRecipientType  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidSubscription  <br/> |Эта ошибка указывает, что подписки больше не является допустимым. Это может быть, так как перезапуск сервера клиентского доступа или истечения срока действия подписки.  <br/> |
-|ErrorInvalidSubscriptionRequest  <br/> |Эта ошибка указывает, что запрос подписки на включить несколько общих папок идентификаторы. Подписка может включать несколько папок из этого почтового ящика или один идентификатор общей папки.  <br/> |
-|ErrorInvalidSyncStateData  <br/> |Эта ошибка возвращается по [SyncFolderItems](syncfolderitems.md) или [SyncFolderHierarchy](syncfolderhierarchy.md) , если [состояние](syncstate-ex15websvcsotherref.md) данных, которое передается является недопустимым. Чтобы устранить эту ошибку, необходимо повторно выполнить синхронизацию без состояние синхронизации. Убедитесь, что при наличии Сохранение синхронизации состоянии большие двоичные объекты, можно не был случайно усечен больших двоичных ОБЪЕКТОВ.  <br/> |
-|ErrorInvalidTimeInterval  <br/> |Эта ошибка указывает, что для указанного временного интервала является недопустимым. Время начала должно быть больше или равно времени окончания.  <br/> |
-|ErrorInvalidUserInfo  <br/> |Эта ошибка указывает, что во внутреннем несогласованные [UserId](userid.md) был задан для выполнения операции разрешения. Например если идентификатор различающееся пользователя указанного (по умолчанию или анонимный доступ), этой ошибки при попытке также указать идентификатор безопасности или основной SMTP-адрес или отображаемое имя для этого пользователя.  <br/> |
-|ErrorInvalidUserOofSettings  <br/> |Эта ошибка указывает, что параметры пользователя об отсутствии на работе Office (OOF) недопустимы из-за отсутствующих внутреннего или внешнего ответа.  <br/> |
-|ErrorInvalidUserPrincipalName  <br/> |Эта ошибка возникает во время олицетворения Exchange. При вызове передан в недопустимое имя участника-пользователя в заголовке SOAP, который недоступен в каталоге.  <br/> |
-|ErrorInvalidUserSid  <br/> |Эта ошибка возникает, когда недопустимое, которое передается ИД безопасности в запросе.  <br/> |
-|ErrorInvalidUserSidMissingUPN  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorInvalidValueForProperty  <br/> |Эта ошибка указывает, что для свойства, которое оно сравнивается недопустимое значение сравнения в ограничении.<br/><br/> Например, для сравнения значения [DateTimeCreated](datetimecreated.md) > **значение true,** будет возвращен данный код ответа. <br/><br/>Этот код ответа возвращается также в том случае, если для сравнения задано свойство перечисления, но значение, оно сравнивается не допустимое значение для перечисления.  <br/> |
-|ErrorInvalidWatermark  <br/> |Эта ошибка возникает по недопустимый водяного знака.  <br/> |
-|ErrorIPGatewayNotFound  <br/> |Эта ошибка указывает, что допустимый шлюз VoIP недоступно.  <br/> |
-|ErrorIrresolvableConflict  <br/> |Эта ошибка указывает, что разрешения конфликтов не удалось разрешить изменения свойств. Элементы в хранилище были изменены и необходимо обновить. Получите обновленный ключ изменения и повторите попытку.  <br/> |
-|ErrorItemCorrupt  <br/> |Эта ошибка указывает, что состояние объекта повреждена и не может быть извлечен. При извлечении элемента в этом состоянии, такие как [текст](body.md) и [MimeContent](mimecontent.md)будет только определенные элементы. Пропустить эти элементы и повторите операцию.  <br/> |
-|ErrorItemNotFound  <br/> |Эта ошибка происходит, когда элемент не найден или нет разрешения на доступ к элемента.  <br/> |
-|ErrorItemPropertyRequestFailed  <br/> |Эта ошибка возникает, если не удается выполнить запрос свойства элемента. Свойство существует, но его не удалось получить.  <br/> |
-|ErrorItemSave  <br/> |Эта ошибка возникает, когда не удалось сохранить элемент или папку.  <br/> |
-|ErrorItemSavePropertyError  <br/> |Эта ошибка возникает, когда не удалось сохранить элемент или папку из-за недопустимости значений свойства. Код ответа включает путь недопустимые свойства.  <br/> |
-|ErrorLegacyMailboxFreeBusyViewTypeNotMerged  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorLocalServerObjectNotFound  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorLogonAsNetworkServiceFailed  <br/> |Эта ошибка указывает, что служба доступности не удалось выполнить вход в качестве сетевой службы для запросов прокси-сервера для соответствующих сайтов или лесов. В этом ответа указывает на то, ошибки в конфигурации.  <br/> |
-|ErrorMailboxConfiguration  <br/> |Эта ошибка указывает, что сведения о почтовых ящиках в Доменных службах Active Directory настроен неправильно.  <br/> |
-|ErrorMailboxDataArrayEmpty  <br/> |Эта ошибка указывает, что элемент [MailboxDataArray](mailboxdataarray.md) в запросе пуст. Необходимо указать по крайней мере один идентификатор почтового ящика.  <br/> |
-|ErrorMailboxDataArrayTooBig  <br/> |Эта ошибка возникает при более чем 100 записей поставляются в элементе [MailboxDataArray](mailboxdataarray.md) ...  <br/> |
-|ErrorMailboxFailover  <br/> |Эта ошибка указывает, что при попытке получить доступ к почтовому ящику сбой при почтовый ящик в процессе перехода на другой ресурс.  <br/> |
-|ErrorMailboxHoldNotFound  <br/> |Указывает, что удержание почтовых ящиков не найден.  <br/> |
-|ErrorMailboxLogonFailed  <br/> |Эта ошибка возникает при сбое подключения к почтовому ящику для получения информации о представлении календаря.  <br/> |
-|ErrorMailboxMoveInProgress  <br/> | Эта ошибка указывает, что почтовый ящик перемещается в другое хранилище или сервера. Эта ошибка также может указывать, что почтовый ящик в другую базу данных сервера или почтового ящика.  <br/> |
-|ErrorMailboxStoreUnavailable  <br/> | Эта ошибка указывает, что один следующее сообщение об ошибке возникновения условий:  <br/><br/>-Поврежден хранилища почтовых ящиков.  <br/>-В хранилище почтовых ящиков остановлена.  <br/>-В хранилище почтовых ящиков находится в автономном режиме.  <br/>-Ошибка сети при попытке доступа к хранилищу данных почтовых ящиков.  <br/>-В хранилище почтовых ящиков перегружен и не может принимать дополнительные подключения.  <br/>-В хранилище почтовых ящиков был приостановлен.  <br/> |
-|ErrorMailRecipientNotFound  <br/> |Эта ошибка возникает, если данные элемента [MailboxData](mailboxdata.md) не может быть сопоставлен допустимый почтовый ящик учетной записи.  <br/> |
-|ErrorMailTipsDisabled  <br/> |Эта ошибка указывает, что почтовые подсказки отключены.  <br/> |
-|ErrorManagedFolderAlreadyExists  <br/> |Эта ошибка возникает, если управляемой папки, который вы пытаетесь создать, уже существует в почтовом ящике.  <br/> |
-|ErrorManagedFolderNotFound  <br/> |Эта ошибка возникает, когда имя папки, который был указан в запросе не соответствует определению управляемой папки в Доменные службы Active Directory. Можно создавать только экземпляры управляемых папок для папок, которые определены в Доменных службах Active Directory. Проверьте имя и повторите попытку.  <br/> |
-|ErrorManagedFoldersRootFailure  <br/> |Эта ошибка указывает, что корневой элемент управляемых папок удален из почтового ящика или, что папка существует в той же родительской папке с именем корневой управляемой папки. Это также возникает, если попытка создания корневой управляемой папки возникает ошибка.  <br/> |
-|ErrorMeetingSuggestionGenerationFailed  <br/> |Эта ошибка указывает, что модуль предложений произошла ошибка при попытке создания предложений.  <br/> |
-|ErrorMessageDispositionRequired  <br/> | Эта ошибка возникает, если атрибут **MessageDisposition** не установлен.<br/><br/> Этот атрибут является обязательным для следующих: <br/> <br/>- [Операции CreateItem](createitem-operation.md) , а [операция UpdateItem](updateitem-operation.md) при элемента созданные или обновленные [сообщения](message-ex15websvcsotherref.md).  <br/>- Объекты ответа [CancelCalendarItem](cancelcalendaritem.md), [AcceptItem](acceptitem.md), [DeclineItem](declineitem.md)или [TentativelyAcceptItem](tentativelyacceptitem.md) .  <br/> |
-|ErrorMessageSizeExceeded  <br/> |Эта ошибка указывает, что сообщение, которое вы пытаетесь отправить превышает допустимое.  <br/> |
-|ErrorMessageTrackingNoSuchDomain  <br/> |Эта ошибка указывает, что не удается найти указанного домена.  <br/> |
-|ErrorMessageTrackingPermanentError  <br/> |Эта ошибка указывает, что служба отслеживания сообщений не может отслеживать сообщения.  <br/> |
-| ErrorMessageTrackingTransientError  <br/> |Эта ошибка указывает, что служба отслеживания сообщений — вниз или занят. Эта ошибка указывает на временные ошибки. Клиенты можно повторить для подключения к серверу при получении данной ошибки.  <br/> |
-|ErrorMimeContentConversionFailed  <br/> |Эта ошибка возникает при содержимого MIME не является допустимым для [операции CreateItem](createitem-operation.md)iCal. Для выполнения [операции GetItem](getitem-operation.md)такой ответ означает, что содержимого MIME не удалось создать.  <br/> |
-|ErrorMimeContentInvalid  <br/> |Эта ошибка возникает при недопустимом содержимого MIME.  <br/> |
-|ErrorMimeContentInvalidBase64String  <br/> |Эта ошибка возникает, когда содержимого MIME в запросе не является допустимой базовый 64 строкой.  <br/> |
-|ErrorMissingArgument  <br/> |Эта ошибка указывает, что обязательный аргумент не указаны в запросе. Текст сообщения ответа указывает, какой аргумент для проверки.  <br/> |
-|ErrorMissingEmailAddress  <br/> |Эта ошибка указывает ИД именованной папки указанного в запросе, что учетная запись, отправившего запрос не имеет почтового ящика в системе. В этом случае необходимо задать дочерний элемент [почтовых ящиков](mailbox.md) в группе [DistinguishedFolderId](distinguishedfolderid.md).  <br/> |
-|ErrorMissingEmailAddressForManagedFolder  <br/> |Эта ошибка указывает ИД именованной папки указанного в запросе, что учетная запись, отправившего запрос не имеет почтового ящика в системе. В этом случае необходимо задать дочерний элемент [почтовых ящиков](mailbox.md) в группе [DistinguishedFolderId](distinguishedfolderid.md). Этот ответ возвращается из [CreateManagedFolder операции](createmanagedfolder-operation.md).  <br/> |
-|ErrorMissingInformationEmailAddress  <br/> |Эта ошибка возникает, если элемент [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) отсутствует.  <br/> |
-|ErrorMissingInformationReferenceItemId  <br/> |Эта ошибка возникает, если отсутствует [ReferenceItemId](referenceitemid.md) .  <br/> |
-|ErrorMissingInformationSharingFolderId  <br/> |Этот код ошибки, никогда не возвращается.  <br/> |
-|ErrorMissingItemForCreateItemAttachment  <br/> |Эта ошибка возвращается при попытке включает элемент в элементе **ItemAttachment** [CreateAttachment операции](createattachment-operation.md) запроса.  <br/> |
-|ErrorMissingManagedFolderId  <br/> |Эта ошибка возникает, когда свойство идентификаторов политики тег свойства 0x6732 для папки отсутствует. Необходимо учитывать это поврежденные папки.  <br/> |
-|ErrorMissingRecipients  <br/> |Эта ошибка указывает, что вы указали для отправки элемента, не включая получателей. Обратите внимание на то, что при вызове [операции CreateItem](createitem-operation.md) с ликвидации сообщения, создающий сообщение было отправлено, вы получите следующий код ответа: **ErrorInvalidRecipients**.  <br/> |
-|ErrorMissingUserIdInformation  <br/> |Эта ошибка указывает на то, что [идентификатор пользователя](userid.md) не был полностью указан в наборе разрешений.  <br/> |
-|ErrorMoreThanOneAccessModeSpecified  <br/> |Эта ошибка указывает, что указано более одного элемента значение [ExchangeImpersonation](exchangeimpersonation.md) внутри запроса.  <br/> |
-|ErrorMoveCopyFailed  <br/> |Эта ошибка указывает на то, что не удалось выполнить операцию перемещения или копирования. Перемещение выполняется в [операции CreateItem](createitem-operation.md) при принятии приглашения на собрание, находящийся в папку «Удаленные». Кроме того Если отклонение приглашения на собрание, отмены элемента календаря или удаление собрания из календаря, перемещении для папки «Удаленные».  <br/> |
-|ErrorMoveDistinguishedFolder  <br/> |Эта ошибка возникает при попытке перемещения именованной папки.  <br/> |
-|ErrorMultiLegacyMailboxAccess  <br/> |Эта ошибка возникает, когда запрос пытается получить доступ к несколько серверов почтовых ящиков. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorNameResolutionMultipleResults  <br/> |Эта ошибка возникает, если [операция ResolveNames](resolvenames-operation.md) возвращает несколько результатов или неоднозначное имя, указанное соответствует нескольким объектам в каталоге. Код ответа содержатся совпадающие имена из данных ответа.  <br/> |
-|ErrorNameResolutionNoMailbox  <br/> |Эта ошибка указывает, что вызывающий не имеет почтового ящика в системе. [ResolveNames операции](resolvenames-operation.md) или [операции ExpandDL](expanddl-operation.md) является недопустимым для подключения пользователей без почтового ящика.  <br/> |
-|ErrorNameResolutionNoResults  <br/> |Эта ошибка указывает, что [операция ResolveNames](resolvenames-operation.md) не возвращает результатов.  <br/> |
-|ErrorNoApplicableProxyCASServersAvailable  <br/> |Этот код ошибки должны возвращаться при веб-службы не удается найти сервер для обработки запроса.  <br/> |
-|ErrorNoCalendar  <br/> |Эта ошибка возникает, если нет папки календаря для почтового ящика.  <br/> |
-|ErrorNoDestinationCASDueToKerberosRequirements  <br/> |Эта ошибка указывает, что запрос делается ссылка в почтовый ящик на другом сайте Active Directory, но нет серверов клиентского доступа в целевом сайте были настроены для проверки подлинности Windows и таким образом запрос не может быть прокси.  <br/> |
-|ErrorNoDestinationCASDueToSSLRequirements  <br/> |Эта ошибка указывает, что запрос делается ссылка в почтовый ящик на другом сайте Active Directory, но нет серверов клиентского доступа в целевом сайте были настроены для SSL-соединений и таким образом запрос не может быть прокси.  <br/> |
-|ErrorNoDestinationCASDueToVersionMismatch  <br/> |Эта ошибка указывает, что запрос делается ссылка в почтовый ящик на другом сайте Active Directory, но не серверы клиентского доступа в целевом сайте, версии продукта приемлемой для получения запроса и таким образом запрос не может быть прокси.  <br/> |
-|ErrorNoFolderClassOverride  <br/> |Эта ошибка возникает, если значение элемента [FolderClass](folderclass.md) при создании элемента, не общей папки. Для типизированных папок, таких как [CalendarFolder](calendarfolder.md) и [TasksFolder](tasksfolder.md)подразумевается класс папки. Установка класса папки в одной папке с тип с помощью результаты [операции UpdateFolder](updatefolder-operation.md) в ответ **ErrorObjectTypeChanged** . Вместо этого использовать папкой стандартного типа, но присвоено значение, которое требуется класс папки. Веб-служб Exchange создадим строго типизированные нужную папку.  <br/> |
-|ErrorNoFreeBusyAccess  <br/> |Эта ошибка указывает на то, что вызывающий не имеет права на просмотр сведений о доступности на в папке календаря.  <br/> |
-|ErrorNonExistentMailbox  <br/> | Эта ошибка возникает в следующих случаях: <br/> <br/>— В [CreateManagedFolder](createmanagedfolder.md)пуст адрес электронной почты.  <br/>— Адрес электронной почты не ссылается на допустимую учетную запись в запросе, который принимает адрес электронной почты, в тексте или в заголовке SOAP, например, в вызове олицетворения Exchange.  <br/> |
-|ErrorNonPrimarySmtpAddress  <br/> |Эта ошибка возникает, если вызывающий объект передает не основной SMTP-адрес. Ответ включает правильный SMTP-адрес для использования.  <br/> |
-|ErrorNoPropertyTagForCustomProperties  <br/> |Эта ошибка указывает, что свойства MAPI в настраиваемом диапазоне 0x8000 и более поздних версий, не могут быть созданы с помощью свойства тегов. Необходимо использовать управляемый API EWS [PropertySetId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.extendedpropertydefinition.propertysetid%28v=exchg.80%29.aspx)свойство или элемент веб-служб Exchange [ExtendedFieldURI](extendedfielduri.md) с помощью атрибута PropertySetId.  <br/> |
-|ErrorNoPublicFolderReplicaAvailable  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorNoPublicFolderServerAvailable  <br/> |Этот код ошибки должны возвращаться при наличии без сервера общих папок или если вызывающий не имеет Домашняя страница общедоступный сервер.  <br/> |
-|ErrorNoRespondingCASInDestinationSite  <br/> |Эта ошибка указывает, что запрос делается ссылка почтового ящика в другом сайте Active Directory, но ни один из серверов клиентского доступа, ответил сайта, а следовательно запроса не удалось через прокси.  <br/> |
-|ErrorNotAllowedExternalSharingByPolicy  <br/> |Эта ошибка указывает, что вызывающий попытался для предоставления разрешений в папке календаря и контакты, которые пользователю в другую организацию и попытка не удалась.  <br/> |
-|ErrorNotDelegate  <br/> |Эта ошибка указывает, что пользователь не делегат для почтового ящика. Он возвращается в виде [GetDelegate операции](getdelegate-operation.md), [RemoveDelegate операции](removedelegate-operation.md)и [операции UpdateDelegate](updatedelegate-operation.md) при указанного делегата не найден в список делегатов.  <br/> |
-|ErrorNotEnoughMemory  <br/> |Эта ошибка указывает на то, что операция не удалось из-за нехватки памяти.  <br/> |
-|ErrorNotSupportedSharingMessage  <br/> |Эта ошибка указывает, что сообщение о совместном доступе не поддерживается.  <br/> |
-|ErrorObjectTypeChanged  <br/> |Эта ошибка возникает при изменении типа объекта.  <br/> |
-|ErrorOccurrenceCrossingBoundary  <br/> |Эта ошибка возникает при обновлении времени [запуска](start.md) или [окончания](end-ex15websvcsotherref.md) вхождения, чтобы этот экземпляр планируется происходить более ранних версий или более поздней, чем соответствующие предыдущему или следующему вхождение.  <br/> |
-|ErrorOccurrenceTimeSpanTooBig  <br/> |Эта ошибка указывает, что определенное время для это вхождение перекрывается с другим вхождения одной повторяющегося элемента. В этом ответа также происходит, когда продолжительность в минутах вхождение больше, чем Int32.MaxValue.  <br/> |
-|ErrorOperationNotAllowedWithPublicFolderRoot  <br/> |Эта ошибка указывает, что текущей операции не является допустимым для корневой общей папки.  <br/> |
-|ErrorOrganizationNotFederated  <br/> |Эта ошибка указывает, что организации инициатора не являющийся ни федеративным источник запроса не удается создать сообщения о совместном использовании для отправки для внешних пользователей или не может принимать общего доступа к сообщениям, полученных от внешнего пользователя.  <br/> |
-|ErrorParentFolderIdRequired  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorParentFolderNotFound  <br/> |Эта ошибка возникает в [операции CreateFolder](createfolder-operation.md) при родительской папки не найден.  <br/> |
-|ErrorPasswordChangeRequired  <br/> |Эта ошибка указывает, что необходимо изменить пароль для доступа к этому почтовому ящику. Происходит, когда был создан новой учетной записи и администратор указал, что Требовать смену пароля при первом входе в систему. Не удается обновить пароль с помощью веб-служб Exchange. Средства, такие как Microsoft Office Outlook Web App необходимо использовать для изменения пароля.  <br/> |
-|ErrorPasswordExpired  <br/> |Эта ошибка указывает, что истек срок действия пароля. Нельзя изменить пароль с помощью веб-служб Exchange. Средства, такие как Outlook Web App необходимо использовать для изменения пароля.  <br/> |
-|ErrorPermissionNotAllowedByPolicy  <br/> |Эта ошибка указывает, что источник запроса попытка предоставить разрешения в его календаря или папки «Контакты» для внешних пользователей, но политики общего доступа, назначенный источник запроса указывает, что запрошенный уровень выше, чем позволяет какие политики общего доступа.  <br/> |
-|ErrorPhoneNumberNotDialable  <br/> |Эта ошибка указывает, что номер телефона не должен иметь формат.  <br/> |
-|ErrorPropertyUpdate  <br/> |Эта ошибка указывает, что не удалось обновить из-за недопустимости значений свойства. Ответное сообщение, которое включает в себя пути к недопустимым свойствам.  <br/> |
-|ErrorPromptPublishingOperationFailed  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorPropertyValidationFailure  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorProxiedSubscriptionCallFailure  <br/> |Эта ошибка указывает, что запрос делается ссылка подписки, который существует на другой сервер клиентского доступа, но произошла ошибка прокси-сервера запросов к серверу клиентского доступа.  <br/> |
-|ErrorProxyCallFailed  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorProxyGroupSidLimitExceeded  <br/> |Эта ошибка указывает, что запрос делается ссылка в почтовый ящик на другом сайте Active Directory и инициатор должна быть членом группы более 3000.  <br/> |
-|ErrorProxyRequestNotAllowed  <br/> |Эта ошибка указывает, что запрос отправки веб-служб Exchange на другой сервер клиентского доступа при попытке выполнения запроса [GetUserAvailabilityRequest](getuseravailabilityrequest.md) недопустима. Этот код ответа указывает на то, что произошла ошибка конфигурации или права или что кто-то неудачной попытки для имитации запроса доступности прокси-сервера.  <br/> |
-|ErrorProxyRequestProcessingFailed  <br/> |Эта ошибка указывает, что веб-служб Exchange попытка прокси-сервера на другой сервер клиентского доступа для выполнения запроса доступности, но не удалось выполнить запрос. В этом ответа может быть вызвана проблем с сетевым подключением или запроса проблемы времени ожидания.  <br/> |
-|ErrorProxyServiceDiscoveryFailed  <br/> |Этот код ошибки должны возвращаться, если веб-службы не может определить ли запрос должна выполняться на целевом сервере или будет прокси-сервером на другой сервер.  <br/> |
-|ErrorProxyTokenExpired  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorPublicFolderMailboxDiscoveryFailed  <br/> |Эта ошибка возникает, когда почтовый ящик общедоступных папок не удается найти URL-адрес. Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorPublicFolderOperationFailed  <br/> |Эта ошибка возникает при попытке получить доступ к общей папке и попытка завершается неудачно. Эта ошибка была введена в 2013Exchange Exchange Server 2013.  <br/> |
-|ErrorPublicFolderRequestProcessingFailed  <br/> |Эта ошибка возникает, когда получатель, переданный [операция GetUserAvailability](getuseravailability-operation.md) находится на компьютере, на котором выполняется версия Exchange Server, который является более ранней, чем Exchange 2007 и запрос на получение сведений о доступности для не удалось получателя с сервера общих папок.  <br/> |
-|ErrorPublicFolderServerNotFound  <br/> |Эта ошибка возникает, когда получатель, переданный [операция GetUserAvailability](getuseravailability-operation.md) находится на компьютере, на котором выполняется версия Exchange Server, который является более ранней, чем Exchange 2007 и запрос на получение сведений о доступности для подразделение не имеет связанных общих папок сервера сбой получателя с сервера общих папок.  <br/> |
-|ErrorPublicFolderSyncException  <br/> |Эта ошибка возникает при синхронизации операция успешно для почтового ящика общей папки основного, но не удается с почтовым ящиком общей папке вторичного. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorQueryFilterTooLong  <br/> |Эта ошибка указывает, что ограничения папки поиска могут стать недействительными, но не поддерживается веб-служб Exchange. Для не более 255 выражений фильтров ограничений веб-служб Exchange. При попытке выполнить привязку к существующей папки поиска, превышающее 255, возвращается этот код ответа.  <br/> |
-|ErrorQuotaExceeded  <br/> |Эта ошибка возникает при превышении квоты почтового ящика.  <br/> |
-|ErrorReadEventsFailed  <br/> |Эта ошибка возвращается [GetEvents операции](getevents-operation.md) или извещающих уведомлений при сбое при получении сведений о событиях. При появлении этой ошибки удаляется подписки. Повторно создайте события синхронизации, на основании последнего известные водяного знака.  <br/> |
-|ErrorReadReceiptNotPending  <br/> |Эта ошибка возвращается [операции CreateItem](createitem-operation.md) при попытке не отображать уведомление, когда отправитель сообщения не запросил прочтении в окне сообщения, или если сообщение находится в папку нежелательной почты.  <br/> |
-|ErrorRecurrenceEndDateTooBig  <br/> |Эта ошибка возникает, когда дата окончания повторения после 9/1/4500.  <br/> |
-|ErrorRecurrenceHasNoOccurrence  <br/> |Эта ошибка возникает, если указанный экземпляр любого экземпляров вхождений в указанном диапазоне.  <br/> |
-|ErrorRemoveDelegatesFailed  <br/> |Эта ошибка указывает, что список делегатов не удалось сохранить после делегаты были удалены.  <br/> |
-|ErrorRequestAborted  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorRequestStreamTooBig  <br/> | Эта ошибка возникает, когда поток запросов больше, чем 400 КБ.  <br/> |
-|ErrorRequiredPropertyMissing  <br/> |При отсутствии в запросе [CreateAttachment операция](createattachment-operation.md) обязательное свойство этой ошибки. Отсутствует свойство URI включается в ответе.  <br/> |
-|ErrorResolveNamesInvalidFolderType  <br/> |Эта ошибка указывает, что Звонящий задан в папку, которая не является папкой контактов к [ResolveNames операции](resolvenames-operation.md).  <br/> |
-|ErrorResolveNamesOnlyOneContactsFolderAllowed  <br/> |Эта ошибка указывает, что Звонящий указала несколько папок контактов к [ResolveNames операции](resolvenames-operation.md).  <br/> |
-|ErrorResponseSchemaValidation  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorRestrictionTooLong  <br/> |Эта ошибка возникает при ограничении содержит более 255 узлы.  <br/> |
-|ErrorRestrictionTooComplex  <br/> |Эта ошибка возникает при ограничении не могут выполняться с веб-служб Exchange.  <br/> |
-|ErrorResultSetTooBig  <br/> |Эта ошибка указывает, что число записей календаря для данного получателя превышает максимально допустимое значение 1000. Уменьшение окна и повторите попытку.  <br/> |
-|ErrorSavedItemFolderNotFound  <br/> |Эта ошибка возникает, когда [SavedItemFolderId](saveditemfolderid.md) не найден.  <br/> |
-|ErrorSchemaValidation  <br/> | Эта ошибка возникает, если запрос не удается проверить соответствие схеме.  <br/> |
-|ErrorSearchFolderNotInitialized  <br/> |Эта ошибка указывает, что папка поиска была создана, но не заданы критерии поиска в общей папке. Это возникает только при получении доступа к поврежденные поиска папок, которые были созданы с помощью другого интерфейса API или клиента. Чтобы устранить эту ошибку, с помощью [операции UpdateFolder](updatefolder-operation.md) установка [SearchParameters](searchparameters.md) элемента, который требуется включить ограничение, которое должно быть в общей папке.  <br/> |
-|ErrorSendAsDenied  <br/> | Эта ошибка возникает при оба из следующих условий: <br/> <br/>— Пользователь имеет разрешений CanActAsOwner, но не предоставлены права делегатом почтового ящика участника.  <br/>-Тот же пользователь попытается для создания и отправки сообщения электронной почты в почтовом ящике участника с помощью параметра SendAndSaveCopy.<br/>  <br/>  Результатом будет ошибка ErrorSendAsDenied и создание сообщения электронной почты в папке «Черновики» участника.  <br/> |
-|ErrorSendMeetingCancellationsRequired  <br/> |Эта ошибка возвращается [операция DeleteItem](deleteitem-operation.md) Если отсутствует атрибут **SendMeetingCancellations** в запрос и элемент для удаления элемента календаря.  <br/> |
-|ErrorSendMeetingInvitationsOrCancellationsRequired  <br/> |Эта ошибка возвращается [операция UpdateItem](updateitem-operation.md) Если отсутствует атрибут **SendMeetingInvitationsOrCancellations** в запрос и элемент для обновления элементов календаря.  <br/> |
-|ErrorSendMeetingInvitationsRequired  <br/> |Эта ошибка возвращается [операции CreateItem](createitem-operation.md) Если отсутствует атрибут **SendMeetingInvitations** в запрос и элемент для создания элемента календаря.  <br/> |
-|ErrorSentMeetingRequestUpdate  <br/> |Эта ошибка указывает, что после организатора отправки приглашения на собрание, запрос не удается обновить. Для изменения собрания, измените элемент календаря не приглашения на собрание.  <br/> |
-|ErrorSentTaskRequestUpdate  <br/> |Эта ошибка указывает, что после инициатором отправки запроса на задачу, этот запрос не удается обновить.  <br/> |
-|ErrorServerBusy  <br/> |Эта ошибка возникает, когда сервер занят.  <br/> |
-|ErrorServiceDiscoveryFailed  <br/> |Эта ошибка указывает, что веб-служб Exchange попытка прокси-сервер пользовательского запроса доступности в соответствующий лес для получателя, но он не может определить where для отправки запроса из-за сбоя обнаружения служб.  <br/> |
-|ErrorSharingNoExternalEwsAvailable  <br/> |Эта ошибка указывает, что свойство внешний URL-адрес не установлен в базе данных Active Directory.  <br/> |
-|ErrorSharingSynchronizationFailed  <br/> |Эта ошибка указывает, что Сбой попытки синхронизации папки общего доступа. <br/><br/>Этот код ошибки возвращается в следующих случаях:<br/><br/>-Подписки для общего доступа к папке не найден.<br/>-Папку совместного доступа не найден.<br/>— Пользователю соответствующий каталог не найден.<br/>— Пользователю больше не существует.<br/>-Встречи является недопустимым.<br/>-Контакт является недопустимым.<br/>-Имеется ошибка связи с удаленным сервером.  <br/> |
-|ErrorStaleObject  <br/> |Эта ошибка возникает в [UpdateItem операции](updateitem-operation.md) или [операции SendItem](senditem-operation.md) при изменить ключ не обновлена или не было указано. Вызов [операции GetItem](getitem-operation.md) , чтобы получить обновленный ключ изменения, а затем повторите попытку.  <br/> |
-|ErrorSubmissionQuotaExceeded  <br/> |Эта ошибка означает, что пользователь не удается отправить сразу несколько запросов недоступности квот отправки.  <br/> |
-|ErrorSubscriptionAccessDenied  <br/> |Эта ошибка возникает при попытке доступа к подписке с использованием учетной записи, которая не была создана этой подписки. Доступ к каждой подписки можно только для создатель подписки.  <br/> |
-|ErrorSubscriptionDelegateAccessNotSupported  <br/> |Эта ошибка указывает, что нельзя создать подписку, если не является владельцем или нет доступа к почтовому ящику.  <br/> |
-|ErrorSubscriptionNotFound  <br/> |Эта ошибка возникает, если не удастся найти подписки, соответствующий указанным [SubscriptionId (GetEvents)](subscriptionid-getevents.md) . Подписки может истечь, процесс веб-служб Exchange был перезагружен или передано недопустимое подписки. Если подписки был действительным, повторно создайте подписки с последними водяного знака. Эта [операция отказа от подписки](unsubscribe-operation.md) или возвращает ответы [GetEvents операции](getevents-operation.md) .  <br/> |
-|ErrorSubscriptionUnsubsribed  <br/> |Этот код ошибки должны возвращаться при запросе для подписки, которая была отменена.  <br/> |
-|ErrorSyncFolderNotFound  <br/> |Эта ошибка возвращается [операции SyncFolderItems](syncfolderitems-operation.md) Если не удается найти указанной родительской папки.  <br/> |
-|ErrorTeamMailboxNotFound  <br/> |Эта ошибка указывает, что почтовый ящик группы не найден. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorTeamMailboxNotLinkedToSharePoint  <br/> |Эта ошибка указывает, что почтовый ящик группы был найден, но не связаны на сервер SharePoint. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorTeamMailboxUrlValidationFailed  <br/> |Эта ошибка указывает, что почтовый ящик группы найден, но ссылка на сервере SharePoint не является допустимым. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorTeamMailboxNotAuthorizedOwner  <br/> |Этот код ошибки не используется. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorTeamMailboxActiveToPendingDelete  <br/> |Этот код ошибки не используется. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorTeamMailboxFailedSendingNotifications  <br/> |Эта ошибка указывает, что при попытке отправить уведомление владельцев группы почтовых ящиков не удалось выполнить. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorTeamMailboxErrorUnknown  <br/> |Эта ошибка указывает Общая ошибка, которая может возникнуть при попытке получения доступа к почтовому ящику группы. Попробуйте отправки запроса в дальнейшем. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorTimeIntervalTooBig  <br/> |Эта ошибка указывает, что временной интервал, который был указан превышает максимально допустимое значение. По умолчанию максимально допустимое значение равно 42.  <br/> |
-|ErrorTimeoutExpired  <br/> | Эта ошибка возникает, когда не достаточное время для завершения обработки запроса.  <br/> |
-|ErrorTimeZone  <br/> |Эта ошибка указывает на наличие ошибок часового пояса.  <br/> |
-|ErrorToFolderNotFound  <br/> |Эта ошибка указывает, что папка не существует.  <br/> |
-|ErrorTokenSerializationDenied  <br/> |Эта ошибка возникает, если вызывающий объект пытается выполнить запрос сериализации маркера, но не имеет ms-Exch-EPI-TokenSerialization прямо на сервере клиентского доступа.  <br/> |
-|ErrorTooManyObjectsOpened  <br/> |Эта ошибка возникает, когда превысил внутреннее ограничение на открытых объектов.  <br/> |
-|ErrorUnifiedMessagingDialPlanNotFound  <br/> |Эта ошибка указывает, что абонентской группы пользователя недоступно.  <br/> |
-|ErrorUnifiedMessagingReportDataNotFound  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorUnifiedMessagingPromptNotFound  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorUnifiedMessagingRequestFailed  <br/> |Эта ошибка указывает, что пользователь не найден.  <br/> |
-|ErrorUnifiedMessagingServerNotFound  <br/> |Эта ошибка указывает, что действительный сервер для абонентской группы можно найти для обработки запроса.  <br/> |
-|ErrorUnableToGetUserOofSettings  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorUnableToRemoveImContactFromGroup  <br/> |Эта ошибка возникает при попытке удалить для обмена мгновенными Сообщениями контакта из группы неудачной попытки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorUnsupportedCulture  <br/> |Эта ошибка возникает при попытке задать свойство **языка и региональных параметров** в значение, которое не является разбору с помощью класса **System.Globalization.CultureInfo** .  <br/> |
-|ErrorUnsupportedMapiPropertyType  <br/> |Эта ошибка возникает при попытке использовать расширенные свойства типов объектов, массив объектов, ошибки или null абонента.  <br/> |
-|ErrorUnsupportedMimeConversion  <br/> |Эта ошибка возникает при попытке получить или задать содержимого MIME для элемента, не [PostItem](postitem.md), [сообщения](message-ex15websvcsotherref.md)или [элемента календаря, имеющего](calendaritem.md) объекта.  <br/> |
-|ErrorUnsupportedPathForQuery  <br/> |Эта ошибка возникает, когда при вызове свойства, которое является недопустимым для запроса. Это может произойти при использовании вычисляемых свойств.  <br/> |
-|ErrorUnsupportedPathForSortGroup  <br/> |Эта ошибка возникает, когда при вызове свойства, которое является недопустимым для сортировки или группы по свойству. Это может произойти при использовании вычисляемых свойств.  <br/> |
-|ErrorUnsupportedPropertyDefinition  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorUnsupportedQueryFilter  <br/> |Эта ошибка указывает, что ограничения папки поиска могут стать недействительными, но не поддерживается веб-служб Exchange.  <br/> |
-|ErrorUnsupportedRecurrence  <br/> |Эта ошибка указывает, что указанный экземпляр не поддерживается для задачи.  <br/> |
-|ErrorUnsupportedSubFilter  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorUnsupportedTypeForConversion  <br/> |Эта ошибка указывает, что веб-служб Exchange тип свойства в хранилище, но он не удается создать XML для типа свойства.  <br/> |
-|ErrorUpdateDelegatesFailed  <br/> |Эта ошибка указывает, что список делегатов не удалось сохранить после делегаты были обновлены.  <br/> |
-|ErrorUpdatePropertyMismatch  <br/> |Эта ошибка возникает, когда отдельное свойство путь, указанный в описании изменения не соответствует отдельное свойство, которое задано в объекте фактический [элемент](item.md) или [папку](folder.md) .  <br/> |
-|ErrorUserNotUnifiedMessagingEnabled  <br/> |Эта ошибка указывает, что источник запроса не включено.  <br/> |
-|ErrorUserNotAllowedByPolicy  <br/> |Эта ошибка указывает, что источник запроса попытка предоставить разрешения в его календаря или папки «Контакты» для внешних пользователей, но политики общего доступа, назначенный источник запроса указывает, что домен внешнего пользователя не указано в политике.  <br/> |
-|ErrorUserWithoutFederatedProxyAddress  <br/> |Указывает, что организации инициатора имеет ряд федеративных доменов, но организации инициатора не имеет все SMTP-адреса прокси-сервера с одним из федеративных доменов.  <br/> |
-|ErrorValueOutOfRange  <br/> |Эта ошибка указывает, что представление календаря Дата начала или дату окончания было задано значение 1/1/0001 12:00:00 AM или 12/31/9999 11:59:59 PM.  <br/> |
-|ErrorVirusDetected  <br/> |Эта ошибка указывает, что в хранилище Exchange, обнаруженных в сообщении вирус.  <br/> |
-|ErrorVirusMessageDeleted  <br/> |Эта ошибка указывает, что хранилище Exchange вирус, обнаруженных в сообщении и он удален.  <br/> |
-|ErrorVoiceMailNotImplemented  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorWebRequestInInvalidState  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorWin32InteropError  <br/> |Эта ошибка указывает, что возникла внутренняя ошибка во время связи с управляемым кодом.  <br/> |
-|ErrorWorkingHoursSaveFailed  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorWorkingHoursXmlMalformed  <br/> |Этот код ответа не используется.  <br/> |
-|ErrorWrongServerVersion  <br/> |Эта ошибка указывает на то, что запрос можно выполнить только на сервере, который является той же версии, что и сервер почтовых ящиков.  <br/> |
-|ErrorWrongServerVersionDelegate  <br/> |Эта ошибка указывает, что создан запрос делегатом, который имеет другой сервер версии, чем основной сервер почтовых ящиков.  <br/> |
-|ErrorMissingInformationSharingFolderId  <br/> |Этот код ошибки, никогда не возвращается.  <br/> |
-|ErrorDuplicateSOAPHeader  <br/> |Указывает, что существуют повторяющиеся заголовки SOAP.  <br/> |
-|ErrorSharingSynchronizationFailed  <br/> | Указывает, что Сбой попытки синхронизации папки общего доступа.<br/><br/> Этот код ошибки должны возвращаться когда:<br/><br/>-Подписки для общего доступа к папке не найден.  <br/>-Не найден общую папку.  <br/>— Пользователю соответствующий каталог не найден.  <br/>— Пользователю больше не существует.  <br/>-Встречи является недопустимым.  <br/>-Контакт является недопустимым.  <br/>-Возникла ошибка связи с удаленным сервером.  <br/> |
-|ErrorSharingNoExternalEwsAvailable  <br/> |Указывает, что свойство внешний URL-адрес не установлен в базе данных Active Directory. Этот код ошибки должны возвращаться, если свойство внешний URL-адрес не были установлены в базе данных Active Directory.  <br/> |
-|ErrorFreeBusyDLLimitReached  <br/> |Указывает, что группа максимальное число элементов достигнут для получения сведений о доступности для списка рассылки. Эта ошибка должна возвращаться при достижении группы максимальное число элементов для получения сведений о доступности для списка рассылки.  <br/> |
-|ErrorInvalidGetSharingFolderRequest  <br/> |Указывает, что элемент типа данных и ShareFolderId оба присутствует в запросе. Этот код ошибки должны возвращаться, если тип данных и ShareFolderId элемент присутствует в запросе.  <br/> |
-|ErrorNotAllowedExternalSharingByPolicy  <br/> |Указывает, вызывающего попытка предоставить разрешения в папке календаря и контакты, которые пользователю в другую организацию и Сбой попытки. Этот код ошибки должны возвращаться при отключении политики общего доступа для вызывающего абонента или когда политики общего доступа, назначенный вызывающего абонента запрещает общий доступ для запрошенный уровень или тип запрошенного папки.  <br/> |
-|ErrorUserNotAllowedByPolicy  <br/> |Указывает, что попытка инициатора запроса для предоставления разрешений в его календаря или папки «Контакты» для внешних пользователей, но политики общего доступа, назначенный для инициатора запроса указывает, что домен внешнего пользователя не указано в политике.  <br/> |
-|ErrorPermissionNotAllowedByPolicy  <br/> |Указывает, что инициатора запроса, попытка предоставить разрешения в папке календаря и контакты, для внешних пользователей, но политики общего доступа, назначенный для инициатора запроса указывает, что запрошенный уровень выше чем какие политики общего доступа позволяет.  <br/> |
-|ErrorOrganizationNotFederated  <br/> |Указывает, что организация запрашивающего не являющийся ни федеративным инициатора запроса не удается создать сообщения о совместном использовании для отправки для внешних пользователей или не может принимать общего доступа к сообщениям, полученных от внешнего пользователя. Этот код ошибки должны возвращаться Если запрашивающего организации не являющийся ни федеративным.  <br/> |
-|ErrorMailboxFailover  <br/> |Указывает, что при попытке получить доступ к почтовому ящику сбой при почтовый ящик в процессе перехода на другой ресурс.  <br/> |
-|ErrorInvalidExternalSharingInitiator  <br/> |Указывает, общего доступа отправителю приглашения не была создана общего доступа с приглашением метаданных. Этот код ошибки должны возвращаться Если общего доступа отправителю приглашения не была создана общего доступа с приглашением метаданных.  <br/> |
-|ErrorMessageTrackingPermanentError  <br/> |Указывает, что служба отслеживания сообщений не может отслеживать сообщения.  <br/> |
-|ErrorMessageTrackingTransientError  <br/> |Указывает, что сообщение, службы отслеживания — вниз или занят. Этот код ошибки указывает временные ошибки. Клиенты можно повторить для подключения к серверу при получении данной ошибки.  <br/> |
-|ErrorMessageTrackingNoSuchDomain  <br/> |Указывает, что не удается найти указанного домена.  <br/> |
-|ErrorUserWithoutFederatedProxyAddress  <br/> |Указывает, что организация запрашивающего имеет ряд федеративных доменов, но организации запросившая сторона не имеет все SMTP-адреса прокси-сервера с одним из федеративных доменов.  <br/> |
-|ErrorInvalidOrganizationRelationshipForFreeBusy  <br/> |Указывает, что вызывающего запрошено сведения о доступности для пользователей в другой организации, но организационное отношение не имеет сведений о доступности включен.  <br/> |
-|ErrorInvalidFederatedOrganizationId  <br/> |Указывает, что объекты федерации организации запрашивающего настроены неправильно.  <br/> |
-|ErrorInvalidExternalSharingSubscriber  <br/> |Указывает, что сообщение общего доступа не предназначен для вызывающего абонента.  <br/> |
-|ErrorInvalidSharingData  <br/> |Указывает, что общего доступа метаданных является недопустимым. Это может быть вызвано недопустимый XML.  <br/> |
-|ErrorInvalidSharingMessage  <br/> |Указывает, что общего доступа сообщение не является допустимым. Это может быть вызвано отсутствующие свойства.  <br/> |
-|ErrorNotSupportedSharingMessage  <br/> |Указывает, что сообщение о совместном доступе не поддерживается.  <br/> |
-|ErrorApplyConversationActionFailed  <br/> |Эта ошибка должна возвращаться Если действие, которое не может использоваться для одного или нескольких элементов в окне беседы.  <br/> |
-|ErrorInboxRulesValidationError  <br/> |Эта ошибка должно возвращаться, если все правила не выполняет проверку.  <br/> |
-|ErrorOutlookRuleBlobExists  <br/> |Эта ошибка необходимо снова, когда происходит при попытке управлять правила папки «Входящие» после другой клиент доступ к правила папки «Входящие».  <br/> |
-|ErrorRulesOverQuota  <br/> |Эта ошибка должна возвращаться при превышении квот правила пользователя.  <br/> |
-|ErrorNewEventStreamConnectionOpened  <br/> |Эта ошибка должно возвращаться для первого подключения подписки при открытии второго соединения подписки.  <br/> |
-|ErrorMissedNotificationEvents  <br/> |Эта ошибка должна возвращаться при пропущенные уведомления о событиях.  <br/> |
-|ErrorDuplicateLegacyDistinguishedName  <br/> |Эта ошибка возвращается при наличии повторяющихся устаревшие различающиеся имена в доменных службах Active Directory (AD DS). Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorInvalidClientAccessTokenRequest  <br/> |Эта ошибка указывает, что недопустимый запрос на получение маркера клиентского доступа. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorNoSpeechDetected  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorUMServerUnavailable  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorRecipientNotFound  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorRecognizerNotInstalled  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorSpeechGrammarError  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorInvalidManagementRoleHeader  <br/> |Если заголовок [ManagementRole](managementrole.md) в заголовке SOAP неверен этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorLocationServicesDisabled  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorLocationServicesRequestTimedOut  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorLocationServicesRequestFailed  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorLocationServicesInvalidRequest  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorWeatherServiceDisabled  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
-|ErrorMailboxScopeNotAllowedWithoutQueryString  <br/> |При выполнении поиска с заданной областью попытки без использования элемент [строки запроса (String)](querystring-string.md) для индексирования поиска содержимого этой ошибки. Это применимо для операций **SearchMailboxes** и **FindConversation** . Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorArchiveMailboxSearchFailed  <br/> |Эта ошибка возвращается при поискового запроса архивного почтового ящика не выполняется. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorArchiveMailboxServiceDiscoveryFailed  <br/> |Эта ошибка возвращается, когда URL-адрес архивного почтового ящика не может быть найдена. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorGetRemoteArchiveFolderFailed  <br/> |Эта ошибка возникает, когда не удалось выполнить операцию для получения удаленный архив почтового ящика.  <br/> |
-|ErrorFindRemoteArchiveFolderFailed  <br/> |Эта ошибка возникает при сбое операцию, чтобы найти папку архивного почтового ящика.  <br/> |
-|ErrorGetRemoteArchiveItemFailed  <br/> |Эта ошибка возникает, когда не удалось выполнить операцию для получения элемента архивного почтового ящика.  <br/> |
-|ErrorExportRemoteArchiveItemsFailed  <br/> |Эта ошибка возникает, когда не удалось выполнить операцию для экспорта элементов архивного почтового ящика.  <br/> |
-|ErrorInvalidPhotoSize  <br/> |Эта ошибка возвращается в том случае, если размер недопустимый фотографии, запрашиваемый с сервера. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorSearchQueryHasTooManyKeywords  <br/> |При запросе размер непредвиденные фотографии в запрос операции **GetUserPhoto** этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorSearchTooManyMailboxes  <br/> |Если запрос операции **SearchMailboxes** содержит слишком много почтовые ящики для поиска этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorInvalidRetentionTagNone  <br/> |Эта ошибка указывает, что для этого пользователя не найдены без тегов хранения. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorDiscoverySearchesDisabled  <br/> |При отключении операций поиска обнаружения на клиента или сервера для этой ошибки. Эта ошибка была представлена в Exchange 2013.  <br/> |
-|ErrorCalendarSeekToConditionNotSupported  <br/> |Эта ошибка возникает при попытке вызова [операции FindItem](finditem-operation.md) с [SeekToConditionPageItemView](seektoconditionpageitemview.md) на извлечение элементов календаря, который не поддерживается.  <br/> |
-|ErrorCalendarIsGroupMailboxForAccept  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
-|ErrorCalendarIsGroupMailboxForDecline  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
-|ErrorCalendarIsGroupMailboxForTentative  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
-|ErrorCalendarIsGroupMailboxForSuppressReadReceipt  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
-|ErrorOrganizationAccessBlocked  <br/> |Клиент будет помечено для удаления.  <br/> |
-|ErrorInvalidLicense  <br/> |У пользователя нет действительная лицензия.  <br/> |
-|ErrorMessagePerFolderCountReceiveQuotaExceeded  <br/> |Получать сообщения в папке Квота превышена.  <br/> |
+|NoError  <br/> |Для запроса не возникла ошибка.  <br/> |
+|ерроракцессдениед  <br/> |Эта ошибка возникает, когда у вызывающей учетной записи нет прав на выполнение запрошенного действия.  <br/> |
+|ерроракцессмодеспеЦифиед  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка не возвращается.  <br/> |
+|еррораккаунтдисаблед  <br/> |Эта ошибка возникает, когда рассматриваемая учетная запись отключена.  <br/> |
+|еррораддделегатесфаилед  <br/> |Эта ошибка возникает, когда не удается сохранить список с добавленными делегатами.  <br/> |
+|еррораддрессспаценотфаунд  <br/> |Эта ошибка возникает, если в базе данных Active Directory не удалось найти запись адресного пространства или доменное имя службы доменных имен (DNS) для обеспечения доступности между лесами.  <br/> |
+|еррорадоператион  <br/> |Эта ошибка возникает, если операция завершилась неудачно из-за проблем с подключением к доменным службам Active Directory (AD DS).  <br/> |
+|еррорадсессионфилтер  <br/> |Эта ошибка возвращается в том случае, если запрос операции **ResolveNames** указывает имя, которое является недопустимым.  <br/> |
+|еррорадунаваилабле  <br/> |Эта ошибка возникает, когда служба AD DS недоступна. Повторите запрос позже.  <br/> |
+|еррораффектедтаскоккурренцесрекуиред  <br/> |Эта ошибка указывает на то, что не был указан атрибут **аффектедтаскоккурренцес** . Если элемент [DeleteItem](deleteitem.md) используется для удаления по крайней мере одного элемента, который является задачей, и вне зависимости от того, является ли эта задача повторяющейся, необходимо указать атрибут **Аффектедтаскоккурренцес** , чтобы **DeleteItem** мог определить, следует ли удалить текущее вхождение или весь ряд.  <br/> |
+|еррорарчивефолдерпаскреатион  <br/> |Указывает на ошибку при создании пути к папке архива.  <br/> |
+|еррорарчивемаилбокснотенаблед  <br/> |Указывает, что архивный почтовый ящик не был включен.  <br/> |
+|еррорарчивемаилбокссервицедисковерифаилед  <br/> |Указывает, что не удалось выполнить обнаружение службы почтовых ящиков.  <br/> |
+|еррораттачментнестлевеллимитексцеедед  <br/> |Указывает, что предпринята попытка создать элемент, содержащий более 10 вложенных вложений. Это значение было введено в Exchange Server 2010 с пакетом обновления 2 (SP2).  <br/> |
+|еррораттачментсизелимитексцеедед  <br/> |Элемент [CreateAttachment](createattachment.md) возвращает эту ошибку, если выполняется попытка создать вложение с размером, превышающим Int32. MaxValue, в байтах.  <br/> Элемент [GetAttachment](getattachment.md) возвращает эту ошибку, если предпринимается попытка получить существующее вложение с размером, превышающим Int32. MaxValue, в байтах.  <br/> |
+|еррораутодисковерфаилед  <br/> |Эта ошибка указывает на то, что веб-службы Exchange попытались определить расположение компьютера с перекрестным лесом, на котором работает Exchange 2010, на котором установлена роль сервера клиентского доступа, с помощью службы автообнаружения, но при вызове службы автообнаружения произошел сбой.  <br/> |
+|еррораваилабилитиконфигнотфаунд  <br/> |Эта ошибка указывает на то, что сведения о конфигурации доступности для локального леса отсутствуют в доменных СЛУЖБах Active Directory.  <br/> |
+|еррорбатчпроцессингстоппед  <br/> | Эта ошибка указывает на то, что при обработке элемента возникло исключение, которое, скорее всего, будет возникать для последующих элементов. Запросы могут включать несколько элементов; Например, запрос операции GetItem может содержать несколько идентификаторов. Как правило, элементы обрабатываются по одному за раз. Если при обработке элемента возникло исключение, которое, скорее всего, произойдет для последующих элементов, элементы, которые следуют после этого, не будут обрабатываться.  <br/><br/>  Ниже приведены примеры ошибок, которые будут остановлены при обработке последующих элементов:<br/>  <br/>— Ерроракцессдениед  <br/>— Еррораккаунтдисаблед  <br/>— Еррорадунаваилабле  <br/>— Еррорадоператион  <br/>— Еррорконнектионфаилед  <br/>— Еррормаилбоксстореунаваилабле  <br/>— Еррормаилбоксмовеинпрогресс  <br/>— Еррорпассвордчанжерекуиред  <br/>— Еррорпассвордекспиред  <br/>— Ерроркуотаексцеедед  <br/>— ЕрроринсуффиЦиентресаурцес  <br/> |
+|ерроркалендарканнотмовеоркопйоккурренце  <br/> |Эта ошибка возникает при попытке переместить или скопировать экземпляр повторяющегося элемента календаря.  <br/> |
+|ерроркалендарканнотупдатеделетедитем  <br/> | Эта ошибка возникает при попытке обновить элемент календаря, расположенный в папке "Удаленные" и когда обновления или отмены собрания отправляются в соответствии со значением атрибута **сендмитингинвитатионсорканцеллатионс** . <br/><br/>Ниже приведены возможные значения для этого атрибута.  <br/><br/>— Сендтоалландсавекопи  <br/>— Сендточанжедандсавекопи  <br/>— Сендонлитоалл  <br/>— Сендонлиточанжед  <br/>  <br/>Однако такое обновление разрешается только в том случае, если для этого атрибута задано значение Сендтононе.  <br/> |
+|ерроркалендарканнотусеидфороккурренцеид  <br/> |Эта ошибка возникает, когда вызывается операция UpdateItem, GetItem, DeleteItem, MoveItem, CopyItem или SendItem, а указанный идентификатор не является ИДЕНТИФИКАТОРом вхождения повторяющегося элемента календаря.  <br/> |
+|ерроркалендарканнотусеидфоррекуррингмастерид  <br/> |Эта ошибка возникает, когда вызывается операция **UpdateItem**, **GetItem**, **DeleteItem**, **MoveItem**, **COPYITEM**или **SendItem** , а указанный идентификатор не является идентификатором какого-либо повторяющегося элемента шаблона.  <br/> |
+|ерроркалендардуратионистулонг  <br/> |Эта ошибка возникает во время операции **CreateItem** или **UpdateItem** , когда длительность элемента календаря превышает максимально допустимое значение, которое в настоящее время составляет 5 лет.  <br/> |
+|ерроркалендаренддатеисеарлиерсанстартдате  <br/> |Эта ошибка возникает, когда конечное время в календаре устанавливается на одно и то же время или после времени начала.  <br/> |
+|ерроркалендарфолдерисинвалидфоркалендарвиев  <br/> |Эта ошибка возникает, когда указанная папка для операции **FindItem** с элементом [CalendarView](calendarview.md) не относится к типу папки календаря.  <br/> |
+|ерроркалендаринвалидаттрибутевалуе  <br/> |Этот код ответа не используется.  <br/> |
+|ерроркалендаринвалиддайфортимечанжепаттерн  <br/> |Эта ошибка возникает во время операции **CreateItem** или **UpdateItem** , когда для определения шаблона изменения времени используются недопустимые значения Day, викенддай и Weekday.  <br/> |
+|ерроркалендаринвалиддайфорвиклирекурренце  <br/> |Эта ошибка возникает во время операции **CreateItem** или **UpdateItem** , когда недопустимые значения Day, Weekday и викенддай используются для указания еженедельных повторений.  <br/> |
+|ерроркалендаринвалидпропертистате  <br/> |Эта ошибка возникает, когда состояние элемента календаря "большой двоичный объект (BLOB)" в хранилище Exchange недопустимо.  <br/> |
+|ерроркалендаринвалидпропертивалуе  <br/> |Этот код ответа не используется.  <br/> |
+|ерроркалендаринвалидрекурренце  <br/> |Эта ошибка возникает, когда не удается создать указанное повторение.  <br/> |
+|ерроркалендаринвалидтимезоне  <br/> |Эта ошибка возникает, когда встречается недопустимый часовой пояс.  <br/> |
+|ерроркалендарисканцелледфоракцепт  <br/> |Эта ошибка указывает на то, что элемент календаря был отменен.  <br/> |
+|ерроркалендарисканцелледфордеклине  <br/> |Эта ошибка указывает на то, что элемент календаря был отменен.  <br/> |
+|ерроркалендарисканцелледфорремове  <br/> |Эта ошибка указывает на то, что элемент календаря был отменен.  <br/> |
+|ерроркалендарисканцелледфортентативе  <br/> |Эта ошибка указывает на то, что элемент календаря был отменен.  <br/> |
+|ерроркалендарисделегатедфоракцепт  <br/> |Эта ошибка указывает на то, что элемент [акцептитем](acceptitem.md) является недопустимым для запроса элемента календаря или собрания в делегированном сценарии.  <br/> |
+|ерроркалендарисделегатедфордеклине  <br/> |Эта ошибка указывает на то, что элемент [деклинеитем](declineitem.md) является недопустимым для запроса элемента календаря или собрания в делегированном сценарии.  <br/> |
+|ерроркалендарисделегатедфорремове  <br/> |Эта ошибка указывает на то, что элемент [RemoveItem](removeitem.md) не является допустимым для отмены собрания в делегированном сценарии.  <br/> |
+|ерроркалендарисделегатедфортентативе  <br/> |Эта ошибка указывает на то, что элемент [тентативелякцептитем](tentativelyacceptitem.md) является недопустимым для запроса элемента календаря или собрания в делегированном сценарии.  <br/> |
+|ерроркалендарисноторганизер  <br/> |Эта ошибка указывает на то, что операция (в настоящее время Канцелитем) для элемента календаря не является допустимой для участника. Только организатор собрания может отменить собрание.  <br/> |
+|ерроркалендарисорганизерфоракцепт  <br/> |Эта ошибка указывает на то, что [акцептитем](acceptitem.md) не является допустимым для элемента календаря организатора.  <br/> |
+|ерроркалендарисорганизерфордеклине  <br/> |Эта ошибка указывает на то, что [деклинеитем](declineitem.md) не является допустимым для элемента календаря организатора.  <br/> |
+|ерроркалендарисорганизерфорремове  <br/> |Эта ошибка указывает на то, что [RemoveItem](removeitem.md) не является допустимым для элемента календаря организатора. Чтобы удалить собрание из календаря, организатор должен использовать Канцелкалендаритем.  <br/> |
+|ерроркалендарисорганизерфортентативе  <br/> |Эта ошибка указывает на то, что [тентативелякцептитем](tentativelyacceptitem.md) не является допустимым для элемента календаря организатора.  <br/> |
+|ерроркалендармитингрекуестисаутофдате  <br/> |Эта ошибка указывает на то, что приглашение на собрание устарело и не может быть обновлено.  <br/> |
+|ерроркалендароккурренцеиндексисаутофрекурренцеранже  <br/> |Эта ошибка указывает на то, что индекс вхождения не указывает на вхождение в текущем повторении. Например, если шаблон повторения определяет набор из трех экземпляров собрания и пытается получить доступ к пятом экземпляру, будет получен результат этого кода ответа.  <br/> |
+|ерроркалендароккурренцеисделетедфромрекурренце  <br/> |Эта ошибка указывает на то, что любая операция с удаленным экземпляром (адресованная через повторяющийся идентификатор и индекс экземпляра) является недопустимой.  <br/> |
+|ерроркалендараутофранже  <br/> |Эта ошибка возникает в операциях CreateItem и UpdateItem для элементов календаря или свойств повторения задачи, когда значение свойства выходит за пределы допустимого диапазона. Например, при указании пятнадцатой недели месяца будет получен этот код ответа.  <br/> |
+|ерроркалендарвиевранжетубиг  <br/> |Эта ошибка возникает, когда начало диапазона для элемента [CalendarView](calendarview.md) превышает максимально допустимое (в настоящее время 2 года).  <br/> |
+|ерроркаллерисинвалидадаккаунт  <br/> |Эта ошибка указывает на то, что запрашивающая учетная запись не является допустимой учетной записью в базе данных каталогов.  <br/> |
+|еррорканнотарчивекалендарконтакттаскфолдерексцептион  <br/> |Указывает, что была предпринята попытка архивировать папку задач с контактами календаря.  <br/> |
+|еррорканнотарчивеитемсинпубликфолдерс  <br/> |Указывает, что была предпринята попытка архивации элементов в общедоступных папках.  <br/> |
+|еррорканнотарчивеитемсинарчивемаилбокс  <br/> |Указывает, что была сделана попытка архивировать элементы в архивном почтовом ящике.  <br/> |
+|еррорканноткреатекалендаритеминнонкалендарфолдер  <br/> |Эта ошибка возникает при создании элемента календаря, если атрибут **саведитемфолдерид** ссылается на папку, не являющуюся папкой календаря.  <br/> |
+|еррорканноткреатеконтактиннонконтактфолдер  <br/> |Эта ошибка возникает, когда создается контакт, а атрибут **саведитемфолдерид** ссылается на папку, не являющуюся папкой контактов.  <br/> |
+|еррорканноткреатепоститеминнонмаилфолдер  <br/> |Эта ошибка указывает на то, что элемент POST не может быть создан в папке, отличной от почтовой папки, например календаря, контакта, задач, заметок и т. д.  <br/> |
+|еррорканноткреатетаскиннонтаскфолдер  <br/> |Эта ошибка возникает при создании задачи, если атрибут **саведитемфолдерид** ссылается на папку, не являющуюся папкой задач.  <br/> |
+|еррорканнотделетеобжект  <br/> |Эта ошибка возникает, когда не удается удалить элемент или папку, которую требуется удалить.  <br/> |
+|еррорканнотделететаскоккурренце  <br/> |[Операция DeleteItem](deleteitem-operation.md) возвращает эту ошибку, если не удается удалить текущую копию повторяющейся задачи. Это может произойти, только если для атрибута **аффектедтаскоккурренцес** задано значение спеЦифиедоккурренцеонли.  <br/> |
+|еррорканнотдисаблемандаторекстенсион  <br/> |Указывает, что предпринята попытка отключить расширение мандаторти.  <br/> |
+|еррорканнотемптифолдер  <br/> |Эта ошибка должна возвращаться в том случае, если сервер не может очистить папку.  <br/> |
+|еррорканнотжетсаурцефолдерпас  <br/> |Указывает, что не удалось получить путь к исходной папке.  <br/> |
+|еррорканнотжетекстерналекпурл  <br/> |Указывает, что сервер не может получить внешний URL-адрес для параметров Outlook Web App.  <br/> |
+|еррорканнотопенфилеаттачмент  <br/> |Операция **GetAttachment** возвращает эту ошибку, если не удается получить текст вложенного файла.  <br/> |
+|еррорканнотсеткалендарпермиссиононнонкалендарфолдер  <br/> |Эта ошибка указывает на то, что вызывающий абонент пытался задать разрешения календаря для папки, отличной от календаря.  <br/> |
+|еррорканнотсетнонкалендарпермиссиононкалендарфолдер  <br/> |Эта ошибка указывает на то, что вызывающий абонент попытался задать разрешения, не относящиеся к календарю, в папке календаря.  <br/> |
+|еррорканнотсетпермиссионункновнентриес  <br/> |Эта ошибка указывает на невозможность задания неизвестных разрешений в наборе разрешений.  <br/> |
+|еррорканнотспеЦифисеарчфолдерассаурцефолдер  <br/> |Указывает, что была предпринята попытка указать папку поиска в качестве исходной папки.  <br/> |
+|еррорканнотусефолдеридфоритемид  <br/> |Эта ошибка возникает, когда запросу, которому требуется идентификатор элемента, назначен идентификатор папки.  <br/> |
+|еррорканнотусеитемидфорфолдерид  <br/> |Эта ошибка возникает, когда запрос, которому требуется идентификатор папки, получает идентификатор элемента.  <br/> |
+|еррорчанжекэйрекуиред  <br/> |Этот код ответа заменен на **еррорчанжекэйрекуиредфорвритеоператионс** <br/> |
+|еррорчанжекэйрекуиредфорвритеоператионс  <br/> |Эта ошибка возвращается, если ключ изменения элемента отсутствует или устарел. <br/><br/>Для операций SendItem, UpdateItem и операцию UpdateFolder, вызывающая сторона должна передать правильный и текущий ключ изменения элемента. Обратите внимание, что это относится к UpdateItem, даже если для разрешения конфликтов задано значение Always overwrite.  <br/> |
+|еррорклиентдисконнектед  <br/> |Указывает, что клиент был отключен.  <br/> |
+|еррорклиентинтентинвалидстатедефинитион  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
+|еррорклиентинтентнотфаунд  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
+|еррорконнектионфаилед  <br/> |Эта ошибка возникает, когда веб-службы Exchange не могут подключаться к почтовому ящику.  <br/> |
+|еррорконтаинсфилтервронгтипе  <br/> |Эта ошибка указывает на то, что свойство, которое было проверено для фильтра Contains, не является строковым типом.  <br/> |
+|еррорконтентконверсионфаилед  <br/> |Операция **GetItem** возвращает эту ошибку, когда веб-службам Exchange не удается получить содержимое MIME для запрошенного элемента. <br/><br/>Операция **CreateItem** возвращает эту ошибку, когда веб-службам Exchange не удается создать элемент из предоставленного содержимого MIME. Обычно это указывает на то, что свойство Item повреждено или усечено.  <br/> |
+|еррорконтентиндексингнотенаблед  <br/> |Эта ошибка возникает, когда запрос поиска выполняется с помощью параметра QueryString и индексирование контента не включено для целевого почтового ящика.  <br/> |
+|ерроркорруптдата  <br/> |Эта ошибка возникает, когда данные повреждены и не могут быть обработаны.  <br/> |
+|ерроркреатеитемакцессдениед  <br/> |Эта ошибка возникает, когда вызывающий абонент не имеет разрешения на создание элемента.  <br/> |
+|ерроркреатеманажедфолдерпартиалкомплетион  <br/> |Эта ошибка возникает, когда не удалось создать одну или несколько управляемых папок, указанных в запросе операции CreateManagedFolder. Выполните поиск каждой папки, чтобы определить, какие папки были созданы и какие папки не существуют.  <br/> |
+|ерроркреатесубфолдеракцессдениед  <br/> |Эта ошибка возникает, когда у вызывающей учетной записи нет разрешений, необходимых для создания вложенной папки.  <br/> |
+|ерроркроссмаилбоксмовекопи  <br/> |Эта ошибка возникает при попытке переместить элемент или папку из одного почтового ящика в другой. Если исходный почтовый ящик и конечный почтовый ящик отличаются, возникает эта ошибка.  <br/> |
+|ерроркроссситерекуест  <br/> |Эта ошибка указывает на то, что запрос не разрешен, так как сервер клиентского доступа, который должен обслуживать запрос, находится на другом сайте.  <br/> |
+|еррордатасизелимитексцеедед  <br/> |Эта ошибка может возникнуть в следующих случаях:<br/>  <br/>— Предпринята попытка доступа или записи свойства для элемента, а также слишком большое значение свойства.<br/>— Длина содержимого MIME в кодировке Base64 в XML-коде запроса превышает предельное значение.<br/>— Размер тела существующего элемента превышает ограничение.<br/>-Потребитель пытается задать HTML-текст или текст, длина которого (или общая длина в случае добавления) превышает предельное значение. |
+|еррордатасаурцеоператион  <br/> |Эта ошибка возникает, когда поставщику базовых данных не удается завершить операцию.  <br/> |
+|еррорделегатеалреадексистс  <br/> |Эта ошибка возникает в операции **AddDelegate** , когда указанный пользователь уже существует в списке делегатов.  <br/> |
+|еррорделегатеканнотаддовнер  <br/> |Эта ошибка возникает в операции **AddDelegate** , когда указанный пользователь добавляется в качестве владельца почтового ящика.  <br/> |
+|еррорделегатемиссингконфигуратион  <br/> |Эта ошибка возникает при выполнении операции- **делегата** , если в локальном сообщении FreeBusy отсутствует Делегированная информация о пользователе или нет открытого делегата Active Directory (нет "общего представителя" или записи "Отправить от имени" в AD DS).  <br/> |
+|еррорделегатенаусер  <br/> |Эта ошибка возникает, когда указанный пользователь не может быть сопоставлен с пользователем в доменных СЛУЖБах Active Directory.  <br/> |
+|еррорделегатевалидатионфаилед  <br/> |Эта ошибка возникает в операции **AddDelegate** , когда добавленный пользователь-делегат не является допустимым.  <br/> |
+|еррорделетедистингуишедфолдер  <br/> |Эта ошибка возникает при попытке удалить различающиеся папки.  <br/> |
+|еррорделетеитемсфаилед  <br/> |Этот код ответа не используется.  <br/> |
+|еррорделетеунифиедмессагингпромптфаилед  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
+|еррордистингуишедусернотсуппортед  <br/> |Эта ошибка указывает на то, что идентификатор различающегося пользователя не является допустимым для операции. **Дистингуишедусертипе** не должно присутствовать в запросе.  <br/> |
+|еррордистрибутионлистмембернотексист  <br/> |Эта ошибка указывает на то, что элемент списка рассылки Request не существует в списке рассылки.  <br/> |
+|еррордупликатеинпутфолдернамес  <br/> |Эта ошибка возникает, когда в элементе [фолдернамес](foldernames.md) запроса операции **CreateManagedFolder** указаны дублирующиеся имена папок.  <br/> |
+|еррордупликатесоафеадер  <br/> |Эта ошибка указывает на наличие повторяющихся заголовков SOAP.  <br/> |
+|еррордупликатеусеридсспеЦифиед  <br/> |Эта ошибка указывает на то, что в наборе разрешений обнаружен повторяющийся идентификатор пользователя: значение по умолчанию или Anonymous — больше одного раза или повторяющиеся SID или Recipients.  <br/> |
+|ерроремаиладдрессмисматч  <br/> |Эта ошибка возникает, когда запрос пытается создать или обновить параметры поиска для папки поиска. Например, это может произойти, когда папка поиска создается в почтовом ящике, но папка поиска направлена на поиск в другом почтовом ящике.  <br/> |
+|ерроревентнотфаунд  <br/> |Эта ошибка возникает, когда событие, связанное с водяным знаком, удаляется до возвращения события. При возвращении этой ошибки подписка также удаляется.  <br/> |
+|еррорексцеедедконнектионкаунт  <br/> |Эта ошибка — Ииндикатес, что количество параллельных запросов к серверу превышает разрешенное политикой пользователя.  <br/> |
+|еррорексцеедедсубскриптионкаунт  <br/> |Эта ошибка указывает на то, что превышено максимальное число подписок для политики регулирования пользователя.  <br/> |
+|еррорексцеедедфиндкаунтлимит  <br/> |Эта ошибка указывает на то, что при вызове операции поиска превышено общее количество элементов, которые могут быть возвращены.  <br/> |
+|еррорекспиредсубскриптион  <br/> |Эта ошибка возникает, если [Операция Events](getevents-operation.md) вызывается при удалении подписки, так как срок ее действия истек.  <br/> |
+|еррорекстенсионнотфаунд  <br/> |Указывает, что расширение не найдено.  <br/> |
+|еррорфолдеркоррупт  <br/> |Эта ошибка возникает, когда папка повреждена и не может быть сохранена.  <br/> |
+|еррорфолдерексистс  <br/> |Эта ошибка возникает при попытке создать папку с тем же именем, что и у другой папки в том же родительском объекте. Повторяющиеся имена папок не разрешены.  <br/> |
+|еррорфолдернотфаунд  <br/> |Эта ошибка указывает на то, что указанный идентификатор папки не соответствует допустимой папке или у делегата нет разрешения на доступ к папке.  <br/> |
+|еррорфолдерпропертрекуестфаилед  <br/> |Эта ошибка указывает на то, что запрошенное свойство не может быть получено. Это не указывает на то, что свойство не существует, но свойство было повреждено каким бы то ни было способом, чтобы получить сообщение не удалось.  <br/> |
+|еррорфолдерсаве  <br/> |Эта ошибка указывает на то, что не удалось создать или обновить папку из-за недопустимого состояния.  <br/> |
+|еррорфолдерсавефаилед  <br/> |Эта ошибка указывает на то, что не удалось создать или обновить папку из-за недопустимого состояния.  <br/> |
+|еррорфолдерсавепропертеррор  <br/> |Эта ошибка указывает на то, что не удалось создать или обновить папку из-за недопустимых значений свойства. Код ответа содержит список свойств, которые привели к проблеме.  <br/> |
+|еррорфрибусидллимитреачед  <br/> |Эта ошибка указывает на то, что достигнуто максимальное число участников группы для получения сведений о доступности для списка рассылки.  <br/> |
+|еррорфрибусиженератионфаилед  <br/> |Эта ошибка возвращается, когда не удается получить сведения о занятости из-за промежуточного сбоя.  <br/> |
+|ерроржетсерверсекуритидескрипторфаилед  <br/> |Этот код ответа не используется.  <br/> |
+|ерроримконтактлимитреачед  <br/> |Эта ошибка возвращается, когда не удается добавить новые контакты обмена мгновенными сообщениями из-за того, что достигнуто максимальное количество контактов. Эта ошибка появилась в Exchange Server 2013.  <br/> |
+|ерроримграупдисплайнамеалреадексистс  <br/> |Эта ошибка возвращается при попытке добавления отображаемого имени группы, если у существующей группы уже есть такое же отображаемое имя. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроримграуплимитреачед  <br/> |Эта ошибка возвращается при невозможности добавить новые группы для обмена мгновенными сообщениями, так как достигнуто максимальное количество групп. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроримперсонатеусердениед  <br/> |Ошибка возвращается в случае авторизации "сервер-сервер" для олицетворения Exchange, если вызывающий абонент не имеет необходимых прав для олицетворения определенного пользователя. Эта ошибка отображается в службе MS – дов — EPI – May – IMPERSONATE Active Directory.  <br/> |
+|ерроримперсонатиондениед  <br/> |Эта ошибка возвращается в результате авторизации "сервер-сервер" для олицетворения Exchange, когда вызывающий абонент не имеет необходимых прав для олицетворения через сервер клиентского доступа, к которому он выполняет запрос. Это сопоставлено с службой MS – дов – EPI – олицетворение расширенного Active Directory.  <br/> |
+|ерроримперсонатионфаилед  <br/> |Эта ошибка указывает на то, что при попытке выполнить проверку подлинности "сервер – сервер" произошла непредвиденная ошибка. Этот код ответа обычно указывает на то, что учетная запись службы, на которой работает пул приложений веб-служб Exchange, настроена неправильно, что веб-службы Exchange не могут взаимодействовать с каталогом или неправильно настроить доверие между лесами.  <br/> |
+|ерроринкорректсчемаверсион  <br/> |Эта ошибка указывает на то, что запрос действителен для текущей версии Exchange Server, но не является допустимым для указанной версии сервера запросов.  <br/> |
+|ерроринкорректупдатепропертикаунт  <br/> |Эта ошибка указывает на то, что каждое описание изменений в элементах [UpdateItem](updateitem.md) или [операцию UpdateFolder](updatefolder.md) должно иметь только одно свойство для обновления.  <br/> |
+|еррориндивидуалмаилбокслимитреачед  <br/> |Эта ошибка возникает, когда запрос содержит слишком много участников для разрешения. По умолчанию максимальное число разрешенных участников — 100.  <br/> |
+|ерроринсуффиЦиентресаурцес  <br/> |Эта ошибка возникает, когда сервер почтовых ящиков перегружен. Повторите запрос позже.  <br/> |
+|ерроринтерналсервереррор  <br/> |Эта ошибка указывает на то, что в веб-службах Exchange возникла ошибка, из-за которой не удалось выполнить восстановление, и код отклика, связанный с возникшей ошибкой, не существует.  <br/> |
+|ерроринтерналсервертрансиентеррор  <br/> |Эта ошибка указывает на то, что произошла внутренняя ошибка сервера, и вы хотите повторить запрос позже.  <br/> |
+|ерроринвалидакцесслевел  <br/> |Эта ошибка указывает на то, что уровень доступа к данным о занятости не является допустимым для вызывающего абонента.  <br/> |
+|ерроринвалидаргумент  <br/> |Эта ошибка указывает на ошибку, вызванную всеми недопустимыми аргументами, переданными в [операцию GetMessageTrackingReport](getmessagetrackingreport-operation.md).<br/><br/> Эта ошибка возвращается в следующих сценариях: <br/><br/>— Пользователь, указанный в параметре _отправителя_ , не существует в каталоге. <br/>— Пользователь, указанный в параметре _отправителя_ , не является уникальным в каталоге. <br/>— Адрес _отправки_ пуст.<br/>-Адрес _отправителя_ не является допустимым адресом электронной почты.  <br/> |
+|ерроринвалидаттачментид  <br/> |Эта ошибка возвращается [операцией GetAttachment](getattachment-operation.md) или [DeleteAttachment](deleteattachment-operation.md) , когда вложение, соответствующее указанному идентификатору, не найдено.  <br/> |
+|ерроринвалидаттачментсубфилтер  <br/> |Эта ошибка возникает при попытке выполнить привязку к существующей папке поиска с помощью сложного ограничения для таблицы вложений. Веб-службы Exchange поддерживают только простой содержит фильтры для таблицы вложений. Если вы попытаетесь выполнить привязку к существующей папке поиска с более сложным ограничением таблицы вложений (вложенный фильтр), веб-службы Exchange не смогут отобразить XML для этого фильтра и возвратить этот код ответа. <br/><br/>Обратите внимание на то, что вы все равно можете вызвать операцию-папку для папки, но не запрашивать элемент [сеарчпараметерс](searchparameters.md) .  <br/> |
+|ерроринвалидаттачментсубфилтертекстфилтер  <br/> |Эта ошибка возникает при попытке выполнить привязку к существующей папке поиска с помощью сложного ограничения для таблицы вложений. Веб-службы Exchange поддерживают только простой содержит фильтры для таблицы вложений. <br/><br/>Если вы попытаетесь выполнить привязку к существующей папке поиска с более сложным ограничением для таблицы вложений, веб-службы Exchange не смогут отобразить XML для этого фильтра. В этом случае вложенный фильтр вложений содержит текстовый фильтр, но не ищет отображаемое имя вложения.<br/><br/> Обратите внимание на то, что вы все равно можете вызвать операцию-папку для папки, но не запрашивать элемент [сеарчпараметерс](searchparameters.md) .  <br/> |
+|ерроринвалидаусоризатионконтекст  <br/> | Эта ошибка указывает на то, что процедура проверки подлинности для запрашивающего не удалась.  <br/> |
+|ерроринвалидчанжекэй  <br/> |Эта ошибка возникает, когда потребитель передает идентификатор папки или элемента с помощью ключа изменения, который невозможно проанализировать. Например, это может быть недопустимый контент Base64 или пустая строка.  <br/> |
+|ерроринвалидклиентсекуритиконтекст  <br/> |Эта ошибка указывает на то, что произошла внутренняя ошибка при попытке разрешить идентификатор вызывающего абонента.  <br/> |
+|ерроринвалидкомплетедате  <br/> |Эта ошибка возвращается при попытке установить для задачи значение элемента [комплетедате](completedate.md) на время в будущем. При преобразовании в местное время сервера клиентского доступа для [комплетедате](completedate.md) задачи не может быть задано значение, которое позже локального времени на сервере клиентского доступа.  <br/> |
+|ерроринвалидконтактемаиладдресс  <br/> |Эта ошибка указывает на то, что для контакта указан недопустимый адрес электронной почты.  <br/> |
+|ерроринвалидконтактемаилиндекс  <br/> |Эта ошибка указывает на то, что для записи электронной почты было указано недопустимое значение индекса электронной почты.  <br/> |
+|ерроринвалидкроссфоресткредентиалс  <br/> |Эта ошибка возникает, когда учетные данные, используемые для прокси-сервера для запроса к другому лесу службы каталогов, не прошли проверку подлинности.  <br/> |
+|ерроринвалидделегатепермиссион  <br/> |Эта ошибка указывает на то, что указанные разрешения для папки являются недопустимыми.  <br/> |
+|ерроринвалидделегатеусерид  <br/> |Эта ошибка указывает на то, что указанный идентификатор пользователя делегата является недопустимым.  <br/> |
+|ерроринвалидексчанжеимперсонатионхеадердата  <br/> |Эта ошибка возникает во время олицетворения Exchange, когда вызывающий абонент не указывает имя участника-пользователя, адрес электронной почты или идентификатор пользователя. Это также произойдет, если вызывающий абонент задает одно или несколько из них, а значения пусты.  <br/> |
+|ерроринвалидексклудесрестриктион  <br/> |Эта ошибка возникает, если не удается выполнить синтаксический анализ битовой маски, переданной в ограничение элемента [Excludes](excludes.md) .  <br/> |
+|ерроринвалидекспрессионтипефорсубфилтер  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидекстендедпроперти  <br/> | Эта ошибка возникает, когда происходят следующие события: <br/> <br/>— Вызывающий абонент пытается использовать расширенное свойство, которое не поддерживается веб-службами Exchange.  <br/>— Вызывающий абонент передает недопустимое сочетание значений атрибутов расширенного свойства. Это также происходит, если атрибуты не передаются. Разрешены только определенные комбинации.  <br/> |
+|ерроринвалидекстендедпропертивалуе  <br/> |Эта ошибка возникает, когда раздел "значение" расширенного свойства не отвечает типу свойства. <br/><br/>Например, если задать расширенное свойство с PropertyType = "String" для массива целых чисел, будет возникать эта ошибка. Эта ошибка может быть связана с любым строковым представлением, которое не является приводимым к типу, указанному для расширенного свойства.  <br/> |
+|ерроринвалидекстерналшарингинитиатор  <br/> |Эта ошибка указывает на то, что отправитель приглашения к совместному использованию не создал метаданные приглашения на совместное использование.  <br/> |
+|ерроринвалидекстерналшарингсубскрибер  <br/> |Эта ошибка указывает на то, что сообщение о предоставлении общего доступа не предназначено для вызывающего абонента.  <br/> |
+|ерроринвалидфедератедорганизатионид  <br/> |Эта ошибка указывает на то, что объекты Федерации Организации запрашивающей стороны неправильно настроены.  <br/> |
+|ерроринвалидфолдерид  <br/> |Эта ошибка возникает, если идентификатор папки поврежден.  <br/> |
+|ерроринвалидфолдертипефороператион  <br/> |Эта ошибка указывает на то, что указанный тип папки не является допустимым для текущей операции. Например, нельзя создать папку поиска в общедоступной папке.  <br/> |
+|ерроринвалидфрактионалпагингпараметерс  <br/> | Эта ошибка возникает в разделе страничный обмен, когда пользователь указал один из следующих параметров: <br/> <br/>-Числитель, превышающий знаменатель  <br/>-Числитель меньше нуля  <br/>-Знаменатель меньше или равен нулю  <br/> |
+|ерроринвалиджетшарингфолдеррекуест  <br/> |Эта ошибка указывает на то, что в запросе присутствуют элементы [DataType](datatype.md) и шарефолдерид.  <br/> |
+|ерроринвалидфрибусивиевтипе  <br/> |Эта ошибка возникает, когда [Операция GetUserAvailability](getuseravailability-operation.md) вызывается с параметром [фрибусивиевтипе](freebusyviewtype.md) из None.  <br/> |
+|ерроринвалидид  <br/> |Эта ошибка указывает на то, что ключ ID и/или изменился неправильно.  <br/> |
+|ерроринвалидидемпти  <br/> |Эта ошибка возникает, когда вызывающий объект задает пустой атрибут **ID** .  <br/> |
+|ерроринвалидликерекуест  <br/> |Эта ошибка возникает, когда элемент не может быть понравившимся пользователям. Версия Exchange, начинающаяся с номера сборки 15.00.0913.09, включает это значение.  <br/> |
+|ерроринвалидидмалформед  <br/> |Эта ошибка возникает, когда вызывающий объект указывает некорректный атрибут **ID** .  <br/> |
+|ерроринвалидидмалформедевслегациидформат  <br/> |Эта ошибка указывает на то, что для запроса с версией Exchange 2007 с пакетом обновления 1 (SP1) или более поздней версии был указан идентификатор папки или элемента, использующего формат Exchange 2007. Нельзя использовать идентификаторы Exchange 2007 в запросах Exchange 2007 с пакетом обновления 1 (SP1) или более поздних Для их преобразования в первую очередь необходимо использовать [операцию ConvertId](convertid-operation.md) .  <br/> |
+|ерроринвалидидмоникертулонг  <br/> |Эта ошибка возникает, когда вызывающий объект указывает слишком длинное значение атрибута **ID** .  <br/> |
+|ерроринвалидиднотанитематтачментид  <br/> |Эта ошибка возвращается, если идентификатор, который не является ИДЕНТИФИКАТОРом вложения элемента, передается методу веб-службы, который ожидает идентификатор вложения.  <br/> |
+|ерроринвалидидретурнедбиресолвенамес  <br/> |Эта ошибка возникает, если контакт в почтовом ящике поврежден.  <br/> |
+|ерроринвалидидстореобжектидтулонг  <br/> |Эта ошибка возникает, когда вызывающий объект указывает слишком длинное значение атрибута **ID** .  <br/> |
+|ерроринвалидидтуманяттачментлевелс  <br/> |Эта ошибка возвращается в том случае, если иерархия вложений для элемента превышает максимум 255 уровней.  <br/> |
+|ерроринвалидидксмл  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидимконтактид  <br/> |Эта ошибка возвращается, если указанный идентификатор контакта для обмена мгновенными сообщениями не представляет допустимый идентификатор. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроринвалидимдистрибутионграупсмтпаддресс  <br/> |Эта ошибка возвращается в том случае, когда указанный идентификатор SMTP-адреса группы рассылки для обмена мгновенными сообщениями не представляет допустимый идентификатор. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроринвалидимграупид  <br/> |Эта ошибка возвращается, если указанный идентификатор группы обмена мгновенными сообщениями не представляет допустимый идентификатор. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроринвалидиндекседпагингпараметерс  <br/> |Эта ошибка возникает, если смещение индексированного разбиения по страницам отрицательно.  <br/> |
+|ерроринвалидинтернесеадерчилднодес  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидитемфороператионарчивеитем  <br/> |Указывает, что элемент был недопустимым для операции **ArchiveItem** .  <br/> |
+|ерроринвалидитемфороператионакцептитем  <br/> |Эта ошибка возникает при попытке использовать объект ответа Акцептитем для типа элемента, отличного от приглашения на собрание или элемента календаря, или при попытке принять вхождение элемента календаря, настоящего в папке "Удаленные".  <br/> |
+|ерроринвалидитемфороператионканцелитем  <br/> |Эта ошибка возникает при попытке использовать объект ответа Канцелитем для типа элемента, отличного от элемента календаря.  <br/> |
+|ерроринвалидитемфороператионкреатеитематтачмент  <br/> | Эта ошибка возвращается при попытке создать вложение элемента неподдерживаемого типа.  <br/><br/>  Поддерживаемые типы элементов для вложений элемента включают следующие объекты:  <br/><br/>- [Элемента](item.md) <br/>- [Сообщение](message-ex15websvcsotherref.md) <br/>- [календаритем](calendaritem.md) <br/>- [Ее](task.md) <br/>- [Лицу](contact.md) <br/> <br/> Например, если вы попытаетесь создать вложение [митингмессаже](meetingmessage.md) , вы получите этот код ответа.  <br/> |
+|ерроринвалидитемфороператионкреатеитем  <br/> | Эта ошибка возвращается из [операции CreateItem](createitem-operation.md) , если запрос содержит неподдерживаемый тип элемента. <br/><br/>Поддерживаемые элементы включают в себя следующие объекты:<br/>  <br/>- [Элемента](item.md) <br/>- [Сообщение](message-ex15websvcsotherref.md) <br/>- [календаритем](calendaritem.md) <br/>- [Ее](task.md) <br/>- [Лицу](contact.md) <br/><br/>  Некоторые типы создаются как побочные эффекты выполнения чего-либо еще. Например, сообщения о собраниях создаются при отправке элемента календаря участникам; они не создаются явным образом.  <br/> |
+|ерроринвалидитемфороператиондеклинеитем  <br/> |Эта ошибка возникает при попытке использовать объект ответа Деклинеитем для типа элемента, отличного от приглашения на собрание или элемента календаря, или при попытке отклонить вхождение элемента календаря, настоящего в папке "Удаленные".  <br/> |
+|ерроринвалидитемфороператионекспанддл  <br/> |Эта ошибка указывает на то, что [Операция ExpandDL](expanddl-operation.md) действительна только для частных списков рассылки.  <br/> |
+|ерроринвалидитемфороператионремовеитем  <br/> |Эта ошибка возвращается из объекта ответа RemoveItem, если запрос указывает элемент, который не является элементом отмены собрания.  <br/> |
+|ерроринвалидитемфороператионсендитем  <br/> |Эта ошибка возвращается из [операции SendItem](senditem-operation.md) , если запрос указывает элемент, который не является элементом сообщения.  <br/> |
+|ерроринвалидитемфороператионтентативе  <br/> |Эта ошибка возникает при попытке использовать [тентативелякцептитем](tentativelyacceptitem.md) для типа элемента, отличного от приглашения на собрание или элемента календаря, или при попытке принять приглашение на предварительное принятие элемента календаря, настоящего в папке "Удаленные".  <br/> |
+|ерроринвалидлогонтипе  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка не возвращается.  <br/> |
+|ерроринвалидмаилбокс  <br/> |Эта ошибка указывает на то, что [Операция CreateItem](createitem-operation.md) или [UpdateItem](updateitem-operation.md) завершилась с ошибкой при создании или обновлении личного списка рассылки.  <br/> |
+|ерроринвалидманажедфолдерпроперти  <br/> |Эта ошибка возникает, когда структура управляемой папки повреждена и не может быть отображена.  <br/> |
+|ерроринвалидманажедфолдеркуота  <br/> |Эта ошибка возникает, когда квота, заданная для управляемой папки, меньше нуля, что указывает на поврежденную управляемую папку.  <br/> |
+|ерроринвалидманажедфолдерсизе  <br/> |Эта ошибка возникает, когда размер, заданный для управляемой папки, меньше нуля, что указывает на поврежденную управляемую папку.  <br/> |
+|ерроринвалидмержедфрибусинтервал  <br/> |Эта ошибка возникает, когда предоставленное объединенное внутреннее значение занятости является недопустимым. Минимальное значение по умолчанию — 5 минут. Максимальное значение по умолчанию — 1440 минут.  <br/> |
+|ерроринвалиднамефорнамересолутион  <br/> |Эта ошибка возникает, если имя недопустимо для [операции ResolveNames](resolvenames-operation.md). Например, строка нулевой длины, одиночный пробел, запятая и тире являются недопустимыми именами.  <br/> |
+|ерроринвалиднетворксервицеконтекст  <br/> |Эта ошибка указывает на ошибку в учетной записи сетевой службы на сервере клиентского доступа.  <br/> |
+|ерроринвалидуфпараметер  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидоператион  <br/> | Это общая ошибка, которая используется, когда запрошенная операция является недопустимой. <br/><br/>Например, невозможно выполнить следующие действия: <br/> <br/>— Выполните "глубокий" обход с помощью [операции FindFolder](findfolder-operation.md) для общедоступной папки.  <br/>— Переместите или скопируйте корневой каталог общедоступных папок.  <br/>— Удаление связанного элемента с помощью любого режима, кроме "жесткого" удаления.  <br/>— Перемещение или копирование связанного элемента.  <br/> |
+|ерроринвалидорганизатионрелатионшипфорфрибуси  <br/> |Эта ошибка указывает на то, что абонент запросил сведения о занятости для пользователя в другой организации, но в связи Организации не включена поддержка сведений о занятости.  <br/> |
+|ерроринвалидпагингмаксровс  <br/> |Эта ошибка возникает, когда потребитель передает нулевое или отрицательное значение для возвращения максимальных строк.  <br/> |
+|ерроринвалидпарентфолдер  <br/> |Эта ошибка возникает, когда потребитель передает недопустимую родительскую папку для операции. Например, эта ошибка возвращается при попытке создать папку в папке поиска.  <br/> |
+|ерроринвалидперценткомплетевалуе  <br/> |Эта ошибка возвращается при попытке установить процент завершения задачи в недопустимое значение. Значение должно находиться в диапазоне от 0 до 100 (включительно).  <br/> |
+|ерроринвалидпермиссионсеттингс  <br/> |Эта ошибка указывает на то, что уровень разрешений не согласуется с параметрами разрешений.  <br/> |
+|ерроринвалидфонекаллид  <br/> |Эта ошибка указывает на то, что идентификатор звонящего не является допустимым.  <br/> |
+|ерроринвалидфоненумбер  <br/> |Эта ошибка указывает на то, что номер телефона неверен или не соответствует правилам абонентской группы.  <br/> |
+|ерроринвалидпропертяппенд  <br/> | Эта ошибка возникает, когда свойство, которое вы пытаетесь добавить, не поддерживает добавление. <br/><br/>Следующие свойства поддерживают добавление: <br/> <br/>-Коллекции получателей (ToRecipients, CcRecipients, BccRecipients)  <br/>-Участники коллекции (RequiredAttendees, OptionalAttendees, Resources)  <br/>— Body  <br/>– ReplyTo  <br/><br/>  Кроме того, эта ошибка возникает, когда текст сообщения добавляется, если формат, указанный в запросе, не отвечает формату элемента в хранилище.  <br/> |
+|ерроринвалидпропертиделете  <br/> |Эта ошибка возникает, если операция удаления указана в [операции UpdateItem](updateitem-operation.md) или вызов [операции операцию UpdateFolder](updatefolder-operation.md) для свойства, которое не поддерживает операцию удаления. Например, невозможно удалить элемент [ItemId](itemid.md) объекта [Item](item.md) .  <br/> |
+|ерроринвалидпропертифорексистс  <br/> |Эта ошибка возникает, если потребитель передает одно из свойств флага в фильтре [Exists](exists.md) . Например, эта ошибка возникает, если в элементе [Exists](exists.md) указаны флаги [Исфромме](isfromme.md) или- [Read](isread.md) . В запросе должен использоваться элемент [исекуалто](isequalto.md) вместо флагов, так как они являются флагами и, следовательно, являются частью одного свойства.  <br/> |
+|ерроринвалидпропертифороператион  <br/> |Эта ошибка возникает, когда свойство, которое вы пытаетесь изменить, не поддерживает выполняемую операцию.  <br/> |
+|ерроринвалидпропертирекуест  <br/> | Эта ошибка возникает, если свойство, указанное в запросе, недоступно для типа элемента. Например, эта ошибка возвращается в том случае, если свойство, доступное только для элементов календаря, запрашивается при вызове [операции GetItem](getitem-operation.md) для сообщения или обновляется при вызове [операции UpdateItem](updateitem-operation.md) для сообщения. <br/> <br/>  Это происходит в следующих операциях: <br/> <br/>- [Операция GetItem](getitem-operation.md) <br/>- [Операция с папкой](getfolder-operation.md) <br/>- [Операция UpdateItem](updateitem-operation.md) <br/>- [Операция операцию UpdateFolder](updatefolder-operation.md) <br/> |
+|ерроринвалидпропертисет  <br/> |Эта ошибка указывает на то, что свойство, которое вы пытаетесь изменить, не поддерживает выполняемую операцию. Например, эта ошибка возвращается, если свойство, которое вы пытаетесь задать, доступно только для чтения.  <br/> |
+|ерроринвалидпропертюпдатесентмессаже  <br/> | Эта ошибка возникает во время выполнения [операции UpdateItem](updateitem-operation.md) , когда клиент пытается обновить определенные свойства уже отправленного сообщения.<br/><br/> Например, следующие свойства не могут быть обновлены для отправленного сообщения: <br/> <br/>- [исреадрецеиптрекуестед](isreadreceiptrequested.md) <br/>- [исделиверирецеиптрекуестед](isdeliveryreceiptrequested.md) <br/> |
+|ерроринвалидпроксисекуритиконтекст  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидпуллсубскриптионид  <br/> |Эта ошибка возникает, если вы вызываете [операцию](getevents-operation.md) ЕОШИБКА или [операцию unsubscribe](unsubscribe-operation.md) с помощью идентификатора принудительной подписки. Чтобы отписаться от принудительной подписки, необходимо ответить на запрос Push, отказаться от ответа, или отключить веб-службу и дождаться истечения времени ожидания push-уведомлений.  <br/> |
+|ерроринвалидпушсубскриптионурл  <br/> | Эта ошибка возвращается [операцией Subscribe](subscribe-operation.md) , когда она создает подписку "Push" и указывает, что URL-адрес, включенный в запрос, является недопустимым.<br/><br/>Чтобы веб-службы Exchange могли принимать URL-адрес, должны выполняться следующие условия: <br/> <br/>— Длина \> строки 0 и \< 2083.  <br/>-Протокол HTTP или HTTPS.  <br/>— URL-адрес можно проанализировать с помощью класса URI Microsoft .NET Framework.  <br/> |
+|ерроринвалидреЦипиентс  <br/> |Эта ошибка указывает на недопустимое семейство получателей сообщения или коллекции участников в элементе календаря. Например, эта ошибка будет возвращаться при попытке отправить элемент, не имеющий получателей.  <br/> |
+|ерроринвалидреЦипиентсубфилтер  <br/> |Эта ошибка указывает на то, что в папке поиска есть фильтр таблицы получателей, который не может представлять веб-службы Exchange. Чтобы устранить эту ошибку, извлеките папку без запроса параметров поиска.  <br/> |
+|ерроринвалидреЦипиентсубфилтеркомпарисон  <br/> |Эта ошибка указывает на то, что в папке поиска есть фильтр таблицы получателей, который не может представлять веб-службы Exchange. Чтобы устранить эту ошибку, извлеките папку без запроса параметров поиска.  <br/> |
+|ерроринвалидреЦипиентсубфилтерордер  <br/> |Эта ошибка указывает на то, что в папке поиска есть фильтр таблицы получателей, который не может представлять веб-службы Exchange. Чтобы устранить эту ошибку, извлеките папку без запроса параметров поиска.  <br/> |
+|ерроринвалидреЦипиентсубфилтертекстфилтер  <br/> |Эта ошибка указывает на то, что в папке поиска есть фильтр таблицы получателей, который не может представлять веб-службы Exchange. Чтобы устранить эту ошибку, извлеките папку без запроса параметров поиска.  <br/> |
+|ерроринвалидреференцеитем  <br/> | Эта ошибка возвращается из [операции CreateItem](createitem-operation.md) для объектов пересылки и ответа в следующих сценариях:<br/>  <br/>— Идентификатор элемента, на который указывает ссылка, не является [сообщением](message-ex15websvcsotherref.md), [календаритем](calendaritem.md)или потомком **сообщения** или **календаритем**.  <br/>— Идентификатор элемента Reference предназначен для **календаритем** , а организатор пытается ответить или ReplyAll самому себе.  <br/>— Сообщение является черновиком, а ответ или ReplyAll выбран.  <br/>— Элемент Reference, для [суппрессреадрецеипт](suppressreadreceipt.md), не является **сообщением** или потомком **сообщения**.  <br/> |
+|ерроринвалидрекуест  <br/> |Эта ошибка возникает, когда SOAP – запрос SOAP содержит заголовок действия SOAP, но в теле SOAP ничего нет. Обратите внимание, что заголовок действия SOAP не требуется, так как веб-службы Exchange могут определить метод, который необходимо вызвать, из локального имени корневого элемента в теле SOAP.  <br/> |
+|ерроринвалидрестриктион  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидретентионтагтипемисматч  <br/> |Эта ошибка возвращается, если с указанным тегом хранения связано неправильное действие. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроринвалидретентионтагинвисибле  <br/> |Эта ошибка возвращается при попытке задать несуществующий или невидимый тег для свойства **полицитаг** . Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроринвалидретентионтагинхеританце  <br/> |Эта ошибка возвращается при попытке задать неявный тег для свойства **полицитаг** . Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроринвалидретентионтагидгуид  <br/> |Указывает, что Недопустимый GUID тега хранения.  <br/> |
+|ерроринвалидраутингтипе  <br/> |Эта ошибка возникает, если тип маршрутизации, переданный для элемента [раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md) , является недопустимым. Как правило, для параметра тип маршрутизации задано значение Simple Mail Transfer Protocol (SMTP).  <br/> |
+|ерроринвалидсчедуледуфдуратион  <br/> |Эта ошибка возникает, если указанное время окончания срока действия не превышает время начала, или если время окончания в будущем не выполняется.  <br/> |
+|ерроринвалидсчемаверсионформаилбоксверсион  <br/> |Эта ошибка указывает на то, что запрос прокси, отправленный на другой сервер, не может обслуживать запрос из-за несоответствия версий.  <br/> |
+|ерроринвалидсекуритидескриптор  <br/> |Эта ошибка указывает на то, что дескриптор безопасности Exchange для папки "Календарь" в хранилище поврежден.  <br/> |
+|ерроринвалидсендитемсавесеттингс  <br/> |Эта ошибка возникает при попытке отправить элемент, в котором в запросе указан [саведитемфолдерид](saveditemfolderid.md) , но для свойства **савеитемтофолдер** задано значение **false**.  <br/> |
+|ерроринвалидсериализедакцесстокен  <br/> |Эта ошибка указывает на то, что маркер, переданный в заголовок, имеет неправильный формат, не ссылается на допустимую учетную запись в каталоге или не содержит основную группу **коннектингсид**.  <br/> |
+|ерроринвалидшарингдата  <br/> |Эта ошибка указывает на недопустимые метаданные общего доступа. Это может быть вызвано недопустимым XML-документом.  <br/> |
+|ерроринвалидшарингмессаже  <br/> |Эта ошибка указывает на то, что сообщение о совместном доступе не является допустимым. Это может быть вызвано отсутствием свойства.  <br/> |
+|ерроринвалидсид  <br/> |Эта ошибка возникает, когда в запросе передается недопустимый SID.  <br/> |
+|ерроринвалидсипури  <br/> |Эта ошибка указывает на то, что имя SIP, абонентская абонентская или номер телефона являются недопустимыми URI SIP.  <br/> |
+|ерроринвалидсерверверсион  <br/> |Эта ошибка указывает на то, что в запросе указана недопустимая версия сервера запросов.  <br/> |
+|ерроринвалидсмтпаддресс  <br/> |Эта ошибка возникает, если не удается выполнить синтаксический анализ SMTP-адреса.  <br/> |
+|ерроринвалидсубфилтертипе  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидсубфилтертипенотаттендитипе  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидсубфилтертипенотреЦипиенттипе  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидсубскриптион  <br/> |Эта ошибка указывает на то, что подписка больше не действительна. Это может быть вызвано тем, что сервер клиентского доступа перезагружается или срок действия подписки истек.  <br/> |
+|ерроринвалидсубскриптионрекуест  <br/> |Эта ошибка указывает на то, что запрос Subscribe включал несколько идентификаторов общедоступных папок. Подписка может включать несколько папок из одного и того же почтового ящика или идентификатора общедоступной папки.  <br/> |
+|ерроринвалидсинкстатедата  <br/> |Эта ошибка возвращается методом [SyncFolderItems](syncfolderitems.md) или [SyncFolderHierarchy](syncfolderhierarchy.md) , если переданные [синкстате](syncstate-ex15websvcsotherref.md) передаются недопустимые данные. Чтобы устранить эту ошибку, необходимо выполнить повторную синхронизацию без состояния синхронизации. Убедитесь, что при сохранении больших двоичных объектов состояния синхронизации случайно не выполняется усечение большого двоичного объекта.  <br/> |
+|ерроринвалидтимеинтервал  <br/> |Эта ошибка указывает на то, что указанный интервал времени является недопустимым. Время начала должно быть больше или равно времени окончания.  <br/> |
+|ерроринвалидусеринфо  <br/> |Эта ошибка указывает на то, что для операции разрешений задано внутреннее несоответствие [UserID](userid.md) . Например, если указан идентификатор различающегося пользователя (по умолчанию или анонимный), то эта ошибка возвращается, если вы попытаетесь указать идентификатор безопасности, или основной SMTP-адрес или отображаемое имя этого пользователя.  <br/> |
+|ерроринвалидусеруфсеттингс  <br/> |Эта ошибка указывает на то, что пользователь из Office (отсутствие на работе) не является допустимым из-за отсутствия внутреннего или внешнего ответа.  <br/> |
+|ерроринвалидусерпринЦипалнаме  <br/> |Эта ошибка возникает во время олицетворения Exchange. Вызывающий абонент передал недопустимый код участника-пользователя в заголовке SOAP, который был недоступен в каталоге.  <br/> |
+|ерроринвалидусерсид  <br/> |Эта ошибка возникает, когда в запросе передается недопустимый SID.  <br/> |
+|ерроринвалидусерсидмиссингупн  <br/> |Этот код ответа не используется.  <br/> |
+|ерроринвалидвалуефорпроперти  <br/> |Эта ошибка указывает на то, что значение сравнения в ограничении не является допустимым для свойства, с которым выполняется сравнение.<br/><br/> Например, при сравнении [DateTimeCreated](datetimecreated.md) > со значением**true** возвращается код отклика. <br/><br/>Этот код ответа также возвращается, если указать свойство перечисления в сравнении, но сравниваемое значение не является допустимым значением для этого перечисления.  <br/> |
+|ерроринвалидватермарк  <br/> |Эта ошибка вызвана недопустимым водяным знаком.  <br/> |
+|еррорипгатевайнотфаунд  <br/> |Эта ошибка указывает на то, что действительный шлюз VoIP недоступен.  <br/> |
+|еррорирресолваблеконфликт  <br/> |Эта ошибка указывает на то, что при разрешении конфликтов не удалось разрешить изменения свойств. Элементы в магазине могли быть изменены и должны быть обновлены. Извлеките обновленный ключ изменения и повторите попытку.  <br/> |
+|ерроритемкоррупт  <br/> |Эта ошибка указывает на то, что состояние объекта повреждено и не может быть извлечено. При извлечении элемента в этом состоянии будут отображаться только определенные элементы, такие как [Body](body.md) и [сохранитьmimecontent](mimecontent.md). Удалите эти элементы и повторите операцию.  <br/> |
+|ерроритемнотфаунд  <br/> |Эта ошибка возникает, когда элемент не найден или у вас нет разрешения на доступ к элементу.  <br/> |
+|ерроритемпропертирекуестфаилед  <br/> |Эта ошибка возникает, если не удается выполнить запрос свойства для элемента. Свойство может существовать, но не может быть получено.  <br/> |
+|ерроритемсаве  <br/> |Эта ошибка возникает при неудачной попытке сохранения элемента или папки.  <br/> |
+|ерроритемсавепропертеррор  <br/> |Эта ошибка возникает, если не удается сохранить элемент или папку из-за недопустимых значений свойства. Код отклика содержит путь к недопустимым свойствам.  <br/> |
+|еррорлегацимаилбоксфрибусивиевтипенотмержед  <br/> |Этот код ответа не используется.  <br/> |
+|еррорлокалсерверобжектнотфаунд  <br/> |Этот код ответа не используется.  <br/> |
+|еррорлогонаснетворксервицефаилед  <br/> |Эта ошибка указывает на то, что службе доступности не удалось выполнить вход в качестве сетевой службы для запросов прокси-сервера к соответствующим сайтам или лесам. Этот ответ обычно указывает на ошибку конфигурации.  <br/> |
+|еррормаилбоксконфигуратион  <br/> |Эта ошибка указывает на то, что сведения о почтовом ящике в AD DS настроены неправильно.  <br/> |
+|еррормаилбоксдатааррайемпти  <br/> |Эта ошибка указывает на то, что элемент [маилбоксдатааррай](mailboxdataarray.md) в запросе пуст. Необходимо указать по крайней мере один идентификатор почтового ящика.  <br/> |
+|еррормаилбоксдатааррайтубиг  <br/> |Эта ошибка возникает, когда в элементе [маилбоксдатааррай](mailboxdataarray.md) указано более 100 записей..  <br/> |
+|еррормаилбоксфаиловер  <br/> |Эта ошибка указывает на то, что попытка доступа к почтовому ящику не удалась, так как почтовый ящик находится в процессе отработки отказа.  <br/> |
+|еррормаилбоксхолднотфаунд  <br/> |Указывает, что удержание почтового ящика не найдено.  <br/> |
+|еррормаилбокслогонфаилед  <br/> |Эта ошибка возникает, когда не удалось подключиться к почтовому ящику для получения сведений о представлении календаря.  <br/> |
+|еррормаилбоксмовеинпрогресс  <br/> | Эта ошибка указывает на то, что почтовый ящик перемещается в другое хранилище или на сервер почтовых ящиков. Эта ошибка также может означать, что почтовый ящик находится на другом сервере или в базе данных почтовых ящиков.  <br/> |
+|еррормаилбоксстореунаваилабле  <br/> | Эта ошибка указывает на то, что произошла одна из следующих причин ошибки:  <br/><br/>— Хранилище почтовых ящиков повреждено.  <br/>— Хранилище почтовых ящиков останавливается.  <br/>— Хранилище почтовых ящиков находится в автономном режиме.  <br/>— Произошла ошибка сети при попытке доступа к хранилищу почтовых ящиков.  <br/>— Хранилище почтовых ящиков перегружено и не может принимать другие подключения.  <br/>— Хранилище почтовых ящиков приостановлено.  <br/> |
+|еррормаилреЦипиентнотфаунд  <br/> |Эта ошибка возникает, если не удается сопоставить данные элемента [MailboxData](mailboxdata.md) с действующей учетной записью почтового ящика.  <br/> |
+|еррормаилтипсдисаблед  <br/> |Эта ошибка указывает на то, что советы по использованию электронной почты отключены.  <br/> |
+|еррорманажедфолдералреадексистс  <br/> |Эта ошибка возникает, если управляемая папка, которую вы пытаетесь создать, уже существует в почтовом ящике.  <br/> |
+|еррорманажедфолдернотфаунд  <br/> |Эта ошибка возникает, когда имя папки, указанное в запросе, не соответствует определению управляемой папки в AD DS. Создавать экземпляры управляемых папок можно только для папок, определенных в доменных СЛУЖБах Active Directory. Проверьте имя и повторите попытку.  <br/> |
+|еррорманажедфолдерсрутфаилуре  <br/> |Эта ошибка указывает на то, что корневой каталог управляемых папок был удален из почтового ящика или что папка существует в той же родительской папке, где находится имя управляемой корневой папки. Это также произойдет при неудачной попытке создать корневую управляемую папку.  <br/> |
+|еррормитингсугжестионженератионфаилед  <br/> |Эта ошибка указывает на то, что в подсистеме рекомендаций возникла проблема при попытке создать предложения.  <br/> |
+|еррормессажедиспоситионрекуиред  <br/> | Эта ошибка возникает, если не задан атрибут **мессажедиспоситион** .<br/><br/> Этот атрибут является обязательным для следующих условий: <br/> <br/>— [Операция CreateItem](createitem-operation.md) и [Операция UpdateItem](updateitem-operation.md) , когда создаваемый или обновляемый элемент является [сообщением](message-ex15websvcsotherref.md).  <br/>- Объекты ответа [канцелкалендаритем](cancelcalendaritem.md), [акцептитем](acceptitem.md), [деклинеитем](declineitem.md)или [тентативелякцептитем](tentativelyacceptitem.md) .  <br/> |
+|еррормессажесизиксцеедед  <br/> |Эта ошибка указывает на то, что сообщение, которое вы пытаетесь отправить, превышает допустимые пределы.  <br/> |
+|еррормессажетраккингносучдомаин  <br/> |Эта ошибка указывает на то, что не удается найти указанный домен.  <br/> |
+|еррормессажетраккингперманентеррор  <br/> |Эта ошибка указывает на то, что службе отслеживания сообщений не удается отследить сообщение.  <br/> |
+| еррормессажетраккингтрансиентеррор  <br/> |Эта ошибка указывает на то, что служба отслеживания сообщений либо работает, либо занята. Этот код ошибки указывает на временную ошибку. Клиенты могут повторять попытку подключения к серверу при получении этой ошибки.  <br/> |
+|еррормимеконтентконверсионфаилед  <br/> |Эта ошибка возникает, когда содержимое MIME не является допустимым iCal для [операции CreateItem](createitem-operation.md). Для [операции GetItem](getitem-operation.md)этот ответ указывает на то, что не удалось создать MIME контент.  <br/> |
+|еррормимеконтентинвалид  <br/> |Эта ошибка возникает, когда недопустимо содержимое MIME.  <br/> |
+|ErrorMimeContentInvalidBase64String  <br/> |Эта ошибка возникает, когда MIME-контент в запросе не является допустимой строкой Base 64.  <br/> |
+|еррормиссингаргумент  <br/> |Эта ошибка указывает на то, что в запросе отсутствует обязательный аргумент. Текст ответного сообщения указывает, какой аргумент необходимо проверить.  <br/> |
+|еррормиссинжемаиладдресс  <br/> |Эта ошибка указывает на то, что в запросе указан идентификатор различающегося каталога, но у учетной записи, которая выполнила запрос, нет почтового ящика в системе. В этом случае необходимо указать вложенный элемент [почтового ящика](mailbox.md) в разделе [дистингуишедфолдерид](distinguishedfolderid.md).  <br/> |
+|еррормиссинжемаиладдрессформанажедфолдер  <br/> |Эта ошибка указывает на то, что в запросе указан идентификатор различающегося каталога, но у учетной записи, которая выполнила запрос, нет почтового ящика в системе. В этом случае необходимо указать вложенный элемент [почтового ящика](mailbox.md) в разделе [дистингуишедфолдерид](distinguishedfolderid.md). Этот ответ возвращается из [операции CreateManagedFolder](createmanagedfolder-operation.md).  <br/> |
+|еррормиссингинформатионемаиладдресс  <br/> |Эта ошибка возникает, если отсутствует элемент [EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md) .  <br/> |
+|еррормиссингинформатионреференцеитемид  <br/> |Эта ошибка возникает, если [референцеитемид](referenceitemid.md) отсутствует.  <br/> |
+|еррормиссингинформатионшарингфолдерид  <br/> |Этот код ошибки никогда не возвращается.  <br/> |
+|еррормиссингитемфоркреатеитематтачмент  <br/> |Эта ошибка возвращается, если попытка не включала элемент item в элемент **ItemAttachment** запроса [операции CreateAttachment](createattachment-operation.md) .  <br/> |
+|еррормиссингманажедфолдерид  <br/> |Эта ошибка возникает, если для папки отсутствует свойство ID политики, 0x6732 тега свойства. Следует учесть, что эта папка является поврежденной.  <br/> |
+|еррормиссингреЦипиентс  <br/> |Эта ошибка указывает на то, что вы пытались отправить элемент, не указывая получателей. Обратите внимание, что при вызове [операции CreateItem](createitem-operation.md) с расстановкой сообщения, которая вызывает отправку сообщения, будет получен следующий код ответа: **ерроринвалидреЦипиентс**.  <br/> |
+|еррормиссингусеридинформатион  <br/> |Эта ошибка указывает на то, что [UserID](userid.md) не был полностью указан в наборе разрешений.  <br/> |
+|еррорморесанонеакцессмодеспеЦифиед  <br/> |Эта ошибка указывает на то, что в запросе указано более одного значения элемента [ексчанжеимперсонатион](exchangeimpersonation.md) .  <br/> |
+|еррормовекопифаилед  <br/> |Эта ошибка указывает на то, что не удалось выполнить операцию перемещения или копирования. Перемещение выполняется в [операции CreateItem](createitem-operation.md) , когда вы принимаете приглашение на собрание, которое находится в папке "Удаленные". Кроме того, если вы отклоняете приглашение на собрание, отменяет элемент календаря или удаляет собрание из календаря, оно перемещается в папку "Удаленные".  <br/> |
+|еррормоведистингуишедфолдер  <br/> |Эта ошибка возникает при попытке переместить различающиеся папки.  <br/> |
+|еррормултилегацимаилбоксакцесс  <br/> |Эта ошибка возникает, когда запрос пытается получить доступ к нескольким серверам почтовых ящиков. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорнамересолутионмултиплересултс  <br/> |Эта ошибка возникает, если [Операция ResolveNames](resolvenames-operation.md) возвращает более одного результата или указанное неоднозначное имя соответствует нескольким объектам в каталоге. Код ответа содержит сопоставляемые имена в данных ответа.  <br/> |
+|еррорнамересолутионномаилбокс  <br/> |Эта ошибка указывает на то, что у вызывающего абонента нет почтового ящика в системе. Операция [ResolveNames](resolvenames-operation.md) или [ExpandDL](expanddl-operation.md) не является допустимой для подключения пользователя без почтового ящика.  <br/> |
+|еррорнамересолутионноресултс  <br/> |Эта ошибка указывает на то, что [Операция ResolveNames](resolvenames-operation.md) не возвращает результаты.  <br/> |
+|еррорноаппликаблепроксикассерверсаваилабле  <br/> |Этот код ошибки должен возвращаться в том случае, если веб-службе не удается найти сервер для обработки запроса.  <br/> |
+|еррорнокалендар  <br/> |Эта ошибка возникает, если для почтового ящика нет папки календаря.  <br/> |
+|еррорнодестинатионкасдуетокерберосрекуирементс  <br/> |Эта ошибка указывает на то, что запрос, указанный в почтовом ящике на другом сайте Active Directory, не настроен для проверки подлинности Windows, но серверы клиентского доступа на целевом сайте не были настроены для проверки подлинности Windows, поэтому запрос не может быть прокси.  <br/> |
+|еррорнодестинатионкасдуетосслрекуирементс  <br/> |Эта ошибка указывает на то, что запрос, указанный в почтовом ящике на другом сайте Active Directory, не настроен для SSL-подключений, а серверов клиентского доступа на целевом сайте.  <br/> |
+|еррорнодестинатионкасдуетоверсионмисматч  <br/> |Эта ошибка указывает на то, что запрос, ссылающийся на почтовый ящик, на другом сайте Active Directory, но на сервере клиентского доступа на целевом сайте не было допустимой версии продукта для получения запроса, поэтому запрос не может быть сделан прокси-сервером.  <br/> |
+|еррорнофолдерклассоверриде  <br/> |Эта ошибка возникает, если вы задаете элемент [фолдеркласс](folderclass.md) при создании элемента, отличного от универсальной папки. Для типизированных папок, таких как [календарфолдер](calendarfolder.md) и [тасксфолдер](tasksfolder.md), класс Folder является подразумеваемым. Установка для класса Folder другого типа папки с помощью [операции операцию UpdateFolder](updatefolder-operation.md) приводит к отклику **ерроробжекттипечанжед** . Вместо этого используйте общий тип папки, но задайте для класса Folder значение, которое требуется. Веб-службы Exchange будут создавать правильную строго типизированную папку.  <br/> |
+|еррорнофрибусякцесс  <br/> |Эта ошибка указывает на то, что у вызывающего абонента нет прав на просмотр сведений о доступности в папке календаря.  <br/> |
+|еррорнонексистентмаилбокс  <br/> | Эта ошибка возникает в следующих сценариях: <br/> <br/>-Адрес электронной почты пуст в [CreateManagedFolder](createmanagedfolder.md).  <br/>— Адрес электронной почты не указывает на действительную учетную запись в запросе, которая принимает адрес электронной почты в тексте сообщения или в заголовке SOAP, например в вызове олицетворения Exchange.  <br/> |
+|еррорнонпримарисмтпаддресс  <br/> |Эта ошибка возникает, когда вызывающий абонент передает не основной SMTP-адрес. Ответ включает правильный SMTP-адрес для использования.  <br/> |
+|еррорнопропертитагфоркустомпропертиес  <br/> |Эта ошибка указывает на то, что теги свойств не могут ссылаться на свойства MAPI в настраиваемом диапазоне (0x8000 и выше). Необходимо использовать свойство [Пропертисетид](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.extendedpropertydefinition.propertysetid%28v=exchg.80%29.aspx)управляемого API EWS или элемент EWS [екстендедфиелдури](extendedfielduri.md) с атрибутом пропертисетид.  <br/> |
+|еррорнопубликфолдеррепликааваилабле  <br/> |Этот код ответа не используется.  <br/> |
+|еррорнопубликфолдерсервераваилабле  <br/> |Этот код ошибки должен возвращаться при отсутствии доступного сервера общих папок или при отсутствии основного общедоступного сервера.  <br/> |
+|еррорнореспондингкасиндестинатионсите  <br/> |Эта ошибка указывает на то, что запрос, ссылающийся на почтовый ящик на другом сайте Active Directory, не ответил ни на один из серверов клиентского доступа на этом сайте, поэтому запрос не может быть сделан прокси-сервером.  <br/> |
+|еррорноталловедекстерналшарингбиполици  <br/> |Эта ошибка указывает на то, что вызывающий абонент попытался предоставить разрешения в папке "Календарь" или "Контакты" пользователю в другой организации, и попытка не удалась.  <br/> |
+|еррорнотделегате  <br/> |Эта ошибка указывает на то, что пользователь не является представителем для почтового ящика. Он возвращается [операцией-делегата](getdelegate-operation.md), [операцией RemoveDelegate](removedelegate-operation.md)и [операцией UpdateDelegate](updatedelegate-operation.md) , когда указанный пользователь-делегат не найден в списке делегатов.  <br/> |
+|еррорнотенаугхмемори  <br/> |Эта ошибка указывает на то, что операция не может быть завершена из-за нехватки памяти.  <br/> |
+|еррорнотсуппортедшарингмессаже  <br/> |Эта ошибка указывает на то, что сообщение о совместном доступе не поддерживается.  <br/> |
+|ерроробжекттипечанжед  <br/> |Эта ошибка возникает, если тип объекта изменился.  <br/> |
+|ерророккурренцекроссингбаундари  <br/> |Эта ошибка возникает, когда время [начала](start.md) или [окончания](end-ex15websvcsotherref.md) вхождения обновляется, поэтому повторение запланировано раньше или позже соответствующего предыдущего или следующего вхождения.  <br/> |
+|ерророккурренцетимеспантубиг  <br/> |Эта ошибка указывает на то, что время для данного экземпляра перекрывается с другим экземпляром того же повторяющегося элемента. Этот ответ также происходит, когда длина данного экземпляра в минутах превышает Int32. MaxValue.  <br/> |
+|ерророператионноталловедвиспубликфолдеррут  <br/> |Эта ошибка указывает на то, что текущая операция не является допустимой для корня общедоступной папки.  <br/> |
+|ерророрганизатионнотфедератед  <br/> |Эта ошибка указывает на то, что Организация инициатора запроса не является федеративной, поэтому инициатор запроса не может создать сообщения общего доступа для отправки внешнему пользователю или не может принимать сообщения общего доступа, полученные от внешнего пользователя.  <br/> |
+|еррорпарентфолдеридрекуиред  <br/> |Этот код ответа не используется.  <br/> |
+|еррорпарентфолдернотфаунд  <br/> |Эта ошибка возникает в [операции CreateFolder](createfolder-operation.md) , если не удается найти родительскую папку.  <br/> |
+|еррорпассвордчанжерекуиред  <br/> |Эта ошибка указывает на то, что для доступа к этому почтовому ящику необходимо изменить пароль. Это происходит, когда создана новая учетная запись, и администратор указал, что пользователь должен изменить пароль при первом входе в систему. Вы не можете обновить пароль с помощью веб-служб Exchange. Для изменения пароля необходимо использовать такие средства, как Microsoft Office Outlook Web App.  <br/> |
+|еррорпассвордекспиред  <br/> |Эта ошибка указывает на то, что срок действия пароля истек. Вы не можете изменить пароль с помощью веб-служб Exchange. Для изменения пароля необходимо использовать такие средства, как Outlook Web App.  <br/> |
+|еррорпермиссионноталловедбиполици  <br/> |Эта ошибка указывает на то, что инициатор запроса пытался предоставить внешнему пользователю разрешения в папке "Календарь" или "Контакты", но политика общего доступа, назначенная инициатору запроса, указывает на то, что запрошенный уровень разрешений выше, чем у политики общего доступа.  <br/> |
+|еррорфоненумбернотдиалабле  <br/> |Эта ошибка указывает на то, что номер телефона был указан в неправильной форме.  <br/> |
+|еррорпропертюпдате  <br/> |Эта ошибка указывает на то, что не удалось выполнить обновление из-за недопустимых значений свойства. Ответное сообщение содержит недопустимые пути свойств.  <br/> |
+|еррорпромптпублишингоператионфаилед  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорпропертивалидатионфаилуре  <br/> |Этот код ответа не используется.  <br/> |
+|еррорпроксиедсубскриптионкаллфаилуре  <br/> |Эта ошибка указывает на то, что запрос ссылался на подписку, которая существует на другом сервере клиентского доступа, но попытка прокси-сервера не удалась в запрос на этот сервер клиентского доступа.  <br/> |
+|еррорпроксикаллфаилед  <br/> |Этот код ответа не используется.  <br/> |
+|еррорпроксиграупсидлимитексцеедед  <br/> |Эта ошибка указывает на то, что запрос, ссылающийся на почтовый ящик на другом сайте Active Directory, и исходный абонент является членом более чем 3 000 групп.  <br/> |
+|еррорпроксирекуестноталловед  <br/> |Эта ошибка указывает на то, что запрос веб-служб Exchange, отправленный другому серверу клиентского доступа при попытке выполнить запрос [жетусераваилабилитирекуест](getuseravailabilityrequest.md) , был недопустимым. Этот код ответа обычно указывает на то, что произошла ошибка конфигурации или прав или кто-то пытался выполнить неудачную попытку имитировать запрос прокси доступности.  <br/> |
+|еррорпроксирекуестпроцессингфаилед  <br/> |Эта ошибка указывает на то, что веб-службы Exchange попытались прокси-серверу отправить запрос о доступности другому серверу клиентского доступа для выполнения, но не удалось выполнить запрос. Это может быть вызвано проблемами с сетевым подключением или запросом времени ожидания.  <br/> |
+|еррорпроксисервицедисковерифаилед  <br/> |Этот код ошибки должен возвращаться в том случае, если веб-служба не может определить, должен ли запрос выполняться на целевом сервере или он будет передаваться через прокси на другой сервер.  <br/> |
+|еррорпрокситокенекспиред  <br/> |Этот код ответа не используется.  <br/> |
+|еррорпубликфолдермаилбоксдисковерифаилед  <br/> |Эта ошибка возникает, если не удается найти URL-адрес почтового ящика общедоступных папок. Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорпубликфолдероператионфаилед  <br/> |Эта ошибка возникает при попытке доступа к общедоступной папке, если попытка не удалась. Эта ошибка появилась в Exchange 2013Exchange Server 2013.  <br/> |
+|еррорпубликфолдеррекуестпроцессингфаилед  <br/> |Эта ошибка возникает, когда получатель, переданный в [операцию GetUserAvailability](getuseravailability-operation.md) , находится на компьютере, на котором работает версия Exchange Server, более ранняя, чем Exchange 2007, и запрос на получение сведений о занятости получателя с сервера общедоступных папок завершился ошибкой.  <br/> |
+|еррорпубликфолдерсервернотфаунд  <br/> |Эта ошибка возникает, когда получатель, переданный в [операцию GetUserAvailability](getuseravailability-operation.md) , находится на компьютере с версией Exchange Server более ранней, чем Exchange 2007, и запрос на получение сведений о занятости получателя с сервера общедоступных папок окончился неудачей, так как в подразделении нет связанного сервера общедоступных папок.  <br/> |
+|еррорпубликфолдерсинцексцептион  <br/> |Эта ошибка возникает, если операция синхронизации выполнена успешно для основного почтового ящика общедоступных папок, но не прошла до вторичного почтового ящика общедоступных папок. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроркуерифилтертулонг  <br/> |Эта ошибка указывает на то, что ограничение папки поиска может быть допустимым, но не поддерживается EWS. Ограничения для веб-служб Exchange могут содержать не более 255 выражений фильтра. При попытке выполнить присоединение к существующей папке поиска, которая превышает 255, возвращается этот код ответа.  <br/> |
+|ерроркуотаексцеедед  <br/> |Эта ошибка возникает при превышении квоты почтового ящика.  <br/> |
+|еррорреадевентсфаилед  <br/> |Эта ошибка возвращается [операцией Events](getevents-operation.md) или Push-уведомлениями при возникновении ошибки при получении сведений о событиях. При возвращении этой ошибки подписка удаляется. Повторно создайте синхронизацию событий на основе последнего известного водяного знака.  <br/> |
+|еррорреадрецеиптнотпендинг  <br/> |Эта ошибка возвращается [операцией CreateItem](createitem-operation.md) , если была предпринята попытка отменить уведомление о прочтении, если отправитель не запрашивал уведомление о прочтении сообщения или если сообщение находится в папке нежелательной почты.  <br/> |
+|ерроррекурренцеенддатетубиг  <br/> |Эта ошибка возникает, когда Дата окончания повторения — после 9/1/4500.  <br/> |
+|ерроррекурренцехаснуккурренце  <br/> |Эта ошибка возникает, когда у указанного повторения нет экземпляров вхождения в указанном диапазоне.  <br/> |
+|еррорремоведелегатесфаилед  <br/> |Эта ошибка указывает на то, что список делегатов не был сохранен после удаления делегатов.  <br/> |
+|ерроррекуестабортед  <br/> |Этот код ответа не используется.  <br/> |
+|ерроррекуестстреамтубиг  <br/> | Эта ошибка возникает, когда размер потока запроса превышает 400 КБ.  <br/> |
+|ерроррекуиредпропертимиссинг  <br/> |Эта ошибка возвращается, если в запросе [операции CreateAttachment](createattachment-operation.md) отсутствует обязательное свойство. В ответ включается отсутствующий URI свойства.  <br/> |
+|еррорресолвенамесинвалидфолдертипе  <br/> |Эта ошибка указывает на то, что вызывающий объект указал папку, которая не является папкой контактов для [операции ResolveNames](resolvenames-operation.md).  <br/> |
+|еррорресолвенамесонлйонеконтактсфолдералловед  <br/> |Эта ошибка указывает на то, что вызывающий абонент указал несколько папок контактов для [операции ResolveNames](resolvenames-operation.md).  <br/> |
+|еррорреспонсесчемавалидатион  <br/> |Этот код ответа не используется.  <br/> |
+|ерроррестриктионтулонг  <br/> |Эта ошибка возникает, если ограничение содержит более 255 узлов.  <br/> |
+|ерроррестриктионтукомплекс  <br/> |Эта ошибка возникает, если ограничение невозможно оценить с помощью веб-служб Exchange.  <br/> |
+|еррорресултсеттубиг  <br/> |Эта ошибка указывает на то, что количество записей календаря для определенного получателя превышает допустимое ограничение в 1000. Уменьшите окно и повторите попытку.  <br/> |
+|еррорсаведитемфолдернотфаунд  <br/> |Эта ошибка возникает, когда [саведитемфолдерид](saveditemfolderid.md) не найден.  <br/> |
+|еррорсчемавалидатион  <br/> | Эта ошибка возникает, когда запрос не может быть проверен на соответствие схеме.  <br/> |
+|еррорсеарчфолдернотинитиализед  <br/> |Эта ошибка указывает на то, что папка поиска была создана, но для нее не было задано условие поиска. Это происходит только при доступе к поврежденным папкам поиска, созданным с помощью другого API или клиента. Чтобы устранить эту ошибку, используйте [операцию операцию UpdateFolder](updatefolder-operation.md) , чтобы задать элемент [сеарчпараметерс](searchparameters.md) , чтобы включить ограничение, которое должно быть в папке.  <br/> |
+|еррорсендасдениед  <br/> | Эта ошибка возникает, если выполняются оба приведенных ниже условия. <br/> <br/>-Пользователю предоставлены разрешения Канактасовнер, но ему не предоставлены права представителя в почтовом ящике субъекта.  <br/>— Один и тот же пользователь пытается создать и отправить сообщение электронной почты в почтовом ящике участника с помощью параметра SendAndSaveCopy.<br/>  <br/>  Результатом является ошибка Еррорсендасдениед и создание сообщения электронной почты в папке "Черновики" субъекта.  <br/> |
+|еррорсендмитингканцеллатионсрекуиред  <br/> |Эта ошибка возвращается [операцией DeleteItem](deleteitem-operation.md) , если в запросе отсутствует атрибут **сендмитингканцеллатионс** , а элемент, который требуется удалить, является элементом календаря.  <br/> |
+|еррорсендмитингинвитатионсорканцеллатионсрекуиред  <br/> |Эта ошибка возвращается [операцией UpdateItem](updateitem-operation.md) , если в запросе отсутствует атрибут **сендмитингинвитатионсорканцеллатионс** , а элемент, который требуется обновить, является элементом календаря.  <br/> |
+|еррорсендмитингинвитатионсрекуиред  <br/> |Эта ошибка возвращается [операцией CreateItem](createitem-operation.md) , если в запросе отсутствует атрибут **сендмитингинвитатионс** , а элемент, который требуется создать, является элементом календаря.  <br/> |
+|еррорсентмитингрекуеступдате  <br/> |Эта ошибка указывает на то, что после отправки организатором приглашения на собрание запрос не может быть обновлен. Чтобы изменить собрание, измените элемент календаря, а не приглашение на собрание.  <br/> |
+|еррорсенттаскрекуеступдате  <br/> |Эта ошибка указывает на то, что после того, как инициатор задачи отправит запрос задачи, этот запрос не может быть обновлен.  <br/> |
+|еррорсервербуси  <br/> |Эта ошибка возникает, когда сервер занят.  <br/> |
+|еррорсервицедисковерифаилед  <br/> |Эта ошибка указывает на то, что веб-службы Exchange попытались прокси-серверу отправить запрос о доступности пользователя соответствующему лесу для получателя, но ему не удалось определить, куда отправить запрос из-за сбоя обнаружения службы.  <br/> |
+|ерроршарингноекстерналевсаваилабле  <br/> |Эта ошибка указывает на то, что свойство внешнего URL-адреса не было задано в базе данных Active Directory.  <br/> |
+|ерроршарингсинчронизатионфаилед  <br/> |Эта ошибка указывает на то, что попытка синхронизации общей папки завершилась ошибкой. <br/><br/>Этот код ошибки возвращается в следующих случаях:<br/><br/>— Не найдена подписка на общую папку.<br/>— Папка общего доступа не найдена.<br/>— Соответствующий пользователь каталога не найден.<br/>— Пользователь больше не существует.<br/>— Недопустимая встреча.<br/>— Недопустимый элемент контакта.<br/>— Возникла ошибка связи с удаленным сервером.  <br/> |
+|еррорсталеобжект  <br/> |Эта ошибка возникает в операции [UpdateItem](updateitem-operation.md) или [SendItem](senditem-operation.md) , если ключ изменения устарел или не указан. Вызовите [операцию GetItem](getitem-operation.md) , чтобы получить обновленный ключ изменения, а затем повторите операцию.  <br/> |
+|еррорсубмиссионкуотаексцеедед  <br/> |Эта ошибка указывает на то, что пользователь не может немедленно отправить больше запросов, так как достигнута квота отправки.  <br/> |
+|еррорсубскриптионакцессдениед  <br/> |Эта ошибка возникает при попытке получить доступ к подписке с помощью учетной записи, которая не создала эту подписку. Доступ к каждой подписке может получить только создатель подписки.  <br/> |
+|еррорсубскриптионделегатеакцесснотсуппортед  <br/> |Эта ошибка указывает на то, что вы не можете создать подписку, если вы не являетесь владельцем почтового ящика или у него нет прав владельца.  <br/> |
+|еррорсубскриптионнотфаунд  <br/> |Эта ошибка возникает, если подписка, соответствующая указанным параметрам [SubscriptionId (Events)](subscriptionid-getevents.md) , не найдена. Возможно, истек срок действия подписки, возможно, процесс веб-служб Exchange был перезапущен, или передана недопустимая подписка. Если подписка действительна, повторно создайте подписку с помощью последней подложки. Он возвращается [операцией "отменить подписку](unsubscribe-operation.md) " или " [операции с событиями](getevents-operation.md) ".  <br/> |
+|еррорсубскриптионунсубсрибед  <br/> |Этот код ошибки должен возвращаться при запросе на подписку с неподписанной подпиской.  <br/> |
+|еррорсинкфолдернотфаунд  <br/> |Эта ошибка возвращается [операцией SyncFolderItems](syncfolderitems-operation.md) , если не удается найти указанную родительскую папку.  <br/> |
+|еррортеаммаилбокснотфаунд  <br/> |Эта ошибка указывает на то, что почтовый ящик группы не найден. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррортеаммаилбокснотлинкедтошарепоинт  <br/> |Эта ошибка указывает на то, что почтовый ящик группы найден, но не связан с сервером SharePoint. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррортеаммаилбоксурлвалидатионфаилед  <br/> |Эта ошибка указывает на то, что почтовый ящик группы найден, но ссылка на сервер SharePoint не является допустимой. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррортеаммаилбокснотаусоризедовнер  <br/> |Этот код ошибки не используется. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррортеаммаилбоксактиветопендингделете  <br/> |Этот код ошибки не используется. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррортеаммаилбоксфаиледсендингнотификатионс  <br/> |Эта ошибка указывает на то, что попытка отправить уведомление владельцам почтового ящика группы завершилась неудачно. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррортеаммаилбоксеррорункновн  <br/> |Эта ошибка указывает на общую ошибку, которая может возникнуть при попытке получить доступ к почтовому ящику группы. Попробуйте отправить запрос позже. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррортимеинтервалтубиг  <br/> |Эта ошибка указывает на то, что указанное время превышает максимально допустимое. По умолчанию разрешенный лимит равен 42.  <br/> |
+|еррортимеаутекспиред  <br/> | Эта ошибка возникает, когда не хватает времени для завершения обработки запроса.  <br/> |
+|еррортимезоне  <br/> |Эта ошибка указывает на наличие ошибки в часовом поясе.  <br/> |
+|еррортофолдернотфаунд  <br/> |Эта ошибка указывает на то, что Целевая папка не существует.  <br/> |
+|еррортокенсериализатиондениед  <br/> |Эта ошибка возникает, если вызывающий абонент пытается выполнить запрос на сериализацию маркеров, но не имеет права на доступ к серверу клиентского доступа на сервере клиентского доступа EPI.  <br/> |
+|еррортуманйобжектсопенед  <br/> |Эта ошибка возникает, когда превышен внутренний лимит открытых объектов.  <br/> |
+|еррорунифиедмессагингдиалпланнотфаунд  <br/> |Эта ошибка указывает на недоступность абонентской группы пользователя.  <br/> |
+|еррорунифиедмессагингрепортдатанотфаунд  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорунифиедмессагингпромптнотфаунд  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорунифиедмессагингрекуестфаилед  <br/> |Эта ошибка указывает на то, что не удалось найти пользователя.  <br/> |
+|еррорунифиедмессагингсервернотфаунд  <br/> |Эта ошибка указывает на то, что для обработки запроса можно найти действительный сервер для абонентской группы.  <br/> |
+|еррорунаблетожетусеруфсеттингс  <br/> |Этот код ответа не используется.  <br/> |
+|еррорунаблеторемовеимконтактфромграуп  <br/> |Эта ошибка возникает при неудачной попытке удалить контакт для обмена мгновенными сообщениями из группы. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорунсуппортедкултуре  <br/> |Эта ошибка возникает при попытке задать для свойства **culture** значение, которое не поддается синтаксическому разбору классом **System. Globalization. CultureInfo** .  <br/> |
+|еррорунсуппортедмапипропертитипе  <br/> |Эта ошибка возникает, когда вызывающий абонент пытается использовать расширенные свойства объекта Types, массива объектов, ошибки или значение null.  <br/> |
+|еррорунсуппортедмимеконверсион  <br/> |Эта ошибка возникает при попытке получить или задать содержимое MIME для элемента, отличного от почтового [элемента](postitem.md), [сообщения](message-ex15websvcsotherref.md)или объекта [календаритем](calendaritem.md) .  <br/> |
+|еррорунсуппортедпасфоркуери  <br/> |Эта ошибка возникает, когда вызывающий абонент передает свойство, недопустимое для запроса. Это может произойти при использовании вычисляемых свойств.  <br/> |
+|еррорунсуппортедпасфорсортграуп  <br/> |Эта ошибка возникает, когда вызывающий абонент передает свойство, недопустимое для свойства Sort или Group By. Это может произойти при использовании вычисляемых свойств.  <br/> |
+|еррорунсуппортедпропертидефинитион  <br/> |Этот код ответа не используется.  <br/> |
+|еррорунсуппортедкуерифилтер  <br/> |Эта ошибка указывает на то, что ограничение папки поиска может быть допустимым, но не поддерживается EWS.  <br/> |
+|еррорунсуппортедрекурренце  <br/> |Эта ошибка указывает на то, что указанное повторение не поддерживается для задач.  <br/> |
+|еррорунсуппортедсубфилтер  <br/> |Этот код ответа не используется.  <br/> |
+|еррорунсуппортедтипефорконверсион  <br/> |Эта ошибка указывает на то, что веб-службы Exchange обнаружили тип свойства в хранилище, но не могут создать XML для типа свойства.  <br/> |
+|еррорупдатеделегатесфаилед  <br/> |Эта ошибка указывает на то, что список делегатов не удалось сохранить после обновления делегатов.  <br/> |
+|еррорупдатепропертимисматч  <br/> |Эта ошибка возникает, когда путь к одному свойству, указанному в описании изменения, не отвечает одному свойству, заданному в фактическом [элементе](item.md) или объекте [Folder](folder.md) .  <br/> |
+|еррорусернотунифиедмессагинженаблед  <br/> |Эта ошибка указывает на то, что инициатор запроса не включен.  <br/> |
+|еррорусерноталловедбиполици  <br/> |Эта ошибка указывает на то, что инициатор запроса пытался предоставить внешнему пользователю разрешения в папке "Календарь" или "Контакты", но политика общего доступа, назначенная инициатору запроса, указывает на то, что домен этого внешнего пользователя не указан в политике.  <br/> |
+|еррорусервисаутфедератедпроксяддресс  <br/> |Указывает, что в Организации инициатора запроса есть набор федеративных доменов, но в Организации инициатора запроса нет SMTP-адресов прокси-серверов с одним из федеративных доменов.  <br/> |
+|еррорвалуеаутофранже  <br/> |Эта ошибка указывает на то, что для даты начала или окончания представления календаря задано значение 1/1/0001 12:00:00 AM или 12/31/9999 11:59:59 PM.  <br/> |
+|еррорвирусдетектед  <br/> |Эта ошибка указывает на то, что хранилище Exchange обнаружило вирус в сообщении.  <br/> |
+|еррорвирусмессажеделетед  <br/> |Эта ошибка указывает на то, что хранилище Exchange обнаружило вирус в сообщении и удалило его.  <br/> |
+|еррорвоицемаилнотимплементед  <br/> |Этот код ответа не используется.  <br/> |
+|еррорвебрекуестининвалидстате  <br/> |Этот код ответа не используется.  <br/> |
+|ErrorWin32InteropError  <br/> |Эта ошибка указывает на то, что во время взаимодействия с неуправляемым кодом произошел внутренний сбой.  <br/> |
+|еррорворкингхаурссавефаилед  <br/> |Этот код ответа не используется.  <br/> |
+|еррорворкингхаурсксмлмалформед  <br/> |Этот код ответа не используется.  <br/> |
+|еррорвронгсерверверсион  <br/> |Эта ошибка указывает на то, что запрос можно выполнить только для сервера, который совпадает с версией сервера почтовых ящиков.  <br/> |
+|еррорвронгсерверверсионделегате  <br/> |Эта ошибка указывает на то, что запрос был выполнен представителем, у которого есть версия сервера почтовых ящиков, отличную от сервера почтовых ящиков участника.  <br/> |
+|еррормиссингинформатионшарингфолдерид  <br/> |Этот код ошибки никогда не возвращается.  <br/> |
+|еррордупликатесоафеадер  <br/> |Указывает, что существуют повторяющиеся заголовки SOAP.  <br/> |
+|ерроршарингсинчронизатионфаилед  <br/> | Указывает, что попытка синхронизации общей папки не удалась.<br/><br/> Этот код ошибки должен возвращаться в следующих случаях:<br/><br/>— Не найдена подписка на общую папку.  <br/>— Папка общего доступа не найдена.  <br/>— Соответствующий пользователь каталога не найден.  <br/>— Пользователь больше не существует.  <br/>— Недопустимая встреча.  <br/>— Недопустимый элемент контакта.  <br/>— Произошел сбой связи с удаленным сервером.  <br/> |
+|ерроршарингноекстерналевсаваилабле  <br/> |Указывает, что свойство внешнего URL-адреса не было задано в базе данных Active Directory. Этот код ошибки должен возвращаться, если свойство внешнего URL-адреса не было задано в базе данных Active Directory.  <br/> |
+|еррорфрибусидллимитреачед  <br/> |Указывает, что достигнуто максимальное число участников группы для получения сведений о доступности для списка рассылки. Эта ошибка должна возвращаться при достижении максимального числа участников группы для получения сведений о доступности для списка рассылки.  <br/> |
+|ерроринвалиджетшарингфолдеррекуест  <br/> |Указывает, что в запросе присутствуют оба элемента DataTypes и Шарефолдерид. Этот код ошибки должен возвращаться, если элемент DataType и Шарефолдерид присутствует в запросе.  <br/> |
+|еррорноталловедекстерналшарингбиполици  <br/> |Указывает, что вызывающий абонент попытался предоставить разрешения в папке "Календарь" или "Контакты" пользователю в другой организации, и попытка не удалась. Этот код ошибки должен возвращаться, если политика общего доступа отключена для вызывающего абонента или когда политика общего доступа, назначенная вызывающей стороне, запрещает общий доступ к запрашиваемому уровню или типу запрашиваемой папки.  <br/> |
+|еррорусерноталловедбиполици  <br/> |Указывает, что запрашивающая сторона предприняла попытку предоставить внешним пользователям разрешения в папке "Календарь" или "Контакты", а политика общего доступа, назначенная запрашивающему, указывает, что домен этого внешнего пользователя не указан в политике.  <br/> |
+|еррорпермиссионноталловедбиполици  <br/> |Указывает, что запрашивающая сторона предприняла попытку предоставить внешним пользователям разрешения в папке "Календарь" или "Контакты", а политика общего доступа, назначенная запрашивающему, указывает на то, что запрошенный уровень разрешений более высокий, чем политика общего доступа.  <br/> |
+|ерророрганизатионнотфедератед  <br/> |Указывает, что Организация запрашивающего не является федеративной, поэтому запрашивающая сторона не может создать сообщения общего доступа для отправки внешнему пользователю или не может принимать сообщения общего доступа, полученные от внешнего пользователя. Этот код ошибки должен возвращаться, если Организация запрашивающего не является Федеративной.  <br/> |
+|еррормаилбоксфаиловер  <br/> |Указывает, что попытка получить доступ к почтовому ящику не удалась, так как почтовый ящик находится в процессе отработки отказа.  <br/> |
+|ерроринвалидекстерналшарингинитиатор  <br/> |Указывает, что отправитель приглашения к совместному использованию не создал метаданные приглашения на совместное использование. Этот код ошибки должен возвращаться, если отправитель приглашения к совместному использованию не создал метаданные приглашения на совместное использование.  <br/> |
+|еррормессажетраккингперманентеррор  <br/> |Указывает, что служба отслеживания сообщений не может отслеживать сообщение.  <br/> |
+|еррормессажетраккингтрансиентеррор  <br/> |Указывает, что служба отслеживания сообщений отключена или занята. Этот код ошибки указывает на временную ошибку. Клиенты могут повторять попытку подключения к серверу при получении этой ошибки.  <br/> |
+|еррормессажетраккингносучдомаин  <br/> |Указывает, что не удается найти указанный домен.  <br/> |
+|еррорусервисаутфедератедпроксяддресс  <br/> |Указывает, что Организация запрашивающего имеет набор федеративных доменов, но Организация запрашивающего не содержит SMTP-адресов прокси-серверов с одним из федеративных доменов.  <br/> |
+|ерроринвалидорганизатионрелатионшипфорфрибуси  <br/> |Указывает, что абонент запросил сведения о занятости для пользователя в другой организации, но в связи Организации не включена поддержка сведений о доступности.  <br/> |
+|ерроринвалидфедератедорганизатионид  <br/> |Указывает, что объекты Федерации Организации запрашивающего не настроены должным образом.  <br/> |
+|ерроринвалидекстерналшарингсубскрибер  <br/> |Указывает, что сообщение о предоставлении общего доступа не предназначено для вызывающего абонента.  <br/> |
+|ерроринвалидшарингдата  <br/> |Указывает, что метаданные общего доступа являются недопустимыми. Это может быть вызвано недопустимым XML-документом.  <br/> |
+|ерроринвалидшарингмессаже  <br/> |Указывает, что сообщение о совместном доступе не является допустимым. Это может быть вызвано отсутствием свойства.  <br/> |
+|еррорнотсуппортедшарингмессаже  <br/> |Указывает, что сообщение о совместном доступе не поддерживается.  <br/> |
+|еррораппликонверсатионактионфаилед  <br/> |Эта ошибка должна возвращаться в том случае, если действие не может быть применено к одному или нескольким элементам в беседе.  <br/> |
+|ерроринбоксрулесвалидатионеррор  <br/> |Эта ошибка должна возвращаться в том случае, если какое бы то ни было правило не проверяется.  <br/> |
+|еррораутлукрулеблобексистс  <br/> |Эта ошибка должна возвращаться при попытке управления правилами для папки "Входящие" после того, как другой клиент получил доступ к правилам для папки "Входящие".  <br/> |
+|ерроррулесоверкуота  <br/> |Эта ошибка должна возвращаться при превышении квоты правила пользователя.  <br/> |
+|еррорневевентстреамконнектионопенед  <br/> |Эта ошибка должна возвращаться к первому подключению подписки при открытии второго подключения к подписке.  <br/> |
+|еррормисседнотификатионевентс  <br/> |Эта ошибка должна возвращаться при отсутствии уведомлений о событии.  <br/> |
+|еррордупликателегацидистингуишеднаме  <br/> |Эта ошибка возвращается при наличии повторяющихся устаревших различающихся имен в доменных службах Active Directory (AD DS). Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроринвалидклиентакцесстокенрекуест  <br/> |Эта ошибка указывает на то, что запрос на получение маркера клиентского доступа оказался недопустимым. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорноспичдетектед  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорумсерверунаваилабле  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорреЦипиентнотфаунд  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроррекогнизернотинсталлед  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорспичграммареррор  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроринвалидманажементролехеадер  <br/> |Эта ошибка возвращается в случае неправильного заголовка [ManagementRole](managementrole.md) в заголовке SOAP. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорлокатионсервицесдисаблед  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорлокатионсервицесрекуесттимедаут  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорлокатионсервицесрекуестфаилед  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорлокатионсервицесинвалидрекуест  <br/> |Эта ошибка предназначена только для внутреннего использования. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорвеасерсервицедисаблед  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
+|еррормаилбоксскопеноталловедвисауткуеристринг  <br/> |Эта ошибка возвращается при попытке выполнить поиск с областью действия без использования элемента [QueryString (String)](querystring-string.md) для поиска в индексе содержимого. Это относится к операциям **SearchMailboxes** и **FindConversation** . Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорарчивемаилбокссеарчфаилед  <br/> |Эта ошибка возвращается при неудачном выполнении архивного поиска в почтовом ящике. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорарчивемаилбокссервицедисковерифаилед  <br/> |Эта ошибка возвращается, если не удается обнаружить URL-адрес архивного почтового ящика. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроржетремотеарчивефолдерфаилед  <br/> |Эта ошибка возникает, если не удалось получить папку почтового ящика удаленного архива.  <br/> |
+|еррорфиндремотеарчивефолдерфаилед  <br/> |Эта ошибка возникает, если не удалось найти папку почтового ящика удаленного архива.  <br/> |
+|ерроржетремотеарчивеитемфаилед  <br/> |Эта ошибка возникает, если не удалось получить элемент почтового ящика удаленного архива.  <br/> |
+|еррорекспортремотеарчивеитемсфаилед  <br/> |Эта ошибка возникает, если не удалось экспортировать элементы почтового ящика удаленного архива.  <br/> |
+|ерроринвалидфотосизе  <br/> |Эта ошибка возвращается, если с сервера запрашивается недопустимый размер фотографии. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорсеарчкуерихастуманикэйвордс  <br/> |Эта ошибка возвращается при запросе непредвиденного размера фотографии в запросе операции **GetUserPhoto** . Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррорсеарчтуманимаилбоксес  <br/> |Эта ошибка возвращается в том случае, если запрос операции **SearchMailboxes** содержит слишком много почтовых ящиков для поиска. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроринвалидретентионтагноне  <br/> |Эта ошибка указывает на то, что для этого пользователя не было найдено тегов хранения. Эта ошибка была введена в Exchange 2013.  <br/> |
+|еррордисковерисеарчесдисаблед  <br/> |Эта ошибка возвращается в том случае, если поиск по обнаружению отключен для клиента или сервера. Эта ошибка была введена в Exchange 2013.  <br/> |
+|ерроркалендарсиктокондитионнотсуппортед  <br/> |Эта ошибка возникает при попытке вызвать [операцию FindItem](finditem-operation.md) с [сиктокондитионпажеитемвиев](seektoconditionpageitemview.md) для извлечения элементов календаря, что не поддерживается.  <br/> |
+|ерроркалендарисграупмаилбоксфоракцепт  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
+|ерроркалендарисграупмаилбоксфордеклине  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
+|ерроркалендарисграупмаилбоксфортентативе  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
+|ерроркалендарисграупмаилбоксфорсуппрессреадрецеипт  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
+|ерророрганизатионакцессблоккед  <br/> |Клиент помечен для удаления.  <br/> |
+|ерроринвалидлиценсе  <br/> |У пользователя отсутствует действительная лицензия.  <br/> |
+|еррормессажеперфолдеркаунтрецеивекуотаексцеедед  <br/> |Превышена квота на получение сообщений на папку.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент не является обязательным и не добавляется во все ответы. 
+Этот элемент не является обязательным и не включается во все ответы. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -598,7 +598,7 @@ ms.locfileid: "19835294"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

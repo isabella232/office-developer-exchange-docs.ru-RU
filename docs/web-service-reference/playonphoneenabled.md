@@ -1,5 +1,5 @@
 ---
-title: PlayOnPhoneEnabled
+title: плайонфонинаблед
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6f800912-be4c-46f9-aa1e-dff0bbf877c5
-description: Элемент PlayOnPhoneEnabled указывает, включена ли функция воспроизвести на телефоне.
+description: Элемент Плайонфонинаблед указывает, включена ли функция проигрывания на телефоне.
 ms.openlocfilehash: 1a6c5c41a4fe723f37d07ad0151dfbd6512cf4f7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834829"
 ---
-# <a name="playonphoneenabled"></a>PlayOnPhoneEnabled
+# <a name="playonphoneenabled"></a>плайонфонинаблед
 
-Элемент **PlayOnPhoneEnabled** указывает, включена ли функция воспроизвести на телефоне. 
+Элемент **плайонфонинаблед** указывает, включена ли функция проигрывания на телефоне. 
   
 ```XML
 <PlayOnPhoneEnabled>true | false</PlayOnPhoneEnabled>
@@ -30,7 +30,7 @@ ms.locfileid: "19834829"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19834829"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UnifiedMessagingConfiguration](unifiedmessagingconfiguration.md) <br/> |Содержит сведения о конфигурации для службы единой системы обмена сообщениями.  <br/> |
+|[унифиедмессагингконфигуратион](unifiedmessagingconfiguration.md) <br/> |Содержит сведения о конфигурации для службы единой системы обмена сообщениями.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Элемент **PlayOnPhoneEnabled** имеет значение **true** , если этот параметр включен воспроизвести на телефоне для учетной записи; в противном случае — значение **false**.
+Элемент **плайонфонинаблед** имеет значение **true** , если для учетной записи включено воспроизводимое по телефону; в противном случае — значение **false**.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент обязательный.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19834829"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

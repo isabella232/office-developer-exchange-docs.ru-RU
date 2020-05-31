@@ -1,5 +1,5 @@
 ---
-title: ServiceHome (POX)
+title: Сервицехоме (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: f1b812c3-ae8b-4d89-92e2-41d2fe51e32f
-description: Элемент ServiceHome содержит URL-адрес домашней страницы поставщика услуг Интернета (поставщика услуг Интернета).
+description: Элемент Сервицехоме содержит URL-адрес домашней страницы поставщика услуг Интернета.
 ms.openlocfilehash: 312eea2c021750327cc09cf65f111fc868e16608
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,17 +16,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835388"
 ---
-# <a name="servicehome-pox"></a>ServiceHome (POX)
+# <a name="servicehome-pox"></a>Сервицехоме (POX)
 
-Элемент **ServiceHome** содержит URL-адрес домашней страницы поставщика услуг Интернета (поставщика услуг Интернета). 
+Элемент **сервицехоме** содержит URL-адрес домашней страницы поставщика услуг Интернета. 
   
-[Автообнаружение (POX)](autodiscover-pox.md)
+[Служба автообнаружения (POX)](autodiscover-pox.md)
   
 [Ответ (POX)](response-pox.md)
   
 [Учетная запись (POX)](account-pox.md)
   
-[Изображение (POX)](image-pox.md)
+[Image (POX)](image-pox.md)
   
 ```xml
 <ServiceHome/>
@@ -34,7 +34,7 @@ ms.locfileid: "19835388"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -58,5 +58,5 @@ ms.locfileid: "19835388"
 
 
 
-[Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

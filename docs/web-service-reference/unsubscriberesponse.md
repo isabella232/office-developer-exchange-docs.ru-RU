@@ -1,5 +1,5 @@
 ---
-title: UnsubscribeResponse
+title: унсубскрибереспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 125e0326-6522-42cd-b20e-6977e6fde249
-description: Элемент UnsubscribeResponse определяет ответ на запрос отказа от подписки.
+description: Элемент Унсубскрибереспонсе определяет ответ на запрос отмены подписки.
 ms.openlocfilehash: a5d90a6631cba7f18da0261be52488c7f6793dcd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840306"
 ---
-# <a name="unsubscriberesponse"></a>UnsubscribeResponse
+# <a name="unsubscriberesponse"></a>унсубскрибереспонсе
 
-Элемент **UnsubscribeResponse** определяет ответ на запрос отказа от подписки. 
+Элемент **унсубскрибереспонсе** определяет ответ на запрос отмены подписки. 
   
 ```xml
 <UnsubscribeResponse>
@@ -29,10 +29,10 @@ ms.locfileid: "19840306"
 </UnsubscribeResponse>
 ```
 
- **UnsubscribeResponseType**
+ **унсубскрибереспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19840306"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19840306"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

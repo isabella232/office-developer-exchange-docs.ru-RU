@@ -1,5 +1,5 @@
 ---
-title: NonIndexableItemDetail
+title: нониндексаблеитемдетаил
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a26d4c02-f1bd-40c4-9257-5db45e839f17
-description: Элемент NonIndexableItemDetail указывает подробные сведения об элементе, которые не могут быть индексированы.
+description: Элемент Нониндексаблеитемдетаил указывает подробные сведения об элементе, который невозможно индексировать.
 ms.openlocfilehash: ef1bd072a44b42b501a3016c394b89fe6ab25bf0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834543"
 ---
-# <a name="nonindexableitemdetail"></a>NonIndexableItemDetail
+# <a name="nonindexableitemdetail"></a>нониндексаблеитемдетаил
 
-Элемент **NonIndexableItemDetail** указывает подробные сведения об элементе, которые не могут быть индексированы. 
+Элемент **нониндексаблеитемдетаил** указывает подробные сведения об элементе, который невозможно индексировать. 
   
 ```XML
 <NonIndexableItemDetail>
@@ -33,10 +33,10 @@ ms.locfileid: "19834543"
 </NonIndexableItemDetail>
 ```
 
- **NonIndexableItemDetailType**
+ **нониндексаблеитемдетаилтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19834543"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Идентификатор элемента](itemid.md) | [код ошибки (ItemIndexErrorType)](errorcode-itemindexerrortype.md) | [ErrorDescription](errordescription.md) | [IsPartiallyIndexed](ispartiallyindexed.md) | [IsPermanentFailure](ispermanentfailure.md) | [SortValue](sortvalue.md) | [AttemptCount ](attemptcount.md)  |  [LastAttemptTime](lastattempttime.md) | [AdditionalInfo](additionalinfo.md)
+[ItemId](itemid.md) | [ErrorCode (итеминдексеррортипе)](errorcode-itemindexerrortype.md) | [еррордескриптион](errordescription.md) | [испартиаллиндексед](ispartiallyindexed.md) | [исперманентфаилуре](ispermanentfailure.md) | [AttemptCount](attemptcount.md)[SortValue](sortvalue.md) | [AdditionalInfo](additionalinfo.md) сортвалуе AttemptCount | [LastAttemptTime](lastattempttime.md)AdditionalInfo | 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Элементы (ArrayOfNonIndexableItemDetailsType)](items-arrayofnonindexableitemdetailstype.md)
+[Элементы (Аррайофнониндексаблеитемдетаилстипе)](items-arrayofnonindexableitemdetailstype.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19834543"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -17,16 +17,16 @@ ms.locfileid: "19840151"
 ---
 # <a name="templatename"></a>TemplateName
 
-Элемент **TemplateName** указывает имя шаблона управления правами. 
+Элемент **templatename** указывает имя шаблона управления правами. 
   
 ```XML
 <TemplateName></TemplateName>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19840151"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[RightsManagementLicenseData](rightsmanagementlicensedata.md)
+[ригхтсманажементлиценседата](rightsmanagementlicensedata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **TemplateName** — это имя шаблона управления правами, примененного к элементу. 
+Текстовое значение элемента **templatename** — имя шаблона управления правами, примененного к элементу. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19840151"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

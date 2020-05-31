@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 41a7c520-a9ce-4548-9ff7-0ac756523d65
-description: Элемент RemoveContactFromImList представляет запрос для удаления обмена мгновенными сообщениями контакта из всех групп мгновенного обмена сообщениями.
+description: Элемент RemoveContactFromImList представляет запрос на удаление контакта обмена мгновенными сообщениями из всех групп мгновенных сообщений.
 ms.openlocfilehash: c98b44ba829137006c9aeb231e3f3439deec4687
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19835078"
 ---
 # <a name="removecontactfromimlist"></a>RemoveContactFromImList
 
-Элемент **RemoveContactFromImList** представляет запрос для удаления обмена мгновенными сообщениями контакта из всех групп мгновенного обмена сообщениями. 
+Элемент **RemoveContactFromImList** представляет запрос на удаление контакта обмена мгновенными сообщениями из всех групп мгновенных сообщений. 
   
 ```XML
 <RemoveContactFromImList>
@@ -25,10 +25,10 @@ ms.locfileid: "19835078"
 </RemoveContactFromImList>
 ```
 
- **RemoveContactFromImListType**
+ **ремовеконтактфромимлисттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19835078"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19835078"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

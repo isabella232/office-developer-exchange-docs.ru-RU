@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 002b72f2-f94d-467c-8e6c-b3818f7e51dc
-description: 'Область применения:'
+description: 'Применимо к:'
 ms.openlocfilehash: 0e8775c895f1b6d674b9a0141d55c64f57d236b0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -20,9 +20,9 @@ ms.locfileid: "19835177"
 
 
   
-Элемент **ответа** содержит ответ от службы автообнаружения. 
+Элемент **Response** содержит ответ от службы автообнаружения. 
   
-[Автообнаружение (POX)](autodiscover-pox.md)
+[Служба автообнаружения (POX)](autodiscover-pox.md)
   
 [Ответ (POX)](response-pox.md)
   
@@ -35,7 +35,7 @@ ms.locfileid: "19835177"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,18 +45,18 @@ ms.locfileid: "19835177"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь (POX)](user-pox.md) <br/> |Предоставляет сведения о пользователе. Этот элемент является необязательным.  <br/> |
+|[Пользователь (POX)](user-pox.md) <br/> |Предоставляет сведения, относящиеся к пользователю. Этот элемент является необязательным.  <br/> |
 |[Учетная запись (POX)](account-pox.md) <br/> |Задает параметры учетной записи пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Автообнаружение (POX)](autodiscover-pox.md) <br/> |Корневой элемент в ответ службы автообнаружения.  <br/> |
+|[Служба автообнаружения (POX)](autodiscover-pox.md) <br/> |Корневой элемент в ответе автообнаружения.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

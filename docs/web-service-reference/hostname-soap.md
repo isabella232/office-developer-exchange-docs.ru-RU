@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2ef2ab0d-ba70-46bd-80bb-c1e08da9e9bd
-description: Элемент Hostname — часть полное имя компьютера, имя узла.
+description: Элемент hostname представляет часть имени узла для полного имени компьютера.
 ms.openlocfilehash: 4ad3003603a4b62101a76082713f62752b43ecaa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,16 +18,16 @@ ms.locfileid: "19833846"
 ---
 # <a name="hostname-soap"></a>Имя узла (SOAP)
 
-Элемент **Hostname** — часть полное имя компьютера, имя узла. 
+Элемент **HostName** представляет часть имени узла для полного имени компьютера. 
   
 ```XML
 <Hostname/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,19 +41,19 @@ ms.locfileid: "19833846"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |Представляет подключение к протокола сервера веб-клиент.  <br/> |
+|[Протоколконнектион (SOAP)](protocolconnection-soap.md) <br/> |Представляет подключение протокола для веб-клиента сервера.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **имя узла** — это часть полное имя компьютера, имя узла. 
+Текстовое значение элемента **HostName** — часть имени узла полного имени компьютера компьютера. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 

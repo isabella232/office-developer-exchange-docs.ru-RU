@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 47495d87-23c9-4d51-9f38-8c1d31f937aa
-description: Элемент LoginName указывает имя пользователя для входа.
+description: Элемент LoginName указывает имя пользователя для входа в систему.
 ms.openlocfilehash: dbc0d9cfa6d640c39b64174c144d6d05bc2add78
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "19834250"
 ---
 # <a name="loginname-pox"></a>LoginName (POX)
 
-Элемент **LoginName** указывает имя пользователя для входа. 
+Элемент **LoginName** указывает имя пользователя для входа в систему. 
   
-[Автообнаружение (POX)](autodiscover-pox.md)
+[Служба автообнаружения (POX)](autodiscover-pox.md)
   
 [Ответ (POX)](response-pox.md)
   
@@ -36,7 +36,7 @@ ms.locfileid: "19834250"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,7 +50,7 @@ ms.locfileid: "19834250"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиентского компьютера, на котором выполняется Microsoft Exchange Server 2007 с установленной ролью сервера клиентского доступа.  <br/> |
+|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором работает Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -60,5 +60,5 @@ ms.locfileid: "19834250"
 
 
 
-[Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

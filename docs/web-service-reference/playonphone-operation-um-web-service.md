@@ -1,5 +1,5 @@
 ---
-title: Операция PlayOnPhone (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Операция PlayOnPhone (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7d55be55-f8b6-4e96-a61e-26fa190217fd
-description: Операция PlayOnPhone исходящего звонка и воспроизведения заданным сообщением по телефону, которое задано в элементе DialString.
+description: Операция PlayOnPhone выполняет исходящий вызов и воспроизводит указанное сообщение по телефону, заданному элементом DialString.
 ms.openlocfilehash: b55bb45d6654f57503879f33e1cd5013ddb69a2e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834818"
 ---
-# <a name="playonphone-operation-um-web-service"></a>Операция PlayOnPhone (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="playonphone-operation-um-web-service"></a>Операция PlayOnPhone (веб-служба единой системы обмена сообщениями)
 
-Операция PlayOnPhone исходящего звонка и воспроизведения заданным сообщением по телефону, которое задано в элементе **DialString** . 
+Операция PlayOnPhone выполняет исходящий вызов и воспроизводит указанное сообщение по телефону, заданному элементом **DialString** . 
   
 ## <a name="playonphone-request-example"></a>Пример запроса PlayOnPhone
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос PlayOnPhone показано, как для формирования запроса на выполнение исходящего звонка и воспроизведение сообщения.
+В приведенном ниже примере запроса PlayOnPhone показано, как создать запрос на получение исходящего вызова и прослушивание сообщения.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -46,9 +46,9 @@ ms.locfileid: "19834818"
 
 ### <a name="description"></a>Описание
 
-В следующем примере ответа PlayOnPhone показано ответа на запрос PlayOnPhone.
+В приведенном ниже примере ответа PlayOnPhone показан ответ на запрос PlayOnPhone.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -65,9 +65,9 @@ ms.locfileid: "19834818"
 
 
 
-[PlayOnPhone (веб-служба единой системы обмена СООБЩЕНИЯМИ)](playonphone-um-web-service.md)
+[PlayOnPhone (веб-служба единой системы обмена сообщениями)](playonphone-um-web-service.md)
   
-[PlayOnPhoneResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)](playonphoneresponse-um-web-service.md)
+[PlayOnPhoneResponse (веб-служба единой системы обмена сообщениями)](playonphoneresponse-um-web-service.md)
   
-[Операция PlayOnPhoneGreeting (веб-служба единой системы обмена СООБЩЕНИЯМИ)](playonphonegreeting-operation-um-web-service.md)
+[Операция PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями)](playonphonegreeting-operation-um-web-service.md)
 

@@ -1,5 +1,5 @@
 ---
-title: PhoneNumberAttributedValue
+title: фоненумбераттрибутедвалуе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8bf16552-b672-424a-91b6-6470e20a49ad
-description: Элемент PhoneNumberAttributedValue указывает экземпляр массива номера телефонов и их связанные атрибуты.
+description: Элемент Фоненумбераттрибутедвалуе указывает экземпляр массива номеров телефонов и связанные с ними атрибуты.
 ms.openlocfilehash: a2cc2685e804b3bf6dd5f9083b31a4bd137f8aac
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834771"
 ---
-# <a name="phonenumberattributedvalue"></a>PhoneNumberAttributedValue
+# <a name="phonenumberattributedvalue"></a>фоненумбераттрибутедвалуе
 
-Элемент **PhoneNumberAttributedValue** указывает экземпляр массива номера телефонов и их связанные атрибуты. 
+Элемент **фоненумбераттрибутедвалуе** указывает экземпляр массива номеров телефонов и связанные с ними атрибуты. 
   
 ```XML
 <PhoneNumberAttributedValue>
@@ -26,10 +26,10 @@ ms.locfileid: "19834771"
 </PhoneNumberAttributedValue>
 ```
 
- **PhoneNumberAttributedValueType**
+ **фоненумбераттрибутедвалуетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19834771"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Значение (PersonaPhoneNumberType)](value-personaphonenumbertype.md) | [атрибуты (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
+[Атрибуты значений (персонафоненумбертипе)](value-personaphonenumbertype.md) | [(аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[BusinessPhoneNumbers](businessphonenumbers.md) | [BusinessPhoneNumbers2](businessphonenumbers2.md) | [HomePhones](homephones.md) | [HomePhones2](homephones2.md) | [MobilePhones](mobilephones.md) | [MobilePhones2](mobilephones2.md) | [AssistantPhoneNumbers ](assistantphonenumbers.md)  |  [CallbackPhones](callbackphones.md) | [CarPhones](carphones.md) | [HomeFaxes](homefaxes.md) | [OrganizationMainPhones](organizationmainphones.md) | [OtherFaxes](otherfaxes.md) | [OtherTelephones](othertelephones.md)  |  [OtherPhones2](otherphones2.md) | [пейджеры](pagers.md) | [RadioPhones](radiophones.md) | [TelexNumbers](telexnumbers.md) | [TTYTDDPhoneNumbers](ttytddphonenumbers.md) | [WorkFaxes](workfaxes.md)
+[Бусинессфоненумберс](businessphonenumbers.md) | [BusinessPhoneNumbers2](businessphonenumbers2.md) | [OtherFaxes](otherfaxes.md)[AssistantPhoneNumbers](assistantphonenumbers.md) | [WorkFaxes](workfaxes.md) [HomePhones2](homephones2.md) | [HomeFaxes](homefaxes.md)[HomePhones](homephones.md) | [MobilePhones2](mobilephones2.md) | [TelexNumbers](telexnumbers.md)[MobilePhones](mobilephones.md) | [RadioPhones](radiophones.md)[CallbackPhones](callbackphones.md) | [TTYTDDPhoneNumbers](ttytddphonenumbers.md)[OtherPhones2](otherphones2.md)[OrganizationMainPhones](organizationmainphones.md)[OtherTelephones](othertelephones.md)[CarPhones](carphones.md)[Pagers](pagers.md)хомефонес HomePhones2 мобилефонес MobilePhones2 | ассистантфоненумберс каллбаккфонес | CarPhones HomeFaxes | OrganizationMainPhones OtherFaxes OtherTelephones OtherPhones2 | пейджеров RadioPhones TelexNumbers TTYTDDPhoneNumbers WorkFaxes |  |  |  |  |  | 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19834771"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

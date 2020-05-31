@@ -1,5 +1,5 @@
 ---
-title: Свойства IsEnabled
+title: IsEnabled
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c7e3035e-a4ef-4c11-8cb0-214790a554ff
-description: Элемент IsEnabled указывает, включена ли правило.
+description: Элемент Enable указывает, включено ли правило.
 ms.openlocfilehash: d0f0a77ec1ec952ac1cd9d9ad686ccfcb8f70c42
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834000"
 ---
-# <a name="isenabled"></a>Свойства IsEnabled
+# <a name="isenabled"></a>IsEnabled
 
-Элемент **IsEnabled** указывает, включена ли правило. 
+Элемент **Enable** указывает, включено ли правило. 
   
 ```XML
 <IsEnabled/>
@@ -30,7 +30,7 @@ ms.locfileid: "19834000"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,9 +48,9 @@ ms.locfileid: "19834000"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true,** указывает, что правило включено, могут быть выполнены. Значение **false** указывает, что правило не может быть выполнена. 
+Текстовое значение **true** указывает, что правило включено и может быть выполнено. Значение **false** указывает, что правило не может быть выполнено. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19834000"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

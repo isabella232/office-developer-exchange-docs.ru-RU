@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7707aa6a-381d-43f7-a454-54f6343ed127
-description: Найдите сведения о веб-служб Exchange UninstallApp операции.
+description: Поиск сведений о UninstallAppной операции EWS.
 ms.openlocfilehash: 4f44224651993023336eef5540ec29b7f6a6e32e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,28 +17,28 @@ ms.locfileid: "19840272"
 ---
 # <a name="uninstallapp-operation"></a>Операция UninstallApp
 
-Найдите сведения о **UninstallApp** операции веб-служб Exchange. 
+Поиск сведений о **UninstallAppной** операции EWS. 
   
-Операция **UninstallApp** удаляет почтового приложения для Outlook. 
+При выполнении операции **UninstallApp** удаляется почтовое приложение для Outlook. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-uninstallapp-operation"></a>С помощью операции UninstallApp
+## <a name="using-the-uninstallapp-operation"></a>Использование операции UninstallApp
 
-Операция **UninstallApp** принимает один аргумент в запросе, идентифицирующее почтового приложения для удаления. 
+Операция **UninstallApp** принимает в запросе один аргумент, идентифицирующий почтовое приложение, которое требуется удалить. 
   
-### <a name="uninstallapp-operation-soap-headers"></a>Заголовки SOAP UninstallApp операции
+### <a name="uninstallapp-operation-soap-headers"></a>Заголовки SOAP операции UninstallApp
 
-Операция **UninstallApp** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **UninstallApp** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="uninstallapp-operation-request-example-uninstall-a-mail-app-in-a-mailbox"></a>Пример запроса UninstallApp операции: удаление почтового приложения в почтовом ящике
+## <a name="uninstallapp-operation-request-example-uninstall-a-mail-app-in-a-mailbox"></a>Пример запроса операции UninstallApp: Удаление почтового приложения в почтовом ящике
 
-Приведенный ниже операции **UninstallApp** запроса показано, как для удаления почтового приложения с помощью идентификатора приложения. Идентификатор приложения можно найти в манифесте приложения, который возвращается [GetAppManifests операции](getappmanifests-operation.md).
+В следующем примере запроса операции **UninstallApp** показано, как удалить почтовое приложение с помощью идентификатора приложения. Идентификатор приложения можно найти в манифесте приложения, возвращенном [операцией GetAppManifests](getappmanifests-operation.md).
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -56,15 +56,15 @@ ms.locfileid: "19840272"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [UninstallApp](uninstallapp.md)
     
-- [Идентификатор (строка)](id-string.md)
+- [ID (строка)](id-string.md)
     
-## <a name="successful-uninstallapp-operation-response"></a>Успешные операции ответа UninstallApp
+## <a name="successful-uninstallapp-operation-response"></a>Успешный отклик операции UninstallApp
 
-В следующем примере показано успешного ответа на запрос операции **UninstallApp** для удаления приложения электронной почты. 
+В следующем примере показан успешный ответ на запрос операции **UninstallApp** для удаления почтового приложения. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,15 +90,15 @@ ms.locfileid: "19840272"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [UninstallAppResponse](uninstallappresponse.md)
+- [унинсталлаппреспонсе](uninstallappresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="uninstallapp-operation-error-response"></a>Ошибка операции UninstallApp ответа
+## <a name="uninstallapp-operation-error-response"></a>Ответ об ошибке операции UninstallApp
 
-В следующем примере показано ошибочный ответ на запрос операции **UninstallApp** . Это ответ на запрос для удаления приложения электронной почты, который уже удалено. 
+В следующем примере показан ответ об ошибке для запроса операции **UninstallApp** . Это ответ на запрос на удаление почтового приложения, которое уже удалено. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -126,17 +126,17 @@ ms.locfileid: "19840272"
 </s:Envelope>
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [UninstallAppResponse](uninstallappresponse.md)
+- [унинсталлаппреспонсе](uninstallappresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

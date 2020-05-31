@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2b6005a6-56a9-4848-b998-32908c13e2e2
-description: Элемент IsOutOfDate указывает, является ли сообщения о собрании, собрание, ответа или отмены устаревшей.
+description: Элемент IsOutOfDate указывает на то, что сообщение о собрании, запрос, ответ или отмена устарели.
 ms.openlocfilehash: 0a6b2670cc3eb260002821bab31d652177902de1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19834110"
 ---
 # <a name="isoutofdate"></a>IsOutOfDate
 
-Элемент **IsOutOfDate** указывает, является ли сообщения о собрании, собрание, ответа или отмены устаревшей. 
+Элемент **IsOutOfDate** указывает на то, что сообщение о собрании, запрос, ответ или отмена устарели. 
   
 ```xml
 <IsOutOfDate/>
@@ -30,7 +30,7 @@ ms.locfileid: "19834110"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,16 +44,16 @@ ms.locfileid: "19834110"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true,** указывает, что элемент собрания является устаревшей. 
+Текстовое значение **true** указывает на то, что элемент собрания устарел. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -63,7 +63,7 @@ ms.locfileid: "19834110"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: NumberOfMembers
+title: нумберофмемберс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 845fb877-de49-4e26-8885-6f026edd9ee9
-description: Элемент NumberOfMembers представляет число пользователей, ресурсов и помещения в список рассылки.
+description: Элемент Нумберофмемберс представляет количество пользователей, ресурсов и комнат в списке рассылки.
 ms.openlocfilehash: 9777660b1a54bfb5afb6e569ba1009a1654bdef3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,27 +19,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834635"
 ---
-# <a name="numberofmembers"></a>NumberOfMembers
+# <a name="numberofmembers"></a>нумберофмемберс
 
-Элемент **NumberOfMembers** представляет число пользователей, ресурсов и помещения в список рассылки. 
+Элемент **нумберофмемберс** представляет количество пользователей, ресурсов и комнат в списке рассылки. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[SuggestionsResponse](suggestionsresponse.md)
+[сугжестионсреспонсе](suggestionsresponse.md)
   
-[SuggestionDayResultArray](suggestiondayresultarray.md)
+[сугжестиондайресултаррай](suggestiondayresultarray.md)
   
-[SuggestionDayResult](suggestiondayresult.md)
+[сугжестиондайресулт](suggestiondayresult.md)
   
-[SuggestionArray](suggestionarray.md)
+[сугжестионаррай](suggestionarray.md)
   
-[Предложения](suggestion.md)
+[Предложение](suggestion.md)
   
-[AttendeeConflictDataArray](attendeeconflictdataarray.md)
+[аттендиконфликтдатааррай](attendeeconflictdataarray.md)
   
-[GroupAttendeeConflictData](groupattendeeconflictdata.md)
+[граупаттендиконфликтдата](groupattendeeconflictdata.md)
   
-[NumberOfMembers](numberofmembers.md)
+[нумберофмемберс](numberofmembers.md)
   
 ```xml
 <NumberOfMembers>...</NumberOfMembers>
@@ -48,7 +48,7 @@ ms.locfileid: "19834635"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -62,11 +62,11 @@ ms.locfileid: "19834635"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Содержит конфликта статистические сведения об число доступных пользователей, число пользователей, имеющих конфликтов и количество пользователей, у которых нет сведений о доступности в списке рассылки для предложенного собрания.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
+|[граупаттендиконфликтдата](groupattendeeconflictdata.md) <br/> |Содержит статистические сведения о количестве доступных пользователей, количестве пользователей с конфликтами и количестве пользователей, не имеющих сведений о доступности, в списке рассылки для предполагаемого времени проведения собрания.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Максимальное значение элемента **NumberOfMembers** равно 100. 
+Максимальное значение элемента **нумберофмемберс** — 100. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -76,7 +76,7 @@ ms.locfileid: "19834635"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -85,7 +85,7 @@ ms.locfileid: "19834635"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

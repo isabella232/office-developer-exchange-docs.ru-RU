@@ -1,5 +1,5 @@
 ---
-title: Код сообщения
+title: MessageId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3b038ad5-7752-4ed8-9769-a9f1d86c8fef
-description: Код сообщения элемент представляет код сообщения для поиска.
+description: Элемент MessageId представляет идентификацию сообщения для поиска.
 ms.openlocfilehash: 66a7298db2d0052e5653742f781aa3f423b427d5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834455"
 ---
-# <a name="messageid"></a>Код сообщения
+# <a name="messageid"></a>MessageId
 
-**Код сообщения** элемент представляет код сообщения для поиска. 
+Элемент **MessageId** представляет идентификацию сообщения для поиска. 
   
 ```XML
 <MessageId/>
 ```
 
- **NonEmptyStringType**
+ **нонемптистрингтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19834455"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Задает условия типам сообщений для поиска.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Задает условия для типов сообщений, которые требуется найти.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее строку является обязательным, если данный элемент используется.
+При использовании этого элемента необходимо указать текстовое значение, представляющее строку.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19834455"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: RuleOperationErrors
+title: рулеоператионеррорс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f15c7b9e-a670-4a11-bb62-2a298c91f142
-description: Элемент RuleOperationErrors представляет массив ошибок проверки правил для каждого правила поля, имеющего ошибку.
+description: Элемент Рулеоператионеррорс представляет массив ошибок проверки правил для каждого поля правила, которое содержит ошибку.
 ms.openlocfilehash: 7dc85b5cd84af5ad00511a3df2b31ee3541e12b7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835261"
 ---
-# <a name="ruleoperationerrors"></a>RuleOperationErrors
+# <a name="ruleoperationerrors"></a>рулеоператионеррорс
 
-Элемент **RuleOperationErrors** представляет массив ошибок проверки правил для каждого правила поля, имеющего ошибку. 
+Элемент **рулеоператионеррорс** представляет массив ошибок проверки правил для каждого поля правила, которое содержит ошибку. 
   
-[UpdateInboxRulesResponse](updateinboxrulesresponse.md)
+[упдатеинбоксрулесреспонсе](updateinboxrulesresponse.md)
   
-[RuleOperationErrors](ruleoperationerrors.md)
+[рулеоператионеррорс](ruleoperationerrors.md)
   
 ```XML
 <RuleOperationErrors>
@@ -29,10 +29,10 @@ ms.locfileid: "19835261"
 </RuleOperationErrors>
 ```
 
- **ArrayOfRuleOperationErrorsType**
+ **аррайофрулеоператионеррорстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,19 +42,19 @@ ms.locfileid: "19835261"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RuleOperationError](ruleoperationerror.md) <br/> |Представляет ошибку операции правила.  <br/> |
+|[рулеоператионеррор](ruleoperationerror.md) <br/> |Представляет ошибку операции с правилом.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UpdateInboxRulesResponse](updateinboxrulesresponse.md) <br/> |Определяет ответ на запрос [UpdateInboxRules](updateinboxrules.md) .  <br/> |
+|[упдатеинбоксрулесреспонсе](updateinboxrulesresponse.md) <br/> |Определяет ответ на запрос [UpdateInboxRules](updateinboxrules.md) .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -64,8 +64,8 @@ ms.locfileid: "19835261"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
-|Может быть пустым  <br/> |True  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Может быть пустым  <br/> |Верно.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

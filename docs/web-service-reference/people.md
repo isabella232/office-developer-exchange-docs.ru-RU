@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 65312428-548c-4fe9-971a-d0dab3be5ddf
-description: Элемент людей указывает массив данных пользователя, возвращаемых в результате запроса FindPeople.
+description: Элемент People указывает массив данных о пользователях, возвращаемых в результате запроса FindPeople.
 ms.openlocfilehash: df6f1af34872abe13a1d0f3a98b0354c55354e31
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834712"
 ---
 # <a name="people"></a>Люди
 
-Элемент **людей** указывает массив данных пользователя, возвращаемых в результате запроса **FindPeople** . 
+Элемент **People** указывает массив данных о пользователях, возвращаемых в результате запроса **FindPeople** . 
   
 ```XML
 <People>
@@ -25,11 +25,11 @@ ms.locfileid: "19834712"
 </People>
 ```
 
-**ArrayOfPeopleType**
+**аррайофпеоплетипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19834712"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[FindPeopleResponse](findpeopleresponse.md)
+[финдпеоплереспонсе](findpeopleresponse.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19834712"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

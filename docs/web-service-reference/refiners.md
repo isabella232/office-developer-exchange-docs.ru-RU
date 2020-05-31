@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fb70326a-2b34-43d1-a1a1-5fb0049d32f3
-description: Элемент уточнения Указывает список один или несколько элементов уточнения.
+description: Элемент уточнений задает список из одного или нескольких элементов уточнения.
 ms.openlocfilehash: c08925f5e1b251967141a7391381239f495e5fb1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19835039"
 ---
 # <a name="refiners"></a>Уточнения
 
-Элемент **уточнения** Указывает список один или несколько элементов **уточнения** . 
+Элемент **уточнений** задает список из одного или нескольких элементов **уточнения** . 
   
 ```XML
 <Refiners>
@@ -25,10 +25,10 @@ ms.locfileid: "19835039"
 </Refiners>
 ```
 
- **ArrayOfSearchRefinerItemsType**
+ **аррайофсеарчрефинеритемстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,9 +40,9 @@ ms.locfileid: "19835039"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SearchMailboxesResult](searchmailboxesresult.md)
+[сеарчмаилбоксесресулт](searchmailboxesresult.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19835039"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

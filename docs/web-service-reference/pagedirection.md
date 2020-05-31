@@ -1,5 +1,5 @@
 ---
-title: PageDirection
+title: пажедиректион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 013947f3-cf3c-40b1-baf6-405f26bd375e
-description: Элемент PageDirection содержит направление для разбивки на страницы в результатах поиска. Значение является назад или Далее.
+description: Элемент Пажедиректион содержит направление разбивки на страницы в результатах поиска. Значение — "назад" или "Далее".
 ms.openlocfilehash: de9773407294bcc51fb7b3dab2e1dce0996e6edb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834677"
 ---
-# <a name="pagedirection"></a>PageDirection
+# <a name="pagedirection"></a>пажедиректион
 
-Элемент **PageDirection** содержит направление для разбивки на страницы в результатах поиска. Значение является назад или Далее. 
+Элемент **пажедиректион** содержит направление разбивки на страницы в результатах поиска. Значение — "назад" или "Далее". 
   
 ```XML
 <PageDirection> Previous | Next </PageDirection>
 ```
 
- **SearchPageDirectionType**
+ **сеарчпажедиректионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19834677"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **PageDirection** — направление для разбивки на страницы результатов поиска. 
+Текстовое значение элемента **пажедиректион** является направлением разбивки результатов поиска. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834677"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

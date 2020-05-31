@@ -1,5 +1,5 @@
 ---
-title: MaxChangesReturned
+title: максчанжесретурнед
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f471db84-a666-4dfa-9993-8ca9113a0384
-description: Элемент MaxChangesReturned описывает максимальное число изменений, которые могут возвращаться в ответ синхронизации.
+description: Элемент Максчанжесретурнед описывает максимальное число изменений, которые могут быть возвращены в ответе синхронизации.
 ms.openlocfilehash: c3719b12b7e3e2f83a9454c7b68432b375d78614
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834395"
 ---
-# <a name="maxchangesreturned"></a>MaxChangesReturned
+# <a name="maxchangesreturned"></a>максчанжесретурнед
 
-Элемент **MaxChangesReturned** описывает максимальное число изменений, которые могут возвращаться в ответ синхронизации. 
+Элемент **максчанжесретурнед** описывает максимальное число изменений, которые могут быть возвращены в ответе синхронизации. 
   
 [SyncFolderItems](syncfolderitems.md)
   
-[MaxChangesReturned](maxchangesreturned.md)
+[максчанжесретурнед](maxchangesreturned.md)
   
 ```xml
 <MaxChangesReturned/>
@@ -34,7 +34,7 @@ ms.locfileid: "19834395"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,13 +48,13 @@ ms.locfileid: "19834395"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |Определяет запрос для синхронизации элементов в папке хранилища Exchange.  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Определяет запрос на синхронизацию элементов в папке хранилища Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет целое число, которое описывает максимальное число элементов, возвращаемых в ходе вызова одного синхронизации. Значение должно быть в диапазоне от 1 до 512, включительно.
+Текстовое значение представляет целое число, которое описывает максимальное количество элементов, возвращаемых при каждом вызове синхронизации. Значение должно находиться в диапазоне от 1 до 512 включительно.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -64,7 +64,7 @@ ms.locfileid: "19834395"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

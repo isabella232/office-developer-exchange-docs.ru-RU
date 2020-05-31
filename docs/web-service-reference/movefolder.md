@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f2bb0a73-94d7-4bc7-8902-bd9c69120221
-description: Элемент MoveFolder определяет запрос на перемещение в папку в хранилище Exchange.
+description: Элемент MoveFolder определяет запрос на перемещение папки в хранилище Exchange.
 ms.openlocfilehash: 42a990ced18cc13c7694042df786d33c018f346c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19834485"
 ---
 # <a name="movefolder"></a>MoveFolder
 
-Элемент **MoveFolder** определяет запрос на перемещение в папку в хранилище Exchange. 
+Элемент **MoveFolder** определяет запрос на перемещение папки в хранилище Exchange. 
   
 ```xml
 <MoveFolder>
@@ -30,10 +30,10 @@ ms.locfileid: "19834485"
 </MoveFolder>
 ```
 
- **MoveFolderType**
+ **мовефолдертипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,14 +43,14 @@ ms.locfileid: "19834485"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ToFolderId](tofolderid.md) <br/> |Представляет папку назначения для перемещенной папки.  <br/> |
-|[FolderIds](folderids.md) <br/> |Содержит набор папок, которые следует переместить в папку, указанную в элементе [ToFolderId](tofolderid.md) .  <br/> |
+|[тофолдерид](tofolderid.md) <br/> |Представляет папку назначения для перемещенной папки.  <br/> |
+|[фолдеридс](folderids.md) <br/> |Содержит массив папок для перемещения в папку, определяемую элементом [тофолдерид](tofolderid.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19834485"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

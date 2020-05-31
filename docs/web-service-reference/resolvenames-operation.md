@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb
-description: Адреса ResolveNames операция переносов неоднозначные электронной почты и отображаемые имена.
+description: Операция ResolveNames разрешает неоднозначные адреса электронной почты и отображаемые имена.
 ms.openlocfilehash: 8443cf834dfdf104daeaaa92fdee3742c3fa3719
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,27 +21,27 @@ ms.locfileid: "19835162"
 ---
 # <a name="resolvenames-operation"></a>Операция ResolveNames
 
-Адреса **ResolveNames** операция переносов неоднозначные электронной почты и отображаемые имена. 
+Операция **ResolveNames** разрешает неоднозначные адреса электронной почты и отображаемые имена. 
   
-## <a name="using-the-resolvenames-operation"></a>С помощью операции ResolveNames
+## <a name="using-the-resolvenames-operation"></a>Использование операции ResolveNames
 
-Эту операцию можно использовать для проверки псевдонимы и разрешения отображаемые имена в соответствующий почтовый ящик пользователя. Если существует неоднозначные имена ответа операции **ResolveNames** сведения о каждого почтового ящика пользователя, чтобы клиентское приложение может разрешения имен. 
+Эту операцию можно использовать для проверки псевдонимов и разрешения отображаемых имен соответствующему пользователю почтового ящика. Если существуют неоднозначные имена, ответ операции **ResolveNames** предоставляет сведения о каждом пользователе почтового ящика, чтобы клиентское приложение могло разрешить имена. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Ответ ResolveNames возвращает не более 100 кандидатов. 100 кандидатов, возвращенных — это первый 100 обнаружения в операции поиска.
+Ответ ResolveNames возвращает не более 100 кандидатов. Возвращаемые кандидаты 100 являются первыми 100, которые встречаются в операции поиска.
   
-Адреса электронной почты с с префиксами типов маршрутизации, например smtp или sip, сохраняются в нескольких значений массива. Операция **ResolveNames** выполняет частичное соответствие каждого значения этого массива, при добавлении типа маршрутизации в начале неизвестное имя, например «sip:User1@Contoso.com». Если не указать тип маршрутизации, **ResolveNames** по умолчанию для типа маршрутизации smtp, соответствует свойству основной адрес smtp и поиск нескольких значений массива. 
+Адреса электронной почты с предфиксированными типами маршрутизации, такими как SMTP или SIP, сохраняются в массиве с несколькими значениями. Операция **ResolveNames** выполняет частичное соответствие с каждым значением этого массива при добавлении типа маршрутизации в начале неизвестного имени, например "SIP:user1@Contoso.com". Если не указать тип маршрутизации, **ResolveNames** по умолчанию будет иметь тип маршрутизации SMTP, сопоставлять его с основным свойством SMTP-адреса, а не выполнять поиск по многозначному массиву. 
   
-В одном запросе можно указать только один неоднозначное имя. Сначала выполняется поиск Active Directory, а затем осуществляется в папке контактов пользователя. Записей в папке контактов пользователя имеют свойство **ItemId** ненулевое, которую можно использовать в запросе GetItem. Если идентификатор списка рассылки частный, его можно использовать в рамках одной [операции ExpandDL](expanddl-operation.md). Если атрибут **ReturnFullContactData** имеет значение **true**, найдено Active Directory с помощью операции **ResolveNames** возвращает дополнительные свойства, описывающие [контакт](contact.md). Атрибут **ReturnFullContactData** не влияет на данные, возвращаемые для контактов и частных списки рассылки из папки контактов пользователя. 
+В одном запросе можно указать только одно неоднозначное имя. Сначала выполняется поиск в Active Directory, а затем выполняется поиск в папке контактов пользователя. Разрешенные записи из папки контактов пользователя имеют свойство **ItemId** , отличное от NULL, которое затем можно использовать в запросе GetItem. Если это идентификатор частного списка рассылки, его можно использовать в [операции ExpandDL](expanddl-operation.md). Если для атрибута **ретурнфуллконтактдата** задано **значение true**, то записи Active Directory, найденные с помощью операции **ResolveNames** , будут возвращать дополнительные свойства, описывающие [контакт](contact.md). Атрибут **ретурнфуллконтактдата** не влияет на данные, возвращаемые для контактов и частных списков рассылки из папки контактов пользователя. 
   
 ## <a name="resolvenames-request-example"></a>Пример запроса ResolveNames
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **ResolveNames** показано, как разрешить запись пользователя.
+В приведенном ниже примере запроса **ResolveNames** показано, как разрешить запись пользователя.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -59,36 +59,36 @@ ms.locfileid: "19835162"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Ответ на этот запрос будет возвращать все записи, начинающиеся с «Петр» или «Mi». Возвращенные элементы, общих почтовых ящиков, списки рассылки общедоступных и частных и контакты.
+Ответ на этот запрос возвратит все записи, начинающиеся с "Петр" или "MI". Возвращенные элементы представляют собой общедоступные почтовые ящики, общедоступные и частные списки рассылки, а также контакты.
   
 > [!NOTE]
-> Поиск осуществляется только контактов в папке личных контактов по умолчанию. 
+> Поиск осуществляется только по контактам из папки личных контактов по умолчанию. 
   
 Ниже приведены возможные результаты запроса **ResolveNames** . 
   
-- Ответы, которые не содержат разрешения сущности возвращает значение атрибута **ResponseClass** равно **ошибки**. Элемент **MessageText** будет содержать « **Нет результатов**».
+- Ответы, которые не содержат разрешенных сущностей, возвращают значение атрибута **респонсекласс** , равное **Error**. Элемент **мессажетекст** будет содержать " **результаты не найдены**".
     
-- Ответы, которые содержат одного объекта разрешения возвращает значение атрибута **ResponseClass** равно **успеха**.
+- Ответы, содержащие одну разрешенную сущность, возвращают значение атрибута **респонсекласс** , равное **Success**.
     
-- Ответы, которые содержат несколько возможных сущностей возвращает значение атрибута **ResponseClass** равно **предупреждения**. В этом случае сущность не удалось разрешить уникальное удостоверение. Элемент **MessageText** будет содержать «находятся несколько результатов». 
+- Ответы, которые содержат несколько возможных сущностей, будут возвращать значение атрибута **респонсекласс** , равное **warning**. В этом случае сущность не может быть сопоставлена с уникальным идентификатором. Элемент **мессажетекст** будет содержать "несколько результатов поиска". 
     
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [ResolveNames](resolvenames.md)
     
-- [UnresolvedEntry](unresolvedentry.md)
+- [унресолведентри](unresolvedentry.md)
     
-## <a name="successful-resolvenames-operation-response-example"></a>Пример ответа операция успешно ResolveNames
+## <a name="successful-resolvenames-operation-response-example"></a>Пример успешного ответа операции ResolveNames
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **ResolveNames** . 
+В следующем примере показан успешный ответ на запрос **ResolveNames** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -130,51 +130,51 @@ ms.locfileid: "19835162"
 </soap:Envelope>
 ```
 
-### <a name="successful-resolvenames-response-elements"></a>Элементы ответов успешно ResolveNames
+### <a name="successful-resolvenames-response-elements"></a>Успешные элементы ответа ResolveNames
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [ResolveNamesResponse](resolvenamesresponse.md)
+- [ресолвенамесреспонсе](resolvenamesresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [ResolveNamesResponseMessage](resolvenamesresponsemessage.md)
+- [ресолвенамесреспонсемессаже](resolvenamesresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [ResolutionSet](resolutionset.md)
+- [Авторешение](resolutionset.md)
     
-- [Решение](resolution.md)
+- [Resolution](resolution.md)
     
 - [Mailbox](mailbox.md)
     
 - [Имя (EmailAddressType)](name-emailaddresstype.md)
     
-- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md)
     
 - [MailboxType](mailboxtype.md)
     
-- [Контакт](contact.md)
+- [контакт](contact.md);
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
 - [EmailAddresses](emailaddresses.md)
     
 - [Запись (EmailAddress)](entry-emailaddress.md)
     
-- [ContactSource](contactsource.md)
+- [контактсаурце](contactsource.md)
     
-## <a name="resolvenames-operation-error-response"></a>Ошибка операции ResolveNames ответа
+## <a name="resolvenames-operation-error-response"></a>Ответ об ошибке операции ResolveNames
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос **ResolveNames** . Ошибки, возникающие при попытке определить имя, которое не может быть разрешен. 
+В следующем примере показан ответ об ошибке для запроса **ResolveNames** . Ошибка возникает при попытке разрешить имя, которое не удается разрешить. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -201,23 +201,23 @@ ms.locfileid: "19835162"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [ResolveNamesResponse](resolvenamesresponse.md)
+- [ресолвенамесреспонсе](resolvenamesresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [ResolveNamesResponseMessage](resolvenamesresponsemessage.md)
+- [ресолвенамесреспонсемессаже](resolvenamesresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 
@@ -226,5 +226,5 @@ ms.locfileid: "19835162"
 [Операция ExpandDL](expanddl-operation.md)
 
 
-[С помощью разрешения имен](http://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
+[Использование разрешения имен](http://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: PhoneticLastName
+title: фонетикластнаме
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2d8cefc4-b16a-45d0-9ad7-543f83a8eb15
-description: Элемент PhoneticLastName содержит фамилию контакта, фонетически.
+description: Элемент Фонетикластнаме содержит фамилию контакта с произношением фонетического имени.
 ms.openlocfilehash: d17e6c10f6b84df0e3063201cccf9e1683f9ecb7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834784"
 ---
-# <a name="phoneticlastname"></a>PhoneticLastName
+# <a name="phoneticlastname"></a>фонетикластнаме
 
-Элемент **PhoneticLastName** содержит фамилию контакта, фонетически. 
+Элемент **фонетикластнаме** содержит фамилию контакта с произношением фонетического имени. 
   
 ```XML
 <PhoneticLastName/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19834784"
 
 |**Имя элемента**|**Описание**|
 |:-----|:-----|
-|[Контакт](contact.md) <br/> |Представляет контакт в хранилище Exchange.  <br/> |
+|[контакт](contact.md); <br/> |Представляет контакт в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение — это строка, представляющая фамилию контакта, фонетически.
+Текстовое значение — это строка, представляющая фамилию контакта, написанную фонетическим именем.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19834784"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -68,5 +68,5 @@ ms.locfileid: "19834784"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: OptedInto
+title: оптединто
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 083a23d9-acc3-4c15-9d30-c20bf7e6808d
-description: Элемент OptedInto задает логическое значение, указывающее, является ли пользователь решил в политику хранения.
+description: Элемент Оптединто указывает логическое значение, которое указывает, выбрал ли пользователь в политике хранения.
 ms.openlocfilehash: 0d8fb2b07c6c98ba6973ab6efabe9c35d2d1ac12
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834657"
 ---
-# <a name="optedinto"></a>OptedInto
+# <a name="optedinto"></a>оптединто
 
-Элемент **OptedInto** задает логическое значение, указывающее, является ли пользователь решил в политику хранения. 
+Элемент **оптединто** указывает логическое значение, которое указывает, выбрал ли пользователь в политике хранения. 
   
 ```XML
 <OptedInto>true | false</OptedInto>
@@ -26,7 +26,7 @@ ms.locfileid: "19834657"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834657"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[RetentionPolicyTag](retentionpolicytag.md)
+[Retentionpolicytag используется](retentionpolicytag.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **OptedInto** указывает, что пользователь решил в политику хранения. Значение **false** указывает, что пользователь не явного в политику хранения. 
+Текстовое значение **true** для элемента **оптединто** указывает на то, что пользователь выбрал политику хранения. Значение **false** указывает, что пользователь не решил политику хранения. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834657"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

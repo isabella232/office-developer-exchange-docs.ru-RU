@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5e788016-68e0-4a3f-9243-03f6b6c6b389
-description: Найдите сведения о веб-служб Exchange RemoveImGroup операции.
+description: Поиск сведений о RemoveImGroupной операции EWS.
 ms.openlocfilehash: 85b312f0b156125a2d5395658ccea06d831abdde
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,33 +17,33 @@ ms.locfileid: "19835097"
 ---
 # <a name="removeimgroup-operation"></a>Операция RemoveImGroup
 
-Найдите сведения о **RemoveImGroup** операции веб-служб Exchange. 
+Поиск сведений о **RemoveImGroupной** операции EWS. 
   
-Операция **RemoveImGroup** удаляет одну мгновенного обмена сообщениями группу обмена Мгновенными сообщениями из почтового ящика. 
+Операция **RemoveImGroup** удаляет из почтового ящика одну группу обмена мгновенными сообщениями (IM). 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-removeimgroup-operation"></a>С помощью операции RemoveImGroup
+## <a name="using-the-removeimgroup-operation"></a>Использование операции RemoveImGroup
 
-Операция **RemoveImGroup** принимает только аргумент идентификатор единая группа. 
+Операция **RemoveImGroup** принимает только один аргумент идентификатора группы. 
   
-### <a name="removeimgroup-operation-soap-headers"></a>Заголовки SOAP RemoveImGroup операции
+### <a name="removeimgroup-operation-soap-headers"></a>Заголовки SOAP операции RemoveImGroup
 
-Операция **RemoveImGroup** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **RemoveImGroup** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="removeimgroup-operation-request-example"></a>Пример запроса RemoveImGroup операции
+## <a name="removeimgroup-operation-request-example"></a>Пример запроса операции RemoveImGroup
 
-В следующем примере запрос операции **RemoveImGroup** показано, как удалить группу обмена мгновенными Сообщениями. 
+В следующем примере запроса операции **RemoveImGroup** показано, как удалить группу IM. 
   
 > [!NOTE]
-> Идентификатор группы был усечен, чтобы сохранить удобочитаемость. 
+> Идентификатор группы был сокращен, чтобы сохранить удобочитаемость. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -63,15 +63,15 @@ ms.locfileid: "19835097"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [RemoveImGroup](removeimgroup.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-removeimgroup-operation-response"></a>Успешные операции ответа RemoveImGroup
+## <a name="successful-removeimgroup-operation-response"></a>Успешный отклик операции RemoveImGroup
 
-В следующем примере показано успешного ответа на запрос операции **RemoveImGroup** . 
+В следующем примере показан успешный ответ на запрос операции **RemoveImGroup** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,15 +97,15 @@ ms.locfileid: "19835097"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [RemoveImGroupResponse](removeimgroupresponse.md)
+- [ремовеимграупреспонсе](removeimgroupresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="removeimgroup-operation-errorinvalidimgroupid-error-response"></a>Операция RemoveImGroup ErrorInvalidImGroupId ошибка ответа
+## <a name="removeimgroup-operation-errorinvalidimgroupid-error-response"></a>Ответ об ошибке Ерроринвалидимграупид операции RemoveImGroup
 
-В следующем примере показано ошибочный ответ на запрос операции **RemoveImGroup** . Приведенный ниже ответ ошибка возникает при попытке удалить группу, которая не существует в почтовом ящике. 
+В следующем примере показан ответ об ошибке для запроса операции **RemoveImGroup** . При попытке удалить группу, которая не существует в почтовом ящике, возникает следующий ответ об ошибке. 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -132,21 +132,21 @@ ms.locfileid: "19835097"
 </s:Envelope>
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [RemoveImGroupResponse](removeimgroupresponse.md)
+- [ремовеимграупреспонсе](removeimgroupresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
-## <a name="removeimgroup-operation-errorinvalididmalformed-error-response"></a>Операция RemoveImGroup ErrorInvalidIdMalformed ошибка ответа
+## <a name="removeimgroup-operation-errorinvalididmalformed-error-response"></a>Ответ об ошибке Ерроринвалидидмалформед операции RemoveImGroup
 
-В следующем примере показано ошибочный ответ на запрос операции **RemoveImGroup** . Приведенный ниже ответ ошибка возникает при попытке удалить группу с идентификатором неправильно форматированные группы. 
+В следующем примере показан ответ об ошибке для запроса операции **RemoveImGroup** . Следующий ответ об ошибке возникает при попытке удалить группу с неправильно отформатированным идентификатором группы. 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -173,15 +173,15 @@ ms.locfileid: "19835097"
 </s:Envelope>
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [RemoveImGroupResponse](removeimgroupresponse.md)
+- [ремовеимграупреспонсе](removeimgroupresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

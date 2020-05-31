@@ -1,5 +1,5 @@
 ---
-title: MimeContent
+title: Сохранитьmimecontent
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4f472a08-5653-4c54-ba65-831dfe32f20f
-description: Элемент MimeContent содержит ASCII MIME-поток объекта, который представлен в формате base64Binary и поддерживает [RFC2045].
+description: Элемент Сохранитьmimecontent содержит MIME-поток MIME объекта, представленного в формате base64Binary и поддерживающий [RFC2045].
 ms.openlocfilehash: 60f2d42f09347611559137c494d93036f1192829
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,24 +19,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834465"
 ---
-# <a name="mimecontent"></a>MimeContent
+# <a name="mimecontent"></a>Сохранитьmimecontent
 
-Элемент **MimeContent** содержит ASCII MIME-поток объекта, который представлен в формате base64Binary и поддерживает [[RFC2045]](http://www.rfc-editor.org/rfc/rfc2045.txt).
+Элемент **сохранитьmimecontent** содержит MIME-поток MIME объекта, представленного в формате base64Binary и поддерживающий [[RFC2045]](http://www.rfc-editor.org/rfc/rfc2045.txt).
   
 ```xml
 <MimeContent CharacterSet="" />
 ```
 
- **MimeContentType**
+ **мимеконтенттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**CharacterSet** <br/> |Если задано, значение этого атрибута игнорируется сервером.  <br/> |
+|**CharacterSet** <br/> |Если этот параметр установлен, то значение этого атрибута игнорируется сервером.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -44,25 +44,25 @@ ms.locfileid: "19834465"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Элемента календаря, имеющего](calendaritem.md) | [контакт](contact.md) | [DistributionList](distributionlist.md) | [элемента](item.md) | [MeetingCancellation](meetingcancellation.md) | [MeetingMessage](meetingmessage.md) | [MeetingRequest](meetingrequest.md)  |  [ MeetingResponse](meetingresponse.md) | [сообщение](message-ex15websvcsotherref.md) | [RemoveItem](removeitem.md) | [задач](task.md)
+[Календаритем](calendaritem.md) | [Contact](contact.md) | [Item](item.md) | [Message](message-ex15websvcsotherref.md)[DistributionList](distributionlist.md) |  | [Task](task.md) [MeetingCancellation](meetingcancellation.md) | [RemoveItem](removeitem.md)[MeetingRequest](meetingrequest.md)[MeetingResponse](meetingresponse.md)[MeetingMessage](meetingmessage.md)дистрибутионлист Item | митингканцеллатион митингмессаже свойство meetingrequest | митингреспонсе Message RemoveItem Task |  | 
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее потока MIME base64Binary является обязательным, если данный элемент используется.
+Текстовое значение, представляющее поток MIME base64Binary, является обязательным при использовании этого элемента.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Содержимое сообщения проходит через кодировки перед сохранением в значении **MimeContent** трех уровней: 
+Содержимое сообщения проходит через три указанных ниже уровня кодирования, прежде чем он будет сохранен в значении **сохранитьmimecontent** : 
   
-1. Текст сообщения — это тело кодирования, такие как iso-2022-jp для японского языка символов.
+1. Текст сообщения — это кодировка текста, например ISO-2022-JP для японских символов.
     
-2. Поток MIME — это ASCII кодирования текста сообщения для элемента **MimeContent** или кодировки UTF8 текста сообщения для элемента [MimeContentUTF8](mimecontentutf8.md) . 
+2. Поток MIME — это кодировка ASCII текста сообщения для элемента **сохранитьmimecontent** или кодировка UTF8 текста сообщения для элемента [MimeContentUTF8](mimecontentutf8.md) . 
     
-3. XML-документ — это всегда в кодировке base64 поток ASCII потока MIME, где символы, такие как "\<", значимых XML, скрыты от анализаторы XML.
+3. XML-документ — это всегда зашифрованный поток ASCII потока MIME, в котором символы, такие как '\<', которые являются осмысленными для XML, скрыты из синтаксических анализаторов XML.
     
-Каждый уровень вне зависимости от уровня, предшествующего его.
+Каждый уровень не зависит от уровня, который предшествует ему.
   
-Элемент **MimeContent** может содержать те же данные, содержащие другие свойства, возвращаемые с элементом. 
+Элемент **сохранитьmimecontent** может содержать те же данные, что и другие свойства, возвращаемые с элементом. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -72,7 +72,7 @@ ms.locfileid: "19834465"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

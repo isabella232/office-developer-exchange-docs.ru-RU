@@ -1,5 +1,5 @@
 ---
-title: Понятное имя
+title: Nickname
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3d35b207-d28c-4f3f-8b00-55339d30d19a
-description: Элемент псевдонимов представляет псевдоним контакта.
+description: Элемент псевдонима представляет псевдоним контакта.
 ms.openlocfilehash: 0328ea80725f81dce81e5a7730046e3978ae6df1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834533"
 ---
-# <a name="nickname"></a>Понятное имя
+# <a name="nickname"></a>Nickname
 
-Элемент **псевдонимов** представляет псевдоним контакта. 
+Элемент **псевдонима** представляет псевдоним контакта. 
   
 ```xml
 <Nickname/>
 ```
 
-**string**
+**строка**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,14 +45,14 @@ ms.locfileid: "19834533"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CompleteName](completename.md) <br/> |Представляет полное имя контакта.  <br/> |
+|[комплетенаме](completename.md) <br/> |Представляет полное имя контакта.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Элемент **псевдонимов** принимает строковое значение. 
+Элемент **псевдонима** принимает строковое значение. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент является необязательным.
   
@@ -64,11 +64,11 @@ ms.locfileid: "19834533"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

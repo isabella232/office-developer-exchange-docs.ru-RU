@@ -1,5 +1,5 @@
 ---
-title: MaxRecipientsPerGetMailTipsRequest
+title: максреЦипиентспержетмаилтипсрекуест
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8ff5df18-1989-4217-b4c0-599232911d0c
-description: Элемент MaxRecipientsPerGetMailTipsRequest указывает максимальное количество получателей, которые могут передаваться GetMailTips операции.
+description: Элемент МаксреЦипиентспержетмаилтипсрекуест указывает максимальное количество получателей, которые могут быть переданы в операцию с помощью подсказок.
 ms.openlocfilehash: 4c873fe534582e582bf5b1c1d5fd2789616e056a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834386"
 ---
-# <a name="maxrecipientspergetmailtipsrequest"></a>MaxRecipientsPerGetMailTipsRequest
+# <a name="maxrecipientspergetmailtipsrequest"></a>максреЦипиентспержетмаилтипсрекуест
 
-Элемент **MaxRecipientsPerGetMailTipsRequest** указывает максимальное количество получателей, которые могут передаваться [GetMailTips операции](getmailtips-operation.md).
+Элемент **максреЦипиентспержетмаилтипсрекуест** указывает максимальное количество получателей, которые могут быть переданы в операцию с помощью [подсказок](getmailtips-operation.md).
   
 ```XML
 <MaxRecipientsPerGetMailTipsRequest/>
@@ -30,7 +30,7 @@ ms.locfileid: "19834386"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19834386"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Содержит сведения о конфигурации службы для службы советы почты.  <br/> |
+|[Маилтипсконфигуратион (Маилтипссервицеконфигуратион)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Содержит сведения о конфигурации службы для советов почтового ящика.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет собой целое число, который представляет максимальное количество получателей, которые могут передаваться [GetMailTips операции](getmailtips-operation.md).
+Текстовое значение это целое число, представляющее максимальное количество получателей, которые могут быть переданы в [операцию с помощью подсказок](getmailtips-operation.md).
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19834386"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

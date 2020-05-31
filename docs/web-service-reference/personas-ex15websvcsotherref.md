@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a7d2bbd6-5fb8-44d3-8d0d-ad623a117870
-description: Элемент Сотрудники указывает массив действующие лица, возвращенные операций GetImItems и GetImItemList.
+description: Элемент Персонажs указывает массив пользователей, возвращаемых операциями GetImItems и GetImItemList.
 ms.openlocfilehash: 288478e74a31f60018284b07e41a0b07f38c61dc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834737"
 ---
 # <a name="personas"></a>Фиктивные пользователи
 
-Элемент **Сотрудники** указывает массив действующие лица, возвращенные операций **GetImItems** и **GetImItemList** . 
+Элемент **персонажs** указывает массив пользователей, возвращаемых операциями **GetImItems** и **GetImItemList** . 
   
 ```XML
 <Personas>
@@ -25,10 +25,10 @@ ms.locfileid: "19834737"
 </Personas>
 ```
 
- **ArrayOfPeopleType**
+ **аррайофпеоплетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19834737"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[ImItemList](imitemlist.md)
+[имитемлист](imitemlist.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19834737"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

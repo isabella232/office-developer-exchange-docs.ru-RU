@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c7233966-6c87-4a14-8156-b1610760176d
-description: Операция MoveFolder перемещение папок из указанной папки и помещает их в другую папку.
+description: Операция MoveFolder перемещает папки из указанной папки и размещает их в другой папке.
 ms.openlocfilehash: 5da6929f11ce9ba74db190db6d799f25974d2192
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,19 +21,19 @@ ms.locfileid: "19834490"
 ---
 # <a name="movefolder-operation"></a>Операция MoveFolder
 
-Операция MoveFolder перемещение папок из указанной папки и помещает их в другую папку.
+Операция MoveFolder перемещает папки из указанной папки и размещает их в другой папке.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Операция MoveFolder аналогичен CopyFolder операции. Невозможно переместить именованные папки. Можно переместить несколько папок одновременно в конечную папку.
+Операция MoveFolder подобна операции CopyFolder. Невозможно переместить папки "различающиеся папки". В целевую папку можно переместить сразу несколько папок.
   
 ## <a name="movefolder-request-example"></a>Пример запроса MoveFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос MoveFolder показано, как для формирования запроса, чтобы переместить папку, определяемую средством [FolderId](folderid.md) и поместите папки в папку нежелательной почты различающееся. 
+В приведенном ниже примере запроса MoveFolder показано, как создать запрос на перемещение папки, определенной [FolderId](folderid.md) , и поместить ее в папку нежелательной почты. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,37 +52,37 @@ ms.locfileid: "19834490"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
 > [!NOTE]
-> Значение атрибута ID элемента [FolderId](folderid.md) был усечен для удобства чтения. 
+> Значение атрибута ID элемента [FolderId](folderid.md) было сокращено для удобочитаемости. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
-Этот запрос MoveFolder содержит следующие элементы:
+Этот запрос MoveFolder включает следующие элементы:
   
 - [MoveFolder](movefolder.md)
     
-- [ToFolderId](tofolderid.md)
+- [тофолдерид](tofolderid.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
-- [FolderIds](folderids.md)
+- [фолдеридс](folderids.md)
     
 - [FolderId](folderid.md)
     
-В разделе Схема дополнительных элементов, которые можно использовать для формирования запроса MoveFolder.
+В схеме представлены дополнительные элементы, которые можно использовать для формирования запроса MoveFolder.
   
 > [!NOTE]
-> Расположение по умолчанию схемы находится в виртуальном каталоге EWS на компьютере, на котором установлена роль сервера клиентского доступа. 
+> Расположение схемы по умолчанию находится в виртуальном каталоге EWS на компьютере, на котором установлена роль сервера клиентского доступа. 
   
 ## <a name="successful-movefolder-response-example"></a>Пример успешного ответа MoveFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос MoveFolder. 
+В следующем примере показан успешный ответ на запрос MoveFolder. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -112,38 +112,38 @@ ms.locfileid: "19834490"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
 > [!NOTE]
-> Идентификатор папки и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор папки и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
-FolderId, возвращаемого в ответе представляет к папке, где был перемещен в новый путь к папке.
+FolderId, возвращаемый в ответе, представляет папку, которая была перемещена в новое расположение папки.
   
-### <a name="response-elements"></a>Элементы ответа
+### <a name="response-elements"></a>Элементы Response
 
-Ответ MoveFolder содержит следующие элементы:
+Ответ MoveFolder включает следующие элементы:
   
-- [MoveFolderResponse](movefolderresponse.md)
+- [мовефолдерреспонсе](movefolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [MoveFolderResponseMessage](movefolderresponsemessage.md)
+- [мовефолдерреспонсемессаже](movefolderresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 - [Folder](folder.md)
     
 - [FolderId](folderid.md)
     
-## <a name="movefolder-error-response-example"></a>Пример ответа об ошибке MoveFolder
+## <a name="movefolder-error-response-example"></a>Пример ответа на сообщение об ошибке MoveFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано возврату ошибки, что происходит при попытке перемещения именованной папки.
+В следующем примере показан ответ об ошибке, возникающий при попытке переместить различающиеся папки.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -171,23 +171,23 @@ FolderId, возвращаемого в ответе представляет к
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-Отклик MoveFolder содержит следующие элементы:
+Ответ об ошибке MoveFolder включает следующие элементы:
   
-- [MoveFolderResponse](movefolderresponse.md)
+- [мовефолдерреспонсе](movefolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [MoveFolderResponseMessage](movefolderresponsemessage.md)
+- [мовефолдерреспонсемессаже](movefolderresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 ## <a name="see-also"></a>См. также
 

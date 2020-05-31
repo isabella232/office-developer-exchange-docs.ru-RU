@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cee14262-7153-44da-bb42-b856e380c4d0
-description: Элемент PerformReminderAction определяет запрос для выполнения действия напоминание.
+description: Элемент PerformReminderAction указывает запрос на выполнение действия напоминания.
 ms.openlocfilehash: d57b7694e9678fc8e096e01c7cca162e5d2d16e8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834723"
 ---
 # <a name="performreminderaction"></a>PerformReminderAction
 
-Элемент **PerformReminderAction** определяет запрос для выполнения действия напоминание. 
+Элемент **PerformReminderAction** указывает запрос на выполнение действия напоминания. 
   
 ```XML
 <PerformReminderAction>
@@ -25,10 +25,10 @@ ms.locfileid: "19834723"
 </PerformReminderAction>
 ```
 
- **PerformReminderActionType**
+ **перформреминдерактионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19834723"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ReminderItemActions](reminderitemactions.md)
+[реминдеритемактионс](reminderitemactions.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19834723"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

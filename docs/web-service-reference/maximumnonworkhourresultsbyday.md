@@ -1,5 +1,5 @@
 ---
-title: MaximumNonWorkHourResultsByDay
+title: максимумнонворкхаурресултсбидай
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9fb7314d-779c-4b1f-9d7c-b5cb092ed134
-description: Элемент MaximumNonWorkHourResultsByDay указывает количество предложенного результатов время за пределами обычных рабочих часов в день собрания.
+description: Элемент Максимумнонворкхаурресултсбидай указывает количество предполагаемых результатов для времени проведения собрания, которое не превышает обычные рабочие часы в день.
 ms.openlocfilehash: f931dcaabda222e1579a0a4c0e0e6e49d88c6342
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834382"
 ---
-# <a name="maximumnonworkhourresultsbyday"></a>MaximumNonWorkHourResultsByDay
+# <a name="maximumnonworkhourresultsbyday"></a>максимумнонворкхаурресултсбидай
 
-Элемент **MaximumNonWorkHourResultsByDay** указывает количество предложенного результатов время за пределами обычных рабочих часов в день собрания. 
+Элемент **максимумнонворкхаурресултсбидай** указывает количество предполагаемых результатов для времени проведения собрания, которое не превышает обычные рабочие часы в день. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-[SuggestionsViewOptions](suggestionsviewoptions.md)
+[сугжестионсвиевоптионс](suggestionsviewoptions.md)
   
-[MaximumNonWorkHourResultsByDay](maximumnonworkhourresultsbyday.md)
+[максимумнонворкхаурресултсбидай](maximumnonworkhourresultsbyday.md)
   
 ```xml
 <MaximumNonWorkHourResultsByDay>...</MaximumNonWorkHourResultsByDay>
@@ -36,7 +36,7 @@ ms.locfileid: "19834382"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,15 +50,15 @@ ms.locfileid: "19834382"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведения о предложения о собрании.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Текстовое значение представляет собой целое число.
+Необходимо указать текстовое значение. Текстовое значение представляет целое число.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент является обязательным, если используется элемент [SuggestionsViewOptions](suggestionsviewoptions.md) . 
+Этот элемент является обязательным, если используется элемент [сугжестионсвиевоптионс](suggestionsviewoptions.md) . 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
@@ -69,7 +69,7 @@ ms.locfileid: "19834382"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

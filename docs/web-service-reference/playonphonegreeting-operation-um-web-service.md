@@ -1,5 +1,5 @@
 ---
-title: Операция PlayOnPhoneGreeting (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Операция PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6deafc40-290b-4bce-9914-b6bcc529f38a
-description: Операция PlayOnPhoneGreeting исходящего звонка и воспроизведения один из двух приветствие сообщения по телефону.
+description: Операция PlayOnPhoneGreeting выполняет исходящий вызов и воспроизводит одно из двух сообщений приветствия по телефону.
 ms.openlocfilehash: 85ba76c7638911678c1ef1aef88f47fdab2c6a4e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834828"
 ---
-# <a name="playonphonegreeting-operation-um-web-service"></a>Операция PlayOnPhoneGreeting (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="playonphonegreeting-operation-um-web-service"></a>Операция PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями)
 
-Операция PlayOnPhoneGreeting исходящего звонка и воспроизведения один из двух приветствие сообщения по телефону.
+Операция PlayOnPhoneGreeting выполняет исходящий вызов и воспроизводит одно из двух сообщений приветствия по телефону.
   
 ## <a name="playonphonegreeting-request-example"></a>Пример запроса PlayOnPhoneGreeting
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос PlayOnPhoneGreeting показано, как для формирования запроса на выполнение исходящего звонка и воспроизведение обычных приветственное сообщение на телефон.
+В приведенном ниже примере запроса PlayOnPhoneGreeting показано, как создать запрос на получение исходящего вызова и воссоздать сообщение обычного приветствия по телефону.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -46,9 +46,9 @@ ms.locfileid: "19834828"
 
 ### <a name="description"></a>Описание
 
-В следующем примере ответа PlayOnPhoneGreeting показано ответа на запрос PlayOnPhoneGreeting.
+В приведенном ниже примере ответа PlayOnPhoneGreeting показан ответ на запрос PlayOnPhoneGreeting.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -65,11 +65,11 @@ ms.locfileid: "19834828"
 
 
 
-[PlayOnPhoneGreeting (веб-служба единой системы обмена СООБЩЕНИЯМИ)](playonphonegreeting-um-web-service.md)
+[PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями)](playonphonegreeting-um-web-service.md)
   
-[PlayOnPhoneGreetingResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)](playonphonegreetingresponse-um-web-service.md)
+[Плайонфонегритингреспонсе (веб-служба единой системы обмена сообщениями)](playonphonegreetingresponse-um-web-service.md)
   
-[GreetingType (веб-служба единой системы обмена СООБЩЕНИЯМИ)](greetingtype-um-web-service.md)
+[Гритингтипе (веб-служба единой системы обмена сообщениями)](greetingtype-um-web-service.md)
   
-[dialString (веб-служба единой системы обмена СООБЩЕНИЯМИ)](dialstring-um-web-service.md)
+[dialString (веб-служба единой системы обмена сообщениями)](dialstring-um-web-service.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Предложения
+title: Предложение
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 040a5c8f-b62f-4d1d-9d2c-dc3c5e01481f
-description: Элемент предложения представляет предложение одного собрания.
+description: Элемент предложение представляет одно предложение о собрании.
 ms.openlocfilehash: 24e2db1e0eabe35f7c971b0f1dbcbd333358f171
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,21 +19,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840109"
 ---
-# <a name="suggestion"></a>Предложения
+# <a name="suggestion"></a>Предложение
 
-Элемент **предложения** представляет предложение одного собрания. 
+Элемент **предложение** представляет одно предложение о собрании. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[SuggestionsResponse](suggestionsresponse.md)
+[сугжестионсреспонсе](suggestionsresponse.md)
   
-[SuggestionDayResultArray](suggestiondayresultarray.md)
+[сугжестиондайресултаррай](suggestiondayresultarray.md)
   
-[SuggestionDayResult](suggestiondayresult.md)
+[сугжестиондайресулт](suggestiondayresult.md)
   
-[SuggestionArray](suggestionarray.md)
+[сугжестионаррай](suggestionarray.md)
   
-[Предложения](suggestion.md)
+[Предложение](suggestion.md)
   
 ```xml
 <Suggestion>
@@ -44,10 +44,10 @@ ms.locfileid: "19840109"
 </Suggestion>
 ```
 
- **Предложения**
+ **Предложение**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -57,18 +57,18 @@ ms.locfileid: "19840109"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MeetingTime](meetingtime.md) <br/> |Представляет предложенного собрания.  <br/> |
-|[IsWorkTime](isworktime.md) <br/> |Представляет ли заданное время предложенного собрания во время запланированных трудозатрат.  <br/> |
-|[SuggestionQuality](suggestionquality.md) <br/> |Представляет качества предложенного собрания.  <br/> |
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Содержит массив сведения, описывающие конфликты между пользователями и ресурсы и предложенного собрания.  <br/> |
+|[митингтиме](meetingtime.md) <br/> |Представляет предполагаемое время проведения собрания.  <br/> |
+|[исворктиме](isworktime.md) <br/> |Указывает, приходится ли предложенное время проведения собрания на запланированное рабочее время.  <br/> |
+|[сугжестионкуалити](suggestionquality.md) <br/> |Представляет качество предложенного времени проведения собрания.  <br/> |
+|[аттендиконфликтдатааррай](attendeeconflictdataarray.md) <br/> |Содержит массив данных, описывающих конфликты между пользователями и ресурсами, а также предполагаемое время проведения собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionArray](suggestionarray.md) <br/> |Содержит массив раз предложенного собрания.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray` <br/> |
+|[сугжестионаррай](suggestionarray.md) <br/> |Содержит массив предложенного времени проведения собрания.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -78,7 +78,7 @@ ms.locfileid: "19840109"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -87,7 +87,7 @@ ms.locfileid: "19840109"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

@@ -1,5 +1,5 @@
 ---
-title: Пользователь
+title: Роль
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b115c990-3a2d-4536-9af3-ac1fd06d00dc
-description: Элемент пользователя определяет набор данных пользователя, возвращаемых запросом GetPersona.
+description: Элемент "Персона" указывает набор данных о пользователях, возвращаемых запросом к другому человеку.
 ms.openlocfilehash: 15af72eb0e25e424aa7293ce0cbc2dd31e76abda
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834736"
 ---
-# <a name="persona"></a>Пользователь
+# <a name="persona"></a>Роль
 
-Элемент **пользователя** определяет набор данных пользователя, возвращаемых запросом **GetPersona** . 
+Элемент " **персона** " указывает набор данных о пользователях, возвращаемых запросом к **другому человеку** . 
   
 ```XML
 <Persona>
@@ -123,10 +123,10 @@ ms.locfileid: "19834736"
 
 ```
 
- **PersonaType**
+ **персонатипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -134,13 +134,13 @@ ms.locfileid: "19834736"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[PersonaId](personaid.md) | [PersonaType](personatype.md) | [PersonaObjectStatus](personaobjectstatus.md) | [CreationTime](creationtime.md) | [текст сообщений](bodies.md) | [DisplayNameFirstLastSortKey](displaynamefirstlastsortkey.md) | [DisplayNameLastFirstSortKey ](displaynamelastfirstsortkey.md)  |  [CompanyNameSortKey](companynamesortkey.md) | [HomeCitySortKey](homecitysortkey.md) | [WorkCitySortKey](workcitysortkey.md) | [DisplayNameFirstLastHeader](displaynamefirstlastheader.md) | [DisplayNameLastFirstHeader](displaynamelastfirstheader.md)  |  [FileAsHeader](fileasheader.md) | [DisplayName (string)](displayname-string.md) | [DisplayNameFirstLast](displaynamefirstlast.md) | [DisplayNameLastFirst](displaynamelastfirst.md) | [FileAs](fileas.md) | [FileAsId](fileasid.md)  |  [DisplayNamePrefix](displaynameprefix.md)  |  [GivenName](givenname.md) | [Отчество](middlename.md) | [Фамилия](surname.md) | [создания](generation.md) | [псевдонимов](nickname.md) | [YomiCompanyName](yomicompanyname.md) | [YomiFirstName ](yomifirstname.md)  |  [YomiLastName](yomilastname.md) | [заголовок](title.md) | [отдел](department.md) | [CompanyName](companyname.md) | [расположение](location.md) | [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)  |  [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)  |  [PhoneNumber](phonenumber.md) | [ImAddress (String)](imaddress-string.md) | [HomeCity](homecity.md) | [WorkCity](workcity.md) | [RelevanceScore](relevancescore.md) | [FolderIds (ArrayOfFolderIdType)](folderids-arrayoffolderidtype.md)  |  [Атрибуты (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) | [DisplayNames](displaynames.md) | [FileAses](fileases.md) | [FileAsIds](fileasids.md) | [DisplayNamePrefixes](displaynameprefixes.md) | [GivenNames ](givennames.md)  |  [MiddleNames](middlenames.md) | [фамилии](surnames.md) | [поколения](generations.md) | [псевдонимы](nicknames.md) | [инициалы (ArrayOfStringAttributedValuesType)](initials-arrayofstringattributedvaluestype.md)  |  [ YomiCompanyNames](yomicompanynames.md) | [YomiFirstNames](yomifirstnames.md) | [YomiLastNames](yomilastnames.md) | [BusinessPhoneNumbers](businessphonenumbers.md) | [BusinessPhoneNumbers2](businessphonenumbers2.md) | [HomePhones ](homephones.md)  |  [HomePhones2](homephones2.md) | [MobilePhones](mobilephones.md) | [MobilePhones2](mobilephones2.md) | [AssistantPhoneNumbers](assistantphonenumbers.md) | [CallbackPhones](callbackphones.md)  |  [CarPhones](carphones.md)  |  [HomeFaxes](homefaxes.md) | [OrganizationMainPhones](organizationmainphones.md) | [OtherFaxes](otherfaxes.md) | [OtherTelephones](othertelephones.md) | [OtherPhones2](otherphones2.md) | [пейджеры ](pagers.md)  |  [RadioPhones](radiophones.md) | [TelexNumbers](telexnumbers.md) | [TTYTDDPhoneNumbers](ttytddphonenumbers.md) | [WorkFaxes](workfaxes.md) | [Emails1](emails1.md) | [Emails2 ](emails2.md)  |  [Emails3](emails3.md) | [BusinessHomePages](businesshomepages.md) | [PersonalHomePages](personalhomepages.md) | [OfficeLocations](officelocations.md) | (ImAddresses[) ArrayOfStringAttributedValuesType)](imaddresses-arrayofstringattributedvaluestype.md) | [ImAddresses2](imaddresses2.md) | [ImAddresses3](imaddresses3.md) | [BusinessAddresses](businessaddresses.md) | [HomeAddresses](homeaddresses.md)  |  [ OtherAddresses](otheraddresses.md) | [заголовков](titles.md) | [отделы](departments.md) | [CompanyNames](companynames.md) | [руководители](managers.md) | [AssistantNames](assistantnames.md)  |  [ Профессиях](professions.md) | [SpouseNames](spousenames.md) | [дочерние элементы (ArrayOfStringArrayAttributedValuesType)](children-arrayofstringarrayattributedvaluestype.md) | [школы](schools.md) | [занятиях](hobbies.md)  |  [ WeddingAnniversaries](weddinganniversaries.md) | [рождения](birthdays.md) | [расположения](locations.md) | [ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md)
+[Персонаид](personaid.md) | [персонатипе](personatype.md) | [FileAs](fileas.md)[FileAsIds](fileasids.md) [FileAsHeader](fileasheader.md) |  | [HomeCity](homecity.md)[RelevanceScore](relevancescore.md)[FileAses](fileases.md)[CompanyNameSortKey](companynamesortkey.md) | [DisplayNamePrefix](displaynameprefix.md) | [PhoneNumber](phonenumber.md)[WorkCitySortKey](workcitysortkey.md) | [FileAsId](fileasid.md) | [PersonaObjectStatus](personaobjectstatus.md) | [CreationTime](creationtime.md) |  | [Title](title.md) | [DisplayNames](displaynames.md)[MiddleName](middlename.md) | [HomeCitySortKey](homecitysortkey.md) | [WorkCity](workcity.md)[Generation](generation.md) |  [DisplayNameLastFirstSortKey](displaynamelastfirstsortkey.md) | [Surname](surname.md) | [Bodies](bodies.md) | [DisplayNameLastFirst](displaynamelastfirst.md) | [CompanyName](companyname.md)[DisplayNameFirstLastSortKey](displaynamefirstlastsortkey.md) |  | [DisplayNameLastFirstHeader](displaynamelastfirstheader.md) | [Location](location.md)[DisplayNameFirstLast](displaynamefirstlast.md) | [Department](department.md)[DisplayNameFirstLastHeader](displaynamefirstlastheader.md) | [GivenName](givenname.md) | [YomiCompanyName](yomicompanyname.md)[YomiLastName](yomilastname.md)[Nickname](nickname.md)[YomiFirstName](yomifirstname.md)[Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)[EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)[DisplayName (string)](displayname-string.md) | [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)[FolderIds (ArrayOfFolderIdType)](folderids-arrayoffolderidtype.md)[ImAddress (String)](imaddress-string.md)персонаобжектстатус CreationTime тексты дисплайнамефирстластсорткэй дисплайнамеластфирстсорткэй CompanyNameSortKey HomeCitySortKey |  | WorkCitySortKey DisplayNameFirstLastHeader | DisplayNameLastFirstHeader | FileAsHeader DisplayName (String) | DisplayNameFirstLast DisplayNameLastFirst свойств fileas FileAsId DisplayNamePrefix givenName MiddleName фамилия создание псевдоним YomiCompanyName YomiFirstName YomiLastName название отдел CompanyName расположение | EmailAddress (EmailAddressType) EmailAddresses (ArrayOfEmailAddressesType) PhoneNumber Address (String) HomeCity WorkCity RelevanceScore FolderIds (ArrayOfFolderIdType) (ArrayOfPersonaAttributionsType). DisplayName FileAses |  |  |  |  |  |  |  |  |  |  | [ Дисплайнамепрефиксес](displaynameprefixes.md) | [гивеннамес](givennames.md)[PersonalHomePages](personalhomepages.md)[Emails3](emails3.md)[OfficeLocations](officelocations.md)[BusinessHomePages](businesshomepages.md)[Emails2](emails2.md)[Emails1](emails1.md)[Nicknames](nicknames.md) | [CallbackPhones](callbackphones.md) | [ImAddresses2](imaddresses2.md)[OtherTelephones](othertelephones.md) | [BusinessAddresses](businessaddresses.md)[MiddleNames](middlenames.md) | [AssistantPhoneNumbers](assistantphonenumbers.md) | [ImAddresses3](imaddresses3.md)[HomeAddresses](homeaddresses.md) [WorkFaxes](workfaxes.md)[HomeFaxes](homefaxes.md) |  [MobilePhones](mobilephones.md) | [Surnames](surnames.md) | [CarPhones](carphones.md) | [MobilePhones2](mobilephones2.md) | [TelexNumbers](telexnumbers.md)[Generations](generations.md) | [OrganizationMainPhones](organizationmainphones.md)[YomiCompanyNames](yomicompanynames.md) | [OtherFaxes](otherfaxes.md)[BusinessPhoneNumbers2](businessphonenumbers2.md) | [HomePhones2](homephones2.md) | [RadioPhones](radiophones.md)[BusinessPhoneNumbers](businessphonenumbers.md) | [YomiLastNames](yomilastnames.md) |  | [YomiFirstNames](yomifirstnames.md) |  | [HomePhones](homephones.md) | [OtherPhones2](otherphones2.md)[TTYTDDPhoneNumbers](ttytddphonenumbers.md)[Pagers](pagers.md)[Initials (ArrayOfStringAttributedValuesType)](initials-arrayofstringattributedvaluestype.md) |  | [ImAddresses (ArrayOfStringAttributedValuesType)](imaddresses-arrayofstringattributedvaluestype.md)миддленамес фамилии |  |  | поколения | инициалы | (аррайофстрингаттрибутедвалуестипе) |  | йомикомпанинамес YomiFirstNames | YomiLastNames | BusinessPhoneNumbers BusinessPhoneNumbers2 HomePhones HomePhones2 MobilePhones MobilePhones2 AssistantPhoneNumbers CallbackPhones | CarPhones | HomeFaxes OrganizationMainPhones | OtherFaxes OtherTelephones OtherPhones2 пейджеры RadioPhones TelexNumbers TTYTDDPhoneNumbers WorkFaxes Emails1 Emails2 Emails3 BusinessHomePages PersonalHomePages-Addressing (OfficeLocations) ArrayOfStringAttributedValuesType ImAddresses2 ImAddresses3 BusinessAddresses |  |  |  |  | [ Осераддрессес](otheraddresses.md) | [titles](titles.md) | [Departments](departments.md) | [CompanyNames](companynames.md) | [AssistantNames](assistantnames.md) | [WeddingAnniversaries](weddinganniversaries.md)[SpouseNames](spousenames.md) | [Schools](schools.md) | [Locations](locations.md)[Managers](managers.md) |  | [Birthdays](birthdays.md)[Hobbies](hobbies.md)[Professions](professions.md) |  | [ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md) компанинамес Managers ассистантнамес | профессииs спаусенамес | [детей (аррайофстрингаррайаттрибутедвалуестипе)](children-arrayofstringarrayattributedvaluestype.md)школы о хобби WeddingAnniversaries места рождения ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType) | 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[AddNewImContactToGroupResponse](addnewimcontacttogroupresponse.md) | [AddNewTelUriContactToGroupResponse](addnewteluricontacttogroupresponse.md) | [GetPersonaResponseMessage](getpersonaresponsemessage.md) | [людей](people.md) | [пользователей](personas-ex15websvcsotherref.md)
+[Аддневимконтакттограупреспонсе](addnewimcontacttogroupresponse.md) | [аддневтелуриконтакттограупреспонсе](addnewteluricontacttogroupresponse.md) | [Personas](personas-ex15websvcsotherref.md) [People](people.md)[GetPersonaResponseMessage](getpersonaresponsemessage.md)жетперсонареспонсемессаже люди |  | 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -152,7 +152,7 @@ ms.locfileid: "19834736"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

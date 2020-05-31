@@ -1,5 +1,5 @@
 ---
-title: MarkImportance
+title: маркимпортанце
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 32b8b08f-65e9-4764-b40a-63245551f4a3
-description: Элемент MarkImportance указывает важность, ставится отметка в сообщениях.
+description: Элемент Маркимпортанце указывает важность отметки сообщений.
 ms.openlocfilehash: 32b1fa63ef47327e7d3af717ed9f452e43b16380
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834356"
 ---
-# <a name="markimportance"></a>MarkImportance
+# <a name="markimportance"></a>маркимпортанце
 
-Элемент **MarkImportance** указывает важность, ставится отметка в сообщениях. 
+Элемент **маркимпортанце** указывает важность отметки сообщений. 
   
 ```XML
 <MarkImportance/>
 ```
 
- **ImportanceChoicesType**
+ **импортанцечоицестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,15 +48,15 @@ ms.locfileid: "19834356"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение для этого элемента есть только одно из следующих значений string:
+Текстовое значение для этого элемента ограничено одним из следующих строковых значений:
   
-- Low
+- Низкий
     
-- Обычный
+- Normal
     
-- High
+- Высокий
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -66,7 +66,7 @@ ms.locfileid: "19834356"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: IsExternalMailbox
+title: исекстерналмаилбокс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5cc83174-e684-42c8-b72a-f82d3de3bb2f
-description: Элемент IsExternalMailbox указывает, является ли почтовом ящике внешними по отношению к организации.
+description: Элемент Исекстерналмаилбокс указывает, является ли почтовый ящик внешним по отношению к Организации.
 ms.openlocfilehash: cf9f71e9b955cffd1bebefd5f23acba66ba1b894
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834010"
 ---
-# <a name="isexternalmailbox"></a>IsExternalMailbox
+# <a name="isexternalmailbox"></a>исекстерналмаилбокс
 
-Элемент **IsExternalMailbox** указывает, является ли почтовом ящике внешними по отношению к организации. 
+Элемент **исекстерналмаилбокс** указывает, является ли почтовый ящик внешним по отношению к Организации. 
   
 ```XML
 <IsExternalMailbox>true | false</IsExternalMailbox>
@@ -26,7 +26,7 @@ ms.locfileid: "19834010"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834010"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SearchableMailbox](searchablemailbox.md)
+[сеарчаблемаилбокс](searchablemailbox.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **IsExternalMailbox** указывает, что почтовый ящик относится к внешней организации. Значение **false** указывает, что почтовый ящик в организации. 
+Текстовое значение **true** для элемента **исекстерналмаилбокс** указывает на то, что почтовый ящик находится во внешней организации. Значение **false** указывает, что почтовый ящик находится в Организации. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834010"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: ProposedEnd (AttendeeType)
+title: Пропоседенд (AttendeeType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834895"
 ---
-# <a name="proposedend-attendeetype"></a>ProposedEnd (AttendeeType)
+# <a name="proposedend-attendeetype"></a>Пропоседенд (AttendeeType)
 
 Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Элемент **ProposedEnd (AttendeeType)** указывает время окончания предложенного участника собрания. 
   
@@ -23,10 +23,10 @@ ms.locfileid: "19834895"
 <ProposedEnd/>
 ```
 
- **dateTime**
+ **дата и время**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,7 +44,7 @@ ms.locfileid: "19834895"
 
 Текстовое значение элемента **ProposedEnd (AttendeeType)** является Предложенная дата и время окончания собрания. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834895"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

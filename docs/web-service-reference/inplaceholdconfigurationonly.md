@@ -1,5 +1,5 @@
 ---
-title: InPlaceHoldConfigurationOnly
+title: инплацехолдконфигуратиононли
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 921ecc73-b7e2-40a7-8458-68f18dd5a13b
-description: Элемент InPlaceHoldConfigurationOnly указывает, будет ли для включения конфигурации хранения на месте.
+description: Элемент Инплацехолдконфигуратиононли указывает, следует ли включить конфигурацию хранения на месте.
 ms.openlocfilehash: 3ad020a10e43d8f54e3d603906c856e01b1956eb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833934"
 ---
-# <a name="inplaceholdconfigurationonly"></a>InPlaceHoldConfigurationOnly
+# <a name="inplaceholdconfigurationonly"></a>инплацехолдконфигуратиононли
 
-Элемент **InPlaceHoldConfigurationOnly** указывает, будет ли для включения конфигурации хранения на месте. 
+Элемент **инплацехолдконфигуратиононли** указывает, следует ли включить конфигурацию хранения на месте. 
   
 ```XML
 <InPlaceHoldConfigurationOnly>true | false</InPlaceHoldConfigurationOnly>
@@ -26,7 +26,7 @@ ms.locfileid: "19833934"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19833934"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **InPlaceHoldConfigurationOnly** указывает, что включены конфигурации хранения на месте. Значение **false** указывает, что конфигурация хранения на месте не указан. 
+Текстовое значение **true** для элемента **инплацехолдконфигуратиононли** указывает на то, что включена конфигурация хранения на месте. Значение **false** указывает на то, что конфигурация хранения на месте не включена. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19833934"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

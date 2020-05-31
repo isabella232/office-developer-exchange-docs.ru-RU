@@ -1,5 +1,5 @@
 ---
-title: Идентификатор (ItemIdType)
+title: ID (Итемидтипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a9909ed2-fdc5-4b1f-b7db-1f517add8eb3
-description: Элемент Id указывает идентификатор элемента.
+description: Элемент ID указывает идентификатор элемента.
 ms.openlocfilehash: a0abd81de0fc30bc5168543fc75f44d470eef100
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,25 +15,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833849"
 ---
-# <a name="id-itemidtype"></a>Идентификатор (ItemIdType)
+# <a name="id-itemidtype"></a>ID (Итемидтипе)
 
-Элемент **Id** указывает идентификатор элемента. 
+Элемент **ID** указывает идентификатор элемента. 
   
 ```XML
 <Id Id="" ChangeKey=""/>
 ```
 
- **ItemIdType**
+ **итемидтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|Id  <br/> |Текстовое значение атрибута **Id** является идентификатор элемента.  <br/> |
-|ChangeKey  <br/> |Текстовое значение атрибута **ChangeKey** — это ключ изменения элемента.  <br/> |
+|Id  <br/> |Текстовое значение атрибута **ID** — идентификатор элемента.  <br/> |
+|чанжекэй  <br/> |Текстовое значение атрибута **чанжекэй** — это ключ изменения элемента.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -41,9 +41,9 @@ ms.locfileid: "19833849"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SearchPreviewItem](searchpreviewitem.md)
+[сеарчпревиевитем](searchpreviewitem.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19833849"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

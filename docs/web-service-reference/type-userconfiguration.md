@@ -1,5 +1,5 @@
 ---
-title: Тип (UserConfiguration)
+title: Тип (Усерконфигуратион)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: d09a9621-6950-451a-90dc-920af9cab35c
-description: Элемент Type указывает тип объекта dictionary.
+description: Элемент Type указывает тип объекта Dictionary.
 ms.openlocfilehash: 01729f0b5cb71989aef550abb08346cfe9a35789
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840249"
 ---
-# <a name="type-userconfiguration"></a>Тип (UserConfiguration)
+# <a name="type-userconfiguration"></a>Тип (Усерконфигуратион)
 
-Элемент **Type** указывает тип объекта dictionary. 
+Элемент **Type** указывает тип объекта Dictionary. 
   
 ```xml
 <Type>DateTime or Boolean or Byte or String or Integer32 or UnsignedInteger32 or Integer64 or UnsignedInteger64 or StringArray or ByteArray</Type> 
 ```
 
- **UserConfigurationDictionaryObjectTypesType**
+ **усерконфигуратиондиктионарйобжекттипестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,31 +44,31 @@ ms.locfileid: "19840249"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DictionaryKey](dictionarykey.md) <br/> |Задает ключ словаря для свойства словаря.  <br/> |
-|[DictionaryValue](dictionaryvalue.md) <br/> |Задает словарь значение для свойства словаря.  <br/> |
+|[диктионарикэй](dictionarykey.md) <br/> |Задает ключ словаря для свойства Dictionary.  <br/> |
+|[диктионаривалуе](dictionaryvalue.md) <br/> |Задает значение словаря для свойства Dictionary.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **Type** . 
+В следующей таблице приведены возможные значения элемента **Type** . 
   
-**Значения типа элементов**
+**Значения элементов Type**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
 |DateTime  <br/> ||
-|Логический  <br/> ||
+|Boolean  <br/> ||
 |Байт  <br/> ||
 |String  <br/> ||
 |Integer32  <br/> ||
 |UnsignedInteger32  <br/> ||
 |Integer64  <br/> ||
 |UnsignedInteger64  <br/> ||
-|StringArray  <br/> ||
-|ByteArray  <br/> ||
+|стрингаррай  <br/> ||
+|битеаррай  <br/> ||
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server 2010 с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -76,7 +76,7 @@ ms.locfileid: "19840249"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

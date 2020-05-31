@@ -1,5 +1,5 @@
 ---
-title: Ответ (GetDomainSettings) (SOAP)
+title: Отклик (Жетдомаинсеттингс) (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a5b052df-93bd-4fe1-ac30-83de9a3dfcd7
-description: Элемент Response представляет ответ на звонок GetDomainSettings для отдельного домена.
+description: Элемент Response представляет ответ на вызов Жетдомаинсеттингс для отдельного домена.
 ms.openlocfilehash: 316d77104894cf5ed9121e7dab1c38646765c948
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835169"
 ---
-# <a name="response-getdomainsettings-soap"></a>Ответ (GetDomainSettings) (SOAP)
+# <a name="response-getdomainsettings-soap"></a>Отклик (Жетдомаинсеттингс) (SOAP)
 
-Элемент **Response** представляет ответ на звонок **GetDomainSettings** для отдельного домена. 
+Элемент **Response** представляет ответ на вызов **жетдомаинсеттингс** для отдельного домена. 
   
 ```XML
 <Response>
@@ -28,10 +28,10 @@ ms.locfileid: "19835169"
 </Response>
 ```
 
- **GetDomainSettingsResponse**
+ **жетдомаинсеттингсреспонсе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,15 +41,15 @@ ms.locfileid: "19835169"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DomainResponses (SOAP)](domainresponses-soap.md) <br/> |Содержит ответ для каждого запроса в запросе **GetDomainSettings** домена.  <br/> |
-|[Код ошибки (SOAP)](errorcode-soap.md) <br/> |Содержит код ошибки, связанный с ответом, если это возможно.  <br/> |
-|[Сообщение об ошибке (SOAP)](errormessage-soap.md) <br/> |Содержит сообщение об ошибке, связанное с ответом, если это возможно.  <br/> |
+|[Домаинреспонсес (SOAP)](domainresponses-soap.md) <br/> |Содержит ответ для каждого домена, запрошенного в запросе **жетдомаинсеттингс** .  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Содержит код ошибки, связанный с ответом (если это требуется).  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Содержит сообщение об ошибке, связанное с ответом (если это требуется).  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md) <br/> |Возвращает вызывающему домена параметры конфигурации.  <br/> |
+|[Жетдомаинсеттингсреспонсемессаже (SOAP)](getdomainsettingsresponsemessage-soap.md) <br/> |Возврат к параметрам конфигурации домена, вызывающим абоненты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -60,13 +60,13 @@ ms.locfileid: "19835169"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
 

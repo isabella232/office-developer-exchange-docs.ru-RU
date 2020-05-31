@@ -1,5 +1,5 @@
 ---
-title: SendNotificationResult
+title: сенднотификатионресулт
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: fa9d6202-fa66-4f10-9858-53f4f1ce14bc
-description: Элемент SendNotificationResult содержит ответа в клиентское приложение для push-уведомлений.
+description: Элемент Сенднотификатионресулт содержит ответ клиентского приложения на push-уведомление.
 ms.openlocfilehash: 9acaa396430cf4e06a9c996834874d19dcab50ac
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835350"
 ---
-# <a name="sendnotificationresult"></a>SendNotificationResult
+# <a name="sendnotificationresult"></a>сенднотификатионресулт
 
-Элемент **SendNotificationResult** содержит ответа в клиентское приложение для push-уведомлений. 
+Элемент **сенднотификатионресулт** содержит ответ клиентского приложения на push-уведомление. 
   
 ```xml
 <SendNotificationResult>
@@ -29,10 +29,10 @@ ms.locfileid: "19835350"
 </SendNotificationResult>
 ```
 
- **SendNotificationResultType**
+ **сенднотификатионресулттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19835350"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SubscriptionStatus](subscriptionstatus.md) <br/> |Описание состояния подписки push.  <br/> |
+|[SubscriptionStatus](subscriptionstatus.md) <br/> |Описывает состояние принудительной подписки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19835350"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

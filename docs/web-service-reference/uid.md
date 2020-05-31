@@ -1,5 +1,5 @@
 ---
-title: ИД ПОЛЬЗОВАТЕЛЯ
+title: UID
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: b1c43c1e-b773-4dd1-9a32-32b3b8efeaf9
-description: Элемент UID уникально идентифицирует элемента календаря.
+description: Элемент UID однозначно определяет элемент календаря.
 ms.openlocfilehash: b2b371c885e5656a9e2b1b5afd28f65fa7e195de
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840252"
 ---
-# <a name="uid"></a>ИД ПОЛЬЗОВАТЕЛЯ
+# <a name="uid"></a>UID
 
-Элемент **UID** уникально идентифицирует элемента календаря. 
+Элемент **UID** однозначно определяет элемент календаря. 
   
 ```xml
 <UID>   </UID>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,15 +44,15 @@ ms.locfileid: "19840252"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет сообщение собрания.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашения на собрание.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмены собрания.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет уникальный идентификатор.
+Текстовое значение представляет собой уникальный идентификатор.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -60,7 +60,7 @@ ms.locfileid: "19840252"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

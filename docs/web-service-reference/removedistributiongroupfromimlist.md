@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 35d2e592-38c1-4861-8293-f7fba3328f4e
-description: Элемент RemoveDistributionGroupFromImList представляет запрос для удаления конкретных мгновенного обмена сообщениями списка группу рассылки.
+description: Элемент RemoveDistributionGroupFromImList представляет запрос на удаление определенной группы списков рассылки для обмена мгновенными сообщениями.
 ms.openlocfilehash: 550cf984bf3df8334909dc6206799d6cf36f46c9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19835089"
 ---
 # <a name="removedistributiongroupfromimlist"></a>RemoveDistributionGroupFromImList
 
-Элемент **RemoveDistributionGroupFromImList** представляет запрос для удаления конкретных мгновенного обмена сообщениями списка группу рассылки. 
+Элемент **RemoveDistributionGroupFromImList** представляет запрос на удаление определенной группы списков рассылки для обмена мгновенными сообщениями. 
   
 ```XML
 <RemoveDistributionGroupFromImList>
@@ -25,10 +25,10 @@ ms.locfileid: "19835089"
 </RemoveDistributionGroupFromImList>
 ```
 
- **RemoveDistributionGroupFromImListType**
+ **ремоведистрибутионграупфромимлисттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19835089"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19835089"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

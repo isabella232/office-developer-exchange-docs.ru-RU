@@ -1,5 +1,5 @@
 ---
-title: SharePointSiteUrl
+title: шарепоинтситеурл
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: ITPro
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de9a7e43-518e-49aa-9826-f54bab4279a3
-description: Элемент SharePointSiteURL содержит универсальный код ресурса по URL-сайта SharePoint, которая связана с почтового ящика сайта.
+description: Элемент Шарепоинтситеурл содержит URL-адрес сайта SharePoint, связанного с почтовым ящиком сайта.
 ms.openlocfilehash: 34f9a04ef8b0f46bb14ec467b0fdd7db8882430e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,19 +15,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835473"
 ---
-# <a name="sharepointsiteurl"></a>SharePointSiteUrl
+# <a name="sharepointsiteurl"></a>шарепоинтситеурл
 
-Элемент **SharePointSiteURL** содержит универсальный код ресурса по URL-сайта SharePoint, которая связана с почтового ящика сайта. 
+Элемент **шарепоинтситеурл** содержит URL-адрес сайта SharePoint, связанного с почтовым ящиком сайта. 
   
 ```XML
 <SharePointSiteURL></SharePointSiteURL>
 ```
 
-**string**
+**строка**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,13 +39,13 @@ ms.locfileid: "19835473"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SetTeamMailbox](setteammailbox.md)
+[сеттеаммаилбокс](setteammailbox.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **SharePointSiteURL** — это URL-адрес сайта SharePoint, которая связана с почтового ящика сайта. 
+Текстовое значение элемента **шарепоинтситеурл** — это URL-адрес сайта SharePoint, связанного с почтовым ящиком сайта. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "19835473"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

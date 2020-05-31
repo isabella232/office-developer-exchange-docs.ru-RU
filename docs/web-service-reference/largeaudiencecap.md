@@ -1,5 +1,5 @@
 ---
-title: LargeAudienceCap
+title: ларжеаудиенцекап
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 90709f5b-4a1d-49d2-9236-ecd02bb3cdf8
-description: Элемент LargeAudienceCap указывает максимальное число получателей для сообщения электронной почты.
+description: Элемент Ларжеаудиенцекап указывает максимальное количество получателей сообщения электронной почты.
 ms.openlocfilehash: c207ad37b01e582ebe68f179186354b6d7f8e691
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834196"
 ---
-# <a name="largeaudiencecap"></a>LargeAudienceCap
+# <a name="largeaudiencecap"></a>ларжеаудиенцекап
 
-Элемент **LargeAudienceCap** указывает максимальное число получателей для сообщения электронной почты. 
+Элемент **ларжеаудиенцекап** указывает максимальное количество получателей сообщения электронной почты. 
   
 ```XML
 <LargeAudienceCap></LargeAudienceCap>
 ```
 
- **целое число**
+ **положительн**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834196"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md)
+[Маилтипсконфигуратион (Маилтипссервицеконфигуратион)](mailtipsconfiguration-mailtipsserviceconfiguration.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **LargeAudienceCap** — это максимальное количество получателей, которым может быть отправлено в сообщении электронной почты. 
+Текстовое значение элемента **ларжеаудиенцекап** — максимальное количество получателей, которые могут быть адресованы в сообщении электронной почты. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   

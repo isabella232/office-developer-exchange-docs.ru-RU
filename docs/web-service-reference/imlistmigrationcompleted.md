@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6eed9502-5d9e-4345-ba23-3582ff487147
-description: Элемент ImListMigrationCompleted указывает, содержит ли хранилище Exchange мгновенного обмена сообщениями элементов, используемых в клиентов системы обмена сообщениями.
+description: Элемент ImListMigrationCompleted указывает, содержит ли хранилище Exchange элементы для обмена мгновенными сообщениями, используемые клиентами обмена мгновенными сообщениями.
 ms.openlocfilehash: 25f1b583b354a71958fbc8052c492726dc0eb7db
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19833893"
 ---
 # <a name="imlistmigrationcompleted"></a>ImListMigrationCompleted
 
-Элемент **ImListMigrationCompleted** указывает, содержит ли хранилище Exchange обмена мгновенными сообщениями элементов, используемых в клиентов системы обмена сообщениями. 
+Элемент **ImListMigrationCompleted** указывает, содержит ли хранилище Exchange элементы для обмена мгновенными сообщениями, используемые клиентами обмена мгновенными сообщениями. 
   
 ```XML
 <ImListMigrationCompleted>true | false</ImListMigrationCompleted>
@@ -26,7 +26,7 @@ ms.locfileid: "19833893"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19833893"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SetImListMigrationCompleted](setimlistmigrationcompleted.md)
+[сетимлистмигратионкомплетед](setimlistmigrationcompleted.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **ImListMigrationCompleted** указывает, что хранить обмена мгновенными сообщениями, хранения перенесен в Exchange. Значение **false** указывает, что хранилище контактов мгновенного сообщения не были перенесены. 
+Текстовое значение **true** для элемента **ImListMigrationCompleted** указывает на то, что хранилище контактов для обмена мгновенными сообщениями было перенесено в хранилище Exchange. Значение **false** указывает, что хранилище контактов для обмена мгновенными сообщениями не было перенесено. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19833893"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

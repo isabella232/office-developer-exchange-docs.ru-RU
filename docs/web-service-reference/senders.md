@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 69d88bb1-397c-4fb8-bd2b-21cccc5bb35d
-description: Элемент отправителей указывает массив адресов Simple Mail Transfer Protocol (SMTP).
+description: Элемент Senders указывает массив SMTP-адресов.
 ms.openlocfilehash: 0794b042c00183d56b2fb2aefe8587e0fdf1344d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19835329"
 ---
 # <a name="senders"></a>Отправители
 
-Элемент **отправителей** указывает массив адресов Simple Mail Transfer Protocol (SMTP). 
+Элемент **Senders** указывает массив SMTP-адресов. 
   
 ```XML
 <Senders>
@@ -25,10 +25,10 @@ ms.locfileid: "19835329"
 </Senders>
 ```
 
- **ArrayOfSmtpAddressType**
+ **аррайофсмтпаддресстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,9 +40,9 @@ ms.locfileid: "19835329"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
+[финдмаилбоксстатистиксбикэйвордс](findmailboxstatisticsbykeywords.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19835329"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

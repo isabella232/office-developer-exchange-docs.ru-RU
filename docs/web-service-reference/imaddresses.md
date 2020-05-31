@@ -1,5 +1,5 @@
 ---
-title: ImAddresses
+title: Адреса
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 29f614a7-7fe6-47fa-b5f2-8feff106aa99
-description: Элемент ImAddresses представляет коллекцию мгновенного обмена сообщениями адресов для контакта.
+description: Элемент Addresss представляет коллекцию адресов обмена мгновенными сообщениями для контакта.
 ms.openlocfilehash: e8c7a22e8537a4526594042905f7bb8454238bf1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833861"
 ---
-# <a name="imaddresses"></a>ImAddresses
+# <a name="imaddresses"></a>Адреса
 
-Элемент **ImAddresses** представляет коллекцию мгновенного обмена сообщениями адресов для контакта. 
+Элемент **addresss** представляет коллекцию адресов обмена мгновенными сообщениями для контакта. 
   
 ```xml
 <ImAddresses>
@@ -29,10 +29,10 @@ ms.locfileid: "19833861"
 </ImAddresses>
 ```
 
- **ImAddressDictionaryType**
+ **имаддрессдиктионаритипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19833861"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Запись (IMAddress)](entry-imaddress.md) <br/> |Представляет обмена мгновенными сообщениями адрес контакта.  <br/> |
+|[Запись (адрес)](entry-imaddress.md) <br/> |Представляет адрес обмена мгновенными сообщениями для контакта.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19833861"
 |:-----|:-----|
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19833861"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

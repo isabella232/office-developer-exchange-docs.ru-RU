@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ba9bb159-362d-48e0-889d-823cb46ecebf
-description: Элемент HomePhones2 указывает массив значений HomePhone2 и идентификаторы их атрибуты источника для связанного пользователя.
+description: Элемент HomePhones2 указывает массив значений HomePhone2 и идентификаторы их исходных атрибутов для связанного пользователя.
 ms.openlocfilehash: 205f2f71421a0dfc7d0057412529bcefdb6636d5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19833842"
 ---
 # <a name="homephones2"></a>HomePhones2
 
-Элемент **HomePhones2** указывает массив значений **HomePhone2** и идентификаторы их атрибуты источника для связанного пользователя. 
+Элемент **HomePhones2** указывает массив значений **HomePhone2** и идентификаторы их исходных атрибутов для связанного пользователя. 
   
 ```XML
 <HomePhones2>
@@ -25,10 +25,10 @@ ms.locfileid: "19833842"
 </HomePhones2>
 ```
 
- **ArrayOfPhoneNumberAttributedValuesType**
+ **аррайоффоненумбераттрибутедвалуестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,15 +38,15 @@ ms.locfileid: "19833842"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |Содержит один атрибутами номер телефона для пользователя.  <br/> |
+|[фоненумбераттрибутедвалуе](phonenumberattributedvalue.md) <br/> |Содержит номер телефона с одним атрибутом для пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19833842"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

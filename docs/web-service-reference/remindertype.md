@@ -1,5 +1,5 @@
 ---
-title: ReminderType
+title: реминдертипе
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bfaf84eb-271a-4728-84fc-a20205a100bd
-description: Элемент ReminderType указывает тип напоминаний для возврата.
+description: Элемент Реминдертипе указывает тип напоминаний, которые необходимо вернуть.
 ms.openlocfilehash: 11739d2068a1009b2840b2169e86b113151cbfa9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835077"
 ---
-# <a name="remindertype"></a>ReminderType
+# <a name="remindertype"></a>реминдертипе
 
-Элемент **ReminderType** указывает тип напоминаний для возврата. 
+Элемент **реминдертипе** указывает тип напоминаний, которые необходимо вернуть. 
   
 ```XML
 <ReminderType> All | Current | Old </ReminderType>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19835077"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ReminderType** — тип напоминаний для возврата **всех**, **текущей**или **старой**. **Все** — это рекомендуемое значение для этого элемента. Дополнительные сведения о связи между **ReminderType** элемент и элементы [BeginTime](begintime.md) и [EndTime](endtime-remindermessagedatatype.md) можно [GetReminders операции](getreminders-operation.md).
+Текстовое значение элемента **реминдертипе** — это тип напоминаний, которые возвращаются ( **ALL**, **Current**или **Old**). Для этого элемента рекомендуется использовать значение **ALL** . Дополнительные сведения о связи между элементом Реминдертипе и элементами [бегинтиме](begintime.md) и [EndTime](endtime-remindermessagedatatype.md) можно найти в разделе [Операция](getreminders-operation.md) **ReminderType** .
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19835077"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

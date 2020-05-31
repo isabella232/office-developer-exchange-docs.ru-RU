@@ -1,5 +1,5 @@
 ---
-title: IsMember (FederatedDirectoryGroupType)
+title: DataMember (Федератеддиректориграуптипе)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c610de4-3853-478f-860c-873c4c1bf6ca
-description: Элемент IsMember (FederatedDirectoryGroupType) предназначена только для внутреннего использования.
+description: Элемент DataMember (Федератеддиректориграуптипе) предназначен только для внутреннего использования.
 ms.openlocfilehash: a605b2e3adaa51c3160743450f069c72e245a0d6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834054"
 ---
-# <a name="ismember-federateddirectorygrouptype"></a>IsMember (FederatedDirectoryGroupType)
+# <a name="ismember-federateddirectorygrouptype"></a>DataMember (Федератеддиректориграуптипе)
 
-Элемент **IsMember (FederatedDirectoryGroupType)** предназначена только для внутреннего использования. 
+Элемент **DataMember (федератеддиректориграуптипе)** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -35,7 +35,7 @@ ms.locfileid: "19834054"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

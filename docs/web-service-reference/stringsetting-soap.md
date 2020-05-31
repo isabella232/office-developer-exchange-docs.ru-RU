@@ -1,5 +1,5 @@
 ---
-title: StringSetting (SOAP)
+title: Стрингсеттинг (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bf7096d8-42d4-4bf5-bbdd-851af2754000
-description: Элемент StringSetting представляет параметры, значение которого равно типа String.
+description: Элемент Стрингсеттинг представляет параметр пользователя, имеющий тип String.
 ms.openlocfilehash: af2c8ed243182e3491723be172ae162554250951
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835606"
 ---
-# <a name="stringsetting-soap"></a>StringSetting (SOAP)
+# <a name="stringsetting-soap"></a>Стрингсеттинг (SOAP)
 
-Элемент **StringSetting** представляет параметры, значение которого равно типа String. 
+Элемент **стрингсеттинг** представляет параметр пользователя, имеющий тип String. 
   
 ```XML
 <StringSetting>
@@ -27,10 +27,10 @@ ms.locfileid: "19835606"
 </StringSetting>
 ```
 
- **StringSetting**
+ **стрингсеттинг**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -51,17 +51,17 @@ ms.locfileid: "19835606"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Тип **StringSetting** расширяет тип **UserSetting** . 
+Тип **стрингсеттинг** расширяет тип **усерсеттинг** . 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,7 +70,7 @@ ms.locfileid: "19835606"
 
 [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
   
-[Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+[Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
 

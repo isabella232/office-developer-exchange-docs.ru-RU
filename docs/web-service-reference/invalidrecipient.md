@@ -1,5 +1,5 @@
 ---
-title: InvalidRecipient
+title: инвалидреЦипиент
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9e2d3433-22d7-444b-9883-e5649297d8fe
-description: Элемент InvalidRecipient содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым.
+description: Элемент ИнвалидреЦипиент содержит SMTP-адрес недопустимого получателя и сведения о том, почему получатель не является допустимым.
 ms.openlocfilehash: 800056666e486e9337dcd1c2786f7e6db1e060bb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833961"
 ---
-# <a name="invalidrecipient"></a>InvalidRecipient
+# <a name="invalidrecipient"></a>инвалидреЦипиент
 
-Элемент **InvalidRecipient** содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым. 
+Элемент **инвалидреЦипиент** содержит SMTP-адрес недопустимого получателя и сведения о том, почему получатель не является допустимым. 
   
 ```XML
 <InvalidRecipient>
@@ -32,10 +32,10 @@ ms.locfileid: "19833961"
 
 ```
 
- **InvalidRecipientType**
+ **инвалидреЦипиенттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -46,16 +46,16 @@ ms.locfileid: "19833961"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[SmtpAddress](smtpaddress.md) <br/> |Содержит SMTP-адрес недопустимого получателя. Этот элемент обязательный.  <br/> |
-|[ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md) <br/> |Содержит код ошибки, которая идентифицирует ошибку, с которым возникла запроса. Этот элемент обязательный.  <br/> |
-|[MessageText](messagetext.md) <br/> |Предоставляет текстовое описание состояния ответа. Этот элемент является необязательным.  <br/> |
+|[Респонсекоде (ИнвалидреЦипиентреспонсекодетипе)](responsecode-invalidrecipientresponsecodetype.md) <br/> |Предоставляет код ошибки, определяющий конкретную ошибку, обнаруженную в запросе. Этот элемент обязательный.  <br/> |
+|[мессажетекст](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика. Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[InvalidRecipients](invalidrecipients.md) <br/> |Представляет получателей запрос на общий доступ к папке, которые являются недопустимыми.  <br/> |
+|[инвалидреЦипиентс](invalidrecipients.md) <br/> |Представляет недопустимые получатели запроса на общий доступ к папке.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -65,7 +65,7 @@ ms.locfileid: "19833961"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

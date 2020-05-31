@@ -1,5 +1,5 @@
 ---
-title: Language
+title: Язык
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834225"
 ---
-# <a name="language"></a>Language
+# <a name="language"></a>Язык
 
 Элемент **Language** содержит язык, используемый для поискового запроса. 
   
@@ -23,10 +23,10 @@ ms.locfileid: "19834225"
 <Language></Language>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19834225"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **язык** — это язык, используемый в поиск обнаружения. 
+Текстовое значение элемента **Language** — это язык, используемый для поиска при обнаружении. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834225"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

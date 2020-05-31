@@ -1,5 +1,5 @@
 ---
-title: ToRecipients (ArrayOfSmtpAddressType)
+title: ToRecipients (Аррайофсмтпаддресстипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0e6fb89c-de19-48e7-af63-c41ebdf0b8e9
-description: Элемент ToRecipients Указывает список получателей, которым элемент был отправлен.
+description: Элемент ToRecipients указывает список получателей, которым был отправлен элемент.
 ms.openlocfilehash: dac2c80cfa964ca8e880e9be8a561c8e3ed09780
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840210"
 ---
-# <a name="torecipients-arrayofsmtpaddresstype"></a>ToRecipients (ArrayOfSmtpAddressType)
+# <a name="torecipients-arrayofsmtpaddresstype"></a>ToRecipients (Аррайофсмтпаддресстипе)
 
-Элемент **ToRecipients** Указывает список получателей, которым элемент был отправлен. 
+Элемент **ToRecipients** указывает список получателей, которым был отправлен элемент. 
   
 ```XML
 <ToRecipients>
@@ -25,10 +25,10 @@ ms.locfileid: "19840210"
 </ToRecipients>
 ```
 
- **ArrayOfSmtpAddressType**
+ **аррайофсмтпаддресстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,9 +40,9 @@ ms.locfileid: "19840210"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SearchPreviewItem](searchpreviewitem.md)
+[сеарчпревиевитем](searchpreviewitem.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19840210"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

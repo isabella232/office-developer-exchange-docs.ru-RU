@@ -1,5 +1,5 @@
 ---
-title: MaxItems
+title: макситемс
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4ddba6b8-0f38-42cd-96a1-0d4283f6375b
-description: Элемент MaxItems указывает максимальное число элементов, возвращаемых в запросе.
+description: Элемент Макситемс указывает максимальное количество элементов, возвращаемых в запросе.
 ms.openlocfilehash: dffb9ba4e29915a65fe2a57b6e7a7b4468028fa1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834384"
 ---
-# <a name="maxitems"></a>MaxItems
+# <a name="maxitems"></a>макситемс
 
-Элемент **MaxItems** указывает максимальное число элементов, возвращаемых в запросе. 
+Элемент **макситемс** указывает максимальное количество элементов, возвращаемых в запросе. 
   
 ```XML
 <MaxItems/>
@@ -26,7 +26,7 @@ ms.locfileid: "19834384"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19834384"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **MaxItems** — это максимальное число элементов, возвращаемых в запросе. Это число не может быть меньше нуля или больше, чем 200. 
+Текстовое значение элемента **макситемс** — максимальное количество элементов, возвращаемых в запросе. Это значение не может быть меньше нуля или больше 200. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834384"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

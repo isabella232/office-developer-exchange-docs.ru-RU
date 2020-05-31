@@ -1,5 +1,5 @@
 ---
-title: StartTimeInMinutes
+title: старттимеинминутес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0fb60a78-6e79-4601-8e2f-5bd245c46d69
-description: Элемент StartTimeInMinutes представляет начала рабочего дня для пользователя почтового ящика.
+description: Элемент Старттимеинминутес представляет начало рабочего дня пользователя почтового ящика.
 ms.openlocfilehash: f3f1d26731d0406ff8a0fd45fc0243a9feabf886
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,25 +19,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835558"
 ---
-# <a name="starttimeinminutes"></a>StartTimeInMinutes
+# <a name="starttimeinminutes"></a>старттимеинминутес
 
-Элемент **StartTimeInMinutes** представляет начала рабочего дня для пользователя почтового ящика. 
+Элемент **старттимеинминутес** представляет начало рабочего дня пользователя почтового ящика. 
   
-- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-- [FreeBusyResponseArray](freebusyresponsearray.md)
+- [фрибусиреспонсеаррай](freebusyresponsearray.md)
   
-- [FreeBusyResponse](freebusyresponse.md)
+- [фрибусиреспонсе](freebusyresponse.md)
   
-- [FreeBusyView](freebusyview.md)
+- [фрибусивиев](freebusyview.md)
   
-- [WorkingHours](workinghours-ex15websvcsotherref.md)
+- [воркингхаурс](workinghours-ex15websvcsotherref.md)
   
-- [WorkingPeriodArray](workingperiodarray.md)
+- [воркингпериодаррай](workingperiodarray.md)
   
-- [WorkingPeriod](workingperiod.md)
+- [воркингпериод](workingperiod.md)
   
-- [StartTimeInMinutes](starttimeinminutes.md)
+- [старттимеинминутес](starttimeinminutes.md)
   
 ```xml
 <StartTimeInMinutes>...</StartTimeInMinutes>
@@ -47,7 +47,7 @@ ms.locfileid: "19835558"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -61,15 +61,15 @@ ms.locfileid: "19835558"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Содержит рабочей недели, дни и часы пользователя почтового ящика.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod` <br/> |
+|[воркингпериод](workingperiod.md) <br/> |Содержит рабочие недели, дни и часы пользователя почтового ящика.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Текстовое значение представляет начала рабочего дня, сколько минут, прошедшее с момента начала дня. Например время начала 8: 00 представлены 480 минут.
+Необходимо указать текстовое значение. Текстовое значение обозначает начало рабочего дня, сколько минут прошло с начала дня. Например, время начала 8 часов утра представляется в виде 480 минут.
   
-Диапазон допустимых значений для этого элемента — 0 до 1440.
+Диапазон допустимых значений для этого элемента — от 0 до 1440.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -79,12 +79,12 @@ ms.locfileid: "19835558"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
-- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 - [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

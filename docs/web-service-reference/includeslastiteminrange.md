@@ -1,5 +1,5 @@
 ---
-title: IncludesLastItemInRange
+title: инклудесластитеминранже
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e7d6c7d3-548e-48b0-a313-bfef81e4832a
-description: Элемент IncludesLastItemInRange указывает, включены ли последнего элемента для синхронизации в ответе.
+description: Элемент Инклудесластитеминранже указывает, включен ли последний элемент для синхронизации в ответ.
 ms.openlocfilehash: b4786c5aa81e9b4fee98e7ed4238215ff327443e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833906"
 ---
-# <a name="includeslastiteminrange"></a>IncludesLastItemInRange
+# <a name="includeslastiteminrange"></a>инклудесластитеминранже
 
-Элемент **IncludesLastItemInRange** указывает, включены ли последнего элемента для синхронизации в ответе. 
+Элемент **инклудесластитеминранже** указывает, включен ли последний элемент для синхронизации в ответ. 
   
-[SyncFolderItemsResponse](syncfolderitemsresponse.md)
+[синкфолдеритемсреспонсе](syncfolderitemsresponse.md)
   
-[ResponseMessages](responsemessages.md)
+[респонсемессажес](responsemessages.md)
   
-[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
+[синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md)
   
-[IncludesLastItemInRange](includeslastiteminrange.md)
+[инклудесластитеминранже](includeslastiteminrange.md)
   
 ```xml
 <IncludesLastItemInRange/>
@@ -38,7 +38,7 @@ ms.locfileid: "19833906"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -52,13 +52,13 @@ ms.locfileid: "19833906"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderItems.  <br/> |
+|[синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderItems.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Текстовое значение, представляющее логическое значение является обязательным.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -68,7 +68,7 @@ ms.locfileid: "19833906"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: SubmittedTime
+title: субмиттедтиме
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 45c8fa36-c539-42ca-99dc-1ac33cc54afc
-description: Элемент SubmittedTime представляет время, введенное, что сообщение сервера.
+description: Элемент Субмиттедтиме представляет время, когда сообщение было введено на сервер.
 ms.openlocfilehash: 89fc6400914495b8f1bd3994f17421d0ab079460
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835613"
 ---
-# <a name="submittedtime"></a>SubmittedTime
+# <a name="submittedtime"></a>субмиттедтиме
 
-Элемент **SubmittedTime** представляет время, введенное, что сообщение сервера. 
+Элемент **субмиттедтиме** представляет время, когда сообщение было введено на сервер. 
   
 ```XML
 <SubmittedTime/>
@@ -30,7 +30,7 @@ ms.locfileid: "19835613"
  **DateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19835613"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Содержит результат одного сообщения для элемента [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[мессажетраккингсеарчресулт](messagetrackingsearchresult.md) <br/> |Содержит один результат одного сообщения для элемента [финдмессажетраккингрепортреспонсе](findmessagetrackingreportresponse.md) .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
- Текстовое значение, представляющее даты/времени является обязательным, если данный элемент используется. 
+ При использовании этого элемента необходимо указать текстовое значение, представляющее дату и время. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19835613"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

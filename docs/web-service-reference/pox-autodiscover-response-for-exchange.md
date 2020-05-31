@@ -1,5 +1,5 @@
 ---
-title: POX ответа службы автообнаружения для Exchange
+title: Отклик автообнаружения POX для Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 08c6c5a2-a67a-4141-a8bd-1b5d560b90a7
-description: Ответ на запрос службы автообнаружения, которая содержит список URL-адресов, которые используются для установления привязки с помощью веб-служб Exchange (EWS) содержит ответ службы автообнаружения.
+description: Ответ автообнаружения содержит ответ на запрос автообнаружения, включающий список URL-адресов, которые используются для установки привязки с помощью веб-служб Exchange (EWS).
 ms.openlocfilehash: d9f8a5cc86efaa4dceda7385164872ecc5409252
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,17 +16,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834863"
 ---
-# <a name="pox-autodiscover-response-for-exchange"></a>POX ответа службы автообнаружения для Exchange
+# <a name="pox-autodiscover-response-for-exchange"></a>Отклик автообнаружения POX для Exchange
 
-Ответ на запрос службы автообнаружения, которая содержит список URL-адресов, которые используются для установления привязки с помощью веб-служб Exchange (EWS) содержит ответ службы автообнаружения.
+Ответ автообнаружения содержит ответ на запрос автообнаружения, включающий список URL-адресов, которые используются для установки привязки с помощью веб-служб Exchange (EWS).
   
-## <a name="autodiscover-response-example"></a>Пример ответа службы автообнаружения
+## <a name="autodiscover-response-example"></a>Пример отклика автообнаружения
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа службы автообнаружения.
+В следующем примере показан успешный ответ автообнаружения.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
@@ -72,15 +72,15 @@ ms.locfileid: "19834863"
 </Autodiscover>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Чтобы привязать к веб-служб Exchange, используйте URL-адрес, обнаруженных в элементе [ASUrl (POX)](asurl-pox.md) . 
+Чтобы выполнить присоединение к веб-службам Exchange, используйте URL-адрес, указанный в элементе [асурл (POX)](asurl-pox.md) . 
   
 ### <a name="response-element"></a>Элемент Response
 
-В теле ответа используются следующие элементы:
+В тексте отклика используются следующие элементы:
   
-- [Автообнаружение (POX)](autodiscover-pox.md)
+- [Служба автообнаружения (POX)](autodiscover-pox.md)
     
 - [Ответ (POX)](response-pox.md)
     
@@ -90,13 +90,13 @@ ms.locfileid: "19834863"
     
 - [LegacyDN (POX)](legacydn-pox.md)
     
-- [DeploymentId (POX)](deploymentid-pox.md)
+- [Деплойментид (POX)](deploymentid-pox.md)
     
 - [Учетная запись (POX)](account-pox.md)
     
 - [AccountType (POX)](accounttype-pox.md)
     
-- [Действие (POX)](action-pox.md)
+- [Action (POX)](action-pox.md)
     
 - [Протокол (POX)](protocol-pox.md)
     
@@ -104,31 +104,31 @@ ms.locfileid: "19834863"
     
 - [Сервер (POX)](server-pox.md)
     
-- [ServerDN (POX)](serverdn-pox.md)
+- [Сервердн (POX)](serverdn-pox.md)
     
-- [ServerVersion (POX)](serverversion-pox.md)
+- [Серверверсион (POX)](serverversion-pox.md)
     
-- [MdbDN (POX)](mdbdn-pox.md)
+- [Мдбдн (POX)](mdbdn-pox.md)
     
-- [ASUrl (POX)](asurl-pox.md)
+- [Асурл (POX)](asurl-pox.md)
     
-- [OOFUrl (POX)](oofurl-pox.md)
+- [Уфурл (POX)](oofurl-pox.md)
     
-- [UMUrl (POX)](umurl-pox.md)
+- [Умурл (POX)](umurl-pox.md)
     
-- [OABUrl (POX)](oaburl-pox.md)
+- [Оабурл (POX)](oaburl-pox.md)
     
-- [Внутренний (POX)](internal-pox.md)
+- [Internal (POX)](internal-pox.md)
     
-- [OWAUrl (POX)](owaurl-pox.md)
+- [Оваурл (POX)](owaurl-pox.md)
     
-## <a name="autodiscover-error-response-example"></a>Пример ответа об ошибке автообнаружения
+## <a name="autodiscover-error-response-example"></a>Пример ответа на сообщение об ошибке автообнаружения
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано возврату ошибки службы автообнаружения.
+В следующем примере показан ответ об ошибке автообнаружения.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -143,25 +143,25 @@ ms.locfileid: "19834863"
 </Autodiscover>
 ```
 
-### <a name="error-response-element"></a>Элемент ответа об ошибках
+### <a name="error-response-element"></a>Элемент Response Error
 
-В теле ответа используются следующие элементы:
+В тексте отклика используются следующие элементы:
   
-- [Автообнаружение (POX)](autodiscover-pox.md)
+- [Служба автообнаружения (POX)](autodiscover-pox.md)
     
 - [Ответ (POX)](response-pox.md)
     
 - [Ошибка (POX)](error-pox.md)
     
-- [Код ошибки (POX)](errorcode-pox.md)
+- [ErrorCode (POX)](errorcode-pox.md)
     
 - [Сообщение (POX)](message-pox.md)
     
-- [DebugData (POX)](debugdata-pox.md)
+- [Дебугдата (POX)](debugdata-pox.md)
     
 ## <a name="see-also"></a>См. также
 
 - [Запрос автообнаружения POX для Exchange](pox-autodiscover-request-for-exchange.md)
-- [Служба POX автоматического обнаружения веб-ссылки для Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
-- [Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Справочник по веб-службе автообнаружения POX для Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
+- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

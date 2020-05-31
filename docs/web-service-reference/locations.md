@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 764d6a6e-e13b-4cd5-ad68-60bb422eebce
-description: Элемент расположения указывает массив значений расположения и идентификаторы их атрибуты источника для связанного пользователя.
+description: Элемент Locations указывает массив значений Location и идентификаторы их исходных атрибутов для соответствующего пользователя.
 ms.openlocfilehash: 308fbdda4062b418a8925aa99d025b96e096778d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834249"
 ---
 # <a name="locations"></a>Расположения
 
-Элемент **расположения** указывает массив значений расположения и идентификаторы их атрибуты источника для связанного пользователя. 
+Элемент **Locations** указывает массив значений Location и идентификаторы их исходных атрибутов для соответствующего пользователя. 
   
 ```XML
 <Locations>
@@ -25,10 +25,10 @@ ms.locfileid: "19834249"
 <Locations>
 ```
 
- **ArrayOfStringAttributedValuesType**
+ **аррайофстрингаттрибутедвалуестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19834249"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[StringAttributedValue](stringattributedvalue.md)
+[стрингаттрибутедвалуе](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   

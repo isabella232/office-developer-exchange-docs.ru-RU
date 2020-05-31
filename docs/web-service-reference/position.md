@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 46726ebb-a403-4793-8378-282aa7dc39d0
-description: Элемент позиции указывает положение сущности, извлеченные из сообщения.
+description: Элемент Position указывает позицию объекта, извлеченного из сообщения.
 ms.openlocfilehash: 4bd8f3088891e918e13d5ef1ec8e3e5217cb3fa1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19834853"
 ---
 # <a name="position"></a>Position
 
-Элемент **позиции** указывает положение сущности, извлеченные из сообщения. 
+Элемент **position** указывает позицию объекта, извлеченного из сообщения. 
   
 ```XML
 <Position> LatestReply | Other | Subject | Signature </Position>
 ```
 
- **EmailPositionType**
+ **емаилпоситионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,21 +38,21 @@ ms.locfileid: "19834853"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[UrlEntity](urlentity.md) | [AddressEntity](addressentity.md) | [EmailAddressEntity](emailaddressentity.md) | [MeetingSuggestion](meetingsuggestion.md) | [контакт (ContactType)](contact-contacttype.md) | [Телефон (PhoneEntityType)](phone-phoneentitytype.md)  |  [ TaskSuggestion](tasksuggestion.md)
+[Урлентити](urlentity.md) | [аддрессентити](addressentity.md) | [MeetingSuggestion](meetingsuggestion.md) | [TaskSuggestion](tasksuggestion.md) [EmailAddressEntity](emailaddressentity.md) | [Phone (PhoneEntityType)](phone-phoneentitytype.md)[Contact (ContactType)](contact-contacttype.md)емаиладдрессентити свойства meetingsuggestion | Contact (контакттипе) Phone (фонинтититипе) TaskSuggestion | 
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **положение** — расположение источник извлеченный объект в исходного сообщения. Приведены значения параметра текст для элемента **положение** . 
+Текстовое значение элемента **position** — это место, в котором извлеченная сущность была создана в исходном сообщении. Текстовые значения для элемента **position** : 
   
-- **LatestReply** - извлеченный объект исходит от последнего ответа на сообщение. 
+- **Латестрепли** — извлеченная сущность поступает из последнего ответа на сообщение. 
     
-- **Другие** - извлеченный объект исходит от undefined часть сообщения. 
+- **Другой** — извлеченная сущность поступает из неопределенной части сообщения. 
     
-- **Тема** - извлеченный объект исходит от теме сообщения. 
+- **Subject** — извлеченная сущность поступает из темы сообщения. 
     
-- **Подпись** - извлеченный объект исходит от подпись сообщения. 
+- **Подпись** — извлеченная сущность берется из подписи сообщения. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -64,7 +64,7 @@ ms.locfileid: "19834853"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,5 +1,5 @@
 ---
-title: NonIndexableItemDetailsResult
+title: нониндексаблеитемдетаилсресулт
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7cbdbc21-5405-4cbc-8ca0-d7b0257927aa
-description: Элемент NonIndexableItemDetailsResult указывает результаты операции GetNonIndexableItemDetails WSDL.
+description: Элемент Нониндексаблеитемдетаилсресулт указывает результаты операции WSDL GetNonIndexableItemDetails.
 ms.openlocfilehash: 6e271f2cf0e37f26b945332c94167b6a42354115
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834535"
 ---
-# <a name="nonindexableitemdetailsresult"></a>NonIndexableItemDetailsResult
+# <a name="nonindexableitemdetailsresult"></a>нониндексаблеитемдетаилсресулт
 
-Элемент **NonIndexableItemDetailsResult** указывает результаты операции WSDL **GetNonIndexableItemDetails** . 
+Элемент **нониндексаблеитемдетаилсресулт** указывает результаты операции WSDL **GetNonIndexableItemDetails** . 
   
 ```XML
 <NonIndexableItemDetailsResult>
@@ -26,10 +26,10 @@ ms.locfileid: "19834535"
 </NonIndexableItemDetailsResult>
 ```
 
- **NonIndexableItemDetailResultType**
+ **нониндексаблеитемдетаилресулттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19834535"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Элементы (ArrayOfNonIndexableItemDetailsType)](items-arrayofnonindexableitemdetailstype.md) , [FailedMailboxes](failedmailboxes.md)
+[Items (аррайофнониндексаблеитемдетаилстипе)](items-arrayofnonindexableitemdetailstype.md) , [фаиледмаилбоксес](failedmailboxes.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md) , [GetNonIndexableItemDetailsResponseMessage](getnonindexableitemdetailsresponsemessage.md)
+[Жетнониндексаблеитемдетаилсреспонсе](getnonindexableitemdetailsresponse.md) , [жетнониндексаблеитемдетаилсреспонсемессаже](getnonindexableitemdetailsresponsemessage.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19834535"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

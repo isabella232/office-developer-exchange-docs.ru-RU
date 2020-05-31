@@ -1,5 +1,5 @@
 ---
-title: MailboxHoldStatus
+title: маилбоксхолдстатус
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 92608b77-8aa4-403b-a4de-01e3a60af3e0
-description: Элемент MailboxHoldStatus указывает состояние удержания почтового ящика.
+description: Элемент Маилбоксхолдстатус указывает состояние удержания почтового ящика.
 ms.openlocfilehash: 6703c909d0a7b4e83e190807fc3202ecd4699e7f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834288"
 ---
-# <a name="mailboxholdstatus"></a>MailboxHoldStatus
+# <a name="mailboxholdstatus"></a>маилбоксхолдстатус
 
-Элемент **MailboxHoldStatus** указывает состояние удержания почтового ящика. 
+Элемент **маилбоксхолдстатус** указывает состояние удержания почтового ящика. 
   
 ```XML
 <MailboxHoldStatus>
@@ -27,11 +27,11 @@ ms.locfileid: "19834288"
 </MailboxHoldStatus>
 ```
 
-**MailboxHoldStatusType**
+**маилбоксхолдстатустипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,13 +39,13 @@ ms.locfileid: "19834288"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Почтовый ящик (string)](mailbox-string.md) | [состояния (HoldStatusType)](status-holdstatustype.md) | [AdditionalInfo](additionalinfo.md)
+[Состояние почтового ящика (String)](mailbox-string.md) | [(холдстатустипе)](status-holdstatustype.md) | [аддитионалинфо](additionalinfo.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[MailboxHoldStatuses](mailboxholdstatuses.md)
+[маилбоксхолдстатусес](mailboxholdstatuses.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "19834288"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a796535-7e83-4aa8-850a-d217059050f8
-description: Элемент терминов указывает выделенный терминов в FindConversation или FindItem ответ.
+description: Элемент Term указывает выделенный термин в отклике FindConversation или FindItem.
 ms.openlocfilehash: cef2ecd7c51b61ccff2c7261a7a612095047956c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19840153"
 ---
 # <a name="term"></a>Термин
 
-Элемент **терминов** указывает выделенный терминов в **FindConversation** или **FindItem** ответ. 
+Элемент **Term** указывает выделенный термин в отклике **FindConversation** или **FindItem** . 
   
 ```XML
 <Term>
@@ -26,10 +26,10 @@ ms.locfileid: "19840153"
 </Term>
 ```
 
- **HighlightTermType**
+ **хигхлигхттермтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19840153"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Область (HighlightTermType)](scope-highlighttermtype.md) | [значение](value.md)
+[Значение scope (хигхлигхттермтипе)](scope-highlighttermtype.md) | [Value](value.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[HighlightTerms](highlightterms.md)
+[хигхлигхттермс](highlightterms.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19840153"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

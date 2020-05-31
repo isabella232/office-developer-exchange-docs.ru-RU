@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 28ec96c3-45af-48ff-9f17-718a527dc0ad
-description: Найдите сведения о веб-служб Exchange RemoveContactFromImList операции.
+description: Поиск сведений о RemoveContactFromImListной операции EWS.
 ms.openlocfilehash: 036b295a84e86ad74c467572cc52fdf6bbae5191
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,36 +17,36 @@ ms.locfileid: "19835080"
 ---
 # <a name="removecontactfromimlist-operation"></a>Операция RemoveContactFromImList
 
-Найдите сведения о **RemoveContactFromImList** операции веб-служб Exchange. 
+Поиск сведений о **RemoveContactFromImListной** операции EWS. 
   
-Операция **RemoveContactFromImList** удаляет контактов в списке обмен мгновенными сообщениями (IM) Lync при Lync с помощью Exchange хранилища контактов. 
+Операция **RemoveContactFromImList** удаляет контакты из списка мгновенных сообщений LYNC (IM), когда Lync использует Exchange для хранилища контактов. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-removecontactfromimlist-operation"></a>С помощью операции RemoveContactFromImList
+## <a name="using-the-removecontactfromimlist-operation"></a>Использование операции RemoveContactFromImList
 
-Операция **RemoveContactFromImList** принимает один аргумент, определяющий контакт, чтобы удалить из списка контактов Lync, хранящиеся на сервере Exchange. В списке контактов, что эта операция целевых показателей вызывает **Контактов Lync** в Outlook 2013. 
+Операция **RemoveContactFromImList** принимает один аргумент, который определяет контакт, который необходимо удалить из списка контактов Lync, хранящегося на сервере Exchange. Список контактов, для которых предназначена эта операция, называется **Контакты Lync** в Outlook 2013. 
   
 > [!CAUTION]
-> Не используйте [операцию DeleteItem](deleteitem-operation.md) удалить контакты из списка контактов. Дополнительной обработки на сервере может потребоваться возникают для поддержки при удалении контакта из списка **Контактов Lync** . Обратите внимание, что список **Контактов Lync** концептуальные эквивалент папки почтовых ящиков **Контактов Lync** по умолчанию. 
+> Не используйте [операцию DeleteItem](deleteitem-operation.md) для удаления контактов из списка контактов. Для поддержки удаления контакта из списка **контактов Lync** может потребоваться дополнительная обработка на стороне сервера. Обратите внимание, что список **контактов Lync** является концептуальным эквивалентом стандартной папки почтовых ящиков **контактов Lync** . 
   
-### <a name="removecontactfromimlist-operation-soap-headers"></a>Заголовки SOAP RemoveContactFromImList операции
+### <a name="removecontactfromimlist-operation-soap-headers"></a>Заголовки SOAP операции RemoveContactFromImList
 
-Операция **RemoveContactFromImList** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **RemoveContactFromImList** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="removecontactfromimlist-operation-request-example-remove-a-contact-from-the-lync-contacts-list"></a>Пример запроса RemoveContactFromImList операции: удаление контакта из списка контактов Lync
+## <a name="removecontactfromimlist-operation-request-example-remove-a-contact-from-the-lync-contacts-list"></a>Пример запроса операции RemoveContactFromImList: Удаление контакта из списка контактов Lync
 
-В следующем примере запрос операции **RemoveContactFromImList** показано, как удалить контакт из списка **Контактов Lync** . Операция **RemoveContactFromImList** принимает один уникальный идентификатор контакта для идентификации контакта, удаляется из списка **Контактов Lync** . 
+В следующем примере запроса операции **RemoveContactFromImList** показано, как удалить контакт из списка **контактов Lync** . Операция **RemoveContactFromImList** принимает один уникальный идентификатор контакта для идентификации контакта, который удален из списка **контактов Lync** . 
   
 > [!NOTE]
-> Все идентификаторы элементов и ключей изменения в этой статье URL были сокращены, чтобы сохранить удобочитаемость. 
+> Все идентификаторы элементов и изменения ключей в этой статье были сокращены, чтобы сохранить удобочитаемость. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -66,15 +66,15 @@ ms.locfileid: "19835080"
 
 ```
 
-В приглашении на SOAP body используются следующие элементы:
+В теле SOAP запроса используются следующие элементы:
   
 - [RemoveContactFromImList](removecontactfromimlist.md)
     
 - [ContactId](contactid.md)
     
-## <a name="successful-removecontactfromimlist-operation-response"></a>Успешные операции ответа RemoveContactFromImList
+## <a name="successful-removecontactfromimlist-operation-response"></a>Успешный отклик операции RemoveContactFromImList
 
-В следующем примере показано успешного ответа на запрос операции **RemoveContactFromImList** , чтобы удалить контакт из списка **Контактов Lync** . 
+В следующем примере показан успешный ответ на запрос операции **RemoveContactFromImList** для удаления контакта из списка **контактов Lync** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -100,15 +100,15 @@ ms.locfileid: "19835080"
 </s:Envelope>
 ```
 
-В ответе SOAP body используются следующие элементы:
+В теле SOAP отклика используются следующие элементы:
   
-- [RemoveContactFromImListResponse](removecontactfromimlistresponse.md)
+- [ремовеконтактфромимлистреспонсе](removecontactfromimlistresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="removecontactfromimlist-operation-error-response"></a>Ошибка операции RemoveContactFromImList ответа
+## <a name="removecontactfromimlist-operation-error-response"></a>Ответ об ошибке операции RemoveContactFromImList
 
-В следующем примере показано ошибочный ответ на запрос операции **RemoveContactFromImList** . Это ответ на запрос удаление контакта из списка **Контактов Lync** , когда контакт больше не существует в списке. 
+В следующем примере показан ответ об ошибке для запроса операции **RemoveContactFromImList** . Это ответ на запрос на удаление контакта из списка **контактов Lync** , когда контакт больше не существует в списке. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -137,15 +137,15 @@ ms.locfileid: "19835080"
 
 ```
 
-В ответе ошибка SOAP body используются следующие элементы:
+В теле SOAP отклика об ошибке используются следующие элементы:
   
-- [RemoveContactFromImListResponse](removecontactfromimlistresponse.md)
+- [ремовеконтактфромимлистреспонсе](removecontactfromimlistresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

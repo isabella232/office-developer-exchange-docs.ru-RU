@@ -1,5 +1,5 @@
 ---
-title: MaximumBodySize
+title: максимумбодисизе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cc52f7f5-c2a8-4cfb-937b-dfec6cd3ea0f
-description: Элемент MaximumBodySize указывает максимальный размер текста элемента, чтобы вернуться в ответе.
+description: Элемент Максимумбодисизе указывает максимальный размер основного текста элемента, возвращаемого в ответе.
 ms.openlocfilehash: 803a004f3eda1066be073b076fbdaa76699e3e7b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834392"
 ---
-# <a name="maximumbodysize"></a>MaximumBodySize
+# <a name="maximumbodysize"></a>максимумбодисизе
 
-Элемент **MaximumBodySize** указывает максимальный размер текста элемента, чтобы вернуться в ответе. 
+Элемент **максимумбодисизе** указывает максимальный размер основного текста элемента, возвращаемого в ответе. 
   
 ```XML
 <MaximumBodySize></MaximumBodySize>
@@ -26,7 +26,7 @@ ms.locfileid: "19834392"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834392"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[ItemShape](itemshape.md)
+[итемшапе](itemshape.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **MaximumBodySize** указывает максимальный размер свойство [Body](body.md) , возвращаемого в ответе. Измеряется в килобайтах. 
+Текстовое значение элемента **максимумбодисизе** указывает максимальный размер свойства [Body](body.md) , возвращаемого в ответе. Измеряется в килобайтах. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834392"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

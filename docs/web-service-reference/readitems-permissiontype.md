@@ -1,5 +1,5 @@
 ---
-title: ReadItems (PermissionType)
+title: ReadItems (Пермиссионтипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0a11a802-28e2-436b-b5a9-30fd064675a6
-description: Элемент ReadItems указывает, является ли пользователь имеет разрешение на чтение элементов в папке. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+description: Элемент ReadItems указывает, имеет ли пользователь разрешение на чтение элементов в папке. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
 ms.openlocfilehash: bf266c77106f25b90ffd174e25fb0c3972ab91cb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834961"
 ---
-# <a name="readitems-permissiontype"></a>ReadItems (PermissionType)
+# <a name="readitems-permissiontype"></a>ReadItems (Пермиссионтипе)
 
-Элемент **ReadItems** указывает, является ли пользователь имеет разрешение на чтение элементов в папке. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **ReadItems** указывает, имеет ли пользователь разрешение на чтение элементов в папке. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <ReadItems>None or FullDetails</ReadItems>
 ```
 
- **PermissionReadAccessType**
+ **пермиссионреадакцесстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,14 +50,14 @@ ms.locfileid: "19834961"
 
 В следующей таблице приведены возможные значения для элемента **ReadItems** . 
   
-**ReadItems элемент текстовые значения**
+**Текстовые значения элементов ReadItems**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Нет  <br/> |Указывает, что пользователь не имеет разрешения на чтение элементов в папке.  <br/> |
-|FullDetails  <br/> |Указывает, что пользователь имеет разрешение на чтение всех элементов в папке.  <br/> |
+|Нет  <br/> |Указывает, что у пользователя нет разрешения на чтение элементов в папке.  <br/> |
+|фуллдетаилс  <br/> |Указывает, что у пользователя есть разрешение на чтение всех элементов в папке.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -67,7 +67,7 @@ ms.locfileid: "19834961"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

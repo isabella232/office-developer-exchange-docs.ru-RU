@@ -1,5 +1,5 @@
 ---
-title: HomeCity
+title: хомеЦити
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 410efc09-5c38-46fb-85b5-eb365be0ba35
-description: Элемент HomeCity указывает город домашний адрес связанного пользователя.
+description: Элемент ХомеЦити указывает город для домашнего адреса сопоставленного пользователя.
 ms.openlocfilehash: 1d9c3153d3c6232082f699697fc7faf108b43c70
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833832"
 ---
-# <a name="homecity"></a>HomeCity
+# <a name="homecity"></a>хомеЦити
 
-Элемент **HomeCity** указывает город домашний адрес связанного пользователя. 
+Элемент **хомеЦити** указывает город для домашнего адреса сопоставленного пользователя. 
   
 ```XML
 <HomeCity></HomeCity>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19833832"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **HomeCity** — это строковое значение, указывающее города. 
+Текстовое значение элемента **хомеЦити** — это строковое значение, задающее город. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19833832"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

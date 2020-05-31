@@ -1,5 +1,5 @@
 ---
-title: SubscribeResponse
+title: субскрибереспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: fd87e9b7-c231-44fa-9f5b-19ae96cda5cc
-description: Элемент SubscribeResponse определяет ответ на запрос подписки на.
+description: Элемент Субскрибереспонсе определяет ответ на запрос Subscribe.
 ms.openlocfilehash: 9c4fb0e9282acd2dfd8dcb66669815edcbd69ff2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835615"
 ---
-# <a name="subscriberesponse"></a>SubscribeResponse
+# <a name="subscriberesponse"></a>субскрибереспонсе
 
-Элемент **SubscribeResponse** определяет ответ на запрос подписки на. 
+Элемент **субскрибереспонсе** определяет ответ на запрос Subscribe. 
   
-[SubscribeResponse](subscriberesponse.md)
+[субскрибереспонсе](subscriberesponse.md)
   
 ```xml
 <SubscribeResponse>
@@ -31,10 +31,10 @@ ms.locfileid: "19835615"
 </SubscribeResponse>
 ```
 
- **SubscribeResponseType**
+ **субскрибереспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19835615"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -60,8 +60,8 @@ ms.locfileid: "19835615"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
-|Может быть пустым  <br/> |True  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Может быть пустым  <br/> |Верно.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

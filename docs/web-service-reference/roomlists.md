@@ -1,5 +1,5 @@
 ---
-title: RoomLists
+title: румлистс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2b190823-b11e-4635-97e4-3aba5865fd05
-description: Элемент RoomLists приведен список один или несколько адресов, которые представляют список конференц-залы.
+description: Элемент Румлистс — это список из одного или нескольких адресов, которые представляют список комнат для собраний.
 ms.openlocfilehash: eb03c34aeb5d80c4a9c6c92471e4094c63f04c87
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,22 +19,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835252"
 ---
-# <a name="roomlists"></a>RoomLists
+# <a name="roomlists"></a>румлистс
 
-Элемент **RoomLists** приведен список один или несколько адресов, которые представляют список конференц-залы. 
+Элемент **румлистс** — это список из одного или нескольких адресов, которые представляют список комнат для собраний. 
   
-[GetRoomListsResponse](getroomlistsresponse.md)
+[жетрумлистсреспонсе](getroomlistsresponse.md)
   
-[RoomLists](roomlists.md)
+[румлистс](roomlists.md)
   
 ```xml
 <RoomLists>   <Address/></RoomLists>
 ```
 
- **ArrayOfEmailAddressesType**
+ **аррайофемаиладдрессестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,17 +44,17 @@ ms.locfileid: "19835252"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Адрес (EmailAddressType)](address-emailaddresstype.md) <br/> |Задает адрес электронной почты и отображаемое имя, представляющий список помещений. Этот элемент является необязательным.  <br/> |
+|[Адрес (EmailAddressType)](address-emailaddresstype.md) <br/> |Определяет адрес электронной почты и отображаемое имя, представляющее список помещений. Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetRoomListsResponse](getroomlistsresponse.md) <br/> |Содержит состояние и результат [операции GetRoomLists](getroomlists-operation.md) запроса.  <br/> |
+|[жетрумлистсреспонсе](getroomlistsresponse.md) <br/> |Содержит состояние и результат запроса [операции GetRoomLists](getroomlists-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором работает Exchange Server с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором установлен сервер Exchange Server с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -62,7 +62,7 @@ ms.locfileid: "19835252"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

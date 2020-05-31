@@ -1,5 +1,5 @@
 ---
-title: PrintAllowed
+title: принталловед
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7232505a-bab0-4d78-87bc-6cc4b568937a
-description: Элемент PrintAllowed указывает, включена ли печати.
+description: Элемент Принталловед указывает, включена ли печать.
 ms.openlocfilehash: 85c18f3a6bd8f1705d0e21b99bae15484348f777
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834880"
 ---
-# <a name="printallowed"></a>PrintAllowed
+# <a name="printallowed"></a>принталловед
 
-Элемент **PrintAllowed** указывает, включена ли печати. 
+Элемент **принталловед** указывает, включена ли печать. 
   
 ```XML
 <PrintAllowed> true | false </PrintAllowed>
@@ -26,7 +26,7 @@ ms.locfileid: "19834880"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834880"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[RightsManagementLicenseData](rightsmanagementlicensedata.md)
+[ригхтсманажементлиценседата](rightsmanagementlicensedata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **PrintAllowed** указывает, что печатать содержимое для элемента управляемых правами. Значение **false** указывает, что печати не допускается. 
+Текстовое значение **true** для элемента **принталловед** указывает на то, что печать содержимого разрешена для элемента, управляемого правами. Значение **false** указывает, что печать не разрешена. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834880"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

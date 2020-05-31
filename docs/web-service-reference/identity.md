@@ -1,5 +1,5 @@
 ---
-title: Identity
+title: Идентификатор
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ecb533ba-c24a-4940-a852-7988cb385113
-description: Элемент Identity предназначена только для внутреннего использования.
+description: Элемент Identity предназначен только для внутреннего использования.
 ms.openlocfilehash: 9b970b6427575a4e96815e2388fb9ae4d545f6b5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833850"
 ---
-# <a name="identity"></a>Identity
+# <a name="identity"></a>Идентификация
 
-Элемент **Identity** предназначена только для внутреннего использования. 
+Элемент **Identity** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -35,7 +35,7 @@ ms.locfileid: "19833850"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

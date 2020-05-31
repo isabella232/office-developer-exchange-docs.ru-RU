@@ -1,5 +1,5 @@
 ---
-title: MailboxDataArray
+title: маилбоксдатааррай
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a14af788-beee-452c-b5d0-37bcb4ef02ff
-description: Элемент MailboxDataArray содержит список почтовых ящиков для запроса сведений о доступности.
+description: Элемент Маилбоксдатааррай содержит список почтовых ящиков, в которых запрашиваются сведения о доступности.
 ms.openlocfilehash: b76e71ee9127dc2221e0065a27d3c781f8b5786a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834283"
 ---
-# <a name="mailboxdataarray"></a>MailboxDataArray
+# <a name="mailboxdataarray"></a>маилбоксдатааррай
 
-Элемент **MailboxDataArray** содержит список почтовых ящиков для запроса сведений о доступности. 
+Элемент **маилбоксдатааррай** содержит список почтовых ящиков, в которых запрашиваются сведения о доступности. 
   
-- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-- [MailboxDataArray](mailboxdataarray.md)
+- [маилбоксдатааррай](mailboxdataarray.md)
   
 - [MailboxData](mailboxdata.md)
   
@@ -35,11 +35,11 @@ ms.locfileid: "19834283"
 </MailboxDataArray>
 ```
 
-**ArrayOfMailboxData**
+**аррайофмаилбоксдата**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -55,11 +55,11 @@ ms.locfileid: "19834283"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Содержит аргументы, используемые для получения сведений о доступности пользователя. Это корневой элемент.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[жетусераваилабилитирекуест](getuseravailabilityrequest.md) <br/> |Содержит аргументы, используемые для получения сведений о доступности пользователя. Это корневой элемент.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft® Exchange Server 2007 с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает Microsoft® Exchange Server 2007, на котором установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -67,12 +67,12 @@ ms.locfileid: "19834283"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
-- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
 - [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

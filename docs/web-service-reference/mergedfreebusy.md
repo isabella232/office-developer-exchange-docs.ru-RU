@@ -1,5 +1,5 @@
 ---
-title: MergedFreeBusy
+title: мержедфрибуси
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ea45590d-476e-4b68-9fe8-ae392feadfea
-description: Элемент MergedFreeBusy содержит объединенные занятости поток данных.
+description: Элемент Мержедфрибуси содержит Объединенный поток данных о занятости.
 ms.openlocfilehash: 542b9fae0c36b0236bd806e8a9117753968e812c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,28 +19,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834449"
 ---
-# <a name="mergedfreebusy"></a>MergedFreeBusy
+# <a name="mergedfreebusy"></a>мержедфрибуси
 
-Элемент **MergedFreeBusy** содержит объединенные занятости поток данных. 
+Элемент **мержедфрибуси** содержит Объединенный поток данных о занятости. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
+[фрибусиреспонсеаррай](freebusyresponsearray.md)
   
-[FreeBusyResponse](freebusyresponse.md)
+[фрибусиреспонсе](freebusyresponse.md)
   
-[FreeBusyView](freebusyview.md)
+[фрибусивиев](freebusyview.md)
   
-[MergedFreeBusy](mergedfreebusy.md)
+[мержедфрибуси](mergedfreebusy.md)
   
 ```xml
 <MergedFreeBusy>...</MergedFreeBusy>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -54,35 +54,35 @@ ms.locfileid: "19834449"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FreeBusyView](freebusyview.md) <br/> |Содержит сведения о доступности для конкретного пользователя.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
+|[фрибусивиев](freebusyview.md) <br/> |Содержит сведения о доступности для определенного пользователя.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Сервер предоставляет текстовое значение, если значение для элемента [FreeBusyViewType](freebusyviewtype.md) — это один из следующих: 
+Текстовое значение предоставляется сервером, если для элемента [фрибусивиевтипе](freebusyviewtype.md) задано одно из следующих значений: 
   
-- DetailedMerged
+- детаиледмержед
     
-- FreeBusyMerged
+- фрибусимержед
     
-- MergedOnly
+- мержедонли
     
-Текстовое значение представляет собой поток сведений о доступности. 
+Текстовое значение — это поток сведений о занятости. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Поток данных, представленные в этом элементе определяется элементов [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) и [значение TimeWindow](timewindow.md) . Элемент [значение TimeWindow](timewindow.md) определяет период времени, запрос для обеспечения доступности. Элемент [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) определяет, как время из элемента [значение TimeWindow](timewindow.md) разбивается на интервалы, возвращаемых в элементе **MergedFreeBusy** . Каждый номер в потоке **MergedFreeBusy** представляет один интервал, определенные в элементе [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) . В следующей таблице перечислены возможные значения для отдельных интервала. 
+Поток данных, предоставляемых этим элементом, определяется элементами [мержедфрибусинтервалинминутес](mergedfreebusyintervalinminutes.md) и [TimeWindow](timewindow.md) . Элемент [TimeWindow](timewindow.md) определяет временной интервал, запрашиваемый для обеспечения доступности. Элемент [мержедфрибусинтервалинминутес](mergedfreebusyintervalinminutes.md) определяет, как время из элемента [TimeWindow](timewindow.md) разбивается на интервалы, возвращаемые в элементе **мержедфрибуси** . Каждое число в потоке **мержедфрибуси** представляет собой один интервал, заданный элементом [мержедфрибусинтервалинминутес](mergedfreebusyintervalinminutes.md) . В следующей таблице перечислены возможные значения для отдельного интервала. 
   
-|**Цифры**|**Доступность**|
+|**Четырехзначные**|**Доступность**|
 |:-----|:-----|
-|0  <br/> |Свободна  <br/> |
-|1  <br/> |Под вопросом  <br/> |
+|нуль  <br/> |Свободна  <br/> |
+|1,1  <br/> |Занят  <br/> |
 |2  <br/> |Занята  <br/> |
-|3  <br/> |Нет на месте (OOF)  <br/> |
-|4  <br/> |Нет данных  <br/> |
+|4  <br/> |Отсутствие на работе (OOF)  <br/> |
+|4   <br/> |Нет данных  <br/> |
    
-Например запрос на данные о доступности включает в себя элемент [значение TimeWindow](timewindow.md) , представляющий четырех часов и [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) элемент, представляющий 60 минут. Если календарь запрошенного пользователя об отсутствии на работе для первого 60 минут, «занят» для следующих 90 минут и незапланированной для окончательного 90 минут в окне времени в потоке **MergedFreeBusy** будет 3220. Если интервал содержит более одного классификации доступности, самое большое число используется для классификации этого интервала. 
+Например, запрос данных о занятости содержит элемент [TimeWindow](timewindow.md) , который представляет четыре часа и элемент [мержедфрибусинтервалинминутес](mergedfreebusyintervalinminutes.md) , представляющий 60 минут. Если запрашиваемый календарь пользователя не работает в течение первых 60 минут, он занят в течение следующих 90 минут и незапланированный для конечной 90 минут в окне времени, поток **мержедфрибуси** будет равен 3220. Если интервал содержит более одной классификации доступности, для классификации этого интервала используется самый высокий номер. 
   
-Уровень детализации, представленные в этом элементе зависит от разрешения, предоставленные для инициатора запроса.
+Уровень детализации, предоставляемый этим элементом, зависит от разрешений, предоставленных запрашивающему участнику.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -92,7 +92,7 @@ ms.locfileid: "19834449"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -101,7 +101,7 @@ ms.locfileid: "19834449"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

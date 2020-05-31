@@ -1,5 +1,5 @@
 ---
-title: SetRuleOperation
+title: сетрулеоператион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2106a85b-58fe-49be-b71d-4ca6aa66e060
-description: Элемент SetRuleOperation представляет операцию для обновления существующего правила.
+description: Элемент Сетрулеоператион представляет операцию для обновления существующего правила.
 ms.openlocfilehash: 9c956394d14c510e8dcc95110ef1874ea7010be0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835451"
 ---
-# <a name="setruleoperation"></a>SetRuleOperation
+# <a name="setruleoperation"></a>сетрулеоператион
 
-Элемент **SetRuleOperation** представляет операцию для обновления существующего правила. 
+Элемент **сетрулеоператион** представляет операцию для обновления существующего правила. 
   
 [UpdateInboxRules](updateinboxrules.md)
   
-[Операции](operations.md)
+[Operations](operations.md)
   
 ```XML
 <SetRuleOperation>
@@ -33,10 +33,10 @@ ms.locfileid: "19835451"
 </SetRuleOperation>
 ```
 
- **SetRuleOperationType**
+ **сетрулеоператионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -58,7 +58,7 @@ ms.locfileid: "19835451"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -68,7 +68,7 @@ ms.locfileid: "19835451"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -77,9 +77,9 @@ ms.locfileid: "19835451"
 
 [UpdateInboxRules](updateinboxrules.md)
   
-[DeleteRuleOperation](deleteruleoperation.md)
+[делетерулеоператион](deleteruleoperation.md)
   
-[CreateRuleOperation](createruleoperation.md)
+[креатерулеоператион](createruleoperation.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

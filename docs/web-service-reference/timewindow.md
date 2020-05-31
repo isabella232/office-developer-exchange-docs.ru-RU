@@ -1,5 +1,5 @@
 ---
-title: Значение TimeWindow
+title: TimeWindow
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 49c79266-353a-4036-a8e2-8a4660d0d8ea
-description: Элемент значение TimeWindow указывает промежуток времени, запрос пользователя сведений о доступности.
+description: Элемент TimeWindow определяет интервал времени, запрошенный для сведений о доступности пользователя.
 ms.openlocfilehash: 05858b4d62b72b3ff9904c90652bb1bff78ceb41
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840189"
 ---
-# <a name="timewindow"></a>Значение TimeWindow
+# <a name="timewindow"></a>TimeWindow
 
-Элемент **значение TimeWindow** указывает промежуток времени, запрос пользователя сведений о доступности. 
+Элемент **TimeWindow** определяет интервал времени, запрошенный для сведений о доступности пользователя. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-[FreeBusyViewOptions](freebusyviewoptions.md)
+[фрибусивиевоптионс](freebusyviewoptions.md)
   
-[Значение TimeWindow](timewindow.md)
+[TimeWindow](timewindow.md)
   
 ```xml
 <TimeWindow>
@@ -36,10 +36,10 @@ ms.locfileid: "19840189"
 </TimeWindow>
 ```
 
- **Срок действия**
+ **Duration**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -49,21 +49,21 @@ ms.locfileid: "19840189"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Время начала](starttime.md) <br/> |Представляет начало промежуток времени, запрос пользователя сведений о доступности.  <br/> |
-|[Время окончания](endtime.md) <br/> |Представляет конец промежуток времени, запрос пользователя сведений о доступности.  <br/> |
+|[StartTime](starttime.md) <br/> |Представляет начало интервала времени, запрошенного для сведений о доступности пользователя.  <br/> |
+|[EndTime](endtime.md) <br/> |Представляет конец интервала времени, запрошенного для сведений о доступности пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Указывает тип сведений о доступности, возвращаемого в ответе.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
+|[фрибусивиевоптионс](freebusyviewoptions.md) <br/> |Указывает тип сведений о доступности, возвращаемых в ответе.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Максимальное значение для этого периода времени — 42 дня. Это максимальное значение может быть изменено. Все запросы на сведения о доступности пользователя за пределы максимальное значение возвращает ошибку. Если встречи, частично в промежуток времени, определенные в элементы [StartTime](starttime.md) и [EndTime](endtime.md) встречи включается целиком. 
+Максимальное значение для этого периода времени составляет 42 дней. Это максимальное значение можно изменить. Все запросы сведений о доступности пользователей за пределами максимального значения будут возвращать ошибку. Если какие-либо встречи частично указаны в диапазоне времени, определенном элементами [StartTime](starttime.md) и [EndTime](endtime.md) , эта встреча включается целиком. 
   
 > [!NOTE]
-> Схема, описывающая этот элемент находится в каталоге /EWS/ компьютера, на котором выполняется Microsoft® Exchange Server 2007 с установленной ролью сервера клиентского доступа. 
+> Схема, описывающая этот элемент, находится в каталоге/ЕВС/компьютера, на котором работает Microsoft® Exchange Server 2007, на котором установлена роль сервера клиентского доступа. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -71,7 +71,7 @@ ms.locfileid: "19840189"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

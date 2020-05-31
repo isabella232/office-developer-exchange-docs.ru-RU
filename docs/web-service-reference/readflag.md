@@ -1,5 +1,5 @@
 ---
-title: ReadFlag
+title: реадфлаг
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9d91aa89-9f9f-4877-846d-aaf48bbeec7c
-description: Элемент ReadFlag указывает состояние чтения, чтобы задать для элементов в папке.
+description: Элемент Реадфлаг указывает состояние чтения, которое необходимо задать для элементов в папке.
 ms.openlocfilehash: f3156a51fbdd3372dd28f2065499d26a50b3d497
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834954"
 ---
-# <a name="readflag"></a>ReadFlag
+# <a name="readflag"></a>реадфлаг
 
-Элемент **ReadFlag** указывает состояние чтения, чтобы задать для элементов в папке. 
+Элемент **реадфлаг** указывает состояние чтения, которое необходимо задать для элементов в папке. 
   
 ```XML
 <ReadFlag>true | false</ReadFlag>
@@ -26,7 +26,7 @@ ms.locfileid: "19834954"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19834954"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **ReadFlag** указывает, что элементы в папке будут помечены как чтения. Значение **false** указывает, что элементы в папке будут помечены как непрочитанные. 
+Текстовое значение **true** для элемента **реадфлаг** указывает на то, что элементы в папке помечаются как прочтенные. Значение **false** указывает на то, что элементы в папке помечаются как непрочтенные. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834954"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

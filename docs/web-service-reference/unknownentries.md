@@ -1,5 +1,5 @@
 ---
-title: UnknownEntries
+title: ункновнентриес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 107ec73e-083a-4956-9d37-33d4734cc157
-description: Элемент UnknownEntries содержит массив объектов Неизвестный разрешений, которые не удалось разрешить от службы каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+description: Элемент Ункновнентриес содержит массив неизвестных записей разрешений, которые не удается разрешить в службе каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
 ms.openlocfilehash: 306e5f226a56694bb1ff32362f77e7dff80865ad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840296"
 ---
-# <a name="unknownentries"></a>UnknownEntries
+# <a name="unknownentries"></a>ункновнентриес
 
-Элемент **UnknownEntries** содержит массив объектов Неизвестный разрешений, которые не удалось разрешить от службы каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **ункновнентриес** содержит массив неизвестных записей разрешений, которые не удается разрешить в службе каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <UnknownEntries>
@@ -29,10 +29,10 @@ ms.locfileid: "19840296"
 </UnknownEntries>
 ```
 
- **ArrayOfUnknownEntriesType**
+ **аррайофункновнентриестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,18 +42,18 @@ ms.locfileid: "19840296"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UnknownEntry](unknownentry.md) <br/> |Представляет элемент одного Неизвестный разрешения, который не удается разрешить с Active Directory. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[ункновнентри](unknownentry.md) <br/> |Представляет одну неизвестную запись разрешения, которая не может быть разрешена в Active Directory. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |Содержит все разрешения, которые настроены для папки. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
-|[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |Содержит все разрешения, которые настроены для папки «Календарь». Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[PermissionSet (Пермиссионсеттипе)](permissionset-permissionsettype.md) <br/> |Содержит все разрешения, настроенные для папки. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[PermissionSet (Календарпермиссионсеттипе)](permissionset-calendarpermissionsettype.md) <br/> |Содержит все разрешения, настроенные для папки календаря. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Неизвестный записи можно удалить из папки с помощью операции UpdateFolder элемент [SetFolderField](setfolderfield.md) . Неизвестный записи будут удалены при сбросе PermissionSet с помощью параметра SetFolderField UpdateFolder операции. Веб-служб Exchange не поддерживает удаление отдельных операций. 
+Вы можете удалять неизвестные записи из папки с помощью операции операцию UpdateFolder с элементом [сетфолдерфиелд](setfolderfield.md) . Неизвестные записи удаляются при сбросе набора разрешений с помощью параметра Сетфолдерфиелд операции операцию UpdateFolder. Веб-службы Exchange не поддерживают удаление отдельных записей. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -63,14 +63,14 @@ ms.locfileid: "19840296"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операцию UpdateFolder](updatefolder-operation.md)
+[Операция UpdateFolder](updatefolder-operation.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

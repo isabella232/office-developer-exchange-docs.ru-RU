@@ -1,5 +1,5 @@
 ---
-title: MinimumSuggestionQuality
+title: минимумсугжестионкуалити
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3725cbd4-9bc1-4f7d-8929-b2c68cb46114
-description: Элемент MinimumSuggestionQuality определяет качество предложения о собрании должно быть возвращено в ответе.
+description: Элемент Минимумсугжестионкуалити определяет качество предложений о встречах, возвращаемых в ответе.
 ms.openlocfilehash: ac79682bd761f678f23fc2d698a50fd7704f6fab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,24 +19,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834468"
 ---
-# <a name="minimumsuggestionquality"></a>MinimumSuggestionQuality
+# <a name="minimumsuggestionquality"></a>минимумсугжестионкуалити
 
-Элемент **MinimumSuggestionQuality** определяет качество предложения о собрании должно быть возвращено в ответе. 
+Элемент **минимумсугжестионкуалити** определяет качество предложений о встречах, возвращаемых в ответе. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-[SuggestionsViewOptions](suggestionsviewoptions.md)
+[сугжестионсвиевоптионс](suggestionsviewoptions.md)
   
-[MinimumSuggestionQuality](minimumsuggestionquality.md)
+[минимумсугжестионкуалити](minimumsuggestionquality.md)
   
 ```xml
 <MinimumSuggestionQuality>...</MinimumSuggestionQuality>
 ```
 
- **SuggestionQuality**
+ **сугжестионкуалити**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,22 +50,22 @@ ms.locfileid: "19834468"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведения о предложения о собрании.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. В следующей таблице приведены возможные значения для этого элемента:
+Необходимо указать текстовое значение. В следующей таблице приведены возможные значения для этого элемента:
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|**Отлично** <br/> |0% участников имеется конфликт с временем предложенного собрания.  <br/> |
-|**Хороший** <br/> |Процент, который считается хорошей задается с помощью элемента [GoodThreshold](goodthreshold.md) .  <br/> |
-|**Обычное** <br/> |Процент, который считается обычное задается с помощью элемента [GoodThreshold](goodthreshold.md) .  <br/> |
-|**Низкий** <br/> |50% или более участников имеется конфликт с временем предложенного собрания.  <br/> |
+|**Отличная** <br/> |0% участников конфликтуют с предложенным временем собрания.  <br/> |
+|**Good** <br/> |Процент, который считается хорошим, задается с помощью элемента [гудсрешолд](goodthreshold.md) .  <br/> |
+|**Честно** <br/> |Процент, который считается честным, задается с помощью элемента [гудсрешолд](goodthreshold.md) .  <br/> |
+|**Плохо** <br/> |50% или несколько участников конфликтуют с предложенным временем собрания.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент является обязательным, если используется элемент [SuggestionsViewOptions](suggestionsviewoptions.md) . 
+Этот элемент является обязательным, если используется элемент [сугжестионсвиевоптионс](suggestionsviewoptions.md) . 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
@@ -76,7 +76,7 @@ ms.locfileid: "19834468"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

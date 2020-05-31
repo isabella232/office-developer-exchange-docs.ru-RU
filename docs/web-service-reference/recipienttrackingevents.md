@@ -1,5 +1,5 @@
 ---
-title: RecipientTrackingEvents
+title: реЦипиенттраккинжевентс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c4f729aa-674e-43b2-97f2-bf49740b0a34
-description: Элемент RecipientTrackingEvents представляет коллекцию одно или несколько событий для сообщения.
+description: Элемент РеЦипиенттраккинжевентс представляет коллекцию из одного или нескольких событий для сообщения.
 ms.openlocfilehash: 5fa5df422eff533891d021b77d5443b314d36244
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834993"
 ---
-# <a name="recipienttrackingevents"></a>RecipientTrackingEvents
+# <a name="recipienttrackingevents"></a>реЦипиенттраккинжевентс
 
-Элемент **RecipientTrackingEvents** представляет коллекцию одно или несколько событий для сообщения. 
+Элемент **реЦипиенттраккинжевентс** представляет коллекцию из одного или нескольких событий для сообщения. 
   
 ```XML
 <RecipientTrackingEvents>
@@ -29,10 +29,10 @@ ms.locfileid: "19834993"
 </RecipientTrackingEvents>
 ```
 
- **ArrayOfRecipientTrackingEventType**
+ **аррайофреЦипиенттраккинжевенттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19834993"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Содержит подробные сведения для конкретного события в отчет об отслеживании.  <br/> |
+|[реЦипиенттраккинжевент](recipienttrackingevent.md) <br/> |Содержит сведения об определенном событии в отчете об отслеживании.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19834993"
 |:-----|:-----|
 |[MessageTrackingReport](messagetrackingreport.md) <br/> |Содержит одно сообщение, которое возвращается в [Операция GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19834993"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

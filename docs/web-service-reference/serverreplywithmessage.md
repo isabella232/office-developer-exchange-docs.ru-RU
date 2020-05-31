@@ -1,5 +1,5 @@
 ---
-title: ServerReplyWithMessage
+title: серверрепливисмессаже
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 113c6ff2-9592-44f0-b542-54e4d5122ccb
-description: Элемент ServerReplyWithMessage указывает идентификатор шаблона сообщения, которые отправляются в виде ответа на входящие сообщения.
+description: Элемент Серверрепливисмессаже указывает идентификатор сообщения шаблона, отправляемого в качестве ответа на входящие сообщения.
 ms.openlocfilehash: f2d927ae18ac68523d4cdd173f0474fbbeb36c98
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835390"
 ---
-# <a name="serverreplywithmessage"></a>ServerReplyWithMessage
+# <a name="serverreplywithmessage"></a>серверрепливисмессаже
 
-Элемент **ServerReplyWithMessage** указывает идентификатор шаблона сообщения, которые отправляются в виде ответа на входящие сообщения. 
+Элемент **серверрепливисмессаже** указывает идентификатор сообщения шаблона, отправляемого в качестве ответа на входящие сообщения. 
   
 ```XML
 <ServerReplyWithMessage>
@@ -29,10 +29,10 @@ ms.locfileid: "19835390"
 </ServerReplyWithMessage>
 ```
 
- **ItemIdType**
+ **итемидтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19835390"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Идентификатор элемента](itemid.md) <br/> |Представляет уникальный идентификатор и меняет ключ элемента в хранилище Exchange.  <br/> |
+|[Идентификатор](itemid.md) <br/> |Представляет уникальный идентификатор и ключ изменения элемента в хранилище Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835390"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -64,7 +64,7 @@ ms.locfileid: "19835390"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

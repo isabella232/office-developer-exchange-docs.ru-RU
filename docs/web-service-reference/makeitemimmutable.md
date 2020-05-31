@@ -1,5 +1,5 @@
 ---
-title: MakeItemImmutable
+title: макеитемиммутабле
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de1d2a60-aeeb-4625-8b11-23c42e1e7bae
-description: Элемент MakeItemImmutable задает логическое значение, указывающее, является ли элемент должна создаваться только для чтения.
+description: Элемент Макеитемиммутабле указывает логическое значение, которое указывает, следует ли сделать элемент только для чтения.
 ms.openlocfilehash: 63c05fd3572c7b4ab93fe098d9165a117849ef02
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834337"
 ---
-# <a name="makeitemimmutable"></a>MakeItemImmutable
+# <a name="makeitemimmutable"></a>макеитемиммутабле
 
-Элемент **MakeItemImmutable** задает логическое значение, указывающее, является ли элемент должна создаваться только для чтения. 
+Элемент **макеитемиммутабле** указывает логическое значение, которое указывает, следует ли сделать элемент только для чтения. 
   
 ```XML
 <MakeItemImmutable>true | false</MakeItemImmutable>
@@ -26,7 +26,7 @@ ms.locfileid: "19834337"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834337"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[UpdateItemInRecoverableItems](updateiteminrecoverableitems.md)
+[упдатеитеминрековераблеитемс](updateiteminrecoverableitems.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **MakeItemImmutable** указывает, что элемент должна создаваться только для чтения. Значение **false** указывает, что элемент разрешает доступ на чтение запись. 
+Текстовое значение **true** для элемента **макеитемиммутабле** указывает на то, что элемент должен быть доступен только для чтения. Значение **false** указывает, что элемент разрешает доступ для чтения и записи. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834337"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

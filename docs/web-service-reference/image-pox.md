@@ -1,5 +1,5 @@
 ---
-title: Изображение (POX)
+title: Image (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c3dcabdb-8a29-42f8-8ab4-461bf17fb9f6
-description: Элемент изображения содержит путь изображения, который используется для фирменной символики работу в конфигурации.
+description: Элемент Image содержит путь к изображению, используемому для фирменной настройки.
 ms.openlocfilehash: 5ff2c03ab4297b0a059493ab3f7e763b804bdad7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,17 +16,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833881"
 ---
-# <a name="image-pox"></a>Изображение (POX)
+# <a name="image-pox"></a>Image (POX)
 
-Элемент **изображения** содержит путь изображения, который используется для фирменной символики работу в конфигурации. 
+Элемент **Image** содержит путь к изображению, используемому для фирменной настройки. 
   
-[Автообнаружение (POX)](autodiscover-pox.md)
+[Служба автообнаружения (POX)](autodiscover-pox.md)
   
 [Ответ (POX)](response-pox.md)
   
 [Учетная запись (POX)](account-pox.md)
   
-[Изображение (POX)](image-pox.md)
+[Image (POX)](image-pox.md)
   
 ```xml
 <Image/>
@@ -34,7 +34,7 @@ ms.locfileid: "19833881"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -52,11 +52,11 @@ ms.locfileid: "19833881"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет собой путь, используемый на отображение фирменной настройки качества изображения.
+Текстовое значение представляет путь к изображению, используемому для фирменной настройки.
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

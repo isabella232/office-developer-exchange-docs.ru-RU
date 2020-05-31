@@ -1,5 +1,5 @@
 ---
-title: ServerVersion (POX)
+title: Серверверсион (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a
-description: Элемент ServerVersion представляет номер версии компьютера, на котором выполняется Microsoft Exchange Server.
+description: Элемент Серверверсион представляет номер версии компьютера, на котором работает Microsoft Exchange Server.
 ms.openlocfilehash: ef0562e166094d75d0dd92f5f48bb558e11a2cad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,15 +16,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835391"
 ---
-# <a name="serverversion-pox"></a>ServerVersion (POX)
+# <a name="serverversion-pox"></a>Серверверсион (POX)
 
-Элемент **ServerVersion** представляет номер версии компьютера, на котором выполняется Microsoft Exchange Server. 
+Элемент **серверверсион** представляет номер версии компьютера, на котором работает Microsoft Exchange Server. 
   
-- [Автообнаружение (POX)](autodiscover-pox.md) 
+- [Служба автообнаружения (POX)](autodiscover-pox.md) 
 - [Ответ (POX)](response-pox.md)
 - [Учетная запись (POX)](account-pox.md)
 - [Протокол (POX)](protocol-pox.md)
-- [ServerVersion (POX)](serverversion-pox.md)
+- [Серверверсион (POX)](serverversion-pox.md)
   
 ```xml
 <ServerVersion/>
@@ -32,7 +32,7 @@ ms.locfileid: "19835391"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -46,19 +46,19 @@ ms.locfileid: "19835391"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиентского компьютера, на котором выполняется Microsoft Exchange, с установленной ролью сервера клиентского доступа.  <br/> |
+|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором выполняется Microsoft Exchange, на котором установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет номер версии сервера Exchange.
+Текстовое значение представляет номер версии сервера Exchange Server.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Значение **ServerVersion** допустимо только в том случае, если элемент [Типа (POX)](type-pox.md) равно EXCH или Выражение. Значение **ServerVersion** — это шестнадцатеричный номер, который содержит MajorVersion, MinorVersion и MajorBuildNumber сервера. 
+Значение **серверверсион** является допустимым только в том случае, если элемент [Type (POX)](type-pox.md) РАВЕН сумме или expr. Значение **серверверсион** — это шестнадцатеричное число, которое содержит MajorVersion, minorversion и мажорбуилднумбер сервера. 
   
 ## <a name="example"></a>Пример
 
-Следующий пример coverts, **ServerVersion** значение, равное возвращаемых в отклике автообнаружения для получения и отображения MajorVersion, MinorVersion и MajorBuildNumber. В этом примере позволяет введите шестнадцатеричное значение **ServerVersion** значение. Если не **ServerVersion** задано значение, используется значение по умолчанию **ServerVersion** 738180DA. 
+В следующем примере показано, как преобразовать значение **серверверсион** , которое возвращается в ответе автообнаружения для получения и отображения MajorVersion, minorversion и мажорбуилднумбер. В этом примере показано, как ввести шестнадцатеричное значение для значения **серверверсион** . Если значение **серверверсион** не введено, используется значение **серверверсион** по умолчанию 738180DA. 
   
 ```csharp
 static void Main(string[] args)
@@ -105,5 +105,5 @@ static void Main(string[] args)
 
 ## <a name="see-also"></a>См. также
 
-- [Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

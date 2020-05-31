@@ -1,5 +1,5 @@
 ---
-title: SpouseNames
+title: спаусенамес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e18f46fe-ab83-4df1-b1a5-9c8e73173ccf
-description: Элемент SpouseNames указывает массив супруга или партнера имена и идентификаторы их атрибуты источника для связанного пользователя.
+description: Элемент Спаусенамес указывает массив имен супруга или партнера и идентификаторы их исходных атрибутов для связанного пользователя.
 ms.openlocfilehash: 6b9d0dd6499efd13f0134796e6e0992e216b9aa8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835535"
 ---
-# <a name="spousenames"></a>SpouseNames
+# <a name="spousenames"></a>спаусенамес
 
-Элемент **SpouseNames** указывает массив супруга или партнера имена и идентификаторы их атрибуты источника для связанного пользователя. 
+Элемент **спаусенамес** указывает массив имен супруга или партнера и идентификаторы их исходных атрибутов для связанного пользователя. 
   
 ```XML
 <SpouseNames>
@@ -25,10 +25,10 @@ ms.locfileid: "19835535"
 </SpouseNames>
 ```
 
- **ArrayOfStringAttributedValuesType**
+ **аррайофстрингаттрибутедвалуестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19835535"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[StringAttributedValue](stringattributedvalue.md)
+[стрингаттрибутедвалуе](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19835535"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

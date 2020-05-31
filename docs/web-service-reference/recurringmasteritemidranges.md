@@ -1,5 +1,5 @@
 ---
-title: RecurringMasterItemIdRanges
+title: рекуррингмастеритемидранжес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c9c89b5-4ce8-437b-a332-fa7ed35c8388
-description: Элемент RecurringMasterItemIdRanges указывает массив диапазонов вхождение.
+description: Элемент Рекуррингмастеритемидранжес указывает массив диапазонов вхождений.
 ms.openlocfilehash: 60d987f475bed5d630a1238550e4d14578ebd0d5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835016"
 ---
-# <a name="recurringmasteritemidranges"></a>RecurringMasterItemIdRanges
+# <a name="recurringmasteritemidranges"></a>рекуррингмастеритемидранжес
 
-Элемент **RecurringMasterItemIdRanges** указывает массив диапазонов вхождение. 
+Элемент **рекуррингмастеритемидранжес** указывает массив диапазонов вхождений. 
   
 ```XML
 <RecurringMasterItemIdRanges Id="" ChangeKey="">
@@ -25,28 +25,27 @@ ms.locfileid: "19835016"
 </RecurringMasterItemIdRanges>
 ```
 
- **RecurringMasterItemIdRangesType**
+ **рекуррингмастеритемидранжестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|
-  **Id** <br/> |Текстовое значение атрибута **Id** — уникальный идентификатор элемента повторяющихся шаблона. Это значение типа **string** .  <br/> |
-|**ChangeKey** <br/> |Текстовое значение атрибута **ChangeKey** является повторяющейся главной элемент изменить ключ. Это значение типа **string** .  <br/> |
+|**Id** <br/> |Текстовое значение атрибута **ID** — это уникальный идентификатор повторяющегося элемента шаблона. Это **строковое** значение.  <br/> |
+|**чанжекэй** <br/> |Текстовое значение атрибута **чанжекэй** является ключом повторяющегося изменения элемента шаблона. Это **строковое** значение.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Диапазоны](ranges.md)
+[Ranges](ranges.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Что ItemID](itemids.md) | [GlobalItemIds](globalitemids.md) | [DraftItemIds](draftitemids.md) | [ContactIds](contactids.md) | [GroupIds](groupids.md)
+[Итемидс](itemids.md) | [глобалитемидс](globalitemids.md) | [GroupIds](groupids.md) [ContactIds](contactids.md)[DraftItemIds](draftitemids.md)драфтитемидс контактидс граупидс |  | 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +57,7 @@ ms.locfileid: "19835016"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

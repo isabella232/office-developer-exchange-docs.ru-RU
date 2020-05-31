@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dbd102b8-db70-4196-affe-d7ed66bf3371
-description: Элемент PersonName указывает имя отдельного, найденные с помощью извлечения объектов.
+description: Элемент PersonName указывает имя пользователя, найденного с помощью извлечения сущностей.
 ms.openlocfilehash: 369839cd7ef49e29b570a60c12c9fcba0f6e887f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19834745"
 ---
 # <a name="personname"></a>PersonName
 
-Элемент **PersonName** указывает имя отдельного, найденные с помощью извлечения объектов. 
+Элемент **PersonName** указывает имя пользователя, найденного с помощью извлечения сущностей. 
   
 ```XML
 <PersonName></PersonName>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834745"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Контакт (ContactType)](contact-contacttype.md)
+[Контактное лицо (Контакттипе)](contact-contacttype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **PersonName** — имя человека, найденных в результате извлечения объектов. 
+Текстовое значение элемента **PersonName** — имя пользователя, найденного в результате извлечения объекта. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834745"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

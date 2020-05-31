@@ -1,5 +1,5 @@
 ---
-title: MessageTrackingSearchResult
+title: мессажетраккингсеарчресулт
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8ea77aa8-b93f-4287-be36-0a9da06e0946
-description: Элемент MessageTrackingSearchResult содержит результат одного сообщения для элемента FindMessageTrackingReportResponse.
+description: Элемент Мессажетраккингсеарчресулт содержит один результат сообщения для элемента Финдмессажетраккингрепортреспонсе.
 ms.openlocfilehash: ad4fb9d9e2266222303bd2015a7afba0bb46721b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834460"
 ---
-# <a name="messagetrackingsearchresult"></a>MessageTrackingSearchResult
+# <a name="messagetrackingsearchresult"></a>мессажетраккингсеарчресулт
 
-Элемент **MessageTrackingSearchResult** содержит результат одного сообщения для элемента [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) . 
+Элемент **мессажетраккингсеарчресулт** содержит один результат сообщения для элемента [финдмессажетраккингрепортреспонсе](findmessagetrackingreportresponse.md) . 
   
 ```xml
 <MessageTrackingSearchResult>
@@ -37,10 +37,10 @@ ms.locfileid: "19834460"
 </MessageTrackingSearchResult>
 ```
 
- **FindMessageTrackingSearchResultType**
+ **финдмессажетраккингсеарчресулттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,27 +50,27 @@ ms.locfileid: "19834460"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Subject](subject.md) <br/> |Содержит тему сообщения электронной почты.  <br/> |
-|[Отправитель (EmailAddressType)](sender-emailaddresstype.md) <br/> |Содержит адрес электронной почты отправителя сообщения.  <br/> |
-|[PurportedSender](purportedsender.md) <br/> |Содержит контактные данные для утверждения отправителя сообщения электронной почты.  <br/> |
-|[Получатели (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |Содержит список адресов электронной почты, которые получены этого сообщения.  <br/> |
-|[SubmittedTime](submittedtime.md) <br/> |Содержит время, когда сообщение было отправлено.  <br/> |
-|[MessageTrackingReportId](messagetrackingreportid.md) <br/> |Содержит внутренний идентификатор сообщения в базе данных транспорта.  <br/> |
-|[PreviousHopServer](previoushopserver.md) <br/> |Содержит имя сервера в лесу, которые ранее принимает сообщение.  <br/> |
-|[FirstHopServer](firsthopserver.md) <br/> |Содержит имя сервера в лесу, сначала принято сообщение.  <br/> |
-|[Свойства (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Содержит список одного или нескольких свойств отслеживания.  <br/> |
+|[Тема](subject.md) <br/> |Содержит тему сообщения электронной почты.  <br/> |
+|[Отправитель (EmailAddressType)](sender-emailaddresstype.md) <br/> |Содержит адрес отправителя сообщения электронной почты.  <br/> |
+|[пурпортедсендер](purportedsender.md) <br/> |Содержит контактные данные отправителя предполагаемым сообщения электронной почты.  <br/> |
+|[Получатели (АррайофреЦипиентстипе)](recipients-arrayofrecipientstype.md) <br/> |Содержит список адресов электронной почты, которые получили это сообщение.  <br/> |
+|[субмиттедтиме](submittedtime.md) <br/> |Содержит время отправки сообщения.  <br/> |
+|[мессажетраккингрепортид](messagetrackingreportid.md) <br/> |Содержит внутренний идентификатор, идентифицирующий сообщение в базе данных транспорта.  <br/> |
+|[превиаушопсервер](previoushopserver.md) <br/> |Содержит имя сервера в лесу, в котором ранее было принято сообщение.  <br/> |
+|[фирссопсервер](firsthopserver.md) <br/> |Содержит имя сервера в лесу, который первым принял сообщение.  <br/> |
+|[Свойства (Аррайофтраккингпропертиестипе)](properties-arrayoftrackingpropertiestype.md) <br/> |Содержит список одного или нескольких свойств отслеживания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MessageTrackingSearchResults](messagetrackingsearchresults.md) <br/> |Содержит список сообщений, которые соответствуют условиям поиска.  <br/> |
+|[мессажетраккингсеарчресултс](messagetrackingsearchresults.md) <br/> |Содержит список сообщений, которые отвечают условиям поиска.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -80,7 +80,7 @@ ms.locfileid: "19834460"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

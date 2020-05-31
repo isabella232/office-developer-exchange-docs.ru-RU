@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ade9ea3b-bdf1-4999-ac7d-44c6452cef36
-description: Элемент TaskSuggestion содержит предложение задачи, полученным из сущности, извлеченные из элемента.
+description: Элемент TaskSuggestion содержит предложение задачи, полученное из объекта, извлеченного из элемента.
 ms.openlocfilehash: bf12c3dc8b58b6be873e0a9b0863c80051eb4e11
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19840139"
 ---
 # <a name="tasksuggestion"></a>TaskSuggestion
 
-Элемент **TaskSuggestion** содержит предложение задачи, полученным из сущности, извлеченные из элемента. 
+Элемент **TaskSuggestion** содержит предложение задачи, полученное из объекта, извлеченного из элемента. 
   
 ```XML
 <TaskSuggestion>
@@ -27,11 +27,11 @@ ms.locfileid: "19840139"
 </TaskSuggestion>
 ```
 
-**TaskSuggestionType**
+**тасксугжестионтипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,13 +39,13 @@ ms.locfileid: "19840139"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Положение](position.md) | [TaskString](taskstring.md) | [Assignees](assignees.md)
+[Положение](position.md) | [TaskString](taskstring.md)TaskString | [уполномоченные](assignees.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [TaskSuggestions](tasksuggestions.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "19840139"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

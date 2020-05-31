@@ -1,5 +1,5 @@
 ---
-title: LobbyBypass
+title: лоббибипасс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e05ed6eb-00ae-49c8-8341-43f6e0d728ff
-description: Элемент LobbyBypass указывает на собрание по сети, установка для обхода виртуальный зал ожидания.
+description: Элемент Лоббибипасс указывает параметр собраний по сети, чтобы обойти виртуальный зал.
 ms.openlocfilehash: 9ecc920acd9e1aea3476ad1194d6c7d0529b21c7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834246"
 ---
-# <a name="lobbybypass"></a>LobbyBypass
+# <a name="lobbybypass"></a>лоббибипасс
 
-Элемент **LobbyBypass** указывает на собрание по сети, установка для обхода виртуальный зал ожидания. 
+Элемент **лоббибипасс** указывает параметр собраний по сети, чтобы обойти виртуальный зал. 
   
 ```XML
 <LobbyBypass> Disabled | EnabledForGatewayParticipants </LobbyBypass>
 ```
 
- **LobbyBypassType**
+ **лоббибипасстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834246"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[OnlineMeetingSettings](onlinemeetingsettings.md)
+[онлинемитингсеттингс](onlinemeetingsettings.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **LobbyBypass** может быть **отключено** или **EnabledForGatewayParticipants**. Значение **Этот параметр отключен** указывает, что обход зал ожидания отключен, поэтому необходимо доступ к всем участникам собрания с помощью виртуальных зал ожидания. Значение **EnabledForGatewayParticipants** указывает, включено, что обход зал ожидания для участников телефона. 
+Текстовое значение элемента **лоббибипасс** может быть **отключено** или **енабледфоргатевайпартиЦипантс**. **Отключенное** значение указывает на то, что обход сервера-посредника отключен, поэтому все участники собрания должны получить доступ через виртуальный зал. Значение **енабледфоргатевайпартиЦипантс** указывает на то, что для участников в зале ожидания включена поддержка по телефону. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   

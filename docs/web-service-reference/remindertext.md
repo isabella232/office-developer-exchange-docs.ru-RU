@@ -1,5 +1,5 @@
 ---
-title: ReminderText
+title: реминдертекст
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4b429e55-6057-4dd7-8bb5-fa8a8c0cc223
-description: Элемент ReminderText указывает текст сообщения напоминание.
+description: Элемент Реминдертекст указывает текст сообщения напоминания.
 ms.openlocfilehash: b88c4c89711e6fe45db633c60b7020cbad5c48db
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835074"
 ---
-# <a name="remindertext"></a>ReminderText
+# <a name="remindertext"></a>реминдертекст
 
-Элемент **ReminderText** указывает текст сообщения напоминание. 
+Элемент **реминдертекст** указывает текст сообщения напоминания. 
   
 ```XML
 <ReminderText/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19835074"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[ReminderMessageData](remindermessagedata.md)
+[реминдермессажедата](remindermessagedata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ReminderText** — это текстовое сообщение напоминание. 
+Текстовое значение элемента **реминдертекст** — это текст сообщения с напоминанием. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -56,14 +56,14 @@ ms.locfileid: "19835074"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[ReminderMessageData](remindermessagedata.md)
+[реминдермессажедата](remindermessagedata.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

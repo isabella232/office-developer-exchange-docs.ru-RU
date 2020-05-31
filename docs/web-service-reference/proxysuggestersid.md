@@ -1,5 +1,5 @@
 ---
-title: ProxySuggesterSid
+title: проксисугжестерсид
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e1229cf4-8957-4b4a-8b9d-3e956ff9fd7b
-description: Элемент ProxySuggesterSid используется HTTP прокси-сервера, на котором выполняется Microsoft Exchange Server 2007, на котором установлена роль сервера и не используется в операции веб-служб Exchange доступа клиентского компьютера. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+description: Элемент Проксисугжестерсид используется прокси-сервером HTTP компьютера, на котором работает сервер Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа и который не используется операциями веб-служб Exchange. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
 ms.openlocfilehash: 380729bf13e2a30572e85a86c93530c02965a987
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834919"
 ---
-# <a name="proxysuggestersid"></a>ProxySuggesterSid
+# <a name="proxysuggestersid"></a>проксисугжестерсид
 
-Элемент **ProxySuggesterSid** используется HTTP прокси-сервера, на котором выполняется Microsoft Exchange Server 2007, на котором установлена роль сервера и не используется в операции веб-служб Exchange доступа клиентского компьютера. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **проксисугжестерсид** используется прокси-сервером HTTP компьютера, на котором работает сервер Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа и который не используется операциями веб-служб Exchange. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <ProxySuggesterSid/>
 ```
 
- **ProxySecurityContextType**
+ **проксисекуритиконтексттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,7 +44,7 @@ ms.locfileid: "19834919"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19834919"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

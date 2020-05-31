@@ -1,5 +1,5 @@
 ---
-title: SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: db01f574-ab6c-45c2-aaac-404cec37790b
-description: Элемент SetMissedCallNotificationEnabled определяет запрос для запроса SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена СООБЩЕНИЯМИ).
+description: Элемент SetMissedCallNotificationEnabled определяет запрос для операции SetMissedCallNotificationEnabled (веб-службы единой системы обмена сообщениями).
 ms.openlocfilehash: 0e556dec70ba0092fb2889b8c384f4952571dbab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835435"
 ---
-# <a name="setmissedcallnotificationenabled-um-web-service"></a>SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="setmissedcallnotificationenabled-um-web-service"></a>SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
 
-Элемент **SetMissedCallNotificationEnabled** определяет запрос для запроса [SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
+Элемент **SetMissedCallNotificationEnabled** определяет запрос для [операции SetMissedCallNotificationEnabled (веб-службы единой системы обмена сообщениями)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
   
-[SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabled-um-web-service.md)
+[SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-um-web-service.md)
   
 ```xml
 <SetMissedCallNotificationEnabled>
@@ -33,7 +33,7 @@ ms.locfileid: "19835435"
  **complexType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,7 +43,7 @@ ms.locfileid: "19835435"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Состояние (единой системы обмена СООБЩЕНИЯМИ веб-службы - SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md) <br/> |Определяет значение для использования в запросе [SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabled-operation-um-web-service.md) .  <br/> |
+|[Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md) <br/> |Определяет значение, используемое в [SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-operation-um-web-service.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,12 +59,12 @@ ms.locfileid: "19835435"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabled-operation-um-web-service.md)
+[Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

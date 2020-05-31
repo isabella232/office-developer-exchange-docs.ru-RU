@@ -1,5 +1,5 @@
 ---
-title: Почтовый ящик (строка)
+title: Mailbox (строка)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 15a1758e-6a5c-4e85-acb9-374abe81b9c7
-description: Элемент почтовых ящиков содержит идентификатор для почтового ящика.
+description: Элемент Mailbox содержит идентификатор для почтового ящика.
 ms.openlocfilehash: 3bdddd43944aa85f065a162b09cd3c8fdfc21da6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,19 +15,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834256"
 ---
-# <a name="mailbox-string"></a>Почтовый ящик (строка)
+# <a name="mailbox-string"></a>Mailbox (строка)
 
-Элемент **почтовых ящиков** содержит идентификатор для почтового ящика. 
+Элемент **Mailbox** содержит идентификатор для почтового ящика. 
   
 ```XML
 <Mailbox></Mailbox>
 ```
 
-**string**
+**строка**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,13 +39,13 @@ ms.locfileid: "19834256"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[NonIndexableItemStatistic](nonindexableitemstatistic.md) | [MailboxHoldStatus](mailboxholdstatus.md) | [FailedMailbox](failedmailbox.md) | [MailboxSearchScope](mailboxsearchscope.md)
+[Нониндексаблеитемстатистик](nonindexableitemstatistic.md) | [MailboxHoldStatus](mailboxholdstatus.md)маилбоксхолдстатус | [FailedMailbox](failedmailbox.md)фаиледмаилбокс | [маилбокссеарчскопе](mailboxsearchscope.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение для элемента **почтового ящика** — это идентификатор почтового ящика. 
+Текстовое значение элемента **почтового ящика** — идентификатор почтового ящика. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   

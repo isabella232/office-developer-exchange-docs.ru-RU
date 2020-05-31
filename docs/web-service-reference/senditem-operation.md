@@ -1,5 +1,5 @@
 ---
-title: SendItem Operation
+title: Операция SendItem
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 337b89ef-e1b7-45ed-92f3-8abe4200e4c7
-description: Операция SendItem используется для отправки сообщений электронной почты, расположенные в хранилище Exchange.
+description: Операция SendItem используется для отправки сообщений электронной почты, размещенных в хранилище Exchange.
 ms.openlocfilehash: 780778b1599d0d5e5f4b6e5b58b67773bbe18cda
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835336"
 ---
-# <a name="senditem-operation"></a>SendItem Operation
+# <a name="senditem-operation"></a>Операция SendItem
 
-Операция SendItem используется для отправки сообщений электронной почты, расположенные в хранилище Exchange.
+Операция SendItem используется для отправки сообщений электронной почты, размещенных в хранилище Exchange.
   
-## <a name="senditem-e-mail-message-request-example"></a>Пример запроса SendItem (сообщения электронной почты)
+## <a name="senditem-e-mail-message-request-example"></a>Пример запроса SendItem (сообщение электронной почты)
 
 ### <a name="description"></a>Описание
 
-Следующем примере показано, как отправить сообщение электронной почты.
+В приведенном ниже примере показано, как отправить сообщение электронной почты.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -47,27 +47,27 @@ ms.locfileid: "19835336"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификатор элемента был усечен, чтобы сохранить удобочитаемость.
+Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [SendItem](senditem.md)
     
-- [Что ItemID](itemids.md)
+- [итемидс](itemids.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-## <a name="successful-senditem-e-mail-message-response"></a>Ответ успешные SendItem (сообщения электронной почты)
+## <a name="successful-senditem-e-mail-message-response"></a>Успешный ответ SendItem (сообщение электронной почты)
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа SendItem.
+В следующем примере показан успешный ответ SendItem.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -94,31 +94,31 @@ ms.locfileid: "19835336"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [SendItemResponse](senditemresponse.md)
+- [сендитемреспонсе](senditemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [SendItemResponseMessage](senditemresponsemessage.md)
+- [сендитемреспонсемессаже](senditemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Делегат, который пытается отправить сообщение электронной почты, которая находится в папке «Черновики» участника с SendAndSaveCopy для параметра сохранять копию в отправленные именованной папки выполняться не будут для перемещения копию отправленного элемента отправленные различающееся папка. Элемент будет оставаться в папке «Черновики» участника. Для указания основного сервера почтовых ящиков в элементе [DistinguishedFolderId](distinguishedfolderid.md) является способа решения этой проблемы. 
+Представитель, пытающийся отправить сообщение электронной почты, размещенное в папке "Черновики" основного приложения с параметром SendAndSaveCopy, чтобы сохранить копию в папке "Отправленные", не будет автоматически перемещать копию отправленного элемента в папку "Отправленные". Элемент останется в папке "Черновики" основного приложения. Чтобы устранить эту ошибку, необходимо указать почтовый ящик участника в элементе [дистингуишедфолдерид](distinguishedfolderid.md) . 
   
-Дополнительные сценарии, которые следует учитывать при делегат создает сообщение электронной почты и сохраняет его в папке «Черновики» почтового ящика делегата. Если делегат пытается отправить элемент и сохранить копию в папку различающееся отправленные участника, сообщение отправляется правильно, остается черновик сообщения в папке «Черновики», делегата, отправленное сообщение не отображается в делегата или участника Папка "Отправленные", а ответ выполнен успешно.
+Если делегат создает сообщение электронной почты и сохраняет его в папке "Черновики" почтового ящика представителя, необходимо учитывать дополнительный сценарий. Если делегат пытается отправить элемент и сохранить копию в различающейся папке "Отправленные" участника, сообщение отправляется правильно, черновик остается в папке "Черновики" делегата, а отправленное сообщение не будет отображаться в папке "Отправленные" представителя или субъекта "Отправленные", а ответ является успешным.
   
-## <a name="invalid-senditem-e-mail-message-request-example"></a>Пример запроса недопустимый SendItem (сообщения электронной почты)
+## <a name="invalid-senditem-e-mail-message-request-example"></a>Недопустимый пример запроса SendItem (сообщение электронной почты)
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показан пример запроса с недопустимым идентификатором.
+В приведенном ниже примере кода показан пример запроса с недопустимым идентификатором.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -136,13 +136,13 @@ ms.locfileid: "19835336"
 </soap:Envelope>
 ```
 
-## <a name="senditem-e-mail-message-error-response"></a>Отклик SendItem (сообщения электронной почты)
+## <a name="senditem-e-mail-message-error-response"></a>Сообщение об ошибке SendItem (сообщение электронной почты)
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано возврату ошибки SendItem-запрос, который содержит недопустимый идентификатор.
+В следующем примере показан ответ об ошибке для запроса SendItem, который содержит недопустимый идентификатор.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -169,31 +169,31 @@ ms.locfileid: "19835336"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [SendItemResponse](senditemresponse.md)
+- [сендитемреспонсе](senditemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [SendItemResponseMessage](senditemresponsemessage.md)
+- [сендитемреспонсемессаже](senditemresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[SendItem Operation](senditem-operation.md)
+[Операция SendItem](senditem-operation.md)
   
- **SendItemType**
+ **сендитемтипе**
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

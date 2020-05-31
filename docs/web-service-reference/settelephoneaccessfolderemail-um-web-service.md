@@ -1,5 +1,5 @@
 ---
-title: SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 90759da7-6dba-499e-b8c8-e44a016b3198
-description: Элемент SetTelephoneAccessFolderEmail определяет запрос для установки папки электронной почты по умолчанию, из которого единой системы обмена сообщениями будет читать сообщения по телефону.
+description: Элемент SetTelephoneAccessFolderEmail определяет запрос на установку папки электронной почты по умолчанию, из которой единая система обмена сообщениями будет читать сообщения по телефону.
 ms.openlocfilehash: e19f151e364411717d5129cbef8c5cc097689f89
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835461"
 ---
-# <a name="settelephoneaccessfolderemail-um-web-service"></a>SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="settelephoneaccessfolderemail-um-web-service"></a>SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)
 
-Элемент **SetTelephoneAccessFolderEmail** определяет запрос для установки папки электронной почты по умолчанию, из которого единой системы обмена сообщениями будет читать сообщения по телефону. 
+Элемент **SetTelephoneAccessFolderEmail** определяет запрос на установку папки электронной почты по умолчанию, из которой единая система обмена сообщениями будет читать сообщения по телефону. 
   
-[SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)](settelephoneaccessfolderemail-um-web-service.md)
   
 ```xml
 <SetTelephoneAccessFolderEmail>
@@ -33,7 +33,7 @@ ms.locfileid: "19835461"
  **complexType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,7 +43,7 @@ ms.locfileid: "19835461"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[base64FolderId (веб-служба единой системы обмена СООБЩЕНИЯМИ)](base64folderid-um-web-service.md) <br/> |Идентификатор папки электронной почты.  <br/> |
+|[base64FolderId (веб-служба единой системы обмена сообщениями)](base64folderid-um-web-service.md) <br/> |Идентификатор папки электронной почты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,12 +59,12 @@ ms.locfileid: "19835461"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)](settelephoneaccessfolderemail-operation-um-web-service.md)
 

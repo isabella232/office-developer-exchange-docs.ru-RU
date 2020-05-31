@@ -1,5 +1,5 @@
 ---
-title: InternalDomains (SmtpDomainList)
+title: Имена внутренних доменов (Смтпдомаинлист)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0f2cbb05-338d-4302-8871-a06e78b33f98
-description: Элемент InternalDomains определяет список внутренних доменов SMTP организации.
+description: Элемент имена внутренних доменов определяет список внутренних доменов SMTP Организации.
 ms.openlocfilehash: f37a31f4348a7eb0024656489f249dec349bc67b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833953"
 ---
-# <a name="internaldomains-smtpdomainlist"></a>InternalDomains (SmtpDomainList)
+# <a name="internaldomains-smtpdomainlist"></a>Имена внутренних доменов (Смтпдомаинлист)
 
-Элемент **InternalDomains** определяет список внутренних доменов SMTP организации. 
+Элемент **имена внутренних доменов** определяет список внутренних доменов SMTP Организации. 
   
 ```XML
 <InternalDomains>
@@ -29,10 +29,10 @@ ms.locfileid: "19833953"
 </InternalDomains>
 ```
 
- **SmtpDomainList**
+ **смтпдомаинлист**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,20 +42,20 @@ ms.locfileid: "19833953"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Domain](domain.md) <br/> |Идентифицирует одного домена SMTP.  <br/> |
+|[Домен](domain.md) <br/> |Определяет один домен SMTP.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Содержит сведения о конфигурации службы для службы советы почты.  <br/> |
-|[ProtectionRulesConfiguration](protectionrulesconfiguration.md) <br/> |Содержит сведения о конфигурации службы для службы правил защиты.  <br/> |
+|[Маилтипсконфигуратион (Маилтипссервицеконфигуратион)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Содержит сведения о конфигурации службы для советов почтового ящика.  <br/> |
+|[протектионрулесконфигуратион](protectionrulesconfiguration.md) <br/> |Содержит сведения о конфигурации службы для службы правил защиты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент обязательный. 
   
@@ -67,7 +67,7 @@ ms.locfileid: "19833953"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

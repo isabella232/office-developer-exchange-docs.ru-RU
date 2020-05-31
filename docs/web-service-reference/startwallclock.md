@@ -1,5 +1,5 @@
 ---
-title: StartWallClock
+title: стартваллклокк
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ae2292f-fc5f-49fa-88a7-34ba86ff21f9
-description: Элемент StartWallClock указывает время начала собрания в часовом поясе расположения, в котором происходит собрания.
+description: Элемент Стартваллклокк указывает время начала собрания в часовом поясе, где выполняется собрание.
 ms.openlocfilehash: 24fcc314daf1732b5167e1fa865e6f544ca34db6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,19 +15,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835569"
 ---
-# <a name="startwallclock"></a>StartWallClock
+# <a name="startwallclock"></a>стартваллклокк
 
-Элемент **StartWallClock** указывает время начала собрания в часовом поясе расположения, в котором происходит собрания. 
+Элемент **стартваллклокк** указывает время начала собрания в часовом поясе, где выполняется собрание. 
   
 ```XML
 <StartWallClock></StartWallClock>
 ```
 
-**dateTime**
+**дата и время**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,13 +39,13 @@ ms.locfileid: "19835569"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Элемента календаря, имеющего](calendaritem.md) | [MeetingRequest](meetingrequest.md)
+[Календаритем](calendaritem.md) | [свойство meetingrequest](meetingrequest.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **StartWallClock** — это время начала собрания в часовом поясе расположения, в котором происходит собрания. 
+Текстовое значение элемента **стартваллклокк** — время начала собрания в часовом поясе, где выполняется собрание. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "19835569"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

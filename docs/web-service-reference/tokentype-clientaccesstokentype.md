@@ -1,5 +1,5 @@
 ---
-title: TokenType (ClientAccessTokenType)
+title: Токентипе (Клиентакцесстокентипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 96103f15-a3e0-497c-af21-90adbf9a4b14
-description: Элемент TokenType определяет тип маркера доступа клиента, возвращаемого в ответе GetClientAccessToken.
+description: Элемент Токентипе определяет тип маркера клиентского доступа, который будет возвращен в ответе GetClientAccessToken.
 ms.openlocfilehash: c9adb60acf76fefebd58e2fd3bc899332a63dbee
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840213"
 ---
-# <a name="tokentype-clientaccesstokentype"></a>TokenType (ClientAccessTokenType)
+# <a name="tokentype-clientaccesstokentype"></a>Токентипе (Клиентакцесстокентипе)
 
-Элемент **TokenType** определяет тип маркера доступа клиента, возвращаемого в ответе **GetClientAccessToken** . 
+Элемент **токентипе** определяет тип маркера клиентского доступа, который будет возвращен в ответе **GetClientAccessToken** . 
   
 ```XML
 <TokenType>CallerIdentity | ExtensionCallback | ScopedToken</TokenType>
 ```
 
- **ClientAccessTokenTypeType**
+ **клиентакцесстокентипетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19840213"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[TokenRequest](tokenrequest.md) | [маркера (ClientAccessTokenType)](token-clientaccesstokentype.md)
+[Маркер токенрекуест](tokenrequest.md) | [(клиентакцесстокентипе)](token-clientaccesstokentype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **CallerIdentity** означает, что возвращаются маркера доступа клиента удостоверения вызывающего абонента. Текстовое значение **ExtensionCallback** указывает, что возвращается маркер расширение обратного вызова клиентского доступа. Текстовое значение **ScopedToken** указывает, что маркер доступа клиента маркер заданной областью. 
+Текстовое значение **каллеридентити** означает, что возвращается маркер доступа клиента идентификации звонящего. Текстовое значение **екстенсионкаллбакк** указывает на то, что маркер доступа клиента обратного вызова для расширения возвращается. Текстовое значение **скопедтокен** указывает на то, что маркер клиентского доступа является маркером с областью действия. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19840213"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

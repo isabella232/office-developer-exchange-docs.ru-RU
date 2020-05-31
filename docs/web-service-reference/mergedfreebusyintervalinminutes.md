@@ -1,5 +1,5 @@
 ---
-title: MergedFreeBusyIntervalInMinutes
+title: мержедфрибусинтервалинминутес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 481cdbc6-d5aa-49fa-a3fa-9d119d3dca99
-description: Элемент MergedFreeBusyIntervalInMinutes представляет разницу между двумя последовательными разъемов FreeBusyMerged представления.
+description: Элемент Мержедфрибусинтервалинминутес представляет разницу во времени между двумя последовательными слотами в представлении Фрибусимержед.
 ms.openlocfilehash: 99c8c69424a0a9d9594005fdf6b2ceba53e6288a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834451"
 ---
-# <a name="mergedfreebusyintervalinminutes"></a>MergedFreeBusyIntervalInMinutes
+# <a name="mergedfreebusyintervalinminutes"></a>мержедфрибусинтервалинминутес
 
-Элемент **MergedFreeBusyIntervalInMinutes** представляет разницу между двумя последовательными разъемов **FreeBusyMerged** представления. 
+Элемент **мержедфрибусинтервалинминутес** представляет разницу во времени между двумя последовательными слотами в представлении **фрибусимержед** . 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-[FreeBusyViewOptions](freebusyviewoptions.md)
+[фрибусивиевоптионс](freebusyviewoptions.md)
   
-[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)
+[мержедфрибусинтервалинминутес](mergedfreebusyintervalinminutes.md)
   
 ```xml
 <MergedFreeBusyIntervalInMinutes>...</MergedFreeBusyIntervalInMinutes>
@@ -36,7 +36,7 @@ ms.locfileid: "19834451"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,15 +50,15 @@ ms.locfileid: "19834451"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Указывает тип сведений о доступности, возвращаемого в ответе.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
+|[фрибусивиевоптионс](freebusyviewoptions.md) <br/> |Указывает тип сведений о доступности, возвращаемых в ответе.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Текстовое значение представляет время в минутах. Значение по умолчанию — 30 минут. Шесть минут — минимальный интервал и один день (1440 минут) — это максимальный интервал для данного элемента.
+Необходимо указать текстовое значение. Текстовое значение представляет время в минутах. Значение по умолчанию  30 минут. Шесть минут — это минимальный интервал и один день (1440 минут) — это максимальный интервал для этого элемента.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это значение используется только в том случае, если элемент [RequestedView](requestedview.md) равен **MergedOnly**, **FreeBusyMerged**или **DetailedMerge**. Это тип данных integer. Поток, содержащий интервалы, определенные этим элементом, возвращается в элементе [MergedFreeBusy](mergedfreebusy.md) . 
+Это значение используется только в том случае, если элемент [рекуестедвиев](requestedview.md) равен **мержедонли**, **фрибусимержед**или **детаиледмерже**. Это тип данных Integer. Поток, содержащий интервалы, заданные этим элементом, возвращается в элементе [мержедфрибуси](mergedfreebusy.md) . 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -66,7 +66,7 @@ ms.locfileid: "19834451"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

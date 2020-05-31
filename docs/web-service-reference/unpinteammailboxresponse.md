@@ -1,5 +1,5 @@
 ---
-title: UnpinTeamMailboxResponse
+title: унпинтеаммаилбоксреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 82dfa204-e316-432f-a753-5bd97f576389
-description: Элемент UnpinTeamMailboxResponse содержит ответа на запрос, чтобы открепить почтового ящика сайта.
+description: Элемент Унпинтеаммаилбоксреспонсе содержит ответ на запрос на открепление почтового ящика сайта.
 ms.openlocfilehash: eb936c5f8d61b7005d7e2e9d5dfff7632e702a28
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840299"
 ---
-# <a name="unpinteammailboxresponse"></a>UnpinTeamMailboxResponse
+# <a name="unpinteammailboxresponse"></a>унпинтеаммаилбоксреспонсе
 
-Элемент **UnpinTeamMailboxResponse** содержит ответа на запрос, чтобы открепить почтового ящика сайта. 
+Элемент **унпинтеаммаилбоксреспонсе** содержит ответ на запрос на открепление почтового ящика сайта. 
   
 ```XML
 <UnpinTeamMailboxResponse>
@@ -28,10 +28,10 @@ ms.locfileid: "19840299"
 </UnpinTeamMailboxResponse>
 ```
 
- **UnpinTeamMailboxResponseMessageType**
+ **унпинтеаммаилбоксреспонсемессажетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,13 +39,13 @@ ms.locfileid: "19840299"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)
+[Мессажетекст](messagetext.md) | [ResponseCode](responsecode.md)респонсекоде | [DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй | [мессажексмл](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "19840299"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

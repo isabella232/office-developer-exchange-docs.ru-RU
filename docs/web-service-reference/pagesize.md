@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 61c87c48-eed0-45b5-b5a7-c9da0dec71ec
-description: Элемент PageSize содержит число элементов, возвращаемых на одной странице для результатов поиска.
+description: Элемент PageSize содержит количество элементов, возвращаемых на одной странице для результатов поиска.
 ms.openlocfilehash: 53b82729f86ad91d187e1cdfc0fa410ce8ddf16c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834684"
 ---
 # <a name="pagesize"></a>PageSize
 
-Элемент **PageSize** содержит число элементов, возвращаемых на одной странице для результатов поиска. 
+Элемент **pageSize** содержит количество элементов, возвращаемых на одной странице для результатов поиска. 
   
 ```XML
 <PageSize></PageSize>
@@ -26,7 +26,7 @@ ms.locfileid: "19834684"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19834684"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **PageSize** — число элементов, возвращаемых на одной странице набор результатов поиска. 
+Текстовое значение элемента **pageSize** — количество элементов, возвращаемых на одной странице набора результатов поиска. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834684"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

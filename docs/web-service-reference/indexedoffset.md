@@ -1,5 +1,5 @@
 ---
-title: IndexedOffset
+title: индекседоффсет
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 951ee079-417f-45a2-b47f-633e8cd6b520
-description: Элемент IndexedOffset указывает смещение индекса для выгружаемого FindConversation ответа.
+description: Элемент Индекседоффсет указывает смещение индекса для постраничного FindConversation ответа.
 ms.openlocfilehash: 1332e6e133f20b83bbf5eb713ffb8e0592045d67
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833911"
 ---
-# <a name="indexedoffset"></a>IndexedOffset
+# <a name="indexedoffset"></a>индекседоффсет
 
-Элемент **IndexedOffset** указывает смещение индекса для выгружаемого **FindConversation** ответа. 
+Элемент **индекседоффсет** указывает смещение индекса для постраничного **FindConversation** ответа. 
   
 ```XML
 <IndexedOffset></IndexedOffset>
@@ -26,7 +26,7 @@ ms.locfileid: "19833911"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19833911"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **IndexedOffset** — смещение индекса страницы для **FindConversation** ответов. 
+Текстовое значение элемента **индекседоффсет** — смещение индекса страницы для ответов **FindConversation** . 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19833911"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

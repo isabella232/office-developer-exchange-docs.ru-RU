@@ -1,5 +1,5 @@
 ---
-title: IsPermanentFailure
+title: исперманентфаилуре
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 18dc3a97-cc0a-4092-934e-a6e86f52e668
-description: Элемент IsPermanentFailure указывает, была ли предыдущая попытка индекс элемента неудачно.
+description: Элемент Исперманентфаилуре указывает, была ли предыдущая попытка индексировать элемент завершилась неудачно.
 ms.openlocfilehash: 39592c15394a57e1c6aa1183ed0ccedeb085e6ea
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834085"
 ---
-# <a name="ispermanentfailure"></a>IsPermanentFailure
+# <a name="ispermanentfailure"></a>исперманентфаилуре
 
-Элемент **IsPermanentFailure** указывает, была ли предыдущая попытка индекс элемента неудачно. 
+Элемент **исперманентфаилуре** указывает, была ли предыдущая попытка индексировать элемент завершилась неудачно. 
   
 ```XML
 <IsPermanentFailure>true | false</IsPermanentFailure>
@@ -26,7 +26,7 @@ ms.locfileid: "19834085"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834085"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[NonIndexableItemDetail](nonindexableitemdetail.md)
+[нониндексаблеитемдетаил](nonindexableitemdetail.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **IsPermanentFailure** указывает, что предыдущая попытка индекс элемента почтового ящика не удалось выполнить. Значение **false** указывает, что предыдущая попытка индекс элемента почтового ящика прошла успешно. 
+Текстовое значение **true** для элемента **исперманентфаилуре** указывает на то, что предыдущая попытка индексирования элемента почтового ящика выполнена неудачно. Значение **false** указывает, что предыдущая попытка индексировать элемент почтового ящика выполнена успешно. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834085"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

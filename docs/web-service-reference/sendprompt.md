@@ -1,5 +1,5 @@
 ---
-title: SendPrompt
+title: сендпромпт
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 22cb5a30-75d9-49a8-9d98-255f2e8a722d
-description: Элемент SendPrompt указывает тип действий, разрешенных для голосования варианта.
+description: Элемент Сендпромпт указывает тип действия, разрешенного для параметра голосования.
 ms.openlocfilehash: f3220d957482ea04c46b014cdf1c67025d5ec21a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835346"
 ---
-# <a name="sendprompt"></a>SendPrompt
+# <a name="sendprompt"></a>сендпромпт
 
-Элемент **SendPrompt** указывает тип действий, разрешенных для голосования варианта. 
+Элемент **сендпромпт** указывает тип действия, разрешенного для параметра голосования. 
   
 ```XML
 <SendPrompt> None | Send | VotingOption </SendPrompt>
 ```
 
- **SendPromptType**
+ **сендпромпттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,21 +38,21 @@ ms.locfileid: "19835346"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[VotingOptionData](votingoptiondata.md)
+[вотингоптиондата](votingoptiondata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **SendPrompt** является голосования вариант действий. В таблице ниже перечислены возможные варианты последнего. 
+Текстовое значение элемента **сендпромпт** — действие параметра голосования. В таблице ниже перечислены возможные варианты последнего. 
   
 ****
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Нет  <br/> |Никаких действий.  <br/> |
-|Send (отправлено)  <br/> |Ответ немедленно.  <br/> |
-|VotingOption  <br/> |Утверждающий может ввести комментарии при утверждение или отклонение.  <br/> |
+|Нет  <br/> |Действие отсутствует.  <br/> |
+|Отправить  <br/> |Ответ отправляется немедленно.  <br/> |
+|вотингоптион  <br/> |Утверждающее лицо может вводить комментарии при утверждении или отклонении.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -64,14 +64,14 @@ ms.locfileid: "19835346"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[VotingOptionData](votingoptiondata.md)
+[вотингоптиондата](votingoptiondata.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

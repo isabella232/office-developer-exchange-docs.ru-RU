@@ -1,5 +1,5 @@
 ---
-title: ResponseCode (InvalidRecipientResponseCodeType)
+title: Респонсекоде (ИнвалидреЦипиентреспонсекодетипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 582e9caa-d2bc-4be1-a460-739294f9ef18
-description: Элемент ResponseCode предоставляет сведения о почему получатель является недопустимым.
+description: Элемент Респонсекоде предоставляет сведения о причине неправильного получателя.
 ms.openlocfilehash: 3bff99dd1ac6603ce31d5ceb074e73ef48190bb2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835186"
 ---
-# <a name="responsecode-invalidrecipientresponsecodetype"></a>ResponseCode (InvalidRecipientResponseCodeType)
+# <a name="responsecode-invalidrecipientresponsecodetype"></a>Респонсекоде (ИнвалидреЦипиентреспонсекодетипе)
 
-Элемент **ResponseCode** предоставляет сведения о почему получатель является недопустимым. 
+Элемент **респонсекоде** предоставляет сведения о причине неправильного получателя. 
   
 ```XML
 <ResponseCode>OtherError or RecipientOrganizationNotFederated or CannotObtainTokenFromSTS or SystemPolicyBlocksSharingWithThisRecipient or RecipientOrganizationFederatedWithUnknownTokenIssuer</ResponseCode>
 ```
 
- **InvalidRecipientResponseCodeType**
+ **инвалидреЦипиентреспонсекодетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,21 +44,21 @@ ms.locfileid: "19835186"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[InvalidRecipient](invalidrecipient.md) <br/> |Содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым.  <br/> |
+|[инвалидреЦипиент](invalidrecipient.md) <br/> |Содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **ResponseCode** . 
+В следующей таблице приведены возможные значения для элемента **респонсекоде** . 
   
 |**Код**|**Описание**|
 |:-----|:-----|
-|OtherError  <br/> |Указывает, что ошибки не указан с другой код ошибки.  <br/> |
-|RecipientOrganizationNotFederated  <br/> |Указывает, что отношение общего доступа не доступен с организацией, указанного в поле адрес электронной почты получателя SMTP.  <br/> |
-|CannotObtainTokenFromSTS  <br/> |Указывает, что возникла проблема получение маркера безопасности на основе сервера маркеров.  <br/> |
-|SystemPolicyBlocksSharingWithThisRecipient  <br/> |Указывает, что системный администратор значение системной политики, который блокирует общий доступ для указанного получателя.  <br/> |
-|RecipientOrganizationFederatedWithUnknownTokenIssuer  <br/> |Указывает, что службы маркеров безопасности, используемый для указанного получателя неизвестно.  <br/> |
+|осереррор  <br/> |Указывает на то, что ошибка не указана другим кодом ответа на сообщение об ошибке.  <br/> |
+|реЦипиенторганизатионнотфедератед  <br/> |Указывает, что отношение общего доступа недоступно в Организации, указанной в SMTP-адресе электронной почты получателя.  <br/> |
+|каннотобтаинтокенфромстс  <br/> |Указывает, что при получении маркера безопасности от сервера маркеров возникла проблема.  <br/> |
+|системполициблокксшарингвиссисреЦипиент  <br/> |Указывает, что системный администратор установил системную политику, которая блокирует общий доступ для указанного получателя.  <br/> |
+|реЦипиенторганизатионфедератедвисункновнтокениссуер  <br/> |Указывает, что служба безопасного токена, используемая указанным получателем, неизвестна.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -68,7 +68,7 @@ ms.locfileid: "19835186"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

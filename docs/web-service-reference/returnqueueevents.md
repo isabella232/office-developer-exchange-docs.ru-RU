@@ -1,5 +1,5 @@
 ---
-title: ReturnQueueEvents
+title: ретурнкуеуивентс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 69d22417-320c-4c6f-9fb4-2020f2480bb2
-description: Элемент ReturnQueueEvents указывает человека, который выполняет задачу в привилегированной роли.
+description: Элемент Ретурнкуеуивентс указывает, что пользователь, выполняющий задачу, находится в привилегированной роли.
 ms.openlocfilehash: 02f4ca86ffa14117105ec186ae039065cb626670
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835233"
 ---
-# <a name="returnqueueevents"></a>ReturnQueueEvents
+# <a name="returnqueueevents"></a>ретурнкуеуивентс
 
-Элемент **ReturnQueueEvents** указывает человека, который выполняет задачу в привилегированной роли. 
+Элемент **ретурнкуеуивентс** указывает, что пользователь, выполняющий задачу, находится в привилегированной роли. 
   
 ```XML
 <ReturnQueueEvents>true | false</ReturnQueueEvents>
@@ -30,7 +30,7 @@ ms.locfileid: "19835233"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19835233"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Содержит запроса для [операции GetMessageTrackingReport](getmessagetrackingreport-operation.md) для получения полного сообщения, отслеживания отчетов для указанного идентификатора.  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Содержит запрос для [операции GetMessageTrackingReport](getmessagetrackingreport-operation.md) , чтобы получить полный отчет об отслеживании сообщений для указанного идентификатора.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее логическое значение является обязательным. Значение **true** указывает, что пользователь, выполняющий задачи является привилегированной роли; значение **false** указывает, что пользователь, выполняющий задачи не привилегированной роли. 
+Текстовое значение, представляющее логическое значение является обязательным. Значение **true** указывает, что пользователь, выполняющий задачу, находится в привилегированной роли; значение **false** указывает, что пользователь, выполняющий задачу, не является привилегированной ролью. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19835233"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

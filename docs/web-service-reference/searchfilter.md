@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a7ee364-b7da-4197-aab2-57134537109a
-description: Элемент SearchFilter содержит строки запроса для фильтрации почтовые ящики которого требуется получить из GetSearchableMailboxes запроса.
+description: Элемент SearchFilter содержит строку запроса, чтобы отфильтровать почтовые ящики, которые должны быть возвращены из запроса GetSearchableMailboxes.
 ms.openlocfilehash: b71d8dd862e9338afc145545df4cd29e8bcc3dc8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19835285"
 ---
 # <a name="searchfilter"></a>SearchFilter
 
-Элемент **SearchFilter** содержит строки запроса для фильтрации почтовые ящики которого требуется получить из **GetSearchableMailboxes** запроса. 
+Элемент **SearchFilter** содержит строку запроса, чтобы отфильтровать почтовые ящики, которые должны быть возвращены из запроса **GetSearchableMailboxes** . 
   
 ```XML
 <SearchFilter></SearchFilter>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19835285"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **SearchFilter** — это строка запроса к почтовым ящикам фильтр для поиска обнаружения. 
+Текстовое значение элемента **SearchFilter** — строка запроса для фильтрации почтовых ящиков для поиска обнаружения. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19835285"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

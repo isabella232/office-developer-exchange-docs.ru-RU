@@ -1,5 +1,5 @@
 ---
-title: ManagedFolderId
+title: манажедфолдерид
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3efb7abb-0e91-4d8a-9fa2-3dec8bd17c30
-description: Элемент ManagedFolderId содержит идентификатор папки из управляемых папок.
+description: Элемент Манажедфолдерид содержит идентификатор папки управляемой папки.
 ms.openlocfilehash: acdb69f82678633baff12c46494c39015c36d233
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834340"
 ---
-# <a name="managedfolderid"></a>ManagedFolderId
+# <a name="managedfolderid"></a>манажедфолдерид
 
-Элемент **ManagedFolderId** содержит идентификатор папки из управляемых папок. 
+Элемент **манажедфолдерид** содержит идентификатор папки управляемой папки. 
   
 ```xml
 <ManagedFolderId/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,15 +44,15 @@ ms.locfileid: "19834340"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ManagedFolderInformation](managedfolderinformation.md) <br/> |Содержит сведения об управляемых папок.  <br/> |
+|[манажедфолдеринформатион](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Для этого элемента требуется указать текстовое значение.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Значение идентификатора **ManagedFolderId** является эквивалентом свойство **Guid** , получаемых `Get-ManagedFolder` команду Microsoft Windows Powershell. Это значение атрибута **objectGUID** для управляемой папки в службе каталогов Active Directory. 
+Значение идентификатора **манажедфолдерид** эквивалентно свойству **GUID** , которое извлекается с помощью команды `Get-ManagedFolder` Microsoft Windows PowerShell. Он также является значением атрибута **objectGUID** для управляемой папки в службе каталогов Active Directory. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19834340"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

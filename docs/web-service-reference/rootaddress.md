@@ -1,5 +1,5 @@
 ---
-title: RootAddress
+title: рутаддресс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1dbb130a-e4eb-4baf-ae07-2568a8375bff
-description: Элемент RootAddress представляет первый адрес, который запускает события для события RecipientTrackingEvent.
+description: Элемент Рутаддресс представляет первый адрес, с которого начинается событие для события РеЦипиенттраккинжевент.
 ms.openlocfilehash: afe544d6ee8dea4cb416ad033ed2cd68976ec087
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835250"
 ---
-# <a name="rootaddress"></a>RootAddress
+# <a name="rootaddress"></a>рутаддресс
 
-Элемент **RootAddress** представляет первый адрес, который запускает события для события [RecipientTrackingEvent](recipienttrackingevent.md) . 
+Элемент **рутаддресс** представляет первый адрес, с которого начинается событие для события [реЦипиенттраккинжевент](recipienttrackingevent.md) . 
   
 ```xml
 <RootAddress/>
 ```
 
- **NonEmptyStringType**
+ **нонемптистрингтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19835250"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Содержит сведения для одного события для получателя.  <br/> |
+|[реЦипиенттраккинжевент](recipienttrackingevent.md) <br/> |Содержит сведения об отдельном событии получателя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет собой адрес, который запускает отслеживание событий.
+Текстовое значение — это адрес, с которого начинается отслеживание события.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -60,7 +60,7 @@ ms.locfileid: "19835250"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

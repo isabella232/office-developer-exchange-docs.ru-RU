@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ea5b1cb6-6998-46fb-a99c-a6d3da77591f
-description: Найдите сведения о веб-служб Exchange MarkAllItemsAsRead операции.
+description: Поиск сведений о MarkAllItemsAsReadной операции EWS.
 ms.openlocfilehash: 995a6219f0a3b41bddb0d65c875d981322e1ce78
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,33 +17,33 @@ ms.locfileid: "19834354"
 ---
 # <a name="markallitemsasread-operation"></a>Операция MarkAllItemsAsRead
 
-Найдите сведения о **MarkAllItemsAsRead** операции веб-служб Exchange. 
+Поиск сведений о **MarkAllItemsAsReadной** операции EWS. 
   
-Операция **MarkAllItemsAsRead** задает свойство [IsRead](isread.md) на все элементы в одной или нескольких папок, чтобы указать, что все элементы являются чтения или непрочитанные сообщения. 
+Операция **MarkAllItemsAsRead** устанавливает свойство- [Read](isread.md) для всех элементов в одной или нескольких папках, чтобы показать, что все элементы прочитаны или не прочитаны. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-markallitemsasread-operation"></a>С помощью операции MarkAllItemsAsRead
+## <a name="using-the-markallitemsasread-operation"></a>Использование операции MarkAllItemsAsRead
 
-Операция **MarkAllItemsAsRead** можно задать свойство [IsRead](isread.md) для всех элементов в папках, определяемую средством идентификатор папки веб-служб Exchange (EWS) или имя папки Exchange по умолчанию. Операция **MarkAllItemsAsRead** также можно отключить отправку прочтении для элементов, помеченных как прочтенные. 
+С помощью операции **MarkAllItemsAsRead** можно задать свойство- [Read](isread.md) для всех элементов в папках, определенных с помощью идентификатора папки веб-служб Exchange (EWS) или имени папки Exchange по умолчанию. Операция **MarkAllItemsAsRead** также может подавлять отправку уведомлений о прочтении для элементов, помеченных как прочитанные. 
   
-### <a name="markallitemsasread-operation-soap-headers"></a>Заголовки SOAP MarkAllItemsAsRead операции
+### <a name="markallitemsasread-operation-soap-headers"></a>Заголовки SOAP операции MarkAllItemsAsRead
 
-Операция **MarkAllItemsAsRead** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **MarkAllItemsAsRead** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="markallitemsasread-operation-request-example-mark-all-items-in-a-folder-as-read"></a>Пример запроса MarkAllItemsAsRead операции: Пометка всех элементов в папке как прочтенные
+## <a name="markallitemsasread-operation-request-example-mark-all-items-in-a-folder-as-read"></a>Пример запроса операции MarkAllItemsAsRead: Пометка всех элементов в папке как прочитанных
 
-В следующем примере запрос операции **MarkAllItemsAsRead** показано, как задать свойство [IsRead](isread.md) , которая также называется чтения флаг, значение **true** для всех элементов в папке. В этом примере также показано, что чтения, уведомления не отправляются в ответ на все запросы на уведомление. 
+В следующем примере запроса операции **MarkAllItemsAsRead** показано, как задать свойство- [Read](isread.md) , которое также называется флагом чтения, равное **true** всем элементам в папке. В этом примере также показано, что уведомления о прочтении не отправляются в ответ на запросы уведомления о прочтении. 
   
 > [!NOTE]
-> Все идентификаторы элементов и ключей изменения в этой статье URL были сокращены, чтобы сохранить удобочитаемость. Изменение ключей не являются обязательными для этой операции. 
+> Все идентификаторы элементов и изменения ключей в этой статье были сокращены, чтобы сохранить удобочитаемость. Для этой операции не требуются ключи изменения. 
   
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -66,21 +66,21 @@ ms.locfileid: "19834354"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [MarkAllItemsAsRead](markallitemsasread.md)
     
-- [ReadFlag](readflag.md)
+- [реадфлаг](readflag.md)
     
-- [SuppressReadReceipts](suppressreadreceipts.md)
+- [суппрессреадрецеиптс](suppressreadreceipts.md)
     
-- [FolderIds](folderids.md)
+- [фолдеридс](folderids.md)
     
 - [FolderId](folderid.md)
     
-## <a name="successful-markallitemsasread-operation-response"></a>Успешные операции ответа MarkAllItemsAsRead
+## <a name="successful-markallitemsasread-operation-response"></a>Успешный отклик операции MarkAllItemsAsRead
 
-В следующем примере показано успешного ответа на запрос операции **MarkAllItemsAsRead** , чтобы пометить все элементы в папке как прочтенные. 
+В следующем примере показан успешный ответ на запрос операции **MarkAllItemsAsRead** , чтобы пометить все элементы в папке как прочтенные. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -110,19 +110,19 @@ ms.locfileid: "19834354"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [MarkAllItemsAsReadResponse](markallitemsasreadresponse.md)
+- [маркаллитемсасреадреспонсе](markallitemsasreadresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [MarkAllItemsAsReadResponseMessage](markallitemsasreadresponsemessage.md)
+- [маркаллитемсасреадреспонсемессаже](markallitemsasreadresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="markallitemsasread-operation-request-example-mark-all-items-in-a-folder-as-unread"></a>Пример запроса MarkAllItemsAsRead операции: Пометка всех элементов в папке как непрочтенные
+## <a name="markallitemsasread-operation-request-example-mark-all-items-in-a-folder-as-unread"></a>Пример запроса операции MarkAllItemsAsRead: Пометка всех элементов в папке как непрочтенных
 
-В следующем примере запрос операции **MarkAllItemsAsRead** показано, как для свойства [IsRead](isread.md) значение **false** для всех элементов в папке. В этом примере также показано, что чтения, уведомления не отправляются в ответ на все запросы на уведомление. 
+В приведенном ниже примере запроса операции **MarkAllItemsAsRead** показано, как задать для свойства [читал](isread.md) значение **false** для всех элементов в папке. В этом примере также показано, что уведомления о прочтении не отправляются в ответ на запросы уведомления о прочтении. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -146,23 +146,23 @@ ms.locfileid: "19834354"
 </soap:Envelope>
 ```
 
-Успешного ответа на запрос, чтобы пометить все элементы как прочитанные — это то же, что ответ на запрос, чтобы пометить все элементы как непрочтенные.
+Успешный ответ на запрос на пометку всех элементов как прочитанных совпадает с ответом на запрос, помечающий все элементы как непрочтенные.
   
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [MarkAllItemsAsRead](markallitemsasread.md)
     
-- [ReadFlag](readflag.md)
+- [реадфлаг](readflag.md)
     
-- [SuppressReadReceipts](suppressreadreceipts.md)
+- [суппрессреадрецеиптс](suppressreadreceipts.md)
     
-- [FolderIds](folderids.md)
+- [фолдеридс](folderids.md)
     
 - [FolderId](folderid.md)
     
-## <a name="markallitemsasread-operation-error-response"></a>Ошибка операции MarkAllItemsAsRead ответа
+## <a name="markallitemsasread-operation-error-response"></a>Ответ об ошибке операции MarkAllItemsAsRead
 
-В следующем примере показано возврату ошибки на запрос операции **MarkAllItemsAsRead** Пометка всех элементов в папке прочитан или не прочитан при папка не существует в почтовом ящике. 
+В следующем примере показан ответ об ошибке запроса операции **MarkAllItemsAsRead** , чтобы пометить все элементы в папке как прочтенные или непрочтенные, если папка не существует в почтовом ящике. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -195,24 +195,24 @@ ms.locfileid: "19834354"
 
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [MarkAllItemsAsReadResponse](markallitemsasreadresponse.md)
+- [маркаллитемсасреадреспонсе](markallitemsasreadresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [MarkAllItemsAsReadResponseMessage](markallitemsasreadresponsemessage.md)
+- [маркаллитемсасреадреспонсемессаже](markallitemsasreadresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 
 - [Операции EWS в Exchange](ews-operations-in-exchange.md)
     
-- [FindFolder Operation](findfolder-operation.md)
+- [Операция FindFolder](findfolder-operation.md)
     
 

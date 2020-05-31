@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 06bc95d7-121c-433b-bd27-c2b0eb8c011f
-description: Элемент UniqueBody представляет фрагмент HTML или обычный текст, который представляет уникальное body эту беседу.
+description: Элемент UniqueBody представляет фрагмент HTML или обычный текст, представляющий уникальный основной текст этой беседы.
 ms.openlocfilehash: 49d3607926e0b985074d79cde76cad084f537f01
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19840277"
 ---
 # <a name="uniquebody"></a>UniqueBody
 
-Элемент **UniqueBody** представляет фрагмент HTML или обычный текст, который представляет уникальное body эту беседу. 
+Элемент **UniqueBody** представляет фрагмент HTML или обычный текст, представляющий уникальный основной текст этой беседы. 
   
 ```XML
 <UniqueBody BodyType=""/>
@@ -30,19 +30,19 @@ ms.locfileid: "19840277"
  **BodyType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**BodyType** <br/> |Описание хранения основной текст элемента в элементе.  <br/> |
+|**BodyType** <br/> |Описывает, как основной текст элемента хранится в элементе.  <br/> |
    
-#### <a name="bodytype-attribute"></a>Атрибут типа текста сообщения
+#### <a name="bodytype-attribute"></a>Атрибут BodyType
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|**HTML-КОД** <br/> |Преобразует все тексты в HTML-код.  <br/> |
+|**HTML** <br/> |Преобразует все тексты в HTML.  <br/> |
 |**Text** <br/> |Преобразует все тексты в обычный текст.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
@@ -53,16 +53,16 @@ ms.locfileid: "19840277"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Представляет элемент post в хранилище Exchange.  <br/> |
+|[PostItem](postitem.md) <br/> |Представляет элемент POST в хранилище Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Удаляет элемент из хранилища Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
@@ -70,7 +70,7 @@ ms.locfileid: "19840277"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -80,7 +80,7 @@ ms.locfileid: "19840277"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: efdb30a2-9877-4703-b09e-059d1669c041
-description: Элемент MobilePhones2 указывает массив значений MobilePhone и идентификаторы их атрибуты источника для связанного пользователя.
+description: Элемент MobilePhones2 указывает массив значений MobilePhone и идентификаторы их исходных атрибутов для связанного пользователя.
 ms.openlocfilehash: 1307c7f3d3f23bc0702713eb5c711fae45160486
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834481"
 ---
 # <a name="mobilephones2"></a>MobilePhones2
 
-Элемент **MobilePhones2** указывает массив значений **MobilePhone** и идентификаторы их атрибуты источника для связанного пользователя. 
+Элемент **MobilePhones2** указывает массив значений **MobilePhone** и идентификаторы их исходных атрибутов для связанного пользователя. 
   
 ```XML
 <MobilePhones2>
@@ -25,10 +25,10 @@ ms.locfileid: "19834481"
 </MobilePhones2>
 ```
 
- **ArrayOfPhoneNumberAttributedValuesType**
+ **аррайоффоненумбераттрибутедвалуестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19834481"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[PhoneNumberAttributedValue](phonenumberattributedvalue.md)
+[фоненумбераттрибутедвалуе](phonenumberattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19834481"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

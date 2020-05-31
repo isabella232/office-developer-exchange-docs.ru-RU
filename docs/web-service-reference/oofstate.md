@@ -1,5 +1,5 @@
 ---
-title: OofState
+title: уфстате
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3c486a38-06da-4382-ad20-664d067d76ac
-description: Элемент OofState используется для получения или задания состояния об отсутствии на работе Office (отсутствие на работе) пользователя.
+description: Элемент Уфстате используется для получения или задания состояния отсутствия на работе пользователя.
 ms.openlocfilehash: f97c050aec102b384fa4d98e6dee43befd4dc9ca
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834651"
 ---
-# <a name="oofstate"></a>OofState
+# <a name="oofstate"></a>уфстате
 
-Элемент **OofState** используется для получения или задания состояния об отсутствии на работе Office (отсутствие на работе) пользователя. 
+Элемент **уфстате** используется для получения или задания состояния отсутствия на работе пользователя. 
   
 ```xml
 <OofState>Disabled or Enabled or Scheduled</OofState>
 ```
 
- **OofState**
+ **уфстате**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,30 +44,30 @@ ms.locfileid: "19834651"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Задает параметры об отсутствии на работе.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Содержит параметры об отсутствии на работе.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[усеруфсеттингс](useroofsettings.md) <br/> |Задает параметры отсутствия на работе.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[уфсеттингс](oofsettings.md) <br/> |Содержит параметры отсутствия на работе.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным для элемента **OofState** . Следующий список содержит возможные значения для этого элемента: 
+Для элемента **уфстате** необходимо указать текстовое значение. Следующий список содержит возможные значения для этого элемента: 
   
-- **Отключено**
+- **Disabled**
     
-- **Включено**
+- **Enabled**
     
-- **Запланировано**
+- **Календар**
     
-Значение **Запланировано** указывает, что состояние об отсутствии на работе выбрано значение **Enabled** период времени, обнаруженных в элементе [продолжительность (UserOofSettings)](duration-useroofsettings.md) . 
+Значение **Schedule** указывает на то, что состояние неизвестных состояний " **включено** " в течение периода времени, определяемого элементом [Duration (усеруфсеттингс)](duration-useroofsettings.md) . 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент является обязательным в SetUsersOofSettingRequest сообщений и сообщений GetUserOofSettingResponse.
+Этот элемент является обязательным в сообщениях Сетусерсуфсеттингрекуест и Жетусеруфсеттингреспонсе.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
 ## <a name="example"></a>Пример
 
-В следующем примере запрос SetUserOofSettings включается **OofState**.
+Следующий пример запроса SetUserOofSettings включает **уфстате**.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -104,7 +104,7 @@ ms.locfileid: "19834651"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

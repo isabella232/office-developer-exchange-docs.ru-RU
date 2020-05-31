@@ -1,5 +1,5 @@
 ---
-title: UniqueHash
+title: уникуехаш
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9fa53810-d6ec-406b-bdde-ddf33f03600f
-description: Элемент UniqueHash указывает уникальный хэш-функции значение, используемое для дедупликация.
+description: Элемент Уникуехаш указывает уникальное значение хэша, используемое для отмены дублирования.
 ms.openlocfilehash: 5a590fd863427d86f3010f98f91da5ee9b55edd0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840282"
 ---
-# <a name="uniquehash"></a>UniqueHash
+# <a name="uniquehash"></a>уникуехаш
 
-Элемент **UniqueHash** указывает уникальный хэш-функции значение, используемое для дедупликация. 
+Элемент **уникуехаш** указывает уникальное значение хэша, используемое для отмены дублирования. 
   
 ```XML
 <UniqueHash></UniqueHash>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19840282"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SearchPreviewItem](searchpreviewitem.md)
+[сеарчпревиевитем](searchpreviewitem.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **UniqueHash** — это значения хэш-функции, используемые для дедупликация. 
+Текстовое значение элемента **уникуехаш** — это хэш-значение, используемое для отмены дублирования. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19840282"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

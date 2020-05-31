@@ -1,5 +1,5 @@
 ---
-title: Инициалы (ArrayOfStringAttributedValuesType)
+title: Инициалы (Аррайофстрингаттрибутедвалуестипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 060c0cf1-c632-484c-87f5-f577017a7090
-description: Элемент инициалы указывает массив значений инициалы и идентификаторы их атрибуты источника для связанного пользователя.
+description: Элемент Initials указывает массив значений инициалов и идентификаторы их исходных атрибутов для связанного пользователя.
 ms.openlocfilehash: 5b9fe4062bcc0d60de828ed6b0cb08faa45b5c19
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833926"
 ---
-# <a name="initials-arrayofstringattributedvaluestype"></a>Инициалы (ArrayOfStringAttributedValuesType)
+# <a name="initials-arrayofstringattributedvaluestype"></a>Инициалы (Аррайофстрингаттрибутедвалуестипе)
 
-Элемент **Инициалы** указывает массив значений инициалы и идентификаторы их атрибуты источника для связанного пользователя. 
+Элемент **Initials** указывает массив значений инициалов и идентификаторы их исходных атрибутов для связанного пользователя. 
   
 ```XML
 <Initials>
@@ -25,10 +25,10 @@ ms.locfileid: "19833926"
 </Initials>
 ```
 
- **ArrayOfStringAttributedValuesType**
+ **аррайофстрингаттрибутедвалуестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,15 +38,15 @@ ms.locfileid: "19833926"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Задает экземпляр в массиве атрибутов, связанных с элементом пользователя.  <br/> |
+|[стрингаттрибутедвалуе](stringattributedvalue.md) <br/> |Указывает экземпляр в массиве атрибутов, связанных с элементом персоны.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19833926"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

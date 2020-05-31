@@ -1,5 +1,5 @@
 ---
-title: MoveItem Operation
+title: Операция MoveItem
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834492"
 ---
-# <a name="moveitem-operation"></a>MoveItem Operation
+# <a name="moveitem-operation"></a>Операция MoveItem
 
 Операция **MoveItem** используется для перемещения одного или нескольких элементов в одну целевую папку. 
   
@@ -27,9 +27,9 @@ ms.locfileid: "19834492"
 
 ### <a name="description"></a>Описание
 
-Приведенный ниже запрос **MoveItem** показано перемещение элемента в папке "Черновики". 
+В приведенном ниже примере запроса **MoveItem** показано, как переместить элемент в папку "Черновики". 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -51,36 +51,36 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Элемент [ToFolderId](tofolderid.md) указывает папку, в который перемещается элементы. Обратите внимание на то, что все элементы, перечисленные в коллекции [что ItemID](itemids.md) окажутся в папке назначения. Необходимо включить для отдельных вызовов **MoveItem** размещение элементов в разных конечные папки. 
+Элемент [тофолдерид](tofolderid.md) указывает папку, в которую будут перемещены элементы. Обратите внимание, что все элементы, перечисленные в коллекции [итемидс](itemids.md) , будут находиться в конечной папке. Для размещения элементов в разных папках назначения необходимо выполнить отдельные вызовы **MoveItem** . 
   
 > [!NOTE]
-> Идентификатор элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [MoveItem](moveitem.md)
     
-- [ToFolderId](tofolderid.md)
+- [тофолдерид](tofolderid.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
-- [Что ItemID](itemids.md)
+- [итемидс](itemids.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-## <a name="moveitem-response-example"></a>Пример ответа MoveItem
+## <a name="moveitem-response-example"></a>Пример отклика MoveItem
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **MoveItem** . 
+В следующем примере показан успешный ответ на запрос **MoveItem** . 
   
-Идентификатор нового элемента, возвращается в сообщении ответа. Идентификаторы элементов не возвращаются в ответ для нескольких почтовых или почтовых ящиков операциям **MoveItem** общей папки. 
+В ответном сообщении возвращается идентификатор элемента нового элемента. Идентификаторы элементов не возвращаются в ответах на операции **MoveItem** для нескольких почтовых ящиков или почтовых ящиков в общедоступных папках. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -110,25 +110,25 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Операция **MoveItem** содержатся сведения о успешное перемещение выполнено успешно. 
+Если перемещение прошло успешно, операция **MoveItem** будет указывать на успешное выполнение. 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [MoveItemResponse](moveitemresponse.md)
+- [мовеитемреспонсе](moveitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [MoveItemResponseMessage](moveitemresponsemessage.md)
+- [мовеитемреспонсемессаже](moveitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: TrackingPropertyType
+title: траккингпропертитипе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1d0f219b-1063-4eaa-9d3b-da384a544f89
-description: Элемент TrackingPropertyType представляет имя и значение пары строк, который используется для создания свойств для отчеты об отслеживании сообщений.
+description: Элемент Траккингпропертитипе представляет собой комбинацию имени и значения строк, которая используется для создания свойств отчетов об отслеживании сообщений.
 ms.openlocfilehash: 762c7d364382c3087277651cc01329e3c85df4e4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840229"
 ---
-# <a name="trackingpropertytype"></a>TrackingPropertyType
+# <a name="trackingpropertytype"></a>траккингпропертитипе
 
-Элемент **TrackingPropertyType** представляет имя и значение пары строк, который используется для создания свойств для отчеты об отслеживании сообщений. 
+Элемент **траккингпропертитипе** представляет собой комбинацию имени и значения строк, которая используется для создания свойств отчетов об отслеживании сообщений. 
   
-[Свойства (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md)
+[Свойства (Аррайофтраккингпропертиестипе)](properties-arrayoftrackingpropertiestype.md)
   
-[TrackingPropertyType](trackingpropertytype.md)
+[траккингпропертитипе](trackingpropertytype.md)
   
 ```xml
 <TrackingPropertyType>
@@ -34,10 +34,10 @@ ms.locfileid: "19840229"
 </TrackingPropertyType>
 ```
 
- **TrackingPropertyType**
+ **траккингпропертитипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -47,20 +47,20 @@ ms.locfileid: "19840229"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (отслеживания сообщений)](name-message-tracking.md) <br/> |Определяет имя для отслеживания отчетов свойства сообщений.  <br/> |
-|[Значение (отслеживания сообщений)](value-message-tracking.md) <br/> |Определяет значение для свойства отчета отслеживания сообщений. Этот элемент является необязательным.  <br/> |
+|[Name (отслеживание сообщений)](name-message-tracking.md) <br/> |Определяет имя свойства отчета "Отслеживание сообщений".  <br/> |
+|[Value (отслеживание сообщений)](value-message-tracking.md) <br/> |Определяет значение свойства отчета "Отслеживание сообщений". Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Свойства (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Содержит список одного или нескольких свойств отслеживания.  <br/> |
+|[Свойства (Аррайофтраккингпропертиестипе)](properties-arrayoftrackingpropertiestype.md) <br/> |Содержит список одного или нескольких свойств отслеживания.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -70,7 +70,7 @@ ms.locfileid: "19840229"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

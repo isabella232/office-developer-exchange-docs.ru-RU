@@ -1,5 +1,5 @@
 ---
-title: RequestedExtensionIds
+title: рекуестедекстенсионидс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bfd516a4-15f5-4303-b695-820537636b11
-description: Элемент RequestedExtensionIds содержит массив идентификаторов расширения.
+description: Элемент Рекуестедекстенсионидс содержит массив идентификаторов расширений.
 ms.openlocfilehash: da7e7817179a608cff896e67d71aea992aac674e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835142"
 ---
-# <a name="requestedextensionids"></a>RequestedExtensionIds
+# <a name="requestedextensionids"></a>рекуестедекстенсионидс
 
-Элемент **RequestedExtensionIds** содержит массив идентификаторов расширения. 
+Элемент **рекуестедекстенсионидс** содержит массив идентификаторов расширений. 
   
 ```XML
 <RequestedExtensionIds>
@@ -25,10 +25,10 @@ ms.locfileid: "19835142"
 </RequestedExtensionIds>
 ```
 
- **ArrayOfStringsType**
+ **аррайофстрингстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19835142"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Строка](string.md)
+[String](string.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[GetClientExtension](getclientextension.md)
+[жетклиентекстенсион](getclientextension.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19835142"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

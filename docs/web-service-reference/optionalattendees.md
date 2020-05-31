@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e7c80c4d-3794-45e9-986f-6a8a687df0a4
-description: Элемент OptionalAttendees представляет участников, которые не требуется на участие в собрании.
+description: Элемент OptionalAttendees представляет участников, которые не являются обязательными для участия в собрании.
 ms.openlocfilehash: d5d994f7e85a47b14ab47f58fb73533cf961f7e6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19834658"
 ---
 # <a name="optionalattendees"></a>OptionalAttendees
 
-Элемент **OptionalAttendees** представляет участников, которые не требуется на участие в собрании. 
+Элемент **OptionalAttendees** представляет участников, которые не являются обязательными для участия в собрании. 
   
 ```xml
 <OptionalAttendees>
@@ -29,10 +29,10 @@ ms.locfileid: "19834658"
 </OptionalAttendees>
 ```
 
- **NonEmptyArrayOfAttendeesType**
+ **нонемптяррайофаттендистипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,16 +42,16 @@ ms.locfileid: "19834658"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Attendee](attendee.md) <br/> |Представляет участников и ресурсы, необходимые для собрания.  <br/> |
+|[Attendee](attendee.md) <br/> |Представляет участников и ресурсы собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "19834658"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

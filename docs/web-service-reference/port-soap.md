@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 7db8ceb3-0bca-4822-a1aa-f0947b770f26
-description: Элемент Port — номер порта для использования протокола.
+description: Элемент Port представляет номер порта, используемый для протокола.
 ms.openlocfilehash: 2213dc1ba9f604f515c8b6ccf013dc44fa541a67
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19834841"
 ---
 # <a name="port-soap"></a>Порт (SOAP)
 
-Элемент **Port** — номер порта для использования протокола. 
+Элемент **Port** представляет номер порта, используемый для протокола. 
   
 ```XML
 <Port/>
@@ -27,7 +27,7 @@ ms.locfileid: "19834841"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,19 +41,19 @@ ms.locfileid: "19834841"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |Представляет подключение к протокола сервера веб-клиент.  <br/> |
+|[Протоколконнектион (SOAP)](protocolconnection-soap.md) <br/> |Представляет подключение протокола для веб-клиента сервера.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Значение — номер порта для использования протокола.
+Значение — номер порта, который будет использоваться для протокола.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

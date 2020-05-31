@@ -1,5 +1,5 @@
 ---
-title: PhysicalAddresses
+title: фисикаладдрессес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5276c5f2-9e08-43af-a0b2-da4ff1dcae2d
-description: Элемент PhysicalAddresses содержит коллекцию физических адресов, связанные с контактом.
+description: Элемент Фисикаладдрессес содержит коллекцию физических адресов, связанных с контактом.
 ms.openlocfilehash: d4d5232312c735e389e9f5b0dbcb74f8614b6906
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834814"
 ---
-# <a name="physicaladdresses"></a>PhysicalAddresses
+# <a name="physicaladdresses"></a>фисикаладдрессес
 
-Элемент **PhysicalAddresses** содержит коллекцию физических адресов, связанные с контактом. 
+Элемент **фисикаладдрессес** содержит коллекцию физических адресов, связанных с контактом. 
   
 ```xml
 <PhysicalAddresses>
@@ -29,10 +29,10 @@ ms.locfileid: "19834814"
 </PhysicalAddresses>
 ```
 
- **PhysicalAddressDictionaryType**
+ **фисикаладдрессдиктионаритипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19834814"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Запись (PhysicalAddress)](entry-physicaladdress.md) <br/> |Описывает один физический адрес для элемента контакта.  <br/> |
+|[Запись (PhysicalAddress)](entry-physicaladdress.md) <br/> |Описывает один физический адрес элемента контакта.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19834814"
 |:-----|:-----|
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19834814"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,7 +70,7 @@ ms.locfileid: "19834814"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
 [Обновление контактов](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   

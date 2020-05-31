@@ -1,5 +1,5 @@
 ---
-title: SetTelephoneAccessFolderEmailResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Сеттелефонеакцессфолдеремаилреспонсе (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 01d07114-5764-4ea7-948c-1ae95c287f0c
-description: Элемент SetTelephoneAccessFolderEmailResponse определяет ответа на запрос SetTelephoneAccessFolderEmail операции (веб-служба единой системы обмена СООБЩЕНИЯМИ).
+description: Элемент Сеттелефонеакцессфолдеремаилреспонсе определяет ответ на запрос для операции SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями).
 ms.openlocfilehash: 8558a0efd45cc1b2e0bbaac8a93e4c3e498cef74
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835460"
 ---
-# <a name="settelephoneaccessfolderemailresponse-um-web-service"></a>SetTelephoneAccessFolderEmailResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="settelephoneaccessfolderemailresponse-um-web-service"></a>Сеттелефонеакцессфолдеремаилреспонсе (веб-служба единой системы обмена сообщениями)
 
-Элемент **SetTelephoneAccessFolderEmailResponse** определяет ответ на запрос [операции SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)](settelephoneaccessfolderemail-operation-um-web-service.md) . 
+Элемент **сеттелефонеакцессфолдеремаилреспонсе** определяет ответ на запрос для [операции SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)](settelephoneaccessfolderemail-operation-um-web-service.md) . 
   
-[SetTelephoneAccessFolderEmailResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)](settelephoneaccessfolderemailresponse-um-web-service.md)
+[Сеттелефонеакцессфолдеремаилреспонсе (веб-служба единой системы обмена сообщениями)](settelephoneaccessfolderemailresponse-um-web-service.md)
   
 ```xml
 <SetTelephoneAccessFolderEmailResponse />
@@ -31,7 +31,7 @@ ms.locfileid: "19835460"
  **complexType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -55,12 +55,12 @@ ms.locfileid: "19835460"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)](settelephoneaccessfolderemail-operation-um-web-service.md)
 

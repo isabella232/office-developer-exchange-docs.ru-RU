@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1348ffab-bd19-48fc-90dc-fd35e7031700
-description: Элемент TotalWork содержит описание объем работы связан с задачей.
+description: Элемент Тоталворк содержит описание объема работы, связанного с задачей.
 ms.openlocfilehash: a8a9b8cb2325bf7f43d833fcb4cd111254b0babb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19840223"
 ---
 # <a name="totalwork"></a>TotalWork
 
-Элемент **TotalWork** содержит описание объем работы связан с задачей. 
+Элемент **тоталворк** содержит описание объема работы, связанного с задачей. 
   
 ```xml
 <TotalWork/>
@@ -30,7 +30,7 @@ ms.locfileid: "19840223"
  **Integer**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,9 +48,9 @@ ms.locfileid: "19840223"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение соответствует целое число, представляющее общий объем работы, который связан с задачей.
+Текстовое значение соответствует целому числу, представляющему общий объем работы, связанной с задачей.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19840223"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -72,7 +72,7 @@ ms.locfileid: "19840223"
 
 [Создание задач](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[Удаление задачи](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Удаление задач](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
   
 [Обновление задач](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
 

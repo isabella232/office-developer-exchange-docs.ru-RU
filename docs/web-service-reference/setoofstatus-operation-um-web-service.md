@@ -1,5 +1,5 @@
 ---
-title: Операция SetOofStatus (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Операция SetOofStatus (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 97c271e9-506e-43eb-89cd-46803fc47ee5
-description: Операция SetOofStatus задает значение, указывающее, следует ли воспроизводиться приветствие об отсутствии на работе Office (OOF) для пользователя, который выполняет запрос.
+description: Операция SetOofStatus задает значение, указывающее, следует ли воспроизводить приветствие "нет на месте" для пользователя, который отправляет запрос.
 ms.openlocfilehash: 2bb1deeec8ddb5be56979bfb2fae3396672298a3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835445"
 ---
-# <a name="setoofstatus-operation-um-web-service"></a>Операция SetOofStatus (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="setoofstatus-operation-um-web-service"></a>Операция SetOofStatus (веб-служба единой системы обмена сообщениями)
 
-Операция SetOofStatus задает значение, указывающее, следует ли воспроизводиться приветствие об отсутствии на работе Office (OOF) для пользователя, который выполняет запрос.
+Операция SetOofStatus задает значение, указывающее, следует ли воспроизводить приветствие "нет на месте" для пользователя, который отправляет запрос.
   
 ## <a name="setoofstatus-request-example"></a>Пример запроса SetOofStatus
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос SetOofStatus показано, как для формирования запроса, чтобы включить приветствие об отсутствии на работе для почтового ящика.
+В приведенном ниже примере запроса SetOofStatus показано, как сформировать запрос на включение приветствия "нет на месте" для почтового ящика.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -45,9 +45,9 @@ ms.locfileid: "19835445"
 
 ### <a name="description"></a>Описание
 
-В следующем примере ответа SetOofStatus показано ответа на запрос SetOofStatus.
+В приведенном ниже примере ответа SetOofStatus показан ответ на запрос SetOofStatus.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -62,9 +62,9 @@ ms.locfileid: "19835445"
 
 
 
-[SetOofStatus (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setoofstatus-um-web-service.md)
+[SetOofStatus (веб-служба единой системы обмена сообщениями)](setoofstatus-um-web-service.md)
   
-[SetOofStatusResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setoofstatusresponse-um-web-service.md)
+[Сетуфстатусреспонсе (веб-служба единой системы обмена сообщениями)](setoofstatusresponse-um-web-service.md)
   
-[Состояние (единой системы обмена СООБЩЕНИЯМИ веб-службы - SetOofStatus)](status-um-web-servicesetoofstatus.md)
+[Status (веб-служба единой системы обмена сообщениями — SetOofStatus)](status-um-web-servicesetoofstatus.md)
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 252bddf2-98b6-4824-b548-2fba2bda5384
-description: Найдите сведения о веб-служб Exchange RemoveDistributionGroupFromImList операции.
+description: Поиск сведений о RemoveDistributionGroupFromImListной операции EWS.
 ms.openlocfilehash: 9999f98a5698dd33c22e22fdf86bd00a2d053b52
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,33 +17,33 @@ ms.locfileid: "19835096"
 ---
 # <a name="removedistributiongroupfromimlist-operation"></a>Операция RemoveDistributionGroupFromImList
 
-Найдите сведения о **RemoveDistributionGroupFromImList** операции веб-служб Exchange. 
+Поиск сведений о **RemoveDistributionGroupFromImListной** операции EWS. 
   
-Операция **RemoveDistributionGroupFromImList** удаляет группу рассылки в списке обмен мгновенными сообщениями (IM) Lync при Lync с помощью Exchange хранилища контактов. 
+Операция **RemoveDistributionGroupFromImList** удаляет группу рассылки из списка мгновенных сообщений LYNC (IM), когда Lync использует Exchange для хранилища контактов. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-removedistributiongroupfromimlist-operation"></a>С помощью операции RemoveDistributionGroupFromImList
+## <a name="using-the-removedistributiongroupfromimlist-operation"></a>Использование операции RemoveDistributionGroupFromImList
 
-Операция **RemoveDistributionGroupFromImList** принимает один аргумент, определяющий группу рассылки, чтобы удалить из списка Lync обмена мгновенными Сообщениями, хранящиеся на сервере Exchange. 
+Операция **RemoveDistributionGroupFromImList** принимает один аргумент, определяющий группу рассылки, которую необходимо удалить из списка обмена мгновенными сообщениями Lync, хранящегося на сервере Exchange. 
   
-### <a name="removedistributiongroupfromimlist-operation-soap-headers"></a>Заголовки SOAP RemoveDistributionGroupFromImList операции
+### <a name="removedistributiongroupfromimlist-operation-soap-headers"></a>Заголовки SOAP операции RemoveDistributionGroupFromImList
 
-Операция **RemoveDistributionGroupFromImList** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **RemoveDistributionGroupFromImList** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="removedistributiongroupfromimlist-operation-request-example-remove-a-distribution-group-from-an-im-list"></a>Пример запроса RemoveDistributionGroupFromImList операции: удаление группы рассылки из списка обмена мгновенными Сообщениями
+## <a name="removedistributiongroupfromimlist-operation-request-example-remove-a-distribution-group-from-an-im-list"></a>Пример запроса операции RemoveDistributionGroupFromImList: Удаление группы рассылки из списка обмена мгновенными сообщениями
 
-В следующем примере запрос операции **RemoveDistributionGroupFromImList** показано, как удалить группу рассылки из группы обмена мгновенными Сообщениями. Операция **RemoveDistributionGroupFromImList** принимает идентификатор уникальные группы для идентификации группы рассылки, чтобы удалить из списка обмена мгновенными Сообщениями. Элемент [ExchangeStoreId](exchangestoreid.md) , возвращаемого в ответе для [операции GetImItemList](getimitemlist-operation.md) и [AddDistributionGroupToImList операции](adddistributiongrouptoimlist-operation.md) определяет группы рассылки, которые могут быть удалены из списка обмена мгновенными Сообщениями. 
+В следующем примере запроса операции **RemoveDistributionGroupFromImList** показано, как удалить группу рассылки из группы обмена мгновенными сообщениями. Операция **RemoveDistributionGroupFromImList** принимает уникальный идентификатор группы, чтобы определить группу рассылки, которую требуется удалить из списка обмена мгновенными сообщениями. Элемент [ексчанжестореид](exchangestoreid.md) , который возвращается в ответе для [операции GetImItemList](getimitemlist-operation.md) , и [Операция AddDistributionGroupToImList](adddistributiongrouptoimlist-operation.md) идентифицирует группы рассылки, которые можно удалить из списка мгновенных сообщений. 
   
 > [!NOTE]
-> Все идентификаторы элементов и ключей изменения в этой статье URL были сокращены, чтобы сохранить удобочитаемость. 
+> Все идентификаторы элементов и изменения ключей в этой статье были сокращены, чтобы сохранить удобочитаемость. 
   
 ```XML
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
@@ -61,15 +61,15 @@ ms.locfileid: "19835096"
 </soap:Envelope>
 ```
 
-В приглашении на SOAP body используются следующие элементы:
+В теле SOAP запроса используются следующие элементы:
   
 - [RemoveDistributionGroupFromImList](removedistributiongroupfromimlist.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-removedistributiongroupfromimlist-operation-response"></a>Успешные операции ответа RemoveDistributionGroupFromImList
+## <a name="successful-removedistributiongroupfromimlist-operation-response"></a>Успешный отклик операции RemoveDistributionGroupFromImList
 
-В следующем примере показано успешного ответа на запрос операции **RemoveDistributionGroupFromImList** удалить группу рассылки из группы обмена мгновенными Сообщениями. 
+В следующем примере показан успешный ответ на запрос операции **RemoveDistributionGroupFromImList** для удаления группы рассылки из группы обмена мгновенными сообщениями. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -95,15 +95,15 @@ ms.locfileid: "19835096"
 </s:Envelope>
 ```
 
-В ответе SOAP body используются следующие элементы:
+В теле SOAP отклика используются следующие элементы:
   
-- [RemoveDistributionGroupFromImListResponse](removedistributiongroupfromimlistresponse.md)
+- [ремоведистрибутионграупфромимлистреспонсе](removedistributiongroupfromimlistresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="removedistributiongroupfromimlist-operation-error-response-example"></a>Пример ответа об ошибке RemoveDistributionGroupFromImList операции
+## <a name="removedistributiongroupfromimlist-operation-error-response-example"></a>Пример ответа на сообщение об ошибке операции RemoveDistributionGroupFromImList
 
-В следующем примере показано ошибочный ответ на запрос операции **RemoveDistributionGroupFromImList** . Это ответ на запрос, чтобы удалить группу рассылки, которая уже была удалена из почтового ящика. 
+В следующем примере показан ответ об ошибке для запроса операции **RemoveDistributionGroupFromImList** . Это ответ на запрос на удаление группы рассылки, которая уже удалена из почтового ящика. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -131,15 +131,15 @@ ms.locfileid: "19835096"
 </s:Envelope>
 ```
 
-В ответе ошибка SOAP body используются следующие элементы:
+В теле SOAP отклика об ошибке используются следующие элементы:
   
-- [RemoveDistributionGroupFromImListResponse](removedistributiongroupfromimlistresponse.md)
+- [ремоведистрибутионграупфромимлистреспонсе](removedistributiongroupfromimlistresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

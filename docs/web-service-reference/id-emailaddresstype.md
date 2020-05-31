@@ -1,5 +1,5 @@
 ---
-title: Идентификатор (EmailAddressType)
+title: ID (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3e1e37b5-5469-4447-ad1f-c2c6d4e0482f
-description: Элемент Id идентифицирует конференц-зала в пределах организации Exchange server.
+description: Элемент ID определяет комнату для собраний в организации Exchange Server.
 ms.openlocfilehash: 5cd62f6f4e5912d2ecccda352be15c6a3b24e06c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833847"
 ---
-# <a name="id-emailaddresstype"></a>Идентификатор (EmailAddressType)
+# <a name="id-emailaddresstype"></a>ID (EmailAddressType)
 
-Элемент **Id** идентифицирует конференц-зала в пределах организации Exchange server. 
+Элемент **ID** определяет комнату для собраний в организации Exchange Server. 
   
-[Комнаты](room.md)
+[Комната](room.md)
   
-[Идентификатор (EmailAddressType)](id-emailaddresstype.md)
+[ID (EmailAddressType)](id-emailaddresstype.md)
   
 ```xml
 <Id>
@@ -40,7 +40,7 @@ ms.locfileid: "19833847"
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,21 +50,21 @@ ms.locfileid: "19833847"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (EmailAddressType)](name-emailaddresstype.md) <br/> |Определяет имя зала. Этот элемент является необязательным.  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Определяет адрес Simple Mail Transfer Protocol (SMTP) конференц-зала. Этот элемент является необязательным.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Определяет маршрутизации, используемый для почтового ящика. Значение по умолчанию — SMTP. Этот элемент является необязательным.  <br/> |
+|[Имя (EmailAddressType)](name-emailaddresstype.md) <br/> |Определяет имя комнаты для собраний. Этот элемент является необязательным.  <br/> |
+|[EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md) <br/> |Определяет SMTP-адрес комнаты для собраний. Этот элемент является необязательным.  <br/> |
+|[Раутингтипе (EmailAddress)](routingtype-emailaddress.md) <br/> |Определяет маршрутизацию, используемую для почтового ящика. По умолчанию используется протокол SMTP. Этот элемент является необязательным.  <br/> |
 |[MailboxType](mailboxtype.md) <br/> |Определяет тип почтового ящика пользователя почтового ящика. Этот элемент является необязательным.  <br/> |
-|[Идентификатор элемента](itemid.md) <br/> |Определяет идентификатор элемента контакта или список рассылки закрытый для получателей из папки Контакты. Этот элемент является необязательным.  <br/> |
+|[Идентификатор](itemid.md) <br/> |Определяет идентификатор контакта или частный список рассылки для получателей из папки "Контакты" пользователя. Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Комнаты](room.md) <br/> |Определяет конференц-зала в организации Exchange server.  <br/> |
+|[Комната](room.md) <br/> |Определяет комнату для собраний в организации Exchange Server.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в каталоге EWS компьютера под управлением Microsoft Exchange Server, на котором установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -72,7 +72,7 @@ ms.locfileid: "19833847"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

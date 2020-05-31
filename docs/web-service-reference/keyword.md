@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c1834b40-ab2a-4c67-a93a-eaadc9523fda
-description: Элемент ключевое слово указывает одного ключевого слова.
+description: Элемент Keyword указывает одно ключевое слово.
 ms.openlocfilehash: 4f99cb9d6c521ff4083550737b64b77927669aaf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19834188"
 ---
 # <a name="keyword"></a>Ключевое слово
 
-Элемент **ключевое слово** указывает одного ключевого слова. 
+Элемент **keyword** указывает одно ключевое слово. 
   
 ```XML
 <Keyword></Keyword>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19834188"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[KeywordStat](keywordstat.md)
+[кэйвордстат](keywordstat.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ключевых слов** — это имя одного ключевого слова, представляющий статистики одного ключевого слова. 
+Текстовое значение элемента **keyword** — это имя одного ключевого слова, которое представляет собой одну статистику по ключевым словам. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   

@@ -1,5 +1,5 @@
 ---
-title: Photo
+title: Фотография
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 38318ed6-3774-4342-b1bf-1d551ecf077c
-description: Элемент фотографий содержит значение, которое кодирует фотографии контакта.
+description: Элемент Photo содержит значение, которое кодирует фотографию контакта.
 ms.openlocfilehash: 0d272a1fbacfcbb8618a62f83e236e7f1140d786
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,19 +15,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834799"
 ---
-# <a name="photo"></a>Photo
+# <a name="photo"></a>Фотография
 
-Элемент **фотографий** содержит значение, которое кодирует фотографии контакта. 
+Элемент **Photo** содержит значение, которое кодирует фотографию контакта. 
   
 ```XML
 <Photo/>
 ```
 
-**string**
+**строка**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -47,7 +47,7 @@ ms.locfileid: "19834799"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -59,11 +59,11 @@ ms.locfileid: "19834799"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

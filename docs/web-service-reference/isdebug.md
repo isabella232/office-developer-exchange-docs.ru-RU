@@ -1,5 +1,5 @@
 ---
-title: IsDebug
+title: Выполнить отладку
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17032a2d-05d7-4f44-8823-2538c38ba025
-description: Элемент IsDebug не используется.
+description: Элемент-Debug не используется.
 ms.openlocfilehash: bbb736c56a86f962cfcb36595f09da5c92dd47f5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833996"
 ---
-# <a name="isdebug"></a>IsDebug
+# <a name="isdebug"></a>Выполнить отладку
 
-Элемент **IsDebug** не используется. 
+Элемент- **Debug** не используется. 
   
 ```XML
 <IsDebug>true | false</IsDebug>
@@ -26,7 +26,7 @@ ms.locfileid: "19833996"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,9 +38,9 @@ ms.locfileid: "19833996"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[GetClientExtensionResponse](getclientextensionresponse.md)
+[жетклиентекстенсионреспонсе](getclientextensionresponse.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -52,7 +52,7 @@ ms.locfileid: "19833996"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

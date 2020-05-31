@@ -1,5 +1,5 @@
 ---
-title: ProtocolConnectionCollectionSetting (SOAP)
+title: Протоколконнектионколлектионсеттинг (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 51f84364-9a5f-4ef2-ba82-f6ef7c65f7cb
-description: Элемент ProtocolConnectionCollectionSetting представляет коллекцию параметров подключения сервера протокола.
+description: Элемент Протоколконнектионколлектионсеттинг представляет коллекцию параметров подключения по протоколу сервера.
 ms.openlocfilehash: d0342222c0390d3e49afe572af92a903b9643a2c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834914"
 ---
-# <a name="protocolconnectioncollectionsetting-soap"></a>ProtocolConnectionCollectionSetting (SOAP)
+# <a name="protocolconnectioncollectionsetting-soap"></a>Протоколконнектионколлектионсеттинг (SOAP)
 
-Элемент **ProtocolConnectionCollectionSetting** представляет коллекцию параметров подключения сервера протокола. 
+Элемент **протоколконнектионколлектионсеттинг** представляет коллекцию параметров подключения по протоколу сервера. 
   
 ```XML
 <ProtocolConnectionCollectionSetting/>
@@ -27,10 +27,10 @@ ms.locfileid: "19834914"
 </ProtocolConnectionCollectionSetting>
 ```
 
- **ProtocolConnectionCollectionSetting**
+ **протоколконнектионколлектионсеттинг**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834914"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Имя (SOAP)](name-soap.md) <br/> |Представляет имя параметра.  <br/> |
-|[ProtocolConnections (SOAP)](protocolconnections-soap.md) <br/> |Содержит ноль или больше протокол подключения.  <br/> |
+|[Протоколконнектионс (SOAP)](protocolconnections-soap.md) <br/> |Содержит ноль или более подключений протоколов.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,8 +56,8 @@ ms.locfileid: "19834914"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -66,7 +66,7 @@ ms.locfileid: "19834914"
 
 [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
   
-[Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+[Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
 

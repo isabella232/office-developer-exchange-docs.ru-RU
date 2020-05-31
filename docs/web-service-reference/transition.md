@@ -1,5 +1,5 @@
 ---
-title: Переход
+title: Ветвление
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 23ce171a-a9c9-47ed-a366-822777048eea
-description: Элемент перехода представляет переход часового пояса.
+description: Элемент TRANSITION представляет переход часового пояса.
 ms.openlocfilehash: 5dcd2f0dae7c3df2dcf660d6fe1a41b216c67b59
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840239"
 ---
-# <a name="transition"></a>Переход
+# <a name="transition"></a>Ветвление
 
-Элемент **перехода** представляет переход часового пояса. 
+Элемент **TRANSITION** представляет переход часового пояса. 
   
 ```xml
 <Transition>
@@ -29,10 +29,10 @@ ms.locfileid: "19840239"
 </Transition>
 ```
 
- **TransitionType**
+ **транситионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,17 +42,17 @@ ms.locfileid: "19840239"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Задача](to.md) <br/> |Задает [период](period.md) или [TransitionsGroup](transitionsgroup.md) , который является целевым для перехода часового пояса.  <br/> |
+|[To](to.md) <br/> |Указывает [период](period.md) или [транситионсграуп](transitionsgroup.md) , который является целевым объектом перехода часового пояса.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Переходы между](transitions.md) <br/> |Представляет коллекцию переходы часового пояса.  <br/> |
+|[Выполняет](transitions.md) <br/> |Представляет коллекцию переходов часового пояса.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает сервер Microsoft Exchange с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -60,7 +60,7 @@ ms.locfileid: "19840239"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

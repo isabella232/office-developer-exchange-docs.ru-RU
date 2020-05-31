@@ -1,5 +1,5 @@
 ---
-title: Решение
+title: Разрешение
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 573bed4b-d7b1-4baf-b16f-0795cdebf1a7
-description: Элемент решение содержит одного объекта разрешения.
+description: Элемент Resolution содержит одну разрешенную сущность.
 ms.openlocfilehash: d65f6401e54a4397cad1bfcc85384f644fbae405
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835156"
 ---
-# <a name="resolution"></a>Решение
+# <a name="resolution"></a>Разрешение
 
-Элемент **решение** содержит одного объекта разрешения. 
+Элемент **Resolution** содержит одну разрешенную сущность. 
   
-[ResolveNamesResponse](resolvenamesresponse.md)
+[ресолвенамесреспонсе](resolvenamesresponse.md)
   
-[ResponseMessages](responsemessages.md)
+[респонсемессажес](responsemessages.md)
   
-[ResolveNamesResponseMessage](resolvenamesresponsemessage.md)
+[ресолвенамесреспонсемессаже](resolvenamesresponsemessage.md)
   
-[ResolutionSet](resolutionset.md)
+[Авторешение](resolutionset.md)
   
-[Решение](resolution.md)
+[Resolution](resolution.md)
   
 ```xml
 <Resolution>
@@ -40,10 +40,10 @@ ms.locfileid: "19835156"
 </Resolution>
 ```
 
- **ResolutionType**
+ **ресолутионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -60,9 +60,9 @@ ms.locfileid: "19835156"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResolutionSet](resolutionset.md) <br/> |Содержит набор разрешений для разрешения неоднозначных псевдонимов.  <br/> |
+|[Авторешение](resolutionset.md) <br/> |Содержит массив разрешений для неоднозначного имени.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -72,7 +72,7 @@ ms.locfileid: "19835156"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -81,7 +81,7 @@ ms.locfileid: "19835156"
 
 [ResolveNames](resolvenames.md)
   
-[ResolveNamesResponse](resolvenamesresponse.md)
+[ресолвенамесреспонсе](resolvenamesresponse.md)
   
 [Операция ResolveNames](resolvenames-operation.md)
 

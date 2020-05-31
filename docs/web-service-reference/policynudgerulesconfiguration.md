@@ -1,5 +1,5 @@
 ---
-title: PolicyNudgeRulesConfiguration
+title: полицинуджерулесконфигуратион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e6f7c824-1284-4a65-a459-9fc22b66e30a
-description: Элемент PolicyNudgeRulesConfiguration содержит данные конфигурации предотвращения потери данных.
+description: Элемент Полицинуджерулесконфигуратион содержит данные конфигурации защиты от потери данных.
 ms.openlocfilehash: ecea1dac44526fee7c439cd5e1eb318c38d274f6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834833"
 ---
-# <a name="policynudgerulesconfiguration"></a>PolicyNudgeRulesConfiguration
+# <a name="policynudgerulesconfiguration"></a>полицинуджерулесконфигуратион
 
-Элемент **PolicyNudgeRulesConfiguration** содержит данные конфигурации предотвращения потери данных. 
+Элемент **полицинуджерулесконфигуратион** содержит данные конфигурации защиты от потери данных. 
   
 ```XML
 <PolicyNudgeRulesConfiguration></PolicyNudgeRulesConfiguration>
 ```
 
- **PolicyNudgeRulesServiceConfiguration**
+ **полицинуджерулессервицеконфигуратион**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,11 +38,11 @@ ms.locfileid: "19834833"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md)
+[сервицеконфигуратионреспонсемессажетипе](serviceconfigurationresponsemessagetype.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент **PolicyNudgeRulesConfiguration** , содержимое не определена схемы веб-служб Exchange. 
+Содержимое элемента **полицинуджерулесконфигуратион** не определено схемой веб-служб Exchange. 
   
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19834833"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

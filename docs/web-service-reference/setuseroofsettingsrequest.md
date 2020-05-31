@@ -1,5 +1,5 @@
 ---
-title: SetUserOofSettingsRequest
+title: сетусеруфсеттингсрекуест
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 628acf0b-3ebc-42f1-8ce2-7a02b4c8141f
-description: Элемент SetUserOofSettingsRequest содержит аргументы, используемые для настройки почтового ящика пользователя об отсутствии на работе Office (отсутствие на работе).
+description: Элемент Сетусеруфсеттингсрекуест содержит аргументы, используемые для задания параметров отсутствия на работе пользователя в почтовом ящике (отсутствие на работе).
 ms.openlocfilehash: ed54bb1d066da7b15605fb81931a6ef75dfc61bf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835474"
 ---
-# <a name="setuseroofsettingsrequest"></a>SetUserOofSettingsRequest
+# <a name="setuseroofsettingsrequest"></a>сетусеруфсеттингсрекуест
 
-Элемент **SetUserOofSettingsRequest** содержит аргументы, используемые для настройки почтового ящика пользователя об отсутствии на работе Office (отсутствие на работе). 
+Элемент **сетусеруфсеттингсрекуест** содержит аргументы, используемые для задания параметров отсутствия на работе пользователя в почтовом ящике (отсутствие на работе). 
   
 ```xml
 <SetUserOofSettingsRequest>
@@ -30,10 +30,10 @@ ms.locfileid: "19835474"
 <SetUserOofSettingsRequest>
 ```
 
- **SetUserOofSettingsRequest**
+ **сетусеруфсеттингсрекуест**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,20 +43,20 @@ ms.locfileid: "19835474"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Почтовый ящик (доступность)](mailbox-availability.md) <br/> |Идентифицирует пользователя почтового ящика для SetUserOofSettings или GetUserOofSettings запроса.  <br/> |
-|[UserOofSettings](useroofsettings.md) <br/> |Задает параметры об отсутствии на работе.  <br/> |
+|[Mailbox (доступность)](mailbox-availability.md) <br/> |Определяет пользователя почтового ящика для запроса SetUserOofSettings или GetUserOofSettings.  <br/> |
+|[усеруфсеттингс](useroofsettings.md) <br/> |Задает параметры отсутствия на работе.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
 ## <a name="example"></a>Пример
 
-В следующем примере запрос SetUserOofSettings задается параметром об отсутствии на работе для 10 дней.
+В следующем примере запроса SetUserOofSettings задается значение параметра "отсутствие на работе" в десять дней.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -93,7 +93,7 @@ ms.locfileid: "19835474"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: SpecificUsers
+title: спеЦификусерс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 121b0063-5447-4063-8e54-d3fcbb8cd2be
-description: Элемент SpecificUsers указывает учетных записей электронной почты, которые могут получить доступ к приложению.
+description: Элемент СпеЦификусерс указывает учетные записи электронной почты, которые могут получать доступ к приложению.
 ms.openlocfilehash: 59b99ab165e7a099816fb07e126ac912f0858c9c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835529"
 ---
-# <a name="specificusers"></a>SpecificUsers
+# <a name="specificusers"></a>спеЦификусерс
 
-Элемент **SpecificUsers** указывает учетных записей электронной почты, которые могут получить доступ к приложению. 
+Элемент **спеЦификусерс** указывает учетные записи электронной почты, которые могут получать доступ к приложению. 
   
 ```XML
 <SpecificUsers>
@@ -25,10 +25,10 @@ ms.locfileid: "19835529"
 </SpecificUsers>
 ```
 
- **ArrayOfStringsType**
+ **аррайофстрингстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19835529"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Строка](string.md)
+[String](string.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[ClientExtension](clientextension.md)
+[клиентекстенсион](clientextension.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19835529"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5584db5f-553a-47ce-85fb-f9902c9990ab
-description: Элемент отказа от подписки содержит свойства, используемые для отмены подписки.
+description: Элемент unsubscribe содержит свойства, которые используются для отмены подписки на подписку.
 ms.openlocfilehash: bab797ff74a921e3e93c993229bc6d6d289e0c5c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,9 +21,9 @@ ms.locfileid: "19840307"
 ---
 # <a name="unsubscribe"></a>Отмена подписки
 
-Элемент **отказа от подписки** содержит свойства, используемые для отмены подписки. 
+Элемент **Unsubscribe** содержит свойства, которые используются для отмены подписки на подписку. 
   
-[Отписаться](unsubscribe.md)
+[Отмена подписки](unsubscribe.md)
   
 ```xml
 <Unsubscribe>
@@ -31,10 +31,10 @@ ms.locfileid: "19840307"
 </Unsubscribe>
 ```
 
- **UnsubscribeType**
+ **унсубскрибетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19840307"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Представляет идентификатор для подписки.  <br/> |
+|[SubscriptionId (Events)](subscriptionid-getevents.md) <br/> |Представляет идентификатор подписки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19840307"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -71,5 +71,5 @@ ms.locfileid: "19840307"
   
 [Операция GetEvents](getevents-operation.md)
   
-[Отписаться операции](unsubscribe-operation.md)
+[Операция по отмене подписки](unsubscribe-operation.md)
 

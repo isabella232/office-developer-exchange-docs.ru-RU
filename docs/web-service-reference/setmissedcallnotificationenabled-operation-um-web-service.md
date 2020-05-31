@@ -1,5 +1,5 @@
 ---
-title: Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835434"
 ---
-# <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
 
 Операция SetMissedCallNotificationEnabled включает или отключает уведомления о пропущенных вызовах.
   
@@ -26,9 +26,9 @@ ms.locfileid: "19835434"
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос SetMissedCallNotificationEnabled показано, как для формирования запроса, чтобы включить уведомления о пропущенных вызовах.
+В следующем примере запроса SetMissedCallNotificationEnabled показано, как сформировать запрос на включение уведомлений о пропущенных звонках.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -45,9 +45,9 @@ ms.locfileid: "19835434"
 
 ### <a name="description"></a>Описание
 
-В следующем примере ответа PlayOnPhoneGreeting показано ответа на запрос SetMissedCallNotificationEnabled.
+В приведенном ниже примере ответа PlayOnPhoneGreeting показан ответ на запрос SetMissedCallNotificationEnabled.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -62,9 +62,9 @@ ms.locfileid: "19835434"
 
 
 
-[SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabled-um-web-service.md)
+[SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-um-web-service.md)
   
-[SetMissedCallNotificationEnabledResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabledresponse-um-web-service.md)
+[Сетмисседкаллнотификатионенабледреспонсе (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabledresponse-um-web-service.md)
   
-[Состояние (единой системы обмена СООБЩЕНИЯМИ веб-службы - SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
+[Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
 

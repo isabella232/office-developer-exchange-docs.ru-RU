@@ -1,5 +1,5 @@
 ---
-title: RemoveContactFromImListResponse
+title: ремовеконтактфромимлистреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f784c433-5f5f-4171-a973-04ee6215c6b8
-description: Элемент RemoveContactFromImListResponse представляет ответ на запрос RemoveContactFromImList.
+description: Элемент Ремовеконтактфромимлистреспонсе представляет ответ на запрос RemoveContactFromImList.
 ms.openlocfilehash: b7e6af2ac6b21d4f1e4b3a3a0c148cbf5b51ba75
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835081"
 ---
-# <a name="removecontactfromimlistresponse"></a>RemoveContactFromImListResponse
+# <a name="removecontactfromimlistresponse"></a>ремовеконтактфромимлистреспонсе
 
-Элемент **RemoveContactFromImListResponse** представляет ответ на запрос **RemoveContactFromImList** . 
+Элемент **ремовеконтактфромимлистреспонсе** представляет ответ на запрос **RemoveContactFromImList** . 
   
 ```XML
 <RemoveContactFromImListResponse>
@@ -28,10 +28,10 @@ ms.locfileid: "19835081"
 </RemoveContactFromImListResponse>
 ```
 
- **RemoveContactFromImListResponseMessageType**
+ **ремовеконтактфромимлистреспонсемессажетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,13 +39,13 @@ ms.locfileid: "19835081"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)
+[Мессажетекст](messagetext.md) | [ResponseCode](responsecode.md)респонсекоде | [DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй | [мессажексмл](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "19835081"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

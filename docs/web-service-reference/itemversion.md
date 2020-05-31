@@ -1,5 +1,5 @@
 ---
-title: ItemVersion
+title: итемверсион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dd8275df-11ad-4d24-95c4-291b123e8509
-description: Элемент ItemVersion предназначена только для внутреннего использования.
+description: Элемент Итемверсион предназначен только для внутреннего использования.
 ms.openlocfilehash: 7ffbe1727cef9e4b78b951ba5c2b3c1303502280
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834162"
 ---
-# <a name="itemversion"></a>ItemVersion
+# <a name="itemversion"></a>итемверсион
 
-Элемент **ItemVersion** предназначена только для внутреннего использования. 
+Элемент **итемверсион** предназначен только для внутреннего использования. 
   
 ```XML
 <ItemVersion />
@@ -26,7 +26,7 @@ ms.locfileid: "19834162"
  ****
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,7 +40,7 @@ ms.locfileid: "19834162"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   

@@ -1,5 +1,5 @@
 ---
-title: IncludesLastFolderInRange
+title: инклудесластфолдеринранже
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 95837904-17be-49b7-831c-de4fb20fccfb
-description: Элемент IncludesLastFolderInRange указывает, включены ли последнего элемента для синхронизации в ответе.
+description: Элемент Инклудесластфолдеринранже указывает, включен ли последний элемент для синхронизации в ответ.
 ms.openlocfilehash: 6c4af5b394ee2fab6bc98f7bb6afa9ee80551869
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833908"
 ---
-# <a name="includeslastfolderinrange"></a>IncludesLastFolderInRange
+# <a name="includeslastfolderinrange"></a>инклудесластфолдеринранже
 
-Элемент **IncludesLastFolderInRange** указывает, включены ли последнего элемента для синхронизации в ответе. 
+Элемент **инклудесластфолдеринранже** указывает, включен ли последний элемент для синхронизации в ответ. 
   
-[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
+[синкфолдерхиерарчиреспонсе](syncfolderhierarchyresponse.md)
   
-[ResponseMessages](responsemessages.md)
+[респонсемессажес](responsemessages.md)
   
-[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
+[синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md)
   
-[IncludesLastFolderInRange](includeslastfolderinrange.md)
+[инклудесластфолдеринранже](includeslastfolderinrange.md)
   
 ```xml
 <IncludesLastFolderInRange/>
@@ -38,7 +38,7 @@ ms.locfileid: "19833908"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -52,13 +52,13 @@ ms.locfileid: "19833908"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderHierarchy.  <br/> |
+|[синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderHierarchy.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Текстовое значение, представляющее логическое значение является обязательным.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -68,7 +68,7 @@ ms.locfileid: "19833908"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -78,7 +78,7 @@ ms.locfileid: "19833908"
 [Операция SyncFolderHierarchy](syncfolderhierarchy-operation.md)
 
 
-[Справка по веб-служб Exchange для Exchange](ews-reference-for-exchange.md)
+[Справка по службам EWS для Exchange](ews-reference-for-exchange.md)
   
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

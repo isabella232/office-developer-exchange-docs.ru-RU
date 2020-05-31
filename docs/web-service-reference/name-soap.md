@@ -24,11 +24,11 @@ ms.locfileid: "19834506"
 <Name/>
 ```
 
-**string**
+**строка**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,32 +42,32 @@ ms.locfileid: "19834506"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |Содержит параметры домена, возвращенных по запросу [GetDomainSettings операции (SOAP)](getdomainsettings-operation-soap.md) .  <br/> |
-|[DomainStringSetting (SOAP)](domainstringsetting-soap.md) <br/> |Представляет параметр домена, значение которого равно типа String.  <br/> |
-|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений организации для одной организации.  <br/> |
-|[UserSetting (SOAP)](usersetting-soap.md) <br/> |Представляет параметр с одним пользователем.  <br/> |
-|[ProtocolConnectionCollectionSetting (SOAP)](protocolconnectioncollectionsetting-soap.md) <br/> |Представляет коллекцию параметров подключения сервера протокола.  <br/> |
-|[StringSetting (SOAP)](stringsetting-soap.md) <br/> |Представляет параметр пользователя, для которого значение типа String.  <br/> |
-|[WebClientUrlCollectionSetting (SOAP)](webclienturlcollectionsetting-soap.md) <br/> |Представляет пользователя, то есть параметр семейства сайтов URL-адресов Exchange Web клиента.  <br/> |
-|[AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md) <br/> |Содержит коллекцию параметров альтернативного почтового ящика.  <br/> |
+|[Домаинсеттинг (SOAP)](domainsetting-soap.md) <br/> |Содержит параметры домена, которые возвращаются запросом [операции жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md) .  <br/> |
+|[Домаинстрингсеттинг (SOAP)](domainstringsetting-soap.md) <br/> |Представляет параметр домена со значением типа String.  <br/> |
+|[Организатионрелатионшипсеттингс (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений Организации для одной организации.  <br/> |
+|[Усерсеттинг (SOAP)](usersetting-soap.md) <br/> |Представляет один параметр пользователя.  <br/> |
+|[Протоколконнектионколлектионсеттинг (SOAP)](protocolconnectioncollectionsetting-soap.md) <br/> |Представляет коллекцию параметров подключения по протоколу сервера.  <br/> |
+|[Стрингсеттинг (SOAP)](stringsetting-soap.md) <br/> |Представляет пользовательское значение, для которого задано значение типа String.  <br/> |
+|[Вебклиентурлколлектионсеттинг (SOAP)](webclienturlcollectionsetting-soap.md) <br/> |Представляет параметр пользователя, который является коллекцией URL-адресов веб-клиента Exchange.  <br/> |
+|[Алтернатемаилбоксколлектионсеттинг (SOAP)](alternatemailboxcollectionsetting-soap.md) <br/> |Содержит коллекцию альтернативных параметров почтового ящика.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Name** — это имя параметра. 
+Текстовое значение элемента **Name** — имя параметра. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+- [Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
 - [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
-- [Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
-- [Операция GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
+- [Операция Жеторганизатионрелатионшипсеттингс (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

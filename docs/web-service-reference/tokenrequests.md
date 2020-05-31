@@ -1,5 +1,5 @@
 ---
-title: TokenRequests
+title: токенрекуестс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fbab89e9-b41a-44c4-8ad3-d46aa8e56652
-description: Элемент TokenRequests содержит массив маркеров запросов.
+description: Элемент Токенрекуестс содержит массив запросов маркеров.
 ms.openlocfilehash: 01d847d7d496a5bd1d5621a3787d0e3cc6ddd7ff
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840236"
 ---
-# <a name="tokenrequests"></a>TokenRequests
+# <a name="tokenrequests"></a>токенрекуестс
 
-Элемент **TokenRequests** содержит массив маркеров запросов. 
+Элемент **токенрекуестс** содержит массив запросов маркеров. 
   
 ```XML
 <TokenRequests>
@@ -25,10 +25,10 @@ ms.locfileid: "19840236"
 </TokenRequests>
 ```
 
- **NonEmptyArrayOfClientAccessTokenRequestsType**
+ **нонемптяррайофклиентакцесстокенрекуестстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19840236"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[TokenRequest](tokenrequest.md)
+[токенрекуест](tokenrequest.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [GetClientAccessToken](getclientaccesstoken.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19840236"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

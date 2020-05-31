@@ -1,5 +1,5 @@
 ---
-title: Размер (long)
+title: Размер (длинный)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 96514301-9195-420f-ba17-5f512116ee46
-description: Элемент размер указывает общий размер одного или нескольких элементов почтового ящика.
+description: Элемент Size указывает общий размер одного или нескольких элементов почтового ящика.
 ms.openlocfilehash: d69cb88b7fcbafc2fbd573acba8218152d6d1784
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835501"
 ---
-# <a name="size-long"></a>Размер (long)
+# <a name="size-long"></a>Размер (длинный)
 
-Элемент **размер** указывает общий размер одного или нескольких элементов почтового ящика. 
+Элемент **size** указывает общий размер одного или нескольких элементов почтового ящика. 
   
 ```XML
 <Size></Size>
 ```
 
- **длинный**
+ **большом**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19835501"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[KeywordStat](keywordstat.md) | [MailboxStat](mailboxstat.md) | [SearchMailboxesResult](searchmailboxesresult.md) | [SearchPreviewItem](searchpreviewitem.md)
+[Кэйвордстат](keywordstat.md) | [MailboxStat](mailboxstat.md)маилбоксстат | [SearchMailboxesResult](searchmailboxesresult.md)сеарчмаилбоксесресулт | [сеарчпревиевитем](searchpreviewitem.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **размер** — это общий размер одного или нескольких элементов почтового ящика. 
+Текстовое значение элемента **size** — общий размер одного или нескольких элементов почтовых ящиков. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19835501"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

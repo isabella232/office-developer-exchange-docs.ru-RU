@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 87440a49-64e2-4d97-bb1d-443c04ad24e8
-description: Элемент фамилии указывает массив значений Фамилия и идентификаторы их атрибуты источника для связанного пользователя.
+description: Элемент "Фамилия" указывает массив значений "Фамилия" и идентификаторы их исходных атрибутов для связанного пользователя.
 ms.openlocfilehash: ffac7c3b03a501dd11bec5d57e9e5814ff612aa7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19840120"
 ---
 # <a name="surnames"></a>Фамилии
 
-Элемент **фамилии** указывает массив значений Фамилия и идентификаторы их атрибуты источника для связанного пользователя. 
+Элемент " **Фамилия** " указывает массив значений "Фамилия" и идентификаторы их исходных атрибутов для связанного пользователя. 
   
 ```XML
 <Surnames>
@@ -25,10 +25,10 @@ ms.locfileid: "19840120"
 </Surnames>
 ```
 
- **ArrayOfStringAttributedValuesType**
+ **аррайофстрингаттрибутедвалуестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19840120"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[StringAttributedValue](stringattributedvalue.md)
+[стрингаттрибутедвалуе](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19840120"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

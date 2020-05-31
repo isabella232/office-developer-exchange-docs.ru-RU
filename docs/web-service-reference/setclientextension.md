@@ -1,5 +1,5 @@
 ---
-title: SetClientExtension
+title: сетклиентекстенсион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 10d0739c-2591-4768-935c-b131b26e974d
-description: Элемент SetClientExtension содержит запрос, чтобы установить клиентское расширение.
+description: Элемент Сетклиентекстенсион содержит запрос на установку расширения клиента.
 ms.openlocfilehash: 9e0a2926e25d74657ddf8a50ec88e77af0fc4ea1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835398"
 ---
-# <a name="setclientextension"></a>SetClientExtension
+# <a name="setclientextension"></a>сетклиентекстенсион
 
-Элемент **SetClientExtension** содержит запрос, чтобы установить клиентское расширение. 
+Элемент **сетклиентекстенсион** содержит запрос на установку расширения клиента. 
   
 ```XML
 <SetClientExtension>
@@ -25,10 +25,10 @@ ms.locfileid: "19835398"
 </SetClientExtension>
 ```
 
- **SetClientExtensionType**
+ **сетклиентекстенсионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19835398"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Действия (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md)
+[Actions (Аррайофсетклиентекстенсионактионстипе)](actions-arrayofsetclientextensionactionstype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19835398"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

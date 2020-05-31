@@ -1,5 +1,5 @@
 ---
-title: ItemChanges
+title: итемчанжес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: cd307892-2f69-4494-8325-219bdb5c3ad5
-description: Элемент ItemChanges содержит массив элементов ItemChange, чтобы указать элементы и обновления, чтобы применить к элементам.
+description: Элемент Итемчанжес содержит массив элементов Итемчанже, определяющих элементы и обновления, которые необходимо применить к элементам.
 ms.openlocfilehash: 38fe112441a8773a2d6b494ed57c63341cab2b58
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834141"
 ---
-# <a name="itemchanges"></a>ItemChanges
+# <a name="itemchanges"></a>итемчанжес
 
-Элемент **ItemChanges** содержит массив элементов [ItemChange](itemchange.md) , чтобы указать элементы и обновления, чтобы применить к элементам. 
+Элемент **итемчанжес** содержит массив элементов [итемчанже](itemchange.md) , определяющих элементы и обновления, которые необходимо применить к элементам. 
   
 [UpdateItem](updateitem.md)
   
-[ItemChanges](itemchanges.md)
+[итемчанжес](itemchanges.md)
   
 ```xml
 <ItemChanges>
@@ -33,10 +33,10 @@ ms.locfileid: "19834141"
 </ItemChanges>
 ```
 
- **NonEmptyArrayOfItemChangesType**
+ **нонемптяррайофитемчанжестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -46,15 +46,15 @@ ms.locfileid: "19834141"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ItemChange](itemchange.md) <br/> |Содержит идентификатор элемента и обновления для применения к элементу.  <br/> |
+|[ItemChange](itemchange.md) <br/> |Содержит идентификатор элемента и обновления, применяемые к элементу.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UpdateItem](updateitem.md) <br/> |Определяет запрос для обновления элементов в почтовом ящике.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/UpdateItem` <br/> |
+|[UpdateItem](updateitem.md) <br/> |Определяет запрос на обновление элементов в почтовом ящике.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/UpdateItem` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -64,12 +64,12 @@ ms.locfileid: "19834141"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[UpdateItem Operation](updateitem-operation.md)
+[Операция UpdateItem](updateitem-operation.md)
 

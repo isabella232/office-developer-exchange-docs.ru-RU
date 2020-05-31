@@ -1,5 +1,5 @@
 ---
-title: ResetPINResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Ресетпинреспонсе (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 42aac88f-8513-416d-8be4-77378b71a45b
-description: Элемент ResetPINResponse определяет ответа на запрос ResetPIN операции (веб-служба единой системы обмена СООБЩЕНИЯМИ).
+description: Элемент Ресетпинреспонсе определяет ответ на запрос для операции ResetPIN (веб-служба единой системы обмена сообщениями).
 ms.openlocfilehash: 9c85909a5a03fd4c470468bd025a4de650472423
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835154"
 ---
-# <a name="resetpinresponse-um-web-service"></a>ResetPINResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="resetpinresponse-um-web-service"></a>Ресетпинреспонсе (веб-служба единой системы обмена сообщениями)
 
-Элемент ResetPINResponse определяет ответ на запрос [операции ResetPIN (веб-служба единой системы обмена СООБЩЕНИЯМИ)](resetpin-operation-um-web-service.md) . 
+Элемент Ресетпинреспонсе определяет ответ на запрос для [операции ResetPIN (веб-служба единой системы обмена сообщениями)](resetpin-operation-um-web-service.md) . 
   
-[ResetPINResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)](resetpinresponse-um-web-service.md)
+[Ресетпинреспонсе (веб-служба единой системы обмена сообщениями)](resetpinresponse-um-web-service.md)
   
 ```xml
 <ResetPINResponse />
@@ -31,7 +31,7 @@ ms.locfileid: "19835154"
  **complexType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -55,12 +55,12 @@ ms.locfileid: "19835154"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция ResetPIN (веб-служба единой системы обмена СООБЩЕНИЯМИ)](resetpin-operation-um-web-service.md)
+[Операция ResetPIN (веб-служба единой системы обмена сообщениями)](resetpin-operation-um-web-service.md)
 

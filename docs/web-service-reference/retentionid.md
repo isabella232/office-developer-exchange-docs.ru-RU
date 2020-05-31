@@ -23,10 +23,10 @@ ms.locfileid: "19835219"
 <RetentionId></RetentionId>
 ```
 
- **GuidType**
+ **гуидтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19835219"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[RetentionPolicyTag](retentionpolicytag.md)
+[Retentionpolicytag используется](retentionpolicytag.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **RetentionId** — это идентификатор тега хранения в виде идентификатора GUID. 
+Текстовое значение элемента **RetentionId** — идентификатор тега хранения в виде GUID. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19835219"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

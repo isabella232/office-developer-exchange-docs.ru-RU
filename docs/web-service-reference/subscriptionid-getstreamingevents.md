@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f86c178-2311-4844-82db-c2a0e469d116
-description: Элемент SubscriptionId представляет идентификатор для потоковой передачи подписки.
+description: Элемент SubscriptionId представляет идентификатор для потоковой подписки.
 ms.openlocfilehash: eb451e611c4922fa3b9cff7edec54dfb8260f5f5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19840106"
 ---
 # <a name="subscriptionid-getstreamingevents"></a>SubscriptionId (GetStreamingEvents)
 
-Элемент **SubscriptionId** представляет идентификатор для потоковой передачи подписки. 
+Элемент **SubscriptionId** представляет идентификатор для потоковой подписки. 
   
 ```XML
 <SubscriptionId/>
 ```
 
- **SubscriptionIdType**
+ **субскриптионидтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,15 +40,15 @@ ms.locfileid: "19840106"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetStreamingEvents](getstreamingevents.md) <br/> |Представляет операцию, используемый клиентами для потоковой передачи уведомления запросов от сервера.  <br/> |
+|[GetStreamingEvents](getstreamingevents.md) <br/> |Представляет операцию, используемую клиентами для запроса потоковых уведомлений от сервера.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Текстовое значение является идентификатором GUID.
+Необходимо указать текстовое значение. Текстовое значение — GUID.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Идентификатор GUID, представляющий идентификатор подписки формируется на сервере клиентского доступа при создании подписки.
+Идентификатор GUID, представляющий идентификатор подписки, создается сервером клиентского доступа при создании подписки.
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19840106"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

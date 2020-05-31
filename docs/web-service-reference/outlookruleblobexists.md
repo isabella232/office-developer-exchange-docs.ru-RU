@@ -1,5 +1,5 @@
 ---
-title: OutlookRuleBlobExists
+title: аутлукрулеблобексистс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ae1bc448-deb9-4b5b-ab38-4b276abcb650
-description: Элемент OutlookRuleBlobExists показывает, существует ли правило большого двоичного объекта Microsoft Outlook в почтовом ящике пользователя.
+description: Элемент Аутлукрулеблобексистс указывает, существует ли большой двоичный объект правила Microsoft Outlook в почтовом ящике пользователя.
 ms.openlocfilehash: a738377cd3c1d69b90ac39ca479b03b3220d5bc5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834679"
 ---
-# <a name="outlookruleblobexists"></a>OutlookRuleBlobExists
+# <a name="outlookruleblobexists"></a>аутлукрулеблобексистс
 
-Элемент **OutlookRuleBlobExists** показывает, существует ли правило большого двоичного объекта Microsoft Outlook в почтовом ящике пользователя. 
+Элемент **аутлукрулеблобексистс** указывает, существует ли большой двоичный объект правила Microsoft Outlook в почтовом ящике пользователя. 
   
-[GetInboxRulesResponse](getinboxrulesresponse.md)
+[жетинбоксрулесреспонсе](getinboxrulesresponse.md)
   
-[OutlookRuleBlobExists](outlookruleblobexists.md)
+[аутлукрулеблобексистс](outlookruleblobexists.md)
   
 ```XML
 <OutlookRuleBlobExists>true | false</OutlookRuleBlobExists>
@@ -34,7 +34,7 @@ ms.locfileid: "19834679"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,13 +48,13 @@ ms.locfileid: "19834679"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetInboxRulesResponse](getinboxrulesresponse.md) <br/> |Представляет ответ на запрос [GetInboxRules операции](getinboxrules-operation.md) .  <br/> |
+|[жетинбоксрулесреспонсе](getinboxrulesresponse.md) <br/> |Представляет ответ на запрос [операции GetInboxRules](getinboxrules-operation.md) .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true,** указывает, что существует большой двоичный объект правила Outlook. Текстовое значение **false** указывает, что большой двоичный объект правила Outlook не существует. 
+Текстовое значение **true** указывает, что существует большой двоичный объект правила Outlook. Текстовое значение **false** указывает, что большой двоичный объект правила Outlook не существует. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -64,7 +64,7 @@ ms.locfileid: "19834679"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c597bb0e-13b0-422e-9c23-970463e2a5c3
-description: Найдите сведения о веб-служб Exchange PerformReminderAction операции.
+description: Поиск сведений о PerformReminderActionной операции EWS.
 ms.openlocfilehash: 778fbb508413721f58cfcf9143a5296874e6cd1c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,32 +17,32 @@ ms.locfileid: "19834722"
 ---
 # <a name="performreminderaction-operation"></a>Операция PerformReminderAction
 
-Найдите сведения о **PerformReminderAction** операции веб-служб Exchange. 
+Поиск сведений о **PerformReminderActionной** операции EWS. 
   
-Операции веб-служб Exchange (EWS) **PerformReminderAction** инициирует действие прекратить или отложить на оповещение. 
+Операция **PerformReminderAction** веб-служб Exchange (EWS) запускает действие отклонить или отложить отложить напоминание. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-performreminderaction-operation"></a>С помощью операции PerformReminderAction
+## <a name="using-the-performreminderaction-operation"></a>Использование операции PerformReminderAction
 
-Чтобы закрыть или отложить напоминания (задержка), возвращенные операцией [GetReminders](getreminders-operation.md) можно использовать операцию **PerformReminderAction** . Чтобы отложить напоминание, установите [Тип действия](actiontype-reminderactiontype.md) в **отложить**и задайте [NewReminderTime](newremindertime.md) значение времени в более поздней версии, чем текущий [ReminderTime](remindertime.md)в противном случае **NewReminderTime** игнорируется сервером. Если оповещение — это вхождение повторяющееся собрание и **отложить** действий на напоминание с **NewReminderTime** , находящегося за напоминание следующее вхождение, напоминания эффективно закрывается. 
+Вы можете использовать операцию **PerformReminderAction** , чтобы отклонить или отложить напоминания, возвращенные операцией- [напоминаний](getreminders-operation.md) . Чтобы отложить напоминание, установите для [объекта, который следует](actiontype-reminderactiontype.md) **отложить**, и задайте для параметра [Невреминдертиме](newremindertime.md) значение времени позже текущего [ReminderTime](remindertime.md), в противном случае **невреминдертиме** игнорируется сервером. Если напоминание относится к экземпляру повторяющегося собрания, а действие " **отложить** " выполняется в памятке с **невреминдертиме** , которое пройдет за сообщение о следующем повторении, то напоминание отменяется. 
   
-Чтобы отключить напоминание, задайте значение **Прекратить** **Тип действия** . Когда сервер обрабатывает запрос, сервер изменяется значение [IsReminderSet](isreminderset.md) для элемента с **значение True,** значение **False**.
+Чтобы отклонить напоминание, задайте для **параметра "объект" значение "** **отклонено**". Когда сервер обрабатывает запрос, сервер изменяет значение параметра [напоминания](isreminderset.md) для элемента с **true** на **false**.
   
-### <a name="performreminderaction-operation-soap-headers"></a>Заголовки SOAP PerformReminderAction операции
+### <a name="performreminderaction-operation-soap-headers"></a>Заголовки SOAP операции PerformReminderAction
 
-Операция **PerformReminderAction** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **PerformReminderAction** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="performreminderaction-operation-request-example"></a>Пример запроса PerformReminderAction операции
+## <a name="performreminderaction-operation-request-example"></a>Пример запроса операции PerformReminderAction
 
-В следующем примере запрос операции **PerformReminderAction** показано, как отложить текущего напоминание и задать новый время оповещения. Обратите внимание на то, что вам нужно включить **ChangeKey** для [ItemId](itemid.md) и **NewReminderTime** должен иметь значение времени в более поздней версии, чем **ReminderTime** , возвращенные операцией [GetReminders](getreminders-operation.md) . 
+В следующем примере запроса операции **PerformReminderAction** показано, как отложить текущее напоминание и задать новое время оповещения. Обратите внимание, что необходимо включить **чанжекэй** для элемента [ItemId](itemid.md) , а для параметра **невреминдертиме** необходимо задать время позже, чем **ReminderTime** [, возвращенное операцией](getreminders-operation.md) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -69,25 +69,25 @@ ms.locfileid: "19834722"
 ```
 
 > [!NOTE]
-> Значение **ItemId** был усечен, чтобы сохранить удобочитаемость. 
+> Значение **ItemId** было сокращено, чтобы сохранить удобочитаемость. 
   
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [PerformReminderAction](performreminderaction.md)
     
-- [ReminderItemActions](reminderitemactions.md)
+- [реминдеритемактионс](reminderitemactions.md)
     
-- [ReminderItemAction](reminderitemaction.md)
+- [реминдеритемактион](reminderitemaction.md)
     
-- [Тип действия](actiontype-reminderactiontype.md)
+- [ActionType](actiontype-reminderactiontype.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-- [NewReminderTime](newremindertime.md)
+- [невреминдертиме](newremindertime.md)
     
-## <a name="successful-performreminderaction-operation-response"></a>Успешные операции ответа PerformReminderAction
+## <a name="successful-performreminderaction-operation-response"></a>Успешный отклик операции PerformReminderAction
 
-В следующем примере показано успешного ответа на запрос операции **PerformReminderAction** . Элемент **UpdatedItemIds** содержит **что ItemID** элемента обновленные календаря. 
+В следующем примере показан успешный ответ на запрос операции **PerformReminderAction** . Элемент **упдатедитемидс** содержит **итемидс** обновленного элемента календаря. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -117,19 +117,19 @@ ms.locfileid: "19834722"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [PerformReminderActionResponse](performreminderactionresponse.md)
+- [перформреминдерактионреспонсе](performreminderactionresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [UpdatedItemIds](updateditemids.md)
+- [упдатедитемидс](updateditemids.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-## <a name="performreminderaction-operation-error-response-example"></a>Пример ответа об ошибке PerformReminderAction операции
+## <a name="performreminderaction-operation-error-response-example"></a>Пример ответа на сообщение об ошибке операции PerformReminderAction
 
-В следующем примере показано ответа на запрос операции **PerformReminderAction** , когда не изменений на сервере. Это ответ был отправлен запрос, но не **UpdatedItemIds** не возвращено, что означает, что нет напоминаний были изменены. 
+В следующем примере показан ответ на запрос операции **PerformReminderAction** , если на сервере не было внесено никаких изменений. Это ответ, в котором был отправлен запрос, но не было возвращено ни одного **упдатедитемидс** , что означает, что напоминания не были изменены. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -156,15 +156,15 @@ ms.locfileid: "19834722"
 </s:Envelope>
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [PerformReminderActionResponse](performreminderactionresponse.md)
+- [перформреминдерактионреспонсе](performreminderactionresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [UpdatedItemIds](updateditemids.md)
+- [упдатедитемидс](updateditemids.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, являющиеся общими для EWS, можно найти в статье [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

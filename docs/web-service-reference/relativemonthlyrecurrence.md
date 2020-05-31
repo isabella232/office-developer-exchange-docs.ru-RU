@@ -1,5 +1,5 @@
 ---
-title: RelativeMonthlyRecurrence
+title: релативемонслирекурренце
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a76595db-7460-44ac-ac2a-53241caa33a7
-description: Элемент RelativeMonthlyRecurrence описывает относительное ежемесячный шаблона повторения.
+description: Элемент Релативемонслирекурренце описывает относительный ежемесячный шаблон повторения.
 ms.openlocfilehash: 9b695052c38e2693946837bf99f03baea093df08
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835053"
 ---
-# <a name="relativemonthlyrecurrence"></a>RelativeMonthlyRecurrence
+# <a name="relativemonthlyrecurrence"></a>релативемонслирекурренце
 
-Элемент **RelativeMonthlyRecurrence** описывает относительное ежемесячный шаблона повторения. 
+Элемент **релативемонслирекурренце** описывает относительный ежемесячный шаблон повторения. 
   
 ```xml
 <RelativeMonthlyRecurrence>
@@ -31,10 +31,10 @@ ms.locfileid: "19835053"
 </RelativeMonthlyRecurrence>
 ```
 
- **RelativeMonthlyRecurrencePatternType**
+ **релативемонслирекурренцепаттернтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,18 +44,18 @@ ms.locfileid: "19835053"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Интервал](interval.md) <br/> |Задает интервал между двумя последовательными ежемесячно повторяющихся шаблон элементов. Диапазон значений — от 1 до 99.  <br/> |
-|[DaysOfWeek (DayOfWeekType)](daysofweek-dayofweektype.md) <br/> |Описывается, какие дни недели находятся в относительный ежемесячный шаблона повторения.  <br/> |
-|[DayOfWeekIndex](dayofweekindex.md) <br/> |Описывается, какие недели используется в относительный ежемесячный шаблона повторения.  <br/> |
+|[Interval](interval.md) <br/> |Определяет интервал между двумя последовательными ежемесячными элементами повторяющегося шаблона. Значение этого параметра — от 1 до 99.  <br/> |
+|[DaysOfWeek (Дайофвиктипе)](daysofweek-dayofweektype.md) <br/> |Описывает дни недели, которые находятся в относительных ежемесячных расписаниях повторения.  <br/> |
+|[дайофвикиндекс](dayofweekindex.md) <br/> |Описывает неделю, которая используется в относительных ежемесячных расписаниях повторения.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашения на собрания.  <br/> |
-|[Повторение (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит данные о повторении для повторяющихся задач.  <br/> |
+|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашений на собрание.  <br/> |
+|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -65,7 +65,7 @@ ms.locfileid: "19835053"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

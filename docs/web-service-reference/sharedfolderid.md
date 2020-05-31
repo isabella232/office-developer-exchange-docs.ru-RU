@@ -1,5 +1,5 @@
 ---
-title: SharedFolderId
+title: шаредфолдерид
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 21181ba3-9626-4284-9717-0b1c16948e8f
-description: Элемент SharedFolderId представляет идентификатор общей папки, идентификатор локальной папки, для которого возвращаются при запрос операции GetSharingFolder.
+description: Элемент Шаредфолдерид представляет идентификатор общей папки, идентификатор локальной папки, который должен быть возвращен запросом операции GetSharingFolder.
 ms.openlocfilehash: 6d4e541ef3cae89e413efa8cc5f1beaf651dc4dd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835477"
 ---
-# <a name="sharedfolderid"></a>SharedFolderId
+# <a name="sharedfolderid"></a>шаредфолдерид
 
-Элемент **SharedFolderId** представляет идентификатор общей папки, идентификатор локальной папки, для которого возвращаются при [GetSharingFolder операция](getsharingfolder-operation.md) запроса. 
+Элемент **шаредфолдерид** представляет идентификатор общей папки, идентификатор локальной папки, который должен быть возвращен запросом [операции GetSharingFolder](getsharingfolder-operation.md) . 
   
 ```xml
 <SharedFolderId/>
 ```
 
- **NonEmptyStringType**
+ **нонемптистрингтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19835477"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetSharingFolder](getsharingfolder.md) <br/> |Определяет запрос на получение идентификатора локальной папки указанной общей папке.  <br/> |
+|[GetSharingFolder](getsharingfolder.md) <br/> |Определяет запрос на получение идентификатора локальной папки указанной общей папки.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение — это строка, которая представляет идентификатор элемента общей папке идентификатор локальной папки, для которого возвращаются при [GetSharingFolder операции](getsharingfolder-operation.md) запроса. 
+Текстовое значение — это строка, представляющая идентификатор общей папки, идентификатор локальной папки, который должен быть возвращен запросом [операции GetSharingFolder](getsharingfolder-operation.md) . 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19835477"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

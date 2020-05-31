@@ -1,5 +1,5 @@
 ---
-title: InternalId
+title: интерналид
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c179db1a-95c9-40da-bd3f-0bed548c0325
-description: Элемент InternalId представляет собой целое значение для идентификации события.
+description: Элемент Интерналид представляет целое значение для идентификации события.
 ms.openlocfilehash: db547b05268d5ae2dc11be1f80a51f59b9d8e396
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833941"
 ---
-# <a name="internalid"></a>InternalId
+# <a name="internalid"></a>интерналид
 
-Элемент **InternalId** представляет собой целое значение для идентификации события. 
+Элемент **интерналид** представляет целое значение для идентификации события. 
   
 ```XML
 <InternalId/>
 ```
 
- **nonNegativeInteger**
+ **ноннегативеинтежер**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19833941"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Содержит сведения для одного события для получателя.  <br/> |
+|[реЦипиенттраккинжевент](recipienttrackingevent.md) <br/> |Содержит сведения об отдельном событии получателя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее целое число является обязательным, если данный элемент используется.
+При использовании этого элемента необходимо указать текстовое значение, представляющее целое число.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19833941"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

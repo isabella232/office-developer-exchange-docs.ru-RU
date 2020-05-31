@@ -1,5 +1,5 @@
 ---
-title: NewDisplayName
+title: невдисплайнаме
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4ac8fb39-6b92-4a88-bc13-17715ef6b63c
-description: Элемент NewDisplayName содержит обновленные отображаемое имя группы мгновенного обмена сообщениями.
+description: Элемент Невдисплайнаме содержит обновленное отображаемое имя группы для обмена мгновенными сообщениями.
 ms.openlocfilehash: c440feb0cef3600d7ee0c2081da59af9df816841
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834528"
 ---
-# <a name="newdisplayname"></a>NewDisplayName
+# <a name="newdisplayname"></a>невдисплайнаме
 
-Элемент **NewDisplayName** содержит обновленные отображаемое имя группы мгновенного обмена сообщениями. 
+Элемент **невдисплайнаме** содержит обновленное отображаемое имя группы для обмена мгновенными сообщениями. 
   
 ```XML
 <NewDisplayName></NewDisplayName>
 ```
 
- **NonEmptyStringType**
+ **нонемптистрингтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19834528"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **NewDisplayName** является обновленной отображаемое имя группы мгновенного обмена сообщениями. 
+Текстовое значение элемента **невдисплайнаме** является обновленным отображаемым именем группы мгновенных сообщений. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19834528"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

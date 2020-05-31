@@ -1,5 +1,5 @@
 ---
-title: ItemClasses (ArrayOfItemClassType)
+title: Итемклассес (Аррайофитемкласстипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 971784d1-6860-4833-bb26-0e930fa11c21
-description: Элемент ItemClasses содержит список классов элементов, представляющий все классы элементов из элементов беседы в текущей папке.
+description: Элемент Итемклассес содержит список классов элементов, которые представляют все классы элементов для элементов беседы в текущей папке.
 ms.openlocfilehash: 62ea5b624025b3f012249afd1763e2b393ef5caa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,17 +15,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834150"
 ---
-# <a name="itemclasses-arrayofitemclasstype"></a>ItemClasses (ArrayOfItemClassType)
+# <a name="itemclasses-arrayofitemclasstype"></a>Итемклассес (Аррайофитемкласстипе)
 
-Элемент **ItemClasses** содержит список классов элементов, представляющий все классы элементов из элементов беседы в текущей папке. 
+Элемент **итемклассес** содержит список классов элементов, которые представляют все классы элементов для элементов беседы в текущей папке. 
   
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[ItemClasses (ArrayOfItemClassType)](itemclasses-arrayofitemclasstype.md)
+[Итемклассес (Аррайофитемкласстипе)](itemclasses-arrayofitemclasstype.md)
   
 ```XML
 <ItemClasses>
@@ -33,10 +33,10 @@ ms.locfileid: "19834150"
 </ItemClasses>
 ```
 
- **ArrayOfItemClassType**
+ **аррайофитемкласстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -46,7 +46,7 @@ ms.locfileid: "19834150"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ItemClass](itemclass.md) <br/> |Представляет класс сообщения элемента.  <br/> |
+|[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834150"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -68,7 +68,7 @@ ms.locfileid: "19834150"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

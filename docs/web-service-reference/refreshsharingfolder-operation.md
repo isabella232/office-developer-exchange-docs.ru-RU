@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1b047e34-40f0-459f-ac9e-e9f8e7349479
-description: Операция RefreshSharingFolder обновляет указанного локальную папку с использованием последних данных из папки "Общий".
+description: Операция RefreshSharingFolder обновляет указанную локальную папку последними данными из общей папки.
 ms.openlocfilehash: 0037de28f0720b97cd51c58a6ee7e3c06e84d642
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,24 +21,24 @@ ms.locfileid: "19835041"
 ---
 # <a name="refreshsharingfolder-operation"></a>Операция RefreshSharingFolder
 
-Операция **RefreshSharingFolder** обновляет указанного локальную папку с использованием последних данных из папки "Общий". 
+Операция **RefreshSharingFolder** обновляет указанную локальную папку последними данными из общей папки. 
   
 ## <a name="soap-headers"></a>Заголовки SOAP
 
-Операция **RefreshSharingFolder** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице. 
+Операция **RefreshSharingFolder** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса.  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос.  <br/> |
+|рекуестверсион  <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции.  <br/> |
+|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
    
 ## <a name="refreshsharingfolder-request-example"></a>Пример запроса RefreshSharingFolder
 
 ### <a name="description"></a>Описание
 
-Следующем примере показано, как для формирования запроса для обновления указанного локальную папку с использованием последних данных из папки "Общий". Элемент [SharingFolderId](sharingfolderid.md) указывает идентификатор локальной папки необходимо обновить. 
+В приведенном ниже примере показано, как создать запрос на обновление указанной локальной папки с самыми последними данными из общей папки. Элемент [шарингфолдерид](sharingfolderid.md) указывает идентификатор локальной папки, которую необходимо обновить. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -58,23 +58,23 @@ ms.locfileid: "19835041"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
-- [RequestServerVersion](requestserverversion.md)
+- [рекуестсерверверсион](requestserverversion.md)
     
 - [RefreshSharingFolder](refreshsharingfolder.md)
     
-- [SharingFolderId](sharingfolderid.md)
+- [шарингфолдерид](sharingfolderid.md)
     
-## <a name="successful-refreshsharingfolder-response"></a>Успешного ответа RefreshSharingFolder
+## <a name="successful-refreshsharingfolder-response"></a>Успешный ответ RefreshSharingFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **RefreshSharingFolder** . 
+В следующем примере показан успешный ответ на запрос **RefreshSharingFolder** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -102,21 +102,21 @@ ms.locfileid: "19835041"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md)
+- [рефрешшарингфолдерреспонсемессаже](refreshsharingfolderresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="refreshsharingfolder-error-response"></a>Ошибка RefreshSharingFolder ответа
+## <a name="refreshsharingfolder-error-response"></a>Ответ об ошибке RefreshSharingFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос **RefreshSharingFolder** . В этом примере **RefreshSharingFolder** не удалось выполнить запрос, поскольку не найден подписки, соответствующий указанной локальной папке. 
+В следующем примере показан ответ об ошибке для запроса **RefreshSharingFolder** . В этом примере не удалось выполнить запрос **RefreshSharingFolder** , так как подписка, соответствующая указанной локальной папке, не найдена. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -147,21 +147,21 @@ ms.locfileid: "19835041"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md)
+- [рефрешшарингфолдерреспонсемессаже](refreshsharingfolderresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [MessageXml](messagexml.md)
+- [мессажексмл](messagexml.md)
     
 ## <a name="see-also"></a>См. также
 
@@ -169,11 +169,11 @@ ms.locfileid: "19835041"
 
 [RefreshSharingFolder](refreshsharingfolder.md)
   
-[RefreshSharingFolderType](https://msdn.microsoft.com/library/ExchangeWebServices.RefreshSharingFolderType.aspx)
+[рефрешшарингфолдертипе](https://msdn.microsoft.com/library/ExchangeWebServices.RefreshSharingFolderType.aspx)
   
-[RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md)
+[рефрешшарингфолдерреспонсемессаже](refreshsharingfolderresponsemessage.md)
   
-[RefreshSharingFolderResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.RefreshSharingFolderResponseMessageType.aspx)
+[рефрешшарингфолдерреспонсемессажетипе](https://msdn.microsoft.com/library/ExchangeWebServices.RefreshSharingFolderResponseMessageType.aspx)
 
 
 [Операции EWS в Exchange](ews-operations-in-exchange.md)

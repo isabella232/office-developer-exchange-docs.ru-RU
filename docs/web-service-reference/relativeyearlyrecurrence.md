@@ -1,5 +1,5 @@
 ---
-title: RelativeYearlyRecurrence
+title: релативэйеарлирекурренце
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 25b67876-9979-4a30-a637-357ea10a93b8
-description: Элемент RelativeYearlyRecurrence описывает относительное ежегодно повторяющейся.
+description: Элемент Релативэйеарлирекурренце описывает относительный ежегодный шаблон повторения.
 ms.openlocfilehash: ce8d2b134ce1fa34cbce8bd2fa921cab18d908a4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835057"
 ---
-# <a name="relativeyearlyrecurrence"></a>RelativeYearlyRecurrence
+# <a name="relativeyearlyrecurrence"></a>релативэйеарлирекурренце
 
-Элемент **RelativeYearlyRecurrence** описывает относительное ежегодно повторяющейся. 
+Элемент **релативэйеарлирекурренце** описывает относительный ежегодный шаблон повторения. 
   
 ```xml
 <RelativeYearlyRecurrence>
@@ -31,10 +31,10 @@ ms.locfileid: "19835057"
 </RelativeYearlyRecurrence>
 ```
 
- **RelativeYearlyRecurrencePatternType**
+ **релативэйеарлирекурренцепаттернтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,20 +44,20 @@ ms.locfileid: "19835057"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DaysOfWeek (DayOfWeekType)](daysofweek-dayofweektype.md) <br/> |Описывает дни недели, используемые в расписаниях повторов элемента.  <br/> |
-|[DayOfWeekIndex](dayofweekindex.md) <br/> |Описывает неделю в месяц используется в относительный ежегодно повторяющейся.  <br/> |
-|[Месяц (повторение элемента)](month-item-recurrence.md) <br/> |Описывает месяц, когда ежегодно повторяющегося элемента.  <br/> |
+|[DaysOfWeek (Дайофвиктипе)](daysofweek-dayofweektype.md) <br/> |Описывает дни недели, которые используются в шаблонах повторения элементов.  <br/> |
+|[дайофвикиндекс](dayofweekindex.md) <br/> |Описывает, какая неделя месяца используется в качестве относительного ежегодного повторения.  <br/> |
+|[Month (повторение элемента)](month-item-recurrence.md) <br/> |Описывает месяц, когда происходит ежегодно повторяющийся элемент.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит данные о повторении для повторяющихся задач.  <br/> |
-|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашения на собрания.  <br/> |
-|[Стандартный](standard.md) <br/> |Представляет дату и время изменения времени с летнего времени на стандартное время.  <br/> |
-|[Переход на летнее](daylight.md) <br/> |Представляет дату и время изменения времени с зимнего на летнее время.  <br/> |
+|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
+|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашений на собрание.  <br/> |
+|[Standard](standard.md) <br/> |Представляет дату и время изменения времени с летнего на стандартное время.  <br/> |
+|[Переход](daylight.md) <br/> |Представляет дату и время изменения времени со стандартного времени на летнее.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -67,7 +67,7 @@ ms.locfileid: "19835057"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 72cec5ec-8485-431c-95b7-b9c2247669d6
-description: Элемент LegacyDN определяет почтового ящика по его устаревшее различающееся имя.
+description: Элемент LegacyDN определяет почтовый ящик по его устаревшему различающеу именам.
 ms.openlocfilehash: 8cd0aeb3018a6a45a3b7172d83ac0899a012b353
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,17 +17,17 @@ ms.locfileid: "19834238"
 ---
 # <a name="legacydn"></a>LegacyDN
 
-Элемент **LegacyDN** определяет почтового ящика по его устаревшее различающееся имя. 
+Элемент **LegacyDN** определяет почтовый ящик по его устаревшему различающеу именам. 
   
 ```XML
 <LegacyDN></LegacyDN>
 ```
 
-**string**
+**строка**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,13 +39,13 @@ ms.locfileid: "19834238"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Почтовые ящики (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
+[Почтовые ящики (Нонемптяррайофлегациднстипе)](mailboxes-nonemptyarrayoflegacydnstype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
 Текстовое значение элемента **LegacyDN** — это устаревшее различающееся имя целевого почтового ящика. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "19834238"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

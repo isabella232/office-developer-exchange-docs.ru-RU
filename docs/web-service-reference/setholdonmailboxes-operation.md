@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9015a0d8-3495-461b-aa79-797d23169585
-description: Найдите сведения о веб-служб Exchange SetHoldOnMailboxes операции.
+description: Поиск сведений о SetHoldOnMailboxesной операции EWS.
 ms.openlocfilehash: 1091ed14ceb25dfd275499b9db47ae4e41b5f1a0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,29 +17,29 @@ ms.locfileid: "19835412"
 ---
 # <a name="setholdonmailboxes-operation"></a>Операция SetHoldOnMailboxes
 
-Найдите сведения о **SetHoldOnMailboxes** операции веб-служб Exchange. 
+Поиск сведений о **SetHoldOnMailboxesной** операции EWS. 
   
-Операция **SetHoldOnMailboxes** задает политики удержания почтового ящика для почтовых ящиков. 
+Операция **SetHoldOnMailboxes** задает политику хранения почтовых ящиков в почтовых ящиках. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-setholdonmailboxes-operation"></a>С помощью операции SetHoldOnMailboxes
+## <a name="using-the-setholdonmailboxes-operation"></a>Использование операции SetHoldOnMailboxes
 
-Операция **SetHoldOnMailboxes** задается удержания почтового ящика на один или несколько почтовых ящиков. 
+Операция **SetHoldOnMailboxes** устанавливает для почтового ящика один или несколько почтовых ящиков. 
   
-### <a name="setholdonmailboxes-operation-soap-headers"></a>Заголовки SOAP SetHoldOnMailboxes операции
+### <a name="setholdonmailboxes-operation-soap-headers"></a>Заголовки SOAP операции SetHoldOnMailboxes
 
-Операция **SetHoldOnMailboxes** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **SetHoldOnMailboxes** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Идентифицирует ролей сервера, необходимых в порядке для абонентов для запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для того, чтобы вызывающий абонент мог выполнить запрос. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="setholdonmailboxes-operation-request-example-apply-a-hold-on-a-mailbox"></a>Пример запроса SetHoldOnMailboxes операции: удерживать для почтового ящика
+## <a name="setholdonmailboxes-operation-request-example-apply-a-hold-on-a-mailbox"></a>Пример запроса операции SetHoldOnMailboxes: применение удержания для почтового ящика
 
-Приведенный ниже запрос операции **SetHoldOnMailboxes** показано, как применять к удержанию два почтовых ящиков. Удержание почтового ящика был создан с помощью команды [New-MailboxSearch](http://technet.microsoft.com/en-us/library/dd298064.aspx) . 
+В приведенном ниже примере запроса операции **SetHoldOnMailboxes** показано, как применить удержание к двум почтовым ящикам. Удержание почтовых ящиков создано с помощью команды [New – MailboxSearch](http://technet.microsoft.com/en-us/library/dd298064.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -67,29 +67,29 @@ ms.locfileid: "19835412"
 
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [SetHoldOnMailboxes](setholdonmailboxes.md)
     
-- [Тип действия (HoldActionType)](actiontype-holdactiontype.md)
+- [Себя (Холдактионтипе)](actiontype-holdactiontype.md)
     
-- [HoldId](holdid.md)
+- [холдид](holdid.md)
     
 - [Query](query.md)
     
-- [Почтовые ящики (ArrayOfStringsType)](mailboxes-arrayofstringstype.md)
+- [Почтовые ящики (Аррайофстрингстипе)](mailboxes-arrayofstringstype.md)
     
-- [Строка](string.md)
+- [String](string.md)
     
-- [Language](language.md)
+- [Язык](language.md)
     
-- [IncludeNonIndexableItems](includenonindexableitems.md)
+- [инклуденониндексаблеитемс](includenonindexableitems.md)
     
-- [Дедупликации](deduplication.md)
+- [Дедупликацию](deduplication.md)
     
-## <a name="successful-setholdonmailboxes-operation-response"></a>Успешные операции ответа SetHoldOnMailboxes
+## <a name="successful-setholdonmailboxes-operation-response"></a>Успешный отклик операции SetHoldOnMailboxes
 
-В следующем примере показано успешного ответа на запрос операции **SetHoldOnMailboxes** для размещения двух почтовых ящиков хранение. 
+В следующем примере показан успешный ответ на запрос операции **SetHoldOnMailboxes** для размещения двух почтовых ящиков на удержании. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -132,31 +132,31 @@ ms.locfileid: "19835412"
 
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [SetHoldOnMailboxesResponse](setholdonmailboxesresponse.md)
+- [сесолдонмаилбоксесреспонсе](setholdonmailboxesresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [MailboxHoldResult](mailboxholdresult.md)
+- [маилбоксхолдресулт](mailboxholdresult.md)
     
-- [HoldId](holdid.md)
+- [холдид](holdid.md)
     
 - [Query](query.md)
     
-- [MailboxHoldStatuses](mailboxholdstatuses.md)
+- [маилбоксхолдстатусес](mailboxholdstatuses.md)
     
-- [MailboxHoldStatus](mailboxholdstatus.md)
+- [маилбоксхолдстатус](mailboxholdstatus.md)
     
-- [Почтовый ящик (строка)](mailbox-string.md)
+- [Mailbox (строка)](mailbox-string.md)
     
-- [Состояние (HoldStatusType)](status-holdstatustype.md)
+- [Состояние (Холдстатустипе)](status-holdstatustype.md)
     
-- [AdditionalInfo](additionalinfo.md)
+- [аддитионалинфо](additionalinfo.md)
     
-## <a name="setholdonmailboxes-operation-error-response"></a>Ошибка операции SetHoldOnMailboxes ответа
+## <a name="setholdonmailboxes-operation-error-response"></a>Ответ об ошибке операции SetHoldOnMailboxes
 
-В следующем примере показано ошибочный ответ на запрос операции **SetHoldOnMailboxes** . Это ответ на запрос, содержащая идентификатор неправильно указанного почтового ящика. 
+В следующем примере показан ответ об ошибке для запроса операции **SetHoldOnMailboxes** . Это ответ на запрос, который содержит неправильно указанный идентификатор почтового ящика. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -185,17 +185,17 @@ ms.locfileid: "19835412"
 
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [SetHoldOnMailboxesResponse](setholdonmailboxesresponse.md)
+- [сесолдонмаилбоксесреспонсе](setholdonmailboxesresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

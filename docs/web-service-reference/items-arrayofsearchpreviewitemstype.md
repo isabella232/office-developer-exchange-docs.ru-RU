@@ -1,5 +1,5 @@
 ---
-title: Элементы (ArrayOfSearchPreviewItemsType)
+title: Элементы (Аррайофсеарчпревиевитемстипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6b860638-d655-4a49-91c4-60e59b596b48
-description: Элемент элементов Указывает список элементов, доступных для просмотра как результаты операции SearchMailboxes.
+description: Элемент Items указывает список элементов, доступных для предварительного просмотра в результате выполнения операции SearchMailboxes.
 ms.openlocfilehash: 6c6b4410ec4f6fa3d7c49d43b515908353233794
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834153"
 ---
-# <a name="items-arrayofsearchpreviewitemstype"></a>Элементы (ArrayOfSearchPreviewItemsType)
+# <a name="items-arrayofsearchpreviewitemstype"></a>Элементы (Аррайофсеарчпревиевитемстипе)
 
-Элемент **элементов** Указывает список элементов, доступных для просмотра как результаты операции **SearchMailboxes** . 
+Элемент **Items** указывает список элементов, доступных для предварительного просмотра в результате выполнения операции **SearchMailboxes** . 
   
 ```XML
 <Items>
@@ -25,10 +25,10 @@ ms.locfileid: "19834153"
 </Items>
 ```
 
- **ArrayOfSearchPreviewItemsType**
+ **аррайофсеарчпревиевитемстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19834153"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[SearchPreviewItem](searchpreviewitem.md)
+[сеарчпревиевитем](searchpreviewitem.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SearchMailboxesResult](searchmailboxesresult.md)
+[сеарчмаилбоксесресулт](searchmailboxesresult.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   

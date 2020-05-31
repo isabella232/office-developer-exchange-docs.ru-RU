@@ -1,5 +1,5 @@
 ---
-title: LastDeliveryTime
+title: ластделиверитиме
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 23d02ceb-f28e-40f2-8f63-673723a50e2a
-description: Элемент LastDeliveryTime содержит время доставки сообщений, который был получен последний в эту беседу в текущую папку.
+description: Элемент Ластделиверитиме содержит время доставки сообщения, которое было последний раз получено в этой беседе в текущей папке.
 ms.openlocfilehash: 240f6acaf3e5249686ab26501a26ee3e0f337b0f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,26 +19,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834198"
 ---
-# <a name="lastdeliverytime"></a>LastDeliveryTime
+# <a name="lastdeliverytime"></a>ластделиверитиме
 
-Элемент **LastDeliveryTime** содержит время доставки сообщений, который был получен последний в эту беседу в текущую папку. 
+Элемент **ластделиверитиме** содержит время доставки сообщения, которое было последний раз получено в этой беседе в текущей папке. 
   
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[LastDeliveryTime](lastdeliverytime.md)
+[ластделиверитиме](lastdeliverytime.md)
   
 ```XML
 <LastDeliveryTime/>
 ```
 
- **xs: DateTime**
+ **xs: dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -56,9 +56,9 @@ ms.locfileid: "19834198"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **LastDeliveryTime** — это дата и время сообщения, который был получен последний в эту беседу в текущую папку. 
+Текстовое значение элемента **ластделиверитиме** — это дата и время последнего сообщения, полученного в этой беседе в текущей папке. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -68,7 +68,7 @@ ms.locfileid: "19834198"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

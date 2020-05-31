@@ -1,5 +1,5 @@
 ---
-title: TotalMemberCount
+title: тоталмемберкаунт
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: fa86bfa6-10aa-4736-938c-9a23525aef8d
-description: Элемент TotalMemberCount представляет количество всех элементов в группе.
+description: Элемент Тоталмемберкаунт представляет количество всех элементов в группе.
 ms.openlocfilehash: 0ec89cd79560962fa243af90cbc70380425e651d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840222"
 ---
-# <a name="totalmembercount"></a>TotalMemberCount
+# <a name="totalmembercount"></a>тоталмемберкаунт
 
-Элемент **TotalMemberCount** представляет количество всех элементов в группе. 
+Элемент **тоталмемберкаунт** представляет количество всех элементов в группе. 
   
 ```XML
 <TotalMemberCount/>
@@ -30,7 +30,7 @@ ms.locfileid: "19840222"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19840222"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Почтовые подсказки](mailtips.md) <br/> |Представляет значения для различных типов почтовые подсказки.  <br/> |
+|[Подсказки](mailtips.md) <br/> |Представляет значения для различных типов советов по использованию электронной почты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет собой целое число, представляющее количество элементов в группе.
+Текстовое значение — это целое число, представляющее число элементов в группе.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19840222"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

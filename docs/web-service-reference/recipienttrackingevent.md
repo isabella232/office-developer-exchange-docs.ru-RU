@@ -1,5 +1,5 @@
 ---
-title: RecipientTrackingEvent
+title: реЦипиенттраккинжевент
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2bffdac7-c2f5-4805-ae7e-bd865301acb6
-description: Элемент RecipientTrackingEvent содержит сведения для одного события для получателя.
+description: Элемент РеЦипиенттраккинжевент содержит сведения об отдельном событии получателя.
 ms.openlocfilehash: c5488ba105f9a853a490d6f0f4ff9ff15b537e23
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834989"
 ---
-# <a name="recipienttrackingevent"></a>RecipientTrackingEvent
+# <a name="recipienttrackingevent"></a>реЦипиенттраккинжевент
 
-Элемент **RecipientTrackingEvent** содержит сведения для одного события для получателя. 
+Элемент **реЦипиенттраккинжевент** содержит сведения об отдельном событии получателя. 
   
 ```XML
 <RecipientTrackingEvent>
@@ -40,10 +40,10 @@ ms.locfileid: "19834989"
 </RecipientTrackingEvent>
 ```
 
- **RecipientTrackingEventType**
+ **реЦипиенттраккинжевенттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -54,29 +54,29 @@ ms.locfileid: "19834989"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Дата (MessageTracking)](date-messagetracking.md) <br/> |Этот элемент обязательный.  <br/> |
-|[Recipient](recipient.md) <br/> |Этот элемент обязательный.  <br/> |
-|[DeliveryStatus](deliverystatus.md) <br/> |Этот элемент обязательный.  <br/> |
-|[EventDescription](eventdescription.md) <br/> |Этот элемент обязательный.  <br/> |
-|[Того](eventdata.md) <br/> |Этот элемент является необязательным.  <br/> |
+|[Получатель](recipient.md) <br/> |Этот элемент обязательный.  <br/> |
+|[деливеристатус](deliverystatus.md) <br/> |Этот элемент обязательный.  <br/> |
+|[евентдескриптион](eventdescription.md) <br/> |Этот элемент обязательный.  <br/> |
+|[EventData](eventdata.md) <br/> |Этот элемент является необязательным.  <br/> |
 |[Сервер (MessageTracking)](server-messagetracking.md) <br/> |Этот элемент обязательный.  <br/> |
-|[InternalId](internalid.md) <br/> |Этот элемент обязательный.  <br/> |
-|[BccRecipient](bccrecipient.md) <br/> |Этот элемент является необязательным.  <br/> |
-|[HiddenRecipient](hiddenrecipient.md) <br/> |Этот элемент является необязательным.  <br/> |
-|[UniquePathId](uniquepathid.md) <br/> |Этот элемент является необязательным.  <br/> |
-|[RootAddress](rootaddress.md) <br/> |Этот элемент является необязательным.  <br/> |
-|[Свойства (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Этот элемент является необязательным.  <br/> |
+|[интерналид](internalid.md) <br/> |Этот элемент обязательный.  <br/> |
+|[бккреЦипиент](bccrecipient.md) <br/> |Этот элемент является необязательным.  <br/> |
+|[хидденреЦипиент](hiddenrecipient.md) <br/> |Этот элемент является необязательным.  <br/> |
+|[уникуепасид](uniquepathid.md) <br/> |Этот элемент является необязательным.  <br/> |
+|[рутаддресс](rootaddress.md) <br/> |Этот элемент является необязательным.  <br/> |
+|[Свойства (Аррайофтраккингпропертиестипе)](properties-arrayoftrackingpropertiestype.md) <br/> |Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RecipientTrackingEvents](recipienttrackingevents.md) <br/> |Содержит список одного или нескольких отслеживания событий для получателя.  <br/> |
+|[реЦипиенттраккинжевентс](recipienttrackingevents.md) <br/> |Содержит список одного или нескольких событий отслеживания для получателя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -86,7 +86,7 @@ ms.locfileid: "19834989"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

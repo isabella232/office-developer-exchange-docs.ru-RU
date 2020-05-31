@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 650d9fc0-1504-4db4-95d6-d3ba86df66ca
-description: Манифесты элемент содержит коллекцию манифестов кодировки Base64 приложений, установленных для учетной записи электронной почты.
+description: Элемент manifests содержит коллекцию манифестов приложений с кодировкой base64, установленных для учетной записи электронной почты.
 ms.openlocfilehash: 3877841c097e6b968d0af51ae5261e5b4336c7ce
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834362"
 ---
 # <a name="manifests"></a>Манифесты
 
-Элемент **манифестов** содержит коллекцию манифестов кодировки Base64 приложений, установленных для учетной записи электронной почты. 
+Элемент **manifests** содержит коллекцию манифестов приложений с кодировкой base64, установленных для учетной записи электронной почты. 
   
 ```XML
 <Manifests>
@@ -25,10 +25,10 @@ ms.locfileid: "19834362"
 </Manifests>
 ```
 
- **ArrayOfAppManifestsType**
+ **аррайофаппманифестстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,9 +40,9 @@ ms.locfileid: "19834362"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[GetAppManifestsResponse](getappmanifestsresponse.md)
+[жетаппманифестсреспонсе](getappmanifestsresponse.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19834362"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

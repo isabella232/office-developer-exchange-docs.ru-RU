@@ -1,5 +1,5 @@
 ---
-title: ИД пользователя (ReminderType)
+title: UID (Реминдертипе)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 169e7825-4480-46d2-9f84-cdab27c8bcfb
-description: Элемент ИД пользователя (ReminderType) идентифицирует элемента календаря, связанного с напоминанием.
+description: Элемент UID (Реминдертипе) определяет элемент календаря, связанный с напоминанием.
 ms.openlocfilehash: e0ad877eee29937b93e2659f84769938c983f11d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840254"
 ---
-# <a name="uid-remindertype"></a>ИД пользователя (ReminderType)
+# <a name="uid-remindertype"></a>UID (Реминдертипе)
 
-Элемент **ИД пользователя (ReminderType)** идентифицирует элемента календаря, связанного с напоминанием. 
+Элемент **UID (реминдертипе)** определяет элемент календаря, связанный с напоминанием. 
   
 ```XML
 <UID />
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,9 +38,9 @@ ms.locfileid: "19840254"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ИД пользователя (ReminderType)** идентифицирует элемент календаря. 
+Текстовое значение элемента **UID (реминдертипе)** определяет элемент календаря. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -52,7 +52,7 @@ ms.locfileid: "19840254"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

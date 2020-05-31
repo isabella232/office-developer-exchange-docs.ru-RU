@@ -1,5 +1,5 @@
 ---
-title: Состояние (единой системы обмена СООБЩЕНИЯМИ веб-службы - SetMissedCallNotificationEnabled)
+title: Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e272d905-1a66-44f6-bb1d-59fa9e4d8dea
-description: Элемент Status определяет значение для использования в запросе SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена СООБЩЕНИЯМИ).
+description: Элемент Status определяет значение, которое будет использоваться в SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена сообщениями).
 ms.openlocfilehash: 3bd07f0ed0f44bd00dad9f56aa8218bad0a82a9a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,13 +18,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835585"
 ---
-# <a name="status-um-web-service---setmissedcallnotificationenabled"></a>Состояние (единой системы обмена СООБЩЕНИЯМИ веб-службы - SetMissedCallNotificationEnabled)
+# <a name="status-um-web-service---setmissedcallnotificationenabled"></a>Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)
 
-Элемент **Status** определяет значение для использования в запросе [SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
+Элемент **Status** определяет значение, которое будет использоваться в [SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
   
-[SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabled-um-web-service.md)
+[SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-um-web-service.md)
   
-[Состояние (единой системы обмена СООБЩЕНИЯМИ веб-службы - SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
+[Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
   
 ```xml
 <SetMissedCallNotificationEnabled>
@@ -35,7 +35,7 @@ ms.locfileid: "19835585"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -49,15 +49,15 @@ ms.locfileid: "19835585"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|SetMissedCallNotificationEnabled  <br/> |Определяет запрос для запроса [SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabled-operation-um-web-service.md) .  <br/> |
+|SetMissedCallNotificationEnabled  <br/> |Определяет запрос для [операции SetMissedCallNotificationEnabled (веб-службы единой системы обмена сообщениями)](setmissedcallnotificationenabled-operation-um-web-service.md) .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Значение типа Boolean текст является обязательным. Ниже перечислены возможные значения.
+Необходимо указать текстовое значение Boolean. Ниже перечислены возможные значения.
   
-- Истина
+- Верно.
     
-- Ложь
+- False
     
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -65,12 +65,12 @@ ms.locfileid: "19835585"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена СООБЩЕНИЯМИ)](setmissedcallnotificationenabled-operation-um-web-service.md)
+[Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

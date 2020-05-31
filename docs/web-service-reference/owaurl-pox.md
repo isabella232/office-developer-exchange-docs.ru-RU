@@ -1,5 +1,5 @@
 ---
-title: OWAUrl (POX)
+title: Оваурл (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 450b86a1-1722-49f5-b541-16c1edc3db7a
-description: Элемент OWAUrl описывает URL-адрес и схемы проверки подлинности, используемый для доступа к на конкретном компьютере, на котором выполняется Microsoft Exchange Server 2007, который имеет роль сервера клиентского доступа установлен, на котором размещается веб-клиент Outlook.
+description: Элемент Оваурл описывает URL-адрес и схему проверки подлинности, которая используется для доступа к определенному компьютеру под управлением Microsoft Exchange Server 2007 с установленной ролью сервера клиентского доступа, на котором размещена служба Outlook Web Access.
 ms.openlocfilehash: 93d03506e2a74aa1b4ef6d2a49ccbda01cfc1f9a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834673"
 ---
-# <a name="owaurl-pox"></a>OWAUrl (POX)
+# <a name="owaurl-pox"></a>Оваурл (POX)
 
-Элемент **OWAUrl** описывает URL-адрес и схемы проверки подлинности, используемый для доступа к на конкретном компьютере, на котором выполняется Microsoft Exchange Server 2007, который имеет роль сервера клиентского доступа установлен, на котором размещается веб-клиент Outlook. 
+Элемент **оваурл** описывает URL-адрес и схему проверки подлинности, которая используется для доступа к определенному компьютеру под управлением Microsoft Exchange Server 2007 с установленной ролью сервера клиентского доступа, на котором размещена служба Outlook Web Access. 
   
-[Автообнаружение (POX)](autodiscover-pox.md)
+[Служба автообнаружения (POX)](autodiscover-pox.md)
   
 [Ответ (POX)](response-pox.md)
   
@@ -28,9 +28,9 @@ ms.locfileid: "19834673"
   
 [Протокол (POX)](protocol-pox.md)
   
-[Внутренний (POX)](internal-pox.md)
+[Internal (POX)](internal-pox.md)
   
-[OWAUrl (POX)](owaurl-pox.md)
+[Оваурл (POX)](owaurl-pox.md)
   
 ```xml
 <OWAUrl AuthenticationMethod=""/>
@@ -38,23 +38,23 @@ ms.locfileid: "19834673"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**AuthenticationMethod** <br/> |Описываются методы проверки подлинности для доступа к Outlook Web Access.  <br/> |
+|**Параметр authenticationmethod** <br/> |Описывает методы проверки подлинности для доступа к Outlook Web Access.  <br/> |
    
 #### <a name="authenticationmethod-attribute"></a>Атрибут AuthenticationMethod
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|WindowsIntegrated  <br/> |Встроенная проверка подлинности Windows.  <br/> |
+|виндовсинтегратед  <br/> |Встроенная проверка подлинности Windows.  <br/> |
 |FBA  <br/> |Проверка подлинности на основе форм.  <br/> |
-|NTLM  <br/> |Проверка подлинности NTLM.  <br/> |
-|Дайджест-проверка  <br/> |Дайджест-проверки подлинности.  <br/> |
-|Общая  <br/> |Обычная проверка подлинности.  <br/> |
+|NTLM;  <br/> |Проверка подлинности NTLM.  <br/> |
+|Digest  <br/> |Дайджест-проверка подлинности.  <br/> |
+|Базовая  <br/> |Обычная проверка подлинности.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -64,15 +64,15 @@ ms.locfileid: "19834673"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Внутренний (POX)](internal-pox.md) <br/> |Содержит коллекцию Outlook Web Access URL-адреса, клиент может подключиться к, когда в сети брандмауэра.  <br/> |
+|[Internal (POX)](internal-pox.md) <br/> |Содержит коллекцию URL-адресов Outlook Web Access, к которым клиент может подключаться, если он находится в брандмауэре.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет URL-адрес для службы Outlook Web Access на сервере клиентского доступа.
+Текстовое значение представляет URL-адрес службы Outlook Web Access на сервере клиентского доступа.
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9be5f734-af42-4bf1-9eb4-f3e4f0917640
-description: Элемент руководители указывает массив Диспетчер имен и идентификаторов их атрибуты источника для пользователя.
+description: Элемент руководители указывает массив имен диспетчеров и идентификаторы их исходных атрибутов для пользователя.
 ms.openlocfilehash: 7f26b61692c3690074b7c328c53d63087550da15
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19834347"
 ---
 # <a name="managers"></a>Руководители
 
-Элемент **руководители** указывает массив Диспетчер имен и идентификаторов их атрибуты источника для пользователя. 
+Элемент **руководители** указывает массив имен диспетчеров и идентификаторы их исходных атрибутов для пользователя. 
   
 ```XML
 <Managers>
@@ -25,10 +25,10 @@ ms.locfileid: "19834347"
 </Managers>
 ```
 
- **ArrayOfStringAttributedValuesType**
+ **аррайофстрингаттрибутедвалуестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19834347"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[StringAttributedValue](stringattributedvalue.md)
+[стрингаттрибутедвалуе](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19834347"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

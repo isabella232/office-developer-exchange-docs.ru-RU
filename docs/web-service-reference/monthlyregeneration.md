@@ -1,5 +1,5 @@
 ---
-title: MonthlyRegeneration
+title: монслиреженератион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9a52ca97-a663-41fe-b61a-61d8c53833ca
-description: Элемент MonthlyRegeneration описывает частота месяца, из которых генерируется задач.
+description: Элемент Монслиреженератион описывает частоту повторного создания задачи в месяцах.
 ms.openlocfilehash: 3de8ab5a6a2134ad5c596bf2bcb073d881c89746
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834488"
 ---
-# <a name="monthlyregeneration"></a>MonthlyRegeneration
+# <a name="monthlyregeneration"></a>монслиреженератион
 
-Элемент **MonthlyRegeneration** описывает частота месяца, из которых генерируется задач. 
+Элемент **монслиреженератион** описывает частоту повторного создания задачи в месяцах. 
   
 ```xml
 <MonthlyRegeneration>
@@ -29,10 +29,10 @@ ms.locfileid: "19834488"
 </MonthlyRegeneration>
 ```
 
- **MonthlyRegeneratingPatternType**
+ **монслиреженератингпаттернтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,15 +42,15 @@ ms.locfileid: "19834488"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Интервал](interval.md) <br/> |Задает интервал в месяцев между двумя последовательными повторяющихся элементов.  <br/> |
+|[Interval](interval.md) <br/> |Определяет интервал (в месяцах) между двумя последовательными повторяющимися элементами.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит данные о повторении для повторяющихся задач.  <br/> |
+|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19834488"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

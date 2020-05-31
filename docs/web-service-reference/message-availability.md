@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1eec24dd-c981-41f4-a2f0-c51d43f1d7c0
-description: Элемент сообщение содержит ожидания ответа Office (OOF).
+description: Элемент Message содержит ответ "нет на месте" (отсутствие на работе).
 ms.openlocfilehash: 9facd04767fdcc0fd9dfd84fc6badb1a7633d2b5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,16 +21,16 @@ ms.locfileid: "19834452"
 ---
 # <a name="message-availability"></a>Сообщение (доступность)
 
-Элемент **сообщение** содержит ожидания ответа Office (OOF). 
+Элемент **Message** содержит ответ "нет на месте" (отсутствие на работе). 
   
 ```xml
 <Message/> 
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,21 +44,21 @@ ms.locfileid: "19834452"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[InternalReply](internalreply.md) <br/> | Содержит сообщения об отсутствии на работе, для других пользователей в домен отправителя. <br/> <br/>  Ниже приведены возможные выражения XPath для этого элемента. <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
-|[ExternalReply](externalreply.md) <br/> | Содержит сообщение об отсутствии на работе, которое отправляется адресам за пределами домена отправителя.  <br/> <br/> Ниже приведены возможные выражения XPath для этого элемента.  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
-|[ReplyBody](replybody.md) <br/> |Содержит сообщение об отсутствии на работе и язык, используемый для сообщения.  <br/> |
+|[интерналрепли](internalreply.md) <br/> | Содержит сообщение об отсутствии на работе, отправленное другим пользователям в домене отправителя. <br/> <br/>  Ниже приведены возможные выражения XPath для этого элемента. <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
+|[екстерналрепли](externalreply.md) <br/> | Содержит сообщение об отсутствии на работе, которое отправляется адресам, не входящим в домен отправителя.  <br/> <br/> Ниже приведены возможные выражения XPath для этого элемента.  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
+|[реплибоди](replybody.md) <br/> |Содержит сообщение об отсутствии на месте и язык, используемый для сообщения.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение необходимо задать для сообщения об отсутствии на работе.
+Для установки сообщения об отсутствии на месте требуется текстовое значение.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
 ## <a name="example"></a>Пример
 
-В следующем примере [SetUserOofSettings операция](setuseroofsettings-operation.md) запроса задает [OofState](oofstate.md) **включена**, задает длительность об отсутствии на работе на 10 дней и задает внешних и внутренних сообщений об отсутствии на работе.
+В следующем примере запроса [операции SetUserOofSettings](setuseroofsettings-operation.md) задается для [уфстате](oofstate.md) значение **Enabled**, устанавливается время бездействия в 10 дней, а также задаются внутренние и внешние сообщения об отсутствии на работе.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -95,7 +95,7 @@ ms.locfileid: "19834452"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

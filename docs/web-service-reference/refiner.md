@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8395b45f-3b94-4473-82ac-2a12c4309170
-description: Элемент уточнения указывает уточнения поиска.
+description: Элемент уточнения задает уточнение поиска.
 ms.openlocfilehash: aad1874760e02b2226cbe1a5bb700013d3816cc0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19835038"
 ---
 # <a name="refiner"></a>Уточнение
 
-Элемент **уточнения** указывает уточнения поиска. 
+Элемент **уточнения** задает уточнение поиска. 
   
 ```XML
 <Refiner>
@@ -28,10 +28,10 @@ ms.locfileid: "19835038"
 </Refiner>
 ```
 
- **SearchRefinerItemType**
+ **сеарчрефинеритемтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,13 +39,13 @@ ms.locfileid: "19835038"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Имя (строка)](name-string.md) | [значение](value.md) | [Count](count.md) | [маркера (строка)](token-string.md)
+[Имя (строка)](name-string.md) | — маркер[счетчика](count.md) | [значений](value.md) | [(String)](token-string.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Уточнения](refiners.md)
+[Уточнители](refiners.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "19835038"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

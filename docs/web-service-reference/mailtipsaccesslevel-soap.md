@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 730e349e-8250-4236-af53-cd9039c74d8f
-description: Элемент MailTipsAccessLevel представляет свойство MailTipsAccessLevel. Элемент MailTipsAccessLevel — только для внутреннего использования. Этот элемент не используется с клиентами.
+description: Элемент MailTipsAccessLevel представляет свойство MailTipsAccessLevel. Элемент MailTipsAccessLevel предназначен только для внутреннего использования. Этот элемент не используется клиентами.
 ms.openlocfilehash: 35fb4aa56bbfa42ac4be196a379dc48aff5ec101
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.locfileid: "19834313"
 ---
 # <a name="mailtipsaccesslevel-soap"></a>MailTipsAccessLevel (SOAP)
 
-Элемент **MailTipsAccessLevel** представляет свойство **MailTipsAccessLevel** . Элемент **MailTipsAccessLevel** — только для внутреннего использования. Этот элемент не используется с клиентами. 
+Элемент **MailTipsAccessLevel** представляет свойство **MailTipsAccessLevel** . Элемент **MailTipsAccessLevel** предназначен только для внутреннего использования. Этот элемент не используется клиентами. 
   
 ```XML
 <MailTipsAccessLevel/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,24 +39,24 @@ ms.locfileid: "19834313"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений организации для одной организации.  <br/> |
+|[Организатионрелатионшипсеттингс (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений Организации для одной организации.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент определяет максимальный объем сведений почты советы, возвращаемого в ответе.
+Этот элемент указывает максимальный объем сведений о подсказках почты, которые будут возвращаться в ответе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+[Операция Жеторганизатионрелатионшипсеттингс (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

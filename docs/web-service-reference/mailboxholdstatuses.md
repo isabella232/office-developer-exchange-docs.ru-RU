@@ -1,5 +1,5 @@
 ---
-title: MailboxHoldStatuses
+title: маилбоксхолдстатусес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f0bd3d6f-bb21-4b5d-9e6a-b19530a1a3fd
-description: Элемент MailboxHoldStatuses Указывает список один или несколько элементов MailboxHoldStatus.
+description: Элемент Маилбоксхолдстатусес указывает список из одного или нескольких элементов Маилбоксхолдстатус.
 ms.openlocfilehash: a81223b2e8ec24ba67ea29b645675213a2f87a67
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834291"
 ---
-# <a name="mailboxholdstatuses"></a>MailboxHoldStatuses
+# <a name="mailboxholdstatuses"></a>маилбоксхолдстатусес
 
-Элемент **MailboxHoldStatuses** Указывает список один или несколько элементов **MailboxHoldStatus** . 
+Элемент **маилбоксхолдстатусес** указывает список из одного или нескольких элементов **маилбоксхолдстатус** . 
   
 ```XML
 <MailboxHoldStatuses>
@@ -25,11 +25,11 @@ ms.locfileid: "19834291"
 </MailboxHoldStatuses>
 ```
 
-**ArrayOfMailboxHoldStatusType**
+**аррайофмаилбоксхолдстатустипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19834291"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[MailboxHoldStatus](mailboxholdstatus.md)
+[маилбоксхолдстатус](mailboxholdstatus.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[MailboxHoldResult](mailboxholdresult.md)
+[маилбоксхолдресулт](mailboxholdresult.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19834291"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

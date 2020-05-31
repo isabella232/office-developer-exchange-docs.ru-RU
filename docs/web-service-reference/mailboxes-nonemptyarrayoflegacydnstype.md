@@ -1,5 +1,5 @@
 ---
-title: Почтовые ящики (NonEmptyArrayOfLegacyDNsType)
+title: Почтовые ящики (Нонемптяррайофлегациднстипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e44bc49-8c99-472c-a507-0b5c25db9322
-description: Элемент почтовые ящики указывает массив почтовых ящиков, определяемую средством устаревшее различающееся имя.
+description: Элемент почтовых ящиков определяет массив почтовых ящиков, идентифицируемых устаревшим различающимся именем.
 ms.openlocfilehash: 11e66e61fc6f20bec8b92ac5107e82bf92daba8f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834285"
 ---
-# <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>Почтовые ящики (NonEmptyArrayOfLegacyDNsType)
+# <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>Почтовые ящики (Нонемптяррайофлегациднстипе)
 
-Элемент **почтовые ящики** указывает массив почтовых ящиков, определяемую средством устаревшее различающееся имя. 
+Элемент **почтовых ящиков** определяет массив почтовых ящиков, идентифицируемых устаревшим различающимся именем. 
   
 ```XML
 <Mailboxes>
@@ -25,11 +25,11 @@ ms.locfileid: "19834285"
 </Mailboxes>
 ```
 
-**NonEmptyArrayofLegacyDNsType**
+**нонемптяррайофлегациднстипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,7 +43,7 @@ ms.locfileid: "19834285"
 
 [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19834285"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

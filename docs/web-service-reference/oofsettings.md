@@ -1,5 +1,5 @@
 ---
-title: OofSettings
+title: уфсеттингс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8f37d174-db11-427c-bbed-fdde754a60c7
-description: Элемент OofSettings содержит параметры об отсутствии на работе Office (отсутствие на работе).
+description: Элемент Уфсеттингс содержит параметры заместителя (отсутствие на работе).
 ms.openlocfilehash: d71f068ff24af22da98b6b4de090ab26d3f74f26
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834649"
 ---
-# <a name="oofsettings"></a>OofSettings
+# <a name="oofsettings"></a>уфсеттингс
 
-Элемент **OofSettings** содержит параметры об отсутствии на работе Office (отсутствие на работе). 
+Элемент **уфсеттингс** содержит параметры заместителя (отсутствие на работе). 
   
-[GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
+[жетусеруфсеттингсреспонсе](getuseroofsettingsresponse.md)
   
-[OofSettings](oofsettings.md)
+[уфсеттингс](oofsettings.md)
   
 ```xml
 <OofSettings>
@@ -37,10 +37,10 @@ ms.locfileid: "19834649"
 </OofSettings>
 ```
 
- **UserOofSettings**
+ **усеруфсеттингс**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,19 +50,19 @@ ms.locfileid: "19834649"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[OofState](oofstate.md) <br/> |Содержит состояние пользователя об отсутствии на работе.  <br/> |
-|[ExternalAudience](externalaudience.md) <br/> |Содержит значение, определяющее, которому отправляются внешних сообщений об отсутствии на работе.  <br/> |
-|[Продолжительность (UserOofSettings)](duration-useroofsettings.md) <br/> |Содержит во время выполнения, для которого включен состояние об отсутствии на работе, если элемент [OofState](oofstate.md) задано значение **Запланировано**. Если элемент [OofState](oofstate.md) — это значение **включено** или **отключено**, значение этого элемента игнорируется.  <br/> |
-|[InternalReply](internalreply.md) <br/> |Содержит ответа об отсутствии на работе, для других пользователей в домене или доверенном домене пользователя.  <br/> |
-|[ExternalReply](externalreply.md) <br/> |Содержит отправлено адресам за пределами домена или доверенных доменов получателя ответов об отсутствии на работе.  <br/> |
+|[уфстате](oofstate.md) <br/> |Содержит состояние отсутствия на работе пользователя.  <br/> |
+|[екстерналаудиенце](externalaudience.md) <br/> |Содержит значение, определяющее, кому отправляются внешние сообщения об отсутствии на работе.  <br/> |
+|[Продолжительность (Усеруфсеттингс)](duration-useroofsettings.md) <br/> |Содержит время, в течение которого состояние отсутствия на работе включено, если для элемента [уфстате](oofstate.md) задано значение " **запланировано**". Если для элемента [уфстате](oofstate.md) задано значение **Enabled** или **disabled**, значение этого элемента игнорируется.  <br/> |
+|[интерналрепли](internalreply.md) <br/> |Содержит ответ о нерабочем месте, отправленный другим пользователям в домене пользователя или доверенном домене.  <br/> |
+|[екстерналрепли](externalreply.md) <br/> |Содержит ответ о нерабочем месте, отправленный на адреса, не входящие в домен получателя или доверенные домены.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Содержит параметры об отсутствии на работе для пользователя и результатов ответа.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserOofSettingsResponse` <br/> |
+|[жетусеруфсеттингсреспонсе](getuseroofsettingsresponse.md) <br/> |Содержит результаты ответа и параметры отсутствия на отсутствие для пользователя.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserOofSettingsResponse` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -72,7 +72,7 @@ ms.locfileid: "19834649"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

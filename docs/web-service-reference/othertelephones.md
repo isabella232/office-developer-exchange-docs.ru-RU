@@ -1,5 +1,5 @@
 ---
-title: OtherTelephones
+title: осертелефонес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c2f3070c-81c6-43f7-ae48-cb3d2dcfac68
-description: Элемент OtherTelephones указывает массив значений телефонной и идентификаторы их атрибуты источника для связанного пользователя.
+description: Элемент Осертелефонес указывает массив значений телефона и идентификаторы их исходных атрибутов для связанного пользователя.
 ms.openlocfilehash: 9573dce54f3c9b9d09b779e921c605077d91262e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834669"
 ---
-# <a name="othertelephones"></a>OtherTelephones
+# <a name="othertelephones"></a>осертелефонес
 
-Элемент **OtherTelephones** указывает массив значений телефонной и идентификаторы их атрибуты источника для связанного пользователя. 
+Элемент **осертелефонес** указывает массив значений телефона и идентификаторы их исходных атрибутов для связанного пользователя. 
   
 ```XML
 <OtherTelephones>
@@ -26,10 +26,10 @@ ms.locfileid: "19834669"
 
 ```
 
- **ArrayOfPhoneNumberAttributedValuesType**
+ **аррайоффоненумбераттрибутедвалуестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19834669"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[PhoneNumberAttributedValue](phonenumberattributedvalue.md)
+[фоненумбераттрибутедвалуе](phonenumberattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19834669"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

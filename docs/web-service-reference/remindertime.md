@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6081777a-ae91-43d2-bf83-f3742030aa70
-description: Элемент ReminderTime указывает время, оповещение будет выполнена.
+description: Элемент ReminderTime указывает время напоминания.
 ms.openlocfilehash: b72dd8d6252f41268263579d867a03e460c4ed6a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19835075"
 ---
 # <a name="remindertime"></a>ReminderTime
 
-Элемент **ReminderTime** указывает время, оповещение будет выполнена. 
+Элемент **ReminderTime** указывает время напоминания. 
   
 ```XML
 <ReminderTime/>
 ```
 
- **dateTime**
+ **дата и время**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19835075"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Памятки](reminder.md)
+[Reminder](reminder.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ReminderTime** — это время, оповещение будет выполнена. 
+Текстовое значение элемента **ReminderTime** — время, в течение которого будет появляться напоминание. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,14 +56,14 @@ ms.locfileid: "19835075"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Памятки](reminder.md)
+[Reminder](reminder.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

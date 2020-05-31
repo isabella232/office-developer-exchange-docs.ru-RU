@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a
-description: Операция RemoveDelegate Удаляет один или несколько делегатов из почтового ящика пользователя.
+description: Операция RemoveDelegate удаляет одного или нескольких делегатов из почтового ящика пользователя.
 ms.openlocfilehash: 6f3371d19bd8a7fd967d4959d85037ae6b51f6aa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,26 +21,26 @@ ms.locfileid: "19835088"
 ---
 # <a name="removedelegate-operation"></a>Операция RemoveDelegate
 
-Операция **RemoveDelegate** Удаляет один или несколько делегатов из почтового ящика пользователя. 
+Операция **RemoveDelegate** удаляет одного или нескольких делегатов из почтового ящика пользователя. 
   
 ## <a name="soap-headers"></a>Заголовки SOAP
 
-Операция **RemoveDelegate** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице. 
+Операция **RemoveDelegate** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|Олицетворение  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении.  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Идентифицирует культуры RFC3066, которые будут использоваться для доступа к почтовому ящику.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса.  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос.  <br/> |
+|Олицетворение  <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение.  <br/> |
+|маилбокскултуре  <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры RFC3066, которые будут использоваться для доступа к почтовому ящику.  <br/> |
+|рекуестверсион  <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции.  <br/> |
+|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
    
 ## <a name="removedelegate-request-example"></a>Пример запроса RemoveDelegate
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано, как удалить два делегата из почтового ящика пользователя user1. В этом примере один делегат удаляется с помощью делегата основного SMTP-адреса и другой удаляется с помощью делегата идентификатор безопасности (SID).
+В приведенном ниже примере кода показано, как удалить двух делегатов из почтового ящика user1's. В этом примере один делегат удаляется с помощью основного SMTP-адреса делегата, а другой удаляется с помощью идентификатора безопасности делегата (SID).
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -68,17 +68,17 @@ ms.locfileid: "19835088"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Операция **RemoveDelegate** не требуется делегат указанного пользователя нет почтового ящика или находится в службе каталогов Active Directory. Операция **RemoveDelegate** завершится успешно, если потерянные запись делегата. 
+Операция **RemoveDelegate** не требует наличия почтового ящика или наличия почтового ящика в службе каталогов Active Directory для указанного пользователя делегата. Если запись делегата потеряна, операция **RemoveDelegate** будет выполнена успешно. 
   
-## <a name="removedelegate-response-example"></a>Пример ответа RemoveDelegate
+## <a name="removedelegate-response-example"></a>Пример отклика RemoveDelegate
 
 ### <a name="description"></a>Описание
 
-В следующем примере ответа **RemoveDelegate** показано успешного ответа на запрос **RemoveDelegate** . Ответ содержит элемент **DelegateUserResponseMessageType** для каждого делегата, удаляется из почтового ящика. 
+В приведенном ниже примере ответа **RemoveDelegate** показан успешный ответ на запрос **RemoveDelegate** . Ответ содержит элемент **делегатеусерреспонсемессажетипе** для каждого делегата, который удаляется из почтового ящика. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -111,13 +111,13 @@ ms.locfileid: "19835088"
 </soap:Envelope>
 ```
 
-## <a name="removedelegate-error-response-example"></a>Пример ответа об ошибке RemoveDelegate
+## <a name="removedelegate-error-response-example"></a>Пример ответа на сообщение об ошибке RemoveDelegate
 
 ### <a name="description"></a>Описание
 
-В следующем примере ответа ошибку **RemoveDelegate** показано результаты запроса, чтобы удалить делегата, не существует. 
+В приведенном ниже примере ответа на ошибку **RemoveDelegate** показаны результаты запроса на удаление делегата, который не существует. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

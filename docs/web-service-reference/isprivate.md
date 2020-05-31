@@ -1,5 +1,5 @@
 ---
-title: IsPrivate
+title: Частный
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1712bc94-9789-4507-8521-bde1be51e331
-description: Элемент IsPrivate указывает, является ли закрытый элемента календаря.
+description: Элемент ". Private" указывает, является ли элемент календаря частным.
 ms.openlocfilehash: 37c0357b3eab2314ee74e1c98287b3dc05a3bf26
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,25 +19,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834095"
 ---
-# <a name="isprivate"></a>IsPrivate
+# <a name="isprivate"></a>Частный
 
-Элемент **IsPrivate** указывает, является ли закрытый элемента календаря. 
+Элемент ". **Private** " указывает, является ли элемент календаря частным. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
+[фрибусиреспонсеаррай](freebusyresponsearray.md)
   
-[FreeBusyResponse](freebusyresponse.md)
+[фрибусиреспонсе](freebusyresponse.md)
   
-[FreeBusyView](freebusyview.md)
+[фрибусивиев](freebusyview.md)
   
-[CalendarEventArray](calendareventarray.md)
+[календаревентаррай](calendareventarray.md)
   
-[CalendarEvent](calendarevent.md)
+[календаревент](calendarevent.md)
   
-[CalendarEventDetails](calendareventdetails.md)
+[календаревентдетаилс](calendareventdetails.md)
   
-[IsPrivate](isprivate.md)
+[Частный](isprivate.md)
   
 ```xml
 <IsPrivate>true or false</IsPrivate>
@@ -46,7 +46,7 @@ ms.locfileid: "19834095"
  **boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -60,15 +60,15 @@ ms.locfileid: "19834095"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Дополнительные сведения о событии календаря.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[календаревентдетаилс](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения о событии календаря.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Текстовое значение, представляющее логическое значение является обязательным.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Если данный элемент используется, другие элементы в элементе [CalendarEventDetails](calendareventdetails.md) не включаются в ответе. 
+При использовании этого элемента другие элементы в элементе [календаревентдетаилс](calendareventdetails.md) не будут включены в ответ. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -78,7 +78,7 @@ ms.locfileid: "19834095"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -87,7 +87,7 @@ ms.locfileid: "19834095"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

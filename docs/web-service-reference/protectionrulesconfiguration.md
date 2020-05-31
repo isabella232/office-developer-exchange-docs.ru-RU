@@ -1,5 +1,5 @@
 ---
-title: ProtectionRulesConfiguration
+title: протектионрулесконфигуратион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e5b4699a-476e-4053-bb52-873eb921c046
-description: Элемент ProtectionRulesConfiguration содержит сведения о конфигурации службы для службы правил защиты.
+description: Элемент Протектионрулесконфигуратион содержит сведения о конфигурации службы для службы правил защиты.
 ms.openlocfilehash: 9c286fcf9752d591d53323f45a264f4bdd078c1c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834912"
 ---
-# <a name="protectionrulesconfiguration"></a>ProtectionRulesConfiguration
+# <a name="protectionrulesconfiguration"></a>протектионрулесконфигуратион
 
-Элемент **ProtectionRulesConfiguration** содержит сведения о конфигурации службы для службы правил защиты. 
+Элемент **протектионрулесконфигуратион** содержит сведения о конфигурации службы для службы правил защиты. 
   
 ```XML
 <ProtectionRulesConfiguration RefreshInterval="">
@@ -30,37 +30,37 @@ ms.locfileid: "19834912"
 </ProtectionRulesConfiguration>
 ```
 
- **ProtectionRulesServiceConfiguration**
+ **протектионрулессервицеконфигуратион**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**RefreshInterval** <br/> |Указывает, как часто целое количество часов, клиент должен запрашивать правила защиты с сервера. Этот атрибут является обязательным и его значение должно быть целое число, равно или больше, чем 1.  <br/> |
+|**RefreshInterval** <br/> |Указывает, как часто клиент должен запрашивать правила защиты от сервера в течение всего времени. Этот атрибут является обязательным, а его значение должно быть целым числом, равным или большим 1.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Правила](rules-ex15websvcsotherref.md) <br/> |Массив правила защиты. Этот элемент обязательный.  <br/> |
-|[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |Определяет список внутренних доменов SMTP организации. Этот элемент обязательный.  <br/> |
+|[Условия](rules-ex15websvcsotherref.md) <br/> |Массив правил защиты. Этот элемент обязательный.  <br/> |
+|[Имена внутренних доменов (Смтпдомаинлист)](internaldomains-smtpdomainlist.md) <br/> |Определяет список внутренних доменов SMTP Организации. Этот элемент обязательный.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
+|[сервицеконфигуратионреспонсемессажетипе](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Конфигурация службы правил защиты включает в себя список правил, внутренние домены и интервал обновления.
+Конфигурация службы правил защиты состоит из списка правил, внутренних доменов и интервалов обновления.
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -70,7 +70,7 @@ ms.locfileid: "19834912"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

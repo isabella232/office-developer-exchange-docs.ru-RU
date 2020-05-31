@@ -1,5 +1,5 @@
 ---
-title: SetTeamMailbox
+title: сеттеаммаилбокс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d6ee7cc-8f88-4de2-ae5c-cabf2f2193d0
-description: Элемент SetTeamMailbox содержит запрос для установки почтового ящика сайта.
+description: Элемент Сеттеаммаилбокс содержит запрос на задание почтового ящика сайта.
 ms.openlocfilehash: 708863168f4e89775deee8c5d66427df41515089
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835455"
 ---
-# <a name="setteammailbox"></a>SetTeamMailbox
+# <a name="setteammailbox"></a>сеттеаммаилбокс
 
-Элемент **SetTeamMailbox** содержит запрос для установки почтового ящика сайта. 
+Элемент **сеттеаммаилбокс** содержит запрос на задание почтового ящика сайта. 
   
 ```XML
 <SetTeamMailbox>
@@ -27,10 +27,10 @@ ms.locfileid: "19835455"
 </SetTeamMailbox>
 ```
 
- **SetTeamMailboxRequestType**
+ **сеттеаммаилбоксрекуесттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19835455"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md) | [SharePointSiteUrl](sharepointsiteurl.md) | [состояния (TeamMailboxLifecycleStateType)](state-teammailboxlifecyclestatetype.md)
+[EmailAddressType](emailaddress-emailaddresstype.md) | состояние[шарепоинтситеурл](sharepointsiteurl.md) | [(теаммаилбокслифециклестатетипе)](state-teammailboxlifecyclestatetype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19835455"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

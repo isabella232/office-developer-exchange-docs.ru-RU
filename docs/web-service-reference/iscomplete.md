@@ -1,5 +1,5 @@
 ---
-title: IsComplete
+title: Выполнение
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5331f0a8-51b2-46e1-a07b-a2358f2d5ab0
-description: Элемент IsComplete указывает, была ли выполнена задача.
+description: Элемент завершения указывает, завершена ли задача.
 ms.openlocfilehash: ca1b2c189da8a56ed728e71fe0e09283cc19b414
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834006"
 ---
-# <a name="iscomplete"></a>IsComplete
+# <a name="iscomplete"></a>Выполнение
 
-Элемент **IsComplete** указывает, была ли выполнена задача. 
+Элемент **завершения** указывает, завершена ли задача. 
   
 ```xml
 <IsComplete/>
@@ -30,7 +30,7 @@ ms.locfileid: "19834006"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,9 +48,9 @@ ms.locfileid: "19834006"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение — это логическое значение, указывающее, была ли выполнена задача.
+Текстовое значение — это логическое значение, указывающее, завершена ли задача.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19834006"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -72,5 +72,5 @@ ms.locfileid: "19834006"
 
 [Создание задач](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[Удаление задачи](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Удаление задач](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 
