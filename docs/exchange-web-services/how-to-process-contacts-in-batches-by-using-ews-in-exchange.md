@@ -1,11 +1,11 @@
 ---
-title: Процесс контакты партиями с помощью веб-служб Exchange в Exchange
+title: Пакетная обработка контактов с помощью EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 455f475b-cb19-4e7a-8ff3-92f7028fceb0
-description: Узнайте, как создание, получение, обновление и удаление пакетов контактов в одном вызове с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как создавать, получать, обновлять и удалять пакеты контактов в едином вызове с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: ce1a61615767f3b03354bc79b036582613f15e7e
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -13,27 +13,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21354031"
 ---
-# <a name="process-contacts-in-batches-by-using-ews-in-exchange"></a>Процесс контакты партиями с помощью веб-служб Exchange в Exchange
+# <a name="process-contacts-in-batches-by-using-ews-in-exchange"></a>Пакетная обработка контактов с помощью EWS в Exchange
 
-Узнайте, как создание, получение, обновление и удаление пакетов контактов в одном вызове с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как создавать, получать, обновлять и удалять пакеты контактов в едином вызове с помощью управляемого API EWS или EWS в Exchange.
   
-Можно использовать управляемый API EWS или делает веб-служб Exchange для работы с пакетами для контактов, чтобы сократить количество вызовов клиента к серверу Exchange. При использовании управляемого интерфейса API веб-служб Exchange на создание, получение, обновление и удаление контактов в пакетах, используйте методы объекта [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , то время как при работе с одним контакты можно использовать методы объекта [контакта](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) . При использовании веб-служб Exchange для работы с одним контактом и пакетов контактов использовать такие же операции. 
+Вы можете использовать управляемый API EWS или EWS для работы с пакетами контактов, чтобы уменьшить количество звонков, которые клиент делает на сервер Exchange Server. При использовании управляемого API EWS для создания, получения, обновления и удаления контактов в пакетах используются методы объекта [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , а при работе с одним контактом используются методы объекта [Contact](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) . Если вы используете EWS, вы можете использовать те же операции для работы с одним контактом и пакетами контактов. 
   
-**В таблице 1. Управляемый API EWS методы и операций веб-служб Exchange для работы с пакетами контактов**
+**Таблица 1. Методы управляемого API EWS и операции EWS для работы с пакетами контактов**
 
-|**Чтобы...**|**Какой метод управляемого API для EWS в этом случае нужен**|**Какая операция EWS в этом случае нужна**|
+|**Задача**|**Используйте этот метод управляемого API EWS**|**Используйте эту операцию EWS**|
 |:-----|:-----|:-----|
-|Создание контактов в пакетах  <br/> |[ExchangeService.CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|Получение контакты в пакетах  <br/> |[ExchangeService.BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) или [ExchangeService.LoadPropertiesForItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
-|Обновлять контакты в пакетах  <br/> |[ExchangeService.UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Удаление контактов в пакетах  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
+|Создание контактов в пакетах  <br/> |[ExchangeService. CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
+|Получение контактов в пакетах  <br/> |[ExchangeService. биндтоитемс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) или [ExchangeService. лоадпропертиесфоритемс](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
+|Обновление контактов в пакетах  <br/> |[ExchangeService. Упдатеитемс](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|Удаление контактов в пакетах  <br/> |[ExchangeService. Делетеитемс](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
-В этой статье вы узнаете, как для выполнения основных задач для пакетов контактов с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange.
+В этой статье рассказывается, как выполнять основные задачи для пакетов контактов с помощью управляемого API EWS или EWS.
   
-## <a name="create-contacts-in-batches-by-using-the-ews-managed-api"></a>Создание контактов партиями с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="create-contacts-in-batches-by-using-the-ews-managed-api"></a>Создание контактов в пакетах с помощью управляемого API EWS
 <a name="bk_EWSMA"> </a>
 
-Контакты в пакетах можно создать с помощью метода управляемый API EWS [CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) , как показано в следующем примере. В этом примере создается три [Contact](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) objects локально, добавляет рядом с каждым контактом в коллекцию, а затем вызывается метод **CreateItems** коллекция контактов. 
+Вы можете создавать контакты в пакетах с помощью метода [CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) управляемого API EWS, как показано в следующем примере. В этом примере показано, как создать три объекта [Contacts](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) локально, добавить каждого контакта в коллекцию, а затем вызвать метод **CreateItems** для коллекции Contacts. 
   
 ```cs
 public static Collection<ItemId> CreateContactsInBatch(ExchangeService service)
@@ -101,10 +101,10 @@ public static Collection<ItemId> CreateContactsInBatch(ExchangeService service)
 }
 ```
 
-## <a name="create-contacts-in-batches-by-using-ews"></a>Создание контактов партиями с помощью веб-служб Exchange
+## <a name="create-contacts-in-batches-by-using-ews"></a>Создание контактов в пакетах с помощью EWS
 <a name="bk_EWSMA"> </a>
 
-Контакты в пакетах можно создать с помощью операции [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) EWS, как показано в следующем примере кода. Это также XML-запрос, который отправляет управляемый API веб-служб Exchange, когда использовать управляемый API веб-служб Exchange для [создания контактов в пакетах](#bk_EWSMA).
+Вы можете создавать контакты в пакетах с помощью операции [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) EWS, как показано в следующем примере кода. Это также запрос XML, который отправляет управляемый API EWS при использовании управляемого API EWS для [создания контактов в пакетах](#bk_EWSMA).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -146,12 +146,12 @@ xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **CreateItem** [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError** для каждого нового контакта, который указывает, что рядом с каждым контактом был создан и сохранен успешно. 
+Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) для каждого нового контакта, которое **указывает на то** , что каждый контакт был успешно создан и сохранен. 
   
-## <a name="get-contacts-in-batches-by-using-the-ews-managed-api"></a>Получить контакты в пакетах с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-contacts-in-batches-by-using-the-ews-managed-api"></a>Получение контактов в пакетах с помощью управляемого API EWS
 <a name="bk_EWSMAGet"> </a>
 
-Контакты в пакетах можно получить с помощью метода управляемый API EWS [BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) , как показано в следующем примере. В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. 
+Контакты можно получать в пакетах с помощью метода [Биндтоитемс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) управляемого API EWS, как показано в следующем примере. В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 public static Collection<Contact> BatchGetContactItems(ExchangeService service, Collection<ItemId> itemIds)
@@ -189,10 +189,10 @@ public static Collection<Contact> BatchGetContactItems(ExchangeService service, 
 
 ```
 
-## <a name="get-contacts-in-batches-by-using-ews"></a>Получить контакты в пакетах с помощью веб-служб Exchange
+## <a name="get-contacts-in-batches-by-using-ews"></a>Получение контактов в пакетах с помощью EWS
 <a name="bk_EWSMAGet"> </a>
 
-Контакты можно получить в пакетах с помощью операции [GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) веб-служб Exchange и код в следующем примере. Это также запроса XML, управляемый API EWS отправляет при использовании управляемый API EWS для [получения контактов в пакетах](#bk_EWSMAGet). Атрибут **ItemId** был усечен для удобства чтения. 
+Контакты можно получать в пакетах с помощью операции [GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) и кода, приведенного в следующем примере. Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [получения контактов в пакетах](#bk_EWSMAGet). Атрибут **ItemId** был сокращен для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -222,14 +222,14 @@ xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **GetItem** [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) сообщение, содержащее идентификатор и отображаемое имя для каждого из них запрошенные контактов. 
+Сервер отвечает на запрос **GetItem** с сообщением [жетитемреспонсе](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) , которое включает идентификатор и отображаемое имя для каждого из запрошенных контактов. 
   
-## <a name="update-contacts-in-batches-by-using-the-ews-managed-api"></a>Обновление контактов партиями с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="update-contacts-in-batches-by-using-the-ews-managed-api"></a>Обновление контактов в пакетах с помощью управляемого API EWS
 <a name="bk_EWSMAUpdate"> </a>
 
-Контакты в пакетах можно обновить с помощью метода управляемый API EWS [UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) , как показано в следующем примере. В предыдущем примере создается контакт, но не определяет пользователей, которые они работают. В этом примере можно использовать код для обновления всех контактов, за один раз, чтобы включить их имя компании. 
+Вы можете обновлять контакты в пакетах с помощью метода [Упдатеитемс](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) управляемого API EWS, как показано в следующем примере. В предыдущем примере создается контакт, но не указываются его действия. Вы можете использовать код, приведенный в этом примере, для обновления всех контактов сразу, включив их название организации. 
   
-В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 public static Collection<Contact> BatchUpdateContactItems(ExchangeService service, Collection<Contact> contactItems)
@@ -269,10 +269,10 @@ public static Collection<Contact> BatchUpdateContactItems(ExchangeService servic
 
 ```
 
-## <a name="update-contacts-in-batches-by-using-ews"></a>Обновление контактов партиями с помощью веб-служб Exchange
+## <a name="update-contacts-in-batches-by-using-ews"></a>Обновление контактов в пакетах с помощью EWS
 <a name="bk_EWSMAUpdate"> </a>
 
-Контакты в пакетах можно обновить с помощью операции [Getitem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) , как показано в следующем примере кода. Это также запроса XML, управляемый API EWS отправляет при использовании управляемый API EWS для [контактов в пакетах обновления](#bk_EWSMAUpdate). Атрибут **ItemId** был усечен для удобства чтения. 
+Вы можете обновить контакты в пакетах с помощью операции [GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) EWS, как показано в следующем примере кода. Это также запрос XML, который отправляет управляемый API EWS при использовании управляемого API EWS для [обновления контактов в пакетах](#bk_EWSMAUpdate). Атрибут **ItemId** был сокращен для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -329,12 +329,12 @@ xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **UpdateItem** с [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) сообщения, которое содержит значение [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, это означает, что каждый из обновления успешно сохранен на сервере. В элементе [ConflictResult](http://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx) выводятся все конфликты. 
+Сервер отвечает на запрос **UpdateItem** с сообщением [упдатеитемреспонсе](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , указывающее на то **, что**все обновления успешно сохранены на сервере. Все конфликты включаются в элемент [конфликтресулт](http://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx) . 
   
-## <a name="delete-contacts-in-batches-by-using-the-ews-managed-api"></a>Удаление контактов в пакетах с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="delete-contacts-in-batches-by-using-the-ews-managed-api"></a>Удаление контактов в пакетах с помощью управляемого API EWS
 <a name="bk_EWSMADelete"> </a>
 
-Контакты в пакетах можно удалить с помощью метода управляемый API EWS [DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) , как показано в следующем примере. В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. 
+Контакты можно удалять в пакетах, используя метод управляемого API [делетеитемс](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) EWS, как показано в следующем примере. В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 public static void BatchDeleteContactItems(ExchangeService service, Collection<ItemId> itemIds)
@@ -357,10 +357,10 @@ public static void BatchDeleteContactItems(ExchangeService service, Collection<I
 
 ```
 
-## <a name="delete-contacts-in-batches-by-using-ews"></a>Удаление контактов партиями с помощью веб-служб Exchange
+## <a name="delete-contacts-in-batches-by-using-ews"></a>Удаление контактов в пакетах с помощью EWS
 <a name="bk_EWSMADelete"> </a>
 
-Контакты в пакетах можно удалить с помощью операции [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS, как показано в следующем примере кода. Это также XML-запрос, который отправляет управляемый API веб-служб Exchange, когда использовать управляемый API веб-служб Exchange для [удаления контактов в пакетах](#bk_EWSMADelete). Атрибут **ItemId** был усечен для удобства чтения. 
+Контакты можно удалять в пакетах с помощью операции [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS, как показано в следующем примере кода. Это также запрос XML, который отправляет управляемый API EWS при использовании управляемого API EWS для [удаления контактов в пакетах](#bk_EWSMADelete). Атрибут **ItemId** был сокращен для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -384,28 +384,28 @@ xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **DeleteItem** [DeleteItemResponse](http://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError** для каждого элемента, который был удален. Обратите внимание, что операция также возвращает успех, если не удалось найти идентификатор элемента. 
+Сервер отвечает на запрос **DeleteItem** с сообщением [делетеитемреспонсе](http://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **для удаления для каждого** удаленного элемента. Обратите внимание, что при выполнении операции также возвращается значение Success, если не удалось найти идентификатор элемента. 
   
-## <a name="verifying-that-a-batch-process-completed-successfully"></a>Проверка успешного завершения процесса пакетной обработки
+## <a name="verifying-that-a-batch-process-completed-successfully"></a>Проверка успешного завершения пакетной обработки
 <a name="bk_successful"> </a>
 
-Когда один или несколько контактов в пакетной запрос не удается обработать по запросу, возвращается сообщение об ошибке для каждого контакта, который не удалось и rest контакты в пакете обрабатываются как ожидалось. В пакетной обработке могут возникнуть ошибки при элемент был удален и поэтому не удается извлечь или обновить, а также если элемент перемещен в другую папку и таким образом имеет новый идентификатор элемента и не могут быть изменены с Идентификатором элемента отправлено. Сведения, приведенные в этом разделе показано, как получить дополнительные сведения об ошибке о сбоях в пакетной обработке контакты.
+Если один или несколько контактов в пакетном запросе не могут быть обработаны по запросу, возвращается ошибка для каждого контакта, для которого произошел сбой, а остальные контакты пакета обрабатываются должным образом. Ошибки в пакетной обработке могут возникать, если элемент был удален, поэтому его нельзя получить или обновить, или если элемент переместился в другую папку, и поэтому не может быть изменен с помощью отправленного идентификатора элемента. Сведения в этом разделе показывают, как получить сведения об ошибках при пакетной обработке контактов.
   
-Чтобы проверить успешность пакетной обработки с помощью управляемого интерфейса API веб-служб Exchange, можно проверить, что свойство [OverallResult](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx) [ServiceResponseCollection](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx) равен [ServiceResult.Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx). Если это так, все контакты обработаны успешно. Если **OverallResult** не равно **ServiceResult.Success**, один или несколько контактов, не были успешно обработаны. Каждый из объектов, возвращаемых **ServiceResponseCollection** содержит следующие свойства: 
+Чтобы проверить успешность пакетной обработки с помощью управляемого API EWS, можно проверить, что свойство [овераллресулт](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx) объекта [сервицереспонсеколлектион](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx) равно [сервицересулт. Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx). Если да, все контакты были успешно обработаны. Если **овераллресулт** не равно **сервицересулт. Success**, один или несколько контактов не были обработаны успешно. Каждый из объектов, возвращенных в **сервицереспонсеколлектион** , содержит следующие свойства: 
   
 - [ErrorCode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
     
-- [ErrorDetails](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
+- [еррордетаилс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
     
 - [ErrorMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errormessage%28v=exchg.80%29.aspx)
     
-- [ErrorProperties](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorproperties%28v=exchg.80%29.aspx)
+- [еррорпропертиес](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorproperties%28v=exchg.80%29.aspx)
     
 - [Результат](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceresponse.result%28v=exchg.80%29.aspx)
     
-Эти свойства содержат сведения о почему контакты не удалось обработать по запросу. Примеры в этой статье распечатать **результатов**, **код ошибки**и **сообщение об ошибке** для каждого из них не удалось контакт. Эти результаты можно использовать для изучения проблемы. 
+Эти свойства содержат сведения о том, почему контакты не могут быть обработаны по запросу. В примерах, приведенных в этой статье, распечатываться **результат**, **ErrorCode**и **ErrorMessage** для каждого неудачного контакта. Вы можете использовать эти результаты для изучения проблемы. 
   
-Для веб-служб Exchange Чтобы убедиться в успешности процесса пакетной, проверьте атрибут [ResponseClass](http://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx) для каждого элемента, обрабатываемых. Ниже приведен базовая структура **ResponseMessageType**, базового типа, из которых все ответа полученных сообщений. 
+Для проверки успешности пакетного процесса в EWS проверьте атрибут [респонсекласс](http://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx) для каждого обрабатываемого элемента. Ниже приведена базовая структура **респонсемессажетипе**, базовый тип которого является производным от всех ответных сообщений. 
   
 ```XML
 <ResponseMessage ResponseClass="Success | Warning | Error">
@@ -416,15 +416,15 @@ xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
 </ResponseMessage>
 ```
 
-Если контакт не был успешно обработан атрибут **ResponseClass** , значение **успеха** , если контакт был успешно обработан или **Ошибка** . Для контактов не возникает **Предупреждение** во время пакетной обработки. Если **ResponseClass** **Успех**, элемент [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , исходя из также всегда имеет значение **NoError**. Если **ResponseClass** **ошибки**, необходимо проверить значения [MessageText](http://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx), **ResponseCode**и [MessageXml](http://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx) элементы, чтобы определить причину ошибки. [DescriptiveLinkKey](http://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) не в настоящее время используется. 
+Атрибут **респонсекласс** имеет значение **Success** , если контакт был обработан успешно, или **Ошибка** , если контакт не был обработан успешно. Для контактов не будет выдаваться **предупреждение** во время пакетной обработки. Если **Респонсекласс** **успешно**, элемент [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , который следует за ним, также всегда имеет значение " **Ошибка**". Если **респонсекласс** является **ошибкой**, необходимо проверить значения элементов [мессажетекст](http://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx), **респонсекоде**и [мессажексмл](http://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx) , чтобы определить, что привело к проблеме. [Дескриптивелинккэй](http://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) в настоящее время не используется. 
   
 ## <a name="see-also"></a>См. также
 
 
 - [Пользователи и контакты в EWS для Exchange](people-and-contacts-in-ews-in-exchange.md)
     
-- [Обрабатывать сообщения электронной почты в пакетах с помощью веб-служб Exchange в Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
+- [Обработка сообщений электронной почты в пакетах с помощью EWS в Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
     
-- [В Exchange обработки элементов календаря в пакетах](how-to-process-calendar-items-in-batches-in-exchange.md)
+- [Обработка элементов календаря в пакетах Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
     
 

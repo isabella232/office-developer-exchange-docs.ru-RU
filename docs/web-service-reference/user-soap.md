@@ -28,10 +28,10 @@ ms.locfileid: "19840411"
 </User>
 ```
 
- **user**
+ **User**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,15 +41,15 @@ ms.locfileid: "19840411"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[LegacyDN (SOAP)](legacydn-soap.md) <br/> |Представляет устаревшее различающееся имя альтернативного почтового ящика.  <br/> |
-|[Почтовый ящик (SOAP)](mailbox-soap.md) <br/> |Содержит адрес электронной почты пользователя, чтобы обнаружить.  <br/> |
-|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Содержит имена параметров запрошенные конфигурации.  <br/> |
+|[LegacyDN (SOAP)](legacydn-soap.md) <br/> |Представляет альтернативное различающееся имя устаревшего почтового ящика.  <br/> |
+|[Почтовый ящик (SOAP)](mailbox-soap.md) <br/> |Содержит адрес электронной почты пользователя, которого требуется обнаружить.  <br/> |
+|[Рекуестедсеттингс (SOAP)](requestedsettings-soap.md) <br/> |Содержит имена запрошенных параметров конфигурации.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователи (SOAP)](users-soap.md) <br/> |Представляет коллекцию элементов **пользователя** .  <br/> |
+|[Пользователи (SOAP)](users-soap.md) <br/> |Представляет коллекцию элементов **User** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -60,8 +60,8 @@ ms.locfileid: "19840411"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,7 +70,7 @@ ms.locfileid: "19840411"
 
 [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
   
-[Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+[Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
 

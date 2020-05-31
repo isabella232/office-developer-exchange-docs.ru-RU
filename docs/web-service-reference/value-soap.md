@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a79a7e54-e7b1-4735-8eb4-03b1d0738e2c
-description: Элемент Value представляет значение параметра пользователя.
+description: Элемент value представляет значение параметра пользователя.
 ms.openlocfilehash: 92b720c252bf97217b48cdd9f1fe7c91433be9a3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "19840468"
 ---
 # <a name="value-soap"></a>Значение (SOAP)
 
-Элемент **Value** представляет значение параметра пользователя. 
+Элемент **value** представляет значение параметра пользователя. 
   
-- [Параметры пользователя (SOAP)](usersettings-soap.md)
+- [Усерсеттингс (SOAP)](usersettings-soap.md)
   
-- [UserSetting (SOAP)](usersetting-soap.md)
+- [Усерсеттинг (SOAP)](usersetting-soap.md)
   
 - [Значение (SOAP)](value-soap.md)
   
@@ -30,11 +30,11 @@ ms.locfileid: "19840468"
 <Value/>
 ```
 
-**string**
+**строка**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,8 +48,8 @@ ms.locfileid: "19840468"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UserSetting (SOAP)](usersetting-soap.md) <br/> |Представляет базовый элемент для всех параметров пользователя.  <br/> |
-|[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |Представляет базовый элемент для всех параметров домена.  <br/> |
+|[Усерсеттинг (SOAP)](usersetting-soap.md) <br/> |Представляет базовый элемент для всех параметров пользователя.  <br/> |
+|[Домаинсеттинг (SOAP)](domainsetting-soap.md) <br/> |Представляет базовый элемент для всех параметров домена.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -60,8 +60,8 @@ ms.locfileid: "19840468"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 

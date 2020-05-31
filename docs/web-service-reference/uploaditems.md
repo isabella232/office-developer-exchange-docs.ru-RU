@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: fd2b9545-7213-4427-95ae-71a155b75971
-description: Элемент UploadItems представляет запрос для загрузки элементов в почтовом ящике.
+description: Элемент UploadItems представляет запрос на отправку элементов в почтовый ящик.
 ms.openlocfilehash: d3cd69cdb744431daeede736c2e156c8ab92a79b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19840388"
 ---
 # <a name="uploaditems"></a>UploadItems
 
-Элемент **UploadItems** представляет запрос для загрузки элементов в почтовом ящике. 
+Элемент **UploadItems** представляет запрос на отправку элементов в почтовый ящик. 
   
 [UploadItems](uploaditems.md)
   
@@ -31,10 +31,10 @@ ms.locfileid: "19840388"
 </UploadItems>
 ```
 
- **UploadItemsType**
+ **уплоадитемстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,7 +44,7 @@ ms.locfileid: "19840388"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элементы (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md) <br/> |Содержит массив элементов для передачи в почтовый ящик.  <br/> |
+|[Элементы (Нонемптяррайофуплоадитемстипе)](items-nonemptyarrayofuploaditemstype.md) <br/> |Содержит массив элементов для отправки в почтовый ящик.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19840388"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -64,7 +64,7 @@ ms.locfileid: "19840388"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

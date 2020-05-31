@@ -1,5 +1,5 @@
 ---
-title: WorkingPeriod
+title: воркингпериод
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3b4e48af-9880-42b9-a0dc-dae7ac43c264
-description: Элемент WorkingPeriod содержит рабочей недели дни и часы пользователя почтового ящика.
+description: Элемент Воркингпериод содержит рабочие недели, дни и часы пользователя почтового ящика.
 ms.openlocfilehash: 0f2707bede5e49174ed62a35ba704e39c0c48e9f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,23 +19,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840532"
 ---
-# <a name="workingperiod"></a>WorkingPeriod
+# <a name="workingperiod"></a>воркингпериод
 
-Элемент **WorkingPeriod** содержит рабочей недели дни и часы пользователя почтового ящика. 
+Элемент **воркингпериод** содержит рабочие недели, дни и часы пользователя почтового ящика. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
+[фрибусиреспонсеаррай](freebusyresponsearray.md)
   
-[FreeBusyResponse](freebusyresponse.md)
+[фрибусиреспонсе](freebusyresponse.md)
   
-[FreeBusyView](freebusyview.md)
+[фрибусивиев](freebusyview.md)
   
-[WorkingHours](workinghours-ex15websvcsotherref.md)
+[воркингхаурс](workinghours-ex15websvcsotherref.md)
   
-[WorkingPeriodArray](workingperiodarray.md)
+[воркингпериодаррай](workingperiodarray.md)
   
-[WorkingPeriod](workingperiod.md)
+[воркингпериод](workingperiod.md)
   
 ```xml
 <WorkingPeriod>
@@ -45,10 +45,10 @@ ms.locfileid: "19840532"
 </WorkingPeriod>
 ```
 
- **WorkingPeriod**
+ **воркингпериод**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -58,19 +58,19 @@ ms.locfileid: "19840532"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DayOfWeek (WorkingPeriod)](dayofweek-workingperiod.md) <br/> |Содержит список рабочих дней, запланированный для пользователя почтового ящика.  <br/> |
-|[StartTimeInMinutes](starttimeinminutes.md) <br/> |Представляет начала рабочего дня для пользователя почтового ящика.  <br/> |
-|[EndTimeInMinutes](endtimeinminutes.md) <br/> |Представляет окончания рабочего дня для пользователя почтового ящика.  <br/> |
+|[DayOfWeek (Воркингпериод)](dayofweek-workingperiod.md) <br/> |Содержит список рабочих дней, запланированных для пользователя почтового ящика.  <br/> |
+|[старттимеинминутес](starttimeinminutes.md) <br/> |Представляет начало рабочего дня для пользователя почтового ящика.  <br/> |
+|[ендтимеинминутес](endtimeinminutes.md) <br/> |Представляет конец рабочего дня пользователя почтового ящика.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[WorkingPeriodArray](workingperiodarray.md) <br/> |Содержит работа периода сведения для пользователя почтового ящика.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray` <br/> |
+|[воркингпериодаррай](workingperiodarray.md) <br/> |Содержит сведения о рабочем периоде для пользователя почтового ящика.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Все дочерние элементы, перечислены в последовательности, в котором они изложены. Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
+Все дочерние элементы перечислены в той последовательности, в которой они выполняются. Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -78,7 +78,7 @@ ms.locfileid: "19840532"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -87,7 +87,7 @@ ms.locfileid: "19840532"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

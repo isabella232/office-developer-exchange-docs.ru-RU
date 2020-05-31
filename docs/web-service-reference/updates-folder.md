@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: b047e3a4-a5ab-4098-b7a0-273bc809e702
-description: Элемент Updates содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств папки.
+description: Элемент Updates содержит набор элементов, определяющих Добавление, установку и удаление изменений свойств папки.
 ms.openlocfilehash: 31f25b1e88fb8756f189a6d75259dd4fc198582f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,11 +21,11 @@ ms.locfileid: "19840379"
 ---
 # <a name="updates-folder"></a>Обновления (папка)
 
-Элемент **Updates** содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств папки. 
+Элемент **Updates** содержит набор элементов, определяющих Добавление, установку и удаление изменений свойств папки. 
   
 - [UpdateFolder](updatefolder.md)
   
-- [FolderChanges](folderchanges.md)
+- [фолдерчанжес](folderchanges.md)
   
 - [FolderChange](folderchange.md)
   
@@ -39,11 +39,11 @@ ms.locfileid: "19840379"
 </Updates>
 ```
 
-**NonEmptyArrayOfFolderChangeDescriptionsType**
+**нонемптяррайоффолдерчанжедескриптионстипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -53,17 +53,17 @@ ms.locfileid: "19840379"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AppendToFolderField](appendtofolderfield.md) <br/> |Представляет данные для добавления к папке свойство во время [операции UpdateFolder](updatefolder-operation.md).  <br/> |
-|[SetFolderField](setfolderfield.md) <br/> |Представляет обновление для одного свойства папки в рамках одной [операции UpdateFolder](updatefolder-operation.md).  <br/> |
-|[DeleteFolderField](deletefolderfield.md) <br/> |Представляет операцию удаление указанного свойства из папки при выполнении [операции UpdateFolder](updatefolder-operation.md).  <br/> |
+|[аппендтофолдерфиелд](appendtofolderfield.md) <br/> |Представляет данные, добавляемые к свойству folder во время [операции операцию UpdateFolder](updatefolder-operation.md).  <br/> |
+|[сетфолдерфиелд](setfolderfield.md) <br/> |Представляет обновление одного свойства папки в [операции операцию UpdateFolder](updatefolder-operation.md).  <br/> |
+|[делетефолдерфиелд](deletefolderfield.md) <br/> |Представляет операцию удаления определенного свойства из папки во время [операции операцию UpdateFolder](updatefolder-operation.md).  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderChange](folderchange.md) <br/> |Представляет коллекцию изменений выполняется на одной папке.  <br/> Ниже приведен выражение XPath для этого элемента.`/UpdateFolder/FolderChanges/FolderChange[i]` <br/> |
+|[FolderChange](folderchange.md) <br/> |Представляет коллекцию изменений, выполняемых над одной папкой.  <br/> Ниже приведено выражение XPath для этого элемента:`/UpdateFolder/FolderChanges/FolderChange[i]` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -73,11 +73,11 @@ ms.locfileid: "19840379"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Операцию UpdateFolder](updatefolder-operation.md)
+- [Операция UpdateFolder](updatefolder-operation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

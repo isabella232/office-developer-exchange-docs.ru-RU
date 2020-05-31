@@ -1,5 +1,5 @@
 ---
-title: Update (ItemSync)
+title: Обновление (Итемсинк)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4e204446-1c80-44f9-b93b-77ce630a01a5
-description: Элемент обновления определяет один элемент для обновления в локальном хранилище клиента.
+description: Элемент Update определяет один элемент для обновления в локальном хранилище клиента.
 ms.openlocfilehash: bf560f18184151a3f17d7016d05cdb725db934ae
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21353632"
 ---
-# <a name="update-itemsync"></a>Update (ItemSync)
+# <a name="update-itemsync"></a>Обновление (Итемсинк)
 
-**Обновить** элемент определяет один элемент для обновления в локальном хранилище клиента. 
+Элемент **Update** определяет один элемент для обновления в локальном хранилище клиента. 
   
-- [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
-- [ResponseMessages](responsemessages.md)  
-- [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)  
-- [Changes (Items)](changes-items.md)  
-- [Update (ItemSync)](update-itemsync.md)
+- [синкфолдеритемсреспонсе](syncfolderitemsresponse.md) 
+- [респонсемессажес](responsemessages.md)  
+- [синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md)  
+- [Изменения (элементы)](changes-items.md)  
+- [Обновление (Итемсинк)](update-itemsync.md)
   
 ```xml
 <Update>
@@ -89,11 +89,11 @@ ms.locfileid: "21353632"
 </Update>
 ```
 
-**SyncFolderItemsCreateOrUpdateType**
+**синкфолдеритемскреатеорупдатетипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -103,24 +103,24 @@ ms.locfileid: "21353632"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемент](item.md) <br/> |Представляет универсальный элемент Exchange для обновления.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange для обновления.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange для обновления.  <br/> |
-|[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange для обновления.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки, чтобы обновить.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет сообщение собрания для обновления.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашения на собрание для обновления.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение для обновления.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмены собрания для обновления.  <br/> |
-|[Задача](task.md) <br/> |Представляет задачу для обновления.  <br/> |
+|[Элемент](item.md) <br/> |Представляет универсальный элемент Exchange, который необходимо обновить.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange, которое требуется обновить.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange, который необходимо обновить.  <br/> |
+|[контакт](contact.md); <br/> |Представляет элемент контакта Exchange, который необходимо обновить.  <br/> |
+|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки, который необходимо обновить.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании, которое необходимо обновить.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание, которое требуется обновить.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание, который необходимо обновить.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания, которое необходимо обновить.  <br/> |
+|[Task](task.md) <br/> |Представляет задачу, которую необходимо обновить.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Changes (Items)](changes-items.md) <br/> |Содержит массив последовательности типов изменений, которые представляют тип различия между элементами на стороне клиента и элементов на сервере Exchange.  <br/> |
+|[Изменения (элементы)](changes-items.md) <br/> |Содержит массив последовательности типов изменений, представляющих тип различий между элементами на клиенте и элементами на сервере Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -130,7 +130,7 @@ ms.locfileid: "21353632"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

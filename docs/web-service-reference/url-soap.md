@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 12e8c9a4-61e5-41a5-a9ea-423ce6f464af
-description: Элемент URL-адрес содержит URL-адрес веб-клиента.
+description: Элемент URL содержит URL-адрес веб-клиента.
 ms.openlocfilehash: cb29a4b7e6d9c18b212fb543410ddda160099d6f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,16 +18,16 @@ ms.locfileid: "19840401"
 ---
 # <a name="url-soap"></a>URL-адрес (SOAP)
 
-Элемент **URL-адрес** содержит URL-адрес веб-клиента. 
+Элемент **URL** содержит URL-адрес веб-клиента. 
   
 ```XML
 <Url/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,7 +41,7 @@ ms.locfileid: "19840401"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |Представляет URL-адрес веб-Exchange клиента.  <br/> |
+|[Вебклиентурл (SOAP)](webclienturl-soap.md) <br/> |Представляет URL-адрес веб-клиента Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -52,8 +52,8 @@ ms.locfileid: "19840401"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -62,7 +62,7 @@ ms.locfileid: "19840401"
 
 [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
   
-[Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+[Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
 

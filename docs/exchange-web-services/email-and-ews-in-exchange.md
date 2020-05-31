@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d7bdb37-f7f1-409f-9749-f8bcde7dc52a
-description: Узнайте, как для работы с сообщениями электронной почты, включая сообщения электронной почты и выполнять другие задачи, связанные с электронной почты с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как работать с сообщениями электронной почты, в том числе создавать электронную почту и выполнять другие задачи, связанные с электронной почтой, с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 2cd4613635bd2a5ecc061b50b0aecbdde1d32d46
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -15,31 +15,31 @@ ms.locfileid: "21353674"
 ---
 # <a name="email-and-ews-in-exchange"></a>Электронная почта и веб-службах Exchange
 
-Узнайте, как для работы с сообщениями электронной почты, включая сообщения электронной почты и выполнять другие задачи, связанные с электронной почты с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как работать с сообщениями электронной почты, в том числе создавать электронную почту и выполнять другие задачи, связанные с электронной почтой, с помощью управляемого API EWS или EWS в Exchange.
   
 
   
-По сути Exchange — по электронной почте. Но что делает сообщения электронной почты сообщения электронной почты? Сообщений электронной почты являются одним из [строго типизированных элементов](folders-and-items-in-ews-in-exchange.md#bk_item) в Exchange, что означает, что они содержат определенный [набор свойств](email-properties-and-elements-in-ews-in-exchange.md), даже до отдельными. Сообщения электронной почты, представленные классом [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) в управляемый API веб-служб Exchange и элементом [сообщение](http://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) и его дочерние элементы в веб-служб Exchange. 
+В основном Exchange — это электронная почта. Но что создает электронную почту? Кроме того, сообщения электронной почты — это один из [строго типизированных элементов](folders-and-items-in-ews-in-exchange.md#bk_item) в Exchange, что означает, что они содержат определенный [набор свойств](email-properties-and-elements-in-ews-in-exchange.md), даже перед отправкой. Сообщения электронной почты представлены классом [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS и элементом [Message](http://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) и его дочерними элементами в EWS. 
   
-Управляемый API веб-служб Exchange, в объекте **EmailMessage** является производным от объекта [элемента](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx) . Класс **EmailMessage** расширяет класс **элемента** , предоставляя дополнительные свойства, такие как [EmailMessage.Sender](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sender%28v=exchg.80%29.aspx) и [EmailMessage.IsRead](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.isread%28v=exchg.80%29.aspx), которые теперь являются общими для почти все сценарии обмена сообщениями. При получении, обновить или удалить сообщение электронной почты в большинстве случаев, которые можно выполнить с помощью объекта **EmailMessage** или базового объекта **элемента** , в зависимости от того свойства, с которыми работает в [EmailMessageSchema](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessageschema%28v=exchg.80%29.aspx) или [ ItemSchema](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemschema%28v=exchg.80%29.aspx) класса. Создание элемента различных так как **класс** не имеет конструктора, поэтому при создании сообщения электронной почты используется [Конструктор EmailMessage](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.emailmessage%28v=exchg.80%29.aspx) для создания его и [EmailMessage.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) или [EmailMessage.SendAndSaveCopy ](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx)методы сохраните его, или отправить его и сохраните его. 
+В управляемом API EWS объект **EmailMessage** является производным от объекта [Item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx) . Класс **EmailMessage** расширяет класс **Item** , предоставляя дополнительные свойства, такие как [EmailMessage. sender](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sender%28v=exchg.80%29.aspx) и [EmailMessage. Read](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.isread%28v=exchg.80%29.aspx), которые теперь часто используются практически всеми сценариями обмена сообщениями. При получении, обновлении или удалении сообщения электронной почты в большинстве случаев это можно сделать с помощью объекта **EmailMessage** или объекта базового **элемента** в зависимости от того, находятся ли свойства, с которыми ведется работа, в классе [емаилмессажесчема](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessageschema%28v=exchg.80%29.aspx) или [итемсчема](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemschema%28v=exchg.80%29.aspx) . Создание элемента отличается из-за того, что класс **элемента** не имеет конструктора, поэтому при создании электронного сообщения используется [конструктор EmailMessage](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.emailmessage%28v=exchg.80%29.aspx) для его создания и [EmailMessage. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) или [EmailMessage. SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) , а также для его сохранения или отправки. 
   
-Аналогично в веб-служб Exchange, используйте операцию [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) с элементом [сообщений](http://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) для создания сообщения электронной почты. Чтобы получить, обновить или удалить по электронной почте с помощью веб-служб Exchange, факт, что элемент изменяемого сообщения электронной почты не имеет значения, помимо того, что дополнительные свойства доступны в сообщениях электронной почты. Такие же операции, которые используются для других строго типизированных элементов также используется для сообщений электронной почты. 
+Аналогично, в EWS используйте операцию [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) с элементом [Message](http://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) для создания сообщения электронной почты. Чтобы получать, обновлять или удалять сообщения электронной почты с помощью EWS, факт того, что изменяемый элемент является сообщением электронной почты, не имеет значения, Кроме того факта, что дополнительные свойства доступны в сообщениях электронной почты. Для сообщений электронной почты также используются те же операции, что и для других строго типизированных элементов. 
   
-|**Задача**|**Метод управляемого API EWS**|**Операция служб EWS**|
+|**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Создание  <br/> |[EmailMessage.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|получение;  <br/> |[EmailMessage.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
+|Create  <br/> |[EmailMessage. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
+|Получение  <br/> |[EmailMessage. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |Update  <br/> |[Item.Update](http://msdn.microsoft.com/en-us/library/dd635915%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Delete  <br/> |[Item.Delete](http://msdn.microsoft.com/en-us/library/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
+|Удаление  <br/> |[Item.Delete](http://msdn.microsoft.com/en-us/library/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
-Поскольку сообщения электронной почты, просто [строго типизированных элементов](folders-and-items-in-ews-in-exchange.md#bk_item), в некоторых случаях работать с ними так же, как этот [универсальный элементов](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md). 
+Так как сообщения электронной почты — это просто [строго типизированные элементы](folders-and-items-in-ews-in-exchange.md#bk_item), в некоторых случаях вы работаете с ними так же, как и [с общими элементами](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md). 
   
-## <a name="create-an-email-message-by-using-the-ews-managed-api"></a>Создание сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="create-an-email-message-by-using-the-ews-managed-api"></a>Создание электронного сообщения с помощью управляемого API EWS
 <a name="bk_createewsma"> </a>
 
-Можно создать сообщение электронной почты с помощью метода управляемый API EWS [Сохранить](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) , как показано в примере кода в следующем примере. Обратите внимание на то, что только сохраняются сообщения в папке "Черновики", не отправляет сообщение. Сведения о том, как отправить сообщение или создания и отправки сообщения в один шаг можно [отправлять сообщения электронной почты с помощью веб-служб Exchange в Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md).
+Вы можете создать сообщение электронной почты с помощью метода [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) управляемого API EWS, как показано в коде, приведенном в следующем примере. Обратите внимание, что в этом примере только сообщение сохраняется в папке "Черновики", поэтому сообщение не отправляется. Сведения о том, как отправить сообщение или создать и отправить сообщение, см [в статье отправка сообщений электронной почты с помощью EWS в Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md).
   
-В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 // Create a new email message.
@@ -54,10 +54,10 @@ message.Save(WellKnownFolderName.Drafts);
 Console.WriteLine("A draft email message with the subject '" + message.Subject + "' has been saved to the Drafts folder.");
 ```
 
-## <a name="create-an-email-message-by-using-ews"></a>Создание сообщения электронной почты с помощью веб-служб Exchange
+## <a name="create-an-email-message-by-using-ews"></a>Создание электронного сообщения с помощью EWS
 <a name="bk_createews"> </a>
 
-Можно создать сообщение электронной почты с помощью операции EWS [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) , как показано в следующем примере. Это также запроса XML, что управляемый API EWS отправляет при [создавать сообщения электронной почты](#bk_createewsma). Обратите внимание на то, что следующий пример сохраняет только сообщения в папке "Черновики", не отправляет сообщение. Сведения о том, как отправить сообщение или создания и отправки сообщения в один шаг можно [отправлять сообщения электронной почты с помощью веб-служб Exchange в Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md).
+Вы можете создать сообщение электронной почты с помощью операции [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) , как показано в следующем примере. Это также запрос XML, который отправляет управляемый API EWS при [создании сообщения электронной почты](#bk_createewsma). Обратите внимание, что в приведенном ниже примере только сообщение сохраняется в папке "Черновики", поэтому сообщение не отправляется. Сведения о том, как отправить сообщение или создать и отправить сообщение в одном сте, приведены в статье [Отправка сообщений электронной почты с помощью EWS в Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,38 +90,38 @@ Console.WriteLine("A draft email message with the subject '" + message.Subject +
 
 ```
 
-Сервер отвечает на запрос **CreateItem** [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, это означает, что сообщение электронной почты был успешно создан, и [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) из вновь сообщение о создании. 
+В ответ на запрос **CreateItem** сервер отправляет сообщение [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx), включающее параметр [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) со значением **NoError**, которое указывает, что сообщение было успешно создано, и свойство [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) созданного сообщения. 
   
-## <a name="get-update-and-delete-an-email-message-by-using-the-ews-managed-api"></a>Получение, обновление и удаление сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-update-and-delete-an-email-message-by-using-the-ews-managed-api"></a>Получение, обновление и удаление сообщения электронной почты с помощью управляемого API EWS
 <a name="bk_getewsma"> </a>
 
-Можно использовать управляемый API EWS для получения, обновлять или удалять сообщения электронной почты так же, как выполнять эти действия с любой универсальный элемент из хранилища Exchange. Для получения дополнительных сведений см [элементы почтовых ящиков Exchange с помощью веб-служб Exchange в Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md).
+Вы можете использовать управляемый API EWS для получения, обновления или удаления сообщения электронной почты так же, как и при выполнении этих действий с любым универсальным элементом из хранилища Exchange. Для получения дополнительных сведений ознакомьтесь [со статьей работу с элементами почтовых ящиков Exchange с помощью EWS в Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md).
   
-При обновлении сообщения электронной почты, см в список свойств сообщения электронной почты для записи [электронной почты свойства и элементы в веб-служб Exchange в Exchange](email-properties-and-elements-in-ews-in-exchange.md) . Чтобы отправить черновик сообщения после его обновления, обратитесь к разделу [отправлять черновики по электронной почте с помощью управляемого интерфейса API веб-служб Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md#bk_senddraftewsma).
+Если вы обновляете сообщение электронной почты, ознакомьтесь со статьей " [Свойства и элементы электронной почты" в EWS в Exchange](email-properties-and-elements-in-ews-in-exchange.md) , чтобы получить список доступных для записи свойств сообщения электронной почты. Чтобы отправить черновик сообщения после его обновления, ознакомьтесь с [разадресом Отправка черновика электронного сообщения с помощью управляемого API EWS](how-to-send-email-messages-by-using-ews-in-exchange.md#bk_senddraftewsma).
   
-## <a name="get-update-and-delete-an-email-message-by-using-ews"></a>Получение, обновление и удаление сообщения электронной почты с помощью веб-служб Exchange
+## <a name="get-update-and-delete-an-email-message-by-using-ews"></a>Получение, обновление и удаление сообщения электронной почты с помощью EWS
 <a name="bk_getews"> </a>
 
-Можно использовать веб-служб Exchange для получения, обновлять и удалять сообщения электронной почты так же, как выполнять эти действия с любой универсальный элемент из хранилища Exchange. Для получения дополнительных сведений см [элементы почтовых ящиков Exchange с помощью веб-служб Exchange в Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md).
+С помощью EWS вы можете получать, обновлять и удалять сообщения электронной почты так же, как и при выполнении этих действий с любым универсальным элементом из хранилища Exchange. Для получения дополнительных сведений ознакомьтесь [со статьей работу с элементами почтовых ящиков Exchange с помощью EWS в Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md).
   
-При обновлении сообщения электронной почты, см в список свойств сообщения электронной почты для записи [электронной почты свойства и элементы в веб-служб Exchange в Exchange](email-properties-and-elements-in-ews-in-exchange.md) . Чтобы отправить черновик сообщения после его обновления, обратитесь к разделу [отправлять черновики по электронной почте с помощью веб-служб Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md#bk_senddraftews).
+Если вы обновляете сообщение электронной почты, ознакомьтесь со статьей " [Свойства и элементы электронной почты" в EWS в Exchange](email-properties-and-elements-in-ews-in-exchange.md) , чтобы получить список доступных для записи свойств сообщения электронной почты. Чтобы отправить черновик сообщения после его обновления, ознакомьтесь со статьей [Отправка черновика электронного сообщения с помощью EWS](how-to-send-email-messages-by-using-ews-in-exchange.md#bk_senddraftews).
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе:
 <a name="bk_inthissection"> </a>
 
-- [Отправить по электронной почте свойства и элементы в веб-служб Exchange в Exchange](email-properties-and-elements-in-ews-in-exchange.md)
+- [Свойства и элементы электронной почты в EWS в Exchange](email-properties-and-elements-in-ews-in-exchange.md)
     
-- [Отправлять сообщения электронной почты с помощью веб-служб Exchange в Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
+- [Отправка сообщений электронной почты с помощью EWS в Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
     
-- [Ответ на сообщения электронной почты с помощью веб-служб Exchange в Exchange](how-to-respond-to-email-messages-by-using-ews-in-exchange.md)
+- [Ответ на сообщения электронной почты с помощью EWS в Exchange](how-to-respond-to-email-messages-by-using-ews-in-exchange.md)
     
-- [Перемещение и копирование сообщений электронной почты с помощью веб-служб Exchange в Exchange](how-to-move-and-copy-email-messages-by-using-ews-in-exchange.md)
+- [Перемещение и копирование сообщений электронной почты с помощью EWS в Exchange](how-to-move-and-copy-email-messages-by-using-ews-in-exchange.md)
     
-- [Работа с беседы с помощью веб-служб Exchange в Exchange](how-to-work-with-conversations-by-using-ews-in-exchange.md)
+- [Взаимодействие с беседами с помощью EWS в Exchange](how-to-work-with-conversations-by-using-ews-in-exchange.md)
     
-- [Извлечь сущности из сообщения электронной почты с помощью веб-служб Exchange в Exchange](how-to-extract-an-entity-from-an-email-message-by-using-ews-in-exchange.md)
+- [Извлечение объекта из сообщения электронной почты с помощью EWS в Exchange](how-to-extract-an-entity-from-an-email-message-by-using-ews-in-exchange.md)
     
-- [Обрабатывать сообщения электронной почты в пакетах с помощью веб-служб Exchange в Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
+- [Обработка сообщений электронной почты в пакетах с помощью EWS в Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
     
 ## <a name="see-also"></a>См. также
 

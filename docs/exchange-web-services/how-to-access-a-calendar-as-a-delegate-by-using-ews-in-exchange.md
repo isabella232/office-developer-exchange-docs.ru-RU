@@ -1,11 +1,11 @@
 ---
-title: Доступ к календарю в качестве делегата с помощью веб-служб Exchange в Exchange
+title: Доступ к календарю как представителю с помощью EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d7db4a1e-9ed6-41da-8529-a73ca285cdf2
-description: Узнайте, как получить доступ к роли представителя календаря с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как получить доступ к календарю в качестве делегата с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 609e5f0bb22c78174289a2eb10210999c8391a3d
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -13,43 +13,43 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21353842"
 ---
-#  <a name="access-a-calendar-as-a-delegate-by-using-ews-in-exchange"></a>Доступ к календарю в качестве делегата с помощью веб-служб Exchange в Exchange
+#  <a name="access-a-calendar-as-a-delegate-by-using-ews-in-exchange"></a>Доступ к календарю как представителю с помощью EWS в Exchange
 
-Узнайте, как получить доступ к роли представителя календаря с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как получить доступ к календарю в качестве делегата с помощью управляемого API EWS или EWS в Exchange.
   
-Можно использовать управляемый API EWS или делегирование EWS, чтобы предоставить пользователю доступ к папке календаря владельца почтового ящика. Делегат можно затем Создание приглашений на собрания от имени владельца почтового ящика, Создание встречи, ответ на приглашения на собрания и извлечь, обновление и удаление собрания из папки календаря владельца почтового ящика, в зависимости от их разрешения.
+С помощью управляемого API EWS или EWS вы можете предоставить представителю пользователя доступ к папке календаря владельца почтового ящика. После этого делегат может создавать приглашения на собрания от имени владельца почтового ящика, создавать встречи, отвечать на приглашения на собрания, а также получать, обновлять и удалять собрания из папки календаря владельца почтового ящика в зависимости от их разрешений.
   
-Роли представителя используйте ту же методов и операций на доступ к папке календаря владельца почтового ящика, которая используется для доступа к папке календаря. Основное различие —, что вам следует использовать [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicit) для поиска или создание элемента календаря или вложенной папке календаря и затем после определения идентификатор элемента или идентификатор папки можно использовать [неявный доступ](delegate-access-and-ews-in-exchange.md#bk_implicit) для получения, обновить или удалить элемент. 
+Как представитель вы используете одни и те же методы и операции для доступа к папке календаря владельца почтового ящика, которая используется для доступа к собственной папке календаря. Основное отличие заключается в том, что вам необходимо использовать [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicit) для поиска или создания папки календаря или папки календаря, а затем после определения идентификатора элемента или идентификатора папки можно использовать [неявный доступ](delegate-access-and-ews-in-exchange.md#bk_implicit) для получения, обновления или удаления элемента. 
   
-**В таблице 1. Управляемый API EWS методы и операции веб-служб Exchange для доступа к календарю роли представителя**
+**Таблица 1. Методы управляемого API EWS и операции EWS для доступа к календарю в качестве делегата**
 
-|**Задача**|**Используйте этот метод управляемый API EWS...**|**Используйте эту операцию EWS...**|
+|**Задача**|**Используйте этот метод управляемого API EWS...**|**Используйте эту операцию EWS...**|
 |:-----|:-----|:-----|
-|Создание собрания или встречи в качестве делегата  <br/> |[Appointment.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) , где параметр [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке календаря владельца почтового ящика  <br/> |[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) , где элемент [почтового ящика](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) указывает [EmailAddress](http://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
-|Создание нескольких собрания или встречи в качестве делегата  <br/> |[ExchangeService.CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) , где параметр **FolderId** предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке календаря владельца почтового ящика  <br/> |[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) , где элемент [почтового ящика](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) указывает [EmailAddress](http://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
-|Поиск или поиск встречи или собрания в качестве делегата  <br/> |[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) , где параметр **FolderId** предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке календаря владельца почтового ящика  <br/> |[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) , где элемент [почтового ящика](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) указывает [EmailAddress](http://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
-|Получение встречи или собрания в качестве делегата  <br/> |[Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
-|Обновление встречи или собрания в качестве делегата  <br/> |[Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) , а затем [Appointment.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , а затем [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Удаление встречи или собрания в качестве делегата  <br/> |[Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) , а затем [Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , а затем [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
+|Создание собрания или встречи в качестве представителя  <br/> |[Встреча. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) , где параметр [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке календаря владельца почтового ящика  <br/> |[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) , где элемент [Mailbox](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) определяет значение [EmailAddress](http://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
+|Создание нескольких собраний или встреч в качестве делегата  <br/> |[ExchangeService. CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) , где параметр **FolderId** предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке календаря владельца почтового ящика.  <br/> |[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) , где элемент [Mailbox](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) определяет значение [EmailAddress](http://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
+|Поиск или Поиск встречи или собрания в качестве представителя  <br/> |[ExchangeService. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) , где параметр **FolderId** предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке календаря владельца почтового ящика.  <br/> |[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) , где элемент [Mailbox](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) определяет значение [EmailAddress](http://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
+|Получение встречи или собрания в качестве представителя  <br/> |[Встреча. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
+|Обновление встречи или собрания в качестве представителя  <br/> |[Встреча. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) , за которыми следует [встреча. обновление](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , за которым следует [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|Удаление встречи или собрания в качестве делегата  <br/> |[Встреча. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) , за которыми следует [встреча. Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , за которым следует [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 > [!NOTE]
-> В примерах кода в этой статье primary@contoso.com — это владелец почтового ящика. 
+> В примерах кода, приведенных в этой статье, primary@contoso.com является владельцем почтового ящика. 
   
-## <a name="prerequisite-tasks"></a>Обязательные задачи
+## <a name="prerequisite-tasks"></a>Предварительные задачи
 <a name="bk_prereq"> </a>
 
-Пользователь может получить доступ к папки календаря владельца почтового ящика в качестве делегата, пользователь должен быть [добавлен в качестве делегата с разрешениями](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md) для папки календаря владельца почтового ящика. 
+Прежде чем пользователь сможет получить доступ к папке календаря владельца почтового ящика в качестве представителя, пользователь должен быть [добавлен в качестве представителя с разрешениями](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md) в папку календаря владельца почтового ящика. 
   
-Делегат должен иметь почтового ящика, подключенного к своей учетной записи для обновления календаря владельца почтового ящика.
+Представителю должен быть назначен почтовый ящик, подключенный к своей учетной записи, чтобы обновить календарь владельца почтового ящика.
   
-Если представителю требуется для работы с приглашений на собрания и ответы, можно добавить делегата к папке календаря и используйте значение перечисления управляемый API EWS [MeetingRequestsDeliveryScope.DelegatesAndSendInformationToMe](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.meetingrequestsdeliveryscope%28v=exchg.80%29.aspx) по умолчанию или [ DeliverMeetingRequests](http://msdn.microsoft.com/library/04b999af-0b27-4e6d-a8b1-400955a1afaa%28Office.15%29.aspx) веб-служб Exchange имеет значение **DelegatesAndSendInformationToMe** для отправки запросов к делегат и информационные сообщения владельцу почтового ящика. Делегат затем не требуется предоставить доступ к папке "Входящие" владельца почтового ящика. 
+Если представителю требуется работать только с приглашениями на собрания и ответами, вы можете добавить делегата в папку "Календарь" и использовать значение перечисления [митингрекуестсделиверископе. делегатесандсендинформатионтоме](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.meetingrequestsdeliveryscope%28v=exchg.80%29.aspx) EWS управляемого API или значение **DelegatesAndSendInformationToMe** элемента [деливермитингрекуестс](http://msdn.microsoft.com/library/04b999af-0b27-4e6d-a8b1-400955a1afaa%28Office.15%29.aspx) EWS для отправки запросов представителю и информационным сообщениям владельцу почтового ящика. После этого делегату не требуется предоставлять доступ к папке "Входящие" владельца почтового ящика. 
   
-## <a name="create-a-meeting-or-appointment-as-a-delegate-by-using-the-ews-managed-api"></a>Создание собрания или встречи в качестве делегата с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="create-a-meeting-or-appointment-as-a-delegate-by-using-the-ews-managed-api"></a>Создание собрания или встречи в качестве делегата с помощью управляемого API EWS
 <a name="bk_createewsma"> </a>
 
-Управляемый API EWS позволяет использовать объект службы для пользователя делегат для создания элементов календаря для владельца почтового ящика. В этом примере показано, как использовать метод [сохранения](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) для создания собрания и отправки приглашений на собрание участникам. 
+Управляемый API EWS позволяет использовать объект Service для делегированного пользователя для создания элементов календаря для владельца почтового ящика. В этом примере показано, как использовать метод [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) для создания собрания и отправки приглашений на собрание участникам. 
   
-В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) делегата и делегата предоставлены необходимые разрешения для папки календаря владельца почтового ящика. 
+В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для делегата, а представителю предоставлены соответствующие разрешения для папки календаря владельца почтового ящика. 
   
 ```cs
 private static void DelegateAccessCreateMeeting(ExchangeService service)
@@ -75,14 +75,14 @@ private static void DelegateAccessCreateMeeting(ExchangeService service)
 }
 ```
 
-Обратите внимание, что при сохранении элемента вызова метода [Сохранить](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) необходимо определить папки календаря владельца почтового ящика. Если папки календаря владельца почтового ящика не указан, запрос на собрание получает сохранены делегата календаря и не папки календаря владельца почтового ящика. Может включать папки календаря владельца почтового ящика в вызове метода **Сохранить** двумя способами. Рекомендуется создать новый экземпляр объекта [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) с помощью [WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) и SMTP-адреса владельца почтового ящика. 
+Обратите внимание, что при сохранении элемента вызов метода [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) должен определить папку календаря владельца почтового ящика. Если папка календарь владельца почтового ящика не указана, то запрос на собрание сохраняется в календаре представителя, а не в папке календаря владельца почтового ящика. Вы можете включить папку календаря владельца почтового ящика в вызов метода **Save** двумя способами. Мы рекомендуем создать экземпляр нового экземпляра объекта [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) с помощью [веллкновнфолдернаме](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) и SMTP-адреса владельца почтового ящика. 
   
 ```cs
 meeting.Save(new FolderId(WellKnownFolderName.Calendar,
     "primary@contoso.com"), SendInvitationsMode.SendToAllAndSaveCopy);
 ```
 
-Тем не менее, можно также [привязать](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) к папке календаря во-первых и затем используйте идентификатор папки в вызове метода **сохранения** . Однако следует помнить, что при этом создается дополнительных вызовов веб-служб Exchange. 
+Тем не менее, сначала можно [выполнить привязывание](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) к папке календаря, а затем использовать идентификатор папки в вызове метода **Save** . Однако имейте в виду, что при этом создается дополнительный вызов EWS. 
   
 ```cs
     // Identify the mailbox owner's SMTP address
@@ -96,14 +96,14 @@ meeting.Save(new FolderId(WellKnownFolderName.Calendar,
         SendInvitationsMode.SendToAllAndSaveCopy);
 ```
 
-## <a name="create-a-meeting-or-appointment-as-a-delegate-by-using-ews"></a>Создание собрания или встречи в качестве делегата с помощью веб-служб Exchange
+## <a name="create-a-meeting-or-appointment-as-a-delegate-by-using-ews"></a>Создание собрания или встречи в качестве делегата с помощью EWS
 <a name="bk_createews"> </a>
 
-Веб-служб Exchange позволяет использовать объект службы для пользователя делегат для создания элементов календаря для владельца почтового ящика. В этом примере показано, как использовать операцию [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания собрания и отправки приглашений на собрание участникам. 
+Служба EWS позволяет использовать объект Service для делегированного пользователя, чтобы создавать элементы календаря для владельца почтового ящика. В этом примере показано, как использовать операцию [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания собрания и отправки приглашений на собрание участникам. 
   
-Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **Save** для [создания собрания или встречи в качестве делегата](#bk_createewsma).
+Это также запрос XML, который отправляет управляемый API EWS при использовании метода **Save** для [создания собрания или встречи в качестве делегата](#bk_createewsma).
   
-В следующем примере для краткости был удален заголовка SOAP.
+Заголовок SOAP был удален из следующего примера для краткости.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -145,12 +145,12 @@ meeting.Save(new FolderId(WellKnownFolderName.Calendar,
 
 ```
 
-Сервер отвечает на запрос **CreateItem** [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) сообщение, которое содержит значение элемента [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, это означает, что собрания был успешно создан. Ответ также содержит идентификатор элемента для только что созданный собрания.
+Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает на то, что собрание было создано успешно. Ответ также содержит идентификатор вновь созданного собрания.
   
-## <a name="search-for-a-meeting-or-appointment-as-a-delegate-by-using-the-ews-managed-api"></a>Поиск собрания или встречи в качестве делегата с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="search-for-a-meeting-or-appointment-as-a-delegate-by-using-the-ews-managed-api"></a>Поиск собрания или встречи в качестве делегата с помощью управляемого API EWS
 <a name="bk_searchewsma"> </a>
 
-Для поиска собрания, необходимо использовать один из методов [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) , включает параметр [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) , таким образом, можно указать папку календаря владельца почтового ящика. 
+Чтобы найти собрание, необходимо использовать один из методов [ExchangeService. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) , включающий параметр [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) , чтобы можно было указать папку календаря владельца почтового ящика. 
   
 ```cs
 static void DelegateAccessSearchWithFilter
@@ -190,14 +190,14 @@ static void DelegateAccessSearchWithFilter
 }
 ```
 
-После вызова **FindItems** возвращает ответ с кодом, можно получить, обновлении или удалении этого собрания с помощью идентификатора и [неявный доступ](delegate-access-and-ews-in-exchange.md#bk_implicit) , и необходимо указать SMTP-адреса владельца почтового ящика. 
+После того как вызов **FindItems** возвратит ответ с идентификатором, вы можете получить, изменить или удалить это собрание с помощью идентификатора и [неявного доступа](delegate-access-and-ews-in-exchange.md#bk_implicit) , а также не указывать SMTP-адрес владельца почтового ящика. 
   
-## <a name="search-for-a-meeting-or-appointment-as-a-delegate-by-using-ews"></a>Поиск собрания или встречи в качестве делегата с помощью веб-служб Exchange
+## <a name="search-for-a-meeting-or-appointment-as-a-delegate-by-using-ews"></a>Поиск собрания или встречи в качестве делегата с помощью EWS
 <a name="bk_searchews"> </a>
 
-Веб-служб Exchange позволяет использовать объект службы для делегата поиск встречи и собрания, которые соответствуют заданным условиям поиска. В этом примере показано, как использовать операцию [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) найти собраний в папке календаря владельца почтового ящика, содержащие слово «создание» в теме сообщения. 
+Служба EWS позволяет использовать объект Service для делегированного пользователя для поиска встреч и собраний, соответствующих набору критериев поиска. В этом примере показано, как использовать операцию [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) для поиска собраний в папке календаря владельца почтового ящика, содержащей слово "здание" в теме. 
   
-Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **FindItem** для [поиска для собрания или встречи в качестве делегата](#bk_searchewsma).
+Это также запрос XML, который отправляет управляемый API EWS при использовании метода **FindItem** для [поиска собрания или встречи в качестве делегата](#bk_searchewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -245,9 +245,9 @@ static void DelegateAccessSearchWithFilter
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **FindItem** [FindItemResponse](http://msdn.microsoft.com/library/c8b316df-d4ab-49b8-96d4-8e9a016730ef%28Office.15%29.aspx) сообщение, которое содержит значение элемента [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, который указывает, что поиск успешно завершена. Ответ содержит [элемента календаря, имеющего](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) для встречи или собрания, выполнены условия поиска. В этом случае найти только одного собрания. 
+Сервер отвечает на запрос **FindItem** с сообщением [финдитемреспонсе](http://msdn.microsoft.com/library/c8b316df-d4ab-49b8-96d4-8e9a016730ef%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает, что поиск успешно завершен. Ответ содержит [календаритем](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) для всех встреч или собраний, отвечающих условиям поиска. В этом случае найдено только одно собрание. 
   
-Значение элемента [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) был усечен для удобства чтения. 
+Значение элемента [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) было сокращено для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -288,39 +288,39 @@ static void DelegateAccessSearchWithFilter
 </s:Envelope>
 ```
 
-Теперь, когда у вас есть **ItemId** собрания, который соответствует условиям, можно получить, обновлении или удалении этого собрания с помощью **ItemId** и [неявный доступ](delegate-access-and-ews-in-exchange.md#bk_implicit) , и необходимо указать SMTP-адреса владельца почтового ящика. 
+Теперь, когда у вас есть **идентификатор элемента для** собрания, который соответствует вашим условиям, вы можете получить, изменить или удалить это собрание с помощью элемента **ItemId** и [неявного доступа](delegate-access-and-ews-in-exchange.md#bk_implicit) , а также не указывать SMTP-адрес владельца почтового ящика. 
   
-## <a name="get-update-or-delete-calendar-items-as-a-delegate-by-using-the-ews-managed-api"></a>Получение, обновление и удаление элементов календаря роли представителя с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-update-or-delete-calendar-items-as-a-delegate-by-using-the-ews-managed-api"></a>Получение, обновление и удаление элементов календаря в качестве делегата с помощью управляемого API EWS
 <a name="bk_geteswma"> </a>
 
-Можно использовать управляемый API EWS для получения, обновить или удалить собрание или встречу так же, как выполнять эти действия, если вы не используете делегированный доступ. Единственное отличие — объект службы для делегата. Идентификатор элемента, включенные в вызове метода **Привязка** уникальным образом определяет элемент в хранилище почтовых ящиков в папке календаря владельца почтового ящика. 
+С помощью управляемого API EWS можно получить, обновить или удалить собрание или встречу так же, как и при использовании делегированного доступа. Единственное отличие заключается в том, что объект службы предназначен для делегированного пользователя. Идентификатор элемента, включенный в вызов метода **BIND** , уникальным образом определяет элемент в хранилище почтовых ящиков в папке "Календарь" владельца почтового ящика. 
   
-**В таблице 2. Управляемый API EWS методы для работы с встречи и собрания роли представителя**
+**Таблица 2. Методы управляемого API EWS для работы с встречами и собраниями в качестве делегата**
 
 |**Задача**|**Метод управляемого API EWS**|**Пример кода**|
 |:-----|:-----|:-----|
-|Получение встречи или собрания  <br/> |[Привязка](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[Получение элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getewsma) <br/> |
-|Обновление встречи или собрания  <br/> |[Привязка](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) следуют [обновления](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[Обновление собрания с помощью управляемого интерфейса API веб-служб Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md#bk_UpdateMtgEWSMA) <br/> |
-|Удаление встречи или собрания  <br/> |[Привязка](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) , а затем [Удалить](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[Удаление собрания с помощью управляемого интерфейса API веб-служб Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md#bk_DeleteMtgEWSMA) <br/> |
+|Получение встречи или собрания  <br/> |[Базу](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[Получение элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getewsma) <br/> |
+|Обновление встречи или собрания  <br/> |[Привязка](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) , за которой следует [Обновление](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[Обновление собрания с помощью управляемого API EWS](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md#bk_UpdateMtgEWSMA) <br/> |
+|Удаление встречи или собрания  <br/> |[Привязка](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) , за которой следует [Удаление](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[Удаление собрания с помощью управляемого API EWS](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md#bk_DeleteMtgEWSMA) <br/> |
    
-## <a name="get-update-or-delete-calendar-items-as-a-delegate-by-using-ews"></a>Получение, обновление и удаление элементов календаря роли представителя с помощью веб-служб Exchange
+## <a name="get-update-or-delete-calendar-items-as-a-delegate-by-using-ews"></a>Получение, обновление и удаление элементов календаря в качестве делегата с помощью EWS
 <a name="bk_getews"> </a>
 
-Чтобы получить, обновить или удалить собрания или встречи так же, как выполнять эти действия, если вы не используете делегированный доступ, можно использовать веб-служб Exchange. Единственное отличие — объект службы для делегата. Идентификатор элемента, включенные в вызове метода [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) уникальным образом определяет элемент в хранилище почтовых ящиков в папке календаря владельца почтового ящика. 
+С помощью EWS можно получить, обновить или удалить собрание или встречу так же, как и при использовании делегированного доступа. Единственное отличие заключается в том, что объект службы предназначен для делегированного пользователя. Идентификатор элемента, включенный в вызов метода [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , однозначно определяет элемент в хранилище почтовых ящиков в папке календаря владельца почтового ящика. 
   
-**В таблице 3. Операции EWS для работы с встречи и собрания в качестве делегата**
+**Таблица 3. Операции EWS для работы с встречами и собраниями в качестве делегата**
 
-|**Задача**|**Операция служб EWS**|**Пример кода**|
+|**Task**|**Операция служб EWS**|**Пример кода**|
 |:-----|:-----|:-----|
 |Получение встречи или собрания  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |[Получение элемента с помощью веб-служб Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getews) <br/> |
-|Обновление встречи или собрания  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , а затем [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |[Обновление собрания с помощью веб-служб Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md#bk_UpdateMtgEWS) <br/> |
-|Удаление встречи или собрания  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , а затем [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |[](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md#bk_DeleteMtgEWSMA) <br/> |
+|Обновление встречи или собрания  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , за которым следует [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |[Обновление собрания с помощью EWS](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md#bk_UpdateMtgEWS) <br/> |
+|Удаление встречи или собрания  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , за которым следует [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |[](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md#bk_DeleteMtgEWSMA) <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Передача прав доступа и EWS в Exchange](delegate-access-and-ews-in-exchange.md)   
-- [Добавление и удаление делегаты с помощью веб-служб Exchange в Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
-- [Настройка разрешений папки другого пользователя с помощью веб-служб Exchange в Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md) 
+- [Добавление и удаление делегатов с помощью EWS в Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
+- [Задание разрешений для папки другого пользователя с помощью EWS в Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md) 
 - [Календари и веб-службах Exchange](calendars-and-ews-in-exchange.md)
     
 

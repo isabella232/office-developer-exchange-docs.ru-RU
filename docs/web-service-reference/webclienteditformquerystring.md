@@ -1,5 +1,5 @@
 ---
-title: WebClientEditFormQueryString
+title: вебклиентедитформкуеристринг
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9e571021-d58f-424b-8db2-48cf683533dc
-description: Элемент WebClientEditFormQueryString представляет URL-адрес для объединения в конечную точку Outlook Web App для редактирования элемента в Outlook Web App.
+description: Элемент Вебклиентедитформкуеристринг представляет URL-адрес для сцепления с конечной точкой Outlook Web App для изменения элемента в Outlook Web App.
 ms.openlocfilehash: a7503c3896899e8d2da6aced7b8d259f9b8aaceb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840493"
 ---
-# <a name="webclienteditformquerystring"></a>WebClientEditFormQueryString
+# <a name="webclienteditformquerystring"></a>вебклиентедитформкуеристринг
 
-Элемент **WebClientEditFormQueryString** представляет URL-адрес для объединения в конечную точку Outlook Web App для редактирования элемента в Outlook Web App. 
+Элемент **вебклиентедитформкуеристринг** представляет URL-адрес для сцепления с конечной точкой Outlook Web App для изменения элемента в Outlook Web App. 
   
 ```XML
 <WebClientEditFormQueryString/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,25 +44,25 @@ ms.locfileid: "19840493"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Представляет элемент post в хранилище Exchange.  <br/> |
+|[PostItem](postitem.md) <br/> |Представляет элемент POST в хранилище Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее строку является обязательным, если данный элемент используется.
+При использовании этого элемента необходимо указать текстовое значение, представляющее строку.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для версий Exchange, начиная с Exchange Server 2013, включая Exchange Online используйте сведения из элемента [WebClientReadFormQueryString](webclientreadformquerystring.md) откройте элемент черновик в Outlook Web App, а затем использовать пользовательский Интерфейс для редактирования элемента черновика. Элемент **WebClientEditFormQueryString** не применимо к версии Exchange, начиная с Exchange Server 2013, включая Exchange Online. 
+Для версий Exchange, начиная с Exchange Server 2013, включая Exchange Online, используйте сведения из элемента [вебклиентреадформкуеристринг](webclientreadformquerystring.md) для открытия элемента черновика в Outlook Web App и последующего редактирования элемента черновика с помощью пользовательского интерфейса. Элемент **вебклиентедитформкуеристринг** не применим к версиям Exchange, начиная с exchange Server 2013, включая Exchange Online. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -72,7 +72,7 @@ ms.locfileid: "19840493"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

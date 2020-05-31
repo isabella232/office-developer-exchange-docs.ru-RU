@@ -1,5 +1,5 @@
 ---
-title: UserParameters
+title: усерпараметерс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bad7311f-7ecd-4f0c-b8e7-dd8f7d378f55
-description: Элемент UserParameters содержит список расширений клиента включено.
+description: Элемент Усерпараметерс содержит список включенных и отключенных расширений клиентов.
 ms.openlocfilehash: e0a72fe13255380ee56b32c863fb3bffb2e1ac5e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840434"
 ---
-# <a name="userparameters"></a>UserParameters
+# <a name="userparameters"></a>усерпараметерс
 
-Элемент **UserParameters** содержит список расширений клиента включено. 
+Элемент **усерпараметерс** содержит список включенных и отключенных расширений клиентов. 
   
 ```XML
 <UserParameters UserId="" EnabledOnly="">
@@ -26,27 +26,27 @@ ms.locfileid: "19840434"
 </UserParameters>
 ```
 
- **GetClientExtensionUserParametersType**
+ **жетклиентекстенсионусерпараметерстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|ИД пользователя  <br/> |Текстовое значение атрибута **идентификатор пользователя** — это идентификатор пользователя.  <br/> |
-|EnabledOnly  <br/> |Текстовое значение **EnabledOnly** показывает, содержит ли ответ только включенных расширений.  <br/> |
+|UserId  <br/> |Текстовое значение атрибута **UserID** — идентификатор пользователя.  <br/> |
+|енабледонли  <br/> |Текстовое значение **енабледонли** указывает, содержит ли отклик только включенные расширения.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-[UserEnabledExtensions](userenabledextensions.md) | [UserDisabledExtensions](userdisabledextensions.md)
+[Усеренабледекстенсионс](userenabledextensions.md) | [усердисабледекстенсионс](userdisabledextensions.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[GetClientExtension](getclientextension.md)
+[жетклиентекстенсион](getclientextension.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19840434"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

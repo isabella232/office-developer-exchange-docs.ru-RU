@@ -1,5 +1,5 @@
 ---
-title: Notification
+title: Уведомление
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c9070936-0930-438e-839c-91127256a6c8
-description: Элемент уведомление содержит сведения о подписке и события, произошедшие с момента последнего уведомления.
+description: Элемент Notification содержит сведения о подписке и событиях, произошедших с момента последнего уведомления.
 ms.openlocfilehash: 942ec18521fc484a7a3aa1385fb54f480ce9d11f
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21354353"
 ---
-# <a name="notification"></a>Notification
+# <a name="notification"></a>Уведомление
 
-Элемент **уведомление** содержит сведения о подписке и события, произошедшие с момента последнего уведомления. 
+Элемент **Notification** содержит сведения о подписке и событиях, произошедших с момента последнего уведомления. 
   
 ```xml
 <Notification>
@@ -99,7 +99,7 @@ ms.locfileid: "21354353"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -109,30 +109,30 @@ ms.locfileid: "21354353"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Представляет идентификатор для подписки.  <br/> |
-|[PreviousWatermark](previouswatermark.md) <br/> |Представляет водяной знак последнего события, которое было успешно передан клиенту для подписки.  <br/> |
-|[MoreEvents](moreevents.md) <br/> |Указывает, есть ли дополнительные события в очереди доставки для клиента.  <br/> |
-|[CopiedEvent](copiedevent.md) <br/> |Представляет событие, в котором копирование элемента или папки.  <br/> |
-|[CreatedEvent](createdevent.md) <br/> |Представляет событие, в котором создается элемента или папки.  <br/> |
-|[DeletedEvent](deletedevent.md) <br/> |Представляет событие, в котором удаляется элемент или папку.  <br/> |
-|[ModifiedEvent](modifiedevent.md) <br/> |Представляет событие, в котором изменения элемента или папки.  <br/> |
-|[MovedEvent](movedevent.md) <br/> |Представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую.  <br/> |
-|[NewMailEvent](newmailevent.md) <br/> |Представляет событие, которое инициируется нового элемента почты в почтовом ящике.  <br/> |
-|[StatusEvent](statusevent.md) <br/> |Представляет уведомление о том, что не новые действия в почтовом ящике.  <br/> |
-|[FreeBusyChangedEvent](freebusychangedevent.md) <br/> |Представляет событие, в котором был изменен занятости элемента.  <br/> |
+|[SubscriptionId (Events)](subscriptionid-getevents.md) <br/> |Представляет идентификатор подписки.  <br/> |
+|[превиаусватермарк](previouswatermark.md) <br/> |Представляет водяной знак последнего события, который был успешно передан клиенту для подписки.  <br/> |
+|[моривентс](moreevents.md) <br/> |Указывает, есть ли в очереди больше событий для доставки клиенту.  <br/> |
+|[копиедевент](copiedevent.md) <br/> |Представляет событие, в котором копируется элемент или папка.  <br/> |
+|[креатедевент](createdevent.md) <br/> |Представляет событие, в котором создается элемент или папка.  <br/> |
+|[делетедевент](deletedevent.md) <br/> |Представляет событие, в котором удаляется элемент или папка.  <br/> |
+|[модифиедевент](modifiedevent.md) <br/> |Представляет событие, в котором изменяется элемент или папка.  <br/> |
+|[моведевент](movedevent.md) <br/> |Представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую.  <br/> |
+|[невмаилевент](newmailevent.md) <br/> |Представляет событие, которое вызывается новым почтовым элементом в почтовом ящике.  <br/> |
+|[статусевент](statusevent.md) <br/> |Представляет уведомление о том, что в почтовом ящике не было новых действий.  <br/> |
+|[фрибусичанжедевент](freebusychangedevent.md) <br/> |Представляет событие, в котором изменилось свободное и занятое время элемента.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetEvents.  <br/> |
-|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Содержит состояние и результат одного запроса SendNotification.  <br/> |
+|[жетевентсреспонсемессаже](geteventsresponsemessage.md) <br/> |Содержит состояние и результат запроса на единичные события.  <br/> |
+|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Содержит состояние и результат одного запроса Сенднотификатион.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -142,7 +142,7 @@ ms.locfileid: "21354353"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -150,5 +150,5 @@ ms.locfileid: "21354353"
 - [Операции подписки](subscribe-operation.md) 
 - [Операция GetEvents](getevents-operation.md) 
 - [Операция GetStreamingEvents](getstreamingevents-operation.md) 
-- [Отписаться операции](unsubscribe-operation.md)
+- [Операция по отмене подписки](unsubscribe-operation.md)
 

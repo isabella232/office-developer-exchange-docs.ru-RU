@@ -1,5 +1,5 @@
 ---
-title: GetAppManifestsResponse
+title: жетаппманифестсреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 86cf88f4-09c4-436a-a100-ac5cba0c4388
-description: Элемент GetAppManifestsResponse определяет ответа на запрос GetAppManifests операции.
+description: Элемент Жетаппманифестсреспонсе определяет ответ на запрос операции GetAppManifests.
 ms.openlocfilehash: ae9d1d853023a5b42db2e8fee2ed57f585433f69
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21354150"
 ---
-# <a name="getappmanifestsresponse"></a>GetAppManifestsResponse
+# <a name="getappmanifestsresponse"></a>жетаппманифестсреспонсе
 
-Элемент **GetAppManifestsResponse** определяет ответа на запрос **GetAppManifests** операции. 
+Элемент **жетаппманифестсреспонсе** определяет ответ на запрос операции **GetAppManifests** . 
   
 ```xml
 <GetAppManifestsResponse>
@@ -33,11 +33,11 @@ ms.locfileid: "21354150"
 </GetAppManifestsResponse>
 ```
 
-**GetAppManifestsResponseType**
+**жетаппманифестсреспонсетипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,13 +45,13 @@ ms.locfileid: "21354150"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ResponseCode](responsecode.md) | [манифестов](manifests.md) | [приложений](apps.md)
+[ResponseCode](responsecode.md) | [Приложения](apps.md) [манифестов](manifests.md) | респонсекоде
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -63,7 +63,7 @@ ms.locfileid: "21354150"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

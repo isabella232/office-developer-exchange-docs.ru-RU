@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f9701409-b620-4afe-b9ee-4c1e95507af7
-description: Элемент ExtendedProperty задает расширенные свойства MAPI для папок и элементов.
+description: Элемент ExtendedProperty определяет расширенные свойства MAPI для папок и элементов.
 ms.openlocfilehash: 9a6c44e953cab4900e4b75eb42bdf4d8633e58f9
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "21353730"
 ---
 # <a name="extendedproperty"></a>ExtendedProperty
 
-Элемент **ExtendedProperty** задает расширенные свойства MAPI для папок и элементов. 
+Элемент **ExtendedProperty** определяет расширенные свойства MAPI для папок и элементов. 
   
 ```xml
 <ExtendedProperty>
@@ -37,11 +37,11 @@ ms.locfileid: "21353730"
 </ExtendedProperty>
 ```
 
-**ExtendedPropertyType**
+**екстендедпропертитипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -51,32 +51,32 @@ ms.locfileid: "21353730"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |Определяет расширенные свойства MAPI для получения, установки или создать.  <br/> |
-|[Значения](values.md) <br/> |Содержит коллекцию значений для многозначного расширенные свойства MAPI.  <br/> |
-|[Значение](value.md) <br/> |Содержит значение расширенных свойств MAPI с одним значением.  <br/> |
+|[екстендедфиелдури](extendedfielduri.md) <br/> |Указывает расширенное свойство MAPI, которое необходимо получить, задать или создать.  <br/> |
+|[Значения](values.md) <br/> |Содержит коллекцию значений для многозначного расширенного свойства MAPI.  <br/> |
+|[Значение](value.md) <br/> |Содержит значение расширенного свойства MAPI с одним значением.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Удаляет элемент из хранилища Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |Представляет папку, содержащую элементы календаря в первую очередь.  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |Представляет папку контактов в почтовом ящике.  <br/> |
-|[Folder](folder.md) <br/> |Представляет папку на создание, получение, найти, синхронизировать или обновление.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержащихся в почтовом ящике.  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |Представляет папку задачи, содержащихся в почтовом ящике.  <br/> |
+|[календарфолдер](calendarfolder.md) <br/> |Представляет папку, в которой в основном содержатся элементы календаря.  <br/> |
+|[контактсфолдер](contactsfolder.md) <br/> |Представляет папку "Контакты" в почтовом ящике.  <br/> |
+|[Folder](folder.md) <br/> |Представляет папку для создания, получения, поиска, синхронизации или обновления.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержащуюся в почтовом ящике.  <br/> |
+|[тасксфолдер](tasksfolder.md) <br/> |Представляет папку Tasks, содержащуюся в почтовом ящике.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -86,7 +86,7 @@ ms.locfileid: "21353730"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

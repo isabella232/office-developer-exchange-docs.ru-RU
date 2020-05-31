@@ -1,5 +1,5 @@
 ---
-title: UserConfigurationProperties
+title: усерконфигуратионпропертиес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c143a6ec-62ad-4d48-b844-b1ad88054bc1
-description: Элемент UserConfigurationProperties Указывает типы свойств для получения в GetUserConfiguration операции.
+description: Элемент Усерконфигуратионпропертиес указывает типы свойств, которые необходимо получить в операции GetUserConfiguration.
 ms.openlocfilehash: 4f993765bb7c36f28a41a3f2fa7e28698a3f709e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840416"
 ---
-# <a name="userconfigurationproperties"></a>UserConfigurationProperties
+# <a name="userconfigurationproperties"></a>усерконфигуратионпропертиес
 
-Элемент **UserConfigurationProperties** Указывает типы свойств для получения в GetUserConfiguration операции. 
+Элемент **усерконфигуратионпропертиес** указывает типы свойств, которые необходимо получить в операции GetUserConfiguration. 
   
 ```xml
 <UserConfigurationProperties>Id | Dictionary | XmlData | BinaryData | All</UserConfigurationProperties>
 ```
 
- **UserConfigurationPropertyType**
+ **усерконфигуратионпропертитипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,21 +44,21 @@ ms.locfileid: "19840416"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetUserConfiguration](getuserconfiguration.md) <br/> |Определяет запрос на получение объекта конфигурации пользователя.  <br/> |
+|[GetUserConfiguration](getuserconfiguration.md) <br/> |Указывает запрос на получение объекта конфигурации пользователя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **UserConfigurationProperties** . 
+В следующей таблице приведены возможные значения для элемента **усерконфигуратионпропертиес** . 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
 |Id  <br/> |Задает свойство идентификатора.  <br/> |
-|словаря  <br/> |Указывает типы свойств словаря.  <br/> |
-|XmlData  <br/> |Указывает типы данных свойств XML.  <br/> |
-|BinaryData  <br/> |Указывает типы свойств двоичных данных.  <br/> |
-|Все  <br/> |Указывает идентификатор, словаря, XML-данных и типы свойств двоичных данных.  <br/> |
+|Dictionary  <br/> |Задает типы свойств словаря.  <br/> |
+|XmlData  <br/> |Определяет типы свойств данных XML.  <br/> |
+|бинаридата  <br/> |Задает типы свойств двоичных данных.  <br/> |
+|Все  <br/> |Задает идентификатор, словарь, XML-данные и типы свойств двоичных данных.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -68,7 +68,7 @@ ms.locfileid: "19840416"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: UserConfigurationName
+title: усерконфигуратионнаме
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6947dd03-9727-4379-9b9d-42373fa120c7
-description: Элемент UserConfigurationName представляет имя объекта конфигурации пользователя. Имя объекта конфигурации пользователя — это идентификатор объекта конфигурации пользователя.
+description: Элемент Усерконфигуратионнаме представляет имя объекта пользовательской конфигурации. Имя объекта конфигурации пользователя — это идентификатор объекта конфигурации пользователя.
 ms.openlocfilehash: 33b3fc316a06b8088eb20a71788a9e6a3394d0d4
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21354304"
 ---
-# <a name="userconfigurationname"></a>UserConfigurationName
+# <a name="userconfigurationname"></a>усерконфигуратионнаме
 
-Элемент **UserConfigurationName** представляет имя объекта конфигурации пользователя. Имя объекта конфигурации пользователя — это идентификатор объекта конфигурации пользователя. 
+Элемент **усерконфигуратионнаме** представляет имя объекта пользовательской конфигурации. Имя объекта конфигурации пользователя — это идентификатор объекта конфигурации пользователя. 
   
 ```XML
 <UserConfigurationName Name="">
@@ -35,11 +35,11 @@ ms.locfileid: "21354304"
 </UserConfigurationName>
 ```
 
-**UserConfigurationNameType**
+**усерконфигуратионнаметипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -51,8 +51,8 @@ ms.locfileid: "21354304"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Представляет идентификатор папки папку, содержащую объект конфигурации пользователя.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Представляет имя различающегося папки папку, содержащую объект конфигурации пользователя.  <br/> |
+|[FolderId](folderid.md) <br/> |Представляет идентификатор папки, содержащей объект конфигурации пользователя.  <br/> |
+|[дистингуишедфолдерид](distinguishedfolderid.md) <br/> |Представляет имя папки, содержащей объект конфигурации пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,13 +60,13 @@ ms.locfileid: "21354304"
 |:-----|:-----|
 |[DeleteUserConfiguration](deleteuserconfiguration.md) <br/> |Представляет запрос на удаление объекта конфигурации пользователя.  <br/> |
 |[GetUserConfiguration](getuserconfiguration.md) <br/> |Представляет запрос на получение объекта конфигурации пользователя.  <br/> |
-|[UserConfiguration](userconfiguration.md) <br/> |Определяет объект конфигурации одного пользователя.  <br/> |
+|[усерконфигуратион](userconfiguration.md) <br/> |Определяет один объект конфигурации пользователя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -76,7 +76,7 @@ ms.locfileid: "21354304"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

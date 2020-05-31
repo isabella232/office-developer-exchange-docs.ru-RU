@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: eda73b62-6a3a-43ae-8fd9-f30892811f27
-description: Операция UpdateUserConfiguration обновляет объект конфигурации пользователя на папку.
+description: Операция UpdateUserConfiguration обновляет объект конфигурации пользователя в папке.
 ms.openlocfilehash: 9da7c7ba15b3cf6b35f0489db539660aefa2e40a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19840377"
 ---
 # <a name="updateuserconfiguration-operation"></a>Операция UpdateUserConfiguration
 
-Операция **UpdateUserConfiguration** обновляет объект конфигурации пользователя на папку. 
+Операция **UpdateUserConfiguration** обновляет объект конфигурации пользователя в папке. 
   
 ## <a name="updateuserconfiguration-request-example"></a>Пример запроса UpdateUserConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **UpdateUserConfiguration** показано, как для формирования запроса для обновления объекта конфигурации пользователя в папке "Черновики". 
+В приведенном ниже примере запроса **UpdateUserConfiguration** показано, как сформировать запрос на обновление объекта конфигурации пользователя в папке "Черновики". 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -65,13 +65,13 @@ ms.locfileid: "19840377"
 </soap:Envelope>
 ```
 
-## <a name="updateuserconfiguration-response-example"></a>Пример ответа UpdateUserConfiguration
+## <a name="updateuserconfiguration-response-example"></a>Пример отклика UpdateUserConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **UpdateUserConfiguration** . 
+В следующем примере показан успешный ответ на запрос **UpdateUserConfiguration** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

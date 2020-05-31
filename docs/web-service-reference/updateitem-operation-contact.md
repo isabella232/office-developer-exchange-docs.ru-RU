@@ -1,5 +1,5 @@
 ---
-title: Операция UpdateItem (контактов)
+title: Операция UpdateItem (Contact)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840348"
 ---
-# <a name="updateitem-operation-contact"></a>Операция UpdateItem (контактов)
+# <a name="updateitem-operation-contact"></a>Операция UpdateItem (Contact)
 
 Операция UpdateItem используется для обновления свойств элемента контакта в хранилище Exchange.
   
-## <a name="updateitem-contact-request-example"></a>Пример запроса UpdateItem (контактов)
+## <a name="updateitem-contact-request-example"></a>Пример запроса UpdateItem (Contact)
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано, как обновить контактный адрес электронной почты.
+В приведенном ниже примере кода показано, как обновить адрес электронной почты контакта.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope
@@ -60,41 +60,41 @@ ms.locfileid: "19840348"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификатор элемента был усечен, чтобы сохранить удобочитаемость.
+Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [UpdateItem](updateitem.md)
     
-- [ItemChanges](itemchanges.md)
+- [итемчанжес](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
 - [Обновления (элемент)](updates-item.md)
     
-- [SetItemField](setitemfield.md)
+- [сетитемфиелд](setitemfield.md)
     
-- [IndexedFieldURI](indexedfielduri.md)
+- [индекседфиелдури](indexedfielduri.md)
     
-- [Контакт](contact.md)
+- [контакт](contact.md);
     
 - [EmailAddresses](emailaddresses.md)
     
 - [Запись (EmailAddress)](entry-emailaddress.md)
     
-## <a name="successful-updateitem-contact-response"></a>Успешные UpdateItem (контакт) ответа
+## <a name="successful-updateitem-contact-response"></a>Успешный ответ UpdateItem (контакт)
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано успешного ответа UpdateItem.
+В следующем примере кода показан успешный ответ UpdateItem.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -124,37 +124,37 @@ ms.locfileid: "19840348"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификатор элемента был усечен, чтобы сохранить удобочитаемость.
+Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [UpdateItemResponse](updateitemresponse.md)
+- [упдатеитемреспонсе](updateitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [UpdateItemResponseMessage](updateitemresponsemessage.md)
+- [упдатеитемреспонсемессаже](updateitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
     
-- [Контакт](contact.md)
+- [контакт](contact.md);
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-## <a name="invalid-updateitem-contact-request-example"></a>Пример запроса недопустимый UpdateItem (контактов)
+## <a name="invalid-updateitem-contact-request-example"></a>Недопустимый пример запроса UpdateItem (Contact)
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано недопустимый запрос.
+В следующем примере кода показан недопустимый запрос.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope
@@ -185,17 +185,17 @@ ms.locfileid: "19840348"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификатор элемента был усечен, чтобы сохранить удобочитаемость.
+Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
-## <a name="updateitem-contact-error-response"></a>Отклик UpdateItem (контактов)
+## <a name="updateitem-contact-error-response"></a>Ответ на сообщение об ошибке UpdateItem (Contact)
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано ошибочный ответ на запрос UpdateItem (контактов).
+В следующем примере кода показан ответ об ошибке для запроса UpdateItem (Contact).
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
@@ -218,13 +218,13 @@ ms.locfileid: "19840348"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Некоторые элементы, которые используются в тексте SOAP возврату ошибки, возникающие при ошибке проверки схемы не определены в схемах типов или сообщений. Элемент **детализации** содержит сведения об ошибке. Элемент [ResponseCode](responsecode.md) содержит код ошибки. Элемент [сообщение](message-ex15websvcsotherref.md) содержит описание ошибки, если она доступна. Элемент **строки** описываются номер строки, где произошла ошибка проверки схемы. Элемент **позиции** описывает положение из первого символа XML-документа. 
+Некоторые элементы, используемые в теле SOAP ошибочного ответа, вызванного ошибкой проверки схемы, не определены в схемах messages или Types. Элемент **detail** содержит сведения об ошибке. Элемент [респонсекоде](responsecode.md) содержит код ошибки. Элемент [Message](message-ex15websvcsotherref.md) содержит объяснение ошибки, если она доступна. Элемент **line** описывает номер строки, в которой произошла ошибка проверки схемы. Элемент **position** описывает позицию из самого левого знака XML-документа. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[UpdateItem Operation](updateitem-operation.md)
+[Операция UpdateItem](updateitem-operation.md)
 

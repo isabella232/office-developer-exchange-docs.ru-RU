@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 412d0683-2819-40c5-a0ae-f613499a7b66
-description: Элемент UpdateFolder представляет операцию, которая используется для обновления свойств для указанной папки.
+description: Элемент операцию UpdateFolder представляет операцию, используемую для обновления свойств указанной папки.
 ms.openlocfilehash: 9a86bf6b3b5917600b3b09f23b3ee4e9cdc0364f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19840325"
 ---
 # <a name="updatefolder"></a>UpdateFolder
 
-Элемент **UpdateFolder** представляет операцию, которая используется для обновления свойств для указанной папки. 
+Элемент **операцию UpdateFolder** представляет операцию, используемую для обновления свойств указанной папки. 
   
 ```xml
 <UpdateFolder>
@@ -29,10 +29,10 @@ ms.locfileid: "19840325"
 </UpdateFolder>
 ```
 
- **UpdateFolderType**
+ **упдатефолдертипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19840325"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderChanges](folderchanges.md) <br/> |Содержит коллекцию изменений для указанной папки.  <br/> |
+|[фолдерчанжес](folderchanges.md) <br/> |Содержит коллекцию изменений для указанной папки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,12 +58,12 @@ ms.locfileid: "19840325"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операцию UpdateFolder](updatefolder-operation.md)
+[Операция UpdateFolder](updatefolder-operation.md)
 

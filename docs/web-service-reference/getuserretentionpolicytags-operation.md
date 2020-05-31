@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 57c6ff23-5c2c-42ee-824b-5a1b6dafab8c
-description: Найдите сведения о веб-служб Exchange GetUserRetentionPolicyTags операции.
+description: Поиск сведений о GetUserRetentionPolicyTagsной операции EWS.
 ms.openlocfilehash: faf3553c5dd426b522659029bda6819c55f2708d
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -17,28 +17,28 @@ ms.locfileid: "21353233"
 ---
 # <a name="getuserretentionpolicytags-operation"></a>Операция GetUserRetentionPolicyTags
 
-Найдите сведения о **GetUserRetentionPolicyTags** операции веб-служб Exchange. 
+Поиск сведений о **GetUserRetentionPolicyTagsной** операции EWS. 
   
-Операция **GetUserRetentionPolicyTags** возвращает список всех по умолчанию, системная папка и личных тегов, которые связаны с пользователем с помощью политики системы или, были ли применены пользователем. 
+Операция **GetUserRetentionPolicyTags** возвращает список всех параметров по умолчанию, системной папки и персональных тегов, связанных с пользователем с помощью системной политики или которые были применены пользователем. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-getuserretentionpolicytags-operation"></a>С помощью операции GetUserRetentionPolicyTags
+## <a name="using-the-getuserretentionpolicytags-operation"></a>Использование операции GetUserRetentionPolicyTags
 
-Эта операция возвращает отображаемое имя, идентификатор хранения, срок хранения данных, тип хранения, действие хранения и описание теги и значения для свойства **IsVisible**, **OptedInto**и **IsArchive** . 
+Эта операция возвращает отображаемое имя, идентификатор хранения, период хранения, тип хранения, действия и теги описания, а также значения свойств **Visible**, **оптединто**и **архивировались** . 
   
-### <a name="getuserretentionpolicytags-operation-soap-headers"></a>Заголовки SOAP GetUserRetentionPolicyTags операции
+### <a name="getuserretentionpolicytags-operation-soap-headers"></a>Заголовки SOAP операции GetUserRetentionPolicyTags
 
-Операция **GetUserRetentionPolicyTags** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **GetUserRetentionPolicyTags** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Это применимо к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Это применимо для ответа.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Это относится к запросу.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Это относится к отклику.  <br/> |
    
-## <a name="getuserretentionpolicytags-operation-request-example"></a>Пример запроса GetUserRetentionPolicyTags операции
+## <a name="getuserretentionpolicytags-operation-request-example"></a>Пример запроса операции GetUserRetentionPolicyTags
 
-В следующем примере запрос операции **GetUserRetentionPolicyTags** показано, как получить список тегов для текущего пользователя. 
+В следующем примере запроса операции **GetUserRetentionPolicyTags** показано, как получить список тегов для текущего пользователя. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -56,13 +56,13 @@ ms.locfileid: "21353233"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующий элемент:
+Текст SOAP запроса содержит следующий элемент:
   
 - [GetUserRetentionPolicyTags](getuserretentionpolicytags.md)
     
-## <a name="successful-getuserretentionpolicytags-operation-response"></a>Успешные операции ответа GetUserRetentionPolicyTags
+## <a name="successful-getuserretentionpolicytags-operation-response"></a>Успешный отклик операции GetUserRetentionPolicyTags
 
-В следующем примере показано успешного ответа на запрос операции **GetUserRetentionPolicyTags** . 
+В следующем примере показан успешный ответ на запрос операции **GetUserRetentionPolicyTags** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -157,23 +157,23 @@ ms.locfileid: "21353233"
 
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md)
+- [жетусерретентионполицитагсреспонсе](getuserretentionpolicytagsresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [RetentionPolicyTags](retentionpolicytags.md)
+- [ретентионполицитагс](retentionpolicytags.md)
     
-- [RetentionPolicyTag](retentionpolicytag.md)
+- [Retentionpolicytag используется](retentionpolicytag.md)
     
 - [DisplayName (строка)](displayname-string.md)
     
 - [RetentionId](retentionid.md)
     
-- [RetentionPeriod](retentionperiod.md)
+- [ретентионпериод](retentionperiod.md)
     
-- [Type (ElcFolderType)](type-elcfoldertype.md)
+- [Тип (Елкфолдертипе)](type-elcfoldertype.md)
     
 - [RetentionAction](retentionaction.md)
     
@@ -181,11 +181,11 @@ ms.locfileid: "21353233"
     
 - [IsVisible](isvisible.md)
     
-- [OptedInto](optedinto.md)
+- [оптединто](optedinto.md)
     
 - [IsArchive](isarchive.md)
     
-## <a name="getuserretentionpolicytags-operation-error-response"></a>Ошибка операции GetUserRetentionPolicyTags ответа
+## <a name="getuserretentionpolicytags-operation-error-response"></a>Ответ об ошибке операции GetUserRetentionPolicyTags
 
-Коды ошибок, которые являются общими для веб-служб Exchange в разделе [ResponseCode](responsecode.md).
+Коды ошибок, являющиеся общими для EWS, представлены в разделе [респонсекоде](responsecode.md).
   

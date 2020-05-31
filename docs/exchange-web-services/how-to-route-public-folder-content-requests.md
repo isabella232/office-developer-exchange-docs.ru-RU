@@ -1,11 +1,11 @@
 ---
-title: Маршрутизация запросов к содержимому общедоступных папок
+title: Маршрутизация запросов содержимого общедоступных папок
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 59d2f05e-90fb-471e-ac06-70becc15b295
-description: Все запросы для общих папок, включающих содержимое общих папок необходимость направляться в почтовый ящик общедоступных папок, в которой содержится контент для целевой папке. Чтобы перенаправлять запросы к почтовому ящику, необходимо задать заголовки X AnchorMailbox и X-PublicFolderMailbox для определенного значения.
+description: Все запросы к сведениям о общедоступных папках, включающих содержимое общедоступной папки, необходимо перенаправить на почтовый ящик общедоступных папок, содержащий контент для целевой папки. Чтобы перенаправить запросы в этот почтовый ящик, необходимо задать для заголовков X и AnchorMailbox и X Публикфолдермаилбокс определенные значения.
 ms.openlocfilehash: 64fafecb9882b17a3394e54640df78f7aa180343
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -13,37 +13,37 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21354024"
 ---
-# <a name="route-public-folder-content-requests"></a>Маршрутизация запросов к содержимому общедоступных папок
+# <a name="route-public-folder-content-requests"></a>Маршрутизация запросов содержимого общедоступных папок
 
-Все запросы для общих папок, включающих содержимое общих папок необходимость направляться в почтовый ящик общедоступных папок, в которой содержится контент для целевой папке. Чтобы перенаправлять запросы к почтовому ящику, необходимо задать заголовки **X AnchorMailbox** и **X-PublicFolderMailbox** для определенного значения. 
+Все запросы к сведениям о общедоступных папках, включающих содержимое общедоступной папки, необходимо перенаправить на почтовый ящик общедоступных папок, содержащий контент для целевой папки. Чтобы перенаправить запросы в этот почтовый ящик, необходимо задать для заголовков **x и AnchorMailbox** и **x публикфолдермаилбокс** определенные значения. 
   
-Следующая таблица содержит обзор процесса:
+В следующей таблице представлен обзор процесса.
   
-**Обзор общих папок**
+**Общие сведения о общедоступной папке**
 
-|Заголовок|Что нужно сделать?|Как его получить?|
+|Заголовок|Что нужно сделать?|Как это сделать?|
 |:-----|:-----|:-----|
-|**X-AnchorMailbox** <br/> |1. [X-AnchorMailbox и X PublicFolderInformation значения](how-to-route-public-folder-hierarchy-requests.md) для почтового ящика иерархии общедоступных папок.<br/><br/>2. идентификатор GUID почтового ящика общедоступных папок с содержимым почтового ящика, которое передается для службы автообнаружения.<br/><br/>  **AutoDiscoverSMTPAddress** в ответе Autodisover становится значение заголовка **X-AnchorMailbox** .  <br/> ![ЗАДАЧА](media/Ex15_PF_PFContent.png)| 1. Используйте в примере кода в этой статье, который [реализует управляемый API веб-служб Exchange](#bk_determineguidewsma). Или [Используйте веб-служб Exchange](#bk_determineguidews) и преобразования результатов, чтобы получить идентификатор GUID.<br/><br/>2. [выполнения запроса автоматического обнаружения](#bk_makeautodrequest) с помощью идентификатора GUID, а также имя домена.<br/><br/>3. Используйте значение элемента **AutoDiscoverSMTPAddress** , возвращаемого в ответе автообнаружения для [заполнения значения заголовков](#bk_setheadervalues).  <br/> |
-|**X-PublicFolderMailbox** <br/> |На работу, значение X-PublicFolderMailbox — то же, что значение X-AnchorMailbox!  <br/> |У вас уже есть его!  <br/> |
+|**X — AnchorMailbox** <br/> |1. [значения x AnchorMailbox и x публикфолдеринформатион](how-to-route-public-folder-hierarchy-requests.md) для почтового ящика иерархии общедоступных папок.<br/><br/>2. идентификатор GUID почтового ящика общедоступных папок, который содержит содержимое почтового ящика, которое отправляется в службу автообнаружения.<br/><br/>  **Аутодисковерсмтпаддресс** в ответе обнаружение autodisover становится значением заголовка **X/AnchorMailbox** .  <br/> ![TODO](media/Ex15_PF_PFContent.png)| 1. Используйте пример кода, описанный в этой статье, который [реализует управляемый API EWS](#bk_determineguidewsma). Или [Используйте EWS](#bk_determineguidews) и преобразуйте результаты, чтобы получить GUID.<br/><br/>2. [сделайте запрос автообнаружения](#bk_makeautodrequest) с помощью идентификатора GUID и имени домена.<br/><br/>3. Используйте значение элемента **аутодисковерсмтпаддресс** , возвращенное в ответе автообнаружения для [заполнения значения заголовков](#bk_setheadervalues).  <br/> |
+|**X — Публикфолдермаилбокс** <br/> |Ваши действия выполняются, значение X-Публикфолдермаилбокс совпадает со значением X-AnchorMailbox!  <br/> |У вас уже есть!  <br/> |
    
-После определения значения заголовка включайте их [во время внесения запросов контента общей папки](#bk_setheadervalues).
+Определив значения заголовков, включите их [при создании запросов на содержимое общедоступных папок](#bk_setheadervalues).
   
-Действия, описанные в этой статье относятся только к запросов контента общей папки. Чтобы определить, является ли запрос иерархии общедоступных папок или содержимого запроса, обратитесь к разделу [маршрутизации запросов общих папок](public-folder-access-with-ews-in-exchange.md#bk_routing).
+Действия, описанные в этой статье, относятся к запросам содержимого общедоступных папок. Чтобы определить, является ли ваш запрос иерархией общедоступных папок или запроса содержимого, ознакомьтесь со статьей [Маршрутизация запросов](public-folder-access-with-ews-in-exchange.md#bk_routing)к общедоступным папкам.
 
 <a name="bk_determineguidewsma"> </a>
 
-## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>Определите идентификатор GUID почтового ящика общедоступных папок с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>Определение GUID почтового ящика общедоступных папок с помощью управляемого API EWS
 
 
-Для определения идентификатора GUID почтового ящика содержимого общей папки, используйте приведенный ниже код, который выполняет следующие: 
+Чтобы определить GUID почтового ящика содержимого общедоступной папки, используйте следующий пример кода, который выполняет следующие действия: 
   
-- Используется в заголовках **X-AnchorMailbox** и **X PublicFolderInformation** загрузки [маршрутизации](how-to-route-public-folder-hierarchy-requests.md)запросов иерархии общих папок.
+- Использует заголовки **x – AnchorMailbox** и **x – публикфолдеринформатион** , полученные с помощью [запроса иерархии маршрутизации общедоступных папок](how-to-route-public-folder-hierarchy-requests.md).
     
-- Вызывает метод управляемый API EWS [FindFolders](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) и включает в себя запрос для свойства **PR_REPLICA_LIST** (0x66980102) 
+- Вызывает метод [Финдфолдерс](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) управляемого API EWS и включает запрос для свойства **PR_REPLICA_LIST** (0x66980102). 
     
-Значение **PR_REPLICA_LIST** определяет идентификатор GUID почтового ящика общей папки, который содержит содержимое папки почтового ящика. Свойство **PR_REPLICA_LIST** является массив байтов, но приводится как код GUID для этого сценария. Идентификатор GUID и имя домена объединяется адрес, на котором для вызова службы автообнаружения. 
+**PR_REPLICA_LIST** значение определяет GUID почтового ящика общедоступных папок с содержимым папки. Свойство **PR_REPLICA_LIST** является массивом байтов, но приводится в качестве идентификатора GUID для этого сценария. GUID и имя домена сцепляются, чтобы сформировать адрес, на котором будет вызываться служба автообнаружения. 
   
-В этом примере предполагается, что `service` — это объект [ExchangeService](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для пользователя почтового ящика, `PFHAnchorHeader` и `PFHMailboxHeader` значения заголовков **X AnchorMailbox** и **X-PublicFolderMailbox** и домен — это имя домена, используемого клиент. 
+В этом примере предполагается, что `service` это объект [ExchangeService](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для пользователя почтового ящика, `PFHAnchorHeader` а `PFHMailboxHeader` также значения заголовков **x-AnchorMailbox** и **x-публикфолдермаилбокс** , а доменное доменное имя, используемое клиентом. 
   
 ```cs
 public static string GetMailboxGuidAddress(ExchangeService service, String PFHAnchorHeader, String PFHMailboxHeader, String domain)
@@ -103,17 +103,17 @@ public static string CompareGuidsForEquality(List<string> list)
 }
 ```
 
-Если ошибка «не удалось выполнить запрос. Базовое соединение закрыто: не удается установить отношение доверия для безопасного канала SSL/TLS», необходимо [Добавить вызов метода обратного вызова проверки](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). В примере кода включается заполнитель и комментарий для этого метода.
+Если вы получили сообщение об ошибке "не удалось выполнить запрос. Базовое соединение закрыто: не удалось установить отношение доверия для безопасного канала SSL/TLS ", вам потребуется [Добавить вызов метода обратного вызова проверки](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). Заполнитель и комментарий для этого метода включены в пример кода.
   
-Если GUID почтового ящика является общим для всех общих папок в корне общей папки, в примере указывается адрес для [вызова службы автообнаружения](#bk_makeautodrequest) в консоли вывода и как возвращаемое значение. Идентификатор GUID почтового ящика не является общим для всех общих папок в корне общей папки, требуется ли [выполнения запроса службы автообнаружения](#bk_makeautodrequest) на адрес, сопоставленный с папкой в вашем запросе контента. 
+Если GUID почтового ящика совпадает для всех общедоступных папок в корневом каталоге общедоступной папки, в примере указывается адрес, используемый при [вызове службы автообнаружения](#bk_makeautodrequest) в выходных данных консоли и в качестве возвращаемого значения. Если GUID почтового ящика не совпадает для всех общедоступных папок в корневом каталоге общедоступной папки, необходимо [выполнить запрос автообнаружения](#bk_makeautodrequest) на адрес, связанный с папкой в запросе содержимого. 
 
 <a name="bk_determineguidews"> </a>
 
-## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>Определите идентификатор GUID почтового ящика общедоступных папок с помощью веб-служб Exchange
+## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>Определение GUID почтового ящика общедоступных папок с помощью EWS
 
-В следующем примере кода показано, как получить значение свойства **PR_REPLICA_LIST** (0x66980102) с помощью веб-служб Exchange [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) операции. Для элемента [ExtendedFieldURI](http://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) атрибута **PropertyTag** указывается десятичное значение свойства **PR_REPLICA_LIST** (26264), атрибут **PropertyType** задано значение **двоичный**.
+В приведенном ниже примере кода показано, как получить значение свойства **PR_REPLICA_LIST** (0x66980102) с помощью операции [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) для EWS. Для элемента [екстендедфиелдури](http://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) атрибут **пропертитаг** задается как десятичное значение (26264) свойства **PR_REPLICA_LIST** , а атрибут **propertyType** имеет значение **binary**.
   
-Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **FindFolders** , чтобы [определить GUID почтового ящика общедоступных папок с помощью управляемого интерфейса API веб-служб Exchange](#bk_determineguidewsma).
+Это также запрос XML, который отправляет управляемый API EWS при использовании метода **финдфолдерс** для [определения GUID почтового ящика общедоступных папок с помощью управляемого API EWS](#bk_determineguidewsma).
   
 ```XML
 POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
@@ -149,7 +149,7 @@ Expect: 100-continue
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **FindFolder** [FindFolderResponse](http://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) сообщение, содержащее значение **PR_REPLICA_LIST** расширенные свойства. Обратите внимание, что отображается значение свойства ответа веб-служб Exchange как строку формата base 64 закодированный массив байтов. Некоторые значения заголовка в ответе сокращаются для удобства чтения. 
+Сервер отвечает на запрос **FindFolder** с сообщением [финдфолдерреспонсе](http://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) , которое включает значение расширенного свойства **PR_REPLICA_LIST** . Обратите внимание, что значение свойства отображается в отклике EWS в виде строки в массиве байтов с кодировкой Base 64. Некоторые значения заголовков в отклике сокращаются для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -188,28 +188,28 @@ Expect: 100-continue
 </s:Envelope>
 ```
 
-Чтобы использовать значение **PR_REPLICA_LIST** возвращается в XML-КОДЕ MWVjMmEyMzYtZWQ5My00Zjg4LWI5YzYtMzNlNjNmYTRhYTQ0AA ==, чтобы определить GUID почтового ящика, значение должны быть преобразованы в идентификатор GUID в формате, аналогичном как значение преобразуется в [Пример кода управляемый API веб-служб Exchange](#bk_determineguidewsma). Идентификатор GUID затем соединяется с именем домена для создания SMTP-адрес, который включен в [запрос автообнаружения](#bk_makeautodrequest).
+Чтобы использовать значение **PR_REPLICA_LIST** , возвращаемого в XML, MWVjMmEyMzYtZWQ5My00Zjg4LWI5YzYtMzNlNjNmYTRhYTQ0AA = =, чтобы определить GUID почтового ящика, значение должно быть преобразовано в GUID в формате, аналогичном преобразовании значения в [пример кода управляемого API EWS](#bk_determineguidewsma). Затем GUID объединяется с доменным именем для создания SMTP-адреса, включенного в [запрос автообнаружения](#bk_makeautodrequest).
   
-## <a name="make-an-autodiscover-request"></a>Для выполнения запроса службы автообнаружения
+## <a name="make-an-autodiscover-request"></a>Выполнение запроса на автообнаружение
 <a name="bk_makeautodrequest"> </a>
 
-Используйте адрес, возвращенный `GetMailboxGuidAddress` метод, вызываемый службы автообнаружения. Мы рекомендуем использовать [Exchange 2013: Получение параметров пользователя с помощью службы автообнаружения](http://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e) пример кода для вызова службы автообнаружения, так как он оптимизирует процесса автообнаружения для вас. В этом примере код использует аргументы командной строки, указанные в следующей таблице для вызова службы автообнаружения POX для извлечения значения [AutoDiscoverSMTPAddress](http://msdn.microsoft.com/en-us/library/office/dn750991%28v=exchg.150%29.aspx) , связанный с GUID почтового ящика. 
+Используйте адрес, возвращенный `GetMailboxGuidAddress` методом для вызова службы автообнаружения. Мы рекомендуем использовать [Exchange 2013: получение параметров пользователя с помощью кода автообнаружения](http://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e) для вызова службы автообнаружения, так как она упрощает процесс автообнаружения. В этом примере кода используются аргументы командной строки, приведенные в следующей таблице, для вызова службы автообнаружения POX для получения значения [аутодисковерсмтпаддресс](http://msdn.microsoft.com/en-us/library/office/dn750991%28v=exchg.150%29.aspx) , связанного с идентификатором GUID почтового ящика. 
   
-|**Argument**|**Описание**|
+|**Аргумент**|**Описание**|
 |:-----|:-----|
-|emailAddress  <br/> |Адрес, возвращенный `GetMailboxGuidAddress` метода в [Определение GUID почтового ящика общедоступных папок](#bk_determineguidewsma).  <br/> |
-|-skipSOAP  <br/> |Указывает, что запросов автообнаружения POX требуются.  <br/> |
-|-проверкой подлинности на основе authEmailAddress  <br/> |Адрес электронной почты пользователя почтового ящика, который используется для проверки подлинности. Будет предложено ввести пароль пользователя почтового ящика, при выполнении примера.  <br/> |
+|emailAddress  <br/> |Адрес, возвращенный `GetMailboxGuidAddress` методом в [определении GUID почтового ящика общедоступных папок](#bk_determineguidewsma).  <br/> |
+|— Скипсоап  <br/> |Указывает, что требуются запросы автообнаружения POX.  <br/> |
+|— Проверка подлинности Аусемаиладдресс  <br/> |Адрес электронной почты пользователя почтового ящика, используемый для проверки подлинности. При запуске примера вам будет предложено ввести пароль пользователя почтового ящика.  <br/> |
    
-Например аргументы командной строки должна выглядеть следующим образом:
+Например, аргументы командной строки должны выглядеть следующим образом:
   
 `1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com -skipSOAP -auth sonyaf@contoso.com`
 
-Где `1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com` — это адрес, возвращенный методом **GetMailboxGuidAddress** и `sonyaf@contoso.com` — пользователь, почтовый ящик. 
+Где `1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com` — это адрес, возвращаемый методом **жетмаилбоксгуидаддресс** , и `sonyaf@contoso.com` является пользователем почтового ящика. 
   
-При выполнении **Exchange 2013: Получение параметров пользователя с помощью службы автообнаружения** образец, последний ответ автообнаружения должен быть успешные и включают все пользовательские параметры, связанные с GUID почтового ящика. Сохранить **AutoDiscoverSMTPAddress** пользователя, задание локально, как она будет использоваться на следующем этапе. 
+При запуске **Exchange 2013: получение параметров пользователя с помощью службы автообнаружения** , последний ответ автообнаружения должен быть успешным и включать все параметры пользователя, связанные с идентификатором GUID почтового ящика. Сохраните параметр пользователя **аутодисковерсмтпаддресс** локально, как он будет использоваться на следующем шаге. 
   
-Кроме того Если вы не хотите использовать **Exchange 2013: Получение параметров пользователя с помощью службы автообнаружения** образец, вы получаете пользователя **AutoDiscoverSMTPAddress** параметру, [создав список конечных точек службы автообнаружения](how-to-generate-a-list-of-autodiscover-endpoints.md)и затем Отправка следующие Запрос автообнаружения POX для каждого URL-адреса до получения успешного ответа.
+Кроме того, если вы не хотите использовать **Exchange 2013: "получение параметров пользователя с помощью автообнаружения** ", вы можете получить параметр пользователя **аутодисковерсмтпаддресс** , [создав список конечных точек автообнаружения](how-to-generate-a-list-of-autodiscover-endpoints.md), а затем отправив следующий запрос автообнаружения POX для каждого URL-адреса, пока не будет получен успешный ответ.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -221,32 +221,32 @@ Expect: 100-continue
 </Autodiscover>
 ```
 
-Дополнительные сведения о процессе автообнаружения можно [автообнаружения для Exchange](autodiscover-for-exchange.md), [Создать список конечных точек службы автообнаружения](how-to-generate-a-list-of-autodiscover-endpoints.md)и [получить параметры пользователя из Exchange с помощью службы автообнаружения](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
+Дополнительные сведения о процессе автообнаружения: служба [автообнаружения для Exchange](autodiscover-for-exchange.md), [Создание списка конечных точек автообнаружения](how-to-generate-a-list-of-autodiscover-endpoints.md)и [Получение параметров пользователя из Exchange с помощью службы автообнаружения](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
   
-## <a name="set-the-values-of-the-x-anchormailbox-and-x-publicfoldermailbox-headers"></a>Задайте значения заголовков X AnchorMailbox и X-PublicFolderMailbox
+## <a name="set-the-values-of-the-x-anchormailbox-and-x-publicfoldermailbox-headers"></a>Задайте значения для заголовков X — AnchorMailbox и X Публикфолдермаилбокс
 <a name="bk_setheadervalues"> </a>
 
-С использованием значения для **AutoDiscoverSMTPAddress** , полученные в [выполнения запроса службы автообнаружения](#bk_makeautodrequest), задайте значения заголовков **X AnchorMailbox** и **X-PublicFolderMailbox** в вашем запросе контента общей папки. 
+Используя значение для **аутодисковерсмтпаддресс** , полученное в [запросе на автообнаружение](#bk_makeautodrequest), задайте значения для заголовков **x — AnchorMailbox** и **x публикфолдермаилбокс** в запросе содержимого общедоступных папок. 
   
-Например учитывая AutoDiscoverSMTPAddress NewPublicFolder@contoso.com, включают следующие заголовки при вызове следующих методов или операции.
+Например, при вызове следующих методов или операций с помощью Аутодисковерсмтпаддресс NewPublicFolder@contoso.com включите следующие заголовки.
   
 `X-AnchorMailbox: NewPublicFolder@contoso.com`<br/>
 `X-PublicFolderMailbox: NewPublicFolder@contoso.com`
 
-**Вызовы общих папок, которые требуют X AncorMailbox и X-PublicFolder заголовков**
+**Вызовы общедоступных папок, требующие заголовков X Анкормаилбокс и X PublicFolder**
 
 |**Методы управляемого API EWS**|**Операции EWS**|
 |:-----|:-----|
-|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item.Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Item.Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
+|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item. Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Элемент. Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
    
-Чтобы добавить эти заголовки с помощью управляемого интерфейса API веб-служб Exchange, используйте метод [HttpHeaders.Add](http://msdn.microsoft.com/en-us/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx) . 
+Чтобы добавить эти заголовки с помощью управляемого API EWS, используйте метод [хттфеадерс. Add](http://msdn.microsoft.com/en-us/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx) . 
   
 ```cs
 service.HttpHeaders.Add("X-AnchorMailbox", "NewPublicFolder@contoso.com");
 service.HttpHeaders.Add("X-PublicFolderMailbox", "NewPublicFolder@contoso.com");
 ```
 
-В следующем коде показан запрос [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) с заголовка **X-AnchorMailbox** и **X PublicFolderMailbox** , значения, полученные на примерах в этой статье. 
+В приведенном ниже коде показан запрос на получение [папки](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) с заголовком **x – AnchorMailbox** и **x – публикфолдермаилбокс** значениями, полученными в примерах, приведенных в этой статье. 
   
 ```XML
 POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
@@ -281,6 +281,6 @@ Expect: 100-continue
 - [Общих папок в Exchange доступ с EWS](public-folder-access-with-ews-in-exchange.md)    
 - [Автообнаружение для Exchange](autodiscover-for-exchange.md)    
 - [Создание списка конечных точек автообнаружения](how-to-generate-a-list-of-autodiscover-endpoints.md)   
-- [Получить параметры пользователя из Exchange с помощью службы автообнаружения](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Получение параметров пользователя из Exchange с помощью службы автообнаружения](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 

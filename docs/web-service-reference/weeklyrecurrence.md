@@ -1,5 +1,5 @@
 ---
-title: WeeklyRecurrence
+title: виклирекурренце
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 69c41dd5-597c-45bc-be3f-e2f2b5615aa3
-description: Элемент WeeklyRecurrence описывает еженедельно повторяющейся.
+description: Элемент Виклирекурренце описывает еженедельный шаблон повторения.
 ms.openlocfilehash: 78bc76dd63c6737786df02f336217dc8de9a3a67
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840505"
 ---
-# <a name="weeklyrecurrence"></a>WeeklyRecurrence
+# <a name="weeklyrecurrence"></a>виклирекурренце
 
-Элемент **WeeklyRecurrence** описывает еженедельно повторяющейся. 
+Элемент **виклирекурренце** описывает еженедельный шаблон повторения. 
   
 ```XML
 <WeeklyRecurrence>
@@ -31,10 +31,10 @@ ms.locfileid: "19840505"
 </WeeklyRecurrence>
 ```
 
- **WeeklyRecurrencePatternType**
+ **виклирекурренцепаттернтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,24 +44,24 @@ ms.locfileid: "19840505"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Интервал](interval.md) <br/> |Задает интервал в недель между двумя последовательными еженедельно повторения шаблон элементов. Значение может быть в диапазоне от 1 до 99.  <br/> |
-|[DaysOfWeek (DaysOfWeekType)](daysofweek-daysofweektype.md) <br/> |Описывается, какие дни недели, в неделю шаблона повторения.  <br/> |
-|[FirstDayOfWeek](firstdayofweek.md) <br/> |Задает первый день недели.  <br/> |
+|[Interval](interval.md) <br/> |Определяет интервал (в неделях) между двумя последовательными еженедельными элементами расписания повторения. Значение может находиться в диапазоне от 1 до 99.  <br/> |
+|[DaysOfWeek (Дайсофвиктипе)](daysofweek-daysofweektype.md) <br/> |Описывает дни недели в расписании повторения.  <br/> |
+|[FirstDayOfWeek](firstdayofweek.md) <br/> |Указывает первый день недели.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит данные о повторении для повторяющихся задач.  <br/> |
-|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашения на собрания.  <br/> |
+|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
+|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашений на собрание.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-[Запуск](start.md) и [конечной](end-ex15websvcsotherref.md) дат повторяющегося элемента шаблона, у которых дата, равный первого появления еженедельно повторяющейся информации смещение часового пояса будут потеряны. 
+Сведения о смещении часового пояса теряются, если даты [начала](start.md) и [окончания](end-ex15websvcsotherref.md) повторяющегося элемента шаблона не имеют даты, равной первому появлению еженедельного расписания повторения. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -71,7 +71,7 @@ ms.locfileid: "19840505"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

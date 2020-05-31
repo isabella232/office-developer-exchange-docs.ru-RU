@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f982a237-471e-45c5-a2b5-468cfc53150b
-description: Операция UpdateInboxRules обновляет правила папки "Входящие" пользователя, прошедшего проверку подлинности с применением указанной операции. UpdateInboxRules используется для создания правила папки «Входящие», правила папки "Входящие" или удаление правила папки «Входящие».
+description: Операция UpdateInboxRules обновляет правила папки "Входящие" пользователя, прошедшего проверку подлинности, применяя указанные операции. UpdateInboxRules используется для создания правила папки "Входящие", установки правила для папки "Входящие" или удаления правила для папки "Входящие".
 ms.openlocfilehash: 6e979421d619fed6625fe05db86c1f8c6a7418c9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,19 +21,19 @@ ms.locfileid: "19840343"
 ---
 # <a name="updateinboxrules-operation"></a>Операция UpdateInboxRules
 
-Операция UpdateInboxRules обновляет правила папки "Входящие" пользователя, прошедшего проверку подлинности с применением указанной операции. **UpdateInboxRules** используется для создания правила папки «Входящие», правила папки "Входящие" или удаление правила папки «Входящие». 
+Операция UpdateInboxRules обновляет правила папки "Входящие" пользователя, прошедшего проверку подлинности, применяя указанные операции. **UpdateInboxRules** используется для создания правила папки "Входящие", установки правила для папки "Входящие" или удаления правила для папки "Входящие". 
   
-При использовании операции **UpdateInboxRules** веб-служб Exchange удаляет правила отправки со стороны клиента. Отправить клиентские правила, хранятся в клиенте в правиле сообщение связанные сведения о папке (FAI) и нигде больше. Веб-служб Exchange удаление этого правила FAI сообщения по умолчанию на основании считает, что Outlook будет создать его заново. Тем не менее Outlook не удается заново создать правила несуществующим в качестве расширенного правила и отправки клиентские правила не существовать в качестве расширенного правила. В результате эти правила не сохраняются. Мы рекомендуем вам необходимо учитывать это при разработке решения. 
+При использовании операции **UpdateInboxRules** веб-службы Exchange удаляют правила отправки на стороне клиента. Правила отправки на стороне клиента хранятся в клиенте в сообщении о связанной папке правила (ФАИ), но не в других. По умолчанию служба EWS удаляет это правило ФАИ по умолчанию, в зависимости от того, что Outlook будет воссоздать его. Однако Outlook не может создавать правила, которые не существуют как расширенное правило, а правила отправки на стороне клиента не являются расширенными правилами. В результате эти правила теряются. Мы рекомендуем использовать это при проектировании решения. 
   
-## <a name="updateinboxrules-create-rule-request-example"></a>Пример запроса UpdateInboxRules (создать правило)
+## <a name="updateinboxrules-create-rule-request-example"></a>Пример запроса UpdateInboxRules (Create Rule)
 
-Можно использовать веб-служб Exchange для создания правила папки «Входящие» в почтовом ящике пользователя в хранилище Exchange. Используйте элемент [UpdateInboxRules](updateinboxrules.md) в сочетании с элементом [CreateRuleOperation](createruleoperation.md) для создания правила. 
+Вы можете использовать веб-службы Exchange, чтобы создать правило для папки "Входящие" в почтовом ящике пользователя в хранилище Exchange. Чтобы создать правило, используйте элемент [UpdateInboxRules](updateinboxrules.md) в сочетании с элементом [креатерулеоператион](createruleoperation.md) . 
   
 ### <a name="description"></a>Описание
 
-Клиент создает XML-ФАЙЛ запроса и отправляет его на сервер.
+Клиент создает XML-код запроса и отправляет его на сервер.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -73,29 +73,29 @@ ms.locfileid: "19840343"
 
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-В этом примере выполняется построение правило, которое будут перемещаться сообщения электронной почты в папку нежелательной почты, если тему сообщения электронной почты содержит строку, равный «Interesting».
+В этом примере создается правило, которое переместит сообщение электронной почты в папку нежелательной почты, если тема сообщения содержит строку, содержательную "интересное".
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 Запрос **UpdateInboxRules** включает следующие элементы: 
   
-- [MailboxSmtpAddress](mailboxsmtpaddress.md)
+- [маилбокссмтпаддресс](mailboxsmtpaddress.md)
     
-- [RemoveOutlookRuleBlob](removeoutlookruleblob.md)
+- [ремовеаутлукрулеблоб](removeoutlookruleblob.md)
     
-- [Операции](operations.md)
+- [Operations](operations.md)
     
-Элемент [операции](operations.md) содержит элемент [CreateRuleOperation](createruleoperation.md) для создания правила. 
+Элемент [Operations](operations.md) содержит элемент [креатерулеоператион](createruleoperation.md) для создания правила. 
   
-## <a name="updateinboxrules-create-rule-response-example"></a>Пример ответа UpdateInboxRules (создать правило)
+## <a name="updateinboxrules-create-rule-response-example"></a>Пример отклика UpdateInboxRules (Create Rule)
 
 ### <a name="description"></a>Описание
 
-В следующем примере тело Simple Object Access Protocol (SOAP) показано успешного ответа на запрос **UpdateInboxRules** , который создает правило. 
+В приведенном ниже примере кода для протокола SOAP показан успешный ответ на запрос **UpdateInboxRules** , который создает правило. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -123,25 +123,25 @@ ms.locfileid: "19840343"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [UpdateInboxRulesResponse](updateinboxrulesresponse.md)
+- [упдатеинбоксрулесреспонсе](updateinboxrulesresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="updateinboxrules-set-rule-request-example"></a>Пример запроса UpdateInboxRules (задать правила)
+## <a name="updateinboxrules-set-rule-request-example"></a>Пример запроса UpdateInboxRules (Set Rule)
 
-Можно использовать веб-служб Exchange для изменения правила папки «Входящие» в почтовом ящике пользователя в хранилище Exchange. Используйте элемент [UpdateInboxRules](updateinboxrules.md) в сочетании с элементом [SetRuleOperation](setruleoperation.md) для изменения правила. 
+Вы можете использовать веб-службы Exchange для изменения правила папки "Входящие" в почтовом ящике пользователя в хранилище Exchange. Чтобы изменить правило, используйте элемент [UpdateInboxRules](updateinboxrules.md) в сочетании с элементом [сетрулеоператион](setruleoperation.md) . 
   
 ### <a name="description"></a>Описание
 
-Клиент создает XML-ФАЙЛ запроса и отправляет его на сервер.
+Клиент создает XML-код запроса и отправляет его на сервер.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -181,32 +181,32 @@ ms.locfileid: "19840343"
 
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-В этом примере изменяется отображаемое имя для «(изменено) это нежелательной».
+В этом примере показано изменение отображаемого имени на "(изменено) это нежелательное".
   
 > [!NOTE]
-> Значения **Id** и **ChangeKey** атрибутов элемента [FolderId](folderid.md) URL были сокращены для удобства чтения. 
+> Значения атрибутов **ID** и **чанжекэй** элемента [FolderId](folderid.md) сокращены для удобочитаемости. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 Запрос **UpdateInboxRules** включает следующие элементы: 
   
-- [MailboxSmtpAddress](mailboxsmtpaddress.md)
+- [маилбокссмтпаддресс](mailboxsmtpaddress.md)
     
-- [RemoveOutlookRuleBlob](removeoutlookruleblob.md)
+- [ремовеаутлукрулеблоб](removeoutlookruleblob.md)
     
-- [Операции](operations.md)
+- [Operations](operations.md)
     
-Элемент [операции](operations.md) содержит элемент [SetRuleOperation](setruleoperation.md) для изменения правила. 
+Элемент [Operations](operations.md) содержит элемент [сетрулеоператион](setruleoperation.md) для изменения правила. 
   
-## <a name="updateinboxrules-set-rule-response-example"></a>Пример ответа UpdateInboxRules (задать правила)
+## <a name="updateinboxrules-set-rule-response-example"></a>Пример отклика UpdateInboxRules (Set Rule)
 
 ### <a name="description"></a>Описание
 
-В следующем примере тело Simple Object Access Protocol (SOAP) показано успешного ответа на запрос **UpdateInboxRules** , обеспечивающий изменение правила. 
+В следующем примере кода для протокола SOAP показан успешный ответ на запрос **UpdateInboxRules** , который изменяет правило. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -235,25 +235,25 @@ ms.locfileid: "19840343"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [UpdateInboxRulesResponse](updateinboxrulesresponse.md)
+- [упдатеинбоксрулесреспонсе](updateinboxrulesresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="updateinboxrules-delete-rule-request-example"></a>Пример запроса UpdateInboxRules (Удалить)
+## <a name="updateinboxrules-delete-rule-request-example"></a>Пример запроса UpdateInboxRules (Delete Rule)
 
-Можно использовать веб-служб Exchange для удаления правила папки «Входящие» в почтовом ящике пользователя в хранилище Exchange. Используйте совместно с элементом [DeleteRuleOperation](deleteruleoperation.md) [UpdateInboxRules](updateinboxrules.md) для удаления правила. 
+Вы можете использовать веб-службы Exchange для удаления правила папки "Входящие" в почтовом ящике пользователя в хранилище Exchange. Чтобы удалить правило, используйте [UpdateInboxRules](updateinboxrules.md) в сочетании с элементом [делетерулеоператион](deleteruleoperation.md) . 
   
 ### <a name="description"></a>Описание
 
-Клиент создает XML-ФАЙЛ запроса и отправляет его на сервер.
+Клиент создает XML-код запроса и отправляет его на сервер.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -278,29 +278,29 @@ ms.locfileid: "19840343"
 
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-В этом примере удаляется существующий определенного правила.
+В этом примере удаляется существующее идентифицированное правило.
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 Запрос **UpdateInboxRules** включает следующие элементы: 
   
-- [MailboxSmtpAddress](mailboxsmtpaddress.md)
+- [маилбокссмтпаддресс](mailboxsmtpaddress.md)
     
-- [RemoveOutlookRuleBlob](removeoutlookruleblob.md)
+- [ремовеаутлукрулеблоб](removeoutlookruleblob.md)
     
-- [Операции](operations.md)
+- [Operations](operations.md)
     
-Элемент [операции](operations.md) содержит элемент [DeleteRuleOperation](deleteruleoperation.md) удаление правила. 
+Элемент [Operations](operations.md) содержит элемент [делетерулеоператион](deleteruleoperation.md) для удаления правила. 
   
-## <a name="updateinboxrules-delete-rule-response-example"></a>Пример ответа UpdateInboxRules (Удалить)
+## <a name="updateinboxrules-delete-rule-response-example"></a>Пример отклика UpdateInboxRules (удаление правила)
 
 ### <a name="description"></a>Описание
 
-В следующем примере тело Simple Object Access Protocol (SOAP) показано успешного ответа на запрос **UpdateInboxRules** , который удаляет правило. 
+В приведенном ниже примере кода для протокола SOAP показан успешный ответ на запрос **UpdateInboxRules** , который удаляет правило. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -327,15 +327,15 @@ ms.locfileid: "19840343"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [UpdateInboxRulesResponse](updateinboxrulesresponse.md)
+- [упдатеинбоксрулесреспонсе](updateinboxrulesresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
 ## <a name="see-also"></a>См. также
 

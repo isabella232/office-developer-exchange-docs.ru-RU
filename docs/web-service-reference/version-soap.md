@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 47c9216e-6bfe-48c8-a27a-26f70db8e8d5
-description: Элемент Version представляет описание server версии продукта.
+description: Элемент Version представляет описание версии серверного продукта.
 ms.openlocfilehash: b8284880646cb82e6af6715523467021f080b8e7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,16 +18,16 @@ ms.locfileid: "19840481"
 ---
 # <a name="version-soap"></a>Версия (SOAP)
 
-Элемент **Version** представляет описание server версии продукта. 
+Элемент **Version** представляет описание версии серверного продукта. 
   
 ```XML
 <Version/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,23 +41,23 @@ ms.locfileid: "19840481"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ServerVersionInfo (SOAP)](serverversioninfo-soap.md) <br/> |Содержит версию сервера, на обработку запроса.  <br/> |
+|[Серверверсионинфо (SOAP)](serverversioninfo-soap.md) <br/> |Содержит версию сервера, который обработал запрос.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Значение элемента **версии** приведено описание server версии продукта. 
+Значение элемента **Version** — это описание версии серверного продукта. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент **Version** содержится в заголовке ответа SOAP. 
+Элемент **Version** находится в заголовке SOAP ответа. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -66,7 +66,7 @@ ms.locfileid: "19840481"
 
 [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
   
-[Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+[Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
 

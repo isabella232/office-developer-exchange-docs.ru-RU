@@ -1,5 +1,5 @@
 ---
-title: DeleteFolderField
+title: делетефолдерфиелд
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f9c2187b-4c60-4358-b4b4-ede50eadae48
-description: Элемент DeleteFolderField представляет операцию удаление указанного свойства из папки во время вызова UpdateFolder.
+description: Элемент Делетефолдерфиелд представляет операцию удаления определенного свойства из папки во время вызова операцию UpdateFolder.
 ms.openlocfilehash: 60d4a5c19d89c109913e83fea99c2f7910566c72
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21354094"
 ---
-# <a name="deletefolderfield"></a>DeleteFolderField
+# <a name="deletefolderfield"></a>делетефолдерфиелд
 
-Элемент **DeleteFolderField** представляет операцию удаление указанного свойства из папки во время вызова UpdateFolder. 
+Элемент **делетефолдерфиелд** представляет операцию удаления определенного свойства из папки во время вызова операцию UpdateFolder. 
   
 - [UpdateFolder](updatefolder.md) 
-- [FolderChanges](folderchanges.md)  
+- [фолдерчанжес](folderchanges.md)  
 - [FolderChange](folderchange.md)  
-- [Updates (Folder)](updates-folder.md) 
-- [DeleteFolderField](deletefolderfield.md)
+- [Обновления (папка)](updates-folder.md) 
+- [делетефолдерфиелд](deletefolderfield.md)
   
 ```xml
 <DeleteFolderField>
@@ -47,11 +47,11 @@ ms.locfileid: "21354094"
 </DeleteFolderField>
 ```
 
-**DeleteFolderFieldType**
+**делетефолдерфиелдтипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -61,17 +61,17 @@ ms.locfileid: "21354094"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Идентифицирует часто упоминаемые свойства по URI.  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |Идентифицирует отдельным членам свойства словаря.  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |Задает расширенные свойства MAPI.  <br/> |
+|[фиелдури](fielduri.md) <br/> |Определяет часто упоминаемые свойства по URI.  <br/> |
+|[индекседфиелдури](indexedfielduri.md) <br/> |Определяет отдельные элементы свойства Dictionary.  <br/> |
+|[екстендедфиелдури](extendedfielduri.md) <br/> |Определяет расширенные свойства MAPI.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Updates (Folder)](updates-folder.md) <br/> |Содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств папки.  <br/> Ниже приведен выражение XPath для этого элемента.`/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
+|[Обновления (папка)](updates-folder.md) <br/> |Содержит набор элементов, определяющих Добавление, установку и удаление изменений свойств папки.  <br/> Ниже приведено выражение XPath для этого элемента:`/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -81,7 +81,7 @@ ms.locfileid: "21354094"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

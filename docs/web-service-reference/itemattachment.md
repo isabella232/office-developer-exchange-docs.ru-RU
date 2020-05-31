@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 089ee599-f45e-46f5-a18a-5cfb3d2851ff
-description: Элемент ItemAttachment представляет собой элемент Exchange, подключенный к другой элемент Exchange.
+description: Элемент ItemAttachment представляет элемент Exchange, присоединенный к другому элементу Exchange.
 ms.openlocfilehash: 7bd3d22430fe04f1b28ae240102500609fe8d703
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "21353149"
 ---
 # <a name="itemattachment"></a>ItemAttachment
 
-Элемент **ItemAttachment** представляет собой элемент Exchange, подключенный к другой элемент Exchange. 
+Элемент **ItemAttachment** представляет элемент Exchange, присоединенный к другому элементу Exchange. 
   
 ```xml
 <ItemAttachment>
@@ -149,11 +149,11 @@ ms.locfileid: "21353149"
 </ItemAttachment>
 ```
 
-**ItemAttachmentType**
+**итематтачменттипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -163,35 +163,35 @@ ms.locfileid: "21353149"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AttachmentId](attachmentid.md) <br/> |Идентифицирует вложение.  <br/> |
-|[Name (AttachmentType)](name-attachmenttype.md) <br/> |Представляет имя вложения.  <br/> |
-|[ContentType](contenttype.md) <br/> |Описывает тип Multipurpose Internet Mail Extensions (MIME) для содержимого вложения.  <br/> |
-|[ContentId](contentid.md) <br/> |Представляет идентификатор содержимого вложения. [ContentId](contentid.md) может быть присвоено любое строковое значение. Приложения могут использовать для реализации идентификации механизмы [ContentId](contentid.md) .  <br/> |
-|[ContentLocation](contentlocation.md) <br/> |Содержит универсальный код ресурса (URI), соответствующий расположение содержимого вложения.  <br/> |
-|[Size](size.md) <br/> |Представляет размер в байтах файла вложения.  <br/> |
-|[LastModifiedTime](lastmodifiedtime.md) <br/> |Представляет после последнего изменения вложения.  <br/> |
-|[IsInline](isinline.md) <br/> |Представляет ли вложение встроенным в элемент.  <br/> |
-|[Элемент](item.md) <br/> |Представляет универсальный вложение элемента Exchange.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет вложения сообщения электронной почты Exchange.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Представляет вложение элемента календаря Exchange.  <br/> |
-|[Контакт](contact.md) <br/> |Представляет вложение элемента контакта Exchange.  <br/> |
-|[Задача](task.md) <br/> |Представляет вложение задач Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[AttachmentId](attachmentid.md) <br/> |Определяет вложение.  <br/> |
+|[Имя (AttachmentType)](name-attachmenttype.md) <br/> |Представляет имя вложения.  <br/> |
+|[ContentType](contenttype.md) <br/> |Описание многоцелевого расширения почты в Интернете (MIME) для содержимого вложения.  <br/> |
+|[ContentId](contentid.md) <br/> |Представляет идентификатор для содержимого вложения. Идентификатору [ContentId](contentid.md) можно присвоить любое строковое значение. Приложения могут использовать идентификаторы [ContentId](contentid.md) для реализации собственных механизмов идентификации.  <br/> |
+|[ContentLocation](contentlocation.md) <br/> |Содержит универсальный код ресурса (URI), соответствующий расположению содержимого вложения.  <br/> |
+|[Размер](size.md) <br/> |Представляет размер вложенного файла в байтах.  <br/> |
+|[LastModifiedTime](lastmodifiedtime.md) <br/> |Представляет время последнего изменения вложения.  <br/> |
+|[IsInline](isinline.md) <br/> |Указывает, отображается ли вложение встроенным в элементе.  <br/> |
+|[Элемент](item.md) <br/> |Представляет вложение универсального элемента Exchange.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет вложение сообщения электронной почты Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет вложение элемента календаря Exchange.  <br/> |
+|[контакт](contact.md); <br/> |Представляет вложение элемента контакта Exchange.  <br/> |
+|[Task](task.md) <br/> |Представляет вложение задачи Exchange.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы и/или файлы, подключенные к элементу в хранилище Exchange.  <br/> |
+|[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы и/или файлы, вложенные в элемент в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -201,7 +201,7 @@ ms.locfileid: "21353149"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

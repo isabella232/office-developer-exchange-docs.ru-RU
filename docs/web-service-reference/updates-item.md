@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5c1a855e-390d-4713-9d10-6e86ca392814
-description: Элемент Updates содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств элемента.
+description: Элемент Updates содержит набор элементов, определяющих Добавление, установку и удаление изменений свойств элемента.
 ms.openlocfilehash: 13df458c783b942e1c868853c41b6247119cf123
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,11 +21,11 @@ ms.locfileid: "19840378"
 ---
 # <a name="updates-item"></a>Обновления (элемент)
 
-Элемент **Updates** содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств элемента. 
+Элемент **Updates** содержит набор элементов, определяющих Добавление, установку и удаление изменений свойств элемента. 
   
 - [UpdateItem](updateitem.md)
   
-- [ItemChanges](itemchanges.md)
+- [итемчанжес](itemchanges.md)
   
 - [ItemChange](itemchange.md)
   
@@ -39,11 +39,11 @@ ms.locfileid: "19840378"
 </Updates>
 ```
 
-**NonEmptyArrayOfItemChangeDescriptionsType**
+**нонемптяррайофитемчанжедескриптионстипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -53,19 +53,19 @@ ms.locfileid: "19840378"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AppendToItemField](appendtoitemfield.md) <br/> |Представляет данные для добавления к отдельное свойство элемента во время [операции UpdateItem](updateitem-operation.md).  <br/> |
-|[SetItemField](setitemfield.md) <br/> |Представляет отдельное свойство элемента в [UpdateItem операции](updateitem-operation.md)обновления.  <br/> |
-|[DeleteItemField](deleteitemfield.md) <br/> |Представляет операцию для удаления заданного свойства из элемента во время [операции UpdateItem](updateitem-operation.md).  <br/> |
+|[аппендтоитемфиелд](appendtoitemfield.md) <br/> |Представляет данные, добавляемые к одному свойству элемента во время [операции UpdateItem](updateitem-operation.md).  <br/> |
+|[сетитемфиелд](setitemfield.md) <br/> |Представляет обновление одного свойства элемента в [операции UpdateItem](updateitem-operation.md).  <br/> |
+|[делетеитемфиелд](deleteitemfield.md) <br/> |Представляет операцию удаления данного свойства из элемента во время [операции UpdateItem](updateitem-operation.md).  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ItemChange](itemchange.md) <br/> |Содержит идентификатор элемента и обновления для применения к элементу.  <br/> Ниже приведен выражение XPath для этого элемента.`/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
+|[ItemChange](itemchange.md) <br/> |Содержит идентификатор элемента и обновления, применяемые к элементу.  <br/> Ниже приведено выражение XPath для этого элемента:`/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Обновления, определенные в этот элемент выполняются для элемента, который идентифицируется средством [ItemId](itemid.md), [OccurrenceItemId](occurrenceitemid.md)или [RecurringMasterItemId](recurringmasteritemid.md) элементы. 
+Обновления, определенные этим элементом, выполняются над элементом, идентифицируемым элементами [ItemId](itemid.md), [оккурренцеитемид](occurrenceitemid.md)или [рекуррингмастеритемид](recurringmasteritemid.md) . 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -74,12 +74,12 @@ ms.locfileid: "19840378"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Имя схемы  <br/> |типы схемы  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Имя схемы  <br/> |Схема Types  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [UpdateItem Operation](updateitem-operation.md)
+- [Операция UpdateItem](updateitem-operation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

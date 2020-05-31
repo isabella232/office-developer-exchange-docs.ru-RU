@@ -1,5 +1,5 @@
 ---
-title: UserEnabledExtensions
+title: усеренабледекстенсионс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 13719747-08b7-4083-a400-5cfb5e99f177
-description: Элемент UserEnabledExtensions список включенных приложений.
+description: Элемент Усеренабледекстенсионс содержит список включенных приложений.
 ms.openlocfilehash: 4186681fb11f92c769dd0bebc1f6e2f5cf0e03ba
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840418"
 ---
-# <a name="userenabledextensions"></a>UserEnabledExtensions
+# <a name="userenabledextensions"></a>усеренабледекстенсионс
 
-Элемент **UserEnabledExtensions** список включенных приложений. 
+Элемент **усеренабледекстенсионс** содержит список включенных приложений. 
   
 ```XML
 <UserEnabledExtensions>
@@ -25,10 +25,10 @@ ms.locfileid: "19840418"
 </UserEnabledExtensions>
 ```
 
- **ArrayOfStringsType**
+ **аррайофстрингстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19840418"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Строка](string.md)
+[String](string.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[UserParameters](userparameters.md)
+[усерпараметерс](userparameters.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19840418"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

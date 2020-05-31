@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 23279750-131b-4e1a-b7d1-be235c4e0891
-description: Элемент FolderChange представляет коллекцию изменений выполняется на одной папке.
+description: Элемент Фолдерчанже представляет коллекцию изменений, которые необходимо выполнить для одной папки.
 ms.openlocfilehash: f25defa9974f7b5dd0c683c7657983741890d45d
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -21,10 +21,10 @@ ms.locfileid: "21354332"
 ---
 # <a name="folderchange"></a>FolderChange
 
-Элемент **FolderChange** представляет коллекцию изменений выполняется на одной папке. 
+Элемент **фолдерчанже** представляет коллекцию изменений, которые необходимо выполнить для одной папки. 
   
 - [UpdateFolder](updatefolder.md) 
-- [FolderChanges](folderchanges.md) 
+- [фолдерчанжес](folderchanges.md) 
 - [FolderChange](folderchange.md)
   
 ```xml
@@ -41,11 +41,11 @@ ms.locfileid: "21354332"
 </FolderChange>
 ```
 
-**FolderChangeType**
+**фолдерчанжетипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -55,19 +55,19 @@ ms.locfileid: "21354332"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Содержит идентификатор и ключ изменения папки для обновления.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Идентифицирует MicrosoftExchange Server 2007 папок, которые можно ссылаться по имени.  <br/> |
-|[Updates (Folder)](updates-folder.md) <br/> |Определяет тип обновления, который выполняется на папку, определяемую средством параметр [FolderId](folderid.md) или [DistinguishedFolderId](distinguishedfolderid.md) элемент.  <br/> |
+|[FolderId](folderid.md) <br/> |Содержит идентификатор и ключ изменения папки, которую требуется обновить.  <br/> |
+|[дистингуишедфолдерид](distinguishedfolderid.md) <br/> |Определяет Майкрософт Exchange Server 2007 папок, на которые можно ссылаться по имени.  <br/> |
+|[Обновления (папка)](updates-folder.md) <br/> |Определяет тип обновления, выполняемого для папки, которая идентифицируется с помощью элемента [FolderId](folderid.md) или [дистингуишедфолдерид](distinguishedfolderid.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderChanges](folderchanges.md) <br/> |Представляет коллекцию изменений для папки.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/UpdateFolder/FolderChanges` <br/> |
+|[фолдерчанжес](folderchanges.md) <br/> |Представляет коллекцию изменений для папки.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/UpdateFolder/FolderChanges` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором работает Exchange Server 2007 с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором установлен сервер Exchange Server 2007 с ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -75,7 +75,7 @@ ms.locfileid: "21354332"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

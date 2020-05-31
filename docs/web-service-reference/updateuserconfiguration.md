@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ccf7c577-f882-477e-9f6f-2f56729f7d77
-description: Элемент UpdateUserConfiguration — запрос на обновление объекта конфигурации пользователя.
+description: Элемент UpdateUserConfiguration представляет запрос на обновление объекта конфигурации пользователя.
 ms.openlocfilehash: 54415677786d8d5b6579f42e6d384c087099ce03
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19840376"
 ---
 # <a name="updateuserconfiguration"></a>UpdateUserConfiguration
 
-Элемент **UpdateUserConfiguration** — запрос на обновление объекта конфигурации пользователя. 
+Элемент **UpdateUserConfiguration** представляет запрос на обновление объекта конфигурации пользователя. 
   
 ```XML
 <UpdateUserConfiguration>
@@ -29,10 +29,10 @@ ms.locfileid: "19840376"
 </UpdateUserConfiguration>
 ```
 
- **UpdateUserConfigurationType**
+ **упдатеусерконфигуратионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19840376"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UserConfiguration](userconfiguration.md) <br/> |Определяет объект конфигурации одного пользователя.  <br/> |
+|[усерконфигуратион](userconfiguration.md) <br/> |Определяет один объект конфигурации пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840376"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19840376"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

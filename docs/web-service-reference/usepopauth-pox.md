@@ -1,5 +1,5 @@
 ---
-title: UsePOPAuth (POX)
+title: Усепопаус (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 28f552d8-6bb8-49b4-a45c-b2053670f1cc
-description: Элемент UsePOPAuth указывает, будет ли сведения о проверке подлинности, который предоставляется для типа учетной записи POP3 также используется для SMTP Simple Mail Transfer Protocol ().
+description: Элемент Усепопаус указывает, используются ли для протокола SMTP сведения для проверки подлинности, предоставляемые для типа учетной записи POP3.
 ms.openlocfilehash: be03568d697b1f5461d49dba388a1d3f1008a67e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840404"
 ---
-# <a name="usepopauth-pox"></a>UsePOPAuth (POX)
+# <a name="usepopauth-pox"></a>Усепопаус (POX)
 
-Элемент **UsePOPAuth** указывает, будет ли сведения о проверке подлинности, который предоставляется для типа учетной записи POP3 также используется для SMTP Simple Mail Transfer Protocol (). 
+Элемент **усепопаус** указывает, используются ли для протокола SMTP сведения для проверки подлинности, предоставляемые для типа учетной записи POP3. 
   
-[Автообнаружение (POX)](autodiscover-pox.md)
+[Служба автообнаружения (POX)](autodiscover-pox.md)
   
 [Ответ (POX)](response-pox.md)
   
@@ -28,7 +28,7 @@ ms.locfileid: "19840404"
   
 [Протокол (POX)](protocol-pox.md)
   
-[UsePOPAuth (POX)](usepopauth-pox.md)
+[Усепопаус (POX)](usepopauth-pox.md)
   
 ```xml
 <UsePOPAuth>on or off</UsePOPAuth>
@@ -36,7 +36,7 @@ ms.locfileid: "19840404"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,19 +50,19 @@ ms.locfileid: "19840404"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиентского компьютера, на котором выполняется Microsoft Exchange Server 2007 с установленной ролью сервера клиентского доступа.  <br/> |
+|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором работает Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение указывает, используется ли также сведения о проверке подлинности, который предоставляется для типа учетной записи POP3 для SMTP. Возможные значения: **и **отключает**** .
+Текстовое значение указывает, используются ли для протокола SMTP сведения для проверки подлинности, предоставляемые для типа учетной записи POP3. Возможные **значения:** **On и on** .
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент **UsePOPAuth** используется только в том случае, если [Тип (POX)](type-pox.md) SMTP. 
+Элемент **усепопаус** используется только в том случае, если [тип (POX)](type-pox.md) — SMTP. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

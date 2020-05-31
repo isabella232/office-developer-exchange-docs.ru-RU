@@ -1,5 +1,5 @@
 ---
-title: Request (POX)
+title: Запрос (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: da54eb32-7ce5-4384-9893-255a2243a959
-description: Элемент запрос содержит запрос к службе автообнаружения.
+description: Элемент Request содержит запрос к службе автообнаружения.
 ms.openlocfilehash: 3f5d5258a92840fe79c4936370323b78aa4715b3
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21354430"
 ---
-# <a name="request-pox"></a>Request (POX)
+# <a name="request-pox"></a>Запрос (POX)
 
-Элемент **запрос** содержит запрос к службе автообнаружения. 
+Элемент **request** содержит запрос к службе автообнаружения. 
   
-- [AutoDiscover (POX)](autodiscover-pox.md) 
-- [Request (POX)](request-pox.md)
+- [Служба автообнаружения (POX)](autodiscover-pox.md) 
+- [Запрос (POX)](request-pox.md)
   
 ```xml
 <Request>
@@ -39,7 +39,7 @@ ms.locfileid: "21354430"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -49,17 +49,17 @@ ms.locfileid: "21354430"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AcceptableResponseSchema (POX)](acceptableresponseschema-pox.md) <br/> |Определяет схему для ответа на службы автообнаружения.  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Указывает адрес электронной почты пользователя.  <br/> |
-|[LegacyDN (POX)](legacydn-pox.md) <br/> |Определяет, устаревшее различающееся имя почтового ящика пользователя.  <br/> |
+|[Акцептаблереспонсесчема (POX)](acceptableresponseschema-pox.md) <br/> |Определяет схему ответа автообнаружения.  <br/> |
+|[EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md) <br/> |Определяет адрес электронной почты пользователя.  <br/> |
+|[LegacyDN (POX)](legacydn-pox.md) <br/> |Определяет почтовый ящик пользователя, используя устаревшее различающееся имя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AutoDiscover (POX)](autodiscover-pox.md) <br/> |Корневой элемент в запросе службы автообнаружения.  <br/> |
+|[Служба автообнаружения (POX)](autodiscover-pox.md) <br/> |Корневой элемент запроса на обнаружение.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

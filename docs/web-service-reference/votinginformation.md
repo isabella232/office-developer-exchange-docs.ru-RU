@@ -1,5 +1,5 @@
 ---
-title: VotingInformation
+title: вотингинформатион
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 351c8dfe-cf8c-45ba-a07d-d764f8189773
-description: Элемент VotingInformation указывает голосования сведения на голосования сообщение и утверждения запроса сообщение whereApproveandRejectare параметров голосования.
+description: Элемент Вотингинформатион указывает сведения о голосовании в сообщении голосования и запросе на утверждение, Вхереаппровеандрежектаре параметры голосования.
 ms.openlocfilehash: f11c25bb1f3a3c4781cfa6c51e11ff87af40c7f0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840478"
 ---
-# <a name="votinginformation"></a>VotingInformation
+# <a name="votinginformation"></a>вотингинформатион
 
-Элемент **VotingInformation** указывает голосования сведения на голосования сообщения и сообщения запроса на утверждение, где «Утверждение» и «Отклонить» имеют параметров голосования. 
+Элемент **вотингинформатион** указывает сведения о голосовании в сообщении голосования и запросе на утверждение, где "утвердить" и "отклонить" — Параметры голосования. 
   
 ```XML
 <VotingInformation
@@ -26,10 +26,10 @@ ms.locfileid: "19840478"
 </VotingInformation>
 ```
 
- **VotingInformationType**
+ **вотингинформатионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19840478"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[UserOptions](useroptions.md) | [VotingResponse](votingresponse.md)
+[Усероптионс](useroptions.md) | [вотингреспонсе](votingresponse.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Message](message-ex15websvcsotherref.md)
+[Сообщение](message-ex15websvcsotherref.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -55,14 +55,14 @@ ms.locfileid: "19840478"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Message](message-ex15websvcsotherref.md)
+[Сообщение](message-ex15websvcsotherref.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

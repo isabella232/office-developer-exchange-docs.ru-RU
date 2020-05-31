@@ -1,5 +1,5 @@
 ---
-title: WorkingHours
+title: воркингхаурс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: bbe97777-f728-46c5-b2aa-565112c24f3a
-description: Элемент WorkingHours представляет параметры часового пояса и рабочие часы для запрошенного почтового ящика пользователя.
+description: Элемент Воркингхаурс представляет параметры часового пояса и рабочие часы для запрошенного пользователя почтового ящика.
 ms.openlocfilehash: c53779422b87adebed370a1ed88e4e91c7a2dcaf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840520"
 ---
-# <a name="workinghours"></a>WorkingHours
+# <a name="workinghours"></a>воркингхаурс
 
-Элемент **WorkingHours** представляет параметры часового пояса и рабочие часы для запрошенного почтового ящика пользователя. 
+Элемент **воркингхаурс** представляет параметры часового пояса и рабочие часы для запрошенного пользователя почтового ящика. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
+[фрибусиреспонсеаррай](freebusyresponsearray.md)
   
-[FreeBusyResponse](freebusyresponse.md)
+[фрибусиреспонсе](freebusyresponse.md)
   
-[FreeBusyView](freebusyview.md)
+[фрибусивиев](freebusyview.md)
   
-[WorkingHours](workinghours-ex15websvcsotherref.md)
+[воркингхаурс](workinghours-ex15websvcsotherref.md)
   
 ```xml
 <WorkingHours>
@@ -40,10 +40,10 @@ ms.locfileid: "19840520"
 </WorkingHours>
 ```
 
- **WorkingHours**
+ **воркингхаурс**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -53,18 +53,18 @@ ms.locfileid: "19840520"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Часовой пояс (доступность)](timezone-availability.md) <br/> |Содержит элементы, чтобы указать часовой пояс сведения. Этот элемент также содержит сведения о переходе между зимнего и летнего времени. Этот элемент является обязательным, если используется элемент **WorkingHours** .  <br/> |
-|[WorkingPeriodArray](workingperiodarray.md) <br/> |Содержит работа периода сведения для пользователя почтового ящика. Этот элемент является обязательным, если используется элемент **WorkingHours** .  <br/> |
+|[Часовой пояс (доступность)](timezone-availability.md) <br/> |Содержит элементы, определяющие сведения о часовом поясе. Этот элемент также содержит сведения о переходе со стандартного времени на летнее время. Этот элемент является обязательным, если используется элемент **воркингхаурс** .  <br/> |
+|[воркингпериодаррай](workingperiodarray.md) <br/> |Содержит сведения о рабочем периоде для пользователя почтового ящика. Этот элемент является обязательным, если используется элемент **воркингхаурс** .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FreeBusyView](freebusyview.md) <br/> |Содержит сведения о доступности для конкретного пользователя.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/` <br/> |
+|[фрибусивиев](freebusyview.md) <br/> |Содержит сведения о доступности для определенного пользователя.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Все дочерние элементы, перечислены в последовательности, в котором они изложены. Уровень детализации, представленные в этом элементе зависит от разрешения, предоставленные для инициатора запроса.
+Все дочерние элементы перечислены в той последовательности, в которой они выполняются. Уровень детализации, предоставляемый этим элементом, зависит от разрешений, предоставленных запрашивающему участнику.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -74,7 +74,7 @@ ms.locfileid: "19840520"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -83,7 +83,7 @@ ms.locfileid: "19840520"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

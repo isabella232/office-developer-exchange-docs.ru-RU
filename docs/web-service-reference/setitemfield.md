@@ -1,5 +1,5 @@
 ---
-title: SetItemField
+title: сетитемфиелд
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 85284fcb-bd1e-4fda-9dab-cb4cd637cd5b
-description: Элемент SetItemField представляет отдельное свойство элемента в рамках одной операции UpdateItem обновление.
+description: Элемент Сетитемфиелд представляет обновление одного свойства элемента в операции UpdateItem.
 ms.openlocfilehash: bd3e5bca3d61325ef3f218c5ada535346247f391
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21353800"
 ---
-# <a name="setitemfield"></a>SetItemField
+# <a name="setitemfield"></a>сетитемфиелд
 
-Элемент **SetItemField** представляет отдельное свойство элемента в рамках одной [операции UpdateItem](updateitem-operation.md)обновление.
+Элемент **сетитемфиелд** представляет обновление одного свойства элемента в [операции UpdateItem](updateitem-operation.md).
   
 ```xml
 <SetItemField>
@@ -234,11 +234,11 @@ ms.locfileid: "21353800"
 ```
 
 
-**SetItemFieldType**
+**сетитемфиелдтипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -248,27 +248,27 @@ ms.locfileid: "21353800"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Идентифицирует часто упоминаемые свойства по URI.  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |Идентифицирует отдельных элементов словаря.  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |Задает расширенные свойства MAPI для установки.  <br/> |
+|[фиелдури](fielduri.md) <br/> |Определяет часто упоминаемые свойства по URI.  <br/> |
+|[индекседфиелдури](indexedfielduri.md) <br/> |Определяет отдельные элементы словаря.  <br/> |
+|[екстендедфиелдури](extendedfielduri.md) <br/> |Определяет устанавливаемые расширенные свойства MAPI.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange для обновления.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange для обновления.  <br/> |
-|[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange для обновления.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки, чтобы обновить.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет сообщение собрания для обновления.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашения на собрание для обновления.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение для обновления.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмены собрания для обновления.  <br/> |
-|[Задача](task.md) <br/> |Представляет задачу для обновления.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange, которое требуется обновить.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange, который необходимо обновить.  <br/> |
+|[контакт](contact.md); <br/> |Представляет элемент контакта Exchange, который необходимо обновить.  <br/> |
+|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки, который необходимо обновить.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании, которое необходимо обновить.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание, которое требуется обновить.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание, который необходимо обновить.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания, которое необходимо обновить.  <br/> |
+|[Task](task.md) <br/> |Представляет задачу, которую необходимо обновить.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Updates (Item)](updates-item.md) <br/> |Содержит набор элементов, которые определяют добавьте, Установка и удаление изменения свойств элемента.  <br/> |
+|[Обновления (элемент)](updates-item.md) <br/> |Содержит набор элементов, определяющих Добавление, установку и удаление изменений свойств элемента.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -278,7 +278,7 @@ ms.locfileid: "21353800"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

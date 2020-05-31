@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 65a7ef52-9992-49b1-b002-868fb2d3a6f6
-description: Элемент URL-адреса указывает массив URL-адресов для пользователя.
+description: Элемент URL указывает массив URL-адресов для пользователя.
 ms.openlocfilehash: ae3cfff6fe9f06f0bb0569e1bddc313b68a7e2e1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19840402"
 ---
 # <a name="urls"></a>Urls
 
-Элемент **URL-адреса** указывает массив URL-адресов для пользователя. 
+Элемент **URL** указывает массив URL-адресов для пользователя. 
   
 ```XML
 <Urls>
@@ -25,10 +25,10 @@ ms.locfileid: "19840402"
 </Urls>
 ```
 
- **ArrayOfUrlsType**
+ **аррайофурлстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19840402"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[URL-адрес](url-ex15websvcsotherref.md)
+[Адрес](url-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Контакт (ContactType)](contact-contacttype.md)
+[Контактное лицо (Контакттипе)](contact-contacttype.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19840402"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

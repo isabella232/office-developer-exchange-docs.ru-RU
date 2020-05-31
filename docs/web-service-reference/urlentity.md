@@ -1,5 +1,5 @@
 ---
-title: UrlEntity
+title: урлентити
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4609903b-c071-4a16-98d2-05686828cc56
-description: Элемент UrlEntity определяет один извлеченный объект URL-адрес.
+description: Элемент Урлентити определяет одну извлеченную сущность URL-адреса.
 ms.openlocfilehash: f7c3e52cd73ed231430307781d9b064077e03597
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840403"
 ---
-# <a name="urlentity"></a>UrlEntity
+# <a name="urlentity"></a>урлентити
 
-Элемент **UrlEntity** определяет один извлеченный объект URL-адрес. 
+Элемент **урлентити** определяет одну извлеченную сущность URL-адреса. 
   
 ```XML
 <UrlEntity>
@@ -26,10 +26,10 @@ ms.locfileid: "19840403"
 </UrlEntity>
 ```
 
- **UrlEntityType**
+ **урлентититипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19840403"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Положение](position.md) | [URL-адрес](url-ex15websvcsotherref.md)
+[Position](position.md) | [URL-адрес](url-ex15websvcsotherref.md) позиции
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[URL-адреса (ArrayOfUrlEntitiesType)](urls-arrayofurlentitiestype.md)
+[URL-адреса (Аррайофурлентитиестипе)](urls-arrayofurlentitiestype.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19840403"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

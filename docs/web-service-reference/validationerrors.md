@@ -1,5 +1,5 @@
 ---
-title: ValidationErrors
+title: валидатионеррорс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 009526aa-22e7-4f5c-be88-079175aa9122
-description: Элемент ValidationErrors представляет массив ошибок проверки правил для каждого правила поля, имеющего ошибку.
+description: Элемент Валидатионеррорс представляет массив ошибок проверки правил для каждого поля правила, которое содержит ошибку.
 ms.openlocfilehash: c95c8057ad2d16a314d33e3738553b495355fd76
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840449"
 ---
-# <a name="validationerrors"></a>ValidationErrors
+# <a name="validationerrors"></a>валидатионеррорс
 
-Элемент **ValidationErrors** представляет массив ошибок проверки правил для каждого правила поля, имеющего ошибку. 
+Элемент **валидатионеррорс** представляет массив ошибок проверки правил для каждого поля правила, которое содержит ошибку. 
   
 ```XML
 <VaidationErrors>
@@ -29,10 +29,10 @@ ms.locfileid: "19840449"
 </ValidationErrors>
 ```
 
- **ArrayOfRuleValidationErrorsType**
+ **аррайофрулевалидатионеррорстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,19 +42,19 @@ ms.locfileid: "19840449"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Error](error.md) <br/> |Представляет ошибку одной проверки на значение свойства определенное правило, значение свойства предиката или значение свойства действия  <br/> |
+|[Ошибка](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RuleOperationError](ruleoperationerror.md) <br/> |Представляет ошибку операции правила.  <br/> |
+|[рулеоператионеррор](ruleoperationerror.md) <br/> |Представляет ошибку операции с правилом.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -64,7 +64,7 @@ ms.locfileid: "19840449"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

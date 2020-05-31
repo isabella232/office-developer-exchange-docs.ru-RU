@@ -1,5 +1,5 @@
 ---
-title: WebClientUrl (SOAP)
+title: Вебклиентурл (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 7f8cb6d6-4aac-4a1f-8bec-2dcb90fc1df6
-description: Элемент WebClientUrl представляет URL-адрес веб-клиент Exchange.
+description: Элемент Вебклиентурл представляет URL-адрес веб-клиента Exchange.
 ms.openlocfilehash: 649845018acee1706a96f9e37475a6d5c5fa0aa7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,15 +16,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840502"
 ---
-# <a name="webclienturl-soap"></a>WebClientUrl (SOAP)
+# <a name="webclienturl-soap"></a>Вебклиентурл (SOAP)
 
-Элемент **WebClientUrl** представляет URL-адрес веб-клиент Exchange. 
+Элемент **вебклиентурл** представляет URL-адрес веб-клиента Exchange. 
   
-[UserSetting (SOAP)](usersetting-soap.md)
+[Усерсеттинг (SOAP)](usersetting-soap.md)
   
-[WebClientUrls (SOAP)](webclienturls-soap.md)
+[Вебклиентурлс (SOAP)](webclienturls-soap.md)
   
-[WebClientUrl (SOAP)](webclienturl-soap.md)
+[Вебклиентурл (SOAP)](webclienturl-soap.md)
   
 ```XML
 <WebClientUrl>
@@ -33,10 +33,10 @@ ms.locfileid: "19840502"
 </WebClientUrl>
 ```
 
- **WebClientUrl**
+ **вебклиентурл**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -46,22 +46,22 @@ ms.locfileid: "19840502"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AuthenticationMethods (SOAP)](authenticationmethods-soap.md) <br/> |Представляет метод проверки подлинности для использования при доступе к указанному URL-АДРЕСУ.  <br/> |
-|[URL-адрес (SOAP)](url-soap.md) <br/> |Представляет веб-адрес, URL-адреса.  <br/> |
+|[Аусентикатионмесодс (SOAP)](authenticationmethods-soap.md) <br/> |Представляет способ проверки подлинности, используемый при доступе к указанному URL-адресу.  <br/> |
+|[URL-адрес (SOAP)](url-soap.md) <br/> |Представляет веб-адрес для URL-адреса.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[WebClientUrls (SOAP)](webclienturls-soap.md) <br/> |Представляет параметр пользователя, который содержит коллекцию элементов **WebClientUrl** .  <br/> |
+|[Вебклиентурлс (SOAP)](webclienturls-soap.md) <br/> |Представляет параметр пользователя, который содержит коллекцию элементов **вебклиентурл** .  <br/> |
    
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,5 +70,5 @@ ms.locfileid: "19840502"
 
 [URL-адрес (SOAP)](url-soap.md)
   
-[WebClientUrls (SOAP)](webclienturls-soap.md)
+[Вебклиентурлс (SOAP)](webclienturls-soap.md)
 

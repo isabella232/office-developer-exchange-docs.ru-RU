@@ -1,11 +1,11 @@
 ---
-title: Получение встречи и собрания с помощью веб-служб Exchange в Exchange
+title: Получение встреч и собраний с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1bae582a-8cb3-4e77-be2a-7e107fad26fe
-description: Узнайте, как получить встречи и собрания с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Сведения о том, как получать встречи и собрания с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: c78d70ca2266bd192b82f644d902ad8c958d2d4a
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -13,16 +13,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 07/28/2018
 ms.locfileid: "21353695"
 ---
-# <a name="get-appointments-and-meetings-by-using-ews-in-exchange"></a>Получение встречи и собрания с помощью веб-служб Exchange в Exchange
+# <a name="get-appointments-and-meetings-by-using-ews-in-exchange"></a>Получение встреч и собраний с помощью EWS в Exchange
 
-Узнайте, как получить встречи и собрания с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Сведения о том, как получать встречи и собрания с помощью управляемого API EWS или EWS в Exchange.
   
-Встречи и собрания можно извлечь из папки календаря с помощью метода управляемый API EWS [CalendarFolder.FindAppointments](http://msdn.microsoft.com/en-us/library/dd636179%28v=exchg.80%29.aspx) или операции [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) веб-служб Exchange. 
+Вы можете получать встречи и собрания из папки "Календарь", используя метод управляемого API [календарфолдер. FindAppointments](http://msdn.microsoft.com/en-us/library/dd636179%28v=exchg.80%29.aspx) EWS или операцию [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS. 
   
-## <a name="get-appointments-by-using-the-ews-managed-api"></a>Получение встречи с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-appointments-by-using-the-ews-managed-api"></a>Получение встреч с помощью управляемого API EWS
 <a name="bk_retrieveappsEWSMA"> </a>
 
-В следующем примере кода показано, как использовать управляемый API EWS для получения пользователя встречи, попадающие между указанным начала и время окончания.
+В приведенном ниже примере кода показано, как использовать управляемый API EWS для получения встреч пользователя, которые находятся между заданным начальным и конечным временем.
   
 ```cs
        // Initialize values for the start and end times, and the number of appointments to retrieve.
@@ -52,7 +52,7 @@ ms.locfileid: "21353695"
 
 <br/>
 
-Ниже приведен выходные данные в примере кода.
+Ниже показан результат выполнения примера кода.
   
 ```text
 The first five appointments on your calendar from 8/21/2013 to 9/20/2013 are: 
@@ -68,10 +68,10 @@ Subject: Tennis at the club Start: 8/22/2013 11:00:00 AM End: 8/22/2013 12:00:00
 Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
 ```
 
-## <a name="get-appointments-by-using-ews"></a>Получение встречи с помощью веб-служб Exchange
+## <a name="get-appointments-by-using-ews"></a>Получение встреч с помощью EWS
 <a name="bk_xml"> </a>
 
-В XML показан запрос операции [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) возвращает идентификатор папки для операции [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) . 
+В следующем XML-коде показан запрос операции- [папки](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) для возврата идентификатора папки для операции [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,7 +97,7 @@ Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
 
 <br/>
 
-В следующем XML показывается **GetFolder** ответа. Обратите внимание, что атрибуты **FolderID** и **ChangeKey** сокращаются для удобства чтения. 
+В приведенном ниже XML-коде показан ответ на **папку** . Обратите внимание, что атрибуты **FolderId** и **чанжекэй** сокращаются для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -128,7 +128,7 @@ Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
 
 <br/>
 
-В следующем XML показывается запроса **FindItem** , используется для возврата запрошенные встреч. Обратите внимание, что атрибуты **FolderID** и **ChangeKey** сокращаются для удобства чтения. 
+В приведенном ниже XML-коде показан запрос **FindItem** , используемый для возврата запрошенных встреч. Обратите внимание, что атрибуты **FolderId** и **чанжекэй** сокращаются для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -160,7 +160,7 @@ Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
 
 <br/>
 
-В следующем XML показывается **FindItem** ответа. Обратите внимание, что атрибуты **ItemID** и **ChangeKey** сокращаются для удобства чтения. 
+В следующем XML-коде показан ответ **FindItem** . Обратите внимание, что атрибуты **ItemId** и **чанжекэй** сокращаются для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -219,20 +219,20 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </s:Envelope>
 ```
 
-## <a name="recurring-meetings-and-the-calendar-view"></a>Повторяющиеся собрания и представление "Календарь"
+## <a name="recurring-meetings-and-the-calendar-view"></a>Повторяющиеся собрания и представление календаря
 <a name="bk_recurring"> </a>
 
-В папке календаря немного отличается от других папок в почтовом ящике, так как вхождений в ряду и исключения из серии повторяющихся не фактические элементов в почтовом ящике, но вместо хранятся во внутренней сети, в виде вложений образца повторения. Это означает, что несмотря на то, что можно создать запрос веб-служб Exchange, который возвращает значения в наборе **запуска** и **Конечное** значения с помощью одного из управляемый API EWS **FindItems** перегрузки метода, например [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) или веб-служб Exchange [ FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) операции, веб-служб Exchange не выглядит через таблицы вложений всех элементов календаря для поиска исключения и вхождений. 
+Папка Calendar немного отличается от других папок в почтовом ящике, так как повторения в повторяющихся рядах и исключения в повторяющихся рядах не являются фактическими элементами в почтовом ящике, а хранятся внутренне как вложения в повторяющейся основной реплике. Это означает, что несмотря на то, что вы можете создать запрос EWS, который возвращает значения между набором **начальных** и **конечных** значений, с помощью одного из методов перегрузки **FindItems** управляемого API EWS, таких как [EXCHANGESERVICE. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) или операция [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) , EWS не просматривает таблицу вложений каждого элемента календаря для поиска исключений и вхождений. 
   
-Вместо этого что Вы действительно хотите сделать — это что-то вроде применение *Dataview* на объединение двух таблиц SQL с помощью объекта [представления календаря](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx) . Обратите внимание на то, что в целях повышения производительности рекомендуется использовать свойство [PropertySet](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) для ограничения размера ответа, указывающее количество встречи или собрания, которые вы хотите получить, а также набор свойств, которые требуется. 
+Вместо этого вы можете использовать объект *DataView* на объединении двух таблиц SQL с помощью объекта [CalendarView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx) . Обратите внимание, что в целях повышения производительности мы рекомендуем использовать свойство [Property](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) , чтобы ограничить размер ответа, указав количество возвращаемых встреч и собраний, а также определенные свойства. 
   
 ## <a name="see-also"></a>См. также
 <a name="bk_additional"> </a>
 
 - [Календари и веб-службах Exchange](calendars-and-ews-in-exchange.md)   
-- [Создание встречи и собрания с помощью веб-служб Exchange в Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
+- [Создание встреч и собраний с помощью EWS в Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
 - [Обновление встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
-- [Удаление встреч и отмены собраний с помощью веб-служб Exchange в Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
+- [Удаление встреч и отмена собраний с помощью EWS в Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
 

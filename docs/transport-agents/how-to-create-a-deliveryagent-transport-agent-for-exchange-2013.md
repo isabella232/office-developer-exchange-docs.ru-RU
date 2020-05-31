@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4af904d7-b315-4849-92b1-66018f76ffdf
-description: Узнайте, как создать настраиваемые агента транспорта DeliveryAgent для использования с Exchange 2013.
+description: Узнайте, как создать настраиваемый агент транспорта DeliveryAgent для использования с Exchange 2013.
 ms.openlocfilehash: bc36c7b5e0fb8006c5927d423d7767dcc7382ce0
 ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
@@ -17,23 +17,23 @@ ms.locfileid: "21353310"
 ---
 # <a name="create-a-deliveryagent-transport-agent-for-exchange-2013"></a>Создание агента транспорта DeliveryAgent для Exchange 2013
 
-Узнайте, как создать настраиваемые агента транспорта DeliveryAgent для использования с Exchange 2013.
+Узнайте, как создать настраиваемый агент транспорта DeliveryAgent для использования с Exchange 2013.
   
 **Применимо к:** Exchange Server 2013
   
-[DeliveryAgentFactory\<диспетчера\> ](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) и [DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) классы являются базовые классы для агенты транспорта, которые предназначены для выполнения в службе транспорта на сервере почтовых ящиков Exchange Server 2013. Обработчики могут реализовать в вашей DeliveryAgent агента транспорта для событий, предоставляемых классом [DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) , перечисленные в следующей таблице. 
+Классы [деливеряжентфактори\<Manager\> ](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) и [DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) являются базовыми классами для агентов транспорта, которые предназначены для запуска в службе транспорта на сервере почтовых ящиков Exchange Server 2013. Вы можете реализовать обработчики в агенте транспорта DeliveryAgent для событий, предоставляемых классом [DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) , которые перечислены в следующей таблице. 
   
-**В таблице 1. События класса DeliveryAgent**
+**Таблица 1. События класса DeliveryAgent**
 
-|**Событие**|**Описание**|
+|**Event**|**Описание**|
 |:-----|:-----|
-|[OnCloseConnection](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx) <br/> |Возникает после последнего элемента почты было доставлено и закрытия подключения.  <br/> |
-|[OnDeliverMailItem](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx) <br/> |Происходит, когда элемент почты готова к доставки.  <br/> |
-|[OnOpenConnection](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx) <br/> |Происходит при открытии агента доставки для доставки электронной почты.  <br/> |
+|[онклосеконнектион](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx) <br/> |Происходит после доставки последней почтовой позиции и закрытия подключения.  <br/> |
+|[онделивермаилитем](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx) <br/> |Происходит, когда почтовый элемент готов к доставке.  <br/> |
+|[онопенконнектион](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx) <br/> |Возникает при открытии агента доставки для доставки почты.  <br/> |
    
-## <a name="creating-a-custom-deliveryagent-transport-agent"></a>Создание настраиваемых DeliveryAgent агента транспорта
+## <a name="creating-a-custom-deliveryagent-transport-agent"></a>Создание настраиваемого агента транспорта DeliveryAgent
 
-Следующая процедура описывается создание пользовательских DeliveryAgent агента транспорта. 
+В следующей процедуре описано, как создать настраиваемый агент транспорта DeliveryAgent. 
   
 ### <a name="to-create-the-transport-agent"></a>Создание агента транспорта
 
@@ -45,9 +45,9 @@ ms.locfileid: "21353310"
     
    ```
 
-   Эти пространства имен можно найти на сервере Exchange. Добавление ссылки на следующие пространства имен, имеется доступ к членам [DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) . 
+   Эти пространства имен можно найти на сервере Exchange. Добавив ссылку на эти пространства имен, вы получите доступ к элементам [DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) . 
     
-2. Реализация производного класса для [DeliveryAgentFactory\<диспетчера\> ](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) класса. 
+2. Реализуйте производный класс для [класса\<диспетчера\> деливеряжентфактори](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) . 
     
    ```cs
       public class MyDeliveryAgentFactory : DeliveryAgentFactory<MyDeliveryAgentFactory.MyDeliveryAgentManager>
@@ -73,9 +73,9 @@ ms.locfileid: "21353310"
   
    ```
 
-   Этот код будет создать экземпляр производного класса и переопределить метод **CreateAgent** для создания экземпляра настраиваемого агент. Дополнительные методы, такие как **Закрытие**, можно также переопределить в этом классе для выполнения пользовательского кода. Класс [DeliveryAgentManager](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.aspx) создается переопределить свойство [SupportedDeliveryProtocol](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.SupportedDeliveryProtocol.aspx) и задать протокола, который будет использоваться агентом. 
+   В этом коде создается экземпляр производного класса и переопределяется метод **креатеажент** для создания экземпляра нового настраиваемого агента. Дополнительные методы, такие как **Close**, также могут быть переопределены в этом классе для выполнения пользовательского кода. Класс [деливеряжентманажер](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.aspx) создается для переопределения свойства [суппортедделиверипротокол](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.SupportedDeliveryProtocol.aspx) и установки протокола, который будет использоваться агентом. 
     
-3. Определение агента.
+3. Определите свой агент.
     
    ```cs
       public class MyDeliveryAgent : DeliveryAgent
@@ -90,11 +90,11 @@ ms.locfileid: "21353310"
   
    ```
 
-   После определения класса агента вы можно добавить пользовательские функции. В этом примере, три события, [OnCloseConnection](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx), [OnDeliverMailItem](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx)и [OnOpenConnection](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx)перенаправляются к настраиваемым обработчикам событий. 
+   Определив класс агента, вы можете добавить пользовательские функции. В этом примере три события, [онклосеконнектион](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx), [онделивермаилитем](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx)и [онопенконнектион](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx), перенаправляются в обработчики пользовательских событий. 
     
 ## <a name="see-also"></a>См. также
 
-- [Транспорта концепции агентов в Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
-- [Справочник по агента транспорта для Exchange 2013](transport-agent-reference-for-exchange-2013.md)          
+- [Основные понятия, связанные с агентами транспорта в Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
+- [Справочник по агентам транспорта для Exchange 2013](transport-agent-reference-for-exchange-2013.md)          
 
  

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a88cbe99-7968-454d-a545-4f92c330909f
-description: Операция UploadItems загружает поток элементов в почтовый ящик Exchange.
+description: Операция UploadItems отправляет поток элементов в почтовый ящик Exchange.
 ms.openlocfilehash: 6b002d531c7011b18ae1f88adfc2923d5a51e81c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,18 +21,18 @@ ms.locfileid: "19840386"
 ---
 # <a name="uploaditems-operation"></a>Операция UploadItems
 
-Операция **UploadItems** загружает поток элементов в почтовый ящик Exchange. 
+Операция **UploadItems** отправляет поток элементов в почтовый ящик Exchange. 
   
 > [!IMPORTANT]
-> Операция **UploadItems** ограничен полезных максимальное импорта 25 МБ данных в кодировке base64 в MicrosoftExchange Server 2010 с пакетом обновления 1 (SP1). Параметр может быть изменен в файле web.config. 
+> Операция **UploadItems** ограничена в майкрософт exchange Server 2010 с пакетом обновления 1 (SP1) до максимальной полезных данных импорта 25MB данных, закодированных с помощью Base64. Параметр можно изменить в файле Web. config. 
   
 ## <a name="uploaditems-request-example"></a>Пример запроса UploadItems
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **UploadItems** показано, как загружать два элемента в почтовом ящике. Первый элемент — это новый элемент. Второй элемент является обновленной версией существующего элемента в почтовом ящике. 
+В приведенном ниже примере запроса **UploadItems** показано, как отправить два элемента в почтовый ящик. Первый элемент — новый элемент. Второй элемент представляет собой обновленную версию существующего элемента в почтовом ящике. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -78,35 +78,35 @@ ms.locfileid: "19840386"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификаторы и данные элементов URL были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы и данные элементов были сокращены, чтобы сохранить удобочитаемость.
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
-- [RequestServerVersion](requestserverversion.md)
+- [рекуестсерверверсион](requestserverversion.md)
     
 - [UploadItems](uploaditems.md)
     
-- [Элементы (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
+- [Элементы (Нонемптяррайофуплоадитемстипе)](items-nonemptyarrayofuploaditemstype.md)
     
-- [Элемент (UploadItemType)](item-uploaditemtype.md)
+- [Элемент (Уплоадитемтипе)](item-uploaditemtype.md)
     
 - [ParentFolderId](parentfolderid.md)
     
-- [Данные (base64Binary)](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
 ## <a name="successful-uploaditems-response-example"></a>Пример успешного ответа UploadItems
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **UploadItems** . 
+В следующем примере показан успешный ответ на запрос **UploadItems** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -141,33 +141,33 @@ ms.locfileid: "19840386"
 </s:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификаторы элементов URL-были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы элементов были сокращены для сохранения удобочитаемости.
   
-### <a name="response-elements"></a>Элементы ответа
+### <a name="response-elements"></a>Элементы Response
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [UploadItemsResponse](uploaditemsresponse.md)
+- [уплоадитемсреспонсе](uploaditemsresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [UploadItemsResponseMessage](uploaditemsresponsemessage.md)
+- [уплоадитемсреспонсемессаже](uploaditemsresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-## <a name="uploaditems-error-response-example"></a>Пример ответа об ошибке UploadItems
+## <a name="uploaditems-error-response-example"></a>Пример ответа на сообщение об ошибке UploadItems
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ответа на запрос **UploadItems** , который содержит ошибки, возникающие при попытке обновить элемент, который не удается найти в почтовом ящике. 
+В приведенном ниже примере показан ответ на запрос **UploadItems** , который содержит ошибку, вызванную попыткой обновления элемента, который не удается найти в почтовом ящике. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -199,23 +199,23 @@ ms.locfileid: "19840386"
 </s:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [UploadItemsResponse](uploaditemsresponse.md)
+- [уплоадитемсреспонсе](uploaditemsresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [UploadItemsResponseMessage](uploaditemsresponsemessage.md)
+- [уплоадитемсреспонсемессаже](uploaditemsresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 
