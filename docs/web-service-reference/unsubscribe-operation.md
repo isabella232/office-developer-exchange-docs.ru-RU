@@ -1,5 +1,5 @@
 ---
-title: Отписаться операции
+title: Операция по отмене подписки
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 994a9d2b-1501-4804-90f0-12bd914496ec
-description: Операция отказа от подписки используется для завершения подписку на уведомления о репликации по запросу. Используйте эту операцию, а не позволить время ожидания подписки. Эта операция допускается только для уведомления по запросу.
+description: Операция unsubscribe используется для завершения подписки на уведомления по запросу. Используйте эту операцию вместо времени ожидания подписки. Эта операция допустима только для уведомлений о опрашивающей репликации.
 ms.openlocfilehash: 64514a718d473f0fd7d0320bd1ccecddb1940ac8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840309"
 ---
-# <a name="unsubscribe-operation"></a><span data-ttu-id="b731b-105">Отписаться операции</span><span class="sxs-lookup"><span data-stu-id="b731b-105">Unsubscribe operation</span></span>
+# <a name="unsubscribe-operation"></a><span data-ttu-id="40832-105">Операция по отмене подписки</span><span class="sxs-lookup"><span data-stu-id="40832-105">Unsubscribe operation</span></span>
 
-<span data-ttu-id="b731b-106">Операция отказа от подписки используется для завершения подписку на уведомления о репликации по запросу.</span><span class="sxs-lookup"><span data-stu-id="b731b-106">The Unsubscribe operation is used to end a pull notification subscription.</span></span> <span data-ttu-id="b731b-107">Используйте эту операцию, а не позволить время ожидания подписки.</span><span class="sxs-lookup"><span data-stu-id="b731b-107">Use this operation rather than letting a subscription timeout.</span></span> <span data-ttu-id="b731b-108">Эта операция допускается только для уведомления по запросу.</span><span class="sxs-lookup"><span data-stu-id="b731b-108">This operation is only valid for pull notifications.</span></span>
+<span data-ttu-id="40832-106">Операция unsubscribe используется для завершения подписки на уведомления по запросу.</span><span class="sxs-lookup"><span data-stu-id="40832-106">The Unsubscribe operation is used to end a pull notification subscription.</span></span> <span data-ttu-id="40832-107">Используйте эту операцию вместо времени ожидания подписки.</span><span class="sxs-lookup"><span data-stu-id="40832-107">Use this operation rather than letting a subscription timeout.</span></span> <span data-ttu-id="40832-108">Эта операция допустима только для уведомлений о опрашивающей репликации.</span><span class="sxs-lookup"><span data-stu-id="40832-108">This operation is only valid for pull notifications.</span></span>
   
-## <a name="unsubscribe-request-example"></a><span data-ttu-id="b731b-109">Пример запроса отписаться</span><span class="sxs-lookup"><span data-stu-id="b731b-109">Unsubscribe request example</span></span>
+## <a name="unsubscribe-request-example"></a><span data-ttu-id="40832-109">Пример запроса unsubscribe</span><span class="sxs-lookup"><span data-stu-id="40832-109">Unsubscribe request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="b731b-110">Описание</span><span class="sxs-lookup"><span data-stu-id="b731b-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="40832-110">Описание</span><span class="sxs-lookup"><span data-stu-id="40832-110">Description</span></span>
 
-<span data-ttu-id="b731b-111">В следующем примере показано сообщение SOAP XML, которое отправляется Чтобы отписаться от службы уведомлений в клиент.</span><span class="sxs-lookup"><span data-stu-id="b731b-111">The following example shows the SOAP XML message that is sent to unsubscribe a client from the Notification service.</span></span>
+<span data-ttu-id="40832-111">В следующем примере показано SOAP-сообщение SOAP, отправляемое для отмены подписки клиента из службы уведомлений.</span><span class="sxs-lookup"><span data-stu-id="40832-111">The following example shows the SOAP XML message that is sent to unsubscribe a client from the Notification service.</span></span>
   
-### <a name="code"></a><span data-ttu-id="b731b-112">Программа</span><span class="sxs-lookup"><span data-stu-id="b731b-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="40832-112">Код</span><span class="sxs-lookup"><span data-stu-id="40832-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -43,21 +43,21 @@ ms.locfileid: "19840309"
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-request-elements"></a><span data-ttu-id="b731b-113">Отписаться элементы запроса</span><span class="sxs-lookup"><span data-stu-id="b731b-113">Unsubscribe request elements</span></span>
+### <a name="unsubscribe-request-elements"></a><span data-ttu-id="40832-113">Элементы запроса отменять подписку</span><span class="sxs-lookup"><span data-stu-id="40832-113">Unsubscribe request elements</span></span>
 
-<span data-ttu-id="b731b-114">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="b731b-114">The following elements are used in the request:</span></span>
+<span data-ttu-id="40832-114">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="40832-114">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="b731b-115">Отписаться</span><span class="sxs-lookup"><span data-stu-id="b731b-115">Unsubscribe</span></span>](unsubscribe.md)
+- [<span data-ttu-id="40832-115">Отмена подписки</span><span class="sxs-lookup"><span data-stu-id="40832-115">Unsubscribe</span></span>](unsubscribe.md)
     
-- [<span data-ttu-id="b731b-116">SubscriptionId (GetEvents)</span><span class="sxs-lookup"><span data-stu-id="b731b-116">SubscriptionId (GetEvents)</span></span>](subscriptionid-getevents.md)
+- [<span data-ttu-id="40832-116">SubscriptionId (Events)</span><span class="sxs-lookup"><span data-stu-id="40832-116">SubscriptionId (GetEvents)</span></span>](subscriptionid-getevents.md)
     
-## <a name="successful-unsubscribe-response-example"></a><span data-ttu-id="b731b-117">Пример успешного ответа отказа от подписки</span><span class="sxs-lookup"><span data-stu-id="b731b-117">Successful Unsubscribe response example</span></span>
+## <a name="successful-unsubscribe-response-example"></a><span data-ttu-id="40832-117">Пример успешного отклика отмены подписки</span><span class="sxs-lookup"><span data-stu-id="40832-117">Successful Unsubscribe response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="b731b-118">Описание</span><span class="sxs-lookup"><span data-stu-id="b731b-118">Description</span></span>
+### <a name="description"></a><span data-ttu-id="40832-118">Описание</span><span class="sxs-lookup"><span data-stu-id="40832-118">Description</span></span>
 
-<span data-ttu-id="b731b-119">В следующем примере показано успешного ответа на запрос отказа от подписки.</span><span class="sxs-lookup"><span data-stu-id="b731b-119">The following example shows a successful response to an Unsubscribe request.</span></span>
+<span data-ttu-id="40832-119">В следующем примере показан успешный ответ на запрос отказа от подписки.</span><span class="sxs-lookup"><span data-stu-id="40832-119">The following example shows a successful response to an Unsubscribe request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="b731b-120">Программа</span><span class="sxs-lookup"><span data-stu-id="b731b-120">Code</span></span>
+### <a name="code"></a><span data-ttu-id="40832-120">Код</span><span class="sxs-lookup"><span data-stu-id="40832-120">Code</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -82,27 +82,27 @@ ms.locfileid: "19840309"
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-response-elements"></a><span data-ttu-id="b731b-121">Отписаться элементы ответа</span><span class="sxs-lookup"><span data-stu-id="b731b-121">Unsubscribe response elements</span></span>
+### <a name="unsubscribe-response-elements"></a><span data-ttu-id="40832-121">Элементы отклика для отмены подписки</span><span class="sxs-lookup"><span data-stu-id="40832-121">Unsubscribe response elements</span></span>
 
-<span data-ttu-id="b731b-122">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="b731b-122">The following elements are used in the response:</span></span>
+<span data-ttu-id="40832-122">В отклике используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="40832-122">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="b731b-123">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="b731b-123">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="40832-123">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="40832-123">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="b731b-124">Отписаться</span><span class="sxs-lookup"><span data-stu-id="b731b-124">Unsubscribe</span></span>](unsubscribe.md)
+- [<span data-ttu-id="40832-124">Отмена подписки</span><span class="sxs-lookup"><span data-stu-id="40832-124">Unsubscribe</span></span>](unsubscribe.md)
     
-- [<span data-ttu-id="b731b-125">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="b731b-125">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="40832-125">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="40832-125">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="b731b-126">UnsubscribeResponseMessage</span><span class="sxs-lookup"><span data-stu-id="b731b-126">UnsubscribeResponseMessage</span></span>](unsubscriberesponsemessage.md)
+- [<span data-ttu-id="40832-126">унсубскрибереспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="40832-126">UnsubscribeResponseMessage</span></span>](unsubscriberesponsemessage.md)
     
-- [<span data-ttu-id="b731b-127">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="b731b-127">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="40832-127">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="40832-127">ResponseCode</span></span>](responsecode.md)
     
-## <a name="unsubscribe-error-response-example"></a><span data-ttu-id="b731b-128">Пример ответа об ошибке отписаться</span><span class="sxs-lookup"><span data-stu-id="b731b-128">Unsubscribe Error response example</span></span>
+## <a name="unsubscribe-error-response-example"></a><span data-ttu-id="40832-128">Пример отклика об отмене подписки</span><span class="sxs-lookup"><span data-stu-id="40832-128">Unsubscribe Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="b731b-129">Описание</span><span class="sxs-lookup"><span data-stu-id="b731b-129">Description</span></span>
+### <a name="description"></a><span data-ttu-id="40832-129">Описание</span><span class="sxs-lookup"><span data-stu-id="40832-129">Description</span></span>
 
-<span data-ttu-id="b731b-130">В следующем примере возврату ошибки отказа от подписки происходит в ответ на при попытке отменить подписку, используя идентификатор подписки, который не удается найти в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="b731b-130">The following example of an Unsubscribe error response occurs in response to an attempt to unsubscribe by using a subscription identifier that cannot be located in the Exchange store.</span></span>
+<span data-ttu-id="40832-130">Следующий пример ответа об отказе от подписки возникает в ответ на попытку отменить подписку с помощью идентификатора подписки, который не удается найти в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="40832-130">The following example of an Unsubscribe error response occurs in response to an attempt to unsubscribe by using a subscription identifier that cannot be located in the Exchange store.</span></span>
   
-### <a name="code"></a><span data-ttu-id="b731b-131">Программа</span><span class="sxs-lookup"><span data-stu-id="b731b-131">Code</span></span>
+### <a name="code"></a><span data-ttu-id="40832-131">Код</span><span class="sxs-lookup"><span data-stu-id="40832-131">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -129,27 +129,27 @@ ms.locfileid: "19840309"
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-error-response-elements"></a><span data-ttu-id="b731b-132">Отписаться элементы ответа об ошибках</span><span class="sxs-lookup"><span data-stu-id="b731b-132">Unsubscribe Error response elements</span></span>
+### <a name="unsubscribe-error-response-elements"></a><span data-ttu-id="40832-132">Элементы отклика на сообщение об ошибке отклика</span><span class="sxs-lookup"><span data-stu-id="40832-132">Unsubscribe Error response elements</span></span>
 
-<span data-ttu-id="b731b-133">В ответ на ошибку используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="b731b-133">The following elements are used in the error response:</span></span>
+<span data-ttu-id="40832-133">В ответе на сообщение об ошибке используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="40832-133">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="b731b-134">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="b731b-134">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="40832-134">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="40832-134">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="b731b-135">UnsubscribeResponse</span><span class="sxs-lookup"><span data-stu-id="b731b-135">UnsubscribeResponse</span></span>](unsubscriberesponse.md)
+- [<span data-ttu-id="40832-135">унсубскрибереспонсе</span><span class="sxs-lookup"><span data-stu-id="40832-135">UnsubscribeResponse</span></span>](unsubscriberesponse.md)
     
-- [<span data-ttu-id="b731b-136">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="b731b-136">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="40832-136">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="40832-136">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="b731b-137">UnsubscribeResponseMessage</span><span class="sxs-lookup"><span data-stu-id="b731b-137">UnsubscribeResponseMessage</span></span>](unsubscriberesponsemessage.md)
+- [<span data-ttu-id="40832-137">унсубскрибереспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="40832-137">UnsubscribeResponseMessage</span></span>](unsubscriberesponsemessage.md)
     
-- [<span data-ttu-id="b731b-138">MessageText</span><span class="sxs-lookup"><span data-stu-id="b731b-138">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="40832-138">мессажетекст</span><span class="sxs-lookup"><span data-stu-id="40832-138">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="b731b-139">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="b731b-139">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="40832-139">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="40832-139">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="b731b-140">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="b731b-140">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="40832-140">дескриптивелинккэй</span><span class="sxs-lookup"><span data-stu-id="40832-140">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-## <a name="see-also"></a><span data-ttu-id="b731b-141">См. также</span><span class="sxs-lookup"><span data-stu-id="b731b-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="40832-141">См. также</span><span class="sxs-lookup"><span data-stu-id="40832-141">See also</span></span>
 
-- [<span data-ttu-id="b731b-142">Операции подписки</span><span class="sxs-lookup"><span data-stu-id="b731b-142">Subscribe operation</span></span>](subscribe-operation.md)
-- [<span data-ttu-id="b731b-143">Операция GetEvents</span><span class="sxs-lookup"><span data-stu-id="b731b-143">GetEvents operation</span></span>](getevents-operation.md)
-- [<span data-ttu-id="b731b-144">С помощью подписки по запросу</span><span class="sxs-lookup"><span data-stu-id="b731b-144">Using Pull Subscriptions</span></span>](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+- [<span data-ttu-id="40832-142">Операции подписки</span><span class="sxs-lookup"><span data-stu-id="40832-142">Subscribe operation</span></span>](subscribe-operation.md)
+- [<span data-ttu-id="40832-143">Операция GetEvents</span><span class="sxs-lookup"><span data-stu-id="40832-143">GetEvents operation</span></span>](getevents-operation.md)
+- [<span data-ttu-id="40832-144">Использование подписок по запросу</span><span class="sxs-lookup"><span data-stu-id="40832-144">Using Pull Subscriptions</span></span>](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

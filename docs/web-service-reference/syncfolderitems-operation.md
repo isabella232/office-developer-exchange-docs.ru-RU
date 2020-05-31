@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7f0de089-8876-47ec-a871-df118ceae75d
-description: Операция SyncFolderItems синхронизирует элементов между сервером Exchange и клиентом.
+description: Операция SyncFolderItems синхронизирует элементы между сервером Exchange Server и клиентом.
 ms.openlocfilehash: 6b2e4694ac793e17a2b7cb2edb2cb9e6a4a105ea
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,23 +19,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19840128"
 ---
-# <a name="syncfolderitems-operation"></a><span data-ttu-id="c2018-103">Операция SyncFolderItems</span><span class="sxs-lookup"><span data-stu-id="c2018-103">SyncFolderItems operation</span></span>
+# <a name="syncfolderitems-operation"></a><span data-ttu-id="5a1a4-103">Операция SyncFolderItems</span><span class="sxs-lookup"><span data-stu-id="5a1a4-103">SyncFolderItems operation</span></span>
 
-<span data-ttu-id="c2018-104">Операция SyncFolderItems синхронизирует элементов между сервером Exchange и клиентом.</span><span class="sxs-lookup"><span data-stu-id="c2018-104">The SyncFolderItems operation synchronizes items between the Exchange server and the client.</span></span>
+<span data-ttu-id="5a1a4-104">Операция SyncFolderItems синхронизирует элементы между сервером Exchange Server и клиентом.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-104">The SyncFolderItems operation synchronizes items between the Exchange server and the client.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c2018-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="c2018-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5a1a4-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="5a1a4-105">Remarks</span></span>
 
-<span data-ttu-id="c2018-106">Операция SyncFolderItems возвращает не более 512 изменения.</span><span class="sxs-lookup"><span data-stu-id="c2018-106">The SyncFolderItems operation will return a maximum of 512 changes.</span></span> <span data-ttu-id="c2018-107">Последующие запросы SyncFolderItems необходимо выполнить, чтобы получить дополнительные изменения.</span><span class="sxs-lookup"><span data-stu-id="c2018-107">Subsequent SyncFolderItems requests must be performed to get additional changes.</span></span> 
+<span data-ttu-id="5a1a4-106">Для операции SyncFolderItems будет возвращено не более 512 изменений.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-106">The SyncFolderItems operation will return a maximum of 512 changes.</span></span> <span data-ttu-id="5a1a4-107">Для получения дополнительных изменений необходимо выполнить последующие запросы SyncFolderItems.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-107">Subsequent SyncFolderItems requests must be performed to get additional changes.</span></span> 
   
-<span data-ttu-id="c2018-108">SyncFolderItems аналогично операции FindItem в том, что оно не может возвратить свойства, такие как текст или вложения.</span><span class="sxs-lookup"><span data-stu-id="c2018-108">SyncFolderItems is similar to the FindItem operation in that it cannot return properties like Body or Attachments.</span></span> <span data-ttu-id="c2018-109">Если операция SyncFolderItems не возвращает свойства, которые требуется, можно с помощью [операции GetItem](getitem-operation.md) получить определенный набор свойств для каждого элемента, возвращаемых с SyncFolderItems.</span><span class="sxs-lookup"><span data-stu-id="c2018-109">If the SyncFolderItems operation does not return the properties that you need, you can use the [GetItem operation](getitem-operation.md) to get a specific set of properties for each item that it returned by SyncFolderItems.</span></span> 
+<span data-ttu-id="5a1a4-108">SyncFolderItems аналогичен операции FindItem, так как она не может возвращать такие свойства, как текст или вложения.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-108">SyncFolderItems is similar to the FindItem operation in that it cannot return properties like Body or Attachments.</span></span> <span data-ttu-id="5a1a4-109">Если операция SyncFolderItems не возвращает нужные свойства, можно использовать [операцию GetItem](getitem-operation.md) для получения определенного набора свойств для каждого элемента, возвращенного SyncFolderItems.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-109">If the SyncFolderItems operation does not return the properties that you need, you can use the [GetItem operation](getitem-operation.md) to get a specific set of properties for each item that it returned by SyncFolderItems.</span></span> 
   
-## <a name="syncfolderitems-request-example"></a><span data-ttu-id="c2018-110">Пример запроса SyncFolderItems</span><span class="sxs-lookup"><span data-stu-id="c2018-110">SyncFolderItems request example</span></span>
+## <a name="syncfolderitems-request-example"></a><span data-ttu-id="5a1a4-110">Пример запроса SyncFolderItems</span><span class="sxs-lookup"><span data-stu-id="5a1a4-110">SyncFolderItems request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="c2018-111">Описание</span><span class="sxs-lookup"><span data-stu-id="c2018-111">Description</span></span>
+### <a name="description"></a><span data-ttu-id="5a1a4-111">Описание</span><span class="sxs-lookup"><span data-stu-id="5a1a4-111">Description</span></span>
 
-<span data-ttu-id="c2018-112">В следующем примере запрос SyncFolderItems показано, как синхронизировать элементы в папке.</span><span class="sxs-lookup"><span data-stu-id="c2018-112">The following example of a SyncFolderItems request shows how to synchronize items in a folder.</span></span> <span data-ttu-id="c2018-113">В этом примере показано, синхронизация элемента папки, который не является первой синхронизации для происходили для этой папке.</span><span class="sxs-lookup"><span data-stu-id="c2018-113">This example shows a folder item's synchronization that is not the first synchronization to have occurred for the Sent Items folder.</span></span> <span data-ttu-id="c2018-114">Элемент [состояние](syncstate-ex15websvcsotherref.md) не входит в запросе для первой попытке синхронизации клиента с сервером Exchange.</span><span class="sxs-lookup"><span data-stu-id="c2018-114">The [SyncState](syncstate-ex15websvcsotherref.md) element is not included in the request for the first attempt to synchronize a client with the Exchange server.</span></span> <span data-ttu-id="c2018-115">Первая попытка синхронизировать элементы в иерархии папок возвращает все элементы в почтовом ящике, кроме элементов, которые определяются в элементе [Игнорировать](ignore.md) .</span><span class="sxs-lookup"><span data-stu-id="c2018-115">The first attempt to synchronize the items in a folder hierarchy will return all the items in the mailbox, excluding items that are identified in the [Ignore](ignore.md) element.</span></span> <span data-ttu-id="c2018-116">Этот запрос SyncFolderItems попытается синхронизировать все изменения элементов папки с момента последней синхронизации.</span><span class="sxs-lookup"><span data-stu-id="c2018-116">This SyncFolderItems request will try to synchronize all changes to the folder items since the last synchronization.</span></span> <span data-ttu-id="c2018-117">Этот запрос будет игнорировать попытке синхронизации одного элемента, который идентифицируется в элементе [Игнорировать](ignore.md) .</span><span class="sxs-lookup"><span data-stu-id="c2018-117">This request will ignore the attempt to synchronize the one item that is identified in the [Ignore](ignore.md) element.</span></span> 
+<span data-ttu-id="5a1a4-112">В приведенном ниже примере запроса SyncFolderItems показано, как синхронизировать элементы в папке.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-112">The following example of a SyncFolderItems request shows how to synchronize items in a folder.</span></span> <span data-ttu-id="5a1a4-113">В этом примере показана синхронизация элемента папки, которая не является первой синхронизацией, которая возникла для папки "Отправленные".</span><span class="sxs-lookup"><span data-stu-id="5a1a4-113">This example shows a folder item's synchronization that is not the first synchronization to have occurred for the Sent Items folder.</span></span> <span data-ttu-id="5a1a4-114">Элемент [синкстате](syncstate-ex15websvcsotherref.md) не включается в запрос первой попытки синхронизации клиента с сервером Exchange.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-114">The [SyncState](syncstate-ex15websvcsotherref.md) element is not included in the request for the first attempt to synchronize a client with the Exchange server.</span></span> <span data-ttu-id="5a1a4-115">При первой попытке синхронизации элементов в иерархии папок будут возвращены все элементы почтового ящика, кроме элементов, указанных в элементе [Ignore](ignore.md) .</span><span class="sxs-lookup"><span data-stu-id="5a1a4-115">The first attempt to synchronize the items in a folder hierarchy will return all the items in the mailbox, excluding items that are identified in the [Ignore](ignore.md) element.</span></span> <span data-ttu-id="5a1a4-116">Этот запрос SyncFolderItems попытается выполнить синхронизацию всех изменений элементов папки с момента последней синхронизации.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-116">This SyncFolderItems request will try to synchronize all changes to the folder items since the last synchronization.</span></span> <span data-ttu-id="5a1a4-117">Этот запрос будет игнорировать попытку синхронизации одного элемента, указанного в элементе [Ignore](ignore.md) .</span><span class="sxs-lookup"><span data-stu-id="5a1a4-117">This request will ignore the attempt to synchronize the one item that is identified in the [Ignore](ignore.md) element.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="c2018-118">Программа</span><span class="sxs-lookup"><span data-stu-id="c2018-118">Code</span></span>
+### <a name="code"></a><span data-ttu-id="5a1a4-118">Код</span><span class="sxs-lookup"><span data-stu-id="5a1a4-118">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -59,39 +59,39 @@ ms.locfileid: "19840128"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="c2018-119">Комментарии</span><span class="sxs-lookup"><span data-stu-id="c2018-119">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="5a1a4-119">Comments</span><span class="sxs-lookup"><span data-stu-id="5a1a4-119">Comments</span></span>
 
-<span data-ttu-id="c2018-120">Данные элемента кодировки Base64 [состояние](syncstate-ex15websvcsotherref.md) и атрибута **Id** элемента [ItemId](itemid.md) URL были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="c2018-120">The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the [ItemId](itemid.md) element **Id** attribute have been shortened to preserve readability.</span></span> 
+<span data-ttu-id="5a1a4-120">Данные элемента [синкстате](syncstate-ex15websvcsotherref.md) с кодировкой base64 и атрибут **идентификатора** элемента [ItemId](itemid.md) были сокращены для сохранения удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-120">The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the [ItemId](itemid.md) element **Id** attribute have been shortened to preserve readability.</span></span> 
   
-### <a name="request-elements"></a><span data-ttu-id="c2018-121">Элементы запроса</span><span class="sxs-lookup"><span data-stu-id="c2018-121">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="5a1a4-121">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="5a1a4-121">Request elements</span></span>
 
-<span data-ttu-id="c2018-122">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c2018-122">The following elements are used in the request:</span></span>
+<span data-ttu-id="5a1a4-122">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="5a1a4-122">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="c2018-123">SyncFolderItems</span><span class="sxs-lookup"><span data-stu-id="c2018-123">SyncFolderItems</span></span>](syncfolderitems.md)
+- [<span data-ttu-id="5a1a4-123">SyncFolderItems</span><span class="sxs-lookup"><span data-stu-id="5a1a4-123">SyncFolderItems</span></span>](syncfolderitems.md)
     
-- [<span data-ttu-id="c2018-124">ItemShape</span><span class="sxs-lookup"><span data-stu-id="c2018-124">ItemShape</span></span>](itemshape.md)
+- [<span data-ttu-id="5a1a4-124">итемшапе</span><span class="sxs-lookup"><span data-stu-id="5a1a4-124">ItemShape</span></span>](itemshape.md)
     
-- [<span data-ttu-id="c2018-125">BaseShape</span><span class="sxs-lookup"><span data-stu-id="c2018-125">BaseShape</span></span>](baseshape.md)
+- [<span data-ttu-id="5a1a4-125">басешапе</span><span class="sxs-lookup"><span data-stu-id="5a1a4-125">BaseShape</span></span>](baseshape.md)
     
-- [<span data-ttu-id="c2018-126">SyncFolderId</span><span class="sxs-lookup"><span data-stu-id="c2018-126">SyncFolderId</span></span>](syncfolderid.md)
+- [<span data-ttu-id="5a1a4-126">синкфолдерид</span><span class="sxs-lookup"><span data-stu-id="5a1a4-126">SyncFolderId</span></span>](syncfolderid.md)
     
-- [<span data-ttu-id="c2018-127">DistinguishedFolderId</span><span class="sxs-lookup"><span data-stu-id="c2018-127">DistinguishedFolderId</span></span>](distinguishedfolderid.md)
+- [<span data-ttu-id="5a1a4-127">дистингуишедфолдерид</span><span class="sxs-lookup"><span data-stu-id="5a1a4-127">DistinguishedFolderId</span></span>](distinguishedfolderid.md)
     
-- [<span data-ttu-id="c2018-128">Состояние</span><span class="sxs-lookup"><span data-stu-id="c2018-128">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
+- [<span data-ttu-id="5a1a4-128">синкстате</span><span class="sxs-lookup"><span data-stu-id="5a1a4-128">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="c2018-129">Пропуск</span><span class="sxs-lookup"><span data-stu-id="c2018-129">Ignore</span></span>](ignore.md)
+- [<span data-ttu-id="5a1a4-129">Ignore</span><span class="sxs-lookup"><span data-stu-id="5a1a4-129">Ignore</span></span>](ignore.md)
     
-- [<span data-ttu-id="c2018-130">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="c2018-130">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="5a1a4-130">Идентификатор</span><span class="sxs-lookup"><span data-stu-id="5a1a4-130">ItemId</span></span>](itemid.md)
     
-- [<span data-ttu-id="c2018-131">MaxChangesReturned</span><span class="sxs-lookup"><span data-stu-id="c2018-131">MaxChangesReturned</span></span>](maxchangesreturned.md)
+- [<span data-ttu-id="5a1a4-131">максчанжесретурнед</span><span class="sxs-lookup"><span data-stu-id="5a1a4-131">MaxChangesReturned</span></span>](maxchangesreturned.md)
     
-## <a name="successful-syncfolderitems-response"></a><span data-ttu-id="c2018-132">Успешного ответа SyncFolderItems</span><span class="sxs-lookup"><span data-stu-id="c2018-132">Successful SyncFolderItems Response</span></span>
+## <a name="successful-syncfolderitems-response"></a><span data-ttu-id="5a1a4-132">Успешный ответ SyncFolderItems</span><span class="sxs-lookup"><span data-stu-id="5a1a4-132">Successful SyncFolderItems Response</span></span>
 
-### <a name="description"></a><span data-ttu-id="c2018-133">Описание</span><span class="sxs-lookup"><span data-stu-id="c2018-133">Description</span></span>
+### <a name="description"></a><span data-ttu-id="5a1a4-133">Описание</span><span class="sxs-lookup"><span data-stu-id="5a1a4-133">Description</span></span>
 
-<span data-ttu-id="c2018-134">В следующем примере показано успешного ответа на запрос SyncFolderItems.</span><span class="sxs-lookup"><span data-stu-id="c2018-134">The following example shows a successful response to the SyncFolderItems request.</span></span> <span data-ttu-id="c2018-135">В этом примере синхронизируется приглашения на собрание, из папки «Отправленные».</span><span class="sxs-lookup"><span data-stu-id="c2018-135">In this example, a meeting request is synchronized from the Sent Items folder.</span></span>
+<span data-ttu-id="5a1a4-134">В следующем примере показан успешный ответ на запрос SyncFolderItems.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-134">The following example shows a successful response to the SyncFolderItems request.</span></span> <span data-ttu-id="5a1a4-135">В этом примере приглашение на собрание синхронизируется из папки "Отправленные".</span><span class="sxs-lookup"><span data-stu-id="5a1a4-135">In this example, a meeting request is synchronized from the Sent Items folder.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c2018-136">Программа</span><span class="sxs-lookup"><span data-stu-id="c2018-136">Code</span></span>
+### <a name="code"></a><span data-ttu-id="5a1a4-136">Код</span><span class="sxs-lookup"><span data-stu-id="5a1a4-136">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -142,71 +142,71 @@ ms.locfileid: "19840128"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="c2018-137">Комментарии</span><span class="sxs-lookup"><span data-stu-id="c2018-137">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="5a1a4-137">Comments</span><span class="sxs-lookup"><span data-stu-id="5a1a4-137">Comments</span></span>
 
-<span data-ttu-id="c2018-138">Данные элемента кодировки Base64 [состояние](syncstate-ex15websvcsotherref.md) и атрибута **Id** элемента [ItemId](itemid.md) URL были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="c2018-138">The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the [ItemId](itemid.md) element **Id** attribute have been shortened to preserve readability.</span></span> 
+<span data-ttu-id="5a1a4-138">Данные элемента [синкстате](syncstate-ex15websvcsotherref.md) с кодировкой base64 и атрибут **идентификатора** элемента [ItemId](itemid.md) были сокращены для сохранения удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-138">The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the [ItemId](itemid.md) element **Id** attribute have been shortened to preserve readability.</span></span> 
   
-### <a name="successful-response-elements"></a><span data-ttu-id="c2018-139">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="c2018-139">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="5a1a4-139">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="5a1a4-139">Successful response elements</span></span>
 
-<span data-ttu-id="c2018-140">В ответе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c2018-140">The following elements are used in the response:</span></span>
+<span data-ttu-id="5a1a4-140">В отклике используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="5a1a4-140">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="c2018-141">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c2018-141">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="5a1a4-141">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="5a1a4-141">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="c2018-142">SyncFolderItemsResponse</span><span class="sxs-lookup"><span data-stu-id="c2018-142">SyncFolderItemsResponse</span></span>](syncfolderitemsresponse.md)
+- [<span data-ttu-id="5a1a4-142">синкфолдеритемсреспонсе</span><span class="sxs-lookup"><span data-stu-id="5a1a4-142">SyncFolderItemsResponse</span></span>](syncfolderitemsresponse.md)
     
-- [<span data-ttu-id="c2018-143">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c2018-143">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="5a1a4-143">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="5a1a4-143">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="c2018-144">SyncFolderItemsResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c2018-144">SyncFolderItemsResponseMessage</span></span>](syncfolderitemsresponsemessage.md)
+- [<span data-ttu-id="5a1a4-144">синкфолдеритемсреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="5a1a4-144">SyncFolderItemsResponseMessage</span></span>](syncfolderitemsresponsemessage.md)
     
-- [<span data-ttu-id="c2018-145">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c2018-145">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="5a1a4-145">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="5a1a4-145">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="c2018-146">Состояние</span><span class="sxs-lookup"><span data-stu-id="c2018-146">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
+- [<span data-ttu-id="5a1a4-146">синкстате</span><span class="sxs-lookup"><span data-stu-id="5a1a4-146">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="c2018-147">IncludesLastItemInRange</span><span class="sxs-lookup"><span data-stu-id="c2018-147">IncludesLastItemInRange</span></span>](includeslastiteminrange.md)
+- [<span data-ttu-id="5a1a4-147">инклудесластитеминранже</span><span class="sxs-lookup"><span data-stu-id="5a1a4-147">IncludesLastItemInRange</span></span>](includeslastiteminrange.md)
     
-- [<span data-ttu-id="c2018-148">Изменения (элементы)</span><span class="sxs-lookup"><span data-stu-id="c2018-148">Changes (Items)</span></span>](changes-items.md)
+- [<span data-ttu-id="5a1a4-148">Изменения (элементы)</span><span class="sxs-lookup"><span data-stu-id="5a1a4-148">Changes (Items)</span></span>](changes-items.md)
     
-- [<span data-ttu-id="c2018-149">Создание (ItemSync)</span><span class="sxs-lookup"><span data-stu-id="c2018-149">Create (ItemSync)</span></span>](create-itemsync.md)
+- [<span data-ttu-id="5a1a4-149">Create (Итемсинк)</span><span class="sxs-lookup"><span data-stu-id="5a1a4-149">Create (ItemSync)</span></span>](create-itemsync.md)
     
-- [<span data-ttu-id="c2018-150">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="c2018-150">MeetingRequest</span></span>](meetingrequest.md)
+- [<span data-ttu-id="5a1a4-150">Свойство meetingrequest</span><span class="sxs-lookup"><span data-stu-id="5a1a4-150">MeetingRequest</span></span>](meetingrequest.md)
     
-- [<span data-ttu-id="c2018-151">Идентификатор элемента</span><span class="sxs-lookup"><span data-stu-id="c2018-151">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="5a1a4-151">Идентификатор</span><span class="sxs-lookup"><span data-stu-id="5a1a4-151">ItemId</span></span>](itemid.md)
     
-- [<span data-ttu-id="c2018-152">Subject</span><span class="sxs-lookup"><span data-stu-id="c2018-152">Subject</span></span>](subject.md)
+- [<span data-ttu-id="5a1a4-152">Тема</span><span class="sxs-lookup"><span data-stu-id="5a1a4-152">Subject</span></span>](subject.md)
     
-- [<span data-ttu-id="c2018-153">Уровень конфиденциальности сообщения</span><span class="sxs-lookup"><span data-stu-id="c2018-153">Sensitivity</span></span>](sensitivity.md)
+- [<span data-ttu-id="5a1a4-153">Sensitivity</span><span class="sxs-lookup"><span data-stu-id="5a1a4-153">Sensitivity</span></span>](sensitivity.md)
     
-- [<span data-ttu-id="c2018-154">IsOutOfDate</span><span class="sxs-lookup"><span data-stu-id="c2018-154">IsOutOfDate</span></span>](isoutofdate.md)
+- [<span data-ttu-id="5a1a4-154">IsOutOfDate</span><span class="sxs-lookup"><span data-stu-id="5a1a4-154">IsOutOfDate</span></span>](isoutofdate.md)
     
-- [<span data-ttu-id="c2018-155">HasBeenProcessed</span><span class="sxs-lookup"><span data-stu-id="c2018-155">HasBeenProcessed</span></span>](hasbeenprocessed.md)
+- [<span data-ttu-id="5a1a4-155">хасбинпроцессед</span><span class="sxs-lookup"><span data-stu-id="5a1a4-155">HasBeenProcessed</span></span>](hasbeenprocessed.md)
     
-- [<span data-ttu-id="c2018-156">ResponseType</span><span class="sxs-lookup"><span data-stu-id="c2018-156">ResponseType</span></span>](responsetype.md)
+- [<span data-ttu-id="5a1a4-156">ResponseType</span><span class="sxs-lookup"><span data-stu-id="5a1a4-156">ResponseType</span></span>](responsetype.md)
     
-- [<span data-ttu-id="c2018-157">IntendedFreeBusyStatus</span><span class="sxs-lookup"><span data-stu-id="c2018-157">IntendedFreeBusyStatus</span></span>](intendedfreebusystatus.md)
+- [<span data-ttu-id="5a1a4-157">интендедфрибусистатус</span><span class="sxs-lookup"><span data-stu-id="5a1a4-157">IntendedFreeBusyStatus</span></span>](intendedfreebusystatus.md)
     
-- [<span data-ttu-id="c2018-158">Start</span><span class="sxs-lookup"><span data-stu-id="c2018-158">Start</span></span>](start.md)
+- [<span data-ttu-id="5a1a4-158">Начало</span><span class="sxs-lookup"><span data-stu-id="5a1a4-158">Start</span></span>](start.md)
     
-- [<span data-ttu-id="c2018-159">End</span><span class="sxs-lookup"><span data-stu-id="c2018-159">End </span></span>](end-ex15websvcsotherref.md)
+- [<span data-ttu-id="5a1a4-159">Оканчиваться</span><span class="sxs-lookup"><span data-stu-id="5a1a4-159">End </span></span>](end-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="c2018-160">Location</span><span class="sxs-lookup"><span data-stu-id="c2018-160">Location</span></span>](location.md)
+- [<span data-ttu-id="5a1a4-160">Location</span><span class="sxs-lookup"><span data-stu-id="5a1a4-160">Location</span></span>](location.md)
     
-- [<span data-ttu-id="c2018-161">Организатор</span><span class="sxs-lookup"><span data-stu-id="c2018-161">Organizer</span></span>](organizer.md)
+- [<span data-ttu-id="5a1a4-161">Organizer</span><span class="sxs-lookup"><span data-stu-id="5a1a4-161">Organizer</span></span>](organizer.md)
     
-- [<span data-ttu-id="c2018-162">Mailbox</span><span class="sxs-lookup"><span data-stu-id="c2018-162">Mailbox</span></span>](mailbox.md)
+- [<span data-ttu-id="5a1a4-162">Mailbox</span><span class="sxs-lookup"><span data-stu-id="5a1a4-162">Mailbox</span></span>](mailbox.md)
     
-- [<span data-ttu-id="c2018-163">Имя (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="c2018-163">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
+- [<span data-ttu-id="5a1a4-163">Имя (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="5a1a4-163">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
     
-- [<span data-ttu-id="c2018-164">EmailAddress (NonEmptyStringType)</span><span class="sxs-lookup"><span data-stu-id="c2018-164">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md)
+- [<span data-ttu-id="5a1a4-164">EmailAddress (Нонемптистрингтипе)</span><span class="sxs-lookup"><span data-stu-id="5a1a4-164">EmailAddress (NonEmptyStringType)</span></span>](emailaddress-nonemptystringtype.md)
     
-- [<span data-ttu-id="c2018-165">RoutingType (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="c2018-165">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
+- [<span data-ttu-id="5a1a4-165">Раутингтипе (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="5a1a4-165">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
     
-## <a name="syncfolderitems-error-response"></a><span data-ttu-id="c2018-166">Ошибка SyncFolderItems ответа</span><span class="sxs-lookup"><span data-stu-id="c2018-166">SyncFolderItems error response</span></span>
+## <a name="syncfolderitems-error-response"></a><span data-ttu-id="5a1a4-166">Ответ об ошибке SyncFolderItems</span><span class="sxs-lookup"><span data-stu-id="5a1a4-166">SyncFolderItems error response</span></span>
 
-### <a name="description"></a><span data-ttu-id="c2018-167">Описание</span><span class="sxs-lookup"><span data-stu-id="c2018-167">Description</span></span>
+### <a name="description"></a><span data-ttu-id="5a1a4-167">Описание</span><span class="sxs-lookup"><span data-stu-id="5a1a4-167">Description</span></span>
 
-<span data-ttu-id="c2018-168">В следующем примере показано ошибочный ответ на запрос SyncFolderItems.</span><span class="sxs-lookup"><span data-stu-id="c2018-168">The following example shows an error response to a SyncFolderItems request.</span></span> <span data-ttu-id="c2018-169">Эта ошибка была вызвана недопустимое состояние.</span><span class="sxs-lookup"><span data-stu-id="c2018-169">This error was caused by an invalid SyncState.</span></span>
+<span data-ttu-id="5a1a4-168">В следующем примере показан ответ об ошибке для запроса SyncFolderItems.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-168">The following example shows an error response to a SyncFolderItems request.</span></span> <span data-ttu-id="5a1a4-169">Эта ошибка вызвана недопустимым Синкстате.</span><span class="sxs-lookup"><span data-stu-id="5a1a4-169">This error was caused by an invalid SyncState.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c2018-170">Программа</span><span class="sxs-lookup"><span data-stu-id="c2018-170">Code</span></span>
+### <a name="code"></a><span data-ttu-id="5a1a4-170">Код</span><span class="sxs-lookup"><span data-stu-id="5a1a4-170">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -236,31 +236,31 @@ ms.locfileid: "19840128"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="c2018-171">Элементы ответа об ошибках</span><span class="sxs-lookup"><span data-stu-id="c2018-171">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="5a1a4-171">Элементы ошибочного ответа</span><span class="sxs-lookup"><span data-stu-id="5a1a4-171">Error response elements</span></span>
 
-<span data-ttu-id="c2018-172">В ответ на ошибку используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="c2018-172">The following elements are used in the error response:</span></span>
+<span data-ttu-id="5a1a4-172">В ответе на сообщение об ошибке используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="5a1a4-172">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="c2018-173">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c2018-173">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="5a1a4-173">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="5a1a4-173">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="c2018-174">SyncFolderItemsResponse</span><span class="sxs-lookup"><span data-stu-id="c2018-174">SyncFolderItemsResponse</span></span>](syncfolderitemsresponse.md)
+- [<span data-ttu-id="5a1a4-174">синкфолдеритемсреспонсе</span><span class="sxs-lookup"><span data-stu-id="5a1a4-174">SyncFolderItemsResponse</span></span>](syncfolderitemsresponse.md)
     
-- [<span data-ttu-id="c2018-175">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c2018-175">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="5a1a4-175">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="5a1a4-175">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="c2018-176">SyncFolderItemsResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c2018-176">SyncFolderItemsResponseMessage</span></span>](syncfolderitemsresponsemessage.md)
+- [<span data-ttu-id="5a1a4-176">синкфолдеритемсреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="5a1a4-176">SyncFolderItemsResponseMessage</span></span>](syncfolderitemsresponsemessage.md)
     
-- [<span data-ttu-id="c2018-177">MessageText</span><span class="sxs-lookup"><span data-stu-id="c2018-177">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="5a1a4-177">мессажетекст</span><span class="sxs-lookup"><span data-stu-id="5a1a4-177">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="c2018-178">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c2018-178">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="5a1a4-178">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="5a1a4-178">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="c2018-179">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="c2018-179">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="5a1a4-179">дескриптивелинккэй</span><span class="sxs-lookup"><span data-stu-id="5a1a4-179">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-- [<span data-ttu-id="c2018-180">Состояние</span><span class="sxs-lookup"><span data-stu-id="c2018-180">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
+- [<span data-ttu-id="5a1a4-180">синкстате</span><span class="sxs-lookup"><span data-stu-id="5a1a4-180">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="c2018-181">IncludesLastItemInRange</span><span class="sxs-lookup"><span data-stu-id="c2018-181">IncludesLastItemInRange</span></span>](includeslastiteminrange.md)
+- [<span data-ttu-id="5a1a4-181">инклудесластитеминранже</span><span class="sxs-lookup"><span data-stu-id="5a1a4-181">IncludesLastItemInRange</span></span>](includeslastiteminrange.md)
     
-## <a name="see-also"></a><span data-ttu-id="c2018-182">См. также</span><span class="sxs-lookup"><span data-stu-id="c2018-182">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5a1a4-182">См. также</span><span class="sxs-lookup"><span data-stu-id="5a1a4-182">See also</span></span>
 
 
 
-- [<span data-ttu-id="c2018-183">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="c2018-183">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="5a1a4-183">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="5a1a4-183">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

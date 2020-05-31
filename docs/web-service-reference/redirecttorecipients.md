@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835024"
 ---
-# <a name="redirecttorecipients"></a><span data-ttu-id="601eb-103">RedirectToRecipients</span><span class="sxs-lookup"><span data-stu-id="601eb-103">RedirectToRecipients</span></span>
+# <a name="redirecttorecipients"></a><span data-ttu-id="f9564-103">RedirectToRecipients</span><span class="sxs-lookup"><span data-stu-id="f9564-103">RedirectToRecipients</span></span>
 
-<span data-ttu-id="601eb-104">Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Элемент **RedirectToRecipients** указывает адреса электронной почты, к которым должны перенаправляться сообщения.</span><span class="sxs-lookup"><span data-stu-id="601eb-104">The **RedirectToRecipients** element indicates the e-mail addresses to which messages are to be redirected.</span></span> 
+<span data-ttu-id="f9564-104">Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Элемент **RedirectToRecipients** указывает адреса электронной почты, к которым должны перенаправляться сообщения.</span><span class="sxs-lookup"><span data-stu-id="f9564-104">The **RedirectToRecipients** element indicates the e-mail addresses to which messages are to be redirected.</span></span> 
   
 ```XML
 <RedirectToRecipients>
@@ -29,47 +29,47 @@ ms.locfileid: "19835024"
 </RedirectToRecipients>
 ```
 
- <span data-ttu-id="601eb-105">**ArrayOfEmailAddressesType**</span><span class="sxs-lookup"><span data-stu-id="601eb-105">**ArrayOfEmailAddressesType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="601eb-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="601eb-106">Attributes and elements</span></span>
+ <span data-ttu-id="f9564-105">**аррайофемаиладдрессестипе**</span><span class="sxs-lookup"><span data-stu-id="f9564-105">**ArrayOfEmailAddressesType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="f9564-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="f9564-106">Attributes and elements</span></span>
 
-<span data-ttu-id="601eb-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="601eb-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="f9564-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="f9564-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="601eb-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="601eb-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="f9564-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="f9564-108">Attributes</span></span>
 
-<span data-ttu-id="601eb-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="601eb-109">None.</span></span>
+<span data-ttu-id="f9564-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="f9564-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="601eb-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="601eb-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="f9564-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="f9564-110">Child elements</span></span>
 
-|<span data-ttu-id="601eb-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="601eb-111">**Element**</span></span>|<span data-ttu-id="601eb-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="601eb-112">**Description**</span></span>|
+|<span data-ttu-id="f9564-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="f9564-111">**Element**</span></span>|<span data-ttu-id="f9564-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f9564-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="601eb-113">Адрес (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="601eb-113">Address (EmailAddressType)</span></span>](address-emailaddresstype.md) <br/> |<span data-ttu-id="601eb-114">Представляет адрес электронной почты полностью разрешенной.</span><span class="sxs-lookup"><span data-stu-id="601eb-114">Represents a fully resolved e-mail address.</span></span>  <br/> |
+|[<span data-ttu-id="f9564-113">Адрес (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="f9564-113">Address (EmailAddressType)</span></span>](address-emailaddresstype.md) <br/> |<span data-ttu-id="f9564-114">Представляет адрес электронной почты полностью разрешенной.</span><span class="sxs-lookup"><span data-stu-id="f9564-114">Represents a fully resolved e-mail address.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="601eb-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="601eb-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="f9564-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="f9564-115">Parent elements</span></span>
 
-|<span data-ttu-id="601eb-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="601eb-116">**Element**</span></span>|<span data-ttu-id="601eb-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="601eb-117">**Description**</span></span>|
+|<span data-ttu-id="f9564-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="f9564-116">**Element**</span></span>|<span data-ttu-id="f9564-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f9564-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="601eb-118">Действия</span><span class="sxs-lookup"><span data-stu-id="601eb-118">Actions</span></span>](actions.md) <br/> |<span data-ttu-id="601eb-119">Представляет набор действий, которые доступны для выполнения на сообщение при условия будут выполнены.</span><span class="sxs-lookup"><span data-stu-id="601eb-119">Represents the set of actions that are available to be taken on a message when the conditions are fulfilled.</span></span>  <br/> |
+|[<span data-ttu-id="f9564-118">Действия</span><span class="sxs-lookup"><span data-stu-id="f9564-118">Actions</span></span>](actions.md) <br/> |<span data-ttu-id="f9564-119">Представляет набор действий, которые доступны для выполнения на сообщение при условия будут выполнены.</span><span class="sxs-lookup"><span data-stu-id="f9564-119">Represents the set of actions that are available to be taken on a message when the conditions are fulfilled.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="601eb-120">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="601eb-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="f9564-120">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="f9564-120">Text value</span></span>
 
-<span data-ttu-id="601eb-121">Нет.</span><span class="sxs-lookup"><span data-stu-id="601eb-121">None.</span></span>
+<span data-ttu-id="f9564-121">Нет.</span><span class="sxs-lookup"><span data-stu-id="f9564-121">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="601eb-122">Замечания</span><span class="sxs-lookup"><span data-stu-id="601eb-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f9564-122">Примечания</span><span class="sxs-lookup"><span data-stu-id="f9564-122">Remarks</span></span>
 
-<span data-ttu-id="601eb-123">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="601eb-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="f9564-123">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="f9564-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="601eb-124">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="601eb-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="f9564-124">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="f9564-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="601eb-125">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="601eb-125">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="601eb-126">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="601eb-126">Schema Name</span></span>  <br/> |<span data-ttu-id="601eb-127">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="601eb-127">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="601eb-128">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="601eb-128">Validation File</span></span>  <br/> |<span data-ttu-id="601eb-129">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="601eb-129">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="601eb-130">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="601eb-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="601eb-131">True</span><span class="sxs-lookup"><span data-stu-id="601eb-131">True</span></span>  <br/> |
+|<span data-ttu-id="f9564-125">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="f9564-125">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="f9564-126">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="f9564-126">Schema Name</span></span>  <br/> |<span data-ttu-id="f9564-127">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="f9564-127">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="f9564-128">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="f9564-128">Validation File</span></span>  <br/> |<span data-ttu-id="f9564-129">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="f9564-129">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="f9564-130">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="f9564-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="f9564-131">True</span><span class="sxs-lookup"><span data-stu-id="f9564-131">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="601eb-132">См. также</span><span class="sxs-lookup"><span data-stu-id="601eb-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f9564-132">См. также</span><span class="sxs-lookup"><span data-stu-id="f9564-132">See also</span></span>
 
 
 
-- [<span data-ttu-id="601eb-133">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="601eb-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="f9564-133">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="f9564-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

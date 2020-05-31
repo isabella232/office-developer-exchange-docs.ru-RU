@@ -1,5 +1,5 @@
 ---
-title: ServerHint
+title: серверхинт
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5ac60472-a565-43d1-a5fb-8be0c9511f82
-description: Элемент ServerHint представляет собой отправную точку для отслеживания сообщений в удаленной сети или в лесу.
+description: Элемент Серверхинт представляет отправную точку для отслеживания сообщения на удаленном сайте или в лесу.
 ms.openlocfilehash: 96953f70c239254d15b9d8173f951b52ca95a546
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,56 +19,56 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835376"
 ---
-# <a name="serverhint"></a><span data-ttu-id="221c6-103">ServerHint</span><span class="sxs-lookup"><span data-stu-id="221c6-103">ServerHint</span></span>
+# <a name="serverhint"></a><span data-ttu-id="eba8c-103">серверхинт</span><span class="sxs-lookup"><span data-stu-id="eba8c-103">ServerHint</span></span>
 
-<span data-ttu-id="221c6-104">Элемент **ServerHint** представляет собой отправную точку для отслеживания сообщений в удаленной сети или в лесу.</span><span class="sxs-lookup"><span data-stu-id="221c6-104">The **ServerHint** element represents the starting point for tracking a message in a remote site or forest.</span></span> 
+<span data-ttu-id="eba8c-104">Элемент **серверхинт** представляет отправную точку для отслеживания сообщения на удаленном сайте или в лесу.</span><span class="sxs-lookup"><span data-stu-id="eba8c-104">The **ServerHint** element represents the starting point for tracking a message in a remote site or forest.</span></span> 
   
 ```xml
 <ServerHint/>
 ```
 
- <span data-ttu-id="221c6-105">**string**</span><span class="sxs-lookup"><span data-stu-id="221c6-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="221c6-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="221c6-106">Attributes and elements</span></span>
+ <span data-ttu-id="eba8c-105">**строка**</span><span class="sxs-lookup"><span data-stu-id="eba8c-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="eba8c-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="eba8c-106">Attributes and elements</span></span>
 
-<span data-ttu-id="221c6-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="221c6-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="eba8c-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="eba8c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="221c6-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="221c6-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="eba8c-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="eba8c-108">Attributes</span></span>
 
-<span data-ttu-id="221c6-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="221c6-109">None.</span></span>
+<span data-ttu-id="eba8c-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="eba8c-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="221c6-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="221c6-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="eba8c-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="eba8c-110">Child elements</span></span>
 
-<span data-ttu-id="221c6-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="221c6-111">None.</span></span>
+<span data-ttu-id="eba8c-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="eba8c-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="221c6-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="221c6-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="eba8c-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="eba8c-112">Parent elements</span></span>
 
-|<span data-ttu-id="221c6-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="221c6-113">**Element**</span></span>|<span data-ttu-id="221c6-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="221c6-114">**Description**</span></span>|
+|<span data-ttu-id="eba8c-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="eba8c-113">**Element**</span></span>|<span data-ttu-id="eba8c-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="eba8c-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="221c6-115">FindMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="221c6-115">FindMessageTrackingReport</span></span>](findmessagetrackingreport.md) <br/> |<span data-ttu-id="221c6-116">Задает условия типам сообщений для поиска.</span><span class="sxs-lookup"><span data-stu-id="221c6-116">Specifies criteria for the types of messages to find.</span></span>  <br/> |
+|[<span data-ttu-id="eba8c-115">FindMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="eba8c-115">FindMessageTrackingReport</span></span>](findmessagetrackingreport.md) <br/> |<span data-ttu-id="eba8c-116">Задает условия для типов сообщений, которые требуется найти.</span><span class="sxs-lookup"><span data-stu-id="eba8c-116">Specifies criteria for the types of messages to find.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="221c6-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="221c6-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="eba8c-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="eba8c-117">Text value</span></span>
 
-<span data-ttu-id="221c6-118">Нет.</span><span class="sxs-lookup"><span data-stu-id="221c6-118">None.</span></span>
+<span data-ttu-id="eba8c-118">Нет.</span><span class="sxs-lookup"><span data-stu-id="eba8c-118">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="221c6-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="221c6-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="eba8c-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="eba8c-119">Remarks</span></span>
 
-<span data-ttu-id="221c6-120">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="221c6-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="eba8c-120">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="eba8c-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="221c6-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="221c6-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="eba8c-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="eba8c-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="221c6-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="221c6-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="221c6-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="221c6-123">Schema Name</span></span>  <br/> |<span data-ttu-id="221c6-124">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="221c6-124">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="221c6-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="221c6-125">Validation File</span></span>  <br/> |<span data-ttu-id="221c6-126">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="221c6-126">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="221c6-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="221c6-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="221c6-128">False</span><span class="sxs-lookup"><span data-stu-id="221c6-128">False</span></span>  <br/> |
+|<span data-ttu-id="eba8c-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="eba8c-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="eba8c-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="eba8c-123">Schema Name</span></span>  <br/> |<span data-ttu-id="eba8c-124">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="eba8c-124">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="eba8c-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="eba8c-125">Validation File</span></span>  <br/> |<span data-ttu-id="eba8c-126">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="eba8c-126">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="eba8c-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="eba8c-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="eba8c-128">False</span><span class="sxs-lookup"><span data-stu-id="eba8c-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="221c6-129">См. также</span><span class="sxs-lookup"><span data-stu-id="221c6-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eba8c-129">См. также</span><span class="sxs-lookup"><span data-stu-id="eba8c-129">See also</span></span>
 
 
 
-[<span data-ttu-id="221c6-130">Операция FindMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="221c6-130">FindMessageTrackingReport operation</span></span>](findmessagetrackingreport-operation.md)
+[<span data-ttu-id="eba8c-130">Операция FindMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="eba8c-130">FindMessageTrackingReport operation</span></span>](findmessagetrackingreport-operation.md)
 
 
-- [<span data-ttu-id="221c6-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="221c6-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="eba8c-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="eba8c-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

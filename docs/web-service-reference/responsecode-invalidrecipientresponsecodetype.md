@@ -1,5 +1,5 @@
 ---
-title: ResponseCode (InvalidRecipientResponseCodeType)
+title: Респонсекоде (ИнвалидреЦипиентреспонсекодетипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 582e9caa-d2bc-4be1-a460-739294f9ef18
-description: Элемент ResponseCode предоставляет сведения о почему получатель является недопустимым.
+description: Элемент Респонсекоде предоставляет сведения о причине неправильного получателя.
 ms.openlocfilehash: 3bff99dd1ac6603ce31d5ceb074e73ef48190bb2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,64 +19,64 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835186"
 ---
-# <a name="responsecode-invalidrecipientresponsecodetype"></a><span data-ttu-id="956b8-103">ResponseCode (InvalidRecipientResponseCodeType)</span><span class="sxs-lookup"><span data-stu-id="956b8-103">ResponseCode (InvalidRecipientResponseCodeType)</span></span>
+# <a name="responsecode-invalidrecipientresponsecodetype"></a><span data-ttu-id="3f314-103">Респонсекоде (ИнвалидреЦипиентреспонсекодетипе)</span><span class="sxs-lookup"><span data-stu-id="3f314-103">ResponseCode (InvalidRecipientResponseCodeType)</span></span>
 
-<span data-ttu-id="956b8-104">Элемент **ResponseCode** предоставляет сведения о почему получатель является недопустимым.</span><span class="sxs-lookup"><span data-stu-id="956b8-104">The **ResponseCode** element provides information about why the recipient is invalid.</span></span> 
+<span data-ttu-id="3f314-104">Элемент **респонсекоде** предоставляет сведения о причине неправильного получателя.</span><span class="sxs-lookup"><span data-stu-id="3f314-104">The **ResponseCode** element provides information about why the recipient is invalid.</span></span> 
   
 ```XML
 <ResponseCode>OtherError or RecipientOrganizationNotFederated or CannotObtainTokenFromSTS or SystemPolicyBlocksSharingWithThisRecipient or RecipientOrganizationFederatedWithUnknownTokenIssuer</ResponseCode>
 ```
 
- <span data-ttu-id="956b8-105">**InvalidRecipientResponseCodeType**</span><span class="sxs-lookup"><span data-stu-id="956b8-105">**InvalidRecipientResponseCodeType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="956b8-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="956b8-106">Attributes and elements</span></span>
+ <span data-ttu-id="3f314-105">**инвалидреЦипиентреспонсекодетипе**</span><span class="sxs-lookup"><span data-stu-id="3f314-105">**InvalidRecipientResponseCodeType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="3f314-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="3f314-106">Attributes and elements</span></span>
 
-<span data-ttu-id="956b8-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="956b8-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="3f314-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="3f314-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="956b8-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="956b8-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="3f314-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="3f314-108">Attributes</span></span>
 
-<span data-ttu-id="956b8-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="956b8-109">None.</span></span>
+<span data-ttu-id="3f314-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="3f314-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="956b8-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="956b8-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="3f314-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="3f314-110">Child elements</span></span>
 
-<span data-ttu-id="956b8-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="956b8-111">None.</span></span>
+<span data-ttu-id="3f314-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="3f314-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="956b8-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="956b8-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="3f314-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="3f314-112">Parent elements</span></span>
 
-|<span data-ttu-id="956b8-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="956b8-113">**Element**</span></span>|<span data-ttu-id="956b8-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="956b8-114">**Description**</span></span>|
+|<span data-ttu-id="3f314-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="3f314-113">**Element**</span></span>|<span data-ttu-id="3f314-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3f314-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="956b8-115">InvalidRecipient</span><span class="sxs-lookup"><span data-stu-id="956b8-115">InvalidRecipient</span></span>](invalidrecipient.md) <br/> |<span data-ttu-id="956b8-116">Содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым.</span><span class="sxs-lookup"><span data-stu-id="956b8-116">Contains the SMTP address of the invalid recipient and information about why the recipient is invalid.</span></span>  <br/> |
+|[<span data-ttu-id="3f314-115">инвалидреЦипиент</span><span class="sxs-lookup"><span data-stu-id="3f314-115">InvalidRecipient</span></span>](invalidrecipient.md) <br/> |<span data-ttu-id="3f314-116">Содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым.</span><span class="sxs-lookup"><span data-stu-id="3f314-116">Contains the SMTP address of the invalid recipient and information about why the recipient is invalid.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="956b8-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="956b8-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="3f314-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="3f314-117">Text value</span></span>
 
-<span data-ttu-id="956b8-118">В следующей таблице приведены возможные значения для элемента **ResponseCode** .</span><span class="sxs-lookup"><span data-stu-id="956b8-118">The following table lists the possible values for the **ResponseCode** element.</span></span> 
+<span data-ttu-id="3f314-118">В следующей таблице приведены возможные значения для элемента **респонсекоде** .</span><span class="sxs-lookup"><span data-stu-id="3f314-118">The following table lists the possible values for the **ResponseCode** element.</span></span> 
   
-|<span data-ttu-id="956b8-119">**Код**</span><span class="sxs-lookup"><span data-stu-id="956b8-119">**Code**</span></span>|<span data-ttu-id="956b8-120">**Описание**</span><span class="sxs-lookup"><span data-stu-id="956b8-120">**Description**</span></span>|
+|<span data-ttu-id="3f314-119">**Код**</span><span class="sxs-lookup"><span data-stu-id="3f314-119">**Code**</span></span>|<span data-ttu-id="3f314-120">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3f314-120">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="956b8-121">OtherError</span><span class="sxs-lookup"><span data-stu-id="956b8-121">OtherError</span></span>  <br/> |<span data-ttu-id="956b8-122">Указывает, что ошибки не указан с другой код ошибки.</span><span class="sxs-lookup"><span data-stu-id="956b8-122">Indicates that the error is not specified by another error response code.</span></span>  <br/> |
-|<span data-ttu-id="956b8-123">RecipientOrganizationNotFederated</span><span class="sxs-lookup"><span data-stu-id="956b8-123">RecipientOrganizationNotFederated</span></span>  <br/> |<span data-ttu-id="956b8-124">Указывает, что отношение общего доступа не доступен с организацией, указанного в поле адрес электронной почты получателя SMTP.</span><span class="sxs-lookup"><span data-stu-id="956b8-124">Indicates that a sharing relationship is not available with the organization specified in the recipient's SMTP e-mail address.</span></span>  <br/> |
-|<span data-ttu-id="956b8-125">CannotObtainTokenFromSTS</span><span class="sxs-lookup"><span data-stu-id="956b8-125">CannotObtainTokenFromSTS</span></span>  <br/> |<span data-ttu-id="956b8-126">Указывает, что возникла проблема получение маркера безопасности на основе сервера маркеров.</span><span class="sxs-lookup"><span data-stu-id="956b8-126">Indicates that there was a problem obtaining a security token from the token server.</span></span>  <br/> |
-|<span data-ttu-id="956b8-127">SystemPolicyBlocksSharingWithThisRecipient</span><span class="sxs-lookup"><span data-stu-id="956b8-127">SystemPolicyBlocksSharingWithThisRecipient</span></span>  <br/> |<span data-ttu-id="956b8-128">Указывает, что системный администратор значение системной политики, который блокирует общий доступ для указанного получателя.</span><span class="sxs-lookup"><span data-stu-id="956b8-128">Indicates that the system administrator has set a system policy that blocks sharing with the specified recipient.</span></span>  <br/> |
-|<span data-ttu-id="956b8-129">RecipientOrganizationFederatedWithUnknownTokenIssuer</span><span class="sxs-lookup"><span data-stu-id="956b8-129">RecipientOrganizationFederatedWithUnknownTokenIssuer</span></span>  <br/> |<span data-ttu-id="956b8-130">Указывает, что службы маркеров безопасности, используемый для указанного получателя неизвестно.</span><span class="sxs-lookup"><span data-stu-id="956b8-130">Indicates that the secure token service that is used by the specified recipient is unknown.</span></span>  <br/> |
+|<span data-ttu-id="3f314-121">осереррор</span><span class="sxs-lookup"><span data-stu-id="3f314-121">OtherError</span></span>  <br/> |<span data-ttu-id="3f314-122">Указывает на то, что ошибка не указана другим кодом ответа на сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="3f314-122">Indicates that the error is not specified by another error response code.</span></span>  <br/> |
+|<span data-ttu-id="3f314-123">реЦипиенторганизатионнотфедератед</span><span class="sxs-lookup"><span data-stu-id="3f314-123">RecipientOrganizationNotFederated</span></span>  <br/> |<span data-ttu-id="3f314-124">Указывает, что отношение общего доступа недоступно в Организации, указанной в SMTP-адресе электронной почты получателя.</span><span class="sxs-lookup"><span data-stu-id="3f314-124">Indicates that a sharing relationship is not available with the organization specified in the recipient's SMTP e-mail address.</span></span>  <br/> |
+|<span data-ttu-id="3f314-125">каннотобтаинтокенфромстс</span><span class="sxs-lookup"><span data-stu-id="3f314-125">CannotObtainTokenFromSTS</span></span>  <br/> |<span data-ttu-id="3f314-126">Указывает, что при получении маркера безопасности от сервера маркеров возникла проблема.</span><span class="sxs-lookup"><span data-stu-id="3f314-126">Indicates that there was a problem obtaining a security token from the token server.</span></span>  <br/> |
+|<span data-ttu-id="3f314-127">системполициблокксшарингвиссисреЦипиент</span><span class="sxs-lookup"><span data-stu-id="3f314-127">SystemPolicyBlocksSharingWithThisRecipient</span></span>  <br/> |<span data-ttu-id="3f314-128">Указывает, что системный администратор установил системную политику, которая блокирует общий доступ для указанного получателя.</span><span class="sxs-lookup"><span data-stu-id="3f314-128">Indicates that the system administrator has set a system policy that blocks sharing with the specified recipient.</span></span>  <br/> |
+|<span data-ttu-id="3f314-129">реЦипиенторганизатионфедератедвисункновнтокениссуер</span><span class="sxs-lookup"><span data-stu-id="3f314-129">RecipientOrganizationFederatedWithUnknownTokenIssuer</span></span>  <br/> |<span data-ttu-id="3f314-130">Указывает, что служба безопасного токена, используемая указанным получателем, неизвестна.</span><span class="sxs-lookup"><span data-stu-id="3f314-130">Indicates that the secure token service that is used by the specified recipient is unknown.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="956b8-131">Замечания</span><span class="sxs-lookup"><span data-stu-id="956b8-131">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f314-131">Примечания</span><span class="sxs-lookup"><span data-stu-id="3f314-131">Remarks</span></span>
 
-<span data-ttu-id="956b8-132">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="956b8-132">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="3f314-132">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="3f314-132">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="956b8-133">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="956b8-133">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="3f314-133">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="3f314-133">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="956b8-134">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="956b8-134">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="956b8-135">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="956b8-135">Schema Name</span></span>  <br/> |<span data-ttu-id="956b8-136">Схема Types</span><span class="sxs-lookup"><span data-stu-id="956b8-136">Types schema</span></span>  <br/> |
-|<span data-ttu-id="956b8-137">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="956b8-137">Validation File</span></span>  <br/> |<span data-ttu-id="956b8-138">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="956b8-138">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="956b8-139">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="956b8-139">Can be Empty</span></span>  <br/> |<span data-ttu-id="956b8-140">False</span><span class="sxs-lookup"><span data-stu-id="956b8-140">False</span></span>  <br/> |
+|<span data-ttu-id="3f314-134">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="3f314-134">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="3f314-135">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="3f314-135">Schema Name</span></span>  <br/> |<span data-ttu-id="3f314-136">Схема Types</span><span class="sxs-lookup"><span data-stu-id="3f314-136">Types schema</span></span>  <br/> |
+|<span data-ttu-id="3f314-137">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="3f314-137">Validation File</span></span>  <br/> |<span data-ttu-id="3f314-138">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="3f314-138">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="3f314-139">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="3f314-139">Can be Empty</span></span>  <br/> |<span data-ttu-id="3f314-140">False</span><span class="sxs-lookup"><span data-stu-id="3f314-140">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="956b8-141">См. также</span><span class="sxs-lookup"><span data-stu-id="956b8-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f314-141">См. также</span><span class="sxs-lookup"><span data-stu-id="3f314-141">See also</span></span>
 
 
 
-[<span data-ttu-id="956b8-142">Операция GetSharingMetadata</span><span class="sxs-lookup"><span data-stu-id="956b8-142">GetSharingMetadata operation</span></span>](getsharingmetadata-operation.md)
+[<span data-ttu-id="3f314-142">Операция GetSharingMetadata</span><span class="sxs-lookup"><span data-stu-id="3f314-142">GetSharingMetadata operation</span></span>](getsharingmetadata-operation.md)
 
 
-- [<span data-ttu-id="956b8-143">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="956b8-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="3f314-143">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="3f314-143">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Операция PlayOnPhone (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Операция PlayOnPhone (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7d55be55-f8b6-4e96-a61e-26fa190217fd
-description: Операция PlayOnPhone исходящего звонка и воспроизведения заданным сообщением по телефону, которое задано в элементе DialString.
+description: Операция PlayOnPhone выполняет исходящий вызов и воспроизводит указанное сообщение по телефону, заданному элементом DialString.
 ms.openlocfilehash: b55bb45d6654f57503879f33e1cd5013ddb69a2e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834818"
 ---
-# <a name="playonphone-operation-um-web-service"></a><span data-ttu-id="cc84f-103">Операция PlayOnPhone (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="cc84f-103">PlayOnPhone operation (UM web service)</span></span>
+# <a name="playonphone-operation-um-web-service"></a><span data-ttu-id="b5a07-103">Операция PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="b5a07-103">PlayOnPhone operation (UM web service)</span></span>
 
-<span data-ttu-id="cc84f-104">Операция PlayOnPhone исходящего звонка и воспроизведения заданным сообщением по телефону, которое задано в элементе **DialString** .</span><span class="sxs-lookup"><span data-stu-id="cc84f-104">The PlayOnPhone operation makes an outbound call and plays a specified message over the telephone that is specified by the **DialString** element.</span></span> 
+<span data-ttu-id="b5a07-104">Операция PlayOnPhone выполняет исходящий вызов и воспроизводит указанное сообщение по телефону, заданному элементом **DialString** .</span><span class="sxs-lookup"><span data-stu-id="b5a07-104">The PlayOnPhone operation makes an outbound call and plays a specified message over the telephone that is specified by the **DialString** element.</span></span> 
   
-## <a name="playonphone-request-example"></a><span data-ttu-id="cc84f-105">Пример запроса PlayOnPhone</span><span class="sxs-lookup"><span data-stu-id="cc84f-105">PlayOnPhone request example</span></span>
+## <a name="playonphone-request-example"></a><span data-ttu-id="b5a07-105">Пример запроса PlayOnPhone</span><span class="sxs-lookup"><span data-stu-id="b5a07-105">PlayOnPhone request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="cc84f-106">Описание</span><span class="sxs-lookup"><span data-stu-id="cc84f-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="b5a07-106">Описание</span><span class="sxs-lookup"><span data-stu-id="b5a07-106">Description</span></span>
 
-<span data-ttu-id="cc84f-107">В следующем примере запрос PlayOnPhone показано, как для формирования запроса на выполнение исходящего звонка и воспроизведение сообщения.</span><span class="sxs-lookup"><span data-stu-id="cc84f-107">The following example of a PlayOnPhone request shows how to form a request to make an outbound call and play a message.</span></span>
+<span data-ttu-id="b5a07-107">В приведенном ниже примере запроса PlayOnPhone показано, как создать запрос на получение исходящего вызова и прослушивание сообщения.</span><span class="sxs-lookup"><span data-stu-id="b5a07-107">The following example of a PlayOnPhone request shows how to form a request to make an outbound call and play a message.</span></span>
   
-### <a name="code"></a><span data-ttu-id="cc84f-108">Программа</span><span class="sxs-lookup"><span data-stu-id="cc84f-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="b5a07-108">Код</span><span class="sxs-lookup"><span data-stu-id="b5a07-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -42,13 +42,13 @@ ms.locfileid: "19834818"
 </soap:Envelope>
 ```
 
-## <a name="successful-playonphone-response-example"></a><span data-ttu-id="cc84f-109">Пример успешного ответа PlayOnPhone</span><span class="sxs-lookup"><span data-stu-id="cc84f-109">Successful PlayOnPhone response example</span></span>
+## <a name="successful-playonphone-response-example"></a><span data-ttu-id="b5a07-109">Пример успешного ответа PlayOnPhone</span><span class="sxs-lookup"><span data-stu-id="b5a07-109">Successful PlayOnPhone response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="cc84f-110">Описание</span><span class="sxs-lookup"><span data-stu-id="cc84f-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="b5a07-110">Описание</span><span class="sxs-lookup"><span data-stu-id="b5a07-110">Description</span></span>
 
-<span data-ttu-id="cc84f-111">В следующем примере ответа PlayOnPhone показано ответа на запрос PlayOnPhone.</span><span class="sxs-lookup"><span data-stu-id="cc84f-111">The following example of a PlayOnPhone response shows a response to the PlayOnPhone request.</span></span>
+<span data-ttu-id="b5a07-111">В приведенном ниже примере ответа PlayOnPhone показан ответ на запрос PlayOnPhone.</span><span class="sxs-lookup"><span data-stu-id="b5a07-111">The following example of a PlayOnPhone response shows a response to the PlayOnPhone request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="cc84f-112">Программа</span><span class="sxs-lookup"><span data-stu-id="cc84f-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="b5a07-112">Код</span><span class="sxs-lookup"><span data-stu-id="b5a07-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -61,13 +61,13 @@ ms.locfileid: "19834818"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="cc84f-113">См. также</span><span class="sxs-lookup"><span data-stu-id="cc84f-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b5a07-113">См. также</span><span class="sxs-lookup"><span data-stu-id="b5a07-113">See also</span></span>
 
 
 
-[<span data-ttu-id="cc84f-114">PlayOnPhone (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="cc84f-114">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md)
+[<span data-ttu-id="b5a07-114">PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="b5a07-114">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md)
   
-[<span data-ttu-id="cc84f-115">PlayOnPhoneResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="cc84f-115">PlayOnPhoneResponse (UM web service)</span></span>](playonphoneresponse-um-web-service.md)
+[<span data-ttu-id="b5a07-115">PlayOnPhoneResponse (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="b5a07-115">PlayOnPhoneResponse (UM web service)</span></span>](playonphoneresponse-um-web-service.md)
   
-[<span data-ttu-id="cc84f-116">Операция PlayOnPhoneGreeting (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="cc84f-116">PlayOnPhoneGreeting operation (UM web service)</span></span>](playonphonegreeting-operation-um-web-service.md)
+[<span data-ttu-id="b5a07-116">Операция PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="b5a07-116">PlayOnPhoneGreeting operation (UM web service)</span></span>](playonphonegreeting-operation-um-web-service.md)
 

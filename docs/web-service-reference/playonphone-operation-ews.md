@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 70e6ef33-2046-4eb8-9987-e106009be04b
-description: Операция PlayOnPhone инициирует исходящего звонка и воспроизводит сообщение по телефону.
+description: Операция PlayOnPhone инициирует исходящий вызов и воспроизводит сообщение по телефону.
 ms.openlocfilehash: ec77720c69862e210316d61975b0d58c9530a40c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834819"
 ---
-# <a name="playonphone-operation-ews"></a><span data-ttu-id="2c2dd-103">Операция PlayOnPhone (EWS)</span><span class="sxs-lookup"><span data-stu-id="2c2dd-103">PlayOnPhone operation (EWS)</span></span>
+# <a name="playonphone-operation-ews"></a><span data-ttu-id="e74fa-103">Операция PlayOnPhone (EWS)</span><span class="sxs-lookup"><span data-stu-id="e74fa-103">PlayOnPhone operation (EWS)</span></span>
 
-<span data-ttu-id="2c2dd-104">Операция **PlayOnPhone** инициирует исходящего звонка и воспроизводит сообщение по телефону.</span><span class="sxs-lookup"><span data-stu-id="2c2dd-104">The **PlayOnPhone** operation initiates an outbound call and plays a message over the telephone.</span></span> 
+<span data-ttu-id="e74fa-104">Операция **PlayOnPhone** инициирует исходящий вызов и воспроизводит сообщение по телефону.</span><span class="sxs-lookup"><span data-stu-id="e74fa-104">The **PlayOnPhone** operation initiates an outbound call and plays a message over the telephone.</span></span> 
   
-## <a name="playonphone-request-example"></a><span data-ttu-id="2c2dd-105">Пример запроса PlayOnPhone</span><span class="sxs-lookup"><span data-stu-id="2c2dd-105">PlayOnPhone request example</span></span>
+## <a name="playonphone-request-example"></a><span data-ttu-id="e74fa-105">Пример запроса PlayOnPhone</span><span class="sxs-lookup"><span data-stu-id="e74fa-105">PlayOnPhone request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="2c2dd-106">Описание</span><span class="sxs-lookup"><span data-stu-id="2c2dd-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="e74fa-106">Описание</span><span class="sxs-lookup"><span data-stu-id="e74fa-106">Description</span></span>
 
-<span data-ttu-id="2c2dd-107">В следующем примере запрос **PlayOnPhone** показано, как для формирования запроса, чтобы воспроизвести сообщение на телефоне.</span><span class="sxs-lookup"><span data-stu-id="2c2dd-107">The following example of a **PlayOnPhone** request shows how to form a request to play a message on a phone.</span></span> 
+<span data-ttu-id="e74fa-107">В приведенном ниже примере запроса **PlayOnPhone** показано, как сформировать запрос на прослушивание сообщения на телефоне.</span><span class="sxs-lookup"><span data-stu-id="e74fa-107">The following example of a **PlayOnPhone** request shows how to form a request to play a message on a phone.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="2c2dd-108">Программа</span><span class="sxs-lookup"><span data-stu-id="2c2dd-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="e74fa-108">Код</span><span class="sxs-lookup"><span data-stu-id="e74fa-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -50,13 +50,13 @@ ms.locfileid: "19834819"
 </soap:Envelope>
 ```
 
-## <a name="playonphone-response-example"></a><span data-ttu-id="2c2dd-109">Пример ответа PlayOnPhone</span><span class="sxs-lookup"><span data-stu-id="2c2dd-109">PlayOnPhone response example</span></span>
+## <a name="playonphone-response-example"></a><span data-ttu-id="e74fa-109">Пример отклика PlayOnPhone</span><span class="sxs-lookup"><span data-stu-id="e74fa-109">PlayOnPhone response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="2c2dd-110">Описание</span><span class="sxs-lookup"><span data-stu-id="2c2dd-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="e74fa-110">Описание</span><span class="sxs-lookup"><span data-stu-id="e74fa-110">Description</span></span>
 
-<span data-ttu-id="2c2dd-111">В следующем примере показано успешного ответа на запрос **PlayOnPhone** .</span><span class="sxs-lookup"><span data-stu-id="2c2dd-111">The following example shows a successful response to the **PlayOnPhone** request.</span></span> 
+<span data-ttu-id="e74fa-111">В следующем примере показан успешный ответ на запрос **PlayOnPhone** .</span><span class="sxs-lookup"><span data-stu-id="e74fa-111">The following example shows a successful response to the **PlayOnPhone** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="2c2dd-112">Программа</span><span class="sxs-lookup"><span data-stu-id="2c2dd-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="e74fa-112">Код</span><span class="sxs-lookup"><span data-stu-id="e74fa-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -83,8 +83,8 @@ ms.locfileid: "19834819"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="2c2dd-113">См. также</span><span class="sxs-lookup"><span data-stu-id="2c2dd-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e74fa-113">См. также</span><span class="sxs-lookup"><span data-stu-id="e74fa-113">See also</span></span>
 
-- [<span data-ttu-id="2c2dd-114">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="2c2dd-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
-- [<span data-ttu-id="2c2dd-115">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="2c2dd-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="e74fa-114">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="e74fa-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="e74fa-115">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="e74fa-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

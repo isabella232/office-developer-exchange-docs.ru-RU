@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: d0c97a5f-96be-40c6-b7d4-abf4c3870adf
-description: Элемент интервал определяет интервал между двумя последовательными повторяющихся элементов.
+description: Элемент Interval определяет интервал между двумя последовательными повторяющимися элементами.
 ms.openlocfilehash: 55d26b5b1b51aca3effa93a2e6852c1ae57ef4b0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,60 +19,60 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833962"
 ---
-# <a name="interval"></a><span data-ttu-id="5c7a3-103">Интервал</span><span class="sxs-lookup"><span data-stu-id="5c7a3-103">Interval</span></span>
+# <a name="interval"></a><span data-ttu-id="df495-103">Интервал</span><span class="sxs-lookup"><span data-stu-id="df495-103">Interval</span></span>
 
-<span data-ttu-id="5c7a3-104">Элемент **интервал** определяет интервал между двумя последовательными повторяющихся элементов.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-104">The **Interval** element defines the interval between two consecutive recurring items.</span></span> 
+<span data-ttu-id="df495-104">Элемент **Interval** определяет интервал между двумя последовательными повторяющимися элементами.</span><span class="sxs-lookup"><span data-stu-id="df495-104">The **Interval** element defines the interval between two consecutive recurring items.</span></span> 
   
 ```xml
 <Interval/>
 ```
 
- <span data-ttu-id="5c7a3-105">**int**</span><span class="sxs-lookup"><span data-stu-id="5c7a3-105">**int**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="5c7a3-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="5c7a3-106">Attributes and elements</span></span>
+ <span data-ttu-id="df495-105">**int**</span><span class="sxs-lookup"><span data-stu-id="df495-105">**int**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="df495-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="df495-106">Attributes and elements</span></span>
 
-<span data-ttu-id="5c7a3-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="df495-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="df495-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5c7a3-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="5c7a3-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="df495-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="df495-108">Attributes</span></span>
 
-<span data-ttu-id="5c7a3-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-109">None.</span></span>
+<span data-ttu-id="df495-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="df495-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5c7a3-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="5c7a3-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="df495-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="df495-110">Child elements</span></span>
 
-<span data-ttu-id="5c7a3-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-111">None.</span></span>
+<span data-ttu-id="df495-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="df495-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="5c7a3-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="5c7a3-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="df495-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="df495-112">Parent elements</span></span>
 
-|<span data-ttu-id="5c7a3-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5c7a3-113">**Element**</span></span>|<span data-ttu-id="5c7a3-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5c7a3-114">**Description**</span></span>|
+|<span data-ttu-id="df495-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="df495-113">**Element**</span></span>|<span data-ttu-id="df495-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="df495-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5c7a3-115">AbsoluteMonthlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="5c7a3-115">AbsoluteMonthlyRecurrence</span></span>](absolutemonthlyrecurrence.md) <br/> |<span data-ttu-id="5c7a3-116">Представляет шаблон повторения ежемесячно.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-116">Represents a monthly recurrence pattern.</span></span>  <br/> |
-|[<span data-ttu-id="5c7a3-117">DailyRegeneration</span><span class="sxs-lookup"><span data-stu-id="5c7a3-117">DailyRegeneration</span></span>](dailyregeneration.md) <br/> |<span data-ttu-id="5c7a3-118">Описывает период в днях, в которых генерируется задачи.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-118">Describes the frequency, in days, in which a task is regenerated.</span></span>  <br/> |
-|[<span data-ttu-id="5c7a3-119">DailyRecurrence</span><span class="sxs-lookup"><span data-stu-id="5c7a3-119">DailyRecurrence</span></span>](dailyrecurrence.md) <br/> |<span data-ttu-id="5c7a3-120">Описывает период в днях, в которых повторения задачи.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-120">Describes the frequency, in days, in which a task recurs.</span></span>  <br/> |
-|[<span data-ttu-id="5c7a3-121">MonthlyRegeneration</span><span class="sxs-lookup"><span data-stu-id="5c7a3-121">MonthlyRegeneration</span></span>](monthlyregeneration.md) <br/> |<span data-ttu-id="5c7a3-122">Описание частоты, месяца, в которых генерируется задачи.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-122">Describes the frequency, in months, in which a task is regenerated.</span></span>  <br/> |
-|[<span data-ttu-id="5c7a3-123">RelativeMonthlyRecurrence</span><span class="sxs-lookup"><span data-stu-id="5c7a3-123">RelativeMonthlyRecurrence</span></span>](relativemonthlyrecurrence.md) <br/> |<span data-ttu-id="5c7a3-124">Описывает относительное ежемесячный шаблон для повторяющейся задачи.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-124">Describes a relative monthly pattern for a recurring task.</span></span>  <br/> |
-|[<span data-ttu-id="5c7a3-125">WeeklyRecurrence</span><span class="sxs-lookup"><span data-stu-id="5c7a3-125">WeeklyRecurrence</span></span>](weeklyrecurrence.md) <br/> |<span data-ttu-id="5c7a3-126">Описание частоты в недель, в котором и дней, на которых повторения задачи.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-126">Describes the frequency, in weeks, in which and the days on which a task recurs.</span></span>  <br/> |
-|[<span data-ttu-id="5c7a3-127">WeeklyRegeneration</span><span class="sxs-lookup"><span data-stu-id="5c7a3-127">WeeklyRegeneration</span></span>](weeklyregeneration.md) <br/> |<span data-ttu-id="5c7a3-128">Описание частоты, недель, в которых генерируется задачи.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-128">Describes the frequency, in weeks, in which a task is regenerated.</span></span>  <br/> |
-|[<span data-ttu-id="5c7a3-129">YearlyRegeneration</span><span class="sxs-lookup"><span data-stu-id="5c7a3-129">YearlyRegeneration</span></span>](yearlyregeneration.md) <br/> |<span data-ttu-id="5c7a3-130">Описание частоты, годы, в которых генерируется задачи.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-130">Describes the frequency, in years, in which a task is regenerated.</span></span>  <br/> |
+|[<span data-ttu-id="df495-115">абсолутемонслирекурренце</span><span class="sxs-lookup"><span data-stu-id="df495-115">AbsoluteMonthlyRecurrence</span></span>](absolutemonthlyrecurrence.md) <br/> |<span data-ttu-id="df495-116">Представляет ежемесячный шаблон повторения.</span><span class="sxs-lookup"><span data-stu-id="df495-116">Represents a monthly recurrence pattern.</span></span>  <br/> |
+|[<span data-ttu-id="df495-117">даилиреженератион</span><span class="sxs-lookup"><span data-stu-id="df495-117">DailyRegeneration</span></span>](dailyregeneration.md) <br/> |<span data-ttu-id="df495-118">Описывает частоту повторного создания задачи (в днях).</span><span class="sxs-lookup"><span data-stu-id="df495-118">Describes the frequency, in days, in which a task is regenerated.</span></span>  <br/> |
+|[<span data-ttu-id="df495-119">даилирекурренце</span><span class="sxs-lookup"><span data-stu-id="df495-119">DailyRecurrence</span></span>](dailyrecurrence.md) <br/> |<span data-ttu-id="df495-120">Описывает частоту повторения задачи в днях.</span><span class="sxs-lookup"><span data-stu-id="df495-120">Describes the frequency, in days, in which a task recurs.</span></span>  <br/> |
+|[<span data-ttu-id="df495-121">монслиреженератион</span><span class="sxs-lookup"><span data-stu-id="df495-121">MonthlyRegeneration</span></span>](monthlyregeneration.md) <br/> |<span data-ttu-id="df495-122">Описывает частоту повторного создания задачи в месяцах.</span><span class="sxs-lookup"><span data-stu-id="df495-122">Describes the frequency, in months, in which a task is regenerated.</span></span>  <br/> |
+|[<span data-ttu-id="df495-123">релативемонслирекурренце</span><span class="sxs-lookup"><span data-stu-id="df495-123">RelativeMonthlyRecurrence</span></span>](relativemonthlyrecurrence.md) <br/> |<span data-ttu-id="df495-124">Описывает относительный месячный шаблон для повторяющейся задачи.</span><span class="sxs-lookup"><span data-stu-id="df495-124">Describes a relative monthly pattern for a recurring task.</span></span>  <br/> |
+|[<span data-ttu-id="df495-125">виклирекурренце</span><span class="sxs-lookup"><span data-stu-id="df495-125">WeeklyRecurrence</span></span>](weeklyrecurrence.md) <br/> |<span data-ttu-id="df495-126">Описывает частоту в неделях (в неделях), в течение которых задача повторяется.</span><span class="sxs-lookup"><span data-stu-id="df495-126">Describes the frequency, in weeks, in which and the days on which a task recurs.</span></span>  <br/> |
+|[<span data-ttu-id="df495-127">виклиреженератион</span><span class="sxs-lookup"><span data-stu-id="df495-127">WeeklyRegeneration</span></span>](weeklyregeneration.md) <br/> |<span data-ttu-id="df495-128">Описывает частоту создания задачи в неделях.</span><span class="sxs-lookup"><span data-stu-id="df495-128">Describes the frequency, in weeks, in which a task is regenerated.</span></span>  <br/> |
+|[<span data-ttu-id="df495-129">еарлиреженератион</span><span class="sxs-lookup"><span data-stu-id="df495-129">YearlyRegeneration</span></span>](yearlyregeneration.md) <br/> |<span data-ttu-id="df495-130">Описывает частоту создания задачи в годах.</span><span class="sxs-lookup"><span data-stu-id="df495-130">Describes the frequency, in years, in which a task is regenerated.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="5c7a3-131">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="5c7a3-131">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="df495-131">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="df495-131">Text value</span></span>
 
-<span data-ttu-id="5c7a3-132">Текстовое значение, представляющее целое число является обязательным.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-132">A text value that represents an integer is required.</span></span>
+<span data-ttu-id="df495-132">Текстовое значение, представляющее целое число, обязательно.</span><span class="sxs-lookup"><span data-stu-id="df495-132">A text value that represents an integer is required.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="5c7a3-133">Замечания</span><span class="sxs-lookup"><span data-stu-id="5c7a3-133">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="df495-133">Примечания</span><span class="sxs-lookup"><span data-stu-id="df495-133">Remarks</span></span>
 
-<span data-ttu-id="5c7a3-134">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="5c7a3-134">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="df495-134">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="df495-134">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="5c7a3-135">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="5c7a3-135">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="df495-135">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="df495-135">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5c7a3-136">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="5c7a3-136">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="5c7a3-137">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="5c7a3-137">Schema name</span></span>  <br/> |<span data-ttu-id="5c7a3-138">Схема Types</span><span class="sxs-lookup"><span data-stu-id="5c7a3-138">Types schema</span></span>  <br/> |
-|<span data-ttu-id="5c7a3-139">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="5c7a3-139">Validation file</span></span>  <br/> |<span data-ttu-id="5c7a3-140">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="5c7a3-140">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="5c7a3-141">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="5c7a3-141">Can be empty</span></span>  <br/> |<span data-ttu-id="5c7a3-142">False</span><span class="sxs-lookup"><span data-stu-id="5c7a3-142">False</span></span>  <br/> |
+|<span data-ttu-id="df495-136">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="df495-136">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="df495-137">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="df495-137">Schema name</span></span>  <br/> |<span data-ttu-id="df495-138">Схема Types</span><span class="sxs-lookup"><span data-stu-id="df495-138">Types schema</span></span>  <br/> |
+|<span data-ttu-id="df495-139">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="df495-139">Validation file</span></span>  <br/> |<span data-ttu-id="df495-140">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="df495-140">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="df495-141">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="df495-141">Can be empty</span></span>  <br/> |<span data-ttu-id="df495-142">False</span><span class="sxs-lookup"><span data-stu-id="df495-142">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="5c7a3-143">См. также</span><span class="sxs-lookup"><span data-stu-id="5c7a3-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df495-143">См. также</span><span class="sxs-lookup"><span data-stu-id="df495-143">See also</span></span>
 
 
 
-- [<span data-ttu-id="5c7a3-144">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="5c7a3-144">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="df495-144">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="df495-144">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

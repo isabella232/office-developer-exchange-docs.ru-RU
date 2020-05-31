@@ -1,5 +1,5 @@
 ---
-title: MessageClassifications
+title: мессажеклассификатионс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 041b3d48-8f43-47f3-869f-72b66bef372a
-description: Элемент MessageClassifications представляет классификации сообщений, которые необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения.
+description: Элемент Мессажеклассификатионс представляет классификации сообщений, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение.
 ms.openlocfilehash: 402377907efbc9bb63d875f3f66b314dfc4b788d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834471"
 ---
-# <a name="messageclassifications"></a><span data-ttu-id="37ceb-103">MessageClassifications</span><span class="sxs-lookup"><span data-stu-id="37ceb-103">MessageClassifications</span></span>
+# <a name="messageclassifications"></a><span data-ttu-id="c5137-103">мессажеклассификатионс</span><span class="sxs-lookup"><span data-stu-id="c5137-103">MessageClassifications</span></span>
 
-<span data-ttu-id="37ceb-104">Элемент **MessageClassifications** представляет классификации сообщений, которые необходимо ставится отметка для входящих сообщений в порядке для условие или исключение для применения.</span><span class="sxs-lookup"><span data-stu-id="37ceb-104">The **MessageClassifications** element represents the message classifications that must be stamped on incoming messages in order for the condition or exception to apply.</span></span> 
+<span data-ttu-id="c5137-104">Элемент **мессажеклассификатионс** представляет классификации сообщений, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="c5137-104">The **MessageClassifications** element represents the message classifications that must be stamped on incoming messages in order for the condition or exception to apply.</span></span> 
   
 ```XML
 <MessageClassifications>
@@ -29,48 +29,48 @@ ms.locfileid: "19834471"
 </MessageClassifications>
 ```
 
- <span data-ttu-id="37ceb-105">**ArrayOfStringsType**</span><span class="sxs-lookup"><span data-stu-id="37ceb-105">**ArrayOfStringsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="37ceb-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="37ceb-106">Attributes and elements</span></span>
+ <span data-ttu-id="c5137-105">**аррайофстрингстипе**</span><span class="sxs-lookup"><span data-stu-id="c5137-105">**ArrayOfStringsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c5137-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="c5137-106">Attributes and elements</span></span>
 
-<span data-ttu-id="37ceb-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="37ceb-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c5137-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="c5137-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="37ceb-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="37ceb-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c5137-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="c5137-108">Attributes</span></span>
 
-<span data-ttu-id="37ceb-109">Нет</span><span class="sxs-lookup"><span data-stu-id="37ceb-109">None</span></span>
+<span data-ttu-id="c5137-109">Нет</span><span class="sxs-lookup"><span data-stu-id="c5137-109">None</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="37ceb-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="37ceb-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c5137-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="c5137-110">Child elements</span></span>
 
-|<span data-ttu-id="37ceb-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="37ceb-111">**Element**</span></span>|<span data-ttu-id="37ceb-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="37ceb-112">**Description**</span></span>|
+|<span data-ttu-id="c5137-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="c5137-111">**Element**</span></span>|<span data-ttu-id="c5137-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c5137-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="37ceb-113">Строка</span><span class="sxs-lookup"><span data-stu-id="37ceb-113">String</span></span>](string.md) <br/> |<span data-ttu-id="37ceb-114">Представляет классификации сообщений.</span><span class="sxs-lookup"><span data-stu-id="37ceb-114">Represents a message classification.</span></span>  <br/> |
+|[<span data-ttu-id="c5137-113">Строка</span><span class="sxs-lookup"><span data-stu-id="c5137-113">String</span></span>](string.md) <br/> |<span data-ttu-id="c5137-114">Представляет классификацию сообщений.</span><span class="sxs-lookup"><span data-stu-id="c5137-114">Represents a message classification.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="37ceb-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="37ceb-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c5137-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="c5137-115">Parent elements</span></span>
 
-|<span data-ttu-id="37ceb-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="37ceb-116">**Element**</span></span>|<span data-ttu-id="37ceb-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="37ceb-117">**Description**</span></span>|
+|<span data-ttu-id="c5137-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="c5137-116">**Element**</span></span>|<span data-ttu-id="c5137-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c5137-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="37ceb-118">Условия</span><span class="sxs-lookup"><span data-stu-id="37ceb-118">Conditions</span></span>](conditions.md) <br/> |<span data-ttu-id="37ceb-119">Представляет условия, которые, если удовлетворены, запускают действия правила для правила.</span><span class="sxs-lookup"><span data-stu-id="37ceb-119">Represents the conditions that, when fulfilled, will trigger the rule actions for a rule.</span></span>  <br/> |
-|[<span data-ttu-id="37ceb-120">Исключения</span><span class="sxs-lookup"><span data-stu-id="37ceb-120">Exceptions</span></span>](exceptions.md) <br/> |<span data-ttu-id="37ceb-121">Представляет исключения, которые представляют все доступные правила условия исключений для правила папки «Входящие».</span><span class="sxs-lookup"><span data-stu-id="37ceb-121">Represents the exceptions that represent all the available rule exception conditions for an Inbox rule.</span></span>  <br/> |
+|[<span data-ttu-id="c5137-118">Условия</span><span class="sxs-lookup"><span data-stu-id="c5137-118">Conditions</span></span>](conditions.md) <br/> |<span data-ttu-id="c5137-119">Представляет условия, которые, если удовлетворены, запускают действия правила для правила.</span><span class="sxs-lookup"><span data-stu-id="c5137-119">Represents the conditions that, when fulfilled, will trigger the rule actions for a rule.</span></span>  <br/> |
+|[<span data-ttu-id="c5137-120">Исключения</span><span class="sxs-lookup"><span data-stu-id="c5137-120">Exceptions</span></span>](exceptions.md) <br/> |<span data-ttu-id="c5137-121">Представляет исключения, которые представляют все доступные правила условия исключений для правила папки «Входящие».</span><span class="sxs-lookup"><span data-stu-id="c5137-121">Represents the exceptions that represent all the available rule exception conditions for an Inbox rule.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="37ceb-122">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="37ceb-122">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="c5137-122">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="c5137-122">Text value</span></span>
 
-<span data-ttu-id="37ceb-123">Нет.</span><span class="sxs-lookup"><span data-stu-id="37ceb-123">None.</span></span>
+<span data-ttu-id="c5137-123">Нет.</span><span class="sxs-lookup"><span data-stu-id="c5137-123">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="37ceb-124">Замечания</span><span class="sxs-lookup"><span data-stu-id="37ceb-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c5137-124">Примечания</span><span class="sxs-lookup"><span data-stu-id="c5137-124">Remarks</span></span>
 
-<span data-ttu-id="37ceb-125">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="37ceb-125">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="c5137-125">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="c5137-125">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="37ceb-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="37ceb-126">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="c5137-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="c5137-126">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="37ceb-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="37ceb-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="37ceb-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="37ceb-128">Schema Name</span></span>  <br/> |<span data-ttu-id="37ceb-129">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="37ceb-129">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="37ceb-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="37ceb-130">Validation File</span></span>  <br/> |<span data-ttu-id="37ceb-131">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="37ceb-131">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="37ceb-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="37ceb-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="37ceb-133">True</span><span class="sxs-lookup"><span data-stu-id="37ceb-133">True</span></span>  <br/> |
+|<span data-ttu-id="c5137-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="c5137-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="c5137-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="c5137-128">Schema Name</span></span>  <br/> |<span data-ttu-id="c5137-129">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="c5137-129">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="c5137-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="c5137-130">Validation File</span></span>  <br/> |<span data-ttu-id="c5137-131">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="c5137-131">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="c5137-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="c5137-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="c5137-133">True</span><span class="sxs-lookup"><span data-stu-id="c5137-133">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="37ceb-134">См. также</span><span class="sxs-lookup"><span data-stu-id="37ceb-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c5137-134">См. также</span><span class="sxs-lookup"><span data-stu-id="c5137-134">See also</span></span>
 
 
 
-- [<span data-ttu-id="37ceb-135">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="37ceb-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="c5137-135">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="c5137-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

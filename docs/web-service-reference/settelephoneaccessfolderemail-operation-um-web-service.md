@@ -1,5 +1,5 @@
 ---
-title: Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2c92d914-bdee-4337-b3ea-0655fdb658e9
-description: Операция SetTelephoneAccessFolderEmail задает папку, из которой единой системы обмена сообщениями будет читать обратная сообщения для пользователя по телефону.
+description: Операция SetTelephoneAccessFolderEmail задает папку, из которой единая система обмена сообщениями будет читать сообщения пользователю по телефону.
 ms.openlocfilehash: 9497e58f66b8efcf7e358aa529223942298a3bed
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19835459"
 ---
-# <a name="settelephoneaccessfolderemail-operation-um-web-service"></a><span data-ttu-id="b9ced-103">Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="b9ced-103">SetTelephoneAccessFolderEmail operation (UM web service)</span></span>
+# <a name="settelephoneaccessfolderemail-operation-um-web-service"></a><span data-ttu-id="21cdc-103">Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="21cdc-103">SetTelephoneAccessFolderEmail operation (UM web service)</span></span>
 
-<span data-ttu-id="b9ced-104">Операция SetTelephoneAccessFolderEmail задает папку, из которой единой системы обмена сообщениями будет читать обратная сообщения для пользователя по телефону.</span><span class="sxs-lookup"><span data-stu-id="b9ced-104">The SetTelephoneAccessFolderEmail operation sets the folder from which Unified Messaging will read back messages to the user over the telephone.</span></span>
+<span data-ttu-id="21cdc-104">Операция SetTelephoneAccessFolderEmail задает папку, из которой единая система обмена сообщениями будет читать сообщения пользователю по телефону.</span><span class="sxs-lookup"><span data-stu-id="21cdc-104">The SetTelephoneAccessFolderEmail operation sets the folder from which Unified Messaging will read back messages to the user over the telephone.</span></span>
   
-## <a name="settelephoneaccessfolderemail-request-example"></a><span data-ttu-id="b9ced-105">Пример запроса SetTelephoneAccessFolderEmail</span><span class="sxs-lookup"><span data-stu-id="b9ced-105">SetTelephoneAccessFolderEmail request example</span></span>
+## <a name="settelephoneaccessfolderemail-request-example"></a><span data-ttu-id="21cdc-105">Пример запроса SetTelephoneAccessFolderEmail</span><span class="sxs-lookup"><span data-stu-id="21cdc-105">SetTelephoneAccessFolderEmail request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="b9ced-106">Описание</span><span class="sxs-lookup"><span data-stu-id="b9ced-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="21cdc-106">Описание</span><span class="sxs-lookup"><span data-stu-id="21cdc-106">Description</span></span>
 
-<span data-ttu-id="b9ced-107">В следующем примере запрос SetTelephoneAccessFolderEmail показано, как для формирования запроса, чтобы задать папку, из которой единой системы обмена сообщениями будет выполнять чтение для пользователя по телефону.</span><span class="sxs-lookup"><span data-stu-id="b9ced-107">The following example of a SetTelephoneAccessFolderEmail request shows how to form a request to set the folder from which Unified Messaging will read back to the user over the telephone.</span></span>
+<span data-ttu-id="21cdc-107">В приведенном ниже примере запроса SetTelephoneAccessFolderEmail показано, как сформировать запрос на установку папки, из которой единая система обмена сообщениями будет прочитана пользователю по телефону.</span><span class="sxs-lookup"><span data-stu-id="21cdc-107">The following example of a SetTelephoneAccessFolderEmail request shows how to form a request to set the folder from which Unified Messaging will read back to the user over the telephone.</span></span>
   
-### <a name="code"></a><span data-ttu-id="b9ced-108">Программа</span><span class="sxs-lookup"><span data-stu-id="b9ced-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="21cdc-108">Код</span><span class="sxs-lookup"><span data-stu-id="21cdc-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -41,13 +41,13 @@ ms.locfileid: "19835459"
 </soap:Envelope>
 ```
 
-## <a name="successful-settelephoneaccessfolderemail-response-example"></a><span data-ttu-id="b9ced-109">Пример успешного ответа SetTelephoneAccessFolderEmail</span><span class="sxs-lookup"><span data-stu-id="b9ced-109">Successful SetTelephoneAccessFolderEmail response example</span></span>
+## <a name="successful-settelephoneaccessfolderemail-response-example"></a><span data-ttu-id="21cdc-109">Пример успешного ответа SetTelephoneAccessFolderEmail</span><span class="sxs-lookup"><span data-stu-id="21cdc-109">Successful SetTelephoneAccessFolderEmail response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="b9ced-110">Описание</span><span class="sxs-lookup"><span data-stu-id="b9ced-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="21cdc-110">Описание</span><span class="sxs-lookup"><span data-stu-id="21cdc-110">Description</span></span>
 
-<span data-ttu-id="b9ced-111">В следующем примере ответа SetTelephoneAccessFolderEmail показано ответа на запрос SetTelephoneAccessFolderEmail.</span><span class="sxs-lookup"><span data-stu-id="b9ced-111">The following example of a SetTelephoneAccessFolderEmail response shows a response to the SetTelephoneAccessFolderEmail request.</span></span>
+<span data-ttu-id="21cdc-111">В приведенном ниже примере ответа SetTelephoneAccessFolderEmail показан ответ на запрос SetTelephoneAccessFolderEmail.</span><span class="sxs-lookup"><span data-stu-id="21cdc-111">The following example of a SetTelephoneAccessFolderEmail response shows a response to the SetTelephoneAccessFolderEmail request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="b9ced-112">Программа</span><span class="sxs-lookup"><span data-stu-id="b9ced-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="21cdc-112">Код</span><span class="sxs-lookup"><span data-stu-id="21cdc-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -58,13 +58,13 @@ ms.locfileid: "19835459"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="b9ced-113">См. также</span><span class="sxs-lookup"><span data-stu-id="b9ced-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="21cdc-113">См. также</span><span class="sxs-lookup"><span data-stu-id="21cdc-113">See also</span></span>
 
 
 
-[<span data-ttu-id="b9ced-114">SetTelephoneAccessFolderEmail (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="b9ced-114">SetTelephoneAccessFolderEmail (UM web service)</span></span>](settelephoneaccessfolderemail-um-web-service.md)
+[<span data-ttu-id="21cdc-114">SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="21cdc-114">SetTelephoneAccessFolderEmail (UM web service)</span></span>](settelephoneaccessfolderemail-um-web-service.md)
   
-[<span data-ttu-id="b9ced-115">SetTelephoneAccessFolderEmailResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="b9ced-115">SetTelephoneAccessFolderEmailResponse (UM web service)</span></span>](settelephoneaccessfolderemailresponse-um-web-service.md)
+[<span data-ttu-id="21cdc-115">Сеттелефонеакцессфолдеремаилреспонсе (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="21cdc-115">SetTelephoneAccessFolderEmailResponse (UM web service)</span></span>](settelephoneaccessfolderemailresponse-um-web-service.md)
   
-[<span data-ttu-id="b9ced-116">base64FolderId (веб-служба единой системы обмена СООБЩЕНИЯМИ)</span><span class="sxs-lookup"><span data-stu-id="b9ced-116">base64FolderId (UM web service)</span></span>](base64folderid-um-web-service.md)
+[<span data-ttu-id="21cdc-116">base64FolderId (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="21cdc-116">base64FolderId (UM web service)</span></span>](base64folderid-um-web-service.md)
 

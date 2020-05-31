@@ -1,5 +1,5 @@
 ---
-title: IsNotSupported
+title: иснотсуппортед
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4db469ae-1515-47ea-9905-6aabf199febd
-description: Элемент IsNotSupported указывает, не может быть изменения правила с помощью управляемого кода API-интерфейсы.
+description: Элемент Иснотсуппортед указывает, не может ли правило измениться с помощью API управляемого кода.
 ms.openlocfilehash: 2468d47dbfdcaf1a28ed1a4afb1e7ea60147d1dc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,53 +19,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19834057"
 ---
-# <a name="isnotsupported"></a><span data-ttu-id="2ac88-103">IsNotSupported</span><span class="sxs-lookup"><span data-stu-id="2ac88-103">IsNotSupported</span></span>
+# <a name="isnotsupported"></a><span data-ttu-id="0fa53-103">иснотсуппортед</span><span class="sxs-lookup"><span data-stu-id="0fa53-103">IsNotSupported</span></span>
 
-<span data-ttu-id="2ac88-104">Элемент **IsNotSupported** указывает, не может быть изменения правила с помощью управляемого кода API-интерфейсы.</span><span class="sxs-lookup"><span data-stu-id="2ac88-104">The **IsNotSupported** element indicates whether the rule cannot be modified by using the managed code APIs.</span></span> 
+<span data-ttu-id="0fa53-104">Элемент **иснотсуппортед** указывает, не может ли правило измениться с помощью API управляемого кода.</span><span class="sxs-lookup"><span data-stu-id="0fa53-104">The **IsNotSupported** element indicates whether the rule cannot be modified by using the managed code APIs.</span></span> 
   
 ```XML
 <IsNotSupported/>
 ```
 
- <span data-ttu-id="2ac88-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="2ac88-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="2ac88-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="2ac88-106">Attributes and elements</span></span>
+ <span data-ttu-id="0fa53-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="0fa53-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="0fa53-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="0fa53-106">Attributes and elements</span></span>
 
-<span data-ttu-id="2ac88-107">В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.</span><span class="sxs-lookup"><span data-stu-id="2ac88-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="0fa53-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="0fa53-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="2ac88-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="2ac88-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="0fa53-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="0fa53-108">Attributes</span></span>
 
-<span data-ttu-id="2ac88-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="2ac88-109">None.</span></span>
+<span data-ttu-id="0fa53-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="0fa53-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="2ac88-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="2ac88-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="0fa53-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="0fa53-110">Child elements</span></span>
 
-<span data-ttu-id="2ac88-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="2ac88-111">None.</span></span>
+<span data-ttu-id="0fa53-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="0fa53-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="2ac88-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="2ac88-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="0fa53-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="0fa53-112">Parent elements</span></span>
 
-|<span data-ttu-id="2ac88-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="2ac88-113">**Element**</span></span>|<span data-ttu-id="2ac88-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="2ac88-114">**Description**</span></span>|
+|<span data-ttu-id="0fa53-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="0fa53-113">**Element**</span></span>|<span data-ttu-id="0fa53-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0fa53-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="2ac88-115">Правило (RuleType)</span><span class="sxs-lookup"><span data-stu-id="2ac88-115">Rule (RuleType)</span></span>](rule-ruletype.md) <br/> |<span data-ttu-id="2ac88-116">Представляет правило в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="2ac88-116">Represents a rule in the user's mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="0fa53-115">Правило (RuleType)</span><span class="sxs-lookup"><span data-stu-id="0fa53-115">Rule (RuleType)</span></span>](rule-ruletype.md) <br/> |<span data-ttu-id="0fa53-116">Представляет правило в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="0fa53-116">Represents a rule in the user's mailbox.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="2ac88-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="2ac88-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="0fa53-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="0fa53-117">Text value</span></span>
 
-<span data-ttu-id="2ac88-118">Текстовое значение **true,** указывает, что правило не может изменяться с помощью управляемого кода API-интерфейсы.</span><span class="sxs-lookup"><span data-stu-id="2ac88-118">A text value of **true** indicates that the rule cannot be modified by using the managed code APIs.</span></span> <span data-ttu-id="2ac88-119">Значение **false** указывает, что правило можно изменить с помощью управляемого кода API-интерфейсы.</span><span class="sxs-lookup"><span data-stu-id="2ac88-119">A value of **false** indicates that the rule can be modified by using the managed code APIs.</span></span> 
+<span data-ttu-id="0fa53-118">Текстовое значение **true** указывает, что правило невозможно изменить с помощью API управляемого кода.</span><span class="sxs-lookup"><span data-stu-id="0fa53-118">A text value of **true** indicates that the rule cannot be modified by using the managed code APIs.</span></span> <span data-ttu-id="0fa53-119">Значение **false** указывает, что правило можно изменить с помощью API управляемого кода.</span><span class="sxs-lookup"><span data-stu-id="0fa53-119">A value of **false** indicates that the rule can be modified by using the managed code APIs.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="2ac88-120">Замечания</span><span class="sxs-lookup"><span data-stu-id="2ac88-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0fa53-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="0fa53-120">Remarks</span></span>
 
-<span data-ttu-id="2ac88-121">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="2ac88-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="0fa53-121">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="0fa53-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="2ac88-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="2ac88-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="0fa53-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="0fa53-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="2ac88-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="2ac88-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="2ac88-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="2ac88-124">Schema Name</span></span>  <br/> |<span data-ttu-id="2ac88-125">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="2ac88-125">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="2ac88-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="2ac88-126">Validation File</span></span>  <br/> |<span data-ttu-id="2ac88-127">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="2ac88-127">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="2ac88-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="2ac88-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="2ac88-129">True</span><span class="sxs-lookup"><span data-stu-id="2ac88-129">True</span></span>  <br/> |
+|<span data-ttu-id="0fa53-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="0fa53-123">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="0fa53-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="0fa53-124">Schema Name</span></span>  <br/> |<span data-ttu-id="0fa53-125">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="0fa53-125">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="0fa53-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="0fa53-126">Validation File</span></span>  <br/> |<span data-ttu-id="0fa53-127">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="0fa53-127">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="0fa53-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="0fa53-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="0fa53-129">True</span><span class="sxs-lookup"><span data-stu-id="0fa53-129">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="2ac88-130">См. также</span><span class="sxs-lookup"><span data-stu-id="2ac88-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0fa53-130">См. также</span><span class="sxs-lookup"><span data-stu-id="0fa53-130">See also</span></span>
 
 
 
-- [<span data-ttu-id="2ac88-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="2ac88-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="0fa53-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="0fa53-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
