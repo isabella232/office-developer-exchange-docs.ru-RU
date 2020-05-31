@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 42d2a888-fa62-4970-8306-9ddde4eeb1f0
-description: Элемент DisableApp определяет запрос, чтобы отключить приложение.
+description: Элемент DisableApp указывает запрос на отключение приложения.
 ms.openlocfilehash: d6d895d98fb368a6912f9111a4b934ba9631268e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19762112"
 ---
 # <a name="disableapp"></a>DisableApp
 
-Элемент **DisableApp** определяет запрос, чтобы отключить приложение. 
+Элемент **DisableApp** указывает запрос на отключение приложения. 
   
 ```XML
 <DisableApp>
@@ -26,10 +26,10 @@ ms.locfileid: "19762112"
 </DisableApp>
 ```
 
- **DisableAppType**
+ **дисаблеапптипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,14 +39,14 @@ ms.locfileid: "19762112"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Идентификатор (строка)](id-string.md) <br/> |Задает идентификатор элемента.  <br/> |
-|[DisableReason](disablereason.md) <br/> |Указывает причины для отключения приложения.  <br/> |
+|[ID (строка)](id-string.md) <br/> |Указывает идентификатор элемента.  <br/> |
+|[дисаблереасон](disablereason.md) <br/> |Указывает причину отключения приложения.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762112"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

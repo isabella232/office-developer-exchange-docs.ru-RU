@@ -1,5 +1,5 @@
 ---
-title: Атрибуты (PersonaAttributionType)
+title: Атрибуты (Персонааттрибутионтипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dc59e17e-baea-4617-8ca1-4382a89de0d7
-description: Атрибуты элемента экземпляр в массиве атрибутов элемента PersonaType.
+description: Элемент Attribute указывает экземпляр в массиве атрибутов для элемента Персонатипе.
 ms.openlocfilehash: 0e800c92c75bf0c475d4bffd33d6ab49f9ad9a9a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761523"
 ---
-# <a name="attribution-personaattributiontype"></a>Атрибуты (PersonaAttributionType)
+# <a name="attribution-personaattributiontype"></a>Атрибуты (Персонааттрибутионтипе)
 
-**Атрибуты** элемента экземпляр в массиве атрибутов элемента **PersonaType** . 
+Элемент **Attribute** указывает экземпляр в массиве атрибутов для элемента **персонатипе** . 
   
 ```XML
 <Attribution>
@@ -31,10 +31,10 @@ ms.locfileid: "19761523"
 </Attribution>
 ```
 
- **PersonaAttributionType**
+ **персонааттрибутионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,21 +44,21 @@ ms.locfileid: "19761523"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Идентификатор (строка)](id-string.md) <br/> |Задает строку, которая уникально идентифицирует приложение или атрибуты в пользователя.  <br/> |
-|[SourceId](sourceid.md) <br/> |Задает идентификатор получателя Active Directory или контакта.  <br/> |
-|[Отображаемое имя (строка)](displayname-string.md) <br/> |Задает отображаемое имя папки, контактов, список рассылки, делегата или правило.  <br/> |
-|[IsWritable](iswritable.md) <br/> |Указывает, можно ли запись базовым контакт или получателя Active Directory для.  <br/> |
-|[IsQuickContact](isquickcontact.md) <br/> |Задает логическое значение, которое указывает, является ли базовый контакт или получателя Active Directory быстрого контакта.  <br/> |
-|[IsHidden](ishidden.md) <br/> |Содержит логическое значение, указывающее, ли базовый контакт или получателя Active Directory необходимо скрыть или отобразить как часть пользователя.  <br/> |
+|[ID (строка)](id-string.md) <br/> |Указывает строку, которая уникально идентифицирует приложение или атрибуты в имени пользователя.  <br/> |
+|[SourceId](sourceid.md) <br/> |Указывает идентификатор контакта или получателя Active Directory.  <br/> |
+|[DisplayName (строка)](displayname-string.md) <br/> |Определяет отображаемое имя папки, контакта, списка рассылки, делегированного пользователя или правила.  <br/> |
+|[Доступный для записи](iswritable.md) <br/> |Указывает, можно ли записывать базового контакта или получателя Active Directory.  <br/> |
+|[искуиккконтакт](isquickcontact.md) <br/> |Задает логическое значение, указывающее, является ли основной контакт или получатель Active Directory быстрым контактом.  <br/> |
+|[IsHidden](ishidden.md) <br/> |Содержит логическое значение, которое указывает, следует ли скрывать или показывать базовый контакт или получатель Active Directory в составе персонажа.  <br/> |
 |[FolderId](folderid.md) <br/> |Содержит идентификатор и ключ изменения папки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Атрибуты (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Указывает массив атрибуты сведения для одной или нескольких контактов или объединить в связанного пользователя active directory (AD) получателей.  <br/> |
+|[Атрибуты (Аррайофперсонааттрибутионстипе)](attributions-arrayofpersonaattributionstype.md) <br/> |Задает массив сведений о сопоставлении для одного или нескольких получателей контактов или Active Directory (AD), собранных в сопоставленный с ним пользователь.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -70,7 +70,7 @@ ms.locfileid: "19761523"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

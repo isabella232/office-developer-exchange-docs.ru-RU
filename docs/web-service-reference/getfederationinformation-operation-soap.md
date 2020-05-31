@@ -1,5 +1,5 @@
 ---
-title: Операция GetFederationInformation (SOAP)
+title: Операция Жетфедератионинформатион (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c6666a42-a18f-4e4b-beb6-b25ff62cfcc5
-description: Операция GetFederationInformation предоставляет сведения о состоянии федерации из организации, такие как целевой URI, используемый при запросе маркеры, которые нацелены на этой организации и других доменов, для которых также есть организации федеративные.
+description: Операция Жетфедератионинформатион предоставляет сведения о состоянии Федерации Организации, например целевом URI, используемом при запросе маркеров, предназначенных для данной организации, а также о других доменах, Объединенных в Организации.
 ms.openlocfilehash: bf38b2f2b3db3e38b9b0157d1677efe4fc274e1b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,19 +16,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762792"
 ---
-# <a name="getfederationinformation-operation-soap"></a>Операция GetFederationInformation (SOAP)
+# <a name="getfederationinformation-operation-soap"></a>Операция Жетфедератионинформатион (SOAP)
 
-Операция **GetFederationInformation** предоставляет сведения о состоянии федерации организации, такие как целевой URI, используемый для разрешения на запрос маркера, предназначены для этой организации и других доменов, организации также федеративными. 
+Операция **жетфедератионинформатион** предоставляет сведения о состоянии Федерации Организации, например ЦЕЛЕВом URI, используемом при запросе маркеров, предназначенных для данной организации, а также о других доменах, Объединенных в Организации. 
   
-Можно совместно использовать только федеративными организациями, календарь, контакты и сообщения, чтобы внешние пользователи.
+Только Федеративные организации могут предоставлять общий доступ к календарю, контактам и сообщениям внешним пользователям.
   
-## <a name="getfederationinformation-request-example"></a>Пример запроса GetFederationInformation
+## <a name="getfederationinformation-request-example"></a>Пример запроса Жетфедератионинформатион
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **GetFederationInformation** показано запрос сведений о федерации пользователя. Клиент отправляет запрос на сервер. 
+В приведенном ниже примере запроса **жетфедератионинформатион** показан запрос сведений о Федерации пользователя. Клиент отправляет этот запрос на сервер. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
@@ -60,23 +60,23 @@ ms.locfileid: "19762792"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
-- [GetFederationInformationRequestMessage (SOAP)](getfederationinformationrequestmessage-soap.md)
+- [Жетфедератионинформатионрекуестмессаже (SOAP)](getfederationinformationrequestmessage-soap.md)
     
 - [Запрос (SOAP)](request-soap.md)
     
 - [Домен (SOAP)](domain-soap.md)
     
-## <a name="getfederationinformation-response-example"></a>Пример ответа GetFederationInformation
+## <a name="getfederationinformation-response-example"></a>Пример отклика Жетфедератионинформатион
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **GetFederationInformation** , сервер отправляет клиенту. 
+В следующем примере показан успешный ответ на запрос **жетфедератионинформатион** , отправляемый сервером клиенту. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" 
@@ -105,17 +105,17 @@ xmlns:a="http://www.w3.org/2005/08/addressing">
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Элементы ответа
+### <a name="response-elements"></a>Элементы Response
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [GetFederationInformationResponseMessage (SOAP)](getfederationinformationresponsemessage-soap.md)
+- [Жетфедератионинформатионреспонсемессаже (SOAP)](getfederationinformationresponsemessage-soap.md)
     
-- [Ответ (SOAP)](response-soap.md)
+- [Отклик (SOAP)](response-soap.md)
     
-- [Код ошибки (SOAP)](errorcode-soap.md)
+- [ErrorCode (SOAP)](errorcode-soap.md)
     
-- [Сообщение об ошибке (SOAP)](errormessage-soap.md)
+- [ErrorMessage (SOAP)](errormessage-soap.md)
     
 - [ApplicationUri (SOAP)](applicationuri-soap.md)
     
@@ -126,5 +126,5 @@ xmlns:a="http://www.w3.org/2005/08/addressing">
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
-- [Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+- [Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
 

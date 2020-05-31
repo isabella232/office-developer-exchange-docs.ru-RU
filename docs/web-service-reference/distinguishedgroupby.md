@@ -1,5 +1,5 @@
 ---
-title: DistinguishedGroupBy
+title: дистингуишедграупби
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6ff3ac48-02ba-40ec-a71b-c401bb2b127c
-description: Элемент DistinguishedGroupBy предоставляет стандартные группы для запросов FindItem.
+description: Элемент Дистингуишедграупби предоставляет стандартные группирования для запросов FindItem.
 ms.openlocfilehash: 0635366447675bf28dedf3af4f7d76094ee5e0a4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,12 +19,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762187"
 ---
-# <a name="distinguishedgroupby"></a>DistinguishedGroupBy
+# <a name="distinguishedgroupby"></a>дистингуишедграупби
 
-Элемент **DistinguishedGroupBy** предоставляет стандартные группы для запросов FindItem. 
+Элемент **дистингуишедграупби** предоставляет стандартные группирования для запросов FindItem. 
   
 - [FindItem](finditem.md) 
-- [DistinguishedGroupBy](distinguishedgroupby.md)
+- [дистингуишедграупби](distinguishedgroupby.md)
   
 ```xml
 <DistinguishedGroupBy>
@@ -32,10 +32,10 @@ ms.locfileid: "19762187"
 </DistinguishedGroupBy>
 ```
 
- **DistinguishedGroupByType**
+ **дистингуишедграупбитипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,17 +45,17 @@ ms.locfileid: "19762187"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StandardGroupBy](standardgroupby.md) <br/> |Представляет стандартный группировки и сбор механизмы для группированных FindItem операции.  <br/> |
+|[стандардграупби](standardgroupby.md) <br/> |Представляет стандартные механизмы группирования и агрегирования для операции сгруппированной операции FindItem.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Определяет запрос для поиска элементов в почтовом ящике.<br/><br/>Ниже приведен выражение XPath для этого элемента.`/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Определяет запрос на поиск элементов в почтовом ящике.<br/><br/>Ниже приведено выражение XPath для этого элемента:`/FindItem` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Можно добавить элемент **DistinguishedGroupBy** операции FindItem при результаты должны быть резервной объединять и когда один из стандартные группы соответствует требованиям группировки. Если элемент **DistinguishedGroupBy** ни элемент [GroupBy](groupby.md) не указан, будут возвращаться результаты FindItem разгруппировать. 
+Элемент **дистингуишедграупби** можно добавить в операцию FindItem при условии, что результаты должны быть сгруппированы, а одна из стандартных групп соответствует требованиям к группированию. Если не указан ни элемент **дистингуишедграупби** , ни элемент [GroupBy](groupby.md) , результаты FindItem будут отходиться на несгруппированные результаты. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -65,11 +65,11 @@ ms.locfileid: "19762187"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [FindItem Operation](finditem-operation.md)
+- [Операция FindItem](finditem-operation.md)
 - [Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

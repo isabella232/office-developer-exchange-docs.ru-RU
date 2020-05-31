@@ -1,11 +1,11 @@
 ---
-title: Средства и ресурсы, необходимые для устранения неполадок приложений веб-служб Exchange для Exchange
+title: Инструменты и ресурсы для устранения неполадок приложений EWS для Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ee7fcd05-35d7-47bf-bac4-e719c49c11fe
-description: Найдите ресурсы, которые помогут устранить управляемый API EWS или приложение веб-служб Exchange.
+description: Найдите материалы, которые помогут вам устранить неполадки управляемого API EWS или приложения EWS.
 ms.openlocfilehash: d8d8ea736ca3b896642ad06f5987caeba8d8d059
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,112 +13,112 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761247"
 ---
-# <a name="tools-and-resources-for-troubleshooting-ews-applications-for-exchange"></a>Средства и ресурсы, необходимые для устранения неполадок приложений веб-служб Exchange для Exchange
+# <a name="tools-and-resources-for-troubleshooting-ews-applications-for-exchange"></a>Инструменты и ресурсы для устранения неполадок приложений EWS для Exchange
 
-Найдите ресурсы, которые помогут устранить управляемый API EWS или приложение веб-служб Exchange.
+Найдите материалы, которые помогут вам устранить неполадки управляемого API EWS или приложения EWS.
   
-Что не всегда перейдите по плану. В некоторых случаях веб-служб Exchange сбоя или привести к непредсказуемым результатам. Это может быть неудобства, особенно в том случае, если не очевидны. Надеюсь никогда не подобное вам, но если это так, в этой статье содержатся сведения об инструментах и ресурсы, которые можно использовать для решения проблемы.
+Все это не всегда запланировано. Иногда не удается выполнить запросы EWS, а также приводятся неожиданные результаты. Это может быть очень сложно, особенно если причина неочевидна. Надеюсь, что это никогда не произойдет, но в этой статье представлены сведения о средствах и ресурсах, которые можно использовать для устранения неполадок.
   
 > [!NOTE]
-> В этой статье предоставляет общие совет по устранению неполадок и источников сведений об устранении неполадок. К сожалению нельзя предоставить сведения об устранении неполадок. Устранение неполадок сведений об ошибке можно найти [Далее действия](#bk_NextSteps). 
+> В этой статье приводятся общие рекомендации по устранению неполадок и источники сведений об устранении неполадок. К сожалению, невозможно получить подробные инструкции по устранению неполадок. Помощь в устранении неполадок, связанных с конкретной ошибкой, приведено в разделе [Дополнительные действия](#bk_NextSteps). 
   
-## <a name="examine-the-soap-requests-and-responses"></a>Просмотрите запросы и ответы SOAP
+## <a name="examine-the-soap-requests-and-responses"></a>Проверка запросов и ответов SOAP
 
-При действия не работает корректно, полезно действительно могут видеть, что происходит. Первая строка запроса при исследование проблем с веб-служб Exchange или управляемый API EWS для проверки запросов, которые приложение передает по сети и ответы, сервер отправляет обратно.
+Если бы они не работали должным образом, она, в своюмся, может увидеть, что происходит. Первая строка запроса при исследовании проблемы с помощью EWS или управляемого API EWS — проверка запросов, которые приложение отправляет по сети, и ответы, отправляемые сервером обратно.
   
-Управляемый API EWS упрощает анализ запросы и ответы SOAP с его [встроенные возможности трассировки](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md). При использовании веб-служб Exchange, вы может или может не иметь доступ к аналогичные возможности трассировки, в зависимости от того, какие платформы или классы, используется для отправки запросов. Тем не менее всегда можно использовать средство сетевой трассировки как [Fiddler](http://www.telerik.com/fiddler) или [Сетевого монитора](http://www.microsoft.com/en-us/download/details.aspx?id=4865) для проверки сетевого трафика и просматривать полезных данных запроса и ответа. 
+Управляемый API EWS упрощает анализ запросов и ответов SOAP с помощью [встроенных функций трассировки](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md). Если вы используете EWS, у вас может быть или нет доступа к аналогичной функции трассировки в зависимости от того, какие платформы или классы вы используете для отправки запросов. Однако вы всегда можете использовать средство трассировки сети, например, [Network Monitor](http://www.microsoft.com/en-us/download/details.aspx?id=4865) или [Fiddler](http://www.telerik.com/fiddler) , для проверки сетевого трафика и просмотра полезных данных запроса и ответа. 
   
-Кроме того можно [инструментировать клиентских запросов](instrumenting-client-requests-for-ews-and-rest-in-exchange.md) для расширения сведений, доступных в запросы и ответы. 
+Кроме того, вы можете [инструментировать клиентские запросы](instrumenting-client-requests-for-ews-and-rest-in-exchange.md) для расширения информации, доступной в запросах и ответах. 
   
-После того как запросы и ответы, ответьте на следующие: они отображаются правильно? Существуют значения, которые приложение отправляет ожидается? Смысл ответы?
+После выполнения запросов и ответов ответьте на следующие вопросы: правильно ли они выглядят? Предполагается, что ваше приложение посылается должным образом? Имеете смысл принимать ответы?
   
-## <a name="examine-error-codes"></a>Изучите кодов ошибок
+## <a name="examine-error-codes"></a>Проверка кодов ошибок
 
-В некоторых случаях код ошибки можно перейти значительное продвижение к точное проблемы, даже в том случае, если с первого взгляда кажется смысла. Ошибки обозначения, что клиент, [регулирование](ews-throttling-in-exchange.md)? Возможно вызова службы автообнаружения для [обновления сведений о конфигурации](how-to-refresh-configuration-information-by-using-autodiscover.md) является в порядке? 
+Иногда код ошибки может быть достаточно большим, даже если на первый взгляд он не имеет смысла. Указывает, что направляется [регулирование](ews-throttling-in-exchange.md)клиента? Возможно, вызов службы автообнаружения для [обновления сведений о конфигурации](how-to-refresh-configuration-information-by-using-autodiscover.md) выполняется по порядку? 
   
-Дополнительные сведения об обработке ошибок см в следующих статьях:
+Дополнительные сведения об обработке определенных ошибок можно найти в следующих статьях:
   
 - [Обработка сообщений об ошибках службы автообнаружения](handling-autodiscover-error-messages.md)
     
-- [Обработка ошибок, связанных с уведомлений в веб-служб Exchange в Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
+- [Обработка ошибок, связанных с уведомлениями, в EWS в Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
     
-- [Обработка ошибок, связанных с синхронизации в веб-служб Exchange в Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
+- [Обработка ошибок, связанных с синхронизацией, в EWS в Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
     
-- [Обработка ошибок, связанных с удаления в веб-служб Exchange в Exchange](handling-deletion-related-errors-in-ews-in-exchange.md)
+- [Обработка ошибок, связанных с удалением, в EWS в Exchange](handling-deletion-related-errors-in-ews-in-exchange.md)
     
-## <a name="verify-versions"></a>Проверка версии
+## <a name="verify-versions"></a>Проверка версий
 
-Существует несколько разных компонентов, участвующих в операции EWS и версии этих компонентов, которые влияют на результаты.
+В операциях EWS существует несколько различных компонентов, и их версии могут влиять на результаты.
   
-**В таблице 1. Версий компонентов, которые могут повлиять на процессы веб-служб Exchange**
+**Таблица 1. Компоненты с версиями, которые могут повлиять на процессы EWS**
 
-|**Компонент**|**Управляемый API EWS**|**Службы EWS**|**Примечания**|
+|**Компонент**|**Управляемый API EWS**|**EWS**|**Примечания**|
 |:-----|:-----|:-----|:-----|
-|Запрошенный сервер версии  <br/> |Свойство [ExchangeServiceBase.RequestedServerVersion](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx)  <br/> |Элемент [RequestServerVersion](http://msdn.microsoft.com/library/af4032d5-42b3-463e-9d0a-8236d78e5b75%28Office.15%29.aspx)  <br/> |Это значение определяет, какие версии схемы веб-служб Exchange используется для обработки запроса веб-служб Exchange. Убедитесь в том, что версию схемы, указанным здесь имеет смысл для запроса, что отправке. Некоторые свойства и операции, недоступны в более ранних версиях схемы.  <br/> |
-|Версия сервера  <br/> |Свойство [ExchangeServiceBase.ServerInfo](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.exchangeservicebase.serverinfo%28v=exchg.80%29.aspx)  <br/> |Элемент [ServerVersionInfo](http://msdn.microsoft.com/library/c04a6872-ca27-432b-aac2-36b023d0afc6%28Office.15%29.aspx)  <br/> |Это значение возвращается в ответы веб-служб Exchange на сервере и указывает версию сервера, на котором обработки ответа. Убедитесь в том, что это значение является, как ожидалось. Если это возможно убедитесь в том, что запущен самое последнее обновление для вашей версии Exchange на сервере Exchange.  <br/> |
-|Управляемый API EWS версии  <br/> |Свойство version продукта Microsoft.Exchange.WebServices.dll файла.  <br/> |Не применимо  <br/> |Если вы используете управляемый API веб-служб Exchange, убедитесь в том, что вы используете [наиболее поздней версии](http://aka.ms/ews-managed-api-readme).  <br/> |
+|Запрошенная версия сервера  <br/> |Свойство [ексчанжесервицебасе. рекуестедсерверверсион](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx)  <br/> |Элемент [рекуестсерверверсион](http://msdn.microsoft.com/library/af4032d5-42b3-463e-9d0a-8236d78e5b75%28Office.15%29.aspx)  <br/> |Это значение определяет, какая версия схемы EWS используется для обработки запроса EWS. Убедитесь, что указанная здесь версия схемы имеет смысл для отправляемого запроса. Некоторые свойства и операции недоступны в более ранних версиях схемы.  <br/> |
+|Версия сервера  <br/> |Свойство [ексчанжесервицебасе. серверинфо](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.exchangeservicebase.serverinfo%28v=exchg.80%29.aspx)  <br/> |Элемент [серверверсионинфо](http://msdn.microsoft.com/library/c04a6872-ca27-432b-aac2-36b023d0afc6%28Office.15%29.aspx)  <br/> |Это значение возвращается сервером в ответах EWS и указывает версию сервера, который обработал ответ. Убедитесь, что это значение ожидается. Если это возможно, убедитесь, что на сервере Exchange выполняется Последнее обновление основной версии Exchange.  <br/> |
+|Версия управляемого API EWS  <br/> |Свойство версии продукта для файла Microsoft. Exchange. WebServices. dll.  <br/> |Неприменимо  <br/> |Если вы используете управляемый API EWS, убедитесь, что вы используете [самую последнюю версию](http://aka.ms/ews-managed-api-readme).  <br/> |
    
 ## <a name="verify-access"></a>Проверка доступа
 
-Веб-служб Exchange включена по умолчанию, но [можно изменить параметры по умолчанию](how-to-control-access-to-ews-in-exchange.md). С помощью командлета [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/bb124754.aspx) , убедитесь в том, что включен веб-служб Exchange на сервере и [Get-CASMailbox](http://technet.microsoft.com/en-us/library/aa997571.aspx) используется, чтобы убедиться в том, что веб-служб Exchange включена для почтового ящика пользователя. Также проверьте оба командлета ответа для запроса EWS разрешить или заблокировать список и убедитесь в том, что ваше приложение не блокируется с помощью веб-служб Exchange. 
+По умолчанию EWS включена, но [можно изменить значения по умолчанию](how-to-control-access-to-ews-in-exchange.md). С помощью командлета [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/bb124754.aspx) убедитесь, что на сервере включена EWS, а также командлет [Get-CASMailbox](http://technet.microsoft.com/en-us/library/aa997571.aspx) , чтобы убедиться, что для почтового ящика пользователя включена EWS. Кроме того, проверьте оба ответа командлета для списка разрешенных или заблокированных служб EWS и убедитесь, что приложение не заблокировано с помощью EWS. 
   
-Также необходимо убедиться в том, что [Параметры проверки подлинности по умолчанию](http://technet.microsoft.com/en-us/library/gg247612%28v=exchg.150%29.aspx) в виртуальном каталоге EWS не были изменены. 
+Кроме того, необходимо убедиться, что [Параметры проверки подлинности по умолчанию](http://technet.microsoft.com/en-us/library/gg247612%28v=exchg.150%29.aspx) в виртуальном каталоге EWS не были изменены. 
   
-## <a name="try-another-ews-client"></a>Попробуйте другого клиентского веб-служб Exchange
+## <a name="try-another-ews-client"></a>Попробуйте другой клиент EWS
 
-В некоторых случаях будет полезно же запрос от другого клиента и сравнение полученных результатов. Если другой клиент получает разные результаты, каковы отличия? Чтобы определить, каковы отличия между успешный запрос и неудачных запросов может помочь поясняется, почему не удается выполнить запрос.
+Иногда бывает полезно попробовать один и тот же запрос от другого клиента и сравнить результаты. Если другой клиент получает разные результаты, что отличается? Выяснить, чем отличается успешный запрос, и неудачный запрос может помочь объяснить причину сбоя конкретного запроса.
   
-Хотя определенно можно написать другого клиента для тестирования с, не нужно. [EWSEditor](http://ewseditor.codeplex.com/) — это пример клиент, использующий управляемый API EWS и веб-служб Exchange. Можно загрузить клиента (в том числе исходный код) и попробуйте же запросы, которые выполняются в приложении. 
+Несмотря на то, что вы наверняка можете написать другой клиент для тестирования, вам не нужно! [Евседитор](http://ewseditor.codeplex.com/) — это пример клиента, который использует управляемый API EWS и EWS. Вы можете скачать клиент (включая исходный код) и использовать его для попытаться использовать те же запросы, что и при неисправности в вашем приложении. 
   
-## <a name="examine-iis-logs"></a>В журналах IIS
+## <a name="examine-iis-logs"></a>Проверка журналов IIS
 
-Если у вас есть доступ к серверу Exchange, функциональные возможности ведения журнала, предоставляемые Internet Information Services (IIS) на серверах клиентского доступа можно указать дополнительные сведения об ошибках. Тем не менее следует иметь в виду, входящему в IIS будет только полезны, если вы получили ошибку HTTP.
+Если у вас есть доступ к серверу Exchange, функции ведения журнала, предоставляемые службами IIS на серверах клиентского доступа, могут предоставить дополнительные сведения об ошибках. Однако имейте в виду, что журналы IIS будут полезны только при получении сообщения об ошибке HTTP.
   
-Службы IIS предоставляют два различных методов ведения журнала: [ведения журналов служб IIS](http://www.iis.net/learn/manage/provisioning-and-managing-iis/configure-logging-in-iis) и [Отслеживание неудачных запросов](http://www.iis.net/learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis). Для работы с журналами IIS можно использовать [С Log Parser Studio](http://blogs.technet.com/b/exchange/archive/2012/03/07/introducing-log-parser-studio.aspx), которая включает в себя ряд встроенных запросов веб-служб Exchange.
+Службы IIS предоставляют два разных метода ведения журнала: мониторинг [журналов IIS](http://www.iis.net/learn/manage/provisioning-and-managing-iis/configure-logging-in-iis) и [неудачные запросы](http://www.iis.net/learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis). Для работы с журналами IIS можно использовать [средство Log Parser Studio](http://blogs.technet.com/b/exchange/archive/2012/03/07/introducing-log-parser-studio.aspx), включающее ряд встроенных запросов EWS.
   
 ## <a name="next-steps"></a>Дальнейшие действия
 <a name="bk_NextSteps"> </a>
 
-Теперь, когда вы знаете об средства и ресурсы, которые можно использовать для устранения неполадок, может понадобиться справки, общие сведения о сведений, предоставленных эти средства. Ниже приведены некоторые способы получения справки:
+Теперь, когда вы узнали о средствах и ресурсах, которые можно использовать для устранения неполадок, может потребоваться помощь в понимании сведений, предоставляемых этими средствами. Ниже приведены некоторые способы получения справки.
   
-- [Разработка для Exchange Server на форуме MSDN](http://social.msdn.microsoft.com/Forums/en-US/home?category=exchangeserver) — задайте вопрос сообщества разработчиков MSDN Exchange Server. 
+- [Форум по разработке Exchange Server в MSDN](http://social.msdn.microsoft.com/Forums/en-US/home?category=exchangeserver) — задайте вопрос СООБЩЕСТВУ разработчиков MSDN для Exchange Server. 
     
-- [Сайт StackOverflow](http://stackoverflow.com/tags/ews) — задайте вопрос StackOverflow сообщества. Убедитесь, что тег сообщение с «веб-служб Exchange». 
+- [Сайте StackOverflow](http://stackoverflow.com/tags/ews) — задайте вопрос сообщества сайте StackOverflow. Не забудьте пометить сообщение с помощью "EWS". 
     
-- [Службы поддержки Майкрософт](http://support.microsoft.com/ph/730/en-us) , обратитесь за помощью к специалисту службы поддержки Майкрософт. 
+- [Служба поддержки Майкрософт](http://support.microsoft.com/ph/730/en-us) — обратитесь за помощью к специалисту службы поддержки Майкрософт. 
     
 ## <a name="see-also"></a>См. также
 
 
-Можно в следующих статьях:
+См. следующие статьи:
   
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Трассировка запросы и ответы для устранения неполадок в приложениях управляемый API EWS](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)
+- [Трассировка запросов и ответов для устранения неполадок в приложениях управляемого API EWS](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)
     
-- [Оборудование клиентских запросов для веб-служб Exchange и REST в Exchange](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
+- [Инструментирование запросов клиентов для EWS и REST в Exchange](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
     
-- [Веб-служб Exchange регулирования в Exchange](ews-throttling-in-exchange.md)
+- [EWS регулирование в Exchange](ews-throttling-in-exchange.md)
     
 - [Обновление сведений о конфигурации с помощью службы автообнаружения](how-to-refresh-configuration-information-by-using-autodiscover.md)
     
 - [Обработка сообщений об ошибках службы автообнаружения](handling-autodiscover-error-messages.md)
     
-- [Обработка ошибок, связанных с уведомлений в веб-служб Exchange в Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
+- [Обработка ошибок, связанных с уведомлениями, в EWS в Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
     
-- [Обработка ошибок, связанных с синхронизации в веб-служб Exchange в Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
+- [Обработка ошибок, связанных с синхронизацией, в EWS в Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
     
-- [Обработка ошибок, связанных с удаления в веб-служб Exchange в Exchange](handling-deletion-related-errors-in-ews-in-exchange.md)
+- [Обработка ошибок, связанных с удалением, в EWS в Exchange](handling-deletion-related-errors-in-ews-in-exchange.md)
     
 - [Настройка ведения журнала в службах IIS](http://www.iis.net/learn/manage/provisioning-and-managing-iis/configure-logging-in-iis)
     
-- [Устранение неполадок в неудачных запросов с помощью трассировку в IIS 7](http://www.iis.net/learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis)
+- [Устранение неудачных запросов с помощью трассировки в IIS 7](http://www.iis.net/learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis)
     
-- [Краткие сведения о: Log Parser Studio](http://blogs.technet.com/b/exchange/archive/2012/03/07/introducing-log-parser-studio.aspx)
+- [Введение: Log Parser Studio](http://blogs.technet.com/b/exchange/archive/2012/03/07/introducing-log-parser-studio.aspx)
     
 - [Параметры по умолчанию для виртуальных каталогов Exchange](http://technet.microsoft.com/en-us/library/gg247612%28v=exchg.150%29.aspx)
     
-Загрузите следующее:
+Скачайте следующие компоненты:
   
 - [Сетевой монитор Microsoft 3.4](http://www.microsoft.com/en-us/download/details.aspx?id=4865)
     
@@ -126,6 +126,6 @@ ms.locfileid: "19761247"
     
 - [EWSEditor](http://ewseditor.codeplex.com/)
     
-- [Веб-служб Exchange управляемого интерфейса API](http://go.microsoft.com/fwlink/?LinkID=255472)
+- [Управляемый API веб-служб Exchange](http://go.microsoft.com/fwlink/?LinkID=255472)
     
 

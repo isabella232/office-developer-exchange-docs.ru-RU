@@ -1,5 +1,5 @@
 ---
-title: Условие (RestrictionType)
+title: Condition (Рестриктионтипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4fdb373e-bf1b-4cb0-bbfb-444c6c6cec50
-description: Элемент условие указывает условие, используемое для идентификации окончания поиска FindItem или FindConversation операции.
+description: Элемент Condition указывает условие, которое используется для определения конца поиска для операции FindItem или FindConversation.
 ms.openlocfilehash: 513fc21be52a90698f1c292d6d20d7cdaab07371
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761704"
 ---
-# <a name="condition-restrictiontype"></a>Условие (RestrictionType)
+# <a name="condition-restrictiontype"></a>Condition (Рестриктионтипе)
 
-Элемент **условие** указывает условие, используемое для идентификации окончания поиска **FindItem** или **FindConversation** операции. 
+Элемент **Condition** указывает условие, которое используется для определения конца поиска для операции **FindItem** или **FindConversation** . 
   
 ```XML
 <Condition>
@@ -25,10 +25,10 @@ ms.locfileid: "19761704"
 </Condition>
 ```
 
- **RestrictionType**
+ **рестриктионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,15 +38,15 @@ ms.locfileid: "19761704"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SearchExpression](searchexpression.md) <br/> |Абстрактный элемент, представляющий переданный элемент с ограничением.  <br/> |
+|[сеарчекспрессион](searchexpression.md) <br/> |Абстрактный элемент, представляющий замененный элемент в ограничении.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |Определяет условие, используемый для идентификации в конце поиска, начальный индекс поиска, максимальное записей для возвращения и указания поиска для **FindItem** или **FindConversation** операции.  <br/> |
+|[сиктокондитионпажеитемвиев](seektoconditionpageitemview.md) <br/> |Определяет условие, используемое для определения конца поиска, начального индекса поиска, максимальных возвращаемых записей и направления поиска для операции **FindItem** или **FindConversation** .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19761704"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

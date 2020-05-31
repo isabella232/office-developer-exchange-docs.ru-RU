@@ -1,5 +1,5 @@
 ---
-title: DailyRegeneration
+title: даилиреженератион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: cafb57e4-c518-45e0-b565-2babd0dab1df
-description: Элемент DailyRegeneration описывает период в днях, в которых генерируется задачи.
+description: Элемент Даилиреженератион описывает частоту повторного создания задачи (в днях).
 ms.openlocfilehash: 356f7fd2672b2ad87d17e597c52e9f12273ce3c6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761962"
 ---
-# <a name="dailyregeneration"></a>DailyRegeneration
+# <a name="dailyregeneration"></a>даилиреженератион
 
-Элемент **DailyRegeneration** описывает период в днях, в которых генерируется задачи. 
+Элемент **даилиреженератион** описывает частоту повторного создания задачи (в днях). 
   
 ```xml
 <DailyRegeneration>
@@ -29,11 +29,11 @@ ms.locfileid: "19761962"
 </DailyRegeneration>
 ```
 
-**DailyRegeneratingPatternType**
+**даилиреженератингпаттернтипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,15 +43,15 @@ ms.locfileid: "19761962"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Интервал](interval.md) <br/> |Задает интервал в днях между двумя последовательными повторяющихся элементов. Значение должно быть в диапазоне от 1 до 999.  <br/> |
+|[Interval](interval.md) <br/> |Определяет интервал (в днях) между двумя последовательными повторяющимися элементами. Значение должно находиться в диапазоне от 1 до 999.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит данные о повторении для повторяющихся задач.  <br/> |
+|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "19761962"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

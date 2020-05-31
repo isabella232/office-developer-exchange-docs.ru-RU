@@ -1,5 +1,5 @@
 ---
-title: FirstHopServer
+title: фирссопсервер
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 79c89d74-b0ad-4643-9177-b75d3baa3b67
-description: Элемент FirstHopServer содержит имя сервера в лесу, сначала принято сообщение.
+description: Элемент Фирссопсервер содержит имя сервера в лесу, который первым принял сообщение.
 ms.openlocfilehash: 1852b95f94b174b57c8175a45035a97686384c20
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762596"
 ---
-# <a name="firsthopserver"></a>FirstHopServer
+# <a name="firsthopserver"></a>фирссопсервер
 
-Элемент **FirstHopServer** содержит имя сервера в лесу, сначала принято сообщение. 
+Элемент **фирссопсервер** содержит имя сервера в лесу, который первым принял сообщение. 
   
 ```xml
 <FirstHopServer/>
 ```
 
- **NonEmptyStringType**
+ **нонемптистрингтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19762596"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Содержит результат одного сообщения для элемента [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[мессажетраккингсеарчресулт](messagetrackingsearchresult.md) <br/> |Содержит один результат одного сообщения для элемента [финдмессажетраккингрепортреспонсе](findmessagetrackingreportresponse.md) .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -60,7 +60,7 @@ ms.locfileid: "19762596"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 5f81d1b7-c6a4-456f-9935-13d04a3d92d7
-description: Элемент домены представляет коллекцию домена, который возвращается в операции GetDomainSettings (SOAP), доменов, в ходе операции GetFederationInformation (SOAP) федеративных организации или домены с связь организации как возвращенные операцией GetOrganizationRelationshipSettings (SOAP).
+description: Элемент Domains представляет коллекцию доменов, которая возвращается в операции Жетдомаинсеттингс (SOAP), домены, для которых в организации используется операция Жетфедератионинформатион (SOAP), или домены с отношением Организации, возвращенные операцией Жеторганизатионрелатионшипсеттингс (SOAP).
 ms.openlocfilehash: 7a21a3a09516de2d1c38021ca3ccd2161d9cdd1e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19762214"
 ---
 # <a name="domains-soap"></a>Домены (SOAP)
 
-Элемент **домены** представляет коллекцию домена, который возвращается в [операции GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md), доменов, в ходе [операции GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)федеративных организации или домены с связь организации, возвращенные операцией [GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md).
+Элемент **Domains** представляет коллекцию доменов, которая возвращается в [операции жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md), домены, для которых в организации используется [Операция жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md), или домены с отношением Организации, возвращенные [операцией жеторганизатионрелатионшипсеттингс (SOAP)](getorganizationrelationshipsettings-operation-soap.md).
   
 ```XML
 <Domains>
@@ -29,7 +29,7 @@ ms.locfileid: "19762214"
  **Домены**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,9 +45,9 @@ ms.locfileid: "19762214"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md) <br/> |Представляет запрос [GetDomainSettings операции (SOAP)](getdomainsettings-operation-soap.md) .  <br/> |
-|[Ответ (GetFederationInformation) (SOAP)](response-getfederationinformationsoap.md) <br/> |Содержит сведения, ответа [GetFederationInformation операции (SOAP)](getfederationinformation-operation-soap.md) .  <br/> |
-|[GetOrganizationRelationshipSettingsRequest (SOAP)](getorganizationrelationshipsettingsrequest-soap.md) <br/> |Представляет запрос [GetOrganizationRelationshipSettings операции (SOAP)](getorganizationrelationshipsettings-operation-soap.md) .  <br/> |
+|[Жетдомаинсеттингсрекуест (SOAP)](getdomainsettingsrequest-soap.md) <br/> |Представляет запрос [операции жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md) .  <br/> |
+|[Отклик (Жетфедератионинформатион) (SOAP)](response-getfederationinformationsoap.md) <br/> |Содержит данные ответа [операции жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md) .  <br/> |
+|[Жеторганизатионрелатионшипсеттингсрекуест (SOAP)](getorganizationrelationshipsettingsrequest-soap.md) <br/> |Представляет запрос [операции жеторганизатионрелатионшипсеттингс (SOAP)](getorganizationrelationshipsettings-operation-soap.md) .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -58,12 +58,12 @@ ms.locfileid: "19762214"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md)  
-- [GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md)
+- [Жетдомаинсеттингсрекуест (SOAP)](getdomainsettingsrequest-soap.md)  
+- [Жетфедератионинформатионреспонсе (SOAP)](getfederationinformationresponse-soap.md)
 

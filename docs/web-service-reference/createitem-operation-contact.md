@@ -1,5 +1,5 @@
 ---
-title: Операции CreateItem (контактов)
+title: Операция CreateItem (Contact)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -19,21 +19,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761892"
 ---
-# <a name="createitem-operation-contact"></a>Операции CreateItem (контактов)
+# <a name="createitem-operation-contact"></a>Операция CreateItem (Contact)
 
 Операция CreateItem используется для создания контактов в хранилище Exchange.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Создание частные списки рассылки не поддерживается. Все свойства в контейнере [CompleteName](completename.md) доступны только для чтения и не могут задаваться на элемента контакта. 
+Создание частных списков рассылки не поддерживается. Все свойства в контейнере [комплетенаме](completename.md) доступны только для чтения и не могут быть заданы для элемента контакта. 
   
 ## <a name="createitem-request-example"></a>Пример запроса CreateItem
 
 ### <a name="description"></a>Описание
 
-Допустимый запрос CreateItem SOAP в следующем примере показано, как создание контактов в папке контактов по умолчанию.
+В приведенном ниже примере допустимого запроса в виде CreateItem SOAP показано, как создать контакт в папке "Контакты" по умолчанию.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope
@@ -74,39 +74,39 @@ ms.locfileid: "19761892"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
 - [CreateItem](createitem.md)
     
-- [SavedItemFolderId](saveditemfolderid.md)
+- [саведитемфолдерид](saveditemfolderid.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
-- [Элементы (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
     
-- [Контакт](contact.md)
+- [контакт](contact.md);
     
 - [FileAs](fileas.md)
     
 - [GivenName](givenname.md)
     
-- [Название организации](companyname.md)
+- [CompanyName](companyname.md)
     
 - [EmailAddresses](emailaddresses.md)
     
 - [Запись (EmailAddress)](entry-emailaddress.md)
     
-- [PhysicalAddresses](physicaladdresses.md)
+- [фисикаладдрессес](physicaladdresses.md)
     
 - [Запись (PhysicalAddress)](entry-physicaladdress.md)
     
-- [Улица](street.md)
+- [Назван](street.md)
     
-- [Город](city.md)
+- [City](city.md)
     
-- [Состояние](state-ex15websvcsotherref.md)
+- [State](state-ex15websvcsotherref.md)
     
 - [CountryOrRegion](countryorregion.md)
     
@@ -114,17 +114,17 @@ ms.locfileid: "19761892"
     
 - [Запись (PhoneNumber)](entry-phonenumber.md)
     
-- [Название должности](jobtitle.md)
+- [JobTitle](jobtitle.md)
     
-- [Фамилия](surname.md)
+- [ФИО](surname.md)
     
 ## <a name="successful-createitem-request"></a>Успешный запрос CreateItem
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос CreateItem, создавшего контакт. В этом примере ответ содержит идентификатор только что созданный элемента.
+В следующем примере показан успешный ответ на запрос CreateItem, который создал контакт. В этом примере ответ содержит идентификатор только что созданного элемента.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -154,37 +154,37 @@ ms.locfileid: "19761892"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификатор элемента был усечен, чтобы сохранить удобочитаемость.
+Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateItemResponse](createitemresponse.md)
+- [креатеитемреспонсе](createitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateItemResponseMessage](createitemresponsemessage.md)
+- [креатеитемреспонсемессаже](createitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
     
-- [Контакт](contact.md)
+- [контакт](contact.md);
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-## <a name="invalid-createitem-request-example"></a>Пример запроса недопустимый CreateItem
+## <a name="invalid-createitem-request-example"></a>Недопустимый пример запроса CreateItem
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано запрос, содержащий допустимый XML, но несовместимым инструкции. Контакт не может быть создано в папки поиска.
+В следующем примере показан запрос, который содержит допустимый XML, но несовместимые инструкции. Невозможно создать контакт в папке поиска.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -206,13 +206,13 @@ ms.locfileid: "19761892"
 </soap:Envelope>
 ```
 
-## <a name="createitem-contact-error-response"></a>Отклик CreateItem (контактов)
+## <a name="createitem-contact-error-response"></a>Запрос ошибки CreateItem (Contact)
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос CreateItem (контактов).
+В приведенном ниже примере показан ответ об ошибке для запроса CreateItem (Contact).
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -240,29 +240,29 @@ ms.locfileid: "19761892"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateItemResponse](createitemresponse.md)
+- [креатеитемреспонсе](createitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateItemResponseMessage](createitemresponsemessage.md)
+- [креатеитемреспонсемессаже](createitemresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Элементы (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[CreateItem Operation](createitem-operation.md)
+[Операция CreateItem](createitem-operation.md)
 

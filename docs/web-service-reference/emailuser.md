@@ -1,5 +1,5 @@
 ---
-title: EmailUser
+title: Свойства emailuser
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dc8133ff-c34e-4921-bb56-06e79aee0a8a
-description: Элемент EmailUser указывает электронной почте.
+description: Элемент свойства emailuser указывает получателя электронной почты.
 ms.openlocfilehash: e724b3996d37a42527ec1183cef9bb6b312b8c93
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762324"
 ---
-# <a name="emailuser"></a>EmailUser
+# <a name="emailuser"></a>Свойства emailuser
 
-Элемент **EmailUser** указывает электронной почте. 
+Элемент **Свойства emailuser** указывает получателя электронной почты. 
   
 ```XML
 <EmailUser>
@@ -26,10 +26,10 @@ ms.locfileid: "19762324"
 </EmailUser>
 ```
 
- **EmailUserType**
+ **емаилусертипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,16 +39,16 @@ ms.locfileid: "19762324"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (строка)](name-string.md) <br/> |Указывает имя уточнения поиска или ключ или имя электронной почты пользователя.  <br/> |
-|[Идентификатор пользователя (строка)](userid-string.md) <br/> |Задает идентификатор пользователя для пользователя по электронной почте.  <br/> |
+|[Имя (строка)](name-string.md) <br/> |Задает имя или ключ уточнения поиска или имя пользователя электронной почты.  <br/> |
+|[UserId (строка)](userid-string.md) <br/> |Указывает идентификатор пользователя электронной почты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Участники](attendees.md) <br/> |Указывает получателей приглашения на собрание.  <br/> |
+|['](attendees.md) <br/> |Указывает получателей приглашения на собрание.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19762324"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

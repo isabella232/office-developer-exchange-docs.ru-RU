@@ -1,5 +1,5 @@
 ---
-title: CalendarEventArray
+title: календаревентаррай
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a00f7f56-d7f1-429d-ae02-97043718c864
-description: Элемент CalendarEventArray содержит набор вхождений элемента уникальный календаря, которые представляют доступности запрошенного пользователя.
+description: Элемент Календаревентаррай содержит набор уникальных экземпляров элемента календаря, представляющих доступность запрошенного пользователя.
 ms.openlocfilehash: 2e56b7b2b94e12401ba708dfca94101064d625e1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761638"
 ---
-# <a name="calendareventarray"></a>CalendarEventArray
+# <a name="calendareventarray"></a>календаревентаррай
 
-Элемент **CalendarEventArray** содержит набор вхождений элемента уникальный календаря, которые представляют доступности запрошенного пользователя. 
+Элемент **календаревентаррай** содержит набор уникальных экземпляров элемента календаря, представляющих доступность запрошенного пользователя. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
+[фрибусиреспонсеаррай](freebusyresponsearray.md)
   
-[FreeBusyResponse](freebusyresponse.md)
+[фрибусиреспонсе](freebusyresponse.md)
   
-[FreeBusyView](freebusyview.md)
+[фрибусивиев](freebusyview.md)
   
-[CalendarEventArray](calendareventarray.md)
+[календаревентаррай](calendareventarray.md)
   
 ```xml
 <CalendarEventArray>
@@ -39,10 +39,10 @@ ms.locfileid: "19761638"
 </CalendarEventArray>
 ```
 
- **ArrayOfCalendarEvent**
+ **аррайофкалендаревент**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -52,17 +52,17 @@ ms.locfileid: "19761638"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CalendarEvent](calendarevent.md) <br/> |Представляет вхождение элемента уникальный календаря.  <br/> |
+|[календаревент](calendarevent.md) <br/> |Представляет уникальное вхождение элемента календаря.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FreeBusyView](freebusyview.md) <br/> |Содержит сведения о доступности для конкретного пользователя.  <br/> Ниже приведен выражение XPath 2.0 для этого элемента.  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
+|[фрибусивиев](freebusyview.md) <br/> |Содержит сведения о доступности для определенного пользователя.  <br/> Ниже приведено выражение XPath 2,0 для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Уровень детализации, представленные в этом элементе зависит от разрешения, предоставленные для инициатора запроса. Этот элемент включен, если элемент [FreeBusyViewType](freebusyviewtype.md) задано значение **занятости**, **FreeBusyMerged**, **Detailed**или **DetailedMerged**. Этот элемент не включает все дочерние элементы, если отсутствуют не элементы календаря в запрошенный временной интервал. 
+Уровень детализации, предоставляемый этим элементом, зависит от разрешений, предоставленных запрашивающему участнику. Этот элемент включается, если для элемента [фрибусивиевтипе](freebusyviewtype.md) задано **значение FreeBusy**, **Фрибусимержед**, **Detailed**или **детаиледмержед**. Этот элемент не включает никакие дочерние элементы, если в окне запрошенного времени нет элементов календаря. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -72,7 +72,7 @@ ms.locfileid: "19761638"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -81,7 +81,7 @@ ms.locfileid: "19761638"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

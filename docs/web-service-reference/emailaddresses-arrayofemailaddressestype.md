@@ -1,5 +1,5 @@
 ---
-title: EmailAddresses (ArrayOfEmailAddressesType)
+title: EmailAddresses (Аррайофемаиладдрессестипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 95084659-aa5a-4bac-8977-00db3b87883e
-description: Элемент EmailAddresses указывает массив всех адресов электронной почты, связанного пользователя.
+description: Элемент EmailAddresses указывает массив всех адресов электронной почты связанного пользователя.
 ms.openlocfilehash: 292d4c3f12b01f25fd094b2ab6d9c2d484d37694
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762292"
 ---
-# <a name="emailaddresses-arrayofemailaddressestype"></a>EmailAddresses (ArrayOfEmailAddressesType)
+# <a name="emailaddresses-arrayofemailaddressestype"></a>EmailAddresses (Аррайофемаиладдрессестипе)
 
-Элемент **EmailAddresses** указывает массив всех адресов электронной почты, связанного пользователя. 
+Элемент **EmailAddresses** указывает массив всех адресов электронной почты связанного пользователя. 
   
 ```XML
 <EmailAddresses>
@@ -25,10 +25,10 @@ ms.locfileid: "19762292"
 </EmailAddresses>
 ```
 
- **ArrayOfEmailAddressesType**
+ **аррайофемаиладдрессестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,9 +44,9 @@ ms.locfileid: "19762292"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762292"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

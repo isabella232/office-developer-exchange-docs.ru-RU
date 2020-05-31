@@ -23,10 +23,10 @@ ms.locfileid: "19761816"
 <ConversationIndex></ConversationIndex>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,17 +40,17 @@ ms.locfileid: "19761816"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ConversationNode](conversationnode.md) <br/> |Определяет узел в беседе.  <br/> |
+|[конверсатионноде](conversationnode.md) <br/> |Указывает узел в беседе.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Строковое значение, представляющее индекс беседы.
+Строковое значение, представляющее индекс диалога.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент обязательный.
   
-Элемент **ConversationIndex** используется для клиентов, относящихся к Exchange Online и версий Microsoft Exchange Server, начиная с Exchange 2013. 
+Элемент **ConversationIndex** применяется для клиентов, которые ориентированы на Exchange Online и версии Microsoft Exchange Server, начиная с Exchange 2013. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761816"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -1,11 +1,11 @@
 ---
-title: Доступ к ряду с помощью веб-служб Exchange в Exchange
+title: Доступ к повторяющимся сериям с помощью EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 196a5671-2836-4696-b734-d5ecfdbf8962
-description: Узнайте, как получить доступ к элементы календаря в ряду с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как получать доступ к элементам календаря в повторяющихся рядах с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 9f78ef5b51766a69d23fce3f36c55fbb9422fb16
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,25 +13,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760958"
 ---
-# <a name="access-a-recurring-series-by-using-ews-in-exchange"></a>Доступ к ряду с помощью веб-служб Exchange в Exchange
+# <a name="access-a-recurring-series-by-using-ews-in-exchange"></a>Доступ к повторяющимся сериям с помощью EWS в Exchange
 
-Узнайте, как получить доступ к элементы календаря в ряду с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как получать доступ к элементам календаря в повторяющихся рядах с помощью управляемого API EWS или EWS в Exchange.
   
-Ряд повторяющейся встречи или собрания, состоящих из образца повторения, количество вхождений из серии, повторите согласно заданному шаблону и при необходимости устанавливает вхождения, которые были изменены, были удалены. Управляемый API EWS или веб-служб Exchange можно использовать для доступа к элементам календаря в ряду. Это позволяет:
+Повторяющиеся ряды встреч и собраний состоят из повторяющегося образца, числа повторений в серии, которые повторяются в соответствии с шаблоном набора, и (при необходимости) — с измененными и удаленными копиями. Вы можете использовать управляемый API EWS или EWS для доступа к элементам календаря в повторяющихся рядах. Это позволяет:
   
-- Проверьте, если элемент календаря, связанного с Идентификатором элемента является образцом повторения, вхождение в серии или исключение в набор.
+- Проверьте, является ли элемент календаря, связанный с ИДЕНТИФИКАТОРом элемента, повторяющейся копией, вхождением в цикле или исключением из ряда.
     
-- Поиск папки Календарь для повторения встречи.
+- Поиск повторяющихся встреч в папке "Календарь".
     
-- Получение связанных с ними повторение элементов календаря
+- Получение связанных элементов календаря повторения
     
-- Выполните итерацию по вхождений в серии, вхождение исключения или удалений вхождение.
+- Итерация по вхождениям в рядах, исключениях вхождений или удалении вхождений.
     
-## <a name="get-a-collection-of-recurring-calendar-items-by-using-the-ews-managed-api"></a>Получить коллекцию повторяющихся элементов календаря с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-a-collection-of-recurring-calendar-items-by-using-the-ews-managed-api"></a>Получение коллекции повторяющихся элементов календаря с помощью управляемого API EWS
 
-Если вы хотите получить коллекцию встреч, можно использовать метод [ExchangeService.FindAppointments](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) для извлечения всех встреч между данной даты начала и окончания и добавьте все элементы календаря с типом встречи **вхождение **или **исключение** семейство сайтов, как показано в следующем примере. 
+Если вы хотите получить коллекцию встреч, можно использовать метод [ExchangeService. FindAppointments](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) для получения всех встреч между заданными начальной и конечной датами, а затем добавить все элементы календаря с типом "встреча **" или "** **исключение** " в коллекцию, как показано в следующем примере. 
   
-В этом примере предполагается, что прошедшие проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **службы**. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. 
   
 ```cs
 public static Collection<Appointment> FindRecurringCalendarItems(ExchangeService service, 
@@ -66,9 +66,9 @@ public static Collection<Appointment> FindRecurringCalendarItems(ExchangeService
 
 ```
 
-Обратите внимание, что регулярное главные элементы календаря не возвращены в вызове **FindAppointments**. Если вы хотите получить повторяющихся образцов, или более общий подход к извлечение элементов календаря, необходимо использовать [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx). Затем можно использовать фильтр поиска для извлечения только элементы с датой начала больше или равно даты выбранного и представлением элемента для ограничения числа элементов для возврата. Обратите внимание, что повторяющиеся образец с начала Дата раньше, чем дата начала в поле поиска не найден, даже в том случае, если возникают вхождений в этот диапазон.
+Обратите внимание, что повторяющиеся элементы основного календаря не возвращаются при вызове **FindAppointments**. Если вы хотите извлечь повторяющиеся шаблоны или хотите использовать более общий подход к извлечению элементов календаря, необходимо использовать [ExchangeService. FindItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx). Затем можно использовать фильтр поиска, чтобы получить только те элементы, Дата начала которых больше или равна выбранному значению, и представление элемента, чтобы ограничить количество возвращаемых элементов. Обратите внимание, что повторяющаяся основная реплика с датой начала, предшествующей дате начала поиска, не будет найдена, даже если вхождения встречаются в этом диапазоне.
   
-В этом примере предполагается, что прошедшие проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **службы**. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. 
   
 ```cs
 public static Collection<Appointment> FindCalendarItemsByAppointmentType(ExchangeService service, 
@@ -102,21 +102,21 @@ public static Collection<Appointment> FindCalendarItemsByAppointmentType(Exchang
 
 ```
 
-## <a name="get-related-recurrence-calendar-items-by-using-the-ews-managed-api"></a>Получение связанных с ними повторения элементы календаря с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-related-recurrence-calendar-items-by-using-the-ews-managed-api"></a>Получение связанных элементов календаря повторения с помощью управляемого API EWS
 
-В некоторых случаях, что у вас есть один фрагмент головоломка, но для ее решения необходимо остальной части. Если у вас есть идентификатор элемента для элемента календаря повторения, можно получить с помощью одного из нескольких управляемый API EWS свойству или методу нужных частей.
+Иногда у вас есть один элемент головоломки, но чтобы решить эту проблему, необходимо выполнить остальные части. Если у вас есть идентификатор элемента календаря повторения, вы можете получить другие необходимые части, используя один из нескольких свойств или методов управляемого API EWS.
   
-**В таблице 1. Управляемый API EWS свойство или метод, используемый для получения связанных с ними повторение элементов календаря**
+**Таблица 1. Свойство или метод управляемого API EWS, используемые для получения связанных элементов календаря повторений**
 
-|**Если у вас есть идентификатор элемента для...**|**Вы можете получить...**|**С помощью...**|
+|**Если у вас есть идентификатор элемента для...**|**Вы можете получить...**|**С помощью метода...**|
 |:-----|:-----|:-----|
-|Повторяющегося элемента главного календаря  <br/> | Первое в последовательности  <br/>  Последнее вхождение из серии  <br/>  Исключения в набор  <br/>  Удаленные встречи в цикле  <br/>  Все вхождения (при наличии индекса)  <br/> |Свойство [Appointment.FirstOccurrence](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx)  <br/> Свойство [Appointment.LastOccurrence](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.lastoccurrence%28v=exchg.80%29.aspx)  <br/> Свойство [Appointment.ModifiedOccurrences](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx)  <br/> Свойство [Appointment.DeletedOccurrences](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx)  <br/> Метод [Appointment.BindToOccurrence](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx)  <br/> |
-|Одно вхождение из серии  <br/> |Повторяющееся главное  <br/> |Метод [Appointment.BindToRecurringMaster](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx)  <br/> |
-|Любой элемент календаря (объект [Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) )  <br/> |Значение перечисления для [типа встречи](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointmenttype%28v=exchg.80%29.aspx)  <br/> |Свойство [Appointment.AppointmentType](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.appointmenttype%28v=exchg.80%29.aspx)  <br/> |
+|Элемент повторяющегося основного календаря  <br/> | Первое вхождение в серии  <br/>  Последнее вхождение в серии  <br/>  Исключения из серии  <br/>  Удаленные встречи в ряду  <br/>  Все вхождения (при наличии индекса)  <br/> |Свойство [встреча. фирстоккурренце](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx)  <br/> Свойство [встреча. ластоккурренце](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.lastoccurrence%28v=exchg.80%29.aspx)  <br/> Свойство [встреча. модифиедоккурренцес](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx)  <br/> Свойство [встреча. делетедоккурренцес](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx)  <br/> Метод [встреча. биндтуккурренце](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx)  <br/> |
+|Один экземпляр в ряду  <br/> |Шаблон повторения  <br/> |Метод [встреча. биндторекуррингмастер](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx)  <br/> |
+|Любой элемент календаря (объект [встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) )  <br/> |Значение перечисления [типа встреча](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointmenttype%28v=exchg.80%29.aspx)  <br/> |Свойство [встреча. аппоинтменттипе](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.appointmenttype%28v=exchg.80%29.aspx)  <br/> |
    
-В следующем примере кода показано, как получить образцом повторения, первое или последнее вхождение из серии или вхождение, учитывая его индексу.
+В приведенном ниже примере кода показано, как получить повторяющуюся основную страницу, первое или Последнее вхождение в ряду или вхождение, заданное индексом.
   
-В этом примере предполагается, что прошедшие проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **службы**. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. 
   
 ```cs
 public static void GetRelatedRecurrenceCalendarItems(ExchangeService service, ItemId itemId)
@@ -176,11 +176,11 @@ public static void GetRelatedRecurrenceCalendarItems(ExchangeService service, It
 
 ```
 
-## <a name="access-calendar-items-in-a-recurring-series-by-using-ews"></a>Доступа к элементам календаря в ряду с помощью веб-служб Exchange
+## <a name="access-calendar-items-in-a-recurring-series-by-using-ews"></a>Доступ к элементам календаря в повторяющихся рядах с помощью EWS
 
-Доступ к элементам календаря в серии повторяющихся очень похоже на доступ к одной экземпляры элементов календаря. Используйте запрос операции [GetItem](http://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) , указание свойств, который будет с [OccurrenceItemId](http://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) экземпляра встречи, необходимую. [OccurrenceItemId](http://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) содержит **ItemID** этот экземпляр повторяющейся основной, а также его значение индекса в серии. 
+Доступ к элементам календаря в повторяющихся рядах очень похож на доступ к отдельным экземплярам элементов календаря. Вы используете запрос операции [GetItem](http://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) , указав нужные свойства с помощью [оккурренцеитемид](http://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) экземпляра встречи. [Оккурренцеитемид](http://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) содержит **идентификатор элемента** повторяющейся основной реплики, а также значение индекса в ряду. 
   
-В XML показан запрос [GetItem](http://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) , используется для возврата вхождения в цикле по его индексу. Обратите внимание на то, имя **ItemID** повторяющихся хозяина в сокращается удобочитаемость. 
+В следующем XML-коде показан запрос [GetItem](http://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) , используемый для возврата вхождения в серии, указанной по индексу. Обратите внимание, что **идентификатор элемента** повторяющейся основной реплики был сокращен для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -208,12 +208,12 @@ public static void GetRelatedRecurrenceCalendarItems(ExchangeService service, It
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **GetItem** [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) **NoError**, это означает, что сообщение электронной почты был успешно создан, и [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) из вновь сообщение о создании. 
+Сервер отвечает на запрос **GetItem** с сообщением [жетитемреспонсе](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) **, которое**указывает на то, что сообщение было создано успешно, и идентификатор элемента [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) вновь созданного сообщения. 
   
 ## <a name="see-also"></a>См. также
 
 
 - [Календари и веб-службах Exchange](calendars-and-ews-in-exchange.md)
-- [Получение встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Получение встреч и собраний с помощью EWS в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

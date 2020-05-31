@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4300f9d6-8bf9-48c2-9f07-d80197864e17
-description: Элемент ConnectionStatus с описанием текст состояния потоковой передачи подписки.
+description: Элемент ConnectionStatus предоставляет текстовое описание состояния попотоковой подписки.
 ms.openlocfilehash: 567308d79eaccba24230deddf5d78a724b8746af
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,16 +21,16 @@ ms.locfileid: "19761718"
 ---
 # <a name="connectionstatus"></a>ConnectionStatus
 
-Элемент **ConnectionStatus** с описанием текст состояния потоковой передачи подписки. 
+Элемент **ConnectionStatus** предоставляет текстовое описание состояния попотоковой подписки. 
   
 ```xml
 <ConnectionStatus>OK or Closed</ConnectionStatus>
 ```
 
- **ConnectionStatusType**
+ **коннектионстатустипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,17 +44,17 @@ ms.locfileid: "19761718"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [GetStreamingEvents операции](getstreamingevents-operation.md) .  <br/> |
+|[жетстреаминжевентсреспонсемессаже](getstreamingeventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Ниже приведены возможные значения для этого элемента.
+Необходимо указать текстовое значение. Ниже приведены возможные текстовые значения для этого элемента:
   
 - OK
     
-- Закрыт
+- Закрыто
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -64,7 +64,7 @@ ms.locfileid: "19761718"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

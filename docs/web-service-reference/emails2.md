@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6ad95936-f61b-431a-9d86-df160b5d4b2d
-description: Элемент Emails2 содержит массив значений EmailAddressAttributedValue и идентификаторы их атрибуты источника для связанного пользователя.
+description: Элемент Emails2 содержит массив значений Емаиладдрессаттрибутедвалуе и идентификаторы их исходных атрибутов для связанного пользователя.
 ms.openlocfilehash: 1767d6bfaee335717e33e0345c605025a073335c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19762295"
 ---
 # <a name="emails2"></a>Emails2
 
-Элемент **Emails2** содержит массив значений **EmailAddressAttributedValue** и идентификаторы их атрибуты источника для связанного пользователя. 
+Элемент **Emails2** содержит массив значений **емаиладдрессаттрибутедвалуе** и идентификаторы их исходных атрибутов для связанного пользователя. 
   
 ```XML
 <Emails2>
@@ -25,10 +25,10 @@ ms.locfileid: "19762295"
 </Emails2>
 ```
 
- **ArrayOfEmailAddressAttributedValuesType**
+ **аррайофемаиладдрессаттрибутедвалуестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,15 +38,15 @@ ms.locfileid: "19762295"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[EmailAddressAttributedValue](emailaddressattributedvalue.md) <br/> |Указывает экземпляр массив адресов электронной почты и их связанные атрибуты.  <br/> |
+|[емаиладдрессаттрибутедвалуе](emailaddressattributedvalue.md) <br/> |Указывает экземпляр массива адресов электронной почты и связанные с ними атрибуты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762295"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

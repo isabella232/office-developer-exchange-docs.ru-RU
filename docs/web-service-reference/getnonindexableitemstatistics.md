@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dd16d1fb-d82d-42e5-b64a-bc6c19c48fa8
-description: Элемент GetNonIndexableItemStatistics определяет запрос на получение статистики nonindexable элемента.
+description: Элемент GetNonIndexableItemStatistics указывает запрос на получение статистики неиндексируемых элементов.
 ms.openlocfilehash: 4e6f9a0ba94e9946a3910661810bc2c9e748ba9f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19762856"
 ---
 # <a name="getnonindexableitemstatistics"></a>GetNonIndexableItemStatistics
 
-Элемент **GetNonIndexableItemStatistics** определяет запрос на получение статистики nonindexable элемента. 
+Элемент **GetNonIndexableItemStatistics** указывает запрос на получение статистики неиндексируемых элементов. 
   
 ```XML
 <GetNonIndexableItemStatistics>
@@ -25,10 +25,10 @@ ms.locfileid: "19762856"
 </GetNonIndexableItemStatistics>
 ```
 
- **GetNonIndexableItemStatisticsType**
+ **жетнониндексаблеитемстатистикстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19762856"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Почтовые ящики (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Указывает массив элементов **почтового ящика** .  <br/> |
+|[Почтовые ящики (Нонемптяррайофлегациднстипе)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Указывает массив элементов **почтового ящика** .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19762856"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

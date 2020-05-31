@@ -1,11 +1,11 @@
 ---
-title: Извлечь сущности из сообщения электронной почты с помощью веб-служб Exchange в Exchange
+title: Извлечение объекта из сообщения электронной почты с помощью EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6396b009-5f6e-41eb-a75a-224d43e864ae
-description: Узнайте, как получить данные из текста сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как извлечь информацию из текста сообщения электронной почты с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: d3d5c4b756347a4cedede184709884d5ed8f08b4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,27 +13,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761007"
 ---
-# <a name="extract-an-entity-from-an-email-message-by-using-ews-in-exchange"></a>Извлечь сущности из сообщения электронной почты с помощью веб-служб Exchange в Exchange
+# <a name="extract-an-entity-from-an-email-message-by-using-ews-in-exchange"></a>Извлечение объекта из сообщения электронной почты с помощью EWS в Exchange
 
-Узнайте, как получить данные из текста сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как извлечь информацию из текста сообщения электронной почты с помощью управляемого API EWS или EWS в Exchange.
   
-Управляемый API EWS или веб-служб Exchange можно использовать для доступа к адреса, контакты, адреса электронной почты, предложения о собрании, номера телефонов, задачи и URL-адресов, Exchange server извлекает из сообщений электронной почты. Затем можно использовать эти сведения для новых приложений или предложить дальнейшие действия в существующие приложения. К примеру контактного лица, предложения о собрании или предложения задачи, идентифицируемым в сообщение электронной почты, приложение может предложить, что создается новый элемент с предварительно заполненными данными. С помощью извлеченного сущностей, вы может капитализации цель за данные и помогают пользователям легко интегрировать их содержимое сообщения электронной почты в предусматривающей действие результатов.
+С помощью управляемого API EWS или EWS можно получить доступ к адресам, контактам, адресам электронной почты, предложениям для собраний, номерам телефонов, задачам и URL-адресам, извлекаемым сервером Exchange из сообщений электронной почты. Вы можете использовать эти сведения для новых приложений или предложить дальнейшие действия в существующих приложениях. Например, если Контактное лицо, предложение о собрании или предложение по задаче идентифицированы в сообщении электронной почты, ваше приложение может предложить создать новый элемент с предварительно заполненной информацией. С помощью извлеченных сущностей можно записаться с помощью прописных и строчных букв, а также упростить интеграцию содержимого сообщений электронной почты с действиями.
   
-Извлечение сущностей для адресов, контакты, адреса электронной почты, предложения о собрании, телефонных номеров, задачи и URL-адреса, уже созданных для всех элементов в хранилище Exchange. Если вы используете управляемый API веб-служб Exchange, свойство [Item.EntityExtractionResult](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx) извлекает сущности для вас в вызове метода [Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) . Если вы используете веб-служб Exchange, элемент [EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx) получает все извлеченные сущности для вас в вызова операции [GetItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) . После получения результатов сущности, извлеченные справляются каждого семейства сайтов сущности для сбора необходимых данных. Например если предложения о собрании было извлечено, можно извлечь тему предложенного собрания, список участников, время начала и время окончания. 
+Извлечение объектов для адресов, контактов, адресов электронной почты, предложений о собраниях, номеров телефонов, задач и URL-адресов уже встроено в каждый элемент в хранилище Exchange. Если вы используете управляемый API EWS, свойство [Item. ентитекстрактионресулт](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx) извлекает сущности для вас в вызове метода [Item. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) . Если вы используете EWS, элемент [ентитекстрактионресулт](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx) получает все извлеченные объекты для вас в вызове операции [GetItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) . После получения результатов извлеченных сущностей можно просмотреть каждую коллекцию сущностей, чтобы собрать соответствующие сведения. Например, если было извлечено предложение о собрании, вы можете получить предлагаемую тему собрания, список участников, время начала и время окончания. 
   
-**В таблице 1. Управляемый API EWS свойства и элементы веб-служб Exchange, которые содержат извлеченные сущности**
+**Таблица 1. Свойства управляемого API EWS и элементы EWS, содержащие извлеченные сущности**
 
-|**Извлеченный объект**|**Свойство управляемый API EWS**|**Элемент веб-служб Exchange**|
+|**Извлеченная сущность**|**Свойство управляемого API EWS**|**Элемент EWS**|
 |:-----|:-----|:-----|
-|Адреса  <br/> |[EntityExtractionResult.Addresses](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[Адреса](http://msdn.microsoft.com/library/0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e%28Office.15%29.aspx) <br/> |
-|Контакты  <br/> |[EntityExtractionResult.Contacts](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.contacts%28v=exchg.80%29.aspx) <br/> |[Контакты](http://msdn.microsoft.com/library/a2c1e833-5f8c-438d-bad7-bb5dcc29ca9e%28Office.15%29.aspx) <br/> |
-|Адрес электронной почты  <br/> |[EntityExtractionResult.EmailAddresses](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.emailaddresses%28v=exchg.80%29.aspx) <br/> |[EmailAddresses](http://msdn.microsoft.com/library/2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3%28Office.15%29.aspx) <br/> |
-|Предложения о собрании  <br/> |[EntityExtractionResult.MeetingSuggestions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.meetingsuggestions%28v=exchg.80%29.aspx) <br/> |[MeetingSuggestions](http://msdn.microsoft.com/library/c99e9a60-9e38-425d-ad03-47c8917f41da%28Office.15%29.aspx) <br/> |
-|Номера телефонов  <br/> |[EntityExtractionResult.PhoneNumbers](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.phonenumbers%28v=exchg.80%29.aspx) <br/> |[PhoneNumbers](http://msdn.microsoft.com/library/9ff6ae98-34a1-47f7-bde5-608251a789f7%28Office.15%29.aspx) <br/> |
-|Предложения задач  <br/> |[EntityExtractionResult.TaskSuggestions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[TaskSuggestions](http://msdn.microsoft.com/library/7d3c6314-2a5c-4fc3-b5f9-ae6d4946aac3%28Office.15%29.aspx) <br/> |
-|URL-адреса  <br/> |[EntityExtractionResult.Urls](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[URL-адреса](http://msdn.microsoft.com/library/c39744ea-0cee-4954-8653-8279d6b10161%28Office.15%29.aspx) <br/> |
+|Адреса  <br/> |[Ентитекстрактионресулт. Addresses](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[Адреса](http://msdn.microsoft.com/library/0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e%28Office.15%29.aspx) <br/> |
+|Контакты  <br/> |[Ентитекстрактионресулт. Contacts](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.contacts%28v=exchg.80%29.aspx) <br/> |[Контакты](http://msdn.microsoft.com/library/a2c1e833-5f8c-438d-bad7-bb5dcc29ca9e%28Office.15%29.aspx) <br/> |
+|Адреса электронной почты  <br/> |[Ентитекстрактионресулт. EmailAddresses](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.emailaddresses%28v=exchg.80%29.aspx) <br/> |[EmailAddresses](http://msdn.microsoft.com/library/2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3%28Office.15%29.aspx) <br/> |
+|Предложения для собраний  <br/> |[Ентитекстрактионресулт. MeetingSuggestions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.meetingsuggestions%28v=exchg.80%29.aspx) <br/> |[MeetingSuggestions](http://msdn.microsoft.com/library/c99e9a60-9e38-425d-ad03-47c8917f41da%28Office.15%29.aspx) <br/> |
+|Номера телефонов  <br/> |[Ентитекстрактионресулт. PhoneNumbers](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.phonenumbers%28v=exchg.80%29.aspx) <br/> |[PhoneNumbers](http://msdn.microsoft.com/library/9ff6ae98-34a1-47f7-bde5-608251a789f7%28Office.15%29.aspx) <br/> |
+|Предложения по задачам  <br/> |[Ентитекстрактионресулт. TaskSuggestions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[TaskSuggestions](http://msdn.microsoft.com/library/7d3c6314-2a5c-4fc3-b5f9-ae6d4946aac3%28Office.15%29.aspx) <br/> |
+|URL-адреса  <br/> |[Ентитекстрактионресулт. URL](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[Urls](http://msdn.microsoft.com/library/c39744ea-0cee-4954-8653-8279d6b10161%28Office.15%29.aspx) <br/> |
    
-Так как извлечение сущностей полагается на естественном языке распознавания, распознавания сущности может быть недетерминированным и успеха в некоторых случаях основывается на контексте. Для демонстрации, как работает распознавания естественном языке, примеров, описанных в этой статье использование следующих электронной почты как входные данные.
+Так как извлечение объектов основывается на естественном распознавание языка, распознавание сущностей может быть недетерминированной, и при успешном выполнении иногда используется контекст. Чтобы продемонстрировать, как работает распознавание естественного языка, в примерах в этой статье используется следующий адрес электронной почты в качестве входных данных.
   
  `From: Ronnie Sturgis`
   
@@ -57,12 +57,12 @@ ms.locfileid: "19761007"
   
  `Ronnie`
   
-## <a name="extract-all-entities-from-an-email-by-using-the-ews-managed-api"></a>Извлеките все объекты из сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="extract-all-entities-from-an-email-by-using-the-ews-managed-api"></a>Извлечение всех сущностей из сообщения электронной почты с помощью управляемого API EWS
 <a name="bk_extractewsma"> </a>
 
-В следующем примере кода показано, как отобразить все сущности, извлеченные на сервере, с помощью метода [Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) , затем перечисления в каждой из извлеченных объектов и их свойств. 
+В приведенном ниже примере кода показано, как отобразить все объекты, извлеченные сервером, с помощью метода [Item. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) , а затем перечислить все извлеченные сущности и их свойства. 
   
-В этом примере предполагается, что **службы** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , и этот **идентификатор элемента** — это [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) для сообщения электронной почты для перемещения или копирования. 
+В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , а идентификатор **ItemId** — [идентификатором](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) сообщения электронной почты, которое необходимо переместить или скопировать. 
   
 ```cs
 public static void ExtractEntities(ExchangeService service, ItemId ItemId)
@@ -178,7 +178,7 @@ public static void ExtractEntities(ExchangeService service, ItemId ItemId)
 }
 ```
 
-Следующие результаты выводятся на консоль.
+На консоли отображается следующий результат.
   
 ```text
 The following entities have been extracted from the message:
@@ -223,14 +223,14 @@ Task string:      Also, can you forward this to Magdalena?
 URL: http://www.bestforyouorganics.com
 ```
 
-Обратите внимание на то, что все адреса, контакты, адреса электронной почты, номера телефонов, задачи и URL-адреса были извлечены как ожидалось. Тем не менее, предложения о собрании немного сложнее. Обратите внимание, время начала и время окончания собрания, не ожиданиям. Время начала в сообщение электронной почты «в этом пятницу в 7», но извлеченного значения для времени начала 10/1/0104 2:00:00 PM. Это так, как время начала и время окончания, извлеченные сервером — закодированный даты. Дополнительные сведения об интерпретации значений **даты и времени** в предложений о собрании, можно [[MS-OXCEXT]: клиент расширения объекта протокола](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx).
+Обратите внимание, что все адреса, контакты, адреса электронной почты, Номера телефонов, задачи и URL-адреса были извлечены должным образом. Тем не менее, предложение собрания немного сложнее. Обратите внимание, что время начала и окончания предложения о собрании не могут быть ожидаемыми. Время начала в письме — "Эта пятница начинается с 7", но извлеченное значение времени начала — 10/1/0104 2:00:00 PM. Это связано с тем, что время начала и время окончания, извлеченное сервером, кодируются датами. Дополнительные сведения о том, как интерпретировать значения **DateTime** в предложениях о собраниях, можно узнать в статье [[MS — Оксцекст]: Client Extension Protocol Protocol](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx).
   
-## <a name="extract-all-entities-from-an-email-by-using-ews"></a>Извлеките все объекты из сообщения электронной почты с помощью веб-служб Exchange
+## <a name="extract-all-entities-from-an-email-by-using-ews"></a>Извлечение всех сущностей из сообщения электронной почты с помощью EWS
 <a name="bk_extractews"> </a>
 
-В следующем примере кода показано, как использовать операции [GetItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) и элемент [EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx) для извлечения сущностей, извлеченные из элемента. 
+В приведенном ниже примере кода показано, как использовать операцию [GetItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) и элемент [ентитекстрактионресулт](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx) для извлечения извлеченных сущностей из элемента. 
   
-Это также запроса XML, отправляемого управляемый API веб-служб Exchange, при использовании метода **привязки** , чтобы [извлечь все сущности из сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange](#bk_extractewsma).
+Это также XML-запрос, который отправляется управляемым API EWS при использовании метода **BIND** для [извлечения всех сущностей из электронной почты с помощью управляемого API EWS](#bk_extractewsma).
   
 Значение элемента [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) укорочено для удобства чтения. 
   
@@ -259,7 +259,7 @@ URL: http://www.bestforyouorganics.com
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **GetItem** [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, это означает, что сообщение электронной почты был успешно извлечен. Ответ также включает в себя **EntityExtractionResult** для каждого извлеченный объект. 
+Сервер отвечает на запрос **GetItem** с сообщением [жетитемреспонсе](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **, которое**указывает, что сообщение электронной почты было успешно получено. Ответ также включает **ентитекстрактионресулт** для каждого извлеченного объекта. 
   
 Значение элемента **ItemId** укорочено для удобства чтения. 
   
@@ -366,12 +366,12 @@ URL: http://www.bestforyouorganics.com
 </s:Envelope>
 ```
 
-Обратите внимание на то, что все адреса, контакты, адреса электронной почты, номера телефонов, задачи и URL-адреса были извлечены как ожидалось. Тем не менее, предложения о собрании немного сложнее. Обратите внимание, время начала и время окончания собрания, не ожиданиям. Время начала в сообщение электронной почты было «этот пятницу в 7», но извлеченное значение времени начала — 10/1/0104 2:00:00 PM. Это так, как время начала и время окончания, извлеченные сервером — закодированный даты. Дополнительные сведения об интерпретации значений **даты и времени** в предложений о собрании, можно [[MS-OXCEXT]: клиент расширения объекта протокола](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx).
+Обратите внимание, что все адреса, контакты, адреса электронной почты, Номера телефонов, задачи и URL-адреса были извлечены должным образом. Тем не менее, предложение собрания немного сложнее. Обратите внимание, что время начала и окончания предложения о собрании не могут быть ожидаемыми. Время начала в письме — "это пятница, 7", но извлеченное значение времени начала — 10/1/0104 2:00:00 PM. Это связано с тем, что время начала и время окончания, извлеченное сервером, кодируются датами. Дополнительные сведения об интерпретации значений **DateTime** в предложениях о собраниях приведены в разделе [[MS — Оксцекст]: клиентский объект Message Protocol](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx).
   
 ## <a name="see-also"></a>См. также
 
 - [Электронная почта и веб-службах Exchange](email-and-ews-in-exchange.md)
-- [Item.EntityExtractionResult](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)    
-- [EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)
+- [Item. Ентитекстрактионресулт](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)    
+- [ентитекстрактионресулт](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)
     
 

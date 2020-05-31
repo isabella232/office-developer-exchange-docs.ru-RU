@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 73d7943d-d361-4f8b-9948-d85f886efa1a
-description: Операция ApplyConversationAction задает одноразовый или исполнению действие для всех элементов в беседе. Операция ApplyConversationAction позволяет распределить по категориям, перемещение, копирование, удаление и устанавливать состояние чтения всех элементов в беседе. Действия можно также задать для новых сообщений в беседе.
+description: Операция ApplyConversationAction устанавливает действие однократным или дальнейшим действием для всех элементов в беседе. С помощью операции ApplyConversationAction можно классифицировать, перемещать, копировать, удалять и задавать состояние чтения для всех элементов в беседе. Для новых сообщений в беседе можно также задать действия.
 ms.openlocfilehash: 2a485b84ee87aec2ed807e3f4f0901b83432fa0a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19761424"
 ---
 # <a name="applyconversationaction-operation"></a>Операция ApplyConversationAction
 
-Операция **ApplyConversationAction** задает одноразовый или исполнению действие для всех элементов в беседе. Операция **ApplyConversationAction** позволяет распределить по категориям, перемещение, копирование, удаление и устанавливать состояние чтения всех элементов в беседе. Действия можно также задать для новых сообщений в беседе. 
+Операция **ApplyConversationAction** устанавливает действие однократным или дальнейшим действием для всех элементов в беседе. С помощью операции **ApplyConversationAction** можно классифицировать, перемещать, копировать, удалять и задавать состояние чтения для всех элементов в беседе. Для новых сообщений в беседе можно также задать действия. 
   
 ## <a name="applyconversationaction-request-example"></a>Пример запроса ApplyConversationAction
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **ApplyConversationAction** показано, как перемещать элементы в указанной беседе в другую папку. Также элементы, добавляемые к беседе будут перемещены в указанную папку. 
+В приведенном ниже примере запроса **ApplyConversationAction** показано, как переместить элементы в указанной беседе в другую папку. Элементы, добавляемые в беседу, также будут перемещены в указанную папку. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -57,17 +57,17 @@ ms.locfileid: "19761424"
 </soap:Envelope>
 ```
 
-### <a name="remarks"></a>Замечания
+### <a name="remarks"></a>Примечания
 
-Идентификаторы беседы и папки URL-были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы бесед и папок были сокращены, чтобы сохранить удобочитаемость.
   
-## <a name="applyconversationaction-response-example"></a>Пример ответа ApplyConversationAction
+## <a name="applyconversationaction-response-example"></a>Пример отклика ApplyConversationAction
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **ApplyConversationAction** . 
+В следующем примере показан успешный ответ на запрос **ApplyConversationAction** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

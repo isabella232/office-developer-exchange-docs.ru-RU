@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6e4cd194-0696-4fec-8ab0-e1d349ed0be0
-description: Элемент Description задает описательный текст для политики хранения.
+description: Элемент Description указывает описательный текст для политики хранения.
 ms.openlocfilehash: e001733e7011610dc09c2cce389104d74894772d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19762078"
 ---
 # <a name="description"></a>Описание
 
-Элемент **Description** задает описательный текст для политики хранения. 
+Элемент **Description** указывает описательный текст для политики хранения. 
   
 ```XML
 <Description></Description>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19762078"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RetentionPolicyTag](retentionpolicytag.md) <br/> |Указывает политику хранения для элементов почтового ящика.  <br/> |
+|[Retentionpolicytag используется](retentionpolicytag.md) <br/> |Задает политику хранения для элемента почтового ящика.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Description** является значение типа string, описание политики хранения. 
+Текстовое значение элемента **Description** — это строковое значение, описывающее политику хранения. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762078"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: GlobalImportance
+title: глобалимпортанце
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8bcec699-e771-4f38-b7d9-61f324af1b4e
-description: Элемент GlobalImportance содержит объединенные важности для всех элементов беседы в почтовом ящике.
+description: Элемент Глобалимпортанце содержит совокупную важность для всех элементов бесед в почтовом ящике.
 ms.openlocfilehash: c9cdcf20fd3e6eca9ab501cbc747544a4d7b7ded
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,26 +19,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833731"
 ---
-# <a name="globalimportance"></a>GlobalImportance
+# <a name="globalimportance"></a>глобалимпортанце
 
-Элемент **GlobalImportance** содержит объединенные важности для всех элементов беседы в почтовом ящике. 
+Элемент **глобалимпортанце** содержит совокупную важность для всех элементов бесед в почтовом ящике. 
   
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[GlobalImportance](globalimportance.md)
+[глобалимпортанце](globalimportance.md)
   
 ```XML
 <GlobalImportance> Low | Normal | High </GlobalImportance>
 ```
 
- **ImportanceChoicesType**
+ **импортанцечоицестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -56,15 +56,15 @@ ms.locfileid: "19833731"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Ниже приведены возможные значения для этого элемента:
+Необходимо указать текстовое значение. Ниже приведены возможные значения для этого элемента.
   
-- Low
+- Низкий
     
-- Обычный
+- Normal
     
-- High
+- Высокий
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -74,7 +74,7 @@ ms.locfileid: "19833731"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

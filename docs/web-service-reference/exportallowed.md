@@ -1,5 +1,5 @@
 ---
-title: ExportAllowed
+title: експорталловед
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dcff5ccc-31dc-4941-9f71-d6519133aebb
-description: Элемент ExportAllowed указывает, включена ли экспорт.
+description: Элемент Експорталловед указывает, включено ли экспорт.
 ms.openlocfilehash: 5c07941e0a79394bbdaa1a1f62b20adedfe7a9bf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762436"
 ---
-# <a name="exportallowed"></a>ExportAllowed
+# <a name="exportallowed"></a>експорталловед
 
-Элемент **ExportAllowed** указывает, включена ли экспорт. 
+Элемент **експорталловед** указывает, включено ли экспорт. 
   
 ```XML
 <ExportAllowed>true | false</ExportAllowed>
@@ -26,7 +26,7 @@ ms.locfileid: "19762436"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19762436"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Задает сведения о лицензии управления правами.  <br/> |
+|[ригхтсманажементлиценседата](rightsmanagementlicensedata.md) <br/> |Указывает сведения о лицензии на управление правами.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **ExportAllowed** указывает, что экспорт. Значение **false** указывает, что экспорт не допускается. 
+Текстовое значение **true** для элемента **експорталловед** указывает на то, что экспорт разрешен. Значение **false** указывает, что экспорт запрещен. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент является необязательным.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19762436"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

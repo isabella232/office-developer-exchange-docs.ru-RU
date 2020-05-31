@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e
-description: Найдите сведения о веб-служб Exchange GetUserPhoto операции.
+description: Поиск сведений о GetUserPhotoной операции EWS.
 ms.openlocfilehash: 4465ac7115d96f5b6ef39e467663c9bf1c70e99e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,31 +17,31 @@ ms.locfileid: "19833694"
 ---
 # <a name="getuserphoto-operation"></a>Операция GetUserPhoto
 
-Найдите сведения о **GetUserPhoto** операции веб-служб Exchange. 
+Поиск сведений о **GetUserPhotoной** операции EWS. 
   
-Операция **GetUserPhoto** получает фото пользователя из доменных служб Active Directory (AD DS). 
+Операция **GetUserPhoto** получает фотографию пользователя из доменных служб Active Directory (AD DS). 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-getuserphoto-operation"></a>С помощью операции GetUserPhoto
+## <a name="using-the-getuserphoto-operation"></a>Использование операции GetUserPhoto
 
-Операция **RemoveContactFromImList** — это простые операции, которая принимает размер запрошенного фотографии и адреса электронной почты пользователя и возвращает поток фотографий в ответе. 
+Операция **RemoveContactFromImList** — это простая операция, которая принимает адрес электронной почты пользователя и запрошенный размер фотографии и возвращает поток фото в ответе. 
   
 > [!NOTE]
-> Веб-служб Exchange имеет SOAP и операции на основе REST, для получения фотографии пользователя. Сведения об интерфейсе REST [фотографии пользователя с помощью веб-служб Exchange в Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx)см. 
+> Для получения фотографий пользователей у веб EWS есть как SOAP, так и операция REST. Сведения о интерфейсе REST приведены в статье [Получение фотографий пользователей с помощью EWS в Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx). 
   
-### <a name="getuserphoto-operation-soap-headers"></a>Заголовки SOAP GetUserPhoto операции
+### <a name="getuserphoto-operation-soap-headers"></a>Заголовки SOAP операции GetUserPhoto
 
-Операция **GetUserPhoto** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **GetUserPhoto** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="getuserphoto-operation-request-example-get-a-users-photo"></a>Пример запроса GetUserPhoto операции: получение фото пользователя
+## <a name="getuserphoto-operation-request-example-get-a-users-photo"></a>Пример запроса операции GetUserPhoto: получение фотографии пользователя
 
-В следующем примере запрос операции **GetUserPhoto** показано, как получить фото пользователя. В этом примере выполняется запрос фотографию пользователя, который является 48 x 48 пикселей. 
+В приведенном ниже примере запроса операции **GetUserPhoto** показано, как получить фотографию пользователя. В этом примере запрашивается фотография пользователя 48x48 пикселей. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -62,17 +62,17 @@ ms.locfileid: "19833694"
 </soap:Envelope>
 ```
 
-В приглашении на SOAP body используются следующие элементы:
+В теле SOAP запроса используются следующие элементы:
   
 - [GetUserPhoto](getuserphoto.md)
     
-- [Электронной почты (строка)](email-string.md)
+- [Электронная почта (строка)](email-string.md)
     
-- [SizeRequested](sizerequested.md)
+- [сизерекуестед](sizerequested.md)
     
-## <a name="successful-getuserphoto-operation-response"></a>Успешные операции ответа GetUserPhoto
+## <a name="successful-getuserphoto-operation-response"></a>Успешный отклик операции GetUserPhoto
 
-В следующем примере показано успешные ответ на операцию **GetUserPhoto** для получения фото пользователя. 
+В следующем примере показан успешный ответ на операцию **GetUserPhoto** для получения фотографии пользователя. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -101,23 +101,23 @@ ms.locfileid: "19833694"
 
 ```
 
-В ответе SOAP body используются следующие элементы:
+В теле SOAP отклика используются следующие элементы:
   
-- [GetUserPhotoResponse](getuserphotoresponse.md)
+- [жетусерфотореспонсе](getuserphotoresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [HasChanged](haschanged.md)
+- [хасчанжед](haschanged.md)
     
-- [GetUserPhotoResponse](getuserphotoresponse.md)
+- [жетусерфотореспонсе](getuserphotoresponse.md)
     
-## <a name="getuserphoto-operation-error-response"></a>Ошибка операции GetUserPhoto ответа
+## <a name="getuserphoto-operation-error-response"></a>Ответ об ошибке операции GetUserPhoto
 
-Конверт SOAP не возвращает код ошибки при попытке получить фото пользователя адреса электронной почты, который не существует в организации. 500 код состояния HTTP будут возвращены в ответ, чтобы указать, что запрос не удалось выполнить. 
+При попытке получить фотографию пользователя для адреса электронной почты, который не существует в Организации, конверт SOAP не будет возвращать код ошибки. Код состояния HTTP 500 будет возвращен в ответе, чтобы указать, что запрос был выполнен неудачно. 
   
 ## <a name="see-also"></a>См. также
 
 - [Операции EWS в Exchange](ews-operations-in-exchange.md)   
-- [Получение фотографий с помощью веб-служб Exchange в Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx)
+- [Получение фотографий пользователей с помощью EWS в Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx)
     
 

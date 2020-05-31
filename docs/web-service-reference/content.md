@@ -1,5 +1,5 @@
 ---
-title: Контент
+title: Содержание
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: ITPro
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 24f8c54a-505f-4fc0-b7e7-93ad50b97070
-description: Элемент содержимого содержит кодировки Base64 содержимое файла вложения.
+description: Элемент Content содержит содержимое вложенного файла в кодировке Base64.
 ms.openlocfilehash: 20afe6286d3efaa5da6cdc88e397e88fddb1d8c6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761788"
 ---
-# <a name="content"></a>Контент
+# <a name="content"></a>Контентная
 
-Элемент **содержимого** содержит кодировки Base64 содержимое файла вложения. 
+Элемент **Content** содержит содержимое вложенного файла в кодировке Base64. 
   
 ```xml
 <Content/>
@@ -30,7 +30,7 @@ ms.locfileid: "19761788"
  **Base64Binary**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19761788"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FileAttachment](fileattachment.md) <br/> |Представляет файл t — это thattached для элемента в хранилище Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Представляет файл t — саттачед элемент в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Строковое значение представляет кодировки Base64 двоичные данные файла вложения.
+Строковое значение представляет двоичные данные вложенного файла в кодировке Base64.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19761788"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

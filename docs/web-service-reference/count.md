@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 68314b4a-1e17-4e21-9c2e-224d70ef7a32
-description: Элемент Count содержит число конфликтов в ответ UpdateItem операции.
+description: Элемент Count содержит количество конфликтов в отклике операции UpdateItem.
 ms.openlocfilehash: 15cea49eb250336cdc6b7d551d53951aff1372c2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19761846"
 ---
 # <a name="count"></a>Count
 
-Элемент [Count](count.md) содержит число конфликтов в ответ [UpdateItem операции](updateitem-operation.md) . 
+Элемент [Count](count.md) содержит количество конфликтов в отклике [операции UpdateItem](updateitem-operation.md) . 
   
-[UpdateItemResponse](updateitemresponse.md)
+[упдатеитемреспонсе](updateitemresponse.md)
   
-[ResponseMessages](responsemessages.md)
+[респонсемессажес](responsemessages.md)
   
-[UpdateItemResponseMessage](updateitemresponsemessage.md)
+[упдатеитемреспонсемессаже](updateitemresponsemessage.md)
   
-[ConflictResults](conflictresults.md)
+[конфликтресултс](conflictresults.md)
   
 [Count](count.md)
   
@@ -40,7 +40,7 @@ ms.locfileid: "19761846"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -54,15 +54,15 @@ ms.locfileid: "19761846"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ConflictResults](conflictresults.md) <br/> |Содержит число конфликтов в ответ [UpdateItem операции](updateitem-operation.md) .  <br/> |
+|[конфликтресултс](conflictresults.md) <br/> |Содержит количество конфликтов в отклике [операции UpdateItem](updateitem-operation.md) .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение — целое число, представляющее номер конфликтов в ответ [UpdateItem операции](updateitem-operation.md) . 
+Текстовое значение — это целое число, представляющее число конфликтов в ответе [операции UpdateItem](updateitem-operation.md) . 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server 2010 с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -70,14 +70,14 @@ ms.locfileid: "19761846"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[UpdateItem Operation](updateitem-operation.md)
+[Операция UpdateItem](updateitem-operation.md)
   
- **ConflictResultsType**
+ **конфликтресултстипе**
 

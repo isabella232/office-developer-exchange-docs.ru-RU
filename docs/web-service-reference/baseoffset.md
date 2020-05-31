@@ -1,5 +1,5 @@
 ---
-title: BaseOffset
+title: басеоффсет
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0ffad7a6-8e1b-452b-9d87-8e0f6c77f0a6
-description: Элемент BaseOffset представляет ежечасно смещение в формате UTC для текущего часового пояса.
+description: Элемент Басеоффсет представляет почасовое смещение от времени в формате UTC для текущего часового пояса.
 ms.openlocfilehash: 56fc136537b7d5370074a0e6d492f214da3fd960
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761551"
 ---
-# <a name="baseoffset"></a>BaseOffset
+# <a name="baseoffset"></a>басеоффсет
 
-Элемент **BaseOffset** представляет ежечасно смещение в формате UTC для текущего часового пояса. 
+Элемент **басеоффсет** представляет почасовое смещение от времени в формате UTC для текущего часового пояса. 
   
 ```xml
 <BaseOffset/>
@@ -30,7 +30,7 @@ ms.locfileid: "19761551"
  **duration**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,9 +44,9 @@ ms.locfileid: "19761551"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MeetingTimeZone](meetingtimezone.md) <br/> |Представляет часовой пояс расположение, где размещен собрания.  <br/> |
+|[митингтимезоне](meetingtimezone.md) <br/> |Представляет часовой пояс для расположения, в котором размещается собрание.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19761551"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

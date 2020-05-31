@@ -1,5 +1,5 @@
 ---
-title: BusyType
+title: буситипе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 26d4fae0-8c78-4705-b5e8-d6033712c41e
-description: Элемент BusyType представляет состояние сведений о доступности для события календаря.
+description: Элемент Буситипе представляет состояние занятости, заданное для события календаря.
 ms.openlocfilehash: 6484bc70c6a05084e5d2bc1738b575fbebe4c132
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761635"
 ---
-# <a name="busytype"></a>BusyType
+# <a name="busytype"></a>буситипе
 
-Элемент **BusyType** представляет состояние сведений о доступности для события календаря. 
+Элемент **буситипе** представляет состояние занятости, заданное для события календаря. 
   
 ```xml
 <BusyType>Free or Tentative or Busy or OOF or NoData</BusyType>
 ```
 
- **BusyType**
+ **буситипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,24 +44,24 @@ ms.locfileid: "19761635"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[IndividualAttendeeConflictData](individualattendeeconflictdata.md) <br/> |Содержит пользователя или контакта состояния занятости для временной интервал, что происходит в то же время, как время предложенного собрания.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/IndividualAttendeeConflictData` <br/> |
-|[CalendarEvent](calendarevent.md) <br/> |Представляет вхождение элемента уникальный календаря.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
+|[индивидуалаттендиконфликтдата](individualattendeeconflictdata.md) <br/> |Содержит сведения о доступности пользователя или контакта для периода времени, выполняемого одновременно с предложенным временем собрания.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/IndividualAttendeeConflictData` <br/> |
+|[календаревент](calendarevent.md) <br/> |Представляет уникальное вхождение элемента календаря.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Для этого элемента требуется указать текстовое значение. Значение типа string. Ниже приведены возможные значения для элемента [BusyType](busytype.md) : 
+Для этого элемента требуется указать текстовое значение. Значением является строковый тип. Ниже приведены возможные значения для элемента [буситипе](busytype.md) . 
   
 - Свободна
     
-- Под вопросом
+- Занят
     
 - Занята
     
-- ОБ ОТСУТСТВИИ НА РАБОТЕ
+- OOF
     
 - NoData
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -71,7 +71,7 @@ ms.locfileid: "19761635"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -80,7 +80,7 @@ ms.locfileid: "19761635"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 710c893a-3037-4f04-b336-aefedd36c406
-description: Операции CreateItem используется для принятия приглашения на общий доступ к календарю другого пользователя или данных контактов.
+description: Операция CreateItem используется для принятия приглашения на доступ к данным календаря или контактов другого пользователя.
 ms.openlocfilehash: 993ef0402e624af69f632af5bdce4c02bd9d41f3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19761886"
 ---
 # <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
 
-Операции **CreateItem** используется для принятия приглашения на общий доступ к календарю другого пользователя или данных контактов. 
+Операция **CreateItem** используется для принятия приглашения на доступ к данным календаря или контактов другого пользователя. 
   
-## <a name="accept-sharing-invitation-request-example"></a>Принятие приглашения на общий доступ к пример запроса
+## <a name="accept-sharing-invitation-request-example"></a>Пример принятия запроса на получение приглашения на совместное использование
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано, как для принятия приглашения на общий доступ.
+В приведенном ниже примере показано, как принять приглашение к совместному использованию.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -47,29 +47,29 @@ ms.locfileid: "19761886"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [CreateItem](createitem.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-- [AcceptSharingInvitation](acceptsharinginvitation.md)
+- [акцептшарингинвитатион](acceptsharinginvitation.md)
     
-- [ReferenceItemId](referenceitemid.md)
+- [референцеитемид](referenceitemid.md)
     
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификатор элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость.
+Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
   
-## <a name="successful-accept-sharing-invitation-response-example"></a>Пример успешного ответа принять приглашение на общий доступ к
+## <a name="successful-accept-sharing-invitation-response-example"></a>Пример принятия ответа для успешного предоставления приглашения совместного доступа
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **CreateItem** . 
+В следующем примере показан успешный ответ на запрос **CreateItem** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -101,27 +101,27 @@ ms.locfileid: "19761886"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateItemResponse](createitemresponse.md)
+- [креатеитемреспонсе](createitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateItemResponseMessage](createitemresponsemessage.md)
+- [креатеитемреспонсемессаже](createitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-## <a name="accept-sharing-invitation-error-response-example"></a>Пример ответа ошибка совместного доступа к с приглашением принять
+## <a name="accept-sharing-invitation-error-response-example"></a>Пример ответа на сообщение об ошибке принятия приглашения на совместное использование
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос **CreateItem** . Ошибки, возникающие при попытке принять приглашение к совместному использованию, который не удается найти в хранилище Exchange. 
+В следующем примере показан ответ об ошибке для запроса **CreateItem** . Ошибка вызвана попыткой принять приглашение к совместному использованию, которое не удается найти в хранилище Exchange. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -153,29 +153,29 @@ ms.locfileid: "19761886"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateItemResponse](createitemresponse.md)
+- [креатеитемреспонсе](createitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateItemResponseMessage](createitemresponsemessage.md)
+- [креатеитемреспонсемессаже](createitemresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[CreateItem Operation](createitem-operation.md)
+[Операция CreateItem](createitem-operation.md)
 

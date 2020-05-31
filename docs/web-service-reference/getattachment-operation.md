@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 24d10a15-b942-415e-9024-a6375708f326
-description: Операция GetAttachment используется для извлечения существующие вложения для элементов в хранилище Exchange.
+description: Операция GetAttachment используется для получения существующих вложений на элементы в хранилище Exchange.
 ms.openlocfilehash: c260033208bf49c60463c09041d8ffcc52a8f5c2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19762701"
 ---
 # <a name="getattachment-operation"></a>Операция GetAttachment
 
-Операция GetAttachment используется для извлечения существующие вложения для элементов в хранилище Exchange.
+Операция GetAttachment используется для получения существующих вложений на элементы в хранилище Exchange.
   
 ## <a name="getattachment-request-example"></a>Пример запроса GetAttachment
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос на GetAttachment показано, как для получения вложения.
+В приведенном ниже примере запроса GetAttachment показано, как получить вложение.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,34 +49,34 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Элемент [AttachmentShape](attachmentshape.md) позволяет указать, какие сведения о вложении должны быть возвращены. Пустой элемент [AttachmentShape](attachmentshape.md) является допустимым и будут отображаться вложения без содержимого MIME для вложений элемента с типом body текст и без любые дополнительные свойства. 
+Элемент [аттачментшапе](attachmentshape.md) позволяет указать, какие сведения о вложении должны быть возвращены. Пустой элемент [аттачментшапе](attachmentshape.md) является допустимым и будет отображать вложения без содержимого MIME для вложений элементов, тип текста текста и без дополнительных свойств. 
   
-Коллекция [AttachmentIds](attachmentids.md) позволяет указать один или несколько идентификаторов вложений для возврата. Обратите внимание, что это RequestAttachmentIdType, поэтому любые AttachmentIds, полученные из **CreateAttachment** должно иметь атрибуты **RootItemId** и **RootItemChangeKey** удалены перед передачей их в **GetAttachment**типа.
+Коллекция [аттачментидс](attachmentids.md) позволяет указать один или несколько идентификаторов вложений, которые необходимо вернуть. Обратите внимание, что они относятся к типу Рекуестаттачментидтипе, поэтому для всех Аттачментидс, получаемых из **CreateAttachment** , необходимо удалить атрибуты **рутитемид** и **рутитемчанжекэй** , прежде чем передавать их в метод **GetAttachment**.
   
 > [!NOTE]
-> Идентификатор вложения и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор и ключ вложения были сокращены, чтобы сохранить удобочитаемость. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [GetAttachment](getattachment.md)
     
-- [AttachmentShape](attachmentshape.md)
+- [аттачментшапе](attachmentshape.md)
     
-- [AttachmentIds](attachmentids.md)
+- [аттачментидс](attachmentids.md)
     
-- [Идентификатора вложения AttachmentId (GetAttachment и DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
+- [AttachmentId (GetAttachment и DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
     
-## <a name="getattachment-response-example"></a>Пример ответа GetAttachment
+## <a name="getattachment-response-example"></a>Пример отклика GetAttachment
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос GetAttachment. В этом примере возвращается вложенный файл.
+В следующем примере показан успешный ответ на запрос GetAttachment. В этом примере возвращается вложенный файл.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -108,33 +108,33 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Ответное сообщение на GetAttachment всегда будет содержать полный вложений; то есть все свойства всегда будут включены. Для файлов вложений эти свойства — это [имя (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md)и [контента](content.md). Для вложений элемента, эти свойства — это [имя (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) и все свойства элемента, как если бы было использовано фигуры **AllProperties** GetItem звонка. Элемент [AttachmentShape](attachmentshape.md) , если этот параметр указан, позволяет клиентского приложения запросить дополнительные расширенные свойства для вложений элемента. 
+В ответных сообщениях для GetAttachment всегда будет содержаться полное вложение; то есть все свойства всегда будут включены. Для вложений файлов эти свойства являются [именами (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), идентификатором [ContentId](contentid.md), [ContentLocation](contentlocation.md)и [содержимым](content.md). Для вложений элемента эти свойства являются [именами (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) и всеми свойствами элемента, как если бы фигура **аллпропертиес** была использована при вызове GetItem. Элемент [аттачментшапе](attachmentshape.md) , если он присутствует, позволяет приложению-потребителю запрашивать дополнительные расширенные свойства для вложений элементов. 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetAttachmentResponse](getattachmentresponse.md)
+- [жетаттачментреспонсе](getattachmentresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetAttachmentResponseMessage](getattachmentresponsemessage.md)
+- [жетаттачментреспонсемессаже](getattachmentresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
 - [Вложения](attachments-ex15websvcsotherref.md)
     
 - [FileAttachment](fileattachment.md)
     
-- [Идентификатора вложения AttachmentId (GetAttachment и DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
+- [AttachmentId (GetAttachment и DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
     
 - [Имя (AttachmentType)](name-attachmenttype.md)
     
-- [Контентная](content.md)
+- [Статья](content.md)
     
 ## <a name="see-also"></a>См. также
 

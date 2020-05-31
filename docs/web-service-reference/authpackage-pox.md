@@ -1,5 +1,5 @@
 ---
-title: AuthPackage (POX)
+title: Ауспаккаже (POX)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 709dbe53-6141-41f8-a2b9-a399bae47991
-description: Элемент AuthPackage указывает схемы проверки подлинности, используемый при проверке подлинности на сервере Exchange, с установленной ролью сервера почтовых ящиков.
+description: Элемент Ауспаккаже указывает схему проверки подлинности, используемую при проверке подлинности на сервере Exchange, на котором установлена роль сервера почтовых ящиков.
 ms.openlocfilehash: 120ec00ac82166ae2002a8fbac0edf9a1e23afc7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761526"
 ---
-# <a name="authpackage-pox"></a>AuthPackage (POX)
+# <a name="authpackage-pox"></a>Ауспаккаже (POX)
 
-Элемент **AuthPackage** указывает схемы проверки подлинности, используемый при проверке подлинности на сервере Exchange, с установленной ролью сервера почтовых ящиков. 
+Элемент **ауспаккаже** указывает схему проверки подлинности, используемую при проверке подлинности на сервере Exchange, на котором установлена роль сервера почтовых ящиков. 
   
-- [Автообнаружение (POX)](autodiscover-pox.md)
+- [Служба автообнаружения (POX)](autodiscover-pox.md)
   
 - [Ответ (POX)](response-pox.md)
   
@@ -28,7 +28,7 @@ ms.locfileid: "19761526"
   
 - [Протокол (POX)](protocol-pox.md)
   
-- [AuthPackage (POX)](authpackage-pox.md)
+- [Ауспаккаже (POX)](authpackage-pox.md)
   
 ```xml
 <AuthPackage>basic or kerb or kerbntlm or ntlm or certificate or negotiate or nego2</AuthPackage>
@@ -36,7 +36,7 @@ ms.locfileid: "19761526"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -54,25 +54,25 @@ ms.locfileid: "19761526"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение определяет схемы проверки подлинности, используемый при проверке подлинности на сервере почтовых ящиков. Ниже перечислены возможные значения.
+Текстовое значение указывает схему проверки подлинности, используемую при проверке подлинности на сервере почтовых ящиков. Ниже перечислены возможные значения.
   
-- Базовая
-- kerb
-- kerbntlm
+- Основное
+- Kerbtray
+- кербнтлм
 - NTLM
 - certificate
-- согласование
-- протокол nego2
+- подключение
+- nego2
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент **AuthPackage** используется только в том случае, когда элемент [Типа (POX)](type-pox.md) имеет значение text EXCH или EXPR. 
+Элемент **ауспаккаже** используется только в том случае, когда элемент [Type (POX)](type-pox.md) имеет текстовое значение в формате "курс" или "expr". 
   
 ### <a name="version-differences"></a>Различия версий
 
-Office 365, Exchange Online и локальной версии Exchange, начиная с построения 15.00.0995.014 возвращаемое значение «согласование» только в том случае, если сервер настроен на использование проверки подлинности согласование и клиент включает в себя заголовок [X-ClientCanHandle](pox-autodiscover-request-for-exchange.md) , содержит «Согласование». 
+Office 365, Exchange Online и локальная версия Exchange, начиная с сборки 15.00.0995.014, возвращают значение "Negotiate" только в том случае, если сервер настроен на использование проверки подлинности согласования, а клиент включает заголовок [X-клиентканхандле](pox-autodiscover-request-for-exchange.md) , который содержит "Negotiate". 
   
 ## <a name="see-also"></a>См. также
 
-- [Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

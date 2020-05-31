@@ -1,5 +1,5 @@
 ---
-title: EndDateRecurrence
+title: енддатерекурренце
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a5ee2504-db84-49ee-870c-cca9269f2e26
-description: Элемент EndDateRecurrence описание, Дата начала и Дата окончания повторения элемента.
+description: Элемент Енддатерекурренце описывает дату начала и дату окончания расписания повторения элемента.
 ms.openlocfilehash: 73450bf69c6b122e806d85011975159e348ad740
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762350"
 ---
-# <a name="enddaterecurrence"></a>EndDateRecurrence
+# <a name="enddaterecurrence"></a>енддатерекурренце
 
-Элемент **EndDateRecurrence** описание, Дата начала и Дата окончания повторения элемента. 
+Элемент **енддатерекурренце** описывает дату начала и дату окончания расписания повторения элемента. 
   
 ```xml
 <EndDateRecurrence>
@@ -30,10 +30,10 @@ ms.locfileid: "19762350"
 </EndDateRecurrence>
 ```
 
- **EndDateRecurrenceRangeType**
+ **енддатерекурренцеранжетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,17 +43,17 @@ ms.locfileid: "19762350"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StartDate (повторения)](startdate-recurrence.md) <br/> |Представляет дату начала повторяющейся задачи или элемента календаря.  <br/> |
-|[Дата окончания (повторения)](enddate-recurrence.md) <br/> |Представляет дату окончания повторяющейся задачи или элемента календаря.  <br/> |
+|[StartDate (повторение)](startdate-recurrence.md) <br/> |Представляет дату начала повторяющейся задачи или элемента календаря.  <br/> |
+|[EndDate (повторение)](enddate-recurrence.md) <br/> |Представляет дату окончания повторяющейся задачи или элемента календаря.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашения на собрания.  <br/> |
-|[Повторение (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит шаблон повторения для повторяющихся задач.  <br/> |
+|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашений на собрание.  <br/> |
+|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит шаблон повторения для повторяющихся задач.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -63,7 +63,7 @@ ms.locfileid: "19762350"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

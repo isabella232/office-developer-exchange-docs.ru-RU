@@ -1,5 +1,5 @@
 ---
-title: Название организации
+title: CompanyName
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5ebf0478-6d0e-4aa8-98ad-2d021ab74bc1
-description: Элемент CompanyName представляет название компании, связанной с контактом.
+description: Элемент CompanyName представляет название компании, связанное с контактом.
 ms.openlocfilehash: 3a6410fd60a353d27cc694229e09f4dbf4bcc623
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761691"
 ---
-# <a name="companyname"></a>Название организации
+# <a name="companyname"></a>CompanyName
 
-Элемент **CompanyName** представляет название компании, связанной с контактом. 
+Элемент **CompanyName** представляет название компании, связанное с контактом. 
   
 ```xml
 <CompanyName/>
 ```
 
- **Строка**
+ **String**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19761691"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Контакт](contact.md) <br/> |Представляет контакт в хранилище Exchange.  <br/> |
+|[контакт](contact.md); <br/> |Представляет элемент контакта в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным, если данный элемент используется.
+При использовании этого элемента необходимо указать текстовое значение.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19761691"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,7 +70,7 @@ ms.locfileid: "19761691"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
 [Обновление контактов](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   

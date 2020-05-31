@@ -5,7 +5,7 @@ ms.date: 12/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 13256625-083e-4a17-8fd1-2bed1f7cc14e
-description: Узнайте, как обновить встречи и собрания с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как обновлять встречи и собрания с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: a4265a14a46c146c584a3daa61cef5486958e14e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,22 +15,22 @@ ms.locfileid: "19761119"
 ---
 # <a name="update-appointments-and-meetings-by-using-ews-in-exchange"></a>Обновление встречи и собрания с помощью веб-служб Exchange в Exchange
 
-Узнайте, как обновить встречи и собрания с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как обновлять встречи и собрания с помощью управляемого API EWS или EWS в Exchange.
   
-Важные различия между собраний и встреч —, что у участников собрания, а не встреч. Встречи и собрания могут быть отдельные экземпляры или частью серии повторяющихся, но поскольку встреч не включать участников, комнат или ресурсов, не требуется отправить сообщение. Для внутреннего использования Exchange использует тот же объект для собраний и встреч. Использовать управляемый API EWS [класс встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) или элемент веб-служб Exchange [элемента календаря, имеющего](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) для работы с собраний и встреч. 
+Существенным различием между собраниями и встречами является то, что собрания имеют участников, а встречи — нет. Встречи и собрания могут быть отдельными экземплярами или частью повторяющихся рядов, но так как встречи не включают участников, комнаты или ресурсы, им не требуется отправлять сообщения. На внутреннем сервере Exchange использует один и тот же объект для собраний и встреч. Для работы с собраниями и встречами используется [класс встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) управляемого API EWS или элемент EWS [календаритем](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) . 
   
-**В таблице 1. Управляемый API EWS метод и операции EWS для обновления встречи и собрания**
+**Таблица 1. Метод управляемого API EWS и операции EWS для обновления встреч и собраний**
 
-|**Метод управляемого API EWS**|**Соответствующие операции веб-служб Exchange**|
+|**Метод управляемого API EWS**|**Соответствующие операции EWS**|
 |:-----|:-----|
-|[Appointment.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)<br/><br/>          [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) <br/> |
+|[Встреча. обновление](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)<br/><br/>          [упдатеитемреспонсе](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) <br/> |
    
-## <a name="update-an-appointment-by-using-the-ews-managed-api"></a>Обновление встречи с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="update-an-appointment-by-using-the-ews-managed-api"></a>Обновление встречи с помощью управляемого API EWS
 <a name="bk_UpdateApptEWSMA"> </a>
 
-В следующем примере кода показано, как использовать [объект встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) для обновления свойств, связанных с встречи и метод [Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) , чтобы сохранить встречу в папке календаря. 
+В приведенном ниже примере кода показано, как использовать [объект встреча](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) для обновления свойств, связанных с встречей, и метода [обновления](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) для сохранения встречи в папке "Календарь". 
   
-В этом примере предполагается, что прошедшие проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **службы**. Локальной переменной `appointmentId` — это идентификатор, связанный с существующей встречи. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. Локальная переменная `appointmentId` — это идентификатор, связанный с существующей встречей. 
   
 ```cs
 // Instantiate an appointment object by binding to it by using the ItemId.
@@ -53,12 +53,12 @@ Console.WriteLine("Subject for the appointment was \"" + oldSubject + "\". The n
 
 ```
 
-## <a name="update-an-appointment-by-using-ews"></a>Обновление встречи с помощью веб-служб Exchange
+## <a name="update-an-appointment-by-using-ews"></a>Обновление встречи с помощью EWS
 <a name="bk_UpdateApptEWS"> </a>
 
-Запрос и ответ XML в следующих примерах соответствуют вызовов, сделанных с помощью кода управляемый API EWS в [обновление встречи с помощью управляемого интерфейса API веб-служб Exchange](#bk_UpdateApptEWSMA).
+XML-код запроса и ответа в приведенных ниже примерах соответствует вызовам, выполняемым кодом управляемого API EWS в разделе [Обновление встречи с помощью управляемого API EWS](#bk_UpdateApptEWSMA).
   
-В следующем примере показано запроса XML при использовании операции [UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx) обновить встречи. 
+В следующем примере показан XML-код запроса при использовании операции [UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx) для обновления встречи. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -91,7 +91,7 @@ Console.WriteLine("Subject for the appointment was \"" + oldSubject + "\". The n
 
 ```
 
-В следующем примере показано XML-код, который возвращается в ответ на запрос [UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx) . Атрибуты **ItemId** и **ChangeKey** URL-были сокращены для удобства чтения. 
+В следующем примере показан XML-код, который возвращается в ответ на запрос [UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx) . Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -123,12 +123,12 @@ hange/services/2006/types">
 
 ```
 
-## <a name="update-a-meeting-by-using-the-ews-managed-api"></a>Обновление собрания с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="update-a-meeting-by-using-the-ews-managed-api"></a>Обновление собрания с помощью управляемого API EWS
 <a name="bk_UpdateMtgEWSMA"> </a>
 
-При обновлении собрания, в дополнение к Сохранение измененного встречи в папке календаря обычно также требуется отправить обновленные приглашения участникам. В следующем примере кода показано, как обновить собрания и отправка приглашений на собрания.
+При обновлении собрания в дополнение к сохранению измененного элемента встречи в папке "Календарь", как правило, вы также хотите отправлять обновленные приглашения на собрания участникам. В приведенном ниже примере кода показано, как обновить собрание и отправить приглашения на собрания.
   
-В этом примере предполагается, что прошедшие проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **службы**. Локальной переменной `meetingId` — это идентификатор, который связан с существующую встречу. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. Локальная переменная `meetingId` — это идентификатор, связанный с существующей встречей. 
   
 ```cs
 // Instantiate an appointment object by binding to it using the ItemId.
@@ -150,22 +150,22 @@ Console.WriteLine("Subject for the meeting was \"" + oldSubject + "\". The new s
 
 ```
 
-После установки свойства объекта [встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) , сохранить собрание в папке календаря и отправлять обновленные приглашения на собрания с помощью метода [Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) . 
+После задания свойств объекта " [встреча](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) " сохраните собрание в папке "Календарь" и отправьте обновленные приглашения на собрания с помощью метода [обновления](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) . 
   
-Вы можете передать в одном из двух значений перечисления как параметры при вызове метода [обновления](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) : 
+При вызове метода [Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) можно передать одно из двух значений перечисления в качестве параметров: 
   
-- [Перечисление ConflictResolutionMode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conflictresolutionmode%28v=exchg.80%29.aspx) — определяет конфликтов обработки состояния между клиентом и сервером. 
+- [Перечисление конфликтресолутионмоде](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conflictresolutionmode%28v=exchg.80%29.aspx) определяет, как будут обрабатываться конфликтующие состояния между клиентом и сервером. 
     
-- [Перечисление SendInvitationsOrCancellationsMode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.sendinvitationsorcancellationsmode%28v=exchg.80%29.aspx) — влияет на отправку и сохранения обновления приглашений на собрания. 
+- [Перечисление сендинвитатионсорканцеллатионсмоде](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.sendinvitationsorcancellationsmode%28v=exchg.80%29.aspx) — влияет на отправку и сохранение запросов на обновление собраний. 
     
-При установке значения перечисления [ConflictResolutionMode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conflictresolutionmode%28v=exchg.80%29.aspx) для **AlwaysOverwrite**вашей версии собрания всегда будут сохраняться в папке календаря.
+Если для параметра перечисление [конфликтресолутионмоде](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conflictresolutionmode%28v=exchg.80%29.aspx) задано значение **алвайсоверврите**, ваша версия собрания всегда будет сохраняться в папке "Календарь".
   
-## <a name="update-a-meeting-by-using-ews"></a>Обновление собрания с помощью веб-служб Exchange
+## <a name="update-a-meeting-by-using-ews"></a>Обновление собрания с помощью EWS
 <a name="bk_UpdateMtgEWS"> </a>
 
-Запрос и ответ XML в следующих примерах соответствуют вызовов, сделанных с помощью кода управляемый API EWS в [обновление собрания с помощью управляемого интерфейса API веб-служб Exchange](#bk_UpdateMtgEWSMA). 
+XML-код запроса и ответа в приведенных ниже примерах соответствует вызовам, выполняемым кодом управляемого API EWS в разделе [обновление собрания с помощью управляемого API EWS](#bk_UpdateMtgEWSMA). 
   
-В следующем примере показано запроса XML при использовании операции [UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx) обновление собрания. 
+В следующем примере показан XML-код запроса при использовании операции [UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx) для обновления собрания. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -241,7 +241,7 @@ Console.WriteLine("Subject for the meeting was \"" + oldSubject + "\". The new s
 </soap:Envelope>
 ```
 
- В следующем примере показано XML-код, который возвращается в ответ на запрос [UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx) . Атрибуты **ChangeKey** и **ItemId** URL-были сокращены для удобства чтения. 
+ В следующем примере показан XML-код, который возвращается в ответ на запрос [UpdateItem](http://msdn.microsoft.com/library/34643d58-2743-45b0-a08d-bff6dc1da61d%28Office.15%29.aspx) . Атрибуты **чанжекэй** и **ItemId** были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -275,9 +275,9 @@ Console.WriteLine("Subject for the meeting was \"" + oldSubject + "\". The new s
 ## <a name="see-also"></a>См. также
 
 - [Календари и веб-службах Exchange](calendars-and-ews-in-exchange.md)   
-- [Создание встречи и собрания с помощью веб-служб Exchange в Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)   
-- [Получение встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
-- [Удаление встреч и отмены собраний с помощью веб-служб Exchange в Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)  
-- [Предложение нового времени проведения собрания с помощью веб-служб Exchange в Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [Создание встреч и собраний с помощью EWS в Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)   
+- [Получение встреч и собраний с помощью EWS в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [Удаление встреч и отмена собраний с помощью EWS в Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)  
+- [Предложение нового времени проведения собрания с помощью EWS в Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
 

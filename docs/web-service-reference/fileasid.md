@@ -1,5 +1,5 @@
 ---
-title: FileAsId
+title: филеасид
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7773f92c-cddc-44e5-9fd5-06b1dac355d8
-description: Элемент FileAsId указывает идентификатор FileAs.
+description: Элемент Филеасид указывает идентификатор свойств fileas.
 ms.openlocfilehash: e2852c9d0a09fbcfd916d7b30db6e4405a6867d4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762534"
 ---
-# <a name="fileasid"></a>FileAsId
+# <a name="fileasid"></a>филеасид
 
-Элемент **FileAsId** указывает идентификатор **FileAs** . 
+Элемент **филеасид** указывает идентификатор **свойств fileas** . 
   
 ```XML
 <FileAsId></FileAsId
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19762534"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **FileAsId** указывает идентификатор **FileAs** . 
+Текстовое значение элемента **филеасид** указывает идентификатор **свойств fileas** . 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762534"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: Операция GetUMProperties (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Операция GetUMProperties (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 301fb9a3-67df-44c4-8ffe-0600237fc344
-description: Операция GetUMProperties получает все свойства единой системы обмена сообщениями для почтового ящика пользователя, отправившего запрос.
+description: Операция GetUMProperties получает все свойства единой системы обмена сообщениями для почтового ящика пользователя, сделавшего запрос.
 ms.openlocfilehash: 8878099bbd907fe0648f7d64dde3cd9600c2c45f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833678"
 ---
-# <a name="getumproperties-operation-um-web-service"></a>Операция GetUMProperties (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="getumproperties-operation-um-web-service"></a>Операция GetUMProperties (веб-служба единой системы обмена сообщениями)
 
-Операция GetUMProperties получает все свойства единой системы обмена сообщениями для почтового ящика пользователя, отправившего запрос.
+Операция GetUMProperties получает все свойства единой системы обмена сообщениями для почтового ящика пользователя, сделавшего запрос.
   
 ## <a name="getumproperties-request-example"></a>Пример запроса GetUMProperties
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос GetUMProperties показано, как для формирования запроса для получения свойства почтового ящика единой системы обмена сообщениями.
+В приведенном ниже примере запроса GetUMProperties показано, как сформировать запрос на получение свойств единой системы обмена сообщениями почтового ящика.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -43,9 +43,9 @@ ms.locfileid: "19833678"
 
 ### <a name="description"></a>Описание
 
-В следующем примере ответа GetUMProperties показано ответа на запрос GetUMProperties.
+В приведенном ниже примере ответа GetUMProperties показан ответ на запрос GetUMProperties.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -68,7 +68,7 @@ ms.locfileid: "19833678"
 
 
 
-[GetUMProperties (веб-служба единой системы обмена СООБЩЕНИЯМИ)](getumproperties-um-web-service.md)
+[GetUMProperties (веб-служба единой системы обмена сообщениями)](getumproperties-um-web-service.md)
   
-[GetUMPropertiesResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)](getumpropertiesresponse-um-web-service.md)
+[Жетумпропертиесреспонсе (веб-служба единой системы обмена сообщениями)](getumpropertiesresponse-um-web-service.md)
 

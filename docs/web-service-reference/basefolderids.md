@@ -1,5 +1,5 @@
 ---
-title: BaseFolderIds
+title: басефолдеридс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: bdaa6093-f960-469a-b338-0e75aaa536c6
-description: Элемент BaseFolderIds представляет коллекцию папок, которые будут получены для определения содержимого папки поиска.
+description: Элемент Басефолдеридс представляет коллекцию папок, которые будут mined для определения содержимого папки поиска.
 ms.openlocfilehash: 960e4d9c1d6eb37bf988bf163e696cbba3e1ef6f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761540"
 ---
-# <a name="basefolderids"></a>BaseFolderIds
+# <a name="basefolderids"></a>басефолдеридс
 
-Элемент **BaseFolderIds** представляет коллекцию папок, которые будут получены для определения содержимого папки поиска. 
+Элемент **басефолдеридс** представляет коллекцию папок, которые будут mined для определения содержимого папки поиска. 
   
 ```xml
 <BaseFolderIds>
@@ -30,10 +30,10 @@ ms.locfileid: "19761540"
 </BaseFolderIds>
 ```
 
- **NonEmptyArrayOfBaseFolderIdsType**
+ **нонемптяррайофбасефолдеридстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,19 +44,19 @@ ms.locfileid: "19761540"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Содержит идентификатор и ключ изменения папки.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Идентифицирует MicrosoftExchange Server 2007 папок, которые можно ссылаться по имени.  <br/> |
+|[дистингуишедфолдерид](distinguishedfolderid.md) <br/> |Определяет Майкрософт Exchange Server 2007 папок, на которые можно ссылаться по имени.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SearchParameters](searchparameters.md) <br/> |Представляет параметры, определяющие папки поиска.  <br/> |
+|[сеарчпараметерс](searchparameters.md) <br/> |Представляет параметры, определяющие папку поиска.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент **BaseFolderIds** должен содержать по крайней мере один элемент [FolderId](folderid.md) или [DistinguishedFolderId](distinguishedfolderid.md) . 
+Элемент **басефолдеридс** должен содержать по крайней мере один элемент [FolderId](folderid.md) или [дистингуишедфолдерид](distinguishedfolderid.md) . 
   
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором работает Exchange Server 2007 с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором установлен сервер Exchange Server 2007 с ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -64,7 +64,7 @@ ms.locfileid: "19761540"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

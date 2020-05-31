@@ -1,5 +1,5 @@
 ---
-title: ActionUrl
+title: актионурл
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9697f2e5-a5f7-471a-a052-ae79e06eb09d
-description: Элемент ActionUrl указывает URL-адрес, который пользователь должен перейти, чтобы устранить проблему, указанный в параметре AppStatus элемент.
+description: Элемент Актионурл определяет URL-адрес, по которому должен перейти пользователь, чтобы устранить проблему, указанную в элементе Аппстатус.
 ms.openlocfilehash: b138797aa8f4e277d94e85e2dd13c0d4c6afaa51
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761329"
 ---
-# <a name="actionurl"></a>ActionUrl
+# <a name="actionurl"></a>актионурл
 
-Элемент **ActionUrl** указывает URL-адрес, который пользователь должен перейти, чтобы устранить проблему, указанный в параметре [AppStatus](appstatus-ex15websvcsotherref.md) элемент. 
+Элемент **актионурл** определяет URL-адрес, по которому должен перейти пользователь, чтобы устранить проблему, указанную в элементе [аппстатус](appstatus-ex15websvcsotherref.md) . 
   
 ```XML
 <ActionUrl/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19761329"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ActionUrl** указывает URL-адрес, который пользователь должен перейти, чтобы устранить проблему, указанный в параметре **AppStatus** элемент. 
+Текстовое значение элемента **актионурл** определяет URL-адрес, по которому должен перейти пользователь, чтобы устранить проблему, указанную в элементе **аппстатус** . 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -56,7 +56,7 @@ ms.locfileid: "19761329"
 |:-----|:-----|
 |Пространство имен  <br/> | http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Не применимо  <br/> |
+|Файл проверки  <br/> |Неприменимо  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

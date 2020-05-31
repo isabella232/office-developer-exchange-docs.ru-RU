@@ -1,5 +1,5 @@
 ---
-title: DisplayNameLastFirstHeader
+title: дисплайнамеластфирссеадер
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ca77431e-2d6c-48e0-a20e-e8616c6fa157
-description: Элемент DisplayNameLastFirstHeader указывает заголовок в поле отображаемое имя, Фамилия.
+description: Элемент Дисплайнамеластфирссеадер указывает заголовок для отображаемого имени First Name.
 ms.openlocfilehash: edcc5d51da0c40bba859ad13f357affc902981be
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762184"
 ---
-# <a name="displaynamelastfirstheader"></a>DisplayNameLastFirstHeader
+# <a name="displaynamelastfirstheader"></a>дисплайнамеластфирссеадер
 
-Элемент **DisplayNameLastFirstHeader** указывает заголовок в поле отображаемое имя, Фамилия. 
+Элемент **дисплайнамеластфирссеадер** указывает заголовок для отображаемого имени First Name. 
   
 ```xml
 <DisplayNameLastFirstHeader></DisplayNameLastFirstHeader>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19762184"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **DisplayNameLastFirstHeader** — это строковое значение, задающее отображаемое имя, Фамилия сначала. 
+Текстовое значение элемента **дисплайнамеластфирссеадер** — это строковое значение, задающее отображаемое имя, а затем — фамилию. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762184"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)
+title: ExternalDirectoryObjectId (Федератеддиректоридентитидетаилстипе)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f000b39-e5c8-4a2a-baae-f8cbea0688bc
-description: Элемент ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType) предназначена только для внутреннего использования.
+description: Элемент ExternalDirectoryObjectId (Федератеддиректоридентитидетаилстипе) предназначен только для внутреннего использования.
 ms.openlocfilehash: efabffa431b57e8b55122864c93c8f578f14d0ee
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762487"
 ---
-# <a name="externaldirectoryobjectid-federateddirectoryidentitydetailstype"></a>ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)
+# <a name="externaldirectoryobjectid-federateddirectoryidentitydetailstype"></a>ExternalDirectoryObjectId (Федератеддиректоридентитидетаилстипе)
 
-Элемент **ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)** предназначена только для внутреннего использования. 
+Элемент **ExternalDirectoryObjectId (федератеддиректоридентитидетаилстипе)** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -35,7 +35,7 @@ ms.locfileid: "19762487"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

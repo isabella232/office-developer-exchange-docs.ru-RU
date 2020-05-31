@@ -1,12 +1,12 @@
 ---
-title: DocumentSharingLocation (SOAP)
+title: Документшаринглокатион (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21bc388c-33be-422b-a89d-30ade0fae8f1
-description: Элемент DocumentSharingLocation содержит местоположение и сведения о метаданных для общего доступа к расположение документа.
+description: Элемент Документшаринглокатион содержит сведения о расположении и метаданных расположения для общего доступа к документу.
 ms.openlocfilehash: d258efecb46d570138c7c2c78ed9d2fa9a275103
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762198"
 ---
-# <a name="documentsharinglocation-soap"></a>DocumentSharingLocation (SOAP)
+# <a name="documentsharinglocation-soap"></a>Документшаринглокатион (SOAP)
 
-Элемент **DocumentSharingLocation** содержит местоположение и сведения о метаданных для общего доступа к расположение документа. 
+Элемент **документшаринглокатион** содержит сведения о расположении и метаданных расположения для общего доступа к документу. 
   
 ```XML
 <DocumentSharingLocation>
@@ -31,10 +31,10 @@ ms.locfileid: "19762198"
 </DocumentSharingLocation>
 ```
 
- **DocumentSharingLocation**
+ **документшаринглокатион**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,20 +44,20 @@ ms.locfileid: "19762198"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ServiceUrl (SOAP)](serviceurl-soap.md) <br/> |Представляет URL-адрес документа, общий доступ к веб-службе.  <br/> |
-|[LocationUrl (SOAP)](locationurl-soap.md) <br/> |Представляет URL-адрес документа, общий доступ к расположения.  <br/> |
-|[DisplayName (SOAP)](displayname-soap.md) <br/> |Представляет имя документа, общий доступ к папка, которая используется в пользовательском Интерфейсе.  <br/> |
-|[SupportedFileExtensions (SOAP)](supportedfileextensions-soap.md) <br/> |Представляет расширений файлов, которые могут храниться в документе общего ресурса.  <br/> |
-|[ExternalAccessAllowed (SOAP)](externalaccessallowed-soap.md) <br/> |Указывает, является ли документ, общий доступ к расположение доступны за пределами подключений.  <br/> |
-|[AnonymousAccessAllowed (SOAP)](anonymousaccessallowed-soap.md) <br/> |Указывает, требуется ли доступ к месту общего доступа пользователя с разрешением.  <br/> |
-|[CanModifyPermissions (SOAP)](canmodifypermissions-soap.md) <br/> |Указывает, является ли пользователь может изменить разрешения на доступ к документу общего ресурса.  <br/> |
-|[IsDefault (SOAP)](isdefault-soap.md) <br/> |Указывает, является ли документ, общий доступ к расположение общего доступа расположение по умолчанию для пользователя.  <br/> |
+|[Сервицеурл (SOAP)](serviceurl-soap.md) <br/> |Представляет URL-адрес веб-службы общего доступа к документам.  <br/> |
+|[Локатионурл (SOAP)](locationurl-soap.md) <br/> |Представляет URL-адрес расположения общего доступа к документу.  <br/> |
+|[DisplayName (SOAP)](displayname-soap.md) <br/> |Представляет имя расположения для общего доступа к документу, которое будет использоваться в пользовательском интерфейсе.  <br/> |
+|[Суппортедфиликстенсионс (SOAP)](supportedfileextensions-soap.md) <br/> |Представляет расширения файлов, которые могут храниться в расположении общего доступа к документам.  <br/> |
+|[Екстерналакцессалловед (SOAP)](externalaccessallowed-soap.md) <br/> |Указывает, доступно ли расположение для общего доступа к документу для внешнего подключения.  <br/> |
+|[Анонимаусакцессалловед (SOAP)](anonymousaccessallowed-soap.md) <br/> |Указывает, требуется ли пользователю, прошедшему проверку подлинности, доступ к общему ресурсу.  <br/> |
+|[Канмодифипермиссионс (SOAP)](canmodifypermissions-soap.md) <br/> |Указывает, может ли пользователь изменять разрешения доступа к расположению общего доступа к документам.  <br/> |
+|[По умолчанию (SOAP)](isdefault-soap.md) <br/> |Указывает, является ли расположение общего доступа к документу общим расположением пользователя по умолчанию.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DocumentSharingLocations (SOAP)](documentsharinglocations-soap.md) <br/> |Содержит список документов, совместное использование расположения и метаданных.  <br/> |
+|[Документшаринглокатионс (SOAP)](documentsharinglocations-soap.md) <br/> |Содержит список расположений и метаданных общего доступа к документам.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -68,13 +68,13 @@ ms.locfileid: "19762198"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
-- [Ссылки веб-службу автообнаружения для Exchange](autodiscover-web-service-reference-for-exchange.md)
-- [Элементы XML автоматического обнаружения SOAP для Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+- [Справочные материалы по веб-службе автообнаружения для Exchange](autodiscover-web-service-reference-for-exchange.md)
+- [XML-элементы автообнаружения SOAP для Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 680173e1-e916-466b-b573-5a3182316345
-description: Операция GetServerTimeZones возвращает сведения из определения часового пояса, доступных на сервере Exchange.
+description: Операция GetServerTimeZones возвращает сведения из определений часовых поясов, доступных на сервере Exchange.
 ms.openlocfilehash: 9b202d510a599c9082d075228be4c479a2086753
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,25 +21,25 @@ ms.locfileid: "19762918"
 ---
 # <a name="getservertimezones-operation"></a>Операция GetServerTimeZones
 
-Операция **GetServerTimeZones** возвращает сведения из определения часового пояса, доступных на сервере Exchange. 
+Операция **GetServerTimeZones** возвращает сведения из определений часовых поясов, доступных на сервере Exchange. 
   
 ## <a name="soap-headers"></a>Заголовки SOAP
 
-Операция **GetServerTimeZones** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице. 
+Операция **GetServerTimeZones** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Идентифицирует культуры RFC3066, которые будут использоваться для доступа к почтовому ящику.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса.  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос.  <br/> |
+|маилбокскултуре  <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры RFC3066, которые будут использоваться для доступа к почтовому ящику.  <br/> |
+|рекуестверсион  <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции.  <br/> |
+|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
    
 ## <a name="getservertimezones-request-examples"></a>Примеры запросов GetServerTimeZones
 
-### <a name="getting-the-name-and-identifier-of-each-time-zone"></a>Начало имя и идентификатор каждого часового пояса
+### <a name="getting-the-name-and-identifier-of-each-time-zone"></a>Извлечение имени и идентификатора каждого часового пояса
 
-В следующем примере кода показано, как получить имя и идентификатор для часовые пояса Восточное время и Тихоокеанское время.
+В приведенном ниже примере кода показано, как получить имя и идентификатор для часовых поясов стандартного времени и тихоокеанского стандартного времени США.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -61,15 +61,15 @@ ms.locfileid: "19762918"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Каждый элемент [Id (часовой пояс)](id-timezone.md) содержит идентификатор определения часового пояса, который был запрошен. Для запроса сведений для всех часовых поясов, опустите элемент [идентификаторы](ids.md) из запроса. 
+Каждый элемент [ID (TimeZone)](id-timezone.md) содержит идентификатор запрашиваемого определения часового пояса. Чтобы запросить сведения для всех часовых поясов, исключите из запроса элемент [ID](ids.md) . 
   
-### <a name="getting-the-full-definition-of-each-time-zone"></a>Получение полного определения каждого часового пояса
+### <a name="getting-the-full-definition-of-each-time-zone"></a>Полное определение каждого часового пояса
 
-В следующем примере кода показано, как получить определения зоны всего времени для часового пояса Восточное время.
+В приведенном ниже примере кода показано, как получить полное определение часового пояса для восточного стандартного часового пояса.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,17 +90,17 @@ ms.locfileid: "19762918"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Каждый элемент [Id (часовой пояс)](id-timezone.md) содержит идентификатор определения часового пояса, который был запрошен. Для запроса сведений для всех часовых поясов, опустите элемент [идентификаторы](ids.md) из запроса. 
+Каждый элемент [ID (TimeZone)](id-timezone.md) содержит идентификатор запрашиваемого определения часового пояса. Чтобы запросить сведения для всех часовых поясов, исключите из запроса элемент [ID](ids.md) . 
   
-## <a name="getservertimezones-response-examples"></a>Примеры GetServerTimeZones ответа
+## <a name="getservertimezones-response-examples"></a>Примеры ответа GetServerTimeZones
 
-### <a name="receiving-the-time-zone-name-and-identifier-only"></a>Получение только имя часовой пояс и идентификатор
+### <a name="receiving-the-time-zone-name-and-identifier-only"></a>Получение только имени и идентификатора часового пояса
 
-В следующем примере ответа **GetServerTimeZones** показано успешного ответа на запрос **GetServerTimeZones** , в которой атрибут **ReturnFullTimeZoneData** имеет значение **false**. Ответ содержит имя и идентификатор для часовые пояса Восточное время и Тихоокеанское время.
+В приведенном ниже примере ответа **GetServerTimeZones** показан успешный ответ на запрос **GetServerTimeZones** , в котором для атрибута **ретурнфуллтимезонедата** задано значение **false**. Ответ содержит имя и идентификатор для часовых поясов стандартного времени и тихоокеанского стандартного времени США.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -132,11 +132,11 @@ ms.locfileid: "19762918"
 </soap:Envelope>
 ```
 
-### <a name="receiving-a-full-time-zone-definition"></a>Получение всего времени в определении часового пояса
+### <a name="receiving-a-full-time-zone-definition"></a>Получение определения полного часового пояса
 
-В следующем примере ответа **GetServerTimeZones** показано успешного ответа на запрос **GetServerTimeZones** , в которой атрибут **ReturnFullTimeZoneData** было задано значение **true**. Ответ содержит определение зоны всего времени для часового пояса Восточное время.
+В приведенном ниже примере ответа **GetServerTimeZones** показан успешный ответ на запрос **GetServerTimeZones** , в котором для атрибута **ретурнфуллтимезонедата** задано **значение true**. Ответ содержит полное определение часового пояса для восточного стандартного часового пояса.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -223,9 +223,9 @@ ms.locfileid: "19762918"
 
 [GetServerTimeZones](getservertimezones.md)
   
-[GetServerTimeZonesResponse](getservertimezonesresponse.md)
+[жетсервертимезонесреспонсе](getservertimezonesresponse.md)
   
- **GetServerTimeZonesType**
+ **жетсервертимезонестипе**
 
 
 [Операции EWS в Exchange](ews-operations-in-exchange.md)

@@ -1,5 +1,5 @@
 ---
-title: Операции CreateItem (запрос на собрание)
+title: Операция CreateItem (приглашение на собрание)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: fe136881-a804-456a-8552-8a1bea5eb9c8
-description: Операция CreateItem используется в ответ на приглашения на собрания.
+description: Операция CreateItem используется для ответа на приглашения на собрания.
 ms.openlocfilehash: a8aea688e46376906554952ce8ec45022cf613e9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,21 +19,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761895"
 ---
-# <a name="createitem-operation-meeting-request"></a>Операции CreateItem (запрос на собрание)
+# <a name="createitem-operation-meeting-request"></a>Операция CreateItem (приглашение на собрание)
 
-Операция CreateItem используется в ответ на приглашения на собрания.
+Операция CreateItem используется для ответа на приглашения на собрания.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Операции CreateItem предоставляет три варианта реагирования на приглашения на собрание: принять, под вопросом принять или отклонить. 
+Операция CreateItem предоставляет три варианта ответа на приглашение на собрание: принять, под вопросом или отклонить. 
   
-## <a name="accept-meeting-request-example"></a>Примите примере запрос на собрание
+## <a name="accept-meeting-request-example"></a>Пример принятия приглашения на собрание
 
 ### <a name="description"></a>Описание
 
-Следующий пример демонстрирует приняли приглашение на собрание запроса приглашения.
+В приведенном ниже примере показано, как принять приглашение на собрание.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -53,31 +53,31 @@ ms.locfileid: "19761895"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Чтобы принять под вопросом или отклонить приглашение на собрание, используйте [TentativelyAcceptItem](tentativelyacceptitem.md) или [DeclineItem](declineitem.md) элементов вместо [AcceptItem](acceptitem.md) элемента. 
+Чтобы принять или отклонить приглашение на собрание, используйте элементы [тентативелякцептитем](tentativelyacceptitem.md) или [Деклинеитем](declineitem.md) вместо элемента [акцептитем](acceptitem.md) . 
   
-Идентификатор элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость.
+Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
   
-### <a name="accepting-meeting-request-elements"></a>Принятие элементы запроса на собрание
+### <a name="accepting-meeting-request-elements"></a>Принятие элементов приглашения на собрание
 
 В запросе используются следующие элементы:
   
 - [CreateItem](createitem.md)
     
-- [Элементы (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
     
-- [AcceptItem](acceptitem.md)
+- [акцептитем](acceptitem.md)
     
-- [ReferenceItemId](referenceitemid.md)
+- [референцеитемид](referenceitemid.md)
     
-## <a name="successful-accept-meeting-response-example"></a>Успешные пример ответа принимать собрания
+## <a name="successful-accept-meeting-response-example"></a>Пример успешного принятия ответа на приглашение на собрание
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос CreateItem.
+В следующем примере показан успешный ответ на запрос CreateItem.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -105,27 +105,27 @@ ms.locfileid: "19761895"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateItemResponse](createitemresponse.md)
+- [креатеитемреспонсе](createitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateItemResponseMessage](createitemresponsemessage.md)
+- [креатеитемреспонсемессаже](createitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-## <a name="accept-meeting-error-response-example"></a>Примите пример ответа об ошибке собрания
+## <a name="accept-meeting-error-response-example"></a>Пример принятия ответа на сообщение об ошибке собрания
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано отклик на запрос CreateItem ошибку. Ошибки, возникающие при попытке принятия приглашения на собрание, который не удается найти в хранилище Exchange.
+В следующем примере показан ответ об ошибке для запроса CreateItem. Ошибка вызвана попыткой принять приглашение на собрание, которое не удается найти в хранилище Exchange.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -153,31 +153,31 @@ ms.locfileid: "19761895"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateItemResponse](createitemresponse.md)
+- [креатеитемреспонсе](createitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateItemResponseMessage](createitemresponsemessage.md)
+- [креатеитемреспонсемессаже](createitemresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[CreateItem Operation](createitem-operation.md)
+[Операция CreateItem](createitem-operation.md)
   
-[Операции CreateItem (элемента календаря)](createitem-operation-calendar-item.md)
+[Операция CreateItem (элемент календаря)](createitem-operation-calendar-item.md)
 

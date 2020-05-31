@@ -1,11 +1,11 @@
 ---
-title: Получение сведений о доступности с помощью веб-служб Exchange в Exchange
+title: Получение сведений о доступности с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 0e6709c0-dc3d-4280-8c53-cbec9bbdcc9e
-description: Узнайте, как получить сведения о доступности и раз предложенного собрания с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Сведения о том, как получать сведения о доступности и предложенные времена собраний с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 0633c204207317c03740d35b1da4b9626152d2e3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,24 +13,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761032"
 ---
-# <a name="get-freebusy-information-by-using-ews-in-exchange"></a>Получение сведений о доступности с помощью веб-служб Exchange в Exchange
+# <a name="get-freebusy-information-by-using-ews-in-exchange"></a>Получение сведений о доступности с помощью EWS в Exchange
 
-Узнайте, как получить сведения о доступности и раз предложенного собрания с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Сведения о том, как получать сведения о доступности и предложенные времена собраний с помощью управляемого API EWS или EWS в Exchange.
   
-С помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange для программного [создания собрания](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md) и отправки приглашений отлично, но поиск времени, который работает для всех участников, как правило, сложную задачу. Если нужно вручную проверьте, когда доступен всем пользователям, его согласуется обеспечивает автоматизацию задачи. К счастью метод управляемый API EWS [ExchangeService.GetUserAvailability](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getuseravailability%28v=exchg.80%29.aspx) и операции EWS [GetUserAvailability](http://msdn.microsoft.com/library/7906711b-80a1-42ae-8b33-26eeac036a5a%28Office.15%29.aspx) приходят на помощь. Этот метод или операции можно использовать для запроса сервере Exchange, чтобы найти оптимальное время для планирования собраний или просто получить сведения о доступности участников. Получение сведений о доступности для списка участников или иметь поиск время собрания, или оба сервера Exchange 
+С помощью управляемого API EWS или EWS для программного [создания собрания](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md) и отправки приглашений на собрание очень удобно, но поиск времени, который подходит для всех участников, часто является сложной задачей. Если необходимо вручную проверить, когда все пользователи доступны, то оно противоречит преднамерению автоматизировать задачу. К счастью, метод управляемого API [ExchangeService. GetUserAvailability](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getuseravailability%28v=exchg.80%29.aspx) [EWS и работа службы EWS в](http://msdn.microsoft.com/library/7906711b-80a1-42ae-8b33-26eeac036a5a%28Office.15%29.aspx) вашей организации. Этот метод или операцию можно использовать для отправки запросов на сервер Exchange Server, чтобы найти наилучшее время для планирования собрания или просто получить сведения о занятости участников. Вы можете получить сведения о доступности для списка участников или попросите своего сервера Exchange найти время проведения собрания или и то, и другое. 
   
-На рисунке 1 показана проблемы и решения.
+На рисунке 1 показана проблема и решение.
   
-**На рисунке 1. Запрос сведений о доступности из Exchange server**
+**Рис. 1. Запрос сведений о доступности с сервера Exchange Server**
 
 ![Изображение, которое показывает, как метод/операция GetUserAvailability разрешает проблему определения доступности участников, передавая набор параметров на сервер Exchange.](media/GetUserAvailability1.png)
   
-## <a name="get-suggested-meeting-times-and-freebusy-information-by-using-the-ews-managed-api"></a>Получение времени предложенного собрания и сведениями о доступности с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-suggested-meeting-times-and-freebusy-information-by-using-the-ews-managed-api"></a>Получение сведений о времени собраний и сведений о доступности с помощью управляемого API EWS
 <a name="bk_getavailewsma"> </a>
 
-Вы можете получить время предложенного собрания и время запланированного события для вашей участников при использовании значения перечисления [AvailabilityData](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.availabilitydata%28v=exchg.80%29.aspx) из **FreeBusyAndSuggestions** в вашей [ExchangeService.GetUserAvailability](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getuseravailability%28v=exchg.80%29.aspx) вызов метода, как показано в следующем примере. 
+Вы можете получить список предложенного времени проведения собрания и время запланированного события для участников при использовании значения перечисления [аваилабилитидата](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.availabilitydata%28v=exchg.80%29.aspx) в **фрибусяндсугжестионс** в вызове метода [ExchangeService. GetUserAvailability](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getuseravailability%28v=exchg.80%29.aspx) , как показано в следующем примере. 
   
-В этом примере предполагается, что прошедшие проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **службы**. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. 
   
 ```cs
 private static void GetSuggestedMeetingTimesAndFreeBusyInfo(ExchangeService service)
@@ -98,10 +98,10 @@ private static void GetSuggestedMeetingTimesAndFreeBusyInfo(ExchangeService serv
 
 ```
 
-## <a name="get-suggested-meeting-times-and-freebusy-information-by-using-ews"></a>Получение времени предложенного собрания и сведениями о доступности с помощью веб-служб Exchange
+## <a name="get-suggested-meeting-times-and-freebusy-information-by-using-ews"></a>Получение сведений о предлагаемом времени проведения собраний и сведений о доступности с помощью EWS
 <a name="bk_getavailews"> </a>
 
-Вы можете получить время предложенного собрания и время запланированного события для вашей участников с помощью операция [GetUserAvailability](http://msdn.microsoft.com/library/7906711b-80a1-42ae-8b33-26eeac036a5a%28Office.15%29.aspx) , как показано в следующем примере. Это также запроса XML, управляемый API EWS отправляет при использовании управляемый API EWS для [получения раз предложенного собрания](#bk_getavailewsma).
+Вы можете получить список предложенного времени проведения собрания и время запланированного события для участников с помощью операции [GetUserAvailability](http://msdn.microsoft.com/library/7906711b-80a1-42ae-8b33-26eeac036a5a%28Office.15%29.aspx) , как показано в следующем примере. Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [получения предложенного времени проведения собрания](#bk_getavailewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -207,7 +207,7 @@ private static void GetSuggestedMeetingTimesAndFreeBusyInfo(ExchangeService serv
 
 ```
 
-Сервер отвечает на [запрос GetUserAvailability](http://msdn.microsoft.com/library/7906711b-80a1-42ae-8b33-26eeac036a5a%28Office.15%29.aspx) в сообщении [ответа GetUserAvailability](http://msdn.microsoft.com/library/6999510a-d60e-43da-8964-57b5fb3e9d11%28Office.15%29.aspx) , как показано в следующем примере. 
+Сервер отвечает на [запрос GetUserAvailability](http://msdn.microsoft.com/library/7906711b-80a1-42ae-8b33-26eeac036a5a%28Office.15%29.aspx) с сообщением [ответа GetUserAvailability](http://msdn.microsoft.com/library/6999510a-d60e-43da-8964-57b5fb3e9d11%28Office.15%29.aspx) , как показано в следующем примере. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -375,7 +375,7 @@ private static void GetSuggestedMeetingTimesAndFreeBusyInfo(ExchangeService serv
 
 - [Календари и веб-службах Exchange](calendars-and-ews-in-exchange.md)
     
-- [Создание встречи и собрания с помощью веб-служб Exchange в Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Создание встреч и собраний с помощью EWS в Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
 - [Обновление встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     

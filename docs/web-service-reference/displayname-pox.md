@@ -20,7 +20,7 @@ ms.locfileid: "19762169"
 
 Элемент **DisplayName** представляет отображаемое имя пользователя. 
   
-- [Автообнаружение (POX)](autodiscover-pox.md) 
+- [Служба автообнаружения (POX)](autodiscover-pox.md) 
 - [Ответ (POX)](response-pox.md) 
 - [Пользователь (POX)](user-pox.md) 
 - [DisplayName (POX)](displayname-pox.md)
@@ -31,7 +31,7 @@ ms.locfileid: "19762169"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,7 +45,7 @@ ms.locfileid: "19762169"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь (POX)](user-pox.md) <br/> |Предоставляет сведения о пользователе.  <br/> |
+|[Пользователь (POX)](user-pox.md) <br/> |Предоставляет сведения, относящиеся к пользователю.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -53,5 +53,5 @@ ms.locfileid: "19762169"
   
 ## <a name="see-also"></a>См. также
 
-- [Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

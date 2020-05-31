@@ -1,5 +1,5 @@
 ---
-title: GetItemResponse
+title: жетитемреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8b66de1b-26a6-476c-9585-a96059125716
-description: Элемент GetItemResponse определяет ответ на запрос GetItem.
+description: Элемент Жетитемреспонсе определяет ответ на запрос GetItem.
 ms.openlocfilehash: 73805cf007a8d9d00d47b2b819935b5229c6e14d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762837"
 ---
-# <a name="getitemresponse"></a>GetItemResponse
+# <a name="getitemresponse"></a>жетитемреспонсе
 
-Элемент **GetItemResponse** определяет ответ на запрос GetItem. 
+Элемент **жетитемреспонсе** определяет ответ на запрос GetItem. 
   
 ```xml
 <GetItemResponse>
@@ -29,10 +29,10 @@ ms.locfileid: "19762837"
 </GetItemResponse>
 ```
 
- **GetItemResponseType**
+ **жетитемреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19762837"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762837"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -67,7 +67,7 @@ ms.locfileid: "19762837"
 
 [GetItem](getitem.md)
   
-[GetItemResponseMessage](getitemresponsemessage.md)
+[жетитемреспонсемессаже](getitemresponsemessage.md)
   
-[GetItem Operation](getitem-operation.md)
+[Операция GetItem](getitem-operation.md)
 

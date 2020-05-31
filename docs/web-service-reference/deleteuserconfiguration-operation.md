@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 93e44690-be2d-4fdb-96a8-4ded3c193aed
-description: Операция DeleteUserConfiguration удаляет объект конфигурации пользователя на папку.
+description: Операция DeleteUserConfiguration удаляет объект конфигурации пользователя в папке.
 ms.openlocfilehash: 033134a7e16aa8e7a3d6b928141012b646863a68
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,18 +21,18 @@ ms.locfileid: "19762049"
 ---
 # <a name="deleteuserconfiguration-operation"></a>Операция DeleteUserConfiguration
 
-Операция **DeleteUserConfiguration** удаляет объект конфигурации пользователя на папку. 
+Операция **DeleteUserConfiguration** удаляет объект конфигурации пользователя в папке. 
   
 > [!IMPORTANT]
-> Операция **DeleteUserConfiguration** , будет вызвано событие перемещения по системе события уведомления. Объект конфигурации пользователя перемещается в корзину. 
+> Операция **DeleteUserConfiguration** инициирует событие Move для системы уведомления о событиях. Объект конфигурации пользователя будет перемещен в корзину. 
   
 ## <a name="deleteuserconfiguration-request-example"></a>Пример запроса DeleteUserConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **DeleteUserConfiguration** показано, как для формирования запроса, чтобы удалить объект конфигурации пользователя в папке "Черновики". 
+В приведенном ниже примере запроса **DeleteUserConfiguration** показано, как сформировать запрос на удаление объекта конфигурации пользователя в папке "Черновики". 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -54,13 +54,13 @@ ms.locfileid: "19762049"
 </soap:Envelope>
 ```
 
-## <a name="deleteuserconfiguration-response-example"></a>Пример ответа DeleteUserConfiguration
+## <a name="deleteuserconfiguration-response-example"></a>Пример отклика DeleteUserConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **DeleteUserConfiguration** . 
+В следующем примере показан успешный ответ на запрос **DeleteUserConfiguration** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

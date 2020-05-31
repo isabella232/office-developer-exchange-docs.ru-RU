@@ -1,5 +1,5 @@
 ---
-title: BinaryData
+title: бинаридата
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 57e9fba3-5751-4c37-b0c8-ac6dde1c7544
-description: Элемент BinaryData содержимое свойство двоичных данных.
+description: Элемент Бинаридата содержит содержимое свойства двоичных данных.
 ms.openlocfilehash: d98da312bbf970df54ddeaf525d00217275d1f82
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761560"
 ---
-# <a name="binarydata"></a>BinaryData
+# <a name="binarydata"></a>бинаридата
 
-Элемент **BinaryData** содержимое свойство двоичных данных. 
+Элемент **бинаридата** содержит содержимое свойства двоичных данных. 
   
 ```xml
 <BinaryData/>
@@ -30,7 +30,7 @@ ms.locfileid: "19761560"
  **Base64Binary**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19761560"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UserConfiguration](userconfiguration.md) <br/> |Определяет объект конфигурации одного пользователя.  <br/> |
+|[усерконфигуратион](userconfiguration.md) <br/> |Определяет один объект конфигурации пользователя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Элемент **BinaryData** содержит двоичные данные. 
+Элемент **бинаридата** содержит двоичные данные. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19761560"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

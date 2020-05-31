@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5f4ee71c-bde0-4b0d-b426-0c24dfe67585
-description: Элемент GetPhoneCallInformation определяет запрос на получение сведений о телефонный звонок.
+description: Элемент GetPhoneCallInformation указывает запрос на получение сведений о телефонном звонке.
 ms.openlocfilehash: 2084a8b5e13b3fa03e0bf62439978bbe81d86ce9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19762893"
 ---
 # <a name="getphonecallinformation"></a>GetPhoneCallInformation
 
-Элемент **GetPhoneCallInformation** определяет запрос на получение сведений о телефонный звонок. 
+Элемент **GetPhoneCallInformation** указывает запрос на получение сведений о телефонном звонке. 
   
 ```xml
 <GetPhoneCallInformation>
@@ -29,10 +29,10 @@ ms.locfileid: "19762893"
 </GetPhoneCallInformation>
 ```
 
- **GetPhoneCallInformationType**
+ **жетфонекаллинформатионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19762893"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[PhoneCallId](phonecallid.md) <br/> |Задает идентификатор телефонного звонка.  <br/> |
+|[фонекаллид](phonecallid.md) <br/> |Задает идентификатор телефонного звонка.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19762893"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19762893"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

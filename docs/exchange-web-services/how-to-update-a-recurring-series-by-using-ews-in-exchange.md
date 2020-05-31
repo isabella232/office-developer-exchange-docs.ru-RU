@@ -1,11 +1,11 @@
 ---
-title: Обновление серии повторяющихся с помощью веб-служб Exchange в Exchange
+title: Обновление серии повторяющихся данных с помощью EWS в Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c922072f-ce33-4bff-97b0-1c1d0f9b880d
-description: Узнайте, как обновить всей повторяющееся за один раз с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Сведения о том, как обновить весь ряд повторяющихся данных с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 03f414845674bfcacca62ef96fdb84f8b8823920
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,27 +13,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761114"
 ---
-# <a name="update-a-recurring-series-by-using-ews-in-exchange"></a>Обновление серии повторяющихся с помощью веб-служб Exchange в Exchange
+# <a name="update-a-recurring-series-by-using-ews-in-exchange"></a>Обновление серии повторяющихся данных с помощью EWS в Exchange
 
-Узнайте, как обновить всей повторяющееся за один раз с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Сведения о том, как обновить весь ряд повторяющихся данных с помощью управляемого API EWS или EWS в Exchange.
   
-Управляемый API EWS или веб-служб Exchange можно использовать для обновления серии повторяющихся либо обновление всей серии или [обновление одно вхождение](how-to-update-a-recurring-series-by-using-ews.md). В этой статье обсуждаются как обновить весь ряд за один раз.
+Вы можете использовать управляемый API EWS или EWS для обновления серии повторяющихся данных, обновив весь ряд или [обновив один экземпляр](how-to-update-a-recurring-series-by-using-ews.md). В этой статье мы расскажем, как обновить весь ряд сразу.
   
-В общем случае обновление серии повторяющихся очень похоже на [Изменение одной встречи](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). Используйте одинаковые методы и операции, но использовать идентификатор элемента из серии повторяющихся главных. В некоторых случаях может не запускается с повторяющейся основной и вы должны получить [идентификатор элемента для образца повторения](how-to-access-a-recurring-series-by-using-ews-in-exchange.md).
+Как правило, обновление повторяющихся рядов очень похоже на [изменение одной встречи](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). Используются те же методы и операции, но вы используете идентификатор элемента повторяющейся основной реплики ряда. В некоторых случаях может не начаться работа с шаблоном повторения, и вам может понадобиться [найти идентификатор повторяющегося образца](how-to-access-a-recurring-series-by-using-ews-in-exchange.md).
   
-Однако существует один важных различий, которые следует учитывать при обновлении серии повторяющихся: обновление шаблона повторения. Обновление шаблона повторения возможен только с помощью образца повторения и изменения в шаблон можно добавлять или удалять вхождений. Например при изменении свойства [Recurrence.EndDate](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) к дате более поздней, чем текущим значением, Переоценка шаблона повторения и могут быть добавлены дополнительные экземпляры. 
+Однако при обновлении повторяющейся серии необходимо учитывать одно ключевое отличие: Обновление расписания повторения. Обновление расписания повторения возможно только с помощью повторяющейся основной реплики, а изменения в шаблоне могут добавлять или удалять экземпляры. Например, если изменить значение свойства [периодичности. EndDate](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) на более позднее, чем его текущее значение, шаблон повторения переоценивается повторно, а также могут быть добавлены дополнительные экземпляры. 
   
-## <a name="modify-all-occurrences-in-a-series-by-using-the-ews-managed-api"></a>Изменить все вхождения в цикле с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="modify-all-occurrences-in-a-series-by-using-the-ews-managed-api"></a>Изменение всех вхождений в ряду с помощью управляемого API EWS
 
-Чтобы изменить все вхождения из серии вы:
+Чтобы изменить все экземпляры последовательности, выполните указанные ниже действия.
   
-1. Привязка к повторяющейся главной серии с помощью метода [Appointment.BindToRecurringMaster](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx) или [Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) повторяющихся хозяина. 
+1. Выполните присоединение к повторяющейся основной реплике для ряда с помощью метода [встреча. биндторекуррингмастер](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx) или [встречи. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) на повторяющейся основной реплике. 
     
-2. Обновление свойств на объекте повторяющейся [встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) главной. 
+2. Обновите свойства в объекте повторяющейся основной [встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) . 
     
-3. Сохраните изменения в образце повторяющихся с помощью метода [Appointment.Save](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) . 
+3. Сохраните изменения в повторяющейся основной реплике с помощью метода [встречи. Save](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) . 
     
-В следующем примере обновляются серии повторяющихся изменение расположения, добавить участника и изменение шаблона повторения. В этом примере предполагается, что объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , переданной в параметре _службы_ инициализирована с допустимые значения для свойства [URL-адреса](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) и [учетных данных](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) . Параметр _Повторяющаяся встреча_ является объекта **встречи** , связанного с вхождения или повторяющихся главных серии должны обновляться. 
+В следующем примере показано, как обновить повторяющуюся серию, чтобы изменить расположение, добавить участника и изменить шаблон повторения. В этом примере предполагается, что объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , переданный в параметре _Service_ , был инициализирован с допустимыми значениями в свойствах [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [URL](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . Параметр _рекуррингаппоинтмент_ — это объект **встречи** , привязанный к экземпляру или повторяющейся основной реплике для обновляемого ряда. 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -133,17 +133,17 @@ public static bool UpdateRecurringSeries(ExchangeService service, Appointment re
 }
 ```
 
-## <a name="modify-all-occurrences-in-a-series-by-using-ews"></a>Изменить все вхождения в цикле с помощью веб-служб Exchange
+## <a name="modify-all-occurrences-in-a-series-by-using-ews"></a>Изменение всех вхождений в ряду с помощью EWS
 
-Чтобы изменить все вхождения из серии, необходимо использовать [UpdateItem операции](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) с Идентификатором элемента хозяином повторяющихся в элементе [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) в запросе. Структура запроса — это то же, что запрос на обновление одного встречи. 
+Чтобы изменить все экземпляры в ряду, необходимо использовать [операцию UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) с идентификатором элемента повторяющейся основной реплики в элементе [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) в запросе. Структура запроса такая же, как и в запросе на обновление одной встречи. 
   
-В следующем примере обновляются ряд повторяющейся следующими способами:
+В следующем примере показано, как обновить повторяющиеся ряды следующими способами:
   
-- Обновляет местоположение этой серии, задав элемент [Location](http://msdn.microsoft.com/library/3fcf7133-ae1c-47b4-a187-660045f71df0%28Office.15%29.aspx) . 
+- Обновляет расположение ряда, настраивая элемент [Location](http://msdn.microsoft.com/library/3fcf7133-ae1c-47b4-a187-660045f71df0%28Office.15%29.aspx) . 
     
-- Обновляет участников, задав элемент [RequiredAttendees](http://msdn.microsoft.com/library/422f8d44-b0eb-49ca-af0f-0e22b54c78d2%28Office.15%29.aspx) . 
+- Обновляет участников путем установки элемента [RequiredAttendees](http://msdn.microsoft.com/library/422f8d44-b0eb-49ca-af0f-0e22b54c78d2%28Office.15%29.aspx) . 
     
-- Обновляет повторения задать элемент [повторения (RecurrenceType)](http://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) . 
+- Обновляет повторение путем установки элемента [повторения (RecurrenceType)](http://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) . 
     
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -219,19 +219,19 @@ public static bool UpdateRecurringSeries(ExchangeService service, Appointment re
 </soap:Envelope>
 ```
 
-Сервер отвечает с элементом [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) , который включает в себя элемент [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) со значением **NoError**, это означает, что обновление выполнено успешно.
+Сервер отвечает с помощью элемента [упдатеитемреспонсе](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) , содержащего элемент [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) со значением " **Ошибка**", которое указывает, что обновление прошло успешно.
   
 ## <a name="see-also"></a>См. также
 
 
 - [Календари и веб-службах Exchange](calendars-and-ews-in-exchange.md)
     
-- [Шаблоны повторения и веб-служб Exchange](recurrence-patterns-and-ews.md)
+- [Шаблоны повторения и EWS](recurrence-patterns-and-ews.md)
     
 - [Обновление встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [Обновление серии повторяющихся с помощью веб-служб Exchange](how-to-update-a-recurring-series-by-using-ews.md)
+- [Обновление серии повторяющихся данных с помощью EWS](how-to-update-a-recurring-series-by-using-ews.md)
     
-- [Доступ к ряду с помощью веб-служб Exchange в Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
+- [Доступ к повторяющимся сериям с помощью EWS в Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
 

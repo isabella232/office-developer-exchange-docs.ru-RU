@@ -1,5 +1,5 @@
 ---
-title: FolderIds (ArrayOfFolderIdType)
+title: Фолдеридс (Аррайоффолдеридтипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4cc6b414-f702-4822-bb09-9771ab462700
-description: Элемент FolderIds содержит список идентификаторов папок.
+description: Элемент Фолдеридс содержит список идентификаторов папок.
 ms.openlocfilehash: 869856e807b688dbd7b1c4b4fb31f20f028010a0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762617"
 ---
-# <a name="folderids-arrayoffolderidtype"></a>FolderIds (ArrayOfFolderIdType)
+# <a name="folderids-arrayoffolderidtype"></a>Фолдеридс (Аррайоффолдеридтипе)
 
-Элемент **FolderIds** содержит список идентификаторов папок. 
+Элемент **фолдеридс** содержит список идентификаторов папок. 
   
 ```XML
 <FolderIds>
@@ -25,10 +25,10 @@ ms.locfileid: "19762617"
 </FolderIds>
 ```
 
- **ArrayOfFolderIdType**
+ **аррайоффолдеридтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,9 +40,9 @@ ms.locfileid: "19762617"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19762617"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

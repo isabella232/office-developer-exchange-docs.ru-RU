@@ -1,5 +1,5 @@
 ---
-title: CurrentMeetingTime
+title: куррентмитингтиме
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1ff68154-24b5-465a-a31c-3d3bab0d491e
-description: Элемент CurrentMeetingTime представляет время начала собрания, который нужно обновить с помощью время собрания, предложенное по участник собрания.
+description: Элемент Куррентмитингтиме представляет время начала собрания, которое вы хотите обновить, с временем собрания, предложенным участником собрания.
 ms.openlocfilehash: 88adbe566270d759986e9b55afd4827c0513ca43
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761940"
 ---
-# <a name="currentmeetingtime"></a>CurrentMeetingTime
+# <a name="currentmeetingtime"></a>куррентмитингтиме
 
-Элемент **CurrentMeetingTime** представляет время начала собрания, который нужно обновить с помощью время собрания, предложенное по участник собрания. 
+Элемент **куррентмитингтиме** представляет время начала собрания, которое вы хотите обновить, с временем собрания, предложенным участником собрания. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-[SuggestionsViewOptions](suggestionsviewoptions.md)
+[сугжестионсвиевоптионс](suggestionsviewoptions.md)
   
-[CurrentMeetingTime](currentmeetingtime.md)
+[куррентмитингтиме](currentmeetingtime.md)
   
 ```xml
 <CurrentMeetingTime>...</CurrentMeetingTime>
@@ -36,7 +36,7 @@ ms.locfileid: "19761940"
  **DateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,11 +50,11 @@ ms.locfileid: "19761940"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведения о предложения о собрании.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент не требуется.
+Этот элемент не является обязательным.
   
 > [!NOTE]
 > Схема с описанием этого элемента находится в каталоге /EWS/ на компьютере, на котором запущено приложение MicrosoftExchange Server 2007 с установленной ролью сервера клиентского доступа. 
@@ -65,7 +65,7 @@ ms.locfileid: "19761940"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: ContainsRecipientStrings
+title: контаинсреЦипиентстрингс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a7fd13ac-0f13-4610-ac9b-98e27ac3940b
-description: Элемент ContainsRecipientStrings указывает строк, которые должны встречаться в ToRecipients или CcRecipients свойства входящих сообщений в порядке для условие или исключение для применения.
+description: Элемент КонтаинсреЦипиентстрингс указывает строки, которые должны отображаться в свойствах ToRecipients или CcRecipients входящих сообщений, чтобы применялось условие или исключение.
 ms.openlocfilehash: 861aba22c9474caf02f9c50d8a7b65b9cc8a2eda
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761759"
 ---
-# <a name="containsrecipientstrings"></a>ContainsRecipientStrings
+# <a name="containsrecipientstrings"></a>контаинсреЦипиентстрингс
 
-Элемент **ContainsRecipientStrings** указывает строк, которые должны встречаться в параметр **ToRecipients** или **CcRecipients** свойства входящих сообщений в порядке для условие или исключение для применения. 
+Элемент **контаинсреЦипиентстрингс** указывает строки, которые должны отображаться в свойствах **ToRecipients** или **CcRecipients** входящих сообщений, чтобы применялось условие или исключение. 
   
 ```XML
 <ContainsRecipientStrings>
@@ -29,10 +29,10 @@ ms.locfileid: "19761759"
 </ContainsRecipientStrings>
 ```
 
- **ArrayOfStringsType**
+ **аррайофстрингстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19761759"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Представляет строку, которые должны встречаться в параметр **ToRecipients** или **CcRecipients** свойства входящих сообщений в порядке для условие или исключение для применения.  <br/> |
+|[Строка](string.md) <br/> |Представляет строку, которая должна отображаться в свойствах **ToRecipients** или **CcRecipients** входящих сообщений, чтобы применялось условие или исключение.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19761759"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -65,7 +65,7 @@ ms.locfileid: "19761759"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

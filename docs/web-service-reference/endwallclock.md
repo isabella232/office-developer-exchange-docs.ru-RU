@@ -1,5 +1,5 @@
 ---
-title: EndWallClock
+title: ендваллклокк
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bc04e44e-e6d1-4355-a2b1-feb6663dc647
-description: Элемент EndWallClock указывает время окончания собрания в часовом поясе расположения, в котором происходит собрания.
+description: Элемент Ендваллклокк указывает время окончания собрания в часовом поясе, где выполняется собрание.
 ms.openlocfilehash: 10e4a2bde50354b2f2752751c01a6a70aa084d05
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762356"
 ---
-# <a name="endwallclock"></a>EndWallClock
+# <a name="endwallclock"></a>ендваллклокк
 
-Элемент **EndWallClock** указывает время окончания собрания в часовом поясе расположения, в котором происходит собрания. 
+Элемент **ендваллклокк** указывает время окончания собрания в часовом поясе, где выполняется собрание. 
   
 ```XML
 <EndWallClock></EndWallClock>
 ```
 
- **dateTime**
+ **дата и время**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19762356"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **EndWallClock** — это строковое значение, задающее идентификатор часового пояса. 
+Текстовое значение элемента **ендваллклокк** — это строковое значение, задающее идентификатор часового пояса. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762356"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: Представитель
+title: Delegator
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: d359f7e8-765f-40ba-a7a0-9ce428f84523
-description: Элемент представитель содержит имя сотрудника, назначена задача.
+description: Элемент "Делегирование" содержит имя представителя, которому назначена задача.
 ms.openlocfilehash: 00d9c24e71037c10d7093883491242e665305295
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762013"
 ---
-# <a name="delegator"></a>Представитель
+# <a name="delegator"></a>Delegator
 
-Элемент **представитель** содержит имя сотрудника, назначена задача. 
+Элемент " **Делегирование** " содержит имя представителя, которому назначена задача. 
   
 ```xml
 <Delegator/>
 ```
 
-**Строка**
+**String**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -49,9 +49,9 @@ ms.locfileid: "19762013"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет имя сотрудника.
+Текстовое значение представляет имя представителя.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "19762013"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

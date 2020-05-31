@@ -1,5 +1,5 @@
 ---
-title: HasBlockedImages
+title: хасблоккедимажес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ddeb11db-797d-4939-91d5-3e44be5f0778
-description: Элемент HasBlockedImages задает логическое значение, указывающее, заблокирован ли элемент изображений.
+description: Элемент Хасблоккедимажес указывает логическое значение, которое указывает, заблокирован ли рисунок для элемента.
 ms.openlocfilehash: fbe9967c898016aeef27e3c86e8a1cf603bd87fc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833795"
 ---
-# <a name="hasblockedimages"></a>HasBlockedImages
+# <a name="hasblockedimages"></a>хасблоккедимажес
 
-Элемент **HasBlockedImages** задает логическое значение, указывающее, заблокирован ли элемент изображений. 
+Элемент **хасблоккедимажес** указывает логическое значение, которое указывает, заблокирован ли рисунок для элемента. 
   
 ```XML
 <HasBlockedImages> true | false </HasBlockedImages>
@@ -26,7 +26,7 @@ ms.locfileid: "19833795"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19833795"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемент](item.md) <br/> |Представляет универсальный элемент в хранилище Exchange.  <br/> |
+|[Элемент](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **HasBlockedImages** указывает, что элемент был заблокирован изображений. Значение **false** указывает, что элемент не имеет любое заблокированные изображения. 
+Текстовое значение **true** для элемента **хасблоккедимажес** указывает на то, что элемент заблокирован изображения. Значение **false** указывает на то, что у элемента нет заблокированных изображений. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19833795"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: AttachmentIds
+title: аттачментидс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 46ce3ad7-4b20-43ae-8c63-39f1e3c2666b
-description: Элемент AttachmentIds содержит массив идентификаторов вложения.
+description: Элемент Аттачментидс содержит массив идентификаторов вложений.
 ms.openlocfilehash: f205aefe6a7dc4ec208e8a96b8a6b47094aa741b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761512"
 ---
-# <a name="attachmentids"></a>AttachmentIds
+# <a name="attachmentids"></a>аттачментидс
 
-Элемент **AttachmentIds** содержит массив идентификаторов вложения. 
+Элемент **аттачментидс** содержит массив идентификаторов вложений. 
   
 ```xml
 <AttachmentIds>
@@ -29,10 +29,10 @@ ms.locfileid: "19761512"
 </AttachmentIds>
 ```
 
- **NonEmptyArrayOfRequestAttachmentIdsType**
+ **нонемптяррайофрекуестаттачментидстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,16 +42,16 @@ ms.locfileid: "19761512"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Идентификатора вложения AttachmentId (GetAttachment и DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) <br/> |Элемент, который определяет одного вложения.  <br/> |
+|[AttachmentId (GetAttachment и DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) <br/> |Элемент, определяющий отдельное вложение.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DeleteAttachment](deleteattachment.md) <br/> |Элемент, который определяет запрос для удаления вложения из хранилища Exchange.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/DeleteAttachment` <br/> |
-|[GetAttachment](getattachment.md) <br/> |Элемент, который определяет запрос для получения вложения из хранилища Exchange.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetAttachment` <br/> |
+|[DeleteAttachment](deleteattachment.md) <br/> |Элемент, определяющий запрос на удаление вложения из хранилища Exchange.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/DeleteAttachment` <br/> |
+|[GetAttachment](getattachment.md) <br/> |Элемент, определяющий запрос на получение вложения из хранилища Exchange.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetAttachment` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "19761512"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

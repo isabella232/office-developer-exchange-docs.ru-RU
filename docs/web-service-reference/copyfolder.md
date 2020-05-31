@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7d5cd08a-fe81-4cb6-a5a0-6dec2d3c93d4
-description: Элемент CopyFolder определяет запрос для копирования папки почтового ящика в хранилище Exchange.
+description: Элемент CopyFolder определяет запрос на копирование папок в почтовом ящике в хранилище Exchange.
 ms.openlocfilehash: 7bcfcc7f4212b3a3bd339fa5863df2990eb20d6d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19761838"
 ---
 # <a name="copyfolder"></a>CopyFolder
 
-Элемент **CopyFolder** определяет запрос для копирования папки почтового ящика в хранилище Exchange. 
+Элемент **CopyFolder** определяет запрос на копирование папок в почтовом ящике в хранилище Exchange. 
   
 ```xml
 <CopyFolder>
@@ -30,10 +30,10 @@ ms.locfileid: "19761838"
 </CopyFolder>
 ```
 
- **CopyFolderType**
+ **копифолдертипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,14 +43,14 @@ ms.locfileid: "19761838"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ToFolderId](tofolderid.md) <br/> |Представляет конечной папки для скопированной папке.  <br/> |
-|[FolderIds](folderids.md) <br/> |Содержит набор папок, которые следует скопировать в папку, указанную в элементе [ToFolderId](tofolderid.md) .  <br/> |
+|[тофолдерид](tofolderid.md) <br/> |Представляет папку назначения для скопированной папки.  <br/> |
+|[фолдеридс](folderids.md) <br/> |Содержит массив папок, которые необходимо скопировать в папку, определяемую элементом [тофолдерид](tofolderid.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19761838"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

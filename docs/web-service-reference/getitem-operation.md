@@ -1,5 +1,5 @@
 ---
-title: GetItem Operation
+title: Операция GetItem
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e3590b8b-c2a7-4dad-a014-6360197b68e4
-description: Найдите сведения о веб-служб Exchange GetItem операции.
+description: Найдите сведения о операции GetItem EWS.
 ms.openlocfilehash: 9b63032b2eaa3bf26027a42e38bfa06bedcbac86
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,42 +19,42 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762834"
 ---
-# <a name="getitem-operation"></a>GetItem Operation
+# <a name="getitem-operation"></a>Операция GetItem
 
-Найдите сведения о операции **GetItem** веб-служб Exchange. 
+Найдите сведения о операции **GetItem** EWS. 
   
-Операции **GetItem** получает элементы из хранилища Exchange. 
+Операция **GetItem** возвращает элементы из хранилища Exchange. 
   
-## <a name="using-the-getitem-operation"></a>С помощью операции GetItem
+## <a name="using-the-getitem-operation"></a>Использование операции GetItem
 
-Операции **GetItem** Возвращает множество свойств элемента. Свойства, возвращаемые в ответ **GetItem** различаться в зависимости от запрошенного фигуры возвращать запрошенный дополнительных свойств и типа элемента. 
+Операция **GetItem** возвращает множество свойств элемента. Свойства, возвращаемые в ответе **GetItem** , зависят от запрошенной фигуры, запрашивают дополнительные свойства и тип возвращаемого элемента. 
   
-Элементы [сообщения](message-ex15websvcsotherref.md) представляют сообщения электронной почты и другие элементы, которые не строго типизированные схемой веб-служб Exchange (EWS). Элементы, такие как IPM. Общий доступ и IPM.InfoPath возвращаются в виде элементы [сообщения](message-ex15websvcsotherref.md) . Exchange не возвращает [базовый элемент](item.md) в ответы. 
+Элементы [Message](message-ex15websvcsotherref.md) представляют сообщения электронной почты и все другие элементы, которые не являются строго типизированными схемой веб-служб Exchange (EWS). Элементы, такие как IPM. Общий доступ и IPM. InfoPath возвращаются в виде элементов [Message](message-ex15websvcsotherref.md) . Exchange не возвращает элемент базового [элемента](item.md) в ответах. 
   
-Операции **GetItem** не возвращает вложения. Возвращает метаданные о вложенного элемента или файла. Чтобы вернуть вложение, с помощью [операции GetAttachment](getattachment-operation.md).
+Операция **GetItem** не возвращает вложения. Он возвращает метаданные о вложенном элементе или файле. Чтобы вернуть вложение, используйте [операцию GetAttachment](getattachment-operation.md).
   
-## <a name="getitem-operation-soap-headers"></a>Заголовки SOAP операции GetItem
+## <a name="getitem-operation-soap-headers"></a>Заголовки SOAP для операции GetItem
 
-Операции **GetItem** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **GetItem** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
-|Заголовок ***|****Element****|****Описание****|
+|Header * * * *|****Element****|****Описание****|
 |:-----|:-----|:-----|
-|**DateTimePrecision** <br/> |[DateTimePrecision](datetimeprecision.md) <br/> |Указывает разрешение значения времени и данных в ответов с сервера, в секундах или в миллисекундах.  <br/> |
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос.  <br/> |
-|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Определяет часовой пояс, который будет использоваться для всех ответов с сервера.  <br/> |
+|**датетимепреЦисион** <br/> |[датетимепреЦисион](datetimeprecision.md) <br/> |Задает разрешение значений данных и времени в ответах от сервера: в секундах или в миллисекундах.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
+|**тимезонеконтекст** <br/> |[тимезонеконтекст](timezonecontext.md) <br/> |Определяет часовой пояс, который будет использоваться для всех ответов сервера.  <br/> |
    
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
-[Операции GetItem (сообщение электронной почты)](getitem-operation-email-message.md)
+[Операция GetItem (сообщение электронной почты)](getitem-operation-email-message.md)
   
-[Операции GetItem (элемента календаря)](getitem-operation-calendar-item.md)
+[Операция GetItem (элемент календаря)](getitem-operation-calendar-item.md)
   
-[Операции GetItem (задача)](getitem-operation-task.md)
+[Операция GetItem (задача)](getitem-operation-task.md)
   
-[Операции GetItem (контактов)](getitem-operation-contact.md)
+[Операция GetItem (контакт)](getitem-operation-contact.md)
   
 ## <a name="see-also"></a>См. также
 

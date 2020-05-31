@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: eaf29427-ecf8-4a5e-9a54-db2e6414b35e
-description: Операция GetSharingMetadata получает маркер непрозрачный проверки подлинности, идентифицирующее приглашения на общий доступ.
+description: Операция GetSharingMetadata получает маркер непрозрачной проверки подлинности, определяющий приглашение к совместному использованию.
 ms.openlocfilehash: e2e04d83310e7a8a731cca655a432325574cd9e8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,24 +21,24 @@ ms.locfileid: "19833671"
 ---
 # <a name="getsharingmetadata-operation"></a>Операция GetSharingMetadata
 
-Операция **GetSharingMetadata** получает маркер непрозрачный проверки подлинности, идентифицирующее приглашения на общий доступ. 
+Операция **GetSharingMetadata** получает маркер непрозрачной проверки подлинности, определяющий приглашение к совместному использованию. 
   
 ## <a name="soap-headers"></a>Заголовки SOAP
 
-Операция **GetSharingMetadata** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице. 
+Операция **GetSharingMetadata** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса.  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос.  <br/> |
+|рекуестверсион  <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции.  <br/> |
+|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
    
 ## <a name="getsharingmetadata-request-example"></a>Пример запроса GetSharingMetadata
 
 ### <a name="description"></a>Описание
 
-Следующем примере показано, как для формирования запроса на получение маркера непрозрачный проверки подлинности, идентифицирующее приглашения на общий доступ. В этом примере user1@contoso.com хочет совместно использовать папку, заданную с помощью элемента [IdOfFolderToShare](idoffoldertoshare.md) с user1@fabikam.com и user2@test.com. 
+В приведенном ниже примере показано, как сформировать запрос на получение непрозрачного маркера проверки подлинности, определяющего приглашение к совместному использованию. В этом примере user1@contoso.com хочет предоставить общий доступ к папке, указанной элементом [идоффолдертошаре](idoffoldertoshare.md) , с user1@fabikam.com и user2@test.com. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -63,17 +63,17 @@ ms.locfileid: "19833671"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Элемент [получателей (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) содержит один элемент [SmtpAddress](smtpaddress.md) для каждого получателя приглашение к совместному использованию. 
+Элемент [Recipients (аррайофсмтпаддресстипе)](recipients-arrayofsmtpaddresstype.md) содержит один элемент [SmtpAddress](smtpaddress.md) для каждого получателя приглашения к совместному использованию. 
   
-## <a name="successful-getsharingmetadata-response"></a>Успешного ответа GetSharingMetadata
+## <a name="successful-getsharingmetadata-response"></a>Успешный ответ GetSharingMetadata
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **GetSharingMetadata** . В этом примере два получатели были указаны в соответствующий запрос **GetSharingMetadata** : user1@fabrikam.com и user2@test.com. 
+В следующем примере показан успешный ответ на запрос **GetSharingMetadata** . В этом примере в соответствующем запросе **GetSharingMetadata** указаны два получателя: user1@fabrikam.com и user2@test.com. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -154,21 +154,21 @@ ms.locfileid: "19833671"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Ответ содержит один элемент [EncryptedSharedFolderData](encryptedsharedfolderdata.md) для каждой организации, представленного допустимых получателей, указанных в запросе на **GetSharingMetadata** . 
+Ответ содержит один элемент [енкриптедшаредфолдердата](encryptedsharedfolderdata.md) для каждой организации, представленной действительными получателями, указанными в запросе **GetSharingMetadata** . 
   
-**GetSharingMetadata** запрос будет выполнен успешно, даже если недопустимых получателей указаны в запросе. Элемент [InvalidRecipients](invalidrecipients.md) содержит сведения о недопустимых получателей. Сведения о причинах, почему получателя может быть недопустимый видеть [ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md).
+Запрос **GetSharingMetadata** будет успешным, даже если в запросе указаны недопустимые получатели. Элемент [инвалидреЦипиентс](invalidrecipients.md) содержит сведения о недопустимых получателях. Сведения о причинах недопустимых получателей можно узнать в статье [респонсекоде (инвалидреЦипиентреспонсекодетипе)](responsecode-invalidrecipientresponsecodetype.md).
   
-Если недопустимы всем указанным получателям, [EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) элемента будет пустым. 
+Если все предполагаемые получатели являются недопустимыми, элемент [енкриптедшаредфолдердатаколлектион](encryptedsharedfolderdatacollection.md) будет пустым. 
   
-## <a name="getsharingmetadata-error-response"></a>Ошибка GetSharingMetadata ответа
+## <a name="getsharingmetadata-error-response"></a>Ответ об ошибке GetSharingMetadata
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос **GetSharingMetadata** . 
+В следующем примере показан ответ об ошибке для запроса **GetSharingMetadata** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -202,11 +202,11 @@ ms.locfileid: "19833671"
 
 [GetSharingMetadata](getsharingmetadata.md)
   
-[GetSharingMetadataType](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingMetadataType.aspx)
+[жетшарингметадататипе](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingMetadataType.aspx)
   
-[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md)
+[жетшарингметадатареспонсемессаже](getsharingmetadataresponsemessage.md)
   
-[GetSharingMetadataResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingMetadataResponseMessageType.aspx)
+[жетшарингметадатареспонсемессажетипе](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingMetadataResponseMessageType.aspx)
 
 
 [Операции EWS в Exchange](ews-operations-in-exchange.md)

@@ -1,5 +1,5 @@
 ---
-title: FreeBusyViewOptions
+title: фрибусивиевоптионс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c07f3ddb-874b-4d30-a60e-7e5c7793bb6f
-description: Элемент FreeBusyViewOptions указывает тип сведений о доступности, возвращаемого в ответе.
+description: Элемент Фрибусивиевоптионс указывает тип сведений о занятости, возвращаемых в ответе.
 ms.openlocfilehash: 703fc6a3625d24cf874a785600e13ee4505b506f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762663"
 ---
-# <a name="freebusyviewoptions"></a>FreeBusyViewOptions
+# <a name="freebusyviewoptions"></a>фрибусивиевоптионс
 
-Элемент **FreeBusyViewOptions** указывает тип сведений о доступности, возвращаемого в ответе. 
+Элемент **фрибусивиевоптионс** указывает тип сведений о занятости, возвращаемых в ответе. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-[FreeBusyViewOptions](freebusyviewoptions.md)
+[фрибусивиевоптионс](freebusyviewoptions.md)
   
 ```xml
 <FreeBusyViewOptions>
@@ -36,10 +36,10 @@ ms.locfileid: "19762663"
 
 ```
 
- **FreeBusyViewOptionsType**
+ **фрибусивиевоптионстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -49,26 +49,26 @@ ms.locfileid: "19762663"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Значение TimeWindow](timewindow.md) <br/> |Определяет период времени, запрос пользователя сведений о доступности.  <br/> |
-|[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) <br/> |Представляет разницу между двумя последовательными разъемов **FreeBusyMerged** представления.  <br/> |
-|[RequestedView](requestedview.md) <br/> |Задает тип данных календаря, для которого запрашивается клиента.  <br/> |
+|[TimeWindow](timewindow.md) <br/> |Определяет интервал времени, запрошенный для сведений о доступности пользователя.  <br/> |
+|[мержедфрибусинтервалинминутес](mergedfreebusyintervalinminutes.md) <br/> |Представляет разное время между двумя последовательными слотами в представлении **фрибусимержед** .  <br/> |
+|[рекуестедвиев](requestedview.md) <br/> |Определяет тип данных календаря, запрашиваемых клиентом.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Содержит аргументы, используемые для получения сведений о доступности пользователя. Это корневой элемент.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[жетусераваилабилитирекуест](getuseravailabilityrequest.md) <br/> |Содержит аргументы, используемые для получения сведений о доступности пользователя. Это корневой элемент.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент не является обязательным и можно только один раз при использовании. Это значение может быть null, если значение элемента [SuggestionsViewOptions](suggestionsviewoptions.md) не равно null. 
+Этот элемент не является обязательным и может быть использован только один раз. Это значение может быть равно null, если значение элемента [сугжестионсвиевоптионс](suggestionsviewoptions.md) отлично от NULL. 
   
 > [!NOTE]
-> Схема, описывающая этот элемент находится в каталоге /epi/ компьютера, на котором выполняется Microsoft® Exchange Server 2007 с установленной ролью сервера клиентского доступа. 
+> Схема, описывающая этот элемент, находится в каталоге/ЕПИ/компьютера, на котором работает Microsoft® Exchange Server 2007, на котором установлена роль сервера клиентского доступа. 
   
 ## <a name="example"></a>Пример
 
-В следующем примере извлекается список собраний и потока сведений о доступности в интервалы — 60 минут.
+В следующем примере показано получение списка собраний и потока сведений о занятости в 60-минутных интервалах.
   
 ```
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -124,7 +124,7 @@ ms.locfileid: "19762663"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

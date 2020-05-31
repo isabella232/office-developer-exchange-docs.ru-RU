@@ -1,5 +1,5 @@
 ---
-title: FindFolderResponse
+title: финдфолдерреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f5dd813c-9698-4a39-8fca-3a825df365ed
-description: Элемент FindFolderResponse определяет ответ на запрос FindFolder.
+description: Элемент Финдфолдерреспонсе определяет ответ на запрос FindFolder.
 ms.openlocfilehash: 3bf0509acd5a3928eb29015c39c18bb779c1dfce
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762556"
 ---
-# <a name="findfolderresponse"></a>FindFolderResponse
+# <a name="findfolderresponse"></a>финдфолдерреспонсе
 
-Элемент **FindFolderResponse** определяет ответ на запрос FindFolder. 
+Элемент **финдфолдерреспонсе** определяет ответ на запрос FindFolder. 
   
-[FindFolderResponse](findfolderresponse.md)
+[финдфолдерреспонсе](findfolderresponse.md)
   
 ```xml
 <FindFolderResponse>
@@ -31,10 +31,10 @@ ms.locfileid: "19762556"
 </FindFolderResponse>
 ```
 
- **FindFolderResponseType**
+ **финдфолдерреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19762556"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,14 +60,14 @@ ms.locfileid: "19762556"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[FindFolder Operation](findfolder-operation.md)
+[Операция FindFolder](findfolder-operation.md)
 
 
 [Поиск папок](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)

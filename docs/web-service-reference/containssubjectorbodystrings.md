@@ -1,5 +1,5 @@
 ---
-title: ContainsSubjectOrBodyStrings
+title: контаинссубжекторбодистрингс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 22aebf31-d9f4-4e03-bbff-c675409518d1
-description: Элемент ContainsSubjectOrBodyStrings указывает строк, которые должны встречаться в тексте или теме входящих сообщений в порядке для условие или исключение для применения.
+description: Элемент Контаинссубжекторбодистрингс указывает строки, которые должны присутствовать в тексте или теме входящих сообщений, чтобы применить условие или исключение.
 ms.openlocfilehash: f577e7d26bb7d82ea1017f720e1d3a30892e2ef1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761775"
 ---
-# <a name="containssubjectorbodystrings"></a>ContainsSubjectOrBodyStrings
+# <a name="containssubjectorbodystrings"></a>контаинссубжекторбодистрингс
 
-Элемент **ContainsSubjectOrBodyStrings** указывает строк, которые должны встречаться в тексте или теме входящих сообщений в порядке для условие или исключение для применения. 
+Элемент **контаинссубжекторбодистрингс** указывает строки, которые должны присутствовать в тексте или теме входящих сообщений, чтобы применить условие или исключение. 
   
 ```XML
 <ContainsSubjectOrBodyStrings>
@@ -29,10 +29,10 @@ ms.locfileid: "19761775"
 </ContainsSubjectOrBodyStrings>
 ```
 
- **ArrayOfStringsType**
+ **аррайофстрингстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19761775"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Представляет строку, которые должны встречаться в тексте или теме входящих сообщений в порядке для условие или исключение для применения.  <br/> |
+|[Строка](string.md) <br/> |Представляет строку, которая должна присутствовать в тексте или теме входящих сообщений, чтобы применить условие или исключение.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19761775"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -65,7 +65,7 @@ ms.locfileid: "19761775"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

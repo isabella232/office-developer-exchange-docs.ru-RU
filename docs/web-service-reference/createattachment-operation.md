@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e066db95-6963-4507-a8d0-8efad287f550
-description: Операция CreateAttachment создает вложение элемента или файла и подключает ее для заданного элемента.
+description: Операция CreateAttachment создает элемент или вложенный файл и прикрепляет его к указанному элементу.
 ms.openlocfilehash: fed60275a007f2796c60d936def7a937e4982f29
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19761855"
 ---
 # <a name="createattachment-operation"></a>Операция CreateAttachment
 
-Операция CreateAttachment создает вложение элемента или файла и подключает ее для заданного элемента.
+Операция CreateAttachment создает элемент или вложенный файл и прикрепляет его к указанному элементу.
   
-## <a name="file-createattachment-request-example"></a>Пример запроса CreateAttachment файла
+## <a name="file-createattachment-request-example"></a>Пример запроса файла CreateAttachment
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос CreateAttachment показано, как создать подключение файла.
+В приведенном ниже примере запроса CreateAttachment показано, как создать вложенный файл.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,20 +52,20 @@ ms.locfileid: "19761855"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Комментарий
+### <a name="comment"></a>Comment
 
-Необходимо указать имя для вложения.
+Необходимо указать имя вложения.
   
 > [!NOTE]
-> Идентификатор родительского элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор родительского элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [CreateAttachment](createattachment.md)
     
-- [ParentItemId](parentitemid.md)
+- [парентитемид](parentitemid.md)
     
 - [Вложения](attachments-ex15websvcsotherref.md)
     
@@ -73,15 +73,15 @@ ms.locfileid: "19761855"
     
 - [Имя (AttachmentType)](name-attachmenttype.md)
     
-- [Контентная](content.md)
+- [Статья](content.md)
     
-## <a name="successful-file-createattachment-response-example"></a>Пример успешного ответа CreateAttachment файла
+## <a name="successful-file-createattachment-response-example"></a>Пример успешного ответа файла CreateAttachment
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос CreateAttachment.
+В следующем примере показан успешный ответ на запрос CreateAttachment.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -111,37 +111,37 @@ ms.locfileid: "19761855"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Комментарий
+### <a name="comment"></a>Comment
 
-Ответ содержит идентификатор вложения. Он также содержит идентификатор и ключ изменения корневого элемента. Идентификаторы элементов и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость.
+Ответ содержит идентификатор вложенного файла. Он также содержит идентификатор и ключ изменения корневого элемента. Для сохранения удобочитаемости идентификаторы и ключ изменения были сокращены.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateAttachmentResponse](createattachmentresponse.md)
+- [креатеаттачментреспонсе](createattachmentresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateAttachmentResponseMessage](createattachmentresponsemessage.md)
+- [креатеаттачментреспонсемессаже](createattachmentresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
 - [Вложения](attachments-ex15websvcsotherref.md)
     
 - [FileAttachment](fileattachment.md)
     
-- [Идентификатора вложения AttachmentId](attachmentid.md)
+- [AttachmentId](attachmentid.md)
     
-## <a name="item-createattachment-request-example"></a>Пример запроса CreateAttachment элемента
+## <a name="item-createattachment-request-example"></a>Пример запроса CreateAttachment для элемента
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос CreateAttachment показано, как создать элемент вложения.
+В приведенном ниже примере запроса CreateAttachment показано, как создать вложение элемента.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -166,19 +166,19 @@ ms.locfileid: "19761855"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Комментарий
+### <a name="comment"></a>Comment
 
-Необходимо указать имя для вложения.
+Необходимо указать имя вложения.
   
- **Примечание** Идентификатор родительского элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+ **Note (Примечание** ) Идентификатор родительского элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [CreateAttachment](createattachment.md)
     
-- [ParentItemId](parentitemid.md)
+- [парентитемид](parentitemid.md)
     
 - [Вложения](attachments-ex15websvcsotherref.md)
     
@@ -186,17 +186,17 @@ ms.locfileid: "19761855"
     
 - [Имя (AttachmentType)](name-attachmenttype.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
-- [Subject](subject.md)
+- [Тема](subject.md)
     
-## <a name="successful-item-createattachment-response-example"></a>Пример успешного ответа CreateAttachment элемента
+## <a name="successful-item-createattachment-response-example"></a>Пример успешного ответа элемента CreateAttachment
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос CreateAttachment.
+В следующем примере показан успешный ответ на запрос CreateAttachment.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -226,37 +226,37 @@ ms.locfileid: "19761855"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Комментарий
+### <a name="comment"></a>Comment
 
-Ответ содержит идентификатор нового вложения. Он также содержит идентификатор и ключ изменения корневого элемента. Корневой элемент — это элемент, который содержит вложение. Идентификаторы элементов и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость.
+Ответ содержит идентификатор нового вложения. Он также содержит идентификатор и ключ изменения корневого элемента. Корневым элементом является элемент, содержащий вложение. Для сохранения удобочитаемости идентификаторы и ключ изменения были сокращены.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateAttachmentResponse](createattachmentresponse.md)
+- [креатеаттачментреспонсе](createattachmentresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateAttachmentResponseMessage](createattachmentresponsemessage.md)
+- [креатеаттачментреспонсемессаже](createattachmentresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
 - [Вложения](attachments-ex15websvcsotherref.md)
     
 - [ItemAttachment](itemattachment.md)
     
-- [Идентификатора вложения AttachmentId](attachmentid.md)
+- [AttachmentId](attachmentid.md)
     
-## <a name="createattachment-error-response-example"></a>Пример ответа об ошибке CreateAttachment
+## <a name="createattachment-error-response-example"></a>Пример ответа на сообщение об ошибке CreateAttachment
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос CreateAttachment. Ошибка: того, что не было указано имя вложения.
+В следующем примере показан ответ об ошибке для запроса CreateAttachment. Ошибка вызвана тем, что имя вложения не было указано.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -287,33 +287,33 @@ ms.locfileid: "19761855"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateAttachmentResponse](createattachmentresponse.md)
+- [креатеаттачментреспонсе](createattachmentresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateAttachmentResponseMessage](createattachmentresponsemessage.md)
+- [креатеаттачментреспонсемессаже](createattachmentresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [MessageXml](messagexml.md)
+- [мессажексмл](messagexml.md)
     
-- [ExceptionFieldURI](exceptionfielduri.md)
+- [ексцептионфиелдури](exceptionfielduri.md)
     
 - [Вложения](attachments-ex15websvcsotherref.md)
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Если несколько вложений присоединены к элементу в одном кругового пути, RootItemChangeKey в последнее сообщение ответа — это, соответствующий новый ключ изменения элемента с вложениями.
+Если к элементу присоединяется несколько вложений в одном цикле обработки, Рутитемчанжекэй в последнем ответе — это то, которое представляет новый ключ изменения элемента, содержащего вложения.
   
 ## <a name="see-also"></a>См. также
 

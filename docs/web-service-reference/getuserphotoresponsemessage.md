@@ -1,5 +1,5 @@
 ---
-title: GetUserPhotoResponseMessage
+title: жетусерфотореспонсемессаже
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54d43fe6-9f7b-4f84-920a-bd686c65b059
-description: Элемент GetUserPhotoResponseMessage содержит ответ на запрос GetUserPhoto.
+description: Элемент Жетусерфотореспонсемессаже содержит ответ на запрос GetUserPhoto.
 ms.openlocfilehash: fa817b59527f616afed84d8548e3a18e6c971e2d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833696"
 ---
-# <a name="getuserphotoresponsemessage"></a>GetUserPhotoResponseMessage
+# <a name="getuserphotoresponsemessage"></a>жетусерфотореспонсемессаже
 
-Элемент **GetUserPhotoResponseMessage** содержит ответ на запрос GetUserPhoto. 
+Элемент **жетусерфотореспонсемессаже** содержит ответ на запрос GetUserPhoto. 
   
 ```XML
 <GetUserPhotoResponseMessage>
@@ -30,10 +30,10 @@ ms.locfileid: "19833696"
 </GetUserPhotoResponseMessage>
 ```
 
- **GetUserPhotoResponseMessageType**
+ **жетусерфотореспонсемессажетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,13 +41,13 @@ ms.locfileid: "19833696"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [HasChanged](haschanged.md) | [Свойства](picturedata.md)
+[Мессажетекст](messagetext.md) | [респонсекоде](responsecode.md) | [MessageXml](messagexml.md)[DescriptiveLinkKey](descriptivelinkkey.md) | [PictureData](picturedata.md) дескриптивелинккэй мессажексмл | [хасчанжед](haschanged.md)PictureData | 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[ResponseMessages](responsemessages.md)
+[респонсемессажес](responsemessages.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -59,7 +59,7 @@ ms.locfileid: "19833696"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

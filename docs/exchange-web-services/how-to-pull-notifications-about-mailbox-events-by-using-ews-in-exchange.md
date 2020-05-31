@@ -1,11 +1,11 @@
 ---
-title: По запросу уведомлений о событиях почтовых ящиков с помощью веб-служб Exchange в Exchange
+title: Уведомления по запросу о событиях почтовых ящиков с помощью веб-служб Exchange в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eb25cbd1-2244-4c3f-a71a-5ee20f81c41f
-description: Узнайте, как использовать управляемый API EWS или веб-служб Exchange для подписки на уведомления репликации по запросу и получить события.
+description: Узнайте, как использовать управляемый API EWS или EWS, чтобы подписаться на уведомления и получать события.
 ms.openlocfilehash: 6a04aaf0102c149691a30c2bd2f499e03265bce8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,22 +13,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761101"
 ---
-# <a name="pull-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>По запросу уведомлений о событиях почтовых ящиков с помощью веб-служб Exchange в Exchange
+# <a name="pull-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>Уведомления по запросу о событиях почтовых ящиков с помощью веб-служб Exchange в Exchange
 
-Узнайте, как использовать управляемый API EWS или веб-служб Exchange для подписки на уведомления репликации по запросу и получить события.
+Узнайте, как использовать управляемый API EWS или EWS, чтобы подписаться на уведомления и получать события.
   
-ВЕБ-службах Exchange для предоставления клиентам запроса (или репликации по запросу) уведомления об изменениях в почтовый ящик с сервера на клиент использует уведомления по запросу.
+Службы EWS в Exchange используют Уведомления опрашивающей репликации, чтобы позволить клиентам запрашивать (или получать) уведомления об изменениях в почтовом ящике с сервера клиенту.
   
-Если подписки на уведомления по запросу с помощью управляемых API EWS, можно [подписаться на и получение уведомлений репликации по запросу](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cepullewsma) с помощью метода [SubscribeToPullNotifications](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx) . Затем вы получите событий с сервера с помощью метода [GetEvents](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pullsubscription.getevents%28v=exchg.80%29.aspx) . 
+При подписке на уведомления по запросу с помощью управляемого API EWS вы [можете подписаться на уведомления и получать](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cepullewsma) их с помощью метода [subscribetopullnotificationshttp](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx) . Затем вы получаете события с сервера с помощью метода [Events](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pullsubscription.getevents%28v=exchg.80%29.aspx) . 
   
-Подписаться на уведомления по запросу с помощью веб-служб Exchange, [Создать подписку](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cepullews) с помощью [операции подписки на](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx)синтаксический анализ ответа и [Получение уведомлений](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_getpull) с помощью [операции GetEvents](http://msdn.microsoft.com/library/f268efe5-9a1a-41a2-b6a6-51fcde7720a1%28Office.15%29.aspx).
+Чтобы подписаться на уведомления по запросу с помощью EWS, [создайте подписку](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_cepullews) с помощью [операции Subscribe](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx), проанализируйте ответ, а затем [получите уведомления](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_getpull) с помощью [операции](http://msdn.microsoft.com/library/f268efe5-9a1a-41a2-b6a6-51fcde7720a1%28Office.15%29.aspx)GetResponse.
   
-После получения уведомления из элементов, которые были изменены или созданы на сервере, его можно [синхронизировать изменения](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps).
+После того как клиент получит уведомления об элементах, которые были изменены или созданы на сервере, он сможет [синхронизировать изменения](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps).
   
-## <a name="subscribe-to-and-get-pull-notifications-by-using-the-ews-managed-api"></a>Подпишитесь на и получать уведомления по запросу с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="subscribe-to-and-get-pull-notifications-by-using-the-ews-managed-api"></a>Подписаться на уведомления и получать уведомления по запросу с помощью управляемого API EWS
 <a name="bk_cepullewsma"> </a>
 
-В следующем примере кода показано, как использовать метод [SubscribeToPullNotifications](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx) для подписки на уведомления репликации по запросу для всех событий в папке "Входящие". Затем в примере используется метод [GetEvents](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pullsubscription.getevents%28v=exchg.80%29.aspx) для получения событий на сервере. В этом примере мы предполагаем, что допустимой привязки [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) этой **службы** . 
+В приведенном ниже примере кода показано, как использовать метод [subscribetopullnotificationshttp](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx) , чтобы подписаться на уведомления для всех событий в папке "Входящие". Затем в примере используется метод [Events](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pullsubscription.getevents%28v=exchg.80%29.aspx) для получения событий с сервера. В этом примере предполагается, что **Служба** является допустимой привязкой [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) . 
   
 ```cs
 // Subscribe to pull notifications in the Inbox.
@@ -41,12 +41,12 @@ PullSubscription subscription = service.SubscribeToPullNotifications(
 GetEventsResults events = subscription.GetEvents(); 
 ```
 
-После появления события с сервера можно [синхронизировать эти изменения на сервере](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps). Используйте один из методов отказа от подписки, указанного в [как отписаться на уведомления?](notification-subscriptions-mailbox-events-and-ews-in-exchange.md#bk_notifunsubscribe) окончания подписки с сервером, когда подписка больше не требуется. 
+После получения события с сервера вы можете [синхронизировать эти изменения с сервером](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps). Используйте один из методов unsubscribe, указанных в разделе [как отменить подписку на уведомления?](notification-subscriptions-mailbox-events-and-ews-in-exchange.md#bk_notifunsubscribe) , чтобы завершить подписку на сервер, если подписка больше не нужна. 
   
-## <a name="subscribe-to-pull-notifications-by-using-ews"></a>Подписаться на уведомления по запросу с помощью веб-служб Exchange
+## <a name="subscribe-to-pull-notifications-by-using-ews"></a>Подпишитесь на уведомления по запросу с помощью EWS
 <a name="bk_cepullews"> </a>
 
-В следующем примере показано запрос XML для отправки на сервер для подписки на все [EventTypes](http://msdn.microsoft.com/library/29ded9e5-f191-4aa3-bc3e-500de2fc8818%28Office.15%29.aspx) в папке "Входящие" с помощью [подписки на операции](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx). Это также XML-запрос, который отправляет управляемый API EWS при присоединении к запросу уведомлений с помощью метода [SubscribeToPullNotifications](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx) . 
+В следующем примере показан XML-запрос, который отправляется на сервер для подписки на все [евенттипес](http://msdn.microsoft.com/library/29ded9e5-f191-4aa3-bc3e-500de2fc8818%28Office.15%29.aspx) в папке "Входящие" с помощью [операции Subscribe](http://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx). Это также запрос XML, который управляемый API EWS отправляет при подписке на уведомления по запросу с помощью метода [subscribetopullnotificationshttp](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -70,7 +70,7 @@ GetEventsResults events = subscription.GetEvents();
 </Subscribe>
 ```
 
-В следующем примере XML показано [SubscribeResponse](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) сообщение, которое отправляется с сервера клиенту в ответ на запрос **подписки на** операции. Включение NoError значение для элемента [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) означает, что успешно создана подписка. Элемент [SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) однозначно определяет подписки уведомлений по запросу на сервере. Элемент [водяного знака](http://msdn.microsoft.com/library/e1545046-94f9-4ac7-af1c-ea81dfb6822c%28Office.15%29.aspx) представляет закладку в очереди событий почтового ящика. 
+В следующем примере XML-кода показано сообщение [субскрибереспонсе](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) , которое отправляется от сервера клиенту в ответ на запрос операции **Subscribe** . Включение значения ошибки для элемента [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) означает, что подписка была успешно создана. Элемент [SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) однозначно идентифицирует подписку на уведомления по запросу на сервере. Элемент [водяного знака](http://msdn.microsoft.com/library/e1545046-94f9-4ac7-af1c-ea81dfb6822c%28Office.15%29.aspx) представляет закладку в очереди событий почтового ящика. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -86,12 +86,12 @@ GetEventsResults events = subscription.GetEvents();
 </SubscribeResponse>
 ```
 
-После создания подписки, можно получить с помощью **SubscriptionId** , который возвращается в сообщении **SubscribeResponse** события. 
+После создания подписки можно получить события, используя значение **SubscriptionId** , которое возвращается в сообщении **субскрибереспонсе** . 
   
-## <a name="get-pull-notifications-by-using-ews"></a>Получать уведомления по запросу с помощью веб-служб Exchange
+## <a name="get-pull-notifications-by-using-ews"></a>Получение уведомлений по запросу с помощью EWS
 <a name="bk_getpull"> </a>
 
-В следующем примере XML показано сообщение запроса [GetEvents операции](http://msdn.microsoft.com/library/f268efe5-9a1a-41a2-b6a6-51fcde7720a1%28Office.15%29.aspx) , передаче от клиента к серверу для получения уведомлений для [SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) , который возвращается в сообщении [SubscribeResponse](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) . Для первого запроса **GetEvents** используйте [водяного знака](http://msdn.microsoft.com/library/e1545046-94f9-4ac7-af1c-ea81dfb6822c%28Office.15%29.aspx) , возвращаемого в ответе **подписаться** . Для последующих запросов **GetEvents** используйте последний **водяного знака** , который был возвращен в предыдущем **GetEvents** запроса. 
+В следующем примере XML-кода показаны сообщение о запросе [операции с событиями](http://msdn.microsoft.com/library/f268efe5-9a1a-41a2-b6a6-51fcde7720a1%28Office.15%29.aspx) , которое отправляется с клиента на сервер для получения уведомлений для [SubscriptionId](http://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) , возвращаемых в сообщении [субскрибереспонсе](http://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) . Для первого запроса на получение **событий** используйте [водяной знак](http://msdn.microsoft.com/library/e1545046-94f9-4ac7-af1c-ea81dfb6822c%28Office.15%29.aspx) , возвращенный в ответе **Subscribe** . Для последующих запросов к **событиям** используйте последний **водяной знак** , который был возвращен в предыдущих запросах **Events** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -102,7 +102,7 @@ GetEventsResults events = subscription.GetEvents();
 </GetEvents>
 ```
 
-В следующем примере XML показано **GetEvents** ответное сообщение, которое отправляется с сервера. Каждый отклик **GetEvents** включены сведения о одно или несколько событий. Для каждого события возвращается **водяного знака** . Последний **водяной знак** должен быть сохранен и используется в следующем запросе **GetEvents** . Если события не хранилище были выполнены с момента последнего запроса **GetEvents** , возвращается состояние события. 
+В следующем примере XML-кода показаны ответные сообщения о **событиях** , отправляемые сервером клиенту. Каждый ответ на **события** содержит сведения о одном или нескольких событиях. Для каждого события возвращается **водяной знак** . Последний **водяной знак** должен быть сохранен и использован в последующих запросах на **событие** . Если с момента последнего запроса на получение **событий** не было событий хранилища, возвращается событие Status. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -127,23 +127,23 @@ GetEventsResults events = subscription.GetEvents();
 </GetEventsResponse>
 ```
 
-После получения события с сервера, [синхронизировать изменения клиенту](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps). С помощью [операции отказа от подписки](http://msdn.microsoft.com/library/994a9d2b-1501-4804-90f0-12bd914496ec%28Office.15%29.aspx) окончания подписки с сервером, когда подписка больше не требуется. 
+После получения события с сервера [синхронизируйте изменения, внесенные в клиент](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md#bk_nextsteps). Используйте [операцию unsubscribe](http://msdn.microsoft.com/library/994a9d2b-1501-4804-90f0-12bd914496ec%28Office.15%29.aspx) , чтобы завершить подписку на сервер, если подписка больше не нужна. 
   
 ## <a name="next-steps"></a>Дальнейшие действия
 <a name="bk_nextsteps"> </a>
 
-После время получения уведомления, можно [синхронизацию иерархии папок](how-to-synchronize-folders-by-using-ews-in-exchange.md) или [Синхронизация содержимого папки, изменены](how-to-synchronize-items-by-using-ews-in-exchange.md).
+После получения уведомлений можно [синхронизировать иерархию папок](how-to-synchronize-folders-by-using-ews-in-exchange.md) или [синхронизировать содержимое измененной папки](how-to-synchronize-items-by-using-ews-in-exchange.md).
   
 ## <a name="see-also"></a>См. также
 
 
 - [Подписки на уведомления, события почтовых ящиков и службы EWS в Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
     
-- [Поток уведомлений о событиях почтовых ящиков с помощью веб-служб Exchange в Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [Потоковая передача уведомлений о событиях почтовых ящиков с помощью веб-служб Exchange в Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
-- [Поддержка сходства между группой подписок и сервера почтовых ящиков в Exchange](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md)
+- [Поддержание сходства между группой подписок и сервером почтовых ящиков в Exchange](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md)
     
-- [Обработка ошибок, связанных с уведомлений в веб-служб Exchange в Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
+- [Обработка ошибок, связанных с уведомлениями, в EWS в Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
     
 - [Синхронизация почтового ящика и веб-службах Exchange](mailbox-synchronization-and-ews-in-exchange.md)
     

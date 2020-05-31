@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 376acc42-2684-4596-aca1-82a4a10865c9
-description: Найдите сведения о веб-служб Exchange AddImContactToGroup операции.
+description: Поиск сведений о AddImContactToGroupной операции EWS.
 ms.openlocfilehash: 669d798b6cabc1cab1fc057a3e18c565467440f7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,30 +17,30 @@ ms.locfileid: "19761336"
 ---
 # <a name="addimcontacttogroup-operation"></a>Операция AddImContactToGroup
 
-Найдите сведения о **AddImContactToGroup** операции веб-служб Exchange. 
+Поиск сведений о **AddImContactToGroupной** операции EWS. 
   
-Операции веб-служб Exchange (EWS) **AddImContactToGroup** Добавляет существующий контакт, обмен мгновенными сообщениями (IM) в группу. 
+**AddImContactToGroup** веб-служб Exchange (EWS) добавляет в группу существующего контакта обмена мгновенными сообщениями (IM). 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-addimcontacttogroup-operation"></a>С помощью операции AddImContactToGroup
+## <a name="using-the-addimcontacttogroup-operation"></a>Использование операции AddImContactToGroup
 
-Операция **AddImContactToGroup** может принимать только служб обмена мгновенными сообщениями. Если вы хотите добавить новый контакт обмена мгновенными Сообщениями единого хранилища контактов, с помощью операции [AddNewImContactToGroup](addnewimcontacttogroup-operation.md) . 
+Операция **AddImContactToGroup** может принимать только контакты для обмена мгновенными сообщениями. Если вы хотите добавить новый контакт для обмена мгновенными сообщениями в единое хранилище контактов, используйте операцию [AddNewImContactToGroup](addnewimcontacttogroup-operation.md) . 
   
-Операция **AddImContactToGroup** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **AddImContactToGroup** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
-**В таблице 1. Заголовки SOAP AddImContactToGroup операции**
+**Таблица 1. Заголовки SOAP операции AddImContactToGroup**
 
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="addimcontacttogroup-operation-request-example-add-an-existing-im-contact-to-an-im-group"></a>Пример запроса AddImContactToGroup операции: Добавление существующего обмена мгновенными Сообщениями обратитесь к группе обмена мгновенными Сообщениями
+## <a name="addimcontacttogroup-operation-request-example-add-an-existing-im-contact-to-an-im-group"></a>Пример запроса операции AddImContactToGroup: Добавление существующего контакта для обмена мгновенными сообщениями в группу обмена мгновенными сообщениями
 
-Приведенный ниже запрос операции **AddImContactToGroup** показано, как добавить существующий контакт обмена мгновенными Сообщениями с группой обмена мгновенными Сообщениями. 
+В приведенном ниже примере запроса операции **AddImContactToGroup** показано, как добавить существующий обмен мгновенными сообщениями в группу обмена мгновенными сообщениями. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -62,7 +62,7 @@ ms.locfileid: "19761336"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [AddImContactToGroup](addimcontacttogroup.md)
     
@@ -70,9 +70,9 @@ ms.locfileid: "19761336"
     
 - [GroupId](groupid.md)
     
-## <a name="successful-addimcontacttogroup-operation-response"></a>Успешные операции ответа AddImContactToGroup
+## <a name="successful-addimcontacttogroup-operation-response"></a>Успешный отклик операции AddImContactToGroup
 
-В следующем примере показано успешного ответа на запрос операции **AddImContactToGroup** . 
+В следующем примере показан успешный ответ на запрос операции **AddImContactToGroup** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -98,15 +98,15 @@ ms.locfileid: "19761336"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [AddImContactToGroupResponse](addimcontacttogroupresponse.md)
+- [аддимконтакттограупреспонсе](addimcontacttogroupresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="addimcontacttogroup-operation-errorinvalidimcontactid-error-response"></a>Операция AddImContactToGroup ErrorInvalidImContactId ошибка ответа
+## <a name="addimcontacttogroup-operation-errorinvalidimcontactid-error-response"></a>Ответ об ошибке Ерроринвалидимконтактид операции AddImContactToGroup
 
-В следующем примере показано ошибочный ответ на запрос операции **AddImContactToGroup** . Приведенный ниже ответ ошибка возникает при попытке добавить контакт, который не является для обмена мгновенными Сообщениями контакта. 
+В следующем примере показан ответ об ошибке для запроса операции **AddImContactToGroup** . При попытке добавить контакт, который не является контактом для обмена мгновенными сообщениями, возникает следующий ответ об ошибке. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -134,15 +134,15 @@ ms.locfileid: "19761336"
 </s:Envelope>
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [AddImContactToGroupResponse](addimcontacttogroupresponse.md)
+- [аддимконтакттограупреспонсе](addimcontacttogroupresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: GlobalObjectId
+title: глобалобжектид
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ef5618d3-9b52-4a00-ab66-159dc1091e93
-description: Элемент GlobalObjectId не используется.
+description: Элемент Глобалобжектид не используется.
 ms.openlocfilehash: 6418e3a4bff73abf20006f8040a97288b10f290f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,25 +19,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833745"
 ---
-# <a name="globalobjectid"></a>GlobalObjectId
+# <a name="globalobjectid"></a>глобалобжектид
 
-Элемент **GlobalObjectId** не используется. 
+Элемент **глобалобжектид** не используется. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-[SuggestionsViewOptions](suggestionsviewoptions.md)
+[сугжестионсвиевоптионс](suggestionsviewoptions.md)
   
-[GlobalObjectId](globalobjectid.md)
+[глобалобжектид](globalobjectid.md)
   
 ```xml
 <GlobalObjectId>...</GlobalObjectId>
 ```
 
-**dateTime**
+**дата и время**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -51,7 +51,7 @@ ms.locfileid: "19833745"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведения о предложения о собрании.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -59,7 +59,7 @@ ms.locfileid: "19833745"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

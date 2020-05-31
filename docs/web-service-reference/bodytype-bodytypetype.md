@@ -1,5 +1,5 @@
 ---
-title: BodyType (BodyTypeType)
+title: BodyType (Бодитипетипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761590"
 ---
-# <a name="bodytype-bodytypetype"></a>BodyType (BodyTypeType)
+# <a name="bodytype-bodytypetype"></a>BodyType (Бодитипетипе)
 
 Элемент **BodyType** указывает тип основного текста элемента. 
   
@@ -23,10 +23,10 @@ ms.locfileid: "19761590"
 <BodyType> HTML | Text</BodyType>
 ```
 
- **BodyTypeType**
+ **бодитипетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,18 +40,18 @@ ms.locfileid: "19761590"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Body](body.md) <br/> |Задает тела элемента.  <br/> |
+|[Основной текст](body.md) <br/> |Задает текст элемента.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-**Текстовые значения элемента типа текста сообщения**
+**Текстовые значения элементов BodyType**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|HTML  <br/> |Указывает, что текст HTML.  <br/> |
-|Text  <br/> |Указывает, что теле текста.  <br/> |
+|HTML  <br/> |Указывает, что основной текст — HTML.  <br/> |
+|Текст  <br/> |Указывает, что текст является текстом.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -63,7 +63,7 @@ ms.locfileid: "19761590"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

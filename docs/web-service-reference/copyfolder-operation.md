@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c7ea0d68-9793-4144-b378-d99536776db9
-description: Операция CopyFolder копирует папок в почтовом ящике.
+description: Операция CopyFolder копирует папки в почтовом ящике.
 ms.openlocfilehash: a83444ff0927a3c8fe075c79d44d02357a737773
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,22 +21,22 @@ ms.locfileid: "19761835"
 ---
 # <a name="copyfolder-operation"></a>Операция CopyFolder
 
-Операция CopyFolder копирует папок в почтовом ящике.
+Операция CopyFolder копирует папки в почтовом ящике.
   
-## <a name="using-the-copyfolder-operation"></a>С помощью операции CopyFolder
+## <a name="using-the-copyfolder-operation"></a>Использование операции CopyFolder
 
-Операция CopyFolder аналогичен [MoveFolder операции](movefolder-operation.md). Копирует определенного папки и возвращает **идентификатор** и **ChangeKey** скопированной папки. 
+Операция CopyFolder подобна [операции MoveFolder](movefolder-operation.md). Он копирует идентифицированные папки и возвращает **идентификатор** и **чанжекэй** скопированных папок. 
   
 ## <a name="copyfolder-request-example"></a>Пример запроса CopyFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос CopyFolder показано, как скопировать папок в папке "Входящие".
+В приведенном ниже примере запроса CopyFolder показано, как скопировать папки в папку "Входящие".
   
 > [!NOTE]
-> Значение атрибута **Id** элемента [FolderId](folderid.md) был усечен для удобства чтения. 
+> Значение атрибута **ID** элемента [FolderId](folderid.md) было сокращено для удобочитаемости. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -56,39 +56,39 @@ ms.locfileid: "19761835"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Папки, можно определить по [DistinguishedFolderId](distinguishedfolderid.md) элемент или элемент [FolderId](folderid.md) для использования в либо [ToFolderId](tofolderid.md) или [FolderIds](folderids.md) элементов. 
+Папки можно определять с помощью элемента [дистингуишедфолдерид](distinguishedfolderid.md) или элемента [FolderId](folderid.md) для использования в элементах [тофолдерид](tofolderid.md) или [фолдеридс](folderids.md) . 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [CopyFolder](copyfolder.md)
     
-- [ToFolderId](tofolderid.md)
+- [тофолдерид](tofolderid.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
-- [FolderIds](folderids.md)
+- [фолдеридс](folderids.md)
     
 - [FolderId](folderid.md)
     
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
   
-Чтобы найти другие параметры для запроса CopyFolder операции, изучите иерархия схемы. Запустите в элементе [CopyFolder](copyfolder.md) . 
+Чтобы найти другие параметры сообщения Request операции CopyFolder, изучите иерархию схемы. Начните с элемента [CopyFolder](copyfolder.md) . 
   
-## <a name="successful-copyfolder-response"></a>Успешного ответа CopyFolder
+## <a name="successful-copyfolder-response"></a>Успешный ответ CopyFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос CopyFolder. 
+В следующем примере показан успешный ответ на запрос CopyFolder. 
   
 > [!NOTE]
-> Идентификатор папки и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор папки и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -118,39 +118,39 @@ ms.locfileid: "19761835"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Комментарий
+### <a name="comment"></a>Comment
 
-Элемент [FolderId](folderid.md) , возвращаемого в ответе представляет папки, который скопирован в новое расположение папки. 
+Элемент [FolderId](folderid.md) , возвращаемый в ответе, представляет папку, скопированную в новом расположении папки. 
   
-### <a name="response-elements"></a>Элементы ответа
+### <a name="response-elements"></a>Элементы Response
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CopyFolderResponse](copyfolderresponse.md)
+- [копифолдерреспонсе](copyfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CopyFolderResponseMessage](copyfolderresponsemessage.md)
+- [копифолдерреспонсемессаже](copyfolderresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 - [Folder](folder.md)
     
 - [FolderId](folderid.md)
     
-Чтобы найти другие параметры в сообщении ответа CopyFolder операции, изучите иерархия схемы. Запустите в элементе [CopyFolderResponse](copyfolderresponse.md) . 
+Чтобы найти другие параметры для ответного сообщения операции CopyFolder, изучите иерархию схемы. Начните с элемента [копифолдерреспонсе](copyfolderresponse.md) . 
   
-## <a name="copyfolder-error-response"></a>Отклик CopyFolder
+## <a name="copyfolder-error-response"></a>Ответ об ошибке CopyFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос CopyFolder. Произошла ошибка, так как папка с тем же именем отображения уже существует.
+В следующем примере показан ответ об ошибке для запроса CopyFolder. Ошибка возникла из-за того, что папка с таким отображаемым именем уже существует.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -178,25 +178,25 @@ ms.locfileid: "19761835"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [CopyFolderResponse](copyfolderresponse.md)
+- [копифолдерреспонсе](copyfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CopyFolderResponseMessage](copyfolderresponsemessage.md)
+- [копифолдерреспонсемессаже](copyfolderresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
-Чтобы найти другие параметры в сообщении об ошибке ответа CopyFolder операции, изучите иерархия схемы. Запустите в элементе [CopyFolderResponse](copyfolderresponse.md) . 
+Чтобы найти другие параметры сообщения об ошибке при выполнении операции CopyFolder, изучите иерархию схемы. Начните с элемента [копифолдерреспонсе](copyfolderresponse.md) . 
   
 ## <a name="see-also"></a>См. также
 

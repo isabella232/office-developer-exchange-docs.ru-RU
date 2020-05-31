@@ -1,5 +1,5 @@
 ---
-title: DayOfWeek (часовой пояс)
+title: DayOfWeek (TimeZone)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 416e8892-ebb1-4fac-82cf-e27549a6c175
-description: Элемент DayOfWeek представляет день недели, на котором происходит переход часового пояса.
+description: Элемент DayOfWeek представляет день недели, в который происходит переход часового пояса.
 ms.openlocfilehash: 7816b90000be36cf3a3354d26d978684bfdcfe40
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761993"
 ---
-# <a name="dayofweek-timezone"></a>DayOfWeek (часовой пояс)
+# <a name="dayofweek-timezone"></a>DayOfWeek (TimeZone)
 
-Элемент **DayOfWeek** представляет день недели, на котором происходит переход часового пояса. 
+Элемент **DayOfWeek** представляет день недели, в который происходит переход часового пояса. 
   
 ```xml
 <DayOfWeek>...</DayOfWeek>
 ```
 
-**DayOfWeekType**
+**дайофвиктипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,28 +45,28 @@ ms.locfileid: "19761993"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> | Представляет смещение от времени относительно времени в формате UTC представленный элемент [Bias (UTC)](bias-utc.md) .<br/><br/>Этот элемент также содержит сведения о переходе стандартного времени на летнее время в областях, где наблюдается летнего времени.<br/><br/>Ниже приведены выражения XPath для этого элемента.<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
-|[DaylightTime](daylighttime.md) <br/> | Представляет смещение от времени относительно UTC, представленный элемент [Bias (UTC)](bias-utc.md) в области, где наблюдается летнего времени.<br/><br/>Этот элемент также содержит сведения о когда происходит переход на летнее время.<br/><br/>Ниже приведены выражения XPath для этого элемента.<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
-|[RecurringDayTransition](recurringdaytransition.md) <br/> |Представляет переход часового пояса, что происходит в тот же день каждый год.  <br/> |
+|[StandardTime](standardtime.md) <br/> | Представляет смещение относительно времени относительно времени в формате UTC, представленного элементом [смещения (UTC)](bias-utc.md) .<br/><br/>Этот элемент также содержит сведения о переходе на зимнее время с летнего времени в регионах, где наблюдается летнее время.<br/><br/>Ниже приведены выражения XPath для этого элемента.<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
+|[DaylightTime](daylighttime.md) <br/> | Представляет смещение относительно времени в формате UTC, представленного элементом [смещения (UTC)](bias-utc.md) в регионах, где наблюдается летнее время.<br/><br/>Этот элемент также содержит сведения о том, когда происходит переход на летнее время из стандартного времени.<br/><br/>Ниже приведены выражения XPath для этого элемента.<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
+|[рекуррингдайтранситион](recurringdaytransition.md) <br/> |Представляет переход часового пояса, который выполняется в один день каждого года.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Текстовое значение представлено перечислением, который имеет следующие возможные значения:
+Необходимо указать текстовое значение. Текстовое значение представлено перечислением со следующими возможными значениями:
   
-- Воскресенье    
+- Воскресеньям    
 - Понедельник    
 - Вторник    
 - Среда    
 - Четверг    
 - Пятница    
 - Суббота    
-- День    
+- Day    
 - День недели   
-- WeekendDay
+- викенддай
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент [StandardTime](standardtime.md) , который содержит элемент [DayOrder](dayorder.md) , который имеет значение 5, [месяц](month.md) , который имеет значение 10 и элемент **DayOfWeek** , который имеет значение воскресенье означает, что переход на летнее экономии времени происходящее в пятый воскресенье десятой месяца. 
+Элемент [StandardTime](standardtime.md) , содержащий элемент [дайордер](dayorder.md) , который имеет значение 5, элемент [Month](month.md) со значением 10, а элемент **DayOfWeek** со значением Sunday означает, что переход со стандартного времени на летнее время происходит в пятое воскресенье десятого месяца. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -76,7 +76,7 @@ ms.locfileid: "19761993"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

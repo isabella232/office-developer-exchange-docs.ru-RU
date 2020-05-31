@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 71d50e3c-92bd-435f-8118-b28bb85f8138
-description: Операция GetUserConfiguration возвращает объект конфигурации пользователя из папки.
+description: Операция GetUserConfiguration получает объект конфигурации пользователя из папки.
 ms.openlocfilehash: 6c1cdf381126e54f9b9eeaed260e7c2b23b0b2a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19833687"
 ---
 # <a name="getuserconfiguration-operation"></a>Операция GetUserConfiguration
 
-Операция **GetUserConfiguration** возвращает объект конфигурации пользователя из папки. 
+Операция **GetUserConfiguration** получает объект конфигурации пользователя из папки. 
   
 ## <a name="getuserconfiguration-request-example"></a>Пример запроса GetUserConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **GetUserConfiguration** показано, как для формирования запроса, чтобы получить объект конфигурации пользователя в папке "Черновики". 
+В приведенном ниже примере запроса **GetUserConfiguration** показано, как сформировать запрос на получение объекта конфигурации пользователя в папке "Черновики". 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,13 +52,13 @@ ms.locfileid: "19833687"
 </soap:Envelope>
 ```
 
-## <a name="getuserconfiguration-response-example"></a>Пример ответа GetUserConfiguration
+## <a name="getuserconfiguration-response-example"></a>Пример отклика GetUserConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **GetUserConfiguration** . 
+В следующем примере показан успешный ответ на запрос **GetUserConfiguration** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

@@ -1,5 +1,5 @@
 ---
-title: Адрес (строка)
+title: Address (строка)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a3cdfcbd-d0c5-46d6-8daa-52405fc63ff0
-description: Элемент адрес — адрес электронной почты пользователя почтового ящика.
+description: Элемент Address представляет адрес электронной почты пользователя почтового ящика.
 ms.openlocfilehash: 07c634d6166d88a8912bc66081a13671e600c801
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761357"
 ---
-# <a name="address-string"></a>Адрес (строка)
+# <a name="address-string"></a>Address (строка)
 
-Элемент **адрес** — адрес электронной почты пользователя почтового ящика. 
+Элемент **Address** представляет адрес электронной почты пользователя почтового ящика. 
   
 ```xml
 <Address>...</Address>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,16 +44,16 @@ ms.locfileid: "19761357"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Электронной почты (EmailAddressType)](email-emailaddresstype.md) <br/> |Указывает адрес электронной почты объекта MailboxData. Данный элемент используется в [операции GetUserAvailability](getuseravailability-operation.md).<br/><br/> XPath для этого элемента:<br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
-|[Почтовый ящик (доступность)](mailbox-availability.md) <br/> | Представляет пользователя почтового ящика для SetUserOofSettings или GetUserOofSettings запроса.<br/><br/>  Ниже приведены выражения XPath для этого элемента.<br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
+|[Электронная почта (EmailAddressType)](email-emailaddresstype.md) <br/> |Задает адрес электронной почты объекта MailboxData. Этот элемент используется в [операции GetUserAvailability](getuseravailability-operation.md).<br/><br/> XPath для этого элемента:<br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
+|[Mailbox (доступность)](mailbox-availability.md) <br/> | Представляет пользователя почтового ящика для запроса SetUserOofSettings или GetUserOofSettings.<br/><br/>  Ниже приведены выражения XPath для этого элемента.<br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным, если данный элемент используется.
+При использовании этого элемента необходимо указать текстовое значение.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент может возникнуть только один раз в элементе [электронной почты (EmailAddressType)](email-emailaddresstype.md) и элемент [почтового ящика (доступность)](mailbox-availability.md) . 
+Этот элемент может встречаться не более одного раз в элементе [электронной почты (EmailAddressType)](email-emailaddresstype.md) и элементе [Mailbox (Availability)](mailbox-availability.md) . 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
@@ -64,7 +64,7 @@ ms.locfileid: "19761357"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -72,8 +72,8 @@ ms.locfileid: "19761357"
 - [Операция GetUserAvailability](getuseravailability-operation.md)
 - [Операция GetUserOofSettings](getuseroofsettings-operation.md)
 - [Операция SetUserOofSettings](setuseroofsettings-operation.md)
-- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-- [GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
-- [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
+- [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+- [жетусеруфсеттингсрекуест](getuseroofsettingsrequest.md)
+- [сетусеруфсеттингсрекуест](setuseroofsettingsrequest.md)
 - [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

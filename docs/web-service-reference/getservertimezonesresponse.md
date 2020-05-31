@@ -1,5 +1,5 @@
 ---
-title: GetServerTimeZonesResponse
+title: жетсервертимезонесреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 97c94d32-10f1-4c3e-ab20-9fd7e8257e50
-description: Элемент GetServerTimeZonesResponse определяет ответ на запрос операции GetServerTimeZones.
+description: Элемент Жетсервертимезонесреспонсе определяет ответ на запрос операции GetServerTimeZones.
 ms.openlocfilehash: 119809076c82ff75a6dd061fc976f861e13f4e57
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833664"
 ---
-# <a name="getservertimezonesresponse"></a>GetServerTimeZonesResponse
+# <a name="getservertimezonesresponse"></a>жетсервертимезонесреспонсе
 
-Элемент **GetServerTimeZonesResponse** определяет ответ на запрос [GetServerTimeZones операции](getservertimezones-operation.md) . 
+Элемент **жетсервертимезонесреспонсе** определяет ответ на запрос [операции GetServerTimeZones](getservertimezones-operation.md) . 
   
 ```XML
 <GetServerTimeZonesResponse>
@@ -29,10 +29,10 @@ ms.locfileid: "19833664"
 </GetServerTimeZonesResponse>
 ```
 
- **GetServerTimeZonesResponseType**
+ **жетсервертимезонесреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19833664"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19833664"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

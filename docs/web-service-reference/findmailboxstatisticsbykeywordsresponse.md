@@ -1,5 +1,5 @@
 ---
-title: FindMailboxStatisticsByKeywordsResponse
+title: финдмаилбоксстатистиксбикэйвордсреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: af1dd9bf-df47-473d-a2ce-ab9a01a37606
-description: Элемент FindMailboxStatisticsByKeywordsResponse указывает ответ на запрос FindMailboxStatisticsByKeywords.
+description: Элемент Финдмаилбоксстатистиксбикэйвордсреспонсе указывает ответ на запрос Финдмаилбоксстатистиксбикэйвордс.
 ms.openlocfilehash: 43d3a9c4d5ca312f380fed65eb906543f25e5a1c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762572"
 ---
-# <a name="findmailboxstatisticsbykeywordsresponse"></a>FindMailboxStatisticsByKeywordsResponse
+# <a name="findmailboxstatisticsbykeywordsresponse"></a>финдмаилбоксстатистиксбикэйвордсреспонсе
 
-Элемент **FindMailboxStatisticsByKeywordsResponse** указывает ответ на запрос **FindMailboxStatisticsByKeywords** . 
+Элемент **финдмаилбоксстатистиксбикэйвордсреспонсе** указывает ответ на запрос **финдмаилбоксстатистиксбикэйвордс** . 
   
 ```XML
 <FindMailboxStatisticsByKeywordsResponse>
@@ -25,10 +25,10 @@ ms.locfileid: "19762572"
 </FindMailboxStatisticsByKeywordsResponse>
 ```
 
- **FindMailboxStatisticsByKeywordsResponseType**
+ **финдмаилбоксстатистиксбикэйвордсреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19762572"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange (EWS).  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит сообщения ответа для запроса веб-служб Exchange (EWS).  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19762572"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: adbffbfc-e436-4620-acfc-5dfd41a88cb8
-description: Элемент AddDistributionGroupToImList определяет запрос на добавление в список рассылки в список мгновенное сообщение.
+description: Элемент AddDistributionGroupToImList определяет запрос на добавление списка рассылки в список мгновенных сообщений.
 ms.openlocfilehash: b63daeb8b1d60123215bfcdec307f2f948d2ec39
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19761338"
 ---
 # <a name="adddistributiongrouptoimlist"></a>AddDistributionGroupToImList
 
-Элемент **AddDistributionGroupToImList** определяет запрос на добавление в список рассылки в список мгновенное сообщение. 
+Элемент **AddDistributionGroupToImList** определяет запрос на добавление списка рассылки в список мгновенных сообщений. 
   
 ```XML
 <AddDistributionGroupToImList>
@@ -26,10 +26,10 @@ ms.locfileid: "19761338"
 </AddDistributionGroupToImList>
 ```
 
- **AddDistributionGroupToImListType**
+ **адддистрибутионграуптоимлисттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19761338"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[SmtpAddress](smtpaddress.md) | [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md)
+[SmtpAddress](smtpaddress.md) | [DisplayName (нонемптистрингтипе)](displayname-nonemptystringtype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19761338"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

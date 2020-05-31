@@ -1,5 +1,5 @@
 ---
-title: GetHoldOnMailboxesResponseMessage
+title: жесолдонмаилбоксесреспонсемессаже
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f7d0d90-d418-4ce9-8cea-afe8f14728c3
-description: Элемент GetHoldOnMailboxesResponseMessage указывает сообщение ответа на запрос GetHoldOnMailboxes.
+description: Элемент Жесолдонмаилбоксесреспонсемессаже указывает ответное сообщение для запроса GetHoldOnMailboxes.
 ms.openlocfilehash: e1c43f75bfa62b20de9248546e71c92ae5998ed9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762808"
 ---
-# <a name="getholdonmailboxesresponsemessage"></a>GetHoldOnMailboxesResponseMessage
+# <a name="getholdonmailboxesresponsemessage"></a>жесолдонмаилбоксесреспонсемессаже
 
-Элемент **GetHoldOnMailboxesResponseMessage** указывает сообщение ответа на запрос **GetHoldOnMailboxes** . 
+Элемент **жесолдонмаилбоксесреспонсемессаже** указывает ответное сообщение для запроса **GetHoldOnMailboxes** . 
   
 ```XML
 <GetHoldOnMailboxesResponseMessage ResponseClass=" Success | Warning | Error ">
@@ -29,42 +29,42 @@ ms.locfileid: "19762808"
 </GetHoldOnMailboxesResponseMessage>
 ```
 
- **GetHoldOnMailboxesResponseMessageType**
+ **жесолдонмаилбоксесреспонсемессажетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|ResponseClass  <br/> |Указывает класс ответа.  <br/> |
+|респонсекласс  <br/> |Указывает класс ответа.  <br/> |
    
-#### <a name="responseclass"></a>ResponseClass
+#### <a name="responseclass"></a>респонсекласс
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Успешное выполнение  <br/> |Означает успешное выполнение.  <br/> |
-|Предупреждающая  <br/> |Указывает на предупреждение.  <br/> |
-|Ошибка  <br/> |Отображается сообщение об ошибке.  <br/> |
+|Успешно  <br/> |Указывает на успешное выполнение.  <br/> |
+|Предупреждение  <br/> |Указывает на предупреждение.  <br/> |
+|Ошибка  <br/> |Указывает на ошибку.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MailboxHoldResult](mailboxholdresult.md) <br/> |Содержит результат запроса **GetHoldOnMailboxes** .  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |В настоящее время используется и зарезервировано для будущего использования.  <br/> |
-|[MessageText](messagetext.md) <br/> |Предоставляет текстовое описание состояния ответа.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке ответа.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Предоставляет сведения о состоянии о запросе.  <br/> |
+|[маилбоксхолдресулт](mailboxholdresult.md) <br/> |Содержит результат запроса **GetHoldOnMailboxes** .  <br/> |
+|[дескриптивелинккэй](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервировано для будущего использования.  <br/> |
+|[мессажетекст](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
+|[мессажексмл](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке.  <br/> |
+|[респонсекоде](responsecode.md) <br/> |Предоставляет сведения о состоянии запроса.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange (EWS).  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит сообщения ответа для запроса веб-служб Exchange (EWS).  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -76,7 +76,7 @@ ms.locfileid: "19762808"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: Операции GetItem (элемента календаря)
+title: Операция GetItem (элемент календаря)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8
-description: Операции GetItem получает элементы календаря из хранилища Exchange.
+description: Операция GetItem получает элементы календаря из хранилища Exchange.
 ms.openlocfilehash: 69bce0f0cc7b5c986f9bf4767c3cd429a309e50d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762820"
 ---
-# <a name="getitem-operation-calendar-item"></a>Операции GetItem (элемента календаря)
+# <a name="getitem-operation-calendar-item"></a>Операция GetItem (элемент календаря)
 
-Операции GetItem получает элементы календаря из хранилища Exchange.
+Операция GetItem получает элементы календаря из хранилища Exchange.
   
 ## <a name="getitem-request-example"></a>Пример запроса GetItem
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос GetItem показано, как для формирования запроса для получения удостоверения и Тема элемента.
+В приведенном ниже примере запроса GetItem показано, как сформировать запрос на получение удостоверения и темы элемента.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -51,37 +51,37 @@ ms.locfileid: "19762820"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [GetItem](getitem.md)
     
-- [ItemShape](itemshape.md)
+- [итемшапе](itemshape.md)
     
-- [BaseShape](baseshape.md)
+- [басешапе](baseshape.md)
     
-- [AdditionalProperties](additionalproperties.md)
+- [аддитионалпропертиес](additionalproperties.md)
     
-- [FieldURI](fielduri.md)
+- [фиелдури](fielduri.md)
     
-- [Что ItemID](itemids.md)
+- [итемидс](itemids.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
   
-Чтобы найти другие параметры для сообщения запроса на выполнение операции GetItem, изучите иерархия схемы. Начать с [GetItem](getitem.md) элемента. 
+Чтобы найти другие параметры для сообщения Request операции GetItem, изучите иерархию схемы. Начните с элемента [GetItem](getitem.md) . 
   
-## <a name="successful-getitem-response"></a>Успешные GetItem ответа
+## <a name="successful-getitem-response"></a>Успешный отклик GetItem
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос GetItem. Запрос, который создан этот ответ используется IdOnly baseshape. В этом примере возвращается в ответе только идентификатор элемента. 
+В следующем примере показан успешный ответ на запрос GetItem. Запрос, создавший этот ответ, использовал параметр Идонли басешапе. В этом примере ответ возвращает только идентификатор элемента. 
   
 > [!NOTE]
-> Идентификатор элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
 ### <a name="code"></a>Код
 
@@ -115,10 +115,10 @@ ms.locfileid: "19762820"
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос GetItem. Запрос, который создан этот ответ используется baseshape по умолчанию. В этом примере возвращается в ответе фигуры по умолчанию для элемента календаря.
+В следующем примере показан успешный ответ на запрос GetItem. В запросе, созданном этим ответом, используется значение по умолчанию басешапе. В этом примере ответ Возвращает фигуру по умолчанию для элемента календаря.
   
 > [!NOTE]
-> Идентификатор элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
 ### <a name="code"></a>Код
 
@@ -166,9 +166,9 @@ ms.locfileid: "19762820"
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос GetItem. Запрос, который создан этот ответ используется AllProperties baseshape. В этом примере возвращается в ответе фигуры AllProperties для элемента календаря.
+В следующем примере показан успешный ответ на запрос GetItem. Запрос, создавший этот ответ, использовал параметр Аллпропертиес басешапе. В этом примере ответ Возвращает фигуру Аллпропертиес для элемента календаря.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -263,125 +263,125 @@ ms.locfileid: "19762820"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Чтобы найти другие параметры в сообщении ответа операции GetItem, изучите иерархия схемы. Запустите в элементе [GetItemResponse](getitemresponse.md) . 
+Чтобы найти другие параметры для ответного сообщения операции GetItem, изучите иерархию схемы. Начните с элемента [жетитемреспонсе](getitemresponse.md) . 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetItemResponse](getitemresponse.md)
+- [жетитемреспонсе](getitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetItemResponseMessage](getitemresponsemessage.md)
+- [жетитемреспонсемессаже](getitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-- [Элемента календаря, имеющего](calendaritem.md)
+- [календаритем](calendaritem.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
 - [ParentFolderId](parentfolderid.md)
     
 - [ItemClass](itemclass.md)
     
-- [Уровень конфиденциальности сообщения](sensitivity.md)
+- [Sensitivity](sensitivity.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
 - [Размер](size.md)
     
-- [Важность](importance.md)
+- [Importance](importance.md)
     
-- [IsSubmitted](issubmitted.md)
+- [Отправлено](issubmitted.md)
     
-- [IsDraft](isdraft.md)
+- [Черновик](isdraft.md)
     
-- [IsFromMe](isfromme.md)
+- [исфромме](isfromme.md)
     
-- [IsResend](isresend.md)
+- [исресенд](isresend.md)
     
-- [IsUnmodified](isunmodified.md)
+- [исунмодифиед](isunmodified.md)
     
-- [DateTimeSent](datetimesent.md)
+- [датетимесент](datetimesent.md)
     
 - [DateTimeCreated](datetimecreated.md)
     
-- [ResponseObjects](responseobjects.md)
+- [респонсеобжектс](responseobjects.md)
     
-- [ForwardItem](forwarditem.md)
+- [форвардитем](forwarditem.md)
     
-- [ReminderDueBy](reminderdueby.md)
+- [реминдердуеби](reminderdueby.md)
     
-- [ReminderIsSet](reminderisset.md)
+- [реминдериссет](reminderisset.md)
     
 - [ReminderMinutesBeforeStart](reminderminutesbeforestart.md)
     
-- [DisplayCc](displaycc.md)
+- [дисплайкк](displaycc.md)
     
-- [DisplayTo](displayto.md)
+- [дисплайто](displayto.md)
     
 - [HasAttachments](hasattachments.md)
     
-- [Язык и региональные параметры](culture.md)
+- [Culture](culture.md)
     
-- [Start](start.md)
+- [Начало](start.md)
     
-- [End](end-ex15websvcsotherref.md)
+- [Оканчиваться](end-ex15websvcsotherref.md)
     
-- [IsAllDayEvent](isalldayevent.md)
+- [исаллдайевент](isalldayevent.md)
     
-- [LegacyFreeBusyStatus](legacyfreebusystatus.md)
+- [легацифрибусистатус](legacyfreebusystatus.md)
     
-- [IsMeeting](ismeeting.md)
+- ["Собрание"](ismeeting.md)
     
-- [IsCancelled](iscancelled.md)
+- [С отменой](iscancelled.md)
     
 - [IsRecurring](isrecurring.md)
     
-- [MeetingRequestWasSent](meetingrequestwassent.md)
+- [митингрекуествассент](meetingrequestwassent.md)
     
-- [CalendarItemType](calendaritemtype.md)
+- [календаритемтипе](calendaritemtype.md)
     
-- [MyResponseType](myresponsetype.md)
+- [миреспонсетипе](myresponsetype.md)
     
-- [Организатор](organizer.md)
+- [Organizer](organizer.md)
     
 - [Mailbox](mailbox.md)
     
 - [Имя (EmailAddressType)](name-emailaddresstype.md)
     
-- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md)
     
-- [ConflictingMeetingCount](conflictingmeetingcount.md)
+- [конфликтингмитингкаунт](conflictingmeetingcount.md)
     
-- [AdjacentMeetingCount](adjacentmeetingcount.md)
+- [аджацентмитингкаунт](adjacentmeetingcount.md)
     
-- [ConflictingMeetings](conflictingmeetings.md)
+- [конфликтингмитингс](conflictingmeetings.md)
     
 - [Location](location.md)
     
-- [Продолжительность (элементы)](duration-items.md)
+- [Длительность (элементы)](duration-items.md)
     
 - [Часовой пояс (элемент)](timezone-item.md)
     
-- [AppointmentSequenceNumber](appointmentsequencenumber.md)
+- [аппоинтментсекуенценумбер](appointmentsequencenumber.md)
     
-- [AppointmentState](appointmentstate.md)
+- [аппоинтментстате](appointmentstate.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[GetItem Operation](getitem-operation.md)
+[Операция GetItem](getitem-operation.md)
 

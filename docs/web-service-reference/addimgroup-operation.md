@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6df6e504-b7c8-4773-b10f-ffa5defac229
-description: Найдите сведения о веб-служб Exchange AddImGroup операции.
+description: Поиск сведений о AddImGroupной операции EWS.
 ms.openlocfilehash: 91236f9ad2236b3f6bee600b9d57bcf736090ed7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,32 +17,32 @@ ms.locfileid: "19761341"
 ---
 # <a name="addimgroup-operation"></a>Операция AddImGroup
 
-Найдите сведения о **AddImGroup** операции веб-служб Exchange. 
+Поиск сведений о **AddImGroupной** операции EWS. 
   
-Операции веб-служб Exchange (EWS) **AddImGroup** добавляет нового мгновенного обмена мгновенными сообщениями группу в почтовый ящик. 
+При выполнении операции веб-служб Exchange **AddImGroup** в почтовый ящик добавляется новая группа обмена мгновенными сообщениями (IM). 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-addimgroup-operation"></a>С помощью операции AddImGroup
+## <a name="using-the-addimgroup-operation"></a>Использование операции AddImGroup
 
-Операция **AddImGroup** только принимает аргумент одного отображаемое имя. 
+Для операции **AddImGroup** используется только один аргумент Display Name. 
   
-Эта операция возвращает отображаемое имя, тип группы и идентификатор хранилища Exchange новой группы.
+Эта операция возвращает отображаемое имя, тип группы и идентификатор хранилища Exchange для новой группы.
   
-Операция **AddImGroup** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **AddImGroup** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
-**В таблице 1. Заголовки SOAP AddImGroup операции**
+**Таблица 1. Заголовки SOAP операции AddImGroup**
 
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Это применимо к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Это применимо к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Это применимо к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Это применимо для ответа.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Это относится к запросу.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Это относится к запросу.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Это относится к запросу.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Это относится к отклику.  <br/> |
    
-## <a name="addimgroup-operation-request-example-create-a-new-im-group"></a>Пример запроса AddImGroup операции: Создание новой группы обмена мгновенными Сообщениями
+## <a name="addimgroup-operation-request-example-create-a-new-im-group"></a>Пример запроса операции AddImGroup: создание новой группы для обмена мгновенными сообщениями
 
-Приведенный ниже запрос операции **AddImGroup** показано, как создать группу обмена мгновенными Сообщениями с именем MyCustomerGroup. 
+В следующем примере запроса операции **AddImGroup** показано, как создать группу обмена мгновенными сообщениями с именем микустомерграуп. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -61,15 +61,15 @@ ms.locfileid: "19761341"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [AddImGroup](addimgroup.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
-## <a name="successful-addimgroup-operation-response"></a>Успешные операции ответа AddImGroup
+## <a name="successful-addimgroup-operation-response"></a>Успешный отклик операции AddImGroup
 
-В следующем примере показано успешного ответа на запрос операции **AddImGroup** . 
+В следующем примере показан успешный ответ на запрос операции **AddImGroup** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -102,23 +102,23 @@ ms.locfileid: "19761341"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [AddImGroupResponse](addimgroupresponse.md)
+- [аддимграупреспонсе](addimgroupresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [ImGroup](imgroup.md)
+- [Группа](imgroup.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
 - [GroupType](grouptype.md)
     
-- [ExchangeStoreId](exchangestoreid.md)
+- [ексчанжестореид](exchangestoreid.md)
     
-## <a name="addimgroup-operation-error-response"></a>Ошибка операции AddImGroup ответа
+## <a name="addimgroup-operation-error-response"></a>Ответ об ошибке операции AddImGroup
 
-В следующем примере показано ошибочный ответ на запрос операции **AddImGroup** . Это ответ на запрос, который содержит символ, который не может использоваться в поле отображаемое имя. Обратите внимание на то, что это ошибка SOAP и не сообщение об ошибке на основе схемы. Отображаемое имя, отправленными в запросе — ~! @# $% ^&amp;, и возникает ошибка на &amp; символов. &amp; Символ произошло 11 знаков в строке и 33rd в полезных данных запроса. Ответ с кодом HTTP 500. 
+В следующем примере показан ответ об ошибке для запроса операции **AddImGroup** . Это ответ на запрос, который содержит символ, который не может использоваться в отображаемом имени. Обратите внимание, что это неисправность SOAP, а не сообщение об ошибке на основе схемы. Отображаемое имя, отправленное в запросе, — ~! @ # $&amp;% ^, и в &amp; символе возникает ошибка. &amp; На одиннадцатую строку и символ 33rd в полезных данных запроса. Получен ответ с кодом HTTP 500. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

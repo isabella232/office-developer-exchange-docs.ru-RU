@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: b609ee26-6d28-4559-81b6-b8e8d4759a23
-description: Элемент GetSharingMetadata определяет запрос на получение маркера непрозрачный проверки подлинности, идентифицирующее приглашение к совместному использованию. Этот элемент является базовый элемент для операции GetSharingMetadata.
+description: Элемент GetSharingMetadata определяет запрос на получение непрозрачного маркера проверки подлинности, который определяет приглашение к совместному использованию. Этот элемент является базовым элементом для операции GetSharingMetadata.
 ms.openlocfilehash: 5283d35e11350ef10ed8cc01527e787ef54be927
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19833677"
 ---
 # <a name="getsharingmetadata"></a>GetSharingMetadata
 
-Элемент **GetSharingMetadata** определяет запрос на получение маркера непрозрачный проверки подлинности, идентифицирующее приглашение к совместному использованию. Этот элемент является базовый элемент для [операции GetSharingMetadata](getsharingmetadata-operation.md).
+Элемент **GetSharingMetadata** определяет запрос на получение непрозрачного маркера проверки подлинности, который определяет приглашение к совместному использованию. Этот элемент является базовым элементом для [операции GetSharingMetadata](getsharingmetadata-operation.md).
   
 ```XML
 <GetSharingMetadata>
@@ -31,10 +31,10 @@ ms.locfileid: "19833677"
 </GetSharingMetadata>
 ```
 
- **GetSharingMetadataType**
+ **жетшарингметадататипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,9 +44,9 @@ ms.locfileid: "19833677"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[IdOfFolderToShare](idoffoldertoshare.md) <br/> |Представляет идентификатор папки на сервере, который будет использоваться. Этот элемент обязательный.  <br/> |
-|[SenderSmtpAddress](sendersmtpaddress.md) <br/> |Представляет адрес электронной почты SMTP, соответствующий почтовый ящик, содержащем папку, которая определена в элементе [IdOfFolderToShare](idoffoldertoshare.md) . Этот элемент обязательный.  <br/> |
-|[Получатели (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |Представляет один или несколько сущностей, которые получают доступ к данным в папке, указанной с помощью элемента [IdOfFolderToShare](idoffoldertoshare.md) адреса электронной почты SMTP. Этот элемент обязательный.  <br/> |
+|[идоффолдертошаре](idoffoldertoshare.md) <br/> |Представляет идентификатор папки на сервере, к которой будет предоставлен общий доступ. Этот элемент обязательный.  <br/> |
+|[SenderSmtpAddress](sendersmtpaddress.md) <br/> |Представляет SMTP-адрес электронной почты, соответствующий почтовому ящику, содержащему папку, определяемую элементом [идоффолдертошаре](idoffoldertoshare.md) . Этот элемент обязательный.  <br/> |
+|[Получатели (Аррайофсмтпаддресстипе)](recipients-arrayofsmtpaddresstype.md) <br/> |Представляет SMTP-адреса электронной почты одного или нескольких сущностей, которым будет предоставлен доступ к данным в папке, указанной с помощью элемента [идоффолдертошаре](idoffoldertoshare.md) . Этот элемент обязательный.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19833677"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

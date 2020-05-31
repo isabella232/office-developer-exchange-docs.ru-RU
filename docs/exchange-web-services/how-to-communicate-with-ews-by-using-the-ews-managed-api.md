@@ -1,11 +1,11 @@
 ---
-title: Взаимодействие с веб-служб Exchange с помощью управляемого интерфейса API веб-служб Exchange
+title: Взаимодействие с EWS с помощью управляемого API EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d1b78293-da02-413a-875c-681e99146af3
-description: Найдите сведения о том, как использовать управляемый API веб-служб Exchange для взаимодействия с веб-служб Exchange в Exchange.
+description: Сведения о том, как использовать управляемый API EWS для связи с EWS в Exchange.
 ms.openlocfilehash: 773fcc3f7e95d25effb5a686d4b79ec22610df8c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,31 +13,31 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760995"
 ---
-# <a name="communicate-with-ews-by-using-the-ews-managed-api"></a>Взаимодействие с веб-служб Exchange с помощью управляемого интерфейса API веб-служб Exchange
+# <a name="communicate-with-ews-by-using-the-ews-managed-api"></a>Взаимодействие с EWS с помощью управляемого API EWS
 
-Найдите сведения о том, как использовать управляемый API веб-служб Exchange для взаимодействия с веб-служб Exchange в Exchange.
+Сведения о том, как использовать управляемый API EWS для связи с EWS в Exchange.
   
-Класс [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) в управляемый API EWS содержит методы и свойства, которые позволяют задать учетные данные пользователя, определение конечной точки веб-служб Exchange, отправлять и получать сообщения SOAP и настроить привязку для связи с веб-служб Exchange. Прежде чем использовать управляемый API веб-служб Exchange для выполнения любой задачи, необходимо создать экземпляр класса **ExchangeService** и связать его с веб-служб Exchange. 
+Класс [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS содержит методы и свойства, которые используются для задания учетных данных пользователя, определения КОНЕЧНОЙ точки EWS, отправки и получения сообщений SOAP, а также для настройки привязки для связи с EWS. Прежде чем использовать управляемый API EWS для выполнения любой задачи, необходимо создать экземпляр класса **ExchangeService** и связать его с EWS. 
   
-После настройки конечной точки веб-служб Exchange и объекта [ExchangeService](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ExchangeService.aspx) с использованием учетных данных пользователей, любой объект почтового ящика, который ссылается на объект [ExchangeService](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ExchangeService.aspx) можно использовать следующие типы метод для взаимодействия с веб-служб Exchange: 
+После настройки объекта [ExchangeService](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ExchangeService.aspx) с помощью учетных данных пользователя и КОНЕЧНОЙ точки EWS любой объект почтового ящика, ссылающийся на объект [ExchangeService](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ExchangeService.aspx) , может использовать следующие типы методов для общения с EWS: 
   
-- Методы объекта ExchangeService — все методы объекта **ExchangeService** , не наследуется из базового типа **объекта** выполнять вызовы веб-служб Exchange. 
+- Методы объекта ExchangeService — все методы объекта **ExchangeService** , которые не наследуются от базового типа **объекта** , выполняют вызовы EWS. 
     
-- Элемент почтовых ящиков Exchange и папки введите методы.
+- Методы элементов и типов папок почтового ящика Exchange.
     
-**В таблице 1. Элемент почтового ящика и папок введите методы, которые взаимодействуют с веб-служб Exchange**
+**Таблица 1. Методы и типы папок почтового ящика, взаимодействующие с EWS**
 
-|Метод|Назначение|Операции, которые он вызывает|
+|Method|Действие|Вызываемые операции|
 |:-----|:-----|:-----|
-|[Нагрузки](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.load%28v=exchg.80%29.aspx) <br/> |Получение свойств объекта конфигурации элемента, вложения или пользователя.  <br/> |[GetItem Operation](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/><br/> [Операция GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/><br/> [Операция GetUserConfiguration](http://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) <br/> |
-|[Привязка](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> |Заполняет элемент на стороне клиента с помощью сведений из существующего элемента на сервере.  <br/> |[GetItem Operation](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> |
-|[Сохранение](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.save%28v=exchg.80%29.aspx) <br/> |Сохранение копии элемента клиента на сервере.  <br/> |[UpdateItem Operation](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/><br/> [Операцию UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/><br/>[CreateItem Operation](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/><br/>[CreateFolder Operation](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
-|[обновление](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx). <br/> |Обновляет данные на сервере с помощью изменения, внесенные в клиенте.<br/><br/>Для элементов и папок метод **Update** использует [UpdateItem операции](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) и [операции UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx).  <br/> |[UpdateItem Operation](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/><br/>[Операцию UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
-|[удаление](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx); <br/> |Удаляет элемент на сервере.<br/><br/>Для элементов и папок метод **Delete** использует и [DeleteFolder операции](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx).  <br/> |[Операция DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/><br/> [Операция DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |
-|[Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> |Создает копию элемента или папки на сервере.  <br/> |[CopyItem Operation](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/><br/> [Операция CopyFolder](http://msdn.microsoft.com/library/c7ea0d68-9793-4144-b378-d99536776db9%28Office.15%29.aspx) <br/> |
-|[Перемещение](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> |Перемещает элементы или папки на сервере.  <br/> |[MoveItem Operation](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/><br/> [Операция MoveFolder](http://msdn.microsoft.com/library/c7233966-6c87-4a14-8156-b1610760176d%28Office.15%29.aspx) <br/> |
+|[Load](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.load%28v=exchg.80%29.aspx) <br/> |Получает свойства элемента, вложения или объекта конфигурации пользователя.  <br/> |[Операция GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/><br/> [Операция GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/><br/> [Операция GetUserConfiguration](http://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) <br/> |
+|[Базу](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> |Заполняет новый элемент на клиенте сведениями из существующего элемента на сервере.  <br/> |[Операция GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> |
+|[Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.save%28v=exchg.80%29.aspx) <br/> |Сохраняет копию клиентского элемента на сервере.  <br/> |[Операция UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/><br/> [Операция UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/><br/>[Операция CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/><br/>[Операция CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
+|[обновление](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx). <br/> |Обновляет сервер с учетом изменений, внесенных в клиенте.<br/><br/>Для элементов и папок метод **Update** использует [операцию UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) и [операцию операцию UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx).  <br/> |[Операция UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/><br/>[Операция UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
+|[удаление](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx); <br/> |Удаляет элемент на сервере.<br/><br/>Для элементов и папок метод **Delete** использует [операцию и DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx).  <br/> |[Операция DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/><br/> [Операция DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |
+|[Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> |Создает копию элемента или папок на сервере.  <br/> |[Операция CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/><br/> [Операция CopyFolder](http://msdn.microsoft.com/library/c7ea0d68-9793-4144-b378-d99536776db9%28Office.15%29.aspx) <br/> |
+|[Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> |Перемещает элементы или папки на сервере.  <br/> |[Операция MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/><br/> [Операция MoveFolder](http://msdn.microsoft.com/library/c7233966-6c87-4a14-8156-b1610760176d%28Office.15%29.aspx) <br/> |
    
-## <a name="to-use-the-ews-managed-api-to-communicate-with-ews"></a>Чтобы использовать управляемый API веб-служб Exchange для взаимодействия с веб-служб Exchange
+## <a name="to-use-the-ews-managed-api-to-communicate-with-ews"></a>Использование управляемого API EWS для общения с EWS
 
 1. Создайте экземпляр класса **ExchangeService** . 
     
@@ -46,23 +46,23 @@ ms.locfileid: "19760995"
    ```
 
    > [!NOTE]
-   > Создание экземпляра **ExchangeService** с пустой конструктор будет создать экземпляр, который привязан к последней известной версии Exchange. Кроме того можно распределять определенной версии Exchange с указанием версии как параметр. `ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2007_SP1);`
+   > При создании экземпляра **ExchangeService** с пустым конструктором будет создан экземпляр, привязанный к последней известной версии Exchange. Кроме того, вы можете ориентироваться на определенную версию Exchange, указав в качестве параметра версию Version. `ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2007_SP1);`
   
-2. Задание учетных данных пользователя, который отправляет запросы на сервере Exchange. Если вы хотите подключиться к веб-служб Exchange с компьютера, который вошел в систему к домену, с использованием учетных данных пользователя, прошедшего проверку подлинности, задайте свойству **UseDefaultCredentials** объекта **ExchangeService** в **значение true**.
+2. Задайте учетные данные пользователя, который отправляет запросы на сервер Exchange. Если вы хотите подключиться к EWS с компьютера, выполнившего вход в домен, используя учетные данные пользователя, прошедшего проверку подлинности, присвойте свойству **уседефаулткредентиалс** объекта **ExchangeService** **значение true**.
     
    ```cs
     // Connect by using the default credentials of the authenticated user.
     service.UseDefaultCredentials = true;
    ```
 
-   Если вы не хотите подключиться, используя учетные данные пользователя по умолчанию, необходимо задайте свойство **учетные данные** для объекта **ExchangeService** , чтобы явным образом укажите учетные данные другого пользователя. При использовании Exchange Online или Exchange Online в составе Office 365 используется обычная проверка подлинности с помощью только что имя пользователя и пароль. Имя домена является обязательным для проверки подлинности NTLM. 
+   Если вы не хотите подключаться с помощью учетных данных пользователя по умолчанию, задайте для свойства **Credentials** объекта **ExchangeService** явное указание учетных данных другого пользователя. Если вы используете Exchange Online или Exchange Online в составе Office 365, вы будете использовать обычную проверку подлинности с использованием только имени пользователя и пароля. Для проверки подлинности NTLM необходимо указать имя домена. 
     
    ```cs
     // Connect by using the credentials of user1 at contoso.com.
     service.Credentials = new WebCredentials("user1@contoso.com", "password");
    ```
 
-   Также можно указать учетные данные пользователя, с помощью доменное имя пользователя и пароль.
+   Вы также можете указать учетные данные пользователя, используя доменное имя пользователя и пароль.
     
    ```cs
     // Connect by using the credentials of contoso/user1.
@@ -70,9 +70,9 @@ ms.locfileid: "19760995"
    ```
 
    > [!NOTE]
-   > Если свойство **UseDefaultCredentials** имеет значение **true**, значение свойства **учетных данных** игнорируется. 
+   > Если для свойства **уседефаулткредентиалс** задано значение **true**, то значение свойства **Credentials** игнорируется. 
   
-3. Задайте URL-адрес конечной точки веб-служб Exchange. Этот URL-адрес определяет местонахождение файла exchange.asmx на сервере клиентского доступа.
+3. Задайте URL-адрес конечной точки EWS. Этот URL-адрес определяет расположение файла Exchange. asmx на сервере клиентского доступа.
     
    ```cs
     // Use Autodiscover to set the URL endpoint.
@@ -80,12 +80,12 @@ ms.locfileid: "19760995"
    ```
 
    > [!NOTE]
-   >  Несмотря на то, что свойство **URL-адрес** **ExchangeService** можно задать значение жестко, мы рекомендуем использовать вместо этого службы автообнаружения по следующим причинам: > автообнаружения определяет наиболее конечной точки для определенного пользователя (конечная точка, который является ближайшим на сервер почтовых ящиков пользователя). > Веб-служб Exchange URL-адрес может изменяться, если развернуть новые серверы клиентского доступа. В этом сценарии с помощью [службы автообнаружения](autodiscover-for-exchange.md) означает, что изменения кода не требуются. > Вам необходимо явно задать URL-адрес или вызова **AutodiscoverUrl**, но не следует оба. 
+   >  Несмотря на то, что вы можете явно задать для свойства **URL** **ExchangeService** значение жестко заданное значение, рекомендуется использовать службу автообнаружения по следующим причинам: > служба автообнаружения определяет наилучшую конечную точку для определенного пользователя (конечная точка, ближайшую к серверу почтовых ящиков пользователей). > URL-адрес EWS может измениться при развертывании новых серверов клиентского доступа. В этом сценарии использование [автообнаружения](autodiscover-for-exchange.md) означает, что не требуется вносить изменения в код. > необходимо явно задать URL-адрес или вызвать **AutodiscoverUrl**, но не делать и то, и другое. 
   
 ## <a name="see-also"></a>См. также
 
 - [Начало работы с клиентскими приложениями, использующими управляемый API EWS](get-started-with-ews-managed-api-client-applications.md) 
-- [Использование службы автообнаружения для поиска точек подключения](how-to-use-autodiscover-to-find-connection-points.md)   
+- [Поиск точек соединения с помощью службы автообнаружения](how-to-use-autodiscover-to-find-connection-points.md)   
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
 

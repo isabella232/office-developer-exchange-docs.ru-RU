@@ -1,5 +1,5 @@
 ---
-title: Беседы
+title: Conversations
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1d18f98c-6457-45e9-a934-32da20885ac6
-description: Элемент бесед содержит массив диалогов, возвращаемого в ответе FindConversation.
+description: Элемент conversations содержит массив бесед, которые возвращаются в ответе FindConversation.
 ms.openlocfilehash: cd36364bd975d1464af9a1114c64c29543b4ec47
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761827"
 ---
-# <a name="conversations"></a>Conversations
+# <a name="conversations"></a>Беседы
 
-Элемент **бесед** содержит массив диалогов, возвращаемого в ответе **FindConversation** . 
+Элемент conversations содержит **массив бесед,** которые возвращаются в ответе **FindConversation** . 
   
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
@@ -33,10 +33,10 @@ ms.locfileid: "19761827"
 </Conversations>
 ```
 
- **ArrayOfConversationsType**
+ **аррайофконверсатионстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -52,13 +52,13 @@ ms.locfileid: "19761827"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FindConversationResponse](findconversationresponse.md) <br/> |Определяет ответ на запрос **FindConversation** .  <br/> |
+|[финдконверсатионреспонсе](findconversationresponse.md) <br/> |Определяет ответ на запрос **FindConversation** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -68,14 +68,14 @@ ms.locfileid: "19761827"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[FindConversation Operation](findconversation-operation.md)
+[Операция FindConversation](findconversation-operation.md)
 
 
 [Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)

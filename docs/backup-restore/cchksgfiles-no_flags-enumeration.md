@@ -1,5 +1,5 @@
 ---
-title: Перечисление CChkSGFiles.NO_FLAGS
+title: Перечисление функция cchksgfiles. NO_FLAGS
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 6b18b645-fec4-429a-9900-62ad0f19bf96
-description: 'Последнее изменение: 22 февраля 2013 г.'
+description: 'Дата последнего изменения: 22 февраля 2013 г.'
 ms.openlocfilehash: dbe4cedf2011a1607a6db55dc064bd42dc229123
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,21 +19,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761868"
 ---
-# <a name="cchksgfilesnoflags-enumeration"></a>Перечисление CChkSGFiles.NO_FLAGS
+# <a name="cchksgfilesno_flags-enumeration"></a>Перечисление функция cchksgfiles. NO_FLAGS
 
 **Применимо к:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Выступает в качестве значение-заполнитель для параметров **ulFlags** , которые были приняты большинство функций класса **CCheckSGFiles** . 
+Служит в качестве значения заполнителя для параметров **ulFlags** , принимаемых большинством функций класса **кчекксгфилес** . 
   
 ```cs
 Enum { NO_FLAGS = 0 }
 
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
-Exchange Server 2013 включает в себя только 64-разрядная версия CHKSGFILES API-интерфейса.
+Exchange Server 2013 включает в себя только 64-разрядную версию API ЧКСГФИЛЕС.
   
-Учетная запись, приложения в разделе необходимо иметь разрешения доступ на чтение для файлов базы данных и журналов, которые требуется проверить.
+Учетная запись, под которой выполняется приложение, должна иметь разрешения на чтение для базы данных и файлов журнала, которые необходимо проверить.
   
 

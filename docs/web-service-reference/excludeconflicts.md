@@ -1,5 +1,5 @@
 ---
-title: ExcludeConflicts
+title: ексклудеконфликтс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ec33ef23-8537-41eb-8d89-7eb906a1fad7
-description: Элемент ExcludeConflicts указывает, нужно ли возвращать предложенного времени для время календаря, конфликтующие среди участников.
+description: Элемент Ексклудеконфликтс указывает, следует ли возвращать предлагаемые моменты времени для конфликтов между участниками.
 ms.openlocfilehash: 66b69d57246942e551de2f683949870823e2e4e1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762418"
 ---
-# <a name="excludeconflicts"></a>ExcludeConflicts
+# <a name="excludeconflicts"></a>ексклудеконфликтс
 
-Элемент **ExcludeConflicts** указывает, нужно ли возвращать предложенного времени для время календаря, конфликтующие среди участников. 
+Элемент **ексклудеконфликтс** указывает, следует ли возвращать предлагаемые моменты времени для конфликтов между участниками. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-[MailboxDataArray](mailboxdataarray.md)
+[маилбоксдатааррай](mailboxdataarray.md)
   
 [MailboxData](mailboxdata.md)
   
-[ExcludeConflicts](excludeconflicts.md)
+[ексклудеконфликтс](excludeconflicts.md)
   
 ```xml
 <ExcludeConflicts>true or false</ExcludeConflicts>
@@ -38,7 +38,7 @@ ms.locfileid: "19762418"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -56,9 +56,9 @@ ms.locfileid: "19762418"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Возможные значения: логическое **значение true** или **false**.
+Необходимо указать текстовое значение. Возможные значения: Boolean **true** или **false**.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент обязательный.
   
@@ -71,7 +71,7 @@ ms.locfileid: "19762418"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -80,7 +80,7 @@ ms.locfileid: "19762418"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

@@ -1,5 +1,5 @@
 ---
-title: FindMailboxStatisticsByKeywords
+title: финдмаилбоксстатистиксбикэйвордс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cfe0f0ff-5fea-4db8-ac96-a5724c85ed2f
-description: Элемент FindMailboxStatisticsByKeywords определяет запрос для поиска по ключевым словам статистики почтового ящика.
+description: Элемент Финдмаилбоксстатистиксбикэйвордс указывает запрос на поиск статистики почтовых ящиков по ключевому слову.
 ms.openlocfilehash: e667f13b66e439dca88d73a5e05d74846183928c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762575"
 ---
-# <a name="findmailboxstatisticsbykeywords"></a>FindMailboxStatisticsByKeywords
+# <a name="findmailboxstatisticsbykeywords"></a>финдмаилбоксстатистиксбикэйвордс
 
-Элемент **FindMailboxStatisticsByKeywords** определяет запрос для поиска по ключевым словам статистики почтового ящика. 
+Элемент **финдмаилбоксстатистиксбикэйвордс** указывает запрос на поиск статистики почтовых ящиков по ключевому слову. 
   
 ```XML
 <FindMailboxStatisticsByKeywords>
@@ -35,10 +35,10 @@ ms.locfileid: "19762575"
 </FindMailboxStatisticsByKeywords>
 ```
 
- **FindMailboxStatisticsByKeywordsType**
+ **финдмаилбоксстатистиксбикэйвордстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,23 +48,23 @@ ms.locfileid: "19762575"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Почтовые ящики (ArrayOfUserMailboxesType)](mailboxes-arrayofusermailboxestype.md) <br/> |Содержит массив почтовых ящиков, влияет на удержание.  <br/> |
-|[Ключевые слова](keywords-ex15websvcsotherref.md) <br/> |Задает ключевые слова для поиска.  <br/> |
-|[Language](language.md) <br/> |Содержит язык, используемый для поискового запроса.  <br/> |
-|[Отправители](senders.md) <br/> |Указывает массив SMTP-адреса.  <br/> |
-|[Получатели (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |Указывает массив получателей сообщения.  <br/> |
-|[FromDate](fromdate.md) <br/> |Дата отправки сообщения.  <br/> |
-|[ToDate](todate.md) <br/> |Указывает дату, которое было получено сообщение.  <br/> |
-|[MessageTypes](messagetypes.md) <br/> |Указывает массив сообщения для поиска.  <br/> |
-|[SearchDumpster](searchdumpster.md) <br/> |Указывает, следует ли выполнять поиск в удаленных элементов.  <br/> |
-|[IncludePersonalArchive](includepersonalarchive.md) <br/> |Указывает, следует ли включать в поиск личного архива.  <br/> |
-|[IncludeUnsearchableItems](includeunsearchableitems.md) <br/> |Указывает, следует ли включать элементы, которые не удается выполнить поиск.  <br/> |
+|[Почтовые ящики (Аррайофусермаилбоксестипе)](mailboxes-arrayofusermailboxestype.md) <br/> |Содержит массив почтовых ящиков, на которые влияет удержание.  <br/> |
+|[Keywords](keywords-ex15websvcsotherref.md) <br/> |Задает ключевые слова для поиска.  <br/> |
+|[Язык](language.md) <br/> |Содержит язык, используемый для поискового запроса.  <br/> |
+|[Отправители](senders.md) <br/> |Указывает массив SMTP-адресов.  <br/> |
+|[Получатели (Аррайофсмтпаддресстипе)](recipients-arrayofsmtpaddresstype.md) <br/> |Указывает массив получателей сообщения.  <br/> |
+|[фромдате](fromdate.md) <br/> |Указывает дату отправки сообщения.  <br/> |
+|[тодате](todate.md) <br/> |Указывает дату получения сообщения.  <br/> |
+|[мессажетипес](messagetypes.md) <br/> |Указывает массив сообщений для поиска.  <br/> |
+|[сеарчдумпстер](searchdumpster.md) <br/> |Указывает, следует ли выполнять поиск в удаленных элементах.  <br/> |
+|[инклудеперсоналарчиве](includepersonalarchive.md) <br/> |Указывает, следует ли включать в поиск личный архив.  <br/> |
+|[инклудеунсеарчаблеитемс](includeunsearchableitems.md) <br/> |Указывает, следует ли включать элементы, поиск которых невозможен.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -74,7 +74,7 @@ ms.locfileid: "19762575"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

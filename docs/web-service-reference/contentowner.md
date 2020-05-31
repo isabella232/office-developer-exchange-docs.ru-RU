@@ -1,5 +1,5 @@
 ---
-title: ContentOwner
+title: контентовнер
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a1741eda-c232-4d89-8abc-50b2627ad29b
-description: Элемент ContentOwner указывает имя владельца контента.
+description: Элемент Контентовнер указывает имя владельца контента.
 ms.openlocfilehash: bbc5e69918e31fca639a0fab4987cf7d3541848d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761797"
 ---
-# <a name="contentowner"></a>ContentOwner
+# <a name="contentowner"></a>контентовнер
 
-Элемент **ContentOwner** указывает имя владельца контента. 
+Элемент **контентовнер** указывает имя владельца контента. 
   
 ```XML
 <ContentOwner></ContentOwner>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19761797"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Задает сведения о лицензии управления правами.  <br/> |
+|[ригхтсманажементлиценседата](rightsmanagementlicensedata.md) <br/> |Указывает сведения о лицензии на управление правами.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента ContentOwner — это строка, указывающая срок действия содержимого.
+Текстовое значение элемента Контентовнер — это строка, указывающая срок действия контента.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19761797"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

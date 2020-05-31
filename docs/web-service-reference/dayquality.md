@@ -1,5 +1,5 @@
 ---
-title: DayQuality
+title: дайкуалити
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: cd0eb239-6e7f-4a5a-b245-659f170550b7
-description: Элемент DayQuality представляет качества день, содержащий раз качества предложенного собрания.
+description: Элемент Дайкуалити представляет качество дня, в котором для качества предлагается время проведения собрания.
 ms.openlocfilehash: 156d5bc58d481c9c812793da4722272ac76adaad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,25 +19,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762001"
 ---
-# <a name="dayquality"></a>DayQuality
+# <a name="dayquality"></a>дайкуалити
 
-Элемент **DayQuality** представляет качества день, содержащий качество, предлагаемое время собрания. 
+Элемент **дайкуалити** представляет качество дня, в котором для качества предлагается время проведения собрания. 
   
-- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
-- [SuggestionsResponse](suggestionsresponse.md) 
-- [SuggestionDayResultArray](suggestiondayresultarray.md)  
-- [SuggestionDayResult](suggestiondayresult.md) 
-- [DayQuality](dayquality.md)
+- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)  
+- [сугжестионсреспонсе](suggestionsresponse.md) 
+- [сугжестиондайресултаррай](suggestiondayresultarray.md)  
+- [сугжестиондайресулт](suggestiondayresult.md) 
+- [дайкуалити](dayquality.md)
   
 ```xml
 <DayQuality>Excellent or Good or Fair or Poor</DayQuality>
 ```
 
-**SuggestionQuality**
+**сугжестионкуалити**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -51,18 +51,18 @@ ms.locfileid: "19762001"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |Представляет один день, который содержит время предложенного собрания.  <br/><br/>Ниже приведен выражение XPath 2.0 для этого элемента.<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[сугжестиондайресулт](suggestiondayresult.md) <br/> |Представляет один день, который содержит предложенное время проведения собрания.  <br/><br/>Ниже приведено выражение XPath 2,0 для этого элемента:<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Ниже приведены возможные значения для этого элемента:
+Необходимо указать текстовое значение. Ниже приведены возможные значения для этого элемента.
   
-- **Отлично**   
-- **Хороший**    
-- **Обычное**    
-- **Низкий**
+- **Отличная**   
+- **Good**    
+- **Честно**    
+- **Плохо**
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -72,12 +72,12 @@ ms.locfileid: "19762001"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)  
-- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 - [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

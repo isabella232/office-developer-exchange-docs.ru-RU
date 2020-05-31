@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c9688ce8-2465-45bb-8bd2-94b32ed4885c
-description: Найдите сведения о том, как использовать операцию AddNewTelUriContactToGroup веб-служб Exchange.
+description: Найдите сведения об использовании операции AddNewTelUriContactToGroup EWS.
 ms.openlocfilehash: 34450171776b4215d9c0a39700a309e2e2d755dd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,33 +17,33 @@ ms.locfileid: "19761352"
 ---
 # <a name="addnewteluricontacttogroup-operation"></a>Операция AddNewTelUriContactToGroup
 
-Найдите сведения о том, как использовать операцию **AddNewTelUriContactToGroup** веб-служб Exchange. 
+Найдите сведения об использовании операции **AddNewTelUriContactToGroup** EWS. 
   
-Операция **AddNewTelUriContactToGroup** добавляет новый контакт в группу на основании номер телефона контакта. 
+Операция **AddNewTelUriContactToGroup** добавляет новый контакт в группу на основе номера телефона контакта. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-addnewteluricontacttogroup-operation"></a>С помощью операции AddNewTelUriContactToGroup
+## <a name="using-the-addnewteluricontacttogroup-operation"></a>Использование операции AddNewTelUriContactToGroup
 
-Операция запроса **AddNewTelUriContactToGroup** отправляет данные контакта TEL URI, SIP URI, номер телефона и группы для добавления контакта. Операция ответа на **AddNewTelUriContactToGroup** создает пользователь для нового контакта. Эта операция позволяет клиентам для добавления нового контакта, даже в том случае, если контакт не имеет имя. 
+Запрос операции **AddNewTelUriContactToGroup** передает URI TEL контакта, универсальный код ресурса (URI) SIP, номер телефона и группу, в которую добавляется контакт. Ответ операции **AddNewTelUriContactToGroup** создает пользователя для нового контакта. Эта операция позволяет клиентам добавлять новый контакт, даже если у него нет имени. 
   
-### <a name="addnewteluricontacttogroup-operation-soap-headers"></a>Заголовки SOAP AddNewTelUriContactToGroup операции
+### <a name="addnewteluricontacttogroup-operation-soap-headers"></a>Заголовки SOAP операции AddNewTelUriContactToGroup
 
-Операция **AddNewTelUriContactToGroup** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **AddNewTelUriContactToGroup** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="addnewteluricontacttogroup-operation-request-example-add-a-new-contact-to-a-group"></a>Пример запроса AddNewTelUriContactToGroup операции: Добавление нового контакта в группу
+## <a name="addnewteluricontacttogroup-operation-request-example-add-a-new-contact-to-a-group"></a>Пример запроса операции AddNewTelUriContactToGroup: Добавление нового контакта в группу
 
-В следующем примере запрос операции **AddNewTelUriContactToGroup** показано, как создание новых контактов и добавить новый контакт в группу мгновенного обмена сообщениями обмена Мгновенными сообщениями с помощью TEL и коды URI SIP контакта. 
+В следующем примере запроса операции **AddNewTelUriContactToGroup** показано, как создать новый контакт и добавить новый контакт в группу обмена мгновенными сообщениями с помощью URI TEL и SIP контакта. 
   
 > [!NOTE]
-> Все идентификаторы элементов и ключей изменения в этой статье URL были сокращены, чтобы сохранить удобочитаемость. 
+> Все идентификаторы элементов и изменения ключей в этой статье были сокращены, чтобы сохранить удобочитаемость. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -65,21 +65,21 @@ ms.locfileid: "19761352"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [AddNewTelUriContactToGroup](addnewteluricontacttogroup.md)
     
-- [TelUriAddress](teluriaddress.md)
+- [телуриаддресс](teluriaddress.md)
     
-- [ImContactSipUriAddress](imcontactsipuriaddress.md)
+- [имконтактсипуриаддресс](imcontactsipuriaddress.md)
     
-- [ImTelephoneNumber](imtelephonenumber.md)
+- [имтелефоненумбер](imtelephonenumber.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-addnewteluricontacttogroup-operation-response"></a>Успешные операции ответа AddNewTelUriContactToGroup
+## <a name="successful-addnewteluricontacttogroup-operation-response"></a>Успешный отклик операции AddNewTelUriContactToGroup
 
-В следующем примере показано успешного ответа на запрос операции **AddNewTelUriContactToGroup** для создания контакта. Ответ содержит идентификатор связанного пользователя для контакта, отображаемое имя пользователя, который в этом случае основан на номер телефона контакта, и идентификатор элемента контакта, которая отображается как часть атрибуты идентификатор источника. 
+В следующем примере показан успешный ответ на запрос операции **AddNewTelUriContactToGroup** для создания контакта. Ответ содержит связанный идентификатор персонажа для контакта, отображаемое имя пользователя, которое в данном случае основано на номере телефона контакта, и идентификатор элемента контакта, который отображается как часть атрибутов идентификатора источника. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -145,75 +145,75 @@ ms.locfileid: "19761352"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [AddNewTelUriContactToGroupResponse](addnewteluricontacttogroupresponse.md)
+- [аддневтелуриконтакттограупреспонсе](addnewteluricontacttogroupresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Пользователь](persona.md)
+- [Роль](persona.md)
     
-- [PersonaId](personaid.md)
+- [персонаид](personaid.md)
     
-- [PersonaType](personatype.md)
+- [персонатипе](personatype.md)
     
 - [CreationTime](creationtime.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
-- [DisplayNameFirstLast](displaynamefirstlast.md)
+- [дисплайнамефирстласт](displaynamefirstlast.md)
     
-- [DisplayNameLastFirst](displaynamelastfirst.md)
+- [дисплайнамеластфирст](displaynamelastfirst.md)
     
 - [FileAs](fileas.md)
     
-- [FileAsId](fileasid.md)
+- [филеасид](fileasid.md)
     
-- [RelevanceScore](relevancescore.md)
+- [релеванцескоре](relevancescore.md)
     
-- [Атрибуты (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
+- [Атрибуты (Аррайофперсонааттрибутионстипе)](attributions-arrayofpersonaattributionstype.md)
     
-- [Атрибуты (PersonaAttributionType)](attribution-personaattributiontype.md)
+- [Атрибуты (Персонааттрибутионтипе)](attribution-personaattributiontype.md)
     
-- [Идентификатор (строка)](id-string.md)
+- [ID (строка)](id-string.md)
     
 - [SourceId](sourceid.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
-- [IsWritable](iswritable.md)
+- [Доступный для записи](iswritable.md)
     
-- [IsQuickContact](isquickcontact.md)
+- [искуиккконтакт](isquickcontact.md)
     
 - [IsHidden](ishidden.md)
     
-- [FileAsIds](fileasids.md)
+- [филеасидс](fileasids.md)
     
-- [StringAttributedValue](stringattributedvalue.md)
+- [стрингаттрибутедвалуе](stringattributedvalue.md)
     
 - [Значение](value.md)
     
-- [Атрибуты (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
+- [Атрибуты (Аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
     
 - [Атрибуты (строка)](attribution-string.md)
     
-- [OtherTelephones](othertelephones.md)
+- [осертелефонес](othertelephones.md)
     
-- [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
+- [фоненумбераттрибутедвалуе](phonenumberattributedvalue.md)
     
 - [Значение](value.md)
     
-- [Число](number.md)
+- [Number](number.md)
     
 - [Тип (строка)](type-string.md)
     
-- [Атрибуты (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
+- [Атрибуты (Аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
     
 - [Атрибуты (строка)](attribution-string.md)
     
-## <a name="addnewteluricontacttogroup-operation-error-response-example"></a>Пример ответа об ошибке AddNewTelUriContactToGroup операции
+## <a name="addnewteluricontacttogroup-operation-error-response-example"></a>Пример ответа на сообщение об ошибке операции AddNewTelUriContactToGroup
 
-В следующем примере показано ошибочный ответ на запрос операции **AddNewTelUriContactToGroup** , когда идентификатор группы содержит имеющийся значение, которое не определяет группу в почтовом ящике. 
+В следующем примере показан ответ об ошибке для запроса операции **AddNewTelUriContactToGroup** , когда идентификатор группы содержит правильное значение, не идентифицирующее группу в почтовом ящике. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -242,15 +242,15 @@ ms.locfileid: "19761352"
 
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [AddNewTelUriContactToGroupResponse](addnewteluricontacttogroupresponse.md)
+- [аддневтелуриконтакттограупреспонсе](addnewteluricontacttogroupresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

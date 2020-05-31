@@ -1,5 +1,5 @@
 ---
-title: Имя_конфигурации
+title: Указав
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3b524a2f-9c6b-4550-9f3d-f78d176b0f7b
-description: Элемент имя_конфигурации указывает конфигураций запрошенную службу по имени.
+description: Элемент ConfigurationName указывает запрошенные конфигурации службы по имени.
 ms.openlocfilehash: a03a0bc0ab7ecbc1c2aec31f864503ee0f560908
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761709"
 ---
-# <a name="configurationname"></a>Имя_конфигурации
+# <a name="configurationname"></a>Указав
 
-Элемент **имя_конфигурации** указывает конфигураций запрошенную службу по имени. 
+Элемент **configurationName** указывает запрошенные конфигурации службы по имени. 
   
 ```xml
 <ConfigurationName>MailTips or UnifiedMessagingConfiguration or ProtectionRules</ConfigurationName>
 ```
 
- **ServiceConfigurationType**
+ **сервицеконфигуратионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,21 +44,21 @@ ms.locfileid: "19761709"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RequestedConfiguration](requestedconfiguration.md) <br/> |Содержит конфигурации запрошенные службы.  <br/> |
+|[рекуестедконфигуратион](requestedconfiguration.md) <br/> |Содержит требуемые конфигурации службы.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **имя_конфигурации** . 
+В следующей таблице приведены возможные значения для элемента **configurationName** . 
   
-**Значения элементов имя_конфигурации**
+**Значения элементов ConfigurationName**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Почтовые подсказки  <br/> |Идентифицирует конфигурацию службы подсказок.  <br/> |
-|UnifiedMessagingConfiguration  <br/> |Идентифицирует конфигурацию службы единой системы обмена сообщениями.  <br/> |
-|ProtectionRules  <br/> |Идентифицирует конфигурацию службы правила защиты.  <br/> |
+|Подсказки  <br/> |Определяет конфигурацию службы почтовых подсказок.  <br/> |
+|унифиедмессагингконфигуратион  <br/> |Определяет конфигурацию службы единой системы обмена сообщениями.  <br/> |
+|протектионрулес  <br/> |Определяет конфигурацию службы правил защиты.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -68,7 +68,7 @@ ms.locfileid: "19761709"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

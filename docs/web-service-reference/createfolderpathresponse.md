@@ -1,5 +1,5 @@
 ---
-title: CreateFolderPathResponse
+title: креатефолдерпасреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 569eaca5-6761-4f5d-aa19-2bf3ac584ae3
-description: Элемент CreateFolderPathResponse используется для возврата путь к папке.
+description: Элемент Креатефолдерпасреспонсе используется для возвращения пути к папке.
 ms.openlocfilehash: f6cc8e63aec4cd7868fffa1a4b7c312c741d9c60
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761879"
 ---
-# <a name="createfolderpathresponse"></a>CreateFolderPathResponse
+# <a name="createfolderpathresponse"></a>креатефолдерпасреспонсе
 
-Элемент **CreateFolderPathResponse** используется для возврата путь к папке. 
+Элемент **креатефолдерпасреспонсе** используется для возвращения пути к папке. 
   
 ```XML
 <CreateFolderPathResponse>
@@ -25,10 +25,10 @@ ms.locfileid: "19761879"
 </CreateFolderPathResponse>
 ```
 
- **CreateFolderPathResponseType**
+ **креатефолдерпасреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19761879"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ResponseMessages](responsemessages.md)
+[респонсемессажес](responsemessages.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19761879"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

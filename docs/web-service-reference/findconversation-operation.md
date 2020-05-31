@@ -1,5 +1,5 @@
 ---
-title: FindConversation Operation
+title: Операция FindConversation
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2384908a-c203-45b6-98aa-efd6a4c23aac
-description: Операция FindConversation Перечисляет список бесед в папке.
+description: Операция FindConversation перечисляет список бесед в папке.
 ms.openlocfilehash: 7ef2167fef96a5e8441c543cac5b6800534c2eab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762564"
 ---
-# <a name="findconversation-operation"></a>FindConversation Operation
+# <a name="findconversation-operation"></a>Операция FindConversation
 
-Операция **FindConversation** Перечисляет список бесед в папке. 
+Операция **FindConversation** перечисляет список бесед в папке. 
   
 ## <a name="findconversation-request-example"></a>Пример запроса FindConversation
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **FindConversation** показано, как для формирования запроса для поиска первого беседы в папке "Входящие". 
+В приведенном ниже примере запроса **FindConversation** показано, как сформировать запрос на поиск первой беседы в папке "Входящие". 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -52,27 +52,27 @@ ms.locfileid: "19762564"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
-- [RequestServerVersion](requestserverversion.md)
+- [рекуестсерверверсион](requestserverversion.md)
     
 - [FindConversation](findconversation.md)
     
-- [IndexedPageItemView](indexedpageitemview.md)
+- [индекседпажеитемвиев](indexedpageitemview.md)
     
 - [ParentFolderId](parentfolderid.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
 ## <a name="successful-findconversation-response-example"></a>Пример успешного ответа FindConversation
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **FindConversation** . 
+В следующем примере показан успешный ответ на запрос **FindConversation** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -146,19 +146,19 @@ ms.locfileid: "19762564"
 </s:Envelope>
 ```
 
-### <a name="comment"></a>Комментарий
+### <a name="comment"></a>Comment
 
-Идентификаторы элементов и беседы в примере URL-были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы элементов и бесед в примере были сокращены, чтобы сохранить удобочитаемость.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [FindConversationResponse](findconversationresponse.md)
+- [финдконверсатионреспонсе](findconversationresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
 - [Беседы (ConversationType)](conversation-conversationtype.md)
     
@@ -166,19 +166,19 @@ ms.locfileid: "19762564"
     
 - [ConversationTopic](conversationtopic.md)
     
-- [UniqueRecipients](uniquerecipients.md)
+- [уникуереЦипиентс](uniquerecipients.md)
     
-- [Строка](string.md)
+- [String](string.md)
     
-- [GlobalUniqueRecipients](globaluniquerecipients.md)
+- [глобалуникуереЦипиентс](globaluniquerecipients.md)
     
-- [UniqueSenders](uniquesenders.md)
+- [уникуесендерс](uniquesenders.md)
     
-- [GlobalUniqueSenders](globaluniquesenders.md)
+- [глобалуникуесендерс](globaluniquesenders.md)
     
-- [LastDeliveryTime](lastdeliverytime.md)
+- [ластделиверитиме](lastdeliverytime.md)
     
-- [GlobalLastDeliveryTime](globallastdeliverytime.md)
+- [глобалластделиверитиме](globallastdeliverytime.md)
     
 - [HasAttachments](hasattachments.md)
     
@@ -186,37 +186,37 @@ ms.locfileid: "19762564"
     
 - [MessageCount](messagecount.md)
     
-- [GlobalMessageCount](globalmessagecount.md)
+- [глобалмессажекаунт](globalmessagecount.md)
     
-- [UnreadCount](unreadcount.md)
+- [унреадкаунт](unreadcount.md)
     
 - [Размер](size.md)
     
-- [GlobalSize](globalsize.md)
+- [глобалсизе](globalsize.md)
     
-- [ItemClasses (ArrayOfItemClassType)](itemclasses-arrayofitemclasstype.md)
+- [Итемклассес (Аррайофитемкласстипе)](itemclasses-arrayofitemclasstype.md)
     
 - [ItemClass](itemclass.md)
     
-- [GlobalItemClasses](globalitemclasses.md)
+- [глобалитемклассес](globalitemclasses.md)
     
-- [Важность](importance.md)
+- [Importance](importance.md)
     
-- [GlobalImportance](globalimportance.md)
+- [глобалимпортанце](globalimportance.md)
     
-- [Что ItemID](itemids.md)
+- [итемидс](itemids.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-- [GlobalItemIds](globalitemids.md)
+- [глобалитемидс](globalitemids.md)
     
-## <a name="findconversation-error-response-example"></a>Пример ответа об ошибке FindConversation
+## <a name="findconversation-error-response-example"></a>Пример ответа на сообщение об ошибке FindConversation
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос **FindConversation** , которая была вызвана ошибка проверки схемы. 
+В приведенном ниже примере показан ответ об ошибке для запроса **FindConversation** , вызванного ошибкой проверки схемы. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -239,27 +239,27 @@ ms.locfileid: "19762564"
 </s:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- faultcode
+- фаулткоде
     
-- faultstring
+- фаултстринг
     
-- Подробности
+- описаны
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- Message
+- Сообщение
     
-- [MessageXml](messagexml.md)
+- [мессажексмл](messagexml.md)
     
 - LineNumber
     
-- LinePosition
+- линепоситион
     
-- Нарушение прав
+- Нарушение
     
 ## <a name="see-also"></a>См. также
 

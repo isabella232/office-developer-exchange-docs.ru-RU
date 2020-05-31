@@ -1,5 +1,5 @@
 ---
-title: Companies
+title: Компании
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5d9ea76f-e14d-4424-8842-0c3cc3305119
-description: Элемент компании представляет коллекцию компании, связанные с контактом или задач.
+description: Элемент "компании" представляет коллекцию компаний, связанных с контактом или задачей.
 ms.openlocfilehash: 5b8ac20d4a02017881f941d12380fe29078f51cc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761690"
 ---
-# <a name="companies"></a>Companies
+# <a name="companies"></a>Компании
 
-Элемент **компании** представляет коллекцию компании, связанные с контактом или задач. 
+Элемент " **компании** " представляет коллекцию компаний, связанных с контактом или задачей. 
   
 ```xml
 <Companies>
@@ -29,10 +29,10 @@ ms.locfileid: "19761690"
 </Companies>
 ```
 
- **ArrayOfStringsType**
+ **аррайофстрингстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,16 +42,16 @@ ms.locfileid: "19761690"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Представляет имя компании.  <br/> |
+|[Строка](string.md) <br/> |Представляет название компании.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Контакт](contact.md) <br/> |Представляет контакт в хранилище Exchange.  <br/> |
+|[контакт](contact.md); <br/> |Представляет контакт в хранилище Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "19761690"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: Атрибуты (ArrayOfPersonaAttributionsType)
+title: Атрибуты (Аррайофперсонааттрибутионстипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f61d843c-bca5-4c88-9667-fd03d2a963a1
-description: Атрибуты элемента указывает массив сведений атрибуты для одного или нескольких контактов или объединить в связанного пользователя Active Directory получателей.
+description: Элемент "атрибуты" определяет массив сведений о сопоставлении для одного или нескольких контактов или получателей Active Directory, собранных в связанный с ним пользователь.
 ms.openlocfilehash: 52fecb4e4381d5e9dbbaf7134fa18068ba15f6ec
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761522"
 ---
-# <a name="attributions-arrayofpersonaattributionstype"></a>Атрибуты (ArrayOfPersonaAttributionsType)
+# <a name="attributions-arrayofpersonaattributionstype"></a>Атрибуты (Аррайофперсонааттрибутионстипе)
 
-**Атрибуты** элемента указывает массив сведений атрибуты для одного или нескольких контактов или объединить в связанного пользователя Active Directory получателей. 
+Элемент " **атрибуты** " определяет массив сведений о сопоставлении для одного или нескольких контактов или получателей Active Directory, собранных в связанный с ним пользователь. 
   
 ```XML
 <Attributions>
@@ -25,10 +25,10 @@ ms.locfileid: "19761522"
 </Attributions>
 ```
 
- **ArrayOfPersonaAttributionsType**
+ **аррайофперсонааттрибутионстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,15 +38,15 @@ ms.locfileid: "19761522"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Атрибуты (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Задает экземпляр в массиве атрибутов элемента **PersonaType** .  <br/> |
+|[Атрибуты (Персонааттрибутионтипе)](attribution-personaattributiontype.md) <br/> |Указывает экземпляр в массиве атрибутов для элемента **персонатипе** .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19761522"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

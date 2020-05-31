@@ -1,5 +1,5 @@
 ---
-title: Диагностика (en)
+title: Диагностики
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: fecea440-970a-49da-9796-534ca470cbd6
-description: Элемент Диагностика предоставляет сведения о времени и производительности, который используется для создания отчетов в центре обработки данных.
+description: Элемент Diagnostics предоставляет сведения о времени и производительности, которые используются для отчетов в центре обработки данных.
 ms.openlocfilehash: 2b9cac54a683967ec274b8681fb9a0c8a844205e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762086"
 ---
-# <a name="diagnostics"></a>Диагностика (en)
+# <a name="diagnostics"></a>Диагностики
 
-Элемент **Диагностика** предоставляет сведения о времени и производительности, который используется для создания отчетов в центре обработки данных. 
+Элемент **Diagnostics** предоставляет сведения о времени и производительности, которые используются для отчетов в центре обработки данных. 
   
 ```XML
 <Diagnostics>
@@ -30,10 +30,10 @@ ms.locfileid: "19762086"
 
 ```
 
- **ArrayOfStringsType**
+ **аррайофстрингстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,20 +43,20 @@ ms.locfileid: "19762086"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Содержит строку, которая используется с элементами, контакты, задачи и бесед.  <br/> |
+|[Строка](string.md) <br/> |Содержит строку, используемую элементами, контактами, задачами и беседами.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Содержит состояние и результат одного запроса [FindMessageTrackingReport операции](findmessagetrackingreport-operation.md) .  <br/> |
-|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Содержит ответ для [операции GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
+|[финдмессажетраккингрепортреспонсе](findmessagetrackingreportresponse.md) <br/> |Содержит состояние и результат одного запроса [операции FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
+|[жетмессажетраккингрепортреспонсе](getmessagetrackingreportresponse.md) <br/> |Содержит ответ для [операции GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -66,7 +66,7 @@ ms.locfileid: "19762086"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

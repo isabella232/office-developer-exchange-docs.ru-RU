@@ -1,5 +1,5 @@
 ---
-title: GlobalItemIds
+title: глобалитемидс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: b0f03ce0-a4c3-47de-9360-a880a3606e42
-description: Элемент GlobalItemIds содержит коллекцию идентификаторов элементов для всех элементов беседы в почтовом ящике.
+description: Элемент Глобалитемидс содержит коллекцию идентификаторов элементов для всех элементов бесед в почтовом ящике.
 ms.openlocfilehash: 064ebc4c612aaf569eafa56e57a27cf7153f2130
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833737"
 ---
-# <a name="globalitemids"></a>GlobalItemIds
+# <a name="globalitemids"></a>глобалитемидс
 
-Элемент **GlobalItemIds** содержит коллекцию идентификаторов элементов для всех элементов беседы в почтовом ящике. 
+Элемент **глобалитемидс** содержит коллекцию идентификаторов элементов для всех элементов бесед в почтовом ящике. 
   
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[GlobalItemIds](globalitemids.md)
+[глобалитемидс](globalitemids.md)
   
 ```XML
 <ItemIds>
@@ -39,10 +39,10 @@ ms.locfileid: "19833737"
 </ItemIds>
 ```
 
- **NonEmptyArrayOfBaseItemIdsType**
+ **нонемптяррайофбасеитемидстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -52,9 +52,9 @@ ms.locfileid: "19833737"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Идентификатор элемента](itemid.md) <br/> |Содержит уникальный идентификатор и меняет ключ элемента в хранилище Exchange.  <br/> |
-|[OccurrenceItemId](occurrenceitemid.md) <br/> |Определяет одно вхождение повторяющегося элемента.  <br/> |
-|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Идентифицирует элемент шаблона повторения, указав один из его появления связанные элементы идентификаторов.  <br/> |
+|[Идентификатор](itemid.md) <br/> |Содержит уникальный идентификатор и ключ изменения элемента в хранилище Exchange.  <br/> |
+|[оккурренцеитемид](occurrenceitemid.md) <br/> |Определяет один экземпляр повторяющегося элемента.  <br/> |
+|[рекуррингмастеритемид](recurringmasteritemid.md) <br/> |Определяет элемент шаблона повторения, определив один из идентификаторов связанных элементов вхождения.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19833737"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -76,7 +76,7 @@ ms.locfileid: "19833737"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

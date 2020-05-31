@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4cb08a3b-74aa-4506-abda-c000ae97f981
-description: Элемент GetAppMarketplaceUrl определяет запрос для получения URL-адрес для приложения.
+description: Элемент GetAppMarketplaceUrl указывает запрос на получение URL-адреса для приложения.
 ms.openlocfilehash: c42c44ae391c8990c055f2d5f53589e690dcf612
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19762693"
 ---
 # <a name="getappmarketplaceurl"></a>GetAppMarketplaceUrl
 
-Элемент **GetAppMarketplaceUrl** определяет запрос для получения URL-адрес для приложения. 
+Элемент **GetAppMarketplaceUrl** указывает запрос на получение URL-адреса для приложения. 
   
 ```XML
 <GetAppMarketplaceUrl/>
 ```
 
- **GetAppMarketplaceUrlType**
+ **жетаппмаркетплацеурлтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -34,13 +34,13 @@ ms.locfileid: "19762693"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ApiVersionSupported](apiversionsupported.md) | [SchemaVersionSupported](schemaversionsupported.md)
+[Апиверсионсуппортед](apiversionsupported.md) | [счемаверсионсуппортед](schemaversionsupported.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -52,7 +52,7 @@ ms.locfileid: "19762693"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |true  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 086876cc-e22c-4e89-89f9-19e78af51217
-description: Найдите сведения о веб-служб Exchange GetClientAccessToken операции.
+description: Поиск сведений о GetClientAccessTokenной операции EWS.
 ms.openlocfilehash: afa9a315a8421f31c345c9547a5d80bed41e9fbc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,28 +17,28 @@ ms.locfileid: "19762713"
 ---
 # <a name="getclientaccesstoken-operation"></a>Операция GetClientAccessToken
 
-Найдите сведения о **GetClientAccessToken** операции веб-служб Exchange. 
+Поиск сведений о **GetClientAccessTokenной** операции EWS. 
   
-Операция **GetClientAccessToken** получает клиентского доступа маркер для почтового приложения для Outlook. 
+Операция **GetClientAccessToken** получает маркер клиентского доступа для почтового приложения для Outlook. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-getclientaccesstoken-operation"></a>С помощью операции GetClientAccessToken
+## <a name="using-the-getclientaccesstoken-operation"></a>Использование операции GetClientAccessToken
 
-Запрос операции **GetClientAccessToken** использует два обязательных аргумента: идентификатор приложения и тип маркера. [Операция GetAppManifests](getappmanifests-operation.md) можно использовать для запроса идентификатор приложения. 
+Запрос операции **GetClientAccessToken** принимает два обязательных аргумента: идентификатор приложения и тип маркера. Для запроса идентификатора приложения можно использовать [операцию GetAppManifests](getappmanifests-operation.md) . 
   
-### <a name="getclientaccesstoken-operation-soap-headers"></a>Заголовки SOAP GetClientAccessToken операции
+### <a name="getclientaccesstoken-operation-soap-headers"></a>Заголовки SOAP операции GetClientAccessToken
 
-Операция **GetClientAccessToken** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **GetClientAccessToken** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="getclientaccesstoken-operation-request-example-get-a-caller-identity-token"></a>Пример запроса GetClientAccessToken операции: получение маркера удостоверения вызывающей стороны
+## <a name="getclientaccesstoken-operation-request-example-get-a-caller-identity-token"></a>Пример запроса операции GetClientAccessToken: получение маркера удостоверения звонящего
 
-Приведенный ниже запрос операции **GetClientAccessToken** показано, как получить маркер удостоверения вызывающей стороны для приложения. 
+В следующем примере запроса операции **GetClientAccessToken** показано, как получить маркер удостоверения звонящего для приложения. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -62,24 +62,24 @@ ms.locfileid: "19762713"
 
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [GetClientAccessToken](getclientaccesstoken.md)
     
-- [TokenRequests](tokenrequests.md)
+- [токенрекуестс](tokenrequests.md)
     
-- [TokenRequest](tokenrequest.md)
+- [токенрекуест](tokenrequest.md)
     
-- [Идентификатор (строка)](id-string.md)
+- [ID (строка)](id-string.md)
     
-- [TokenType](tokentype.md)
+- [токентипе](tokentype.md)
     
-## <a name="successful-getclientaccesstoken-operation-response"></a>Успешные операции ответа GetClientAccessToken
+## <a name="successful-getclientaccesstoken-operation-response"></a>Успешный отклик операции GetClientAccessToken
 
-В следующем примере показано успешного ответа на запрос операции **GetClientAccessToken** для получения маркера удостоверения вызывающей стороны для приложения. 
+В следующем примере показан успешный ответ на запрос операции **GetClientAccessToken** для получения маркера удостоверения вызывающего абонента для приложения. 
   
 > [!NOTE]
-> Для сохранения удобочитаемость URL были сокращены значения маркера в этой статье. 
+> Значения маркеров, приведенные в этой статье, были сокращены, чтобы сохранить удобочитаемость. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -116,29 +116,29 @@ ms.locfileid: "19762713"
 
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [GetClientAccessTokenResponse](getclientaccesstokenresponse.md)
+- [жетклиентакцесстокенреспонсе](getclientaccesstokenresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetClientAccessTokenResponseMessage](getclientaccesstokenresponsemessage.md)
+- [жетклиентакцесстокенреспонсемессаже](getclientaccesstokenresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Маркер (ClientAccessTokenType)](token-clientaccesstokentype.md)
+- [Маркер (Клиентакцесстокентипе)](token-clientaccesstokentype.md)
     
-- [Идентификатор (строка)](id-string.md)
+- [ID (строка)](id-string.md)
     
-- [TokenType (ClientAccessTokenType)](tokentype-clientaccesstokentype.md)
+- [Токентипе (Клиентакцесстокентипе)](tokentype-clientaccesstokentype.md)
     
-- [TokenValue](tokenvalue.md)
+- [токенвалуе](tokenvalue.md)
     
-- [TTL (ClientAccessTokenTypeType)](ttl-clientaccesstokentypetype.md)
+- [TTL (Клиентакцесстокентипетипе)](ttl-clientaccesstokentypetype.md)
     
-## <a name="getclientaccesstoken-operation-error-response"></a>Ошибка операции GetClientAccessToken ответа
+## <a name="getclientaccesstoken-operation-error-response"></a>Ответ об ошибке операции GetClientAccessToken
 
-В следующем примере показано ошибочный ответ на запрос операции **GetClientAccessToken** . Это ответ на запрос для получения обратного вызова расширение маркеров без соответствующих разрешений. 
+В следующем примере показан ответ об ошибке для запроса операции **GetClientAccessToken** . Это ответ на запрос на получение маркера обратного вызова расширения без соответствующих разрешений. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -170,21 +170,21 @@ ms.locfileid: "19762713"
 </s:Envelope>
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [GetClientAccessTokenResponse](getclientaccesstokenresponse.md)
+- [жетклиентакцесстокенреспонсе](getclientaccesstokenresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetClientAccessTokenResponseMessage](getclientaccesstokenresponsemessage.md)
+- [жетклиентакцесстокенреспонсемессаже](getclientaccesstokenresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

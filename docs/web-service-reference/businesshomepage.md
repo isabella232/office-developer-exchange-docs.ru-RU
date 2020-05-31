@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: d7e16e32-c811-42d1-b6e9-cd9b7fbf3e0c
-description: Элемент BusinessHomePage представляет Домашняя страница (веб-адрес) для этого контакта.
+description: Элемент Бусинесшомепаже представляет домашнюю страницу (веб-адрес) контакта.
 ms.openlocfilehash: 2bd8fc791177116aed364dff9cd3e2e3c6dd0132
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,16 +21,16 @@ ms.locfileid: "19761604"
 ---
 # <a name="businesshomepage"></a>BusinessHomePage
 
-Элемент **BusinessHomePage** представляет Домашняя страница (веб-адрес) для этого контакта. 
+Элемент **бусинесшомепаже** представляет домашнюю страницу (веб-адрес) контакта. 
   
 ```xml
 <BusinessHomePage/>
 ```
 
- **AnyUri**
+ **анюри**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,9 +48,9 @@ ms.locfileid: "19761604"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет универсальный код ресурса (URI) для домашней страницы.
+Текстовое значение представляет собой универсальный код ресурса (URI) для домашней страницы.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19761604"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,5 +70,5 @@ ms.locfileid: "19761604"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

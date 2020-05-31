@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1a5bca89-0769-4497-8ca0-4e6b908f8eaa
-description: Элемент отдела представляет отдел контакта на работе.
+description: Элемент Department представляет подразделение контакта на рабочем месте.
 ms.openlocfilehash: 5dc66632b999106689c0741b7738bebd6e9ae2f9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,16 +21,16 @@ ms.locfileid: "19762068"
 ---
 # <a name="department"></a>Отдел
 
-Элемент **отдела** представляет отдел контакта на работе. 
+Элемент **Department** представляет подразделение контакта на рабочем месте. 
   
 ```xml
 <Department/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,9 +48,9 @@ ms.locfileid: "19762068"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным.
+Необходимо указать текстовое значение.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -60,10 +60,10 @@ ms.locfileid: "19762068"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

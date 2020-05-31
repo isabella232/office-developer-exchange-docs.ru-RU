@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8da17226-5d3a-4525-9ffa-d83730f47bb1
-description: Найдите сведения о веб-служб Exchange GetUserAvailability операции.
+description: Поиск сведений о GetUserAvailabilityной операции EWS.
 ms.openlocfilehash: 41246fe22bfb7444cd4aa7b1d4651d475dd9231c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,39 +21,39 @@ ms.locfileid: "19833686"
 ---
 # <a name="getuseravailability-operation"></a>Операция GetUserAvailability
 
-Найдите сведения о операция **GetUserAvailability** веб-служб Exchange. 
+Поиск сведений о **GetUserAvailabilityной** операции EWS. 
   
-Операция **GetUserAvailability** приведены подробные сведения о доступности из набора пользователей, помещений и ресурсов внутри заданного периода времени. 
+Операция **GetUserAvailability** предоставляет подробные сведения о доступности набора пользователей, помещений и ресурсов в течение заданного периода времени. 
   
-## <a name="using-the-getuseravailability-operation"></a>С помощью операции GetUserAvailability
+## <a name="using-the-getuseravailability-operation"></a>Использование операции GetUserAvailability
 
-Операция **GetUserAvailability** предоставляет сведения о доступности текущего пользователя на указанном уровне детализации. Клиентские приложения, такие как Outlook, Outlook Web Access, Outlook Mobile Access и другим пользователям использовать SMTP-адреса для идентификации сведения запрошенного пользователя. 
+Операция **GetUserAvailability** предоставляет сведения о доступности текущих пользователей на указанном уровне детализации. Клиентские приложения, такие как Outlook, Outlook Web Access, Outlook Mobile Access и другие, используют адреса SMTP для идентификации запрашиваемых сведений о пользователях. 
   
-Служба доступности расширяет списки рассылки, чтобы получить состояние сведений о доступности для каждого элемента списка, до тех пор, пока число почтовых ящиков в список рассылки — это меньше, чем 100, максимальное число идентификаторов, **GetUserAvailability **операции можно запросить. Состояния занятости членов списка рассылки будут объединены одного состояния занятости для списка рассылки целиком. 
+Служба доступности расширяет списки рассылки для получения сведений о доступности для каждого участника списка, если количество почтовых ящиков в списке рассылки меньше 100, что является максимальным количеством идентификаторов, которые может запросить операция **GetUserAvailability** . Сведения о доступности участников списка рассылки объединяются в один статус занятости для всего списка рассылки. 
   
-Запросы клиентов приложения укажите период времени доступности запрос. Значение по умолчанию промежуток времени для запрошенные данные — 42 дня. Если календарь пользователя содержит встречи или собрания, которые являются как внутри, так и за пределами за определенный период для запроса, возвращается встречи. 
+В запросах клиентского приложения указывается период времени, в течение которого запрос доступности. По умолчанию для запрашиваемых сведений используется период времени 42 дней. Если календарь пользователя содержит встречи или собрания, которые находятся в определенном периоде времени и не выходят за него, возвращается встреча. 
   
-Время встречи и собрания, возвращенных находятся в другом часовом поясе по клиентское приложение, которое запрашивает собрания.
+Возвращаемые время встреч и собраний находятся в том же часовом поясе, что и клиентское приложение, запрашивающее собрание.
   
-Служба доступности обрабатывает запрос для каждого клиента. Служба расширяет повторяющихся встреч и возвращает максимальное количество сведений календаря, для которых есть разрешение на получение запрашивающего клиента.
+Служба доступности обрабатывает запрос для каждого клиента. Служба развертывает все повторяющиеся встречи и возвращает максимальное количество сведений о календаре, которое у запрашивающего клиента имеет разрешение на получение.
   
 > [!NOTE]
-> Если целевой почтовый ящик недоступен или не удается найти, **MailRecipientNotFoundException** исключение. Клиент получает сообщение об ошибке о том, что получатель не найден в службе каталогов Active Directory или доменных служб Active Directory (AD DS). 
+> Если целевой почтовый ящик недоступен или не может быть найден, создается исключение **маилреЦипиентнотфаундексцептион** . Клиент получает сообщение об ошибке, в котором говорится, что получатель не найден в службе каталогов Active Directory или в доменных службах Active Directory (AD DS). 
   
-### <a name="getuseravailability-operation-soap-headers"></a>Заголовки SOAP операция GetUserAvailability
+### <a name="getuseravailability-operation-soap-headers"></a>Заголовки SOAP операции GetUserAvailability
 
-Операция **GetUserAvailability** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **GetUserAvailability** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения клиента. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
-|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Задает заголовок SOAP, который определяет часовой пояс, который будет использоваться для всех ответов с сервера. Все значения времени, возвращаемые с сервера будут преобразованы в указанном часовом поясе. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Определяет пользователя, который олицетворяет клиент. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**тимезонеконтекст** <br/> |[тимезонеконтекст](timezonecontext.md) <br/> |Указывает заголовок SOAP, определяющий часовой пояс, который будет использоваться для всех ответов сервера. Все значения времени, возвращаемые с сервера, будут преобразованы в указанный часовой пояс. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="getuseravailability-request-example-get-availability-information"></a>Пример запроса GetUserAvailability: получение данных о доступности
+## <a name="getuseravailability-request-example-get-availability-information"></a>Пример запроса GetUserAvailability: получение сведений о доступности
 
-В следующем примере запрос операция **GetUserAvailability** показано, как получить сведения о доступности подробные для двух пользователей в часовом поясе по тихоокеанскому времени. 
+В приведенном ниже примере запроса операции **GetUserAvailability** показано, как получить подробные сведения о доступности для двух пользователей в часовом поясе по тихоокеанскому времени. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -110,56 +110,56 @@ ms.locfileid: "19833686"
 </soap:Envelope>
 ```
 
-Дополнительные сведения о получении предложенного собрания с помощью элемента [SuggestionsViewOptions](suggestionsviewoptions.md) можно схемы в виртуальном каталоге веб-служб Exchange. 
+Дополнительные сведения о получении предложенных собраний с помощью элемента [сугжестионсвиевоптионс](suggestionsviewoptions.md) можно найти в схеме в виртуальном каталоге EWS. 
   
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
-- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
     
 - [Часовой пояс (доступность)](timezone-availability.md)
     
-- [Смещение (UTC)](bias-utc.md)
+- [Сдвиг (UTC)](bias-utc.md)
     
 - [StandardTime](standardtime.md)
     
-- [Уровень защиты](bias.md)
+- [Bias](bias.md)
     
 - [Time](time.md)
     
-- [DayOrder](dayorder.md)
+- [дайордер](dayorder.md)
     
-- [Месяц](month.md)
+- [Month](month.md)
     
-- [DayOfWeek (часовой пояс)](dayofweek-timezone.md)
+- [DayOfWeek (TimeZone)](dayofweek-timezone.md)
     
 - [DaylightTime](daylighttime.md)
     
-- [MailboxDataArray](mailboxdataarray.md)
+- [маилбоксдатааррай](mailboxdataarray.md)
     
 - [MailboxData](mailboxdata.md)
     
-- [Электронной почты (EmailAddressType)](email-emailaddresstype.md)
+- [Электронная почта (EmailAddressType)](email-emailaddresstype.md)
     
-- [Адрес (строка)](address-string.md)
+- [Address (строка)](address-string.md)
     
 - [AttendeeType](attendeetype.md)
     
-- [ExcludeConflicts](excludeconflicts.md)
+- [ексклудеконфликтс](excludeconflicts.md)
     
-- [FreeBusyViewOptions](freebusyviewoptions.md)
+- [фрибусивиевоптионс](freebusyviewoptions.md)
     
-- [Значение TimeWindow](timewindow.md)
+- [TimeWindow](timewindow.md)
     
-- [Время начала](starttime.md)
+- [StartTime](starttime.md)
     
-- [Время окончания](endtime.md)
+- [EndTime](endtime.md)
     
-## <a name="successful-getuseravailability-operation-response"></a>Успешного ответа операция GetUserAvailability
+## <a name="successful-getuseravailability-operation-response"></a>Успешный отклик операции GetUserAvailability
 
-В следующем примере показано успешного ответа на запрос операция **GetUserAvailability** . 
+В следующем примере показан успешный ответ на запрос операции **GetUserAvailability** . 
   
 > [!NOTE]
-> Идентификаторы событий календаря URL-были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификаторы событий календаря были сокращены для сохранения удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -303,87 +303,87 @@ ms.locfileid: "19833686"
 </soap:Envelope>
 ```
 
-Сведения о доступности для каждого пользователя отображается в элементе уникальный [FreeBusyResponse](freebusyresponse.md) . Порядок пользователей в запросе операция **GetUserAvailability** определяет приоритет данных о доступности для каждого пользователя в ответе. 
+Сведения о доступности для каждого пользователя отображаются в уникальном элементе [фрибусиреспонсе](freebusyresponse.md) . Порядок пользователей в запросе операции **GetUserAvailability** определяет порядок данных о доступности для каждого пользователя в отклике. 
   
-Ошибка будут возвращены клиенту, если число встреч в период времени, определенного в запросе превышает максимальное время, указанное администратором. По умолчанию максимальное число встреч — 10 000 отдельные экземпляры и расширенное повторяющихся элементов. Это свойство можно настроить только администратором.
+В клиенте возвращается сообщение об ошибке, если количество встреч в периоде времени, определенном в запросе, превышает максимальное число, указанное администратором. По умолчанию максимальное число встреч составляет 10 000 одиночных экземпляров и расширенных элементов повторения. Это свойство можно настроить только администратором.
   
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
     
-- [FreeBusyResponseArray](freebusyresponsearray.md)
+- [фрибусиреспонсеаррай](freebusyresponsearray.md)
     
-- [FreeBusyResponse](freebusyresponse.md)
+- [фрибусиреспонсе](freebusyresponse.md)
     
-- [ResponseMessage](responsemessage.md)
+- [респонсемессаже](responsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [FreeBusyView](freebusyview.md)
+- [фрибусивиев](freebusyview.md)
     
-- [FreeBusyViewType](freebusyviewtype.md)
+- [фрибусивиевтипе](freebusyviewtype.md)
     
-- [MergedFreeBusy](mergedfreebusy.md)
+- [мержедфрибуси](mergedfreebusy.md)
     
-- [CalendarEventArray](calendareventarray.md)
+- [календаревентаррай](calendareventarray.md)
     
-- [CalendarEvent](calendarevent.md)
+- [календаревент](calendarevent.md)
     
-- [Время начала](starttime.md)
+- [StartTime](starttime.md)
     
-- [Время окончания](endtime.md)
+- [EndTime](endtime.md)
     
-- [BusyType](busytype.md)
+- [буситипе](busytype.md)
     
-- [CalendarEventDetails](calendareventdetails.md)
+- [календаревентдетаилс](calendareventdetails.md)
     
 - [ИД](id.md)
     
-- [Тема (CalendarEventDetails)](subject-calendareventdetails.md)
+- [Subject (Календаревентдетаилс)](subject-calendareventdetails.md)
     
-- [Расположение (CalendarEventDetails)](location-calendareventdetails.md)
+- [Местоположение (Календаревентдетаилс)](location-calendareventdetails.md)
     
-- [IsMeeting (CalendarEventDetails)](ismeeting-calendareventdetails.md)
+- [Проведенное собрание (Календаревентдетаилс)](ismeeting-calendareventdetails.md)
     
-- [IsRecurring (CalendarEventDetails)](isrecurring-calendareventdetails.md)
+- [IsRecurring (Календаревентдетаилс)](isrecurring-calendareventdetails.md)
     
-- [IsException](isexception.md)
+- [Исключение](isexception.md)
     
-- [IsReminderSet](isreminderset.md)
+- [Попамятка](isreminderset.md)
     
-- [IsPrivate](isprivate.md)
+- [Частный](isprivate.md)
     
-- [WorkingHours](workinghours-ex15websvcsotherref.md)
+- [воркингхаурс](workinghours-ex15websvcsotherref.md)
     
 - [Часовой пояс (доступность)](timezone-availability.md)
     
-- [Смещение (UTC)](bias-utc.md)
+- [Сдвиг (UTC)](bias-utc.md)
     
 - [StandardTime](standardtime.md)
     
-- [Уровень защиты](bias.md)
+- [Bias](bias.md)
     
 - [Time](time.md)
     
-- [DayOrder](dayorder.md)
+- [дайордер](dayorder.md)
     
-- [Месяц](month.md)
+- [Month](month.md)
     
-- [DayOfWeek (часовой пояс)](dayofweek-timezone.md)
+- [DayOfWeek (TimeZone)](dayofweek-timezone.md)
     
 - [DaylightTime](daylighttime.md)
     
-- [WorkingPeriodArray](workingperiodarray.md)
+- [воркингпериодаррай](workingperiodarray.md)
     
-- [WorkingPeriod](workingperiod.md)
+- [воркингпериод](workingperiod.md)
     
-- [DayOfWeek (WorkingPeriod)](dayofweek-workingperiod.md)
+- [DayOfWeek (Воркингпериод)](dayofweek-workingperiod.md)
     
-- [StartTimeInMinutes](starttimeinminutes.md)
+- [старттимеинминутес](starttimeinminutes.md)
     
-- [EndTimeInMinutes](endtimeinminutes.md)
+- [ендтимеинминутес](endtimeinminutes.md)
     
 ## <a name="see-also"></a>См. также
 

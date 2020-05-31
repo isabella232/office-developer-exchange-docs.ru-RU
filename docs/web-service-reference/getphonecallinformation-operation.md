@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 418bd6ca-39d9-49a9-841e-7a71ede1fa51
-description: Операция GetPhoneCallInformation возвращает сведения об указанном телефонный звонок.
+description: Операция GetPhoneCallInformation возвращает сведения об указанном телефонном звонке.
 ms.openlocfilehash: 8f98ca5dd304eadffc307fa47620b7db6401c782
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19762894"
 ---
 # <a name="getphonecallinformation-operation"></a>Операция GetPhoneCallInformation
 
-Операция **GetPhoneCallInformation** возвращает сведения об указанном телефонный звонок. 
+Операция **GetPhoneCallInformation** возвращает сведения об указанном телефонном звонке. 
   
 ## <a name="getphonecallinformation-request-example"></a>Пример запроса GetPhoneCallInformation
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **GetPhoneCallInformation** показано, как для формирования запроса для получения сведений о конкретных телефонный звонок. 
+В следующем примере запроса **GetPhoneCallInformation** показано, как сформировать запрос для получения сведений об определенном телефонном звонке. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,13 +49,13 @@ ms.locfileid: "19762894"
 </soap:Envelope>
 ```
 
-## <a name="getphonecallinformation-response-example"></a>Пример ответа GetPhoneCallInformation
+## <a name="getphonecallinformation-response-example"></a>Пример отклика GetPhoneCallInformation
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **GetPhoneCallInformation** . Ответ представляет телефонный звонок, который подключен. 
+В следующем примере показан успешный ответ на запрос **GetPhoneCallInformation** . Ответ представляет телефонный звонок, который в настоящее время подключен. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

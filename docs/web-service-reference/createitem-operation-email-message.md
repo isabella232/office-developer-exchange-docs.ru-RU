@@ -1,5 +1,5 @@
 ---
-title: Операции CreateItem (сообщение электронной почты)
+title: Операция CreateItem (сообщение электронной почты)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1
-description: Операции CreateItem используется для создания сообщений электронной почты.
+description: Операция CreateItem используется для создания сообщений электронной почты.
 ms.openlocfilehash: 591209165cfbafc2d5f4036dd8fab6659523a044
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761893"
 ---
-# <a name="createitem-operation-email-message"></a>Операции CreateItem (сообщение электронной почты)
+# <a name="createitem-operation-email-message"></a>Операция CreateItem (сообщение электронной почты)
 
-Операции CreateItem используется для создания сообщений электронной почты.
+Операция CreateItem используется для создания сообщений электронной почты.
   
 ## <a name="createitem-request-example"></a>Пример запроса CreateItem
 
 ### <a name="description"></a>Описание
 
-Запрос CreateItem в следующем примере показано, как создать новое сообщение электронной почты, отправлять сообщения и сохраните его в папке "Черновики".
+В следующем примере запроса CreateItem показано, как создать новое сообщение электронной почты, отправить сообщение и сохранить его копию в папке "Черновики".
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -58,41 +58,41 @@ ms.locfileid: "19761893"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы: 
   
 - [CreateItem](createitem.md)
     
-- [SavedItemFolderId](saveditemfolderid.md)
+- [саведитемфолдерид](saveditemfolderid.md)
     
-- [Элементы (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
+- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
 - [ItemClass](itemclass.md)
     
-- [Subject](subject.md)
+- [Тема](subject.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
 - [ToRecipients](torecipients.md)
     
 - [Mailbox](mailbox.md)
     
-- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
     
 - [IsRead](isread.md)
     
-Чтобы найти другие параметры для сообщения запроса на выполнение операции CreateItem, изучите иерархия схемы. Начать с [CreateItem](createitem.md) элемента. 
+Чтобы найти другие параметры сообщения Request операции CreateItem, изучите иерархию схемы. Начните с элемента [CreateItem](createitem.md) . 
   
-## <a name="successful-createitem-response"></a>Успешные CreateItem ответа
+## <a name="successful-createitem-response"></a>Успешный отклик CreateItem
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос CreateItem.
+В следующем примере показан успешный ответ на запрос CreateItem.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -119,27 +119,27 @@ ms.locfileid: "19761893"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе включены следующие элементы: 
+В ответ включаются следующие элементы: 
   
-- [CreateItemResponse](createitemresponse.md)
+- [креатеитемреспонсе](createitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateItemResponseMessage](createitemresponsemessage.md)
+- [креатеитемреспонсемессаже](createitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-Чтобы найти другие параметры в сообщении ответа операции CreateItem, изучите иерархия схемы. Запустите в элементе [CreateItemResponse](createitemresponse.md) . 
+Чтобы найти другие параметры для ответного сообщения операции CreateItem, изучите иерархию схемы. Начните с элемента [креатеитемреспонсе](createitemresponse.md) . 
   
-## <a name="error-createitem-response"></a>Ошибка CreateItem ответа
+## <a name="error-createitem-response"></a>Ошибка CreateItem Response
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос CreateItem.
+В следующем примере показан ответ об ошибке для запроса CreateItem.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -166,29 +166,29 @@ ms.locfileid: "19761893"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы: 
+В ответе на сообщение об ошибке используются следующие элементы: 
   
-- [CreateItemResponse](createitemresponse.md)
+- [креатеитемреспонсе](createitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateItemResponseMessage](createitemresponsemessage.md)
+- [креатеитемреспонсемессаже](createitemresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-Чтобы найти другие параметры в сообщении об ошибке ответа операции CreateItem, изучите иерархия схемы. Запустите в элементе [CreateItemResponse](createitemresponse.md) . 
+Чтобы найти другие варианты сообщения об ошибке при выполнении операции CreateItem, изучите иерархию схемы. Начните с элемента [креатеитемреспонсе](createitemresponse.md) . 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[CreateItem Operation](createitem-operation.md)
+[Операция CreateItem](createitem-operation.md)
 

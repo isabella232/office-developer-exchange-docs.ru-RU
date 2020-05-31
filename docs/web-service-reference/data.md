@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f875e6c2-be18-439a-a7b1-bb49a149b538
-description: Элемент Data содержит зашифрованные данные, представляющий общих данных.
+description: Элемент Data содержит зашифрованные данные, представляющие общие данные.
 ms.openlocfilehash: acd66691f16d11f41dee5efb9de03c129ff416c2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,20 +21,20 @@ ms.locfileid: "19761959"
 ---
 # <a name="data"></a>Данные
 
-Элемент **Data** содержит зашифрованные данные, представляющий общих данных. 
+Элемент **Data** содержит зашифрованные данные, представляющие общие данные. 
   
-- [EncryptedSharedFolderData](encryptedsharedfolderdata.md)  
-- [Данные](data.md)
+- [енкриптедшаредфолдердата](encryptedsharedfolderdata.md)  
+- [Data](data.md)
   
 ```xml
 <Data/>
 ```
 
-**EncryptedDataContainerType**
+**енкриптеддатаконтаинертипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,13 +48,13 @@ ms.locfileid: "19761959"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Содержит зашифрованные данные, которые клиент может использовать для авторизации, общий доступ к его календаря или контактов данных с помощью других клиентов.  <br/> |
+|[енкриптедшаредфолдердата](encryptedsharedfolderdata.md) <br/> |Содержит зашифрованные данные, которые клиент может использовать для авторизации общего доступа к данным календаря или контактных данных с другими клиентами.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -64,7 +64,7 @@ ms.locfileid: "19761959"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

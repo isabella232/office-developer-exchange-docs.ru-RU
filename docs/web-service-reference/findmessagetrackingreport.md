@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7ca6e2f7-aae1-4920-b839-73513ba8d4d8
-description: Элемент FindMessageTrackingReport указывает критерии для типов сообщений для поиска.
+description: Элемент FindMessageTrackingReport указывает условия для типов сообщений, которые требуется найти.
 ms.openlocfilehash: 77545121aa056992248c045af3f3d36566678b94
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19762584"
 ---
 # <a name="findmessagetrackingreport"></a>FindMessageTrackingReport
 
-Элемент **FindMessageTrackingReport** указывает критерии для типов сообщений для поиска. 
+Элемент **FindMessageTrackingReport** указывает условия для типов сообщений, которые требуется найти. 
   
 ```xml
 <FindMessageTrackingReport>
@@ -41,10 +41,10 @@ ms.locfileid: "19762584"
 </FindMessageTrackingReport>
 ```
 
- **FindMessageTrackingReportRequestType**
+ **финдмессажетраккингрепортрекуесттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -54,19 +54,19 @@ ms.locfileid: "19762584"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Область (NonEmptyStringType)](scope-nonemptystringtype.md) <br/> |Представляет, как широкое должны быть отчета отслеживания сообщений.  <br/> |
-|[Домен (отслеживания сообщений)](domain-message-tracking.md) <br/> |Содержит имя домена, в котором выполняется отслеживания сообщений.  <br/> |
-|[Отправитель (EmailAddressType)](sender-emailaddresstype.md) <br/> |Контактные сведения для отправителя сообщения электронной почты.  <br/> |
-|[PurportedSender](purportedsender.md) <br/> |Содержит контактные данные для утверждения отправителя сообщения электронной почты.  <br/> |
-|[Recipient](recipient.md) <br/> |Содержит адрес электронной почты получателя сообщения.  <br/> |
-|[Subject](subject.md) <br/> |Содержит тему сообщения электронной почты.  <br/> |
-|[StartDateTime](startdatetime.md) <br/> |Содержит начальную дату и время для поиска.  <br/> |
-|[EndDateTime](enddatetime.md) <br/> |Содержит конечную дату и время для поиска.  <br/> |
-|[Код сообщения](messageid.md) <br/> |Содержит идентификатор сообщения для поиска.  <br/> |
-|[FederatedDeliveryMailbox](federateddeliverymailbox.md) <br/> |Содержит имя почтового ящика, где нескольких локальных сообщение было отправлено.  <br/> |
-|[DiagnosticsLevel](diagnosticslevel.md) <br/> |Представляет уровень детализации для диагностических отчетов.  <br/> |
-|[ServerHint](serverhint.md) <br/> |Представляет собой отправную точку для отслеживания сообщений в удаленной сети или в лесу.  <br/> |
-|[Свойства (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Содержит список одного или нескольких свойств отслеживания. Этот элемент является необязательным.  <br/> |
+|[Область действия (Нонемптистрингтипе)](scope-nonemptystringtype.md) <br/> |Указывает, насколько обширным должен быть отчет об отслеживании сообщений.  <br/> |
+|[Domain (отслеживание сообщений)](domain-message-tracking.md) <br/> |Содержит имя домена, в котором выполняется отслеживание сообщений.  <br/> |
+|[Отправитель (EmailAddressType)](sender-emailaddresstype.md) <br/> |Содержит контактные данные отправителя сообщения электронной почты.  <br/> |
+|[пурпортедсендер](purportedsender.md) <br/> |Содержит контактные данные отправителя предполагаемым сообщения электронной почты.  <br/> |
+|[Получатель](recipient.md) <br/> |Содержит адрес электронной почты получателя сообщения.  <br/> |
+|[Тема](subject.md) <br/> |Содержит тему сообщения электронной почты.  <br/> |
+|[StartDateTime](startdatetime.md) <br/> |Содержит дату и время начала поиска.  <br/> |
+|[EndDateTime](enddatetime.md) <br/> |Содержит дату и время окончания поиска.  <br/> |
+|[MessageId](messageid.md) <br/> |Содержит идентификатор сообщения для поиска.  <br/> |
+|[федератедделиверимаилбокс](federateddeliverymailbox.md) <br/> |Содержит имя почтового ящика, в котором было отправлено сообщение, переданное в другом месте.  <br/> |
+|[диагностикслевел](diagnosticslevel.md) <br/> |Представляет уровень детализации для диагностических отчетов.  <br/> |
+|[серверхинт](serverhint.md) <br/> |Представляет отправную точку для отслеживания сообщения на удаленном сайте или в лесу.  <br/> |
+|[Свойства (Аррайофтраккингпропертиестипе)](properties-arrayoftrackingpropertiestype.md) <br/> |Содержит список одного или нескольких свойств отслеживания. Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -76,7 +76,7 @@ ms.locfileid: "19762584"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -86,7 +86,7 @@ ms.locfileid: "19762584"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

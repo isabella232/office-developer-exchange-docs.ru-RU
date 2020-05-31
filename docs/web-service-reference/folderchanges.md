@@ -1,5 +1,5 @@
 ---
-title: FolderChanges
+title: фолдерчанжес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: d3f611ed-56a4-43f8-aa65-cbd7844b827f
-description: Элемент FolderChanges представляет коллекцию изменений для папки.
+description: Элемент Фолдерчанжес представляет коллекцию изменений для папки.
 ms.openlocfilehash: 7ab89e79f6babb5e93863974835685c6975d96dd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762611"
 ---
-# <a name="folderchanges"></a>FolderChanges
+# <a name="folderchanges"></a>фолдерчанжес
 
-Элемент **FolderChanges** представляет коллекцию изменений для папки. 
+Элемент **фолдерчанжес** представляет коллекцию изменений для папки. 
   
 [UpdateFolder](updatefolder.md)
   
-[FolderChanges](folderchanges.md)
+[фолдерчанжес](folderchanges.md)
   
 ```xml
 <FolderChanges>
@@ -33,10 +33,10 @@ ms.locfileid: "19762611"
 </FolderChanges>
 ```
 
- **NonEmptyArrayOfFolderChangesType**
+ **нонемптяррайоффолдерчанжестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -46,15 +46,15 @@ ms.locfileid: "19762611"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderChange](folderchange.md) <br/> |Представляет одно изменение выполняется на одной папке.  <br/> |
+|[FolderChange](folderchange.md) <br/> |Представляет одно изменение, которое необходимо выполнить для одной папки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UpdateFolder](updatefolder.md) <br/> |Представляет операцию, которая используется для обновления свойств для папки.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/UpdateFolder` <br/> |
+|[UpdateFolder](updatefolder.md) <br/> |Представляет операцию, используемую для обновления свойств папки.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/UpdateFolder` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -64,12 +64,12 @@ ms.locfileid: "19762611"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операцию UpdateFolder](updatefolder-operation.md)
+[Операция UpdateFolder](updatefolder-operation.md)
 

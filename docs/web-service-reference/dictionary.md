@@ -1,5 +1,5 @@
 ---
-title: словаря
+title: Dictionary
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8309e468-115b-4d6e-b33c-c4719dcecc4c
-description: Элемент Dictionary определяет набор записи словаря свойства для объекта конфигурации пользователя.
+description: Элемент Dictionary определяет набор записей свойств словаря для объекта конфигурации пользователя.
 ms.openlocfilehash: 151abfe7a9a9ae05b8b61af87c33675e025920ec
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762093"
 ---
-# <a name="dictionary"></a>словаря
+# <a name="dictionary"></a>Dictionary
 
-Элемент **Dictionary** определяет набор записи словаря свойства для объекта конфигурации пользователя. 
+Элемент **Dictionary** определяет набор записей свойств словаря для объекта конфигурации пользователя. 
   
 ```xml
 <Dictionary>
@@ -29,10 +29,10 @@ ms.locfileid: "19762093"
 </Dictionary>
 ```
 
- **UserConfigurationDictionaryType**
+ **усерконфигуратиондиктионаритипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,19 +42,19 @@ ms.locfileid: "19762093"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DictionaryEntry](dictionaryentry.md) <br/> |Задает содержимое свойства запись одного словаря.  <br/> |
+|[диктионарентри](dictionaryentry.md) <br/> |Задает содержимое одного свойства записи словаря.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UserConfiguration](userconfiguration.md) <br/> |Определяет объект конфигурации одного пользователя.  <br/> |
+|[усерконфигуратион](userconfiguration.md) <br/> |Определяет один объект конфигурации пользователя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -64,7 +64,7 @@ ms.locfileid: "19762093"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

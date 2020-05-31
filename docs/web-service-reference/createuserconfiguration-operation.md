@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: eb5b8ab6-9743-481c-aac9-f9aa889bd353
-description: Операция CreateUserConfiguration создает объект конфигурации пользователя на папку.
+description: Операция CreateUserConfiguration создает объект конфигурации пользователя для папки.
 ms.openlocfilehash: 5f0eb7d18736008af39199cbc52cc3a6e6abda09
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19761913"
 ---
 # <a name="createuserconfiguration-operation"></a>Операция CreateUserConfiguration
 
-Операция **CreateUserConfiguration** создает объект конфигурации пользователя на папку. 
+Операция **CreateUserConfiguration** создает объект конфигурации пользователя для папки. 
   
 ## <a name="createuserconfiguration-request-example"></a>Пример запроса CreateUserConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **CreateUserConfiguration** показано, как для формирования запроса для создания объекта конфигурации пользователя в папке "Черновики". 
+В приведенном ниже примере запроса **CreateUserConfiguration** показано, как сформировать запрос на создание объекта конфигурации пользователя в папке "Черновики". 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -67,13 +67,13 @@ ms.locfileid: "19761913"
 </soap:Envelope>
 ```
 
-## <a name="createuserconfiguration-response-example"></a>Пример ответа CreateUserConfiguration
+## <a name="createuserconfiguration-response-example"></a>Пример отклика CreateUserConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **CreateUserConfiguration** . 
+В следующем примере показан успешный ответ на запрос **CreateUserConfiguration** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

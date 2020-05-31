@@ -1,5 +1,5 @@
 ---
-title: EffectiveRights
+title: еффективеригхтс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: bf5278eb-3a1a-4d27-9d16-b8be043bb023
-description: Элемент EffectiveRights содержит права клиента на основании параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.
+description: Элемент Еффективеригхтс содержит права клиента в зависимости от параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.
 ms.openlocfilehash: 610d9e214a8de648ece667799bb5e67dfcc358f7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762262"
 ---
-# <a name="effectiverights"></a>EffectiveRights
+# <a name="effectiverights"></a>еффективеригхтс
 
-Элемент **EffectiveRights** содержит права клиента на основании параметров разрешений для элемента или папки. Этот элемент доступен только для чтения. 
+Элемент **еффективеригхтс** содержит права клиента в зависимости от параметров разрешений для элемента или папки. Этот элемент доступен только для чтения. 
   
 ```XML
 <EffectiveRights>
@@ -35,10 +35,10 @@ ms.locfileid: "19762262"
 </EffectiveRights>
 ```
 
- **EffectiveRightsType**
+ **еффективеригхтстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,44 +48,44 @@ ms.locfileid: "19762262"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CreateAssociated](createassociated.md) <br/> |Указывает ли клиента можно создать таблицу связанного содержимого. Это свойство используется только для объектов папки.  <br/> |
-|[CreateContents](createcontents.md) <br/> |Указывает ли клиента можно создать таблицу содержимого. Это свойство используется только для объектов папки.  <br/> |
-|[CreateHierarchy](createhierarchy.md) <br/> |Указывает ли клиента можно создать таблицу иерархии. Это свойство используется только для объектов папки.  <br/> |
-|[удаление](delete.md); <br/> |Указывает, будет ли это клиент можно удалить папку или элемент.  <br/> |
-|[Изменение](modify.md) <br/> |Указывает, будет ли это клиент можно изменить папку или элемент.  <br/> |
-|[Чтение](read.md) <br/> |Указывает, будет ли это клиент могут читать папку или элемент.  <br/> |
-|[ViewPrivateItems](viewprivateitems.md) <br/> |Указывает ли закрытый элемент можно просмотреть.  <br/> |
+|[креатеассоЦиатед](createassociated.md) <br/> |Указывает, может ли клиент создать связанную таблицу содержимого. Это свойство используется только для объектов Folder.  <br/> |
+|[креатеконтентс](createcontents.md) <br/> |Указывает, может ли клиент создать таблицу содержимого. Это свойство используется только для объектов Folder.  <br/> |
+|[креатехиерарчи](createhierarchy.md) <br/> |Указывает, может ли клиент создать таблицу иерархии. Это свойство используется только для объектов Folder.  <br/> |
+|[удаление](delete.md); <br/> |Указывает, может ли клиент удалить папку или элемент.  <br/> |
+|[Modify](modify.md) <br/> |Указывает, может ли клиент изменить папку или элемент.  <br/> |
+|[Чтение](read.md) <br/> |Указывает, может ли клиент прочитать папку или элемент.  <br/> |
+|[виевприватеитемс](viewprivateitems.md) <br/> |Указывает, можно ли просматривать закрытый элемент.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |Представляет папку в почтовом ящике.  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |Представляет папку задачи в почтовом ящике.  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |Представляет папку контактов в почтовом ящике.  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |Представляет папку Календарь в почтовом ящике.  <br/> |
+|[тасксфолдер](tasksfolder.md) <br/> |Представляет папку Tasks в почтовом ящике.  <br/> |
+|[контактсфолдер](contactsfolder.md) <br/> |Представляет папку "Контакты" в почтовом ящике.  <br/> |
+|[календарфолдер](calendarfolder.md) <br/> |Представляет папку "Календарь" в почтовом ящике.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска в почтовом ящике.  <br/> |
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
-|[Элемент](item.md) <br/> |Представляет универсальный элемент Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[Элемент](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Представляет элемент post в хранилище Exchange.  <br/> |
+|[PostItem](postitem.md) <br/> |Представляет элемент POST в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-**EffectiveRights** поддерживается в ответы GetFolder, GetItem, FindFolder, FindItem, SyncFolderHierarchy и SyncFolderItems. Свойство **EffectiveRights** предоставляется в фигуре **AllProperties** для папок и элементов. 
+**Еффективеригхтс** поддерживается в ответах на GetItem, GetItem, FindFolder, FindItem, SyncFolderHierarchy и SyncFolderItems. Свойство **еффективеригхтс** отображается в фигуре **аллпропертиес** для папок и элементов. 
   
-Это свойство **EffectiveRights** предоставляет доступ к те же данные, предоставляемая в свойстве **PR_ACCESS MAPI** . 
+Это свойство **еффективеригхтс** предоставляет доступ к тем же сведениям, что и в свойстве **MAPI PR_ACCESS** . 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -95,7 +95,7 @@ ms.locfileid: "19762262"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

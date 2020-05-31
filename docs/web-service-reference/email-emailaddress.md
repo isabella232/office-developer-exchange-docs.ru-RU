@@ -1,5 +1,5 @@
 ---
-title: Электронной почты (EmailAddress)
+title: Электронная почта (EmailAddress)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c40a6b6-e2d1-44ba-b439-5720490cbd43
-description: Элемент Email идентифицирует участника собрания.
+description: Элемент email определяет участника собрания.
 ms.openlocfilehash: 8b95aa066d545a579ec3c14627d99dd0e326477e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762267"
 ---
-# <a name="email-emailaddress"></a>Электронной почты (EmailAddress)
+# <a name="email-emailaddress"></a>Электронная почта (EmailAddress)
 
-Элемент **Email** идентифицирует участника собрания. 
+Элемент **Email** определяет участника собрания. 
   
 ```XML
 <Email></Email>
@@ -26,7 +26,7 @@ ms.locfileid: "19762267"
  **EmailAddress**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19762267"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента электронной почты определяет участников, возвращенных в ответе операция **GetUserAvailability** . 
+Текстовое значение элемента email определяет участника, возвращаемого в ответе операции **GetUserAvailability** . 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19762267"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

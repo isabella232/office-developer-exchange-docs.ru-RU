@@ -1,5 +1,5 @@
 ---
-title: ArchiveItemResponse
+title: арчивеитемреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 68109a92-c49e-4c0e-b6ec-e90d38d4be4d
-description: Элемент ArchiveItemResponse указывает ответ на запрос ArchiveItem.
+description: Элемент Арчивеитемреспонсе указывает ответ на запрос ArchiveItem.
 ms.openlocfilehash: bfd1b9d76c2b49e00a82bd8f6f57742007d0adf7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761489"
 ---
-# <a name="archiveitemresponse"></a>ArchiveItemResponse
+# <a name="archiveitemresponse"></a>арчивеитемреспонсе
 
-Элемент **ArchiveItemResponse** указывает ответ на запрос **ArchiveItem** . 
+Элемент **арчивеитемреспонсе** указывает ответ на запрос **ArchiveItem** . 
   
 ```XML
 <ArchiveItemResponse>
@@ -25,10 +25,10 @@ ms.locfileid: "19761489"
 </ArchiveItemResponse>
 ```
 
- **ArchiveItemResponseType**
+ **арчивеитемреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19761489"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19761489"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 025483ec-a9f3-4735-8a95-d26e30ea7974
-description: Операция GetMailTips получает сведения о советы почты для указанного почтового ящика.
+description: Операция с подсказками получает сведения о почтовых подсказках для указанного почтового ящика.
 ms.openlocfilehash: 15c21bef90fdc4cbc6cd65512cdc078fcdf31e60
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19762844"
 ---
 # <a name="getmailtips-operation"></a>Операция GetMailTips
 
-Операция **GetMailTips** получает сведения о советы почты для указанного почтового ящика. 
+Операция с подсказками получает сведения о **почтовых** подсказках для указанного почтового ящика. 
   
-## <a name="getmailtips-request-example"></a>Пример запроса GetMailTips
+## <a name="getmailtips-request-example"></a>Пример запроса на получение почтовых подсказок
 
 ### <a name="description"></a>Описание
 
-Клиент создает XML-ФАЙЛ запроса и отправляет его на сервер. Запрос определяет лицо, которое отправляет клиенту как почтовый ящик для получения почтовые подсказки и запрашиваются какие почтовые подсказки. В этом примере клиент запрашивает возвращаться, что все почтовые подсказки для выбранного почтового ящика.
+Клиент создает XML-код запроса и отправляет его на сервер. Запрос определяет клиента, который отправляется как, почтовый ящик для получения советов и советов по использованию электронной почты. В этом примере клиент запрашивает возвращение всех почтовых подсказок для выбранного почтового ящика.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -58,25 +58,25 @@ ms.locfileid: "19762844"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
-В запрос включаются следующие элементы:
+В запрос включены следующие элементы:
   
 - [GetMailTips](getmailtips.md)
     
-- [SendingAs](sendingas.md)
+- [сендингас](sendingas.md)
     
-- [Получатели (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md)
+- [Получатели (АррайофреЦипиентстипе)](recipients-arrayofrecipientstype.md)
     
-- [MailTipsRequested](mailtipsrequested.md)
+- [маилтипсрекуестед](mailtipsrequested.md)
     
-## <a name="successful-getmailtips-response-example"></a>Пример успешного ответа GetMailTips
+## <a name="successful-getmailtips-response-example"></a>Пример отклика успешных почтовых подсказок
 
 ### <a name="description"></a>Описание
 
-В следующем примере тело Simple Object Access Protocol (SOAP) показано успешного ответа на запрос **GetMailTips** . 
+В приведенном ниже примере кода SOAP показан успешный ответ **на запрос по** подсказке. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
@@ -122,13 +122,13 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Элементы ответа
+### <a name="response-elements"></a>Элементы Response
 
-В ответе включены следующие элементы:
+В ответ включаются следующие элементы:
   
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Почтовые подсказки](mailtips.md)
+- [Подсказки](mailtips.md)
     
 ## <a name="see-also"></a>См. также
 

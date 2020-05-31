@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 446106b7-ff2d-4107-90c1-29f4d38ba128
-description: Найдите сведения о веб-служб Exchange FindPeople операции.
+description: Поиск сведений о FindPeopleной операции EWS.
 ms.openlocfilehash: 97c34d7df590d20513e8f1ad476d62f16815a42b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,31 +17,31 @@ ms.locfileid: "19762590"
 ---
 # <a name="findpeople-operation"></a>Операция FindPeople
 
-Найдите сведения о **FindPeople** операции веб-служб Exchange. 
+Поиск сведений о **FindPeopleной** операции EWS. 
   
-Операция **FindPeople** возвращает все объекты пользователя из указанной папки контактов или получает контакты, соответствующие указанному запросу строки. 
+Операция **FindPeople** возвращает все объекты персоны из указанной папки контактов или получает контакты, которые совпадают с указанной строкой запроса. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-findpeople-operation"></a>С помощью операции FindPeople
+## <a name="using-the-findpeople-operation"></a>Использование операции FindPeople
 
-Операция **FindPeople** возвращает объединенные контактные сведения. 
+Операция **FindPeople** возвращает объединенные сведения о контакте. 
   
-Операция **FindPeople** построена на существующую функциональность [ограничение](restriction.md) и [BaseShape](baseshape.md) сложные типы, добавив ограничение объединение и возможность получить дополнительные свойства. С помощью ограничения клиента можно указать фильтры, такие как «возвращать только результаты с адресом обмена мгновенными Сообщениями». Параметры поиска по умолчанию предназначен для указанного пользователя личных почтовых ящиков и глобальный список адресов (GAL). При поиске в глобальном списке адресов как папки поиска, необходимо указать строку запроса вместо ограничение, поскольку эта операция не позволяет для просмотра глобального списка адресов. 
+Операция **FindPeople** строится на существующих функциональных возможностях сложных типов [restriction](restriction.md) и [басешапе](baseshape.md) , добавляя ограничение статистической обработки и возвращая возможность возврата дополнительных свойств. С помощью ограничения клиент может указать такие фильтры, как "только возвращаемые результаты с адресом для обмена мгновенными сообщениями". Поведение поиска по умолчанию предназначено для личного почтового ящика указанного пользователя и глобального списка адресов (GAL). При поиске в глобальном списке адресов в качестве основной папки поиска необходимо указать строку запроса вместо ограничения, так как эта операция не позволяет просматривать глобальный список адресов. 
   
-### <a name="findpeople-operation-soap-headers"></a>Заголовки SOAP FindPeople операции
+### <a name="findpeople-operation-soap-headers"></a>Заголовки SOAP операции FindPeople
 
-Операция **FindPeople** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **FindPeople** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="findpeople-operation-request-example"></a>Пример запроса FindPeople операции
+## <a name="findpeople-operation-request-example"></a>Пример запроса операции FindPeople
 
-В следующем примере запрос операции **FindPeople** показано, как возвратить первые 100 контакты из папки «Контакты». 
+В следующем примере запроса операции **FindPeople** показано, как вернуть первые 100 контактов из папки "Контакты". 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -62,17 +62,17 @@ ms.locfileid: "19762590"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [FindPeople](findpeople.md)
     
-- [IndexedPageItemView](indexedpageitemview.md)
+- [индекседпажеитемвиев](indexedpageitemview.md)
     
-- [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
+- [ParentFolderId (Таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
-В следующем примере запрос операции **FindPeople** показано, как возвратить первые 100 контактов из глобального списка адресов с помощью строки запроса. Установка **DistinguishedFolderId** «каталог» выполняет поиск глобального списка адресов как основной источник пользователей. 
+В приведенном ниже примере запроса операции **FindPeople** показано, как возвратить первые 100 контактов из глобального списка адресов с помощью строки запроса. Если задать для **дистингуишедфолдерид** значение "каталог", будет осуществляться поиск глобального источника адресов в глобальном списке адресов. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -101,9 +101,9 @@ ms.locfileid: "19762590"
 </soap:Envelope>
 ```
 
-## <a name="successful-findpeople-operation-response"></a>Успешные операции ответа FindPeople
+## <a name="successful-findpeople-operation-response"></a>Успешный отклик операции FindPeople
 
-В следующем примере показано успешного ответа на запрос операции **FindPeople** . 
+В следующем примере показан успешный ответ на запрос операции **FindPeople** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?><s:Envelope 
@@ -160,33 +160,33 @@ ms.locfileid: "19762590"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [FindPeopleResponse](findpeopleresponse.md)
+- [финдпеоплереспонсе](findpeopleresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Людей](people.md)
+- [Люди](people.md)
     
-- [Пользователь](persona.md)
+- [Роль](persona.md)
     
-- [PersonaId](personaid.md)
+- [персонаид](personaid.md)
     
 - [CreationTime](creationtime.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
-- [DisplayNameFirstLast](displaynamefirstlast.md)
+- [дисплайнамефирстласт](displaynamefirstlast.md)
     
-- [DisplayNameLastFirst](displaynamelastfirst.md)
+- [дисплайнамеластфирст](displaynamelastfirst.md)
     
 - [FileAs](fileas.md)
     
 - [GivenName](givenname.md)
     
-- [Фамилия](surname.md)
+- [ФИО](surname.md)
     
-- [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)
+- [EmailAddresses (Аррайофемаиладдрессестипе)](emailaddresses-arrayofemailaddressestype.md)
     
 - [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
     
@@ -194,15 +194,15 @@ ms.locfileid: "19762590"
     
 - [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md)
     
-- [RelevanceScore](relevancescore.md)
+- [релеванцескоре](relevancescore.md)
     
-- [TotalNumberOfPeopleInView](totalnumberofpeopleinview.md)
+- [тоталнумберофпеоплеинвиев](totalnumberofpeopleinview.md)
     
-## <a name="findpeople-operation-error-response"></a>Ошибка операции FindPeople ответа
+## <a name="findpeople-operation-error-response"></a>Ответ об ошибке операции FindPeople
 
-Коды ошибок, которые являются общими для веб-служб Exchange в разделе [ResponseCode](responsecode.md).
+Коды ошибок, являющиеся общими для EWS, представлены в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

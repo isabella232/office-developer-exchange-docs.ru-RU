@@ -1,5 +1,5 @@
 ---
-title: DisplayName (MasterMailboxType)
+title: DisplayName (Мастермаилбокстипе)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2866b1ec-64ba-4d18-9152-a09568d45aa7
-description: Элемент DisplayName (MasterMailboxType) предназначена только для внутреннего использования.
+description: Элемент DisplayName (Мастермаилбокстипе) предназначен только для внутреннего использования.
 ms.openlocfilehash: b90906f5bdd14f78110fbb26edde880659c02d22
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762159"
 ---
-# <a name="displayname-mastermailboxtype"></a>DisplayName (MasterMailboxType)
+# <a name="displayname-mastermailboxtype"></a>DisplayName (Мастермаилбокстипе)
 
-Элемент **DisplayName (MasterMailboxType)** предназначена только для внутреннего использования. 
+Элемент **DisplayName (мастермаилбокстипе)** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -35,7 +35,7 @@ ms.locfileid: "19762159"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

@@ -1,5 +1,5 @@
 ---
-title: GetFolder Operation
+title: Операция GetFolder
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 355bcf93-dc71-4493-b177-622afac5fdb9
-description: Операция GetFolder получает папок из хранилища Exchange.
+description: Операция с папкой возвращает папки из хранилища Exchange.
 ms.openlocfilehash: 1d2806e4febb6059b8a866d585bc70f49befbdef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762800"
 ---
-# <a name="getfolder-operation"></a>GetFolder Operation
+# <a name="getfolder-operation"></a>Операция GetFolder
 
-Операция **GetFolder** получает папок из хранилища Exchange. 
+Операция с **папкой** возвращает папки из хранилища Exchange. 
   
-## <a name="getfolder-request-example"></a>Пример запроса GetFolder
+## <a name="getfolder-request-example"></a>Пример запроса на получение вложенной папки
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **GetFolder** показано, как получить идентификатор папки, отображаются имя, число элементов в этой папке, количество дочерних папок и количество непрочитанных элементов в папке. 
+В приведенном ниже примере запроса на получение **папки** показано, как получить идентификатор папки, отображаемое имя, количество элементов в этой папке, количество дочерних папок и число непрочитанных элементов в папке. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,35 +49,35 @@ ms.locfileid: "19762800"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
-Этот запрос **GetFolder** включает следующие элементы: 
+Этот запрос на получение **вложений** включает следующие элементы: 
   
 - [GetFolder](getfolder.md)
     
-- [FolderShape](foldershape.md)
+- [фолдершапе](foldershape.md)
     
-- [BaseShape](baseshape.md)
+- [басешапе](baseshape.md)
     
-- [FolderIds](folderids.md)
+- [фолдеридс](folderids.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
-В разделе Схема дополнительных элементов, которые можно использовать для формирования запроса **GetFolder** . 
+В схеме представлены дополнительные элементы, которые можно использовать для создания запроса на получение **вложенной папки** . 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange. 
   
-## <a name="getfolder-response-example"></a>Пример ответа GetFolder
+## <a name="getfolder-response-example"></a>Пример ответа на папку GetResponse
 
 ### <a name="description"></a>Описание
 
-В следующем примере тело Simple Object Access Protocol (SOAP) показано успешного ответа на запрос **GetFolder** . 
+В приведенном ниже примере кода для протокола SOAP показан успешный ответ на запрос на получение **папки** . 
   
 > [!NOTE]
-> Идентификатор папки и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор папки и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
@@ -110,37 +110,37 @@ ms.locfileid: "19762800"
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a>Элементы ответа
+### <a name="response-elements"></a>Элементы Response
 
-В этом ответа **GetFolder** включает следующие элементы: 
+Этот ответ на **папку** содержит следующие элементы: 
   
-- [GetFolderResponse](getfolderresponse.md)
+- [жетфолдерреспонсе](getfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetFolderResponseMessage](getfolderresponsemessage.md)
+- [жетфолдерреспонсемессаже](getfolderresponsemessage.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 - [Folder](folder.md)
     
 - [FolderId](folderid.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
-- [TotalCount](totalcount.md)
+- [тоталкаунт](totalcount.md)
     
-- [ChildFolderCount](childfoldercount.md)
+- [чилдфолдеркаунт](childfoldercount.md)
     
-- [UnreadCount](unreadcount.md)
+- [унреадкаунт](unreadcount.md)
     
-## <a name="getfolder-error-response-example"></a>Пример ответа об ошибке GetFolder
+## <a name="getfolder-error-response-example"></a>Пример отклика на сообщение о вложении в папку
 
 ### <a name="description"></a>Описание
 
-В следующем примере тело SOAP показано ответ на ошибку, связанную с неправильной [FolderId](folderid.md) в запросе. 
+В следующем примере SOAP Body показан ответ об ошибке, вызванный неправильным [FolderId](folderid.md) в запросе. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -168,27 +168,27 @@ ms.locfileid: "19762800"
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a>Элементы ответа
+### <a name="response-elements"></a>Элементы Response
 
-Отклик в этом **GetFolder** включает следующие элементы: 
+Сообщение **об** ошибке GetResponse содержит следующие элементы: 
   
-- [GetFolderResponse](getfolderresponse.md)
+- [жетфолдерреспонсе](getfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetFolderResponseMessage](getfolderresponsemessage.md)
+- [жетфолдерреспонсемессаже](getfolderresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 ## <a name="version-differences"></a>Различия версий
 
-Для приложений, предназначенных для Exchange Online, Exchange Online в составе Office 365 или более в локальной версии Exchange, начиная с Exchange 2013 разрешения папок не возвращаются при [BaseShape](baseshape.md) элемент имеет значение **AllProperties** в запросе [GetFolder](getfolder-operation.md) операции. Для получения разрешений для папки, добавьте в элемент [AdditionalProperties](additionalproperties.md) в запросе **GetFolder** элемент [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) . 
+Для приложений, предназначенных для Exchange Online, Exchange Online в составе Office 365, или локальной версии Exchange, начиная с Exchange 2013, разрешения для папки не возвращаются, если элемент [басешапе](baseshape.md) имеет значение **аллпропертиес** в запросе операции- [папки](getfolder-operation.md) . Чтобы получить разрешения для папки, добавьте элемент [PermissionSet (пермиссионсеттипе)](permissionset-permissionsettype.md) в элемент [аддитионалпропертиес](additionalproperties.md) в запросе на получение **папки** . 
   
 ## <a name="see-also"></a>См. также
 

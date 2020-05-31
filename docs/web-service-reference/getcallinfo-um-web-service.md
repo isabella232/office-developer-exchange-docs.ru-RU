@@ -1,5 +1,5 @@
 ---
-title: GetCallInfo (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: GetCallInfo (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2758904d-ffb0-46ee-a134-e6394276996c
-description: Элемент GetCallInfo определяет запрос на получение сведений о звонка.
+description: Элемент GetCallInfo определяет запрос на получение сведений о вызове.
 ms.openlocfilehash: 749a47abf4dd9ac70c6b29968f36c93988a1d6fe
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762705"
 ---
-# <a name="getcallinfo-um-web-service"></a>GetCallInfo (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="getcallinfo-um-web-service"></a>GetCallInfo (веб-служба единой системы обмена сообщениями)
 
-Элемент **GetCallInfo** определяет запрос на получение сведений о звонка. 
+Элемент **GetCallInfo** определяет запрос на получение сведений о вызове. 
   
-[GetCallInfo (веб-служба единой системы обмена СООБЩЕНИЯМИ)](getcallinfo-um-web-service.md)
+[GetCallInfo (веб-служба единой системы обмена сообщениями)](getcallinfo-um-web-service.md)
   
 ```xml
 <GetCallInfo>
@@ -33,7 +33,7 @@ ms.locfileid: "19762705"
  **complexType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,7 +43,7 @@ ms.locfileid: "19762705"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CallId (веб-служба единой системы обмена СООБЩЕНИЯМИ)](callid-um-web-service.md) <br/> |Содержит идентификатор вызова о том, какие для получения сведений.  <br/> |
+|[CallId (веб-служба единой системы обмена сообщениями)](callid-um-web-service.md) <br/> |Содержит идентификатор вызова, сведения о котором требуется получить.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,12 +59,12 @@ ms.locfileid: "19762705"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция GetCallInfo (веб-служба единой системы обмена СООБЩЕНИЯМИ)](getcallinfo-operation-um-web-service.md)
+[Операция GetCallInfo (веб-служба единой системы обмена сообщениями)](getcallinfo-operation-um-web-service.md)
 

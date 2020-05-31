@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ea5b3ce2-40db-41e8-a8cd-934e8f72e782
-description: Элемент GetPersona содержит запрос на получение пользователя.
+description: Элемент person содержит запрос на получение пользователя.
 ms.openlocfilehash: 02dc0baa1dca7892ec84c573058a7eea28f18729
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19762890"
 ---
 # <a name="getpersona"></a>GetPersona
 
-Элемент **GetPersona** содержит запрос на получение пользователя. 
+Элемент **Person** содержит запрос на получение пользователя. 
   
 ```XML
 <GetPersona>
@@ -25,10 +25,10 @@ ms.locfileid: "19762890"
 </GetPersona>
 ```
 
- **GetPersonaType**
+ **жетперсонатипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -36,13 +36,13 @@ ms.locfileid: "19762890"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[PersonaId](personaid.md)
+[персонаид](personaid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19762890"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

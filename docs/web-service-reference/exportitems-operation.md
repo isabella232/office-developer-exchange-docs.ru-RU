@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e2846abb-0b16-4732-bbd8-038a674672f6
-description: ExportItems операции экспорта элементов из почтового ящика.
+description: Операция ExportItems экспортирует элементы из почтового ящика.
 ms.openlocfilehash: 6f0760705c05de2a615544fe52ac50b398be6040
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19762441"
 ---
 # <a name="exportitems-operation"></a>Операция ExportItems
 
-**ExportItems** операции экспорта элементов из почтового ящика. 
+Операция **ExportItems** экспортирует элементы из почтового ящика. 
   
 ## <a name="exportitems-request-example"></a>Пример запроса ExportItems
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **ExportItems** показано, как для формирования запроса для получения трех элементов, экспортированные из почтового ящика. 
+В приведенном ниже примере запроса **ExportItems** показано, как сформировать запрос на получение трех элементов, экспортированных из почтового ящика. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -53,29 +53,29 @@ ms.locfileid: "19762441"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Комментарий
+### <a name="comment"></a>Comment
 
-Идентификаторы элементов в примере URL-были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы элементов в примере были сокращены, чтобы сохранить удобочитаемость.
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
-- [RequestServerVersion](requestserverversion.md)
+- [рекуестсерверверсион](requestserverversion.md)
     
 - [ExportItems](exportitems.md)
     
-- [Что ItemID (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md)
+- [Итемидс (Нонемптяррайофитемидстипе)](itemids-nonemptyarrayofitemidstype.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
 ## <a name="successful-exportitems-response-example"></a>Пример успешного ответа ExportItems
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **ExportItems** . 
+В следующем примере показан успешный ответ на запрос **ExportItems** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -147,35 +147,35 @@ ms.locfileid: "19762441"
 </s:Envelope>
 ```
 
-### <a name="comment"></a>Комментарий
+### <a name="comment"></a>Comment
 
-Идентификаторы элементов и ключей изменения в примере URL были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы элементов и изменения ключей в примере были сокращены, чтобы сохранить удобочитаемость.
   
-### <a name="response-elements"></a>Элементы ответа
+### <a name="response-elements"></a>Элементы Response
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [ExportItemsResponse](exportitemsresponse.md)
+- [експортитемсреспонсе](exportitemsresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [ExportItemsResponseMessage](exportitemsresponsemessage.md)
+- [експортитемсреспонсемессаже](exportitemsresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-- [Данные (base64Binary)](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
-## <a name="exportitems-error-response-example"></a>Пример ответа об ошибке ExportItems
+## <a name="exportitems-error-response-example"></a>Пример ответа на сообщение об ошибке ExportItems
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ответа на запрос **ExportItems** , содержащий два ошибки, один элемент успешно экспортированного. Первый элемент в примере успешно экспортирован. Второй элемент содержит неправильные изменить ключ. Третий элемент представляет при попытке экспорта элемента из неверный почтовый ящик. 
+В следующем примере показан ответ на запрос **ExportItems** , который содержит два ошибки и один успешно экспортированный элемент. Первый элемент в примере успешно экспортирован. Второй элемент содержит неправильный ключ изменения. Третий элемент представляет попытку экспорта элемента из неправильного почтового ящика. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -227,38 +227,38 @@ ms.locfileid: "19762441"
 
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификаторы элементов, измените ключи и данных в примере URL были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы, ключи изменений и данные в этом примере были сокращены, чтобы сохранить удобочитаемость.
   
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [ExportItemsResponse](exportitemsresponse.md)
+- [експортитемсреспонсе](exportitemsresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [ExportItemsResponseMessage](exportitemsresponsemessage.md)
+- [експортитемсреспонсемессаже](exportitemsresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-- [Данные (base64Binary)](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [MessageXml](messagexml.md)
+- [мессажексмл](messagexml.md)
     
 - **Значение**
     
 > [!NOTE]
-> **Значение** элемента не существует в схеме. Этот элемент является допустимым, так как элемент [MessageXml](messagexml.md) , появлении **значение** экземпляра элемента может содержать любые правильности XML-кода. 
+> Элемент **value** не существует в схеме. Этот элемент является допустимым, так как элемент [мессажексмл](messagexml.md) , в котором находится элемент экземпляра **value** , может содержать любой правильно сформированный XML. 
   
 ## <a name="see-also"></a>См. также
 

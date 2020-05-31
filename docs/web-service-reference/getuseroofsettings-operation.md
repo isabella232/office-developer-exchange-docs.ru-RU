@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 153e4440-495b-4972-9811-2fbea740142a
-description: Операция GetUserOofSettings получает параметры об отсутствии на работе Office (OOF) и сообщения пользователя почтового ящика.
+description: Операция GetUserOofSettings Возвращает параметры и сообщения пользователя почтового ящика "нет на месте" (отсутствие на работе).
 ms.openlocfilehash: 75a734999842cc33c213e02dc114f23372ae51fd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,31 +21,31 @@ ms.locfileid: "19833691"
 ---
 # <a name="getuseroofsettings-operation"></a>Операция GetUserOofSettings
 
-Операция **GetUserOofSettings** получает параметры об отсутствии на работе Office (OOF) и сообщения пользователя почтового ящика. 
+Операция **GetUserOofSettings** Возвращает параметры и сообщения пользователя почтового ящика "нет на месте" (отсутствие на работе). 
   
 ## <a name="soap-headers"></a>Заголовки SOAP
 
-Операция **GetUserOofSettings** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице. 
+Операция **GetUserOofSettings** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|Олицетворение  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении.  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос.  <br/> |
+|Олицетворение  <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение.  <br/> |
+|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
    
-## <a name="using-the-getuseroofsettings-operation"></a>С помощью операции GetUserOofSettings
+## <a name="using-the-getuseroofsettings-operation"></a>Использование операции GetUserOofSettings
 
-Операция **GetUserOofSettings** предоставляет доступ к параметрам пользователя об отсутствии на работе. Пользователь идентифицируется адрес электронной почты пользователя. Если сообщение об отсутствии на работе имеет значение null и об отсутствии на работе этот параметр включен, сообщения об отсутствии на работе не отправляются. 
+Операция **GetUserOofSettings** предоставляет доступ к параметрам отсутствия на работе пользователя. Пользователь идентифицируется по адресу электронной почты пользователя. Если сообщение об отсутствии на работе имеет значение NULL и включено отсутствие на работе, сообщение об отсутствии на месте не отправляется. 
   
 > [!IMPORTANT]
-> Если сообщений об отсутствии на работе с MicrosoftOfficeOutlook, эта операция возвращает сообщения об отсутствии на работе в формате HTML. 
+> Если сообщения об отсутствии на работе задаются Майкрософтofficeoutlook, эта операция возвратит сообщения об отсутствии на работе в формате HTML. 
   
 ## <a name="getuseroofsettings-request-example"></a>Пример запроса GetUserOofSettings
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано **GetUserOofSettings** запрос, который получает сведения об отсутствии на работе одного пользователя. 
+В приведенном ниже примере показан запрос **GetUserOofSettings** , который получает сведения об отсутствии на работе отдельных пользователей. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -62,23 +62,23 @@ ms.locfileid: "19833691"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
-- [GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
+- [жетусеруфсеттингсрекуест](getuseroofsettingsrequest.md)
     
-- [Почтовый ящик (доступность)](mailbox-availability.md)
+- [Mailbox (доступность)](mailbox-availability.md)
     
-- [Адрес (строка)](address-string.md)
+- [Address (строка)](address-string.md)
     
 ## <a name="successful-getuseroofsettings-response-example"></a>Пример успешного ответа GetUserOofSettings
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано отключенном состоянии об отсутствии на работе с сообщениями об отсутствии на работе.
+В следующем примере показано отключенное состояние отсутствия на работе с сообщениями об отсутствии на работе.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -114,45 +114,45 @@ ms.locfileid: "19833691"
 </soap:Envelope>
 ```
 
-### <a name="successful-getuseroofsettings-response-elements"></a>Элементы ответов успешно GetUserOofSettings
+### <a name="successful-getuseroofsettings-response-elements"></a>Успешные элементы ответа GetUserOofSettings
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
+- [жетусеруфсеттингсреспонсе](getuseroofsettingsresponse.md)
     
-- [ResponseMessage](responsemessage.md)
+- [респонсемессаже](responsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [OofSettings](oofsettings.md)
+- [уфсеттингс](oofsettings.md)
     
-- [OofState](oofstate.md)
+- [уфстате](oofstate.md)
     
-- [ExternalAudience](externalaudience.md)
+- [екстерналаудиенце](externalaudience.md)
     
-- [Продолжительность (UserOofSettings)](duration-useroofsettings.md)
+- [Продолжительность (Усеруфсеттингс)](duration-useroofsettings.md)
     
-- [Время начала](starttime.md)
+- [StartTime](starttime.md)
     
-- [Время окончания](endtime.md)
+- [EndTime](endtime.md)
     
-- [InternalReply](internalreply.md)
+- [интерналрепли](internalreply.md)
     
-- [ExternalReply](externalreply.md)
+- [екстерналрепли](externalreply.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
-- [AllowExternalOof](allowexternaloof.md)
+- [алловекстерналуф](allowexternaloof.md)
     
-## <a name="getuseroofsettings-error-response-example"></a>Пример ответа об ошибке GetUserOofSettings
+## <a name="getuseroofsettings-error-response-example"></a>Пример ответа на сообщение об ошибке GetUserOofSettings
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано возврату ошибки, возникающие при попытке обращения к другому пользователю сведения об отсутствии на работе.
+В следующем примере показан ответ об ошибке, вызванный попыткой доступа к сведениям об отсутствии на работе другого пользователя.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>

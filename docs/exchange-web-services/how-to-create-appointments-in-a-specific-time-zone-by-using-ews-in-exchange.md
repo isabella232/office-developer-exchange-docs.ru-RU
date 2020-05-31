@@ -1,11 +1,11 @@
 ---
-title: Создание встречи в конкретного часового пояса с помощью веб-служб Exchange в Exchange
+title: Создание встречи в определенном часовом поясе с помощью EWS в Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e68aaa27-250e-4170-b099-077a979c127c
-description: Сведения о создании встреч в определенных часовых поясах с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как создавать встречи в определенных часовых поясах с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 1725498847f89a417b62a06fb8a3109af5c4deb0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,26 +13,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760999"
 ---
-# <a name="create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange"></a>Создание встречи в конкретного часового пояса с помощью веб-служб Exchange в Exchange
+# <a name="create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange"></a>Создание встречи в определенном часовом поясе с помощью EWS в Exchange
 
-Сведения о создании встреч в определенных часовых поясах с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как создавать встречи в определенных часовых поясах с помощью управляемого API EWS или EWS в Exchange.
   
-При создании встречи или собрания для календаря Exchange часовой пояс, используемый для указания времени начала и окончания, сохраняется как часовой пояс создания встречи. Этот часовой пояс также используется для [интерпретации значения даты и времени, которые не имеют явного указания часового пояса](time-zones-and-ews-in-exchange.md), поэтому важно понимать, параметры, чтобы указать часовой пояс.
+При создании встречи или собрания для календаря Exchange часовой пояс, используемый для указания времени начала и окончания, сохраняется как часовой пояс создания встречи. Этот часовой пояс также используется для [интерпретации значений даты и времени, для которых не указан явный часовой пояс](time-zones-and-ews-in-exchange.md), поэтому важно понять, какие параметры необходимо указать для часового пояса.
   
-## <a name="creating-appointments-in-different-time-zones-by-using-the-ews-managed-api"></a>Создание встреч в разных часовых поясах с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="creating-appointments-in-different-time-zones-by-using-the-ews-managed-api"></a>Создание встреч в разных часовых поясах с помощью управляемого API EWS
 
-При создании встречи или собрания с помощью управляемого интерфейса API веб-служб Exchange, у вас есть три варианта для указания часового пояса:
+При создании встреч или собраний с помощью управляемого API EWS существует три варианта указания часового пояса:
   
-- Чтобы использовать часовой пояс компьютера, на котором выполняется веб-служб Exchange управляемый API, не указать часовой пояс при создании объекта [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) . 
+- Чтобы использовать часовой пояс компьютера, на котором выполняется управляемый API EWS, не указывайте часовой пояс при создании объекта [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) . 
     
-- Для использования конкретного часового пояса для всех свойств даты и времени, включая свойства при создании новой встречи или собрания, указать часовой пояс в конструктора для объекта **ExchangeService** . 
+- Чтобы использовать конкретный часовой пояс для всех свойств даты и времени, включая свойства при создании новой встречи или собрания, укажите часовой пояс в конструкторе для объекта **ExchangeService** . 
     
-- Чтобы использовать различные часовой пояс, заданный в свойстве [ExchangeService.TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) , используйте свойства [Appointment.StartTimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.starttimezone%28v=exchg.80%29.aspx) и [Appointment.EndTimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.endtimezone%28v=exchg.80%29.aspx) . 
+- Чтобы использовать другой часовой пояс, отличный от указанного в свойстве [ExchangeService. TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) , используйте свойства [встреча. StartTimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.starttimezone%28v=exchg.80%29.aspx) и [встреча. EndTimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.endtimezone%28v=exchg.80%29.aspx) . 
     
     > [!NOTE]
-    > Свойство **EndTimeZone** доступна только [ExchangeService.RequestedServerVersion](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx) свойству **Exchange2010** или более поздней версии. Если не поддерживается, установка **StartTimeZone** применяется ко времени начала и окончания встречи. 
+    > Свойство **EndTimeZone** доступно только в том случае, если для свойства [ExchangeService. рекуестедсерверверсион](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx) задано значение **Exchange2010** или более поздней. Если она недоступна, то настройка **StartTimeZone** применяется как к началу, так и времени окончания встречи. 
   
-В следующем примере управляемый API EWS используется для создания трех встреч. Каждая встреча устанавливается на с 1:00, через два дня в не указан часовой пояс и end час более поздней версии. Первый встречи будет создан в часовой пояс клиентского компьютера с помощью управляемого интерфейса API веб-служб Exchange по умолчанию. Второй создается в центре часовой пояс с помощью свойства **Appointment.StartTimeZone** и **Appointment.EndTimeZone** . Третий создается в зоне Горное время с помощью свойства **ExchangeService.TimeZone** . 
+В следующем примере управляемый API EWS используется для создания трех встреч. Каждая встреча задается в течение 1:00 PM через два дня, в неопределенном часовом поясе и через один час позже. Первая встреча создается в часовом поясе клиентского компьютера с помощью поведения управляемого API EWS по умолчанию. Вторая создана во центральном часовом поясе с помощью свойств **встреча. StartTimeZone** и **встреча. EndTimeZone** . Третий параметр создается в часовом поясе Mountain с помощью свойства **ExchangeService. TimeZone** . 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -124,19 +124,19 @@ static void CreateAppointments(string userEmail, SecureString userPass)
 }
 ```
 
-Если в этом примере выполняется на клиентском компьютере, настроенных в по восточному поясному времени и три встречи, он создает открываются из клиента, настроенные в по восточному поясному времени, они отображаются в 1:00 2:00 и 15:00 часов, соответственно.
+При выполнении этого примера на клиентском компьютере, настроенном в часовом поясе, и три создаваемые встречи просматриваются с клиента, настроенного в Восточном часовом поясе, они отображаются в 1:00 PM, 2:00 PM и 3:00 PM соответственно.
   
-## <a name="creating-appointments-in-different-time-zones-by-using-ews"></a>Создание встреч в разных часовых поясах с помощью веб-служб Exchange
+## <a name="creating-appointments-in-different-time-zones-by-using-ews"></a>Создание встреч в разных часовых поясах с помощью EWS
 
-При создании встречи или собрания с помощью веб-служб Exchange, у вас есть три варианта для указания часового пояса:
+При создании встреч или собраний с помощью EWS существует три варианта указания часового пояса:
   
-- Чтобы использовать по Гринвичу (UTC), не следует включать [TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) элемент, элемент [MeetingTimeZone](http://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) (Exchange 2007 только), или [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) и [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) элементы (Exchange 2010 и более поздних версий) в [ Операции CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) запроса. 
+- Чтобы использовать время в формате UTC, не включайте элемент [тимезонеконтекст](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , элемент [митингтимезоне](http://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) (только для Exchange 2007) или [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) и [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) (Exchange 2010 и более поздних версий) в запрос [операции CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
     
-- Для использования конкретного часового пояса для всех свойств даты и времени, включая свойства при создании новой встречи или собрания, указать часовой пояс в элементе [TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) запрос [CreateItem операции](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
+- Чтобы использовать конкретный часовой пояс для всех свойств даты и времени, включая свойства при создании новой встречи или собрания, укажите часовой пояс в элементе [тимезонеконтекст](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) в запросе [операции CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
     
-- Чтобы использовать различные часовой пояс, заданный в элементе [TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , включают [TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) элемент, элемент [MeetingTimeZone](http://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) (только для Exchange 2007) или [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) и [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) (элементы Exchange 2010 и более поздних версий) в запрос [CreateItem операции](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
+- Чтобы использовать другой часовой пояс, отличный от указанного в элементе [тимезонеконтекст](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , включите в запрос [CreateItem операции CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) элемент [тимезонеконтекст](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , элемент [митингтимезоне](http://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) (только для Exchange 2007), а также элементы [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) и [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) (Exchange 2010 и более поздних версий). 
     
-Следующий пример запроса [операции CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) Создание встречи с помощью UTC. Обратите внимание, что элемент **TimeZoneContext** , элемент **StartTimeZone** и **EndTimeZone** элемент отсутствует. Элемент значения **Start** и **End** выражаются в формате UTC. 
+В следующем примере запрос на [операцию CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) создает встречу, используя время в формате UTC. Обратите внимание, что элемент **тимезонеконтекст** , элемент **StartTimeZone** и элемент **EndTimeZone** отсутствуют. Значения **начального** и **конечного** элементов выражаются в формате UTC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -162,7 +162,7 @@ static void CreateAppointments(string userEmail, SecureString userPass)
 </soap:Envelope>
 ```
 
-Следующий пример запроса [операции CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) использует элементы **StartTimeZone** и **EndTimeZone** для указания центра часовой пояс для встречи. Обратите внимание на то, что элемент **TimeZoneContext** отсутствует. Тем не менее если он указан, значения элементов **StartTimeZone** и **EndTimeZone** это переопределяет его значение. Опять же значения элементов **Start** и **End** выражаются в формате UTC. 
+В следующем примере запрос [операции CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) использует элементы **StartTimeZone** и **EndTimeZone** для указания центрального часового пояса для встречи. Обратите внимание, что элемент **тимезонеконтекст** отсутствует. Однако если он присутствовал, значения элементов **StartTimeZone** и **EndTimeZone** переопределяют его значение. Опять же, значения **начального** и **конечного** элементов выражаются в формате UTC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -190,7 +190,7 @@ static void CreateAppointments(string userEmail, SecureString userPass)
 </soap:Envelope>
 ```
 
-Следующий пример запроса [операции CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) задает элемент **TimeZoneContext** в зону Горное время. Обратите внимание на то, что элементы **StartTimeZone** и **EndTimeZone** отсутствуют. Опять же значения элементов **Start** и **End** выражаются в формате UTC. 
+Следующий пример запроса [операции CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) задает для элемента **тимезонеконтекст** значение Mountain часового пояса. Обратите внимание, что элементы **StartTimeZone** и **EndTimeZone** отсутствуют. Опять же, значения **начального** и **конечного** элементов выражаются в формате UTC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -219,19 +219,19 @@ static void CreateAppointments(string userEmail, SecureString userPass)
 </soap:Envelope>
 ```
 
-При просмотре три встречи, созданные в предыдущем примере запросы EWS от клиента, настроенные в по восточному поясному времени, они отображаются в 1:00 2:00 и 15:00 часов, соответственно.
+Когда три встречи, созданные в предыдущих примерах EWS, просматриваются с клиента, настроенного в Восточном часовом поясе, они отображаются в 1:00 PM, 2:00 PM и 3:00 PM соответственно.
   
 ## 
 
-Теперь, когда вы знаете, как для создания встречи в конкретных часовые пояса, может потребоваться [Обновить часовые пояса для встреч из существующего](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md) на другое. 
+Теперь, когда вы знаете, как создавать встречи в определенных часовых поясах, вам может потребоваться [Обновить Часовые пояса в существующих встречах](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md) на другой. 
   
 ## <a name="see-also"></a>См. также
 
 
 - [Часовые пояса и EWS в Exchange](time-zones-and-ews-in-exchange.md)
     
-- [Обновление часового пояса для встречи с помощью веб-служб Exchange в Exchange](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
+- [Обновление часового пояса встречи с помощью EWS в Exchange](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
     
-- [Создание встречи и собрания с помощью веб-служб Exchange в Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Создание встреч и собраний с помощью EWS в Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
 

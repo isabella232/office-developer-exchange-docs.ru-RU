@@ -24,10 +24,10 @@ ms.locfileid: "19761398"
 <ApplicationUri/>
 ```
 
- **anyURI**
+ **анюри**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,22 +41,22 @@ ms.locfileid: "19761398"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ответ (GetFederationInformation) (SOAP)](response-getfederationinformationsoap.md) <br/> |Содержит сведения о ответа GetFederation.  <br/> |
+|[Отклик (Жетфедератионинформатион) (SOAP)](response-getfederationinformationsoap.md) <br/> |Содержит сведения об отклике для Федерации.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет URI приложения.
+Текстовое значение представляет универсальный код ресурса (URI) приложения.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Mssages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Мссажес. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+- [Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
 

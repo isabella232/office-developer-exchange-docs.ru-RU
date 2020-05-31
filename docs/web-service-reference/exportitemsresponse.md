@@ -1,5 +1,5 @@
 ---
-title: ExportItemsResponse
+title: експортитемсреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ef44354b-fbdb-4f7c-b6bd-b27f56a1d018
-description: Элемент ExportItemsResponse представляет одного запроса ExportItems.
+description: Элемент Експортитемсреспонсе представляет ответ на один запрос ExportItems.
 ms.openlocfilehash: 08033532d9cc381be8c544d790e9fe43840efb7b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762439"
 ---
-# <a name="exportitemsresponse"></a>ExportItemsResponse
+# <a name="exportitemsresponse"></a>експортитемсреспонсе
 
-Элемент **ExportItemsResponse** представляет одного запроса **ExportItems** . 
+Элемент **експортитемсреспонсе** представляет ответ на один запрос **ExportItems** . 
   
-[ExportItemsResponse](exportitemsresponse.md)
+[експортитемсреспонсе](exportitemsresponse.md)
   
 ```XML
 <ExportItemsResponse>
@@ -31,10 +31,10 @@ ms.locfileid: "19762439"
 </ExportItemsResponse>
 ```
 
- **ExportItemsResponseType**
+ **експортитемсреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,7 +44,7 @@ ms.locfileid: "19762439"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762439"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -64,7 +64,7 @@ ms.locfileid: "19762439"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

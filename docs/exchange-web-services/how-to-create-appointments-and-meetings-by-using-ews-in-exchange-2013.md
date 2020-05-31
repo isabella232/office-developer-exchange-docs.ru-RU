@@ -1,11 +1,11 @@
 ---
-title: Создание встречи и собрания с помощью веб-служб Exchange в Exchange 2013
+title: Создание встреч и собраний с помощью EWS в Exchange 2013
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fdea70a4-9267-4e5d-9152-b749e2acc3b0
-description: Сведения о создании встречи и собрания с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как создавать встречи и собрания с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 1c840fac2ecca9fb51a28044dfac6299cb4fc038
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,25 +13,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760998"
 ---
-# <a name="create-appointments-and-meetings-by-using-ews-in-exchange-2013"></a>Создание встречи и собрания с помощью веб-служб Exchange в Exchange 2013
+# <a name="create-appointments-and-meetings-by-using-ews-in-exchange-2013"></a>Создание встреч и собраний с помощью EWS в Exchange 2013
 
-Сведения о создании встречи и собрания с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как создавать встречи и собрания с помощью управляемого API EWS или EWS в Exchange.
   
-Важные различия между собраний и встреч —, что у участников собрания, а не встреч. Встречи и собрания могут быть отдельные экземпляры или частью серии повторяющихся, но поскольку встреч не включать участников, комнат или ресурсов, не требуется отправить сообщение. Для внутреннего использования Exchange использует тот же объект для собраний и встреч. Использовать управляемый API EWS [класс встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) или элемент веб-служб Exchange [элемента календаря, имеющего](http://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx) для работы с собраний и встреч. 
+Существенным различием между собраниями и встречами является то, что собрания имеют участников, а встречи — нет. Встречи и собрания могут быть отдельными экземплярами или частью повторяющихся рядов, но так как встречи не включают участников, комнаты или ресурсы, им не требуется отправлять сообщения. На внутреннем сервере Exchange использует один и тот же объект для собраний и встреч. Для работы с собраниями и встречами используется [класс встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) управляемого API EWS или элемент EWS [календаритем](http://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx) . 
   
-**В таблице 1. Управляемый API EWS методы и операции веб-служб Exchange для работы с встречи и собрания**
+**Таблица 1. Методы управляемого API EWS и операции EWS для работы с встречами и собраниями**
 
-|**Метод управляемого API EWS**|**Операция служб EWS**|
+|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|
-|[Appointment.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) <br/> |[Операции CreateItem (элемента календаря)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |
-|[Item.Bind](http://msdn.microsoft.com/en-us/library/dd634410%28v=exchg.80%29.aspx) <br/> |[Операции GetItem (элемента календаря)](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
+|[Встреча. сохранение](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) <br/> |[Операция CreateItem (элемент календаря)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |
+|[Item.Bind](http://msdn.microsoft.com/en-us/library/dd634410%28v=exchg.80%29.aspx) <br/> |[Операция GetItem (элемент календаря)](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
    
-## <a name="create-an-appointment-by-using-the-ews-managed-api"></a>Создание встречи с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="create-an-appointment-by-using-the-ews-managed-api"></a>Создание встречи с помощью управляемого API EWS
 <a name="bk_CreateApptEWSMA"> </a>
 
-В следующем примере кода показано, как использовать [объект Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) для создания встречи, метод [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) для сохранения в папке календаря и метод [Item.Bind](http://msdn.microsoft.com/en-us/library/dd634410%28v=exchg.80%29.aspx) , чтобы убедиться, что был создан встречи. 
+В приведенном ниже примере кода показано, как использовать [объект встреча](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) для создания встречи, метод [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) для сохранения в папке календаря и метод [Item. Bind](http://msdn.microsoft.com/en-us/library/dd634410%28v=exchg.80%29.aspx) для проверки того, что встреча создана. 
   
-В этом примере предполагается, что прошедшие проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **службы**. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. 
   
 ```cs
 Appointment appointment = new Appointment(service);
@@ -50,16 +50,16 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 
 ```
 
-После установки свойства объекта встречи, встречи сохраните в папке календаря с помощью метода [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) объекта встречи. 
+После задания свойств объекта встреча сохраните встречу в папке "Календарь" с помощью метода [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) объекта встречи. 
   
-Обратите внимание на то, что на этапе проверки, вы элемента [Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) , связанный с встречи в убедитесь, что встречи, в папке календаря. Рекомендуется, ограничить свойства, возвращенные сервером для только что необходимо — в этом случае Тема встречи. 
+Обратите внимание, что на этапе проверки вы используете [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) элемента, связанный с встречей, чтобы убедиться в том, что встреча находится в папке "Календарь". Рекомендуется ограничить свойства, возвращаемые сервером, только тем, что вам нужно — в данном случае это тема встречи. 
   
-## <a name="create-an-appointment-by-using-ews"></a>Создание встречи с помощью веб-служб Exchange
+## <a name="create-an-appointment-by-using-ews"></a>Создание встречи с помощью EWS
 <a name="bk_CreateApptEWS"> </a>
 
-Запрос и ответ XML в следующих примерах соответствуют вызовов, сделанных с кодом управляемый API EWS в разделе [Создание встречи с помощью управляемого интерфейса API веб-служб Exchange](#bk_CreateApptEWSMA). Также показаны запрос и ответ XML-кода, выполняется проверка наличия элементы встреч в папке календаря.
+XML-код запроса и ответа в приведенных ниже примерах соответствует вызовам, выполняемым кодом управляемого API EWS в разделе [Создание встречи с помощью управляемого API EWS](#bk_CreateApptEWSMA). Также отображаются запрос и XML-код ответа, проверяющий наличие элементов встречи в папке "Календарь".
   
-В следующем примере показано запроса XML при использовании операции [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания встречи. 
+В следующем примере показан XML-код запроса при использовании операции [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания встречи. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -91,10 +91,10 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 </soap:Envelope>
 ```
 
- В следующем примере показано XML, возвращенные операцией **CreateItem** ответа. 
+ В следующем примере показан XML-код отклика, возвращаемый операцией **CreateItem** . 
   
 > [!NOTE]
-> Атрибуты **ItemId** и **ChangeKey** URL-были сокращены для удобства чтения. 
+> Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -125,10 +125,10 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 
 ```
 
-В следующем примере показано запрос, который был создан XML, которая порождается при использовании операции [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) чтобы убедиться, что встречи. 
+В следующем примере показан XML-код запроса, который создается при использовании операции [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) для проверки того, что встреча создана. 
   
 > [!NOTE]
-> Атрибуты **ItemId** и **ChangeKey** URL-были сокращены для удобства чтения. 
+> Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -159,10 +159,10 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 
 ```
 
- В следующем примере показано XML, возвращенные операцией **GetItem** ответа. 
+ В следующем примере показан XML-код отклика, возвращенный операцией **GetItem** . 
   
 > [!NOTE]
-> Атрибуты **ItemId** и **ChangeKey** URL-были сокращены для удобства чтения. 
+> Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -192,12 +192,12 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 </s:Envelope>
 ```
 
-## <a name="create-a-meeting-by-using-the-ews-managed-api"></a>Создание встречи с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="create-a-meeting-by-using-the-ews-managed-api"></a>Создание собрания с помощью управляемого API EWS
 <a name="bk_CreateMtgEWSMA"> </a>
 
-При создании собрания, в дополнение к Сохранение элемента в папке календаря обычно также требуется отправлять приглашения на собрания. В следующем примере кода показано, как создать встречу и отправка приглашений на собрания.
+При создании собрания в дополнение к сохранению элемента в папке "Календарь", как правило, вы также хотите отправлять приглашения на собрания участникам. В приведенном ниже примере кода показано, как создать собрание и отправить приглашения на собрания.
   
-В этом примере предполагается, что прошедшие проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **службы**. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. 
   
 ```cs
 Appointment meeting = new Appointment(service);
@@ -219,16 +219,16 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 
 ```
 
-После установки свойства объекта [встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) , сохраните собрания в папке календаря с помощью метода [Save](http://msdn.microsoft.com/en-us/library/dd635394%28v=exchg.80%29.aspx) . При установке значения перечисления [SendInvitationsMode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.sendinvitationsmode%28v=exchg.80%29.aspx) **SendOnlyToAll** или **SendToAllAndSaveCopy**отправляются приглашения участников.
+После задания свойств объекта " [встреча](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) " сохраните собрание в папке "Календарь" с помощью метода [Save](http://msdn.microsoft.com/en-us/library/dd635394%28v=exchg.80%29.aspx) . Когда вы устанавливаете значение перечисления [сендинвитатионсмоде](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.sendinvitationsmode%28v=exchg.80%29.aspx) в **сендонлитоалл** или **сендтоалландсавекопи**, приглашения отправляются участникам.
   
-Использование элемента [код](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) , связанный с собрания, чтобы убедиться, что она была сохранена в папке календаря. Рекомендуется ограничение свойства, возвращенные сервером для только что необходимо — в этом случае тему собрания. 
+Используйте [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) элемента, связанный с собранием, чтобы убедиться, что он был сохранен в папке "Календарь". Рекомендуется ограничить свойства, возвращаемые сервером, только тем, что вам нужно — в данном случае это тема собрания. 
   
-## <a name="create-a-meeting-by-using-ews"></a>Создание встречи с помощью веб-служб Exchange
+## <a name="create-a-meeting-by-using-ews"></a>Создание собрания с помощью EWS
 <a name="bk_CreateMtgEWS"> </a>
 
-Запрос и ответ XML в следующих примерах соответствуют вызовов, сделанных с помощью кода управляемый API EWS в [Создание собрания с помощью управляемого интерфейса API веб-служб Exchange](#bk_CreateMtgEWSMA). Также показаны запрос и ответ XML-кода, выполняется проверка наличия собрания элементов в папке календаря.
+XML-код запроса и ответа в приведенных ниже примерах соответствует вызовам, выполняемым кодом управляемого API EWS в разделе [Создание собрания с помощью управляемого API EWS](#bk_CreateMtgEWSMA). Также отображаются запрос и XML-код ответа, проверяющий наличие элементов собрания в папке "Календарь".
   
-В следующем примере показано запроса XML при использовании операции [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания собрания. 
+В следующем примере показан XML-код запроса при использовании операции [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания собрания. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -277,10 +277,10 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </soap:Envelope>
 ```
 
-В следующем примере показано XML, возвращенные операцией **CreateItem** ответа. 
+В следующем примере показан XML-код отклика, возвращаемый операцией **CreateItem** . 
   
 > [!NOTE]
-> Атрибуты **ItemId** и **ChangeKey** URL-были сокращены для удобства чтения. 
+> Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -308,10 +308,10 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </s:Envelope>
 ```
 
-В следующем примере показано запроса XML, который создается операции [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) при убедитесь, что был создан собрания. 
+В следующем примере показан XML-код запроса, созданный операцией [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) при проверке того, что собрание было создано. 
   
 > [!NOTE]
-> Атрибуты **ItemId** и **ChangeKey** URL-были сокращены для удобства чтения. 
+> Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости. 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -339,10 +339,10 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </soap:Envelope>
 ```
 
-В следующем примере показано XML, возвращенные операцией **GetItem** ответа. 
+В следующем примере показан XML-код отклика, возвращенный операцией **GetItem** . 
   
 > [!NOTE]
-> Атрибуты **ItemId** и **ChangeKey** URL-были сокращены для удобства чтения. 
+> Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -374,9 +374,9 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 ## <a name="see-also"></a>См. также
 
 - [Календари и веб-службах Exchange](calendars-and-ews-in-exchange.md)  
-- [Получение встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [Получение встреч и собраний с помощью EWS в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
 - [Обновление встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md) 
-- [Удаление встреч и отмены собраний с помощью веб-служб Exchange в Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
-- [Предложение нового времени проведения собрания с помощью веб-служб Exchange в Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [Удаление встреч и отмена собраний с помощью EWS в Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
+- [Предложение нового времени проведения собрания с помощью EWS в Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
 

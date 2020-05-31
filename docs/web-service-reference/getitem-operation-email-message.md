@@ -1,5 +1,5 @@
 ---
-title: Операции GetItem (сообщение электронной почты)
+title: Операция GetItem (сообщение электронной почты)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e8492e3b-1c8d-4b14-8070-9530f8306edd
-description: Операции GetItem позволяет пользователям получать доступ к информации о сообщениях электронной почты.
+description: Операция GetItem позволяет пользователю получать доступ к сведениям о сообщениях электронной почты.
 ms.openlocfilehash: 133a893ec7cd0c206d9db573f8b952eb3c2286df
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,25 +19,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762833"
 ---
-# <a name="getitem-operation-email-message"></a>Операции GetItem (сообщение электронной почты)
+# <a name="getitem-operation-email-message"></a>Операция GetItem (сообщение электронной почты)
 
-Операции GetItem позволяет пользователям получать доступ к информации о сообщениях электронной почты.
+Операция GetItem позволяет пользователю получать доступ к сведениям о сообщениях электронной почты.
   
-## <a name="using-the-getitem-operation-for-messages"></a>С помощью операции GetItem для сообщений
+## <a name="using-the-getitem-operation-for-messages"></a>Использование операции GetItem для сообщений
 
 Запрос GetItem должен иметь следующие сведения:
   
-- Элемент [ItemId](itemid.md) для идентификации возвращаемых данных элемента. 
+- Элемент [ItemId](itemid.md) для определения возвращаемых сведений об элементе. 
     
-- Элемент [ItemShape](itemshape.md) для идентификации возвращаемых свойств элемента. 
+- Элемент [итемшапе](itemshape.md) для определения возвращаемых свойств элемента. 
     
 ## <a name="getitem-request-example"></a>Пример запроса GetItem
 
 ### <a name="description"></a>Описание
 
-Приведенный ниже запрос GetItem показано, как получить доступ к информации о сообщениях электронной почты.
+В приведенном ниже примере запроса GetItem показано, как получить доступ к сведениям о сообщениях электронной почты.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -62,29 +62,29 @@ ms.locfileid: "19762833"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [GetItem](getitem.md)
     
-- [ItemShape](itemshape.md)
+- [итемшапе](itemshape.md)
     
-- [BaseShape](baseshape.md)
+- [басешапе](baseshape.md)
     
-- [IncludeMimeContent](includemimecontent.md)
+- [инклудемимеконтент](includemimecontent.md)
     
-- [Что ItemID](itemids.md)
+- [итемидс](itemids.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-## <a name="successful-getitem-e-mail-message-response-example"></a>Пример успешного ответа GetItem (сообщения электронной почты)
+## <a name="successful-getitem-e-mail-message-response-example"></a>Пример ответа на сообщение об успешном выполнении операции GetItem (сообщение электронной почты)
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос GetItem.
+В следующем примере показан успешный ответ на запрос GetItem.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -157,51 +157,51 @@ ms.locfileid: "19762833"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Содержимое MIME, папки и идентификаторы элементов URL были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы контента, папки и элемента MIME были сокращены для сохранения удобочитаемости.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetItemResponse](getitemresponse.md)
+- [жетитемреспонсе](getitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetItemResponseMessage](getitemresponsemessage.md)
+- [жетитемреспонсемессаже](getitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
-- [MimeContent](mimecontent.md)
+- [Сохранитьmimecontent](mimecontent.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-- [Subject](subject.md)
+- [Тема](subject.md)
     
-- [Уровень конфиденциальности сообщения](sensitivity.md)
+- [Sensitivity](sensitivity.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
 - [Размер](size.md)
     
-- [DateTimeSent](datetimesent.md)
+- [датетимесент](datetimesent.md)
     
 - [DateTimeCreated](datetimecreated.md)
     
-- [ResponseObjects](responseobjects.md)
+- [респонсеобжектс](responseobjects.md)
     
-- [ReplyToItem](replytoitem.md)
+- [реплитоитем](replytoitem.md)
     
-- [ReplyAllToItem](replyalltoitem.md)
+- [репляллтоитем](replyalltoitem.md)
     
-- [ForwardItem](forwarditem.md)
+- [форвардитем](forwarditem.md)
     
 - [HasAttachments](hasattachments.md)
     
@@ -211,25 +211,25 @@ ms.locfileid: "19762833"
     
 - [Имя (EmailAddressType)](name-emailaddresstype.md)
     
-- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
+- [Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md)
     
-- [IsReadReceiptRequested](isreadreceiptrequested.md)
+- [исреадрецеиптрекуестед](isreadreceiptrequested.md)
     
-- [IsDeliveryReceiptRequested](isdeliveryreceiptrequested.md)
+- [исделиверирецеиптрекуестед](isdeliveryreceiptrequested.md)
     
 - [From](from.md)
     
 - [IsRead](isread.md)
     
-## <a name="getitem-e-mail-message-error-response-example"></a>Пример ответа об ошибке GetItem (сообщения электронной почты)
+## <a name="getitem-e-mail-message-error-response-example"></a>Пример отклика "GetItem (сообщение электронной почты)"
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано возврату ошибки GetItem запрос. Ошибка была вызвана при попытке получения недопустимый дополнительные свойства.
+В следующем примере показан ответ об ошибке для запроса GetItem. Ошибка вызвана попыткой получения недопустимого дополнительного свойства.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -260,31 +260,31 @@ ms.locfileid: "19762833"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetItemResponse](getitemresponse.md)
+- [жетитемреспонсе](getitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetItemResponseMessage](getitemresponsemessage.md)
+- [жетитемреспонсемессаже](getitemresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [MessageXml](messagexml.md)
+- [мессажексмл](messagexml.md)
     
-- [FieldURI](fielduri.md)
+- [фиелдури](fielduri.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[GetItem Operation](getitem-operation.md)
+[Операция GetItem](getitem-operation.md)
 

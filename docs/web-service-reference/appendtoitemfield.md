@@ -1,5 +1,5 @@
 ---
-title: AppendToItemField
+title: аппендтоитемфиелд
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 66dbcb4a-ae6d-4648-8610-67187bdb105c
-description: Элемент AppendToItemField определяет данные для добавления к отдельное свойство элемента во время операции UpdateItem.
+description: Элемент Аппендтоитемфиелд определяет данные, добавляемые к одному свойству элемента во время операции UpdateItem.
 ms.openlocfilehash: b432399e84ee4a3fd7edc5d3f803079435c79143
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761396"
 ---
-# <a name="appendtoitemfield"></a>AppendToItemField
+# <a name="appendtoitemfield"></a>аппендтоитемфиелд
 
-Элемент **AppendToItemField** определяет данные для добавления к отдельное свойство элемента во время [операции UpdateItem](updateitem-operation.md).
+Элемент **аппендтоитемфиелд** определяет данные, добавляемые к одному свойству элемента во время [операции UpdateItem](updateitem-operation.md).
   
 - [UpdateItem](updateitem.md)
   
-- [ItemChanges](itemchanges.md)
+- [итемчанжес](itemchanges.md)
   
 - [ItemChange](itemchange.md)
   
 - [Обновления (элемент)](updates-item.md)
   
-- [AppendToItemField](appendtoitemfield.md)
+- [аппендтоитемфиелд](appendtoitemfield.md)
   
 ```xml
 <AppendToItemField>
@@ -40,10 +40,10 @@ ms.locfileid: "19761396"
 </AppendToItemField>
 ```
 
- **AppendToItemFieldType**
+ **аппендтоитемфиелдтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -53,34 +53,34 @@ ms.locfileid: "19761396"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Идентифицирует часто упоминаемые свойства по URI.  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |Идентифицирует отдельных элементов словаря.  <br/> |
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |Задает расширенные свойства MAPI для добавления.  <br/> |
+|[фиелдури](fielduri.md) <br/> |Определяет часто упоминаемые свойства по URI.  <br/> |
+|[индекседфиелдури](indexedfielduri.md) <br/> |Определяет отдельные элементы словаря.  <br/> |
+|[екстендедфиелдури](extendedfielduri.md) <br/> |Указывает расширенные свойства MAPI, которые требуется добавить.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Обновления (элемент)](updates-item.md) <br/> |Содержит массив, определяющий добавьте, Установка и удаление изменения свойств элемента.  <br/> Ниже приведен выражение XPath для этого элемента.`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Обновления (элемент)](updates-item.md) <br/> |Содержит массив, определяющий Добавление, установку и удаление изменений свойств элемента.  <br/> Ниже приведено выражение XPath для этого элемента:`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Только определенные свойства поддержка добавления операции. При попытке добавить свойство, которое не поддерживает добавление приведет к ошибке.
+Операции добавления поддерживаются только для определенных свойств. Попытка добавиться к свойству, которое не поддерживает добавление, приведет к ошибке.
   
-Для операции обновления только одно свойство может быть изменено в рамках одного запроса. Что в элементе [путь](path.md) должен указанный отдельное свойство. **Элемент в производные классы** можно только удержание отдельное свойство, который является согласуется единственный элемент **пути** . 
+Для операций обновления в одном запросе можно изменить только одно свойство. В элементе [path](path.md) необходимо ссылаться на единственное свойство. В этом случае элемент **Item** в производных классах может хранить только одно свойство в соглашении с одним элементом **path** . 
   
 > [!NOTE]
-> Элемент [пути](path.md) абстрактный. Он должен быть заменен элемент [FieldURI](fielduri.md), [IndexedFieldURI](indexedfielduri.md)или [ExtendedFieldURI](extendedfielduri.md) . 
+> Элемент [path](path.md) является абстрактным. Он должен быть замещен элементом [фиелдури](fielduri.md), [индекседфиелдури](indexedfielduri.md)или [екстендедфиелдури](extendedfielduri.md) . 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -90,11 +90,11 @@ ms.locfileid: "19761396"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [UpdateItem Operation](updateitem-operation.md)
+- [Операция UpdateItem](updateitem-operation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

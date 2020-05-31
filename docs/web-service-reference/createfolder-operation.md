@@ -1,5 +1,5 @@
 ---
-title: CreateFolder Operation
+title: Операция CreateFolder
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6f6c334c-b190-4e55-8f0a-38f2a018d1b3
-description: Операция CreateFolder создает папки, папкам календаря, контакты папки, папки задач и поиска папок.
+description: Операция CreateFolder создает папки, папки календарей, папки контактов, папки задач и папки поиска.
 ms.openlocfilehash: 97156d4a3747cacbdcf9563d21d93a0aa44c3358
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761874"
 ---
-# <a name="createfolder-operation"></a>CreateFolder Operation
+# <a name="createfolder-operation"></a>Операция CreateFolder
 
-Операция CreateFolder создает папки, папкам календаря, контакты папки, папки задач и поиска папок.
+Операция CreateFolder создает папки, папки календарей, папки контактов, папки задач и папки поиска.
   
 ## <a name="createfolder-request-example"></a>Пример запроса CreateFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос CreateFolder показано, как для формирования запроса для создания двух новых папок в корне почтового ящика.
+В приведенном ниже примере запроса CreateFolder показано, как сформировать запрос на создание двух папок в корне почтового ящика.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -53,42 +53,42 @@ ms.locfileid: "19761874"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [CreateFolder](createfolder.md)
     
-- [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
+- [ParentFolderId (Таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 - [Folder](folder.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
 > [!NOTE]
-> Схема, описывающая эти элементы находится в виртуальном каталоге EWS компьютера, на котором работает MicrosoftExchange Server 2007 с установленной ролью сервера клиентского доступа. 
+> Схема, описывающая эти элементы, находится в виртуальном каталоге EWS компьютера, на котором работает сервер Майкрософт Exchange Server 2007, на котором установлена роль сервера клиентского доступа. 
   
-Чтобы найти другие параметры для запроса операции CreateFolder, изучите иерархия схемы. Начать с [CreateFolder](createfolder.md) элемента. 
+Чтобы найти другие параметры сообщения Request операции CreateFolder, изучите иерархию схемы. Начните с элемента [CreateFolder](createfolder.md) . 
   
 > [!NOTE]
-> При создании папки поиска с ограничением с помощью свойства **Календаря: Организатор** звонка папки последующие get возвращает ограничений с **сообщения: из** свойство вместо него. Эти два свойства сопоставить же базового свойства MAPI. 
+> Если вы создаете папку поиска с ограничением с помощью свойства **Calendar: организатора** , последующий вызов get Folder будет возвращать ограничение с помощью свойства **Message: from** . Эти два свойства сопоставляются с одним и тем же базовым свойством MAPI. 
   
-Операция CreateFolder поддерживает создание класса настраиваемого папки только в том случае, если создать папку с помощью элемента типа общей папки, а значение элемента **FolderClass** . 
+Операция CreateFolder поддерживает создание класса настраиваемой папки только при создании папки с помощью универсального элемента типа Folder и установки элемента **фолдеркласс** . 
   
 ## <a name="successful-createfolder-response-example"></a>Пример успешного ответа CreateFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос CreateFolder. В этом примере возвращается в ответе идентификаторы новые папки.
+В следующем примере показан успешный ответ на запрос CreateFolder. В этом примере ответ возвращает идентификаторы новых папок.
   
 > [!NOTE]
-> Идентификатор папки и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор папки и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -128,33 +128,33 @@ ms.locfileid: "19761874"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateFolderResponse](createfolderresponse.md)
+- [креатефолдерреспонсе](createfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateFolderResponseMessage](createfolderresponsemessage.md)
+- [креатефолдерреспонсемессаже](createfolderresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 - [Folder](folder.md)
     
 - [FolderId](folderid.md)
     
-Чтобы найти другие параметры в сообщении ответа операции CreateFolder, изучите иерархия схемы. Запустите в элементе [CreateFolderResponse](createfolderresponse.md) . 
+Чтобы найти другие параметры для ответного сообщения операции CreateFolder, изучите иерархию схемы. Начните с элемента [креатефолдерреспонсе](createfolderresponse.md) . 
   
-## <a name="createfolder-error-response"></a>Отклик CreateFolder
+## <a name="createfolder-error-response"></a>Ответ об ошибке CreateFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано возврату ошибки CreateFolder запрос.
+В следующем примере показан ответ об ошибке для запроса CreateFolder.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -182,41 +182,41 @@ ms.locfileid: "19761874"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CreateFolderResponse](createfolderresponse.md)
+- [креатефолдерреспонсе](createfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateFolderResponseMessage](createfolderresponsemessage.md)
+- [креатефолдерреспонсемессаже](createfolderresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
-Чтобы найти другие параметры в сообщении об ошибке ответа операции CreateFolder, изучите иерархия схемы. Запустите в элементе [CreateFolderResponse](createfolderresponse.md) . 
+Чтобы найти другие параметры сообщения об ошибке при выполнении операции CreateFolder, изучите иерархию схемы. Начните с элемента [креатефолдерреспонсе](createfolderresponse.md) . 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[FindItem Operation](finditem-operation.md)
+[Операция FindItem](finditem-operation.md)
   
-[FindFolder Operation](findfolder-operation.md)
+[Операция FindFolder](findfolder-operation.md)
   
- **CreateFolderType**
+ **креатефолдертипе**
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание папки (веб-служб Exchange)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+[Создание папок (веб-службы Exchange)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: DisableAppResponse
+title: дисаблеаппреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 11ebe618-d759-4f16-be99-eaaa817ba782
-description: Элемент DisableAppResponse указывает ответ на запрос DisableApp.
+description: Элемент Дисаблеаппреспонсе указывает ответ на запрос DisableApp.
 ms.openlocfilehash: 740801fa4b60e217f0b9148bcfcc5b206e96bf31
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762123"
 ---
-# <a name="disableappresponse"></a>DisableAppResponse
+# <a name="disableappresponse"></a>дисаблеаппреспонсе
 
-Элемент **DisableAppResponse** указывает ответ на запрос **DisableApp** . 
+Элемент **дисаблеаппреспонсе** указывает ответ на запрос **DisableApp** . 
   
 ```XML
 <DisableAppResponse>
@@ -28,10 +28,10 @@ ms.locfileid: "19762123"
 </DisableAppResponse>
 ```
 
- **DisableAppResponseType**
+ **дисаблеаппреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,16 +41,16 @@ ms.locfileid: "19762123"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MessageText](messagetext.md) <br/> |Предоставляет текстовое описание состояния ответа.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Предоставляет сведения о состоянии о запросе.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |В настоящее время используется и зарезервировано для будущего использования.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке ответа.  <br/> |
+|[мессажетекст](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
+|[респонсекоде](responsecode.md) <br/> |Предоставляет сведения о состоянии запроса.  <br/> |
+|[дескриптивелинккэй](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервировано для будущего использования.  <br/> |
+|[мессажексмл](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19762123"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

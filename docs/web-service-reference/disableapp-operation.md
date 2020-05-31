@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 211731a3-2470-49af-bda3-1ddfc15a8e46
-description: Найдите сведения о веб-служб Exchange DisableApp операции.
+description: Поиск сведений о DisableAppной операции EWS.
 ms.openlocfilehash: be9e124d7464012ffa797a69192893d85804a004
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,28 +17,28 @@ ms.locfileid: "19762114"
 ---
 # <a name="disableapp-operation"></a>Операция DisableApp
 
-Найдите сведения о **DisableApp** операции веб-служб Exchange. 
+Поиск сведений о **DisableAppной** операции EWS. 
   
 Операция **DisableApp** отключает почтовое приложение для Outlook. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-disableapp-operation"></a>С помощью операции DisableApp
+## <a name="using-the-disableapp-operation"></a>Использование операции DisableApp
 
-Операция **DisableApp** принимает два аргумента в запрос, определение почтового приложения для отключения, а также причину, почему был отключен. 
+Операция **DisableApp** принимает в запросе два аргумента, которые определяют, что почтовое приложение будет отключено, и причины, по которым оно было отключено. 
   
-### <a name="disableapp-operation-soap-headers"></a>Заголовки SOAP DisableApp операции
+### <a name="disableapp-operation-soap-headers"></a>Заголовки SOAP операции DisableApp
 
-Операция **DisableApp** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **DisableApp** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="disableapp-operation-request-example-disable-a-mail-app-installed-in-a-mailbox"></a>Пример запроса DisableApp операции: отключение почтового приложения, установленные в почтовом ящике
+## <a name="disableapp-operation-request-example-disable-a-mail-app-installed-in-a-mailbox"></a>Пример запроса операции DisableApp: Отключение почтового приложения, установленного в почтовом ящике
 
-В следующем примере **DisableApp** операция запроса показано как для отключения почтового приложения. Идентификатор приложения можно найти в манифесте приложения, который возвращается в ответ на [операцию GetAppManifests](getappmanifests-operation.md) . 
+В следующем примере запроса операции **DisableApp** показано, как отключить почтовое приложение. Идентификатор приложения можно найти в манифесте приложения, который возвращается в ответе [операции GetAppManifests](getappmanifests-operation.md) . 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -61,17 +61,17 @@ ms.locfileid: "19762114"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [DisableApp](disableapp.md)
     
-- [Идентификатор (строка)](id-string.md)
+- [ID (строка)](id-string.md)
     
-- [DisableReason](disablereason.md)
+- [дисаблереасон](disablereason.md)
     
-## <a name="successful-disableapp-operation-response"></a>Успешные операции ответа DisableApp
+## <a name="successful-disableapp-operation-response"></a>Успешный отклик операции DisableApp
 
-В следующем примере показано успешного ответа на запрос операции **DisableApp** Отключение почтового приложения. 
+В следующем примере показан успешный ответ на запрос операции **DisableApp** для отключения почтового приложения. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,15 +97,15 @@ ms.locfileid: "19762114"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [DisableAppResponse](disableappresponse.md)
+- [дисаблеаппреспонсе](disableappresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="disableapp-operation-error-response"></a>Ошибка операции DisableApp ответа
+## <a name="disableapp-operation-error-response"></a>Ответ об ошибке операции DisableApp
 
-В следующем примере показано ошибочный ответ на запрос операции **DisableApp** . Это ответ на запрос для отключения почтовое приложение, не установлен в почтовом ящике. 
+В следующем примере показан ответ об ошибке для запроса операции **DisableApp** . Это ответ на запрос на отключение почтового приложения, которое не установлено в почтовом ящике. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -123,17 +123,17 @@ ms.locfileid: "19762114"
 </s:Envelope>
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [DisableAppResponse](disableappresponse.md)
+- [дисаблеаппреспонсе](disableappresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

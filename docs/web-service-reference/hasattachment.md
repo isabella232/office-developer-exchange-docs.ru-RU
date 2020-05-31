@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de152be6-fc2f-48bc-a05d-1211935da20a
-description: Элемент HasAttachment Указывает логическое значение, указывающее, является ли элемент содержит вложения.
+description: Элемент HasAttachment указывает логическое значение, указывающее, имеет ли элемент вложения.
 ms.openlocfilehash: dfe163e0850e835784a43984a34c89f14bfbc59b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19833798"
 ---
 # <a name="hasattachment"></a>HasAttachment
 
-Элемент **HasAttachment** Указывает логическое значение, указывающее, является ли элемент содержит вложения. 
+Элемент **HasAttachment** указывает логическое значение, указывающее, имеет ли элемент вложения. 
   
 ```XML
 <HasAttachment> true | false </HasAttachment
@@ -26,7 +26,7 @@ ms.locfileid: "19833798"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19833798"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SearchPreviewItem](searchpreviewitem.md) <br/> |Указывает сначала 256 символов элемента почтового ящика для предварительной версии без открытия самого элемента.  <br/> |
+|[сеарчпревиевитем](searchpreviewitem.md) <br/> |Задает первые 256 символов элемента почтового ящика для предварительного просмотра без открытия элемента.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **HasAttachment** указывает, что элемент содержит вложение. Значение **false** указывает, что элемент не имеет вложение. 
+Текстовое значение **true** для элемента **HasAttachment** указывает на то, что элемент имеет вложение. Значение **false** указывает на то, что элемент не имеет вложения. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19833798"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

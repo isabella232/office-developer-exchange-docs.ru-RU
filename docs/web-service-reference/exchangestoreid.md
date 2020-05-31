@@ -1,5 +1,5 @@
 ---
-title: ExchangeStoreId
+title: ексчанжестореид
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5acceb42-a757-4c74-ab1c-b1abf7bf1e0a
-description: Элемент ExchangeStoreId указывает обмена мгновенными сообщениями идентификатор группы обмена Мгновенными сообщениями.
+description: Элемент Ексчанжестореид указывает идентификатор группы мгновенных сообщений (IM).
 ms.openlocfilehash: 815e9c2f368558ea38efce3671dbdc33d4d97168
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,25 +15,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762419"
 ---
-# <a name="exchangestoreid"></a>ExchangeStoreId
+# <a name="exchangestoreid"></a>ексчанжестореид
 
-Элемент **ExchangeStoreId** указывает обмена мгновенными сообщениями идентификатор группы обмена Мгновенными сообщениями. 
+Элемент **ексчанжестореид** указывает идентификатор группы мгновенных сообщений (IM). 
   
 ```XML
 <ExchangeStoreId Id="" ChangeKey=""/>
 ```
 
- **ItemIdType**
+ **итемидтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|Id  <br/> |Текстовое значение атрибута **Id** является идентификатор группы.  <br/> |
-|ChangeKey  <br/> |Текстовое значение атрибута **ChangeKey** — это ключ изменения группы.  <br/> |
+|Id  <br/> |Текстовое значение атрибута **ID** — идентификатор группы.  <br/> |
+|чанжекэй  <br/> |Текстовое значение атрибута **чанжекэй** — это ключ изменения группы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -43,9 +43,9 @@ ms.locfileid: "19762419"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ImGroup](imgroup.md) <br/> |Представляет группу мгновенного обмена сообщениями.  <br/> |
+|[Группа](imgroup.md) <br/> |Представляет группу мгновенных сообщений.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "19762419"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

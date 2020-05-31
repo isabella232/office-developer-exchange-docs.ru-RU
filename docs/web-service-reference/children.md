@@ -1,5 +1,5 @@
 ---
-title: Дочерние объекты
+title: Дети
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ceaffddd-f9bc-43ea-b348-a20fdade738f
-description: Дочерние элементы элемента содержит имена дочерних элементов контакта.
+description: Дочерний элемент содержит имена потомков контакта.
 ms.openlocfilehash: 9b1e06529fcf74850755daefc299242cfbf81f1e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761678"
 ---
-# <a name="children"></a>Дочерние объекты
+# <a name="children"></a>Дети
 
-**Дочерние элементы** элемента содержит имена дочерних элементов контакта. 
+**Дочерний** элемент содержит имена потомков контакта. 
   
 ```xml
 <Children>
@@ -29,10 +29,10 @@ ms.locfileid: "19761678"
 </Children>
 ```
 
- **ArrayOfStringsType**
+ **аррайофстрингстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,15 +42,15 @@ ms.locfileid: "19761678"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Содержит имя дочернего объекта контакта.  <br/> |
+|[Строка](string.md) <br/> |Содержит имя ребенка контакта.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Контакт](contact.md) <br/> |Представляет контакт в хранилище Exchange.  <br/> |
+|[контакт](contact.md); <br/> |Представляет контакт в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19761678"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

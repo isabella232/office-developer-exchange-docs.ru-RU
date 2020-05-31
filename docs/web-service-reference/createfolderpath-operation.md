@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a10aa5e-3f25-4ec3-a0b9-284c30918a1f
-description: Найдите сведения о веб-служб Exchange CreateFolderPath операции.
+description: Поиск сведений о CreateFolderPathной операции EWS.
 ms.openlocfilehash: 22561e5086c144e25d7e04b68ec6674b87c4718d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,34 +17,34 @@ ms.locfileid: "19761877"
 ---
 # <a name="createfolderpath-operation"></a>Операция CreateFolderPath
 
-Найдите сведения о **CreateFolderPath** операции веб-служб Exchange. 
+Поиск сведений о **CreateFolderPathной** операции EWS. 
   
-Операция **CreateFolderPath** создает иерархии папок. 
+Операция **CreateFolderPath** создает иерархию папок. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-createfolderpath-operation"></a>С помощью операции CreateFolderPath
+## <a name="using-the-createfolderpath-operation"></a>Использование операции CreateFolderPath
 
-Запрос операции **CreateFolderPath** принимает массив папки и идентификатор родительской папки и создает иерархии папок, на основе порядка папок в массиве. 
+Запрос операции **CreateFolderPath** принимает массив папок и идентификатор родительской папки и создает иерархию папок на основе порядка папок в массиве. 
   
-### <a name="createfolderpath-operation-soap-headers"></a>Заголовки SOAP CreateFolderPath операции
+### <a name="createfolderpath-operation-soap-headers"></a>Заголовки SOAP операции CreateFolderPath
 
-Операция **CreateFolderPath** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **CreateFolderPath** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
-|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Определяет область часовой пояс для свойства **даты и времени** . Этот заголовок можно применять к запросу.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**тимезонеконтекст** <br/> |[тимезонеконтекст](timezonecontext.md) <br/> |Определяет область часового пояса для свойств **DateTime** . Этот заголовок является применимым для запроса.  <br/> |
    
-## <a name="createfolderpath-operation-request-example-create-a-folder-hierarchy"></a>Пример запроса CreateFolderPath операции: создание иерархии папок
+## <a name="createfolderpath-operation-request-example-create-a-folder-hierarchy"></a>Пример запроса операции CreateFolderPath: создание иерархии папок
 
-В следующем примере запрос операции **CreateFolderPath** показано, как создать структуру иерархии папок, который является три папки глубоко в папке "Входящие" по умолчанию. 
+В следующем примере запроса операции **CreateFolderPath** показано, как создать иерархию папок с тремя папками в папке "Входящие" по умолчанию. 
   
 > [!NOTE]
-> Все идентификаторы элементов и ключей изменения в этой статье URL были сокращены, чтобы сохранить удобочитаемость. 
+> Все идентификаторы элементов и изменения ключей в этой статье были сокращены, чтобы сохранить удобочитаемость. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -80,23 +80,23 @@ ms.locfileid: "19761877"
 
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [CreateFolderPath](createfolderpath.md)
     
-- [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
+- [ParentFolderId (Таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
-- [RelativeFolderPath](relativefolderpath.md)
+- [релативефолдерпас](relativefolderpath.md)
     
 - [Folder](folder.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
-## <a name="successful-createfolderpath-operation-response"></a>Успешные операции ответа CreateFolderPath
+## <a name="successful-createfolderpath-operation-response"></a>Успешный отклик операции CreateFolderPath
 
-В следующем примере показано успешного ответа на запрос операции **CreateFolderPath** для создания папки три иерархии папок глубоко в папке "Входящие" по умолчанию. 
+В следующем примере показан успешный ответ на запрос операции **CreateFolderPath** , чтобы создать иерархию папок, вложенную в папку "Входящие" по умолчанию. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -159,33 +159,33 @@ ms.locfileid: "19761877"
 
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [CreateFolderPathResponse](createfolderpathresponse.md)
+- [креатефолдерпасреспонсе](createfolderpathresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateFolderPathResponseMessage](createfolderpathresponsemessage.md)
+- [креатефолдерпасреспонсемессаже](createfolderpathresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 - [Folder](folder.md)
     
 - [FolderId](folderid.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
-- [TotalCount](totalcount.md)
+- [тоталкаунт](totalcount.md)
     
-- [ChildFolderCount](childfoldercount.md)
+- [чилдфолдеркаунт](childfoldercount.md)
     
-- [UnreadCount](unreadcount.md)
+- [унреадкаунт](unreadcount.md)
     
-## <a name="createfolderpath-operation-error-response"></a>Ошибка операции CreateFolderPath ответа
+## <a name="createfolderpath-operation-error-response"></a>Ответ об ошибке операции CreateFolderPath
 
-В следующем примере показано ошибочный ответ на запрос операции **CreateFolderPath** . Это ответ на запрос для создания двух папок, первая из которых имеет задать свойство отображаемое имя. Не удается создать первый папку в иерархии без отображаемое имя свойства и не удается создать второй папку, так как не был создан родительской папки в иерархии. 
+В следующем примере показан ответ об ошибке для запроса операции **CreateFolderPath** . Это ответ на запрос на создание двух папок, для первого из которых не задано свойство отображаемого имени. Первая папка в иерархии не может быть создана без свойства отображаемого имени, и вторая папка не может быть создана, так как родительская папка в иерархии не была создана. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -227,32 +227,32 @@ ms.locfileid: "19761877"
 
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [CreateFolderPathResponse](createfolderpathresponse.md)
+- [креатефолдерпасреспонсе](createfolderpathresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateFolderPathResponseMessage](createfolderpathresponsemessage.md)
+- [креатефолдерпасреспонсемессаже](createfolderpathresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [MessageXml](messagexml.md)
+- [мессажексмл](messagexml.md)
     
-- [FieldURI](fielduri.md)
+- [фиелдури](fielduri.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 
 - [Операции EWS в Exchange](ews-operations-in-exchange.md)
     
-- [FindFolder Operation](findfolder-operation.md)
+- [Операция FindFolder](findfolder-operation.md)
     
 

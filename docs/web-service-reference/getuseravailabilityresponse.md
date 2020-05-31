@@ -1,5 +1,5 @@
 ---
-title: GetUserAvailabilityResponse
+title: жетусераваилабилитиреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6999510a-d60e-43da-8964-57b5fb3e9d11
-description: Элемент GetUserAvailabilityResponse является корневым элементом, который содержит свойства, которые определяют сведения о доступности пользователя или предложенных собраний сведения о времени.
+description: Элемент Жетусераваилабилитиреспонсе является корневым элементом, содержащим свойства, которые определяют сведения о доступности пользователей или сведения о предложенном времени проведения собрания.
 ms.openlocfilehash: 0a30dc8ebc11b1f818b2c27b0ea68fc135ec0925
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833684"
 ---
-# <a name="getuseravailabilityresponse"></a>GetUserAvailabilityResponse
+# <a name="getuseravailabilityresponse"></a>жетусераваилабилитиреспонсе
 
-Элемент **GetUserAvailabilityResponse** является корневым элементом, который содержит свойства, которые определяют сведения о доступности пользователя или предложенных собраний сведения о времени. 
+Элемент **жетусераваилабилитиреспонсе** является корневым элементом, содержащим свойства, которые определяют сведения о доступности пользователей или сведения о предложенном времени проведения собрания. 
   
 ```xml
 <GetUserAvailabilityResponse>
@@ -30,10 +30,10 @@ ms.locfileid: "19833684"
 </GetUserAvailabilityResponse>
 ```
 
- **GetUserAvailabilityResponseType**
+ **жетусераваилабилитиреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,20 +43,20 @@ ms.locfileid: "19833684"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Содержит сведения о доступности запрошенного пользователей и состояния ответа.  <br/> |
-|[SuggestionsResponse](suggestionsresponse.md) <br/> |Содержит данные сведения и предложения о состояния ответа для запроса предложений о собрании.  <br/> |
+|[фрибусиреспонсеаррай](freebusyresponsearray.md) <br/> |Содержит сведения о доступности запрошенных пользователей и состояние отклика.  <br/> |
+|[сугжестионсреспонсе](suggestionsresponse.md) <br/> |Содержит сведения о состоянии отклика и сведения о предложении для запрошенных предложений о собрании.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
 ## <a name="example"></a>Пример
 
-В следующем примере ответа GetUserAvailability показано ответ на запрос GetUserAvailability.
+В приведенном ниже примере ответа GetUserAvailability показан ответ на запрос GetUserAvailability.
   
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -118,7 +118,7 @@ ms.locfileid: "19833684"
 </GetUserAvailabilityResponse>
 ```
 
-Содержимое элемента [идентификатор](id.md) были сокращение, чтобы сохранить удобочитаемость. 
+Содержимое элемента [ID](id.md) было сокращено, чтобы сохранить удобочитаемость. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -126,14 +126,14 @@ ms.locfileid: "19833684"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

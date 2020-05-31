@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 47f8ff57-4835-4d2d-9136-44afb31a4cbe
-description: Найдите сведения о веб-служб Exchange GetSearchableMailboxes операции.
+description: Поиск сведений о GetSearchableMailboxesной операции EWS.
 ms.openlocfilehash: 5e14288280b23e2555eea4fce0f77743d7d210ce
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,35 +17,35 @@ ms.locfileid: "19762910"
 ---
 # <a name="getsearchablemailboxes-operation"></a>Операция GetSearchableMailboxes
 
-Найдите сведения о **GetSearchableMailboxes** операции веб-служб Exchange. 
+Поиск сведений о **GetSearchableMailboxesной** операции EWS. 
   
-Операция **GetSearchableMailboxes** получает областью видимости набора для поиска почтовых ящиков для операций поиска обнаружения. Область поиска почтовых ящиков, возвращаемого в ответе определяется поисковый фильтр и ли расширенное членство в группах рассылки. 
+Операция **GetSearchableMailboxes** получает набор почтовых ящиков с возможностью поиска для поиска при обнаружении. Область получаемых в ответе почтовых ящиков с возможностью поиска определяется фильтром поиска и развернутой группой рассылки. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-getsearchablemailboxes-operation"></a>С помощью операции GetSearchableMailboxes
+## <a name="using-the-getsearchablemailboxes-operation"></a>Использование операции GetSearchableMailboxes
 
-Операция **GetSearchableMailboxes** получает сведения о почтовых ящиках с возможностью поиска. Следующие аргументы могут передаваться в запросе: 
+Операция **GetSearchableMailboxes** получает сведения о почтовых ящиках с возможностью поиска. В запросе передаются следующие аргументы: 
   
-- [SearchFilter](searchfilter.md) — принимает псевдоним одного адреса электронной почты в качестве аргумента. 
+- [SearchFilter](searchfilter.md) — принимает один псевдоним электронной почты в качестве аргумента. 
     
-- [ExpandGroupMembership](expandgroupmembership.md) — указывает, развернут ли группы рассылки в списке результатов, возвращаемого в ответе. 
+- [Експандграупмембершип](expandgroupmembership.md) — указывает, развернута ли членство в группе рассылки в результатах, возвращенных в ответе. 
     
-Если группа рассылки — это псевдоним электронной почты, задайте в фильтре поиска и членство в группах рассылки не развернут, ответ будет содержать сведения о почтовых ящиках для группы рассылки. Если группа рассылки — это псевдоним электронной почты, задайте в поисковый фильтр и расширенное членство в группах рассылки, ответ будет содержать сведения о почтовых ящиках для каждого почтового ящика, который является членом группы рассылки. Если фильтр поиска содержит псевдоним одного пользователя, ответ будет содержать сведения о почтовых ящиках для одного пользователя. Ответ будет содержать все почтовые ящики с возможностью поиска, если элемент [GetSearchableMailboxes](getsearchablemailboxes.md) пуст. Это то же, как имеющий пустой элемент [SearchFilter](searchfilter.md) и [ExpandGroupMembership](expandgroupmembership.md) элемент, значение **false**.
+Если набор псевдонимов электронной почты в фильтре поиска является группой рассылки, а членство в группе рассылки не развернуто, ответ будет содержать сведения о почтовом ящике для группы рассылки. Если набор псевдонимов электронной почты в фильтре поиска является группой рассылки, а членство в группе рассылки развернуто, ответ будет содержать сведения о почтовом ящике для каждого почтового ящика, который является членом группы рассылки. Если фильтр поиска содержит псевдоним одного пользователя, ответ будет содержать сведения о почтовом ящике одного пользователя. Ответ будет содержать все почтовые ящики для поиска, если элемент [GetSearchableMailboxes](getsearchablemailboxes.md) пуст. Это то же самое, что у пустого элемента [SearchFilter](searchfilter.md) , а для элемента [експандграупмембершип](expandgroupmembership.md) задано **значение false**.
   
-### <a name="getsearchablemailboxes-operation-soap-headers"></a>Заголовки SOAP GetSearchableMailboxes операции
+### <a name="getsearchablemailboxes-operation-soap-headers"></a>Заголовки SOAP операции GetSearchableMailboxes
 
-Операция **GetSearchableMailboxes** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **GetSearchableMailboxes** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Идентифицирует ролей сервера, необходимых в порядке для абонентов для запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для того, чтобы вызывающий абонент мог выполнить запрос. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
 ## <a name="getsearchablemailboxes-operation-request-example-request-information-about-a-distribution-group"></a>Пример запроса операции GetSearchableMailboxes: запрос сведений о группе рассылки
 
-В следующем примере запрос операции **GetSearchableMailboxes** показано, как получить сведения о почтовых ящиках для группы рассылки lolgroup. 
+В следующем примере запроса операции **GetSearchableMailboxes** показано, как получить сведения о почтовом ящике для группы рассылки лолграуп. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -65,17 +65,17 @@ ms.locfileid: "19762910"
 
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [GetSearchableMailboxes](getsearchablemailboxes.md)
     
 - [SearchFilter](searchfilter.md)
     
-- [ExpandGroupMembership](expandgroupmembership.md)
+- [експандграупмембершип](expandgroupmembership.md)
     
-## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-a-distribution-group"></a>Успешные операции ответа GetSearchableMailboxes: получение сведений о группе рассылки
+## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-a-distribution-group"></a>Успешный отклик операции GetSearchableMailboxes: получение сведений о группе рассылки
 
-В следующем примере показано успешного ответа на запрос операции **GetSearchableMailboxes** для получения сведений обнаружения lolgroup группу рассылки. 
+В следующем примере показан успешный ответ на запрос операции **GetSearchableMailboxes** для получения сведений об обнаружении для группы рассылки лолграуп. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -113,33 +113,33 @@ ms.locfileid: "19762910"
 
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
+- [жетсеарчаблемаилбоксесреспонсе](getsearchablemailboxesresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [SearchableMailboxes](searchablemailboxes.md)
+- [сеарчаблемаилбоксес](searchablemailboxes.md)
     
-- [SearchableMailbox](searchablemailbox.md)
+- [сеарчаблемаилбокс](searchablemailbox.md)
     
 - [Guid](guid-ex15websvcsotherref.md)
     
-- [Параметр PrimarySmtpAddress](primarysmtpaddress.md)
+- [PrimarySmtpAddress](primarysmtpaddress.md)
     
-- [IsExternalMailbox](isexternalmailbox.md)
+- [исекстерналмаилбокс](isexternalmailbox.md)
     
 - [ExternalEmailAddress](externalemailaddress.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
-- [IsMembershipGroup](ismembershipgroup.md)
+- [исмембершипграуп](ismembershipgroup.md)
     
 - [ReferenceId](referenceid.md)
     
-## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-an-expanded-distribution-group"></a>Успешные операции ответа GetSearchableMailboxes: получение сведений о расширенной группы рассылки
+## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-an-expanded-distribution-group"></a>Успешный отклик операции GetSearchableMailboxes: получение сведений о расширенной группе рассылки
 
-В следующем примере показано успешного ответа на запрос операции **GetSearchableMailboxes** для получения обнаружения сведений о членов группы рассылки расширенное lolgroup. 
+В следующем примере показан успешный ответ на запрос операции **GetSearchableMailboxes** для получения сведений об обнаружении членов развернутой группы рассылки лолграуп. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -184,33 +184,33 @@ ms.locfileid: "19762910"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
+- [жетсеарчаблемаилбоксесреспонсе](getsearchablemailboxesresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [SearchableMailboxes](searchablemailboxes.md)
+- [сеарчаблемаилбоксес](searchablemailboxes.md)
     
-- [SearchableMailbox](searchablemailbox.md)
+- [сеарчаблемаилбокс](searchablemailbox.md)
     
 - [Guid](guid-ex15websvcsotherref.md)
     
-- [Параметр PrimarySmtpAddress](primarysmtpaddress.md)
+- [PrimarySmtpAddress](primarysmtpaddress.md)
     
-- [IsExternalMailbox](isexternalmailbox.md)
+- [исекстерналмаилбокс](isexternalmailbox.md)
     
 - [ExternalEmailAddress](externalemailaddress.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
-- [IsMembershipGroup](ismembershipgroup.md)
+- [исмембершипграуп](ismembershipgroup.md)
     
 - [ReferenceId](referenceid.md)
     
-## <a name="getsearchablemailboxes-operation-error-response"></a>Ошибка операции GetSearchableMailboxes ответа
+## <a name="getsearchablemailboxes-operation-error-response"></a>Ответ об ошибке операции GetSearchableMailboxes
 
-В следующем примере показано ошибочный ответ на запрос операции **GetSearchableMailboxes** . Это ответ на запрос для получения всех почтовых ящиков с возможностью поиска, если аргумент **ExpandGroupMembership** имеет значение **true**. 
+В следующем примере показан ответ об ошибке для запроса операции **GetSearchableMailboxes** . Это ответ на запрос на получение всех почтовых ящиков, для которых выполняется поиск, если для аргумента **експандграупмембершип** задано значение **true**. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -240,19 +240,19 @@ ms.locfileid: "19762910"
 
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
+- [жетсеарчаблемаилбоксесреспонсе](getsearchablemailboxesresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [SearchableMailboxes](searchablemailboxes.md)
+- [сеарчаблемаилбоксес](searchablemailboxes.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

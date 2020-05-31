@@ -1,5 +1,5 @@
 ---
-title: AssignedTime
+title: ассигнедтиме
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 37b273a4-7595-47d5-87c5-32856d7a045b
-description: Элемент AssignedTime представляет время, когда задача назначена контакта.
+description: Элемент Ассигнедтиме представляет время, когда задача назначена контакту.
 ms.openlocfilehash: 66d1307e143f436f94c51b293ae8189c2ce85980
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761500"
 ---
-# <a name="assignedtime"></a>AssignedTime
+# <a name="assignedtime"></a>ассигнедтиме
 
-Элемент **AssignedTime** представляет время, когда задача назначена контакта. 
+Элемент **ассигнедтиме** представляет время, когда задача назначена контакту. 
   
 ```xml
 <AssignedTime/>
@@ -30,7 +30,7 @@ ms.locfileid: "19761500"
  **DateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,7 +50,7 @@ ms.locfileid: "19761500"
 
 Это свойство доступно только для чтения.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19761500"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

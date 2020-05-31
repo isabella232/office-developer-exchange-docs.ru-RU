@@ -1,11 +1,11 @@
 ---
-title: Шаблоны повторения и веб-служб Exchange
+title: Шаблоны повторения и EWS
 manager: luken
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fd9ef706-1e01-49fa-af6f-2f6d3e173c16
-description: Сведения о шаблоны повторения и ряд повторяющейся в Exchange.
+description: Сведения о шаблонах повторения и повторяющихся рядах в Exchange.
 ms.openlocfilehash: ac10e9b9a347abb5907b77f0e0e7315e4e86d97a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,79 +13,79 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761244"
 ---
-# <a name="recurrence-patterns-and-ews"></a>Шаблоны повторения и веб-служб Exchange
+# <a name="recurrence-patterns-and-ews"></a>Шаблоны повторения и EWS
 
-Сведения о шаблоны повторения и ряд повторяющейся в Exchange.
+Сведения о шаблонах повторения и повторяющихся рядах в Exchange.
   
-Серии повторяющихся — встречи или собрания, повторяет согласно заданному шаблону. Серии повторяющихся либо может иметь определенного количества экземпляров или можно повторить неопределенное время. Кроме того, серии повторяющихся может иметь исключения, которые не отвечают шаблону остальную часть вхождений и может иметь вхождения, которые были удалены из шаблона. Для работы с серии повторяющихся и их элементы связанного календаря можно использовать управляемый API EWS и веб-служб Exchange.
+Повторяющийся ряд — это встреча или собрание, повторяющиеся в соответствии с определенным шаблоном. Повторяющиеся ряды могут иметь определенное количество повторений или может повторяться в течение неопределенного периода. Кроме того, повторяющиеся ряды могут содержать исключения, которые не следуют шаблону остальных вхождений, и могут иметь экземпляры, удаленные из шаблона. Вы можете использовать управляемый API EWS и EWS для работы с повторяющимися сериями и связанными с ними элементами календаря.
   
-## <a name="recurring-calendar-items"></a>Повторяющихся элементов календаря
+## <a name="recurring-calendar-items"></a>Повторяющиеся элементы календаря
 
-Все элементы календаря попадают в одну из следующих четырех категорий:
+Все элементы календаря делятся на одну из следующих четырех категорий:
   
-- Неповторяющихся элементов календаря
+- Неповторяющиеся элементы календаря
     
-- Повторяющееся образцов
+- Повторяющиеся шаблоны
     
-- Вхождения в цикле
+- Вхождения в серии
     
-- Измененные вхождений в серии, известных как исключения
+- Измененные экземпляры в серии, называемые исключениями
     
-В этой статье мы рассмотрим трех типов элементов календаря, являющихся частью серии повторяющихся.
+В этой статье мы рассмотрим три типа элементов календаря, которые входят в повторяющиеся ряды.
   
-Будет полезно понять, как повторяющееся реализован на сервере Exchange. Вместо создания элемент уникальных для каждого повтора в ряду, сервер создает только один элемент фактические в календаре, известных как образца повторения. Формат образца повторения очень похоже на неповторяющейся встречи с добавлением информации шаблон повторения. Сервер создает на основе шаблона повторения в ответ на запросы клиентов для данные о встрече, используя процесс с именем расширения вхождений. Эти созданный вхождений не сохраняются на сервере без возможности восстановления. Это важно понимать, как поиск элементов календаря определяет, какие сведения о получении и ли расширение происходит.
+Полезно знать, как повторяющиеся ряды реализуются на сервере Exchange. Вместо того чтобы создавать отдельный отдельный элемент для каждого вхождения в повторяющейся серии, сервер создает в календаре только один фактический элемент, называемый повторяющимся образцом. Формат повторяющейся основной схемы очень похож на неповторяющуюся встречу с добавлением сведений о расписании повторения. Затем сервер создает экземпляры на основе шаблона повторения в ответ на клиентские запросы для сведений о встрече, используя процесс, называемый расширением. Эти созданные экземпляры не будут безвозвратно храниться на сервере. Это важно понимать, так как поиск элементов календаря определяет, какие сведения вы получаете и как происходит расширение.
   
 ## <a name="recurrence-patterns"></a>Расписания повторения
 
-Основной блок в повторяющееся, который делает возможным расширения — это шаблон повторения. Шаблон повторения найдено в образце повторяющихся и описание набор критериев для расчета вхождений на основе даты и времени образца повторения.
+Основной частью ряда повторяющихся данных является периодичность расширения. Шаблон повторения находится на повторяющейся основной странице, а также описывает набор критериев для расчета вхождений на основе даты и времени повторяющегося образца.
   
-**В таблице 1. Шаблоны повторения недоступны**
+**Таблица 1. Доступные шаблоны повторения**
 
-|**Управляемый API EWS класс**|**Элемент веб-служб Exchange**|**�������**|
+|**Класс управляемого API EWS**|**Элемент EWS**|**Примеры**|
 |:-----|:-----|:-----|
-|[Recurrence.DailyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.dailypattern%28v=exchg.80%29.aspx) <br/> |[DailyRecurrence](http://msdn.microsoft.com/library/0aaf265d-b723-49c6-8e9c-9ba60141e9ab%28Office.15%29.aspx) <br/> |Повторите каждый день.  <br/> Повторите каждый второй день.  <br/> |
-|[Recurrence.MonthlyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.monthlypattern%28v=exchg.80%29.aspx) <br/> |[AbsoluteMonthlyRecurrence](http://msdn.microsoft.com/library/178fa0ae-9dfc-417f-933c-d657d31c2161%28Office.15%29.aspx) <br/> |Повторите ежемесячно в 10 день месяца.  <br/> Повторите каждые два месяца двадцати первый день месяца.  <br/> |
-|[Recurrence.RelativeMonthlyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.relativemonthlypattern%28v=exchg.80%29.aspx) <br/> |[RelativeMonthlyRecurrence](http://msdn.microsoft.com/library/a76595db-7460-44ac-ac2a-53241caa33a7%28Office.15%29.aspx) <br/> |Повторите во второй вторник каждого месяца.  <br/> Повторите в третий четверг каждые три месяца.  <br/> |
-|[Recurrence.RelativeYearlyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx) <br/> |[RelativeYearlyRecurrence](http://msdn.microsoft.com/library/25b67876-9979-4a30-a637-357ea10a93b8%28Office.15%29.aspx) <br/> |Повторите в первый понедельник августа каждый год.  <br/> |
-|[Recurrence.WeeklyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.weeklypattern%28v=exchg.80%29.aspx) <br/> |[WeeklyRecurrence](http://msdn.microsoft.com/library/69c41dd5-597c-45bc-be3f-e2f2b5615aa3%28Office.15%29.aspx) <br/> |Повторите каждый понедельник.  <br/> Повторите вторникам и четверг каждые две недели.  <br/> |
-|[Recurrence.YearlyPattern](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx) <br/> |[AbsoluteYearlyRecurrence](http://msdn.microsoft.com/library/96f53e2c-3893-4f6e-a78a-ac179f45c5db%28Office.15%29.aspx) <br/> |Повторите на 1-го сентября каждый год.  <br/> |
+|[Повторение. Даилипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.dailypattern%28v=exchg.80%29.aspx) <br/> |[даилирекурренце](http://msdn.microsoft.com/library/0aaf265d-b723-49c6-8e9c-9ba60141e9ab%28Office.15%29.aspx) <br/> |Повторять каждый день.  <br/> Повторять каждый день.  <br/> |
+|[Повторение. Монслипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.monthlypattern%28v=exchg.80%29.aspx) <br/> |[абсолутемонслирекурренце](http://msdn.microsoft.com/library/178fa0ae-9dfc-417f-933c-d657d31c2161%28Office.15%29.aspx) <br/> |Повторять каждый месяц на десятый день месяца.  <br/> Повторять каждый второй месяц в двадцать первый день месяца.  <br/> |
+|[Повторение. Релативемонслипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.relativemonthlypattern%28v=exchg.80%29.aspx) <br/> |[релативемонслирекурренце](http://msdn.microsoft.com/library/a76595db-7460-44ac-ac2a-53241caa33a7%28Office.15%29.aspx) <br/> |Повторяйте во второй вторник каждого месяца.  <br/> Повторяйте в третий четверг месяца каждые три месяца.  <br/> |
+|[Повторение. Релативэйеарлипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx) <br/> |[релативэйеарлирекурренце](http://msdn.microsoft.com/library/25b67876-9979-4a30-a637-357ea10a93b8%28Office.15%29.aspx) <br/> |Повторяйте на первом понедельник августа каждый год.  <br/> |
+|[Повторение. Виклипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.weeklypattern%28v=exchg.80%29.aspx) <br/> |[виклирекурренце](http://msdn.microsoft.com/library/69c41dd5-597c-45bc-be3f-e2f2b5615aa3%28Office.15%29.aspx) <br/> |Повторяйте каждый понедельник.  <br/> Повторяйте каждый вторник и четверг каждую вторую неделю.  <br/> |
+|[Повторение. Еарлипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx) <br/> |[абсолутэйеарлирекурренце](http://msdn.microsoft.com/library/96f53e2c-3893-4f6e-a78a-ac179f45c5db%28Office.15%29.aspx) <br/> |Повторяйте каждый год 1 сентября.  <br/> |
    
-Другие важную информацию для шаблона повторения — при завершении повторения. Это может быть выражено как заданное количество вхождений, Дата завершения или необходимости нет конца.
+Другой важный фрагмент данных для шаблона повторения — по окончании повторения. Может быть выражено как заданное число повторений, как Дата окончания, так и без окончания.
   
-**В таблице 2. Параметры для окончания встречи**
+**Таблица 2. Варианты для конца повторяющейся серии**
 
-|**Управляемый API EWS метод или свойство**|**Элемент веб-служб Exchange**|**Описание**|
+|**Метод или свойство управляемого API EWS**|**Элемент EWS**|**Описание**|
 |:-----|:-----|:-----|
-|[Recurrence.NumberOfOccurrences](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.numberofoccurrences%28v=exchg.80%29.aspx) <br/> |[NumberedRecurrence](http://msdn.microsoft.com/library/53746909-ef21-4764-8715-a7769b943cca%28Office.15%29.aspx) <br/> |Значение этого свойства или элемент указывает число вхождений.  <br/> |
-|[Recurrence.EndDate](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) <br/> |[EndDateRecurrence](http://msdn.microsoft.com/library/a5ee2504-db84-49ee-870c-cca9269f2e26%28Office.15%29.aspx) <br/> |Последнее вхождение в серии попадает на или до даты, указанного идентификатором этого свойства или элемента.  <br/> |
-|[Recurrence.HasEnd](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.hasend%28v=exchg.80%29.aspx) <br/> [Recurrence.NeverEnds](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.neverends%28v=exchg.80%29.aspx) <br/> |[NoEndRecurrence](http://msdn.microsoft.com/library/ab2ebd9c-388e-45f1-abf9-56e293ef123b%28Office.15%29.aspx) <br/> |Серия имеет нет конца.  <br/> |
+|[Повторение. Нумберофоккурренцес](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.numberofoccurrences%28v=exchg.80%29.aspx) <br/> |[нумбередрекурренце](http://msdn.microsoft.com/library/53746909-ef21-4764-8715-a7769b943cca%28Office.15%29.aspx) <br/> |Значение этого свойства или элемента указывает количество повторений.  <br/> |
+|[Повторение. EndDate](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) <br/> |[енддатерекурренце](http://msdn.microsoft.com/library/a5ee2504-db84-49ee-870c-cca9269f2e26%28Office.15%29.aspx) <br/> |Последнее вхождение в ряду приходится на или предшествует дате, указанной этим свойством или элементом.  <br/> |
+|[Повторение. Хасенд](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.hasend%28v=exchg.80%29.aspx) <br/> [Повторение. Неверендс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.neverends%28v=exchg.80%29.aspx) <br/> |[ноендрекурренце](http://msdn.microsoft.com/library/ab2ebd9c-388e-45f1-abf9-56e293ef123b%28Office.15%29.aspx) <br/> |У ряда нет конца.  <br/> |
    
-## <a name="expanded-vs-non-expanded-views"></a>Расширенное и не были развернуты представлений
+## <a name="expanded-vs-non-expanded-views"></a>Расширенные и нерасширенные представления
 
-С помощью метода **FindAppointments** в управляемый API веб-служб Exchange (или операции **FindItem** с элементом **представления календаря** в веб-служб Exchange) вызывает процесса расширения. Это скрывает повторяющихся встреч главных в наборе результатов и вместо этого представляет расширенное представление этого повторяющегося ряда. Вхождения и исключения повторяющихся образец, попадающие в параметры представления календаря включены в наборе результатов. С другой стороны, с помощью метода **FindItems** в управляемый API веб-служб Exchange (или операции **FindItem** с **IndexedPageItemView** или **FractionalPageItemView** элемент в веб-служб Exchange), не вызывает процесса расширения и вхождений и исключения, не включаются. Давайте рассмотрим пример сравнения двух методов. 
+Вызов процесса расширения с помощью метода **FindAppointments** в УПРАВЛЯЕМОМ API EWS (или операции **FindItem** с элементом **CalendarView** в EWS). Это скрывает повторяющиеся основные встречи из набора результатов, а вместо этого предоставляет расширенное представление этой серии. Экземпляры и исключения из повторяющейся основной реплики, которые попадают в параметры представления календаря, включаются в результирующий набор. С другой стороны, с помощью метода **FindItems** в УПРАВЛЯЕМОМ API EWS (или операции **FindItem** с элементом **индекседпажеитемвиев** или **фрактионалпажеитемвиев** в EWS) не вызывается процесс расширения, а экземпляры и исключения не включаются. Рассмотрим пример сравнения двух методов. 
   
-**В таблице 3. Методы и операций поиска встреч**
+**Таблица 3. Методы и операции для поиска встреч**
 
-|**Метод управляемого API EWS**|**Операция служб EWS**|**При развертывании серии?**|**Компоненты, входящие в результаты**|
+|**Метод управляемого API EWS**|**Операция EWS**|**Разворачивает ряды?**|**Элементы, включенные в результаты**|
 |:-----|:-----|:-----|:-----|
-|[ExchangeService.FindAppointments](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) <br/> |[Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [представления календаря](http://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx)  <br/> |Да  <br/> |Неповторяющихся встреч, отдельных экземпляров повторяющегося ряда и исключений из серии повторяющихся  <br/> |
-|[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с [IndexedPageItemView](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) элемент или элемент [FractionalPageItemView](http://msdn.microsoft.com/library/4111afec-35e7-4c6f-b291-9bbba603f633%28Office.15%29.aspx)  <br/> |Нет  <br/> |Неповторяющихся встреч и повторяющихся встреч главной  <br/> |
+|[ExchangeService. FindAppointments](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) <br/> |[Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [CalendarView](http://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx)  <br/> |Да  <br/> |Неповторяющиеся встречи, отдельные экземпляры повторяющихся рядов и исключения из повторяющихся рядов  <br/> |
+|[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [Индекседпажеитемвиев](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) или элементом [фрактионалпажеитемвиев](http://msdn.microsoft.com/library/4111afec-35e7-4c6f-b291-9bbba603f633%28Office.15%29.aspx)  <br/> |Нет  <br/> |Неповторяющиеся встречи и повторяющиеся запланированные встречи  <br/> |
    
-Sadie выполнил установил сын для swim группы. Группа имеет practice каждый день в 8:30:00 утра среда запуск 2 июля с последней, прием на 6 августа. Желающие не забудьте о practice, Sadie добавляет повторяющейся встречи в свой календарь, чтобы напомнить ему.
+Ольга только что подписался на себя для группы свим. У группы есть упражнения каждую среду утром в 8:30 AM, начиная с 2 июля, с последней практикой из 6 августа. Не нужно забывать о практике, Ольга добавляет повторяющуюся встречу в свой календарь для напоминания.
   
-**В таблице 4. Sadie's повторяющейся встречи**
+**Таблица 4. Повторяющаяся встреча Ольга**
 
-|**Поле встречи**|**Значение**|
+|**Поле "Встреча"**|**Значение**|
 |:-----|:-----|
-|Subject  <br/> |Swim Practice группы  <br/> |
-|Начало  <br/> |2 июля 2014 г. 8:30:00  <br/> |
-|End  <br/> |2 июля 2014 г. 10:00 по  <br/> |
+|Subject  <br/> |Практика группы свим  <br/> |
+|Начало  <br/> |2 июля 2014 8:30 AM  <br/> |
+|Конец  <br/> |2 июля 2014 10:00 AM  <br/> |
 |Повторяется  <br/> |Каждую среду  <br/> |
-|Последнее вхождение  <br/> |6 августа 2014 г. 8:30:00  <br/> |
+|Последнее событие  <br/> |6 августа 2014 8:30 AM  <br/> |
    
-Краткий обзор календаря показывает, что команда будет иметь всего шесть рекомендациям. Тем не менее не существует шесть элементов различных встречи в календаре. Вместо этого существует только один повторяющейся встречи главной, представляющее серии.
+Краткий обзор календаря показывает, что у команды будет всего шесть практических рекомендаций. Однако в календаре не существует шести отдельных элементов встречи. Вместо этого существует только одна повторяющаяся Главная встреча, представляющая ряд.
   
-Теперь давайте взглянем на поиск встреч в календаре пользователя Sadie, которые происходят в рамках июля. В следующем примере кода метод **FindItems** в управляемый API Exchange для создания представления не были развернуты Sadie элемента календаря. 
+Теперь рассмотрим Поиск встреч в календаре Ольга, который встречается в июле. В следующем примере кода используется метод **FindItems** в управляемом API Exchange для создания нерасширенного представления календаря Ольга. 
   
 ```cs
 PropertySet propSet = new PropertySet(AppointmentSchema.Subject,
@@ -114,7 +114,7 @@ foreach(Item appt in results.Items)
 }
 ```
 
-Этот код приводит к следующей запрос [FindItem операции](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [IndexedPageItemView](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) . 
+Этот код приводит к следующему запросу [операции FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [индекседпажеитемвиев](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -165,7 +165,7 @@ foreach(Item appt in results.Items)
 </soap:Envelope>
 ```
 
-Ответ сервера включает в себя только один элемент, хозяином повторяющихся указанный в параметре значение элемента [CalendarItemType](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) **RecurringMaster**. Значение элемента [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) был усечен для удобства чтения. 
+Ответ сервера включает в себя только один элемент — шаблон повторения, указанный значением элемента [календаритемтипе](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) в **рекуррингмастер**. Значение элемента [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) было сокращено для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -202,7 +202,7 @@ foreach(Item appt in results.Items)
 </s:Envelope>
 ```
 
-Теперь давайте сравнить с расширенное представление. В следующем примере кода метод **FindAppointments** в управляемый API веб-служб Exchange для создания развернутого представления календаря в Sadie. 
+Теперь выполним сравнение с расширенным представлением. В следующем примере кода используется метод **FindAppointments** в УПРАВЛЯЕМОМ API EWS для создания расширенного представления календаря Ольга. 
   
 ```cs
 PropertySet propSet = new PropertySet(AppointmentSchema.Subject,
@@ -220,7 +220,7 @@ foreach(Appointment appt in results.Items)
 }
 ```
 
-Этот код приводит к следующей [операции FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) запроса с элемент [представления календаря](http://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx) . 
+Этот код приводит к следующему запросу [операции FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [CalendarView](http://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -255,7 +255,7 @@ foreach(Appointment appt in results.Items)
 </soap:Envelope>
 ```
 
-Настоящее время отклика сервера включает в себя пять вхождений, другая — для каждого среда июля. Элементы [CalendarItemType](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) на все эти элементы имеют значение **экземпляра**. Обратите внимание, что повторяющиеся главных не указан в ответе. Значения элементов [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) URL-были сокращены для удобства чтения. 
+В этот раз ответ сервера включает пять повторений, по одному для каждой среды в июле. Элементы [календаритемтипе](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) для этих элементов имеют значение " **экземпляр**". Обратите внимание, что в отклике отсутствует шаблон повторения. Значения элементов [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -324,23 +324,23 @@ foreach(Appointment appt in results.Items)
 </s:Envelope>
 ```
 
-После того как образцом повторения, вхождения или исключение всегда можно [извлечь связанные элементы](how-to-access-a-recurring-series-by-using-ews-in-exchange.md). Учитывая вхождение или исключение, вы можете получить повторяющихся основной и наоборот.
+После создания повторяющегося образца, вхождения или исключения всегда можно [получить другие связанные элементы](how-to-access-a-recurring-series-by-using-ews-in-exchange.md). Получив исключение, вы можете извлечь шаблон повторения и наоборот.
   
-## <a name="working-with-recurring-calendar-items"></a>Работа с повторяющихся элементов календаря
+## <a name="working-with-recurring-calendar-items"></a>Работа с повторяющимися элементами календаря
 
-Можно использовать те же операций и методы для работы с серии повторяющихся как для работы с элементами календаря неповторяющейся. Отличие заключается, что в зависимости от того, элемент, который можно использовать для вызова этих методов или операции, выполняемые действия можно применять для всего ряда или только одно вхождение. [Действия, предпринимаемые в образце повторяющихся](how-to-update-a-recurring-series-by-using-ews-in-exchange.md) будут применяться ко все вхождения серии, во время [действия, предпринимаемые для одного экземпляра или исключение](how-to-update-a-recurring-series-by-using-ews.md) применяется только к этому вхождение или исключение. 
+Для работы с повторяющимися элементами календаря используются те же методы и операции, что и при работе с неповторяющимися элементами календаря. Разница заключается в том, что в зависимости от элемента, используемого для вызова этих методов или операций, выполняемые действия можно применить ко всей серии или только к одному экземпляру. [Действия, выполняемые на повторяющейся основной реплике](how-to-update-a-recurring-series-by-using-ews-in-exchange.md) , будут применяться ко всем вхождениям в ряду, в то время как [действия, выполненные с одним экземпляром или исключением](how-to-update-a-recurring-series-by-using-ews.md) , будут применяться только к этому экземпляру или исключению. 
   
 ## <a name="in-this-section"></a>В этом разделе
 
-- [Доступ к ряду с помощью веб-служб Exchange в Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
+- [Доступ к повторяющимся сериям с помощью EWS в Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [Создание встречи с помощью веб-служб Exchange в Exchange](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
+- [Создание серии повторяющихся данных с помощью EWS в Exchange](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [Удаление встреч в серии повторяющихся с помощью веб-служб Exchange в Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
+- [Удаление встреч из серии повторяющихся данных с помощью EWS в Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [Обновление серии повторяющихся с помощью веб-служб Exchange](how-to-update-a-recurring-series-by-using-ews.md)
+- [Обновление серии повторяющихся данных с помощью EWS](how-to-update-a-recurring-series-by-using-ews.md)
     
-- [Обновление серии повторяющихся с помощью веб-служб Exchange в Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
+- [Обновление серии повторяющихся данных с помощью EWS в Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
     
 ## <a name="see-also"></a>См. также
 
@@ -349,6 +349,6 @@ foreach(Appointment appt in results.Items)
     
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Получение встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Получение встреч и собраний с помощью EWS в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

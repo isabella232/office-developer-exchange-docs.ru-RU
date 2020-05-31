@@ -1,5 +1,5 @@
 ---
-title: GlobalLastDeliveryTime
+title: глобалластделиверитиме
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a88dada9-c527-43a7-b2d3-31aad330def9
-description: Элемент GlobalLastDeliveryTime содержит время доставки сообщений, который был получен последний беседы во всех папках в почтовом ящике.
+description: Элемент Глобалластделиверитиме содержит время доставки сообщения, которое было последний раз получено в этой беседе, во всех папках почтового ящика.
 ms.openlocfilehash: fded5cd1891a406f0979cf4bec7321779d70ab3a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,26 +19,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833733"
 ---
-# <a name="globallastdeliverytime"></a>GlobalLastDeliveryTime
+# <a name="globallastdeliverytime"></a>глобалластделиверитиме
 
-Элемент **GlobalLastDeliveryTime** содержит время доставки сообщений, который был получен последний беседы во всех папках в почтовом ящике. 
+Элемент **глобалластделиверитиме** содержит время доставки сообщения, которое было последний раз получено в этой беседе, во всех папках почтового ящика. 
   
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[GlobalLastDeliveryTime](globallastdeliverytime.md)
+[глобалластделиверитиме](globallastdeliverytime.md)
   
 ```XML
 <GlobalLastDeliveryTime/>
 ```
 
- **xs: DateTime**
+ **xs: dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -56,11 +56,11 @@ ms.locfileid: "19833733"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **GlobalLastDeliveryTime** — это дата и время сообщения, который был получен последний беседы во всех папках в почтовом ящике. 
+Текстовое значение элемента **глобалластделиверитиме** — это дата и время последнего сообщения, полученного в этой беседе по всем папкам в почтовом ящике. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент был представлен в пакете обновления 1 (SP1) для Exchange Server 2010. Схема, описывающая этот элемент находится в виртуальном каталоге IIS, на котором размещается веб-служб Exchange.
+Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1). Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, на котором размещаются веб-службы Exchange.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -68,7 +68,7 @@ ms.locfileid: "19833733"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

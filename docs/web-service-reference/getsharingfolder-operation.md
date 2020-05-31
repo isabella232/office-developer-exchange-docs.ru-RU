@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 75fee92a-a7f8-4a62-ad2b-17acbaada186
-description: Операция GetSharingFolder Получает идентификатор локальной папки указанной общей папке.
+description: Операция GetSharingFolder получает идентификатор локальной папки указанной общей папки.
 ms.openlocfilehash: 23adb10b22623fcbc1dd6b33bd674afafdaa8b19
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,24 +21,24 @@ ms.locfileid: "19833670"
 ---
 # <a name="getsharingfolder-operation"></a>Операция GetSharingFolder
 
-Операция **GetSharingFolder** Получает идентификатор локальной папки указанной общей папке. 
+Операция **GetSharingFolder** получает идентификатор локальной папки указанной общей папки. 
   
 ## <a name="soap-headers"></a>Заголовки SOAP
 
-Операция **GetSharingFolder** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице. 
+Операция **GetSharingFolder** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса.  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос.  <br/> |
+|рекуестверсион  <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции.  <br/> |
+|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
    
 ## <a name="getsharingfolder-request-example"></a>Пример запроса GetSharingFolder
 
-### <a name="getting-the-local-folder-identifier-by-specifying-the-sharedfolderid-element-of-the-folder-being-shared"></a>Получение идентификатора локальную папку путем указания элемент SharedFolderId общей папке
+### <a name="getting-the-local-folder-identifier-by-specifying-the-sharedfolderid-element-of-the-folder-being-shared"></a>Извлечение идентификатора локальной папки, указав элемент Шаредфолдерид для общей папки
 
-В следующем примере кода показано, как для формирования запроса, чтобы получить идентификатор локальной папки, соответствующее к папке, где находится в совместном. К папке, где находится в совместном идентифицируется по SMTP-адрес почтового ящика, содержащем папку общий и по [SharedFolderId](sharedfolderid.md) элемент, представляющий идентификатор этой папке. В этом примере к папке, где находится в совместном владельцем user1@contoso.com. 
+В приведенном ниже примере кода показано, как сформировать запрос на получение идентификатора локальной папки, соответствующей папке, к которой предоставлен общий доступ. Общая папка идентифицируется SMTP-адресом почтового ящика, содержащего общую папку и элемент [шаредфолдерид](sharedfolderid.md) , представляющий идентификатор этой папки. В этом примере владельцем общей папки является user1@contoso.com. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -59,11 +59,11 @@ ms.locfileid: "19833670"
 </soap:Envelope>
 ```
 
-### <a name="getting-the-local-folder-identifier-by-specifying-the-datatype-element-of-the-folder-being-shared"></a>Начало идентификатор локальной папки, указав тип данных элемента общей папке
+### <a name="getting-the-local-folder-identifier-by-specifying-the-datatype-element-of-the-folder-being-shared"></a>Извлечение идентификатора локальной папки, указав элемент DataType для общей папки
 
-В следующем примере кода показано, как для формирования запроса, чтобы получить идентификатор локальной папки, соответствующее к папке, где находится в совместном. К папке, где находится в совместном определяется путем SMTP-адрес почтового ящика, содержащем папку общий и элемент [тип данных](datatype.md) , представляющий тип данных в этой папке. В этом примере выполняется общей папки — это папка Контакты, владельцем которого является user1@contoso.com. 
+В приведенном ниже примере кода показано, как сформировать запрос на получение идентификатора локальной папки, соответствующей папке, к которой предоставлен общий доступ. Общая папка определяется SMTP-адресом почтового ящика, содержащего папку, к которой предоставлен общий доступ, и элементом [DataType](datatype.md) , представляющим тип данных в этой папке. В этом примере папкой, к которой предоставляется общий доступ, относится папка "Контакты", принадлежащая user1@contoso.com. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -84,17 +84,17 @@ ms.locfileid: "19833670"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Сведения о возможных значений элемента **типа данных** содержатся в разделе [тип данных](datatype.md).
+Сведения о возможных значениях элемента **DataType** приведены в разделе [DataType](datatype.md).
   
-## <a name="successful-getsharingfolder-response"></a>Успешного ответа GetSharingFolder
+## <a name="successful-getsharingfolder-response"></a>Успешный ответ GetSharingFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **GetSharingFolder** . Атрибут **Id** элемента [SharingFolderId](sharingfolderid.md) представляет идентификатор локальной папки в отношении общего доступа. 
+В следующем примере показан успешный ответ на запрос **GetSharingFolder** . Атрибут **ID** элемента [шарингфолдерид](sharingfolderid.md) представляет идентификатор локальной папки в отношении общего доступа. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -121,13 +121,13 @@ ms.locfileid: "19833670"
 </soap:Envelope>
 ```
 
-## <a name="getsharingfolder-error-response"></a>Ошибка GetSharingFolder ответа
+## <a name="getsharingfolder-error-response"></a>Ответ об ошибке GetSharingFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос **GetSharingFolder** . В этом примере произошла ошибка, так как запрос определенных элементов и [SharingFolderId](sharingfolderid.md) и [типа данных](datatype.md) . Обратите внимание на то, что только тот или иной этих двух элементов можно указать, но не оба. 
+В следующем примере показан ответ об ошибке для запроса **GetSharingFolder** . В этом примере возникла ошибка, так как в запросе указаны элементы [шарингфолдерид](sharingfolderid.md) и [DataType](datatype.md) . Обратите внимание, что можно указать только один из этих двух элементов, но не оба. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -161,11 +161,11 @@ ms.locfileid: "19833670"
 
 [GetSharingFolder](getsharingfolder.md)
   
-[GetSharingFolderType](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingFolderType.aspx)
+[жетшарингфолдертипе](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingFolderType.aspx)
   
-[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md)
+[жетшарингфолдерреспонсемессаже](getsharingfolderresponsemessage.md)
   
-[GetSharingFolderResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingFolderResponseMessageType.aspx)
+[жетшарингфолдерреспонсемессажетипе](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingFolderResponseMessageType.aspx)
 
 
 [Операции EWS в Exchange](ews-operations-in-exchange.md)

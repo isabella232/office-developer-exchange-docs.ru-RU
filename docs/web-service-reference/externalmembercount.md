@@ -1,5 +1,5 @@
 ---
-title: ExternalMemberCount
+title: екстерналмемберкаунт
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: bd0e82da-7391-4ba3-acb4-31d3517d51d0
-description: Элемент ExternalMemberCount представляет количество внешних элементов в группе.
+description: Элемент Екстерналмемберкаунт представляет количество внешних элементов в группе.
 ms.openlocfilehash: 8848a455f7562c893a0ef4bb7c92c273699ce31c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762509"
 ---
-# <a name="externalmembercount"></a>ExternalMemberCount
+# <a name="externalmembercount"></a>екстерналмемберкаунт
 
-Элемент **ExternalMemberCount** представляет количество внешних элементов в группе. 
+Элемент **екстерналмемберкаунт** представляет количество внешних элементов в группе. 
   
 ```XML
 <ExternalMemberCount/>
@@ -30,7 +30,7 @@ ms.locfileid: "19762509"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19762509"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Почтовые подсказки](mailtips.md) <br/> |Представляет значения для различных типов почтовые подсказки.  <br/> |
+|[Подсказки](mailtips.md) <br/> |Представляет значения для различных типов советов по использованию электронной почты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение — целое число, представляющее номер внешних участников в группу.
+Текстовое значение — это целое число, представляющее число внешних элементов в группе.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19762509"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

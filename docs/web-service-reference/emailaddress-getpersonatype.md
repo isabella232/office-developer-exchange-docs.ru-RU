@@ -1,5 +1,5 @@
 ---
-title: EmailAddress (GetPersonaType)
+title: EmailAddress (Жетперсонатипе)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 052055b5-4630-40ed-9b24-9e7f4bf7ba1d
-description: Элемент EmailAddress (GetPersonaType) указывает адрес электронной почты, связанный с пользователя.
+description: Элемент EmailAddress (Жетперсонатипе) указывает адрес электронной почты, связанный с персонажом.
 ms.openlocfilehash: a28a4a61a9719875fe99e1c950bcd3ec3af9ab13
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762275"
 ---
-# <a name="emailaddress-getpersonatype"></a>EmailAddress (GetPersonaType)
+# <a name="emailaddress-getpersonatype"></a>EmailAddress (Жетперсонатипе)
 
-Элемент **EmailAddress (GetPersonaType)** указывает адрес электронной почты, связанный с пользователя. 
+Элемент **EmailAddress (жетперсонатипе)** указывает адрес электронной почты, связанный с персонажом. 
   
 ```XML
 <EmailAddress>
@@ -33,7 +33,7 @@ ms.locfileid: "19762275"
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,13 +41,13 @@ ms.locfileid: "19762275"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Имя (строка)](name-string.md) | [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) | [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md) | [MailboxType](mailboxtype.md) | [ItemId](itemid.md) | [OriginalDisplayName](originaldisplayname.md)
+[Name (String)](name-string.md) | [EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md) | [раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md) | [MailboxType](mailboxtype.md) | [ItemId](itemid.md) | [оригиналдисплайнаме](originaldisplayname.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [GetPersona](getpersona.md)
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -59,7 +59,7 @@ ms.locfileid: "19762275"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

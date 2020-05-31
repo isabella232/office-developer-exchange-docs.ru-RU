@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 736be0bc-12c4-410e-bd17-a89f996ac432
-description: Атрибуты элемента указывает строку, используемую для идентификации атрибутов пользователя.
+description: Элемент Attribute указывает строку, используемую для идентификации атрибута пользователя.
 ms.openlocfilehash: 227379db8a77fb8cba7b4337e74d985bc5af65d2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19761521"
 ---
 # <a name="attribution-string"></a>Атрибуты (строка)
 
-**Атрибуты** элемента указывает строку, используемую для идентификации атрибутов пользователя. 
+Элемент **Attribute** указывает строку, используемую для идентификации атрибута пользователя. 
   
 ```XML
 <Attribution></Attribution>
@@ -26,7 +26,7 @@ ms.locfileid: "19761521"
  **xs: String**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19761521"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Атрибуты (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Указывает массив атрибуты для его связанное **значение** элемента.  <br/> |
+|[Атрибуты (Аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md) <br/> |Задает массив атрибутов для связанного элемента **value** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **атрибуты** — это значение типа string, значение свойства атрибутов контакту источника. 
+Текстовое **значение элемента** Attributes — это строковое значение, которое применяет к исходному контакту значение свойства. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19761521"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

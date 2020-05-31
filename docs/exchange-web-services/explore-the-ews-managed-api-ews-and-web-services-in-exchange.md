@@ -17,10 +17,10 @@ ms.locfileid: "19760941"
 
 Используйте управляемый API EWS, EWS, автообнаружение и другие веб-службы в Exchange для создания решений по управлению служебной электронной почтой, календарем и контактами на ПК и мобильных устройствах, а также через Интернет. 
   
-Exchange предоставляет веб-служб Exchange (EWS) и другие веб-службы, которые можно использовать для реализации клиентских приложений, доступа и управления Exchange хранения элементов.
+Exchange предоставляет веб-службы Exchange (EWS) и другие веб-службы, которые можно использовать для реализации клиентских приложений, которые обращаются к элементам хранилища Exchange и управляют ими.
   
 > [!NOTE]
-> Условия, указанные в разделе [сведения о лицензии](license-information.md) применимы к использованию данного контента. Внимательно ознакомьтесь с условиями. 
+> Термины, указанные в разделе [сведения о лицензии](license-information.md) , относятся к использованию этого контента. Внимательно их изучите. 
   
 ## <a name="create-ews-managed-api-ews-and-web-services-solutions"></a>Создание решений управляемого API EWS, EWS и веб-служб
 
@@ -29,16 +29,16 @@ Exchange предоставляет веб-служб Exchange (EWS) и друг
 |Назначение|С чего начать|
 |:-----|:-----|
 |Начало работы с первым клиентским приложением .NET Framework EWS  <br/> |[Начало работы с клиентскими приложениями, использующими управляемый API EWS](get-started-with-ews-managed-api-client-applications.md) <br/> |
-|Начало работы с первым клиентским приложением EWS  <br/> |[Начало работы с веб-служб Exchange клиентских приложений](get-started-with-ews-client-applications.md) <br/> |
-|Сведения о новых возможностях управляемого API EWS и EWS  <br/> |[Новые возможности в веб-служб Exchange в Exchange](whats-new-in-ews-and-other-web-services-in-exchange.md) <br/> |
+|Начало работы с первым клиентским приложением EWS  <br/> |[Начало работы с клиентскими приложениями EWS](get-started-with-ews-client-applications.md) <br/> |
+|Сведения о новых возможностях управляемого API EWS и EWS  <br/> |[Новые возможности EWS в Exchange](whats-new-in-ews-and-other-web-services-in-exchange.md) <br/> |
 |Основы разработки веб-службы с помощью Exchange  <br/> |[Начать работу с использованием веб-служб Exchange](start-using-web-services-in-exchange.md) <br/> |
-|Примеры кода управляемого API EWS  <br/> |[Примеры кода Exchange 2013:101](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c) <br/> |
-|Рекомендации по разработке приложений управляемого API EWS и EWS  <br/> |[Общие сведения о разработке клиента EWS для Exchange](ews-client-design-overview-for-exchange.md) <br/> |
+|Примеры кода управляемого API EWS  <br/> |[Exchange 2013: примеры кода 101](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c) <br/> |
+|Рекомендации по разработке приложений управляемого API EWS и EWS  <br/> |[Основные сведения о разработке клиентов EWS для Exchange](ews-client-design-overview-for-exchange.md) <br/> |
 |Инструкции и примеры кода для управляемого API EWS и EWS  <br/> |[Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md) <br/> |
-|Поиск справочных материалов.  <br/> |[Справочник по веб-службам для Exchange](../web-service-reference/web-services-reference-for-exchange.md) <br/> |
+|Здесь вы найдете справочные материалы.  <br/> |[Справочник по веб-службам для Exchange](../web-service-reference/web-services-reference-for-exchange.md) <br/> |
    
 ## <a name="see-also"></a>См. также
     
-- [Зарегистрируйтесь для Exchange Online и сайта разработчика Office 365](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-a-development-environment-for-sharepoint-add-ins-on-office-365)
+- [Регистрация на сайте разработчика для Exchange Online и Office 365](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-a-development-environment-for-sharepoint-add-ins-on-office-365)
     
 

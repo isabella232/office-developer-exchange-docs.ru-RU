@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 55d451f9-547f-44ac-872e-9cb220ea7b7c
-description: Операция GetRoomLists получает списков комнат, доступных в организации Exchange.
+description: Операция GetRoomLists получает списки помещений, доступные в организации Exchange.
 ms.openlocfilehash: 139a669bfc6b7c4bc9bd9c07f9f9cf52954860c0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,26 +21,26 @@ ms.locfileid: "19762904"
 ---
 # <a name="getroomlists-operation"></a>Операция GetRoomLists
 
-Операция **GetRoomLists** получает списков комнат, доступных в организации Exchange. 
+Операция **GetRoomLists** получает списки помещений, доступные в организации Exchange. 
   
 ## <a name="soap-headers"></a>Заголовки SOAP
 
-Операция **GetRoomLists** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице. 
+Операция **GetRoomLists** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|Олицетворение  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении.  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Идентифицирует культуры RFC3066, которые будут использоваться для доступа к почтовому ящику.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса.  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос.  <br/> |
+|Олицетворение  <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение.  <br/> |
+|маилбокскултуре  <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры RFC3066, которые будут использоваться для доступа к почтовому ящику.  <br/> |
+|рекуестверсион  <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции.  <br/> |
+|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
    
 ## <a name="getroomlists-request-example"></a>Пример запроса GetRoomLists
 
 ### <a name="description"></a>Описание
 
-Ниже приведен пример **GetRoomLists** запроса, которое возвращает списков комнат, доступные на сервере. 
+Ниже приведен пример запроса **GetRoomLists** , который возвращает списки помещений, доступные на сервере. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -58,9 +58,9 @@ ms.locfileid: "19762904"
 
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
-Следующий элемент используется в запросе на:
+В запросе используется следующий элемент:
   
 - [GetRoomLists](getroomlists.md)
     
@@ -68,9 +68,9 @@ ms.locfileid: "19762904"
 
 ### <a name="description"></a>Описание
 
-Ниже приведен пример ответа на запрос **GetRoomLists** . В этом ответа показывает один список помещений на сервере. 
+Ниже приведен пример ответа на запрос **GetRoomLists** . В этом ответе отображается один список помещений на сервере. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -95,31 +95,31 @@ ms.locfileid: "19762904"
 
 ```
 
-### <a name="successful-getroomlists-response-elements"></a>Элементы ответов успешно GetRoomLists
+### <a name="successful-getroomlists-response-elements"></a>Успешные элементы ответа GetRoomLists
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetRoomListsResponse](getroomlistsresponse.md)
+- [жетрумлистсреспонсе](getroomlistsresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [RoomLists](roomlists.md)
+- [румлистс](roomlists.md)
     
-- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddress)](routingtype-emailaddress.md)
+- [Раутингтипе (EmailAddress)](routingtype-emailaddress.md)
     
 - [MailboxType](mailboxtype.md)
     
-### <a name="getroomlists-error-response-example"></a>Пример ответа об ошибке GetRoomLists
+### <a name="getroomlists-error-response-example"></a>Пример ответа на сообщение об ошибке GetRoomLists
 
 #### <a name="description"></a>Описание
 
-В следующем примере показано ответ при попытке получить список помещений с сервера, для которого не определенные списки комнаты.
+В следующем примере показан ответ на попытку получить списки помещений с сервера, на котором не определены списки помещений.
   
-#### <a name="code"></a>Программа
+#### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -137,17 +137,17 @@ ms.locfileid: "19762904"
 
 ```
 
-#### <a name="getroomlists-error-response-elements"></a>Ошибка GetRoomLists элементы ответа
+#### <a name="getroomlists-error-response-elements"></a>Элементы ответа на сообщение об ошибке GetRoomLists
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetRoomListsResponse](getroomlistsresponse.md)
+- [жетрумлистсреспонсе](getroomlistsresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [RoomLists](roomlists.md)
+- [румлистс](roomlists.md)
     
 ## <a name="see-also"></a>См. также
 

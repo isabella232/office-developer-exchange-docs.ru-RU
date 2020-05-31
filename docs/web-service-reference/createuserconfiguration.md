@@ -29,10 +29,10 @@ ms.locfileid: "19761923"
 </CreateUserConfiguration>
 ```
 
- **CreateUserConfigurationType**
+ **креатеусерконфигуратионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,7 +42,7 @@ ms.locfileid: "19761923"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UserConfiguration](userconfiguration.md) <br/> |Представляет объект конфигурации одного пользователя.  <br/> |
+|[усерконфигуратион](userconfiguration.md) <br/> |Представляет один объект конфигурации пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19761923"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19761923"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

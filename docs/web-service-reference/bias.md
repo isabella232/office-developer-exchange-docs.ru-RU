@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ae10aa44-e6d3-483d-a3e6-bb9c45966810
-description: Элемент Bias представляет смещение из смещения по Гринвичу (UTC), определяемую средством элемент Bias (UTC) для зимнего и летнего времени. Это значение представлено в минутах.
+description: Элемент offset представляет смещение от смещения относительно всеобщего скоординированного времени (UTC), определенного элементом смещения (UTC) для стандартного времени и летнего времени. Это значение представлено в минутах.
 ms.openlocfilehash: 770bf97b030ac1293595560bc269f54896e35a15
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19761563"
 ---
 # <a name="bias"></a>Bias
 
-Элемент **Bias** представляет смещение из смещения по Гринвичу (UTC), определяемую средством элемент [Bias (UTC)](bias-utc.md) для зимнего и летнего времени. Это значение представлено в минутах. 
+Элемент **offset** представляет смещение от смещения относительно всеобщего скоординированного времени (UTC), определенного элементом [смещения (UTC)](bias-utc.md) для стандартного времени и летнего времени. Это значение представлено в минутах. 
   
 ```xml
 <Bias>...</Bias>
@@ -31,7 +31,7 @@ ms.locfileid: "19761563"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,20 +45,20 @@ ms.locfileid: "19761563"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> | Представляет смещение от времени относительно UTC, представленный в элемент [Bias (UTC)](bias-utc.md) . Этот элемент также содержит сведения о переходе стандартного времени на летнее время в областях, где наблюдается летнего времени.<br/><br/>Ниже приведены выражения XPath в элемент [StandardTime](standardtime.md) .<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime` <br/><br/> `/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
-|[DaylightTime](daylighttime.md) <br/> | Представляет смещение от времени относительно UTC, представленный элемент [Bias (UTC)](bias-utc.md) в области, где наблюдается летнего времени. Этот элемент также содержит сведения о когда происходит переход на летнее время.  <br/><br/>Ниже приведены выражения XPath в элемент [DaylightTime](daylighttime.md) .<br/><br/> `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime` <br/><br/> `/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
+|[StandardTime](standardtime.md) <br/> | Представляет смещение относительно времени в формате UTC, представленного элементом [смещения (UTC)](bias-utc.md) . Этот элемент также содержит сведения о переходе на зимнее время с летнего времени в регионах, где наблюдается летнее время.<br/><br/>Ниже приведены выражения XPath для элемента [StandardTime](standardtime.md) :<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime` <br/><br/> `/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
+|[DaylightTime](daylighttime.md) <br/> | Представляет смещение относительно времени в формате UTC, представленного элементом [смещения (UTC)](bias-utc.md) в регионах, где наблюдается летнее время. Этот элемент также содержит сведения о том, когда происходит переход на летнее время из стандартного времени.  <br/><br/>Ниже приведены выражения XPath для элемента [DaylightTime](daylighttime.md) :<br/><br/> `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime` <br/><br/> `/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Текстовое значение представляет собой целое число.
+Необходимо указать текстовое значение. Текстовое значение представляет целое число.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Смещение используется для определения местного времени может предоставить только с помощью одного из элементов **Bias** . Сумма значений элемент Bias предоставлено элемент [DaylightTime](daylighttime.md) или элемент [StandardTime](standardtime.md) , а также элемент [Bias (UTC)](bias-utc.md) идентифицирует местного времени. 
+Смещение, используемое для определения локального времени, может быть предоставлено только одним из элементов **смещения** . Сумма значений элемента сдвига, предоставляемого элементом [DaylightTime](daylighttime.md) или элементом [StandardTime](standardtime.md) , кроме элемента [смещения (UTC)](bias-utc.md) , определяет местное время. 
   
 ## <a name="example"></a>Пример
 
-Следующий пример показывает часть запроса XML, который идентифицирует пользователя, должно соответствовать летнего времени, настраивая смещение от времени UTC,-60 минут. Это фактически делает сдвиг 420 минут времени в формате UTC.
+В приведенном ниже примере показана часть XML-запроса, определяющая пользователя, который следит за переходом на летнее время, путем корректировки смещения относительно времени в формате UTC на-60 минут. Это позволяет эффективно отменять смещение 420 минут от времени в формате UTC.
   
 ```xml
 <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -86,7 +86,7 @@ ms.locfileid: "19761563"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

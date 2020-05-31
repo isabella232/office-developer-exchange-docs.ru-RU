@@ -1,5 +1,5 @@
 ---
-title: AcceptSharingInvitation
+title: акцептшарингинвитатион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3c2a47d6-490d-425b-8893-089a4f8882cd
-description: Элемент AcceptSharingInvitation используется для принятия приглашения, которая позволяет получить доступ к календарю другого пользователя или данных контактов.
+description: Элемент Акцептшарингинвитатион используется для принятия приглашения, позволяющего получить доступ к данным календаря или контактов другого пользователя.
 ms.openlocfilehash: 06439739e6cc544d5039ac9d18e0452b1d42a0ed
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762481"
 ---
-# <a name="acceptsharinginvitation"></a>AcceptSharingInvitation
+# <a name="acceptsharinginvitation"></a>акцептшарингинвитатион
 
-Элемент **AcceptSharingInvitation** используется для принятия приглашения, которая позволяет получить доступ к календарю другого пользователя или данных контактов. 
+Элемент **акцептшарингинвитатион** используется для принятия приглашения, позволяющего получить доступ к данным календаря или контактов другого пользователя. 
   
 ```xml
 <AcceptSharingInvitation>
@@ -29,10 +29,10 @@ ms.locfileid: "19762481"
 </AcceptSharingInvitation>
 ```
 
- **AcceptSharingInvitationType**
+ **акцептшарингинвитатионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,16 +42,16 @@ ms.locfileid: "19762481"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ReferenceItemId](referenceitemid.md) <br/> |Определяет элемент, к которому относится объект ответа.  <br/> |
+|[референцеитемид](referenceitemid.md) <br/> |Определяет элемент, на который ссылается объект Response.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseObjects](responseobjects.md) <br/> |Содержит коллекцию всех объектов ответа, которые связаны с элемента в хранилище Exchange.  <br/> |
-|[Элементы (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Содержит массив элементов для создания в папке, указанной с помощью элемента [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) .  <br/> |
+|[респонсеобжектс](responseobjects.md) <br/> |Содержит коллекцию всех объектов ответа, связанных с элементом в хранилище Exchange.  <br/> |
+|[Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md) <br/> |Содержит массив элементов для создания в папке, определяемой элементом [ParentFolderId (таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md) .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -61,7 +61,7 @@ ms.locfileid: "19762481"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

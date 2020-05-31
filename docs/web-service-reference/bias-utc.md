@@ -1,5 +1,5 @@
 ---
-title: Смещение (UTC)
+title: Сдвиг (UTC)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 15790d5a-5134-457b-8f2b-d9dee1f807a2
-description: Элемент Bias представляет общие смещение в формате UTC. Это значение представлено в минутах.
+description: Элемент сдвига представляет общее смещение от времени в формате UTC. Это значение представлено в минутах.
 ms.openlocfilehash: 43613593565ca15be97bd2a98dbe5c512dbe5fc7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761559"
 ---
-# <a name="bias-utc"></a>Смещение (UTC)
+# <a name="bias-utc"></a>Сдвиг (UTC)
 
-Элемент **Bias** представляет общие смещение в формате UTC. Это значение представлено в минутах. 
+Элемент **сдвига** представляет общее смещение от времени в формате UTC. Это значение представлено в минутах. 
   
 ```xml
 <TimeZone>
@@ -33,7 +33,7 @@ ms.locfileid: "19761559"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -47,19 +47,19 @@ ms.locfileid: "19761559"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Часовой пояс (доступность)](timezone-availability.md) <br/> | Контейнер, определяющий сведения даты и времени запроса. Этот элемент содержит сведения о переходе между зимнего и летнего времени.  <br/><br/>Ниже приведены выражения XPath для этого элемента.<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[Часовой пояс (доступность)](timezone-availability.md) <br/> | Контейнер, который определяет сведения о дате и времени для запроса. Этот элемент содержит сведения о переходе со стандартного времени на летнее время.  <br/><br/>Ниже приведены выражения XPath для этого элемента.<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным. Текстовое значение представляет собой целое число.
+Необходимо указать текстовое значение. Текстовое значение представляет целое число.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Второй элемент [Bias](bias.md) в схеме представляет смещение из смещения по Гринвичу (UTC). 
+Второй элемент [сдвига](bias.md) в схеме представляет смещение от смещения относительно всеобщего скоординированного времени (UTC). 
   
 ## <a name="example"></a>Пример
 
-Следующий пример показывает часть запроса XML, который определяет смещение-8 часов от времени UTC в клиентском приложении.
+В приведенном ниже примере показана часть XML-запроса, которая определяет смещение в 8 часов от времени в формате UTC для клиентского приложения.
   
 ```xml
 <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -87,12 +87,12 @@ ms.locfileid: "19761559"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)  
-- [Уровень защиты](bias.md)
+- [Bias](bias.md)
 - [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

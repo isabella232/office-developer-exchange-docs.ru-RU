@@ -1,5 +1,5 @@
 ---
-title: AltitudeAccuracy
+title: алтитудеаккураци
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aadc1f90-e9ab-4411-b51f-2d43e5e22f2a
-description: Элемент AltitudeAccuracy указывает точность свойства Высота для почтовый адрес.
+description: Элемент Алтитудеаккураци указывает точность свойства Высота для почтового адреса.
 ms.openlocfilehash: 09ec86e4913327feb47067f5e5de7a60efc47bc5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761371"
 ---
-# <a name="altitudeaccuracy"></a>AltitudeAccuracy
+# <a name="altitudeaccuracy"></a>алтитудеаккураци
 
-Элемент **AltitudeAccuracy** указывает точность свойства Высота для почтовый адрес. 
+Элемент **алтитудеаккураци** указывает точность свойства Высота для почтового адреса. 
   
 ```XML
 <AltitudeAccuracy></AltitudeAccuracy>
 ```
 
- **xs: double**
+ **xs: Double**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19761371"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Указывает почтовый адрес расположения.  <br/> |
+|[Посталаддресс (Персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md) <br/> |Указывает почтовый адрес расположения.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **AltitudeAccuracy** — оценка точность для свойства Высота почтовый адрес. 
+Текстовое значение элемента **алтитудеаккураци** является оценкой точности для свойства Высота почтового адреса. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19761371"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

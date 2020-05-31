@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 47d96cf6-9e2f-4fc0-9682-7258d3fbf918
-description: Найдите сведения о веб-служб Exchange ConvertId операции.
+description: Поиск сведений о ConvertIdной операции EWS.
 ms.openlocfilehash: 5f1bcd8a9f0adc25b7c598ef10cc6bb139dfe02d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,67 +21,67 @@ ms.locfileid: "19761826"
 ---
 # <a name="convertid-operation"></a>Операция ConvertId
 
-Найдите сведения о **ConvertId** операции веб-служб Exchange. 
+Поиск сведений о **ConvertIdной** операции EWS. 
   
-Операции веб-служб Exchange (EWS) **ConvertId** преобразует идентификаторы элементов и папок между форматы, поддерживаемые Exchange Online, Exchange Online в составе Office 365 и локальной версии Exchange, начиная с Exchange Server 2013. 
+**ConvertId** веб-служб Exchange (EWS) преобразует идентификаторы элементов и папок между форматами, принятыми Exchange Online, Exchange Online в составе Office 365, и локальными версиями Exchange, начиная с Exchange Server 2013. 
   
-## <a name="using-the-convertid-operation"></a>С помощью операции ConvertId
+## <a name="using-the-convertid-operation"></a>Использование операции ConvertId
 <a name="bk_usingConvertId"> </a>
 
-Следующие идентификаторы можно преобразовать с помощью операции **ConvertId** : 
+С помощью операции **ConvertId** можно преобразовать следующие идентификаторы: 
   
-- Формат идентификатора для веб-служб Exchange в первоначальной версии Exchange 2007. Представляет `EwsLegacyId` значение перечисления в перечислении [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) . 
+- Формат идентификатора для EWS в первой версии Exchange 2007. Представляется значением `EwsLegacyId` перечисления в перечислении [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) . 
     
-- Формат идентификатора для веб-служб Exchange в Exchange 2007 с пакетом обновления 1 или Exchange 2010. Представляет `EwsId` значение перечисления в [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
+- Формат идентификатора для EWS в Exchange 2007 с пакетом обновления 1 (SP1) или Exchange 2010. Представляется значением `EwsId` перечисления в [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
     
-- Идентификатор MAPI, как и свойство **PR_ENTRYID** . Представляет `EntryId` значение перечисления в перечислении [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) . 
+- Идентификатор MAPI, как в свойстве **PR_ENTRYID** . Представляется значением `EntryId` перечисления в перечислении [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) . 
     
-- Идентификатор события календаря доступности. Это представление шестнадцатеричном формате **PR_ENTRYID** свойства. Представляет `HexEntryId` значение перечисления в [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
+- Идентификатор события календаря доступности. Это представление свойства **PR_ENTRYID** в шестнадцатеричной кодировке. Представляется значением `HexEntryId` перечисления в [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
     
-- Идентификатор хранилища Exchange. Представляет `StoreId` значение перечисления в [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx). Операция **ConvertId** не преобразует идентификаторы общедоступных папок из идентификатора веб-служб Exchange на идентификатор хранилища. 
+- Идентификатор хранилища Exchange. Представляется значением `StoreId` перечисления в [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx). Операция **ConvertId** не преобразует идентификаторы общедоступных папок из идентификатора EWS в идентификатор хранилища. 
     
-- Идентификатор Outlook Web App. Представляет `OwaId` значение перечисления в [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)
+- Идентификатор Outlook Web App. Представляется значением `OwaId` перечисления в [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)
     
-    Передача URL-адреса, создаваемые из этот идентификатор в Outlook Web App не поддерживается. Идентификатор Outlook Web App можно применять к Exchange 2007 и Exchange 2010. Outlook Web App для Exchange Online и версии Exchange, начиная с Exchange Server 2013 использует идентификаторы веб-служб Exchange.
+    Передача URL-адресов, созданных из этого идентификатора в Outlook Web App, не поддерживается. Идентификатор Outlook Web App применяется к Exchange 2007 и Exchange 2010. Outlook Web App для Exchange Online и версии Exchange, начиная с Exchange Server 2013, используют идентификаторы EWS.
     
-Операция **ConvertId** работать неправильно при преобразовании идентификаторы общедоступных папок из идентификатора веб-служб Exchange с идентификатором хранилища в Exchange Online и Exchange 2013. Идентификатор, который возвращается в качестве решения можно обновлять вручную. Чтобы вручную обновить идентификатор: 
+Операция **ConvertId** не работает должным образом при преобразовании идентификаторов общедоступных папок из идентификатора EWS в идентификатор хранилища в Exchange Online и Exchange 2013. Вы можете вручную обновить идентификатор, возвращаемый в качестве обходного пути. Чтобы вручную обновить идентификатор, выполните следующие действия: 
   
-1. В коде приложения определите, является ли элемент или папку в общей папке. 
+1. В коде приложения определите, находится ли целевой элемент или папка в общедоступной папке. 
     
-2. Декодирования строка идентификатора кодировке Base64.
+2. Расшифровать строку идентификатора в кодировке Base64.
     
-3. Убедитесь, что тип byte (21 байтов) имеет значение 7. Значение 7 указывает, что идентификатор является неверный формат.
+3. Убедитесь, что тип Byte (21-байтовый) имеет значение 7. Значение 7 указывает на то, что идентификатор имеет недопустимый формат.
     
-4. Пропустите первые четыре байта. Они должны иметь значение нулю.
+4. Пропустите первые четыре байта. Им необходимо присвоить нулевое значение.
     
-5. Обновление следующего 16 байт с помощью следующих GUID: 1A447390AA6611CD9BC800AA002FC45A
+5. Обновите следующие 16 байт с помощью следующего GUID: 1A447390AA6611CD9BC800AA002FC45A
     
-6. Обновите следующий байт (типа byte) со значением 9.
+6. Обновите следующий байт (тип Byte) со значением 9.
     
-7. Измените идентификатор строка в кодировке Base64.
+7. Замените идентификатор на строку в кодировке Base64.
     
 > [!NOTE]
-> Операция **ConvertId** проверяет, что для данного SMTP-адрес имеет допустимый формат. Операция не определяет, представляет ли SMTP-адрес допустимым почтового ящика. 
+> Операция **ConvertId** проверяет, что заданный SMTP-адрес имеет допустимый формат. Эта операция не определяет, представляет ли SMTP-адрес действительный почтовый ящик. 
   
-Операция **ConvertId** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **ConvertId** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
-**В таблице 1. Заголовки SOAP ConvertId операции**
+**Таблица 1. Заголовки SOAP операции ConvertId**
 
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|Олицетворение  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Это применимо к запросу.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции, которые применяются к запросу.  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Это применимо для ответа.  <br/> |
+|Олицетворение  <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Это относится к запросу.  <br/> |
+|рекуестверсион  <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции это относится к запросу.  <br/> |
+|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Это относится к отклику.  <br/> |
    
-## <a name="convertid-operation-request-example"></a>Пример запроса ConvertId операции
+## <a name="convertid-operation-request-example"></a>Пример запроса операции ConvertId
 <a name="bk_usingConvertId"> </a>
 
-В следующем примере запрос **ConvertId** показано, как для преобразования из идентификатора веб-служб Exchange в Outlook Web App идентификатора. 
+В приведенном ниже примере запроса **ConvertId** показано, как преобразовать идентификатор EWS в идентификатор Outlook Web App. 
   
-Необходимо задать элемент [RequestServerVersion](requestserverversion.md) в заголовке SOAP, чтобы Exchange2007_SP1 или более поздней версии для успешного выполнения этой операции. 
+Чтобы эта операция работала, элемент [рекуестсерверверсион](requestserverversion.md) в заголовке SOAP должен иметь значение Exchange2007_SP1 или более поздней версии. 
   
 > [!NOTE]
-> Идентификатор элемента был усечен, чтобы сохранить удобочитаемость. 
+> Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -103,13 +103,13 @@ ms.locfileid: "19761826"
 </soap:Envelope>
 ```
 
-## <a name="convertid-operation-response-example"></a>Пример ответа ConvertId операции
+## <a name="convertid-operation-response-example"></a>Пример ответа операции ConvertId
 <a name="bk_usingConvertId"> </a>
 
-В следующем примере показано успешного ответа на запрос **ConvertId** . В этом примере ответа содержит идентификатор Outlook Web App. 
+В следующем примере показан успешный ответ на запрос **ConvertId** . В этом примере ответа содержится идентификатор Outlook Web App. 
   
 > [!NOTE]
-> Идентификатор Outlook Web App был усечен, чтобы сохранить удобочитаемость. 
+> Идентификатор Outlook Web App был сокращен, чтобы сохранить удобочитаемость. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -136,10 +136,10 @@ ms.locfileid: "19761826"
 </soap:Envelope>
 ```
 
-## <a name="convertid-operation-error-response-example"></a>Пример ответа об ошибке ConvertId операции
+## <a name="convertid-operation-error-response-example"></a>Пример ответа на сообщение об ошибке операции ConvertId
 <a name="bk_usingConvertId"> </a>
 
-В следующем примере показано ответа на запрос, который содержит неверный тип формат идентификатора.
+В следующем примере показан ответ на запрос, который содержит недопустимый тип формата идентификатора.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -169,16 +169,16 @@ ms.locfileid: "19761826"
 ## <a name="version-differences"></a>Различия версий
 <a name="bk_ConvertIdVersionDiff"> </a>
 
-Формат идентификатора веб-служб Exchange, изменились при переходе от первоначальной версии Exchange 2007 и Exchange 2007 с пакетом обновления 1 (SP1). Exchange Online в составе Office 365, Exchange Online и локальной версии Exchange, начиная с Exchange 2010 использовать тот же идентификатор формат, который использует Exchange 2007 с пакетом обновления 1.
+Формат идентификатора EWS изменился между исходной версией Exchange 2007 и Exchange 2007 с пакетом обновления 1 (SP1). Exchange Online в составе Office 365, Exchange Online и локальной версии Exchange, начиная с Exchange 2010, используют тот же формат идентификатора, который использует Exchange 2007 с пакетом обновления 1 (SP1).
   
-Операция **ConvertId** преобразует идентификаторы общедоступных папок из идентификатора веб-служб Exchange идентификатор хранилища в Exchange 2007 и Exchange 2010. 
+Операция **ConvertId** преобразует идентификаторы общедоступных папок из идентификатора EWS в идентификатор хранилища в Exchange 2007 и Exchange 2010. 
   
 ## <a name="see-also"></a>См. также
 <a name="bk_ConvertIdVersionDiff"> </a>
 
 - [Преобразование идентификаторов](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
     
-- [ConvertIdType](https://msdn.microsoft.com/library/ExchangeWebServices.ConvertIdType.aspx)
+- [конвертидтипе](https://msdn.microsoft.com/library/ExchangeWebServices.ConvertIdType.aspx)
     
 - [ConvertId](https://msdn.microsoft.com/library/ExchangeWebServices.ExchangeServiceBinding.ConvertId.aspx)
     

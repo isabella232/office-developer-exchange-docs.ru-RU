@@ -1,5 +1,5 @@
 ---
-title: DisplayNameLastFirst
+title: дисплайнамеластфирст
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d392e138-a514-4bce-81b1-1f484e353d1c
-description: Элемент DisplayNameLastFirst указывает отображаемое имя связанного пользователя в формате, фамилии, имени.
+description: Элемент Дисплайнамеластфирст указывает отображаемое имя связанного пользователя в формате, фамилии, имени.
 ms.openlocfilehash: 68ebf0e91e216cffa1ba8db425de248f0d4e77b7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762183"
 ---
-# <a name="displaynamelastfirst"></a>DisplayNameLastFirst
+# <a name="displaynamelastfirst"></a>дисплайнамеластфирст
 
-Элемент **DisplayNameLastFirst** указывает отображаемое имя связанного пользователя в формате «Фамилия», «Имя». 
+Элемент **дисплайнамеластфирст** указывает отображаемое имя связанного пользователя в формате "Фамилия имя", "имя пользователя". 
   
 ```XML
 <DisplayNameLastFirst></DisplayNameLastFirst>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19762183"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **DisplayNameLastFirst** — это строковое значение, задающее отображаемое имя, Фамилия сначала. 
+Текстовое значение элемента **дисплайнамеластфирст** — это строковое значение, которое задает отображаемое имя с фамилией. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762183"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

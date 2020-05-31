@@ -1,5 +1,5 @@
 ---
-title: AppendToFolderField
+title: аппендтофолдерфиелд
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 816da395-1488-4996-8b4d-e82407319e91
-description: Элемент AppendToFolderField не реализован. Все запросы, которая использует этот элемент всегда будет возвращать ошибку.
+description: Элемент Аппендтофолдерфиелд не реализован. Любой запрос, использующий этот элемент, всегда возвращает ответ об ошибке.
 ms.openlocfilehash: 501bb243335561241cff207ec34ffad7023113e4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761393"
 ---
-# <a name="appendtofolderfield"></a>AppendToFolderField
+# <a name="appendtofolderfield"></a>аппендтофолдерфиелд
 
-Элемент **AppendToFolderField** не реализован. Все запросы, которая использует этот элемент всегда будет возвращать ошибку. 
+Элемент **аппендтофолдерфиелд** не реализован. Любой запрос, использующий этот элемент, всегда возвращает ответ об ошибке. 
 
-**AppendToFolderFieldType**
+**аппендтофолдерфиелдтипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,7 +41,7 @@ ms.locfileid: "19761393"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -51,7 +51,7 @@ ms.locfileid: "19761393"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

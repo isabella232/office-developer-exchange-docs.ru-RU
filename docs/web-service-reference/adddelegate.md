@@ -1,5 +1,5 @@
 ---
-title: Метод AddDelegate
+title: AddDelegate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 646fb994-229e-4d90-8b95-6541191cb3ae
-description: Элемент AddDelegate определяет запрос на Добавление делегатов к почтовому ящику. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+description: Элемент AddDelegate определяет запрос на добавление делегатов в почтовый ящик. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
 ms.openlocfilehash: d1cb0ff3ea68904bf88e346f68afe7c349ae4394
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761342"
 ---
-# <a name="adddelegate"></a>Метод AddDelegate
+# <a name="adddelegate"></a>AddDelegate
 
-Элемент **AddDelegate** определяет запрос на Добавление делегатов к почтовому ящику. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **AddDelegate** определяет запрос на добавление делегатов в почтовый ящик. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <AddDelegate>
@@ -31,10 +31,10 @@ ms.locfileid: "19761342"
 </AddDelegate>
 ```
 
- **AddDelegateType**
+ **аддделегатетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,15 +44,15 @@ ms.locfileid: "19761342"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DelegateUsers](delegateusers.md) <br/> |Содержит идентификаторы делегатов для добавления или обновления в почтовом ящике. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
-|[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |Определяет порядок обработки приглашений на собрания между делегата и участника. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
+|[делегатеусерс](delegateusers.md) <br/> |Содержит идентификаторы делегатов, которые необходимо добавить или обновить в почтовом ящике. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
+|[деливермитингрекуестс](delivermeetingrequests.md) <br/> |Определяет способ обработки приглашений на собрание между представителем и участником. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
 |[Mailbox](mailbox.md) <br/> |Определяет объект службы каталогов с включенной поддержкой почты Active Directory.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19761342"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

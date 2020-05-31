@@ -1,5 +1,5 @@
 ---
-title: GetFolderResponse
+title: жетфолдерреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 47abeec8-78dd-4297-8525-099174ec880d
-description: Элемент GetFolderResponse определяет ответ на запрос GetFolder.
+description: Элемент Жетфолдерреспонсе определяет ответ на запрос на получение папки.
 ms.openlocfilehash: 0831224f1f649f3febf20fac2d7e987de03edcb8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762801"
 ---
-# <a name="getfolderresponse"></a>GetFolderResponse
+# <a name="getfolderresponse"></a>жетфолдерреспонсе
 
-Элемент **GetFolderResponse** определяет ответ на запрос GetFolder. 
+Элемент **жетфолдерреспонсе** определяет ответ на запрос на получение папки. 
   
 ```xml
 <GetFolderResponse>
@@ -29,10 +29,10 @@ ms.locfileid: "19762801"
 </GetFolderResponse>
 ```
 
- **GetFolderResponseType**
+ **жетфолдерреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19762801"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762801"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -67,7 +67,7 @@ ms.locfileid: "19762801"
 
 [GetFolder](getfolder.md)
   
-[GetFolder Operation](getfolder-operation.md)
+[Операция GetFolder](getfolder-operation.md)
   
-[GetFolderResponseMessage](getfolderresponsemessage.md)
+[жетфолдерреспонсемессаже](getfolderresponsemessage.md)
 

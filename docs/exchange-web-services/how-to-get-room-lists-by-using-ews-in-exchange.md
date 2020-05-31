@@ -1,11 +1,11 @@
 ---
-title: Получить список помещений с помощью веб-служб Exchange в Exchange
+title: Получение списков помещений с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 15980e4a-e41c-4194-829a-cadbdf365bf1
-description: Узнайте, как получить список всех списков помещения в вашей организации или в список помещений одного из Exchange server с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange.
+description: Узнайте, как получить список всех списков помещений в организации или список из одного комнаты на сервере Exchange с помощью управляемого API EWS или EWS.
 ms.openlocfilehash: 404a31fb6c8d98bdbba4c79ed6912c333a44d04b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,40 +13,40 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761011"
 ---
-# <a name="get-room-lists-by-using-ews-in-exchange"></a>Получить список помещений с помощью веб-служб Exchange в Exchange
+# <a name="get-room-lists-by-using-ews-in-exchange"></a>Получение списков помещений с помощью EWS в Exchange
 
-Узнайте, как получить список всех списков помещения в вашей организации или в список помещений одного из Exchange server с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange.
+Узнайте, как получить список всех списков помещений в организации или список из одного комнаты на сервере Exchange с помощью управляемого API EWS или EWS.
   
-Для получения сведений о комнат, а также группировку комнат в вашей организации, можно использовать управляемый API EWS или веб-служб Exchange. Не существует комнаты списков по умолчанию; Администратор должен создать и разместите их. Как правило они вы организованы расположения или отдела, как показано в следующем примере.
+Вы можете использовать управляемый API EWS или EWS для получения сведений о комнатах и о том, как комнаты группируются в Организации. По умолчанию списки помещений не существуют; Администратор должен создать и упорядочить их. Как правило, они организованы по расположению или Отделу, как показано в следующем примере.
   
-**Получение списка имен объектов Contoso комнаты и адреса электронной почты**
+**Имена и адреса электронной почты в списке помещений contoso**
 
-|**Имя списка помещений**|**Адрес электронной почты в список помещений**|
+|**Имя списка помещений**|**Адрес электронной почты списка помещений**|
 |:-----|:-----|
-|Создание списка 11 комнаты  <br/> |Bldg11rooms@Contoso.com  <br/> |
-|Список помещений конференции построения науки работоспособности  <br/> |HSbldgrooms@contoso.edu  <br/> |
-|Комнаты для собраний этажа бухгалтерского учета  <br/> |Acctfloor300@Contoso.com  <br/> |
+|Создание списка с 11 комнатами  <br/> |Bldg11rooms@contoso.com  <br/> |
+|Список конференц-зала здания по охране здания  <br/> |HSbldgrooms@contoso.edu  <br/> |
+|Комнаты для собраний для бухгалтерского учета  <br/> |Acctfloor300@contoso.com  <br/> |
    
-Каждый помещения в список помещений имеет имя и адрес электронной почты адрес, связанный с ним.
+Каждая комната в списке помещений имеет имя и адрес электронной почты, связанные с ним.
   
-**Contoso комнаты и адреса электронной почты**
+**Имена комнат Contoso и адреса электронной почты**
 
-|**Имя комнаты**|**Адрес электронной почты для комнаты**|
+|**Имя комнаты**|**Адрес электронной почты комнаты**|
 |:-----|:-----|
-|Комнаты conf 11/101 (8) аудио/видео  <br/> |Cf11101@Contoso.com  <br/> |
-|Для демонстрации HS лаборатории (100)  <br/> |Hs101@Contoso.edu  <br/> |
-|Учет 305 МБ  <br/> |Acct305@Contoso.com  <br/> |
+|Conf комната 11/101 (8) AV  <br/> |Cf11101@contoso.com  <br/> |
+|Демонстрационная лаборатория HS (100)  <br/> |Hs101@contoso.edu  <br/> |
+|Учет 305 Интернете  <br/> |Acct305@contoso.com  <br/> |
    
-Можно получить список, содержащий все список помещений с помощью метода управляемый API EWS [ExchangeService.GetRoomLists](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getroomlists%28v=exchg.80%29.aspx) или операции [GetRoomLists](http://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) EWS. 
+Список, содержащий все списки помещений, можно получить с помощью метода [ExchangeService. GetRoomLists](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getroomlists%28v=exchg.80%29.aspx) EWS или из операции [GetRoomLists](http://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) EWS. 
   
-Можно извлечь список единого места, содержащий всех комнатах для расположения или отдела, передав его адрес электронной почты с помощью метода управляемый API EWS [GetRooms](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getrooms%28v=exchg.80%29.aspx) или операции EWS [GetRooms](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) . При наличии коллекцию каналы, связанные с почтового ящика помещения, затем выполнить поиск по коллекции для определения места или комнат, по которым вы путем адрес электронной почты или поиск по ключевым словам в поле имя, например «Аудио/видео» или «Лаборатория». 
+Вы можете получить список из одного комнаты, который содержит все комнаты для расположения или отдела, указав его адрес электронной почты с помощью метода управления веб-служб "веб-служб Exchange" или " [кабинеты](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) [EWS".](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getrooms%28v=exchg.80%29.aspx) При наличии коллекции комнат, связанных со списком помещений, можно выполнить поиск по коллекции, чтобы определить требуемые комнаты или комнаты, по адресу электронной почты или с помощью поиска ключевых слов в имени, например "AV" или "Lab". 
   
-## <a name="get-all-room-lists-by-using-the-ews-managed-api"></a>Получение списков всех комнат с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-all-room-lists-by-using-the-ews-managed-api"></a>Получение всех списков помещений с помощью управляемого API EWS
 <a name="bk_GetRoomListewsma"> </a>
 
-Следующем примере показано, как получить список, содержащий все список помещений в вашей организации с помощью метода [GetRoomLists](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ExchangeService.GetRoomLists.aspx) . 
+В приведенном ниже примере показано, как получить список, содержащий все списки помещений в Организации, с помощью метода [GetRoomLists](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ExchangeService.GetRoomLists.aspx) . 
   
-В этом примере предполагается, что прошедшие проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **службы**. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. 
   
 ```cs
 // Return all the room lists in the organization.
@@ -60,10 +60,10 @@ foreach (EmailAddress address in myRoomLists)
 
 ```
 
-## <a name="get-all-room-lists-by-using-ews"></a>Получение списков всех комнат с помощью веб-служб Exchange
+## <a name="get-all-room-lists-by-using-ews"></a>Получение всех списков помещений с помощью EWS
 <a name="bk_GetRoomListews"> </a>
 
-Следующем примере показано, как получить коллекцию вашей организации [RoomLists](http://msdn.microsoft.com/library/2b190823-b11e-4635-97e4-3aba5865fd05%28Office.15%29.aspx) с помощью операции [GetRoomLists](http://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) . Это также XML-запрос, который отправляет управляемый API веб-служб Exchange, когда использовать управляемый API EWS для [получения всех списков комнаты](#bk_GetRoomListewsma).
+В приведенном ниже примере показано, как получить коллекцию всех [румлистс](http://msdn.microsoft.com/library/2b190823-b11e-4635-97e4-3aba5865fd05%28Office.15%29.aspx) Организации с помощью операции [GetRoomLists](http://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) . Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [получения всех списков помещений](#bk_GetRoomListewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -79,7 +79,7 @@ foreach (EmailAddress address in myRoomLists)
 
 ```
 
-Сервер отвечает на запрос [GetRoomLists](http://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) с сообщением [GetRoomListsResponse](http://msdn.microsoft.com/library/8c736f68-1026-496a-b12f-c169c078abd0%28Office.15%29.aspx) , содержащий список помещений для вашей организации. 
+Сервер отвечает на запрос [GetRoomLists](http://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) с сообщением [жетрумлистсреспонсе](http://msdn.microsoft.com/library/8c736f68-1026-496a-b12f-c169c078abd0%28Office.15%29.aspx) , которое содержит списки помещений для Организации. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -120,10 +120,10 @@ foreach (EmailAddress address in myRoomLists)
 
 ```
 
-## <a name="get-all-the-rooms-in-a-room-list-by-using-the-ews-managed-api"></a>Получение всех комнатах в список помещений с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-all-the-rooms-in-a-room-list-by-using-the-ews-managed-api"></a>Получение всех комнат в списке помещений с помощью управляемого API EWS
 <a name="bk_FindRoomewsma"> </a>
 
-Следующем примере показано, как получить коллекцию комнат в список помещений с помощью метода [GetRooms](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ExchangeService.GetRooms.aspx) . 
+В приведенном ниже примере показано, как получить коллекцию комнат в списке помещений с помощью метода [Rooms](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ExchangeService.GetRooms.aspx) . 
   
 ```cs
 EmailAddress myRoomList = "bldg3rooms@contoso.com";
@@ -137,10 +137,10 @@ foreach (EmailAddress address in myRoomAddresses)
 
 ```
 
-## <a name="get-all-the-rooms-in-a-room-list-by-using-ews"></a>Получение всех комнатах в список помещений с помощью веб-служб Exchange
+## <a name="get-all-the-rooms-in-a-room-list-by-using-ews"></a>Получение всех комнат в списке помещений с помощью EWS
 <a name="bk_FindRoomews"> </a>
 
-Следующем примере показано, как получить список [помещений](http://msdn.microsoft.com/library/57b6079a-3d83-4429-861e-c551e9e1a991%28Office.15%29.aspx) в [RoomList](http://msdn.microsoft.com/library/cb02bdf0-df9f-4e31-b7dd-cd9f2f2cc2b2%28Office.15%29.aspx) с помощью операции [GetRooms](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) . Это также XML-запрос, который отправляет управляемый API веб-служб Exchange, когда использовать управляемый API EWS для [получения всех комнатах в список помещений](#bk_FindRoomewsma).
+В приведенном ниже примере показано, как получить список [комнат](http://msdn.microsoft.com/library/57b6079a-3d83-4429-861e-c551e9e1a991%28Office.15%29.aspx) в [RoomList принимают одиночные](http://msdn.microsoft.com/library/cb02bdf0-df9f-4e31-b7dd-cd9f2f2cc2b2%28Office.15%29.aspx) с помощью операции " [высвободить](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) ". Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS, чтобы [получить все комнаты в списке помещений](#bk_FindRoomewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -162,7 +162,7 @@ foreach (EmailAddress address in myRoomAddresses)
 
 ```
 
-Сервер отвечает на запрос [GetRooms](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) с сообщением [GetRoomsResponse](http://msdn.microsoft.com/library/a8c85f65-bb63-4e7a-b0ca-7c9a04560a58%28Office.15%29.aspx) , содержащая помещения в список помещений. 
+Сервер отвечает на запрос [жетрумсреспонсе](http://msdn.microsoft.com/library/a8c85f65-bb63-4e7a-b0ca-7c9a04560a58%28Office.15%29.aspx) с сообщением [о помещении,](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) которое содержит комнаты в списке помещений. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -215,8 +215,8 @@ foreach (EmailAddress address in myRoomAddresses)
 
 - [Календари и веб-службах Exchange](calendars-and-ews-in-exchange.md)
     
-- [Получение сведений о доступности с помощью веб-служб Exchange в Exchange](how-to-get-free-busy-information-by-using-ews-in-exchange.md)
+- [Получение сведений о доступности с помощью EWS в Exchange](how-to-get-free-busy-information-by-using-ews-in-exchange.md)
     
-- [Создание и управление ими почтовый ящик помещения](http://technet.microsoft.com/en-us/library/jj215781%28v=exchg.150%29.aspx)
+- [Создание почтовых ящиков помещения и управление ими](http://technet.microsoft.com/en-us/library/jj215781%28v=exchg.150%29.aspx)
     
 

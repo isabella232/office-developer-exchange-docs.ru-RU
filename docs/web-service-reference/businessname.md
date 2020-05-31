@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54fcd4ab-bfab-4b69-9841-d2ac827f4d45
-description: Элемент BusinessName указывает имя предприятие.
+description: Элемент BusinessName указывает название организации.
 ms.openlocfilehash: e266535eafac44a1c118bb86dec7bc72bfa34010
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19761623"
 ---
 # <a name="businessname"></a>BusinessName
 
-Элемент **BusinessName** указывает имя предприятие. 
+Элемент **BusinessName** указывает название организации. 
   
 ```XML
 <BusinessName></BusinessName>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19761623"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Контакт (ContactType)](contact-contacttype.md) <br/> |Указывает контакт в единого хранилища контактов.  <br/> |
+|[Контактное лицо (Контакттипе)](contact-contacttype.md) <br/> |Указывает контакт в едином хранилище контактов.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **BusinessName** — это имя компании. 
+Текстовое значение элемента **BusinessName** — имя предприятия. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19761623"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

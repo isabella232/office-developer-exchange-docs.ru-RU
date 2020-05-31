@@ -23,9 +23,9 @@ ms.locfileid: "19761520"
 
 Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Элемент **AttendeeType** обозначает тип участника, указанного в элементе [Электронной почты (EmailAddressType)](email-emailaddresstype.md). Этот элемент используется в запросах, которые содержат предложения о собраниях. 
   
-- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
   
-- [MailboxDataArray](mailboxdataarray.md)
+- [маилбоксдатааррай](mailboxdataarray.md)
   
 - [MailboxData](mailboxdata.md)
   
@@ -35,10 +35,10 @@ ms.locfileid: "19761520"
 <AttendeeType>Organizer or Required or Optional or Room or Resource</AttendeeType>
 ```
 
- **MeetingAttendeeType**
+ **митингаттендитипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -66,7 +66,7 @@ ms.locfileid: "19761520"
 |Room  <br/> |Объект почтового ящика, который указывает на помещение для проведения собрания.  <br/> |
 |Resource  <br/> |Оборудование, которое будет использоваться во время собрания, например, телевизор или проектор.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент относится к обязательным дочерним элементам элемента [MailboxData](mailboxdata.md). Он упоминается в [MailboxData](mailboxdata.md) только один раз. Схема с описанием этого элемента находится в каталоге /EWS/ на компьютере, на котором запущено приложение MicrosoftExchange Server 2007 с установленной ролью сервера клиентского доступа. 
   
@@ -79,12 +79,12 @@ ms.locfileid: "19761520"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
-- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
 - [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

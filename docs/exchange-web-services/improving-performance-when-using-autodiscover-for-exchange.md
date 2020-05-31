@@ -52,9 +52,9 @@ If you're using the **AutodiscoverService** class in the EWS Managed API, or the
 ## <a name="see-also"></a>См. также
 
 
-- [Автообнаружение для Exchange](autodiscover-for-exchange.md)
+- [Автообнаружение в Exchange](autodiscover-for-exchange.md)
     
-- [Найдите конечных точек службы автообнаружения с помощью поиска SCP в Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
+- [Обнаружение конечных точек автообнаружения с помощью поиска SCP в Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
     
 - [Обновление сведений о конфигурации с помощью службы автообнаружения](how-to-refresh-configuration-information-by-using-autodiscover.md)
     

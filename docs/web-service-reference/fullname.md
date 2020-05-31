@@ -1,5 +1,5 @@
 ---
-title: Полное имя
+title: FullName
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ed7f4504-a859-46d7-855e-7801b6f6bc8c
-description: Элемент полное имя представляет полное имя контакта.
+description: Элемент FullName представляет полное имя контакта.
 ms.openlocfilehash: 4cf62b96418de3d5175b9cd43209e5b0e0fa4675
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762678"
 ---
-# <a name="fullname"></a>Полное имя
+# <a name="fullname"></a>FullName
 
-Элемент **полное имя** представляет полное имя контакта. 
+Элемент **FullName** представляет полное имя контакта. 
   
 ```xml
 <FullName/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,9 +44,9 @@ ms.locfileid: "19762678"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CompleteName](completename.md) <br/> |Представляет полное имя контакта.  <br/> |
+|[комплетенаме](completename.md) <br/> |Представляет полное имя контакта.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19762678"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -66,5 +66,5 @@ ms.locfileid: "19762678"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

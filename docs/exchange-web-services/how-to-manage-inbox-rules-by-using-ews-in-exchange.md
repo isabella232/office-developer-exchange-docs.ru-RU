@@ -1,11 +1,11 @@
 ---
-title: Управление правилами папки "Входящие" с помощью веб-служб Exchange в Exchange
+title: Управление правилами папки "Входящие" с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 982ddb78-5606-44b0-8aba-dbffc60d6085
-description: Узнайте, как получить, создание, обновление и удаление правила папки "Входящие" с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как получать, создавать, обновлять и удалять правила для папки "Входящие" с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 85e166ba57d74c74382b257d01d9bff8f44bade1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,32 +13,32 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761050"
 ---
-# <a name="manage-inbox-rules-by-using-ews-in-exchange"></a>Управление правилами папки "Входящие" с помощью веб-служб Exchange в Exchange
+# <a name="manage-inbox-rules-by-using-ews-in-exchange"></a>Управление правилами папки "Входящие" с помощью EWS в Exchange
 
-Узнайте, как получить, создание, обновление и удаление правила папки "Входящие" с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как получать, создавать, обновлять и удалять правила для папки "Входящие" с помощью управляемого API EWS или EWS в Exchange.
   
-Можно получить, создание, обновление и удаление правила папки "Входящие" с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange. Независимо от того, можно использовать технологии, получения и изменения правил папки "Входящие" как семейство, а не по отдельности. Используйте операцию или метод для создания новых правил, обновить существующие правила и удаление правил. 
+Вы можете получать, создавать, обновлять и удалять правила для папки "Входящие" с помощью управляемого API EWS или EWS. Независимо от используемой технологии вы получаете и изменяете правила для папки "Входящие" как коллекции, а не по отдельности. Вы можете использовать один и тот же метод или операцию для создания новых правил, обновления существующих правил и удаления правил. 
   
-**В таблице 1. Методы и операции для получения и изменения правил папки "Входящие"**
+**Таблица 1. Методы и операции для начала и изменения правил папки "Входящие"**
 
-|**Чтобы...**|**Метод управляемого API EWS**|**Операция служб EWS**|
+|**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Получение правил папки "Входящие"  <br/> |[ExchangeService.GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) <br/> |[GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) <br/> |
-|Создание, обновление и удаление правила папки «Входящие»  <br/> |[ExchangeService.UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) <br/> |[UpdateInboxRules](http://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx) <br/> |
+|Получение правил для папки "Входящие"  <br/> |[ExchangeService. GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) <br/> |[GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) <br/> |
+|Создание, обновление и удаление правил для папки "Входящие"  <br/> |[ExchangeService. UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) <br/> |[UpdateInboxRules](http://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx) <br/> |
    
-Чтобы создать, обновить или удалить правила папки "Входящие" с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange, необходимо удалить правила Outlook, если он существует. Если вы используете управляемый API веб-служб Exchange, это сделать, для параметра **removeOutlookRulesBlob** **значение true** в вызове метода **ExchangeService.UpdateInboxRules** . Если вы используете веб-служб Exchange, значение элемента [RemoveOutlookRuleBlob](http://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx) значение **true** в операции **UpdateInboxRules** . Мы рекомендуем ваше приложение проверяет свойство [RuleCollection.OutlookRuleBlobExists](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx) (при использовании управляемого интерфейса API веб-служб Exchange), или элемент [OutlookRuleBlobExists](http://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx) (при использовании веб-служб Exchange) перед обновлением правила папки «Входящие». Если это свойство или элемент имеет значение **true**, приложение предупредить пользователя быть утрачены в процессе обновления все правила, отключенные и только перейти к их разрешений.
+Чтобы создавать, обновлять или удалять правила для папки "Входящие" с помощью управляемого API EWS или EWS, необходимо удалить правило Outlook, если оно существует. Если вы используете управляемый API EWS, то можете сделать это, присвоив **removeOutlookRulesBlob** параметру ремовеаутлукрулесблоб **значение true** в вызове метода **ExchangeService. UpdateInboxRules** . Если вы используете EWS, то установите для элемента [ремовеаутлукрулеблоб](http://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx) значение **true** в операции **UpdateInboxRules** . Рекомендуется проверить свойство [RuleCollection. аутлукрулеблобексистс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx) (если используется управляемый API EWS) или элемент [аутлукрулеблобексистс](http://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx) (если вы используете EWS), прежде чем обновлять правила для папки "Входящие". Если данное свойство или элемент имеет значение **true**, ваше приложение должно предупредить пользователя о том, что все отключенные правила будут потеряны в рамках обновления, и только продолжить работу с их разрешениями.
   
-При вызове метода **UpdateInboxRules** веб-служб Exchange удаляет правила отправки со стороны клиента. Отправить клиентские правила, хранятся в клиенте в правиле сообщение связанные сведения о папке (FAI) и нигде больше. Веб-служб Exchange удаление этого правила FAI сообщения по умолчанию на основании считает, что Outlook будет создать его заново. Тем не менее Outlook не удается заново создать правила несуществующим в качестве расширенного правила и отправки клиентские правила не существовать в качестве расширенного правила. В результате эти правила не сохраняются. Мы рекомендуем вам необходимо учитывать это при разработке решения. 
+При вызове метода **UPDATEINBOXRULES** EWS удаляет правила отправки на стороне клиента. Правила отправки на стороне клиента хранятся в клиенте в сообщении о связанной папке правила (ФАИ), но не в других. По умолчанию служба EWS удаляет это правило ФАИ по умолчанию, в зависимости от того, что Outlook будет воссоздать его. Однако Outlook не может создавать правила, которые не существуют как расширенное правило, а правила отправки на стороне клиента не являются расширенными правилами. В результате эти правила теряются. Мы рекомендуем использовать это при проектировании решения. 
   
 > [!NOTE]
-> В данной статье примеры кода управляемый API EWS использовать [общий набор служебных методов](how-to-manage-inbox-rules-by-using-ews-in-exchange.md#bk_UtilitySource). Эти методы исключаются из примеров кода для краткости. 
+> В примерах кода управляемого API EWS, приведенных в этой статье, используется [общий набор служебных методов](how-to-manage-inbox-rules-by-using-ews-in-exchange.md#bk_UtilitySource). Эти методы опущены в примерах кода для краткости. 
   
-## <a name="get-inbox-rules-by-using-the-ews-managed-api"></a>Получение правил папки "Входящие" с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-inbox-rules-by-using-the-ews-managed-api"></a>Получение правил для папки "Входящие" с помощью управляемого API EWS
 <a name="bk_GetRulesEWSMA"> </a>
 
-Для получения текущего правила папки "Входящие", используйте метод [ExchangeService.GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) . Этот метод возвращает объект [RuleCollection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.rulecollection%28v=exchg.80%29.aspx) , который содержит все текущие правила папки «Входящие». 
+Чтобы получить текущие правила для папки "Входящие", используйте метод [ExchangeService. GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) . Этот метод возвращает объект [RuleCollection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.rulecollection%28v=exchg.80%29.aspx) , который содержит все текущие правила для папки "Входящие". 
   
-В этом примере каждое правило в текущей папки "Входящие" передается вспомогательной функцией ( **ParseRuleDetails** ) для отображения сведений о правила. 
+В этом примере каждое правило в текущей папке "Входящие" передается в вспомогательную функцию ( **парсеруледетаилс** ) для отображения сведений о правиле. 
   
 ```cs
 using System;
@@ -73,10 +73,10 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
 }
 ```
 
-## <a name="get-inbox-rules-by-using-ews"></a>Получение правил папки "Входящие" с помощью веб-служб Exchange
+## <a name="get-inbox-rules-by-using-ews"></a>Получение правил для папки "Входящие" с помощью EWS
 <a name="bk_GetRulesEWS"> </a>
 
-Следующий запрос SOAP веб-служб Exchange используется [операция GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) для получения правил папки "Входящие" для sadie@contoso.com. 
+Следующий запрос SOAP EWS использует [операцию GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) для получения правил для папки "Входящие" для Sadie@contoso.com. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -95,7 +95,7 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
 </soap:Envelope>
 ```
 
-Приведенный ниже ответ SOAP веб-служб Exchange содержит текущие правила папки «Входящие» для sadie@contoso.com.
+Приведенный ниже ответ SOAP EWS содержит текущие правила для папки "Входящие" для sadie@contoso.com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -161,12 +161,12 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
 </s:Envelope>
 ```
 
-## <a name="create-inbox-rules-by-using-the-ews-managed-api"></a>Создание правила папки "Входящие" с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="create-inbox-rules-by-using-the-ews-managed-api"></a>Создание правил для папки "Входящие" с помощью управляемого API EWS
 <a name="bk_CreateRulesEWSMA"> </a>
 
-Чтобы создать правило, включите [CreateRuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.createruleoperation%28v=exchg.80%29.aspx) объект в коллекцию объектов [RuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.ruleoperation%28v=exchg.80%29.aspx) , переданной в метод [ExchangeService.UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) . 
+Чтобы создать правило, включите объект [креатерулеоператион](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.createruleoperation%28v=exchg.80%29.aspx) в коллекцию объектов [рулеоператион](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.ruleoperation%28v=exchg.80%29.aspx) , переданных в метод [ExchangeService. UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) . 
   
-В этом примере создается новое правило перемещения электронных сообщений, отправленных в список рассылки с именем «Продажи» в папке "Входящие", также называемый «Продажи».
+В этом примере создается новое правило для перемещения почты, отправленной в список рассылки с именем Sales, во вложенную папку папки "Входящие", также называемую "продажи".
   
 ```cs
 using System;
@@ -241,10 +241,10 @@ private static void CreateInboxRule(ExchangeService service, string emailAddress
 }
 ```
 
-## <a name="create-inbox-rules-by-using-ews"></a>Создание правила папки "Входящие" с помощью веб-служб Exchange
+## <a name="create-inbox-rules-by-using-ews"></a>Создание правил для папки "Входящие" с помощью EWS
 <a name="bk_CreateRulesEWS"> </a>
 
-Следующий запрос SOAP веб-служб Exchange создает правило «Продажи» в sadie@contoso.com в папке "Входящие".
+Следующий запрос SOAP EWS создает правило "Sales" в папке "Входящие" sadie@contoso. com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -296,12 +296,12 @@ private static void CreateInboxRule(ExchangeService service, string emailAddress
 </soap:Envelope>
 ```
 
-## <a name="update-inbox-rules-by-using-the-ews-managed-api"></a>Обновление правил папки "Входящие" с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="update-inbox-rules-by-using-the-ews-managed-api"></a>Обновление правил для папки "Входящие" с помощью управляемого API EWS
 <a name="bk_UpdateRulesEWSMA"> </a>
 
-Чтобы обновить правило, включите [SetRuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.setruleoperation%28v=exchg.80%29.aspx) объект в коллекцию объектов **RuleOperation** , переданной в метод **UpdateInboxRules** . 
+Чтобы обновить правило, включите объект [сетрулеоператион](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.setruleoperation%28v=exchg.80%29.aspx) в коллекцию объектов **рулеоператион** , переданных в метод **UpdateInboxRules** . 
   
-В этом примере обновляется правило «Продажи», добавьте исключение. Если тема содержит слово «Срочно», сообщения не перемещается в папку «Продажи».
+В этом примере правило "Sales" обновляется, чтобы добавить исключение. Если тема содержит слово "срочные", сообщения не будут перемещены в подпапку "Sales".
   
 ```cs
 using System;
@@ -372,10 +372,10 @@ private static void UpdateInboxRule(ExchangeService service, string emailAddress
 }
 ```
 
-## <a name="update-inbox-rules-by-using-ews"></a>Обновление правил папки "Входящие" с помощью веб-служб Exchange
+## <a name="update-inbox-rules-by-using-ews"></a>Обновление правил для папки "Входящие" с помощью EWS
 <a name="bk_UpdateRulesEWS"> </a>
 
-Следующий запрос SOAP веб-служб Exchange обновляет правило «Продажи» в sadie@contoso.com в папке "Входящие".
+Следующий запрос SOAP EWS обновляет правило "Sales" в папке "Входящие" sadie@contoso. com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -433,12 +433,12 @@ private static void UpdateInboxRule(ExchangeService service, string emailAddress
 </soap:Envelope>
 ```
 
-## <a name="delete-inbox-rules-by-using-the-ews-managed-api"></a>Удаление правила папки "Входящие" с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="delete-inbox-rules-by-using-the-ews-managed-api"></a>Удаление правил для папки "Входящие" с помощью управляемого API EWS
 <a name="bk_DeleteRulesEWSMA"> </a>
 
-Чтобы удалить правило, включите [DeleteRuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.deleteruleoperation%28v=exchg.80%29.aspx) объект в коллекцию объектов **RuleOperation** , переданной в метод **UpdateInboxRules** . 
+Чтобы удалить правило, включите объект [делетерулеоператион](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.deleteruleoperation%28v=exchg.80%29.aspx) в коллекцию объектов **рулеоператион** , переданных в метод **UpdateInboxRules** . 
   
-В этом примере удаляется правило «Продажи».
+В этом примере правило "Sales" удаляется.
   
 ```cs
 using System;
@@ -506,10 +506,10 @@ private static void DeleteInboxRule(ExchangeService service, string emailAddress
 }
 ```
 
-## <a name="delete-inbox-rules-by-using-ews"></a>Удаление правила папки "Входящие" с помощью веб-служб Exchange
+## <a name="delete-inbox-rules-by-using-ews"></a>Удаление правил для папки "Входящие" с помощью EWS
 <a name="bk_DeleteRulesEWS"> </a>
 
-Следующий запрос SOAP веб-служб Exchange удаляет правила «Продажи» sadie@contoso.com в папке "Входящие".
+Следующий запрос SOAP EWS удаляет правила "Sales" из папки "Входящие" sadie@contoso. com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -533,10 +533,10 @@ private static void DeleteInboxRule(ExchangeService service, string emailAddress
 </soap:Envelope>
 ```
 
-## <a name="source-for-sample-utility-methods"></a>Источник для примера вспомогательные методы
+## <a name="source-for-sample-utility-methods"></a>Источник образцов служебных методов
 <a name="bk_UtilitySource"> </a>
 
-Управляемый API EWS примеров, описанных в этой статье используйте служебные методы, включенные в следующем примере.
+В примерах управляемого API EWS, приведенных в этой статье, используются служебные методы, включенные в следующий пример.
   
 ```cs
 private static void ParseRuleDetails(ExchangeService service, Rule rule)
@@ -910,9 +910,9 @@ private static FolderId GetFolderIdByName(ExchangeService service, WellKnownFold
 
 - [Управление папкой "Входящие" и веб-службы Exchange](inbox-management-and-ews-in-exchange.md)
     
-- [Метод ExchangeService.GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)
+- [Метод ExchangeService. GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)
     
-- [Метод ExchangeService.UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)
+- [Метод ExchangeService. UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)
     
 - [Операция GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)
     

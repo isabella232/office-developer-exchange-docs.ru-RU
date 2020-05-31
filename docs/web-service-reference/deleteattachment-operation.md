@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4d48e595-b98c-48e7-bbeb-cacf91d12a78
-description: Операция DeleteAttachment используется для удаления вложений файлов и элементов из существующего элемента в хранилище Exchange.
+description: Операция DeleteAttachment используется для удаления вложенных файлов и вложений элементов из существующего элемента в хранилище Exchange.
 ms.openlocfilehash: 4b94bfd8d6333c1f52be8ad7d0d111ab2a0552b3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,19 +21,19 @@ ms.locfileid: "19762022"
 ---
 # <a name="deleteattachment-operation"></a>Операция DeleteAttachment
 
-Операция DeleteAttachment используется для удаления вложений файлов и элементов из существующего элемента в хранилище Exchange.
+Операция DeleteAttachment используется для удаления вложенных файлов и вложений элементов из существующего элемента в хранилище Exchange.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Эта операция позволяет удалить один или несколько вложений по идентификатору.
+Эта операция позволяет удалить одно или несколько вложений по ИДЕНТИФИКАТОРу.
   
 ## <a name="deleteattachment-request-example"></a>Пример запроса DeleteAttachment
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос DeleteAttachment показано, как удалить вложение элемента.
+В приведенном ниже примере запроса DeleteAttachment показано, как удалить вложение элемента.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,27 +52,27 @@ ms.locfileid: "19762022"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификатор вложения был усечен, чтобы сохранить удобочитаемость.
+Идентификатор вложения был сокращен, чтобы сохранить удобочитаемость.
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [DeleteAttachment](deleteattachment.md)
     
-- [AttachmentIds](attachmentids.md)
+- [аттачментидс](attachmentids.md)
     
-- [Идентификатора вложения AttachmentId](attachmentid.md)
+- [AttachmentId](attachmentid.md)
     
-## <a name="deleteattachment-response-example"></a>Пример ответа DeleteAttachment
+## <a name="deleteattachment-response-example"></a>Пример отклика DeleteAttachment
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос DeleteAttachment.
+В следующем примере показан успешный ответ на запрос DeleteAttachment.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -98,30 +98,30 @@ ms.locfileid: "19762022"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Операция CreateAttachment возвращает элемент AttachmentIdType типа, который включает в себя **RootItemId** и **RootItemChangeKey**. Эти атрибуты не допускаются для идентификаторов в запросе DeleteAttachment. DeleteAttachment использует элементы типа RequestAttachmentIdType, которая не включает следующие атрибуты.
+Операция CreateAttachment Возвращает элемент типа Аттачментидтипе, включающий в себя **рутитемид** и **рутитемчанжекэй**. Эти атрибуты не разрешены для идентификаторов в запросе DeleteAttachment. DeleteAttachment использует элементы типа Рекуестаттачментидтипе, которые не включают эти атрибуты.
   
-Ответ DeleteAttachment включает в себя идентификатор родительского элемента. После удаления вложения из элемента изменяется ключ изменения элемента. Новый ключ изменения элемента можно получить из ответа DeleteAttachment.
+Ответ DeleteAttachment включает идентификатор родительского элемента. При удалении вложений из элемента изменяется ключ изменения элемента. Новый ключ изменения элемента можно получить из отклика DeleteAttachment.
   
 > [!NOTE]
-> Идентификатор [RootItemId](rootitemid.md) и ChangeKey URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор [рутитемид](rootitemid.md) и чанжекэй были сокращены для сохранения удобочитаемости. 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [DeleteAttachmentResponse](deleteattachmentresponse.md)
+- [делетеаттачментреспонсе](deleteattachmentresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md)
+- [делетеаттачментреспонсемессаже](deleteattachmentresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [RootItemId](rootitemid.md)
+- [рутитемид](rootitemid.md)
     
 ## <a name="see-also"></a>См. также
 

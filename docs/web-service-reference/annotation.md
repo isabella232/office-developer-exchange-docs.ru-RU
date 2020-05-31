@@ -1,5 +1,5 @@
 ---
-title: Заметки
+title: Метка
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e0392635-9d0f-46d5-84ef-0a8a3036479a
-description: Элемент заметки содержит необязательные примечания, добавлены пользователем.
+description: Элемент Annotation содержит необязательные заметки, добавленные пользователем.
 ms.openlocfilehash: e0170ef9940b64d4c6a10a08182189571f2beb5a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761378"
 ---
-# <a name="annotation"></a>Заметки
+# <a name="annotation"></a>Метка
 
-Элемент **заметки** содержит необязательные примечания, добавлены пользователем. 
+Элемент **Annotation** содержит необязательные заметки, добавленные пользователем. 
   
 ```XML
 <Annotation></Annotation>
@@ -26,7 +26,7 @@ ms.locfileid: "19761378"
  **xs: String**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19761378"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[EnhancedLocation](enhancedlocation.md) <br/> |Задает сведения о расположении таких как имя, адрес и необязательные замечания о расположении.  <br/> |
+|[EnhancedLocation](enhancedlocation.md) <br/> |Задает сведения о расположении, такие как имя, адрес и дополнительные заметки о расположении.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента создания комментариев является пользователя добавлено примечание о расположении.
+Текстовое значение элемента Annotation — пользователь добавил Примечание о расположении.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19761378"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

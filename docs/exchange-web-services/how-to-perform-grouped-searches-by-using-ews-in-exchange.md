@@ -1,11 +1,11 @@
 ---
-title: Выполнение поиска по сгруппированных с помощью веб-служб Exchange в Exchange
+title: Выполнение группового поиска с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 55de92eb-8e8b-4156-8ad9-dd3828024242
-description: Узнайте, как выполнять сгруппированных поисков в управляемый API EWS или приложение веб-служб Exchange, предназначенное для Exchange.
+description: Узнайте, как выполнять группировку поисков в управляемом API EWS или приложении EWS, предназначенном для Exchange.
 ms.openlocfilehash: 63a796e2c724351c15287a5596a9a063954f8b40
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,75 +13,75 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761093"
 ---
-# <a name="perform-grouped-searches-by-using-ews-in-exchange"></a>Выполнение поиска по сгруппированных с помощью веб-служб Exchange в Exchange
+# <a name="perform-grouped-searches-by-using-ews-in-exchange"></a>Выполнение группового поиска с помощью EWS в Exchange
 
-Узнайте, как выполнять сгруппированных поисков в управляемый API EWS или приложение веб-служб Exchange, предназначенное для Exchange.
+Узнайте, как выполнять группировку поисков в управляемом API EWS или приложении EWS, предназначенном для Exchange.
   
-Сгруппированные поисков полезны, в том, что они можно настроить как результатов поиска в организации. Результаты поиска упорядоченный позволяют упростить для приложения для обработки результатов или они отображаются конечному пользователю управлять ими.
+Сгруппированные поиски удобны в том, что они дают вам возможность контролировать организацию результатов поиска. Упорядоченные результаты поиска могут облегчить приложению обработку результатов или отобразить их конечному пользователю в управляемом виде.
   
-Группировка works, поместив все элементы в наборе результатов, которые имеют одинаковые значения определенного поля в группу. К примеру можно сгруппировать результаты по отправителям, все элементы из определенного пользователя будет находиться в отдельной группы и элементов в каждой группе сортируются в порядке, заданная в представлении. Самих групп сортируются по статистического значения на основе выбранного поля.
+Группирование заключается в размещении всех элементов в наборе результатов с одинаковым значением определенного поля в группе. Например, вы можете группировать результаты по отправителю, и все элементы из одного лица будут находиться в отдельной группе, а элементы в каждой группе будут отсортированы в соответствии с порядком, указанным в представлении. Сами группы сортируются по статистическому значению, основанному на выбранном поле.
   
-**В таблице 1. Управляемый API EWS методы и операции веб-служб Exchange для организации результатов поиска**
+**Таблица 1. Методы управляемого API EWS и операции EWS для организации результатов поиска**
 
-|**Если вы хотите...**|**В управляемый API веб-служб Exchange используйте...**|**В веб-служб Exchange используйте...**|
+|**Задача**|**В управляемом API EWS используйте...**|**В EWS используйте...**|
 |:-----|:-----|:-----|
-|Элементы с тем же значением в определенное свойство в результатах Упорядочить по группам  <br/> |[Grouping.GroupOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.groupon%28v=exchg.80%29.aspx) <br/> |Элемент [FieldURI](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) как дочерний элемент [GroupBy](http://msdn.microsoft.com/library/9728619b-4674-4b9d-9f6c-e75c6165966c%28Office.15%29.aspx)  <br/> |
-|Сортировка элементов в каждой группе по значению в определенное свойство  <br/> |[ItemView.OrderBy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.orderby%28v=exchg.80%29.aspx) <br/> |Элемент [SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx)  <br/> |
-|Сортировать группы  <br/> |[Grouping.AggregateOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx) <br/><br/> [Grouping.AggregateType](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx) <br/><br/> [Grouping.SortDirection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx) <br/> |Элемент **FieldURI** в качестве дочернего для элемента [AggregateOn](http://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx)<br/><br/> **Агрегированные** атрибут **AggregateOn** элемента<br/><br/>Атрибут **заказа** на элемент **GroupBy**  <br/> |
+|Упорядочение элементов с одинаковым значением в определенном свойстве в результатах по группам  <br/> |[Группирование. GroupOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.groupon%28v=exchg.80%29.aspx) <br/> |Элемент [фиелдури](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) в качестве дочернего элемента для элемента [GroupBy](http://msdn.microsoft.com/library/9728619b-4674-4b9d-9f6c-e75c6165966c%28Office.15%29.aspx)  <br/> |
+|Сортировка элементов в каждой группе по значению в определенном свойстве  <br/> |[Итемвиев. OrderBy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.orderby%28v=exchg.80%29.aspx) <br/> |Элемент [SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx)  <br/> |
+|Сортировка групп  <br/> |[GROUPING. Аггрегатеон](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx) <br/><br/> [GROUPING. Аггрегатетипе](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx) <br/><br/> [GROUPING. SortDirection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx) <br/> |Элемент **фиелдури** в качестве дочернего элемента для элемента [аггрегатеон](http://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx)<br/><br/> **Статистический** атрибут для элемента **аггрегатеон**<br/><br/>Атрибут **Order** для элемента **GroupBy**  <br/> |
    
-Давайте его пошаговое руководство по.
+Давайте попробуем пошаговое выполнение.
   
-## <a name="group-results-by-a-specific-property"></a>Группа результатов по определенное свойство
+## <a name="group-results-by-a-specific-property"></a>Группировка результатов по определенному свойству
 <a name="bk_GroupResults"> </a>
 
-— Это первый шаг в использовании группировки выберите свойство или атрибут элементов в хранилище Exchange, по которому выполняется группировка. Управляемый API веб-служб Exchange предоставляет их в качестве свойств класса на соответствующие классы во время веб-служб Exchange предоставляет их как XML-элементы. Можно выбрать любое свойство, включая настраиваемые или расширенные свойства, но будет полезно понять, как элементы сгруппированы на основе значения свойства выбранного. 
+Первый шаг по использованию группирования — выбор свойства или атрибута элементов в хранилище Exchange для группировки по. Управляемый API EWS предоставляет эти свойства классам в соответствующих классах, а EWS представляет их в виде элементов XML. Вы можете выбрать любое свойство, включая настраиваемые или расширенные свойства, но при этом полезно знать, как группируются элементы в зависимости от значения свойства, которое вы выбрали. 
 
-Все элементы, которые имеют одинаковые значения в свойстве, выбранное для группировки по будет объединять. Это может показаться очевидны, но это важных сведений. Что произойдет, если группировать по свойству даты и времени, например [Item.DateTimeReceived](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.datetimereceived%28v=exchg.80%29.aspx) в управляемый API EWS или элемент [DateTimeReceived](http://msdn.microsoft.com/library/8f489bd4-2434-4d0a-91fe-1b5ba7eb5765%28Office.15%29.aspx) в веб. Назначение может быть упорядочить результаты по группам, с каждой группы, содержащей элементы в тот же день. Тем не менее группировки просматривает все значения, которое содержит время. 
+Все элементы, имеющие одинаковое значение в свойстве, выбранном для группировки, будут сгруппированы вместе. Это может показаться очевидным, но это очень важная информация. Обратите внимание на то, что происходит при группировке по свойству даты и времени, например [Item. DateTimeReceived](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.datetimereceived%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS или элемент [DateTimeReceived](http://msdn.microsoft.com/library/8f489bd4-2434-4d0a-91fe-1b5ba7eb5765%28Office.15%29.aspx) в EWS. Цель может быть упорядочена по группам, при этом каждая группа содержит элементы из одного дня. Тем не менее, группирование просматривает все значение, которое включает время. 
 
-Конечный результат —, чтобы элементов, полученных в то же время вниз до второго, находятся в свои собственные группы будут группироваться элементы. Результаты сортируются по всей вероятности в большое число групп с небольшое число элементов в каждой группе. 
+Конечный результат заключается в том, что элементы будут сгруппированы, так что одновременно получаемые элементы перемещаются в свои группы. Скорее всего, результаты будут отсортированы в большом количестве групп с небольшим количеством элементов в каждой группе. 
   
-Для получения набора с небольшим количеством групп и большего количества элементов в каждой группе результатов, выберите свойство, которое может работать несколько значений, например [EmailMessage.From](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.from%28v=exchg.80%29.aspx) или [Item.Categories](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.categories%28v=exchg.80%29.aspx) в управляемый API EWS или [из](http://msdn.microsoft.com/library/5a52d644-3677-4049-874c-12bd5c3080dc%28Office.15%29.aspx) или [категории](http://msdn.microsoft.com/library/d84d4927-b524-4e62-bf3d-1f12fec8c21a%28Office.15%29.aspx) в веб-служб Exchange. На следующем рисунке показана список по электронной почте, которые отображаются в папке "Входящие". 
+Чтобы получить набор результатов с небольшим количеством групп и большим количеством элементов в каждой группе, выберите свойство, которое может иметь меньшее количество значений, например [EmailMessage. from](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.from%28v=exchg.80%29.aspx) или [Item. Categories](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.categories%28v=exchg.80%29.aspx) в управляемом API EWS или [из](http://msdn.microsoft.com/library/5a52d644-3677-4049-874c-12bd5c3080dc%28Office.15%29.aspx) [категорий](http://msdn.microsoft.com/library/d84d4927-b524-4e62-bf3d-1f12fec8c21a%28Office.15%29.aspx) в EWS. На следующем рисунке показан список сообщений электронной почты, которые отображаются в папке "Входящие". 
   
-**На рисунке 1. Сообщения в папке "Входящие"**
+**Рис. 1. Сообщения в папке "Входящие"**
 
 ![Пример списка сообщений в папке "Входящие".](media/Ex15_GroupedSearch_MsgList.png)
   
-Если группа элементов на рисунке 1 в свойстве **EmailMessage.From** , результатом будет две группы, другая — для сообщений, отправленных пользователем надеюсь полная и один для сообщений, отправленных пользователем Sadie Daniels. 
+Если сгруппировать элементы на рис. 1 по свойству **EmailMessage. from** , то результатом будет две группы, одна для сообщений, отправленных с "счастливых брутто", а другой для сообщений, отправляемых Ольга Даниелс. 
   
-**На рисунке 2. Сообщения, разделенных на группы на основе свойства отправителя**
+**Рис. 2. Сообщения, разделенные на группы на основе свойства From**
 
 ![Изображение, на котором показаны сообщения, рассортированные по двум спискам согласно свойству "От".](media/Ex15_GroupedSearch_SeparateGroups.png)
   
 ## <a name="sort-the-items-within-groups"></a>Сортировка элементов в группах
 <a name="bk_SortItems"> </a>
 
-Можно управлять способ сортировки элементов в каждой группе с помощью свойства [ItemView.OrderBy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.orderby%28v=exchg.80%29.aspx) в управляемый API EWS или элемент [SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx) в веб-служб Exchange. То же упорядочение применяется к каждой группе. Например Сортировка элементов на рисунке 1 в свойстве **Item.DateTimeReceived** в порядке убывания, элемент, недавно полученные от полная надеюсь будет первым в группе полная надеюсь, и будет элемента, недавно полученные от Sadie Daniels Сначала в группе Sadie Daniels. Легко создавать групп на рисунке 2 еще сортируются таким способом. 
+Вы можете управлять сортировкой элементов в каждой группе с помощью свойства [итемвиев. OrderBy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.orderby%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS или элемента [SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx) в EWS. Один и тот же порядок применяется к каждой группе. Например, если Вы отсортируете элементы на рис. 1 по свойству **Item. DateTimeReceived** , в убывающем порядке, самый последний полученный из них элемент будет первым в группе вероятнее всего, а последний, полученный из Ольга Даниелс, будет первым в группе Ольга Даниелс. С легкостью, группы на рисунке 2 уже отсортированы таким образом. 
   
-## <a name="sort-the-groups"></a>Сортировать группы
+## <a name="sort-the-groups"></a>Сортировка групп
 <a name="bk_SortGroups"> </a>
 
-Теперь, когда у вас есть группах сопоставлены, завершающий шаг сортировка самих групп. Так как самих групп, не содержащих конкретных значений, процесс группировки должен присвоить значение сортировки для каждой группы. Это делается путем объединение значений определенное свойство в каждой группе, указанного в свойстве [Grouping.AggregateOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx) в управляемый API EWS или элемент [FieldURI](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) как дочерний элемент [AggregateOn](http://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx) в веб-служб Exchange. Свойство [Grouping.AggregateType](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx) в управляемый API веб-служб Exchange (или **статистической обработки** атрибута на элемент **AggregateOn** в веб-служб Exchange) задает значение, которое из элементов в каждой группе присваивается значение параметра сортировки для группы, либо Наибольшее значение или наименьшее значение. И, наконец порядок сортировки (по убыванию или по возрастанию) задается свойство [Grouping.SortDirection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx) в управляемый API EWS или атрибут **заказа** на элемент [GroupBy](http://msdn.microsoft.com/library/9728619b-4674-4b9d-9f6c-e75c6165966c%28Office.15%29.aspx) в веб-служб Exchange. 
+Теперь, когда ваши группы сопоставлены, последним шагом будет сортировка самих групп. Так как сами группы не имеют определенных значений, процесс группирования должен назначить значение сортировки каждой группе. Это выполняется путем объединения значений определенного свойства в каждой группе, заданного свойством [Group. аггрегатеон](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS, или элементом [фиелдури](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) в качестве дочернего элемента для элемента [аггрегатеон](http://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx) в EWS. Свойство [Group. аггрегатетипе](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS (или атрибут **Aggregate** для элемента **аггрегатеон** в EWS) указывает, какое значение из элементов в каждой группе назначается значению сортировки для группы — либо наибольшее значение, либо наименьшее значение. Наконец, порядок сортировки (по убыванию или по возрастанию) задается свойством [Group. SortDirection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS или атрибутом **Order** для элемента [GroupBy](http://msdn.microsoft.com/library/9728619b-4674-4b9d-9f6c-e75c6165966c%28Office.15%29.aspx) в веб-службах EWS. 
   
-Например если группы из на рисунке 2 сортируются по статистическая обработка в свойстве **Item.DateTimeReceived** , с помощью наименьшее значение и сортировка в порядке убывания элементы возвращаются в том порядке, в показано на рисунке 3. 
+Например, если группы, показанные на рисунке 2, отсортированы по статистической обработке свойства **Item. DateTimeReceived** с наименьшим значением и сортировка по убыванию, элементы возвращаются в порядке, приведенном на рисунке 3. 
   
-**На рисунке 3. Результаты поиска сгруппированных где группы отсортированы по свойству DateTimeReceived**
+**Рис. 3. Сгруппированные результаты поиска с группами, отсортированными по свойству DateTimeReceived**
 
 ![Изображение, на котором показан отсортированный список сообщений, сгруппированный по свойству "От", где группы отсортированы по наименьшим времени и дате получения.](media/Ex15_GroupedSearch_Results.png)
   
-Далее разделах показано, как можно извлечь группировки и сортировки друг с другом в коде.
+В следующих разделах показано, как можно забирать группирование и сортировку в коде.
   
-## <a name="example-perform-a-grouped-search-by-using-the-ews-managed-api"></a>Пример: Выполнение сгруппированных поиска с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="example-perform-a-grouped-search-by-using-the-ews-managed-api"></a>Пример: выполнение группового поиска с помощью управляемого API EWS
 <a name="bk_GroupSearchEWSMA"> </a>
 
-Следующие методы управляемый API EWS можно использовать группировки.
+Следующие методы управляемого API EWS могут использовать группировку:
   
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
+- [Folder. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
-В следующем примере используется метод **ExchangeService.FindItems** ; Тем не менее же правила и основные понятия применяются в метод **Folder.FindItems** . В следующем примере определяется метод с именем **GroupItemsByFrom** . Принимает объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и объект [WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) как параметры. Он запрашивает первые 50 элементов в папке, сгруппированные по свойству **EmailMessage.From** , отсортированные по свойству **Item.DateTimeReceived** в убывающем порядке. Самих групп сортируются по наименьшее значение свойства **Item.DateTimeReceived** на свои элементы в убывающем порядке. 
+В следующем примере используется метод **ExchangeService. FindItems** ; Тем не менее те же правила и концепции применяются к методу **Folder. FindItems** . В этом примере определен метод под названием **граупитемсбифром** . В качестве параметров в качестве параметров используется объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и объект [веллкновнфолдернаме](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) . Он запрашивает первые 50 элементов в папке, сгруппированные по свойству **EmailMessage. from** , отсортированному по свойству **Item. DateTimeReceived** в убывающем порядке. Сами группы сортируются по наименьшему значению свойства **Item. DateTimeReceived** в их элементах в порядке убывания. 
   
-В этом примере предполагается, что объект **ExchangeService** была ли инициализирована с допустимые значения для свойства [URL-адреса](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) и [учетных данных](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) . 
+В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). 
   
 ```cs
 static void GroupItemsByFrom(ExchangeService service, WellKnownFolderName folder)
@@ -128,10 +128,10 @@ static void GroupItemsByFrom(ExchangeService service, WellKnownFolderName folder
 }
 ```
 
-## <a name="example-perform-a-grouped-search-by-using-ews"></a>Пример: Выполнение сгруппированных поиска с помощью веб-служб Exchange
+## <a name="example-perform-a-grouped-search-by-using-ews"></a>Пример: выполнение группового поиска с помощью EWS
 <a name="bk_GroupSearchEWS"> </a>
 
-В следующем примере запрос показывает [FindItem операция](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) запроса для первых 50 элементов в папке, сгруппированные по элемент **из** , отсортированные по элемент **DateTimeReceived** в убывающем порядке. Самих групп сортируются по наименьшее значение элемента **DateTimeReceived** на свои элементы в убывающем порядке. 
+В следующем примере запроса показан запрос [операции FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) для первых 50 элементов в папке, сгруппированных по элементу **from** и отсортированный по элементу **DateTimeReceived** в убывающем порядке. Сами группы сортируются по наименьшему значению элемента **DateTimeReceived** в их элементах в убывающем порядке. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -176,7 +176,7 @@ static void GroupItemsByFrom(ExchangeService service, WellKnownFolderName folder
 </soap:Envelope>
 ```
 
-Сервер возвращает ответ.
+Сервер возвращает следующий ответ.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -324,16 +324,16 @@ static void GroupItemsByFrom(ExchangeService service, WellKnownFolderName folder
 ## <a name="version-differences"></a>Различия версий
 <a name="bk_VersionDiffs"> </a>
 
-Версии Exchange, начиная с основной номер версии 15 и заканчивая построения 15.0.775.38 возврата **группы** элементов (типа **GroupedItemsType**) вместо [GroupedItems](http://msdn.microsoft.com/library/53170df4-4272-4b37-b23f-cd8e2d4a7396%28Office.15%29.aspx) элементы в ответе SOAP. Если вы используете управляемый API веб-служб Exchange, это приведет к коллекции [GroupedFindItemsResults.ItemGroups](http://msdn.microsoft.com/en-us/library/office/dd633961%28v=exchg.80%29.aspx) 0 объектов. При использовании веб-служб Exchange элементы **группы** должны обрабатываться как элементы **GroupedItems** . 
+Версии Exchange, начиная с основной версии 15 и заканчивая сборкой 15.0.775.38, возвращают элементы **группы** (типа **граупедитемстипе**) вместо элементов [граупедитемс](http://msdn.microsoft.com/library/53170df4-4272-4b37-b23f-cd8e2d4a7396%28Office.15%29.aspx) в ответе SOAP. Если вы используете управляемый API EWS, это приведет к тому, что коллекция [граупедфиндитемсресултс. итемграупс](http://msdn.microsoft.com/en-us/library/office/dd633961%28v=exchg.80%29.aspx) будет содержать 0 объектов. Если вы используете EWS, элементы **Group** должны обрабатываться как элементы **граупедитемс** . 
   
-Версии Exchange, начиная с версии 15 возвращать дополнительные элементы **группы** или **GroupedItems** с помощью атрибута **xsi: nil** значение **true** в ответе SOAP. Если используется управляемый API веб-служб Exchange, эти дополнительные элементы приведет к [ServiceXmlDeserializationException](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.servicexmldeserializationexception%28v=exchg.80%29.aspx) исключение. Если вы используете веб-служб Exchange, эти дополнительные элементы можно пропустить. 
+Версии Exchange, начиная с основной версии 15, возвращают дополнительные элементы **Group** или **граупедитемс** с атрибутом **xsi: nil** со значением **true** в ответе SOAP. Если вы используете управляемый API EWS, эти дополнительные элементы приведут к созданию [сервицексмлдесериализатионексцептион](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.servicexmldeserializationexception%28v=exchg.80%29.aspx) . Если вы используете EWS, эти дополнительные элементы следует игнорировать. 
   
 ## <a name="see-also"></a>См. также
 
 - [Поиск и веб-службах Exchange](search-and-ews-in-exchange.md)    
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
-- [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)   
-- [Класс группировки](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping%28v=exchg.80%29.aspx)    
-- [FindItem Operation](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [Folder. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)   
+- [Класс GROUPING](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping%28v=exchg.80%29.aspx)    
+- [Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 

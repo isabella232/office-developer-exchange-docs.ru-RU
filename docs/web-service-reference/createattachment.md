@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e33b403a-b7d3-48ee-8d24-6b7abf0d70bc
-description: Элемент CreateAttachment определяет запрос для создания вложения в элемент в хранилище Exchange.
+description: Элемент CreateAttachment определяет запрос на создание вложения для элемента в хранилище Exchange.
 ms.openlocfilehash: d403eb5ca15623d3a973f7b224dbcde5529cf1bc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19761857"
 ---
 # <a name="createattachment"></a>CreateAttachment
 
-Элемент **CreateAttachment** определяет запрос для создания вложения в элемент в хранилище Exchange. 
+Элемент **CreateAttachment** определяет запрос на создание вложения для элемента в хранилище Exchange. 
   
 ```xml
 <CreateAttachment>
@@ -30,10 +30,10 @@ ms.locfileid: "19761857"
 </CreateAttachment>
 ```
 
- **CreateAttachmentType**
+ **креатеаттачменттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,38 +43,38 @@ ms.locfileid: "19761857"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ParentItemId](parentitemid.md) <br/> |Идентифицирует родительского элемента хранилища Exchange, который содержит созданный вложения. Элемент [ParentItemId](parentitemid.md) необходимо предоставить идентификатор реальных Exchange хранения элемента. Реальные хранения элементов можно извлечь с помощью [операции GetItem](getitem-operation.md); вложения извлекаются с помощью [операции GetAttachment](getattachment-operation.md). Если [ParentItemId](parentitemid.md) передается, идентификатор файла вложения, возникает ошибка. Если [ParentItemId](parentitemid.md) представляет идентификатор вложения существующего элемента, [операция CreateAttachment](createattachment-operation.md) добавляет новый вложения в существующие вложения.  <br/> Этот элемент является обязательным для [CreateAttachment операции](createattachment-operation.md).  <br/> |
-|[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы для присоединения к элементу в хранилище Exchange.  <br/> |
+|[парентитемид](parentitemid.md) <br/> |Определяет родительский элемент хранилища Exchange, который содержит созданное вложение. Элемент [парентитемид](parentitemid.md) должен предоставлять идентификатор реального элемента хранилища Exchange. Элементы реального хранилища можно получить с помощью [операции GetItem](getitem-operation.md); вложения извлекаются с помощью [операции GetAttachment](getattachment-operation.md). Если [парентитемид](parentitemid.md) передается идентификатор вложенного файла, возникает ошибка. Если [парентитемид](parentitemid.md) представляет идентификатор существующего вложения элемента, [Операция CreateAttachment](createattachment-operation.md) добавляет новое вложение в существующее вложение.  <br/> Этот элемент является обязательным для [операции CreateAttachment](createattachment-operation.md).  <br/> |
+|[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, которые необходимо присоединить к элементу в хранилище Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент вложения не существует как элемент хранилища. Он существует только как вложения в элемент или другой вложения. Элемент вложения можно получить только с помощью запроса [GetAttachment](getattachment.md) . 
+Вложение элемента не существует как элемент хранилища. Он существует только в виде вложения в элемент или другое вложение. Вложения элементов можно получить только с помощью запроса [GetAttachment](getattachment.md) . 
   
-Можно создать следующие вложений элемента:
+Можно создавать следующие вложения элементов:
   
-- Элемент
+- Item
     
-- Message
+- Сообщение
     
-- Элемента календаря, имеющего
+- календаритем
     
 - Контакт
     
 - Задача
     
-- MeetingMessage
+- митингмессаже
     
-- MeetingRequest
+- Свойство meetingrequest
     
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
 ## <a name="example"></a>Пример
 
-Следующем примере показано, как создавать и присоединение элемент в другой элемент в хранилище Exchange.
+В приведенном ниже примере показано, как создать элемент и прикрепить его к другому элементу в хранилище Exchange.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,7 +107,7 @@ ms.locfileid: "19761857"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

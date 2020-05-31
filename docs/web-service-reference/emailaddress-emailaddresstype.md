@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0cdabfcb-7658-4c7d-bb03-1e776ed11e43
-description: Элемент EmailAddress указывает полностью разрешенной SMTP-адрес для почтового ящика сайта или связанного пользователя.
+description: Элемент EmailAddress указывает полностью разрешенный SMTP-адрес почтового ящика сайта или связанного пользователя.
 ms.openlocfilehash: c31a37fc0dbdcc2b501b82346a17a0a3b4775556
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19762274"
 ---
 # <a name="emailaddress-emailaddresstype"></a>EmailAddress (EmailAddressType)
 
-Элемент **EmailAddress** указывает полностью разрешенной SMTP-адрес для почтового ящика сайта или связанного пользователя. 
+Элемент **EmailAddress** указывает полностью РАЗРЕШЕННЫЙ SMTP-адрес почтового ящика сайта или связанного пользователя. 
   
 ```xml
 <EmailAddress>
@@ -32,7 +32,7 @@ ms.locfileid: "19762274"
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,27 +42,27 @@ ms.locfileid: "19762274"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (строка)](name-string.md) <br/> |Указывает имя уточнения поиска или ключ или имя электронной почты пользователя.  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Определяет основной SMTP-адрес пользователя почтового ящика.  <br/> |
-|[RoutingType (EmailAddressType)](routingtype-emailaddresstype.md) <br/> |Указывает тип маршрутизации адресом электронной почты.  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |Представляет тип почтового ящика, который соответствует адресу электронной почты.  <br/> |
-|[Идентификатор элемента](itemid.md) <br/> |Содержит уникальный идентификатор и меняет ключ элемента в хранилище Exchange.  <br/> |
+|[Имя (строка)](name-string.md) <br/> |Задает имя или ключ уточнения поиска или имя пользователя электронной почты.  <br/> |
+|[EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md) <br/> |Определяет основной SMTP-адрес пользователя почтового ящика.  <br/> |
+|[Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md) <br/> |Указывает тип маршрутизации адреса электронной почты.  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |Представляет тип почтового ящика, представленного адресом электронной почты.  <br/> |
+|[Идентификатор](itemid.md) <br/> |Содержит уникальный идентификатор и ключ изменения элемента в хранилище Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент является необязательным.
   
-Элемент **EmailAddress** используется для клиентов, относящихся к Exchange Online и версий Microsoft Exchange Server, начиная с Exchange 2013. 
+Элемент **EmailAddress** применяется для клиентов, которые ориентированы на Exchange Online и версии Microsoft Exchange Server, начиная с Exchange 2013. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -70,7 +70,7 @@ ms.locfileid: "19762274"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

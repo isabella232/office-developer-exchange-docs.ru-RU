@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: b42fb512-2ae4-4072-906a-ccebb85edb84
-description: Операция DisconnectPhoneCall завершение работы телефонный звонок.
+description: Операция DisconnectPhoneCall завершает телефонный звонок.
 ms.openlocfilehash: 4bd68dd40f831794072263b487255330ea31d7bf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19762139"
 ---
 # <a name="disconnectphonecall-operation"></a>Операция DisconnectPhoneCall
 
-Операция **DisconnectPhoneCall** завершение работы телефонный звонок. 
+Операция **DisconnectPhoneCall** завершает телефонный звонок. 
   
 ## <a name="disconnectphonecall-request-example"></a>Пример запроса DisconnectPhoneCall
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **DisconnectPhoneCall** показано, как для формирования запроса для отключения телефонные звонки. 
+В приведенном ниже примере запроса **DisconnectPhoneCall** показано, как сформировать запрос на отключение телефонного вызова. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,13 +49,13 @@ ms.locfileid: "19762139"
 </soap:Envelope>
 ```
 
-## <a name="disconnectphonecall-response-example"></a>Пример ответа DisconnectPhoneCall
+## <a name="disconnectphonecall-response-example"></a>Пример отклика DisconnectPhoneCall
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **DisconnectPhoneCall** . 
+В следующем примере показан успешный ответ на запрос **DisconnectPhoneCall** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

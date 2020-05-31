@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a287b9c3-7fb6-4f2f-a8dc-15d4bc32394c
-description: Элемент FreeBusyAccessLevel представляет свойство FreeBusyAccessLevel. Элемент FreeBusyAccessLevel — только для внутреннего использования. Этот элемент не используется с клиентами.
+description: Элемент FreeBusyAccessLevel представляет свойство FreeBusyAccessLevel. Элемент FreeBusyAccessLevel предназначен только для внутреннего использования. Этот элемент не используется клиентами.
 ms.openlocfilehash: c978608982a2795af1683b4b2121435a02149935
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.locfileid: "19762656"
 ---
 # <a name="freebusyaccesslevel-soap"></a>FreeBusyAccessLevel (SOAP)
 
-Элемент **FreeBusyAccessLevel** представляет свойство **FreeBusyAccessLevel** . Элемент **FreeBusyAccessLevel** — только для внутреннего использования. Этот элемент не используется с клиентами. 
+Элемент **FreeBusyAccessLevel** представляет свойство **FreeBusyAccessLevel** . Элемент **FreeBusyAccessLevel** предназначен только для внутреннего использования. Этот элемент не используется клиентами. 
   
 ```XML
 <FreeBusyAccessLevel/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,24 +39,24 @@ ms.locfileid: "19762656"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений организации для одной организации.  <br/> |
+|[Организатионрелатионшипсеттингс (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений Организации для одной организации.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент определяет максимальный объем сведений о доступности, возвращаемого в ответе и показывает уровень данных о доступности, внешне совместно. 
+Этот элемент определяет максимальное количество сведений о доступности, которые будут возвращены в ответе, и указывает уровень доступа к сведениям о занятости, доступ к которым осуществляется извне. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+[Операция Жеторганизатионрелатионшипсеттингс (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 32fa8946-3d5d-4123-8127-efc2ac369553
-description: Элемент CreationTime указывает время создания пользователя.
+description: Элемент CreationTime указывает, когда был создан персонаж.
 ms.openlocfilehash: 1ddf370d14c2e5ebc1d094abbe258b4da5b6a38a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,16 +17,16 @@ ms.locfileid: "19761930"
 ---
 # <a name="creationtime"></a>CreationTime
 
-Элемент **CreationTime** указывает время создания пользователя. 
+Элемент **CreationTime** указывает, когда был создан персонаж. 
   
 ```XML
 <CreationTime></CreationTime>
 ```
 
- **даты и времени**
+ **datetime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19761930"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Пользователь](persona.md)
+[Роль](persona.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
 Текстовое значение элемента **CreationTime** — это дата и время создания пользователя. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19761930"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

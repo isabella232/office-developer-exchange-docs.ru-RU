@@ -1,11 +1,11 @@
 ---
-title: Ответ на сообщения электронной почты с помощью веб-служб Exchange в Exchange
+title: Ответ на сообщения электронной почты с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9d584991-4d67-4d36-ae2f-99970af8488f
-description: Узнайте, как отвечать на сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как реагировать на сообщения электронной почты с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: 2f1428251084a7f2bf8d589a788c143f34b64d5c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,27 +13,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761110"
 ---
-# <a name="respond-to-email-messages-by-using-ews-in-exchange"></a>Ответ на сообщения электронной почты с помощью веб-служб Exchange в Exchange
+# <a name="respond-to-email-messages-by-using-ews-in-exchange"></a>Ответ на сообщения электронной почты с помощью EWS в Exchange
 
-Узнайте, как отвечать на сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как реагировать на сообщения электронной почты с помощью управляемого API EWS или EWS в Exchange.
   
-Чтобы ответить на сообщения, отвечая на них или пересылать их получателей можно использовать управляемый API EWS или веб-служб Exchange.
+Вы можете использовать управляемый API EWS или EWS для реагирования на сообщения, отвечая на них или пересылая их получателям.
   
-**В таблице 1. Управляемый API EWS методы и операции EWS для ответа на сообщения электронной почты**
+**Таблица 1. Методы управляемого API EWS и операции EWS для реагирования на сообщения электронной почты**
 
-|**Задача**|**Метод управляемого API EWS**|**Операция служб EWS**|
+|**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Ответ на сообщение электронной почты  <br/> |[EmailMessage.Reply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) <br/> [EmailMessage.CreateReply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createreply%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx), где элемент [элементов](http://msdn.microsoft.com/library/d61ef1cc-ddfc-480a-9625-7b436cb33ae0%28Office.15%29.aspx) имеет дочерний элемент [ReplyToItem](http://msdn.microsoft.com/library/35ee751a-41c0-4216-ad8b-78f7ada43a2f%28Office.15%29.aspx) или [ReplyAllToItem](http://msdn.microsoft.com/library/8ca970ca-ca73-40db-9233-7b271cc5f44f%28Office.15%29.aspx).  <br/> |
-|Пересылать сообщения электронной почты  <br/> |[EmailMessage.Forward](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.forward%28v=exchg.80%29.aspx) <br/> [EmailMessage.CreateForward](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createforward%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx), где элемент [элементов](http://msdn.microsoft.com/library/d61ef1cc-ddfc-480a-9625-7b436cb33ae0%28Office.15%29.aspx) имеет дочерний элемент [ForwardItem](http://msdn.microsoft.com/library/97786086-8b91-4471-8af8-d21e8d66de87%28Office.15%29.aspx).  <br/> |
+|Ответ на сообщение электронной почты  <br/> |[EmailMessage. Reply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) <br/> [EmailMessage. У методов createreply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createreply%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx), где элемент [Items](http://msdn.microsoft.com/library/d61ef1cc-ddfc-480a-9625-7b436cb33ae0%28Office.15%29.aspx) имеет дочерний элемент либо объекта [реплитоитем](http://msdn.microsoft.com/library/35ee751a-41c0-4216-ad8b-78f7ada43a2f%28Office.15%29.aspx) , либо [репляллтоитем](http://msdn.microsoft.com/library/8ca970ca-ca73-40db-9233-7b271cc5f44f%28Office.15%29.aspx).  <br/> |
+|Пересылка сообщения электронной почты  <br/> |[EmailMessage. Forward](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.forward%28v=exchg.80%29.aspx) <br/> [EmailMessage. CreateForward](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createforward%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx), где элемент [Items](http://msdn.microsoft.com/library/d61ef1cc-ddfc-480a-9625-7b436cb33ae0%28Office.15%29.aspx) имеет дочерний элемент [форвардитем](http://msdn.microsoft.com/library/97786086-8b91-4471-8af8-d21e8d66de87%28Office.15%29.aspx).  <br/> |
    
-## <a name="reply-to-an-email-message-by-using-the-ews-managed-api"></a>Ответ на сообщение электронной почты с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="reply-to-an-email-message-by-using-the-ews-managed-api"></a>Ответ на сообщение электронной почты с помощью управляемого API EWS
 <a name="bk_replyewsma"> </a>
 
-Управляемый API веб-служб Exchange предоставляет два метода, которые можно использовать для ответа на сообщения: [ответ](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) и [CreateReply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createreply%28v=exchg.80%29.aspx). Метод **ответа** только используются два входных параметра: ответное сообщение в начале существующий текст и **логическое** значение, указывающее, является ли ответ должен приходить для всех получателей (true) или просто отправителя (false). Если требуется добавить дополнительных получателей на сообщение задавать дополнительные свойства в ответ, или добавить вложение, используйте метод **CreateReply** , который позволяет задать все [первого класса свойства](email-properties-and-elements-in-ews-in-exchange.md) , доступные на [EmailMessage ](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx)объект. 
+Управляемый API EWS предоставляет два метода, которые можно использовать для реагирования на сообщения: [Reply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) и [у методов createreply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createreply%28v=exchg.80%29.aspx). Метод **Reply** принимает только два параметра: ответное сообщение, которое добавляется в начало существующего основного текста, и **логическое** значение, которое указывает, должен ли ответ идти на всех получателей (true) или просто отправителю (false). Если необходимо добавить в сообщение дополнительных получателей, задать дополнительные свойства ответа или добавить вложение, используйте метод **у методов createreply** , который позволяет задать все [свойства первого класса](email-properties-and-elements-in-ews-in-exchange.md) , доступные в объекте [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) . 
   
-В следующем примере кода показано, как использовать метод **ответ** в ответ на сообщение электронной почты. 
+В приведенном ниже примере кода показано, как использовать метод **Reply** для ответа на сообщение электронной почты. 
   
-В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. Локальной переменной *ItemId* — это [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) элемента реагировать на. В примере вызывается [метод FindRecentlySent](#bk_findlast) , чтобы убедиться, что сообщение помечено как ответ. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. Локальная переменная *ItemId* — это [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) элемента, на который необходимо ответить. В этом примере вызывается [метод финдрецентлисент](#bk_findlast) для проверки того, что сообщение помечено как отвечено. 
   
 ```cs
 // As a best practice, limit the properties returned by the Bind method to only those that are required.
@@ -50,7 +50,7 @@ message.Reply(myReply, replyToAll);
 FindRecentlySent(message);
 ```
 
-В следующем примере кода показано, как использовать метод **CreateReply** отвечать на сообщения электронной почты. 
+В приведенном ниже примере кода показано, как использовать метод **у методов createreply** для ответа на сообщение электронной почты. 
   
 ```cs
 // Bind to the email message to reply to by using the ItemId.
@@ -70,7 +70,7 @@ responseMessage.SendAndSaveCopy();
 FindRecentlySent(message);
 ```
 
-Если необходимо добавить вложения в сообщении ответа, замените вызов метода **SendAndSaveCopy** следующий код. 
+Если необходимо добавить вложение в ответное сообщение, замените вызов метода **SendAndSaveCopy** на следующий код. 
   
 ```cs
 EmailMessage reply = responseMessage.Save();
@@ -79,12 +79,12 @@ reply.Update(ConflictResolutionMode.AutoResolve);
 reply.SendAndSaveCopy();
 ```
 
-## <a name="reply-to-an-email-message-by-using-ews"></a>Ответ на сообщение электронной почты с помощью веб-служб Exchange
+## <a name="reply-to-an-email-message-by-using-ews"></a>Ответ на сообщение электронной почты с помощью EWS
 <a name="bk_replyews"> </a>
 
-В следующем примере кода показано, как отвечать на сообщения с помощью веб-служб Exchange. С помощью операции [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) с атрибутом **MessageDisposition** , равным **SendAndSaveCopy** отправлять сообщения и сохранения ответа в папке «Отправленные». Включить элемент [ReplyAllToItem](http://msdn.microsoft.com/library/8ca970ca-ca73-40db-9233-7b271cc5f44f%28Office.15%29.aspx) в качестве дочерних [элементов](http://msdn.microsoft.com/library/d61ef1cc-ddfc-480a-9625-7b436cb33ae0%28Office.15%29.aspx) элемента ответить всем на сообщение потока или включить элемент [ReplyToItem](http://msdn.microsoft.com/library/35ee751a-41c0-4216-ad8b-78f7ada43a2f%28Office.15%29.aspx) отвечать только для отправителя. 
+В приведенном ниже примере кода показано, как ответить на сообщение с помощью EWS. Используйте операцию [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) с атрибутом **мессажедиспоситион** , равным **SendAndSaveCopy** , чтобы отправить сообщение и сохранить ответ в папке "Отправленные". Включите либо элемент [репляллтоитем](http://msdn.microsoft.com/library/8ca970ca-ca73-40db-9233-7b271cc5f44f%28Office.15%29.aspx) в качестве дочернего элемента элемента [Items](http://msdn.microsoft.com/library/d61ef1cc-ddfc-480a-9625-7b436cb33ae0%28Office.15%29.aspx) , чтобы ответить всем в цепочке сообщений, или включите элемент [реплитоитем](http://msdn.microsoft.com/library/35ee751a-41c0-4216-ad8b-78f7ada43a2f%28Office.15%29.aspx) , чтобы ответить только отправителю. 
   
-Это также XML-запрос, который отправляет управляемый API EWS при вызове [ответ](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) или метод [CreateReply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createreply%28v=exchg.80%29.aspx) . 
+Это также запрос XML, который управляемый API EWS отправляет при вызове метода [у методов createreply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createreply%28v=exchg.80%29.aspx) или [Reply](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -109,18 +109,18 @@ reply.SendAndSaveCopy();
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **CreateItem** [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) сообщение, которое содержит значение элемента [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, это означает, что ответ был создан и отправлен успешно.
+Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает на то, что ответ был создан и успешно отправлен.
   
-Если необходимо добавить вложения в ответное сообщение вызова операции **CreateItem** , как указано выше, но измените **MessageDisposition** на **SaveOnly**. Затем вызовите операцию [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) , а затем операции [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
+Если необходимо добавить вложение в ответное сообщение, вызовите операцию **CreateItem** , как указано выше, но измените значение параметра **мессажедиспоситион** на **савеонли**. Затем вызовите операцию [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) , а затем операцию [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
   
-## <a name="forward-an-email-message-by-using-the-ews-managed-api"></a>Пересылать сообщения электронной почты с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="forward-an-email-message-by-using-the-ews-managed-api"></a>Пересылка сообщения электронной почты с помощью управляемого API EWS
 <a name="bk_forwardewsma"> </a>
 
-Управляемый API веб-служб Exchange предоставляет два метода, которые можно использовать для пересылки сообщений: [вперед](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.forward%28v=exchg.80%29.aspx) и [CreateForward](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createforward%28v=exchg.80%29.aspx). Метод **переадресовывать** только используются два входных параметра: сообщение, чтобы в начале существующий текст и массив или коллекцию получателей, в зависимости от того, используется перегруженный метод. Если необходимо добавить вложения в сообщение в случае переадресации или задавать дополнительные свойства для нового сообщения, используйте метод **CreateForward** , который позволяет задать все свойства, доступные в объект [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) . 
+Управляемый API EWS предоставляет два метода, которые можно использовать для пересылки сообщений: [Forward](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.forward%28v=exchg.80%29.aspx) и [CreateForward](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createforward%28v=exchg.80%29.aspx). Метод **Forward** принимает только два параметра: сообщение, которое добавляется в конец существующего текста, а также массив или коллекцию получателей в зависимости от перегруженной версии, которую вы хотите использовать. Если необходимо добавить вложение в сообщение, которое вы пересылаете, или задать дополнительные свойства нового сообщения, используйте метод **CreateForward** , который позволяет задать все свойства, доступные в объекте [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) . 
   
-В следующем примере кода показано, как использовать метод **переадресовывать** пересылать сообщения электронной почты для одного получателя. 
+В приведенном ниже примере кода показано, как использовать метод **Forward** для пересылки сообщения электронной почты одному получателю. 
   
-В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. Локальной переменной *ItemId* — это [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) элемента для пересылки. В примере вызывается [метод FindRecentlySent](#bk_findlast) , убедитесь, что сообщение помечено как пересылку. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. Локальная переменная *ItemId* — это [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) перенаправляемого элемента. В этом примере вызывается [метод финдрецентлисент](#bk_findlast) для проверки того, что сообщение было помечено как переадресованное. 
   
 ```cs
 // Bind to the email message to reply to by using the ItemId.
@@ -134,7 +134,7 @@ message.Forward(myForward, "sadie@contoso.com");
 FindRecentlySent(message);
 ```
 
-В следующем примере кода показано, как использовать метод **CreateForward** пересылать сообщения электронной почты для одного получателя. 
+В приведенном ниже примере кода показано, как использовать метод **CreateForward** для пересылки сообщения электронной почты одному получателю. 
   
 ```cs
 // Bind to the email message to reply to by using the ItemId.
@@ -152,7 +152,7 @@ forwardMessage.SendAndSaveCopy();
 FindRecentlySent(message);
 ```
 
-Если требуется добавить вложение в переадресованных сообщений, замените вызов метода **SendAndSaveCopy** следующий код. 
+Если необходимо добавить вложение в переадресованное сообщение, замените вызов метода **SendAndSaveCopy** на следующий код. 
   
 ```cs
 EmailMessage forward = forwardMessage.Save();
@@ -161,12 +161,12 @@ forward.Update(ConflictResolutionMode.AutoResolve);
 forward.SendAndSaveCopy();
 ```
 
-## <a name="forward-an-email-message-by-using-ews"></a>Пересылать сообщения электронной почты с помощью веб-служб Exchange
+## <a name="forward-an-email-message-by-using-ews"></a>Пересылка сообщения электронной почты с помощью EWS
 <a name="bk_forwardews"> </a>
 
-В следующем примере кода показано, как пересылать сообщение с помощью веб-служб Exchange. С помощью операции [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) с атрибутом **MessageDisposition** , равным **SendAndSaveCopy** отправлять сообщения и сохранения ответа в папке «Отправленные». Элемент [ForwardItem](http://msdn.microsoft.com/library/97786086-8b91-4471-8af8-d21e8d66de87%28Office.15%29.aspx) указывает, что элемент переадресованных сообщений. 
+В приведенном ниже примере кода показано, как переадресовать сообщение с помощью EWS. Используйте операцию [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) с атрибутом **мессажедиспоситион** , равным **SendAndSaveCopy** , чтобы отправить сообщение и сохранить ответ в папке "Отправленные". Элемент [форвардитем](http://msdn.microsoft.com/library/97786086-8b91-4471-8af8-d21e8d66de87%28Office.15%29.aspx) указывает на то, что элемент является переадресованным сообщением. 
   
-Это также XML-запрос, который отправляет управляемый API EWS при вызове [вперед](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.forward%28v=exchg.80%29.aspx) или метод [CreateForward](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createforward%28v=exchg.80%29.aspx) . 
+Это также запрос XML, который управляемый API EWS отправляет при вызове метода [пересылки](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.forward%28v=exchg.80%29.aspx) или [CreateForward](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.createforward%28v=exchg.80%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -196,16 +196,16 @@ forward.SendAndSaveCopy();
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **CreateItem** [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) сообщение, которое содержит значение элемента [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, это означает, что переадресованных сообщений был создан и отправлен успешно.
+Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает на то, что переадресованное сообщение было создано и успешно отправлено.
   
-Если необходимо добавить вложения в ответное сообщение вызова операции **CreateItem** , но измените **MessageDisposition** на **SaveOnly**. Затем вызовите операцию [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) , а затем операции [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
+Если необходимо добавить вложение в ответное сообщение, вызовите операцию **CreateItem** , но измените значение **мессажедиспоситион** на **савеонли**. Затем вызовите операцию [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) , а затем операцию [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
   
-## <a name="find-the-message-last-replied-to-or-forwarded-by-using-the-ews-managed-api"></a>Найдите сообщение последнего или задачи с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="find-the-message-last-replied-to-or-forwarded-by-using-the-ews-managed-api"></a>Поиск сообщения, отправленного или переадресованного последним с помощью управляемого API EWS
 <a name="bk_findlast"> </a>
 
-В следующем примере кода показано, как найти последнего выполнения команды и время последнего глаголов выполнен на указанный элемент. Этот метод вызывается из других примеров кода, управляемый API EWS в этом разделе, чтобы подтвердить, что элементы вы или задачи были помечается как ответ или перенаправлять в папку "Входящие". 
+В приведенном ниже примере кода показано, как найти последнюю выполненную команду и время выполнения последней команды в указанном элементе. Этот метод вызывается из других примеров кода управляемого API EWS в этом разделе, чтобы убедиться в том, что элементы, которые вы ответили или переслали, были помечены как отвеченные или переадресованы в папку "Входящие". 
   
-В примере используется свойство [PidTagLastVerbExecuted](http://msdn.microsoft.com/en-us/library/cc841968.aspx) (0x10820003) расширенные для определения необходимости сообщение было ответ, ответить всем или прямого и [PidTagLastVerbExecutionTime](http://msdn.microsoft.com/en-us/library/cc839918.aspx) (0x10820040) расширенные свойства, чтобы определить, когда ответить или переслать было отправлено. 
+В этом примере используется расширенное свойство [PidTagLastVerbExecuted](http://msdn.microsoft.com/en-us/library/cc841968.aspx) (0x10820003), чтобы определить, является ли сообщение ответом, ответом "ответить всем" или "вперед", и расширенным свойством [PidTagLastVerbExecutionTime](http://msdn.microsoft.com/en-us/library/cc839918.aspx) (0x10820040), которое определяет время отправки ответа или пересылки. 
   
 ```cs
 public static void FindRecentlySent(EmailMessage messageToCheck)
@@ -246,6 +246,6 @@ public static void FindRecentlySent(EmailMessage messageToCheck)
 
 - [Электронная почта и веб-службах Exchange](email-and-ews-in-exchange.md)
     
-- [Отправлять сообщения электронной почты с помощью веб-служб Exchange в Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
+- [Отправка сообщений электронной почты с помощью EWS в Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
     
 

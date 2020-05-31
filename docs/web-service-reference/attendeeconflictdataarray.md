@@ -1,5 +1,5 @@
 ---
-title: AttendeeConflictDataArray
+title: аттендиконфликтдатааррай
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1d758547-28c5-4649-8334-427480c282d6
-description: Элемент AttendeeConflictDataArray содержит массив данных конфликта запрашиваемого участников, определенный в операция GetUserAvailability.
+description: Элемент Аттендиконфликтдатааррай содержит массив данных о конфликтах для запрашиваемых участников, идентифицированных в операции GetUserAvailability.
 ms.openlocfilehash: 169312b8a3d37c014ba58fbfe094d786b134fc90
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,23 +19,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761517"
 ---
-# <a name="attendeeconflictdataarray"></a>AttendeeConflictDataArray
+# <a name="attendeeconflictdataarray"></a>аттендиконфликтдатааррай
 
-Элемент **AttendeeConflictDataArray** содержит массив данных конфликта запрашиваемого участников, определенный в [операция GetUserAvailability](getuseravailability-operation.md).
+Элемент **аттендиконфликтдатааррай** содержит массив данных о конфликтах для запрашиваемых участников, идентифицированных в [операции GetUserAvailability](getuseravailability-operation.md).
   
-- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-- [SuggestionsResponse](suggestionsresponse.md)
+- [сугжестионсреспонсе](suggestionsresponse.md)
   
-- [SuggestionDayResultArray](suggestiondayresultarray.md)
+- [сугжестиондайресултаррай](suggestiondayresultarray.md)
   
-- [SuggestionDayResult](suggestiondayresult.md)
+- [сугжестиондайресулт](suggestiondayresult.md)
   
-- [SuggestionArray](suggestionarray.md)
+- [сугжестионаррай](suggestionarray.md)
   
-- [Предложения](suggestion.md)
+- [Предложение](suggestion.md)
   
-- [AttendeeConflictDataArray](attendeeconflictdataarray.md)
+- [аттендиконфликтдатааррай](attendeeconflictdataarray.md)
   
 ```xml
 <ArrayOfAttendeeConflictData>
@@ -46,10 +46,10 @@ ms.locfileid: "19761517"
 </ArrayOfAttendeeConflictData>
 ```
 
- **ArrayOfAttendeeConflictData**
+ **аррайофаттендиконфликтдата**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -59,20 +59,20 @@ ms.locfileid: "19761517"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UnknownAttendeeConflictData](unknownattendeeconflictdata.md) <br/> |Представляет неразрешимые участника или участника, который не является пользователем, список рассылки или контактов.  <br/> |
-|[IndividualAttendeeConflictData](individualattendeeconflictdata.md) <br/> |Содержит пользователя или контакта состояния занятости для временной интервал, что происходит в то же время согласно предложениям время, обнаруженных в элементе [предложение](suggestion.md) собрания.  <br/> |
-|[TooBigGroupAttendeeConflictData](toobiggroupattendeeconflictdata.md) <br/> |Представляет участника, которая разрешается в качестве список рассылки, который был слишком велик для разверните узел.  <br/> |
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Содержит конфликта статистические сведения об число доступных пользователей, число пользователей, имеющих конфликтов и количество пользователей, у которых нет сведений о доступности в списке рассылки для предложенного собрания.  <br/> |
+|[ункновнаттендиконфликтдата](unknownattendeeconflictdata.md) <br/> |Представляет неразрешимого участника или участника, который не является пользователем, списком рассылки или контактом.  <br/> |
+|[индивидуалаттендиконфликтдата](individualattendeeconflictdata.md) <br/> |Содержит сведения о занятости пользователя или контакта для временного периода, выполняемого одновременно с указанным в элементе [предложение](suggestion.md) временем собрания.  <br/> |
+|[тубигграупаттендиконфликтдата](toobiggroupattendeeconflictdata.md) <br/> |Представляет участника, которое разрешалось как список рассылки, который был слишком большим для расширения.  <br/> |
+|[граупаттендиконфликтдата](groupattendeeconflictdata.md) <br/> |Содержит статистические сведения о количестве доступных пользователей, количестве пользователей с конфликтами и количестве пользователей, не имеющих сведений о доступности, в списке рассылки для предполагаемого времени проведения собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Предложения](suggestion.md) <br/> |Представляет один предложения о времени на собрания.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[Предложение](suggestion.md) <br/> |Представляет один вариант времени собрания.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Положение каждого элемента в **AttendeeConflictDataArray** соответствует положение запрошенного участников в элементе [MailboxDataArray](mailboxdataarray.md) . Каждого запроса участника должен соответствовать одному из **AttendeeConflictDataArray** дочерние элементы. Эти элементы представляют отдельного конфликта с временем предложенного собрания, обнаруженных в элементе [предложения](suggestion.md) . 
+Положение каждого элемента в **аттендиконфликтдатааррай** соответствует положению запрашиваемых участников в элементе [маилбоксдатааррай](mailboxdataarray.md) . Каждый запрашиваемый Участник должен соответствовать одному из дочерних элементов **аттендиконфликтдатааррай** . Эти элементы представляют один конфликт с предложенным временем собрания, указанным в элементе " [предложение](suggestion.md) ". 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -82,12 +82,12 @@ ms.locfileid: "19761517"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md) 
-- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 - [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

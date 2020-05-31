@@ -1,5 +1,5 @@
 ---
-title: DomainStringSetting (SOAP)
+title: Домаинстрингсеттинг (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 268805b5-baf7-4826-b92e-cb9f9f5792ea
-description: Элемент DomainStringSetting — Настройка домена, значение которого равно типа String.
+description: Элемент Домаинстрингсеттинг представляет параметр домена со значением типа String.
 ms.openlocfilehash: 860a2d60f55c22e0404be5f0dd0d1fec41fe48f2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762217"
 ---
-# <a name="domainstringsetting-soap"></a>DomainStringSetting (SOAP)
+# <a name="domainstringsetting-soap"></a>Домаинстрингсеттинг (SOAP)
 
-Элемент **DomainStringSetting** — Настройка домена, значение которого равно типа String. 
+Элемент **домаинстрингсеттинг** представляет параметр домена со значением типа String. 
   
 ```XML
 <DomainStringSetting>
@@ -27,10 +27,10 @@ ms.locfileid: "19762217"
 </DomainStringSetting>
 ```
 
- **DomainStringSetting**
+ **домаинстрингсеттинг**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -56,11 +56,11 @@ ms.locfileid: "19762217"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+- [Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
 

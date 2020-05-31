@@ -1,5 +1,5 @@
 ---
-title: BodyContentAttributedValue
+title: бодиконтентаттрибутедвалуе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f99e9590-8388-4203-ac30-1ea394f351a6
-description: Элемент BodyContentAttributedValue указывает тела элемента.
+description: Элемент Бодиконтентаттрибутедвалуе указывает содержимое тела элемента.
 ms.openlocfilehash: f5b8f0a19b77ce550b1d7f1c415cc8ee4340863a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761598"
 ---
-# <a name="bodycontentattributedvalue"></a>BodyContentAttributedValue
+# <a name="bodycontentattributedvalue"></a>бодиконтентаттрибутедвалуе
 
-Элемент **BodyContentAttributedValue** указывает тела элемента. 
+Элемент **бодиконтентаттрибутедвалуе** указывает содержимое тела элемента. 
   
 ```XML
 <BodyContentAttributedValue>
@@ -26,10 +26,10 @@ ms.locfileid: "19761598"
 </ BodyContentAttributedValue>
 ```
 
- **BodyContentAttributedValueType**
+ **бодиконтентаттрибутедвалуетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,16 +39,16 @@ ms.locfileid: "19761598"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Значение (BodyContentType)](value-bodycontenttype.md) <br/> |Указывает значение элемента **BodyContentAttributedValue** .  <br/> |
-|[Атрибуты (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Указывает массив сведений атрибуты для одного или нескольких контактов или объединить в связанного пользователя active directory получателей.  <br/> |
+|[Значение (Бодиконтенттипе)](value-bodycontenttype.md) <br/> |Задает значение элемента **бодиконтентаттрибутедвалуе** .  <br/> |
+|[Атрибуты (Аррайофперсонааттрибутионстипе)](attributions-arrayofpersonaattributionstype.md) <br/> |Задает массив сведений о сопоставлении для одного или нескольких контактов или получателей Active Directory, собранных в сопоставленный с ним пользователь.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Текст сообщений](bodies.md) <br/> |Указывает массив элементов **BodyContentAttributedValue** .  <br/> |
+|[Тексты](bodies.md) <br/> |Указывает массив элементов **бодиконтентаттрибутедвалуе** .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19761598"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

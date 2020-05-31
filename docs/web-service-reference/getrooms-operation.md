@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5501ddc0-3bfa-4da6-8e15-4223ca5499a3
-description: Операция GetRooms получает комнат в список помещений указанного.
+description: Операция "высвободить" получает комнаты в указанном списке помещений.
 ms.openlocfilehash: 3718c476881ae8aa538646464e7c61845d849562
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,26 +21,26 @@ ms.locfileid: "19762908"
 ---
 # <a name="getrooms-operation"></a>Операция GetRooms
 
-Операция **GetRooms** получает комнат в список помещений указанного. 
+Операция " **высвободить** " получает комнаты в указанном списке помещений. 
   
 ## <a name="soap-headers"></a>Заголовки SOAP
 
-Операция **GetRooms** можно использовать заголовки SOAP, которые перечислены и описаны в следующей таблице. 
+Операция " **высвободить** " может использовать заголовки SOAP, приведенные в следующей таблице и описанные в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|Олицетворение  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении.  <br/> |
-|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Идентифицирует культуры RFC3066, которые будут использоваться для доступа к почтовому ящику.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса.  <br/> |
-|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос.  <br/> |
+|Олицетворение  <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение.  <br/> |
+|маилбокскултуре  <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры RFC3066, которые будут использоваться для доступа к почтовому ящику.  <br/> |
+|рекуестверсион  <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции.  <br/> |
+|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
    
-## <a name="getrooms-request-example"></a>Пример запроса GetRooms
+## <a name="getrooms-request-example"></a>Пример запроса на получение помещений
 
 ### <a name="description"></a>Описание
 
-Ниже приведен пример **GetRooms** запрос, который получает комнат, связанных с почтового ящика помещения. 
+Ниже приведен **Пример запроса на получение комнат,** которые связаны со списком помещений. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -61,25 +61,25 @@ ms.locfileid: "19762908"
 
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
-- [RequestServerVersion](requestserverversion.md)
+- [рекуестсерверверсион](requestserverversion.md)
     
 - [GetRooms](getrooms.md)
     
 - [RoomList](roomlist.md)
     
-- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
     
-## <a name="successful-getrooms-response-example"></a>Пример успешного ответа GetRooms
+## <a name="successful-getrooms-response-example"></a>Пример ответа на успешные помещения
 
 ### <a name="description"></a>Описание
 
-Приведенный ниже ответ показывает информации адреса электронной почты для комнат, связанных с список помещений.
+В следующем ответе показаны сведения об адресе электронной почты для комнат, связанных с списком помещений.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -113,35 +113,35 @@ ms.locfileid: "19762908"
 </s:Envelope>
 ```
 
-### <a name="successful-getrooms-response-elements"></a>Элементы ответов успешно GetRooms
+### <a name="successful-getrooms-response-elements"></a>Элементы ответа на успешные помещения
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetRoomsResponse](getroomsresponse.md)
+- [жетрумсреспонсе](getroomsresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Комнат](rooms.md)
+- [Комната](rooms.md)
     
-- [Комнаты](room.md)
+- [Комната](room.md)
     
 - [Имя (EmailAddress)](name-emailaddress.md)
     
-- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
     
-- [RoutingType (EmailAddress)](routingtype-emailaddress.md)
+- [Раутингтипе (EmailAddress)](routingtype-emailaddress.md)
     
 - [MailboxType](mailboxtype.md)
     
-## <a name="getrooms-error-response-example"></a>Пример ответа об ошибке GetRooms
+## <a name="getrooms-error-response-example"></a>Пример ответа на сообщение об ошибке при возникновении ошибок
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано возврату ошибки, возникающие при попытке получить сведения о комнаты для почтового ящика несуществующий помещения.
+В следующем примере показан ответ об ошибке, вызванный попыткой получения сведений о помещении для несуществующего списка помещений.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -159,19 +159,19 @@ ms.locfileid: "19762908"
 </s:Envelope>
 ```
 
-### <a name="getrooms-error-response-elements"></a>Ошибка GetRooms элементы ответа
+### <a name="getrooms-error-response-elements"></a>Элементы ответа с ошибками во всех местах
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetRoomsResponse](getroomsresponse.md)
+- [жетрумсреспонсе](getroomsresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: ChangeCount
+title: чанжекаунт
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5fb048ca-08c2-4f85-a5f6-46a0d11f1818
-description: Элемент ChangeCount указывает версию задачи.
+description: Элемент Чанжекаунт указывает версию задачи.
 ms.openlocfilehash: 906a5844c2575ae854b87277d51adfc140c2fbb2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761674"
 ---
-# <a name="changecount"></a>ChangeCount
+# <a name="changecount"></a>чанжекаунт
 
-Элемент **ChangeCount** указывает версию задачи. 
+Элемент **чанжекаунт** указывает версию задачи. 
   
 ```xml
 <ChangeCount/>
@@ -30,7 +30,7 @@ ms.locfileid: "19761674"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -46,7 +46,7 @@ ms.locfileid: "19761674"
 |:-----|:-----|
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -56,7 +56,7 @@ ms.locfileid: "19761674"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

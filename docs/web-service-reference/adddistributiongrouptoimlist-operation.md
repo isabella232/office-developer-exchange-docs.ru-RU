@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5aa9bec8-71cf-4a6e-8ec8-b4965b40fd4a
-description: Найдите сведения о веб-служб Exchange AddDistributionGroupToImList операции.
+description: Поиск сведений о AddDistributionGroupToImListной операции EWS.
 ms.openlocfilehash: 7c562c317890a4cffb9e5844ea41c1096a8595b4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,30 +17,30 @@ ms.locfileid: "19761335"
 ---
 # <a name="adddistributiongrouptoimlist-operation"></a>Операция AddDistributionGroupToImList
 
-Найдите сведения о **AddDistributionGroupToImList** операции веб-служб Exchange. 
+Поиск сведений о **AddDistributionGroupToImListной** операции EWS. 
   
-Операции веб-служб Exchange (EWS) **AddDistributionGroupToImList** добавляет группу рассылки для обмена мгновенными сообщениями (IM) списка в единого хранилища контактов. 
+**AddDistributionGroupToImList** веб-служб Exchange (EWS) добавляет группу рассылки в список обмена мгновенными сообщениями в едином хранилище контактов. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-adddistributiongrouptoimlist-operation"></a>С помощью операции AddDistributionGroupToImList
+## <a name="using-the-adddistributiongrouptoimlist-operation"></a>Использование операции AddDistributionGroupToImList
 
-Операция **AddDistributionGroupToImList** принимает один аргумент, определяющий группу рассылки, чтобы добавить в список обмена мгновенными Сообщениями. Эта операция не создает группу рассылки; группа рассылки уже должны быть созданы. 
+Операция **AddDistributionGroupToImList** принимает один аргумент, определяющий группу рассылки, которую необходимо добавить в список мгновенных сообщений. Эта операция не создает группу рассылки; Группа рассылки уже должна быть создана. 
   
-Эту операцию можно использовать заголовки SOAP, которые перечислены в следующей таблице.
+Эта операция может использовать заголовки SOAP, указанные в приведенной ниже таблице.
   
-**В таблице 1. Заголовки SOAP AddDistributionGroupToImList операции**
+**Таблица 1. Заголовки SOAP операции AddDistributionGroupToImList**
 
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Это применимо к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, «Теги для идентификации языков», который будет использоваться для доступа к почтовому ящику. Это применимо к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Это применимо к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Это применимо для ответа.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Это относится к запросу.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Это относится к запросу.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Это относится к запросу.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Это относится к отклику.  <br/> |
    
-## <a name="adddistributiongrouptoimlist-operation-request-example"></a>Пример запроса AddDistributionGroupToImList операции
+## <a name="adddistributiongrouptoimlist-operation-request-example"></a>Пример запроса операции AddDistributionGroupToImList
 
-В следующем примере запрос операции **AddDistributionGroupToImList** показано, как добавить группу рассылки в список обмена мгновенными Сообщениями. 
+В следующем примере запроса операции **AddDistributionGroupToImList** показано, как добавить группу рассылки в список мгновенных сообщений. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -59,16 +59,16 @@ ms.locfileid: "19761335"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [AddDistributionGroupToImList](adddistributiongrouptoimlist.md)   
 - [SmtpAddress](smtpaddress.md)
     
-## <a name="successful-adddistributiongrouptoimlist-operation-response"></a>Успешные операции ответа AddDistributionGroupToImList
+## <a name="successful-adddistributiongrouptoimlist-operation-response"></a>Успешный отклик операции AddDistributionGroupToImList
 
-В следующем примере показано успешного ответа на запрос операции **AddDistributionGroupToImList** . 
+В следующем примере показан успешный ответ на запрос операции **AddDistributionGroupToImList** . 
   
-Успешного ответа содержит отображаемое имя группы рассылки, класс хранилища Exchange для веб-служб Exchange идентификатор новой группы рассылки и группы рассылки.
+Успешный ответ содержит отображаемое имя группы рассылки, класс хранилища Exchange для группы рассылки и идентификатор EWS новой группы рассылки.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -96,23 +96,23 @@ ms.locfileid: "19761335"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md)
+- [адддистрибутионграуптоимлистреспонсе](adddistributiongrouptoimlistresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [ImGroup](imgroup.md)
+- [Группа](imgroup.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
 - [GroupType](grouptype.md)
     
-- [ExchangeStoreId](exchangestoreid.md)
+- [ексчанжестореид](exchangestoreid.md)
     
-## <a name="adddistributiongrouptoimlist-operation-errorinvalidimdistributiongroupsmtpaddress-error-response"></a>Операция AddDistributionGroupToImList ErrorInvalidImDistributionGroupSmtpAddress ошибка ответа
+## <a name="adddistributiongrouptoimlist-operation-errorinvalidimdistributiongroupsmtpaddress-error-response"></a>Ответ об ошибке Ерроринвалидимдистрибутионграупсмтпаддресс операции AddDistributionGroupToImList
 
-В следующем примере показано ошибочный ответ на запрос операции **AddDistributionGroupToImList** . Приведенный ниже ответ ошибка возникает при попытке добавить группу рассылки, которая не существует в хранилище Exchange. 
+В следующем примере показан ответ об ошибке для запроса операции **AddDistributionGroupToImList** . При попытке добавить группу рассылки, которая не существует в хранилище Exchange, возникает следующий ответ об ошибке. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -140,13 +140,13 @@ ms.locfileid: "19761335"
 </s:Envelope>
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md)
+- [адддистрибутионграуптоимлистреспонсе](adddistributiongrouptoimlistresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 656d9b9a-8a65-4a75-8466-5b0d96512dab
-description: Элемент GroupId уникально идентифицирует группу.
+description: Элемент GroupId однозначно идентифицирует группу.
 ms.openlocfilehash: eaba176321c0dd872b71ef50cbaa298d1277bb79
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,23 +17,23 @@ ms.locfileid: "19833750"
 ---
 # <a name="groupid"></a>GroupId
 
-Элемент **GroupId** уникально идентифицирует группу. 
+Элемент **groupId** однозначно идентифицирует группу. 
   
 ```XML
 <GroupId Id="" ChangeKey=""/>
 ```
 
- **ItemIdType**
+ **итемидтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|Id  <br/> |Текстовое значение атрибута **Id** является идентификатор группы.  <br/> |
-|ChangeKey  <br/> |Текстовое значение атрибута **ChangeKey** — это ключ изменения группы.  <br/> |
+|Id  <br/> |Текстовое значение атрибута **ID** — идентификатор группы.  <br/> |
+|чанжекэй  <br/> |Текстовое значение атрибута **чанжекэй** — это ключ изменения группы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -41,9 +41,9 @@ ms.locfileid: "19833750"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[AddNewImContactToGroup](addnewimcontacttogroup.md) | [AddNewTelUriContactToGroup](addnewteluricontacttogroup.md) | [AddImContactToGroup](addimcontacttogroup.md) | [RemoveContactFromImList](removecontactfromimlist.md) | [RemoveImContactFromGroup](removeimcontactfromgroup.md) | [RemoveImGroup](removeimgroup.md)  |  [RemoveDistributionGroupFromImList](removedistributiongroupfromimlist.md) | [SetImGroup](setimgroup.md)
+[AddNewImContactToGroup](addnewimcontacttogroup.md) | [AddNewTelUriContactToGroup](addnewteluricontacttogroup.md) | [RemoveContactFromImList](removecontactfromimlist.md)[RemoveDistributionGroupFromImList](removedistributiongroupfromimlist.md)[AddImContactToGroup](addimcontacttogroup.md) | [RemoveImGroup](removeimgroup.md)[RemoveImContactFromGroup](removeimcontactfromgroup.md)[SetImGroup](setimgroup.md) AddImContactToGroup RemoveContactFromImList | RemoveImContactFromGroup | RemoveImGroup | RemoveDistributionGroupFromImList SetImGroup | 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19833750"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

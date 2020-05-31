@@ -1,11 +1,11 @@
 ---
-title: Удаление элементов с помощью веб-служб Exchange в Exchange
+title: Удаление элементов с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c81e3160-e12b-47e0-b3d6-4be28537f301
-description: Узнайте, как использовать управляемый API EWS или веб-службах Exchange для удаления элементов, либо при перемещении их в папку Удаленные или в корзину.
+description: Сведения о том, как можно использовать управляемый API EWS или EWS в Exchange для удаления элементов, перемещая их в папку "Удаленные" или в корзину.
 ms.openlocfilehash: a475ebc6677e5f5003cc790a2d4d2b83c513f309
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,122 +13,122 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19760962"
 ---
-# <a name="deleting-items-by-using-ews-in-exchange"></a>Удаление элементов с помощью веб-служб Exchange в Exchange
+# <a name="deleting-items-by-using-ews-in-exchange"></a>Удаление элементов с помощью EWS в Exchange
 
-Узнайте, как использовать управляемый API EWS или веб-службах Exchange для удаления элементов, либо при перемещении их в папку Удаленные или в корзину.
+Сведения о том, как можно использовать управляемый API EWS или EWS в Exchange для удаления элементов, перемещая их в папку "Удаленные" или в корзину.
   
-Вы когда-либо обратились самостоятельно является различие между перемещение элементов папки «Удаленные», а также сдвиг их в корзину? Может быть интересно различные варианты для обработки удаленных элементов и как реализовать эти параметры в приложении. Веб-служб Exchange (EWS) включает в себя три варианта для обработки удаленных элементов. В этой статье будет надеюсь снимите все путаницы, следует подумать о различиях между ними.
+Вы когда-нибудь запросили разницу между перемещением элементов в папку "Удаленные" и перемещением их в корзину? Возможно, вы хотите узнать о различных вариантах обработки удаленных элементов и о том, как реализовать эти параметры в приложении. Веб-службы Exchange (EWS) включают три варианта обработки удаленных элементов. В этой статье мы будем удалять все различия между ними.
   
-## <a name="deleting-items---what-are-my-options"></a>Удаление элементов - параметры?
+## <a name="deleting-items---what-are-my-options"></a>Удаление элементов: что такое "Мои параметры"?
 <a name="bk_DeletingItemsOptions"> </a>
 
-Прежде чем можно понять общий альбомная для удаления элементов, важно понять разницу между следующее:
+Прежде чем вы сможете понять общую ориентацию по удалению элементов, важно понять разницу между следующими особенностями.
   
-- Папки «Удаленные» — при удалении элементов в почтовом ящике, это куда они.
+- Папка "Удаленные" — при удалении элементов в почтовом ящике это место.
     
-- Корзина (также называемого папка элементов для восстановления) — при удалении элементов из почтового ящика, это куда они.
+- Корзина (как и папка "элементы с возможностью восстановления") — при удалении элементов из почтового ящика это место, где они находятся.
     
-Рисунки 1 и 2 показано, как выглядит процесс удаления элементов и папок в почтовом ящике. 
+На рисунках 1 и 2 показано, как выглядит процесс удаления для элементов и папок в почтовом ящике. 
 
-**На рисунке 1. Процесс удаления элементов из почтового ящика**
+**Рис. 1. Процесс удаления элементов из почтового ящика**
 
-![Иллюстрация, показывающая where элементов перейти, когда они будут удалены. Удаленные элементы перемещаются в папку «Удаленные» и перемещаются в папку элементов для восстановления в политику хранения, где они истечения срока действия и permantently удалены.](media/Ex_DeleteItems_Source.png)
+![Иллюстрация, на которой показано, куда попадают удаленные элементы. Удаленные элементы перемещаются в папку "Удаленные", а затем перемещаются в папку "элементы с возможностью восстановления" для каждой политики хранения, срок действия которых истечет и они пермантентли удаляются.](media/Ex_DeleteItems_Source.png)
 
 <br/>
 
-**На рисунке 2. Процесс удаления папки из почтового ящика**
+**Рис. 2. Процесс удаления папок из почтового ящика**
 
 ![Иллюстрация, на которой показан способ перемещения удаленных папок в папку "Удаленные", откуда их можно окончательно удалить из почтового ящика.](media/Ex_.png)
    
-Можно удалить элементов и папок тремя разными способами, в зависимости от того, как «постоянные», предоставляемых удаления быть.
+Вы можете удалять элементы и папки тремя различными способами, в зависимости от того, как "постоянное" нужно удалить.
   
-**Таблица 1: Параметры для удаления элементов с помощью веб-служб Exchange**
+**Таблица 1: параметры удаления элементов с помощью EWS**
 
-|**Возможные варианты**|**Что происходит**|
+|**Option**|**Что происходит**|
 |:-----|:-----|
-|Перемещение папки "Удаленные"  <br/> |Этот способ наименее постоянная удалять элементы.<br/><br/>Это как выравнивание часть документ в корзины с на рабочем месте. Можно легко отобразить его, если это необходимо.<br/><br/>Можно использовать любые [операции удаления](deleting-items-by-using-ews-in-exchange.md#bk_howdoIdeleteitems) , который реализует переход на параметр папку Deleted Items для выполнения этого действия.<br/><br/>Также можно использовать [операцию MoveFolder](http://msdn.microsoft.com/library/c7233966-6c87-4a14-8156-b1610760176d%28Office.15%29.aspx) ( [Folder.Move()](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.move%28v=exchg.80%29.aspx)) или [MoveItem операции](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) ( [Item.Move()](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx)) для перемещения элемента или папки для папки «Удаленные».  <br/> |
-|Обратимым удалением  <br/> |Перемещено в папку Удаленные элементы в корзине.<br/><br/>Это как очистите корзину в curbside контейнер. Можно получить доступ элемент, если требуется, это лишь немного сложнее.  <br/><br/>Дополнительные сведения о корзины (также называемая папки элементов для восстановления) и сценарии, такие как обнаружение электронных данных или судебного удержания, ознакомьтесь с разделом [Папки восстанавливаемых элементов](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx) на сайте TechNet.<br/><br/>Программных удалений не рекомендуется для приложений, предназначенных для Exchange 2007. В Exchange 2007, использования программных удалений обрабатываются параметр немного на элемент, чтобы указать, что он перемещается в корзину на неопределенное время.<br/><br/>Обходы обратимым удалением или поиск элементов, которые были программных удален с помощью [операции FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx), не поддерживается в Exchange Online, Exchange Online как часть Office 365 и версии Exchange, начиная с Exchange 2010.  <br/><br/>**Примечание**: папок Мягкая удалить невозможно.           |
-|Окончательного удаления  <br/> |Окончательно удалить элемент или папку.<br/><br/>Удаленные элементы помещаются в папку удаляет из корзины. Это, как и когда утилизации грузовик приводит к очистке curbside recycle контейнера. Элементы, которые не были доступны из клиента электронной почты как Outlook или Outlook Web App и при отсутствии удержания установленный для почтового ящика элементы будут окончательно удалены после определенного периода времени.<br/><br/>Можно получить дополнительные о хранение объектов в статье [Настройка параметре хранение удаленных записей и восстанавливаемых элементов квот](http://technet.microsoft.com/en-us/library/ee364752%28v=exchg.150%29.aspx).<br/><br/>**Примечание**: папки не размещаются в папке удаляет при серьезный удаляются. Удаленных папок, удаляются из почтового ящика.  |
+|Перемещение в папку удаленных элементов  <br/> |Это наименее постоянный способ удаления элементов.<br/><br/>Это аналогично размещению бумажной бумаги в корзине на рабочем месте. Его можно легко захватить, если это необходимо.<br/><br/>Для выполнения этого действия можно использовать любую [операцию удаления](deleting-items-by-using-ews-in-exchange.md#bk_howdoIdeleteitems) , которая реализует параметр переместить в папку "Удаленные".<br/><br/>Вы также можете использовать [операцию MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) ( [Item. Move ()](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx)) или [операцию MoveFolder](http://msdn.microsoft.com/library/c7233966-6c87-4a14-8156-b1610760176d%28Office.15%29.aspx) ( [Folder. Move ()](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.move%28v=exchg.80%29.aspx)), чтобы переместить элемент или папку в папку "Удаленные".  <br/> |
+|Обратимое удаление  <br/> |Элемент перемещается в папку "удаления" в корзине.<br/><br/>Это аналогично очистке корзины в контейнере курбсиде. Вы по-прежнему можете получать доступ к элементу, если это необходимо, но немного сложнее.  <br/><br/>Для получения дополнительных сведений о корзине (также называемой папкой "элементы с возможностью восстановления") и сценариями, такими как обнаружение электронных данных и судебное разбирательства, просмотрите [папку элементы с возможностью восстановления](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx) на сайте TechNet.<br/><br/>Обратимое удаление не рекомендуется для приложений, предназначенных для Exchange 2007. В Exchange 2007, обратимое удаление обрабатывается путем установки бита для элемента, указывающего на то, что он будет перемещен в корзину в неуказанное время.<br/><br/>При обратимом удалении или поиске элементов, которые были обратимо удалены с помощью [операции FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx), не поддерживаются в Exchange Online, Exchange Online в составе Office 365 и версиях Exchange, начиная с Exchange 2010.  <br/><br/>**Note**: папки нельзя удалять с возможностью восстановления.           |
+|Необратимое удаление  <br/> |Элемент или папка окончательно удаляется.<br/><br/>Окончательно удаленные элементы помещаются в папку очистки корзины. Это аналогично, когда грузовик перезапуска очищает контейнер курбсиде. Доступ к элементам из почтового клиента, например Outlook или Outlook Web App, невозможен, если для почтового ящика не указан набор удержаний, элементы будут безвозвратно удалены по истечении определенного периода времени.<br/><br/>Дополнительные сведения о хранении элементов можно узнать в статье [Настройка квот хранения удаленных элементов и элементов для восстановления](http://technet.microsoft.com/en-us/library/ee364752%28v=exchg.150%29.aspx).<br/><br/>**Note**: папки не помещаются в папку "очистки" при их окончательном удалении. Окончательно удаленные папки удаляются из почтового ящика.  |
    
-Перемещение папки «Удаленные» и параметры окончательного удаления транзакций, что означает, что время завершения вызова веб-службы, элемент был перемещен для папки «Удаленные» или корзины.
+Перемещение в папку "Удаленные" и параметры окончательного удаления являются транзакционными, что означает, что при завершении вызова веб-службы элемент был перемещен в папку "Удаленные" или в корзину.
   
-Помогут вам лучше понять экосистеме папки, которые используются для хранения удаленных элементов на следующем рисунке показана что иерархии папок, которые могут содержать удаленных элементов. Имена папок, как они отображаются в тип схемы **DistinguishedFolderIdNameType** или перечисление **WellKnownFolderName** в управляемый API веб-служб Exchange. 
+Чтобы лучше понять экосистему папок, которые используются для хранения удаленных элементов, на следующем рисунке показана иерархия папок, которые могут содержать удаленные элементы. Имена папок отображаются в соответствии с типом схемы **дистингуишедфолдериднаметипе** или перечислением **веллкновнфолдернаме** в управляемом API EWS. 
   
-**На рисунке 3. Иерархия папок, содержащих "Удаленные"**
+**Рис. 3. Иерархия папок, содержащих удаленные элементы**
 
 ![Изображение иерархии папок для удаленных элементов в основном и архивном почтовых ящиках. Каждая папка на рисунке представлена ее уникальным именем.](media/Ex_FolderHierarchyDeletedItems.png)
   
-**В таблице 2: Папок, содержащих удаленных элементов**
+**Таблица 2: папки, содержащие удаленные элементы**
 
-|**Имя папки**|**Представлены в**|**Описание**|
+|**Имя папки**|**Версия, где параметр был представлен**|**Описание**|
 |:-----|:-----|:-----|
-|deleteditems  <br/> |Exchange 2007  <br/> |По умолчанию папки "Удаленные". Элементы остаются в этой папке до их или жестко удаленные или пока период хранения превышена. Затем они перемещаются в папку в корзину. Удаленные папки помещаются в папку «Удаленные», и время, когда он или жестко удаленные, они будут окончательно удалены из почтового ящика и, восстановить невозможно.  <br/> |
-|recoverableitemsroot  <br/> |Exchange 2010  <br/> |В корневой каталог корзины, или папки элементов для восстановления. Корзины доступ был реализован в веб-службах Exchange 2010. Отображаемое имя для этой папки — «Элементов для восстановления».  <br/> |
-|recoverableitemsdeletions  <br/> |Exchange 2010  <br/> |Основной корзины папок для почтового ящика. Удаленные элементы и элементы перемещаются из папки "Удаленные" политикой хранения помещаются в этой папке. Отображаемое имя для этой папки — «Удаление».  <br/> |
-|recoverableitemsversions  <br/> |Exchange 2010  <br/> |Где хранятся старые версии элемента. Старые версии элемента создаются при обновлении элемента. Черновых версий элемента не сохраняются в этой папке. Отображаемое имя этой папки — «Версии».  <br/> |
-|recoverableitemspurges  <br/> |Exchange 2010  <br/> |Где хранятся элементы, удаленные из папки "Удаленные элементы". Все элементы хранения удаленных перемещаются в эту папку. Отображаемое имя для этой папки — «Удаление».  <br/> |
-|archiveddeletedtitems  <br/> |Exchange 2010  <br/> |По умолчанию папки "Удаленные" для архивного почтового ящика.  <br/> |
-|archiverecoverablesitemsroot  <br/> |Exchange 2010  <br/> |Корневой корзины папок для архивного почтового ящика. Архивные элементы, удаленные перемещаются в папке в этой папке.  <br/> |
-|archiverecoverableitemsdeletions  <br/> |Exchange 2010  <br/> |Основной корзины папок для архивного почтового ящика. Архивируются элементы помещаются в корзину помещаются здесь.  <br/> |
-|archiverecoverableitemsversions  <br/> |Exchange 2010  <br/> |Где хранятся старые версии архивных элементов.  <br/> |
-|archiverecoverableitemspurges  <br/> |Exchange 2010  <br/> |Где элементов, которые удаляется из архива удалений папки в корзине хранятся. Все элементы-удаления хранилища архивации перемещаются в эту папку.  <br/> |
+|deleteditems  <br/> |Exchange 2007  <br/> |Папка "Удаленные", используемая по умолчанию. Элементы хранятся в этой папке до тех пор, пока они не будут мягкими или жестко удалены или пока не будет превышен срок хранения. Затем они перемещаются в папку корзины. Удаленные папки помещаются в папку "Удаленные", а при их обратимом удалении они удаляются из почтового ящика и не могут быть восстановлены.  <br/> |
+|рековераблеитемсрут  <br/> |Exchange 2010  <br/> |Корневой каталог корзины или папка "элементы с возможностью восстановления". Доступ к корзине реализован в EWS в Exchange 2010. Отображаемое имя этой папки — "элементы с возможностью восстановления".  <br/> |
+|recoverableitemsdeletions  <br/> |Exchange 2010  <br/> |Основная папка корзины для почтового ящика. Обратимо удаленные элементы и элементы, перемещенные из папки "Удаленные" в соответствии с политикой хранения, помещаются в эту папку. Отображаемое имя этой папки — "удаления".  <br/> |
+|рековераблеитемсверсионс  <br/> |Exchange 2010  <br/> |Где хранятся более ранние версии элемента. Старые версии элемента создаются при обновлении элемента. Версии элементов черновиков не сохраняются в этой папке. Отображаемым именем этой папки является "Versions".  <br/> |
+|рековераблеитемспуржес  <br/> |Exchange 2010  <br/> |Место хранения элементов, удаленных из папки "удаления". Все окончательно удаленные элементы хранилища перемещаются в эту папку. Отображаемое имя папки "очищается".  <br/> |
+|арчиведделетедтитемс  <br/> |Exchange 2010  <br/> |Папка "Удаленные" по умолчанию для архивного почтового ящика.  <br/> |
+|арчиверековераблеситемсрут  <br/> |Exchange 2010  <br/> |Корневая папка корзины для архивного почтового ящика. Архивированные элементы, удаленные с возможностью восстановления, перемещаются в подпапку, находящийся в этой папке.  <br/> |
+|арчиверековераблеитемсделетионс  <br/> |Exchange 2010  <br/> |Основная папка корзины для архивного почтового ящика. Архивированные элементы, перемещенные в корзину, размещаются здесь.  <br/> |
+|арчиверековераблеитемсверсионс  <br/> |Exchange 2010  <br/> |Где хранятся более ранние версии архивных элементов.  <br/> |
+|арчиверековераблеитемспуржес  <br/> |Exchange 2010  <br/> |Место хранения необратимо удаленных элементов из папки "архивы" в корзине. Все архивные элементы, архивы которых были удалены в хранилище, перемещаются в эту папку.  <br/> |
    
-## <a name="how-do-i-delete-items"></a>Удаление элементов
+## <a name="how-do-i-delete-items"></a>Как удалить элементы?
 <a name="bk_howdoIdeleteitems"> </a>
 
-Удалить, выполните одну из следующих значений, чтобы указать, следует ли переместить элемент папки «Удаленные» или выполнить мягкое или жестко:
+Используйте один из следующих вариантов, чтобы указать, следует ли переместить элемент в папку "Удаленные" или выполнить обратимое удаление или жесткое удаление.
   
-- **DisposalType** простой тип, при использовании веб-служб Exchange для доступа к Exchange. 
+- Простой тип **диспосалтипе** , если вы используете EWS для доступа к Exchange. 
     
-- [Перечисление DeleteMode](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.deletemode%28v=exchg.80%29.aspx), если используется управляемый API веб-служб Exchange.
+- [Перечисление делетемоде](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.deletemode%28v=exchg.80%29.aspx), если используется управляемый API EWS.
     
-Количество различных операций веб-служб Exchange или управляемый API EWS методы можно использовать для удаления элементов и папок из почтового ящика.
+Чтобы удалить элементы и папки из почтового ящика, можно использовать несколько различных операций EWS или методов управляемого API EWS.
   
-**В таблице 3: Операции веб-служб Exchange и методы управляемый API веб-служб Exchange для удаления элементов**
+**Таблица 3: операции служб EWS и методы управляемого API EWS для удаления элементов**
 
-|**Операция служб EWS**|**Метод управляемого API EWS**|**Представлены в**|**Назначение**|
+|**Операция служб EWS**|**Метод управляемого API EWS**|**Версия, где параметр был представлен**|**Действие**|
 |:-----|:-----|:-----|:-----|
-|[Операция DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |[Метод Folder.Delete](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> |Exchange 2007  <br/> |Удаление папки из почтового ящика. С помощью веб-служб Exchange можно пакетного удаление папок. С помощью управляемый API веб-служб Exchange можно удалить только одной папке на вызов.  <br/> |
-|[Операция DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |[Метод Item.Delete](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx)<br/><br/>[Метод ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.exchangeservice.deleteitems%28v=exchg.80%29.aspx) <br/> |Exchange 2007  <br/> |Удаление элементов из почтового ящика.  <br/> |
-|[Операция EmptyFolder](http://msdn.microsoft.com/library/98161486-e2f2-480f-8d5d-708ba81b208a%28Office.15%29.aspx) <br/> |[Метод Folder.Empty](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.folder.empty%28v=exchg.80%29.aspx) <br/> |Exchange 2010  <br/> |Удаляет все элементы в папке, а при необходимости, удаляет все вложенные папки в папке.  <br/> |
-|[Операция ApplyConversationAction](http://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx) <br/> |[Метод Conversation.EnableAlwaysDeleteItems](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.conversation.enablealwaysdeleteitems%28v=exchg.80%29.aspx)<br/><br/>[Метод Conversation.DeleteItems](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.conversation.deleteitems%28v=exchg.80%29.aspx) <br/> |Exchange 2010  <br/> |Задание удаления обработки действий в сообщениях электронной почты в беседе, чтобы они будут удалены.  <br/> |
-|[Операция DeleteUserConfiguration](http://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) <br/> |[Метод UserConfiguration.Delete](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) <br/> |Exchange 2010  <br/> |Удаляет папку связанных элементов и переводит его в корзину.  <br/> |
-|[CreateItem Operation](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> |[Метод Appointment.Accept](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.accept%28v=exchg.80%29.aspx) <br/><br/>[Метод Appointment.AcceptTentatively](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.accepttentatively%28v=exchg.80%29.aspx)<br/><br/>[Метод Appointment.CancelMeeting](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)<br/><br/>[Appointment.Decline](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.decline%28v=exchg.80%29.aspx)<br/><br/>[Метод MeetingRequest.Accept](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.meetingrequest.accept%28v=exchg.80%29.aspx)<br/><br/>[Метод MeetingRequest.AcceptTentatively](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.meetingrequest.accepttentatively%28v=exchg.80%29.aspx)<br/><br/>[Метод MeetingRequest.Decline](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.meetingrequest.decline%28v=exchg.80%29.aspx) <br/> |Exchange 2007  <br/> |Косвенно перемещает элемент папки «Удаленные» каждый раз, когда отправляется ответ на приглашения на собрание или установлено ответ для встречи.<br/><br/>Тип удаления установлено на этой операции. Сообщения собрания перемещаются папки "Удаленные", когда объект ответа успешно обработан службой.  <br/> |
+|[Операция DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |[Метод Folder. Delete](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> |Exchange 2007  <br/> |Удаляет папки из почтового ящика. С помощью EWS можно пакетно удалить папки. С помощью управляемого API EWS можно удалить только одну папку для каждого вызова.  <br/> |
+|[Операция DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |[Метод Item. Delete](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx)<br/><br/>[Метод ExchangeService. Делетеитемс](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.exchangeservice.deleteitems%28v=exchg.80%29.aspx) <br/> |Exchange 2007  <br/> |Удаляет элементы из почтового ящика.  <br/> |
+|[Операция EmptyFolder](http://msdn.microsoft.com/library/98161486-e2f2-480f-8d5d-708ba81b208a%28Office.15%29.aspx) <br/> |[Метод Folder. Empty](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.folder.empty%28v=exchg.80%29.aspx) <br/> |Exchange 2010  <br/> |Удаляет все элементы в папке, а при необходимости удаляет все вложенные папки в папке.  <br/> |
+|[Операция ApplyConversationAction](http://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx) <br/> |[Метод CONVERSATION. Енаблеалвайсделетеитемс](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.conversation.enablealwaysdeleteitems%28v=exchg.80%29.aspx)<br/><br/>[Метод CONVERSATION. Делетеитемс](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.conversation.deleteitems%28v=exchg.80%29.aspx) <br/> |Exchange 2010  <br/> |Задает действие по удалению для обработки сообщений электронной почты в беседе, чтобы они были удалены.  <br/> |
+|[Операция DeleteUserConfiguration](http://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) <br/> |[Метод Усерконфигуратион. Delete](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) <br/> |Exchange 2010  <br/> |Удаляет элемент, связанный с папкой, и перемещает его в корзину.  <br/> |
+|[Операция CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> |[Метод встречи. Accept](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.accept%28v=exchg.80%29.aspx) <br/><br/>[Метод встреча. Акцепттентативели](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.accepttentatively%28v=exchg.80%29.aspx)<br/><br/>[Метод встреча. Канцелмитинг](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)<br/><br/>[Встреча. отклонить](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.decline%28v=exchg.80%29.aspx)<br/><br/>[Метод свойство meetingrequest. Accept](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.meetingrequest.accept%28v=exchg.80%29.aspx)<br/><br/>[Метод свойство meetingrequest. Акцепттентативели](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.meetingrequest.accepttentatively%28v=exchg.80%29.aspx)<br/><br/>[Метод свойство meetingrequest. отклонить](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.meetingrequest.decline%28v=exchg.80%29.aspx) <br/> |Exchange 2007  <br/> |Косвенно перемещает элемент в папку "Удаленные" при отправке ответа на приглашение на собрание или при задании ответа на встречу.<br/><br/>Для этой операции не задан тип удаления. Сообщения о собраниях перемещаются в папку "Удаленные", когда служба успешно обрабатывает объект ответа.  <br/> |
    
-Перемещение элементов папки «Удаленные» можно также с помощью правила папки «Входящие». Например можно [создавать правила](inbox-management-and-ews-in-exchange.md) , для которого действие удаления. 
+Вы также можете перемещать элементы в папку "Удаленные" с помощью правил папки "Входящие". Например, вы можете [создать правила](inbox-management-and-ews-in-exchange.md) с действием Delete (удалить). 
   
-Некоторые замечания об удалении элементов:
+Некоторые моменты, которые следует учитывать при удалении элементов:
   
-- Удаление вхождения повторяющегося элемента не вызывает переход в папку «Удаленные» или корзины. В результате обновление для повторяющегося элемента главных ряда повторяющейся.
+- Удаление повторяющегося элемента не вызывает перемещение в папку "Удаленные" или в корзину. Это приводит к обновлению повторяющегося элемента шаблона повторяющейся серии.
     
-- Папки по умолчанию нельзя удалить из почтового ящика.
+- Вы не можете удалять папки по умолчанию из почтового ящика.
     
-- Отменить удаление встречи или сообщения о собраниях, например, приглашений на собрания, а или обновлений встреч. Вместо этого ответ на эти элементы с помощью объектов ответа. Таким образом, элементы календаря связанного обновляются в соответствии с действиями пользователя ответчика или организатора.
+- Избегайте удаления собраний и сообщений о собраниях, таких как приглашения на собрания и обновления собраний. Вместо этого ответьте на эти элементы с помощью объектов ответа. Таким образом, связанные элементы календаря обновляются в соответствии с действиями респондента или организатора.
     
-- Ключ изменения элемента не обновляются при перемещении элемента в папку Deleted Items или удалять.
+- Ключ изменения элемента не обновляется при перемещении элемента в папку "Удаленные" или "удаления".
     
-- При выполнении жестко удаления элемента и затем вызвать [SyncFolderHierarchy операции](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) или метод управляемый API EWS [SyncFolderHierarchy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) или [SyncFolderItems операции](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) или [SyncFolderItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) метода, изменение, **Удаление** будут возвращены запись. При перемещении элемента в папку Deleted Items возвращается записи изменений **обновления** . Это, так как элемент или папку, будут иметь новое значение свойства [ParentFolderId](http://msdn.microsoft.com/library/258f4b1f-367e-4c7d-9c29-eb775a2398c7%28Office.15%29.aspx) . [Более подробные сведения о синхронизации](mailbox-synchronization-and-ews-in-exchange.md) при синхронизации удаленных элементов является частью сценария. 
+- Если выполняется окончательное удаление элемента, а затем вызывается [Операция SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) или метод [SyncFolderHierarchy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) , управляемый API, или метод [SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) или метод [SyncFolderItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) , возвращается запись об **удалении** изменений. Если переместить элемент в папку "Удаленные", возвращается запись изменения **обновления** . Это связано с тем, что элемент или папка будут иметь новое значение свойства [ParentFolderId](http://msdn.microsoft.com/library/258f4b1f-367e-4c7d-9c29-eb775a2398c7%28Office.15%29.aspx) . [Узнайте больше о синхронизации](mailbox-synchronization-and-ews-in-exchange.md) , если синхронизация удаленных элементов является частью вашего сценария. 
     
-## <a name="find-out-more-about-deleting-items"></a>Дополнительные сведения о удаление элементов
+## <a name="find-out-more-about-deleting-items"></a>Узнайте больше об удалении элементов
 <a name="findoutmore"> </a>
 
-- [По запросу уведомления для событий, связанных с удаления почтового ящика веб-служб Exchange в Exchange](pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange.md)
+- [Получение уведомлений о событиях почтовых ящиков, связанных с удалением EWS, в Exchange](pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange.md)
     
-- [Обработка ошибок, связанных с удаления в веб-служб Exchange в Exchange](handling-deletion-related-errors-in-ews-in-exchange.md)
+- [Обработка ошибок, связанных с удалением, в EWS в Exchange](handling-deletion-related-errors-in-ews-in-exchange.md)
     
 ## <a name="see-also"></a>См. также
 
 - [Папки и элементы в веб-службах Exchange](folders-and-items-in-ews-in-exchange.md)    
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)    
-- [Папка элементов для восстановления](http://technet.microsoft.com/en-us/library/ee364755.aspx)    
-- [Функцию восстановления отдельных элементов в Exchange Server 2010](http://blogs.technet.com/b/exchange/archive/2009/09/25/3408389.aspx#_Single_Item_Recovery)    
-- [Exchange 2013: Удаление повторяющихся серии программными средствами с серверов Exchange](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-a-e1c7b89d)    
-- [Exchange 2013: Удаление задачи из учетной записи на серверах Exchange программным путем](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-tasks-13824637)    
-- [Exchange 2013: Очистите папки на серверах Exchange программным путем](http://code.msdn.microsoft.com/exchange/Exchange-2013-Empty-6487df37)    
-- [Exchange 2013: Удаление папок программными средствами с серверов Exchange](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-aa1a5823)    
-- [Exchange 2013: Удаление много элементов программными средствами с серверов Exchange](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-many-064f8760)    
-- [Exchange 2013: Удаление контактов программными средствами с серверов Exchange](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-3b8b0640)    
-- [Удаление встреч и отмены собраний с помощью веб-служб Exchange в Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)    
-- [Управление параметрами сохраняемого приложения с помощью веб-служб Exchange в Exchange](how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md)
+- [Папка "элементы с возможностью восстановления"](http://technet.microsoft.com/en-us/library/ee364755.aspx)    
+- [Восстановление отдельных элементов в Exchange Server 2010](http://blogs.technet.com/b/exchange/archive/2009/09/25/3408389.aspx#_Single_Item_Recovery)    
+- [Exchange 2013: удаление повторяющихся рядов программным способом из серверов Exchange Server](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-a-e1c7b89d)    
+- [Exchange 2013: Программное удаление задач из учетной записи на серверах Exchange Server](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-tasks-13824637)    
+- [Exchange 2013: пустые папки на серверах Exchange Server программным способом](http://code.msdn.microsoft.com/exchange/Exchange-2013-Empty-6487df37)    
+- [Exchange 2013: Программное удаление папок из серверов Exchange Server](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-aa1a5823)    
+- [Exchange 2013: Программное удаление многих элементов из серверов Exchange Server](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-many-064f8760)    
+- [Exchange 2013: Программное удаление контактов из серверов Exchange Server](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-3b8b0640)    
+- [Удаление встреч и отмена собраний с помощью EWS в Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)    
+- [Управление параметрами сохраняемого приложения с помощью EWS в Exchange](how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md)
     
 

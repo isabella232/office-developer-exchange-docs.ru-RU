@@ -1,5 +1,5 @@
 ---
-title: CalendarUrl (FederatedDirectoryGroupType)
+title: CalendarUrl (Федератеддиректориграуптипе)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0606c8a9-813c-4d7c-8080-db812069668e
-description: Элемент CalendarUrl (FederatedDirectoryGroupType) предназначена только для внутреннего использования.
+description: Элемент CalendarUrl (Федератеддиректориграуптипе) предназначен только для внутреннего использования.
 ms.openlocfilehash: e169d6c40ec01303a74529d4ee538a2b058e81fb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761651"
 ---
-# <a name="calendarurl-federateddirectorygrouptype"></a>CalendarUrl (FederatedDirectoryGroupType)
+# <a name="calendarurl-federateddirectorygrouptype"></a>CalendarUrl (Федератеддиректориграуптипе)
 
-Элемент **CalendarUrl (FederatedDirectoryGroupType)** предназначена только для внутреннего использования. 
+Элемент **CalendarUrl (федератеддиректориграуптипе)** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -35,7 +35,7 @@ ms.locfileid: "19761651"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

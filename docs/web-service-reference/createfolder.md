@@ -30,10 +30,10 @@ ms.locfileid: "19761869"
 </CreateFolder>
 ```
 
- **CreateFolderType**
+ **креатефолдертипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,14 +43,14 @@ ms.locfileid: "19761869"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |Элемент, определяющий расположение, где будет создана новая папка.  <br/> |
-|[Папки](folders-ex15websvcsotherref.md) <br/> |Элемент, содержащий все папках для создания.  <br/> |
+|[ParentFolderId (Таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md) <br/> |Элемент, определяющий расположение, в котором создается новая папка.  <br/> |
+|[Folders](folders-ex15websvcsotherref.md) <br/> |Элемент, содержащий все создаваемые папки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,15 +60,15 @@ ms.locfileid: "19761869"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[CreateFolder Operation](createfolder-operation.md)
+[Операция CreateFolder](createfolder-operation.md)
 
 
-[Создание папки (веб-служб Exchange)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+[Создание папок (веб-службы Exchange)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

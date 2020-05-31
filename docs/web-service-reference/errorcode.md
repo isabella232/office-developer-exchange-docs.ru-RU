@@ -1,5 +1,5 @@
 ---
-title: Код ошибки
+title: ErrorCode
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0bb00cee-c66b-4f34-b99d-355458f5e83b
-description: Элемент ErrorCode представляет код ошибки проверки правила, который описывает, что не удалось средства проверки для каждого правила предикат или действие.
+description: Элемент ErrorCode представляет код ошибки проверки правила, указывающий, что не прошло проверку для каждого предиката правила или действия.
 ms.openlocfilehash: ed8e2fa72b0eb007925742e6d194f3a391b3f3cb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762384"
 ---
-# <a name="errorcode"></a>Код ошибки
+# <a name="errorcode"></a>ErrorCode
 
-Элемент **ErrorCode** представляет код ошибки проверки правила, который описывает, что не удалось средства проверки для каждого правила предикат или действие. 
+Элемент **ErrorCode** представляет код ошибки проверки правила, указывающий, что не прошло проверку для каждого предиката правила или действия. 
   
 ```XML
 <ErrorCode/>
 ```
 
- **RuleValidationErrorCodeType**
+ **рулевалидатионерроркодетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,61 +40,61 @@ ms.locfileid: "19762384"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Error](error.md) <br/> |Представляет ошибку одной проверки на значение свойства определенное правило, значение свойства предиката или значение свойства действия.  <br/> |
+|[Ошибка](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение для этого элемента есть только один из следующих строк:
+Текстовое значение для этого элемента ограничено одной из следующих строк:
   
-- ADOperationFailure
+- адоператионфаилуре
     
-- ConnectedAccountNotFound
+- коннектедаккаунтнотфаунд
     
-- CreateWithRuleId
+- креатевисрулеид
     
-- EmptyValueFound
+- емптивалуефаунд
     
-- DuplicatedPriority
+- дупликатедприорити
     
-- DuplicatedOperationOnTheSameRule
+- дупликатедоператиононсесамеруле
     
-- FolderDoesNotExist
+- фолдердоеснотексист
     
 - InvalidAddress
     
-- InvalidDateRange
+- инвалиддатеранже
     
-- InvalidFolderId
+- инвалидфолдерид
     
-- InvalidSizeRange
+- инвалидсизеранже
     
-- InvalidValue
+- инвалидвалуе
     
-- MessageClassificationNotFound
+- мессажеклассификатионнотфаунд
     
-- MissingAction
+- миссингактион
     
-- MissingParameter
+- миссингпараметер
     
-- MissingRangeValue
+- миссингранжевалуе
     
-- NotSettable
+- нотсеттабле
     
-- RecipientDoesNotExist
+- реЦипиентдоеснотексист
     
-- RuleNotFound
+- руленотфаунд
     
-- SizeLessThanZero
+- сизелесссанзеро
     
-- StringValueTooBig
+- стрингвалуетубиг
     
-- UnsupportedAddress
+- унсуппортедаддресс
     
-- UnexpectedError
+- унекспектедеррор
     
-- UnsupportedRule
+- унсуппортедруле
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -104,7 +104,7 @@ ms.locfileid: "19762384"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

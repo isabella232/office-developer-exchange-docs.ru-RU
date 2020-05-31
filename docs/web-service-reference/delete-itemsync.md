@@ -1,5 +1,5 @@
 ---
-title: Удаление (ItemSync)
+title: Delete (Итемсинк)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4f372d57-2e39-46af-9d83-6c8c55108587
-description: Удалить элемент определяет один элемент для удаления в локальном хранилище клиента.
+description: Элемент Delete определяет отдельный элемент, который необходимо удалить из локального хранилища клиента.
 ms.openlocfilehash: 18b7ae2f97db2de64896680c3aa76f2590c03177
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762023"
 ---
-# <a name="delete-itemsync"></a>Удаление (ItemSync)
+# <a name="delete-itemsync"></a>Delete (Итемсинк)
 
-**Удалите** элемент определяет один элемент для удаления в локальном хранилище клиента. 
+Элемент **Delete** определяет отдельный элемент, который необходимо удалить из локального хранилища клиента. 
   
-- [SyncFolderItemsResponse](syncfolderitemsresponse.md)  
-- [ResponseMessages](responsemessages.md) 
-- [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)  
+- [синкфолдеритемсреспонсе](syncfolderitemsresponse.md)  
+- [респонсемессажес](responsemessages.md) 
+- [синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md)  
 - [Изменения (элементы)](changes-items.md)  
-- [Удаление (ItemSync)](delete-itemsync.md)
+- [Delete (Итемсинк)](delete-itemsync.md)
   
 ```xml
 <Delete>
@@ -35,11 +35,11 @@ ms.locfileid: "19762023"
 </Delete>
 ```
 
-**SyncFolderItemsDeleteType**
+**синкфолдеритемсделететипе**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -49,15 +49,15 @@ ms.locfileid: "19762023"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Идентификатор элемента](itemid.md) <br/> |Содержит уникальный идентификатор и меняет ключ элемента в хранилище Exchange.  <br/> |
+|[Идентификатор](itemid.md) <br/> |Содержит уникальный идентификатор и ключ изменения элемента в хранилище Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Изменения (элементы)](changes-items.md) <br/> |Содержит массив последовательности типов изменений, которые представляют тип различия между элементами на стороне клиента и элементов на сервере Exchange.  <br/> |
+|[Изменения (элементы)](changes-items.md) <br/> |Содержит массив последовательности типов изменений, представляющих тип различий между элементами на клиенте и элементами на сервере Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -67,7 +67,7 @@ ms.locfileid: "19762023"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

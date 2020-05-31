@@ -1,5 +1,5 @@
 ---
-title: GetDelegateResponse
+title: жетделегатереспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 71a418a5-5652-40e1-8f84-fe4f7c9f86af
-description: Элемент GetDelegateResponse содержит состояние и результат операции запроса GetDelegate.
+description: Элемент Жетделегатереспонсе содержит состояние и результат запроса операции Delegate.
 ms.openlocfilehash: 52731ea66420c21cf3fb8d19082aef65551c2af2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762744"
 ---
-# <a name="getdelegateresponse"></a>GetDelegateResponse
+# <a name="getdelegateresponse"></a>жетделегатереспонсе
 
-Элемент **GetDelegateResponse** содержит состояние и результат [операции GetDelegate](getdelegate-operation.md) запроса. 
+Элемент **жетделегатереспонсе** содержит состояние и результат запроса [операции Delegate](getdelegate-operation.md) . 
   
 ```xml
 <GetDelegateResponse>
@@ -34,10 +34,10 @@ ms.locfileid: "19762744"
 </GetDelegateResponse>
 ```
 
- **GetDelegateResponseMessageType**
+ **жетделегатереспонсемессажетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -47,20 +47,20 @@ ms.locfileid: "19762744"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |Определяет порядок обработки приглашений на собрания между делегата и участника.  <br/> |
-|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Содержит сообщения ответа на запрос управления delegate веб-служб Exchange.  <br/> |
-|[MessageText](messagetext.md) <br/> |Предоставляет текстовое описание состояния ответа.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Содержит код ошибки, которая идентифицирует ошибку, с которым возникла запроса.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |В настоящее время неиспользуемых и зарезервирован для будущего использования. Он содержит значение 0.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке ответа.  <br/> |
+|[деливермитингрекуестс](delivermeetingrequests.md) <br/> |Определяет способ обработки приглашений на собрание между представителем и участником.  <br/> |
+|[Респонсемессажес (Аррайофделегатеусерреспонсемессажетипе)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Содержит ответные сообщения для запроса управления делегированием веб-служб Exchange.  <br/> |
+|[мессажетекст](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
+|[респонсекоде](responsecode.md) <br/> |Предоставляет код ошибки, определяющий конкретную ошибку, обнаруженную в запросе.  <br/> |
+|[дескриптивелинккэй](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервировано для последующего использования. Он содержит значение 0.  <br/> |
+|[мессажексмл](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server 2010 с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -68,7 +68,7 @@ ms.locfileid: "19762744"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

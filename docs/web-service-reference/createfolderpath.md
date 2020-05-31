@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 282576cb-a921-49f7-8748-64158fd50c41
-description: Элемент CreateFolderPath используется для создания путь к папке и включает в себя идентификатор родительской папки и относительный путь.
+description: Элемент CreateFolderPath используется для создания пути к папке и включает идентификатор родительской папки и относительный путь к папке.
 ms.openlocfilehash: bfe31d894cfaa0f36da2d1d0045f723e0d261759
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19761875"
 ---
 # <a name="createfolderpath"></a>CreateFolderPath
 
-Элемент **CreateFolderPath** используется для создания путь к папке и включает в себя идентификатор родительской папки и относительный путь. 
+Элемент **CreateFolderPath** используется для создания пути к папке и включает идентификатор родительской папки и относительный путь к папке. 
   
 ```XML
 <CreateFolderPath>
@@ -26,10 +26,10 @@ ms.locfileid: "19761875"
 </CreateFolderPath>
 ```
 
- **CreateFolderPathType**
+ **креатефолдерпастипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19761875"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) | [RelativeFolderPath](relativefolderpath.md)
+[ParentFolderId (таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md) | [релативефолдерпас](relativefolderpath.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19761875"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

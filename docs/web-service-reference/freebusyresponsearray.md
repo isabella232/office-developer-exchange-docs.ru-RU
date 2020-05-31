@@ -1,5 +1,5 @@
 ---
-title: FreeBusyResponseArray
+title: фрибусиреспонсеаррай
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5592a37e-cf4b-4643-8a2a-fa58c40345b9
-description: Элемент FreeBusyResponseArray содержит сведения о доступности запрошенного пользователей, а также состояние ответа.
+description: Элемент Фрибусиреспонсеаррай содержит сведения о доступности запрашиваемых пользователей и состояние отклика.
 ms.openlocfilehash: cc6022c28213667c40dc00b5627ed88c4f78e2f2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762658"
 ---
-# <a name="freebusyresponsearray"></a>FreeBusyResponseArray
+# <a name="freebusyresponsearray"></a>фрибусиреспонсеаррай
 
-Элемент **FreeBusyResponseArray** содержит сведения о доступности запрошенного пользователей, а также состояние ответа. 
+Элемент **фрибусиреспонсеаррай** содержит сведения о доступности запрашиваемых пользователей и состояние отклика. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
+[фрибусиреспонсеаррай](freebusyresponsearray.md)
   
 ```xml
 <FreeBusyResponseArray>
@@ -33,10 +33,10 @@ ms.locfileid: "19762658"
 </FreeBusyResponseArray>
 ```
 
- **ArrayOfFreeBusyResponse**
+ **аррайоффрибусиреспонсе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -46,17 +46,17 @@ ms.locfileid: "19762658"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FreeBusyResponse](freebusyresponse.md) <br/> |Содержит сведения о доступности для одного почтового ящика пользователя, а также состояние ответа.  <br/> |
+|[фрибусиреспонсе](freebusyresponse.md) <br/> |Содержит сведения о доступности для одного пользователя почтового ящика и состояние отклика.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |Содержит свойства, которые определяют сведения о доступности пользователя или предложенных собраний сведения о времени.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse` <br/> |
+|[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md) <br/> |Содержит свойства, которые определяют сведения о доступности пользователей или сведения о предложенном времени собраний.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент не включен в GetUserAvailability ответа, если сведения о доступности не запрашивается.
+Этот элемент не включается в ответ GetUserAvailability, если не запрашиваются сведения о занятости.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -66,7 +66,7 @@ ms.locfileid: "19762658"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -75,7 +75,7 @@ ms.locfileid: "19762658"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

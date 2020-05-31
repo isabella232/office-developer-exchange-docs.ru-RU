@@ -30,7 +30,7 @@ ms.locfileid: "19833801"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,17 +44,17 @@ ms.locfileid: "19833801"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Условия](conditions.md) <br/> |Представляет условия, если выполнены, запустит действия правил для этого правила.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
 |[Беседы (ConversationType)](conversation-conversationtype.md) <br/> |Представляет одну беседу.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Исключения](exceptions.md) <br/> |Представляет доступных исключение условий для правила папки «Входящие».  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
@@ -62,7 +62,7 @@ ms.locfileid: "19833801"
 
 Текстовое значение, представляющее логическое значение является обязательным. Значение **true** означает, что наличие по крайней мере один видимым вложений элемента или беседы. Значение **false** означает, что элемент или разговор либо нет вложений, или только скрыты вложения. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойство **HasAttachments** рассчитывается из свойства MAPI логическое **AllAttachmentsHidden**. Если элемент не имеет вложение, свойство **AllAttachmentsHidden** не существует. Если скрыты все вложения для элемента, свойство **AllAttachmentsHidden**  **true**. Свойство **AllAttachmentsHidden** является **false**, если есть по крайней мере один вложения и по крайней мере одного из вложений отображается. Используйте свойство **AllAttachmentsHidden** MAPI для поиска, группировки и сортировки элементов. 
   
@@ -74,7 +74,7 @@ ms.locfileid: "19833801"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

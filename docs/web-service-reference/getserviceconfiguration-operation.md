@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 070cbfe5-325a-4955-8e4a-8230ea0459a7
-description: Операция GetServiceConfiguration получает сведения о конфигурации для указанного типа службы. Эта операция может вернуть параметры конфигурации для службы единой системы обмена сообщениями, правила защиты и почтовые подсказки.
+description: Операция GetServiceConfiguration получает сведения о конфигурации для указанного типа службы. Эта операция может возвращать параметры конфигурации для единой системы обмена сообщениями, правил защиты и почтовых подсказок.
 ms.openlocfilehash: 7fdc4d8defac3d6d352c121483bf8a4c735d9629
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19833667"
 ---
 # <a name="getserviceconfiguration-operation"></a>Операция GetServiceConfiguration
 
-Операция **GetServiceConfiguration** получает сведения о конфигурации для указанного типа службы. Эта операция может вернуть параметры конфигурации для службы единой системы обмена сообщениями, правила защиты и почтовые подсказки. 
+Операция **GetServiceConfiguration** получает сведения о конфигурации для указанного типа службы. Эта операция может возвращать параметры конфигурации для единой системы обмена сообщениями, правил защиты и почтовых подсказок. 
   
 ## <a name="getserviceconfiguration-request-example"></a>Пример запроса GetServiceConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **GetServiceConfiguration** показано, как для формирования запроса для получения сведений о конфигурации службы единой системы обмена сообщениями. 
+В приведенном ниже примере запроса **GetServiceConfiguration** показано, как сформировать запрос на получение сведений о конфигурации для службы единой системы обмена сообщениями. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -51,13 +51,13 @@ ms.locfileid: "19833667"
 </soap:Envelope>
 ```
 
-## <a name="getserviceconfiguration-response-example"></a>Пример ответа GetServiceConfiguration
+## <a name="getserviceconfiguration-response-example"></a>Пример отклика GetServiceConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **GetServiceConfiguration** . 
+В следующем примере показан успешный ответ на запрос **GetServiceConfiguration** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -93,13 +93,13 @@ ms.locfileid: "19833667"
 </s:Envelope>
 ```
 
-## <a name="getserviceconfiguration-error-response-example"></a>Пример ответа об ошибке GetServiceConfiguration
+## <a name="getserviceconfiguration-error-response-example"></a>Пример ответа на сообщение об ошибке GetServiceConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос **GetServiceConfiguration** . Эта ошибка была вызвана именем неправильной конфигурации. 
+В следующем примере показан ответ об ошибке для запроса **GetServiceConfiguration** . Эта ошибка вызвана неправильным именем конфигурации. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

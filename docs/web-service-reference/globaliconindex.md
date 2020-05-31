@@ -1,5 +1,5 @@
 ---
-title: GlobalIconIndex
+title: глобаликониндекс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3d28ed70-4cfe-46e4-8d15-593c6e355bcf
-description: Элемент GlobalIconIndex определяет глобальные значок индекса для всех элементов в беседе.
+description: Элемент Глобаликониндекс определяет глобальный индекс значков для всех элементов в беседе.
 ms.openlocfilehash: e8d78bfcfc0e57df9230db86e080d1ee29878094
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833727"
 ---
-# <a name="globaliconindex"></a>GlobalIconIndex
+# <a name="globaliconindex"></a>глобаликониндекс
 
-Элемент **GlobalIconIndex** определяет глобальные значок индекса для всех элементов в беседе. 
+Элемент **глобаликониндекс** определяет глобальный индекс значков для всех элементов в беседе. 
   
 ```XML
 <IconIndex>Default | PostItem | MailRead | MailUnread | MailReplied | MailForwarded | MailEncrypted | MailSmimeSigned | MailEncrytedReplied | MailSmimeSignedReplied | MailEncryptedForwarded | MailSmimeSignedForwarded | MailEncryptedRead | MailSmimeSignedRead | MailIrm | MaillrmForwarded | MaillrmReplied | SmsSubmitted | SmsRoutedToDeliveryPoint | SmsRoutedToExternalMessagingSystem | SmsDelivered | OutlookDefaultForContacts | AppointmentItem | AppointmentRecur | AppointmentMeet | AppointmentMeetRecur | AppointmentMeetNY | AppointmentMeetYes | AppointmentMeetNo | AppointmentMeetMaybe | AppointmentMeetCancel | AppointmentMeetInfo | TaskItem | TaskRecur | TaskOwned | TaskDelegated</IconIndex>
 ```
 
- **IconIndexType**
+ **икониндекстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,53 +38,53 @@ ms.locfileid: "19833727"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Беседы (ConversationType)](conversation-conversationtype.md) | [элемента](item.md) | [контакт](contact.md) | [DistributionList](distributionlist.md) | [сообщение](message-ex15websvcsotherref.md) | [элемента календаря, имеющего](calendaritem.md) | [PostItem](postitem.md) | [задач ](task.md)
+[Беседа (конверсатионтипе)](conversation-conversationtype.md) | [Item](item.md) | [Contact](contact.md) | [дистрибутионлист](distributionlist.md) | [Message](message-ex15websvcsotherref.md) | [CalendarItem](calendaritem.md)календаритем | Task i[Item](postitem.md) | [Task](task.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **GlobalIconIndex** . 
+В следующей таблице приведены возможные текстовые значения для элемента **глобаликониндекс** . 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
 |||
-|Значение по умолчанию  <br/> |Указывает значок по умолчанию.  <br/> |
-|PostItem  <br/> |Указывает значок для элемента записи.  <br/> |
-|MailRead  <br/> |Указывает, что значок чтения почты.  <br/> |
-|MailUnread  <br/> |Указывает значок непрочитанных сообщений.  <br/> |
-|MailReplied  <br/> |Задает пересылаемых значок Почта.  <br/> |
-|MailForwarded  <br/> |Указывает значок пересылки почты.  <br/> |
-|MailEncrypted  <br/> |Указывает значок зашифрованных сообщений.  <br/> |
-|MailSmimeSigned  <br/> |Указывает значок подписью безопасные многоцелевые расширения почтового стандарта Интернета (S/MIME).  <br/> |
-|MailEncryptedReplied  <br/> |Указывает, что зашифрованные ответ значок Почта.  <br/> |
-|MailSmimeSignedReplied  <br/> |Указывает, что S/MIME подписанные пересылаемых значок Почта.  <br/> |
-|MailEncryptedForwarded  <br/> |Указывает значок зашифрованных переадресованных сообщений.  <br/> |
-|MailSmimeSignedForwarded  <br/> |Указывает, подписью S/MIME пересылку значок Почта.  <br/> |
-|MailEncryptedRead  <br/> |Указывает значок зашифрованные чтения почты.  <br/> |
-|MailSmimeSignedRead  <br/> |Указывает, подписью S/MIME чтение значок Почта.  <br/> |
-|MailIrm  <br/> |Указывает значок Почта защищенного управления правами.  <br/> |
-|MailIrmForwarded  <br/> |Указывает, защищенных службой IRM пересылку значок Почта.  <br/> |
-|MailIrmReplied  <br/> |Указывает, что IRM-защитой дан ответ значок Почта.  <br/> |
-|SmsSubmitted  <br/> |Указывает значок для сообщений, отправленных для маршрутизации службы коротких сообщений (SMS).  <br/> |
-|SmsRoutedToDeliveryPoint  <br/> |Указывает значок для SMS маршрутизации к точке внешних доставки.  <br/> |
-|SmsRoutedToExternalMessagingSystem  <br/> |Указывает значок для маршрутизации SMS для внешней системы обмена сообщениями.  <br/> |
-|SmsDelivered  <br/> |Указывает значок доставлено почты SMS.  <br/> |
-|OutlookDefaultForContacts  <br/> |Указывает значок по умолчанию для контактов.  <br/> |
-|AppointmentItem  <br/> |Указывает значок элемента встречи.  <br/> |
-|AppointmentRecur  <br/> |Указывает значок повторяющейся встречи.  <br/> |
-|AppointmentMeet  <br/> |Указывает значок собрания.  <br/> |
-|AppointmentMeetRecur  <br/> |Указывает значок повторяющихся собраний.  <br/> |
-|AppointmentMeetNY  <br/> |Указывает значок под вопросом ответа на приглашение на собрание.  <br/> |
-|AppointmentMeetYes  <br/> |Указывает собрания значок приемки.  <br/> |
-|AppointmentMeetNo  <br/> |Указывает значок отклоненные собрания.  <br/> |
-|AppointmentMeetMaybe  <br/> |Указывает значок может быть ответа на приглашение на собрание.  <br/> |
-|AppointmentMeetCancel  <br/> |Указывает значок Отменить собрание.  <br/> |
-|AppointmentMeetInfo  <br/> |Указывает собрания значок информации.  <br/> |
-|TaskItem  <br/> |Указывает значок элемента задачи.  <br/> |
-|TaskRecur  <br/> |Указывает значок повторяющейся задачи.  <br/> |
-|TaskOwned  <br/> |Определяет задачу, владельцем которого значок.  <br/> |
-|TaskDelegated  <br/> |Указывает значок делегированные задачи.  <br/> |
+|По умолчанию  <br/> |Задает значок по умолчанию.  <br/> |
+|PostItem  <br/> |Задает значок элемента POST.  <br/> |
+|маилреад  <br/> |Указывает значок чтения почты.  <br/> |
+|маилунреад  <br/> |Указывает значок непрочтенной почты.  <br/> |
+|маилреплиед  <br/> |Указывает значок "ответ на сообщение".  <br/> |
+|маилфорвардед  <br/> |Указывает значок переадресованной почты.  <br/> |
+|маиленкриптед  <br/> |Указывает значок зашифрованной почты.  <br/> |
+|маилсмимесигнед  <br/> |Указывает значок подписанного почтового расширения для безопасного или многоцелевого расширения почты в Интернете (S/MIME).  <br/> |
+|маиленкриптедреплиед  <br/> |Указывает зашифрованный значок, на который отправлен ответ.  <br/> |
+|маилсмимесигнедреплиед  <br/> |Указывает значок почтового ящика с подписанным сообщением S/MIME.  <br/> |
+|маиленкриптедфорвардед  <br/> |Указывает значок зашифрованной переадресованной почты.  <br/> |
+|маилсмимесигнедфорвардед  <br/> |Указывает значок переадресованного почтового ящика с подписью S/MIME.  <br/> |
+|маиленкриптедреад  <br/> |Задает зашифрованный значок чтения почты.  <br/> |
+|маилсмимесигнедреад  <br/> |Указывает подписанный значок чтения почты S/MIME.  <br/> |
+|маилирм  <br/> |Указывает значок защищенной службы управления правами на доступ к данным (IRM).  <br/> |
+|маилирмфорвардед  <br/> |Указывает значок переадресованной почты с защитой IRM.  <br/> |
+|маилирмреплиед  <br/> |Указывает значок почты, защищенный с помощью службы управления правами на доступ к данным.  <br/> |
+|смссубмиттед  <br/> |Задает значок для почты, отправленной для маршрутизации в службе коротких сообщений (SMS).  <br/> |
+|смсраутедтоделиверипоинт  <br/> |Задает значок маршрутизации SMS для внешней точки доставки.  <br/> |
+|смсраутедтоекстерналмессагингсистем  <br/> |Задает значок маршрутизации SMS для внешней системы обмена сообщениями.  <br/> |
+|смсделиверед  <br/> |Указывает значок доставленной почты SMS.  <br/> |
+|аутлукдефаултфорконтактс  <br/> |Задает значок по умолчанию для контактов.  <br/> |
+|AppointmentItem  <br/> |Задает значок элемента встречи.  <br/> |
+|аппоинтментрекур  <br/> |Задает значок повторяющейся встречи.  <br/> |
+|аппоинтментмит  <br/> |Указывает значок собрания.  <br/> |
+|аппоинтментмитрекур  <br/> |Задает значок повторяющегося собрания.  <br/> |
+|аппоинтментмитни  <br/> |Задает значок ответа на приглашение на собрание.  <br/> |
+|аппоинтментмитес  <br/> |Указывает значок принятия приглашения на собрание.  <br/> |
+|аппоинтментмитно  <br/> |Указывает значок "собрание отклонено".  <br/> |
+|аппоинтментмитмайбе  <br/> |Задает значок, который может отреагировать на собрание.  <br/> |
+|аппоинтментмитканцел  <br/> |Указывает значок отмены собрания.  <br/> |
+|аппоинтментмитинфо  <br/> |Указывает значок сведений о собрании.  <br/> |
+|TaskItem  <br/> |Задает значок элемента задачи.  <br/> |
+|таскрекур  <br/> |Задает значок повторяющейся задачи.  <br/> |
+|тасковнед  <br/> |Указывает значок владельца задачи.  <br/> |
+|таскделегатед  <br/> |Задает делегированный значок задачи.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -96,7 +96,7 @@ ms.locfileid: "19833727"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

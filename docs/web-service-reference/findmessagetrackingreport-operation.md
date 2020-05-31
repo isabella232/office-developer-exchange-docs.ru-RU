@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 12942f24-2a8e-4d7f-a137-8da5932a6b46
-description: Операция FindMessageTrackingReport поиск сообщений, соответствующих заданным условиям.
+description: Операция FindMessageTrackingReport находит сообщения, соответствующие указанным условиям.
 ms.openlocfilehash: 103655b1c190f43bd11cfd3bfeabc22422d726a1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19762585"
 ---
 # <a name="findmessagetrackingreport-operation"></a>Операция FindMessageTrackingReport
 
-Операция **FindMessageTrackingReport** поиск сообщений, соответствующих заданным условиям. 
+Операция **FindMessageTrackingReport** находит сообщения, соответствующие указанным условиям. 
   
 ## <a name="see-also"></a>См. также
 

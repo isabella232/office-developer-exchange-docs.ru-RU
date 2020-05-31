@@ -1,5 +1,5 @@
 ---
-title: Отключите операции (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Операция отключения (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: a987000b-d6e6-49d7-944c-e9c278d0236f
-description: Операции отключения завершение работы звонок, который идентифицируется с указанным CallId (веб-служба единой системы обмена СООБЩЕНИЯМИ).
+description: Операция отключения завершает вызов, идентифицируемый заданным CallId (веб-служба единой системы обмена сообщениями).
 ms.openlocfilehash: 1e04e65fa1951a6aa46e2c8b6dd5fe524c84a8fc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762134"
 ---
-# <a name="disconnect-operation-um-web-service"></a>Отключите операции (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="disconnect-operation-um-web-service"></a>Операция отключения (веб-служба единой системы обмена сообщениями)
 
-Операции отключения завершение работы звонок, который идентифицируется с указанным [CallId (веб-служба единой системы обмена СООБЩЕНИЯМИ)](callid-um-web-service.md).
+Операция отключения завершает вызов, идентифицируемый заданным [CallId (веб-служба единой системы обмена сообщениями)](callid-um-web-service.md).
   
-## <a name="disconnect-request-example"></a>Отключите пример запроса
+## <a name="disconnect-request-example"></a>Пример запроса на отключение
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос на отключение показано, как для формирования запроса, чтобы прервать вызов.
+В приведенном ниже примере запроса на отключение показано, как сформировать запрос на отключение вызова.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -41,13 +41,13 @@ ms.locfileid: "19762134"
 </soap:Envelope>
 ```
 
-## <a name="successful-disconnect-response-example"></a>Пример успешного ответа Disconnect
+## <a name="successful-disconnect-response-example"></a>Пример отклика об успешном отключении
 
 ### <a name="description"></a>Описание
 
-В следующем примере ответа Disconnect показано ответа на запрос отключения.
+В приведенном ниже примере ответа на отключение показан ответ на запрос на отключение.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -60,7 +60,7 @@ ms.locfileid: "19762134"
 
 ## <a name="see-also"></a>См. также
 
-- [Отключите (веб-служба единой системы обмена СООБЩЕНИЯМИ)](disconnect-um-web-service.md) 
-- [DisconnectResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)](disconnectresponse-um-web-service.md) 
-- [CallId (веб-служба единой системы обмена СООБЩЕНИЯМИ)](callid-um-web-service.md)
+- [Отключение (веб-служба единой системы обмена сообщениями)](disconnect-um-web-service.md) 
+- [Дисконнектреспонсе (веб-служба единой системы обмена сообщениями)](disconnectresponse-um-web-service.md) 
+- [CallId (веб-служба единой системы обмена сообщениями)](callid-um-web-service.md)
 

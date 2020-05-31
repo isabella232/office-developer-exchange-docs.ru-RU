@@ -1,5 +1,5 @@
 ---
-title: EmailAddress (NonEmptyStringType)
+title: EmailAddress (Нонемптистрингтипе)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762281"
 ---
-# <a name="emailaddress-nonemptystringtype"></a>EmailAddress (NonEmptyStringType)
+# <a name="emailaddress-nonemptystringtype"></a>EmailAddress (Нонемптистрингтипе)
 
 Элемент **EmailAddress** определяет основной SMTP-адрес пользователя почтового ящика. 
   
@@ -26,10 +26,10 @@ ms.locfileid: "19762281"
 <EmailAddress/>
 ```
 
- **NonEmptyStringType**
+ **нонемптистрингтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -43,17 +43,17 @@ ms.locfileid: "19762281"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ActingAs](actingas.md) <br/> |Определяет, как отправляющего вызывающего абонента.  <br/> |
-|[Mailbox](mailbox.md) <br/> | Определяет адрес электронной почты полностью разрешенной.  <br/><br/>Ниже приведены некоторые выражения XPath для этого элемента.<br/><br/>`/CreateItem/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`/CreateFolder/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`CreateItem/Items/AcceptItem/ToRecipients/Mailbox`<br/><br/>`SyncFolderItemsResponseMessage/Changes/Create/CalendarItem/ConflictingMeetings/AcceptItem/CcRecipients/Mailbox`<br/><br/>Ниже приведены дополнительные родительские элементы элемента почтового ящика.<br/><br/>- [BccRecipients](bccrecipients.md) <br/>- [ReplyTo](replyto.md) <br/>- [Отправитель](sender.md) <br/>- [От](from.md) <br/>- [Организатор](organizer.md) <br/>- [DistinguishedFolderId](distinguishedfolderid.md) <br/>- [Решение](resolution.md) <br/>- [DLExpansion](dlexpansion.md) <br/>- [Участник](attendee.md) <br/> |
-|[RoomList](roomlist.md) <br/> |Определяет список конференц-залы, адрес электронной почты.  <br/> |
+|[актингас](actingas.md) <br/> |Указывает, кому отправляется вызывающий абонент.  <br/> |
+|[Mailbox](mailbox.md) <br/> | Определяет полностью разрешенный адрес электронной почты.  <br/><br/>Ниже приведено несколько выражений XPath для этого элемента:<br/><br/>`/CreateItem/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`/CreateFolder/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`CreateItem/Items/AcceptItem/ToRecipients/Mailbox`<br/><br/>`SyncFolderItemsResponseMessage/Changes/Create/CalendarItem/ConflictingMeetings/AcceptItem/CcRecipients/Mailbox`<br/><br/>Ниже приведены дополнительные родительские элементы элемента Mailbox:<br/><br/>- [BccRecipients](bccrecipients.md) <br/>- [ReplyTo](replyto.md) <br/>- [Организатор](sender.md) <br/>- [От](from.md) <br/>- [Коллекции](organizer.md) <br/>- [дистингуишедфолдерид](distinguishedfolderid.md) <br/>- [Решение](resolution.md) <br/>- [длекспансион](dlexpansion.md) <br/>- [Участника](attendee.md) <br/> |
+|[RoomList](roomlist.md) <br/> |Определяет список комнат для собраний по адресу электронной почты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее SMTP-адрес является обязательным.
+Необходимо указать текстовое значение, представляющее SMTP-адрес.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент **EmailAddress** может представлять SMTP или прежних версий Exchange различающееся имя (DN) адресов. Элемент **EmailAddress** является единственным обязательным элементом [почтового ящика](mailbox.md) . 
+Элемент **EmailAddress** может представлять SMTP-адреса или адреса прежнего различающегося имени Exchange (также известные как DN). Элементом **EmailAddress** является единственный обязательный элемент [почтового ящика](mailbox.md) . 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -63,7 +63,7 @@ ms.locfileid: "19762281"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 

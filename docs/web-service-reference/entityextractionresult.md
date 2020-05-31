@@ -1,5 +1,5 @@
 ---
-title: EntityExtractionResult
+title: ентитекстрактионресулт
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 643b99ab-ff90-4411-864c-1077623028d6
-description: Элемент EntityExtractionResult указывает свойство EntityExtractionResult элемента.
+description: Элемент Ентитекстрактионресулт указывает свойство Ентитекстрактионресулт элемента.
 ms.openlocfilehash: ef99629beb95f1e1123569fa99e3f495c1b56e95
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762371"
 ---
-# <a name="entityextractionresult"></a>EntityExtractionResult
+# <a name="entityextractionresult"></a>ентитекстрактионресулт
 
-Элемент **EntityExtractionResult** указывает свойство **EntityExtractionResult** элемента. 
+Элемент **ентитекстрактионресулт** указывает свойство **ентитекстрактионресулт** элемента. 
   
 ```XML
 <EntityExtractionResult>
@@ -31,10 +31,10 @@ ms.locfileid: "19762371"
 </EntityExtractionResult>
 ```
 
- **EntityExtractionResultType**
+ **ентитекстрактионресулттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,21 +44,21 @@ ms.locfileid: "19762371"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Адреса (ArrayOfAddressEntitiesType)](addresses-arrayofaddressentitiestype.md) <br/> |Указывает массив элементов **AddressEntity** .  <br/> |
-|[MeetingSuggestions](meetingsuggestions.md) <br/> |Указывает массив элементов **MeetingSuggestion** .  <br/> |
+|[Адреса (Аррайофаддрессентитиестипе)](addresses-arrayofaddressentitiestype.md) <br/> |Указывает массив элементов **аддрессентити** .  <br/> |
+|[MeetingSuggestions](meetingsuggestions.md) <br/> |Указывает массив элементов **Свойства meetingsuggestion** .  <br/> |
 |[TaskSuggestions](tasksuggestions.md) <br/> |Указывает массив элементов **TaskSuggestion** .  <br/> |
-|[EmailAddresses (ArrayOfEmailAddressEntitiesType)](emailaddresses-arrayofemailaddressentitiestype.md) <br/> |Указывает массив сущностей, адрес электронной почты.  <br/> |
-|[Контакты (ArrayOfContactsType)](contacts-arrayofcontactstype.md) <br/> |Указывает массив контакты.  <br/> |
-|[URL-адреса (ArrayOfUrlEntitiesType)](urls-arrayofurlentitiestype.md) <br/> |Указывает массив URL-адресов.  <br/> |
-|[PhoneNumbers (ArrayOfPhoneEntitiesType)](phonenumbers-arrayofphoneentitiestype.md) <br/> |Указывает массив телефонных номеров.  <br/> |
+|[EmailAddresses (Аррайофемаиладдрессентитиестипе)](emailaddresses-arrayofemailaddressentitiestype.md) <br/> |Указывает массив сущностей адресов электронной почты.  <br/> |
+|[Contacts (Аррайофконтактстипе)](contacts-arrayofcontactstype.md) <br/> |Указывает массив контактов.  <br/> |
+|[URL-адреса (Аррайофурлентитиестипе)](urls-arrayofurlentitiestype.md) <br/> |Указывает массив URL-адресов.  <br/> |
+|[PhoneNumbers (Аррайоффонинтитиестипе)](phonenumbers-arrayofphoneentitiestype.md) <br/> |Указывает массив телефонных номеров.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемент](item.md) <br/> |Представляет универсальный элемент в хранилище Exchange.  <br/> |
+|[Элемент](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -70,7 +70,7 @@ ms.locfileid: "19762371"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

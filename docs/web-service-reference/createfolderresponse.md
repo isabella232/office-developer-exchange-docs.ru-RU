@@ -1,5 +1,5 @@
 ---
-title: CreateFolderResponse
+title: креатефолдерреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 158adecc-491a-47d9-af73-acc2cd3f8566
-description: Элемент CreateFolderResponse определяет ответ на запрос CreateFolder.
+description: Элемент Креатефолдерреспонсе определяет ответ на запрос CreateFolder.
 ms.openlocfilehash: b584b2bb5514e411d9327c2c9effca4c3feb9b83
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761876"
 ---
-# <a name="createfolderresponse"></a>CreateFolderResponse
+# <a name="createfolderresponse"></a>креатефолдерреспонсе
 
-Элемент **CreateFolderResponse** определяет ответ на запрос CreateFolder. 
+Элемент **креатефолдерреспонсе** определяет ответ на запрос CreateFolder. 
   
 ```xml
 <CreateFolderResponse>
@@ -29,10 +29,10 @@ ms.locfileid: "19761876"
 </CreateFolderResponse>
 ```
 
- **CreateFolderResponseType**
+ **креатефолдерреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19761876"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,14 +58,14 @@ ms.locfileid: "19761876"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[CreateFolder Operation](createfolder-operation.md)
+[Операция CreateFolder](createfolder-operation.md)
   
 [CreateFolder](createfolder.md)
 

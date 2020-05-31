@@ -1,5 +1,5 @@
 ---
-title: EventDescription
+title: евентдескриптион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7642cb03-71b1-4773-9508-4fbe3a5dcdf4
-description: Элемент EventDescription
+description: Элемент Евентдескриптион
 ms.openlocfilehash: d496e6d2a61b4a72954b25fe3c5362f82aabf143
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762398"
 ---
-# <a name="eventdescription"></a>EventDescription
+# <a name="eventdescription"></a>евентдескриптион
 
-Элемент **EventDescription** 
+Элемент **евентдескриптион** 
   
 ```xml
 <EventDescription/>
 ```
 
- **MessageTrackingEventDescriptionType**
+ **мессажетраккинжевентдескриптионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,46 +44,46 @@ ms.locfileid: "19762398"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> ||
+|[реЦипиенттраккинжевент](recipienttrackingevent.md) <br/> ||
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **EventDescription** . 
+В следующей таблице приведены возможные значения для элемента **евентдескриптион** . 
   
-**Значения элементов EventDescription**
+**Значения элементов Евентдескриптион**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
 |Submitted  <br/> ||
-|Разрешить  <br/> ||
-|Расширенное  <br/> ||
-|Доставлено  <br/> ||
-|MovedToFolderByInboxRule  <br/> ||
-|RulesCc  <br/> ||
-|FailedGeneral  <br/> ||
-|FailedModeration  <br/> ||
-|FailedTransportRules  <br/> ||
+|Устранено  <br/> ||
+|Развернуто  <br/> ||
+|Отобран  <br/> ||
+|моведтофолдербинбоксруле  <br/> ||
+|рулескк  <br/> ||
+|фаиледженерал  <br/> ||
+|фаиледмодератион  <br/> ||
+|фаиледтранспортрулес  <br/> ||
 |SmtpSend  <br/> ||
-|SmtpSendCrossSite  <br/> ||
-|SmtpSendCrossForest  <br/> ||
+|смтпсендкросссите  <br/> ||
+|смтпсендкроссфорест  <br/> ||
 |SmtpReceive  <br/> ||
-|Пересылку  <br/> ||
-|Ожидание  <br/> ||
-|PendingModeration  <br/> ||
-|ApprovedModeration  <br/> ||
-|QueueRetry  <br/> ||
-|QueueRetryNoRetryTime  <br/> ||
-|MessageDefer  <br/> ||
-|TransferredToForeignOrg  <br/> ||
-|TransferredToPartnerOrg  <br/> ||
-|TransferredToLegacyExchangeServer  <br/> ||
-|DelayedAfterTransferToPartnerOrg  <br/> ||
+|Пересылаются  <br/> ||
+|Pending  <br/> ||
+|пендингмодератион  <br/> ||
+|аппроведмодератион  <br/> ||
+|куеуеретри  <br/> ||
+|куеуеретриноретритиме  <br/> ||
+|мессажедефер  <br/> ||
+|трансферредтофореигнорг  <br/> ||
+|трансферредтопартнерорг  <br/> ||
+|трансферредтолегациексчанжесервер  <br/> ||
+|делайедафтертрансфертопартнерорг  <br/> ||
 |Чтение  <br/> ||
-|NotRead  <br/> ||
+|нотреад  <br/> ||
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает сервер Microsoft Exchange с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -91,7 +91,7 @@ ms.locfileid: "19762398"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

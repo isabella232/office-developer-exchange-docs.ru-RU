@@ -1,5 +1,5 @@
 ---
-title: HasQuota
+title: хаскуота
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: b6e4fef0-92a9-415f-81ae-0c5ecb7c12ad
-description: Элемент HasQuota указывает, будет ли управляемой папки квоту.
+description: Элемент Хаскуота указывает, есть ли у управляемой папки квота.
 ms.openlocfilehash: 26f14ee7c9d4de267733bca11f7884d1d391b3dd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833807"
 ---
-# <a name="hasquota"></a>HasQuota
+# <a name="hasquota"></a>хаскуота
 
-Элемент **HasQuota** указывает, будет ли управляемой папки квоту. 
+Элемент **хаскуота** указывает, есть ли у управляемой папки квота. 
   
 ```xml
 <HasQuota/>
@@ -30,7 +30,7 @@ ms.locfileid: "19833807"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19833807"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ManagedFolderInformation](managedfolderinformation.md) <br/> |Содержит сведения об управляемых папок.  <br/> |
+|[манажедфолдеринформатион](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет значение типа Boolean. Значение **true** означает, что папка квот; значение **false** указывает, что папка не имеет квоты. 
+Текстовое значение представляет логическое значение. Значение **true** указывает, что папка имеет квоту; значение **false** указывает, что у папки нет квоты. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19833807"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

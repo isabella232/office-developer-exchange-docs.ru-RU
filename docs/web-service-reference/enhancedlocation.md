@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4fdfb74f-f33c-46ae-a7c7-451a5b0c6a59
-description: Элемент EnhancedLocation определяет сведения о расположении таких как имя, адрес и необязательные замечания о расположении.
+description: Элемент Енханцедлокатион указывает сведения о расположении, такие как имя, адрес и дополнительные примечания о расположении.
 ms.openlocfilehash: 90397cfc622fed40c561d30c13d6617eb979a68a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19762361"
 ---
 # <a name="enhancedlocation"></a>EnhancedLocation
 
-Элемент **EnhancedLocation** определяет сведения о расположении таких как имя, адрес и необязательные замечания о расположении. 
+Элемент **енханцедлокатион** указывает сведения о расположении, такие как имя, адрес и дополнительные примечания о расположении. 
   
 ```XML
 <EnhancedLocation>
@@ -27,10 +27,10 @@ ms.locfileid: "19762361"
 </EnhancedLocation>
 ```
 
- **EnhancedLocationType**
+ **енханцедлокатионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,19 +40,19 @@ ms.locfileid: "19762361"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Отображаемое имя (строка)](displayname-string.md) <br/> |Задает отображаемое имя папки, контактов, список рассылки, делегата, расположение или правило.  <br/> |
-|[Заметки](annotation.md) <br/> |Содержит дополнительные примечания, добавлена пользователем.  <br/> |
-|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Указывает почтовый адрес для пользователя.  <br/> |
+|[DisplayName (строка)](displayname-string.md) <br/> |Определяет отображаемое имя папки, контакта, списка рассылки, делегата, расположения или правила.  <br/> |
+|[Метка](annotation.md) <br/> |Содержит дополнительные примечания, добавленные пользователем.  <br/> |
+|[Посталаддресс (Персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md) <br/> |Указывает почтовый адрес пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -64,7 +64,7 @@ ms.locfileid: "19762361"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

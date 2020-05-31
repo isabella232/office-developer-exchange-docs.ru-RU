@@ -1,5 +1,5 @@
 ---
-title: GetEventsResponse
+title: жетевентсреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5b735d19-55ae-4e6f-a5e3-2bfbdf3d8749
-description: Элемент GetEventsResponse представляет ответ на запрос GetEvents.
+description: Элемент Жетевентсреспонсе представляет ответ на запрос событий с событиями.
 ms.openlocfilehash: caef7a28a6e644bf2818b57d53e6f22d6e7896f8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762771"
 ---
-# <a name="geteventsresponse"></a>GetEventsResponse
+# <a name="geteventsresponse"></a>жетевентсреспонсе
 
-Элемент **GetEventsResponse** представляет ответ на запрос GetEvents. 
+Элемент **жетевентсреспонсе** представляет ответ на запрос событий с событиями. 
   
 ```xml
 <GetEventsResponse>
@@ -29,10 +29,10 @@ ms.locfileid: "19762771"
 </GetEventsResponse>
 ```
 
- **GetEventsResponseType**
+ **жетевентсреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19762771"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762771"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 

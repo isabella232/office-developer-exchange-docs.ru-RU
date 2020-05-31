@@ -1,11 +1,11 @@
 ---
-title: Работа с папками с помощью веб-служб Exchange в Exchange
+title: Работа с папками с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4b3eb746-74c4-42a0-aa2c-742c147f1871
-description: Узнайте, как создание, получение, обновление и удаление папок с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как создавать, получать, обновлять и удалять папки с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: a9a9e5974b2751268f37a1c9faacce43a333bcdb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,30 +13,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761149"
 ---
-# <a name="work-with-folders-by-using-ews-in-exchange"></a>Работа с папками с помощью веб-служб Exchange в Exchange
+# <a name="work-with-folders-by-using-ews-in-exchange"></a>Работа с папками с помощью EWS в Exchange
 
-Узнайте, как создание, получение, обновление и удаление папок с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как создавать, получать, обновлять и удалять папки с помощью управляемого API EWS или EWS в Exchange.
   
-ВЕБ-службах Exchange использует папки для структурирования и организации почтовых ящиков. Можно создать новый, получение, обновление и удаление папок с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange. Каждый из методов или операции, перечисленные в следующей таблице выполняется на объект [Folder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx) , типа [папки](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) или [один из папки производные классы или типы](folders-and-items-in-ews-in-exchange.md#bk_folders).
+Для структурирования и упорядочивания почтовых ящиков в Exchange используются папки. Вы можете создавать новые, получать, обновлять и удалять папки с помощью управляемого API EWS или EWS. Каждый метод или операции, перечисленные в следующей таблице, выполняются для объекта [Folder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx) , типа [папки](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) или [одного из классов или типов производной папки](folders-and-items-in-ews-in-exchange.md#bk_folders).
   
-**В таблице 1. Методы и операции создание, получение, обновление и удаление папок**
+**Таблица 1. Методы и операции для создания, возврата, обновления и удаления папок**
 
-|**Чтобы...**|**Метод управляемого API EWS**|**Операция служб EWS**|
+|**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Создайте папку  <br/> |[Folder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
-|Создание иерархии папок  <br/> |Недоступна  <br/> |[CreateFolderPath](http://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |
-|Получение папки  <br/> |[Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> |[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |
-|Получение иерархии папок  <br/> |[Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
-|Изменение папки  <br/> |[Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
-|Удаление папки  <br/> |[Folder.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> |[DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |
+|Создание папки  <br/> |[Folder. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
+|Создание иерархии папок  <br/> |Недоступно  <br/> |[CreateFolderPath](http://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |
+|Получение папки  <br/> |[Folder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> |[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |
+|Получение иерархии папок  <br/> |[Folder. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
+|Обновление папки  <br/> |[Folder. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
+|Удаление папки  <br/> |[Folder. Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> |[DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |
 
 <a name="bk_createfolderewsma"> </a>
 
-## <a name="create-a-folder-by-using-the-ews-managed-api"></a>Создайте папку с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="create-a-folder-by-using-the-ews-managed-api"></a>Создание папки с помощью управляемого API EWS
 
-В следующем примере кода показано, как использовать класс [папку](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx) для создания новой общей папки с [DisplayName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx) «Настраиваемые папки» и значение свойства [FolderClass](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.folderclass%28v=exchg.80%29.aspx) IPF. Примечание. Метод [Folder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) сохраняет папку в качестве дочерней папки «Входящие». 
+В приведенном ниже примере кода показано, как использовать класс [Folder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx) для создания новой универсальной папки с [отображаемым именем](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx) "Custom Folder" и значением свойства [фолдеркласс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.folderclass%28v=exchg.80%29.aspx) для платформы IPF. Ноте. Метод [Folder. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) сохраняет папку в качестве дочерней папки папки "Входящие". 
   
-В этих примерах предполагается этой **службы** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. 
+В этих примерах предполагается, что **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и что пользователь прошел проверку подлинности на сервере Exchange. 
   
 ```cs
 // Create a custom folder.
@@ -47,7 +47,7 @@ folder.FolderClass = "IPF.Note";
 folder.Save(WellKnownFolderName.Inbox);
 ```
 
-Для создания другого типа папки, например [CalendarFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarfolder%28v=exchg.80%29.aspx), [ContactsFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contactsfolder%28v=exchg.80%29.aspx), [SearchFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)или [TasksFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx), создайте новый экземпляр объекта определенного класса (а не универсальный класс **папки** ) и не задана Свойство **FolderClass** . Например в следующем примере кода показано, как создать новый [TasksFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx).
+Чтобы создать папку другого типа, например, [календарфолдер](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarfolder%28v=exchg.80%29.aspx), [контактсфолдер](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contactsfolder%28v=exchg.80%29.aspx), [SearchFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)или [тасксфолдер](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx), создайте новый экземпляр определенного класса (вместо универсального класса **папки** ) и не задавайте свойство **фолдеркласс** . Например, в приведенном ниже примере кода показано, как создать новый объект [тасксфолдер](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx).
   
 ```cs
 // Create a custom Tasks folder.
@@ -58,18 +58,18 @@ folder.DisplayName = "Custom Tasks";
 folder.Save(WellKnownFolderName.Inbox);
 ```
 
-При попытке создать экземпляр определенного класса, а также необходимо задать свойство **FolderClass** , возникает ошибка [ErrorNoFolderClassOverride](http://msdn.microsoft.com/en-us/library/exchangewebservices.responsecodetype%28v=exchg.80%29.aspx) . 
+Если вы попытаетесь создать экземпляр определенного класса, а также задать свойство **фолдеркласс** , будет выдано сообщение об ошибке [еррорнофолдерклассоверриде](http://msdn.microsoft.com/en-us/library/exchangewebservices.responsecodetype%28v=exchg.80%29.aspx) . 
   
-Обратите внимание, что нельзя Пакетное создание несколько папок в одном методе с помощью управляемого интерфейса API веб-служб Exchange.
+Обратите внимание, что вы не можете пакетно создавать несколько папок в рамках одного вызова метода с помощью управляемого API EWS.
   
-## <a name="create-a-folder-by-using-ews"></a>Создайте папку с помощью веб-служб Exchange
+## <a name="create-a-folder-by-using-ews"></a>Создание папки с помощью EWS
 <a name="bk_createfolderews"> </a>
 
-Можно создать несколько папок или одной папке с помощью веб-служб Exchange.
+С помощью EWS можно создать одну папку или несколько папок.
   
-Для создания единого папки, отправьте сообщение [CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) операции запроса. Запрос операции **CreateFolder** указывает, что родительской папки — это папки «Входящие», [DisplayName](http://msdn.microsoft.com/library/e7efbbe1-6629-4d11-bed1-ed899e3f9d77%28Office.15%29.aspx) — это «Настраиваемая папка» и значения элемента [FolderClass](http://msdn.microsoft.com/library/0041d135-2869-4612-89a5-d1aa86aa1093%28Office.15%29.aspx) является IPF. Примечание. 
+Чтобы создать одну папку, отправьте сообщение запроса операции [CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) . Запрос операции **CreateFolder** указывает на то, что родительской папкой является папка "Входящие", [DisplayName](http://msdn.microsoft.com/library/e7efbbe1-6629-4d11-bed1-ed899e3f9d77%28Office.15%29.aspx) — "Custom Folder", а значение элемента [фолдеркласс](http://msdn.microsoft.com/library/0041d135-2869-4612-89a5-d1aa86aa1093%28Office.15%29.aspx) — IPF. Ноте. 
   
-Это также XML-запрос, который отправляет управляемый API EWS при создании новой папки и вызовите метод [Folder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) . 
+Это также запрос XML, который управляемый API EWS отправляет, когда вы создаете новую папку и вызываете метод [Folder. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -96,24 +96,24 @@ folder.Save(WellKnownFolderName.Inbox);
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **CreateFolder** [CreateFolderResponse](http://msdn.microsoft.com/library/158adecc-491a-47d9-af73-acc2cd3f8566%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) **NoError**, это означает, что папка была создана успешно, и [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) из только что созданный сообщение. 
+Сервер отвечает на запрос **CreateFolder** с сообщением [креатефолдерреспонсе](http://msdn.microsoft.com/library/158adecc-491a-47d9-af73-acc2cd3f8566%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) **, указывающее, что**папка была успешно создана, и [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) созданного сообщения. 
   
-Чтобы создать несколько папок, включают несколько элементов [папки](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) в сообщении **CreateFolder** операции запроса. Все новые папки должен быть в одной родительской папке. 
+Чтобы создать несколько папок, включите несколько элементов [Folder](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) в сообщение запроса операции **CreateFolder** . Все новые папки должны находиться в одной родительской папке. 
   
-## <a name="create-a-folder-hierarchy-by-using-ews"></a>Создание иерархии папок с помощью веб-служб Exchange
+## <a name="create-a-folder-hierarchy-by-using-ews"></a>Создание иерархии папок с помощью EWS
 <a name="bk_createfolderhierarchy"> </a>
 
-Можно создать иерархии папок в одном вызове с помощью операции EWS [CreateFolderPath](http://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) . Те же функциональные возможности недоступен в управляемый API веб-служб Exchange. Вместо этого при использовании управляемого интерфейса API веб-служб Exchange, можно создавать папки по одному, как показано в разделе [Создание папки с помощью веб-служб Exchange](#bk_createfolderews).
+Вы можете создать иерархию папок в едином вызове с помощью операции [CREATEFOLDERPATH](http://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) EWS. Эта функция недоступна в управляемом API EWS. Вместо этого, если вы используете управляемый API EWS, вы можете создавать папки по одному, как показано в разделе [Создание папки с помощью EWS](#bk_createfolderews).
   
 > [!NOTE]
 > Управляемый API EWS не реализует эту функцию. 
   
-## <a name="get-a-folder-by-using-the-ews-managed-api"></a>Получение папки с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-a-folder-by-using-the-ews-managed-api"></a>Получение папки с помощью управляемого API EWS
 <a name="bk_getfolderewsma"> </a>
 
-В следующем примере кода показано, как использовать метод [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) для получения папке "Входящие". Рекомендуется ограничивайте возвращаемые только теми, необходимый для приложения свойства. В этом примере ограничивается возвращаемого свойства можно включить только свойство [Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) , создав объект [PropertySet](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) и применения [IdOnly](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.basepropertyset%28v=exchg.80%29.aspx) значения для свойства [BasePropertySet](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset.basepropertyset%28v=exchg.80%29.aspx) . 
+В приведенном ниже примере кода показано, как использовать метод [Folder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) для получения папки "Входящие". Рекомендуется ограничить возвращаемые свойства только теми, которые необходимы для вашего приложения. В этом примере показано, как ограничить возвращаемые свойства только свойством [ID](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) , создав объект набор [свойств](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) и применяя значение [идонли](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.basepropertyset%28v=exchg.80%29.aspx) к свойству [басепропертисет](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset.basepropertyset%28v=exchg.80%29.aspx) . 
   
-В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 // As a best practice, limit the properties returned to only those that are required.
@@ -124,20 +124,20 @@ PropertySet propSet = new PropertySet(BasePropertySet.IdOnly);
 Folder rootfolder = Folder.Bind(service, WellKnownFolderName.Inbox, propSet);
 ```
 
-Если вам потребуется получить дополнительные свойства, добавьте свойства из класса [FolderSchema](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderschema%28v=exchg.80%29.aspx) **PropertySet**или использовать один из перегруженных методов [привязки](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) , которые возвращаются все свойства первого класса. 
+Если необходимо вернуть дополнительные свойства, добавьте свойства из класса [фолдерсчема](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderschema%28v=exchg.80%29.aspx) в набор **свойств**или используйте один из перегруженных методов [BIND](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) , которые возвращают все свойства первого класса. 
   
-Следует отметить, что нельзя одновременно несколько папок с помощью управляемого интерфейса API веб-служб Exchange. Необходимо вызвать метод **привязки** для каждой папки отдельно. 
+Обратите внимание, что вы не можете получить несколько папок одновременно с помощью управляемого API EWS. Метод **BIND** необходимо вызывать отдельно для каждой папки. 
   
-## <a name="get-a-folder-by-using-ews"></a>Получение папки с помощью веб-служб Exchange
+## <a name="get-a-folder-by-using-ews"></a>Получение папки с помощью EWS
 <a name="bk_getfolderews"> </a>
 
-Можно получить одной папке или несколько папок с помощью веб-служб Exchange.
+С помощью EWS можно получить одну или несколько папок.
   
-Для получения одной папке отправьте сообщение [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) операция запроса к серверу. В следующем примере устанавливается [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) для **IdOnly**, возвращается только [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) указанной папки. Элемент [FolderIds](http://msdn.microsoft.com/library/3ff9d15a-7220-4785-ae6b-583a7eb82005%28Office.15%29.aspx) указывает, что папка для извлечения папки "Входящие". 
+Чтобы получить одну папку, отправьте серверу сообщение с запросом на выполнение операции с [папкой](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) . В следующем примере для параметра [басешапе](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) задано значение **идонли**, поэтому возвращается только [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) указанной папки. Элемент [фолдеридс](http://msdn.microsoft.com/library/3ff9d15a-7220-4785-ae6b-583a7eb82005%28Office.15%29.aspx) указывает, что извлекаемой папкой является папка "Входящие". 
   
-Это также XML-запрос, который отправляет управляемый API EWS при связывании в папку с помощью метода [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) . 
+Это также запрос XML, который управляемый API EWS отправляет при выполнении связывания с папкой с помощью метода [Folder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) . 
   
-Чтобы получить несколько папок, включают несколько элементов [FolderIds](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) в сообщении **GetFolder** операции запроса. 
+Чтобы получить несколько папок, включите несколько элементов [фолдеридс](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) в сообщение с запросом операции "операция с **папкой** ". 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -158,7 +158,7 @@ Folder rootfolder = Folder.Bind(service, WellKnownFolderName.Inbox, propSet);
 </soap:Envelope>
 ```
 
-В следующем примере XML показано [GetFolderResponse](http://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) сообщение, которое отправляется с сервера на клиент в ответ на запрос операции **GetFolder** . Содержит только значение [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) папки "Входящие". Для удобства чтения URL были сокращены значения некоторые атрибуты и элементы. 
+В следующем примере XML-кода показано сообщение [жетфолдерреспонсе](http://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) , которое отправляется от сервера клиенту в ответ на запрос операции- **папки** . Он содержит только значение [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) папки "Входящие". Для удобства значения некоторых атрибутов и элементов были сокращены. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -193,14 +193,14 @@ Folder rootfolder = Folder.Bind(service, WellKnownFolderName.Inbox, propSet);
 </s:Envelope>
 ```
 
-## <a name="get-a-folder-hierarchy-by-using-the-ews-managed-api"></a>Получение иерархии папок с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-a-folder-hierarchy-by-using-the-ews-managed-api"></a>Получение иерархии папок с помощью управляемого API EWS
 <a name="bk_getfolderhierarchyewsma"> </a>
 
-В следующем примере кода показано, как получить вложенные папки для указанной корневой папке. В этом примере показано получение вложенные папки в папку **MsgFolderRoot** , которая является корневым каталогом поддерева IPM (папки почтовых ящиков и элементы хранения). 
+В приведенном ниже примере кода показано, как получить вложенные папки для указанной корневой папки. В этом примере извлекаются подпапки папки **мсгфолдеррут** , которая является корнем поддерева IPM (где хранятся папки и элементы почтовых ящиков). 
   
-В этом примере объект класса [FolderView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx) создается для ограничения результатов ответа метода [Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) . Этот сценарий ограничивает возвращаемых для следующих свойств: [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx), [DisplayName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx)и расширенные свойства, которое указывает, является ли папка является скрытым. Задайте значение [FolderView.Traversal](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview.traversal%28v=EXCHG.80%29.aspx) глубокое для выполнения рекурсивный поиск, чтобы сервер получает вложенных папок, а значение в корневой папке **MsgFolderRoot**, чтобы сервер возвращает все папках пользователя (и сервер не возвращает системные папки поддерева IPM не).
+В этом примере создается объект класса [FolderView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx) для ограничения результатов для ответа метода [Folder. финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) . В этом сценарии свойства возвращаются следующим образом: [ID](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx), [DisplayName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx)и расширенное свойство, которое указывает, является ли эта папка скрытой. Задайте для свойства [FolderView. обход](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview.traversal%28v=EXCHG.80%29.aspx) значение Deep, чтобы выполнить рекурсивный поиск, чтобы сервер возвращал подпапки, и присвойте корневому каталогу значение **мсгфолдеррут**, чтобы сервер возвращал все папки пользователя (а сервер не возвращал системные папки в поддереве без IPM).
   
-В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```XML
 // Create a new folder view, and pass in the maximum number of folders to return.
@@ -219,12 +219,12 @@ view.Traversal = FolderTraversal.Deep;
 FindFoldersResults findFolderResults = service.FindFolders(WellKnownFolderName.MsgFolderRoot, view);
 ```
 
-## <a name="get-a-folder-hierarchy-by-using-ews"></a>Получение иерархии папок с помощью веб-служб Exchange
+## <a name="get-a-folder-hierarchy-by-using-ews"></a>Получение иерархии папок с помощью EWS
 <a name="bk_getfolderhierarchyews"> </a>
 
-В следующих примерах XML для получения иерархии папок с помощью веб-служб Exchange с помощью операции [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) . В этом примере извлекается в папку **msgfolderroot** , которая является корневым каталогом поддерева IPM и все вложенные папки. Атрибут **обхода** присваивается **глубокое** , чтобы сервер выполняет рекурсивный поиск в иерархии папок и возвращает только папки и вложенные папки в корневом каталоге указанного в ответе. В следующем примере элемент [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) присваивается **IdOnly** , чтобы сервер только возвращает элемент [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) . Чтобы облегчить понимание выходные данные, включите элемент **DisplayName** в результатах, включив в элемент [AdditionalProperties](http://msdn.microsoft.com/library/7a269aed-dcfd-4c3e-9e14-094e53828101%28Office.15%29.aspx) в запросе, а также значение **ExtendedFieldURI** для **PR_ATTR_HIDDEN** свойства, чтобы знать, являются ли папки скрытые папки. 
+В следующих примерах XML показано, как использовать операцию [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) для получения иерархии папок с помощью EWS. В этом примере показано получение папки **мсгфолдеррут** , которая является корнем поддерева IPM, и всех вложенных в нее папок. Атрибуту **прохождения** присвоено значение **Deep** , чтобы сервер выполнял рекурсивный поиск в иерархии папок и возвращал только папки и вложенные папки в указанном корне в ответе. В этом примере элемент [басешапе](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) имеет значение **идонли** , чтобы сервер возвращал только элемент [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) . Чтобы легче было понять выходные данные, включите элемент **DisplayName** в результаты, включив его в элемент [аддитионалпропертиес](http://msdn.microsoft.com/library/7a269aed-dcfd-4c3e-9e14-094e53828101%28Office.15%29.aspx) в запросе вместе со значением **екстендедфиелдури** для свойства **PR_ATTR_HIDDEN** , чтобы узнать, являются ли папки скрытыми папками. 
   
-Это также запроса XML, то при вызове метода [FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) отправляет управляемый API веб-служб Exchange. 
+Это также запрос XML, который управляемый API EWS отправляет при вызове метода [финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -256,9 +256,9 @@ FindFoldersResults findFolderResults = service.FindFolders(WellKnownFolderName.M
 </soap:Envelope>
 ```
 
-В следующем примере XML показано [FindFolderResponse](http://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) сообщение, которое отправляется с сервера на клиент в ответ на запрос операции **FindFolder** . Он содержит только [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx), [DisplayName](http://msdn.microsoft.com/library/e7efbbe1-6629-4d11-bed1-ed899e3f9d77%28Office.15%29.aspx), и значение **PR_ATTR_HIDDEN** расширенные свойства для всех вложенных папок в папке **msgrootfolder** . Если [значение](http://msdn.microsoft.com/library/9a30cadd-909e-41b1-b4e9-291643dd89c6%28Office.15%29.aspx) элемента задано значение true, папка должны быть скрыты в представлении клиента. 
+В следующем примере XML-кода показано сообщение [финдфолдерреспонсе](http://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) , которое отправляется от сервера клиенту в ответ на запрос операции **FindFolder** . Он содержит только [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx), [DisplayName](http://msdn.microsoft.com/library/e7efbbe1-6629-4d11-bed1-ed899e3f9d77%28Office.15%29.aspx)и значение расширенного свойства **PR_ATTR_HIDDEN** для всех вложенных папок в папке **мсгрутфолдер** . Если для элемента [value](http://msdn.microsoft.com/library/9a30cadd-909e-41b1-b4e9-291643dd89c6%28Office.15%29.aspx) задано значение true, папка должна быть скрыта в клиентском представлении. 
   
-Это также XML-ответ, который отправляет управляемый API веб-служб Exchange, когда вы получаете несколько папок с помощью метода [FindFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) . Значения некоторые атрибуты и элементы URL были сокращены для удобства чтения и некоторые папки не были включены для краткости. 
+Кроме того, это XML-ответ, который управляемый API EWS отправляет при получении нескольких папок с помощью метода [FindFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) . Значения некоторых атрибутов и элементов были сокращены для удобочитаемости, а некоторые папки не были включены для краткости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -334,14 +334,14 @@ FindFoldersResults findFolderResults = service.FindFolders(WellKnownFolderName.M
 </s:Envelope>
 ```
 
-## <a name="update-a-folder-by-using-the-ews-managed-api"></a>Изменение папки с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="update-a-folder-by-using-the-ews-managed-api"></a>Обновление папки с помощью управляемого API EWS
 <a name="bk_updatefolderewsma"> </a>
 
-В следующем примере кода показано, как обновить отображаемое имя папки с помощью управляемого интерфейса API веб-служб Exchange.
+В приведенном ниже примере кода показано, как обновить отображаемое имя папки с помощью управляемого API EWS.
   
-Во-первых создайте [PropertySet](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) , чтобы ограничить число свойств, которые сервер возвращает в ответе [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) . Мы рекомендуем использовать **IdOnly** **BasePropertySet** для уменьшения обращений к базе данных Exchange. Затем используйте метод **Bind** для привязки к папке требуется обновить. Затем обновите свойство [DisplayName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx) и используйте метод [Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) для сохранения изменений. 
+Сначала создайте набор [свойств](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) , чтобы ограничить число свойств, возвращаемых сервером в ответе [Folder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) . Рекомендуется использовать **Басепропертисет** **идонли** для уменьшения числа вызовов к базе данных Exchange. Затем используйте метод **BIND** для связывания с папкой, которую требуется обновить. Затем обновите свойство [DisplayName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx) и используйте метод [Folder. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) , чтобы сохранить изменения. 
   
-В этом примере мы предполагаем этой **службы** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. Локальной переменной *folderId* — это [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) папки для обновления. 
+В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и что пользователь прошел проверку подлинности на сервере Exchange. Локальная переменная *FolderId* — это [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) обновляемой папки. 
   
 ```cs
 // As a best practice, only include the ID value in the PropertySet.
@@ -357,16 +357,16 @@ folder.Update();
 
 ```
 
-## <a name="update-a-folder-by-using-ews"></a>Изменение папки с помощью веб-служб Exchange
+## <a name="update-a-folder-by-using-ews"></a>Обновление папки с помощью EWS
 <a name="bk_updatefolderews"> </a>
 
-В следующих примерах XML показано, как обновить отображаемое имя папки с помощью веб-служб Exchange.
+В приведенных ниже примерах XML-кода показано, как обновить отображаемое имя папки с помощью EWS.
   
-Во-первых отправьте сообщение [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) операция запроса на получение папки для обновления, как показано в [Начало иерархии папок с помощью веб-служб Exchange](#bk_getfolderhierarchyews).
+Сначала отправьте сообщение с запросом на выполнение операции с [папкой](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) , чтобы получить обновляемую папку, как показано в разделе [получение иерархии папок с помощью EWS](#bk_getfolderhierarchyews).
   
-Затем отправьте сообщение [UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) операция запроса сервером, чтобы обновить папку. Запрос операции **UpdateFolder** обновляет [DisplayName](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) «Обновить папку Custom». 
+Затем отправьте серверу сообщение с запросом на выполнение операции [операцию UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) , чтобы обновить папку. Запрос операции **операцию UpdateFolder** обновляет [DisplayName](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) на "обновленную настраиваемую папку". 
   
-Это также XML-запрос, который отправляет управляемый API EWS при обновлении папки с помощью метода [Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) . Для удобства чтения URL были сокращены значения некоторые атрибуты и элементы. 
+Это также запрос XML, который отправляет управляемый API EWS при обновлении папки с помощью метода [Folder. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) . Для удобства значения некоторых атрибутов и элементов были сокращены. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -394,16 +394,16 @@ folder.Update();
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **UpdateFolder** [UpdateFolderResponse](http://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) **NoError**и [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) папки, которая была обновлена с обновленные ** ChangeKey** значение атрибута. 
+Сервер отвечает на запрос **операцию UpdateFolder** с сообщением [упдатефолдерреспонсе](http://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) , равное **ошибке**, и [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) папки, которая была обновлена с помощью обновленного значения атрибута **чанжекэй** . 
   
-## <a name="delete-a-folder-by-using-the-ews-managed-api"></a>Удаление папки с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="delete-a-folder-by-using-the-ews-managed-api"></a>Удаление папки с помощью управляемого API EWS
 <a name="bk_deletefolderewsma"> </a>
 
-В этой статье приводятся основные пример, в котором показано, как удалить папку с помощью управляемого интерфейса API веб-служб Exchange. Для получения дополнительных сведений об удалении папок видеть [Удаление элементов с помощью веб-служб Exchange в Exchange](deleting-items-by-using-ews-in-exchange.md).
+В этой статье представлен простой пример, в котором показано, как удалить папку с помощью управляемого API EWS. Более подробную информацию об удалении папок [можно узнать в статье Удаление элементов с помощью EWS в Exchange](deleting-items-by-using-ews-in-exchange.md).
   
-Чтобы удалить папку с помощью управляемого интерфейса API веб-служб Exchange, во-первых, используйте метод [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) для привязки к объекту службы в папку для удаления. Затем используйте метод [Folder.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) удалить папку с помощью режима удаления [HardDelete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.deletemode%28v=exchg.80%29.aspx) . 
+Чтобы удалить папку с помощью управляемого API EWS, сначала используйте метод [Folder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) для связывания с объектом службы с удаляемой папкой. Затем используйте метод [Folder. Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) для удаления папки с помощью режима удаления [HardDelete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.deletemode%28v=exchg.80%29.aspx) . 
   
-В этом примере предполагается, что эта **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь прошел проверку подлинности на сервере Exchange. Локальной переменной *folderId* — это [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) папки для удаления. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. Локальная переменная *FolderId* — [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) удаляемой папки. 
   
 ```cs
 // Bind to an existing folder and get all its properties.
@@ -414,16 +414,16 @@ Folder folder = Folder.Bind(service, folderId);
 folder.Delete(DeleteMode.HardDelete);
 ```
 
-## <a name="delete-a-folder-by-using-ews"></a>Удаление папки с помощью веб-служб Exchange
+## <a name="delete-a-folder-by-using-ews"></a>Удаление папки с помощью EWS
 <a name="bk_deletefolderews"> </a>
 
-В этой статье приводятся основные примере XML-кода показано, как удалить папку с помощью веб-служб Exchange. Для получения дополнительных сведений об удалении папок видеть [Удаление элементов с помощью веб-служб Exchange в Exchange](deleting-items-by-using-ews-in-exchange.md).
+В этой статье представлен базовый пример кода XML, в котором показано, как удалить папку с помощью EWS. Более подробную информацию об удалении папок [можно узнать в статье Удаление элементов с помощью EWS в Exchange](deleting-items-by-using-ews-in-exchange.md).
   
-Удалить папку с помощью веб-служб Exchange, во-первых, отправьте сообщение [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) операция запроса на получение папки для обновления, как показано на [Получение папки с помощью веб-служб Exchange](#bk_getfolderews). 
+Чтобы удалить папку с помощью EWS, сначала отправьте сообщение с запросом операции "операция с [папкой](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) ", чтобы получить обновляемую папку, как показано в разделе [Получение папки с помощью EWS](#bk_getfolderews). 
   
-Далее отправьте сообщение [DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) операция запроса сервером, чтобы удалить папку. Запрос операции **DeleteFolder** указывает, что **DeleteType** **HardDelete** и включает [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) папки для удаления. 
+Затем отправьте серверу запрос на получение сообщения об операции [DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) , чтобы удалить папку. Запрос операции **DeleteFolder** указывает на то, что **делететипе** является **HardDelete** и включает [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) папки для удаления. 
   
-Это также XML-запрос, который отправляет управляемый API EWS при удалении папки с помощью метода [Folder.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) . Для удобства чтения URL были сокращены значения некоторые атрибуты и элементы. 
+Это также запрос XML, который отправляет управляемый API EWS при удалении папки с помощью метода [Folder. Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) . Для удобства значения некоторых атрибутов и элементов были сокращены. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -444,18 +444,18 @@ folder.Delete(DeleteMode.HardDelete);
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **DeleteFolder** [DeleteFolderResponse](http://msdn.microsoft.com/library/27578bda-ef0a-4a33-bccc-2c1bc1735424%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) **NoError**, это означает, что удаление папки прошла успешно.
+Сервер отвечает на запрос **DeleteFolder** с сообщением [делетефолдерреспонсе](http://msdn.microsoft.com/library/27578bda-ef0a-4a33-bccc-2c1bc1735424%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) , равное **ошибке**, что указывает на то, что удаление папки прошло успешно.
   
 ## <a name="next-steps"></a>Дальнейшие действия
 <a name="bk_nextsteps"> </a>
 
-После извлечения папок на сервере, или внесенные изменения к папкам, может потребоваться [Синхронизация иерархии папок](how-to-synchronize-folders-by-using-ews-in-exchange.md) или [подписаться на уведомления об изменениях в папку](notification-subscriptions-mailbox-events-and-ews-in-exchange.md) на сервере. 
+После получения папок на сервере или внесения изменений в папки может потребоваться [Синхронизация иерархии папок](how-to-synchronize-folders-by-using-ews-in-exchange.md) или [Подписка на уведомления об изменениях папки](notification-subscriptions-mailbox-events-and-ews-in-exchange.md) на сервере. 
   
 ## <a name="see-also"></a>См. также
 
 - [Папки и элементы в веб-службах Exchange](folders-and-items-in-ews-in-exchange.md)   
-- [Работа с элементами почтового ящика Exchange с помощью веб-служб Exchange в Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)    
-- [Удаление элементов с помощью веб-служб Exchange в Exchange](deleting-items-by-using-ews-in-exchange.md)   
+- [Работа с элементами почтовых ящиков Exchange с помощью веб-служб Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)    
+- [Удаление элементов с помощью EWS в Exchange](deleting-items-by-using-ews-in-exchange.md)   
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
 

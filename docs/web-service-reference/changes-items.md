@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: d3139fef-0455-4b89-babd-5d6783b50a58
-description: Последовательность элемент изменения массивом типы изменений, которые представляют типы различия между элементами на стороне клиента и элементов на сервере Exchange.
+description: Элемент Changes содержит массив последовательности типов изменений, которые представляют типы различий между элементами на клиенте и элементами на сервере Exchange.
 ms.openlocfilehash: 8e38597276e3e3051a5c1494619d3220280e401f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,13 +21,13 @@ ms.locfileid: "19761677"
 ---
 # <a name="changes-items"></a>Изменения (элементы)
 
-Последовательность элемент **изменения** массивом типы изменений, которые представляют типы различия между элементами на стороне клиента и элементов на сервере Exchange. 
+Элемент **Changes** содержит массив последовательности типов изменений, которые представляют типы различий между элементами на клиенте и элементами на сервере Exchange. 
   
-[SyncFolderItemsResponse](syncfolderitemsresponse.md)
+[синкфолдеритемсреспонсе](syncfolderitemsresponse.md)
   
-[ResponseMessages](responsemessages.md)
+[респонсемессажес](responsemessages.md)
   
-[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
+[синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md)
   
 [Изменения (элементы)](changes-items.md)
   
@@ -39,10 +39,10 @@ ms.locfileid: "19761677"
 </Changes>
 ```
 
- **SyncFolderItemsChangesType**
+ **синкфолдеритемсчанжестипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -52,20 +52,20 @@ ms.locfileid: "19761677"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Создание (ItemSync)](create-itemsync.md) <br/> |Определяет один элемент для создания в локальном хранилище клиента.  <br/> |
-|[Обновление (ItemSync)](update-itemsync.md) <br/> |Определяет один элемент для обновления в локальном хранилище клиента.  <br/> |
-|[Удаление (ItemSync)](delete-itemsync.md) <br/> |Определяет один элемент для удаления в локальном хранилище клиента.  <br/> |
-|[ReadFlagChange](readflagchange.md) <br/> |Возвращаются в [операции SyncFolderItems](syncfolderitems-operation.md) ответы прочтении элемента. Это свойство доступно только для чтения.  <br/> |
+|[Create (Итемсинк)](create-itemsync.md) <br/> |Определяет один элемент, который необходимо создать в локальном хранилище клиента.  <br/> |
+|[Обновление (Итемсинк)](update-itemsync.md) <br/> |Определяет один элемент для обновления в локальном хранилище клиента.  <br/> |
+|[Delete (Итемсинк)](delete-itemsync.md) <br/> |Определяет один элемент, который необходимо удалить в локальном хранилище клиента.  <br/> |
+|[реадфлагчанже](readflagchange.md) <br/> |Возвращается в ответах [операции SyncFolderItems](syncfolderitems-operation.md) при чтении элемента. Это свойство доступно только для чтения.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат [операции SyncFolderItems](syncfolderitems-operation.md) запроса.  <br/> |
+|[синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции SyncFolderItems](syncfolderitems-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server 2010 с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -73,7 +73,7 @@ ms.locfileid: "19761677"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

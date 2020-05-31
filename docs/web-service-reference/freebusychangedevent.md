@@ -1,5 +1,5 @@
 ---
-title: FreeBusyChangedEvent
+title: фрибусичанжедевент
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 63abbfc5-c29f-4110-a922-6b1247187f28
-description: Элемент FreeBusyChangedEvent представляет событие, в котором был изменен занятости элемента.
+description: Элемент Фрибусичанжедевент представляет событие, в котором изменилось свободное и занятое время элемента.
 ms.openlocfilehash: 7271d375526e7614d0150594c2b988666a59eb8d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762659"
 ---
-# <a name="freebusychangedevent"></a>FreeBusyChangedEvent
+# <a name="freebusychangedevent"></a>фрибусичанжедевент
 
-Элемент **FreeBusyChangedEvent** представляет событие, в котором был изменен занятости элемента. 
+Элемент **фрибусичанжедевент** представляет событие, в котором изменилось свободное и занятое время элемента. 
   
 ```xml
 <CreatedEvent>
@@ -32,10 +32,10 @@ ms.locfileid: "19762659"
 </CreatedEvent>
 ```
 
- **BaseObjectChangedEventType**
+ **басеобжектчанжедевенттипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,22 +45,22 @@ ms.locfileid: "19762659"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Водяной знак](watermark.md) <br/> |Представляет закладку события в таблице событий почтового ящика.  <br/> |
-|[Метка времени](timestamp.md) <br/> |Представляет метка времени события почтового ящика занятости элемента.  <br/> |
-|[Идентификатор элемента](itemid.md) <br/> |Представляет идентификатор элемента сведениям о доступности.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки элемента сведениям о доступности.  <br/> |
+|[Watermark](watermark.md) <br/> |Представляет закладку события в таблице событий почтовых ящиков.  <br/> |
+|[Метка времени](timestamp.md) <br/> |Представляет метку времени события почтового ящика элемента о занятости.  <br/> |
+|[Идентификатор](itemid.md) <br/> |Представляет идентификатор элемента "сведения о занятости".  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки элемента со сведениями о занятости.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Уведомление](notification-ex15websvcsotherref.md) <br/> |Содержит сведения о подписке и события, произошедшие с момента последнего уведомления.  <br/> |
+|[Уведомление](notification-ex15websvcsotherref.md) <br/> |Содержит сведения о подписке и событиях, произошедших с момента последнего уведомления.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -70,7 +70,7 @@ ms.locfileid: "19762659"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -81,10 +81,10 @@ ms.locfileid: "19762659"
   
 [Операция GetEvents](getevents-operation.md)
   
-[Отписаться операции](unsubscribe-operation.md)
+[Операция по отмене подписки](unsubscribe-operation.md)
 
 
-[С помощью подписки по запросу](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Использование подписок по запросу](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
   
-[Уведомления о событиях в веб-служб Exchange](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
+[Уведомления о событиях в EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
 

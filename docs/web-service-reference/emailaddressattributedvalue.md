@@ -1,5 +1,5 @@
 ---
-title: EmailAddressAttributedValue
+title: емаиладдрессаттрибутедвалуе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ebdf224d-3796-4179-aa0a-87942e7585ff
-description: Элемент EmailAddressAttributedValue указывает экземпляр массива адреса электронной почты и их связанные атрибуты.
+description: Элемент Емаиладдрессаттрибутедвалуе указывает экземпляр массива адресов электронной почты и связанные с ними атрибуты.
 ms.openlocfilehash: 3bcbb5c0a2bc9a2dc24516b5fc62e6e3363a360b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762291"
 ---
-# <a name="emailaddressattributedvalue"></a>EmailAddressAttributedValue
+# <a name="emailaddressattributedvalue"></a>емаиладдрессаттрибутедвалуе
 
-Элемент **EmailAddressAttributedValue** указывает экземпляр массива адреса электронной почты и их связанные атрибуты. 
+Элемент **емаиладдрессаттрибутедвалуе** указывает экземпляр массива адресов электронной почты и связанные с ними атрибуты. 
   
 ```XML
 <EmailAddressAttributedValue>
@@ -26,10 +26,10 @@ ms.locfileid: "19762291"
 <EmailAddressAttributedValue>
 ```
 
- **EmailAddressAttributedValueType**
+ **емаиладдрессаттрибутедвалуетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,18 +39,18 @@ ms.locfileid: "19762291"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Значение (EmailAddressType)](value-emailaddresstype.md) <br/> |Указывает, что значение **EmailAddress** , связанной с массивом атрибуты.  <br/> |
-|[Атрибуты (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Указывает массив атрибуты для его связанное **значение** элемента.  <br/> |
+|[Значение (EmailAddressType)](value-emailaddresstype.md) <br/> |Задает значение **EmailAddress** , связанное с массивом сопоставлений.  <br/> |
+|[Атрибуты (Аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md) <br/> |Задает массив атрибутов для связанного элемента **value** .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Emails1](emails1.md) <br/> |Указывает массив значений электронной почты и идентификаторы их атрибуты источника для связанного пользователя.  <br/> |
-|[Emails2](emails2.md) <br/> |Указывает массив значений электронной почты и идентификаторы их атрибуты источника для связанного пользователя.  <br/> |
-|[Emails3](emails3.md) <br/> |Указывает массив значений электронной почты и идентификаторы их атрибуты источника для связанного пользователя.  <br/> |
+|[Emails1](emails1.md) <br/> |Указывает массив значений электронной почты и идентификаторы их исходных атрибутов для связанного пользователя.  <br/> |
+|[Emails2](emails2.md) <br/> |Указывает массив значений электронной почты и идентификаторы их исходных атрибутов для связанного пользователя.  <br/> |
+|[Emails3](emails3.md) <br/> |Указывает массив значений электронной почты и идентификаторы их исходных атрибутов для связанного пользователя.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19762291"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

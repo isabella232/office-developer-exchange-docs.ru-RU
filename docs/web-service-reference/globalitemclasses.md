@@ -1,5 +1,5 @@
 ---
-title: GlobalItemClasses
+title: глобалитемклассес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 72634700-6d75-44c0-80b7-8c31743c04d6
-description: Элемент GlobalItemClasses содержит список классов элементов, представляющий все классы элементов беседы элементов в почтовом ящике.
+description: Элемент Глобалитемклассес содержит список классов элементов, которые представляют все классы элементов бесед в почтовом ящике.
 ms.openlocfilehash: a8f947d37c1335f1eaba5550a2b3a0aece0246ee
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833735"
 ---
-# <a name="globalitemclasses"></a>GlobalItemClasses
+# <a name="globalitemclasses"></a>глобалитемклассес
 
-Элемент **GlobalItemClasses** содержит список классов элементов, представляющий все классы элементов беседы элементов в почтовом ящике. 
+Элемент **глобалитемклассес** содержит список классов элементов, которые представляют все классы элементов бесед в почтовом ящике. 
   
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[GlobalItemClasses](globalitemclasses.md)
+[глобалитемклассес](globalitemclasses.md)
   
 ```XML
 <GlobalItemClasses>
@@ -37,10 +37,10 @@ ms.locfileid: "19833735"
 </GlobalItemClasses>
 ```
 
- **ArrayOfItemClassType**
+ **аррайофитемкласстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,7 +50,7 @@ ms.locfileid: "19833735"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ItemClass](itemclass.md) <br/> |Представляет класс сообщения элемента.  <br/> |
+|[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19833735"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -72,7 +72,7 @@ ms.locfileid: "19833735"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

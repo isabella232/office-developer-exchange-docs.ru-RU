@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 943c3d5d-7d29-4d70-932c-8a4fe44a0037
-description: Элемент GetReminders определяет запрос на получение напоминаний.
+description: Элемент "пропоминать" указывает запрос на получение напоминаний.
 ms.openlocfilehash: f4ecc858af2150bb3f88ebdf9ed541892f2fead1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19762898"
 ---
 # <a name="getreminders"></a>GetReminders
 
-Элемент **GetReminders** определяет запрос на получение напоминаний. 
+Элемент " **Пропоминать** " указывает запрос на получение напоминаний. 
   
 ```XML
 <GetReminders>
@@ -29,10 +29,10 @@ ms.locfileid: "19762898"
 
 ```
 
- **GetRemindersType**
+ **жетреминдерстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19762898"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[BeginTime](begintime.md) | [EndTime (ReminderMessageDataType)](endtime-remindermessagedatatype.md) | [MaxItems](maxitems.md) | [ReminderType](remindertype.md)
+[Бегинтиме](begintime.md) | [EndTime (реминдермессажедататипе)](endtime-remindermessagedatatype.md) | [макситемс](maxitems.md) | [реминдертипе](remindertype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762898"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

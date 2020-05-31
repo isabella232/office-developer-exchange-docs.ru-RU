@@ -1,5 +1,5 @@
 ---
-title: FreeBusyResponse
+title: фрибусиреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3038d106-9ac9-4ac7-bb43-96c783edbef5
-description: Элемент FreeBusyResponse содержит сведения о доступности для одного почтового ящика пользователя.
+description: Элемент Фрибусиреспонсе содержит сведения о доступности для одного пользователя почтового ящика.
 ms.openlocfilehash: 73e3972bb53d6bf59e5156098bad06bcde5f0155
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762655"
 ---
-# <a name="freebusyresponse"></a>FreeBusyResponse
+# <a name="freebusyresponse"></a>фрибусиреспонсе
 
-Элемент **FreeBusyResponse** содержит сведения о доступности для одного почтового ящика пользователя. 
+Элемент **фрибусиреспонсе** содержит сведения о доступности для одного пользователя почтового ящика. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
+[фрибусиреспонсеаррай](freebusyresponsearray.md)
   
-[FreeBusyResponse](freebusyresponse.md)
+[фрибусиреспонсе](freebusyresponse.md)
   
 ```xml
 <FreeBusyResponse>
@@ -36,10 +36,10 @@ ms.locfileid: "19762655"
 </FreeBusyResponse>
 ```
 
- **FreeBusyResponseType**
+ **фрибусиреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -49,18 +49,18 @@ ms.locfileid: "19762655"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> |Содержит описательные сведения о состоянии ответа.  <br/> |
-|[FreeBusyView](freebusyview.md) <br/> |Содержит сведения о доступности для конкретного пользователя.  <br/> |
+|[респонсемессаже](responsemessage.md) <br/> |Предоставляет описательные сведения о состоянии отклика.  <br/> |
+|[фрибусивиев](freebusyview.md) <br/> |Содержит сведения о доступности для определенного пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Содержит сведения о доступности запрошенного пользователей и состояния ответа.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray` <br/> |
+|[фрибусиреспонсеаррай](freebusyresponsearray.md) <br/> |Содержит сведения о доступности запрошенных пользователей и состояние отклика.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент не включен в GetUserAvailability ответа, если сведения о доступности не запрашивается.
+Этот элемент не включается в ответ GetUserAvailability, если не запрашиваются сведения о занятости.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -70,7 +70,7 @@ ms.locfileid: "19762655"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -79,7 +79,7 @@ ms.locfileid: "19762655"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

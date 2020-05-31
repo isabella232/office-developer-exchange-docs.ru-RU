@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 922c8b21-04a9-4229-b48c-187c3095422e
-description: Элемент EmailAddress предназначена только для внутреннего использования.
+description: Элемент EmailAddress предназначен только для внутреннего использования.
 ms.openlocfilehash: cf5571dd22a7f938097b6c38a8a3531c4ce0891a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19762272"
 ---
 # <a name="emailaddress-emailaddress"></a>EmailAddress (EmailAddress)
 
-Элемент **EmailAddress** предназначена только для внутреннего использования. 
+Элемент **EmailAddress** предназначен только для внутреннего использования. 
   
 ```XML
 <EmailAddress />
@@ -25,7 +25,7 @@ ms.locfileid: "19762272"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,7 +39,7 @@ ms.locfileid: "19762272"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9157f329-80b4-4cd0-a158-378064966ae6
-description: Найдите сведения о веб-служб Exchange GetHoldOnMailboxes операции.
+description: Поиск сведений о GetHoldOnMailboxesной операции EWS.
 ms.openlocfilehash: 1d0bc2f9d26e11d8d2710693d67843ad2f339a5d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,29 +17,29 @@ ms.locfileid: "19762806"
 ---
 # <a name="getholdonmailboxes-operation"></a>Операция GetHoldOnMailboxes
 
-Найдите сведения о **GetHoldOnMailboxes** операции веб-служб Exchange. 
+Поиск сведений о **GetHoldOnMailboxesной** операции EWS. 
   
-Операция **GetHoldOnMailboxes** возвращает почтовые ящики, которые находятся под конкретного удержания и связанный с ним удерживайте запроса. 
+Операция **GetHoldOnMailboxes** получает почтовые ящики, которые находятся в определенном удержании и связанном запросе удержания. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-getholdonmailboxes-operation"></a>С помощью операции GetHoldOnMailboxes
+## <a name="using-the-getholdonmailboxes-operation"></a>Использование операции GetHoldOnMailboxes
 
-Операция **GetHoldOnMailboxes** предоставляет сведения о клиенте, о том, какие почтовые ящики размещаются в разделе конкретного удержания, сведения о запросе удержания, связанные с каждой удержание, если это возможно и сведения о состоянии удержания для каждого почтового ящика. Дополнительные сведения об удержаниях почтового ящика, включая запроса на удержание можно [Хранения на месте](http://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29) на сайте TechNet. 
+Операция **GetHoldOnMailboxes** предоставляет клиенту сведения о том, какие почтовые ящики помещаются в конкретное удержание, сведения о запросе удержания, связанном с каждым удержанием, если это необходимо, и сведения о состоянии удержания для каждого почтового ящика. Дополнительные сведения о удержаниях почтовых ящиков, в том числе о удержаниях на основе запросов, можно найти [в статье удержание на месте](http://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29) на сайте TechNet. 
   
-### <a name="getholdonmailboxes-operation-soap-headers"></a>Заголовки SOAP GetHoldOnMailboxes операции
+### <a name="getholdonmailboxes-operation-soap-headers"></a>Заголовки SOAP операции GetHoldOnMailboxes
 
-Операция **GetHoldOnMailboxes** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **GetHoldOnMailboxes** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Идентифицирует ролей сервера, необходимых в порядке для абонентов для запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для того, чтобы вызывающий абонент мог выполнить запрос. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="getholdonmailboxes-operation-request-example-get-mailbox-hold-information"></a>Пример запроса GetHoldOnMailboxes операции: получение сведений о почтовых ящиках удержания
+## <a name="getholdonmailboxes-operation-request-example-get-mailbox-hold-information"></a>Пример запроса операции GetHoldOnMailboxes: получение сведений о удержании почтовых ящиков
 
-В следующем примере запрос операции **GetHoldOnMailboxes** показано, как получить сведения об удержаниях почтового ящика для удержания HoldId2 почтового ящика. 
+В следующем примере запроса операции **GetHoldOnMailboxes** показано, как получить сведения о удержании почтовых ящиков для хранения почтовых ящиков HoldId2. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -58,15 +58,15 @@ ms.locfileid: "19762806"
 
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [GetHoldOnMailboxes](getholdonmailboxes.md)
     
-- [HoldId](holdid.md)
+- [холдид](holdid.md)
     
-## <a name="successful-getholdonmailboxes-operation-response"></a>Успешные операции ответа GetHoldOnMailboxes
+## <a name="successful-getholdonmailboxes-operation-response"></a>Успешный отклик операции GetHoldOnMailboxes
 
-В следующем примере показано успешные ответ на операцию **GetHoldOnMailboxes** запрос на получение почтового ящика хранения сведений для удержания HoldId2 почтового ящика. 
+В следующем примере показан успешный ответ на запрос операции **GetHoldOnMailboxes** для получения сведений о удержании почтовых ящиков для хранения почтовых ящиков HoldId2. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -109,31 +109,31 @@ ms.locfileid: "19762806"
 
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [GetHoldOnMailboxesResponse](getholdonmailboxesresponse.md)
+- [жесолдонмаилбоксесреспонсе](getholdonmailboxesresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [MailboxHoldResult](mailboxholdresult.md)
+- [маилбоксхолдресулт](mailboxholdresult.md)
     
-- [HoldId](holdid.md)
+- [холдид](holdid.md)
     
 - [Query](query.md)
     
-- [MailboxHoldStatuses](mailboxholdstatuses.md)
+- [маилбоксхолдстатусес](mailboxholdstatuses.md)
     
-- [MailboxHoldStatus](mailboxholdstatus.md)
+- [маилбоксхолдстатус](mailboxholdstatus.md)
     
-- [Почтовый ящик (строка)](mailbox-string.md)
+- [Mailbox (строка)](mailbox-string.md)
     
-- [Состояние (HoldStatusType)](status-holdstatustype.md)
+- [Состояние (Холдстатустипе)](status-holdstatustype.md)
     
-- [AdditionalInfo](additionalinfo.md)
+- [аддитионалинфо](additionalinfo.md)
     
-## <a name="getholdonmailboxes-operation-error-response"></a>Ошибка операции GetHoldOnMailboxes ответа
+## <a name="getholdonmailboxes-operation-error-response"></a>Ответ об ошибке операции GetHoldOnMailboxes
 
-В следующем примере показано ошибочный ответ на запрос операции **GetHoldOnMailboxes** . Это ответ на запрос для получения удержания, который был удален. 
+В следующем примере показан ответ об ошибке для запроса операции **GetHoldOnMailboxes** . Это ответ на запрос на получение удержания, которое было удалено. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -162,17 +162,17 @@ ms.locfileid: "19762806"
 
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [GetHoldOnMailboxesResponse](getholdonmailboxesresponse.md)
+- [жесолдонмаилбоксесреспонсе](getholdonmailboxesresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

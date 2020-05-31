@@ -1,5 +1,5 @@
 ---
-title: GetDomainSettingsRequest (SOAP)
+title: Жетдомаинсеттингсрекуест (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 5ac0ff6d-9e02-4e4c-973d-cd9e076661d5
-description: Элемент GetDomainSettingsRequest представляет запрос операции GetDomainSettings операции (SOAP).
+description: Элемент Жетдомаинсеттингсрекуест представляет запрос операции Жетдомаинсеттингс (SOAP).
 ms.openlocfilehash: 4de525a9ba47a0d9afb0d6db9200fe32845f31d0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762755"
 ---
-# <a name="getdomainsettingsrequest-soap"></a>GetDomainSettingsRequest (SOAP)
+# <a name="getdomainsettingsrequest-soap"></a>Жетдомаинсеттингсрекуест (SOAP)
 
-Элемент **GetDomainSettingsRequest** представляет запрос операции [GetDomainSettings операции (SOAP)](getdomainsettings-operation-soap.md) . 
+Элемент **жетдомаинсеттингсрекуест** представляет запрос операции [жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md) . 
   
 ```XML
 <GetDomainSettingsRequest>
@@ -28,10 +28,10 @@ ms.locfileid: "19762755"
 </GetDomainSettingsRequest>
 ```
 
- **GetDomainSettingsRequest**
+ **жетдомаинсеттингсрекуест**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,9 +41,9 @@ ms.locfileid: "19762755"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Домены (SOAP)](domains-soap.md) <br/> |Представляет коллекцию идентификаторов домена.  <br/> |
-|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Содержит имена параметров конфигурации запрошенного домена.  <br/> |
-|[RequestedVersion (SOAP)](requestedversion-soap.md) <br/> |Указывает версию сервера, который будет использоваться поставщик.  <br/> |
+|[Домены (SOAP)](domains-soap.md) <br/> |Представляет коллекцию идентификаторов доменов.  <br/> |
+|[Рекуестедсеттингс (SOAP)](requestedsettings-soap.md) <br/> |Содержит имена запрошенных параметров конфигурации домена.  <br/> |
+|[Рекуестедверсион (SOAP)](requestedversion-soap.md) <br/> |Указывает версию сервера, который будет использоваться поставщиком.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,13 +58,13 @@ ms.locfileid: "19762755"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
+[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ed077877-9d98-4434-b8b6-a4a905e7f7a6
-description: Найдите сведения о веб-служб Exchange GetNonIndexableItemStatistics операции.
+description: Поиск сведений о GetNonIndexableItemStatisticsной операции EWS.
 ms.openlocfilehash: 35c2d3321c6e1a3154c88307d0e875cd6997e7fb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,32 +17,32 @@ ms.locfileid: "19762858"
 ---
 # <a name="getnonindexableitemstatistics-operation"></a>Операция GetNonIndexableItemStatistics
 
-Найдите сведения о **GetNonIndexableItemStatistics** операции веб-служб Exchange. 
+Поиск сведений о **GetNonIndexableItemStatisticsной** операции EWS. 
   
-Операция **GetNonIndexableItemStatistics** извлекает число элементов, которые не могут быть индексированы в почтовом ящике. 
+Операция **GetNonIndexableItemStatistics** получает количество элементов, которые не удается индексировать в почтовом ящике. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-getnonindexableitemstatistics-operation"></a>С помощью операции GetNonIndexableItemStatistics
+## <a name="using-the-getnonindexableitemstatistics-operation"></a>Использование операции GetNonIndexableItemStatistics
 
-Операция **GetNonIndexableItemStatistics** подсчитывает элементы почтовых ящиков, которые не могут быть индексированы. Во время поиска обнаружения не поиска элементов, которые не могут быть индексированы. 
+Операция **GetNonIndexableItemStatistics** учитывает элементы почтового ящика, которые не удается индексировать. Элементы, которые не могут индексироваться, не ищутся во время поиска обнаружения. 
   
-### <a name="getnonindexableitemstatistics-operation-soap-headers"></a>Заголовки SOAP GetNonIndexableItemStatistics операции
+### <a name="getnonindexableitemstatistics-operation-soap-headers"></a>Заголовки SOAP операции GetNonIndexableItemStatistics
 
-Операция **GetNonIndexableItemStatistics** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **GetNonIndexableItemStatistics** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Идентифицирует ролей сервера, необходимых в порядке для абонентов для запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для того, чтобы вызывающий абонент мог выполнить запрос. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="getnonindexableitemstatistics-operation-request-example-get-the-count-of-items-that-cannot-be-indexed-in-a-mailbox"></a>Пример запроса GetNonIndexableItemStatistics операции: получение числа элементов, которые не могут быть индексированы в почтовом ящике
+## <a name="getnonindexableitemstatistics-operation-request-example-get-the-count-of-items-that-cannot-be-indexed-in-a-mailbox"></a>Пример запроса операции GetNonIndexableItemStatistics: получение числа элементов, которые не удается индексировать в почтовом ящике
 
-В следующем примере запрос операции **GetNonIndexableItemStatistics** показано, как запросить число элементов, которые не могут быть индексированы в почтовом ящике. 
+В следующем примере запроса операции **GetNonIndexableItemStatistics** показано, как запросить количество элементов, которые не удается индексировать в почтовом ящике. 
   
 > [!NOTE]
-> Все устаревшие доменных имен в этом примере имеют сокращение, чтобы сохранить удобочитаемость. 
+> Все устаревшие доменные имена в этом примере сокращены, чтобы сохранить удобочитаемость. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -64,19 +64,19 @@ ms.locfileid: "19762858"
 
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)
     
-- [Почтовые ящики (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
+- [Почтовые ящики (Нонемптяррайофлегациднстипе)](mailboxes-nonemptyarrayoflegacydnstype.md)
     
 - [LegacyDN](legacydn.md)
     
-- [SearchArchiveOnly](searcharchiveonly.md)
+- [сеарчарчивеонли](searcharchiveonly.md)
     
-## <a name="successful-getnonindexableitemstatistics-operation-response"></a>Успешные операции ответа GetNonIndexableItemStatistics
+## <a name="successful-getnonindexableitemstatistics-operation-response"></a>Успешный отклик операции GetNonIndexableItemStatistics
 
-В следующем примере показано успешного ответа на запрос операции **GetNonIndexableItemStatistics** для получения количества элементов, которые не могут быть индексированы в почтовом ящике. 
+В следующем примере показан успешный ответ на запрос операции **GetNonIndexableItemStatistics** для получения количества элементов, которые не удается индексировать в почтовом ящике. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -109,23 +109,23 @@ ms.locfileid: "19762858"
 
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [GetNonIndexableItemStatisticsResponse](getnonindexableitemstatisticsresponse.md)
+- [жетнониндексаблеитемстатистиксреспонсе](getnonindexableitemstatisticsresponse.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [NonIndexableItemStatistics](nonindexableitemstatistics.md)
+- [нониндексаблеитемстатистикс](nonindexableitemstatistics.md)
     
-- [NonIndexableItemStatistic](nonindexableitemstatistic.md)
+- [нониндексаблеитемстатистик](nonindexableitemstatistic.md)
     
-- [Почтовый ящик (строка)](mailbox-string.md)
+- [Mailbox (строка)](mailbox-string.md)
     
 - [ItemCount](itemcount.md)
     
-## <a name="getnonindexableitemstatistics-operation-error-response"></a>Ошибка операции GetNonIndexableItemStatistics ответа
+## <a name="getnonindexableitemstatistics-operation-error-response"></a>Ответ об ошибке операции GetNonIndexableItemStatistics
 
-В следующем примере показано ошибочный ответ на запрос операции **GetNonIndexableItemStatistics** . Это ответ на запрос для получения количества элементов, которые не могут быть индексированы из более одного почтового ящика. 
+В следующем примере показан ответ об ошибке для запроса операции **GetNonIndexableItemStatistics** . Это ответ на запрос на получение количества элементов, которые не удается индексировать из нескольких почтовых ящиков. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -154,17 +154,17 @@ ms.locfileid: "19762858"
 
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [GetNonIndexableItemStatisticsResponse](getnonindexableitemstatisticsresponse.md)
+- [жетнониндексаблеитемстатистиксреспонсе](getnonindexableitemstatisticsresponse.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

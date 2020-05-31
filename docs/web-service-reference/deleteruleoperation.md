@@ -1,5 +1,5 @@
 ---
-title: DeleteRuleOperation
+title: делетерулеоператион
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c5e251af-f795-43cc-baaf-95d84475677c
-description: Элемент DeleteRuleOperation содержит операцию для удаления существующего правила папки «Входящие».
+description: Элемент Делетерулеоператион содержит операцию удаления существующего правила для папки "Входящие".
 ms.openlocfilehash: 3410361e0b896fb0ef01c1873c9f8b0ac99afe58
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,12 +19,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762051"
 ---
-# <a name="deleteruleoperation"></a>DeleteRuleOperation
+# <a name="deleteruleoperation"></a>делетерулеоператион
 
-Элемент **DeleteRuleOperation** содержит операцию для удаления существующего правила папки «Входящие». 
+Элемент **делетерулеоператион** содержит операцию удаления существующего правила для папки "Входящие". 
   
 - [UpdateInboxRules](updateinboxrules.md)
-- [Операции](operations.md)
+- [Operations](operations.md)
   
 ```XML
 <DeleteRuleOperation>
@@ -32,10 +32,10 @@ ms.locfileid: "19762051"
 </DeleteRuleOperation>
 ```
 
- **DeleteRuleOperationType**
+ **делетерулеоператионтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,7 +45,7 @@ ms.locfileid: "19762051"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[RuleId](ruleid.md) <br/> |Задает идентификатор правило, которое требуется удалить.  <br/> |
+|[RuleId](ruleid.md) <br/> |Указывает идентификатор удаляемого правила.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19762051"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -67,13 +67,13 @@ ms.locfileid: "19762051"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [UpdateInboxRules](updateinboxrules.md) 
-- [SetRuleOperation](setruleoperation.md) 
-- [CreateRuleOperation](createruleoperation.md)
+- [сетрулеоператион](setruleoperation.md) 
+- [креатерулеоператион](createruleoperation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Домен (отслеживания сообщений)
+title: Domain (отслеживание сообщений)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4e8e9efa-8885-4ca5-bf90-424e63768dc3
-description: Элемент домена представляет домен для поиска.
+description: Элемент domain представляет домен, который требуется найти.
 ms.openlocfilehash: dc161557b59acc580d918f2e196457714bce4ba9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762200"
 ---
-# <a name="domain-message-tracking"></a>Домен (отслеживания сообщений)
+# <a name="domain-message-tracking"></a>Domain (отслеживание сообщений)
 
-Элемент **домена** представляет домен для поиска. 
+Элемент **domain** представляет домен, который требуется найти. 
   
 ```XML
 <Domain/>
 ```
 
- **NonEmptyStringType**
+ **нонемптистрингтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,13 +44,13 @@ ms.locfileid: "19762200"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Содержит критерии для типов сообщений для поиска.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Содержит условия для типов сообщений, которые требуется найти.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее строку является обязательным, если данный элемент используется.
+При использовании этого элемента необходимо указать текстовое значение, представляющее строку.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19762200"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: FileAsMapping
+title: филеасмаппинг
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2c98e7c6-09b0-47b3-bbf7-8c4ef9510280
-description: Элемент FileAsMapping определяет способ создания, отображаемых для контакта.
+description: Элемент Филеасмаппинг определяет, как строится, что отображается для контакта.
 ms.openlocfilehash: 1ba0ae0daa56a72c29d8c0ccad64e3edae5f0b84
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762544"
 ---
-# <a name="fileasmapping"></a>FileAsMapping
+# <a name="fileasmapping"></a>филеасмаппинг
 
-Элемент **FileAsMapping** определяет способ создания, отображаемых для контакта. 
+Элемент **филеасмаппинг** определяет, как строится, что отображается для контакта. 
   
 ```xml
 <FileAsMapping/>
 ```
 
- **FileAsMappingType**
+ **филеасмаппингтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -48,47 +48,47 @@ ms.locfileid: "19762544"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение для этого элемента есть только одно из следующих значений string:
+Текстовое значение для этого элемента ограничено одним из следующих строковых значений:
   
 - Нет
     
-- LastCommaFirst
+- ласткоммафирст
     
-- FirstSpaceLast
+- фирстспацеласт
     
-- Компания
+- Company
     
-- LastCommaFirstCompany
+- ласткоммафирсткомпани
     
-- CompanyLastFirst
+- компаниластфирст
     
-- ФамилияИмя
+- ластфирст
     
-- LastFirstCompany
+- ластфирсткомпани
     
-- CompanyLastCommaFirst
+- компаниласткоммафирст
     
-- LastFirstSuffix
+- ластфирстсуффикс
     
-- LastSpaceFirstCompany
+- ластспацефирсткомпани
     
-- CompanyLastSpaceFirst
+- компаниластспацефирст
     
-- LastSpaceFirst
+- ластспацефирст
     
 - DisplayName
     
 - FirstName
     
-- LastFirstMiddleSuffix
+- ластфирстмиддлесуффикс
     
 - LastName
     
 - переменная Empty
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает сервер Microsoft Exchange с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -96,7 +96,7 @@ ms.locfileid: "19762544"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -106,7 +106,7 @@ ms.locfileid: "19762544"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-служб Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
 [Обновление контактов](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   

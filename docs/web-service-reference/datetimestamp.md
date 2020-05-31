@@ -1,5 +1,5 @@
 ---
-title: DateTimeStamp
+title: датетиместамп
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c996c319-28f1-4bed-ab7a-4d0fc866e675
-description: Элемент DateTimeStamp указывает дату и время создания экземпляра объекта календаря.
+description: Элемент Датетиместамп указывает дату и время создания экземпляра объекта Calendar.
 ms.openlocfilehash: 6b81057b0e07d0607aba6f52d54220debc38b0ff
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761991"
 ---
-# <a name="datetimestamp"></a>DateTimeStamp
+# <a name="datetimestamp"></a>датетиместамп
 
-Элемент **DateTimeStamp** указывает дату и время создания экземпляра объекта календаря. 
+Элемент **датетиместамп** указывает дату и время создания экземпляра объекта Calendar. 
   
 ```xml
 <DateTimeStamp/>
 ```
 
-**dateTime**
+**дата и время**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -45,15 +45,15 @@ ms.locfileid: "19761991"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Представляет сообщение собрания.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашения на собрание.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмены собрания.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание.  <br/> |
+|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание.  <br/> |
+|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет значение даты и времени, которое идентифицирует вхождение календаря.
+Текстовое значение представляет значение даты и времени, идентифицирующее вхождение календаря.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -61,7 +61,7 @@ ms.locfileid: "19761991"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

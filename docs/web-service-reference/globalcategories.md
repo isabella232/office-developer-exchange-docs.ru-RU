@@ -1,5 +1,5 @@
 ---
-title: GlobalCategories
+title: глобалкатегориес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7a1d3f04-4ada-4a31-845e-f1f1ff6e136f
-description: Элемент GlobalCategories содержит список категорий для всех элементов беседы в почтовом ящике.
+description: Элемент Глобалкатегориес содержит список категорий для всех элементов бесед в почтовом ящике.
 ms.openlocfilehash: 5cedea821b14264f15026c2d297c3017534ca354
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833711"
 ---
-# <a name="globalcategories"></a>GlobalCategories
+# <a name="globalcategories"></a>глобалкатегориес
 
-Элемент **GlobalCategories** содержит список категорий для всех элементов беседы в почтовом ящике. 
+Элемент **глобалкатегориес** содержит список категорий для всех элементов бесед в почтовом ящике. 
   
-[FindConversationResponse](findconversationresponse.md)
+[финдконверсатионреспонсе](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[GlobalCategories](globalcategories.md)
+[глобалкатегориес](globalcategories.md)
   
 ```XML
 <GlobalCategories>
@@ -37,10 +37,10 @@ ms.locfileid: "19833711"
 </GlobalCategories>
 ```
 
- **ArrayOfStringsType**
+ **аррайофстрингстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,7 +50,7 @@ ms.locfileid: "19833711"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Содержит одной категории.  <br/> |
+|[Строка](string.md) <br/> |Содержит одну категорию.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19833711"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -72,7 +72,7 @@ ms.locfileid: "19833711"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

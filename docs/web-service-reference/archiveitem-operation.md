@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1af216b3-13ea-498e-b4fc-23513755d731
-description: Найдите сведения о веб-служб Exchange ArchiveItem операции.
+description: Поиск сведений о ArchiveItemной операции EWS.
 ms.openlocfilehash: 954943acefef8da61e92de5f8857ca023ca4fc9f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,33 +17,33 @@ ms.locfileid: "19761491"
 ---
 # <a name="archiveitem-operation"></a>Операция ArchiveItem
 
-Найдите сведения о **ArchiveItem** операции веб-служб Exchange. 
+Поиск сведений о **ArchiveItemной** операции EWS. 
   
-Операция **ArchiveItem** Перемещение элемента в архивный почтовый ящик пользователя почтового ящика. 
+Операция **ArchiveItem** перемещает элемент в архивный почтовый ящик пользователя почтового ящика. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-archiveitem-operation"></a>С помощью операции ArchiveItem
+## <a name="using-the-archiveitem-operation"></a>Использование операции ArchiveItem
 
-Операция **ArchiveItem** принимает два аргумента в запросе, определите, какие элементы для перемещения архивного почтового ящика и конечной папки для этих элементов. Архивный почтовый ящик должна быть включена в порядке, для успешного выполнения этой операции. Сведения о включении архивного почтового ящика можно [Управление архивами на месте](http://technet.microsoft.com/en-us/library/jj651146.aspx).
+Операция **ArchiveItem** использует в запросе два аргумента, которые определяют элементы для перемещения в архивный почтовый ящик и конечную папку для этих элементов. Чтобы эта операция работала, необходимо включить архивный почтовый ящик. Сведения о том, как включить архивный почтовый ящик, можно найти [в разделе Управление архивами на месте](http://technet.microsoft.com/en-us/library/jj651146.aspx).
   
-### <a name="archiveitem-operation-soap-headers"></a>Заголовки SOAP ArchiveItem операции
+### <a name="archiveitem-operation-soap-headers"></a>Заголовки SOAP операции ArchiveItem
 
-Операция **ArchiveItem** можно использовать заголовки SOAP, которые перечислены в следующей таблице. 
+Операция **ArchiveItem** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, которого олицетворения в клиентском приложении. Этот заголовок можно применять к запросу.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066, **теги для идентификации языков**, которые будут использоваться для доступа к почтовому ящику. Этот заголовок можно применять к запросу.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для операции запроса. Этот заголовок можно применять к запросу.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, ответившего на запрос. Этот заголовок можно применять, чтобы получить ответ.  <br/> |
+|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
+|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, как определено в RFC 3066 **теги для идентификации языков**, которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
+|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
+|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
    
-## <a name="archiveitem-operation-request-example-move-an-item-to-the-archive-inbox-folder"></a>Пример запроса ArchiveItem операции: перемещение элемента в папке "Входящие" архив
+## <a name="archiveitem-operation-request-example-move-an-item-to-the-archive-inbox-folder"></a>Пример запроса операции ArchiveItem: перемещение элемента в архивную папку "Входящие"
 
-В следующем примере запрос операции **ArchiveItem** показано, как перемещение элемента в архив папки "Входящие". 
+В следующем примере запроса операции **ArchiveItem** показано, как переместить элемент в архивную папку "Входящие". 
   
 > [!NOTE]
-> Все идентификаторы элементов и ключей изменения в этой статье URL были сокращены, чтобы сохранить удобочитаемость. 
+> Все идентификаторы элементов и изменения ключей в этой статье были сокращены, чтобы сохранить удобочитаемость. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -68,17 +68,17 @@ ms.locfileid: "19761491"
 </soap:Envelope>
 ```
 
-Запрос SOAP body содержит следующие элементы:
+Текст SOAP Request содержит следующие элементы:
   
 - [ArchiveItem](archiveitem.md)    
-- [ArchiveSourceFolderId](archivesourcefolderid.md)    
-- [DistinguishedFolderId](distinguishedfolderid.md)    
-- [Что ItemID](itemids.md)   
-- [Идентификатор элемента](itemid.md)
+- [арчивесаурцефолдерид](archivesourcefolderid.md)    
+- [дистингуишедфолдерид](distinguishedfolderid.md)    
+- [итемидс](itemids.md)   
+- [Идентификатор](itemid.md)
     
-## <a name="successful-archiveitem-operation-response"></a>Успешные операции ответа ArchiveItem
+## <a name="successful-archiveitem-operation-response"></a>Успешный отклик операции ArchiveItem
 
-В следующем примере показано успешного ответа на запрос операции **ArchiveItem** для перемещения элемента архивного почтового ящика. 
+В следующем примере показан успешный ответ на запрос операции **ArchiveItem** для перемещения элемента в архивный почтовый ящик. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -109,17 +109,17 @@ ms.locfileid: "19761491"
 </s:Envelope>
 ```
 
-Ответ SOAP body содержит следующие элементы:
+Тело SOAP отклика содержит следующие элементы:
   
-- [ArchiveItemResponse](archiveitemresponse.md)    
-- [ResponseMessages](responsemessages.md)   
-- [ArchiveItemResponseMessage](archiveitemresponsemessage.md)    
-- [ResponseCode](responsecode.md)    
-- [Элементы](items.md)
+- [арчивеитемреспонсе](archiveitemresponse.md)    
+- [респонсемессажес](responsemessages.md)   
+- [арчивеитемреспонсемессаже](archiveitemresponsemessage.md)    
+- [респонсекоде](responsecode.md)    
+- [Items](items.md)
     
-## <a name="archiveitem-operation-error-response"></a>Ошибка операции ArchiveItem ответа
+## <a name="archiveitem-operation-error-response"></a>Ответ об ошибке операции ArchiveItem
 
-В следующем примере показано ошибочный ответ на запрос операции **ArchiveItem** . Это ответ на допустимый запрос в архив элемента при архивного почтового ящика не включен для пользователя. 
+В следующем примере показан ответ об ошибке для запроса операции **ArchiveItem** . Это ответ на действительный запрос на архивацию элемента, когда архивный почтовый ящик не включен для пользователя. 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -152,17 +152,17 @@ ms.locfileid: "19761491"
 </s:Envelope>
 ```
 
-Ошибка ответ SOAP body содержит следующие элементы:
+Основной текст сообщения об ошибке SOAP содержит следующие элементы:
   
-- [ArchiveItemResponse](archiveitemresponse.md)    
-- [ResponseMessages](responsemessages.md)    
-- [ArchiveItemResponseMessage](archiveitemresponsemessage.md)    
-- [MessageText](messagetext.md)    
-- [ResponseCode](responsecode.md)    
-- [DescriptiveLinkKey](descriptivelinkkey.md)    
-- [Элементы](items.md)
+- [арчивеитемреспонсе](archiveitemresponse.md)    
+- [респонсемессажес](responsemessages.md)    
+- [арчивеитемреспонсемессаже](archiveitemresponsemessage.md)    
+- [мессажетекст](messagetext.md)    
+- [респонсекоде](responsecode.md)    
+- [дескриптивелинккэй](descriptivelinkkey.md)    
+- [Items](items.md)
     
-Дополнительные коды ошибок, которые являются общими для веб-служб Exchange и специально для этой операции в разделе [ResponseCode](responsecode.md).
+Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
   
 ## <a name="see-also"></a>См. также
 

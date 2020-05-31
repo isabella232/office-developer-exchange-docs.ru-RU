@@ -1,5 +1,5 @@
 ---
-title: DisplayNamePrefix
+title: дисплайнамепрефикс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 60363698-7603-4051-a66e-007c02db17cb
-description: Элемент DisplayNamePrefix указывает префикс отображаемое имя связанного пользователя.
+description: Элемент Дисплайнамепрефикс указывает префикс отображаемого имени соответствующего пользователя.
 ms.openlocfilehash: 120a6402be386bc0c11f5859265098324ce4687f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762180"
 ---
-# <a name="displaynameprefix"></a>DisplayNamePrefix
+# <a name="displaynameprefix"></a>дисплайнамепрефикс
 
-Элемент **DisplayNamePrefix** указывает префикс отображаемое имя связанного пользователя. 
+Элемент **дисплайнамепрефикс** указывает префикс отображаемого имени соответствующего пользователя. 
   
 ```xml
 <DisplayNamePrefix></DisplayNamePrefix>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19762180"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь](persona.md) <br/> |Задает набор пользователя данные, возвращаемые запросом **GetPersona** .  <br/> |
+|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **DisplayNamePrefix** — это строковое значение, задающее префикс в поле отображаемое имя. 
+Текстовое значение элемента **дисплайнамепрефикс** — это строковое значение, задающее префикс для отображаемого имени. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762180"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

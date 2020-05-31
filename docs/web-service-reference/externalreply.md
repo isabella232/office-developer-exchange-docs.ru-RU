@@ -1,5 +1,5 @@
 ---
-title: ExternalReply
+title: екстерналрепли
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: cbcfa469-242c-4f98-8f4f-2c9bcbe69f5a
-description: Элемент ExternalReply содержит ожидания ответа на работе (OOF), которое отправляется адресам за пределами домена получателя или доверенных доменов.
+description: Элемент Екстерналрепли содержит ответ "нет на месте" (отсутствие на месте), который отправляется на адреса вне домена получателя или доверенных доменов.
 ms.openlocfilehash: f318b34c98dd42487b8ca3791ba915fb91d629a5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762513"
 ---
-# <a name="externalreply"></a>ExternalReply
+# <a name="externalreply"></a>екстерналрепли
 
-Элемент **ExternalReply** содержит ожидания ответа на работе (OOF), которое отправляется адресам за пределами домена получателя или доверенных доменов. 
+Элемент **екстерналрепли** содержит ответ "нет на месте" (отсутствие на месте), который отправляется на адреса вне домена получателя или доверенных доменов. 
   
 ```XML
 <ExternalReply>
@@ -29,37 +29,37 @@ ms.locfileid: "19762513"
 </ExternalReply>
 ```
 
- **ReplyBody**
+ **реплибоди**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|XML: lang  <br/> |Указывает язык, используемый в сообщении **ExternalReply** . Возможные значения этого атрибута определены IETF RFC 3066.  <br/> |
+|XML: lang  <br/> |Указывает язык, используемый в сообщении **екстерналрепли** . Возможные значения для этого атрибута определены в документе IETF RFC 3066.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Сообщение (доступность)](message-availability.md) <br/> |Содержит ответа об отсутствии на работе.  <br/> |
+|[Сообщение (доступность)](message-availability.md) <br/> |Содержит отклик на отсутствие на работе.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Задает параметры об отсутствии на работе.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Содержит параметры об отсутствии на работе.  <br/> Ниже приведен выражение XPath для этого элемента.  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[усеруфсеттингс](useroofsettings.md) <br/> |Задает параметры отсутствия на работе.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[уфсеттингс](oofsettings.md) <br/> |Содержит параметры отсутствия на работе.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
 ## <a name="example"></a>Пример
 
-В следующем примере запроса SetUserOofSettings задает [OofState](oofstate.md) **включена**, задает длительность об отсутствии на работе на 10 дней и задает внешних и внутренних сообщений об отсутствии на работе.
+В следующем примере запроса SetUserOofSettings задается для [уфстате](oofstate.md) значение **Enabled**, устанавливается время бездействия в 10 дней, а также задаются внутренние и внешние сообщения об отсутствии на работе.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -96,7 +96,7 @@ ms.locfileid: "19762513"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

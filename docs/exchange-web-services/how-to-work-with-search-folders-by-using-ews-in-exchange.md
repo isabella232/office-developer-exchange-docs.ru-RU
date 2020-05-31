@@ -1,11 +1,11 @@
 ---
-title: Работа с папками поиска с помощью веб-служб Exchange в Exchange
+title: Работайте с папками поиска с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: abe703c5-6d85-46d9-bf20-230c34782a9f
-description: Узнайте, как создавать, получение, обновление и удаление папок поиска с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+description: Узнайте, как создавать, получать, обновлять и удалять папки поиска с помощью управляемого API EWS или EWS в Exchange.
 ms.openlocfilehash: e38ff50fcdb5e42cea3f4b2e25345375f84ae6eb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -13,37 +13,37 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761163"
 ---
-# <a name="work-with-search-folders-by-using-ews-in-exchange"></a>Работа с папками поиска с помощью веб-служб Exchange в Exchange
+# <a name="work-with-search-folders-by-using-ews-in-exchange"></a>Работайте с папками поиска с помощью EWS в Exchange
 
-Узнайте, как создавать, получение, обновление и удаление папок поиска с помощью управляемого интерфейса API веб-служб Exchange или веб-служб Exchange в Exchange.
+Узнайте, как создавать, получать, обновлять и удалять папки поиска с помощью управляемого API EWS или EWS в Exchange.
   
-Папки поиска представляет сохраняемого поиска «всегда на» в почтовом ящике пользователя. Папки поиска выглядит и действует как папка регулярных почтового ящика. Тем не менее а не содержит элементы, содержит «виртуальный» копию элементов из любой папки в его области поиска, которые соответствуют критериям поиска, заданным в общей папке. Папки поиска можно использовать приложений и конечных пользователей. Требуется ли приложение для поиска одни и те же? Папки поиска — это превосходное средство для этой задачи. Или, возможно, вам нужно предоставить пользователям возможность доступа и управления папок поиска в клиенте. Все, что сценарий, управляемый API EWS и веб-служб Exchange позволяют приложению полностью взаимодействовать с папок поиска.
+Папка поиска представляет собой постоянный "постоянный" Поиск в почтовом ящике пользователя. Папка поиска выглядит и действует как обычная папка почтового ящика. Однако вместо элементов, содержащих элементы, оно содержит "виртуальную" копию элементов из всех папок в ее области поиска, соответствующих критериям поиска, заданным для папки. Как приложения, так и конечные пользователи могут использовать папки поиска. Нужно ли приложению выполнять одинаковый Поиск и снова? Папки поиска — это отличный инструмент для этой задачи. Или, возможно, вам нужно предоставить пользователям возможность получать доступ к папкам поиска в клиенте и управлять ими. Независимо от вашего сценария, управляемый API EWS и EWS позволяют приложению полностью взаимодействовать с папками поиска.
   
-**В таблице 1. Управляемый API EWS методы и операции веб-служб Exchange для работы с папки поиска**
+**Таблица 1. Методы управляемого API EWS и операции EWS для работы с папками поиска**
 
-|**Если вы хотите...**|**В управляемый API веб-служб Exchange используйте...**|**В веб-служб Exchange используйте...**|
+|**Задача**|**В управляемом API EWS используйте...**|**В EWS используйте...**|
 |:-----|:-----|:-----|
-|Создание папки поиска  <br/> |[SearchFolder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder Operation](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
-|Получение папки поиска  <br/> |[SearchFolder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.bind%28v=exchg.80%29.aspx) <br/> |[GetFolder Operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |
-|Изменение папки поиска  <br/> |[SearchFolder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[Операцию UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
-|Удаление папки поиска  <br/> |[SearchFolder.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> |[Операция DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |
+|Создание папки поиска  <br/> |[SearchFolder. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.save%28v=exchg.80%29.aspx) <br/> |[Операция CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
+|Получение папки поиска  <br/> |[SearchFolder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.bind%28v=exchg.80%29.aspx) <br/> |[Операция GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |
+|Обновление папки поиска  <br/> |[SearchFolder. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[Операция UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
+|Удаление папки поиска  <br/> |[SearchFolder. Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> |[Операция DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |
    
 ## <a name="core-concepts-to-know-for-working-with-search-folders"></a>Основные понятия, которые необходимо знать при работе с папками поиска
 <a name="bk_CoreConcepts"> </a>
 
-Перед началом работы со папок поиска необходимо ознакомиться с как работают фильтры поиска. Папки поиска используют фильтры поиска для выражения своих критериев. Фильтры поиска для папок поиска, созданные в таким же образом составляются этого [поисковых фильтров для операции поиска](how-to-use-search-filters-with-ews-in-exchange.md) . 
+Перед началом работы с папками поиска необходимо ознакомиться с принципами работы фильтров поиска. Для выражения критериев в папках поиска используются фильтры поиска. Фильтры поиска для папок поиска создаются аналогично тем, как создаются [фильтры поиска для операций поиска](how-to-use-search-filters-with-ews-in-exchange.md) . 
   
-## <a name="create-a-search-folder-by-using-the-ews-managed-api"></a>Создание папки поиска с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="create-a-search-folder-by-using-the-ews-managed-api"></a>Создание папки поиска с помощью управляемого API EWS
 <a name="bk_CreateEWSMA"> </a>
 
-По сути Создание папки поиска с помощью управляемого интерфейса API EWS так же, как создавать регулярные папки. Тем не менее вместо использования [класса папки](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx), следует использовать [класс SearchFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)и устанавливать [SearchParameters свойство](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.searchparameters%28v=exchg.80%29.aspx) для настройки условия поиска. 
+По сути, папка поиска создается с помощью управляемого API EWS так же, как и обычная папка. Однако вместо [класса Folder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx)используйте [класс SearchFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)и задайте [свойство сеарчпараметерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.searchparameters%28v=exchg.80%29.aspx) для настройки условий поиска. 
   
-В следующем примере создается папка поиска для поиска всех сообщений в папке "Входящие" и ее вложенных папок, которые были отправлены менеджера пользователя sadie@contoso.com. Папка создается как дочерний папке папки поиска в почтовом ящике пользователя.
+В следующем примере создается папка поиска для поиска всех сообщений в папке "Входящие" и вложенных папках, отправленных руководителем пользователя sadie@contoso.com. Папка создается как дочерний элемент папки "папки поиска" в почтовом ящике пользователя.
   
 > [!NOTE]
-> Можно создать папку поиска как дочерний любой папки в почтовом ящике пользователя. Тем не менее если необходимо, чтобы только что созданная папка отображается в разделе папки поиска в Outlook, создайте в папке папки поиска известных, с помощью **SearchFolders** значение [перечисления WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx). 
+> Вы можете создать папку поиска в качестве дочерней для любой папки в почтовом ящике пользователя. Тем не менее, если вы хотите, чтобы новая папка отображалась в разделе папки поиска в Outlook, создайте ее в папке Поиск папок, используя значение **SearchFolders** [перечисления веллкновнфолдернаме](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx). 
   
-В этом примере предполагается, что объект **ExchangeService** была ли инициализирована с допустимые значения для свойства [URL-адреса](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) и [учетных данных](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) . 
+В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -68,13 +68,13 @@ static void CreateSearchFolder(ExchangeService service)
 }
 ```
 
-## <a name="create-a-search-folder-by-using-ews"></a>Создание папки поиска с помощью веб-служб Exchange
+## <a name="create-a-search-folder-by-using-ews"></a>Создание папки поиска с помощью EWS
 <a name="bk_CreateEWS"> </a>
 
-При использовании веб-служб Exchange с помощью [операции CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) с элементом [SearchFolder](http://msdn.microsoft.com/library/1a7d408b-2e98-4391-8834-085ed6d5757c%28Office.15%29.aspx) для создания папки поиска. В следующем примере запрос создания папки поиска для поиска всех сообщений в папке "Входящие" и ее вложенных папок, которые были отправлены менеджера пользователя sadie@contoso.com. Чтобы создать папку, в папке папки поиска в почтовом ящике пользователя. 
+Если вы используете EWS, используйте [операцию CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) с элементом [SearchFolder](http://msdn.microsoft.com/library/1a7d408b-2e98-4391-8834-085ed6d5757c%28Office.15%29.aspx) для создания папки поиска. В следующем примере создается папка поиска для поиска всех сообщений в папке "Входящие" и вложенных папках, отправленных руководителем пользователя sadie@contoso.com. Папка будет создана в папке "папки поиска" в почтовом ящике пользователя. 
   
 > [!NOTE]
-> Можно создать папку поиска как дочерний любой папки в почтовом ящике пользователя. Тем не менее если требуется только что созданная папка отображается в разделе папки поиска в Outlook, создайте его в папке папки поиска известных, с использованием значения **searchfolders** в атрибуте **Id** элемента [DistinguishedFolderId](http://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) . 
+> Вы можете создать папку поиска в качестве дочерней для любой папки в почтовом ящике пользователя. Тем не менее, если вы хотите, чтобы новая папка отображалась в разделе папки поиска в Outlook, создайте ее в папке "папки поиска", используя значение **searchfolders** в атрибуте **ID** элемента [дистингуишедфолдерид](http://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -116,14 +116,14 @@ static void CreateSearchFolder(ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер отвечает кодом [CreateFolderResponse](http://msdn.microsoft.com/library/158adecc-491a-47d9-af73-acc2cd3f8566%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, который означает успешное выполнение.
+Сервер отвечает сообщением [креатефолдерреспонсе](http://msdn.microsoft.com/library/158adecc-491a-47d9-af73-acc2cd3f8566%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **, указывающее**на успешное выполнение.
   
-## <a name="get-a-search-folder-by-using-the-ews-managed-api"></a>Получение папки поиска с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="get-a-search-folder-by-using-the-ews-managed-api"></a>Получение папки поиска с помощью управляемого API EWS
 <a name="bk_RetrieveEWSMA"> </a>
 
-Используйте метод [ExchangeService.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) управляемый API EWS для поиска папок поиска. Обратите внимание, что нельзя ограничить результаты можно включить только папки поиска; может потребоваться, который следует учитывать при обработки результатов. Используйте метод [SearchFolder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.bind%28v=exchg.80%29.aspx) для получения папок поиска. 
+Используйте метод управляемого API [ExchangeService. финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) EWS для поиска папок поиска. Однако обратите внимание, что вы не можете ограничить результаты только папками поиска; при обработке результатов необходимо помнить об этом. Используйте метод [SearchFolder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.bind%28v=exchg.80%29.aspx) для получения папок поиска. 
   
-Следующий пример находит первые 10 папок в папке папки поиска. Проверяется, чтобы определить, является ли каждый из папки поиска и, если таким образом, она получает папки поиска и отображает сколько целевые папки будет выполняться поиск.
+В следующем примере показано, как найти первые 10 папок в папке "папки поиска". Он проверяет, является ли каждый из них папкой поиска, и если да, то получает папку поиска и отображает количество целевых папок, в которых она выполняется.
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -161,10 +161,10 @@ static void GetSearchFolders(ExchangeService service)
 }
 ```
 
-## <a name="get-a-search-folder-by-using-ews"></a>Получение папки поиска с помощью веб-служб Exchange
+## <a name="get-a-search-folder-by-using-ews"></a>Получение папки поиска с помощью EWS
 <a name="bk_RetrieveEWS"> </a>
 
-Если вы используете веб-служб Exchange, с помощью [операции FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) поиск в папках поиска и [операции GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) для возвращения папок поиска. Успешного ответа **GetFolder** для папки поиска будет содержать элемент [SearchFolder](http://msdn.microsoft.com/library/1a7d408b-2e98-4391-8834-085ed6d5757c%28Office.15%29.aspx) . В следующем примере запрос находит первые 10 папок в папке папки поиска. 
+Если вы используете EWS, используйте [операцию FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) для поиска папок поиска и [операцию с папкой](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) для получения папок поиска. Успешный ответ на **папку** поиска для папки поиска будет содержать элемент [SearchFolder](http://msdn.microsoft.com/library/1a7d408b-2e98-4391-8834-085ed6d5757c%28Office.15%29.aspx) . Приведенный ниже пример запроса находит первые 10 папок в папке "папки поиска". 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -195,7 +195,7 @@ static void GetSearchFolders(ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер возвращает следующие ответ, который отображает один папки поиска.
+Сервер возвращает следующий ответ, в котором показана одна папка поиска.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -228,7 +228,7 @@ static void GetSearchFolders(ExchangeService service)
 </s:Envelope>
 ```
 
-В следующем примере запроса используется значение элемента [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) из предыдущего ответа в запрос операции **GetFolder** для получения папки поиска. 
+В следующем примере запроса для получения папки поиска используется значение элемента [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) из предыдущего ответа из предыдущего ответа в запросе операции с **папкой** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -255,7 +255,7 @@ static void GetSearchFolders(ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер возвращает ответ все первого свойства для папки поиска.
+Сервер возвращает следующий ответ со всеми свойствами первого класса для папки поиска.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -313,10 +313,10 @@ static void GetSearchFolders(ExchangeService service)
 </s:Envelope>
 ```
 
-## <a name="update-a-search-folder-by-using-the-ews-managed-api"></a>Изменение папки поиска с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="update-a-search-folder-by-using-the-ews-managed-api"></a>Обновление папки поиска с помощью управляемого API EWS
 <a name="bk_UpdateEWSMA"> </a>
 
-Метод [Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) управляемый API EWS для объекта **SearchFolder** обновить папку поиска. В следующем примере обновляются параметры поиска на папки поиска с отображаемым именем «От руководителя». 
+Используйте метод [Folder. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) Managed API EWS для объекта **SearchFolder** , чтобы обновить папку поиска. В следующем примере обновляются условия поиска для папки поиска с отображаемым именем "из диспетчера". 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -353,10 +353,10 @@ static void UpdateSearchFolder(ExchangeService service)
 }
 ```
 
-## <a name="update-a-search-folder-by-using-ews"></a>Изменение папки поиска с помощью веб-служб Exchange
+## <a name="update-a-search-folder-by-using-ews"></a>Обновление папки поиска с помощью EWS
 <a name="bk_UpdateEWS"> </a>
 
-Если вы используете веб-служб Exchange, с помощью [операции UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) с элементом [SearchFolder](http://msdn.microsoft.com/library/1a7d408b-2e98-4391-8834-085ed6d5757c%28Office.15%29.aspx) обновить папку поиска. В следующем примере запрос на обновление условия поиска для папки поиска «От руководителя». 
+Если вы используете EWS, используйте [операцию операцию UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) с элементом [SearchFolder](http://msdn.microsoft.com/library/1a7d408b-2e98-4391-8834-085ed6d5757c%28Office.15%29.aspx) для обновления папки поиска. В следующем примере запроса обновляются условия поиска в папке поиска "из диспетчера". 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -402,12 +402,12 @@ static void UpdateSearchFolder(ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер отвечает с [UpdateFolderResponse](http://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) сообщения, которое содержит значение [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, который означает успешное выполнение.
+Сервер отвечает сообщением [упдатефолдерреспонсе](http://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) , которое содержит значение [Респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , указывающее **об**успешном выполнении.
   
-## <a name="delete-a-search-folder-by-using-the-ews-managed-api"></a>Удаление папки поиска с помощью управляемого интерфейса API веб-служб Exchange
+## <a name="delete-a-search-folder-by-using-the-ews-managed-api"></a>Удаление папки поиска с помощью управляемого API EWS
 <a name="bk_DeleteEWSMA"> </a>
 
-Метод [Folder.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) управляемый API EWS для объекта **SearchFolder** удаление папки поиска. В следующем примере удаляется папки поиска с отображаемым именем «От руководителя». Папка удаленного поиска перемещаются папки "Удаленные". 
+Используйте [папку. Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) метод управляемого API EWS для объекта **SearchFolder** , чтобы удалить папку поиска. В следующем примере удаляется папка поиска с отображаемым именем "из диспетчера". Удаленная папка поиска перемещается в папку "Удаленные". 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -437,10 +437,10 @@ static void DeleteSearchFolder(ExchangeService service)
 }
 ```
 
-## <a name="delete-a-search-folder-by-using-ews"></a>Удаление папки поиска с помощью веб-служб Exchange
+## <a name="delete-a-search-folder-by-using-ews"></a>Удаление папки поиска с помощью EWS
 <a name="bk_DeleteEWS"> </a>
 
-Если вы используете веб-служб Exchange, с помощью [операции DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) удаление папки поиска. В следующем примере удаляется папка поиска и переводит его в папку «Удаленные». 
+Если вы используете EWS, используйте [операцию DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) для удаления папки поиска. В следующем примере папка поиска удаляется и перемещается в папку "Удаленные". 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -464,24 +464,24 @@ static void DeleteSearchFolder(ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер отвечает кодом [DeleteFolderResponse](http://msdn.microsoft.com/library/27578bda-ef0a-4a33-bccc-2c1bc1735424%28Office.15%29.aspx) сообщение, содержащее значение [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, который означает успешное выполнение.
+Сервер отвечает сообщением [делетефолдерреспонсе](http://msdn.microsoft.com/library/27578bda-ef0a-4a33-bccc-2c1bc1735424%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **, указывающее**на успешное выполнение.
   
 ## <a name="see-also"></a>См. также
 
 
 - [Поиск и веб-службах Exchange](search-and-ews-in-exchange.md)
     
-- [Используйте фильтры поиска с помощью веб-служб Exchange в Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
+- [Использование фильтров поиска с EWS в Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
     
 - [Класс SearchFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)
     
-- [CreateFolder Operation](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx)
+- [Операция CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx)
     
-- [FindFolder Operation](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
+- [Операция FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
     
-- [GetFolder Operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)
+- [Операция GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)
     
-- [Операцию UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx)
+- [Операция UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx)
     
 - [Операция DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx)
     

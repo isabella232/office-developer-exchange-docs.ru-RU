@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 98161486-e2f2-480f-8d5d-708ba81b208a
-description: Операция EmptyFolder приводит к очистке папок в почтовом ящике. Кроме того эта операция позволяет удалять вложенные папки указанной папки. При удалении вложенной папке вложенной папке и сообщения в рамках вложенной папке удаляются.
+description: Операция EmptyFolder удаляет папки в почтовом ящике. При необходимости эта операция позволяет удалить вложенные папки указанной папки. При удалении вложенной папки удаляются вложенная папка и сообщения в ней.
 ms.openlocfilehash: 0192744516c5a6d24b95915452bfcffecc2d92b7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,18 +17,18 @@ ms.locfileid: "19762326"
 ---
 # <a name="emptyfolder-operation"></a>Операция EmptyFolder
 
-Операция **EmptyFolder** приводит к очистке папок в почтовом ящике. Кроме того эта операция позволяет удалять вложенные папки указанной папки. При удалении вложенной папке вложенной папке и сообщения в рамках вложенной папке удаляются. 
+Операция **EmptyFolder** удаляет папки в почтовом ящике. При необходимости эта операция позволяет удалить вложенные папки указанной папки. При удалении вложенной папки удаляются вложенная папка и сообщения в ней. 
   
 ## <a name="emptyfolder-request-example"></a>Пример запроса EmptyFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере запроса **EmptyFolder** показано, как для формирования запроса, чтобы полностью очистить папку. В этом примере удаляются все вложенные папки указанной папки. 
+В следующем примере запроса **EmptyFolder** показано, как сформировать запрос на очистку папки. В этом примере удаляются все вложенные папки указанной папки. 
   
 > [!NOTE]
-> Значения **Id** и **ChangeKey** атрибуты элемента [FolderId](folderid.md) URL были сокращены для удобства чтения. 
+> Значения **ID** и атрибуты **чанжекэй** элемента [FolderId](folderid.md) были сокращены для удобочитаемости. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -49,29 +49,29 @@ ms.locfileid: "19762326"
 
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-В этом примере выполняется окончательного удаления в общей папке.
+В этом примере выполняется окончательное удаление папки.
   
-Папки, можно определить по [DistinguishedFolderId](distinguishedfolderid.md) элемент или элемент [FolderId](folderid.md) для использования в элементе [FolderIds](folderids.md) . 
+Папки можно определять с помощью элемента [дистингуишедфолдерид](distinguishedfolderid.md) или элемента [FolderId](folderid.md) для использования в элементе [фолдеридс](folderids.md) . 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [EmptyFolder](emptyfolder.md)
     
-- [FolderIds](folderids.md)
+- [фолдеридс](folderids.md)
     
 - [FolderId](folderid.md)
     
-## <a name="successful-emptyfolder-response"></a>Успешного ответа EmptyFolder
+## <a name="successful-emptyfolder-response"></a>Успешный ответ EmptyFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **EmptyFolder** . 
+В следующем примере показан успешный ответ на запрос **EmptyFolder** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -104,25 +104,25 @@ ms.locfileid: "19762326"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [EmptyFolderResponse](emptyfolderresponse.md)
+- [емптифолдерреспонсе](emptyfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [EmptyFolderResponseMessage](emptyfolderresponsemessage.md)
+- [емптифолдерреспонсемессаже](emptyfolderresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-## <a name="emptyfolder-error-response"></a>Ошибка EmptyFolder ответа
+## <a name="emptyfolder-error-response"></a>Ответ об ошибке EmptyFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос **Emptyfolder** . Ошибка была создана, поскольку операции попытка очистить папку, которая не найден в хранилище Exchange. 
+В следующем примере показан ответ об ошибке для запроса **Emptyfolder** . Ошибка была создана, так как Операция попыталась очистить папку, которая не была найдена в хранилище Exchange. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -156,25 +156,25 @@ ms.locfileid: "19762326"
 </s:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetFolderResponse](getfolderresponse.md)
+- [жетфолдерреспонсе](getfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetFolderResponseMessage](getfolderresponsemessage.md)
+- [жетфолдерреспонсемессаже](getfolderresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 ## <a name="see-also"></a>См. также
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: b0f92682-4895-4bcf-a4a1-e4c2e8403979
-description: Операция DeleteFolder удаление папки из почтового ящика.
+description: Операция DeleteFolder удаляет папки из почтового ящика.
 ms.openlocfilehash: 0fd7c9d4b04a706dcdb83f41087eaa4f3d45f129
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "19762033"
 ---
 # <a name="deletefolder-operation"></a>Операция DeleteFolder
 
-Операция **DeleteFolder** удаление папки из почтового ящика. 
+Операция **DeleteFolder** удаляет папки из почтового ящика. 
   
 ## <a name="deletefolder-request-example"></a>Пример запроса DeleteFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере запроса **DeleteFolder** показано, как для формирования запроса, чтобы удалить папку. 
+В следующем примере запроса **DeleteFolder** показано, как сформировать запрос на удаление папки. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -47,35 +47,35 @@ ms.locfileid: "19762033"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-В этом примере выполняется окончательного удаления в общей папке.
+В этом примере выполняется окончательное удаление папки.
   
 > [!NOTE]
-> Идентификатор папки был усечен, чтобы сохранить удобочитаемость. 
+> Идентификатор папки сокращен, чтобы сохранить удобочитаемость. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [DeleteFolder](deletefolder.md)
     
-- [FolderIds](folderids.md)
+- [фолдеридс](folderids.md)
     
 - [FolderId](folderid.md)
     
 > [!NOTE]
-> Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server 2010 с установленной ролью сервера клиентского доступа. 
+> Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа. 
   
-Чтобы найти другие параметры для запроса **DeleteFolder** операции, изучите иерархия схемы. Запустите в элементе [DeleteFolder](deletefolder.md) . 
+Чтобы найти другие параметры сообщения Request операции **DeleteFolder** , изучите иерархию схемы. Начните с элемента [DeleteFolder](deletefolder.md) . 
   
-## <a name="successful-deletefolder-response"></a>Успешного ответа DeleteFolder
+## <a name="successful-deletefolder-response"></a>Успешный ответ DeleteFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **DeleteFolder** . 
+В следующем примере показан успешный ответ на запрос **DeleteFolder** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -100,29 +100,29 @@ ms.locfileid: "19762033"
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a>Элементы ответа
+### <a name="response-elements"></a>Элементы Response
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [DeleteFolderResponse](deletefolderresponse.md)
+- [делетефолдерреспонсе](deletefolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [DeleteFolderResponseMessage](deletefolderresponsemessage.md)
+- [делетефолдерреспонсемессаже](deletefolderresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-Чтобы найти другие параметры в сообщении ответа **DeleteFolder** операции, изучите иерархия схемы. Запустите в элементе [DeleteFolderResponse](deletefolderresponse.md) . 
+Чтобы найти другие параметры для ответного сообщения операции **DeleteFolder** , изучите иерархию схемы. Начните с элемента [делетефолдерреспонсе](deletefolderresponse.md) . 
   
-## <a name="deletefolder-error-response"></a>Отклик DeleteFolder
+## <a name="deletefolder-error-response"></a>Ответ об ошибке DeleteFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано ошибочный ответ на запрос **DeleteFolder** . Ошибка была вызвана запрос на удаление папки, который не был представлен в почтовом ящике. 
+В следующем примере показан ответ об ошибке для запроса **DeleteFolder** . Ошибка вызвана запросом на удаление папки, которая отсутствовала в почтовом ящике. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -149,29 +149,29 @@ ms.locfileid: "19762033"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Операция **DeleteFolder** не может использоваться для различающееся папок. 
+Операцию **DeleteFolder** нельзя использовать для различающихся папок. 
   
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [DeleteFolderResponse](deletefolderresponse.md)
+- [делетефолдерреспонсе](deletefolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [DeleteFolderResponseMessage](deletefolderresponsemessage.md)
+- [делетефолдерреспонсемессаже](deletefolderresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-Чтобы найти другие параметры в сообщении об ошибке ответа **DeleteFolder** операции, изучите иерархия схемы. Запустите в элементе [DeleteFolderResponse](deletefolderresponse.md) . 
+Чтобы найти другие параметры сообщения об ошибке при выполнении операции **DeleteFolder** , изучите иерархию схемы. Начните с элемента [делетефолдерреспонсе](deletefolderresponse.md) . 
   
 ## <a name="see-also"></a>См. также
 

@@ -24,10 +24,10 @@ ms.locfileid: "19762162"
 <DisplayName/>
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,8 +41,8 @@ ms.locfileid: "19762162"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |Представляет альтернативного почтового ящика.  <br/> |
-|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Представляет сведения о расположении и метаданных для документа расположение для обмена.  <br/> |
+|[Алтернатемаилбокс (SOAP)](alternatemailbox-soap.md) <br/> |Представляет альтернативный почтовый ящик.  <br/> |
+|[Документшаринглокатион (SOAP)](documentsharinglocation-soap.md) <br/> |Представляет сведения о местоположении и метаданных для расположения общего доступа к документу.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -53,11 +53,11 @@ ms.locfileid: "19762162"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема службы автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Имя схемы  <br/> |Схема автообнаружения  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [AlternateMailbox (SOAP)](alternatemailbox-soap.md)
+- [Алтернатемаилбокс (SOAP)](alternatemailbox-soap.md)
 

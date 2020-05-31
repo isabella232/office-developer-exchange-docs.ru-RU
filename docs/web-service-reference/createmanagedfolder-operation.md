@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 60a668a2-b4e9-4db9-ac76-9b181e47b302
-description: Операция CreateManagedFolder создает управляемых папок в хранилище Exchange.
+description: Операция CreateManagedFolder создает управляемую папку в хранилище Exchange.
 ms.openlocfilehash: 2c2af53dc5dbe1e6fcbc7f3b1174a856e51e4905
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -21,33 +21,33 @@ ms.locfileid: "19761909"
 ---
 # <a name="createmanagedfolder-operation"></a>Операция CreateManagedFolder
 
-Операция CreateManagedFolder создает управляемых папок в хранилище Exchange.
+Операция CreateManagedFolder создает управляемую папку в хранилище Exchange.
   
-## <a name="using-the-createmanagedfolder-operation"></a>С помощью операции CreateManagedFolder
+## <a name="using-the-createmanagedfolder-operation"></a>Использование операции CreateManagedFolder
 
-Операция CreateManagedFolder добавляет настраиваемой управляемой папки почтового ящика пользователя. Командлет командной консоли Exchange **Get-ManagedFolder** найти доступные управляемые папки для добавления. Несмотря на то, что этот командлет возвращает управляемые настраиваемые папки и управляемые папки по умолчанию, только управляемые настраиваемые папки можно добавить. Управляемые настраиваемые папки, идентифицируются по типу папки ManagedCustomFolder. Пространство имен System.DirectoryServices также содержит типы, которые можно использовать для получения имен доступных управляемых папок. 
+Операция CreateManagedFolder добавляет настраиваемую управляемую папку в почтовый ящик пользователя. С помощью командлета **Get – ManagedFolder** в командной консоли Exchange можно найти доступные управляемые папки для добавления. Несмотря на то, что этот командлет возвращает как управляемые настраиваемые папки, так и управляемые папки по умолчанию, можно добавлять только настраиваемые папки с управляемыми папками. Управляемые настраиваемые папки определяются типом папки Манажедкустомфолдер. Пространство имен System. DirectoryServices также включает типы, которые можно использовать для обнаружения имен доступных управляемых папок. 
   
 > [!NOTE]
-> Нельзя использовать веб-служб Exchange для поиска имен доступен управляемые папки для добавления к почтовому ящику. 
+> Веб-службы Exchange невозможно использовать для поиска имен доступных управляемых папок, добавляемых в почтовый ящик. 
   
-Операции FindFolder и GetFolder можно использовать для доступа к управляемых папок. FindFolder используется для поиска папок в указанной родительской папки. Можно использовать, чтобы управляемые папки для обнаружения в папке, прежде чем пытаться добавить дубликат настраиваемую управляемую папку на том же каталоге. GetFolder используется после операции FindFolder для получения дополнительных сведений о настраиваемой управляемой папки.
+Вы можете использовать операции FindFolder и a Folder для доступа к управляемым папкам. FindFolder используется для поиска папок в указанной родительской папке. Это можно использовать для обнаружения управляемых папок в папке перед попыткой добавить дублирующую управляемую настраиваемую папку в тот же каталог. "-Папка" используется после операции FindFolder для получения дополнительных сведений об управляемой настраиваемой папке.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Сведения о настройке политики управления записями обмена сообщениями Узнайте, [как создать политику почтовых ящиков управляемых папок](http://go.microsoft.com/fwlink/?LinkId=100975).
+Сведения о том, как настроить политику управления записями сообщений (управления ЗАПИСЯМИ сообщений), приведены [в статье Создание политики почтовых ящиков управляемых папок](http://go.microsoft.com/fwlink/?LinkId=100975).
   
-Сведения о том, как удалить управляемые настраиваемые папки из почтового ящика можно [Remove-ManagedFolder](http://go.microsoft.com/fwlink/?LinkId=100976).
+Сведения об удалении управляемых настраиваемых папок из почтового ящика можно найти в статье [Remove – ManagedFolder](http://go.microsoft.com/fwlink/?LinkId=100976).
   
 ## <a name="createmanagedfolder-request-example"></a>Пример запроса CreateManagedFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос CreateManagedFolder показано, как для добавления управляемых папок с именем Test управляемых папок для почтового ящика.
+В приведенном ниже примере запроса CreateManagedFolder показано, как добавить управляемую папку с именем Test Managed Folder в почтовый ящик.
   
 > [!NOTE]
-> Передача прав доступа можно также использовать для добавления настраиваемых управляемых папок. 
+> Вы также можете использовать делегированный доступ для добавления настраиваемых управляемых папок. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -65,28 +65,28 @@ ms.locfileid: "19761909"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [CreateManagedFolder](createmanagedfolder.md)
     
-- [FolderNames](foldernames.md)
+- [фолдернамес](foldernames.md)
     
-- [Имя папки](foldername.md)
+- [FolderName](foldername.md)
     
-Чтобы найти другие параметры для запроса CreateManagedFolder операции, изучите иерархия схемы. Запустите в элементе [CreateManagedFolder](createmanagedfolder.md) . 
+Чтобы найти другие параметры сообщения Request операции CreateManagedFolder, изучите иерархию схемы. Начните с элемента [CreateManagedFolder](createmanagedfolder.md) . 
   
-## <a name="successful-createmanagedfolder-response"></a>Успешного ответа CreateManagedFolder
+## <a name="successful-createmanagedfolder-response"></a>Успешный ответ CreateManagedFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано успешного ответа на запрос CreateManagedFolder.
+В следующем примере кода показан успешный ответ на запрос CreateManagedFolder.
   
 > [!NOTE]
-> Значения атрибута **Id** и **ChangeKey** URL-были сокращены, чтобы сохранить удобочитаемость. 
+> Значения атрибута **ID** и **чанжекэй** были сокращены для сохранения удобочитаемости. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -118,31 +118,31 @@ ms.locfileid: "19761909"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы: 
+В отклике используются следующие элементы: 
   
-- [CreateManagedFolderResponse](createmanagedfolderresponse.md)
+- [креатеманажедфолдерреспонсе](createmanagedfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md)
+- [креатеманажедфолдерреспонсемессаже](createmanagedfolderresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 - [Folder](folder.md)
     
 - [FolderId](folderid.md)
     
-Чтобы найти другие параметры сообщений ответа CreateManagedFolder операции, изучите иерархия схемы. Запустите в элементе [CreateManagedFolderResponse](createmanagedfolderresponse.md) . 
+Чтобы найти другие параметры для ответных сообщений операции CreateManagedFolder, изучите иерархию схемы. Начните с элемента [креатеманажедфолдерреспонсе](createmanagedfolderresponse.md) . 
   
-## <a name="createmanagedfolder-error-response"></a>Ошибка CreateManagedFolder ответа
+## <a name="createmanagedfolder-error-response"></a>Ответ об ошибке CreateManagedFolder
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано ошибочный ответ на запрос CreateManagedFolder.
+В следующем примере кода показан ответ об ошибке для запроса CreateManagedFolder.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -170,31 +170,31 @@ ms.locfileid: "19761909"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [CreateManagedFolderResponse](createmanagedfolderresponse.md)
+- [креатеманажедфолдерреспонсе](createmanagedfolderresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md)
+- [креатеманажедфолдерреспонсемессаже](createmanagedfolderresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Папки](folders-ex15websvcsotherref.md)
+- [Folders](folders-ex15websvcsotherref.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[GetFolder Operation](getfolder-operation.md)
+[Операция GetFolder](getfolder-operation.md)
   
-[FindFolder Operation](findfolder-operation.md)
+[Операция FindFolder](findfolder-operation.md)
 
 
 [Поиск папок](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)

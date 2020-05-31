@@ -1,5 +1,5 @@
 ---
-title: EmptyFolderResponse
+title: емптифолдерреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c900be49-3c90-41aa-aba5-bcf1116ec2aa
-description: Элемент EmptyFolderResponse определяет ответа на запрос операции EmptyFolder.
+description: Элемент Емптифолдерреспонсе определяет ответ на запрос операции EmptyFolder.
 ms.openlocfilehash: ab753351a1eb7deba83823875989816ba75b9809
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762325"
 ---
-# <a name="emptyfolderresponse"></a>EmptyFolderResponse
+# <a name="emptyfolderresponse"></a>емптифолдерреспонсе
 
-Элемент **EmptyFolderResponse** определяет ответ на запрос [EmptyFolder операции](emptyfolder-operation.md) . 
+Элемент **емптифолдерреспонсе** определяет ответ на запрос [операции EmptyFolder](emptyfolder-operation.md) . 
   
 ```XML
 <EmptyFolderResponse>
@@ -25,10 +25,10 @@ ms.locfileid: "19762325"
 </EmptyFolderResponse>
 ```
 
- **EmptyFolderResponseType**
+ **емптифолдерреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,13 +38,13 @@ ms.locfileid: "19762325"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -54,7 +54,7 @@ ms.locfileid: "19762325"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

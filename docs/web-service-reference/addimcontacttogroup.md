@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 65554e4c-c0d9-485e-9f01-ed1baa8280ab
-description: Элемент AddImContactToGroup определяет запрос на добавление существующего контакта мгновенного обмена сообщениями в группу мгновенного обмена сообщениями.
+description: Элемент AddImContactToGroup определяет запрос на Добавление существующего контакта для обмена мгновенными сообщениями в группу мгновенных сообщений.
 ms.openlocfilehash: 71c841ce6df2ed7dcbbf77597b26f3e3e742a7fb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19761420"
 ---
 # <a name="addimcontacttogroup"></a>AddImContactToGroup
 
-Элемент **AddImContactToGroup** определяет запрос на добавление существующего контакта мгновенного обмена сообщениями в группу мгновенного обмена сообщениями. 
+Элемент **AddImContactToGroup** определяет запрос на Добавление существующего контакта для обмена мгновенными сообщениями в группу мгновенных сообщений. 
   
 ```XML
 <AddImContactToGroup>
@@ -26,10 +26,10 @@ ms.locfileid: "19761420"
 </AddImContactToGroup>
 ```
 
- **AddImContactToGroupType**
+ **аддимконтакттограуптипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -37,13 +37,13 @@ ms.locfileid: "19761420"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ContactId](contactid.md) | [GroupId](groupid.md)
+[ContactId](contactid.md) | [groupId](groupid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "19761420"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

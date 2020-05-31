@@ -1,5 +1,5 @@
 ---
-title: AdditionalProperties
+title: аддитионалпропертиес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7a269aed-dcfd-4c3e-9e14-094e53828101
-description: Элемент AdditionalProperties определяет дополнительные свойства для использования в GetItem, UpdateItem, CreateItem, FindItem или запрашивает FindFolder.
+description: Элемент Аддитионалпропертиес определяет дополнительные свойства для использования в запросах GetItem, UpdateItem, CreateItem, FindItem или FindFolder.
 ms.openlocfilehash: 64e4f1ee6b24cf8015b7893dc4a904ca8b32d58e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761346"
 ---
-# <a name="additionalproperties"></a>AdditionalProperties
+# <a name="additionalproperties"></a>аддитионалпропертиес
 
-Элемент **AdditionalProperties** определяет дополнительные свойства для использования в [GetItem](getitem.md), [UpdateItem](updateitem.md), [CreateItem](createitem.md), [FindItem](finditem.md)или запрашивает [FindFolder](findfolder.md) . 
+Элемент **аддитионалпропертиес** определяет дополнительные свойства для использования в запросах [GetItem](getitem.md), [UpdateItem](updateitem.md), [CreateItem](createitem.md), [FindItem](finditem.md)или [FindFolder](findfolder.md) . 
   
 ```xml
 <AdditionalProperties>
@@ -31,10 +31,10 @@ ms.locfileid: "19761346"
 </AdditionalProperties>
 ```
 
- **NonEmptyArrayOfPathsToElementType**
+ **нонемптяррайофпасстоелементтипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,21 +44,21 @@ ms.locfileid: "19761346"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |Задает расширенные свойства MAPI для получения, установки или создать.  <br/> |
-|[FieldURI](fielduri.md) <br/> |Идентифицирует часто упоминаемые свойства по URI.  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |Идентифицирует часто упоминаемые свойства словаря по URI.  <br/> |
+|[екстендедфиелдури](extendedfielduri.md) <br/> |Определяет расширенные свойства MAPI, которые необходимо получить, задать или создать.  <br/> |
+|[фиелдури](fielduri.md) <br/> |Определяет часто упоминаемые свойства по URI.  <br/> |
+|[индекседфиелдури](indexedfielduri.md) <br/> |Определяет свойства часто упоминаемого словаря по универсальному коду ресурса (URI).  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> | Задает свойства папки для включения в [GetFolder](getfolder.md), [FindFolder](findfolder.md)или [SyncFolderHierarchy](syncfolderhierarchy.md) ответа.<br/><br/>  Ниже приведены выражения XPath для этого элемента.<br/><br/>  `/FindFolder/FolderShape` <br/>  `/GetFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Определяет свойства элемента и содержимого для включения в [GetItem](getitem.md), [FindItem](finditem.md)или [SyncFolderItems](syncfolderitems.md) ответа.<br/><br/>  Ниже приведены выражения XPath для этого элемента.<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
-|[AttachmentShape](attachmentshape.md) <br/> |Определяет дополнительные расширенные свойства элемента для возврата в ответ на запрос [GetItem](getitem.md) .<br/><br/> Ниже приведен выражение XPath для этого элемента.<br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[фолдершапе](foldershape.md) <br/> | Определяет свойства папки, включаемые в ответ [на](getfolder.md)SyncFolderHierarchy, [FindFolder](findfolder.md)или [SyncFolderHierarchy](syncfolderhierarchy.md) .<br/><br/>  Ниже приведены выражения XPath для этого элемента.<br/><br/>  `/FindFolder/FolderShape` <br/>  `/GetFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
+|[итемшапе](itemshape.md) <br/> | Определяет свойства и контент элемента, включаемые в ответ [GetItem](getitem.md), [FindItem](finditem.md)или [SyncFolderItems](syncfolderitems.md) .<br/><br/>  Ниже приведены выражения XPath для этого элемента.<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[аттачментшапе](attachmentshape.md) <br/> |Определяет дополнительные свойства расширенного элемента, которые возвращаются в ответ на запрос [GetItem](getitem.md) .<br/><br/> Ниже приведено выражение XPath для этого элемента:<br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Не все дочерние элементы можно использовать с [GetItem](getitem.md), [UpdateItem](updateitem.md), [CreateItem](createitem.md), [FindItem](finditem.md)или [FindFolder](findfolder.md) запросов. Свойство должно быть применимы к папке или элемента, к которому осуществляется. Используйте расширенные свойства для доступа к другим свойствам. Если свойство не существует для данного элемента, соответствующий элемент не будет передан в результирующем XML-документе. 
+Не все дочерние элементы могут использоваться с запросами [GetItem](getitem.md), [UpdateItem](updateitem.md), [CreateItem](createitem.md), [FindItem](finditem.md)или [FindFolder](findfolder.md) . Свойство должно быть применимым к папке или элементу, к которому осуществляется доступ. Используйте расширенные свойства для доступа к другим свойствам. Если свойство не существует для данного элемента, в результирующий XML-файл не будет выдаваться соответствующий элемент. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
   
@@ -66,7 +66,7 @@ ms.locfileid: "19761346"
   
 ## <a name="example"></a>Пример
 
-В следующем примере запрос показано, как получить Тема элемента с помощью элемента **AdditionalProperties** . 
+В приведенном ниже примере запроса показано, как получить тему элемента с помощью элемента **аддитионалпропертиес** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,7 +97,7 @@ ms.locfileid: "19761346"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 

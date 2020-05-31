@@ -1,5 +1,5 @@
 ---
-title: ConflictResults
+title: конфликтресултс
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 08cdd547-4de7-4c7a-b60f-e618dc217d20
-description: Элемент ConflictResults содержит число конфликтов в ответ UpdateItem операции.
+description: Элемент Конфликтресултс содержит количество конфликтов в ответе операции UpdateItem.
 ms.openlocfilehash: faa6dc6c5fbbe874438a89c810a12fa675e8a1c9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761715"
 ---
-# <a name="conflictresults"></a>ConflictResults
+# <a name="conflictresults"></a>конфликтресултс
 
-Элемент [ConflictResults](conflictresults.md) содержит число конфликтов в ответ [UpdateItem операции](updateitem-operation.md) . 
+Элемент [конфликтресултс](conflictresults.md) содержит количество конфликтов в ответе [операции UpdateItem](updateitem-operation.md) . 
   
-[UpdateItemResponse](updateitemresponse.md)
+[упдатеитемреспонсе](updateitemresponse.md)
   
-[ResponseMessages](responsemessages.md)
+[респонсемессажес](responsemessages.md)
   
-[UpdateItemResponseMessage](updateitemresponsemessage.md)
+[упдатеитемреспонсемессаже](updateitemresponsemessage.md)
   
-[ConflictResults](conflictresults.md)
+[конфликтресултс](conflictresults.md)
   
 ```xml
 <ConflictResults>
@@ -37,10 +37,10 @@ ms.locfileid: "19761715"
 </ConflictResults>
 ```
 
- **ConflictResultsType**
+ **конфликтресултстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,17 +50,17 @@ ms.locfileid: "19761715"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Count](count.md) <br/> |Содержит число конфликтов в ответ [UpdateItem операции](updateitem-operation.md) .  <br/> |
+|[Count](count.md) <br/> |Содержит количество конфликтов в отклике [операции UpdateItem](updateitem-operation.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [UpdateItem операции](updateitem-operation.md) .  <br/> |
+|[упдатеитемреспонсемессаже](updateitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции UpdateItem](updateitem-operation.md) .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором работает Exchange Server с установленной ролью сервера клиентского доступа.
+Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором установлен сервер Exchange Server с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -68,14 +68,14 @@ ms.locfileid: "19761715"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[UpdateItem Operation](updateitem-operation.md)
+[Операция UpdateItem](updateitem-operation.md)
   
- **ConflictResultsType**
+ **конфликтресултстипе**
 

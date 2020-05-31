@@ -1,5 +1,5 @@
 ---
-title: ExtendedPropertyAttributedValue
+title: екстендедпропертяттрибутедвалуе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 90f3c5c5-f612-4e1b-b1f5-f92dd8524179
-description: Элемент ExtendedPropertyAttributedValue указывает расширенные свойства для пользователя.
+description: Элемент Екстендедпропертяттрибутедвалуе указывает расширенные свойства для пользователя.
 ms.openlocfilehash: 92e4ec7f192ccb36ea68d7862e66cb7b3349819a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762469"
 ---
-# <a name="extendedpropertyattributedvalue"></a>ExtendedPropertyAttributedValue
+# <a name="extendedpropertyattributedvalue"></a>екстендедпропертяттрибутедвалуе
 
-Элемент **ExtendedPropertyAttributedValue** указывает расширенные свойства для пользователя. 
+Элемент **екстендедпропертяттрибутедвалуе** указывает расширенные свойства для пользователя. 
   
 ```XML
 <ExtendedPropertyAttributedValue>
@@ -26,10 +26,10 @@ ms.locfileid: "19762469"
 </ExtendedPropertyAttributedValue>
 ```
 
- **ExtendedPropertyAttributedValueType**
+ **екстендедпропертяттрибутедвалуетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -39,16 +39,16 @@ ms.locfileid: "19762469"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Значение (ExtendedPropertyType)](value-extendedpropertytype.md) <br/> |Указывает массив расширенных свойств для пользователя.  <br/> |
-|[Атрибуты (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Указывает массив атрибуты для его связанное **значение** элемента.  <br/> |
+|[Значение (Екстендедпропертитипе)](value-extendedpropertytype.md) <br/> |Указывает массив расширенных свойств для пользователя.  <br/> |
+|[Атрибуты (Аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md) <br/> |Задает массив атрибутов для связанного элемента **value** .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Свойство ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md) <br/> |Содержит расширенные свойства, используемые для операций единого хранилища контактов.  <br/> |
+|[Екстендедпропертиес (Аррайофекстендедпропертяттрибутедвалуетипе)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md) <br/> |Содержит расширенные свойства, используемые для операций с единым хранилищем контактов.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19762469"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

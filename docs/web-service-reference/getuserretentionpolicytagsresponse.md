@@ -1,5 +1,5 @@
 ---
-title: GetUserRetentionPolicyTagsResponse
+title: жетусерретентионполицитагсреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 12ba4528-60e9-4c0a-a5b2-eed3a2cb1509
-description: Элемент GetUserRetentionPolicyTagsResponse содержит ответ на запрос GetRetentionPolicyTags.
+description: Элемент Жетусерретентионполицитагсреспонсе содержит ответ на запрос Жетретентионполицитагс.
 ms.openlocfilehash: a208bb466725c746a1a7fc60b999ecb1d76dd2d0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833699"
 ---
-# <a name="getuserretentionpolicytagsresponse"></a>GetUserRetentionPolicyTagsResponse
+# <a name="getuserretentionpolicytagsresponse"></a>жетусерретентионполицитагсреспонсе
 
-Элемент [GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md) содержит ответ на запрос **GetRetentionPolicyTags** . 
+Элемент [жетусерретентионполицитагсреспонсе](getuserretentionpolicytagsresponse.md) содержит ответ на запрос **жетретентионполицитагс** . 
   
 ```XML
 <GetUserRetentionPolicyTagsResponse>
@@ -29,10 +29,10 @@ ms.locfileid: "19833699"
 </GetUserRetentionPolicyTagsResponse>
 ```
 
- **GetUserRetentionPolicyTagsResponseMessageType**
+ **жетусерретентионполицитагсреспонсемессажетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,13 +40,13 @@ ms.locfileid: "19833699"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [RetentionPolicyTags](retentionpolicytags.md)
+[Мессажетекст](messagetext.md) | [респонсекоде](responsecode.md) | [RetentionPolicyTags](retentionpolicytags.md) [MessageXml](messagexml.md)[DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй мессажексмл ретентионполицитагс |  | 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19833699"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
-|Может быть пустым  <br/> |Нет  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
+|Может быть пустым  <br/> |false  <br/> |
    
 

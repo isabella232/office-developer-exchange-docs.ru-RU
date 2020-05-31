@@ -1,5 +1,5 @@
 ---
-title: DeleteItemResponse
+title: делетеитемреспонсе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 86463d66-fe47-4a19-a81b-e24841e816ab
-description: Элемент DeleteItemResponse определяет ответа на один запрос DeleteItem.
+description: Элемент Делетеитемреспонсе определяет ответ на один запрос DeleteItem.
 ms.openlocfilehash: 8a35033c744fbcb0829d2c79a8d79557f77137bb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762045"
 ---
-# <a name="deleteitemresponse"></a>DeleteItemResponse
+# <a name="deleteitemresponse"></a>делетеитемреспонсе
 
-Элемент **DeleteItemResponse** определяет ответа на один запрос DeleteItem. 
+Элемент **делетеитемреспонсе** определяет ответ на один запрос DeleteItem. 
   
 ```xml
 <DeleteItemResponse>
@@ -29,10 +29,10 @@ ms.locfileid: "19762045"
 </DeleteItemResponse>
 ```
 
- **DeleteItemResponseType**
+ **делетеитемреспонсетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,13 +42,13 @@ ms.locfileid: "19762045"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения ответа на запрос веб-служб Exchange.  <br/> |
+|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19762045"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

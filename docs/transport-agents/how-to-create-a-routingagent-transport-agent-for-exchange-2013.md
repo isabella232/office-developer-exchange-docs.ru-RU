@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f0e745f-9289-4f31-8877-926692a8c133
-description: Узнайте, как создать настраиваемые агента транспорта RoutingAgent для использования с Exchange 2013.
+description: Узнайте, как создать настраиваемый агент транспорта RoutingAgent для использования с Exchange 2013.
 ms.openlocfilehash: d07f68494acd26940a4837bbbfc7a0505114bd20
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,28 +17,28 @@ ms.locfileid: "19761299"
 ---
 # <a name="create-a-routingagent-transport-agent-for-exchange-2013"></a>Создание агента транспорта RoutingAgent для Exchange 2013
 
-Узнайте, как создать настраиваемые агента транспорта RoutingAgent для использования с Exchange 2013.
+Узнайте, как создать настраиваемый агент транспорта RoutingAgent для использования с Exchange 2013.
   
 **Применимо к:** Exchange Server 2013
   
 Связанные фрагменты кода и примеры приложений:
 
-- [Exchange 2013: Создание агента транспорта пропускной способности ведения журнала](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
+- [Exchange 2013: создание агента транспорта журналов пропускной способности](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
   
-Классы, [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) и [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) , базовые классы для агенты транспорта, которые предназначены для выполнения в службе транспорта на сервере почтовых ящиков Exchange Server 2013. Класс [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) предоставляет события, указанные в следующей таблице, для которого может внедрить обработчики в вашей RoutingAgent агента транспорта. 
+Классы [раутингажентфактори](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) и [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) являются базовыми классами для агентов транспорта, которые предназначены для запуска в службе транспорта на сервере почтовых ящиков Exchange Server 2013. Класс [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) предоставляет события, перечисленные в следующей таблице, для которых вы можете реализовать обработчики в агенте транспорта RoutingAgent. 
   
-**В таблице 1. События класса RoutingAgent**
+**Таблица 1. События класса RoutingAgent**
 
-|**Событие**|**Описание**|
+|**Event**|**Описание**|
 |:-----|:-----|
-|[OnCategorizedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnCategorizedMessage.aspx) <br/> |Возникает после сервер выполняет преобразование содержимого, если это необходимо.  <br/> |
-|[OnResolvedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnResolvedMessage.aspx) <br/> |Возникает после устранения возможных всех получателей сообщения и перед маршрутизацией определяется.  <br/> |
-|[OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) <br/> |Возникает после сервер перенаправляет сообщение до следующего прыжка и выполняет преобразование содержимого при необходимости. Сервер может использовать дополнительные ресурсы для обработки каждого сообщения в событии [OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) чем событие [OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) , так как сервер будет выполнять любые необходимые преобразования содержимого и определение следующего прыжка в маршрут для сообщения Перед выполнением кода в обработчик событий [OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) .  <br/> |
-|[OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) <br/> |Возникает после сообщения взят из очереди отправки. Используйте событие [OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) , если агента транспорта RoutingAgent не требуется преобразования содержимого, разрешить получателей или маршрутизации данных.  <br/> |
+|[онкатегоризедмессаже](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnCategorizedMessage.aspx) <br/> |Происходит, когда сервер выполняет преобразование контента, если это необходимо.  <br/> |
+|[OnResolvedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnResolvedMessage.aspx) <br/> |Возникает после того, как все получатели сообщения были разрешены и до того, как будет определена маршрутизация.  <br/> |
+|[онраутедмессаже](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) <br/> |Возникает после того, как сервер направляет сообщение на следующий прыжок и выполняет преобразование контента, если это необходимо. Сервер может использовать больше ресурсов для обработки каждого сообщения в событии [онраутедмессаже](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) по сравнению с событием [онсубмиттедмессаже](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) , так как сервер выполняет все необходимое преобразование контента и определяет следующий прыжок в маршруте для сообщения перед выполнением кода в обработчике событий [онраутедмессаже](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) .  <br/> |
+|[онсубмиттедмессаже](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) <br/> |Возникает после того, как сообщение отправится из очереди. Используйте событие [онсубмиттедмессаже](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) , если агент транспорта RoutingAgent не нуждается в преобразовании контента, разрешенных получателях или данных маршрутизации.  <br/> |
    
-## <a name="creating-a-custom-routingagent-transport-agent"></a>Создание настраиваемых RoutingAgent агента транспорта
+## <a name="creating-a-custom-routingagent-transport-agent"></a>Создание настраиваемого агента транспорта RoutingAgent
 
-Следующая процедура описывается создание пользовательских RoutingAgent агента транспорта. 
+В следующей процедуре описано, как создать настраиваемый агент транспорта RoutingAgent. 
   
 ### <a name="to-create-the-transport-agent"></a>Создание агента транспорта
 
@@ -51,9 +51,9 @@ ms.locfileid: "19761299"
   
    ```
 
-   Эти пространства имен можно найти на сервере Exchange. Добавление ссылки на следующие пространства имен, будет обеспечивает доступ к членам [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) также другие классы, используемые в [Exchange 2013: создание агента транспорта ведения журнала пропускной способности](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa) образца. 
+   Эти пространства имен можно найти на сервере Exchange. Добавив ссылку на эти пространства имен, вы получите доступ к элементам [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) , а также к другим классам, используемым в [Exchange 2013: Создание примера агента транспорта журналов пропускной способности](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa) . 
     
-2. Реализация производного класса для класса [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) . 
+2. Реализуйте производный класс для класса [раутингажентфактори](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) . 
     
    ```cs
       public class BandwidthLoggerFactory : RoutingAgentFactory
@@ -66,9 +66,9 @@ ms.locfileid: "19761299"
   
    ```
 
-   Этот код будет создать экземпляр производного класса и переопределить метод **CreateAgent** для создания экземпляра настраиваемого агент. Дополнительные методы, такие как **Закрытие**, можно также переопределить в этом классе для выполнения пользовательского кода. 
+   В этом коде создается экземпляр производного класса и переопределяется метод **креатеажент** для создания экземпляра нового настраиваемого агента. Дополнительные методы, такие как **Close**, также могут быть переопределены в этом классе для выполнения пользовательского кода. 
     
-3. Определение агента.
+3. Определите свой агент.
     
    ```cs
       public class BandwidthLogger : RoutingAgent
@@ -85,13 +85,13 @@ ms.locfileid: "19761299"
   
    ```
 
-   После определения класса агента вы можно добавить пользовательские функции. В этом примере два события [OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) и [OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx)перенаправляются к настраиваемым обработчикам событий. 
+   Определив класс агента, вы можете добавить пользовательские функции. В этом примере два события [онсубмиттедмессаже](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) и [онраутедмессаже](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx)перенаправлены в обработчики пользовательских событий. 
     
 ## <a name="see-also"></a>См. также
 
-- [Транспорта концепции агентов в Exchange 2013](transport-agent-concepts-in-exchange-2013.md)    
-- [Справочник по агента транспорта для Exchange 2013](transport-agent-reference-for-exchange-2013.md)    
-- [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)    
+- [Основные понятия, связанные с агентами транспорта в Exchange 2013](transport-agent-concepts-in-exchange-2013.md)    
+- [Справочник по агентам транспорта для Exchange 2013](transport-agent-reference-for-exchange-2013.md)    
+- [раутингажентфактори](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)    
 - [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)
     
 

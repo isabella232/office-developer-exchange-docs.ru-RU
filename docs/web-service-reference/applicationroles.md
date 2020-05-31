@@ -1,5 +1,5 @@
 ---
-title: ApplicationRoles
+title: аппликатионролес
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 00003b9b-f8f1-4452-a0af-157f789f8892
-description: Элемент ApplicationRoles указывает роли приложений, которые использует вызывающего приложения партнера для текущего вызова.
+description: Элемент Аппликатионролес указывает роли приложения, используемые вызывающим партнерским приложением для текущего вызова.
 ms.openlocfilehash: ff32b693dae573416263bcb7c0fbb552a933b8d6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761392"
 ---
-# <a name="applicationroles"></a>ApplicationRoles
+# <a name="applicationroles"></a>аппликатионролес
 
-Элемент **ApplicationRoles** указывает роли приложений, которые использует вызывающего приложения партнера для текущего вызова. 
+Элемент **аппликатионролес** указывает роли приложения, используемые вызывающим партнерским приложением для текущего вызова. 
   
 ```XML
 <ApplicationRoles>
@@ -25,10 +25,10 @@ ms.locfileid: "19761392"
 </ApplicationRoles>
 ```
 
- **NonEmptyArrayOfRoleType**
+ **нонемптяррайофролетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,7 +38,7 @@ ms.locfileid: "19761392"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](role.md) <br/> |Задает строку, представляющую роль управления.  <br/> |
+|[Роль](role.md) <br/> |Указывает строку, представляющую роль управления.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -46,7 +46,7 @@ ms.locfileid: "19761392"
 |:-----|:-----|
 |[ManagementRole](managementrole.md) <br/> |Указывает роль управления.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "19761392"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

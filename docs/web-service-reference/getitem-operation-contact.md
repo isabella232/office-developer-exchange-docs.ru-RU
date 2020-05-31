@@ -1,5 +1,5 @@
 ---
-title: Операции GetItem (контактов)
+title: Операция GetItem (контакт)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6b96dace-1260-4b83-869a-7c31c5583daa
-description: Операции GetItem используется для получения элементов контактов из хранилища Exchange.
+description: Операция GetItem используется для получения элементов контактов из хранилища Exchange.
 ms.openlocfilehash: 8d7436421f0c54a49345e8ef6b37cb442bca4277
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762832"
 ---
-# <a name="getitem-operation-contact"></a>Операции GetItem (контактов)
+# <a name="getitem-operation-contact"></a>Операция GetItem (контакт)
 
-Операции GetItem используется для получения элементов контактов из хранилища Exchange.
+Операция GetItem используется для получения элементов контактов из хранилища Exchange.
   
-## <a name="getitem-contact-request-example"></a>Пример запроса GetItem (контактов)
+## <a name="getitem-contact-request-example"></a>Пример запроса GetItem (Contact)
 
 ### <a name="description"></a>Описание
 
-Следующий пример демонстрирует получение элемента из хранилища Exchange.
+В приведенном ниже примере показано, как получить элемент из хранилища Exchange.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -49,34 +49,34 @@ ms.locfileid: "19762832"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Запрос на получение элемента из хранилища Exchange принимает одну форму для всех типов элементов. Так как различные элементы возвращать данные фигуры ответа на основе ответов на запросы для различных элементов будут отличаться.
+Запрос на получение элемента из хранилища Exchange имеет одну и ту же форму для всех типов элементов. Ответы на запросы для различных элементов будут отличаться, так как различные элементы возвращают разные сведения на основе фигур ответа.
   
 > [!NOTE]
-> Идентификатор элемента был усечен, чтобы сохранить удобочитаемость. 
+> Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [GetItem](getitem.md)
     
-- [ItemShape](itemshape.md)
+- [итемшапе](itemshape.md)
     
-- [BaseShape](baseshape.md)
+- [басешапе](baseshape.md)
     
-- [Что ItemID](itemids.md)
+- [итемидс](itemids.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-## <a name="successful-getitem-contact-response"></a>Успешные GetItem (контакт) ответа
+## <a name="successful-getitem-contact-response"></a>Успешный отклик GetItem (контакт)
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано успешного ответа GetItem для **AllProperties**[BaseShape](baseshape.md).
+В следующем примере кода показан успешный отклик GetItem для объекта **аллпропертиес**[басешапе](baseshape.md).
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -151,95 +151,95 @@ ms.locfileid: "19762832"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификатор элемента был усечен, чтобы сохранить удобочитаемость.
+Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответ на запрос GetItem с фигурой ответа **AllProperties** для элемента контактов используются следующие элементы. 
+Следующие элементы используются в ответе на запрос GetItem с формой ответа **аллпропертиес** для элемента Contact. 
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetItemResponse](getitemresponse.md)
+- [жетитемреспонсе](getitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetItemResponseMessage](getitemresponsemessage.md)
+- [жетитемреспонсемессаже](getitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-- [Контакт](contact.md)
+- [контакт](contact.md);
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
 - [ParentFolderId](parentfolderid.md)
     
 - [ItemClass](itemclass.md)
     
-- [Уровень конфиденциальности сообщения](sensitivity.md)
+- [Sensitivity](sensitivity.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
 - [Размер](size.md)
     
-- [Важность](importance.md)
+- [Importance](importance.md)
     
-- [IsSubmitted](issubmitted.md)
+- [Отправлено](issubmitted.md)
     
-- [IsDraft](isdraft.md)
+- [Черновик](isdraft.md)
     
-- [IsFromMe](isfromme.md)
+- [исфромме](isfromme.md)
     
-- [IsResend](isresend.md)
+- [исресенд](isresend.md)
     
-- [IsUnmodified](isunmodified.md)
+- [исунмодифиед](isunmodified.md)
     
-- [DateTimeSent](datetimesent.md)
+- [датетимесент](datetimesent.md)
     
 - [DateTimeCreated](datetimecreated.md)
     
 - [HasAttachments](hasattachments.md)
     
-- [Язык и региональные параметры](culture.md)
+- [Culture](culture.md)
     
 - [FileAs](fileas.md)
     
-- [FileAsMapping](fileasmapping.md)
+- [филеасмаппинг](fileasmapping.md)
     
-- [Отображаемое имя (строка)](displayname-string.md)
+- [DisplayName (строка)](displayname-string.md)
     
 - [GivenName](givenname.md)
     
-- [Инициалы](initials.md)
+- [Initials](initials.md)
     
-- [CompleteName](completename.md)
+- [комплетенаме](completename.md)
     
 - [FirstName](firstname.md)
     
-- [Фамилия](lastname.md)
+- [LastName](lastname.md)
     
-- [Полное имя](fullname.md)
+- [FullName](fullname.md)
     
-- [Название организации](companyname.md)
+- [CompanyName](companyname.md)
     
 - [EmailAddresses](emailaddresses.md)
     
 - [Запись (EmailAddress)](entry-emailaddress.md)
     
-- [PhysicalAddresses](physicaladdresses.md)
+- [фисикаладдрессес](physicaladdresses.md)
     
 - [Запись (PhysicalAddress)](entry-physicaladdress.md)
     
-- [Улица](street.md)
+- [Назван](street.md)
     
-- [Город](city.md)
+- [City](city.md)
     
-- [Состояние](state-ex15websvcsotherref.md)
+- [State](state-ex15websvcsotherref.md)
     
 - [CountryOrRegion](countryorregion.md)
     
@@ -247,17 +247,17 @@ ms.locfileid: "19762832"
     
 - [Запись (PhoneNumber)](entry-phonenumber.md)
     
-- [Название должности](jobtitle.md)
+- [JobTitle](jobtitle.md)
     
-- [Фамилия](surname.md)
+- [ФИО](surname.md)
     
-## <a name="invalid-getitem-contact-request-example"></a>Пример запроса недопустимый GetItem (контактов)
+## <a name="invalid-getitem-contact-request-example"></a>Недопустимый пример запроса GetItem (Contact)
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано недопустимый запрос.
+В следующем примере кода показан недопустимый запрос.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -278,17 +278,17 @@ ms.locfileid: "19762832"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
-Идентификаторы элементов URL-были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы элементов были сокращены для сохранения удобочитаемости.
   
-## <a name="getitem-contact-error-response"></a>Отклик GetItem (контактов)
+## <a name="getitem-contact-error-response"></a>Ответ об ошибке GetItem (Contact)
 
 ### <a name="description"></a>Описание
 
-В следующем примере кода показано возврату ошибки на запрос GetItem (контактов).
+В следующем примере кода показан ответ с сообщением об ошибке для запроса GetItem (Contact).
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -316,31 +316,31 @@ ms.locfileid: "19762832"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetItemResponse](getitemresponse.md)
+- [жетитемреспонсе](getitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetItemResponseMessage](getitemresponsemessage.md)
+- [жетитемреспонсемессаже](getitemresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[GetItem Operation](getitem-operation.md)
+[Операция GetItem](getitem-operation.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

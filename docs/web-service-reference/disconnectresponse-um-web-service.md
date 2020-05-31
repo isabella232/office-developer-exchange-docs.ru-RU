@@ -1,5 +1,5 @@
 ---
-title: DisconnectResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: Дисконнектреспонсе (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 23806773-32d5-4283-a4d7-230ef80523bd
-description: Элемент DisconnectResponse определяет ответа на запрос Disconnect операции (веб-служба единой системы обмена СООБЩЕНИЯМИ).
+description: Элемент Дисконнектреспонсе определяет ответ на запрос для операции отключения (веб-службы единой системы обмена сообщениями).
 ms.openlocfilehash: 47d432065f0c983a511e2ffda1ba789546a82f2f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762143"
 ---
-# <a name="disconnectresponse-um-web-service"></a>DisconnectResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="disconnectresponse-um-web-service"></a>Дисконнектреспонсе (веб-служба единой системы обмена сообщениями)
 
-Элемент **DisconnectResponse** определяет ответ на запрос [операции отключения (веб-служба единой системы обмена СООБЩЕНИЯМИ)](disconnect-operation-um-web-service.md) . 
+Элемент **дисконнектреспонсе** определяет ответ на запрос для [операции отключения (веб-службы единой системы обмена сообщениями)](disconnect-operation-um-web-service.md) . 
   
-[DisconnectResponse (веб-служба единой системы обмена СООБЩЕНИЯМИ)](disconnectresponse-um-web-service.md)
+[Дисконнектреспонсе (веб-служба единой системы обмена сообщениями)](disconnectresponse-um-web-service.md)
   
 ```xml
 <DisconnectResponse />
@@ -31,7 +31,7 @@ ms.locfileid: "19762143"
  **complexType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -55,10 +55,10 @@ ms.locfileid: "19762143"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Отключите операции (веб-служба единой системы обмена СООБЩЕНИЯМИ)](disconnect-operation-um-web-service.md)
+- [Операция отключения (веб-служба единой системы обмена сообщениями)](disconnect-operation-um-web-service.md)
 

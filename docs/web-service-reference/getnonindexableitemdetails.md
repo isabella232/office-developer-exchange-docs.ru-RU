@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ce3994c1-3bb4-4571-b026-34a6c5705410
-description: Элемент GetNonIndexableItemDetails определяет запрос для получения сведений об элементе nonindexable.
+description: Элемент GetNonIndexableItemDetails указывает запрос на получение сведений о неиндексируемых элементах.
 ms.openlocfilehash: 0aeda85973aa78eff240a017db58ffb57fc0de06
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19762850"
 ---
 # <a name="getnonindexableitemdetails"></a>GetNonIndexableItemDetails
 
-Элемент **GetNonIndexableItemDetails** определяет запрос для получения сведений об элементе nonindexable. 
+Элемент **GetNonIndexableItemDetails** указывает запрос на получение сведений о неиндексируемых элементах. 
   
 ```XML
 <GetNonIndexableItemDetails>
@@ -28,10 +28,10 @@ ms.locfileid: "19762850"
 </GetNonIndexableItemDetails>
 ```
 
- **GetNonIndexableItemDetailsType**
+ **жетнониндексаблеитемдетаилстипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -41,16 +41,16 @@ ms.locfileid: "19762850"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Почтовые ящики (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Указывает массив элементов **почтового ящика** .  <br/> |
-|[PageSize](pagesize.md) <br/> |Содержит число элементов, возвращаемых на одной странице для результатов поиска.  <br/> |
-|[PageItemReference](pageitemreference.md) <br/> |— Ссылка для элемента страницы.  <br/> |
-|[PageDirection](pagedirection.md) <br/> |Содержит направление для разбивки на страницы в результатах поиска.  <br/> |
+|[Почтовые ящики (Нонемптяррайофлегациднстипе)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Указывает массив элементов **почтового ящика** .  <br/> |
+|[PageSize](pagesize.md) <br/> |Содержит количество элементов, возвращаемых на одной странице для результатов поиска.  <br/> |
+|[пажеитемреференце](pageitemreference.md) <br/> |Указывает ссылку на элемент страницы.  <br/> |
+|[пажедиректион](pagedirection.md) <br/> |Содержит направление разбивки в результатах поиска.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -62,7 +62,7 @@ ms.locfileid: "19762850"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

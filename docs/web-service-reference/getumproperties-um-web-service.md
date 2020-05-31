@@ -1,5 +1,5 @@
 ---
-title: GetUMProperties (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+title: GetUMProperties (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 19873b72-ec12-4811-ae5f-6b61f2dbf0cc
-description: Элемент GetUMProperties определяет запрос GetUMProperties операции (веб-служба единой системы обмена СООБЩЕНИЯМИ).
+description: Элемент GetUMProperties определяет операцию GetUMProperties (веб-службу единой системы обмена сообщениями).
 ms.openlocfilehash: bfae288c341bc5d3605282cf78393ef7dceed494
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19833680"
 ---
-# <a name="getumproperties-um-web-service"></a>GetUMProperties (веб-служба единой системы обмена СООБЩЕНИЯМИ)
+# <a name="getumproperties-um-web-service"></a>GetUMProperties (веб-служба единой системы обмена сообщениями)
 
-Элемент **GetUMProperties** определяет запрос [GetUMProperties операции (веб-служба единой системы обмена СООБЩЕНИЯМИ)](getumproperties-operation-um-web-service.md) . 
+Элемент **GetUMProperties** определяет [операцию GetUMProperties (веб-службу единой системы обмена сообщениями)](getumproperties-operation-um-web-service.md) . 
   
-[GetUMProperties (веб-служба единой системы обмена СООБЩЕНИЯМИ)](getumproperties-um-web-service.md)
+[GetUMProperties (веб-служба единой системы обмена сообщениями)](getumproperties-um-web-service.md)
   
 ```xml
 <GetUMProperties />
@@ -31,7 +31,7 @@ ms.locfileid: "19833680"
  **complexType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -55,12 +55,12 @@ ms.locfileid: "19833680"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция GetUMProperties (веб-служба единой системы обмена СООБЩЕНИЯМИ)](getumproperties-operation-um-web-service.md)
+[Операция GetUMProperties (веб-служба единой системы обмена сообщениями)](getumproperties-operation-um-web-service.md)
 

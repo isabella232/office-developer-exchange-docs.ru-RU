@@ -1,5 +1,5 @@
 ---
-title: DetailedSuggestionsWindow
+title: детаиледсугжестионсвиндов
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7b348d63-6a7d-45f4-9562-5c42243d63a5
-description: Элемент DetailedSuggestionsWindow указывает промежуток времени, который будет опрошен на наличие подробные сведения о времени предложенного собрания.
+description: Элемент Детаиледсугжестионсвиндов определяет интервал времени, на который запрашивается подробная информация о предложенном времени проведения собрания.
 ms.openlocfilehash: 8a3af0178d0c96b50f4dd641716a9f7a7be8f7a2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762082"
 ---
-# <a name="detailedsuggestionswindow"></a>DetailedSuggestionsWindow
+# <a name="detailedsuggestionswindow"></a>детаиледсугжестионсвиндов
 
-Элемент **DetailedSuggestionsWindow** указывает промежуток времени, который будет опрошен на наличие подробные сведения о времени предложенного собрания. 
+Элемент **детаиледсугжестионсвиндов** определяет интервал времени, на который запрашивается подробная информация о предложенном времени проведения собрания. 
   
-- [GetUserAvailabilityRequest](getuseravailabilityrequest.md) 
-- [SuggestionsViewOptions](suggestionsviewoptions.md) 
-- [DetailedSuggestionsWindow](detailedsuggestionswindow.md)
+- [жетусераваилабилитирекуест](getuseravailabilityrequest.md) 
+- [сугжестионсвиевоптионс](suggestionsviewoptions.md) 
+- [детаиледсугжестионсвиндов](detailedsuggestionswindow.md)
   
 ```xml
 <DetailedSuggestionsWindow>
@@ -34,10 +34,10 @@ ms.locfileid: "19762082"
 </DetailedSuggestionsWindow>
 ```
 
- **Срок действия**
+ **Duration**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -47,18 +47,18 @@ ms.locfileid: "19762082"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Время начала](starttime.md) <br/> |Представляет начало интервала времени, запрос для получения дополнительных сведений о времени предложенного собрания.  <br/> |
-|[Время окончания](endtime.md) <br/> |Представляет окончания интервала времени, запрос для получения дополнительных сведений о времени предложенного собрания.  <br/> |
+|[StartTime](starttime.md) <br/> |Представляет начало интервала времени, запрашиваемого для получения подробных сведений о предложенном времени проведения собрания.  <br/> |
+|[EndTime](endtime.md) <br/> |Представляет конец интервала времени, запрошенного для получения подробных сведений о предложенном времени проведения собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведения о предложения о собрании.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент не требуется.
+Этот элемент не является обязательным.
   
 > [!NOTE]
 > Схема с описанием этого элемента находится в каталоге /EWS/ на компьютере, на котором запущено приложение MicrosoftExchange Server 2007 с установленной ролью сервера клиентского доступа. 
@@ -69,7 +69,7 @@ ms.locfileid: "19762082"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

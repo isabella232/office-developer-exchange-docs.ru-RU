@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 0e9836a8-ccc9-4cc0-aa6a-9b299c5841d0
-description: Элемент EMailAddress указывает адрес электронной почты пользователя.
+description: Элемент EMailAddress определяет адрес электронной почты пользователя.
 ms.openlocfilehash: 7675ef18565d27db62f5662e651e982176001815
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.locfileid: "19762276"
 ---
 # <a name="emailaddress-pox"></a>EMailAddress (POX)
 
-Элемент **EMailAddress** указывает адрес электронной почты пользователя. 
+Элемент **EMailAddress** определяет адрес электронной почты пользователя. 
   
-- [Автообнаружение (POX)](autodiscover-pox.md) 
+- [Служба автообнаружения (POX)](autodiscover-pox.md) 
 - [Запрос (POX)](request-pox.md) 
 - [EMailAddress (POX)](emailaddress-pox.md)
   
@@ -30,7 +30,7 @@ ms.locfileid: "19762276"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,11 +50,11 @@ ms.locfileid: "19762276"
 
 Текстовое значение представляет адрес электронной почты пользователя.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Элемент [LegacyDN (POX)](legacydn-pox.md) предоставляет альтернативный элемент для запроса службы автообнаружения. 
+Элемент [LegacyDN (POX)](legacydn-pox.md) предоставляет альтернативный элемент для запроса автообнаружения. 
   
 ## <a name="see-also"></a>См. также
 
-- [Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

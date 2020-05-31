@@ -1,5 +1,5 @@
 ---
-title: DescriptiveLinkKey
+title: дескриптивелинккэй
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f7f36749-00f3-4915-b17c-e3caa0af6e67
-description: Элемент DescriptiveLinkKey не используется в настоящее время и зарезервирован для будущего использования. Он содержит значение 0.
+description: Элемент Дескриптивелинккэй в настоящее время не используется и зарезервирован для будущего использования. Он содержит значение 0.
 ms.openlocfilehash: c917f401c0954a68ddce1226b522d54c87502462
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762084"
 ---
-# <a name="descriptivelinkkey"></a>DescriptiveLinkKey
+# <a name="descriptivelinkkey"></a>дескриптивелинккэй
 
-Элемент **DescriptiveLinkKey** не используется в настоящее время и зарезервирован для будущего использования. Он содержит значение 0. 
+Элемент **дескриптивелинккэй** в настоящее время не используется и зарезервирован для будущего использования. Он содержит значение 0. 
   
 ```XML
 <DescriptiveLinkKey/>
@@ -30,7 +30,7 @@ ms.locfileid: "19762084"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,58 +44,58 @@ ms.locfileid: "19762084"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> | Содержит описательные сведения о состоянии ответа.  <br/><br/>Ниже приведены некоторые возможные выражения XPath для этого элемента.<br/><br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>`/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>`/GetUserOofSettingsResponse/ResponseMessage` <br/> |
-|[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **DeleteItem** .  <br/> |
-|[SendItemResponseMessage](senditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **SendItem** .  <br/> |
-|[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **DeleteFolder** .  <br/> |
-|[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **DeleteAttachment** .  <br/> |
-|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса **отказа от подписки** .  <br/> |
-|[CreateFolderResponseMessage](createfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CreateFolder** .  <br/> |
-|[GetFolderResponseMessage](getfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **GetFolder** .  <br/> |
-|[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **UpdateFolder** .  <br/> |
-|[MoveFolderResponseMessage](movefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **MoveFolder** .  <br/> |
-|[CopyFolderResponseMessage](copyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CopyFolder** .  <br/> |
-|[CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CreateManagedFolder** .  <br/> |
-|[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **FindFolder** .  <br/> |
-|[CreateItemResponseMessage](createitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CreateItem** .  <br/> |
-|[GetItemResponseMessage](getitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **GetItem** .  <br/> |
-|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **UpdateItem** .  <br/> |
-|[MoveItemResponseMessage](moveitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **MoveItem** .  <br/> |
-|[CopyItemResponseMessage](copyitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CopyItem** .  <br/> |
-|[CreateAttachmentResponseMessage](createattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CreateAttachment** .  <br/> |
-|[GetAttachmentResponseMessage](getattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **GetAttachment** .  <br/> |
-|[FindItemResponseMessage](finditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **FindItem** .  <br/> |
-|[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Содержит состояние и результат запроса **ResolveNames** .  <br/> |
-|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **ExpandDL** .  <br/> |
-|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса **подписаться** .  <br/> |
-|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **GetEvents** .  <br/> |
-|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **SendNotification** .  <br/> |
-|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса **SyncFolderHierarchy** .  <br/> |
-|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса **SyncFolderItems** .  <br/> |
-|[ConvertIdResponseMessage](convertidresponsemessage.md) <br/> |Содержит состояние и результат запроса **ConvertId** .  <br/> |
-|[AddDelegateResponse](adddelegateresponse.md) <br/> |Содержит состояние и результат запроса **AddDelegate** .  <br/> |
-|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Содержит состояние и результат запроса **GetServerTimeZones** .  <br/> |
-|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат запроса **GetSharingFolder** .  <br/> |
-|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |Определяет ответ на запрос **GetSharingFolder** .  <br/> |
-|[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |Содержит состояние и результат запроса **GetSharingMetadata** .  <br/> |
-|[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |Определяет ответ на запрос **GetSharingMetadata** .  <br/> |
-|[RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат запроса **RefreshSharingFolder** .  <br/> |
-|[RefreshSharingFolderResponse](refreshsharingfolderresponse.md) <br/> |Определяет ответ на запрос **RefreshSharingFolder** .  <br/> |
-|[FindConversationResponse](findconversationresponse.md) <br/> |Содержит состояние и результаты **FindConversation** ответа.  <br/> |
-|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **EmptyFolder** .  <br/> |
-|[UpdateInboxRulesResponse](updateinboxrulesresponse.md) <br/> |Содержит состояние и результат запроса **UpdateInboxRules** .  <br/> |
-|[UploadItemsResponseMessage](uploaditemsresponsemessage.md) <br/> |Содержит состояние и результат запроса **UploadItemsResponse** .  <br/> |
-|[GetInboxRulesResponse](getinboxrulesresponse.md) <br/> |Содержит ответ на запрос **GetInboxRules** .  <br/> |
-|GetServiceConfigurationResponse  <br/> |Содержит ответ на запрос **GetServiceConfiguration** .  <br/> |
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
+|[респонсемессаже](responsemessage.md) <br/> | Предоставляет описательные сведения о состоянии отклика.  <br/><br/>Ниже приведено несколько возможных выражений XPath для этого элемента:<br/><br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>`/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>`/GetUserOofSettingsResponse/ResponseMessage` <br/> |
+|[делетеитемреспонсемессаже](deleteitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **DeleteItem** .  <br/> |
+|[сендитемреспонсемессаже](senditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **SendItem** .  <br/> |
+|[делетефолдерреспонсемессаже](deletefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **DeleteFolder** .  <br/> |
+|[делетеаттачментреспонсемессаже](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **DeleteAttachment** .  <br/> |
+|[унсубскрибереспонсемессаже](unsubscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса **отказа от подписки** .  <br/> |
+|[креатефолдерреспонсемессаже](createfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CreateFolder** .  <br/> |
+|[жетфолдерреспонсемессаже](getfolderresponsemessage.md) <br/> |Содержит сведения о состоянии и результатах одного запроса на получение **вложенной папки** .  <br/> |
+|[упдатефолдерреспонсемессаже](updatefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **операцию UpdateFolder** .  <br/> |
+|[мовефолдерреспонсемессаже](movefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **MoveFolder** .  <br/> |
+|[копифолдерреспонсемессаже](copyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CopyFolder** .  <br/> |
+|[креатеманажедфолдерреспонсемессаже](createmanagedfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CreateManagedFolder** .  <br/> |
+|[финдфолдерреспонсемессаже](findfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **FindFolder** .  <br/> |
+|[креатеитемреспонсемессаже](createitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CreateItem** .  <br/> |
+|[жетитемреспонсемессаже](getitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **GetItem** .  <br/> |
+|[упдатеитемреспонсемессаже](updateitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **UpdateItem** .  <br/> |
+|[мовеитемреспонсемессаже](moveitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **MoveItem** .  <br/> |
+|[копитемреспонсемессаже](copyitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CopyItem** .  <br/> |
+|[креатеаттачментреспонсемессаже](createattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **CreateAttachment** .  <br/> |
+|[жетаттачментреспонсемессаже](getattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **GetAttachment** .  <br/> |
+|[финдитемреспонсемессаже](finditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **FindItem** .  <br/> |
+|[ресолвенамесреспонсемессаже](resolvenamesresponsemessage.md) <br/> |Содержит состояние и результат запроса **ResolveNames** .  <br/> |
+|[експанддлреспонсемессаже](expanddlresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **ExpandDL** .  <br/> |
+|[субскрибереспонсемессаже](subscriberesponsemessage.md) <br/> |Содержит состояние и результат запроса одиночной **подписки** .  <br/> |
+|[жетевентсреспонсемессаже](geteventsresponsemessage.md) <br/> |Содержит состояние и результат запроса на единичные **события** .  <br/> |
+|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **сенднотификатион** .  <br/> |
+|[синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса **SyncFolderHierarchy** .  <br/> |
+|[синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса **SyncFolderItems** .  <br/> |
+|[конвертидреспонсемессаже](convertidresponsemessage.md) <br/> |Содержит состояние и результат запроса **ConvertId** .  <br/> |
+|[аддделегатереспонсе](adddelegateresponse.md) <br/> |Содержит состояние и результат запроса **AddDelegate** .  <br/> |
+|[жетсервертимезонесреспонсемессаже](getservertimezonesresponsemessage.md) <br/> |Содержит состояние и результат запроса **GetServerTimeZones** .  <br/> |
+|[жетшарингфолдерреспонсемессаже](getsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат запроса **GetSharingFolder** .  <br/> |
+|[жетшарингфолдерреспонсе](getsharingfolderresponse.md) <br/> |Определяет ответ на запрос **GetSharingFolder** .  <br/> |
+|[жетшарингметадатареспонсемессаже](getsharingmetadataresponsemessage.md) <br/> |Содержит состояние и результат запроса **GetSharingMetadata** .  <br/> |
+|[жетшарингметадатареспонсе](getsharingmetadataresponse.md) <br/> |Определяет ответ на запрос **GetSharingMetadata** .  <br/> |
+|[рефрешшарингфолдерреспонсемессаже](refreshsharingfolderresponsemessage.md) <br/> |Содержит состояние и результат запроса **RefreshSharingFolder** .  <br/> |
+|[рефрешшарингфолдерреспонсе](refreshsharingfolderresponse.md) <br/> |Определяет ответ на запрос **RefreshSharingFolder** .  <br/> |
+|[финдконверсатионреспонсе](findconversationresponse.md) <br/> |Содержит сведения о состоянии и результатах ответа **FindConversation** .  <br/> |
+|[емптифолдерреспонсемессаже](emptyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса **EmptyFolder** .  <br/> |
+|[упдатеинбоксрулесреспонсе](updateinboxrulesresponse.md) <br/> |Содержит состояние и результат запроса **UpdateInboxRules** .  <br/> |
+|[уплоадитемсреспонсемессаже](uploaditemsresponsemessage.md) <br/> |Содержит состояние и результат запроса **уплоадитемсреспонсе** .  <br/> |
+|[жетинбоксрулесреспонсе](getinboxrulesresponse.md) <br/> |Содержит ответ на запрос **GetInboxRules** .  <br/> |
+|жетсервицеконфигуратионреспонсе  <br/> |Содержит ответ на запрос **GetServiceConfiguration** .  <br/> |
+|[сервицеконфигуратионреспонсемессажетипе](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным, если данный элемент используется. Этот элемент доступен только для чтения.
+При использовании этого элемента необходимо указать текстовое значение. Этот элемент доступен только для чтения.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Этот элемент не является обязательным и не добавляется во все ответы.
+Этот элемент не является обязательным и не включается во все ответы.
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -105,11 +105,11 @@ ms.locfileid: "19762084"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages.xsd  <br/> |
+|Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Справка по веб-служб Exchange для Exchange](ews-reference-for-exchange.md) 
+- [Справка по службам EWS для Exchange](ews-reference-for-exchange.md) 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Создание (FolderSync)
+title: Create (Фолдерсинк)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1
-description: Создать элемент идентифицирует одной папке для создания в локальном хранилище клиента.
+description: Элемент create определяет одну папку для создания в локальном хранилище клиента.
 ms.openlocfilehash: 867eecb89c115b008d4828e162b21d078eba695c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761850"
 ---
-# <a name="create-foldersync"></a>Создание (FolderSync)
+# <a name="create-foldersync"></a>Create (Фолдерсинк)
 
-**Создать** элемент идентифицирует одной папке для создания в локальном хранилище клиента. 
+Элемент **CREATE** определяет одну папку для создания в локальном хранилище клиента. 
   
-[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
+[синкфолдерхиерарчиреспонсе](syncfolderhierarchyresponse.md)
   
-[ResponseMessages](responsemessages.md)
+[респонсемессажес](responsemessages.md)
   
-[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
+[синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md)
   
-[Изменения (иерархии)](changes-hierarchy.md)
+[Изменения (иерархия)](changes-hierarchy.md)
   
-[Создание (FolderSync)](create-foldersync.md)
+[Create (Фолдерсинк)](create-foldersync.md)
   
 ```xml
 <Create>
@@ -43,10 +43,10 @@ ms.locfileid: "19761850"
 </Create>
 ```
 
- **SyncFolderHierarchyCreateOrUpdateType**
+ **синкфолдерхиерарчикреатеорупдатетипе**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -56,19 +56,19 @@ ms.locfileid: "19761850"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Folder](folder.md) <br/> |Определяет папку для создания, получение, найти, синхронизировать или обновить.  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |Представляет папку, содержащую элементы календаря в первую очередь.  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |Представляет папке контактов в почтовом ящике.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержащихся в почтовом ящике.  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |Представляет папку задач, содержащихся в почтовом ящике.  <br/> |
+|[Folder](folder.md) <br/> |Определяет папку для создания, получения, поиска, синхронизации или обновления.  <br/> |
+|[календарфолдер](calendarfolder.md) <br/> |Представляет папку, в которой в основном содержатся элементы календаря.  <br/> |
+|[контактсфолдер](contactsfolder.md) <br/> |Представляет папку контактов в почтовом ящике.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержащуюся в почтовом ящике.  <br/> |
+|[тасксфолдер](tasksfolder.md) <br/> |Представляет папку задач, содержащуюся в почтовом ящике.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Изменения (иерархии)](changes-hierarchy.md) <br/> |Содержит массив последовательности типов изменений, которые представляют тип различия между элементами на стороне клиента и элементов на сервере Exchange.  <br/> |
+|[Изменения (иерархия)](changes-hierarchy.md) <br/> |Содержит массив последовательности типов изменений, представляющих тип различий между элементами на клиенте и элементами на сервере Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -78,7 +78,7 @@ ms.locfileid: "19761850"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

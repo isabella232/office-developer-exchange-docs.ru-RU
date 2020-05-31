@@ -1,5 +1,5 @@
 ---
-title: GetClientIntentResponseMessage
+title: жетклиентинтентреспонсемессаже
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 069474c9-10f7-4ac9-892b-c85d266cff7f
-description: Элемент GetClientIntentResponseMessage предназначена только для внутреннего использования.
+description: Элемент Жетклиентинтентреспонсемессаже предназначен только для внутреннего использования.
 ms.openlocfilehash: 431d2ae7e34ce2c81e689352daf57dd79374bb2e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762726"
 ---
-# <a name="getclientintentresponsemessage"></a>GetClientIntentResponseMessage
+# <a name="getclientintentresponsemessage"></a>жетклиентинтентреспонсемессаже
 
-Элемент **GetClientIntentResponseMessage** предназначена только для внутреннего использования. 
+Элемент **жетклиентинтентреспонсемессаже** предназначен только для внутреннего использования. 
   
 ```XML
 <GetClientIntentResponseMessage />
@@ -26,7 +26,7 @@ ms.locfileid: "19762726"
  ****
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -40,7 +40,7 @@ ms.locfileid: "19762726"
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -52,7 +52,7 @@ ms.locfileid: "19762726"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages.xsd  <br/> |
+|Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

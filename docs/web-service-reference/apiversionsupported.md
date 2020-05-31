@@ -1,5 +1,5 @@
 ---
-title: ApiVersionSupported
+title: апиверсионсуппортед
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d9264e74-eba7-4279-b193-af7e5130268d
-description: Элемент ApiVersionSupported содержит версии API JavaScript для Office, поддерживаемые клиентом.
+description: Элемент Апиверсионсуппортед содержит версию API JavaScript для Office, поддерживаемую клиентом.
 ms.openlocfilehash: 41c3eacff65d797dfe7e8b587c50c35d8938664f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761384"
 ---
-# <a name="apiversionsupported"></a>ApiVersionSupported
+# <a name="apiversionsupported"></a>апиверсионсуппортед
 
-Элемент **ApiVersionSupported** содержит версии API JavaScript для Office, поддерживаемые клиентом. 
+Элемент **апиверсионсуппортед** содержит версию API JavaScript для Office, поддерживаемую клиентом. 
   
 ```XML
 <ApiVersionSupported />
 ```
 
- **string**
+ **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -42,9 +42,9 @@ ms.locfileid: "19761384"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ApiVersionSupported** содержит версию API JavaScript для Office, поддерживаемые клиентом. Это значение указывает, какое приложение манифесты должны быть возвращены клиенту в ответе. 
+Текстовое значение элемента **апиверсионсуппортед** содержит версию API JavaScript для Office, поддерживаемую клиентом. Это значение указывает, какие манифесты приложений должны быть возвращены клиенту в ответе. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -54,7 +54,7 @@ ms.locfileid: "19761384"
 |:-----|:-----|
 |Пространство имен  <br/> | http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Не применимо  <br/> |
+|Файл проверки  <br/> |Неприменимо  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

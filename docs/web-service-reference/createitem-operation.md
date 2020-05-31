@@ -1,5 +1,5 @@
 ---
-title: CreateItem Operation
+title: Операция CreateItem
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 78a52120-f1d0-4ed7-8748-436e554f75b6
-description: Операции CreateItem создает элементов в хранилище Exchange.
+description: Операция CreateItem создает элементы в хранилище Exchange.
 ms.openlocfilehash: 7e1808c685cdbaa1e8867aa7425b2cc52218d001
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761897"
 ---
-# <a name="createitem-operation"></a>CreateItem Operation
+# <a name="createitem-operation"></a>Операция CreateItem
 
-Операции CreateItem создает элементов в хранилище Exchange.
+Операция CreateItem создает элементы в хранилище Exchange.
   
-## <a name="using-the-createitem-operation"></a>С помощью операции CreateItem
+## <a name="using-the-createitem-operation"></a>Использование операции CreateItem
 
-Можно использовать операцию CreateItem для создания следующих:
+С помощью операции CreateItem можно создать следующее:
   
 - Элементы календаря
     
@@ -37,44 +37,44 @@ ms.locfileid: "19761897"
     
 - Контакты
     
-Для получения дополнительных сведений см [операции CreateItem (элемента календаря)](createitem-operation-calendar-item.md), [операции CreateItem (сообщение электронной почты)](createitem-operation-email-message.md), [операции CreateItem (собрание)](createitem-operation-meeting-request.md), [операции CreateItem (задача)](createitem-operation-task.md)и [операции CreateItem (контактов) ](createitem-operation-contact.md).
+Для получения дополнительных сведений см. [Операция CreateItem (элемент календаря)](createitem-operation-calendar-item.md), [Операция CreateItem (сообщение электронной почты)](createitem-operation-email-message.md), [Операция CreateItem (приглашение на собрание)](createitem-operation-meeting-request.md), [Операция CreateItem (Task)](createitem-operation-task.md)и [Операция CreateItem (Contact)](createitem-operation-contact.md).
   
-Операции CreateItem поддерживает использование объекты ответа. Объекты ответа поддерживает приемки и отклонения собраний и обработки кнопки голосования, которые включены в стандартные электронные сообщения. В следующей таблице перечислены объекты ответа, которые обрабатываются в операции CreateItem.
+Операция CreateItem поддерживает использование объектов Response. Объекты Response поддерживают принятие и отклонение собраний и обработку кнопок голосования, включенных в стандартное электронное сообщение. В следующей таблице перечислены объекты ответа, которые обрабатываются в операции CreateItem.
   
-|**Объект ответа**|**Действие**|
+|**Объект Response**|**Действие**|
 |:-----|:-----|
-|AcceptItem  <br/> |Принятие приглашения на собрание.  <br/> |
-|CancelCalendarItem  <br/> |Отмена собрания. Это отличается от удаления всех участников, так как он также удаляет для организатора собрания.  <br/> |
-|DeclineItem  <br/> |Отклонение приглашения на собрание.  <br/> |
-|ForwardItem  <br/> |Отправьте приглашения на собрание другому пользователю в виде приглашения на собрание.  <br/> |
-|RemoveItem  <br/> |Удалите отмененные собрания из календаря.  <br/> |
-|ReplyAllToItem  <br/> |Отправьте сообщение, содержащее текст исходного запроса на проведение собрания всем участникам собрания.  <br/> |
-|ReplyToItem  <br/> |Отправьте сообщение, содержащее текст исходного запроса на проведение собрания отправителю приглашения на собрание.  <br/> |
-|SendReadReceipt  <br/> |Отправьте уведомление отправителю приглашения на собрание.  <br/> |
-|TentativelyAcceptItem  <br/> |Предварительное принятие приглашения на собрание.  <br/> |
+|акцептитем  <br/> |Принятие приглашения на собрание.  <br/> |
+|канцелкалендаритем  <br/> |Отмена собрания. Это отличается от удаления всех участников, так как он также удаляет собрание для организатора.  <br/> |
+|деклинеитем  <br/> |Отклонение приглашения на собрание.  <br/> |
+|форвардитем  <br/> |Отправка приглашения на собрание другому человеку в качестве приглашения на собрание.  <br/> |
+|RemoveItem  <br/> |Удаление отмененного собрания из календаря.  <br/> |
+|репляллтоитем  <br/> |Отправьте сообщение, содержащее текст исходного приглашения на собрание всем участникам собрания.  <br/> |
+|реплитоитем  <br/> |Отправьте сообщение, содержащее текст исходного приглашения на собрание отправителю приглашения на собрание.  <br/> |
+|сендреадрецеипт  <br/> |Отправка уведомления о прочтении отправителю приглашения на собрание.  <br/> |
+|тентативелякцептитем  <br/> |Принятие приглашения на собрание под вопросом.  <br/> |
    
-Операции CreateItem также поддерживает дополнительных объектов. В следующей таблице перечислены дополнительные объекты, поддерживаемые операции CreateItem.
+Операция CreateItem также поддерживает дополнительные объекты Meeting. В следующей таблице перечислены дополнительные объекты, поддерживаемые операцией CreateItem.
   
-|**Объект собрания**|**Описание**|
+|**Объект Meeting**|**Описание**|
 |:-----|:-----|
-|Сообщения о собрании  <br/> |Представляет сообщение собрания в хранилище Exchange. Это базовый объект для других объектов собрания.  <br/> |
-|Приглашения на собрание  <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|Приглашения на собрание  <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|Сообщение о собрании  <br/> |Представляет сообщение о собрании в хранилище Exchange. Это базовый объект для других объектов Meeting.  <br/> |
+|Приглашение на собрание  <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|Ответ на приглашение на собрание  <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
 |Отмена собрания  <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операции CreateItem (элемента календаря)](createitem-operation-calendar-item.md)
+[Операция CreateItem (элемент календаря)](createitem-operation-calendar-item.md)
   
-[Операции CreateItem (контактов)](createitem-operation-contact.md)
+[Операция CreateItem (Contact)](createitem-operation-contact.md)
   
-[Операции CreateItem (сообщение электронной почты)](createitem-operation-email-message.md)
+[Операция CreateItem (сообщение электронной почты)](createitem-operation-email-message.md)
   
-[Операции CreateItem (запрос на собрание)](createitem-operation-meeting-request.md)
+[Операция CreateItem (приглашение на собрание)](createitem-operation-meeting-request.md)
   
-[Операции CreateItem (задача)](createitem-operation-task.md)
+[Операция CreateItem (задача)](createitem-operation-task.md)
   
- **CreateItemType**
+ **креатеитемтипе**
 

@@ -1,5 +1,5 @@
 ---
-title: AcceptableResponseSchema (POX)
+title: Акцептаблереспонсесчема (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2f0f77bd-4cbe-4c02-880d-a93b387141d9
-description: Элемент AcceptableResponseSchema определяет схему для ответа на службы автообнаружения.
+description: Элемент Акцептаблереспонсесчема определяет схему для ответа автообнаружения.
 ms.openlocfilehash: 16444b6b3e17c6774416f90a5a056d0e8025287d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -16,15 +16,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762482"
 ---
-# <a name="acceptableresponseschema-pox"></a>AcceptableResponseSchema (POX)
+# <a name="acceptableresponseschema-pox"></a>Акцептаблереспонсесчема (POX)
 
-Элемент **AcceptableResponseSchema** определяет схему для ответа на службы автообнаружения. 
+Элемент **акцептаблереспонсесчема** определяет схему для ответа автообнаружения. 
   
-- [Автообнаружение (POX)](autodiscover-pox.md)
+- [Служба автообнаружения (POX)](autodiscover-pox.md)
   
 - [Запрос (POX)](request-pox.md)
   
-- [AcceptableResponseSchema (POX)](acceptableresponseschema-pox.md)
+- [Акцептаблереспонсесчема (POX)](acceptableresponseschema-pox.md)
   
 ```xml
 <AcceptableResponseSchema/>
@@ -32,7 +32,7 @@ ms.locfileid: "19762482"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -50,9 +50,9 @@ ms.locfileid: "19762482"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение определяет расположение схема ответа службы автообнаружения.
+Текстовое значение определяет расположение схемы ответа автообнаружения.
   
 ## <a name="see-also"></a>См. также
 
-- [Элементы XML автоматического обнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

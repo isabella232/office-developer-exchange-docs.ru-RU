@@ -1,5 +1,5 @@
 ---
-title: CopyItem Operation
+title: Операция CopyItem
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: bcc68f9e-d511-4c29-bba6-ed535524624a
-description: Операция CopyItem копирует элементы и размещает элементы в другую папку.
+description: Операция CopyItem копирует элементы и размещает их в другой папке.
 ms.openlocfilehash: 95d2371e9185aa25f40eaec37dda54276a54d321
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761841"
 ---
-# <a name="copyitem-operation"></a>CopyItem Operation
+# <a name="copyitem-operation"></a>Операция CopyItem
 
-Операция **CopyItem** копирует элементы и размещает элементы в другую папку. 
+Операция **CopyItem** копирует элементы и размещает их в другой папке. 
   
 ## <a name="copyitem-request-example"></a>Пример запроса CopyItem
 
 ### <a name="description"></a>Описание
 
-В следующем примере запрос **CopyItem** показано, как для формирования запроса скопировать элемент в папке "Входящие". 
+В приведенном ниже примере запроса **CopyItem** показано, как сформировать запрос на копирование элемента в папку "Входящие". 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -48,39 +48,39 @@ ms.locfileid: "19761841"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
 > [!NOTE]
-> Идентификатор папки и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор папки и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [CopyItem](copyitem.md)
     
-- [ToFolderId](tofolderid.md)
+- [тофолдерид](tofolderid.md)
     
-- [DistinguishedFolderId](distinguishedfolderid.md)
+- [дистингуишедфолдерид](distinguishedfolderid.md)
     
-- [Что ItemID](itemids.md)
+- [итемидс](itemids.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
 > [!NOTE]
-> Схема, описывающая этот элемент находится в виртуальном каталоге EWS компьютера, на котором выполняется Microsoft Exchange Server 2010 с установленной ролью сервера клиентского доступа. 
+> Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа. 
   
-Чтобы найти другие параметры для запроса операции **CopyItem** , изучите иерархия схемы. Начать с [CopyItem](copyitem.md) элемента. 
+Чтобы найти другие параметры сообщения Request операции **CopyItem** , изучите иерархию схемы. Начните с элемента [CopyItem](copyitem.md) . 
   
-## <a name="successful-copyitem-response"></a>Успешного ответа CopyItem
+## <a name="successful-copyitem-response"></a>Успешный ответ CopyItem
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос **CopyItem** . 
+В следующем примере показан успешный ответ на запрос **CopyItem** . 
   
-Идентификатор нового элемента, возвращается в сообщении ответа. Идентификаторы элементов не возвращаются в ответ для нескольких почтовых или почтовых ящиков операциям **CopyItem** общей папки. 
+В ответном сообщении возвращается идентификатор элемента нового элемента. Идентификаторы элементов не возвращаются в ответах на операции **CopyItem** для нескольких почтовых ящиков или почтовых ящиков в общедоступных папках. 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -112,29 +112,29 @@ ms.locfileid: "19761841"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CopyItemResponse](copyitemresponse.md)
+- [копитемреспонсе](copyitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CopyItemResponseMessage](copyitemresponsemessage.md)
+- [копитемреспонсемессаже](copyitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-Чтобы найти другие параметры в сообщении ответа операции **CopyItem** , изучите иерархия схемы. Запустите в элементе [CopyItemResponse](copyitemresponse.md) . 
+Чтобы найти другие параметры для ответного сообщения операции **CopyItem** , изучите иерархию схемы. Начните с элемента [копитемреспонсе](copyitemresponse.md) . 
   
-## <a name="copyitem-error-response"></a>Отклик CopyItem
+## <a name="copyitem-error-response"></a>Ответ об ошибке CopyItem
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано возврату ошибки **CopyItem** запрос. 
+В следующем примере показан ответ об ошибке для запроса **CopyItem** . 
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -162,27 +162,27 @@ ms.locfileid: "19761841"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ответа об ошибках
+### <a name="error-response-elements"></a>Элементы ошибочного ответа
 
-В ответ на ошибку используются следующие элементы:
+В ответе на сообщение об ошибке используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [CopyItemResponse](copyitemresponse.md)
+- [копитемреспонсе](copyitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [CopyItemResponseMessage](copyitemresponsemessage.md)
+- [копитемреспонсемессаже](copyitemresponsemessage.md)
     
-- [MessageText](messagetext.md)
+- [мессажетекст](messagetext.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [DescriptiveLinkKey](descriptivelinkkey.md)
+- [дескриптивелинккэй](descriptivelinkkey.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-Чтобы найти другие параметры в сообщении об ошибке ответа операции **CopyItem** , изучите иерархия схемы. Запустите в элементе [CopyItemResponse](copyitemresponse.md) . 
+Чтобы найти другие параметры сообщения об ошибке при выполнении операции **CopyItem** , изучите иерархию схемы. Начните с элемента [копитемреспонсе](copyitemresponse.md) . 
   
 ## <a name="see-also"></a>См. также
 

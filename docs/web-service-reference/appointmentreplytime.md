@@ -1,5 +1,5 @@
 ---
-title: AppointmentReplyTime
+title: аппоинтментреплитиме
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7784468c-c863-488a-864b-ce4d6c671dbe
-description: Элемент AppointmentReplyTime представляет дату и время участником ответ на приглашения на собрание.
+description: Элемент Аппоинтментреплитиме представляет дату и время, когда участник ответил на приглашение на собрание.
 ms.openlocfilehash: 4d524bdc36ee642dcf8186294d412d6849b59ade
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19761474"
 ---
-# <a name="appointmentreplytime"></a>AppointmentReplyTime
+# <a name="appointmentreplytime"></a>аппоинтментреплитиме
 
-Элемент **AppointmentReplyTime** представляет дату и время участником ответ на приглашения на собрание. 
+Элемент **аппоинтментреплитиме** представляет дату и время, когда участник ответил на приглашение на собрание. 
   
 ```xml
 <AppointmentReplyTime/>
@@ -30,7 +30,7 @@ ms.locfileid: "19761474"
  **DateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
+В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -44,14 +44,14 @@ ms.locfileid: "19761474"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемента календаря, имеющего](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Строка, представляющая дату и время.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "19761474"
 |:-----|:-----|
 |Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types.xsd  <br/> |
+|Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

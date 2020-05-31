@@ -1,5 +1,5 @@
 ---
-title: Операции GetItem (задача)
+title: Операция GetItem (задача)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8265dd06-1752-4470-8074-5f0e3e970f52
-description: Операции GetItem используется для получения задачи из хранилища Exchange.
+description: Операция GetItem используется для получения задач из хранилища Exchange.
 ms.openlocfilehash: 412710f32ed8702e1a28a596833c3a7e47e3ed76
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
@@ -19,21 +19,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19762840"
 ---
-# <a name="getitem-operation-task"></a>Операции GetItem (задача)
+# <a name="getitem-operation-task"></a>Операция GetItem (задача)
 
-Операции GetItem используется для получения задачи из хранилища Exchange.
+Операция GetItem используется для получения задач из хранилища Exchange.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Формат запроса GetItem для задач, совпадает с GetItem для любой другой тип элемента. Единственное отличие заключается в котором можно запросить дополнительные свойства в фигуре ответа. Такие дополнительные свойства должен быть свойства, связанные с задач или расширенные свойства.
+Формат запроса GetItem для задач такой же, что и GetItem для любого другого типа элемента. Единственное отличие заключается в том, что дополнительные свойства можно запросить в фигуре ответа. Такие дополнительные свойства должны быть свойствами или расширенными свойствами, связанными с задачей.
   
-## <a name="task-getitem-request-example"></a>Пример запроса GetItem задач
+## <a name="task-getitem-request-example"></a>Пример запроса задачи GetItem
 
 ### <a name="description"></a>Описание
 
-Приведенный ниже запрос GetItem показано, как получить элемента задачи.
+В приведенном ниже примере запроса GetItem показано, как получить элемент задачи.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -55,32 +55,32 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
 > [!NOTE]
-> Идентификатор элемента и изменить ключ URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
   
-### <a name="request-elements"></a>Элементы запроса
+### <a name="request-elements"></a>Элементы Request
 
 В запросе используются следующие элементы:
   
 - [GetItem](getitem.md)
     
-- [ItemShape](itemshape.md)
+- [итемшапе](itemshape.md)
     
-- [BaseShape](baseshape.md)
+- [басешапе](baseshape.md)
     
-- [Что ItemID](itemids.md)
+- [итемидс](itemids.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
-## <a name="task-getitem-response-example"></a>Пример ответа GetItem задач
+## <a name="task-getitem-response-example"></a>Пример отклика "задача GetItem"
 
 ### <a name="description"></a>Описание
 
-В следующем примере показано успешного ответа на запрос GetItem.
+В следующем примере показан успешный ответ на запрос GetItem.
   
-### <a name="code"></a>Программа
+### <a name="code"></a>Код
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -133,68 +133,68 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Комментарии
+### <a name="comments"></a>Comments
 
 > [!NOTE]
-> Идентификаторы элементов и папок и ключей изменения URL были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификаторы элементов и папок, а также ключи изменения были сокращены, чтобы сохранить удобочитаемость. 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответе используются следующие элементы:
+В отклике используются следующие элементы:
   
-- [ServerVersionInfo](serverversioninfo.md)
+- [серверверсионинфо](serverversioninfo.md)
     
-- [GetItemResponse](getitemresponse.md)
+- [жетитемреспонсе](getitemresponse.md)
     
-- [ResponseMessages](responsemessages.md)
+- [респонсемессажес](responsemessages.md)
     
-- [GetItemResponseMessage](getitemresponsemessage.md)
+- [жетитемреспонсемессаже](getitemresponsemessage.md)
     
-- [ResponseCode](responsecode.md)
+- [респонсекоде](responsecode.md)
     
-- [Элементы](items.md)
+- [Items](items.md)
     
-- [Задача](task.md)
+- [Task](task.md)
     
-- [Идентификатор элемента](itemid.md)
+- [Идентификатор](itemid.md)
     
 - [ParentFolderId](parentfolderid.md)
     
 - [ItemClass](itemclass.md)
     
-- [Subject](subject.md)
+- [Тема](subject.md)
     
-- [Уровень конфиденциальности сообщения](sensitivity.md)
+- [Sensitivity](sensitivity.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
 - [Размер](size.md)
     
-- [Важность](importance.md)
+- [Importance](importance.md)
     
-- [IsSubmitted](issubmitted.md)
+- [Отправлено](issubmitted.md)
     
-- [IsDraft](isdraft.md)
+- [Черновик](isdraft.md)
     
-- [IsFromMe](isfromme.md)
+- [исфромме](isfromme.md)
     
-- [IsResend](isresend.md)
+- [исресенд](isresend.md)
     
-- [IsUnmodified](isunmodified.md)
+- [исунмодифиед](isunmodified.md)
     
-- [DateTimeSent](datetimesent.md)
+- [датетимесент](datetimesent.md)
     
 - [DateTimeCreated](datetimecreated.md)
     
 - [HasAttachments](hasattachments.md)
     
-- [Язык и региональные параметры](culture.md)
+- [Culture](culture.md)
     
-- [ChangeCount](changecount.md)
+- [чанжекаунт](changecount.md)
     
-- [IsComplete](iscomplete.md)
+- [Выполнение](iscomplete.md)
     
 - [IsRecurring](isrecurring.md)
     
@@ -202,18 +202,18 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
     
 - [Состояние](status.md)
     
-- [StatusDescription](statusdescription.md)
+- [статусдескриптион](statusdescription.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[GetItem Operation](getitem-operation.md)
+[Операция GetItem](getitem-operation.md)
 
 
 [Создание задач](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
 [Обновление задач](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
   
-[Удаление задачи](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Удаление задач](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 
