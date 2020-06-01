@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 002b72f2-f94d-467c-8e6c-b3818f7e51dc
 description: 'Применимо к:'
-ms.openlocfilehash: 0e8775c895f1b6d674b9a0141d55c64f57d236b0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 30f6a5c2c6e3034fde8849ab1fced3519029b1f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835177"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448977"
 ---
 # <a name="response-pox"></a>Ответ (POX)
 
@@ -39,7 +39,7 @@ ms.locfileid: "19835177"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
