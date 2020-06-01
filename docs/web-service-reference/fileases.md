@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f81efc37-bb70-4d52-a614-cec87d1b0f04
 description: Элемент Филеасес указывает массив элементов Стрингаттрибутедвалуе и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: e660c74135dca9a2eb58b3486e0d2e19f85e012f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9d97c2c7210e9ae20326d7327c9de4159d5df5a6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762532"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461081"
 ---
-# <a name="fileases"></a><span data-ttu-id="64198-103">филеасес</span><span class="sxs-lookup"><span data-stu-id="64198-103">FileAses</span></span>
+# <a name="fileases"></a><span data-ttu-id="e549a-103">филеасес</span><span class="sxs-lookup"><span data-stu-id="e549a-103">FileAses</span></span>
 
-<span data-ttu-id="64198-104">Элемент **филеасес** указывает массив элементов **стрингаттрибутедвалуе** и идентификаторы их исходных атрибутов для связанного пользователя.</span><span class="sxs-lookup"><span data-stu-id="64198-104">The **FileAses** element specifies an array of **StringAttributedValue** elements and the identifiers of their source attributions for the associated persona.</span></span> 
+<span data-ttu-id="e549a-104">Элемент **филеасес** указывает массив элементов **стрингаттрибутедвалуе** и идентификаторы их исходных атрибутов для связанного пользователя.</span><span class="sxs-lookup"><span data-stu-id="e549a-104">The **FileAses** element specifies an array of **StringAttributedValue** elements and the identifiers of their source attributions for the associated persona.</span></span> 
   
 ```XML
 <FileAses>
@@ -25,45 +25,45 @@ ms.locfileid: "19762532"
 </FileAses>
 ```
 
- <span data-ttu-id="64198-105">**аррайофстрингаттрибутедвалуестипе**</span><span class="sxs-lookup"><span data-stu-id="64198-105">**ArrayOfStringAttributedValuesType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="64198-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="64198-106">Attributes and elements</span></span>
+ <span data-ttu-id="e549a-105">**аррайофстрингаттрибутедвалуестипе**</span><span class="sxs-lookup"><span data-stu-id="e549a-105">**ArrayOfStringAttributedValuesType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="e549a-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="e549a-106">Attributes and elements</span></span>
 
-<span data-ttu-id="64198-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="64198-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="e549a-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="e549a-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="64198-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="64198-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="e549a-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="e549a-108">Attributes</span></span>
 
-<span data-ttu-id="64198-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="64198-109">None.</span></span>
+<span data-ttu-id="e549a-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="e549a-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="64198-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="64198-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="e549a-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="e549a-110">Child elements</span></span>
 
-|<span data-ttu-id="64198-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="64198-111">**Element**</span></span>|<span data-ttu-id="64198-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="64198-112">**Description**</span></span>|
+|<span data-ttu-id="e549a-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e549a-111">**Element**</span></span>|<span data-ttu-id="e549a-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e549a-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="64198-113">стрингаттрибутедвалуе</span><span class="sxs-lookup"><span data-stu-id="64198-113">StringAttributedValue</span></span>](stringattributedvalue.md) <br/> |<span data-ttu-id="64198-114">Указывает экземпляр в массиве атрибутов, связанных с элементом персоны.</span><span class="sxs-lookup"><span data-stu-id="64198-114">Specifies an instance in an array of attributes associated with a persona element.</span></span>  <br/> |
+|[<span data-ttu-id="e549a-113">стрингаттрибутедвалуе</span><span class="sxs-lookup"><span data-stu-id="e549a-113">StringAttributedValue</span></span>](stringattributedvalue.md) <br/> |<span data-ttu-id="e549a-114">Указывает экземпляр в массиве атрибутов, связанных с элементом персоны.</span><span class="sxs-lookup"><span data-stu-id="e549a-114">Specifies an instance in an array of attributes associated with a persona element.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="64198-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="64198-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="e549a-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="e549a-115">Parent elements</span></span>
 
-|<span data-ttu-id="64198-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="64198-116">**Element**</span></span>|<span data-ttu-id="64198-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="64198-117">**Description**</span></span>|
+|<span data-ttu-id="e549a-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e549a-116">**Element**</span></span>|<span data-ttu-id="e549a-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e549a-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="64198-118">Роль</span><span class="sxs-lookup"><span data-stu-id="64198-118">Persona</span></span>](persona.md) <br/> |<span data-ttu-id="64198-119">Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .</span><span class="sxs-lookup"><span data-stu-id="64198-119">Specifies a set of persona data returned by a **GetPersona** request.</span></span>  <br/> |
+|[<span data-ttu-id="e549a-118">Роль</span><span class="sxs-lookup"><span data-stu-id="e549a-118">Persona</span></span>](persona.md) <br/> |<span data-ttu-id="e549a-119">Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .</span><span class="sxs-lookup"><span data-stu-id="e549a-119">Specifies a set of persona data returned by a **GetPersona** request.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="64198-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="64198-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e549a-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="e549a-120">Remarks</span></span>
 
-<span data-ttu-id="64198-121">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="64198-121">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="e549a-121">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e549a-121">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="64198-122">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="64198-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="e549a-122">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="e549a-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="64198-123">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="64198-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="e549a-123">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="e549a-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="64198-124">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="64198-124">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="64198-125">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="64198-125">Schema Name</span></span>  <br/> |<span data-ttu-id="64198-126">Схема типа</span><span class="sxs-lookup"><span data-stu-id="64198-126">Type schema</span></span>  <br/> |
-|<span data-ttu-id="64198-127">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="64198-127">Validation File</span></span>  <br/> |<span data-ttu-id="64198-128">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="64198-128">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="64198-129">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="64198-129">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="e549a-124">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="e549a-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="e549a-125">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="e549a-125">Schema Name</span></span>  <br/> |<span data-ttu-id="e549a-126">Схема типа</span><span class="sxs-lookup"><span data-stu-id="e549a-126">Type schema</span></span>  <br/> |
+|<span data-ttu-id="e549a-127">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="e549a-127">Validation File</span></span>  <br/> |<span data-ttu-id="e549a-128">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="e549a-128">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="e549a-129">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="e549a-129">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="64198-130">См. также</span><span class="sxs-lookup"><span data-stu-id="64198-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e549a-130">См. также</span><span class="sxs-lookup"><span data-stu-id="e549a-130">See also</span></span>
 
 
 
-- [<span data-ttu-id="64198-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="64198-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="e549a-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="e549a-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

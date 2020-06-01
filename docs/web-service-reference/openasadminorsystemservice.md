@@ -12,16 +12,16 @@ api_type:
 - schema
 ms.assetid: fff7c928-da28-4864-9379-dc54c1bf048f
 description: Элемент Опенасадминорсистемсервице предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: ef7538425034b9fc734e8caac8e597e6fb68cd3a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e4bd101b048bd5ac1af8d383d64519b9ed6f0041
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834652"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462509"
 ---
-# <a name="openasadminorsystemservice"></a><span data-ttu-id="c962f-104">опенасадминорсистемсервице</span><span class="sxs-lookup"><span data-stu-id="c962f-104">OpenAsAdminOrSystemService</span></span>
+# <a name="openasadminorsystemservice"></a><span data-ttu-id="de0a3-104">опенасадминорсистемсервице</span><span class="sxs-lookup"><span data-stu-id="de0a3-104">OpenAsAdminOrSystemService</span></span>
 
-<span data-ttu-id="c962f-105">Элемент **опенасадминорсистемсервице** предназначен только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="c962f-105">The **OpenAsAdminOrSystemService** element is for internal use only.</span></span> <span data-ttu-id="c962f-106">Этот элемент не используется клиентами.</span><span class="sxs-lookup"><span data-stu-id="c962f-106">This element is not used by clients.</span></span> 
+<span data-ttu-id="de0a3-105">Элемент **опенасадминорсистемсервице** предназначен только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="de0a3-105">The **OpenAsAdminOrSystemService** element is for internal use only.</span></span> <span data-ttu-id="de0a3-106">Этот элемент не используется клиентами.</span><span class="sxs-lookup"><span data-stu-id="de0a3-106">This element is not used by clients.</span></span> 
   
 ```XML
 <OpenAsAdminOrSystemService LogonType="">
@@ -29,47 +29,47 @@ ms.locfileid: "19834652"
 </OpenAsAdminOrSystemService>
 ```
 
- <span data-ttu-id="c962f-107">**опенасадминорсистемсервицетипе**</span><span class="sxs-lookup"><span data-stu-id="c962f-107">**OpenAsAdminOrSystemServiceType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="c962f-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="c962f-108">Attributes and elements</span></span>
+ <span data-ttu-id="de0a3-107">**опенасадминорсистемсервицетипе**</span><span class="sxs-lookup"><span data-stu-id="de0a3-107">**OpenAsAdminOrSystemServiceType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="de0a3-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="de0a3-108">Attributes and elements</span></span>
 
-<span data-ttu-id="c962f-109">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="c962f-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="de0a3-109">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="de0a3-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c962f-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="c962f-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="de0a3-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="de0a3-110">Attributes</span></span>
 
-|<span data-ttu-id="c962f-111">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="c962f-111">**Attribute**</span></span>|<span data-ttu-id="c962f-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c962f-112">**Description**</span></span>|
+|<span data-ttu-id="de0a3-111">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="de0a3-111">**Attribute**</span></span>|<span data-ttu-id="de0a3-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="de0a3-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c962f-113">LogonType</span><span class="sxs-lookup"><span data-stu-id="c962f-113">LogonType</span></span>  <br/> |<span data-ttu-id="c962f-114">Не предназначено для использования клиентом.</span><span class="sxs-lookup"><span data-stu-id="c962f-114">Not intended for client use.</span></span>  <br/> |
+|<span data-ttu-id="de0a3-113">LogonType</span><span class="sxs-lookup"><span data-stu-id="de0a3-113">LogonType</span></span>  <br/> |<span data-ttu-id="de0a3-114">Не предназначено для использования клиентом.</span><span class="sxs-lookup"><span data-stu-id="de0a3-114">Not intended for client use.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="c962f-115">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="c962f-115">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="de0a3-115">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="de0a3-115">Child elements</span></span>
 
-|<span data-ttu-id="c962f-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="c962f-116">**Element**</span></span>|<span data-ttu-id="c962f-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c962f-117">**Description**</span></span>|
+|<span data-ttu-id="de0a3-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="de0a3-116">**Element**</span></span>|<span data-ttu-id="de0a3-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="de0a3-117">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c962f-118">коннектингсид</span><span class="sxs-lookup"><span data-stu-id="c962f-118">ConnectingSID</span></span>  <br/> |<span data-ttu-id="c962f-119">Не предназначено для использования клиентом.</span><span class="sxs-lookup"><span data-stu-id="c962f-119">Not intended for client use.</span></span>  <br/> |
+|<span data-ttu-id="de0a3-118">коннектингсид</span><span class="sxs-lookup"><span data-stu-id="de0a3-118">ConnectingSID</span></span>  <br/> |<span data-ttu-id="de0a3-119">Не предназначено для использования клиентом.</span><span class="sxs-lookup"><span data-stu-id="de0a3-119">Not intended for client use.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="c962f-120">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="c962f-120">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="de0a3-120">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="de0a3-120">Parent elements</span></span>
 
-<span data-ttu-id="c962f-121">Нет.</span><span class="sxs-lookup"><span data-stu-id="c962f-121">None.</span></span>
+<span data-ttu-id="de0a3-121">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="de0a3-121">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="c962f-122">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="c962f-122">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="de0a3-122">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="de0a3-122">Text value</span></span>
 
-<span data-ttu-id="c962f-123">Нет.</span><span class="sxs-lookup"><span data-stu-id="c962f-123">None.</span></span>
+<span data-ttu-id="de0a3-123">Нет.</span><span class="sxs-lookup"><span data-stu-id="de0a3-123">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c962f-124">Примечания</span><span class="sxs-lookup"><span data-stu-id="c962f-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="de0a3-124">Примечания</span><span class="sxs-lookup"><span data-stu-id="de0a3-124">Remarks</span></span>
 
-<span data-ttu-id="c962f-125">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="c962f-125">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="de0a3-125">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="de0a3-125">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="c962f-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="c962f-126">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="de0a3-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="de0a3-126">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c962f-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="c962f-127">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="c962f-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="c962f-128">Schema Name</span></span>  <br/> |<span data-ttu-id="c962f-129">Схема Types</span><span class="sxs-lookup"><span data-stu-id="c962f-129">Types schema</span></span>  <br/> |
-|<span data-ttu-id="c962f-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="c962f-130">Validation File</span></span>  <br/> |<span data-ttu-id="c962f-131">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="c962f-131">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="c962f-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="c962f-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="c962f-133">False</span><span class="sxs-lookup"><span data-stu-id="c962f-133">False</span></span>  <br/> |
+|<span data-ttu-id="de0a3-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="de0a3-127">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="de0a3-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="de0a3-128">Schema Name</span></span>  <br/> |<span data-ttu-id="de0a3-129">Схема Types</span><span class="sxs-lookup"><span data-stu-id="de0a3-129">Types schema</span></span>  <br/> |
+|<span data-ttu-id="de0a3-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="de0a3-130">Validation File</span></span>  <br/> |<span data-ttu-id="de0a3-131">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="de0a3-131">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="de0a3-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="de0a3-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="de0a3-133">False</span><span class="sxs-lookup"><span data-stu-id="de0a3-133">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="c962f-134">См. также</span><span class="sxs-lookup"><span data-stu-id="c962f-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="de0a3-134">См. также</span><span class="sxs-lookup"><span data-stu-id="de0a3-134">See also</span></span>
 
 
 
-- [<span data-ttu-id="c962f-135">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="c962f-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="de0a3-135">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="de0a3-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
