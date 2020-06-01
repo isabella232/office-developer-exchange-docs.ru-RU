@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1fbc2ea9-3f94-441b-ab42-647326bf0021
 description: Элемент Екпурл-Тмедитинг указывает на частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для изменения существующего почтового ящика сайта.
-ms.openlocfilehash: 29b27ffe9ef3c18a3b6471ca4a42956a43a5aaa6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5d6c6b8e8f73d113cfde3570065435927ffbae05
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762246"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463540"
 ---
 # <a name="ecpurl-tmediting-pox"></a>Екпурл-Тмедитинг (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762246"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,8 +56,7 @@ ms.locfileid: "19762246"
   
 |**Параметр**|**Замена**|
 |:-----|:-----|
-| 
-  _Id_ <br/> |SMTP-адрес электронной почты или различающееся имя для почтового ящика сайта.  <br/> |
+| _Id_ <br/> |SMTP-адрес электронной почты или различающееся имя для почтового ящика сайта.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

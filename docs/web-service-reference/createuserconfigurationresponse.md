@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 115d4a5d-0c90-45d5-a3a3-4e61d80df78a
 description: Элемент Креатеусерконфигуратионреспонсе определяет ответ на один запрос CreateUserConfiguration.
-ms.openlocfilehash: b2ccbe6468481522536b4f0c3d5a4183b9887add
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d1b3e2a0ab156c5175f9c1e676866690c33ace9f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761926"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463771"
 ---
 # <a name="createuserconfigurationresponse"></a>креатеусерконфигуратионреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761926"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -46,7 +46,7 @@ ms.locfileid: "19761926"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -60,7 +60,7 @@ ms.locfileid: "19761926"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

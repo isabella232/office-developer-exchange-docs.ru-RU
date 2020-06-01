@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3334bb2-90dc-4fe1-96d9-890b13d9ff30
 description: Элемент Аддресслистид указывает идентификатор списка адресов.
-ms.openlocfilehash: d8a513559b7d127559537b43d7c6c0a4db121702
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c33944bf6e41903a5de596628e1ce7ba9f7421e1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761359"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463610"
 ---
 # <a name="addresslistid"></a>аддресслистид
 
@@ -37,7 +37,7 @@ ms.locfileid: "19761359"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761359"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

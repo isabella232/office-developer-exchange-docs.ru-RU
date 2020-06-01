@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0474a5b4-1a48-4df6-a094-baf35d9a1083
 description: Элемент Group (Аррайоффедератеддиректориграупстипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: b426203a7b54cddac737e3e6a7f860b8592f6e10
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7938b571f7cc48dd60b14429b8e21bad1eb26300
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833752"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462831"
 ---
 # <a name="group-arrayoffederateddirectorygroupstype"></a>Группа (Аррайоффедератеддиректориграупстипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19833752"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

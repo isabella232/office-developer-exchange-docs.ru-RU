@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f4b71403-cbae-4176-8b2e-3597048c057b
 description: Элемент Recipients представляет коллекцию получателей, которые получают копию сообщения.
-ms.openlocfilehash: b24a029bfacd6cc40e85a201b8ca90efd7790e9f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0e18152a8143b888ad27f48137c06613694f5713
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834991"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463876"
 ---
 # <a name="recipients-arrayofrecipientstype"></a>Получатели (АррайофреЦипиентстипе)
 
@@ -36,7 +36,7 @@ ms.locfileid: "19834991"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834991"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

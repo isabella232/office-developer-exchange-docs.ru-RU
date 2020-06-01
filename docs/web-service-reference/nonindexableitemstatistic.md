@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 593e0c79-9ec2-4040-a6a3-3c5c61cbdf7c
 description: Элемент Нониндексаблеитемстатистик содержит один статистический показатель для элемента, который не удалось индексировать
-ms.openlocfilehash: e604f73216aab4cca259bc6cb7eb80a2fd36cd23
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cc7bee9fd2759a16dd16538d6712e40ceb005fec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834540"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462684"
 ---
 # <a name="nonindexableitemstatistic"></a>нониндексаблеитемстатистик
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834540"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Mailbox (строка)](mailbox-string.md) | [ItemCount](itemcount.md) | [ErrorMessage](errormessage.md)
+[Mailbox (строка)](mailbox-string.md)  |  [ItemCount](itemcount.md)  |  [ErrorMessage](errormessage.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834540"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: dd9b6c43-a512-4b3b-a071-4abde02ed55f
 description: Элемент DueDate представляет дату, на которую должен быть выполнен элемент.
-ms.openlocfilehash: b24891972f240bc6ee5d0fe868445b96abdc089a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b88bb5c64ee48e02b1600c6865ce650e7bcdaa3b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762227"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463561"
 ---
 # <a name="duedate"></a>Дата выполнения
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762227"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19762227"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

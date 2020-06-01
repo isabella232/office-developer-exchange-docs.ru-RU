@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 07dedaa8-17aa-4553-b8e2-e3f82c40ae1e
 description: Элемент Маркаллитемсасреадреспонсе указывает ответ на запрос MarkAllItemsAsRead.
-ms.openlocfilehash: fc0cbc9d6e0082b92620a18c8dc707a9eaecf4c1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 011aa34886b4f50542c68661d9b61be3a3ce3a1f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834345"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463890"
 ---
 # <a name="markallitemsasreadresponse"></a>маркаллитемсасреадреспонсе
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834345"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834345"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

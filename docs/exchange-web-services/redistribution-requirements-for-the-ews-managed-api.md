@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8b206274-eaa4-40d3-b504-af27335c8f43
 description: Узнайте, как можно перераспределить сборки управляемого API EWS с приложением.
-ms.openlocfilehash: d8fc57c4a2b3ed7d6218aeeed0fe88c2d3e0fbe0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e64b4cdb8938caa819ba30621112a25946ef0424
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761236"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463827"
 ---
 # <a name="redistribution-requirements-for-the-ews-managed-api"></a>Требования к перераспределению для управляемого API EWS
 
@@ -36,6 +36,6 @@ ms.locfileid: "19761236"
 
 - [Общие сведения о разработке клиента EWS для Exchange](ews-client-design-overview-for-exchange.md)
     
-- [Управляемый API EWS (Загрузка)](http://aka.ms/ews-managed-api-readme)
+- [Управляемый API EWS (Загрузка)](https://aka.ms/ews-managed-api-readme)
     
 

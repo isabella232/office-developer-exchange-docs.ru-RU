@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 86f66275-1e39-48ed-bd89-ac3bffc465a7
 description: Элемент ContactId однозначно идентифицирует контакт.
-ms.openlocfilehash: 4fd3693ed89194c85e5f1770f1db3903d835f43e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 17e8012283078d5d6e2cd1d2e88eef37b008be42
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761740"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463183"
 ---
 # <a name="contactid"></a>ContactId
 
@@ -37,11 +37,11 @@ ms.locfileid: "19761740"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[AddImContactToGroup](addimcontacttogroup.md) | [RemoveContactFromImList](removecontactfromimlist.md)RemoveContactFromImList | [RemoveImContactFromGroup](removeimcontactfromgroup.md)
+[AddImContactToGroup](addimcontacttogroup.md)  |  [RemoveContactFromImList](removecontactfromimlist.md)  |  [RemoveImContactFromGroup](removeimcontactfromgroup.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -53,7 +53,7 @@ ms.locfileid: "19761740"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

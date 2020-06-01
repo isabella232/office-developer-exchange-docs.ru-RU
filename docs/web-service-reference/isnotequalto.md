@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e2eff26c-3403-45cd-bb74-1eb98c7dbfcd
 description: Элемент Иснотекуалто представляет выражение поиска, которое сравнивает свойство со значением константы или другим свойством и возвращает значение true, если значения не совпадают.
-ms.openlocfilehash: 75b580d97fbadbf3aa28c29159973f53768df624
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 8c40fd1ce8c7c1f14b70f4fccfd3a24e4c99f1b5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353254"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464191"
 ---
 # <a name="isnotequalto"></a>иснотекуалто
 
@@ -52,7 +52,7 @@ ms.locfileid: "21353254"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -82,7 +82,7 @@ ms.locfileid: "21353254"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 455c77c6-c03f-49a7-a8ca-aa0023b6e73b
 description: Элемент Екпурл-единой системы обмена сообщениями указывает на частичный URL-адрес, который можно объединить со значением элемента Екпурл (POX), чтобы создать URL-адрес, который можно использовать для доступа к параметрам голосовой почты для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: 5f9be67f02703bbdfeb114eda13c5ce59f83290d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0fa3d42113d7d9accd6bba3d3b065477baf4d484
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762247"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463491"
 ---
 # <a name="ecpurl-um-pox"></a>Екпурл-единой системы обмена сообщениями (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762247"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

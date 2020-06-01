@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: fd8bf19a-298b-4135-93e8-ead3db7e1142
 description: Элемент Граупаттендиконфликтдата содержит статистические сведения о количестве доступных пользователей, количестве пользователей с конфликтами и числе пользователей, не имеющих сведений о доступности, в списке рассылки для предполагаемого времени проведения собрания.
-ms.openlocfilehash: 382b4d866c95de98bd444cd6226d71813889d4f4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c75a4e6f8fdff7fb2514f448350fee9f1acb9775
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833757"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462931"
 ---
 # <a name="groupattendeeconflictdata"></a>граупаттендиконфликтдата
 
@@ -49,7 +49,7 @@ ms.locfileid: "19833757"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -76,7 +76,7 @@ ms.locfileid: "19833757"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -85,5 +85,5 @@ ms.locfileid: "19833757"
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
 - [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 6727f282-ec4c-4e61-8414-e7ba5f9865e7
 description: Элемент Асурл указывает URL-адрес лучшего конечного экземпляра веб-служб доступности Exchange для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: fd765049aaccd93f2d6269375420f571108825a2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 62fc3c18b2c41bb131ec5bc8546089b73f247f99
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761507"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464422"
 ---
 # <a name="asurl-pox"></a>Асурл (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19761507"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 79b24034-6456-4c9c-adf6-03d06024c4e8
 description: Элемент Кэйвордстатс указывает список из одного или нескольких элементов Кэйвордстат.
-ms.openlocfilehash: d1f68059375fc0359b46d60b0184adc268d8fffb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf471c1712a96b44dbc533a2cb26e32546a6db38
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834193"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463295"
 ---
 # <a name="keywordstats"></a>кэйвордстатс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834193"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

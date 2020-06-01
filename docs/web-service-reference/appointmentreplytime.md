@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7784468c-c863-488a-864b-ce4d6c671dbe
 description: Элемент Аппоинтментреплитиме представляет дату и время, когда участник ответил на приглашение на собрание.
-ms.openlocfilehash: 4d524bdc36ee642dcf8186294d412d6849b59ade
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 188cd5fbaaefa52e4324143a2ee89ae8dbca7742
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761474"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463498"
 ---
 # <a name="appointmentreplytime"></a>аппоинтментреплитиме
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761474"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19761474"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

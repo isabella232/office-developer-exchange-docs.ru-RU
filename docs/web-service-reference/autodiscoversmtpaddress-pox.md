@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
 description: Элемент Аутодисковерсмтпаддресс содержит SMTP-адрес пользователя, который используется для процесса автообнаружения.
-ms.openlocfilehash: 6f44fc30fcf96bc059aa9412f5c3c5b8f596d2fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cd40fac8b7ab4eaa9ea50e82d6fc8bdbd4c3c7b1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761535"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463953"
 ---
 # <a name="autodiscoversmtpaddress-pox"></a>Аутодисковерсмтпаддресс (POX)
 
@@ -36,11 +36,11 @@ ms.locfileid: "19761535"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 08e89583-438c-4c9f-8475-3bc28f555e95
 description: Элемент DisplayName (Вотингоптиондататипе) указывает отображаемое имя параметра голосования.
-ms.openlocfilehash: 09f593000fd318ae90a31d961b33c8fe3879f7c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 42291dc032517a13259fde01217b3543d3329f7d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762171"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463603"
 ---
 # <a name="displayname-votingoptiondatatype"></a>DisplayName (Вотингоптиондататипе)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762171"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762171"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

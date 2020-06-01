@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 89513c26-b751-4619-a300-0ed8f55b0102
 description: Элемент Сеарчитемкинд указывает тип элементов, в которых выполняется поиск операции Финдмаилбоксстатистиксбикэйворд.
-ms.openlocfilehash: 1c099fc49ec882c1672b265ff0e3aa2c71c5f95b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e0625ac169c3083702494c094da15d38d220fe67
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835298"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464002"
 ---
 # <a name="searchitemkind"></a>сеарчитемкинд
 
@@ -30,11 +30,11 @@ ms.locfileid: "19835298"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -78,7 +78,7 @@ ms.locfileid: "19835298"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

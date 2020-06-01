@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 38f0b7f4-2338-4e90-af67-e0951e8edfa3
 description: Элемент Ригхтсманажементлиценседата указывает сведения о лицензии на управление правами для элемента.
-ms.openlocfilehash: ec2ba1dc155afe239c499246095f86fc621910a9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 892edfd6775838b1e6329e8db0ee9bb8e3c519ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835234"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463190"
 ---
 # <a name="rightsmanagementlicensedata"></a>ригхтсманажементлиценседата
 
@@ -47,15 +47,15 @@ ms.locfileid: "19835234"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Ригхтсманажедмессажедекриптионстатус](rightsmanagedmessagedecryptionstatus.md) | [рмстемплатеид](rmstemplateid.md) | [TemplateDescription](templatedescription.md) | [ProgrammaticAccessAllowed](programmaticaccessallowed.md)[PrintAllowed](printallowed.md)[TemplateName](templatename.md) | [ForwardAllowed](forwardallowed.md) | [ContentExpiryDate](contentexpirydate.md) [ReplyAllAllowed](replyallallowed.md) | [ContentOwner](contentowner.md)[ReplyAllowed](replyallowed.md) | [IsOwner](isowner.md)[EditAllowed](editallowed.md) | [ExportAllowed](exportallowed.md)[ExtractAllowed](extractallowed.md)[ModifyRecipientsAllowed](modifyrecipientsallowed.md)TemplateName темплатедескриптион | едиталловед ReplyAllowed ReplyAllAllowed ForwardAllowed | ModifyRecipientsAllowed ExtractAllowed | PrintAllowed ExportAllowed ProgrammaticAccessAllowed Owner ContentOwner ContentExpiryDate |  |  |  | 
+[Ригхтсманажедмессажедекриптионстатус](rightsmanagedmessagedecryptionstatus.md)  |  [Рмстемплатеид](rmstemplateid.md)  |  [Templatename](templatename.md)  |  [Темплатедескриптион](templatedescription.md)  |  [Едиталловед](editallowed.md)  |  [Реплялловед](replyallowed.md)  |  [Репляллалловед](replyallallowed.md)  |  [Форвардалловед](forwardallowed.md)  |  [МодифиреЦипиентсалловед](modifyrecipientsallowed.md)  |  [Екстракталловед](extractallowed.md)  |  [Принталловед](printallowed.md)  |  [Експорталловед](exportallowed.md)  |  [Программатикакцессалловед](programmaticaccessallowed.md)  |  [Владелец](isowner.md)  |  [Контентовнер](contentowner.md)  |  [Контентекспиридате](contentexpirydate.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Item](item.md) | [Сообщение](message-ex15websvcsotherref.md) | [MeetingResponse](meetingresponse.md) | [Contact](contact.md)[MeetingMessage](meetingmessage.md) | [MeetingCancellation](meetingcancellation.md)[MeetingRequest](meetingrequest.md) | [DistributionList](distributionlist.md) [Task](task.md)[PostItem](postitem.md)[CalendarItem](calendaritem.md)элемента митингмессаже | свойство meetingrequest митингреспонсе митингканцеллатион | Task | Item | календаритем Contact дистрибутионлист | 
+[Элемент](item.md)  |  [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [Митингмессаже](meetingmessage.md)  |  [Свойство meetingrequest](meetingrequest.md)  |  [Митингреспонсе](meetingresponse.md)  |  [Митингканцеллатион](meetingcancellation.md)  |  [Task (задача](task.md)  |  ) [Элемент](postitem.md)  |  i [Календаритем](calendaritem.md)  |  [Contact (контакт](contact.md)  |  ) [Дистрибутионлист](distributionlist.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -67,7 +67,7 @@ ms.locfileid: "19835234"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6ad95936-f61b-431a-9d86-df160b5d4b2d
 description: Элемент Emails2 содержит массив значений Емаиладдрессаттрибутедвалуе и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 1767d6bfaee335717e33e0345c605025a073335c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b9445dfdc556ade1ad96d6e56c35ec1e56627e8c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762295"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463414"
 ---
 # <a name="emails2"></a>Emails2
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762295"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762295"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

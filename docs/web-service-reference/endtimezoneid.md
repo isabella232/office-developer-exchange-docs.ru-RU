@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 02cf4611-affc-48bc-8e37-53d8694eca58
 description: Элемент Ендтимезонеид указывает часовой пояс, в котором выполняется собрание.
-ms.openlocfilehash: 60d28d5ccea1e99cb8f95f52a22b6ba14bf1f349
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9033e3eaeff9a955cce9d2a6c81d4c0222f00dc0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762355"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462980"
 ---
 # <a name="endtimezoneid"></a>ендтимезонеид
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762355"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762355"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

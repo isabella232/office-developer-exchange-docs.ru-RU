@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b6e4fef0-92a9-415f-81ae-0c5ecb7c12ad
 description: Элемент Хаскуота указывает, есть ли у управляемой папки квота.
-ms.openlocfilehash: 26f14ee7c9d4de267733bca11f7884d1d391b3dd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6e32aa4c69943774be928339936cca5016c58d85
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833807"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462754"
 ---
 # <a name="hasquota"></a>хаскуота
 
@@ -34,11 +34,11 @@ ms.locfileid: "19833807"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19833807"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

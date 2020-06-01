@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 918a0d1f-90a5-4eef-9592-07e15bef94e6
 description: Элемент Changes содержит упорядоченный массив типов изменений, представляющий тип различий между папками на клиенте и папками на компьютере, на котором работает Microsoft Exchange Server 2007.
-ms.openlocfilehash: 15e4f9f37c5e4a4083260dcf379a49beb2260030
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a296d87f23e85d42b4c8c858e92eddfb586a8324
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761681"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463274"
 ---
 # <a name="changes-hierarchy"></a>Изменения (иерархия)
 
@@ -46,7 +46,7 @@ ms.locfileid: "19761681"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "19761681"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

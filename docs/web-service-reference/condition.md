@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0790a3f2-cb31-4036-a757-7821aa0722cb
 description: Элемент Condition определяет условие, которое должно быть удовлетворено для части действия правила, которое необходимо выполнить.
-ms.openlocfilehash: d49f2984799b15c0499af59abecbb34abe15f7c3
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 2aea11197f072a4dbe21292bb47075d6f273d31b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353562"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463225"
 ---
 # <a name="condition"></a>Условие
 
@@ -61,7 +61,7 @@ ms.locfileid: "21353562"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -91,7 +91,7 @@ ms.locfileid: "21353562"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

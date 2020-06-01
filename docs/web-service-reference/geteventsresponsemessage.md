@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d433977f-b86a-499e-b9c3-f405ac229358
 description: Элемент Жетевентсреспонсемессаже содержит состояние и результат выполнения одного запроса операции Events.
-ms.openlocfilehash: 90e79194182f61ba7298ef67b1070b1aa239073d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d307aa1f5234ab5a7a2527c55f5e48814ea2687b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762773"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462859"
 ---
 # <a name="geteventsresponsemessage"></a>жетевентсреспонсемессаже
 
@@ -76,7 +76,7 @@ ms.locfileid: "19762773"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

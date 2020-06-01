@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e
 description: Элемент Addresses указывает массив элементов Аддрессентити.
-ms.openlocfilehash: b6fbcc54a016e698bccbe075fd340c0c784f121a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 48cf8c0fda6a8ef894ef8d3a4c154f7255b218bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761356"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463631"
 ---
 # <a name="addresses-arrayofaddressentitiestype"></a>Адреса (Аррайофаддрессентитиестипе)
 
@@ -32,7 +32,7 @@ ms.locfileid: "19761356"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761356"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

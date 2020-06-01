@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f35d5ac-55be-4d3a-ad03-7d6e9349d923
 description: Элемент Екпурл-TM указывает частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для доступа к списку всех почтовых ящиков сайта, участником которых является в данный момент пользователь с включенной поддержкой почты.
-ms.openlocfilehash: 786459cab98f8c169f768b6ef850792e8111761a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8d4c787e2eeae5300cd0496f199ea71baace98ba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762245"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463547"
 ---
 # <a name="ecpurl-tm-pox"></a>Екпурл-TM (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762245"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

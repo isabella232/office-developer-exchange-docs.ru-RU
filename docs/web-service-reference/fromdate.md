@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cbb1320c-479e-4bd3-a462-4ab14c24b1c5
 description: Элемент Фромдате указывает дату отправки сообщения.
-ms.openlocfilehash: edc3f8ada87c64ccc3eeeb8a7467e7e050a30ce1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c08873a11915f4e82ad5b6f62423d0abdb9a429b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762671"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463064"
 ---
 # <a name="fromdate"></a>фромдате
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762671"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762671"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

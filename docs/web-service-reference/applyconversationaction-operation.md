@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 73d7943d-d361-4f8b-9948-d85f886efa1a
 description: Операция ApplyConversationAction устанавливает действие однократным или дальнейшим действием для всех элементов в беседе. С помощью операции ApplyConversationAction можно классифицировать, перемещать, копировать, удалять и задавать состояние чтения для всех элементов в беседе. Для новых сообщений в беседе можно также задать действия.
-ms.openlocfilehash: 2a485b84ee87aec2ed807e3f4f0901b83432fa0a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cdab239a5b0b1406d2ce31f4604e4737d037cd7e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761424"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463505"
 ---
 # <a name="applyconversationaction-operation"></a>Операция ApplyConversationAction
 
@@ -36,8 +36,8 @@ ms.locfileid: "19761424"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -78,15 +78,15 @@ ms.locfileid: "19761424"
                          MajorBuildNumber="91" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ApplyConversationActionResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ApplyConversationActionResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ApplyConversationActionResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -102,5 +102,5 @@ ms.locfileid: "19761424"
 - [Операция ApplyConversationAction](applyconversationaction-operation.md)
 - [Операции EWS в Exchange](ews-operations-in-exchange.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+- [Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

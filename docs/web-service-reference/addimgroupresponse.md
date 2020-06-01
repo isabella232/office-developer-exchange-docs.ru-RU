@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2fca9474-f5f8-44e8-975d-145fc7696edf
 description: Аддимграупреспонсе определяет ответ на запрос AddImGroup.
-ms.openlocfilehash: 1fc7a2cd8c86a6ac7ce1d23d4b62fc6b2ade9d70
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1c3873d46c6f55cee9b7ab10114f26e6fb322b30
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761345"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462775"
 ---
 # <a name="addimgroupresponse"></a>аддимграупреспонсе
 
@@ -36,11 +36,11 @@ ms.locfileid: "19761345"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md) | [респонсекоде](responsecode.md) | [ImGroup](imgroup.md) [MessageXml](messagexml.md)[DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй мессажексмл |  | 
+[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Группа](imgroup.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761345"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

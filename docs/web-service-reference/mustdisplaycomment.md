@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 11d4d3c3-4652-4ed4-9b29-a0b5f85b82b7
 description: Элемент Мустдисплайкоммент указывает, должен ли отображаться комментарий к управляемой папке.
-ms.openlocfilehash: 9a7e6a88b77ff9f1fd82507b8320898c195cd190
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e86b0c6e2c1d7c3cc00561c17c82b3be82d81242
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834502"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463211"
 ---
 # <a name="mustdisplaycomment"></a>мустдисплайкоммент
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834502"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834502"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

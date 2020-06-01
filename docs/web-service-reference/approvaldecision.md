@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5e7c5687-cb9e-4f0b-ac8f-b82591914a39
 description: Элемент АппровалдеЦисион указывает решение, принятое в сообщении с запросом на утверждение.
-ms.openlocfilehash: 4ca73813440200e5d2fb9f920d81459d8cd5e4ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a8dc168edec882ba97cdea764f8d20c71ed85f8a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761479"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463449"
 ---
 # <a name="approvaldecision"></a>аппровалдеЦисион
 
@@ -30,11 +30,11 @@ ms.locfileid: "19761479"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19761479"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 1555fd2e-05b6-4b94-907b-dae9174049d9
 description: Элемент Нетворкрекуирементс содержит критерии, которые используются для определения того, находится ли клиентский компьютер в сети, удовлетворяющей требованиям поставщика услуг Интернета (ISP) для подключения к серверу.
-ms.openlocfilehash: f3abcff04cd4121b8dcc7ceff7658ad389e6d0b0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d588f7eb12a445fba9c997c4b9db0a6842105b4e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834529"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462726"
 ---
 # <a name="networkrequirements-pox"></a>Нетворкрекуирементс (POX)
 
@@ -45,7 +45,7 @@ ms.locfileid: "19834529"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

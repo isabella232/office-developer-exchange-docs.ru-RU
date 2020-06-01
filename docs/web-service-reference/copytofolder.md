@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6fd8a6b8-d813-43ff-991b-0e9e782fe00e
 description: Элемент CopyToFolder указывает идентификатор папки, в которую можно копировать элементы электронной почты.
-ms.openlocfilehash: b641c23b7aed11ae85157e2ed01cfa9d61d07e0a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7cdda0f9769f909255c9b76f78ac7094a8dfc8f8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761844"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463176"
 ---
 # <a name="copytofolder"></a>CopyToFolder
 
@@ -37,7 +37,7 @@ ms.locfileid: "19761844"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19761844"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

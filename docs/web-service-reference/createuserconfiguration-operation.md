@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: eb5b8ab6-9743-481c-aac9-f9aa889bd353
 description: Операция CreateUserConfiguration создает объект конфигурации пользователя для папки.
-ms.openlocfilehash: 5f0eb7d18736008af39199cbc52cc3a6e6abda09
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0c9233146d21c7014be15896426b968106485200
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761913"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463785"
 ---
 # <a name="createuserconfiguration-operation"></a>Операция CreateUserConfiguration
 
@@ -34,8 +34,8 @@ ms.locfileid: "19761913"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   
@@ -84,15 +84,15 @@ ms.locfileid: "19761913"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

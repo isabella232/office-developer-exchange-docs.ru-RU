@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 911fec52-bde7-44a3-9231-04f327a42107
 description: Элемент Стрингаттрибутедвалуе указывает экземпляр в массиве атрибутов, связанных с элементом персоны.
-ms.openlocfilehash: 54d4dbcec49ca80b4f4d79fb450773c19aef05d4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf4f5cd67bb254bd61f293cbef3699e588c6075b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840104"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463085"
 ---
 # <a name="stringattributedvalue"></a>стрингаттрибутедвалуе
 
@@ -33,15 +33,15 @@ ms.locfileid: "19840104"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Value](value.md) | [Атрибуты соотнесения значений (аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
+[Value (значение](value.md)  |  ) [Атрибуты (аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[DisplayName филеасес](displaynames.md)[PersonalHomePages](personalhomepages.md)[AssistantNames](assistantnames.md)[FileAses](fileases.md)[Nicknames](nicknames.md) | [ImAddresses](imaddresses.md) | [Birthdays](birthdays.md)[ImAddresses3](imaddresses3.md) | [Locations](locations.md) [SpouseNames](spousenames.md)[Departments](departments.md)[FileAsIds](fileasids.md) | [YomiLastNames](yomilastnames.md) | [Schools](schools.md)[DisplayNamePrefixes](displaynameprefixes.md) | [ImAddresses2](imaddresses2.md)[BusinessHomePages](businesshomepages.md) | [Hobbies](hobbies.md)[MiddleNames](middlenames.md) | [CompanyNames](companynames.md)[GivenNames](givennames.md) | [Managers](managers.md)[YomiCompanyNames](yomicompanynames.md) | [OfficeLocations](officelocations.md) | [YomiFirstNames](yomifirstnames.md) | [Generations](generations.md) | [Initials](initials.md) | [Professions](professions.md)[Surnames](surnames.md) | [Titles](titles.md)[WeddingAnniversaries](weddinganniversaries.md)филеасидс дисплайнамепрефиксес гивеннамес миддленамес фамилии | поколения | инициалы | йомикомпанинамес | йомифирстнамес | YomiLastNames BusinessHomePages PersonalHomePages OfficeLocations ImAddresses2 адреса ImAddresses3 CompanyNames titles AssistantNames руководители SpouseNames профессииs WeddingAnniversaries школы о хобби, ах и местах рождения |  |  |  |  |  |  |  |  |  | 
+[DisplayName](displaynames.md)  |  [Филеасес](fileases.md)  |  [Филеасидс](fileasids.md)  |  [Дисплайнамепрефиксес](displaynameprefixes.md)  |  [Гивеннамес](givennames.md)  |  [Миддленамес](middlenames.md)  |  [Фамилии](surnames.md)  |  [Поколения](generations.md)  |  [Псевдонимы](nicknames.md)  |  [Инициалы](initials.md)  |  [Йомикомпанинамес](yomicompanynames.md)  |  [Йомифирстнамес](yomifirstnames.md)  |  [Йомиластнамес](yomilastnames.md)  |  [Бусинесшомепажес](businesshomepages.md)  |  [Персоналхомепажес](personalhomepages.md)  |  [Оффицелокатионс](officelocations.md)  |  [Адреса](imaddresses.md)  |  [ImAddresses2](imaddresses2.md)  |  [ImAddresses3](imaddresses3.md)  |  [Названия](titles.md)  |  [Отделы](departments.md)  |  [Компанинамес](companynames.md)  |  [Руководители](managers.md)  |  [Ассистантнамес](assistantnames.md)  |  [Профессии](professions.md)  |  [Спаусенамес](spousenames.md)  |  [Школы](schools.md)  |  [Увлечения](hobbies.md)  |  [Веддинганниверсариес](weddinganniversaries.md)  |  [Дни рождения](birthdays.md)  |  [Расположения](locations.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -53,7 +53,7 @@ ms.locfileid: "19840104"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

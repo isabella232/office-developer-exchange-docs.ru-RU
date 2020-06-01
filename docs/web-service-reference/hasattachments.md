@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 538b7a85-11d7-4daa-8458-09b540760e8b
 description: Элемент HasAttachments представляет свойство, которое задано значение true , если у элемента есть по крайней мере один видимым вложения или, если обсуждение содержит по крайней мере один элемент, который имеет вложение. Это свойство доступно только для чтения.
-ms.openlocfilehash: e76e0ecbb357396540f0d1649cf5062edfb18660
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cc4e4ec0eac1c749723facc8cd780da41b0d8150
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833801"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462924"
 ---
 # <a name="hasattachments"></a>HasAttachments
 
@@ -34,11 +34,11 @@ ms.locfileid: "19833801"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19833801"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

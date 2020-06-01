@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6df6e504-b7c8-4773-b10f-ffa5defac229
 description: Поиск сведений о AddImGroupной операции EWS.
-ms.openlocfilehash: 91236f9ad2236b3f6bee600b9d57bcf736090ed7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 38ed12a741d46fe998dc0079ed13973ce9edf5ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761341"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462817"
 ---
 # <a name="addimgroup-operation"></a>Операция AddImGroup
 
@@ -47,8 +47,8 @@ ms.locfileid: "19761341"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -80,22 +80,22 @@ ms.locfileid: "19761341"
                            MajorBuildNumber="349"
                            MinorBuildNumber="0"
                            Version="Exchange2013"
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <AddImGroupResponse ResponseClass="Success"
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <ImGroup>
-            <DisplayName xmlns="http://schemas.microsoft.com/exchange/services/2006/types">MyCustomGroup</DisplayName>
-            <GroupType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">IPM.DistList.MOC.UserGroup</GroupType>
+            <DisplayName xmlns="https://schemas.microsoft.com/exchange/services/2006/types">MyCustomGroup</DisplayName>
+            <GroupType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">IPM.DistList.MOC.UserGroup</GroupType>
             <ExchangeStoreId Id="AAMkAGQ1MjJjMTBkLTc4Y2UtNDA5Ny04ZjU5LWI3MAAA="
                              ChangeKey="EgAAAA=="
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/types"/>
          </ImGroup>
       </AddImGroupResponse>
    </s:Body>
@@ -118,19 +118,19 @@ ms.locfileid: "19761341"
     
 ## <a name="addimgroup-operation-error-response"></a>Ответ об ошибке операции AddImGroup
 
-В следующем примере показан ответ об ошибке для запроса операции **AddImGroup** . Это ответ на запрос, который содержит символ, который не может использоваться в отображаемом имени. Обратите внимание, что это неисправность SOAP, а не сообщение об ошибке на основе схемы. Отображаемое имя, отправленное в запросе, — ~! @ # $&amp;% ^, и в &amp; символе возникает ошибка. &amp; На одиннадцатую строку и символ 33rd в полезных данных запроса. Получен ответ с кодом HTTP 500. 
+В следующем примере показан ответ об ошибке для запроса операции **AddImGroup** . Это ответ на запрос, который содержит символ, который не может использоваться в отображаемом имени. Обратите внимание, что это неисправность SOAP, а не сообщение об ошибке на основе схемы. Отображаемое имя, отправленное в запросе, — ~! @ # $% ^ &amp; , и в &amp; символе возникает ошибка. &amp;На одиннадцатую строку и символ 33rd в полезных данных запроса. Получен ответ с кодом HTTP 500. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
    <s:Body>
       <s:Fault>
-         <faultcode xmlns:a="http://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
+         <faultcode xmlns:a="https://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
          <faultstring xml:lang="en-US">The request failed schema validation: An error occurred while parsing EntityName. Line 11, position 33.</faultstring>
          <detail>
-            <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-            <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
-            <t:MessageXml xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+            <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+            <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
+            <t:MessageXml xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
                <t:LineNumber>11</t:LineNumber>
                <t:LinePosition>33</t:LinePosition>
                <t:Violation>An error occurred while parsing EntityName. Line 11, position 33.</t:Violation>
@@ -143,7 +143,7 @@ ms.locfileid: "19761341"
 
 ## <a name="see-also"></a>См. также
 
-- [Пользователи и контакты в EWS для Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [Пользователи и контакты в EWS для Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
 - [Операция RemoveImGroup](removeimgroup-operation.md)
     

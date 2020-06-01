@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8265dd06-1752-4470-8074-5f0e3e970f52
 description: Операция GetItem используется для получения задач из хранилища Exchange.
-ms.openlocfilehash: 412710f32ed8702e1a28a596833c3a7e47e3ed76
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 17a23d4c2a35761e831610f3514c980a5a67e12b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762840"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463337"
 ---
 # <a name="getitem-operation-task"></a>Операция GetItem (задача)
 
@@ -40,10 +40,10 @@ ms.locfileid: "19762840"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
       </ItemShape>
@@ -55,7 +55,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 > [!NOTE]
 > Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
@@ -89,12 +89,12 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -133,7 +133,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 > [!NOTE]
 > Идентификаторы элементов и папок, а также ключи изменения были сокращены, чтобы сохранить удобочитаемость. 
@@ -166,7 +166,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
     
 - [Sensitivity](sensitivity.md)
     
-- [Основной текст](body.md)
+- [Body](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
@@ -200,7 +200,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
     
 - [PercentComplete](percentcomplete.md)
     
-- [Состояние](status.md)
+- [Status](status.md)
     
 - [статусдескриптион](statusdescription.md)
     
@@ -211,9 +211,9 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 [Операция GetItem](getitem-operation.md)
 
 
-[Создание задач](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[Создание задач](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[Обновление задач](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
+[Обновление задач](https://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
   
-[Удаление задач](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Удаление задач](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

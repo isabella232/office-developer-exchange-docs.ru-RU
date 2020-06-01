@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 153cc420-d2fe-42f1-afb2-9a31ee09a750
 description: Элемент Notifications содержит массив сведений о подписке и событиях, произошедших с момента последнего уведомления.
-ms.openlocfilehash: f576bf579c91b77dcde8646a6af7fdc47145aef7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 88fc56ba6e672e3dea7a1d31f7cc1fda018b9a15
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834550"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462621"
 ---
 # <a name="notifications"></a>Уведомления
 
@@ -36,7 +36,7 @@ ms.locfileid: "19834550"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834550"
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages и http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages и https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема сообщений; Схема Types  <br/> |
 |Файл проверки  <br/> |Messages. xsd; Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

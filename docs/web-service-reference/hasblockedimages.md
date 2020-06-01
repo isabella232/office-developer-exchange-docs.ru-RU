@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ddeb11db-797d-4939-91d5-3e44be5f0778
 description: Элемент Хасблоккедимажес указывает логическое значение, которое указывает, заблокирован ли рисунок для элемента.
-ms.openlocfilehash: fbe9967c898016aeef27e3c86e8a1cf603bd87fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 370ab4b12ae841815faa344b2fd3a6d3ddc16bcb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833795"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462796"
 ---
 # <a name="hasblockedimages"></a>хасблоккедимажес
 
@@ -30,17 +30,17 @@ ms.locfileid: "19833795"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемент](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -56,7 +56,7 @@ ms.locfileid: "19833795"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

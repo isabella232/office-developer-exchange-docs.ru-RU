@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e60e525f-c136-469a-b68b-b3dc01f400a6
 description: Элемент Исреадрецеипт указывает, должны ли входящие сообщения принимать уведомления о прочтении для того, чтобы условие или исключение применялось.
-ms.openlocfilehash: 78714aafb116a609a69d77b3b4f0fd15695bda34
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e86a7776bc43204dae9fc92f21d4304255ddb888
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834094"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463904"
 ---
 # <a name="isreadreceipt"></a>исреадрецеипт
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834094"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834094"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

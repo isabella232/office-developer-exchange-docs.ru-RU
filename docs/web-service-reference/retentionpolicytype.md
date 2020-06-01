@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: abce5b3e-971d-42fc-aeea-caa7202214de
 description: Элемент Ретентионполицитипе указывает тип политики хранения, применяемый к элементам в беседе.
-ms.openlocfilehash: dacb3fa75611cbd6e6e29eab7c791dfd8964c9ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3900718f10e1e11d5864ebf7e64a3e1e22aa45c7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835229"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462873"
 ---
 # <a name="retentionpolicytype"></a>ретентионполицитипе
 
@@ -30,11 +30,11 @@ ms.locfileid: "19835229"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835229"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

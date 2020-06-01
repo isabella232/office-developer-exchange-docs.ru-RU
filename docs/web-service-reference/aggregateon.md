@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb
 description: Элемент Аггрегатеон представляет свойство, используемое для определения порядка сгруппированных элементов для группового результирующего набора FindItem.
-ms.openlocfilehash: fe14de23e6a4c90d826200cae927427acfccc3c8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 04359c187ef11538d64f8f0d3ea2fe84bc3d048b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761363"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463568"
 ---
 # <a name="aggregateon"></a>аггрегатеон
 
@@ -95,10 +95,10 @@ ms.locfileid: "19761363"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <FindItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                 Traversal="Shallow">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
@@ -127,12 +127,12 @@ ms.locfileid: "19761363"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="652" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -196,7 +196,7 @@ ms.locfileid: "19761363"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -205,5 +205,5 @@ ms.locfileid: "19761363"
 
 - [Операция FindItem](finditem-operation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Поиск элементов](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

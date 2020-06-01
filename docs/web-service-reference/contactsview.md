@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8534f44b-a5af-4a9f-9621-23a3eff5f9d8
 description: Элемент Контактсвиев определяет Поиск элементов контакта в соответствии с отображаемыми именами в алфавитном порядке.
-ms.openlocfilehash: e578eb4dd0042b8c478e883c7fa54d7f2e984229
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 23c3fe13c44cdd0e5a054ecb3378bc3d633e55aa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761752"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463820"
 ---
 # <a name="contactsview"></a>контактсвиев
 
@@ -47,7 +47,7 @@ ms.locfileid: "19761752"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -68,9 +68,9 @@ ms.locfileid: "19761752"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindItem Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItem Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
         <t:AdditionalProperties>
@@ -95,7 +95,7 @@ ms.locfileid: "19761752"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -103,5 +103,5 @@ ms.locfileid: "19761752"
 ## <a name="see-also"></a>См. также
 
 - [Операция FindItem](finditem-operation.md)
-- [Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Поиск элементов](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

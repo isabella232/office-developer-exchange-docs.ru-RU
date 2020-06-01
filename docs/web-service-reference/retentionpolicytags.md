@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8ed4a48a-d510-4cbe-a172-145c33ffb297
 description: Элемент Ретентионполицитагс содержит список тегов хранения, возвращаемых в ответ на операцию WSDL GetUserRetentionPolicyTags.
-ms.openlocfilehash: 60fbb3ad34c9ba34e96c91da99d44a17843c0138
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c3a5a165db242092132b4ff0b322dbad2029da36
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835230"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462880"
 ---
 # <a name="retentionpolicytags"></a>ретентионполицитагс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19835230"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835230"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

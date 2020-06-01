@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8b66de1b-26a6-476c-9585-a96059125716
 description: Элемент Жетитемреспонсе определяет ответ на запрос GetItem.
-ms.openlocfilehash: 73805cf007a8d9d00d47b2b819935b5229c6e14d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9b6ebb96406a59fae95e6e243c81494020a50758
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762837"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463316"
 ---
 # <a name="getitemresponse"></a>жетитемреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762837"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762837"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

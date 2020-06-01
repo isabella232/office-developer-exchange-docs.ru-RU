@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4fdb373e-bf1b-4cb0-bbfb-444c6c6cec50
 description: Элемент Condition указывает условие, которое используется для определения конца поиска для операции FindItem или FindConversation.
-ms.openlocfilehash: 513fc21be52a90698f1c292d6d20d7cdaab07371
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 00c5b5e615ed9b253c79dae9dc2b89c797853089
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761704"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463939"
 ---
 # <a name="condition-restrictiontype"></a>Condition (Рестриктионтипе)
 
@@ -32,7 +32,7 @@ ms.locfileid: "19761704"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761704"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

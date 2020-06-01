@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9bd7323-44db-4d2f-aaaa-94c2dfdeead6
 description: Элемент Чанжехигхлигхтс указывает, что изменилось между двумя версиями сообщения с приглашением на собрание.
-ms.openlocfilehash: 5fe7aa95f60ae95f1af24e8f7a0463ad49716f65
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6c78d2c96449ee41032859f90bf51d6e0faa92ae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761675"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463281"
 ---
 # <a name="changehighlights"></a>чанжехигхлигхтс
 
@@ -37,7 +37,7 @@ ms.locfileid: "19761675"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19761675"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

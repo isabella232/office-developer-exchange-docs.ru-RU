@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 21a4987c-c24d-4a6e-ace4-e81edcda6303
 description: Поиск сведений о GetAppManifestsной операции EWS.
-ms.openlocfilehash: 9c919bac9ac0042890d1c439454b37e6b7c60876
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4d4c1d32f14cf144335ddfdf8c9cd4c88a4421d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762683"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463008"
 ---
 # <a name="getappmanifests-operation"></a>Операция GetAppManifests
 
@@ -43,8 +43,8 @@ ms.locfileid: "19762683"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013_SP1" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -86,18 +86,18 @@ ms.locfileid: "19762683"
                            MajorBuildNumber="918" 
                            MinorBuildNumber="07" 
                            Version="V2_10" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetAppManifestsResponse ResponseClass="Success" 
-                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
-         <m:Apps xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
-          <t:App xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+         <m:Apps xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+          <t:App xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
             <t:Manifest>WNlQXBwPg==</t:Manifest>
           </t:App>
          </m:Apps>
@@ -135,15 +135,15 @@ ms.locfileid: "19762683"
                        MajorBuildNumber="918"
                        MinorBuildNumber="07"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetAppManifestsResponse ResponseClass="Error"
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <MessageText>The apiVersionSupported parameter is invalid. 
                    It should be in the form of major version, minor 
                    version, separated by '.', for example '2.34'.</MessageText>

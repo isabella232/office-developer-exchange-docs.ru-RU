@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a84c19e-57cd-448e-af4f-c8005fd5f2a2
 description: Элемент дней рождения указывает массив дней рождения, хранящихся в виде строк, и идентификаторы их исходных атрибутов для соответствующего пользователя.
-ms.openlocfilehash: 2511a2acf0eb2eb24f06e98a1c660d289687bd02
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: aa85febd84c32ae87e0822ce47fd99f445b6fe9e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761564"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462761"
 ---
 # <a name="birthdays"></a>Дни рождения
 
@@ -32,7 +32,7 @@ ms.locfileid: "19761564"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761564"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

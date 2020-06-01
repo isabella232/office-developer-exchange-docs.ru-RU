@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1a7d408b-2e98-4391-8834-085ed6d5757c
 description: Элемент SearchFolder представляет папку поиска, содержащуюся в почтовом ящике.
-ms.openlocfilehash: d842c54dab7950c68e26804b676834c2d95debad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e1d5893e00f3b199451622061785e2566c6f32e5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835302"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464009"
 ---
 # <a name="searchfolder"></a>SearchFolder
 
@@ -47,7 +47,7 @@ ms.locfileid: "19835302"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -86,7 +86,7 @@ ms.locfileid: "19835302"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2ac58d6f-e019-4352-b82f-8ac67a171e63
 description: Элемент Арчивеитемреспонсемессаже указывает ответное сообщение на запрос ArchiveItem.
-ms.openlocfilehash: a7832e2cb4ec91a0871de5979fd1b418c0626aa6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 24d09d63cab6805194e35031d8590290573de0a9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761492"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463393"
 ---
 # <a name="archiveitemresponsemessage"></a>арчивеитемреспонсемессаже
 
@@ -74,7 +74,7 @@ ms.locfileid: "19761492"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

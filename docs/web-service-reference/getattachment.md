@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9443cf96-b451-4530-b868-490dff798673
 description: Элемент GetAttachment является корневым элементом запроса для получения вложения из хранилища Exchange.
-ms.openlocfilehash: fb639c86a0654e8f9e9601310f7c2f5b0fc7d729
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d03d086ff443db87b0104a2ec83599eb9eaea6b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762698"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463981"
 ---
 # <a name="getattachment"></a>GetAttachment
 
@@ -37,7 +37,7 @@ ms.locfileid: "19762698"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19762698"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

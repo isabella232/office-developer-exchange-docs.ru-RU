@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4300f9d6-8bf9-48c2-9f07-d80197864e17
 description: Элемент ConnectionStatus предоставляет текстовое описание состояния попотоковой подписки.
-ms.openlocfilehash: 567308d79eaccba24230deddf5d78a724b8746af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 928537201041950011ae06444e3c412228d252ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761718"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462719"
 ---
 # <a name="connectionstatus"></a>ConnectionStatus
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761718"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19761718"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

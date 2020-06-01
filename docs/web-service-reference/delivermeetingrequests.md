@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 04b999af-0b27-4e6d-a8b1-400955a1afaa
 description: Элемент Деливермитингрекуестс определяет способ обработки приглашений на собрание между представителем и участником. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 803bd2da72bdb21b507a59cc11635a40d4431acf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3998443613437bca2267678f7bc2c5584b779135
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762063"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463680"
 ---
 # <a name="delivermeetingrequests"></a>деливермитингрекуестс
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762063"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19762063"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -82,5 +82,5 @@ ms.locfileid: "19762063"
 - [Операция UpdateDelegate](updatedelegate-operation.md)  
 - [Операция GetDelegate](getdelegate-operation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Добавление делегатов](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Добавление делегатов](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 841d229c-140c-48bd-b3a7-21478fcea2fb
 description: Элемент Минимумсизе представляет минимальный размер сообщения, которое должно быть применено к определенному условию или исключению.
-ms.openlocfilehash: 4f80bac3b9226019ec3d726cd2d6430e02cac423
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b43a8b5916747c4e3e4ca9b66cf8b9d73f5f8942
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834480"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44464205"
 ---
 # <a name="minimumsize"></a>минимумсизе
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834480"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834480"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

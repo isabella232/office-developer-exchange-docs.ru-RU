@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1af216b3-13ea-498e-b4fc-23513755d731
 description: Поиск сведений о ArchiveItemной операции EWS.
-ms.openlocfilehash: 954943acefef8da61e92de5f8857ca023ca4fc9f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d1e18122e67c36babbc8bf01d305309e2b17b568
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761491"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463435"
 ---
 # <a name="archiveitem-operation"></a>Операция ArchiveItem
 
@@ -25,7 +25,7 @@ ms.locfileid: "19761491"
   
 ## <a name="using-the-archiveitem-operation"></a>Использование операции ArchiveItem
 
-Операция **ArchiveItem** использует в запросе два аргумента, которые определяют элементы для перемещения в архивный почтовый ящик и конечную папку для этих элементов. Чтобы эта операция работала, необходимо включить архивный почтовый ящик. Сведения о том, как включить архивный почтовый ящик, можно найти [в разделе Управление архивами на месте](http://technet.microsoft.com/en-us/library/jj651146.aspx).
+Операция **ArchiveItem** использует в запросе два аргумента, которые определяют элементы для перемещения в архивный почтовый ящик и конечную папку для этих элементов. Чтобы эта операция работала, необходимо включить архивный почтовый ящик. Сведения о том, как включить архивный почтовый ящик, можно найти [в разделе Управление архивами на месте](https://technet.microsoft.com/library/jj651146.aspx).
   
 ### <a name="archiveitem-operation-soap-headers"></a>Заголовки SOAP операции ArchiveItem
 
@@ -50,8 +50,8 @@ ms.locfileid: "19761491"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013"/>
    </soap:Header>
@@ -89,15 +89,15 @@ ms.locfileid: "19761491"
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:ArchiveItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:ArchiveItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:ArchiveItemResponseMessage ResponseClass="Success">
                <m:ResponseCode>NoError</m:ResponseCode>
@@ -130,15 +130,15 @@ ms.locfileid: "19761491"
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:ArchiveItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:ArchiveItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:ArchiveItemResponseMessage ResponseClass="Error">
                <m:MessageText>Archive mailbox is not enabled for this user.</m:MessageText>
@@ -167,6 +167,6 @@ ms.locfileid: "19761491"
 ## <a name="see-also"></a>См. также
 
 - [Операции EWS в Exchange](ews-operations-in-exchange.md) 
-- [Архивация в веб-служб Exchange в Exchange](http://msdn.microsoft.com/library/78ae179b-ae4f-4f64-911a-e0c70e0fa314%28Office.15%29.aspx)
+- [Архивация в веб-служб Exchange в Exchange](https://msdn.microsoft.com/library/78ae179b-ae4f-4f64-911a-e0c70e0fa314%28Office.15%29.aspx)
     
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 446106b7-ff2d-4107-90c1-29f4d38ba128
 description: Поиск сведений о FindPeopleной операции EWS.
-ms.openlocfilehash: 97c34d7df590d20513e8f1ad476d62f16815a42b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ab5edc3f140e34123ce1f009c401ddd61a0e2598
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762590"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462910"
 ---
 # <a name="findpeople-operation"></a>Операция FindPeople
 
@@ -46,8 +46,8 @@ ms.locfileid: "19762590"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -77,8 +77,8 @@ ms.locfileid: "19762590"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -114,18 +114,18 @@ ms.locfileid: "19762590"
                          MajorBuildNumber="349" 
                          MinorBuildNumber="0" 
                          Version="Exchange2013" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FindPeopleResponse ResponseClass="Success" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <People>
-        <Persona xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Persona xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <PersonaId Id="AAQkAGQ1MjJjMTBkLTc4Y2UtNDA5Ny04ZjU5LWI3MTYzNGNkZmRkYQAQAOjFqObcLmtOlzlRnHdXQjo=" />
           <CreationTime>2012-01-11T22:25:37Z</CreationTime>
           <DisplayName>Terry Adams</DisplayName>
@@ -206,7 +206,7 @@ ms.locfileid: "19762590"
   
 ## <a name="see-also"></a>См. также
 
-- [Пользователи и контакты в EWS для Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [Пользователи и контакты в EWS для Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
 - [Операция GetPersona](getpersona-operation.md)
     

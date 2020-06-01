@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4fdfb74f-f33c-46ae-a7c7-451a5b0c6a59
 description: Элемент Енханцедлокатион указывает сведения о расположении, такие как имя, адрес и дополнительные примечания о расположении.
-ms.openlocfilehash: 90397cfc622fed40c561d30c13d6617eb979a68a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 06ec800b763ef61af51da03ca8a340f6ac4d2a8e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762361"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462959"
 ---
 # <a name="enhancedlocation"></a>EnhancedLocation
 
@@ -34,7 +34,7 @@ ms.locfileid: "19762361"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19762361"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

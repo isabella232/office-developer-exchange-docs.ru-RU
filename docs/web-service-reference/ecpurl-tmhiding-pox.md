@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b9ae15b-3ac1-45ac-85ba-38c7231fe508
 description: Элемент Екпурл-Тмхидинг указывает на частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для отмены подписки пользователя из почтового ящика сайта.
-ms.openlocfilehash: 461e9780dbd657ba0ba8b9ce9ea4fe902cba9698
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 68b949db8b8d98caddbac3b9f96c5d5e55b104b7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762248"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463533"
 ---
 # <a name="ecpurl-tmhiding-pox"></a>Екпурл-Тмхидинг (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762248"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,8 +56,7 @@ ms.locfileid: "19762248"
   
 |**Параметр**|**Замена**|
 |:-----|:-----|
-| 
-  _Id_ <br/> |SMTP-адрес электронной почты или различающееся имя для почтового ящика сайта.  <br/> |
+| _Id_ <br/> |SMTP-адрес электронной почты или различающееся имя для почтового ящика сайта.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

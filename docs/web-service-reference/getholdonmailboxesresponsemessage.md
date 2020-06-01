@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f7d0d90-d418-4ce9-8cea-afe8f14728c3
 description: Элемент Жесолдонмаилбоксесреспонсемессаже указывает ответное сообщение для запроса GetHoldOnMailboxes.
-ms.openlocfilehash: e1c43f75bfa62b20de9248546e71c92ae5998ed9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 31832c11181bdca482e88419dd46ff1eacf77ea6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762808"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462952"
 ---
 # <a name="getholdonmailboxesresponsemessage"></a>жесолдонмаилбоксесреспонсемессаже
 
@@ -74,7 +74,7 @@ ms.locfileid: "19762808"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

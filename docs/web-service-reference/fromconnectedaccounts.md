@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d4d7ddd7-078d-4f1a-a26b-22dce0c49f3a
 description: Элемент FromConnectedAccounts представляет имена учетных записей электронной почты, из которых нужно были сводный в порядке для условие или исключение для применения входящих сообщений.
-ms.openlocfilehash: 426e81bbbe96fb5fb4b36506438dc4af4f560eef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 159ae064827c2f9c2b470580ad5457264e8dae93
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762662"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464051"
 ---
 # <a name="fromconnectedaccounts"></a>фромконнектедаккаунтс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762662"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19762662"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

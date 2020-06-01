@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 46e4812f-37a8-449f-bd37-bc4a94605db9
 description: Найдите сведения, чтобы приступить к созданию средств командной консоли Exchange для Exchange.
-ms.openlocfilehash: e8414460007f333e50c9d596bf977792977b1e4e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c6e11fa5b55aa514b12f4f52bc9346ac213d3781
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761248"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463729"
 ---
 # <a name="create-exchange-management-shell-tools"></a>Создание средств командной консоли Exchange
 
@@ -30,11 +30,11 @@ ms.locfileid: "19761248"
 
 Если вы знакомы с созданием ведущих приложений Windows PowerShell и хотите увидеть пример, в котором показано, как вызвать командлеты командной консоли Exchange из приложения или просмотреть пример типов приложений, которые можно создать с помощью командлетов командной консоли Exchange, ознакомьтесь со [статьей получение списка почтовых пользователей с помощью командной консоли Exchange](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md).
   
-Командлеты командной консоли Exchange — это расширения для Windows PowerShell, Командная консоль командной строки на основе задач и язык сценариев, предназначенный специально для администрирования системы. Windows PowerShell построен на платформе .NET Framework и предоставляет объектно-ориентированный API для разработчиков командлетов, поставщиков и ведущих приложений. Чтобы узнать о программировании Windows PowerShell, обратитесь к [пакету SDK для Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28VS.85%29.aspx).
+Командлеты командной консоли Exchange — это расширения для Windows PowerShell, Командная консоль командной строки на основе задач и язык сценариев, предназначенный специально для администрирования системы. Windows PowerShell построен на платформе .NET Framework и предоставляет объектно-ориентированный API для разработчиков командлетов, поставщиков и ведущих приложений. Чтобы узнать о программировании Windows PowerShell, обратитесь к [пакету SDK для Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28VS.85%29.aspx).
   
 Командлеты командной консоли Exchange принимают и возвращают объекты. Список командлетов командной консоли Exchange и их входных и выходных данных можно найти в разделе [input and Output Type командлета командной консоли Exchange](exchange-management-shell-cmdlet-input-and-output-types.md).
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
 - [Новые и обновленные командлеты командной консоли Exchange](new-and-updated-exchange-management-shell-cmdlets.md)  
 - [Типы входных и выходных данных командлетов командной консоли Exchange](exchange-management-shell-cmdlet-input-and-output-types.md)
@@ -45,7 +45,7 @@ ms.locfileid: "19761248"
 ## <a name="see-also"></a>См. также
 
 - [Пространства имен командной консоли Exchange](exchange-management-shell-namespaces.md)  
-- [PowerShell в Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
-- [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [PowerShell в Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
+- [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
     
 

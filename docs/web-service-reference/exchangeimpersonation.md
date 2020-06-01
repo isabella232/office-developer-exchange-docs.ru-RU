@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d8cbac49-47d0-4745-a2a7-545d33f8da93
 description: Элемент Ексчанжеимперсонатион используется в заголовке SOAP запроса. Когда этот элемент присутствует, вызывающий абонент пытается олицетворить учетную запись, содержащуюся в элементе Ексчанжеимперсонатион.
-ms.openlocfilehash: aedeff22cda865ce1eec80dab9760d49fdc178f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 188219d95453dc45378c6ca65ab93c2de7db4eac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762415"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463351"
 ---
 # <a name="exchangeimpersonation"></a>ексчанжеимперсонатион
 
@@ -38,7 +38,7 @@ ms.locfileid: "19762415"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19762415"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -69,5 +69,5 @@ ms.locfileid: "19762415"
 
 
 
-[Авторизация между серверами в EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+[Авторизация между серверами в EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

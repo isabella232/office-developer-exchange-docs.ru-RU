@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2384908a-c203-45b6-98aa-efd6a4c23aac
 description: Операция FindConversation перечисляет список бесед в папке.
-ms.openlocfilehash: 7ef2167fef96a5e8441c543cac5b6800534c2eab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ef768807431ff3e02c6af7277c1c2a750607ed92
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762564"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462656"
 ---
 # <a name="findconversation-operation"></a>Операция FindConversation
 
@@ -36,8 +36,8 @@ ms.locfileid: "19762564"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -83,18 +83,18 @@ ms.locfileid: "19762564"
                          MajorBuildNumber="91" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FindConversationResponse ResponseClass="Success" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Conversations>
-        <t:Conversation xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <t:Conversation xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:ConversationId Id="AAQkADRlZDhjZDVlLzYtNDcyZi1i32hHpdc="/>
           <t:ConversationTopic>Have you heard about EWS?</t:ConversationTopic>
           <t:UniqueRecipients>
@@ -223,15 +223,15 @@ ms.locfileid: "19762564"
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Body>
     <s:Fault>
-      <faultcode xmlns:a="http://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
-      <faultstring xml:lang="en-US">The request failed schema validation: The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'http://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</faultstring>
+      <faultcode xmlns:a="https://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
+      <faultstring xml:lang="en-US">The request failed schema validation: The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'https://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</faultstring>
       <detail>
-        <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-        <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
-        <t:MessageXml xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+        <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
+        <t:MessageXml xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:LineNumber>14</t:LineNumber>
           <t:LinePosition>34</t:LinePosition>
-          <t:Violation>The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'http://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</t:Violation>
+          <t:Violation>The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'https://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</t:Violation>
         </t:MessageXml>
       </detail>
     </s:Fault>
@@ -273,5 +273,5 @@ ms.locfileid: "19762564"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

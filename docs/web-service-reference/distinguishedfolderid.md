@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 50018162-2941-4227-8a5b-d6b4686bb32f
 description: Элемент Дистингуишедфолдерид определяет папки, на которые можно ссылаться по имени. Если этот элемент не используется, необходимо использовать элемент FolderId для определения папки.
-ms.openlocfilehash: 834166be3d882fa8c0533cfcc2999600430b82ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: be883cbca00910b24e4c45ba047803e5a5024566
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762192"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462698"
 ---
 # <a name="distinguishedfolderid"></a>дистингуишедфолдерид
 
@@ -125,7 +125,7 @@ ms.locfileid: "19762192"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -133,5 +133,5 @@ ms.locfileid: "19762192"
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание папок (веб-службы Exchange)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+- [Создание папок (веб-службы Exchange)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

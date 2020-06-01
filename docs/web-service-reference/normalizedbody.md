@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bfb813e4-642d-4f1b-9e91-1fee89dbd083
 description: Элемент Нормализедбоди указывает HTML-представление свойства Body элемента в виде фрагмента, который можно вставить в другой HTML-текст.
-ms.openlocfilehash: 07c2176d2c8a7473c06b7e42f8bcbbe6670581ef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fb249794bccfeed198e7a3230ab53c66893dcf96
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834548"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462670"
 ---
 # <a name="normalizedbody"></a>нормализедбоди
 
@@ -37,11 +37,11 @@ ms.locfileid: "19834548"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Item](item.md) | [Сообщение](message-ex15websvcsotherref.md) | [MeetingResponse](meetingresponse.md) | [Contact](contact.md)[MeetingMessage](meetingmessage.md) | [MeetingCancellation](meetingcancellation.md)[MeetingRequest](meetingrequest.md) | [DistributionList](distributionlist.md) [Task](task.md)[PostItem](postitem.md)[CalendarItem](calendaritem.md)элемента митингмессаже | свойство meetingrequest митингреспонсе митингканцеллатион | Task | Item | календаритем Contact дистрибутионлист | 
+[Элемент](item.md)  |  [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [Митингмессаже](meetingmessage.md)  |  [Свойство meetingrequest](meetingrequest.md)  |  [Митингреспонсе](meetingresponse.md)  |  [Митингканцеллатион](meetingcancellation.md)  |  [Task (задача](task.md)  |  ) [Элемент](postitem.md)  |  i [Календаритем](calendaritem.md)  |  [Contact (контакт](contact.md)  |  ) [Дистрибутионлист](distributionlist.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -57,7 +57,7 @@ ms.locfileid: "19834548"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

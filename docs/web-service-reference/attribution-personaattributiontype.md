@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dc59e17e-baea-4617-8ca1-4382a89de0d7
 description: Элемент Attribute указывает экземпляр в массиве атрибутов для элемента Персонатипе.
-ms.openlocfilehash: 0e800c92c75bf0c475d4bffd33d6ab49f9ad9a9a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 05b0d41c116f2ed7b8dbb3ac44108bb879256b5c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761523"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464177"
 ---
 # <a name="attribution-personaattributiontype"></a>Атрибуты (Персонааттрибутионтипе)
 
@@ -38,7 +38,7 @@ ms.locfileid: "19761523"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19761523"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

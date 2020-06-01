@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 16d63d10-3566-4eda-802a-fcef5458d2e7
 description: Элемент AddImGroup определяет запрос на добавление новой группы мгновенных сообщений.
-ms.openlocfilehash: 0a7f949b4965b7da631904576ed664dbbd31967b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dc9ae442cf546df872fc0fe4300071d3c0ec73da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761339"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462810"
 ---
 # <a name="addimgroup"></a>AddImGroup
 
@@ -32,7 +32,7 @@ ms.locfileid: "19761339"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ DisplayName
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

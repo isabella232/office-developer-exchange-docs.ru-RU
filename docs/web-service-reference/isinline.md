@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5e7712c8-372a-4a16-be64-360c5ff3961a
 description: Элемент IsInline указывает, отображается ли вложение встроенным в элементе.
-ms.openlocfilehash: f2f9093777a3914de067ef63827de6cf354fc12d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2b3b6392fe8867ae9782dcb7211c17f4f4d9becd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834042"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464212"
 ---
 # <a name="isinline"></a>IsInline
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834042"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834042"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

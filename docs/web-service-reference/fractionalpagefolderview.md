@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ef681f8a-136a-4c0e-ade6-ddcdbf2d85ad
 description: Элемент Фрактионалпажефолдервиев описывает, где начинается страничное представление, и максимальное число папок, возвращаемых в запросе FindFolder.
-ms.openlocfilehash: 3cb5f8333634a0c484ae3ce6a6256631cff57cc5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a8627c6277b49655d3933679128b844118633cda
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762647"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463071"
 ---
 # <a name="fractionalpagefolderview"></a>фрактионалпажефолдервиев
 
@@ -46,7 +46,7 @@ ms.locfileid: "19762647"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -69,7 +69,7 @@ ms.locfileid: "19762647"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -81,5 +81,5 @@ ms.locfileid: "19762647"
 [Операция FindFolder](findfolder-operation.md)
 
 
-[Поиск папок](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Поиск папок](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 34eab81c-d832-4925-9f76-d69f24b36931
 description: Элемент Language (Дисковерисеарчконфигуратионтипе) определяет язык и региональные параметры, используемые для форматирования диапазонов дат для определенного языка и региональных параметров. Он также определяет язык, используемый в поисковом запросе.
-ms.openlocfilehash: 1e904ac4d7f525b2d12cfe83f0da33b9ed474066
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3cf85525147bec5d6dfc6fe2b2af5916d42c44be
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834197"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463288"
 ---
 # <a name="language-discoverysearchconfigurationtype"></a>Language (Дисковерисеарчконфигуратионтипе)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834197"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19834197"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

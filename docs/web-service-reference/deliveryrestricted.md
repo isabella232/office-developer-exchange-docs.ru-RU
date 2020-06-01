@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 05989915-121c-4f26-93cc-af8d454ab442
 description: Элемент Деливерирестриктед указывает, будут ли ограничения доставки допустить достижение получателем сообщения отправителя.
-ms.openlocfilehash: ba1c6e00b93c9e442a427fe98a5e15bf5fe1effd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 58fc85873326179d7745db4ba7d4854a76ced6a7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762066"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462691"
 ---
 # <a name="deliveryrestricted"></a>деливерирестриктед
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762066"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19762066"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

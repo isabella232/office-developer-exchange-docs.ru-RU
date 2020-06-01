@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5d2fd7ce-6137-4b3c-a716-c0218dcc8a09
 description: Элемент Recipient указывает на то, что любой получатель сообщения электронной почты соответствует любому из указанных получателей в дочерних элементах value (Протектионрулевалуетипе).
-ms.openlocfilehash: b6d5c150cd874d1aced7f2d83ff36409e0738728
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8f27c4484ce310c62f9bab0e6ffeea2bfac1d3ef
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834975"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463883"
 ---
 # <a name="recipientis"></a>Получательявляется
 
@@ -34,7 +34,7 @@ ms.locfileid: "19834975"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19834975"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

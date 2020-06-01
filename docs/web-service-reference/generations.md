@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 637560b5-2b08-4787-a5d8-e0467f83acca
 description: Элемент поколений указывает массив значений создания и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: dda15b80304618e5376f2a9bbf39780e52842955
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a3ef0e2c73e2ebd7c121f817b8ea97c5e4d4d333
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762680"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463015"
 ---
 # <a name="generations"></a>Ожида
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762680"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762680"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

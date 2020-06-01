@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d5b6a099-3b87-44ef-a197-8198730ff72d
 description: Элемент Арчивесаурцефолдерид указывает идентификатор исходной папки для элемента архива.
-ms.openlocfilehash: b7a5097de734777a71559703ed2d54199edd952e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 403f40cb4529cf72f07b8a04c0803d757c24e470
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761494"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463386"
 ---
 # <a name="archivesourcefolderid"></a>арчивесаурцефолдерид
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761494"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[FolderId](folderid.md) | [DistinguishedFolderId](distinguishedfolderid.md)дистингуишедфолдерид | [аддресслистид](addresslistid.md)
+[FolderId](folderid.md)  |  [Дистингуишедфолдерид](distinguishedfolderid.md)  |  [Аддресслистид](addresslistid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19761494"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

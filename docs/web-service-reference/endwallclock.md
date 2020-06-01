@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bc04e44e-e6d1-4355-a2b1-feb6663dc647
 description: Элемент Ендваллклокк указывает время окончания собрания в часовом поясе, где выполняется собрание.
-ms.openlocfilehash: 10e4a2bde50354b2f2752751c01a6a70aa084d05
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 48b762d0bfe367b966b6f1790230f6a2118c3fd6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762356"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462973"
 ---
 # <a name="endwallclock"></a>ендваллклокк
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762356"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762356"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

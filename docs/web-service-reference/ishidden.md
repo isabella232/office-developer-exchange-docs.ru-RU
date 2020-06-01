@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2377b584-bd1e-49fc-b80a-a6634721a297
 description: Элемент Hidden содержит логическое значение, которое указывает, следует ли скрыть или отобразить основной контакт в составе персонажа.
-ms.openlocfilehash: ee20bf0af287e3cddaedb5bc6d3c63ef9a7a7006
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a22628e9ab4a46de04fe395f2d6c1b70083a5c77
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834032"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464240"
 ---
 # <a name="ishidden"></a>IsHidden
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834032"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19834032"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e0ca231f-0374-4844-8d4c-ada8da167920
 description: Элемент Синкскопе указывает, будут ли в ответе синхронизации возвращаться только элементы, связанные с папкой, а также сведения о них.
-ms.openlocfilehash: 847c0244a8847364e29ea584b0c0b721f00d3064
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ede26204c823a452189222075c784f24e98d188
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840130"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463036"
 ---
 # <a name="syncscope"></a>синкскопе
 
@@ -34,11 +34,11 @@ ms.locfileid: "19840130"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -65,7 +65,7 @@ ms.locfileid: "19840130"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

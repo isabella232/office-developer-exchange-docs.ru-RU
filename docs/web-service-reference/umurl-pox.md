@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: c55b7bf5-3702-4923-b7c9-b0928cde1de2
 description: Элемент Умурл указывает URL-адрес лучшего экземпляра веб-службы единой системы обмена сообщениями для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: f6259430bf9c53c8d0670cdab0dcec4cc6f18213
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c80f874e13ac3909ee51bbc63dded100a1e41524
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840256"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463029"
 ---
 # <a name="umurl-pox"></a>Умурл (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19840256"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

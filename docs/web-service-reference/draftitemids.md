@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c228f7e7-6dc8-476d-9b8c-99cd5b6f9f0c
 description: Элемент Драфтитемидс содержит массив идентификаторов элементов для черновиков элементов в беседе.
-ms.openlocfilehash: f6639b20641ff68fff989d2de5fa4ec2c550d5ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5e635e354c9d2d768bab5efaafafde272fe568d3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762221"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463575"
 ---
 # <a name="draftitemids"></a>драфтитемидс
 
@@ -35,11 +35,11 @@ ms.locfileid: "19762221"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ItemId](itemid.md) | [OccurrenceItemId](occurrenceitemid.md)оккурренцеитемид | [RecurringMasterItemId](recurringmasteritemid.md)рекуррингмастеритемид | [рекуррингмастеритемидранжес](recurringmasteritemidranges.md)
+[ItemId](itemid.md)  |  [Оккурренцеитемид](occurrenceitemid.md)  |  [Рекуррингмастеритемид](recurringmasteritemid.md)  |  [Рекуррингмастеритемидранжес](recurringmasteritemidranges.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19762221"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

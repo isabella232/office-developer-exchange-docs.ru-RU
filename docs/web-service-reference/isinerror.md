@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f56e6c31-a566-4761-8755-d90ffe6fe790
 description: Элемент Исинеррор указывает, находится ли правило в состоянии ошибки.
-ms.openlocfilehash: 9f77bbe11106174d0e82c5257e08c3728d67c60c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9e642c9f89434bdcad97b0c16dc35f99196051d7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834033"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464219"
 ---
 # <a name="isinerror"></a>исинеррор
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834033"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834033"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

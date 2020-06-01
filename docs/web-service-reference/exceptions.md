@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7cd63ac2-3441-4ed4-915b-6f90af4b28fc
 description: Элемент Exceptions определяет исключения, которые представляют все доступные условия исключения правила для правила папки "Входящие".
-ms.openlocfilehash: b875b4dc0029bb9e0bc2bb50c41569fb72ef9268
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1afc2980391ee588f9b9b813b87c2c699de3a6df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762417"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463358"
 ---
 # <a name="exceptions"></a>Исключения
 
@@ -69,7 +69,7 @@ ms.locfileid: "19762417"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -130,7 +130,7 @@ ms.locfileid: "19762417"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

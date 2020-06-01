@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 82e4ef4f-a557-4044-b9b7-d91622f4ac55
 description: Элемент EndTime представляет конец интервала времени.
-ms.openlocfilehash: 7d3d186618a7bcc05ad82532e13e03d2e67a0e40
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5a30b32ecfeafe582cd07dd662aacb0a960257c9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762370"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462994"
 ---
 # <a name="endtime"></a>EndTime
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762370"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -69,7 +69,7 @@ ms.locfileid: "19762370"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19762370"
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

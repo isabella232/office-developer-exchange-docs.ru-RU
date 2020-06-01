@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2740bcf6-f86d-4756-a0f2-24ed6e9b75f7
 description: Элемент MessageTrackingReport содержит одно сообщение, которое возвращается в операции GetMessageTrackingReport.
-ms.openlocfilehash: d01e0fbf099d096c7f255a8e94070e330577e6ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fc3e56fbb1bee411fa31751f558f520874133076
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834457"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463218"
 ---
 # <a name="messagetrackingreport"></a>MessageTrackingReport
 
@@ -42,7 +42,7 @@ ms.locfileid: "19834457"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "19834457"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

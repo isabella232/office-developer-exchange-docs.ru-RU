@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 4046821a-d6f3-4764-82be-4011221ce7a3
 description: Элемент Port указывает порт, используемый для подключения к хранилищу.
-ms.openlocfilehash: f5a2155d97061a87fdf819549ec29898efe4d201
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2da59e03a57b44fb12d14368d1b585ba845eacfe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834842"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464016"
 ---
 # <a name="port-pox"></a>Порт (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19834842"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

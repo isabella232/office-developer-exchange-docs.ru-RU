@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6ff3ac48-02ba-40ec-a71b-c401bb2b127c
 description: Элемент Дистингуишедграупби предоставляет стандартные группирования для запросов FindItem.
-ms.openlocfilehash: 0635366447675bf28dedf3af4f7d76094ee5e0a4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 004613d55419a19f69e960203ae13d8d906b74c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762187"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463141"
 ---
 # <a name="distinguishedgroupby"></a>дистингуишедграупби
 
@@ -39,7 +39,7 @@ ms.locfileid: "19762187"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19762187"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -71,5 +71,5 @@ ms.locfileid: "19762187"
 ## <a name="see-also"></a>См. также
 
 - [Операция FindItem](finditem-operation.md)
-- [Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Поиск элементов](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

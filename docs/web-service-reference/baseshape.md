@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 42c04f3b-abaa-4197-a3d6-d21677ffb1c0
 description: Элемент Басешапе определяет набор свойств, возвращаемых в ответе элемента или папки.
-ms.openlocfilehash: 69b27d23fd75d4c1a274f31dfa419b759dbb2bbe
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9b3f00ff94fbfe6ad6373b16ad95eb9136f81c64
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761555"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464492"
 ---
 # <a name="baseshape"></a>басешапе
 
@@ -34,7 +34,7 @@ ms.locfileid: "19761555"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -84,9 +84,9 @@ ms.locfileid: "19761555"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindFolder Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolder Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -102,7 +102,7 @@ ms.locfileid: "19761555"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 86cf88f4-09c4-436a-a100-ac5cba0c4388
 description: Элемент Жетаппманифестсреспонсе определяет ответ на запрос операции GetAppManifests.
-ms.openlocfilehash: ae9d1d853023a5b42db2e8fee2ed57f585433f69
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: a01f6265d6d534e2f7868b17acf19f0f5d52a01f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354150"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462966"
 ---
 # <a name="getappmanifestsresponse"></a>жетаппманифестсреспонсе
 
@@ -41,11 +41,11 @@ ms.locfileid: "21354150"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ResponseCode](responsecode.md) | [Приложения](apps.md) [манифестов](manifests.md) | респонсекоде
+[Респонсекоде](responsecode.md)  |  [Манифесты](manifests.md)  |  [Приложения](apps.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "21354150"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

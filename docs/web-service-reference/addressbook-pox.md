@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b2d62fd0-741c-4a41-9762-cc7d0ff01c9c
 description: Элемент AddressBook содержит спецификации для подключения клиента к серверу адресной книги с помощью протокола MAPI/HTTP.
-ms.openlocfilehash: c30f0ee7c36de7e63157d07d003a11187d661fd7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0967ac123cd3bb0086fd004ea0d0d37c08d2e037
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761353"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463638"
 ---
 # <a name="addressbook-pox"></a>AddressBook (POX)
 
@@ -41,7 +41,7 @@ ms.locfileid: "19761353"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

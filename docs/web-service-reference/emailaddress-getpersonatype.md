@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 052055b5-4630-40ed-9b24-9e7f4bf7ba1d
 description: Элемент EmailAddress (Жетперсонатипе) указывает адрес электронной почты, связанный с персонажом.
-ms.openlocfilehash: a28a4a61a9719875fe99e1c950bcd3ec3af9ab13
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b58f61202cd94ff282b21138b47b40887b38752a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762275"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463456"
 ---
 # <a name="emailaddress-getpersonatype"></a>EmailAddress (Жетперсонатипе)
 
@@ -37,11 +37,11 @@ ms.locfileid: "19762275"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Name (String)](name-string.md) | [EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md) | [раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md) | [MailboxType](mailboxtype.md) | [ItemId](itemid.md) | [оригиналдисплайнаме](originaldisplayname.md)
+[Имя (строка)](name-string.md)  |  [EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md)  |  [Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md)  |  [MailboxType](mailboxtype.md)  |  [ItemId](itemid.md)  |  [Оригиналдисплайнаме](originaldisplayname.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19762275"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

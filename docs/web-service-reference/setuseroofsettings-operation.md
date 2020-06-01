@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 36277ef0-18ee-4b35-9e6e-8c321d8f5433
 description: Веб-метод SetUserOofSettings устанавливает параметры и сообщение "нет на месте" для пользователя почтового ящика.
-ms.openlocfilehash: 51c2f9488f38a4adb0e291c11adc2ebfe3426f25
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 88b5475dd2f0fe6d334bad51a0fe8d0beb767634
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835469"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463155"
 ---
 # <a name="setuseroofsettings-operation"></a>Операция SetUserOofSettings
 
@@ -44,13 +44,13 @@ ms.locfileid: "19835469"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>User1</Name>
         <Address>user1@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -115,10 +115,10 @@ ms.locfileid: "19835469"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
-    <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" /> 
+    <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" /> 
   </soap:Header>
   <soap:Body>
-    <SetUserOofSettingsResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetUserOofSettingsResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessage ResponseClass="Success">
         <ResponseCode>NoError</ResponseCode> 
       </ResponseMessage>

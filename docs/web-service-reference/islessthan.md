@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2550469b-6e5d-45a5-9ecc-090d1b409296
 description: Элемент Ислесссан представляет выражение поиска, которое сравнивает свойство со значением константы или другим свойством и возвращает значение true, если первое свойство меньше второго.
-ms.openlocfilehash: bec5a9f3e12d0f0aada64d5395bf2e0b4181f162
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: d68cd3e049b95b4a6ba3e6ef841514ab59e60425
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353611"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44464198"
 ---
 # <a name="islessthan"></a>ислесссан
 
@@ -52,7 +52,7 @@ ms.locfileid: "21353611"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -80,7 +80,7 @@ ms.locfileid: "21353611"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

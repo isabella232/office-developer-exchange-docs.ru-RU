@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 689cd498-4ee0-4a41-8907-4f0d7137477e
 description: Элемент GetAppManifests является базовым элементом для запроса на возврат манифеста для приложений.
-ms.openlocfilehash: dbc90b88729f7141c0cd8f741a2cd14b48724f5a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 067075741d5f4eca3f41e327d8bd17fc54450fdd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762684"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463001"
 ---
 # <a name="getappmanifests"></a>GetAppManifests
 
@@ -30,15 +30,15 @@ ms.locfileid: "19762684"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Апиверсионсуппортед](apiversionsupported.md) | [счемаверсионсуппортед](schemaversionsupported.md)
+[Апиверсионсуппортед](apiversionsupported.md)  |  [Счемаверсионсуппортед](schemaversionsupported.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -52,7 +52,7 @@ ms.locfileid: "19762684"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

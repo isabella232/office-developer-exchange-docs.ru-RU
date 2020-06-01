@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f0e745f-9289-4f31-8877-926692a8c133
 description: Узнайте, как создать настраиваемый агент транспорта RoutingAgent для использования с Exchange 2013.
-ms.openlocfilehash: d07f68494acd26940a4837bbbfc7a0505114bd20
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9acf30be0dd795098f757effaa34b2e72183b000
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761299"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463701"
 ---
 # <a name="create-a-routingagent-transport-agent-for-exchange-2013"></a>Создание агента транспорта RoutingAgent для Exchange 2013
 
@@ -23,7 +23,7 @@ ms.locfileid: "19761299"
   
 Связанные фрагменты кода и примеры приложений:
 
-- [Exchange 2013: создание агента транспорта журналов пропускной способности](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
+- [Exchange 2013: создание агента транспорта журналов пропускной способности](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
   
 Классы [раутингажентфактори](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) и [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) являются базовыми классами для агентов транспорта, которые предназначены для запуска в службе транспорта на сервере почтовых ящиков Exchange Server 2013. Класс [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) предоставляет события, перечисленные в следующей таблице, для которых вы можете реализовать обработчики в агенте транспорта RoutingAgent. 
   
@@ -51,7 +51,7 @@ ms.locfileid: "19761299"
   
    ```
 
-   Эти пространства имен можно найти на сервере Exchange. Добавив ссылку на эти пространства имен, вы получите доступ к элементам [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) , а также к другим классам, используемым в [Exchange 2013: Создание примера агента транспорта журналов пропускной способности](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa) . 
+   Эти пространства имен можно найти на сервере Exchange. Добавив ссылку на эти пространства имен, вы получите доступ к элементам [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) , а также к другим классам, используемым в [Exchange 2013: Создание примера агента транспорта журналов пропускной способности](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa) . 
     
 2. Реализуйте производный класс для класса [раутингажентфактори](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) . 
     

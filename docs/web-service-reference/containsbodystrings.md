@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 70639472-64bb-456a-8b40-dce727542443
 description: Элемент Контаинсбодистрингс указывает строки, которые должны присутствовать в теле входящих сообщений, чтобы применить условие или исключение.
-ms.openlocfilehash: 5993bd4061298e82a2393768eccb051326564e98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 008261ab94b1bed33cc72cacf7abe7aa58927d1a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761757"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463806"
 ---
 # <a name="containsbodystrings"></a>контаинсбодистрингс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761757"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19761757"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
