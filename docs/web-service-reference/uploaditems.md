@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: fd2b9545-7213-4427-95ae-71a155b75971
 description: Элемент UploadItems представляет запрос на отправку элементов в почтовый ящик.
-ms.openlocfilehash: d3cd69cdb744431daeede736c2e156c8ab92a79b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8fdb7253926e030085374b650e792349e598ee4a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840388"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468826"
 ---
 # <a name="uploaditems"></a>UploadItems
 
@@ -38,7 +38,7 @@ ms.locfileid: "19840388"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -48,7 +48,7 @@ ms.locfileid: "19840388"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -62,7 +62,7 @@ ms.locfileid: "19840388"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

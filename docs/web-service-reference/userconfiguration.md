@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1811df99-ca5b-48a3-b160-b3fd70320c34
 description: Элемент Усерконфигуратион определяет один объект конфигурации пользователя.
-ms.openlocfilehash: ce3eaa470ef592c5a8e5a7ef24c377bb2feeca2e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1217f5d591570c2d8df49a116b6bf35c243d1e0e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840413"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468910"
 ---
 # <a name="userconfiguration"></a>усерконфигуратион
 
@@ -40,7 +40,7 @@ ms.locfileid: "19840413"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -48,7 +48,7 @@ ms.locfileid: "19840413"
 |:-----|:-----|
 |[усерконфигуратионнаме](userconfigurationname.md) <br/> |Представляет имя объекта конфигурации пользователя. Этот элемент должен использоваться при создании объекта конфигурации пользователя.  <br/> |
 |[Идентификатор](itemid.md) <br/> |Определяет идентификатор элемента объекта конфигурации пользователя.  <br/> |
-|[Dictionary](dictionary.md) <br/> |Определяет набор записей свойств словаря для объекта конфигурации пользователя.  <br/> |
+|[Словарь](dictionary.md) <br/> |Определяет набор записей свойств словаря для объекта конфигурации пользователя.  <br/> |
 |[XmlData](xmldata.md) <br/> |Содержит содержимое свойства XML-данных для объекта конфигурации пользователя.  <br/> |
 |[бинаридата](binarydata.md) <br/> |Содержит двоичное содержимое свойства данных для объекта конфигурации пользователя.  <br/> |
    
@@ -68,7 +68,7 @@ ms.locfileid: "19840413"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

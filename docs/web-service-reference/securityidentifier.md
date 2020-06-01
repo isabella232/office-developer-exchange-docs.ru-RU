@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f7656729-f2c9-41cc-b1ec-60f480fc4dab
 description: Элемент Секуритидентифиер представляет форму языка определения дескрипторов безопасности (SID).
-ms.openlocfilehash: c18d7d4505c618792497c32c7499eab9ac82989e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c55e4a7f7f0b8f8a40e6fcaf8d18e253a6da2679
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835314"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468805"
 ---
 # <a name="securityidentifier"></a>секуритидентифиер
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835314"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19835314"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

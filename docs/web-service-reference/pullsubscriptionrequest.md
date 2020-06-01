@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 145c5cc7-a894-4f0b-a6ea-358cddfb5c33
 description: Элемент Пуллсубскриптионрекуест представляет подписку на подписку на уведомления о событиях по запросу.
-ms.openlocfilehash: 5f757bf1f79f7e2a00fb886db50e6ea0eaed1a4a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fb9712c9e1481678c2821ee344052783d5c25bf9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834932"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468868"
 ---
 # <a name="pullsubscriptionrequest"></a>пуллсубскриптионрекуест
 
@@ -74,7 +74,7 @@ ms.locfileid: "19834932"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

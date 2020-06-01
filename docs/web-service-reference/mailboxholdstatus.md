@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 92608b77-8aa4-403b-a4de-01e3a60af3e0
 description: Элемент Маилбоксхолдстатус указывает состояние удержания почтового ящика.
-ms.openlocfilehash: 6703c909d0a7b4e83e190807fc3202ecd4699e7f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2ac575275fc00d2e3ba38cb4ec7335567ee82da6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834288"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468812"
 ---
 # <a name="mailboxholdstatus"></a>маилбоксхолдстатус
 
@@ -35,11 +35,11 @@ ms.locfileid: "19834288"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Состояние почтового ящика (String)](mailbox-string.md) | [(холдстатустипе)](status-holdstatustype.md) | [аддитионалинфо](additionalinfo.md)
+[Mailbox (строка)](mailbox-string.md)  |  [Состояние (холдстатустипе)](status-holdstatustype.md)  |  [Аддитионалинфо](additionalinfo.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19834288"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

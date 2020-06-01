@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 5007b1ba-bfcc-40d7-b1cb-e32fbaf54ffd
 description: Элемент Усерреспонсе представляет ответ на запрос GetUserSettings для отдельного пользователя.
-ms.openlocfilehash: 6fcd82e06916df5acdd317cb44161c1b69e58574
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 73848cb19d9c859e07216f354965ac4051d0d20c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840436"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468903"
 ---
 # <a name="userresponse-soap"></a>Усерреспонсе (SOAP)
 
@@ -37,7 +37,7 @@ ms.locfileid: "19840436"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19840436"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

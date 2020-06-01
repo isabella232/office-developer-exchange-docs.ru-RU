@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54f45f8e-c02b-4ead-b15a-38b30872c362
 description: Элемент Токенрекуест указывает на один запрос маркера.
-ms.openlocfilehash: b7e814cbcf34912f79bded57874dbc8e4ce28176
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5d16a82a382cb7fc9996db84f775fe6230f512c3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840211"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468924"
 ---
 # <a name="tokenrequest"></a>токенрекуест
 
@@ -33,11 +33,11 @@ ms.locfileid: "19840211"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ID (String)](id-string.md) | [токентипе (клиентакцесстокентипе)](tokentype-clientaccesstokentype.md)
+[ID (строка)](id-string.md)  |  [Токентипе (клиентакцесстокентипе)](tokentype-clientaccesstokentype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19840211"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

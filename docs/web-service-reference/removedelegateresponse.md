@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: eef56c53-d0a7-4342-9ce6-4dbb6b1a1369
 description: Элемент Ремоведелегатереспонсе содержит состояние и результат запроса операции RemoveDelegate.
-ms.openlocfilehash: 45d0bcfaeb4d453f50cce8449f5cb7fdb70512a6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4c7a8b81528435b72576c116bc97f611544c24d6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835092"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468938"
 ---
 # <a name="removedelegateresponse"></a>ремоведелегатереспонсе
 
@@ -40,7 +40,7 @@ ms.locfileid: "19835092"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19835092"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

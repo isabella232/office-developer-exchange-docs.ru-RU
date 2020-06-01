@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ccf7c577-f882-477e-9f6f-2f56729f7d77
 description: Элемент UpdateUserConfiguration представляет запрос на обновление объекта конфигурации пользователя.
-ms.openlocfilehash: 54415677786d8d5b6579f42e6d384c087099ce03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b46552dc93523340b04f4abfb07dc4fca7dd7898
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840376"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468833"
 ---
 # <a name="updateuserconfiguration"></a>UpdateUserConfiguration
 
@@ -36,7 +36,7 @@ ms.locfileid: "19840376"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -46,7 +46,7 @@ ms.locfileid: "19840376"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -60,7 +60,7 @@ ms.locfileid: "19840376"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
