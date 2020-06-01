@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 600c4690-941c-45af-a906-5528748d09cd
 description: 'Дата последнего изменения: 17 сентября 2015 г.'
-ms.openlocfilehash: 5848d52a68c8c3f747614015e49becb34bc4cfd8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 457257e59fb37659daf2f91b0fa5dfced5c48c03
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761283"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44446492"
 ---
 # <a name="agentexecution"></a>ажентексекутион
   
@@ -47,7 +47,7 @@ ms.locfileid: "19761283"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

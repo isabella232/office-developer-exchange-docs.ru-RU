@@ -12,12 +12,12 @@ api_type:
 - dllExport
 ms.assetid: 869e927f-7df2-4247-88ef-b8b05b29a700
 description: 'Дата последнего изменения: 22 февраля 2013 г.'
-ms.openlocfilehash: 5c41007a797e5a256692b2c4bdcb3cfae82c12ab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 38cb72b42727855f652de607bb2a02ecdeaae16e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760920"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44447052"
 ---
 # <a name="cchksgfilesdelete-function"></a>Функция функция cchksgfiles. Delete
 

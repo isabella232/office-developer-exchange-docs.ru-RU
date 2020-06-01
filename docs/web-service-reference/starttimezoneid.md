@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f4adfc48-2d51-4d2d-9ddc-b91c3e96cb02
 description: Элемент Старттимезонеид указывает часовой пояс, в котором выполняется собрание.
-ms.openlocfilehash: d131a4cad3076c1ed4044dbcbe49f1dfa4ed5ccf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 30ccbbf75963615ba16a991370a007a46e684930
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835567"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448123"
 ---
 # <a name="starttimezoneid"></a>старттимезонеид
 
@@ -31,15 +31,15 @@ ms.locfileid: "19835567"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Календаритем](calendaritem.md) | [свойство meetingrequest](meetingrequest.md)
+[Календаритем](calendaritem.md)  |  [Свойство meetingrequest](meetingrequest.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835567"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

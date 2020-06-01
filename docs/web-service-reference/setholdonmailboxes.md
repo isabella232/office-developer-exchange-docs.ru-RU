@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fd5b9f0e-23e8-428c-8168-2d6b4ecd6beb
 description: Элемент SetHoldOnMailboxes содержит запрос SetHoldOnMailboxes.
-ms.openlocfilehash: 7d226de908c4d5a474129e3e1f2344ec1318f538
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c96ff50cb1204d86abc66829e1c5da7124f407f1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835413"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448354"
 ---
 # <a name="setholdonmailboxes"></a>SetHoldOnMailboxes
 
@@ -39,11 +39,11 @@ ms.locfileid: "19835413"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Холдактионтипе (](actiontype-holdactiontype.md) | [холдид](holdid.md) | ) | [почтовые ящики запросов (аррайофстрингстипе)](mailboxes-arrayofstringstype.md) | [Language](language.md) | [инклуденониндексаблеитемс](includenonindexableitems.md) | [дедупликации](deduplication.md) | [InPlaceHoldIdentity](inplaceholdidentity.md) [Query](query.md)
+Себя [(холдактионтипе)](actiontype-holdactiontype.md)  |  [Холдид](holdid.md)  |  [Query (запрос](query.md)  |  ) [Почтовые ящики (аррайофстрингстипе)](mailboxes-arrayofstringstype.md)  |  [Language (язык](language.md)  |  ) [Инклуденониндексаблеитемс](includenonindexableitems.md)  |  [Дедупликация](deduplication.md)  |  [InPlaceHoldIdentity](inplaceholdidentity.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19835413"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

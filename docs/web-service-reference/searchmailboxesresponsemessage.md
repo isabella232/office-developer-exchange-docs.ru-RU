@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6f1bcbfb-d7f6-4fa0-b6f8-681a0b067007
 description: Элемент Сеарчмаилбоксесреспонсемессаже указывает ответное сообщение для запроса SearchMailboxes.
-ms.openlocfilehash: b9e16e5b45271b366dd5cc49537085dbc8234da0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 342223b9a8cc7e91b97d637cb104f7bb160b7d5a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835297"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448424"
 ---
 # <a name="searchmailboxesresponsemessage"></a>сеарчмаилбоксесреспонсемессаже
 
@@ -36,11 +36,11 @@ ms.locfileid: "19835297"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md) | [респонсекоде](responsecode.md) | [SearchMailboxesResult](searchmailboxesresult.md) [MessageXml](messagexml.md)[DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй мессажексмл сеарчмаилбоксесресулт |  | 
+[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Сеарчмаилбоксесресулт](searchmailboxesresult.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19835297"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||
