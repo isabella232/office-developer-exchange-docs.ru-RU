@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 175566d2-fd62-45a2-8518-2827912cec88
 description: Элемент Properties содержит список одного или нескольких свойств отслеживания.
-ms.openlocfilehash: 079d2d2c101fdeb7f26d65798048c3c6c59f3e94
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 007a4dc14c84c47ea7af8ccacc554c134d563e44
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834897"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465634"
 ---
 # <a name="properties-arrayoftrackingpropertiestype"></a>Свойства (Аррайофтраккингпропертиестипе)
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834897"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -73,7 +73,7 @@ ms.locfileid: "19834897"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

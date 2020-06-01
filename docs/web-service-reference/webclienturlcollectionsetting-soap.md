@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: d49329d7-e095-474f-8391-c3d61cac2e95
 description: Элемент Вебклиентурлколлектионсеттинг (SOAP) представляет параметр пользователя, который представляет собой коллекцию URL-адресов веб-клиента Exchange.
-ms.openlocfilehash: 30520e2a0ccd5d6b3e38909663bcb82c1442ba20
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5cfa82517ebfa7f6c019ad179fb8b2def8a35265
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840501"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464968"
 ---
 # <a name="webclienturlcollectionsetting-soap"></a>Вебклиентурлколлектионсеттинг (SOAP)
 
@@ -35,7 +35,7 @@ ms.locfileid: "19840501"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -45,17 +45,17 @@ ms.locfileid: "19840501"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

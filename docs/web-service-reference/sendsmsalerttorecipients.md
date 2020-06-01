@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4dd000b-11b6-4b7b-91e0-dbfeae11d770
 description: Элемент SendSMSAlertToRecipients указывает номера мобильного телефона, к которым будет отправляться уведомление службы коротких сообщений (SMS).
-ms.openlocfilehash: b28202c71257fccca67879713d5d7df03f69b06d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ed17bf9ad20a51cbead4b86f385a53d19562fa64
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835347"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464849"
 ---
 # <a name="sendsmsalerttorecipients"></a>сендсмсалерттореЦипиентс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835347"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19835347"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

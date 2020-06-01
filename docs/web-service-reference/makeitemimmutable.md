@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de1d2a60-aeeb-4625-8b11-23c42e1e7bae
 description: Элемент Макеитемиммутабле указывает логическое значение, которое указывает, следует ли сделать элемент только для чтения.
-ms.openlocfilehash: 63c05fd3572c7b4ab93fe098d9165a117849ef02
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 05c6e3343b8ba892048174ad98c9d31fe8da685b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834337"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465865"
 ---
 # <a name="makeitemimmutable"></a>макеитемиммутабле
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834337"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834337"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

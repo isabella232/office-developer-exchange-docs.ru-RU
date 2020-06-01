@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 42aac88f-8513-416d-8be4-77378b71a45b
 description: Элемент Ресетпинреспонсе определяет ответ на запрос для операции ResetPIN (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: 9c85909a5a03fd4c470468bd025a4de650472423
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a30d75b91823ebc021cfffa4e77be04fc6cd7951
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835154"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466208"
 ---
 # <a name="resetpinresponse-um-web-service"></a>Ресетпинреспонсе (веб-служба единой системы обмена сообщениями)
 
@@ -35,15 +35,15 @@ ms.locfileid: "19835154"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -53,7 +53,7 @@ ms.locfileid: "19835154"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

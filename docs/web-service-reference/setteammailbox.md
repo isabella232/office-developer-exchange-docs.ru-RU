@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d6ee7cc-8f88-4de2-ae5c-cabf2f2193d0
 description: Элемент Сеттеаммаилбокс содержит запрос на задание почтового ящика сайта.
-ms.openlocfilehash: 708863168f4e89775deee8c5d66427df41515089
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e4b7ebd308f4b58b6b6491289f24b9176c5dcf15
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835455"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465263"
 ---
 # <a name="setteammailbox"></a>сеттеаммаилбокс
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835455"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[EmailAddressType](emailaddress-emailaddresstype.md) | состояние[шарепоинтситеурл](sharepointsiteurl.md) | [(теаммаилбокслифециклестатетипе)](state-teammailboxlifecyclestatetype.md)
+[EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)  |  [Шарепоинтситеурл](sharepointsiteurl.md)  |  [Состояние (теаммаилбокслифециклестатетипе)](state-teammailboxlifecyclestatetype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835455"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

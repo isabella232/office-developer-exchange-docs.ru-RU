@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6ce22f17-7a31-46c4-b643-0894d087e852
 description: Элемент "собрание" указывает, является ли элемент календаря собранием или встречей.
-ms.openlocfilehash: bb1349a8690450882e6beac0ccd84a8d03272a7d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fd72766977567210cd08b47d0723cd73aa53a622
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834051"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465970"
 ---
 # <a name="ismeeting"></a>"Собрание"
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834051"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834051"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

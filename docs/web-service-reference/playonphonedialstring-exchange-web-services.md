@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 02b77f6a-042d-49a9-9445-342885c43e99
 description: Элемент Плайонфонедиалстринг определяет строку набора номера для игры по телефону.
-ms.openlocfilehash: 0bc61d6dc32cd0db80599348f1d04c62774954d7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 310934895295af179e651b94c33dfb86d0f94e1d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834827"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466222"
 ---
 # <a name="playonphonedialstring-exchange-web-services"></a>Плайонфонедиалстринг (веб-службы Exchange)
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834827"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19834827"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

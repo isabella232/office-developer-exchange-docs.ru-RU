@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f92aa41-1499-4d96-a973-24529ec64d24
 description: Элемент Посталаддрессаттрибутедвалуе указывает экземпляр массива почтовых адресов и связанные с ними атрибуты.
-ms.openlocfilehash: f2b8b9818e39780b934522910d016875dbe5af2e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf5becca8ee0f143728010c5d0b1ed5a380838ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834854"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465382"
 ---
 # <a name="postaladdressattributedvalue"></a>посталаддрессаттрибутедвалуе
 
@@ -33,15 +33,15 @@ ms.locfileid: "19834854"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Атрибуты значений (персонапосталаддресстипе)](value-personapostaladdresstype.md) | [(аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
+[Значение (персонапосталаддресстипе)](value-personapostaladdresstype.md)  |  [Атрибуты (аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Бусинессаддрессес](businessaddresses.md) | [HomeAddresses](homeaddresses.md)хомеаддрессес | [осераддрессес](otheraddresses.md)
+[Бусинессаддрессес](businessaddresses.md)  |  [Хомеаддрессес](homeaddresses.md)  |  [Осераддрессес](otheraddresses.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834854"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

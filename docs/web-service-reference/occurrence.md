@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d292b99c-b896-40b7-be5d-2cb314c9481f
 description: Элемент вхождения представляет один измененный экземпляр повторяющегося элемента календаря.
-ms.openlocfilehash: 5a40faa9b885a235d30e7f41830d1eefe2ed23c3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c3a6bcce23f0bb1125dbd2a5bb86e9b20039a4e1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834653"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466320"
 ---
 # <a name="occurrence"></a>Экземпляр
 
@@ -40,7 +40,7 @@ ms.locfileid: "19834653"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -65,7 +65,7 @@ ms.locfileid: "19834653"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

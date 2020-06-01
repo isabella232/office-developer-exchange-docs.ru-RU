@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c4cb0718-37cd-41aa-86e7-b492c4bb86aa
 description: Элемент Арчиветаг указывает идентификатор хранения набора тегов архива для элемента или папки.
-ms.openlocfilehash: ae9c7d512981af3bf564bcb73a9a27c5c78217fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 23167f3c96a6756fe4c6d915a4de91e815e620d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761493"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464765"
 ---
 # <a name="archivetag"></a>арчиветаг
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761493"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,8 +48,8 @@ ms.locfileid: "19761493"
 |[контактсфолдер](contactsfolder.md) <br/> |Представляет папку "Контакты", содержащуюся в почтовом ящике.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Folder](folder.md) <br/> |Определяет папку для создания, получения, поиска, синхронизации или обновления.  <br/> |
-|[Элемент](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Microsoft Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Microsoft Exchange.  <br/> |
 |[PostItem](postitem.md) <br/> |Представляет элемент POST в хранилище Exchange.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержащуюся в почтовом ящике.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
@@ -69,7 +69,7 @@ ms.locfileid: "19761493"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

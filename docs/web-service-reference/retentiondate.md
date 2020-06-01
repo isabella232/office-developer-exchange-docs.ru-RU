@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c1df5e2-b56a-4947-a047-2b73b32e5fb7
 description: Элемент Ретентиондате указывает последнюю дату, когда элемент должен быть сохранен.
-ms.openlocfilehash: 2e450a72081a31c805c74bffc3a446034d4f24e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a1b109414d02814f9ede74c59796d5a1ff042da5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835217"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465228"
 ---
 # <a name="retentiondate"></a>ретентиондате
 
@@ -30,15 +30,15 @@ ms.locfileid: "19835217"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SearchPreviewItem](searchpreviewitem.md) | [Item](item.md) | [Контактное](contact.md) | [CalendarItem](calendaritem.md)[Message](message-ex15websvcsotherref.md) | [PostItem](postitem.md)[DistributionList](distributionlist.md) | сообщение сеарчпревиевитем Item дистрибутионлист календаритем[Task](task.md) Item |  | 
+[Сеарчпревиевитем](searchpreviewitem.md)  |  [Элемент](item.md)  |  [Contact (контакт](contact.md)  |  ) [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [Дистрибутионлист](distributionlist.md)  |  [Календаритем](calendaritem.md)  |  [Элемент](postitem.md)  |  i [Task (задача](task.md) )
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835217"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

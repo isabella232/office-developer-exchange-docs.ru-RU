@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 415dfa18-7ad1-435f-beaf-d89de9291edc
 description: Элемент Йомифирстнамес указывает массив фонетических имен японских иероглифов и идентификаторы их исходных сопоставлений для соответствующего пользователя.
-ms.openlocfilehash: 918382ac6ffb6c1871983506335401cdc77b5170
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b1c27fbca0b7dafffb281aab3489ac4f6e08c742
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840549"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465123"
 ---
 # <a name="yomifirstnames"></a>йомифирстнамес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19840549"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840549"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

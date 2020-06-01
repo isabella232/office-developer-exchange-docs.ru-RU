@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 00823fb9-bf8b-49bb-8e1b-d698c6d4063f
 description: Элемент Исманажедфолдерсрут указывает, является ли управляемая папка корневой для всех управляемых папок.
-ms.openlocfilehash: 3484a3fef56545a9a8d56af65f56f75205918ec7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4373dba9dce92de8e175948d889f0806e100fa6c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834044"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466026"
 ---
 # <a name="ismanagedfoldersroot"></a>исманажедфолдерсрут
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834044"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834044"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

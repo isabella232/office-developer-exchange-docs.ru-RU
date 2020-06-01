@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7cbdbc21-5405-4cbc-8ca0-d7b0257927aa
 description: Элемент Нониндексаблеитемдетаилсресулт указывает результаты операции WSDL GetNonIndexableItemDetails.
-ms.openlocfilehash: 6e271f2cf0e37f26b945332c94167b6a42354115
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 647f58b5e7285af70bbfb3a203ba71c9a3ccebcc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834535"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465445"
 ---
 # <a name="nonindexableitemdetailsresult"></a>нониндексаблеитемдетаилсресулт
 
@@ -33,7 +33,7 @@ ms.locfileid: "19834535"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834535"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

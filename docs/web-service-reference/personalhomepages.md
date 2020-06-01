@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 61f7ad65-9d40-4d3b-9e76-64b05bd59210
 description: Элемент Персоналхомепажес указывает массив домашних страниц и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: a801abc56dea7becbb9deeefd4c44194ed5f515e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 062fe0b4d62639604f0c923d37bd90fe1465163b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834744"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465872"
 ---
 # <a name="personalhomepages"></a>персоналхомепажес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834744"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834744"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

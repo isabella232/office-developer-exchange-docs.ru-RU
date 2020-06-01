@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 70caa0ca-40a1-421f-b4e6-0658f22d0b8e
 description: Элемент Пушсубскриптионрекуест представляет подписку на подписку на уведомления о событиях на основе push-уведомлений.
-ms.openlocfilehash: 34717d37b8e5bb50c927e57088299fbcb18a2514
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dcdb767ed175468aa4ec940f3147c164e4707e40
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834929"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465515"
 ---
 # <a name="pushsubscriptionrequest"></a>пушсубскриптионрекуест
 
@@ -76,7 +76,7 @@ ms.locfileid: "19834929"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

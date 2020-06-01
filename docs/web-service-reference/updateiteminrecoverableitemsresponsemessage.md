@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 96259756-322e-4c24-ac76-0cd9c32e0d6d
 description: Элемент Упдатеитеминрековераблеитемсреспонсемессаже указывает ответ на запрос Упдатеитеминрековераблеитемс.
-ms.openlocfilehash: 598d91a4fbd4d241b75aea4c155caca68f120b3f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 021631f5c30eebbf4d7ae0aad35a85b99a23925f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840356"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466537"
 ---
 # <a name="updateiteminrecoverableitemsresponsemessage"></a>упдатеитеминрековераблеитемсреспонсемессаже
 
@@ -38,11 +38,11 @@ ms.locfileid: "19840356"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md) | [респонсекоде](responsecode.md) | [MessageXml](messagexml.md)[Attachments](attachments-ex15websvcsotherref.md)[DescriptiveLinkKey](descriptivelinkkey.md) | [ConflictResults](conflictresults.md) [Items](items.md)дескриптивелинккэй мессажексмл | элементы | вложения конфликтресултс | 
+[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Элементы](items.md)  |  [Вложения](attachments-ex15websvcsotherref.md)  |  [Конфликтресултс](conflictresults.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19840356"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/message  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/message  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |Message. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

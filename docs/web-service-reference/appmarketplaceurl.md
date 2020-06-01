@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c228877b-5a0e-49b7-b82e-043bc786c80f
 description: Элемент Аппмаркетплацеурл указывает URL-адрес для рынка приложений.
-ms.openlocfilehash: f8e6c4bc3c4fc5713ccc2e0d16f13f039722c441
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7e924edcf49d1716f4d9dc251c1294f595d27525
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761473"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466040"
 ---
 # <a name="appmarketplaceurl"></a>аппмаркетплацеурл
 
@@ -30,11 +30,11 @@ ms.locfileid: "19761473"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761473"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 20ef18c2-daa0-4f65-a515-e84e9993a77f
 description: Элемент уполномоченные указывает пользователей, которым назначена задача.
-ms.openlocfilehash: 5fc301cd77268213e95fd33a2a2f36dbe218b512
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3e98273e859dbe2128b0ad3b4df42c8016fd3bc5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761501"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464716"
 ---
 # <a name="assignees"></a>Уполномоченные
 
@@ -33,7 +33,7 @@ ms.locfileid: "19761501"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761501"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

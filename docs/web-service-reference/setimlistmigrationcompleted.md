@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4b806441-0429-44c4-90b7-1ae5c6ab9128
 description: Элемент Сетимлистмигратионкомплетед представляет запрос, указывающий, содержит ли хранилище Exchange элементы для обмена мгновенными сообщениями, используемые клиентами обмена мгновенными сообщениями.
-ms.openlocfilehash: 602583594aa171d49a1af2b70664301bf8ff1244
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e5b16044ee72a9e931a2707d3f7823931f8a642a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835431"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464828"
 ---
 # <a name="setimlistmigrationcompleted"></a>сетимлистмигратионкомплетед
 
@@ -32,7 +32,7 @@ ms.locfileid: "19835431"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835431"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1e9a5bae-5b24-43cd-9b83-a21da58c9fdd
 description: Элемент намерения предназначен только для внутреннего использования.
-ms.openlocfilehash: 4a9fe2dcabc3124f3f21a8edce46bf6e1591cc06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf82e7f1054a20de7e5ce8b9b0d5889669570a63
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833948"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465606"
 ---
 # <a name="intent"></a>Intent
 
@@ -25,11 +25,11 @@ ms.locfileid: "19833948"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -45,7 +45,7 @@ ms.locfileid: "19833948"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

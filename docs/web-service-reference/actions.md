@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c5aa96b1-2d8b-422f-8c2f-f118572ab23f
 description: Элемент Actions представляет набор действий, которые могут быть выполнены над сообщением при выполнении условий.
-ms.openlocfilehash: 093d2f28135c6077b6cea488591573af0182934b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2ac53778b583595fa8be07f2c5110a9e2df16eca
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761330"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465067"
 ---
 # <a name="actions"></a>Действия
 
@@ -50,7 +50,7 @@ ms.locfileid: "19761330"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761330"
 |:-----|:-----|
 |[ассигнкатегориес](assigncategories.md) <br/> |Представляет категории, помеченные в сообщениях электронной почты.  <br/> |
 |[CopyToFolder](copytofolder.md) <br/> |Определяет идентификатор папки, в которую будут скопированы элементы электронной почты.  <br/> |
-|[удаление](delete.md); <br/> |Указывает, следует ли перемещать сообщения в папку "Удаленные".  <br/> |
+|[Удаление](delete.md) <br/> |Указывает, следует ли перемещать сообщения в папку "Удаленные".  <br/> |
 |[форвардасаттачменттореЦипиентс](forwardasattachmenttorecipients.md) <br/> |Указывает адреса электронной почты, на которые будут пересылаться сообщения в виде вложений.  <br/> |
 |[форвардтореЦипиентс](forwardtorecipients.md) <br/> |Указывает адреса электронной почты, на которые пересылаются сообщения.  <br/> |
 |[маркимпортанце](markimportance.md) <br/> |Указывает важность, с которой будут отмечаться сообщения.  <br/> |
@@ -88,7 +88,7 @@ ms.locfileid: "19761330"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

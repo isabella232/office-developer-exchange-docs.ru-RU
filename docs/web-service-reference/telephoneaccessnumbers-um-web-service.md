@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: b8990f8a-12c4-4dac-b426-1a767cf95a6e
 description: Элемент Телефонеакцесснумберс содержит значение, которое представляет собой список номеров телефонов, которые пользователи могут использовать для доступа к единой системе обмена сообщениями, возвращенной в ответ на запрос веб-службы единой системы обмена сообщениями.
-ms.openlocfilehash: c14ad2acfe860afbfdd95570075c2a36a8e21cab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b39de192203526c059bcb7ac9b29b7193a8d5a65
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840147"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466642"
 ---
 # <a name="telephoneaccessnumbers-um-web-service"></a>Телефонеакцесснумберс (веб-служба единой системы обмена сообщениями)
 
@@ -37,11 +37,11 @@ ms.locfileid: "19840147"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19840147"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

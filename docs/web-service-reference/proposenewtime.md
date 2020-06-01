@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6d5977ac-484e-4e53-92ba-58a868eb3395
 description: Элемент Пропосеневтиме указывает объект Response, указывающий на то, что участник собрания может предложить новое время проведения собрания.
-ms.openlocfilehash: 4a0238d94b29993def8009fae62380bb2c02e8b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 76f590db760826aa2cd26938947a9b0e02a603f7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834904"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465543"
 ---
 # <a name="proposenewtime"></a>пропосеневтиме
 
@@ -38,7 +38,7 @@ ms.locfileid: "19834904"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834904"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

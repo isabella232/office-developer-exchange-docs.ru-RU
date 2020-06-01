@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 34602cb1-dc33-4552-a98c-3e77f614daa3
 description: Элемент Сеарчпараметерс представляет параметры, определяющие папку поиска.
-ms.openlocfilehash: b534574a1292d78c8df99f5186990b114fc4e70a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cd9f255621b17d01113392e67a0301b01b70f326
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835299"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466670"
 ---
 # <a name="searchparameters"></a>сеарчпараметерс
 
@@ -62,7 +62,7 @@ ms.locfileid: "19835299"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 9a627244-554f-4223-b9d8-a601b81a4a1a
 description: Элемент Type определяет тип настроенной почтовой учетной записи.
-ms.openlocfilehash: 6e1349769c6a5349304f576419e0c609d3edd9a0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ad3570094ebe28498dfdc375cf7fc255434ba20d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840247"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465102"
 ---
 # <a name="type-pox"></a>Тип (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19840247"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

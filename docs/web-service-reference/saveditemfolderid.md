@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4b8b475c-9ca5-48c9-acb0-8848b53be1ce
 description: Элемент Саведитемфолдерид определяет целевую папку для операций обновления, отправки и создания элементов в почтовом ящике.
-ms.openlocfilehash: 3f46070a538f5e03007925565a8888efe06b62b7
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 8e18b8863a54aa4e9d6e65f7a54e20904f5a9599
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354164"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465277"
 ---
 # <a name="saveditemfolderid"></a>саведитемфолдерид
 
@@ -43,7 +43,7 @@ ms.locfileid: "21354164"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "21354164"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

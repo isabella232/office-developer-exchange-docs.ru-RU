@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9fb7314d-779c-4b1f-9d7c-b5cb092ed134
 description: Элемент Максимумнонворкхаурресултсбидай указывает количество предполагаемых результатов для времени проведения собрания, которое не превышает обычные рабочие часы в день.
-ms.openlocfilehash: f931dcaabda222e1579a0a4c0e0e6e49d88c6342
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 410d6bd84838d979af6bc53ca47f445ae55a09e6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834382"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465501"
 ---
 # <a name="maximumnonworkhourresultsbyday"></a>максимумнонворкхаурресултсбидай
 
@@ -40,11 +40,11 @@ ms.locfileid: "19834382"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19834382"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -79,5 +79,5 @@ ms.locfileid: "19834382"
 [Операция GetUserAvailability](getuseravailability-operation.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

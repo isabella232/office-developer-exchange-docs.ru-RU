@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 2dff4e8f-4812-4fcf-8915-d64a69c89120
 description: Элемент IPv4End определяет конец диапазона адресов IP версии 4 (IPv4), которые используются для идентификации компьютера в сети.
-ms.openlocfilehash: 14e4cd23da4b737613311fa7ce24e129a496bb03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 296ea87436364b71e541f97c687a8f25e7f353a7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833968"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465557"
 ---
 # <a name="ipv4end-pox"></a>IPv4End (POX)
 
@@ -42,11 +42,11 @@ ms.locfileid: "19833968"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

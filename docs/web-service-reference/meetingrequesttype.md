@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bcd5c97c-19aa-4b1d-a8e8-e8c4bd473dd9
 description: Элемент Митингрекуесттипе описывает тип приглашения на собрание.
-ms.openlocfilehash: 7269587e2fa72aeb9070a7b53ee9215829729329
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e90c44dd4124d698ca5ef7655f6429a7167673e6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834432"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465788"
 ---
 # <a name="meetingrequesttype"></a>митингрекуесттипе
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834432"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19834432"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 8d713d22-580c-49a5-99f5-ee532443e89a
 description: Элемент Рекуестедсеттингс содержит имена запрошенных параметров конфигурации.
-ms.openlocfilehash: 025f86d417ea2041a3247ac67b065d75c8f75599
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e94c02d8f92d7aaac619c58f093c536cc1a098bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835136"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465298"
 ---
 # <a name="requestedsettings-soap"></a>Рекуестедсеттингс (SOAP)
 
@@ -33,7 +33,7 @@ ms.locfileid: "19835136"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19835136"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

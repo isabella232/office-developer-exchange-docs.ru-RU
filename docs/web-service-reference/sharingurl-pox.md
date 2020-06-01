@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d590188a-5aa6-46c6-ab5f-2a0dd6793109
 description: Элемент Шарингурл содержит URL-адрес сервера общего доступа, используемого для совместного использования календарей и контактов между организациями.
-ms.openlocfilehash: 0a62c5145da97976de12e7cdc29800a332877b44
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9c793935808dbd20d2dc0631b82ee74db3f8a19f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835489"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465256"
 ---
 # <a name="sharingurl-pox"></a>Шарингурл (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19835489"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

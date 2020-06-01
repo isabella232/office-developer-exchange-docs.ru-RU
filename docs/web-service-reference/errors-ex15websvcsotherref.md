@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ea37a2b5-e2d1-4089-960f-7014b9535a50
 description: Элемент Errors содержит контейнер свойств для хранения ошибок, возвращаемых через веб-службу.
-ms.openlocfilehash: a029492c1e3c11cc31d3501bd4ea0024ef8ecb91
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a2f888a81791fe0b57eee6123c4b0f5f609f3e75
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762391"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465907"
 ---
 # <a name="errors"></a>Ошибки
 
@@ -40,7 +40,7 @@ ms.locfileid: "19762391"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19762391"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

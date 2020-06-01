@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7fafd1c8-cd29-43a0-b383-f6595f934f48
 description: Элемент и указывает, что все дочерние элементы должны сопоставляться со значением true.
-ms.openlocfilehash: 9e0128ee3fa2b6ffdc5975946694475afec53c25
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ba898ccd77518971afaf713d1c7c7955f46465d5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761379"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464737"
 ---
 # <a name="and-protectionruleandtype"></a>И (Протектионрулеандтипе)
 
@@ -40,7 +40,7 @@ ms.locfileid: "19761379"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19761379"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

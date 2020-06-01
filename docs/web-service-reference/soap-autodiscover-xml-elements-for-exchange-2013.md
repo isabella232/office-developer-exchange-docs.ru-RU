@@ -10,11 +10,11 @@ api_type:
 ms.assetid: ae18a5b3-ae44-4cff-8654-db8028565e01
 description: Найдите справочные сведения о XML-элементе для веб-службы автообнаружения SOAP в Exchange.
 ms.openlocfilehash: 3b88429488dbecd4ed7c3adf56462f34fa0d4b17
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353394"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465186"
 ---
 # <a name="soap-autodiscover-xml-elements-for-exchange-2013"></a>XML-элементы автообнаружения SOAP для Exchange 2013
 

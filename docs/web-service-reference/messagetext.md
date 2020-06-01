@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1
 description: Элемент Мессажетекст предоставляет текстовое описание состояния отклика.
-ms.openlocfilehash: e90313c1b8616658932de4b394d4a2b3ed0fd054
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d919463e1027cb853facaf5a850607750a01f1e4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834462"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466698"
 ---
 # <a name="messagetext"></a>мессажетекст
 
@@ -38,7 +38,7 @@ ms.locfileid: "19834462"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -99,7 +99,7 @@ ms.locfileid: "19834462"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

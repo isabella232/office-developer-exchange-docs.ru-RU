@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d6012063-eb67-4e83-a4a6-33482685083f
 description: Элемент свойства meetingsuggestion указывает предложенное собрание.
-ms.openlocfilehash: 35b618b32101ea36c35d87ca0737e4a7e04eb3a9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 132ed907886c0ee9f3c4f46cc835d4b4fc6aa621
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834444"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466313"
 ---
 # <a name="meetingsuggestion"></a>MeetingSuggestion
 
@@ -37,11 +37,11 @@ ms.locfileid: "19834444"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Attendees](attendees.md) | [Location](location.md)Местоположение | [участников субъект](subject.md) | [EndTime](endtime.md) [StartTime](starttime.md)[MeetingString](meetingstring.md)MeetingString | EndTime | 
+[Участники](attendees.md)  |  [Location (расположение](location.md)  |  ) [Subject (тема](subject.md)  |  ) [MeetingString](meetingstring.md)  |  Время [начала](starttime.md)  |  [EndTime](endtime.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19834444"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

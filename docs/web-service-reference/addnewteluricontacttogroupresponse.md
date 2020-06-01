@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: abff2306-a3a7-489a-b548-2edbc1eb5cc4
 description: Элемент Аддневтелуриконтакттограупреспонсе указывает данные результата для операции WSDL AddNewTelUriContactToGroup.
-ms.openlocfilehash: ddf038af2f4dec8cff98c4453e867af1fe7b8076
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dfbf208cd5fc59902b16661658985442d4fa57e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761354"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464919"
 ---
 # <a name="addnewteluricontacttogroupresponse"></a>аддневтелуриконтакттограупреспонсе
 
@@ -35,11 +35,11 @@ ms.locfileid: "19761354"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Персонаж](persona.md) | [MessageText](messagetext.md)мессажетекст | [ResponseCode](responsecode.md)респонсекоде | [дескриптивелинккэй](descriptivelinkkey.md)
+[Персонаж](persona.md)  |  [Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19761354"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

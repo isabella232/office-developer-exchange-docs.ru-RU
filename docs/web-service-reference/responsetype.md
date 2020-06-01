@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: cdc09dda-ce20-4504-880d-9da6025ca812
 description: Элемент ResponseType представляет тип ответа получателя, полученный для собрания.
-ms.openlocfilehash: fcfd47cb988ee00303b2c4205cb3d058cb6599b2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ef8183b71e267a20427873ca44b269b828686cbe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835200"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465396"
 ---
 # <a name="responsetype"></a>ResponseType
 
@@ -34,17 +34,17 @@ ms.locfileid: "19835200"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Attendee](attendee.md) <br/> |Представляет участников и ресурсы собрания.  <br/> |
+|[Участник](attendee.md) <br/> |Представляет участников и ресурсы собрания.  <br/> |
 |[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange  <br/> |
 |[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании в хранилище Exchange.  <br/> |
 |[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
@@ -54,7 +54,7 @@ ms.locfileid: "19835200"
 
 Необходимо указать текстовое значение. Ниже приведены возможные текстовые значения для этого элемента:
   
-- Unknown
+- Неизвестно
     
 - Организатор
     
@@ -74,7 +74,7 @@ ms.locfileid: "19835200"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

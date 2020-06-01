@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: be838fc2-cfcb-4856-b095-a8e5366bb6c6
 description: Элемент value указывает сведения, связанные с почтовым адресом.
-ms.openlocfilehash: 048d3a49552f1a9e89744e4cd16ec1745417e923
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2d644ff45fe89061ccd90279773f3a5a5b7fe7cc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840462"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466474"
 ---
 # <a name="value-personapostaladdresstype"></a>Значение (Персонапосталаддресстипе)
 
@@ -47,11 +47,11 @@ ms.locfileid: "19840462"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Street](street.md)[State](state-ex15websvcsotherref.md)[PostalCode](postalcode.md) | [Altitude](altitude.md) | [LocationSource](locationsource.md) [PostOfficeBox](postofficebox.md) | [Latitude](latitude.md) | [LocationUri](locationuri.md)[FormattedAddress](formattedaddress.md)[Country](country.md) | [City](city.md) |  |  | [AltitudeAccuracy](altitudeaccuracy.md)[Accuracy](accuracy.md)[Longitude](longitude.md)[Type (string)](type-string.md)Город проживания |  | страна с | адресом PostOfficeBox тип (String) Широта/Долгота точность точность высота алтитудеаккураци форматтедаддресс LocationUri локатионсаурце |  |  | 
+[Улица](street.md)  |  [City (город](city.md)  |  ) [State (состояние](state-ex15websvcsotherref.md)  |  ) [Country (страна](country.md)  |  ) [PostalCode](postalcode.md)  |  [PostOfficeBox](postofficebox.md)  |  [Тип (строка)](type-string.md)  |  [Широта](latitude.md)  |  [Долгота](longitude.md)  |  [Точность](accuracy.md)  |  [Высота](altitude.md)  |  [Алтитудеаккураци](altitudeaccuracy.md)  |  [Форматтедаддресс](formattedaddress.md)  |  [LocationUri](locationuri.md)  |  [Локатионсаурце](locationsource.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19840462"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

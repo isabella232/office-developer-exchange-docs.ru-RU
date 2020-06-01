@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d4831cac-a8f9-419a-ac42-481e34230cba
 description: Элемент Шарингсекурити используется в заголовке протокола SOAP для календаря или общего доступа к контактам.
-ms.openlocfilehash: fa6719b5bd2bf5388c3da6befd50f4a302d4c3d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 456190079cc539c170aa96e795031071b5d9f1ad
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835482"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466712"
 ---
 # <a name="sharingsecurity"></a>шарингсекурити
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835482"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835482"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

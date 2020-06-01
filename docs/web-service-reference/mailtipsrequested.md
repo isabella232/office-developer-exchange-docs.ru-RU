@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8037bbe5-a37f-4f77-8209-27a94f9095ef
 description: Элемент Маилтипсрекуестед содержит типы советов по использованию почты, запрошенных службой.
-ms.openlocfilehash: fa2bef394ea8473aa65bdc2f1d39c0794186fdc6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bcb2ebf15e628a04e8507f938d385cf113f2f2a3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834348"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465900"
 ---
 # <a name="mailtipsrequested"></a>маилтипсрекуестед
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834348"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19834348"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

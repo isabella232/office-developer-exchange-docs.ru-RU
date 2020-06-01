@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bb184144-3e4b-4419-a883-cc9fab1085e6
 description: Элемент Реплибоди содержит сообщение об отсутствии на работе (отсутствие на работе) и язык, используемый для сообщения.
-ms.openlocfilehash: 8400dda1ee810781e129fcc44fd3cd5d6c15cbbe
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 496d336d1f87d9ea493ba7da362eef5a416fd899
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835116"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465305"
 ---
 # <a name="replybody"></a>реплибоди
 
@@ -66,7 +66,7 @@ ms.locfileid: "19835116"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

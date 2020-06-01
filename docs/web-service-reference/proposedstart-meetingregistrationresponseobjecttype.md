@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c58cef7-bc43-493a-a323-ba4dc6a33704
 description: Элемент ProposedStart (Митингрегистратионреспонсеобжекттипе) указывает предполагаемое новое время начала собрания.
-ms.openlocfilehash: db03d1b5e79ed53313cff9677687647f24e90756
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6f105556c39fa6549b3bec2f7a6fee50d4049358
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834905"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465592"
 ---
 # <a name="proposedstart-meetingregistrationresponseobjecttype"></a>ProposedStart (Митингрегистратионреспонсеобжекттипе)
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834905"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Акцептитем](acceptitem.md) | [TentativelyAcceptItem](tentativelyacceptitem.md)тентативелякцептитем | [деклинеитем](declineitem.md)
+[Акцептитем](acceptitem.md)  |  [Тентативелякцептитем](tentativelyacceptitem.md)  |  [Деклинеитем](declineitem.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834905"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

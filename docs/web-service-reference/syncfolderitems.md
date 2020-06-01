@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 463ed78c-bf82-4cd8-971a-d18425e9e7be
 description: Элемент SyncFolderItems определяет запрос на синхронизацию элементов в папке хранилища Exchange.
-ms.openlocfilehash: 368e19babfccaeab40380103495c63d30647905c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0fa5b1544d5627d1423287369e72f97662c28d12
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840126"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465151"
 ---
 # <a name="syncfolderitems"></a>SyncFolderItems
 
@@ -40,7 +40,7 @@ ms.locfileid: "19840126"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -65,7 +65,7 @@ ms.locfileid: "19840126"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |схема сообщений  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

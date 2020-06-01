@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 8949a9b7-1871-4031-9a86-61636e695e4c
 description: Элемент Оабурл указывает URL-адрес сервера конфигурации автономной адресной книги для топологии Exchange.
-ms.openlocfilehash: dda622e24892f2a8f0b2186483683ff6d3c28a22
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ea6efc3160a130a2293fa09534bfd0f76171e7cd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834633"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465893"
 ---
 # <a name="oaburl-pox"></a>Оабурл (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19834633"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 46726ebb-a403-4793-8378-282aa7dc39d0
 description: Элемент Position указывает позицию объекта, извлеченного из сообщения.
-ms.openlocfilehash: 4bd8f3088891e918e13d5ef1ec8e3e5217cb3fa1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9acd965c3e0c29f3fa91df338c0671749192b38b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834853"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465424"
 ---
 # <a name="position"></a>Position
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834853"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Урлентити](urlentity.md) | [аддрессентити](addressentity.md) | [MeetingSuggestion](meetingsuggestion.md) | [TaskSuggestion](tasksuggestion.md) [EmailAddressEntity](emailaddressentity.md) | [Phone (PhoneEntityType)](phone-phoneentitytype.md)[Contact (ContactType)](contact-contacttype.md)емаиладдрессентити свойства meetingsuggestion | Contact (контакттипе) Phone (фонинтититипе) TaskSuggestion | 
+[Урлентити](urlentity.md)  |  [Аддрессентити](addressentity.md)  |  [Емаиладдрессентити](emailaddressentity.md)  |  [Свойства meetingsuggestion](meetingsuggestion.md)  |  [Контактное лицо (контакттипе)](contact-contacttype.md)  |  [Телефон (фонинтититипе)](phone-phoneentitytype.md)  |  [TaskSuggestion](tasksuggestion.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834853"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

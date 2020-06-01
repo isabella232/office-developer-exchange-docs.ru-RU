@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 94a233d8-2eb4-4cec-913d-965aca4c975b
 description: Элемент ProposedStart (AttendeeType) указывает время начала предложенного участника собрания.
-ms.openlocfilehash: ce5ff1b0f617a04812999e32a974a1896f274e62
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cf5b6492ae21d5e2722f0b87cd4c6c0908f8df59
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834910"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465613"
 ---
 # <a name="proposedstart-attendeetype"></a>ProposedStart (AttendeeType)
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834910"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Attendee](attendee.md)
+[Участник](attendee.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834910"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
@@ -63,7 +63,7 @@ ms.locfileid: "19834910"
 
 
 
-[Attendee](attendee.md)
+[Участник](attendee.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

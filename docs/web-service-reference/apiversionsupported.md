@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d9264e74-eba7-4279-b193-af7e5130268d
 description: Элемент Апиверсионсуппортед содержит версию API JavaScript для Office, поддерживаемую клиентом.
-ms.openlocfilehash: 41c3eacff65d797dfe7e8b587c50c35d8938664f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0129a33624b48d309ad0814af6eaa655b2c4e6f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761384"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466061"
 ---
 # <a name="apiversionsupported"></a>апиверсионсуппортед
 
@@ -30,11 +30,11 @@ ms.locfileid: "19761384"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19761384"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> | http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> | https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Неприменимо  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

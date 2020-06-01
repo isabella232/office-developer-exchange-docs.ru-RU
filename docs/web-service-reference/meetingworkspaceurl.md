@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0ca942fe-8f57-4065-93ad-65790f9a04c3
 description: Элемент Митингворкспацеурл содержит URL-адрес рабочей области для собраний, включенной в элемент календаря. Рабочая область для собраний — это общедоступный веб-сайт для планирования собраний и отслеживания результатов.
-ms.openlocfilehash: 7d84547eafe4e77fb23a792fbf15633dbf93d775
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cd4396e590ab1471278bd44b9a4e0009fe326eaf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834436"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466285"
 ---
 # <a name="meetingworkspaceurl"></a>митингворкспацеурл
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834436"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19834436"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c67069e9-0c11-47c5-8b99-82932a6b7f98
 description: Элемент Мобилефонес указывает массив номеров мобильных телефонов и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 03ef771e100935040eb351d2eaa6b76b63854649
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a38a6c3912535d5d886cac82407b4819373da00f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834469"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466663"
 ---
 # <a name="mobilephones"></a>мобилефонес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834469"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834469"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

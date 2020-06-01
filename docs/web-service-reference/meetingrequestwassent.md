@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9192400a-8eef-4147-9f94-aa8ea91b41d8
 description: Элемент Митингрекуествассент указывает, было ли приглашение на собрание отправлено запрошенным участникам.
-ms.openlocfilehash: 0a87b1d773997e08ab96726375e4c8ce010faaf7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d5005eb86d5f8d2f438a69e634f0617c2311d720
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834438"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465767"
 ---
 # <a name="meetingrequestwassent"></a>митингрекуествассент
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834438"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834438"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 69c22546-ebd6-4a03-b0b4-bbac72ec5551
 description: Внутренний элемент содержит коллекцию URL-адресов, которые клиент может использовать для подключения к Exchange из сети Организации.
-ms.openlocfilehash: 0dc5b679af98b52f15ef3b40181c2d97f102f373
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8164a018a11f9bae9c3abcbfebf6cf0694ca4183
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833946"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465599"
 ---
 # <a name="internal-pox"></a>Internal (POX)
 
@@ -46,7 +46,7 @@ ms.locfileid: "19833946"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

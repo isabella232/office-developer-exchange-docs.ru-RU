@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: c0f14a15-3389-4311-8bac-f87930c5f5d4
 description: Операция ResetPIN изменяет ПИН-код (ТЕЛЕФОННОГО интерфейса пользователя пароль) на новое случайное значение.
-ms.openlocfilehash: e6417b86ce17c0d34fe857cf1209a18972cbef63
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8de64ce7a47e9c426f8eb9298e1ca00508fb616c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835146"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465494"
 ---
 # <a name="resetpin-operation-um-web-service"></a>Операция ResetPIN (веб-служба единой системы обмена сообщениями)
 
@@ -38,7 +38,7 @@ ms.locfileid: "19835146"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <ResetPIN xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <ResetPIN xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
@@ -55,7 +55,7 @@ ms.locfileid: "19835146"
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <ResetPINResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <ResetPINResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```

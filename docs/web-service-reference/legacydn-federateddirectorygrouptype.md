@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6a20b0d3-3048-4349-8df4-1922ea90bae2
 description: Элемент LegacyDn (Федератеддиректориграуптипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: 84e0260b4b27490f46d3050d181a5fca94f56ed6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 76bd57295860c0e9f98ce6fd38e1d0c6c4b9a844
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834212"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466355"
 ---
 # <a name="legacydn-federateddirectorygrouptype"></a>LegacyDn (Федератеддиректориграуптипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19834212"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

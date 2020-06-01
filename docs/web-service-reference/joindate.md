@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 93c72a15-2e1d-473c-a6f7-c1c8c7f78758
 description: Элемент Жоиндате предназначен только для внутреннего использования.
-ms.openlocfilehash: b9784c0ce56950ebdfdd9ab9695bdd4d06e1b0be
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 427764929525b68bde139c838bc1f369b9d25689
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834182"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466425"
 ---
 # <a name="joindate"></a>жоиндате
 
@@ -25,11 +25,11 @@ ms.locfileid: "19834182"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

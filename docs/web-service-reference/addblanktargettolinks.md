@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 30180298-2501-4369-9b8f-2f7663f02336
 description: Элемент Аддбланктаржеттолинкс указывает, что целевой атрибут в HTML-ссылках имеет значение открыть новое окно.
-ms.openlocfilehash: 8a47e44d89bcc84bc0e8b61d45f18ff3182f7870
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1d4d36c1f4b98ebee96baea683c40527d2a9ec27
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761332"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465045"
 ---
 # <a name="addblanktargettolinks"></a>аддбланктаржеттолинкс
 
@@ -31,11 +31,11 @@ ms.locfileid: "19761332"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19761332"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

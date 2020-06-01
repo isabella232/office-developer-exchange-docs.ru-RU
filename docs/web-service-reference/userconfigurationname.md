@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6947dd03-9727-4379-9b9d-42373fa120c7
 description: Элемент Усерконфигуратионнаме представляет имя объекта пользовательской конфигурации. Имя объекта конфигурации пользователя — это идентификатор объекта конфигурации пользователя.
-ms.openlocfilehash: 33b3fc316a06b8088eb20a71788a9e6a3394d0d4
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 020b55919f7f81602a5eb072652d82168607d306
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354304"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466033"
 ---
 # <a name="userconfigurationname"></a>усерконфигуратионнаме
 
@@ -74,7 +74,7 @@ ms.locfileid: "21354304"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

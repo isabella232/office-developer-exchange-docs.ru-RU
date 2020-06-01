@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 258f4b1f-367e-4c7d-9c29-eb775a2398c7
 description: Элемент ParentFolderId представляет идентификатор родительской папки, содержащей элемент или папку.
-ms.openlocfilehash: 3f60e8adb62fbf464a58af4169fbcd83910877cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3bad638aa21019472df8f487f1e065d2e725e750
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834687"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465753"
 ---
 # <a name="parentfolderid"></a>ParentFolderId
 
@@ -42,7 +42,7 @@ ms.locfileid: "19834687"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,13 +57,13 @@ ms.locfileid: "19834687"
 |[делетедевент](deletedevent.md) <br/> |Представляет событие, в котором удаляется элемент или папка.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет частный список рассылки в почтовом ящике.  <br/> |
 |[Folder](folder.md) <br/> |Представляет папку в почтовом ящике.  <br/> |
-|[Элемент](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
 |[Элемент (Уплоадитемтипе)](item-uploaditemtype.md) <br/> |Представляет отдельный элемент для отправки в почтовый ящик.  <br/> |
 |[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в почтовом ящике.  <br/> |
 |[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании в почтовом ящике.  <br/> |
 |[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в почтовом ящике.  <br/> |
 |[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в почтовом ящике.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты в почтовом ящике.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты в почтовом ящике.  <br/> |
 |[модифиедевент](modifiedevent.md) <br/> |Представляет событие, в котором изменяется элемент или папка.  <br/> |
 |[моведевент](movedevent.md) <br/> |Представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую.  <br/> |
 |[невмаилевент](newmailevent.md) <br/> |Представляет событие, которое вызывается новым почтовым элементом в почтовом ящике.  <br/> |
@@ -87,7 +87,7 @@ ms.locfileid: "19834687"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5a9a4612-8064-4986-b467-c44f268c64df
 description: Элемент Тасксфолдер представляет папку Tasks, содержащуюся в почтовом ящике.
-ms.openlocfilehash: b2151c68519a6ff15fbc74b48fc93a7e06af9e76
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 522fe485482bd8159927f9925b7a5582ba2e1c22
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840138"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465340"
 ---
 # <a name="tasksfolder"></a>тасксфолдер
 
@@ -47,7 +47,7 @@ ms.locfileid: "19840138"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -83,7 +83,7 @@ ms.locfileid: "19840138"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

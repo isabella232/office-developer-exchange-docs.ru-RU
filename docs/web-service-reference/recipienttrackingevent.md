@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2bffdac7-c2f5-4805-ae7e-bd865301acb6
 description: Элемент РеЦипиенттраккинжевент содержит сведения об отдельном событии получателя.
-ms.openlocfilehash: c5488ba105f9a853a490d6f0f4ff9ff15b537e23
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9a014cdfac122f112205cfa5032535a770f9d82
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834989"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465487"
 ---
 # <a name="recipienttrackingevent"></a>реЦипиенттраккинжевент
 
@@ -47,7 +47,7 @@ ms.locfileid: "19834989"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -84,7 +84,7 @@ ms.locfileid: "19834989"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

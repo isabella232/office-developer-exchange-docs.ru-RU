@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 28f552d8-6bb8-49b4-a45c-b2053670f1cc
 description: Элемент Усепопаус указывает, используются ли для протокола SMTP сведения для проверки подлинности, предоставляемые для типа учетной записи POP3.
-ms.openlocfilehash: be03568d697b1f5461d49dba388a1d3f1008a67e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8d5bfffaab31c382ad43915e18b8a7a2b2737c21
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840404"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466509"
 ---
 # <a name="usepopauth-pox"></a>Усепопаус (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19840404"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

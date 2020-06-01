@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 259a1f62-b235-4964-88bf-2d1f1c05a563
 description: Элемент Rule содержит одно правило и представляет правило в почтовом ящике пользователя.
-ms.openlocfilehash: b1f9f058213543633335db11f03729964baf98ad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cdbd21df235a62a9e201e1eaae1d82a8ac10cdd2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835259"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465081"
 ---
 # <a name="rule-ruletype"></a>Правило (RuleType)
 
@@ -44,7 +44,7 @@ ms.locfileid: "19835259"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19835259"
 |[исинеррор](isinerror.md) <br/> |Указывает, является ли правило ошибкой.  <br/> |
 |[Conditions](conditions.md) <br/> |Определяет условия, при выполнении которых будут запускаться действия правил для правила.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Определяет исключения, которые представляют все доступные условия исключения правила для правила папки "Входящие".  <br/> |
-|[Действия](actions.md) <br/> |Представляет действия, выполняемые над сообщением при выполнении условий.  <br/> |
+|[Actions](actions.md) <br/> |Представляет действия, выполняемые над сообщением при выполнении условий.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -80,7 +80,7 @@ ms.locfileid: "19835259"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

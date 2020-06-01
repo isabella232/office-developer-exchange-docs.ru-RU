@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 52adbb30-3bfd-48aa-9ea8-9f7d3b4bee44
 description: Элемент Recipient представляет получателя, для которого возникло событие.
-ms.openlocfilehash: e8e8f9d6031d27c7441017c85eb26a143258b183
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eb7e85acf3c2b898b3f0bff4b63168d344e1daa8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834971"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465858"
 ---
 # <a name="recipient"></a>Recipient
 
@@ -40,7 +40,7 @@ ms.locfileid: "19834971"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19834971"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

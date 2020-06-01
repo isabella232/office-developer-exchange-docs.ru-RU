@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c143a6ec-62ad-4d48-b844-b1ad88054bc1
 description: Элемент Усерконфигуратионпропертиес указывает типы свойств, которые необходимо получить в операции GetUserConfiguration.
-ms.openlocfilehash: 4f993765bb7c36f28a41a3f2fa7e28698a3f709e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: af6bee64516a7410d96ecc7581e8e819f550ddc1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840416"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466495"
 ---
 # <a name="userconfigurationproperties"></a>усерконфигуратионпропертиес
 
@@ -34,11 +34,11 @@ ms.locfileid: "19840416"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19840416"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

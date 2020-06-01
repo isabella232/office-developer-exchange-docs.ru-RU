@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b005a80c-addb-4409-beff-e5162076752c
 description: Элемент Тимезонедефинитион указывает точки и переходы, определяющие часовой пояс.
-ms.openlocfilehash: ffd5ed0c862af794e4aff2387f508849b1d5fd5d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 58d34556686bfc77244b5829798eada51a1df843
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840200"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466068"
 ---
 # <a name="timezonedefinition"></a>тимезонедефинитион
 
@@ -67,7 +67,7 @@ ms.locfileid: "19840200"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

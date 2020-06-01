@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9741b71d-a310-4520-81d5-3787a1ee630f
 description: Элемент Миреспонсетипе содержит состояние или ответ на элемент календаря.
-ms.openlocfilehash: 3be900ed6d2932699e3e83a0bca2918c016eb689
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 640b0595ac039cc3c119aa52aa6e791e5b695e87
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834497"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466628"
 ---
 # <a name="myresponsetype"></a>миреспонсетипе
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834497"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -51,7 +51,7 @@ ms.locfileid: "19834497"
 
 Необходимо указать текстовое значение. Ниже приведены возможные текстовые значения для этого элемента:
   
-- Unknown
+- Неизвестно
     
 - Организатор
     
@@ -71,7 +71,7 @@ ms.locfileid: "19834497"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

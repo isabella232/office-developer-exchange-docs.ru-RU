@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 486612be-470c-4f99-929a-f2b283e055c1
 description: Элемент PlayOnPhone представляет запрос на чтение элемента на телефоне.
-ms.openlocfilehash: 75493a31940ea609fd6cf454e91ca5881fb7e678
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e2c09a67255106ad9afddb86fa19b7a4a5762ee5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834816"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466250"
 ---
 # <a name="playonphone-exchange-web-services"></a>PlayOnPhone (веб-службы Exchange)
 
@@ -34,7 +34,7 @@ ms.locfileid: "19834816"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19834816"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

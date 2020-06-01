@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9e571021-d58f-424b-8db2-48cf683533dc
 description: Элемент Вебклиентедитформкуеристринг представляет URL-адрес для сцепления с конечной точкой Outlook Web App для изменения элемента в Outlook Web App.
-ms.openlocfilehash: a7503c3896899e8d2da6aced7b8d259f9b8aaceb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d6f20d1342746a764f754a6b20633a7bded3f6c1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840493"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464989"
 ---
 # <a name="webclienteditformquerystring"></a>вебклиентедитформкуеристринг
 
@@ -34,11 +34,11 @@ ms.locfileid: "19840493"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19840493"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

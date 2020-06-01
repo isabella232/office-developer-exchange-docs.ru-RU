@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 77c0abab-69e8-428e-8c20-22258e4ef71b
 description: Элемент SubscriptionId представляет идентификатор для подписки.
-ms.openlocfilehash: 8867b7da7c75cfd9d41f708c0481627d5186cc14
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e103386f466d65717878b4a6c811f3c3ad6e7c7d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835622"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465354"
 ---
 # <a name="subscriptionid-getevents"></a>SubscriptionId (Events)
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835622"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19835622"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |схема сообщений  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

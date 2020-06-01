@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ddb276c4-6c8a-46ef-a2eb-46b6a0bfce09
 description: Элемент Сеарчмаилбоксесресулт содержит результат запроса SearchMailboxes.
-ms.openlocfilehash: 93e5837216ef8942b77ac2a91f5ef5f0ad001756
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 79d593d99762aedc6290578b5458f9ac3cad3d26
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835300"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466705"
 ---
 # <a name="searchmailboxesresult"></a>сеарчмаилбоксесресулт
 
@@ -42,11 +42,11 @@ ms.locfileid: "19835300"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Сеарчкуериес](searchqueries.md) | [resultType](resulttype.md) | [ItemCount](itemcount.md) | [KeywordStats](keywordstats.md) | [FailedMailboxes](failedmailboxes.md)[PageItemCount](pageitemcount.md) |  | [MailboxStats](mailboxstats.md) [PageItemSize](pageitemsize.md)[Size (long)](size-long.md) |  | [Refiners](refiners.md)[Items (ArrayOfSearchPreviewItemsType)](items-arrayofsearchpreviewitemstype.md)ItemCount size (Long) пажеитемкаунт пажеитемсизе кэйвордстатс Items (аррайофсеарчпревиевитемстипе) FailedMailboxes уточнения MailboxStats |  | 
+[Сеарчкуериес](searchqueries.md)  |  [ResultType](resulttype.md)  |  [ItemCount](itemcount.md)  |  [Размер (длинный)](size-long.md)  |  [Пажеитемкаунт](pageitemcount.md)  |  [Пажеитемсизе](pageitemsize.md)  |  [Кэйвордстатс](keywordstats.md)  |  [Элементы (аррайофсеарчпревиевитемстипе)](items-arrayofsearchpreviewitemstype.md)  |  [Фаиледмаилбоксес](failedmailboxes.md)  |  [Уточнения](refiners.md)  |  [Маилбоксстатс](mailboxstats.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19835300"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

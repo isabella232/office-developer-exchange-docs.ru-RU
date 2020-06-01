@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 00878187-fac2-45b9-ba1c-df7ffac71089
 description: Элемент Респонсемессажес представляет список ответных сообщений с советами по почте.
-ms.openlocfilehash: 80610af191f3fa600abe2ba8dbba2aac63f3ab1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2db58029ead9332b832006bc81d751d77df54b07
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835192"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465452"
 ---
 # <a name="responsemessages-arrayofmailtipsresponsemessagetype"></a>Респонсемессажес (Аррайофмаилтипсреспонсемессажетипе)
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835192"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19835192"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e5387172-5b92-4bb1-8394-180e9c7ff771
 description: Элемент Алловекстерналуф содержит значение, определяющее отправку внешних сообщений об отсутствии на работе (отсутствие на работе).
-ms.openlocfilehash: 1c87a51676bf6e44b2e650a4e973d0ab89a52e31
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e4934bc4bc86e1f9f764279a13ecaeca073d9e5d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761374"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464814"
 ---
 # <a name="allowexternaloof"></a>алловекстерналуф
 
@@ -38,11 +38,11 @@ ms.locfileid: "19761374"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19761374"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

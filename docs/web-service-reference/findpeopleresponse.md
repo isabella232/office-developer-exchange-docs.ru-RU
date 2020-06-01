@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 95f016a9-002f-4be3-abd6-f5e3528afd44
 description: Элемент Финдпеоплереспонсе указывает ответ на запрос FindPeople.
-ms.openlocfilehash: 4f2c2f6069a515d5153ea488b35182d8b35f029f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b969ac3f7bc2bbd3fc77bf753a15696c3b6d8216
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762591"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466404"
 ---
 # <a name="findpeopleresponse"></a>финдпеоплереспонсе
 
@@ -76,7 +76,7 @@ ms.locfileid: "19762591"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

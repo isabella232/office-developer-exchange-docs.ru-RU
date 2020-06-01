@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 7f8cb6d6-4aac-4a1f-8bec-2dcb90fc1df6
 description: Элемент Вебклиентурл представляет URL-адрес веб-клиента Exchange.
-ms.openlocfilehash: 649845018acee1706a96f9e37475a6d5c5fa0aa7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bcf9c8d4fe80de8af4c9500e5e850558a8451d4e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840502"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464975"
 ---
 # <a name="webclienturl-soap"></a>Вебклиентурл (SOAP)
 
@@ -40,7 +40,7 @@ ms.locfileid: "19840502"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19840502"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

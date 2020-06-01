@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7358bb88-c441-4f2c-9647-c030e7303e8a
 description: Элемент IsDefault указывает, является ли расположение общего доступа к документу общим расположением пользователя по умолчанию.
-ms.openlocfilehash: 6e5e2958f4c9909968b976d73584b1060ee58dfa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dbf419d591bc0d693204df51d8259c2a9fe13c50
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833997"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466075"
 ---
 # <a name="isdefault-soap"></a>По умолчанию (SOAP)
 
@@ -29,11 +29,11 @@ ms.locfileid: "19833997"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,7 +49,7 @@ ms.locfileid: "19833997"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7dae4db5-28d3-4b81-b071-458c814c36b9
 description: Элемент Вотингреспонсе указывает отправленный голос. Этот элемент присутствует только в ответах на сообщения запроса на голосование, а не на отклики на утверждения.
-ms.openlocfilehash: 865b24a4f7ec1cc7b53d4928b04f071cddf5fbfc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ed7caff79d1ff2946800630c167350fe866e29dc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840484"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466467"
 ---
 # <a name="votingresponse"></a>VotingResponse
 
@@ -30,11 +30,11 @@ ms.locfileid: "19840484"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19840484"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

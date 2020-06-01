@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 10d0739c-2591-4768-935c-b131b26e974d
 description: Элемент Сетклиентекстенсион содержит запрос на установку расширения клиента.
-ms.openlocfilehash: 9e0a2926e25d74657ddf8a50ec88e77af0fc4ea1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a856cd6b7063f7399e584b9932fcaf7fdc53094e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835398"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466166"
 ---
 # <a name="setclientextension"></a>сетклиентекстенсион
 
@@ -32,7 +32,7 @@ ms.locfileid: "19835398"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835398"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

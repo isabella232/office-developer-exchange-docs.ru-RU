@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 569ab552-5616-444a-a7f5-de366a684a34
 description: Элемент Рестриктедграупсидс представляет коллекцию ограниченных групп из маркера пользователя.
-ms.openlocfilehash: fcfee809261c7ed0a4e0d092c091841fec641e46
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 739a73d2ac4bdbbee03650d035271b5c8d9ea25a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835201"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465361"
 ---
 # <a name="restrictedgroupsids"></a>рестриктедграупсидс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835201"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19835201"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

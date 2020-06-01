@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f5c73fed-7b00-446d-8296-71a0c86e7fc6
 description: Элемент Ассигнкатегориес представляет категории, помеченные в сообщениях электронной почты.
-ms.openlocfilehash: 96c77306d649677c1be745e8cadc2886e4a84c8a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e2dad0e2ef46421ae92a0d2826d161e5e2af3b93
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761499"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464744"
 ---
 # <a name="assigncategories"></a>ассигнкатегориес
 
@@ -25,7 +25,7 @@ ms.locfileid: "19761499"
   
 - [Правило (RuleType)](rule-ruletype.md)
   
-- [Действия](actions.md)
+- [Actions](actions.md)
   
 ```XML
 <AssignCategories>
@@ -40,7 +40,7 @@ ms.locfileid: "19761499"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19761499"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

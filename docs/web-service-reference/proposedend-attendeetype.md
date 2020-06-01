@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fc9c0a57-f8b0-440f-97dd-88af47840625
 description: Элемент ProposedEnd (AttendeeType) указывает время окончания предложенного участника собрания.
-ms.openlocfilehash: 7a785d675306bf9174f74bc6518905a212f10d06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 892a80197a269f806fe7520d6660d09e1cfb38ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834895"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465571"
 ---
 # <a name="proposedend-attendeetype"></a>Пропоседенд (AttendeeType)
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834895"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Attendee](attendee.md)
+[Участник](attendee.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834895"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
@@ -63,7 +63,7 @@ ms.locfileid: "19834895"
 
 
 
-[Attendee](attendee.md)
+[Участник](attendee.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

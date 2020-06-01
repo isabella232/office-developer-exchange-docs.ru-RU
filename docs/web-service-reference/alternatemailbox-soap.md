@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: d913a70d-5a85-4b6e-becc-2fb9334b6088
 description: Элемент Алтернатемаилбокс представляет альтернативный почтовый ящик.
-ms.openlocfilehash: 8eb53e4846ad55916e2c5876606c00c0f2e371ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9019f85a373cc186cc9dadddceee3dc9d11b3854
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761425"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466159"
 ---
 # <a name="alternatemailbox-soap"></a>Алтернатемаилбокс (SOAP)
 
@@ -37,7 +37,7 @@ ms.locfileid: "19761425"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -57,13 +57,13 @@ ms.locfileid: "19761425"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

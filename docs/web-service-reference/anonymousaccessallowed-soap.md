@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bf819a65-30f2-4881-a34f-cb30a9c2b6a7
 description: Элемент Анонимаусакцессалловед указывает, требуется ли для расположения общего доступа к документу пользователь, прошедший проверку подлинности.
-ms.openlocfilehash: 7ca208aa0d75b254463400a5e207079d722fc0a3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b3ff22fbba603bbd74dc08a0dbb1d8687714fe7d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761386"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466082"
 ---
 # <a name="anonymousaccessallowed-soap"></a>Анонимаусакцессалловед (SOAP)
 
@@ -29,11 +29,11 @@ ms.locfileid: "19761386"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,7 +49,7 @@ ms.locfileid: "19761386"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

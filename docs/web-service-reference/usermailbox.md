@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1d47141c-3c3f-45b8-90c5-33a44adb34b2
 description: Элемент UserMailbox определяет почтовый ящик пользователя.
-ms.openlocfilehash: 9f359a2b0ba315c236d4bf189c3de321417bd390
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9bb1b08320f5e6f4843383a8e3aff96fc3dcccad
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840425"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465319"
 ---
 # <a name="usermailbox"></a>UserMailbox
 
@@ -37,11 +37,11 @@ ms.locfileid: "19840425"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Почтовые ящики (аррайофусермаилбоксестипе)](mailboxes-arrayofusermailboxestype.md) | [маилбоксстатистикссеарчресулт](mailboxstatisticssearchresult.md)
+[Почтовые ящики (аррайофусермаилбоксестипе)](mailboxes-arrayofusermailboxestype.md)  |  [Маилбоксстатистикссеарчресулт](mailboxstatisticssearchresult.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -53,7 +53,7 @@ ms.locfileid: "19840425"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |true  <br/> |

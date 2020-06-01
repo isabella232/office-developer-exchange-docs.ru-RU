@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8bf16552-b672-424a-91b6-6470e20a49ad
 description: Элемент Фоненумбераттрибутедвалуе указывает экземпляр массива номеров телефонов и связанные с ними атрибуты.
-ms.openlocfilehash: a2cc2685e804b3bf6dd5f9083b31a4bd137f8aac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b1597ea33973d0dde5bd528061cf732101582c9d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834771"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465627"
 ---
 # <a name="phonenumberattributedvalue"></a>фоненумбераттрибутедвалуе
 
@@ -33,15 +33,15 @@ ms.locfileid: "19834771"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Атрибуты значений (персонафоненумбертипе)](value-personaphonenumbertype.md) | [(аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
+[Значение (персонафоненумбертипе)](value-personaphonenumbertype.md)  |  [Атрибуты (аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Бусинессфоненумберс](businessphonenumbers.md) | [BusinessPhoneNumbers2](businessphonenumbers2.md) | [OtherFaxes](otherfaxes.md)[AssistantPhoneNumbers](assistantphonenumbers.md) | [WorkFaxes](workfaxes.md) [HomePhones2](homephones2.md) | [HomeFaxes](homefaxes.md)[HomePhones](homephones.md) | [MobilePhones2](mobilephones2.md) | [TelexNumbers](telexnumbers.md)[MobilePhones](mobilephones.md) | [RadioPhones](radiophones.md)[CallbackPhones](callbackphones.md) | [TTYTDDPhoneNumbers](ttytddphonenumbers.md)[OtherPhones2](otherphones2.md)[OrganizationMainPhones](organizationmainphones.md)[OtherTelephones](othertelephones.md)[CarPhones](carphones.md)[Pagers](pagers.md)хомефонес HomePhones2 мобилефонес MobilePhones2 | ассистантфоненумберс каллбаккфонес | CarPhones HomeFaxes | OrganizationMainPhones OtherFaxes OtherTelephones OtherPhones2 | пейджеров RadioPhones TelexNumbers TTYTDDPhoneNumbers WorkFaxes |  |  |  |  |  | 
+[Бусинессфоненумберс](businessphonenumbers.md)  |  [BusinessPhoneNumbers2](businessphonenumbers2.md)  |  [Хомефонес](homephones.md)  |  [HomePhones2](homephones2.md)  |  [Мобилефонес](mobilephones.md)  |  [MobilePhones2](mobilephones2.md)  |  [Ассистантфоненумберс](assistantphonenumbers.md)  |  [Каллбаккфонес](callbackphones.md)  |  [Карфонес](carphones.md)  |  [Хомефаксес](homefaxes.md)  |  [Организатионмаинфонес](organizationmainphones.md)  |  [Осерфаксес](otherfaxes.md)  |  [Осертелефонес](othertelephones.md)  |  [OtherPhones2](otherphones2.md)  |  [Пейджеры](pagers.md)  |  [Радиофонес](radiophones.md)  |  [Телекснумберс](telexnumbers.md)  |  [Ттитддфоненумберс](ttytddphonenumbers.md)  |  [Воркфаксес](workfaxes.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834771"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

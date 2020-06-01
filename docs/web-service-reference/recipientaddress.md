@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9ae6351a-2c60-4715-a489-5681a13641f9
 description: Элемент Получательимеет адрес представляет почтовый ящик получателя.
-ms.openlocfilehash: 10928ac206227cfc21bd83ab5bfa9a55aad354e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f4b6edd034dd91471e6496f6b0cca65bd3ffb69a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834974"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465851"
 ---
 # <a name="recipientaddress"></a>RecipientAddress
 
@@ -40,7 +40,7 @@ ms.locfileid: "19834974"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19834974"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0cb5525f-faa3-48f1-9551-df55ffc26f46
 description: Поиск сведений о AddNewImContactToGroupной операции EWS.
-ms.openlocfilehash: f75b89dbb6e948431d56acb9baa93fe4d4a1d939
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e91cc067b4161b366e6713a9adc16873e63b1562
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761351"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465031"
 ---
 # <a name="addnewimcontacttogroup-operation"></a>Операция AddNewImContactToGroup
 
@@ -53,8 +53,8 @@ ms.locfileid: "19761351"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -102,40 +102,40 @@ ms.locfileid: "19761351"
                          MajorBuildNumber="349" 
                          MinorBuildNumber="0" 
                          Version="Exchange2013" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <AddNewImContactToGroupResponse ResponseClass="Success" 
-                                    xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                    xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Persona>
         <PersonaId Id="AAQkAGQ1MjJjMTBkLTc4Y2UtNDA5Ny04ZjU5LWI3MTYzNGNkZmRkYQAQAJ3EkhEEXN5KufGbSYJanZk=" 
-                   xmlns="http://schemas.microsoft.com/exchange/services/2006/types" />
-        <PersonaType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Person</PersonaType>
-        <CreationTime xmlns="http://schemas.microsoft.com/exchange/services/2006/types">2012-01-05T23:06:58Z</CreationTime>
-        <DisplayName xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayName>
-        <DisplayNameFirstLast xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayNameFirstLast>
-        <DisplayNameLastFirst xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayNameLastFirst>
-        <FileAsId xmlns="http://schemas.microsoft.com/exchange/services/2006/types">None</FileAsId>
-        <EmailAddress xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+                   xmlns="https://schemas.microsoft.com/exchange/services/2006/types" />
+        <PersonaType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Person</PersonaType>
+        <CreationTime xmlns="https://schemas.microsoft.com/exchange/services/2006/types">2012-01-05T23:06:58Z</CreationTime>
+        <DisplayName xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayName>
+        <DisplayNameFirstLast xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayNameFirstLast>
+        <DisplayNameLastFirst xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayNameLastFirst>
+        <FileAsId xmlns="https://schemas.microsoft.com/exchange/services/2006/types">None</FileAsId>
+        <EmailAddress xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Name>Tony Smith</Name>
           <Address>tsmith@contoso.com</Address>
           <RoutingType>SMTP</RoutingType>
         </EmailAddress>
-        <EmailAddresses xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <EmailAddresses xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <EmailAddress>
             <Name>Tony Smith</Name>
             <Address>tsmith@contoso.com</Address>
             <RoutingType>SMTP</RoutingType>
           </EmailAddress>
         </EmailAddresses>
-        <ImAddress xmlns="http://schemas.microsoft.com/exchange/services/2006/types">tsmith@contoso.com</ImAddress>
-        <RelevanceScore xmlns="http://schemas.microsoft.com/exchange/services/2006/types">2147483647</RelevanceScore>
-        <Attributions xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <ImAddress xmlns="https://schemas.microsoft.com/exchange/services/2006/types">tsmith@contoso.com</ImAddress>
+        <RelevanceScore xmlns="https://schemas.microsoft.com/exchange/services/2006/types">2147483647</RelevanceScore>
+        <Attributions xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Attribution>
             <Id>0</Id>
             <SourceId Id="BtF8oI7iVOQatt/bhQoTbWAAAAAAvcAAA=" 
@@ -148,7 +148,7 @@ ms.locfileid: "19761351"
                       ChangeKey="AQAAAA==" />
           </Attribution>
         </Attributions>
-        <DisplayNames xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <DisplayNames xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <StringAttributedValue>
             <Value>Tony Smith</Value>
             <Attributions>
@@ -156,7 +156,7 @@ ms.locfileid: "19761351"
             </Attributions>
           </StringAttributedValue>
         </DisplayNames>
-        <FileAsIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <FileAsIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <StringAttributedValue>
             <Value>None</Value>
             <Attributions>
@@ -164,7 +164,7 @@ ms.locfileid: "19761351"
             </Attributions>
           </StringAttributedValue>
         </FileAsIds>
-        <Emails1 xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Emails1 xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <EmailAddressAttributedValue>
             <Value>
               <Name>Tony Smith</Name>
@@ -176,7 +176,7 @@ ms.locfileid: "19761351"
             </Attributions>
           </EmailAddressAttributedValue>
         </Emails1>
-        <ImAddresses xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <ImAddresses xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <StringAttributedValue>
             <Value>tsmith@contoso.com</Value>
             <Attributions>
@@ -265,20 +265,20 @@ ms.locfileid: "19761351"
                            MajorBuildNumber="578" 
                            MinorBuildNumber="11" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <AddNewImContactToGroupResponse ResponseClass="Error" 
-                                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>No mailbox with such guid.</MessageText>
          <ResponseCode>ErrorNonExistentMailbox</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
          <MessageXml>
-            <t:Value Name="MailboxGuid" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">d5fasdadcw3d-23de-2341-8f59-b71523fsddda</t:Value>
+            <t:Value Name="MailboxGuid" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">d5fasdadcw3d-23de-2341-8f59-b71523fsddda</t:Value>
          </MessageXml>
       </AddNewImContactToGroupResponse>
    </s:Body>
@@ -314,5 +314,5 @@ ms.locfileid: "19761351"
 [Операция SetImGroup](setimgroup-operation.md)
 
 
-[Пользователи и контакты в EWS для Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+[Пользователи и контакты в EWS для Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
 
