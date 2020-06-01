@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dd16d1fb-d82d-42e5-b64a-bc6c19c48fa8
 description: Элемент GetNonIndexableItemStatistics указывает запрос на получение статистики неиндексируемых элементов.
-ms.openlocfilehash: 4e6f9a0ba94e9946a3910661810bc2c9e748ba9f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4b605379f20f5558566f1cfbad9ef1aa33b6fce6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762856"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452792"
 ---
 # <a name="getnonindexableitemstatistics"></a>GetNonIndexableItemStatistics
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762856"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762856"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

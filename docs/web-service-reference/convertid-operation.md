@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 47d96cf6-9e2f-4fc0-9682-7258d3fbf918
 description: Поиск сведений о ConvertIdной операции EWS.
-ms.openlocfilehash: 5f1bcd8a9f0adc25b7c598ef10cc6bb139dfe02d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 36bd47d3fc7c7ca7cea7b38222abb25fba6074ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761826"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452554"
 ---
 # <a name="convertid-operation"></a>Операция ConvertId
 
@@ -30,17 +30,17 @@ ms.locfileid: "19761826"
 
 С помощью операции **ConvertId** можно преобразовать следующие идентификаторы: 
   
-- Формат идентификатора для EWS в первой версии Exchange 2007. Представляется значением `EwsLegacyId` перечисления в перечислении [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) . 
+- Формат идентификатора для EWS в первой версии Exchange 2007. Представляется `EwsLegacyId` значением перечисления в перечислении [идформат](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) . 
     
-- Формат идентификатора для EWS в Exchange 2007 с пакетом обновления 1 (SP1) или Exchange 2010. Представляется значением `EwsId` перечисления в [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
+- Формат идентификатора для EWS в Exchange 2007 с пакетом обновления 1 (SP1) или Exchange 2010. Представляется `EwsId` значением перечисления в [идформат](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
     
-- Идентификатор MAPI, как в свойстве **PR_ENTRYID** . Представляется значением `EntryId` перечисления в перечислении [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) . 
+- Идентификатор MAPI, как в свойстве **PR_ENTRYID** . Представляется `EntryId` значением перечисления в перечислении [идформат](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) . 
     
-- Идентификатор события календаря доступности. Это представление свойства **PR_ENTRYID** в шестнадцатеричной кодировке. Представляется значением `HexEntryId` перечисления в [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
+- Идентификатор события календаря доступности. Это представление свойства **PR_ENTRYID** в шестнадцатеричной кодировке. Представляется `HexEntryId` значением перечисления в [идформат](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
     
-- Идентификатор хранилища Exchange. Представляется значением `StoreId` перечисления в [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx). Операция **ConvertId** не преобразует идентификаторы общедоступных папок из идентификатора EWS в идентификатор хранилища. 
+- Идентификатор хранилища Exchange. Представляется `StoreId` значением перечисления в [идформат](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx). Операция **ConvertId** не преобразует идентификаторы общедоступных папок из идентификатора EWS в идентификатор хранилища. 
     
-- Идентификатор Outlook Web App. Представляется значением `OwaId` перечисления в [идформат](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)
+- Идентификатор Outlook Web App. Представляется `OwaId` значением перечисления в [идформат](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)
     
     Передача URL-адресов, созданных из этого идентификатора в Outlook Web App, не поддерживается. Идентификатор Outlook Web App применяется к Exchange 2007 и Exchange 2010. Outlook Web App для Exchange Online и версии Exchange, начиная с Exchange Server 2013, используют идентификаторы EWS.
     
@@ -86,13 +86,13 @@ ms.locfileid: "19761826"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
   <soap:Body>
-    <ConvertId xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <ConvertId xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                DestinationFormat="OwaId">
       <SourceIds>
         <t:AlternateId Format="EwsId" Id="AAMkAGZhN2IxYTA0LWNiNzItN="
@@ -120,10 +120,10 @@ ms.locfileid: "19761826"
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="1" 
                          MajorBuildNumber="191" MinorBuildNumber="0" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ConvertIdResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ConvertIdResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <ConvertIdResponseMessage ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>
@@ -150,10 +150,10 @@ ms.locfileid: "19761826"
     <ServerVersionInfo MajorVersion="8" MinorVersion="1" 
                        MajorBuildNumber="206" MinorBuildNumber="0"
                        Version="Exchange2010" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types" />
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ConvertIdResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ConvertIdResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <ConvertIdResponseMessage ResponseClass="Error">
           <MessageText>Id is malformed.</MessageText>
@@ -176,7 +176,7 @@ ms.locfileid: "19761826"
 ## <a name="see-also"></a>См. также
 <a name="bk_ConvertIdVersionDiff"> </a>
 
-- [Преобразование идентификаторов](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+- [Преобразование идентификаторов](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
     
 - [конвертидтипе](https://msdn.microsoft.com/library/ExchangeWebServices.ConvertIdType.aspx)
     

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c466c845-9806-4a9a-8ba6-ee908b80d012
 description: Элемент keywords указывает ключевые слова для поиска операции Финдмаилбоксстатистиксбикэйвордс.
-ms.openlocfilehash: fc12756c54bfc457e8b9124d932ff7c5178719b2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d23840c4b651f5d4f42f36a0307a0fe5b25471f4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834192"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44451637"
 ---
 # <a name="keywords"></a>Ключевые слова
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834192"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

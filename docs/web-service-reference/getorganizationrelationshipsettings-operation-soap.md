@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ef3ef966-b24b-4f38-816f-0a10bed0103e
 description: Операция Жеторганизатионрелатионшипсеттинг получает параметры из всех подходящих Организатионрелатионшипс, которые имеют по крайней мере один домен в свойстве имя_домена, который сопоставляется по крайней мере с одним утверждением EmailAddress в маркере. Операция Жеторганизатионрелатионшипсеттинг предназначена только для внутреннего использования. Эта операция не используется клиентами.
-ms.openlocfilehash: 7bd716822b33698c7055058f39af44d05ba4700b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf3a249b1380f60dced985acbfae5a6aa0e8ac8a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762860"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452750"
 ---
 # <a name="getorganizationrelationshipsettings-operation-soap"></a>Операция Жеторганизатионрелатионшипсеттингс (SOAP)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5f24dc30-3ac2-4c82-9dfc-be9dbdb585be
 description: Элемент Маилбоксстат указывает статистику для почтового ящика, в котором выполняется поиск обнаружения.
-ms.openlocfilehash: 692f15904467ce192074b14f7c2a742b3e76de8e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 417f63f5e1aa34c2157b1d5ad868461113afec7b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834296"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44451434"
 ---
 # <a name="mailboxstat"></a>маилбоксстат
 
@@ -36,11 +36,11 @@ ms.locfileid: "19834296"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[MailboxId](mailboxid.md) | [DisplayName (String)](displayname-string.md) | [ItemCount](itemcount.md) | [size (Long)](size-long.md)
+[MailboxId](mailboxid.md)  |  [DisplayName (строка)](displayname-string.md)  |  [ItemCount](itemcount.md)  |  [Размер (длинный)](size-long.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19834296"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

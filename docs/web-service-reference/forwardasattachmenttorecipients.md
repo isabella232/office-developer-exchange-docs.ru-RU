@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8649ea14-672f-43c9-b10a-a2b02efd5867
 description: Элемент ForwardAsAttachmentToRecipients указывает адреса электронной почты, к которым сообщения, пересылаемые в виде вложений.
-ms.openlocfilehash: 04d4f9c6228e6d0ab34a6eff5d5751f461a57e19
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf8c3563460eea811602074bf16f9253b4610832
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762641"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44453338"
 ---
 # <a name="forwardasattachmenttorecipients"></a>форвардасаттачменттореЦипиентс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762641"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19762641"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

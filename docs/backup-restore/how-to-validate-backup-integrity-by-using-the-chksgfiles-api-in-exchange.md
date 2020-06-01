@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 607cbeb9-0a02-4079-8a4d-34bdeb560224
 description: Узнайте, как использовать API ЧКСГФИЛЕС для проверки резервной копии хранилища Exchange в Exchange 2013.
-ms.openlocfilehash: 968484cd5bb7439730685643683e1d850bec33ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c101413793cf3b952d3db3e0f792c8bcf2dd9fc9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760923"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452862"
 ---
 # <a name="validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013"></a>Проверка целостности резервной копии с помощью API ЧКСГФИЛЕС в Exchange 2013
 
@@ -29,7 +29,7 @@ ms.locfileid: "19760923"
   
 - Файлы из резервной копии хранилища Exchange.
 - Версия Visual Studio, начиная с Visual Studio 2010.
-- Библиотека ЧКСГФИЛЕС и файлы заголовков. Вы можете скачать библиотеку и файлы заголовков из [центра загрузки Майкрософт](http://www.microsoft.com/en-us/download/details.aspx?id=36802).
+- Библиотека ЧКСГФИЛЕС и файлы заголовков. Вы можете скачать библиотеку и файлы заголовков из [центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=36802).
     
 ## <a name="validate-backup-integrity"></a>Проверка целостности резервной копии
 

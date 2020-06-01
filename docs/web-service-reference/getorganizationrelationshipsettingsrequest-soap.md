@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4e8aa3b3-4bfc-40c3-b96b-9f7062b09309
 description: Элемент Жеторганизатионрелатионшипсеттингсрекуест представляет параметры вызова операции операции Жеторганизатионрелатионшипсеттингс (SOAP). Элемент Жеторганизатионрелатионшипсеттингсрекуест предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: 451506d53212ddca416f5b797624688f511988d0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 053bbb8cbe2ccdcf6d544ab1fc92bb81765997e1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762863"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452736"
 ---
 # <a name="getorganizationrelationshipsettingsrequest-soap"></a>Жеторганизатионрелатионшипсеттингсрекуест (SOAP)
 
@@ -31,7 +31,7 @@ ms.locfileid: "19762863"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -42,13 +42,13 @@ ms.locfileid: "19762863"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

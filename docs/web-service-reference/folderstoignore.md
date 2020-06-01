@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b5d18516-a617-4daf-8baf-c7ce29c76f6b
 description: Элемент Фолдерстоигноре определяет список папок, которые игнорируются при извлечении элементов в беседе. Все элементы беседы в игнорируемых папках не возвращаются в ответе GetConversationItems.
-ms.openlocfilehash: 96c094996c601e685dc1c7e6b869a790ce7d74a1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 07813a54a9a3afa3de23ae94f1c9b191d1cb6fac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762638"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44453359"
 ---
 # <a name="folderstoignore"></a>фолдерстоигноре
 
@@ -33,11 +33,11 @@ ms.locfileid: "19762638"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[FolderId](folderid.md) | [дистингуишедфолдерид](distinguishedfolderid.md)
+[FolderId](folderid.md)  |  [Дистингуишедфолдерид](distinguishedfolderid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19762638"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
