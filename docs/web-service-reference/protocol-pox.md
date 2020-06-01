@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: f77e4d66-6fdd-4999-9339-f7d7f9c86f44
 description: Элемент Protocol содержит спецификации для подключения клиента к компьютеру, на котором запущен сервер Exchange Server, на котором установлена роль сервера клиентского доступа.
-ms.openlocfilehash: e58ae82ea5ec9d39db0f9219f6019df7da24a343
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6fca347f49e27958ecb16cce345387b6a2146979
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834926"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467762"
 ---
 # <a name="protocol-pox"></a>Протокол (POX)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 70e6ef33-2046-4eb8-9987-e106009be04b
 description: Операция PlayOnPhone инициирует исходящий вызов и воспроизводит сообщение по телефону.
-ms.openlocfilehash: ec77720c69862e210316d61975b0d58c9530a40c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 18af810160e72856599f296c4faa83cf9c73c393
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834819"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467958"
 ---
 # <a name="playonphone-operation-ews"></a>Операция PlayOnPhone (EWS)
 
@@ -34,8 +34,8 @@ ms.locfileid: "19834819"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -67,15 +67,15 @@ ms.locfileid: "19834819"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <PlayOnPhoneResponse ResponseClass="Success" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <PhoneCallId Id="ZWMtWYtMY29t"/>
     </PlayOnPhoneResponse>

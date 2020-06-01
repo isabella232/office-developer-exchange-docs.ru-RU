@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c95956a8-7505-44b4-bea4-11d1f5182796
 description: Элемент Митингмессаже представляет собрание в хранилище Exchange.
-ms.openlocfilehash: a2e87bc9800ee1dc66c1a3110df76745ac7c05b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fee615a1da117e5df03cd5ce8576bd66d7e89a4e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834443"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468385"
 ---
 # <a name="meetingmessage"></a>митингмессаже
 
@@ -92,7 +92,7 @@ ms.locfileid: "19834443"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -104,7 +104,7 @@ ms.locfileid: "19834443"
 |[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
 |[Тема](subject.md) <br/> |Представляет тему для элементов хранилища Exchange и объектов ответа. Тема может иметь не более 255 символов.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Содержит статус чувствительности элемента.  <br/> |
-|[Основной текст](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
+|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
 |[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, вложенные в элемент в хранилище Exchange.  <br/> |
 |[DateTimeReceived](datetimereceived.md) <br/> |Представляет дату и время получения элемента в почтовом ящике.  <br/> |
 |[Размер](size.md) <br/> |Представляет размер элемента в байтах. Это свойство доступно только для чтения.  <br/> |
@@ -185,7 +185,7 @@ ms.locfileid: "19834443"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

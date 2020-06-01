@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d3c5fbf0-a95c-46e5-890f-953e50ac49d6
 description: Элемент Исфромме указывает, отправил ли пользователь элемент.
-ms.openlocfilehash: 1e8de064579132e4e8a650b9d592b26f5f77f9d0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eb69aa493d5ba8b0497fde4c52ad80fe17c92f1c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834058"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468021"
 ---
 # <a name="isfromme"></a>исфромме
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834058"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19834058"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

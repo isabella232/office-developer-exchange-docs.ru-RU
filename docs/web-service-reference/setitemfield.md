@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 85284fcb-bd1e-4fda-9dab-cb4cd637cd5b
 description: Элемент Сетитемфиелд представляет обновление одного свойства элемента в операции UpdateItem.
-ms.openlocfilehash: bd3e5bca3d61325ef3f218c5ada535346247f391
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: b4606eb7d94b9d0c4c5bcd5a2b56d73a4d4270cb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353800"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467426"
 ---
 # <a name="setitemfield"></a>сетитемфиелд
 
@@ -242,7 +242,7 @@ ms.locfileid: "21353800"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -252,7 +252,7 @@ ms.locfileid: "21353800"
 |[индекседфиелдури](indexedfielduri.md) <br/> |Определяет отдельные элементы словаря.  <br/> |
 |[екстендедфиелдури](extendedfielduri.md) <br/> |Определяет устанавливаемые расширенные свойства MAPI.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange, которое требуется обновить.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange, которое требуется обновить.  <br/> |
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange, который необходимо обновить.  <br/> |
 |[контакт](contact.md); <br/> |Представляет элемент контакта Exchange, который необходимо обновить.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки, который необходимо обновить.  <br/> |
@@ -276,7 +276,7 @@ ms.locfileid: "21353800"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

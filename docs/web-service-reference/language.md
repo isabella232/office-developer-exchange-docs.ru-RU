@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e24e672-7b17-49c8-b368-a078ca1d4dd1
 description: Элемент Language содержит язык, используемый для поискового запроса.
-ms.openlocfilehash: 735a962e6abca5ff81194242ea747a05bf92424e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3d1843ea5d38f5efee8453623f450a4486e4d18b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834225"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468700"
 ---
 # <a name="language"></a>Язык
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834225"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SetHoldOnMailboxes](setholdonmailboxes.md) | [SearchMailboxes](searchmailboxes.md)
+[SetHoldOnMailboxes](setholdonmailboxes.md)  |  [SearchMailboxes](searchmailboxes.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834225"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

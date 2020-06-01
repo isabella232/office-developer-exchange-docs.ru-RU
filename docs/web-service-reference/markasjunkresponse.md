@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 92827350-f317-46da-99c0-5d7960686194
 description: Элемент Маркасжункреспонсе указывает ответ на запрос MarkAsJunk.
-ms.openlocfilehash: 2f4ef60071b167df48507bf83b2d7ec1d43e8da1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ee8027a61175b8cbf25f5b7d0051a6ea6b74fcb3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834351"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468567"
 ---
 # <a name="markasjunkresponse"></a>маркасжункреспонсе
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834351"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834351"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

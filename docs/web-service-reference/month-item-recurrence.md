@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d2352001-f959-436a-afd5-a0a07b8ae02a
 description: Элемент month описывает месяц, когда происходит ежегодно повторяющийся элемент.
-ms.openlocfilehash: 64c76283deec70cb6996c9f424b689a9c87f2890
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d881c617374bc9545552ad77f2f2b355efdf2359
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834478"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468637"
 ---
 # <a name="month-item-recurrence"></a>Month (повторение элемента)
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834478"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -83,7 +83,7 @@ ms.locfileid: "19834478"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

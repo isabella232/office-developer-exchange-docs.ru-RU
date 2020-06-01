@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 984ccd97-c337-47b6-ba42-3405a8b55a71
 description: Элемент SmtpAddress содержит SMTP-адрес, назначенный хранилищу сообщений общедоступных папок, настроенному для пользователя.
-ms.openlocfilehash: 43ebb328e31cdec11412e80b743d4d4393b7960a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 48703a11fb056967c6c76073c2e928d5f6efa264
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835507"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468644"
 ---
 # <a name="smtpaddress-pox"></a>SmtpAddress (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19835507"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

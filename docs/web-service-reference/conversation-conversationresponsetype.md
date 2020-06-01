@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 57310ba7-f411-43fa-a096-acef0481afec
 description: Элемент Conversation (Жетконверсатионитемсреспонсемессажетипе) представляет один диалог, возвращенный в ответе GetConversationItems.
-ms.openlocfilehash: 413ace449002b72cedc03a973ca2f56d46b6b6de
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e729a9525030ec1e7abc2ffcb40fc92812b17001
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761805"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466775"
 ---
 # <a name="conversation-conversationresponsetype"></a>Беседа (Конверсатионреспонсетипе)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4a15bbc3-5b93-4193-b9ec-da32f0a9a552
 description: Элемент Оккурренцеитемид определяет один экземпляр повторяющегося элемента.
-ms.openlocfilehash: 073639ecbca6ffda872e9253b7c7e44c3541f13b
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 37c3a2442afb3302bca88ef0301e98013ff0319b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353464"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468378"
 ---
 # <a name="occurrenceitemid"></a>оккурренцеитемид
 
@@ -43,7 +43,7 @@ ms.locfileid: "21353464"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -73,7 +73,7 @@ ms.locfileid: "21353464"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

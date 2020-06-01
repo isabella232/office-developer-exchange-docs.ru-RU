@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ab7058f2-615f-4393-a0d4-af76727f37e9
 description: Элемент Item представляет отдельный элемент для отправки в почтовый ящик.
-ms.openlocfilehash: 8fecef9a2368a44e38633eb9fddaa8197620f6a1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 82c0fdf89c06ddfb812c2b2f1899b589eedeb7d8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834138"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467552"
 ---
 # <a name="item-uploaditemtype"></a>Элемент (Уплоадитемтипе)
 
@@ -50,7 +50,7 @@ ms.locfileid: "19834138"
 |**Значение**|**Описание**|
 |:-----|:-----|
 |**CreateNew** <br/> |Указывает, что новая копия исходного элемента будет отправлена в почтовый ящик. Элемент [ItemId](itemid.md) не должен присутствовать, если используется значение CreateNew. В ответе возвращается идентификатор нового элемента.  <br/> |
-|**обновление**. <br/> |Указывает, что элемент, указанный с помощью элемента **ItemId** , будет обновлен. Если элемент **ItemId** отсутствует или не существует в папке, указанной с помощью элемента [ParentFolderId](parentfolderid.md) , возвращается ошибка.  <br/> |
+|**Обновление** <br/> |Указывает, что элемент, указанный с помощью элемента **ItemId** , будет обновлен. Если элемент **ItemId** отсутствует или не существует в папке, указанной с помощью элемента [ParentFolderId](parentfolderid.md) , возвращается ошибка.  <br/> |
 |**упдатеоркреате** <br/> |Указывает, что сначала выполняется попытка обновления элемента. Если элемент не существует в папке, указанной с помощью элемента **ParentFolderId** , создается новый элемент.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
@@ -79,7 +79,7 @@ ms.locfileid: "19834138"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

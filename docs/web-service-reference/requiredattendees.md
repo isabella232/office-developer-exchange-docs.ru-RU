@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 422f8d44-b0eb-49ca-af0f-0e22b54c78d2
 description: Элемент RequiredAttendees представляет участников, которые необходимы для участия в собрании.
-ms.openlocfilehash: 9630be828f459808b61602448a4675aac07b0106
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a67800687f24dc323c3d80e4166ca9dd34dfc4fc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835149"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468294"
 ---
 # <a name="requiredattendees"></a>RequiredAttendees
 
@@ -36,13 +36,13 @@ ms.locfileid: "19835149"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Attendee](attendee.md) <br/> |Представляет участников и ресурсы собрания.  <br/> |
+|[Участник](attendee.md) <br/> |Представляет участников и ресурсы собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19835149"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

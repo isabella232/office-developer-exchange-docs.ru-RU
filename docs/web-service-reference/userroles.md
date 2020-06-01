@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: be003e12-3496-468d-a61c-48af0b819654
 description: Элемент UserRoles указывает роли пользователей, с которыми работает вызывающий пользователь, или пользователя, от которого работает партнерское приложение, необходимо применить к текущему вызову.
-ms.openlocfilehash: 19dc1a7e00decb9141326b53b650d72101013c11
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5155b82781321b16d1b58fdcaffe7b8cf2372717
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840438"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467132"
 ---
 # <a name="userroles"></a>UserRoles
 
@@ -32,11 +32,11 @@ ms.locfileid: "19840438"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Роль](role.md)
+[Role](role.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840438"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

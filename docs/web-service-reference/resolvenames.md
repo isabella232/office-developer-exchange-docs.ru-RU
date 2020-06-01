@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c85207e1-1315-443b-94ec-2b58f405076b
 description: Элемент ResolveNames определяет запрос на разрешение неоднозначных имен.
-ms.openlocfilehash: e97b6e78d99cf8ffa3d680907916882d40963f59
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9c36a5f84451f91e90a8e7148cf384b5cacd7f29
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835172"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467951"
 ---
 # <a name="resolvenames"></a>ResolveNames
 
@@ -64,8 +64,8 @@ ms.locfileid: "19835172"
 |**Значение**|**Описание**|
 |:-----|:-----|
 |идонли  <br/> |Возвращается свойство идентификатора элемента Contact.  <br/> |
-|По умолчанию  <br/> |Возвращается набор свойств элемента контакта по умолчанию. Дополнительные сведения о [фигурах ответа](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx)см.  <br/> |
-|аллпропертиес  <br/> |Возвращается набор Аллпропертиес для свойств элемента Contact. Дополнительные сведения о [фигурах ответа](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx)см.  <br/> |
+|По умолчанию  <br/> |Возвращается набор свойств элемента контакта по умолчанию. Дополнительные сведения о [фигурах ответа](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx)см.  <br/> |
+|аллпропертиес  <br/> |Возвращается набор Аллпропертиес для свойств элемента Contact. Дополнительные сведения о [фигурах ответа](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx)см.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -86,7 +86,7 @@ ms.locfileid: "19835172"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -105,5 +105,5 @@ ms.locfileid: "19835172"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Использование разрешения имен](http://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
+[Использование разрешения имен](https://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
 

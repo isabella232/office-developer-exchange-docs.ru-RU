@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 5d32ae22-bb9f-4352-a251-d516b66ff35b
 description: Элемент Телефонеакцессфолдеремаил содержит значение, указывает идентификатор папки электронной почты, из которой единая система обмена сообщениями будет считывать сообщения по телефону, как в ответ на запрос GetUMProperties (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: e564e8ed44c3132ef32039e92982ff935c3e49e0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8da4065921b736313d4bbf5bb96edb51761a4bdb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840145"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468630"
 ---
 # <a name="telephoneaccessfolderemail-um-web-service"></a>Телефонеакцессфолдеремаил (веб-служба единой системы обмена сообщениями)
 
@@ -37,11 +37,11 @@ ms.locfileid: "19840145"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19840145"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

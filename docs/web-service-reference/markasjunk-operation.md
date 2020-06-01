@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1f71f04d-56a9-4fee-a4e7-d1034438329e
 description: Поиск сведений о MarkAsJunkной операции EWS.
-ms.openlocfilehash: b9d79e6fbec87ce41030b4981f3c16f2f9ce9507
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 25d6b01dfff64c4e45f3382223311219d349c165
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834353"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468574"
 ---
 # <a name="markasjunk-operation"></a>Операция MarkAsJunk
 
@@ -59,8 +59,8 @@ ms.locfileid: "19834353"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
         <t:RequestServerVersion Version="Exchange2013" />
@@ -97,15 +97,15 @@ ms.locfileid: "19834353"
                              MajorBuildNumber="545" 
                              MinorBuildNumber="11" 
                              Version="Exchange2013" 
-                             xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                              xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
     </s:Header>
     <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-        <m:MarkAsJunkResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <m:MarkAsJunkResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
            <m:ResponseMessages>
                <m:MarkAsJunkResponseMessage ResponseClass="Success">
                   <m:ResponseCode>NoError</m:ResponseCode>
@@ -131,13 +131,13 @@ ms.locfileid: "19834353"
     
 ## <a name="markasjunk-operation-request-example-remove-a-sender-from-the-blocked-sender-list"></a>Пример запроса операции MarkAsJunk: Удаление отправителя из списка заблокированных отправителей
 
-В приведенном ниже примере запроса операции **MarkAsJunk** показано, как удалить отправителя сообщения электронной почты из списка заблокированных отправителей и переместить сообщение в папку "Входящие". Чтобы удалить отправителя из списка заблокированных отправителей, необходимо оставить сообщение электронной почты, отправленное заблокированным отправителем. Адрес электронной почты отправителя связан с сообщениями электронной почты, отправленными отправителями. Удаление отправителя из списка заблокированных отправителей не будет успешным, если справочное сообщение электронной почты больше не существует в почтовом ящике пользователя. Идентификатор элемента, используемый для связи с сообщением электронной почты с отправителями, должен быть связан с элементом, который существует в почтовом ящике Exchange. Рекомендуется создать скрытую папку для хранения элементов, отправленных ранее заблокированными отправителями, чтобы отправители можно было разблокировать из клиентского приложения. В случае, если элемент удален из почтового ящика Exchange, администратору необходимо использовать консоль управления Exchange для доступа к списку заблокированных отправителей, чтобы удалить отправителя из списка. Сведения о том, как разблокировать пользователя с помощью консоли управления Exchange, можно узнать в статье [Настройка параметров надежных отправителей и заблокированных отправителей в Office 365](http://support.microsoft.com/kb/2545137).
+В приведенном ниже примере запроса операции **MarkAsJunk** показано, как удалить отправителя сообщения электронной почты из списка заблокированных отправителей и переместить сообщение в папку "Входящие". Чтобы удалить отправителя из списка заблокированных отправителей, необходимо оставить сообщение электронной почты, отправленное заблокированным отправителем. Адрес электронной почты отправителя связан с сообщениями электронной почты, отправленными отправителями. Удаление отправителя из списка заблокированных отправителей не будет успешным, если справочное сообщение электронной почты больше не существует в почтовом ящике пользователя. Идентификатор элемента, используемый для связи с сообщением электронной почты с отправителями, должен быть связан с элементом, который существует в почтовом ящике Exchange. Рекомендуется создать скрытую папку для хранения элементов, отправленных ранее заблокированными отправителями, чтобы отправители можно было разблокировать из клиентского приложения. В случае, если элемент удален из почтового ящика Exchange, администратору необходимо использовать консоль управления Exchange для доступа к списку заблокированных отправителей, чтобы удалить отправителя из списка. Сведения о том, как разблокировать пользователя с помощью консоли управления Exchange, можно узнать в статье [Настройка параметров надежных отправителей и заблокированных отправителей в Office 365](https://support.microsoft.com/kb/2545137).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
@@ -176,15 +176,15 @@ ms.locfileid: "19834353"
                          MajorBuildNumber="545" 
                          MinorBuildNumber="11" 
                          Version="Exchange2013" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:MarkAsJunkResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:MarkAsJunkResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:MarkAsJunkResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>

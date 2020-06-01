@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4f3c54e9-df5e-4cf4-8171-91f1e1cb2dbd
 description: Элемент value указывает значение объекта Dictionary в виде String.
-ms.openlocfilehash: 6d4e1b027760d0f8f6da16f97cdb45f0c7c4bc88
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ec1c06c5e730af8b40b5c868cc73efa481876591
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840467"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468063"
 ---
 # <a name="value-userconfiguration"></a>Значение (Усерконфигуратион)
 
@@ -35,11 +35,11 @@ ms.locfileid: "19840467"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19840467"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

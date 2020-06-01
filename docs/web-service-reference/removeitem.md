@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 766878e3-9007-454f-8501-45139bc5c0e2
 description: Элемент RemoveItem представляет объект Response, который используется для удаления элемента собрания при получении сообщения Митингканцеллатион.
-ms.openlocfilehash: 6897363eba602e6a135ad255822197f9296dd44a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c0cd5c1f9894287ee78c2f7a65b8f4d3b943414e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835108"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467692"
 ---
 # <a name="removeitem"></a>RemoveItem
 
@@ -70,7 +70,7 @@ ms.locfileid: "19835108"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

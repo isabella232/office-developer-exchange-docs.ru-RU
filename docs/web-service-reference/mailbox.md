@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: befc70fd-51cb-4258-884c-80c9050f0e82
 description: Элемент Mailbox определяет объект Active Directory с включенной поддержкой почты.
-ms.openlocfilehash: e9fa21f3678249a9ac13d567b88beaf0177f989f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 284c3ff6f9fece57611169a4ec41eeaa273c6ad3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834258"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468203"
 ---
 # <a name="mailbox"></a>Почтовый ящик
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834258"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19834258"
 |[дистингуишедфолдерид](distinguishedfolderid.md) <br/> | Определяет стандартные папки Microsoft Exchange Server 2007.  <br/><br/>  Ниже приведены выражения XPath для этого элемента. <br/> <br/>  `/CreateItem/ParentFolderId/DistinguishedFolderId` <br/>  `/CreateFolder/ParentFolderId/DistinguishedFolderId` <br/> |
 |[Resolution](resolution.md) <br/> |Содержит одну разрешенную сущность.  <br/> |
 |[длекспансион](dlexpansion.md) <br/> |Содержит массив почтовых ящиков, содержащихся в списке рассылки.  <br/> |
-|[Attendee](attendee.md) <br/> |Представляет участников и ресурсы для элемента календаря.  <br/> |
+|[Участник](attendee.md) <br/> |Представляет участников и ресурсы для элемента календаря.  <br/> |
 |[CreateManagedFolder](createmanagedfolder.md) <br/> |Определяет запрос на добавление управляемых папок в почтовый ящик.  <br/> |
 |[AddDelegate](adddelegate.md) <br/> |Определяет запрос на добавление делегатов в почтовый ящик.  <br/> |
 |[GetDelegate](getdelegate.md) <br/> |Определяет запрос на получение сведений о делегатах для почтового ящика.  <br/> |
@@ -100,7 +100,7 @@ ms.locfileid: "19834258"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

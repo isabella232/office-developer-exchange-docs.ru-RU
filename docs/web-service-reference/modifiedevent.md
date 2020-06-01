@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ca1309f4-2df7-4289-811c-75c3db0e7072
 description: Элемент Модифиедевент представляет событие, в котором изменяется элемент или папка.
-ms.openlocfilehash: 2e9fb870396d49efb5cdf307a502b4111c2e507e
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 1a798773601a0857b9064c7fa6a532a7a36517ab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353814"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468553"
 ---
 # <a name="modifiedevent"></a>модифиедевент
 
@@ -51,7 +51,7 @@ ms.locfileid: "21353814"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -80,7 +80,7 @@ ms.locfileid: "21353814"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

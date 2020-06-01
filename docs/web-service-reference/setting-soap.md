@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 43db26e1-f7be-49fd-b26b-fc1b10bd3458
 description: Элемент Setting представляет параметр конфигурации, который необходимо вернуть.
-ms.openlocfilehash: cb5b1d6ab2109b48810b96221b76c6b8fc9803ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: df3b55fe7ba2c5ae92f8c31ec0643dbe100fa072
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835472"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466747"
 ---
 # <a name="setting-soap"></a>Параметр (SOAP)
 
@@ -31,11 +31,11 @@ ms.locfileid: "19835472"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -108,7 +108,7 @@ ms.locfileid: "19835472"
 |екстерналевсверсион  <br/> |Версия сервера веб-служб, который доставляет указанный запрос.  <br/> |
 |интеропекстерналевсверсион  <br/> |Версия сервера Интеропекстерналевсурл указывает на.  <br/> |
 |мобилемаилбоксполициинтероп  <br/> |Параметры политики почтовых ящиков мобильных устройств.  <br/> |
-|граупингинформатион  <br/> |Значение, используемое совместно с параметром Екстерналевсурл для группировки нескольких почтовых ящиков вместе для [поддержания сходства](http://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx) при подписке на уведомления.  <br/> |
+|граупингинформатион  <br/> |Значение, используемое совместно с параметром Екстерналевсурл для группировки нескольких почтовых ящиков вместе для [поддержания сходства](https://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx) при подписке на уведомления.  <br/> |
 |усермсонлине  <br/> |Логическое значение, которое указывает, размещается ли почтовый ящик пользователя в Exchange Online или Exchange Online в составе Office 365.  <br/> |
 |MapiHttpEnabled  <br/> |Логическое значение, указывающее, доступен ли почтовый ящик пользователя с помощью протокола MAPI/HTTP.  <br/> |
    
@@ -116,7 +116,7 @@ ms.locfileid: "19835472"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

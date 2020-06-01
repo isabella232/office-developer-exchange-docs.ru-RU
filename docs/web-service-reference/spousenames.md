@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e18f46fe-ab83-4df1-b1a5-9c8e73173ccf
 description: Элемент Спаусенамес указывает массив имен супруга или партнера и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 6b9d0dd6499efd13f0134796e6e0992e216b9aa8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9b7960e7aee8652d16561f8dd2eb3d891fb8d694
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835535"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467629"
 ---
 # <a name="spousenames"></a>спаусенамес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19835535"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835535"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

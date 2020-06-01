@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f7f36749-00f3-4915-b17c-e3caa0af6e67
 description: Элемент Дескриптивелинккэй в настоящее время не используется и зарезервирован для будущего использования. Он содержит значение 0.
-ms.openlocfilehash: c917f401c0954a68ddce1226b522d54c87502462
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e078d4ef4a629ea06bab0c2eb02b4f67b4fbf651
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762084"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467874"
 ---
 # <a name="descriptivelinkkey"></a>дескриптивелинккэй
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762084"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -103,7 +103,7 @@ ms.locfileid: "19762084"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

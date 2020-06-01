@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6bf36f37-c2b3-40c1-a4df-31573ed8642a
 description: Элемент Мессажетраккингсеарчресултс содержит список записей, которые отвечают условиям поиска.
-ms.openlocfilehash: 866cc8d4e9afa8347eb7bd0d9e9acaddc616c396
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1e03cb135b7b2a125da1e29f7293d233f4e20ddb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834454"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468679"
 ---
 # <a name="messagetrackingsearchresults"></a>мессажетраккингсеарчресултс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19834454"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834454"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

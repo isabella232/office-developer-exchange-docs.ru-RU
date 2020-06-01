@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83865da6-0bcd-445a-ba3c-0eff481b14ab
 description: Элемент value указывает значение в массиве свойств пользователя, связанных с массивом "атрибуты".
-ms.openlocfilehash: 0475dc1a58f48f1fd774d01c0da39e53dbcc4bc3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ceca9290ea93a505709d6046d1b6ab8e2c32f4ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840447"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467622"
 ---
 # <a name="value-arrayofstringvaluetype"></a>Значение (Аррайофстрингвалуетипе)
 
@@ -31,11 +31,11 @@ ms.locfileid: "19840447"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19840447"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

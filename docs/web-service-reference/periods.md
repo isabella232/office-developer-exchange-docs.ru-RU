@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7920d81d-abba-4232-8bfe-49267b6c9a36
 description: Элемент Periods представляет массив периодов, которые определяют смещение времени на разных стадиях часового пояса.
-ms.openlocfilehash: f2f9cf7c724b453d2b1975fcf72c55bc02caa54b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 773457a6e4c0237eaeaf23109a7022427cc7dd0d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834729"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467776"
 ---
 # <a name="periods"></a>Periods
 
@@ -36,7 +36,7 @@ ms.locfileid: "19834729"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19834729"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

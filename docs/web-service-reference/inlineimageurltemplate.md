@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 40238799-25f0-431c-91be-34b915110f03
 description: Элемент Инлинеимажеурлтемплате указывает шаблон для URL-адреса встроенного изображения.
-ms.openlocfilehash: 3e989a285d0f571656b7e50c2f2b59928bfa3081
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2cb9cd31d1adf0c6fecf803a8b42bc88330a14d1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833933"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468735"
 ---
 # <a name="inlineimageurltemplate"></a>инлинеимажеурлтемплате
 
@@ -30,11 +30,11 @@ ms.locfileid: "19833933"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19833933"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 121b0063-5447-4063-8e54-d3fcbb8cd2be
 description: Элемент СпеЦификусерс указывает учетные записи электронной почты, которые могут получать доступ к приложению.
-ms.openlocfilehash: 59b99ab165e7a099816fb07e126ac912f0858c9c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ef003b6da20031f82d9a8be1dc1d1187288d6f60
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835529"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467636"
 ---
 # <a name="specificusers"></a>спеЦификусерс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19835529"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835529"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1aa16318-7e90-4b19-bce8-dd1a20a66223
 description: Элемент not представляет выражение поиска, которое инвертирует логическое значение содержащегося в нем выражения поиска.
-ms.openlocfilehash: f5bc709d8b1e77a13b3598905651ac1750436f03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 84c64a6d9d39f260d416fc32e4e5f5fcdef027e5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834553"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466719"
 ---
 # <a name="not"></a>Не
 
@@ -36,7 +36,7 @@ ms.locfileid: "19834553"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19834553"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

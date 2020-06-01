@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: c54f310f-8c99-4c37-8e73-ac87722b6229
 description: Элемент redirectUrl адресом содержит URL-адрес компьютера, на котором работает Microsoft Exchange Server 2007 с установленной ролью сервера клиентского доступа, который следует использовать для получения параметров автообнаружения.
-ms.openlocfilehash: 3b634f1a3a3d44b6aae1a826a005149200641dcb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5400b1e7a4bb7ebebc58b6a0f1fc9bf37f5a2e22
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835027"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468091"
 ---
 # <a name="redirecturl-pox"></a>RedirectUrl адресом (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19835027"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

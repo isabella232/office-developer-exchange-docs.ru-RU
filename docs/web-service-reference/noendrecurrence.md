@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ab2ebd9c-388e-45f1-abf9-56e293ef123b
 description: Элемент Ноендрекурренце описывает дату начала для шаблона повторения элемента, у которого нет определенной конечной даты.
-ms.openlocfilehash: fc3eae170f5c07e31d7a80b45836efd07d74e543
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 31a3bd6ae2d7ce94debbeebc4fd4f536447433a7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834537"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466796"
 ---
 # <a name="noendrecurrence"></a>ноендрекурренце
 
@@ -36,7 +36,7 @@ ms.locfileid: "19834537"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834537"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

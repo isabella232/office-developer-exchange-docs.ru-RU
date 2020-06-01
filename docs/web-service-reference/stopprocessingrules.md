@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5b89a2cb-ab26-444d-b3dd-2b3858872d63
 description: Элемент StopProcessingRules указывает, будет ли последующих правил для оценки.
-ms.openlocfilehash: 48799975f8c928bf291fcdcdb83f2ff8768af8b9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9f068fd6290a39bbab6e3c1e29066c4fefefc64b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835593"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467902"
 ---
 # <a name="stopprocessingrules"></a>StopProcessingRules
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835593"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19835593"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 22d61562-a20e-40f1-a809-7e4c16757520
 description: Элемент Description (Мастермаилбокстипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: 3de585dbee8559c048599efdf76f8b7535e8c160
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a705dff1ed5b36376cee227ffb51d4de2aa500c2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762077"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467895"
 ---
 # <a name="description-mastermailboxtype"></a>Description (Мастермаилбокстипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19762077"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

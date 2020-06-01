@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3494c996-b834-4813-b1ca-d99642d8b4e7
 description: 'Операция операцию UpdateFolder используется для изменения свойств существующего элемента в хранилище Exchange. Каждая операция операцию UpdateFolder состоит из следующих элементов:'
-ms.openlocfilehash: b33937bb09f0dcbe3d3ed61bbf5233423f320d9c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fb894d9f42358b67f81e9fe8ae41ba61e6f46460
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840324"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467363"
 ---
 # <a name="updatefolder-operation"></a>Операция UpdateFolder
 
@@ -37,7 +37,7 @@ ms.locfileid: "19840324"
 |:-----|:-----|
 |Error  <br/> |Действие Append добавляет данные к существующему свойству. Они сохраняют текущие данные. Append не применимо ко всем свойствам.  <br/> |
 |Set  <br/> |Действие Set замещает данные для свойства, если оно содержит данные, или создает свойство и задает его значение, если оно не существует. Действие Set применяется только к записываемым свойствам.  <br/> |
-|Удаление  <br/> |Действие DELETE удаляет свойство из папки. Это отличается от присвоения пустого значения. По завершении свойство для папки не существует. DELETE применяется только к записываемым свойствам.  <br/> |
+|Удалить  <br/> |Действие DELETE удаляет свойство из папки. Это отличается от присвоения пустого значения. По завершении свойство для папки не существует. DELETE применяется только к записываемым свойствам.  <br/> |
    
 ## <a name="updatefolder-request-example"></a>Пример запроса операцию UpdateFolder
 
@@ -50,10 +50,10 @@ ms.locfileid: "19840324"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <UpdateFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <FolderChanges>
         <t:FolderChange>
           <t:FolderId Id="AScA" ChangeKey="GO3u/"/>
@@ -72,7 +72,7 @@ ms.locfileid: "19840324"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 В этом примере показано изменение отображаемого имени папки на Невфолдернаме.
   
@@ -91,7 +91,7 @@ ms.locfileid: "19840324"
     
 - [FolderId](folderid.md)
     
-- [Обновления (элемент)](updates-item.md)
+- [Обновления (папка)](updates-folder.md)
     
 - [сетфолдерфиелд](setfolderfield.md)
     
@@ -121,12 +121,12 @@ ms.locfileid: "19840324"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -142,7 +142,7 @@ ms.locfileid: "19840324"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 > [!NOTE]
 > Идентификатор папки и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
@@ -184,12 +184,12 @@ ms.locfileid: "19840324"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The change key is invalid.</m:MessageText>
@@ -203,7 +203,7 @@ ms.locfileid: "19840324"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 В этом примере показан ответ об ошибке, вызванный недопустимым атрибутом **чанжекэй** в запросе. 
   

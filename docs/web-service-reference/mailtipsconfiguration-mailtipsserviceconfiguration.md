@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9a34515e-815b-4c61-b118-d5f66b80238f
 description: Элемент Маилтипсконфигуратион содержит сведения о конфигурации службы для почтовых подсказок.
-ms.openlocfilehash: ea92af3ebb2d2f720e5823c5317d09d5bcdb3978
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9128ee99545066899c3b27b624f10a9f1bd36c9d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834321"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467790"
 ---
 # <a name="mailtipsconfiguration-mailtipsserviceconfiguration"></a>Маилтипсконфигуратион (Маилтипссервицеконфигуратион)
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834321"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19834321"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

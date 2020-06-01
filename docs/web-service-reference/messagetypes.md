@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fac1cfe0-8e7b-4196-b3ad-4e86043d9c9b
 description: Элемент Мессажетипес указывает массив сообщений для поиска.
-ms.openlocfilehash: 0dca94def0e919ea2a12487b374392a8b80275cb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2cfca82ea060792d59088ee8755530d82f7f77f6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834461"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468665"
 ---
 # <a name="messagetypes"></a>мессажетипес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834461"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834461"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

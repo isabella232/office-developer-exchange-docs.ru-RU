@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 994a9d2b-1501-4804-90f0-12bd914496ec
 description: Операция unsubscribe используется для завершения подписки на уведомления по запросу. Используйте эту операцию вместо времени ожидания подписки. Эта операция допустима только для уведомлений о опрашивающей репликации.
-ms.openlocfilehash: 64514a718d473f0fd7d0320bd1ccecddb1940ac8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 054f89af1ba5c780c7de5016a6dfe34086c97f02
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840309"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468028"
 ---
 # <a name="unsubscribe-operation"></a>Операция по отмене подписки
 
@@ -34,9 +34,9 @@ ms.locfileid: "19840309"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <Unsubscribe xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <Unsubscribe xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <SubscriptionId>e6fbf5c1-7e26-4bc6-a5f2-882063d5e34e</SubscriptionId>  
     </Unsubscribe>
   </soap:Body>
@@ -66,12 +66,12 @@ ms.locfileid: "19840309"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UnsubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UnsubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UnsubscribeResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -111,12 +111,12 @@ ms.locfileid: "19840309"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UnsubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UnsubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UnsubscribeResponseMessage ResponseClass="Error">
           <m:MessageText>The specified subscription was not found.</m:MessageText>
@@ -151,5 +151,5 @@ ms.locfileid: "19840309"
 
 - [Операции подписки](subscribe-operation.md)
 - [Операция GetEvents](getevents-operation.md)
-- [Использование подписок по запросу](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+- [Использование подписок по запросу](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

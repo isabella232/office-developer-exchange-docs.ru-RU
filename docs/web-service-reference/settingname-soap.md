@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 8bcb0411-58b0-4e37-b97e-00c07dcbecb1
 description: Элемент свойства settingname представляет имя параметра в ответе.
-ms.openlocfilehash: 9bf7c8197693bc6887a99ffcbeb2240e1f4c3b20
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d492b82b7385d6403f15c08356db5d0503792d54
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835468"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466726"
 ---
 # <a name="settingname-soap"></a>Свойства settingname (SOAP)
 
@@ -31,11 +31,11 @@ ms.locfileid: "19835468"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835468"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

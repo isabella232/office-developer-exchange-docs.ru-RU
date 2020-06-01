@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0370b1c0-b7e5-46e0-ac11-3fe801709fc8
 description: Элемент Scope (Клиентакцесстокенрекуесттипе) задает область действия маркера.
-ms.openlocfilehash: 0439b494db7e4e1c097039a81394af9441613555
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 99700b032e6971a403f2bc87a6c73a01e53ab2c7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835274"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466950"
 ---
 # <a name="scope-clientaccesstokenrequesttype"></a>Область действия (Клиентакцесстокенрекуесттипе)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19835274"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835274"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

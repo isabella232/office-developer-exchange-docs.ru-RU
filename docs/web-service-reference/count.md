@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 68314b4a-1e17-4e21-9c2e-224d70ef7a32
 description: Элемент Count содержит количество конфликтов в отклике операции UpdateItem.
-ms.openlocfilehash: 15cea49eb250336cdc6b7d551d53951aff1372c2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a43896a1b8b6a9d96ab02afe64f9e553639e478e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761846"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466761"
 ---
 # <a name="count"></a>Count
 
@@ -44,11 +44,11 @@ ms.locfileid: "19761846"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19761846"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

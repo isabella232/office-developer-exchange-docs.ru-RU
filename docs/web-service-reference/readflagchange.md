@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 527bfe90-63d0-4b2f-97f7-7875b3a516b2
 description: Элемент Реадфлагчанже возвращается в ответах операции SyncFolderItems, когда был прочитан элемент. Это свойство доступно только для чтения.
-ms.openlocfilehash: 28ef0267e8308ba58057bec01ab2672a19ee94a1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 354f8085a6ea5b738d8619e2ffeb0fbccefd51da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834953"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468308"
 ---
 # <a name="readflagchange"></a>реадфлагчанже
 
@@ -37,7 +37,7 @@ ms.locfileid: "19834953"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19834953"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

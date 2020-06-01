@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7efb6fd9-1615-469e-96f6-0f7846ad9b44
 description: Элемент SCOPE определяет область отчета об отслеживании сообщений.
-ms.openlocfilehash: 534ed23916a60b246c7cb5be4a59d086980a7c37
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f86f6198e84e094e61ee569f6d005549316bbb9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835280"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466943"
 ---
 # <a name="scope-nonemptystringtype"></a>Область действия (Нонемптистрингтипе)
 
@@ -34,15 +34,15 @@ ms.locfileid: "19835280"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[FindMessageTrackingReport](findmessagetrackingreport.md) | [GetMessageTrackingReport](getmessagetrackingreport.md)
+[FindMessageTrackingReport](findmessagetrackingreport.md)  |  [GetMessageTrackingReport](getmessagetrackingreport.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -62,7 +62,7 @@ ms.locfileid: "19835280"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

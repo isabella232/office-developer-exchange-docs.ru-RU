@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: fba018d5-0c65-4e1b-9767-d1ce8b356278
 description: Элемент SPA указывает, требуется ли безопасная проверка пароля (SPA).
-ms.openlocfilehash: 1fb0f3bb40e64be89eae7dfc208d51387f532191
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cf57b3a6046b1b9b030b7cae81381189eee92c1c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835533"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467643"
 ---
 # <a name="spa-pox"></a>SPA (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19835533"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a26d4c02-f1bd-40c4-9257-5db45e839f17
 description: Элемент Нониндексаблеитемдетаил указывает подробные сведения об элементе, который невозможно индексировать.
-ms.openlocfilehash: ef1bd072a44b42b501a3016c394b89fe6ab25bf0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4fc4324501570402d22aa303d6af2a60b50b3cc6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834543"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466740"
 ---
 # <a name="nonindexableitemdetail"></a>нониндексаблеитемдетаил
 
@@ -40,11 +40,11 @@ ms.locfileid: "19834543"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ItemId](itemid.md) | [ErrorCode (итеминдексеррортипе)](errorcode-itemindexerrortype.md) | [еррордескриптион](errordescription.md) | [испартиаллиндексед](ispartiallyindexed.md) | [исперманентфаилуре](ispermanentfailure.md) | [AttemptCount](attemptcount.md)[SortValue](sortvalue.md) | [AdditionalInfo](additionalinfo.md) сортвалуе AttemptCount | [LastAttemptTime](lastattempttime.md)AdditionalInfo | 
+[ItemId](itemid.md)  |  [ErrorCode (итеминдексеррортипе)](errorcode-itemindexerrortype.md)  |  [Еррордескриптион](errordescription.md)  |  [Испартиаллиндексед](ispartiallyindexed.md)  |  [Исперманентфаилуре](ispermanentfailure.md)  |  [Сортвалуе](sortvalue.md)  |  [Аттемпткаунт](attemptcount.md)  |  [Ластаттемпттиме](lastattempttime.md)  |  [Аддитионалинфо](additionalinfo.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19834543"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

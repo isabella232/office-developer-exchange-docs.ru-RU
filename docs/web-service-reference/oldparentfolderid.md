@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: da1b8c88-c650-455d-b749-0cd160b012d8
 description: Элемент Олдпарентфолдерид содержит идентификатор родительской папки элемента или папки, которая была скопирована или перемещена.
-ms.openlocfilehash: 1c4a51755c4194939dd797efa31cf5410b02bf85
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ad787e95f95b551393878b15783461d93ac08481
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834644"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467230"
 ---
 # <a name="oldparentfolderid"></a>олдпарентфолдерид
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834644"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834644"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

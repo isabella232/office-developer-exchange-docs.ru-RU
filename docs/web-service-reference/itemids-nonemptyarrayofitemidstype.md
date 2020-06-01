@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e895782a-74fe-4216-8ac2-c3c88c4b232d
 description: Элемент Итемидс содержит массив идентификаторов элементов, определяющих элементы для экспорта из почтового ящика.
-ms.openlocfilehash: c6d48832c5435080c7cec8e43093ea60825b604a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 16c2633528e2ecbc863cfdde645e0f431b4c4297
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834151"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468595"
 ---
 # <a name="itemids-nonemptyarrayofitemidstype"></a>Итемидс (Нонемптяррайофитемидстипе)
 
@@ -40,7 +40,7 @@ ms.locfileid: "19834151"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19834151"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

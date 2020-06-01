@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: a01124a8-a8cf-4b80-8625-d7ee05690bca
 description: Найдите справочный контент для веб-службы автообнаружения в Exchange.
-ms.openlocfilehash: 48ca4a93c2120079cb675eabbc460bf0e75570b2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ce7f2bbd662a5e61959c7e3c6748f0cf40cc4fb3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761532"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466873"
 ---
 # <a name="autodiscover-web-service-reference-for-exchange"></a>Справочные материалы по веб-службе автообнаружения для Exchange
 
@@ -33,7 +33,7 @@ SOAP и служба автообнаружения POX могут предос�
   
 В этом разделе содержатся справочные сведения о службе автообнаружения SOAP и службе автообнаружения POX.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этой статье
 <a name="bk_InThisSection"> </a>
 
 - [Справочник по веб-службе автообнаружения SOAP для Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
@@ -43,7 +43,7 @@ SOAP и служба автообнаружения POX могут предос�
 ## <a name="see-also"></a>См. также
 
 - [Справочник по веб-службам для Exchange](web-services-reference-for-exchange.md)
-- [Служба автообнаружения (SOAP)](http://msdn.microsoft.com/library/e24d1a1f-0d20-4bd9-ae4c-9112ecacea78%28Office.15%29.aspx)
-- [Служба автообнаружения (POX)](http://msdn.microsoft.com/library/13c54de3-a91c-4424-8732-99dd8f2162ec%28Office.15%29.aspx)
+- [Служба автообнаружения (SOAP)](https://msdn.microsoft.com/library/e24d1a1f-0d20-4bd9-ae4c-9112ecacea78%28Office.15%29.aspx)
+- [Служба автообнаружения (POX)](https://msdn.microsoft.com/library/13c54de3-a91c-4424-8732-99dd8f2162ec%28Office.15%29.aspx)
     
 

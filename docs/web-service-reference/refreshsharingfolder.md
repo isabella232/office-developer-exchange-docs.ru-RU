@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 14571c28-effa-430a-802e-82fb99bafa7f
 description: Элемент RefreshSharingFolder определяет запрос на обновление указанной локальной папки. Это базовый элемент для операции RefreshSharingFolder.
-ms.openlocfilehash: b09e311d0ba38b0cdcc9fe0864ed3e2b0151b0fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4454607fa2c3114cc7279fd7c30f8aee74707baa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835043"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467930"
 ---
 # <a name="refreshsharingfolder"></a>RefreshSharingFolder
 
@@ -34,7 +34,7 @@ ms.locfileid: "19835043"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835043"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

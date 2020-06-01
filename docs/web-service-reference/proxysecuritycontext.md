@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 40381d8e-e9dc-403f-9d78-87a09ad09d58
 description: Элемент Проксисекуритиконтекст используется прокси-сервером HTTP компьютера, на котором работает сервер Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа и который не используется операциями веб-служб Exchange. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 44934ab037169419c61f3817384f0a61504f5850
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1566a8b22fd285f8c56d2a6579006ba906dd899c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834923"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468511"
 ---
 # <a name="proxysecuritycontext"></a>проксисекуритиконтекст
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834923"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834923"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

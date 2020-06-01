@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 205606b0-8b39-4acf-941a-e544efcedd6c
 description: Элемент Маилтипсакцессенаблед представляет флаг Маилтипсакцессенаблед (). Элемент Маилтипсакцессенаблед предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: 86739b6d3f2d900844ad762fba62d8704b9f8670
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 72476d72a3b5faef358bba52f6038c065d51ff6f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834306"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467797"
 ---
 # <a name="mailtipsaccessenabled-soap"></a>Маилтипсакцессенаблед (SOAP)
 
@@ -29,11 +29,11 @@ ms.locfileid: "19834306"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -45,7 +45,7 @@ ms.locfileid: "19834306"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

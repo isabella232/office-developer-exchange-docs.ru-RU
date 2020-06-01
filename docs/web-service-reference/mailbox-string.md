@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 15a1758e-6a5c-4e85-acb9-374abe81b9c7
 description: Элемент Mailbox содержит идентификатор для почтового ящика.
-ms.openlocfilehash: 3bdddd43944aa85f065a162b09cd3c8fdfc21da6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3a115f40360aebfdb818580464c08e61a527ac55
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834256"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467279"
 ---
 # <a name="mailbox-string"></a>Mailbox (строка)
 
@@ -31,15 +31,15 @@ ms.locfileid: "19834256"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Нониндексаблеитемстатистик](nonindexableitemstatistic.md) | [MailboxHoldStatus](mailboxholdstatus.md)маилбоксхолдстатус | [FailedMailbox](failedmailbox.md)фаиледмаилбокс | [маилбокссеарчскопе](mailboxsearchscope.md)
+[Нониндексаблеитемстатистик](nonindexableitemstatistic.md)  |  [Маилбоксхолдстатус](mailboxholdstatus.md)  |  [Фаиледмаилбокс](failedmailbox.md)  |  [Маилбокссеарчскопе](mailboxsearchscope.md)
   
 ## <a name="text-value"></a>Текстовое значение
 

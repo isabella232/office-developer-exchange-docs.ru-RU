@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ea45590d-476e-4b68-9fe8-ae392feadfea
 description: Элемент Мержедфрибуси содержит Объединенный поток данных о занятости.
-ms.openlocfilehash: 542b9fae0c36b0236bd806e8a9117753968e812c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a1483449534f0d886e3c97a23d28c5d78f865042
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834449"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468728"
 ---
 # <a name="mergedfreebusy"></a>мержедфрибуси
 
@@ -44,11 +44,11 @@ ms.locfileid: "19834449"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -75,7 +75,7 @@ ms.locfileid: "19834449"
 |**Четырехзначные**|**Доступность**|
 |:-----|:-----|
 |нуль  <br/> |Свободна  <br/> |
-|1,1  <br/> |Занят  <br/> |
+|1   <br/> |Занят  <br/> |
 |2  <br/> |Занята  <br/> |
 |4  <br/> |Отсутствие на работе (OOF)  <br/> |
 |4   <br/> |Нет данных  <br/> |
@@ -90,7 +90,7 @@ ms.locfileid: "19834449"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -104,5 +104,5 @@ ms.locfileid: "19834449"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 96514301-9195-420f-ba17-5f512116ee46
 description: Элемент Size указывает общий размер одного или нескольких элементов почтового ящика.
-ms.openlocfilehash: d69cb88b7fcbafc2fbd573acba8218152d6d1784
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 622752688dd41d6e42f1f405ea1dd389eff1ee98
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835501"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468035"
 ---
 # <a name="size-long"></a>Размер (длинный)
 
@@ -30,15 +30,15 @@ ms.locfileid: "19835501"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Кэйвордстат](keywordstat.md) | [MailboxStat](mailboxstat.md)маилбоксстат | [SearchMailboxesResult](searchmailboxesresult.md)сеарчмаилбоксесресулт | [сеарчпревиевитем](searchpreviewitem.md)
+[Кэйвордстат](keywordstat.md)  |  [Маилбоксстат](mailboxstat.md)  |  [Сеарчмаилбоксесресулт](searchmailboxesresult.md)  |  [Сеарчпревиевитем](searchpreviewitem.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835501"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

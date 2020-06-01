@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 561b8941-1c26-4bbe-aa0f-b49ec8a79af5
 description: Элемент Инреплито представляет идентификатор элемента, для которого этот элемент является ответом.
-ms.openlocfilehash: 440bcfed3e510da8d34a5dd81c775d05a1f713a2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3dac4f31f1468f942e0da040a482dd272a7655da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833939"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467076"
 ---
 # <a name="inreplyto"></a>инреплито
 
@@ -34,11 +34,11 @@ ms.locfileid: "19833939"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19833939"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1034b013-ef34-4e72-99b3-38bff475b3e8
 description: Элемент Унпинтеаммаилбокс содержит запрос на открепление почтового ящика сайта от клиента путем его удаления из ответа автообнаружения.
-ms.openlocfilehash: d303b47f0796f9bec7e9f198afa81d2ecd9fd5cd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a6b01bfa9c5908765ff04ef7f5edbef0b99a9be2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840295"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467244"
 ---
 # <a name="unpinteammailbox"></a>унпинтеаммаилбокс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19840295"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840295"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

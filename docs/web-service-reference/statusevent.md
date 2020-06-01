@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d3901818-2640-4bed-aad8-21a61aee62a1
 description: Элемент Статусевент представляет уведомление о том, что в почтовом ящике не было новых действий.
-ms.openlocfilehash: e214918f9795e9e29061d4aac72ab144d2b24267
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8158a47937a810be2ea22346384b4e61da56ac48
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835592"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468259"
 ---
 # <a name="statusevent"></a>статусевент
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835592"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19835592"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

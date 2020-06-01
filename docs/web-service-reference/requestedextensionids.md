@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bfd516a4-15f5-4303-b695-820537636b11
 description: Элемент Рекуестедекстенсионидс содержит массив идентификаторов расширений.
-ms.openlocfilehash: da7e7817179a608cff896e67d71aea992aac674e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8cae575f739803b847ac2d3df471cb9147d5412a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835142"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467664"
 ---
 # <a name="requestedextensionids"></a>рекуестедекстенсионидс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19835142"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835142"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

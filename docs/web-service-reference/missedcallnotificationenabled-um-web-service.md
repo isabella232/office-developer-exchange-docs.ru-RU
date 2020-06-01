@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 8e6bf0b1-ff76-474c-ac0f-621b6ab89212
 description: Элемент MissedCallNotificationEnabled содержит значение, указывающее, включено ли уведомление о пропущенном звонке в ответ на запрос веб-службы единой системы обмена сообщениями (GetUMProperties).
-ms.openlocfilehash: 6bebbe6eeb40a259f0c51355a3fea838e8671706
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e2f18027c56be1408c27d5f687fe90f8ffd724db
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834477"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468658"
 ---
 # <a name="missedcallnotificationenabled-um-web-service"></a>MissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
 
@@ -37,11 +37,11 @@ ms.locfileid: "19834477"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19834477"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

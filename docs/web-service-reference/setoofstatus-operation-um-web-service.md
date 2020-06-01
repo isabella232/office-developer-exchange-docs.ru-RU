@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 97c271e9-506e-43eb-89cd-46803fc47ee5
 description: Операция SetOofStatus задает значение, указывающее, следует ли воспроизводить приветствие "нет на месте" для пользователя, который отправляет запрос.
-ms.openlocfilehash: 2bb1deeec8ddb5be56979bfb2fae3396672298a3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2311b6137ac25d15ad3d06668450c1d0f7ec1fad
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835445"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467356"
 ---
 # <a name="setoofstatus-operation-um-web-service"></a>Операция SetOofStatus (веб-служба единой системы обмена сообщениями)
 
@@ -34,7 +34,7 @@ ms.locfileid: "19835445"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetOofStatus xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetOofStatus xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
         <status>true</status>
     </SetOofStatus>
   </soap:Body>
@@ -53,7 +53,7 @@ ms.locfileid: "19835445"
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <SetOofStatusResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <SetOofStatusResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```

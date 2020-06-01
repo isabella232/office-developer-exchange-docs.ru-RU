@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b3b86720-d086-47c3-94af-921fdd719edf
 description: Элемент Сиктокондитионпажеитемвиев определяет условие, которое используется для определения конца поиска, начального индекса поиска, максимальных возвращаемых записей и инструкций поиска для поиска FindItem или FindConversation.
-ms.openlocfilehash: e95246079f8c6e7acffac1dabb278895265767d9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dbb073263740ccdf75367f85f672b7d5ec78f7a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835328"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466838"
 ---
 # <a name="seektoconditionpageitemview"></a>сиктокондитионпажеитемвиев
 
@@ -43,7 +43,7 @@ ms.locfileid: "19835328"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[FindConversation](findconversation.md) | [FindItem](finditem.md)
+[FindConversation](findconversation.md)  |  [FindItem](finditem.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835328"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

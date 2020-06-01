@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2da25452-3111-489c-9d75-14337a5200e0
 description: Элемент Локатионурл представляет URL-адрес расположения общего доступа к документу.
-ms.openlocfilehash: a80969e532ef81fa0be2ff94d25ae604aa0c5f8c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ba28ce4ded83c55f7b3f799c0bfe6f9509e375fd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834251"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468693"
 ---
 # <a name="locationurl-soap"></a>Локатионурл (SOAP)
 
@@ -29,11 +29,11 @@ ms.locfileid: "19834251"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,7 +49,7 @@ ms.locfileid: "19834251"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

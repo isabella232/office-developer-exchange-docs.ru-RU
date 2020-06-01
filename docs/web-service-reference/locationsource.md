@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fc4d77d5-6200-4cf3-848a-1088fec0e0d6
 description: Элемент Локатионсаурце указывает сведения о происхождении связанного почтового адреса, например контакт или телефонной книги.
-ms.openlocfilehash: 7f5cf5fcca0a72287593349fcf5090a74225d012
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ceba52c43d1c798bb8f5492b779c7c45d7d00b0b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834248"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467104"
 ---
 # <a name="locationsource"></a>локатионсаурце
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834248"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Value (персонапосталаддресстипе)](value-personapostaladdresstype.md) | [посталаддресс (персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md)
+[Значение (персонапосталаддресстипе)](value-personapostaladdresstype.md)  |  [Посталаддресс (персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 

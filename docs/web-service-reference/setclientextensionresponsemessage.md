@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3365e58c-adb3-4d92-92cc-acc95ce36cca
 description: Элемент Сетклиентекстенсионреспонсемессаже указывает ответное сообщение для запроса Сетклиентекстенсион.
-ms.openlocfilehash: 29d126c84f2db6f9c674a5840547451847442e15
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3743d2f1643bece044ff7b7c8ccac95bbd7401ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835405"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468721"
 ---
 # <a name="setclientextensionresponsemessage"></a>сетклиентекстенсионреспонсемессаже
 
@@ -35,11 +35,11 @@ ms.locfileid: "19835405"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md) | [ResponseCode](responsecode.md)респонсекоде | [DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй | [мессажексмл](messagexml.md)
+[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835405"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

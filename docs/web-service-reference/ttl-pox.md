@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 178eefa1-995c-4bea-930b-e51293961191
 description: Элемент TTL указывает время жизни (в часах), в течение которого параметры действительны.
-ms.openlocfilehash: 5fecf3103553a82ed2aeeecfc1e4e1b9fe38583c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9a17cbe4e669d1afe9f3ef4a24f2a9a2889a7d52
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840245"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467384"
 ---
 # <a name="ttl-pox"></a>TTL (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19840245"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

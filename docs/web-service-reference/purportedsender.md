@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: eb7a54ec-2e48-4030-bbcf-50a31609691b
 description: Элемент Пурпортедсендер содержит контактные данные отправителя предполагаемым сообщения электронной почты.
-ms.openlocfilehash: 1e5b74d60d824c06834cf988557ef64fb84d70c4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ecf352484a423e3955736620bf5a65c4e98099a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834937"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468336"
 ---
 # <a name="purportedsender"></a>пурпортедсендер
 
@@ -40,7 +40,7 @@ ms.locfileid: "19834937"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19834937"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

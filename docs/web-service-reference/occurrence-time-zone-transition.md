@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5c1142b1-c51f-42e1-bbb2-57e00cad0fdb
 description: Элемент вхождения представляет число дней недели в месяце, в котором происходит переход часового пояса.
-ms.openlocfilehash: bc5160480cc6881bb9d724aa61323f5717d1f2fa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 846f6b22f43bcda07b9408d768d0845a5acfe668
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834636"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467979"
 ---
 # <a name="occurrence-time-zone-transition"></a>Вхождение (переход часового пояса)
 
@@ -35,11 +35,11 @@ ms.locfileid: "19834636"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19834636"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

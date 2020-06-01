@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 47ed8edb-2a94-471b-b965-93f91456252e
 description: Элемент Update определяет одну папку для обновления в локальном хранилище клиента.
-ms.openlocfilehash: bf49741b2478edff450f114dc1464a0528072bea
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 5c1b5b1fd87e4651125293eac431c56f732c6c02
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353506"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467139"
 ---
 # <a name="update-foldersync"></a>Обновление (Фолдерсинк)
 
@@ -67,7 +67,7 @@ ms.locfileid: "21353506"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -93,7 +93,7 @@ ms.locfileid: "21353506"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

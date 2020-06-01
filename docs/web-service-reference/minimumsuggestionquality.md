@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3725cbd4-9bc1-4f7d-8929-b2c68cb46114
 description: Элемент Минимумсугжестионкуалити определяет качество предложений о встречах, возвращаемых в ответе.
-ms.openlocfilehash: ac79682bd761f678f23fc2d698a50fd7704f6fab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c85cbf65a63ac0b09408c14e01889f97a05b27b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834468"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467482"
 ---
 # <a name="minimumsuggestionquality"></a>минимумсугжестионкуалити
 
@@ -40,11 +40,11 @@ ms.locfileid: "19834468"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "19834468"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ ms.locfileid: "19834468"
 [Операция GetUserAvailability](getuseravailability-operation.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

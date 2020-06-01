@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 67328dab-321b-45ad-929e-cd83e65ad87e
 description: Элемент Сеарчкуериес содержит список почтовых ящиков и связанных запросов для поиска обнаружения.
-ms.openlocfilehash: 182f1ba63b4226ea4ff6445ae9f039197dec38a5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 66015d71238b4a1055a71aff539ca50150f2a247
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835316"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466915"
 ---
 # <a name="searchqueries"></a>сеарчкуериес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19835316"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -40,7 +40,7 @@ ms.locfileid: "19835316"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SearchMailboxes](searchmailboxes.md) | [сеарчмаилбоксесресулт](searchmailboxesresult.md)
+[SearchMailboxes](searchmailboxes.md)  |  [Сеарчмаилбоксесресулт](searchmailboxesresult.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835316"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

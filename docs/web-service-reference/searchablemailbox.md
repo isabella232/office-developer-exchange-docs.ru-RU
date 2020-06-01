@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 339005cd-a3b9-47dd-bc7b-a860b699625b
 description: Элемент Сеарчаблемаилбокс указывает почтовый ящик, возвращенный из запроса GetSearchableMailboxes.
-ms.openlocfilehash: 0d0981d050fa388e83eaa8408b60d305296c1f36
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f790d9a707f10f64a776b2fc35255c233ad854b6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835284"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467454"
 ---
 # <a name="searchablemailbox"></a>сеарчаблемаилбокс
 
@@ -38,11 +38,11 @@ ms.locfileid: "19835284"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[GUID](guid-ex15websvcsotherref.md) | [PrimarySmtpAddress (String)](primarysmtpaddress-string.md) | [исекстерналмаилбокс](isexternalmailbox.md) | [ExternalEmailAddress](externalemailaddress.md) | [DisplayName (строка)](displayname-string.md) | [исмембершипграуп](ismembershipgroup.md) | [референцеид](referenceid.md)
+[Идентификатор GUID](guid-ex15websvcsotherref.md)  |  [PrimarySmtpAddress (строка)](primarysmtpaddress-string.md)  |  [Исекстерналмаилбокс](isexternalmailbox.md)  |  [ExternalEmailAddress](externalemailaddress.md)  |  [DisplayName (строка)](displayname-string.md)  |  [Исмембершипграуп](ismembershipgroup.md)  |  [Референцеид](referenceid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19835284"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

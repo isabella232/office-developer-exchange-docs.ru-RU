@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8ff5df18-1989-4217-b4c0-599232911d0c
 description: Элемент МаксреЦипиентспержетмаилтипсрекуест указывает максимальное количество получателей, которые могут быть переданы в операцию с помощью подсказок.
-ms.openlocfilehash: 4c873fe534582e582bf5b1c1d5fd2789616e056a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cec343182b364fce040d5e32928cbeb569a22124
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834386"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468406"
 ---
 # <a name="maxrecipientspergetmailtipsrequest"></a>максреЦипиентспержетмаилтипсрекуест
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834386"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834386"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

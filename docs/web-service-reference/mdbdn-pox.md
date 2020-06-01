@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 9f35f29f-204d-4178-9d8e-ba83af3afe43
 description: Элемент Мдбдн представляет различающееся имя базы данных почтовых ящиков.
-ms.openlocfilehash: d7910cdca2e2013f6b8432c4af606c0f8354a6bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6eb1ddbd7ebf725b38ddc9bc70434c918aaca39f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834389"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468392"
 ---
 # <a name="mdbdn-pox"></a>Мдбдн (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19834389"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

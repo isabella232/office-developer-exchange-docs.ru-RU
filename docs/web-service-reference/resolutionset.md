@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 43d5b876-0e87-4414-9b1d-bff1c1ec825c
 description: Элемент "набор решений" содержит массив разрешений для неоднозначного имени.
-ms.openlocfilehash: ad7bd31c85051e8c80aea25aa9e6f2914cf0ad01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 483a096a7fcedbabe25758ebcaa31c83405a0ad4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835160"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467174"
 ---
 # <a name="resolutionset"></a>Авторешение
 
@@ -74,7 +74,7 @@ ms.locfileid: "19835160"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

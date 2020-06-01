@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 59b0b2db-a0ae-4162-a2cb-5f37f42fe872
 description: Элемент Сеарчпревиевитем указывает предварительный просмотр элемента для поиска обнаружения.
-ms.openlocfilehash: 46b9d6049f856ce6e93b9e49e07516ec4b52d932
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ab48353b0ffaf4bc3b9409f1a620d145bffc7a13
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835308"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466936"
 ---
 # <a name="searchpreviewitem"></a>сеарчпревиевитем
 
@@ -52,11 +52,11 @@ ms.locfileid: "19835308"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Идентификатор](id-itemidtype.md) | [почтового ящика (итемидтипе) (превиевитеммаилбокстипе)](mailbox-previewitemmailboxtype.md) | [ParentID](parentid.md) | [ItemClass](itemclass.md) | [уникуехаш](uniquehash.md) | [сортвалуе](sortvalue.md) | [овалинк](owalink.md) | [sender (строка)](sender-string.md) | [ToRecipients (аррайофсмтпаддресстипе)](torecipients-arrayofsmtpaddresstype.md) | [CcRecipients](ccrecipients.md) | [BccRecipients](bccrecipients.md) | [CreatedTime](createdtime.md) | [ReceivedTime](receivedtime.md) | [SentTime](senttime.md) | [subject](subject.md) | [size (Long)](size-long.md) | [Preview](preview-ex15websvcsotherref.md) | [важно](importance.md) | [читать](read.md) | [HasAttachment](hasattachment.md)HasAttachment | ExtendedProperties[(NonEmptyArrayOfExtendedPropertyType)](extendedproperties-nonemptyarrayofextendedpropertytype.md)
+[ID (итемидтипе)](id-itemidtype.md)  |  [Почтовый ящик (превиевитеммаилбокстипе)](mailbox-previewitemmailboxtype.md)  |  [ParentID](parentid.md)  |  [ItemClass](itemclass.md)  |  [Уникуехаш](uniquehash.md)  |  [Сортвалуе](sortvalue.md)  |  [Овалинк](owalink.md)  |  [Sender (строка)](sender-string.md)  |  [ToRecipients (аррайофсмтпаддресстипе)](torecipients-arrayofsmtpaddresstype.md)  |  [CcRecipients](ccrecipients.md)  |  [BccRecipients](bccrecipients.md)  |  [CreatedTime](createdtime.md)  |  [ReceivedTime](receivedtime.md)  |  [Сенттиме](senttime.md)  |  [Subject (тема](subject.md)  |  ) [Размер (длинный)](size-long.md)  |  [Предварительная версия](preview-ex15websvcsotherref.md)  |  [Важно](importance.md)  |  ! [Read (чтение](read.md)  |  ) [HasAttachment](hasattachment.md)  |  [Екстендедпропертиес (нонемптяррайофекстендедпропертитипе)](extendedproperties-nonemptyarrayofextendedpropertytype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19835308"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

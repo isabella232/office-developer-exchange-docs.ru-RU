@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 78b69794-7aea-4cca-a6d8-a6f1e642c7c5
 description: Элемент SmtpAddress (Федератеддиректориграуптипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: cb0f73d2cb673864ec949b3af4c66bad38a19c60
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0cb0fcaf50250fd2d8ecc42996c4bb18a615dc51
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835510"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467272"
 ---
 # <a name="smtpaddress-federateddirectorygrouptype"></a>SmtpAddress (Федератеддиректориграуптипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19835510"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

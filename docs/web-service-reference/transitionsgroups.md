@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ad0849f8-5158-4a23-9c36-a49f5be1d1e1
 description: Элемент Транситионсграупс представляет массив групп смены часовых поясов.
-ms.openlocfilehash: 546dd3c96187bf9f1ebf574b37b689e26e3af997
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 35244e122ee31045359afd0833459bbb94fd0aa1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840240"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467412"
 ---
 # <a name="transitionsgroups"></a>транситионсграупс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19840240"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19840240"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

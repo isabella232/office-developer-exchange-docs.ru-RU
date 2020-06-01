@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9f798e79-dafd-4d4d-9967-95fd8e5c0502
 description: Элемент Митингреспонсе представляет ответ на приглашение на собрание в хранилище Exchange.
-ms.openlocfilehash: c5f9f3ac2fcd12e9c95f663311c33cdd36783251
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ff999a671c0321586fbc2adae6cbb5c1ad117ebf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834446"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467699"
 ---
 # <a name="meetingresponse"></a>митингреспонсе
 
@@ -87,7 +87,7 @@ ms.locfileid: "19834446"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -99,7 +99,7 @@ ms.locfileid: "19834446"
 |[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
 |[Тема](subject.md) <br/> |Представляет тему для элементов хранилища Exchange и объектов ответа. Тема может иметь не более 255 символов.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Указывает уровень конфиденциальности элемента.  <br/> |
-|[Основной текст](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
+|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
 |[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, вложенные в элемент в хранилище Exchange.  <br/> |
 |[DateTimeReceived](datetimereceived.md) <br/> |Представляет данные и время получения элемента в почтовом ящике.  <br/> |
 |[Размер](size.md) <br/> |Представляет размер элемента в байтах. Это свойство доступно только для чтения.  <br/> |
@@ -171,7 +171,7 @@ ms.locfileid: "19834446"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

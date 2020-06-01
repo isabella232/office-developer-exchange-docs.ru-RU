@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: d1e3cd23-48fe-4ebc-a5c5-2226d223f800
 description: Элемент dialString содержит значение номера телефона для звонка.
-ms.openlocfilehash: f27934fa73ead75ab50e99a79c01cb6a1062e3d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 028ea789efabf49a64bc1d5022d9eb2d8df61c51
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762094"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467825"
 ---
 # <a name="dialstring-um-web-service"></a>dialString (веб-служба единой системы обмена сообщениями)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762094"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19762094"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

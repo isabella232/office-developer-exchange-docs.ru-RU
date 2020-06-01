@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a190bbec-c71b-4e6a-880b-55854c724d8c
 description: Поиск сведений о RemoveImContactFromGroupной операции EWS.
-ms.openlocfilehash: 8c9af251014dbddabb439ed5bf5dc35580da6a90
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4750ef57794c3da540ac36baa8ef6ef093939ea1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835099"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466971"
 ---
 # <a name="removeimcontactfromgroup-operation"></a>Операция RemoveImContactFromGroup
 
@@ -48,8 +48,8 @@ ms.locfileid: "19835099"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -86,15 +86,15 @@ ms.locfileid: "19835099"
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveImContactFromGroupResponse ResponseClass="Success" 
-                                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
       </RemoveImContactFromGroupResponse>
    </s:Body>
@@ -120,15 +120,15 @@ ms.locfileid: "19835099"
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveImContactFromGroupResponse ResponseClass="Error" 
-                                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>The specified Im Contact Id is invalid.</MessageText>
          <ResponseCode>ErrorInvalidImContactId</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -149,7 +149,7 @@ ms.locfileid: "19835099"
     
 ## <a name="see-also"></a>См. также
 
-- [Пользователи и контакты в EWS для Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [Пользователи и контакты в EWS для Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
 - [AddDistributionGroupToImList](adddistributiongrouptoimlist-operation.md)
     

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 48d831cf-10d8-480b-86d2-f9c0b14b8167
 description: Элемент Рекуррингмастеритемид (Итемидтипе) идентифицирует элемент шаблона повторения, определяя идентификаторы одного из связанных элементов вхождения.
-ms.openlocfilehash: 89089067963e99ac1a6cae6ea6e1e8350d148e82
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c725998ad3a728ef1f47ff6491592b461753b895
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835010"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468441"
 ---
 # <a name="recurringmasteritemid-itemidtype"></a>Рекуррингмастеритемид (Итемидтипе)
 
@@ -39,7 +39,7 @@ ms.locfileid: "19835010"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835010"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

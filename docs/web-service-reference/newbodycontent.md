@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0303600d-16d8-4685-88f2-980c5ca7e9a6
 description: Элемент Невбодиконтент представляет новое содержимое основного текста сообщения.
-ms.openlocfilehash: b87393e460b1eee1c13efebf38e898d17915bd71
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dcfa927bb284ff00e510d8c7b4b31910a70b3cbb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834516"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466859"
 ---
 # <a name="newbodycontent"></a>невбодиконтент
 
@@ -47,7 +47,7 @@ ms.locfileid: "19834516"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19834516"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

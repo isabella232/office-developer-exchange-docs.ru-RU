@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 26f38f1c-96a3-440e-805c-1437886d11c5
 description: Элемент TRANSITIONS представляет массив переходов часового пояса.
-ms.openlocfilehash: df7cacdef71c3fdfaa3ecadb486843ea30e6109d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d48fb8872b2f7e052f733c32e5dd1c9b4d04d898
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840235"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467440"
 ---
 # <a name="transitions"></a>Выполняет
 
@@ -72,7 +72,7 @@ ms.locfileid: "19840235"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

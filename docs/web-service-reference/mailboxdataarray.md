@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: a14af788-beee-452c-b5d0-37bcb4ef02ff
 description: Элемент Маилбоксдатааррай содержит список почтовых ящиков, в которых запрашиваются сведения о доступности.
-ms.openlocfilehash: b76e71ee9127dc2221e0065a27d3c781f8b5786a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 894bf97a0d633d7eef0434331ccf1580fcba386e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834283"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468196"
 ---
 # <a name="mailboxdataarray"></a>маилбоксдатааррай
 
@@ -43,7 +43,7 @@ ms.locfileid: "19834283"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -65,7 +65,7 @@ ms.locfileid: "19834283"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -74,5 +74,5 @@ ms.locfileid: "19834283"
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
 - [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

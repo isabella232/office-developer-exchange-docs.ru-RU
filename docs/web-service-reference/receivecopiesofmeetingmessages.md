@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 65217ca8-6aea-47eb-a989-e6cce25f5f09
 description: Элемент Рецеивекопиесофмитингмессажес указывает, получает ли делегат копии сообщений, связанных с собранием, которые адресованы участнику. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: e39a5d3255268b418fa956959da5ae0ea062d831
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: af6e220304f88c4db00ab675077dcd9bf581ea9e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834967"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468266"
 ---
 # <a name="receivecopiesofmeetingmessages"></a>рецеивекопиесофмитингмессажес
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834967"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19834967"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ ms.locfileid: "19834967"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Добавление делегатов](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[Добавление делегатов](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

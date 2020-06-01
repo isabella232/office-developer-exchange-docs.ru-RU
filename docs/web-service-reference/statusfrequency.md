@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 917474e2-a426-4166-b825-53783a41dad4
 description: Элемент StatusFrequency представляет максимальное значение времени ожидания (в минутах), в течение которого предпринимает попытку выполнить повторные попытки на сервере.
-ms.openlocfilehash: 402f8978c0ec6b377dfa020f23595c8954509a07
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: db14ecfd54584188b3da16bb369db6c8089c70f4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835589"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468245"
 ---
 # <a name="statusfrequency"></a>StatusFrequency
 
@@ -40,11 +40,11 @@ ms.locfileid: "19835589"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19835589"
 |**Повторить**|**Секунды**|**Time**|
 |:-----|:-----|:-----|
 |нуль  <br/> |нуль  <br/> |Начальная синхронизация  <br/> |
-|1,1  <br/> |более  <br/> |00:30  <br/> |
+|1   <br/> |более  <br/> |00:30  <br/> |
 |2  <br/> |60  <br/> |01:00  <br/> |
 |4  <br/> |120  <br/> |02:00  <br/> |
 |4   <br/> |240  <br/> |04:00  <br/> |
@@ -79,7 +79,7 @@ ms.locfileid: "19835589"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

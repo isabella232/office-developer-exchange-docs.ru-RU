@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f17c3d08-c79e-41f1-ba31-6e41e7aafd87
 description: Операция Subscribe используется для подписки клиентских приложений на Push-или опрашивающие уведомления. Важно знать, что структура сообщений запросов и ответов различается в зависимости от типа уведомления о событии.
-ms.openlocfilehash: f6cacab80c8ca2e505ab63a162a161fcf5de8585
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c40e0e434f698c6535ff5d03fd4d45a453959dd6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835619"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467048"
 ---
 # <a name="subscribe-operation"></a>Операции подписки
 
@@ -34,9 +34,9 @@ ms.locfileid: "19835619"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <Subscribe xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <Subscribe xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <PullSubscriptionRequest>
         <t:FolderIds>
           <t:DistinguishedFolderId Id="inbox"/>
@@ -87,12 +87,12 @@ ms.locfileid: "19835619"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -138,12 +138,12 @@ ms.locfileid: "19835619"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Error">
           <m:MessageText>Subscriptions are not supported for delegate user access.</m:MessageText>
@@ -185,15 +185,15 @@ ms.locfileid: "19835619"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <Subscribe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <PushSubscriptionRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <FolderIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <PushSubscriptionRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <FolderIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <DistinguishedFolderId Id="inbox" />
         </FolderIds>
-        <EventTypes xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <EventTypes xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <EventType>NewMailEvent</EventType>
           <EventType>CopiedEvent</EventType>
           <EventType>CreatedEvent</EventType>
@@ -201,17 +201,17 @@ ms.locfileid: "19835619"
           <EventType>ModifiedEvent</EventType>
           <EventType>MovedEvent</EventType>
         </EventTypes>
-        <StatusFrequency xmlns="http://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
-        <URL xmlns="http://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
+        <StatusFrequency xmlns="https://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
+        <URL xmlns="https://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
       </PushSubscriptionRequest>
     </Subscribe>
   </soap:Body>
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
-Клиентская веб-служба должна быть настроена перед отправкой запроса на подписку с Push-уведомлениями; в противном случае первое уведомление не будет отправлено в действительную конечную точку, а push-уведомление завершится с ошибками. Для получения дополнительных сведений обратитесь к разделу [пример приложения push-уведомлений](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx).
+Клиентская веб-служба должна быть настроена перед отправкой запроса на подписку с Push-уведомлениями; в противном случае первое уведомление не будет отправлено в действительную конечную точку, а push-уведомление завершится с ошибками. Для получения дополнительных сведений обратитесь к разделу [пример приложения push-уведомлений](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx).
   
 При повторной подписку создается новый идентификатор [SubscriptionId (Events)](subscriptionid-getevents.md) . Использование водяного знака предыдущей подписки для повторной подписки на момент окончания предыдущей подписки. 
   
@@ -250,12 +250,12 @@ ms.locfileid: "19835619"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <SubscribeResponseMessage ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>
@@ -295,7 +295,7 @@ ms.locfileid: "19835619"
 [Операция GetEvents](getevents-operation.md)
 
 
-[Использование подписок по запросу](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Использование подписок по запросу](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
   
-[Пример приложения для push-уведомлений](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+[Пример приложения для push-уведомлений](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

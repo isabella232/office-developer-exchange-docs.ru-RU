@@ -12,16 +12,16 @@ api_type:
 - schema
 ms.assetid: 4dcf8671-96df-4a2d-9836-7e8e3a67e0db
 description: Элемент InternetMessageHeaders содержит коллекцию некоторых заголовков Интернет-сообщений, содержащихся в элементе почтового ящика. Чтобы получить всю коллекцию заголовков сообщений Интернета, используйте свойство PR_TRANSPORT_MESSAGE_HEADERS. Для получения дополнительных сведений о службах EWS и заголовках сообщений Интернета Сижеттинг заголовки сообщений Интернета EWS, MIME и отсутствующие заголовки сообщений Интернета.
-ms.openlocfilehash: 2da529a8a3532cebb2791b285b7673c962a2a656
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4719050c02590e021b29173c234466de3fdc58a4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833954"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467328"
 ---
 # <a name="internetmessageheaders"></a>InternetMessageHeaders
 
-Элемент **InternetMessageHeaders** содержит коллекцию некоторых заголовков Интернет-сообщений, содержащихся в элементе почтового ящика. Чтобы получить всю коллекцию заголовков сообщений Интернета, используйте свойство **PR_TRANSPORT_MESSAGE_HEADERS** . Дополнительные сведения о службах EWS и заголовках сообщений в Интернете можно найти в статье "сведения о заголовках сообщений Интернета" в [EWS, MIME и отсутствующих заголовках сообщений Интернета](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx).
+Элемент **InternetMessageHeaders** содержит коллекцию некоторых заголовков Интернет-сообщений, содержащихся в элементе почтового ящика. Чтобы получить всю коллекцию заголовков сообщений Интернета, используйте свойство **PR_TRANSPORT_MESSAGE_HEADERS** . Дополнительные сведения о службах EWS и заголовках сообщений в Интернете можно найти в статье "сведения о заголовках сообщений Интернета" в [EWS, MIME и отсутствующих заголовках сообщений Интернета](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx).
   
 ```XML
 <InternetMessageHeaders>
@@ -36,7 +36,7 @@ ms.locfileid: "19833954"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -77,7 +77,7 @@ ExtendedPropertyDefinition transportMsgHdr = new ExtendedPropertyDefinition(0x00
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -89,5 +89,5 @@ ExtendedPropertyDefinition transportMsgHdr = new ExtendedPropertyDefinition(0x00
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[EWS, MIME и отсутствующие заголовки сообщений Интернета](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx)
+[EWS, MIME и отсутствующие заголовки сообщений Интернета](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx)
 

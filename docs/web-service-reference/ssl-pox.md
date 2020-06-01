@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: a7e2bdcd-a2f7-45a4-adcd-a03fe7fd4d9b
 description: Элемент SSL указывает, требуется ли безопасный вход в систему.
-ms.openlocfilehash: 9a51c715032cb2af846e764d28698c5697670d98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f4e42153c25b34c99f2cad50fb56e8cad24534ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835537"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467615"
 ---
 # <a name="ssl-pox"></a>SSL (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19835537"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

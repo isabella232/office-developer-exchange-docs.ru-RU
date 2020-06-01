@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cddd6075-06b6-4858-9ffa-9db4d9d9b030
 description: Элемент Token указывает маркер клиентского доступа.
-ms.openlocfilehash: 2e1f401141aef07a57a214968f6a6bafdf71f0dc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d195e81d8d20eb2288e921c640c7b2898a5341ab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840203"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467867"
 ---
 # <a name="token-clientaccesstokentype"></a>Маркер (Клиентакцесстокентипе)
 
@@ -35,11 +35,11 @@ ms.locfileid: "19840203"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ID (String)](id-string.md) | [токентипе](tokentype.md) | [токенвалуе](tokenvalue.md) | [TTL](ttl.md)
+[ID (строка)](id-string.md)  |  [Токентипе](tokentype.md)  |  [Токенвалуе](tokenvalue.md)  |  [Срок жизни](ttl.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19840203"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

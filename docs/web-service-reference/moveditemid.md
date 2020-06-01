@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7d5425ab-1e75-43d1-b801-802ff5139df6
 description: Элемент Моведитемид указывает идентификатор элемента, перемещенного операцией MarkAsJunk.
-ms.openlocfilehash: 17e20e8ca81f97b419fc4a2b413e21322e828ec9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5cf8800ec672278691348bbcd8c6c8cc7a12905b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834484"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468616"
 ---
 # <a name="moveditemid"></a>моведитемид
 
@@ -37,7 +37,7 @@ ms.locfileid: "19834484"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834484"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

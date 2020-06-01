@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3dc4ab23-26b0-42b3-8930-f1c7eefecdeb
 description: Элемент SortBy содержит свойство Item, используемое для сортировки результатов поиска.
-ms.openlocfilehash: 357958e393ba9331d23ee48661f21e2afe00cf01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cf2b1e633bc66e526028078833afade363e4c5e0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835518"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468399"
 ---
 # <a name="sortby"></a>SortBy
 
@@ -39,7 +39,7 @@ ms.locfileid: "19835518"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Фиелдури](fielduri.md) | [индекседфиелдури](indexedfielduri.md)
+[Фиелдури](fielduri.md)  |  [Индекседфиелдури](indexedfielduri.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835518"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

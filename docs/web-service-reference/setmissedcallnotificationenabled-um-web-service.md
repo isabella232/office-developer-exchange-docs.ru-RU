@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: db01f574-ab6c-45c2-aaac-404cec37790b
 description: Элемент SetMissedCallNotificationEnabled определяет запрос для операции SetMissedCallNotificationEnabled (веб-службы единой системы обмена сообщениями).
-ms.openlocfilehash: 0e556dec70ba0092fb2889b8c384f4952571dbab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9e498c1e100dfbbfc007c33df9728d312384522f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835435"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468168"
 ---
 # <a name="setmissedcallnotificationenabled-um-web-service"></a>SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
 
@@ -37,7 +37,7 @@ ms.locfileid: "19835435"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -47,17 +47,17 @@ ms.locfileid: "19835435"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8f37d174-db11-427c-bbed-fdde754a60c7
 description: Элемент Уфсеттингс содержит параметры заместителя (отсутствие на работе).
-ms.openlocfilehash: d71f068ff24af22da98b6b4de090ab26d3f74f26
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c1b214fd8bfab5b7a82d41a5187cf6e0fc4ba79c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834649"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467195"
 ---
 # <a name="oofsettings"></a>уфсеттингс
 
@@ -44,7 +44,7 @@ ms.locfileid: "19834649"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19834649"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

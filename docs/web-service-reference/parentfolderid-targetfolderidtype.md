@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0e3e6e5f-06d0-499b-8ca4-d36036521658
 description: Элемент ParentFolderId определяет папку, в которой создается новая папка, или папку для поиска операции FindConversation.
-ms.openlocfilehash: 8e80b9b342274a8b2004838ebd16f8425a2d3fa3
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 36e63266d10603c4d453a37e2b0d22e02599e516
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353828"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467804"
 ---
 # <a name="parentfolderid-targetfolderidtype"></a>ParentFolderId (Таржетфолдеридтипе)
 
@@ -43,7 +43,7 @@ ms.locfileid: "21353828"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -75,7 +75,7 @@ ms.locfileid: "21353828"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -84,5 +84,5 @@ ms.locfileid: "21353828"
 
 - [Операция CreateFolder](createfolder-operation.md)
 - [Операция FindConversation](findconversation-operation.md)
-- [Создание папок (веб-службы Exchange)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+- [Создание папок (веб-службы Exchange)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

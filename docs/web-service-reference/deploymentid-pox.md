@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: b879c134-307e-4645-bb53-55d8ba4fad9c
 description: Элемент Деплойментид однозначно идентифицирует лес Microsoft Exchange Server 2007.
-ms.openlocfilehash: 4f2548709753d8407d02218acecd9233f0ba764f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4986a3404763e88fb3e84d52a5d30d54c810f93a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762069"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467923"
 ---
 # <a name="deploymentid-pox"></a>Деплойментид (POX)
 
@@ -35,11 +35,11 @@ ms.locfileid: "19762069"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

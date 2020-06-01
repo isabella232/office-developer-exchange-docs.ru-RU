@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 351c8dfe-cf8c-45ba-a07d-d764f8189773
 description: Элемент Вотингинформатион указывает сведения о голосовании в сообщении голосования и запросе на утверждение, Вхереаппровеандрежектаре параметры голосования.
-ms.openlocfilehash: f11c25bb1f3a3c4781cfa6c51e11ff87af40c7f0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d946ba8c71d19c8cbb1befbe8c4e43e93590ccae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840478"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467748"
 ---
 # <a name="votinginformation"></a>вотингинформатион
 
@@ -33,15 +33,15 @@ ms.locfileid: "19840478"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Усероптионс](useroptions.md) | [вотингреспонсе](votingresponse.md)
+[Усероптионс](useroptions.md)  |  [Вотингреспонсе](votingresponse.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Сообщение](message-ex15websvcsotherref.md)
+[Message](message-ex15websvcsotherref.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -53,7 +53,7 @@ ms.locfileid: "19840478"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
@@ -62,7 +62,7 @@ ms.locfileid: "19840478"
 
 
 
-[Сообщение](message-ex15websvcsotherref.md)
+[Message](message-ex15websvcsotherref.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

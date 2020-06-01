@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: dce6d823-dc33-4a47-babe-6370a15ac7b4
 description: Элемент Name представляет имя параметра.
-ms.openlocfilehash: 4689c306bb805a40fea0d58c9e04a5a47d3bb14d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 74e6d6b59d972d7230c23b38cd3f4a8591401bbd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834506"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466887"
 ---
 # <a name="name-soap"></a>Имя (SOAP)
 
@@ -32,11 +32,11 @@ ms.locfileid: "19834506"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834506"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

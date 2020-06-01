@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 387328ae-4dcc-4230-8e4b-01d7894bbce2
 description: Элемент Вотингоптиондата указывает сведения о каждом параметре голосования.
-ms.openlocfilehash: 743ddd7b2a7e8a0e86ab5973c71801b1ec19df19
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f4240dc5c5d88e4964087b80e9081b93b41eed94
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840485"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468651"
 ---
 # <a name="votingoptiondata"></a>вотингоптиондата
 
@@ -33,11 +33,11 @@ ms.locfileid: "19840485"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[DisplayName (вотингоптиондататипе)](displayname-votingoptiondatatype.md) | [сендпромпт](sendprompt.md)
+[DisplayName (вотингоптиондататипе)](displayname-votingoptiondatatype.md)  |  [Сендпромпт](sendprompt.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19840485"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

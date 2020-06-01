@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 82dfa204-e316-432f-a753-5bd97f576389
 description: Элемент Унпинтеаммаилбоксреспонсе содержит ответ на запрос на открепление почтового ящика сайта.
-ms.openlocfilehash: eb936c5f8d61b7005d7e2e9d5dfff7632e702a28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ba1f61a7b5b5b4d5af6805c13d84ee15e3559751
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840299"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467237"
 ---
 # <a name="unpinteammailboxresponse"></a>унпинтеаммаилбоксреспонсе
 
@@ -35,11 +35,11 @@ ms.locfileid: "19840299"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md) | [ResponseCode](responsecode.md)респонсекоде | [DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй | [мессажексмл](messagexml.md)
+[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19840299"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

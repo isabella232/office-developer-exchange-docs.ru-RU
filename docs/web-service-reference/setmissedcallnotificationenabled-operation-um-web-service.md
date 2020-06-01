@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 6693b5db-ac6b-43bc-af83-a9c94fc425bf
 description: Операция SetMissedCallNotificationEnabled включает или отключает уведомления о пропущенных вызовах.
-ms.openlocfilehash: be9479d6ed2c5238ed19c3d22e028fca62b8deed
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ca4942942a81bc187e8e18a5e6f003f8587f79d1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835434"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467398"
 ---
 # <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
 
@@ -34,7 +34,7 @@ ms.locfileid: "19835434"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetMissedCallNotificationEnabled xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetMissedCallNotificationEnabled xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
         <status>true</status>
     </SetMissedCallNotificationEnabled>
   </soap:Body>
@@ -53,7 +53,7 @@ ms.locfileid: "19835434"
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <SetMissedCallNotificationEnabledResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <SetMissedCallNotificationEnabledResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 041b3d48-8f43-47f3-869f-72b66bef372a
 description: Элемент Мессажеклассификатионс представляет классификации сообщений, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение.
-ms.openlocfilehash: 402377907efbc9bb63d875f3f66b314dfc4b788d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 63481aa8903c4e9637870130eb9154118471c3b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834471"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467972"
 ---
 # <a name="messageclassifications"></a>мессажеклассификатионс
 
@@ -63,7 +63,7 @@ ms.locfileid: "19834471"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

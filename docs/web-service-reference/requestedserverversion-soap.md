@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: cf3f9d7a-2add-4457-b009-2929220f90b5
 description: Элемент Рекуестедсерверверсион указывает версию сервера, для которой вызывается метод автообнаружения.
-ms.openlocfilehash: 6b9d31f3b7bca087652f04e4943becc5ac4e68e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ff63c82943bdd3476a4284f5aa2075fc9c0194b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835132"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467909"
 ---
 # <a name="requestedserverversion-soap"></a>Рекуестедсерверверсион (SOAP)
 
@@ -31,15 +31,15 @@ ms.locfileid: "19835132"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -62,7 +62,7 @@ ms.locfileid: "19835132"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

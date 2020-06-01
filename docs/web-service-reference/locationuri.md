@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0480b7f5-9312-4efe-bb37-9fffcd7e7a9d
 description: Элемент LocationUri содержит строку, указывающую универсальный код ресурса (URI) связанного почтового адреса.
-ms.openlocfilehash: 19fe76e98a49d5badab0bb3f7604dccb72b9d668
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1cf857e29b67fdacdb73fc5bd921973d7dbd481e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834298"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467097"
 ---
 # <a name="locationuri"></a>LocationUri
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834298"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Value (персонапосталаддресстипе)](value-personapostaladdresstype.md) | [посталаддресс (персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md)
+[Значение (персонапосталаддресстипе)](value-personapostaladdresstype.md)  |  [Посталаддресс (персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 737388b3-7b73-42af-94d3-3dbb0659718f
 description: Элемент Маилтипсенаблед указывает, доступна ли служба советов по работе с почтой.
-ms.openlocfilehash: 4fe2cae1087ab667133ec685c3325b14c4f12088
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6be923733f1cbd584010ce5f8ee5b96178d5c2c0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834330"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468014"
 ---
 # <a name="mailtipsenabled"></a>маилтипсенаблед
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834330"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834330"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

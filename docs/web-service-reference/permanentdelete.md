@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1a0e0f46-1472-4eb7-bb54-f193a2603587
 description: Элемент Перманентделете указывает, следует ли окончательно удалять сообщения и не сохранять их в папке "Удаленные".
-ms.openlocfilehash: 40cf80e054bb70a3f6d687e8d4361f1d4331a7f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: da7680eefca9ad359948af38eac49d18e9055988
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834724"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467769"
 ---
 # <a name="permanentdelete"></a>перманентделете
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834724"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834724"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bbe97777-f728-46c5-b2aa-565112c24f3a
 description: Элемент Воркингхаурс представляет параметры часового пояса и рабочие часы для запрошенного пользователя почтового ящика.
-ms.openlocfilehash: c53779422b87adebed370a1ed88e4e91c7a2dcaf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9cb21e72f7024b96b4b5f252a8a3b85bb704e67c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840520"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468343"
 ---
 # <a name="workinghours"></a>воркингхаурс
 
@@ -47,7 +47,7 @@ ms.locfileid: "19840520"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19840520"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ ms.locfileid: "19840520"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

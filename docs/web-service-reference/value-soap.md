@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: a79a7e54-e7b1-4735-8eb4-03b1d0738e2c
 description: Элемент value представляет значение параметра пользователя.
-ms.openlocfilehash: 92b720c252bf97217b48cdd9f1fe7c91433be9a3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 755ecd20cc3707b4a8c36b832ff1d6fe91ec9169
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840468"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468070"
 ---
 # <a name="value-soap"></a>Значение (SOAP)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19840468"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,13 +53,13 @@ ms.locfileid: "19840468"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

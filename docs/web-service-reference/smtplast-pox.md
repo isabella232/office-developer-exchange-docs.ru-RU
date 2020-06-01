@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: f1aa8bd9-c6ac-41ac-8d2d-56fb20006005
 description: Элемент Смтпласт указывает, обязательно ли использовать SMTP-сервер для загрузки электронной почты перед отправкой электронной почты с помощью SMTP-сервера.
-ms.openlocfilehash: 5359f20b33855f4ef48566058bc46bd618e3b2ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7019da28ffa196a9abc8798aa75aff2756198da3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835505"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468434"
 ---
 # <a name="smtplast-pox"></a>Смтпласт (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19835505"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

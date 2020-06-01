@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0ddf9181-f65e-4ad6-ad69-7b074ea0f2e7
 description: Элемент Исассигнментедитабле представляет тип задачи.
-ms.openlocfilehash: 91922c4d6abd4d88ac9e36dd3d4c0224fc1ee716
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5eb091b24e2c97f7aa6072044fed998b6c9c1651
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833992"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468056"
 ---
 # <a name="isassignmenteditable"></a>исассигнментедитабле
 
@@ -34,11 +34,11 @@ ms.locfileid: "19833992"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19833992"
 |**Значение**|**Описание**|
 |:-----|:-----|
 |нуль  <br/> |Значение по умолчанию для всех элементов Task.  <br/> |
-|1,1  <br/> |Запрос задачи.  <br/> |
+|1   <br/> |Запрос задачи.  <br/> |
 |2  <br/> |Принятие задачи от получателя запроса задачи.  <br/> |
 |4  <br/> |Отклонение задачи от получателя запроса задачи.  <br/> |
 |4   <br/> |Обновление запроса на предыдущую задачу.  <br/> |
@@ -67,7 +67,7 @@ ms.locfileid: "19833992"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1157b042-6dce-4cdc-9700-e22b749da39f
 description: Элемент Рецеиведрепресентинг идентифицирует участника в сценарии доступа делегата.
-ms.openlocfilehash: 1587fcae6975b986711e7223e50c60658833cc80
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f444fb88be9c0df174f0c1490cf7c499cc0c0539
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834973"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468224"
 ---
 # <a name="receivedrepresenting"></a>рецеиведрепресентинг
 
@@ -36,7 +36,7 @@ ms.locfileid: "19834973"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -81,7 +81,7 @@ ms.locfileid: "19834973"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 183f4a06-c056-4770-b00b-ad850b97e03d
 description: Элемент Превиевитемреспонсешапе содержит набор запрошенных свойств, который должен быть возвращен при поиске обнаружения.
-ms.openlocfilehash: 7d6abb232225a6807abe988846eccdd8e265fede
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6f00849cdd564a45084b64704e36a6cd09c698f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834871"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468098"
 ---
 # <a name="previewitemresponseshape"></a>превиевитемреспонсешапе
 
@@ -33,11 +33,11 @@ ms.locfileid: "19834871"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Басешапе (превиевитембасешапетипе)](baseshape-previewitembaseshapetype.md) | [аддитионалпропертиес](additionalproperties.md)
+[Басешапе (превиевитембасешапетипе)](baseshape-previewitembaseshapetype.md)  |  [Аддитионалпропертиес](additionalproperties.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834871"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

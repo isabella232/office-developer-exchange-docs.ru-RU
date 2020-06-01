@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c04a6872-ca27-432b-aac2-36b023d0afc6
 description: Элемент Серверверсионинфо представляет номер версии Microsoft Exchange Server.
-ms.openlocfilehash: aff8a6542e2ae6fb1148dd29051b7b33ad90eeff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5bd1fbd8fdee584a9d272fa8ab82f2a31c1357fe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835389"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466831"
 ---
 # <a name="serverversioninfo"></a>серверверсионинфо
 
@@ -43,7 +43,7 @@ ms.locfileid: "19835389"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19835389"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

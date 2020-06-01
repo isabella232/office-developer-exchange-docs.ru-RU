@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d598f0a6-e296-423f-8ce5-3da57cfd8189
 description: Стандартный элемент представляет дату и время изменения времени с летнего на стандартное время.
-ms.openlocfilehash: c121e959f243d982cfe50ed6b4ef39a82dae2cc8
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 1214a1debb53c9a31ca7c92a0c9e5c0722960d75
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353436"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467566"
 ---
 # <a name="standard"></a>Standard
 
@@ -74,7 +74,7 @@ ms.locfileid: "21353436"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

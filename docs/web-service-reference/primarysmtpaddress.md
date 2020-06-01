@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: eee79904-9412-4e61-b9b8-aff0ce25fade
 description: Элемент PrimarySmtpAddress представляет основной SMTP-адрес учетной записи, которая будет использоваться для авторизации "сервер-сервер" или "делегированный доступ".
-ms.openlocfilehash: d33bf22af4ddf6b2f6d8d8d434168264acfaea7c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eea995b3e546d7e94e65cf9b230b639a781c4928
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834881"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467965"
 ---
 # <a name="primarysmtpaddress"></a>PrimarySmtpAddress
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834881"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834881"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -74,7 +74,7 @@ ms.locfileid: "19834881"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Авторизация между серверами в EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+[Авторизация между серверами в EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
   
-[Работа с делегированным доступом](http://msdn.microsoft.com/library/dfd6b4a3-8fd3-47ba-83c0-52465cb5f3f3%28Office.15%29.aspx)
+[Работа с делегированным доступом](https://msdn.microsoft.com/library/dfd6b4a3-8fd3-47ba-83c0-52465cb5f3f3%28Office.15%29.aspx)
 
