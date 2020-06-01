@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6f73d18c-7bb1-4ab6-a23b-6d948e590b53
 description: Элемент Суппортедфиликстенсионс содержит расширения файлов, которые могут храниться в расположении общего доступа к документу.
-ms.openlocfilehash: 0f1dbbce2b836fe05e4bc612c607302783d5e05d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d783b147a25ebbe3bff59c2142012b50bd80004e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840117"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44433989"
 ---
 # <a name="supportedfileextensions-soap"></a>Суппортедфиликстенсионс (SOAP)
 
@@ -29,7 +29,7 @@ ms.locfileid: "19840117"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -47,7 +47,7 @@ ms.locfileid: "19840117"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

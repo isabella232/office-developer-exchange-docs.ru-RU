@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ff849238-06b7-4891-884b-c51ce0f1ebbc
 description: Найдите сведения о пространствах имен для командной консоли Exchange в Exchange.
-ms.openlocfilehash: d1683f99fbd233c1b878eb86d529b58ea1ebd8c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 370c3e6cde48662eba8c62ad20e42fb716e66f2d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44435816"
 ---
 # <a name="exchange-management-shell-namespaces"></a>Пространства имен командной консоли Exchange
 

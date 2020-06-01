@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dac8e526-11c6-4c2e-b9a2-f016b1fc738a
 description: Узнайте, как использовать ответ командлета командной консоли Exchange в управляемом приложении Exchange.
-ms.openlocfilehash: 5edf75afd556f67e815bc519c87586f2f62f057b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c1b81356ab5dc288ab08287d47581871c36beb05
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761252"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44435704"
 ---
 # <a name="use-the-exchange-management-shell-cmdlet-response"></a>Использование ответа командлета командной консоли Exchange
 
@@ -21,7 +21,7 @@ ms.locfileid: "19761252"
   
 **Применимо к:** Exchange Online | Exchange Server 2013 | Office 365
   
-Каждый командлет командной консоли Exchange возвращает один или несколько экземпляров [PSObject](http://msdn.microsoft.com/en-us/library/system.management.automation.psobject%28VS.85%29.aspx) , которые предоставляют согласованное представление любого объекта в среде командной консоли Exchange. В этой статье приводятся сведения о том, как использовать свойства экземпляра **PSObject** для возврата значений свойств базового объекта API сервера Exchange Server 2013. 
+Каждый командлет командной консоли Exchange возвращает один или несколько экземпляров [PSObject](https://msdn.microsoft.com/library/system.management.automation.psobject%28VS.85%29.aspx) , которые предоставляют согласованное представление любого объекта в среде командной консоли Exchange. В этой статье приводятся сведения о том, как использовать свойства экземпляра **PSObject** для возврата значений свойств базового объекта API сервера Exchange Server 2013. 
   
 ## <a name="prerequisites-for-using-cmdlet-responses"></a>Предварительные требования для использования ответов командлетов
 <a name="prerequisites_bk"> </a>
@@ -43,7 +43,7 @@ ms.locfileid: "19761252"
 ## <a name="use-the-cmdlet-response"></a>Использование ответа командлета
 <a name="usingPSObject_bk"> </a>
 
-Класс [PSObject](http://msdn.microsoft.com/en-us/library/system.management.automation.psobject%28VS.85%29.aspx) предоставляет следующие три общедоступные свойства, которые содержат значения базового объекта API Exchange 2013: [Свойства](http://msdn.microsoft.com/en-us/library/system.management.automation.psobject.properties%28VS.85%29.aspx), [методы](http://msdn.microsoft.com/en-us/library/system.management.automation.psobject.methods%28VS.85%29.aspx)и [элементы](http://msdn.microsoft.com/en-us/library/system.management.automation.psobject.members%28VS.85%29.aspx). Каждое свойство, предоставляемое объектом API Exchange 2013, имеет соответствующую запись key/value в свойствах **Properties** и **Members** . Приложение может индексировать коллекцию **свойств** по имени свойства, чтобы получить значение свойства. 
+Класс [PSObject](https://msdn.microsoft.com/library/system.management.automation.psobject%28VS.85%29.aspx) предоставляет следующие три общедоступные свойства, которые содержат значения базового объекта API Exchange 2013: [Свойства](https://msdn.microsoft.com/library/system.management.automation.psobject.properties%28VS.85%29.aspx), [методы](https://msdn.microsoft.com/library/system.management.automation.psobject.methods%28VS.85%29.aspx)и [элементы](https://msdn.microsoft.com/library/system.management.automation.psobject.members%28VS.85%29.aspx). Каждое свойство, предоставляемое объектом API Exchange 2013, имеет соответствующую запись key/value в свойствах **Properties** и **Members** . Приложение может индексировать коллекцию **свойств** по имени свойства, чтобы получить значение свойства. 
   
 Свойство **typenames** экземпляра **PSObject** можно использовать для определения типа базового объекта Exchange, который инкапсулируется экземпляром **PSObject** . Свойство **typenames** — это коллекция строк, которая содержит иерархию объектов представленного типа. С помощью этих имен можно определить объект, представленный экземпляром **PSObject** , чтобы можно было извлечь соответствующее свойство. 
   

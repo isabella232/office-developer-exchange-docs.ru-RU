@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bdc36e39-56ec-4a52-b4c2-614487a5fb84
 description: Элемент AddItemToMyCalendar предназначена только для внутреннего использования.
-ms.openlocfilehash: c48c1b417a7bc592778db1e5101042a99fff38ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 310842eca68fc3987e0a0374c6b7bd5bc686c6d8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761344"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44435039"
 ---
 # <a name="additemtomycalendar"></a>аддитемтомикалендар
 
@@ -25,11 +25,11 @@ ms.locfileid: "19761344"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

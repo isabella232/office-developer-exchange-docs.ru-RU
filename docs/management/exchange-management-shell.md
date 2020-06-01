@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8cc0c4fa-9e13-45cb-88da-0486f2ac1bd0
 description: Сведения о том, как использовать командную консоль Exchange для разработки средств для администрирования Exchange Server.
-ms.openlocfilehash: 1cb0328bdb0eebda0ce4eda929e1bfb21be451f4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 38e75339a4ad97cf8ff99e1cbe9c01059e157941
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761254"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44435809"
 ---
 # <a name="exchange-management-shell"></a>Командная консоль Exchange
 
@@ -27,16 +27,16 @@ ms.locfileid: "19761254"
 
 |Если вас интересует|Прочтите это|
 |:-----|:-----|
-|Доступность  <br/> |Команды Командная консоль Exchange устанавливаются на всех серверах, где запущены версии Exchange, начиная с Exchange 2007.<br/>Клиентские приложения можно развертывать на любом компьютере, работающем под управлением Windows PowerShell 2,0.<br/> Сведения о доступе к оболочке можно найти в статье [Exchange Server PowerShell (Командная консоль Exchange)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps).  <br/> |
+|Доступность  <br/> |Команды Командная консоль Exchange устанавливаются на всех серверах, где запущены версии Exchange, начиная с Exchange 2007.<br/>Клиентские приложения можно развертывать на любом компьютере, работающем под управлением Windows PowerShell 2,0.<br/> Сведения о доступе к оболочке можно найти в статье [Exchange Server PowerShell (Командная консоль Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps).  <br/> |
 |Языки и инструменты  <br/> |Вы можете создавать сценарии командной консоли Exchange в любом текстовом редакторе.<br/>Можно использовать один или несколько сторонних средств для создания сценариев Windows PowerShell, которые можно использовать в командной консоли Exchange.  <br/> [Объектная модель Командная консоль Exchange](exchange-management-shell-namespaces.md) основана на платформе .NET Framework.<br/>Для разработки приложений командной консоли Exchange можно использовать любой язык .NET.  <br/> |
 |Доступные инструменты для тестирования и отладки  <br/> |Для тестирования и отладки сценариев консоли управления Exchange можно использовать одно из многих сторонних приложений.  <br/> С помощью Visual Studio и сторонних средств можно тестировать и отлаживать управляемые приложения командной консоли Exchange.  <br/> |
 |Требования к платформе сервера  <br/> |Командную консоль Exchange можно использовать на любом сервере Exchange, на котором установлен Windows PowerShell 2,0.  <br/> |
 |Требования к платформе клиента  <br/> |Клиентским приложениям командной консоли Exchange требуется Windows PowerShell 2,0.  <br/> |
-|Разрешения  <br/> |Для запуска приложения командной консоли Exchange необходимо, чтобы у пользователя были права на управление доступом на основе ролей для затронутых данных в хранилище Exchange.<br/>Более подробную информацию об управлении доступом на основе ролей можно узнать в статье Общие сведения об [управлении доступом на основе](http://technet.microsoft.com/en-us/library/dd298183.aspx)ролей.  <br/> |
+|Разрешения  <br/> |Для запуска приложения командной консоли Exchange необходимо, чтобы у пользователя были права на управление доступом на основе ролей для затронутых данных в хранилище Exchange.<br/>Более подробную информацию об управлении доступом на основе ролей можно узнать в статье Общие сведения об [управлении доступом на основе](https://technet.microsoft.com/library/dd298183.aspx)ролей.  <br/> |
    
-В статьях этого раздела описываются функции оболочки управления Exchange, важные для создания средств управления Exchange. Сведения о планировании, настройке или обслуживании Exchange можно найти на сайте [Exchange](https://docs.microsoft.com/en-us/exchange/) .
+В статьях этого раздела описываются функции оболочки управления Exchange, важные для создания средств управления Exchange. Сведения о планировании, настройке или обслуживании Exchange можно найти на сайте [Exchange](https://docs.microsoft.com/exchange/) .
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
 - [Создание средств командной консоли Exchange](create-exchange-management-shell-tools.md)
     
@@ -44,7 +44,7 @@ ms.locfileid: "19761254"
     
 ## <a name="see-also"></a>См. также
   
-- [Документация по Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6)
-- [Сценарии PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6)
+- [Документация по Windows PowerShell](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6)
+- [Сценарии PowerShell](https://docs.microsoft.com/powershell/scripting/powershell-scripting?view=powershell-6)
     
 

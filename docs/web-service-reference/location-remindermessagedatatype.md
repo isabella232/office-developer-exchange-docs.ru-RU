@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 173148af-5dda-4322-8d0c-da3ba3780a43
 description: Элемент Location (Реминдермессажедататипе) указывает расположение элемента календаря, для которого предназначено напоминание.
-ms.openlocfilehash: 88cc01e42f01f09933fd060080139a69bec104cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 16474c1b635a3e2337a89b98b6660293276774bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834242"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44433723"
 ---
 # <a name="location-remindermessagedatatype"></a>Местоположение (Реминдермессажедататипе)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834242"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834242"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

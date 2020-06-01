@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 37ad46ab-7817-4fdd-ad2d-26cb525cd96b
 description: Элемент Публикфолдерсервер содержит полное доменное имя сервера общедоступных папок (FQDN) для пользователя.
-ms.openlocfilehash: 6fb2f1a97279ee7f2e94c008474ddfed088faea1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 868eab83d05387f570bc033522121f25f09817c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834928"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44433688"
 ---
 # <a name="publicfolderserver-pox"></a>Публикфолдерсервер (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19834928"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
