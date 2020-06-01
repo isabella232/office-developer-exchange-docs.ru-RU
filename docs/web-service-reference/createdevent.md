@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f0e53a53-c352-42a5-8280-cd808b0e961b
 description: Элемент Креатедевент представляет событие, в котором создается элемент или папка.
-ms.openlocfilehash: 791b8af87c0cc8ae7f07850e3a6fedd9975a251e
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 546dde782b3b20cd76acb625067b5f2d8f568854
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353177"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44445323"
 ---
 # <a name="createdevent"></a>креатедевент
 
@@ -49,7 +49,7 @@ ms.locfileid: "21353177"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -75,7 +75,7 @@ ms.locfileid: "21353177"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -85,6 +85,6 @@ ms.locfileid: "21353177"
 - [Операции подписки](subscribe-operation.md)  
 - [Операция GetEvents](getevents-operation.md)  
 - [Операция по отмене подписки](unsubscribe-operation.md)
-- [Использование подписок по запросу](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx) 
-- [Уведомления о событиях в EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
+- [Использование подписок по запросу](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx) 
+- [Уведомления о событиях в EWS](https://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
 

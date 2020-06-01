@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 09b7504e-08d8-42f9-88cc-a2a37a2e2b8b
 description: Элемент DayOfMonth описывает день месяца, в который происходит повторяющийся элемент.
-ms.openlocfilehash: 0d0d95849a2562e06b88872b2857cc5e6ca67af3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dc333a46283d5e8eba3a79f62f8c22c22f56e190
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761990"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44442831"
 ---
 # <a name="dayofmonth"></a>DayOfMonth
 
@@ -35,11 +35,11 @@ ms.locfileid: "19761990"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19761990"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

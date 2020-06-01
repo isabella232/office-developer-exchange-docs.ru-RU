@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 60a668a2-b4e9-4db9-ac76-9b181e47b302
 description: Операция CreateManagedFolder создает управляемую папку в хранилище Exchange.
-ms.openlocfilehash: 2c2af53dc5dbe1e6fcbc7f3b1174a856e51e4905
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 779c730b55b9b441644108a6837f9e22d39cc2f4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761909"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44444595"
 ---
 # <a name="createmanagedfolder-operation"></a>Операция CreateManagedFolder
 
@@ -34,9 +34,9 @@ ms.locfileid: "19761909"
   
 ## <a name="remarks"></a>Примечания
 
-Сведения о том, как настроить политику управления записями сообщений (управления ЗАПИСЯМИ сообщений), приведены [в статье Создание политики почтовых ящиков управляемых папок](http://go.microsoft.com/fwlink/?LinkId=100975).
+Сведения о том, как настроить политику управления записями сообщений (управления ЗАПИСЯМИ сообщений), приведены [в статье Создание политики почтовых ящиков управляемых папок](https://go.microsoft.com/fwlink/?LinkId=100975).
   
-Сведения об удалении управляемых настраиваемых папок из почтового ящика можно найти в статье [Remove – ManagedFolder](http://go.microsoft.com/fwlink/?LinkId=100976).
+Сведения об удалении управляемых настраиваемых папок из почтового ящика можно найти в статье [Remove – ManagedFolder](https://go.microsoft.com/fwlink/?LinkId=100976).
   
 ## <a name="createmanagedfolder-request-example"></a>Пример запроса CreateManagedFolder
 
@@ -54,9 +54,9 @@ ms.locfileid: "19761909"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateManagedFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateManagedFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderNames>
         <t:FolderName>Test Managed Folder</t:FolderName>
       </FolderNames>
@@ -95,12 +95,12 @@ ms.locfileid: "19761909"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="598" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateManagedFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateManagedFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateManagedFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -151,12 +151,12 @@ ms.locfileid: "19761909"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="598" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateManagedFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateManagedFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateManagedFolderResponseMessage ResponseClass="Error">
           <m:MessageText>A specified managed folder already exists in the mailbox.</m:MessageText>
@@ -197,7 +197,7 @@ ms.locfileid: "19761909"
 [Операция FindFolder](findfolder-operation.md)
 
 
-[Поиск папок](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Поиск папок](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
   
-[Добавление управляемых папок](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Добавление управляемых папок](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 
