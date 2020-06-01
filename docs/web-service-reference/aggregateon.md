@@ -12,20 +12,20 @@ api_type:
 - schema
 ms.assetid: 9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb
 description: Элемент Аггрегатеон представляет свойство, используемое для определения порядка сгруппированных элементов для группового результирующего набора FindItem.
-ms.openlocfilehash: fe14de23e6a4c90d826200cae927427acfccc3c8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 04359c187ef11538d64f8f0d3ea2fe84bc3d048b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761363"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463568"
 ---
-# <a name="aggregateon"></a><span data-ttu-id="6470f-103">аггрегатеон</span><span class="sxs-lookup"><span data-stu-id="6470f-103">AggregateOn</span></span>
+# <a name="aggregateon"></a><span data-ttu-id="0e23c-103">аггрегатеон</span><span class="sxs-lookup"><span data-stu-id="0e23c-103">AggregateOn</span></span>
 
-<span data-ttu-id="6470f-104">Элемент **аггрегатеон** представляет свойство, используемое для определения порядка сгруппированных элементов для группового результирующего набора FindItem.</span><span class="sxs-lookup"><span data-stu-id="6470f-104">The **AggregateOn** element represents the property that is used to determine the order of grouped items for a grouped FindItem result set.</span></span> 
+<span data-ttu-id="0e23c-104">Элемент **аггрегатеон** представляет свойство, используемое для определения порядка сгруппированных элементов для группового результирующего набора FindItem.</span><span class="sxs-lookup"><span data-stu-id="0e23c-104">The **AggregateOn** element represents the property that is used to determine the order of grouped items for a grouped FindItem result set.</span></span> 
   
-- [<span data-ttu-id="6470f-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="6470f-105">FindItem</span></span>](finditem.md)  
-- [<span data-ttu-id="6470f-106">GroupBy</span><span class="sxs-lookup"><span data-stu-id="6470f-106">GroupBy</span></span>](groupby.md)
-- [<span data-ttu-id="6470f-107">аггрегатеон</span><span class="sxs-lookup"><span data-stu-id="6470f-107">AggregateOn</span></span>](aggregateon.md)
+- [<span data-ttu-id="0e23c-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="0e23c-105">FindItem</span></span>](finditem.md)  
+- [<span data-ttu-id="0e23c-106">GroupBy</span><span class="sxs-lookup"><span data-stu-id="0e23c-106">GroupBy</span></span>](groupby.md)
+- [<span data-ttu-id="0e23c-107">аггрегатеон</span><span class="sxs-lookup"><span data-stu-id="0e23c-107">AggregateOn</span></span>](aggregateon.md)
   
 ```xml
 <AggregateOn>
@@ -45,49 +45,49 @@ ms.locfileid: "19761363"
 </AggregateOn>
 ```
  
-<span data-ttu-id="6470f-108">**аггрегатеонтипе**</span><span class="sxs-lookup"><span data-stu-id="6470f-108">**AggregateOnType**</span></span>
+<span data-ttu-id="0e23c-108">**аггрегатеонтипе**</span><span class="sxs-lookup"><span data-stu-id="0e23c-108">**AggregateOnType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="6470f-109">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="6470f-109">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="0e23c-109">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="0e23c-109">Attributes and elements</span></span>
 
-<span data-ttu-id="6470f-110">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="6470f-110">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="0e23c-110">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="0e23c-110">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="6470f-111">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="6470f-111">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="0e23c-111">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="0e23c-111">Attributes</span></span>
 
-|<span data-ttu-id="6470f-112">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="6470f-112">**Attribute**</span></span>|<span data-ttu-id="6470f-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6470f-113">**Description**</span></span>|
+|<span data-ttu-id="0e23c-112">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="0e23c-112">**Attribute**</span></span>|<span data-ttu-id="0e23c-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0e23c-113">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="6470f-114">**Aggregate**</span><span class="sxs-lookup"><span data-stu-id="6470f-114">**Aggregate**</span></span> <br/> | <span data-ttu-id="6470f-115">Указывает максимальное или минимальное значение свойства, определяемого элементом [фиелдури](fielduri.md) , который используется для упорядочивания групп элементов.</span><span class="sxs-lookup"><span data-stu-id="6470f-115">Indicates the maximum or minimum value of the property identified by the [FieldURI](fielduri.md) element that is used for ordering the groups of items.</span></span><br/><br/><span data-ttu-id="6470f-116">Ниже перечислены возможные значения.</span><span class="sxs-lookup"><span data-stu-id="6470f-116">The following are the possible values:</span></span>  <br/><br/><span data-ttu-id="6470f-117">— Минимум</span><span class="sxs-lookup"><span data-stu-id="6470f-117">- Minimum</span></span>  <br/><span data-ttu-id="6470f-118">— Максимум</span><span class="sxs-lookup"><span data-stu-id="6470f-118">- Maximum</span></span>  <br/> |
+|<span data-ttu-id="0e23c-114">**Aggregate**</span><span class="sxs-lookup"><span data-stu-id="0e23c-114">**Aggregate**</span></span> <br/> | <span data-ttu-id="0e23c-115">Указывает максимальное или минимальное значение свойства, определяемого элементом [фиелдури](fielduri.md) , который используется для упорядочивания групп элементов.</span><span class="sxs-lookup"><span data-stu-id="0e23c-115">Indicates the maximum or minimum value of the property identified by the [FieldURI](fielduri.md) element that is used for ordering the groups of items.</span></span><br/><br/><span data-ttu-id="0e23c-116">Ниже перечислены возможные значения.</span><span class="sxs-lookup"><span data-stu-id="0e23c-116">The following are the possible values:</span></span>  <br/><br/><span data-ttu-id="0e23c-117">— Минимум</span><span class="sxs-lookup"><span data-stu-id="0e23c-117">- Minimum</span></span>  <br/><span data-ttu-id="0e23c-118">— Максимум</span><span class="sxs-lookup"><span data-stu-id="0e23c-118">- Maximum</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="6470f-119">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="6470f-119">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="0e23c-119">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="0e23c-119">Child elements</span></span>
 
-|<span data-ttu-id="6470f-120">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6470f-120">**Element**</span></span>|<span data-ttu-id="6470f-121">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6470f-121">**Description**</span></span>|
+|<span data-ttu-id="0e23c-120">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="0e23c-120">**Element**</span></span>|<span data-ttu-id="0e23c-121">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0e23c-121">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="6470f-122">фиелдури</span><span class="sxs-lookup"><span data-stu-id="6470f-122">FieldURI</span></span>](fielduri.md) <br/> |<span data-ttu-id="6470f-123">Определяет часто упоминаемые свойства по URI.</span><span class="sxs-lookup"><span data-stu-id="6470f-123">Identifies frequently referenced properties by URI.</span></span>  <br/> |
-|[<span data-ttu-id="6470f-124">индекседфиелдури</span><span class="sxs-lookup"><span data-stu-id="6470f-124">IndexedFieldURI</span></span>](indexedfielduri.md) <br/> |<span data-ttu-id="6470f-125">Определяет отдельные элементы словаря.</span><span class="sxs-lookup"><span data-stu-id="6470f-125">Identifies individual members of a dictionary.</span></span>  <br/> |
-|[<span data-ttu-id="6470f-126">екстендедфиелдури</span><span class="sxs-lookup"><span data-stu-id="6470f-126">ExtendedFieldURI</span></span>](extendedfielduri.md) <br/> |<span data-ttu-id="6470f-127">Определяет расширенные свойства MAPI, которые необходимо получить, задать или создать.</span><span class="sxs-lookup"><span data-stu-id="6470f-127">Identifies extended MAPI properties to get, set, or create.</span></span>  <br/> |
+|[<span data-ttu-id="0e23c-122">фиелдури</span><span class="sxs-lookup"><span data-stu-id="0e23c-122">FieldURI</span></span>](fielduri.md) <br/> |<span data-ttu-id="0e23c-123">Определяет часто упоминаемые свойства по URI.</span><span class="sxs-lookup"><span data-stu-id="0e23c-123">Identifies frequently referenced properties by URI.</span></span>  <br/> |
+|[<span data-ttu-id="0e23c-124">индекседфиелдури</span><span class="sxs-lookup"><span data-stu-id="0e23c-124">IndexedFieldURI</span></span>](indexedfielduri.md) <br/> |<span data-ttu-id="0e23c-125">Определяет отдельные элементы словаря.</span><span class="sxs-lookup"><span data-stu-id="0e23c-125">Identifies individual members of a dictionary.</span></span>  <br/> |
+|[<span data-ttu-id="0e23c-126">екстендедфиелдури</span><span class="sxs-lookup"><span data-stu-id="0e23c-126">ExtendedFieldURI</span></span>](extendedfielduri.md) <br/> |<span data-ttu-id="0e23c-127">Определяет расширенные свойства MAPI, которые необходимо получить, задать или создать.</span><span class="sxs-lookup"><span data-stu-id="0e23c-127">Identifies extended MAPI properties to get, set, or create.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="6470f-128">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="6470f-128">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="0e23c-128">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="0e23c-128">Parent elements</span></span>
 
-|<span data-ttu-id="6470f-129">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6470f-129">**Element**</span></span>|<span data-ttu-id="6470f-130">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6470f-130">**Description**</span></span>|
+|<span data-ttu-id="0e23c-129">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="0e23c-129">**Element**</span></span>|<span data-ttu-id="0e23c-130">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0e23c-130">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="6470f-131">GroupBy</span><span class="sxs-lookup"><span data-stu-id="6470f-131">GroupBy</span></span>](groupby.md) <br/> |<span data-ttu-id="6470f-132">Задает произвольное группирование для запросов FindItem.</span><span class="sxs-lookup"><span data-stu-id="6470f-132">Specifies arbitrary groupings for FindItem queries.</span></span>  <br/> <span data-ttu-id="6470f-133">Ниже приведено выражение XPath для этого элемента:`/FindItem/GroupBy`</span><span class="sxs-lookup"><span data-stu-id="6470f-133">The following is the XPath expression to this element:  `/FindItem/GroupBy`</span></span> <br/> |
+|[<span data-ttu-id="0e23c-131">GroupBy</span><span class="sxs-lookup"><span data-stu-id="0e23c-131">GroupBy</span></span>](groupby.md) <br/> |<span data-ttu-id="0e23c-132">Задает произвольное группирование для запросов FindItem.</span><span class="sxs-lookup"><span data-stu-id="0e23c-132">Specifies arbitrary groupings for FindItem queries.</span></span>  <br/> <span data-ttu-id="0e23c-133">Ниже приведено выражение XPath для этого элемента:`/FindItem/GroupBy`</span><span class="sxs-lookup"><span data-stu-id="0e23c-133">The following is the XPath expression to this element:  `/FindItem/GroupBy`</span></span> <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6470f-134">Примечания</span><span class="sxs-lookup"><span data-stu-id="6470f-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0e23c-134">Примечания</span><span class="sxs-lookup"><span data-stu-id="0e23c-134">Remarks</span></span>
 
-<span data-ttu-id="6470f-135">[Операция FindItem](finditem-operation.md) может возвращать сгруппированные результаты.</span><span class="sxs-lookup"><span data-stu-id="6470f-135">The [FindItem operation](finditem-operation.md) can return grouped results.</span></span> <span data-ttu-id="6470f-136">В сгруппированных результатах все элементы, имеющие одинаковое значение для данного свойства группирования, собираются вместе и представляются как дочерние элементы этой группы.</span><span class="sxs-lookup"><span data-stu-id="6470f-136">Within grouped results, all items that have the same value for a given grouping property are gathered together and presented as children of that group.</span></span> <span data-ttu-id="6470f-137">Например, если вы группируете по отправителю, все сообщения электронной почты организуются в отдельные группы в зависимости от того, откуда они находятся: от отправителя A, отправитель б и т. д.</span><span class="sxs-lookup"><span data-stu-id="6470f-137">For example, if you group by sender, all e-mails are organized into separate groups based on whether they are from sender A, sender B, and so on.</span></span> <span data-ttu-id="6470f-138">Эти группы являются дочерними по отношению к группе отправителей.</span><span class="sxs-lookup"><span data-stu-id="6470f-138">These groups are children of the sender group.</span></span> 
+<span data-ttu-id="0e23c-135">[Операция FindItem](finditem-operation.md) может возвращать сгруппированные результаты.</span><span class="sxs-lookup"><span data-stu-id="0e23c-135">The [FindItem operation](finditem-operation.md) can return grouped results.</span></span> <span data-ttu-id="0e23c-136">В сгруппированных результатах все элементы, имеющие одинаковое значение для данного свойства группирования, собираются вместе и представляются как дочерние элементы этой группы.</span><span class="sxs-lookup"><span data-stu-id="0e23c-136">Within grouped results, all items that have the same value for a given grouping property are gathered together and presented as children of that group.</span></span> <span data-ttu-id="0e23c-137">Например, если вы группируете по отправителю, все сообщения электронной почты организуются в отдельные группы в зависимости от того, откуда они находятся: от отправителя A, отправитель б и т. д.</span><span class="sxs-lookup"><span data-stu-id="0e23c-137">For example, if you group by sender, all e-mails are organized into separate groups based on whether they are from sender A, sender B, and so on.</span></span> <span data-ttu-id="0e23c-138">Эти группы являются дочерними по отношению к группе отправителей.</span><span class="sxs-lookup"><span data-stu-id="0e23c-138">These groups are children of the sender group.</span></span> 
   
-<span data-ttu-id="6470f-139">Каждая группа в группе отправителей содержит коллекцию элементов, например, фактические сообщения электронной почты, которые были получены от каждого отправителя.</span><span class="sxs-lookup"><span data-stu-id="6470f-139">Each of the groups within the sender group contains a collection of items, such as the actual e-mails that came from each sender.</span></span> <span data-ttu-id="6470f-140">Элемент [SortOrder](sortorder.md) можно использовать для сортировки элементов в группе.</span><span class="sxs-lookup"><span data-stu-id="6470f-140">You can use the [SortOrder](sortorder.md) element to sort the items within a group.</span></span> <span data-ttu-id="6470f-141">Однако для сортировки групп на основе значений свойств элемента необходимо использовать агрегацию.</span><span class="sxs-lookup"><span data-stu-id="6470f-141">To sort the groups based on an item's property values, however, you must use aggregation.</span></span> 
+<span data-ttu-id="0e23c-139">Каждая группа в группе отправителей содержит коллекцию элементов, например, фактические сообщения электронной почты, которые были получены от каждого отправителя.</span><span class="sxs-lookup"><span data-stu-id="0e23c-139">Each of the groups within the sender group contains a collection of items, such as the actual e-mails that came from each sender.</span></span> <span data-ttu-id="0e23c-140">Элемент [SortOrder](sortorder.md) можно использовать для сортировки элементов в группе.</span><span class="sxs-lookup"><span data-stu-id="0e23c-140">You can use the [SortOrder](sortorder.md) element to sort the items within a group.</span></span> <span data-ttu-id="0e23c-141">Однако для сортировки групп на основе значений свойств элемента необходимо использовать агрегацию.</span><span class="sxs-lookup"><span data-stu-id="0e23c-141">To sort the groups based on an item's property values, however, you must use aggregation.</span></span> 
   
-<span data-ttu-id="6470f-142">При объединении порядок групп основан на определенном свойстве элементов в группе.</span><span class="sxs-lookup"><span data-stu-id="6470f-142">With aggregation, the order of groups is based on a specific property of the items within the group.</span></span> <span data-ttu-id="6470f-143">При использовании статистической обработки для сортировки элементов в группе необходимо определить свойство репрезентативного типа для сортировки групп.</span><span class="sxs-lookup"><span data-stu-id="6470f-143">When you use aggregation to sort items within a group, you must identify a representative property by which to sort the groups.</span></span> <span data-ttu-id="6470f-144">С помощью элемента **аггрегатеон** можно указать свойство репрезентативя.</span><span class="sxs-lookup"><span data-stu-id="6470f-144">You can use the **AggregateOn** element to specify the representative property.</span></span> 
+<span data-ttu-id="0e23c-142">При объединении порядок групп основан на определенном свойстве элементов в группе.</span><span class="sxs-lookup"><span data-stu-id="0e23c-142">With aggregation, the order of groups is based on a specific property of the items within the group.</span></span> <span data-ttu-id="0e23c-143">При использовании статистической обработки для сортировки элементов в группе необходимо определить свойство репрезентативного типа для сортировки групп.</span><span class="sxs-lookup"><span data-stu-id="0e23c-143">When you use aggregation to sort items within a group, you must identify a representative property by which to sort the groups.</span></span> <span data-ttu-id="0e23c-144">С помощью элемента **аггрегатеон** можно указать свойство репрезентативя.</span><span class="sxs-lookup"><span data-stu-id="0e23c-144">You can use the **AggregateOn** element to specify the representative property.</span></span> 
   
-<span data-ttu-id="6470f-145">Когда свойство-представитель идентифицируется, атрибут **Aggregate** используется для указания того, сортируются ли группы в соответствии с максимальным или минимальным значением свойства идентифицировано.</span><span class="sxs-lookup"><span data-stu-id="6470f-145">When a representative property is identified, the **Aggregate** attribute is used to indicate whether the groups are sorted according to the maximum or the minimum value of the identified property.</span></span> <span data-ttu-id="6470f-146">Если для атрибута **Aggregate** задано значение Maximum, группы сортируются начиная с самого большого значения свойства **аггрегатеон** .</span><span class="sxs-lookup"><span data-stu-id="6470f-146">If the **Aggregate** attribute is set to Maximum, the groups are sorted beginning with the largest value for the **AggregateOn** property.</span></span> <span data-ttu-id="6470f-147">Если для атрибута **Aggregate** задано значение Minimum, группы сортируются начиная с наименьшего значения свойства **аггрегатеон** .</span><span class="sxs-lookup"><span data-stu-id="6470f-147">If the **Aggregate** attribute is set to Minimum, the groups are sorted beginning with the smallest value for the **AggregateOn** property.</span></span> 
+<span data-ttu-id="0e23c-145">Когда свойство-представитель идентифицируется, атрибут **Aggregate** используется для указания того, сортируются ли группы в соответствии с максимальным или минимальным значением свойства идентифицировано.</span><span class="sxs-lookup"><span data-stu-id="0e23c-145">When a representative property is identified, the **Aggregate** attribute is used to indicate whether the groups are sorted according to the maximum or the minimum value of the identified property.</span></span> <span data-ttu-id="0e23c-146">Если для атрибута **Aggregate** задано значение Maximum, группы сортируются начиная с самого большого значения свойства **аггрегатеон** .</span><span class="sxs-lookup"><span data-stu-id="0e23c-146">If the **Aggregate** attribute is set to Maximum, the groups are sorted beginning with the largest value for the **AggregateOn** property.</span></span> <span data-ttu-id="0e23c-147">Если для атрибута **Aggregate** задано значение Minimum, группы сортируются начиная с наименьшего значения свойства **аггрегатеон** .</span><span class="sxs-lookup"><span data-stu-id="0e23c-147">If the **Aggregate** attribute is set to Minimum, the groups are sorted beginning with the smallest value for the **AggregateOn** property.</span></span> 
   
-<span data-ttu-id="6470f-148">Например, если вы хотите выпустить групповой запрос FindItem, группировка по отправителю, но вы хотите упорядочить группы, чтобы группа с последним сообщением электронной почты появлялась сверху, можно выполнить группировку по отправителю и статистическое значение по дате и времени, полученному с помощью **статистического** атрибута максимума.</span><span class="sxs-lookup"><span data-stu-id="6470f-148">For example, if you want to issue a FindItem grouped query, grouping by sender, but you want to order the groups so that the group with the most recent e-mail message is on top, you can group by sender and aggregate on date/time received with an **Aggregate** attribute of Maximum.</span></span> 
+<span data-ttu-id="0e23c-148">Например, если вы хотите выпустить групповой запрос FindItem, группировка по отправителю, но вы хотите упорядочить группы, чтобы группа с последним сообщением электронной почты появлялась сверху, можно выполнить группировку по отправителю и статистическое значение по дате и времени, полученному с помощью **статистического** атрибута максимума.</span><span class="sxs-lookup"><span data-stu-id="0e23c-148">For example, if you want to issue a FindItem grouped query, grouping by sender, but you want to order the groups so that the group with the most recent e-mail message is on top, you can group by sender and aggregate on date/time received with an **Aggregate** attribute of Maximum.</span></span> 
   
-<span data-ttu-id="6470f-149">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="6470f-149">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="0e23c-149">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="0e23c-149">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="example"></a><span data-ttu-id="6470f-150">Пример</span><span class="sxs-lookup"><span data-stu-id="6470f-150">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0e23c-150">Пример</span><span class="sxs-lookup"><span data-stu-id="0e23c-150">Example</span></span>
 
-<span data-ttu-id="6470f-151">В приведенном ниже примере показан сгруппированный запрос и ответ на запрос FindItem.</span><span class="sxs-lookup"><span data-stu-id="6470f-151">The following example shows a grouped FindItem request and response.</span></span> <span data-ttu-id="6470f-152">В этом примере показан запрос на возврат элементов, сгруппированных по свойству **ConversationTopic** .</span><span class="sxs-lookup"><span data-stu-id="6470f-152">The example shows a request to return items grouped by the **ConversationTopic** property.</span></span> <span data-ttu-id="6470f-153">Две группы, A и B, возвращаются в убывающем порядке на основе максимального значения свойства [DateTimeReceived](datetimereceived.md) .</span><span class="sxs-lookup"><span data-stu-id="6470f-153">Two groups, A and B, are returned in descending order based on the maximum value of the [DateTimeReceived](datetimereceived.md) property.</span></span> 
+<span data-ttu-id="0e23c-151">В приведенном ниже примере показан сгруппированный запрос и ответ на запрос FindItem.</span><span class="sxs-lookup"><span data-stu-id="0e23c-151">The following example shows a grouped FindItem request and response.</span></span> <span data-ttu-id="0e23c-152">В этом примере показан запрос на возврат элементов, сгруппированных по свойству **ConversationTopic** .</span><span class="sxs-lookup"><span data-stu-id="0e23c-152">The example shows a request to return items grouped by the **ConversationTopic** property.</span></span> <span data-ttu-id="0e23c-153">Две группы, A и B, возвращаются в убывающем порядке на основе максимального значения свойства [DateTimeReceived](datetimereceived.md) .</span><span class="sxs-lookup"><span data-stu-id="0e23c-153">Two groups, A and B, are returned in descending order based on the maximum value of the [DateTimeReceived](datetimereceived.md) property.</span></span> 
   
 ```XML
 <!-- EXAMPLE REQUEST -->
@@ -95,10 +95,10 @@ ms.locfileid: "19761363"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <FindItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                 Traversal="Shallow">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
@@ -127,12 +127,12 @@ ms.locfileid: "19761363"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="652" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -187,23 +187,23 @@ ms.locfileid: "19761363"
 </soap:Envelope>
 ```
 
-<span data-ttu-id="6470f-154">Чтобы отсортировать элементы в группе, используйте элемент [SortOrder](sortorder.md) .</span><span class="sxs-lookup"><span data-stu-id="6470f-154">To sort the items in a group, use the [SortOrder](sortorder.md) element.</span></span> 
+<span data-ttu-id="0e23c-154">Чтобы отсортировать элементы в группе, используйте элемент [SortOrder](sortorder.md) .</span><span class="sxs-lookup"><span data-stu-id="0e23c-154">To sort the items in a group, use the [SortOrder](sortorder.md) element.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="6470f-155">Для сохранения читаемости были сокращены идентификаторы элементов и ключи изменения.</span><span class="sxs-lookup"><span data-stu-id="6470f-155">The item identifiers and change keys have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="0e23c-155">Для сохранения читаемости были сокращены идентификаторы элементов и ключи изменения.</span><span class="sxs-lookup"><span data-stu-id="0e23c-155">The item identifiers and change keys have been shortened to preserve readability.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="6470f-156">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="6470f-156">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="0e23c-156">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="0e23c-156">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="6470f-157">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="6470f-157">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="6470f-158">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="6470f-158">Schema Name</span></span>  <br/> |<span data-ttu-id="6470f-159">Схема Types</span><span class="sxs-lookup"><span data-stu-id="6470f-159">Types schema</span></span>  <br/> |
-|<span data-ttu-id="6470f-160">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="6470f-160">Validation File</span></span>  <br/> |<span data-ttu-id="6470f-161">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="6470f-161">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="6470f-162">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="6470f-162">Can be Empty</span></span>  <br/> |<span data-ttu-id="6470f-163">False</span><span class="sxs-lookup"><span data-stu-id="6470f-163">False</span></span>  <br/> |
+|<span data-ttu-id="0e23c-157">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="0e23c-157">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="0e23c-158">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="0e23c-158">Schema Name</span></span>  <br/> |<span data-ttu-id="0e23c-159">Схема Types</span><span class="sxs-lookup"><span data-stu-id="0e23c-159">Types schema</span></span>  <br/> |
+|<span data-ttu-id="0e23c-160">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="0e23c-160">Validation File</span></span>  <br/> |<span data-ttu-id="0e23c-161">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="0e23c-161">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="0e23c-162">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="0e23c-162">Can be Empty</span></span>  <br/> |<span data-ttu-id="0e23c-163">False</span><span class="sxs-lookup"><span data-stu-id="0e23c-163">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="6470f-164">См. также</span><span class="sxs-lookup"><span data-stu-id="6470f-164">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0e23c-164">См. также</span><span class="sxs-lookup"><span data-stu-id="0e23c-164">See also</span></span>
 
-- [<span data-ttu-id="6470f-165">Операция FindItem</span><span class="sxs-lookup"><span data-stu-id="6470f-165">FindItem operation</span></span>](finditem-operation.md)
-- [<span data-ttu-id="6470f-166">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="6470f-166">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
-- [<span data-ttu-id="6470f-167">Поиск элементов</span><span class="sxs-lookup"><span data-stu-id="6470f-167">Finding Items</span></span>](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [<span data-ttu-id="0e23c-165">Операция FindItem</span><span class="sxs-lookup"><span data-stu-id="0e23c-165">FindItem operation</span></span>](finditem-operation.md)
+- [<span data-ttu-id="0e23c-166">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="0e23c-166">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="0e23c-167">Поиск элементов</span><span class="sxs-lookup"><span data-stu-id="0e23c-167">Finding Items</span></span>](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 
