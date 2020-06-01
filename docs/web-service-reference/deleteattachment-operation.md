@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4d48e595-b98c-48e7-bbeb-cacf91d12a78
 description: Операция DeleteAttachment используется для удаления вложенных файлов и вложений элементов из существующего элемента в хранилище Exchange.
-ms.openlocfilehash: 4b94bfd8d6333c1f52be8ad7d0d111ab2a0552b3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1d34ce4c5ba1d955989a35dafb8ab3c5d229d505
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762022"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457335"
 ---
 # <a name="deleteattachment-operation"></a>Операция DeleteAttachment
 
@@ -40,10 +40,10 @@ ms.locfileid: "19762022"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <DeleteAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <DeleteAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentIds>
         <t:AttachmentId Id="AAAtAEFkbWluaX"/>
       </AttachmentIds>
@@ -52,7 +52,7 @@ ms.locfileid: "19762022"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор вложения был сокращен, чтобы сохранить удобочитаемость.
   
@@ -81,12 +81,12 @@ ms.locfileid: "19762022"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <DeleteAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteAttachmentResponseMessage xsi:type="m:DeleteAttachmentResponseMessageType" ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -98,7 +98,7 @@ ms.locfileid: "19762022"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Операция CreateAttachment Возвращает элемент типа Аттачментидтипе, включающий в себя **рутитемид** и **рутитемчанжекэй**. Эти атрибуты не разрешены для идентификаторов в запросе DeleteAttachment. DeleteAttachment использует элементы типа Рекуестаттачментидтипе, которые не включают эти атрибуты.
   

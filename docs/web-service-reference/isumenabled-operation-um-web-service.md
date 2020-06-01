@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: fbe6cd95-f7a5-42b9-8a9d-b6159a269d55
 description: Операция IsUMEnabled определяет, включен ли для почтового ящика единая система обмена сообщениями.
-ms.openlocfilehash: 9d94a359d6b11e41762d21aa2fe5501bd9f7b577
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b1478f5a113059251fe1b036ac7d77e5a4ab4f50
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834107"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458238"
 ---
 # <a name="isumenabled-operation-um-web-service"></a>Операция IsUMEnabled (веб-служба единой системы обмена сообщениями)
 
@@ -34,7 +34,7 @@ ms.locfileid: "19834107"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <IsUMEnabled xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <IsUMEnabled xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
@@ -51,7 +51,7 @@ ms.locfileid: "19834107"
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <IsUMEnabledResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <IsUMEnabledResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <IsUMEnabledResponse>true</IsUMEnabledResponse> 
     </IsUMEnabledResponse>
   </soap:Body>

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 153e4440-495b-4972-9811-2fbea740142a
 description: Операция GetUserOofSettings Возвращает параметры и сообщения пользователя почтового ящика "нет на месте" (отсутствие на работе).
-ms.openlocfilehash: 75a734999842cc33c213e02dc114f23372ae51fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 622faa622b0ea231a6331ff62631885d4252c1f5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833691"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457699"
 ---
 # <a name="getuseroofsettings-operation"></a>Операция GetUserOofSettings
 
@@ -53,8 +53,8 @@ ms.locfileid: "19833691"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns ="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns ="https://schemas.microsoft.com/exchange/services/2006/types">
         <Address>User1@example.com</Address>
       </Mailbox>
     </GetUserOofSettingsRequest>
@@ -87,14 +87,14 @@ ms.locfileid: "19833691"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetUserOofSettingsResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUserOofSettingsResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessage ResponseClass="Success">
         <ResponseCode>NoError</ResponseCode>
       </ResponseMessage>
-      <OofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <OofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Disabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -142,7 +142,7 @@ ms.locfileid: "19833691"
     
 - [екстерналрепли](externalreply.md)
     
-- [Сообщение](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
     
 - [алловекстерналуф](allowexternaloof.md)
     
@@ -161,7 +161,7 @@ ms.locfileid: "19833691"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <soap:Fault>
@@ -169,7 +169,7 @@ ms.locfileid: "19833691"
       <faultstring>Microsoft.Exchange.Data.Storage.AccessDeniedException: User is not mailbox owner. User = S-1-5-21-3642464542-282065186-3871681729-1155, MailboxGuid = S-1-5-21-3642464542-282065186-3871681729-1156 ---> User is not mailbox owner. </faultstring>
       <faultactor>https://CAS01.example.com/EWS/Exchange.asmx</faultactor>
       <detail>
-        <ErrorCode xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">-2146233088</ErrorCode>
+        <ErrorCode xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">-2146233088</ErrorCode>
       </detail>
     </soap:Fault>
   </soap:Body>

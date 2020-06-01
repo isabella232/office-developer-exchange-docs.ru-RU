@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: aa4a7c94-f668-4bd2-8079-c855f6ab17e1
 description: Операция CreateItem создает элементы календаря в хранилище Exchange.
-ms.openlocfilehash: c2174dd806b922e640ef7afcab32b98c67c65b41
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 535edf9fe567bc3063a5b853f01d604ea4c7eb95
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761891"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457503"
 ---
 # <a name="createitem-operation-calendar-item"></a>Операция CreateItem (элемент календаря)
 
@@ -39,16 +39,16 @@ ms.locfileid: "19761891"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                 SendMeetingInvitations="SendToAllAndSaveCopy" >
       <SavedItemFolderId>
         <t:DistinguishedFolderId Id="calendar"/>
       </SavedItemFolderId>
       <Items>
-        <t:CalendarItem xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <t:CalendarItem xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Subject>Planning Meeting</Subject>
           <Body BodyType="Text">Plan the agenda for next week's meeting.</Body>
           <ReminderIsSet>true</ReminderIsSet>
@@ -77,7 +77,7 @@ ms.locfileid: "19761891"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Пример ответа на приглашение на собрание представлен в разделе [Операция CreateItem (приглашение на собрание)](createitem-operation-meeting-request.md) . 
   
@@ -97,7 +97,7 @@ ms.locfileid: "19761891"
     
 - [Тема](subject.md)
     
-- [Основной текст](body.md)
+- [Body](body.md)
     
 - [реминдериссет](reminderisset.md)
     
@@ -115,7 +115,7 @@ ms.locfileid: "19761891"
     
 - [RequiredAttendees](requiredattendees.md)
     
-- [Attendee](attendee.md)
+- [Участник](attendee.md)
     
 - [Mailbox](mailbox.md)
     
@@ -136,12 +136,12 @@ ms.locfileid: "19761891"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -157,7 +157,7 @@ ms.locfileid: "19761891"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Атрибуты **ID** и **чанжекэй** элемента [ItemId](itemid.md) были сокращены для сохранения удобочитаемости. 
   

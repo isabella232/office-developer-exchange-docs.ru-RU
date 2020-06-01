@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 643b99ab-ff90-4411-864c-1077623028d6
 description: Элемент Ентитекстрактионресулт указывает свойство Ентитекстрактионресулт элемента.
-ms.openlocfilehash: ef99629beb95f1e1123569fa99e3f495c1b56e95
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f2f069717a5862adff3349090c35f95499d135f8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762371"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456957"
 ---
 # <a name="entityextractionresult"></a>ентитекстрактионресулт
 
@@ -38,7 +38,7 @@ ms.locfileid: "19762371"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762371"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемент](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -68,7 +68,7 @@ ms.locfileid: "19762371"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

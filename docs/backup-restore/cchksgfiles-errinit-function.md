@@ -12,12 +12,12 @@ api_type:
 - dllExport
 ms.assetid: 61bb3af1-8b51-4bae-8e25-90a4dc1226c5
 description: 'Дата последнего изменения: 03 марта, 2013'
-ms.openlocfilehash: d4b76933a747fe4bf084061cf080bc68264132ed
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c881691e7c1ba83a396e659f6aac0328625e49a5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760918"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457013"
 ---
 # <a name="cchksgfileserrinit-function"></a>Функция функция cchksgfiles. Ерринит
   

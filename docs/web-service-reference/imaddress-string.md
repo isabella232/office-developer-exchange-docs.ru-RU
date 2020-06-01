@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fa10fcdb-f947-4958-ad5a-afaed1661f52
 description: Элемент address содержит основной адрес для обмена мгновенными сообщениями пользователя.
-ms.openlocfilehash: 3d4af2a7df14e68a2c829b1e8d0a18493fb06f55
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2cfb8c7e0ccf5454fd5a201819882acbe0924e4a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833860"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456467"
 ---
 # <a name="imaddress-string"></a>Адрес (String)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19833860"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19833860"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

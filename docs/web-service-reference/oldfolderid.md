@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: da554a97-ab87-4950-9fc4-26b1972381bb
 description: Элемент Олдфолдерид содержит исходный идентификатор папки, которая была перемещена или скопирована.
-ms.openlocfilehash: ef73cad73213a1e8b5341907cd22177d8e1ba628
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a6713b9e0c47d68480724c3902086da6a8647dd7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834645"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458063"
 ---
 # <a name="oldfolderid"></a>олдфолдерид
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834645"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834645"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

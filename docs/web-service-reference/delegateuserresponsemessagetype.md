@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3dc9552c-1e2d-40ac-a137-827883c2bb88
 description: Элемент Делегатеусерреспонсемессажетипе содержит ответное сообщение для одного делегированного пользователя.
-ms.openlocfilehash: ac99e0ca219fc1f1e117f9288d895e27a1df4700
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d7addac2ef05d50e0043490ac20d299ece7d577b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762016"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457384"
 ---
 # <a name="delegateuserresponsemessagetype"></a>делегатеусерреспонсемессажетипе
 
@@ -41,7 +41,7 @@ ms.locfileid: "19762016"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19762016"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

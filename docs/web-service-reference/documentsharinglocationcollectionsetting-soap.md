@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0e3346f9-7a55-4e87-b121-9b1ee7f227f4
 description: Элемент Документшаринглокатионколлектионсеттинг представляет параметр пользователя, который представляет собой коллекцию местоположений и метаданных общего доступа к документации.
-ms.openlocfilehash: 9871e3fccdcce95fc275768d99159c70f57a07af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2a52f639a1f1bf638aacc78666c58aed1fae0fa0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762197"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457055"
 ---
 # <a name="documentsharinglocationcollectionsetting-soap"></a>Документшаринглокатионколлектионсеттинг (SOAP)
 
@@ -33,7 +33,7 @@ ms.locfileid: "19762197"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -51,7 +51,7 @@ ms.locfileid: "19762197"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

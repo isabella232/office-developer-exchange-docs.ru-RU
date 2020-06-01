@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1
 description: Элемент create определяет одну папку для создания в локальном хранилище клиента.
-ms.openlocfilehash: 867eecb89c115b008d4828e162b21d078eba695c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 43f6a6b3c084c8ecae767c512181bbdf50c7e786
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761850"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458378"
 ---
 # <a name="create-foldersync"></a>Create (Фолдерсинк)
 
@@ -50,7 +50,7 @@ ms.locfileid: "19761850"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -76,7 +76,7 @@ ms.locfileid: "19761850"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

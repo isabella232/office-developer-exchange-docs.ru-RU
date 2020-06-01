@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7ab6edd5-c7ed-4701-8de3-d7dc7ecfa9c2
 description: Элемент Исреадрецеиптрекуестед указывает, запрашивает ли отправитель элемента уведомление о прочтении.
-ms.openlocfilehash: e3db685fc4e72e4332eab4a95afb5f844d04c35e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ff0c512ef23b315d4de1194432408f5b408029d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834097"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457790"
 ---
 # <a name="isreadreceiptrequested"></a>исреадрецеиптрекуестед
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834097"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19834097"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

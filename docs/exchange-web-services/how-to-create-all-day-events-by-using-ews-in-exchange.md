@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 0fcb484b-4ffc-41a5-aeed-8c797766b70c
 description: Узнайте, как создавать события на целый день с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 0547fdf0ca92ba0648caeb5de6940d90d2a8ff46
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6be638c17cc0e0c86fa6b4217169aa7259dfd4aa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760989"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456866"
 ---
 # <a name="create-all-day-events-by-using-ews-in-exchange"></a>Создание событий на целый день с помощью EWS в Exchange
 
@@ -35,7 +35,7 @@ ms.locfileid: "19760989"
   
 ## <a name="create-an-all-day-event-by-using-the-ews-managed-api"></a>Создание события на целый день с помощью управляемого API EWS
 
-В приведенном ниже примере показано, как использовать управляемый API EWS для создания события на целый день, начиная с даты, указанной параметром _StartDate_ , и зафиксированной в течение числа дней, заданного параметром _нумдайс_ . Обратите внимание, что встреча будет создана в часовом поясе, указанном в свойстве [ExchangeService. TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) . В этом примере предполагается, что объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , переданный в параметре _Service_ , инициализирован с допустимыми значениями для свойств [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [URL](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
+В приведенном ниже примере показано, как использовать управляемый API EWS для создания события на целый день, начиная с даты, указанной параметром _StartDate_ , и зафиксированной в течение числа дней, заданного параметром _нумдайс_ . Обратите внимание, что встреча будет создана в часовом поясе, указанном в свойстве [ExchangeService. TimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) . В этом примере предполагается, что объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , переданный в параметре _Service_ , инициализирован с допустимыми значениями для свойств [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [URL](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
   
 ```cs
 static void CreateAllDayAppointment(ExchangeService service, DateTime startDate, int numDays)
@@ -69,14 +69,14 @@ static void CreateAllDayAppointment(ExchangeService service, DateTime startDate,
 
 ## <a name="create-an-all-day-event-by-using-ews"></a>Создание события на целый день с помощью EWS
 
-В следующем примере показан запрос [операции CREATEITEM](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS для создания события на целый день. Встреча создается в Восточном часовом поясе, как указано в элементе [тимезонеконтекст](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) . Обратите внимание, что в качестве части значений [начального](http://msdn.microsoft.com/library/7cfe9979-c893-4f9b-b3a1-8f9e17515a4b%28Office.15%29.aspx) и [конечного](http://msdn.microsoft.com/library/72329821-32ff-495d-b6e5-fdc011003c2e%28Office.15%29.aspx) элементов указаны оба значения 04:00Z, которые преобразуются в полночь в Восточном часовом поясе во время летнего времени. 
+В следующем примере показан запрос [операции CREATEITEM](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS для создания события на целый день. Встреча создается в Восточном часовом поясе, как указано в элементе [тимезонеконтекст](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) . Обратите внимание, что в качестве части значений [начального](https://msdn.microsoft.com/library/7cfe9979-c893-4f9b-b3a1-8f9e17515a4b%28Office.15%29.aspx) и [конечного](https://msdn.microsoft.com/library/72329821-32ff-495d-b6e5-fdc011003c2e%28Office.15%29.aspx) элементов указаны оба значения 04:00Z, которые преобразуются в полночь в Восточном часовом поясе во время летнего времени. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>

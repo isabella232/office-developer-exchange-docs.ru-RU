@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0e7879e3-9b8f-4f23-8291-bacec0e479c0
 description: Элемент Екпурл-аггр указывает на частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для доступа к параметрам слияния электронной почты для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: fb9bd92611998acc52fab0ea3e3c1ecb3e507faa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 26e855900154fb965eae9ba90a373b88e85c2ad3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762232"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457286"
 ---
 # <a name="ecpurl-aggr-pox"></a>Екпурл-аггр (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762232"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

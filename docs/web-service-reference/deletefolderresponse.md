@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 27578bda-ef0a-4a33-bccc-2c1bc1735424
 description: Элемент Делетефолдерреспонсе определяет ответ на запрос DeleteFolder.
-ms.openlocfilehash: ca6d12c847de4cfb46c4c680558ed7b256f1ecaf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 58b814662c769784c5fd682a9e039863a9787d8d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762035"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458490"
 ---
 # <a name="deletefolderresponse"></a>делетефолдерреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762035"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762035"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

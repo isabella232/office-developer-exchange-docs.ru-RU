@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e8fae828-875c-492e-8135-93b74502fbdb
 description: 'Независимо от других терминов, которые могут быть применимы к использованию контента EWS (определено ниже), действуют следующие ограничения на использование документации, программного кода или других материалов, предоставляемых Майкрософт с этого веб-сайта, которые связаны с управляемым API веб-служб Microsoft Exchange, версии 1,1 или более поздней версии или веб-службами Exchange в Exchange Server 2010 SP1 или более поздней версии продукта , включая все предварительные или окончательные версии (накопленные материалы EWS): вы можете использовать контент EWS только в программах, разработанных разработчиками, которые взаимодействуют с Microsoft Exchange Server.'
-ms.openlocfilehash: 72f3c8ddf194e79f42abf709c5607e11992b3a31
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 527c570c4532c043334820b8e451ebdf317bbefe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761193"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456299"
 ---
 # <a name="license-information"></a>Сведения о лицензии
 

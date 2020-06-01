@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e5b4699a-476e-4053-bb52-873eb921c046
 description: Элемент Протектионрулесконфигуратион содержит сведения о конфигурации службы для службы правил защиты.
-ms.openlocfilehash: 9c286fcf9752d591d53323f45a264f4bdd078c1c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e664fba78f170c9f4c59b49b3a08c0dd2e4ed4cd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834912"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456774"
 ---
 # <a name="protectionrulesconfiguration"></a>протектионрулесконфигуратион
 
@@ -68,7 +68,7 @@ ms.locfileid: "19834912"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

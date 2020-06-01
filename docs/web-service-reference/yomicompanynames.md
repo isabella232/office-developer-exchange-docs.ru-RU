@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c414af9-34d0-41ce-bda9-0d4ca3f3be79
 description: Элемент Йомикомпанинамес указывает массив фонетических имен японских компаний и идентификаторы их исходных сопоставлений для соответствующего пользователя.
-ms.openlocfilehash: 6c8ea8e8887a58e082d8a14a635ae59c6b4622b7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 41b97998425926750a3ecc7e17233f2066759689
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840544"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457867"
 ---
 # <a name="yomicompanynames"></a>йомикомпанинамес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19840544"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840544"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 24099a88-4ab6-4bf3-8ed5-efec8e07b9b9
 description: Делетеаттачментреспонсе определяет ответ на запрос DeleteAttachment.
-ms.openlocfilehash: f1a6b0ebba7257d02ceeea024486dc002d299dff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 352318ef54687b0d1d4ce73b075248b79238d555
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762019"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457328"
 ---
 # <a name="deleteattachmentresponse"></a>делетеаттачментреспонсе
 
@@ -37,7 +37,7 @@ ms.locfileid: "19762019"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19762019"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

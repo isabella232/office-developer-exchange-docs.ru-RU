@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 53b6befb-a1b7-4f56-904a-9a32306570e3
 description: Элемент Owners предназначен только для внутреннего использования.
-ms.openlocfilehash: 492125a80079350a88d8a4182e101b6cbd12c8f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 299871843a3755d98ac3658767bce1c13dfa5129
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834678"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457258"
 ---
 # <a name="owners"></a>Владельцы
 
@@ -25,11 +25,11 @@ ms.locfileid: "19834678"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

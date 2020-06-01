@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e65ff6b2-3810-43ad-9728-27308891b193
 description: Сведения о том, как улучшить производительность процесса автообнаружения в приложении.
-ms.openlocfilehash: d9eef3bdc76c16cf92bdbb39b36be067f0c06215
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 844b56084b4f0b5e49b4ee095688d58ce469baca
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761178"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456334"
 ---
 # <a name="improving-performance-when-using-autodiscover-for-exchange"></a>Повышение производительности при использовании автообнаружения для Exchange
 
@@ -33,7 +33,7 @@ ms.locfileid: "19761178"
 
 Когда объекты SCP присутствует и также настроен, они ускорить процесс автоматического обнаружения. В других ситуациях Однако они может снизить его. Если SCP не используется в вашей среде, пропустите всей SCP подстановки часть процесса автообнаружения для экономии времени.
   
-Управляемый API EWS упрощает: просто задайте для свойства [ExchangeService.EnableScpLookup](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.enablescplookup%28v=exchg.80%29.aspx) значение **false** до вызова метода [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) . Если вы используете класс [AutodiscoverService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx) , присвойте свойству [AutodiscoverService.EnableScpLookup](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.enablescplookup%28v=exchg.80%29.aspx) для **false** до вызова любого из методов. 
+Управляемый API EWS упрощает: просто задайте для свойства [ExchangeService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablescplookup%28v=exchg.80%29.aspx) значение **false** до вызова метода [ExchangeService.AutodiscoverUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) . Если вы используете класс [AutodiscoverService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx) , присвойте свойству [AutodiscoverService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.enablescplookup%28v=exchg.80%29.aspx) для **false** до вызова любого из методов. 
   
 ## <a name="use-autodiscover-less-often"></a>Часто используемых автообнаружения меньше
 
@@ -43,9 +43,9 @@ ms.locfileid: "19761178"
   
 ## <a name="minimize-requested-data"></a>Минимизация запрошенные данные
 
-If you're using the **AutodiscoverService** class in the EWS Managed API, or the [Операция GetUserSettings (SOAP)](http://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx) operation via SOAP, you have direct control over what settings are returned in the response. Although you can request quite a few settings, chances are that your application only needs a handful of them. Every setting that you request requires more processing on the server, which means more time waiting for a response. Evaluate the settings you are requesting, and eliminate any that you don't need. 
+If you're using the **AutodiscoverService** class in the EWS Managed API, or the [Операция GetUserSettings (SOAP)](https://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx) operation via SOAP, you have direct control over what settings are returned in the response. Although you can request quite a few settings, chances are that your application only needs a handful of them. Every setting that you request requires more processing on the server, which means more time waiting for a response. Evaluate the settings you are requesting, and eliminate any that you don't need. 
   
-Если вы используете метод **ExchangeService.AutodiscoverUrl** в управляемый API веб-служб Exchange, не может изменить параметры, которые вы запрашиваете. Тем не менее этот метод уже является очень эффективным. только его запрашивает параметры **ExternalEwsUrl** и **InternalEwsUrl**[перечисление UserSettingName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx).
+Если вы используете метод **ExchangeService.AutodiscoverUrl** в управляемый API веб-служб Exchange, не может изменить параметры, которые вы запрашиваете. Тем не менее этот метод уже является очень эффективным. только его запрашивает параметры **ExternalEwsUrl** и **InternalEwsUrl**[перечисление UserSettingName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx).
   
 При использовании службы автообнаружения POX, [не могут запрашивать определенных свойств](autodiscover-for-exchange.md#bk_Options).
   
@@ -58,8 +58,8 @@ If you're using the **AutodiscoverService** class in the EWS Managed API, or the
     
 - [Обновление сведений о конфигурации с помощью службы автообнаружения](how-to-refresh-configuration-information-by-using-autodiscover.md)
     
-- [Класс ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
+- [Класс ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
     
-- [Класс AutodiscoverService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx)
+- [Класс AutodiscoverService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx)
     
 

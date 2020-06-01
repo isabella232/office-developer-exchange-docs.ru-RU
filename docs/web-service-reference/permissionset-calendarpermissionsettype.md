@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 75f20033-85eb-4627-b4f8-be85e4889e96
 description: Элемент PermissionSet содержит все разрешения, настроенные для папки календаря.
-ms.openlocfilehash: b2e642fd2ee8ded4d0d4c67509a5587f7b1efa8a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9564608397ac8a5ab0ddd4508eacd8cad665d76e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834728"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458035"
 ---
 # <a name="permissionset-calendarpermissionsettype"></a>PermissionSet (Календарпермиссионсеттипе)
 
@@ -37,7 +37,7 @@ ms.locfileid: "19834728"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19834728"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -78,5 +78,5 @@ ms.locfileid: "19834728"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

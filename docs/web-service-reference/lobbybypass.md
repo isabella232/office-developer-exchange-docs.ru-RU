@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e05ed6eb-00ae-49c8-8341-43f6e0d728ff
 description: Элемент Лоббибипасс указывает параметр собраний по сети, чтобы обойти виртуальный зал.
-ms.openlocfilehash: 9ecc920acd9e1aea3476ad1194d6c7d0529b21c7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6940428c944b9d4d64acc6dbbf3993576e1932eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834246"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458098"
 ---
 # <a name="lobbybypass"></a>лоббибипасс
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834246"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

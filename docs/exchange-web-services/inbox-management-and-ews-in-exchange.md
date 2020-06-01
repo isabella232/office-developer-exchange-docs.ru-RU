@@ -1,17 +1,17 @@
 ---
-title: Управление папкой "Входящие" и EWS в Exchange
+title: Управление папкой "Входящие" и веб-службы Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3dfa0fc9-64bb-4d18-bff7-bf6b3bed4a0d
 description: Узнайте, как управлять папкой "Входящие" в приложении, использующем управляемый API EWS или веб-службы Exchange, с помощью правил для папки "Входящие" и списка заблокированных отправителей.
-ms.openlocfilehash: fe06c5ee87e2679506ca7247c5fc2c96912dee86
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: 7c88015386dc882f14184765e0046a866e8c0e10
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761135"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456318"
 ---
 # <a name="inbox-management-and-ews-in-exchange"></a>Управление папкой "Входящие" и EWS в Exchange
 
@@ -31,7 +31,7 @@ ms.locfileid: "19761135"
 
 Надо признать, не все электронные сообщения одинаково полезны. На каждое сообщение от начальника приходится по одному обновлению списка рассылки, от которого вы постоянно забываете отписаться. Хотя такие письма и интересны, списки рассылки используют огромное количество трафика, а важные сообщения запросто могут затеряться среди них в папке "Входящие". Чтобы сократить количество подобных сообщений, многие пользователи применяют правила для папки "Входящие". В результате папка приобретает намного более аккуратный вид. Приложение может применять такие правила с помощью веб-служб Exchange (EWS).
   
-Управляемый API EWS предоставляет методы [ExchangeService.GetInboxRules](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) и [ExchangeService.UpdateInboxRules](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) для работы с правилами. В веб-службах Exchange для работы с правилами предусмотрены операции [GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) и [UpdateInboxRules](http://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx). Однако обратите внимание на то, что в управляемом API EWS и веб-службах Exchange действуют следующие ограничения на работу с правилами для папки "Входящие": 
+Управляемый API EWS предоставляет методы [ExchangeService.GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) и [ExchangeService.UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) для работы с правилами. В веб-службах Exchange для работы с правилами предусмотрены операции [GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) и [UpdateInboxRules](https://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx). Однако обратите внимание, что в управляемом API EWS и веб-службах Exchange действуют следующие ограничения на работу с правилами для папки "Входящие": 
   
 - Веб-службы Exchange не могут использовать и создавать правила "только для клиентов" или правила, настроенные в Outlook для работы только на текущем компьютере.
     
@@ -71,22 +71,22 @@ ms.locfileid: "19761135"
 ### <a name="putting-the-pieces-together---parts-of-a-rule"></a>Составные части правила
 <a name="bk_Pieces"> </a>
 
-Чтобы понять, как устроено правило, представьте, что даете указания человеку, которому поручено упорядочить вашу входящую почту. Вы можете сказать: "Когда поступит сообщение, которое \<условия\>, выполните \<действия\>, если сообщение не \<исключения\>". Рассмотрим каждую часть более подробно.
+Чтобы понять, как устроено правило, представьте, что даете указания человеку, которому поручено упорядочить вашу входящую почту. Вы можете сказать: "когда сообщение приступит к этому человеку, \<insert conditions here\> если оно не \<insert actions here\> указано \<insert exceptions here\> . Рассмотрим каждую часть более подробно.
   
 #### <a name="conditions"></a>Условия
 <a name="bk_Conditions"> </a>
 
-[Условия](http://msdn.microsoft.com/library/f049a48c-9585-43f7-8549-0b8cb19a5eea%28Office.15%29.aspx) описывают, в каких случаях должно применяться правило. Хотя условия правила можно не указывать (при этом правило будет применяться к каждому полученному сообщению), чаще всего у правил есть условия, применимые к определенному подмножеству входящих сообщений. Примеры: "если отправитель сообщения — Ольга" или "если сообщение отправлено в список рассылки «Любители кошек»". Правило может включать несколько условий. В этом случае, чтобы обработчик правил выполнил указанное действие, должны соблюдаться все условия. 
+[Условия](https://msdn.microsoft.com/library/f049a48c-9585-43f7-8549-0b8cb19a5eea%28Office.15%29.aspx) описывают, в каких случаях должно применяться правило. Хотя условия правила можно не указывать (при этом правило будет применяться к каждому полученному сообщению), чаще всего у правил есть условия, применимые к определенному подмножеству входящих сообщений. Примеры: "если отправитель сообщения — Ольга" или "если сообщение отправлено в список рассылки «Любители кошек»". Правило может включать несколько условий. В этом случае, чтобы обработчик правил выполнил указанное действие, должны соблюдаться все условия. 
   
 #### <a name="actions"></a>Действия
 <a name="bk_Actions"> </a>
 
-[Действия](http://msdn.microsoft.com/library/c5aa96b1-2d8b-422f-8c2f-f118572ab23f%28Office.15%29.aspx) описывают, что происходит при срабатывании правила. Примеры: "переместить сообщение в папку «Кошки»" или "присвоить сообщению низкий уровень важности". Правило может включать несколько действий. В этом случае при срабатывании правила выполняются все действия. 
+[Действия](https://msdn.microsoft.com/library/c5aa96b1-2d8b-422f-8c2f-f118572ab23f%28Office.15%29.aspx) описывают, что происходит при срабатывании правила. Примеры: "переместить сообщение в папку «Кошки»" или "присвоить сообщению низкий уровень важности". Правило может включать несколько действий. В этом случае при срабатывании правила выполняются все действия. 
   
 #### <a name="exceptions"></a>Исключения
 <a name="bk_Exceptions"> </a>
 
-[Исключения](http://msdn.microsoft.com/library/7cd63ac2-3441-4ed4-915b-6f90af4b28fc%28Office.15%29.aspx) описывают, в каких случаях правило не должно применяться, даже если соблюдаются указанные условия. Примеры: "если сообщение отправлено не только мне" или "если это сообщение не от мамы". Правило может содержать несколько исключений. В этом случае при соответствии какому-либо из исключений правило не применяется. 
+[Исключения](https://msdn.microsoft.com/library/7cd63ac2-3441-4ed4-915b-6f90af4b28fc%28Office.15%29.aspx) описывают, в каких случаях правило не должно применяться, даже если соблюдаются указанные условия. Примеры: "если сообщение отправлено не только мне" или "если это сообщение не от мамы". Правило может содержать несколько исключений. В этом случае при соответствии какому-либо из исключений правило не применяется. 
   
 ### <a name="example-herding-those-cats"></a>Пример: "собрать кошек вместе".
 <a name="bk_Example"> </a>
@@ -123,7 +123,7 @@ ms.locfileid: "19761135"
 ## <a name="blocking-senders"></a>Блокировка отправителей
 <a name="bk_Blocking"> </a>
 
-Хотя вы можете создать правило, которое перемещает все сообщения от определенного отправителя в папку нежелательной почты, это также можно сделать с помощью списка заблокированных отправителей в параметрах нежелательной почты. Так как количество правил для одного пользователя ограничено, имеет смысл использовать список заблокированных отправителей. Вы можете [добавлять и удалять отдельные адреса из списка заблокированных отправителей](how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md), используя метод [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) управляемого API EWS или операцию [MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) веб-служб Exchange. Обратите внимание: чтобы веб-службы Exchange могли получить доступ к списку заблокированных отправителей, почтовый ящик пользователя должен содержать сообщение, отправленное с добавляемого или удаляемого адреса. 
+Хотя вы можете создать правило, которое перемещает все сообщения от определенного отправителя в папку нежелательной почты, это также можно сделать с помощью списка заблокированных отправителей в параметрах нежелательной почты. Так как количество правил для одного пользователя ограничено, имеет смысл использовать список заблокированных отправителей. Вы можете [добавлять и удалять отдельные адреса из списка заблокированных отправителей](how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md), используя метод [ExchangeService.MarkAsJunk](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) управляемого API EWS или операцию [MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) веб-служб Exchange. Обратите внимание: чтобы веб-службы Exchange могли получить доступ к списку заблокированных отправителей, почтовый ящик пользователя должен содержать сообщение, отправленное с добавляемого или удаляемого адреса. 
   
 ## <a name="in-this-section"></a>В этой статье
 <a name="bk_InThisSection"> </a>
@@ -137,10 +137,10 @@ ms.locfileid: "19761135"
 
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Операция GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)
+- [Операция GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)
     
-- [Операция UpdateInboxRules](http://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx)
+- [Операция UpdateInboxRules](https://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx)
     
-- [Операция MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)
+- [Операция MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)
     
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4044c0a1-cd88-41ae-9cc4-a7cf2b279094
 description: Элемент GetUserConfiguration представляет запрос на получение объекта конфигурации пользователя.
-ms.openlocfilehash: 81f2ca4995de69d6547412ec699a2ceaddcce385
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 46a2a5ebbabfc038692a5de83e0a960e05295061
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833688"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457713"
 ---
 # <a name="getuserconfiguration"></a>GetUserConfiguration
 
@@ -37,7 +37,7 @@ ms.locfileid: "19833688"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -48,7 +48,7 @@ ms.locfileid: "19833688"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -62,7 +62,7 @@ ms.locfileid: "19833688"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

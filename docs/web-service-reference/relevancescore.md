@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 78266287-481e-43c1-b143-2cafd0063c95
 description: Элемент Релеванцескоре указывает целое число, представляющее степень релевантности ассоциированного пользователя с клиентом.
-ms.openlocfilehash: d5550e511753bcfb0e2aba19f1c1a52e54ddf149
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 54d0912d33a64e26ed415d8009561a32b97ce3f6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835059"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457496"
 ---
 # <a name="relevancescore"></a>релеванцескоре
 
@@ -30,11 +30,11 @@ ms.locfileid: "19835059"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835059"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

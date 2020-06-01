@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3f3c2300-55cd-41c0-900e-b470b290d52f
 description: Элемент Инклудемимеконтент указывает, будет ли в ответе возвращаться содержимое MIME для элемента или вложения.
-ms.openlocfilehash: ddd6988be93231ac7c574a2e19c9ba4b562c7d0e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6198e4bef2dc59e6e56a8d3cbe463dad13e544e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833903"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457195"
 ---
 # <a name="includemimecontent"></a>инклудемимеконтент
 
@@ -34,11 +34,11 @@ ms.locfileid: "19833903"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,10 +66,10 @@ ms.locfileid: "19833903"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentShape>
         <t:IncludeMimeContent>true</t:IncludeMimeContent>
         <t:BodyType>Best</t:BodyType>
@@ -88,7 +88,7 @@ ms.locfileid: "19833903"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

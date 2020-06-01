@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a51189db-f6e5-428d-833d-65a209204a5b
 description: Элемент Екпурл-Publish указывает частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для доступа к параметрам публикации календаря для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: 82f55be3ce529f6e57db5ffe18bbdea609b13595
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 98cac9132c1ba6e368be6337fbf3b522a02cb47a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762243"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458007"
 ---
 # <a name="ecpurl-publish-pox"></a>Екпурл-Publish (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762243"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

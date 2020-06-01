@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c037de3d-7881-4de4-8f52-68d4878155eb
 description: Элемент УпдатемаилбоксассоЦиатионреспонсе предназначен только для внутреннего использования.
-ms.openlocfilehash: f2be330ccd78c1e2765e0854d1f8f461e0bea8f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e4c511d75ef91f0919d5fe182e85070bdc9aae9c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840370"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457909"
 ---
 # <a name="updatemailboxassociationresponse"></a>упдатемаилбоксассоЦиатионреспонсе
 
@@ -25,11 +25,11 @@ ms.locfileid: "19840370"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

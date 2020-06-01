@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e7bd8ae2-2643-411e-ae08-358bac445800
 description: Элемент "-EXCEPT" указывает, изменяется ли экземпляр повторяющегося элемента календаря с основного.
-ms.openlocfilehash: bb884110fd3642bebbc03504aef369f9e0412714
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f2e45e0f1010449d4a494f5e15ecd0b22dc598e4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834009"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457587"
 ---
 # <a name="isexception"></a>Исключение
 
@@ -50,11 +50,11 @@ ms.locfileid: "19834009"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "19834009"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -88,5 +88,5 @@ ms.locfileid: "19834009"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

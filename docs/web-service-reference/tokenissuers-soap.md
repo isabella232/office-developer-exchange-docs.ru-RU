@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 26c55228-184e-4340-bd80-f86be56f3e7a
 description: Элементы Токениссуерс представляют коллекцию Токениссуер (SOAP).
-ms.openlocfilehash: b070d85b32d5bce8461ac4e930329f237885bad7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 352487ad3fd9c1ee7de756a109fb98a49d0cdcd7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840208"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457076"
 ---
 # <a name="tokenissuers-soap"></a>Токениссуерс (SOAP)
 
@@ -53,7 +53,7 @@ ms.locfileid: "19840208"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

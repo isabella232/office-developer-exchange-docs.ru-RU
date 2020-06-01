@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 79ffc3f9-25c4-40b5-84ce-09a3c5f892fa
 description: Элемент DomainNames представляет коллекцию доменных имен. Элемент DomainNames предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: 45d256f3d5a57028a04572ad67d4be0786ca39e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0b425b3cd4c0e7cb2427920d61feb04010a3b123
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762205"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458420"
 ---
 # <a name="domainnames-soap"></a>Имя_домена (SOAP)
 
@@ -31,7 +31,7 @@ ms.locfileid: "19762205"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19762205"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7bb9896c-bd12-49ae-842a-a10b5f9a2ef6
 description: Элемент InboxRules представляет собой массив из правил в почтовом ящике пользователя.
-ms.openlocfilehash: 47fcad5dde06f3af9fbae7e70adbfd8b225081c2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a3107c3c317a912d0bd3e60d03da4168f2f3a0a9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833899"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458273"
 ---
 # <a name="inboxrules"></a>инбоксрулес
 
@@ -40,7 +40,7 @@ ms.locfileid: "19833899"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19833899"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

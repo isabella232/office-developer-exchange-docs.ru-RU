@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: af9c5ff8-02a4-41fc-876d-14ac05f1ee77
 description: Элемент Member представляет члена списка рассылки.
-ms.openlocfilehash: c38e2ed24e78b5199d4d65cce27a00a8e6704037
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e84223b7c41846ca2f174293bff46a8825777a0e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834434"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457307"
 ---
 # <a name="member"></a>Member
 
@@ -63,7 +63,7 @@ ms.locfileid: "19834434"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

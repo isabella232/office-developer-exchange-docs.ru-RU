@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 63abbfc5-c29f-4110-a922-6b1247187f28
 description: Элемент Фрибусичанжедевент представляет событие, в котором изменилось свободное и занятое время элемента.
-ms.openlocfilehash: 7271d375526e7614d0150594c2b988666a59eb8d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d9ea8bc210ab503c4e9f606bcb66317cefe15de1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762659"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456481"
 ---
 # <a name="freebusychangedevent"></a>фрибусичанжедевент
 
@@ -39,7 +39,7 @@ ms.locfileid: "19762659"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19762659"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -84,7 +84,7 @@ ms.locfileid: "19762659"
 [Операция по отмене подписки](unsubscribe-operation.md)
 
 
-[Использование подписок по запросу](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Использование подписок по запросу](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
   
-[Уведомления о событиях в EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
+[Уведомления о событиях в EWS](https://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7750528c-acb2-43e5-a1e1-ee201c0e1730
 description: Узнайте, как находить беседы, применять действия к беседам и получать элементы в беседах с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 71ef7674086607e1544111071928f3dd74073a77
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2dc66195f8d37836c32fc33737728c61fc5444ae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761143"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456790"
 ---
 # <a name="work-with-conversations-by-using-ews-in-exchange"></a>Взаимодействие с беседами с помощью EWS в Exchange
 
@@ -25,8 +25,8 @@ ms.locfileid: "19761143"
 
 |**Свойство управляемого API EWS**|**Элемент EWS**|**Описание**|
 |:-----|:-----|:-----|
-|[ConversationTopic](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.conversationtopic%28v=exchg.80%29.aspx) <br/> |[ConversationTopic](http://msdn.microsoft.com/library/46cacf42-4039-4c8a-9b20-c42cdd9f2760%28Office.15%29.aspx) <br/> |Содержит нормализованную форму значения subject, которое было задано для исходного сообщения. Это тот же заголовок, что и в заголовке сообщения **Thread-Topic** . Это значение доступно только для чтения.  <br/> |
-|[ConversationIndex](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.conversationindex%28v=exchg.80%29.aspx) <br/> |[ConversationIndex](http://msdn.microsoft.com/library/fdf47e22-8d93-4ae4-883b-0c9f07f48724%28Office.15%29.aspx) <br/> |Представляет положение элемента в беседе. Это то же самое, что и заголовок сообщения **Thread-index** . Это значение доступно только для чтения.  <br/> |
+|[ConversationTopic](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.conversationtopic%28v=exchg.80%29.aspx) <br/> |[ConversationTopic](https://msdn.microsoft.com/library/46cacf42-4039-4c8a-9b20-c42cdd9f2760%28Office.15%29.aspx) <br/> |Содержит нормализованную форму значения subject, которое было задано для исходного сообщения. Это тот же заголовок, что и в заголовке сообщения **Thread-Topic** . Это значение доступно только для чтения.  <br/> |
+|[ConversationIndex](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.conversationindex%28v=exchg.80%29.aspx) <br/> |[ConversationIndex](https://msdn.microsoft.com/library/fdf47e22-8d93-4ae4-883b-0c9f07f48724%28Office.15%29.aspx) <br/> |Представляет положение элемента в беседе. Это то же самое, что и заголовок сообщения **Thread-index** . Это значение доступно только для чтения.  <br/> |
    
 Exchange применяет одно и то же значение **ConversationTopic** для ответа на первое сообщение, а затем обновляет значение **ConversationIndex** , чтобы представить положение сообщения относительно исходного сообщения. Если тема цепочки сообщений электронной почты изменяется, Exchange применяет новое значение **ConversationTopic** и новые значения **ConversationIndex** к новой беседе. 
   
@@ -34,17 +34,17 @@ Exchange применяет одно и то же значение **Conversatio
 
 |**Задача**|**Использование метода или методов управляемого API EWS**|**Используйте эту операцию EWS**|
 |:-----|:-----|:-----|
-|Поиск бесед  <br/> |[ExchangeService. FindConversation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findconversation%28v=exchg.80%29.aspx) <br/> |[FindConversation](http://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) <br/> |
-|Применение действий беседы  <br/> |[CONVERSATION. Енаблеалвайскатегоризеитемс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conversation.enablealwayscategorizeitems%28v=exchg.80%29.aspx) <br/> [CONVERSATION. Енаблеалвайсделетеитемс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conversation.enablealwaysdeleteitems%28v=exchg.80%29.aspx) <br/> [CONVERSATION. Енаблеалвайсмовеитемс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conversation.enablealwaysmoveitems%28v=exchg.80%29.aspx) <br/> [ExchangeService. Копитемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.copyitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Делетеитемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.deleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Дисаблеалвайскатегоризеитемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.disablealwayscategorizeitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Дисаблеалвайсделетеитемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.disablealwaysdeleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Дисаблеалвайсмовеитемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.disablealwaysmoveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Енаблеалвайскатегоризеитемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.enablealwayscategorizeitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Енаблеалвайсделетеитемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.enablealwaysdeleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Енаблеалвайсмовеитемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.enablealwaysmoveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Мовеитемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.moveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Сетфлагстатусфоритемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.setflagstatusforitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Сетреадстатефоритемсинконверсатионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.setreadstateforitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Сетретентионполицифоритемсинконверсатионс](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.setretentionpolicyforitemsinconversations%28v=exchg.80%29.aspx) <br/> |[ApplyConversationAction](http://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx) <br/> |
-|Получение элементов в одном или нескольких беседах  <br/> |[ExchangeService. GetConversationItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) <br/> |[GetConversationItems](http://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) <br/> |
+|Поиск бесед  <br/> |[ExchangeService. FindConversation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findconversation%28v=exchg.80%29.aspx) <br/> |[FindConversation](https://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) <br/> |
+|Применение действий беседы  <br/> |[CONVERSATION. Енаблеалвайскатегоризеитемс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conversation.enablealwayscategorizeitems%28v=exchg.80%29.aspx) <br/> [CONVERSATION. Енаблеалвайсделетеитемс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conversation.enablealwaysdeleteitems%28v=exchg.80%29.aspx) <br/> [CONVERSATION. Енаблеалвайсмовеитемс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conversation.enablealwaysmoveitems%28v=exchg.80%29.aspx) <br/> [ExchangeService. Копитемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.copyitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Делетеитемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.deleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Дисаблеалвайскатегоризеитемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.disablealwayscategorizeitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Дисаблеалвайсделетеитемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.disablealwaysdeleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Дисаблеалвайсмовеитемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.disablealwaysmoveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Енаблеалвайскатегоризеитемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablealwayscategorizeitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Енаблеалвайсделетеитемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablealwaysdeleteitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Енаблеалвайсмовеитемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablealwaysmoveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Мовеитемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.moveitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Сетфлагстатусфоритемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.setflagstatusforitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Сетреадстатефоритемсинконверсатионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.setreadstateforitemsinconversations%28v=exchg.80%29.aspx) <br/> [ExchangeService. Сетретентионполицифоритемсинконверсатионс](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.setretentionpolicyforitemsinconversations%28v=exchg.80%29.aspx) <br/> |[ApplyConversationAction](https://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx) <br/> |
+|Получение элементов в одном или нескольких беседах  <br/> |[ExchangeService. GetConversationItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) <br/> |[GetConversationItems](https://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) <br/> |
 
 <a name="bk_findewsma"> </a>
 
 ## <a name="find-a-conversation-by-using-the-ews-managed-api"></a>Поиск беседы с помощью управляемого API EWS
 
-Вы можете находить беседы с помощью метода [ExchangeService. FindConversation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findconversation%28v=exchg.80%29.aspx) EWS Managed API, как показано в следующем примере. В этом примере возвращаются первые 10 бесед в папке "Входящие", у которых есть тема, содержащая слово "News". В этом примере в окно консоли записывается раздел беседы, время последней доставки и глобальный уникальный список получателей. 
+Вы можете находить беседы с помощью метода [ExchangeService. FindConversation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findconversation%28v=exchg.80%29.aspx) EWS Managed API, как показано в следующем примере. В этом примере возвращаются первые 10 бесед в папке "Входящие", у которых есть тема, содержащая слово "News". В этом примере в окно консоли записывается раздел беседы, время последней доставки и глобальный уникальный список получателей. 
   
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 static void FindConversation(ExchangeService service)
@@ -75,14 +75,14 @@ static void FindConversation(ExchangeService service)
 
 ## <a name="find-a-conversation-by-using-ews"></a>Поиск беседы с помощью EWS
 
-Вы можете находить беседы с помощью операции [FindConversation](http://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) EWS, как показано в следующем примере. В этом примере выполняется получение первых десяти бесед в папке "Входящие", у которых есть тема, содержащая слово "News". Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [поиска беседы](#bk_findewsma).
+Вы можете находить беседы с помощью операции [FindConversation](https://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) EWS, как показано в следующем примере. В этом примере выполняется получение первых десяти бесед в папке "Входящие", у которых есть тема, содержащая слово "News". Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [поиска беседы](#bk_findewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -101,31 +101,31 @@ static void FindConversation(ExchangeService service)
 
 ```
 
-Сервер отвечает на запрос **FindConversation** с сообщением [финдконверсатионреспонсе](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) для **ошибки** , указывающее, что операция выполнена успешно. В ответ также включается единственная беседа в почтовом ящике с темой, содержащей слово "News". 
+Сервер отвечает на запрос **FindConversation** с сообщением [финдконверсатионреспонсе](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) для **ошибки** , указывающее, что операция выполнена успешно. В ответ также включается единственная беседа в почтовом ящике с темой, содержащей слово "News". 
   
 Элементы **ItemId**, **чанжекэй**и **ConversationId** были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="883"
                          MinorBuildNumber="10"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FindConversationResponse ResponseClass="Success"
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Conversations>
-        <Conversation xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Conversation xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <ConversationId Id="aO2NM+Q=" />
           <ConversationTopic>Today's top news headlines</ConversationTopic>
           <UniqueRecipients>
@@ -192,7 +192,7 @@ static void FindConversation(ExchangeService service)
 
 Вы можете применить действия беседы к беседе с помощью ряда управляемых методов API EWS, как показано в следующем примере. В этом примере добавляются категории к существующим элементам в беседе и применяются одни и те же категории для будущих элементов в беседе. В нем также показано, как включить автоматическое перемещение элементов в беседе в папку. В этом примере элементы перемещаются в папку "Черновики".
   
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 Полный список методов, которые применяют действия беседы, приведен в таблице 2.
   
@@ -219,16 +219,16 @@ static void ApplyConversationActions(ExchangeService service, Conversation conve
 
 ## <a name="apply-conversation-actions-by-using-ews"></a>Применение действий беседы с помощью EWS
 
-Вы можете применять действия беседы, такие как категоризация, удаление и перемещение, с помощью операции [ApplyConversationAction](http://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx) , как показано в следующем примере. В этом примере добавляются категории к существующим элементам в беседе и применяются одни и те же категории для будущих элементов в беседе. В нем также показано, как включить автоматическое перемещение элементов в беседе в папку; в этом примере элементы перемещаются в папку "Черновики". Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [применения действий беседы](#bk_applyewsma).
+Вы можете применять действия беседы, такие как категоризация, удаление и перемещение, с помощью операции [ApplyConversationAction](https://msdn.microsoft.com/library/73d7943d-d361-4f8b-9948-d85f886efa1a%28Office.15%29.aspx) , как показано в следующем примере. В этом примере добавляются категории к существующим элементам в беседе и применяются одни и те же категории для будущих элементов в беседе. В нем также показано, как включить автоматическое перемещение элементов в беседе в папку; в этом примере элементы перемещаются в папку "Черновики". Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [применения действий беседы](#bk_applyewsma).
   
 Элемент **ConversationId** был сокращен для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -249,17 +249,17 @@ static void ApplyConversationActions(ExchangeService service, Conversation conve
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **ApplyConversationAction** с сообщением [аппликонверсатионактионреспонсе](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) для **ошибки** , указывающее, что операция выполнена успешно. 
+Сервер отвечает на запрос **ApplyConversationAction** с сообщением [аппликонверсатионактионреспонсе](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) для **ошибки** , указывающее, что операция выполнена успешно. 
 
 <a name="bk_getitemssingleewsma"> </a>
 
 ## <a name="get-items-in-a-single-conversation-by-using-the-conversation-identifier-in-the-ews-managed-api"></a>Получение элементов в одной беседе с помощью идентификатора беседы в управляемом API EWS
 
-Вы можете получать элементы в беседе, используя метод управляемого API [ExchangeService. GetConversationItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS. В этом примере предоставляется набор узлов беседы для первой беседы в папке "Входящие". В ответе возвращаются идентификатор элемента, тема и время получения для каждого элемента, а также свойства индекса беседы и родительского индекса беседы. Вы можете использовать свойства индекса беседы, чтобы перестроить иерархию узлов. 
+Вы можете получать элементы в беседе, используя метод управляемого API [ExchangeService. GetConversationItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS. В этом примере предоставляется набор узлов беседы для первой беседы в папке "Входящие". В ответе возвращаются идентификатор элемента, тема и время получения для каждого элемента, а также свойства индекса беседы и родительского индекса беседы. Вы можете использовать свойства индекса беседы, чтобы перестроить иерархию узлов. 
   
 В этом примере все элементы беседы в папках "Удаленные" и "Черновики" по умолчанию игнорируются.
   
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 static void GetConversationItemsSingleConversation(ExchangeService service)
@@ -321,11 +321,11 @@ static void GetConversationItemsSingleConversation(ExchangeService service)
 
 ## <a name="get-items-in-many-conversations-by-using-the-conversationrequest-object-in-the-ews-managed-api"></a>Получение элементов во многих беседах с помощью объекта Конверсатионрекуест в управляемом API EWS
 
-Вы можете использовать объект [конверсатионрекуест](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.conversationrequest%28v=exchg.80%29.aspx) и метод [ExchangeService. GetConversationItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS для получения элементов из двух или более бесед. В этом примере предоставляется набор узлов беседы для первых двух бесед в папке "Входящие". В ответе будут возвращены идентификатор элемента, тема и время получения для каждого элемента, а также свойства индекса беседы и родительского индекса беседы. Вы можете использовать свойства индекса беседы, чтобы перестроить иерархию узлов. В этом примере предполагается, что первые два элемента в папке "Входящие" находятся в разных беседах. 
+Вы можете использовать объект [конверсатионрекуест](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.conversationrequest%28v=exchg.80%29.aspx) и метод [ExchangeService. GetConversationItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS для получения элементов из двух или более бесед. В этом примере предоставляется набор узлов беседы для первых двух бесед в папке "Входящие". В ответе будут возвращены идентификатор элемента, тема и время получения для каждого элемента, а также свойства индекса беседы и родительского индекса беседы. Вы можете использовать свойства индекса беседы, чтобы перестроить иерархию узлов. В этом примере предполагается, что первые два элемента в папке "Входящие" находятся в разных беседах. 
   
 В этом примере все элементы беседы в папках "Удаленные" и "Черновики" по умолчанию игнорируются.
   
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 static void GetConversationItemsManyConversations(ExchangeService service)
@@ -396,7 +396,7 @@ static void GetConversationItemsManyConversations(ExchangeService service)
 
 ## <a name="get-items-in-conversations-by-using-the-conversation-identifier-in-ews"></a>Получение элементов в беседах с помощью идентификатора беседы в EWS
 
-Вы можете получать элементы в беседе с помощью операции [GetConversationItems](http://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) EWS. В этом примере предоставляется набор узлов беседы для первой беседы в папке "Входящие". В ответе возвращаются идентификатор элемента, тема и время получения для каждого элемента, а также свойства индекса беседы и родительского индекса беседы. Вы можете использовать свойства индекса беседы, чтобы перестроить иерархию узлов. 
+Вы можете получать элементы в беседе с помощью операции [GetConversationItems](https://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) EWS. В этом примере предоставляется набор узлов беседы для первой беседы в папке "Входящие". В ответе возвращаются идентификатор элемента, тема и время получения для каждого элемента, а также свойства индекса беседы и родительского индекса беседы. Вы можете использовать свойства индекса беседы, чтобы перестроить иерархию узлов. 
   
 В этом примере все элементы беседы в папках "Удаленные" и "Черновики" по умолчанию игнорируются.
   
@@ -407,9 +407,9 @@ static void GetConversationItemsManyConversations(ExchangeService service)
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m=http://schemas.microsoft.com/exchange/services/2006/messages
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m=https://schemas.microsoft.com/exchange/services/2006/messages
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -437,27 +437,27 @@ static void GetConversationItemsManyConversations(ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **GetConversationItems** с сообщением [жетконверсатионитемсреспонсе](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) для **ошибки** , указывающее, что операция выполнена успешно. Ответ также включает [конверсатионнодес](http://msdn.microsoft.com/library/5c8a35b8-a940-4b3e-8768-9ba95766fd79%28Office.15%29.aspx) в беседе. 
+Сервер отвечает на запрос **GetConversationItems** с сообщением [жетконверсатионитемсреспонсе](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) для **ошибки** , указывающее, что операция выполнена успешно. Ответ также включает [конверсатионнодес](https://msdn.microsoft.com/library/5c8a35b8-a940-4b3e-8768-9ba95766fd79%28Office.15%29.aspx) в беседе. 
   
 Элементы **ItemId**, **синкстате**и **ConversationId** были сокращены для удобочитаемости. 
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="873"
                          MinorBuildNumber="9"
                          Version="V2_9"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetConversationItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetConversationItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetConversationItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -563,15 +563,15 @@ static void GetConversationItemsManyConversations(ExchangeService service)
 
 ## <a name="version-differences"></a>Различия версий
 
-При использовании Exchange Server 2010 с пакетом обновления 1 (SP1) метод [FindConversation](http://msdn.microsoft.com/en-us/library/office/jj220668%28v=exchg.80%29.aspx) имеет меньше доступных параметров, и операция [FindConversation](http://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) содержит меньше элементов в запросе. 
+При использовании Exchange Server 2010 с пакетом обновления 1 (SP1) метод [FindConversation](https://msdn.microsoft.com/library/office/jj220668%28v=exchg.80%29.aspx) имеет меньше доступных параметров, и операция [FindConversation](https://msdn.microsoft.com/library/2384908a-c203-45b6-98aa-efd6a4c23aac%28Office.15%29.aspx) содержит меньше элементов в запросе. 
   
 **Таблица 3. Поддержка версии Exchange 2010 с пакетом обновления 1 (SP1) для FindConversation**
 
 |**Метод управляемого API EWS**|**Элементы EWS**|
 |:-----|:-----|
-|[FindConversation (Виевбасе, FolderId)](http://msdn.microsoft.com/en-us/library/office/jj220668%28v=exchg.80%29.aspx) <br/> |[индекседпажеитемвиев](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) <br/> [SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx) <br/> [ParentFolderId](http://msdn.microsoft.com/library/0e3e6e5f-06d0-499b-8ca4-d36036521658%28Office.15%29.aspx) <br/> |
+|[FindConversation (Виевбасе, FolderId)](https://msdn.microsoft.com/library/office/jj220668%28v=exchg.80%29.aspx) <br/> |[индекседпажеитемвиев](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) <br/> [SortOrder](https://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx) <br/> [ParentFolderId](https://msdn.microsoft.com/library/0e3e6e5f-06d0-499b-8ca4-d36036521658%28Office.15%29.aspx) <br/> |
    
-Метод управляемого API [GetConversationItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS и операция [GetConversationItems](http://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) EWS были представлены в Exchange Server 2013. Приложения, предназначенные для более ранних версий Exchange, могут применять действия беседы только к беседам, как показано в таблице 2. 
+Метод управляемого API [GetConversationItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.getconversationitems%28v=exchg.80%29.aspx) EWS и операция [GetConversationItems](https://msdn.microsoft.com/library/8ae00a99-b37b-4194-829c-fe300db6ab99%28Office.15%29.aspx) EWS были представлены в Exchange Server 2013. Приложения, предназначенные для более ранних версий Exchange, могут применять действия беседы только к беседам, как показано в таблице 2. 
   
 Метод управляемого API **FindConversation** EWS и метод **FindConversation** EWS недоступны в исходной версии exchange 2010 или Exchange 2007. 
   
@@ -579,7 +579,7 @@ static void GetConversationItemsManyConversations(ExchangeService service)
 
 - [Электронная почта и веб-службах Exchange](email-and-ews-in-exchange.md)
 - [Использование фильтров поиска с EWS в Exchange](how-to-use-search-filters-with-ews-in-exchange.md)   
-- [Exchange 2013: поиск бесед в почтовых ящиках программным способом](http://code.msdn.microsoft.com/exchange/Exchange-2013-Find-d4b6b3af)    
-- [Exchange 2013: применение действий для управления беседами в почтовом ящике](http://code.msdn.microsoft.com/exchange/Exchange-2013-Apply-accde0b5)
+- [Exchange 2013: поиск бесед в почтовых ящиках программным способом](https://code.msdn.microsoft.com/exchange/Exchange-2013-Find-d4b6b3af)    
+- [Exchange 2013: применение действий для управления беседами в почтовом ящике](https://code.msdn.microsoft.com/exchange/Exchange-2013-Apply-accde0b5)
     
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: fe1256ab-5c0f-467d-abb3-b38a2dc312ae
 description: Элемент Аутофоффице представляет ответное сообщение и время для отправки ответного сообщения.
-ms.openlocfilehash: f35b84d7a8a37c7a57b58c97fd0d37318bb50a33
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 082a81b62e2b783b302b3e749e0066131a46d73e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354269"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456901"
 ---
 # <a name="outofoffice"></a>аутофоффице
 
@@ -44,7 +44,7 @@ ms.locfileid: "21354269"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "21354269"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f45865fd-4626-4d80-84f6-7989339fdd85
 description: Элемент Жетсеарчаблемаилбоксесреспонсемессаже указывает ответное сообщение для запроса GetSearchableMailboxes.
-ms.openlocfilehash: 2a4d1fe357656fe29d8572e7f32a4bc2e4a6131e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 69f45d87cfbd398013d021cdd39b55497d78ae04
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762916"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458259"
 ---
 # <a name="getsearchablemailboxesresponsemessage"></a>жетсеарчаблемаилбоксесреспонсемессаже
 
@@ -74,7 +74,7 @@ ms.locfileid: "19762916"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

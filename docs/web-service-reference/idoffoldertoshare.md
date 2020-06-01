@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 199d1839-f061-4070-a977-874b0c08e5be
 description: Элемент Идоффолдертошаре представляет идентификатор папки на сервере, к которой будет предоставлен общий доступ.
-ms.openlocfilehash: 1e3e53819f23bbc5753ac21b9e3ea6593ac4826c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 93a4740d9adefbb35aae071f0a6bfcb4b2021b4d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833853"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457629"
 ---
 # <a name="idoffoldertoshare"></a>идоффолдертошаре
 
@@ -41,7 +41,7 @@ ms.locfileid: "19833853"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19833853"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 43d0c1cb-92ca-4399-9b3a-acb2b5c22624
 description: Элемент DeleteAttachment является корневым элементом в запросе на удаление вложения из хранилища Exchange.
-ms.openlocfilehash: 2beedd647febf025f6e3140ec37b196c9aeb7611
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ae8dd5abc1dced2645e579a62f1f57a66cbc9877
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762018"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457349"
 ---
 # <a name="deleteattachment"></a>DeleteAttachment
 
@@ -37,7 +37,7 @@ ms.locfileid: "19762018"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19762018"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

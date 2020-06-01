@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8395b45f-3b94-4473-82ac-2a12c4309170
 description: Элемент уточнения задает уточнение поиска.
-ms.openlocfilehash: aad1874760e02b2226cbe1a5bb700013d3816cc0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5be73cfd0a5005f79651e9de76fd5aaf18ba0119
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835038"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456761"
 ---
 # <a name="refiner"></a>Уточнение
 
@@ -35,11 +35,11 @@ ms.locfileid: "19835038"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Имя (строка)](name-string.md) | — маркер[счетчика](count.md) | [значений](value.md) | [(String)](token-string.md)
+[Имя (строка)](name-string.md)  |  [Value (значение](value.md)  |  ) [Count (количество](count.md)  |  ) [Маркер (строка)](token-string.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835038"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

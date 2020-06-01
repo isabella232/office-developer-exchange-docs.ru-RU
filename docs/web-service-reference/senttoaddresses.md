@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 086130d2-93b1-4de1-9553-10ec10322a0c
 description: Элемент Сенттоаддрессес указывает адреса электронной почты, на которые должны быть отправлены входящие сообщения, чтобы применялось условие или исключение.
-ms.openlocfilehash: c5a4770ff22e08713e5cf40b9a81191d50a2f437
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9a901a93b666144092bf9cc8ebbf03222ac7bf6b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835358"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457419"
 ---
 # <a name="senttoaddresses"></a>сенттоаддрессес
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835358"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19835358"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: af386e06-80f3-42c7-8b3c-1f7993c49d10
 description: Элемент Дисплайкк представляет отображаемую строку, используемую для содержимого поля "копия". Это объединенная строка всех отображаемых имен получателей копии.
-ms.openlocfilehash: 12f1839683445f224ebba9a3864f29412128d200
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 74e033751a464111a8451247d0bdb08c35b55708
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762155"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456544"
 ---
 # <a name="displaycc"></a>дисплайкк
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762155"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19762155"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

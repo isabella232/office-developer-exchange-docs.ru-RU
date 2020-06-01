@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 450b86a1-1722-49f5-b541-16c1edc3db7a
 description: Элемент Оваурл описывает URL-адрес и схему проверки подлинности, которая используется для доступа к определенному компьютеру под управлением Microsoft Exchange Server 2007 с установленной ролью сервера клиентского доступа, на котором размещена служба Outlook Web Access.
-ms.openlocfilehash: 93d03506e2a74aa1b4ef6d2a49ccbda01cfc1f9a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c0728af063cfbf1353eb7d3b81f5fcfe8b398f7d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834673"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457265"
 ---
 # <a name="owaurl-pox"></a>Оваурл (POX)
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834673"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

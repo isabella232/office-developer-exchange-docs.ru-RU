@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5acceb42-a757-4c74-ab1c-b1abf7bf1e0a
 description: Элемент Ексчанжестореид указывает идентификатор группы мгновенных сообщений (IM).
-ms.openlocfilehash: 815e9c2f368558ea38efce3671dbdc33d4d97168
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c1b1e1830987449eeb7ea186d00743ea9cc75a77
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762419"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456992"
 ---
 # <a name="exchangestoreid"></a>ексчанжестореид
 
@@ -37,7 +37,7 @@ ms.locfileid: "19762419"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19762419"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

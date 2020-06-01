@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 710c893a-3037-4f04-b336-aefedd36c406
 description: Операция CreateItem используется для принятия приглашения на доступ к данным календаря или контактов другого пользователя.
-ms.openlocfilehash: 993ef0402e624af69f632af5bdce4c02bd9d41f3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761886"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457517"
 ---
 # <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761886"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Items xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <AcceptSharingInvitation xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Items xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <AcceptSharingInvitation xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <ReferenceItemId Id="AAAlAFVzZ" ChangeKey="CwAAABYAA" />
         </AcceptSharingInvitation>
       </Items>
@@ -59,7 +59,7 @@ ms.locfileid: "19761886"
     
 - [референцеитемид](referenceitemid.md)
     
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
   
@@ -82,12 +82,12 @@ ms.locfileid: "19761886"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -134,12 +134,12 @@ ms.locfileid: "19761886"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>

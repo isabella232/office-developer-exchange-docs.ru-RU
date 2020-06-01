@@ -1,5 +1,5 @@
 ---
-title: Attendee
+title: Участник
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 393c3d7e-7416-458a-b976-270b88eaaa03
 description: Элемент "участник" представляет участников и ресурсы собрания.
-ms.openlocfilehash: 60cb0839c2f6de69b833c11f4594d40c14cd8887
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f376e59b27017e0a9d27692cb1a4ae759cd1af0e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761515"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457650"
 ---
-# <a name="attendee"></a>Attendee
+# <a name="attendee"></a>Участник
 
 Элемент " **участник** " представляет участников и ресурсы собрания. 
   
@@ -38,7 +38,7 @@ ms.locfileid: "19761515"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -47,6 +47,8 @@ ms.locfileid: "19761515"
 |[Mailbox](mailbox.md) <br/> |Определяет полностью разрешенный адрес электронной почты.  <br/> |
 |[ResponseType](responsetype.md) <br/> |Представляет тип ответа получателя, полученный для собрания. Это свойство относится только к элементу календаря организатора собрания.  <br/> |
 |[ластреспонсетиме](lastresponsetime.md) <br/> |Представляет дату и время последнего полученного ответа.  <br/> |
+|[ProposedStart](proposedstart-attendeetype.md) <br/> |Представляет предполагаемое время начала собрания для участника. <br/> |
+|[пропоседенд](proposedend-attendeetype.md) <br/> |Представляет предложенное конечное время участника собрания. <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -64,7 +66,7 @@ ms.locfileid: "19761515"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

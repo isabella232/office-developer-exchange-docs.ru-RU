@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1b1c7288-2a98-4142-8961-4d2ebca5c37c
 description: Элемент Жетреминдерсреспонсе указывает ответ на запрос с раснапоминанием.
-ms.openlocfilehash: 1882ab377365908c0bc272059ab4e007c43d788c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4e4d6a662d2b734b8bb93e3dd4b325bf6e46a6fc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762900"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458294"
 ---
 # <a name="getremindersresponse"></a>жетреминдерсреспонсе
 
@@ -33,7 +33,7 @@ ms.locfileid: "19762900"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19762900"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

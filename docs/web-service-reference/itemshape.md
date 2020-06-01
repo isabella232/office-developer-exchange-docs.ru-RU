@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c5604161-bbc0-40bc-ad75-ff7e837d745f
 description: Элемент Итемшапе определяет набор свойств, возвращаемых операцией GetItem, операцией FindItem или ответом операции SyncFolderItems.
-ms.openlocfilehash: 95174a85a8fa05cb2612e1289d46c8db32b6e052
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ffb666ee331b55a4f04cad076c705e4bec980e03
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834191"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458126"
 ---
 # <a name="itemshape"></a>итемшапе
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834191"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "19834191"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

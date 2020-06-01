@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f0a841af-422d-4c82-b710-41e2038dbee4
 description: Элемент Жетаттачментреспонсемессаже содержит состояние и результат одного запроса операции GetAttachment.
-ms.openlocfilehash: 3bf5aac8ba85675e2941acef6f06eb24f0667d17
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cfe36364431a8fe81c3f62e68356b634f00bee78
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762703"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457797"
 ---
 # <a name="getattachmentresponsemessage"></a>жетаттачментреспонсемессаже
 
@@ -80,7 +80,7 @@ ms.locfileid: "19762703"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 943c3d5d-7d29-4d70-932c-8a4fe44a0037
 description: Элемент "пропоминать" указывает запрос на получение напоминаний.
-ms.openlocfilehash: f4ecc858af2150bb3f88ebdf9ed541892f2fead1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8b869730f39876b838fbcbef3c39661238ed203c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762898"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458301"
 ---
 # <a name="getreminders"></a>GetReminders
 
@@ -36,11 +36,11 @@ ms.locfileid: "19762898"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Бегинтиме](begintime.md) | [EndTime (реминдермессажедататипе)](endtime-remindermessagedatatype.md) | [макситемс](maxitems.md) | [реминдертипе](remindertype.md)
+[Бегинтиме](begintime.md)  |  [EndTime (реминдермессажедататипе)](endtime-remindermessagedatatype.md)  |  [Макситемс](maxitems.md)  |  [Реминдертипе](remindertype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762898"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

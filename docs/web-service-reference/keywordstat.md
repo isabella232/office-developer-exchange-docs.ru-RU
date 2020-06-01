@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5af26dc5-6aaf-44a0-8d05-c1d116930a51
 description: Элемент Кэйвордстат указывает сведения о статистике по ключевым словам.
-ms.openlocfilehash: 1d40ba5dfd249df3cb7d104500efdfd187b325da
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d9c0524de04e256e94e279fd1ae0bbfd6a5de0f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834194"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458119"
 ---
 # <a name="keywordstat"></a>кэйвордстат
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834194"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Ключевое слово](keyword.md) | [итемхитс](itemhits.md) | [size (Long)](size-long.md)
+[Ключевое слово](keyword.md)  |  [Итемхитс](itemhits.md)  |  [Размер (длинный)](size-long.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 

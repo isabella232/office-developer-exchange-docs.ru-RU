@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c6dac232-244b-4db0-9a15-5e01b8aa7a7d
 description: Элемент Индекседпажефолдервиев описывает, как возвращаются сведения о страничном элементе в отклике FindFolder.
-ms.openlocfilehash: f32f778daa6fa3fea93ab2bc1951f2407dcf7f80
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6e9e2796c0bdcd9a15487f0e1bc7cbdf09d0a492
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833910"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457202"
 ---
 # <a name="indexedpagefolderview"></a>индекседпажефолдервиев
 
@@ -53,7 +53,7 @@ ms.locfileid: "19833910"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19833910"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

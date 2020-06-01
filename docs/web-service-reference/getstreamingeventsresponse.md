@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ea1e7e7e-1b19-4e07-ba42-5dbd888c6db2
 description: Элемент Жетстреаминжевентсреспонсе представляет ответ на запрос элемента GetStreamingEvents.
-ms.openlocfilehash: 46e606c6093c0e9853668bea10cbdb006191f762
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 84cd4f0099ab0fda1c1fe771dca0d9ef932b132b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833681"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457727"
 ---
 # <a name="getstreamingeventsresponse"></a>жетстреаминжевентсреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19833681"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -46,7 +46,7 @@ ms.locfileid: "19833681"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -60,7 +60,7 @@ ms.locfileid: "19833681"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

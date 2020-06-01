@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6999510a-d60e-43da-8964-57b5fb3e9d11
 description: Элемент Жетусераваилабилитиреспонсе является корневым элементом, содержащим свойства, которые определяют сведения о доступности пользователей или сведения о предложенном времени проведения собрания.
-ms.openlocfilehash: 0a30dc8ebc11b1f818b2c27b0ea68fc135ec0925
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ceb24bc8b31a7d7313add213c26bef5efd3c89ae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833684"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458217"
 ---
 # <a name="getuseravailabilityresponse"></a>жетусераваилабилитиреспонсе
 
@@ -37,7 +37,7 @@ ms.locfileid: "19833684"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,14 +62,14 @@ ms.locfileid: "19833684"
 <?xml version="1.0" encoding="utf-8" ?>
 <GetUserAvailabilityResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                              xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <FreeBusyResponseArray xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <FreeBusyResponseArray xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <FreeBusyResponse>
       <ResponseMessage ResponseClass="Success">
         <Path select="/m:GetUserAvailabilityRequest/MailboxDataArray[0]" />
       </ResponseMessage>
       <FreeBusyView>
-        <FreeBusyViewType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Detailed</FreeBusyViewType>
-        <CalendarEventArray xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <FreeBusyViewType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Detailed</FreeBusyViewType>
+        <CalendarEventArray xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <CalendarEvent>
             <StartTime>2006-02-28T19:00:00-08:00</StartTime>
             <EndTime>2006-02-28T23:30:00-08:00</EndTime>
@@ -86,7 +86,7 @@ ms.locfileid: "19833684"
             </CalendarEventDetails>
           </CalendarEvent>
         </CalendarEventArray>
-        <WorkingHours xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <WorkingHours xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <TimeZone>
             <Bias>480</Bias>
             <StandardTime>
@@ -124,7 +124,7 @@ ms.locfileid: "19833684"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -136,5 +136,5 @@ ms.locfileid: "19833684"
 [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1b56f83f-3b87-4b55-8259-fde6692da681
 description: Найдите сведения об операции с помощью службы EWS.
-ms.openlocfilehash: 803dabf51b94dbd8fb01f2709a42ff59a597bfd1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dcbe20c674d7524a7776d374fa6964899abf472f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762901"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458308"
 ---
 # <a name="getreminders-operation"></a>Операция GetReminders
 
@@ -57,8 +57,8 @@ ms.locfileid: "19762901"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
@@ -102,18 +102,18 @@ ms.locfileid: "19762901"
                        MajorBuildNumber="918"
                        MinorBuildNumber="7"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetRemindersResponse ResponseClass="Success"
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Reminders>
-        <Reminder xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Reminder xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Subject>Team meeting</Subject>
           <Location />
           <ReminderTime>2014-04-15T21:00:00Z</ReminderTime>
@@ -125,7 +125,7 @@ ms.locfileid: "19762901"
           <ReminderGroup>Calendar</ReminderGroup>
           <UID>6CF2FA62</UID>
         </Reminder>
-        <Reminder xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Reminder xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Subject>Task to send meeting notes</Subject>
           <Location />
           <ReminderTime>2014-04-16T14:00:00Z</ReminderTime>
@@ -181,15 +181,15 @@ ms.locfileid: "19762901"
                        MajorBuildNumber="918"
                        MinorBuildNumber="7"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetRemindersResponse ResponseClass="Error"
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <MessageText>EndDate is earlier than StartDate</MessageText>
       <ResponseCode>ErrorInvalidOperation</ResponseCode>
       <DescriptiveLinkKey>0</DescriptiveLinkKey>

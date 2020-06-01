@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 967df8c0-ee95-4202-b037-0c4b9fbbf5ee
 description: Элемент Екстерналакцессалловед указывает, доступно ли расположение для общего доступа к документам для внешнего подключения.
-ms.openlocfilehash: 7d2a4027fe6de0c24191272d65605310af6a16bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eb0ce0067a9ac9deea78b2778ce7f9e493ffb26f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762492"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457965"
 ---
 # <a name="externalaccessallowed-soap"></a>Екстерналакцессалловед (SOAP)
 
@@ -29,11 +29,11 @@ ms.locfileid: "19762492"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,7 +49,7 @@ ms.locfileid: "19762492"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

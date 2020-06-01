@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d82d0d47-6bc2-4bc8-a796-b770adfdfeb6
 description: Элемент Профессииs указывает массив значений профессии и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 9aae3deb03b48b2aefe10886a8faa911ff01ff0f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b9e3c4d112bad610641585024ea9282d835b3bd8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834894"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458014"
 ---
 # <a name="professions"></a>Профессии
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834894"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834894"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

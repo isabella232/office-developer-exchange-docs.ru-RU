@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 23538bca-738e-4319-944e-f459ff8a7eba
 description: Элемент Еарлиреженератион описывает частоту повторного создания задачи (в годах).
-ms.openlocfilehash: d034be1ff70e92fd5e96118b9fd1eb3033737f6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7a6796c433bc54d145d5a769e01f9bba46897735
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840537"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457881"
 ---
 # <a name="yearlyregeneration"></a>еарлиреженератион
 
@@ -37,7 +37,7 @@ ms.locfileid: "19840537"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19840537"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

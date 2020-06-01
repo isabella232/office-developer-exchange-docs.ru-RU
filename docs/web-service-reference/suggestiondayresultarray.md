@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: eeba9eff-5eca-4002-b5a5-8fb794feaba1
 description: Элемент Сугжестиондайресултаррай содержит массив предложений о собрании, организованных по дате.
-ms.openlocfilehash: c208104356606a5d9961461ad8743a772d2410d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 277d4cf71c31aba26cbff6f598eaa62769cae552
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840113"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457986"
 ---
 # <a name="suggestiondayresultarray"></a>сугжестиондайресултаррай
 
@@ -42,7 +42,7 @@ ms.locfileid: "19840113"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19840113"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -78,5 +78,5 @@ ms.locfileid: "19840113"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

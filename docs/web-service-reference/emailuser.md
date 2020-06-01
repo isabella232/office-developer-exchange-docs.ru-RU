@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dc8133ff-c34e-4921-bb56-06e79aee0a8a
 description: Элемент свойства emailuser указывает получателя электронной почты.
-ms.openlocfilehash: e724b3996d37a42527ec1183cef9bb6b312b8c93
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c090106a536f4f40908d364cc3c9c43f6fe42beb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762324"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456537"
 ---
 # <a name="emailuser"></a>Свойства emailuser
 
@@ -33,7 +33,7 @@ ms.locfileid: "19762324"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19762324"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

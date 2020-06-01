@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1e10ca10-3cf6-4f84-92f1-61eaa277f83a
 description: Элемент Ттитддфоненумберс указывает массив телефонных номеров TTY или TDD и идентификаторы их исходных атрибутов для соответствующего пользователя.
-ms.openlocfilehash: 437c470579479b6305762e9174a5cf0ac831589e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2a68953537b2f1e1e9a60da8f41c98024451ea36
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840250"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457069"
 ---
 # <a name="ttytddphonenumbers"></a>ттитддфоненумберс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19840250"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840250"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

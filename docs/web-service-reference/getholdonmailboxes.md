@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4c94cfb7-42e2-42e4-9c6d-a1b0f4747f83
 description: Элемент GetHoldOnMailboxes указывает начало запроса GetHoldOnMailboxes.
-ms.openlocfilehash: 844fe18e983223a014fed2043452c18b1e5ac465
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f3f2cb5a83a662fc83c0a861f740571f089c10d8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762803"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458356"
 ---
 # <a name="getholdonmailboxes"></a>GetHoldOnMailboxes
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762803"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19762803"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 71bd62c6-3fec-48db-9a5e-02121e9bc20b
 description: Элемент Culture представляет язык и региональные параметры для определенного элемента в почтовом ящике.
-ms.openlocfilehash: 0971397e5cc3fa27c986c67b6beffd4336640ad6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ee0fa4d25f3be769aff0a9a50c2f311ab6179b31
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761928"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458343"
 ---
 # <a name="culture"></a>Culture
 
@@ -27,18 +27,18 @@ ms.locfileid: "19761928"
 <Culture/>
 ```
 
- **Язык**
+ **Language**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19761928"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 394f6015-721b-4800-9286-039d430f09b3
 description: Элемент Документшаринглокатионс содержит список расположения и сведения метаданных для расположения общего доступа к документу.
-ms.openlocfilehash: 72d1ae9f01ad45441b4e255f2fb6353be2dc8d28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: af8b076c7a3bd26355a53457a43f4a5f86bf517e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762202"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457041"
 ---
 # <a name="documentsharinglocations-soap"></a>Документшаринглокатионс (SOAP)
 
@@ -31,7 +31,7 @@ ms.locfileid: "19762202"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -49,7 +49,7 @@ ms.locfileid: "19762202"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

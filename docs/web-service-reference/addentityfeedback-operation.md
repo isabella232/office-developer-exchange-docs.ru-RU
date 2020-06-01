@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 00e40197-5794-4268-b937-bd65aa044890
 description: Операция Аддентитифидбакк возвращает сведения об ошибке, соответствующие проблемам на стороне сервера.
-ms.openlocfilehash: b695806f543827d78aea139ffcbd7e4af58b9fef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a1027a0a1ee06cf3e83833b1d84c13d77b07c0b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761343"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458441"
 ---
 # <a name="addentityfeedback-operation"></a>Операция Аддентитифидбакк
 
@@ -28,8 +28,8 @@ ms.locfileid: "19761343"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                             xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                             xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -67,7 +67,7 @@ SOAP – запрос содержит один элемент **ентитиф�
 |**клиентевенттимеутк** <br/> |Да  <br/> |Время в формате UTC, в котором произошло событие на стороне клиента.  <br/> |DateTime  <br/> |
 |**клиентевенттимелокал** <br/> |Да  <br/> |Местное время, в течение которого событие произошло на стороне клиента.  <br/> |DateTime  <br/> |
 |**ClientId** <br/> |Да  <br/> |Тип клиента (например, Outlook, OWA и т. д.).  <br/> |Перечисление Клиентидтипе  <br/> |
-|**клиентсессионид** <br/> |Да  <br/> |GUID, определяющий идентификатор сеанса. Создается на клиенте.  <br/> |GUID  <br/> |
+|**клиентсессионид** <br/> |Да  <br/> |GUID, определяющий идентификатор сеанса. Создается на клиенте.  <br/> |Идентификатор GUID  <br/> |
 |**ClientVersion** <br/> |Да  <br/> |Версия клиента (например, 15.01.0101.000).  <br/> |String  <br/> |
 |**ентитяддсаурце** <br/> |Нет  <br/> |Источник для Ентитядед (например, Ентитирелеванцеапи, типы, вставленные).  <br/> |Перечисление Ентитяддсаурце  <br/> |
 |**ентрисекуенценумбер** <br/> |Да  <br/> |Добавочное целое число на каждый сеанс клиента. Используется для обнаружения потери данных.  <br/> |Целое  <br/> |
@@ -87,13 +87,13 @@ SOAP – запрос содержит один элемент **ентитиф�
                                 MajorBuildNumber="228" 
                                 MinorBuildNumber="0" 
                                 Version="V2_49" 
-                                xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                                xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
                                 xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
     </s:Header>
     <s:Body>
         <AddEntityFeedbackResponse ResponseClass="Success" 
-                                                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                                                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
                                                               xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                                                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ResponseCode>NoError</ResponseCode>
@@ -113,7 +113,7 @@ API может заносить в журнал пакет записей отз
     
 #### <a name="errordetails"></a>еррордетаилс
   
-Сведения, относящиеся к ошибкам, `;`приведенным выше в разделе.
+Сведения, относящиеся к ошибкам, приведенным выше в разделе `;` .
     
 ### <a name="currently-supported-values"></a>Текущие поддерживаемые значения
 
@@ -156,8 +156,8 @@ API может заносить в журнал пакет записей отз
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -178,13 +178,13 @@ API может заносить в журнал пакет записей отз
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
     <s:Header>
-        <h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="302" MinorBuildNumber="0" Version="V2_68" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        <h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="302" MinorBuildNumber="0" Version="V2_68" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
     </s:Header>
     <s:Body>
-        <FindPeopleResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <FindPeopleResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ResponseCode>NoError</ResponseCode>
             <People>
-                <Persona xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+                <Persona xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                     <PersonaId Id="AAUQAFjZ4UxX8SZCqSPFsmh0cSo=" />
                     <PersonaType>Person</PersonaType>
                     <CreationTime>2015-10-02T23:25:42</CreationTime>
@@ -207,8 +207,8 @@ API может заносить в журнал пакет записей отз
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -243,10 +243,10 @@ API может заносить в журнал пакет записей отз
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
     <s:Header>
-        <h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="302" MinorBuildNumber="0" Version="V2_68" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        <h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="302" MinorBuildNumber="0" Version="V2_68" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
     </s:Header>
     <s:Body>
-        <AddEntityFeedbackResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <AddEntityFeedbackResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ResponseCode>NoError</ResponseCode>
             <ErrorCount>0</ErrorCount>
             <ErrorDetails />

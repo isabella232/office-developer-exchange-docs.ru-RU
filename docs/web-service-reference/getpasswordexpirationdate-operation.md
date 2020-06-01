@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b0297458-58fb-4e5d-bb47-0cd17155e106
 description: Операция GetPasswordExpirationDate предоставляет срок действия пароля учетной записи электронной почты для текущего пользователя.
-ms.openlocfilehash: c57942c88b09a910e2d529a12ea279bb2da5d693
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4184092cf98161e4c2f74446cef5439722ae71a1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762874"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457895"
 ---
 # <a name="getpasswordexpirationdate-operation"></a>Операция GetPasswordExpirationDate
 
@@ -41,8 +41,8 @@ ms.locfileid: "19762874"
 ```XML
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
   </soap:Header>
   <soap:Body>

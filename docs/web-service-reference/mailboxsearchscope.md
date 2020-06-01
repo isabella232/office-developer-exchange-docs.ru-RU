@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ef4a4203-61e5-46b8-9fa4-d1a10e785aa2
 description: Элемент Маилбокссеарчскопе указывает почтовый ящик и область поиска для поиска обнаружения.
-ms.openlocfilehash: 657e6dfd4eb6c6c0eabb18546e7090c524e28e5e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 20f528ddfb4812de8468af33bcb0b47d7d851f1d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834297"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457188"
 ---
 # <a name="mailboxsearchscope"></a>маилбокссеарчскопе
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834297"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Mailbox (строка)](mailbox-string.md) | [SearchScope](searchscope.md)
+[Mailbox (строка)](mailbox-string.md)  |  [SearchScope](searchscope.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834297"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

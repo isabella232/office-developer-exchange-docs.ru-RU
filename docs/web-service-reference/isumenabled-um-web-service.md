@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 33810bbd-837f-4a71-9ed9-cb4b8c52186d
 description: Элемент IsUMEnabled указывает, включен ли для почтового ящика единая система обмена сообщениями.
-ms.openlocfilehash: 5f4d59c5497158e5afbc8bb5db4900bd129df50b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ea5bde677c62664acad8afd5c8142e96d82b7a74
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834113"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458231"
 ---
 # <a name="isumenabled-um-web-service"></a>IsUMEnabled (веб-служба единой системы обмена сообщениями)
 
@@ -33,15 +33,15 @@ ms.locfileid: "19834113"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -55,7 +55,7 @@ ms.locfileid: "19834113"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2d8d2389-924e-4d03-a324-35d56cf0d6b1
 description: Элемент Деклинеитем представляет отклонить ответ на приглашение на собрание.
-ms.openlocfilehash: d7076708248bf1ddc0472b802e4de94a436dcde8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a3fb2b62ea2fa895a664034d2150f46a3099f6c1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762009"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457433"
 ---
 # <a name="declineitem"></a>деклинеитем
 
@@ -52,7 +52,7 @@ ms.locfileid: "19762009"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19762009"
 |:-----|:-----|
 |[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Указывает уровень конфиденциальности элемента.  <br/> |
-|[Основной текст](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
+|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
 |[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элемент или файл, прикрепленный к элементу в хранилище Exchange.  <br/> |
 |[InternetMessageHeaders](internetmessageheaders.md) <br/> |Представляет имя заголовка Интернет-сообщения для данного заголовка в коллекции заголовков.  <br/> |
 |[Sender](sender.md) <br/> |Определяет отправителя элемента.  <br/> |
@@ -92,7 +92,7 @@ ms.locfileid: "19762009"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3ab9bcf-7dab-44f0-9ab6-b06543c0fdc2
 description: Элемент PostOfficeBox указывает сепост Office бокспортион почтового адреса.
-ms.openlocfilehash: e2ec105accac380d27ebb4e7fc636cc538cad57f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dede39a7b053172157858686f8287466f982c4ab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834861"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458028"
 ---
 # <a name="postofficebox"></a>PostOfficeBox
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834861"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Значение посталаддресс (персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md) | [(персонапосталаддресстипе)](value-personapostaladdresstype.md)
+[Посталаддресс (персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md)  |  [Значение (персонапосталаддресстипе)](value-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834861"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

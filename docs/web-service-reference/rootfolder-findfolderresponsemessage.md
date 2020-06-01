@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5089c815-663f-46be-bc59-aed9ee20f94a
 description: Элемент Рутфолдер содержит результаты поиска в одной корневой папке во время операции FindFolder.
-ms.openlocfilehash: 1cd79d5fa34318e7fe29606df84cbf0ef0520b93
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b5601d6abec67196c9991908e272a2122a201d69
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835253"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457139"
 ---
 # <a name="rootfolder-findfolderresponsemessage"></a>Рутфолдер (Финдфолдерреспонсемессаже)
 
@@ -64,7 +64,7 @@ ms.locfileid: "19835253"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -76,5 +76,5 @@ ms.locfileid: "19835253"
 [Операция FindFolder](findfolder-operation.md)
 
 
-[Поиск папок](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Поиск папок](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
 

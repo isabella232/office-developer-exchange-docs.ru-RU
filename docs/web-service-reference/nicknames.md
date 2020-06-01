@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bbafce39-7fc6-4099-bc27-b40c0ad44c77
 description: Элемент Псевдонимы определяет массив значений псевдонимов и идентификаторы их исходных атрибутов для соответствующего пользователя.
-ms.openlocfilehash: e798ce082da2ca963b4ef78a4f462a996bdff4df
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c6b7de5e1c93797603a2950b4a9527c5d370f93d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834536"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457776"
 ---
 # <a name="nicknames"></a>Псевдонимам
 
@@ -33,7 +33,7 @@ ms.locfileid: "19834536"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834536"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

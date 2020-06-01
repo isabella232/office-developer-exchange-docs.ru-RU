@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 662f8f2f-49a7-4c7a-9065-98a02a49cfcd
 description: Элемент base64FolderId содержит идентификатор папки, которую необходимо указать в качестве папки электронной почты по умолчанию, из которой единая система обмена сообщениями читает сообщения по телефону, в запросе веб-службы единой системы обмена сообщениями SetTelephoneAccessFolderEmail.
-ms.openlocfilehash: 7d710542418a717c6fcad243a22682e5840ebbd2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ea31c7a0f93188e563bf95c4a3e6e91f0866746c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761546"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458049"
 ---
 # <a name="base64folderid-um-web-service"></a>base64FolderId (веб-служба единой системы обмена сообщениями)
 
@@ -41,7 +41,7 @@ ms.locfileid: "19761546"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19761546"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

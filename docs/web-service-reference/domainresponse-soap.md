@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 6aa319be-3a01-4044-8dfc-8fa1318524c3
 description: Элемент Домаинреспонсе содержит запрошенные параметры для указанного домена.
-ms.openlocfilehash: c40f33a278b5032913329a7cd64346b572f5df2f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dea6e36c51ceea53201b668cfba616c03a44df86
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762207"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456964"
 ---
 # <a name="domainresponse-soap"></a>Домаинреспонсе (SOAP)
 
@@ -37,7 +37,7 @@ ms.locfileid: "19762207"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,13 +58,13 @@ ms.locfileid: "19762207"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

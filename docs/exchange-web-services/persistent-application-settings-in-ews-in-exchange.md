@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394d4e70-8517-4073-809a-5b61780ff923
 description: Узнайте о различных параметрах, которые может использовать ваш управляемый API EWS или приложение EWS для создания постоянных настраиваемых параметров приложений в Exchange.
-ms.openlocfilehash: b384fd5608dc647950d7cd31e861e24c12e3316f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b1faa057e5a0c1a96498efcc23738c83d25ae986
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761237"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457405"
 ---
 # <a name="persistent-application-settings-in-ews-in-exchange"></a>Параметры сохраняемого приложения в веб-службах Exchange
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761237"
 
 |**Настройка области**|**Применение**|**Доступ по**|
 |:-----|:-----|:-----|
-|Item  <br/> |Расширенное свойство существующего элемента.  <br/> |Любое приложение EWS. Только клиенты EWS, которые знают идентификатор свойства, могут получить доступ к расширенному свойству.  <br/> |
+|Элемент  <br/> |Расширенное свойство существующего элемента.  <br/> |Любое приложение EWS. Только клиенты EWS, которые знают идентификатор свойства, могут получить доступ к расширенному свойству.  <br/> |
 |Folder  <br/> |Объект конфигурации пользователя в целевой папке. Это хороший способ сохранить параметры представления для папки.  <br/> |Любое приложение EWS.  <br/> |
 |Почтовый ящик  <br/> |Объект конфигурации пользователя в папке мсгрутфолдер по умолчанию.  <br/> |Любое приложение EWS.  <br/> |
    
@@ -45,19 +45,19 @@ ms.locfileid: "19761237"
 
 Объекты конфигурации пользователя — это особые элементы, связанные с папками в почтовом ящике. Объекты конфигурации пользователей, также называемые элементами, связанными с папками, являются наилучшим вариантом для сохранения параметров приложений, особенно если информация о конфигурации связана с папкой или почтовым ящиком. Обычно они не отображаются для конечных пользователей. Так как они могут хранить собственные потоки данных и словари данных, они идеальны для хранения сведений о конфигурации. Лучший способ использовать объекты конфигурации пользователя — хранить набор конфигураций в XML-документе, а затем сохранять их в одном из свойств потока пользовательской конфигурации.
   
-Доступ к объектам конфигурации пользователя осуществляется иначе, чем у других типов элементов, хранящихся в почтовом ящике. Для поиска всех элементов можно использовать метод [FindItems, управляемый API EWS или](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=EXCHG.80%29.aspx) операцию [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS, но для поиска объектов конфигурации пользователя необходимо использовать **соответствующий** параметр обхода поиска. **Связанный** обход поиска указывает на то, что результаты поиска должны содержать только объекты конфигурации пользователя. EWS включает набор операций, которые относятся к объектам конфигурации пользователя. 
+Доступ к объектам конфигурации пользователя осуществляется иначе, чем у других типов элементов, хранящихся в почтовом ящике. Для поиска всех элементов можно использовать метод [FindItems, управляемый API EWS или](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=EXCHG.80%29.aspx) операцию [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS, но для поиска объектов конфигурации пользователя необходимо использовать **соответствующий** параметр обхода поиска. **Связанный** обход поиска указывает на то, что результаты поиска должны содержать только объекты конфигурации пользователя. EWS включает набор операций, которые относятся к объектам конфигурации пользователя. 
   
 **Таблица 1. Операции служб EWS и методы управляемого API EWS для работы с объектами конфигурации пользователей**
 
 |**Задача**|**Используйте эту операцию EWS**|**Используйте этот метод управляемого API EWS**|
 |:-----|:-----|:-----|
-|Создание объекта конфигурации пользователя  <br/> |[Операция CreateUserConfiguration](http://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) <br/> |[Усерконфигуратион. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx) <br/> |
-|Получение объекта конфигурации пользователя  <br/> |[Операция GetUserConfiguration](http://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) <br/> |[Усерконфигуратион. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) <br/> [Усерконфигуратион. Load](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.load%28v=exchg.80%29.aspx) <br/> |
-|Обновление объекта конфигурации пользователя  <br/> |[Операция UpdateUserConfiguration](http://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) <br/> |[Усерконфигуратион. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) <br/> |
-|Удаление объекта конфигурации пользователя  <br/> |[Операция DeleteUserConfiguration](http://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) <br/> |[Усерконфигуратион. Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) <br/> |
+|Создание объекта конфигурации пользователя  <br/> |[Операция CreateUserConfiguration](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) <br/> |[Усерконфигуратион. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx) <br/> |
+|Получение объекта конфигурации пользователя  <br/> |[Операция GetUserConfiguration](https://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) <br/> |[Усерконфигуратион. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) <br/> [Усерконфигуратион. Load](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.load%28v=exchg.80%29.aspx) <br/> |
+|Обновление объекта конфигурации пользователя  <br/> |[Операция UpdateUserConfiguration](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) <br/> |[Усерконфигуратион. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) <br/> |
+|Удаление объекта конфигурации пользователя  <br/> |[Операция DeleteUserConfiguration](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) <br/> |[Усерконфигуратион. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) <br/> |
    
 > [!NOTE]
-> Пользовательские объекты конфигурации, созданные с помощью EWS, имеют префикс [ItemClass](http://msdn.microsoft.com/library/56020078-50b4-4880-894a-a9f234033cfb%28Office.15%29.aspx) , начинающийся с "IPM. Конфигурация. ". **ItemClass** объекта конфигурации пользователя — это префикс объекта конфигурации пользователя и имя объекта конфигурации пользователя. Вы можете использовать свойство ItemClass [.](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) EWS или элемент **ItemClass** EWS для поиска определенных объектов конфигурации пользователя. 
+> Пользовательские объекты конфигурации, созданные с помощью EWS, имеют префикс [ItemClass](https://msdn.microsoft.com/library/56020078-50b4-4880-894a-a9f234033cfb%28Office.15%29.aspx) , начинающийся с "IPM. Конфигурация. ". **ItemClass** объекта конфигурации пользователя — это префикс объекта конфигурации пользователя и имя объекта конфигурации пользователя. Вы можете использовать свойство ItemClass [.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) EWS или элемент **ItemClass** EWS для поиска определенных объектов конфигурации пользователя. 
   
 ### <a name="extended-properties"></a>Расширенные свойства
 <a name="ExtendedProperties"> </a>
@@ -67,7 +67,7 @@ ms.locfileid: "19761237"
 > [!IMPORTANT]
 > Схема базы данных Exchange имеет конечное число свойств. Максимальное число идентификаторов свойств для базы данных Exchange — 32 767. Если вы используете расширенные свойства для хранения множества параметров, мы рекомендуем использовать одно расширенное свойство для хранения этих параметров, чтобы не превысить это максимальное значение. 
   
-Для настройки расширенных свойств объектов конфигурации пользователя можно использовать метод [Item. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=EXCHG.80%29.aspx) Managed API EWS или [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS. 
+Для настройки расширенных свойств объектов конфигурации пользователя можно использовать метод [Item. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.update%28v=EXCHG.80%29.aspx) Managed API EWS или [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS. 
   
 ### <a name="custom-items"></a>Настраиваемые элементы
 <a name="CustomItems"> </a>
@@ -81,9 +81,9 @@ ms.locfileid: "19761237"
 ## <a name="where-should-i-store-my-application-settings"></a>Где следует хранить параметры моего приложения?
 <a name="ApplicationSettingsLocation"> </a>
 
-Папки почтовых ящиков и элементы внутри них размещаются в корневой папке сообщений. Эта папка идентифицируется значением [веллкновнфолдернаме. мсгфолдеррут](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS. В терминах MAPI это эквивалент поддерева IPM почтового ящика. Объекты конфигурации пользователей часто используются для создания параметров на основе пользовательского интерфейса, поэтому приложение может отображать параметры представления на основе папки, к которой обращается пользователь. Параметры представления на основе папок обычно задаются для объекта конфигурации пользователя, связанного с папкой. Однако иногда может потребоваться сделать глобальными параметры для вашего приложения. В этом случае параметры можно хранить в корневой папке сообщений. 
+Папки почтовых ящиков и элементы внутри них размещаются в корневой папке сообщений. Эта папка идентифицируется значением [веллкновнфолдернаме. мсгфолдеррут](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS. В терминах MAPI это эквивалент поддерева IPM почтового ящика. Объекты конфигурации пользователей часто используются для создания параметров на основе пользовательского интерфейса, поэтому приложение может отображать параметры представления на основе папки, к которой обращается пользователь. Параметры представления на основе папок обычно задаются для объекта конфигурации пользователя, связанного с папкой. Однако иногда может потребоваться сделать глобальными параметры для вашего приложения. В этом случае параметры можно хранить в корневой папке сообщений. 
   
-Большинство пользователей не знают и, как правило, не имеют доступа к корневой папке почтового ящика. Эта папка идентифицируется значением [веллкновнфолдернаме. root](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS. В терминах MAPI это эквивалент поддерева почтового ящика, не являющегося частью IPM. Сведения, которые не имеют прямого доступа конечных пользователей, хранятся в корневой папке почтового ящика. Возможно, вы захотите сохранить параметр приложения в этой папке, так как клиентские приложения обычно не обращаются к нему. 
+Большинство пользователей не знают и, как правило, не имеют доступа к корневой папке почтового ящика. Эта папка идентифицируется значением [веллкновнфолдернаме. root](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS. В терминах MAPI это эквивалент поддерева почтового ящика, не являющегося частью IPM. Сведения, которые не имеют прямого доступа конечных пользователей, хранятся в корневой папке почтового ящика. Возможно, вы захотите сохранить параметр приложения в этой папке, так как клиентские приложения обычно не обращаются к нему. 
   
 ## <a name="version-differences"></a>Различия версий
 <a name="VersionDifferences"> </a>

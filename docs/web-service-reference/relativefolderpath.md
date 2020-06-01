@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54e3ba52-08a6-4d48-8a44-6fd5fdbffb25
 description: Элемент Релативефолдерпас содержит массив папок, указывающих относительный путь к папке, которую нужно создать.
-ms.openlocfilehash: f568d282e47a41c0aaf6d70ef383e5ef3e2b54bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8a0fc0020943afdbe6cd4c79d51d61337f8dd329
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835051"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457160"
 ---
 # <a name="relativefolderpath"></a>релативефолдерпас
 
@@ -36,11 +36,11 @@ ms.locfileid: "19835051"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Папка](folder.md) | [календарфолдер](calendarfolder.md) | [TasksFolder](tasksfolder.md) [SearchFolder](searchfolder.md)[ContactsFolder](contactsfolder.md)контактсфолдер SearchFolder тасксфолдер |  | 
+[Folder (папка](folder.md)  |  ) [Календарфолдер](calendarfolder.md)  |  [Контактсфолдер](contactsfolder.md)  |  [SearchFolder](searchfolder.md)  |  [Тасксфолдер](tasksfolder.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19835051"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

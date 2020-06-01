@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3b647d88-6feb-40d7-9299-b2ca47b707db
 description: Элемент ExternalUrl содержит URL-адрес для подключения клиента к серверу адресной книги или почтового ящика пользователя извне организации пользователя с помощью протокола MAPI/HTTP.
-ms.openlocfilehash: 603e2109e7b3c98acdd4cbc13df81ed9717630ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 94265051be68ed06d1dab8d46dd4ce29d8694c93
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762512"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457958"
 ---
 # <a name="externalurl-pox"></a>ExternalUrl (POX)
 
@@ -28,11 +28,11 @@ ms.locfileid: "19762512"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

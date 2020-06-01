@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 403acdd5-3b79-46f4-9894-ba57e10085e4
 description: Элемент Visible указывает, видима ли политика хранения для пользователей.
-ms.openlocfilehash: c08b8a3d537c062d3a1a8ed59823bc0f74eea426
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8cb8e99cef0f89d7ba6435690bd6d57b79a45bc8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834133"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458147"
 ---
 # <a name="isvisible"></a>IsVisible
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834133"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

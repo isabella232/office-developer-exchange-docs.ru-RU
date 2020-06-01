@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: c6bc0031-bc1d-41bd-84e4-9074a5b77012
 description: Элемент User представляет идентификатор одного пользователя.
-ms.openlocfilehash: a8dcb22f5c74a9622f978f34e48146115351fe82
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f151ffa8050a10cdbb4562471d815f8692596cc3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840411"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456348"
 ---
 # <a name="user-soap"></a>Пользователь (SOAP)
 
@@ -35,7 +35,7 @@ ms.locfileid: "19840411"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,13 +53,13 @@ ms.locfileid: "19840411"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

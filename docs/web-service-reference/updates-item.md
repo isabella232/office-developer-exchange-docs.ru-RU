@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5c1a855e-390d-4713-9d10-6e86ca392814
 description: Элемент Updates содержит набор элементов, определяющих Добавление, установку и удаление изменений свойств элемента.
-ms.openlocfilehash: 13df458c783b942e1c868853c41b6247119cf123
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6902ea4d3d3d9adc074745d5642cdfa6d91a9163
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840378"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456355"
 ---
 # <a name="updates-item"></a>Обновления (элемент)
 
@@ -47,7 +47,7 @@ ms.locfileid: "19840378"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -73,7 +73,7 @@ ms.locfileid: "19840378"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

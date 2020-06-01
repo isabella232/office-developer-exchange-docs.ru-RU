@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 292badc7-bab3-4368-9d7c-9a8b7edb279b
 description: Элемент Делегатепермиссионс содержит параметры делегированного уровня разрешений для пользователя. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 319592b6c3386a07b3094115c335c7fb8ffe1130
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2cf8c9a8d3c5db8e13d43c207df173c12fca5acb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762008"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457412"
 ---
 # <a name="delegatepermissions"></a>делегатепермиссионс
 
@@ -42,7 +42,7 @@ ms.locfileid: "19762008"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -69,7 +69,7 @@ ms.locfileid: "19762008"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -79,5 +79,5 @@ ms.locfileid: "19762008"
 - [Операция AddDelegate](adddelegate-operation.md) 
 - [Операция UpdateDelegate](updatedelegate-operation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Добавление делегатов](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Добавление делегатов](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

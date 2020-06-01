@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d3f611ed-56a4-43f8-aa65-cbd7844b827f
 description: Элемент Фолдерчанжес представляет коллекцию изменений для папки.
-ms.openlocfilehash: 7ab89e79f6babb5e93863974835685c6975d96dd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5481496100512584fd0b9745ee42d5b9516bd7fb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762611"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458385"
 ---
 # <a name="folderchanges"></a>фолдерчанжес
 
@@ -40,7 +40,7 @@ ms.locfileid: "19762611"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19762611"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9e50278d-fe6a-45e2-a72b-0fb06809e128
 description: Элемент Длекспансион содержит массив почтовых ящиков, содержащихся в списке рассылки.
-ms.openlocfilehash: 06081b4aba761a7137f921b3bc1c8d6b2afab88c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 079ad1c0f114d201f5d1b91c3fd9bb45b943cc1a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762199"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456999"
 ---
 # <a name="dlexpansion"></a>длекспансион
 
@@ -69,7 +69,7 @@ ms.locfileid: "19762199"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

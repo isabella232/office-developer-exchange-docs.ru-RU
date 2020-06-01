@@ -1,5 +1,5 @@
 ---
-title: Уточнения
+title: Refiners
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fb70326a-2b34-43d1-a1a1-5fb0049d32f3
 description: Элемент уточнений задает список из одного или нескольких элементов уточнения.
-ms.openlocfilehash: c08925f5e1b251967141a7391381239f495e5fb1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a89a18550355ccc9ef916637305a189276ee2224
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835039"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457223"
 ---
-# <a name="refiners"></a>Уточнения
+# <a name="refiners"></a>Refiners
 
 Элемент **уточнений** задает список из одного или нескольких элементов **уточнения** . 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19835039"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835039"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

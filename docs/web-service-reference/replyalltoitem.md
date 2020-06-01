@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8ca970ca-ca73-40db-9233-7b271cc5f44f
 description: Элемент Реплитоаллитем содержит ответ на отправителя и всех идентифицированных получателей элемента в хранилище Exchange.
-ms.openlocfilehash: 99ee3427babba2c91c7c3b4ad5a750fddca6cbfd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fd32aba84448728985d66edd03d378de2b0b3564
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835129"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457475"
 ---
 # <a name="replyalltoitem"></a>репляллтоитем
 
@@ -47,14 +47,14 @@ ms.locfileid: "19835129"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Тема](subject.md) <br/> |Представляет свойство Subject элементов хранилища Exchange.  <br/> |
-|[Основной текст](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
+|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
 |[ToRecipients](torecipients.md) <br/> |Содержит набор получателей элемента. Далее представлены основные получателей элемента.  <br/> |
 |[CcRecipients](ccrecipients.md) <br/> |Представляет коллекцию получателей, которые будут получать копию сообщения.  <br/> |
 |[BccRecipients](bccrecipients.md) <br/> |Представляет коллекцию получателей для получения скрытой копии (BCC) сообщения электронной почты.  <br/> |
@@ -85,7 +85,7 @@ ms.locfileid: "19835129"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 330de503-498d-447e-b4a9-c20fc1699fd1
 description: Сведения о заголовках HTTP в службах EWS и REST, которые могут помочь отслеживать и устранять неполадки в приложении Exchange.
-ms.openlocfilehash: bcf362952c29956729c44397043a56bf3603d0af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3a8ce889ec7a6b9e70ec25a95ac248902f48ca6c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761142"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456306"
 ---
 # <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>Инструментирование запросов клиентов для EWS и REST в Exchange
 
@@ -27,17 +27,17 @@ ms.locfileid: "19761142"
 
 |**HTTP-заголовок (EWS)**|**Эквивалент управляемого API EWS**|**Примечания**|
 |:-----|:-----|:-----|
-|User — Agent  <br/> |[ExchangeService. UserAgent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |Задайте для этого свойства уникальное значение, идентифицирующее клиентское приложение.<br/><br/> Использование одного и того же значения для всех запросов, отправляемых вашим приложением, позволяет корпорации Майкрософт устранять неполадки вызовов, если они возникают.  <br/> |
-|клиентский идентификатор запроса  <br/> |[ExchangeService. Клиентрекуестид](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |Присвойте этому параметру другое уникальное значение для каждого запроса, отправляемого приложением.<br/><br/> Рекомендуется использовать GUID. Этот уникальный идентификатор используется для корреляции действий между двумя системами в случае, если что-то пошло не так.  <br/> |
-|Возврат — клиент — запрос — идентификатор  <br/> |[ExchangeService. Ретурнклиентрекуестид](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |Присвойте этому параметру **значение true** , чтобы сообщить серверу Exchange о том, что он должен возвратить значение идентификатора клиентского запроса в соответствующем ответе.<br/><br/> Это можно использовать для сопоставления запросов и ответов в трассировках сети или трассировок управляемого API EWS.  <br/> |
-|X — Клиентстатистикс  <br/> |[ExchangeService. СендклиентлатенЦиес](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) <br/> |Используется для [отправки отчетов о задержких EWS](#bk_ReportLatency) в корпорацию Майкрософт, если приложение получает доступ к Exchange Online или Exchange Online в составе Office 365.  <br/> |
+|User — Agent  <br/> |[ExchangeService. UserAgent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |Задайте для этого свойства уникальное значение, идентифицирующее клиентское приложение.<br/><br/> Использование одного и того же значения для всех запросов, отправляемых вашим приложением, позволяет корпорации Майкрософт устранять неполадки вызовов, если они возникают.  <br/> |
+|клиентский идентификатор запроса  <br/> |[ExchangeService. Клиентрекуестид](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |Присвойте этому параметру другое уникальное значение для каждого запроса, отправляемого приложением.<br/><br/> Рекомендуется использовать GUID. Этот уникальный идентификатор используется для корреляции действий между двумя системами в случае, если что-то пошло не так.  <br/> |
+|Возврат — клиент — запрос — идентификатор  <br/> |[ExchangeService. Ретурнклиентрекуестид](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |Присвойте этому параметру **значение true** , чтобы сообщить серверу Exchange о том, что он должен возвратить значение идентификатора клиентского запроса в соответствующем ответе.<br/><br/> Это можно использовать для сопоставления запросов и ответов в трассировках сети или трассировок управляемого API EWS.  <br/> |
+|X — Клиентстатистикс  <br/> |[ExchangeService. СендклиентлатенЦиес](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) <br/> |Используется для [отправки отчетов о задержких EWS](#bk_ReportLatency) в корпорацию Майкрософт, если приложение получает доступ к Exchange Online или Exchange Online в составе Office 365.  <br/> |
    
 ## <a name="log-information-from-responses"></a>Запись данных из ответов в журнал
 
 Так как клиент может добавить к отправляемым запросам дополнительные инструментирования, Exchange добавляет дополнительные инструментирования в ответы в виде заголовков HTTP. Клиент должен записать эти сведения, чтобы перейти к сведениям об инструментарии запросов.
   
 > [!NOTE]
-> Если вы используете управляемый API EWS, не существует прямого эквивалента для заголовков HTTP. Тем не менее все заголовки HTTP-ответа можно получить с помощью свойства [ExchangeService. хттпреспонсехеадерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.httpresponseheaders%28v=exchg.80%29.aspx) . 
+> Если вы используете управляемый API EWS, не существует прямого эквивалента для заголовков HTTP. Тем не менее все заголовки HTTP-ответа можно получить с помощью свойства [ExchangeService. хттпреспонсехеадерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.httpresponseheaders%28v=exchg.80%29.aspx) . 
   
 **Таблица 2. Заголовки ответа HTTP**
 
@@ -48,12 +48,12 @@ ms.locfileid: "19761142"
 |X — Фесервер  <br/> |Полное доменное имя сервера клиентского доступа, который обработал запрос.  <br/> |
 |X — Таржетбесервер  <br/> |Полное доменное имя сервера почтовых ящиков, который обработал запрос.  <br/> |
 |X — Diaginfo.  <br/> |Дополнительные диагностические сведения в зависимости от запроса.  <br/> |
-|x — MS — диагностика  <br/> | Этот заголовок применяется только в том случае, если в запросе используется проверка подлинности OAuth.<br/><br/> Он содержит явный код ошибки, указывающий, почему не удалось выполнить проверку подлинности OAuth.<br/><br/> Он принимает следующий формат:`errorId;reason="reason"error_type="error type"`<br/><br/> Поле **Reason** является понятным для человека описанием ошибки.<br/><br/> Поле **еррорид** является целым числом, а поле **тип\_ошибки** — строковым представлением этого целого числа, как показано ниже:<ul><li>2000000: недопустимая\_подпись</li><li>2000001: недопустимый\_маркер</li><li>  2000002: истек\_срок действия маркера</li><li>2000003: недопустимый\_ресурс</li><li>2000004: недопустимый\_клиент  </li><li>2000005: недопустимый\_пользователь</li><li>2000006: недопустимый\_клиент</li><li>2000007: внутренняя\_ошибка</li><li>2000008: недопустимое\_разрешение</li></ul> |
+|x — MS — диагностика  <br/> | Этот заголовок применяется только в том случае, если в запросе используется проверка подлинности OAuth.<br/><br/> Он содержит явный код ошибки, указывающий, почему не удалось выполнить проверку подлинности OAuth.<br/><br/> Он принимает следующий формат:`errorId;reason="reason"error_type="error type"`<br/><br/> Поле **Reason** является понятным для человека описанием ошибки.<br/><br/> Поле **еррорид** является целым числом, а поле ** \_ тип ошибки** — строковым представлением этого целого числа, как показано ниже:<ul><li>2000000: недопустимая \_ подпись</li><li>2000001: недопустимый \_ маркер</li><li>  2000002: \_ истек срок действия маркера</li><li>2000003: недопустимый \_ ресурс</li><li>2000004: недопустимый \_ клиент  </li><li>2000005: недопустимый \_ пользователь</li><li>2000006: недопустимый \_ клиент</li><li>2000007: внутренняя \_ Ошибка</li><li>2000008: недопустимое \_ разрешение</li></ul> |
    
 ## <a name="report-ews-latency-to-microsoft"></a>Отчет о задержке в Майкрософт
 <a name="bk_ReportLatency"> </a>
 
-Если ваше приложение использует управляемый API EWS или EWS для подключения к Exchange Online, вы можете сообщить о задержке в запросах EWS напрямую в корпорацию Майкрософт. Информация передается через заголовок запроса X-Клиентстатистикс. Если вы используете управляемый API EWS, все, что нужно сделать, — задать для свойства [ExchangeService. сендклиентлатенЦиес](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) **значение true**. Если вы используете EWS, вам потребуется измерить время между отправкой запроса и получением ответа, а затем добавить заголовок X – Клиентстатистикс в следующий запрос EWS, который отправляет ваше приложение, используя следующий формат.
+Если ваше приложение использует управляемый API EWS или EWS для подключения к Exchange Online, вы можете сообщить о задержке в запросах EWS напрямую в корпорацию Майкрософт. Информация передается через заголовок запроса X-Клиентстатистикс. Если вы используете управляемый API EWS, все, что нужно сделать, — задать для свойства [ExchangeService. сендклиентлатенЦиес](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) **значение true**. Если вы используете EWS, вам потребуется измерить время между отправкой запроса и получением ответа, а затем добавить заголовок X – Клиентстатистикс в следующий запрос EWS, который отправляет ваше приложение, используя следующий формат.
   
 `X-ClientStatistics: MessageId=<value of request-id header>,ResponseTime=<time in milliseconds>,SoapAction=<EWS operation>`
   

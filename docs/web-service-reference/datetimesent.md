@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 81784ef3-8912-4d63-8502-73419a906999
 description: Элемент Датетимесент представляет дату и время отправки элемента в почтовом ящике.
-ms.openlocfilehash: 8ea8d2da589882945a17c6fa4302cb287892b5ae
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 550f067a698ffb149655e7c0368d2c44753d1f2a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761980"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458021"
 ---
 # <a name="datetimesent"></a>датетимесент
 
@@ -35,11 +35,11 @@ ms.locfileid: "19761980"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -69,7 +69,7 @@ ms.locfileid: "19761980"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

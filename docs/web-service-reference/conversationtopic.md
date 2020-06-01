@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 46cacf42-4039-4c8a-9b20-c42cdd9f2760
 description: Элемент ConversationTopic представляет раздел "Беседа".
-ms.openlocfilehash: 30b919dec3e65ca1961aac3f9c11c72cf97d707f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3f4f30acad2f5dd7d6fea25dda3ea4e39ddc2492
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761829"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457601"
 ---
 # <a name="conversationtopic"></a>ConversationTopic
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761829"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "19761829"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

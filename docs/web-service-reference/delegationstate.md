@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9dbb83ed-1ded-48f3-8e06-2489fc8b28d5
 description: Элемент Делегатионстате представляет состояние делегированной задачи.
-ms.openlocfilehash: 00b0e41ae223f1c70f9a3a21662e8858f8690a86
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b938b5a2240283c265006dd47cd6ff475ad80978
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762014"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457370"
 ---
 # <a name="delegationstate"></a>DelegationState
 
@@ -35,11 +35,11 @@ ms.locfileid: "19762014"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -73,7 +73,7 @@ ms.locfileid: "19762014"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

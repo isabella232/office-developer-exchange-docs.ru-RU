@@ -12,12 +12,12 @@ api_type:
 - dllExport
 ms.assetid: 408335e1-6977-441f-bfad-ede791d1630c
 description: 'Дата последнего изменения: 22 февраля 2013 г.'
-ms.openlocfilehash: fa66d253b4fc6bd5c29a39c5323f59bf323a906f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ec9f4303b26ea95b125adac6943945ae1276439
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761859"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456341"
 ---
 # <a name="cchksgfilespage_info-struct"></a>Структура функция cchksgfiles. PAGE_INFO
 
@@ -40,7 +40,7 @@ Struct PAGE_INFO
 
 ```
 
-## <a name="members"></a>"Участники"
+## <a name="members"></a>Members
 
 ### <a name="ulpgno"></a>улпгно
   
@@ -76,7 +76,7 @@ Struct PAGE_INFO
     
 ## <a name="remarks"></a>Примечания
 
-При вызове функции **еррчеккдбпажес** параметр **ргпажеинфо** является массивом структур **сведений о странице\_** . Для проверки каждой страницы базы данных должна быть одна структура **сведений о странице\_** . 
+При вызове функции **еррчеккдбпажес** параметр **ргпажеинфо** является массивом структур ** \_ сведений о странице** . Для проверки каждой страницы базы данных должна быть одна структура ** \_ сведений о странице** . 
   
 Приложение должно присвоить элементу **улпгно** правильное значение, а также установить для члена **ulFlags** значение 0 (ноль) перед вызовом **еррчеккдбпажес**. 
   

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: cfdf01a9-0191-47c7-a7ad-5254d8bdee4a
 description: Элемент CreateManagedFolder определяет запрос на добавление управляемых пользовательских папок в почтовый ящик.
-ms.openlocfilehash: 4acc931de2a8665db092c3b309d914f0a3c67558
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 01fe8b7341c38ad33089c56271434ad3f9a4e5f0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761908"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458364"
 ---
 # <a name="createmanagedfolder"></a>CreateManagedFolder
 
@@ -37,7 +37,7 @@ ms.locfileid: "19761908"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19761908"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -81,7 +81,7 @@ ms.locfileid: "19761908"
 [Операция FindFolder](findfolder-operation.md)
 
 
-[Поиск папок](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Поиск папок](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
   
-[Добавление управляемых папок](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Добавление управляемых папок](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

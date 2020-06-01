@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: afcacecd-f081-4419-a6d5-e45070839f9a
 description: Элемент Протоколконнектионс содержит ноль или более подключений протокола.
-ms.openlocfilehash: 9938669bc62d5554338e48ce59ca92755ba13d64
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6272bdf3aec8ba6572b07659416413c393954d93
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834921"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457762"
 ---
 # <a name="protocolconnections-soap"></a>Протоколконнектионс (SOAP)
 
@@ -33,7 +33,7 @@ ms.locfileid: "19834921"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -49,13 +49,13 @@ ms.locfileid: "19834921"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

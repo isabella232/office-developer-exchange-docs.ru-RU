@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ad29e064-3f3d-4b7b-aa4c-9ec27326381d
 description: Элемент Респонсеобжектс содержит коллекцию всех объектов Response, связанных с элементом в хранилище Exchange.
-ms.openlocfilehash: b1d95063439f5089665d2aad97d747665caef0ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 675bfda4addb38535736efc0c790577ff4739108
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835197"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457440"
 ---
 # <a name="responseobjects"></a>респонсеобжектс
 
@@ -46,7 +46,7 @@ ms.locfileid: "19835197"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -88,7 +88,7 @@ ms.locfileid: "19835197"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

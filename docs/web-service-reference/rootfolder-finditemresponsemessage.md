@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 187e009f-efaa-42a8-8962-329a645213ab
 description: Элемент Рутфолдер содержит результаты поиска в одной корневой папке во время операции FindItem.
-ms.openlocfilehash: ea17369ef4efc4112a738b430c8f0dbab3886341
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3bbab325dff26139739c50ef519b215aea620a0b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835254"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457132"
 ---
 # <a name="rootfolder-finditemresponsemessage"></a>Рутфолдер (Финдитемреспонсемессаже)
 
@@ -50,7 +50,7 @@ ms.locfileid: "19835254"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Items](items.md) <br/> |Содержит массив найденных элементов, которые содержат условия поиска, указанные в запросе [операции FindItem](finditem-operation.md) .  <br/> |
-|[Группы](groups.md) <br/> |Содержит коллекцию найденных групп, которые содержат критерии поиска и объединения, указанные в запросе [операции FindItem](finditem-operation.md) .  <br/> |
+|[Groups](groups.md) <br/> |Содержит коллекцию найденных групп, которые содержат критерии поиска и объединения, указанные в запросе [операции FindItem](finditem-operation.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19835254"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -88,5 +88,5 @@ ms.locfileid: "19835254"
 [тоталитемсинвиев](https://msdn.microsoft.com/library/ExchangeWebServices.FindItemParentType.TotalItemsInView.aspx)
 
 
-[Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+[Поиск элементов](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

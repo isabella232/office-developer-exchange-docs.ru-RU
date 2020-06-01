@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 502b2841-103d-4340-97d5-51a1db813fb2
 description: Элемент EmptyFolder определяет запрос на очистку папки в почтовом ящике в хранилище Exchange. Кроме того, при очистке папки также можно удалить вложенные папки.
-ms.openlocfilehash: c72e11cea29e2e55c9c29754eec60e73bd1e4d9c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a42e4e3f25741a96ee65fe6f87fc3236b68f4dc9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762327"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457279"
 ---
 # <a name="emptyfolder"></a>EmptyFolder
 
@@ -53,7 +53,7 @@ ms.locfileid: "19762327"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -67,7 +67,7 @@ ms.locfileid: "19762327"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

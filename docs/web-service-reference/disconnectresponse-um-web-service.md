@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 23806773-32d5-4283-a4d7-230ef80523bd
 description: Элемент Дисконнектреспонсе определяет ответ на запрос для операции отключения (веб-службы единой системы обмена сообщениями).
-ms.openlocfilehash: 47d432065f0c983a511e2ffda1ba789546a82f2f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bcfb778d94b19b1ab82af3e0d6420bdbeb69878e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762143"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458434"
 ---
 # <a name="disconnectresponse-um-web-service"></a>Дисконнектреспонсе (веб-служба единой системы обмена сообщениями)
 
@@ -35,25 +35,25 @@ ms.locfileid: "19762143"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

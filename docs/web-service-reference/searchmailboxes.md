@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d8c367a-67e9-43b3-8be0-6362d2152431
 description: Элемент SearchMailboxes указывает начало запроса SearchMailboxes.
-ms.openlocfilehash: cf8007be3201e2248f27371c2a80c960735a3ced
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7ccc94157ef6bde7b6ba86e70c16ef6e90d712fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835306"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456803"
 ---
 # <a name="searchmailboxes"></a>SearchMailboxes
 
@@ -40,11 +40,11 @@ ms.locfileid: "19835306"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Сеарчкуериес](searchqueries.md) | [resultType](resulttype.md) | [SortBy](sortby.md) | [PageDirection](pagedirection.md) [PreviewItemResponseShape](previewitemresponseshape.md) | [PageSize](pagesize.md)[PageItemReference](pageitemreference.md)[Language](language.md)[Deduplication](deduplication.md)превиевитемреспонсешапе SortBy | Language | Дедупликация PageSize | пажеитемреференце пажедиректион | 
+[Сеарчкуериес](searchqueries.md)  |  [ResultType](resulttype.md)  |  [Превиевитемреспонсешапе](previewitemresponseshape.md)  |  [SortBy](sortby.md)  |  [Language (язык](language.md)  |  ) [Дедупликация](deduplication.md)  |  [PageSize](pagesize.md)  |  [Пажеитемреференце](pageitemreference.md)  |  [Пажедиректион](pagedirection.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19835306"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e1229cf4-8957-4b4a-8b9d-3e956ff9fd7b
 description: Элемент Проксисугжестерсид используется прокси-сервером HTTP компьютера, на котором работает сервер Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа и который не используется операциями веб-служб Exchange. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 380729bf13e2a30572e85a86c93530c02965a987
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9aebb2a90a34745c2184c89b84f7378f1d4be406
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834919"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457741"
 ---
 # <a name="proxysuggestersid"></a>проксисугжестерсид
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834919"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834919"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8f489bd4-2434-4d0a-91fe-1b5ba7eb5765
 description: Элемент DateTimeReceived представляет дату и время получения элемента в почтовом ящике.
-ms.openlocfilehash: 41f8c67cb5619b258c2190532036a60a523a0ff2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ad57af46b0ff22c42bfa327532d13e79280dd8b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761977"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456565"
 ---
 # <a name="datetimereceived"></a>DateTimeReceived
 
@@ -35,11 +35,11 @@ ms.locfileid: "19761977"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -69,7 +69,7 @@ ms.locfileid: "19761977"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f613c705-17ce-48ce-aa64-4dc2cea25e31
 description: Элемент Рутитемид определяет корневой элемент удаленного вложения.
-ms.openlocfilehash: 484b185db63c9692eaca7e43c49d6e95375a1a98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d8badd465fd5a93e1a6354d55ac5c4b080897152
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835251"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457097"
 ---
 # <a name="rootitemid"></a>рутитемид
 
@@ -49,7 +49,7 @@ ms.locfileid: "19835251"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19835251"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

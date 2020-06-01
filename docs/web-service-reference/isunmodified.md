@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bf09bf20-5c86-4335-b6e4-df41e9af52fd
 description: Элемент Исунмодифиед указывает, был ли изменен элемент.
-ms.openlocfilehash: 86baf8c1c6afe7db5edaaac954df81f723c6bf40
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c577d4344cf644ce1e3bb9650760d0ee294561a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834130"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458154"
 ---
 # <a name="isunmodified"></a>исунмодифиед
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834130"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19834130"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 764d6a6e-e13b-4cd5-ad68-60bb422eebce
 description: Элемент Locations указывает массив значений Location и идентификаторы их исходных атрибутов для соответствующего пользователя.
-ms.openlocfilehash: 308fbdda4062b418a8925aa99d025b96e096778d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d72371a6ee05b395142abca164c4fa2cc5757611
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458084"
 ---
 # <a name="locations"></a>Расположения
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834249"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

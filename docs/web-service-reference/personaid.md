@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eec3a468-afd5-4d72-a61e-cd1964fb686c
 description: Элемент Персонаид указывает идентификатор пользователя для связанного пользователя.
-ms.openlocfilehash: 77668a1b32a97eef08b3316c7d4d7c8e6494c7bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3d7315097a14fb1eed5f378422cba80414601675
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834738"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457244"
 ---
 # <a name="personaid"></a>персонаид
 
@@ -37,11 +37,11 @@ ms.locfileid: "19834738"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Пользователь](getpersona.md) | [персоны](persona.md)
+[Долицо](getpersona.md)  |  [Персонаж](persona.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834738"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

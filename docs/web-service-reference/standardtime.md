@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 13084726-ab24-4009-be99-c4a4273c9e05
 description: Элемент StandardTime представляет смещение относительно времени относительно времени в формате UTC, которое представлено элементом смещения (UTC). Этот элемент также содержит сведения о переходе на зимнее время с летнего времени в регионах, где наблюдается летнее время.
-ms.openlocfilehash: 726c31ffba06c1c437711b88444ec5eba45b520d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 793f058840d4fd9216f03e660f5be0f7564906cf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835546"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456404"
 ---
 # <a name="standardtime"></a>StandardTime
 
@@ -44,7 +44,7 @@ ms.locfileid: "19835546"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19835546"
 В следующем примере показан регион, в котором наблюдается летнее время. Переход с летнего на зимнее время выполняется в 2 часа утра. в пятом воскресенье десятого месяца.
   
 ```xml
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -95,7 +95,7 @@ ms.locfileid: "19835546"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -103,5 +103,5 @@ ms.locfileid: "19835546"
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

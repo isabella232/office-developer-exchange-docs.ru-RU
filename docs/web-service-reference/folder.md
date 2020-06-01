@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 812948d8-c7db-45ce-bb3a-77233a53a974
 description: Элемент Folder определяет папку для создания, получения, поиска, синхронизации или обновления.
-ms.openlocfilehash: ecfea52d2105599372a22b78778ac0d0d066bc60
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 156813b3f7ecc6a2e1437f473ae1daa76b138e6e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762622"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457251"
 ---
 # <a name="folder"></a>Folder
 
@@ -35,7 +35,7 @@ ms.locfileid: "19762622"
    <ManagedFolderInformation/>
    <UnreadCount/>
    <PermissionSet/>
-      <EffectiveRights/>
+   <EffectiveRights/>
 </Folder>
 ```
 
@@ -46,7 +46,7 @@ ms.locfileid: "19762622"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -82,7 +82,7 @@ ms.locfileid: "19762622"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 99062401-d356-4ce7-a5d0-c8c7aab99912
 description: Элемент Креатеманажедфолдерреспонсе определяет ответ на запрос CreateManagedFolder.
-ms.openlocfilehash: fc486a197b7b0a0ed7310dda88d4bf8735f99876
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a1983545f3279baeb4ec6a7a1ae56ee3501a1d82
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761910"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458355"
 ---
 # <a name="createmanagedfolderresponse"></a>креатеманажедфолдерреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761910"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761910"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

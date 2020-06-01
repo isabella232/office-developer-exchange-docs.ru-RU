@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1b047e34-40f0-459f-ac9e-e9f8e7349479
 description: Операция RefreshSharingFolder обновляет указанную локальную папку последними данными из общей папки.
-ms.openlocfilehash: 0037de28f0720b97cd51c58a6ee7e3c06e84d642
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dd7136ae82353841db09497d23eabe450c1c8b13
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835041"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456767"
 ---
 # <a name="refreshsharingfolder-operation"></a>Операция RefreshSharingFolder
 
@@ -45,13 +45,13 @@ ms.locfileid: "19835041"
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
   <soap:Body>
-    <RefreshSharingFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <RefreshSharingFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:SharingFolderId Id="AAMkAD=" ChangeKey="AwAAA=" />
     </RefreshSharingFolder>
   </soap:Body>
@@ -87,13 +87,13 @@ ms.locfileid: "19835041"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <RefreshSharingFolderResponseMessage ResponseClass="Success"
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
     </RefreshSharingFolderResponseMessage>
   </soap:Body>
@@ -129,13 +129,13 @@ ms.locfileid: "19835041"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <RefreshSharingFolderResponseMessage ResponseClass="Error"
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:MessageText>Failed to synchronize the sharing folder.</m:MessageText>
       <m:ResponseCode>ErrorSharingSynchronizationFailed</m:ResponseCode>
       <m:DescriptiveLinkKey>0</m:DescriptiveLinkKey>

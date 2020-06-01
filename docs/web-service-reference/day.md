@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d3b2dc66-486a-41d1-bff3-606f0bf92715
 description: Элемент Day представляет день месяца, в который происходит переход часового пояса.
-ms.openlocfilehash: 01d1bf7833a89c0bb9a2b1af95ec8dfc627336d9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8ee5ed2e996a6a4b84648df41faf2718784b9d30
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761988"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457482"
 ---
 # <a name="day"></a>Day
 
@@ -35,11 +35,11 @@ ms.locfileid: "19761988"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19761988"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

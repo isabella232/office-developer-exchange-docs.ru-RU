@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a221aa9e-b4ac-4ec5-aa42-7e2a69e8eaa6
 description: Элемент Публикфолдеринформатион содержит сведения, которые клиенты могут использовать для отправки запроса на автообнаружение для обнаружения сведений о общедоступных папках для пользователя.
-ms.openlocfilehash: bb4432a664024c3d1ccb17826948cfe7a1b58cdf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e044a1feddfaeb4eb93c289c617dde9adc66f332
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834927"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457720"
 ---
 # <a name="publicfolderinformation-pox"></a>Публикфолдеринформатион (POX)
 
@@ -38,7 +38,7 @@ ms.locfileid: "19834927"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

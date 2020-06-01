@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5e57ce96-895d-40c5-a670-19f3bc610dbd
 description: Элемент Енднодеурл указывает URL-адрес почтового приложения в магазине Office.
-ms.openlocfilehash: 96569bed513de136dbe975879ba41e33d99d5693
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0ace98bd41c49a31d528b08d0d0f4011d783866c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762352"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458406"
 ---
 # <a name="endnodeurl"></a>енднодеурл
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762352"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762352"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> | http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> | https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Неприменимо  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
