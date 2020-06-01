@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dc2240c1-5500-4d5c-97d5-09d63ffd30d5
 description: Узнайте, как изменить часовой пояс для существующей встречи или собрания с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 535eb9f546d9a4353408579f3a24750f32237699
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+ms.openlocfilehash: 064f99997b7c3d1197cb8d1ee6a24f8fb874f706
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761126"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455844"
 ---
 # <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>Обновление часового пояса встречи с помощью EWS в Exchange
 
@@ -29,7 +29,7 @@ ms.locfileid: "19761126"
 
 В приведенном ниже примере показано как, используя управляемый API EWS, изменить часовой пояс для имеющейся встречи на Центральный часовой пояс путем обновления свойств **Appointment.StartTimeZone** и **Appointment.EndTimeZone**. Если для параметра _shiftAppointnment_ установлено значение **true**, код явным образом не задает время начала и окончания встречи. В этом случае сервер сместит время начала и окончания относительно нового часового пояса таким образом, чтобы оно не изменилось в этом часовом поясе. Если задано значение **false**, код преобразует время начала и окончания явным образом, чтобы время встречи в формате UTC осталось неизменным. 
 
-В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). 
+В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). 
   
 ```cs
 static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bool shiftAppointment)
@@ -112,7 +112,7 @@ static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bo
 }
 ```
 
-Когда пример используется для обновления встречи, которая начинается в 13:00 по Восточному времени и заканчивается в 14:00 по Восточному времени, при этом для параметра  _shiftAppointment_ задано значение true, а свойству [ExchangeService.TimeZone](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) присвоен Восточный часовой пояс, результат выглядит следующим образом. 
+Когда пример используется для обновления встречи, которая начинается в 13:00 по Восточному времени и заканчивается в 14:00 по Восточному времени, при этом для параметра  _shiftAppointment_ задано значение true, а свойству [ExchangeService.TimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) присвоен Восточный часовой пояс, результат выглядит следующим образом. 
   
 ```MS-DOS
 Before update:
@@ -150,14 +150,14 @@ After update:
   
 ## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-ews"></a>Обновление часового пояса существующей встречи с помощью EWS
 
-Следующий пример запроса [UpdateItem Operation](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS обновляет часовой пояс встречи. В этом примере обновляются только элементы [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) и [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx), поэтому сервер будет сдвигать время начала и окончания встречи, чтобы сохранить то же относительное время в новом часовом поясе. Значение элемента **ItemId** укорочено для удобства чтения. 
+Следующий пример запроса [UpdateItem Operation](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS обновляет часовой пояс встречи. В этом примере обновляются только элементы [StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) и [EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx), поэтому сервер будет сдвигать время начала и окончания встречи, чтобы сохранить то же относительное время в новом часовом поясе. Значение элемента **ItemId** укорочено для удобства чтения. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -192,9 +192,9 @@ After update:
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>

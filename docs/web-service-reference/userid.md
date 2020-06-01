@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 244af9e0-bf3c-46b4-8bfa-9719a1ed3107
 description: Элемент UserId идентифицирует пользователя делегата или пользователя с разрешениями на доступ к папке.
-ms.openlocfilehash: 8e9867f5a8cdd62dd2dae55fbf527595ac14f46d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 68075e335383835ddce9575d85ba5fa945ed305c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840421"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455543"
 ---
 # <a name="userid"></a>UserId
 
@@ -40,7 +40,7 @@ ms.locfileid: "19840421"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -73,7 +73,7 @@ ms.locfileid: "19840421"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -90,5 +90,5 @@ ms.locfileid: "19840421"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Добавление делегатов](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[Добавление делегатов](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

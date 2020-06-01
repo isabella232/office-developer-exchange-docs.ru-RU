@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 329902d9-0ecb-4cfb-86dd-5ce863deff3f
 description: Найдите сведения о создании приложений резервного копирования и восстановления для Exchange 2013.
-ms.openlocfilehash: 9eceb3d512a73ad9cb07a01864fb8b029d5b5772
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1c5d99be60501fd1c4414ea22294bd05645bb0a7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760917"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455242"
 ---
 # <a name="backup-and-restore-for-exchange"></a>Резервное копирование и восстановление для Exchange
   
@@ -44,7 +44,7 @@ Exchange 2013 содержит подключаемый модуль для си
 |Scriptable  <br/> |Да, но не рекомендуется.  <br/> |
 |Доступные инструменты для тестирования и отладки  <br/> |Для отладки приложений, использующих VSS Windows, Специальные средства не требуются.  <br/> |
    
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
 - [Основные понятия резервного копирования и восстановления для Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
     
@@ -54,7 +54,7 @@ Exchange 2013 содержит подключаемый модуль для си
     
 ## <a name="see-also"></a>См. также
 
-- [Служба теневого копирования томов (Windows)](http://msdn.microsoft.com/en-us/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
+- [Служба теневого копирования томов (Windows)](https://msdn.microsoft.com/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
 - [Сведения об управляемом API EWS, EWS и веб-службах в Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
 - [Командная консоль Exchange](../management/exchange-management-shell.md)   
 - [Агенты транспорта в Exchange](../transport-agents/transport-agents-in-exchange-2013.md) 

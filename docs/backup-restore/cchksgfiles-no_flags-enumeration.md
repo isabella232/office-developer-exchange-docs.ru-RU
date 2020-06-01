@@ -12,12 +12,12 @@ api_type:
 - dllExport
 ms.assetid: 6b18b645-fec4-429a-9900-62ad0f19bf96
 description: 'Дата последнего изменения: 22 февраля 2013 г.'
-ms.openlocfilehash: dbe4cedf2011a1607a6db55dc064bd42dc229123
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a55bcf2c845b6896105d446a14a70cc45fbc3de2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761868"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455361"
 ---
 # <a name="cchksgfilesno_flags-enumeration"></a>Перечисление функция cchksgfiles. NO_FLAGS
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 56020078-50b4-4880-894a-a9f234033cfb
 description: Элемент ItemClass представляет класс сообщения элемента.
-ms.openlocfilehash: 7f146a8472362b8f3cd4062a4af2ce452e204742
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 31d46b2b41b4b22ca5afeb842d7b0e0d16677920
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834149"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455417"
 ---
 # <a name="itemclass"></a>ItemClass
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834149"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -51,7 +51,7 @@ ms.locfileid: "19834149"
 |[деклинеитем](declineitem.md) <br/> |Представляет отклонить ответ на приглашения на собрание.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[глобалитемклассес](globalitemclasses.md) <br/> |Содержит список классов элементов, которые представляют все классы элементов для элементов беседы в почтовом ящике.  <br/> |
-|[Элемент](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
 |[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
 |[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
 |[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
@@ -75,7 +75,7 @@ ms.locfileid: "19834149"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

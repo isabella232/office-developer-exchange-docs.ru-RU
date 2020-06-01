@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c9778823-f290-4827-ba19-5f391ed4f877
 description: Элемент Маилбоксскопе указывает, следует ли выполнять поиск или получение для беседы в основном почтовом ящике, архивном почтовом ящике или основном и архивном почтовом ящике.
-ms.openlocfilehash: 89c9776079d686b114d6b744150f1c6df3711eab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 92823c06d4fe186917c3cfb532eda821bd6a95a7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834293"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455375"
 ---
 # <a name="mailboxscope"></a>маилбоксскопе
 
@@ -31,15 +31,15 @@ ms.locfileid: "19834293"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[FindConversation](findconversation.md) | Беседа с FindConversation[GetConversationItems](getconversationitems.md) | [(конверсатионтипе)](conversation-conversationtype.md)
+[FindConversation](findconversation.md)  |  [GetConversationItems](getconversationitems.md)  |  [Беседа (конверсатионтипе)](conversation-conversationtype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -55,7 +55,7 @@ ms.locfileid: "19834293"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

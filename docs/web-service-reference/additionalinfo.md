@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 50bebbab-2fef-4a27-a5a9-32d7200820b6
 description: Элемент Аддитионалинфо указывает дополнительные сведения о состоянии удержания почтового ящика.
-ms.openlocfilehash: 6fbe24d5d3e41f2ba9c81657b2c38240d10eefed
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1911ff3ac0baf7a8854c0609e08959a54cc27b6d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761347"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455823"
 ---
 # <a name="additionalinfo"></a>аддитионалинфо
 
@@ -30,11 +30,11 @@ ms.locfileid: "19761347"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19761347"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3893be6a-49a7-49f6-bf53-c7f819ec3f87
 description: Элемент Делетеитемфиелд представляет операцию удаления данного свойства из элемента во время вызова UpdateItem.
-ms.openlocfilehash: 571227eece8f717c1bf5da27cfab8ae50dfe3572
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: e6f5ee8a1130d7c040f3ddd94021eff6d4a758b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353884"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455676"
 ---
 # <a name="deleteitemfield"></a>делетеитемфиелд
 
@@ -55,7 +55,7 @@ ms.locfileid: "21353884"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -79,7 +79,7 @@ ms.locfileid: "21353884"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4f372d57-2e39-46af-9d83-6c8c55108587
 description: Элемент Delete определяет отдельный элемент, который необходимо удалить из локального хранилища клиента.
-ms.openlocfilehash: 18b7ae2f97db2de64896680c3aa76f2590c03177
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6e30ddc7f7248fe7ff7136e19ba58c7d5d8a800f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762023"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454682"
 ---
 # <a name="delete-itemsync"></a>Delete (Итемсинк)
 
@@ -43,7 +43,7 @@ ms.locfileid: "19762023"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -65,7 +65,7 @@ ms.locfileid: "19762023"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

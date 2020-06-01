@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 48e7e067-049c-4184-8026-071e6f558e8a
 description: Элемент Исекуалто представляет выражение поиска, которое сравнивает свойство со значением константы или другим свойством и принимает значение true, если они равны.
-ms.openlocfilehash: 733032819e6875fa878c1cd631d173a1c48ecdfe
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 857192443ab0520bb26ead399bc5364cc862a4fb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353163"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455298"
 ---
 # <a name="isequalto"></a>исекуалто
 
@@ -52,7 +52,7 @@ ms.locfileid: "21353163"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -82,7 +82,7 @@ ms.locfileid: "21353163"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

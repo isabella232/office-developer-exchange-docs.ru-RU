@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4397d91-43ef-40a9-a80e-d31501a33caa
 description: Элемент Delete определяет отдельную папку, которую необходимо удалить из локального хранилища клиентов.
-ms.openlocfilehash: 5cad36c6fcff782195fdb285e2d3c4f3c5ec0f1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 68f8687b8cf0723d7fd63a3d55da8ef7c2f98f8e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762015"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454983"
 ---
 # <a name="delete-foldersync"></a>Delete (Фолдерсинк)
 
@@ -43,7 +43,7 @@ ms.locfileid: "19762015"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -65,7 +65,7 @@ ms.locfileid: "19762015"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

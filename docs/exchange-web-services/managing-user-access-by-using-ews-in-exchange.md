@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 48f0170c-8786-405f-86cb-568b7314a425
 description: Узнайте, какие параметры предназначены для управления доступом учетной записи пользователя к серверу Exchange.
-ms.openlocfilehash: d93f521f08f93b44b4ecc1f258b03ed24ebdd3dd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 476292d4db206f22cd84134ce2b46957e9fe85fc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761147"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456247"
 ---
 # <a name="managing-user-access-by-using-ews-in-exchange"></a>Управление доступом пользователей с помощью EWS в Exchange
 
@@ -27,11 +27,11 @@ ms.locfileid: "19761147"
   
 - Написание приложения с помощью C# или Visual Basic, которое вызывает командлеты командной консоли Exchange. Чтобы узнать, как вызвать командлет, можно просмотреть пример кода в [документации по API командной консоли Exchange](../management/exchange-management-shell.md) . 
     
-- Использование сценариев Windows PowerShell и Windows PowerShell для вызова командлетов командной консоли Exchange. Можно найти полный список [PowerShell для Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps), а также примеры, демонстрирующие их использование. 
+- Использование сценариев Windows PowerShell и Windows PowerShell для вызова командлетов командной консоли Exchange. Можно найти полный список [PowerShell для Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps), а также примеры, демонстрирующие их использование. 
     
 ## <a name="see-also"></a>См. также
 
 - [Настройка приложения веб-служб Exchange](setting-up-your-ews-application.md)   
-- [Командлеты Exchange 2013](https://docs.microsoft.com/en-us/powershell/exchange/?view=exchange-ps)  
+- [Командлеты Exchange 2013](https://docs.microsoft.com/powershell/exchange/?view=exchange-ps)  
     
 

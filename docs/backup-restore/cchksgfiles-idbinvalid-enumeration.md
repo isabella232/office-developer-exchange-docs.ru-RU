@@ -12,12 +12,12 @@ api_type:
 - dllExport
 ms.assetid: 3d2b754f-2161-4377-b5f8-35abe3033b68
 description: 'Дата последнего изменения: 22 февраля 2013 г.'
-ms.openlocfilehash: e0dbe4998217a4dcd237b6dfa3385cc71a2b03e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5a2d32da114391a623d5b0cc2d6c5ca49db78148
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761858"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455508"
 ---
 # <a name="cchksgfilesidbinvalid-enumeration"></a>Перечисление функция cchksgfiles. Идбинвалид
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 55d6f802-a32c-45c6-b53c-b8b495d1e62f
 description: Элемент Ремовеимграупреспонсе представляет ответ на запрос RemoveImGroup.
-ms.openlocfilehash: 2f5c394ed7c6cf3d345a54e51e54f3563b3c8e92
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9cff2af802392a241f2257d42741cb2f5a0e277e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835100"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456005"
 ---
 # <a name="removeimgroupresponse"></a>ремовеимграупреспонсе
 
@@ -35,11 +35,11 @@ ms.locfileid: "19835100"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md) | [ResponseCode](responsecode.md)респонсекоде | [DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй | [мессажексмл](messagexml.md)
+[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835100"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

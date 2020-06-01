@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: fd4d773c-f7dc-4a04-9025-e772d7a45fdf
 description: Элемент EmailAddresses представляет коллекцию адресов электронной почты контакта.
-ms.openlocfilehash: 2eddb68ecffd8f61a2fbb775d8013433d715db1a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9d247f6159d621124ecdd9968ee468ed2b4fe84b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762293"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456180"
 ---
 # <a name="emailaddresses"></a>EmailAddresses
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762293"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19762293"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -66,7 +66,7 @@ ms.locfileid: "19762293"
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx) 
-- [Обновление контактов](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx) 
-- [Удаление контактов](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
+- [Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx) 
+- [Обновление контактов](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx) 
+- [Удаление контактов](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
 

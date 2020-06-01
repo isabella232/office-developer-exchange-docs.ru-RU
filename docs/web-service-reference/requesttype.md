@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4e657e57-528f-4250-a99c-f9850bbbcec5
 description: Элемент RequestType определяет, является ли прокси-запрос межсайтым или запросом между лесами.
-ms.openlocfilehash: 96a4d57432b15aa54fff2618df458fc75cb227f3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 278a65a1f2ce4cb433ae8099703d70d0a2cafa3b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835139"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455970"
 ---
 # <a name="requesttype"></a>RequestType
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835139"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19835139"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

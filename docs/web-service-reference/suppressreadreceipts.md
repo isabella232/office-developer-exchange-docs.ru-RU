@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f0805560-7a2f-455b-94d2-ec4f1e3652c3
 description: Элемент Суппрессреадрецеиптс указывает, следует ли подавлять уведомления о прочтении.
-ms.openlocfilehash: 794252da6b3e6b6e6f36181c1811a2a001bfaf53
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: aa604d4907582bd73727ba664958a589a222f9cb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840118"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455935"
 ---
 # <a name="suppressreadreceipts"></a>суппрессреадрецеиптс
 
@@ -30,15 +30,15 @@ ms.locfileid: "19840118"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Конверсатионактион](conversationaction.md) | [MarkAllItemsAsRead](markallitemsasread.md)
+[Конверсатионактион](conversationaction.md)  |  [MarkAllItemsAsRead](markallitemsasread.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19840118"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

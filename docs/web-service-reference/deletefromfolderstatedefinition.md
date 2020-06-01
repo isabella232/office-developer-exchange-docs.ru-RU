@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3aba59a0-f12a-48b5-842b-11cf4530dd51
 description: Элемент Делетефромфолдерстатедефинитион указывает состояние при удалении элемента из папки.
-ms.openlocfilehash: 7b6374b9fa55d3b08569e8ac9e247dd6e5bebc24
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0ea8c61a6839790869781d5d87ca81772b2e38d6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762039"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455725"
 ---
 # <a name="deletefromfolderstatedefinition"></a>делетефромфолдерстатедефинитион
 
@@ -33,7 +33,7 @@ ms.locfileid: "19762039"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19762039"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4f1a90c1-e27e-4e16-93c3-e79d4cb720d1
 description: Элемент Ластмодифиеднаме содержит отображаемое имя последнего пользователя для изменения элемента. Этот элемент доступен только для чтения. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 1518849da07d6d3f9b89d2b8ef7c36d8f7167963
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 485514d9f72956083d8a7a0633478f3d9e694845
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834202"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455389"
 ---
 # <a name="lastmodifiedname"></a>ластмодифиеднаме
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834202"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -47,7 +47,7 @@ ms.locfileid: "19834202"
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
-|[Элемент](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
 |[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
 |[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
 |[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
@@ -69,7 +69,7 @@ ms.locfileid: "19834202"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

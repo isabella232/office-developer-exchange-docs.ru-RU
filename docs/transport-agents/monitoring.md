@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 350d7b46-9260-41a7-8613-3cb8cc1b29a5
 description: 'Дата последнего изменения: 17 сентября 2015 г.'
-ms.openlocfilehash: 1b5484467def0bf3d22ba0707357977d5ed461ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5614ac2c6428da9b6845769a9335486d3ded5754
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761313"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455830"
 ---
 # <a name="monitoring"></a>текущего
   
@@ -44,7 +44,7 @@ ms.locfileid: "19761313"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

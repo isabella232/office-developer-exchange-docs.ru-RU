@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2a243852-362f-4bde-95ab-fe42ead61a85
 description: Элемент GetImItemList определяет запрос на получение списка групп и контактов для обмена мгновенными сообщениями.
-ms.openlocfilehash: b39a9e85c58f253511acaa21f62e1a4277fd56e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 435bacdc292eb8e7ea8a7822a2a4cd592598cb03
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762810"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456061"
 ---
 # <a name="getimitemlist"></a>GetImItemList
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762810"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19762810"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |true  <br/> |

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78ae179b-ae4f-4f64-911a-e0c70e0fa314
 description: Сведения о том, как архивировать в EWS в Exchange.
-ms.openlocfilehash: bc282a7774bb74e57550bc663512987839324b83
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b433b9f88905ee255720e8b341d560fa0e464975
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760929"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456215"
 ---
 # <a name="archiving-in-ews-in-exchange"></a>Архивация в веб-служб Exchange в Exchange
 
@@ -27,8 +27,8 @@ Exchange Online, Exchange Online в составе Office 365, а Exchange Serve
   
 |**Имя операции**|**Описание**|
 |:-----|:-----|
-|[ArchiveItem](http://msdn.microsoft.com/library/1af216b3-13ea-498e-b4fc-23513755d731%28Office.15%29.aspx) <br/> |Перемещает элемент из основного почтового ящика в архивный.  <br/> |
-|[CreateFolderPath](http://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |Создает URI, указывающий на место хранения архивного почтового ящика.  <br/> |
+|[ArchiveItem](https://msdn.microsoft.com/library/1af216b3-13ea-498e-b4fc-23513755d731%28Office.15%29.aspx) <br/> |Перемещает элемент из основного почтового ящика в архивный.  <br/> |
+|[CreateFolderPath](https://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |Создает URI, указывающий на место хранения архивного почтового ящика.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

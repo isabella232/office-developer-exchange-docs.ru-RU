@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f91ff0df-0d8a-43ea-a188-d80f0e885f19
 description: Элемент ContentType описывает тип MIME для содержимого вложения в многоцелевом формате.
-ms.openlocfilehash: 489df47343051623d5b6a98557f2bd434a5dad52
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cb326bb761ea28e0e9f77501bf754c7c1f0318fb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761803"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455228"
 ---
 # <a name="contenttype"></a>Контент
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761803"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19761803"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

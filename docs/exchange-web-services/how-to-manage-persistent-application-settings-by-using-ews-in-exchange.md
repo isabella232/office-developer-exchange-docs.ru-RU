@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90f561f2-e40e-4f5b-b321-f86dbf4a1b71
 description: Узнайте, как создавать, искать, получать, обновлять и удалять параметры сохраняемого приложения с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: ab5a9cc927bd0a6c4efacce622cc71db1a9b02a3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ab7b3ef5f87d8a26a412ca7187dc93c58d73112f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761044"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455732"
 ---
 # <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>Управление параметрами сохраняемого приложения с помощью EWS в Exchange
 
@@ -23,7 +23,7 @@ ms.locfileid: "19761044"
 
 ## <a name="create-an-application-setting-by-using-the-ews-managed-api"></a>Создание параметра приложения с помощью управляемого API EWS
 
-Для создания настраиваемого параметра конфигурации можно использовать метод [усерконфигуратион. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx) для управляемого API EWS. Объект конфигурации пользователя может содержать XML-файл, двоичный код, словарь данных или сочетание этих трех типов данных. В приведенном ниже примере показано, как сохранить объект конфигурации пользователя с именем Контосодрафтсеттингс, который содержит двоичные данные в папке "Черновики", с помощью управляемого API EWS. Это может быть полезно, если вы хотите хранить сведения о конфигурации для отображения элементов черновиков в клиентском приложении. 
+Для создания настраиваемого параметра конфигурации можно использовать метод [усерконфигуратион. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx) для управляемого API EWS. Объект конфигурации пользователя может содержать XML-файл, двоичный код, словарь данных или сочетание этих трех типов данных. В приведенном ниже примере показано, как сохранить объект конфигурации пользователя с именем Контосодрафтсеттингс, который содержит двоичные данные в папке "Черновики", с помощью управляемого API EWS. Это может быть полезно, если вы хотите хранить сведения о конфигурации для отображения элементов черновиков в клиентском приложении. 
   
 ```cs
 private static void CreateUserConfiguration(ExchangeService service, byte[] binaryData)
@@ -41,14 +41,14 @@ private static void CreateUserConfiguration(ExchangeService service, byte[] bina
 ## <a name="create-an-application-setting-by-using-ews"></a>Создание параметра приложения с помощью EWS
 <a name="bk_createEWS"> </a>
 
-Для создания настраиваемых параметров конфигурации можно использовать операцию [CreateUserConfiguration](http://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) EWS. В следующем примере показан XML-код запроса для создания объекта конфигурации пользователя с именем Контосодрафтсеттингс. Запрос пытается сохранить двоичный поток в объект конфигурации пользователя в папке "Черновики". Это тот же XML-код, который создается в примере управляемого API EWS. 
+Для создания настраиваемых параметров конфигурации можно использовать операцию [CreateUserConfiguration](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) EWS. В следующем примере показан XML-код запроса для создания объекта конфигурации пользователя с именем Контосодрафтсеттингс. Запрос пытается сохранить двоичный поток в объект конфигурации пользователя в папке "Черновики". Это тот же XML-код, который создается в примере управляемого API EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -65,12 +65,12 @@ private static void CreateUserConfiguration(ExchangeService service, byte[] bina
 </soap:Envelope>
 ```
 
-[ОТКЛИК XML](http://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) является простым и указывает, был ли запрос на создание успешным или возникла ошибка. 
+[ОТКЛИК XML](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) является простым и указывает, был ли запрос на создание успешным или возникла ошибка. 
   
 ## <a name="find-an-application-setting-by-using-the-ews-managed-api"></a>Поиск параметра приложения с помощью управляемого API EWS
 <a name="findconfiguration"> </a>
 
-Для поиска объектов конфигурации пользователя можно использовать метод Managed API [Folder. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) EWS с соответствующим параметром обхода. В приведенном ниже примере кода показано, как найти объекты конфигурации пользователя, хранящиеся в папке "Черновики", с помощью управляемого API EWS. 
+Для поиска объектов конфигурации пользователя можно использовать метод Managed API [Folder. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) EWS с соответствующим параметром обхода. В приведенном ниже примере кода показано, как найти объекты конфигурации пользователя, хранящиеся в папке "Черновики", с помощью управляемого API EWS. 
   
 ```cs
 private static void FindAssociated(ExchangeService service)
@@ -110,16 +110,16 @@ private static void FindAssociated(ExchangeService service)
 ## <a name="find-an-application-setting-by-using-ews"></a>Поиск параметров приложения с помощью EWS
 <a name="bk_findEWS"> </a>
 
-Для поиска объектов конфигурации пользователя можно использовать операцию [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS. 
+Для поиска объектов конфигурации пользователя можно использовать операцию [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS. 
   
 В следующем примере показан XML-код запроса для поиска объектов конфигурации пользователя. Это тот же XML-код, который создается в примере управляемого API EWS.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -146,26 +146,26 @@ private static void FindAssociated(ExchangeService service)
     
 - Два объекта конфигурации пользователя возвращаются в виде сообщений. Это связано с тем, что операция **FindItem** возвращает все элементы, не определенные в схеме EWS в виде элементов сообщения. 
     
-- Свойства [ItemClass](http://msdn.microsoft.com/library/56020078-50b4-4880-894a-a9f234033cfb%28Office.15%29.aspx) для двух объектов конфигурации пользователей отличаются. Первый объект конфигурации пользователя был создан с помощью EWS. Второй объект был создан другим API. 
+- Свойства [ItemClass](https://msdn.microsoft.com/library/56020078-50b4-4880-894a-a9f234033cfb%28Office.15%29.aspx) для двух объектов конфигурации пользователей отличаются. Первый объект конфигурации пользователя был создан с помощью EWS. Второй объект был создан другим API. 
     
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" 
                          MinorVersion="0" 
                          MajorBuildNumber="800" 
                          MinorBuildNumber="5" 
                          Version="V2_6" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -193,7 +193,7 @@ private static void FindAssociated(ExchangeService service)
 ## <a name="get-and-update-application-settings-by-using-the-ews-managed-api"></a>Получение и обновление параметров приложения с помощью управляемого API EWS
 <a name="getconfiguration"> </a>
 
-Найдя объект конфигурации пользователя, вы можете использовать метод управляемого API [усерконфигуратион. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) EWS, чтобы получить объект Configuration из почтового ящика. После получения объекта Configuration можно использовать метод [усерконфигуратион. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) , чтобы обновить его. В приведенном ниже примере показано, как получить и обновить объект конфигурации пользователя с помощью управляемого API EWS. 
+Найдя объект конфигурации пользователя, вы можете использовать метод управляемого API [усерконфигуратион. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) EWS, чтобы получить объект Configuration из почтового ящика. После получения объекта Configuration можно использовать метод [усерконфигуратион. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) , чтобы обновить его. В приведенном ниже примере показано, как получить и обновить объект конфигурации пользователя с помощью управляемого API EWS. 
   
 ```cs
 private static void GetAndUpdateUserConfiguration(ExchangeService service)
@@ -233,14 +233,14 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 ## <a name="get-and-update-application-settings-by-using-ews"></a>Получение и обновление параметров приложения с помощью EWS
 <a name="bk_getEWS"> </a>
 
-С помощью операции [GetUserConfiguration](http://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) EWS можно получить объект конфигурации из почтового ящика и [UpdateUserConfiguration](http://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) для обновления объекта. В следующем примере показан XML-код запроса для получения объекта конфигурации пользователя с именем Тестконфиг. Запрос утверждает, что все конфигурации должны быть возвращены в ответе. Это тот же XML-код, который создается в примере управляемого API EWS. 
+С помощью операции [GetUserConfiguration](https://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) EWS можно получить объект конфигурации из почтового ящика и [UpdateUserConfiguration](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) для обновления объекта. В следующем примере показан XML-код запроса для получения объекта конфигурации пользователя с именем Тестконфиг. Запрос утверждает, что все конфигурации должны быть возвращены в ответе. Это тот же XML-код, который создается в примере управляемого API EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -259,22 +259,22 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" 
                          MinorVersion="0" 
                          MajorBuildNumber="800" 
                          MinorBuildNumber="5" 
                          Version="V2_6" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -318,9 +318,9 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -368,12 +368,12 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 </soap:Envelope>
 ```
 
-[ОТКЛИК XML](http://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) является простым и указывает, было ли обновление успешным или произошла ошибка. 
+[ОТКЛИК XML](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) является простым и указывает, было ли обновление успешным или произошла ошибка. 
   
 ## <a name="delete-an-application-setting-by-using-the-ews-managed-api"></a>Удаление параметра приложения с помощью управляемого API EWS
 <a name="deleteconfiguration"> </a>
 
-Для удаления объектов конфигурации пользователя можно использовать метод [усерконфигуратион. Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) для управляемого API EWS. В приведенном ниже примере кода показано, как удалить объект конфигурации пользователя Контосодрафтсеттингс с помощью управляемого API EWS. 
+Для удаления объектов конфигурации пользователя можно использовать метод [усерконфигуратион. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) для управляемого API EWS. В приведенном ниже примере кода показано, как удалить объект конфигурации пользователя Контосодрафтсеттингс с помощью управляемого API EWS. 
   
 ```cs
 private static void DeleteUserConfiguration(ExchangeService service)
@@ -392,16 +392,16 @@ private static void DeleteUserConfiguration(ExchangeService service)
 ## <a name="delete-an-application-setting-by-using-ews"></a>Удаление параметра приложения с помощью EWS
 <a name="bk_deleteEWS"> </a>
 
-Для удаления объектов конфигурации пользователя можно использовать операцию [DeleteUserConfiguration](http://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) EWS. 
+Для удаления объектов конфигурации пользователя можно использовать операцию [DeleteUserConfiguration](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) EWS. 
   
 В следующем примере показан XML-код запроса для удаления объекта конфигурации пользователя с именем Контосодрафтсеттингс, который был применен к папке "Черновики". Это тот же XML-код, который создается в примере управляемого API EWS.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -415,7 +415,7 @@ private static void DeleteUserConfiguration(ExchangeService service)
 </soap:Envelope>
 ```
 
-[XML-код отклика](http://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) прост и указывает, был ли запрос на удаление успешным, или возникла ли ошибка. 
+[XML-код отклика](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) прост и указывает, был ли запрос на удаление успешным, или возникла ли ошибка. 
   
 ## <a name="see-also"></a>См. также
 

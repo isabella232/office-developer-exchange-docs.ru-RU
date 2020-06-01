@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 73cebc8c-770a-4f1b-b93e-51e7e2f3e342
 description: Элемент EwsUrl указывает URL-адрес лучшего экземпляра конечной точки для веб-служб Exchange (EWS) для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: c968b13a069cdc15803c1eb491244b4dc1aa422f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 295e65ddf14524a41c5cb714df78703dbf855a05
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762410"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454353"
 ---
 # <a name="ewsurl-pox"></a>EwsUrl (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762410"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

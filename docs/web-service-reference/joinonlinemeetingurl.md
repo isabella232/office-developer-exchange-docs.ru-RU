@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6a819bff-b6fc-4082-b311-179267ae8b4f
 description: Элемент Жоинонлинемитингурл указывает URL-адрес для присоединения к собранию по сети.
-ms.openlocfilehash: 642cfaccefc5342f705d9555377c7ec985c09f6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 57fb6c144d673f7e25b98e5450759f42312564a4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834187"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454129"
 ---
 # <a name="joinonlinemeetingurl"></a>жоинонлинемитингурл
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834187"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

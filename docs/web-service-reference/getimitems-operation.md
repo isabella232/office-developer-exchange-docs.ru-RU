@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 51186691-46d2-4d5c-b8bc-4ee2bb20fbe7
 description: Поиск сведений о GetImItemsной операции EWS.
-ms.openlocfilehash: 4335cc22b22dc5f102f2221f7fdb22a506ba026f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 960f4683dd478b0e5f8cf18fa8d1593b7433a249
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762817"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456047"
 ---
 # <a name="getimitems-operation"></a>Операция GetImItems
 
@@ -48,8 +48,8 @@ ms.locfileid: "19762817"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -97,18 +97,18 @@ ms.locfileid: "19762817"
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetImItemsResponse ResponseClass="Success" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <ImItemList>
-            <Groups xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Groups xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <ImGroup>
                   <DisplayName>Exchange SDK Team</DisplayName>
                   <GroupType>IPM.DistList.MOC.UserGroup</GroupType>
@@ -124,7 +124,7 @@ ms.locfileid: "19762817"
                   </ExtendedProperties>
                </ImGroup>
             </Groups>
-            <Personas xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Personas xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <Persona>
                   <PersonaId Id="AAQkADEzOTBZImBzN5J/uHXc="/>
                   <PersonaType>Person</PersonaType>

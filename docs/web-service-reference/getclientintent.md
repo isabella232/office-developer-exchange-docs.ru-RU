@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1601ad86-d391-449f-889b-50ecbd310dd5
 description: Элемент Жетклиентинтент предназначен только для внутреннего использования.
-ms.openlocfilehash: f7e5abfff60edc328b2d00576093b39e849438c3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3620511146f93a96d79a1427ab0903a8984fa500
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762717"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455641"
 ---
 # <a name="getclientintent"></a>жетклиентинтент
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762717"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19762717"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

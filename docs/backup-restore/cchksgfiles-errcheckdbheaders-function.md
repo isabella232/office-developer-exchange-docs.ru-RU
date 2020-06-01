@@ -12,12 +12,12 @@ api_type:
 - dllExport
 ms.assetid: 75289cd2-35b1-4f75-a651-dce01f1ddda1
 description: 'Дата последнего изменения: 22 февраля 2013 г.'
-ms.openlocfilehash: a407019063b34970e883a00ca4f4d730935d7cba
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a62c5940322d3d7a71f2db93214f1e970fc6859b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760926"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455249"
 ---
 # <a name="cchksgfileserrcheckdbheaders-function"></a>Функция функция cchksgfiles. Еррчеккдбхеадерс
 

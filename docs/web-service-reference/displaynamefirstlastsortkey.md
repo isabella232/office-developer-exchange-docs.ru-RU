@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 18f8c676-0fc0-49ff-9a90-5fd43e7e7e39
 description: Элемент Дисплайнамефирстластсорткэй содержит ключ сортировки для отображаемого имени в поле имя, последний порядк имен.
-ms.openlocfilehash: 24d31759964ad2a303ac38f33953f91edec9c5ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1cc0241f5e2d0b0d02bc14011e770c95bdc1d6e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762179"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456208"
 ---
 # <a name="displaynamefirstlastsortkey"></a>дисплайнамефирстластсорткэй
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762179"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762179"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

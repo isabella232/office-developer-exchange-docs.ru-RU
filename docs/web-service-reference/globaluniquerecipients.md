@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 67379c1c-85d9-4b11-8f17-ad9d24904788
 description: Элемент GlobalUniqueRecipients содержит список получателей беседы сводный в почтовый ящик.
-ms.openlocfilehash: 5eb6e60d3ece8d8369f4603e36ffaaf72a3e459d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3481c43b99f75a05a8e7fbe5a288e04708290d83
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833742"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456040"
 ---
 # <a name="globaluniquerecipients"></a>глобалуникуереЦипиентс
 
@@ -44,7 +44,7 @@ ms.locfileid: "19833742"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19833742"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -84,5 +84,5 @@ ms.locfileid: "19833742"
 [Операция ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

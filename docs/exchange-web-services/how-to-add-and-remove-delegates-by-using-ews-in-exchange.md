@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cc7760bf-633b-483a-84ae-b52f437af2d3
 description: Узнайте, как добавлять делегаты или удалять делегаты из почтовых ящиков пользователей с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: d55ef6c5c4e434603d293dbe30c6147ceb73b08b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9db0171db51c0847d54bbcec7e28937eaed18d43
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760970"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455340"
 ---
 # <a name="add-and-remove-delegates-by-using-ews-in-exchange"></a>Добавление и удаление делегатов с помощью EWS в Exchange
 
@@ -23,8 +23,8 @@ ms.locfileid: "19760970"
 
 |**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Добавление делегатов  <br/> |[ExchangeService. Аддделегатес](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) <br/> |[AddDelegate](http://msdn.microsoft.com/library/646fb994-229e-4d90-8b95-6541191cb3ae%28Office.15%29.aspx) <br/> |
-|Удаление делегатов  <br/> |[ExchangeService. Ремоведелегатес](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) <br/> |[RemoveDelegate](http://msdn.microsoft.com/library/f21c5171-62e7-47c8-99b1-22e1ff5883bb%28Office.15%29.aspx) <br/> |
+|Добавление делегатов  <br/> |[ExchangeService. Аддделегатес](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) <br/> |[AddDelegate](https://msdn.microsoft.com/library/646fb994-229e-4d90-8b95-6541191cb3ae%28Office.15%29.aspx) <br/> |
+|Удаление делегатов  <br/> |[ExchangeService. Ремоведелегатес](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) <br/> |[RemoveDelegate](https://msdn.microsoft.com/library/f21c5171-62e7-47c8-99b1-22e1ff5883bb%28Office.15%29.aspx) <br/> |
    
 После предоставления представителю разрешений на доступ к папке они могут работать над элементами в папке и во всех вложенных папках в соответствии с [разрешениями делегата](delegate-access-and-ews-in-exchange.md#bk_delegateperms). Разрешения для делегатов применяются только к подпапкам, созданным после предоставления доступа представителя. Чтобы обновить разрешения папки для уже существующих папок или других папок, ознакомьтесь с [разрешениями задание разрешений для папки для другого пользователя с помощью EWS в Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
   
@@ -34,9 +34,9 @@ ms.locfileid: "19760970"
 
 ## <a name="add-delegates-by-using-the-ews-managed-api"></a>Добавление делегатов с помощью управляемого API EWS
 
-Вы можете добавлять делегаты в почтовый ящик с помощью метода управляемого API [аддделегатес](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) EWS. В этом примере создается новый календарь, Контактное лицо и объект электронной почты [делегатеусер](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegateuser%28v=exchg.80%29.aspx) , и каждому представителю предоставляются [разрешения редактора](delegate-access-and-ews-in-exchange.md#bk_delegateperms) для соответствующей папки. Вы можете изменить этот пример, чтобы добавить делегата в любую папку, указанную в [свойствах делегатепермиссионс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegatepermissions_properties%28v=exchg.80%29.aspx), а также задать разрешения для любого значения, указанного в перечислении [делегатефолдерпермиссионлевел](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) . 
+Вы можете добавлять делегаты в почтовый ящик с помощью метода управляемого API [аддделегатес](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) EWS. В этом примере создается новый календарь, Контактное лицо и объект электронной почты [делегатеусер](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegateuser%28v=exchg.80%29.aspx) , и каждому представителю предоставляются [разрешения редактора](delegate-access-and-ews-in-exchange.md#bk_delegateperms) для соответствующей папки. Вы можете изменить этот пример, чтобы добавить делегата в любую папку, указанную в [свойствах делегатепермиссионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatepermissions_properties%28v=exchg.80%29.aspx), а также задать разрешения для любого значения, указанного в перечислении [делегатефолдерпермиссионлевел](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) . 
   
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь прошел проверку подлинности на сервере Exchange. 
   
 ```cs
 public static Collection<DelegateUserResponse> AddDelegates(ExchangeService service)
@@ -81,16 +81,16 @@ public static Collection<DelegateUserResponse> AddDelegates(ExchangeService serv
 
 ## <a name="add-delegates-by-using-ews"></a>Добавление делегатов с помощью EWS
 
-В приведенном ниже примере кода показано, как добавить отдельные делегаты календаря, контакта и электронной почты с помощью операции [AddDelegate](http://msdn.microsoft.com/library/012d8cc5-648c-4ba0-a155-15c422b1e994%28Office.15%29.aspx) EWS. Почтовые ящики, которые требуется изменить, задаются элементом [Mailbox](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) , а параметры [разрешений](delegate-access-and-ews-in-exchange.md#bk_delegateperms) для каждого делегата хранятся в элементе [делегатеусер](http://msdn.microsoft.com/library/aac4e74e-f69b-4c41-a0c9-489610330fbf%28Office.15%29.aspx) . Каждому представителю были предоставлены разрешения редактора для целевой папки. 
+В приведенном ниже примере кода показано, как добавить отдельные делегаты календаря, контакта и электронной почты с помощью операции [AddDelegate](https://msdn.microsoft.com/library/012d8cc5-648c-4ba0-a155-15c422b1e994%28Office.15%29.aspx) EWS. Почтовые ящики, которые требуется изменить, задаются элементом [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) , а параметры [разрешений](delegate-access-and-ews-in-exchange.md#bk_delegateperms) для каждого делегата хранятся в элементе [делегатеусер](https://msdn.microsoft.com/library/aac4e74e-f69b-4c41-a0c9-489610330fbf%28Office.15%29.aspx) . Каждому представителю были предоставлены разрешения редактора для целевой папки. 
   
 Это также запрос XML, который отправляет управляемый API EWS при использовании метода **аддделегатес** для [добавления делегатов](#bk_adddelegateewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -152,27 +152,27 @@ public static Collection<DelegateUserResponse> AddDelegates(ExchangeService serv
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **AddDelegate** с сообщением [аддделегатереспонсе](http://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает, что делегаты успешно созданы.
+Сервер отвечает на запрос **AddDelegate** с сообщением [аддделегатереспонсе](https://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает, что делегаты успешно созданы.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="888"
                          MinorBuildNumber="9"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <m:AddDelegateResponse ResponseClass="Success"
-                           xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+                           xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Success">
@@ -221,9 +221,9 @@ public static Collection<DelegateUserResponse> AddDelegates(ExchangeService serv
 
 ## <a name="remove-delegates-by-using-the-ews-managed-api"></a>Удаление делегатов с помощью управляемого API EWS
 
-Вы можете удалить делегатов из целевого почтового ящика с помощью метода [ExchangeService. ремоведелегатес](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) EWS Managed API. В этом примере удаляются разрешения делегатов, заданные в [примере Add a Delegate](#bk_adddelegateewsma) . 
+Вы можете удалить делегатов из целевого почтового ящика с помощью метода [ExchangeService. ремоведелегатес](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) EWS Managed API. В этом примере удаляются разрешения делегатов, заданные в [примере Add a Delegate](#bk_adddelegateewsma) . 
   
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь прошел проверку подлинности на сервере Exchange. 
   
 ```cs
 public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService service)
@@ -255,16 +255,16 @@ public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService s
 
 ## <a name="remove-delegates-by-using-ews"></a>Удаление делегатов с помощью EWS
 
-Вы можете удалить делегатов из почтового ящика с помощью операции [RemoveDelegate](http://msdn.microsoft.com/library/1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a%28Office.15%29.aspx) EWS. В этом примере удаляются разрешения делегатов, заданные в [примере Add a Delegate](#bk_adddelegateews) . 
+Вы можете удалить делегатов из почтового ящика с помощью операции [RemoveDelegate](https://msdn.microsoft.com/library/1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a%28Office.15%29.aspx) EWS. В этом примере удаляются разрешения делегатов, заданные в [примере Add a Delegate](#bk_adddelegateews) . 
   
 Это также запрос XML, который отправляет управляемый API EWS при использовании метода **ремоведелегатес** для [удаления делегатов](#bk_removedelegateewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -289,7 +289,7 @@ public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService s
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **RemoveDelegate** с сообщением [аддделегатереспонсе](http://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает на то, что делегаты были успешно удалены.
+Сервер отвечает на запрос **RemoveDelegate** с сообщением [аддделегатереспонсе](https://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает на то, что делегаты были успешно удалены.
 
 <a name="bk_nextsteps"> </a>
 
@@ -308,8 +308,8 @@ public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService s
 ## <a name="see-also"></a>См. также
 
 - [Передача прав доступа и EWS в Exchange](delegate-access-and-ews-in-exchange.md)
-- [Exchange 2013: Программное добавление делегатов в учетную запись электронной почты](http://code.msdn.microsoft.com/exchange/Exchange-2013-Adding-1024511f)   
-- [Exchange 2013: программное обновление делегатов, связанных с учетными записями электронной почты](http://code.msdn.microsoft.com/exchange/Exchange-2013-Update-b40d3bac)   
-- [Exchange 2013: Программное удаление делегатов, связанных с учетными записями электронной почты](http://code.msdn.microsoft.com/exchange/Exchange-2013-Remove-686f7714)
+- [Exchange 2013: Программное добавление делегатов в учетную запись электронной почты](https://code.msdn.microsoft.com/exchange/Exchange-2013-Adding-1024511f)   
+- [Exchange 2013: программное обновление делегатов, связанных с учетными записями электронной почты](https://code.msdn.microsoft.com/exchange/Exchange-2013-Update-b40d3bac)   
+- [Exchange 2013: Программное удаление делегатов, связанных с учетными записями электронной почты](https://code.msdn.microsoft.com/exchange/Exchange-2013-Remove-686f7714)
     
 

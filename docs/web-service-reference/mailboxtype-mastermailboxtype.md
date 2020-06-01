@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6deb44aa-080d-4643-9cc9-4846849423be
 description: Элемент MailboxType (Мастермаилбокстипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: aff5ffe5fcd45716c56c1ffd130785d73f66ce9d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b8816c1a17b8ea6fea7a04fbf960e6a6806e631c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834304"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455368"
 ---
 # <a name="mailboxtype-mastermailboxtype"></a>MailboxType (Мастермаилбокстипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19834304"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

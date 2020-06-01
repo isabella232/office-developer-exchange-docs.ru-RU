@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e31d14e1-0c1f-4b69-98b7-157d59c13698
 description: Поиск сведений о GetImItemListной операции EWS.
-ms.openlocfilehash: 3977b0ad31e819cd973ce261ba3152b3840003b3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: aabe84054b93e7de8af6145942493a0224932e45
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762816"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456068"
 ---
 # <a name="getimitemlist-operation"></a>Операция GetImItemList
 
@@ -43,8 +43,8 @@ ms.locfileid: "19762816"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -76,18 +76,18 @@ ms.locfileid: "19762816"
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" />
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" />
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetImItemListResponse ResponseClass="Success" 
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <ImItemList>
-            <Groups xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Groups xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <ImGroup>
                   <DisplayName>Other Contacts</DisplayName>
                   <GroupType>IPM.DistList.MOC.OtherContacts</GroupType>
@@ -123,7 +123,7 @@ ms.locfileid: "19762816"
                   </MemberCorrelationKey>
                </ImGroup>
             </Groups>
-            <Personas xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Personas xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <Persona>
                   <PersonaId Id="AAQkAGQ1MjJjMTBkLTc4YkZmRkYQAQAFgxE1nBcqRGgYWWorM9/+s=" />
                   <PersonaType>Person</PersonaType>
@@ -447,11 +447,11 @@ ms.locfileid: "19762816"
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
    <s:Body>
       <s:Fault>
-         <faultcode xmlns:a="http://schemas.microsoft.com/exchange/services/2006/types">a:ErrorIncorrectSchemaVersion</faultcode>
+         <faultcode xmlns:a="https://schemas.microsoft.com/exchange/services/2006/types">a:ErrorIncorrectSchemaVersion</faultcode>
          <faultstring xml:lang="en-US">The request is valid but does not specify the correct server version in the RequestServerVersion SOAP header.  Ensure that the RequestServerVersion SOAP header is set with the correct RequestServerVersionValue.</faultstring>
          <detail>
-            <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorIncorrectSchemaVersion</e:ResponseCode>
-            <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The request is valid but does not specify the correct server version in the RequestServerVersion SOAP header.  Ensure that the RequestServerVersion SOAP header is set with the correct RequestServerVersionValue.</e:Message>
+            <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorIncorrectSchemaVersion</e:ResponseCode>
+            <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The request is valid but does not specify the correct server version in the RequestServerVersion SOAP header.  Ensure that the RequestServerVersion SOAP header is set with the correct RequestServerVersionValue.</e:Message>
          </detail>
       </s:Fault>
    </s:Body>
@@ -462,7 +462,7 @@ ms.locfileid: "19762816"
 
 - [Операция AddImGroup](addimgroup-operation.md)
     
-- [Пользователи и контакты в EWS для Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [Пользователи и контакты в EWS для Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
 - [Операция GetImItems](getimitems-operation.md)
     

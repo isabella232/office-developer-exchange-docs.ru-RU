@@ -12,12 +12,12 @@ api_type:
 - dllExport
 ms.assetid: 588d8c74-c9ce-4d5e-8a79-a2a68676e858
 description: 'Дата последнего изменения: 22 февраля 2013 г.'
-ms.openlocfilehash: b40f8b1a95477715b29defb4addabfb333e92d04
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d18d3ef20890012a1d8c193ec87bdca10a1ed451
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760914"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455235"
 ---
 # <a name="cchksgfilesnew-function"></a>Функция функция cchksgfiles. New
 

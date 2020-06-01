@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1f7837e7-9eff-4e10-9577-c40f7ed6af94
 description: Операция ExpandDL предоставляет полное членство в списках рассылки.
-ms.openlocfilehash: 4af6198ff15407b7fb71cdb4010ff6ce035460d0
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 8edaf057538e2c1136465f0ff7937c14477b2c47
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353744"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454052"
 ---
 # <a name="expanddl-operation"></a>Операция ExpandDL
 
@@ -66,7 +66,7 @@ ms.locfileid: "21353744"
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>
@@ -80,7 +80,7 @@ ms.locfileid: "21353744"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Чтобы развернуть частный список рассылки, элемент [Mailbox](mailbox.md) будет содержать элемент [ItemId](itemid.md) , определяющий частный список рассылки в почтовом ящике пользователя. 
   
@@ -95,10 +95,10 @@ ms.locfileid: "21353744"
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <ExpandDL xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
         <t:Mailbox>
           <t:EmailAddress>TheDistributionList</t:EmailAddress>
         </t:Mailbox>
@@ -107,7 +107,7 @@ ms.locfileid: "21353744"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Ответ на этот запрос будет содержать элементы **почтовых ящиков** , которые определяют каждый почтовый ящик в списке рассылки. Если список рассылки находится в списке рассылки, для внедренного списка рассылки должно выполняться отдельное расширение списка рассылки. Если в списке рассылки нет участников или запрошенный список рассылки не существует, атрибут **респонсекласс** будет содержать значение Success. 
   
@@ -155,12 +155,12 @@ ms.locfileid: "21353744"
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ExpandDLResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ExpandDLResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ExpandDLResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -235,12 +235,12 @@ ms.locfileid: "21353744"
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ExpandDLResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ExpandDLResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ExpandDLResponseMessage ResponseClass="Error">
           <m:MessageText>No results are found.</m:MessageText>

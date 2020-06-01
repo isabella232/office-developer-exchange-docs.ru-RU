@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 11ebe618-d759-4f16-be99-eaaa817ba782
 description: Элемент Дисаблеаппреспонсе указывает ответ на запрос DisableApp.
-ms.openlocfilehash: 740801fa4b60e217f0b9148bcfcc5b206e96bf31
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cc28abf644247339e1226cd0e13824cc5f5669be
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762123"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455648"
 ---
 # <a name="disableappresponse"></a>дисаблеаппреспонсе
 
@@ -35,7 +35,7 @@ ms.locfileid: "19762123"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19762123"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

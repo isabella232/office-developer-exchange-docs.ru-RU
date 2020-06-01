@@ -12,12 +12,12 @@ api_type:
 - dllExport
 ms.assetid: 5871988b-a5d7-42cc-9b83-8fededb5072f
 description: 'Дата последнего изменения: 22 февраля 2013 г.'
-ms.openlocfilehash: bf09074bab6dee13e97e8a59a22ae1b19522a5e5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b7c3517779eb07ef053c1dd4fa25544310fb3343
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761882"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455263"
 ---
 # <a name="cchksgfilescmaxdbpersg-function"></a>Функция функция cchksgfiles. Кмаксдбперсг
 

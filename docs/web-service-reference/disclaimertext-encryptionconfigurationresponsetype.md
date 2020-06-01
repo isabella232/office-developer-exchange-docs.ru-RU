@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6180d74d-533a-4e5c-b4c1-6a1ac394bd4d
 description: Элемент DisclaimerText (Енкриптионконфигуратионреспонсетипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: 0bb8ecce8396abdfb9ab4d76146856267c0810cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1ef078c3fbe07b56dcffdbc20c66d4ece46a30c2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762129"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455634"
 ---
 # <a name="disclaimertext-encryptionconfigurationresponsetype"></a>DisclaimerText (Енкриптионконфигуратионреспонсетипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19762129"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
