@@ -11,61 +11,61 @@ api_type:
 - schema
 ms.assetid: fbe6cd95-f7a5-42b9-8a9d-b6159a269d55
 description: Операция IsUMEnabled определяет, включен ли для почтового ящика единая система обмена сообщениями.
-ms.openlocfilehash: 9d94a359d6b11e41762d21aa2fe5501bd9f7b577
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b1478f5a113059251fe1b036ac7d77e5a4ab4f50
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834107"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458238"
 ---
-# <a name="isumenabled-operation-um-web-service"></a><span data-ttu-id="5a878-103">Операция IsUMEnabled (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="5a878-103">IsUMEnabled operation (UM web service)</span></span>
+# <a name="isumenabled-operation-um-web-service"></a><span data-ttu-id="d974b-103">Операция IsUMEnabled (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="d974b-103">IsUMEnabled operation (UM web service)</span></span>
 
-<span data-ttu-id="5a878-104">Операция IsUMEnabled определяет, включен ли для почтового ящика единая система обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="5a878-104">The IsUMEnabled operation determines whether a mailbox is enabled for Unified Messaging.</span></span>
+<span data-ttu-id="d974b-104">Операция IsUMEnabled определяет, включен ли для почтового ящика единая система обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="d974b-104">The IsUMEnabled operation determines whether a mailbox is enabled for Unified Messaging.</span></span>
   
-## <a name="isumenabled-request-example"></a><span data-ttu-id="5a878-105">Пример запроса IsUMEnabled</span><span class="sxs-lookup"><span data-stu-id="5a878-105">IsUMEnabled request example</span></span>
+## <a name="isumenabled-request-example"></a><span data-ttu-id="d974b-105">Пример запроса IsUMEnabled</span><span class="sxs-lookup"><span data-stu-id="d974b-105">IsUMEnabled request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="5a878-106">Описание</span><span class="sxs-lookup"><span data-stu-id="5a878-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d974b-106">Описание</span><span class="sxs-lookup"><span data-stu-id="d974b-106">Description</span></span>
 
-<span data-ttu-id="5a878-107">В приведенном ниже примере запроса IsUMEnabled показано, как сформировать запрос, чтобы определить, включен ли для почтового ящика единая система обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="5a878-107">The following example of an IsUMEnabled request shows how to form a request to determine whether a mailbox is enabled for Unified Messaging.</span></span>
+<span data-ttu-id="d974b-107">В приведенном ниже примере запроса IsUMEnabled показано, как сформировать запрос, чтобы определить, включен ли для почтового ящика единая система обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="d974b-107">The following example of an IsUMEnabled request shows how to form a request to determine whether a mailbox is enabled for Unified Messaging.</span></span>
   
-### <a name="code"></a><span data-ttu-id="5a878-108">Код</span><span class="sxs-lookup"><span data-stu-id="5a878-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d974b-108">Код</span><span class="sxs-lookup"><span data-stu-id="d974b-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <IsUMEnabled xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <IsUMEnabled xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
 
-## <a name="successful-isumenabled-response-example"></a><span data-ttu-id="5a878-109">Пример успешного ответа IsUMEnabled</span><span class="sxs-lookup"><span data-stu-id="5a878-109">Successful IsUMEnabled response example</span></span>
+## <a name="successful-isumenabled-response-example"></a><span data-ttu-id="d974b-109">Пример успешного ответа IsUMEnabled</span><span class="sxs-lookup"><span data-stu-id="d974b-109">Successful IsUMEnabled response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="5a878-110">Описание</span><span class="sxs-lookup"><span data-stu-id="5a878-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="d974b-110">Описание</span><span class="sxs-lookup"><span data-stu-id="d974b-110">Description</span></span>
 
-<span data-ttu-id="5a878-111">В следующем примере показан успешный ответ на запрос IsUMEnabled.</span><span class="sxs-lookup"><span data-stu-id="5a878-111">The following example shows a successful response to an IsUMEnabled request.</span></span>
+<span data-ttu-id="d974b-111">В следующем примере показан успешный ответ на запрос IsUMEnabled.</span><span class="sxs-lookup"><span data-stu-id="d974b-111">The following example shows a successful response to an IsUMEnabled request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="5a878-112">Код</span><span class="sxs-lookup"><span data-stu-id="5a878-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="d974b-112">Код</span><span class="sxs-lookup"><span data-stu-id="d974b-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <IsUMEnabledResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <IsUMEnabledResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <IsUMEnabledResponse>true</IsUMEnabledResponse> 
     </IsUMEnabledResponse>
   </soap:Body>
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="5a878-113">См. также</span><span class="sxs-lookup"><span data-stu-id="5a878-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d974b-113">См. также</span><span class="sxs-lookup"><span data-stu-id="d974b-113">See also</span></span>
 
 
 
-[<span data-ttu-id="5a878-114">IsUMEnabled (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="5a878-114">IsUMEnabled (UM web service)</span></span>](isumenabled-um-web-service.md)
+[<span data-ttu-id="d974b-114">IsUMEnabled (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="d974b-114">IsUMEnabled (UM web service)</span></span>](isumenabled-um-web-service.md)
   
-[<span data-ttu-id="5a878-115">Исуменабледреспонсе (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="5a878-115">IsUMEnabledResponse (UM web service)</span></span>](isumenabledresponse-um-web-service.md)
+[<span data-ttu-id="d974b-115">Исуменабледреспонсе (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="d974b-115">IsUMEnabledResponse (UM web service)</span></span>](isumenabledresponse-um-web-service.md)
 
 
-[<span data-ttu-id="5a878-116">XML-элементы веб-службы единой системы обмена сообщениями для Exchange</span><span class="sxs-lookup"><span data-stu-id="5a878-116">Unified Messaging web service XML elements for Exchange</span></span>](unified-messaging-web-service-xml-elements-for-exchange.md)
+[<span data-ttu-id="d974b-116">XML-элементы веб-службы единой системы обмена сообщениями для Exchange</span><span class="sxs-lookup"><span data-stu-id="d974b-116">Unified Messaging web service XML elements for Exchange</span></span>](unified-messaging-web-service-xml-elements-for-exchange.md)
 

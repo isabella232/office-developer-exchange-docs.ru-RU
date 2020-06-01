@@ -12,60 +12,60 @@ api_type:
 - schema
 ms.assetid: bd0e82da-7391-4ba3-acb4-31d3517d51d0
 description: Элемент Екстерналмемберкаунт представляет количество внешних элементов в группе.
-ms.openlocfilehash: 8848a455f7562c893a0ef4bb7c92c273699ce31c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a01c28a009328e163e151bbf540e8298d27d998b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762509"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456922"
 ---
-# <a name="externalmembercount"></a><span data-ttu-id="169d7-103">екстерналмемберкаунт</span><span class="sxs-lookup"><span data-stu-id="169d7-103">ExternalMemberCount</span></span>
+# <a name="externalmembercount"></a><span data-ttu-id="90246-103">екстерналмемберкаунт</span><span class="sxs-lookup"><span data-stu-id="90246-103">ExternalMemberCount</span></span>
 
-<span data-ttu-id="169d7-104">Элемент **екстерналмемберкаунт** представляет количество внешних элементов в группе.</span><span class="sxs-lookup"><span data-stu-id="169d7-104">The **ExternalMemberCount** element represents the count of external members in a group.</span></span> 
+<span data-ttu-id="90246-104">Элемент **екстерналмемберкаунт** представляет количество внешних элементов в группе.</span><span class="sxs-lookup"><span data-stu-id="90246-104">The **ExternalMemberCount** element represents the count of external members in a group.</span></span> 
   
 ```XML
 <ExternalMemberCount/>
 ```
 
- <span data-ttu-id="169d7-105">**int**</span><span class="sxs-lookup"><span data-stu-id="169d7-105">**int**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="169d7-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="169d7-106">Attributes and elements</span></span>
+ <span data-ttu-id="90246-105">**int**</span><span class="sxs-lookup"><span data-stu-id="90246-105">**int**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="90246-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="90246-106">Attributes and elements</span></span>
 
-<span data-ttu-id="169d7-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="169d7-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="90246-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="90246-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="169d7-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="169d7-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="90246-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="90246-108">Attributes</span></span>
 
-<span data-ttu-id="169d7-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="169d7-109">None.</span></span>
+<span data-ttu-id="90246-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="90246-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="169d7-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="169d7-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="90246-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="90246-110">Child elements</span></span>
 
-<span data-ttu-id="169d7-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="169d7-111">None.</span></span>
+<span data-ttu-id="90246-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="90246-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="169d7-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="169d7-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="90246-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="90246-112">Parent elements</span></span>
 
-|<span data-ttu-id="169d7-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="169d7-113">**Element**</span></span>|<span data-ttu-id="169d7-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="169d7-114">**Description**</span></span>|
+|<span data-ttu-id="90246-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="90246-113">**Element**</span></span>|<span data-ttu-id="90246-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="90246-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="169d7-115">Подсказки</span><span class="sxs-lookup"><span data-stu-id="169d7-115">MailTips</span></span>](mailtips.md) <br/> |<span data-ttu-id="169d7-116">Представляет значения для различных типов советов по использованию электронной почты.</span><span class="sxs-lookup"><span data-stu-id="169d7-116">Represents values for various types of mail tips.</span></span>  <br/> |
+|[<span data-ttu-id="90246-115">Подсказки</span><span class="sxs-lookup"><span data-stu-id="90246-115">MailTips</span></span>](mailtips.md) <br/> |<span data-ttu-id="90246-116">Представляет значения для различных типов советов по использованию электронной почты.</span><span class="sxs-lookup"><span data-stu-id="90246-116">Represents values for various types of mail tips.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="169d7-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="169d7-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="90246-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="90246-117">Text value</span></span>
 
-<span data-ttu-id="169d7-118">Текстовое значение — это целое число, представляющее число внешних элементов в группе.</span><span class="sxs-lookup"><span data-stu-id="169d7-118">The text value is an integer that represents the number of external members in a group.</span></span>
+<span data-ttu-id="90246-118">Текстовое значение — это целое число, представляющее число внешних элементов в группе.</span><span class="sxs-lookup"><span data-stu-id="90246-118">The text value is an integer that represents the number of external members in a group.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="169d7-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="169d7-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="90246-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="90246-119">Remarks</span></span>
 
-<span data-ttu-id="169d7-120">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="169d7-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="90246-120">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="90246-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="169d7-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="169d7-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="90246-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="90246-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="169d7-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="169d7-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="169d7-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="169d7-123">Schema Name</span></span>  <br/> |<span data-ttu-id="169d7-124">Схема Types</span><span class="sxs-lookup"><span data-stu-id="169d7-124">Types schema</span></span>  <br/> |
-|<span data-ttu-id="169d7-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="169d7-125">Validation File</span></span>  <br/> |<span data-ttu-id="169d7-126">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="169d7-126">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="169d7-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="169d7-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="169d7-128">False</span><span class="sxs-lookup"><span data-stu-id="169d7-128">False</span></span>  <br/> |
+|<span data-ttu-id="90246-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="90246-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="90246-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="90246-123">Schema Name</span></span>  <br/> |<span data-ttu-id="90246-124">Схема Types</span><span class="sxs-lookup"><span data-stu-id="90246-124">Types schema</span></span>  <br/> |
+|<span data-ttu-id="90246-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="90246-125">Validation File</span></span>  <br/> |<span data-ttu-id="90246-126">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="90246-126">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="90246-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="90246-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="90246-128">False</span><span class="sxs-lookup"><span data-stu-id="90246-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="169d7-129">См. также</span><span class="sxs-lookup"><span data-stu-id="169d7-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="90246-129">См. также</span><span class="sxs-lookup"><span data-stu-id="90246-129">See also</span></span>
 
 
 
-- [<span data-ttu-id="169d7-130">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="169d7-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="90246-130">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="90246-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

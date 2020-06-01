@@ -12,30 +12,30 @@ api_type:
 - schema
 ms.assetid: 71d50e3c-92bd-435f-8118-b28bb85f8138
 description: Операция GetUserConfiguration получает объект конфигурации пользователя из папки.
-ms.openlocfilehash: 6c1cdf381126e54f9b9eeaed260e7c2b23b0b2a6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fb28e88d1a47b0ea8f63ed33b1efacae8538e1c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833687"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458210"
 ---
-# <a name="getuserconfiguration-operation"></a><span data-ttu-id="19e6a-103">Операция GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="19e6a-103">GetUserConfiguration operation</span></span>
+# <a name="getuserconfiguration-operation"></a><span data-ttu-id="652b2-103">Операция GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="652b2-103">GetUserConfiguration operation</span></span>
 
-<span data-ttu-id="19e6a-104">Операция **GetUserConfiguration** получает объект конфигурации пользователя из папки.</span><span class="sxs-lookup"><span data-stu-id="19e6a-104">The **GetUserConfiguration** operation gets a user configuration object from a folder.</span></span> 
+<span data-ttu-id="652b2-104">Операция **GetUserConfiguration** получает объект конфигурации пользователя из папки.</span><span class="sxs-lookup"><span data-stu-id="652b2-104">The **GetUserConfiguration** operation gets a user configuration object from a folder.</span></span> 
   
-## <a name="getuserconfiguration-request-example"></a><span data-ttu-id="19e6a-105">Пример запроса GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="19e6a-105">GetUserConfiguration request example</span></span>
+## <a name="getuserconfiguration-request-example"></a><span data-ttu-id="652b2-105">Пример запроса GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="652b2-105">GetUserConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="19e6a-106">Описание</span><span class="sxs-lookup"><span data-stu-id="19e6a-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="652b2-106">Описание</span><span class="sxs-lookup"><span data-stu-id="652b2-106">Description</span></span>
 
-<span data-ttu-id="19e6a-107">В приведенном ниже примере запроса **GetUserConfiguration** показано, как сформировать запрос на получение объекта конфигурации пользователя в папке "Черновики".</span><span class="sxs-lookup"><span data-stu-id="19e6a-107">The following example of a **GetUserConfiguration** request shows how to form a request to get a user configuration object on the Drafts folder.</span></span> 
+<span data-ttu-id="652b2-107">В приведенном ниже примере запроса **GetUserConfiguration** показано, как сформировать запрос на получение объекта конфигурации пользователя в папке "Черновики".</span><span class="sxs-lookup"><span data-stu-id="652b2-107">The following example of a **GetUserConfiguration** request shows how to form a request to get a user configuration object on the Drafts folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="19e6a-108">Код</span><span class="sxs-lookup"><span data-stu-id="19e6a-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="652b2-108">Код</span><span class="sxs-lookup"><span data-stu-id="652b2-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -52,13 +52,13 @@ ms.locfileid: "19833687"
 </soap:Envelope>
 ```
 
-## <a name="getuserconfiguration-response-example"></a><span data-ttu-id="19e6a-109">Пример отклика GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="19e6a-109">GetUserConfiguration response example</span></span>
+## <a name="getuserconfiguration-response-example"></a><span data-ttu-id="652b2-109">Пример отклика GetUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="652b2-109">GetUserConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="19e6a-110">Описание</span><span class="sxs-lookup"><span data-stu-id="19e6a-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="652b2-110">Описание</span><span class="sxs-lookup"><span data-stu-id="652b2-110">Description</span></span>
 
-<span data-ttu-id="19e6a-111">В следующем примере показан успешный ответ на запрос **GetUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="19e6a-111">The following example shows a successful response to the **GetUserConfiguration** request.</span></span> 
+<span data-ttu-id="652b2-111">В следующем примере показан успешный ответ на запрос **GetUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="652b2-111">The following example shows a successful response to the **GetUserConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="19e6a-112">Код</span><span class="sxs-lookup"><span data-stu-id="19e6a-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="652b2-112">Код</span><span class="sxs-lookup"><span data-stu-id="652b2-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -69,15 +69,15 @@ ms.locfileid: "19833687"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -106,11 +106,11 @@ ms.locfileid: "19833687"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="19e6a-113">См. также</span><span class="sxs-lookup"><span data-stu-id="19e6a-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="652b2-113">См. также</span><span class="sxs-lookup"><span data-stu-id="652b2-113">See also</span></span>
 
 
 
-[<span data-ttu-id="19e6a-114">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="19e6a-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="652b2-114">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="652b2-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="19e6a-115">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="19e6a-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="652b2-115">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="652b2-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
