@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 00ef4a84-76d2-4669-b597-f52abbbc34f5
 description: Элемент RedirectToRecipients указывает адреса электронной почты, к которым должны перенаправляться сообщения.
-ms.openlocfilehash: ca0422f2ca678cabe1a88f99e617bee691f2e2f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ebc0e0abe88d1e364dee94cc24313879458778d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835024"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462194"
 ---
 # <a name="redirecttorecipients"></a>RedirectToRecipients
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835024"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19835024"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

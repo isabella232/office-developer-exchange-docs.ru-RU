@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 71cae100-b68e-454b-b9b6-ddbcb4d78f3f
 description: Элемент Филеасидс указывает массив элементов Стрингаттрибутедвалуе и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 52c2c6caea81922f715b40a483f94af5ba44d5e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ecdf30fac345834600439227709504b0d56b988b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762540"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461046"
 ---
 # <a name="fileasids"></a>филеасидс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762540"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762540"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

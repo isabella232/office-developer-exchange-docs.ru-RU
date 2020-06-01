@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c7df1333-a33d-4cc6-a08a-34b68843f47d
 description: Элемент When предоставляет сведения о том, когда встречается элемент "Календарь" или "собрание".
-ms.openlocfilehash: 519712ed10958cf556c8fb29372326ade3c31c90
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7c5f85184f966d909960bf1d79f5b8d33c67b51a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840516"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461858"
 ---
 # <a name="when"></a>Когда
 
@@ -34,11 +34,11 @@ ms.locfileid: "19840516"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19840516"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

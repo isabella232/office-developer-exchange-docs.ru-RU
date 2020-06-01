@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 74d97d4a-e452-4d2e-9cd2-89e93d766fb0
 description: Элемент Осерфаксес указывает массив значений номера факса, а также идентификаторы их исходных атрибутов для соответствующего пользователя.
-ms.openlocfilehash: 74c275c2177a6d544ad8a3fd7ef310e484a18fdd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1298f5c8d20447b31a9800be5b960a5bd96fb44b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834672"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462362"
 ---
 # <a name="otherfaxes"></a>осерфаксес
 
@@ -33,7 +33,7 @@ ms.locfileid: "19834672"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834672"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

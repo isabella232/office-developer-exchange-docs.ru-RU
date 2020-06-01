@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 24d10a15-b942-415e-9024-a6375708f326
 description: Операция GetAttachment используется для получения существующих вложений на элементы в хранилище Exchange.
-ms.openlocfilehash: c260033208bf49c60463c09041d8ffcc52a8f5c2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ac7eafd61c62b077a8d20e5fd8d004924bf06cf1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762701"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461291"
 ---
 # <a name="getattachment-operation"></a>Операция GetAttachment
 
@@ -36,10 +36,10 @@ ms.locfileid: "19762701"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentShape/>
       <AttachmentIds>
         <t:AttachmentId Id="AAAtAEFkbWluaX..."/>
@@ -49,7 +49,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Элемент [аттачментшапе](attachmentshape.md) позволяет указать, какие сведения о вложении должны быть возвращены. Пустой элемент [аттачментшапе](attachmentshape.md) является допустимым и будет отображать вложения без содержимого MIME для вложений элементов, тип текста текста и без дополнительных свойств. 
   
@@ -85,12 +85,12 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -108,7 +108,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 В ответных сообщениях для GetAttachment всегда будет содержаться полное вложение; то есть все свойства всегда будут включены. Для вложений файлов эти свойства являются [именами (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), идентификатором [ContentId](contentid.md), [ContentLocation](contentlocation.md)и [содержимым](content.md). Для вложений элемента эти свойства являются [именами (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) и всеми свойствами элемента, как если бы фигура **аллпропертиес** была использована при вызове GetItem. Элемент [аттачментшапе](attachmentshape.md) , если он присутствует, позволяет приложению-потребителю запрашивать дополнительные расширенные свойства для вложений элементов. 
   
@@ -134,7 +134,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
     
 - [Имя (AttachmentType)](name-attachmenttype.md)
     
-- [Статья](content.md)
+- [Content](content.md)
     
 ## <a name="see-also"></a>См. также
 

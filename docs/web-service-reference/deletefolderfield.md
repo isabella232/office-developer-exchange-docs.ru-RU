@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f9c2187b-4c60-4358-b4b4-ede50eadae48
 description: Элемент Делетефолдерфиелд представляет операцию удаления определенного свойства из папки во время вызова операцию UpdateFolder.
-ms.openlocfilehash: 60d4a5c19d89c109913e83fea99c2f7910566c72
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: a0b48b667c8c8afbd5729d5deb84359a6a6ccc25
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354094"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462159"
 ---
 # <a name="deletefolderfield"></a>делетефолдерфиелд
 
@@ -55,7 +55,7 @@ ms.locfileid: "21354094"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -79,7 +79,7 @@ ms.locfileid: "21354094"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

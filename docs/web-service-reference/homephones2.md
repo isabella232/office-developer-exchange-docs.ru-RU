@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ba9bb159-362d-48e0-889d-823cb46ecebf
 description: Элемент HomePhones2 указывает массив значений HomePhone2 и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 205f2f71421a0dfc7d0057412529bcefdb6636d5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5763b38506655828cd86f6633b462873362e8062
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833842"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460822"
 ---
 # <a name="homephones2"></a>HomePhones2
 
@@ -32,7 +32,7 @@ ms.locfileid: "19833842"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19833842"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

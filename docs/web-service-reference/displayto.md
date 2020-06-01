@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 16a0b22d-063b-417c-8aba-efcf9490b072
 description: Элемент Дисплайто представляет отображаемую строку, используемую для содержимого поля "Кому". Это объединенная строка для отображаемых имен получателей.
-ms.openlocfilehash: f7ccdef8331c5ee227d367bf5f4f1f30e5ab1795
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3bc0b322d6a4f00388247bebcf8e3e7fb110da1d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762186"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461361"
 ---
 # <a name="displayto"></a>дисплайто
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762186"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19762186"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

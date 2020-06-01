@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f268efe5-9a1a-41a2-b6a6-51fcde7720a1
 description: Операция Events используется клиентами подписки по запросу для запроса уведомлений с сервера клиентского доступа. Ответ операции Events возвращает массив элементов и событий, произошедших в почтовом ящике с момента последнего уведомления.
-ms.openlocfilehash: 1a23a9d570a4554e54becb7927f25dff89888c74
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9258fd003c242911866aa7abbca5eba2b9582223
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762763"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462516"
 ---
 # <a name="getevents-operation"></a>Операция GetEvents
 
@@ -41,9 +41,9 @@ ms.locfileid: "19762763"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetEvents xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetEvents xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <SubscriptionId>f6bc657d-dde1-4f94-952d-143b95d6483d</SubscriptionId>
       <Watermark>AAAAAMAGAAAAAAAAAQ==</Watermark>
     </GetEvents>
@@ -76,12 +76,12 @@ ms.locfileid: "19762763"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetEventsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetEventsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetEventsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -109,7 +109,7 @@ ms.locfileid: "19762763"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 > [!NOTE]
 > Идентификаторы элементов и папок были сокращены для сохранения удобочитаемости. 
@@ -163,12 +163,12 @@ ms.locfileid: "19762763"
                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetEventsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetEventsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetEventsResponseMessage ResponseClass="Error">
           <m:MessageText>Access is denied. Only the subscription owner may access the subscription.</m:MessageText>
@@ -208,5 +208,5 @@ ms.locfileid: "19762763"
 [Операция по отмене подписки](unsubscribe-operation.md)
 
 
-[Использование подписок по запросу](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Использование подписок по запросу](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

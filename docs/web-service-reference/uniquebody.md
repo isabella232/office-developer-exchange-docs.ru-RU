@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 06bc95d7-121c-433b-bd27-c2b0eb8c011f
 description: Элемент UniqueBody представляет фрагмент HTML или обычный текст, представляющий уникальный основной текст этой беседы.
-ms.openlocfilehash: 49d3607926e0b985074d79cde76cad084f537f01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0a8d52c7d4eb8bda9fd41c4c25e448523185df93
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840277"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461921"
 ---
 # <a name="uniquebody"></a>UniqueBody
 
@@ -47,7 +47,7 @@ ms.locfileid: "19840277"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -78,7 +78,7 @@ ms.locfileid: "19840277"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

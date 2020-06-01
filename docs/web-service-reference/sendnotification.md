@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e45c4451-a286-4aec-a691-119ec41c58e0
 description: Элемент Сенднотификатион содержит push-уведомления, отправленные компьютером, на котором работает Microsoft Exchange Server 2007, к клиентскому приложению.
-ms.openlocfilehash: 2288dbb5cf97b57a64b3c645eb72836342f4c178
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 49f2f6cb7f5c8e1171b54ff965ee1d22accc9bf2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835345"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462117"
 ---
 # <a name="sendnotification"></a>сенднотификатион
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835345"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19835345"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -68,7 +68,7 @@ ms.locfileid: "19835345"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Уведомления о событиях в EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
+[Уведомления о событиях в EWS](https://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
   
-[Пример приложения для push-уведомлений](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+[Пример приложения для push-уведомлений](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

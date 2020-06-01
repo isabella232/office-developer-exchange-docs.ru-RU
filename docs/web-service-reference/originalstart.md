@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4599dd34-15ee-4d57-b886-732081b50784
 description: Элемент Оригиналстарт представляет исходное время начала элемента календаря.
-ms.openlocfilehash: 9e5facb3df87ab08e05f23258abdf1767fae64e4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5346a65c432b8e96cb95e412e3e88fbc40ce36e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834668"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462369"
 ---
 # <a name="originalstart"></a>оригиналстарт
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834668"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834668"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

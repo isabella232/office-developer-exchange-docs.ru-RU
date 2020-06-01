@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 0ba4225a-784e-4e6e-bd20-be45f0f7597c
 description: Элемент Уфстатус содержит значение, указывающее состояние выхода из системы для пользователя, который выполняет операцию GetUMProperties (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: 1fe358a8bfea3c509220d6705a238ae832de37e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 80b1d5aa508579eec14637ed10c322b5fbb670da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834650"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460577"
 ---
 # <a name="oofstatus-um-web-service"></a>Уфстатус (веб-служба единой системы обмена сообщениями)
 
@@ -43,11 +43,11 @@ ms.locfileid: "19834650"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19834650"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

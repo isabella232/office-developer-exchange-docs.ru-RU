@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 92020822-2a86-4dfc-aee1-3067af4d4edf
 description: Элемент Икониндекс определяет индекс значка для элемента или беседы.
-ms.openlocfilehash: 8ada9da2df1cf128009c9b153736b434925f1a3f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0f932f5632422a8786e74500bf83cb1337f780c3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833848"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460787"
 ---
 # <a name="iconindex"></a>IconIndex
 
@@ -30,15 +30,15 @@ ms.locfileid: "19833848"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Беседа (конверсатионтипе)](conversation-conversationtype.md) | [Item](item.md) | [Contact](contact.md) | [дистрибутионлист](distributionlist.md) | [Message](message-ex15websvcsotherref.md) | [CalendarItem](calendaritem.md)календаритем | Task i[Item](postitem.md) | [Task](task.md)
+[Беседа (конверсатионтипе)](conversation-conversationtype.md)  |  [Элемент](item.md)  |  [Contact (контакт](contact.md)  |  ) [Дистрибутионлист](distributionlist.md)  |  [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [Календаритем](calendaritem.md)  |  [Элемент](postitem.md)  |  i [Task (задача](task.md) )
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -94,7 +94,7 @@ ms.locfileid: "19833848"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

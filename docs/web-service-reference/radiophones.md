@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ea650c84-0b3e-4099-bb76-9619949b4092
 description: Элемент Радиофонес указывает массив телефонных номеров радио и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 0363852de889ad92b01e40f11665fdf61ecfa073
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d77980c40e3b87bab9a3d82ead079cc5dd651d33
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834938"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461634"
 ---
 # <a name="radiophones"></a>радиофонес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834938"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834938"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

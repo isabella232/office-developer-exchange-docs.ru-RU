@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5d9ea76f-e14d-4424-8842-0c3cc3305119
 description: Элемент "компании" представляет коллекцию компаний, связанных с контактом или задачей.
-ms.openlocfilehash: 5b8ac20d4a02017881f941d12380fe29078f51cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eda2b92f3ca874aeeceef6a0935a49a98af0ec39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761690"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461452"
 ---
 # <a name="companies"></a>Компании
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761690"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19761690"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

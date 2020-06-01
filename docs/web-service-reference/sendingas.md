@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b43ce19f-9ab0-4946-acb2-c5aafead9d35
 description: Элемент Сендингас представляет адрес электронной почты, который пользователь пытается отправить как.
-ms.openlocfilehash: a5468ddb8facf99038d319252f7e1c780a888ca1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cd11bd60cbbe3434fcc1b0b9a1cfe0de9f0b1e21
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835338"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462138"
 ---
 # <a name="sendingas"></a>сендингас
 
@@ -40,7 +40,7 @@ ms.locfileid: "19835338"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19835338"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

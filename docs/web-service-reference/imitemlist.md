@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 556457d5-a730-4131-853f-1198c27c5942
 description: Элемент Имитемлист содержит список групп мгновенных сообщений и контактов для обмена мгновенными сообщениями.
-ms.openlocfilehash: 490ac57da0c7ae7bedc75e94b7e21dc30c9da23f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 976897fd999b61207a94a8b1dc60cc1b1308acd8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833896"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460675"
 ---
 # <a name="imitemlist"></a>имитемлист
 
@@ -33,15 +33,15 @@ ms.locfileid: "19833896"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Пользователи групп (аррайофимграуптипе)](groups-arrayofimgrouptype.md) | [Personas](personas-ex15websvcsotherref.md)
+[Groups (аррайофимграуптипе)](groups-arrayofimgrouptype.md)  |  [Пользователи](personas-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Жетимитемсреспонсе](getimitemsresponse.md) | [жетимитемлистреспонсе](getimitemlistresponse.md)
+[Жетимитемсреспонсе](getimitemsresponse.md)  |  [Жетимитемлистреспонсе](getimitemlistresponse.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -53,7 +53,7 @@ ms.locfileid: "19833896"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 488fdbdc-e9d9-4301-91ab-e22eb42e549e
 description: Элемент Account указывает параметры учетной записи пользователя или содержит ошибочные ответы.
-ms.openlocfilehash: 6cd87e678b3a524a69f6dca4d6999a3cff22fa57
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: ffd8ebe4b7bd9d4b3f6a9b42fc557ac6189a068d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353345"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462320"
 ---
 # <a name="account-pox"></a>Учетная запись (POX)
 
@@ -52,7 +52,7 @@ ms.locfileid: "21353345"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

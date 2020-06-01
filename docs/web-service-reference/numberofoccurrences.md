@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9ec86ceb-b271-4718-97ca-b6a532ea7223
 description: Элемент Нумберофоккурренцес содержит количество повторений повторяющегося элемента.
-ms.openlocfilehash: c18a20f14395aead304bd0158ff64c70e51ec165
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f9b72611e87c5f2b98deb14c25988e574a324491
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834656"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462544"
 ---
 # <a name="numberofoccurrences"></a>нумберофоккурренцес
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834656"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834656"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

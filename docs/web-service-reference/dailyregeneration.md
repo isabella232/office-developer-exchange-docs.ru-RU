@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: cafb57e4-c518-45e0-b565-2babd0dab1df
 description: Элемент Даилиреженератион описывает частоту повторного создания задачи (в днях).
-ms.openlocfilehash: 356f7fd2672b2ad87d17e597c52e9f12273ce3c6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 518e4666031131f4a5fc80cc72c28a2110b468c5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761962"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462166"
 ---
 # <a name="dailyregeneration"></a>даилиреженератион
 
@@ -37,7 +37,7 @@ ms.locfileid: "19761962"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19761962"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

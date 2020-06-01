@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3ecea174-73d1-47fd-8917-6065cef1d565
 description: Элемент FileAttachment представляет файл, присоединенный к элементу в хранилище Exchange.
-ms.openlocfilehash: 5ce7aef753313aa9430f640bb3c26f652b8c1c43
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: db9b541fb2527ae3c09cbdb33bedea7fb215bd30
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762542"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461018"
 ---
 # <a name="fileattachment"></a>FileAttachment
 
@@ -45,7 +45,7 @@ ms.locfileid: "19762542"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19762542"
 |[LastModifiedTime](lastmodifiedtime.md) <br/> |Представляет время последнего изменения вложенного файла.  <br/> |
 |[IsInline](isinline.md) <br/> |Указывает, отображается ли вложение встроенным в элементе.  <br/> |
 |[исконтактфото](iscontactphoto.md) <br/> |Указывает, является ли вложение изображением контакта.  <br/> |
-|[Статья](content.md) <br/> |Содержит содержимое вложенного файла в кодировке Base64.  <br/> |
+|[Content](content.md) <br/> |Содержит содержимое вложенного файла в кодировке Base64.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -80,7 +80,7 @@ ms.locfileid: "19762542"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

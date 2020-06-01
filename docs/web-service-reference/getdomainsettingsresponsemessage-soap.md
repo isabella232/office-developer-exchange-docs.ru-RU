@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: df6e06c3-094c-40ce-9c48-d3608f58542a
 description: Элемент Жетдомаинсеттингсреспонсемессаже содержит ответ на запрос операции Жетдомаинсеттингс (SOAP).
-ms.openlocfilehash: 496e2528fc2792f2ecca87ad34ae50be0bf649fe
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4a48d2f496d6733bec67c581e0fc0ee7b1909c5e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762757"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461865"
 ---
 # <a name="getdomainsettingsresponsemessage-soap"></a>Жетдомаинсеттингсреспонсемессаже (SOAP)
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762757"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -42,17 +42,17 @@ ms.locfileid: "19762757"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет. Элемент **жетдомаинсеттингсреспонсемессаже** является элементом Top в теле SOAP. 
+Отсутствуют. Элемент **жетдомаинсеттингсреспонсемессаже** является элементом Top в теле SOAP. 
   
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

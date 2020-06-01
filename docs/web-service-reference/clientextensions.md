@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0073d195-75fd-4c89-97e0-2ad6d91f99f9
 description: Элемент Клиентекстенсионс содержит массив сведений о пользователях и конфигурации приложений.
-ms.openlocfilehash: c2f2511154daaded09ba0e8d811baf9ce30ca138
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 016b4c910f3c21a20d72b926a1c568925aa9d37e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761688"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461459"
 ---
 # <a name="clientextensions"></a>клиентекстенсионс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19761688"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

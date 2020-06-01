@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7a9855aa-06cc-45ba-ad2a-645c15b7d031
 description: Операция FindFolder использует веб-службы Exchange для поиска вложенных папок в определенной папке и возвращает набор свойств, описывающих набор вложенных папок.
-ms.openlocfilehash: 655455b46d4a3192b294bee9d85352d95ded49ae
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f1cc199bdaf684d8d74687ed7f064eb66fee48ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762560"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462586"
 ---
 # <a name="findfolder-operation"></a>Операция FindFolder
 
@@ -56,9 +56,9 @@ FindFolder возвращает только первые 512 байт любо�
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindFolder Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolder Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -70,7 +70,7 @@ FindFolder возвращает только первые 512 байт любо�
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 При использовании значения по умолчанию для [басешапе](baseshape.md), ответ возвращает имя папки, идентификатор папки, количество вложенных папок, количество вложенных папок в папке и количество непрочитанных элементов.
   
@@ -108,12 +108,12 @@ FindFolder возвращает только первые 512 байт любо�
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="652" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <FindFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:FindFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -165,7 +165,7 @@ FindFolder возвращает только первые 512 байт любо�
     
 - [унреадкаунт](unreadcount.md)
     
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
  Элементы **FindFolder** отклика на запрос с фигурой ответа **аллпропертиес** не возвращают элементы [тоталкаунт](totalcount.md) и [унреадкаунт](unreadcount.md) для поиска в общедоступных папках. 
   
@@ -184,12 +184,12 @@ FindFolder возвращает только первые 512 байт любо�
                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="652" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <FindFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:FindFolderResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>
@@ -228,5 +228,5 @@ FindFolder возвращает только первые 512 байт любо�
 
 
 
-[Поиск папок](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Поиск папок](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
 

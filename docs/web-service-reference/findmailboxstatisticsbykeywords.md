@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cfe0f0ff-5fea-4db8-ac96-a5724c85ed2f
 description: Элемент Финдмаилбоксстатистиксбикэйвордс указывает запрос на поиск статистики почтовых ящиков по ключевому слову.
-ms.openlocfilehash: e667f13b66e439dca88d73a5e05d74846183928c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e22c7d8dc849d3fd45d6cb158030cbd82119437e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762575"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462530"
 ---
 # <a name="findmailboxstatisticsbykeywords"></a>финдмаилбоксстатистиксбикэйвордс
 
@@ -42,7 +42,7 @@ ms.locfileid: "19762575"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19762575"
 |:-----|:-----|
 |[Почтовые ящики (Аррайофусермаилбоксестипе)](mailboxes-arrayofusermailboxestype.md) <br/> |Содержит массив почтовых ящиков, на которые влияет удержание.  <br/> |
 |[Keywords](keywords-ex15websvcsotherref.md) <br/> |Задает ключевые слова для поиска.  <br/> |
-|[Язык](language.md) <br/> |Содержит язык, используемый для поискового запроса.  <br/> |
+|[Language](language.md) <br/> |Содержит язык, используемый для поискового запроса.  <br/> |
 |[Отправители](senders.md) <br/> |Указывает массив SMTP-адресов.  <br/> |
 |[Получатели (Аррайофсмтпаддресстипе)](recipients-arrayofsmtpaddresstype.md) <br/> |Указывает массив получателей сообщения.  <br/> |
 |[фромдате](fromdate.md) <br/> |Указывает дату отправки сообщения.  <br/> |
@@ -72,7 +72,7 @@ ms.locfileid: "19762575"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

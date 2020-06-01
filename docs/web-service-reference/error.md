@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b1f54673-578a-496b-99f5-0fde2c669278
 description: Элемент error представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action.
-ms.openlocfilehash: adb2de56b7610aa92b5bf5b8d43ac22f35021b64
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9c28f63aa79446d89152868c81c85ffa7b3a8b39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762379"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460682"
 ---
 # <a name="error"></a>Ошибка
 
@@ -39,7 +39,7 @@ ms.locfileid: "19762379"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19762379"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 4ea99dcc-4b5a-48be-9cb7-f92851d13b03
 description: Справочные сведения об элементе XML для веб-службы автообнаружения POX в Exchange.
-ms.openlocfilehash: 6fb7b34d366e2d1d72c32d4c3e76f4b19266a6c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9085491197f5aa79ffe54c5c920708d7b100458f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834864"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462250"
 ---
 # <a name="pox-autodiscover-xml-elements-for-exchange"></a>XML-элементы автообнаружения POX для Exchange
 

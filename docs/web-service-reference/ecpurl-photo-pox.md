@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4a37bbfb-c763-4a3c-93ea-14c2e7355dbc
 description: Элемент Екпурл-Photo указывает частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для просмотра или изменения текущей фотографии пользователя с включенной поддержкой почты.
-ms.openlocfilehash: e02a444d6809fe70274cda2cc8db6375e868edb9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2be930e8d9e4c2bbdb26eff49a429569fc0a1d5d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762241"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461284"
 ---
 # <a name="ecpurl-photo-pox"></a>Екпурл — фото (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762241"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

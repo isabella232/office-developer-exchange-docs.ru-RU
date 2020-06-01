@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8372fecd-9dd2-40e5-b3e9-18ab9151590b
 description: Элемент Предиктедактионреасон предназначен только для внутреннего использования.
-ms.openlocfilehash: fb4a31406e7f4f6337a2dd946e5a723224af5b95
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a7f9e2b57c6dcfe83aba85e3239fd8177e5345df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834873"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462236"
 ---
 # <a name="predictedactionreason"></a>предиктедактионреасон
 
@@ -25,11 +25,11 @@ ms.locfileid: "19834873"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

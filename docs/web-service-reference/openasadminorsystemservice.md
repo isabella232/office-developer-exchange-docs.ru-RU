@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: fff7c928-da28-4864-9379-dc54c1bf048f
 description: Элемент Опенасадминорсистемсервице предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: ef7538425034b9fc734e8caac8e597e6fb68cd3a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e4bd101b048bd5ac1af8d383d64519b9ed6f0041
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834652"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462509"
 ---
 # <a name="openasadminorsystemservice"></a>опенасадминорсистемсервице
 
@@ -48,7 +48,7 @@ ms.locfileid: "19834652"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834652"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

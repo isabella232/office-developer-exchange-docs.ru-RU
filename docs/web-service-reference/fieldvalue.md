@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8dfda53f-658c-4bc9-8950-f7f572c850eb
 description: Элемент FieldValue представляет значение поля, вызвавшего ошибку проверки.
-ms.openlocfilehash: 26517598d49865d2a925b436a0691fe548228955
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fe407fd0aca2850e07bf1c734a64c5bee03d142c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762526"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461214"
 ---
 # <a name="fieldvalue"></a>FieldValue
 
@@ -30,17 +30,17 @@ ms.locfileid: "19762526"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ошибка](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action.  <br/> |
+|[Error](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762526"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

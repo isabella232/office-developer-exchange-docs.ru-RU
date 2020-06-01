@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 65537d96-edf9-41ee-9ad5-91ffe37e2269
 description: Элемент ErrorCode указывает код ошибки при неудачном поиске, выполненном для почтового ящика.
-ms.openlocfilehash: ed8a7771376f921303ea093f4be727c4146faa76
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 24170a56e5fa23c3811fcbd27f0240e6ba3c87b7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762377"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460668"
 ---
 # <a name="errorcode-int"></a>ErrorCode (int)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762377"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762377"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

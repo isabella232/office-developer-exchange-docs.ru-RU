@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 6bccd418-caf7-4eb9-8a6f-410e56a635c3
 description: Операция GetCallInfo возвращает состояние исходящего вызова, указанного в параметре CallId (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: 36f9cba3690520ebb457a4cb2bfbcde3fea4b8dc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6b5664dfe16f9c74cc7175098145141b815a6355
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762707"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461242"
 ---
 # <a name="getcallinfo-operation-um-web-service"></a>Операция GetCallInfo (веб-служба единой системы обмена сообщениями)
 
@@ -34,7 +34,7 @@ ms.locfileid: "19762707"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetCallInfo xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetCallInfo xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <CallId>MDlkZjllZGMtNGUyMy00NzA5LWJkYWYtN2JlMjBjYjBhZTU2QGRmLWV1bS0wMS5leGNoYW5nZS5jb3JwLm1pY3Jvc29mdC5jb20=</CallId>
     </GetCallInfo>
   </soap:Body>
@@ -53,7 +53,7 @@ ms.locfileid: "19762707"
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <GetCallInfoResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetCallInfoResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <GetCallInfoResponse>
         <CallState>Connected</CallState> 
         <EventCause>None</EventCause> 

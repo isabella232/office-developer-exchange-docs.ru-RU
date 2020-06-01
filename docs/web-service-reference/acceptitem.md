@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 05a15431-77e1-411a-a16b-5481d364d3cc
 description: Элемент Акцептитем представляет ответ на принятие приглашения на собрание.
-ms.openlocfilehash: 532862fc5299364e51ed469047deaea058692e83
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6f2197e9df8a095aec545e1a09a761f7e8e432d3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762506"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461718"
 ---
 # <a name="acceptitem"></a>акцептитем
 
@@ -51,7 +51,7 @@ ms.locfileid: "19762506"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19762506"
 |:-----|:-----|
 |[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Указывает уровень конфиденциальности элемента.  <br/> |
-|[Основной текст](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
+|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
 |[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элемент или файл, прикрепленный к элементу в хранилище Exchange.  <br/> |
 |[InternetMessageHeaders](internetmessageheaders.md) <br/> |Представляет имя заголовка Интернет-сообщения для данного заголовка в коллекции заголовков.  <br/> |
 |[Sender](sender.md) <br/> |Определяет отправителя элемента.  <br/> |
@@ -91,7 +91,7 @@ ms.locfileid: "19762506"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

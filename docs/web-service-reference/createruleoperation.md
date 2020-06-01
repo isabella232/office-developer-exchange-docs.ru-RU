@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e9f70726-db08-4089-839e-a41007d0a473
 description: Элемент Креатерулеоператион представляет операцию для создания нового правила для папки "Входящие".
-ms.openlocfilehash: c531f222ffe886e6ef53a99609cfa27e84fd6107
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: df857544e6d5840a3f738740114195e4c4bb5798
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761912"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460773"
 ---
 # <a name="createruleoperation"></a>креатерулеоператион
 
@@ -40,7 +40,7 @@ ms.locfileid: "19761912"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19761912"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

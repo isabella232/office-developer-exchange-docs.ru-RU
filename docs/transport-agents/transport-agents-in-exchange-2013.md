@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 36d63aa6-1b72-4670-b5c3-da685f3017cb
 description: Поиск сведений об агентах транспорта в Exchange 2013.
-ms.openlocfilehash: 1a28ae79e2a7e338ddd6cb1f6961dd14a980b56e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 62fb259672c47242a57b939deb4887e1e5519e2a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761319"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461760"
 ---
 # <a name="transport-agents-in-exchange"></a>Агенты транспорта в Exchange
   
@@ -29,7 +29,7 @@ Exchange 2013 предоставляет библиотеку классов, п
 |Доступные инструменты для тестирования и отладки  <br/> |Используйте версии Visual Studio, начиная с Visual Studio 2012, для отладки агентов транспорта.  <br/> |
 |Методы развертывания  <br/> |Приложения агента транспорта можно установить с помощью сценария [командной консоли Exchange](../management/exchange-management-shell.md) .  <br/> |
    
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
 - [Новые и обновленные API агента транспорта в Exchange 2013](new-and-updated-transport-agent-apis-in-exchange-2013.md)
     

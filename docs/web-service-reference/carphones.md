@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ad096246-113c-42ea-9e63-861b546003e8
 description: Элемент Карфоне указывает массив телефонных номеров автомобилей и идентификаторы их исходных сопоставлений для соответствующего пользователя.
-ms.openlocfilehash: 694b3578e127a84dfd2fb844c6e81b28553b687c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 41d0cc264da69ab17b8ebf109759139c4249719e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761668"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462229"
 ---
 # <a name="carphones"></a>карфонес
 
@@ -33,7 +33,7 @@ ms.locfileid: "19761668"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761668"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

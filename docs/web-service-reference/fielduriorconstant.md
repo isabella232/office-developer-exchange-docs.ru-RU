@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 89d7a87e-7c93-49b8-83ec-8798e08c1052
 description: Элемент Фиелдуриорконстант представляет свойство или значение константы, которое будет использоваться при сравнении с другим свойством.
-ms.openlocfilehash: a24c2fa044e03d0ac6f900625e325600903df8d0
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 8b5cb888a3bd2026b15e38fc8c005ab5ef5a2b11
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354227"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461228"
 ---
 # <a name="fielduriorconstant"></a>фиелдуриорконстант
 
@@ -55,7 +55,7 @@ ms.locfileid: "21354227"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -87,7 +87,7 @@ ms.locfileid: "21354227"
   
 ```xml
 <Restriction>
-  <Or xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+  <Or xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
     <IsEqualTo>
       <FieldURI FieldURI="item:DateTimeCreated"/>
       <FieldURIOrConstant>
@@ -108,7 +108,7 @@ ms.locfileid: "21354227"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

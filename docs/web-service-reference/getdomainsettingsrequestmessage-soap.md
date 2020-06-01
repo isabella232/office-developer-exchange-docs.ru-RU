@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 34913595-794c-4c62-9622-877f30931c73
 description: Элемент Жетдомаинсеттингсрекуестмессаже представляет запрос операции Жетдомаинсеттингс (SOAP).
-ms.openlocfilehash: 24af4e3dc18c459f5669ba18f7b8c548fcc748fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 71648e3df609edfce73ebccf372a82311c03d49d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762777"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462033"
 ---
 # <a name="getdomainsettingsrequestmessage-soap"></a>Жетдомаинсеттингсрекуестмессаже (SOAP)
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762777"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -42,17 +42,17 @@ ms.locfileid: "19762777"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

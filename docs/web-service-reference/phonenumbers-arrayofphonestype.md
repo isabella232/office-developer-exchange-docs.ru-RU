@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 748663cc-13ef-4799-91ce-f559050a9fb1
 description: Элемент PhoneNumbers указывает массив телефонных номеров.
-ms.openlocfilehash: 5a77cb9ea13848a50f9d82195b97db4f43ea3fdd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: de777fd27072a8b7767717b46b7d5674e960bbc2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834766"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461697"
 ---
 # <a name="phonenumbers-arrayofphonestype"></a>PhoneNumbers (Аррайоффонестипе)
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834766"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834766"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e5d93d63-0a3b-470f-9a94-2d57284c6745
 description: Элемент Постреплитем содержит ответ на элемент POST. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 70a0d6a7c670d0f16a55e66e7ef329331a04a5f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4104e79449acc6e358b729cf2de769d28dac52bd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834868"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461683"
 ---
 # <a name="postreplyitem"></a>постреплитем
 
@@ -72,7 +72,7 @@ ms.locfileid: "19834868"
    <EffectiveRights/>
    <ReceivedBy/>
    <ReceivedRepresenting/>
-      <NewBodyContent/>
+   <NewBodyContent/>
 </PostReplyItem>
 ```
 
@@ -83,7 +83,7 @@ ms.locfileid: "19834868"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -95,7 +95,7 @@ ms.locfileid: "19834868"
 |[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
 |[Тема](subject.md) <br/> |Представляет тему для элементов хранилища Exchange и объектов ответа. Тема может иметь не более 255 символов.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Указывает уровень конфиденциальности элемента.  <br/> |
-|[Основной текст](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
+|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
 |[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, вложенные в элемент в хранилище Exchange.  <br/> |
 |[DateTimeReceived](datetimereceived.md) <br/> |Представляет дату и время получения элемента в почтовом ящике.  <br/> |
 |[Размер](size.md) <br/> |Представляет размер элемента в байтах. Это свойство доступно только для чтения.  <br/> |
@@ -155,7 +155,7 @@ ms.locfileid: "19834868"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

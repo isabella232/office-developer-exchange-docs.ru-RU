@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 682d47a6-f9fe-4cc6-a56c-c5db835d5ec6
 description: Элемент Аппликонверсатионактионреспонсе определяет ответ на запрос операции ApplyConversationAction.
-ms.openlocfilehash: 39f7344596de7376e770ed98dbe372a590057deb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 22955378f8982c92b4cd0e9b8880b6907f47aa0c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761470"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461676"
 ---
 # <a name="applyconversationactionresponse"></a>аппликонверсатионактионреспонсе
 
@@ -38,7 +38,7 @@ ms.locfileid: "19761470"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -48,7 +48,7 @@ ms.locfileid: "19761470"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -62,7 +62,7 @@ ms.locfileid: "19761470"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

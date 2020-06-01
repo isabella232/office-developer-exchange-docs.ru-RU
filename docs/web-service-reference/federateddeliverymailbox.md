@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: cd56bcc0-d24a-4e8b-87bd-999bf69234b7
 description: Элемент Федератедделиверимаилбокс представляет почтовый ящик, в который было отправлено сообщение с перекрестным локальным сообщением.
-ms.openlocfilehash: 4a9250455f8de3ede25f2b5ba9433690137ca1d3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d493ed81e82237b7257e8c469f4552d931b73aa6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762525"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461949"
 ---
 # <a name="federateddeliverymailbox"></a>федератедделиверимаилбокс
 
@@ -40,7 +40,7 @@ ms.locfileid: "19762525"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19762525"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

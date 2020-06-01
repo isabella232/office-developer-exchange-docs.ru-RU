@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5b29898c-ea59-4e6a-914c-c011ec754032
 description: Элемент АссоЦиатедкалендаритемид представляет элемент календаря, связанный с Митингмессаже, свойство meetingrequest, Митингреспонсе, Митингканцеллатион или Реминдермессажедата.
-ms.openlocfilehash: 4445da88d6fec42c1e02cd8de4d2e423485a4472
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 816372c38243ba0fe5a7606c264dd1c5107350f2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761506"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460885"
 ---
 # <a name="associatedcalendaritemid"></a>ассоЦиатедкалендаритемид
 
@@ -41,11 +41,11 @@ ms.locfileid: "19761506"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Митингмессаже](meetingmessage.md) | [свойство meetingrequest](meetingrequest.md) | [ReminderMessageData](remindermessagedata.md) [MeetingCancellation](meetingcancellation.md)[MeetingResponse](meetingresponse.md)митингреспонсе митингканцеллатион реминдермессажедата |  | 
+[Митингмессаже](meetingmessage.md)  |  [Свойство meetingrequest](meetingrequest.md)  |  [Митингреспонсе](meetingresponse.md)  |  [Митингканцеллатион](meetingcancellation.md)  |  [Реминдермессажедата](remindermessagedata.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -57,7 +57,7 @@ ms.locfileid: "19761506"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

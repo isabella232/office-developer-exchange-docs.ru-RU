@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 1f26b691-7331-4c7f-a92b-dfcc66c26963
 description: Элемент Домаинрекуиред указывает, требуется ли домен для проверки подлинности.
-ms.openlocfilehash: f314b9d27d1b4ee472d249ec49af1a785ff9ac25
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 97d602c40b247f9a6650cc4440b53bf23c18482e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762204"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461326"
 ---
 # <a name="domainrequired-pox"></a>Домаинрекуиред (POX)
 
@@ -36,11 +36,11 @@ ms.locfileid: "19762204"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

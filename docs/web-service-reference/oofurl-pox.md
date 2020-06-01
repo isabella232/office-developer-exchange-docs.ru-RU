@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 76c5532b-de5f-4227-9284-eab8ef076c55
 description: Элемент Уфурл указывает URL-адрес лучшего экземпляра службы доступности для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: 3e2cb8ddecb0efc43828f582a1bd8baf352117e1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f32ec4416bc0a1a144ff21aa9d2dac89bac30495
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834646"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462523"
 ---
 # <a name="oofurl-pox"></a>Уфурл (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19834646"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

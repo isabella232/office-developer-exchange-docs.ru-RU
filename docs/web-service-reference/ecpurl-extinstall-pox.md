@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f81807e6-93de-4e47-afee-1e1ae6a85054
 description: Элемент Екпурл-екстинсталл указывает на частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для просмотра или изменения почтовых приложений, установленных в данный момент в почтовом ящике пользователя.
-ms.openlocfilehash: f478db53e120f108c64e415e43141761d7914f71
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 889e0ca3bdcdce4b557fe066db2918fde4abaa9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762231"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461305"
 ---
 # <a name="ecpurl-extinstall-pox"></a>Екпурл-екстинсталл (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762231"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

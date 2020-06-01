@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 00d14e3e-4365-4f21-8f88-eaeea73b9bf7
 description: Элемент FolderId содержит идентификатор и ключ изменения папки.
-ms.openlocfilehash: 5764a164d5af183b8f313955ace5274dc6023a6a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7aa5070fa7a2c51303c7159de04fe277f909a874
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762625"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461389"
 ---
 # <a name="folderid"></a>FolderId
 
@@ -41,7 +41,7 @@ ms.locfileid: "19762625"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -80,7 +80,7 @@ ms.locfileid: "19762625"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -88,5 +88,5 @@ ms.locfileid: "19762625"
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание папок (веб-службы Exchange)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+- [Создание папок (веб-службы Exchange)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: f8162724-cf9a-4543-a1ad-5846c8b10bfa
 description: Элемент Редиректтаржет (SOAP) содержит целевой объект URL-адреса перенаправления или адреса электронной почты.
-ms.openlocfilehash: 3a8a0c39c6889730c9d17778c6a26f84fcbcd4a7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 092d575560379d43b12dd98a3efa155b59c31450
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835019"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462201"
 ---
 # <a name="redirecttarget-soap"></a>Редиректтаржет (SOAP)
 
@@ -31,11 +31,11 @@ ms.locfileid: "19835019"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835019"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

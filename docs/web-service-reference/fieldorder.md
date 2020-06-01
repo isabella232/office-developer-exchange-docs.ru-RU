@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b9364842-bbe2-4221-afef-bf5022bc89ec
 description: Элемент Фиелдордер представляет одно поле, по которому сортируются результаты, и указывает направление сортировки.
-ms.openlocfilehash: 320a7b821cc593e7dd60a8f8adb23bcd600f71f8
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 19dee7175d541dd99b53e004ea8ccd785b619184
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353303"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461263"
 ---
 # <a name="fieldorder"></a>фиелдордер
 
@@ -75,7 +75,7 @@ ms.locfileid: "21353303"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

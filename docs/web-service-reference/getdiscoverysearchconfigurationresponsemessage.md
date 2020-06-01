@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1b84a4c6-cb0a-4bca-85b2-fec32227930b
 description: Элемент Жетдисковерисеарчконфигуратионреспонсемессаже указывает ответное сообщение для запроса GetDiscoverySearchConfiguration.
-ms.openlocfilehash: a6cf09753031a7fd2eb46132e8bfb0729140d6c3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 23d1c5b7a61a9161d7383ec8b38cd0ebbebfc8cf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762751"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460976"
 ---
 # <a name="getdiscoverysearchconfigurationresponsemessage"></a>жетдисковерисеарчконфигуратионреспонсемессаже
 
@@ -36,11 +36,11 @@ ms.locfileid: "19762751"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md) | [респонсекоде](responsecode.md) | [DiscoverySearchConfigurations](discoverysearchconfigurations.md) [MessageXml](messagexml.md)[DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй мессажексмл дисковерисеарчконфигуратионс |  | 
+[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Дисковерисеарчконфигуратионс](discoverysearchconfigurations.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762751"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

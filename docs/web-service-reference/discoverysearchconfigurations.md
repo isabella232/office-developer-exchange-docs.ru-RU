@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f04b14c9-384c-4016-b113-52a49e15e73b
 description: Элемент Дисковерисеарчконфигуратионс указывает массив элементов Дисковерисеарчконфигуратион.
-ms.openlocfilehash: a95bb35b88114e8e72e22de424679993fd4eef2a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6af4c8198f2ad73f8b39f9718e11b88aa8075c39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762154"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461382"
 ---
 # <a name="discoverysearchconfigurations"></a>дисковерисеарчконфигуратионс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762154"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762154"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

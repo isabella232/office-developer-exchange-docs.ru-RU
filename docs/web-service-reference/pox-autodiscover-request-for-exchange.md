@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 75671b1d-f35b-497b-8d8c-706f3f2535fd
 description: Запрос автообнаружения содержит запрос для конфигурации клиентского доступа пользователя.
-ms.openlocfilehash: 48d6c30946e75936ed93a6f4507d8a8d3ae47d40
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b2138f9813c7b75aef9afb90089b9b874aac7532
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834865"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461669"
 ---
 # <a name="pox-autodiscover-request-for-exchange"></a>Запрос автообнаружения POX для Exchange
 
@@ -29,10 +29,10 @@ ms.locfileid: "19834865"
 ### <a name="code"></a>Код
 
 ```XML
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
    <Request>
      <EMailAddress>user@contoso.com</EMailAddress>
-     <AcceptableResponseSchema>http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
+     <AcceptableResponseSchema>https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
    </Request>
  </Autodiscover>
 ```

@@ -1,5 +1,5 @@
 ---
-title: Главную
+title: HomePage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: eec2c41e-a975-42f6-8150-caf8c6e26462
 description: Элемент HomePage указывает URL-адрес, который будет домашней страницей по умолчанию для управляемой папки.
-ms.openlocfilehash: 00dafa225b5200b9feedf8790ed784305dadf03c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b56a273bab3ec34d03e84ba8f7e2d6feddeb3e88
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833838"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460843"
 ---
-# <a name="homepage"></a>Главную
+# <a name="homepage"></a>HomePage
 
 Элемент **Homepage** указывает URL-адрес, который будет домашней страницей по умолчанию для управляемой папки. 
   
@@ -34,11 +34,11 @@ ms.locfileid: "19833838"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19833838"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -73,5 +73,5 @@ ms.locfileid: "19833838"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Добавление управляемых папок](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Добавление управляемых папок](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

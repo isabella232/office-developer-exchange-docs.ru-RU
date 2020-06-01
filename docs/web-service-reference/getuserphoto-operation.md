@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e
 description: Поиск сведений о GetUserPhotoной операции EWS.
-ms.openlocfilehash: 4465ac7115d96f5b6ef39e467663c9bf1c70e99e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6769842d31519f0aac2cf9bda10c1cab70558301
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833694"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461816"
 ---
 # <a name="getuserphoto-operation"></a>Операция GetUserPhoto
 
@@ -28,7 +28,7 @@ ms.locfileid: "19833694"
 Операция **RemoveContactFromImList** — это простая операция, которая принимает адрес электронной почты пользователя и запрошенный размер фотографии и возвращает поток фото в ответе. 
   
 > [!NOTE]
-> Для получения фотографий пользователей у веб EWS есть как SOAP, так и операция REST. Сведения о интерфейсе REST приведены в статье [Получение фотографий пользователей с помощью EWS в Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx). 
+> Для получения фотографий пользователей у веб EWS есть как SOAP, так и операция REST. Сведения о интерфейсе REST приведены в статье [Получение фотографий пользователей с помощью EWS в Exchange](https://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx). 
   
 ### <a name="getuserphoto-operation-soap-headers"></a>Заголовки SOAP операции GetUserPhoto
 
@@ -48,8 +48,8 @@ ms.locfileid: "19833694"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013"/>
    </soap:Header>
@@ -83,15 +83,15 @@ ms.locfileid: "19833694"
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetUserPhotoResponse ResponseClass="Success" 
-                            xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                            xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <HasChanged>true</HasChanged>
          <PictureData>/9j/4AAQSkZJRgABAQEAYABgAAD/02</PictureData>
@@ -118,6 +118,6 @@ ms.locfileid: "19833694"
 ## <a name="see-also"></a>См. также
 
 - [Операции EWS в Exchange](ews-operations-in-exchange.md)   
-- [Получение фотографий пользователей с помощью EWS в Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx)
+- [Получение фотографий пользователей с помощью EWS в Exchange](https://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx)
     
 

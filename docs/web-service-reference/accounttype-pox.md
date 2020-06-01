@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 1e87e78e-d143-4abc-b753-386500d227a5
 description: Элемент AccountType представляет тип учетной записи.
-ms.openlocfilehash: f2f6f14df180a68b9e68b10e8f88e44a0bc24c6d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 20ff7cf4e73f1b50668616d3f11edeeb1409815e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762488"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462313"
 ---
 # <a name="accounttype-pox"></a>AccountType (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762488"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

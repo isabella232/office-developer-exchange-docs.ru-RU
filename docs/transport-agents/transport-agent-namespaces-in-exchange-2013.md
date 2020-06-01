@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c40788e-c182-4502-9202-206e6aaa53f8
 description: Сведения о классах и членах .NET Framework, которые можно использовать для создания настраиваемых агентов транспорта для Exchange 2013.
-ms.openlocfilehash: a8189ca9915312b64fefda3091f8f81e51271ad6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fc2d9108c910a730bb48c5be028797f0f15ad4ad
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761320"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461795"
 ---
 # <a name="transport-agent-namespaces-in-exchange-2013"></a>Пространства имен агента транспорта в Exchange 2013
 
@@ -51,7 +51,7 @@ ms.locfileid: "19761320"
 - [Агенты транспорта в Exchange](transport-agents-in-exchange-2013.md)   
 - [Основные понятия, связанные с агентами транспорта в Exchange 2013](transport-agent-concepts-in-exchange-2013.md) 
 - 
-  [Справочные материалы по серверному API для Exchange](http://msdn.microsoft.com/library/6eddd052-f59f-45b4-b846-7e53d4d7eb16%28Office.15%29.aspx)
+  [Справочные материалы по серверному API для Exchange](https://msdn.microsoft.com/library/6eddd052-f59f-45b4-b846-7e53d4d7eb16%28Office.15%29.aspx)
 - [Элементы файла конфигурации агентов для Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
     
 

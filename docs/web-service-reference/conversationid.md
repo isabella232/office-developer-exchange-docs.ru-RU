@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d5f1ddb3-9af3-4677-a6ba-111b304a951e
 description: Элемент ConversationId содержит идентификатор элемента или беседы.
-ms.openlocfilehash: 1f82e6ade60fb70db4a9f026fd72d9f11cc63821
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4f12d70ae6b72773760a731f5778cf6743ce699f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761814"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461473"
 ---
 # <a name="conversationid"></a>ConversationId
 
@@ -41,7 +41,7 @@ ms.locfileid: "19761814"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "19761814"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

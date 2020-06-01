@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4876d83a-73a3-4953-9d95-3048e6b76ccb
 description: Элемент or представляет выражение поиска, которое выполняет операцию логического или для содержащегося в нем выражения поиска. Или возвращает значение true, если любой из дочерних элементов возвращает значение true. Или должно иметь не менее двух дочерних элементов.
-ms.openlocfilehash: 46cf031047aeb09e05a385150ab7587968aef345
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9bc676da5bbaad64f11f6717fb487c2e9bcf2d89
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834661"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462481"
 ---
 # <a name="or"></a>ИЛИ
 
@@ -37,7 +37,7 @@ ms.locfileid: "19834661"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834661"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

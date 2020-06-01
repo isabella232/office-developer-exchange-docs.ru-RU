@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9c604ca3-10fe-4760-b7fd-8b52f1a0c712
 description: Элемент Мессажетраккингрепортид представляет сообщение с помощью идентификатора сообщения, Организации, в которой было найдено сообщение, сервера, на котором было отправлено сообщение, а также внутреннего идентификатора, уникально идентифицирующего сообщение.
-ms.openlocfilehash: 8e0d85b203b8a34acedb5f6b9fe46359d5e0b97c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d6e92593d55608e260634602c2aab694804d716d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834456"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460598"
 ---
 # <a name="messagetrackingreportid"></a>мессажетраккингрепортид
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834456"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834456"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

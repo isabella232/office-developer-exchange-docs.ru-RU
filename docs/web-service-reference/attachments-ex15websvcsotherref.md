@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b470e614-34bb-44f0-8790-7ddbdcbbd29d
 description: Элемент вложениям содержит элементы или файлы, вложенные в элемент в хранилище Exchange.
-ms.openlocfilehash: 8aa5c0849122f5ca83485459fce5d0fea449c974
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a9f79cd79f19e6226703c99c53c91efed600f495
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761514"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461536"
 ---
 # <a name="attachments"></a>Attachments
 
@@ -37,7 +37,7 @@ ms.locfileid: "19761514"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19761514"
 |[деклинеитем](declineitem.md) <br/> |Представляет отклонить ответ на приглашения на собрание.  <br/> |
 |[тентативелякцептитем](tentativelyacceptitem.md) <br/> |Представляет под вопросом ответ на приглашения на собрание.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Удаляет элемент из хранилища Exchange.  <br/> |
-|[Элемент](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
 |[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
 |[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
 |[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
@@ -78,7 +78,7 @@ ms.locfileid: "19761514"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

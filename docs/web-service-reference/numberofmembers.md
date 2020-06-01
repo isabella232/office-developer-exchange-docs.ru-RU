@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 845fb877-de49-4e26-8885-6f026edd9ee9
 description: Элемент Нумберофмемберс представляет количество пользователей, ресурсов и комнат в списке рассылки.
-ms.openlocfilehash: 9777660b1a54bfb5afb6e569ba1009a1654bdef3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c91087f42d806afb0a0d3d607cc84f14a1a6c1b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834635"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462600"
 ---
 # <a name="numberofmembers"></a>нумберофмемберс
 
@@ -52,11 +52,11 @@ ms.locfileid: "19834635"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "19834635"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -88,5 +88,5 @@ ms.locfileid: "19834635"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5fd465b4-6070-4cd0-9ac3-ed9d2bfd5951
 description: Элемент Хаслокатиончанжед указывает, изменилось ли свойство Location собрания.
-ms.openlocfilehash: dbb811b93149be0bb43fbb2f579a5086a396e401
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4f774adcf4a7666f40524931504f1172e15ba24d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833804"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462446"
 ---
 # <a name="haslocationchanged"></a>хаслокатиончанжед
 
@@ -30,11 +30,11 @@ ms.locfileid: "19833804"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19833804"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

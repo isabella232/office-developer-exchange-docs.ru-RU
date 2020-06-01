@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3e1e37b5-5469-4447-ad1f-c2c6d4e0482f
 description: Элемент ID определяет комнату для собраний в организации Exchange Server.
-ms.openlocfilehash: 5cd62f6f4e5912d2ecccda352be15c6a3b24e06c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: aa09e7764746ac6bc283de2d13248d769aba75b7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833847"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460780"
 ---
 # <a name="id-emailaddresstype"></a>ID (EmailAddressType)
 
@@ -44,7 +44,7 @@ ms.locfileid: "19833847"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19833847"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

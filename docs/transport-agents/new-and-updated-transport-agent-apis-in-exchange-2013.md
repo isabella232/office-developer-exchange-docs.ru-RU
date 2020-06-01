@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0a1ad73a-3085-4793-af4d-e4216484c93e
 description: Узнайте, какие API-интерфейсы новые или обновлены в Exchange 2013 для агентов транспорта.
-ms.openlocfilehash: 0caafaf9629da1066d14357416862a7d67b961aa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9cb099757512081347e23bc619c42417929f0f70
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761315"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461823"
 ---
 # <a name="new-and-updated-transport-agent-apis-in-exchange-2013"></a>Новые и обновленные API агента транспорта в Exchange 2013
 

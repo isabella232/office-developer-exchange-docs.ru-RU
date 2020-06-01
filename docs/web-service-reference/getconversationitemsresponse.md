@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8f271894-01cb-4ee3-ba2f-6464e19518ac
 description: Элемент Жетконверсатионитемсреспонсе определяет ответ на запрос GetConversationItems.
-ms.openlocfilehash: b7dbb5cd7c3829d51167cb9499ba80edcd4dbdc3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8c1663ef757148ecb6ebda059412b4fbdc503d07
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762728"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461088"
 ---
 # <a name="getconversationitemsresponse"></a>жетконверсатионитемсреспонсе
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762728"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19762728"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

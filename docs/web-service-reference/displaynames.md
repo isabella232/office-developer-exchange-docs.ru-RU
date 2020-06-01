@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dedd43c8-c1d6-4671-89c5-ce7ab3979fda
 description: Элемент DisplayName указывает массив отображаемых имен и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 66f10edd26a467af290535196778fbcb550c16ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7d0c528b5b7f9adae271a42380550115fbcf94d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762185"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460738"
 ---
 # <a name="displaynames"></a>DisplayName
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762185"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

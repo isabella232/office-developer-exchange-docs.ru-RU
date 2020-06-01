@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e367a278-1622-4b65-955f-2d4b2fc6e4d7
 description: Элемент Нумберофмемберсаваилабле представляет количество участников списка рассылки, доступных для предложенного времени проведения собрания. Этот элемент представляет элементы, состояние которых свободно.
-ms.openlocfilehash: 8669f61fbd640c160ad54739c5a15407b3dd470a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 947e1c133cc49fb7e322962e95e184fe77e09353
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834641"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462593"
 ---
 # <a name="numberofmembersavailable"></a>нумберофмемберсаваилабле
 
@@ -52,11 +52,11 @@ ms.locfileid: "19834641"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19834641"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ ms.locfileid: "19834641"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

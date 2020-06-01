@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2a89098b-d89b-4d01-827b-50be00f7cbe9
 description: Элемент GetServerTimeZones является корневым элементом запроса для получения определений часовых поясов с сервера Exchange.
-ms.openlocfilehash: 1ad503ff312497189f57bce9a3670571aedad5ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 797e4543c94b0628242bcf544fe9a735ebaa5a63
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762920"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460941"
 ---
 # <a name="getservertimezones"></a>GetServerTimeZones
 
@@ -63,7 +63,7 @@ ms.locfileid: "19762920"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

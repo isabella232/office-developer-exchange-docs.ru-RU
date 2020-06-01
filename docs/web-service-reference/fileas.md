@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: df50524e-471c-49d2-89fe-b2d0f61a1365
 description: Элемент свойств fileas представляет способ хранения контакта или списка рассылки в папке "Контакты".
-ms.openlocfilehash: dab9142eebf7691862e7970a7d1e8f5874393b94
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: be756d86d7608fcb758dd54f2ada9f03a04343e2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762539"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461200"
 ---
 # <a name="fileas"></a>FileAs
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762539"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19762539"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

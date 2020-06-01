@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c597bb0e-13b0-422e-9c23-970463e2a5c3
 description: Поиск сведений о PerformReminderActionной операции EWS.
-ms.openlocfilehash: 778fbb508413721f58cfcf9143a5296874e6cd1c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4c069d541e9a42167c447a50c405399958d3608d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834722"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462292"
 ---
 # <a name="performreminderaction-operation"></a>Операция PerformReminderAction
 
@@ -47,8 +47,8 @@ ms.locfileid: "19834722"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
@@ -98,15 +98,15 @@ ms.locfileid: "19834722"
                        MajorBuildNumber="921"
                        MinorBuildNumber="20"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <PerformReminderActionResponse ResponseClass="Success"
-                                   xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                   xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <UpdatedItemIds>
         <ItemId Id="vwAAAA=="
@@ -140,15 +140,15 @@ ms.locfileid: "19834722"
                        MajorBuildNumber="918"
                        MinorBuildNumber="7"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <PerformReminderActionResponse ResponseClass="Success"
-                                   xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                   xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <UpdatedItemIds />
     </PerformReminderActionResponse>

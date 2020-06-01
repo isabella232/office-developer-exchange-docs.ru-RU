@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 113c6ff2-9592-44f0-b542-54e4d5122ccb
 description: Элемент Серверрепливисмессаже указывает идентификатор сообщения шаблона, отправляемого в качестве ответа на входящие сообщения.
-ms.openlocfilehash: f2d927ae18ac68523d4cdd173f0474fbbeb36c98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: faaa054018a17be3ff59b9fc385b3d846d39c3f1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835390"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461977"
 ---
 # <a name="serverreplywithmessage"></a>серверрепливисмессаже
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835390"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19835390"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

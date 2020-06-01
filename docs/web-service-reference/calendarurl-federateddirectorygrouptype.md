@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0606c8a9-813c-4d7c-8080-db812069668e
 description: Элемент CalendarUrl (Федератеддиректориграуптипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: e169d6c40ec01303a74529d4ee538a2b058e81fb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 71d139a20700ab208c6c53ffaa67c0902cd940bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761651"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460829"
 ---
 # <a name="calendarurl-federateddirectorygrouptype"></a>CalendarUrl (Федератеддиректориграуптипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19761651"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

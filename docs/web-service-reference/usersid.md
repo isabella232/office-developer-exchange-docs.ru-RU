@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f8a0dcd9-8564-4e35-b307-c5d2761b48d8
 description: Элемент "код возврата" представляет форму SDDL идентификатора безопасности пользователя в заголовке SOAP сериализованного контекста безопасности. Сериализация маркеров не поддерживается.
-ms.openlocfilehash: 3c72f68638f99a4ee5081517027f0834ebf65b49
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b8ee51b1998546fc4ab14bd3666192ae63c8dba8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840444"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462019"
 ---
 # <a name="usersid"></a>О.
 
@@ -34,11 +34,11 @@ ms.locfileid: "19840444"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19840444"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

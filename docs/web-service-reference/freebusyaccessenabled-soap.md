@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8d2d3276-b180-424e-a707-7256d14a1776
 description: Элемент Фрибусякцессенаблед представляет флаг Фрибусякцессенаблед (). Элемент Фрибусякцессенаблед предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: 4727e7054c02a4b5d454cb880691ecc01a075327
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c148d8fa1301339f8579884dc02b6c9e452f3035
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762657"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461298"
 ---
 # <a name="freebusyaccessenabled-soap"></a>Фрибусякцессенаблед (SOAP)
 
@@ -29,11 +29,11 @@ ms.locfileid: "19762657"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19762657"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

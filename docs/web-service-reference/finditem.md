@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f7624f5c-c390-4563-ab9a-08f1024fb914
 description: Элемент FindItem определяет запрос на поиск элементов в почтовом ящике.
-ms.openlocfilehash: 6664cd91007f1d39db7e8d446e0135f47d5ab932
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 3aeda1cffc03292734a91bc3fff3289d51c9b445
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353926"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460997"
 ---
 # <a name="finditem"></a>FindItem
 
@@ -139,7 +139,7 @@ ms.locfileid: "21353926"
 |[контактсвиев](contactsview.md) <br/> |Определяет Поиск элементов контактов на основе отображаемых имен в алфавитном порядке. Этот элемент является необязательным.  <br/> |
 |[GroupBy](groupby.md) <br/> |Задает произвольное группирование для запросов **FindItem** . Этот элемент является необязательным.  <br/> |
 |[дистингуишедграупби](distinguishedgroupby.md) <br/> |Предоставляет стандартные группирования для запросов **FindItem** . Этот элемент является необязательным.  <br/> |
-|[Restriction](restriction.md) <br/> |Определяет ограничение или запрос, используемый для фильтрации элементов или папок в операциях **FindItem**/ **FindFolder** и папок поиска. Этот элемент является необязательным.  <br/> |
+|[Restriction](restriction.md) <br/> |Определяет ограничение или запрос, используемый для фильтрации элементов или папок в операциях **FindItem** /  **FindFolder** и папок поиска. Этот элемент является необязательным.  <br/> |
 |[SortOrder](sortorder.md) <br/> |Определяет порядок сортировки элементов в запросе FindItem. Этот элемент является необязательным.  <br/> |
 |[парентфолдеридс](parentfolderids.md) <br/> |Определяет папки для поиска операций FindItem и FindFolder.  <br/> |
 |[Строка запроса (Куеристрингтипе)](querystring-querystringtype.md) <br/> |Содержит строку запроса к почтовому ящику на основе расширенного синтаксиса запросов (AQS).  <br/> |
@@ -158,7 +158,7 @@ ms.locfileid: "21353926"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -166,5 +166,5 @@ ms.locfileid: "21353926"
 ## <a name="see-also"></a>См. также
 
 - [Операция FindItem](finditem-operation.md)
-- [Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Поиск элементов](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

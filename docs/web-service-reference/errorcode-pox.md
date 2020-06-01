@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 064d73e4-45b7-4797-828e-9df590830db8
 description: Элемент ErrorCode содержит код ошибки для ответа на автообнаружение ошибок.
-ms.openlocfilehash: ede0230ed119c07a00c9681daa193dd2a5419926
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9dcd681c00aefcfb88f1f8a58be3aa2ccd0bb72b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762382"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460654"
 ---
 # <a name="errorcode-pox"></a>ErrorCode (POX)
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762382"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 91b18b6a-d904-476c-996d-b041e859da1e
 description: Элемент DeleteUserConfiguration представляет запрос на удаление объекта конфигурации пользователя.
-ms.openlocfilehash: e357c32f95cddc866b77b6f1172ab260837b061b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 04668ead48e7c321ed7e91cbbeb67c6154c02283
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762047"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460759"
 ---
 # <a name="deleteuserconfiguration"></a>DeleteUserConfiguration
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762047"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -46,7 +46,7 @@ ms.locfileid: "19762047"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -60,7 +60,7 @@ ms.locfileid: "19762047"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

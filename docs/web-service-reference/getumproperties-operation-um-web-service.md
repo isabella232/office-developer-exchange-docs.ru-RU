@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 301fb9a3-67df-44c4-8ffe-0600237fc344
 description: Операция GetUMProperties получает все свойства единой системы обмена сообщениями для почтового ящика пользователя, сделавшего запрос.
-ms.openlocfilehash: 8878099bbd907fe0648f7d64dde3cd9600c2c45f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 42176d9cd0288af6515aeea616a4f216a419410c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833678"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462474"
 ---
 # <a name="getumproperties-operation-um-web-service"></a>Операция GetUMProperties (веб-служба единой системы обмена сообщениями)
 
@@ -34,7 +34,7 @@ ms.locfileid: "19833678"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUMProperties xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <GetUMProperties xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
@@ -51,7 +51,7 @@ ms.locfileid: "19833678"
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <GetUMPropertiesResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUMPropertiesResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <GetUMPropertiesResponse>
         <OofStatus>false</OofStatus> 
         <MissedCallNotificationEnabled>true</MissedCallNotificationEnabled> 

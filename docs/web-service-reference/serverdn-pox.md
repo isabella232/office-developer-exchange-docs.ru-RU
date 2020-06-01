@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 2ef73d13-e8bb-43f6-96c7-3ee157fed739
 description: Элемент Сервердн указывает различающееся имя компьютера, на котором работает Microsoft Exchange Server 2007.
-ms.openlocfilehash: d2b9ce663d8245a78acd088b0622406c0dfcb4da
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 16c6e7368e221b7e54c8d7d63532bb29464a7e54
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835374"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461998"
 ---
 # <a name="serverdn-pox"></a>Сервердн (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19835374"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

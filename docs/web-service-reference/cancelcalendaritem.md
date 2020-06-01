@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: a2046402-a176-44d5-b4b3-adb696581935
 description: Элемент Канцелкалендаритем представляет объект Response, используемый для отмены собрания.
-ms.openlocfilehash: 262f60db33abac36156b069dc85e1fccb3522d5b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 45ad76d19bd43e2081aa9b9eb63547e091014803
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761664"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462257"
 ---
 # <a name="cancelcalendaritem"></a>канцелкалендаритем
 
@@ -46,14 +46,14 @@ ms.locfileid: "19761664"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Тема](subject.md) <br/> |Представляет свойство Subject элементов хранилища Exchange.  <br/> |
-|[Основной текст](body.md) <br/> |Не используется в **канцелкалендаритем**. Чтобы задать содержимое основного текста, используйте свойство [невбодиконтент](newbodycontent.md) .  <br/> |
+|[Body](body.md) <br/> |Не используется в **канцелкалендаритем**. Чтобы задать содержимое основного текста, используйте свойство [невбодиконтент](newbodycontent.md) .  <br/> |
 |[ToRecipients](torecipients.md) <br/> |Содержит набор получателей элемента. Далее представлены основные получателей элемента.  <br/> |
 |[CcRecipients](ccrecipients.md) <br/> |Представляет коллекцию получателей, которые будут получать копию сообщения.  <br/> |
 |[BccRecipients](bccrecipients.md) <br/> |Представляет коллекцию получателей для получения скрытой копии сообщения электронной почты.  <br/> |
@@ -83,7 +83,7 @@ ms.locfileid: "19761664"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

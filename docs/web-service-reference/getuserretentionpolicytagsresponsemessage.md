@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9991d6e0-8c31-4e73-8af3-da4298474b66
 description: Элемент Жетусерретентионполицитагсреспонсемессаже указывает ответное сообщение для запроса GetUserRetentionPolicyTags.
-ms.openlocfilehash: db73cb7f1922d845c9565753ff8d4917b82b1259
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e65266e72010f42a2052bbb8cfab21ea4059f92b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833701"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461809"
 ---
 # <a name="getuserretentionpolicytagsresponsemessage"></a>жетусерретентионполицитагсреспонсемессаже
 
@@ -36,11 +36,11 @@ ms.locfileid: "19833701"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md) | [респонсекоде](responsecode.md) | [RetentionPolicyTags](retentionpolicytags.md) [MessageXml](messagexml.md)[DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй мессажексмл ретентионполицитагс |  | 
+[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Ретентионполицитагс](retentionpolicytags.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19833701"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

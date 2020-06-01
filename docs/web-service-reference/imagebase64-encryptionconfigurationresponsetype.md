@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 16b97e95-a980-47eb-8108-28a70d3dfea4
 description: Элемент ImageBase64 предназначен только для внутреннего использования.
-ms.openlocfilehash: 667a822359369ce332f8080dd004d1fe1b86e4fa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cbe36bef7ce9b9f68ebc0dff69c3c62090fce996
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833882"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460717"
 ---
 # <a name="imagebase64-encryptionconfigurationresponsetype"></a>ImageBase64 (Енкриптионконфигуратионреспонсетипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19833882"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

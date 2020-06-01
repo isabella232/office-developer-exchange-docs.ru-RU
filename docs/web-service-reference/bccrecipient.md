@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4ef0cff5-8a5a-4d76-9d2b-938774d8fc1b
 description: Элемент БккреЦипиент представляет получателя, который получает скрытую копию (BCC) сообщения электронной почты.
-ms.openlocfilehash: bed58536263196a61651493e92a4dcd1df3f5ec9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8296af1d74338bdfb1f4cb7bc7449ad91a9cd531
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761550"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461529"
 ---
 # <a name="bccrecipient"></a>бккреЦипиент
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761550"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761550"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

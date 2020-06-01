@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 917481bb-46fc-4b88-8683-4cf812dcb0ab
 description: Элемент Организатионрелатионшипсеттингс представляет список отношений Организации для одной организации. Элемент Организатионрелатионшипсеттингс предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: ed6cc0ef1891cd92c02a8e088e913886048623ee
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 383b3635e1435c6597ccf793a7990c411c02d36d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834660"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462460"
 ---
 # <a name="organizationrelationshipsettings-soap"></a>Организатионрелатионшипсеттингс (SOAP)
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834660"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -67,13 +67,13 @@ ms.locfileid: "19834660"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

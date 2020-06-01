@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7f7119b7-f5b4-484d-a7de-fa74836d9aee
 description: Элемент Contact указывает контакт в едином хранилище контактов.
-ms.openlocfilehash: f1593da78a46851c7db43abc567eb66c0c74e0f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e8ebc28456f8bfc26f5d790ac9ff278930041ea0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761726"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461522"
 ---
 # <a name="contact-contacttype"></a>Контактное лицо (Контакттипе)
 
@@ -37,7 +37,7 @@ ms.locfileid: "19761726"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19761726"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

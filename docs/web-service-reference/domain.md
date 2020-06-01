@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7e45a061-856f-4b44-b053-a7c4d5ad569e
 description: Элемент Domain определяет один домен SMTP.
-ms.openlocfilehash: 78eb1edfd347a513b84b9c15d143d76425041e85
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3bf8e132b5fa588171ac4f3c095692bc68394663
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762206"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461333"
 ---
 # <a name="domain"></a>Домен
 
@@ -41,7 +41,7 @@ ms.locfileid: "19762206"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19762206"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

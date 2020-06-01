@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f34fb6f6-057e-4ae3-8e10-bc92112eafba
 description: Элемент Фаиледмаилбоксес указывает массив почтовых ящиков, которые не удалось найти.
-ms.openlocfilehash: f68cc29dc9da3b1b74369aa21cde65866e42f3b8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 10f10d3f2ac4379d7ddcb3a13019d17a17bb676a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762521"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461956"
 ---
 # <a name="failedmailboxes"></a>фаиледмаилбоксес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762521"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762521"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

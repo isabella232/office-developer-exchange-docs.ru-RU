@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: a4a953b8-0710-416c-95ef-59e51eba9982
 description: Элемент CalendarView определяет операцию FindItem, возвращая элементы календаря в наборе в том виде, в котором они отображаются в календаре.
-ms.openlocfilehash: 79b5ad268a8013092c1122c99bdcd10d876abf2c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e547a4b2db5c09ebefd9a072da6cc4733818002e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761659"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462264"
 ---
 # <a name="calendarview"></a>CalendarView
 
@@ -47,7 +47,7 @@ ms.locfileid: "19761659"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -172,9 +172,9 @@ ms.locfileid: "19761659"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindItem Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItem Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
         <t:AdditionalProperties>
@@ -196,7 +196,7 @@ ms.locfileid: "19761659"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -204,5 +204,5 @@ ms.locfileid: "19761659"
 ## <a name="see-also"></a>См. также
 
 - [Операция FindItem](finditem-operation.md)
-- [Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Поиск элементов](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

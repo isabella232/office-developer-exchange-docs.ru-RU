@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 55e17121-aad0-4f90-889f-2c3512e9579c
 description: Элемент Канделете указывает, может ли клиент удалить управляемую папку.
-ms.openlocfilehash: b70b28bd6b3c9452f5d7f249f453218d555754da
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5fe16c276bdb0c5b3b73ca63099559d3e869db3e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761665"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461592"
 ---
 # <a name="candelete"></a>канделете
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761665"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19761665"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -75,5 +75,5 @@ ms.locfileid: "19761665"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Удаление папок](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
+[Удаление папок](https://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
 

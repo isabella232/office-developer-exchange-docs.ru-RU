@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 034199c1-cdc3-48b8-a2cc-69bbfcdc5ce4
 description: Элемент Делетеусерконфигуратионреспонсе определяет ответ на один запрос DeleteUserConfiguration.
-ms.openlocfilehash: 79a700af3f5fdf8904264b90330bd4ae00553e86
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2cf1e6d30f97d6ed819a1dc8259971ffc8c16435
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762054"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460745"
 ---
 # <a name="deleteuserconfigurationresponse"></a>делетеусерконфигуратионреспонсе
 
@@ -34,7 +34,7 @@ ms.locfileid: "19762054"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -44,7 +44,7 @@ ms.locfileid: "19762054"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -58,7 +58,7 @@ ms.locfileid: "19762054"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

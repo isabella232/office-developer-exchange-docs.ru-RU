@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 0ce51644-7f3a-408c-a398-814439b658dc
 description: Элемент Server указывает имя почтового сервера.
-ms.openlocfilehash: fafd6684d0857bd8b7e1bac0aae0ed162a6a938a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6b29b153bc75b8836bfa113e126d122d620c2984
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835369"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462012"
 ---
 # <a name="server-pox"></a>Сервер (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19835369"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

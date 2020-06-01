@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6c971cf7-5c3a-4e5e-9a7d-048f4ac0aadb
 description: Элемент Аппровалрекуестдата указывает состояние утверждения сообщения с запросом на утверждение.
-ms.openlocfilehash: ed1c1e3db4edd2cf4de032dc61abd73e863d4f1d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: decbd4d646a56b9810387adcdb6a9049da89bc38
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761483"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462306"
 ---
 # <a name="approvalrequestdata"></a>аппровалрекуестдата
 
@@ -35,15 +35,15 @@ ms.locfileid: "19761483"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ИсундеЦидедаппровалрекуест](isundecidedapprovalrequest.md) | [ApprovalDecision](approvaldecision.md)аппровалдеЦисион | [ApprovalDecisionMaker](approvaldecisionmaker.md)аппровалдеЦисионмакер | [аппровалдеЦисионтиме](approvaldecisiontime.md)
+[ИсундеЦидедаппровалрекуест](isundecidedapprovalrequest.md)  |  [АппровалдеЦисион](approvaldecision.md)  |  [АппровалдеЦисионмакер](approvaldecisionmaker.md)  |  [АппровалдеЦисионтиме](approvaldecisiontime.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Сообщение](message-ex15websvcsotherref.md)
+[Message](message-ex15websvcsotherref.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -55,13 +55,13 @@ ms.locfileid: "19761483"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Сообщение](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

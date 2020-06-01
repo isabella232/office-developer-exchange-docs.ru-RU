@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f157e44c-b950-463f-b086-31d5da94b7ff
 description: 'Дата последнего изменения: 17 сентября 2015 г.'
-ms.openlocfilehash: 4b814def8eef8fb452d2e754c5f6787d644055f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8a58444580c803efb7312df95d75d697bc42e8e0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761314"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461844"
 ---
 # <a name="messagesnapshot"></a>мессажеснапшот
 
@@ -48,7 +48,7 @@ ms.locfileid: "19761314"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

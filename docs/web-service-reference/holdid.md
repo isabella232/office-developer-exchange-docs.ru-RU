@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d2ec9ea4-cc25-48c3-9b35-a479a41b6b48
 description: Элемент Холдид содержит идентификатор удержания почтового ящика.
-ms.openlocfilehash: 890bcb10a084aade2b9762628f3e91851fe9e04b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 09a8fbe7f48f409dd340d8a4d56d7feec451d5e5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833812"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460934"
 ---
 # <a name="holdid"></a>холдид
 
@@ -30,15 +30,15 @@ ms.locfileid: "19833812"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[GetHoldOnMailboxes](getholdonmailboxes.md) | [SetHoldOnMailboxes](setholdonmailboxes.md)SetHoldOnMailboxes | [маилбоксхолдресулт](mailboxholdresult.md)
+[GetHoldOnMailboxes](getholdonmailboxes.md)  |  [SetHoldOnMailboxes](setholdonmailboxes.md)  |  [Маилбоксхолдресулт](mailboxholdresult.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19833812"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

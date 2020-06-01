@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 23c24437-8dab-4c86-888d-471d23af675a
 description: Элемент Глобалсизе содержит размер диалога, вычисленный на основе размера всех элементов бесед в почтовом ящике.
-ms.openlocfilehash: 15424758be9bfaf3b1c467b2370ca04718ab87ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d23ab080dadb006cd5eff9d712d081fe7d94a2a8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833738"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462453"
 ---
 # <a name="globalsize"></a>глобалсизе
 
@@ -42,11 +42,11 @@ ms.locfileid: "19833738"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19833738"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -80,5 +80,5 @@ ms.locfileid: "19833738"
 [Операция ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: eabb2f12-10a7-4ce2-ae4b-9c04010c765f
 description: 'Дата последнего изменения: 17 сентября 2015 г.'
-ms.openlocfilehash: 4a34eedfc16d64cbfa67003ed23cf6eba2bb4bad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f192965a8375eb46d1ca5b46d3b768a3299c284d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761317"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461837"
 ---
 # <a name="mexruntime"></a>мексрунтиме
   
@@ -43,7 +43,7 @@ ms.locfileid: "19761317"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 4e051617-4eea-47d0-871a-ea1f17a0f711
 description: Элемент Users представляет коллекцию адресов электронной почты пользователей, для которых необходимо извлечь параметры.
-ms.openlocfilehash: d7655f0020a315dcb32adbbc58610ca0e630c1fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 851447a2918e365b7c5d8812a61c9d425d26ffa2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840440"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461900"
 ---
 # <a name="users-soap"></a>Пользователи (SOAP)
 
@@ -26,14 +26,14 @@ ms.locfileid: "19840440"
 </Users>
 ```
 
- **пользователи**;
+ **Пользовательские**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
 В следующих разделах описываются атрибуты, дочерние и родительские элементы.
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -50,13 +50,13 @@ ms.locfileid: "19840440"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

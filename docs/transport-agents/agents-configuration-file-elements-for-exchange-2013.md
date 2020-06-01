@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3047653b-d712-46c1-ae0a-73f3975f5e9d
 description: Найдите сведения об элементах XML в файле конфигурации Agents. config и фетажентс. config в Exchange 2013.
-ms.openlocfilehash: dd58c4bc21a968db2ca5b13e0c53f7058b29f233
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f19fe8316a78cef668db881e630562d3be8be64a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761294"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461571"
 ---
 # <a name="agents-configuration-file-elements-for-exchange-2013"></a>Элементы файла конфигурации агентов для Exchange 2013
 
@@ -29,7 +29,7 @@ ms.locfileid: "19761294"
   
 Внешняя служба транспорта работает на серверах клиентского доступа и выполняет запись в файл с именем фетажентс. config. Служба транспорта и служба транспорта почтовых ящиков выполняются на серверах почтовых ящиков и записываются в файл с именем Agents. config. У компьютера, у которого есть роль сервера клиентского доступа и роль сервера почтовых ящиков, есть файл фетажентс. config и Agents. config. 
   
-Единственный поддерживаемый способ записи в эти файлы — использование командлетов агента транспорта в командной консоли Exchange. Сведения о командлетах агента транспорта можно найти в разделе [командлеты обработки почты](http://technet.microsoft.com/en-us/library/aa998553%28v=exchg.150%29.aspx) на сайте TechNet. 
+Единственный поддерживаемый способ записи в эти файлы — использование командлетов агента транспорта в командной консоли Exchange. Сведения о командлетах агента транспорта можно найти в разделе [командлеты обработки почты](https://technet.microsoft.com/library/aa998553%28v=exchg.150%29.aspx) на сайте TechNet. 
   
 > [!NOTE]
 > Для различения агентов, расширяющих службу транспорта переднего плана на сервере клиентского доступа и транспортной службе на сервере почтовых ящиков, Командлеты агента транспорта имеют параметр _TransportService_ со значением "Hub" для транспортной службы и сервера переднего плана для внешней серверной службы транспорта. 
@@ -42,7 +42,7 @@ ms.locfileid: "19761294"
 ## <a name="location-of-the-transport-agent-configuration-files"></a>Расположение файлов конфигурации агента транспорта
 <a name="bk_ConfigLoc"> </a>
 
-При установке Exchange 2013 установщик создает XML-файл с именем Agents. config. Template или фетажентс. config. Template в зависимости от установленной роли сервера, в \<папке ексчанжеинсталлфолдер\>\транспортролес\ажентс (где \<ексчанжеинсталлфолдер\> — папка, в которой установлено Exchange 2013). При установке роли сервера клиентского доступа Exchange 2013 копирует файл фетажентс. config. Template в фетажентс. config. При установке роли сервера почтовых ящиков Exchange 2013 копирует файл Agents. config. Template в Agents. config. Exchange 2013 считывает и записывает этот файл при изменении конфигурации агентов транспорта на сервере.
+При установке Exchange 2013 установщик создает XML-файл с именем Agents. config. Template или фетажентс. config. Template в зависимости от установленной роли сервера, в \<ExchangeInstallFolder\> папке \транспортролес\ажентс (где \<ExchangeInstallFolder\> — Папка, в которой установлено Exchange 2013). При установке роли сервера клиентского доступа Exchange 2013 копирует файл фетажентс. config. Template в фетажентс. config. При установке роли сервера почтовых ящиков Exchange 2013 копирует файл Agents. config. Template в Agents. config. Exchange 2013 считывает и записывает этот файл при изменении конфигурации агентов транспорта на сервере.
   
 ## <a name="verifying-a-transport-agent-installation"></a>Проверка установки агента транспорта
 <a name="bk_verifyinstall"> </a>
@@ -70,7 +70,7 @@ ms.locfileid: "19761294"
 </configuration>
 ```
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этой статье
 <a name="bk_elementreflist"> </a>
 
 - [агента](agent.md)
@@ -93,6 +93,6 @@ ms.locfileid: "19761294"
 - [Основные понятия, связанные с агентами транспорта в Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
 - [Справочник по агентам транспорта для Exchange 2013](transport-agent-reference-for-exchange-2013.md)
 - [Пространства имен агента транспорта в Exchange 2013](transport-agent-namespaces-in-exchange-2013.md)
-- [Командлеты почтового процесса](https://docs.microsoft.com/en-us/powershell/exchange/?view=exchange-ps)
+- [Командлеты почтового процесса](https://docs.microsoft.com/powershell/exchange/?view=exchange-ps)
     
 

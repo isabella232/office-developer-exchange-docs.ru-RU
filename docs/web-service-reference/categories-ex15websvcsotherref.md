@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d84d4927-b524-4e62-bf3d-1f12fec8c21a
 description: Элемент Categories содержит коллекцию строк, определяющих категории, к которым относится элемент в почтовом ящике.
-ms.openlocfilehash: 8f112a9a736ff4f242b9dfb084b3ad7541cc493d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0d9f7068aa81306a10436ed0ca0d45f6d3b2c3a3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761673"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462215"
 ---
 # <a name="categories"></a>Категории
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761673"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -76,7 +76,7 @@ ms.locfileid: "19761673"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

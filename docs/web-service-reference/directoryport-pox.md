@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: ab436b54-ceba-4cd9-aeb4-134f9b93986d
 description: Элемент Директорипорт указывает порт, используемый для подключения к каталогу при использовании протокола интерфейса поставщика услуг имен (NSPI).
-ms.openlocfilehash: 1b73b9cd1d21c73f4e897684371993312f741322
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2ba0a15cea0b4eb9b6069fab384edb3d9747a360
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762109"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462089"
 ---
 # <a name="directoryport-pox"></a>Директорипорт (POX)
 
@@ -36,11 +36,11 @@ ms.locfileid: "19762109"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

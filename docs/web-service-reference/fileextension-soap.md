@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1864182b-26f1-444e-b697-a654c2f68982
 description: Элемент FileExtension представляет расширение файла.
-ms.openlocfilehash: fb3af508d3b4033871f349eac35ddc270c9d9cb6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a96a1eaa7339021188a768a980c13350be00e8ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762546"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461011"
 ---
 # <a name="fileextension-soap"></a>FileExtension (SOAP)
 
@@ -29,11 +29,11 @@ ms.locfileid: "19762546"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,7 +49,7 @@ ms.locfileid: "19762546"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

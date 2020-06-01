@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 97786086-8b91-4471-8af8-d21e8d66de87
 description: Элемент Форвардитем содержит элемент хранилища Exchange для пересылки получателям.
-ms.openlocfilehash: 8a82ff28ad1d0dc965a3284c1d0eac9b2fa38301
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dcc9a3eb2bf1cdd80680ef9142d22f5281437922
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762642"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461319"
 ---
 # <a name="forwarditem"></a>форвардитем
 
@@ -48,14 +48,14 @@ ms.locfileid: "19762642"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Тема](subject.md) <br/> |Представляет свойство Subject элементов хранилища Exchange.  <br/> |
-|[Основной текст](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
+|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
 |[ToRecipients](torecipients.md) <br/> |Содержит набор получателей элемента. Далее представлены основные получателей элемента.  <br/> |
 |[CcRecipients](ccrecipients.md) <br/> |Представляет коллекцию получателей, которые будут получать копию сообщения.  <br/> |
 |[BccRecipients](bccrecipients.md) <br/> |Представляет коллекцию получателей для получения скрытой копии сообщения электронной почты.  <br/> |
@@ -86,7 +86,7 @@ ms.locfileid: "19762642"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c1cc609b-65ff-4998-8d2b-545f0fdcb54c
 description: Элемент Metadata содержит метаданные о почтовом приложении.
-ms.openlocfilehash: 8dd3a3db5a5e0afc1a23dad44d70fa3353c796f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b7dd13936a25a43394b9a2d5eea8808fe08b4eb6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834459"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460591"
 ---
 # <a name="metadata"></a>Метаданные
 
@@ -33,11 +33,11 @@ ms.locfileid: "19834459"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Енднодеурл](endnodeurl.md) | [AppStatus](appstatus-ex15websvcsotherref.md)аппстатус | [актионурл](actionurl.md)
+[Енднодеурл](endnodeurl.md)  |  [Аппстатус](appstatus-ex15websvcsotherref.md)  |  [Актионурл](actionurl.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834459"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> | http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> | https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Неприменимо  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

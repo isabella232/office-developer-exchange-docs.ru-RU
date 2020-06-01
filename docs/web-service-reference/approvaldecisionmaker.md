@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 12e055c3-e7a4-4dbc-8385-bbf69571a0ce
 description: Элемент АппровалдеЦисионмакер указывает отображаемое имя пользователя, который принял решение об утверждении.
-ms.openlocfilehash: e2b5b612006c2ac732e5978d8a6126f9567ff17a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d64b9d1816d4df99093ef4d60610e9946f3f98ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761481"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461648"
 ---
 # <a name="approvaldecisionmaker"></a>аппровалдеЦисионмакер
 
@@ -30,11 +30,11 @@ ms.locfileid: "19761481"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19761481"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

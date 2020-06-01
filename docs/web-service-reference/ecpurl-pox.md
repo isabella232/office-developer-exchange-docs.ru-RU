@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7cbd6076-9981-4c65-a296-5e57518671b5
 description: Элемент Екпурл указывает URL-адрес панели управления Exchange для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: 7021ce7129db87d85a35b8274ead9e94f5a59e1a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b761147dc5912652bca2847bd5ec0d305e0624b3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762240"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461277"
 ---
 # <a name="ecpurl-pox"></a>Екпурл (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762240"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

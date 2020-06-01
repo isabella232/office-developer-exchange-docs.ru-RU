@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6d5efe59-596f-46f8-bdc6-ca9cded9bb8e
 description: Элемент Delegate определяет запрос на получение сведений о делегатах для почтового ящика. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: e31d6bd4f4387094beb467fcc4dff31ca7ec5d62
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bd7fb55800b51eb2d69184bc4e04cdef3e6b9a89
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762745"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461032"
 ---
 # <a name="getdelegate"></a>GetDelegate
 
@@ -67,7 +67,7 @@ ms.locfileid: "19762745"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

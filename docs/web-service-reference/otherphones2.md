@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d2932d04-4427-4fc7-97a1-1c57cf736072
 description: Элемент OtherPhones2 указывает массив значений телефона и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: b00a8299b406ee3fd5ff8cbe5c4d861b8782beaf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3b33005e4001fd675c2ea2b6f8446648db23c8d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834674"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462355"
 ---
 # <a name="otherphones2"></a>OtherPhones2
 
@@ -33,7 +33,7 @@ ms.locfileid: "19834674"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834674"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8ea43d5a-4bcf-497e-a559-6efe94fa604b
 description: Элемент Хомефонес указывает массив номеров домашнего телефона и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 487d37e6a18bbd480a814de7570b0789f148096e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b55d6ca752a5b00a27eb158c6a22412a9f4ecdda
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833844"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460836"
 ---
 # <a name="homephones"></a>хомефонес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19833844"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19833844"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

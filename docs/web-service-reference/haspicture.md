@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 922a43fe-01bd-49f2-9261-e00e4699b8da
 description: Элемент Хаспиктуре указывает, имеет ли элемент Contact вложенный файл, представляющий изображение контакта.
-ms.openlocfilehash: 8f6890ec2bcc9a961f69331fb20f5cad8a59bf38
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0f0758e38807587d47b9469f40b10bd9c6ea5012
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833806"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462439"
 ---
 # <a name="haspicture"></a>HasPicture
 
@@ -38,11 +38,11 @@ ms.locfileid: "19833806"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19833806"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

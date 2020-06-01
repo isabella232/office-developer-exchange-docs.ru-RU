@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: cb5e64a2-66a5-4447-921e-7c13efb8f6bf
 description: Элемент create определяет отдельный элемент для создания в локальном хранилище клиента.
-ms.openlocfilehash: d49e54c64f7bd53dcb296d998a856c20570d81be
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: b9c0f28333594a6c17ee9581a227fc4773874fd6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353947"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460801"
 ---
 # <a name="create-itemsync"></a>Create (Итемсинк)
 
@@ -97,14 +97,14 @@ ms.locfileid: "21353947"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Элемент](item.md) <br/> |Представляет общий элемент Exchange для создания.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет создаваемое сообщение электронной почты Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент Exchange для создания.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Представляет создаваемое сообщение электронной почты Exchange.  <br/> |
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange, который необходимо создать.  <br/> |
 |[контакт](contact.md); <br/> |Представляет элемент контакта Exchange, который необходимо создать.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет создаваемый список рассылки.  <br/> |
@@ -128,7 +128,7 @@ ms.locfileid: "21353947"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
