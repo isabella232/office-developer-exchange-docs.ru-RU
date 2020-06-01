@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a796535-7e83-4aa8-850a-d217059050f8
 description: Элемент Term указывает выделенный термин в отклике FindConversation или FindItem.
-ms.openlocfilehash: cef2ecd7c51b61ccff2c7261a7a612095047956c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fb102e21d6e7866110735cacd60cd2c3c68a9675
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840153"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459492"
 ---
 # <a name="term"></a>Термин
 
@@ -33,11 +33,11 @@ ms.locfileid: "19840153"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Значение scope (хигхлигхттермтипе)](scope-highlighttermtype.md) | [Value](value.md)
+[Область действия (хигхлигхттермтипе)](scope-highlighttermtype.md)  |  [Value (значение](value.md) )
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19840153"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

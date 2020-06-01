@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 769df8eb-9c72-48b5-a49f-82c6b86bc5fc
 description: Элемент GetItem определяет запрос на получение элемента из почтового ящика в хранилище Exchange.
-ms.openlocfilehash: 39db141bad62c34bec5ae6a937ba94c2d1288090
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a02403ee84195a41387d5dbe1785ae6d12b47da5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762838"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458700"
 ---
 # <a name="getitem"></a>GetItem
 
@@ -37,7 +37,7 @@ ms.locfileid: "19762838"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19762838"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

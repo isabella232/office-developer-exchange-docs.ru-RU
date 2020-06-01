@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b0a7f114-d040-40eb-a8f3-05ea6489e472
 description: Операция UpdateItem используется для обновления свойств элемента задачи в хранилище Exchange.
-ms.openlocfilehash: d6f966fa663300b476383a136d30cf611d6bfb9b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0041af114d11fd9577037dd154e40b84e8483c35
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840352"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459807"
 ---
 # <a name="updateitem-operation-task"></a>Операция UpdateItem (Task)
 

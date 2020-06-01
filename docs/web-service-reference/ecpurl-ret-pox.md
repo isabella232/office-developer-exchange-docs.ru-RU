@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5f090fd2-b0c4-4ca0-a959-1433d73a2069
 description: Элемент Екпурл-RET указывает частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для доступа к параметрам тегов хранения для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: 366a7a79c0f3c19b2cfef21c01826e62b0e95793
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1f6878dc58bb01fca6a56fdd645efd3363a3d442
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458693"
 ---
 # <a name="ecpurl-ret-pox"></a>Екпурл-RET (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762249"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

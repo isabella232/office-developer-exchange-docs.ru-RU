@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0f2cbb05-338d-4302-8871-a06e78b33f98
 description: Элемент имена внутренних доменов определяет список внутренних доменов SMTP Организации.
-ms.openlocfilehash: f37a31f4348a7eb0024656489f249dec349bc67b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ec7ef2d72ae922c751f8f50b72ff7d6b31b212ca
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833953"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459968"
 ---
 # <a name="internaldomains-smtpdomainlist"></a>Имена внутренних доменов (Смтпдомаинлист)
 
@@ -36,7 +36,7 @@ ms.locfileid: "19833953"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -65,7 +65,7 @@ ms.locfileid: "19833953"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

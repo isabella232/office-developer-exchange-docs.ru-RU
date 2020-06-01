@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f471db84-a666-4dfa-9993-8ca9113a0384
 description: Элемент Максчанжесретурнед описывает максимальное число изменений, которые могут быть возвращены в ответе синхронизации.
-ms.openlocfilehash: c3719b12b7e3e2f83a9454c7b68432b375d78614
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: caf96b6e95f2e63d0e544ead26fbea18cd637861
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834395"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460087"
 ---
 # <a name="maxchangesreturned"></a>максчанжесретурнед
 
@@ -38,11 +38,11 @@ ms.locfileid: "19834395"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834395"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

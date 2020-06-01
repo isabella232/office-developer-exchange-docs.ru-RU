@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: faf0cea7-cdec-431d-ba8d-f1492fd6ae94
 description: Элемент Жетенкриптионконфигуратион предназначен только для внутреннего использования.
-ms.openlocfilehash: d235ed182ffdd2c181359b6e869c613da9a9dd74
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 682d24ac8b0702723f9413a63ce42e81f1cdba6e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762768"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458735"
 ---
 # <a name="getencryptionconfiguration"></a>жетенкриптионконфигуратион
 
@@ -25,11 +25,11 @@ ms.locfileid: "19762768"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

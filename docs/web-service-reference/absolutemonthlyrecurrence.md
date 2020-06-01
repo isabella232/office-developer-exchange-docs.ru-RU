@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 178fa0ae-9dfc-417f-933c-d657d31c2161
 description: Элемент Абсолутемонслирекурренце представляет месячный шаблон повторения.
-ms.openlocfilehash: f4613fa71a9164c45b60a82f675959817cd4bdd5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3176cd30a1cfe7b2310f960ce377ab7a277e795a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762473"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460437"
 ---
 # <a name="absolutemonthlyrecurrence"></a>абсолутемонслирекурренце
 
@@ -37,7 +37,7 @@ ms.locfileid: "19762473"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19762473"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

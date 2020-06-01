@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2b190823-b11e-4635-97e4-3aba5865fd05
 description: Элемент Румлистс — это список из одного или нескольких адресов, которые представляют список комнат для собраний.
-ms.openlocfilehash: eb03c34aeb5d80c4a9c6c92471e4094c63f04c87
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8f6393b617331e5878e48113c94ca3546cba095e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835252"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459050"
 ---
 # <a name="roomlists"></a>румлистс
 
@@ -38,7 +38,7 @@ ms.locfileid: "19835252"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19835252"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

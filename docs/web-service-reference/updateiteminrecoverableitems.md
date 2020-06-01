@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c49816b1-dbb5-4716-86c7-30790e86f30e
 description: Элемент Упдатеитеминрековераблеитемс указывает запрос на обновление элемента в элементах с возможностью восстановления.
-ms.openlocfilehash: 768de4bb8abe4780ab520405bae3149b8f17637c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f3dae55097c613b84a80795185baad559e312b90
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840349"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459786"
 ---
 # <a name="updateiteminrecoverableitems"></a>упдатеитеминрековераблеитемс
 
@@ -35,11 +35,11 @@ ms.locfileid: "19840349"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Обновления ItemId](itemid.md) | [(элемент)](updates-item.md) | [вложения](attachments-ex15websvcsotherref.md) | [макеитемиммутабле](makeitemimmutable.md)
+[ItemId](itemid.md)  |  [Обновления (элемент)](updates-item.md)  |  [Вложения](attachments-ex15websvcsotherref.md)  |  [Макеитемиммутабле](makeitemimmutable.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19840349"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

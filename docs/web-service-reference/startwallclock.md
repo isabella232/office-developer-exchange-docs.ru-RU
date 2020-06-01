@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ae2292f-fc5f-49fa-88a7-34ba86ff21f9
 description: Элемент Стартваллклокк указывает время начала собрания в часовом поясе, где выполняется собрание.
-ms.openlocfilehash: 24fcc314daf1732b5167e1fa865e6f544ca34db6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6022de4659dd12579b0545b5d3ffd2ea9b8a103d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835569"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460010"
 ---
 # <a name="startwallclock"></a>стартваллклокк
 
@@ -31,15 +31,15 @@ ms.locfileid: "19835569"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Календаритем](calendaritem.md) | [свойство meetingrequest](meetingrequest.md)
+[Календаритем](calendaritem.md)  |  [Свойство meetingrequest](meetingrequest.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835569"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

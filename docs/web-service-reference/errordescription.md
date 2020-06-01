@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 409c7893-7b69-4b0b-9d5b-112a0dfacde7
 description: Элемент Еррордескриптион описывает сообщение об ошибке, которое возвращается в сведениях о элементе, который невозможно индексировать.
-ms.openlocfilehash: 458604282942472d83c2794bd0b7403284ac1df1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d12e8b3dfc377097f649ef6f863bc59c1a59df9a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762381"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460073"
 ---
 # <a name="errordescription"></a>еррордескриптион
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762381"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762381"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b219f315-c20a-4633-af3e-94bd3e4526b6
 description: Элемент Фромаддрессес указывает адреса электронной почты, из которых должны отправляться входящие сообщения, чтобы применялось условие или исключение.
-ms.openlocfilehash: 40ecb1f3e16ad961b8e4c38d5aa9d15f4f74469a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4fbb44d02f5010c4395cf691cb6160da4dbb6930
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762664"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459541"
 ---
 # <a name="fromaddresses"></a>фромаддрессес
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762664"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19762664"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

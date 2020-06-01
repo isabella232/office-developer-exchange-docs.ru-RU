@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 15790d5a-5134-457b-8f2b-d9dee1f807a2
 description: Элемент сдвига представляет общее смещение от времени в формате UTC. Это значение представлено в минутах.
-ms.openlocfilehash: 43613593565ca15be97bd2a98dbe5c512dbe5fc7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d95284aa28e59542d1a1ee40686163138b015702
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761559"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460248"
 ---
 # <a name="bias-utc"></a>Сдвиг (UTC)
 
@@ -37,11 +37,11 @@ ms.locfileid: "19761559"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19761559"
 В приведенном ниже примере показана часть XML-запроса, которая определяет смещение в 8 часов от времени в формате UTC для клиентского приложения.
   
 ```xml
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -85,7 +85,7 @@ ms.locfileid: "19761559"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -94,5 +94,5 @@ ms.locfileid: "19761559"
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)  
 - [Bias](bias.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

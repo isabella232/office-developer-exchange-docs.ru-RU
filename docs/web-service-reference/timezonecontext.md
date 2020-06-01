@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 573c462b-aa1d-4ba0-8852-e3f48b26873b
 description: Элемент Тимезонеконтекст используется в заголовке протокола SOAP, чтобы указать определение часового пояса, которое будет использоваться по умолчанию при назначении часового пояса для свойств объекта DateTime, которые создаются, обновляются и извлекаются с помощью веб-служб Exchange (EWS).
-ms.openlocfilehash: 38b7ab4c587adac45fc3bcf351f417ea72313a97
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 26727317ccf34338e8d62ec92bd7a44d43a6cfdb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840191"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460255"
 ---
 # <a name="timezonecontext"></a>тимезонеконтекст
 
@@ -36,7 +36,7 @@ ms.locfileid: "19840191"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19840191"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

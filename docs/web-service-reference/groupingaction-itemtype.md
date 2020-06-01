@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 655175bd-8a3b-4dfc-8881-84e4927c1df1
 description: Элемент Граупингактион (ItemType) предназначен только для внутреннего использования.
-ms.openlocfilehash: aa252ad41f933eeb05b722d3143b680bc3910985
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a442800f98ca3f7691d801d33e5d28d706a34b26
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833759"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460479"
 ---
 # <a name="groupingaction-itemtype"></a>Граупингактион (ItemType)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19833759"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

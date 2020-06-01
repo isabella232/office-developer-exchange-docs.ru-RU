@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: a5ee2504-db84-49ee-870c-cca9269f2e26
 description: Элемент Енддатерекурренце описывает дату начала и дату окончания расписания повторения элемента.
-ms.openlocfilehash: 73450bf69c6b122e806d85011975159e348ad740
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e8ae72012e5bcac8d8b2a06b6d3a9b3a7caf30d7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762350"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460150"
 ---
 # <a name="enddaterecurrence"></a>енддатерекурренце
 
@@ -37,7 +37,7 @@ ms.locfileid: "19762350"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19762350"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

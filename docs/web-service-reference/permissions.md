@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2ba50bd9-819f-4e5f-a3bb-85a0a87d8a86
 description: Элемент Permissions содержит коллекцию разрешений для папки.
-ms.openlocfilehash: 08d015c3b1afb58fce0fb4b99466965cc5c29fc6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b8616cefdb8c453106753fb0788a6c7d6a0ded79
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834727"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459218"
 ---
 # <a name="permissions"></a>Разрешения
 
@@ -36,7 +36,7 @@ ms.locfileid: "19834727"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19834727"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -76,5 +76,5 @@ ms.locfileid: "19834727"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

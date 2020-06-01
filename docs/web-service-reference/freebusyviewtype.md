@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7c7f82ba-fa52-4a3e-bec7-39d373c66fc7
 description: Элемент Фрибусивиевтипе представляет тип сведений о занятости, возвращаемых в ответе.
-ms.openlocfilehash: fe965d062f72d99dff7148f4d00b12fd8c4e1366
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3556ad236693ac9aa018b8aa3af7843765da6aa4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762675"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459569"
 ---
 # <a name="freebusyviewtype"></a>фрибусивиевтипе
 
@@ -44,11 +44,11 @@ ms.locfileid: "19762675"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -118,7 +118,7 @@ ms.locfileid: "19762675"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -132,5 +132,5 @@ ms.locfileid: "19762675"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

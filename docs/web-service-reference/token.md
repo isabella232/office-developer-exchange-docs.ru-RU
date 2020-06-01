@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 62b700e1-88c7-41ef-b431-d7af4a8b54a7
 description: Элемент Token содержит зашифрованные данные, представляющие маркер идентификации для общих данных.
-ms.openlocfilehash: cec11d9f2c24a250483c5be6e273f981fdf0a8e6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c2e80082f9b4ecb96defdca8c5f0223a945661ba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840209"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458910"
 ---
 # <a name="token"></a>Маркер
 
@@ -34,11 +34,11 @@ ms.locfileid: "19840209"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19840209"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

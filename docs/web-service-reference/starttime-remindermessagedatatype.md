@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cdfc4edd-463c-409b-9bef-6fb915d00b99
 description: Элемент StartTime (Реминдермессажедататипе) указывает время начала элемента, для которого предназначено напоминание.
-ms.openlocfilehash: 2e3226d4a611a3abd46e7d6d73e800b74dd31f59
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bdd940656d5441a0a36cfcef8f4e0b5db1474a7a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835561"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459001"
 ---
 # <a name="starttime-remindermessagedatatype"></a>StartTime (Реминдермессажедататипе)
 
@@ -31,11 +31,11 @@ ms.locfileid: "19835561"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835561"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

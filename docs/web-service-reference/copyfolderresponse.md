@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5bfbb4d3-e2ed-4b84-96f7-2175f1947aed
 description: Элемент Копифолдерреспонсе определяет ответ на запрос CopyFolder.
-ms.openlocfilehash: 2f95089b9cb61e9e0047d02968d59d483fd7cdba
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: aaf5d2bde8c9ba6b0c8aa6345af39dd9a6006ae5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761840"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458518"
 ---
 # <a name="copyfolderresponse"></a>копифолдерреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761840"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761840"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

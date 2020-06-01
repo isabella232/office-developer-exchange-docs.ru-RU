@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7c84927e-db28-4c5d-b0b5-cbcc2b88d869
 description: Элемент Task представляет задачу в хранилище Exchange.
-ms.openlocfilehash: 2c61fca6ac85290e34f1365b0cb9e841e1fe279f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 669f90dfa74cd085091e9836a1d31ca53bbf165e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840143"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458945"
 ---
 # <a name="task"></a>Задача
 
@@ -95,7 +95,7 @@ ms.locfileid: "19840143"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -107,7 +107,7 @@ ms.locfileid: "19840143"
 |[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
 |[Тема](subject.md) <br/> |Представляет тему для элементов хранилища Exchange и объектов ответа.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Содержит статус чувствительности элемента.  <br/> |
-|[Основной текст](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
+|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
 |[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, вложенные в элемент в хранилище Exchange.  <br/> |
 |[DateTimeReceived](datetimereceived.md) <br/> |Представляет дату и время получения элемента в почтовом ящике.  <br/> |
 |[Размер](size.md) <br/> |Представляет размер элемента (в байтах). Это свойство доступно только для чтения.  <br/> |
@@ -150,7 +150,7 @@ ms.locfileid: "19840143"
 |[PercentComplete](percentcomplete.md) <br/> |Описывает состояние выполнения задачи.  <br/> |
 |[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
 |[StartDate](startdate.md) <br/> |Представляет дату начала элемента задачи.  <br/> |
-|[Состояние](status.md) <br/> |Представляет состояние элемента задачи.  <br/> |
+|[Status](status.md) <br/> |Представляет состояние элемента задачи.  <br/> |
 |[статусдескриптион](statusdescription.md) <br/> |Содержит описание состояния задачи.  <br/> |
 |[TotalWork](totalwork.md) <br/> |Содержит описание объема работы, связанного с элементом.  <br/> |
 |[еффективеригхтс](effectiverights.md) <br/> |Содержит права клиента на основе параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.  <br/> |
@@ -187,7 +187,7 @@ ms.locfileid: "19840143"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -195,6 +195,6 @@ ms.locfileid: "19840143"
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание задач](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
-- [Удаление задач](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+- [Создание задач](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+- [Удаление задач](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

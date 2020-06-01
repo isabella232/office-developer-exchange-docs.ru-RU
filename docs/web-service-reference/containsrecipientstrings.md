@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: a7fd13ac-0f13-4610-ac9b-98e27ac3940b
 description: Элемент КонтаинсреЦипиентстрингс указывает строки, которые должны отображаться в свойствах ToRecipients или CcRecipients входящих сообщений, чтобы применялось условие или исключение.
-ms.openlocfilehash: 861aba22c9474caf02f9c50d8a7b65b9cc8a2eda
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ba717de6b3c53b37d12c4c0be8301083b2080c8b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761759"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458987"
 ---
 # <a name="containsrecipientstrings"></a>контаинсреЦипиентстрингс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761759"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19761759"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

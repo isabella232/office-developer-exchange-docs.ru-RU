@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: cd307892-2f69-4494-8325-219bdb5c3ad5
 description: Элемент Итемчанжес содержит массив элементов Итемчанже, определяющих элементы и обновления, которые необходимо применить к элементам.
-ms.openlocfilehash: 38fe112441a8773a2d6b494ed57c63341cab2b58
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ea6fb2023b88360f9558057e80c7fe0d855173b5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834141"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459912"
 ---
 # <a name="itemchanges"></a>итемчанжес
 
@@ -40,7 +40,7 @@ ms.locfileid: "19834141"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834141"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4a24ff79-f1ae-43a1-9ac2-49baf3eaa173
 description: Элемент «подсказки» представляет получателей и типы советов по использованию почты, которые необходимо получить.
-ms.openlocfilehash: aad3b3d9dd578d0c92bf7d48ee8b78b58c63e23d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8ff71ed5d52f713e11188b07c8c93aeee7dfa44d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762843"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458637"
 ---
 # <a name="getmailtips"></a>GetMailTips
 
@@ -38,7 +38,7 @@ ms.locfileid: "19762843"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19762843"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -64,7 +64,7 @@ ms.locfileid: "19762843"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

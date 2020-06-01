@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cdc7c462-74a7-49d6-95b2-155d783840e9
 description: Узнайте, как создать настраиваемый агент транспорта SmtpReceiveAgent для использования с Exchange 2013.
-ms.openlocfilehash: a74d5baae6334c5e17acb6335206964b48f320e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ba021d02849ffc7e125029f0fd18ebf14c3f8da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761415"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459141"
 ---
 # <a name="create-an-smtpreceiveagent-transport-agent-for-exchange-2013"></a>Создание агента транспорта SmtpReceiveAgent для Exchange 2013
 
@@ -23,7 +23,7 @@ ms.locfileid: "19761415"
   
 Связанные фрагменты кода и примеры приложений:
 
-- [Exchange 2013: создание агента транспорта преобразования текста](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0)
+- [Exchange 2013: создание агента транспорта преобразования текста](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0)
   
 Классы [смтпрецеивеажентфактори](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) и [SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) позволяют расширять поведение транспортной службы внешнего интерфейса на сервере клиентского доступа или в службе транспорта на сервере почтовых ящиков. Вы можете использовать эти классы для реализации агентов транспорта, которые отвечают за сообщения, поступающие в вашу организацию. 
   
@@ -58,7 +58,7 @@ ms.locfileid: "19761415"
   
    ```
 
-   Эти пространства имен можно найти на сервере Exchange Server 2013. При добавлении ссылки на эти пространства имен вы получите доступ к элементам [SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) , а также к другим классам, используемым в [Exchange 2013: построение образца агента транспорта преобразования текста](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0) . 
+   Эти пространства имен можно найти на сервере Exchange Server 2013. При добавлении ссылки на эти пространства имен вы получите доступ к элементам [SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) , а также к другим классам, используемым в [Exchange 2013: построение образца агента транспорта преобразования текста](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0) . 
     
 2. Реализуйте производный класс для класса [смтпрецеивеажентфактори](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) . 
     

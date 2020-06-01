@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 81ce51b9-c201-4a7d-b29b-351a697970b7
 description: Элемент Плайонфонедиалстринг содержит значение строки набора по умолчанию в запросе на веб-службу единой системы обмена сообщениями GetUMProperties.
-ms.openlocfilehash: f318ae32e23420d6638aea679b9479ebf912ef36
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 31fb9961b5c4b902414fbca15101abf3e3beb965
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834834"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459204"
 ---
 # <a name="playonphonedialstring-um-web-service"></a>Плайонфонедиалстринг (веб-служба единой системы обмена сообщениями)
 
@@ -37,11 +37,11 @@ ms.locfileid: "19834834"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19834834"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

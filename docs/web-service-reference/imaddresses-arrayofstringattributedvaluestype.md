@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b95d0a8b-15a6-4711-b014-55698dbd679c
 description: Элемент Addressing указывает массив адресов обмена мгновенными сообщениями и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 6f238e26083366320ba04b187e3e41771cbd14ba
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6714af5d88e50047f48da2f10dbb33d2e2feb724
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833863"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460444"
 ---
 # <a name="imaddresses-arrayofstringattributedvaluestype"></a>Адреса (Аррайофстрингаттрибутедвалуестипе)
 
@@ -32,7 +32,7 @@ ms.locfileid: "19833863"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19833863"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

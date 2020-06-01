@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 85dc155c-fad0-4756-b9a8-dedf5040a7c6
 description: Элемент request представляет запрос Жеторганизатионрелатионшипсеттингсрекуест (SOAP). Элемент Request предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: d3ae48ca403398288b8399ede82b98322a1b3260
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 90ccd3579c91c916ea645e6a3b466c9de4706421
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835122"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459562"
 ---
 # <a name="request-getorganizationrelationship-soap"></a>Request (Жеторганизатионрелатионшип) (SOAP)
 
@@ -31,7 +31,7 @@ ms.locfileid: "19835122"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -47,13 +47,13 @@ ms.locfileid: "19835122"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
@@ -65,5 +65,5 @@ ms.locfileid: "19835122"
 [Жеторганизатионрелатионшипсеттингсрекуест (SOAP)](getorganizationrelationshipsettingsrequest-soap.md)
 
 
-[Работа со службой автообнаружения](http://msdn.microsoft.com/library/39726b67-2eb2-451b-9307-cfd0b518b55c%28Office.15%29.aspx)
+[Работа со службой автообнаружения](https://msdn.microsoft.com/library/39726b67-2eb2-451b-9307-cfd0b518b55c%28Office.15%29.aspx)
 

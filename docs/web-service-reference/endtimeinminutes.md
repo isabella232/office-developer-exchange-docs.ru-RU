@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ef05bdda-7a66-44db-bb73-a2ce8316c257
 description: Элемент Ендтимеинминутес представляет конец рабочего дня пользователя почтового ящика.
-ms.openlocfilehash: 2885d810512eb0e575aa25b4f38d28332a10b8f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cb564f9de944848734749a30c813a94d6b5c4187
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762372"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459653"
 ---
 # <a name="endtimeinminutes"></a>ендтимеинминутес
 
@@ -50,11 +50,11 @@ ms.locfileid: "19762372"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -76,7 +76,7 @@ ms.locfileid: "19762372"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -90,5 +90,5 @@ ms.locfileid: "19762372"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

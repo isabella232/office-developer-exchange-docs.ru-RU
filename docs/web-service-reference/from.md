@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5a52d644-3677-4049-874c-12bd5c3080dc
 description: Элемент From представляет адрес, с которого было отправлено сообщение.
-ms.openlocfilehash: 39c8c8ef84ff445e8f44ebb9f2285ccfc42353a7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c0d655731677e56cc02c7c029264ffc96f0a18c2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762670"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459555"
 ---
 # <a name="from"></a>From
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762670"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -73,7 +73,7 @@ ms.locfileid: "19762670"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

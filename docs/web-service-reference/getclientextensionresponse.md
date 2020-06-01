@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ef4b1aba-a55d-4d64-ac80-5d4e6c4e72bd
 description: Элемент Жетклиентекстенсионреспонсе содержит ответ для получения сведений о конфигурации приложения.
-ms.openlocfilehash: 523a103ec9397b0dce08aa47b074303c9e6ac897
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 65c1995fe75b3894607d27ed65548fbbdce0664a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762716"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459520"
 ---
 # <a name="getclientextensionresponse"></a>жетклиентекстенсионреспонсе
 
@@ -37,11 +37,11 @@ ms.locfileid: "19762716"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md) | [респонсекоде](responsecode.md) | [MessageXml](messagexml.md)[DescriptiveLinkKey](descriptivelinkkey.md) | [RawMasterTableXml](rawmastertablexml.md) дескриптивелинккэй мессажексмл | [клиентекстенсионс](clientextensions.md)равмастертаблексмл | 
+[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Клиентекстенсионс](clientextensions.md)  |  [Равмастертаблексмл](rawmastertablexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19762716"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

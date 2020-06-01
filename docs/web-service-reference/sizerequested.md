@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e86f98b6-83b5-4530-80eb-dc5df42e2c62
 description: Элемент Сизерекуестед содержит запрошенный размер фотографии для операции GetUserPhoto.
-ms.openlocfilehash: 43e422512b1e8f06e410e533e9ae1dc49283d5f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2e79bbb158fa9a22cbd3ec08fcd6e60429e113b4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835504"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460458"
 ---
 # <a name="sizerequested"></a>сизерекуестед
 
@@ -30,11 +30,11 @@ ms.locfileid: "19835504"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19835504"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

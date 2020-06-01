@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 82a737c7-da41-4777-8ad8-89851a0b602b
 description: Элемент "множество помещений" является корневым элементом запроса для получения списка комнат в определенном списке помещений.
-ms.openlocfilehash: a787097752cfeee9489e5f118549c2d939ba4c9a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 77fde5980a03d4c0509344933b0901cb21ab7197
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762909"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458595"
 ---
 # <a name="getrooms"></a>GetRooms
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762909"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -46,7 +46,7 @@ ms.locfileid: "19762909"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -60,7 +60,7 @@ ms.locfileid: "19762909"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

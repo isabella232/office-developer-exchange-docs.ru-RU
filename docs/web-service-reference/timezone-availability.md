@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d662ffae-1f93-4c08-85a4-c69de2f7c681
 description: Элемент TimeZone содержит элементы, определяющие сведения о часовом поясе. Этот элемент также содержит сведения о переходе со стандартного времени на летнее время.
-ms.openlocfilehash: dc2466e8039819edc82294ff05f1746ada64cb43
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ba4b0a4805dba54450e01e89c5e9ef746404b716
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840205"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460276"
 ---
 # <a name="timezone-availability"></a>Часовой пояс (доступность)
 
@@ -38,7 +38,7 @@ ms.locfileid: "19840205"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19840205"
 В приведенном ниже примере показана часть XML-запроса, которая определяет смещение относительно времени в формате UTC 8 часов в клиентском приложении.
   
 ```XML
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -87,7 +87,7 @@ ms.locfileid: "19840205"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -101,5 +101,5 @@ ms.locfileid: "19840205"
 [Bias](bias.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

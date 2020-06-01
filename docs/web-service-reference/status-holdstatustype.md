@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fee3f1f9-e868-49fa-a554-7ff096964718
 description: Элемент Status указывает состояние удержания для почтового ящика.
-ms.openlocfilehash: c40dc865d2b305ac86fa40d536e2d516a14260ab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cecfdfaf67b00b6f8cf02188e7a4df7062a732e4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835579"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459989"
 ---
 # <a name="status-holdstatustype"></a>Состояние (Холдстатустипе)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19835579"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19835579"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

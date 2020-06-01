@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 680173e1-e916-466b-b573-5a3182316345
 description: Операция GetServerTimeZones возвращает сведения из определений часовых поясов, доступных на сервере Exchange.
-ms.openlocfilehash: 9b202d510a599c9082d075228be4c479a2086753
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1afe7fe13501af4a14f72c731703fe41e1f33049
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762918"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460542"
 ---
 # <a name="getservertimezones-operation"></a>Операция GetServerTimeZones
 
@@ -45,8 +45,8 @@ ms.locfileid: "19762918"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -61,7 +61,7 @@ ms.locfileid: "19762918"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Каждый элемент [ID (TimeZone)](id-timezone.md) содержит идентификатор запрашиваемого определения часового пояса. Чтобы запросить сведения для всех часовых поясов, исключите из запроса элемент [ID](ids.md) . 
   
@@ -75,8 +75,8 @@ ms.locfileid: "19762918"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -90,7 +90,7 @@ ms.locfileid: "19762918"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Каждый элемент [ID (TimeZone)](id-timezone.md) содержит идентификатор запрашиваемого определения часового пояса. Чтобы запросить сведения для всех часовых поясов, исключите из запроса элемент [ID](ids.md) . 
   
@@ -113,11 +113,11 @@ ms.locfileid: "19762918"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetServerTimeZonesResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetServerTimeZonesResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetServerTimeZonesResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</ResponseCode>
@@ -149,11 +149,11 @@ ms.locfileid: "19762918"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetServerTimeZonesResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetServerTimeZonesResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetServerTimeZonesResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</ResponseCode>

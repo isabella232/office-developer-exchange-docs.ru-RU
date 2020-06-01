@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 298fdd71-a83d-4407-9728-4f0a8e2d857c
 description: Операция UpdateItem используется для обновления свойств элемента контакта в хранилище Exchange.
-ms.openlocfilehash: f2a501ce8e69068cd30b58011adf4defc68ce365
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 66e1b91ea3154d8a501339aed7b398970e8f5392
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840348"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459828"
 ---
 # <a name="updateitem-operation-contact"></a>Операция UpdateItem (Contact)
 
@@ -36,9 +36,9 @@ ms.locfileid: "19840348"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    <UpdateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
                 ConflictResolution="AlwaysOverwrite">
       <ItemChanges>
         <t:ItemChange>
@@ -60,7 +60,7 @@ ms.locfileid: "19840348"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
@@ -103,12 +103,12 @@ ms.locfileid: "19840348"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -124,7 +124,7 @@ ms.locfileid: "19840348"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
@@ -161,9 +161,9 @@ ms.locfileid: "19840348"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    <UpdateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
                 ConflictResolution="AlwaysOverwrite">
       <ItemChanges>
         <t:ItemChange>
@@ -185,7 +185,7 @@ ms.locfileid: "19840348"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
@@ -201,24 +201,24 @@ ms.locfileid: "19840348"
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <soap:Fault>
       <soap:faultcode>Client</soap:faultcode>
       <soap:faultstring>The request failed schema validation.</soap:faultstring>
       <detail>
-        <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-        <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The 'Key' attribute is invalid - The value 'EmailAddress4' is invalid according to its data type 'http://schemas.microsoft.com/exchange/services/2006/types:EmailAddressKeyType' - The Enumeration constraint failed.</e:Message>
-        <e:Line xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">17</e:Line>
-        <e:Position xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">19</e:Position>
+        <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+        <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The 'Key' attribute is invalid - The value 'EmailAddress4' is invalid according to its data type 'https://schemas.microsoft.com/exchange/services/2006/types:EmailAddressKeyType' - The Enumeration constraint failed.</e:Message>
+        <e:Line xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">17</e:Line>
+        <e:Position xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">19</e:Position>
       </detail>
     </soap:Fault>
   </soap:Body>
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Некоторые элементы, используемые в теле SOAP ошибочного ответа, вызванного ошибкой проверки схемы, не определены в схемах messages или Types. Элемент **detail** содержит сведения об ошибке. Элемент [респонсекоде](responsecode.md) содержит код ошибки. Элемент [Message](message-ex15websvcsotherref.md) содержит объяснение ошибки, если она доступна. Элемент **line** описывает номер строки, в которой произошла ошибка проверки схемы. Элемент **position** описывает позицию из самого левого знака XML-документа. 
   

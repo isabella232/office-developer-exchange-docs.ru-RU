@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 267fe5aa-f9b1-4d4c-ac11-0f2e50ec2627
 description: Элемент DataType описывает тип данных, к которым общий доступ предоставляется в общей папке.
-ms.openlocfilehash: b1adac8e3029abd64df96ab1560706babe4b12f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a7df8d38e10f0ab31038d790d8f35208d1be66d5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761978"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458833"
 ---
 # <a name="datatype"></a>DataType
 
@@ -35,11 +35,11 @@ ms.locfileid: "19761978"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19761978"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

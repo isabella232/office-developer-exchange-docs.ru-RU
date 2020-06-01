@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a287b9c3-7fb6-4f2f-a8dc-15d4bc32394c
 description: Элемент FreeBusyAccessLevel представляет свойство FreeBusyAccessLevel. Элемент FreeBusyAccessLevel предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: c978608982a2795af1683b4b2121435a02149935
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7ff0c6c72f924a2f1f8eee0dd152d19f6a8745e9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762656"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460052"
 ---
 # <a name="freebusyaccesslevel-soap"></a>FreeBusyAccessLevel (SOAP)
 
@@ -29,11 +29,11 @@ ms.locfileid: "19762656"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,7 +49,7 @@ ms.locfileid: "19762656"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

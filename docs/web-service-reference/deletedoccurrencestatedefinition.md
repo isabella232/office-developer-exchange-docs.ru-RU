@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a9c01c64-e76c-4adc-8b04-88af97bd0cc8
 description: Делетедоккурренцестатедефинитион указывает состояние удаленного экземпляра элемента календаря.
-ms.openlocfilehash: ad0434d604ee78ebf1905b60857929e1af4d45f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ff8ad1d9c35d7bab3f6fe2cd1896bb16384c18e6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762028"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458798"
 ---
 # <a name="deletedoccurrencestatedefinition"></a>делетедоккурренцестатедефинитион
 
@@ -33,7 +33,7 @@ ms.locfileid: "19762028"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19762028"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: fcd93ce5-7403-46a9-b46e-56d2ebdd2f79
 description: Элемент Жетумпропертиесреспонсе определяет ответ на запрос для операции GetUMProperties (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: c0df872ad6b8e6541fa750ab87f4c1e5f0118b00
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3247489a305c694c10764d7a0c6f02b1fad51ebf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833685"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459127"
 ---
 # <a name="getumpropertiesresponse-um-web-service"></a>Жетумпропертиесреспонсе (веб-служба единой системы обмена сообщениями)
 
@@ -41,7 +41,7 @@ ms.locfileid: "19833685"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -54,17 +54,17 @@ ms.locfileid: "19833685"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

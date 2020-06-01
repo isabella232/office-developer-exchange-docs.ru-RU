@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 24f8c54a-505f-4fc0-b7e7-93ad50b97070
 description: Элемент Content содержит содержимое вложенного файла в кодировке Base64.
-ms.openlocfilehash: 20afe6286d3efaa5da6cdc88e397e88fddb1d8c6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 81f6acf69ff702bd0645663cb2e499ee5b45ea78
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761788"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458952"
 ---
-# <a name="content"></a>Контентная
+# <a name="content"></a>Контент
 
 Элемент **Content** содержит содержимое вложенного файла в кодировке Base64. 
   
@@ -34,11 +34,11 @@ ms.locfileid: "19761788"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761788"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

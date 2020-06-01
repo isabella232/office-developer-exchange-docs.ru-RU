@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 90709f5b-4a1d-49d2-9236-ecd02bb3cdf8
 description: Элемент Ларжеаудиенцекап указывает максимальное количество получателей сообщения электронной почты.
-ms.openlocfilehash: c207ad37b01e582ebe68f179186354b6d7f8e691
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 932cac7ac1a62de7066573bbb2db3d0a338b2379
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834196"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460108"
 ---
 # <a name="largeaudiencecap"></a>ларжеаудиенцекап
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834196"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

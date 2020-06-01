@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8f5fcbcb-05ed-462a-99cf-a6b112a4aef6
 description: Элемент Глобалпарентфолдеридс указывает идентификаторы глобальных родительских папок.
-ms.openlocfilehash: b0ff9ab00f3e46351b5a2db9bc4b6282fa4385cd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 11c520fa0f4a1ed6d6c9d694b407e39cd036b9cd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833747"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459099"
 ---
 # <a name="globalparentfolderids"></a>глобалпарентфолдеридс
 
@@ -33,7 +33,7 @@ ms.locfileid: "19833747"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19833747"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fd9ef706-1e01-49fa-af6f-2f6d3e173c16
 description: Сведения о шаблонах повторения и повторяющихся рядах в Exchange.
-ms.openlocfilehash: ac10e9b9a347abb5907b77f0e0e7315e4e86d97a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 681dfee7e0a66a483b8638810da5e4e0ac0f05ac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761244"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459330"
 ---
 # <a name="recurrence-patterns-and-ews"></a>Шаблоны повторения и EWS
 
@@ -43,12 +43,12 @@ ms.locfileid: "19761244"
 
 |**Класс управляемого API EWS**|**Элемент EWS**|**Примеры**|
 |:-----|:-----|:-----|
-|[Повторение. Даилипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.dailypattern%28v=exchg.80%29.aspx) <br/> |[даилирекурренце](http://msdn.microsoft.com/library/0aaf265d-b723-49c6-8e9c-9ba60141e9ab%28Office.15%29.aspx) <br/> |Повторять каждый день.  <br/> Повторять каждый день.  <br/> |
-|[Повторение. Монслипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.monthlypattern%28v=exchg.80%29.aspx) <br/> |[абсолутемонслирекурренце](http://msdn.microsoft.com/library/178fa0ae-9dfc-417f-933c-d657d31c2161%28Office.15%29.aspx) <br/> |Повторять каждый месяц на десятый день месяца.  <br/> Повторять каждый второй месяц в двадцать первый день месяца.  <br/> |
-|[Повторение. Релативемонслипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.relativemonthlypattern%28v=exchg.80%29.aspx) <br/> |[релативемонслирекурренце](http://msdn.microsoft.com/library/a76595db-7460-44ac-ac2a-53241caa33a7%28Office.15%29.aspx) <br/> |Повторяйте во второй вторник каждого месяца.  <br/> Повторяйте в третий четверг месяца каждые три месяца.  <br/> |
-|[Повторение. Релативэйеарлипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx) <br/> |[релативэйеарлирекурренце](http://msdn.microsoft.com/library/25b67876-9979-4a30-a637-357ea10a93b8%28Office.15%29.aspx) <br/> |Повторяйте на первом понедельник августа каждый год.  <br/> |
-|[Повторение. Виклипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.weeklypattern%28v=exchg.80%29.aspx) <br/> |[виклирекурренце](http://msdn.microsoft.com/library/69c41dd5-597c-45bc-be3f-e2f2b5615aa3%28Office.15%29.aspx) <br/> |Повторяйте каждый понедельник.  <br/> Повторяйте каждый вторник и четверг каждую вторую неделю.  <br/> |
-|[Повторение. Еарлипаттерн](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx) <br/> |[абсолутэйеарлирекурренце](http://msdn.microsoft.com/library/96f53e2c-3893-4f6e-a78a-ac179f45c5db%28Office.15%29.aspx) <br/> |Повторяйте каждый год 1 сентября.  <br/> |
+|[Повторение. Даилипаттерн](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.dailypattern%28v=exchg.80%29.aspx) <br/> |[даилирекурренце](https://msdn.microsoft.com/library/0aaf265d-b723-49c6-8e9c-9ba60141e9ab%28Office.15%29.aspx) <br/> |Повторять каждый день.  <br/> Повторять каждый день.  <br/> |
+|[Повторение. Монслипаттерн](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.monthlypattern%28v=exchg.80%29.aspx) <br/> |[абсолутемонслирекурренце](https://msdn.microsoft.com/library/178fa0ae-9dfc-417f-933c-d657d31c2161%28Office.15%29.aspx) <br/> |Повторять каждый месяц на десятый день месяца.  <br/> Повторять каждый второй месяц в двадцать первый день месяца.  <br/> |
+|[Повторение. Релативемонслипаттерн](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.relativemonthlypattern%28v=exchg.80%29.aspx) <br/> |[релативемонслирекурренце](https://msdn.microsoft.com/library/a76595db-7460-44ac-ac2a-53241caa33a7%28Office.15%29.aspx) <br/> |Повторяйте во второй вторник каждого месяца.  <br/> Повторяйте в третий четверг месяца каждые три месяца.  <br/> |
+|[Повторение. Релативэйеарлипаттерн](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx) <br/> |[релативэйеарлирекурренце](https://msdn.microsoft.com/library/25b67876-9979-4a30-a637-357ea10a93b8%28Office.15%29.aspx) <br/> |Повторяйте на первом понедельник августа каждый год.  <br/> |
+|[Повторение. Виклипаттерн](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.weeklypattern%28v=exchg.80%29.aspx) <br/> |[виклирекурренце](https://msdn.microsoft.com/library/69c41dd5-597c-45bc-be3f-e2f2b5615aa3%28Office.15%29.aspx) <br/> |Повторяйте каждый понедельник.  <br/> Повторяйте каждый вторник и четверг каждую вторую неделю.  <br/> |
+|[Повторение. Еарлипаттерн](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx) <br/> |[абсолутэйеарлирекурренце](https://msdn.microsoft.com/library/96f53e2c-3893-4f6e-a78a-ac179f45c5db%28Office.15%29.aspx) <br/> |Повторяйте каждый год 1 сентября.  <br/> |
    
 Другой важный фрагмент данных для шаблона повторения — по окончании повторения. Может быть выражено как заданное число повторений, как Дата окончания, так и без окончания.
   
@@ -56,9 +56,9 @@ ms.locfileid: "19761244"
 
 |**Метод или свойство управляемого API EWS**|**Элемент EWS**|**Описание**|
 |:-----|:-----|:-----|
-|[Повторение. Нумберофоккурренцес](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.numberofoccurrences%28v=exchg.80%29.aspx) <br/> |[нумбередрекурренце](http://msdn.microsoft.com/library/53746909-ef21-4764-8715-a7769b943cca%28Office.15%29.aspx) <br/> |Значение этого свойства или элемента указывает количество повторений.  <br/> |
-|[Повторение. EndDate](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) <br/> |[енддатерекурренце](http://msdn.microsoft.com/library/a5ee2504-db84-49ee-870c-cca9269f2e26%28Office.15%29.aspx) <br/> |Последнее вхождение в ряду приходится на или предшествует дате, указанной этим свойством или элементом.  <br/> |
-|[Повторение. Хасенд](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.hasend%28v=exchg.80%29.aspx) <br/> [Повторение. Неверендс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.neverends%28v=exchg.80%29.aspx) <br/> |[ноендрекурренце](http://msdn.microsoft.com/library/ab2ebd9c-388e-45f1-abf9-56e293ef123b%28Office.15%29.aspx) <br/> |У ряда нет конца.  <br/> |
+|[Повторение. Нумберофоккурренцес](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.numberofoccurrences%28v=exchg.80%29.aspx) <br/> |[нумбередрекурренце](https://msdn.microsoft.com/library/53746909-ef21-4764-8715-a7769b943cca%28Office.15%29.aspx) <br/> |Значение этого свойства или элемента указывает количество повторений.  <br/> |
+|[Повторение. EndDate](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) <br/> |[енддатерекурренце](https://msdn.microsoft.com/library/a5ee2504-db84-49ee-870c-cca9269f2e26%28Office.15%29.aspx) <br/> |Последнее вхождение в ряду приходится на или предшествует дате, указанной этим свойством или элементом.  <br/> |
+|[Повторение. Хасенд](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.hasend%28v=exchg.80%29.aspx) <br/> [Повторение. Неверендс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.neverends%28v=exchg.80%29.aspx) <br/> |[ноендрекурренце](https://msdn.microsoft.com/library/ab2ebd9c-388e-45f1-abf9-56e293ef123b%28Office.15%29.aspx) <br/> |У ряда нет конца.  <br/> |
    
 ## <a name="expanded-vs-non-expanded-views"></a>Расширенные и нерасширенные представления
 
@@ -68,8 +68,8 @@ ms.locfileid: "19761244"
 
 |**Метод управляемого API EWS**|**Операция EWS**|**Разворачивает ряды?**|**Элементы, включенные в результаты**|
 |:-----|:-----|:-----|:-----|
-|[ExchangeService. FindAppointments](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) <br/> |[Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [CalendarView](http://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx)  <br/> |Да  <br/> |Неповторяющиеся встречи, отдельные экземпляры повторяющихся рядов и исключения из повторяющихся рядов  <br/> |
-|[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [Индекседпажеитемвиев](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) или элементом [фрактионалпажеитемвиев](http://msdn.microsoft.com/library/4111afec-35e7-4c6f-b291-9bbba603f633%28Office.15%29.aspx)  <br/> |Нет  <br/> |Неповторяющиеся встречи и повторяющиеся запланированные встречи  <br/> |
+|[ExchangeService. FindAppointments](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) <br/> |[Операция FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [CalendarView](https://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx)  <br/> |Да  <br/> |Неповторяющиеся встречи, отдельные экземпляры повторяющихся рядов и исключения из повторяющихся рядов  <br/> |
+|[ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[Операция FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [Индекседпажеитемвиев](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) или элементом [фрактионалпажеитемвиев](https://msdn.microsoft.com/library/4111afec-35e7-4c6f-b291-9bbba603f633%28Office.15%29.aspx)  <br/> |Нет  <br/> |Неповторяющиеся встречи и повторяющиеся запланированные встречи  <br/> |
    
 Ольга только что подписался на себя для группы свим. У группы есть упражнения каждую среду утром в 8:30 AM, начиная с 2 июля, с последней практикой из 6 августа. Не нужно забывать о практике, Ольга добавляет повторяющуюся встречу в свой календарь для напоминания.
   
@@ -114,14 +114,14 @@ foreach(Item appt in results.Items)
 }
 ```
 
-Этот код приводит к следующему запросу [операции FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [индекседпажеитемвиев](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) . 
+Этот код приводит к следующему запросу [операции FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [индекседпажеитемвиев](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -165,21 +165,21 @@ foreach(Item appt in results.Items)
 </soap:Envelope>
 ```
 
-Ответ сервера включает в себя только один элемент — шаблон повторения, указанный значением элемента [календаритемтипе](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) в **рекуррингмастер**. Значение элемента [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) было сокращено для удобочитаемости. 
+Ответ сервера включает в себя только один элемент — шаблон повторения, указанный значением элемента [календаритемтипе](https://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) в **рекуррингмастер**. Значение элемента [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) было сокращено для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="939" MinorBuildNumber="16" Version="V2_11" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -220,14 +220,14 @@ foreach(Appointment appt in results.Items)
 }
 ```
 
-Этот код приводит к следующему запросу [операции FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [CalendarView](http://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx) . 
+Этот код приводит к следующему запросу [операции FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) с элементом [CalendarView](https://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -255,21 +255,21 @@ foreach(Appointment appt in results.Items)
 </soap:Envelope>
 ```
 
-В этот раз ответ сервера включает пять повторений, по одному для каждой среды в июле. Элементы [календаритемтипе](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) для этих элементов имеют значение " **экземпляр**". Обратите внимание, что в отклике отсутствует шаблон повторения. Значения элементов [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) были сокращены для удобочитаемости. 
+В этот раз ответ сервера включает пять повторений, по одному для каждой среды в июле. Элементы [календаритемтипе](https://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) для этих элементов имеют значение " **экземпляр**". Обратите внимание, что в отклике отсутствует шаблон повторения. Значения элементов [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="939" MinorBuildNumber="16" Version="V2_11" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -330,7 +330,7 @@ foreach(Appointment appt in results.Items)
 
 Для работы с повторяющимися элементами календаря используются те же методы и операции, что и при работе с неповторяющимися элементами календаря. Разница заключается в том, что в зависимости от элемента, используемого для вызова этих методов или операций, выполняемые действия можно применить ко всей серии или только к одному экземпляру. [Действия, выполняемые на повторяющейся основной реплике](how-to-update-a-recurring-series-by-using-ews-in-exchange.md) , будут применяться ко всем вхождениям в ряду, в то время как [действия, выполненные с одним экземпляром или исключением](how-to-update-a-recurring-series-by-using-ews.md) , будут применяться только к этому экземпляру или исключению. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
 - [Доступ к повторяющимся сериям с помощью EWS в Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     

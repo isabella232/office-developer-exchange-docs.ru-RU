@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1fac7937-7a06-4d66-9d2a-14423bcb3b37
 description: Элемент StartTime представляет начало интервала времени.
-ms.openlocfilehash: 4346797d755bb6e577e1cacb8bec656a7562bf1f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 16bee698b65dc512a709e2af9ddfe8629347fee3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835560"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458567"
 ---
 # <a name="starttime"></a>StartTime
 
@@ -35,11 +35,11 @@ ms.locfileid: "19835560"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "19835560"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -75,5 +75,5 @@ ms.locfileid: "19835560"
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

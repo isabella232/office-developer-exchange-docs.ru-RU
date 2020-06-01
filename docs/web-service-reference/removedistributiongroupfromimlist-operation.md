@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 252bddf2-98b6-4824-b548-2fba2bda5384
 description: Поиск сведений о RemoveDistributionGroupFromImListной операции EWS.
-ms.openlocfilehash: 9999f98a5698dd33c22e22fdf86bd00a2d053b52
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 66220f0cab99f404e17136bbb7836ca13d569b53
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835096"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459604"
 ---
 # <a name="removedistributiongroupfromimlist-operation"></a>Операция RemoveDistributionGroupFromImList
 
@@ -47,8 +47,8 @@ ms.locfileid: "19835096"
   
 ```XML
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -80,15 +80,15 @@ ms.locfileid: "19835096"
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveDistributionGroupFromImListResponse ResponseClass="Success" 
-                                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
       </RemoveDistributionGroupFromImListResponse>
    </s:Body>
@@ -114,15 +114,15 @@ ms.locfileid: "19835096"
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveDistributionGroupFromImListResponse ResponseClass="Error" 
-                                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>The specified object was not found in the store.</MessageText>
          <ResponseCode>ErrorItemNotFound</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -149,6 +149,6 @@ ms.locfileid: "19835096"
     
 - [Операция AddDistributionGroupToImList](adddistributiongrouptoimlist-operation.md)
     
-- [Пользователи и контакты в EWS для Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx#What)
+- [Пользователи и контакты в EWS для Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx#What)
     
 

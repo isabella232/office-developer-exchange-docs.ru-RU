@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: eb7d1274-ce2e-4ef8-b47f-e911174aab0c
 description: Элемент Уникуеунреадсендерс содержит список всех пользователей, которые отправили сообщения, которые в настоящее время не прочитаны в текущей папке. Этот элемент доступен только для чтения.
-ms.openlocfilehash: d1f5593f6b86745aa27d86e9d25487f5855cb0cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0e45362e88be4930b8bc2f641c1fb00cc63c0605
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840287"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458854"
 ---
 # <a name="uniqueunreadsenders"></a>уникуеунреадсендерс
 
@@ -44,7 +44,7 @@ ms.locfileid: "19840287"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19840287"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -84,5 +84,5 @@ ms.locfileid: "19840287"
 [Операция ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

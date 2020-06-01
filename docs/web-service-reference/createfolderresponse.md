@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 158adecc-491a-47d9-af73-acc2cd3f8566
 description: Элемент Креатефолдерреспонсе определяет ответ на запрос CreateFolder.
-ms.openlocfilehash: b584b2bb5514e411d9327c2c9effca4c3feb9b83
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c51fb17f0b0f9c3dd1db8b0ff31f230fac37ce67
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761876"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458882"
 ---
 # <a name="createfolderresponse"></a>креатефолдерреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761876"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761876"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

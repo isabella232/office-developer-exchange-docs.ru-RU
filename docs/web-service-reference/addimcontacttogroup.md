@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 65554e4c-c0d9-485e-9f01-ed1baa8280ab
 description: Элемент AddImContactToGroup определяет запрос на Добавление существующего контакта для обмена мгновенными сообщениями в группу мгновенных сообщений.
-ms.openlocfilehash: 71c841ce6df2ed7dcbbf77597b26f3e3e742a7fb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b86b1cb69a1ebc7034e5a27047c14efbab7236ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761420"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459667"
 ---
 # <a name="addimcontacttogroup"></a>AddImContactToGroup
 
@@ -33,11 +33,11 @@ ms.locfileid: "19761420"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ContactId](contactid.md) | [groupId](groupid.md)
+[ContactId](contactid.md)  |  [GroupId](groupid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19761420"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

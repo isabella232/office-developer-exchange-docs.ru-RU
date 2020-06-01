@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6aea4cb7-ca14-4949-8e7f-660b565f6556
 description: Элемент "набор напоминаний" указывает, задано ли напоминание для события календаря.
-ms.openlocfilehash: 589178072baca652bff2779e64a212fb90478247
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e2f5fa072b549bdaf636a15313e7dfe72172f768
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834100"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460339"
 ---
 # <a name="isreminderset"></a>Попамятка
 
@@ -50,11 +50,11 @@ ms.locfileid: "19834100"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "19834100"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -88,5 +88,5 @@ ms.locfileid: "19834100"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

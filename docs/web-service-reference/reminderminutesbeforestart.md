@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 65ea14bc-5f19-48cc-aef1-46227e06f5f5
 description: Элемент Реминдерминутесбефорестарт представляет количество минут до возникновения события при отображении напоминания.
-ms.openlocfilehash: 038d655423bee64d9386d691018bc12a1ac10ffa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 056ba06c5d8f878e13c72859746242f1694528e9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835068"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458546"
 ---
 # <a name="reminderminutesbeforestart"></a>ReminderMinutesBeforeStart
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835068"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19835068"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

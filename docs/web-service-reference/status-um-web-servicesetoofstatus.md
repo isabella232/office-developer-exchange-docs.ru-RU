@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 893bcff1-ccdc-493f-b366-ce8a68c813bd
 description: Элемент Status определяет значение, которое будет использоваться в SetOofStatus операции (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: 57b4f8fe1a64341b1c2ae0a06bc98f1c9cfd28c4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 865152baf28c22578664e16db2dcd5f82a04af98
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835583"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459982"
 ---
 # <a name="status-um-web-service---setoofstatus"></a>Status (веб-служба единой системы обмена сообщениями — SetOofStatus)
 
@@ -39,11 +39,11 @@ ms.locfileid: "19835583"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19835583"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

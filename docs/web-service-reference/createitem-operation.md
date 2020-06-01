@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 78a52120-f1d0-4ed7-8748-436e554f75b6
 description: Операция CreateItem создает элементы в хранилище Exchange.
-ms.openlocfilehash: 7e1808c685cdbaa1e8867aa7425b2cc52218d001
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f6aaa9ed8e8257f19780492d6137fb015c1b6136
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761897"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458868"
 ---
 # <a name="createitem-operation"></a>Операция CreateItem
 

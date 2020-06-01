@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: bf12f857-5a2e-48fc-83a5-096a44204fd8
 description: Элемент Type представляет альтернативный тип почтового ящика.
-ms.openlocfilehash: 1aff509144492d369b2f4c71ace2972e6f0e96cf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b94ab77b384fbc0658678225d1116568a63c73c2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840251"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458896"
 ---
 # <a name="type-soap"></a>Тип (SOAP)
 
@@ -31,11 +31,11 @@ ms.locfileid: "19840251"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -51,7 +51,7 @@ ms.locfileid: "19840251"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

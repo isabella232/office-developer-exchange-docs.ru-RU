@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c07f3ddb-874b-4d30-a60e-7e5c7793bb6f
 description: Элемент Фрибусивиевоптионс указывает тип сведений о занятости, возвращаемых в ответе.
-ms.openlocfilehash: 703fc6a3625d24cf874a785600e13ee4505b506f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b67d3f461e0edaa82f074f75b0c1c54efc8af4d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762663"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459576"
 ---
 # <a name="freebusyviewoptions"></a>фрибусивиевоптионс
 
@@ -43,7 +43,7 @@ ms.locfileid: "19762663"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -75,8 +75,8 @@ ms.locfileid: "19762663"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserAvailabilityRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserAvailabilityRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Bias>480</Bias>
         <StandardTime>
           <Bias>0</Bias>
@@ -94,7 +94,7 @@ ms.locfileid: "19762663"
         </DaylightTime>
       </TimeZone>
       <MailboxDataArray>
-        <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Email>
             <Name></Name>
             <Address>someone@ExServer.example.com</Address>
@@ -105,7 +105,7 @@ ms.locfileid: "19762663"
           <ExcludeNonWorkingHours>false</ExcludeNonWorkingHours>
         </MailboxData>
       </MailboxDataArray>
-      <FreeBusyViewOptions xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <FreeBusyViewOptions xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <TimeWindow>
           <StartTime>2006-02-06T00:00:00</StartTime>
           <EndTime>2006-02-25T23:59:59</EndTime>
@@ -122,7 +122,7 @@ ms.locfileid: "19762663"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -134,5 +134,5 @@ ms.locfileid: "19762663"
 [Операция GetUserAvailability](getuseravailability-operation.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

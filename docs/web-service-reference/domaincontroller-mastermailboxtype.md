@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9d952237-a3be-48b9-ab53-7b268db2b693
 description: Элемент DomainController (Мастермаилбокстипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: 9259cfb1c872094cfa70e6e91a139b1ea6c8b8ba
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0c05da4da746f756624acee7212014ede8e83729
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762201"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458721"
 ---
 # <a name="domaincontroller-mastermailboxtype"></a>DomainController (Мастермаилбокстипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19762201"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

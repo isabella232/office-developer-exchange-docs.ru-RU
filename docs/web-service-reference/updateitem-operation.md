@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4
 description: Операция UpdateItem используется для изменения свойств существующего элемента в хранилище Exchange.
-ms.openlocfilehash: 009ba16315017c4418fbd71d49744015c4d6d1b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c001b7656862144023e9704cb04e6b4c0030f9df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840353"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459393"
 ---
 # <a name="updateitem-operation"></a>Операция UpdateItem
 
@@ -31,7 +31,7 @@ ms.locfileid: "19840353"
 |:-----|:-----|
 |Error  <br/> |Добавляет данные к существующему свойству. Это действие сохранит текущие данные. Append не применяется ко всем свойствам.  <br/> |
 |Set  <br/> |Заменяет данные для свойства, если свойство содержит данные, или создает свойство и задает его значение, если свойство не существует. Действие Set применяется только к записываемым свойствам.  <br/> |
-|Удаление  <br/> |Удаляет свойство из элемента. Это отличается от присвоения свойству пустого значения. По завершении этого действия свойство для элемента не существует. DELETE применяется только к записываемым свойствам.  <br/> |
+|Удалить  <br/> |Удаляет свойство из элемента. Это отличается от присвоения свойству пустого значения. По завершении этого действия свойство для элемента не существует. DELETE применяется только к записываемым свойствам.  <br/> |
    
 Вызов **UpdateItem** можно использовать для изменения одного или нескольких элементов и одного или нескольких свойств каждого элемента. Элемент [итемчанжес](itemchanges.md) содержит все изменения, которые необходимо выполнить в рамках этого вызова. Элемент [итемчанже](itemchange.md) , являющийся дочерним по отношению к элементу [итемчанжес](itemchanges.md) , представляет изменения, которые необходимо выполнить для одного элемента. Элемент [итемчанже](itemchange.md) содержит набор действий обновления, которые можно выполнить для одного элемента. Эти изменения включены в элемент [Updates (Item)](updates-item.md) . Элемент [ItemId](itemid.md) определяет обновляемый элемент. Чтобы обновить несколько свойств элемента, необходимо предоставить [сетитемфиелд](setitemfield.md), [аппендтоитемфиелд](appendtoitemfield.md)или [делетеитемфиелд](deleteitemfield.md) для каждого свойства, для которого требуется обновление. 
   
@@ -57,10 +57,10 @@ ms.locfileid: "19840353"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkb..." ChangeKey="CQAAABYAAAB..."/>
@@ -79,7 +79,7 @@ ms.locfileid: "19840353"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
   
@@ -101,7 +101,7 @@ ms.locfileid: "19840353"
     
 - [фиелдури](fielduri.md)
     
-- [Сообщение](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
     
 - [Sensitivity](sensitivity.md)
     
@@ -118,10 +118,10 @@ ms.locfileid: "19840353"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkbW..." ChangeKey="CQAAABYA..."/>
@@ -140,7 +140,7 @@ ms.locfileid: "19840353"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Действие Append поддерживается следующими свойствами:
   
@@ -170,9 +170,9 @@ ms.locfileid: "19840353"
     
 - [фиелдури](fielduri.md)
     
-- [Сообщение](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
     
-- [Основной текст](body.md)
+- [Body](body.md)
     
 ## <a name="deleteitemfield-request-example"></a>Пример запроса Делетеитемфиелд
 
@@ -186,10 +186,10 @@ ms.locfileid: "19840353"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkbWluaXN0cm..." ChangeKey="CQAAABYAA..."/>
@@ -205,7 +205,7 @@ ms.locfileid: "19840353"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
   
@@ -242,12 +242,12 @@ ms.locfileid: "19840353"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="664" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -263,7 +263,7 @@ ms.locfileid: "19840353"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
   
@@ -283,7 +283,7 @@ ms.locfileid: "19840353"
     
 - [Items](items.md)
     
-- [Сообщение](message-ex15websvcsotherref.md)
+- [Message](message-ex15websvcsotherref.md)
     
 - [Идентификатор](itemid.md)
     
@@ -299,7 +299,7 @@ ms.locfileid: "19840353"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Обновление контактов](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
+[Обновление контактов](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   
-[Обновление задач](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
+[Обновление задач](https://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
 

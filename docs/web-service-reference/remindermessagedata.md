@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04dd4987-baaf-4ebe-ae58-ad962c2f8fa1
 description: Элемент Реминдермессажедата указывает данные в сообщении с напоминанием.
-ms.openlocfilehash: a1d01dd24030b047bd8ad025f3e1cebed0da8e29
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f2632062cd02581c426f7dbfa2a33d53e5594d72
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835067"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458553"
 ---
 # <a name="remindermessagedata"></a>реминдермессажедата
 
@@ -37,15 +37,15 @@ ms.locfileid: "19835067"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Реминдертекст](remindertext.md) | [Location](location.md) | [AssociatedCalendarItemId](associatedcalendaritemid.md) [StartTime (ReminderMessageDataType)](starttime-remindermessagedatatype.md) | [EndTime (ReminderMessageDataType)](endtime-remindermessagedatatype.md)(реминдермессажедататипе) время окончания (реминдермессажедататипе) ассоЦиатедкалендаритемид | 
+[Реминдертекст](remindertext.md)  |  [Location (расположение](location.md)  |  ) [StartTime (реминдермессажедататипе)](starttime-remindermessagedatatype.md)  |  [EndTime (реминдермессажедататипе)](endtime-remindermessagedatatype.md)  |  [АссоЦиатедкалендаритемид](associatedcalendaritemid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Сообщение](message-ex15websvcsotherref.md)
+[Message](message-ex15websvcsotherref.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -59,7 +59,7 @@ ms.locfileid: "19835067"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
@@ -68,7 +68,7 @@ ms.locfileid: "19835067"
 
 
 
-[Сообщение](message-ex15websvcsotherref.md)
+[Message](message-ex15websvcsotherref.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

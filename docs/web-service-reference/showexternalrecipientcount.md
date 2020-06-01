@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: db28dbcb-d051-4e5c-a9c2-4b8d5149b4e1
 description: Элемент ШовекстерналреЦипиенткаунт указывает, должны ли потребители операции с подсказками показывать подсказки, указывающие количество внешних получателей, на которые адресовано сообщение.
-ms.openlocfilehash: 1fd3ceb629689c560dc60afe01f0413602f79a0d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fc32e5c4a95f0e33b5532af9c77d31bd6446e641
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835491"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460472"
 ---
 # <a name="showexternalrecipientcount"></a>шовекстерналреЦипиенткаунт
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835491"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19835491"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

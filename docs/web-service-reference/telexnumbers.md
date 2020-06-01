@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 51992f35-54be-4424-8d3f-c3a3a1d05a4d
 description: Элемент Телекснумберс указывает массив номеров телекса и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 8aaaf0db542db36b06631690937b794374036a28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fc236fe9b1f0229dd2de687e9f2967eefcbf928b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840148"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459954"
 ---
 # <a name="telexnumbers"></a>телекснумберс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19840148"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840148"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 616e9a88-afd2-4df3-aa3b-f126bdebfaec
 description: Элемент EndDate указывает дату окончания для элемента, для которого предназначено напоминание.
-ms.openlocfilehash: 6582447cc858e1808b32770d5a752b772d1ea9cb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 37ebb31f4ff94e7e5eeacf218c9cbccdaf4f3ace
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762348"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460157"
 ---
 # <a name="enddate-remindertype"></a>EndDate (Реминдертипе)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762348"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762348"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

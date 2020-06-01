@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 54d14e47-a8f7-400b-a859-c7ea7ce4c6a4
 description: Элемент EndDateTime указывает дату и время окончания для правила или поиска.
-ms.openlocfilehash: ad596c6441e7bdb10b4e886a8d0f3ba183c43c3e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9556e4c1ef405ae66a71d19d99d9a71a61f54efc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762351"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460136"
 ---
 # <a name="enddatetime"></a>EndDateTime
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762351"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19762351"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

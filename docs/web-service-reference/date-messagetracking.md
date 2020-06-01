@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3b684b12-3e43-4012-a8c9-8fb8c43387b4
 description: Элемент Date представляет дату и время возникновения события.
-ms.openlocfilehash: af5a512064e384f2f3e196c12e48be5f2d5caae2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0851c0785072f24868b17a828f34a47861441d22
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761968"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459267"
 ---
 # <a name="date-messagetracking"></a>Дата (MessageTracking)
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761968"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761968"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

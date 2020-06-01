@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bd0c0bce-3e7c-47c7-af7f-5ee5f5ad9820
 description: Элемент Текстбоди указывает текст текста.
-ms.openlocfilehash: 78b18b27891d571605d2eeeeffb5c252cc790c11
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c0002785fb990a251267218f7a5f232e521db41a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840152"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459485"
 ---
 # <a name="textbody"></a>текстбоди
 
@@ -37,11 +37,11 @@ ms.locfileid: "19840152"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Item](item.md) |  | [Сообщение](message-ex15websvcsotherref.md) | [PostItem](postitem.md) | [Task](task.md) [DistributionList](distributionlist.md) | [CalendarItem](calendaritem.md)[Contact](contact.md)с контактами для элемента дистрибутионлист календаритем i i Item Task | 
+[Элемент](item.md)  |  [Contact (контакт](contact.md)  |  ) [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [Дистрибутионлист](distributionlist.md)  |  [Календаритем](calendaritem.md)  |  [Элемент](postitem.md)  |  i [Task (задача](task.md) )
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -57,7 +57,7 @@ ms.locfileid: "19840152"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

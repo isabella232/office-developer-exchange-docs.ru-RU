@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8a762128-8d5f-4774-8627-49f1dc8ba30d
 description: Элемент UninstallApp указывает запрос на удаление приложения по его идентификатору.
-ms.openlocfilehash: 84e6be6ce4e7c24a20fe9b2c2ca84e131850f9d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 822a3cb2c0242111c857e50e3c49379b8ed95fe6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840273"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458861"
 ---
 # <a name="uninstallapp"></a>UninstallApp
 
@@ -32,7 +32,7 @@ ms.locfileid: "19840273"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840273"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

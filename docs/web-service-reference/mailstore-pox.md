@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: af338f99-9e62-4124-9bff-8d7cc2008161
 description: Элемент Маилсторе содержит спецификации для подключения клиента к почтовому ящику пользователя с помощью протокола MAPI/HTTP.
-ms.openlocfilehash: 4c82c7b61752cf7d91287a3968f6c642f4943855
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 635228fcfeb3ad791c845050b82666a6e060b229
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834301"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459793"
 ---
 # <a name="mailstore-pox"></a>Маилсторе (POX)
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834301"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

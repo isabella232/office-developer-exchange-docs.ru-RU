@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2bb2cb78-e168-414e-8d07-414ab5c69185
 description: Элемент Локатионбаседстатедефинитион предназначен только для внутреннего использования.
-ms.openlocfilehash: 378d57418156e09ab0ce0bb33d4dc8e6cfdb53b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dd1e97b2071eeb82f7c9032b83ea52f83ee4a1ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834240"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460304"
 ---
 # <a name="locationbasedstatedefinition"></a>локатионбаседстатедефинитион
 
@@ -29,11 +29,11 @@ ms.locfileid: "19834240"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

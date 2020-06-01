@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 5e5ec861-0191-4ecb-a906-47ce8ed96381
 description: Элемент ErrorCode представляет код ошибки, возвращенный службой автообнаружения.
-ms.openlocfilehash: 2dd91cec4645325c02bc8588af0ee0547909b945
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d66167e51733ffcaa3d62a985d3e03e2ac80b715
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762378"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460094"
 ---
 # <a name="errorcode-soap"></a>ErrorCode (SOAP)
 
@@ -31,11 +31,11 @@ ms.locfileid: "19762378"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19762378"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

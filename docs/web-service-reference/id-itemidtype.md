@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a9909ed2-fdc5-4b1f-b7db-1f517add8eb3
 description: Элемент ID указывает идентификатор элемента.
-ms.openlocfilehash: a0abd81de0fc30bc5168543fc75f44d470eef100
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bc4ffa91f9375b33e89fa4e03b2a1d6a7974dc44
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833849"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459323"
 ---
 # <a name="id-itemidtype"></a>ID (Итемидтипе)
 
@@ -37,7 +37,7 @@ ms.locfileid: "19833849"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19833849"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5eae859a-5a74-4bf6-b196-d1b2fd38501a
 description: Элемент timestamp представляет метку времени события почтового ящика.
-ms.openlocfilehash: d020d9a4cf3a128d26e0ff2b83be9f3deb024339
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f2280d4eab67b603963c4f0a7468bf35a2b63a88
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840231"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459891"
 ---
 # <a name="timestamp"></a>Метка времени
 
@@ -34,11 +34,11 @@ ms.locfileid: "19840231"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -65,7 +65,7 @@ ms.locfileid: "19840231"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

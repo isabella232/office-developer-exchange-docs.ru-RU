@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 2f0f77bd-4cbe-4c02-880d-a93b387141d9
 description: Элемент Акцептаблереспонсесчема определяет схему для ответа автообнаружения.
-ms.openlocfilehash: 16444b6b3e17c6774416f90a5a056d0e8025287d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ffc06f33144af7c8f06e81a12bcb5077719b15b8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762482"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460409"
 ---
 # <a name="acceptableresponseschema-pox"></a>Акцептаблереспонсесчема (POX)
 
@@ -36,11 +36,11 @@ ms.locfileid: "19762482"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

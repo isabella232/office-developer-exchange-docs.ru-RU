@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5f68427b-990a-4a27-bfb3-fce3115b02d7
 description: Элемент Контаиншеадерстрингс указывает строки, которые должны отображаться в заголовках входящих сообщений, чтобы применялось условие или исключение.
-ms.openlocfilehash: 360870d63853a0e79f801cc2f17473b1a1b28c25
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 23e3d0e7cff9c78edbac10a6275514af93cab325
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761763"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458994"
 ---
 # <a name="containsheaderstrings"></a>контаиншеадерстрингс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761763"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19761763"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

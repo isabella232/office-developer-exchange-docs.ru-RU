@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b028c5c7-3494-4ecd-96d1-78783daa660f
 description: Элемент entry представляет один адрес электронной почты контакта.
-ms.openlocfilehash: 1852584e507c38da030815c37f85f7c4af4e2ba4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 766d67cda10b02c07a7677e541fddfc38a4285cf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762366"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459646"
 ---
 # <a name="entry-emailaddress"></a>Запись (EmailAddress)
 
@@ -44,7 +44,7 @@ ms.locfileid: "19762366"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19762366"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

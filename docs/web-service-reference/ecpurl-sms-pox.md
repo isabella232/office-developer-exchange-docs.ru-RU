@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5e5e589-ee16-42a8-9cd4-ae3909fc869b
 description: Элемент Екпурл-SMS определяет частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для доступа к параметрам службы коротких сообщений (SMS) для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: 38471db7b7e046e43425b132b1716033c1c96afd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 24f475e7f2d54fa565cc90796a983c0bd842e4da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762242"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458686"
 ---
 # <a name="ecpurl-sms-pox"></a>Екпурл-SMS (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762242"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8cb874ed-a538-4de6-ab22-2631092dcdd0
 description: Элемент Исреспонсерекуестед указывает, запрашивается ли ответ на элемент.
-ms.openlocfilehash: fb1fed51ad53c0eb19eddd42b34e9e83b476cbe3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 51bfda5ffa97baed6285a995b6877ec65183c2a2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834102"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459933"
 ---
 # <a name="isresponserequested"></a>исреспонсерекуестед
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834102"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19834102"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

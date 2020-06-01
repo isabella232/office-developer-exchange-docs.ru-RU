@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f7b3507-713d-4ccf-8518-75fa6f967d6d
 description: Элемент Креатефолдерпасреспонсемессаже указывает ответное сообщение для запроса CreateFolderPath.
-ms.openlocfilehash: f8f85cc246bb5d5ecd5cb745267d9d373286cf7a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3c0c4e98b568a6398dcd0e71a6e6931a3f47e3da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761878"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458889"
 ---
 # <a name="createfolderpathresponsemessage"></a>креатефолдерпасреспонсемессаже
 
@@ -74,7 +74,7 @@ ms.locfileid: "19761878"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

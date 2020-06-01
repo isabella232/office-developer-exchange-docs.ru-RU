@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7e0cfa14-cdfb-4b48-b2e9-b1d866bf2c0e
 description: Элемент email определяет адрес электронной почты пользователя, для которого запрашивается фотография, в операции GetUserPhoto.
-ms.openlocfilehash: 21156e8a9aa742035f2c988828a182cfd804ccbb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 28fc16cee4438f6a6a87924875e029184197a426
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762270"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459225"
 ---
 # <a name="email-string"></a>Электронная почта (строка)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762270"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762270"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

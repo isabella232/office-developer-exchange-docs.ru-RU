@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4b98be7-141c-4ba8-97ef-9ad1ed19f61f
 description: Элемент Time представляет время перехода суток до стандартного и летнего времени.
-ms.openlocfilehash: 716487fb7ed64dbaa6fa97caf1ea608e4673d2ef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 97c89fbcbdb85fcdd4d32a1d44075ac42adef053
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840164"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460297"
 ---
 # <a name="time"></a>Time
 
@@ -34,11 +34,11 @@ ms.locfileid: "19840164"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -75,7 +75,7 @@ ms.locfileid: "19840164"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -83,5 +83,5 @@ ms.locfileid: "19840164"
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

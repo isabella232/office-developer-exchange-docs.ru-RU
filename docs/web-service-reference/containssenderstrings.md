@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3e16163f-cffe-4c4e-9a2a-00245d25ba96
 description: Элемент Контаинссендерстрингс указывает строки, которые должны отображаться в свойстве From входящих сообщений, чтобы применялось условие или исключение.
-ms.openlocfilehash: d174c0d7e2cbfd5b671a825a867d3ee7e24c2f2a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e7b78f1311d288db7969a0024bde84433e18d37f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761771"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458980"
 ---
 # <a name="containssenderstrings"></a>контаинссендерстрингс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761771"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19761771"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0bb00cee-c66b-4f34-b99d-355458f5e83b
 description: Элемент ErrorCode представляет код ошибки проверки правила, указывающий, что не прошло проверку для каждого предиката правила или действия.
-ms.openlocfilehash: ed8e2fa72b0eb007925742e6d194f3a391b3f3cb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6432aeee786d74a9afcb346cb66765f9001257de
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762384"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460080"
 ---
 # <a name="errorcode"></a>ErrorCode
 
@@ -30,17 +30,17 @@ ms.locfileid: "19762384"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ошибка](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action.  <br/> |
+|[Error](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -102,7 +102,7 @@ ms.locfileid: "19762384"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

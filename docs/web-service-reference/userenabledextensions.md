@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 13719747-08b7-4083-a400-5cfb5e99f177
 description: Элемент Усеренабледекстенсионс содержит список включенных приложений.
-ms.openlocfilehash: 4186681fb11f92c769dd0bebc1f6e2f5cf0e03ba
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c09afe1c7ff9617d200a7faeea87efbbe2656b45
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840418"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460220"
 ---
 # <a name="userenabledextensions"></a>усеренабледекстенсионс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19840418"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840418"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

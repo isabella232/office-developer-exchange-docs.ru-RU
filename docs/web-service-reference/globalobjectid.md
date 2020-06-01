@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ef5618d3-9b52-4a00-ab66-159dc1091e93
 description: Элемент Глобалобжектид не используется.
-ms.openlocfilehash: 6418e3a4bff73abf20006f8040a97288b10f290f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c5d9fa91709cf979fa2143b791fbb880425e2ccd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833745"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459379"
 ---
 # <a name="globalobjectid"></a>глобалобжектид
 
@@ -41,11 +41,11 @@ ms.locfileid: "19833745"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "19833745"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -65,5 +65,5 @@ ms.locfileid: "19833745"
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

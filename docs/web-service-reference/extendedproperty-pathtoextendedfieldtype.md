@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fa620b48-2ce3-437d-b51e-541247eea1d9
 description: Элемент ExtendedProperty указывает расширенное свойство для единого хранилища контактов.
-ms.openlocfilehash: 7541fa6330ee96f7791febfabc672dbcf0e95b54
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f6c283d5cce3bc927662ad0d9c796c0589e7054c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762477"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460143"
 ---
 # <a name="extendedproperty-pathtoextendedfieldtype"></a>ExtendedProperty (Пастоекстендедфиелдтипе)
 
@@ -64,7 +64,7 @@ ms.locfileid: "19762477"
 |аппликатионтимеаррай  <br/> |Указывает массив времени приложения.  <br/> |
 |Binary  <br/> |Указывает двоичное значение.  <br/> |
 |бинаряррай  <br/> |Указывает массив двоичных значений.  <br/> |
-|Boolean  <br/> |Указывает логическое значение.  <br/> |
+|Логический  <br/> |Указывает логическое значение.  <br/> |
 |CLSID  <br/> |Указывает CLSID.  <br/> |
 |клсидаррай  <br/> |Указывает массив идентификаторов CLSID.  <br/> |
 |Денежный  <br/> |Указывает денежное значение.  <br/> |
@@ -74,7 +74,7 @@ ms.locfileid: "19762477"
 |Ошибка  <br/> |Указывает на ошибку. Это относится к отчетам об ошибках. Его нельзя использовать в ограничениях, а также для извлечения и установки значений.  <br/> |
 |С плавающей запятой  <br/> |Указывает **число с плавающей точкой**.  <br/> |
 |флоатаррай  <br/> |Указывает массив значений **числа с плавающей запятой** .  <br/> |
-|Целое число  <br/> |Указывает целое число.  <br/> |
+|Integer  <br/> |Указывает целое число.  <br/> |
 |интежераррай  <br/> |Указывает массив целых чисел.  <br/> |
 |Длинное целое  <br/> |Указывает **длинное**значение.  <br/> |
 |лонгаррай  <br/> |Указывает массив **длинных** значений.  <br/> |
@@ -90,7 +90,7 @@ ms.locfileid: "19762477"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -108,7 +108,7 @@ ms.locfileid: "19762477"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: a68479f2-d900-4dd8-a5ce-dbea8247e841
 description: Операция SetPlayOnPhoneDialString задает строку набора номера, используемую по умолчанию для операции PlayOnPhone (веб-служба единой системы обмена сообщениями) и операции PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: 0d1a879784740777e5eab0cbd5f85e59a6479461
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7df806eedc2d6d037394f31ec4ccbfe28aaf3372
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835446"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458644"
 ---
 # <a name="setplayonphonedialstring-operation-um-web-service"></a>Операция SetPlayOnPhoneDialString (веб-служба единой системы обмена сообщениями)
 
@@ -34,7 +34,7 @@ ms.locfileid: "19835446"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetPlayOnPhoneDialString xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetPlayOnPhoneDialString xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
         <dialString>12345</dialString>
     </SetPlayOnPhoneDialString>
   </soap:Body>
@@ -53,7 +53,7 @@ ms.locfileid: "19835446"
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <SetPlayOnPhoneDialStringResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <SetPlayOnPhoneDialStringResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```

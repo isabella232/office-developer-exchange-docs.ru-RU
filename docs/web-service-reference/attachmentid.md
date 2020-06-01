@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 55a5fd77-60d1-40fa-8144-770600cedc6a
 description: Элемент AttachmentId определяет вложенный элемент или файл. Этот элемент используется в ответах CreateAttachment.
-ms.openlocfilehash: 2910503d1661ca3aaeeb4e319deb39f6b57c5c0a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b5dc9299b615f0fc01b8afcbaabf0ec7996e53d1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761509"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459113"
 ---
 # <a name="attachmentid"></a>AttachmentId
 
@@ -42,7 +42,7 @@ ms.locfileid: "19761509"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19761509"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

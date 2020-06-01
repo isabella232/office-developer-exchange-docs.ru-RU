@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: da795880-12b4-4341-bcb8-31616f4ba46f
 description: Элемент Items содержит массив сведений об элементе для неиндексируемых элементов.
-ms.openlocfilehash: b272479051edc70534c7b5b45410f8a9d5e3f97f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 81ca175933b0d23a939f6fdc45cb5a10e7157350
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834154"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459905"
 ---
 # <a name="items-arrayofnonindexableitemdetailstype"></a>Элементы (Аррайофнониндексаблеитемдетаилстипе)
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834154"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834154"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

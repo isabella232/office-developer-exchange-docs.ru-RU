@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e37963f4-af9e-4481-b389-16175711e66d
 description: Элемент DeleteFolder определяет запрос на удаление папок из почтового ящика в хранилище Exchange.
-ms.openlocfilehash: d31f98f26f537104e40b303de4199f45c65f49c7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eb705a47b78b19c79b2e87561ba3696ed40e09cd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762036"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458770"
 ---
 # <a name="deletefolder"></a>DeleteFolder
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762036"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -72,7 +72,7 @@ ms.locfileid: "19762036"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

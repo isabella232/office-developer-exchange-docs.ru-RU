@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 56d6aa52-8fa6-4773-9046-44a6f4f5d97c
 description: Элемент Коннектингсид представляет учетную запись для олицетворения при использовании заголовка SOAP Ексчанжеимперсонатион.
-ms.openlocfilehash: a30f11721506989a84f52dd04c328974f4483956
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: f4edf63f129fc769f4a2d710a505b40da4057fab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354339"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459281"
 ---
 # <a name="connectingsid"></a>коннектингсид
 
@@ -58,7 +58,7 @@ ms.locfileid: "21354339"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -85,12 +85,12 @@ ms.locfileid: "21354339"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Авторизация между серверами в EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+- [Авторизация между серверами в EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

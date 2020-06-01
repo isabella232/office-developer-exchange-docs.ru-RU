@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 742a46a0-2475-45a0-b44f-90639a3f5a43
 description: Элемент Креатеитемреспонсе определяет ответ на запрос CreateItem.
-ms.openlocfilehash: a05f222721e5b16695415e74a8e77e0fec495ef5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: af7349888a2f194a8f4ff1043ec8c38a90b3dfff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761899"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458847"
 ---
 # <a name="createitemresponse"></a>креатеитемреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761899"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761899"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

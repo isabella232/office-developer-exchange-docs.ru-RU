@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 709dbe53-6141-41f8-a2b9-a399bae47991
 description: Элемент Ауспаккаже указывает схему проверки подлинности, используемую при проверке подлинности на сервере Exchange, на котором установлена роль сервера почтовых ящиков.
-ms.openlocfilehash: 120ec00ac82166ae2002a8fbac0edf9a1e23afc7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5317cf49d354a558417829e1d1b5b67cd6874309
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761526"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459106"
 ---
 # <a name="authpackage-pox"></a>Ауспаккаже (POX)
 
@@ -40,11 +40,11 @@ ms.locfileid: "19761526"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

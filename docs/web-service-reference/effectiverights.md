@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bf5278eb-3a1a-4d27-9d16-b8be043bb023
 description: Элемент Еффективеригхтс содержит права клиента в зависимости от параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.
-ms.openlocfilehash: 610d9e214a8de648ece667799bb5e67dfcc358f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3055eb73056750508b48ead29136b56e7ce97ee9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762262"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459246"
 ---
 # <a name="effectiverights"></a>еффективеригхтс
 
@@ -42,7 +42,7 @@ ms.locfileid: "19762262"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -51,9 +51,9 @@ ms.locfileid: "19762262"
 |[креатеассоЦиатед](createassociated.md) <br/> |Указывает, может ли клиент создать связанную таблицу содержимого. Это свойство используется только для объектов Folder.  <br/> |
 |[креатеконтентс](createcontents.md) <br/> |Указывает, может ли клиент создать таблицу содержимого. Это свойство используется только для объектов Folder.  <br/> |
 |[креатехиерарчи](createhierarchy.md) <br/> |Указывает, может ли клиент создать таблицу иерархии. Это свойство используется только для объектов Folder.  <br/> |
-|[удаление](delete.md); <br/> |Указывает, может ли клиент удалить папку или элемент.  <br/> |
+|[Удаление](delete.md) <br/> |Указывает, может ли клиент удалить папку или элемент.  <br/> |
 |[Modify](modify.md) <br/> |Указывает, может ли клиент изменить папку или элемент.  <br/> |
-|[Чтение](read.md) <br/> |Указывает, может ли клиент прочитать папку или элемент.  <br/> |
+|[Read](read.md) <br/> |Указывает, может ли клиент прочитать папку или элемент.  <br/> |
 |[виевприватеитемс](viewprivateitems.md) <br/> |Указывает, можно ли просматривать закрытый элемент.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
@@ -68,7 +68,7 @@ ms.locfileid: "19762262"
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
-|[Элемент](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
 |[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
 |[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
 |[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
@@ -93,7 +93,7 @@ ms.locfileid: "19762262"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -101,5 +101,5 @@ ms.locfileid: "19762262"
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+- [Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

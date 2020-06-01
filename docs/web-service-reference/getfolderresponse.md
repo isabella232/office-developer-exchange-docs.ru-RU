@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 47abeec8-78dd-4297-8525-099174ec880d
 description: Элемент Жетфолдерреспонсе определяет ответ на запрос на получение папки.
-ms.openlocfilehash: 0831224f1f649f3febf20fac2d7e987de03edcb8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 46cd56aa3067b010d0f3f3b5a321e1855b0520bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762801"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459176"
 ---
 # <a name="getfolderresponse"></a>жетфолдерреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762801"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762801"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

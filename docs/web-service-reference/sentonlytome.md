@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b6d4dea5-812d-4b29-917d-071ebd7ddd92
 description: Элемент Сентонлитоме указывает, должен ли владелец почтового ящика быть единственным в свойстве ToRecipients входящих сообщений, чтобы применялось условие или исключение.
-ms.openlocfilehash: 91c31069652a35dc7a38ad6b6e1512cc07d67a98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3127550b09d6f5ccf5ba87ad34557afd047f8be0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835353"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458651"
 ---
 # <a name="sentonlytome"></a>сентонлитоме
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835353"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19835353"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

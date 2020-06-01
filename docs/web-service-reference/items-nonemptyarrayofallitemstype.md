@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d61ef1cc-ddfc-480a-9625-7b436cb33ae0
 description: Элемент Items содержит набор элементов, которые необходимо создать.
-ms.openlocfilehash: 3b1ce7092bb6d37f23792fbf1ecb1f77b63f2afd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0f70f1fe4348b5b74cef6be6414618af1e3de260
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834160"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459856"
 ---
 # <a name="items-nonemptyarrayofallitemstype"></a>Элементы (Нонемптяррайофаллитемстипе)
 
@@ -56,14 +56,14 @@ ms.locfileid: "19834160"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
@@ -99,7 +99,7 @@ ms.locfileid: "19834160"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -113,5 +113,5 @@ ms.locfileid: "19834160"
 [Операция CreateItem](createitem-operation.md)
 
 
-[Создание папок (веб-службы Exchange)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+[Создание папок (веб-службы Exchange)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

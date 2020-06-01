@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 75fee92a-a7f8-4a62-ad2b-17acbaada186
 description: Операция GetSharingFolder получает идентификатор локальной папки указанной общей папки.
-ms.openlocfilehash: 23adb10b22623fcbc1dd6b33bd674afafdaa8b19
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cf66eb390b0287e89bb8402f26a2e728868a2b18
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833670"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460514"
 ---
 # <a name="getsharingfolder-operation"></a>Операция GetSharingFolder
 
@@ -45,8 +45,8 @@ ms.locfileid: "19833670"
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -70,8 +70,8 @@ ms.locfileid: "19833670"
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -84,7 +84,7 @@ ms.locfileid: "19833670"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Сведения о возможных значениях элемента **DataType** приведены в разделе [DataType](datatype.md).
   
@@ -107,13 +107,13 @@ ms.locfileid: "19833670"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingFolderResponseMessage ResponseClass="Success"
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:SharingFolderId Id="AAMkAD=" ChangeKey="AwAAA=" />
     </GetSharingFolderResponseMessage>
@@ -140,13 +140,13 @@ ms.locfileid: "19833670"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingFolderResponseMessage ResponseClass="Error" 
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:MessageText>Either DataType or SharedFolderId must be specified, but not both.</m:MessageText>
       <m:ResponseCode>ErrorInvalidGetSharingFolderRequest</m:ResponseCode>
       <m:DescriptiveLinkKey>0</m:DescriptiveLinkKey>

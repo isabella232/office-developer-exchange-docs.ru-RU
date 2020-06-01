@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ce6f50ef-ad8a-47e4-915a-487b2ef7a2e0
 description: Элемент Тентативелякцептитем представляет предварительный ответ на приглашение на собрание.
-ms.openlocfilehash: 203028aae2ec972e36209b2a97420e83d61ddd81
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6d20ec2964c41dcbb786b1209b4597999e025609
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840159"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459499"
 ---
 # <a name="tentativelyacceptitem"></a>тентативелякцептитем
 
@@ -51,7 +51,7 @@ ms.locfileid: "19840159"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19840159"
 |:-----|:-----|
 |[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Определяет чувствительность элемента.  <br/> |
-|[Основной текст](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
+|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
 |[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элемент или файл, прикрепленный к элементу в хранилище Exchange.  <br/> |
 |[InternetMessageHeaders](internetmessageheaders.md) <br/> |Представляет имя заголовка Интернет-сообщения для данного заголовка в коллекции заголовков.  <br/> |
 |[Sender](sender.md) <br/> |Определяет отправителя элемента.  <br/> |
@@ -91,7 +91,7 @@ ms.locfileid: "19840159"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3d28ed70-4cfe-46e4-8d15-593c6e355bcf
 description: Элемент Глобаликониндекс определяет глобальный индекс значков для всех элементов в беседе.
-ms.openlocfilehash: e8d78bfcfc0e57df9230db86e080d1ee29878094
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9900a80136a1a7eaae4634afd31568679f6dba1b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833727"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459463"
 ---
 # <a name="globaliconindex"></a>глобаликониндекс
 
@@ -30,15 +30,15 @@ ms.locfileid: "19833727"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Беседа (конверсатионтипе)](conversation-conversationtype.md) | [Item](item.md) | [Contact](contact.md) | [дистрибутионлист](distributionlist.md) | [Message](message-ex15websvcsotherref.md) | [CalendarItem](calendaritem.md)календаритем | Task i[Item](postitem.md) | [Task](task.md)
+[Беседа (конверсатионтипе)](conversation-conversationtype.md)  |  [Элемент](item.md)  |  [Contact (контакт](contact.md)  |  ) [Дистрибутионлист](distributionlist.md)  |  [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [Календаритем](calendaritem.md)  |  [Элемент](postitem.md)  |  i [Task (задача](task.md) )
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -94,7 +94,7 @@ ms.locfileid: "19833727"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

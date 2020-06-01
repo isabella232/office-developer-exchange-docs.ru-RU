@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: dcbb9d85-d90c-4363-b4c9-d081ad03f407
 description: Элемент offset описывает смещение из Басеоффсет. В сочетании с элементом Басеоффсет элемент offset определяет, является ли время стандартным или летним.
-ms.openlocfilehash: d85fef0d67633733f6aa1943d70413ea70a528d6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 74ad87026c2cb89f3b0c35218c91f81380029963
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834642"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459758"
 ---
 # <a name="offset"></a>Offset
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834642"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834642"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

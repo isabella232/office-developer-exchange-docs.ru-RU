@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 696e5fdb-d8c5-40f0-9e79-885eae65dfa4
 description: Элемент MailboxType представляет тип почтового ящика, представленного адресом электронной почты.
-ms.openlocfilehash: d7232377951e8d9c8f191ac856058bc28467cadd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8c322ab8a87730832f5d199698a369656b058a9a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834305"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459800"
 ---
 # <a name="mailboxtype"></a>MailboxType
 
@@ -35,11 +35,11 @@ ms.locfileid: "19834305"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834305"
 |PrivateDL  <br/> |Представляет частный список рассылки в почтовом ящике пользователя.  <br/> |
 |Контакт  <br/> |Представляет контакт в почтовом ящике пользователя.  <br/> |
 |PublicFolder  <br/> |Представляет общедоступную папку.  <br/> |
-|Unknown  <br/> |Представляет неизвестный тип почтового ящика.  <br/> |
+|Неизвестно  <br/> |Представляет неизвестный тип почтового ящика.  <br/> |
 |OneOff  <br/> |Представляет одноразовый участник личного списка рассылки.  <br/> |
 |граупмаилбокс  <br/> |Представляет группу почтового ящика.  <br/> |
    
@@ -71,7 +71,7 @@ ms.locfileid: "19834305"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

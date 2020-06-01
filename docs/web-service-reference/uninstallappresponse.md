@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0e3f13cc-e3b3-4eea-9128-12c98b5197f4
 description: Элемент Унинсталлаппреспонсе указывает ответ на запрос UninstallApp.
-ms.openlocfilehash: 9675b72b36fd1ac5e298b2998ed683a1ba6452f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 12d74669aed0c380e32dd568bb99b88c30fdb22d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840279"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459456"
 ---
 # <a name="uninstallappresponse"></a>унинсталлаппреспонсе
 
@@ -35,11 +35,11 @@ ms.locfileid: "19840279"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажексмл](messagexml.md) | [ResponseCode](responsecode.md)респонсекоде | [DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй | [мессажексмл](messagexml.md)
+[Мессажексмл](messagexml.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "19840279"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

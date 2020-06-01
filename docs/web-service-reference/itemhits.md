@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b0d54f5-1a04-4781-9f4a-d3e933a8b235
 description: Элемент Итемхитс определяет, сколько раз было найдено ключевое слово.
-ms.openlocfilehash: f980b957c3b07d8ff45c32bbbd8f0465f0d77b22
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a7e9165e2628fc1b66323b1d19a9c24131909e34
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834147"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460311"
 ---
 # <a name="itemhits"></a>итемхитс
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834147"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

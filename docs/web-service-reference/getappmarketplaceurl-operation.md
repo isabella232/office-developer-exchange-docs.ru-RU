@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2c016fc3-0e13-4624-9a5b-d3e84577a860
 description: Поиск сведений о GetAppMarketplaceUrlной операции EWS.
-ms.openlocfilehash: 616e7f571ba5283a773e51d611cd18bb37b5bc8b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6797af44c3aaa6653c440b3d53a282d8c90a4381
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762689"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459527"
 ---
 # <a name="getappmarketplaceurl-operation"></a>Операция GetAppMarketplaceUrl
 
@@ -43,8 +43,8 @@ ms.locfileid: "19762689"
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013_SP1" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -86,15 +86,15 @@ ms.locfileid: "19762689"
                            MajorBuildNumber="918" 
                            MinorBuildNumber="7" 
                            Version="V2_10" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetAppMarketplaceUrlResponse ResponseClass="Success" 
-                                    xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                    xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <AppMarketplaceUrl>http://marketplace.contoso.com</AppMarketplaceUrl>
       </GetAppMarketplaceUrlResponse>
@@ -126,15 +126,15 @@ ms.locfileid: "19762689"
                            MajorBuildNumber="918" 
                            MinorBuildNumber="7" 
                            Version="V2_10" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetAppMarketplaceUrlResponse ResponseClass="Error" 
-                                    xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                    xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Cannot get external ECP URL. This might happen if external ECP URL isn't configured.</MessageText>
          <ResponseCode>ErrorCannotGetExternalEcpUrl</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5221745b-572c-44a5-afdb-41b58af44971
 description: Элемент Екпурл-MT указывает частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для доступа к параметрам отслеживания сообщений электронной почты для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: 13954a4dab8e81f4ba75b3578e6ba7f67f4b8b96
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 097811add5635bca14c659814652bca244a1398d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762234"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458714"
 ---
 # <a name="ecpurl-mt-pox"></a>Екпурл-MT (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762234"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

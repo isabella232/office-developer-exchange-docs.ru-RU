@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 135d7fc3-7d5b-4e30-9a6f-62eb02d7ab98
 description: Элемент Реминдеритемактионс указывает действия для элементов напоминания.
-ms.openlocfilehash: b35bad0ed6fa56c82ff2e7c723f692589e229ce3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c9b42e420f81cd0cb15bf1bd17366d9a996f1b0b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835073"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458560"
 ---
 # <a name="reminderitemactions"></a>реминдеритемактионс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19835073"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835073"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

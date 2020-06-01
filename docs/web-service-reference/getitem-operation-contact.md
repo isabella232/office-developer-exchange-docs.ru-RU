@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6b96dace-1260-4b83-869a-7c31c5583daa
 description: Операция GetItem используется для получения элементов контактов из хранилища Exchange.
-ms.openlocfilehash: 8d7436421f0c54a49345e8ef6b37cb442bca4277
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762832"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460024"
 ---
 # <a name="getitem-operation-contact"></a>Операция GetItem (контакт)
 
@@ -35,9 +35,9 @@ ms.locfileid: "19762832"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns='http://schemas.microsoft.com/exchange/services/2006/messages'>
+    <GetItem xmlns='https://schemas.microsoft.com/exchange/services/2006/messages'>
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
       </ItemShape>
@@ -49,7 +49,7 @@ ms.locfileid: "19762832"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Запрос на получение элемента из хранилища Exchange имеет одну и ту же форму для всех типов элементов. Ответы на запросы для различных элементов будут отличаться, так как различные элементы возвращают разные сведения на основе фигур ответа.
   
@@ -85,12 +85,12 @@ ms.locfileid: "19762832"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -151,7 +151,7 @@ ms.locfileid: "19762832"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
@@ -181,7 +181,7 @@ ms.locfileid: "19762832"
     
 - [Sensitivity](sensitivity.md)
     
-- [Основной текст](body.md)
+- [Body](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
@@ -263,9 +263,9 @@ ms.locfileid: "19762832"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns='http://schemas.microsoft.com/exchange/services/2006/messages'>
+    <GetItem xmlns='https://schemas.microsoft.com/exchange/services/2006/messages'>
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
         <t:IncludeMimeContent>true</t:IncludeMimeContent>
@@ -278,7 +278,7 @@ ms.locfileid: "19762832"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификаторы элементов были сокращены для сохранения удобочитаемости.
   
@@ -297,12 +297,12 @@ ms.locfileid: "19762832"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Error">
           <m:MessageText>Mime conversion is not supported for this item type.</m:MessageText>

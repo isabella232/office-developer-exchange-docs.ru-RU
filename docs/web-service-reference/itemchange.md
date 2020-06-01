@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5cb43b02-d444-4d9c-9075-cdc5a4427daf
 description: Элемент Итемчанже содержит идентификатор элемента и обновления, применяемые к элементу.
-ms.openlocfilehash: 42484c8deecb106e05023215342af3c7d996d852
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 916ef1ba2c7a709ec1fd80ababd72999506773c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353513"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459919"
 ---
 # <a name="itemchange"></a>ItemChange
 
@@ -56,7 +56,7 @@ ms.locfileid: "21353513"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -83,7 +83,7 @@ ms.locfileid: "21353513"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

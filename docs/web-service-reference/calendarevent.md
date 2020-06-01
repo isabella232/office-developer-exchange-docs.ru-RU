@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 91958c01-1fcb-4ac0-8601-5e5b434c988a
 description: Элемент Календаревент представляет уникальное вхождение элемента календаря.
-ms.openlocfilehash: f7fff7ba511ca12813dd4c2d694e89c97589ba31
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8bf37c907ed726e33dd2b1eff9add5d6235704da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761637"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459078"
 ---
 # <a name="calendarevent"></a>календаревент
 
@@ -51,7 +51,7 @@ ms.locfileid: "19761637"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -78,7 +78,7 @@ ms.locfileid: "19761637"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -92,5 +92,5 @@ ms.locfileid: "19761637"
 [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
 
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

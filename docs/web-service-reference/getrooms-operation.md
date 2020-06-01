@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5501ddc0-3bfa-4da6-8e15-4223ca5499a3
 description: Операция "высвободить" получает комнаты в указанном списке помещений.
-ms.openlocfilehash: 3718c476881ae8aa538646464e7c61845d849562
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4cb124b96637b9fcdca15595faebb2ce4d304de0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762908"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460549"
 ---
 # <a name="getrooms-operation"></a>Операция GetRooms
 
@@ -46,8 +46,8 @@ ms.locfileid: "19762908"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version ="Exchange2010_SP1"/>
   </soap:Header>
@@ -85,13 +85,13 @@ ms.locfileid: "19762908"
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="14" MinorVersion="1" MajorBuildNumber="164" MinorBuildNumber="0" Version="Exchange2010_SP1" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+    <h:ServerVersionInfo MajorVersion="14" MinorVersion="1" MajorBuildNumber="164" MinorBuildNumber="0" Version="Exchange2010_SP1" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetRoomsResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetRoomsResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
-      <m:Rooms xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <t:Room xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:Rooms xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <t:Room xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:Id>
             <t:Name>Room01</t:Name>
             <t:EmailAddress>Room01@contoso.com</t:EmailAddress>
@@ -99,7 +99,7 @@ ms.locfileid: "19762908"
             <t:MailboxType>Mailbox</t:MailboxType>
           </t:Id>
         </t:Room>
-        <t:Room xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <t:Room xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:Id>
             <t:Name>Room02</t:Name>
             <t:EmailAddress>Room02@contoso.com</t:EmailAddress>
@@ -147,10 +147,10 @@ ms.locfileid: "19762908"
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="14" MinorVersion="1" MajorBuildNumber="164" MinorBuildNumber="0" Version="Exchange2010_SP1" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+    <h:ServerVersionInfo MajorVersion="14" MinorVersion="1" MajorBuildNumber="164" MinorBuildNumber="0" Version="Exchange2010_SP1" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetRoomsResponse ResponseClass="Error" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetRoomsResponse ResponseClass="Error" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <MessageText>No results were found.</MessageText>
       <ResponseCode>ErrorNameResolutionNoResults</ResponseCode>
       <DescriptiveLinkKey>0</DescriptiveLinkKey>

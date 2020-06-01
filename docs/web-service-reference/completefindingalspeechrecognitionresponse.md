@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 74c4b9d8-d336-4954-b9c2-7563bc7740fa
 description: Элемент Комплетефиндингалспичрекогнитионреспонсе предназначен только для внутреннего использования.
-ms.openlocfilehash: 36ce4de04082af59fe2e41fe642875adb2f993d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 659a4b6357c1095dc076e1103e91c322ca47a4c5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761695"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459029"
 ---
 # <a name="completefindingalspeechrecognitionresponse"></a>комплетефиндингалспичрекогнитионреспонсе
 
@@ -29,11 +29,11 @@ ms.locfileid: "19761695"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,7 +49,7 @@ ms.locfileid: "19761695"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

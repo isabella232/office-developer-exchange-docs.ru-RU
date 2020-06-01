@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 78a09c3a-1646-4c55-95a2-1109fb11e1c6
 description: Элемент UserId содержит массив делегированных пользователей, которые необходимо получить или удалить из почтового ящика участника. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 277ae96fdbc30f1b39ef20553e10ff1de3ff7a8b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: de4661226c154ef0d2d5ac55c57405e20c4d2aee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840424"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459779"
 ---
 # <a name="userids"></a>UserIds
 
@@ -36,7 +36,7 @@ ms.locfileid: "19840424"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19840424"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

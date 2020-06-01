@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 42b16880-1271-4690-abd0-0072d95b04b7
 description: Элемент PlayOnPhoneResponse определяет ответ на запрос для операции PlayOnPhone (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: 482739d924bbac1d58624e50596af48cc405a3ef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ddb9cc9a8feaeb476e6502339fdc74d024797b9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834832"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459618"
 ---
 # <a name="playonphoneresponse-um-web-service"></a>PlayOnPhoneResponse (веб-служба единой системы обмена сообщениями)
 
@@ -35,15 +35,15 @@ ms.locfileid: "19834832"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834832"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
