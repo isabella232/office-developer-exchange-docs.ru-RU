@@ -12,71 +12,71 @@ api_type:
 - schema
 ms.assetid: 696e5fdb-d8c5-40f0-9e79-885eae65dfa4
 description: Элемент MailboxType представляет тип почтового ящика, представленного адресом электронной почты.
-ms.openlocfilehash: d7232377951e8d9c8f191ac856058bc28467cadd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8c322ab8a87730832f5d199698a369656b058a9a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834305"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459800"
 ---
-# <a name="mailboxtype"></a><span data-ttu-id="771d9-103">MailboxType</span><span class="sxs-lookup"><span data-stu-id="771d9-103">MailboxType</span></span>
+# <a name="mailboxtype"></a><span data-ttu-id="d03ed-103">MailboxType</span><span class="sxs-lookup"><span data-stu-id="d03ed-103">MailboxType</span></span>
 
-<span data-ttu-id="771d9-104">Элемент **MailboxType** представляет тип почтового ящика, представленного адресом электронной почты.</span><span class="sxs-lookup"><span data-stu-id="771d9-104">The **MailboxType** element represents the type of mailbox that is represented by the e-mail address.</span></span> 
+<span data-ttu-id="d03ed-104">Элемент **MailboxType** представляет тип почтового ящика, представленного адресом электронной почты.</span><span class="sxs-lookup"><span data-stu-id="d03ed-104">The **MailboxType** element represents the type of mailbox that is represented by the e-mail address.</span></span> 
   
 ```XML
 <MailboxType>Mailbox | PublicDL | PrivateDL | Contact | PublicFolder | Unknown | OneOff | GroupMailbox</MailboxType>
 ```
 
-<span data-ttu-id="771d9-105">**маилбокстипетипе**</span><span class="sxs-lookup"><span data-stu-id="771d9-105">**MailboxTypeType**</span></span>
+<span data-ttu-id="d03ed-105">**маилбокстипетипе**</span><span class="sxs-lookup"><span data-stu-id="d03ed-105">**MailboxTypeType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="771d9-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="771d9-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="d03ed-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="d03ed-106">Attributes and elements</span></span>
 
-<span data-ttu-id="771d9-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="771d9-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="d03ed-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="d03ed-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="771d9-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="771d9-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="d03ed-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="d03ed-108">Attributes</span></span>
 
-<span data-ttu-id="771d9-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="771d9-109">None.</span></span>
+<span data-ttu-id="d03ed-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d03ed-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="771d9-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="771d9-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="d03ed-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="d03ed-110">Child elements</span></span>
 
-<span data-ttu-id="771d9-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="771d9-111">None.</span></span>
+<span data-ttu-id="d03ed-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d03ed-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="771d9-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="771d9-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="d03ed-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="d03ed-112">Parent elements</span></span>
 
-|<span data-ttu-id="771d9-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="771d9-113">**Element**</span></span>|<span data-ttu-id="771d9-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="771d9-114">**Description**</span></span>|
+|<span data-ttu-id="d03ed-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d03ed-113">**Element**</span></span>|<span data-ttu-id="d03ed-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d03ed-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="771d9-115">Mailbox</span><span class="sxs-lookup"><span data-stu-id="771d9-115">Mailbox</span></span>](mailbox.md) <br/> |<span data-ttu-id="771d9-116">Определяет полностью разрешенный адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="771d9-116">Identifies a fully resolved e-mail address.</span></span>  <br/> |
-|[<span data-ttu-id="771d9-117">RoomList</span><span class="sxs-lookup"><span data-stu-id="771d9-117">RoomList</span></span>](roomlist.md) <br/> |<span data-ttu-id="771d9-118">Определяет список комнат для собраний.</span><span class="sxs-lookup"><span data-stu-id="771d9-118">Identifies a list of meeting rooms.</span></span>  <br/> |
+|[<span data-ttu-id="d03ed-115">Mailbox</span><span class="sxs-lookup"><span data-stu-id="d03ed-115">Mailbox</span></span>](mailbox.md) <br/> |<span data-ttu-id="d03ed-116">Определяет полностью разрешенный адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="d03ed-116">Identifies a fully resolved e-mail address.</span></span>  <br/> |
+|[<span data-ttu-id="d03ed-117">RoomList</span><span class="sxs-lookup"><span data-stu-id="d03ed-117">RoomList</span></span>](roomlist.md) <br/> |<span data-ttu-id="d03ed-118">Определяет список комнат для собраний.</span><span class="sxs-lookup"><span data-stu-id="d03ed-118">Identifies a list of meeting rooms.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="771d9-119">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="771d9-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="d03ed-119">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="d03ed-119">Text value</span></span>
 
-<span data-ttu-id="771d9-120">В следующей таблице приведены возможные значения для элемента **MailboxType** .</span><span class="sxs-lookup"><span data-stu-id="771d9-120">The following table lists the possible values for the **MailboxType** element.</span></span> 
+<span data-ttu-id="d03ed-120">В следующей таблице приведены возможные значения для элемента **MailboxType** .</span><span class="sxs-lookup"><span data-stu-id="d03ed-120">The following table lists the possible values for the **MailboxType** element.</span></span> 
   
-|<span data-ttu-id="771d9-121">**Значение**</span><span class="sxs-lookup"><span data-stu-id="771d9-121">**Value**</span></span>|<span data-ttu-id="771d9-122">**Описание**</span><span class="sxs-lookup"><span data-stu-id="771d9-122">**Description**</span></span>|
+|<span data-ttu-id="d03ed-121">**Значение**</span><span class="sxs-lookup"><span data-stu-id="d03ed-121">**Value**</span></span>|<span data-ttu-id="d03ed-122">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d03ed-122">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="771d9-123">Почтовый ящик</span><span class="sxs-lookup"><span data-stu-id="771d9-123">Mailbox</span></span>  <br/> |<span data-ttu-id="771d9-124">Представляет объект Active Directory с включенной поддержкой почты.</span><span class="sxs-lookup"><span data-stu-id="771d9-124">Represents a mail-enabled Active Directory object.</span></span>  <br/> |
-|<span data-ttu-id="771d9-125">PublicDL</span><span class="sxs-lookup"><span data-stu-id="771d9-125">PublicDL</span></span>  <br/> |<span data-ttu-id="771d9-126">Представляет общедоступный список рассылки.</span><span class="sxs-lookup"><span data-stu-id="771d9-126">Represents a public distribution list.</span></span>  <br/> |
-|<span data-ttu-id="771d9-127">PrivateDL</span><span class="sxs-lookup"><span data-stu-id="771d9-127">PrivateDL</span></span>  <br/> |<span data-ttu-id="771d9-128">Представляет частный список рассылки в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="771d9-128">Represents a private distribution list in a user's mailbox.</span></span>  <br/> |
-|<span data-ttu-id="771d9-129">Контакт</span><span class="sxs-lookup"><span data-stu-id="771d9-129">Contact</span></span>  <br/> |<span data-ttu-id="771d9-130">Представляет контакт в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="771d9-130">Represents a contact in a user's mailbox.</span></span>  <br/> |
-|<span data-ttu-id="771d9-131">PublicFolder</span><span class="sxs-lookup"><span data-stu-id="771d9-131">PublicFolder</span></span>  <br/> |<span data-ttu-id="771d9-132">Представляет общедоступную папку.</span><span class="sxs-lookup"><span data-stu-id="771d9-132">Represents a public folder.</span></span>  <br/> |
-|<span data-ttu-id="771d9-133">Unknown</span><span class="sxs-lookup"><span data-stu-id="771d9-133">Unknown</span></span>  <br/> |<span data-ttu-id="771d9-134">Представляет неизвестный тип почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="771d9-134">Represents an unknown type of mailbox.</span></span>  <br/> |
-|<span data-ttu-id="771d9-135">OneOff</span><span class="sxs-lookup"><span data-stu-id="771d9-135">OneOff</span></span>  <br/> |<span data-ttu-id="771d9-136">Представляет одноразовый участник личного списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="771d9-136">Represents a one-off member of a personal distribution list.</span></span>  <br/> |
-|<span data-ttu-id="771d9-137">граупмаилбокс</span><span class="sxs-lookup"><span data-stu-id="771d9-137">GroupMailbox</span></span>  <br/> |<span data-ttu-id="771d9-138">Представляет группу почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="771d9-138">Represents a group mailbox.</span></span>  <br/> |
+|<span data-ttu-id="d03ed-123">Почтовый ящик</span><span class="sxs-lookup"><span data-stu-id="d03ed-123">Mailbox</span></span>  <br/> |<span data-ttu-id="d03ed-124">Представляет объект Active Directory с включенной поддержкой почты.</span><span class="sxs-lookup"><span data-stu-id="d03ed-124">Represents a mail-enabled Active Directory object.</span></span>  <br/> |
+|<span data-ttu-id="d03ed-125">PublicDL</span><span class="sxs-lookup"><span data-stu-id="d03ed-125">PublicDL</span></span>  <br/> |<span data-ttu-id="d03ed-126">Представляет общедоступный список рассылки.</span><span class="sxs-lookup"><span data-stu-id="d03ed-126">Represents a public distribution list.</span></span>  <br/> |
+|<span data-ttu-id="d03ed-127">PrivateDL</span><span class="sxs-lookup"><span data-stu-id="d03ed-127">PrivateDL</span></span>  <br/> |<span data-ttu-id="d03ed-128">Представляет частный список рассылки в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="d03ed-128">Represents a private distribution list in a user's mailbox.</span></span>  <br/> |
+|<span data-ttu-id="d03ed-129">Контакт</span><span class="sxs-lookup"><span data-stu-id="d03ed-129">Contact</span></span>  <br/> |<span data-ttu-id="d03ed-130">Представляет контакт в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="d03ed-130">Represents a contact in a user's mailbox.</span></span>  <br/> |
+|<span data-ttu-id="d03ed-131">PublicFolder</span><span class="sxs-lookup"><span data-stu-id="d03ed-131">PublicFolder</span></span>  <br/> |<span data-ttu-id="d03ed-132">Представляет общедоступную папку.</span><span class="sxs-lookup"><span data-stu-id="d03ed-132">Represents a public folder.</span></span>  <br/> |
+|<span data-ttu-id="d03ed-133">Неизвестно</span><span class="sxs-lookup"><span data-stu-id="d03ed-133">Unknown</span></span>  <br/> |<span data-ttu-id="d03ed-134">Представляет неизвестный тип почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="d03ed-134">Represents an unknown type of mailbox.</span></span>  <br/> |
+|<span data-ttu-id="d03ed-135">OneOff</span><span class="sxs-lookup"><span data-stu-id="d03ed-135">OneOff</span></span>  <br/> |<span data-ttu-id="d03ed-136">Представляет одноразовый участник личного списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="d03ed-136">Represents a one-off member of a personal distribution list.</span></span>  <br/> |
+|<span data-ttu-id="d03ed-137">граупмаилбокс</span><span class="sxs-lookup"><span data-stu-id="d03ed-137">GroupMailbox</span></span>  <br/> |<span data-ttu-id="d03ed-138">Представляет группу почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="d03ed-138">Represents a group mailbox.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="771d9-139">Примечания</span><span class="sxs-lookup"><span data-stu-id="771d9-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d03ed-139">Примечания</span><span class="sxs-lookup"><span data-stu-id="d03ed-139">Remarks</span></span>
 
-<span data-ttu-id="771d9-140">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="771d9-140">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="d03ed-140">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="d03ed-140">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="771d9-141">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="771d9-141">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="d03ed-141">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="d03ed-141">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="771d9-142">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="771d9-142">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="771d9-143">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="771d9-143">Schema Name</span></span>  <br/> |<span data-ttu-id="771d9-144">Схема Types</span><span class="sxs-lookup"><span data-stu-id="771d9-144">Types schema</span></span>  <br/> |
-|<span data-ttu-id="771d9-145">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="771d9-145">Validation File</span></span>  <br/> |<span data-ttu-id="771d9-146">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="771d9-146">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="771d9-147">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="771d9-147">Can be Empty</span></span>  <br/> |<span data-ttu-id="771d9-148">False</span><span class="sxs-lookup"><span data-stu-id="771d9-148">False</span></span>  <br/> |
+|<span data-ttu-id="d03ed-142">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="d03ed-142">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="d03ed-143">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="d03ed-143">Schema Name</span></span>  <br/> |<span data-ttu-id="d03ed-144">Схема Types</span><span class="sxs-lookup"><span data-stu-id="d03ed-144">Types schema</span></span>  <br/> |
+|<span data-ttu-id="d03ed-145">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="d03ed-145">Validation File</span></span>  <br/> |<span data-ttu-id="d03ed-146">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="d03ed-146">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="d03ed-147">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="d03ed-147">Can be Empty</span></span>  <br/> |<span data-ttu-id="d03ed-148">False</span><span class="sxs-lookup"><span data-stu-id="d03ed-148">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="771d9-149">См. также</span><span class="sxs-lookup"><span data-stu-id="771d9-149">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d03ed-149">См. также</span><span class="sxs-lookup"><span data-stu-id="d03ed-149">See also</span></span>
 
-- [<span data-ttu-id="771d9-150">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="771d9-150">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="d03ed-150">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="d03ed-150">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

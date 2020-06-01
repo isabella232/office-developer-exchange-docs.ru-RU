@@ -8,41 +8,41 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2bb2cb78-e168-414e-8d07-414ab5c69185
 description: Элемент Локатионбаседстатедефинитион предназначен только для внутреннего использования.
-ms.openlocfilehash: 378d57418156e09ab0ce0bb33d4dc8e6cfdb53b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dd1e97b2071eeb82f7c9032b83ea52f83ee4a1ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834240"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460304"
 ---
-# <a name="locationbasedstatedefinition"></a><span data-ttu-id="ac049-103">локатионбаседстатедефинитион</span><span class="sxs-lookup"><span data-stu-id="ac049-103">LocationBasedStateDefinition</span></span>
+# <a name="locationbasedstatedefinition"></a><span data-ttu-id="fd7da-103">локатионбаседстатедефинитион</span><span class="sxs-lookup"><span data-stu-id="fd7da-103">LocationBasedStateDefinition</span></span>
 
-<span data-ttu-id="ac049-104">Элемент **локатионбаседстатедефинитион** предназначен только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="ac049-104">The **LocationBasedStateDefinition** element is intended for internal use only.</span></span> 
+<span data-ttu-id="fd7da-104">Элемент **локатионбаседстатедефинитион** предназначен только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="fd7da-104">The **LocationBasedStateDefinition** element is intended for internal use only.</span></span> 
   
 ```XML
 <LocationBasedStateDefinition />
 ```
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="ac049-105">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="ac049-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="fd7da-105">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="fd7da-105">Attributes and elements</span></span>
 
-<span data-ttu-id="ac049-106">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="ac049-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="fd7da-106">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="fd7da-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ac049-107">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="ac049-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="fd7da-107">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="fd7da-107">Attributes</span></span>
 
-<span data-ttu-id="ac049-108">Нет.</span><span class="sxs-lookup"><span data-stu-id="ac049-108">None.</span></span>
+<span data-ttu-id="fd7da-108">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="fd7da-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ac049-109">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="ac049-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="fd7da-109">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="fd7da-109">Child elements</span></span>
 
-<span data-ttu-id="ac049-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="ac049-110">None.</span></span>
+<span data-ttu-id="fd7da-110">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="fd7da-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="ac049-111">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="ac049-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="fd7da-111">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="fd7da-111">Parent elements</span></span>
 
-<span data-ttu-id="ac049-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="ac049-112">None.</span></span>
+<span data-ttu-id="fd7da-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="fd7da-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ac049-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="ac049-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fd7da-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="fd7da-113">Remarks</span></span>
 
-<span data-ttu-id="ac049-114">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ac049-114">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="fd7da-114">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fd7da-114">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="ac049-115">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="ac049-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="fd7da-115">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="fd7da-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 
