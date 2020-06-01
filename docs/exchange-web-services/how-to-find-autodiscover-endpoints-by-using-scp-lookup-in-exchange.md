@@ -3,15 +3,15 @@ title: Обнаружение конечных точек автообнаруж
 manager: kelbow
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: b24228a8-5127-4bac-aef0-9c9e8843c9ff
 description: Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Сведения о том, как найти объекты точек подключения к службе автообнаружения в доменных службах Active Directory (AD DS), чтобы с их помощью находить URL-адреса конечных точек автообнаружения, которые затем будут использоваться совместно со службой автообнаружения Exchange.
-ms.openlocfilehash: 59fd316d0aa0feea81b60c279040da018c51b47d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: c0c0364a7d69364e12db902f1f22d65c4b5a0cc5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761001"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455879"
 ---
 # <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>Обнаружение конечных точек автообнаружения с помощью поиска SCP в Exchange
 
@@ -37,7 +37,7 @@ ms.locfileid: "19761001"
 |**Прочитайте эту статью**|**Здесь описывается…**|
 |:-----|:-----|
 |[Автообнаружение для Exchange](autodiscover-for-exchange.md) <br/> |Как работает служба автообнаружения.  <br/> |
-|[Публикация с помощью точек подключения службы](http://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |Как используются объекты SCP для публикации данных соответствующей службы.  <br/> |
+|[Публикация с помощью точек подключения службы](https://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |Как используются объекты SCP для публикации данных соответствующей службы.  <br/> |
    
 ## <a name="locate-autodiscover-scp-objects-in-ad-ds"></a>Поиск объектов точек подключения к службе автообнаружения в AD DS
 <a name="bk_LocateScpObjects"> </a>
@@ -50,7 +50,7 @@ ms.locfileid: "19761001"
     
 ### <a name="to-locate-autodiscover-scp-objects"></a>Поиск объектов точек подключения к службе автообнаружения
 
-1. Ознакомьтесь со свойством **configurationNamingContext** корневой DSE записи в AD DS, чтобы узнать путь для контекста именования конфигурации для домена. Это можно сделать с помощью класса [DirectoryEntry](http://msdn2.microsoft.com/ru-RU/library/z9cddzaa) или с помощью любого интерфейса API, имеющего доступ к AD DS. 
+1. Ознакомьтесь со свойством **configurationNamingContext** корневой DSE записи в AD DS, чтобы узнать путь для контекста именования конфигурации для домена. Это можно сделать с помощью класса [DirectoryEntry](https://msdn2.microsoft.com/library/z9cddzaa) или с помощью любого интерфейса API, имеющего доступ к AD DS. 
     
 2. В контексте именования конфигурации найдите объекты SCP, которые в свойстве **keywords** имеют соответствующий идентификатор GUID для указателя SCP или URL-адреса SCP. 
     

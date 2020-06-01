@@ -3,15 +3,15 @@ title: Пользователи и контакты в EWS для Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 043c33be-a0d1-4bad-a840-85715eda4813
 description: Сведения о фиктивных пользователях, едином хранилище контактов и работе с контактами с помощью EWS в Exchange или управляемого API для EWS.
-ms.openlocfilehash: 7cdb2360c86c42829602d9d75fbff5c9d383f6fd
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: f0590a0d8a99b8320cc1b316829177e05e443de6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354066"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457678"
 ---
 # <a name="people-and-contacts-in-ews-in-exchange"></a>Пользователи и контакты в EWS для Exchange
 
@@ -35,26 +35,26 @@ ms.locfileid: "21354066"
 
 |**Задача**|**Используйте этот метод управляемого API EWS**|**Используйте эту операцию EWS**|
 |:-----|:-----|:-----|
-|Создать контакт  <br/> |Создать новый экземпляр объекта [Contact](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) и использовать свойство [Contact.Save](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.save%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/417e994b-0a17-4c24-9527-04796b80b029%28Office.15%29.aspx) <br/> |
-|Копировать контакт  <br/> |[Contact.Copy](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.copy%28v=exchg.80%29.aspx) <br/> |[CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> |
-|Переместить контакт  <br/> |[Contact.Move](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.move%28v=exchg.80%29.aspx) <br/> |[MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> |
-|Обновить существующий контакт  <br/> |[Contact.Bind](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) и [Contact.Update](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.update%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/298fdd71-a83d-4407-9728-4f0a8e2d857c%28Office.15%29.aspx) <br/> |
-|Удалить контакт  <br/> |[Contact.Bind](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) и [Contact.Delete](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
-|Найти контакт  <br/> |[ExchangeService.FindItems](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
-|Найти пользователей  <br/> |Н/Д  <br/> |[FindPeople](http://msdn.microsoft.com/library/446106b7-ff2d-4107-90c1-29f4d38ba128%28Office.15%29.aspx) <br/> |
-|Развернуть группу рассылки  <br/> |[ExchangeService.ExpandGroup](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.exchangeservice.expandgroup%28v=exchg.80%29.aspx) <br/> |[ExpandDL](http://msdn.microsoft.com/library/1f7837e7-9eff-4e10-9577-c40f7ed6af94%28Office.15%29.aspx) <br/> |
-|Устранить неоднозначность имени  <br/> |[ExchangeService.ResolveName](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.exchangeservice.resolvename%28v=exchg.80%29.aspx) <br/> |[ResolveNames](http://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) <br/> |
-|Получить фиктивного пользователя  <br/> |Н/Д  <br/> |[GetPersona](http://msdn.microsoft.com/library/e2146df0-53d0-4caf-9758-b600bbc14b6a%28Office.15%29.aspx) <br/> |
-|Обработать фотографии контакта  <br/> |[Contact.SetContactPicture](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.setcontactpicture%28v=exchg.80%29.aspx), [Contact.GetContactPictureAttachment](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.getcontactpictureattachment%28v=exchg.80%29.aspx) или [Contact.RemoveContactPicture](http://msdn.microsoft.com/ru-RU/library/office/microsoft.exchange.webservices.data.contact.setcontactpicture%28v=exchg.80%29.aspx) <br/> |[GetUserPhoto](http://msdn.microsoft.com/library/f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e%28Office.15%29.aspx) или [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
+|Создать контакт  <br/> |Создать новый экземпляр объекта [Contact](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) и использовать свойство [Contact.Save](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.save%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/417e994b-0a17-4c24-9527-04796b80b029%28Office.15%29.aspx) <br/> |
+|Копировать контакт  <br/> |[Contact.Copy](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.copy%28v=exchg.80%29.aspx) <br/> |[CopyItem](https://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> |
+|Переместить контакт  <br/> |[Contact.Move](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.move%28v=exchg.80%29.aspx) <br/> |[MoveItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> |
+|Обновить существующий контакт  <br/> |[Contact.Bind](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) и [Contact.Update](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.update%28v=exchg.80%29.aspx) <br/> |[UpdateItem](https://msdn.microsoft.com/library/298fdd71-a83d-4407-9728-4f0a8e2d857c%28Office.15%29.aspx) <br/> |
+|Удалить контакт  <br/> |[Contact.Bind](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) и [Contact.Delete](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
+|Найти контакт  <br/> |[ExchangeService.FindItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
+|Найти пользователей  <br/> |Н/Д  <br/> |[FindPeople](https://msdn.microsoft.com/library/446106b7-ff2d-4107-90c1-29f4d38ba128%28Office.15%29.aspx) <br/> |
+|Развернуть группу рассылки  <br/> |[ExchangeService.ExpandGroup](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.expandgroup%28v=exchg.80%29.aspx) <br/> |[ExpandDL](https://msdn.microsoft.com/library/1f7837e7-9eff-4e10-9577-c40f7ed6af94%28Office.15%29.aspx) <br/> |
+|Устранить неоднозначность имени  <br/> |[ExchangeService.ResolveName](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.resolvename%28v=exchg.80%29.aspx) <br/> |[ResolveNames](https://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) <br/> |
+|Получить фиктивного пользователя  <br/> |Н/Д  <br/> |[GetPersona](https://msdn.microsoft.com/library/e2146df0-53d0-4caf-9758-b600bbc14b6a%28Office.15%29.aspx) <br/> |
+|Обработать фотографии контакта  <br/> |[Contact.SetContactPicture](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.setcontactpicture%28v=exchg.80%29.aspx), [Contact.GetContactPictureAttachment](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.getcontactpictureattachment%28v=exchg.80%29.aspx) или [Contact.RemoveContactPicture](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contact.setcontactpicture%28v=exchg.80%29.aspx) <br/> |[GetUserPhoto](https://msdn.microsoft.com/library/f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e%28Office.15%29.aspx) или [GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
    
 ## <a name="personas"></a>Фиктивные пользователи
 <a name="PEOPLESEARCH"> </a>
 
 До недавних пор контакты обычно сохранялись централизованно (как правило, в почтовом клиенте). Сейчас контакты все чаще сохраняются в различных расположениях (например, на телефоне, сайте социальной сети, в папке "Контакты" почтового ящика Exchange или службе каталогов организации). Из-за размещения контактных данных в различных расположениях несколько контактов, представляющих одного и того же человека, могут включать неодинаковые сведения. Например, один контакт может содержать рабочий номер телефона, а другой — личный. Имя контакта, сохраненного в папке "Контакты", может также отличаться от имени контакта, сохраненного на телефоне.
   
-В Exchange Online (как автономной службе, так и службе в составе Office 365) и локальных версиях Exchange, начиная с Exchange 2013, контакты из разных источников, представляющие одного и того же человека, сопоставлены друг с другом подобно электронным сообщениям, объединенным в беседы, с помощью общих идентификаторов связи. Когда сервер Exchange Server возвращает объединенные контактные данные, они включают набор атрибутов для каждого контакта, таких как исходная папка, отображаемое имя, идентификатор источника и другой идентификатор. Все возвращенные свойства и атрибуты в целом — это фиктивный пользователь, а набор возвращенных свойств — [форма фиктивного пользователя](http://msdn.microsoft.com/library/61d87cd5-3270-40d1-bab7-d0d5bf938607%28Office.15%29.aspx).
+В Exchange Online (как автономной службе, так и службе в составе Office 365) и локальных версиях Exchange, начиная с Exchange 2013, контакты из разных источников, представляющие одного и того же человека, сопоставлены друг с другом подобно электронным сообщениям, объединенным в беседы, с помощью общих идентификаторов связи. Когда сервер Exchange Server возвращает объединенные контактные данные, они включают набор атрибутов для каждого контакта, таких как исходная папка, отображаемое имя, идентификатор источника и другой идентификатор. Все возвращенные свойства и атрибуты в целом — это фиктивный пользователь, а набор возвращенных свойств — [форма фиктивного пользователя](https://msdn.microsoft.com/library/61d87cd5-3270-40d1-bab7-d0d5bf938607%28Office.15%29.aspx).
   
-Так как данные, составляющие фиктивного пользователя, не хранятся централизованно и их можно изменить в любое время, фиктивный пользователь создается, только если вы отправляете запрос серверу Exchange Server. Чтобы отправить запрос на поиск фиктивного пользователя, используйте операцию [FindPeople](http://msdn.microsoft.com/library/446106b7-ff2d-4107-90c1-29f4d38ba128%28Office.15%29.aspx) EWS. Этот запрос может предусматривать применение фильтрования по строке запроса и порядка сортировки к результатам, чтобы облегчить поиск нужного пользователя. Например, вы можете извлечь отображаемое имя и набор всех электронных адресов, сопоставленных с определенным контактом, из папки "Контакты", учетной записи Hotmail или LinkedIn, а также службы каталогов компании. Можно также извлечь набор всех фиктивных пользователей, у которых есть адреса для IM. Связывание контактов для создания фиктивных пользователей происходит автоматически. При этом используется алгоритм, распознающий отношения между контактами, которые сохранены на различных устройствах.  
+Так как данные, составляющие фиктивного пользователя, не хранятся централизованно и их можно изменить в любое время, фиктивный пользователь создается, только если вы отправляете запрос серверу Exchange Server. Чтобы отправить запрос на поиск фиктивного пользователя, используйте операцию [FindPeople](https://msdn.microsoft.com/library/446106b7-ff2d-4107-90c1-29f4d38ba128%28Office.15%29.aspx) EWS. Этот запрос может предусматривать применение фильтрования по строке запроса и порядка сортировки к результатам, чтобы облегчить поиск нужного пользователя. Например, вы можете извлечь отображаемое имя и набор всех электронных адресов, сопоставленных с определенным контактом, из папки "Контакты", учетной записи Hotmail или LinkedIn, а также службы каталогов компании. Можно также извлечь набор всех фиктивных пользователей, у которых есть адреса для IM. Связывание контактов для создания фиктивных пользователей происходит автоматически. При этом используется алгоритм, распознающий отношения между контактами, которые сохранены на различных устройствах.  
   
 > [!NOTE]
 > Управляемый API EWS не реализует эту функцию. 
@@ -63,8 +63,8 @@ ms.locfileid: "21354066"
 
 |**Имя операции**|**Описание**|
 |:-----|:-----|
-|[FindPeople](http://msdn.microsoft.com/library/446106b7-ff2d-4107-90c1-29f4d38ba128%28Office.15%29.aspx) <br/> |Возвращает всех доступных фиктивных пользователей из указанной папки контактов или извлекает контакты, которые соответствуют заданной строке запроса.  <br/> |
-|[GetPersona](http://msdn.microsoft.com/library/e2146df0-53d0-4caf-9758-b600bbc14b6a%28Office.15%29.aspx) <br/> |Возвращает набор свойств, сопоставленных с определенным фиктивным пользователем, таких как все адреса для IM или отображаемые имена, по указанному идентификатору фиктивного пользователя.  <br/> |
+|[FindPeople](https://msdn.microsoft.com/library/446106b7-ff2d-4107-90c1-29f4d38ba128%28Office.15%29.aspx) <br/> |Возвращает всех доступных фиктивных пользователей из указанной папки контактов или извлекает контакты, которые соответствуют заданной строке запроса.  <br/> |
+|[GetPersona](https://msdn.microsoft.com/library/e2146df0-53d0-4caf-9758-b600bbc14b6a%28Office.15%29.aspx) <br/> |Возвращает набор свойств, сопоставленных с определенным фиктивным пользователем, таких как все адреса для IM или отображаемые имена, по указанному идентификатору фиктивного пользователя.  <br/> |
    
 Вы можете использовать операции **GetPersona** и **FindPeople** для эффективного извлечения контактных данных из нескольких источников. Так как все элементы, которые относятся к фиктивному пользователю, сопоставлены с идентификатором связи, эти операции можно применять ко множеству приложений, использующих контактные данные. Вот несколько примеров: 
   
@@ -96,17 +96,17 @@ ms.locfileid: "21354066"
 
 |**Имя операции**|**Описание**|
 |:-----|:-----|
-|[AddNewImContactToGroup](http://msdn.microsoft.com/library/0cb5525f-faa3-48f1-9551-df55ffc26f46%28Office.15%29.aspx) <br/> |Добавляет новый контакт для IM в группу для IM (количество контактов не должно превышать 1000).  <br/> |
-|[AddImContactToGroup](http://msdn.microsoft.com/library/376acc42-2684-4596-aca1-82a4a10865c9%28Office.15%29.aspx) <br/> |Добавляет существующий контакт для IM в группу для IM (количество контактов не должно превышать 1000).  <br/> |
-|[AddImGroup](http://msdn.microsoft.com/library/6df6e504-b7c8-4773-b10f-ffa5defac229%28Office.15%29.aspx) <br/> |Добавляет новую группу для IM (максимальное количество групп — 64).  <br/> |
-|[AddDistributionGroupToImList](http://msdn.microsoft.com/library/5aa9bec8-71cf-4a6e-8ec8-b4965b40fd4a%28Office.15%29.aspx) <br/> |Добавляет новую группу рассылки в группу для IM (максимальное количество групп — 64).  <br/> |
-|[GetImItemList](http://msdn.microsoft.com/library/e31d14e1-0c1f-4b69-98b7-157d59c13698%28Office.15%29.aspx) <br/> |Получает список групп для IM и фиктивных пользователей, включающих контакты для IM.  <br/> |
-|[GetImItems](http://msdn.microsoft.com/library/51186691-46d2-4d5c-b8bc-4ee2bb20fbe7%28Office.15%29.aspx) <br/> |Получает сведения о конкретных группах для IM и фиктивных пользователях, включающих контакты для IM.  <br/> |
-|[RemoveContactFromImList](http://msdn.microsoft.com/library/28ec96c3-45af-48ff-9f17-718a527dc0ad%28Office.15%29.aspx) <br/> |Удаляет контакт из группы для IM.  <br/> |
-|[RemoveImContactFromGroup](http://msdn.microsoft.com/library/a190bbec-c71b-4e6a-880b-55854c724d8c%28Office.15%29.aspx) <br/> |Удаляет контакт для IM из группы для IM.  <br/> |
-|[RemoveDistributionGroupFromImList](http://msdn.microsoft.com/library/252bddf2-98b6-4824-b548-2fba2bda5384%28Office.15%29.aspx) <br/> |Удаляет группу рассылки из группы для IM.  <br/> |
-|[RemoveImGroup](http://msdn.microsoft.com/library/5e788016-68e0-4a3f-9243-03f6b6c6b389%28Office.15%29.aspx) <br/> |Удаляет группу для IM.  <br/> |
-|[SetImGroup](http://msdn.microsoft.com/library/2d48aa07-8152-4c3d-a519-061253e80174%28Office.15%29.aspx) <br/> |Изменяет отображаемое имя группы для IM.  <br/> |
+|[AddNewImContactToGroup](https://msdn.microsoft.com/library/0cb5525f-faa3-48f1-9551-df55ffc26f46%28Office.15%29.aspx) <br/> |Добавляет новый контакт для IM в группу для IM (количество контактов не должно превышать 1000).  <br/> |
+|[AddImContactToGroup](https://msdn.microsoft.com/library/376acc42-2684-4596-aca1-82a4a10865c9%28Office.15%29.aspx) <br/> |Добавляет существующий контакт для IM в группу для IM (количество контактов не должно превышать 1000).  <br/> |
+|[AddImGroup](https://msdn.microsoft.com/library/6df6e504-b7c8-4773-b10f-ffa5defac229%28Office.15%29.aspx) <br/> |Добавляет новую группу для IM (максимальное количество групп — 64).  <br/> |
+|[AddDistributionGroupToImList](https://msdn.microsoft.com/library/5aa9bec8-71cf-4a6e-8ec8-b4965b40fd4a%28Office.15%29.aspx) <br/> |Добавляет новую группу рассылки в группу для IM (максимальное количество групп — 64).  <br/> |
+|[GetImItemList](https://msdn.microsoft.com/library/e31d14e1-0c1f-4b69-98b7-157d59c13698%28Office.15%29.aspx) <br/> |Получает список групп для IM и фиктивных пользователей, включающих контакты для IM.  <br/> |
+|[GetImItems](https://msdn.microsoft.com/library/51186691-46d2-4d5c-b8bc-4ee2bb20fbe7%28Office.15%29.aspx) <br/> |Получает сведения о конкретных группах для IM и фиктивных пользователях, включающих контакты для IM.  <br/> |
+|[RemoveContactFromImList](https://msdn.microsoft.com/library/28ec96c3-45af-48ff-9f17-718a527dc0ad%28Office.15%29.aspx) <br/> |Удаляет контакт из группы для IM.  <br/> |
+|[RemoveImContactFromGroup](https://msdn.microsoft.com/library/a190bbec-c71b-4e6a-880b-55854c724d8c%28Office.15%29.aspx) <br/> |Удаляет контакт для IM из группы для IM.  <br/> |
+|[RemoveDistributionGroupFromImList](https://msdn.microsoft.com/library/252bddf2-98b6-4824-b548-2fba2bda5384%28Office.15%29.aspx) <br/> |Удаляет группу рассылки из группы для IM.  <br/> |
+|[RemoveImGroup](https://msdn.microsoft.com/library/5e788016-68e0-4a3f-9243-03f6b6c6b389%28Office.15%29.aspx) <br/> |Удаляет группу для IM.  <br/> |
+|[SetImGroup](https://msdn.microsoft.com/library/2d48aa07-8152-4c3d-a519-061253e80174%28Office.15%29.aspx) <br/> |Изменяет отображаемое имя группы для IM.  <br/> |
    
 ## <a name="in-this-section"></a>В этой статье
 <a name="PEOPLESEARCH"> </a>

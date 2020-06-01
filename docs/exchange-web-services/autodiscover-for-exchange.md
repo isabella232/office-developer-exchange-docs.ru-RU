@@ -3,15 +3,15 @@ title: Автообнаружение для Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: da0f9402-4e35-42c7-a15e-1e9e4e966e8b
 description: Сведения о службе автообнаружения в Exchange.
-ms.openlocfilehash: f56717eaced5db9028c556c6c2d9aa7794f4988e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 913ec3fef93900a1b5fa7aa342e8bca149c88b7b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760961"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44437774"
 ---
 # <a name="autodiscover-for-exchange"></a>Автообнаружение для Exchange
 
@@ -24,7 +24,7 @@ ms.locfileid: "19760961"
 
 Процесс автообнаружения состоит из трех основных этапов. На первом этапе создается список потенциальных серверов автообнаружения, а на втором вы проверяете каждый сервер в списке, пока (при благоприятном исходе) не будет получен успешный ответ. Если ни один из кандидатов не подошел, вы переходите к третьему этапу, который представляет последнюю попытку найти конечную точку автообнаружения.
   
-Метод [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) в управляемом API EWS реализует все три этапа, поэтому при использовании управляемого API EWS вам не нужно беспокоиться о реализации автообнаружения. На следующем рисунке показаны три этапа процесса автообнаружения. 
+Метод [ExchangeService.AutodiscoverUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) в управляемом API EWS реализует все три этапа, поэтому при использовании управляемого API EWS вам не нужно беспокоиться о реализации автообнаружения. На следующем рисунке показаны три этапа процесса автообнаружения. 
   
 **Рисунок 1. Три этапа процесса автообнаружения**
 
@@ -40,7 +40,7 @@ ms.locfileid: "19760961"
 |**Место для поиска**|**Результат поиска**|
 |:-----|:-----|
 |доменные службы Active Directory;  <br/> |Для клиентов, присоединенных к домену, поиск следует начинать отсюда. Exchange публикует объекты точек подключения службы (SCP) в AD DS, что позволяет направлять запросы автообнаружения на сайты Active Directory. Результаты [поиска SCP](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md) должны находиться в начале списка кандидатов.  <br/><br/>**ПРИМЕЧАНИЕ.** Поиск SCP недоступен для клиентов, не присоединенных к домену или не имеющих доступа к серверам Active Directory. В этом случае следует пропустить поиск SCP. <br/>|
-|Домен адреса электронной почты пользователя  <br/> | Автообнаружение определяет две стандартные формы конечной точки URL-адреса из доменной части адреса электронной почты пользователя:  <br/>`"https://" + domain + "/autodiscover/autodiscover" +  *fileExtension*`  <br/>`"https://autodiscover." + domain + "/autodiscover/autodiscover" +  *fileExtension*`<br/><br/>  Значение  *fileExtension*  зависит от используемого метода автообнаружения, [SOAP](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) или [POX](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx). Служба SOAP использует расширение файлов SVC, а POX использует XML.  <br/> |
+|Домен адреса электронной почты пользователя  <br/> | Автообнаружение определяет две стандартные формы конечной точки URL-адреса из доменной части адреса электронной почты пользователя:  <br/>`"https://" + domain + "/autodiscover/autodiscover" +  *fileExtension*`  <br/>`"https://autodiscover." + domain + "/autodiscover/autodiscover" +  *fileExtension*`<br/><br/>  Значение  *fileExtension*  зависит от используемого метода автообнаружения, [SOAP](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) или [POX](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx). Служба SOAP использует расширение файлов SVC, а POX использует XML.  <br/> |
    
 На следующем рисунке показано, как создать список конечных точек автообнаружения.
   
@@ -72,9 +72,9 @@ ms.locfileid: "19760961"
 
 |**Используемый метод**|**Средство для отправки запроса**|
 |:-----|:-----|
-|управляемый API EWS;  <br/> |Метод [GetUserSettings](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx).  <br/> |
-|Служба автообнаружения SOAP  <br/> |Операция [GetUserSettings](http://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx).  <br/> |
-|Служба автообнаружения POX  <br/> |Запрос HTTP POST с [текстом запроса автообнаружения](http://msdn.microsoft.com/library/75671b1d-f35b-497b-8d8c-706f3f2535fd%28Office.15%29.aspx).  <br/> |
+|управляемый API EWS;  <br/> |Метод [GetUserSettings](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx).  <br/> |
+|Служба автообнаружения SOAP  <br/> |Операция [GetUserSettings](https://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx).  <br/> |
+|Служба автообнаружения POX  <br/> |Запрос HTTP POST с [текстом запроса автообнаружения](https://msdn.microsoft.com/library/75671b1d-f35b-497b-8d8c-706f3f2535fd%28Office.15%29.aspx).  <br/> |
    
 ### <a name="phase-3-trying-other-alternatives"></a>Этап 3. Проверка других альтернатив
 <a name="bk_Phase3"> </a>
@@ -102,9 +102,9 @@ ms.locfileid: "19760961"
 
 |**Вариант**|**Преимущества**|**Недостатки**|
 |:-----|:-----|:-----|
-|[Управляемый API EWS](get-started-with-ews-managed-api-client-applications.md) <br/> | Реализует процесс автообнаружения.<br/><br/>Использует службы автообнаружения SOAP и POX.<br/><br/>Работает с Exchange Online, Exchange Online в составе Office 365 и всеми версиями Exchange, начиная с Exchange 2007 с пакетом обновления 1 (SP1).<br/><br/>Простой в использовании.  <br/> | Ограничен параметрами пользователей, доступными в перечислении [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](http://msdn.microsoft.com/ru-RU/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx).<br/><br/>Доступен только для приложений .NET Framework.  <br/> |
-|[Служба автообнаружения SOAP](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) <br/> | Не зависит от платформы.<br/><br/>Позволяет запрашивать только интересующие вас параметры.  <br/> | Недоступна в Exchange 2007.  <br/> |
-|[Служба автообнаружения POX](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx) <br/> | Не зависит от платформы.<br/><br/>Поддерживается в Exchange Online и всех версиях Exchange, начиная с Exchange 2007 с пакетом обновления (SP1).  <br/> | Не позволяет запрашивать конкретные параметры.  <br/> |
+|[Управляемый API EWS](get-started-with-ews-managed-api-client-applications.md) <br/> | Реализует процесс автообнаружения.<br/><br/>Использует службы автообнаружения SOAP и POX.<br/><br/>Работает с Exchange Online, Exchange Online в составе Office 365 и всеми версиями Exchange, начиная с Exchange 2007 с пакетом обновления 1 (SP1).<br/><br/>Простой в использовании.  <br/> | Ограничен параметрами пользователей, доступными в перечислении [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx).<br/><br/>Доступен только для приложений .NET Framework.  <br/> |
+|[Служба автообнаружения SOAP](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) <br/> | Не зависит от платформы.<br/><br/>Позволяет запрашивать только интересующие вас параметры.  <br/> | Недоступна в Exchange 2007.  <br/> |
+|[Служба автообнаружения POX](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx) <br/> | Не зависит от платформы.<br/><br/>Поддерживается в Exchange Online и всех версиях Exchange, начиная с Exchange 2007 с пакетом обновления (SP1).  <br/> | Не позволяет запрашивать конкретные параметры.  <br/> |
    
 ## <a name="in-this-section"></a>В этой статье
 
@@ -127,8 +127,8 @@ ms.locfileid: "19760961"
 ## <a name="see-also"></a>См. также
 
 - [Начало работы с веб-службами Exchange](start-using-web-services-in-exchange.md)    
-- [Exchange 2013: получение параметров пользователей с помощью автообнаружения](http://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e)
-- [Пример проверки автообнаружения](http://code.msdn.microsoft.com/exchange/Autodiscover-Checker-e1ebca42)  
+- [Exchange 2013: получение параметров пользователей с помощью автообнаружения](https://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e)
+- [Пример проверки автообнаружения](https://code.msdn.microsoft.com/exchange/Autodiscover-Checker-e1ebca42)  
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
 
