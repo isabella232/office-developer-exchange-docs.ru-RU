@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d5562b38-6a3e-49e0-b1db-ec8cd0683863
 description: Элемент Сетимграупреспонсе представляет ответ на запрос SetImGroup.
-ms.openlocfilehash: 92c08bc8dd9fc0f5bef6eefd0ee81453cc12a7b0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9c5f6bb5c2a4ffe4626f242ec06b7e022ef21bbf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835424"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44438056"
 ---
-# <a name="setimgroupresponse"></a><span data-ttu-id="8458e-103">сетимграупреспонсе</span><span class="sxs-lookup"><span data-stu-id="8458e-103">SetImGroupResponse</span></span>
+# <a name="setimgroupresponse"></a><span data-ttu-id="ee31a-103">сетимграупреспонсе</span><span class="sxs-lookup"><span data-stu-id="ee31a-103">SetImGroupResponse</span></span>
 
-<span data-ttu-id="8458e-104">Элемент **сетимграупреспонсе** представляет ответ на запрос **SetImGroup** .</span><span class="sxs-lookup"><span data-stu-id="8458e-104">The **SetImGroupResponse** element represents a response to a **SetImGroup** request.</span></span> 
+<span data-ttu-id="ee31a-104">Элемент **сетимграупреспонсе** представляет ответ на запрос **SetImGroup** .</span><span class="sxs-lookup"><span data-stu-id="ee31a-104">The **SetImGroupResponse** element represents a response to a **SetImGroup** request.</span></span> 
   
 ```XML
 <SetImGroupResponse>
@@ -28,36 +28,36 @@ ms.locfileid: "19835424"
 </SetImGroupResponse>
 ```
 
- <span data-ttu-id="8458e-105">**сетимграупреспонсемессажетипе**</span><span class="sxs-lookup"><span data-stu-id="8458e-105">**SetImGroupResponseMessageType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="8458e-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="8458e-106">Attributes and elements</span></span>
+ <span data-ttu-id="ee31a-105">**сетимграупреспонсемессажетипе**</span><span class="sxs-lookup"><span data-stu-id="ee31a-105">**SetImGroupResponseMessageType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ee31a-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="ee31a-106">Attributes and elements</span></span>
 
-<span data-ttu-id="8458e-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="8458e-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ee31a-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="ee31a-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8458e-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="8458e-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ee31a-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="ee31a-108">Attributes</span></span>
 
-<span data-ttu-id="8458e-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="8458e-109">None.</span></span>
+<span data-ttu-id="ee31a-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="ee31a-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="8458e-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="8458e-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ee31a-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="ee31a-110">Child elements</span></span>
 
-<span data-ttu-id="8458e-111">[Мессажетекст](messagetext.md) | [ResponseCode](responsecode.md)респонсекоде | [DescriptiveLinkKey](descriptivelinkkey.md)дескриптивелинккэй | [мессажексмл](messagexml.md)</span><span class="sxs-lookup"><span data-stu-id="8458e-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)</span></span>
+<span data-ttu-id="ee31a-111">[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)</span><span class="sxs-lookup"><span data-stu-id="ee31a-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="8458e-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="8458e-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ee31a-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="ee31a-112">Parent elements</span></span>
 
-<span data-ttu-id="8458e-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="8458e-113">None.</span></span>
+<span data-ttu-id="ee31a-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="ee31a-113">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8458e-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="8458e-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ee31a-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="ee31a-114">Remarks</span></span>
 
-<span data-ttu-id="8458e-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8458e-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="ee31a-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ee31a-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="8458e-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="8458e-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="ee31a-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="ee31a-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="8458e-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="8458e-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ee31a-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="ee31a-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8458e-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="8458e-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="8458e-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="8458e-119">Schema name</span></span>  <br/> |<span data-ttu-id="8458e-120">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="8458e-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="8458e-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="8458e-121">Validation file</span></span>  <br/> |<span data-ttu-id="8458e-122">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="8458e-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="8458e-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="8458e-123">Can be empty</span></span>  <br/> |<span data-ttu-id="8458e-124">false</span><span class="sxs-lookup"><span data-stu-id="8458e-124">false</span></span>  <br/> |
+|<span data-ttu-id="ee31a-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="ee31a-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="ee31a-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="ee31a-119">Schema name</span></span>  <br/> |<span data-ttu-id="ee31a-120">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="ee31a-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="ee31a-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="ee31a-121">Validation file</span></span>  <br/> |<span data-ttu-id="ee31a-122">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="ee31a-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="ee31a-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="ee31a-123">Can be empty</span></span>  <br/> |<span data-ttu-id="ee31a-124">false</span><span class="sxs-lookup"><span data-stu-id="ee31a-124">false</span></span>  <br/> |
    
 
