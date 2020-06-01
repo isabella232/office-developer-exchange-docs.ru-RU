@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 022d6512-7e91-4b60-8a7b-3bcd571f3107
 description: Элемент Маилбоксстатс указывает список из одного или нескольких элементов Маилбоксстат.
-ms.openlocfilehash: d01c2b21545d4297c66f46727813513374efe540
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1f712aa10816f100ca8092c750abfb444354c4bb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834322"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44440549"
 ---
 # <a name="mailboxstats"></a>маилбоксстатс
 
@@ -33,7 +33,7 @@ ms.locfileid: "19834322"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19834322"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

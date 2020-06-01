@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 73499df7-3d50-4e39-895d-6e15dd8b2777
 description: Элемент Маилбоксстатистикссеарчресулт содержит результаты поиска по ключевым словам.
-ms.openlocfilehash: 5b40622cf15596d7ab8a7fa09c9a1998092c3ee7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c300c6c2ec9ab3c772709edd3e6a1c7fea19d6e3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834302"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44440850"
 ---
 # <a name="mailboxstatisticssearchresult"></a>маилбоксстатистикссеарчресулт
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834302"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[UserMailbox](usermailbox.md) | [кэйвордстатистикссеарчресулт](keywordstatisticssearchresult.md)
+[UserMailbox](usermailbox.md)  |  [Кэйвордстатистикссеарчресулт](keywordstatisticssearchresult.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834302"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |схема сообщений  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

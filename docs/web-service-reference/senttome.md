@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f18aecd1-ad33-41c3-b275-4ca648ce1da0
 description: Элемент Сенттоме указывает, должен ли владелец почтового ящика быть указан в свойстве ToRecipients входящих сообщений, чтобы применялось условие или исключение.
-ms.openlocfilehash: 7f4d24e985256b68d2c5f124f4130f03f35f26e5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 830125f03ad91a3e6f2beaf11e41be5e940ed48b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835365"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44439926"
 ---
 # <a name="senttome"></a>сенттоме
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835365"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19835365"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

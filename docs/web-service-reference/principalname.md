@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 88c142d4-0bc7-43ea-a997-d7200664d900
 description: Элемент имя участника-представляет имя участника-пользователя (UPN) учетной записи, которая будет использоваться для олицетворения Exchange.
-ms.openlocfilehash: d8557ce0435a11a5602372517db1f576028a9c97
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 31412c1461264e28bf8d52c957a457e8d1e847ef
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834882"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44440192"
 ---
 # <a name="principalname"></a>Имя участника-
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834882"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,7 +48,7 @@ ms.locfileid: "19834882"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет имя участника-пользователя. Это значение существует для объекта пользователя в службе каталогов Active Directory. Содержит имя входа пользователя и доменное имя, определяющее домен, в котором расположена учетная запись пользователя, в следующем формате: `someone@example.com`.
+Текстовое значение представляет имя участника-пользователя. Это значение существует для объекта пользователя в службе каталогов Active Directory. Содержит имя входа пользователя и доменное имя, определяющее домен, в котором расположена учетная запись пользователя, в следующем формате: `someone@example.com` .
   
 ## <a name="remarks"></a>Примечания
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834882"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -70,5 +70,5 @@ ms.locfileid: "19834882"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Авторизация между серверами в EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+[Авторизация между серверами в EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

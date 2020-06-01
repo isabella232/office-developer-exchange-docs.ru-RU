@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 402bfa6d-11d7-4547-b8bd-197e9922ab49
 description: Элемент Items содержит массив элементов для отправки в почтовый ящик.
-ms.openlocfilehash: ac508b2026c3e0ec730154efeeff0a9669e6eff8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5c69134c1613b0a4595a6aa876fa09fde63043ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834156"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44441550"
 ---
 # <a name="items-nonemptyarrayofuploaditemstype"></a>Элементы (Нонемптяррайофуплоадитемстипе)
 
@@ -40,7 +40,7 @@ ms.locfileid: "19834156"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19834156"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
