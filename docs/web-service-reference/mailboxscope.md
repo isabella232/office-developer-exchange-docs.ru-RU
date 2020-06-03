@@ -12,52 +12,52 @@ ms.openlocfilehash: 92823c06d4fe186917c3cfb532eda821bd6a95a7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455375"
 ---
-# <a name="mailboxscope"></a><span data-ttu-id="d995f-103">маилбоксскопе</span><span class="sxs-lookup"><span data-stu-id="d995f-103">MailboxScope</span></span>
+# <a name="mailboxscope"></a><span data-ttu-id="ff5f3-103">маилбоксскопе</span><span class="sxs-lookup"><span data-stu-id="ff5f3-103">MailboxScope</span></span>
 
-<span data-ttu-id="d995f-104">Элемент **маилбоксскопе** указывает, следует ли выполнять поиск или получение для беседы в основном почтовом ящике, архивном почтовом ящике или основном и архивном почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="d995f-104">The **MailboxScope** element identifies whether a search or fetch for a conversation should span either the primary mailbox, archive mailbox, or both the primary and archive mailbox.</span></span> 
+<span data-ttu-id="ff5f3-104">Элемент **маилбоксскопе** указывает, следует ли выполнять поиск или получение для беседы в основном почтовом ящике, архивном почтовом ящике или основном и архивном почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-104">The **MailboxScope** element identifies whether a search or fetch for a conversation should span either the primary mailbox, archive mailbox, or both the primary and archive mailbox.</span></span> 
   
 ```XML
 <MailboxScope> PrimaryOnly | ArchiveOnly | All </MailboxScope>
 ```
 
-<span data-ttu-id="d995f-105">**маилбокссеарчлокатионтипе**</span><span class="sxs-lookup"><span data-stu-id="d995f-105">**MailboxSearchLocationType**</span></span>
+<span data-ttu-id="ff5f3-105">**маилбокссеарчлокатионтипе**</span><span class="sxs-lookup"><span data-stu-id="ff5f3-105">**MailboxSearchLocationType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="d995f-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="d995f-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ff5f3-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="ff5f3-106">Attributes and elements</span></span>
 
-<span data-ttu-id="d995f-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="d995f-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ff5f3-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="d995f-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="d995f-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ff5f3-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="ff5f3-108">Attributes</span></span>
 
-<span data-ttu-id="d995f-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d995f-109">None.</span></span>
+<span data-ttu-id="ff5f3-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="d995f-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="d995f-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ff5f3-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="ff5f3-110">Child elements</span></span>
 
-<span data-ttu-id="d995f-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d995f-111">None.</span></span>
+<span data-ttu-id="ff5f3-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="d995f-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="d995f-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ff5f3-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="ff5f3-112">Parent elements</span></span>
 
-<span data-ttu-id="d995f-113">[FindConversation](findconversation.md)  |  [GetConversationItems](getconversationitems.md)  |  [Беседа (конверсатионтипе)](conversation-conversationtype.md)</span><span class="sxs-lookup"><span data-stu-id="d995f-113">[FindConversation](findconversation.md) | [GetConversationItems](getconversationitems.md) | [Conversation (ConversationType)](conversation-conversationtype.md)</span></span>
+<span data-ttu-id="ff5f3-113">[FindConversation](findconversation.md)  |  [GetConversationItems](getconversationitems.md)  |  [Беседа (конверсатионтипе)](conversation-conversationtype.md)</span><span class="sxs-lookup"><span data-stu-id="ff5f3-113">[FindConversation](findconversation.md) | [GetConversationItems](getconversationitems.md) | [Conversation (ConversationType)](conversation-conversationtype.md)</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="d995f-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="d995f-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="ff5f3-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="ff5f3-114">Text value</span></span>
 
-<span data-ttu-id="d995f-115">Текстовое значение элемента **маилбоксскопе** является областью для поиска или получение элементов в беседе в основных почтовых ящиках, архивных почтовых ящиках или как в основном, так и в архивных почтовых ящиках.</span><span class="sxs-lookup"><span data-stu-id="d995f-115">The text value of the **MailboxScope** element is the scope for finding or getting items in a conversation across either primary mailboxes, archive mailboxes, or both primary and archive mailboxes.</span></span> <span data-ttu-id="d995f-116">Текстовое значение **PrimaryOnly** указывает область, предназначенную для основного почтового ящика пользователя.</span><span class="sxs-lookup"><span data-stu-id="d995f-116">A text value of **PrimaryOnly** indicates a scope that targets the primary mailbox for a user.</span></span> <span data-ttu-id="d995f-117">Текстовое значение **ArchiveOnly** указывает область, предназначенную для архивного почтового ящика пользователя.</span><span class="sxs-lookup"><span data-stu-id="d995f-117">A text value of **ArchiveOnly** indicates a scope that targets the archive mailbox for a user.</span></span> <span data-ttu-id="d995f-118">Текстовое значение **ALL** указывает область, которая предназначена как для основного почтового ящика, так и для архивного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="d995f-118">A text value of **All** indicates a scope that targets both the primary mailbox and archive mailbox.</span></span> 
+<span data-ttu-id="ff5f3-115">Текстовое значение элемента **маилбоксскопе** является областью для поиска или получение элементов в беседе в основных почтовых ящиках, архивных почтовых ящиках или как в основном, так и в архивных почтовых ящиках.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-115">The text value of the **MailboxScope** element is the scope for finding or getting items in a conversation across either primary mailboxes, archive mailboxes, or both primary and archive mailboxes.</span></span> <span data-ttu-id="ff5f3-116">Текстовое значение **PrimaryOnly** указывает область, предназначенную для основного почтового ящика пользователя.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-116">A text value of **PrimaryOnly** indicates a scope that targets the primary mailbox for a user.</span></span> <span data-ttu-id="ff5f3-117">Текстовое значение **ArchiveOnly** указывает область, предназначенную для архивного почтового ящика пользователя.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-117">A text value of **ArchiveOnly** indicates a scope that targets the archive mailbox for a user.</span></span> <span data-ttu-id="ff5f3-118">Текстовое значение **ALL** указывает область, которая предназначена как для основного почтового ящика, так и для архивного почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-118">A text value of **All** indicates a scope that targets both the primary mailbox and archive mailbox.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="d995f-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="d995f-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ff5f3-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="ff5f3-119">Remarks</span></span>
 
-<span data-ttu-id="d995f-120">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d995f-120">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="ff5f3-120">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-120">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="d995f-121">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="d995f-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="ff5f3-121">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="ff5f3-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="d995f-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="d995f-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ff5f3-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="ff5f3-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d995f-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="d995f-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="d995f-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="d995f-124">Schema name</span></span>  <br/> |<span data-ttu-id="d995f-125">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="d995f-125">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="d995f-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="d995f-126">Validation file</span></span>  <br/> |<span data-ttu-id="d995f-127">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="d995f-127">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="d995f-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="d995f-128">Can be empty</span></span>  <br/> |<span data-ttu-id="d995f-129">false</span><span class="sxs-lookup"><span data-stu-id="d995f-129">false</span></span>  <br/> |
+|<span data-ttu-id="ff5f3-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="ff5f3-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="ff5f3-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="ff5f3-124">Schema name</span></span>  <br/> |<span data-ttu-id="ff5f3-125">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="ff5f3-125">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="ff5f3-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="ff5f3-126">Validation file</span></span>  <br/> |<span data-ttu-id="ff5f3-127">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="ff5f3-127">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="ff5f3-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="ff5f3-128">Can be empty</span></span>  <br/> |<span data-ttu-id="ff5f3-129">false</span><span class="sxs-lookup"><span data-stu-id="ff5f3-129">false</span></span>  <br/> |
    
 

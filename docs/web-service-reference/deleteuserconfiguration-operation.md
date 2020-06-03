@@ -16,23 +16,23 @@ ms.openlocfilehash: 064e1ace2c2f51783431ce42670b2a4fd8146b54
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44451469"
 ---
-# <a name="deleteuserconfiguration-operation"></a><span data-ttu-id="a787f-103">Операция DeleteUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="a787f-103">DeleteUserConfiguration operation</span></span>
+# <a name="deleteuserconfiguration-operation"></a><span data-ttu-id="f52a7-103">Операция DeleteUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="f52a7-103">DeleteUserConfiguration operation</span></span>
 
-<span data-ttu-id="a787f-104">Операция **DeleteUserConfiguration** удаляет объект конфигурации пользователя в папке.</span><span class="sxs-lookup"><span data-stu-id="a787f-104">The **DeleteUserConfiguration** operation deletes a user configuration object on a folder.</span></span> 
+<span data-ttu-id="f52a7-104">Операция **DeleteUserConfiguration** удаляет объект конфигурации пользователя в папке.</span><span class="sxs-lookup"><span data-stu-id="f52a7-104">The **DeleteUserConfiguration** operation deletes a user configuration object on a folder.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="a787f-105">Операция **DeleteUserConfiguration** инициирует событие Move для системы уведомления о событиях.</span><span class="sxs-lookup"><span data-stu-id="a787f-105">The **DeleteUserConfiguration** operation will trigger a move event for the event notification system.</span></span> <span data-ttu-id="a787f-106">Объект конфигурации пользователя будет перемещен в корзину.</span><span class="sxs-lookup"><span data-stu-id="a787f-106">The user configuration object will be moved to the dumpster.</span></span> 
+> <span data-ttu-id="f52a7-105">Операция **DeleteUserConfiguration** инициирует событие Move для системы уведомления о событиях.</span><span class="sxs-lookup"><span data-stu-id="f52a7-105">The **DeleteUserConfiguration** operation will trigger a move event for the event notification system.</span></span> <span data-ttu-id="f52a7-106">Объект конфигурации пользователя будет перемещен в корзину.</span><span class="sxs-lookup"><span data-stu-id="f52a7-106">The user configuration object will be moved to the dumpster.</span></span> 
   
-## <a name="deleteuserconfiguration-request-example"></a><span data-ttu-id="a787f-107">Пример запроса DeleteUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="a787f-107">DeleteUserConfiguration request example</span></span>
+## <a name="deleteuserconfiguration-request-example"></a><span data-ttu-id="f52a7-107">Пример запроса DeleteUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="f52a7-107">DeleteUserConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="a787f-108">Описание</span><span class="sxs-lookup"><span data-stu-id="a787f-108">Description</span></span>
+### <a name="description"></a><span data-ttu-id="f52a7-108">Description</span><span class="sxs-lookup"><span data-stu-id="f52a7-108">Description</span></span>
 
-<span data-ttu-id="a787f-109">В приведенном ниже примере запроса **DeleteUserConfiguration** показано, как сформировать запрос на удаление объекта конфигурации пользователя в папке "Черновики".</span><span class="sxs-lookup"><span data-stu-id="a787f-109">The following example of a **DeleteUserConfiguration** request shows how to form a request to delete a user configuration object on the Drafts folder.</span></span> 
+<span data-ttu-id="f52a7-109">В приведенном ниже примере запроса **DeleteUserConfiguration** показано, как сформировать запрос на удаление объекта конфигурации пользователя в папке "Черновики".</span><span class="sxs-lookup"><span data-stu-id="f52a7-109">The following example of a **DeleteUserConfiguration** request shows how to form a request to delete a user configuration object on the Drafts folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="a787f-110">Код</span><span class="sxs-lookup"><span data-stu-id="a787f-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="f52a7-110">Код</span><span class="sxs-lookup"><span data-stu-id="f52a7-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -54,13 +54,13 @@ ms.locfileid: "44451469"
 </soap:Envelope>
 ```
 
-## <a name="deleteuserconfiguration-response-example"></a><span data-ttu-id="a787f-111">Пример отклика DeleteUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="a787f-111">DeleteUserConfiguration response example</span></span>
+## <a name="deleteuserconfiguration-response-example"></a><span data-ttu-id="f52a7-111">Пример отклика DeleteUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="f52a7-111">DeleteUserConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="a787f-112">Описание</span><span class="sxs-lookup"><span data-stu-id="a787f-112">Description</span></span>
+### <a name="description"></a><span data-ttu-id="f52a7-112">Description</span><span class="sxs-lookup"><span data-stu-id="f52a7-112">Description</span></span>
 
-<span data-ttu-id="a787f-113">В следующем примере показан успешный ответ на запрос **DeleteUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="a787f-113">The following example shows a successful response to the **DeleteUserConfiguration** request.</span></span> 
+<span data-ttu-id="f52a7-113">В следующем примере показан успешный ответ на запрос **DeleteUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="f52a7-113">The following example shows a successful response to the **DeleteUserConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="a787f-114">Код</span><span class="sxs-lookup"><span data-stu-id="a787f-114">Code</span></span>
+### <a name="code"></a><span data-ttu-id="f52a7-114">Код</span><span class="sxs-lookup"><span data-stu-id="f52a7-114">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,8 +90,8 @@ ms.locfileid: "44451469"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="a787f-115">См. также</span><span class="sxs-lookup"><span data-stu-id="a787f-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f52a7-115">См. также</span><span class="sxs-lookup"><span data-stu-id="f52a7-115">See also</span></span>
 
-- [<span data-ttu-id="a787f-116">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="a787f-116">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md) 
-- [<span data-ttu-id="a787f-117">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="a787f-117">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="f52a7-116">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="f52a7-116">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md) 
+- [<span data-ttu-id="f52a7-117">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="f52a7-117">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -16,57 +16,57 @@ ms.openlocfilehash: fe8551d01e6f9e813da8936f15b0b7ba1d4ce56c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455529"
 ---
-# <a name="issigned"></a><span data-ttu-id="e863d-103">IsSigned</span><span class="sxs-lookup"><span data-stu-id="e863d-103">IsSigned</span></span>
+# <a name="issigned"></a><span data-ttu-id="b2e59-103">IsSigned</span><span class="sxs-lookup"><span data-stu-id="b2e59-103">IsSigned</span></span>
 
-<span data-ttu-id="e863d-104">Элемент с **подписью** указывает, должны ли входящие сообщения быть подписаны для того, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="e863d-104">The **IsSigned** element indicates whether incoming messages must be signed in order for the condition or exception to apply.</span></span> 
+<span data-ttu-id="b2e59-104">Элемент с **подписью** указывает, должны ли входящие сообщения быть подписаны для того, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="b2e59-104">The **IsSigned** element indicates whether incoming messages must be signed in order for the condition or exception to apply.</span></span> 
   
 ```XML
 <IsSigned>true | false</IsSigned>
 ```
 
- <span data-ttu-id="e863d-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="e863d-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="e863d-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="e863d-106">Attributes and elements</span></span>
+ <span data-ttu-id="b2e59-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="b2e59-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b2e59-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="b2e59-106">Attributes and elements</span></span>
 
-<span data-ttu-id="e863d-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="e863d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b2e59-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="b2e59-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e863d-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="e863d-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b2e59-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="b2e59-108">Attributes</span></span>
 
-<span data-ttu-id="e863d-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="e863d-109">None.</span></span>
+<span data-ttu-id="b2e59-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="b2e59-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="e863d-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="e863d-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b2e59-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="b2e59-110">Child elements</span></span>
 
-<span data-ttu-id="e863d-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="e863d-111">None.</span></span>
+<span data-ttu-id="b2e59-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="b2e59-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="e863d-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="e863d-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b2e59-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="b2e59-112">Parent elements</span></span>
 
-|<span data-ttu-id="e863d-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e863d-113">**Element**</span></span>|<span data-ttu-id="e863d-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e863d-114">**Description**</span></span>|
+|<span data-ttu-id="b2e59-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="b2e59-113">**Element**</span></span>|<span data-ttu-id="b2e59-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b2e59-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e863d-115">Условия</span><span class="sxs-lookup"><span data-stu-id="e863d-115">Conditions</span></span>](conditions.md) <br/> |<span data-ttu-id="e863d-116">Представляет условия, которые, если удовлетворены, запускают действия правила для правила.</span><span class="sxs-lookup"><span data-stu-id="e863d-116">Represents the conditions that, when fulfilled, will trigger the rule actions for a rule.</span></span>  <br/> |
-|[<span data-ttu-id="e863d-117">Исключения</span><span class="sxs-lookup"><span data-stu-id="e863d-117">Exceptions</span></span>](exceptions.md) <br/> |<span data-ttu-id="e863d-118">Представляет исключения, которые представляют все доступные правила условия исключений для правила папки «Входящие».</span><span class="sxs-lookup"><span data-stu-id="e863d-118">Represents the exceptions that represent all the available rule exception conditions for an Inbox rule.</span></span>  <br/> |
+|[<span data-ttu-id="b2e59-115">Условия</span><span class="sxs-lookup"><span data-stu-id="b2e59-115">Conditions</span></span>](conditions.md) <br/> |<span data-ttu-id="b2e59-116">Представляет условия, которые, если удовлетворены, запускают действия правила для правила.</span><span class="sxs-lookup"><span data-stu-id="b2e59-116">Represents the conditions that, when fulfilled, will trigger the rule actions for a rule.</span></span>  <br/> |
+|[<span data-ttu-id="b2e59-117">Исключения</span><span class="sxs-lookup"><span data-stu-id="b2e59-117">Exceptions</span></span>](exceptions.md) <br/> |<span data-ttu-id="b2e59-118">Представляет исключения, которые представляют все доступные правила условия исключений для правила папки «Входящие».</span><span class="sxs-lookup"><span data-stu-id="b2e59-118">Represents the exceptions that represent all the available rule exception conditions for an Inbox rule.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="e863d-119">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="e863d-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="b2e59-119">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="b2e59-119">Text value</span></span>
 
-<span data-ttu-id="e863d-120">Текстовое значение **true** указывает, что сообщение должно быть подписано, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="e863d-120">A text value of **true** indicates that the message must be signed in order for the condition or exception to apply.</span></span> <span data-ttu-id="e863d-121">Текстовое значение **false** указывает на то, что сообщение не обязательно должно быть подписано на условие или исключение, которое необходимо применить.</span><span class="sxs-lookup"><span data-stu-id="e863d-121">A text value of **false** indicates that the message does not have to be signed for the condition or exception to apply.</span></span> 
+<span data-ttu-id="b2e59-120">Текстовое значение **true** указывает, что сообщение должно быть подписано, чтобы применялось условие или исключение.</span><span class="sxs-lookup"><span data-stu-id="b2e59-120">A text value of **true** indicates that the message must be signed in order for the condition or exception to apply.</span></span> <span data-ttu-id="b2e59-121">Текстовое значение **false** указывает на то, что сообщение не обязательно должно быть подписано на условие или исключение, которое необходимо применить.</span><span class="sxs-lookup"><span data-stu-id="b2e59-121">A text value of **false** indicates that the message does not have to be signed for the condition or exception to apply.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="e863d-122">Примечания</span><span class="sxs-lookup"><span data-stu-id="e863d-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b2e59-122">Примечания</span><span class="sxs-lookup"><span data-stu-id="b2e59-122">Remarks</span></span>
 
-<span data-ttu-id="e863d-123">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="e863d-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="b2e59-123">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="b2e59-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="e863d-124">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="e863d-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b2e59-124">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="b2e59-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e863d-125">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="e863d-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="e863d-126">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="e863d-126">Schema Name</span></span>  <br/> |<span data-ttu-id="e863d-127">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="e863d-127">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="e863d-128">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="e863d-128">Validation File</span></span>  <br/> |<span data-ttu-id="e863d-129">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="e863d-129">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="e863d-130">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="e863d-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="e863d-131">True</span><span class="sxs-lookup"><span data-stu-id="e863d-131">True</span></span>  <br/> |
+|<span data-ttu-id="b2e59-125">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="b2e59-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="b2e59-126">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="b2e59-126">Schema Name</span></span>  <br/> |<span data-ttu-id="b2e59-127">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="b2e59-127">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="b2e59-128">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="b2e59-128">Validation File</span></span>  <br/> |<span data-ttu-id="b2e59-129">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="b2e59-129">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="b2e59-130">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="b2e59-130">Can be Empty</span></span>  <br/> |<span data-ttu-id="b2e59-131">True</span><span class="sxs-lookup"><span data-stu-id="b2e59-131">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="e863d-132">См. также</span><span class="sxs-lookup"><span data-stu-id="e863d-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b2e59-132">См. также</span><span class="sxs-lookup"><span data-stu-id="b2e59-132">See also</span></span>
 
 
 
-- [<span data-ttu-id="e863d-133">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="e863d-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="b2e59-133">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="b2e59-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -16,15 +16,15 @@ ms.openlocfilehash: 4ef5cae456455a441f38956e99b9982fc638ab66
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456558"
 ---
-# <a name="getmessagetrackingreport-operation"></a><span data-ttu-id="b5668-103">Операция GetMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="b5668-103">GetMessageTrackingReport operation</span></span>
+# <a name="getmessagetrackingreport-operation"></a><span data-ttu-id="36ab0-103">Операция GetMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="36ab0-103">GetMessageTrackingReport operation</span></span>
 
-<span data-ttu-id="b5668-104">Операция **GetMessageTrackingReport** возвращает сведения об указанных сообщениях.</span><span class="sxs-lookup"><span data-stu-id="b5668-104">The **GetMessageTrackingReport** operation gets tracking information about the specified messages.</span></span> 
+<span data-ttu-id="36ab0-104">Операция **GetMessageTrackingReport** возвращает сведения об указанных сообщениях.</span><span class="sxs-lookup"><span data-stu-id="36ab0-104">The **GetMessageTrackingReport** operation gets tracking information about the specified messages.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="b5668-105">См. также</span><span class="sxs-lookup"><span data-stu-id="b5668-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="36ab0-105">См. также</span><span class="sxs-lookup"><span data-stu-id="36ab0-105">See also</span></span>
 
-- [<span data-ttu-id="b5668-106">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="b5668-106">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
-- [<span data-ttu-id="b5668-107">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="b5668-107">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="36ab0-106">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="36ab0-106">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="36ab0-107">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="36ab0-107">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

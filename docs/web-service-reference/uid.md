@@ -16,56 +16,56 @@ ms.openlocfilehash: c2eb8d9cbb238132bdce2eedf7a41f90fcd20460
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455914"
 ---
-# <a name="uid"></a><span data-ttu-id="3534e-103">UID</span><span class="sxs-lookup"><span data-stu-id="3534e-103">UID</span></span>
+# <a name="uid"></a><span data-ttu-id="d8db1-103">UID</span><span class="sxs-lookup"><span data-stu-id="d8db1-103">UID</span></span>
 
-<span data-ttu-id="3534e-104">Элемент **UID** однозначно определяет элемент календаря.</span><span class="sxs-lookup"><span data-stu-id="3534e-104">The **UID** element uniquely identifies a calendar item.</span></span> 
+<span data-ttu-id="d8db1-104">Элемент **UID** однозначно определяет элемент календаря.</span><span class="sxs-lookup"><span data-stu-id="d8db1-104">The **UID** element uniquely identifies a calendar item.</span></span> 
   
 ```xml
 <UID>   </UID>
 ```
 
- <span data-ttu-id="3534e-105">**строка**</span><span class="sxs-lookup"><span data-stu-id="3534e-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="3534e-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="3534e-106">Attributes and elements</span></span>
+ <span data-ttu-id="d8db1-105">**строка**</span><span class="sxs-lookup"><span data-stu-id="d8db1-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="d8db1-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="d8db1-106">Attributes and elements</span></span>
 
-<span data-ttu-id="3534e-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="3534e-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="d8db1-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="d8db1-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="3534e-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="3534e-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="d8db1-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="d8db1-108">Attributes</span></span>
 
-<span data-ttu-id="3534e-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="3534e-109">None.</span></span>
+<span data-ttu-id="d8db1-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d8db1-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="3534e-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="3534e-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="d8db1-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="d8db1-110">Child elements</span></span>
 
-<span data-ttu-id="3534e-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="3534e-111">None.</span></span>
+<span data-ttu-id="d8db1-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d8db1-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="3534e-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="3534e-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="d8db1-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="d8db1-112">Parent elements</span></span>
 
-|<span data-ttu-id="3534e-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="3534e-113">**Element**</span></span>|<span data-ttu-id="3534e-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3534e-114">**Description**</span></span>|
+|<span data-ttu-id="d8db1-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d8db1-113">**Element**</span></span>|<span data-ttu-id="d8db1-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d8db1-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="3534e-115">календаритем</span><span class="sxs-lookup"><span data-stu-id="3534e-115">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="3534e-116">Представляет элемент календаря Exchange.</span><span class="sxs-lookup"><span data-stu-id="3534e-116">Represents an Exchange calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="3534e-117">митингмессаже</span><span class="sxs-lookup"><span data-stu-id="3534e-117">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="3534e-118">Представляет сообщение о собрании.</span><span class="sxs-lookup"><span data-stu-id="3534e-118">Represents a meeting message.</span></span>  <br/> |
-|[<span data-ttu-id="3534e-119">Свойство meetingrequest</span><span class="sxs-lookup"><span data-stu-id="3534e-119">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="3534e-120">Представляет приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="3534e-120">Represents a meeting request.</span></span>  <br/> |
-|[<span data-ttu-id="3534e-121">митингреспонсе</span><span class="sxs-lookup"><span data-stu-id="3534e-121">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="3534e-122">Представляет ответ на приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="3534e-122">Represents a meeting response.</span></span>  <br/> |
-|[<span data-ttu-id="3534e-123">митингканцеллатион</span><span class="sxs-lookup"><span data-stu-id="3534e-123">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="3534e-124">Представляет отмену собрания.</span><span class="sxs-lookup"><span data-stu-id="3534e-124">Represents a meeting cancellation.</span></span>  <br/> |
+|[<span data-ttu-id="d8db1-115">календаритем</span><span class="sxs-lookup"><span data-stu-id="d8db1-115">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="d8db1-116">Представляет элемент календаря Exchange.</span><span class="sxs-lookup"><span data-stu-id="d8db1-116">Represents an Exchange calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="d8db1-117">митингмессаже</span><span class="sxs-lookup"><span data-stu-id="d8db1-117">MeetingMessage</span></span>](meetingmessage.md) <br/> |<span data-ttu-id="d8db1-118">Представляет сообщение о собрании.</span><span class="sxs-lookup"><span data-stu-id="d8db1-118">Represents a meeting message.</span></span>  <br/> |
+|[<span data-ttu-id="d8db1-119">Свойство meetingrequest</span><span class="sxs-lookup"><span data-stu-id="d8db1-119">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="d8db1-120">Представляет приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="d8db1-120">Represents a meeting request.</span></span>  <br/> |
+|[<span data-ttu-id="d8db1-121">митингреспонсе</span><span class="sxs-lookup"><span data-stu-id="d8db1-121">MeetingResponse</span></span>](meetingresponse.md) <br/> |<span data-ttu-id="d8db1-122">Представляет ответ на приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="d8db1-122">Represents a meeting response.</span></span>  <br/> |
+|[<span data-ttu-id="d8db1-123">митингканцеллатион</span><span class="sxs-lookup"><span data-stu-id="d8db1-123">MeetingCancellation</span></span>](meetingcancellation.md) <br/> |<span data-ttu-id="d8db1-124">Представляет отмену собрания.</span><span class="sxs-lookup"><span data-stu-id="d8db1-124">Represents a meeting cancellation.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="3534e-125">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="3534e-125">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="d8db1-125">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="d8db1-125">Text value</span></span>
 
-<span data-ttu-id="3534e-126">Текстовое значение представляет собой уникальный идентификатор.</span><span class="sxs-lookup"><span data-stu-id="3534e-126">The text value represents a unique identifier.</span></span>
+<span data-ttu-id="d8db1-126">Текстовое значение представляет собой уникальный идентификатор.</span><span class="sxs-lookup"><span data-stu-id="d8db1-126">The text value represents a unique identifier.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="3534e-127">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="3534e-127">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="d8db1-127">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="d8db1-127">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="3534e-128">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="3534e-128">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="3534e-129">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="3534e-129">Schema Name</span></span>  <br/> |<span data-ttu-id="3534e-130">Схема Types</span><span class="sxs-lookup"><span data-stu-id="3534e-130">Types schema</span></span>  <br/> |
-|<span data-ttu-id="3534e-131">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="3534e-131">Validation File</span></span>  <br/> |<span data-ttu-id="3534e-132">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="3534e-132">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="3534e-133">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="3534e-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="3534e-134">False</span><span class="sxs-lookup"><span data-stu-id="3534e-134">False</span></span>  <br/> |
+|<span data-ttu-id="d8db1-128">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="d8db1-128">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="d8db1-129">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="d8db1-129">Schema Name</span></span>  <br/> |<span data-ttu-id="d8db1-130">Схема Types</span><span class="sxs-lookup"><span data-stu-id="d8db1-130">Types schema</span></span>  <br/> |
+|<span data-ttu-id="d8db1-131">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="d8db1-131">Validation File</span></span>  <br/> |<span data-ttu-id="d8db1-132">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="d8db1-132">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="d8db1-133">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="d8db1-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="d8db1-134">False</span><span class="sxs-lookup"><span data-stu-id="d8db1-134">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="3534e-135">См. также</span><span class="sxs-lookup"><span data-stu-id="3534e-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d8db1-135">См. также</span><span class="sxs-lookup"><span data-stu-id="d8db1-135">See also</span></span>
 
 
 
-- [<span data-ttu-id="3534e-136">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="3534e-136">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="d8db1-136">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="d8db1-136">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
