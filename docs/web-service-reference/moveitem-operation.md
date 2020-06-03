@@ -16,7 +16,7 @@ ms.openlocfilehash: 6a455e483ad2e5c84b91cfaa7562f4f1ec46a112
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465683"
 ---
 # <a name="moveitem-operation"></a>Операция MoveItem
@@ -25,7 +25,7 @@ ms.locfileid: "44465683"
   
 ## <a name="moveitem-request-example"></a>Пример запроса MoveItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **MoveItem** показано, как переместить элемент в папку "Черновики". 
   
@@ -74,7 +74,7 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 ## <a name="moveitem-response-example"></a>Пример отклика MoveItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **MoveItem** . 
   

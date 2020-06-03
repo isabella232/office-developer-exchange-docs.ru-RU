@@ -12,7 +12,7 @@ ms.openlocfilehash: 23167f3c96a6756fe4c6d915a4de91e815e620d9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464765"
 ---
 # <a name="archivetag"></a>арчиветаг
@@ -49,7 +49,7 @@ ms.locfileid: "44464765"
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Folder](folder.md) <br/> |Определяет папку для создания, получения, поиска, синхронизации или обновления.  <br/> |
 |[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Microsoft Exchange.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Microsoft Exchange.  <br/> |
 |[PostItem](postitem.md) <br/> |Представляет элемент POST в хранилище Exchange.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержащуюся в почтовом ящике.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |

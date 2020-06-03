@@ -16,7 +16,7 @@ ms.openlocfilehash: 0c9233146d21c7014be15896426b968106485200
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463785"
 ---
 # <a name="createuserconfiguration-operation"></a>Операция CreateUserConfiguration
@@ -25,7 +25,7 @@ ms.locfileid: "44463785"
   
 ## <a name="createuserconfiguration-request-example"></a>Пример запроса CreateUserConfiguration
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **CreateUserConfiguration** показано, как сформировать запрос на создание объекта конфигурации пользователя в папке "Черновики". 
   
@@ -69,7 +69,7 @@ ms.locfileid: "44463785"
 
 ## <a name="createuserconfiguration-response-example"></a>Пример отклика CreateUserConfiguration
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **CreateUserConfiguration** . 
   

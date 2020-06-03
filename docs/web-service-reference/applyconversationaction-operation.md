@@ -16,7 +16,7 @@ ms.openlocfilehash: cdab239a5b0b1406d2ce31f4604e4737d037cd7e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463505"
 ---
 # <a name="applyconversationaction-operation"></a>Операция ApplyConversationAction
@@ -25,7 +25,7 @@ ms.locfileid: "44463505"
   
 ## <a name="applyconversationaction-request-example"></a>Пример запроса ApplyConversationAction
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **ApplyConversationAction** показано, как переместить элементы в указанной беседе в другую папку. Элементы, добавляемые в беседу, также будут перемещены в указанную папку. 
   
@@ -63,7 +63,7 @@ ms.locfileid: "44463505"
   
 ## <a name="applyconversationaction-response-example"></a>Пример отклика ApplyConversationAction
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **ApplyConversationAction** . 
   

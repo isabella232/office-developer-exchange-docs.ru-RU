@@ -15,7 +15,7 @@ ms.openlocfilehash: 8de64ce7a47e9c426f8eb9298e1ca00508fb616c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465494"
 ---
 # <a name="resetpin-operation-um-web-service"></a>Операция ResetPIN (веб-служба единой системы обмена сообщениями)
@@ -28,7 +28,7 @@ ms.locfileid: "44465494"
   
 ## <a name="resetpin-request-example"></a>Пример запроса ResetPIN
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса ResetPIN показано, как сформировать запрос на сброс ПИН-кода для почтового ящика.
   
@@ -45,7 +45,7 @@ ms.locfileid: "44465494"
 
 ## <a name="successful-resetpin-response-example"></a>Пример успешного ответа ResetPIN
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа ResetPIN показан ответ на запрос ResetPIN.
   

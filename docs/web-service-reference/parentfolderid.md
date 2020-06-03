@@ -16,7 +16,7 @@ ms.openlocfilehash: 3bad638aa21019472df8f487f1e065d2e725e750
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465753"
 ---
 # <a name="parentfolderid"></a>ParentFolderId
@@ -63,7 +63,7 @@ ms.locfileid: "44465753"
 |[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании в почтовом ящике.  <br/> |
 |[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в почтовом ящике.  <br/> |
 |[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в почтовом ящике.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты в почтовом ящике.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты в почтовом ящике.  <br/> |
 |[модифиедевент](modifiedevent.md) <br/> |Представляет событие, в котором изменяется элемент или папка.  <br/> |
 |[моведевент](movedevent.md) <br/> |Представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую.  <br/> |
 |[невмаилевент](newmailevent.md) <br/> |Представляет событие, которое вызывается новым почтовым элементом в почтовом ящике.  <br/> |

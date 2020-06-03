@@ -13,7 +13,7 @@ ms.openlocfilehash: 3b88429488dbecd4ed7c3adf56462f34fa0d4b17
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465186"
 ---
 # <a name="soap-autodiscover-xml-elements-for-exchange-2013"></a>XML-элементы автообнаружения SOAP для Exchange 2013
@@ -39,7 +39,7 @@ ms.locfileid: "44465186"
 ## <a name="see-also"></a>См. также
 
 - [Справочные материалы по веб-службе автообнаружения для Exchange](autodiscover-web-service-reference-for-exchange.md)
-- [Автообнаружение для Exchange](../exchange-web-services/autodiscover-for-exchange.md)
-- [Начать работу с использованием веб-служб Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Автообнаружение в Exchange](../exchange-web-services/autodiscover-for-exchange.md)
+- [Начало работы с веб-службами Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

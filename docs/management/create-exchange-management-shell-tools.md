@@ -12,7 +12,7 @@ ms.openlocfilehash: c6e11fa5b55aa514b12f4f52bc9346ac213d3781
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463729"
 ---
 # <a name="create-exchange-management-shell-tools"></a>Создание средств командной консоли Exchange
@@ -34,7 +34,7 @@ ms.locfileid: "44463729"
   
 Командлеты командной консоли Exchange принимают и возвращают объекты. Список командлетов командной консоли Exchange и их входных и выходных данных можно найти в разделе [input and Output Type командлета командной консоли Exchange](exchange-management-shell-cmdlet-input-and-output-types.md).
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Новые и обновленные командлеты командной консоли Exchange](new-and-updated-exchange-management-shell-cmdlets.md)  
 - [Типы входных и выходных данных командлетов командной консоли Exchange](exchange-management-shell-cmdlet-input-and-output-types.md)
