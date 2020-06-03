@@ -3,35 +3,35 @@ title: Создание встреч и собраний с помощью EWS �
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: fdea70a4-9267-4e5d-9152-b749e2acc3b0
 description: Узнайте, как создавать встречи и собрания с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 1c840fac2ecca9fb51a28044dfac6299cb4fc038
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: b617519b839fb5ad310fbcaf6fae065f71f0f165
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760998"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528232"
 ---
-# <a name="create-appointments-and-meetings-by-using-ews-in-exchange-2013"></a><span data-ttu-id="37ca9-103">Создание встреч и собраний с помощью EWS в Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="37ca9-103">Create appointments and meetings by using EWS in Exchange 2013</span></span>
+# <a name="create-appointments-and-meetings-by-using-ews-in-exchange-2013"></a><span data-ttu-id="0d415-103">Создание встреч и собраний с помощью EWS в Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="0d415-103">Create appointments and meetings by using EWS in Exchange 2013</span></span>
 
-<span data-ttu-id="37ca9-104">Узнайте, как создавать встречи и собрания с помощью управляемого API EWS или EWS в Exchange.</span><span class="sxs-lookup"><span data-stu-id="37ca9-104">Learn how to create appointments and meetings by using the EWS Managed API or EWS in Exchange.</span></span>
+<span data-ttu-id="0d415-104">Узнайте, как создавать встречи и собрания с помощью управляемого API EWS или EWS в Exchange.</span><span class="sxs-lookup"><span data-stu-id="0d415-104">Learn how to create appointments and meetings by using the EWS Managed API or EWS in Exchange.</span></span>
   
-<span data-ttu-id="37ca9-105">Существенным различием между собраниями и встречами является то, что собрания имеют участников, а встречи — нет.</span><span class="sxs-lookup"><span data-stu-id="37ca9-105">The essential difference between meetings and appointments is that meetings have attendees, and appointments don't.</span></span> <span data-ttu-id="37ca9-106">Встречи и собрания могут быть отдельными экземплярами или частью повторяющихся рядов, но так как встречи не включают участников, комнаты или ресурсы, им не требуется отправлять сообщения.</span><span class="sxs-lookup"><span data-stu-id="37ca9-106">Both appointments and meetings can be single instances or part of a recurring series, but because appointments don't include attendees, rooms, or resources, they do not require a message to be sent.</span></span> <span data-ttu-id="37ca9-107">На внутреннем сервере Exchange использует один и тот же объект для собраний и встреч.</span><span class="sxs-lookup"><span data-stu-id="37ca9-107">Internally, Exchange uses the same object for both meetings and appointments.</span></span> <span data-ttu-id="37ca9-108">Для работы с собраниями и встречами используется [класс встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) управляемого API EWS или элемент EWS [календаритем](http://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx) .</span><span class="sxs-lookup"><span data-stu-id="37ca9-108">You use the EWS Managed API [Appointment class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) or the EWS [CalendarItem](http://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx) element to work with meetings and appointments.</span></span> 
+<span data-ttu-id="0d415-105">Существенным различием между собраниями и встречами является то, что собрания имеют участников, а встречи — нет.</span><span class="sxs-lookup"><span data-stu-id="0d415-105">The essential difference between meetings and appointments is that meetings have attendees, and appointments don't.</span></span> <span data-ttu-id="0d415-106">Встречи и собрания могут быть отдельными экземплярами или частью повторяющихся рядов, но так как встречи не включают участников, комнаты или ресурсы, им не требуется отправлять сообщения.</span><span class="sxs-lookup"><span data-stu-id="0d415-106">Both appointments and meetings can be single instances or part of a recurring series, but because appointments don't include attendees, rooms, or resources, they do not require a message to be sent.</span></span> <span data-ttu-id="0d415-107">На внутреннем сервере Exchange использует один и тот же объект для собраний и встреч.</span><span class="sxs-lookup"><span data-stu-id="0d415-107">Internally, Exchange uses the same object for both meetings and appointments.</span></span> <span data-ttu-id="0d415-108">Для работы с собраниями и встречами используется [класс встречи](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) управляемого API EWS или элемент EWS [календаритем](https://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx) .</span><span class="sxs-lookup"><span data-stu-id="0d415-108">You use the EWS Managed API [Appointment class](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) or the EWS [CalendarItem](https://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx) element to work with meetings and appointments.</span></span> 
   
-<span data-ttu-id="37ca9-109">**Таблица 1. Методы управляемого API EWS и операции EWS для работы с встречами и собраниями**</span><span class="sxs-lookup"><span data-stu-id="37ca9-109">**Table 1. EWS Managed API methods and EWS operations for working with appointments and meetings**</span></span>
+<span data-ttu-id="0d415-109">**Таблица 1. Методы управляемого API EWS и операции EWS для работы с встречами и собраниями**</span><span class="sxs-lookup"><span data-stu-id="0d415-109">**Table 1. EWS Managed API methods and EWS operations for working with appointments and meetings**</span></span>
 
-|<span data-ttu-id="37ca9-110">**Метод управляемого API EWS**</span><span class="sxs-lookup"><span data-stu-id="37ca9-110">**EWS Managed API method**</span></span>|<span data-ttu-id="37ca9-111">**Операция EWS**</span><span class="sxs-lookup"><span data-stu-id="37ca9-111">**EWS operation**</span></span>|
+|<span data-ttu-id="0d415-110">**Метод управляемого API EWS**</span><span class="sxs-lookup"><span data-stu-id="0d415-110">**EWS Managed API method**</span></span>|<span data-ttu-id="0d415-111">**Операция EWS**</span><span class="sxs-lookup"><span data-stu-id="0d415-111">**EWS operation**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="37ca9-112">Встреча. сохранение</span><span class="sxs-lookup"><span data-stu-id="37ca9-112">Appointment.Save</span></span>](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="37ca9-113">Операция CreateItem (элемент календаря)</span><span class="sxs-lookup"><span data-stu-id="37ca9-113">CreateItem operation (calendar item)</span></span>](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |
-|[<span data-ttu-id="37ca9-114">Item.Bind</span><span class="sxs-lookup"><span data-stu-id="37ca9-114">Item.Bind</span></span>](http://msdn.microsoft.com/en-us/library/dd634410%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="37ca9-115">Операция GetItem (элемент календаря)</span><span class="sxs-lookup"><span data-stu-id="37ca9-115">GetItem operation (calendar item)</span></span>](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
+|[<span data-ttu-id="0d415-112">Встреча. сохранение</span><span class="sxs-lookup"><span data-stu-id="0d415-112">Appointment.Save</span></span>](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="0d415-113">Операция CreateItem (элемент календаря)</span><span class="sxs-lookup"><span data-stu-id="0d415-113">CreateItem operation (calendar item)</span></span>](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |
+|[<span data-ttu-id="0d415-114">Item.Bind</span><span class="sxs-lookup"><span data-stu-id="0d415-114">Item.Bind</span></span>](https://msdn.microsoft.com/library/dd634410%28v=exchg.80%29.aspx) <br/> |[<span data-ttu-id="0d415-115">Операция GetItem (элемент календаря)</span><span class="sxs-lookup"><span data-stu-id="0d415-115">GetItem operation (calendar item)</span></span>](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
    
-## <a name="create-an-appointment-by-using-the-ews-managed-api"></a><span data-ttu-id="37ca9-116">Создание встречи с помощью управляемого API EWS</span><span class="sxs-lookup"><span data-stu-id="37ca9-116">Create an appointment by using the EWS Managed API</span></span>
-<span data-ttu-id="37ca9-117"><a name="bk_CreateApptEWSMA"> </a></span><span class="sxs-lookup"><span data-stu-id="37ca9-117"><a name="bk_CreateApptEWSMA"> </a></span></span>
+## <a name="create-an-appointment-by-using-the-ews-managed-api"></a><span data-ttu-id="0d415-116">Создание встречи с помощью управляемого API EWS</span><span class="sxs-lookup"><span data-stu-id="0d415-116">Create an appointment by using the EWS Managed API</span></span>
+<span data-ttu-id="0d415-117"><a name="bk_CreateApptEWSMA"> </a></span><span class="sxs-lookup"><span data-stu-id="0d415-117"><a name="bk_CreateApptEWSMA"> </a></span></span>
 
-<span data-ttu-id="37ca9-118">В приведенном ниже примере кода показано, как использовать [объект встреча](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) для создания встречи, метод [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) для сохранения в папке календаря и метод [Item. Bind](http://msdn.microsoft.com/en-us/library/dd634410%28v=exchg.80%29.aspx) для проверки того, что встреча создана.</span><span class="sxs-lookup"><span data-stu-id="37ca9-118">The following code example shows how to use the [Appointment object](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) to create an appointment, the [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) method to save it to your calendar folder, and the [Item.Bind](http://msdn.microsoft.com/en-us/library/dd634410%28v=exchg.80%29.aspx) method to verify that the appointment was created.</span></span> 
+<span data-ttu-id="0d415-118">В приведенном ниже примере кода показано, как использовать [объект встреча](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) для создания встречи, метод [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) для сохранения в папке календаря и метод [Item. Bind](https://msdn.microsoft.com/library/dd634410%28v=exchg.80%29.aspx) для проверки того, что встреча создана.</span><span class="sxs-lookup"><span data-stu-id="0d415-118">The following code example shows how to use the [Appointment object](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) to create an appointment, the [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) method to save it to your calendar folder, and the [Item.Bind](https://msdn.microsoft.com/library/dd634410%28v=exchg.80%29.aspx) method to verify that the appointment was created.</span></span> 
   
-<span data-ttu-id="37ca9-119">В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**.</span><span class="sxs-lookup"><span data-stu-id="37ca9-119">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span> 
+<span data-ttu-id="0d415-119">В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**.</span><span class="sxs-lookup"><span data-stu-id="0d415-119">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span> 
   
 ```cs
 Appointment appointment = new Appointment(service);
@@ -50,23 +50,23 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 
 ```
 
-<span data-ttu-id="37ca9-120">После задания свойств объекта встреча сохраните встречу в папке "Календарь" с помощью метода [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) объекта встречи.</span><span class="sxs-lookup"><span data-stu-id="37ca9-120">After setting the properties on the appointment object, you save the appointment to the calendar folder by using the appointment object's [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) method.</span></span> 
+<span data-ttu-id="0d415-120">После задания свойств объекта встреча сохраните встречу в папке "Календарь" с помощью метода [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) объекта встречи.</span><span class="sxs-lookup"><span data-stu-id="0d415-120">After setting the properties on the appointment object, you save the appointment to the calendar folder by using the appointment object's [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) method.</span></span> 
   
-<span data-ttu-id="37ca9-121">Обратите внимание, что на этапе проверки вы используете [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) элемента, связанный с встречей, чтобы убедиться в том, что встреча находится в папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="37ca9-121">Note that in the verification step, you use the item [Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) associated with the appointment to verify that the appointment is in the calendar folder.</span></span> <span data-ttu-id="37ca9-122">Рекомендуется ограничить свойства, возвращаемые сервером, только тем, что вам нужно — в данном случае это тема встречи.</span><span class="sxs-lookup"><span data-stu-id="37ca9-122">As a best practice, limit the properties returned by the server to only what you need — in this case, the appointment's subject.</span></span> 
+<span data-ttu-id="0d415-121">Обратите внимание, что на этапе проверки вы используете [идентификатор](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) элемента, связанный с встречей, чтобы убедиться в том, что встреча находится в папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="0d415-121">Note that in the verification step, you use the item [Id](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) associated with the appointment to verify that the appointment is in the calendar folder.</span></span> <span data-ttu-id="0d415-122">Рекомендуется ограничить свойства, возвращаемые сервером, только тем, что вам нужно — в данном случае это тема встречи.</span><span class="sxs-lookup"><span data-stu-id="0d415-122">As a best practice, limit the properties returned by the server to only what you need — in this case, the appointment's subject.</span></span> 
   
-## <a name="create-an-appointment-by-using-ews"></a><span data-ttu-id="37ca9-123">Создание встречи с помощью EWS</span><span class="sxs-lookup"><span data-stu-id="37ca9-123">Create an appointment by using EWS</span></span>
-<span data-ttu-id="37ca9-124"><a name="bk_CreateApptEWS"> </a></span><span class="sxs-lookup"><span data-stu-id="37ca9-124"><a name="bk_CreateApptEWS"> </a></span></span>
+## <a name="create-an-appointment-by-using-ews"></a><span data-ttu-id="0d415-123">Создание встречи с помощью EWS</span><span class="sxs-lookup"><span data-stu-id="0d415-123">Create an appointment by using EWS</span></span>
+<span data-ttu-id="0d415-124"><a name="bk_CreateApptEWS"> </a></span><span class="sxs-lookup"><span data-stu-id="0d415-124"><a name="bk_CreateApptEWS"> </a></span></span>
 
-<span data-ttu-id="37ca9-125">XML-код запроса и ответа в приведенных ниже примерах соответствует вызовам, выполняемым кодом управляемого API EWS в разделе [Создание встречи с помощью управляемого API EWS](#bk_CreateApptEWSMA).</span><span class="sxs-lookup"><span data-stu-id="37ca9-125">The request and response XML in the following examples correspond to calls made by the EWS Managed API code in [Create an appointment by using the EWS Managed API](#bk_CreateApptEWSMA).</span></span> <span data-ttu-id="37ca9-126">Также отображаются запрос и XML-код ответа, проверяющий наличие элементов встречи в папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="37ca9-126">The request and response XML that verifies that the appointment items are in the calendar folder are shown as well.</span></span>
+<span data-ttu-id="0d415-125">XML-код запроса и ответа в приведенных ниже примерах соответствует вызовам, выполняемым кодом управляемого API EWS в разделе [Создание встречи с помощью управляемого API EWS](#bk_CreateApptEWSMA).</span><span class="sxs-lookup"><span data-stu-id="0d415-125">The request and response XML in the following examples correspond to calls made by the EWS Managed API code in [Create an appointment by using the EWS Managed API](#bk_CreateApptEWSMA).</span></span> <span data-ttu-id="0d415-126">Также отображаются запрос и XML-код ответа, проверяющий наличие элементов встречи в папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="0d415-126">The request and response XML that verifies that the appointment items are in the calendar folder are shown as well.</span></span>
   
-<span data-ttu-id="37ca9-127">В следующем примере показан XML-код запроса при использовании операции [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания встречи.</span><span class="sxs-lookup"><span data-stu-id="37ca9-127">The following example shows the request XML when you use the [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation to create an appointment.</span></span> 
+<span data-ttu-id="0d415-127">В следующем примере показан XML-код запроса при использовании операции [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания встречи.</span><span class="sxs-lookup"><span data-stu-id="0d415-127">The following example shows the request XML when you use the [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation to create an appointment.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -91,24 +91,24 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 </soap:Envelope>
 ```
 
- <span data-ttu-id="37ca9-128">В следующем примере показан XML-код отклика, возвращаемый операцией **CreateItem** .</span><span class="sxs-lookup"><span data-stu-id="37ca9-128">The following example shows the response XML that is returned by the **CreateItem** operation.</span></span> 
+ <span data-ttu-id="0d415-128">В следующем примере показан XML-код отклика, возвращаемый операцией **CreateItem** .</span><span class="sxs-lookup"><span data-stu-id="0d415-128">The following example shows the response XML that is returned by the **CreateItem** operation.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="37ca9-129">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="37ca9-129">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
+> <span data-ttu-id="0d415-129">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="0d415-129">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -125,17 +125,17 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 
 ```
 
-<span data-ttu-id="37ca9-130">В следующем примере показан XML-код запроса, который создается при использовании операции [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) для проверки того, что встреча создана.</span><span class="sxs-lookup"><span data-stu-id="37ca9-130">The following example shows the request XML that is generated when you use the [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) operation to verify that the appointment was created.</span></span> 
+<span data-ttu-id="0d415-130">В следующем примере показан XML-код запроса, который создается при использовании операции [GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) для проверки того, что встреча создана.</span><span class="sxs-lookup"><span data-stu-id="0d415-130">The following example shows the request XML that is generated when you use the [GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) operation to verify that the appointment was created.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="37ca9-131">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="37ca9-131">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
+> <span data-ttu-id="0d415-131">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="0d415-131">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -159,23 +159,23 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 
 ```
 
- <span data-ttu-id="37ca9-132">В следующем примере показан XML-код отклика, возвращенный операцией **GetItem** .</span><span class="sxs-lookup"><span data-stu-id="37ca9-132">The following example shows the response XML that is returned by the **GetItem** operation.</span></span> 
+ <span data-ttu-id="0d415-132">В следующем примере показан XML-код отклика, возвращенный операцией **GetItem** .</span><span class="sxs-lookup"><span data-stu-id="0d415-132">The following example shows the response XML that is returned by the **GetItem** operation.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="37ca9-133">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="37ca9-133">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
+> <span data-ttu-id="0d415-133">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="0d415-133">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -192,12 +192,12 @@ Console.WriteLine("\nAppointment created: " + item.Subject + "\n");
 </s:Envelope>
 ```
 
-## <a name="create-a-meeting-by-using-the-ews-managed-api"></a><span data-ttu-id="37ca9-134">Создание собрания с помощью управляемого API EWS</span><span class="sxs-lookup"><span data-stu-id="37ca9-134">Create a meeting by using the EWS Managed API</span></span>
-<span data-ttu-id="37ca9-135"><a name="bk_CreateMtgEWSMA"> </a></span><span class="sxs-lookup"><span data-stu-id="37ca9-135"><a name="bk_CreateMtgEWSMA"> </a></span></span>
+## <a name="create-a-meeting-by-using-the-ews-managed-api"></a><span data-ttu-id="0d415-134">Создание собрания с помощью управляемого API EWS</span><span class="sxs-lookup"><span data-stu-id="0d415-134">Create a meeting by using the EWS Managed API</span></span>
+<span data-ttu-id="0d415-135"><a name="bk_CreateMtgEWSMA"> </a></span><span class="sxs-lookup"><span data-stu-id="0d415-135"><a name="bk_CreateMtgEWSMA"> </a></span></span>
 
-<span data-ttu-id="37ca9-136">При создании собрания в дополнение к сохранению элемента в папке "Календарь", как правило, вы также хотите отправлять приглашения на собрания участникам.</span><span class="sxs-lookup"><span data-stu-id="37ca9-136">When you create a meeting, in addition to saving an item to the calendar folder, you also typically want to send meeting requests to attendees.</span></span> <span data-ttu-id="37ca9-137">В приведенном ниже примере кода показано, как создать собрание и отправить приглашения на собрания.</span><span class="sxs-lookup"><span data-stu-id="37ca9-137">The following code example shows how to create a meeting and send meeting requests.</span></span>
+<span data-ttu-id="0d415-136">При создании собрания в дополнение к сохранению элемента в папке "Календарь", как правило, вы также хотите отправлять приглашения на собрания участникам.</span><span class="sxs-lookup"><span data-stu-id="0d415-136">When you create a meeting, in addition to saving an item to the calendar folder, you also typically want to send meeting requests to attendees.</span></span> <span data-ttu-id="0d415-137">В приведенном ниже примере кода показано, как создать собрание и отправить приглашения на собрания.</span><span class="sxs-lookup"><span data-stu-id="0d415-137">The following code example shows how to create a meeting and send meeting requests.</span></span>
   
-<span data-ttu-id="37ca9-138">В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**.</span><span class="sxs-lookup"><span data-stu-id="37ca9-138">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span> 
+<span data-ttu-id="0d415-138">В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**.</span><span class="sxs-lookup"><span data-stu-id="0d415-138">This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**.</span></span> 
   
 ```cs
 Appointment meeting = new Appointment(service);
@@ -219,21 +219,21 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 
 ```
 
-<span data-ttu-id="37ca9-139">После задания свойств объекта " [встреча](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) " сохраните собрание в папке "Календарь" с помощью метода [Save](http://msdn.microsoft.com/en-us/library/dd635394%28v=exchg.80%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="37ca9-139">After setting the properties on the [Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object, save the meeting to your calendar folder by using the [Save](http://msdn.microsoft.com/en-us/library/dd635394%28v=exchg.80%29.aspx) method.</span></span> <span data-ttu-id="37ca9-140">Когда вы устанавливаете значение перечисления [сендинвитатионсмоде](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.sendinvitationsmode%28v=exchg.80%29.aspx) в **сендонлитоалл** или **сендтоалландсавекопи**, приглашения отправляются участникам.</span><span class="sxs-lookup"><span data-stu-id="37ca9-140">When you set the [SendInvitationsMode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.sendinvitationsmode%28v=exchg.80%29.aspx) enumeration value to **SendOnlyToAll** or **SendToAllAndSaveCopy**, invitations are sent to attendees.</span></span>
+<span data-ttu-id="0d415-139">После задания свойств объекта " [встреча](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) " сохраните собрание в папке "Календарь" с помощью метода [Save](https://msdn.microsoft.com/library/dd635394%28v=exchg.80%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="0d415-139">After setting the properties on the [Appointment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object, save the meeting to your calendar folder by using the [Save](https://msdn.microsoft.com/library/dd635394%28v=exchg.80%29.aspx) method.</span></span> <span data-ttu-id="0d415-140">Когда вы устанавливаете значение перечисления [сендинвитатионсмоде](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode%28v=exchg.80%29.aspx) в **сендонлитоалл** или **сендтоалландсавекопи**, приглашения отправляются участникам.</span><span class="sxs-lookup"><span data-stu-id="0d415-140">When you set the [SendInvitationsMode](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode%28v=exchg.80%29.aspx) enumeration value to **SendOnlyToAll** or **SendToAllAndSaveCopy**, invitations are sent to attendees.</span></span>
   
-<span data-ttu-id="37ca9-141">Используйте [идентификатор](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) элемента, связанный с собранием, чтобы убедиться, что он был сохранен в папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="37ca9-141">Use the item [Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) associated with the meeting to verify that it was saved in the calendar folder.</span></span> <span data-ttu-id="37ca9-142">Рекомендуется ограничить свойства, возвращаемые сервером, только тем, что вам нужно — в данном случае это тема собрания.</span><span class="sxs-lookup"><span data-stu-id="37ca9-142">As a best practice, limit the properties returned by the server to only what you need - in this case, the meeting's subject.</span></span> 
+<span data-ttu-id="0d415-141">Используйте [идентификатор](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) элемента, связанный с собранием, чтобы убедиться, что он был сохранен в папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="0d415-141">Use the item [Id](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) associated with the meeting to verify that it was saved in the calendar folder.</span></span> <span data-ttu-id="0d415-142">Рекомендуется ограничить свойства, возвращаемые сервером, только тем, что вам нужно — в данном случае это тема собрания.</span><span class="sxs-lookup"><span data-stu-id="0d415-142">As a best practice, limit the properties returned by the server to only what you need - in this case, the meeting's subject.</span></span> 
   
-## <a name="create-a-meeting-by-using-ews"></a><span data-ttu-id="37ca9-143">Создание собрания с помощью EWS</span><span class="sxs-lookup"><span data-stu-id="37ca9-143">Create a meeting by using EWS</span></span>
-<span data-ttu-id="37ca9-144"><a name="bk_CreateMtgEWS"> </a></span><span class="sxs-lookup"><span data-stu-id="37ca9-144"><a name="bk_CreateMtgEWS"> </a></span></span>
+## <a name="create-a-meeting-by-using-ews"></a><span data-ttu-id="0d415-143">Создание собрания с помощью EWS</span><span class="sxs-lookup"><span data-stu-id="0d415-143">Create a meeting by using EWS</span></span>
+<span data-ttu-id="0d415-144"><a name="bk_CreateMtgEWS"> </a></span><span class="sxs-lookup"><span data-stu-id="0d415-144"><a name="bk_CreateMtgEWS"> </a></span></span>
 
-<span data-ttu-id="37ca9-145">XML-код запроса и ответа в приведенных ниже примерах соответствует вызовам, выполняемым кодом управляемого API EWS в разделе [Создание собрания с помощью управляемого API EWS](#bk_CreateMtgEWSMA).</span><span class="sxs-lookup"><span data-stu-id="37ca9-145">The request and response XML in the following examples correspond to calls made by the EWS Managed API code in [Create a meeting by using the EWS Managed API](#bk_CreateMtgEWSMA).</span></span> <span data-ttu-id="37ca9-146">Также отображаются запрос и XML-код ответа, проверяющий наличие элементов собрания в папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="37ca9-146">The request and response XML that verifies that the meeting items are in the calendar folder are shown as well.</span></span>
+<span data-ttu-id="0d415-145">XML-код запроса и ответа в приведенных ниже примерах соответствует вызовам, выполняемым кодом управляемого API EWS в разделе [Создание собрания с помощью управляемого API EWS](#bk_CreateMtgEWSMA).</span><span class="sxs-lookup"><span data-stu-id="0d415-145">The request and response XML in the following examples correspond to calls made by the EWS Managed API code in [Create a meeting by using the EWS Managed API](#bk_CreateMtgEWSMA).</span></span> <span data-ttu-id="0d415-146">Также отображаются запрос и XML-код ответа, проверяющий наличие элементов собрания в папке "Календарь".</span><span class="sxs-lookup"><span data-stu-id="0d415-146">The request and response XML that verifies that the meeting items are in the calendar folder are shown as well.</span></span>
   
-<span data-ttu-id="37ca9-147">В следующем примере показан XML-код запроса при использовании операции [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания собрания.</span><span class="sxs-lookup"><span data-stu-id="37ca9-147">The following example shows the request XML when you use the [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation to create a meeting.</span></span> 
+<span data-ttu-id="0d415-147">В следующем примере показан XML-код запроса при использовании операции [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания собрания.</span><span class="sxs-lookup"><span data-stu-id="0d415-147">The following example shows the request XML when you use the [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation to create a meeting.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -277,22 +277,22 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </soap:Envelope>
 ```
 
-<span data-ttu-id="37ca9-148">В следующем примере показан XML-код отклика, возвращаемый операцией **CreateItem** .</span><span class="sxs-lookup"><span data-stu-id="37ca9-148">The following example shows the response XML that is returned by the **CreateItem** operation.</span></span> 
+<span data-ttu-id="0d415-148">В следующем примере показан XML-код отклика, возвращаемый операцией **CreateItem** .</span><span class="sxs-lookup"><span data-stu-id="0d415-148">The following example shows the response XML that is returned by the **CreateItem** operation.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="37ca9-149">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="37ca9-149">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
+> <span data-ttu-id="0d415-149">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="0d415-149">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -308,15 +308,15 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </s:Envelope>
 ```
 
-<span data-ttu-id="37ca9-150">В следующем примере показан XML-код запроса, созданный операцией [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) при проверке того, что собрание было создано.</span><span class="sxs-lookup"><span data-stu-id="37ca9-150">The following example shows the request XML that is generated by the [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) operation when you verify that the meeting was created.</span></span> 
+<span data-ttu-id="0d415-150">В следующем примере показан XML-код запроса, созданный операцией [GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) при проверке того, что собрание было создано.</span><span class="sxs-lookup"><span data-stu-id="0d415-150">The following example shows the request XML that is generated by the [GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) operation when you verify that the meeting was created.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="37ca9-151">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="37ca9-151">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
+> <span data-ttu-id="0d415-151">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="0d415-151">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -339,22 +339,22 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </soap:Envelope>
 ```
 
-<span data-ttu-id="37ca9-152">В следующем примере показан XML-код отклика, возвращенный операцией **GetItem** .</span><span class="sxs-lookup"><span data-stu-id="37ca9-152">The following example shows the response XML that is returned by the **GetItem** operation.</span></span> 
+<span data-ttu-id="0d415-152">В следующем примере показан XML-код отклика, возвращенный операцией **GetItem** .</span><span class="sxs-lookup"><span data-stu-id="0d415-152">The following example shows the response XML that is returned by the **GetItem** operation.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="37ca9-153">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="37ca9-153">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
+> <span data-ttu-id="0d415-153">Атрибуты **ItemId** и **чанжекэй** были сокращены для удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="0d415-153">The **ItemId** and **ChangeKey** attributes have been shortened for readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -371,12 +371,12 @@ Console.WriteLine("\nMeeting created: " + item.Subject + "\n");
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="37ca9-154">См. также</span><span class="sxs-lookup"><span data-stu-id="37ca9-154">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0d415-154">См. также</span><span class="sxs-lookup"><span data-stu-id="0d415-154">See also</span></span>
 
-- [<span data-ttu-id="37ca9-155">Календари и веб-службах Exchange</span><span class="sxs-lookup"><span data-stu-id="37ca9-155">Calendars and EWS in Exchange</span></span>](calendars-and-ews-in-exchange.md)  
-- [<span data-ttu-id="37ca9-156">Получение встреч и собраний с помощью EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="37ca9-156">Get appointments and meetings by using EWS in Exchange</span></span>](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
-- [<span data-ttu-id="37ca9-157">Обновление встречи и собрания с помощью веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="37ca9-157">Update appointments and meetings by using EWS in Exchange</span></span>](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md) 
-- [<span data-ttu-id="37ca9-158">Удаление встреч и отмена собраний с помощью EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="37ca9-158">Delete appointments and cancel meetings by using EWS in Exchange</span></span>](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
-- [<span data-ttu-id="37ca9-159">Предложение нового времени проведения собрания с помощью EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="37ca9-159">Propose a new meeting time by using EWS in Exchange</span></span>](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [<span data-ttu-id="0d415-155">Календари и веб-службах Exchange</span><span class="sxs-lookup"><span data-stu-id="0d415-155">Calendars and EWS in Exchange</span></span>](calendars-and-ews-in-exchange.md)  
+- [<span data-ttu-id="0d415-156">Получение встреч и собраний с помощью EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="0d415-156">Get appointments and meetings by using EWS in Exchange</span></span>](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [<span data-ttu-id="0d415-157">Обновление встречи и собрания с помощью веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="0d415-157">Update appointments and meetings by using EWS in Exchange</span></span>](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md) 
+- [<span data-ttu-id="0d415-158">Удаление встреч и отмена собраний с помощью EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="0d415-158">Delete appointments and cancel meetings by using EWS in Exchange</span></span>](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
+- [<span data-ttu-id="0d415-159">Предложение нового времени проведения собрания с помощью EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="0d415-159">Propose a new meeting time by using EWS in Exchange</span></span>](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
 

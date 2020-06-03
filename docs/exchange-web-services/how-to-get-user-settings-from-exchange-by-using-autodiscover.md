@@ -3,50 +3,50 @@ title: Получение параметров пользователя из Exc
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 6d90c305-4802-4e18-8d52-f60349feaa8d
 description: Узнайте, как получить параметры конфигурации пользователя с сервера Exchange Server с помощью службы автообнаружения.
-ms.openlocfilehash: f37de55d6681bcdef381561b166adf209d3919a9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 5f7ea04e6b04f674d4cb481cf9243d46437d6950
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761014"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528001"
 ---
-# <a name="get-user-settings-from-exchange-by-using-autodiscover"></a><span data-ttu-id="b9b54-103">Получение параметров пользователя из Exchange с помощью службы автообнаружения</span><span class="sxs-lookup"><span data-stu-id="b9b54-103">Get user settings from Exchange by using Autodiscover</span></span>
+# <a name="get-user-settings-from-exchange-by-using-autodiscover"></a><span data-ttu-id="df1e0-103">Получение параметров пользователя из Exchange с помощью службы автообнаружения</span><span class="sxs-lookup"><span data-stu-id="df1e0-103">Get user settings from Exchange by using Autodiscover</span></span>
 
-<span data-ttu-id="b9b54-104">Узнайте, как получить параметры конфигурации пользователя с сервера Exchange Server с помощью службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="b9b54-104">Learn how to get user configuration settings from an Exchange server by using Autodiscover.</span></span>
+<span data-ttu-id="df1e0-104">Узнайте, как получить параметры конфигурации пользователя с сервера Exchange Server с помощью службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="df1e0-104">Learn how to get user configuration settings from an Exchange server by using Autodiscover.</span></span>
   
-<span data-ttu-id="b9b54-105">Служба автообнаружения упрощает настройку приложений, предоставляя легкий доступ к сведениям о конфигурации пользователя, используя только адрес электронной почты и пароль пользователя.</span><span class="sxs-lookup"><span data-stu-id="b9b54-105">Autodiscover simplifies application configuration by providing easy access to user configuration information using only the user's email address and password.</span></span> <span data-ttu-id="b9b54-106">С помощью автообнаружения можно получить [ряд параметров конфигурации пользователей](http://msdn.microsoft.com/library/43db26e1-f7be-49fd-b26b-fc1b10bd3458%28Office.15%29.aspx) , таких как отображаемое имя пользователя или URL-адрес внешней веб-службы.</span><span class="sxs-lookup"><span data-stu-id="b9b54-106">A [number of user configuration settings](http://msdn.microsoft.com/library/43db26e1-f7be-49fd-b26b-fc1b10bd3458%28Office.15%29.aspx) are available via Autodiscover, such as the user's display name or external web service URL.</span></span> 
+<span data-ttu-id="df1e0-105">Служба автообнаружения упрощает настройку приложений, предоставляя легкий доступ к сведениям о конфигурации пользователя, используя только адрес электронной почты и пароль пользователя.</span><span class="sxs-lookup"><span data-stu-id="df1e0-105">Autodiscover simplifies application configuration by providing easy access to user configuration information using only the user's email address and password.</span></span> <span data-ttu-id="df1e0-106">С помощью автообнаружения можно получить [ряд параметров конфигурации пользователей](https://msdn.microsoft.com/library/43db26e1-f7be-49fd-b26b-fc1b10bd3458%28Office.15%29.aspx) , таких как отображаемое имя пользователя или URL-адрес внешней веб-службы.</span><span class="sxs-lookup"><span data-stu-id="df1e0-106">A [number of user configuration settings](https://msdn.microsoft.com/library/43db26e1-f7be-49fd-b26b-fc1b10bd3458%28Office.15%29.aspx) are available via Autodiscover, such as the user's display name or external web service URL.</span></span> 
   
-<span data-ttu-id="b9b54-107">Для получения параметров пользователя из службы автообнаружения можно использовать одну из следующих технологий разработки:</span><span class="sxs-lookup"><span data-stu-id="b9b54-107">You can use one of the following development technologies to retrieve user settings from the Autodiscover service:</span></span>
+<span data-ttu-id="df1e0-107">Для получения параметров пользователя из службы автообнаружения можно использовать одну из следующих технологий разработки:</span><span class="sxs-lookup"><span data-stu-id="df1e0-107">You can use one of the following development technologies to retrieve user settings from the Autodiscover service:</span></span>
   
-- <span data-ttu-id="b9b54-108">[Начало работы с клиентскими приложениями для управляемого API EWS](get-started-with-ews-managed-api-client-applications.md)</span><span class="sxs-lookup"><span data-stu-id="b9b54-108">The [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)</span></span>
+- <span data-ttu-id="df1e0-108">[Начало работы с клиентскими приложениями для управляемого API EWS](get-started-with-ews-managed-api-client-applications.md)</span><span class="sxs-lookup"><span data-stu-id="df1e0-108">The [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)</span></span>
     
-- <span data-ttu-id="b9b54-109">[Веб-служба автообнаружения SOAP](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b9b54-109">The [SOAP Autodiscover web service](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx)</span></span>
+- <span data-ttu-id="df1e0-109">[Веб-служба автообнаружения SOAP](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="df1e0-109">The [SOAP Autodiscover web service](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx)</span></span>
     
-- <span data-ttu-id="b9b54-110">[Веб-служба автообнаружения POX](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b9b54-110">The [POX Autodiscover web service](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx)</span></span>
+- <span data-ttu-id="df1e0-110">[Веб-служба автообнаружения POX](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="df1e0-110">The [POX Autodiscover web service](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx)</span></span>
     
-<span data-ttu-id="b9b54-111">Управляемый API EWS предоставляет интерфейс на основе объектов для получения параметров пользователя.</span><span class="sxs-lookup"><span data-stu-id="b9b54-111">The EWS Managed API provides an object-based interface for retrieving user settings.</span></span> <span data-ttu-id="b9b54-112">Если клиентское приложение использует управляемый код, мы рекомендуем использовать управляемый API EWS.</span><span class="sxs-lookup"><span data-stu-id="b9b54-112">If your client application uses managed code, we recommend that you use the EWS Managed API.</span></span> <span data-ttu-id="b9b54-113">Если вы используете управляемый API EWS, определите, доступны ли нужные параметры в перечислении [Microsoft. Exchange. WebServices. автообнаружения. усерсеттингнаме](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="b9b54-113">If you are using the EWS Managed API, determine whether the settings that you need are available in the [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx) enumeration.</span></span> <span data-ttu-id="b9b54-114">В противном случае вам может потребоваться использовать службы автообнаружения SOAP или POX.</span><span class="sxs-lookup"><span data-stu-id="b9b54-114">If they aren't, you might want to use the SOAP or POX Autodiscover services.</span></span> 
+<span data-ttu-id="df1e0-111">Управляемый API EWS предоставляет интерфейс на основе объектов для получения параметров пользователя.</span><span class="sxs-lookup"><span data-stu-id="df1e0-111">The EWS Managed API provides an object-based interface for retrieving user settings.</span></span> <span data-ttu-id="df1e0-112">Если клиентское приложение использует управляемый код, мы рекомендуем использовать управляемый API EWS.</span><span class="sxs-lookup"><span data-stu-id="df1e0-112">If your client application uses managed code, we recommend that you use the EWS Managed API.</span></span> <span data-ttu-id="df1e0-113">Если вы используете управляемый API EWS, определите, доступны ли нужные параметры в перечислении [Microsoft. Exchange. WebServices. автообнаружения. усерсеттингнаме](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="df1e0-113">If you are using the EWS Managed API, determine whether the settings that you need are available in the [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx) enumeration.</span></span> <span data-ttu-id="df1e0-114">В противном случае вам может потребоваться использовать службы автообнаружения SOAP или POX.</span><span class="sxs-lookup"><span data-stu-id="df1e0-114">If they aren't, you might want to use the SOAP or POX Autodiscover services.</span></span> 
   
-<span data-ttu-id="b9b54-115">Если вы используете веб-службу, рекомендуем использовать службу автообнаружения SOAP, так как она поддерживает более широкий набор функций, чем служба автообнаружения POX.</span><span class="sxs-lookup"><span data-stu-id="b9b54-115">If you are using a web service, we suggest that you use the SOAP Autodiscover service, because it supports a richer set of features than the POX Autodiscover service.</span></span> <span data-ttu-id="b9b54-116">Если служба автообнаружения SOAP недоступна, служба автообнаружения POX является хорошей альтернативой.</span><span class="sxs-lookup"><span data-stu-id="b9b54-116">If the SOAP Autodiscover service isn't available, the POX Autodiscover service is a good alternative.</span></span>
+<span data-ttu-id="df1e0-115">Если вы используете веб-службу, рекомендуем использовать службу автообнаружения SOAP, так как она поддерживает более широкий набор функций, чем служба автообнаружения POX.</span><span class="sxs-lookup"><span data-stu-id="df1e0-115">If you are using a web service, we suggest that you use the SOAP Autodiscover service, because it supports a richer set of features than the POX Autodiscover service.</span></span> <span data-ttu-id="df1e0-116">Если служба автообнаружения SOAP недоступна, служба автообнаружения POX является хорошей альтернативой.</span><span class="sxs-lookup"><span data-stu-id="df1e0-116">If the SOAP Autodiscover service isn't available, the POX Autodiscover service is a good alternative.</span></span>
   
-## <a name="set-up-to-get-user-settings"></a><span data-ttu-id="b9b54-117">Настройка для получения параметров пользователя</span><span class="sxs-lookup"><span data-stu-id="b9b54-117">Set up to get user settings</span></span>
-<span data-ttu-id="b9b54-118"><a name="bk_Prereq"> </a></span><span class="sxs-lookup"><span data-stu-id="b9b54-118"><a name="bk_Prereq"> </a></span></span>
+## <a name="set-up-to-get-user-settings"></a><span data-ttu-id="df1e0-117">Настройка для получения параметров пользователя</span><span class="sxs-lookup"><span data-stu-id="df1e0-117">Set up to get user settings</span></span>
+<span data-ttu-id="df1e0-118"><a name="bk_Prereq"> </a></span><span class="sxs-lookup"><span data-stu-id="df1e0-118"><a name="bk_Prereq"> </a></span></span>
 
-<span data-ttu-id="b9b54-119">Перед получением параметров пользователя с помощью службы автообнаружения убедитесь, что у вас есть доступ к следующим:</span><span class="sxs-lookup"><span data-stu-id="b9b54-119">Before you get user settings by using the Autodiscover service, make sure that you have access to the following:</span></span>
+<span data-ttu-id="df1e0-119">Перед получением параметров пользователя с помощью службы автообнаружения убедитесь, что у вас есть доступ к следующим:</span><span class="sxs-lookup"><span data-stu-id="df1e0-119">Before you get user settings by using the Autodiscover service, make sure that you have access to the following:</span></span>
   
-- <span data-ttu-id="b9b54-120">Если вы используете управляемый API EWS или службу автообнаружения на основе POX, Exchange Online, Exchange Online в составе Office 365, или сервер, на котором работает версия Exchange, начиная с Exchange 2007 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="b9b54-120">If you are using the EWS Managed API or the POX-based Autodiscover service, Exchange Online, Exchange Online as part of Office 365, or a server that is running a version of Exchange starting with Exchange 2007 SP1.</span></span> 
+- <span data-ttu-id="df1e0-120">Если вы используете управляемый API EWS или службу автообнаружения на основе POX, Exchange Online, Exchange Online в составе Office 365, или сервер, на котором работает версия Exchange, начиная с Exchange 2007 с пакетом обновления 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="df1e0-120">If you are using the EWS Managed API or the POX-based Autodiscover service, Exchange Online, Exchange Online as part of Office 365, or a server that is running a version of Exchange starting with Exchange 2007 SP1.</span></span> 
     
-- <span data-ttu-id="b9b54-121">Если вы используете службу автообнаружения на основе SOAP, Exchange Online или версию Exchange, начиная с Exchange 2010.</span><span class="sxs-lookup"><span data-stu-id="b9b54-121">If you are using the SOAP-based Autodiscover service, Exchange Online or a version of Exchange starting with Exchange 2010.</span></span>
+- <span data-ttu-id="df1e0-121">Если вы используете службу автообнаружения на основе SOAP, Exchange Online или версию Exchange, начиная с Exchange 2010.</span><span class="sxs-lookup"><span data-stu-id="df1e0-121">If you are using the SOAP-based Autodiscover service, Exchange Online or a version of Exchange starting with Exchange 2010.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="b9b54-122">Если вы используете управляемый API EWS, в некоторых случаях необходимо будет [предоставить метод обратного вызова проверки сертификата](how-to-validate-a-server-certificate-for-the-ews-managed-api.md) .</span><span class="sxs-lookup"><span data-stu-id="b9b54-122">If you are using the EWS Managed API, you will need to [provide a certificate validation callback method](how-to-validate-a-server-certificate-for-the-ews-managed-api.md) in some circumstances.</span></span> <span data-ttu-id="b9b54-123">Кроме того, вам может потребоваться метод обратного вызова проверки сертификата с некоторыми созданными библиотеками прокси, например, созданными Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="b9b54-123">You might also need a certificate validation callback method with some generated proxy libraries, such as those created by Visual Studio.</span></span> 
+> <span data-ttu-id="df1e0-122">Если вы используете управляемый API EWS, в некоторых случаях необходимо будет [предоставить метод обратного вызова проверки сертификата](how-to-validate-a-server-certificate-for-the-ews-managed-api.md) .</span><span class="sxs-lookup"><span data-stu-id="df1e0-122">If you are using the EWS Managed API, you will need to [provide a certificate validation callback method](how-to-validate-a-server-certificate-for-the-ews-managed-api.md) in some circumstances.</span></span> <span data-ttu-id="df1e0-123">Кроме того, вам может потребоваться метод обратного вызова проверки сертификата с некоторыми созданными библиотеками прокси, например, созданными Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="df1e0-123">You might also need a certificate validation callback method with some generated proxy libraries, such as those created by Visual Studio.</span></span> 
   
-## <a name="get-user-settings-by-using-the-ews-managed-api"></a><span data-ttu-id="b9b54-124">Получение параметров пользователя с помощью управляемого API EWS</span><span class="sxs-lookup"><span data-stu-id="b9b54-124">Get user settings by using the EWS Managed API</span></span>
-<span data-ttu-id="b9b54-125"><a name="bk_Managed"> </a></span><span class="sxs-lookup"><span data-stu-id="b9b54-125"><a name="bk_Managed"> </a></span></span>
+## <a name="get-user-settings-by-using-the-ews-managed-api"></a><span data-ttu-id="df1e0-124">Получение параметров пользователя с помощью управляемого API EWS</span><span class="sxs-lookup"><span data-stu-id="df1e0-124">Get user settings by using the EWS Managed API</span></span>
+<span data-ttu-id="df1e0-125"><a name="bk_Managed"> </a></span><span class="sxs-lookup"><span data-stu-id="df1e0-125"><a name="bk_Managed"> </a></span></span>
 
-<span data-ttu-id="b9b54-126">Вы можете использовать метод [GetUserSettings](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) для получения сведений о конфигурации для пользователя, как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="b9b54-126">You can use the [GetUserSettings](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) method to retrieve configuration information for a user, as shown in the following example.</span></span> <span data-ttu-id="b9b54-127">В этом примере можно указать массив возвращаемых параметров пользователя (из элементов, доступных в перечислении [усерсеттингнаме](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx) ), и метод будет следовать ответам перенаправления от сервера Exchange.</span><span class="sxs-lookup"><span data-stu-id="b9b54-127">In this example, you can specify an array of user settings to return (from those available in the [UserSettingName](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx) enumeration), and the method will follow redirection responses from the Exchange server.</span></span> 
+<span data-ttu-id="df1e0-126">Вы можете использовать метод [GetUserSettings](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) для получения сведений о конфигурации для пользователя, как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="df1e0-126">You can use the [GetUserSettings](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) method to retrieve configuration information for a user, as shown in the following example.</span></span> <span data-ttu-id="df1e0-127">В этом примере можно указать массив возвращаемых параметров пользователя (из элементов, доступных в перечислении [усерсеттингнаме](https://msdn.microsoft.com/library/exchange/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx) ), и метод будет следовать ответам перенаправления от сервера Exchange.</span><span class="sxs-lookup"><span data-stu-id="df1e0-127">In this example, you can specify an array of user settings to return (from those available in the [UserSettingName](https://msdn.microsoft.com/library/exchange/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx) enumeration), and the method will follow redirection responses from the Exchange server.</span></span> 
   
 ```cs
 using System;
@@ -82,7 +82,7 @@ public static GetUserSettingsResponse GetUserSettings(
 }
 ```
 
-<span data-ttu-id="b9b54-128">Вы можете проанализировать коллекцию, возвращаемую для доступа к каждой из этих ключей и значений в массиве параметров пользователя.</span><span class="sxs-lookup"><span data-stu-id="b9b54-128">You can parse the collection returned to access each key/value pair in the user settings array.</span></span> <span data-ttu-id="b9b54-129">В приведенном ниже примере показано, как выполнить анализ каждого возвращаемого элемента и отобразить имя и значение каждой из этих ключей и значений.</span><span class="sxs-lookup"><span data-stu-id="b9b54-129">The following example shows how to parse through each returned element and display the name and value of each key/value pair.</span></span>
+<span data-ttu-id="df1e0-128">Вы можете проанализировать коллекцию, возвращаемую для доступа к каждой из этих ключей и значений в массиве параметров пользователя.</span><span class="sxs-lookup"><span data-stu-id="df1e0-128">You can parse the collection returned to access each key/value pair in the user settings array.</span></span> <span data-ttu-id="df1e0-129">В приведенном ниже примере показано, как выполнить анализ каждого возвращаемого элемента и отобразить имя и значение каждой из этих ключей и значений.</span><span class="sxs-lookup"><span data-stu-id="df1e0-129">The following example shows how to parse through each returned element and display the name and value of each key/value pair.</span></span>
   
 ```cs
 // Display each retrieved value. The settings are part of a key/value pair.
@@ -93,35 +93,35 @@ foreach (KeyValuePair<UserSettingName, Object> usersetting in userresponse.Setti
 }
 ```
 
-<span data-ttu-id="b9b54-130">Кроме того, вы можете получить значение определенного параметра.</span><span class="sxs-lookup"><span data-stu-id="b9b54-130">Alternatively, you can obtain the value of a specific setting.</span></span> <span data-ttu-id="b9b54-131">В следующем примере отображается параметр **UserDisplayName** .</span><span class="sxs-lookup"><span data-stu-id="b9b54-131">In the following example, the **UserDisplayName** setting is to be displayed.</span></span> 
+<span data-ttu-id="df1e0-130">Кроме того, вы можете получить значение определенного параметра.</span><span class="sxs-lookup"><span data-stu-id="df1e0-130">Alternatively, you can obtain the value of a specific setting.</span></span> <span data-ttu-id="df1e0-131">В следующем примере отображается параметр **UserDisplayName** .</span><span class="sxs-lookup"><span data-stu-id="df1e0-131">In the following example, the **UserDisplayName** setting is to be displayed.</span></span> 
   
 ```cs
 // Display a specific setting, such as UserDisplayName.
 Console.WriteLine(userresponse.Settings[UserSettingName.UserDisplayName]);
 ```
 
-## <a name="get-user-settings-by-using-soap-autodiscover"></a><span data-ttu-id="b9b54-132">Получение параметров пользователя с помощью автообнаружения SOAP</span><span class="sxs-lookup"><span data-stu-id="b9b54-132">Get user settings by using SOAP Autodiscover</span></span>
-<span data-ttu-id="b9b54-133"><a name="bk_SOAP"> </a></span><span class="sxs-lookup"><span data-stu-id="b9b54-133"><a name="bk_SOAP"> </a></span></span>
+## <a name="get-user-settings-by-using-soap-autodiscover"></a><span data-ttu-id="df1e0-132">Получение параметров пользователя с помощью автообнаружения SOAP</span><span class="sxs-lookup"><span data-stu-id="df1e0-132">Get user settings by using SOAP Autodiscover</span></span>
+<span data-ttu-id="df1e0-133"><a name="bk_SOAP"> </a></span><span class="sxs-lookup"><span data-stu-id="df1e0-133"><a name="bk_SOAP"> </a></span></span>
 
-<span data-ttu-id="b9b54-134">Если вы не используете управляемый API EWS, рекомендуем использовать веб-службу автообнаружения SOAP.</span><span class="sxs-lookup"><span data-stu-id="b9b54-134">If you're not using the EWS Managed API, we recommend that you use the SOAP Autodiscover web service.</span></span> <span data-ttu-id="b9b54-135">Используйте только веб-службу автообнаружения POX, если веб-служба автообнаружения SOAP не работает или недоступна.</span><span class="sxs-lookup"><span data-stu-id="b9b54-135">Only use the POX Autodiscover web service if the SOAP Autodiscover web service fails or is not available.</span></span> 
+<span data-ttu-id="df1e0-134">Если вы не используете управляемый API EWS, рекомендуем использовать веб-службу автообнаружения SOAP.</span><span class="sxs-lookup"><span data-stu-id="df1e0-134">If you're not using the EWS Managed API, we recommend that you use the SOAP Autodiscover web service.</span></span> <span data-ttu-id="df1e0-135">Используйте только веб-службу автообнаружения POX, если веб-служба автообнаружения SOAP не работает или недоступна.</span><span class="sxs-lookup"><span data-stu-id="df1e0-135">Only use the POX Autodiscover web service if the SOAP Autodiscover web service fails or is not available.</span></span> 
   
-<span data-ttu-id="b9b54-136">Чтобы получить параметры пользователя, используйте [операцию GetUserSettings (SOAP)](http://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="b9b54-136">To get user settings, use the [GetUserSettings operation (SOAP)](http://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx).</span></span> <span data-ttu-id="b9b54-137">Запрошенные параметры возвращаются в виде [элементов усерсеттинг](http://msdn.microsoft.com/library/aac6dc31-edd2-49d7-b845-1df4d77da58c%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="b9b54-137">The requested settings are returned as [UserSetting elements](http://msdn.microsoft.com/library/aac6dc31-edd2-49d7-b845-1df4d77da58c%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="df1e0-136">Чтобы получить параметры пользователя, используйте [операцию GetUserSettings (SOAP)](https://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="df1e0-136">To get user settings, use the [GetUserSettings operation (SOAP)](https://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx).</span></span> <span data-ttu-id="df1e0-137">Запрошенные параметры возвращаются в виде [элементов усерсеттинг](https://msdn.microsoft.com/library/aac6dc31-edd2-49d7-b845-1df4d77da58c%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="df1e0-137">The requested settings are returned as [UserSetting elements](https://msdn.microsoft.com/library/aac6dc31-edd2-49d7-b845-1df4d77da58c%28Office.15%29.aspx).</span></span>
   
-<span data-ttu-id="b9b54-138">В следующем примере показан запрос автообнаружения SOAP для получения параметров пользователя с сервера.</span><span class="sxs-lookup"><span data-stu-id="b9b54-138">The following example shows a SOAP Autodiscover request to get user settings from the server.</span></span>
+<span data-ttu-id="df1e0-138">В следующем примере показан запрос автообнаружения SOAP для получения параметров пользователя с сервера.</span><span class="sxs-lookup"><span data-stu-id="df1e0-138">The following example shows a SOAP Autodiscover request to get user settings from the server.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:wsa="http://www.w3.org/2005/08/addressing" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+        xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2013</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
     <wsa:To>https://autodiscover.exchange.microsoft.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetUserSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetUserSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Users>
           <a:User>
@@ -151,14 +151,14 @@ Console.WriteLine(userresponse.Settings[UserSettingName.UserDisplayName]);
 </soap:Envelope>
 ```
 
-<span data-ttu-id="b9b54-139">В следующем примере показан ответ SOAP, возвращенный сервером после синтаксического анализа запроса от клиента.</span><span class="sxs-lookup"><span data-stu-id="b9b54-139">The following example shows the SOAP response that is returned by the server after it parses the request from the client.</span></span> <span data-ttu-id="b9b54-140">Ответ содержит только запрошенные параметры, если они существуют.</span><span class="sxs-lookup"><span data-stu-id="b9b54-140">The response contains only the settings that are requested, if they exist.</span></span>
+<span data-ttu-id="df1e0-139">В следующем примере показан ответ SOAP, возвращенный сервером после синтаксического анализа запроса от клиента.</span><span class="sxs-lookup"><span data-stu-id="df1e0-139">The following example shows the SOAP response that is returned by the server after it parses the request from the client.</span></span> <span data-ttu-id="df1e0-140">Ответ содержит только запрошенные параметры, если они существуют.</span><span class="sxs-lookup"><span data-stu-id="df1e0-140">The response contains only the settings that are requested, if they exist.</span></span>
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/
         Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
-    <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+    <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
       <h:MajorVersion>15</h:MajorVersion>
       <h:MinorVersion>0</h:MinorVersion>
@@ -168,7 +168,7 @@ Console.WriteLine(userresponse.Settings[UserSettingName.UserDisplayName]);
     </h:ServerVersionInfo>
   </s:Header>
   <s:Body>
-    <GetUserSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <GetUserSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -249,29 +249,29 @@ Console.WriteLine(userresponse.Settings[UserSettingName.UserDisplayName]);
 </s:Envelope
 ```
 
-## <a name="get-user-settings-by-using-pox-autodiscover"></a><span data-ttu-id="b9b54-141">Получение параметров пользователя с помощью автообнаружения POX</span><span class="sxs-lookup"><span data-stu-id="b9b54-141">Get user settings by using POX Autodiscover</span></span>
-<span data-ttu-id="b9b54-142"><a name="bk_POX"> </a></span><span class="sxs-lookup"><span data-stu-id="b9b54-142"><a name="bk_POX"> </a></span></span>
+## <a name="get-user-settings-by-using-pox-autodiscover"></a><span data-ttu-id="df1e0-141">Получение параметров пользователя с помощью автообнаружения POX</span><span class="sxs-lookup"><span data-stu-id="df1e0-141">Get user settings by using POX Autodiscover</span></span>
+<span data-ttu-id="df1e0-142"><a name="bk_POX"> </a></span><span class="sxs-lookup"><span data-stu-id="df1e0-142"><a name="bk_POX"> </a></span></span>
 
-<span data-ttu-id="b9b54-143">Несмотря на то, что мы рекомендуем использовать веб-службу автообнаружения SOAP, веб-служба автообнаружения POX является хорошим вариантом резервного копирования в тех случаях, когда SOAP недоступен.</span><span class="sxs-lookup"><span data-stu-id="b9b54-143">Although we recommend that you use the SOAP Autodiscover web service, the POX Autodiscover web service is a good backup option for those times when SOAP isn't available.</span></span> <span data-ttu-id="b9b54-144">Например, Exchange 2007 не поддерживает веб-службу автообнаружения SOAP, поэтому если вы нацелены на Exchange 2007, необходимо использовать веб-службу автообнаружения POX.</span><span class="sxs-lookup"><span data-stu-id="b9b54-144">For example, Exchange 2007 does not support the SOAP Autodiscover web service, so if you are targeting Exchange 2007, you have to use the POX Autodiscover web service.</span></span> <span data-ttu-id="b9b54-145">В отличие от веб-службы автообнаружения SOAP, служба автообнаружения POX не позволяет запрашивать определенные параметры.</span><span class="sxs-lookup"><span data-stu-id="b9b54-145">Unlike the SOAP Autodiscover web service, the POX Autodiscover service does not allow you to request specific settings.</span></span> <span data-ttu-id="b9b54-146">Вместо этого сервер возвращает полный список доступных параметров в качестве дочерних элементов [элемента Protocol](http://msdn.microsoft.com/library/f77e4d66-6fdd-4999-9339-f7d7f9c86f44%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="b9b54-146">Instead, the server returns a full list of available settings as child elements of the [Protocol element](http://msdn.microsoft.com/library/f77e4d66-6fdd-4999-9339-f7d7f9c86f44%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="df1e0-143">Несмотря на то, что мы рекомендуем использовать веб-службу автообнаружения SOAP, веб-служба автообнаружения POX является хорошим вариантом резервного копирования в тех случаях, когда SOAP недоступен.</span><span class="sxs-lookup"><span data-stu-id="df1e0-143">Although we recommend that you use the SOAP Autodiscover web service, the POX Autodiscover web service is a good backup option for those times when SOAP isn't available.</span></span> <span data-ttu-id="df1e0-144">Например, Exchange 2007 не поддерживает веб-службу автообнаружения SOAP, поэтому если вы нацелены на Exchange 2007, необходимо использовать веб-службу автообнаружения POX.</span><span class="sxs-lookup"><span data-stu-id="df1e0-144">For example, Exchange 2007 does not support the SOAP Autodiscover web service, so if you are targeting Exchange 2007, you have to use the POX Autodiscover web service.</span></span> <span data-ttu-id="df1e0-145">В отличие от веб-службы автообнаружения SOAP, служба автообнаружения POX не позволяет запрашивать определенные параметры.</span><span class="sxs-lookup"><span data-stu-id="df1e0-145">Unlike the SOAP Autodiscover web service, the POX Autodiscover service does not allow you to request specific settings.</span></span> <span data-ttu-id="df1e0-146">Вместо этого сервер возвращает полный список доступных параметров в качестве дочерних элементов [элемента Protocol](https://msdn.microsoft.com/library/f77e4d66-6fdd-4999-9339-f7d7f9c86f44%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="df1e0-146">Instead, the server returns a full list of available settings as child elements of the [Protocol element](https://msdn.microsoft.com/library/f77e4d66-6fdd-4999-9339-f7d7f9c86f44%28Office.15%29.aspx).</span></span>
   
-<span data-ttu-id="b9b54-147">В следующем примере показан запрос автообнаружения POX для получения параметров пользователя с сервера.</span><span class="sxs-lookup"><span data-stu-id="b9b54-147">The following example shows a POX Autodiscover request to get user settings from the server.</span></span> <span data-ttu-id="b9b54-148">Следующий XML-код отправляется на сервер через HTTP POST.</span><span class="sxs-lookup"><span data-stu-id="b9b54-148">The following XML is sent to the server via an HTTP POST.</span></span>
+<span data-ttu-id="df1e0-147">В следующем примере показан запрос автообнаружения POX для получения параметров пользователя с сервера.</span><span class="sxs-lookup"><span data-stu-id="df1e0-147">The following example shows a POX Autodiscover request to get user settings from the server.</span></span> <span data-ttu-id="df1e0-148">Следующий XML-код отправляется на сервер через HTTP POST.</span><span class="sxs-lookup"><span data-stu-id="df1e0-148">The following XML is sent to the server via an HTTP POST.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
   <Request>
     <EMailAddress>mara@contoso.com</EMailAddress>
-    <AcceptableResponseSchema>http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
+    <AcceptableResponseSchema>https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
   </Request>
 </Autodiscover>
 ```
 
-<span data-ttu-id="b9b54-149">В следующем примере показан ответ POX, возвращенный сервером.</span><span class="sxs-lookup"><span data-stu-id="b9b54-149">The following example shows the POX response that is returned by the server.</span></span>
+<span data-ttu-id="df1e0-149">В следующем примере показан ответ POX, возвращенный сервером.</span><span class="sxs-lookup"><span data-stu-id="df1e0-149">The following example shows the POX response that is returned by the server.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
     <User>
       <DisplayName>Mara Whitley</DisplayName>
       <LegacyDN>/o=First Organization/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f5eeabead90d4b6fb51d6379474692cd-Mara</LegacyDN>
@@ -333,20 +333,20 @@ Console.WriteLine(userresponse.Settings[UserSettingName.UserDisplayName]);
 </Autodiscover>
 ```
 
-## <a name="next-steps"></a><span data-ttu-id="b9b54-150">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="b9b54-150">Next steps</span></span>
-<span data-ttu-id="b9b54-151"><a name="bk_Next"> </a></span><span class="sxs-lookup"><span data-stu-id="b9b54-151"><a name="bk_Next"> </a></span></span>
+## <a name="next-steps"></a><span data-ttu-id="df1e0-150">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="df1e0-150">Next steps</span></span>
+<span data-ttu-id="df1e0-151"><a name="bk_Next"> </a></span><span class="sxs-lookup"><span data-stu-id="df1e0-151"><a name="bk_Next"> </a></span></span>
 
-<span data-ttu-id="b9b54-152">После получения необходимых сведений о конфигурации для пользователя с сервера вы будете готовы к обмену данными с Exchange, чтобы выполнить необходимые действия для вашего приложения.</span><span class="sxs-lookup"><span data-stu-id="b9b54-152">After you've retrieved the necessary configuration details for your user from the server, you are ready to communicate with Exchange to do the things your application needs to do.</span></span> <span data-ttu-id="b9b54-153">Дальнейшие действия зависят от того, как вы обмениваетесь данными с Exchange и какие действия необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="b9b54-153">What you do next depends on how you communicate with Exchange and what you want to accomplish.</span></span> <span data-ttu-id="b9b54-154">Если вам нужны некоторые мысли и вы используете EWS, вы можете ознакомиться с [примерами кода Exchange 101](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c) для некоторых идей.</span><span class="sxs-lookup"><span data-stu-id="b9b54-154">If you need some inspiration, and you're using EWS, you might explore the [Exchange 101 code samples](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c) for some ideas.</span></span> 
+<span data-ttu-id="df1e0-152">После получения необходимых сведений о конфигурации для пользователя с сервера вы будете готовы к обмену данными с Exchange, чтобы выполнить необходимые действия для вашего приложения.</span><span class="sxs-lookup"><span data-stu-id="df1e0-152">After you've retrieved the necessary configuration details for your user from the server, you are ready to communicate with Exchange to do the things your application needs to do.</span></span> <span data-ttu-id="df1e0-153">Дальнейшие действия зависят от того, как вы обмениваетесь данными с Exchange и какие действия необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="df1e0-153">What you do next depends on how you communicate with Exchange and what you want to accomplish.</span></span> <span data-ttu-id="df1e0-154">Если вам нужны некоторые мысли и вы используете EWS, вы можете ознакомиться с [примерами кода Exchange 101](https://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c) для некоторых идей.</span><span class="sxs-lookup"><span data-stu-id="df1e0-154">If you need some inspiration, and you're using EWS, you might explore the [Exchange 101 code samples](https://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c) for some ideas.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="b9b54-155">См. также</span><span class="sxs-lookup"><span data-stu-id="b9b54-155">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df1e0-155">См. также</span><span class="sxs-lookup"><span data-stu-id="df1e0-155">See also</span></span>
 
 
-- [<span data-ttu-id="b9b54-156">Автообнаружение в Exchange</span><span class="sxs-lookup"><span data-stu-id="b9b54-156">Autodiscover for Exchange</span></span>](autodiscover-for-exchange.md)
+- [<span data-ttu-id="df1e0-156">Автообнаружение в Exchange</span><span class="sxs-lookup"><span data-stu-id="df1e0-156">Autodiscover for Exchange</span></span>](autodiscover-for-exchange.md)
     
-- [<span data-ttu-id="b9b54-157">Управляемый API веб-служб Exchange (EWS)</span><span class="sxs-lookup"><span data-stu-id="b9b54-157">Exchange Web Services (EWS) Managed API</span></span>](http://msdn.microsoft.com/en-us/library/exchange/jj220535%28v=exchg.80%29.aspx)
+- [<span data-ttu-id="df1e0-157">Управляемый API веб-служб Exchange (EWS)</span><span class="sxs-lookup"><span data-stu-id="df1e0-157">Exchange Web Services (EWS) Managed API</span></span>](https://msdn.microsoft.com/library/exchange/jj220535%28v=exchg.80%29.aspx)
     
-- [<span data-ttu-id="b9b54-158">Справочник по веб-службе автообнаружения SOAP для Exchange</span><span class="sxs-lookup"><span data-stu-id="b9b54-158">SOAP Autodiscover web service reference for Exchange</span></span>](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx)
+- [<span data-ttu-id="df1e0-158">Справочник по веб-службе автообнаружения SOAP для Exchange</span><span class="sxs-lookup"><span data-stu-id="df1e0-158">SOAP Autodiscover web service reference for Exchange</span></span>](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx)
     
-- [<span data-ttu-id="b9b54-159">Справочник по веб-службе автообнаружения POX для Exchange</span><span class="sxs-lookup"><span data-stu-id="b9b54-159">POX Autodiscover web service reference for Exchange</span></span>](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx)
+- [<span data-ttu-id="df1e0-159">Справочник по веб-службе автообнаружения POX для Exchange</span><span class="sxs-lookup"><span data-stu-id="df1e0-159">POX Autodiscover web service reference for Exchange</span></span>](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx)
     
 
