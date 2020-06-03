@@ -10,7 +10,7 @@ ms.openlocfilehash: 476292d4db206f22cd84134ce2b46957e9fe85fc
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456247"
 ---
 # <a name="managing-user-access-by-using-ews-in-exchange"></a>Управление доступом пользователей с помощью EWS в Exchange

@@ -16,7 +16,7 @@ ms.openlocfilehash: f9e6bd1742e6a30d08736ea67c0ff80b7a18e88a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457111"
 ---
 # <a name="createitem-operation-meeting-request"></a>Операция CreateItem (приглашение на собрание)
@@ -29,7 +29,7 @@ ms.locfileid: "44457111"
   
 ## <a name="accept-meeting-request-example"></a>Пример принятия приглашения на собрание
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показано, как принять приглашение на собрание.
   
@@ -73,7 +73,7 @@ ms.locfileid: "44457111"
     
 ## <a name="successful-accept-meeting-response-example"></a>Пример успешного принятия ответа на приглашение на собрание
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос CreateItem.
   
@@ -121,7 +121,7 @@ ms.locfileid: "44457111"
     
 ## <a name="accept-meeting-error-response-example"></a>Пример принятия ответа на сообщение об ошибке собрания
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса CreateItem. Ошибка вызвана попыткой принять приглашение на собрание, которое не удается найти в хранилище Exchange.
   

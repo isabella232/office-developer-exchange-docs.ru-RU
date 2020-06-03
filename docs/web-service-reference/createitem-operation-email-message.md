@@ -16,7 +16,7 @@ ms.openlocfilehash: 384ed8ff653029c2b7db0b36986d85842b0a06cf
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457118"
 ---
 # <a name="createitem-operation-email-message"></a>Операция CreateItem (сообщение электронной почты)
@@ -25,7 +25,7 @@ ms.locfileid: "44457118"
   
 ## <a name="createitem-request-example"></a>Пример запроса CreateItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере запроса CreateItem показано, как создать новое сообщение электронной почты, отправить сообщение и сохранить его копию в папке "Черновики".
   
@@ -68,7 +68,7 @@ ms.locfileid: "44457118"
     
 - [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
 - [ItemClass](itemclass.md)
     
@@ -88,7 +88,7 @@ ms.locfileid: "44457118"
   
 ## <a name="successful-createitem-response"></a>Успешный отклик CreateItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос CreateItem.
   
@@ -135,7 +135,7 @@ ms.locfileid: "44457118"
   
 ## <a name="error-createitem-response"></a>Ошибка CreateItem Response
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса CreateItem.
   

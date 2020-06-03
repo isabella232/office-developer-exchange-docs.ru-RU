@@ -16,7 +16,7 @@ ms.openlocfilehash: e1d78392b94d328cf687655cd93e6c9568f6274f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457125"
 ---
 # <a name="createitem-operation-contact"></a>Операция CreateItem (Contact)
@@ -29,7 +29,7 @@ ms.locfileid: "44457125"
   
 ## <a name="createitem-request-example"></a>Пример запроса CreateItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере допустимого запроса в виде CreateItem SOAP показано, как создать контакт в папке "Контакты" по умолчанию.
   
@@ -120,7 +120,7 @@ ms.locfileid: "44457125"
     
 ## <a name="successful-createitem-request"></a>Успешный запрос CreateItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос CreateItem, который создал контакт. В этом примере ответ содержит идентификатор только что созданного элемента.
   
@@ -180,7 +180,7 @@ ms.locfileid: "44457125"
     
 ## <a name="invalid-createitem-request-example"></a>Недопустимый пример запроса CreateItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан запрос, который содержит допустимый XML, но несовместимые инструкции. Невозможно создать контакт в папке поиска.
   
@@ -208,7 +208,7 @@ ms.locfileid: "44457125"
 
 ## <a name="createitem-contact-error-response"></a>Запрос ошибки CreateItem (Contact)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показан ответ об ошибке для запроса CreateItem (Contact).
   

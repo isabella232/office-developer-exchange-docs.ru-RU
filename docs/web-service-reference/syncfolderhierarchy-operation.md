@@ -16,7 +16,7 @@ ms.openlocfilehash: 1c7ad2413064161ba54e8a7a30bfcd6f23f218bd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456432"
 ---
 # <a name="syncfolderhierarchy-operation"></a>Операция SyncFolderHierarchy
@@ -28,7 +28,7 @@ ms.locfileid: "44456432"
   
 ## <a name="syncfolderhierarchy-request-example"></a>Пример запроса SyncFolderHierarchy
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса SyncFolderHierarchy показано, как синхронизировать иерархию клиентских папок с сервером Exchange. В этом примере показана иерархия папок, которая уже синхронизирована по крайней мере один раз. Элемент [синкстате](syncstate-ex15websvcsotherref.md) не включается в запрос первой попытки синхронизации клиента с сервером Exchange. Первый запрос возвратит все папки в почтовом ящике. Элемент [синкстате](syncstate-ex15websvcsotherref.md) будет возвращен в [синкфолдерхиерарчиреспонсе](syncfolderhierarchyresponse.md). Этот элемент используется для синхронизации состояния последующих запросов SyncFolderHierarchy.
   
@@ -70,7 +70,7 @@ ms.locfileid: "44456432"
   
 ## <a name="successful-syncfolderhierarchy-response"></a>Успешный ответ SyncFolderHierarchy
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос SyncFolderHierarchy. В этом примере выполняется синхронизация новой папки.
   
@@ -159,7 +159,7 @@ ms.locfileid: "44456432"
     
 ## <a name="syncfolderhierarchy-error-response"></a>Ответ об ошибке SyncFolderHierarchy
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса SyncFolderHierarchy. Эта ошибка вызвана недопустимым Синкстате.
   

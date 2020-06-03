@@ -16,7 +16,7 @@ ms.openlocfilehash: 064e1ace2c2f51783431ce42670b2a4fd8146b54
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44451469"
 ---
 # <a name="deleteuserconfiguration-operation"></a>Операция DeleteUserConfiguration
@@ -28,7 +28,7 @@ ms.locfileid: "44451469"
   
 ## <a name="deleteuserconfiguration-request-example"></a>Пример запроса DeleteUserConfiguration
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **DeleteUserConfiguration** показано, как сформировать запрос на удаление объекта конфигурации пользователя в папке "Черновики". 
   
@@ -56,7 +56,7 @@ ms.locfileid: "44451469"
 
 ## <a name="deleteuserconfiguration-response-example"></a>Пример отклика DeleteUserConfiguration
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **DeleteUserConfiguration** . 
   

@@ -10,7 +10,7 @@ ms.openlocfilehash: a184d8da4d6949f01f47afc6a9fb7ed30729fd3b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456383"
 ---
 # <a name="work-with-folders-by-using-ews-in-exchange"></a>Работа с папками с помощью EWS в Exchange

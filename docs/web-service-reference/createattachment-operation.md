@@ -16,7 +16,7 @@ ms.openlocfilehash: 8028c56aa306774b54b39e5ee1ac0382b9113fa0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456572"
 ---
 # <a name="createattachment-operation"></a>Операция CreateAttachment
@@ -25,7 +25,7 @@ ms.locfileid: "44456572"
   
 ## <a name="file-createattachment-request-example"></a>Пример запроса файла CreateAttachment
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса CreateAttachment показано, как создать вложенный файл.
   
@@ -52,7 +52,7 @@ ms.locfileid: "44456572"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Комментарий
 
 Необходимо указать имя вложения.
   
@@ -77,7 +77,7 @@ ms.locfileid: "44456572"
     
 ## <a name="successful-file-createattachment-response-example"></a>Пример успешного ответа файла CreateAttachment
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос CreateAttachment.
   
@@ -111,7 +111,7 @@ ms.locfileid: "44456572"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Комментарий
 
 Ответ содержит идентификатор вложенного файла. Он также содержит идентификатор и ключ изменения корневого элемента. Для сохранения удобочитаемости идентификаторы и ключ изменения были сокращены.
   
@@ -137,7 +137,7 @@ ms.locfileid: "44456572"
     
 ## <a name="item-createattachment-request-example"></a>Пример запроса CreateAttachment для элемента
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса CreateAttachment показано, как создать вложение элемента.
   
@@ -166,7 +166,7 @@ ms.locfileid: "44456572"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Комментарий
 
 Необходимо указать имя вложения.
   
@@ -186,13 +186,13 @@ ms.locfileid: "44456572"
     
 - [Имя (AttachmentType)](name-attachmenttype.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
 - [Тема](subject.md)
     
 ## <a name="successful-item-createattachment-response-example"></a>Пример успешного ответа элемента CreateAttachment
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос CreateAttachment.
   
@@ -226,7 +226,7 @@ ms.locfileid: "44456572"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Комментарий
 
 Ответ содержит идентификатор нового вложения. Он также содержит идентификатор и ключ изменения корневого элемента. Корневым элементом является элемент, содержащий вложение. Для сохранения удобочитаемости идентификаторы и ключ изменения были сокращены.
   
@@ -252,7 +252,7 @@ ms.locfileid: "44456572"
     
 ## <a name="createattachment-error-response-example"></a>Пример ответа на сообщение об ошибке CreateAttachment
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса CreateAttachment. Ошибка вызвана тем, что имя вложения не было указано.
   

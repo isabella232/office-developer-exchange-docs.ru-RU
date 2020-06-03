@@ -16,7 +16,7 @@ ms.openlocfilehash: dd7136ae82353841db09497d23eabe450c1c8b13
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456767"
 ---
 # <a name="refreshsharingfolder-operation"></a>Операция RefreshSharingFolder
@@ -34,7 +34,7 @@ ms.locfileid: "44456767"
    
 ## <a name="refreshsharingfolder-request-example"></a>Пример запроса RefreshSharingFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показано, как создать запрос на обновление указанной локальной папки с самыми последними данными из общей папки. Элемент [шарингфолдерид](sharingfolderid.md) указывает идентификатор локальной папки, которую необходимо обновить. 
   
@@ -70,7 +70,7 @@ ms.locfileid: "44456767"
     
 ## <a name="successful-refreshsharingfolder-response"></a>Успешный ответ RefreshSharingFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **RefreshSharingFolder** . 
   
@@ -112,7 +112,7 @@ ms.locfileid: "44456767"
     
 ## <a name="refreshsharingfolder-error-response"></a>Ответ об ошибке RefreshSharingFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса **RefreshSharingFolder** . В этом примере не удалось выполнить запрос **RefreshSharingFolder** , так как подписка, соответствующая указанной локальной папке, не найдена. 
   

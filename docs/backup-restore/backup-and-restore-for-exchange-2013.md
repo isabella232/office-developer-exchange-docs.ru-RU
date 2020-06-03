@@ -12,7 +12,7 @@ ms.openlocfilehash: 1c5d99be60501fd1c4414ea22294bd05645bb0a7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455242"
 ---
 # <a name="backup-and-restore-for-exchange"></a>Резервное копирование и восстановление для Exchange
@@ -44,7 +44,7 @@ Exchange 2013 содержит подключаемый модуль для си
 |Scriptable  <br/> |Да, но не рекомендуется.  <br/> |
 |Доступные инструменты для тестирования и отладки  <br/> |Для отладки приложений, использующих VSS Windows, Специальные средства не требуются.  <br/> |
    
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Основные понятия резервного копирования и восстановления для Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
     

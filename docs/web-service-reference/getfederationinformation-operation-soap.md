@@ -13,7 +13,7 @@ ms.openlocfilehash: 533b2f6d282e3287f4945df56b169f5bc93ff445
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455627"
 ---
 # <a name="getfederationinformation-operation-soap"></a>Операция Жетфедератионинформатион (SOAP)
@@ -24,7 +24,7 @@ ms.locfileid: "44455627"
   
 ## <a name="getfederationinformation-request-example"></a>Пример запроса Жетфедератионинформатион
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **жетфедератионинформатион** показан запрос сведений о Федерации пользователя. Клиент отправляет этот запрос на сервер. 
   
@@ -72,7 +72,7 @@ ms.locfileid: "44455627"
     
 ## <a name="getfederationinformation-response-example"></a>Пример отклика Жетфедератионинформатион
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **жетфедератионинформатион** , отправляемый сервером клиенту. 
   

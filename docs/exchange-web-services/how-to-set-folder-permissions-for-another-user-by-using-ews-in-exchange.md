@@ -10,7 +10,7 @@ ms.openlocfilehash: e25f1a49a430e8c95829d404fa53451b76cab167
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455872"
 ---
 # <a name="set-folder-permissions-for-another-user-by-using-ews-in-exchange"></a>Задание разрешений для папки другого пользователя с помощью EWS в Exchange

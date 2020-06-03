@@ -16,7 +16,7 @@ ms.openlocfilehash: ce15dcb15cccdce253494beefd2f4a2a7a0c0ad8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44450951"
 ---
 # <a name="managedfolderinformation"></a>манажедфолдеринформатион
@@ -67,9 +67,9 @@ ms.locfileid: "44450951"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |Представляет папку в хранилище Exchange. Управляемые папки могут быть только вложенными папками с именем " **управляемые папки**".  <br/> |
-|[календарфолдер](calendarfolder.md) <br/> |Неприменимо.  <br/> |
-|[контактсфолдер](contactsfolder.md) <br/> |Неприменимо.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Неприменимо.  <br/> |
+|[календарфолдер](calendarfolder.md) <br/> |Не применимо.  <br/> |
+|[контактсфолдер](contactsfolder.md) <br/> |Не применимо.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Не применимо.  <br/> |
 |[тасксфолдер](tasksfolder.md) <br/> |Неприменимо.  <br/> |
    
 ## <a name="remarks"></a>Заметки

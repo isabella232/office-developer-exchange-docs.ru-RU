@@ -16,7 +16,7 @@ ms.openlocfilehash: 8edaf057538e2c1136465f0ff7937c14477b2c47
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44454052"
 ---
 # <a name="expanddl-operation"></a>Операция ExpandDL
@@ -58,7 +58,7 @@ ms.locfileid: "44454052"
   
 ## <a name="expanddl-private-distribution-list-request-example"></a>Пример запроса частного списка рассылки ExpandDL
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса ExpandDL показано, как сформировать запрос на развертывание частного списка рассылки.
   
@@ -86,7 +86,7 @@ ms.locfileid: "44454052"
   
 ## <a name="expanddl-public-distribution-list-request-example"></a>Пример общего списка рассылки ExpandDL
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса ExpandDL показано, как создать запрос для развертывания общедоступного списка рассылки. В этом примере показано использование отображаемого имени для развертывания списка рассылки.
   
@@ -126,7 +126,7 @@ ms.locfileid: "44454052"
   
 ## <a name="successful-expanddl-response-example"></a>Пример успешного ответа ExpandDL
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа ExpandDL показан ответ на запрос, описанный выше. Раскрытие списка рассылки содержит следующие сведения: 
   
@@ -221,7 +221,7 @@ ms.locfileid: "44454052"
   
 ## <a name="expanddl-error-response"></a>Ответ об ошибке ExpandDL
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса ExpandDL.
   

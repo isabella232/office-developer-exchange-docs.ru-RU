@@ -16,7 +16,7 @@ ms.openlocfilehash: 779c730b55b9b441644108a6837f9e22d39cc2f4
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44444595"
 ---
 # <a name="createmanagedfolder-operation"></a>Операция CreateManagedFolder
@@ -40,7 +40,7 @@ ms.locfileid: "44444595"
   
 ## <a name="createmanagedfolder-request-example"></a>Пример запроса CreateManagedFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса CreateManagedFolder показано, как добавить управляемую папку с именем Test Managed Folder в почтовый ящик.
   
@@ -79,7 +79,7 @@ ms.locfileid: "44444595"
   
 ## <a name="successful-createmanagedfolder-response"></a>Успешный ответ CreateManagedFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере кода показан успешный ответ на запрос CreateManagedFolder.
   
@@ -138,7 +138,7 @@ ms.locfileid: "44444595"
   
 ## <a name="createmanagedfolder-error-response"></a>Ответ об ошибке CreateManagedFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере кода показан ответ об ошибке для запроса CreateManagedFolder.
   

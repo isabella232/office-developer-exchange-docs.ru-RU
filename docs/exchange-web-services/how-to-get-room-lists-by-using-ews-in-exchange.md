@@ -10,7 +10,7 @@ ms.openlocfilehash: 7c571b0550f861552cdbe8c5b30138101c9fc788
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455795"
 ---
 # <a name="get-room-lists-by-using-ews-in-exchange"></a>Получение списков помещений с помощью EWS в Exchange

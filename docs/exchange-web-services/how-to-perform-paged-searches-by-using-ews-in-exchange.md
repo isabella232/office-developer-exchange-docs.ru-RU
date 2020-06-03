@@ -10,7 +10,7 @@ ms.openlocfilehash: 2b608584918c936f62883b8b444d59c05c5952ff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456847"
 ---
 # <a name="perform-paged-searches-by-using-ews-in-exchange"></a>Выполнение постраничного поиска с помощью EWS в Exchange
