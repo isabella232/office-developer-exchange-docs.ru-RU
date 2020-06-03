@@ -3,15 +3,15 @@ title: Выполнение постраничного поиска с помо�
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 64ed70e4-32eb-4c25-bfc4-43d1477296e5
 description: Узнайте, как выполнять постраничный Поиск в управляемом API EWS или приложении EWS, предназначенном для Exchange.
-ms.openlocfilehash: 3f82f46d0582b0b7ff8be63de8a7054b5f3cacab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 2b608584918c936f62883b8b444d59c05c5952ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761096"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456847"
 ---
 # <a name="perform-paged-searches-by-using-ews-in-exchange"></a>Выполнение постраничного поиска с помощью EWS в Exchange
 
@@ -26,12 +26,12 @@ ms.locfileid: "19761096"
 
 |**Чтобы настроить или получить...**|**В управляемом API EWS используйте...**|**В EWS используйте...**|
 |:-----|:-----|:-----|
-|Максимальное число элементов или папок в отклике  <br/> |Параметр **pageSize** для [конструктора Итемвиев](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.itemview%28v=exchg.80%29.aspx) или [конструктора FolderView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview.folderview%28v=exchg.80%29.aspx) <br/> ИЛИ  <br/> Свойство [пажедвиев. PageSize](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pagedview.pagesize%28v=exchg.80%29.aspx)  <br/> |Атрибут **максентриесретурнед** элемента [Индекседпажеитемвиев](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) или элемента [индекседпажефолдервиев](http://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx)  <br/> |
-|Начальная точка в списке элементов или папок  <br/> |Параметр **оффсетбасепоинт** для конструктора **Итемвиев** или конструктора **FolderView**  <br/> ИЛИ  <br/> Свойство [пажедвиев. оффсетбасепоинт](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pagedview.offsetbasepoint%28v=exchg.80%29.aspx)  <br/> |Атрибут **басепоинт** элемента **Индекседпажеитемвиев** или элемента **индекседпажефолдервиев**  <br/> |
-|Смещение от начальной точки  <br/> |Параметр **offset** для конструктора **Итемвиев** или конструктора **FolderView**  <br/> ИЛИ  <br/> Свойство [пажедвиев. offset](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.pagedview.offset%28v=exchg.80%29.aspx)  <br/> |Атрибут **offset** элемента **Индекседпажеитемвиев** или элемента **индекседпажефолдервиев**  <br/> |
-|Общее количество результатов на сервере  <br/> |Свойство [финдитемсресултс. тоталкаунт](http://msdn.microsoft.com/en-us/library/dd635348%28v=exchg.80%29.aspx) или [финдфолдерсресултс. тоталкаунт](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults.totalcount%28v=exchg.80%29.aspx)  <br/> |Атрибут **тоталитемсинвиев** элемента [рутфолдер (финдитемреспонсемессаже)](http://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx) или элемента [рутфолдер (финдфолдерреспонсемессаже)](http://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx)  <br/> |
-|Смещение первого элемента или папки, не включенных в текущий ответ  <br/> |Свойство [финдитемсресултс. некстпажеоффсет](http://msdn.microsoft.com/en-us/library/ee693014%28v=exchg.80%29.aspx) или [финдфолдерсресултс. некстпажеоффсет](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults.nextpageoffset%28v=exchg.80%29.aspx)  <br/> |Атрибут **индекседпагингоффсет** элемента **рутфолдер**  <br/> |
-|Признак включения в ответ последнего элемента или папки в списке  <br/> |Свойство [финдитемсресултс. мореаваилабле](http://msdn.microsoft.com/en-us/library/dd635477%28v=exchg.80%29.aspx) или [финдфолдерсресултс. мореаваилабле](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults.moreavailable%28v=exchg.80%29.aspx)  <br/> |Атрибут **инклудесластитеминранже** элемента **рутфолдер**  <br/> |
+|Максимальное число элементов или папок в отклике  <br/> |Параметр **pageSize** для [конструктора Итемвиев](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview.itemview%28v=exchg.80%29.aspx) или [конструктора FolderView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderview.folderview%28v=exchg.80%29.aspx) <br/> ИЛИ  <br/> Свойство [пажедвиев. PageSize](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pagedview.pagesize%28v=exchg.80%29.aspx)  <br/> |Атрибут **максентриесретурнед** элемента [Индекседпажеитемвиев](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) или элемента [индекседпажефолдервиев](https://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx)  <br/> |
+|Начальная точка в списке элементов или папок  <br/> |Параметр **оффсетбасепоинт** для конструктора **Итемвиев** или конструктора **FolderView**  <br/> ИЛИ  <br/> Свойство [пажедвиев. оффсетбасепоинт](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pagedview.offsetbasepoint%28v=exchg.80%29.aspx)  <br/> |Атрибут **басепоинт** элемента **Индекседпажеитемвиев** или элемента **индекседпажефолдервиев**  <br/> |
+|Смещение от начальной точки  <br/> |Параметр **offset** для конструктора **Итемвиев** или конструктора **FolderView**  <br/> ИЛИ  <br/> Свойство [пажедвиев. offset](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.pagedview.offset%28v=exchg.80%29.aspx)  <br/> |Атрибут **offset** элемента **Индекседпажеитемвиев** или элемента **индекседпажефолдервиев**  <br/> |
+|Общее количество результатов на сервере  <br/> |Свойство [финдитемсресултс. тоталкаунт](https://msdn.microsoft.com/library/dd635348%28v=exchg.80%29.aspx) или [финдфолдерсресултс. тоталкаунт](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults.totalcount%28v=exchg.80%29.aspx)  <br/> |Атрибут **тоталитемсинвиев** элемента [рутфолдер (финдитемреспонсемессаже)](https://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx) или элемента [рутфолдер (финдфолдерреспонсемессаже)](https://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx)  <br/> |
+|Смещение первого элемента или папки, не включенных в текущий ответ  <br/> |Свойство [финдитемсресултс. некстпажеоффсет](https://msdn.microsoft.com/library/ee693014%28v=exchg.80%29.aspx) или [финдфолдерсресултс. некстпажеоффсет](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults.nextpageoffset%28v=exchg.80%29.aspx)  <br/> |Атрибут **индекседпагингоффсет** элемента **рутфолдер**  <br/> |
+|Признак включения в ответ последнего элемента или папки в списке  <br/> |Свойство [финдитемсресултс. мореаваилабле](https://msdn.microsoft.com/library/dd635477%28v=exchg.80%29.aspx) или [финдфолдерсресултс. мореаваилабле](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults.moreavailable%28v=exchg.80%29.aspx)  <br/> |Атрибут **инклудесластитеминранже** элемента **рутфолдер**  <br/> |
    
 ## <a name="how-paging-works"></a>Как работает разбиение по страницам
 <a name="bk_HowPagingWorks"> </a>
@@ -104,19 +104,19 @@ ms.locfileid: "19761096"
 
 Разбиение по страницам поддерживается следующими методами управляемого API EWS:
   
-- [ExchangeService. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
+- [ExchangeService. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
     
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [Folder. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
+- [Folder. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
     
-- [Folder. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
+- [Folder. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
-Если вы используете управляемый API EWS, ваше приложение настраивает разбиение по страницам с помощью класса [итемвиев](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx) или [FolderView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx) и получает от сервера сведения, связанные с разбиением по страницам в классе [финдитемсресултс](http://msdn.microsoft.com/en-us/library/dd635381%28v=exchg.80%29.aspx) или [финдфолдерсресултс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.findfoldersresults%28v=exchg.80%29.aspx) . 
+Если вы используете управляемый API EWS, ваше приложение настраивает разбиение по страницам с помощью класса [итемвиев](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx) или [FolderView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderview%28v=exchg.80%29.aspx) и получает от сервера сведения, связанные с разбиением по страницам в классе [финдитемсресултс](https://msdn.microsoft.com/library/dd635381%28v=exchg.80%29.aspx) или [финдфолдерсресултс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.findfoldersresults%28v=exchg.80%29.aspx) . 
   
 В приведенном ниже примере показано получение всех элементов в папке с помощью постраничного поиска, который возвращает пять элементов в каждом ответе. Он также получает дополнительный элемент, который будет служить привязкой для обнаружения изменений результатов на сервере. 
   
-В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). 
+В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -178,20 +178,20 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
 
 Разбиение по страницам поддерживается следующими операциями EWS:
   
-- [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
+- [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
     
-- [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
-Если вы используете EWS, ваше приложение настраивает разбиение по страницам с помощью элемента [индекседпажеитемвиев](http://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) или элемента [индекседпажефолдервиев](http://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx) и получает сведения от сервера, связанные с разбиением по страницам в элементе [Рутфолдер (Финдитемреспонсемессаже)](http://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx) или [рутфолдер (FindFolderResponseMessage)](http://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx) . 
+Если вы используете EWS, ваше приложение настраивает разбиение по страницам с помощью элемента [индекседпажеитемвиев](https://msdn.microsoft.com/library/6d1b0b04-cc35-4a57-bd7a-824136d14fda%28Office.15%29.aspx) или элемента [индекседпажефолдервиев](https://msdn.microsoft.com/library/c6dac232-244b-4db0-9a15-5e01b8aa7a7d%28Office.15%29.aspx) и получает сведения от сервера, связанные с разбиением по страницам в элементе [Рутфолдер (Финдитемреспонсемессаже)](https://msdn.microsoft.com/library/187e009f-efaa-42a8-8962-329a645213ab%28Office.15%29.aspx) или [рутфолдер (FindFolderResponseMessage)](https://msdn.microsoft.com/library/5089c815-663f-46be-bc59-aed9ee20f94a%28Office.15%29.aspx) . 
   
 В этом примере запроса **FindItem** отправляется не более шести элементов, начиная со смещением от нуля до начала списка элементов в папке "Входящие" пользователя. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -219,17 +219,17 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="35" Version="V2_4" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -273,9 +273,9 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -303,17 +303,17 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="35" Version="V2_4" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -345,17 +345,17 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
 
 - [Поиск и веб-службах Exchange](search-and-ews-in-exchange.md)
     
-- [Метод ExchangeService. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
+- [Метод ExchangeService. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
     
-- [Метод ExchangeService. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [Метод ExchangeService. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [Метод Folder. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
+- [Метод Folder. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
     
-- [Метод Folder. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
+- [Метод Folder. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
-- [Операция FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
+- [Операция FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
     
-- [Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [Операция FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 - [EWS регулирование в Exchange](ews-throttling-in-exchange.md)
     

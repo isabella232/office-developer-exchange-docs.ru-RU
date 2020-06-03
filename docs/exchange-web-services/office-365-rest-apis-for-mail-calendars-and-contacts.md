@@ -3,21 +3,21 @@ title: API Microsoft Graph Outlook для почты, календарей и к
 manager: sethgros
 ms.date: 07/27/2018
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 3b2e71a6-5fa5-4008-b243-d3a6e9173b3d
 description: Сведения о API Microsoft Graph, которые можно использовать для доступа к электронной почте, календарям и контактам в Office 365 или Exchange Online.
-ms.openlocfilehash: 3065de389157345afd5ed07e302ace99e2048bdf
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: 7ca77596afb59ffab76001abd495de7328d2dd29
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353296"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463869"
 ---
 # <a name="microsoft-graph-rest-apis-for-mail-calendars-and-contacts"></a>Приложения Microsoft Graph REST API для почты, календаря и контактов
 
-Найдите сведения о API Microsoft Graph, которые можно использовать для доступа к электронной почте, календарям и контактам в Office 365 или Exchange Online.
+Найдите сведения о API Microsoft Graph, которые можно использовать для доступа к электронной почте, календарям и контактам в Office 365, Exchange Online или Exchange Server в гибридных развертываниях.
 
-Office 365 и Exchange Online предоставляют новый способ работы с электронной почтой, календарями и контактами. REST API Microsoft Graph, календарь и контакт REST предоставляют мощный и простой в использовании способ доступа к данным Exchange и управления ими. Эти API основаны на открытых стандартах: OAuth версии 2,0 для проверки подлинности и OData версии 4,0 и JSON для абстракции данных. Это обеспечивает следующие преимущества:
+Office 365, Exchange Online и Exchange Server в гибридных развертываниях предоставляют новый способ работы с электронной почтой, календарями и контактами. REST API Microsoft Graph, календарь и контакт REST предоставляют мощный и простой в использовании способ доступа к данным Exchange и управления ими. Эти API основаны на открытых стандартах: OAuth версии 2,0 для проверки подлинности и OData версии 4,0 и JSON для абстракции данных. Это обеспечивает следующие преимущества:
 
 - Так как эти API требуют OAuth для проверки подлинности, приложению не требуется обрабатывать или хранить учетные данные пользователя.
 
@@ -44,4 +44,5 @@ Office 365 и Exchange Online предоставляют новый способ
 ## <a name="see-also"></a>См. также
 
 - [Документация по Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/overview)   
+- [Локальные требования для REST API](https://blogs.technet.microsoft.com/exchange/2016/09/26/on-premises-architectural-requirements-for-the-rest-api)   
 

@@ -5,15 +5,15 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 8b790dc8-5c4f-4acf-bbe7-63523395fbe7
 description: Использование командлетов командной консоли Exchange для создания инструмента, который возвращает список пользователей почтового ящика Exchange
-ms.openlocfilehash: e9493571e98760e5a11674db9a552111c1ec29b2
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: 817d92ef1bb88017f471681b448c052ecaa54e7e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354003"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44435711"
 ---
 # <a name="get-a-list-of-mail-users-by-using-the-exchange-management-shell"></a>Получение списка пользователей почты с помощью командной консоли Exchange
 
@@ -65,13 +65,13 @@ ms.locfileid: "21354003"
   
 Для этого метода требуются следующие параметры:
   
--  **ливеидконнектионури** &ndash; строка, содержащая URI сервера Exchange Online, который будет выполнять проверку подлинности приложения. Если Exchange Online работает в Office 365, URI имеет `https://outlook.office365.com/PowerShell-LiveID`значение; в противном случае URI `https://<servername>/PowerShell-LiveID`—. 
+-  **ливеидконнектионури** &ndash; Строка, содержащая универсальный код ресурса (URI) сервера Exchange Online, который будет выполнять проверку подлинности для приложения. Если Exchange Online работает в Office 365, URI имеет значение `https://outlook.office365.com/PowerShell-LiveID` ; в противном случае — URI `https://<servername>/PowerShell-LiveID` . 
     
--  **счемаури** &ndash; строка, содержащая URI документа схемы, который определяет схему командной консоли Exchange. URI схемы `http://schemas.microsoft.com/powershell/Microsoft.Exchange`. 
+-  **счемаури** &ndash; Строка, содержащая URI документа схемы, который определяет схему командной консоли Exchange. URI схемы `https://schemas.microsoft.com/powershell/Microsoft.Exchange` . 
     
--  **Credentials** &ndash; объект [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) , содержащий учетные данные пользователя, запустившего приложение. 
+-  **учетные данные** &ndash; Объект [PSCredential](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) , содержащий учетные данные пользователя, запустившего приложение. 
     
--  **подсчитайте** &ndash; количество возвращаемых пользователей почтовых ящиков Exchange. 
+-  **Count (количество** &ndash; ) Число возвращаемых пользователей почтовых ящиков Exchange. 
     
 ```cs
 public Collection<PSObject> GetUsersUsingBasicAuth(
@@ -111,9 +111,9 @@ public Collection<PSObject> GetUsersUsingBasicAuth(
   
 Для этого метода требуются следующие параметры:
   
--  **Thumbprint** &ndash; строка, содержащая отпечаток сертификата, используемого для проверки подлинности приложения. 
+-  **Thumbprint (отпечаток** &ndash; ) Строка, содержащая отпечаток сертификата, используемого для проверки подлинности приложения. 
     
--  **цертконнектионури** &ndash; строка, содержащая URI сервера, который будет выполнять проверку подлинности сертификата. Необходимо использовать один из универсальных кодов, приведенных в таблице ниже. 
+-  **цертконнектионури** &ndash; Строка, содержащая универсальный код ресурса (URI) сервера, который будет выполнять проверку подлинности сертификата. Необходимо использовать один из универсальных кодов, приведенных в таблице ниже. 
     
     **Таблица 1. URI Цертконнектионури**
 
@@ -123,9 +123,9 @@ public Collection<PSObject> GetUsersUsingBasicAuth(
     |Сервер Exchange, использующий протокол SSL  <br/> |`https://<servername>/PowerShell`  <br/> |
     |Exchange Online в составе Office 365  <br/> |`https://outlook.office365.com/PowerShell`  <br/> |
    
-- **счемаури** &ndash; строка, содержащая URI документа схемы, который определяет схему командной консоли Exchange. URI схемы http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+- **счемаури** &ndash; Строка, содержащая URI документа схемы, который определяет схему командной консоли Exchange. URI схемы https://schemas.microsoft.com/powershell/Microsoft.Exchange . 
     
-- **подсчитайте** &ndash; количество возвращаемых пользователей почтовых ящиков Exchange. 
+- **Count (количество** &ndash; ) Число возвращаемых пользователей почтовых ящиков Exchange. 
     
 ```cs
 public Collection<PSObject> GetUsersUsingCertificate(
@@ -164,7 +164,7 @@ public Collection<PSObject> GetUsersUsingCertificate(
   
 Для этого метода требуются следующие параметры:
   
-- **керберосури** &ndash; строка, содержащая URI сервера Kerberos, который будет выполнять проверку подлинности для приложения. Необходимо использовать один из универсальных кодов, приведенных в таблице ниже. 
+- **керберосури** &ndash; Строка, содержащая URI сервера Kerberos, который будет выполнять проверку подлинности для приложения. Необходимо использовать один из универсальных кодов, приведенных в таблице ниже. 
     
     **Таблица 2. URI Керберосури**
 
@@ -173,11 +173,11 @@ public Collection<PSObject> GetUsersUsingCertificate(
     |Сервер Exchange, не использующий протокол SSL  <br/> |`http://<servername>/PowerShell`  <br/> |
     |Сервер Exchange, использующий протокол SSL  <br/> |`https://<servername>/PowerShell`  <br/> |
    
-- **счемаури** &ndash; строка, содержащая URI документа схемы, который определяет схему командной консоли Exchange. URI схемы http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+- **счемаури** &ndash; Строка, содержащая URI документа схемы, который определяет схему командной консоли Exchange. URI схемы https://schemas.microsoft.com/powershell/Microsoft.Exchange . 
     
-- **Credentials** &ndash; объект [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) , содержащий учетные данные пользователя, запустившего приложение. 
+- **учетные данные** &ndash; Объект [PSCredential](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) , содержащий учетные данные пользователя, запустившего приложение. 
     
-- **подсчитайте** &ndash; количество возвращаемых пользователей почтовых ящиков Exchange. 
+- **Count (количество** &ndash; ) Число возвращаемых пользователей почтовых ящиков Exchange. 
     
 ```cs
 public Collection<PSObject> GetUsersUsingKerberos(
@@ -212,13 +212,13 @@ public Collection<PSObject> GetUsersUsingKerberos(
 
 ## <a name="get-a-list-of-mailbox-users-from-a-remote-runspace"></a>Получение списка пользователей почтового ящика из удаленного пространства
 
-В следующем примере кода определяется метод **жетусеринформатион** , который возвращает коллекцию экземпляров [PSObject](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) , представляющих пользователей почтовых ящиков Exchange. Этот метод вызывается с помощью методов **GetUsersUsingBasicAuth**, **GetUsersUsingCertificate** и **GetUsersUsingKerberos** для возврата списка пользователей на удаленном сервере. 
+В следующем примере кода определяется метод **жетусеринформатион** , который возвращает коллекцию экземпляров [PSObject](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) , представляющих пользователей почтовых ящиков Exchange. Этот метод вызывается с помощью методов **GetUsersUsingBasicAuth**, **GetUsersUsingCertificate** и **GetUsersUsingKerberos** для возврата списка пользователей на удаленном сервере. 
   
 Для этого метода требуются следующие параметры:
   
-- **подсчитайте** &ndash; количество возвращаемых пользователей почтовых ящиков Exchange. 
+- **Count (количество** &ndash; ) Число возвращаемых пользователей почтовых ящиков Exchange. 
     
-- **пространство выполнения** &ndash; — удаленное пространство выполнения, установленное для удаленного сервера Exchange. 
+- **пространство выполнения** &ndash; Удаленное пространство выполнения, установленное для удаленного сервера Exchange. 
     
 ```cs
 public Collection<PSObject> GetUserInformation(int count, Runspace runspace)

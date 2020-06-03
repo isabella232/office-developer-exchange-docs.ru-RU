@@ -3,32 +3,32 @@ title: Настройка URL-адреса службы EWS с помощью у
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: cddf6525-1c04-484b-a911-56c2f0f1f7b6
 description: Найдите сведения о том, как настроить URL-адрес службы EWS в приложении управляемого API EWS.
-ms.openlocfilehash: e1a414f7c6f13bd61a58403c9d2be546c0226a69
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 5ba79b48d4eb4fec62110448c5924de16b67ce10
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761109"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456749"
 ---
 # <a name="set-the-ews-service-url-by-using-the-ews-managed-api"></a>Настройка URL-адреса службы EWS с помощью управляемого API EWS
 
 Найдите сведения о том, как настроить URL-адрес службы EWS в приложении управляемого API EWS.
   
-URL-адрес службы — это адрес, который Exchange использует для обмена данными с веб-службами Exchange (EWS). После того, как приложение управляемого API EWS использует этот адрес и имеет соответствующий доступ для [связи с EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md), он может совершать вызовы в [класс ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx). URL-адрес службы для локального сервера Exchange может выглядеть следующим образом. 
+URL-адрес службы — это адрес, который Exchange использует для обмена данными с веб-службами Exchange (EWS). После того, как приложение управляемого API EWS использует этот адрес и имеет соответствующий доступ для [связи с EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md), он может совершать вызовы в [класс ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx). URL-адрес службы для локального сервера Exchange может выглядеть следующим образом. 
   
 ```HTML
 https://computer.domain.contoso.com/EWS/Exchange.asmx
 ```
 
-URL-адрес EWS в приложении можно задать несколькими способами. Рекомендуется использовать [службу автообнаружения](http://msdn.microsoft.com/library/39726b67-2eb2-451b-9307-cfd0b518b55c%28Office.15%29.aspx) для получения URL-адреса, так как в большом лесу серверов URL-адрес может измениться при переносе почтового ящика на другой сервер. Однако так как вызов автообнаружения может занять некоторое время и может замедлить работу приложения, если необходимо выполнить несколько вызовов в течение короткого периода времени, можно кэшировать значение URL-адреса, полученное с помощью автообнаружения, и вручную задать URL-адрес службы EWS с этим кэшированным значением. Это повысит производительность приложения; просто убедитесь, что вы используете функцию автообнаружения для периодического обновления кэшированного значения, если на сервере изменяется значение. 
+URL-адрес EWS в приложении можно задать несколькими способами. Рекомендуется использовать [службу автообнаружения](https://msdn.microsoft.com/library/39726b67-2eb2-451b-9307-cfd0b518b55c%28Office.15%29.aspx) для получения URL-адреса, так как в большом лесу серверов URL-адрес может измениться при переносе почтового ящика на другой сервер. Однако так как вызов автообнаружения может занять некоторое время и может замедлить работу приложения, если необходимо выполнить несколько вызовов в течение короткого периода времени, можно кэшировать значение URL-адреса, полученное с помощью автообнаружения, и вручную задать URL-адрес службы EWS с этим кэшированным значением. Это повысит производительность приложения; просто убедитесь, что вы используете функцию автообнаружения для периодического обновления кэшированного значения, если на сервере изменяется значение. 
   
 ## <a name="set-the-ews-service-url-by-using-the-autodiscover-service"></a>Настройка URL-адреса службы EWS с помощью службы автообнаружения
 <a name="bk_SetURLusingAutoDiscover"> </a>
 
-Метод [AutodiscoverUrl](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) использует адрес электронной почты для установки конечной точки [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и позволяет приложению использовать любые методы, включенные в прокси-классы **ExchangeService** . В приведенном ниже примере показано, как использовать метод **AutodiscoverURL** . 
+Метод [AutodiscoverUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) использует адрес электронной почты для установки конечной точки [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и позволяет приложению использовать любые методы, включенные в прокси-классы **ExchangeService** . В приведенном ниже примере показано, как использовать метод **AutodiscoverURL** . 
   
 ```cs
 // Create the binding.

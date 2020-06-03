@@ -3,15 +3,15 @@ title: Получение списков помещений с помощью EW
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 15980e4a-e41c-4194-829a-cadbdf365bf1
 description: Узнайте, как получить список всех списков помещений в организации или список из одного комнаты на сервере Exchange с помощью управляемого API EWS или EWS.
-ms.openlocfilehash: 404a31fb6c8d98bdbba4c79ed6912c333a44d04b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 7c571b0550f861552cdbe8c5b30138101c9fc788
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761011"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455795"
 ---
 # <a name="get-room-lists-by-using-ews-in-exchange"></a>Получение списков помещений с помощью EWS в Exchange
 
@@ -37,16 +37,16 @@ ms.locfileid: "19761011"
 |Демонстрационная лаборатория HS (100)  <br/> |Hs101@contoso.edu  <br/> |
 |Учет 305 Интернете  <br/> |Acct305@contoso.com  <br/> |
    
-Список, содержащий все списки помещений, можно получить с помощью метода [ExchangeService. GetRoomLists](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getroomlists%28v=exchg.80%29.aspx) EWS или из операции [GetRoomLists](http://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) EWS. 
+Список, содержащий все списки помещений, можно получить с помощью метода [ExchangeService. GetRoomLists](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.getroomlists%28v=exchg.80%29.aspx) EWS или из операции [GetRoomLists](https://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) EWS. 
   
-Вы можете получить список из одного комнаты, который содержит все комнаты для расположения или отдела, указав его адрес электронной почты с помощью метода управления веб-служб "веб-служб Exchange" или " [кабинеты](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) [EWS".](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getrooms%28v=exchg.80%29.aspx) При наличии коллекции комнат, связанных со списком помещений, можно выполнить поиск по коллекции, чтобы определить требуемые комнаты или комнаты, по адресу электронной почты или с помощью поиска ключевых слов в имени, например "AV" или "Lab". 
+Вы можете получить список из одного комнаты, который содержит все комнаты для расположения или отдела, указав его адрес электронной почты с помощью метода управления веб-служб "веб-служб Exchange" или " [кабинеты](https://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) [EWS".](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.getrooms%28v=exchg.80%29.aspx) При наличии коллекции комнат, связанных со списком помещений, можно выполнить поиск по коллекции, чтобы определить требуемые комнаты или комнаты, по адресу электронной почты или с помощью поиска ключевых слов в имени, например "AV" или "Lab". 
   
 ## <a name="get-all-room-lists-by-using-the-ews-managed-api"></a>Получение всех списков помещений с помощью управляемого API EWS
 <a name="bk_GetRoomListewsma"> </a>
 
 В приведенном ниже примере показано, как получить список, содержащий все списки помещений в Организации, с помощью метода [GetRoomLists](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ExchangeService.GetRoomLists.aspx) . 
   
-В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. 
   
 ```cs
 // Return all the room lists in the organization.
@@ -63,12 +63,12 @@ foreach (EmailAddress address in myRoomLists)
 ## <a name="get-all-room-lists-by-using-ews"></a>Получение всех списков помещений с помощью EWS
 <a name="bk_GetRoomListews"> </a>
 
-В приведенном ниже примере показано, как получить коллекцию всех [румлистс](http://msdn.microsoft.com/library/2b190823-b11e-4635-97e4-3aba5865fd05%28Office.15%29.aspx) Организации с помощью операции [GetRoomLists](http://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) . Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [получения всех списков помещений](#bk_GetRoomListewsma).
+В приведенном ниже примере показано, как получить коллекцию всех [румлистс](https://msdn.microsoft.com/library/2b190823-b11e-4635-97e4-3aba5865fd05%28Office.15%29.aspx) Организации с помощью операции [GetRoomLists](https://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) . Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [получения всех списков помещений](#bk_GetRoomListewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -79,20 +79,20 @@ foreach (EmailAddress address in myRoomLists)
 
 ```
 
-Сервер отвечает на запрос [GetRoomLists](http://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) с сообщением [жетрумлистсреспонсе](http://msdn.microsoft.com/library/8c736f68-1026-496a-b12f-c169c078abd0%28Office.15%29.aspx) , которое содержит списки помещений для Организации. 
+Сервер отвечает на запрос [GetRoomLists](https://msdn.microsoft.com/library/55d451f9-547f-44ac-872e-9cb220ea7b7c%28Office.15%29.aspx) с сообщением [жетрумлистсреспонсе](https://msdn.microsoft.com/library/8c736f68-1026-496a-b12f-c169c078abd0%28Office.15%29.aspx) , которое содержит списки помещений для Организации. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="868" MinorBuildNumber="8" Version="V2_9" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetRoomListsResponse ResponseClass="Success" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                            xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetRoomListsResponse ResponseClass="Success" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                            xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:RoomLists>
         <t:Address>
@@ -140,14 +140,14 @@ foreach (EmailAddress address in myRoomAddresses)
 ## <a name="get-all-the-rooms-in-a-room-list-by-using-ews"></a>Получение всех комнат в списке помещений с помощью EWS
 <a name="bk_FindRoomews"> </a>
 
-В приведенном ниже примере показано, как получить список [комнат](http://msdn.microsoft.com/library/57b6079a-3d83-4429-861e-c551e9e1a991%28Office.15%29.aspx) в [RoomList принимают одиночные](http://msdn.microsoft.com/library/cb02bdf0-df9f-4e31-b7dd-cd9f2f2cc2b2%28Office.15%29.aspx) с помощью операции " [высвободить](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) ". Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS, чтобы [получить все комнаты в списке помещений](#bk_FindRoomewsma).
+В приведенном ниже примере показано, как получить список [комнат](https://msdn.microsoft.com/library/57b6079a-3d83-4429-861e-c551e9e1a991%28Office.15%29.aspx) в [RoomList принимают одиночные](https://msdn.microsoft.com/library/cb02bdf0-df9f-4e31-b7dd-cd9f2f2cc2b2%28Office.15%29.aspx) с помощью операции " [высвободить](https://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) ". Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS, чтобы [получить все комнаты в списке помещений](#bk_FindRoomewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -162,20 +162,20 @@ foreach (EmailAddress address in myRoomAddresses)
 
 ```
 
-Сервер отвечает на запрос [жетрумсреспонсе](http://msdn.microsoft.com/library/a8c85f65-bb63-4e7a-b0ca-7c9a04560a58%28Office.15%29.aspx) с сообщением [о помещении,](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) которое содержит комнаты в списке помещений. 
+Сервер отвечает на запрос [жетрумсреспонсе](https://msdn.microsoft.com/library/a8c85f65-bb63-4e7a-b0ca-7c9a04560a58%28Office.15%29.aspx) с сообщением [о помещении,](https://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) которое содержит комнаты в списке помещений. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="873" MinorBuildNumber="9" 
                          Version="V2_9" xmlns:h="http://scemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetRoomsResponse ResponseClass="Success" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    <m:GetRoomsResponse ResponseClass="Success" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
                         xmlns:t="http://scemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:Rooms>
@@ -217,6 +217,6 @@ foreach (EmailAddress address in myRoomAddresses)
     
 - [Получение сведений о доступности с помощью EWS в Exchange](how-to-get-free-busy-information-by-using-ews-in-exchange.md)
     
-- [Создание почтовых ящиков помещения и управление ими](http://technet.microsoft.com/en-us/library/jj215781%28v=exchg.150%29.aspx)
+- [Создание почтовых ящиков помещения и управление ими](https://technet.microsoft.com/library/jj215781%28v=exchg.150%29.aspx)
     
 

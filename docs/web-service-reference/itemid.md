@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - ItemId
 api_type:
 - schema
 ms.assetid: 3350b597-57a0-4961-8f44-8624946719b4
 description: Элемент ItemId содержит уникальный идентификатор и ключ изменения элемента в хранилище Exchange.
-ms.openlocfilehash: 9c5d71a23e1e4b77d2a50016aa4d765d872d04cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: d5931702225c6864b1ca60a6f0753b65f65aca30
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834157"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44441564"
 ---
 # <a name="itemid"></a>Идентификатор
 
@@ -41,7 +41,7 @@ ms.locfileid: "19834157"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19834157"
 |[фирстоккурренце](firstoccurrence.md) <br/> |Представляет первое вхождение повторяющегося элемента календаря.  <br/> |
 |[глобалитемидс](globalitemids.md) <br/> |Содержит коллекцию идентификаторов элементов для всех элементов бесед в почтовом ящике.  <br/> |
 |[Ignore](ignore.md) <br/> |Определяет элементы, которые необходимо пропустить во время синхронизации.  <br/> |
-|[Элемент](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент Exchange.  <br/> |
 |[Элемент (Уплоадитемтипе)](item-uploaditemtype.md) <br/> |Представляет отдельный элемент для отправки в почтовый ящик.  <br/> |
 |[ItemChange](itemchange.md) <br/> |Содержит идентификатор элемента и обновления, применяемые к элементу.  <br/><br/> Ниже приведено выражение XPath для этого элемента: <br/> <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
 |[итемидс](itemids.md) <br/> | Содержит уникальные идентификаторы элементов, элементов вхождений и повторяющихся элементов шаблона, используемых для удаления, отправки, получения, перемещения или копирования элементов в хранилище Exchange. <br/> <br/>  Ниже приведены выражения XPath для этого элемента. <br/> <br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/>  `/MoveItem/ItemIds` <br/>  `/CopyItem//ItemIds` <br/> |
@@ -93,7 +93,7 @@ ms.locfileid: "19834157"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

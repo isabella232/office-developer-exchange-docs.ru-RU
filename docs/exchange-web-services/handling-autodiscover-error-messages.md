@@ -3,15 +3,15 @@ title: Обработка сообщений об ошибках службы а
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: e5939ec2-1100-4174-8a88-5a6e09b60b23
 description: Узнайте о различных типах ошибок автообнаружения и действиях, которые необходимо выполнить.
-ms.openlocfilehash: fcafc799f4d35e92159d2913845474ecf7bc5657
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 0cba7e54cb251a9775e0971826560e277dcd9d2d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760956"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455963"
 ---
 # <a name="handling-autodiscover-error-messages"></a>Обработка сообщений об ошибках службы автообнаружения
 
@@ -39,7 +39,7 @@ ms.locfileid: "19760956"
   
 ### <a name="soap-autodiscover-errors"></a>Ошибки автообнаружения SOAP
 
-Для автообнаружения SOAP ответ может содержать один или несколько элементов [ErrorCode (SOAP)](http://msdn.microsoft.com/library/5e5ec861-0191-4ecb-a906-47ce8ed96381%28Office.15%29.aspx) в разных местах. Как правило, вы можете ожидать один дочерний элемент элемента [Response (SOAP)](http://msdn.microsoft.com/library/4c2bcdeb-95ce-4ffa-bd83-118af53b534f%28Office.15%29.aspx) , а другой в качестве дочернего для каждого элемента [усерреспонсе (SOAP)](http://msdn.microsoft.com/library/5007b1ba-bfcc-40d7-b1cb-e32fbaf54ffd%28Office.15%29.aspx) в ответе. Кроме того, вы также можете столкнуться с одним дочерним элементом элемента [усерсеттинжеррор (SOAP)](http://msdn.microsoft.com/library/abb175c5-4f38-4dcc-81e3-b511686862eb%28Office.15%29.aspx) , если он присутствует. Контекст ошибки зависит от того, где находится элемент **ErrorCode** , как показано ниже. 
+Для автообнаружения SOAP ответ может содержать один или несколько элементов [ErrorCode (SOAP)](https://msdn.microsoft.com/library/5e5ec861-0191-4ecb-a906-47ce8ed96381%28Office.15%29.aspx) в разных местах. Как правило, вы можете ожидать один дочерний элемент элемента [Response (SOAP)](https://msdn.microsoft.com/library/4c2bcdeb-95ce-4ffa-bd83-118af53b534f%28Office.15%29.aspx) , а другой в качестве дочернего для каждого элемента [усерреспонсе (SOAP)](https://msdn.microsoft.com/library/5007b1ba-bfcc-40d7-b1cb-e32fbaf54ffd%28Office.15%29.aspx) в ответе. Кроме того, вы также можете столкнуться с одним дочерним элементом элемента [усерсеттинжеррор (SOAP)](https://msdn.microsoft.com/library/abb175c5-4f38-4dcc-81e3-b511686862eb%28Office.15%29.aspx) , если он присутствует. Контекст ошибки зависит от того, где находится элемент **ErrorCode** , как показано ниже. 
   
 - В качестве дочернего элемента элемента **Response** элемент **ErrorCode** представляет ошибку, которая применяется ко всему запросу. 
     
@@ -51,11 +51,11 @@ ms.locfileid: "19760956"
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" 
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" 
     xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
-    <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
+    <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
       <h:MajorVersion>14</h:MajorVersion>
       <h:MinorVersion>3</h:MinorVersion>
@@ -65,7 +65,7 @@ ms.locfileid: "19760956"
     </h:ServerVersionInfo>
   </s:Header>
   <s:Body>
-    <GetUserSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <GetUserSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -84,35 +84,35 @@ ms.locfileid: "19760956"
 </s:Envelope>
 ```
 
-В статье [ErrorCode (SOAP)](http://msdn.microsoft.com/library/5e5ec861-0191-4ecb-a906-47ce8ed96381%28Office.15%29.aspx) содержится полный список возможных ошибок. Большинство из них указывают на неустранимую ошибку, но не требует особой обработки. 
+В статье [ErrorCode (SOAP)](https://msdn.microsoft.com/library/5e5ec861-0191-4ecb-a906-47ce8ed96381%28Office.15%29.aspx) содержится полный список возможных ошибок. Большинство из них указывают на неустранимую ошибку, но не требует особой обработки. 
   
 **Таблица 2. Значения ErrorCode обнаружение autodisover SOAP**
 
 |**Значение ErrorCode**|**Обработка...**|
 |:-----|:-----|
-|RedirectAddress  <br/> |[Перезапуск службы автообнаружения с новым адресом электронной почты](#bk_RestartAutodiscover) с адресом электронной почты в элементе [редиректтаржет (SOAP)](http://msdn.microsoft.com/library/f8162724-cf9a-4543-a1ad-5846c8b10bfa%28Office.15%29.aspx) .  <br/> |
+|RedirectAddress  <br/> |[Перезапуск службы автообнаружения с новым адресом электронной почты](#bk_RestartAutodiscover) с адресом электронной почты в элементе [редиректтаржет (SOAP)](https://msdn.microsoft.com/library/f8162724-cf9a-4543-a1ad-5846c8b10bfa%28Office.15%29.aspx) .  <br/> |
 |RedirectUrl адресом  <br/> |[Повторно отправит запрос на новый URL](#bk_ResendRequest) -адрес в URL-адрес в элементе **редиректтаржет** .  <br/> |
 |ServerBusy  <br/> |Повторите этот URL-адрес после небольшой задержки. Вы можете подождать заданный URL-адрес или просто переместить его в конец списка URL-адресов, чтобы попробовать. Если вы получаете эту ошибку несколько раз с URL-адреса, необходимо учитывать, что URL-адрес является недопустимым.  <br/> |
    
 ### <a name="pox-autodiscover-errors"></a>Ошибки автообнаружения POX
 
-Служба автообнаружения POX зачитывает ошибки немного по-другому. Ошибки, которые не могут быть восстановлены, хранятся в элементе [Error (POX)](http://msdn.microsoft.com/library/91c63b62-ab68-4c32-a2f7-5a87c188335b%28Office.15%29.aspx) . В статье [ErrorCode (POX)](http://msdn.microsoft.com/library/064d73e4-45b7-4797-828e-9df590830db8%28Office.15%29.aspx) содержится полный список возможных кодов ошибок. 
+Служба автообнаружения POX зачитывает ошибки немного по-другому. Ошибки, которые не могут быть восстановлены, хранятся в элементе [Error (POX)](https://msdn.microsoft.com/library/91c63b62-ab68-4c32-a2f7-5a87c188335b%28Office.15%29.aspx) . В статье [ErrorCode (POX)](https://msdn.microsoft.com/library/064d73e4-45b7-4797-828e-9df590830db8%28Office.15%29.aspx) содержится полный список возможных кодов ошибок. 
   
-Ошибки перенаправления находятся в элементе [Action (POX)](http://msdn.microsoft.com/library/a3462c6b-453c-462a-830d-f29ee4a2babb%28Office.15%29.aspx) . Любое значение элемента **Action** , кроме "Settings", указывает на ошибку перенаправления. 
+Ошибки перенаправления находятся в элементе [Action (POX)](https://msdn.microsoft.com/library/a3462c6b-453c-462a-830d-f29ee4a2babb%28Office.15%29.aspx) . Любое значение элемента **Action** , кроме "Settings", указывает на ошибку перенаправления. 
   
 **Таблица 3. POX обнаружение autodisover значения ErrorCode**
 
 |**Значение действия**|**Обработка...**|
 |:-----|:-----|
-|редиректаддр  <br/> |[Перезапуск службы автообнаружения с новым адресом электронной почты](#bk_RestartAutodiscover) с адресом электронной почты в элементе [редиректаддр (POX)](http://msdn.microsoft.com/library/0e9fa6b6-7991-4dc1-a59a-48e5f8e041e4%28Office.15%29.aspx) .  <br/> |
-|redirectUrl  <br/> |[Повторно отправит запрос на новый URL](#bk_ResendRequest) -адрес в URL-адрес в элементе [redirectUrl адресом (POX)](http://msdn.microsoft.com/library/c54f310f-8c99-4c37-8e73-ac87722b6229%28Office.15%29.aspx) .  <br/> |
+|редиректаддр  <br/> |[Перезапуск службы автообнаружения с новым адресом электронной почты](#bk_RestartAutodiscover) с адресом электронной почты в элементе [редиректаддр (POX)](https://msdn.microsoft.com/library/0e9fa6b6-7991-4dc1-a59a-48e5f8e041e4%28Office.15%29.aspx) .  <br/> |
+|redirectUrl  <br/> |[Повторно отправит запрос на новый URL](#bk_ResendRequest) -адрес в URL-адрес в элементе [redirectUrl адресом (POX)](https://msdn.microsoft.com/library/c54f310f-8c99-4c37-8e73-ac87722b6229%28Office.15%29.aspx) .  <br/> |
    
 В этом примере элемент **Action** имеет значение "редиректаддр", которое указывает, что новый запрос должен отправляться с новым адресом электронной почты, который хранится в элементе **редиректаддр** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
     <Account>
       <Action>redirectAddr</Action>
       <RedirectAddr>elvin@mail.contoso.com</RedirectAddr>
@@ -161,8 +161,8 @@ ms.locfileid: "19760956"
     
 - [Обнаружение конечных точек автообнаружения с помощью поиска SCP в Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
     
-- [ErrorCode (SOAP)](http://msdn.microsoft.com/library/5e5ec861-0191-4ecb-a906-47ce8ed96381%28Office.15%29.aspx)
+- [ErrorCode (SOAP)](https://msdn.microsoft.com/library/5e5ec861-0191-4ecb-a906-47ce8ed96381%28Office.15%29.aspx)
     
-- [ErrorCode (POX)](http://msdn.microsoft.com/library/064d73e4-45b7-4797-828e-9df590830db8%28Office.15%29.aspx)
+- [ErrorCode (POX)](https://msdn.microsoft.com/library/064d73e4-45b7-4797-828e-9df590830db8%28Office.15%29.aspx)
     
 

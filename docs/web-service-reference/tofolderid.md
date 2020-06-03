@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: bd6a4265-ad40-43f6-bcc4-0bf5df4e984c
 description: Элемент Тофолдерид представляет папку назначения для скопированного или перемещенного элемента или папки.
-ms.openlocfilehash: 9d2fd6c177711cfe3a5d3415320440259e2f5289
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: c9cceb17fd55b7357d54b37bf4c8da1137d39b6a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353660"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44468777"
 ---
 # <a name="tofolderid"></a>тофолдерид
 
@@ -43,7 +43,7 @@ ms.locfileid: "21353660"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -69,7 +69,7 @@ ms.locfileid: "21353660"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

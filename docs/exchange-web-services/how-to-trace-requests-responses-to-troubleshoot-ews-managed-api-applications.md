@@ -3,15 +3,15 @@ title: Трассировка запросов и ответов на устра
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 186c1d1d-b8dc-4914-b3cd-6fada7ecd877
 description: Сведения о том, как отслеживать запросы и ответы EWS на устранение ошибок в приложении управляемого API EWS.
-ms.openlocfilehash: 056a1f84c4172b0404975d6fc35f9ecd7395ecdb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: dd225030d62a2e8211b7063ee78a59fd1a070263
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761115"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455858"
 ---
 # <a name="trace-requests-and-responses-to-troubleshoot-ews-managed-api-apps"></a>Трассировка запросов и ответов на устранение неполадок приложений управляемого API EWS
 
@@ -19,14 +19,14 @@ ms.locfileid: "19761115"
   
 Отладка приложения, основанного на веб-службе, может быть затруднительной, так как часть обработки выполняется на удаленном компьютере, к которому у вас нет доступа. Так как вы не можете пошагово пройти код на сервере, может быть полезно просмотреть запросы и ответы XML, которые передаются между клиентом и сервером, чтобы определить, какая часть приложения вызывает ошибку. 
   
-Если вы используете EWS, у вас уже есть доступ к запросу и ответу XML; Вы можете поместить точку останова в код, чтобы проверить ответ сервера на ваш запрос, чтобы устранить проблему. Если вы используете управляемый API EWS, у вас нет прямого доступа к запросу и ответу EWS. Тем не менее, вы можете использовать методы трассировки для объекта [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , чтобы захватывать запрос и ответ XML, а затем использовать XML-код, чтобы определить, почему ваш код не работает. 
+Если вы используете EWS, у вас уже есть доступ к запросу и ответу XML; Вы можете поместить точку останова в код, чтобы проверить ответ сервера на ваш запрос, чтобы устранить проблему. Если вы используете управляемый API EWS, у вас нет прямого доступа к запросу и ответу EWS. Тем не менее, вы можете использовать методы трассировки для объекта [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , чтобы захватывать запрос и ответ XML, а затем использовать XML-код, чтобы определить, почему ваш код не работает. 
 
 Например, если свойство неправильно задано, может возникнуть непредвиденный ответ, и вы можете использовать результаты трассировки для просмотра запроса и ответа XML для идентификации ошибки. Данные трассировки из управляемого API EWS также могут помочь вручную создать XML-запрос для создания приложения EWS. Если вы используете EWS, вы можете создать небольшое приложение с помощью управляемого API EWS, проследить его, а затем использовать XML-запрос, который поможет вам создать запрос EWS. 
   
 ## <a name="enabling-tracing-on-the-exchangeservice-object"></a>Включение трассировки для объекта ExchangeService
 <a name="bk_EnableTracing"> </a>
 
-Чтобы включить трассировку, создайте объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для приложения и задайте свойства трассировки, как показано в следующем примере. 
+Чтобы включить трассировку, создайте объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для приложения и задайте свойства трассировки, как показано в следующем примере. 
   
 ```cs
 ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2010);
@@ -37,12 +37,12 @@ service.TraceEnabled = true;
 
 ```
 
-После установки для свойства [трацеенаблед](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) значения **true**все запросы, которые совпадают с флагами трассировки, будут отправлены указанному прослушивателю трассировки. Можно указать один флаг трассировки или указать несколько флагов трассировки, объединив их с логическим **или**. [Перечисление трацефлагс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.traceflags%28v=exchg.80%29.aspx) можно использовать для указания значений для EWS и запросов автообнаружения и ответов. 
+После установки для свойства [трацеенаблед](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) значения **true**все запросы, которые совпадают с флагами трассировки, будут отправлены указанному прослушивателю трассировки. Можно указать один флаг трассировки или указать несколько флагов трассировки, объединив их с логическим **или**. [Перечисление трацефлагс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.traceflags%28v=exchg.80%29.aspx) можно использовать для указания значений для EWS и запросов автообнаружения и ответов. 
   
 ## <a name="implementing-a-tracelistener-object"></a>Реализация объекта TraceListener
 <a name="bk_traceListener"> </a>
 
-Для свойства [трацеенаблед](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) можно задать **значение true** , чтобы выводить запросы и ответы XML для приложения, такие как окно консоли. Если требуется управлять выходными данными трассировки и сохранять их в файл, рекомендуется реализовать объект [класса TraceListener](http://msdn.microsoft.com/en-us/library/system.diagnostics.tracelistener.aspx) . В следующем примере кода показан простой объект, который реализует интерфейс [итрацелистенер](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itracelistener%28v=exchg.80%29.aspx) и сохраняет отслеживаемые запросы и ответы в XML-или текстовых файлах. 
+Для свойства [трацеенаблед](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) можно задать **значение true** , чтобы выводить запросы и ответы XML для приложения, такие как окно консоли. Если требуется управлять выходными данными трассировки и сохранять их в файл, рекомендуется реализовать объект [класса TraceListener](https://msdn.microsoft.com/library/system.diagnostics.tracelistener.aspx) . В следующем примере кода показан простой объект, который реализует интерфейс [итрацелистенер](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itracelistener%28v=exchg.80%29.aspx) и сохраняет отслеживаемые запросы и ответы в XML-или текстовых файлах. 
   
 ```cs
 class TraceListener : ITraceListener

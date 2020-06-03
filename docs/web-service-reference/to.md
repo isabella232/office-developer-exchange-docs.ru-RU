@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d14e46da-14bd-4a33-a78e-8ee314d9c1d8
 description: Элемент to указывает целевой объект перехода часового пояса. Целевой объект — это период времени часового пояса или группа переходов часового пояса.
-ms.openlocfilehash: dc7df8ed3ddd6a9b4222ffab4c2b47b00ee4ba0c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8cce700eedd64035f2e21be4db6b517f3f85d98d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840194"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44468798"
 ---
 # <a name="to"></a>To
 
@@ -47,7 +47,7 @@ ms.locfileid: "19840194"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19840194"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

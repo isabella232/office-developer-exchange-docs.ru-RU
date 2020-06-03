@@ -3,15 +3,15 @@ title: Синхронизация почтового ящика и веб-слу
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: decf1eee-9743-44f3-9333-b3a01af3683e
 description: Узнайте, как работает синхронизация почтовых ящиков при использовании EWS для доступа к Exchange.
-ms.openlocfilehash: 7bca2f7b754dcceee99e4bc24519f6e4f6423ae7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 5dc700c7feb9fce6121a27ee73fc1a58e88e643a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761161"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456262"
 ---
 # <a name="mailbox-synchronization-and-ews-in-exchange"></a>Синхронизация почтового ящика и веб-службах Exchange
 
@@ -34,8 +34,8 @@ ms.locfileid: "19761161"
 
 |**Операция служб EWS**|**Метод управляемого API EWS**|
 |:-----|:-----|
-|[SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) <br/> |[Метод ExchangeService. SyncFolderHierarchy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) <br/> |
-|[SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) <br/> |[Метод ExchangeService. SyncFolderItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) <br/> |
+|[SyncFolderHierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) <br/> |[Метод ExchangeService. SyncFolderHierarchy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) <br/> |
+|[SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) <br/> |[Метод ExchangeService. SyncFolderItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) <br/> |
    
 Область выполняемой синхронизации зависит от того, является ли она начальной или текущей синхронизацией следующим образом:
   
@@ -75,13 +75,13 @@ ms.locfileid: "19761161"
 
 Вы можете использовать один из двух шаблонов проекта для синхронизации в приложении, чтобы почтовые ящики не превышали даты: Синхронизация на основе уведомлений или способ синхронизации.
   
-Синхронизация на основе уведомлений, как показано на [рисунке 2](mailbox-synchronization-and-ews-in-exchange.md#bk_howdoesitwork), использует уведомления для оповещения клиента о вызове методов [SyncFolderItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) или [SYNCFOLDERHIERARCHY](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) для управляемого API EWS, а также в операциях EWS [SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) или [SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) . Этот тип синхронизации, как правило, рекомендуется для масштабируемых приложений, но он может быть не лучшим решением для всех. Синхронизация на основе уведомлений имеет следующие преимущества: 
+Синхронизация на основе уведомлений, как показано на [рисунке 2](mailbox-synchronization-and-ews-in-exchange.md#bk_howdoesitwork), использует уведомления для оповещения клиента о вызове методов [SyncFolderItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) или [SYNCFOLDERHIERARCHY](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) для управляемого API EWS, а также в операциях EWS [SyncFolderHierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) или [SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) . Этот тип синхронизации, как правило, рекомендуется для масштабируемых приложений, но он может быть не лучшим решением для всех. Синхронизация на основе уведомлений имеет следующие преимущества: 
   
 - Уведомления оптимизированы для сокращения числа вызовов базы данных сервера Exchange. Очереди событий и подписки управляются сервером почтовых ящиков (или сервером клиентского доступа в Exchange 2010 и Exchange 2007); Однако Управление событиями и подписками использует меньше ресурсов, чем альтернатива, что чаще выполняет синхронизацию с базой данных Exchange. Кроме того, в Exchange предусмотрены специальные [политики регулирования](ews-throttling-in-exchange.md) для уведомлений и подписок, позволяющие защитить ресурсы. 
     
 Однако также существуют некоторые недостатки использования синхронизации на основе уведомлений.
   
-- Уведомления являются шумом, так как большинство сценариев включает несколько уведомлений для одной цели пользователя. Особенно это относится к папке Calendar. Например, при получении одного приглашения на собрание создаются несколько уведомлений об элементах и папках, в том числе уведомление о создании элемента и другой для изменения элемента. Один из способов устранения этого недостатка состоит в том, чтобы создать задержку в несколько секунд в [ходе вызова метода](http://msdn.microsoft.com/en-us/library/exchange/aa580274%28v=exchg.150%29.aspx.aspx) [Load](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceobject.load%28v=exchg.80%29.aspx), [лоадпропертиесфоритемс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx), [GetItem](http://msdn.microsoft.com/en-us/library/exchange/aa565934%28v=exchg.150%29.aspx.aspx)или GetItem. В случае приглашения на собрание, если вы сразу же вызываете операцию **GetItem** , может быть один вызов для создания элемента и другой для изменения элемента. Вместо этого, задерживая вызов, вы можете вызвать операцию **GetItem** один раз и получить изменения, охватывающие создание и изменение элемента одновременно. 
+- Уведомления являются шумом, так как большинство сценариев включает несколько уведомлений для одной цели пользователя. Особенно это относится к папке Calendar. Например, при получении одного приглашения на собрание создаются несколько уведомлений об элементах и папках, в том числе уведомление о создании элемента и другой для изменения элемента. Один из способов устранения этого недостатка состоит в том, чтобы создать задержку в несколько секунд в [ходе вызова метода](https://msdn.microsoft.com/library/exchange/aa580274%28v=exchg.150%29.aspx.aspx) [Load](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceobject.load%28v=exchg.80%29.aspx), [лоадпропертиесфоритемс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx), [GetItem](https://msdn.microsoft.com/library/exchange/aa565934%28v=exchg.150%29.aspx.aspx)или GetItem. В случае приглашения на собрание, если вы сразу же вызываете операцию **GetItem** , может быть один вызов для создания элемента и другой для изменения элемента. Вместо этого, задерживая вызов, вы можете вызвать операцию **GetItem** один раз и получить изменения, охватывающие создание и изменение элемента одновременно. 
     
 - Уведомления добавляются в очередь на сервере почтовых ящиков, а подписки сохраняются на сервере почтовых ящиков. Если сервер почтовых ящиков, управляющий подпиской, недоступен, вы потеряли все новые уведомления, синхронизация почтового ящика не будет выполнена, и вам потребуется повторно подписаться на уведомления.
     
@@ -102,7 +102,7 @@ ms.locfileid: "19761161"
 
 Для приложений с высоким уровнем масштабируемости рекомендуется придерживаться следующих рекомендаций для синхронизации почтовых ящиков в приложении.
   
-- При вызове метода **SyncFolderItems** или **SyncFolderHierarchy** для управляемого API EWS используется значение _идонли_ для параметра _Property_ , а при использовании операций EWS **SyncFolderHierarchy** или **SyncFolderItems** для [сокращения числа вызовов](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) к базе данных Exchange используется значение **идонли** . Чем больше свойств вы запрашиваете в наборе свойств вызова **SyncFolderItems** или **SyncFolderHierarchy** , создаются дополнительные внутренние вызовы. Создается новый вызов RPC для каждого запрошенного значения свойства, в то время как только один вызов RPC получает все **итемидс** для запроса, не зависимо от количества результатов для отчета. Поэтому запрос **идонли** вызывает один вызов базы данных, а запрос контейнера свойств для субъекта и отправителя приводит к трем вызовам базы данных: один для **субъекта**, один для **отправителя**, а другой для **ItemId**.
+- При вызове метода **SyncFolderItems** или **SyncFolderHierarchy** для управляемого API EWS используется значение _идонли_ для параметра _Property_ , а при использовании операций EWS **SyncFolderHierarchy** или **SyncFolderItems** для [сокращения числа вызовов](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) к базе данных Exchange используется значение **идонли** . Чем больше свойств вы запрашиваете в наборе свойств вызова **SyncFolderItems** или **SyncFolderHierarchy** , создаются дополнительные внутренние вызовы. Создается новый вызов RPC для каждого запрошенного значения свойства, в то время как только один вызов RPC получает все **итемидс** для запроса, не зависимо от количества результатов для отчета. Поэтому запрос **идонли** вызывает один вызов базы данных, а запрос контейнера свойств для субъекта и отправителя приводит к трем вызовам базы данных: один для **субъекта**, один для **отправителя**, а другой для **ItemId**.
     
 - Не вызывайте методы **загрузки** или **ЛОАДПРОПЕРТИЕСФОРИТЕМС** управляемого API EWS, а также операции GetItem или **GetFolder** **GetItem** для каждого элемента в отклике синхронизации. Вместо этого выполните синтаксический анализ результатов; Найдите изменения, не требующие извлечения всех свойств, например, изменения состояния чтения. Если ответ включает изменение состояния чтения, просто обновите флаг на клиенте и все готово. нет необходимости получать все свойства элемента. И убедитесь, что вы не намерены дублировать усилия, внеся изменения, полученные из одного и того же клиента. Например, если в ответе синхронизации есть удаление элемента, а на локальном клиенте нет необходимости удалять сообщение еще раз или получить все свойства этого элемента. 
     
@@ -112,7 +112,7 @@ ms.locfileid: "19761161"
     
   - Не создавайте слишком много запросов в течение короткого промежутка времени. Это также приведет к регулированию и увеличить время отклика, а не сократит его. 
     
-  - Если вы обрабатываете элементы пакета, пакетно все элементы с одинаковыми значениями для атрибутов **ID** и **чанжекэй** элемента [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) . 
+  - Если вы обрабатываете элементы пакета, пакетно все элементы с одинаковыми значениями для атрибутов **ID** и **чанжекэй** элемента [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) . 
     
   - Если вы перерегулируете, остановите отправку запросов. Повторная отправка запросов позволяет продлить усилия по восстановлению. Вместо этого дождитесь, пока не истечет срок действия, а затем повторите попытку отправки запросов на синхронизацию.
     
@@ -126,7 +126,7 @@ ms.locfileid: "19761161"
     
 - При синхронизации данных календаря выполните указанные ниже действия.
     
-  - Используйте подход, похожий на синхронизацию на основе уведомлений. Так как **синкфолдеритем** не включает в себя какую-либо логику календарей, используйте метод [FINDAPPOINTMENTS](http://msdn.microsoft.com/en-us/library/dd633767%28v=exchg.80%29.aspx) управляемого API EWS или [операцию FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) для с элементом [CalendarView](http://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx) , чтобы просматривать встречи между двумя ДАТАМИ, а затем вызывать **метод** управляемого API EWS или **операцию GetItem** для получения свойств элемента календаря. 
+  - Используйте подход, похожий на синхронизацию на основе уведомлений. Так как **синкфолдеритем** не включает в себя какую-либо логику календарей, используйте метод [FINDAPPOINTMENTS](https://msdn.microsoft.com/library/dd633767%28v=exchg.80%29.aspx) управляемого API EWS или [операцию FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) для с элементом [CalendarView](https://msdn.microsoft.com/library/a4a953b8-0710-416c-95ef-59e51eba9982%28Office.15%29.aspx) , чтобы просматривать встречи между двумя ДАТАМИ, а затем вызывать **метод** управляемого API EWS или **операцию GetItem** для получения свойств элемента календаря. 
     
   - Не запрашиваться с помощью метода **FindAppointments** управляемого API EWS или операции **FindItem** для EWS с помощью элемента **CalendarView** . 
     
@@ -136,14 +136,14 @@ ms.locfileid: "19761161"
     
   - Используйте уведомления, чтобы определить, когда изменяются данные.
     
-  - Так как вы не можете использовать **синкфолдеритем** в папке поиска, используйте упорядоченный и постраничный метод [FINDITEMS](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) управляемого API EWS или операцию **FindItem** с набором элементов [фрактионалпажеитемвиев](http://msdn.microsoft.com/library/4111afec-35e7-4c6f-b291-9bbba603f633%28Office.15%29.aspx) и [SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx) , чтобы определить, что изменилось. 
+  - Так как вы не можете использовать **синкфолдеритем** в папке поиска, используйте упорядоченный и постраничный метод [FINDITEMS](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) управляемого API EWS или операцию **FindItem** с набором элементов [фрактионалпажеитемвиев](https://msdn.microsoft.com/library/4111afec-35e7-4c6f-b291-9bbba603f633%28Office.15%29.aspx) и [SortOrder](https://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx) , чтобы определить, что изменилось. 
     
   - Для получения данных используйте метод **Лоадпропертиесфоритемс** управляемого API EWS **или операцию EWS** . 
     
 ## <a name="filtered-synchronization"></a>Синхронизация с фильтрацией
 <a name="bk_filteredsync"> </a>
 
-Метод **SyncFolderItems** управляемого API EWS и операция EWS **SyncFolderItems** позволяют игнорировать определенные элементы на основе их Итемидс с помощью параметра _ИГНОРЕИТЕМИДС_ в управляемом API EWS или элементе [Ignore](http://msdn.microsoft.com/library/7789eec5-ceec-43f2-84d5-d0d15b734076%28Office.15%29.aspx) в EWS. Это идеальный вариант, если, например, пользователи начинают отвечать всем сообщениям электронной почты, отправленным всем сотрудникам компании. 
+Метод **SyncFolderItems** управляемого API EWS и операция EWS **SyncFolderItems** позволяют игнорировать определенные элементы на основе их Итемидс с помощью параметра _ИГНОРЕИТЕМИДС_ в управляемом API EWS или элементе [Ignore](https://msdn.microsoft.com/library/7789eec5-ceec-43f2-84d5-d0d15b734076%28Office.15%29.aspx) в EWS. Это идеальный вариант, если, например, пользователи начинают отвечать всем сообщениям электронной почты, отправленным всем сотрудникам компании. 
   
 Может возникнуть вопрос: можно ли фильтровать мои уведомления (и, следовательно, только синхронизацию запуска) при изменении определенных свойств? Несмотря на то, что подписки на уведомления основываются на типе изменений (создание, обновление, удаление), а не обновляемом свойстве, вы не можете отфильтровать уведомления таким образом. Вместо этого можно выполнить следующие действия:
   
@@ -157,7 +157,7 @@ ms.locfileid: "19761161"
     
 - Используйте состояние синхронизации для продолжения вызова метода **SyncFolderItems** управляемого API EWS или операции **SyncFolderItems** EWS, но Отслеживайте только изменения в наборе отфильтрованных элементов. Если создаются новые элементы, необходимо убедиться в том, что эти новые элементы находятся в отфильтрованной области. 
     
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этой статье
 <a name="bk_filteredsync"> </a>
 
 - [Синхронизация папок с помощью EWS в Exchange](how-to-synchronize-folders-by-using-ews-in-exchange.md)
@@ -171,12 +171,12 @@ ms.locfileid: "19761161"
 
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Метод SyncFolderItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx)
+- [Метод SyncFolderItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx)
     
-- [Метод SyncFolderHierarchy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx)
+- [Метод SyncFolderHierarchy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx)
     
-- [Операция SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx)
+- [Операция SyncFolderHierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx)
     
-- [Операция SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx)
+- [Операция SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx)
     
 

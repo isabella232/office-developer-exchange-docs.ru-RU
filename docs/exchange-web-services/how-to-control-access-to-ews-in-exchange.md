@@ -3,15 +3,15 @@ title: Контроль доступа к EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 61e29e54-e3e5-404a-84c0-93b61a25ca58
 description: Узнайте, как управлять доступом к EWS для пользователей, приложений или всей Организации.
-ms.openlocfilehash: 956c28faba105ecf2a6b1452abe629ea2fc930e1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: bd65b099ab15c1514945d8a1cfa4e9b1428a4755
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760986"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456880"
 ---
 # <a name="control-access-to-ews-in-exchange"></a>Контроль доступа к EWS в Exchange
 
@@ -24,10 +24,10 @@ ms.locfileid: "19760986"
 
 Вы можете использовать следующие командлеты командной консоли Exchange для просмотра текущей конфигурации доступа и задания средств контроля доступа EWS:
   
-- [Get – CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx) — показывает, какие параметры задаются для определенного почтового ящика.   
-- [Set – CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx) — задает параметры для определенного почтового ящика.    
-- [Get – OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx) — показывает параметры для всей Организации.    
-- [Set – OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997443.aspx) — задает параметры для всей Организации. 
+- [Get – CASMailbox](https://technet.microsoft.com/library/bb124754.aspx) — показывает, какие параметры задаются для определенного почтового ящика.   
+- [Set – CASMailbox](https://technet.microsoft.com/library/bb125264.aspx) — задает параметры для определенного почтового ящика.    
+- [Get – OrganizationConfig](https://technet.microsoft.com/library/aa997571.aspx) — показывает параметры для всей Организации.    
+- [Set – OrganizationConfig](https://technet.microsoft.com/library/aa997443.aspx) — задает параметры для всей Организации. 
 
 <a name="bk_Examples"> </a>
 
@@ -52,7 +52,7 @@ ms.locfileid: "19760986"
 
 - [Настройка приложения веб-служб Exchange](setting-up-your-ews-application.md)    
 - [Управление доступом клиентских приложений к EWS в Exchange](controlling-client-application-access-to-ews-in-exchange.md)   
-- [PowerShell в Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) 
-- [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [PowerShell в Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) 
+- [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
     
 

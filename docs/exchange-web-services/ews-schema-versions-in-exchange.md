@@ -3,15 +3,15 @@ title: Версии схемы EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: d1ab6f9c-ea91-4022-830d-7f7b759e3935
 description: Узнайте о схеме EWS и о том, как разрабатывать приложение для работы с ним, а также функции, доступные с каждой версией схемы, и как схема соотносится с версией службы Exchange.
-ms.openlocfilehash: dd8e85547666ba0bf3a1a38775260268594f2a8b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 6afef658e747b11d9aa5fb7d7a88ba8f5c57ac82
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760960"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456016"
 ---
 # <a name="ews-schema-versions-in-exchange"></a>Версии схемы EWS в Exchange
 
@@ -33,7 +33,7 @@ ms.locfileid: "19760960"
 
 При проектировании приложения для работы с различными версиями схемы EWS учитывайте следующие моменты.
   
-- Функции включения/выключения на основе версии схемы. Вы хотите сопоставить функциональные возможности клиента с версией схемы и, в некоторых случаях, с версией службы. Следующий пример вернет набор [свойств](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) на основе версии схемы и службы. 
+- Функции включения/выключения на основе версии схемы. Вы хотите сопоставить функциональные возможности клиента с версией схемы и, в некоторых случаях, с версией службы. Следующий пример вернет набор [свойств](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) на основе версии схемы и службы. 
     
   ```cs
   private static PropertySet InitPropertySetByVersion(ExchangeService service)
@@ -61,14 +61,14 @@ ms.locfileid: "19760960"
 ## <a name="features-by-schema-version"></a>Функции по версии схемы
 <a name="bk_features"> </a>
 
-Версии схемы, доступные для клиента, определены в простом типе **простом типе exchangeversiontype** , расположенном в схеме Types. xsd. **Простом типе exchangeversiontype** реализуется с помощью элемента [рекуестсерверверсион](http://msdn.microsoft.com/library/af4032d5-42b3-463e-9d0a-8236d78e5b75%28Office.15%29.aspx) . Элемент **рекуестсерверверсион** отправляется во всех ЗАПРОСах EWS, чтобы показать серверу, какая версия схемы предназначена для клиента. Это, в свою очередь, определяет набор функций, доступный для клиента. 
+Версии схемы, доступные для клиента, определены в простом типе **простом типе exchangeversiontype** , расположенном в схеме Types. xsd. **Простом типе exchangeversiontype** реализуется с помощью элемента [рекуестсерверверсион](https://msdn.microsoft.com/library/af4032d5-42b3-463e-9d0a-8236d78e5b75%28Office.15%29.aspx) . Элемент **рекуестсерверверсион** отправляется во всех ЗАПРОСах EWS, чтобы показать серверу, какая версия схемы предназначена для клиента. Это, в свою очередь, определяет набор функций, доступный для клиента. 
   
 **Таблица 1: функции EWS по продуктам и версиям схемы**
 
 |**Версия продукта**|**Связанная версия схемы**|**Компоненты**|
 |:-----|:-----|:-----|
 |Exchange Online  |Последняя версия схемы.  |Включает все компоненты в текущей версии Exchange, а также новые возможности, добавленные для клиентов Online. |
-|Exchange 2013 SP1 |Exchange2013_SP1 | Включает все функции Exchange 2013.<br/><br/>Следующие функции были представлены в Exchange 2013 с пакетом обновления 1 (SP1): <ul><li>[Политика хранения почтовых ящиков](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.setholdonmailboxes%28v=exchg.80%29.aspx) </li><li> [Предложение нового времени](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) </li><li>  Считывание обновлений уведомлений для [обновления](http://msdn.microsoft.com/EN-US/library/office/dn600559%28v=exchg.80%29.aspx) и [удаления](http://msdn.microsoft.com/EN-US/library/office/dn600557%28v=exchg.80%29.aspx) элементов  </li><li> Обновление [информации IRM](http://msdn.microsoft.com/EN-US/library/office/microsoft.exchange.webservices.data.conversation.hasirm%28v=exchg.80%29.aspx) для бесед  </li></ul> |
+|Exchange 2013 SP1 |Exchange2013_SP1 | Включает все функции Exchange 2013.<br/><br/>Следующие функции были представлены в Exchange 2013 с пакетом обновления 1 (SP1): <ul><li>[Политика хранения почтовых ящиков](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.setholdonmailboxes%28v=exchg.80%29.aspx) </li><li> [Предложение нового времени](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) </li><li>  Считывание обновлений уведомлений для [обновления](https://msdn.microsoft.com/library/office/dn600559%28v=exchg.80%29.aspx) и [удаления](https://msdn.microsoft.com/library/office/dn600557%28v=exchg.80%29.aspx) элементов  </li><li> Обновление [информации IRM](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.conversation.hasirm%28v=exchg.80%29.aspx) для бесед  </li></ul> |
 |Exchange 2013   |Exchange2013   | Включает все возможности, представленные в Exchange 2007 и Exchange 2010. <br/><br/>Следующие функции были представлены в Exchange 2013:<ul><li>Архивация  </li><li>  Обнаружение электронных данных  </li><li>  Фиктивные пользователи  </li><li>  Политики хранения  </li><li>  Единое хранилище контактов  </li><li>  Фотографии пользователя  </li></ul> |
 |Exchange 2010 с пакетом обновления 2 (SP2)   |Exchange2010_SP2 | Включает все возможности, представленные в Exchange 2010 с пакетом обновления 1 (SP1). <br/><br/>В Exchange 2010 с пакетом обновления 2 (SP2) были представлены следующие возможности:<ul><li>Получение истечения срока действия пароля  </li><li>  Точность значений даты и времени  </li><li>  Обновленные идентификаторы свойств контактов  </li><li>  Новые сценарии олицетворения  </li></ul> |
 |Exchange 2010 с пакетом обновления 1 (SP1)  |Exchange2010_SP1   | Включает все функции, представленные в Exchange 2010. <br/><br/>Следующие функции были представлены в Exchange 2010 с пакетом обновления 1 (SP1):<ul><li>Создание, получение и изменение правил для папки "Входящие"  </li><li>  Программный доступ к архивному почтовому ящику  </li><li>  Действия с беседами  </li><li>  Просмотр уведомлений брандмауэра  </li><li>  Улучшенные функции администрирования  </li><li>  Улучшенная поддержка смешанных версий  </li><li>  Поддержка регулирования  </li><li>  Управление доступом приложений к EWS  </li><li>  Поддержка проверки подлинности сертификата клиента  </li></ul> |
@@ -101,7 +101,7 @@ ms.locfileid: "19760960"
 ## <a name="see-also"></a>См. также
 
 - [Версии схемы EWS в Exchange](ews-schema-versions-in-exchange.md) 
-- [Автообнаружение для Exchange](autodiscover-for-exchange.md) 
+- [Автообнаружение в Exchange](autodiscover-for-exchange.md) 
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
     
 

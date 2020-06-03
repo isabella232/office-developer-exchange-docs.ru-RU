@@ -3,15 +3,15 @@ title: Настройка среды разработки приложений E
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 91b86e93-bdde-41c3-9680-45cf61420592
 description: Узнайте, как настроить среду разработки для создания приложения EWS, взаимодействующего с Exchange.
-ms.openlocfilehash: 41664304eebf44d7985c774e260038eae4f23156
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: 01a106817f29bd696991b8a0c5d7d9b7dd420b94
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353275"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463764"
 ---
 # <a name="setting-up-your-exchange-application-development-environment"></a>Настройка среды разработки приложений Exchange
 
@@ -32,17 +32,18 @@ ms.locfileid: "21353275"
 
 Чтобы создать приложение управляемого API EWS, вам потребуется доступ к следующим функциям:
   
-- [Управляемый API EWS](http://aka.ms/ews-managed-api-readme). 
+- [Управляемый API EWS](https://aka.ms/ews-managed-api-readme). 
     
-    Файлы управляемого API EWS можно хранить в любом месте на компьютере; по умолчанию они устанавливаются в папку Program Филес\микрософт\ексчанже\веб Services\\<Version Number\> .
+    Файлы управляемого API EWS можно хранить в любом месте на компьютере; по умолчанию они устанавливаются в папку Program Филес\микрософт\ексчанже\веб Services \\<Version Number \> .
     
 - Почтовый ящик на сервере Exchange, на котором запущен Exchange Online, Exchange Online в составе Office 365, или версия Exchange, начиная с Exchange Server 2007. 
     
-    Вы можете получить план Exchange Online для бизнеса, включая бесплатную пробную версию, на [сайте Office 365](http://office.microsoft.com/en-us/business/compare-office-365-for-business-plans-FX102918419.aspx#fbid=1tsGNIE7e3a). Чтобы подключиться к почтовому ящику, необходимо иметь имя пользователя и учетные данные учетной записи, связанной с почтовым ящиком.
+    Вы можете получить план Exchange Online для бизнеса, включая бесплатную пробную версию, на [сайте Office 365](https://office.microsoft.com/business/compare-office-365-for-business-plans-FX102918419.aspx#fbid=1tsGNIE7e3a). Чтобы подключиться к почтовому ящику, необходимо иметь имя пользователя и учетные данные учетной записи, связанной с почтовым ящиком.
+
     
 - Версия Visual Studio, начиная с Visual Studio 2005. Если у вас сейчас нет Visual Studio, вы можете скачать [бесплатную версию](https://visualstudio.microsoft.com/).
     
-- Версия .NET Framework, начинающаяся с платформы .NET Framework 3,5. Вы можете скачать .NET Framework 3,5 из [центра загрузки Майкрософт](http://go.microsoft.com/fwlink/?LinkId=191777).
+- Версия .NET Framework, начинающаяся с платформы .NET Framework 3,5. Вы можете скачать .NET Framework 3,5 из [центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?LinkId=191777).
     
 Кроме того, полезно, если у вас есть знакомство с C#. Несмотря на то что Visual Studio поддерживает другие языки в дополнение к C#, большая часть примера кода, доступного для управляемого API EWS, написана на языке C#.
   
@@ -61,7 +62,7 @@ ms.locfileid: "21353275"
   
 - Версия Visual Studio, начиная с Visual Studio 2005, для создания ссылки прокси-сервера. Вы можете скачать [бесплатную версию](https://visualstudio.microsoft.com/).
     
-- Версия .NET Framework, начинающаяся с платформы .NET Framework 2,0. Вы можете скачать .NET Framework 3,5 из [центра загрузки Майкрософт](http://go.microsoft.com/fwlink/?LinkId=191777).
+- Версия .NET Framework, начинающаяся с платформы .NET Framework 2,0. Вы можете скачать .NET Framework 3,5 из [центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?LinkId=191777).
     
 Если вы используете автоматически созданный прокси-сервер, вам будет удобнее ознакомиться с программированием на C#.
   
@@ -73,6 +74,5 @@ ms.locfileid: "21353275"
 - [Настройка среды разработки приложений Exchange](setting-up-your-exchange-application-development-environment.md)   
 - [Общие сведения о разработке клиента EWS для Exchange](ews-client-design-overview-for-exchange.md)  
 - [Контроль доступа к EWS в Exchange](how-to-control-access-to-ews-in-exchange.md)  
-- [Объектные модели, созданные службами EWS для Exchange](https://msdn.microsoft.com/en-us/library/jj190899)
+- [Объектные модели, созданные службами EWS для Exchange](https://msdn.microsoft.com/library/jj190899)
     
-

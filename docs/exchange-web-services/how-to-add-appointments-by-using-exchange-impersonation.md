@@ -3,27 +3,27 @@ title: Добавление встреч с помощью олицетворе�
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 78d5e51b-900f-4302-b9a8-fdc9aa4b65a5
 description: Узнайте, как использовать олицетворение с помощью управляемого API EWS или EWS в Exchange для добавления встреч в календари пользователей.
-ms.openlocfilehash: ab10a7d65a5603a84e12d918dd54198927d88b8a
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: b1473d72113f8cc07d05364a4d87fedf23c7351d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353457"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455333"
 ---
 # <a name="add-appointments-by-using-exchange-impersonation"></a>Добавление встреч с помощью олицетворения Exchange
 
 Узнайте, как использовать олицетворение с помощью управляемого API EWS или EWS в Exchange для добавления встреч в календари пользователей.
   
-Вы можете создать приложение службы, которое вставляет встречи непосредственно в календарь Exchange, используя учетную запись службы с[включенной ролью](how-to-configure-impersonation.md) **апппликатионимперсонатион**. При использовании олицетворения приложение выступает в роли пользователя; Это так, как если бы пользователь добавил встречу в календарь с помощью клиента, например Outlook. 
+Вы можете создать приложение службы, которое вставляет встречи непосредственно в календарь Exchange, используя учетную запись службы с [включенной ролью](how-to-configure-impersonation.md) **ApplicationImpersonation** . При использовании олицетворения приложение выступает в роли пользователя; Это так, как если бы пользователь добавил встречу в календарь с помощью клиента, например Outlook. 
   
 При использовании олицетворения учитывайте следующие моменты.
   
-- Объект [ExchangeService](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.aspx) должен быть связан с учетной записью службы. Вы можете использовать один и тот же объект **ExchangeService** для олицетворения нескольких учетных записей, изменив свойство [имперсонатедусерид](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx) для каждой учетной записи, для которой необходимо выполнить олицетворение. 
+- Объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.aspx) должен быть связан с учетной записью службы. Вы можете использовать один и тот же объект **ExchangeService** для олицетворения нескольких учетных записей, изменив свойство [имперсонатедусерид](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx) для каждой учетной записи, для которой необходимо выполнить олицетворение. 
     
-- Любой элемент, сохраненный для олицетворенной учетной записи, можно использовать только один раз. Если вы хотите сохранить одну и ту же встречу в нескольких учетных записях, например, необходимо создать объект [встречи](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.aspx) для каждой учетной записи. 
+- Любой элемент, сохраненный для олицетворенной учетной записи, можно использовать только один раз. Если вы хотите сохранить одну и ту же встречу в нескольких учетных записях, например, необходимо создать объект [встречи](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.aspx) для каждой учетной записи. 
     
 ## <a name="prerequisites"></a>Необходимые компоненты
 
@@ -35,7 +35,7 @@ ms.locfileid: "21353457"
   
 -  _Service_ — объект **ExchangeService** , привязанный к учетной записи приложения-службы на сервере Exchange. 
     
--  _EmailAddresses_ — объект [System. List](http://msdn.microsoft.com/library/6sh2ey19.aspx) , содержащий список строк адресов электронной почты SMTP. 
+-  _EmailAddresses_ — объект [System. List](https://msdn.microsoft.com/library/6sh2ey19.aspx) , содержащий список строк адресов электронной почты SMTP. 
     
 -  _фабрика_ — объект, который реализует интерфейс **иаппоинтментфактори** . Этот интерфейс содержит один **метод, метод ExchangeService, который** принимает объект **ExchangeService** в качестве параметра и возвращает объект **встречи** . Интерфейс **иаппоинтментфактори** определяется [интерфейсом иаппоинтментфактори](#bk_IAppointmentFactory).
     
@@ -73,7 +73,7 @@ private static void CreateAppointments(ExchangeService service, List<string> ema
 }
 ```
 
-При сохранении встречи код проверяет, добавлены ли какие бы то ни было участников в свойство [RequiredAttendees](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.requiredattendees.aspx) . В противном случае метод [встреча. Save](http://msdn.microsoft.com/library/dd635394.aspx) вызывается со значением перечисления [сендтоалландсавекопи](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode.aspx) , чтобы участники получали приглашения на собрания; в противном случае метод **встреча. Save** вызывается со значением перечисления [сендтононе](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode.aspx) , чтобы сохранить встречу в календаре олицетворенного пользователя с помощью свойства [Meeting.](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.ismeeting.aspx) IsFalse, равное **false**.
+При сохранении встречи код проверяет, добавлены ли какие бы то ни было участников в свойство [RequiredAttendees](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.requiredattendees.aspx) . В противном случае метод [встреча. Save](https://msdn.microsoft.com/library/dd635394.aspx) вызывается со значением перечисления [сендтоалландсавекопи](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode.aspx) , чтобы участники получали приглашения на собрания; в противном случае метод **встреча. Save** вызывается со значением перечисления [сендтононе](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.sendinvitationsmode.aspx) , чтобы сохранить встречу в календаре олицетворенного пользователя с помощью свойства [Meeting.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.ismeeting.aspx) IsFalse, равное **false**.
   
 ### <a name="iappointmentfactory-interface"></a>Интерфейс Иаппоинтментфактори
 <a name="bk_IAppointmentFactory"> </a>
@@ -87,7 +87,7 @@ interface IAppointmentFactory
 }
 ```
 
-В приведенном ниже примере класса **аппоинтментфактори** показана реализация интерфейса **иаппоинтментфактори** , который возвращает простую встречу, которая находится в течение трех дней с этого момента. Если вы раскомментируйте `appointment.RequiredAttendees.Add` строку **, метод "** метод" будет возвращать собрание, а адрес электронной почты, указанный в этой строке, будет получать приглашение на собрание с олицетворенным пользователем, указанным в качестве организатора. 
+В приведенном ниже примере класса **аппоинтментфактори** показана реализация интерфейса **иаппоинтментфактори** , который возвращает простую встречу, которая находится в течение трех дней с этого момента. Если вы раскомментируйте `appointment.RequiredAttendees.Add` строку, метод **GetAppointment** "метод" будет возвращать собрание, а адрес электронной почты, указанный в этой строке, будет получать приглашение на собрание с олицетворенным пользователем, указанным в качестве организатора. 
   
 ```cs
 class AppointmentFactory : IAppointmentFactory
@@ -111,14 +111,14 @@ class AppointmentFactory : IAppointmentFactory
 
 ## <a name="add-appointments-by-using-impersonation-with-ews"></a>Добавление встреч с помощью службы EWS с помощью олицетворения
 
-С помощью служб EWS вы можете использовать олицетворение для добавления элементов в календарь от имени владельца календаря. В этом примере показано, как с помощью операции [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) добавить встречу в календарь олицетворенной учетной записи. 
+С помощью служб EWS вы можете использовать олицетворение для добавления элементов в календарь от имени владельца календаря. В этом примере показано, как с помощью операции [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) добавить встречу в календарь олицетворенной учетной записи. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+       xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+       xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
     <t:TimeZoneContext>
@@ -157,17 +157,17 @@ class AppointmentFactory : IAppointmentFactory
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" 
- xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
- xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+ xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -191,7 +191,7 @@ class AppointmentFactory : IAppointmentFactory
 
 - [Олицетворение и EWS в Exchange](impersonation-and-ews-in-exchange.md)
     
-- [Роль ApplicationImpersonation](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)
+- [Роль ApplicationImpersonation](https://technet.microsoft.com/library/dd776119%28v=exchg.150%29.aspx)
     
 - [Настройка олицетворения](how-to-configure-impersonation.md)
     
@@ -201,6 +201,6 @@ class AppointmentFactory : IAppointmentFactory
     
 - [Операция CreateItem (элемент календаря)](../web-service-reference/createitem-operation-calendar-item.md)
     
-- [Свойство ExchangeService. Имперсонатедусерид](https://docs.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
+- [Свойство ExchangeService. Имперсонатедусерид](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
     
 

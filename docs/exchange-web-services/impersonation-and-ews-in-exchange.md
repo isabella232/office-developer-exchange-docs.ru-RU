@@ -3,15 +3,15 @@ title: Олицетворение и EWS в Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 7e1ea63c-eb29-43d2-827f-2f2b1846483b
 description: Узнайте, как и когда использовать олицетворение в приложениях службы Exchange.
-ms.openlocfilehash: f8a215874475034f0d147b80a05cae414e6438f9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 8151b3d83421786d99ee0c82eaf4f7a5c0721f25
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761131"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466614"
 ---
 # <a name="impersonation-and-ews-in-exchange"></a>Олицетворение и EWS в Exchange
 
@@ -51,9 +51,9 @@ ms.locfileid: "19761131"
     
 - Как правило, роль **ApplicationImpersonation** предоставляется учетной записи службы, выделенной для конкретного приложения или группы приложений, а не учетной записи пользователя. Можно создать любое необходимое количество учетных записей служб. 
     
-Вы можете ознакомиться с дополнительными сведениями о [настройке олицетворения](how-to-configure-impersonation.md), но вы должны обратиться к администратору Exchange, чтобы убедиться, что созданы учетные записи служб с [разрешениями и доступом](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx) , удовлетворяющими требованиям безопасности Организации. 
+Вы можете ознакомиться с дополнительными сведениями о [настройке олицетворения](how-to-configure-impersonation.md), но вы должны обратиться к администратору Exchange, чтобы убедиться, что созданы учетные записи служб с [разрешениями и доступом](https://technet.microsoft.com/library/dd351175%28v=exchg.150%29.aspx) , удовлетворяющими требованиям безопасности Организации. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 - [Настройка олицетворения](how-to-configure-impersonation.md)
     
@@ -68,6 +68,6 @@ ms.locfileid: "19761131"
     
 - [Передача прав доступа и EWS в Exchange](delegate-access-and-ews-in-exchange.md)
     
-- [Разрешения Exchange 2013](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx)
+- [Разрешения Exchange 2013](https://technet.microsoft.com/library/dd351175%28v=exchg.150%29.aspx)
     
 

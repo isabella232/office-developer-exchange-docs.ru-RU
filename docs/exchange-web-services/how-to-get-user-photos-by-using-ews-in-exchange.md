@@ -3,15 +3,15 @@ title: Получение фотографий пользователей с п�
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: f86d1099-1f57-47dc-abf2-4d5ae4e900a9
 description: Узнайте, как получить фотографии пользователей, связанные с почтовым ящиком или контактом, с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: f0f5cddd41fc563fb9ed38e75b505830a3992411
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 14f2bc6bef1ce3c3529f03e213e3ada7c45a5a71
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761045"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455788"
 ---
 # <a name="get-user-photos-by-using-ews-in-exchange"></a>Получение фотографий пользователей с помощью EWS в Exchange
 
@@ -40,7 +40,7 @@ https://Exchange Server/ews/Exchange.asmx/s/GetUserPhoto?email=email address&amp
 
 Используйте операцию [GetUserSettings](how-to-get-user-settings-from-exchange-by-using-autodiscover.md) службы автообнаружения для получения параметра **екстерналевсурл** , который содержит URL-адрес конечной точки веб-служб Exchange (EWS), и расположение обработчика HTTP- **сообщений Exchange. asmx** , который возвращает фотографии пользователей. 
   
-Каждый код размера указывает высоту и ширину изображения в пикселях. Например, код размера **HR48x48** возвращает изображение размером 48 пикселей в высоту, равное 48 x ширина. Возможные значения параметра кода размера совпадают с возможными значениями для элемента [сизерекуестед](http://msdn.microsoft.com/library/e86f98b6-83b5-4530-80eb-dc5df42e2c62%28Office.15%29.aspx) . Если запрос указывает недоступный размер, будет возвращена самая большая доступная фотография. Если на сервере Exchange не хранится фотография, будет возвращено эскизное изображение, хранящееся в доменных СЛУЖБах Active Directory для учетной записи. 
+Каждый код размера указывает высоту и ширину изображения в пикселях. Например, код размера **HR48x48** возвращает изображение размером 48 пикселей в высоту, равное 48 x ширина. Возможные значения параметра кода размера совпадают с возможными значениями для элемента [сизерекуестед](https://msdn.microsoft.com/library/e86f98b6-83b5-4530-80eb-dc5df42e2c62%28Office.15%29.aspx) . Если запрос указывает недоступный размер, будет возвращена самая большая доступная фотография. Если на сервере Exchange не хранится фотография, будет возвращено эскизное изображение, хранящееся в доменных СЛУЖБах Active Directory для учетной записи. 
   
 > [!NOTE]
 > Код размера **HR48x48** всегда возвращает изображение ЭСКИЗА AD DS, если оно доступно. 
@@ -84,7 +84,7 @@ Exchange возвращает данные с типом контента Image/
 
 Приложение может использовать управляемый API EWS для получения фотографий для контактов, если контакт хранится в папке контактов в почтовом ящике пользователя. Для этого сначала найдите идентификатор **элемента для контакта, который необходимо** использовать. Затем после привязывания к этому контакту загрузите его в коллекцию вложений. Если у контакта есть фотография, фотография будет одним из вложений. Пройдите по коллекции вложений, проверив значение свойства **исконтактфото** . Когда вы найдете фотографию контакта, вы можете сохранить ее на локальном компьютере, и приложение сможет получить к нему доступ. 
   
-Этот процесс показан в приведенном ниже примере. В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+Этот процесс показан в приведенном ниже примере. В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 private static void GetContactPhoto(ExchangeService service, string ItemId)
@@ -116,19 +116,19 @@ private static void GetContactPhoto(ExchangeService service, string ItemId)
 
 ## <a name="get-a-user-photo-by-using-ews"></a>Получение фотографии пользователя с помощью EWS
 
-Если вы получаете фотографию пользователя из доменных служб Active Directory, вы можете использовать операцию [GetUserPhoto](http://msdn.microsoft.com/library/f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e%28Office.15%29.aspx) (если вы знаете адрес электронной почты) или операцию [ResolveNames](http://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) (если вы не знаете адрес электронной почты). Если вы получаете фотографию пользователя из папки "Контакты" в почтовом ящике, используйте операцию [GetItem](http://msdn.microsoft.com/library/6b96dace-1260-4b83-869a-7c31c5583daa%28Office.15%29.aspx) , а затем операцию [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) . В обоих случаях фотография возвращается в виде строки в виде строки с кодировкой base64 в ответе XML. 
+Если вы получаете фотографию пользователя из доменных служб Active Directory, вы можете использовать операцию [GetUserPhoto](https://msdn.microsoft.com/library/f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e%28Office.15%29.aspx) (если вы знаете адрес электронной почты) или операцию [ResolveNames](https://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) (если вы не знаете адрес электронной почты). Если вы получаете фотографию пользователя из папки "Контакты" в почтовом ящике, используйте операцию [GetItem](https://msdn.microsoft.com/library/6b96dace-1260-4b83-869a-7c31c5583daa%28Office.15%29.aspx) , а затем операцию [GetAttachment](https://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) . В обоих случаях фотография возвращается в виде строки в виде строки с кодировкой base64 в ответе XML. 
   
 ### <a name="get-a-mailbox-user-photo-by-using-the-getuserphoto-operation"></a>Получение фотографии пользователя почтового ящика с помощью операции GetUserPhoto
 
-Использование операции **GetUserPhoto** является простым. В XML-запросе укажите адрес электронной почты пользователя и размер возвращаемой [фотографии](http://msdn.microsoft.com/library/e86f98b6-83b5-4530-80eb-dc5df42e2c62%28Office.15%29.aspx) (в элементе [сизерекуестед](http://msdn.microsoft.com/library/e86f98b6-83b5-4530-80eb-dc5df42e2c62%28Office.15%29.aspx) ). В приведенном ниже примере XML-запроса показано, как получить фотографию для Ольга Даниелс шириной 360 пикселя на 360 пикселя высотой. 
+Использование операции **GetUserPhoto** является простым. В XML-запросе укажите адрес электронной почты пользователя и размер возвращаемой [фотографии](https://msdn.microsoft.com/library/e86f98b6-83b5-4530-80eb-dc5df42e2c62%28Office.15%29.aspx) (в элементе [сизерекуестед](https://msdn.microsoft.com/library/e86f98b6-83b5-4530-80eb-dc5df42e2c62%28Office.15%29.aspx) ). В приведенном ниже примере XML-запроса показано, как получить фотографию для Ольга Даниелс шириной 360 пикселя на 360 пикселя высотой. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013 "/>
    </soap:Header>
@@ -142,15 +142,15 @@ private static void GetContactPhoto(ExchangeService service, string ItemId)
 
 ```
 
-Ниже приведен XML-ответ. Фотография в кодировке Base64 хранится в элементе [PictureData](http://msdn.microsoft.com/library/1124eac3-ebf2-4b81-96d3-96838c840433%28Office.15%29.aspx) (содержимое было сокращено для удобочитаемости). 
+Ниже приведен XML-ответ. Фотография в кодировке Base64 хранится в элементе [PictureData](https://msdn.microsoft.com/library/1124eac3-ebf2-4b81-96d3-96838c840433%28Office.15%29.aspx) (содержимое было сокращено для удобочитаемости). 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetUserPhotoResponse ResponseClass="Success" 
-         xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+         xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <HasChanged>true</HasChanged>
       <PictureData>/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAg... wATRRRSuB//2Q==</PictureData>
@@ -162,15 +162,15 @@ private static void GetContactPhoto(ExchangeService service, string ItemId)
 
 ### <a name="get-a-mailbox-user-photo-by-using-the-resolvenames-operation"></a>Получение фотографии пользователя почтового ящика с помощью операции ResolveNames
 
-Если вы не знаете адрес электронной почты пользователя, для которого вы получаете фотографию, вы можете [использовать операцию ResolveNames](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md) , чтобы получить кандидатов для возможных сопоставлений. Если для атрибута **контактдаташапе** элемента [ResolveNames](http://msdn.microsoft.com/library/c85207e1-1315-443b-94ec-2b58f405076b%28Office.15%29.aspx) задано значение "аллпропертиес", для каждого кандидата будет возвращено множество данных, включая фотографии пользователя. В следующем примере показан XML-запрос для разрешения имени "Ольга" и возврата всех свойств для каждого кандидата. 
+Если вы не знаете адрес электронной почты пользователя, для которого вы получаете фотографию, вы можете [использовать операцию ResolveNames](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md) , чтобы получить кандидатов для возможных сопоставлений. Если для атрибута **контактдаташапе** элемента [ResolveNames](https://msdn.microsoft.com/library/c85207e1-1315-443b-94ec-2b58f405076b%28Office.15%29.aspx) задано значение "аллпропертиес", для каждого кандидата будет возвращено множество данных, включая фотографии пользователя. В следующем примере показан XML-запрос для разрешения имени "Ольга" и возврата всех свойств для каждого кандидата. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>  
@@ -186,11 +186,11 @@ xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ResolveNamesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ResolveNamesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ResolveNamesResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -229,10 +229,10 @@ xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns='http://schemas.microsoft.com/exchange/services/2006/messages'>
+    <GetItem xmlns='https://schemas.microsoft.com/exchange/services/2006/messages'>
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
       </ItemShape>
@@ -245,15 +245,15 @@ xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
 
 ```
 
-Найдите элемент [хаспиктуре](http://msdn.microsoft.com/library/922a43fe-01bd-49f2-9261-e00e4699b8da%28Office.15%29.aspx) , чтобы убедиться, что контакт имеет связанную фотографию. Затем просмотрите коллекцию вложений, для которой для элемента [исконтактфото](http://msdn.microsoft.com/library/ae36b5f9-a787-4863-9dbc-258ad724801d%28Office.15%29.aspx) задано значение true. В приведенном ниже примере ответа показаны только нужные данные. Значения ИДЕНТИФИКАТОРов сокращаются для удобочитаемости. 
+Найдите элемент [хаспиктуре](https://msdn.microsoft.com/library/922a43fe-01bd-49f2-9261-e00e4699b8da%28Office.15%29.aspx) , чтобы убедиться, что контакт имеет связанную фотографию. Затем просмотрите коллекцию вложений, для которой для элемента [исконтактфото](https://msdn.microsoft.com/library/ae36b5f9-a787-4863-9dbc-258ad724801d%28Office.15%29.aspx) задано значение true. В приведенном ниже примере ответа показаны только нужные данные. Значения ИДЕНТИФИКАТОРов сокращаются для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -293,11 +293,11 @@ xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentShape/>
       <AttachmentIds>
          <t:AttachmentId Id="1LGlhgpgoA="/>
@@ -308,15 +308,15 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 
 ```
 
-В следующем примере показан XML-ответ со сведениями о запрошенном вложении. Элемент [Content](http://msdn.microsoft.com/library/24f8c54a-505f-4fc0-b7e7-93ad50b97070%28Office.15%29.aspx) содержит строку в кодировке Base64 для фотографии пользователя, что в этом примере сокращается для удобочитаемости. 
+В следующем примере показан XML-ответ со сведениями о запрошенном вложении. Элемент [Content](https://msdn.microsoft.com/library/24f8c54a-505f-4fc0-b7e7-93ad50b97070%28Office.15%29.aspx) содержит строку в кодировке Base64 для фотографии пользователя, что в этом примере сокращается для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

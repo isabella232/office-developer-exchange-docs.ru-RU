@@ -3,15 +3,15 @@ title: Выполнение поиска AQS с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: c136901a-313e-4adf-a223-1d090d16917a
 description: Узнайте, как выполнять поиск с помощью строк запросов и AQS в управляемом API EWS или приложении EWS.
-ms.openlocfilehash: dc859e24fa80cd5627477182979c9cc9527818d6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 9f611a8d90c6baf0f307897735c6366c82bb63c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761113"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455718"
 ---
 # <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>Выполнение поиска AQS с помощью EWS в Exchange
 
@@ -43,7 +43,7 @@ ms.locfileid: "19761113"
 |subject  <br/> |String  <br/> |Тема: Project  <br/> |
 |body  <br/> |String  <br/> |текст: данные о продажах  <br/> |
 |attachment  <br/> |String  <br/> |вложение: отчет  <br/> |
-|to  <br/> |String  <br/> |Кому: "Ольга Даниелс"  <br/> |
+|на  <br/> |String  <br/> |Кому: "Ольга Даниелс"  <br/> |
 |from  <br/> |String  <br/> |от: надеюсь  <br/> |
 |копия;  <br/> |String  <br/> |CC: "ронние Стургис"  <br/> |
 |СК.  <br/> |String  <br/> |СК: МАКК  <br/> |
@@ -53,10 +53,10 @@ ms.locfileid: "19761113"
 |kind  <br/> |Тип элемента  <br/> |вид: собрания  <br/> |
 |sent  <br/> |Дата  <br/> |Отправлено: 12/10/2013  <br/> |
 |received  <br/> |Дата  <br/> |получено: вчера  <br/> |
-|HasAttachment  <br/> |Boolean  <br/> |Имеет вложение: true  <br/> |
-|с пометкой  <br/> |Boolean  <br/> |с пометкой: истина  <br/> |
-|IsRead  <br/> |Boolean  <br/> |чтение: false  <br/> |
-|size  <br/> |Номер  <br/> |Размер:\>5000  <br/> |
+|HasAttachment  <br/> |Логический  <br/> |Имеет вложение: true  <br/> |
+|с пометкой  <br/> |Логический  <br/> |с пометкой: истина  <br/> |
+|IsRead  <br/> |Логический  <br/> |чтение: false  <br/> |
+|size  <br/> |Номер  <br/> |Размер: \> 5000  <br/> |
    
 Давайте посмотрим, как работают различные типы значений.
   
@@ -120,7 +120,7 @@ ms.locfileid: "19761113"
 - последний месяц    
 - следующий год
     
-Типы значений даты также можно сравнивать с операторами отношений, которые больше или меньше или указаны как диапазон с оператором Range **..**. Например, получено:\>11/30/2013, отправлено\>: = вчера и получено: 12/1/2013.. сегодня все допустимые строки запросов. 
+Типы значений даты также можно сравнивать с операторами отношений, которые больше или меньше или указаны как диапазон с оператором Range **..**. Например, получено: \> 11/30/2013, Отправлено: \> = вчера и получено: 12/1/2013.. сегодня все допустимые строки запросов. 
   
 ### <a name="using-a-boolean-value-type"></a>Использование типа логического значения
 
@@ -128,7 +128,7 @@ ms.locfileid: "19761113"
   
 ### <a name="using-a-number-value-type"></a>Использование типа числового значения
 
-Числовые типы значений могут выполнять поиск в виде точных совпадений, но их также можно искать с помощью операторов отношения, таких как больше или меньше. Например, размер: 10000 будет возвращать только элементы, размер которых равен 10000 байт, но размер:\>= 10000 будет возвращать элементы, размер которых не превышает 10000 байт. Кроме того, можно указать диапазон с помощью оператора диапазона ( **..**). Например, размер: 7000.. 8000 будут возвращать элементы, размер которых составляет от 7000 до 8000. 
+Числовые типы значений могут выполнять поиск в виде точных совпадений, но их также можно искать с помощью операторов отношения, таких как больше или меньше. Например, размер: 10000 будет возвращать только элементы, размер которых равен 10000 байт, но размер: \> = 10000 будет возвращать элементы, размер которых не превышает 10000 байт. Кроме того, можно указать диапазон с помощью оператора диапазона ( **..**). Например, размер: 7000.. 8000 будут возвращать элементы, размер которых составляет от 7000 до 8000. 
   
 ### <a name="using-logical-operators"></a>Использование логических операторов
 
@@ -159,7 +159,7 @@ ms.locfileid: "19761113"
 ## <a name="example-find-items-by-using-a-query-string-and-the-ews-managed-api"></a>Пример: Поиск элементов с помощью строки запроса и управляемого API EWS
 <a name="bk_ExampleEWSMA"> </a>
 
-В этом примере определен метод под названием **сеарчвискуеристринг** . Он принимает объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , объект [веллкновнфолдернаме](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) и объект **String** , который представляет строку запроса в качестве параметров. В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). 
+В этом примере определен метод под названием **сеарчвискуеристринг** . Он принимает объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , объект [веллкновнфолдернаме](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) и объект **String** , который представляет строку запроса в качестве параметров. В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -211,14 +211,14 @@ SearchWithQueryString(service, WellKnownFolderName.Inbox, queryString);
 ## <a name="example-find-items-by-using-a-query-string-and-ews"></a>Пример: Поиск элементов с помощью строки запроса и EWS
 <a name="bk_ExampleEWS"> </a>
 
-В этом примере запрос на SOAP [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) находит все элементы в папке "Входящие", используя фразу "план проекта" в теме. 
+В этом примере запрос на SOAP [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) находит все элементы в папке "Входящие", используя фразу "план проекта" в теме. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -253,16 +253,16 @@ SearchWithQueryString(service, WellKnownFolderName.Inbox, queryString);
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -289,7 +289,7 @@ SearchWithQueryString(service, WellKnownFolderName.Inbox, queryString);
 
 - [Поиск и веб-службах Exchange](search-and-ews-in-exchange.md)    
 - [Использование фильтров поиска с EWS в Exchange](how-to-use-search-filters-with-ews-in-exchange.md)    
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
-- [Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
+- [Операция FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 

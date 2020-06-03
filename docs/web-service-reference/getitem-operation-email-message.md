@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: e8492e3b-1c8d-4b14-8070-9530f8306edd
 description: Операция GetItem позволяет пользователю получать доступ к сведениям о сообщениях электронной почты.
-ms.openlocfilehash: 133a893ec7cd0c206d9db573f8b952eb3c2286df
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: f8be01cad3d4c4534f66593cbe8bcee477726972
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762833"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459996"
 ---
 # <a name="getitem-operation-email-message"></a>Операция GetItem (сообщение электронной почты)
 
@@ -33,7 +33,7 @@ ms.locfileid: "19762833"
     
 ## <a name="getitem-request-example"></a>Пример запроса GetItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса GetItem показано, как получить доступ к сведениям о сообщениях электронной почты.
   
@@ -45,11 +45,11 @@ ms.locfileid: "19762833"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <GetItem
-      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ItemShape>
         <t:BaseShape>Default</t:BaseShape>
         <t:IncludeMimeContent>true</t:IncludeMimeContent>
@@ -80,7 +80,7 @@ ms.locfileid: "19762833"
     
 ## <a name="successful-getitem-e-mail-message-response-example"></a>Пример ответа на сообщение об успешном выполнении операции GetItem (сообщение электронной почты)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос GetItem.
   
@@ -93,12 +93,12 @@ ms.locfileid: "19762833"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -157,7 +157,7 @@ ms.locfileid: "19762833"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификаторы контента, папки и элемента MIME были сокращены для сохранения удобочитаемости.
   
@@ -187,7 +187,7 @@ ms.locfileid: "19762833"
     
 - [Sensitivity](sensitivity.md)
     
-- [Основной текст](body.md)
+- [Body](body.md)
     
 - [Размер](size.md)
     
@@ -225,7 +225,7 @@ ms.locfileid: "19762833"
     
 ## <a name="getitem-e-mail-message-error-response-example"></a>Пример отклика "GetItem (сообщение электронной почты)"
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса GetItem. Ошибка вызвана попыткой получения недопустимого дополнительного свойства.
   
@@ -238,12 +238,12 @@ ms.locfileid: "19762833"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Error">
           <m:MessageText>Property is not valid for this object type.</m:MessageText>

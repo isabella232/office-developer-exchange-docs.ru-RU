@@ -3,15 +3,15 @@ title: Типы приложений EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: ca4e8b90-d0d8-4d55-aa92-19e21659d4f5
 description: Сведения о наиболее распространенных типах приложений, которые можно создать с помощью EWS в Exchange.
-ms.openlocfilehash: 1ce739f453ba1bc6f1b5d38edae3776daa562ffb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 02bbe039adaec1054ab33f642f3bf14a7ba22b90
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760943"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455431"
 ---
 # <a name="ews-application-types"></a>Типы приложений EWS
 

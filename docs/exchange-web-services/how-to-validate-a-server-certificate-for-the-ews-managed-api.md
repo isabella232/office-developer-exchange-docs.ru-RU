@@ -3,15 +3,15 @@ title: Проверка сертификата сервера для управ�
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1fe0b215-8340-4bc8-a6ce-4f591ca9e353
 description: Узнайте, как создавать и ссылаться на метод обратного вызова проверки сертификата, чтобы можно было выполнять запросы управляемых API EWS на сервер Exchange.
-ms.openlocfilehash: 13d7c51e55308b9e9997697a075c8a9e6b4f10d0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 195c51ca71890d6092e4182d23990bb528d37095
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761125"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456782"
 ---
 # <a name="validate-a-server-certificate-for-the-ews-managed-api"></a>Проверка сертификата сервера для управляемого API EWS
 
@@ -114,6 +114,6 @@ ServicePointManager.ServerCertificateValidationCallback = CertificateValidationC
 ## <a name="see-also"></a>См. также
 
 - [Настройка приложения веб-служб Exchange](setting-up-your-ews-application.md)  
-- [Начать работу с использованием веб-служб Exchange](start-using-web-services-in-exchange.md)
+- [Начало работы с веб-службами Exchange](start-using-web-services-in-exchange.md)
     
 

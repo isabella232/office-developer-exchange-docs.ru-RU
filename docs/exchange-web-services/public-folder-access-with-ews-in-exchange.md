@@ -3,15 +3,15 @@ title: Общих папок в Exchange доступ с EWS
 manager: sethgros
 ms.date: 7/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: d9372057-1deb-45de-8f98-b9149604429a
 description: Узнайте, как использовать веб-службы EWS и управляемый API EWS для доступа к общедоступным папкам и запросам общедоступных папок в Exchange.
-ms.openlocfilehash: af8983e1afd9dafb9f08f6736d6bed0f0487f8d2
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: e921a77b250e11e974b0c47b1d28a8e020837d44
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353912"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460213"
 ---
 # <a name="public-folder-access-with-ews-in-exchange"></a>Общих папок в Exchange доступ с EWS
 
@@ -26,26 +26,26 @@ ms.locfileid: "21353912"
 
 Большинство основных операций EWS поддерживают доступ к общедоступным папкам. Для работы с общедоступными папками можно использовать операции с папками и элементами, а также методы управляемого API EWS, приведенные в следующей таблице.
   
-Дополнительные сведения о методах управляемого API EWS приведены в статье [пространства имен управляемого API EWS](http://msdn.microsoft.com/en-us/library/jj220535%28v=exchg.80%29.aspx).
+Дополнительные сведения о методах управляемого API EWS приведены в статье [пространства имен управляемого API EWS](https://msdn.microsoft.com/library/jj220535%28v=exchg.80%29.aspx).
   
 |**Операция служб EWS**|**Метод управляемого API EWS**|
 |:-----|:-----|
-|[Операция CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |**Folder. Save ()** <br/> |
-|[Операция UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |**Folder. Update ()** <br/> |
-|[Операция DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |**Folder. Delete ()** <br/> |
-|[Операция MoveFolder](http://msdn.microsoft.com/library/c7233966-6c87-4a14-8156-b1610760176d%28Office.15%29.aspx)<sup>1</sup> <br/> |**Folder. Move ()** <br/> |
-|[Операция CopyFolder](http://msdn.microsoft.com/library/c7ea0d68-9793-4144-b378-d99536776db9%28Office.15%29.aspx)<sup>2</sup> <br/> |**Folder. Copy ()** <br/> |
-|[Операция GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |**Folder. bind ()** <br/> |
-|[Операция EmptyFolder](http://msdn.microsoft.com/library/98161486-e2f2-480f-8d5d-708ba81b208a%28Office.15%29.aspx)<sup>3</sup> <br/> |**Folder. Empty ()** <br/> |
-|[Операция FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |**ExchangeService. Финдфолдерс ()** <br/> **Folder. Финдфолдерс ()** <br/> |
-|[Операция CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> |**Item. Save ()** <br/> |
-|[Операция MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> |**Item. Move ()** <br/> |
-|[Операция CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> |**Item. Copy ()** <br/> |
-|[Операция UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |**Item. Update ()** <br/> |
-|[Операция DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |**Item. Delete ()** <br/> |
-|[Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)<sup>4</sup> <br/> |**ExchangeService. FindItems ()** <br/> **Folder. FindItems ()** <br/> |
-|[Операция GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> |**Item. bind ()** <br/> |
-|[Операция ConvertId](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)<sup>5</sup> <br/> |**ExchangeService. ConvertId ()** <br/> **ExchangeService. Конвертидс ()** <br/> |
+|[Операция CreateFolder](https://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |**Folder. Save ()** <br/> |
+|[Операция UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |**Folder. Update ()** <br/> |
+|[Операция DeleteFolder](https://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |**Folder. Delete ()** <br/> |
+|[Операция MoveFolder](https://msdn.microsoft.com/library/c7233966-6c87-4a14-8156-b1610760176d%28Office.15%29.aspx)<sup>1</sup> <br/> |**Folder. Move ()** <br/> |
+|[Операция CopyFolder](https://msdn.microsoft.com/library/c7ea0d68-9793-4144-b378-d99536776db9%28Office.15%29.aspx)<sup>2</sup> <br/> |**Folder. Copy ()** <br/> |
+|[Операция GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |**Folder. bind ()** <br/> |
+|[Операция EmptyFolder](https://msdn.microsoft.com/library/98161486-e2f2-480f-8d5d-708ba81b208a%28Office.15%29.aspx)<sup>3</sup> <br/> |**Folder. Empty ()** <br/> |
+|[Операция FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |**ExchangeService. Финдфолдерс ()** <br/> **Folder. Финдфолдерс ()** <br/> |
+|[Операция CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> |**Item. Save ()** <br/> |
+|[Операция MoveItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> |**Item. Move ()** <br/> |
+|[Операция CopyItem](https://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> |**Item. Copy ()** <br/> |
+|[Операция UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |**Item. Update ()** <br/> |
+|[Операция DeleteItem](https://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |**Item. Delete ()** <br/> |
+|[Операция FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)<sup>4</sup> <br/> |**ExchangeService. FindItems ()** <br/> **Folder. FindItems ()** <br/> |
+|[Операция GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> |**Item. bind ()** <br/> |
+|[Операция ConvertId](https://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)<sup>5</sup> <br/> |**ExchangeService. ConvertId ()** <br/> **ExchangeService. Конвертидс ()** <br/> |
    
 <sup>1</sup> перемещение папок между общедоступной папкой и частной папкой недоступно в версиях Exchange, начиная с Exchange 2013. 
   
@@ -55,7 +55,7 @@ ms.locfileid: "21353912"
   
 <sup>4</sup> полнотекстовый индексированный поиск в одной общедоступной папке с помощью параметра поиска QueryString поддерживается в версиях Exchange, начиная с Exchange 2013. 
   
-<sup>5</sup> операция ConvertId неправильно преобразует идентификаторы общедоступных папок из идентификатора EWS в идентификатор хранилища. Вы можете вручную обновить идентификатор, возвращаемый в качестве [обходного пути](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx#bk_usingConvertId).
+<sup>5</sup> операция ConvertId неправильно преобразует идентификаторы общедоступных папок из идентификатора EWS в идентификатор хранилища. Вы можете вручную обновить идентификатор, возвращаемый в качестве [обходного пути](https://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx#bk_usingConvertId).
   
 Следующие операции не поддерживаются или частично поддерживаются, для общедоступных папок в версиях Exchange, начиная с Exchange 2013:
   
@@ -82,15 +82,15 @@ ms.locfileid: "21353912"
   
 ### <a name="programmatically-access-email-messages-that-have-been-sent-to-distribution-lists"></a>Программный доступ к сообщениям электронной почты, отправленным в списки рассылки
 
-Пользователи почтовых ящиков Exchange могут использовать общедоступные папки для хранения сообщений электронной почты, отправляемых в списки рассылки. Это удобный способ сохранения истории списка рассылки. Для доступа к сохраненным электронным сообщениям списка рассылки можно использовать [операцию FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) или методы **ExchangeService. FindItems ()** и **Folder. FindItems ()** в управляемом API EWS. 
+Пользователи почтовых ящиков Exchange могут использовать общедоступные папки для хранения сообщений электронной почты, отправляемых в списки рассылки. Это удобный способ сохранения истории списка рассылки. Для доступа к сохраненным электронным сообщениям списка рассылки можно использовать [операцию FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) или методы **ExchangeService. FindItems ()** и **Folder. FindItems ()** в управляемом API EWS. 
   
 ### <a name="share-important-email-messages-and-other-mailbox-items"></a>Совместное использование важных сообщений электронной почты и других элементов почтового ящика
 
-Пользователи почтовых ящиков могут использовать общедоступные папки в качестве общего репозитория для элементов почтового ящика. Разные пользователи в организации могут обмениваться важными сообщениями электронной почты или контактами с помощью общедоступных папок. Службы EWS могут предоставлять доступ к этим общим почтовым ящикам. Для перемещения сообщений электронной почты, контактов и других элементов почтовых ящиков в общедоступную папку и из нее можно использовать [операцию MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) в EWS или метод **Item. Move ()** в управляемом API EWS. 
+Пользователи почтовых ящиков могут использовать общедоступные папки в качестве общего репозитория для элементов почтового ящика. Разные пользователи в организации могут обмениваться важными сообщениями электронной почты или контактами с помощью общедоступных папок. Службы EWS могут предоставлять доступ к этим общим почтовым ящикам. Для перемещения сообщений электронной почты, контактов и других элементов почтовых ящиков в общедоступную папку и из нее можно использовать [операцию MoveItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) в EWS или метод **Item. Move ()** в управляемом API EWS. 
   
 ### <a name="public-discussions-with-post-items"></a>Общедоступные обсуждения с элементами POST
 
-Общедоступные папки — это удобный контейнер для размещения элементов. POST Items предоставляют способ использования потоковых бесед без необходимости отправлять сообщения электронной почты между пользователями. Пользователи могут использовать общедоступные папки и размещать элементы для размещения и обслуживания связанных обсуждений между различными пользователями почтовых ящиков в Организации. Таким образом, пользователи почтовых ящиков могут получить доступ к общему журналу беседы, использующего элементы POST, даже если они не были частью беседы. Можно использовать [операцию CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) в EWS или метод **Item. Save ()** в управляемом API EWS для создания элементов и реагирования на них, хранящихся в общедоступной папке. 
+Общедоступные папки — это удобный контейнер для размещения элементов. POST Items предоставляют способ использования потоковых бесед без необходимости отправлять сообщения электронной почты между пользователями. Пользователи могут использовать общедоступные папки и размещать элементы для размещения и обслуживания связанных обсуждений между различными пользователями почтовых ящиков в Организации. Таким образом, пользователи почтовых ящиков могут получить доступ к общему журналу беседы, использующего элементы POST, даже если они не были частью беседы. Можно использовать [операцию CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) в EWS или метод **Item. Save ()** в управляемом API EWS для создания элементов и реагирования на них, хранящихся в общедоступной папке. 
   
 ## <a name="routing-public-folder-requests"></a>Маршрутизация запросов к общедоступным папкам
 <a name="bk_routing"> </a>
@@ -103,8 +103,8 @@ ms.locfileid: "21353912"
 
 |**При вызове этих методов**|**При вызове этих операций**|**Используйте эту процедуру**|
 |:-----|:-----|:-----|
-|[Folder. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) <br/> [Folder. Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> [Folder. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> [Папка. Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.move%28v=exchg.80%29.aspx) <br/> |[CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> [DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> [UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> [MoveFolder](http://msdn.microsoft.com/library/c7233966-6c87-4a14-8156-b1610760176d%28Office.15%29.aspx) <br/> |Маршрутизация запросов иерархии общедоступных папок  <br/> |
-|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item. Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Элемент. Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |Маршрутизация запросов содержимого общедоступных папок  <br/> |
+|[Folder. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) <br/> [Folder. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> [Folder. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> [Папка. Move](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.move%28v=exchg.80%29.aspx) <br/> |[CreateFolder](https://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> [DeleteFolder](https://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> [UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> [MoveFolder](https://msdn.microsoft.com/library/c7233966-6c87-4a14-8156-b1610760176d%28Office.15%29.aspx) <br/> |Маршрутизация запросов иерархии общедоступных папок  <br/> |
+|[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item. Copy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Элемент. Move](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](https://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |Маршрутизация запросов содержимого общедоступных папок  <br/> |
    
 ## <a name="version-differences"></a>Различия версий
 <a name="VersionDifferences"> </a>
@@ -118,10 +118,10 @@ ms.locfileid: "21353912"
     
 - [Начало работы с веб-службами Exchange](start-using-web-services-in-exchange.md)
     
-- [Пределы для общедоступных папок](http://technet.microsoft.com/en-us/library/dn594582%28v=exchg.150%29.aspx)
+- [Пределы для общедоступных папок](https://technet.microsoft.com/library/dn594582%28v=exchg.150%29.aspx)
     
-- [Вопросы и ответы: общедоступные папки](http://technet.microsoft.com/en-us/library/jj552408.aspx)
+- [Вопросы и ответы: общедоступные папки](https://technet.microsoft.com/library/jj552408.aspx)
     
-- [Процедуры для общедоступных папок](http://technet.microsoft.com/en-us/library/jj657481.aspx)
+- [Процедуры для общедоступных папок](https://technet.microsoft.com/library/jj657481.aspx)
     
 

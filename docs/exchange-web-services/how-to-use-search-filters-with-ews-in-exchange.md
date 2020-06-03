@@ -3,15 +3,15 @@ title: Использование фильтров поиска с EWS в Exchan
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 20fc6d2d-41c2-4490-98b8-c52513977fef
 description: Узнайте, как использовать фильтры поиска с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 0652c36fd610c2f9dfe22b55323b368997137e0c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 04a74ec92d4bced8abd58d164a1c186d6405e679
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761139"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455837"
 ---
 # <a name="use-search-filters-with-ews-in-exchange"></a>Использование фильтров поиска с EWS в Exchange
 
@@ -35,19 +35,19 @@ ms.locfileid: "19761139"
 ## <a name="determine-what-type-of-search-filter-you-need"></a>Определение необходимого типа фильтра поиска
 <a name="bk_SelectFilter"> </a>
 
-Прежде чем приступать к созданию фильтра поиска, сначала определите необходимый тип фильтра. Типы фильтров реализуются как классы потомков класса [SearchFilter](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS, а также как дочерние элементы элемента [restriction](http://msdn.microsoft.com/library/77f19014-d112-4999-8e83-ecc32a117a73%28Office.15%29.aspx) в EWS. 
+Прежде чем приступать к созданию фильтра поиска, сначала определите необходимый тип фильтра. Типы фильтров реализуются как классы потомков класса [SearchFilter](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter%28v=exchg.80%29.aspx) в УПРАВЛЯЕМОМ API EWS, а также как дочерние элементы элемента [restriction](https://msdn.microsoft.com/library/77f19014-d112-4999-8e83-ecc32a117a73%28Office.15%29.aspx) в EWS. 
   
 **Таблица 1. Типы фильтров поиска**
 
 |**Тип фильтра**|**Класс управляемого API EWS**|**Элемент EWS**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|Содержит фильтр  <br/> |[контаинссубстринг](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.containssubstring%28v=exchg.80%29.aspx) <br/> |[Contains](http://msdn.microsoft.com/library/476d059d-c243-43e9-b475-319fc413ade2%28Office.15%29.aspx) <br/> |Лучший тип фильтра, используемый для сравнений строк. Он позволяет управлять чувствительностью к регистру, независимо от того, следует ли игнорировать пробелы и устанавливать режим включения.  <br/> |
-|Фильтр масок  <br/> |[ексклудесбитмаск](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.excludesbitmask%28v=exchg.80%29.aspx) <br/> |[Исключает](http://msdn.microsoft.com/library/bbaeddf6-9a67-4ee0-af99-7a7a5bbdc0e1%28Office.15%29.aspx) <br/> |Позволяет выполнять поиск в целых свойствах в виде битовых масок и возвращать только результаты с битами, соответствующими заданной битовой маске.  <br/> |
-|Фильтр EXISTS  <br/> |[Exists](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.exists%28v=exchg.80%29.aspx) <br/> |[Exists](http://msdn.microsoft.com/library/55d568bd-8dbc-4d50-b9d7-54b74a54d4b5%28Office.15%29.aspx) <br/> |Возвращает все элементы, у которых есть указанное свойство, независимо от значения.  <br/> |
-|Фильтр равенства  <br/> |[исекуалто](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.isequalto%28v=exchg.80%29.aspx) <br/> [иснотекуалто](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.isnotequalto%28v=exchg.80%29.aspx) <br/> |[исекуалто](http://msdn.microsoft.com/library/48e7e067-049c-4184-8026-071e6f558e8a%28Office.15%29.aspx) <br/> [иснотекуалто](http://msdn.microsoft.com/library/e2eff26c-3403-45cd-bb74-1eb98c7dbfcd%28Office.15%29.aspx) <br/> |Сравнивает значение указанного свойства с указанным значением константы или значением другого свойства и возвращает все элементы, имеющие значение равно (в случае фильтра **исекуалто** ) или не равное значение (в случае фильтра **иснотекуалто** ).  <br/> |
-|Фильтр реляционного тестирования  <br/> |[исгреатерсан](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.isgreaterthan%28v=exchg.80%29.aspx) <br/> [исгреатерсанорекуалто](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.isgreaterthanorequalto%28v=exchg.80%29.aspx) <br/> [ислесссан](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.islessthan%28v=exchg.80%29.aspx) <br/> [ислесссанорекуалто](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.islessthanorequalto%28v=exchg.80%29.aspx) <br/> |[исгреатерсан](http://msdn.microsoft.com/library/a6e9d462-cfa7-40ec-903e-128c95050352%28Office.15%29.aspx) <br/> [исгреатерсанорекуалто](http://msdn.microsoft.com/library/373cc954-314d-40e2-be03-cc08aefc0d5b%28Office.15%29.aspx) <br/> [ислесссан](http://msdn.microsoft.com/library/2550469b-6e5d-45a5-9ecc-090d1b409296%28Office.15%29.aspx) <br/> [ислесссанорекуалто](http://msdn.microsoft.com/library/b5d85eb2-5e15-4d01-ad49-6289e735ad8a%28Office.15%29.aspx) <br/> |Возвращает все элементы, имеющие значение указанного свойства в соответствии с указанным значением константы или с другим свойством. Например, фильтр **исгреатерсан** возвращает все элементы со значением, превышающим указанное значение в указанном свойстве.  <br/> |
-|Фильтр отрицания  <br/> |[Not](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.not%28v=exchg.80%29.aspx) <br/> |[Not](http://msdn.microsoft.com/library/1aa16318-7e90-4b19-bce8-dd1a20a66223%28Office.15%29.aspx) <br/> |Инвертирует результат других фильтров.  <br/> |
-|Составной фильтр  <br/> |[SearchFilterCollection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.searchfiltercollection%28v=exchg.80%29.aspx) <br/> |[And](http://msdn.microsoft.com/library/790246c2-37ad-49a8-91b9-6186d743b011%28Office.15%29.aspx) <br/> [Or](http://msdn.microsoft.com/library/4876d83a-73a3-4953-9d95-3048e6b76ccb%28Office.15%29.aspx) <br/> |Объединяет несколько фильтров, позволяя использовать более сложные критерии поиска.  <br/> |
+|Содержит фильтр  <br/> |[контаинссубстринг](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.containssubstring%28v=exchg.80%29.aspx) <br/> |[Contains](https://msdn.microsoft.com/library/476d059d-c243-43e9-b475-319fc413ade2%28Office.15%29.aspx) <br/> |Лучший тип фильтра, используемый для сравнений строк. Он позволяет управлять чувствительностью к регистру, независимо от того, следует ли игнорировать пробелы и устанавливать режим включения.  <br/> |
+|Фильтр масок  <br/> |[ексклудесбитмаск](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.excludesbitmask%28v=exchg.80%29.aspx) <br/> |[Исключает](https://msdn.microsoft.com/library/bbaeddf6-9a67-4ee0-af99-7a7a5bbdc0e1%28Office.15%29.aspx) <br/> |Позволяет выполнять поиск в целых свойствах в виде битовых масок и возвращать только результаты с битами, соответствующими заданной битовой маске.  <br/> |
+|Фильтр EXISTS  <br/> |[Exists](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.exists%28v=exchg.80%29.aspx) <br/> |[Exists](https://msdn.microsoft.com/library/55d568bd-8dbc-4d50-b9d7-54b74a54d4b5%28Office.15%29.aspx) <br/> |Возвращает все элементы, у которых есть указанное свойство, независимо от значения.  <br/> |
+|Фильтр равенства  <br/> |[исекуалто](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.isequalto%28v=exchg.80%29.aspx) <br/> [иснотекуалто](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.isnotequalto%28v=exchg.80%29.aspx) <br/> |[исекуалто](https://msdn.microsoft.com/library/48e7e067-049c-4184-8026-071e6f558e8a%28Office.15%29.aspx) <br/> [иснотекуалто](https://msdn.microsoft.com/library/e2eff26c-3403-45cd-bb74-1eb98c7dbfcd%28Office.15%29.aspx) <br/> |Сравнивает значение указанного свойства с указанным значением константы или значением другого свойства и возвращает все элементы, имеющие значение равно (в случае фильтра **исекуалто** ) или не равное значение (в случае фильтра **иснотекуалто** ).  <br/> |
+|Фильтр реляционного тестирования  <br/> |[исгреатерсан](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.isgreaterthan%28v=exchg.80%29.aspx) <br/> [исгреатерсанорекуалто](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.isgreaterthanorequalto%28v=exchg.80%29.aspx) <br/> [ислесссан](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.islessthan%28v=exchg.80%29.aspx) <br/> [ислесссанорекуалто](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.islessthanorequalto%28v=exchg.80%29.aspx) <br/> |[исгреатерсан](https://msdn.microsoft.com/library/a6e9d462-cfa7-40ec-903e-128c95050352%28Office.15%29.aspx) <br/> [исгреатерсанорекуалто](https://msdn.microsoft.com/library/373cc954-314d-40e2-be03-cc08aefc0d5b%28Office.15%29.aspx) <br/> [ислесссан](https://msdn.microsoft.com/library/2550469b-6e5d-45a5-9ecc-090d1b409296%28Office.15%29.aspx) <br/> [ислесссанорекуалто](https://msdn.microsoft.com/library/b5d85eb2-5e15-4d01-ad49-6289e735ad8a%28Office.15%29.aspx) <br/> |Возвращает все элементы, имеющие значение указанного свойства в соответствии с указанным значением константы или с другим свойством. Например, фильтр **исгреатерсан** возвращает все элементы со значением, превышающим указанное значение в указанном свойстве.  <br/> |
+|Фильтр отрицания  <br/> |[Not](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.not%28v=exchg.80%29.aspx) <br/> |[Not](https://msdn.microsoft.com/library/1aa16318-7e90-4b19-bce8-dd1a20a66223%28Office.15%29.aspx) <br/> |Инвертирует результат других фильтров.  <br/> |
+|Составной фильтр  <br/> |[SearchFilterCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.searchfiltercollection%28v=exchg.80%29.aspx) <br/> |[And](https://msdn.microsoft.com/library/790246c2-37ad-49a8-91b9-6186d743b011%28Office.15%29.aspx) <br/> [Or](https://msdn.microsoft.com/library/4876d83a-73a3-4953-9d95-3048e6b76ccb%28Office.15%29.aspx) <br/> |Объединяет несколько фильтров, позволяя использовать более сложные критерии поиска.  <br/> |
    
 ### <a name="contains-filter"></a>Содержит фильтр
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761139"
 #### <a name="contains-filter-in-the-ews-managed-api"></a>Содержит фильтр в управляемом API EWS
 <a name="bk_ContainsEWSMA"> </a>
 
-Если вы используете управляемый API EWS, то задается режим включения с помощью свойства [контаинментмоде](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.containssubstring.containmentmode%28v=exchg.80%29.aspx) класса [контаинссубстринг](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.containssubstring%28v=exchg.80%29.aspx) , а режим сравнения задается с помощью свойства [компарисонмоде](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.containssubstring.comparisonmode%28v=exchg.80%29.aspx) класса **контаинссубстринг** . В приведенном ниже примере показано, как создать фильтр поиска, который выполняет поиск в поле subject элементов для подстроки "заметки к собранию". В этом примере игнорируется регистр, но не учитывается пробелы. 
+Если вы используете управляемый API EWS, то задается режим включения с помощью свойства [контаинментмоде](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.containssubstring.containmentmode%28v=exchg.80%29.aspx) класса [контаинссубстринг](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.containssubstring%28v=exchg.80%29.aspx) , а режим сравнения задается с помощью свойства [компарисонмоде](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.containssubstring.comparisonmode%28v=exchg.80%29.aspx) класса **контаинссубстринг** . В приведенном ниже примере показано, как создать фильтр поиска, который выполняет поиск в поле subject элементов для подстроки "заметки к собранию". В этом примере игнорируется регистр, но не учитывается пробелы. 
   
 ```cs
 // Find all items with a subject that contain the substring
@@ -72,7 +72,7 @@ SearchFilter.ContainsSubstring subjectFilter = new SearchFilter.ContainsSubstrin
 #### <a name="contains-filter-in-ews"></a>Содержит фильтр в EWS
 <a name="bk_ContainsEWSMA"> </a>
 
-В EWS режим включения задается с помощью атрибута **контаинментмоде** в элементе [Contains](http://msdn.microsoft.com/library/476d059d-c243-43e9-b475-319fc413ade2%28Office.15%29.aspx) , а режим сравнения задается с помощью атрибута **контаинменткомпарисон** элемента **Contains** . В приведенном ниже примере показано, как создать фильтр поиска для поиска в поле темы элементов для подстроки "заметки к собранию". В этом примере игнорируется регистр, но не учитывается пробелы. 
+В EWS режим включения задается с помощью атрибута **контаинментмоде** в элементе [Contains](https://msdn.microsoft.com/library/476d059d-c243-43e9-b475-319fc413ade2%28Office.15%29.aspx) , а режим сравнения задается с помощью атрибута **контаинменткомпарисон** элемента **Contains** . В приведенном ниже примере показано, как создать фильтр поиска для поиска в поле темы элементов для подстроки "заметки к собранию". В этом примере игнорируется регистр, но не учитывается пробелы. 
   
 ```XML
 <t:Contains ContainmentMode="Substring" ContainmentComparison="IgnoreCase">
@@ -185,7 +185,7 @@ SearchFilter.IsNotEqualTo indexNotEqualToSizeFilter =
 
 ### <a name="relational-testing-filter"></a>Фильтр реляционного тестирования
 
-Фильтры реляционных тестов позволяют выполнять поиск всех элементов со значением в указанном свойстве, которое может\>быть больше (), больше или равно (\>=), меньше (\<) или меньше или равно (\<=) заданному значению. Значение, с которым выполняется сравнение, может быть постоянным значением или значением другого свойства для каждого элемента.
+Фильтры реляционных тестов позволяют выполнять поиск всех элементов со значением в указанном свойстве, которое может быть больше ( \> ), больше или равно ( \> =), меньше ( \< ) или меньше или равно ( \< =) заданному значению. Значение, с которым выполняется сравнение, может быть постоянным значением или значением другого свойства для каждого элемента.
   
 #### <a name="relational-testing-filter-in-the-ews-managed-api"></a>Фильтр реляционного тестирования в управляемом API EWS
 
@@ -322,12 +322,12 @@ SearchFilter.SearchFilterCollection compoundFilter =
 
 В следующих методах управляемого API EWS используются фильтры поиска:
   
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
-- [ExchangeService. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
-- [Folder. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
-- [Folder. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
+- [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [ExchangeService. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
+- [Folder. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
+- [Folder. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
-В следующем примере используется метод **ExchangeService. FindItems** ; Тем не менее, одни и те же правила и концепции применяются ко всем методам. В этом примере определен метод под названием **сеарчвисфилтер** . Он принимает объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , объект [Веллкновнфолдернаме](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) и объект [SearchFilter](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter%28v=exchg.80%29.aspx) в качестве параметров. В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). Класс **SearchFilter** является базовым классом для всех различных фильтров поиска. 
+В следующем примере используется метод **ExchangeService. FindItems** ; Тем не менее, одни и те же правила и концепции применяются ко всем методам. В этом примере определен метод под названием **сеарчвисфилтер** . Он принимает объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , объект [Веллкновнфолдернаме](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) и объект [SearchFilter](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter%28v=exchg.80%29.aspx) в качестве параметров. В этом примере предполагается, что для объекта **ExchangeService** выполнена инициализация с допустимыми значениями в свойствах [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) и [Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx). Класс **SearchFilter** является базовым классом для всех различных фильтров поиска. 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data
@@ -390,17 +390,17 @@ SearchWithFilter(service, WellKnownFolderName.Inbox, compoundFilter);
 
 Следующие операции EWS используют фильтры поиска:
   
-- [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
-- [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
+- [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
-В приведенном ниже примере используется операция **FindItem** ; Тем не менее, одни и те же правила и концепции применимы к обеим операциям. Фильтры поиска хранятся в элементе [restriction](http://msdn.microsoft.com/library/77f19014-d112-4999-8e83-ecc32a117a73%28Office.15%29.aspx) в запросах SOAP. В этом примере отправляется SOAP-запрос, эквивалентный поиску, который показан в предыдущем примере управляемого API EWS. 
+В приведенном ниже примере используется операция **FindItem** ; Тем не менее, одни и те же правила и концепции применимы к обеим операциям. Фильтры поиска хранятся в элементе [restriction](https://msdn.microsoft.com/library/77f19014-d112-4999-8e83-ecc32a117a73%28Office.15%29.aspx) в запросах SOAP. В этом примере отправляется SOAP-запрос, эквивалентный поиску, который показан в предыдущем примере управляемого API EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -446,17 +446,17 @@ SearchWithFilter(service, WellKnownFolderName.Inbox, compoundFilter);
 В следующем примере показан ответ от сервера, включая результаты поиска.
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -514,11 +514,11 @@ SearchWithFilter(service, WellKnownFolderName.Inbox, compoundFilter);
 
 - [Поиск и веб-службах Exchange](search-and-ews-in-exchange.md)    
 - [Выполнение поиска AQS с помощью EWS в Exchange](how-to-perform-an-aqs-search-by-using-ews-in-exchange.md)   
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
-- [ExchangeService. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)    
-- [Folder. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)    
-- [Folder. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)    
-- [Операция FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)   
-- [Операция FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
+- [ExchangeService. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)    
+- [Folder. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)    
+- [Folder. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)    
+- [Операция FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)   
+- [Операция FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 
