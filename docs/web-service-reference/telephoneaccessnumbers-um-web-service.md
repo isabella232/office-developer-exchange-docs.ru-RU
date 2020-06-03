@@ -15,7 +15,7 @@ ms.openlocfilehash: b39de192203526c059bcb7ac9b29b7193a8d5a65
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466642"
 ---
 # <a name="telephoneaccessnumbers-um-web-service"></a>Телефонеакцесснумберс (веб-служба единой системы обмена сообщениями)

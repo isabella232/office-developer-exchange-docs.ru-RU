@@ -16,7 +16,7 @@ ms.openlocfilehash: 80adbe71d69be1025dc9593c6a9002bc68fdcb76
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466516"
 ---
 # <a name="adddelegate-operation"></a>Операция AddDelegate
@@ -36,7 +36,7 @@ ms.locfileid: "44466516"
    
 ## <a name="adddelegate-request-example"></a>Пример запроса AddDelegate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **AddDelegate** показана попытка предоставить представителю User1 разрешения на делегирование папок, владельцем которых является Пользователь2. Пользователю User1 предоставляются разрешения на уровне автора для папки календаря user2's и разрешения на уровне просмотра для папки контактов user2's. Пользователь1 не будет получать копии сообщений о собраниях и не сможет просматривать частные элементы в почтовом ящике user2's. Приглашения на собрания будут отправляться как в Пользователь1, так и в Пользователь2. 
   
@@ -75,7 +75,7 @@ ms.locfileid: "44466516"
 
 ## <a name="adddelegate-response-example"></a>Пример отклика AddDelegate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа **AddDelegate** показано, как успешно ответить на запрос **AddDelegate** . 
   
@@ -120,7 +120,7 @@ ms.locfileid: "44466516"
 
 ## <a name="adddelegate-error-response-example"></a>Пример ответа на сообщение об ошибке AddDelegate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ на запрос на добавление делегата, который уже был добавлен в почтовый ящик субъекта.
   

@@ -15,7 +15,7 @@ ms.openlocfilehash: f1a3aa99a6649d033fad3ee0696177adb5835baa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467370"
 ---
 # <a name="unified-messaging-web-service-xml-elements-for-exchange"></a>XML-элементы веб-службы единой системы обмена сообщениями для Exchange
@@ -32,7 +32,7 @@ ms.locfileid: "44467370"
 ## <a name="see-also"></a>См. также
 
 - [Справочные материалы по веб-службе единой системы обмена сообщениями для Exchange](unified-messaging-web-service-reference-for-exchange.md)
-- [Автообнаружение для Exchange](../exchange-web-services/autodiscover-for-exchange.md)
-- [Начать работу с использованием веб-служб Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Автообнаружение в Exchange](../exchange-web-services/autodiscover-for-exchange.md)
+- [Начало работы с веб-службами Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

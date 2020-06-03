@@ -15,7 +15,7 @@ ms.openlocfilehash: e4bb63f34650dae8fc28016196c97a6b79e69df0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467377"
 ---
 # <a name="unified-messaging-web-service-reference-for-exchange"></a>Справочные материалы по веб-службе единой системы обмена сообщениями для Exchange
@@ -42,7 +42,7 @@ ms.locfileid: "44467377"
 ## <a name="see-also"></a>См. также
 
 - [Справочные материалы по веб-службе автообнаружения для Exchange](autodiscover-web-service-reference-for-exchange.md)
-- [Автообнаружение для Exchange](../exchange-web-services/autodiscover-for-exchange.md)
-- [Начать работу с использованием веб-служб Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Автообнаружение в Exchange](../exchange-web-services/autodiscover-for-exchange.md)
+- [Начало работы с веб-службами Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

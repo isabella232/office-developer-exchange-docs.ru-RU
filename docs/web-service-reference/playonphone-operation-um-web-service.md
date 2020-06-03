@@ -15,7 +15,7 @@ ms.openlocfilehash: c5ff82bcd822aa2c659d1782ea4a1349d198bc80
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466236"
 ---
 # <a name="playonphone-operation-um-web-service"></a>Операция PlayOnPhone (веб-служба единой системы обмена сообщениями)
@@ -24,7 +24,7 @@ ms.locfileid: "44466236"
   
 ## <a name="playonphone-request-example"></a>Пример запроса PlayOnPhone
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса PlayOnPhone показано, как создать запрос на получение исходящего вызова и прослушивание сообщения.
   
@@ -44,7 +44,7 @@ ms.locfileid: "44466236"
 
 ## <a name="successful-playonphone-response-example"></a>Пример успешного ответа PlayOnPhone
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа PlayOnPhone показан ответ на запрос PlayOnPhone.
   

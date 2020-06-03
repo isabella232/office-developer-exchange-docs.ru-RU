@@ -16,7 +16,7 @@ ms.openlocfilehash: b4606eb7d94b9d0c4c5bcd5a2b56d73a4d4270cb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467426"
 ---
 # <a name="setitemfield"></a>сетитемфиелд
@@ -252,7 +252,7 @@ ms.locfileid: "44467426"
 |[индекседфиелдури](indexedfielduri.md) <br/> |Определяет отдельные элементы словаря.  <br/> |
 |[екстендедфиелдури](extendedfielduri.md) <br/> |Определяет устанавливаемые расширенные свойства MAPI.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange, которое требуется обновить.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange, которое требуется обновить.  <br/> |
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange, который необходимо обновить.  <br/> |
 |[контакт](contact.md); <br/> |Представляет элемент контакта Exchange, который необходимо обновить.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки, который необходимо обновить.  <br/> |

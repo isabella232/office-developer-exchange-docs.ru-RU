@@ -16,7 +16,7 @@ ms.openlocfilehash: b2e342225e7e79c44dcd86b76b4b7d47b16b860b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466600"
 ---
 # <a name="removedelegate-operation"></a>Операция RemoveDelegate
@@ -36,7 +36,7 @@ ms.locfileid: "44466600"
    
 ## <a name="removedelegate-request-example"></a>Пример запроса RemoveDelegate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере кода показано, как удалить двух делегатов из почтового ящика user1's. В этом примере один делегат удаляется с помощью основного SMTP-адреса делегата, а другой удаляется с помощью идентификатора безопасности делегата (SID).
   
@@ -74,7 +74,7 @@ ms.locfileid: "44466600"
   
 ## <a name="removedelegate-response-example"></a>Пример отклика RemoveDelegate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа **RemoveDelegate** показан успешный ответ на запрос **RemoveDelegate** . Ответ содержит элемент **делегатеусерреспонсемессажетипе** для каждого делегата, который удаляется из почтового ящика. 
   
@@ -113,7 +113,7 @@ ms.locfileid: "44466600"
 
 ## <a name="removedelegate-error-response-example"></a>Пример ответа на сообщение об ошибке RemoveDelegate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа на ошибку **RemoveDelegate** показаны результаты запроса на удаление делегата, который не существует. 
   

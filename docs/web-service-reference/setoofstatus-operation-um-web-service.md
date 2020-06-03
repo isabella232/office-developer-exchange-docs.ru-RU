@@ -15,7 +15,7 @@ ms.openlocfilehash: 2311b6137ac25d15ad3d06668450c1d0f7ec1fad
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467356"
 ---
 # <a name="setoofstatus-operation-um-web-service"></a>Операция SetOofStatus (веб-служба единой системы обмена сообщениями)
@@ -24,7 +24,7 @@ ms.locfileid: "44467356"
   
 ## <a name="setoofstatus-request-example"></a>Пример запроса SetOofStatus
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса SetOofStatus показано, как сформировать запрос на включение приветствия "нет на месте" для почтового ящика.
   
@@ -43,7 +43,7 @@ ms.locfileid: "44467356"
 
 ## <a name="successful-setoofstatus-response-example"></a>Пример успешного ответа SetOofStatus
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа SetOofStatus показан ответ на запрос SetOofStatus.
   
