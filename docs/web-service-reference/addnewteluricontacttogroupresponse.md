@@ -12,12 +12,12 @@ ms.openlocfilehash: dfbf208cd5fc59902b16661658985442d4fa57e8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464919"
 ---
-# <a name="addnewteluricontacttogroupresponse"></a><span data-ttu-id="9c6fd-103">аддневтелуриконтакттограупреспонсе</span><span class="sxs-lookup"><span data-stu-id="9c6fd-103">AddNewTelUriContactToGroupResponse</span></span>
+# <a name="addnewteluricontacttogroupresponse"></a><span data-ttu-id="43374-103">аддневтелуриконтакттограупреспонсе</span><span class="sxs-lookup"><span data-stu-id="43374-103">AddNewTelUriContactToGroupResponse</span></span>
 
-<span data-ttu-id="9c6fd-104">Элемент **аддневтелуриконтакттограупреспонсе** указывает данные результата для операции WSDL **AddNewTelUriContactToGroup** .</span><span class="sxs-lookup"><span data-stu-id="9c6fd-104">The **AddNewTelUriContactToGroupResponse** element specifies the result data for the **AddNewTelUriContactToGroup** WSDL operation.</span></span> 
+<span data-ttu-id="43374-104">Элемент **аддневтелуриконтакттограупреспонсе** указывает данные результата для операции WSDL **AddNewTelUriContactToGroup** .</span><span class="sxs-lookup"><span data-stu-id="43374-104">The **AddNewTelUriContactToGroupResponse** element specifies the result data for the **AddNewTelUriContactToGroup** WSDL operation.</span></span> 
   
 ```XML
 <AddNewTelUriContactToGroupResponse>
@@ -28,40 +28,40 @@ ms.locfileid: "44464919"
 </AddNewTelUriContactToGroupResponse>
 ```
 
- <span data-ttu-id="9c6fd-105">**аддневтелуриконтакттограупреспонсемессажетипе**</span><span class="sxs-lookup"><span data-stu-id="9c6fd-105">**AddNewTelUriContactToGroupResponseMessageType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="9c6fd-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="9c6fd-106">Attributes and elements</span></span>
+ <span data-ttu-id="43374-105">**аддневтелуриконтакттограупреспонсемессажетипе**</span><span class="sxs-lookup"><span data-stu-id="43374-105">**AddNewTelUriContactToGroupResponseMessageType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="43374-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="43374-106">Attributes and elements</span></span>
 
-<span data-ttu-id="9c6fd-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="9c6fd-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="43374-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="43374-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="9c6fd-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="9c6fd-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="43374-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="43374-108">Attributes</span></span>
 
-<span data-ttu-id="9c6fd-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="9c6fd-109">None.</span></span>
+<span data-ttu-id="43374-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="43374-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="9c6fd-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="9c6fd-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="43374-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="43374-110">Child elements</span></span>
 
-<span data-ttu-id="9c6fd-111">[Персонаж](persona.md)  |  [Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)</span><span class="sxs-lookup"><span data-stu-id="9c6fd-111">[Persona](persona.md) | [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md)</span></span>
+<span data-ttu-id="43374-111">[Персонаж](persona.md)  |  [Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)</span><span class="sxs-lookup"><span data-stu-id="43374-111">[Persona](persona.md) | [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="9c6fd-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="9c6fd-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="43374-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="43374-112">Parent elements</span></span>
 
-<span data-ttu-id="9c6fd-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="9c6fd-113">None.</span></span>
+<span data-ttu-id="43374-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="43374-113">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9c6fd-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="9c6fd-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="43374-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="43374-114">Remarks</span></span>
 
-<span data-ttu-id="9c6fd-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9c6fd-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="43374-115">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="43374-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="9c6fd-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="9c6fd-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="43374-116">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="43374-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="9c6fd-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="9c6fd-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="43374-117">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="43374-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="9c6fd-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="9c6fd-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="9c6fd-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="9c6fd-119">Schema name</span></span>  <br/> |<span data-ttu-id="9c6fd-120">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="9c6fd-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="9c6fd-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="9c6fd-121">Validation file</span></span>  <br/> |<span data-ttu-id="9c6fd-122">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="9c6fd-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="9c6fd-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="9c6fd-123">Can be empty</span></span>  <br/> |<span data-ttu-id="9c6fd-124">False</span><span class="sxs-lookup"><span data-stu-id="9c6fd-124">False</span></span>  <br/> |
+|<span data-ttu-id="43374-118">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="43374-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="43374-119">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="43374-119">Schema name</span></span>  <br/> |<span data-ttu-id="43374-120">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="43374-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="43374-121">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="43374-121">Validation file</span></span>  <br/> |<span data-ttu-id="43374-122">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="43374-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="43374-123">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="43374-123">Can be empty</span></span>  <br/> |<span data-ttu-id="43374-124">False</span><span class="sxs-lookup"><span data-stu-id="43374-124">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="9c6fd-125">См. также</span><span class="sxs-lookup"><span data-stu-id="9c6fd-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="43374-125">См. также</span><span class="sxs-lookup"><span data-stu-id="43374-125">See also</span></span>
 
-- [<span data-ttu-id="9c6fd-126">Операция AddNewTelUriContactToGroup</span><span class="sxs-lookup"><span data-stu-id="9c6fd-126">AddNewTelUriContactToGroup operation</span></span>](addnewteluricontacttogroup-operation.md)
-- [<span data-ttu-id="9c6fd-127">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="9c6fd-127">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="43374-126">Операция AddNewTelUriContactToGroup</span><span class="sxs-lookup"><span data-stu-id="43374-126">AddNewTelUriContactToGroup operation</span></span>](addnewteluricontacttogroup-operation.md)
+- [<span data-ttu-id="43374-127">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="43374-127">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

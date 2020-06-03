@@ -16,20 +16,20 @@ ms.openlocfilehash: 0c9233146d21c7014be15896426b968106485200
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463785"
 ---
-# <a name="createuserconfiguration-operation"></a><span data-ttu-id="bc964-103">Операция CreateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="bc964-103">CreateUserConfiguration operation</span></span>
+# <a name="createuserconfiguration-operation"></a><span data-ttu-id="ae3ea-103">Операция CreateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="ae3ea-103">CreateUserConfiguration operation</span></span>
 
-<span data-ttu-id="bc964-104">Операция **CreateUserConfiguration** создает объект конфигурации пользователя для папки.</span><span class="sxs-lookup"><span data-stu-id="bc964-104">The **CreateUserConfiguration** operation creates a user configuration object on a folder.</span></span> 
+<span data-ttu-id="ae3ea-104">Операция **CreateUserConfiguration** создает объект конфигурации пользователя для папки.</span><span class="sxs-lookup"><span data-stu-id="ae3ea-104">The **CreateUserConfiguration** operation creates a user configuration object on a folder.</span></span> 
   
-## <a name="createuserconfiguration-request-example"></a><span data-ttu-id="bc964-105">Пример запроса CreateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="bc964-105">CreateUserConfiguration request example</span></span>
+## <a name="createuserconfiguration-request-example"></a><span data-ttu-id="ae3ea-105">Пример запроса CreateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="ae3ea-105">CreateUserConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="bc964-106">Описание</span><span class="sxs-lookup"><span data-stu-id="bc964-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="ae3ea-106">Description</span><span class="sxs-lookup"><span data-stu-id="ae3ea-106">Description</span></span>
 
-<span data-ttu-id="bc964-107">В приведенном ниже примере запроса **CreateUserConfiguration** показано, как сформировать запрос на создание объекта конфигурации пользователя в папке "Черновики".</span><span class="sxs-lookup"><span data-stu-id="bc964-107">The following example of a **CreateUserConfiguration** request shows how to form a request to create a user configuration object on the Drafts folder.</span></span> 
+<span data-ttu-id="ae3ea-107">В приведенном ниже примере запроса **CreateUserConfiguration** показано, как сформировать запрос на создание объекта конфигурации пользователя в папке "Черновики".</span><span class="sxs-lookup"><span data-stu-id="ae3ea-107">The following example of a **CreateUserConfiguration** request shows how to form a request to create a user configuration object on the Drafts folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="bc964-108">Код</span><span class="sxs-lookup"><span data-stu-id="bc964-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="ae3ea-108">Код</span><span class="sxs-lookup"><span data-stu-id="ae3ea-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -67,13 +67,13 @@ ms.locfileid: "44463785"
 </soap:Envelope>
 ```
 
-## <a name="createuserconfiguration-response-example"></a><span data-ttu-id="bc964-109">Пример отклика CreateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="bc964-109">CreateUserConfiguration response example</span></span>
+## <a name="createuserconfiguration-response-example"></a><span data-ttu-id="ae3ea-109">Пример отклика CreateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="ae3ea-109">CreateUserConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="bc964-110">Описание</span><span class="sxs-lookup"><span data-stu-id="bc964-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="ae3ea-110">Description</span><span class="sxs-lookup"><span data-stu-id="ae3ea-110">Description</span></span>
 
-<span data-ttu-id="bc964-111">В следующем примере показан успешный ответ на запрос **CreateUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="bc964-111">The following example shows a successful response to the **CreateUserConfiguration** request.</span></span> 
+<span data-ttu-id="ae3ea-111">В следующем примере показан успешный ответ на запрос **CreateUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="ae3ea-111">The following example shows a successful response to the **CreateUserConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="bc964-112">Код</span><span class="sxs-lookup"><span data-stu-id="bc964-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="ae3ea-112">Код</span><span class="sxs-lookup"><span data-stu-id="ae3ea-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -103,11 +103,11 @@ ms.locfileid: "44463785"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="bc964-113">См. также</span><span class="sxs-lookup"><span data-stu-id="bc964-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ae3ea-113">См. также</span><span class="sxs-lookup"><span data-stu-id="ae3ea-113">See also</span></span>
 
 
 
-[<span data-ttu-id="bc964-114">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="bc964-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="ae3ea-114">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="ae3ea-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="bc964-115">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="bc964-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="ae3ea-115">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="ae3ea-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

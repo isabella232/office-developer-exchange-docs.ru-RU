@@ -16,66 +16,66 @@ ms.openlocfilehash: e90c44dd4124d698ca5ef7655f6429a7167673e6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465788"
 ---
-# <a name="meetingrequesttype"></a><span data-ttu-id="86ed5-103">митингрекуесттипе</span><span class="sxs-lookup"><span data-stu-id="86ed5-103">MeetingRequestType</span></span>
+# <a name="meetingrequesttype"></a><span data-ttu-id="06b05-103">митингрекуесттипе</span><span class="sxs-lookup"><span data-stu-id="06b05-103">MeetingRequestType</span></span>
 
-<span data-ttu-id="86ed5-104">Элемент **митингрекуесттипе** описывает тип приглашения на собрание.</span><span class="sxs-lookup"><span data-stu-id="86ed5-104">The **MeetingRequestType** element describes the type of the meeting request.</span></span> 
+<span data-ttu-id="06b05-104">Элемент **митингрекуесттипе** описывает тип приглашения на собрание.</span><span class="sxs-lookup"><span data-stu-id="06b05-104">The **MeetingRequestType** element describes the type of the meeting request.</span></span> 
   
 ```xml
 <MeetingRequestType/>
 ```
 
- <span data-ttu-id="86ed5-105">**митингрекуесттипетипе**</span><span class="sxs-lookup"><span data-stu-id="86ed5-105">**MeetingRequestTypeType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="86ed5-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="86ed5-106">Attributes and elements</span></span>
+ <span data-ttu-id="06b05-105">**митингрекуесттипетипе**</span><span class="sxs-lookup"><span data-stu-id="06b05-105">**MeetingRequestTypeType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="06b05-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="06b05-106">Attributes and elements</span></span>
 
-<span data-ttu-id="86ed5-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="86ed5-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="06b05-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="06b05-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="86ed5-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="86ed5-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="06b05-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="06b05-108">Attributes</span></span>
 
-<span data-ttu-id="86ed5-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="86ed5-109">None.</span></span>
+<span data-ttu-id="06b05-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="06b05-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="86ed5-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="86ed5-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="06b05-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="06b05-110">Child elements</span></span>
 
-<span data-ttu-id="86ed5-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="86ed5-111">None.</span></span>
+<span data-ttu-id="06b05-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="06b05-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="86ed5-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="86ed5-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="06b05-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="06b05-112">Parent elements</span></span>
 
-|<span data-ttu-id="86ed5-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="86ed5-113">**Element**</span></span>|<span data-ttu-id="86ed5-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="86ed5-114">**Description**</span></span>|
+|<span data-ttu-id="06b05-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="06b05-113">**Element**</span></span>|<span data-ttu-id="06b05-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="06b05-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="86ed5-115">Свойство meetingrequest</span><span class="sxs-lookup"><span data-stu-id="86ed5-115">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="86ed5-116">Представляет приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="86ed5-116">Represents a meeting request in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="06b05-115">Свойство meetingrequest</span><span class="sxs-lookup"><span data-stu-id="06b05-115">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="06b05-116">Представляет приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="06b05-116">Represents a meeting request in the Exchange store.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="86ed5-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="86ed5-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="06b05-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="06b05-117">Text value</span></span>
 
-<span data-ttu-id="86ed5-118">Необходимо указать текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="86ed5-118">A text value is required.</span></span> <span data-ttu-id="86ed5-119">В приведенной ниже таблице перечислены возможные текстовые значения для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="86ed5-119">The following table lists the possible text values for this element.</span></span>
+<span data-ttu-id="06b05-118">Необходимо указать текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="06b05-118">A text value is required.</span></span> <span data-ttu-id="06b05-119">В приведенной ниже таблице перечислены возможные текстовые значения для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="06b05-119">The following table lists the possible text values for this element.</span></span>
   
-|<span data-ttu-id="86ed5-120">**Значение**</span><span class="sxs-lookup"><span data-stu-id="86ed5-120">**Value**</span></span>|<span data-ttu-id="86ed5-121">**Описание**</span><span class="sxs-lookup"><span data-stu-id="86ed5-121">**Description**</span></span>|
+|<span data-ttu-id="06b05-120">**Значение**</span><span class="sxs-lookup"><span data-stu-id="06b05-120">**Value**</span></span>|<span data-ttu-id="06b05-121">**Описание**</span><span class="sxs-lookup"><span data-stu-id="06b05-121">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="86ed5-122">фуллупдате</span><span class="sxs-lookup"><span data-stu-id="86ed5-122">FullUpdate</span></span>  <br/> |<span data-ttu-id="86ed5-123">Определяет приглашение на собрание как полное обновление существующего запроса.</span><span class="sxs-lookup"><span data-stu-id="86ed5-123">Identifies the meeting request as a full update to an existing request.</span></span> <span data-ttu-id="86ed5-124">Полное обновление обновляет время и Информационное содержимое.</span><span class="sxs-lookup"><span data-stu-id="86ed5-124">A full update has updated time and informational content.</span></span>  <br/> |
-|<span data-ttu-id="86ed5-125">информатионалупдате</span><span class="sxs-lookup"><span data-stu-id="86ed5-125">InformationalUpdate</span></span>  <br/> |<span data-ttu-id="86ed5-126">Определяет приглашение на собрание, которое содержит только обновленный информационный контент.</span><span class="sxs-lookup"><span data-stu-id="86ed5-126">Identifies the meeting request as only containing updated informational content.</span></span>  <br/> |
-|<span data-ttu-id="86ed5-127">NewMeetingRequest</span><span class="sxs-lookup"><span data-stu-id="86ed5-127">NewMeetingRequest</span></span>  <br/> |<span data-ttu-id="86ed5-128">Идентифицирует приглашение на собрание в качестве нового приглашения на собрание.</span><span class="sxs-lookup"><span data-stu-id="86ed5-128">Identifies the meeting request as a new meeting request.</span></span>  <br/> |
-|<span data-ttu-id="86ed5-129">Нет</span><span class="sxs-lookup"><span data-stu-id="86ed5-129">None</span></span>  <br/> |<span data-ttu-id="86ed5-130">Указывает, что тип приглашения на собрание не определен.</span><span class="sxs-lookup"><span data-stu-id="86ed5-130">Indicates that the meeting request type is not defined.</span></span>  <br/> |
-|<span data-ttu-id="86ed5-131">Прием</span><span class="sxs-lookup"><span data-stu-id="86ed5-131">Outdated</span></span>  <br/> |<span data-ttu-id="86ed5-132">Указывает, что приглашение на собрание считается устаревшим.</span><span class="sxs-lookup"><span data-stu-id="86ed5-132">Identifies the meeting request as outdated.</span></span>  <br/> |
-|<span data-ttu-id="86ed5-133">принЦипалвантскопи</span><span class="sxs-lookup"><span data-stu-id="86ed5-133">PrincipalWantsCopy</span></span>  <br/> |<span data-ttu-id="86ed5-134">Указывает, что приглашение на собрание принадлежит участнику, который имеет переадресованные сообщения собраний представителю и имеет свои копии, помеченные как информационные.</span><span class="sxs-lookup"><span data-stu-id="86ed5-134">Indicates that the meeting request belongs to a principal who has forwarded meeting messages to a delegate and has his copies marked as informational.</span></span>  <br/> |
-|<span data-ttu-id="86ed5-135">силентупдате</span><span class="sxs-lookup"><span data-stu-id="86ed5-135">SilentUpdate</span></span>  <br/> |<span data-ttu-id="86ed5-136">Определяет приглашение на собрание как неавтоматическое обновление существующего собрания.</span><span class="sxs-lookup"><span data-stu-id="86ed5-136">Identifies the meeting request as a silent update to an existing meeting.</span></span>  <br/> |
+|<span data-ttu-id="06b05-122">фуллупдате</span><span class="sxs-lookup"><span data-stu-id="06b05-122">FullUpdate</span></span>  <br/> |<span data-ttu-id="06b05-123">Определяет приглашение на собрание как полное обновление существующего запроса.</span><span class="sxs-lookup"><span data-stu-id="06b05-123">Identifies the meeting request as a full update to an existing request.</span></span> <span data-ttu-id="06b05-124">Полное обновление обновляет время и Информационное содержимое.</span><span class="sxs-lookup"><span data-stu-id="06b05-124">A full update has updated time and informational content.</span></span>  <br/> |
+|<span data-ttu-id="06b05-125">информатионалупдате</span><span class="sxs-lookup"><span data-stu-id="06b05-125">InformationalUpdate</span></span>  <br/> |<span data-ttu-id="06b05-126">Определяет приглашение на собрание, которое содержит только обновленный информационный контент.</span><span class="sxs-lookup"><span data-stu-id="06b05-126">Identifies the meeting request as only containing updated informational content.</span></span>  <br/> |
+|<span data-ttu-id="06b05-127">NewMeetingRequest</span><span class="sxs-lookup"><span data-stu-id="06b05-127">NewMeetingRequest</span></span>  <br/> |<span data-ttu-id="06b05-128">Идентифицирует приглашение на собрание в качестве нового приглашения на собрание.</span><span class="sxs-lookup"><span data-stu-id="06b05-128">Identifies the meeting request as a new meeting request.</span></span>  <br/> |
+|<span data-ttu-id="06b05-129">Нет</span><span class="sxs-lookup"><span data-stu-id="06b05-129">None</span></span>  <br/> |<span data-ttu-id="06b05-130">Указывает, что тип приглашения на собрание не определен.</span><span class="sxs-lookup"><span data-stu-id="06b05-130">Indicates that the meeting request type is not defined.</span></span>  <br/> |
+|<span data-ttu-id="06b05-131">Прием</span><span class="sxs-lookup"><span data-stu-id="06b05-131">Outdated</span></span>  <br/> |<span data-ttu-id="06b05-132">Указывает, что приглашение на собрание считается устаревшим.</span><span class="sxs-lookup"><span data-stu-id="06b05-132">Identifies the meeting request as outdated.</span></span>  <br/> |
+|<span data-ttu-id="06b05-133">принЦипалвантскопи</span><span class="sxs-lookup"><span data-stu-id="06b05-133">PrincipalWantsCopy</span></span>  <br/> |<span data-ttu-id="06b05-134">Указывает, что приглашение на собрание принадлежит участнику, который имеет переадресованные сообщения собраний представителю и имеет свои копии, помеченные как информационные.</span><span class="sxs-lookup"><span data-stu-id="06b05-134">Indicates that the meeting request belongs to a principal who has forwarded meeting messages to a delegate and has his copies marked as informational.</span></span>  <br/> |
+|<span data-ttu-id="06b05-135">силентупдате</span><span class="sxs-lookup"><span data-stu-id="06b05-135">SilentUpdate</span></span>  <br/> |<span data-ttu-id="06b05-136">Определяет приглашение на собрание как неавтоматическое обновление существующего собрания.</span><span class="sxs-lookup"><span data-stu-id="06b05-136">Identifies the meeting request as a silent update to an existing meeting.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="86ed5-137">Примечания</span><span class="sxs-lookup"><span data-stu-id="86ed5-137">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="06b05-137">Примечания</span><span class="sxs-lookup"><span data-stu-id="06b05-137">Remarks</span></span>
 
-<span data-ttu-id="86ed5-138">Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="86ed5-138">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="06b05-138">Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="06b05-138">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="86ed5-139">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="86ed5-139">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="06b05-139">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="06b05-139">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="86ed5-140">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="86ed5-140">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="86ed5-141">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="86ed5-141">Schema Name</span></span>  <br/> |<span data-ttu-id="86ed5-142">Схема Types</span><span class="sxs-lookup"><span data-stu-id="86ed5-142">Types schema</span></span>  <br/> |
-|<span data-ttu-id="86ed5-143">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="86ed5-143">Validation File</span></span>  <br/> |<span data-ttu-id="86ed5-144">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="86ed5-144">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="86ed5-145">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="86ed5-145">Can be Empty</span></span>  <br/> |<span data-ttu-id="86ed5-146">False</span><span class="sxs-lookup"><span data-stu-id="86ed5-146">False</span></span>  <br/> |
+|<span data-ttu-id="06b05-140">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="06b05-140">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="06b05-141">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="06b05-141">Schema Name</span></span>  <br/> |<span data-ttu-id="06b05-142">Схема Types</span><span class="sxs-lookup"><span data-stu-id="06b05-142">Types schema</span></span>  <br/> |
+|<span data-ttu-id="06b05-143">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="06b05-143">Validation File</span></span>  <br/> |<span data-ttu-id="06b05-144">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="06b05-144">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="06b05-145">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="06b05-145">Can be Empty</span></span>  <br/> |<span data-ttu-id="06b05-146">False</span><span class="sxs-lookup"><span data-stu-id="06b05-146">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="86ed5-147">См. также</span><span class="sxs-lookup"><span data-stu-id="86ed5-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="06b05-147">См. также</span><span class="sxs-lookup"><span data-stu-id="06b05-147">See also</span></span>
 
 
 
-- [<span data-ttu-id="86ed5-148">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="86ed5-148">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="06b05-148">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="06b05-148">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

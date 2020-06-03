@@ -12,43 +12,43 @@ ms.openlocfilehash: e91cc067b4161b366e6713a9adc16873e63b1562
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465031"
 ---
-# <a name="addnewimcontacttogroup-operation"></a><span data-ttu-id="d9e66-103">Операция AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-103">AddNewImContactToGroup operation</span></span>
+# <a name="addnewimcontacttogroup-operation"></a><span data-ttu-id="4c1b9-103">Операция AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-103">AddNewImContactToGroup operation</span></span>
 
-<span data-ttu-id="d9e66-104">Поиск сведений о **AddNewImContactToGroupной** операции EWS.</span><span class="sxs-lookup"><span data-stu-id="d9e66-104">Find information about the **AddNewImContactToGroup** EWS operation.</span></span> 
+<span data-ttu-id="4c1b9-104">Поиск сведений о **AddNewImContactToGroupной** операции EWS.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-104">Find information about the **AddNewImContactToGroup** EWS operation.</span></span> 
   
-<span data-ttu-id="d9e66-105">Операция **AddNewImContactToGroup** добавляет новый контакт в группу мгновенных сообщений (IM).</span><span class="sxs-lookup"><span data-stu-id="d9e66-105">The **AddNewImContactToGroup** operation adds a new contact to an instant messaging (IM) group.</span></span> 
+<span data-ttu-id="4c1b9-105">Операция **AddNewImContactToGroup** добавляет новый контакт в группу мгновенных сообщений (IM).</span><span class="sxs-lookup"><span data-stu-id="4c1b9-105">The **AddNewImContactToGroup** operation adds a new contact to an instant messaging (IM) group.</span></span> 
   
-<span data-ttu-id="d9e66-106">Эта операция появилась в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d9e66-106">This operation was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="4c1b9-106">Эта операция появилась в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-106">This operation was introduced in Exchange Server 2013.</span></span>
   
-## <a name="using-the-addnewimcontacttogroup-operation"></a><span data-ttu-id="d9e66-107">Использование операции AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-107">Using the AddNewImContactToGroup operation</span></span>
+## <a name="using-the-addnewimcontacttogroup-operation"></a><span data-ttu-id="4c1b9-107">Использование операции AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-107">Using the AddNewImContactToGroup operation</span></span>
 
-<span data-ttu-id="d9e66-108">Для добавления нового контакта в группу обмена мгновенными сообщениями в операции **AddNewImContactToGroup** используются три указанных ниже аргумента.</span><span class="sxs-lookup"><span data-stu-id="d9e66-108">The **AddNewImContactToGroup** operation takes the following three arguments to add a new contact to an IM group:</span></span> 
+<span data-ttu-id="4c1b9-108">Для добавления нового контакта в группу обмена мгновенными сообщениями в операции **AddNewImContactToGroup** используются три указанных ниже аргумента.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-108">The **AddNewImContactToGroup** operation takes the following three arguments to add a new contact to an IM group:</span></span> 
   
-- <span data-ttu-id="d9e66-109">Свойство " **Address** " — определяет адрес для обмена мгновенными сообщениями контакта.</span><span class="sxs-lookup"><span data-stu-id="d9e66-109">**ImAddress** property - Identifies the contact's IM address.</span></span> <span data-ttu-id="d9e66-110">Это свойство является обязательным.</span><span class="sxs-lookup"><span data-stu-id="d9e66-110">This property is required.</span></span> 
+- <span data-ttu-id="4c1b9-109">Свойство " **Address** " — определяет адрес для обмена мгновенными сообщениями контакта.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-109">**ImAddress** property - Identifies the contact's IM address.</span></span> <span data-ttu-id="4c1b9-110">Это свойство является обязательным.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-110">This property is required.</span></span> 
     
-- <span data-ttu-id="d9e66-111">Свойство **DisplayName** — определяет отображаемое имя контакта.</span><span class="sxs-lookup"><span data-stu-id="d9e66-111">**DisplayName** property - Identifies the contact's display name.</span></span> 
+- <span data-ttu-id="4c1b9-111">Свойство **DisplayName** — определяет отображаемое имя контакта.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-111">**DisplayName** property - Identifies the contact's display name.</span></span> 
     
-- <span data-ttu-id="d9e66-112">**GroupId** свойство — определяет группу, в которую добавляется контакт.</span><span class="sxs-lookup"><span data-stu-id="d9e66-112">**GroupId** property - Identifies the group that the contact is added to.</span></span> 
+- <span data-ttu-id="4c1b9-112">**GroupId** свойство — определяет группу, в которую добавляется контакт.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-112">**GroupId** property - Identifies the group that the contact is added to.</span></span> 
     
-<span data-ttu-id="d9e66-113">Эта операция возвращает пользователя контакта, который был добавлен в группу.</span><span class="sxs-lookup"><span data-stu-id="d9e66-113">This operation returns the persona of the contact that was added to the group.</span></span>
+<span data-ttu-id="4c1b9-113">Эта операция возвращает пользователя контакта, который был добавлен в группу.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-113">This operation returns the persona of the contact that was added to the group.</span></span>
   
-### <a name="addnewimcontacttogroup-operation-soap-headers"></a><span data-ttu-id="d9e66-114">Заголовки SOAP операции AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-114">AddNewImContactToGroup operation SOAP headers</span></span>
+### <a name="addnewimcontacttogroup-operation-soap-headers"></a><span data-ttu-id="4c1b9-114">Заголовки SOAP операции AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-114">AddNewImContactToGroup operation SOAP headers</span></span>
 
-<span data-ttu-id="d9e66-115">Операция **AddNewImContactToGroup** может использовать заголовки SOAP, указанные в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="d9e66-115">The **AddNewImContactToGroup** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="4c1b9-115">Операция **AddNewImContactToGroup** может использовать заголовки SOAP, указанные в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-115">The **AddNewImContactToGroup** operation can use the SOAP headers that are listed in the following table.</span></span> 
   
-|<span data-ttu-id="d9e66-116">**Имя заголовка**</span><span class="sxs-lookup"><span data-stu-id="d9e66-116">**Header name**</span></span>|<span data-ttu-id="d9e66-117">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d9e66-117">**Element**</span></span>|<span data-ttu-id="d9e66-118">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d9e66-118">**Description**</span></span>|
+|<span data-ttu-id="4c1b9-116">**Имя заголовка**</span><span class="sxs-lookup"><span data-stu-id="4c1b9-116">**Header name**</span></span>|<span data-ttu-id="4c1b9-117">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="4c1b9-117">**Element**</span></span>|<span data-ttu-id="4c1b9-118">**Описание**</span><span class="sxs-lookup"><span data-stu-id="4c1b9-118">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="d9e66-119">**Олицетворение**</span><span class="sxs-lookup"><span data-stu-id="d9e66-119">**Impersonation**</span></span> <br/> |[<span data-ttu-id="d9e66-120">ексчанжеимперсонатион</span><span class="sxs-lookup"><span data-stu-id="d9e66-120">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="d9e66-121">Идентифицирует пользователя, который олицетворяет клиентское приложение.</span><span class="sxs-lookup"><span data-stu-id="d9e66-121">Identifies the user whom the client application is impersonating.</span></span> <span data-ttu-id="d9e66-122">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="d9e66-122">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="d9e66-123">**маилбокскултуре**</span><span class="sxs-lookup"><span data-stu-id="d9e66-123">**MailboxCulture**</span></span> <br/> |[<span data-ttu-id="d9e66-124">маилбокскултуре</span><span class="sxs-lookup"><span data-stu-id="d9e66-124">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="d9e66-125">Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику.</span><span class="sxs-lookup"><span data-stu-id="d9e66-125">Identifies the culture, as defined in RFC 3066, "Tags for the Identification of Languages", to be used to access the mailbox.</span></span> <span data-ttu-id="d9e66-126">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="d9e66-126">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="d9e66-127">**рекуестверсион**</span><span class="sxs-lookup"><span data-stu-id="d9e66-127">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="d9e66-128">рекуестсерверверсион</span><span class="sxs-lookup"><span data-stu-id="d9e66-128">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="d9e66-129">Определяет версию схемы для запроса операции.</span><span class="sxs-lookup"><span data-stu-id="d9e66-129">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="d9e66-130">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="d9e66-130">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="d9e66-131">**серверверсион**</span><span class="sxs-lookup"><span data-stu-id="d9e66-131">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="d9e66-132">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="d9e66-132">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="d9e66-133">Определяет версию сервера, который ответил на запрос.</span><span class="sxs-lookup"><span data-stu-id="d9e66-133">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="d9e66-134">Этот заголовок является применимым для отклика.</span><span class="sxs-lookup"><span data-stu-id="d9e66-134">This header is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="4c1b9-119">**Олицетворение**</span><span class="sxs-lookup"><span data-stu-id="4c1b9-119">**Impersonation**</span></span> <br/> |[<span data-ttu-id="4c1b9-120">ексчанжеимперсонатион</span><span class="sxs-lookup"><span data-stu-id="4c1b9-120">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="4c1b9-121">Идентифицирует пользователя, который олицетворяет клиентское приложение.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-121">Identifies the user whom the client application is impersonating.</span></span> <span data-ttu-id="4c1b9-122">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-122">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="4c1b9-123">**маилбокскултуре**</span><span class="sxs-lookup"><span data-stu-id="4c1b9-123">**MailboxCulture**</span></span> <br/> |[<span data-ttu-id="4c1b9-124">маилбокскултуре</span><span class="sxs-lookup"><span data-stu-id="4c1b9-124">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="4c1b9-125">Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-125">Identifies the culture, as defined in RFC 3066, "Tags for the Identification of Languages", to be used to access the mailbox.</span></span> <span data-ttu-id="4c1b9-126">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-126">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="4c1b9-127">**рекуестверсион**</span><span class="sxs-lookup"><span data-stu-id="4c1b9-127">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="4c1b9-128">рекуестсерверверсион</span><span class="sxs-lookup"><span data-stu-id="4c1b9-128">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="4c1b9-129">Определяет версию схемы для запроса операции.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-129">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="4c1b9-130">Этот заголовок является применимым для запроса.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-130">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="4c1b9-131">**серверверсион**</span><span class="sxs-lookup"><span data-stu-id="4c1b9-131">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="4c1b9-132">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="4c1b9-132">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="4c1b9-133">Определяет версию сервера, который ответил на запрос.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-133">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="4c1b9-134">Этот заголовок является применимым для отклика.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-134">This header is applicable to a response.</span></span>  <br/> |
    
-## <a name="addnewimcontacttogroup-operation-request-example-add-a-new-im-contact-to-a-group"></a><span data-ttu-id="d9e66-135">Пример запроса операции AddNewImContactToGroup: Добавление нового контакта для обмена мгновенными сообщениями в группу</span><span class="sxs-lookup"><span data-stu-id="d9e66-135">AddNewImContactToGroup operation request example: Add a new IM contact to a group</span></span>
+## <a name="addnewimcontacttogroup-operation-request-example-add-a-new-im-contact-to-a-group"></a><span data-ttu-id="4c1b9-135">Пример запроса операции AddNewImContactToGroup: Добавление нового контакта для обмена мгновенными сообщениями в группу</span><span class="sxs-lookup"><span data-stu-id="4c1b9-135">AddNewImContactToGroup operation request example: Add a new IM contact to a group</span></span>
 
-<span data-ttu-id="d9e66-136">В следующем примере запроса операции **AddNewImContactToGroup** показано, как добавить новый контакт в существующую группу обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="d9e66-136">The following example of an **AddNewImContactToGroup** operation request shows how to add a new contact to an existing IM group.</span></span> <span data-ttu-id="d9e66-137">Значение свойства **groupId** для этого примера было возвращено из результатов [операции AddImGroup](addimgroup-operation.md).</span><span class="sxs-lookup"><span data-stu-id="d9e66-137">The **GroupId** property value for this example was returned from results of the [AddImGroup operation](addimgroup-operation.md).</span></span> <span data-ttu-id="d9e66-138">Свойство **ексчанжестореид** содержит значение свойства **groupId** .</span><span class="sxs-lookup"><span data-stu-id="d9e66-138">The **ExchangeStoreId** property contains the **GroupId** property value.</span></span> 
+<span data-ttu-id="4c1b9-136">В следующем примере запроса операции **AddNewImContactToGroup** показано, как добавить новый контакт в существующую группу обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-136">The following example of an **AddNewImContactToGroup** operation request shows how to add a new contact to an existing IM group.</span></span> <span data-ttu-id="4c1b9-137">Значение свойства **groupId** для этого примера было возвращено из результатов [операции AddImGroup](addimgroup-operation.md).</span><span class="sxs-lookup"><span data-stu-id="4c1b9-137">The **GroupId** property value for this example was returned from results of the [AddImGroup operation](addimgroup-operation.md).</span></span> <span data-ttu-id="4c1b9-138">Свойство **ексчанжестореид** содержит значение свойства **groupId** .</span><span class="sxs-lookup"><span data-stu-id="4c1b9-138">The **ExchangeStoreId** property contains the **GroupId** property value.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -74,24 +74,24 @@ ms.locfileid: "44465031"
 ```
 
 > [!NOTE]
-> <span data-ttu-id="d9e66-139">Значение **groupId** было сокращено, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="d9e66-139">The **GroupId** value has been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="4c1b9-139">Значение **groupId** было сокращено, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-139">The **GroupId** value has been shortened to preserve readability.</span></span> 
   
-<span data-ttu-id="d9e66-140">Текст SOAP Request содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="d9e66-140">The request SOAP body contains the following elements:</span></span>
+<span data-ttu-id="4c1b9-140">Текст SOAP Request содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="4c1b9-140">The request SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="d9e66-141">AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-141">AddNewImContactToGroup</span></span>](addnewimcontacttogroup.md)
+- [<span data-ttu-id="4c1b9-141">AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-141">AddNewImContactToGroup</span></span>](addnewimcontacttogroup.md)
     
-- [<span data-ttu-id="d9e66-142">Адрес (String)</span><span class="sxs-lookup"><span data-stu-id="d9e66-142">ImAddress (String)</span></span>](imaddress-string.md)
+- [<span data-ttu-id="4c1b9-142">Адрес (String)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-142">ImAddress (String)</span></span>](imaddress-string.md)
     
-- [<span data-ttu-id="d9e66-143">DisplayName (строка)</span><span class="sxs-lookup"><span data-stu-id="d9e66-143">DisplayName (string)</span></span>](displayname-string.md)
+- [<span data-ttu-id="4c1b9-143">DisplayName (строка)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-143">DisplayName (string)</span></span>](displayname-string.md)
     
-- [<span data-ttu-id="d9e66-144">GroupId</span><span class="sxs-lookup"><span data-stu-id="d9e66-144">GroupId</span></span>](groupid.md)
+- [<span data-ttu-id="4c1b9-144">GroupId</span><span class="sxs-lookup"><span data-stu-id="4c1b9-144">GroupId</span></span>](groupid.md)
     
-## <a name="successful-addnewimcontacttogroup-operation-response"></a><span data-ttu-id="d9e66-145">Успешный отклик операции AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-145">Successful AddNewImContactToGroup operation response</span></span>
+## <a name="successful-addnewimcontacttogroup-operation-response"></a><span data-ttu-id="4c1b9-145">Успешный отклик операции AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-145">Successful AddNewImContactToGroup operation response</span></span>
 
-<span data-ttu-id="d9e66-146">В следующем примере показан успешный ответ на запрос операции **AddNewImContactToGroup** .</span><span class="sxs-lookup"><span data-stu-id="d9e66-146">The following example shows a successful response to an **AddNewImContactToGroup** operation request.</span></span> <span data-ttu-id="d9e66-147">Ответ содержит пользователя созданного контакта.</span><span class="sxs-lookup"><span data-stu-id="d9e66-147">The response contains the persona of the newly created contact.</span></span> <span data-ttu-id="d9e66-148">Контакт будет добавлен в папку "Быстрые контакты" в Exchange.</span><span class="sxs-lookup"><span data-stu-id="d9e66-148">The contact is added to the Quick Contacts folder in Exchange.</span></span> 
+<span data-ttu-id="4c1b9-146">В следующем примере показан успешный ответ на запрос операции **AddNewImContactToGroup** .</span><span class="sxs-lookup"><span data-stu-id="4c1b9-146">The following example shows a successful response to an **AddNewImContactToGroup** operation request.</span></span> <span data-ttu-id="4c1b9-147">Ответ содержит пользователя созданного контакта.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-147">The response contains the persona of the newly created contact.</span></span> <span data-ttu-id="4c1b9-148">Контакт будет добавлен в папку "Быстрые контакты" в Exchange.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-148">The contact is added to the Quick Contacts folder in Exchange.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="d9e66-149">Идентификаторы сокращены для сохранения удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="d9e66-149">Identifiers have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="4c1b9-149">Идентификаторы сокращены для сохранения удобочитаемости.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-149">Identifiers have been shortened to preserve readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -190,71 +190,71 @@ ms.locfileid: "44465031"
 </s:Envelope>
 ```
 
-<span data-ttu-id="d9e66-150">Тело SOAP отклика содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="d9e66-150">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="4c1b9-150">Тело SOAP отклика содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="4c1b9-150">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="d9e66-151">аддневимконтакттограупреспонсе</span><span class="sxs-lookup"><span data-stu-id="d9e66-151">AddNewImContactToGroupResponse</span></span>](addnewimcontacttogroupresponse.md)
+- [<span data-ttu-id="4c1b9-151">аддневимконтакттограупреспонсе</span><span class="sxs-lookup"><span data-stu-id="4c1b9-151">AddNewImContactToGroupResponse</span></span>](addnewimcontacttogroupresponse.md)
     
-- [<span data-ttu-id="d9e66-152">Роль</span><span class="sxs-lookup"><span data-stu-id="d9e66-152">Persona</span></span>](persona.md)
+- [<span data-ttu-id="4c1b9-152">Роль</span><span class="sxs-lookup"><span data-stu-id="4c1b9-152">Persona</span></span>](persona.md)
     
-- [<span data-ttu-id="d9e66-153">персонаид</span><span class="sxs-lookup"><span data-stu-id="d9e66-153">PersonaId</span></span>](personaid.md)
+- [<span data-ttu-id="4c1b9-153">персонаид</span><span class="sxs-lookup"><span data-stu-id="4c1b9-153">PersonaId</span></span>](personaid.md)
     
-- [<span data-ttu-id="d9e66-154">персонатипе</span><span class="sxs-lookup"><span data-stu-id="d9e66-154">PersonaType</span></span>](personatype.md)
+- [<span data-ttu-id="4c1b9-154">персонатипе</span><span class="sxs-lookup"><span data-stu-id="4c1b9-154">PersonaType</span></span>](personatype.md)
     
-- [<span data-ttu-id="d9e66-155">CreationTime</span><span class="sxs-lookup"><span data-stu-id="d9e66-155">CreationTime</span></span>](creationtime.md)
+- [<span data-ttu-id="4c1b9-155">CreationTime</span><span class="sxs-lookup"><span data-stu-id="4c1b9-155">CreationTime</span></span>](creationtime.md)
     
-- [<span data-ttu-id="d9e66-156">DisplayName (строка)</span><span class="sxs-lookup"><span data-stu-id="d9e66-156">DisplayName (string)</span></span>](displayname-string.md)
+- [<span data-ttu-id="4c1b9-156">DisplayName (строка)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-156">DisplayName (string)</span></span>](displayname-string.md)
     
-- [<span data-ttu-id="d9e66-157">дисплайнамефирстласт</span><span class="sxs-lookup"><span data-stu-id="d9e66-157">DisplayNameFirstLast</span></span>](displaynamefirstlast.md)
+- [<span data-ttu-id="4c1b9-157">дисплайнамефирстласт</span><span class="sxs-lookup"><span data-stu-id="4c1b9-157">DisplayNameFirstLast</span></span>](displaynamefirstlast.md)
     
-- [<span data-ttu-id="d9e66-158">дисплайнамеластфирст</span><span class="sxs-lookup"><span data-stu-id="d9e66-158">DisplayNameLastFirst</span></span>](displaynamelastfirst.md)
+- [<span data-ttu-id="4c1b9-158">дисплайнамеластфирст</span><span class="sxs-lookup"><span data-stu-id="4c1b9-158">DisplayNameLastFirst</span></span>](displaynamelastfirst.md)
     
-- [<span data-ttu-id="d9e66-159">филеасид</span><span class="sxs-lookup"><span data-stu-id="d9e66-159">FileAsId</span></span>](fileasid.md)
+- [<span data-ttu-id="4c1b9-159">филеасид</span><span class="sxs-lookup"><span data-stu-id="4c1b9-159">FileAsId</span></span>](fileasid.md)
     
-- [<span data-ttu-id="d9e66-160">EmailAddress (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="d9e66-160">EmailAddress (EmailAddressType)</span></span>](emailaddress-emailaddresstype.md)
+- [<span data-ttu-id="4c1b9-160">EmailAddress (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-160">EmailAddress (EmailAddressType)</span></span>](emailaddress-emailaddresstype.md)
     
-- [<span data-ttu-id="d9e66-161">Имя (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="d9e66-161">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
+- [<span data-ttu-id="4c1b9-161">Имя (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-161">Name (EmailAddressType)</span></span>](name-emailaddresstype.md)
     
-- [<span data-ttu-id="d9e66-162">Address (строка)</span><span class="sxs-lookup"><span data-stu-id="d9e66-162">Address (string)</span></span>](address-string.md)
+- [<span data-ttu-id="4c1b9-162">Address (строка)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-162">Address (string)</span></span>](address-string.md)
     
-- [<span data-ttu-id="d9e66-163">Раутингтипе (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="d9e66-163">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
+- [<span data-ttu-id="4c1b9-163">Раутингтипе (EmailAddressType)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-163">RoutingType (EmailAddressType)</span></span>](routingtype-emailaddresstype.md)
     
-- [<span data-ttu-id="d9e66-164">Адрес (String)</span><span class="sxs-lookup"><span data-stu-id="d9e66-164">ImAddress (String)</span></span>](imaddress-string.md)
+- [<span data-ttu-id="4c1b9-164">Адрес (String)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-164">ImAddress (String)</span></span>](imaddress-string.md)
     
-- [<span data-ttu-id="d9e66-165">релеванцескоре</span><span class="sxs-lookup"><span data-stu-id="d9e66-165">RelevanceScore</span></span>](relevancescore.md)
+- [<span data-ttu-id="4c1b9-165">релеванцескоре</span><span class="sxs-lookup"><span data-stu-id="4c1b9-165">RelevanceScore</span></span>](relevancescore.md)
     
-- [<span data-ttu-id="d9e66-166">Атрибуты (Аррайофперсонааттрибутионстипе)</span><span class="sxs-lookup"><span data-stu-id="d9e66-166">Attributions (ArrayOfPersonaAttributionsType)</span></span>](attributions-arrayofpersonaattributionstype.md)
+- [<span data-ttu-id="4c1b9-166">Атрибуты (Аррайофперсонааттрибутионстипе)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-166">Attributions (ArrayOfPersonaAttributionsType)</span></span>](attributions-arrayofpersonaattributionstype.md)
     
-- [<span data-ttu-id="d9e66-167">Атрибуты (Персонааттрибутионтипе)</span><span class="sxs-lookup"><span data-stu-id="d9e66-167">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md)
+- [<span data-ttu-id="4c1b9-167">Атрибуты (Персонааттрибутионтипе)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-167">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md)
     
-- [<span data-ttu-id="d9e66-168">ID (строка)</span><span class="sxs-lookup"><span data-stu-id="d9e66-168">ID (String)</span></span>](id-string.md)
+- [<span data-ttu-id="4c1b9-168">ID (строка)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-168">ID (String)</span></span>](id-string.md)
     
-- [<span data-ttu-id="d9e66-169">SourceId</span><span class="sxs-lookup"><span data-stu-id="d9e66-169">SourceId</span></span>](sourceid.md)
+- [<span data-ttu-id="4c1b9-169">SourceId</span><span class="sxs-lookup"><span data-stu-id="4c1b9-169">SourceId</span></span>](sourceid.md)
     
-- [<span data-ttu-id="d9e66-170">Доступный для записи</span><span class="sxs-lookup"><span data-stu-id="d9e66-170">IsWritable</span></span>](iswritable.md)
+- [<span data-ttu-id="4c1b9-170">Доступный для записи</span><span class="sxs-lookup"><span data-stu-id="4c1b9-170">IsWritable</span></span>](iswritable.md)
     
-- [<span data-ttu-id="d9e66-171">искуиккконтакт</span><span class="sxs-lookup"><span data-stu-id="d9e66-171">IsQuickContact</span></span>](isquickcontact.md)
+- [<span data-ttu-id="4c1b9-171">искуиккконтакт</span><span class="sxs-lookup"><span data-stu-id="4c1b9-171">IsQuickContact</span></span>](isquickcontact.md)
     
-- [<span data-ttu-id="d9e66-172">IsHidden</span><span class="sxs-lookup"><span data-stu-id="d9e66-172">IsHidden</span></span>](ishidden.md)
+- [<span data-ttu-id="4c1b9-172">IsHidden</span><span class="sxs-lookup"><span data-stu-id="4c1b9-172">IsHidden</span></span>](ishidden.md)
     
-- [<span data-ttu-id="d9e66-173">FolderId</span><span class="sxs-lookup"><span data-stu-id="d9e66-173">FolderId</span></span>](folderid.md)
+- [<span data-ttu-id="4c1b9-173">FolderId</span><span class="sxs-lookup"><span data-stu-id="4c1b9-173">FolderId</span></span>](folderid.md)
     
-- [<span data-ttu-id="d9e66-174">DisplayName</span><span class="sxs-lookup"><span data-stu-id="d9e66-174">DisplayNames</span></span>](displaynames.md)
+- [<span data-ttu-id="4c1b9-174">DisplayName</span><span class="sxs-lookup"><span data-stu-id="4c1b9-174">DisplayNames</span></span>](displaynames.md)
     
-- [<span data-ttu-id="d9e66-175">стрингаттрибутедвалуе</span><span class="sxs-lookup"><span data-stu-id="d9e66-175">StringAttributedValue</span></span>](stringattributedvalue.md)
+- [<span data-ttu-id="4c1b9-175">стрингаттрибутедвалуе</span><span class="sxs-lookup"><span data-stu-id="4c1b9-175">StringAttributedValue</span></span>](stringattributedvalue.md)
     
-- [<span data-ttu-id="d9e66-176">Значение (Аррайофстрингвалуетипе)</span><span class="sxs-lookup"><span data-stu-id="d9e66-176">Value (ArrayOfStringValueType)</span></span>](value-arrayofstringvaluetype.md)
+- [<span data-ttu-id="4c1b9-176">Значение (Аррайофстрингвалуетипе)</span><span class="sxs-lookup"><span data-stu-id="4c1b9-176">Value (ArrayOfStringValueType)</span></span>](value-arrayofstringvaluetype.md)
     
-- [<span data-ttu-id="d9e66-177">филеасидс</span><span class="sxs-lookup"><span data-stu-id="d9e66-177">FileAsIds</span></span>](fileasids.md)
+- [<span data-ttu-id="4c1b9-177">филеасидс</span><span class="sxs-lookup"><span data-stu-id="4c1b9-177">FileAsIds</span></span>](fileasids.md)
     
-- [<span data-ttu-id="d9e66-178">Emails1</span><span class="sxs-lookup"><span data-stu-id="d9e66-178">Emails1</span></span>](emails1.md)
+- [<span data-ttu-id="4c1b9-178">Emails1</span><span class="sxs-lookup"><span data-stu-id="4c1b9-178">Emails1</span></span>](emails1.md)
     
-- [<span data-ttu-id="d9e66-179">емаиладдрессаттрибутедвалуе</span><span class="sxs-lookup"><span data-stu-id="d9e66-179">EmailAddressAttributedValue</span></span>](emailaddressattributedvalue.md)
+- [<span data-ttu-id="4c1b9-179">емаиладдрессаттрибутедвалуе</span><span class="sxs-lookup"><span data-stu-id="4c1b9-179">EmailAddressAttributedValue</span></span>](emailaddressattributedvalue.md)
     
-- [<span data-ttu-id="d9e66-180">Адреса</span><span class="sxs-lookup"><span data-stu-id="d9e66-180">ImAddresses</span></span>](imaddresses.md)
+- [<span data-ttu-id="4c1b9-180">Адреса</span><span class="sxs-lookup"><span data-stu-id="4c1b9-180">ImAddresses</span></span>](imaddresses.md)
     
-## <a name="addnewimcontacttogroup-operation-error-response"></a><span data-ttu-id="d9e66-181">Ответ об ошибке операции AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-181">AddNewImContactToGroup operation error response</span></span>
+## <a name="addnewimcontacttogroup-operation-error-response"></a><span data-ttu-id="4c1b9-181">Ответ об ошибке операции AddNewImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-181">AddNewImContactToGroup operation error response</span></span>
 
-<span data-ttu-id="d9e66-182">В следующем примере показан ответ об ошибке для запроса операции **AddNewImContactToGroup** .</span><span class="sxs-lookup"><span data-stu-id="d9e66-182">The following example shows an error response to a **AddNewImContactToGroup** operation request.</span></span> <span data-ttu-id="d9e66-183">Это ответ на запрос на добавление контакта в группу, которая не находится в почтовом ящике запросившего.</span><span class="sxs-lookup"><span data-stu-id="d9e66-183">This is a response to a request to add a contact to a group that is not in the requester's mailbox.</span></span> 
+<span data-ttu-id="4c1b9-182">В следующем примере показан ответ об ошибке для запроса операции **AddNewImContactToGroup** .</span><span class="sxs-lookup"><span data-stu-id="4c1b9-182">The following example shows an error response to a **AddNewImContactToGroup** operation request.</span></span> <span data-ttu-id="4c1b9-183">Это ответ на запрос на добавление контакта в группу, которая не находится в почтовом ящике запросившего.</span><span class="sxs-lookup"><span data-stu-id="4c1b9-183">This is a response to a request to add a contact to a group that is not in the requester's mailbox.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -285,34 +285,34 @@ ms.locfileid: "44465031"
 </s:Envelope>
 ```
 
-<span data-ttu-id="d9e66-184">Основной текст сообщения об ошибке SOAP содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="d9e66-184">The error response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="4c1b9-184">Основной текст сообщения об ошибке SOAP содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="4c1b9-184">The error response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="d9e66-185">аддневимконтакттограупреспонсе</span><span class="sxs-lookup"><span data-stu-id="d9e66-185">AddNewImContactToGroupResponse</span></span>](addnewimcontacttogroupresponse.md)
+- [<span data-ttu-id="4c1b9-185">аддневимконтакттограупреспонсе</span><span class="sxs-lookup"><span data-stu-id="4c1b9-185">AddNewImContactToGroupResponse</span></span>](addnewimcontacttogroupresponse.md)
     
-- [<span data-ttu-id="d9e66-186">мессажетекст</span><span class="sxs-lookup"><span data-stu-id="d9e66-186">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="4c1b9-186">мессажетекст</span><span class="sxs-lookup"><span data-stu-id="4c1b9-186">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="d9e66-187">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="d9e66-187">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="4c1b9-187">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="4c1b9-187">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="d9e66-188">дескриптивелинккэй</span><span class="sxs-lookup"><span data-stu-id="d9e66-188">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="4c1b9-188">дескриптивелинккэй</span><span class="sxs-lookup"><span data-stu-id="4c1b9-188">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-- [<span data-ttu-id="d9e66-189">мессажексмл</span><span class="sxs-lookup"><span data-stu-id="d9e66-189">MessageXml</span></span>](messagexml.md)
+- [<span data-ttu-id="4c1b9-189">мессажексмл</span><span class="sxs-lookup"><span data-stu-id="4c1b9-189">MessageXml</span></span>](messagexml.md)
     
-<span data-ttu-id="d9e66-190">Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="d9e66-190">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
+<span data-ttu-id="4c1b9-190">Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="4c1b9-190">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="d9e66-191">См. также</span><span class="sxs-lookup"><span data-stu-id="d9e66-191">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4c1b9-191">См. также</span><span class="sxs-lookup"><span data-stu-id="4c1b9-191">See also</span></span>
 
 
 
-[<span data-ttu-id="d9e66-192">Операция AddImGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-192">AddImGroup operation</span></span>](addimgroup-operation.md)
+[<span data-ttu-id="4c1b9-192">Операция AddImGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-192">AddImGroup operation</span></span>](addimgroup-operation.md)
   
-[<span data-ttu-id="d9e66-193">Операция AddImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-193">AddImContactToGroup operation</span></span>](addimcontacttogroup-operation.md)
+[<span data-ttu-id="4c1b9-193">Операция AddImContactToGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-193">AddImContactToGroup operation</span></span>](addimcontacttogroup-operation.md)
   
-[<span data-ttu-id="d9e66-194">Операция AddImGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-194">AddImGroup operation</span></span>](addimgroup-operation.md)
+[<span data-ttu-id="4c1b9-194">Операция AddImGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-194">AddImGroup operation</span></span>](addimgroup-operation.md)
   
-[<span data-ttu-id="d9e66-195">Операция RemoveImGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-195">RemoveImGroup operation</span></span>](removeimgroup-operation.md)
+[<span data-ttu-id="4c1b9-195">Операция RemoveImGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-195">RemoveImGroup operation</span></span>](removeimgroup-operation.md)
   
-[<span data-ttu-id="d9e66-196">Операция SetImGroup</span><span class="sxs-lookup"><span data-stu-id="d9e66-196">SetImGroup operation</span></span>](setimgroup-operation.md)
+[<span data-ttu-id="4c1b9-196">Операция SetImGroup</span><span class="sxs-lookup"><span data-stu-id="4c1b9-196">SetImGroup operation</span></span>](setimgroup-operation.md)
 
 
-[<span data-ttu-id="d9e66-197">Пользователи и контакты в EWS для Exchange</span><span class="sxs-lookup"><span data-stu-id="d9e66-197">People and contacts in EWS in Exchange</span></span>](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+[<span data-ttu-id="4c1b9-197">Пользователи и контакты в EWS для Exchange</span><span class="sxs-lookup"><span data-stu-id="4c1b9-197">People and contacts in EWS in Exchange</span></span>](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
 

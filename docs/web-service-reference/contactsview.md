@@ -16,52 +16,52 @@ ms.openlocfilehash: 23c3fe13c44cdd0e5a054ecb3378bc3d633e55aa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463820"
 ---
-# <a name="contactsview"></a><span data-ttu-id="a1e0a-103">контактсвиев</span><span class="sxs-lookup"><span data-stu-id="a1e0a-103">ContactsView</span></span>
+# <a name="contactsview"></a><span data-ttu-id="011f9-103">контактсвиев</span><span class="sxs-lookup"><span data-stu-id="011f9-103">ContactsView</span></span>
 
-<span data-ttu-id="a1e0a-104">Элемент **контактсвиев** определяет Поиск элементов контакта в соответствии с отображаемыми именами в алфавитном порядке.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-104">The **ContactsView** element defines a search for contact items based on alphabetical display names.</span></span> 
+<span data-ttu-id="011f9-104">Элемент **контактсвиев** определяет Поиск элементов контакта в соответствии с отображаемыми именами в алфавитном порядке.</span><span class="sxs-lookup"><span data-stu-id="011f9-104">The **ContactsView** element defines a search for contact items based on alphabetical display names.</span></span> 
   
-[<span data-ttu-id="a1e0a-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="a1e0a-105">FindItem</span></span>](finditem.md)
+[<span data-ttu-id="011f9-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="011f9-105">FindItem</span></span>](finditem.md)
   
-[<span data-ttu-id="a1e0a-106">контактсвиев</span><span class="sxs-lookup"><span data-stu-id="a1e0a-106">ContactsView</span></span>](contactsview.md)
+[<span data-ttu-id="011f9-106">контактсвиев</span><span class="sxs-lookup"><span data-stu-id="011f9-106">ContactsView</span></span>](contactsview.md)
   
 ```xml
 <ContactsView MaxEntriesReturned="" InitialName="" FinalName="" />
 ```
 
-<span data-ttu-id="a1e0a-107">**контактсвиевтипе**</span><span class="sxs-lookup"><span data-stu-id="a1e0a-107">**ContactsViewType**</span></span>
+<span data-ttu-id="011f9-107">**контактсвиевтипе**</span><span class="sxs-lookup"><span data-stu-id="011f9-107">**ContactsViewType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="a1e0a-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="a1e0a-108">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="011f9-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="011f9-108">Attributes and elements</span></span>
 
-<span data-ttu-id="a1e0a-109">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="011f9-109">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="011f9-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="a1e0a-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="a1e0a-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="011f9-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="011f9-110">Attributes</span></span>
 
-|<span data-ttu-id="a1e0a-111">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="a1e0a-111">**Attribute**</span></span>|<span data-ttu-id="a1e0a-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a1e0a-112">**Description**</span></span>|
+|<span data-ttu-id="011f9-111">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="011f9-111">**Attribute**</span></span>|<span data-ttu-id="011f9-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="011f9-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="a1e0a-113">**максентриесретурнед**</span><span class="sxs-lookup"><span data-stu-id="a1e0a-113">**MaxEntriesReturned**</span></span> <br/> |<span data-ttu-id="a1e0a-114">Описывает максимальное число результатов, возвращаемых в ответе [FindItem](finditem.md) .</span><span class="sxs-lookup"><span data-stu-id="a1e0a-114">Describes the maximum number of results to return in the [FindItem](finditem.md) response.</span></span>  <br/> |
-|<span data-ttu-id="a1e0a-115">**инитиалнаме**</span><span class="sxs-lookup"><span data-stu-id="a1e0a-115">**InitialName**</span></span> <br/> |<span data-ttu-id="a1e0a-116">Определяет первое имя в списке контактов для возврата в ответе.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-116">Defines the first name in the contacts list to return in the response.</span></span> <span data-ttu-id="a1e0a-117">Если указанное начальное имя отсутствует в списке Contacts (контакты), будет возвращено следующее буквенное имя, заданное культурным контекстом, за исключением случаев, когда следующее имя предшествует **финалнаме**.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-117">If the specified initial name is not in the contacts list, the next alphabetical name as defined by the cultural context will be returned, except if the next name comes after **FinalName**.</span></span> <span data-ttu-id="a1e0a-118">Если атрибут **инитиалнаме** опущен, ответ будет содержать список контактов, начинающихся с первого имени в списке контактов.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-118">If the **InitialName** attribute is omitted, the response will contain a list of contacts that starts with the first name in the contact list.</span></span> <span data-ttu-id="a1e0a-119">Этот атрибут является необязательным.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-119">This attribute is optional.</span></span>  <br/> |
-|<span data-ttu-id="a1e0a-120">**финалнаме**</span><span class="sxs-lookup"><span data-stu-id="a1e0a-120">**FinalName**</span></span> <br/> |<span data-ttu-id="a1e0a-121">Определяет фамилию в списке контактов, возвращаемой в ответе.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-121">Defines the last name in the contacts list to return in the response.</span></span> <span data-ttu-id="a1e0a-122">Если атрибут **финалнаме** опущен, ответ будет содержать все последующие контакты в указанном порядке сортировки.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-122">If the **FinalName** attribute is omitted, the response will contain all subsequent contacts in the specified sort order.</span></span> <span data-ttu-id="a1e0a-123">Если указанное итоговое имя отсутствует в списке Contacts (контакты), то следующее буквенное имя, заданное культурным контекстом, будет исключено.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-123">If the specified final name is not in the contacts list, the next alphabetical name as defined by the cultural context will be excluded.</span></span>  <br/><br/><span data-ttu-id="a1e0a-124">Например, если Финалнаме = "Name", но имя отсутствует в списке Contacts (контакты), то контакты, у которых отображаются имена Имя1 или NAME, не будут включены.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-124">For example, if FinalName="Name", but Name is not in the contacts list, contacts that have display names of Name1 or NAME will not be included.</span></span>  <br/><br/><span data-ttu-id="a1e0a-125">Этот атрибут является необязательным.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-125">This attribute is optional.</span></span>  <br/> |
+|<span data-ttu-id="011f9-113">**максентриесретурнед**</span><span class="sxs-lookup"><span data-stu-id="011f9-113">**MaxEntriesReturned**</span></span> <br/> |<span data-ttu-id="011f9-114">Описывает максимальное число результатов, возвращаемых в ответе [FindItem](finditem.md) .</span><span class="sxs-lookup"><span data-stu-id="011f9-114">Describes the maximum number of results to return in the [FindItem](finditem.md) response.</span></span>  <br/> |
+|<span data-ttu-id="011f9-115">**инитиалнаме**</span><span class="sxs-lookup"><span data-stu-id="011f9-115">**InitialName**</span></span> <br/> |<span data-ttu-id="011f9-116">Определяет первое имя в списке контактов для возврата в ответе.</span><span class="sxs-lookup"><span data-stu-id="011f9-116">Defines the first name in the contacts list to return in the response.</span></span> <span data-ttu-id="011f9-117">Если указанное начальное имя отсутствует в списке Contacts (контакты), будет возвращено следующее буквенное имя, заданное культурным контекстом, за исключением случаев, когда следующее имя предшествует **финалнаме**.</span><span class="sxs-lookup"><span data-stu-id="011f9-117">If the specified initial name is not in the contacts list, the next alphabetical name as defined by the cultural context will be returned, except if the next name comes after **FinalName**.</span></span> <span data-ttu-id="011f9-118">Если атрибут **инитиалнаме** опущен, ответ будет содержать список контактов, начинающихся с первого имени в списке контактов.</span><span class="sxs-lookup"><span data-stu-id="011f9-118">If the **InitialName** attribute is omitted, the response will contain a list of contacts that starts with the first name in the contact list.</span></span> <span data-ttu-id="011f9-119">Этот атрибут является необязательным.</span><span class="sxs-lookup"><span data-stu-id="011f9-119">This attribute is optional.</span></span>  <br/> |
+|<span data-ttu-id="011f9-120">**финалнаме**</span><span class="sxs-lookup"><span data-stu-id="011f9-120">**FinalName**</span></span> <br/> |<span data-ttu-id="011f9-121">Определяет фамилию в списке контактов, возвращаемой в ответе.</span><span class="sxs-lookup"><span data-stu-id="011f9-121">Defines the last name in the contacts list to return in the response.</span></span> <span data-ttu-id="011f9-122">Если атрибут **финалнаме** опущен, ответ будет содержать все последующие контакты в указанном порядке сортировки.</span><span class="sxs-lookup"><span data-stu-id="011f9-122">If the **FinalName** attribute is omitted, the response will contain all subsequent contacts in the specified sort order.</span></span> <span data-ttu-id="011f9-123">Если указанное итоговое имя отсутствует в списке Contacts (контакты), то следующее буквенное имя, заданное культурным контекстом, будет исключено.</span><span class="sxs-lookup"><span data-stu-id="011f9-123">If the specified final name is not in the contacts list, the next alphabetical name as defined by the cultural context will be excluded.</span></span>  <br/><br/><span data-ttu-id="011f9-124">Например, если Финалнаме = "Name", но имя отсутствует в списке Contacts (контакты), то контакты, у которых отображаются имена Имя1 или NAME, не будут включены.</span><span class="sxs-lookup"><span data-stu-id="011f9-124">For example, if FinalName="Name", but Name is not in the contacts list, contacts that have display names of Name1 or NAME will not be included.</span></span>  <br/><br/><span data-ttu-id="011f9-125">Этот атрибут является необязательным.</span><span class="sxs-lookup"><span data-stu-id="011f9-125">This attribute is optional.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="a1e0a-126">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="a1e0a-126">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="011f9-126">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="011f9-126">Child elements</span></span>
 
-<span data-ttu-id="a1e0a-127">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-127">None.</span></span>
+<span data-ttu-id="011f9-127">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="011f9-127">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="a1e0a-128">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="a1e0a-128">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="011f9-128">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="011f9-128">Parent elements</span></span>
 
-|<span data-ttu-id="a1e0a-129">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="a1e0a-129">**Element**</span></span>|<span data-ttu-id="a1e0a-130">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a1e0a-130">**Description**</span></span>|
+|<span data-ttu-id="011f9-129">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="011f9-129">**Element**</span></span>|<span data-ttu-id="011f9-130">**Описание**</span><span class="sxs-lookup"><span data-stu-id="011f9-130">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="a1e0a-131">FindItem</span><span class="sxs-lookup"><span data-stu-id="a1e0a-131">FindItem</span></span>](finditem.md) <br/> |<span data-ttu-id="a1e0a-132">Определяет запрос на поиск элементов в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-132">Defines a request to find items in a mailbox.</span></span><br/><br/> <span data-ttu-id="a1e0a-133">Ниже приведено выражение XPath для этого элемента:</span><span class="sxs-lookup"><span data-stu-id="a1e0a-133">The following is the XPath expression to this element:</span></span>  <br/>  `/FindItem` <br/> |
+|[<span data-ttu-id="011f9-131">FindItem</span><span class="sxs-lookup"><span data-stu-id="011f9-131">FindItem</span></span>](finditem.md) <br/> |<span data-ttu-id="011f9-132">Определяет запрос на поиск элементов в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="011f9-132">Defines a request to find items in a mailbox.</span></span><br/><br/> <span data-ttu-id="011f9-133">Ниже приведено выражение XPath для этого элемента:</span><span class="sxs-lookup"><span data-stu-id="011f9-133">The following is the XPath expression to this element:</span></span>  <br/>  `/FindItem` <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a1e0a-134">Примечания</span><span class="sxs-lookup"><span data-stu-id="a1e0a-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="011f9-134">Примечания</span><span class="sxs-lookup"><span data-stu-id="011f9-134">Remarks</span></span>
 
-<span data-ttu-id="a1e0a-135">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-135">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="011f9-135">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="011f9-135">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="example"></a><span data-ttu-id="a1e0a-136">Пример</span><span class="sxs-lookup"><span data-stu-id="a1e0a-136">Example</span></span>
+## <a name="example"></a><span data-ttu-id="011f9-136">Пример</span><span class="sxs-lookup"><span data-stu-id="011f9-136">Example</span></span>
 
-<span data-ttu-id="a1e0a-137">В приведенном ниже примере запроса показано, как найти первые три контакта, начиная с контакта с отображаемым именем Kelly.</span><span class="sxs-lookup"><span data-stu-id="a1e0a-137">The following example of a request demonstrates how to find the first three contacts starting with the contact that has the display name of Kelly Rollin.</span></span>
+<span data-ttu-id="011f9-137">В приведенном ниже примере запроса показано, как найти первые три контакта, начиная с контакта с отображаемым именем Kelly.</span><span class="sxs-lookup"><span data-stu-id="011f9-137">The following example of a request demonstrates how to find the first three contacts starting with the contact that has the display name of Kelly Rollin.</span></span>
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -91,17 +91,17 @@ ms.locfileid: "44463820"
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a><span data-ttu-id="a1e0a-138">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="a1e0a-138">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="011f9-138">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="011f9-138">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="a1e0a-139">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="a1e0a-139">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="a1e0a-140">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="a1e0a-140">Schema Name</span></span>  <br/> |<span data-ttu-id="a1e0a-141">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="a1e0a-141">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="a1e0a-142">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="a1e0a-142">Validation File</span></span>  <br/> |<span data-ttu-id="a1e0a-143">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="a1e0a-143">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="a1e0a-144">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="a1e0a-144">Can be Empty</span></span>  <br/> |<span data-ttu-id="a1e0a-145">False</span><span class="sxs-lookup"><span data-stu-id="a1e0a-145">False</span></span>  <br/> |
+|<span data-ttu-id="011f9-139">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="011f9-139">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="011f9-140">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="011f9-140">Schema Name</span></span>  <br/> |<span data-ttu-id="011f9-141">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="011f9-141">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="011f9-142">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="011f9-142">Validation File</span></span>  <br/> |<span data-ttu-id="011f9-143">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="011f9-143">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="011f9-144">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="011f9-144">Can be Empty</span></span>  <br/> |<span data-ttu-id="011f9-145">False</span><span class="sxs-lookup"><span data-stu-id="011f9-145">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="a1e0a-146">См. также</span><span class="sxs-lookup"><span data-stu-id="a1e0a-146">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="011f9-146">См. также</span><span class="sxs-lookup"><span data-stu-id="011f9-146">See also</span></span>
 
-- [<span data-ttu-id="a1e0a-147">Операция FindItem</span><span class="sxs-lookup"><span data-stu-id="a1e0a-147">FindItem operation</span></span>](finditem-operation.md)
-- [<span data-ttu-id="a1e0a-148">Поиск элементов</span><span class="sxs-lookup"><span data-stu-id="a1e0a-148">Finding Items</span></span>](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [<span data-ttu-id="011f9-147">Операция FindItem</span><span class="sxs-lookup"><span data-stu-id="011f9-147">FindItem operation</span></span>](finditem-operation.md)
+- [<span data-ttu-id="011f9-148">Поиск элементов</span><span class="sxs-lookup"><span data-stu-id="011f9-148">Finding Items</span></span>](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 
