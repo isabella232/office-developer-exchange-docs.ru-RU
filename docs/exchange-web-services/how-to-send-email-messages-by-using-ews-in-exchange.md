@@ -3,15 +3,15 @@ title: Отправка сообщений электронной почты с 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 5290fafe-8b51-4275-a27e-baf497fc969c
 description: Сведения о том, как отправлять новые или черновики сообщений электронной почты, а также отправлять задержанные сообщения электронной почты с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: f09babfcc420d4cbc563ed6605ba555fd9f8c7e9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: b73327cc69db37028c0508af788bf5294e79206a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761108"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527728"
 ---
 # <a name="send-email-messages-by-using-ews-in-exchange"></a>Отправка сообщений электронной почты с помощью EWS в Exchange
 
@@ -23,15 +23,15 @@ ms.locfileid: "19761108"
 
 |**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Отправка нового сообщения электронной почты  <br/> |[EmailMessage. SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|Отправка существующего сообщения электронной почты  <br/> |[EmailMessage. Send](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) <br/> |[SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) <br/> |
+|Отправка нового сообщения электронной почты  <br/> |[EmailMessage. SendAndSaveCopy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
+|Отправка существующего сообщения электронной почты  <br/> |[EmailMessage. Send](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) <br/> |[SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) <br/> |
    
 ## <a name="send-a-new-email-message-by-using-the-ews-managed-api"></a>Отправка нового сообщения электронной почты с помощью управляемого API EWS
 <a name="bk_sendnewewsma"> </a>
 
-В приведенном ниже примере кода показано, как использовать объект [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) для создания сообщения электронной почты и метода [SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) для отправки сообщения получателю и сохранения сообщения в папке "Отправленные". 
+В приведенном ниже примере кода показано, как использовать объект [EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) для создания сообщения электронной почты и метода [SendAndSaveCopy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) для отправки сообщения получателю и сохранения сообщения в папке "Отправленные". 
   
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 // Create an email message and provide it with connection 
@@ -50,14 +50,14 @@ Console.WriteLine("An email with the subject '" + message.Subject + "' has been 
 ## <a name="send-a-new-email-message-by-using-ews"></a>Отправка нового сообщения электронной почты с помощью EWS
 <a name="bk_sendnewews"> </a>
 
-В следующем примере кода показано, как использовать операцию [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) со значением **мессажедиспоситион** , равным **SendAndSaveCopy** , для создания сообщения электронной почты, отправки сообщения получателю и сохранения сообщения в папке "Отправленные". Это также запрос XML, который отправляет управляемый API EWS при [отправке нового сообщения электронной почты](#bk_sendnewewsma).
+В следующем примере кода показано, как использовать операцию [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) со значением **мессажедиспоситион** , равным **SendAndSaveCopy** , для создания сообщения электронной почты, отправки сообщения получателю и сохранения сообщения в папке "Отправленные". Это также запрос XML, который отправляет управляемый API EWS при [отправке нового сообщения электронной почты](#bk_sendnewewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -82,16 +82,16 @@ Console.WriteLine("An email with the subject '" + message.Subject + "' has been 
 </soap:Envelope>
 ```
 
-В ответ на запрос **CreateItem** сервер отправляет сообщение [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx), включающее параметр [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError**, которое указывает, что сообщение было успешно создано, и свойство [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) созданного сообщения. 
+В ответ на запрос **CreateItem** сервер отправляет сообщение [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx), включающее параметр [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError**, которое указывает, что сообщение было успешно создано, и свойство [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) созданного сообщения. 
   
 ## <a name="send-a-draft-email-message-by-using-the-ews-managed-api"></a>Отправка черновика электронного сообщения с помощью управляемого API EWS
 <a name="bk_senddraftewsma"> </a>
 
-В приведенном ниже примере кода показано, как отправить сообщение, которое было сохранено в папке "Черновики", как показано в разделе [Создание сообщения электронной почты с помощью управляемого API EWS](email-and-ews-in-exchange.md#bk_createewsma). Сначала используйте метод [BIND](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) , чтобы получить сообщение, а затем используйте метод [Send](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) для отправки сообщения электронной почты, как показано в следующем примере кода. Обратите внимание, что этот метод не сохраняет отправленное сообщение в папке "Отправленные". 
+В приведенном ниже примере кода показано, как отправить сообщение, которое было сохранено в папке "Черновики", как показано в разделе [Создание сообщения электронной почты с помощью управляемого API EWS](email-and-ews-in-exchange.md#bk_createewsma). Сначала используйте метод [BIND](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) , чтобы получить сообщение, а затем используйте метод [Send](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) для отправки сообщения электронной почты, как показано в следующем примере кода. Обратите внимание, что этот метод не сохраняет отправленное сообщение в папке "Отправленные". 
   
-В этом случае свойства [емаилмессажесчема. subject](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemschema.subject%28v=exchg.80%29.aspx) и [емаилмессажесчема. ToRecipients](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessageschema.torecipients%28v=exchg.80%29.aspx) добавляются в [свойство](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) , чтобы эти значения можно было включить в выходные данные консоли. 
+В этом случае свойства [емаилмессажесчема. subject](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemschema.subject%28v=exchg.80%29.aspx) и [емаилмессажесчема. ToRecipients](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessageschema.torecipients%28v=exchg.80%29.aspx) добавляются в [свойство](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) , чтобы эти значения можно было включить в выходные данные консоли. 
   
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 // As a best practice, create a property set that limits the properties returned by the Bind method to only those that are required.
@@ -107,18 +107,18 @@ Console.WriteLine("An email with the subject '" + message.Subject + "' has been 
 ## <a name="send-a-draft-email-message-by-using-ews"></a>Отправка черновика электронного сообщения с помощью EWS
 <a name="bk_senddraftews"> </a>
 
-В приведенных ниже примерах кода показано, как отправить сообщение, которое ранее хранилось в папке "Черновики", как показано в разделе [Создание сообщения электронной почты с помощью EWS](email-and-ews-in-exchange.md#bk_createews). Сначала используйте операцию [GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) , чтобы получить сообщение электронной почты для отправки. Затем с помощью операции [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) отправьте сообщение электронной почты получателям и сохраните его в папке "Отправленные". 
+В приведенных ниже примерах кода показано, как отправить сообщение, которое ранее хранилось в папке "Черновики", как показано в разделе [Создание сообщения электронной почты с помощью EWS](email-and-ews-in-exchange.md#bk_createews). Сначала используйте операцию [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) , чтобы получить сообщение электронной почты для отправки. Затем с помощью операции [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) отправьте сообщение электронной почты получателям и сохраните его в папке "Отправленные". 
   
-Первое сообщение, сообщение с запросом **GetItem** , указывает идентификатор [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) черновика сообщения электронной почты, к которому выполняется привязка, а элементы в элементе [итемшапе](http://msdn.microsoft.com/library/c5604161-bbc0-40bc-ad75-ff7e837d745f%28Office.15%29.aspx) ограничивают результаты для включения в ответ **GetItem** . Элемент **итемшапе** имеет [басешапе](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) из **идонли**, а элемент [аддитионалпропертиес](http://msdn.microsoft.com/library/7a269aed-dcfd-4c3e-9e14-094e53828101%28Office.15%29.aspx) содержит значения [Фиелдури](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) для свойства **subject** из схемы элемента и свойства **ToRecipients** из схемы сообщения, что означает, что клиенту в ответе будут возвращены только элементы **ItemId**, [subject](http://msdn.microsoft.com/library/c140d6c2-deb1-4f67-a908-9397197c4ae7%28Office.15%29.aspx)и [ToRecipients](http://msdn.microsoft.com/library/72dc3be8-30bb-4ae1-acf4-fb94ff490631%28Office.15%29.aspx) . Дополнительные сведения об ограничении значений, возвращаемых в вызовах и значении элемента **басешапе** , приведены в статье [наборы свойств и формы ответа в EWS в Exchange](property-sets-and-response-shapes-in-ews-in-exchange.md).
+Первое сообщение, сообщение с запросом **GetItem** , указывает идентификатор [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) черновика сообщения электронной почты, к которому выполняется привязка, а элементы в элементе [итемшапе](https://msdn.microsoft.com/library/c5604161-bbc0-40bc-ad75-ff7e837d745f%28Office.15%29.aspx) ограничивают результаты для включения в ответ **GetItem** . Элемент **итемшапе** имеет [басешапе](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) из **идонли**, а элемент [аддитионалпропертиес](https://msdn.microsoft.com/library/7a269aed-dcfd-4c3e-9e14-094e53828101%28Office.15%29.aspx) содержит значения [Фиелдури](https://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) для свойства **subject** из схемы элемента и свойства **ToRecipients** из схемы сообщения, что означает, что клиенту в ответе будут возвращены только элементы **ItemId**, [subject](https://msdn.microsoft.com/library/c140d6c2-deb1-4f67-a908-9397197c4ae7%28Office.15%29.aspx)и [ToRecipients](https://msdn.microsoft.com/library/72dc3be8-30bb-4ae1-acf4-fb94ff490631%28Office.15%29.aspx) . Дополнительные сведения об ограничении значений, возвращаемых в вызовах и значении элемента **басешапе** , приведены в статье [наборы свойств и формы ответа в EWS в Exchange](property-sets-and-response-shapes-in-ews-in-exchange.md).
   
-Это также XML-запрос, который отправляется управляемым API EWS при вызове метода [BIND](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) . Для удобства значения некоторых атрибутов и элементов были сокращены. 
+Это также XML-запрос, который отправляется управляемым API EWS при вызове метода [BIND](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) . Для удобства значения некоторых атрибутов и элементов были сокращены. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -143,22 +143,22 @@ Console.WriteLine("An email with the subject '" + message.Subject + "' has been 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="842"
                          MinorBuildNumber="10"
                          Version="V2_8"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -184,14 +184,14 @@ Console.WriteLine("An email with the subject '" + message.Subject + "' has been 
 </s:Envelope>
 ```
 
-Второе сообщение, сообщение запроса **SendItem** , указывает идентификатор [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) отправляемого сообщения электронной почты, а также [саведитемфолдерид](http://msdn.microsoft.com/library/4b8b475c-9ca5-48c9-acb0-8848b53be1ce%28Office.15%29.aspx), указывающий папку, в которой нужно сохранить отправленный элемент.
+Второе сообщение, сообщение запроса **SendItem** , указывает идентификатор [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) отправляемого сообщения электронной почты, а также [саведитемфолдерид](https://msdn.microsoft.com/library/4b8b475c-9ca5-48c9-acb0-8848b53be1ce%28Office.15%29.aspx), указывающий папку, в которой нужно сохранить отправленный элемент.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -209,14 +209,14 @@ Console.WriteLine("An email with the subject '" + message.Subject + "' has been 
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **SendItem** с сообщением [сендитемреспонсе](http://msdn.microsoft.com/library/26ac41c7-57d9-473e-ab7a-bae93e1d2aba%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **, указывающее, что**сообщение было отправлено успешно.
+Сервер отвечает на запрос **SendItem** с сообщением [сендитемреспонсе](https://msdn.microsoft.com/library/26ac41c7-57d9-473e-ab7a-bae93e1d2aba%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **, указывающее, что**сообщение было отправлено успешно.
   
 ## <a name="send-a-delayed-email-message-by-using-the-ews-managed-api"></a>Отправка задержанного сообщения электронной почты с помощью управляемого API EWS
 <a name="bk_senddelayedewsma"> </a>
 
-В приведенном ниже примере кода показано, как использовать объект [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) для создания сообщения электронной почты, класса [екстендедпропертидефинитион](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.extendedpropertydefinition%28v=exchg.80%29.aspx) , чтобы создать определение свойства для свойства [PidTagDeferredSendTime](http://msdn.microsoft.com/en-us/library/cc840017.aspx) (0x3FEF0040), а метод [SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) — для отправки задержанного сообщения и сохранения сообщения в папке "Отправленные". 
+В приведенном ниже примере кода показано, как использовать объект [EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) для создания сообщения электронной почты, класса [екстендедпропертидефинитион](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.extendedpropertydefinition%28v=exchg.80%29.aspx) , чтобы создать определение свойства для свойства [PidTagDeferredSendTime](https://msdn.microsoft.com/library/cc840017.aspx) (0x3FEF0040), а метод [SendAndSaveCopy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) — для отправки задержанного сообщения и сохранения сообщения в папке "Отправленные". 
   
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 // Create a new email message. 
@@ -247,14 +247,14 @@ message.SendAndSaveCopy();
 ## <a name="send-a-delayed-email-message-by-using-ews"></a>Отправка задержанного сообщения электронной почты с помощью EWS
 <a name="bk_senddelayedews"> </a>
 
-В следующем примере кода показано, как использовать операцию [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) со значением **мессажедиспоситион** , равным **SendAndSaveCopy** , чтобы создать сообщение электронной почты, элемент [ExtendedProperty](http://msdn.microsoft.com/library/f9701409-b620-4afe-b9ee-4c1e95507af7%28Office.15%29.aspx) для создания определения свойства для свойства [PidTagDeferredSendTime](http://msdn.microsoft.com/en-us/library/cc840017.aspx) (0X3FEF0040), чтобы задать время отправки сообщения и элемент [саведитемфолдерид](http://msdn.microsoft.com/library/4b8b475c-9ca5-48c9-acb0-8848b53be1ce%28Office.15%29.aspx) для сохранения отправленного сообщения в папке "Отправленные". 
+В следующем примере кода показано, как использовать операцию [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) со значением **мессажедиспоситион** , равным **SendAndSaveCopy** , чтобы создать сообщение электронной почты, элемент [ExtendedProperty](https://msdn.microsoft.com/library/f9701409-b620-4afe-b9ee-4c1e95507af7%28Office.15%29.aspx) для создания определения свойства для свойства [PidTagDeferredSendTime](https://msdn.microsoft.com/library/cc840017.aspx) (0X3FEF0040), чтобы задать время отправки сообщения и элемент [саведитемфолдерид](https://msdn.microsoft.com/library/4b8b475c-9ca5-48c9-acb0-8848b53be1ce%28Office.15%29.aspx) для сохранения отправленного сообщения в папке "Отправленные". 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange207_SP1" />
   </soap:Header>
@@ -287,7 +287,7 @@ message.SendAndSaveCopy();
 </soap:Envelope>
 ```
 
-В ответ на запрос **CreateItem** сервер отправляет сообщение [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx), включающее параметр [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) со значением **NoError**, которое указывает, что сообщение было успешно создано, и свойство [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) созданного сообщения. 
+В ответ на запрос **CreateItem** сервер отправляет сообщение [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx), включающее параметр [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) со значением **NoError**, которое указывает, что сообщение было успешно создано, и свойство [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) созданного сообщения. 
   
 ## <a name="see-also"></a>См. также
 

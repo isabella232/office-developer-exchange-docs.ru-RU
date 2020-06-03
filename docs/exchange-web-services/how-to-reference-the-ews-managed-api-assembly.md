@@ -3,21 +3,21 @@ title: Ссылка на сборку управляемого API EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 130990db-6297-42dc-9f5d-f68a2400872a
 description: Сведения о том, как ссылаться на сборку управляемого API EWS.
-ms.openlocfilehash: a08ce43d139440186f611049fa1e457ea44f0362
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: d49091781da279d87a1eab35608f19ece43a0333
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353688"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527763"
 ---
 # <a name="reference-the-ews-managed-api-assembly"></a>Ссылка на сборку управляемого API EWS
 
 Сведения о том, как ссылаться на сборку управляемого API EWS.
   
-Управляемый API EWS предоставляет простой и полнофункциональный интерфейс для разработки и расширения приложений, использующих веб-службы Exchange (EWS). Если вы используете Visual Studio или другой редактор кода для разработки приложения управляемого API EWS, вам потребуется создать ссылку на сборку управляемого API EWS. Если вы еще не установили управляемый API EWS, обязательно [Скачайте API](http://aka.ms/ews-managed-api-readme).
+Управляемый API EWS предоставляет простой и полнофункциональный интерфейс для разработки и расширения приложений, использующих веб-службы Exchange (EWS). Если вы используете Visual Studio или другой редактор кода для разработки приложения управляемого API EWS, вам потребуется создать ссылку на сборку управляемого API EWS. Если вы еще не установили управляемый API EWS, обязательно [Скачайте API](https://aka.ms/ews-managed-api-readme).
   
 > [!NOTE]
 > Управляемое API EWS теперь доступно в качестве проекта с открытым кодом на [GitHub](https://github.com/officedev/ews-managed-api). Вы можете использовать библиотеку открытого кода, чтобы: 
@@ -33,7 +33,7 @@ ms.locfileid: "21353688"
   
 ### <a name="to-add-a-reference-by-using-visual-studio"></a>Добавление ссылки с помощью Visual Studio
 
-1. Поместите файл Microsoft. Exchange. WebServices. dll и Microsoft. Exchange. WebServices. XML в выбранную папку. По умолчанию файлы установлены в `C:\Program Files\Microsoft\Exchange\Web Services\2.0\`, но их можно хранить в любом месте на компьютере.
+1. Поместите файл Microsoft. Exchange. WebServices. dll и Microsoft. Exchange. WebServices. XML в выбранную папку. По умолчанию файлы установлены в `C:\Program Files\Microsoft\Exchange\Web Services\2.0\` , но их можно хранить в любом месте на компьютере.
     
 2. В области Обозреватель решений в Visual Studio выберите **ссылки**, а затем нажмите кнопку **Добавить ссылку**. Откроется окно Добавить ссылку.
     

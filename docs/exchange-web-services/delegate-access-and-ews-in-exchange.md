@@ -3,15 +3,15 @@ title: Передача прав доступа и EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 240d1776-7adc-46cd-9099-88ffeba0a8aa
 description: Узнайте, как использовать управляемый API EWS и EWS в Exchange для предоставления представителю доступа к почтовым ящикам пользователей.
-ms.openlocfilehash: 344255d86a51e13b21f1eda5113d292395d7cb8f
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: 4223d625213a3f71726ec5b8d3f09f9e2e7e7e51
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354052"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528456"
 ---
 # <a name="delegate-access-and-ews-in-exchange"></a>Передача прав доступа и EWS в Exchange
 
@@ -33,11 +33,12 @@ ms.locfileid: "21354052"
   
 При отправке сообщений или планировании собраний делегатам могут быть предоставлены разрешения "Отправить от имени", поэтому получатель электронной почты или приглашения на собрание, отправленные представителем, увидят сообщение " *делегат* от имени *владельца почтового ящика* " при получении им доступа к электронной почте или приглашению на собрание в Outlook. Включение текста "Отправить от имени" является подробным описанием реализации клиента и может создаваться с использованием значений "от" и "sender". Значение "от" указывает владельца почтового ящика, а значение "sender" указывает представителя, который отправил почту. Если учетная запись службы, с помощью которой выполняется олицетворение пользователя отправляет сообщение электронной почты или планирует собрание для владельца почтового ящика, сообщение "отправляется как" владельца почтового ящика. У получателя нет способа узнать, что почта была отправлена учетной записью службы. Пользователи, которым предоставлены разрешения на доступ к папкам, а не представителю, не могут "Отправить как" или "Отправить от имени" владельца почтового ящика. У них есть доступ к папкам почтового ящика, и они могут создавать элементы в папках, но не могут отправлять элементы. 
   
-Когда нужно изменять разрешения для папки напрямую? Как правило, если вы хотите предоставить пользователю доступ к папке, но не хотите предоставлять пользователю разрешения "Отправить от имени", если требования к разрешениям не соответствуют значениям перечисления [делегатефолдерпермиссионлевел](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) EWS Managed API или значениям элементов [пермиссионлевел](http://msdn.microsoft.com/library/87978600-3523-451e-a725-ef092c543e2a%28Office.15%29.aspx) EWS, или если вы хотите предоставить пользователю доступ к одной пользовательской папке. 
+Когда нужно изменять разрешения для папки напрямую? Как правило, если вы хотите предоставить пользователю доступ к папке, но не хотите предоставлять пользователю разрешения "Отправить от имени", если требования к разрешениям не соответствуют значениям перечисления [делегатефолдерпермиссионлевел](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) EWS Managed API или значениям элементов [пермиссионлевел](https://msdn.microsoft.com/library/87978600-3523-451e-a725-ef092c543e2a%28Office.15%29.aspx) EWS, или если вы хотите предоставить пользователю доступ к одной пользовательской папке. 
   
 Если вам нужно изменить разрешения для папки, чтобы ее можно было использовать, и не нужно добавлять делегата (то есть вам не требуется разрешение "Отправить от имени"), ознакомьтесь с [разрешениями Set Folders for другого пользователя с помощью EWS в Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md). 
-  
-Обратите внимание, что вы также можете настроить доступ представителя с помощью [Outlook](http://office.microsoft.com/en-us/outlook-help/allow-someone-else-to-manage-your-mail-and-calendar-HA102749417.aspx) или [PowerShell (Командная консоль Exchange)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) . 
+
+Обратите внимание, что вы также можете настроить доступ представителя с помощью [Outlook](https://office.microsoft.com/outlook-help/allow-someone-else-to-manage-your-mail-and-calendar-HA102749417.aspx) или [PowerShell (Командная консоль Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) . 
+
   
 ## <a name="how-does-delegate-access-work"></a>Как работает делегированный доступ?
 
@@ -60,7 +61,7 @@ ms.locfileid: "21354052"
 ## <a name="delegate-permissions"></a>Делегирование разрешений
 <a name="bk_delegateperms"> </a>
 
-Когда администратор или владелец почтового ящика добавляет делегата к почтовому ящику, он также может задать уровень разрешений для одной или нескольких папок. Если уровень разрешений не задан для папки, то по умолчанию в качестве значения разрешения задано значение None. Несколько пользователей могут иметь один и тот же уровень разрешений для папки, и пользователи могут иметь разные уровни разрешений для разных папок. Если вы используете управляемый API EWS, вы используете свойство [делегатеусер. Permissions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegateuser.permissions%28v=exchg.80%29.aspx) , которое содержит одно из значений перечисления [делегатефолдерпермиссионлевел](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) для каждой папки, чтобы задать разрешения представителя для папок. Если вы используете EWS, используйте элемент [делегатепермиссионс](http://msdn.microsoft.com/library/292badc7-bab3-4368-9d7c-9a8b7edb279b%28Office.15%29.aspx) для установки разрешений делегата, а элемент [пермиссионлевел](http://msdn.microsoft.com/library/87978600-3523-451e-a725-ef092c543e2a%28Office.15%29.aspx) — для определения уровня разрешений. 
+Когда администратор или владелец почтового ящика добавляет делегата к почтовому ящику, он также может задать уровень разрешений для одной или нескольких папок. Если уровень разрешений не задан для папки, то по умолчанию в качестве значения разрешения задано значение None. Несколько пользователей могут иметь один и тот же уровень разрешений для папки, и пользователи могут иметь разные уровни разрешений для разных папок. Если вы используете управляемый API EWS, вы используете свойство [делегатеусер. Permissions](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegateuser.permissions%28v=exchg.80%29.aspx) , которое содержит одно из значений перечисления [делегатефолдерпермиссионлевел](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) для каждой папки, чтобы задать разрешения представителя для папок. Если вы используете EWS, используйте элемент [делегатепермиссионс](https://msdn.microsoft.com/library/292badc7-bab3-4368-9d7c-9a8b7edb279b%28Office.15%29.aspx) для установки разрешений делегата, а элемент [пермиссионлевел](https://msdn.microsoft.com/library/87978600-3523-451e-a725-ef092c543e2a%28Office.15%29.aspx) — для определения уровня разрешений. 
   
 **Таблица 2. Уровни разрешений для представителей**
 
@@ -68,11 +69,11 @@ ms.locfileid: "21354052"
 |:-----|:-----|
 |Нет  <br/> |Это значение используется по умолчанию для всех папок.  <br/> |
 |Автор  <br/> |Представитель может читать и создавать элементы, а также изменять и удалять созданные ими элементы. Например, представитель может создавать запросы задач и приглашения на собрания непосредственно в папке "Календарь" владельца почтового ящика или в папке "Календарь", а затем отправлять один из элементов от имени владельца почтового ящика.  <br/> |
-|Редактор  <br/> |Представитель может делать все, что может делать автор, а также изменять и удалять элементы, созданные владельцем почтового ящика.  <br/> |
+|Корректор  <br/> |Представитель может делать все, что может делать автор, а также изменять и удалять элементы, созданные владельцем почтового ящика.  <br/> |
 |Reviewer  <br/> |Представитель может читать элементы; Например, представитель с разрешением на просмотр может читать сообщения в папке "Входящие" другого пользователя.  <br/> |
 |Пользовательские  <br/> |Владелец почтового ящика предоставил настраиваемый набор разрешений для делегата.  <br/> |
    
-Свойство управляемого API [делгатеусер. виевприватеитемс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegateuser.viewprivateitems%28v=exchg.80%29.aspx) EWS и элемент [виевприватеитемс](http://msdn.microsoft.com/library/80b949ac-440c-4a01-b428-ebafb5b1b802%28Office.15%29.aspx) EWS — это глобальный параметр, который влияет на все папки владельца почтового ящика, в том числе всю почту, контакты, календарь, задачи, заметки и папки дневника. Вы не можете разрешить доступ к частным элементам только в одной папке. 
+Свойство управляемого API [делгатеусер. виевприватеитемс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegateuser.viewprivateitems%28v=exchg.80%29.aspx) EWS и элемент [виевприватеитемс](https://msdn.microsoft.com/library/80b949ac-440c-4a01-b428-ebafb5b1b802%28Office.15%29.aspx) EWS — это глобальный параметр, который влияет на все папки владельца почтового ящика, в том числе всю почту, контакты, календарь, задачи, заметки и папки дневника. Вы не можете разрешить доступ к частным элементам только в одной папке. 
   
 ## <a name="explicit-access"></a>Явный доступ
 <a name="bk_explicit"> </a>
@@ -90,15 +91,15 @@ ms.locfileid: "21354052"
 ### <a name="explicit-access-and-the-ews-managed-api"></a>Явный доступ и управляемый API EWS
 <a name="bk_explicitewsma"> </a>
 
-Вы можете инициировать явный доступ представителя с помощью любого из указанных ниже перегруженных методов, которые принимают входной параметр [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) для определения целевой папки: 
+Вы можете инициировать явный доступ представителя с помощью любого из указанных ниже перегруженных методов, которые принимают входной параметр [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) для определения целевой папки: 
   
-- [Folder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)
+- [Folder. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx)
     
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [ExchangeService. FindAppointments](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx)
+- [ExchangeService. FindAppointments](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx)
     
-- [ExchangeService. Финдфолдерс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
+- [ExchangeService. Финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
     
 - И многое другое!
     
@@ -127,7 +128,7 @@ FindItemsResults<Item> results = service.FindItems(new FolderId(WellKnownFolderN
 ### <a name="explicit-access-and-ews"></a>Явный доступ и EWS
 <a name="bk_explicitewsma"> </a>
 
-Вы можете инициировать явный доступ с помощью операций "@ [Folder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)", " [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)" или " [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) ". Эти операции предоставляют возможность использовать элемент [дистингуишедфолдерид](http://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) для определения целевой папки. Элемент **дистингуишедфолдерид** содержит один необязательный дочерний элемент, элемент [Mailbox](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) . Элемент **Mailbox** при использовании в качестве дочернего элемента элемента **дистингуишедфолдерид** указывает почтовый ящик для делегата, к которому необходимо получить доступ. Если вызывающий пользователь имеет разрешение на доступ к папке владельца почтового ящика, ответ будет содержать коллекцию идентификаторов для элементов или папок этого почтового ящика. Идентификаторы элементов и папок, возвращаемые в ответе, могут использоваться для неявного доступа делегата. 
+Вы можете инициировать явный доступ с помощью операций "@ [Folder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)", " [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)" или " [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) ". Эти операции предоставляют возможность использовать элемент [дистингуишедфолдерид](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) для определения целевой папки. Элемент **дистингуишедфолдерид** содержит один необязательный дочерний элемент, элемент [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) . Элемент **Mailbox** при использовании в качестве дочернего элемента элемента **дистингуишедфолдерид** указывает почтовый ящик для делегата, к которому необходимо получить доступ. Если вызывающий пользователь имеет разрешение на доступ к папке владельца почтового ящика, ответ будет содержать коллекцию идентификаторов для элементов или папок этого почтового ящика. Идентификаторы элементов и папок, возвращаемые в ответе, могут использоваться для неявного доступа делегата. 
   
 ## <a name="implicit-access"></a>Неявный доступ
 <a name="bk_implicit"> </a>
@@ -138,13 +139,13 @@ FindItemsResults<Item> results = service.FindItems(new FolderId(WellKnownFolderN
   
 ### <a name="implicit-access-and-the-ews-managed-api"></a>Неявный доступ и управляемый API EWS
 
-Если метод [FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) получил идентификатор элемента, этот идентификатор элемента можно использовать в последующем вызове метода [Item. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) для привязывания к элементу. Затем можно вызвать метод [Item. Update](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx), [Item. Delete](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx)или [Item. Copy](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) — или любой вызов метода, для которого требуется идентификатор элемента, если это необходимо для завершения задачи. Пока представитель имеет соответствующие разрешения для папки, содержащей элемент (и, если применимо, папка, в которую перемещается элемент), делегат может вносить изменения в соответствии с их уровнями разрешений. 
+Если метод [FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) получил идентификатор элемента, этот идентификатор элемента можно использовать в последующем вызове метода [Item. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) для привязывания к элементу. Затем можно вызвать метод [Item. Update](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx), [Item. Delete](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx)или [Item. Copy](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) — или любой вызов метода, для которого требуется идентификатор элемента, если это необходимо для завершения задачи. Пока представитель имеет соответствующие разрешения для папки, содержащей элемент (и, если применимо, папка, в которую перемещается элемент), делегат может вносить изменения в соответствии с их уровнями разрешений. 
   
 ### <a name="implicit-access-and-ews"></a>Неявный доступ и EWS
 
-Если операция [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) получила идентификатор элемента, этот идентификатор элемента можно использовать в последующих операциях [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) для привязывания к элементу. Затем можно вызвать операцию [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx), [DeleteItem](../web-service-reference/deleteitem-operation.md)или [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) (или любую операцию, для которой требуется идентификатор элемента, если это необходимо для завершения задачи). Пока представитель имеет соответствующие разрешения для папки, содержащей элемент (и, если применимо, папка, в которую перемещается элемент), делегат может вносить изменения в соответствии с их уровнями разрешений. 
+Если операция [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) получила идентификатор элемента, этот идентификатор элемента можно использовать в последующих операциях [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) для привязывания к элементу. Затем можно вызвать операцию [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx), [DeleteItem](../web-service-reference/deleteitem-operation.md)или [CopyItem](https://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) (или любую операцию, для которой требуется идентификатор элемента, если это необходимо для завершения задачи). Пока представитель имеет соответствующие разрешения для папки, содержащей элемент (и, если применимо, папка, в которую перемещается элемент), делегат может вносить изменения в соответствии с их уровнями разрешений. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этой статье
 <a name="bk_implicit"> </a>
 
 - [Добавление и удаление делегатов с помощью EWS в Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
@@ -163,9 +164,8 @@ FindItemsResults<Item> results = service.FindItems(new FolderId(WellKnownFolderN
 
 
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)
-    
-- [Предоставление другим пользователям возможности управлять почтой и календарем](http://office.microsoft.com/en-us/outlook-help/allow-someone-else-to-manage-your-mail-and-calendar-HA102749417.aspx)
-    
-- [Add — MailboxPermission](http://technet.microsoft.com/en-us/library/bb124097%28v=exchg.150%29.aspx)
-    
 
+- [Предоставление другим пользователям возможности управлять почтой и календарем](https://office.microsoft.com/outlook-help/allow-someone-else-to-manage-your-mail-and-calendar-HA102749417.aspx)  
+
+- [Add — MailboxPermission](https://technet.microsoft.com/library/bb124097%28v=exchg.150%29.aspx)
+    

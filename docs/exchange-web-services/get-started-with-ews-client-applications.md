@@ -3,15 +3,15 @@ title: Начало работы с клиентскими приложения�
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
 description: Создание первого приложения с помощью веб-служб Exchange (EWS) в Exchange.
-ms.openlocfilehash: 06606bdc2b37c8bf65b8b10dc7a516bdc911b256
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
-ms.translationtype: HT
+localization_priority: Priority
+ms.openlocfilehash: fd02c46777dabd04b492ba3c4420a0737640c5eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353779"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528400"
 ---
 # <a name="get-started-with-ews-client-applications"></a>Начало работы с клиентскими приложениями EWS
 
@@ -25,9 +25,10 @@ EWS  это комплексная служба, которую приложен
 
 Если у вас уже есть учетная запись почтового ящика Exchange, вы можете пропустить этот шаг. Если это не так, ниже приведены несколько вариантов настройки почтового ящика Exchange для вашего первого приложения EWS.
   
-- [Создайте Сайт разработчика в Office 365](http://msdn.microsoft.com/ru-RU/library/office/fp179924.aspx) (рекомендуется). Так можно получить почтовый ящик Exchange быстрее всего.
+- [Создайте Сайт разработчика в Office 365](https://msdn.microsoft.com/library/office/fp179924.aspx) (рекомендуется). Так можно получить почтовый ящик Exchange быстрее всего.
     
-- Скачайте [Exchange Server](http://office.microsoft.com/en-us/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
+- Скачайте [Exchange Server](https://office.microsoft.com/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
+
     
 Когда вы проверите, можно ли отправлять сообщения на сервер Exchange Server и получать их с него, приступайте к настройке среды разработки. Проверить отправку сообщений можно с помощью Outlook Web App.
   
@@ -206,14 +207,14 @@ namespace Microsoft.Exchange.Samples.EWS
       /// This is the XML request that is sent to the Exchange server.
       var getFolderSOAPRequest =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
-"<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"\n" +
-"   xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\">\n" +
+"<soap:Envelope xmlns:soap=\"https://schemas.xmlsoap.org/soap/envelope/\"\n" +
+"   xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\">\n" +
 "<soap:Header>\n" +
 "    <t:RequestServerVersion Version=\"Exchange2007_SP1\" />\n" +
 "  </soap:Header>\n" +
 "  <soap:Body>\n" +
-"    <GetFolder xmlns=\"http://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
-"               xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\">\n" +
+"    <GetFolder xmlns=\"https://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
+"               xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\">\n" +
 "      <FolderShape>\n" +
 "        <t:BaseShape>Default</t:BaseShape>\n" +
 "      </FolderShape>\n" +
@@ -254,7 +255,7 @@ namespace Microsoft.Exchange.Samples.EWS
             Tracing.WriteLine(stringBuilder.ToString());
             // Check the response for error codes. If there is an error, throw an application exception.
             IEnumerable<XElement> errorCodes = from errorCode in responseEnvelope.Descendants
-                                               ("{http://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
+                                               ("{https://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
                                                select errorCode;
             foreach (var errorCode in errorCodes)
             {
@@ -274,26 +275,26 @@ namespace Microsoft.Exchange.Samples.EWS
             // Process the response.
             IEnumerable<XElement> folders = from folderElement in
                                               responseEnvelope.Descendants
-                                              ("{http://schemas.microsoft.com/exchange/services/2006/messages}Folders")
+                                              ("{https://schemas.microsoft.com/exchange/services/2006/messages}Folders")
                                             select folderElement;
             foreach (var folder in folders)
             {
               Tracing.Write("Folder name:     ");
               var folderName = from folderElement in
                                  folder.Descendants
-                                 ("{http://schemas.microsoft.com/exchange/services/2006/types}DisplayName")
+                                 ("{https://schemas.microsoft.com/exchange/services/2006/types}DisplayName")
                                select folderElement.Value;
               Tracing.WriteLine(folderName.ElementAt(0));
               Tracing.Write("Total messages:  ");
               var totalCount = from folderElement in
                                  folder.Descendants
-                                   ("{http://schemas.microsoft.com/exchange/services/2006/types}TotalCount")
+                                   ("{https://schemas.microsoft.com/exchange/services/2006/types}TotalCount")
                                select folderElement.Value;
               Tracing.WriteLine(totalCount.ElementAt(0));
               Tracing.Write("Unread messages: ");
               var unreadCount = from folderElement in
                                  folder.Descendants
-                                   ("{http://schemas.microsoft.com/exchange/services/2006/types}UnreadCount")
+                                   ("{https://schemas.microsoft.com/exchange/services/2006/types}UnreadCount")
                                select folderElement.Value;
               Tracing.WriteLine(unreadCount.ElementAt(0));
             }
@@ -329,9 +330,9 @@ namespace Microsoft.Exchange.Samples.EWS
 var createItemSOAPRequest =
       "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
       "<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" \n" +
-      "               xmlns:m=\"http://schemas.microsoft.com/exchange/services/2006/messages\" \n" +
-      "               xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\" \n" +
-      "               xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n" +
+      "               xmlns:m=\"https://schemas.microsoft.com/exchange/services/2006/messages\" \n" +
+      "               xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\" \n" +
+      "               xmlns:soap=\"https://schemas.xmlsoap.org/soap/envelope/\">\n" +
       "  <soap:Header>\n" +
       "    <t:RequestServerVersion Version=\"Exchange2007_SP1\" />\n" +
       "  </soap:Header>\n" +
@@ -385,7 +386,7 @@ var createItemSOAPRequest =
             Tracing.WriteLine(stringBuilder.ToString());
             // Check the response for error codes. If there is an error, throw an application exception.
             IEnumerable<XElement> errorCodes = from errorCode in responseEnvelope.Descendants
-                                               ("{http://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
+                                               ("{https://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
                                                select errorCode;
             foreach (var errorCode in errorCodes)
             {
@@ -424,15 +425,15 @@ var createItemSOAPRequest =
 
 Теперь, когда вы написали свое первое приложение EWS, можно переходить к другим способам использования EWS. Вот несколько идей для начала работы:
   
-- Реализуйте в приложении функции [автообнаружения](autodiscover-for-exchange.md), чтобы оно могло соединиться с нужным сервером Exchange Server, используя электронный адрес пользователя. См. также пример в статье [Exchange 2013: получение параметров пользователей с помощью автообнаружения](http://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e). 
+- Реализуйте в приложении функции [автообнаружения](autodiscover-for-exchange.md), чтобы оно могло соединиться с нужным сервером Exchange Server, используя электронный адрес пользователя. См. также пример в статье [Exchange 2013: получение параметров пользователей с помощью автообнаружения](https://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e). 
     
-- Ознакомьтесь со [справкой по EWS](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx) для получения дополнительных сведений об EWS. 
+- Ознакомьтесь со [справкой по EWS](https://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx) для получения дополнительных сведений об EWS. 
     
-- Просмотрите список [операций EWS](http://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx) для получения сведений о доступных операциях. 
+- Просмотрите список [операций EWS](https://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx) для получения сведений о доступных операциях. 
     
 - Используйте [редактор EWS](http://ewseditor.codeplex.com/) для просмотра траффика SOAP, отправляемого на сервер и обратно. 
     
-Если с приложением возникли проблемы, [попробуйте опубликовать вопрос или комментарий на форуме](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment) (и не забудьте прочитать первую запись). 
+Если с приложением возникли проблемы, [попробуйте опубликовать вопрос или комментарий на форуме](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) (и не забудьте прочитать первую запись). 
   
 ## <a name="see-also"></a>См. также
 
@@ -442,4 +443,3 @@ var createItemSOAPRequest =
 - [Разработка клиентов веб-служб для Exchange](develop-web-service-clients-for-exchange.md)  
 - [Начало работы с клиентскими приложениями, использующими управляемый API EWS](get-started-with-ews-managed-api-client-applications.md)
     
-

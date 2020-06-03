@@ -3,15 +3,15 @@ title: Поиск точек соединения с помощью службы
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 03896542-549b-4c45-973c-98f9025ea26c
 description: Узнайте, как использовать службу автообнаружения для направления клиентского приложения на соответствующий сервер Exchange.
-ms.openlocfilehash: eb3fb3664e5789638c097a43cf48f757bb0713ae
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: c1895fa0d2cce489467a726614e9457052624ef6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353982"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527595"
 ---
 # <a name="use-autodiscover-to-find-connection-points"></a>Поиск точек соединения с помощью службы автообнаружения
 
@@ -67,9 +67,9 @@ ms.locfileid: "21353982"
   
 |**Концепция**|**Описание**|
 |:-----|:-----|
-|[Автообнаружение для Exchange](autodiscover-for-exchange.md) <br/> |Предоставляет общие сведения о работе службы автообнаружения.  <br/> |
+|[Автообнаружение в Exchange](autodiscover-for-exchange.md) <br/> |Предоставляет общие сведения о работе службы автообнаружения.  <br/> |
    
-Если вы используете управляемый API EWS, вы используете класс [Microsoft. Exchange. WebServices. Data. ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) в пространстве имен [Microsoft. Exchange. WebServices. Data](http://msdn.microsoft.com/en-us/library/dd633907%28v=exchg.80%29.aspx) для управления подключением к EWS. Чтобы использовать примеры кода управляемого API EWS, приведенные в этой статье, необходимо сослаться на следующие пространства имен в коде: 
+Если вы используете управляемый API EWS, вы используете класс [Microsoft. Exchange. WebServices. Data. ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) в пространстве имен [Microsoft. Exchange. WebServices. Data](https://msdn.microsoft.com/library/dd633907%28v=exchg.80%29.aspx) для управления подключением к EWS. Чтобы использовать примеры кода управляемого API EWS, приведенные в этой статье, необходимо сослаться на следующие пространства имен в коде: 
   
 - **System.Net**
     
@@ -98,17 +98,17 @@ service.AutodiscoverUrl("User1@contoso.com");
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:wsa="http://www.w3.org/2005/08/addressing" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+        xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2013</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
     <wsa:To>https://mail.microsoft.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetUserSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetUserSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Users>
           <a:User>
@@ -133,14 +133,14 @@ service.AutodiscoverUrl("User1@contoso.com");
 > [!IMPORTANT]
 > Условия проверки отклика перенаправления содержатся в разделе Служба [автообнаружения для Exchange](autodiscover-for-exchange.md). 
   
-Если служба автообнаружения возвращает ответ на перенаправление, который указывается элементом [ErrorCode](http://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) элемента **усерреспонсе** , клиентское приложение должно использовать элемент **редиректтаржет** для создания нового запроса на параметры, который отправляется на сервер, указанный в ответе на перенаправление. В следующем примере показан ответ перенаправления от сервера. 
+Если служба автообнаружения возвращает ответ на перенаправление, который указывается элементом [ErrorCode](https://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) элемента **усерреспонсе** , клиентское приложение должно использовать элемент **редиректтаржет** для создания нового запроса на параметры, который отправляется на сервер, указанный в ответе на перенаправление. В следующем примере показан ответ перенаправления от сервера. 
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/
         Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
-    <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+    <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
       <h:MajorVersion>15</h:MajorVersion>
       <h:MinorVersion>0</h:MinorVersion>
@@ -150,7 +150,7 @@ service.AutodiscoverUrl("User1@contoso.com");
     </h:ServerVersionInfo>
   </s:Header>
   <s:Body>
-    <GetUserSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <GetUserSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -174,18 +174,18 @@ service.AutodiscoverUrl("User1@contoso.com");
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:wsa="http://www.w3.org/2005/08/addressing" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+        xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2013</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/
         Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
     <wsa:To>https://autodiscover.exchange.microsoft.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetUserSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetUserSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Users>
           <a:User>
@@ -203,15 +203,15 @@ service.AutodiscoverUrl("User1@contoso.com");
 
 ```
 
-Когда клиентское приложение направляется в правильную конечную точку для службы автообнаружения, сервер отправит ответ с элементом [ErrorCode](http://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) элемента **усерреспонсе** , установленным в значение " **Ошибка** ", и содержащий запрошенные параметры пользователя. Возвращаются только запрошенные параметры пользователя, **интерналевсурл** и **екстерналевсурл**. В следующем примере показан ответ от сервера. 
+Когда клиентское приложение направляется в правильную конечную точку для службы автообнаружения, сервер отправит ответ с элементом [ErrorCode](https://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) элемента **усерреспонсе** , установленным в значение " **Ошибка** ", и содержащий запрошенные параметры пользователя. Возвращаются только запрошенные параметры пользователя, **интерналевсурл** и **екстерналевсурл**. В следующем примере показан ответ от сервера. 
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" 
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" 
         xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/
         Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
-    <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+    <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
       <h:MajorVersion>15</h:MajorVersion>
       <h:MinorVersion>0</h:MinorVersion>
@@ -221,7 +221,7 @@ service.AutodiscoverUrl("User1@contoso.com");
     </h:ServerVersionInfo>
   </s:Header>
   <s:Body>
-    <GetUserSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <GetUserSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -260,8 +260,8 @@ service.AutodiscoverUrl("User1@contoso.com");
 ## <a name="see-also"></a>См. также
 
 - [Настройка приложения веб-служб Exchange](setting-up-your-ews-application.md)   
-- [Автообнаружение для Exchange](autodiscover-for-exchange.md)    
-- [Справочные материалы по веб-службе автообнаружения для Exchange](http://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)    
-- [Справка по веб-служб Exchange для Exchange](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
+- [Автообнаружение в Exchange](autodiscover-for-exchange.md)    
+- [Справочные материалы по веб-службе автообнаружения для Exchange](https://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)    
+- [Справка по веб-служб Exchange для Exchange](https://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
     
 

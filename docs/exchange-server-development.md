@@ -3,23 +3,23 @@ title: Разработки для Exchange Online и Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: f33d1093-75ba-4ff2-8d15-b0bf73a401bf
-description: Представляем подробную документацию для разработчиков Exchange Server (в том числе по Exchange Online как части Office 365), Exchange Online, Exchange 2013, Управляемый API EWS, Exchange 2010 и Exchange 2007.
-ms.openlocfilehash: 2af9e52c3f7cf03d7571d1640ef7bfa45b5e97be
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
-ms.translationtype: HT
+description: Найдите подробную документацию для разработчиков для Exchange Server, включая Exchange Online в составе Office 365 и локальной версии Exchange Server.
+localization_priority: Priority
+ms.openlocfilehash: 12a29ca07801561e7a746603d795468d9cb7491f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353247"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528498"
 ---
 # <a name="exchange-online-and-exchange-development"></a>Разработки для Exchange Online и Exchange
 
-Представляем подробную документацию для разработчиков Exchange Server (в том числе по Exchange Online как части Office 365), Exchange Online, Exchange 2013, Управляемый API EWS, Exchange 2010 и Exchange 2007.
+Найдите подробную документацию для разработчиков для Exchange Server, включая Exchange Online в составе Office 365 и локальной версии Exchange Server.
 
-Вы можете использовать справочную документацию как практическое руководство, документацию для начала работ, материалы с описанием новых характеристик и API для разработки средств доступа и управления данными почтовых ящиков со служб, веб-сайтов, настольных компьютеров и мобильных устройств, а также создавать пользовательские решения для электронной почты, календаря, контактов и других элементов, которые хранятся в Exchange Online или на сервере Exchange 2013.
+Вы можете использовать справочную документацию по использованию, посвящению новой функции и API для разработки средств для доступа и управления данными почтовых ящиков из служб, веб-сайтов, настольных компьютеров и мобильных устройств, а также для создания настраиваемых решений для электронной почты, календаря, контактов и других элементов, которые хранятся в Exchange Online или на сервере Exchange 2010, 2013, 2016 и 2019
 
-Вы можете использовать Веб-службы Exchange (EWS), Автообнаружение, Надстройки Outlook или другие API для разработки приложений. С помощью это страницы вы сможете выбрать подходящую технологию Exchange.
+Для разработки приложений можно использовать API Graph, REST API, веб-службы Exchange (EWS), автообнаружение, надстройки Outlook и другие API. С помощью это страницы вы сможете выбрать подходящую технологию Exchange.
 
 ## <a name="exchange-developer-content"></a>Материалы для разработчиков Exchange
 
@@ -35,12 +35,12 @@ ms.locfileid: "21353247"
 |Клиент почтовых ящиков, не созданный на платформе .NET Framework или Java |[Сведения об управляемом API EWS, EWS и веб-службах в Exchange](exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) |
 |Клиент почтовых ящиков, использующий .NET Framework для доступа к веб-службам Exchange |[Начало работы с клиентскими приложениями, использующими управляемый API EWS](exchange-web-services/get-started-with-ews-managed-api-client-applications.md) |
 |Клиент почтовых ящиков, использующий Java для доступа к EWS |[API Java EWS на GitHub](https://github.com/OfficeDev/ews-java-api) |
-|Приложение, которое настраивает пользовательский интерфейс Outlook или использует бизнес-логику Outlook  |[Справочник по VBA для Outlook](https://msdn.microsoft.com/ru-RU/VBA/VBA-Outlook) |
+|Приложение, которое настраивает пользовательский интерфейс Outlook или использует бизнес-логику Outlook  |[Справочник по VBA для Outlook](https://msdn.microsoft.com/VBA/VBA-Outlook) |
 |Приложение, которое предназначено для Exchange Online или Exchange 2013, на которое необходимо перейти с более ранней версии Exchange  |[Переход на технологии Exchange](migrating-to-exchange-online-and-exchange-2013-technologies.md) |
 |Пользовательское средство управления, использующее Windows PowerShell из управляемого кода   |[Командная консоль Exchange](management/exchange-management-shell.md) |
 |Решение для резервного копирования или восстановления данных Exchange  |[Резервное копирование и восстановление для Exchange](backup-restore/backup-and-restore-for-exchange-2013.md) |
 |Расширение для поддержки доступа к сообщениям в конвейере транспорта   |[Агенты транспорта в Exchange](transport-agents/transport-agents-in-exchange-2013.md)  |
-|Клиент почтовых ящиков для мобильного устройства   |[Exchange ActiveSync](https://technet.microsoft.com/ru-RU/library/aa998357.aspx) |
+|Клиент почтовых ящиков для мобильного устройства   |[Exchange ActiveSync](https://technet.microsoft.com/library/aa998357.aspx) |
 
 ## <a name="exchange-interactions-with-custom-applications"></a>Exchange взаимодействует с пользовательскими приложениями
 
@@ -57,8 +57,8 @@ ms.locfileid: "21353247"
 ## <a name="see-also"></a>См. также
 
 - 
-  [Справочные материалы по серверному API для Exchange](https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx)
-- [Узнайте об Exchange в блогах Office](https://www.microsoft.com/ru-RU/microsoft-365/blog/)
+  [Справочные материалы по серверному API для Exchange](https://msdn.microsoft.com/library/dn186243(v=exchg.150).aspx)
+- [Узнайте об Exchange в блогах Office](https://www.microsoft.com/microsoft-365/blog/)
 - [Скачайте 101 пример кодов для Exchange 2013](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)
 - [Получите управляемый API EWS (GitHub)](https://github.com/OfficeDev/ews-managed-api/blob/master/README.md)
-- [Получите поддержку для сервера Exchange](https://support.microsoft.com/en-us/getsupport?oaspworkflow=start_1.0.0.0&wf=0&wfname=productselection&gprid=730&x=13&y=7&st=1&wfxredirect=1&sd=gn&ccsid=635890984021344661&forceorigin=esmc)
+- [Получите поддержку для сервера Exchange](https://support.microsoft.com/getsupport?oaspworkflow=start_1.0.0.0&wf=0&wfname=productselection&gprid=730&x=13&y=7&st=1&wfxredirect=1&sd=gn&ccsid=635890984021344661&forceorigin=esmc)

@@ -3,15 +3,15 @@ title: Добавление вложений с помощью EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 0cbce436-2ae6-4fcc-bd8b-f517a0724e55
 description: Узнайте, как создавать новые элементы с вложениями или добавлять вложения в существующие элементы с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: dbfff879c92dafeec588d79cddd92e294b763c06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: fa98eb437d1289f25cfb827b6fa9b351d842bd40
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761005"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528267"
 ---
 # <a name="add-attachments-by-using-ews-in-exchange"></a>Добавление вложений с помощью EWS в Exchange
 
@@ -23,19 +23,19 @@ ms.locfileid: "19761005"
 
 |**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Добавление вложенного файла в новую или существующую электронную почту  <br/> |[Аттачментколлектион. Аддфилеаттачмент](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) для нового сообщения электронной почты  <br/> [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) для добавления в существующую электронную почту  <br/> |
-|Добавление вложения элемента в новую или существующую электронную почту  <br/> |[Аттачментколлектион. Аддитематтачмент](http://msdn.microsoft.com/en-us/library/dd634986%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) для нового сообщения электронной почты  <br/> [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) для добавления в существующую электронную почту  <br/> |
+|Добавление вложенного файла в новую или существующую электронную почту  <br/> |[Аттачментколлектион. Аддфилеаттачмент](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) для нового сообщения электронной почты  <br/> [CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) для добавления в существующую электронную почту  <br/> |
+|Добавление вложения элемента в новую или существующую электронную почту  <br/> |[Аттачментколлектион. Аддитематтачмент](https://msdn.microsoft.com/library/dd634986%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) для нового сообщения электронной почты  <br/> [CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) для добавления в существующую электронную почту  <br/> |
    
 ## <a name="create-an-email-with-file-and-item-attachments-by-using-the-ews-managed-api"></a>Создание сообщения электронной почты с вложениями файлов и элементов с помощью управляемого API EWS
 <a name="bk_createattachewsma"> </a>
 
 В приведенном ниже примере кода показано, как создать сообщение электронной почты с несколькими вложенными файлами и вложением элемента, выполнив следующие действия: 
   
-1. Использование объекта [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) для создания сообщения электронной почты. 
+1. Использование объекта [EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) для создания сообщения электронной почты. 
     
-2. Добавление вложений к сообщению с помощью методов [аттачментколлектион. аддфилеаттачмент](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) и [аттачментколлектион. аддитематтачмент](http://msdn.microsoft.com/en-us/library/dd634986%28v=exchg.80%29.aspx) . 
+2. Добавление вложений к сообщению с помощью методов [аттачментколлектион. аддфилеаттачмент](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) и [аттачментколлектион. аддитематтачмент](https://msdn.microsoft.com/library/dd634986%28v=exchg.80%29.aspx) . 
     
-3. С помощью метода [EmailMessage. SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) отправьте сообщение получателям и сохраните сообщение в папке "Отправленные". 
+3. С помощью метода [EmailMessage. SendAndSaveCopy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) отправьте сообщение получателям и сохраните сообщение в папке "Отправленные". 
     
 В этом примере кода показаны четыре способа, с помощью которых можно добавить файл вложения в элемент с помощью управляемого API EWS:
   
@@ -49,7 +49,7 @@ ms.locfileid: "19761005"
     
 Обратите внимание, что вложение элемента в этом примере создается одновременно с сообщением электронной почты. Чтобы добавить существующее сообщение электронной почты в качестве вложения элемента, ознакомьтесь со статьей [Добавление существующего элемента в новое сообщение электронной почты с помощью сохранитьmimecontent и управляемого API EWS](#bk_addexistingemailewsma).
   
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 public static void CreateEmailWithAttachments(ExchangeService service)
@@ -93,16 +93,16 @@ public static void CreateEmailWithAttachments(ExchangeService service)
 ## <a name="create-an-email-with-file-and-item-attachments-by-using-ews"></a>Создание сообщения электронной почты с вложениями файлов и элементов с помощью EWS
 <a name="bk_createattachews"> </a>
 
-В приведенном ниже примере кода показано, как использовать операцию [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) для создания сообщения электронной почты с четырьмя вложениями файлов и одним вложением элемента. Кроме того, это один из XML-запросов, отправляемых управляемым API EWS при [создании сообщения электронной почты с вложениями файлов и элементов](#bk_createattachewsma).
+В приведенном ниже примере кода показано, как использовать операцию [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) для создания сообщения электронной почты с четырьмя вложениями файлов и одним вложением элемента. Кроме того, это один из XML-запросов, отправляемых управляемым API EWS при [создании сообщения электронной почты с вложениями файлов и элементов](#bk_createattachewsma).
   
 Обратите внимание, что вложение элемента в этом примере создается одновременно с сообщением электронной почты. Чтобы добавить существующее сообщение электронной почты в качестве вложения элемента, ознакомьтесь со статьей [Добавление существующего элемента в новое сообщение электронной почты с помощью сохранитьmimecontent и управляемого API EWS](#bk_addexistingemailewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -170,26 +170,26 @@ public static void CreateEmailWithAttachments(ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) **, которое**указывает, что сообщение и вложения были успешно созданы. В ответ также включен идентификатор [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) нового сообщения и значения [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) для каждого вложения. Значения некоторых атрибутов были сокращены для удобочитаемости. 
+Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) **, которое**указывает, что сообщение и вложения были успешно созданы. В ответ также включен идентификатор [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) нового сообщения и значения [AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) для каждого вложения. Значения некоторых атрибутов были сокращены для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="939"
                          MinorBuildNumber="12"
                          Version="V2_11"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -223,20 +223,20 @@ public static void CreateEmailWithAttachments(ExchangeService service)
 </s:Envelope>
 ```
 
-Чтобы [отправить созданное новое сообщение](how-to-send-email-messages-by-using-ews-in-exchange.md), вызовите операцию [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
+Чтобы [отправить созданное новое сообщение](how-to-send-email-messages-by-using-ews-in-exchange.md), вызовите операцию [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
   
 ## <a name="add-an-existing-item-to-a-new-email-by-using-the-mimecontent-and-the-ews-managed-api"></a>Добавление существующего элемента в новое сообщение электронной почты с помощью Сохранитьmimecontent и управляемого API EWS
 <a name="bk_addexistingemailewsma"> </a>
 
 Чтобы добавить существующий элемент в качестве вложения элемента в другой элемент, необходимо создать вложение нового элемента и скопировать содержимое существующего элемента в новый элемент. Это можно сделать двумя способами: 
   
-1. Если вы работаете с сообщениями электронной почты, вы можете скопировать значение свойства [сохранитьmimecontent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) из сообщения электронной почты в только что созданный вложенный элемент. Во время этого процесса будут утрачены некоторые свойства, такие как дальнейшие действия и категории, но они прекрасно подходят для стандартных сообщений электронной почты. 
+1. Если вы работаете с сообщениями электронной почты, вы можете скопировать значение свойства [сохранитьmimecontent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) из сообщения электронной почты в только что созданный вложенный элемент. Во время этого процесса будут утрачены некоторые свойства, такие как дальнейшие действия и категории, но они прекрасно подходят для стандартных сообщений электронной почты. 
     
 2. Если требуется полная точность для всех типов элементов, можно выполнить привязку к существующему элементу и скопировать все свойства и расширенные свойства в новое вложение.
     
 В следующем примере кода показан первый способ, в результате чего копируется **сохранитьmimecontent** в новый вложенный элемент. В приведенном ниже примере показано, как можно изменить код, чтобы использовать второй подход. 
   
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и что пользователь прошел проверку подлинности на сервере Exchange, а идентификатор **ItemId** является идентификатором [ItemId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) элемента, который необходимо присоединить. 
+В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и что пользователь прошел проверку подлинности на сервере Exchange, а идентификатор **ItemId** является идентификатором [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) элемента, который необходимо присоединить. 
   
 ```cs
 public static void CreateEmailExistingItem(ExchangeService service, ItemId itemId)
@@ -281,7 +281,7 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
   itemAttachment.Item.Subject = msgToAttach.Subject;
   ```
 
-4. Установите для вложения свойство [PidTagMessageFlags](http://msdn.microsoft.com/en-us/library/cc839733.aspx) (0x0E070003), которое требуется **Отправить**.
+4. Установите для вложения свойство [PidTagMessageFlags](https://msdn.microsoft.com/library/cc839733.aspx) (0x0E070003), которое требуется **Отправить**.
     
   ```cs
   ExtendedPropertyDefinition sent = new ExtendedPropertyDefinition(3591, MapiPropertyType.Integer);
@@ -293,28 +293,28 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 
 Существует два способа добавления существующего элемента в новый элемент: 
   
-1. Если вы работаете с сообщениями электронной почты, вы можете скопировать значение элемента [сохранитьmimecontent](http://msdn.microsoft.com/library/4f472a08-5653-4c54-ba65-831dfe32f20f%28Office.15%29.aspx) из сообщения электронной почты в только что созданный вложенный элемент. Во время этого процесса будут утрачены некоторые свойства, такие как дальнейшие действия и категории, но они прекрасно подходят для стандартных сообщений электронной почты. 
+1. Если вы работаете с сообщениями электронной почты, вы можете скопировать значение элемента [сохранитьmimecontent](https://msdn.microsoft.com/library/4f472a08-5653-4c54-ba65-831dfe32f20f%28Office.15%29.aspx) из сообщения электронной почты в только что созданный вложенный элемент. Во время этого процесса будут утрачены некоторые свойства, такие как дальнейшие действия и категории, но они прекрасно подходят для стандартных сообщений электронной почты. 
     
 2. Если требуется полная точность для всех типов элементов, можно выполнить привязку к существующему элементу и скопировать все свойства и расширенные свойства в новое вложение.
     
 В приведенном ниже примере кода показано, как использовать элемент **сохранитьmimecontent** для копирования содержимого исходного элемента в значение **сохранитьmimecontent** нового вложения элемента. В этом примере используются следующие операции: 
   
-1. [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) — для получения **сохранитьmimecontent** и [темы](http://msdn.microsoft.com/library/c140d6c2-deb1-4f67-a908-9397197c4ae7%28Office.15%29.aspx) сообщения, которое станет вложением элемента в новом сообщении. 
+1. [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) — для получения **сохранитьmimecontent** и [темы](https://msdn.microsoft.com/library/c140d6c2-deb1-4f67-a908-9397197c4ae7%28Office.15%29.aspx) сообщения, которое станет вложением элемента в новом сообщении. 
     
-2. [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) — для создания нового сообщения электронной почты. 
+2. [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) — для создания нового сообщения электронной почты. 
     
-3. [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)— для создания нового вложения с помощью **сохранитьmimecontent** и **субъекта** , извлеченного операцией **GetItem** . 
+3. [CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx)— для создания нового вложения с помощью **сохранитьmimecontent** и **субъекта** , извлеченного операцией **GetItem** . 
     
-4. [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) — для отправки и сохранения сообщения. 
+4. [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) — для отправки и сохранения сообщения. 
     
 Пример начинается с получения **сохранитьmimecontent** и **темы** существующего элемента. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
     <m:GetItem>
       <m:ItemShape>
@@ -332,26 +332,26 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **GetItem** с сообщением [жетитемреспонсе](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) **, которое**указывает, что сообщение было успешно получено, а **сохранитьmimecontent** и **Тема** сообщения. 
+Сервер отвечает на запрос **GetItem** с сообщением [жетитемреспонсе](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) **, которое**указывает, что сообщение было успешно получено, а **сохранитьmimecontent** и **Тема** сообщения. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="944"
                          MinorBuildNumber="11"
                          Version="V2_12"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -375,9 +375,9 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -399,16 +399,16 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) **, которое**указывает, что сообщение было создано успешно.
+Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) **, которое**указывает, что сообщение было создано успешно.
   
-Затем создайте вложение нового элемента, используя **сохранитьmimecontent** и **тему** , извлеченную операцией **GetItem** . Значение элемента [парентитемид](http://msdn.microsoft.com/library/72dc4391-72db-44d2-85d9-4718d59886a7%28Office.15%29.aspx) заполняется с помощью значения **ItemId** , возвращаемого в ответе **CreateItem** . 
+Затем создайте вложение нового элемента, используя **сохранитьmimecontent** и **тему** , извлеченную операцией **GetItem** . Значение элемента [парентитемид](https://msdn.microsoft.com/library/72dc4391-72db-44d2-85d9-4718d59886a7%28Office.15%29.aspx) заполняется с помощью значения **ItemId** , возвращаемого в ответе **CreateItem** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -429,16 +429,16 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **CreateAttachment** с сообщением [креатеаттачментреспонсе](http://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) , равное **ошибке**, которое указывает, что вложение успешно создано, и [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) только что созданного вложения. 
+Сервер отвечает на запрос **CreateAttachment** с сообщением [креатеаттачментреспонсе](https://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) , равное **ошибке**, которое указывает, что вложение успешно создано, и [AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) только что созданного вложения. 
   
-После создания нового сообщения и присоединения элемента можно [Отправить новое сообщение](how-to-send-email-messages-by-using-ews-in-exchange.md) , вызвав операцию [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
+После создания нового сообщения и присоединения элемента можно [Отправить новое сообщение](how-to-send-email-messages-by-using-ews-in-exchange.md) , вызвав операцию [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -456,22 +456,22 @@ public static void CreateEmailExistingItem(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **SendItem** с сообщением [сендитемреспонсе](http://msdn.microsoft.com/library/26ac41c7-57d9-473e-ab7a-bae93e1d2aba%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **, указывающее, что**сообщение было отправлено успешно.
+Сервер отвечает на запрос **SendItem** с сообщением [сендитемреспонсе](https://msdn.microsoft.com/library/26ac41c7-57d9-473e-ab7a-bae93e1d2aba%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **, указывающее, что**сообщение было отправлено успешно.
   
 ## <a name="create-an-email-with-an-inline-attachment-by-using-the-ews-managed-api"></a>Создание сообщения электронной почты со встроенным вложением с помощью управляемого API EWS
 <a name="bk_createinlineattachewsma"> </a>
 
 В приведенном ниже примере кода показано, как создать сообщение электронной почты со встроенным вложением, выполнив следующие действия:
   
-1. Использование объекта [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) для создания сообщения электронной почты. 
+1. Использование объекта [EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) для создания сообщения электронной почты. 
     
-2. Установка для свойства [EmailMessage. Body](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx) HTML-текста, содержащего встроенное вложение. 
+2. Установка для свойства [EmailMessage. Body](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx) HTML-текста, содержащего встроенное вложение. 
     
-3. Использование метода [аттачментколлектион. аддфилеаттачмент](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) для добавления вложения в сообщение. 
+3. Использование метода [аттачментколлектион. аддфилеаттачмент](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.addfileattachment%28v=exchg.80%29.aspx) для добавления вложения в сообщение. 
     
-4. С помощью метода [EmailMessage. SendAndSaveCopy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) отправьте сообщение получателю и сохраните сообщение в папке "Отправленные". 
+4. С помощью метода [EmailMessage. SendAndSaveCopy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.sendandsavecopy%28v=exchg.80%29.aspx) отправьте сообщение получателю и сохраните сообщение в папке "Отправленные". 
     
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```cs
 public static void CreateEmailWithInlineAttachment(ExchangeService service)
@@ -505,14 +505,14 @@ public static void CreateEmailWithInlineAttachment(ExchangeService service)
 ## <a name="create-an-email-with-an-inline-attachment-by-using-ews"></a>Создание сообщения электронной почты со встроенным вложением с помощью EWS
 <a name="bk_createinlineattachewsma"> </a>
 
-В приведенном ниже примере кода показано, как использовать операцию [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) для создания сообщения электронной почты с вложенным вложенным файлом. Атрибут **BodyType** элемента [Body](http://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx) указывает на то, что содержимое имеет формат HTML и включает источник изображения. Кроме того, это один из XML-запросов, отправляемых управляемым API EWS при использовании управляемого API EWS для [создания сообщения электронной почты со встроенным вложением](#bk_createinlineattachewsma).
+В приведенном ниже примере кода показано, как использовать операцию [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) для создания сообщения электронной почты с вложенным вложенным файлом. Атрибут **BodyType** элемента [Body](https://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx) указывает на то, что содержимое имеет формат HTML и включает источник изображения. Кроме того, это один из XML-запросов, отправляемых управляемым API EWS при использовании управляемого API EWS для [создания сообщения электронной почты со встроенным вложением](#bk_createinlineattachewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -542,22 +542,22 @@ public static void CreateEmailWithInlineAttachment(ExchangeService service)
 </soap:Envelope>
 ```
 
-В ответ на запрос **CreateItem** сервер отправляет сообщение [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx), включающее параметр [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError**, которое указывает, что сообщение было успешно создано, и свойство [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) созданного сообщения. 
+В ответ на запрос **CreateItem** сервер отправляет сообщение [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx), включающее параметр [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) со значением **NoError**, которое указывает, что сообщение было успешно создано, и свойство [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) созданного сообщения. 
   
-Чтобы [отправить созданное новое сообщение](how-to-send-email-messages-by-using-ews-in-exchange.md), вызовите операцию [SendItem](http://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
+Чтобы [отправить созданное новое сообщение](how-to-send-email-messages-by-using-ews-in-exchange.md), вызовите операцию [SendItem](https://msdn.microsoft.com/library/337b89ef-e1b7-45ed-92f3-8abe4200e4c7%28Office.15%29.aspx) . 
   
 ## <a name="add-an-attachment-to-an-existing-email-by-using-the-ews-managed-api"></a>Добавление вложения в существующее сообщение электронной почты с помощью управляемого API EWS
 <a name="bk_createinlineattachewsma"> </a>
 
 В приведенном ниже примере кода показано, как добавить вложение к существующему письму, выполнив следующие действия: 
   
-1. С помощью метода [EmailMessage. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) можно выполнить присоединение к существующему сообщению электронной почты. 
+1. С помощью метода [EmailMessage. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) можно выполнить присоединение к существующему сообщению электронной почты. 
     
 2. Добавление вложенного файла к сообщению с помощью метода **аддфилеаттачмент** . 
     
-3. Сохранение обновлений путем вызова метода [EmailMessage. Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) . 
+3. Сохранение обновлений путем вызова метода [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) . 
     
-В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
+В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
 ```XML
 public static void AddAttachmentToExisting(ExchangeService service, ItemId itemId)
@@ -573,14 +573,14 @@ public static void AddAttachmentToExisting(ExchangeService service, ItemId itemI
 ## <a name="add-an-attachment-to-an-existing-email-by-using-ews"></a>Добавление вложения в существующее сообщение электронной почты с помощью EWS
 <a name="bk_createinlineattachewsma"> </a>
 
-В приведенном ниже примере кода показано, как с помощью операции [CreateAttachment](http://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) добавить вложенный файл к существующему сообщению электронной почты. Кроме того, это один из XML-запросов, отправляемых управляемым API EWS, когда вы используете управляемый API EWS, чтобы [Добавить вложение в существующую электронную почту](#bk_createinlineattachewsma).
+В приведенном ниже примере кода показано, как с помощью операции [CreateAttachment](https://msdn.microsoft.com/library/e066db95-6963-4507-a8d0-8efad287f550%28Office.15%29.aspx) добавить вложенный файл к существующему сообщению электронной почты. Кроме того, это один из XML-запросов, отправляемых управляемым API EWS, когда вы используете управляемый API EWS, чтобы [Добавить вложение в существующую электронную почту](#bk_createinlineattachewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -601,26 +601,26 @@ public static void AddAttachmentToExisting(ExchangeService service, ItemId itemI
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **CreateAttachment** с сообщением [креатеаттачментреспонсе](http://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx) , которое содержит значение [респонсекоде](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) , равное **ошибке**, которое указывает, что вложение успешно создано, и [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) только что созданного вложения. 
+Сервер отвечает на запрос **CreateAttachment** с сообщением [креатеаттачментреспонсе](https://msdn.microsoft.com/library/cf6bd8bb-5317-4a03-bd75-297dd359b5da%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) , равное **ошибке**, которое указывает, что вложение успешно создано, и [AttachmentId](https://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) только что созданного вложения. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="939"
                          MinorBuildNumber="12"
                          Version="V2_11"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

@@ -3,15 +3,15 @@ title: Управление доступом клиентских приложе
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 60ac3f7b-ba8a-4c93-99f7-c27002caff93
 description: Узнайте о параметрах управления доступом клиентского приложения к EWS.
-ms.openlocfilehash: e3a0e07b733b4ebc070ab6b3fc73c8aec4b62785
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: b887b8167e3d38946b1d6caffe12655ded89569f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353065"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528463"
 ---
 # <a name="controlling-client-application-access-to-ews-in-exchange"></a>Управление доступом клиентских приложений к EWS в Exchange
 
@@ -70,16 +70,16 @@ ms.locfileid: "21353065"
 
 Администраторы используют следующие командлеты командной консоли Exchange для настройки средств контроля доступа EWS: 
   
-- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)   
-- [Set-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)   
-- [Get — OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)   
-- [Set — OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997443.aspx)
+- [Get-CASMailbox](https://technet.microsoft.com/library/bb124754.aspx)   
+- [Set-CASMailbox](https://technet.microsoft.com/library/bb125264.aspx)   
+- [Get — OrganizationConfig](https://technet.microsoft.com/library/aa997571.aspx)   
+- [Set — OrganizationConfig](https://technet.microsoft.com/library/aa997443.aspx)
     
 ## <a name="see-also"></a>См. также
 
 - [Начало работы с веб-службами Exchange](start-using-web-services-in-exchange.md)  
 - [Контроль доступа к EWS в Exchange](how-to-control-access-to-ews-in-exchange.md)
-- [PowerShell в Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
-- [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [PowerShell в Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
+- [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
     
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - Exchange
 api_type:
 - schema
 ms.assetid: cf6fd871-9a65-4f34-8557-c8c71dd7ce09
 description: Сведения об операциях EWS, доступных в Exchange.
-ms.openlocfilehash: c56c3be746138cec251836fcb61ee3738d168869
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: HT
+localization_priority: Priority
+ms.openlocfilehash: 143903d9198a7e31e876adcbbb336df34ecf01fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762424"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526125"
 ---
 # <a name="ews-operations-in-exchange"></a>Операции EWS в Exchange
 
@@ -72,7 +72,7 @@ ms.locfileid: "19762424"
 |:-----|:-----|
 |[CreateFolder Operation](createfolder-operation.md) <br/> |Exchange 2007  <br/> |
 |[Операция CreateFolderPath](createfolderpath-operation.md) <br/> |Exchange 2013  <br/> |
-|[Операция CreateManagedFolder](createmanagedfolder-operation.md) <br/> |Exchange 2007. Вместо этой возможности в Exchange 2010 и более поздних версий используются другие. Дополнительные сведения о том, как применять теги и политики хранения для управления записями сообщений, см. в статье [Переход от использования управляемых папок к использованию политик хранения](http://technet.microsoft.com/ru-RU/library/dd298032%28v=exchg.141%29.aspx).  <br/> |
+|[Операция CreateManagedFolder](createmanagedfolder-operation.md) <br/> |Exchange 2007. Вместо этой возможности в Exchange 2010 и более поздних версий используются другие. Дополнительные сведения о том, как применять теги и политики хранения для управления записями сообщений, см. в статье [Переход от использования управляемых папок к использованию политик хранения](https://technet.microsoft.com/library/dd298032%28v=exchg.141%29.aspx).  <br/> |
 |[Операция CopyFolder](copyfolder-operation.md) <br/> |Exchange 2007  <br/> |
 |[Операция DeleteFolder](deletefolder-operation.md) <br/> |Exchange 2007  <br/> |
 |[Операция EmptyFolder](emptyfolder-operation.md) <br/> |Exchange 2010  <br/> |
@@ -87,7 +87,7 @@ ms.locfileid: "19762424"
 |:-----|:-----|
 |[Операция CreateAttachment](createattachment-operation.md) <br/> |Exchange 2007  <br/> |
 |[Операция GetAttachment](getattachment-operation.md) <br/> |Exchange 2007  <br/> |
-|[Операция DeleteAttachment](deleteattachment-operation.md) <br/> |Exchange 2007  <br/> |
+|[Операция DeleteAttachment](deleteattachment-operation.md) <br/> |Exchange 2007  <br/> |
    
 В таблице ниже перечислены операции с напоминаниями в почтовых ящиках Exchange.
   
@@ -113,7 +113,7 @@ ms.locfileid: "19762424"
 |[Операция GetUserPhoto](getuserphoto-operation.md) <br/> |Exchange 2013. Эта операция может выполняться как с помощью REST, так и с помощью протокола SOAP.  <br/> |
 |[MarkAsJunk Operation](markasjunk-operation.md) <br/> |Exchange 2013  <br/> |
 |[Операция ResolveNames](resolvenames-operation.md) <br/> |Exchange 2007  <br/> |
-|[Операция GetPasswordExpirationDate](getpasswordexpirationdate-operation.md) <br/> |Exchange 2010 SP1  <br/> |
+|[Операция GetPasswordExpirationDate](getpasswordexpirationdate-operation.md) <br/> |Exchange 2010 с пакетом обновления 1 (SP1)  <br/> |
    
 ## <a name="availability-operations"></a>Операции проверки доступности
 <a name="bk_Availability"> </a>
@@ -139,8 +139,8 @@ ms.locfileid: "19762424"
   
 |**Имя операции**|**Версия, где параметр был представлен**|
 |:-----|:-----|
-|[Операция UploadItems](uploaditems-operation.md) <br/> |Exchange 2010 SP1  <br/> |
-|[Операция ExportItems](exportitems-operation.md) <br/> |Exchange 2010 SP1  <br/> |
+|[Операция UploadItems](uploaditems-operation.md) <br/> |Exchange 2010 с пакетом обновления 1 (SP1)  <br/> |
+|[Операция ExportItems](exportitems-operation.md) <br/> |Exchange 2010 с пакетом обновления 1 (SP1)  <br/> |
    
 ## <a name="delegate-management-operations"></a>Операции управления делегированием
 <a name="bk_delegate_management"> </a>
@@ -165,7 +165,7 @@ ms.locfileid: "19762424"
   
 |**Имя операции**|**Версия, где параметр был представлен**|
 |:-----|:-----|
-|[Операция GetInboxRules](getinboxrules-operation.md) <br/> |Exchange 2010 SP1  <br/> |
+|[Операция GetInboxRules](getinboxrules-operation.md) <br/> |Exchange 2010 с пакетом обновления 1 (SP1)  <br/> |
 |[Операция UpdateInboxRules](updateinboxrules-operation.md) <br/> |Exchange 2010 SP1  <br/> |
    
 ## <a name="mail-app-management-operations"></a>Операции управления почтовыми приложениями
@@ -217,7 +217,7 @@ ms.locfileid: "19762424"
 |[Операция GetEvents](getevents-operation.md) <br/> |Exchange 2007  <br/> |
 |[Операция GetStreamingEvents](getstreamingevents-operation.md) <br/> |Exchange 2010 SP1  <br/> |
 |[Операции подписки](subscribe-operation.md) <br/> |Exchange 2007  <br/> |
-|[Отписаться операции](unsubscribe-operation.md) <br/> |Exchange 2007  <br/> |
+|[Отписаться операции](unsubscribe-operation.md) <br/> |Exchange 2007  <br/> |
    
 ## <a name="persona-operations"></a>Операции с пользователями
 <a name="bk_personas"> </a>
@@ -275,7 +275,7 @@ ms.locfileid: "19762424"
 |**Имя операции**|**Версия, где параметр был представлен**|
 |:-----|:-----|
 |[Операция SyncFolderHierarchy](syncfolderhierarchy-operation.md) <br/> |Exchange 2007  <br/> |
-|[Операция SyncFolderItems](syncfolderitems-operation.md) <br/> |Exchange 2007  <br/> |
+|[Операция SyncFolderItems](syncfolderitems-operation.md) <br/> |Exchange 2007  <br/> |
    
 ## <a name="time-zone-operation"></a>Операция с часовыми поясами
 <a name="bk_timezone"> </a>
@@ -286,7 +286,7 @@ ms.locfileid: "19762424"
   
 |**Имя операции**|**Версия, где параметр был представлен**|
 |:-----|:-----|
-|[Операция GetServerTimeZones](getservertimezones-operation.md) <br/> |Exchange 2010  <br/> |
+|[Операция GetServerTimeZones](getservertimezones-operation.md) <br/> |Exchange 2010  <br/> |
    
 ## <a name="unified-messaging-operations"></a>Операции с единой системой обмена сообщениями
 <a name="bk_um"> </a>
