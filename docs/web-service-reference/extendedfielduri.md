@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b3c6ea3a-9ead-44b9-9d99-64ecf12bde23
 description: Элемент Екстендедфиелдури определяет расширенное свойство MAPI.
-ms.openlocfilehash: 50ce46652863b0c534d09d58d4b9f7c8095deef2
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: fd365010016c68236107991717ed538c97dc0d50
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353793"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526034"
 ---
 # <a name="extendedfielduri"></a>екстендедфиелдури
 
@@ -48,13 +48,15 @@ ms.locfileid: "21353793"
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Назначить  <br/> |Определяет идентификатор набора свойств собрания по имени.  <br/> |
+|Адрес  <br/> |Определяет свойство Address с заданным именем.  <br/> |
 |Appointment  <br/> |Определяет идентификатор набора свойств встречи по имени.  <br/> |
-|Распространенная  <br/> |Идентифицирует общий идентификатор набора свойств по имени.  <br/> |
-|публикстрингс  <br/> |Определяет идентификатор набора свойств открытых строк по имени.  <br/> |
-|Address  <br/> |Определяет свойство Address с заданным именем.  <br/> |
-|InternetHeaders  <br/> |Определяет свойство заголовков Интернета с указанием имени.  <br/> |
 |календарассистант  <br/> |Определяет свойство помощника по ведению календаря Set ID по имени.  <br/> |
+|Распространенная  <br/> |Идентифицирует общий идентификатор набора свойств по имени.  <br/> |
+|InternetHeaders  <br/> |Определяет свойство заголовков Интернета с указанием имени.  <br/> |
+|Назначить  <br/> |Определяет идентификатор набора свойств собрания по имени.  <br/> |
+|Общий доступ  <br/> | <br/> |
+|публикстрингс  <br/> |Определяет идентификатор набора свойств открытых строк по имени.  <br/> |
+|Задача  <br/> |Указывает имя набора свойств задачи.  <br/> |
 |UnifiedMessaging  <br/> |Определяет идентификатор набора свойств единой системы обмена сообщениями по имени.  <br/> |
    
 #### <a name="propertytype-attribute"></a>Атрибут PropertyType
@@ -65,7 +67,7 @@ ms.locfileid: "21353793"
 |аппликатионтимеаррай  <br/> |Массив значений типа Double, который интерпретируется как Дата и время.  <br/> |
 |Binary  <br/> |Двоичное значение в кодировке Base64.  <br/> |
 |бинаряррай  <br/> |Массив двоичных значений в кодировке Base64.  <br/> |
-|Boolean  <br/> |Логическое **значение true** или **false**.  <br/> |
+|Логический  <br/> |Логическое **значение true** или **false**.  <br/> |
 |CLSID  <br/> |Строка GUID.  <br/> |
 |клсидаррай  <br/> |Массив строк GUID.  <br/> |
 |Денежный  <br/> |64-разрядное целое число, которое интерпретируется как число центов.  <br/> |
@@ -75,7 +77,7 @@ ms.locfileid: "21353793"
 |Ошибка  <br/> |Значение SCODE; 32 — разрядное целое число без знака.  <br/> Не используется для ограничений или для значений "получить/задать". Это существует только для отчетов.  <br/> |
 |С плавающей запятой  <br/> |32 — разрядное число с плавающей запятой.  <br/> |
 |флоатаррай  <br/> |Массив значений с плавающей запятой в 32 бит.  <br/> |
-|Целое число  <br/> |32-разрядное целое число с подписью (Int32).  <br/> |
+|Integer  <br/> |32-разрядное целое число с подписью (Int32).  <br/> |
 |интежераррай  <br/> |Массив целых чисел со знаком 32-bit (Int32).  <br/> |
 |Длинное целое  <br/> |Подписанное или Неподписанное 64-разрядное целое число (Int64).  <br/> |
 |лонгаррай  <br/> |Массив подписанных или неподписанных 64-разрядных целых чисел (Int64).  <br/> |
@@ -91,7 +93,7 @@ ms.locfileid: "21353793"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -126,7 +128,7 @@ ms.locfileid: "21353793"
 > [!NOTE]
 > В Microsoft .NET long — 64-разрядное целое число со знаком, а в MAPI и COM значение Long представляет собой 32-разрядное целое число. Большинство разработчиков будут использовать платформу Microsoft.NET для разработки клиентских приложений веб-служб Exchange. Таким образом, вместо имен MAPI используется именование .NET.
 > 
-> Например, свойство PR_MESSAGE_FLAGS MAPI, 0x0E07, имеет тип PT\_Long. В .NET оно считается целым числом. Расширенное свойство для PR_MESSAGE_FLAGS определено как `<t:ExtendedFieldURI PropertyTag="0x0E07" PropertyType="Integer"/>`. 
+> Например, свойство PR_MESSAGE_FLAGS MAPI, 0x0E07, имеет \_ тип PT Long. В .NET оно считается целым числом. Расширенное свойство для PR_MESSAGE_FLAGS определено как `<t:ExtendedFieldURI PropertyTag="0x0E07" PropertyType="Integer"/>` . 
   
 ## <a name="example"></a>Пример
 
@@ -136,10 +138,10 @@ ms.locfileid: "21353793"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
     MessageDisposition="SaveOnly">
       <SavedItemFolderId>
         <t:DistinguishedFolderId Id="inbox"/>
@@ -176,7 +178,7 @@ ms.locfileid: "21353793"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

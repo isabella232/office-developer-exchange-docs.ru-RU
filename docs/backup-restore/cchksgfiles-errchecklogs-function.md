@@ -12,12 +12,12 @@ api_type:
 - dllExport
 ms.assetid: cec0df4b-4679-4682-bacf-69b4f4aef343
 description: 'Дата последнего изменения: 22 февраля 2013 г.'
-ms.openlocfilehash: 5b1070de73bc23ae09ddb7835bd72c8e8a71a95f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 71e21bb3a748a532f9e3167e0b36898acde71b02
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19760922"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526720"
 ---
 # <a name="cchksgfileserrchecklogs-function"></a>Функция функция cchksgfiles. Еррчекклогс
 

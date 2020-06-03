@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5ad37ceb-2922-4420-9051-c29d0d57c420
 description: Элемент Шарингфолдерид представляет идентификатор локальной папки в отношении общего доступа.
-ms.openlocfilehash: e0eb1fbd7155040508daf253f5eb4b1352d7426d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 02780251639ee651ca65d8eadded43260852aaf8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835485"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526580"
 ---
 # <a name="sharingfolderid"></a>шарингфолдерид
 
@@ -41,7 +41,7 @@ ms.locfileid: "19835485"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19835485"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

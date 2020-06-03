@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d3835800-8887-43db-9a8a-fe3cfea7a863
 description: Элемент Финдмаилбоксстатистиксбикэйвордсреспонсемессаже указывает ответное сообщение для запроса Финдмаилбоксстатистиксбикэйвордс.
-ms.openlocfilehash: 9479252ed53335d07a6402707bc69e5eaadfa7c8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 704eebbf82db2871ab36be8e5b30c88c6959baa5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762582"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44525978"
 ---
 # <a name="findmailboxstatisticsbykeywordsresponsemessage"></a>финдмаилбоксстатистиксбикэйвордсреспонсемессаже
 
@@ -74,7 +74,7 @@ ms.locfileid: "19762582"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

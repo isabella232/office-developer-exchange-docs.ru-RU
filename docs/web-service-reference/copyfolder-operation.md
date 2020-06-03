@@ -16,7 +16,7 @@ ms.openlocfilehash: 1f9a7a3f3ede2d3cf8f9d41677d8ce0487266f17
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468896"
 ---
 # <a name="copyfolder-operation"></a>Операция CopyFolder
@@ -29,7 +29,7 @@ ms.locfileid: "44468896"
   
 ## <a name="copyfolder-request-example"></a>Пример запроса CopyFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса CopyFolder показано, как скопировать папки в папку "Входящие".
   
@@ -81,7 +81,7 @@ ms.locfileid: "44468896"
   
 ## <a name="successful-copyfolder-response"></a>Успешный ответ CopyFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос CopyFolder. 
   
@@ -118,7 +118,7 @@ ms.locfileid: "44468896"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Комментарий
 
 Элемент [FolderId](folderid.md) , возвращаемый в ответе, представляет папку, скопированную в новом расположении папки. 
   
@@ -146,7 +146,7 @@ ms.locfileid: "44468896"
   
 ## <a name="copyfolder-error-response"></a>Ответ об ошибке CopyFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса CopyFolder. Ошибка возникла из-за того, что папка с таким отображаемым именем уже существует.
   

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 9fb9529f-52c5-4907-a84b-935b78de16c3
 description: Элемент LegacyDN определяет почтовый ящик пользователя по устаревшему различающеу имени.
-ms.openlocfilehash: f7ec1dea29a7d3ad6d470ef7812390d179fe1d2a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b9af4278a5421dc932573396c3563a64a78de41e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834243"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526384"
 ---
 # <a name="legacydn-pox"></a>LegacyDN (POX)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19834243"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

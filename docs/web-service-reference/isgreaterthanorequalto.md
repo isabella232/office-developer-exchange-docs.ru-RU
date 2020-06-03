@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 373cc954-314d-40e2-be03-cc08aefc0d5b
 description: Элемент Исгреатерсанорекуалто представляет выражение поиска, которое сравнивает свойство со значением константы или другим свойством и возвращает значение true, если первое свойство больше или равно значению второго.
-ms.openlocfilehash: c469f2535ab717e7bc09b6317e01f0f8b3be8170
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: a38877ad92d064a20efbe1eb13ea6cc56c90f818
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354374"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526510"
 ---
 # <a name="isgreaterthanorequalto"></a>исгреатерсанорекуалто
 
@@ -52,7 +52,7 @@ ms.locfileid: "21354374"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -80,7 +80,7 @@ ms.locfileid: "21354374"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

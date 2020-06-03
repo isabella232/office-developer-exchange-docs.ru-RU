@@ -16,7 +16,7 @@ ms.openlocfilehash: 12248cbbd5d47a19e36d49fcebe6d4753a2e162f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468889"
 ---
 # <a name="update-itemsync"></a>Обновление (Итемсинк)
@@ -104,7 +104,7 @@ ms.locfileid: "44468889"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Ресурс](item.md) <br/> |Представляет универсальный элемент Exchange, который необходимо обновить.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange, которое требуется обновить.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange, которое требуется обновить.  <br/> |
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange, который необходимо обновить.  <br/> |
 |[контакт](contact.md); <br/> |Представляет элемент контакта Exchange, который необходимо обновить.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки, который необходимо обновить.  <br/> |

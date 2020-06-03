@@ -16,7 +16,7 @@ ms.openlocfilehash: 1a28d895eda11dd43f77ec2662a60a426cfc463c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468147"
 ---
 # <a name="syncfolderitems-operation"></a>Операция SyncFolderItems
@@ -31,7 +31,7 @@ SyncFolderItems аналогичен операции FindItem, так как о
   
 ## <a name="syncfolderitems-request-example"></a>Пример запроса SyncFolderItems
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса SyncFolderItems показано, как синхронизировать элементы в папке. В этом примере показана синхронизация элемента папки, которая не является первой синхронизацией, которая возникла для папки "Отправленные". Элемент [синкстате](syncstate-ex15websvcsotherref.md) не включается в запрос первой попытки синхронизации клиента с сервером Exchange. При первой попытке синхронизации элементов в иерархии папок будут возвращены все элементы почтового ящика, кроме элементов, указанных в элементе [Ignore](ignore.md) . Этот запрос SyncFolderItems попытается выполнить синхронизацию всех изменений элементов папки с момента последней синхронизации. Этот запрос будет игнорировать попытку синхронизации одного элемента, указанного в элементе [Ignore](ignore.md) . 
   
@@ -87,7 +87,7 @@ SyncFolderItems аналогичен операции FindItem, так как о
     
 ## <a name="successful-syncfolderitems-response"></a>Успешный ответ SyncFolderItems
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос SyncFolderItems. В этом примере приглашение на собрание синхронизируется из папки "Отправленные".
   
@@ -202,7 +202,7 @@ SyncFolderItems аналогичен операции FindItem, так как о
     
 ## <a name="syncfolderitems-error-response"></a>Ответ об ошибке SyncFolderItems
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса SyncFolderItems. Эта ошибка вызвана недопустимым Синкстате.
   

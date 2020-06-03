@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c96c2b4c-45cb-482a-a3bb-7a11a0fff43b
 description: Элемент Жетклиентекстенсион представляет запрос на получение расширения клиента.
-ms.openlocfilehash: 9d3abb4572a5f74f24925d24a2fbbe8ded593731
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: caa069195a3b82af4e5b5984dcb6e4124b11899b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762720"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526342"
 ---
 # <a name="getclientextension"></a>жетклиентекстенсион
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762720"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Рекуестедекстенсионидс](requestedextensionids.md) | [UserParameters](userparameters.md)усерпараметерс | [IsDebug](isdebug.md)
+[Рекуестедекстенсионидс](requestedextensionids.md)  |  [Усерпараметерс](userparameters.md)  |  Выполнить [отладку](isdebug.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762720"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

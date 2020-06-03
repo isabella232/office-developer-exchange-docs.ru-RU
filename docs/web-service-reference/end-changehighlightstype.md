@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62b7d14c-8d71-4f28-b93e-8fe42d99022b
 description: Элемент End указывает изменения времени окончания собрания при возникновении обновления собрания.
-ms.openlocfilehash: 1b5d9736d8450c41316bcac8e1aaa4e5ff630c68
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 61d8c46af1999a506258dfa0cebf3a712962772a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762340"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526202"
 ---
 # <a name="end-changehighlightstype"></a>End (Чанжехигхлигхтстипе)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762340"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19762340"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

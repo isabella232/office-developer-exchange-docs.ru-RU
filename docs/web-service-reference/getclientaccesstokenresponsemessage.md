@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45ca2500-ceab-4c98-9576-cb9e158e5896
 description: Элемент Жетклиентакцесстокенреспонсемессаже указывает ответное сообщение для запроса GetClientAccessToken.
-ms.openlocfilehash: 16fe684dd48f77156ed88d02a6ae7b8f3312cd87
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e842353dfe91fa7df410203b53e22d5ec53e1e39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762714"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526685"
 ---
 # <a name="getclientaccesstokenresponsemessage"></a>жетклиентакцесстокенреспонсемессаже
 
@@ -74,7 +74,7 @@ ms.locfileid: "19762714"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

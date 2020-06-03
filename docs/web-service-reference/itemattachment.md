@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 089ee599-f45e-46f5-a18a-5cfb3d2851ff
 description: Элемент ItemAttachment представляет элемент Exchange, присоединенный к другому элементу Exchange.
-ms.openlocfilehash: 7bd3d22430fe04f1b28ae240102500609fe8d703
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: c3a07fa091c05654a03cbff58fb20204c26c9061
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353149"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526440"
 ---
 # <a name="itemattachment"></a>ItemAttachment
 
@@ -157,7 +157,7 @@ ms.locfileid: "21353149"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -171,7 +171,7 @@ ms.locfileid: "21353149"
 |[Размер](size.md) <br/> |Представляет размер вложенного файла в байтах.  <br/> |
 |[LastModifiedTime](lastmodifiedtime.md) <br/> |Представляет время последнего изменения вложения.  <br/> |
 |[IsInline](isinline.md) <br/> |Указывает, отображается ли вложение встроенным в элементе.  <br/> |
-|[Элемент](item.md) <br/> |Представляет вложение универсального элемента Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет вложение универсального элемента Exchange.  <br/> |
 |[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет вложение сообщения электронной почты Exchange.  <br/> |
 |[календаритем](calendaritem.md) <br/> |Представляет вложение элемента календаря Exchange.  <br/> |
 |[контакт](contact.md); <br/> |Представляет вложение элемента контакта Exchange.  <br/> |
@@ -199,7 +199,7 @@ ms.locfileid: "21353149"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

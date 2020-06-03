@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 20049467-c01a-4c7d-8ada-ca1801cc95ed
 description: Элемент Емаиладдрессентити указывает одну сущность адреса электронной почты.
-ms.openlocfilehash: c149ee69c1ed08c33d0341c8dfdac3bcda040afb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b76b08f93e60c8492906f3cc94e60f5725c8a9dc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762290"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526223"
 ---
 # <a name="emailaddressentity"></a>емаиладдрессентити
 
@@ -32,7 +32,7 @@ ms.locfileid: "19762290"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762290"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

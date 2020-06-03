@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1acbb8a3-9110-4427-a06c-7e6e627e969f
 description: Элемент Усероптионс указывает список параметров голосования для сообщения.
-ms.openlocfilehash: 8a5bdbc254e3c0bce8822633d2714bc928f15f13
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2e0bbb373f423bbe9e913775b1f19d06dfd53f5f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840429"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526762"
 ---
 # <a name="useroptions"></a>усероптионс
 
@@ -32,7 +32,7 @@ ms.locfileid: "19840429"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19840429"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

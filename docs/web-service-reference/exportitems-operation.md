@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e2846abb-0b16-4732-bbd8-038a674672f6
 description: Операция ExportItems экспортирует элементы из почтового ящика.
-ms.openlocfilehash: 6f0760705c05de2a615544fe52ac50b398be6040
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 547a490a27d2414d2eda1d89cdac036a34eddccd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762441"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526048"
 ---
 # <a name="exportitems-operation"></a>Операция ExportItems
 
@@ -25,7 +25,7 @@ ms.locfileid: "19762441"
   
 ## <a name="exportitems-request-example"></a>Пример запроса ExportItems
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **ExportItems** показано, как сформировать запрос на получение трех элементов, экспортированных из почтового ящика. 
   
@@ -36,8 +36,8 @@ ms.locfileid: "19762441"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-      xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+      xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -53,7 +53,7 @@ ms.locfileid: "19762441"
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Комментарий
 
 Идентификаторы элементов в примере были сокращены, чтобы сохранить удобочитаемость.
   
@@ -71,7 +71,7 @@ ms.locfileid: "19762441"
     
 ## <a name="successful-exportitems-response-example"></a>Пример успешного ответа ExportItems
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **ExportItems** . 
   
@@ -86,15 +86,15 @@ ms.locfileid: "19762441"
     MajorBuildNumber="139"
     MinorBuildNumber="0"
     Version="Exchange2010_SP1"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-    xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+    xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ExportItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ExportItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ExportItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -147,7 +147,7 @@ ms.locfileid: "19762441"
 </s:Envelope>
 ```
 
-### <a name="comment"></a>Comment
+### <a name="comment"></a>Комментарий
 
 Идентификаторы элементов и изменения ключей в примере были сокращены, чтобы сохранить удобочитаемость.
   
@@ -171,7 +171,7 @@ ms.locfileid: "19762441"
     
 ## <a name="exportitems-error-response-example"></a>Пример ответа на сообщение об ошибке ExportItems
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ на запрос **ExportItems** , который содержит два ошибки и один успешно экспортированный элемент. Первый элемент в примере успешно экспортирован. Второй элемент содержит неправильный ключ изменения. Третий элемент представляет попытку экспорта элемента из неправильного почтового ящика. 
   
@@ -186,15 +186,15 @@ ms.locfileid: "19762441"
                          MajorBuildNumber="164" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ExportItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ExportItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ExportItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -227,7 +227,7 @@ ms.locfileid: "19762441"
 
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификаторы, ключи изменений и данные в этом примере были сокращены, чтобы сохранить удобочитаемость.
   

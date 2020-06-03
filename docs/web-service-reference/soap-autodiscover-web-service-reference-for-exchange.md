@@ -13,7 +13,7 @@ ms.openlocfilehash: bfca8e8e260a6262d12542bd6834894a2375453f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468427"
 ---
 # <a name="soap-autodiscover-web-service-reference-for-exchange"></a>Справочник по веб-службе автообнаружения SOAP для Exchange
@@ -50,10 +50,10 @@ ms.locfileid: "44468427"
 
 
 - [Справочные материалы по веб-службе автообнаружения для Exchange](autodiscover-web-service-reference-for-exchange.md)
-- [Автообнаружение для Exchange](../exchange-web-services/autodiscover-for-exchange.md)
+- [Автообнаружение в Exchange](../exchange-web-services/autodiscover-for-exchange.md)
 - [Поиск точек соединения с помощью службы автообнаружения](https://msdn.microsoft.com/library/03896542-549b-4c45-973c-98f9025ea26c%28Office.15%29.aspx)
 - [Получение параметров пользователя из Exchange с помощью службы автообнаружения](https://msdn.microsoft.com/library/6d90c305-4802-4e18-8d52-f60349feaa8d%28Office.15%29.aspx)
 - [Получение параметров домена с сервера Exchange](https://msdn.microsoft.com/library/2f9acb81-5135-4f72-94e8-65c235d725e6%28Office.15%29.aspx)
-- [Начать работу с использованием веб-служб Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Начало работы с веб-службами Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

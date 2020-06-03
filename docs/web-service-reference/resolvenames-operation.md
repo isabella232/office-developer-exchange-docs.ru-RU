@@ -16,7 +16,7 @@ ms.openlocfilehash: 51728addddd2bfb9d35b874ae8c11e83a4c8629b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468280"
 ---
 # <a name="resolvenames-operation"></a>Операция ResolveNames
@@ -37,7 +37,7 @@ ms.locfileid: "44468280"
   
 ## <a name="resolvenames-request-example"></a>Пример запроса ResolveNames
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **ResolveNames** показано, как разрешить запись пользователя.
   
@@ -84,7 +84,7 @@ ms.locfileid: "44468280"
     
 ## <a name="successful-resolvenames-operation-response-example"></a>Пример успешного ответа операции ResolveNames
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **ResolveNames** . 
   
@@ -170,7 +170,7 @@ ms.locfileid: "44468280"
     
 ## <a name="resolvenames-operation-error-response"></a>Ответ об ошибке операции ResolveNames
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса **ResolveNames** . Ошибка возникает при попытке разрешить имя, которое не удается разрешить. 
   

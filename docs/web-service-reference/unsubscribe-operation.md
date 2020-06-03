@@ -16,7 +16,7 @@ ms.openlocfilehash: 054f89af1ba5c780c7de5016a6dfe34086c97f02
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468028"
 ---
 # <a name="unsubscribe-operation"></a>Операция по отмене подписки
@@ -25,7 +25,7 @@ ms.locfileid: "44468028"
   
 ## <a name="unsubscribe-request-example"></a>Пример запроса unsubscribe
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показано SOAP-сообщение SOAP, отправляемое для отмены подписки клиента из службы уведомлений.
   
@@ -53,7 +53,7 @@ ms.locfileid: "44468028"
     
 ## <a name="successful-unsubscribe-response-example"></a>Пример успешного отклика отмены подписки
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос отказа от подписки.
   
@@ -98,7 +98,7 @@ ms.locfileid: "44468028"
     
 ## <a name="unsubscribe-error-response-example"></a>Пример отклика об отмене подписки
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 Следующий пример ответа об отказе от подписки возникает в ответ на попытку отменить подписку с помощью идентификатора подписки, который не удается найти в хранилище Exchange.
   

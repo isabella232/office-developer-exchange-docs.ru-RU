@@ -16,7 +16,7 @@ ms.openlocfilehash: 57e722c7775baa090736875077781cee869c3b01
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468504"
 ---
 # <a name="uploaditems-operation"></a>Операция UploadItems
@@ -28,7 +28,7 @@ ms.locfileid: "44468504"
   
 ## <a name="uploaditems-request-example"></a>Пример запроса UploadItems
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **UploadItems** показано, как отправить два элемента в почтовый ящик. Первый элемент — новый элемент. Второй элемент представляет собой обновленную версию существующего элемента в почтовом ящике. 
   
@@ -102,7 +102,7 @@ ms.locfileid: "44468504"
     
 ## <a name="successful-uploaditems-response-example"></a>Пример успешного ответа UploadItems
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **UploadItems** . 
   
@@ -163,7 +163,7 @@ ms.locfileid: "44468504"
     
 ## <a name="uploaditems-error-response-example"></a>Пример ответа на сообщение об ошибке UploadItems
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показан ответ на запрос **UploadItems** , который содержит ошибку, вызванную попыткой обновления элемента, который не удается найти в почтовом ящике. 
   

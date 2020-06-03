@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e64e76ff-4d98-4082-9acc-a1114ae45f44
 description: Элемент Еррорсубскриптионидс содержит массив недопустимых идентификаторов подписки.
-ms.openlocfilehash: 5cdbbeb1083754510f431bc092bb67dc0addecab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bdc5c86560800464d677a9043607bed3f7872e32
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762392"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526188"
 ---
 # <a name="errorsubscriptionids"></a>еррорсубскриптионидс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762392"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19762392"
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages и http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages и https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема сообщений; Схема Types  <br/> |
 |Файл проверки  <br/> |Messages. xsd; Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

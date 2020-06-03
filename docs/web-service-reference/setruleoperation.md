@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2106a85b-58fe-49be-b71d-4ca6aa66e060
 description: Элемент Сетрулеоператион представляет операцию для обновления существующего правила.
-ms.openlocfilehash: 9c956394d14c510e8dcc95110ef1874ea7010be0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 96fba2f229003b8c729c36614e69655852a3aa8c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835451"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526335"
 ---
 # <a name="setruleoperation"></a>сетрулеоператион
 
@@ -40,7 +40,7 @@ ms.locfileid: "19835451"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19835451"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

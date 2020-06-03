@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f4df6997-8d5b-4893-a4a5-fc7047e0a9c3
 description: Элемент IsRecurring указывает, является ли элемент календаря, приглашение на собрание или задача частью повторяющегося элемента. Этот элемент доступен только для чтения.
-ms.openlocfilehash: dfb0c28fe225792c7128409a8cf010627c624fe0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 72c71c1955b69f1c0df855ce4bd0ed02d4c89122
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834104"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526489"
 ---
 # <a name="isrecurring"></a>IsRecurring
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834104"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19834104"
 
 В следующей таблице показано, как свойство **IsRecurring** задано для различных типов элементов календаря для организаторов и участников, а также для приглашений на собрания и обновлений. 
   
-|**Тип Календаритем**|**Органайзер <br/> (IsRecurring)**|**Участник <br/> (IsRecurring)**|**Приглашение на собрание или <br/> обновление (IsRecurring)**|
+|**Тип Календаритем**|**Органайзер <br/> (IsRecurring)**|**Участник <br/> (IsRecurring)**|**Приглашение на собрание или обновление <br/> (IsRecurring)**|
 |:-----|:-----|:-----|:-----|
 |Один экземпляр  <br/> |**ЗНАЧЕНИЯ** <br/> |**ЗНАЧЕНИЯ** <br/> |**ЗНАЧЕНИЯ** <br/> |
 |Повторяющаяся основная реплика  <br/> |**ЗНАЧЕНИЯ** <br/> |**ОТНОСИТСЯ** <br/> |**ОТНОСИТСЯ** <br/> |
@@ -73,7 +73,7 @@ ms.locfileid: "19834104"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

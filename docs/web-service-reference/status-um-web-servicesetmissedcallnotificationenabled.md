@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: e272d905-1a66-44f6-bb1d-59fa9e4d8dea
 description: Элемент Status определяет значение, которое будет использоваться в SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: 3bd07f0ed0f44bd00dad9f56aa8218bad0a82a9a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f184c3af49033bc09c28dd66f786935b72c3590b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835585"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526860"
 ---
 # <a name="status-um-web-service---setmissedcallnotificationenabled"></a>Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)
 
@@ -39,11 +39,11 @@ ms.locfileid: "19835585"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19835585"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

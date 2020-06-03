@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2ebae21c-3efa-4239-9b49-4a3a8871449b
 description: Элемент Евспартнерурл указывает URL-адрес лучшего экземпляра конечной точки для веб-служб Exchange (EWS) для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: 97c33e1fed4adc8a9e8542d85e67c942118f6096
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a67eb17bb3db67a922c53ba5e37900ee0a9b956b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762414"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526111"
 ---
 # <a name="ewspartnerurl-pox"></a>Евспартнерурл (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762414"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

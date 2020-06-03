@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: bad5399c-0762-4979-9c15-58cf4b7b6278
 description: Элемент Домаинсеттинг содержит параметры домена, которые возвращаются запросом операции Жетдомаинсеттингс (SOAP).
-ms.openlocfilehash: f1c7a30ee221c5f3ca1358d0f3c3aca5c3467159
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 54441dd7cfcf7372807a1e6bfd8ea5d26805bffc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762219"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526300"
 ---
 # <a name="domainsetting-soap"></a>Домаинсеттинг (SOAP)
 
@@ -33,7 +33,7 @@ ms.locfileid: "19762219"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -49,13 +49,13 @@ ms.locfileid: "19762219"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

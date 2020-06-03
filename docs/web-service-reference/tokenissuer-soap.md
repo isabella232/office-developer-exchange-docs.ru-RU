@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2d7be675-626c-4173-89e9-e32beef81ad5
 description: Элемент Токениссуер указывает URI (SOAP) и конечную точку (SOAP) для службы маркеров безопасности.
-ms.openlocfilehash: 1c267fc6cbfdadd471c568473cc9aeeafb43ae2d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9c0b4140de26c7ff05daf4e863b3e8a17fedc62
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840196"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526328"
 ---
 # <a name="tokenissuer-soap"></a>Токениссуер (SOAP)
 
@@ -55,7 +55,7 @@ ms.locfileid: "19840196"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

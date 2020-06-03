@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bad7311f-7ecd-4f0c-b8e7-dd8f7d378f55
 description: Элемент Усерпараметерс содержит список включенных и отключенных расширений клиентов.
-ms.openlocfilehash: e0a72fe13255380ee56b32c863fb3bffb2e1ac5e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 76bf858adfb6d2ef76a25c234117131752c60d7b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840434"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526755"
 ---
 # <a name="userparameters"></a>усерпараметерс
 
@@ -40,7 +40,7 @@ ms.locfileid: "19840434"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Усеренабледекстенсионс](userenabledextensions.md) | [усердисабледекстенсионс](userdisabledextensions.md)
+[Усеренабледекстенсионс](userenabledextensions.md)  |  [Усердисабледекстенсионс](userdisabledextensions.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19840434"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

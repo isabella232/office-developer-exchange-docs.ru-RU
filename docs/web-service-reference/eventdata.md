@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 74acdbad-d6ee-47e6-82fb-e45ecaaa0500
 description: Элемент EventData представляет данные, связанные с шагом обработки события.
-ms.openlocfilehash: 2bf38cd4fd956580b31b6e455b947066f07f5593
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ef5da21a3300a6939c60d62584b46ca48b071853
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762395"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526181"
 ---
 # <a name="eventdata"></a>EventData
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762395"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19762395"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

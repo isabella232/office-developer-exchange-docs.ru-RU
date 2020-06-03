@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b89d8a78-5c18-4547-aaf4-4b16a93190a7
 description: Элемент Archive указывает логическое значение, которое указывает, является ли почтовый ящик архивным.
-ms.openlocfilehash: 417afd1afc25e5872d1f511feff34494fe6b7b62
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6d0be0eb283de3f4d8f786ff96f4a0d4f49e2009
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833990"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526517"
 ---
 # <a name="isarchive"></a>IsArchive
 
@@ -30,15 +30,15 @@ ms.locfileid: "19833990"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Фаиледмаилбокс](failedmailbox.md) | [retentionpolicytag используется](retentionpolicytag.md)
+[Фаиледмаилбокс](failedmailbox.md)  |  [Retentionpolicytag используется](retentionpolicytag.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19833990"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

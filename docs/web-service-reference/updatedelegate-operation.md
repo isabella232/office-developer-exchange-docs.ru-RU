@@ -16,7 +16,7 @@ ms.openlocfilehash: b7cf5325d925f8d6588115a8657a2077e940f9d2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468560"
 ---
 # <a name="updatedelegate-operation"></a>Операция UpdateDelegate
@@ -36,7 +36,7 @@ ms.locfileid: "44468560"
    
 ## <a name="updatedelegate-request-example"></a>Пример запроса UpdateDelegate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **UpdateDelegate** показано, как обновить разрешения представителей для учетной записи user1's. Пользователю Пользователь2 предоставляется уровень разрешений None для папки Tasks, и ему предоставляется разрешение на просмотр частных элементов. User3 получает разрешения рецензента для папки журнала. Приглашения на собрания отправляются представителям, а сведения о запросе отправляются пользователю User1. 
   
@@ -86,7 +86,7 @@ ms.locfileid: "44468560"
   
 ## <a name="updatedelegate-response-example"></a>Пример отклика UpdateDelegate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на операцию **UpdateDelegate** . 
   
@@ -143,7 +143,7 @@ ms.locfileid: "44468560"
 
 ## <a name="updatedelegate-error-response-example"></a>Пример ответа на сообщение об ошибке UpdateDelegate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса **UpdateDelegate** . Ошибка была создана, так как делегат не существует в списке представителей субъекта. 
   

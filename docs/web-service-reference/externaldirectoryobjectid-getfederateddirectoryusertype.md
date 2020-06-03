@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 709a5c5b-394b-449b-8550-d05025deb840
 description: Элемент ExternalDirectoryObjectId (Жетфедератеддиректорюсертипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: 4545f6e079297fb0b319d71358ec9af35c759f98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2a8058197421e6d31c5a383c508f27443a062ffe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762489"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526020"
 ---
 # <a name="externaldirectoryobjectid-getfederateddirectoryusertype"></a>ExternalDirectoryObjectId (Жетфедератеддиректорюсертипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19762489"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
