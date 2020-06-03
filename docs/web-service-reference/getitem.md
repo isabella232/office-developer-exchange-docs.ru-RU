@@ -16,12 +16,12 @@ ms.openlocfilehash: a02403ee84195a41387d5dbe1785ae6d12b47da5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458700"
 ---
-# <a name="getitem"></a><span data-ttu-id="6f971-103">GetItem</span><span class="sxs-lookup"><span data-stu-id="6f971-103">GetItem</span></span>
+# <a name="getitem"></a><span data-ttu-id="8dc84-103">GetItem</span><span class="sxs-lookup"><span data-stu-id="8dc84-103">GetItem</span></span>
 
-<span data-ttu-id="6f971-104">Элемент **GetItem** определяет запрос на получение элемента из почтового ящика в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="6f971-104">The **GetItem** element defines a request to get an item from a mailbox in the Exchange store.</span></span> 
+<span data-ttu-id="8dc84-104">Элемент **GetItem** определяет запрос на получение элемента из почтового ящика в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="8dc84-104">The **GetItem** element defines a request to get an item from a mailbox in the Exchange store.</span></span> 
   
 ```xml
 <GetItem>
@@ -30,42 +30,42 @@ ms.locfileid: "44458700"
 </GetItem>
 ```
 
- <span data-ttu-id="6f971-105">**ItemType**</span><span class="sxs-lookup"><span data-stu-id="6f971-105">**GetItemType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="6f971-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="6f971-106">Attributes and elements</span></span>
+ <span data-ttu-id="8dc84-105">**ItemType**</span><span class="sxs-lookup"><span data-stu-id="8dc84-105">**GetItemType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="8dc84-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="8dc84-106">Attributes and elements</span></span>
 
-<span data-ttu-id="6f971-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="6f971-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="8dc84-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="8dc84-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="6f971-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="6f971-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="8dc84-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="8dc84-108">Attributes</span></span>
 
-<span data-ttu-id="6f971-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="6f971-109">None.</span></span>
+<span data-ttu-id="8dc84-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="8dc84-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="6f971-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="6f971-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="8dc84-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="8dc84-110">Child elements</span></span>
 
-|<span data-ttu-id="6f971-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6f971-111">**Element**</span></span>|<span data-ttu-id="6f971-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6f971-112">**Description**</span></span>|
+|<span data-ttu-id="8dc84-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="8dc84-111">**Element**</span></span>|<span data-ttu-id="8dc84-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="8dc84-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="6f971-113">итемшапе</span><span class="sxs-lookup"><span data-stu-id="6f971-113">ItemShape</span></span>](itemshape.md) <br/> |<span data-ttu-id="6f971-114">Определяет свойства и контент элемента, включаемые в отклик **GetItem** .</span><span class="sxs-lookup"><span data-stu-id="6f971-114">Identifies the item properties and content to include in a **GetItem** response.</span></span>  <br/> |
-|[<span data-ttu-id="6f971-115">итемидс</span><span class="sxs-lookup"><span data-stu-id="6f971-115">ItemIds</span></span>](itemids.md) <br/> |<span data-ttu-id="6f971-116">Содержит уникальные идентификаторы элементов, элементы вхождений и повторяющиеся элементы шаблона, которые используются для получения элементов из хранилища Exchange.</span><span class="sxs-lookup"><span data-stu-id="6f971-116">Contains the unique identities of items, occurrence items, and recurring master items that are used to get items from the Exchange store.</span></span> <span data-ttu-id="6f971-117">Эти элементы представляют контакты, задачи, сообщения, элементы календаря, приглашения на собрания и другие допустимые элементы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="6f971-117">These items represent contacts, tasks, messages, calendar items, meeting requests, and other valid items in a mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="8dc84-113">итемшапе</span><span class="sxs-lookup"><span data-stu-id="8dc84-113">ItemShape</span></span>](itemshape.md) <br/> |<span data-ttu-id="8dc84-114">Определяет свойства и контент элемента, включаемые в отклик **GetItem** .</span><span class="sxs-lookup"><span data-stu-id="8dc84-114">Identifies the item properties and content to include in a **GetItem** response.</span></span>  <br/> |
+|[<span data-ttu-id="8dc84-115">итемидс</span><span class="sxs-lookup"><span data-stu-id="8dc84-115">ItemIds</span></span>](itemids.md) <br/> |<span data-ttu-id="8dc84-116">Содержит уникальные идентификаторы элементов, элементы вхождений и повторяющиеся элементы шаблона, которые используются для получения элементов из хранилища Exchange.</span><span class="sxs-lookup"><span data-stu-id="8dc84-116">Contains the unique identities of items, occurrence items, and recurring master items that are used to get items from the Exchange store.</span></span> <span data-ttu-id="8dc84-117">Эти элементы представляют контакты, задачи, сообщения, элементы календаря, приглашения на собрания и другие допустимые элементы в почтовом ящике.</span><span class="sxs-lookup"><span data-stu-id="8dc84-117">These items represent contacts, tasks, messages, calendar items, meeting requests, and other valid items in a mailbox.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="6f971-118">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="6f971-118">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="8dc84-118">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="8dc84-118">Parent elements</span></span>
 
-<span data-ttu-id="6f971-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="6f971-119">None.</span></span>
+<span data-ttu-id="8dc84-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="8dc84-119">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="6f971-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="6f971-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8dc84-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="8dc84-120">Remarks</span></span>
 
-<span data-ttu-id="6f971-121">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="6f971-121">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="8dc84-121">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="8dc84-121">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="6f971-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="6f971-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="8dc84-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="8dc84-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="6f971-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="6f971-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="6f971-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="6f971-124">Schema Name</span></span>  <br/> |<span data-ttu-id="6f971-125">Схема сообщения</span><span class="sxs-lookup"><span data-stu-id="6f971-125">Message schema</span></span>  <br/> |
-|<span data-ttu-id="6f971-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="6f971-126">Validation File</span></span>  <br/> |<span data-ttu-id="6f971-127">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="6f971-127">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="6f971-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="6f971-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="6f971-129">False</span><span class="sxs-lookup"><span data-stu-id="6f971-129">False</span></span>  <br/> |
+|<span data-ttu-id="8dc84-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="8dc84-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="8dc84-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="8dc84-124">Schema Name</span></span>  <br/> |<span data-ttu-id="8dc84-125">Схема сообщения</span><span class="sxs-lookup"><span data-stu-id="8dc84-125">Message schema</span></span>  <br/> |
+|<span data-ttu-id="8dc84-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="8dc84-126">Validation File</span></span>  <br/> |<span data-ttu-id="8dc84-127">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="8dc84-127">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="8dc84-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="8dc84-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="8dc84-129">False</span><span class="sxs-lookup"><span data-stu-id="8dc84-129">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="6f971-130">См. также</span><span class="sxs-lookup"><span data-stu-id="6f971-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8dc84-130">См. также</span><span class="sxs-lookup"><span data-stu-id="8dc84-130">See also</span></span>
 
 
 
-[<span data-ttu-id="6f971-131">Операция GetItem</span><span class="sxs-lookup"><span data-stu-id="6f971-131">GetItem operation</span></span>](getitem-operation.md)
+[<span data-ttu-id="8dc84-131">Операция GetItem</span><span class="sxs-lookup"><span data-stu-id="8dc84-131">GetItem operation</span></span>](getitem-operation.md)
 

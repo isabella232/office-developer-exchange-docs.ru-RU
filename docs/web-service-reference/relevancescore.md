@@ -12,51 +12,51 @@ ms.openlocfilehash: 54d0912d33a64e26ed415d8009561a32b97ce3f6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457496"
 ---
-# <a name="relevancescore"></a><span data-ttu-id="04039-103">релеванцескоре</span><span class="sxs-lookup"><span data-stu-id="04039-103">RelevanceScore</span></span>
+# <a name="relevancescore"></a><span data-ttu-id="a9dc6-103">релеванцескоре</span><span class="sxs-lookup"><span data-stu-id="a9dc6-103">RelevanceScore</span></span>
 
-<span data-ttu-id="04039-104">Элемент **релеванцескоре** указывает целое число, представляющее степень релевантности ассоциированного пользователя с клиентом.</span><span class="sxs-lookup"><span data-stu-id="04039-104">The **RelevanceScore** element specifies an integer that represents how relevant the associated persona is to the client.</span></span> 
+<span data-ttu-id="a9dc6-104">Элемент **релеванцескоре** указывает целое число, представляющее степень релевантности ассоциированного пользователя с клиентом.</span><span class="sxs-lookup"><span data-stu-id="a9dc6-104">The **RelevanceScore** element specifies an integer that represents how relevant the associated persona is to the client.</span></span> 
   
 ```XML
 <RelevanceScore></RelevanceScore>
 ```
 
- <span data-ttu-id="04039-105">**положительн**</span><span class="sxs-lookup"><span data-stu-id="04039-105">**integer**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="04039-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="04039-106">Attributes and elements</span></span>
+ <span data-ttu-id="a9dc6-105">**положительн**</span><span class="sxs-lookup"><span data-stu-id="a9dc6-105">**integer**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="a9dc6-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="a9dc6-106">Attributes and elements</span></span>
 
-<span data-ttu-id="04039-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="04039-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="a9dc6-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="a9dc6-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="04039-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="04039-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="a9dc6-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="a9dc6-108">Attributes</span></span>
 
-<span data-ttu-id="04039-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="04039-109">None.</span></span>
+<span data-ttu-id="a9dc6-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="a9dc6-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="04039-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="04039-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="a9dc6-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="a9dc6-110">Child elements</span></span>
 
-<span data-ttu-id="04039-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="04039-111">None.</span></span>
+<span data-ttu-id="a9dc6-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="a9dc6-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="04039-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="04039-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="a9dc6-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="a9dc6-112">Parent elements</span></span>
 
-[<span data-ttu-id="04039-113">Роль</span><span class="sxs-lookup"><span data-stu-id="04039-113">Persona</span></span>](persona.md)
+[<span data-ttu-id="a9dc6-113">Роль</span><span class="sxs-lookup"><span data-stu-id="a9dc6-113">Persona</span></span>](persona.md)
   
-## <a name="text-value"></a><span data-ttu-id="04039-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="04039-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="a9dc6-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="a9dc6-114">Text value</span></span>
 
-<span data-ttu-id="04039-115">Текстовое значение элемента **релеванцескоре** является определением того, как релевантность пользователя относится к клиенту.</span><span class="sxs-lookup"><span data-stu-id="04039-115">The text value of the **RelevanceScore** element is the determination of how relevant a persona is to the client.</span></span> <span data-ttu-id="04039-116">Этот элемент доступен только для чтения.</span><span class="sxs-lookup"><span data-stu-id="04039-116">This element is read-only.</span></span> 
+<span data-ttu-id="a9dc6-115">Текстовое значение элемента **релеванцескоре** является определением того, как релевантность пользователя относится к клиенту.</span><span class="sxs-lookup"><span data-stu-id="a9dc6-115">The text value of the **RelevanceScore** element is the determination of how relevant a persona is to the client.</span></span> <span data-ttu-id="a9dc6-116">Этот элемент доступен только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a9dc6-116">This element is read-only.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="04039-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="04039-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a9dc6-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="a9dc6-117">Remarks</span></span>
 
-<span data-ttu-id="04039-118">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="04039-118">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="a9dc6-118">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a9dc6-118">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="04039-119">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="04039-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="a9dc6-119">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="a9dc6-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="04039-120">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="04039-120">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="a9dc6-120">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="a9dc6-120">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="04039-121">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="04039-121">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="04039-122">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="04039-122">Schema name</span></span>  <br/> |<span data-ttu-id="04039-123">Схема Types</span><span class="sxs-lookup"><span data-stu-id="04039-123">Types schema</span></span>  <br/> |
-|<span data-ttu-id="04039-124">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="04039-124">Validation file</span></span>  <br/> |<span data-ttu-id="04039-125">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="04039-125">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="04039-126">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="04039-126">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="a9dc6-121">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="a9dc6-121">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="a9dc6-122">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="a9dc6-122">Schema name</span></span>  <br/> |<span data-ttu-id="a9dc6-123">Схема Types</span><span class="sxs-lookup"><span data-stu-id="a9dc6-123">Types schema</span></span>  <br/> |
+|<span data-ttu-id="a9dc6-124">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="a9dc6-124">Validation file</span></span>  <br/> |<span data-ttu-id="a9dc6-125">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="a9dc6-125">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="a9dc6-126">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="a9dc6-126">Can be empty</span></span>  <br/> ||
    
 

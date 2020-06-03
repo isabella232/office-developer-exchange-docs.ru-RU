@@ -12,12 +12,12 @@ ms.openlocfilehash: 18f652e7580a5521a4da25ccf19ae73e6614c3d0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457615"
 ---
-# <a name="conversationshape"></a><span data-ttu-id="ee78e-103">конверсатионшапе</span><span class="sxs-lookup"><span data-stu-id="ee78e-103">ConversationShape</span></span>
+# <a name="conversationshape"></a><span data-ttu-id="42d70-103">конверсатионшапе</span><span class="sxs-lookup"><span data-stu-id="42d70-103">ConversationShape</span></span>
 
-<span data-ttu-id="ee78e-104">Элемент **конверсатионшапе** определяет набор свойств, возвращаемый в ответе операции **FindConversation** .</span><span class="sxs-lookup"><span data-stu-id="ee78e-104">The **ConversationShape** element identifies the property set to return in a **FindConversation** operation response.</span></span> 
+<span data-ttu-id="42d70-104">Элемент **конверсатионшапе** определяет набор свойств, возвращаемый в ответе операции **FindConversation** .</span><span class="sxs-lookup"><span data-stu-id="42d70-104">The **ConversationShape** element identifies the property set to return in a **FindConversation** operation response.</span></span> 
   
 ```XML
 <ConversationShape>
@@ -27,35 +27,35 @@ ms.locfileid: "44457615"
 ```
 
  ****
-## <a name="attributes-and-elements"></a><span data-ttu-id="ee78e-105">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="ee78e-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="42d70-105">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="42d70-105">Attributes and elements</span></span>
 
-<span data-ttu-id="ee78e-106">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="ee78e-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="42d70-106">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="42d70-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ee78e-107">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="ee78e-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="42d70-107">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="42d70-107">Attributes</span></span>
 
-<span data-ttu-id="ee78e-108">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="ee78e-108">None.</span></span>
+<span data-ttu-id="42d70-108">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="42d70-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ee78e-109">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="ee78e-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="42d70-109">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="42d70-109">Child elements</span></span>
 
-<span data-ttu-id="ee78e-110">[Басешапе](baseshape.md)  |  [Аддитионалпропертиес](additionalproperties.md)</span><span class="sxs-lookup"><span data-stu-id="ee78e-110">[BaseShape](baseshape.md) | [AdditionalProperties](additionalproperties.md)</span></span>
+<span data-ttu-id="42d70-110">[Басешапе](baseshape.md)  |  [Аддитионалпропертиес](additionalproperties.md)</span><span class="sxs-lookup"><span data-stu-id="42d70-110">[BaseShape](baseshape.md) | [AdditionalProperties](additionalproperties.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="ee78e-111">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="ee78e-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="42d70-111">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="42d70-111">Parent elements</span></span>
 
-[<span data-ttu-id="ee78e-112">FindConversation</span><span class="sxs-lookup"><span data-stu-id="ee78e-112">FindConversation</span></span>](findconversation.md)
+[<span data-ttu-id="42d70-112">FindConversation</span><span class="sxs-lookup"><span data-stu-id="42d70-112">FindConversation</span></span>](findconversation.md)
   
-## <a name="remarks"></a><span data-ttu-id="ee78e-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="ee78e-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="42d70-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="42d70-113">Remarks</span></span>
 
-<span data-ttu-id="ee78e-114">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ee78e-114">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="42d70-114">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="42d70-114">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="ee78e-115">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="ee78e-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="42d70-115">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="42d70-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ee78e-116">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="ee78e-116">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="42d70-116">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="42d70-116">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ee78e-117">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="ee78e-117">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="ee78e-118">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="ee78e-118">Schema name</span></span>  <br/> |<span data-ttu-id="ee78e-119">Схема Types</span><span class="sxs-lookup"><span data-stu-id="ee78e-119">Types schema</span></span>  <br/> |
-|<span data-ttu-id="ee78e-120">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="ee78e-120">Validation file</span></span>  <br/> |<span data-ttu-id="ee78e-121">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="ee78e-121">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="ee78e-122">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="ee78e-122">Can be empty</span></span>  <br/> |<span data-ttu-id="ee78e-123">false</span><span class="sxs-lookup"><span data-stu-id="ee78e-123">false</span></span>  <br/> |
+|<span data-ttu-id="42d70-117">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="42d70-117">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="42d70-118">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="42d70-118">Schema name</span></span>  <br/> |<span data-ttu-id="42d70-119">Схема Types</span><span class="sxs-lookup"><span data-stu-id="42d70-119">Types schema</span></span>  <br/> |
+|<span data-ttu-id="42d70-120">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="42d70-120">Validation file</span></span>  <br/> |<span data-ttu-id="42d70-121">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="42d70-121">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="42d70-122">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="42d70-122">Can be empty</span></span>  <br/> |<span data-ttu-id="42d70-123">false</span><span class="sxs-lookup"><span data-stu-id="42d70-123">false</span></span>  <br/> |
    
 

@@ -12,61 +12,61 @@ ms.openlocfilehash: babf02c514e7fe8711f51ac52e425a18f3ab47f7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458000"
 ---
-# <a name="subscriptionid-getstreamingevents"></a><span data-ttu-id="48203-103">SubscriptionId (GetStreamingEvents)</span><span class="sxs-lookup"><span data-stu-id="48203-103">SubscriptionId (GetStreamingEvents)</span></span>
+# <a name="subscriptionid-getstreamingevents"></a><span data-ttu-id="aa180-103">SubscriptionId (GetStreamingEvents)</span><span class="sxs-lookup"><span data-stu-id="aa180-103">SubscriptionId (GetStreamingEvents)</span></span>
 
-<span data-ttu-id="48203-104">Элемент **SubscriptionId** представляет идентификатор для потоковой подписки.</span><span class="sxs-lookup"><span data-stu-id="48203-104">The **SubscriptionId** element represents the identifier for a streaming subscription.</span></span> 
+<span data-ttu-id="aa180-104">Элемент **SubscriptionId** представляет идентификатор для потоковой подписки.</span><span class="sxs-lookup"><span data-stu-id="aa180-104">The **SubscriptionId** element represents the identifier for a streaming subscription.</span></span> 
   
 ```XML
 <SubscriptionId/>
 ```
 
- <span data-ttu-id="48203-105">**субскриптионидтипе**</span><span class="sxs-lookup"><span data-stu-id="48203-105">**SubscriptionIdType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="48203-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="48203-106">Attributes and elements</span></span>
+ <span data-ttu-id="aa180-105">**субскриптионидтипе**</span><span class="sxs-lookup"><span data-stu-id="aa180-105">**SubscriptionIdType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="aa180-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="aa180-106">Attributes and elements</span></span>
 
-<span data-ttu-id="48203-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="48203-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="aa180-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="aa180-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="48203-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="48203-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="aa180-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="aa180-108">Attributes</span></span>
 
-<span data-ttu-id="48203-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="48203-109">None.</span></span>
+<span data-ttu-id="aa180-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="aa180-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="48203-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="48203-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="aa180-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="aa180-110">Child elements</span></span>
 
-<span data-ttu-id="48203-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="48203-111">None.</span></span>
+<span data-ttu-id="aa180-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="aa180-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="48203-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="48203-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="aa180-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="aa180-112">Parent elements</span></span>
 
-|<span data-ttu-id="48203-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="48203-113">**Element**</span></span>|<span data-ttu-id="48203-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="48203-114">**Description**</span></span>|
+|<span data-ttu-id="aa180-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="aa180-113">**Element**</span></span>|<span data-ttu-id="aa180-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="aa180-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="48203-115">GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="48203-115">GetStreamingEvents</span></span>](getstreamingevents.md) <br/> |<span data-ttu-id="48203-116">Представляет операцию, используемую клиентами для запроса потоковых уведомлений от сервера.</span><span class="sxs-lookup"><span data-stu-id="48203-116">Represents the operation that is used by clients to request streaming notifications from the server.</span></span>  <br/> |
+|[<span data-ttu-id="aa180-115">GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="aa180-115">GetStreamingEvents</span></span>](getstreamingevents.md) <br/> |<span data-ttu-id="aa180-116">Представляет операцию, используемую клиентами для запроса потоковых уведомлений от сервера.</span><span class="sxs-lookup"><span data-stu-id="aa180-116">Represents the operation that is used by clients to request streaming notifications from the server.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="48203-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="48203-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="aa180-117">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="aa180-117">Text value</span></span>
 
-<span data-ttu-id="48203-118">Необходимо указать текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="48203-118">A text value is required.</span></span> <span data-ttu-id="48203-119">Текстовое значение — GUID.</span><span class="sxs-lookup"><span data-stu-id="48203-119">The text value is a GUID.</span></span>
+<span data-ttu-id="aa180-118">Необходимо указать текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="aa180-118">A text value is required.</span></span> <span data-ttu-id="aa180-119">Текстовое значение — GUID.</span><span class="sxs-lookup"><span data-stu-id="aa180-119">The text value is a GUID.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="48203-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="48203-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aa180-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="aa180-120">Remarks</span></span>
 
-<span data-ttu-id="48203-121">Идентификатор GUID, представляющий идентификатор подписки, создается сервером клиентского доступа при создании подписки.</span><span class="sxs-lookup"><span data-stu-id="48203-121">The GUID that represents the subscription identifier is generated by the Client Access server when the subscription is created.</span></span>
+<span data-ttu-id="aa180-121">Идентификатор GUID, представляющий идентификатор подписки, создается сервером клиентского доступа при создании подписки.</span><span class="sxs-lookup"><span data-stu-id="aa180-121">The GUID that represents the subscription identifier is generated by the Client Access server when the subscription is created.</span></span>
   
-<span data-ttu-id="48203-122">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="48203-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="aa180-122">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="aa180-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="48203-123">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="48203-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="aa180-123">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="aa180-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="48203-124">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="48203-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="48203-125">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="48203-125">Schema name</span></span>  <br/> |<span data-ttu-id="48203-126">Схема Types</span><span class="sxs-lookup"><span data-stu-id="48203-126">Types schema</span></span>  <br/> |
-|<span data-ttu-id="48203-127">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="48203-127">Validation file</span></span>  <br/> |<span data-ttu-id="48203-128">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="48203-128">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="48203-129">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="48203-129">Can be empty</span></span>  <br/> |<span data-ttu-id="48203-130">False</span><span class="sxs-lookup"><span data-stu-id="48203-130">False</span></span>  <br/> |
+|<span data-ttu-id="aa180-124">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="aa180-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="aa180-125">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="aa180-125">Schema name</span></span>  <br/> |<span data-ttu-id="aa180-126">Схема Types</span><span class="sxs-lookup"><span data-stu-id="aa180-126">Types schema</span></span>  <br/> |
+|<span data-ttu-id="aa180-127">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="aa180-127">Validation file</span></span>  <br/> |<span data-ttu-id="aa180-128">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="aa180-128">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="aa180-129">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="aa180-129">Can be empty</span></span>  <br/> |<span data-ttu-id="aa180-130">False</span><span class="sxs-lookup"><span data-stu-id="aa180-130">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="48203-131">См. также</span><span class="sxs-lookup"><span data-stu-id="48203-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aa180-131">См. также</span><span class="sxs-lookup"><span data-stu-id="aa180-131">See also</span></span>
 
 
 
-[<span data-ttu-id="48203-132">Операция GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="48203-132">GetStreamingEvents operation</span></span>](getstreamingevents-operation.md)
+[<span data-ttu-id="aa180-132">Операция GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="aa180-132">GetStreamingEvents operation</span></span>](getstreamingevents-operation.md)
 
 
-- [<span data-ttu-id="48203-133">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="48203-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="aa180-133">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="aa180-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

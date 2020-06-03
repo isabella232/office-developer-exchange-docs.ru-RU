@@ -16,12 +16,12 @@ ms.openlocfilehash: c2b7bbadd494081a3e47b7b6c489218fab31d574
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458392"
 ---
-# <a name="contacts"></a><span data-ttu-id="d094c-103">Контакты</span><span class="sxs-lookup"><span data-stu-id="d094c-103">Contacts</span></span>
+# <a name="contacts"></a><span data-ttu-id="b3986-103">Контакты</span><span class="sxs-lookup"><span data-stu-id="b3986-103">Contacts</span></span>
 
-<span data-ttu-id="d094c-104">Элемент **Contacts** содержит список контактов, связанных с задачей.</span><span class="sxs-lookup"><span data-stu-id="d094c-104">The **Contacts** element contains a list of contacts that are associated with a task.</span></span> 
+<span data-ttu-id="b3986-104">Элемент **Contacts** содержит список контактов, связанных с задачей.</span><span class="sxs-lookup"><span data-stu-id="b3986-104">The **Contacts** element contains a list of contacts that are associated with a task.</span></span> 
   
 ```xml
 <Contacts>
@@ -29,43 +29,43 @@ ms.locfileid: "44458392"
 </Contacts>
 ```
 
- <span data-ttu-id="d094c-105">**аррайофстрингстипе**</span><span class="sxs-lookup"><span data-stu-id="d094c-105">**ArrayOfStringsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="d094c-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="d094c-106">Attributes and elements</span></span>
+ <span data-ttu-id="b3986-105">**аррайофстрингстипе**</span><span class="sxs-lookup"><span data-stu-id="b3986-105">**ArrayOfStringsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="b3986-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="b3986-106">Attributes and elements</span></span>
 
-<span data-ttu-id="d094c-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="d094c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="b3986-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="b3986-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="d094c-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="d094c-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b3986-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="b3986-108">Attributes</span></span>
 
-<span data-ttu-id="d094c-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d094c-109">None.</span></span>
+<span data-ttu-id="b3986-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="b3986-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="d094c-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="d094c-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b3986-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="b3986-110">Child elements</span></span>
 
-|<span data-ttu-id="d094c-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d094c-111">**Element**</span></span>|<span data-ttu-id="d094c-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d094c-112">**Description**</span></span>|
+|<span data-ttu-id="b3986-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="b3986-111">**Element**</span></span>|<span data-ttu-id="b3986-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b3986-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d094c-113">Строка</span><span class="sxs-lookup"><span data-stu-id="d094c-113">String</span></span>](string.md) <br/> |<span data-ttu-id="d094c-114">Представляет разделенный запятыми список имен контактов.</span><span class="sxs-lookup"><span data-stu-id="d094c-114">Represents a comma-separated list of contact names.</span></span>  <br/> |
+|[<span data-ttu-id="b3986-113">Строка</span><span class="sxs-lookup"><span data-stu-id="b3986-113">String</span></span>](string.md) <br/> |<span data-ttu-id="b3986-114">Представляет разделенный запятыми список имен контактов.</span><span class="sxs-lookup"><span data-stu-id="b3986-114">Represents a comma-separated list of contact names.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="d094c-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="d094c-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b3986-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="b3986-115">Parent elements</span></span>
 
-|<span data-ttu-id="d094c-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d094c-116">**Element**</span></span>|<span data-ttu-id="d094c-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d094c-117">**Description**</span></span>|
+|<span data-ttu-id="b3986-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="b3986-116">**Element**</span></span>|<span data-ttu-id="b3986-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b3986-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d094c-118">Задача</span><span class="sxs-lookup"><span data-stu-id="d094c-118">Task</span></span>](task.md) <br/> |<span data-ttu-id="d094c-119">Представляет задачу в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="d094c-119">Represents a task in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="b3986-118">Задача</span><span class="sxs-lookup"><span data-stu-id="b3986-118">Task</span></span>](task.md) <br/> |<span data-ttu-id="b3986-119">Представляет задачу в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="b3986-119">Represents a task in the Exchange store.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d094c-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="d094c-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b3986-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="b3986-120">Remarks</span></span>
 
-<span data-ttu-id="d094c-121">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="d094c-121">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="b3986-121">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="b3986-121">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="d094c-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="d094c-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b3986-122">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="b3986-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d094c-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="d094c-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="d094c-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="d094c-124">Schema name</span></span>  <br/> |<span data-ttu-id="d094c-125">Схема Types</span><span class="sxs-lookup"><span data-stu-id="d094c-125">Types schema</span></span>  <br/> |
-|<span data-ttu-id="d094c-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="d094c-126">Validation file</span></span>  <br/> |<span data-ttu-id="d094c-127">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="d094c-127">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="d094c-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="d094c-128">Can be empty</span></span>  <br/> |<span data-ttu-id="d094c-129">False</span><span class="sxs-lookup"><span data-stu-id="d094c-129">False</span></span>  <br/> |
+|<span data-ttu-id="b3986-123">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="b3986-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="b3986-124">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="b3986-124">Schema name</span></span>  <br/> |<span data-ttu-id="b3986-125">Схема Types</span><span class="sxs-lookup"><span data-stu-id="b3986-125">Types schema</span></span>  <br/> |
+|<span data-ttu-id="b3986-126">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="b3986-126">Validation file</span></span>  <br/> |<span data-ttu-id="b3986-127">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="b3986-127">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="b3986-128">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="b3986-128">Can be empty</span></span>  <br/> |<span data-ttu-id="b3986-129">False</span><span class="sxs-lookup"><span data-stu-id="b3986-129">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="d094c-130">См. также</span><span class="sxs-lookup"><span data-stu-id="d094c-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3986-130">См. также</span><span class="sxs-lookup"><span data-stu-id="b3986-130">See also</span></span>
 
 
 
-- [<span data-ttu-id="d094c-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="d094c-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="b3986-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="b3986-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
