@@ -15,16 +15,16 @@ ms.openlocfilehash: 5b0ad5c5af682f7589d94219955dde646cd2897a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460696"
 ---
-# <a name="entryid-um-web-service"></a><span data-ttu-id="5a0b3-103">Идентификатор entryId (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="5a0b3-103">entryId (UM web service)</span></span>
+# <a name="entryid-um-web-service"></a><span data-ttu-id="9f9cd-103">Идентификатор entryId (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="9f9cd-103">entryId (UM web service)</span></span>
 
-<span data-ttu-id="5a0b3-104">Элемент **entryId** содержит значение, представляющее идентификатор элемента, воспроизводимого по телефону в [PlayOnPhone операции (веб-служба единой системы обмена сообщениями)](playonphone-operation-um-web-service.md) .</span><span class="sxs-lookup"><span data-stu-id="5a0b3-104">The **entryId** element contains the value that represents the identifier of the item to play on the telephone in a [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md) request.</span></span> 
+<span data-ttu-id="9f9cd-104">Элемент **entryId** содержит значение, представляющее идентификатор элемента, воспроизводимого по телефону в [PlayOnPhone операции (веб-служба единой системы обмена сообщениями)](playonphone-operation-um-web-service.md) .</span><span class="sxs-lookup"><span data-stu-id="9f9cd-104">The **entryId** element contains the value that represents the identifier of the item to play on the telephone in a [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md) request.</span></span> 
   
-[<span data-ttu-id="5a0b3-105">PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="5a0b3-105">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md)
+[<span data-ttu-id="9f9cd-105">PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="9f9cd-105">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md)
   
-[<span data-ttu-id="5a0b3-106">Идентификатор entryId (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="5a0b3-106">entryId (UM web service)</span></span>](entryid-um-web-service.md)
+[<span data-ttu-id="9f9cd-106">Идентификатор entryId (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="9f9cd-106">entryId (UM web service)</span></span>](entryid-um-web-service.md)
   
 ```xml
 <PlayOnPhone>
@@ -32,45 +32,45 @@ ms.locfileid: "44460696"
 </PlayOnPhone>
 ```
 
- <span data-ttu-id="5a0b3-107">**строка**</span><span class="sxs-lookup"><span data-stu-id="5a0b3-107">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="5a0b3-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="5a0b3-108">Attributes and elements</span></span>
+ <span data-ttu-id="9f9cd-107">**строка**</span><span class="sxs-lookup"><span data-stu-id="9f9cd-107">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="9f9cd-108">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="9f9cd-108">Attributes and elements</span></span>
 
-<span data-ttu-id="5a0b3-109">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="5a0b3-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="9f9cd-109">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="9f9cd-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5a0b3-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="5a0b3-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9f9cd-110">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="9f9cd-110">Attributes</span></span>
 
-<span data-ttu-id="5a0b3-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="5a0b3-111">None.</span></span>
+<span data-ttu-id="9f9cd-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="9f9cd-111">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5a0b3-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="5a0b3-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9f9cd-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="9f9cd-112">Child elements</span></span>
 
-<span data-ttu-id="5a0b3-113">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="5a0b3-113">None.</span></span>
+<span data-ttu-id="9f9cd-113">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="9f9cd-113">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="5a0b3-114">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="5a0b3-114">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="9f9cd-114">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="9f9cd-114">Parent elements</span></span>
 
-|<span data-ttu-id="5a0b3-115">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5a0b3-115">**Element**</span></span>|<span data-ttu-id="5a0b3-116">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5a0b3-116">**Description**</span></span>|
+|<span data-ttu-id="9f9cd-115">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="9f9cd-115">**Element**</span></span>|<span data-ttu-id="9f9cd-116">**Описание**</span><span class="sxs-lookup"><span data-stu-id="9f9cd-116">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5a0b3-117">PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="5a0b3-117">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md) <br/> |<span data-ttu-id="5a0b3-118">Определяет запрос на проигрывание элемента по телефону.</span><span class="sxs-lookup"><span data-stu-id="5a0b3-118">Defines a request to play an item on a telephone.</span></span>  <br/> |
+|[<span data-ttu-id="9f9cd-117">PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="9f9cd-117">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md) <br/> |<span data-ttu-id="9f9cd-118">Определяет запрос на проигрывание элемента по телефону.</span><span class="sxs-lookup"><span data-stu-id="9f9cd-118">Defines a request to play an item on a telephone.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="5a0b3-119">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="5a0b3-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="9f9cd-119">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="9f9cd-119">Text value</span></span>
 
-<span data-ttu-id="5a0b3-120">Необходимо указать текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="5a0b3-120">A text value is required.</span></span>
+<span data-ttu-id="9f9cd-120">Необходимо указать текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="9f9cd-120">A text value is required.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="5a0b3-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="5a0b3-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="9f9cd-121">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="9f9cd-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5a0b3-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="5a0b3-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="5a0b3-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="5a0b3-123">Schema Name</span></span>  <br/> |<span data-ttu-id="5a0b3-124">Сообщения</span><span class="sxs-lookup"><span data-stu-id="5a0b3-124">Messages</span></span>  <br/> |
-|<span data-ttu-id="5a0b3-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="5a0b3-125">Validation File</span></span>  <br/> |<span data-ttu-id="5a0b3-126">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="5a0b3-126">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="5a0b3-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="5a0b3-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="5a0b3-128">False</span><span class="sxs-lookup"><span data-stu-id="5a0b3-128">False</span></span>  <br/> |
+|<span data-ttu-id="9f9cd-122">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="9f9cd-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="9f9cd-123">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="9f9cd-123">Schema Name</span></span>  <br/> |<span data-ttu-id="9f9cd-124">Сообщения</span><span class="sxs-lookup"><span data-stu-id="9f9cd-124">Messages</span></span>  <br/> |
+|<span data-ttu-id="9f9cd-125">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="9f9cd-125">Validation File</span></span>  <br/> |<span data-ttu-id="9f9cd-126">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="9f9cd-126">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="9f9cd-127">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="9f9cd-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="9f9cd-128">False</span><span class="sxs-lookup"><span data-stu-id="9f9cd-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="5a0b3-129">См. также</span><span class="sxs-lookup"><span data-stu-id="5a0b3-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9f9cd-129">См. также</span><span class="sxs-lookup"><span data-stu-id="9f9cd-129">See also</span></span>
 
 
 
-[<span data-ttu-id="5a0b3-130">Операция PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="5a0b3-130">PlayOnPhone operation (UM web service)</span></span>](playonphone-operation-um-web-service.md)
+[<span data-ttu-id="9f9cd-130">Операция PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="9f9cd-130">PlayOnPhone operation (UM web service)</span></span>](playonphone-operation-um-web-service.md)
   
-[<span data-ttu-id="5a0b3-131">PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="5a0b3-131">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md)
+[<span data-ttu-id="9f9cd-131">PlayOnPhone (веб-служба единой системы обмена сообщениями)</span><span class="sxs-lookup"><span data-stu-id="9f9cd-131">PlayOnPhone (UM web service)</span></span>](playonphone-um-web-service.md)
   
-[<span data-ttu-id="5a0b3-132">Операция FindItem</span><span class="sxs-lookup"><span data-stu-id="5a0b3-132">FindItem operation</span></span>](finditem-operation.md)
+[<span data-ttu-id="9f9cd-132">Операция FindItem</span><span class="sxs-lookup"><span data-stu-id="9f9cd-132">FindItem operation</span></span>](finditem-operation.md)
 

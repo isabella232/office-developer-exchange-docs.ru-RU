@@ -12,12 +12,12 @@ ms.openlocfilehash: a9883e06a8adbd5c9d3bc7e1edd28c62418df653
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460325"
 ---
-# <a name="attributions-arrayofpersonaattributionstype"></a><span data-ttu-id="d0d1c-103">Атрибуты (Аррайофперсонааттрибутионстипе)</span><span class="sxs-lookup"><span data-stu-id="d0d1c-103">Attributions (ArrayOfPersonaAttributionsType)</span></span>
+# <a name="attributions-arrayofpersonaattributionstype"></a><span data-ttu-id="5b2a8-103">Атрибуты (Аррайофперсонааттрибутионстипе)</span><span class="sxs-lookup"><span data-stu-id="5b2a8-103">Attributions (ArrayOfPersonaAttributionsType)</span></span>
 
-<span data-ttu-id="d0d1c-104">Элемент " **атрибуты** " определяет массив сведений о сопоставлении для одного или нескольких контактов или получателей Active Directory, собранных в связанный с ним пользователь.</span><span class="sxs-lookup"><span data-stu-id="d0d1c-104">The **Attributions** element specifies an array of attribution information for one or more of the contacts or Active Directory recipients aggregated into the associated persona.</span></span> 
+<span data-ttu-id="5b2a8-104">Элемент " **атрибуты** " определяет массив сведений о сопоставлении для одного или нескольких контактов или получателей Active Directory, собранных в связанный с ним пользователь.</span><span class="sxs-lookup"><span data-stu-id="5b2a8-104">The **Attributions** element specifies an array of attribution information for one or more of the contacts or Active Directory recipients aggregated into the associated persona.</span></span> 
   
 ```XML
 <Attributions>
@@ -25,43 +25,43 @@ ms.locfileid: "44460325"
 </Attributions>
 ```
 
- <span data-ttu-id="d0d1c-105">**аррайофперсонааттрибутионстипе**</span><span class="sxs-lookup"><span data-stu-id="d0d1c-105">**ArrayOfPersonaAttributionsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="d0d1c-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="d0d1c-106">Attributes and elements</span></span>
+ <span data-ttu-id="5b2a8-105">**аррайофперсонааттрибутионстипе**</span><span class="sxs-lookup"><span data-stu-id="5b2a8-105">**ArrayOfPersonaAttributionsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="5b2a8-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="5b2a8-106">Attributes and elements</span></span>
 
-<span data-ttu-id="d0d1c-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="d0d1c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="5b2a8-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="5b2a8-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="d0d1c-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="d0d1c-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="5b2a8-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="5b2a8-108">Attributes</span></span>
 
-<span data-ttu-id="d0d1c-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d0d1c-109">None.</span></span>
+<span data-ttu-id="5b2a8-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="5b2a8-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="d0d1c-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="d0d1c-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="5b2a8-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="5b2a8-110">Child elements</span></span>
 
-|<span data-ttu-id="d0d1c-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d0d1c-111">**Element**</span></span>|<span data-ttu-id="d0d1c-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d0d1c-112">**Description**</span></span>|
+|<span data-ttu-id="5b2a8-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5b2a8-111">**Element**</span></span>|<span data-ttu-id="5b2a8-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5b2a8-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d0d1c-113">Атрибуты (Персонааттрибутионтипе)</span><span class="sxs-lookup"><span data-stu-id="d0d1c-113">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md) <br/> |<span data-ttu-id="d0d1c-114">Указывает экземпляр в массиве атрибутов для элемента **персонатипе** .</span><span class="sxs-lookup"><span data-stu-id="d0d1c-114">Specifies an instance in an array of attributes for a **PersonaType** element.</span></span>  <br/> |
+|[<span data-ttu-id="5b2a8-113">Атрибуты (Персонааттрибутионтипе)</span><span class="sxs-lookup"><span data-stu-id="5b2a8-113">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md) <br/> |<span data-ttu-id="5b2a8-114">Указывает экземпляр в массиве атрибутов для элемента **персонатипе** .</span><span class="sxs-lookup"><span data-stu-id="5b2a8-114">Specifies an instance in an array of attributes for a **PersonaType** element.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="d0d1c-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="d0d1c-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="5b2a8-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="5b2a8-115">Parent elements</span></span>
 
-|<span data-ttu-id="d0d1c-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d0d1c-116">**Element**</span></span>|<span data-ttu-id="d0d1c-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d0d1c-117">**Description**</span></span>|
+|<span data-ttu-id="5b2a8-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5b2a8-116">**Element**</span></span>|<span data-ttu-id="5b2a8-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5b2a8-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d0d1c-118">Роль</span><span class="sxs-lookup"><span data-stu-id="d0d1c-118">Persona</span></span>](persona.md) <br/> |<span data-ttu-id="d0d1c-119">Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .</span><span class="sxs-lookup"><span data-stu-id="d0d1c-119">Specifies a set of persona data returned by a **GetPersona** request.</span></span>  <br/> |
+|[<span data-ttu-id="5b2a8-118">Роль</span><span class="sxs-lookup"><span data-stu-id="5b2a8-118">Persona</span></span>](persona.md) <br/> |<span data-ttu-id="5b2a8-119">Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .</span><span class="sxs-lookup"><span data-stu-id="5b2a8-119">Specifies a set of persona data returned by a **GetPersona** request.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d0d1c-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="d0d1c-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5b2a8-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="5b2a8-120">Remarks</span></span>
 
-<span data-ttu-id="d0d1c-121">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d0d1c-121">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="5b2a8-121">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5b2a8-121">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="d0d1c-122">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="d0d1c-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="5b2a8-122">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="5b2a8-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="d0d1c-123">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="d0d1c-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="5b2a8-123">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="5b2a8-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d0d1c-124">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="d0d1c-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="d0d1c-125">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="d0d1c-125">Schema Name</span></span>  <br/> |<span data-ttu-id="d0d1c-126">Схема типа</span><span class="sxs-lookup"><span data-stu-id="d0d1c-126">Type schema</span></span>  <br/> |
-|<span data-ttu-id="d0d1c-127">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="d0d1c-127">Validation File</span></span>  <br/> |<span data-ttu-id="d0d1c-128">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="d0d1c-128">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="d0d1c-129">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="d0d1c-129">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="5b2a8-124">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="5b2a8-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="5b2a8-125">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="5b2a8-125">Schema Name</span></span>  <br/> |<span data-ttu-id="5b2a8-126">Схема типа</span><span class="sxs-lookup"><span data-stu-id="5b2a8-126">Type schema</span></span>  <br/> |
+|<span data-ttu-id="5b2a8-127">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="5b2a8-127">Validation File</span></span>  <br/> |<span data-ttu-id="5b2a8-128">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="5b2a8-128">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="5b2a8-129">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="5b2a8-129">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="d0d1c-130">См. также</span><span class="sxs-lookup"><span data-stu-id="d0d1c-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5b2a8-130">См. также</span><span class="sxs-lookup"><span data-stu-id="5b2a8-130">See also</span></span>
 
-- [<span data-ttu-id="d0d1c-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="d0d1c-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="5b2a8-131">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="5b2a8-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

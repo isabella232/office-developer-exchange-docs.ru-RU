@@ -16,20 +16,20 @@ ms.openlocfilehash: 9d511f309b9210fd9b5a49ff6c60bc7982992973
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459183"
 ---
-# <a name="getfolder-operation"></a><span data-ttu-id="bfbb1-103">Операция GetFolder</span><span class="sxs-lookup"><span data-stu-id="bfbb1-103">GetFolder operation</span></span>
+# <a name="getfolder-operation"></a><span data-ttu-id="26811-103">Операция GetFolder</span><span class="sxs-lookup"><span data-stu-id="26811-103">GetFolder operation</span></span>
 
-<span data-ttu-id="bfbb1-104">Операция с **папкой** возвращает папки из хранилища Exchange.</span><span class="sxs-lookup"><span data-stu-id="bfbb1-104">The **GetFolder** operation gets folders from the Exchange store.</span></span> 
+<span data-ttu-id="26811-104">Операция с **папкой** возвращает папки из хранилища Exchange.</span><span class="sxs-lookup"><span data-stu-id="26811-104">The **GetFolder** operation gets folders from the Exchange store.</span></span> 
   
-## <a name="getfolder-request-example"></a><span data-ttu-id="bfbb1-105">Пример запроса на получение вложенной папки</span><span class="sxs-lookup"><span data-stu-id="bfbb1-105">GetFolder request example</span></span>
+## <a name="getfolder-request-example"></a><span data-ttu-id="26811-105">Пример запроса на получение вложенной папки</span><span class="sxs-lookup"><span data-stu-id="26811-105">GetFolder request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="bfbb1-106">Description</span><span class="sxs-lookup"><span data-stu-id="bfbb1-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="26811-106">Description</span><span class="sxs-lookup"><span data-stu-id="26811-106">Description</span></span>
 
-<span data-ttu-id="bfbb1-107">В приведенном ниже примере запроса на получение **папки** показано, как получить идентификатор папки, отображаемое имя, количество элементов в этой папке, количество дочерних папок и число непрочитанных элементов в папке.</span><span class="sxs-lookup"><span data-stu-id="bfbb1-107">The following example of a **GetFolder** request shows how to obtain a folder identifier, display name, the count of items in that folder, the count of child folders, and the number of unread items in the folder.</span></span> 
+<span data-ttu-id="26811-107">В приведенном ниже примере запроса на получение **папки** показано, как получить идентификатор папки, отображаемое имя, количество элементов в этой папке, количество дочерних папок и число непрочитанных элементов в папке.</span><span class="sxs-lookup"><span data-stu-id="26811-107">The following example of a **GetFolder** request shows how to obtain a folder identifier, display name, the count of items in that folder, the count of child folders, and the number of unread items in the folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="bfbb1-108">Код</span><span class="sxs-lookup"><span data-stu-id="bfbb1-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="26811-108">Код</span><span class="sxs-lookup"><span data-stu-id="26811-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,35 +49,35 @@ ms.locfileid: "44459183"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a><span data-ttu-id="bfbb1-109">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="bfbb1-109">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="26811-109">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="26811-109">Request elements</span></span>
 
-<span data-ttu-id="bfbb1-110">Этот запрос на получение **вложений** включает следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="bfbb1-110">This **GetFolder** request includes the following elements:</span></span> 
+<span data-ttu-id="26811-110">Этот запрос на получение **вложений** включает следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="26811-110">This **GetFolder** request includes the following elements:</span></span> 
   
-- [<span data-ttu-id="bfbb1-111">GetFolder</span><span class="sxs-lookup"><span data-stu-id="bfbb1-111">GetFolder</span></span>](getfolder.md)
+- [<span data-ttu-id="26811-111">GetFolder</span><span class="sxs-lookup"><span data-stu-id="26811-111">GetFolder</span></span>](getfolder.md)
     
-- [<span data-ttu-id="bfbb1-112">фолдершапе</span><span class="sxs-lookup"><span data-stu-id="bfbb1-112">FolderShape</span></span>](foldershape.md)
+- [<span data-ttu-id="26811-112">фолдершапе</span><span class="sxs-lookup"><span data-stu-id="26811-112">FolderShape</span></span>](foldershape.md)
     
-- [<span data-ttu-id="bfbb1-113">басешапе</span><span class="sxs-lookup"><span data-stu-id="bfbb1-113">BaseShape</span></span>](baseshape.md)
+- [<span data-ttu-id="26811-113">басешапе</span><span class="sxs-lookup"><span data-stu-id="26811-113">BaseShape</span></span>](baseshape.md)
     
-- [<span data-ttu-id="bfbb1-114">фолдеридс</span><span class="sxs-lookup"><span data-stu-id="bfbb1-114">FolderIds</span></span>](folderids.md)
+- [<span data-ttu-id="26811-114">фолдеридс</span><span class="sxs-lookup"><span data-stu-id="26811-114">FolderIds</span></span>](folderids.md)
     
-- [<span data-ttu-id="bfbb1-115">дистингуишедфолдерид</span><span class="sxs-lookup"><span data-stu-id="bfbb1-115">DistinguishedFolderId</span></span>](distinguishedfolderid.md)
+- [<span data-ttu-id="26811-115">дистингуишедфолдерид</span><span class="sxs-lookup"><span data-stu-id="26811-115">DistinguishedFolderId</span></span>](distinguishedfolderid.md)
     
-<span data-ttu-id="bfbb1-116">В схеме представлены дополнительные элементы, которые можно использовать для создания запроса на получение **вложенной папки** .</span><span class="sxs-lookup"><span data-stu-id="bfbb1-116">See the schema for additional elements that you can use to form a **GetFolder** request.</span></span> 
+<span data-ttu-id="26811-116">В схеме представлены дополнительные элементы, которые можно использовать для создания запроса на получение **вложенной папки** .</span><span class="sxs-lookup"><span data-stu-id="26811-116">See the schema for additional elements that you can use to form a **GetFolder** request.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="bfbb1-117">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="bfbb1-117">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span> 
+> <span data-ttu-id="26811-117">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="26811-117">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span> 
   
-## <a name="getfolder-response-example"></a><span data-ttu-id="bfbb1-118">Пример ответа на папку GetResponse</span><span class="sxs-lookup"><span data-stu-id="bfbb1-118">GetFolder response example</span></span>
+## <a name="getfolder-response-example"></a><span data-ttu-id="26811-118">Пример ответа на папку GetResponse</span><span class="sxs-lookup"><span data-stu-id="26811-118">GetFolder response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="bfbb1-119">Description</span><span class="sxs-lookup"><span data-stu-id="bfbb1-119">Description</span></span>
+### <a name="description"></a><span data-ttu-id="26811-119">Description</span><span class="sxs-lookup"><span data-stu-id="26811-119">Description</span></span>
 
-<span data-ttu-id="bfbb1-120">В приведенном ниже примере кода для протокола SOAP показан успешный ответ на запрос на получение **папки** .</span><span class="sxs-lookup"><span data-stu-id="bfbb1-120">The following Simple Object Access Protocol (SOAP) body example shows a successful response to the **GetFolder** request.</span></span> 
+<span data-ttu-id="26811-120">В приведенном ниже примере кода для протокола SOAP показан успешный ответ на запрос на получение **папки** .</span><span class="sxs-lookup"><span data-stu-id="26811-120">The following Simple Object Access Protocol (SOAP) body example shows a successful response to the **GetFolder** request.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="bfbb1-121">Идентификатор папки и ключ изменения были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="bfbb1-121">The folder ID and the change key have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="26811-121">Идентификатор папки и ключ изменения были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="26811-121">The folder ID and the change key have been shortened to preserve readability.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="bfbb1-122">Код</span><span class="sxs-lookup"><span data-stu-id="bfbb1-122">Code</span></span>
+### <a name="code"></a><span data-ttu-id="26811-122">Код</span><span class="sxs-lookup"><span data-stu-id="26811-122">Code</span></span>
 
 ```XML
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
@@ -110,37 +110,37 @@ ms.locfileid: "44459183"
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a><span data-ttu-id="bfbb1-123">Элементы Response</span><span class="sxs-lookup"><span data-stu-id="bfbb1-123">Response elements</span></span>
+### <a name="response-elements"></a><span data-ttu-id="26811-123">Элементы Response</span><span class="sxs-lookup"><span data-stu-id="26811-123">Response elements</span></span>
 
-<span data-ttu-id="bfbb1-124">Этот ответ на **папку** содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="bfbb1-124">This **GetFolder** response includes the following elements:</span></span> 
+<span data-ttu-id="26811-124">Этот ответ на **папку** содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="26811-124">This **GetFolder** response includes the following elements:</span></span> 
   
-- [<span data-ttu-id="bfbb1-125">жетфолдерреспонсе</span><span class="sxs-lookup"><span data-stu-id="bfbb1-125">GetFolderResponse</span></span>](getfolderresponse.md)
+- [<span data-ttu-id="26811-125">жетфолдерреспонсе</span><span class="sxs-lookup"><span data-stu-id="26811-125">GetFolderResponse</span></span>](getfolderresponse.md)
     
-- [<span data-ttu-id="bfbb1-126">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="bfbb1-126">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="26811-126">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="26811-126">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="bfbb1-127">жетфолдерреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="bfbb1-127">GetFolderResponseMessage</span></span>](getfolderresponsemessage.md)
+- [<span data-ttu-id="26811-127">жетфолдерреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="26811-127">GetFolderResponseMessage</span></span>](getfolderresponsemessage.md)
     
-- [<span data-ttu-id="bfbb1-128">Folders</span><span class="sxs-lookup"><span data-stu-id="bfbb1-128">Folders</span></span>](folders-ex15websvcsotherref.md)
+- [<span data-ttu-id="26811-128">Folders</span><span class="sxs-lookup"><span data-stu-id="26811-128">Folders</span></span>](folders-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="bfbb1-129">Folder</span><span class="sxs-lookup"><span data-stu-id="bfbb1-129">Folder</span></span>](folder.md)
+- [<span data-ttu-id="26811-129">Folder</span><span class="sxs-lookup"><span data-stu-id="26811-129">Folder</span></span>](folder.md)
     
-- [<span data-ttu-id="bfbb1-130">FolderId</span><span class="sxs-lookup"><span data-stu-id="bfbb1-130">FolderId</span></span>](folderid.md)
+- [<span data-ttu-id="26811-130">FolderId</span><span class="sxs-lookup"><span data-stu-id="26811-130">FolderId</span></span>](folderid.md)
     
-- [<span data-ttu-id="bfbb1-131">DisplayName (строка)</span><span class="sxs-lookup"><span data-stu-id="bfbb1-131">DisplayName (string)</span></span>](displayname-string.md)
+- [<span data-ttu-id="26811-131">DisplayName (строка)</span><span class="sxs-lookup"><span data-stu-id="26811-131">DisplayName (string)</span></span>](displayname-string.md)
     
-- [<span data-ttu-id="bfbb1-132">тоталкаунт</span><span class="sxs-lookup"><span data-stu-id="bfbb1-132">TotalCount</span></span>](totalcount.md)
+- [<span data-ttu-id="26811-132">тоталкаунт</span><span class="sxs-lookup"><span data-stu-id="26811-132">TotalCount</span></span>](totalcount.md)
     
-- [<span data-ttu-id="bfbb1-133">чилдфолдеркаунт</span><span class="sxs-lookup"><span data-stu-id="bfbb1-133">ChildFolderCount</span></span>](childfoldercount.md)
+- [<span data-ttu-id="26811-133">чилдфолдеркаунт</span><span class="sxs-lookup"><span data-stu-id="26811-133">ChildFolderCount</span></span>](childfoldercount.md)
     
-- [<span data-ttu-id="bfbb1-134">унреадкаунт</span><span class="sxs-lookup"><span data-stu-id="bfbb1-134">UnreadCount</span></span>](unreadcount.md)
+- [<span data-ttu-id="26811-134">унреадкаунт</span><span class="sxs-lookup"><span data-stu-id="26811-134">UnreadCount</span></span>](unreadcount.md)
     
-## <a name="getfolder-error-response-example"></a><span data-ttu-id="bfbb1-135">Пример отклика на сообщение о вложении в папку</span><span class="sxs-lookup"><span data-stu-id="bfbb1-135">GetFolder Error response example</span></span>
+## <a name="getfolder-error-response-example"></a><span data-ttu-id="26811-135">Пример отклика на сообщение о вложении в папку</span><span class="sxs-lookup"><span data-stu-id="26811-135">GetFolder Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="bfbb1-136">Description</span><span class="sxs-lookup"><span data-stu-id="bfbb1-136">Description</span></span>
+### <a name="description"></a><span data-ttu-id="26811-136">Description</span><span class="sxs-lookup"><span data-stu-id="26811-136">Description</span></span>
 
-<span data-ttu-id="bfbb1-137">В следующем примере SOAP Body показан ответ об ошибке, вызванный неправильным [FolderId](folderid.md) в запросе.</span><span class="sxs-lookup"><span data-stu-id="bfbb1-137">The following SOAP body example shows an error response that is caused by an incorrect [FolderId](folderid.md) in the request.</span></span> 
+<span data-ttu-id="26811-137">В следующем примере SOAP Body показан ответ об ошибке, вызванный неправильным [FolderId](folderid.md) в запросе.</span><span class="sxs-lookup"><span data-stu-id="26811-137">The following SOAP body example shows an error response that is caused by an incorrect [FolderId](folderid.md) in the request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="bfbb1-138">Код</span><span class="sxs-lookup"><span data-stu-id="bfbb1-138">Code</span></span>
+### <a name="code"></a><span data-ttu-id="26811-138">Код</span><span class="sxs-lookup"><span data-stu-id="26811-138">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -168,31 +168,31 @@ ms.locfileid: "44459183"
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a><span data-ttu-id="bfbb1-139">Элементы Response</span><span class="sxs-lookup"><span data-stu-id="bfbb1-139">Response elements</span></span>
+### <a name="response-elements"></a><span data-ttu-id="26811-139">Элементы Response</span><span class="sxs-lookup"><span data-stu-id="26811-139">Response elements</span></span>
 
-<span data-ttu-id="bfbb1-140">Сообщение **об** ошибке GetResponse содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="bfbb1-140">This **GetFolder** error response includes the following elements:</span></span> 
+<span data-ttu-id="26811-140">Сообщение **об** ошибке GetResponse содержит следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="26811-140">This **GetFolder** error response includes the following elements:</span></span> 
   
-- [<span data-ttu-id="bfbb1-141">жетфолдерреспонсе</span><span class="sxs-lookup"><span data-stu-id="bfbb1-141">GetFolderResponse</span></span>](getfolderresponse.md)
+- [<span data-ttu-id="26811-141">жетфолдерреспонсе</span><span class="sxs-lookup"><span data-stu-id="26811-141">GetFolderResponse</span></span>](getfolderresponse.md)
     
-- [<span data-ttu-id="bfbb1-142">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="bfbb1-142">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="26811-142">респонсемессажес</span><span class="sxs-lookup"><span data-stu-id="26811-142">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="bfbb1-143">жетфолдерреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="bfbb1-143">GetFolderResponseMessage</span></span>](getfolderresponsemessage.md)
+- [<span data-ttu-id="26811-143">жетфолдерреспонсемессаже</span><span class="sxs-lookup"><span data-stu-id="26811-143">GetFolderResponseMessage</span></span>](getfolderresponsemessage.md)
     
-- [<span data-ttu-id="bfbb1-144">мессажетекст</span><span class="sxs-lookup"><span data-stu-id="bfbb1-144">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="26811-144">мессажетекст</span><span class="sxs-lookup"><span data-stu-id="26811-144">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="bfbb1-145">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="bfbb1-145">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="26811-145">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="26811-145">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="bfbb1-146">дескриптивелинккэй</span><span class="sxs-lookup"><span data-stu-id="bfbb1-146">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="26811-146">дескриптивелинккэй</span><span class="sxs-lookup"><span data-stu-id="26811-146">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-- [<span data-ttu-id="bfbb1-147">Folders</span><span class="sxs-lookup"><span data-stu-id="bfbb1-147">Folders</span></span>](folders-ex15websvcsotherref.md)
+- [<span data-ttu-id="26811-147">Folders</span><span class="sxs-lookup"><span data-stu-id="26811-147">Folders</span></span>](folders-ex15websvcsotherref.md)
     
-## <a name="version-differences"></a><span data-ttu-id="bfbb1-148">Различия версий</span><span class="sxs-lookup"><span data-stu-id="bfbb1-148">Version differences</span></span>
+## <a name="version-differences"></a><span data-ttu-id="26811-148">Различия версий</span><span class="sxs-lookup"><span data-stu-id="26811-148">Version differences</span></span>
 
-<span data-ttu-id="bfbb1-149">Для приложений, предназначенных для Exchange Online, Exchange Online в составе Office 365, или локальной версии Exchange, начиная с Exchange 2013, разрешения для папки не возвращаются, если элемент [басешапе](baseshape.md) имеет значение **аллпропертиес** в запросе операции- [папки](getfolder-operation.md) .</span><span class="sxs-lookup"><span data-stu-id="bfbb1-149">For applications that target Exchange Online, Exchange Online as part of Office 365, or an on-premises version of Exchange starting with Exchange 2013, folder permissions are not returned when the [BaseShape](baseshape.md) element has a value of **AllProperties** in the [GetFolder](getfolder-operation.md) operation request.</span></span> <span data-ttu-id="bfbb1-150">Чтобы получить разрешения для папки, добавьте элемент [PermissionSet (пермиссионсеттипе)](permissionset-permissionsettype.md) в элемент [аддитионалпропертиес](additionalproperties.md) в запросе на получение **папки** .</span><span class="sxs-lookup"><span data-stu-id="bfbb1-150">To retrieve folder permissions, add the [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) element to the [AdditionalProperties](additionalproperties.md) element in the **GetFolder** request.</span></span> 
+<span data-ttu-id="26811-149">Для приложений, предназначенных для Exchange Online, Exchange Online в составе Office 365, или локальной версии Exchange, начиная с Exchange 2013, разрешения для папки не возвращаются, если элемент [басешапе](baseshape.md) имеет значение **аллпропертиес** в запросе операции- [папки](getfolder-operation.md) .</span><span class="sxs-lookup"><span data-stu-id="26811-149">For applications that target Exchange Online, Exchange Online as part of Office 365, or an on-premises version of Exchange starting with Exchange 2013, folder permissions are not returned when the [BaseShape](baseshape.md) element has a value of **AllProperties** in the [GetFolder](getfolder-operation.md) operation request.</span></span> <span data-ttu-id="26811-150">Чтобы получить разрешения для папки, добавьте элемент [PermissionSet (пермиссионсеттипе)](permissionset-permissionsettype.md) в элемент [аддитионалпропертиес](additionalproperties.md) в запросе на получение **папки** .</span><span class="sxs-lookup"><span data-stu-id="26811-150">To retrieve folder permissions, add the [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) element to the [AdditionalProperties](additionalproperties.md) element in the **GetFolder** request.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="bfbb1-151">См. также</span><span class="sxs-lookup"><span data-stu-id="bfbb1-151">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="26811-151">См. также</span><span class="sxs-lookup"><span data-stu-id="26811-151">See also</span></span>
 
 
 
-- [<span data-ttu-id="bfbb1-152">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="bfbb1-152">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="26811-152">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="26811-152">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

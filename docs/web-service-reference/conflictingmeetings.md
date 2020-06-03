@@ -16,12 +16,12 @@ ms.openlocfilehash: dc897c9dc33117d379d89bb9bb41104ca02def1f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460178"
 ---
-# <a name="conflictingmeetings"></a><span data-ttu-id="e0e82-103">конфликтингмитингс</span><span class="sxs-lookup"><span data-stu-id="e0e82-103">ConflictingMeetings</span></span>
+# <a name="conflictingmeetings"></a><span data-ttu-id="30d41-103">конфликтингмитингс</span><span class="sxs-lookup"><span data-stu-id="30d41-103">ConflictingMeetings</span></span>
 
-<span data-ttu-id="e0e82-104">Элемент **конфликтингмитингс** определяет все элементы календаря, которые конфликтуют с временем собрания.</span><span class="sxs-lookup"><span data-stu-id="e0e82-104">The **ConflictingMeetings** element identifies all calendar items that conflict with a meeting time.</span></span> 
+<span data-ttu-id="30d41-104">Элемент **конфликтингмитингс** определяет все элементы календаря, которые конфликтуют с временем собрания.</span><span class="sxs-lookup"><span data-stu-id="30d41-104">The **ConflictingMeetings** element identifies all calendar items that conflict with a meeting time.</span></span> 
   
 ```xml
 <ConflictingMeetings>
@@ -29,49 +29,49 @@ ms.locfileid: "44460178"
 </ConflictingMeetings>
 ```
 
- <span data-ttu-id="e0e82-105">**нонемптяррайофаллитемстипе**</span><span class="sxs-lookup"><span data-stu-id="e0e82-105">**NonEmptyArrayOfAllItemsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="e0e82-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="e0e82-106">Attributes and elements</span></span>
+ <span data-ttu-id="30d41-105">**нонемптяррайофаллитемстипе**</span><span class="sxs-lookup"><span data-stu-id="30d41-105">**NonEmptyArrayOfAllItemsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="30d41-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="30d41-106">Attributes and elements</span></span>
 
-<span data-ttu-id="e0e82-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="e0e82-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="30d41-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="30d41-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e0e82-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="e0e82-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="30d41-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="30d41-108">Attributes</span></span>
 
-<span data-ttu-id="e0e82-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="e0e82-109">None.</span></span>
+<span data-ttu-id="30d41-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="30d41-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="e0e82-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="e0e82-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="30d41-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="30d41-110">Child elements</span></span>
 
-|<span data-ttu-id="e0e82-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e0e82-111">**Element**</span></span>|<span data-ttu-id="e0e82-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e0e82-112">**Description**</span></span>|
+|<span data-ttu-id="30d41-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="30d41-111">**Element**</span></span>|<span data-ttu-id="30d41-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="30d41-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e0e82-113">календаритем</span><span class="sxs-lookup"><span data-stu-id="e0e82-113">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="e0e82-114">Представляет элемент календаря Exchange.</span><span class="sxs-lookup"><span data-stu-id="e0e82-114">Represents an Exchange calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="30d41-113">календаритем</span><span class="sxs-lookup"><span data-stu-id="30d41-113">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="30d41-114">Представляет элемент календаря Exchange.</span><span class="sxs-lookup"><span data-stu-id="30d41-114">Represents an Exchange calendar item.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="e0e82-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="e0e82-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="30d41-115">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="30d41-115">Parent elements</span></span>
 
-|<span data-ttu-id="e0e82-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e0e82-116">**Element**</span></span>|<span data-ttu-id="e0e82-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e0e82-117">**Description**</span></span>|
+|<span data-ttu-id="30d41-116">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="30d41-116">**Element**</span></span>|<span data-ttu-id="30d41-117">**Описание**</span><span class="sxs-lookup"><span data-stu-id="30d41-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e0e82-118">Свойство meetingrequest</span><span class="sxs-lookup"><span data-stu-id="e0e82-118">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="e0e82-119">Представляет приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="e0e82-119">Represents a meeting request in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="e0e82-120">календаритем</span><span class="sxs-lookup"><span data-stu-id="e0e82-120">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="e0e82-121">Представляет элемент календаря Exchange.</span><span class="sxs-lookup"><span data-stu-id="e0e82-121">Represents an Exchange calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="30d41-118">Свойство meetingrequest</span><span class="sxs-lookup"><span data-stu-id="30d41-118">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="30d41-119">Представляет приглашение на собрание в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="30d41-119">Represents a meeting request in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="30d41-120">календаритем</span><span class="sxs-lookup"><span data-stu-id="30d41-120">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="30d41-121">Представляет элемент календаря Exchange.</span><span class="sxs-lookup"><span data-stu-id="30d41-121">Represents an Exchange calendar item.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="e0e82-122">Примечания</span><span class="sxs-lookup"><span data-stu-id="e0e82-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="30d41-122">Примечания</span><span class="sxs-lookup"><span data-stu-id="30d41-122">Remarks</span></span>
 
-<span data-ttu-id="e0e82-123">Если этот элемент используется, он должен содержать один или несколько дочерних элементов.</span><span class="sxs-lookup"><span data-stu-id="e0e82-123">If this element is used, it must contain one or more child elements.</span></span>
+<span data-ttu-id="30d41-123">Если этот элемент используется, он должен содержать один или несколько дочерних элементов.</span><span class="sxs-lookup"><span data-stu-id="30d41-123">If this element is used, it must contain one or more child elements.</span></span>
   
-<span data-ttu-id="e0e82-124">Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="e0e82-124">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="30d41-124">Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="30d41-124">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="e0e82-125">Несмотря на то что в схеме допустимы дополнительные дочерние элементы, элемент [календаритем](calendaritem.md) является единственным дочерним элементом, который веб-службы Exchange (EWS) будут возвращать в элементе **конфликтингмитингс** .</span><span class="sxs-lookup"><span data-stu-id="e0e82-125">Although additional child elements are valid per the schema, the [CalendarItem](calendaritem.md) element is the only child element that Exchange Web Services (EWS) will return within the **ConflictingMeetings** element.</span></span> <span data-ttu-id="e0e82-126">В этой статье не перечислены дочерние элементы, допустимые для схемы, но не возвращенные службой EWS.</span><span class="sxs-lookup"><span data-stu-id="e0e82-126">This topic does not list child elements that are valid per the schema but will not be returned by EWS.</span></span> 
+> <span data-ttu-id="30d41-125">Несмотря на то что в схеме допустимы дополнительные дочерние элементы, элемент [календаритем](calendaritem.md) является единственным дочерним элементом, который веб-службы Exchange (EWS) будут возвращать в элементе **конфликтингмитингс** .</span><span class="sxs-lookup"><span data-stu-id="30d41-125">Although additional child elements are valid per the schema, the [CalendarItem](calendaritem.md) element is the only child element that Exchange Web Services (EWS) will return within the **ConflictingMeetings** element.</span></span> <span data-ttu-id="30d41-126">В этой статье не перечислены дочерние элементы, допустимые для схемы, но не возвращенные службой EWS.</span><span class="sxs-lookup"><span data-stu-id="30d41-126">This topic does not list child elements that are valid per the schema but will not be returned by EWS.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="e0e82-127">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="e0e82-127">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="30d41-127">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="30d41-127">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e0e82-128">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="e0e82-128">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="e0e82-129">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="e0e82-129">Schema Name</span></span>  <br/> |<span data-ttu-id="e0e82-130">Схема Types</span><span class="sxs-lookup"><span data-stu-id="e0e82-130">Types schema</span></span>  <br/> |
-|<span data-ttu-id="e0e82-131">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="e0e82-131">Validation File</span></span>  <br/> |<span data-ttu-id="e0e82-132">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="e0e82-132">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="e0e82-133">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="e0e82-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="e0e82-134">False</span><span class="sxs-lookup"><span data-stu-id="e0e82-134">False</span></span>  <br/> |
+|<span data-ttu-id="30d41-128">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="30d41-128">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="30d41-129">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="30d41-129">Schema Name</span></span>  <br/> |<span data-ttu-id="30d41-130">Схема Types</span><span class="sxs-lookup"><span data-stu-id="30d41-130">Types schema</span></span>  <br/> |
+|<span data-ttu-id="30d41-131">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="30d41-131">Validation File</span></span>  <br/> |<span data-ttu-id="30d41-132">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="30d41-132">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="30d41-133">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="30d41-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="30d41-134">False</span><span class="sxs-lookup"><span data-stu-id="30d41-134">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="e0e82-135">См. также</span><span class="sxs-lookup"><span data-stu-id="e0e82-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30d41-135">См. также</span><span class="sxs-lookup"><span data-stu-id="30d41-135">See also</span></span>
 
 
 
-- [<span data-ttu-id="e0e82-136">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="e0e82-136">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="30d41-136">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="30d41-136">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

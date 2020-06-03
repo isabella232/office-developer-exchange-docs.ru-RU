@@ -12,38 +12,38 @@ ms.openlocfilehash: 94d45e98f144840138ef3bc21c0a98d0196543b1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459274"
 ---
-# <a name="itemversion"></a><span data-ttu-id="54c3f-103">итемверсион</span><span class="sxs-lookup"><span data-stu-id="54c3f-103">ItemVersion</span></span>
+# <a name="itemversion"></a><span data-ttu-id="348d0-103">итемверсион</span><span class="sxs-lookup"><span data-stu-id="348d0-103">ItemVersion</span></span>
 
-<span data-ttu-id="54c3f-104">Элемент **итемверсион** предназначен только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="54c3f-104">The **ItemVersion** element is intended for internal use only.</span></span> 
+<span data-ttu-id="348d0-104">Элемент **итемверсион** предназначен только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="348d0-104">The **ItemVersion** element is intended for internal use only.</span></span> 
   
 ```XML
 <ItemVersion />
 ```
 
  ****
-## <a name="attributes-and-elements"></a><span data-ttu-id="54c3f-105">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="54c3f-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="348d0-105">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="348d0-105">Attributes and elements</span></span>
 
-<span data-ttu-id="54c3f-106">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="54c3f-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="348d0-106">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="348d0-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="54c3f-107">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="54c3f-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="348d0-107">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="348d0-107">Attributes</span></span>
 
-<span data-ttu-id="54c3f-108">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="54c3f-108">None.</span></span>
+<span data-ttu-id="348d0-108">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="348d0-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="54c3f-109">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="54c3f-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="348d0-109">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="348d0-109">Child elements</span></span>
 
-<span data-ttu-id="54c3f-110">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="54c3f-110">None.</span></span>
+<span data-ttu-id="348d0-110">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="348d0-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="54c3f-111">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="54c3f-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="348d0-111">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="348d0-111">Parent elements</span></span>
 
-<span data-ttu-id="54c3f-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="54c3f-112">None.</span></span>
+<span data-ttu-id="348d0-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="348d0-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="54c3f-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="54c3f-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="348d0-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="348d0-113">Remarks</span></span>
 
-<span data-ttu-id="54c3f-114">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="54c3f-114">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="348d0-114">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="348d0-114">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="54c3f-115">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="54c3f-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="348d0-115">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="348d0-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 
