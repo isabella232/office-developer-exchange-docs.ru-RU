@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Удаление
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -16,10 +16,10 @@ ms.openlocfilehash: 5460f9e49b126ca6b039c6f11aaa3c6eb4a40544
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457356"
 ---
-# <a name="delete"></a>Удалить
+# <a name="delete"></a>Удаление
 
 Элемент **Delete** указывает, может ли клиент удалить папку или элемент. 
   

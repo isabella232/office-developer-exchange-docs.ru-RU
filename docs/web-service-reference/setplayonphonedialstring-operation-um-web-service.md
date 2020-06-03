@@ -15,7 +15,7 @@ ms.openlocfilehash: 7df806eedc2d6d037394f31ec4ccbfe28aaf3372
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458644"
 ---
 # <a name="setplayonphonedialstring-operation-um-web-service"></a>Операция SetPlayOnPhoneDialString (веб-служба единой системы обмена сообщениями)
@@ -24,7 +24,7 @@ ms.locfileid: "44458644"
   
 ## <a name="setplayonphonedialstring-request-example"></a>Пример запроса SetPlayOnPhoneDialString
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере запроса SetPlayOnPhoneDialString показано, как сформировать запрос на установку строки набора номера по умолчанию для почтового ящика.
   
@@ -43,7 +43,7 @@ ms.locfileid: "44458644"
 
 ## <a name="successful-setplayonphonedialstring-response-example"></a>Пример успешного ответа SetPlayOnPhoneDialString
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа Сетплайонефонедиалстринг показан ответ на запрос SetPlayOnPhoneDialString.
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 125a6d212e5eaf85ace71c048de809f3a05ba9b6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457552"
 ---
 # <a name="createfolder-operation"></a>Операция CreateFolder
@@ -25,7 +25,7 @@ ms.locfileid: "44457552"
   
 ## <a name="createfolder-request-example"></a>Пример запроса CreateFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса CreateFolder показано, как сформировать запрос на создание двух папок в корне почтового ящика.
   
@@ -81,7 +81,7 @@ ms.locfileid: "44457552"
   
 ## <a name="successful-createfolder-response-example"></a>Пример успешного ответа CreateFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос CreateFolder. В этом примере ответ возвращает идентификаторы новых папок.
   
@@ -150,7 +150,7 @@ ms.locfileid: "44457552"
   
 ## <a name="createfolder-error-response"></a>Ответ об ошибке CreateFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса CreateFolder.
   

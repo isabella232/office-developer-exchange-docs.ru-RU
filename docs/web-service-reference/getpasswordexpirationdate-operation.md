@@ -12,7 +12,7 @@ ms.openlocfilehash: 4184092cf98161e4c2f74446cef5439722ae71a1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457895"
 ---
 # <a name="getpasswordexpirationdate-operation"></a>Операция GetPasswordExpirationDate
@@ -32,7 +32,7 @@ ms.locfileid: "44457895"
    
 ## <a name="getpasswordexpirationdate-operation-request-example"></a>Пример запроса операции GetPasswordExpirationDate
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса операции **GetPasswordExpirationDate** показано, как получить срок действия пароля для учетной записи электронной почты. 
   

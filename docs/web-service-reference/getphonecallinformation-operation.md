@@ -16,7 +16,7 @@ ms.openlocfilehash: 231b160713526f44433188e2b1e3bd98012370b1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458315"
 ---
 # <a name="getphonecallinformation-operation"></a>Операция GetPhoneCallInformation
@@ -25,7 +25,7 @@ ms.locfileid: "44458315"
   
 ## <a name="getphonecallinformation-request-example"></a>Пример запроса GetPhoneCallInformation
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере запроса **GetPhoneCallInformation** показано, как сформировать запрос для получения сведений об определенном телефонном звонке. 
   
@@ -51,7 +51,7 @@ ms.locfileid: "44458315"
 
 ## <a name="getphonecallinformation-response-example"></a>Пример отклика GetPhoneCallInformation
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **GetPhoneCallInformation** . Ответ представляет телефонный звонок, который в настоящее время подключен. 
   

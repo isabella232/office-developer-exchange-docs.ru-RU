@@ -16,7 +16,7 @@ ms.openlocfilehash: f4c4c03f55c9f32be4a067024f4387888edd5fe9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457937"
 ---
 # <a name="getinboxrules-operation"></a>Операция GetInboxRules
@@ -25,7 +25,7 @@ ms.locfileid: "44457937"
   
 ## <a name="getinboxrules-request-example"></a>Пример запроса GetInboxRules
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан XML-код запроса, который клиент отправляет на сервер. Запрос идентифицирует пользователя в элементе [маилбокссмтпаддресс](mailboxsmtpaddress.md) . Все правила для папки "Входящие" для указанного пользователя возвращаются в ответе. 
   
@@ -56,7 +56,7 @@ ms.locfileid: "44457937"
     
 ## <a name="successful-getinboxrules-response-example"></a>Пример успешного ответа GetInboxRules
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере кода для протокола SOAP показан успешный ответ на запрос **GetInboxRules** . В этом примере ответ включает одно правило. 
   

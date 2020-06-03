@@ -16,7 +16,7 @@ ms.openlocfilehash: 1d34ce4c5ba1d955989a35dafb8ab3c5d229d505
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457335"
 ---
 # <a name="deleteattachment-operation"></a>Операция DeleteAttachment
@@ -29,7 +29,7 @@ ms.locfileid: "44457335"
   
 ## <a name="deleteattachment-request-example"></a>Пример запроса DeleteAttachment
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса DeleteAttachment показано, как удалить вложение элемента.
   
@@ -68,7 +68,7 @@ ms.locfileid: "44457335"
     
 ## <a name="deleteattachment-response-example"></a>Пример отклика DeleteAttachment
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос DeleteAttachment.
   

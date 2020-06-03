@@ -16,7 +16,7 @@ ms.openlocfilehash: 622faa622b0ea231a6331ff62631885d4252c1f5
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457699"
 ---
 # <a name="getuseroofsettings-operation"></a>Операция GetUserOofSettings
@@ -41,7 +41,7 @@ ms.locfileid: "44457699"
   
 ## <a name="getuseroofsettings-request-example"></a>Пример запроса GetUserOofSettings
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показан запрос **GetUserOofSettings** , который получает сведения об отсутствии на работе отдельных пользователей. 
   
@@ -74,7 +74,7 @@ ms.locfileid: "44457699"
     
 ## <a name="successful-getuseroofsettings-response-example"></a>Пример успешного ответа GetUserOofSettings
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показано отключенное состояние отсутствия на работе с сообщениями об отсутствии на работе.
   
@@ -142,13 +142,13 @@ ms.locfileid: "44457699"
     
 - [екстерналрепли](externalreply.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
 - [алловекстерналуф](allowexternaloof.md)
     
 ## <a name="getuseroofsettings-error-response-example"></a>Пример ответа на сообщение об ошибке GetUserOofSettings
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке, вызванный попыткой доступа к сведениям об отсутствии на работе другого пользователя.
   

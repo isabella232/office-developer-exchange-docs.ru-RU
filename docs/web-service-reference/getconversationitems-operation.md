@@ -12,7 +12,7 @@ ms.openlocfilehash: ddeb5386e56653a32ca2e6d212518704cd0f0c58
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457783"
 ---
 # <a name="getconversationitems-operation"></a>Операция GetConversationItems
@@ -227,7 +227,7 @@ ms.locfileid: "44457783"
     
 - [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
 - [Идентификатор](itemid.md)
     

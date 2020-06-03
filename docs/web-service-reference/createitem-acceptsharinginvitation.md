@@ -16,7 +16,7 @@ ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457517"
 ---
 # <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
@@ -25,7 +25,7 @@ ms.locfileid: "44457517"
   
 ## <a name="accept-sharing-invitation-request-example"></a>Пример принятия запроса на получение приглашения на совместное использование
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показано, как принять приглашение к совместному использованию.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44457517"
   
 ## <a name="successful-accept-sharing-invitation-response-example"></a>Пример принятия ответа для успешного предоставления приглашения совместного доступа
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **CreateItem** . 
   
@@ -117,7 +117,7 @@ ms.locfileid: "44457517"
     
 ## <a name="accept-sharing-invitation-error-response-example"></a>Пример ответа на сообщение об ошибке принятия приглашения на совместное использование
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса **CreateItem** . Ошибка вызвана попыткой принять приглашение к совместному использованию, которое не удается найти в хранилище Exchange. 
   

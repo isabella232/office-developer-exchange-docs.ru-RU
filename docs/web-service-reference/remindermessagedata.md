@@ -12,7 +12,7 @@ ms.openlocfilehash: f2632062cd02581c426f7dbfa2a33d53e5594d72
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458553"
 ---
 # <a name="remindermessagedata"></a>реминдермессажедата
@@ -45,7 +45,7 @@ ms.locfileid: "44458553"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Message](message-ex15websvcsotherref.md)
+[Сообщение](message-ex15websvcsotherref.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -68,7 +68,7 @@ ms.locfileid: "44458553"
 
 
 
-[Message](message-ex15websvcsotherref.md)
+[Сообщение](message-ex15websvcsotherref.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

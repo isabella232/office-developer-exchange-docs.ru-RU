@@ -16,7 +16,7 @@ ms.openlocfilehash: 41a4bb99ee7ae4e416ec8a106968bb7869e60345
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458658"
 ---
 # <a name="getmailtips-operation"></a>Операция GetMailTips
@@ -25,7 +25,7 @@ ms.locfileid: "44458658"
   
 ## <a name="getmailtips-request-example"></a>Пример запроса на получение почтовых подсказок
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 Клиент создает XML-код запроса и отправляет его на сервер. Запрос определяет клиента, который отправляется как, почтовый ящик для получения советов и советов по использованию электронной почты. В этом примере клиент запрашивает возвращение всех почтовых подсказок для выбранного почтового ящика.
   
@@ -72,7 +72,7 @@ ms.locfileid: "44458658"
     
 ## <a name="successful-getmailtips-response-example"></a>Пример отклика успешных почтовых подсказок
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере кода SOAP показан успешный ответ **на запрос по** подсказке. 
   

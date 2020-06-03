@@ -16,7 +16,7 @@ ms.openlocfilehash: d1393a6a5e99b7e0a7e354d2b7dd035d04356ec2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458280"
 ---
 # <a name="getroomlists-operation"></a>Операция GetRoomLists
@@ -36,7 +36,7 @@ ms.locfileid: "44458280"
    
 ## <a name="getroomlists-request-example"></a>Пример запроса GetRoomLists
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 Ниже приведен пример запроса **GetRoomLists** , который возвращает списки помещений, доступные на сервере. 
   
@@ -66,7 +66,7 @@ ms.locfileid: "44458280"
     
 ## <a name="successful-getroomlists-response-example"></a>Пример успешного ответа GetRoomLists
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 Ниже приведен пример ответа на запрос **GetRoomLists** . В этом ответе отображается один список помещений на сервере. 
   
@@ -115,7 +115,7 @@ ms.locfileid: "44458280"
     
 ### <a name="getroomlists-error-response-example"></a>Пример ответа на сообщение об ошибке GetRoomLists
 
-#### <a name="description"></a>Описание
+#### <a name="description"></a>Description
 
 В следующем примере показан ответ на попытку получить списки помещений с сервера, на котором не определены списки помещений.
   

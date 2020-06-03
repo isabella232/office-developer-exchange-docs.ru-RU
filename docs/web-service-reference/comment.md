@@ -1,5 +1,5 @@
 ---
-title: Comment
+title: Комментарий
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -16,10 +16,10 @@ ms.openlocfilehash: 5c13b4085f856dd9a689ec4d6acc89b39e482663
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457391"
 ---
-# <a name="comment"></a>Comment
+# <a name="comment"></a>Комментарий
 
 Элемент **comment** содержит комментарий, связанный с управляемой папкой. 
   
