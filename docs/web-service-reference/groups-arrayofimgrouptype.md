@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 544dbb60-d6cb-47e1-b157-f0166147b6cf
 description: Элемент Groups представляет собой массив групп обмена мгновенными сообщениями.
-ms.openlocfilehash: 7632c922666742d6ab9428a2b1e78ae6a1d544b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ad866afdecbcac0e555978647e3a46a033361672
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833784"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530073"
 ---
 # <a name="groups-arrayofimgrouptype"></a>Groups (Аррайофимграуптипе)
 
@@ -33,7 +33,7 @@ ms.locfileid: "19833784"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

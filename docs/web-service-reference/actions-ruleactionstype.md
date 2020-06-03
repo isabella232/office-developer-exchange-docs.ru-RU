@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2afba70c-65f7-458c-a4e6-a2cd9bccc0f9
 description: Элемент Actions содержит список действий, связанных с правилами папки "Входящие".
-ms.openlocfilehash: 8ed8095ca8b41e037c2c0dad319c9c4ab99ed2bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fbef3b69b1688d7c612af018d6a19f9ec1728066
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761419"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529681"
 ---
 # <a name="actions-ruleactionstype"></a>Actions (Рулеактионстипе)
 
@@ -44,11 +44,11 @@ ms.locfileid: "19761419"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Ассигнкатегориес](assigncategories.md) | [CopyToFolder](copytofolder.md) | [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients.md) | [ServerReplyWithMessage](serverreplywithmessage.md)[Delete](delete.md) | [SendSMSAlertToRecipients](sendsmsalerttorecipients.md)[ForwardToRecipients](forwardtorecipients.md) | [RedirectToRecipients](redirecttorecipients.md)[MarkImportance](markimportance.md) | [StopProcessingRules](stopprocessingrules.md) [PermanentDelete](permanentdelete.md)[MarkAsRead](markasread.md)[MoveToFolder](movetofolder.md)Delete форвардасаттачменттореЦипиентс | форвардтореЦипиентс маркимпортанце | MarkAsRead | MoveToFolder | PermanentDelete RedirectToRecipients SendSMSAlertToRecipients |  | 
+[Ассигнкатегориес](assigncategories.md)  |  [CopyToFolder](copytofolder.md)  |  [Delete (удалить](delete.md)  |  ) [ФорвардасаттачменттореЦипиентс](forwardasattachmenttorecipients.md)  |  [ФорвардтореЦипиентс](forwardtorecipients.md)  |  [Маркимпортанце](markimportance.md)  |  [Маркасреад](markasread.md)  |  [MoveToFolder](movetofolder.md)  |  [Перманентделете](permanentdelete.md)  |  [RedirectToRecipients](redirecttorecipients.md)  |  [СендсмсалерттореЦипиентс](sendsmsalerttorecipients.md)  |  [Серверрепливисмессаже](serverreplywithmessage.md)  |  [StopProcessingRules](stopprocessingrules.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19761419"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |

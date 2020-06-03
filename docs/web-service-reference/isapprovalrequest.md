@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 293ed01b-f6a4-4459-819c-933bbfaa2dd7
 description: Элемент Исаппровалрекуест указывает, должны ли входящие сообщения быть запросами на утверждение, чтобы применялось условие или исключение.
-ms.openlocfilehash: 45b0836efff3ec9fe644cbaeb7ea7192346422bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 08ea36820b2680bb2c7e5695eb2dd481154c05eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833984"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530022"
 ---
 # <a name="isapprovalrequest"></a>исаппровалрекуест
 
@@ -34,11 +34,11 @@ ms.locfileid: "19833984"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19833984"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d6cf1bd3-a19b-4d5f-9e25-8e337a4939e0
 description: Элемент FirstDayOfWeek указывает первый день недели.
-ms.openlocfilehash: 99858d17213d077ce7c51ad1c746588f2f3939a7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1b4aee8e1ce2548cd6b0047623b0bcda47ad316b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762602"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530974"
 ---
 # <a name="firstdayofweek"></a>FirstDayOfWeek
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762602"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19762602"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

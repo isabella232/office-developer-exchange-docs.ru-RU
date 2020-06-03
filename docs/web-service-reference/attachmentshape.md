@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 734914b5-3a16-4744-90a5-741fd30c4676
 description: Элемент Аттачментшапе определяет дополнительные свойства, возвращаемые в ответе на запрос GetAttachment.
-ms.openlocfilehash: dc6769faa5fd28ce31b796f86c507aec54abff7a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e70fbaad0f649c5afdc151b777efef0f8927ba1c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761513"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529667"
 ---
 # <a name="attachmentshape"></a>аттачментшапе
 
@@ -43,7 +43,7 @@ ms.locfileid: "19761513"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19761513"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 337b89ef-e1b7-45ed-92f3-8abe4200e4c7
 description: Операция SendItem используется для отправки сообщений электронной почты, размещенных в хранилище Exchange.
-ms.openlocfilehash: 780778b1599d0d5e5f4b6e5b58b67773bbe18cda
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9136379e50723211fe5a483c7f113da4fa125fc1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835336"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530340"
 ---
 # <a name="senditem-operation"></a>Операция SendItem
 
@@ -25,7 +25,7 @@ ms.locfileid: "19835336"
   
 ## <a name="senditem-e-mail-message-request-example"></a>Пример запроса SendItem (сообщение электронной почты)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показано, как отправить сообщение электронной почты.
   
@@ -35,9 +35,9 @@ ms.locfileid: "19835336"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SendItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    <SendItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
               SaveItemToFolder="true">
       <ItemIds>
         <t:ItemId Id="AAAtAEF=" ChangeKey="CQAAABY+T" />
@@ -47,7 +47,7 @@ ms.locfileid: "19835336"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
   
@@ -63,7 +63,7 @@ ms.locfileid: "19835336"
     
 ## <a name="successful-senditem-e-mail-message-response"></a>Успешный ответ SendItem (сообщение электронной почты)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ SendItem.
   
@@ -76,12 +76,12 @@ ms.locfileid: "19835336"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SendItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SendItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SendItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -106,7 +106,7 @@ ms.locfileid: "19835336"
     
 - [респонсекоде](responsecode.md)
     
-### <a name="comments"></a>Comments
+### <a name="comments"></a>Комментарии
 
 Представитель, пытающийся отправить сообщение электронной почты, размещенное в папке "Черновики" основного приложения с параметром SendAndSaveCopy, чтобы сохранить копию в папке "Отправленные", не будет автоматически перемещать копию отправленного элемента в папку "Отправленные". Элемент останется в папке "Черновики" основного приложения. Чтобы устранить эту ошибку, необходимо указать почтовый ящик участника в элементе [дистингуишедфолдерид](distinguishedfolderid.md) . 
   
@@ -114,7 +114,7 @@ ms.locfileid: "19835336"
   
 ## <a name="invalid-senditem-e-mail-message-request-example"></a>Недопустимый пример запроса SendItem (сообщение электронной почты)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере кода показан пример запроса с недопустимым идентификатором.
   
@@ -124,9 +124,9 @@ ms.locfileid: "19835336"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SendItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    <SendItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
               SaveItemToFolder="true">
       <ItemIds>
         <t:ItemId Id="%BadItemId%" ChangeKey="CQAAABYAAA" />
@@ -138,7 +138,7 @@ ms.locfileid: "19835336"
 
 ## <a name="senditem-e-mail-message-error-response"></a>Сообщение об ошибке SendItem (сообщение электронной почты)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса SendItem, который содержит недопустимый идентификатор.
   
@@ -151,12 +151,12 @@ ms.locfileid: "19835336"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SendItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SendItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SendItemResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>

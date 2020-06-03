@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: fd87e9b7-c231-44fa-9f5b-19ae96cda5cc
 description: Элемент Субскрибереспонсе определяет ответ на запрос Subscribe.
-ms.openlocfilehash: 9c4fb0e9282acd2dfd8dcb66669815edcbd69ff2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1f7079694c873aacbf44b1030e495cbe2f48d163
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835615"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530953"
 ---
 # <a name="subscriberesponse"></a>субскрибереспонсе
 
@@ -38,7 +38,7 @@ ms.locfileid: "19835615"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19835615"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |Верно.  <br/> |

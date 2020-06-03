@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7a1d3f04-4ada-4a31-845e-f1f1ff6e136f
 description: Элемент Глобалкатегориес содержит список категорий для всех элементов бесед в почтовом ящике.
-ms.openlocfilehash: 5cedea821b14264f15026c2d297c3017534ca354
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d608328f8adae56e140affdb36b38605d6f89486
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833711"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530122"
 ---
 # <a name="globalcategories"></a>глобалкатегориес
 
@@ -44,7 +44,7 @@ ms.locfileid: "19833711"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19833711"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -84,5 +84,5 @@ ms.locfileid: "19833711"
 [Операция ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

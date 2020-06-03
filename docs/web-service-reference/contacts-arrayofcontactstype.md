@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a2c1e833-5f8c-438d-bad7-bb5dcc29ca9e
 description: Элемент Contacts указывает массив контактов.
-ms.openlocfilehash: 01aab90d28c5d9706a45a2e42be1e60221394e80
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eeb202f41fcf5ec7aad12a8a2b8e6dd539b3dba4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761734"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529443"
 ---
 # <a name="contacts-arrayofcontactstype"></a>Contacts (Аррайофконтактстипе)
 
@@ -32,7 +32,7 @@ ms.locfileid: "19761734"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19761734"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

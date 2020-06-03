@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 572f8b40-dfa8-47bc-b0c1-e1a7138506fd
 description: Элемент Моведевент представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую.
-ms.openlocfilehash: 07f9c02ea194187a9fdfb1e27b19eb311392f51f
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 1f8fb57dba7edb769fe0dd658d89c032dccf8c5f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353261"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530410"
 ---
 # <a name="movedevent"></a>моведевент
 
@@ -54,7 +54,7 @@ ms.locfileid: "21353261"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -83,7 +83,7 @@ ms.locfileid: "21353261"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

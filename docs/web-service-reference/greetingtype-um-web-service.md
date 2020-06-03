@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 55bdf809-054c-4653-b76b-9fb36e010117
 description: Элемент Гритингтипе определяет тип приветствия для использования в операции PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: bbe2854abcaf99838678691e6d5d084c1fe8c59c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4ade61fc26d963826a1d5e515c93ab6ef6830fd8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833754"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530108"
 ---
 # <a name="greetingtype-um-web-service"></a>Гритингтипе (веб-служба единой системы обмена сообщениями)
 
@@ -37,11 +37,11 @@ ms.locfileid: "19833754"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19833754"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

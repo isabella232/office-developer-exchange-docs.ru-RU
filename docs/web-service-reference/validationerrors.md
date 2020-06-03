@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 009526aa-22e7-4f5c-be88-079175aa9122
 description: Элемент Валидатионеррорс представляет массив ошибок проверки правил для каждого поля правила, которое содержит ошибку.
-ms.openlocfilehash: c95c8057ad2d16a314d33e3738553b495355fd76
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0861425b04e03a3e2e54a47a5027d0a11264392d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840449"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530277"
 ---
 # <a name="validationerrors"></a>валидатионеррорс
 
@@ -36,13 +36,13 @@ ms.locfileid: "19840449"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ошибка](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action  <br/> |
+|[Error](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19840449"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

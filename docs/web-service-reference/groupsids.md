@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ebb00653-83f0-4080-a902-c38df6719800
 description: Элемент Граупсидс представляет коллекцию идентификаторов безопасности объектов группы службы каталогов Active Directory.
-ms.openlocfilehash: c24c8ea3c3b7d37f41986997ed924c951b4a48ef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 40f36176fcaa3e2160237f269fb2dc3b12bf8af2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833790"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530066"
 ---
 # <a name="groupsids"></a>граупсидс
 
@@ -36,7 +36,7 @@ ms.locfileid: "19833790"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19833790"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

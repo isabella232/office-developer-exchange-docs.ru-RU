@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: af0d7435-fef6-4f0d-bd22-00e3fa576315
 description: Элемент manifest содержит файл манифеста приложения в кодировке Base64.
-ms.openlocfilehash: 7388e40a96a082666519d1c67af5b218b2b9ab01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: faac517bf8a8f03c6ae8abffddaf10421eed1699
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834343"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530539"
 ---
 # <a name="manifest"></a>Манифест
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834343"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Манифесты](manifests.md)[InstallAPP](installapp.md) | [ClientExtension](clientextension.md) клиентекстенсион | 
+[Манифесты](manifests.md)  |  [InstallAPP](installapp.md)  |  [Клиентекстенсион](clientextension.md)
   
 ## <a name="text-value"></a>Текстовое значение
 

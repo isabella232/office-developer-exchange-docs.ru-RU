@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 949871f7-0d10-498e-84aa-f0652f1193be
 description: Элемент GetSearchableMailboxes содержит запрос на получение списка почтовых ящиков, у которых у клиента есть разрешение на выполнение поиска обнаружения электронных данных.
-ms.openlocfilehash: 8cce18bb62d3840cb9883d20a380cc4f2193303e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a327f8766e53e9f1fae6928179d5a4b8e3d044a8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762906"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530192"
 ---
 # <a name="getsearchablemailboxes"></a>GetSearchableMailboxes
 
@@ -33,11 +33,11 @@ ms.locfileid: "19762906"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[SearchFilter](searchfilter.md) | [експандграупмембершип](expandgroupmembership.md)
+[SearchFilter](searchfilter.md)  |  [Експандграупмембершип](expandgroupmembership.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19762906"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

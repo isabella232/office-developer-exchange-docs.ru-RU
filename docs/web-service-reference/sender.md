@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 26d1a46e-e1d3-44b8-a02d-fa6f83aa5cda
 description: Элемент sender определяет отправителя элемента.
-ms.openlocfilehash: a7b06543fadd7cf7ae05f7ae8f86122138e11076
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f056fefdd5c5832d4b5bf20416e07e376f6a03de
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835323"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530581"
 ---
 # <a name="sender"></a>Sender
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835323"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19835323"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

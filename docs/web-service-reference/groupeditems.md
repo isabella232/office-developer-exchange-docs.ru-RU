@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 53170df4-4272-4b37-b23f-cd8e2d4a7396
 description: Элемент Граупедитемс представляет коллекцию элементов, которые являются результатом вызова сгруппированной операции FindItem.
-ms.openlocfilehash: f8aed9b78fc54307f44b96a45e5c31a4cc76ab50
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0ee1ca3c6d0cf98e2daefa60a1cb1fd096cda478
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833756"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530813"
 ---
 # <a name="groupeditems"></a>граупедитемс
 
@@ -31,7 +31,7 @@ ms.locfileid: "19833756"
   
 [Рутфолдер (Финдитемреспонсемессаже)](rootfolder-finditemresponsemessage.md)
   
-[Группы](groups.md)
+[Groups](groups.md)
   
 [граупедитемс](groupeditems.md)
   
@@ -49,7 +49,7 @@ ms.locfileid: "19833756"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19833756"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Группы](groups.md) <br/> |Содержит коллекцию групп, найденных с помощью критериев поиска и объединения, которые определены в запросе [операции FindItem](finditem-operation.md) .  <br/> |
+|[Groups](groups.md) <br/> |Содержит коллекцию групп, найденных с помощью критериев поиска и объединения, которые определены в запросе [операции FindItem](finditem-operation.md) .  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -72,7 +72,7 @@ ms.locfileid: "19833756"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -84,5 +84,5 @@ ms.locfileid: "19833756"
 [Операция FindItem](finditem-operation.md)
 
 
-[Поиск элементов](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+[Поиск элементов](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

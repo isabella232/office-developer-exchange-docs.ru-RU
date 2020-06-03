@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: a5a9563f-e761-4658-9957-0e13566f6a35
 description: Элемент InternetMessageId представляет идентификатор сообщения Интернета для элемента.
-ms.openlocfilehash: 8c6fa7bbeab45d009c1303fcff329b8b52c5e8d6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ef4d62103052336c531f2d41e37a7bf4afc9103
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833959"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530024"
 ---
 # <a name="internetmessageid"></a>InternetMessageId
 
@@ -34,11 +34,11 @@ ms.locfileid: "19833959"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19833959"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

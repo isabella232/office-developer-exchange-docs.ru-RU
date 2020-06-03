@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c9070936-0930-438e-839c-91127256a6c8
 description: Элемент Notification содержит сведения о подписке и событиях, произошедших с момента последнего уведомления.
-ms.openlocfilehash: 942ec18521fc484a7a3aa1385fb54f480ce9d11f
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: c4a5206c14985ec46cf40162a9ce4eaec68242ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354353"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530389"
 ---
 # <a name="notification"></a>Уведомление
 
@@ -103,7 +103,7 @@ ms.locfileid: "21354353"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -140,7 +140,7 @@ ms.locfileid: "21354353"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

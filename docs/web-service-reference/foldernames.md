@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6cbe4083-5705-4695-a54e-8dab3e472662
 description: Элемент Фолдернамес содержит массив именованных управляемых папок для добавления к почтовому ящику.
-ms.openlocfilehash: 819b3c2df1cfcae3a5d4a48539e369a00b1f7229
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 00cb1a81f420469033ccbc745313d2719b155aff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762626"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530988"
 ---
 # <a name="foldernames"></a>фолдернамес
 
@@ -40,7 +40,7 @@ ms.locfileid: "19762626"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19762626"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -74,7 +74,7 @@ ms.locfileid: "19762626"
 [Операция FindFolder](findfolder-operation.md)
 
 
-[Поиск папок](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Поиск папок](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
   
-[Добавление управляемых папок](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Добавление управляемых папок](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

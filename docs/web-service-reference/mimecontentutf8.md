@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 31544c95-5231-4b57-958c-2a689464d29b
 description: Элемент MimeContentUTF8 содержит MIME-поток в кодировке UTF-8 объекта, представленный в формате base64Binary и поддерживающий международную связь с адресами электронной почты и [RFC6530].
-ms.openlocfilehash: 47599b6634738fd488e5b020f69e36d5fcf550a6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a9214bda876c1aadac5b026b3adf38faea8ef17a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834466"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530431"
 ---
 # <a name="mimecontentutf8"></a>MimeContentUTF8
 
@@ -36,11 +36,11 @@ ms.locfileid: "19834466"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Календаритем](calendaritem.md) | [Contact](contact.md) | [Item](item.md) | [Message](message-ex15websvcsotherref.md)[DistributionList](distributionlist.md) |  | [Task](task.md) [MeetingCancellation](meetingcancellation.md) | [RemoveItem](removeitem.md)[MeetingRequest](meetingrequest.md)[MeetingResponse](meetingresponse.md)[MeetingMessage](meetingmessage.md)дистрибутионлист Item | митингканцеллатион митингмессаже свойство meetingrequest | митингреспонсе Message RemoveItem Task |  | 
+[Календаритем](calendaritem.md)  |  [Contact (контакт](contact.md)  |  ) [Дистрибутионлист](distributionlist.md)  |  [Элемент](item.md)  |  [Митингканцеллатион](meetingcancellation.md)  |  [Митингмессаже](meetingmessage.md)  |  [Свойство meetingrequest](meetingrequest.md)  |  [Митингреспонсе](meetingresponse.md)  |  [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [RemoveItem](removeitem.md)  |  [Task (задача](task.md) )
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834466"
     
 2. Поток MIME — это кодировка UTF8 текста сообщения для элемента **MimeContentUTF8** или кодировка ASCII текста сообщения для элемента [сохранитьmimecontent](mimecontent.md) . 
     
-3. XML-документ — это всегда зашифрованный поток ASCII потока MIME, в котором символы, такие как '\<', которые являются осмысленными для XML, скрыты из синтаксических анализаторов XML.
+3. XML-документ — это всегда зашифрованный поток ASCII потока MIME, в котором символы, такие как ' \< ', которые являются осмысленными для XML, скрыты из синтаксических анализаторов XML.
     
 Каждый уровень не зависит от уровня, который предшествует ему.
   
@@ -70,7 +70,7 @@ ms.locfileid: "19834466"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8c69db7b-54b5-4ae2-abca-4d6e0937a790
 description: Элемент Сетфолдерфиелд представляет обновление, которое задает значение для одного свойства папки в операции операцию UpdateFolder.
-ms.openlocfilehash: ed5c055c697865d5eb728d269c6f4c7ce60f4b5c
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: ab75a3862801b9a7b3369d9a4116c653b461781c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353289"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530319"
 ---
 # <a name="setfolderfield"></a>сетфолдерфиелд
 
@@ -137,7 +137,7 @@ ms.locfileid: "21353289"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -168,7 +168,7 @@ ms.locfileid: "21353289"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

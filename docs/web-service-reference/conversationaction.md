@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9ecea41a-3860-4569-8e9b-284b451fc4e0
 description: Элемент Конверсатионактион содержит одно действие, которое будет применено к одной беседе.
-ms.openlocfilehash: 45cd6df3aba94062bd5aa0ddf9367e8cf118dc6b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cb7d874f787b105d5185749dfaf1e940d2411d89
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761811"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529254"
 ---
 # <a name="conversationaction"></a>конверсатионактион
 
@@ -51,7 +51,7 @@ ms.locfileid: "19761811"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -97,7 +97,7 @@ ms.locfileid: "19761811"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 584cc338-9d98-44bc-a89d-f8636bbb6c91
 description: Элемент GroupType (Федератеддиректориграуптипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: 0b867a8e3aab94ab606afc434f4c23c962463d71
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4d47d0f696474804f12d9e38600c1cd6daf9ffa9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833787"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530784"
 ---
 # <a name="grouptype-federateddirectorygrouptype"></a>GroupType (Федератеддиректориграуптипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19833787"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

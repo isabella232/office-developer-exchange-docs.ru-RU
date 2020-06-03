@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2866b1ec-64ba-4d18-9152-a09568d45aa7
 description: Элемент DisplayName (Мастермаилбокстипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: b90906f5bdd14f78110fbb26edde880659c02d22
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2026ad1cde13b11af9bcc2d8c81da5c8b23344e3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762159"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530721"
 ---
 # <a name="displayname-mastermailboxtype"></a>DisplayName (Мастермаилбокстипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19762159"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

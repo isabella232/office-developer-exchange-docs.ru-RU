@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12
 description: Элемент периодичности содержит шаблон повторения для элементов календаря и приглашений на собрание.
-ms.openlocfilehash: d9c6009e11eb5b66cdd749b8e085935060f99ab7
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: d00445c75fb35c3bb99eeed06e30cb1cf2883597
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353352"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529891"
 ---
 # <a name="recurrence-recurrencetype"></a>Повторение (RecurrenceType)
 
@@ -157,7 +157,7 @@ ms.locfileid: "21353352"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -190,7 +190,7 @@ ms.locfileid: "21353352"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

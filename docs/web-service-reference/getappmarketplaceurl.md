@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4cb08a3b-74aa-4506-abda-c000ae97f981
 description: Элемент GetAppMarketplaceUrl указывает запрос на получение URL-адреса для приложения.
-ms.openlocfilehash: c42c44ae391c8990c055f2d5f53589e690dcf612
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1252df9833aa44ae6406dd5e19140aec02369ee5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762693"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530862"
 ---
 # <a name="getappmarketplaceurl"></a>GetAppMarketplaceUrl
 
@@ -30,11 +30,11 @@ ms.locfileid: "19762693"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Апиверсионсуппортед](apiversionsupported.md) | [счемаверсионсуппортед](schemaversionsupported.md)
+[Апиверсионсуппортед](apiversionsupported.md)  |  [Счемаверсионсуппортед](schemaversionsupported.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19762693"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |true  <br/> |

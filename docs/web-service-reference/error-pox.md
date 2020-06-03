@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 91c63b62-ab68-4c32-a2f7-5a87c188335b
 description: Элемент Error содержит ответ об ошибке автообнаружения.
-ms.openlocfilehash: 3135a352365fe3000ce2d202ad78452d5c8ccc7f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1a1a3e83898674e605921cb75371036a8a561a95
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762376"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530651"
 ---
 # <a name="error-pox"></a>Ошибка (POX)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 055cdee8-3c7d-47db-9f27-740f4a674729
 description: Элемент DeleteItem определяет запрос на удаление элемента из почтового ящика в хранилище Exchange.
-ms.openlocfilehash: de64787750c88c8a47bb69daddc0a1d2ebe8bde9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ed13ee32b487f49740aed80e8705257d3e2e6938
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762048"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529205"
 ---
 # <a name="deleteitem"></a>DeleteItem
 
@@ -88,7 +88,7 @@ ms.locfileid: "19762048"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: e7cd470d-5861-41e7-9e66-73ef7a59700b
 description: Элемент Жетусерсеттингсреспонсе представляет ответ на запрос операции GetUserSettings (SOAP).
-ms.openlocfilehash: 24dbfb1582f628fd0130aa82ea5f1beedd31b156
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a41a195a003789ddaef81f844e47aad689df0937
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833705"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530150"
 ---
 # <a name="getusersettingsresponse-soap"></a>Жетусерсеттингсреспонсе (SOAP)
 
@@ -35,7 +35,7 @@ ms.locfileid: "19833705"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -47,17 +47,17 @@ ms.locfileid: "19833705"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

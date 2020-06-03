@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: bc632c85-ec74-4a00-baec-df5973e032fa
 description: Элемент EncryptionMethod представляет криптографический метод, используемый для протоколов POP, IMAP и SMTP.
-ms.openlocfilehash: 5062d357a54019a576e391e1be4d4e8dfcc6e38d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 26236d9b08eae1bcabfd9aac59f5b01714ba9841
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762332"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530658"
 ---
 # <a name="encryptionmethod-soap"></a>EncryptionMethod (SOAP)
 
@@ -31,11 +31,11 @@ ms.locfileid: "19762332"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -51,7 +51,7 @@ ms.locfileid: "19762332"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

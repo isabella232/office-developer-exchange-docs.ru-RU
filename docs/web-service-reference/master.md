@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 51116adc-1f59-429b-b1a7-e9ada92c366f
 description: Элемент Master предназначен только для внутреннего использования.
-ms.openlocfilehash: df6746b07d50fb2dfc2460991f582600fac59b63
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 38d33770d7b2222d4b852521a680eec185f54321
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834359"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530525"
 ---
 # <a name="master"></a>Master
 
@@ -25,11 +25,11 @@ ms.locfileid: "19834359"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 22244afb-99ec-41b4-8f73-3fbccd56d1ab
 description: Элемент MarkAllItemsAsRead содержит запрос, помечающий все элементы в папке как прочтенные.
-ms.openlocfilehash: 9d7eb8eb7194cb5d77e909dc08abfb70e2385d56
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0338b2a1eed503b7e8fb0ec8b4a8ebcf12b6dbd6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834346"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530890"
 ---
 # <a name="markallitemsasread"></a>MarkAllItemsAsRead
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834346"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Реадфлаг](readflag.md) | [SuppressReadReceipts](suppressreadreceipts.md)суппрессреадрецеиптс | [фолдеридс](folderids.md)
+[Реадфлаг](readflag.md)  |  [Суппрессреадрецеиптс](suppressreadreceipts.md)  |  [Фолдеридс](folderids.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834346"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

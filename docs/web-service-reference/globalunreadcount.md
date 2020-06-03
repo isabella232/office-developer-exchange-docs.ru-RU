@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5e5ccf3e-2f95-4bf9-b915-8b7e59e807a5
 description: Элемент Глобалунреадкаунт содержит количество непрочитанных элементов беседы в почтовом ящике.
-ms.openlocfilehash: fe001b70633198c0c1351e3c11c9542ed556a938
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 976067078908523936769b2856712e3e6908f0c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833743"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530115"
 ---
 # <a name="globalunreadcount"></a>глобалунреадкаунт
 
@@ -42,11 +42,11 @@ ms.locfileid: "19833743"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19833743"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -80,5 +80,5 @@ ms.locfileid: "19833743"
 [Операция ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

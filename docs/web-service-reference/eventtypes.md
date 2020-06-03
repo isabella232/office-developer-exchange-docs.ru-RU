@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 29ded9e5-f191-4aa3-bc3e-500de2fc8818
 description: Элемент Евенттипес содержит коллекцию типов уведомлений о событиях, которые используются для создания подписки.
-ms.openlocfilehash: 7ea783dc0bf73abf992616b1f86c7621c5b36fc8
-ms.sourcegitcommit: 25cbbc6707e4ec0621c5c46baf7fe49be42d3297
+ms.openlocfilehash: 45ce1ed0699c8140029ae3fb7f667a5132f4731e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2018
-ms.locfileid: "25440839"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530630"
 ---
 # <a name="eventtypes"></a>евенттипес
 
@@ -36,7 +36,7 @@ ms.locfileid: "25440839"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "25440839"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

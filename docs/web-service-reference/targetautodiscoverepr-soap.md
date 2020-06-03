@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fdb9cc7a-cf0a-431b-9f6f-5f1db1792db7
 description: Элемент Таржетаутодисковерепр представляет свойство Таржетаутодисковерепр. Элемент Таржетаутодисковерепр предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: 0b28444727e21a98925b6d1062bcbbac62c68981
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f8609f61021d5701f7a8fa2590a85824caf296c6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840134"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530291"
 ---
 # <a name="targetautodiscoverepr-soap"></a>Таржетаутодисковерепр (SOAP)
 
@@ -29,11 +29,11 @@ ms.locfileid: "19840134"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19840134"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

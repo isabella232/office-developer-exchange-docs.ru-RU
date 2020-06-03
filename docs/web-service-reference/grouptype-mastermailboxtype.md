@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a4726e5-bace-4399-8b36-a0de1e35d3bc
 description: Элемент GroupType (Мастермаилбокстипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: 0f52d31f7fee94b492924b67215e970573850705
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a1ddb85e4aaf762a4148ca2ecb139b69b7d676fe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833785"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530059"
 ---
 # <a name="grouptype-mastermailboxtype"></a>GroupType (Мастермаилбокстипе)
 
@@ -25,11 +25,11 @@ ms.locfileid: "19833785"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

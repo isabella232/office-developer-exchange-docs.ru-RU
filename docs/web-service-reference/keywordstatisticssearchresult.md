@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d0278642-2b15-4605-974e-325b829a0528
 description: Элемент Кэйвордстатистикссеарчресулт содержит один результат поиска ключевых слов.
-ms.openlocfilehash: 39aa873dfea15e6df5ac42a804931e7199cff541
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f433640aecb10a01c66f890bb30b7a120df3298f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834195"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530038"
 ---
 # <a name="keywordstatisticssearchresult"></a>кэйвордстатистикссеарчресулт
 
@@ -36,11 +36,11 @@ ms.locfileid: "19834195"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Ключевое слово](keyword.md) | [итемхитс](itemhits.md) | [size (Long)](size-long.md)
+[Ключевое слово](keyword.md)  |  [Итемхитс](itemhits.md)  |  [Размер (длинный)](size-long.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19834195"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: ca48a4b3-5006-4bb7-973e-d9137ce67e16
 description: Элемент Response содержит сведения об отклике операции Жетфедератионинформатион (SOAP).
-ms.openlocfilehash: 946cba56d7503a0e20ec59640f4f1258c00a844e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 0b9a2c518b968faa6ef86b7c1f544eac40f8e5c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835171"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530588"
 ---
 # <a name="response-getfederationinformation-soap"></a>Отклик (Жетфедератионинформатион) (SOAP)
 
@@ -36,7 +36,7 @@ ms.locfileid: "19835171"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -55,13 +55,13 @@ ms.locfileid: "19835171"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

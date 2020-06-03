@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 86463d66-fe47-4a19-a81b-e24841e816ab
 description: Элемент Делетеитемреспонсе определяет ответ на один запрос DeleteItem.
-ms.openlocfilehash: 8a35033c744fbcb0829d2c79a8d79557f77137bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6aad30077e8867486012dd34bb1def97accffc2b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762045"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529198"
 ---
 # <a name="deleteitemresponse"></a>делетеитемреспонсе
 
@@ -36,7 +36,7 @@ ms.locfileid: "19762045"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19762045"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

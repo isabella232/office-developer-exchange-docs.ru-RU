@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07d3e6e8-d549-4ad7-baa4-bc531dfb7dd2
 description: Сведения о функциях API веб-служб EWS и веб-службах, доступных в каждой версии Exchange и управляемом API EWS.
-ms.openlocfilehash: d19ab062c8d418e373e8268b1ab039e5436e71bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f15cf4784a59c18d1bb9ae20af378baed084acc3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761250"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529849"
 ---
 # <a name="web-service-api-feature-availability-in-exchange-and-the-ews-managed-api"></a>Доступность функции веб-службы API в Exchange и в Управляемом API EWS
 
@@ -19,7 +19,7 @@ ms.locfileid: "19761250"
   
 Клиентские приложения Exchange часто нацелены на множество версий Exchange. По этой причине может потребоваться разрабатывать приложение, чтобы можно было включать и отключать [клиентские компоненты EWS](ews-client-design-overview-for-exchange.md#EWSFeatures) в зависимости от версии Exchange, в которой размещается почтовый ящик пользователя. В этой статье представлены сведения о возможностях API служб в различных версиях Exchange и управляемом API EWS. Используйте эти сведения, чтобы разрабатывать приложение для широкого применения к клиентам с несколькими версиями Exchange. 
   
-Для получения подробных сведений о различиях между версиями Exchange просмотрите файлы схемы EWS и связанную [справочную документацию](http://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx).
+Для получения подробных сведений о различиях между версиями Exchange просмотрите файлы схемы EWS и связанную [справочную документацию](https://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx).
   
 ## <a name="api-features-by-exchange-version"></a>Функции API по версии Exchange
 <a name="bk_apifeatures"> </a>
@@ -65,19 +65,19 @@ API веб-службы Exchange, в том числе EWS и автообнар
 |[Поиск (магазин)](search-and-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |[Синхронизация](mailbox-synchronization-and-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |[Единая база контактов](people-and-contacts-in-ews-in-exchange.md) <br/> |X  <br/> ||X  <br/> ||||||
-|[Веб-служба единой системы обмена сообщениями](http://msdn.microsoft.com/library/83afea8a-c716-41df-9eb2-e1000357afb6%28Office.15%29.aspx) <br/> |X  <br/> ||X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
+|[Веб-служба единой системы обмена сообщениями](https://msdn.microsoft.com/library/83afea8a-c716-41df-9eb2-e1000357afb6%28Office.15%29.aspx) <br/> |X  <br/> ||X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |Единая система обмена сообщениями (на основе EWS)  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |||
 |[Объекты конфигурации пользователя](persistent-application-settings-in-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |||
 |[Фотографии пользователя](how-to-get-user-photos-by-using-ews-in-exchange.md) <br/> |X  <br/> ||X  <br/> ||||||
    
-Дополнительные сведения о функциях веб-служб, доступных в различных версиях Exchange, можно найти, прочитав [операции EWS](http://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx), [службу автообнаружения](http://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)и [методы ExchangeService](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice_methods%28v=exchg.80%29.aspx).
+Дополнительные сведения о функциях веб-служб, доступных в различных версиях Exchange, можно найти, прочитав [операции EWS](https://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx), [службу автообнаружения](https://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)и [методы ExchangeService](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice_methods%28v=exchg.80%29.aspx).
   
 ## <a name="to-learn-more"></a>Дополнительные сведения
 <a name="bk_apifeatures"> </a>
 
 Если вы хотите глубже изучить конкретные различия между версиями Exchange, выполните одно из следующих действий.
   
-- Изучите [схему EWS](http://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx) , чтобы более подробно изучить различия между каждой версией EWS. 
+- Изучите [схему EWS](https://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx) , чтобы более подробно изучить различия между каждой версией EWS. 
     
 - Скачайте [евседитор](http://ewseditor.codeplex.com/). Вы можете использовать Евседитор, чтобы указать разные целевые версии схемы и отправляют запросы на основе целевой версии схемы.
     

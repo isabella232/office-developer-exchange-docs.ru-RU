@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 23279750-131b-4e1a-b7d1-be235c4e0891
 description: Элемент Фолдерчанже представляет коллекцию изменений, которые необходимо выполнить для одной папки.
-ms.openlocfilehash: f25defa9974f7b5dd0c683c7657983741890d45d
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: e4a025bef100fdd478be545b6448b15886e47c60
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354332"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530241"
 ---
 # <a name="folderchange"></a>FolderChange
 
@@ -49,7 +49,7 @@ ms.locfileid: "21354332"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -73,7 +73,7 @@ ms.locfileid: "21354332"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

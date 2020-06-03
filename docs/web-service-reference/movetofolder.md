@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 991673b9-b627-4848-bfba-59a187b8575f
 description: Элемент MoveToFolder указывает идентификатор папки, в которую можно переместить элементы электронной почты.
-ms.openlocfilehash: 058f008b348d49c932bf334dd3379f02d06154e9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e323b2ac5390855b3db0b5495af667cdf2da5596
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834494"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530014"
 ---
 # <a name="movetofolder"></a>MoveToFolder
 
@@ -37,7 +37,7 @@ ms.locfileid: "19834494"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19834494"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

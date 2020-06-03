@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 64d86c24-07b8-448d-ad37-47f104777df3
 description: Элемент Гивеннамес указывает массив заданных значений имени и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: dc86517a06dab0f74350c71488f68bb06e2272bd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c76d69344b59fb56377a13b9ea4a588acc382013
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833709"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530129"
 ---
 # <a name="givennames"></a>гивеннамес
 
@@ -32,7 +32,7 @@ ms.locfileid: "19833709"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "19833709"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

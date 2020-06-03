@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 0e9fa6b6-7991-4dc1-a59a-48e5f8e041e4
 description: Элемент Редиректаддр указывает адрес электронной почты, который будет использоваться для последующего запроса автообнаружения.
-ms.openlocfilehash: fe15054b9962fc2decf52ac3c42536e36358948a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6bff28001851f421b4c7429770185401f2f0a743
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835020"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529877"
 ---
 # <a name="redirectaddr-pox"></a>Редиректаддр (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19835020"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

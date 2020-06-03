@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f9701409-b620-4afe-b9ee-4c1e95507af7
 description: Элемент ExtendedProperty определяет расширенные свойства MAPI для папок и элементов.
-ms.openlocfilehash: 9a6c44e953cab4900e4b75eb42bdf4d8633e58f9
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 99ede097d803d6fbf534cde0e77c08cec054bfa3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353730"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530609"
 ---
 # <a name="extendedproperty"></a>ExtendedProperty
 
@@ -45,14 +45,14 @@ ms.locfileid: "21353730"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[екстендедфиелдури](extendedfielduri.md) <br/> |Указывает расширенное свойство MAPI, которое необходимо получить, задать или создать.  <br/> |
-|[Значения](values.md) <br/> |Содержит коллекцию значений для многозначного расширенного свойства MAPI.  <br/> |
+|[Values](values.md) <br/> |Содержит коллекцию значений для многозначного расширенного свойства MAPI.  <br/> |
 |[Значение](value.md) <br/> |Содержит значение расширенного свойства MAPI с одним значением.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
@@ -84,7 +84,7 @@ ms.locfileid: "21353730"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

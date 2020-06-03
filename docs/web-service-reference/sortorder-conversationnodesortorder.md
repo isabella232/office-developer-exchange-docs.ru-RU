@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9c4295c-8089-4533-b92f-2051eae9afeb
 description: Элемент SortOrder указывает порядок сортировки, используемый для результатов запроса GetConversationItems.
-ms.openlocfilehash: 397aead62d32e72f991af783bff02e79a6e4b0fb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 69d362b9f769749bcc9692825b64ff486e8b60a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835520"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530967"
 ---
 # <a name="sortorder-conversationnodesortorder"></a>SortOrder (Конверсатионнодесортордер)
 
@@ -30,11 +30,11 @@ ms.locfileid: "19835520"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19835520"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

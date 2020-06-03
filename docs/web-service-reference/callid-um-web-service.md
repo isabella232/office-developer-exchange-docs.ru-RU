@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 2e044109-8bf3-488c-a654-459ac62fa1e7
 description: Элемент CallId содержит значение, представляющее идентификатор вызова в запросе или отсоединении веб-службы единой системы обмена сообщениями в GetCallInfo (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: 49690f41b9a002b05c7c9b1a1240073c7230ab92
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5d5f596d4a98cbfb4b53be04278dae2305fc10c3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761662"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529457"
 ---
 # <a name="callid-um-web-service"></a>CallId (веб-служба единой системы обмена сообщениями)
 
@@ -41,11 +41,11 @@ ms.locfileid: "19761662"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19761662"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

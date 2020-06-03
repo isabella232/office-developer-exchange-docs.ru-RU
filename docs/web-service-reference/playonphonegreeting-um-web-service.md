@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: 43eda596-3609-4e1b-8502-1db2636535cf
 description: Элемент PlayOnPhoneGreeting определяет запрос на проигрывание приветствия единой системы обмена сообщениями на телефоне.
-ms.openlocfilehash: c30140fc60b9e902517b4cc18deb9b61efa61e0c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 197e4ba671e1711b73b1e7c239339db589357581
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834836"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529926"
 ---
 # <a name="playonphonegreeting-um-web-service"></a>PlayOnPhoneGreeting (веб-служба единой системы обмена сообщениями)
 
@@ -38,7 +38,7 @@ ms.locfileid: "19834836"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -49,17 +49,17 @@ ms.locfileid: "19834836"
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Нет.
+Отсутствуют.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4e05168-d36b-4740-a526-4b7da53553c1
 description: Элемент BccRecipients представляет коллекцию получателей скрытой копии (СК) сообщения электронной почты.
-ms.openlocfilehash: 858fe74c32cb7d1ed624888c06bba4ffe09d489e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 96070415c6d92a893f6c560884d9d191c7d5f15b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761553"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529506"
 ---
 # <a name="bccrecipients"></a>BccRecipients
 
@@ -36,7 +36,7 @@ ms.locfileid: "19761553"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -72,7 +72,7 @@ ms.locfileid: "19761553"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

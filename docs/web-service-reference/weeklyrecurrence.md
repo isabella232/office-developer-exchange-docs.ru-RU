@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 69c41dd5-597c-45bc-be3f-e2f2b5615aa3
 description: Элемент Виклирекурренце описывает еженедельный шаблон повторения.
-ms.openlocfilehash: 78bc76dd63c6737786df02f336217dc8de9a3a67
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5006238590c4cd7556a92fb1fbe13292383412b8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840505"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530368"
 ---
 # <a name="weeklyrecurrence"></a>виклирекурренце
 
@@ -38,7 +38,7 @@ ms.locfileid: "19840505"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -69,7 +69,7 @@ ms.locfileid: "19840505"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

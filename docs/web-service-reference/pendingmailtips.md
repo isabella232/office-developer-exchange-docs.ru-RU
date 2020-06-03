@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0cd70eea-8d36-4b1b-bf80-5edf359e7ba7
 description: Элемент Пендингмаилтипс указывает на то, что советы по использованию электронной почты в этом элементе невозможно оценить до истечения времени ожидания обработки на сервере.
-ms.openlocfilehash: 73d597f6534ea29f7d26d6526c48631251521ae5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 715d68b367c3b7251c7406c10c1ec52dcd992a59
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834704"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529968"
 ---
 # <a name="pendingmailtips"></a>пендингмаилтипс
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834704"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19834704"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

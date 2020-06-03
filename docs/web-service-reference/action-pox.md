@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: a3462c6b-453c-462a-830d-f29ee4a2babb
 description: Элемент Action предоставляет сведения, которые используются для определения того, требуется ли другой запрос автообнаружения для возврата сведений о конфигурации пользователя.
-ms.openlocfilehash: 118bb59f2c929e3c74683dbf3f073da34d67a3e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f6d542b908948d09020b850b60ca1bdb025dd342
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762499"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529695"
 ---
 # <a name="action-pox"></a>Action (POX)
 
@@ -38,11 +38,11 @@ ms.locfileid: "19762499"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

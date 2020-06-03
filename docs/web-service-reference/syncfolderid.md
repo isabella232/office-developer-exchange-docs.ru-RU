@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3645fa03-236d-4e5f-b8b9-5d98f7f35fa2
 description: Элемент Синкфолдерид представляет папку, содержащую синхронизируемые элементы.
-ms.openlocfilehash: c90a20095ca4706f0c6edae3e98eaadd6024d817
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 35b66579116a00d27df722629ff980471ca0272e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354402"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530298"
 ---
 # <a name="syncfolderid"></a>синкфолдерид
 
@@ -43,7 +43,7 @@ ms.locfileid: "21354402"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -67,7 +67,7 @@ ms.locfileid: "21354402"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

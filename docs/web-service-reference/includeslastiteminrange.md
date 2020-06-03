@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e7d6c7d3-548e-48b0-a313-bfef81e4832a
 description: Элемент Инклудесластитеминранже указывает, включен ли последний элемент для синхронизации в ответ.
-ms.openlocfilehash: b4786c5aa81e9b4fee98e7ed4238215ff327443e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bc526a38c7320609915864507f715890bedd0c9d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833906"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530052"
 ---
 # <a name="includeslastiteminrange"></a>инклудесластитеминранже
 
@@ -42,11 +42,11 @@ ms.locfileid: "19833906"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19833906"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

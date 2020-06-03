@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 582e9caa-d2bc-4be1-a460-739294f9ef18
 description: Элемент Респонсекоде предоставляет сведения о причине неправильного получателя.
-ms.openlocfilehash: 3bff99dd1ac6603ce31d5ceb074e73ef48190bb2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d78de64de7725007ec51a55dad13d1cc892a25e6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835186"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529723"
 ---
 # <a name="responsecode-invalidrecipientresponsecodetype"></a>Респонсекоде (ИнвалидреЦипиентреспонсекодетипе)
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835186"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19835186"
 
 В следующей таблице приведены возможные значения для элемента **респонсекоде** . 
   
-|**Код**|**Описание**|
+|**Code**|**Описание**|
 |:-----|:-----|
 |осереррор  <br/> |Указывает на то, что ошибка не указана другим кодом ответа на сообщение об ошибке.  <br/> |
 |реЦипиенторганизатионнотфедератед  <br/> |Указывает, что отношение общего доступа недоступно в Организации, указанной в SMTP-адресе электронной почты получателя.  <br/> |
@@ -66,7 +66,7 @@ ms.locfileid: "19835186"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

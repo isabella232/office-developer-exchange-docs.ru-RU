@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 822dc5a6-2d57-474b-8a7d-da150898e5b6
 description: Элемент ДатетимепреЦисион указывает точность возвращаемых значений даты и времени.
-ms.openlocfilehash: 4d11598628228b41adf021adbbaa77e6348534bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9d245dfb0123daae42ba9b9b4e98aff872b67d80
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761976"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529226"
 ---
 # <a name="datetimeprecision"></a>датетимепреЦисион
 
@@ -35,7 +35,7 @@ ms.locfileid: "19761976"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -61,7 +61,7 @@ ms.locfileid: "19761976"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

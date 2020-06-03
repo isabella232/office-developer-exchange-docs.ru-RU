@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 6c2ee57d-e216-4a94-92db-faa3cb0e244a
 description: Элемент Subscribe содержит свойства, используемые для создания подписок.
-ms.openlocfilehash: 9f23f566f9105c655b289ed9b434c5e7b917207f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f60e67654fb6af76e8081036a3463f5be401862d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835618"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530960"
 ---
 # <a name="subscribe"></a>Подписаться
 
@@ -38,7 +38,7 @@ ms.locfileid: "19835618"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19835618"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

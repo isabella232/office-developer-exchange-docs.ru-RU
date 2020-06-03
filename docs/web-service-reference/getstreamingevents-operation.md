@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8da95423-72bc-4034-90a8-162eedcd059b
 description: Поиск сведений о GetStreamingEventsной операции EWS.
-ms.openlocfilehash: 0e93be7b14cb1ca6a2a9821b016f7bdc0e8d7772
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 27744ec40d7c7cb551f35ed5f6fcb726f23d4865
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19833673"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530171"
 ---
 # <a name="getstreamingevents-operation"></a>Операция GetStreamingEvents
 
@@ -27,7 +27,7 @@ ms.locfileid: "19833673"
   
 ## <a name="getstreamingevents-request-example"></a>Пример запроса GetStreamingEvents
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере операции **GetStreamingEvents** показано, как запросить события и элементы, связанные с подпиской, которая определяется идентификатором подписки. 
   
@@ -36,10 +36,10 @@ ms.locfileid: "19833673"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-  xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+  xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Body>
-    <GetStreamingEvents xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetStreamingEvents xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <SubscriptionId>f6bc657d-dde1-4f94-952d-143b95d6483d</SubscriptionId>
       <ConnectionTimeout>30</ConnectionTimeout>
     </GetStreamingEvents>
@@ -59,7 +59,7 @@ ms.locfileid: "19833673"
     
 ## <a name="successful-getstreamingevents-response-example"></a>Пример успешного ответа GetStreamingEvents
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа **GetStreamingEvents** показаны уведомления, которые отправляются клиенту при получении нового сообщения электронной почты. Он включает уведомления для следующих событий: Креатедевент, NewMail и Модифиедевент. 
   
@@ -68,10 +68,10 @@ ms.locfileid: "19833673"
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <ServerVersionInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" />
+  <ServerVersionInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" />
 </soap:Header>
 <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <m:GetStreamingEventsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <m:GetStreamingEventsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
     <m:ResponseMessages>
       <m:GetStreamingEventsResponseMessage ResponseClass="Success">
         <m:ResponseCode>NoError</m:ResponseCode>
@@ -122,7 +122,7 @@ ms.locfileid: "19833673"
   
 ## <a name="getstreamingevents-error-response-example"></a>Пример ответа на сообщение об ошибке GetStreamingEvents
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса **GetStreamingEvents** . 
   
@@ -135,12 +135,12 @@ ms.locfileid: "19833673"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetStreamingEventsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetStreamingEventsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetStreamingEventsResponseMessage ResponseClass="Error">
         <m:MessageText></m:MessageText>

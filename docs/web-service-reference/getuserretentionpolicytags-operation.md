@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 57c6ff23-5c2c-42ee-824b-5a1b6dafab8c
 description: Поиск сведений о GetUserRetentionPolicyTagsной операции EWS.
-ms.openlocfilehash: faf3553c5dd426b522659029bda6819c55f2708d
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 6505945f8ad110af714da1a3011c2d504acdc75f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353233"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530834"
 ---
 # <a name="getuserretentionpolicytags-operation"></a>Операция GetUserRetentionPolicyTags
 
@@ -45,8 +45,8 @@ ms.locfileid: "21353233"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -73,18 +73,18 @@ ms.locfileid: "21353233"
                            MajorBuildNumber="179" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetUserRetentionPolicyTagsResponse ResponseClass="Success" 
-                                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <RetentionPolicyTags>
-            <RetentionPolicyTag xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <RetentionPolicyTag xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <DisplayName>1 Year Delete</DisplayName>
                <RetentionId>e66252f9-794f-4b36-b55e-d6d95fdf87a3</RetentionId>
                <RetentionPeriod>365</RetentionPeriod>
@@ -95,7 +95,7 @@ ms.locfileid: "21353233"
                <OptedInto>false</OptedInto>
                <IsArchive>false</IsArchive>
             </RetentionPolicyTag>
-            <RetentionPolicyTag xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <RetentionPolicyTag xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <DisplayName>Personal 1 year move to archive</DisplayName>
                <RetentionId>b2a29464-649c-4174-932b-6aaac9811c89</RetentionId>
                <RetentionPeriod>365</RetentionPeriod>
@@ -106,7 +106,7 @@ ms.locfileid: "21353233"
                <OptedInto>false</OptedInto>
                <IsArchive>true</IsArchive>
             </RetentionPolicyTag>
-            <RetentionPolicyTag xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <RetentionPolicyTag xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <DisplayName>Sent Items</DisplayName>
                <RetentionId>b0d32f1b-fbd0-4c1d-ba3e-ddd1086ea1d3</RetentionId>
                <RetentionPeriod>365</RetentionPeriod>
@@ -117,7 +117,7 @@ ms.locfileid: "21353233"
                <OptedInto>false</OptedInto>
                <IsArchive>false</IsArchive>
             </RetentionPolicyTag>
-            <RetentionPolicyTag xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <RetentionPolicyTag xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <DisplayName>Default 1 year delete</DisplayName>
                <RetentionId>29fc9b9d-98b0-4c01-acf8-3996e2afce98</RetentionId>
                <RetentionPeriod>365</RetentionPeriod>
@@ -128,7 +128,7 @@ ms.locfileid: "21353233"
                <OptedInto>false</OptedInto>
                <IsArchive>false</IsArchive>
             </RetentionPolicyTag>
-            <RetentionPolicyTag xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <RetentionPolicyTag xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <DisplayName>Two Year Retention</DisplayName>
                <RetentionId>a1a38957-2557-404e-9f32-53d77c948f62</RetentionId>
                <RetentionPeriod>730</RetentionPeriod>
@@ -139,7 +139,7 @@ ms.locfileid: "21353233"
                <OptedInto>true</OptedInto>
                <IsArchive>false</IsArchive>
             </RetentionPolicyTag>
-            <RetentionPolicyTag xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <RetentionPolicyTag xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <DisplayName>Default two year move to archive</DisplayName>
                <RetentionId>75bc8dbe-a0e8-4e09-9fa3-fd4c21f49318</RetentionId>
                <RetentionPeriod>730</RetentionPeriod>

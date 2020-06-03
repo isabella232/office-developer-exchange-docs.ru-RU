@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5800b58c-f3d7-4d8f-acc0-d13e02f4e258
 description: Элемент Рекуррингмастеритемид определяет элемент шаблона повторения, определяя идентификаторы одного из связанных элементов вхождения.
-ms.openlocfilehash: ae59e33ece55d85435ece4c9030ccda32eb62eab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 896a9ce95d619e7bb44c8158288bc4f62ce417d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835015"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529884"
 ---
 # <a name="recurringmasteritemid"></a>рекуррингмастеритемид
 
@@ -41,7 +41,7 @@ ms.locfileid: "19835015"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -71,7 +71,7 @@ ms.locfileid: "19835015"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

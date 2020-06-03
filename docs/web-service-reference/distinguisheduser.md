@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9362699d-666a-4acf-8fa1-c6669f0a2ae5
 description: Элемент Дистингуишедусер определяет анонимные учетные записи пользователей и учетные записи по умолчанию для делегирования доступа. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: b14be22bfe5316b9ab254e63cdfa0757596b8b92
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 922c36251290d7090cdafbed9e570144593ca97e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762189"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530735"
 ---
 # <a name="distinguisheduser"></a>дистингуишедусер
 
@@ -34,11 +34,11 @@ ms.locfileid: "19762189"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19762189"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -68,5 +68,5 @@ ms.locfileid: "19762189"
 - [Операция AddDelegate](adddelegate-operation.md)  
 - [Операция UpdateDelegate](updatedelegate-operation.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Добавление делегатов](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Добавление делегатов](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7851ea9b-9f87-4adc-a26f-7a27df4a9bca
 description: Элемент Body указывает текст элемента.
-ms.openlocfilehash: a4803c0e5ac3b027396983a5524241590eac35f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c565c5701ae5bc210cf0a9dc694108752860e24b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761583"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529492"
 ---
 # <a name="body"></a>Основной текст
 
@@ -44,7 +44,7 @@ ms.locfileid: "19761583"
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19761583"
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[контакт](contact.md); <br/> |Представляет элемент контакта в хранилище Exchange.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
-|[Элемент](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
+|[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
 |[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Microsoft Exchange.  <br/> |
 |[PostItem](postitem.md) <br/> |Представляет элемент POST в хранилище Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
@@ -72,7 +72,7 @@ ms.locfileid: "19761583"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

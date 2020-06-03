@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b4a8914b-3e5e-4766-adf8-6b4f80a65e35
 description: Элемент Сеарчмаилбоксесреспонсе содержит ответ на запрос операции WSDL SearchMailboxes.
-ms.openlocfilehash: 8addb7de3848e626511cf92ea1c7e69022d9750e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5d704c584e75cab967ae3d2dff234059d12b88b8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835301"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530326"
 ---
 # <a name="searchmailboxesresponse"></a>сеарчмаилбоксесреспонсе
 
@@ -32,7 +32,7 @@ ms.locfileid: "19835301"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19835301"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
