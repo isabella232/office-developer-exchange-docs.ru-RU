@@ -16,7 +16,7 @@ ms.openlocfilehash: 88b5475dd2f0fe6d334bad51a0fe8d0beb767634
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463155"
 ---
 # <a name="setuseroofsettings-operation"></a>Операция SetUserOofSettings
@@ -34,7 +34,7 @@ ms.locfileid: "44463155"
    
 ## <a name="setuseroofsettings-request-example"></a>Пример запроса SetUserOofSettings
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере запроса **SetUserOofSettings** задается значение параметра "отсутствие на работе" в течение 10 дней. 
   
@@ -103,7 +103,7 @@ ms.locfileid: "44463155"
     
 ## <a name="successful-setuseroofsettings-response-example"></a>Пример успешного ответа SetUserOofSettings
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **SetUserOofSettings** . 
   

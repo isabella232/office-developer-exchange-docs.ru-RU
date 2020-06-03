@@ -13,7 +13,7 @@ ms.openlocfilehash: b2138f9813c7b75aef9afb90089b9b874aac7532
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461669"
 ---
 # <a name="pox-autodiscover-request-for-exchange"></a>Запрос автообнаружения POX для Exchange
@@ -22,7 +22,7 @@ ms.locfileid: "44461669"
   
 ## <a name="autodiscover-request-example"></a>Пример запроса автообнаружения
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере XML-кода показан текст запроса автообнаружения.
   

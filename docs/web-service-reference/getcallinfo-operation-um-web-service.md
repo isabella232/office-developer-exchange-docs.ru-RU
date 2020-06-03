@@ -15,7 +15,7 @@ ms.openlocfilehash: 6b5664dfe16f9c74cc7175098145141b815a6355
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461242"
 ---
 # <a name="getcallinfo-operation-um-web-service"></a>Операция GetCallInfo (веб-служба единой системы обмена сообщениями)
@@ -24,7 +24,7 @@ ms.locfileid: "44461242"
   
 ## <a name="getcallinfo-request-example"></a>Пример запроса GetCallInfo
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере запроса GetCallInfo показано, как сформировать запрос для получения сведений об указанном исходящем вызове.
   
@@ -43,7 +43,7 @@ ms.locfileid: "44461242"
 
 ## <a name="successful-getcallinfo-response-example"></a>Пример успешного ответа GetCallInfo
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа GetCallInfo показан ответ на запрос GetCallInfo.
   

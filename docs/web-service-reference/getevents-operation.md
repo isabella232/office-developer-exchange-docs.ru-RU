@@ -16,7 +16,7 @@ ms.openlocfilehash: 9258fd003c242911866aa7abbca5eba2b9582223
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462516"
 ---
 # <a name="getevents-operation"></a>Операция GetEvents
@@ -32,7 +32,7 @@ ms.locfileid: "44462516"
   
 ## <a name="getevents-request-example"></a>Пример запроса на получение событий
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показано, как запросить события и элементы, связанные с подпиской, которая определяется идентификатором подписки и водяным знаком.
   
@@ -63,7 +63,7 @@ ms.locfileid: "44462516"
     
 ## <a name="successful-getevents-response-example"></a>Пример успешных откликов на события
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа показано уведомление о существовании двух новых почтовых сообщений с момента отправки последнего запроса уведомления на сервер.
   
@@ -150,7 +150,7 @@ ms.locfileid: "44462516"
   
 ## <a name="getevents-error-response-example"></a>Пример ответа на сообщение об ошибке при возникновении событий
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показан ответ об ошибке запроса на получение **событий** . 
   

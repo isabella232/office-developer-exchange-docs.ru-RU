@@ -16,7 +16,7 @@ ms.openlocfilehash: ac7eafd61c62b077a8d20e5fd8d004924bf06cf1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461291"
 ---
 # <a name="getattachment-operation"></a>Операция GetAttachment
@@ -25,7 +25,7 @@ ms.locfileid: "44461291"
   
 ## <a name="getattachment-request-example"></a>Пример запроса GetAttachment
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса GetAttachment показано, как получить вложение.
   
@@ -72,7 +72,7 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 ## <a name="getattachment-response-example"></a>Пример отклика GetAttachment
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос GetAttachment. В этом примере возвращается вложенный файл.
   

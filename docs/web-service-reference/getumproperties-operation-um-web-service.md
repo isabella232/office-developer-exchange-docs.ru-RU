@@ -15,7 +15,7 @@ ms.openlocfilehash: 42176d9cd0288af6515aeea616a4f216a419410c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462474"
 ---
 # <a name="getumproperties-operation-um-web-service"></a>Операция GetUMProperties (веб-служба единой системы обмена сообщениями)
@@ -24,7 +24,7 @@ ms.locfileid: "44462474"
   
 ## <a name="getumproperties-request-example"></a>Пример запроса GetUMProperties
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса GetUMProperties показано, как сформировать запрос на получение свойств единой системы обмена сообщениями почтового ящика.
   
@@ -41,7 +41,7 @@ ms.locfileid: "44462474"
 
 ## <a name="successful-getumproperties-response-example"></a>Пример успешного ответа GetUMProperties
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере ответа GetUMProperties показан ответ на запрос GetUMProperties.
   

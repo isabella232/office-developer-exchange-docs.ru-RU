@@ -13,7 +13,7 @@ ms.openlocfilehash: d588f7eb12a445fba9c997c4b9db0a6842105b4e
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462726"
 ---
 # <a name="networkrequirements-pox"></a>Нетворкрекуирементс (POX)

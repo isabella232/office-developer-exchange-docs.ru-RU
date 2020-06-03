@@ -12,7 +12,7 @@ ms.openlocfilehash: decbd4d646a56b9810387adcdb6a9049da89bc38
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462306"
 ---
 # <a name="approvalrequestdata"></a>аппровалрекуестдата
@@ -43,7 +43,7 @@ ms.locfileid: "44462306"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Message](message-ex15websvcsotherref.md)
+[Сообщение](message-ex15websvcsotherref.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -62,6 +62,6 @@ ms.locfileid: "44462306"
    
 ## <a name="see-also"></a>См. также
 
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
