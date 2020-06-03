@@ -12,42 +12,42 @@ ms.openlocfilehash: 96075adc1772027456f8829eee43bdc734644c09
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467573"
 ---
-# <a name="iswritable"></a><span data-ttu-id="51540-103">Доступный для записи</span><span class="sxs-lookup"><span data-stu-id="51540-103">IsWritable</span></span>
+# <a name="iswritable"></a><span data-ttu-id="2b78a-103">Доступный для записи</span><span class="sxs-lookup"><span data-stu-id="2b78a-103">IsWritable</span></span>
 
-<span data-ttu-id="51540-104">Элемент с **возможностью записи** указывает, можно ли записывать базовый контакт или получателя Active Directory в.</span><span class="sxs-lookup"><span data-stu-id="51540-104">The **IsWritable** element specifies whether the underlying contact or Active Directory recipient can be written to.</span></span> 
+<span data-ttu-id="2b78a-104">Элемент с **возможностью записи** указывает, можно ли записывать базовый контакт или получателя Active Directory в.</span><span class="sxs-lookup"><span data-stu-id="2b78a-104">The **IsWritable** element specifies whether the underlying contact or Active Directory recipient can be written to.</span></span> 
   
 ```XML
 <IsWritable> true | false </IsWritable>
 ```
 
- <span data-ttu-id="51540-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="51540-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="51540-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="51540-106">Attributes and elements</span></span>
+ <span data-ttu-id="2b78a-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="2b78a-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="2b78a-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="2b78a-106">Attributes and elements</span></span>
 
-<span data-ttu-id="51540-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="51540-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="2b78a-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="2b78a-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="51540-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="51540-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="2b78a-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="2b78a-108">Attributes</span></span>
 
-<span data-ttu-id="51540-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="51540-109">None.</span></span>
+<span data-ttu-id="2b78a-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="2b78a-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="51540-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="51540-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="2b78a-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="2b78a-110">Child elements</span></span>
 
-<span data-ttu-id="51540-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="51540-111">None.</span></span>
+<span data-ttu-id="2b78a-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="2b78a-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="51540-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="51540-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="2b78a-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="2b78a-112">Parent elements</span></span>
 
-[<span data-ttu-id="51540-113">Атрибуты (Персонааттрибутионтипе)</span><span class="sxs-lookup"><span data-stu-id="51540-113">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md)
+[<span data-ttu-id="2b78a-113">Атрибуты (Персонааттрибутионтипе)</span><span class="sxs-lookup"><span data-stu-id="2b78a-113">Attribution (PersonaAttributionType)</span></span>](attribution-personaattributiontype.md)
   
-## <a name="text-value"></a><span data-ttu-id="51540-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="51540-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="2b78a-114">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="2b78a-114">Text value</span></span>
 
-<span data-ttu-id="51540-115">Текстовое значение **true** для элемента, доступного для **записи** , указывает на то, что контакт или объект Active Directory доступны для записи.</span><span class="sxs-lookup"><span data-stu-id="51540-115">A text value of **true** for the **IsWritable** element indicates that the contact or Active Directory object is available for write access.</span></span> <span data-ttu-id="51540-116">Значение **false** указывает на то, что контакт или объект Active Directory недоступен для записи.</span><span class="sxs-lookup"><span data-stu-id="51540-116">A value of **false** indicates that the contact or Active Directory object is not available for write access.</span></span> 
+<span data-ttu-id="2b78a-115">Текстовое значение **true** для элемента, доступного для **записи** , указывает на то, что контакт или объект Active Directory доступны для записи.</span><span class="sxs-lookup"><span data-stu-id="2b78a-115">A text value of **true** for the **IsWritable** element indicates that the contact or Active Directory object is available for write access.</span></span> <span data-ttu-id="2b78a-116">Значение **false** указывает на то, что контакт или объект Active Directory недоступен для записи.</span><span class="sxs-lookup"><span data-stu-id="2b78a-116">A value of **false** indicates that the contact or Active Directory object is not available for write access.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="51540-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="51540-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2b78a-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="2b78a-117">Remarks</span></span>
 
-<span data-ttu-id="51540-118">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="51540-118">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="2b78a-118">Этот элемент появился в Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2b78a-118">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="51540-119">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="51540-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="2b78a-119">Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.</span><span class="sxs-lookup"><span data-stu-id="2b78a-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

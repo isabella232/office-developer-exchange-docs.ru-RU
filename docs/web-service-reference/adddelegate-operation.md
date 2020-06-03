@@ -16,31 +16,31 @@ ms.openlocfilehash: 80adbe71d69be1025dc9593c6a9002bc68fdcb76
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466516"
 ---
-# <a name="adddelegate-operation"></a><span data-ttu-id="73751-103">Операция AddDelegate</span><span class="sxs-lookup"><span data-stu-id="73751-103">AddDelegate operation</span></span>
+# <a name="adddelegate-operation"></a><span data-ttu-id="325d7-103">Операция AddDelegate</span><span class="sxs-lookup"><span data-stu-id="325d7-103">AddDelegate operation</span></span>
 
-<span data-ttu-id="73751-104">Операция **AddDelegate** добавляет одного или нескольких делегатов в почтовый ящик участника и задает конкретные разрешения на доступ.</span><span class="sxs-lookup"><span data-stu-id="73751-104">The **AddDelegate** operation adds one or more delegates to a principal's mailbox and sets specific access permissions.</span></span> 
+<span data-ttu-id="325d7-104">Операция **AddDelegate** добавляет одного или нескольких делегатов в почтовый ящик участника и задает конкретные разрешения на доступ.</span><span class="sxs-lookup"><span data-stu-id="325d7-104">The **AddDelegate** operation adds one or more delegates to a principal's mailbox and sets specific access permissions.</span></span> 
   
-## <a name="soap-headers"></a><span data-ttu-id="73751-105">Заголовки SOAP</span><span class="sxs-lookup"><span data-stu-id="73751-105">SOAP headers</span></span>
+## <a name="soap-headers"></a><span data-ttu-id="325d7-105">Заголовки SOAP</span><span class="sxs-lookup"><span data-stu-id="325d7-105">SOAP headers</span></span>
 
-<span data-ttu-id="73751-106">Операция **AddDelegate** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="73751-106">The **AddDelegate** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
+<span data-ttu-id="325d7-106">Операция **AddDelegate** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="325d7-106">The **AddDelegate** operation can use the SOAP headers that are listed and described in the following table.</span></span> 
   
-|<span data-ttu-id="73751-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="73751-107">**Header**</span></span>|<span data-ttu-id="73751-108">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="73751-108">**Element**</span></span>|<span data-ttu-id="73751-109">**Описание**</span><span class="sxs-lookup"><span data-stu-id="73751-109">**Description**</span></span>|
+|<span data-ttu-id="325d7-107">**Header**</span><span class="sxs-lookup"><span data-stu-id="325d7-107">**Header**</span></span>|<span data-ttu-id="325d7-108">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="325d7-108">**Element**</span></span>|<span data-ttu-id="325d7-109">**Описание**</span><span class="sxs-lookup"><span data-stu-id="325d7-109">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="73751-110">Олицетворение</span><span class="sxs-lookup"><span data-stu-id="73751-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="73751-111">ексчанжеимперсонатион</span><span class="sxs-lookup"><span data-stu-id="73751-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="73751-112">Идентифицирует пользователя, который олицетворяет клиентское приложение.</span><span class="sxs-lookup"><span data-stu-id="73751-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
-|<span data-ttu-id="73751-113">маилбокскултуре</span><span class="sxs-lookup"><span data-stu-id="73751-113">MailboxCulture</span></span>  <br/> |[<span data-ttu-id="73751-114">маилбокскултуре</span><span class="sxs-lookup"><span data-stu-id="73751-114">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="73751-115">Определяет язык и региональные параметры RFC3066, которые будут использоваться для доступа к почтовому ящику.</span><span class="sxs-lookup"><span data-stu-id="73751-115">Identifies the RFC3066 culture to be used to access the mailbox.</span></span>  <br/> |
-|<span data-ttu-id="73751-116">рекуестверсион</span><span class="sxs-lookup"><span data-stu-id="73751-116">RequestVersion</span></span>  <br/> |[<span data-ttu-id="73751-117">рекуестсерверверсион</span><span class="sxs-lookup"><span data-stu-id="73751-117">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="73751-118">Определяет версию схемы для запроса операции.</span><span class="sxs-lookup"><span data-stu-id="73751-118">Identifies the schema version for the operation request.</span></span>  <br/> |
-|<span data-ttu-id="73751-119">серверверсион</span><span class="sxs-lookup"><span data-stu-id="73751-119">ServerVersion</span></span>  <br/> |[<span data-ttu-id="73751-120">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="73751-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="73751-121">Определяет версию сервера, который ответил на запрос.</span><span class="sxs-lookup"><span data-stu-id="73751-121">Identifies the version of the server that responded to the request.</span></span>  <br/> |
+|<span data-ttu-id="325d7-110">Олицетворение</span><span class="sxs-lookup"><span data-stu-id="325d7-110">Impersonation</span></span>  <br/> |[<span data-ttu-id="325d7-111">ексчанжеимперсонатион</span><span class="sxs-lookup"><span data-stu-id="325d7-111">ExchangeImpersonation</span></span>](exchangeimpersonation.md) <br/> |<span data-ttu-id="325d7-112">Идентифицирует пользователя, который олицетворяет клиентское приложение.</span><span class="sxs-lookup"><span data-stu-id="325d7-112">Identifies the user whom the client application is impersonating.</span></span>  <br/> |
+|<span data-ttu-id="325d7-113">маилбокскултуре</span><span class="sxs-lookup"><span data-stu-id="325d7-113">MailboxCulture</span></span>  <br/> |[<span data-ttu-id="325d7-114">маилбокскултуре</span><span class="sxs-lookup"><span data-stu-id="325d7-114">MailboxCulture</span></span>](mailboxculture.md) <br/> |<span data-ttu-id="325d7-115">Определяет язык и региональные параметры RFC3066, которые будут использоваться для доступа к почтовому ящику.</span><span class="sxs-lookup"><span data-stu-id="325d7-115">Identifies the RFC3066 culture to be used to access the mailbox.</span></span>  <br/> |
+|<span data-ttu-id="325d7-116">рекуестверсион</span><span class="sxs-lookup"><span data-stu-id="325d7-116">RequestVersion</span></span>  <br/> |[<span data-ttu-id="325d7-117">рекуестсерверверсион</span><span class="sxs-lookup"><span data-stu-id="325d7-117">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="325d7-118">Определяет версию схемы для запроса операции.</span><span class="sxs-lookup"><span data-stu-id="325d7-118">Identifies the schema version for the operation request.</span></span>  <br/> |
+|<span data-ttu-id="325d7-119">серверверсион</span><span class="sxs-lookup"><span data-stu-id="325d7-119">ServerVersion</span></span>  <br/> |[<span data-ttu-id="325d7-120">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="325d7-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="325d7-121">Определяет версию сервера, который ответил на запрос.</span><span class="sxs-lookup"><span data-stu-id="325d7-121">Identifies the version of the server that responded to the request.</span></span>  <br/> |
    
-## <a name="adddelegate-request-example"></a><span data-ttu-id="73751-122">Пример запроса AddDelegate</span><span class="sxs-lookup"><span data-stu-id="73751-122">AddDelegate request example</span></span>
+## <a name="adddelegate-request-example"></a><span data-ttu-id="325d7-122">Пример запроса AddDelegate</span><span class="sxs-lookup"><span data-stu-id="325d7-122">AddDelegate request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="73751-123">Описание</span><span class="sxs-lookup"><span data-stu-id="73751-123">Description</span></span>
+### <a name="description"></a><span data-ttu-id="325d7-123">Description</span><span class="sxs-lookup"><span data-stu-id="325d7-123">Description</span></span>
 
-<span data-ttu-id="73751-124">В приведенном ниже примере запроса **AddDelegate** показана попытка предоставить представителю User1 разрешения на делегирование папок, владельцем которых является Пользователь2.</span><span class="sxs-lookup"><span data-stu-id="73751-124">The following example of an **AddDelegate** request shows an attempt to give user1 delegate permissions on folders that are owned by user2.</span></span> <span data-ttu-id="73751-125">Пользователю User1 предоставляются разрешения на уровне автора для папки календаря user2's и разрешения на уровне просмотра для папки контактов user2's.</span><span class="sxs-lookup"><span data-stu-id="73751-125">User1 is given Author-level permissions to user2's Calendar folder and Reviewer-level permissions to user2's Contacts folder.</span></span> <span data-ttu-id="73751-126">Пользователь1 не будет получать копии сообщений о собраниях и не сможет просматривать частные элементы в почтовом ящике user2's.</span><span class="sxs-lookup"><span data-stu-id="73751-126">User1 will not receive copies of meeting messages and will be unable to view private items in user2's mailbox.</span></span> <span data-ttu-id="73751-127">Приглашения на собрания будут отправляться как в Пользователь1, так и в Пользователь2.</span><span class="sxs-lookup"><span data-stu-id="73751-127">Meeting requests will be sent to both user1 and user2.</span></span> 
+<span data-ttu-id="325d7-124">В приведенном ниже примере запроса **AddDelegate** показана попытка предоставить представителю User1 разрешения на делегирование папок, владельцем которых является Пользователь2.</span><span class="sxs-lookup"><span data-stu-id="325d7-124">The following example of an **AddDelegate** request shows an attempt to give user1 delegate permissions on folders that are owned by user2.</span></span> <span data-ttu-id="325d7-125">Пользователю User1 предоставляются разрешения на уровне автора для папки календаря user2's и разрешения на уровне просмотра для папки контактов user2's.</span><span class="sxs-lookup"><span data-stu-id="325d7-125">User1 is given Author-level permissions to user2's Calendar folder and Reviewer-level permissions to user2's Contacts folder.</span></span> <span data-ttu-id="325d7-126">Пользователь1 не будет получать копии сообщений о собраниях и не сможет просматривать частные элементы в почтовом ящике user2's.</span><span class="sxs-lookup"><span data-stu-id="325d7-126">User1 will not receive copies of meeting messages and will be unable to view private items in user2's mailbox.</span></span> <span data-ttu-id="325d7-127">Приглашения на собрания будут отправляться как в Пользователь1, так и в Пользователь2.</span><span class="sxs-lookup"><span data-stu-id="325d7-127">Meeting requests will be sent to both user1 and user2.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="73751-128">Код</span><span class="sxs-lookup"><span data-stu-id="73751-128">Code</span></span>
+### <a name="code"></a><span data-ttu-id="325d7-128">Код</span><span class="sxs-lookup"><span data-stu-id="325d7-128">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -73,13 +73,13 @@ ms.locfileid: "44466516"
 </soap:Envelope>
 ```
 
-## <a name="adddelegate-response-example"></a><span data-ttu-id="73751-129">Пример отклика AddDelegate</span><span class="sxs-lookup"><span data-stu-id="73751-129">AddDelegate response example</span></span>
+## <a name="adddelegate-response-example"></a><span data-ttu-id="325d7-129">Пример отклика AddDelegate</span><span class="sxs-lookup"><span data-stu-id="325d7-129">AddDelegate response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="73751-130">Описание</span><span class="sxs-lookup"><span data-stu-id="73751-130">Description</span></span>
+### <a name="description"></a><span data-ttu-id="325d7-130">Description</span><span class="sxs-lookup"><span data-stu-id="325d7-130">Description</span></span>
 
-<span data-ttu-id="73751-131">В приведенном ниже примере ответа **AddDelegate** показано, как успешно ответить на запрос **AddDelegate** .</span><span class="sxs-lookup"><span data-stu-id="73751-131">The following example of an **AddDelegate** response shows a successful response to an **AddDelegate** request.</span></span> 
+<span data-ttu-id="325d7-131">В приведенном ниже примере ответа **AddDelegate** показано, как успешно ответить на запрос **AddDelegate** .</span><span class="sxs-lookup"><span data-stu-id="325d7-131">The following example of an **AddDelegate** response shows a successful response to an **AddDelegate** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="73751-132">Код</span><span class="sxs-lookup"><span data-stu-id="73751-132">Code</span></span>
+### <a name="code"></a><span data-ttu-id="325d7-132">Код</span><span class="sxs-lookup"><span data-stu-id="325d7-132">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -118,13 +118,13 @@ ms.locfileid: "44466516"
 </soap:Envelope>
 ```
 
-## <a name="adddelegate-error-response-example"></a><span data-ttu-id="73751-133">Пример ответа на сообщение об ошибке AddDelegate</span><span class="sxs-lookup"><span data-stu-id="73751-133">AddDelegate error response example</span></span>
+## <a name="adddelegate-error-response-example"></a><span data-ttu-id="325d7-133">Пример ответа на сообщение об ошибке AddDelegate</span><span class="sxs-lookup"><span data-stu-id="325d7-133">AddDelegate error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="73751-134">Описание</span><span class="sxs-lookup"><span data-stu-id="73751-134">Description</span></span>
+### <a name="description"></a><span data-ttu-id="325d7-134">Description</span><span class="sxs-lookup"><span data-stu-id="325d7-134">Description</span></span>
 
-<span data-ttu-id="73751-135">В следующем примере показан ответ на запрос на добавление делегата, который уже был добавлен в почтовый ящик субъекта.</span><span class="sxs-lookup"><span data-stu-id="73751-135">The following example shows the response to a request to add a delegate who has already been added to the principal's mailbox.</span></span>
+<span data-ttu-id="325d7-135">В следующем примере показан ответ на запрос на добавление делегата, который уже был добавлен в почтовый ящик субъекта.</span><span class="sxs-lookup"><span data-stu-id="325d7-135">The following example shows the response to a request to add a delegate who has already been added to the principal's mailbox.</span></span>
   
-### <a name="code"></a><span data-ttu-id="73751-136">Код</span><span class="sxs-lookup"><span data-stu-id="73751-136">Code</span></span>
+### <a name="code"></a><span data-ttu-id="325d7-136">Код</span><span class="sxs-lookup"><span data-stu-id="325d7-136">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -156,11 +156,11 @@ ms.locfileid: "44466516"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="73751-137">Комментарии</span><span class="sxs-lookup"><span data-stu-id="73751-137">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="325d7-137">Комментарии</span><span class="sxs-lookup"><span data-stu-id="325d7-137">Comments</span></span>
 
-<span data-ttu-id="73751-138">Если при попытке добавить делегата возвращается код ответа Еррорделегатеалреадексистс, используйте [операцию](getdelegate-operation.md) GetResponse для получения всех текущих разрешений для делегата, а затем используйте [операцию UpdateDelegate](updatedelegate-operation.md) для установки новых разрешений.</span><span class="sxs-lookup"><span data-stu-id="73751-138">If the ErrorDelegateAlreadyExists response code is returned when you try to add a delegate, use the [GetDelegate operation](getdelegate-operation.md) to get all the current permissions for the delegate, and then use the [UpdateDelegate operation](updatedelegate-operation.md) to set the new permissions.</span></span> 
+<span data-ttu-id="325d7-138">Если при попытке добавить делегата возвращается код ответа Еррорделегатеалреадексистс, используйте [операцию](getdelegate-operation.md) GetResponse для получения всех текущих разрешений для делегата, а затем используйте [операцию UpdateDelegate](updatedelegate-operation.md) для установки новых разрешений.</span><span class="sxs-lookup"><span data-stu-id="325d7-138">If the ErrorDelegateAlreadyExists response code is returned when you try to add a delegate, use the [GetDelegate operation](getdelegate-operation.md) to get all the current permissions for the delegate, and then use the [UpdateDelegate operation](updatedelegate-operation.md) to set the new permissions.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="73751-139">См. также</span><span class="sxs-lookup"><span data-stu-id="73751-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="325d7-139">См. также</span><span class="sxs-lookup"><span data-stu-id="325d7-139">See also</span></span>
 
-- [<span data-ttu-id="73751-140">Добавление делегатов</span><span class="sxs-lookup"><span data-stu-id="73751-140">Adding Delegates</span></span>](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [<span data-ttu-id="325d7-140">Добавление делегатов</span><span class="sxs-lookup"><span data-stu-id="325d7-140">Adding Delegates</span></span>](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

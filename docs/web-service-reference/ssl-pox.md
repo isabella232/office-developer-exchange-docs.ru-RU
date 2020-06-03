@@ -13,52 +13,52 @@ ms.openlocfilehash: f4e42153c25b34c99f2cad50fb56e8cad24534ff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467615"
 ---
-# <a name="ssl-pox"></a><span data-ttu-id="34db7-103">SSL (POX)</span><span class="sxs-lookup"><span data-stu-id="34db7-103">SSL (POX)</span></span>
+# <a name="ssl-pox"></a><span data-ttu-id="6adea-103">SSL (POX)</span><span class="sxs-lookup"><span data-stu-id="6adea-103">SSL (POX)</span></span>
 
-<span data-ttu-id="34db7-104">Элемент **SSL** указывает, требуется ли безопасный вход в систему.</span><span class="sxs-lookup"><span data-stu-id="34db7-104">The **SSL** element specifies whether secure logon is required.</span></span> 
+<span data-ttu-id="6adea-104">Элемент **SSL** указывает, требуется ли безопасный вход в систему.</span><span class="sxs-lookup"><span data-stu-id="6adea-104">The **SSL** element specifies whether secure logon is required.</span></span> 
   
-[<span data-ttu-id="34db7-105">Служба автообнаружения (POX)</span><span class="sxs-lookup"><span data-stu-id="34db7-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
+[<span data-ttu-id="6adea-105">Служба автообнаружения (POX)</span><span class="sxs-lookup"><span data-stu-id="6adea-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md)
   
-[<span data-ttu-id="34db7-106">Ответ (POX)</span><span class="sxs-lookup"><span data-stu-id="34db7-106">Response (POX)</span></span>](response-pox.md)
+[<span data-ttu-id="6adea-106">Ответ (POX)</span><span class="sxs-lookup"><span data-stu-id="6adea-106">Response (POX)</span></span>](response-pox.md)
   
-[<span data-ttu-id="34db7-107">Учетная запись (POX)</span><span class="sxs-lookup"><span data-stu-id="34db7-107">Account (POX)</span></span>](account-pox.md)
+[<span data-ttu-id="6adea-107">Учетная запись (POX)</span><span class="sxs-lookup"><span data-stu-id="6adea-107">Account (POX)</span></span>](account-pox.md)
   
-[<span data-ttu-id="34db7-108">Протокол (POX)</span><span class="sxs-lookup"><span data-stu-id="34db7-108">Protocol (POX)</span></span>](protocol-pox.md)
+[<span data-ttu-id="6adea-108">Протокол (POX)</span><span class="sxs-lookup"><span data-stu-id="6adea-108">Protocol (POX)</span></span>](protocol-pox.md)
   
-[<span data-ttu-id="34db7-109">SSL (POX)</span><span class="sxs-lookup"><span data-stu-id="34db7-109">SSL (POX)</span></span>](ssl-pox.md)
+[<span data-ttu-id="6adea-109">SSL (POX)</span><span class="sxs-lookup"><span data-stu-id="6adea-109">SSL (POX)</span></span>](ssl-pox.md)
   
 ```xml
 <SSL>on or off</SSL>
 ```
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="34db7-110">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="34db7-110">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6adea-110">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="6adea-110">Attributes and elements</span></span>
 
-<span data-ttu-id="34db7-111">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="34db7-111">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6adea-111">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="6adea-111">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="34db7-112">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="34db7-112">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6adea-112">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="6adea-112">Attributes</span></span>
 
-<span data-ttu-id="34db7-113">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="34db7-113">None.</span></span>
+<span data-ttu-id="6adea-113">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="6adea-113">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="34db7-114">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="34db7-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6adea-114">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="6adea-114">Child elements</span></span>
 
-<span data-ttu-id="34db7-115">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="34db7-115">None.</span></span>
+<span data-ttu-id="6adea-115">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="6adea-115">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="34db7-116">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="34db7-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6adea-116">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="6adea-116">Parent elements</span></span>
 
-|<span data-ttu-id="34db7-117">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="34db7-117">**Element**</span></span>|<span data-ttu-id="34db7-118">**Описание**</span><span class="sxs-lookup"><span data-stu-id="34db7-118">**Description**</span></span>|
+|<span data-ttu-id="6adea-117">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6adea-117">**Element**</span></span>|<span data-ttu-id="6adea-118">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6adea-118">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="34db7-119">Протокол (POX)</span><span class="sxs-lookup"><span data-stu-id="34db7-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="34db7-120">Содержит спецификации для подключения клиента к компьютеру, на котором работает Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="34db7-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>  <br/> |
+|[<span data-ttu-id="6adea-119">Протокол (POX)</span><span class="sxs-lookup"><span data-stu-id="6adea-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="6adea-120">Содержит спецификации для подключения клиента к компьютеру, на котором работает Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="6adea-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="34db7-121">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="34db7-121">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="6adea-121">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="6adea-121">Text value</span></span>
 
-<span data-ttu-id="34db7-122">Текстовое значение указывает, требуется ли безопасный вход в систему.</span><span class="sxs-lookup"><span data-stu-id="34db7-122">The text value specifies whether secure logon is required.</span></span> <span data-ttu-id="34db7-123">Если значение не указано, по умолчанию устанавливается значение **On**.</span><span class="sxs-lookup"><span data-stu-id="34db7-123">If unspecified, the default value is set to **on**.</span></span> <span data-ttu-id="34db7-124">Возможные **значения:** **On и on** .</span><span class="sxs-lookup"><span data-stu-id="34db7-124">The possible values are **on** and **off**.</span></span>
+<span data-ttu-id="6adea-122">Текстовое значение указывает, требуется ли безопасный вход в систему.</span><span class="sxs-lookup"><span data-stu-id="6adea-122">The text value specifies whether secure logon is required.</span></span> <span data-ttu-id="6adea-123">Если значение не указано, по умолчанию устанавливается значение **On**.</span><span class="sxs-lookup"><span data-stu-id="6adea-123">If unspecified, the default value is set to **on**.</span></span> <span data-ttu-id="6adea-124">Возможные **значения:** **On и on** .</span><span class="sxs-lookup"><span data-stu-id="6adea-124">The possible values are **on** and **off**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="34db7-125">См. также</span><span class="sxs-lookup"><span data-stu-id="34db7-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6adea-125">См. также</span><span class="sxs-lookup"><span data-stu-id="6adea-125">See also</span></span>
 
 
 
-[<span data-ttu-id="34db7-126">XML-элементы автообнаружения POX для Exchange</span><span class="sxs-lookup"><span data-stu-id="34db7-126">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
+[<span data-ttu-id="6adea-126">XML-элементы автообнаружения POX для Exchange</span><span class="sxs-lookup"><span data-stu-id="6adea-126">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
 

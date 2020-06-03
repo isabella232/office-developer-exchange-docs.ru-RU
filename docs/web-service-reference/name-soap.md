@@ -13,61 +13,61 @@ ms.openlocfilehash: 74e6d6b59d972d7230c23b38cd3f4a8591401bbd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466887"
 ---
-# <a name="name-soap"></a><span data-ttu-id="d63d3-103">Имя (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-103">Name (SOAP)</span></span>
+# <a name="name-soap"></a><span data-ttu-id="17704-103">Имя (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-103">Name (SOAP)</span></span>
 
-<span data-ttu-id="d63d3-104">Элемент **Name** представляет имя параметра.</span><span class="sxs-lookup"><span data-stu-id="d63d3-104">The **Name** element represents the name of a setting.</span></span> 
+<span data-ttu-id="17704-104">Элемент **Name** представляет имя параметра.</span><span class="sxs-lookup"><span data-stu-id="17704-104">The **Name** element represents the name of a setting.</span></span> 
   
 ```XML
 <Name/>
 ```
 
-<span data-ttu-id="d63d3-105">**строка**</span><span class="sxs-lookup"><span data-stu-id="d63d3-105">**string**</span></span>
+<span data-ttu-id="17704-105">**строка**</span><span class="sxs-lookup"><span data-stu-id="17704-105">**string**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="d63d3-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="d63d3-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="17704-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="17704-106">Attributes and elements</span></span>
 
-<span data-ttu-id="d63d3-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="d63d3-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="17704-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="17704-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="d63d3-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="d63d3-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="17704-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="17704-108">Attributes</span></span>
 
-<span data-ttu-id="d63d3-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d63d3-109">None.</span></span>
+<span data-ttu-id="17704-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="17704-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="d63d3-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="d63d3-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="17704-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="17704-110">Child elements</span></span>
 
-<span data-ttu-id="d63d3-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d63d3-111">None.</span></span>
+<span data-ttu-id="17704-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="17704-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="d63d3-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="d63d3-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="17704-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="17704-112">Parent elements</span></span>
 
-|<span data-ttu-id="d63d3-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d63d3-113">**Element**</span></span>|<span data-ttu-id="d63d3-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d63d3-114">**Description**</span></span>|
+|<span data-ttu-id="17704-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="17704-113">**Element**</span></span>|<span data-ttu-id="17704-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="17704-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d63d3-115">Домаинсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-115">DomainSetting (SOAP)</span></span>](domainsetting-soap.md) <br/> |<span data-ttu-id="d63d3-116">Содержит параметры домена, которые возвращаются запросом [операции жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md) .</span><span class="sxs-lookup"><span data-stu-id="d63d3-116">Contains domain settings that are returned by the [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) request.</span></span>  <br/> |
-|[<span data-ttu-id="d63d3-117">Домаинстрингсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-117">DomainStringSetting (SOAP)</span></span>](domainstringsetting-soap.md) <br/> |<span data-ttu-id="d63d3-118">Представляет параметр домена со значением типа String.</span><span class="sxs-lookup"><span data-stu-id="d63d3-118">Represents a domain setting the value of which is of type string.</span></span>  <br/> |
-|[<span data-ttu-id="d63d3-119">Организатионрелатионшипсеттингс (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-119">OrganizationRelationshipSettings (SOAP)</span></span>](organizationrelationshipsettings-soap.md) <br/> |<span data-ttu-id="d63d3-120">Представляет список отношений Организации для одной организации.</span><span class="sxs-lookup"><span data-stu-id="d63d3-120">Represents a list of organization relationships for a single organization.</span></span>  <br/> |
-|[<span data-ttu-id="d63d3-121">Усерсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-121">UserSetting (SOAP)</span></span>](usersetting-soap.md) <br/> |<span data-ttu-id="d63d3-122">Представляет один параметр пользователя.</span><span class="sxs-lookup"><span data-stu-id="d63d3-122">Represents a single user setting.</span></span>  <br/> |
-|[<span data-ttu-id="d63d3-123">Протоколконнектионколлектионсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-123">ProtocolConnectionCollectionSetting (SOAP)</span></span>](protocolconnectioncollectionsetting-soap.md) <br/> |<span data-ttu-id="d63d3-124">Представляет коллекцию параметров подключения по протоколу сервера.</span><span class="sxs-lookup"><span data-stu-id="d63d3-124">Represents a collection of server protocol connection settings.</span></span>  <br/> |
-|[<span data-ttu-id="d63d3-125">Стрингсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-125">StringSetting (SOAP)</span></span>](stringsetting-soap.md) <br/> |<span data-ttu-id="d63d3-126">Представляет пользовательское значение, для которого задано значение типа String.</span><span class="sxs-lookup"><span data-stu-id="d63d3-126">Represents a user setting the value for which is of type string.</span></span>  <br/> |
-|[<span data-ttu-id="d63d3-127">Вебклиентурлколлектионсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-127">WebClientUrlCollectionSetting (SOAP)</span></span>](webclienturlcollectionsetting-soap.md) <br/> |<span data-ttu-id="d63d3-128">Представляет параметр пользователя, который является коллекцией URL-адресов веб-клиента Exchange.</span><span class="sxs-lookup"><span data-stu-id="d63d3-128">Represents a user setting that is a collection of Exchange Web client URLs.</span></span>  <br/> |
-|[<span data-ttu-id="d63d3-129">Алтернатемаилбоксколлектионсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-129">AlternateMailboxCollectionSetting (SOAP)</span></span>](alternatemailboxcollectionsetting-soap.md) <br/> |<span data-ttu-id="d63d3-130">Содержит коллекцию альтернативных параметров почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="d63d3-130">Contains a collection of alternate mailbox settings.</span></span>  <br/> |
+|[<span data-ttu-id="17704-115">Домаинсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-115">DomainSetting (SOAP)</span></span>](domainsetting-soap.md) <br/> |<span data-ttu-id="17704-116">Содержит параметры домена, которые возвращаются запросом [операции жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md) .</span><span class="sxs-lookup"><span data-stu-id="17704-116">Contains domain settings that are returned by the [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) request.</span></span>  <br/> |
+|[<span data-ttu-id="17704-117">Домаинстрингсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-117">DomainStringSetting (SOAP)</span></span>](domainstringsetting-soap.md) <br/> |<span data-ttu-id="17704-118">Представляет параметр домена со значением типа String.</span><span class="sxs-lookup"><span data-stu-id="17704-118">Represents a domain setting the value of which is of type string.</span></span>  <br/> |
+|[<span data-ttu-id="17704-119">Организатионрелатионшипсеттингс (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-119">OrganizationRelationshipSettings (SOAP)</span></span>](organizationrelationshipsettings-soap.md) <br/> |<span data-ttu-id="17704-120">Представляет список отношений Организации для одной организации.</span><span class="sxs-lookup"><span data-stu-id="17704-120">Represents a list of organization relationships for a single organization.</span></span>  <br/> |
+|[<span data-ttu-id="17704-121">Усерсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-121">UserSetting (SOAP)</span></span>](usersetting-soap.md) <br/> |<span data-ttu-id="17704-122">Представляет один параметр пользователя.</span><span class="sxs-lookup"><span data-stu-id="17704-122">Represents a single user setting.</span></span>  <br/> |
+|[<span data-ttu-id="17704-123">Протоколконнектионколлектионсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-123">ProtocolConnectionCollectionSetting (SOAP)</span></span>](protocolconnectioncollectionsetting-soap.md) <br/> |<span data-ttu-id="17704-124">Представляет коллекцию параметров подключения по протоколу сервера.</span><span class="sxs-lookup"><span data-stu-id="17704-124">Represents a collection of server protocol connection settings.</span></span>  <br/> |
+|[<span data-ttu-id="17704-125">Стрингсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-125">StringSetting (SOAP)</span></span>](stringsetting-soap.md) <br/> |<span data-ttu-id="17704-126">Представляет пользовательское значение, для которого задано значение типа String.</span><span class="sxs-lookup"><span data-stu-id="17704-126">Represents a user setting the value for which is of type string.</span></span>  <br/> |
+|[<span data-ttu-id="17704-127">Вебклиентурлколлектионсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-127">WebClientUrlCollectionSetting (SOAP)</span></span>](webclienturlcollectionsetting-soap.md) <br/> |<span data-ttu-id="17704-128">Представляет параметр пользователя, который является коллекцией URL-адресов веб-клиента Exchange.</span><span class="sxs-lookup"><span data-stu-id="17704-128">Represents a user setting that is a collection of Exchange Web client URLs.</span></span>  <br/> |
+|[<span data-ttu-id="17704-129">Алтернатемаилбоксколлектионсеттинг (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-129">AlternateMailboxCollectionSetting (SOAP)</span></span>](alternatemailboxcollectionsetting-soap.md) <br/> |<span data-ttu-id="17704-130">Содержит коллекцию альтернативных параметров почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="17704-130">Contains a collection of alternate mailbox settings.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="d63d3-131">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="d63d3-131">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="17704-131">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="17704-131">Text value</span></span>
 
-<span data-ttu-id="d63d3-132">Текстовое значение элемента **Name** — имя параметра.</span><span class="sxs-lookup"><span data-stu-id="d63d3-132">The text value of the **Name** element is the name of a setting.</span></span> 
+<span data-ttu-id="17704-132">Текстовое значение элемента **Name** — имя параметра.</span><span class="sxs-lookup"><span data-stu-id="17704-132">The text value of the **Name** element is the name of a setting.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="d63d3-133">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="d63d3-133">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="17704-133">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="17704-133">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d63d3-134">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="d63d3-134">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="d63d3-135">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="d63d3-135">Schema Name</span></span>  <br/> |<span data-ttu-id="d63d3-136">Схема автообнаружения</span><span class="sxs-lookup"><span data-stu-id="d63d3-136">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="d63d3-137">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="d63d3-137">Validation File</span></span>  <br/> |<span data-ttu-id="d63d3-138">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="d63d3-138">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="d63d3-139">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="d63d3-139">Can be Empty</span></span>  <br/> |<span data-ttu-id="d63d3-140">True</span><span class="sxs-lookup"><span data-stu-id="d63d3-140">True</span></span>  <br/> |
+|<span data-ttu-id="17704-134">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="17704-134">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="17704-135">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="17704-135">Schema Name</span></span>  <br/> |<span data-ttu-id="17704-136">Схема автообнаружения</span><span class="sxs-lookup"><span data-stu-id="17704-136">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="17704-137">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="17704-137">Validation File</span></span>  <br/> |<span data-ttu-id="17704-138">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="17704-138">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="17704-139">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="17704-139">Can be Empty</span></span>  <br/> |<span data-ttu-id="17704-140">True</span><span class="sxs-lookup"><span data-stu-id="17704-140">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="d63d3-141">См. также</span><span class="sxs-lookup"><span data-stu-id="d63d3-141">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="17704-141">См. также</span><span class="sxs-lookup"><span data-stu-id="17704-141">See also</span></span>
 
-- [<span data-ttu-id="d63d3-142">Операция Жетдомаинсеттингс (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-142">GetDomainSettings operation (SOAP)</span></span>](getdomainsettings-operation-soap.md)
-- [<span data-ttu-id="d63d3-143">Операция GetUserSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-143">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
-- [<span data-ttu-id="d63d3-144">Операция Жетфедератионинформатион (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-144">GetFederationInformation operation (SOAP)</span></span>](getfederationinformation-operation-soap.md)
-- [<span data-ttu-id="d63d3-145">Операция Жеторганизатионрелатионшипсеттингс (SOAP)</span><span class="sxs-lookup"><span data-stu-id="d63d3-145">GetOrganizationRelationshipSettings operation (SOAP)</span></span>](getorganizationrelationshipsettings-operation-soap.md)
+- [<span data-ttu-id="17704-142">Операция Жетдомаинсеттингс (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-142">GetDomainSettings operation (SOAP)</span></span>](getdomainsettings-operation-soap.md)
+- [<span data-ttu-id="17704-143">Операция GetUserSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-143">GetUserSettings operation (SOAP)</span></span>](getusersettings-operation-soap.md)
+- [<span data-ttu-id="17704-144">Операция Жетфедератионинформатион (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-144">GetFederationInformation operation (SOAP)</span></span>](getfederationinformation-operation-soap.md)
+- [<span data-ttu-id="17704-145">Операция Жеторганизатионрелатионшипсеттингс (SOAP)</span><span class="sxs-lookup"><span data-stu-id="17704-145">GetOrganizationRelationshipSettings operation (SOAP)</span></span>](getorganizationrelationshipsettings-operation-soap.md)
 

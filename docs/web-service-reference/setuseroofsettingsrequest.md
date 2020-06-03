@@ -16,12 +16,12 @@ ms.openlocfilehash: 10edc9809fd72f80c316de1c6688eaedec4f93df
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466152"
 ---
-# <a name="setuseroofsettingsrequest"></a><span data-ttu-id="f360c-103">сетусеруфсеттингсрекуест</span><span class="sxs-lookup"><span data-stu-id="f360c-103">SetUserOofSettingsRequest</span></span>
+# <a name="setuseroofsettingsrequest"></a><span data-ttu-id="e9fdb-103">сетусеруфсеттингсрекуест</span><span class="sxs-lookup"><span data-stu-id="e9fdb-103">SetUserOofSettingsRequest</span></span>
 
-<span data-ttu-id="f360c-104">Элемент **сетусеруфсеттингсрекуест** содержит аргументы, используемые для задания параметров отсутствия на работе пользователя в почтовом ящике (отсутствие на работе).</span><span class="sxs-lookup"><span data-stu-id="f360c-104">The **SetUserOofSettingsRequest** element contains the arguments used to set a mailbox user's Out of Office (OOF) settings.</span></span> 
+<span data-ttu-id="e9fdb-104">Элемент **сетусеруфсеттингсрекуест** содержит аргументы, используемые для задания параметров отсутствия на работе пользователя в почтовом ящике (отсутствие на работе).</span><span class="sxs-lookup"><span data-stu-id="e9fdb-104">The **SetUserOofSettingsRequest** element contains the arguments used to set a mailbox user's Out of Office (OOF) settings.</span></span> 
   
 ```xml
 <SetUserOofSettingsRequest>
@@ -30,33 +30,33 @@ ms.locfileid: "44466152"
 <SetUserOofSettingsRequest>
 ```
 
- <span data-ttu-id="f360c-105">**сетусеруфсеттингсрекуест**</span><span class="sxs-lookup"><span data-stu-id="f360c-105">**SetUserOofSettingsRequest**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="f360c-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="f360c-106">Attributes and elements</span></span>
+ <span data-ttu-id="e9fdb-105">**сетусеруфсеттингсрекуест**</span><span class="sxs-lookup"><span data-stu-id="e9fdb-105">**SetUserOofSettingsRequest**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="e9fdb-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="e9fdb-106">Attributes and elements</span></span>
 
-<span data-ttu-id="f360c-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="f360c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="e9fdb-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="e9fdb-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f360c-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="f360c-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="e9fdb-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="e9fdb-108">Attributes</span></span>
 
-<span data-ttu-id="f360c-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="f360c-109">None.</span></span>
+<span data-ttu-id="e9fdb-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="e9fdb-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="f360c-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="f360c-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="e9fdb-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="e9fdb-110">Child elements</span></span>
 
-|<span data-ttu-id="f360c-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="f360c-111">**Element**</span></span>|<span data-ttu-id="f360c-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f360c-112">**Description**</span></span>|
+|<span data-ttu-id="e9fdb-111">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e9fdb-111">**Element**</span></span>|<span data-ttu-id="e9fdb-112">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e9fdb-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="f360c-113">Mailbox (доступность)</span><span class="sxs-lookup"><span data-stu-id="f360c-113">Mailbox (Availability)</span></span>](mailbox-availability.md) <br/> |<span data-ttu-id="f360c-114">Определяет пользователя почтового ящика для запроса SetUserOofSettings или GetUserOofSettings.</span><span class="sxs-lookup"><span data-stu-id="f360c-114">Identifies the mailbox user for a SetUserOofSettings or GetUserOofSettings request.</span></span>  <br/> |
-|[<span data-ttu-id="f360c-115">усеруфсеттингс</span><span class="sxs-lookup"><span data-stu-id="f360c-115">UserOofSettings</span></span>](useroofsettings.md) <br/> |<span data-ttu-id="f360c-116">Задает параметры отсутствия на работе.</span><span class="sxs-lookup"><span data-stu-id="f360c-116">Specifies the OOF settings.</span></span>  <br/> |
+|[<span data-ttu-id="e9fdb-113">Mailbox (доступность)</span><span class="sxs-lookup"><span data-stu-id="e9fdb-113">Mailbox (Availability)</span></span>](mailbox-availability.md) <br/> |<span data-ttu-id="e9fdb-114">Определяет пользователя почтового ящика для запроса SetUserOofSettings или GetUserOofSettings.</span><span class="sxs-lookup"><span data-stu-id="e9fdb-114">Identifies the mailbox user for a SetUserOofSettings or GetUserOofSettings request.</span></span>  <br/> |
+|[<span data-ttu-id="e9fdb-115">усеруфсеттингс</span><span class="sxs-lookup"><span data-stu-id="e9fdb-115">UserOofSettings</span></span>](useroofsettings.md) <br/> |<span data-ttu-id="e9fdb-116">Задает параметры отсутствия на работе.</span><span class="sxs-lookup"><span data-stu-id="e9fdb-116">Specifies the OOF settings.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="f360c-117">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="f360c-117">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="e9fdb-117">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="e9fdb-117">Parent elements</span></span>
 
-<span data-ttu-id="f360c-118">Нет.</span><span class="sxs-lookup"><span data-stu-id="f360c-118">None.</span></span>
+<span data-ttu-id="e9fdb-118">Нет.</span><span class="sxs-lookup"><span data-stu-id="e9fdb-118">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f360c-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="f360c-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e9fdb-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="e9fdb-119">Remarks</span></span>
 
-<span data-ttu-id="f360c-120">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="f360c-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="e9fdb-120">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="e9fdb-120">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="example"></a><span data-ttu-id="f360c-121">Пример</span><span class="sxs-lookup"><span data-stu-id="f360c-121">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e9fdb-121">Пример</span><span class="sxs-lookup"><span data-stu-id="e9fdb-121">Example</span></span>
 
-<span data-ttu-id="f360c-122">В следующем примере запроса SetUserOofSettings задается значение параметра "отсутствие на работе" в десять дней.</span><span class="sxs-lookup"><span data-stu-id="f360c-122">The following example of a SetUserOofSettings request sets an OOF setting for ten days.</span></span>
+<span data-ttu-id="e9fdb-122">В следующем примере запроса SetUserOofSettings задается значение параметра "отсутствие на работе" в десять дней.</span><span class="sxs-lookup"><span data-stu-id="e9fdb-122">The following example of a SetUserOofSettings request sets an OOF setting for ten days.</span></span>
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -87,18 +87,18 @@ ms.locfileid: "44466152"
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a><span data-ttu-id="f360c-123">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="f360c-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="e9fdb-123">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="e9fdb-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f360c-124">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="f360c-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="f360c-125">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="f360c-125">Schema Name</span></span>  <br/> |<span data-ttu-id="f360c-126">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="f360c-126">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="f360c-127">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="f360c-127">Validation File</span></span>  <br/> |<span data-ttu-id="f360c-128">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="f360c-128">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="f360c-129">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="f360c-129">Can be Empty</span></span>  <br/> |<span data-ttu-id="f360c-130">False</span><span class="sxs-lookup"><span data-stu-id="f360c-130">False</span></span>  <br/> |
+|<span data-ttu-id="e9fdb-124">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="e9fdb-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="e9fdb-125">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="e9fdb-125">Schema Name</span></span>  <br/> |<span data-ttu-id="e9fdb-126">Схема Messages</span><span class="sxs-lookup"><span data-stu-id="e9fdb-126">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="e9fdb-127">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="e9fdb-127">Validation File</span></span>  <br/> |<span data-ttu-id="e9fdb-128">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="e9fdb-128">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="e9fdb-129">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="e9fdb-129">Can be Empty</span></span>  <br/> |<span data-ttu-id="e9fdb-130">False</span><span class="sxs-lookup"><span data-stu-id="e9fdb-130">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="f360c-131">См. также</span><span class="sxs-lookup"><span data-stu-id="f360c-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e9fdb-131">См. также</span><span class="sxs-lookup"><span data-stu-id="e9fdb-131">See also</span></span>
 
 
 
-[<span data-ttu-id="f360c-132">Операция SetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="f360c-132">SetUserOofSettings operation</span></span>](setuseroofsettings-operation.md)
+[<span data-ttu-id="e9fdb-132">Операция SetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="e9fdb-132">SetUserOofSettings operation</span></span>](setuseroofsettings-operation.md)
 
