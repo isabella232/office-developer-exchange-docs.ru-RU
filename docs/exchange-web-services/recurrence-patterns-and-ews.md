@@ -10,7 +10,7 @@ ms.openlocfilehash: 681dfee7e0a66a483b8638810da5e4e0ac0f05ac
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459330"
 ---
 # <a name="recurrence-patterns-and-ews"></a>Шаблоны повторения и EWS
@@ -330,7 +330,7 @@ foreach(Appointment appt in results.Items)
 
 Для работы с повторяющимися элементами календаря используются те же методы и операции, что и при работе с неповторяющимися элементами календаря. Разница заключается в том, что в зависимости от элемента, используемого для вызова этих методов или операций, выполняемые действия можно применить ко всей серии или только к одному экземпляру. [Действия, выполняемые на повторяющейся основной реплике](how-to-update-a-recurring-series-by-using-ews-in-exchange.md) , будут применяться ко всем вхождениям в ряду, в то время как [действия, выполненные с одним экземпляром или исключением](how-to-update-a-recurring-series-by-using-ews.md) , будут применяться только к этому экземпляру или исключению. 
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этой статье
 
 - [Доступ к повторяющимся сериям с помощью EWS в Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     

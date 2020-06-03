@@ -16,7 +16,7 @@ ms.openlocfilehash: 09fe92af12f03ce4cebd1e98f4e01c087ace64f9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460619"
 ---
 # <a name="getitem-operation-calendar-item"></a>Операция GetItem (элемент календаря)
@@ -25,7 +25,7 @@ ms.locfileid: "44460619"
   
 ## <a name="getitem-request-example"></a>Пример запроса GetItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса GetItem показано, как сформировать запрос на получение удостоверения и темы элемента.
   
@@ -76,7 +76,7 @@ ms.locfileid: "44460619"
   
 ## <a name="successful-getitem-response"></a>Успешный отклик GetItem
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос GetItem. Запрос, создавший этот ответ, использовал параметр Идонли басешапе. В этом примере ответ возвращает только идентификатор элемента. 
   

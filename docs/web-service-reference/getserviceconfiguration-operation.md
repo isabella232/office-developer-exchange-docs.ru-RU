@@ -16,7 +16,7 @@ ms.openlocfilehash: b8ea2cef366a52765850dddcc8c1ef1e8fa68b22
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460913"
 ---
 # <a name="getserviceconfiguration-operation"></a>Операция GetServiceConfiguration
@@ -25,7 +25,7 @@ ms.locfileid: "44460913"
   
 ## <a name="getserviceconfiguration-request-example"></a>Пример запроса GetServiceConfiguration
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **GetServiceConfiguration** показано, как сформировать запрос на получение сведений о конфигурации для службы единой системы обмена сообщениями. 
   
@@ -53,7 +53,7 @@ ms.locfileid: "44460913"
 
 ## <a name="getserviceconfiguration-response-example"></a>Пример отклика GetServiceConfiguration
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **GetServiceConfiguration** . 
   
@@ -95,7 +95,7 @@ ms.locfileid: "44460913"
 
 ## <a name="getserviceconfiguration-error-response-example"></a>Пример ответа на сообщение об ошибке GetServiceConfiguration
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса **GetServiceConfiguration** . Эта ошибка вызвана неправильным именем конфигурации. 
   

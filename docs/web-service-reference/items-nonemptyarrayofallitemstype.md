@@ -16,7 +16,7 @@ ms.openlocfilehash: 0f70f1fe4348b5b74cef6be6414618af1e3de260
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459856"
 ---
 # <a name="items-nonemptyarrayofallitemstype"></a>Элементы (Нонемптяррайофаллитемстипе)
@@ -63,7 +63,7 @@ ms.locfileid: "44459856"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |

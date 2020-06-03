@@ -16,7 +16,7 @@ ms.openlocfilehash: 4cb124b96637b9fcdca15595faebb2ce4d304de0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460549"
 ---
 # <a name="getrooms-operation"></a>Операция GetRooms
@@ -36,7 +36,7 @@ ms.locfileid: "44460549"
    
 ## <a name="getrooms-request-example"></a>Пример запроса на получение помещений
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 Ниже приведен **Пример запроса на получение комнат,** которые связаны со списком помещений. 
   
@@ -75,7 +75,7 @@ ms.locfileid: "44460549"
     
 ## <a name="successful-getrooms-response-example"></a>Пример ответа на успешные помещения
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем ответе показаны сведения об адресе электронной почты для комнат, связанных с списком помещений.
   
@@ -137,7 +137,7 @@ ms.locfileid: "44460549"
     
 ## <a name="getrooms-error-response-example"></a>Пример ответа на сообщение об ошибке при возникновении ошибок
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке, вызванный попыткой получения сведений о помещении для несуществующего списка помещений.
   

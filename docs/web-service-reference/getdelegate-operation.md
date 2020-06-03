@@ -16,7 +16,7 @@ ms.openlocfilehash: 400bf5d1cafcbb789aaa749c62c7a908622d4ddb
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461067"
 ---
 # <a name="getdelegate-operation"></a>Операция GetDelegate
@@ -36,7 +36,7 @@ ms.locfileid: "44461067"
    
 ## <a name="getdelegate-request-example"></a>Пример запроса для делегата.
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере кода показано, как получить параметры делегата для всех делегатов, заданные в почтовом ящике user3's. Все разрешения для каждого пользователя возвращаются в ответе.
   
@@ -70,7 +70,7 @@ ms.locfileid: "44461067"
   
 ## <a name="getdelegate-response-example"></a>Пример ответа для делегата GetResponse
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 Ниже приведен пример отклика **GetResponse, в котором показан** успешный ответ на запрос с помощью **делегата** . Ответ содержит сведения о разрешениях для делегированного доступа, будь то делегат может просматривать частные элементы, независимо от того, получает ли представитель копии сообщений о собраниях и кому были доставлены приглашения на собрания. 
   

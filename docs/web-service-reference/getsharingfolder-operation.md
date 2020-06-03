@@ -16,7 +16,7 @@ ms.openlocfilehash: cf66eb390b0287e89bb8402f26a2e728868a2b18
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460514"
 ---
 # <a name="getsharingfolder-operation"></a>Операция GetSharingFolder
@@ -90,7 +90,7 @@ ms.locfileid: "44460514"
   
 ## <a name="successful-getsharingfolder-response"></a>Успешный ответ GetSharingFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **GetSharingFolder** . Атрибут **ID** элемента [шарингфолдерид](sharingfolderid.md) представляет идентификатор локальной папки в отношении общего доступа. 
   
@@ -123,7 +123,7 @@ ms.locfileid: "44460514"
 
 ## <a name="getsharingfolder-error-response"></a>Ответ об ошибке GetSharingFolder
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан ответ об ошибке для запроса **GetSharingFolder** . В этом примере возникла ошибка, так как в запросе указаны элементы [шарингфолдерид](sharingfolderid.md) и [DataType](datatype.md) . Обратите внимание, что можно указать только один из этих двух элементов, но не оба. 
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 38cf4082a47366a1549df31424cd4cdc189c6ae9
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460185"
 ---
 # <a name="emailtext-setencryptionconfigurationtype"></a>EmailText (Сетенкриптионконфигуратионтипе)

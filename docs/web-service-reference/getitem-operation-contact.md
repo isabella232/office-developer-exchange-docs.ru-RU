@@ -16,7 +16,7 @@ ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460024"
 ---
 # <a name="getitem-operation-contact"></a>Операция GetItem (контакт)
@@ -25,7 +25,7 @@ ms.locfileid: "44460024"
   
 ## <a name="getitem-contact-request-example"></a>Пример запроса GetItem (Contact)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере показано, как получить элемент из хранилища Exchange.
   
@@ -72,7 +72,7 @@ ms.locfileid: "44460024"
     
 ## <a name="successful-getitem-contact-response"></a>Успешный отклик GetItem (контакт)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере кода показан успешный отклик GetItem для объекта **аллпропертиес**[басешапе](baseshape.md).
   
@@ -253,7 +253,7 @@ ms.locfileid: "44460024"
     
 ## <a name="invalid-getitem-contact-request-example"></a>Недопустимый пример запроса GetItem (Contact)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере кода показан недопустимый запрос.
   
@@ -284,7 +284,7 @@ ms.locfileid: "44460024"
   
 ## <a name="getitem-contact-error-response"></a>Ответ об ошибке GetItem (Contact)
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере кода показан ответ с сообщением об ошибке для запроса GetItem (Contact).
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: c001b7656862144023e9704cb04e6b4c0030f9df
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459393"
 ---
 # <a name="updateitem-operation"></a>Операция UpdateItem
@@ -31,7 +31,7 @@ ms.locfileid: "44459393"
 |:-----|:-----|
 |Error  <br/> |Добавляет данные к существующему свойству. Это действие сохранит текущие данные. Append не применяется ко всем свойствам.  <br/> |
 |Set  <br/> |Заменяет данные для свойства, если свойство содержит данные, или создает свойство и задает его значение, если свойство не существует. Действие Set применяется только к записываемым свойствам.  <br/> |
-|Удалить  <br/> |Удаляет свойство из элемента. Это отличается от присвоения свойству пустого значения. По завершении этого действия свойство для элемента не существует. DELETE применяется только к записываемым свойствам.  <br/> |
+|Удаление  <br/> |Удаляет свойство из элемента. Это отличается от присвоения свойству пустого значения. По завершении этого действия свойство для элемента не существует. DELETE применяется только к записываемым свойствам.  <br/> |
    
 Вызов **UpdateItem** можно использовать для изменения одного или нескольких элементов и одного или нескольких свойств каждого элемента. Элемент [итемчанжес](itemchanges.md) содержит все изменения, которые необходимо выполнить в рамках этого вызова. Элемент [итемчанже](itemchange.md) , являющийся дочерним по отношению к элементу [итемчанжес](itemchanges.md) , представляет изменения, которые необходимо выполнить для одного элемента. Элемент [итемчанже](itemchange.md) содержит набор действий обновления, которые можно выполнить для одного элемента. Эти изменения включены в элемент [Updates (Item)](updates-item.md) . Элемент [ItemId](itemid.md) определяет обновляемый элемент. Чтобы обновить несколько свойств элемента, необходимо предоставить [сетитемфиелд](setitemfield.md), [аппендтоитемфиелд](appendtoitemfield.md)или [делетеитемфиелд](deleteitemfield.md) для каждого свойства, для которого требуется обновление. 
   
@@ -46,7 +46,7 @@ ms.locfileid: "44459393"
   
 ## <a name="setitemfield-request-example"></a>Пример запроса Сетитемфиелд
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **UpdateItem** показано, как задать свойство "чувствительность" для элемента. 
   
@@ -101,13 +101,13 @@ ms.locfileid: "44459393"
     
 - [фиелдури](fielduri.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
 - [Sensitivity](sensitivity.md)
     
 ## <a name="appendtoitemfield-request-example"></a>Пример запроса Аппендтоитемфиелд
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **UpdateItem** показано, как добавить текст в свойство Body элемента. 
   
@@ -170,13 +170,13 @@ ms.locfileid: "44459393"
     
 - [фиелдури](fielduri.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
 - [Body](body.md)
     
 ## <a name="deleteitemfield-request-example"></a>Пример запроса Делетеитемфиелд
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере запроса **UpdateItem** показано, как удалить свойство элемента. 
   
@@ -229,7 +229,7 @@ ms.locfileid: "44459393"
     
 ## <a name="successful-response-example"></a>Пример успешного ответа
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **UpdateItem** . 
   
@@ -283,7 +283,7 @@ ms.locfileid: "44459393"
     
 - [Items](items.md)
     
-- [Message](message-ex15websvcsotherref.md)
+- [Сообщение](message-ex15websvcsotherref.md)
     
 - [Идентификатор](itemid.md)
     

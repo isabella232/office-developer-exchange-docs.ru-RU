@@ -16,7 +16,7 @@ ms.openlocfilehash: b9c0f28333594a6c17ee9581a227fc4773874fd6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460801"
 ---
 # <a name="create-itemsync"></a>Create (Итемсинк)
@@ -104,7 +104,7 @@ ms.locfileid: "44460801"
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Ресурс](item.md) <br/> |Представляет общий элемент Exchange для создания.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Представляет создаваемое сообщение электронной почты Exchange.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет создаваемое сообщение электронной почты Exchange.  <br/> |
 |[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange, который необходимо создать.  <br/> |
 |[контакт](contact.md); <br/> |Представляет элемент контакта Exchange, который необходимо создать.  <br/> |
 |[дистрибутионлист](distributionlist.md) <br/> |Представляет создаваемый список рассылки.  <br/> |
