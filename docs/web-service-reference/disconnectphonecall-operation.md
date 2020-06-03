@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b42fb512-2ae4-4072-906a-ccebb85edb84
 description: Операция DisconnectPhoneCall завершает телефонный звонок.
-ms.openlocfilehash: 4bd68dd40f831794072263b487255330ea31d7bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e337185bc2d5c4d2d4e010605816eacea8dfa0ee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762139"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529065"
 ---
 # <a name="disconnectphonecall-operation"></a>Операция DisconnectPhoneCall
 
@@ -25,7 +25,7 @@ ms.locfileid: "19762139"
   
 ## <a name="disconnectphonecall-request-example"></a>Пример запроса DisconnectPhoneCall
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В приведенном ниже примере запроса **DisconnectPhoneCall** показано, как сформировать запрос на отключение телефонного вызова. 
   
@@ -34,8 +34,8 @@ ms.locfileid: "19762139"
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -51,7 +51,7 @@ ms.locfileid: "19762139"
 
 ## <a name="disconnectphonecall-response-example"></a>Пример отклика DisconnectPhoneCall
 
-### <a name="description"></a>Описание
+### <a name="description"></a>Description
 
 В следующем примере показан успешный ответ на запрос **DisconnectPhoneCall** . 
   
@@ -66,15 +66,15 @@ ms.locfileid: "19762139"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <DisconnectPhoneCallResponse ResponseClass="Success" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
     </DisconnectPhoneCallResponse>
   </s:Body>

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c9c89b5-4ce8-437b-a332-fa7ed35c8388
 description: Элемент Рекуррингмастеритемидранжес указывает массив диапазонов вхождений.
-ms.openlocfilehash: 60d987f475bed5d630a1238550e4d14578ebd0d5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 784676844c5c58c65b8cc6177843bf26d351b7d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835016"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528757"
 ---
 # <a name="recurringmasteritemidranges"></a>рекуррингмастеритемидранжес
 
@@ -43,7 +43,7 @@ ms.locfileid: "19835016"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Итемидс](itemids.md) | [глобалитемидс](globalitemids.md) | [GroupIds](groupids.md) [ContactIds](contactids.md)[DraftItemIds](draftitemids.md)драфтитемидс контактидс граупидс |  | 
+[Итемидс](itemids.md)  |  [Глобалитемидс](globalitemids.md)  |  [Драфтитемидс](draftitemids.md)  |  [Контактидс](contactids.md)  |  [Граупидс](groupids.md)
   
 ## <a name="remarks"></a>Примечания
 
@@ -55,7 +55,7 @@ ms.locfileid: "19835016"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

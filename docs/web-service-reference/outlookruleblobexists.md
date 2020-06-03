@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ae1bc448-deb9-4b5b-ab38-4b276abcb650
 description: Элемент Аутлукрулеблобексистс указывает, существует ли большой двоичный объект правила Microsoft Outlook в почтовом ящике пользователя.
-ms.openlocfilehash: a738377cd3c1d69b90ac39ca479b03b3220d5bc5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6a5c2a2ec0246d38b22279b86772972ea81922c7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834679"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529030"
 ---
 # <a name="outlookruleblobexists"></a>аутлукрулеблобексистс
 
@@ -38,11 +38,11 @@ ms.locfileid: "19834679"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834679"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

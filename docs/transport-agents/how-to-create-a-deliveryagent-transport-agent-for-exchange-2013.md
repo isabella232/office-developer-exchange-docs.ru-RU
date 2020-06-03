@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4af904d7-b315-4849-92b1-66018f76ffdf
 description: Узнайте, как создать настраиваемый агент транспорта DeliveryAgent для использования с Exchange 2013.
-ms.openlocfilehash: bc36c7b5e0fb8006c5927d423d7767dcc7382ce0
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: b349f0b6d835ba3d6195b43e80d1dcd21750bf82
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353310"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527574"
 ---
 # <a name="create-a-deliveryagent-transport-agent-for-exchange-2013"></a>Создание агента транспорта DeliveryAgent для Exchange 2013
 
@@ -21,15 +21,15 @@ ms.locfileid: "21353310"
   
 **Применимо к:** Exchange Server 2013
   
-Классы [деливеряжентфактори\<Manager\> ](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) и [DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) являются базовыми классами для агентов транспорта, которые предназначены для запуска в службе транспорта на сервере почтовых ящиков Exchange Server 2013. Вы можете реализовать обработчики в агенте транспорта DeliveryAgent для событий, предоставляемых классом [DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) , которые перечислены в следующей таблице. 
+Классы [деливеряжентфактори \<Manager\> ](https://msdn.microsoft.com/library/dd877550(v=exchg.150).aspx) и [DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) являются базовыми классами для агентов транспорта, которые предназначены для запуска в службе транспорта на сервере почтовых ящиков Exchange Server 2013. Вы можете реализовать обработчики в агенте транспорта DeliveryAgent для событий, предоставляемых классом [DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) , которые перечислены в следующей таблице. 
   
 **Таблица 1. События класса DeliveryAgent**
 
 |**Event**|**Описание**|
 |:-----|:-----|
-|[онклосеконнектион](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx) <br/> |Происходит после доставки последней почтовой позиции и закрытия подключения.  <br/> |
-|[онделивермаилитем](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx) <br/> |Происходит, когда почтовый элемент готов к доставке.  <br/> |
-|[онопенконнектион](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx) <br/> |Возникает при открытии агента доставки для доставки почты.  <br/> |
+|[онклосеконнектион](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx) <br/> |Происходит после доставки последней почтовой позиции и закрытия подключения.  <br/> |
+|[онделивермаилитем](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx) <br/> |Происходит, когда почтовый элемент готов к доставке.  <br/> |
+|[онопенконнектион](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx) <br/> |Возникает при открытии агента доставки для доставки почты.  <br/> |
    
 ## <a name="creating-a-custom-deliveryagent-transport-agent"></a>Создание настраиваемого агента транспорта DeliveryAgent
 
@@ -45,9 +45,9 @@ ms.locfileid: "21353310"
     
    ```
 
-   Эти пространства имен можно найти на сервере Exchange. Добавив ссылку на эти пространства имен, вы получите доступ к элементам [DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) . 
+   Эти пространства имен можно найти на сервере Exchange. Добавив ссылку на эти пространства имен, вы получите доступ к элементам [DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) . 
     
-2. Реализуйте производный класс для [класса\<диспетчера\> деливеряжентфактори](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) . 
+2. Реализуйте производный класс для [класса \<Manager\> деливеряжентфактори](https://msdn.microsoft.com/library/dd877550(v=exchg.150).aspx) . 
     
    ```cs
       public class MyDeliveryAgentFactory : DeliveryAgentFactory<MyDeliveryAgentFactory.MyDeliveryAgentManager>
@@ -90,7 +90,7 @@ ms.locfileid: "21353310"
   
    ```
 
-   Определив класс агента, вы можете добавить пользовательские функции. В этом примере три события, [онклосеконнектион](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx), [онделивермаилитем](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx)и [онопенконнектион](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx), перенаправляются в обработчики пользовательских событий. 
+   Определив класс агента, вы можете добавить пользовательские функции. В этом примере три события, [онклосеконнектион](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.oncloseconnection(v=exchg.150).aspx), [онделивермаилитем](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.ondelivermailitem(v=exchg.150).aspx)и [онопенконнектион](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent.onopenconnection(v=exchg.150).aspx), перенаправляются в обработчики пользовательских событий. 
     
 ## <a name="see-also"></a>См. также
 

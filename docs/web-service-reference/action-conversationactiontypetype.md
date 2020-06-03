@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8bbc12f2-76c5-4fda-828f-56b2086a0454
 description: Элемент Action содержит действие, которое необходимо выполнить для диалога, указанного элементом ConversationId.
-ms.openlocfilehash: b468eeaf0c2509bfa53cbd83f497f0bae20a7f68
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f97b04b98cdc29bee9aff5fa1fc6f37400b8314c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761323"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527546"
 ---
 # <a name="action-conversationactiontypetype"></a>Action (Конверсатионактионтипетипе)
 
@@ -42,11 +42,11 @@ ms.locfileid: "19761323"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -82,7 +82,7 @@ ms.locfileid: "19761323"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

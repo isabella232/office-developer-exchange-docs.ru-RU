@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 57e9fba3-5751-4c37-b0c8-ac6dde1c7544
 description: Элемент Бинаридата содержит содержимое свойства двоичных данных.
-ms.openlocfilehash: d98da312bbf970df54ddeaf525d00217275d1f82
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8f7f62e37613ef74aa760014cf27291b80cca127
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761560"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527413"
 ---
 # <a name="binarydata"></a>бинаридата
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761560"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761560"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

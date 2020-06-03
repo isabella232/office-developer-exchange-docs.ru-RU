@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 22d30d1f-a84d-48bb-ad8f-ce13f8e76604
 description: Элемент Комплетенаме представляет полное имя контакта.
-ms.openlocfilehash: bca6f7e0eb915841673d00b5485da2f0f9794e80
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 9b5d2646ec37b41cd88d7de61573bfb4a8746cdf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354262"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527175"
 ---
 # <a name="completename"></a>комплетенаме
 
@@ -45,13 +45,13 @@ ms.locfileid: "21354262"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Заголовок](title.md) <br/> |Представляет название контакта.  <br/> |
+|[Title](title.md) <br/> |Представляет название контакта.  <br/> |
 |[FirstName](firstname.md) <br/> |Представляет имя контакта.  <br/> |
 |[MiddleName](middlename.md) <br/> |Представляет отчество контакта.  <br/> |
 |[LastName](lastname.md) <br/> |Представляет фамилию контакта.  <br/> |
@@ -70,7 +70,7 @@ ms.locfileid: "21354262"
    
 ## <a name="remarks"></a>Примечания
 
-Свойство Комплетенаме является частью фигуры [по умолчанию](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . В первоначальном выпуске Microsoft Exchange Server 2007 свойство Комплетенаме возвращается [операцией GetItem](getitem-operation.md), но не [операцией FindItem](finditem-operation.md). Начиная с Exchange Server 2007 с пакетом обновления 1 (SP1), [Операция FindItem](finditem-operation.md) также возвращает свойство комплетенаме с фигурой [по умолчанию](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . Это изменение не влияет на схему. 
+Свойство Комплетенаме является частью фигуры [по умолчанию](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . В первоначальном выпуске Microsoft Exchange Server 2007 свойство Комплетенаме возвращается [операцией GetItem](getitem-operation.md), но не [операцией FindItem](finditem-operation.md). Начиная с Exchange Server 2007 с пакетом обновления 1 (SP1), [Операция FindItem](finditem-operation.md) также возвращает свойство комплетенаме с фигурой [по умолчанию](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . Это изменение не влияет на схему. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -78,7 +78,7 @@ ms.locfileid: "21354262"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -87,5 +87,5 @@ ms.locfileid: "21354262"
 
 - [комплетенаметипе](https://msdn.microsoft.com/library/ExchangeWebServices.CompleteNameType.aspx)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

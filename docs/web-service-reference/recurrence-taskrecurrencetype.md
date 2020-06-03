@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 99f8414a-9110-4721-a6e5-ebf225d7ed0a
 description: Элемент периодичности содержит сведения о повторении для повторяющихся задач.
-ms.openlocfilehash: 0ec43447e47050a0bd483d8441da88e4a7f08923
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 933fd6b003d8d193e1561f2a22b65ac00237c345
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354423"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528834"
 ---
 # <a name="recurrence-taskrecurrencetype"></a>Повторение (Таскрекурренцетипе)
 
@@ -242,7 +242,7 @@ ms.locfileid: "21354423"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -276,7 +276,7 @@ ms.locfileid: "21354423"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

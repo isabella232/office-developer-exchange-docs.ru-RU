@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 085384f9-dca4-4534-82e2-dd782471d0da
 description: Элемент Дисковерисеарчконфигуратион указывает конфигурацию для поиска обнаружения электронных данных.
-ms.openlocfilehash: 11bf90d8fe73bb0b308deb7ae51f1443488f87e2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8819d951f35ccc215bdf0128d2a16b60bbf20f2a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19762145"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529058"
 ---
 # <a name="discoverysearchconfiguration"></a>дисковерисеарчконфигуратион
 
@@ -34,7 +34,7 @@ ms.locfileid: "19762145"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19762145"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
 |Файл проверки  <br/> |messages. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: fa366afe-77a0-4c14-9edb-ffc9699131ba
 description: Элемент Реминдериссет указывает, задано ли напоминание для элемента в хранилище Exchange.
-ms.openlocfilehash: 3548bd0215d61add0eaf723f22317a2d4663f305
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 293391866ae769f697f865749335c9323839a1d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19835058"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528722"
 ---
 # <a name="reminderisset"></a>реминдериссет
 
@@ -34,11 +34,11 @@ ms.locfileid: "19835058"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -68,7 +68,7 @@ ms.locfileid: "19835058"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd3d3221-c98e-4fa0-81f0-77f733d2f432
 description: Узнайте, как импортировать встречи, сообщения электронной почты, контакты, задачи и другие элементы с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: c09c96eff455b7584b084e71b937853abfde731d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bc874c667c31beb4e59a305626247488cb1a1781
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761068"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527987"
 ---
 # <a name="import-items-by-using-ews-in-exchange"></a>Импорт элементов с помощью EWS в Exchange
 
 Узнайте, как импортировать встречи, сообщения электронной почты, контакты, задачи и другие элементы с помощью управляемого API EWS или EWS в Exchange.
   
-Многие системы содержат встречи, сообщения электронной почты, контакты и задачи, а также могут импортировать эти элементы в Exchange несколькими различными способами. Импорт элементов в Exchange выполняется просто, если для этих элементов не поддерживаются отношения почтовых ящиков. Для создания элементов в почтовом ящике Exchange можно использовать метод [Item. Save](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.item.save%28v=exchg.80%29.aspx) управляемый API EWS или операцию [CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS. Простой подход не поддерживает все сценарии, однако. Например: 
+Многие системы содержат встречи, сообщения электронной почты, контакты и задачи, а также могут импортировать эти элементы в Exchange несколькими различными способами. Импорт элементов в Exchange выполняется просто, если для этих элементов не поддерживаются отношения почтовых ящиков. Для создания элементов в почтовом ящике Exchange можно использовать метод [Item. Save](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.item.save%28v=exchg.80%29.aspx) управляемый API EWS или операцию [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS. Простой подход не поддерживает все сценарии, однако. Например: 
   
 - Вы не можете поддерживать связь между организаторов и участниками при импорте встреч с участниками (собраниями). Это означает, что организатору собрания потребуется повторить отправку приглашений на собрания для участников, чтобы установить связь между организатором и участниками. Если встреча была импортирована в календарь участника, встреча не будет связана с встречей организатора собрания. Участникам необходимо принять приглашение на собрание, отправленное из организатора, чтобы восстановить связь с организатором.
     
@@ -34,17 +34,17 @@ ms.locfileid: "19761068"
 
 |**Объект управляемого API EWS**|**Элемент EWS**|
 |:-----|:-----|
-|[EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) <br/> |[Сообщение](http://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) <br/> |
-|[контакт](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx); <br/> |[контакт](http://msdn.microsoft.com/library/66bfff50-7a91-4d81-b6a0-610b9962f677%28Office.15%29.aspx); <br/> |
-|[Встреча](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) <br/> |[календаритем](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) <br/> |
-|[Task](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.task%28v=exchg.80%29.aspx) <br/> |[Task](http://msdn.microsoft.com/library/7c84927e-db28-4c5d-b0b5-cbcc2b88d869%28Office.15%29.aspx) <br/> |
+|[EmailMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) <br/> |[Сообщение](https://msdn.microsoft.com/library/2400b33c-43b2-4fc2-b6fb-275a99e0e810%28Office.15%29.aspx) <br/> |
+|[контакт](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx); <br/> |[контакт](https://msdn.microsoft.com/library/66bfff50-7a91-4d81-b6a0-610b9962f677%28Office.15%29.aspx); <br/> |
+|[Встреча](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) <br/> |[календаритем](https://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) <br/> |
+|[Task](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.task%28v=exchg.80%29.aspx) <br/> |[Task](https://msdn.microsoft.com/library/7c84927e-db28-4c5d-b0b5-cbcc2b88d869%28Office.15%29.aspx) <br/> |
    
-Используйте метод [Item. Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.save%28v=exchg.80%29.aspx) Managed API или операцию [CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS для выполнения импорта элементов. Этот подход рекомендуется при импорте элементов из других систем, так как вы контролируете, какие свойства будут импортированы. Дополнительные сведения о том, как задать свойства элементов и затем сохранить элемент, можно узнать в статье [Создание элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_createewsma) или [Создание элемента с помощью EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_createews).
+Используйте метод [Item. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.save%28v=exchg.80%29.aspx) Managed API или операцию [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS для выполнения импорта элементов. Этот подход рекомендуется при импорте элементов из других систем, так как вы контролируете, какие свойства будут импортированы. Дополнительные сведения о том, как задать свойства элементов и затем сохранить элемент, можно узнать в статье [Создание элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_createewsma) или [Создание элемента с помощью EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_createews).
   
 ## <a name="import-items-with-full-fidelity"></a>Импорт элементов с полными качествами
 <a name="bk_importproperties"> </a>
 
-Вы можете использовать операцию [UploadItems](http://msdn.microsoft.com/library/a88cbe99-7968-454d-a545-4f92c330909f%28Office.15%29.aspx) EWS для отправки элемента в качестве потока данных. Это представление потока данных элемента должно поступать из результатов вызова операции [ExportItems](http://msdn.microsoft.com/library/e2846abb-0b16-4732-bbd8-038a674672f6%28Office.15%29.aspx) . Так как управляемый API EWS не реализует операцию **UploadItems** , если вы используете управляемый API EWS, вам потребуется написать процедуру для отправки веб-запросов. 
+Вы можете использовать операцию [UploadItems](https://msdn.microsoft.com/library/a88cbe99-7968-454d-a545-4f92c330909f%28Office.15%29.aspx) EWS для отправки элемента в качестве потока данных. Это представление потока данных элемента должно поступать из результатов вызова операции [ExportItems](https://msdn.microsoft.com/library/e2846abb-0b16-4732-bbd8-038a674672f6%28Office.15%29.aspx) . Так как управляемый API EWS не реализует операцию **UploadItems** , если вы используете управляемый API EWS, вам потребуется написать процедуру для отправки веб-запросов. 
   
 Это самый простой способ импортировать элементы, экспортированные с другого сервера Exchange Server.
   
@@ -54,9 +54,9 @@ ms.locfileid: "19761068"
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-      xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-      xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+      xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+      xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1"/>
   </soap:Header>
@@ -73,16 +73,16 @@ ms.locfileid: "19761068"
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **UploadItems** с помощью элемента [уплоадитемсреспонсе](http://msdn.microsoft.com/library/93044d39-4489-456a-8cce-b6d69873348f%28Office.15%29.aspx) , который содержит значение элемента [респонсекоде](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) с **ошибкой**, что указывает на то, что элемент был успешно отправлен. Ответ также включает идентификатор элемента отправленного элемента. 
+Сервер отвечает на запрос **UploadItems** с помощью элемента [уплоадитемсреспонсе](https://msdn.microsoft.com/library/93044d39-4489-456a-8cce-b6d69873348f%28Office.15%29.aspx) , который содержит значение элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) с **ошибкой**, что указывает на то, что элемент был успешно отправлен. Ответ также включает идентификатор элемента отправленного элемента. 
   
 ## <a name="use-the-mime-stream-to-import-from-common-file-formats"></a>Использование потока MIME для импорта из распространенных форматов файлов
 <a name="bk_importproperties"> </a>
 
-В веб-службах EWS можно импортировать файлы EML (EML) и iCal (ICS). Вы хотите протестировать содержимое MIME, чтобы увидеть, как средство синтаксического анализа MIME Exchange обрабатывает содержимое потока MIME. Хотя использование потока MIME удобно, [для импорта элемента лучше использовать управляемый API EWS или типы элементов EWS](#bk_importproperties). Ниже приведен пример [импорта визитной карточки](http://code.msdn.microsoft.com/How-to-Import-vCard-Files-ffa0ff50).
+В веб-службах EWS можно импортировать файлы EML (EML) и iCal (ICS). Вы хотите протестировать содержимое MIME, чтобы увидеть, как средство синтаксического анализа MIME Exchange обрабатывает содержимое потока MIME. Хотя использование потока MIME удобно, [для импорта элемента лучше использовать управляемый API EWS или типы элементов EWS](#bk_importproperties). Ниже приведен пример [импорта визитной карточки](https://code.msdn.microsoft.com/How-to-Import-vCard-Files-ffa0ff50).
   
 ### <a name="use-the-ews-managed-api-to-import-an-email-from-an-eml-file-by-using-the-mime-stream"></a>Использование управляемого API EWS для импорта электронной почты из EML-файла с помощью потока MIME
 
-В приведенном ниже примере показано, как задать свойство [сохранитьmimecontent](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) с содержимым файла EML и затем импортировать его в почтовый ящик. В этом примере также показано, как задать расширенное свойство [PidTagMessageFlags (0x0E07)](http://msdn.microsoft.com/en-us/library/office/cc839733%28v=office.15%29.aspx) для импортированного электронного сообщения, чтобы оно не отображалось в почтовом ящике как элемент черновика. В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь может пройти проверку подлинности на сервере Exchange. 
+В приведенном ниже примере показано, как задать свойство [сохранитьmimecontent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) с содержимым файла EML и затем импортировать его в почтовый ящик. В этом примере также показано, как задать расширенное свойство [PidTagMessageFlags (0x0E07)](https://msdn.microsoft.com/library/office/cc839733%28v=office.15%29.aspx) для импортированного электронного сообщения, чтобы оно не отображалось в почтовом ящике как элемент черновика. В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и пользователь может пройти проверку подлинности на сервере Exchange. 
   
 ```cs
 private static void UploadMIMEEmail(ExchangeService service)
@@ -150,13 +150,13 @@ private static void UploadMIMEAppointment(ExchangeService service)
 
 ### <a name="use-ews-to-import-an-item-by-using-the-mime-stream"></a>Использование EWS для импорта элемента с помощью потока MIME
 
-Вы можете использовать операцию [CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS для импорта элементов EML и iCal с помощью потока MIME. 
+Вы можете использовать операцию [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS для импорта элементов EML и iCal с помощью потока MIME. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+<soap:Envelope xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
     <t:MailboxCulture>en-US</t:MailboxCulture>

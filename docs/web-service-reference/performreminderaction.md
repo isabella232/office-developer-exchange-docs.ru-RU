@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cee14262-7153-44da-bb42-b856e380c4d0
 description: Элемент PerformReminderAction указывает запрос на выполнение действия напоминания.
-ms.openlocfilehash: d57b7694e9678fc8e096e01c7cca162e5d2d16e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 915b15d3fd0663eb554eb1543845f670a2ae0772
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834723"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529002"
 ---
 # <a name="performreminderaction"></a>PerformReminderAction
 
@@ -32,7 +32,7 @@ ms.locfileid: "19834723"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19834723"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

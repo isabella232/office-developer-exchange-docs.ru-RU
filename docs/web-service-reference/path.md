@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5829149e-7bfe-4820-bcc6-910e9264acc9
 description: Элемент Path является базовым типом схемы для всех идентификаторов свойств. Этот тип является абстрактным и никогда не происходит непосредственно в экземплярах документов.
-ms.openlocfilehash: a5a1ca5179ccf339e5a1f15621c92e2870f4f2d9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ba18084243e9720a76b9ac28023778c6d546bc4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834700"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529016"
 ---
 # <a name="path"></a>Путь
 
@@ -34,11 +34,11 @@ ms.locfileid: "19834700"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19834700"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

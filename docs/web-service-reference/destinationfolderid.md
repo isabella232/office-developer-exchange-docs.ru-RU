@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 77d2d222-320b-4aab-88e4-934ef177f55c
 description: Элемент Дестинатионфолдерид указывает папку назначения для действий по копированию и перемещению.
-ms.openlocfilehash: bfbacb9c82a681c7963ab5164c43cbb648e726cd
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: dbfd25084dbd4ea9d5f4ddf98b256d02e71139d3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353380"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526916"
 ---
 # <a name="destinationfolderid"></a>дестинатионфолдерид
 
@@ -48,7 +48,7 @@ ms.locfileid: "21353380"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -75,7 +75,7 @@ ms.locfileid: "21353380"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

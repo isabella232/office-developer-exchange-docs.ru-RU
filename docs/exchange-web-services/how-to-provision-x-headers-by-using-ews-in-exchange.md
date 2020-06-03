@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 45a99a14-a85f-47f8-af48-18eb6c6cc230
 description: Узнайте, как подготовить x-заголовки для почтового ящика с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: de572764921da432cfa203b3dcf166d1d34dd0cd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 409ddb944bbac7a60242de39cdf7ae13b17cc76a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761099"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527770"
 ---
 # <a name="provision-x-headers-by-using-ews-in-exchange"></a>Подготовка заголовков x с помощью EWS в Exchange
 
@@ -22,12 +22,12 @@ X-заголовки не являются стандартными заголо
 Exchange добавляет входящие x заголовков в схему почтовых ящиков в качестве именованного свойства при первом получении сообщения электронной почты с таким x – заголовком. Значение x-заголовка не сохраняется в первом сообщении электронной почты; Однако он сохраняется во всех последующих сообщениях электронной почты, которые содержат x-заголовок. По этой причине приложение должно подготовить x – заголовки, прежде чем ожидать их использования. Сопоставление между именованным свойством и заголовком x происходит при транспортной доставке сообщения электронной почты в почтовый ящик. Это означает, что вам необходимо получать электронную почту через транспортную доставку; Вы не можете просто сохранить электронное письмо с заголовком x для почтового ящика, чтобы создать сопоставление с именованным свойством.
   
 > [!NOTE]
-> Если вы обнаружите, что x-заголовки не сохраняются, определите, отфильтровывает ли [агент транспорта](http://code.msdn.microsoft.com/Exchange-2013-Build-an-32f62f5a) или [брандмауэр заголовков](http://technet.microsoft.com/en-us/library/bb232136%28v=exchg.150%29.aspx) свои x-заголовки, прежде чем они получится к почтовому ящику. 
+> Если вы обнаружите, что x-заголовки не сохраняются, определите, отфильтровывает ли [агент транспорта](https://code.msdn.microsoft.com/Exchange-2013-Build-an-32f62f5a) или [брандмауэр заголовков](https://technet.microsoft.com/library/bb232136%28v=exchg.150%29.aspx) свои x-заголовки, прежде чем они получится к почтовому ящику. r
   
 ## <a name="provision-an-x-header-by-using-the-ews-managed-api"></a>Подготовка x-заголовка с помощью управляемого API EWS
 <a name="bk_example1"> </a>
 
-В приведенном ниже примере кода показано, как использовать метод [EmailMessage. Send](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) управляемого API EWS для подготовки x-заголовка для почтового ящика. В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , а целевой почтовый ящик не превысил [квоту для именованных свойств](http://technet.microsoft.com/en-us/library/bb851492%28v=EXCHG.80%29.aspx).
+В приведенном ниже примере кода показано, как использовать метод [EmailMessage. Send](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) управляемого API EWS для подготовки x-заголовка для почтового ящика. В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , а целевой почтовый ящик не превысил [квоту для именованных свойств](https://technet.microsoft.com/library/bb851492%28v=EXCHG.80%29.aspx).
   
 ```cs
 private static void ProvisionCustomXHeaderByEmail(ExchangeService service)
@@ -66,14 +66,14 @@ private static void ProvisionCustomXHeaderByEmail(ExchangeService service)
 ## <a name="provision-an-x-header-by-using-ews"></a>Подготовка x – заголовка с помощью EWS
 <a name="bk_example1"> </a>
 
-В приведенном ниже примере кода показано, как использовать операцию [CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) для создания и отправки электронной почты для подготовки почтового ящика к заголовку x. Это XML-запрос, отправляемый управляемым API EWS при [подготовке x-заголовка с помощью управляемого API EWS](#bk_example1).
+В приведенном ниже примере кода показано, как использовать операцию [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) для создания и отправки электронной почты для подготовки почтового ящика к заголовку x. Это XML-запрос, отправляемый управляемым API EWS при [подготовке x-заголовка с помощью управляемого API EWS](#bk_example1).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -115,15 +115,15 @@ private static void ProvisionCustomXHeaderByEmail(ExchangeService service)
 
 - [Свойства и расширенные свойства в веб-службах Exchange](properties-and-extended-properties-in-ews-in-exchange.md)
     
-- [Exchange 2013: подготовка настраиваемых X – заголовков программным способом](http://code.msdn.microsoft.com/exchange/Exchange-2013-Provision-d4ef5719)
+- [Exchange 2013: подготовка настраиваемых X – заголовков программным способом](https://code.msdn.microsoft.com/exchange/Exchange-2013-Provision-d4ef5719)
     
-- [Именованные свойства, X – заголовки и](http://blogs.technet.com/b/exchange/archive/2009/04/06/3407221.aspx)
+- [Именованные свойства, X – заголовки и](https://blogs.technet.com/b/exchange/archive/2009/04/06/3407221.aspx)
     
-- [Именованные свойства, Round 2: что находится впереди](http://blogs.technet.com/b/exchange/archive/2009/06/12/3407672.aspx)
+- [Именованные свойства, Round 2: что находится впереди](https://blogs.technet.com/b/exchange/archive/2009/06/12/3407672.aspx)
     
-- [Брандмауэр заголовков](http://technet.microsoft.com/en-us/library/bb232136%28v=exchg.150%29.aspx)
+- [Брандмауэр заголовков](https://technet.microsoft.com/library/bb232136%28v=exchg.150%29.aspx)
     
-- [EWS, MIME и отсутствующие заголовки сообщений Интернета](http://msdn.microsoft.com/library/office/hh545614%28v=exchg.140%29.aspx)
+- [EWS, MIME и отсутствующие заголовки сообщений Интернета](https://msdn.microsoft.com/library/office/hh545614%28v=exchg.140%29.aspx)
     
 - [Обработка сообщений электронной почты в пакетах с помощью EWS в Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
     

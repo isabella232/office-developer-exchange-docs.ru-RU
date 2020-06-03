@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 611fcf5f-780a-42ea-bccb-9462a2f0c095
 description: Элемент автообнаружения является корневым элементом запроса на обнаружение или ответа.
-ms.openlocfilehash: 0ac0daf20686e627905e9fe3a06722b7a681f3c9
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 6fc889dc700a9fb068949d3ba5e4e6907b839f3c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353499"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527434"
 ---
 # <a name="autodiscover-pox"></a>Служба автообнаружения (POX)
 
@@ -40,7 +40,7 @@ ms.locfileid: "21353499"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 

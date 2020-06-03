@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e978cd19-96ce-4ebf-81df-eadf2d775132
 description: Элемент Country представляет страну или регион для данного физического адреса.
-ms.openlocfilehash: 84a8cc4c76af616f116f35b733a645a6a0e4640c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2e5b8ec40676123c17d6c7f987f139246dbd0493
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761851"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527098"
 ---
 # <a name="countryorregion"></a>CountryOrRegion
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761851"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19761851"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

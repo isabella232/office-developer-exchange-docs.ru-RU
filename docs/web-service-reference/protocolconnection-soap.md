@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 6eef2188-6194-48f1-ad7e-46104aecdf56
 description: Элемент Протоколконнектион представляет подключение протокола для веб-клиента сервера.
-ms.openlocfilehash: 8b5396821cd959e41d24fcf7a94c519f9c634a1f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b9df3febe36db53d7c5bf0610ba857f13aa96abc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834915"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528862"
 ---
 # <a name="protocolconnection-soap"></a>Протоколконнектион (SOAP)
 
@@ -35,7 +35,7 @@ ms.locfileid: "19834915"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,13 +53,13 @@ ms.locfileid: "19834915"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Нет.
+Отсутствуют.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Имя схемы  <br/> |Схема автообнаружения  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |

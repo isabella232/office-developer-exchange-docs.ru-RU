@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54fd2192-54ca-4e42-b630-a3fbdd8e4239
 description: Элемент PhoneString указывает номер телефона для извлеченного контакта.
-ms.openlocfilehash: 83f8a4f08df00de9721ee9648876718ac593210b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cc528b74034d1fd76c19247e72bb5ac00e7734d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834769"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528891"
 ---
 # <a name="phonestring"></a>PhoneString
 
@@ -30,15 +30,15 @@ ms.locfileid: "19834769"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Телефон](phone.md) | [(фонинтититипе)](phone-phoneentitytype.md)
+[Phone (телефон](phone.md)  |  ) [Телефон (фонинтититипе)](phone-phoneentitytype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
@@ -54,7 +54,7 @@ ms.locfileid: "19834769"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> ||

@@ -1,5 +1,5 @@
 ---
-title: Хранится
+title: Contains
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 476d059d-c243-43e9-b475-319fc413ade2
 description: Элемент Contains представляет выражение поиска, которое определяет, содержит ли данное свойство предоставленное значение константы String.
-ms.openlocfilehash: b25b69aadf2c331527a17ad81ed46f61aa7b93c2
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 79529bd752bcbce954ae3c8b0085c203b4eb8777
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354290"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527119"
 ---
-# <a name="contains"></a>Хранится
+# <a name="contains"></a>Contains
 
 Элемент **Contains** представляет выражение поиска, которое определяет, содержит ли данное свойство предоставленное значение константы String. 
   
@@ -109,7 +109,7 @@ ms.locfileid: "21354290"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

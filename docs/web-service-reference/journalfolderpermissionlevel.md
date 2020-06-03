@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 564525fa-cd95-4c1a-9d6c-3806be664579
 description: Элемент Жаурналфолдерпермиссионлевел содержит разрешения для папки журнала по умолчанию. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 030c2682fd6eaaf46c8be04e8357c285296816cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5c0f30932eb3fbbeef1a8e34611deeb1ffef402c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19834184"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529051"
 ---
 # <a name="journalfolderpermissionlevel"></a>жаурналфолдерпермиссионлевел
 
@@ -36,11 +36,11 @@ ms.locfileid: "19834184"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19834184"
 |Нет  <br/> |Представитель пользователя не имеет разрешений на доступ к папке журнала.  <br/> |
 |Reviewer  <br/> |Делегированный пользователь может читать элементы в папке "Дневник".  <br/> |
 |Автор  <br/> |Делегированный пользователь может читать и создавать элементы в папке "Дневник".  <br/> |
-|Редактор  <br/> |Делегированный пользователь может читать, создавать и изменять элементы в папке "Дневник".  <br/> |
+|Корректор  <br/> |Делегированный пользователь может читать, создавать и изменять элементы в папке "Дневник".  <br/> |
 |Пользовательские  <br/> |Представитель пользователя имеет пользовательские разрешения на доступ к папке журнала.  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -70,7 +70,7 @@ ms.locfileid: "19834184"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -87,5 +87,5 @@ ms.locfileid: "19834184"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Добавление делегатов](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[Добавление делегатов](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

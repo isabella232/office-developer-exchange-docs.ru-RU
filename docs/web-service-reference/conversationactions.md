@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 3d6c663d-4bd9-4eec-b95a-cd683f592672
 description: Элемент Конверсатионактионс содержит коллекцию бесед и действия, которые необходимо применить к ним.
-ms.openlocfilehash: 3dff7ff66f758f1cd2eb3cd7b8126294d2799fc0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2db84f78b4b8c92e0a6ef7d69fba7c778fb5f96d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761815"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527105"
 ---
 # <a name="conversationactions"></a>конверсатионактионс
 
@@ -40,7 +40,7 @@ ms.locfileid: "19761815"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19761815"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

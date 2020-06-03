@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a9d5244a-bc4a-4e9c-9c6c-ff361e04cbf8
 description: Узнайте, как удалять встречи в повторяющихся рядах с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 5e4d95058808adf8db159000bdf90c1f92945338
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5646a30d218ed4d795044aefe5efea1399d19a79
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761018"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528127"
 ---
 # <a name="delete-appointments-in-a-recurring-series-by-using-ews-in-exchange"></a>Удаление встреч из серии повторяющихся данных с помощью EWS в Exchange
 
@@ -21,11 +21,11 @@ ms.locfileid: "19761018"
   
 Чтобы удалить повторяющиеся ряды или один экземпляр из серии повторяющихся данных, необходимо найти вхождение или ряд, которые нужно удалить, а затем вызвать соответствующий метод или операцию, чтобы удалить его. Несмотря на то, что вы можете просто удалить любой тип встречи, мы рекомендуем хранить всех участников или организатора, а также отклонять собрания, которые пользователь организует и отклоняет собрания.
   
-Так как же сценарии различаются? Это все о объекте [встречи](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) , используемом для вызова метода (для управляемого API EWS), или идентификатора элемента, включенного в запрос операции (для EWS). Чтобы удалить весь ряд, необходим объект **встречи** или идентификатор элемента для повторяющегося образца. Чтобы удалить один экземпляр, вам потребуется объект **встречи** или идентификатор элемента для этого экземпляра. 
+Так как же сценарии различаются? Это все о объекте [встречи](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) , используемом для вызова метода (для управляемого API EWS), или идентификатора элемента, включенного в запрос операции (для EWS). Чтобы удалить весь ряд, необходим объект **встречи** или идентификатор элемента для повторяющегося образца. Чтобы удалить один экземпляр, вам потребуется объект **встречи** или идентификатор элемента для этого экземпляра. 
   
 ## <a name="delete-a-recurring-appointment-by-using-the-ews-managed-api"></a>Удаление повторяющейся встречи с помощью управляемого API EWS
 
-В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. Параметр _рекуррингитем_ — это объект **встречи** либо для повторения, либо для одного экземпляра. Параметр _делетинтиресериес_ указывает, следует ли удалить весь ряд, частью которого является _рекуррингитем_ . 
+В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**. Параметр _рекуррингитем_ — это объект **встречи** либо для повторения, либо для одного экземпляра. Параметр _делетинтиресериес_ указывает, следует ли удалить весь ряд, частью которого является _рекуррингитем_ . 
   
 ```cs
 public static bool DeleteRecurringItem(ExchangeService service, Appointment recurringItem, bool deleteEntireSeries)
@@ -114,7 +114,7 @@ public static bool DeleteRecurringItem(ExchangeService service, Appointment recu
 }
 ```
 
-Чтобы использовать этот пример, необходимо выполнить присоединение [к экземпляру или повторяющейся основной реплике](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)и передать полученный объект **встречи** методу. Имейте в виду, что при доступе к встречам с помощью класса [CalendarView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx) полученные элементы будут иметь один экземпляр. И наоборот, если вы используете класс [итемвиев](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx) , полученные элементы будут все повторяющимся образцами. 
+Чтобы использовать этот пример, необходимо выполнить присоединение [к экземпляру или повторяющейся основной реплике](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)и передать полученный объект **встречи** методу. Имейте в виду, что при доступе к встречам с помощью класса [CalendarView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx) полученные элементы будут иметь один экземпляр. И наоборот, если вы используете класс [итемвиев](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx) , полученные элементы будут все повторяющимся образцами. 
   
 ## <a name="delete-a-recurring-appointment-by-using-ews"></a>Удаление повторяющейся встречи с помощью EWS
 
@@ -123,14 +123,14 @@ public static bool DeleteRecurringItem(ExchangeService service, Appointment recu
 > [!NOTE]
 > В приведенных ниже примерах кода атрибуты **ItemId**, **чанжекэй**и **рекуррингмастерид** сокращаются для удобочитаемости. 
   
-В этом примере используется [Операция CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) с элементом [канцелкалендаритем](http://msdn.microsoft.com/library/a2046402-a176-44d5-b4b3-adb696581935%28Office.15%29.aspx) для отмены собрания, для которого пользователь является организатором. Значение элемента [референцеитемид](http://msdn.microsoft.com/library/8fd4bb12-a94b-43f5-be3b-f435684e311d%28Office.15%29.aspx) указывает элемент для отмены, который может быть идентификатором повторяющегося образца или одним экземпляром. 
+В этом примере используется [Операция CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) с элементом [канцелкалендаритем](https://msdn.microsoft.com/library/a2046402-a176-44d5-b4b3-adb696581935%28Office.15%29.aspx) для отмены собрания, для которого пользователь является организатором. Значение элемента [референцеитемид](https://msdn.microsoft.com/library/8fd4bb12-a94b-43f5-be3b-f435684e311d%28Office.15%29.aspx) указывает элемент для отмены, который может быть идентификатором повторяющегося образца или одним экземпляром. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -150,14 +150,14 @@ public static bool DeleteRecurringItem(ExchangeService service, Appointment recu
 </soap:Envelope>
 ```
 
-В этом примере используется **Операция CreateItem** с элементом [деклинеитем](http://msdn.microsoft.com/library/2d8d2389-924e-4d03-a324-35d56cf0d6b1%28Office.15%29.aspx) , чтобы отклонить собрание, для которого пользователь не является организатором. Как и в предыдущем примере, значение элемента **референцеитемид** указывает, что элемент следует отклонить, и может быть идентификатором повторяющейся основной или единичной копии. 
+В этом примере используется **Операция CreateItem** с элементом [деклинеитем](https://msdn.microsoft.com/library/2d8d2389-924e-4d03-a324-35d56cf0d6b1%28Office.15%29.aspx) , чтобы отклонить собрание, для которого пользователь не является организатором. Как и в предыдущем примере, значение элемента **референцеитемид** указывает, что элемент следует отклонить, и может быть идентификатором повторяющейся основной или единичной копии. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -176,14 +176,14 @@ public static bool DeleteRecurringItem(ExchangeService service, Appointment recu
 </soap:Envelope>
 ```
 
-В этом примере используется [Операция DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) для удаления одного экземпляра встречи без участников. Удаляемое событие задается элементом [оккурренцеитемид](http://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) , созданным на основе идентификатора элемента повторяющейся основной реплики и индекса экземпляра. 
+В этом примере используется [Операция DeleteItem](https://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) для удаления одного экземпляра встречи без участников. Удаляемое событие задается элементом [оккурренцеитемид](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) , созданным на основе идентификатора элемента повторяющейся основной реплики и индекса экземпляра. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -200,7 +200,7 @@ public static bool DeleteRecurringItem(ExchangeService service, Appointment recu
 </soap:Envelope>
 ```
 
-Обратите внимание, что вы можете получить тот же результат, заменив элемент **оккурренцеитемид** на элемент [ITEMID](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) , содержащий идентификатор элемента, как показано ниже. 
+Обратите внимание, что вы можете получить тот же результат, заменив элемент **оккурренцеитемид** на элемент [ITEMID](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) , содержащий идентификатор элемента, как показано ниже. 
   
 ```XML
 <m:ItemIds>

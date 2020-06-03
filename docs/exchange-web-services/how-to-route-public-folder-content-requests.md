@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 59d2f05e-90fb-471e-ac06-70becc15b295
 description: Все запросы к сведениям о общедоступных папках, включающих содержимое общедоступной папки, необходимо перенаправить на почтовый ящик общедоступных папок, содержащий контент для целевой папки. Чтобы перенаправить запросы в этот почтовый ящик, необходимо задать для заголовков X и AnchorMailbox и X Публикфолдермаилбокс определенные значения.
-ms.openlocfilehash: 64fafecb9882b17a3394e54640df78f7aa180343
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 523b9c8efc65253f7970fffeb5800e451784522d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354024"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527740"
 ---
 # <a name="route-public-folder-content-requests"></a>Маршрутизация запросов содержимого общедоступных папок
 
@@ -39,11 +39,11 @@ ms.locfileid: "21354024"
   
 - Использует заголовки **x – AnchorMailbox** и **x – публикфолдеринформатион** , полученные с помощью [запроса иерархии маршрутизации общедоступных папок](how-to-route-public-folder-hierarchy-requests.md).
     
-- Вызывает метод [Финдфолдерс](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) управляемого API EWS и включает запрос для свойства **PR_REPLICA_LIST** (0x66980102). 
+- Вызывает метод [Финдфолдерс](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) управляемого API EWS и включает запрос для свойства **PR_REPLICA_LIST** (0x66980102). 
     
 **PR_REPLICA_LIST** значение определяет GUID почтового ящика общедоступных папок с содержимым папки. Свойство **PR_REPLICA_LIST** является массивом байтов, но приводится в качестве идентификатора GUID для этого сценария. GUID и имя домена сцепляются, чтобы сформировать адрес, на котором будет вызываться служба автообнаружения. 
   
-В этом примере предполагается, что `service` это объект [ExchangeService](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для пользователя почтового ящика, `PFHAnchorHeader` а `PFHMailboxHeader` также значения заголовков **x-AnchorMailbox** и **x-публикфолдермаилбокс** , а доменное доменное имя, используемое клиентом. 
+В этом примере предполагается, что `service` это объект [ExchangeService](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для пользователя почтового ящика, `PFHAnchorHeader` а также `PFHMailboxHeader` значения заголовков **x-AnchorMailbox** и **x-публикфолдермаилбокс** , а доменное доменное имя, используемое клиентом. 
   
 ```cs
 public static string GetMailboxGuidAddress(ExchangeService service, String PFHAnchorHeader, String PFHMailboxHeader, String domain)
@@ -111,7 +111,7 @@ public static string CompareGuidsForEquality(List<string> list)
 
 ## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>Определение GUID почтового ящика общедоступных папок с помощью EWS
 
-В приведенном ниже примере кода показано, как получить значение свойства **PR_REPLICA_LIST** (0x66980102) с помощью операции [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) для EWS. Для элемента [екстендедфиелдури](http://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) атрибут **пропертитаг** задается как десятичное значение (26264) свойства **PR_REPLICA_LIST** , а атрибут **propertyType** имеет значение **binary**.
+В приведенном ниже примере кода показано, как получить значение свойства **PR_REPLICA_LIST** (0x66980102) с помощью операции [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) для EWS. Для элемента [екстендедфиелдури](https://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) атрибут **пропертитаг** задается как десятичное значение (26264) свойства **PR_REPLICA_LIST** , а атрибут **propertyType** имеет значение **binary**.
   
 Это также запрос XML, который отправляет управляемый API EWS при использовании метода **финдфолдерс** для [определения GUID почтового ящика общедоступных папок с помощью управляемого API EWS](#bk_determineguidewsma).
   
@@ -127,7 +127,7 @@ Cookie: ClientId=KZPBLKA9ZMPXAQDW
 Content-Length: 1005
 Expect: 100-continue
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>
@@ -149,15 +149,15 @@ Expect: 100-continue
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **FindFolder** с сообщением [финдфолдерреспонсе](http://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) , которое включает значение расширенного свойства **PR_REPLICA_LIST** . Обратите внимание, что значение свойства отображается в отклике EWS в виде строки в массиве байтов с кодировкой Base 64. Некоторые значения заголовков в отклике сокращаются для удобочитаемости. 
+Сервер отвечает на запрос **FindFolder** с сообщением [финдфолдерреспонсе](https://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) , которое включает значение расширенного свойства **PR_REPLICA_LIST** . Обратите внимание, что значение свойства отображается в отклике EWS в виде строки в массиве байтов с кодировкой Base 64. Некоторые значения заголовков в отклике сокращаются для удобочитаемости. 
   
 ```XML
-<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="1019" MinorBuildNumber="15" Version="V2_17" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="1019" MinorBuildNumber="15" Version="V2_17" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body>
-    <m:FindFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -193,7 +193,8 @@ Expect: 100-continue
 ## <a name="make-an-autodiscover-request"></a>Выполнение запроса на автообнаружение
 <a name="bk_makeautodrequest"> </a>
 
-Используйте адрес, возвращенный `GetMailboxGuidAddress` методом для вызова службы автообнаружения. Мы рекомендуем использовать [Exchange 2013: получение параметров пользователя с помощью кода автообнаружения](http://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e) для вызова службы автообнаружения, так как она упрощает процесс автообнаружения. В этом примере кода используются аргументы командной строки, приведенные в следующей таблице, для вызова службы автообнаружения POX для получения значения [аутодисковерсмтпаддресс](http://msdn.microsoft.com/en-us/library/office/dn750991%28v=exchg.150%29.aspx) , связанного с идентификатором GUID почтового ящика. 
+Используйте адрес, возвращенный `GetMailboxGuidAddress` методом для вызова службы автообнаружения. Мы рекомендуем использовать [Exchange 2013: получение параметров пользователя с помощью кода автообнаружения](https://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e) для вызова службы автообнаружения, так как она упрощает процесс автообнаружения. В этом примере кода используются аргументы командной строки, приведенные в следующей таблице, для вызова службы автообнаружения POX для получения значения [аутодисковерсмтпаддресс](https://msdn.microsoft.com/library/office/dn750991%28v=exchg.150%29.aspx) , связанного с идентификатором GUID почтового ящика. 
+
   
 |**Аргумент**|**Описание**|
 |:-----|:-----|
@@ -213,10 +214,10 @@ Expect: 100-continue
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
   <Request>
     <EMailAddress>1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com</EMailAddress>
-    <AcceptableResponseSchema>http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
+    <AcceptableResponseSchema>https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
   </Request>
 </Autodiscover>
 ```
@@ -237,16 +238,16 @@ Expect: 100-continue
 
 |**Методы управляемого API EWS**|**Операции EWS**|
 |:-----|:-----|
-|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item. Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Элемент. Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder. Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder. FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
+|[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item. Copy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Элемент. Move](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](https://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
    
-Чтобы добавить эти заголовки с помощью управляемого API EWS, используйте метод [хттфеадерс. Add](http://msdn.microsoft.com/en-us/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx) . 
+Чтобы добавить эти заголовки с помощью управляемого API EWS, используйте метод [хттфеадерс. Add](https://msdn.microsoft.com/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx) . 
   
 ```cs
 service.HttpHeaders.Add("X-AnchorMailbox", "NewPublicFolder@contoso.com");
 service.HttpHeaders.Add("X-PublicFolderMailbox", "NewPublicFolder@contoso.com");
 ```
 
-В приведенном ниже коде показан запрос на получение [папки](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) с заголовком **x – AnchorMailbox** и **x – публикфолдермаилбокс** значениями, полученными в примерах, приведенных в этой статье. 
+В приведенном ниже коде показан запрос на получение [папки](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) с заголовком **x – AnchorMailbox** и **x – публикфолдермаилбокс** значениями, полученными в примерах, приведенных в этой статье. 
   
 ```XML
 POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
@@ -259,7 +260,7 @@ Host: outlook.office365.com
 Content-Length: 688
 Expect: 100-continue
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>
@@ -279,8 +280,7 @@ Expect: 100-continue
 ## <a name="see-also"></a>См. также
 
 - [Общих папок в Exchange доступ с EWS](public-folder-access-with-ews-in-exchange.md)    
-- [Автообнаружение для Exchange](autodiscover-for-exchange.md)    
+- [Автообнаружение в Exchange](autodiscover-for-exchange.md)    
 - [Создание списка конечных точек автообнаружения](how-to-generate-a-list-of-autodiscover-endpoints.md)   
 - [Получение параметров пользователя из Exchange с помощью службы автообнаружения](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
-    
-
+  

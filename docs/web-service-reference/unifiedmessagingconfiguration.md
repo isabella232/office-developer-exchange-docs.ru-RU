@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: cbdb4268-077e-44ed-8ec2-9d759c84cc6d
 description: Элемент Унифиедмессагингконфигуратион содержит сведения о конфигурации службы единой системы обмена сообщениями.
-ms.openlocfilehash: 3ad8f66ecdf21062c00c2a6ac6f65fac875da38c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3f9f4ed65721929c552615c07e2239f48ef837f3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840269"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528694"
 ---
 # <a name="unifiedmessagingconfiguration"></a>унифиедмессагингконфигуратион
 
@@ -38,7 +38,7 @@ ms.locfileid: "19840269"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "19840269"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

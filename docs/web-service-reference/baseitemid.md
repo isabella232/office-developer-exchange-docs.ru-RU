@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c762e60e-08bb-430a-af5e-fa991f33a44f
 description: Элемент Басеитемид представляет базовый класс для идентификаторов, представляющих элементы в почтовом ящике. Это абстрактный класс, и поэтому он не будет выполняться в экземпляре документа.
-ms.openlocfilehash: 2befcaec905ba269e292cc5d3707f5e75e7633d9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d4f690bc044ed4a1bc0aa154bd3921a3078d6b45
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761543"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527427"
 ---
 # <a name="baseitemid"></a>басеитемид
 
@@ -34,11 +34,11 @@ ms.locfileid: "19761543"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19761543"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

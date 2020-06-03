@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
 description: Элемент Делетедевент представляет событие, в котором удаляется элемент или папка.
-ms.openlocfilehash: 5ddc909ffc9c74ea6b423610e915d5b9ff9bff43
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 5eb0c947aacc592f81c595da2cc00bf4874f300b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354409"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526944"
 ---
 # <a name="deletedevent"></a>делетедевент
 
@@ -49,7 +49,7 @@ ms.locfileid: "21354409"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -75,7 +75,7 @@ ms.locfileid: "21354409"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |

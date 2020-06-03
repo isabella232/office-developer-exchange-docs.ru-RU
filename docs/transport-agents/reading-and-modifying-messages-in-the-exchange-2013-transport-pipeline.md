@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b53ed47a-3d01-4c4e-ad32-fb0532872aad
 description: Сведения о классах .NET Framework, которые можно использовать в агентах транспорта Exchange 2013 для чтения, записи и изменения сообщений.
-ms.openlocfilehash: a39d6ecaeb837ce2760d762107e78aa8d4f09f7c
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 42d9dc7f05dce495b7695a2862af244313caffcb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354010"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527581"
 ---
 # <a name="reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline"></a>Чтение и изменение сообщений в транспортном конвейере Exchange 2013
 
@@ -89,7 +89,7 @@ ms.locfileid: "21354010"
   
 Классы [календарреадер](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.aspx) и [календарвритер](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) используются для чтения и записи данных потока iCalendar. 
   
-Календарреадер принимает в качестве аргумента в конструкторе [поток](https://msdn.microsoft.com/library/System.IO.Stream.aspx) , доступный для чтения. Затем можно использовать методы [реадфирстчилдкомпонент](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx), [реаднекстсиблингкомпонент](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx)и [реаднексткомпонент](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) для последовательного доступа к компонентам iCalendar в потоке данных. В зависимости от значения, заданного для свойства [комплианцемоде](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) , ошибки в потоке iCalendar приведут к возникновению исключения или приводят к тому, что свойству [комплианцестатус](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) будет присвоено значение, отличное от " [совместимо](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.contenttypes.icalendar.calendarcompliancestatus.aspx)". Это свойство можно проверить, чтобы выявить проблемы с входящими данными iCalendar. 
+Календарреадер принимает в качестве аргумента в конструкторе [поток](https://msdn.microsoft.com/library/System.IO.Stream.aspx) , доступный для чтения. Затем можно использовать методы [реадфирстчилдкомпонент](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx), [реаднекстсиблингкомпонент](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx)и [реаднексткомпонент](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) для последовательного доступа к компонентам iCalendar в потоке данных. В зависимости от значения, заданного для свойства [комплианцемоде](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) , ошибки в потоке iCalendar приведут к возникновению исключения или приводят к тому, что свойству [комплианцестатус](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) будет присвоено значение, отличное от " [совместимо](https://msdn.microsoft.com/library/microsoft.exchange.data.contenttypes.icalendar.calendarcompliancestatus.aspx)". Это свойство можно проверить, чтобы выявить проблемы с входящими данными iCalendar. 
   
 Класс [календарвритер](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) принимает [поток](https://msdn.microsoft.com/library/System.IO.Stream.aspx) , доступный для записи, в качестве аргумента для его конструкторов. 
   

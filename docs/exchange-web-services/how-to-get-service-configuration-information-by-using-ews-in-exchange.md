@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9379740a-96e1-490d-a229-0f9937c548d2
 description: Сведения о том, как получить сведения о конфигурации служб единой системы обмена сообщениями, почтовых ящиков, советах и правилах защиты от EWS в Exchange.
-ms.openlocfilehash: e84a563bb094a2fe03e08f8e1a81b2b054d45850
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7546d9524f1e004eda2bdc55687fb44beafa44af
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19761009"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528008"
 ---
 # <a name="get-service-configuration-information-by-using-ews-in-exchange"></a>Получение сведений о конфигурации службы с помощью EWS в Exchange
 
 Сведения о том, как получить сведения о конфигурации служб единой системы обмена сообщениями, почтовых ящиков, советах и правилах защиты от EWS в Exchange.
   
-Работает ли ваше приложение EWS с единой системой обмена сообщениями, сдвигами политики, советами по электронной почте и правилами защиты? В этом случае приложению потребуется вызвать [операцию GetServiceConfiguration](http://msdn.microsoft.com/library/070cbfe5-325a-4955-8e4a-8230ea0459a7%28Office.15%29.aspx) для получения необходимых сведений о конфигурации службы. Операция **GetServiceConfiguration** возвращает сведения о конфигурации, характерные для каждой из этих функций EWS. 
+Работает ли ваше приложение EWS с единой системой обмена сообщениями, сдвигами политики, советами по электронной почте и правилами защиты? В этом случае приложению потребуется вызвать [операцию GetServiceConfiguration](https://msdn.microsoft.com/library/070cbfe5-325a-4955-8e4a-8230ea0459a7%28Office.15%29.aspx) для получения необходимых сведений о конфигурации службы. Операция **GetServiceConfiguration** возвращает сведения о конфигурации, характерные для каждой из этих функций EWS. 
   
 > [!NOTE]
 > Управляемый API EWS не реализует эту функцию. 
@@ -33,7 +33,7 @@ ms.locfileid: "19761009"
    
 ## <a name="code-example-get-service-configuration-information-for-mail-tips-by-using-ews"></a>Пример кода: получение сведений о конфигурации службы для советов по электронной почте с помощью EWS
 
-В следующем примере кода показано, как использовать [операцию GetServiceConfiguration](http://msdn.microsoft.com/library/070cbfe5-325a-4955-8e4a-8230ea0459a7%28Office.15%29.aspx) для запроса сведений о конфигурации службы для советов по использованию электронной почты. Вы можете запросить дополнительные сведения о конфигурации службы, добавив дополнительные элементы [configurationName](http://msdn.microsoft.com/library/3b524a2f-9c6b-4550-9f3d-f78d176b0f7b%28Office.15%29.aspx) с разными значениями. 
+В следующем примере кода показано, как использовать [операцию GetServiceConfiguration](https://msdn.microsoft.com/library/070cbfe5-325a-4955-8e4a-8230ea0459a7%28Office.15%29.aspx) для запроса сведений о конфигурации службы для советов по использованию электронной почты. Вы можете запросить дополнительные сведения о конфигурации службы, добавив дополнительные элементы [configurationName](https://msdn.microsoft.com/library/3b524a2f-9c6b-4550-9f3d-f78d176b0f7b%28Office.15%29.aspx) с разными значениями. 
   
 ```cs
 private static void GetServiceConfiguration(ExchangeService service, NetworkCredential creds)
@@ -42,9 +42,9 @@ private static void GetServiceConfiguration(ExchangeService service, NetworkCred
   const string getServiceConfigurationRequest = 
     "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
     "<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" +
-    "               xmlns:m=\"http://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
-    "               xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\" \n" +
-    "               xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"\n" +
+    "               xmlns:m=\"https://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
+    "               xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\" \n" +
+    "               xmlns:soap=\"https://schemas.xmlsoap.org/soap/envelope/\"\n" +
     "               xmlns:xs=\"http://www.w3.org/2001/XMLSchema\">\n" +
     "  <soap:Header>\n" +
     "    <t:RequestServerVersion Version=\"Exchange2013\" />\n" +
@@ -97,11 +97,11 @@ private static void GetServiceConfiguration(ExchangeService service, NetworkCred
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-После запроса сведений о конфигурации службы используйте [класс XmlDocument](http://msdn.microsoft.com/en-us/library/system.xml.xmldocument.aspx) для загрузки отклика XML, чтобы его можно было проанализировать. В зависимости от сценария можно выполнить одно из следующих действий: 
+После запроса сведений о конфигурации службы используйте [класс XmlDocument](https://msdn.microsoft.com/library/system.xml.xmldocument.aspx) для загрузки отклика XML, чтобы его можно было проанализировать. В зависимости от сценария можно выполнить одно из следующих действий: 
   
-- Используйте [операцию](http://msdn.microsoft.com/library/025483ec-a9f3-4735-8a95-d26e30ea7974%28Office.15%29.aspx) по подсказке для получения советов по электронной почте для клиентских приложений, отображаемых для пользователей. 
+- Используйте [операцию](https://msdn.microsoft.com/library/025483ec-a9f3-4735-8a95-d26e30ea7974%28Office.15%29.aspx) по подсказке для получения советов по электронной почте для клиентских приложений, отображаемых для пользователей. 
     
-- Если включена поддержка единой системы обмена сообщениями, [Узнайте, как проигрывать элементы почтового ящика](http://blogs.msdn.com/b/exchangedev/archive/2009/11/05/play-exchange-2010-mailbox-items-on-your-phone-by-using-the-ews-managed-api.aspx) по телефону. 
+- Если включена поддержка единой системы обмена сообщениями, [Узнайте, как проигрывать элементы почтового ящика](https://blogs.msdn.com/b/exchangedev/archive/2009/11/05/play-exchange-2010-mailbox-items-on-your-phone-by-using-the-ews-managed-api.aspx) по телефону. 
     
 ## <a name="see-also"></a>См. также
 

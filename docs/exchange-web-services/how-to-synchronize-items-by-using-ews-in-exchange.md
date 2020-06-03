@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 886e7d35-9096-480b-8a8c-a7db27da06c2
 description: Узнайте, как использовать управляемый API EWS или EWS для получения списка всех элементов в папке, или список изменений, произошедших в папке, для синхронизации клиента.
-ms.openlocfilehash: 8763c053463e4787741ef992ddb99d29be4192fc
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: e75f90b2d28d782465de89000796deccdd125e25
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353786"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527714"
 ---
 # <a name="synchronize-items-by-using-ews-in-exchange"></a>Синхронизация элементов с помощью EWS в Exchange
 
@@ -19,14 +19,14 @@ ms.locfileid: "21353786"
   
 Служба EWS в Exchange использует синхронизацию элементов и синхронизацию папок для синхронизации содержимого почтовых ящиков между клиентом и сервером. Синхронизация элементов получает исходный список элементов в папке, а затем получает изменения, внесенные в эти элементы, а также получает новые элементы.
   
-Обратите внимание, что перед синхронизацией элементов с клиентом необходимо сначала [синхронизировать иерархию папок](how-to-synchronize-folders-by-using-ews-in-exchange.md). После того как иерархия папок будет размещена в клиенте, если вы выполняете синхронизацию элементов с помощью управляемого API EWS, сначала [получите исходный список элементов в папке "Входящие"](#bk_cesyncongoingewsma) с помощью метода [ExchangeService. SyncFolderItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) . Затем необходимо обновить значение параметра _ксинкстате_ во время последующих вызовов, чтобы получить список измененных элементов в папке "Входящие". 
+Обратите внимание, что перед синхронизацией элементов с клиентом необходимо сначала [синхронизировать иерархию папок](how-to-synchronize-folders-by-using-ews-in-exchange.md). После того как иерархия папок будет размещена в клиенте, если вы выполняете синхронизацию элементов с помощью управляемого API EWS, сначала [получите исходный список элементов в папке "Входящие"](#bk_cesyncongoingewsma) с помощью метода [ExchangeService. SyncFolderItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) . Затем необходимо обновить значение параметра _ксинкстате_ во время последующих вызовов, чтобы получить список измененных элементов в папке "Входящие". 
   
-Чтобы выполнить синхронизацию элементов с помощью EWS, после того как вы [синхронизируете иерархию папок](how-to-synchronize-folders-by-using-ews-in-exchange.md), вы запрашиваете [исходный список элементов в папке "Входящие"](#bk_ewsexamplea) с помощью [операции SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx), анализируете ответ, а затем в некоторый момент в будущем [получите изменения элементов в почтовом ящике](#bk_ewsexamplec)и проанализируйте ответ. После того как клиент получит список начальных или измененных элементов, он [вносит обновления локально](#bk_nextsteps). Как и когда вы извлечете изменения в будущем, зависит от [шаблона проекта синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_syncpatterns) , используемого приложением. 
+Чтобы выполнить синхронизацию элементов с помощью EWS, после того как вы [синхронизируете иерархию папок](how-to-synchronize-folders-by-using-ews-in-exchange.md), вы запрашиваете [исходный список элементов в папке "Входящие"](#bk_ewsexamplea) с помощью [операции SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx), анализируете ответ, а затем в некоторый момент в будущем [получите изменения элементов в почтовом ящике](#bk_ewsexamplec)и проанализируйте ответ. После того как клиент получит список начальных или измененных элементов, он [вносит обновления локально](#bk_nextsteps). Как и когда вы извлечете изменения в будущем, зависит от [шаблона проекта синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_syncpatterns) , используемого приложением. 
   
 ## <a name="get-the-list-of-all-items-or-changed-items-by-using-the-ews-managed-api"></a>Получение списка всех элементов или измененных элементов с помощью управляемого API EWS
 <a name="bk_cesyncongoingewsma"> </a>
 
-В приведенном ниже примере кода показано, как получить исходный список всех элементов в папке "Входящие", а затем получить список изменений элементов в папке "Входящие", произошедших с момента предыдущей синхронизации. Во время начального вызова метода [SyncFolderItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) задайте для параметра _ксинкстате_ значение null. После выполнения метода сохраните значение _ксинкстате_ локально, чтобы использовать его в следующем вызове метода **SyncFolderItems** . При первом вызове и последующих вызовах элементы извлекаются в пакетах десяти, с помощью последовательных вызовов метода **SyncFolderItems** , пока не будут сохранены другие изменения. 
+В приведенном ниже примере кода показано, как получить исходный список всех элементов в папке "Входящие", а затем получить список изменений элементов в папке "Входящие", произошедших с момента предыдущей синхронизации. Во время начального вызова метода [SyncFolderItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderitems%28v=exchg.80%29.aspx) задайте для параметра _ксинкстате_ значение null. После выполнения метода сохраните значение _ксинкстате_ локально, чтобы использовать его в следующем вызове метода **SyncFolderItems** . При первом вызове и последующих вызовах элементы извлекаются в пакетах десяти, с помощью последовательных вызовов метода **SyncFolderItems** , пока не будут сохранены другие изменения. 
   
 В этом примере параметру _Property_ присваивается значение идонли для уменьшения числа вызовов к базе данных Exchange, что является [наилучшим вариантом синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). В этом примере предполагается, что **Служба** является допустимой привязкой объекта **ExchangeService** и _ксинкстате_ представляет состояние синхронизации, возвращенное предыдущим вызовом в **SyncFolderItems**. 
   
@@ -74,21 +74,21 @@ while (moreChangesAvailable);
 
 ```
 
-Метод **SyncFolderItems** аналогичен методу [FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) в том, что он не может возвращать свойства, такие как [текст](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx) или [вложения](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx). Если требуются свойства, которые не могут быть возвращены методом **SyncFolderItems** , укажите свойство [идонли](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset.idonly%28v=exchg.80%29.aspx) , заданное при вызове **SyncFolderItems**, а затем используйте метод [ExchangeService. лоадпропертиесфоритемс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) для получения свойств, которые требуются для элементов, возвращенных методом **SyncFolderItems** . 
+Метод **SyncFolderItems** аналогичен методу [FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) в том, что он не может возвращать свойства, такие как [текст](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.body%28v=exchg.80%29.aspx) или [вложения](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx). Если требуются свойства, которые не могут быть возвращены методом **SyncFolderItems** , укажите свойство [идонли](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.propertyset.idonly%28v=exchg.80%29.aspx) , заданное при вызове **SyncFolderItems**, а затем используйте метод [ExchangeService. лоадпропертиесфоритемс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) для получения свойств, которые требуются для элементов, возвращенных методом **SyncFolderItems** . 
   
 После получения списка новых или измененных элементов на сервере [Создайте или обновите элементы в клиенте](#bk_nextsteps).
   
 ## <a name="get-the-initial-list-of-items-by-using-ews"></a>Получение исходного списка элементов с помощью EWS
 <a name="bk_ewsexamplea"> </a>
 
-В следующем примере показан XML-запрос для получения исходного списка элементов в папке "Входящие" с помощью [операции SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx). Это также запрос XML, который управляемый API EWS отправляет при [получении списка элементов с помощью метода SyncFolderItems](#bk_cesyncongoingewsma). Элемент [синкстате](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) операции **SyncFolderItems** не включается, так как это начальная синхронизация. В этом примере для элемента [басешапе](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) задается значение **идонли** для уменьшения числа вызовов к базе данных Exchange, что является [наилучшим вариантом синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices).
+В следующем примере показан XML-запрос для получения исходного списка элементов в папке "Входящие" с помощью [операции SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx). Это также запрос XML, который управляемый API EWS отправляет при [получении списка элементов с помощью метода SyncFolderItems](#bk_cesyncongoingewsma). Элемент [синкстате](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) операции **SyncFolderItems** не включается, так как это начальная синхронизация. В этом примере для элемента [басешапе](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) задается значение **идонли** для уменьшения числа вызовов к базе данных Exchange, что является [наилучшим вариантом синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -109,26 +109,26 @@ while (moreChangesAvailable);
 
 <a name="bk_responsesyncfolderitems"> </a>
 
-В следующем примере показан ответ XML, возвращенный сервером после обработки запроса операции **SyncFolderItems** от клиента. Исходный ответ включает элементы [CREATE](http://msdn.microsoft.com/library/cb5e64a2-66a5-4447-921e-7c13efb8f6bf%28Office.15%29.aspx) для пяти элементов, так как все элементы считаются новыми во время первоначальной синхронизации. Для удобства значения некоторых атрибутов и элементов были сокращены. 
+В следующем примере показан ответ XML, возвращенный сервером после обработки запроса операции **SyncFolderItems** от клиента. Исходный ответ включает элементы [CREATE](https://msdn.microsoft.com/library/cb5e64a2-66a5-4447-921e-7c13efb8f6bf%28Office.15%29.aspx) для пяти элементов, так как все элементы считаются новыми во время первоначальной синхронизации. Для удобства значения некоторых атрибутов и элементов были сокращены. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="785"
                          MinorBuildNumber="6"
                          Version="V2_6"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:SyncFolderItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:SyncFolderItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:SyncFolderItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -178,14 +178,14 @@ while (moreChangesAvailable);
 ## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>Получение изменений с момента последней синхронизации с помощью EWS
 <a name="bk_ewsexamplec"> </a>
 
-В следующем примере показан XML-запрос для получения списка изменений элементов в папке "Входящие" с помощью операции [SyncFolderItems](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) . Это также запрос XML, который отправляет управляемый API EWS при [получении списка изменений в папке "Входящие"](#bk_cesyncongoingewsma). В этом примере для элемента [синкстате](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) задается значение, возвращенное в [предыдущем ответе](#bk_responsesyncfolderitems). Для демонстрационных целей в этом примере для элемента [басешапе](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) задается значение **аллпропертиес** вместо **идонли** для отображения возвращаемых дополнительных свойств. Задание элемента [басешапе](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) равным **идонли** является [наилучшим методом синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). Значение **синкстате** было сокращено для удобочитаемости. 
+В следующем примере показан XML-запрос для получения списка изменений элементов в папке "Входящие" с помощью операции [SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) . Это также запрос XML, который отправляет управляемый API EWS при [получении списка изменений в папке "Входящие"](#bk_cesyncongoingewsma). В этом примере для элемента [синкстате](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) задается значение, возвращенное в [предыдущем ответе](#bk_responsesyncfolderitems). Для демонстрационных целей в этом примере для элемента [басешапе](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) задается значение **аллпропертиес** вместо **идонли** для отображения возвращаемых дополнительных свойств. Задание элемента [басешапе](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) равным **идонли** является [наилучшим методом синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). Значение **синкстате** было сокращено для удобочитаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
       <t:RequestServerVersion Version="Exchange2010_SP2" />
   </soap:Header>
@@ -209,16 +209,16 @@ while (moreChangesAvailable);
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="731" MinorBuildNumber="10" Version="V2_3"
-                 xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                 xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                 xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                 xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:SyncFolderItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:SyncFolderItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:SyncFolderItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -420,16 +420,16 @@ while (moreChangesAvailable);
 </s:Envelope>
 ```
 
-Операция **SyncFolderItems** аналогична методу [FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) в том, что он не может возвращать элементы, такие как [текст](http://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx) или элементы [вложения](http://msdn.microsoft.com/library/b470e614-34bb-44f0-8790-7ddbdcbbd29d%28Office.15%29.aspx) . Если требуются свойства, которые не могут быть возвращены операцией **SyncFolderItems** , установите значение элемента [басешапе](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) в Идонли при вызове **SyncFolderItems**, а затем используйте [операцию GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) для получения свойств, необходимых для элементов, возвращенных операцией **SyncFolderItems** . 
+Операция **SyncFolderItems** аналогична методу [FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) в том, что он не может возвращать элементы, такие как [текст](https://msdn.microsoft.com/library/7851ea9b-9f87-4adc-a26f-7a27df4a9bca%28Office.15%29.aspx) или элементы [вложения](https://msdn.microsoft.com/library/b470e614-34bb-44f0-8790-7ddbdcbbd29d%28Office.15%29.aspx) . Если требуются свойства, которые не могут быть возвращены операцией **SyncFolderItems** , установите значение элемента [басешапе](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) в Идонли при вызове **SyncFolderItems**, а затем используйте [операцию GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) для получения свойств, необходимых для элементов, возвращенных операцией **SyncFolderItems** . 
   
 После получения списка измененных элементов на сервере [Обновите элементы на клиенте](#bk_nextsteps).
   
 ## <a name="update-the-client"></a>Обновление клиента
 <a name="bk_nextsteps"> </a>
 
-Если вы используете управляемый API EWS, после получения списка новых или измененных элементов используйте метод [лоадпропертиесфоритемс](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) , чтобы получить свойства для новых или измененных элементов, сравнить свойства с локальными значениями и обновить элементы в клиенте. 
+Если вы используете управляемый API EWS, после получения списка новых или измененных элементов используйте метод [лоадпропертиесфоритемс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) , чтобы получить свойства для новых или измененных элементов, сравнить свойства с локальными значениями и обновить элементы в клиенте. 
   
-Если вы используете EWS, используйте [операцию GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) для получения свойств новых или измененных элементов и обновления элементов на клиенте. 
+Если вы используете EWS, используйте [операцию GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) для получения свойств новых или измененных элементов и обновления элементов на клиенте. 
   
 ## <a name="see-also"></a>См. также
 

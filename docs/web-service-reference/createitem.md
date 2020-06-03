@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c3707feb-3fd4-4b8a-a68f-2abadd455163
 description: Элемент CreateItem определяет запрос на создание элемента в хранилище Exchange.
-ms.openlocfilehash: 9453323bff07749f5852dae75284c61c0895adb6
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 235664b7baeceeccb14135fd346123f0f7d99346
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353128"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527063"
 ---
 # <a name="createitem"></a>CreateItem
 
@@ -78,7 +78,7 @@ ms.locfileid: "21353128"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
 |Файл проверки  <br/> |Messages. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -87,8 +87,8 @@ ms.locfileid: "21353128"
 
 - [креатеитемреспонсе](createitemresponse.md)  
 - [Операция CreateItem](createitem-operation.md)
-- [Создание сообщений электронной почты](http://msdn.microsoft.com/library/05bfb83c-2866-427d-a9fe-14ba3cb02793%28Office.15%29.aspx) 
-- [Создание контактов (веб-службы Exchange)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)  
-- [Создание задач](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx) 
-- [Создание встреч](http://msdn.microsoft.com/library/2385391e-c9e7-4d45-b803-c4ff94d5c94e%28Office.15%29.aspx)
+- [Создание сообщений электронной почты](https://msdn.microsoft.com/library/05bfb83c-2866-427d-a9fe-14ba3cb02793%28Office.15%29.aspx) 
+- [Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)  
+- [Создание задач](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx) 
+- [Создание встреч](https://msdn.microsoft.com/library/2385391e-c9e7-4d45-b803-c4ff94d5c94e%28Office.15%29.aspx)
 

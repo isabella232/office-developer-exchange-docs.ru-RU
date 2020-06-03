@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c700af8-2792-4d3f-8571-8860e0550d8e
 description: Сведения о том, как архитектура агента транспорта и роль сервера в Exchange 2013 влияет на разработку агента транспорта, а также классы, которые можно использовать для разработки агентов транспорта.
-ms.openlocfilehash: 6f7a03e16b260117c6ee27b86ec0e55b5346e301
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: b9552ea4398ac8135a11b48eb7e7bdf5ec81985e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353709"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527560"
 ---
 # <a name="transport-agent-concepts-in-exchange-2013"></a>Основные понятия, связанные с агентами транспорта в Exchange 2013
 
@@ -40,9 +40,9 @@ ms.locfileid: "21353709"
 
 |**Служба**|**Описание**|**Поддерживаемые классы**|
 |:-----|:-----|:-----|
-|Транспортный сервер переднего плана  <br/> |Выполняется на всех [серверах клиентского доступа](http://technet.microsoft.com/en-us/library/dd298114%28v=exchg.150%29.aspx) и выступает в роли прокси-сервера без состояний для всего входящего и исходящего внешнего SMTP-трафика для организации Exchange 2013. Внешняя служба транспорта не проверяет содержимое сообщения и не ставит в очередь локальное сообщение. Он связывается со службой транспорта на [сервере почтовых ящиков](http://technet.microsoft.com/en-us/library/jj150491%28v=exchg.150%29.aspx).  <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
-|Transport  <br/> |Выполняется на всех серверах почтовых ящиков и аналогично роли [транспортного сервера-концентратора](http://technet.microsoft.com/en-us/library/bb123494%28v=exchg.141%29.aspx) в Exchange Server 2010. Служба транспорта маршрутизирует сообщения между собой, а также транспортным сервером и интерфейсным транспортным службам. Эта служба не взаимодействует напрямую с базами данных почтовых ящиков.  <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.aspx) <br/> |
-|Транспортная служба почтовых ящиков.  <br/> |Выполняется на всех серверах почтовых ящиков и состоит из двух отдельных служб: отправка транспорта почтового ящика и доставка транспорта почтовых ящиков. Доставка транспорта почтовых ящиков получает сообщения SMTP от службы транспорта и подключается к базе данных почтовых ящиков с помощью удаленного вызова процедур (RPC) Exchange для доставки сообщения. Отправка транспорта почтовых ящиков подключается к базе данных почтовых ящиков с помощью RPC для получения сообщений и отправки сообщений по протоколу SMTP в службу транспорта.  <br/> |Нет.  <br/> |
+|Транспортный сервер переднего плана  <br/> |Выполняется на всех [серверах клиентского доступа](https://technet.microsoft.com/library/dd298114%28v=exchg.150%29.aspx) и выступает в роли прокси-сервера без состояний для всего входящего и исходящего внешнего SMTP-трафика для организации Exchange 2013. Внешняя служба транспорта не проверяет содержимое сообщения и не ставит в очередь локальное сообщение. Он связывается со службой транспорта на [сервере почтовых ящиков](https://technet.microsoft.com/library/jj150491%28v=exchg.150%29.aspx).  <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
+|Transport  <br/> |Выполняется на всех серверах почтовых ящиков и аналогично роли [транспортного сервера-концентратора](https://technet.microsoft.com/library/bb123494%28v=exchg.141%29.aspx) в Exchange Server 2010. Служба транспорта маршрутизирует сообщения между собой, а также транспортным сервером и интерфейсным транспортным службам. Эта служба не взаимодействует напрямую с базами данных почтовых ящиков.  <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.aspx) <br/> |
+|Транспортная служба почтовых ящиков.  <br/> |Выполняется на всех серверах почтовых ящиков и состоит из двух отдельных служб: отправка транспорта почтового ящика и доставка транспорта почтовых ящиков. Доставка транспорта почтовых ящиков получает сообщения SMTP от службы транспорта и подключается к базе данных почтовых ящиков с помощью удаленного вызова процедур (RPC) Exchange для доставки сообщения. Отправка транспорта почтовых ящиков подключается к базе данных почтовых ящиков с помощью RPC для получения сообщений и отправки сообщений по протоколу SMTP в службу транспорта.  <br/> |Отсутствуют.  <br/> |
    
 ### <a name="transport-events"></a>Транспортные события
 <a name="Events"> </a>
@@ -84,7 +84,7 @@ ms.locfileid: "21353709"
 
 ![Изображение, показывающее взаимодействие, начиная со стрелок от трафика клиента, проходящих через балансировщик нагрузки четвертого слоя, для которого на сервере клиентского доступа имеется 4 цели: IIS/HTTP-прокси, POP/IMAP, SMTP и UM. Стрелки указывают на соответствующие цели в хранилище почтовых ящиков.](media/Transport_Agent_Concepts_Fig_4.png)
   
-Более подробную информацию об изменениях в архитектуре ролей сервера Exchange 2013 можно узнать в статье Exchange [2013 Architecture](http://technet.microsoft.com/en-us/library/jj150540%28v=exchg.150%29.aspx#BKMK_Arch) в статье [новые возможности Exchange 2013](http://technet.microsoft.com/en-us/library/jj150540%28v=exchg.150%29.aspx). 
+Более подробную информацию об изменениях в архитектуре ролей сервера Exchange 2013 можно узнать в статье Exchange [2013 Architecture](https://technet.microsoft.com/library/jj150540%28v=exchg.150%29.aspx#BKMK_Arch) в статье [новые возможности Exchange 2013](https://technet.microsoft.com/library/jj150540%28v=exchg.150%29.aspx). 
   
 ## <a name="transport-agent-classes"></a>Классы агентов транспорта
 <a name="Create"> </a>
@@ -100,7 +100,7 @@ ms.locfileid: "21353709"
 |Тип агента  <br/> |Базовый класс фабрики  <br/> |Базовый класс агента  <br/> |
 |Получение SMTP  <br/> |[смтпрецеивеажентфактори](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
 |Включен  <br/> |[раутингажентфактори](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) <br/> |[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> |
-|Delivery  <br/> |[Диспетчер\<деливеряжентфактори\>](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) <br/> |
+|Delivery  <br/> |[деливеряжентфактори\<Manager\>](https://msdn.microsoft.com/library/dd877550(v=exchg.150).aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) <br/> |
    
 Эти базовые классы агентов и агентов предоставляют свойства и методы, которые можно использовать для доступа к событиям транспорта и сообщениям. Реализуйте классы в агенте, которые наследуются от этих классов. В производном классе фабрики агентов Переопределите метод **креатеажент** таким образом, чтобы он возвращал новый экземпляр класса агента. 
   
@@ -118,18 +118,18 @@ ms.locfileid: "21353709"
     
 - [Microsoft. Exchange. Data. ContentTypes. vCard](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.vCard.aspx)
     
-После того как вы запишете агент транспорта, вы [устанавливаете агент и управляете им](http://technet.microsoft.com/en-us/library/bb125175%28v=exchg.150%29.aspx) с помощью командной консоли Exchange. Дополнительные сведения см. в статье [Создание агентов транспорта для Exchange 2013](creating-transport-agents-for-exchange-2013.md). 
+После того как вы запишете агент транспорта, вы [устанавливаете агент и управляете им](https://technet.microsoft.com/library/bb125175%28v=exchg.150%29.aspx) с помощью командной консоли Exchange. Дополнительные сведения см. в статье [Создание агентов транспорта для Exchange 2013](creating-transport-agents-for-exchange-2013.md). 
   
 ## <a name="see-also"></a>См. также
 
 - [Агенты транспорта в Exchange](transport-agents-in-exchange-2013.md)    
 - [Справочник по агентам транспорта для Exchange 2013](transport-agent-reference-for-exchange-2013.md)   
 - [Чтение и изменение сообщений в транспортном конвейере Exchange 2013](reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md)    
-- [Новые возможности Exchange 2013](http://technet.microsoft.com/en-us/library/jj150540%28v=exchg.150%29.aspx)   
-- [Архитектура ролей сервера Exchange 2013](http://blogs.technet.com/b/exchange/archive/2013/01/23/exchange-2013-server-role-architecture.aspx)    
-- [Серверы почтовых ящиков и клиентского доступа](http://technet.microsoft.com/en-us/library/jj150519%28v=exchg.150%29.aspx)   
-- [Почтовые потоки Exchange Server 2013](http://technet.microsoft.com/en-us/library/aa996349.aspx)
-- [Маршрутизация почты Exchange Server 2013](http://technet.microsoft.com/en-us/library/aa998825%28v=exchg.150%29.aspx)   
-- [PowerShell в Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
+- [Новые возможности Exchange 2013](https://technet.microsoft.com/library/jj150540%28v=exchg.150%29.aspx)   
+- [Архитектура ролей сервера Exchange 2013](https://blogs.technet.com/b/exchange/archive/2013/01/23/exchange-2013-server-role-architecture.aspx)    
+- [Серверы почтовых ящиков и клиентского доступа](https://technet.microsoft.com/library/jj150519%28v=exchg.150%29.aspx)   
+- [Почтовые потоки Exchange Server 2013](https://technet.microsoft.com/library/aa996349.aspx)
+- [Маршрутизация почты Exchange Server 2013](https://technet.microsoft.com/library/aa998825%28v=exchg.150%29.aspx)   
+- [PowerShell в Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
     
 
