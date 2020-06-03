@@ -16,64 +16,64 @@ ms.openlocfilehash: fff3d5d3105bf63c9cdd34cbcf828d57ca287b86
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461424"
 ---
-# <a name="completedate"></a><span data-ttu-id="d2d60-103">комплетедате</span><span class="sxs-lookup"><span data-stu-id="d2d60-103">CompleteDate</span></span>
+# <a name="completedate"></a><span data-ttu-id="6b973-103">комплетедате</span><span class="sxs-lookup"><span data-stu-id="6b973-103">CompleteDate</span></span>
 
-<span data-ttu-id="d2d60-104">Элемент **комплетедате** представляет дату завершения элемента.</span><span class="sxs-lookup"><span data-stu-id="d2d60-104">The **CompleteDate** element represents the date on which an item was completed.</span></span> 
+<span data-ttu-id="6b973-104">Элемент **комплетедате** представляет дату завершения элемента.</span><span class="sxs-lookup"><span data-stu-id="6b973-104">The **CompleteDate** element represents the date on which an item was completed.</span></span> 
   
 ```xml
 <CompleteDate/>
 ```
 
- <span data-ttu-id="d2d60-105">**DateTime**</span><span class="sxs-lookup"><span data-stu-id="d2d60-105">**DateTime**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="d2d60-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="d2d60-106">Attributes and elements</span></span>
+ <span data-ttu-id="6b973-105">**DateTime**</span><span class="sxs-lookup"><span data-stu-id="6b973-105">**DateTime**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6b973-106">Атрибуты и элементы</span><span class="sxs-lookup"><span data-stu-id="6b973-106">Attributes and elements</span></span>
 
-<span data-ttu-id="d2d60-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="d2d60-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6b973-107">В следующих разделах описываются атрибуты, дочерние и родительские элементы.</span><span class="sxs-lookup"><span data-stu-id="6b973-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="d2d60-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="d2d60-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6b973-108">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="6b973-108">Attributes</span></span>
 
-<span data-ttu-id="d2d60-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d2d60-109">None.</span></span>
+<span data-ttu-id="6b973-109">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="6b973-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="d2d60-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="d2d60-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6b973-110">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="6b973-110">Child elements</span></span>
 
-<span data-ttu-id="d2d60-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d2d60-111">None.</span></span>
+<span data-ttu-id="6b973-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="6b973-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="d2d60-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="d2d60-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6b973-112">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="6b973-112">Parent elements</span></span>
 
-|<span data-ttu-id="d2d60-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="d2d60-113">**Element**</span></span>|<span data-ttu-id="d2d60-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d2d60-114">**Description**</span></span>|
+|<span data-ttu-id="6b973-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6b973-113">**Element**</span></span>|<span data-ttu-id="6b973-114">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6b973-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d2d60-115">Задача</span><span class="sxs-lookup"><span data-stu-id="d2d60-115">Task</span></span>](task.md) <br/> |<span data-ttu-id="d2d60-116">Представляет задачу в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="d2d60-116">Represents a task in the Exchange store.</span></span>  <br/> |
-|[<span data-ttu-id="d2d60-117">Флаг</span><span class="sxs-lookup"><span data-stu-id="d2d60-117">Flag</span></span>](flag.md) <br/> |<span data-ttu-id="d2d60-118">Указывает флаг для элемента почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="d2d60-118">Specifies a flag on a mailbox item.</span></span>  <br/> |
+|[<span data-ttu-id="6b973-115">Задача</span><span class="sxs-lookup"><span data-stu-id="6b973-115">Task</span></span>](task.md) <br/> |<span data-ttu-id="6b973-116">Представляет задачу в хранилище Exchange.</span><span class="sxs-lookup"><span data-stu-id="6b973-116">Represents a task in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="6b973-117">Флаг</span><span class="sxs-lookup"><span data-stu-id="6b973-117">Flag</span></span>](flag.md) <br/> |<span data-ttu-id="6b973-118">Указывает флаг для элемента почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="6b973-118">Specifies a flag on a mailbox item.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="d2d60-119">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="d2d60-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="6b973-119">Текстовое значение</span><span class="sxs-lookup"><span data-stu-id="6b973-119">Text value</span></span>
 
-<span data-ttu-id="d2d60-120">Текстовое значение, представляющее дату и время, является обязательным при использовании этого элемента.</span><span class="sxs-lookup"><span data-stu-id="d2d60-120">A text value that represents the date and time is required if this element is used.</span></span>
+<span data-ttu-id="6b973-120">Текстовое значение, представляющее дату и время, является обязательным при использовании этого элемента.</span><span class="sxs-lookup"><span data-stu-id="6b973-120">A text value that represents the date and time is required if this element is used.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d2d60-121">Примечания</span><span class="sxs-lookup"><span data-stu-id="d2d60-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6b973-121">Примечания</span><span class="sxs-lookup"><span data-stu-id="6b973-121">Remarks</span></span>
 
-<span data-ttu-id="d2d60-122">Установка **комплетедате** имеет тот же последствия, что и установка [PercentComplete](percentcomplete.md) в 100 или [состояние](status.md) на " **завершено**".</span><span class="sxs-lookup"><span data-stu-id="d2d60-122">Setting **CompleteDate** has the same effect as setting [PercentComplete](percentcomplete.md) to 100 or [Status](status.md) to **Completed**.</span></span> <span data-ttu-id="d2d60-123">В запросе, который задает по крайней мере два из этих свойств, Последнее обработанное свойство будет определять значение, заданное для этих элементов.</span><span class="sxs-lookup"><span data-stu-id="d2d60-123">In a request that sets at least two of these properties, the last processed property will determine the value that is set for these elements.</span></span> <span data-ttu-id="d2d60-124">Например, если [PercentComplete](percentcomplete.md) равен 100, **Комплетедате** — 1 января 2007, а [состояние](status.md) — **NotStarted**, а свойства передаются в потоке в таком порядке, то результатом будет установка для задачи [состояния](status.md) **NotStarted**, [комплетедате](completedate.md) — **null**, а [PercentComplete](percentcomplete.md) — 0.</span><span class="sxs-lookup"><span data-stu-id="d2d60-124">For example, if [PercentComplete](percentcomplete.md) is 100, **CompleteDate** is January 1, 2007, and [Status](status.md) is **NotStarted**, and the properties are streamed in that order, the effect will be to set the [Status](status.md) of the task to **NotStarted**, the [CompleteDate](completedate.md) to **null**, and [PercentComplete](percentcomplete.md) to 0.</span></span> 
+<span data-ttu-id="6b973-122">Установка **комплетедате** имеет тот же последствия, что и установка [PercentComplete](percentcomplete.md) в 100 или [состояние](status.md) на " **завершено**".</span><span class="sxs-lookup"><span data-stu-id="6b973-122">Setting **CompleteDate** has the same effect as setting [PercentComplete](percentcomplete.md) to 100 or [Status](status.md) to **Completed**.</span></span> <span data-ttu-id="6b973-123">В запросе, который задает по крайней мере два из этих свойств, Последнее обработанное свойство будет определять значение, заданное для этих элементов.</span><span class="sxs-lookup"><span data-stu-id="6b973-123">In a request that sets at least two of these properties, the last processed property will determine the value that is set for these elements.</span></span> <span data-ttu-id="6b973-124">Например, если [PercentComplete](percentcomplete.md) равен 100, **Комплетедате** — 1 января 2007, а [состояние](status.md) — **NotStarted**, а свойства передаются в потоке в таком порядке, то результатом будет установка для задачи [состояния](status.md) **NotStarted**, [комплетедате](completedate.md) — **null**, а [PercentComplete](percentcomplete.md) — 0.</span><span class="sxs-lookup"><span data-stu-id="6b973-124">For example, if [PercentComplete](percentcomplete.md) is 100, **CompleteDate** is January 1, 2007, and [Status](status.md) is **NotStarted**, and the properties are streamed in that order, the effect will be to set the [Status](status.md) of the task to **NotStarted**, the [CompleteDate](completedate.md) to **null**, and [PercentComplete](percentcomplete.md) to 0.</span></span> 
   
-<span data-ttu-id="d2d60-125">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="d2d60-125">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="6b973-125">Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="6b973-125">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="d2d60-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="d2d60-126">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6b973-126">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="6b973-126">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d2d60-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="d2d60-127">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="d2d60-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="d2d60-128">Schema Name</span></span>  <br/> |<span data-ttu-id="d2d60-129">Схема Types</span><span class="sxs-lookup"><span data-stu-id="d2d60-129">Types schema</span></span>  <br/> |
-|<span data-ttu-id="d2d60-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="d2d60-130">Validation File</span></span>  <br/> |<span data-ttu-id="d2d60-131">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="d2d60-131">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="d2d60-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="d2d60-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="d2d60-133">False</span><span class="sxs-lookup"><span data-stu-id="d2d60-133">False</span></span>  <br/> |
+|<span data-ttu-id="6b973-127">Пространство имен</span><span class="sxs-lookup"><span data-stu-id="6b973-127">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="6b973-128">Имя схемы</span><span class="sxs-lookup"><span data-stu-id="6b973-128">Schema Name</span></span>  <br/> |<span data-ttu-id="6b973-129">Схема Types</span><span class="sxs-lookup"><span data-stu-id="6b973-129">Types schema</span></span>  <br/> |
+|<span data-ttu-id="6b973-130">Файл проверки</span><span class="sxs-lookup"><span data-stu-id="6b973-130">Validation File</span></span>  <br/> |<span data-ttu-id="6b973-131">Types. xsd</span><span class="sxs-lookup"><span data-stu-id="6b973-131">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="6b973-132">Может быть пустым</span><span class="sxs-lookup"><span data-stu-id="6b973-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="6b973-133">False</span><span class="sxs-lookup"><span data-stu-id="6b973-133">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="d2d60-134">См. также</span><span class="sxs-lookup"><span data-stu-id="d2d60-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6b973-134">См. также</span><span class="sxs-lookup"><span data-stu-id="6b973-134">See also</span></span>
 
 
 
-- [<span data-ttu-id="d2d60-135">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="d2d60-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="6b973-135">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="6b973-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
 
-[<span data-ttu-id="d2d60-136">Создание задач</span><span class="sxs-lookup"><span data-stu-id="d2d60-136">Creating Tasks</span></span>](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[<span data-ttu-id="6b973-136">Создание задач</span><span class="sxs-lookup"><span data-stu-id="6b973-136">Creating Tasks</span></span>](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[<span data-ttu-id="d2d60-137">Удаление задач</span><span class="sxs-lookup"><span data-stu-id="d2d60-137">Deleting Tasks</span></span>](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[<span data-ttu-id="6b973-137">Удаление задач</span><span class="sxs-lookup"><span data-stu-id="6b973-137">Deleting Tasks</span></span>](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

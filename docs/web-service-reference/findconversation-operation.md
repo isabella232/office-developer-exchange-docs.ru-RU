@@ -16,20 +16,20 @@ ms.openlocfilehash: ef768807431ff3e02c6af7277c1c2a750607ed92
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462656"
 ---
-# <a name="findconversation-operation"></a><span data-ttu-id="84d88-103">Операция FindConversation</span><span class="sxs-lookup"><span data-stu-id="84d88-103">FindConversation operation</span></span>
+# <a name="findconversation-operation"></a><span data-ttu-id="f8035-103">Операция FindConversation</span><span class="sxs-lookup"><span data-stu-id="f8035-103">FindConversation operation</span></span>
 
-<span data-ttu-id="84d88-104">Операция **FindConversation** перечисляет список бесед в папке.</span><span class="sxs-lookup"><span data-stu-id="84d88-104">The **FindConversation** operation enumerates a list of conversations in a folder.</span></span> 
+<span data-ttu-id="f8035-104">Операция **FindConversation** перечисляет список бесед в папке.</span><span class="sxs-lookup"><span data-stu-id="f8035-104">The **FindConversation** operation enumerates a list of conversations in a folder.</span></span> 
   
-## <a name="findconversation-request-example"></a><span data-ttu-id="84d88-105">Пример запроса FindConversation</span><span class="sxs-lookup"><span data-stu-id="84d88-105">FindConversation request example</span></span>
+## <a name="findconversation-request-example"></a><span data-ttu-id="f8035-105">Пример запроса FindConversation</span><span class="sxs-lookup"><span data-stu-id="f8035-105">FindConversation request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="84d88-106">Описание</span><span class="sxs-lookup"><span data-stu-id="84d88-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="f8035-106">Description</span><span class="sxs-lookup"><span data-stu-id="f8035-106">Description</span></span>
 
-<span data-ttu-id="84d88-107">В приведенном ниже примере запроса **FindConversation** показано, как сформировать запрос на поиск первой беседы в папке "Входящие".</span><span class="sxs-lookup"><span data-stu-id="84d88-107">The following example of a **FindConversation** request shows how to form a request to find the first conversation in the Inbox folder.</span></span> 
+<span data-ttu-id="f8035-107">В приведенном ниже примере запроса **FindConversation** показано, как сформировать запрос на поиск первой беседы в папке "Входящие".</span><span class="sxs-lookup"><span data-stu-id="f8035-107">The following example of a **FindConversation** request shows how to form a request to find the first conversation in the Inbox folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="84d88-108">Код</span><span class="sxs-lookup"><span data-stu-id="84d88-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="f8035-108">Код</span><span class="sxs-lookup"><span data-stu-id="f8035-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -52,27 +52,27 @@ ms.locfileid: "44462656"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a><span data-ttu-id="84d88-109">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="84d88-109">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="f8035-109">Элементы Request</span><span class="sxs-lookup"><span data-stu-id="f8035-109">Request elements</span></span>
 
-<span data-ttu-id="84d88-110">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="84d88-110">The following elements are used in the request:</span></span>
+<span data-ttu-id="f8035-110">В запросе используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="f8035-110">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="84d88-111">рекуестсерверверсион</span><span class="sxs-lookup"><span data-stu-id="84d88-111">RequestServerVersion</span></span>](requestserverversion.md)
+- [<span data-ttu-id="f8035-111">рекуестсерверверсион</span><span class="sxs-lookup"><span data-stu-id="f8035-111">RequestServerVersion</span></span>](requestserverversion.md)
     
-- [<span data-ttu-id="84d88-112">FindConversation</span><span class="sxs-lookup"><span data-stu-id="84d88-112">FindConversation</span></span>](findconversation.md)
+- [<span data-ttu-id="f8035-112">FindConversation</span><span class="sxs-lookup"><span data-stu-id="f8035-112">FindConversation</span></span>](findconversation.md)
     
-- [<span data-ttu-id="84d88-113">индекседпажеитемвиев</span><span class="sxs-lookup"><span data-stu-id="84d88-113">IndexedPageItemView</span></span>](indexedpageitemview.md)
+- [<span data-ttu-id="f8035-113">индекседпажеитемвиев</span><span class="sxs-lookup"><span data-stu-id="f8035-113">IndexedPageItemView</span></span>](indexedpageitemview.md)
     
-- [<span data-ttu-id="84d88-114">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="84d88-114">ParentFolderId</span></span>](parentfolderid.md)
+- [<span data-ttu-id="f8035-114">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="f8035-114">ParentFolderId</span></span>](parentfolderid.md)
     
-- [<span data-ttu-id="84d88-115">дистингуишедфолдерид</span><span class="sxs-lookup"><span data-stu-id="84d88-115">DistinguishedFolderId</span></span>](distinguishedfolderid.md)
+- [<span data-ttu-id="f8035-115">дистингуишедфолдерид</span><span class="sxs-lookup"><span data-stu-id="f8035-115">DistinguishedFolderId</span></span>](distinguishedfolderid.md)
     
-## <a name="successful-findconversation-response-example"></a><span data-ttu-id="84d88-116">Пример успешного ответа FindConversation</span><span class="sxs-lookup"><span data-stu-id="84d88-116">Successful FindConversation response example</span></span>
+## <a name="successful-findconversation-response-example"></a><span data-ttu-id="f8035-116">Пример успешного ответа FindConversation</span><span class="sxs-lookup"><span data-stu-id="f8035-116">Successful FindConversation response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="84d88-117">Описание</span><span class="sxs-lookup"><span data-stu-id="84d88-117">Description</span></span>
+### <a name="description"></a><span data-ttu-id="f8035-117">Description</span><span class="sxs-lookup"><span data-stu-id="f8035-117">Description</span></span>
 
-<span data-ttu-id="84d88-118">В следующем примере показан успешный ответ на запрос **FindConversation** .</span><span class="sxs-lookup"><span data-stu-id="84d88-118">The following example shows a successful response to a **FindConversation** request.</span></span> 
+<span data-ttu-id="f8035-118">В следующем примере показан успешный ответ на запрос **FindConversation** .</span><span class="sxs-lookup"><span data-stu-id="f8035-118">The following example shows a successful response to a **FindConversation** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="84d88-119">Код</span><span class="sxs-lookup"><span data-stu-id="84d88-119">Code</span></span>
+### <a name="code"></a><span data-ttu-id="f8035-119">Код</span><span class="sxs-lookup"><span data-stu-id="f8035-119">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -146,77 +146,77 @@ ms.locfileid: "44462656"
 </s:Envelope>
 ```
 
-### <a name="comment"></a><span data-ttu-id="84d88-120">Comment</span><span class="sxs-lookup"><span data-stu-id="84d88-120">Comment</span></span>
+### <a name="comment"></a><span data-ttu-id="f8035-120">Комментарий</span><span class="sxs-lookup"><span data-stu-id="f8035-120">Comment</span></span>
 
-<span data-ttu-id="84d88-121">Идентификаторы элементов и бесед в примере были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="84d88-121">The item and conversation identifiers in the example have been shortened to preserve readability.</span></span>
+<span data-ttu-id="f8035-121">Идентификаторы элементов и бесед в примере были сокращены, чтобы сохранить удобочитаемость.</span><span class="sxs-lookup"><span data-stu-id="f8035-121">The item and conversation identifiers in the example have been shortened to preserve readability.</span></span>
   
-### <a name="successful-response-elements"></a><span data-ttu-id="84d88-122">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="84d88-122">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="f8035-122">Элементы успешного ответа</span><span class="sxs-lookup"><span data-stu-id="f8035-122">Successful response elements</span></span>
 
-<span data-ttu-id="84d88-123">В отклике используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="84d88-123">The following elements are used in the response:</span></span>
+<span data-ttu-id="f8035-123">В отклике используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="f8035-123">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="84d88-124">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="84d88-124">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="f8035-124">серверверсионинфо</span><span class="sxs-lookup"><span data-stu-id="f8035-124">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="84d88-125">финдконверсатионреспонсе</span><span class="sxs-lookup"><span data-stu-id="84d88-125">FindConversationResponse</span></span>](findconversationresponse.md)
+- [<span data-ttu-id="f8035-125">финдконверсатионреспонсе</span><span class="sxs-lookup"><span data-stu-id="f8035-125">FindConversationResponse</span></span>](findconversationresponse.md)
     
-- [<span data-ttu-id="84d88-126">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="84d88-126">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="f8035-126">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="f8035-126">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="84d88-127">Беседы (ConversationType)</span><span class="sxs-lookup"><span data-stu-id="84d88-127">Conversation (ConversationType)</span></span>](conversation-conversationtype.md)
+- [<span data-ttu-id="f8035-127">Беседы (ConversationType)</span><span class="sxs-lookup"><span data-stu-id="f8035-127">Conversation (ConversationType)</span></span>](conversation-conversationtype.md)
     
-- [<span data-ttu-id="84d88-128">ConversationId</span><span class="sxs-lookup"><span data-stu-id="84d88-128">ConversationId</span></span>](conversationid.md)
+- [<span data-ttu-id="f8035-128">ConversationId</span><span class="sxs-lookup"><span data-stu-id="f8035-128">ConversationId</span></span>](conversationid.md)
     
-- [<span data-ttu-id="84d88-129">ConversationTopic</span><span class="sxs-lookup"><span data-stu-id="84d88-129">ConversationTopic</span></span>](conversationtopic.md)
+- [<span data-ttu-id="f8035-129">ConversationTopic</span><span class="sxs-lookup"><span data-stu-id="f8035-129">ConversationTopic</span></span>](conversationtopic.md)
     
-- [<span data-ttu-id="84d88-130">уникуереЦипиентс</span><span class="sxs-lookup"><span data-stu-id="84d88-130">UniqueRecipients</span></span>](uniquerecipients.md)
+- [<span data-ttu-id="f8035-130">уникуереЦипиентс</span><span class="sxs-lookup"><span data-stu-id="f8035-130">UniqueRecipients</span></span>](uniquerecipients.md)
     
-- [<span data-ttu-id="84d88-131">String</span><span class="sxs-lookup"><span data-stu-id="84d88-131">String</span></span>](string.md)
+- [<span data-ttu-id="f8035-131">String</span><span class="sxs-lookup"><span data-stu-id="f8035-131">String</span></span>](string.md)
     
-- [<span data-ttu-id="84d88-132">глобалуникуереЦипиентс</span><span class="sxs-lookup"><span data-stu-id="84d88-132">GlobalUniqueRecipients</span></span>](globaluniquerecipients.md)
+- [<span data-ttu-id="f8035-132">глобалуникуереЦипиентс</span><span class="sxs-lookup"><span data-stu-id="f8035-132">GlobalUniqueRecipients</span></span>](globaluniquerecipients.md)
     
-- [<span data-ttu-id="84d88-133">уникуесендерс</span><span class="sxs-lookup"><span data-stu-id="84d88-133">UniqueSenders</span></span>](uniquesenders.md)
+- [<span data-ttu-id="f8035-133">уникуесендерс</span><span class="sxs-lookup"><span data-stu-id="f8035-133">UniqueSenders</span></span>](uniquesenders.md)
     
-- [<span data-ttu-id="84d88-134">глобалуникуесендерс</span><span class="sxs-lookup"><span data-stu-id="84d88-134">GlobalUniqueSenders</span></span>](globaluniquesenders.md)
+- [<span data-ttu-id="f8035-134">глобалуникуесендерс</span><span class="sxs-lookup"><span data-stu-id="f8035-134">GlobalUniqueSenders</span></span>](globaluniquesenders.md)
     
-- [<span data-ttu-id="84d88-135">ластделиверитиме</span><span class="sxs-lookup"><span data-stu-id="84d88-135">LastDeliveryTime</span></span>](lastdeliverytime.md)
+- [<span data-ttu-id="f8035-135">ластделиверитиме</span><span class="sxs-lookup"><span data-stu-id="f8035-135">LastDeliveryTime</span></span>](lastdeliverytime.md)
     
-- [<span data-ttu-id="84d88-136">глобалластделиверитиме</span><span class="sxs-lookup"><span data-stu-id="84d88-136">GlobalLastDeliveryTime</span></span>](globallastdeliverytime.md)
+- [<span data-ttu-id="f8035-136">глобалластделиверитиме</span><span class="sxs-lookup"><span data-stu-id="f8035-136">GlobalLastDeliveryTime</span></span>](globallastdeliverytime.md)
     
-- [<span data-ttu-id="84d88-137">HasAttachments</span><span class="sxs-lookup"><span data-stu-id="84d88-137">HasAttachments</span></span>](hasattachments.md)
+- [<span data-ttu-id="f8035-137">HasAttachments</span><span class="sxs-lookup"><span data-stu-id="f8035-137">HasAttachments</span></span>](hasattachments.md)
     
-- [<span data-ttu-id="84d88-138">GlobalHasAttachments</span><span class="sxs-lookup"><span data-stu-id="84d88-138">GlobalHasAttachments</span></span>](globalhasattachments.md)
+- [<span data-ttu-id="f8035-138">GlobalHasAttachments</span><span class="sxs-lookup"><span data-stu-id="f8035-138">GlobalHasAttachments</span></span>](globalhasattachments.md)
     
-- [<span data-ttu-id="84d88-139">MessageCount</span><span class="sxs-lookup"><span data-stu-id="84d88-139">MessageCount</span></span>](messagecount.md)
+- [<span data-ttu-id="f8035-139">MessageCount</span><span class="sxs-lookup"><span data-stu-id="f8035-139">MessageCount</span></span>](messagecount.md)
     
-- [<span data-ttu-id="84d88-140">глобалмессажекаунт</span><span class="sxs-lookup"><span data-stu-id="84d88-140">GlobalMessageCount</span></span>](globalmessagecount.md)
+- [<span data-ttu-id="f8035-140">глобалмессажекаунт</span><span class="sxs-lookup"><span data-stu-id="f8035-140">GlobalMessageCount</span></span>](globalmessagecount.md)
     
-- [<span data-ttu-id="84d88-141">унреадкаунт</span><span class="sxs-lookup"><span data-stu-id="84d88-141">UnreadCount</span></span>](unreadcount.md)
+- [<span data-ttu-id="f8035-141">унреадкаунт</span><span class="sxs-lookup"><span data-stu-id="f8035-141">UnreadCount</span></span>](unreadcount.md)
     
-- [<span data-ttu-id="84d88-142">Размер</span><span class="sxs-lookup"><span data-stu-id="84d88-142">Size</span></span>](size.md)
+- [<span data-ttu-id="f8035-142">Размер</span><span class="sxs-lookup"><span data-stu-id="f8035-142">Size</span></span>](size.md)
     
-- [<span data-ttu-id="84d88-143">глобалсизе</span><span class="sxs-lookup"><span data-stu-id="84d88-143">GlobalSize</span></span>](globalsize.md)
+- [<span data-ttu-id="f8035-143">глобалсизе</span><span class="sxs-lookup"><span data-stu-id="f8035-143">GlobalSize</span></span>](globalsize.md)
     
-- [<span data-ttu-id="84d88-144">Итемклассес (Аррайофитемкласстипе)</span><span class="sxs-lookup"><span data-stu-id="84d88-144">ItemClasses (ArrayOfItemClassType)</span></span>](itemclasses-arrayofitemclasstype.md)
+- [<span data-ttu-id="f8035-144">Итемклассес (Аррайофитемкласстипе)</span><span class="sxs-lookup"><span data-stu-id="f8035-144">ItemClasses (ArrayOfItemClassType)</span></span>](itemclasses-arrayofitemclasstype.md)
     
-- [<span data-ttu-id="84d88-145">ItemClass</span><span class="sxs-lookup"><span data-stu-id="84d88-145">ItemClass</span></span>](itemclass.md)
+- [<span data-ttu-id="f8035-145">ItemClass</span><span class="sxs-lookup"><span data-stu-id="f8035-145">ItemClass</span></span>](itemclass.md)
     
-- [<span data-ttu-id="84d88-146">глобалитемклассес</span><span class="sxs-lookup"><span data-stu-id="84d88-146">GlobalItemClasses</span></span>](globalitemclasses.md)
+- [<span data-ttu-id="f8035-146">глобалитемклассес</span><span class="sxs-lookup"><span data-stu-id="f8035-146">GlobalItemClasses</span></span>](globalitemclasses.md)
     
-- [<span data-ttu-id="84d88-147">Importance</span><span class="sxs-lookup"><span data-stu-id="84d88-147">Importance</span></span>](importance.md)
+- [<span data-ttu-id="f8035-147">Importance</span><span class="sxs-lookup"><span data-stu-id="f8035-147">Importance</span></span>](importance.md)
     
-- [<span data-ttu-id="84d88-148">глобалимпортанце</span><span class="sxs-lookup"><span data-stu-id="84d88-148">GlobalImportance</span></span>](globalimportance.md)
+- [<span data-ttu-id="f8035-148">глобалимпортанце</span><span class="sxs-lookup"><span data-stu-id="f8035-148">GlobalImportance</span></span>](globalimportance.md)
     
-- [<span data-ttu-id="84d88-149">итемидс</span><span class="sxs-lookup"><span data-stu-id="84d88-149">ItemIds</span></span>](itemids.md)
+- [<span data-ttu-id="f8035-149">итемидс</span><span class="sxs-lookup"><span data-stu-id="f8035-149">ItemIds</span></span>](itemids.md)
     
-- [<span data-ttu-id="84d88-150">Идентификатор</span><span class="sxs-lookup"><span data-stu-id="84d88-150">ItemId</span></span>](itemid.md)
+- [<span data-ttu-id="f8035-150">Идентификатор</span><span class="sxs-lookup"><span data-stu-id="f8035-150">ItemId</span></span>](itemid.md)
     
-- [<span data-ttu-id="84d88-151">глобалитемидс</span><span class="sxs-lookup"><span data-stu-id="84d88-151">GlobalItemIds</span></span>](globalitemids.md)
+- [<span data-ttu-id="f8035-151">глобалитемидс</span><span class="sxs-lookup"><span data-stu-id="f8035-151">GlobalItemIds</span></span>](globalitemids.md)
     
-## <a name="findconversation-error-response-example"></a><span data-ttu-id="84d88-152">Пример ответа на сообщение об ошибке FindConversation</span><span class="sxs-lookup"><span data-stu-id="84d88-152">FindConversation Error response example</span></span>
+## <a name="findconversation-error-response-example"></a><span data-ttu-id="f8035-152">Пример ответа на сообщение об ошибке FindConversation</span><span class="sxs-lookup"><span data-stu-id="f8035-152">FindConversation Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="84d88-153">Описание</span><span class="sxs-lookup"><span data-stu-id="84d88-153">Description</span></span>
+### <a name="description"></a><span data-ttu-id="f8035-153">Description</span><span class="sxs-lookup"><span data-stu-id="f8035-153">Description</span></span>
 
-<span data-ttu-id="84d88-154">В приведенном ниже примере показан ответ об ошибке для запроса **FindConversation** , вызванного ошибкой проверки схемы.</span><span class="sxs-lookup"><span data-stu-id="84d88-154">The following example shows an error response to the **FindConversation** request that was caused by a schema validation error.</span></span> 
+<span data-ttu-id="f8035-154">В приведенном ниже примере показан ответ об ошибке для запроса **FindConversation** , вызванного ошибкой проверки схемы.</span><span class="sxs-lookup"><span data-stu-id="f8035-154">The following example shows an error response to the **FindConversation** request that was caused by a schema validation error.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="84d88-155">Код</span><span class="sxs-lookup"><span data-stu-id="84d88-155">Code</span></span>
+### <a name="code"></a><span data-ttu-id="f8035-155">Код</span><span class="sxs-lookup"><span data-stu-id="f8035-155">Code</span></span>
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -239,39 +239,39 @@ ms.locfileid: "44462656"
 </s:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="84d88-156">Элементы ошибочного ответа</span><span class="sxs-lookup"><span data-stu-id="84d88-156">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="f8035-156">Элементы ошибочного ответа</span><span class="sxs-lookup"><span data-stu-id="f8035-156">Error response elements</span></span>
 
-<span data-ttu-id="84d88-157">В ответе на сообщение об ошибке используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="84d88-157">The following elements are used in the error response:</span></span>
+<span data-ttu-id="f8035-157">В ответе на сообщение об ошибке используются следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="f8035-157">The following elements are used in the error response:</span></span>
   
-- <span data-ttu-id="84d88-158">фаулткоде</span><span class="sxs-lookup"><span data-stu-id="84d88-158">faultcode</span></span>
+- <span data-ttu-id="f8035-158">фаулткоде</span><span class="sxs-lookup"><span data-stu-id="f8035-158">faultcode</span></span>
     
-- <span data-ttu-id="84d88-159">фаултстринг</span><span class="sxs-lookup"><span data-stu-id="84d88-159">faultstring</span></span>
+- <span data-ttu-id="f8035-159">фаултстринг</span><span class="sxs-lookup"><span data-stu-id="f8035-159">faultstring</span></span>
     
-- <span data-ttu-id="84d88-160">описаны</span><span class="sxs-lookup"><span data-stu-id="84d88-160">detail</span></span>
+- <span data-ttu-id="f8035-160">описаны</span><span class="sxs-lookup"><span data-stu-id="f8035-160">detail</span></span>
     
-- [<span data-ttu-id="84d88-161">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="84d88-161">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="f8035-161">респонсекоде</span><span class="sxs-lookup"><span data-stu-id="f8035-161">ResponseCode</span></span>](responsecode.md)
     
-- <span data-ttu-id="84d88-162">Сообщение</span><span class="sxs-lookup"><span data-stu-id="84d88-162">Message</span></span>
+- <span data-ttu-id="f8035-162">Сообщение</span><span class="sxs-lookup"><span data-stu-id="f8035-162">Message</span></span>
     
-- [<span data-ttu-id="84d88-163">мессажексмл</span><span class="sxs-lookup"><span data-stu-id="84d88-163">MessageXml</span></span>](messagexml.md)
+- [<span data-ttu-id="f8035-163">мессажексмл</span><span class="sxs-lookup"><span data-stu-id="f8035-163">MessageXml</span></span>](messagexml.md)
     
-- <span data-ttu-id="84d88-164">LineNumber</span><span class="sxs-lookup"><span data-stu-id="84d88-164">LineNumber</span></span>
+- <span data-ttu-id="f8035-164">LineNumber</span><span class="sxs-lookup"><span data-stu-id="f8035-164">LineNumber</span></span>
     
-- <span data-ttu-id="84d88-165">линепоситион</span><span class="sxs-lookup"><span data-stu-id="84d88-165">LinePosition</span></span>
+- <span data-ttu-id="f8035-165">линепоситион</span><span class="sxs-lookup"><span data-stu-id="f8035-165">LinePosition</span></span>
     
-- <span data-ttu-id="84d88-166">Нарушение</span><span class="sxs-lookup"><span data-stu-id="84d88-166">Violation</span></span>
+- <span data-ttu-id="f8035-166">Нарушение</span><span class="sxs-lookup"><span data-stu-id="f8035-166">Violation</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="84d88-167">См. также</span><span class="sxs-lookup"><span data-stu-id="84d88-167">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f8035-167">См. также</span><span class="sxs-lookup"><span data-stu-id="f8035-167">See also</span></span>
 
 
 
-[<span data-ttu-id="84d88-168">Операция ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="84d88-168">ApplyConversationAction operation</span></span>](applyconversationaction-operation.md)
+[<span data-ttu-id="f8035-168">Операция ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="f8035-168">ApplyConversationAction operation</span></span>](applyconversationaction-operation.md)
 
 
-[<span data-ttu-id="84d88-169">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="84d88-169">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="f8035-169">Операции EWS в Exchange</span><span class="sxs-lookup"><span data-stu-id="f8035-169">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="84d88-170">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="84d88-170">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="f8035-170">Элементы XML веб-служб Exchange в Exchange</span><span class="sxs-lookup"><span data-stu-id="f8035-170">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
 
-[<span data-ttu-id="84d88-171">Conversations in EWS</span><span class="sxs-lookup"><span data-stu-id="84d88-171">Conversations in EWS</span></span>](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[<span data-ttu-id="f8035-171">Conversations in EWS</span><span class="sxs-lookup"><span data-stu-id="f8035-171">Conversations in EWS</span></span>](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 
