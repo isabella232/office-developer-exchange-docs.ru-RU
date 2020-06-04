@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 80b949ac-440c-4a01-b428-ebafb5b1b802
 description: Элемент Виевприватеитемс указывает, имеет ли представитель пользователя или клиентское приложение разрешение на просмотр частных элементов в почтовом ящике участника.
-ms.openlocfilehash: c35f24ae79e907424cb5cfb0efeec2307334ca12
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4e1375f7c4a3c660cc5de885deff8d094250ca7b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19840482"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44525971"
 ---
 # <a name="viewprivateitems"></a>виевприватеитемс
 
@@ -34,11 +34,11 @@ ms.locfileid: "19840482"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет.
+Отсутствуют.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+Отсутствуют.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -59,7 +59,7 @@ ms.locfileid: "19840482"
 
 |||
 |:-----|:-----|
-|Пространство имен  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
 |Файл проверки  <br/> |Types. xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
@@ -76,5 +76,5 @@ ms.locfileid: "19840482"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Добавление делегатов](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[Добавление делегатов](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

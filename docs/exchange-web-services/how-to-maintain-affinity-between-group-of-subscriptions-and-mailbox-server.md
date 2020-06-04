@@ -10,7 +10,7 @@ ms.openlocfilehash: 1618216cf69e08b2ae774264e0910856a59851af
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455772"
 ---
 # <a name="maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server-in-exchange"></a>Поддержание сходства между группой подписок и сервером почтовых ящиков в Exchange
