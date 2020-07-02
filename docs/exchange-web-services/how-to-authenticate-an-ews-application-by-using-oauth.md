@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: Узнайте, как использовать проверку подлинности OAuth с приложениями управляемого API EWS.
 localization_priority: Priority
-ms.openlocfilehash: e2bcb339ddac51b888660b6f982a8377591b1a29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0375095faac918859354da026118ea4ccfd6792b
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528253"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012568"
 ---
 <!-- markdownlint-disable MD025 -->
 # <a name="authenticate-an-ews-application-by-using-oauth"></a>Проверка подлинности приложения EWS с помощью OAuth
@@ -80,7 +80,7 @@ ms.locfileid: "44528253"
 
 ## <a name="add-code-to-get-an-authentication-token"></a>Добавление кода для получения маркера проверки подлинности
 
-В следующих фрагментах кода показано, как использовать библиотеку проверки подлинности (Майкрософт) для получения маркеров проверки подлинности для делегированных разрешений и разрешений приложений. В этих фрагментах предполагается, что сведения, необходимые для выполнения запроса проверки подлинности, хранятся в файле **app. config** приложения. В этих примерах не включается проверка ошибок, приведенные в [примерах кода](#code-samples) для полного кода.
+В следующих фрагментах кода показано, как использовать библиотеку проверки подлинности (Майкрософт) для получения маркеров проверки подлинности для делегированных разрешений и разрешений приложений. В этих фрагментах предполагается, что сведения, необходимые для выполнения запроса проверки подлинности, хранятся в файле **App.config** приложения. В этих примерах не включается проверка ошибок, приведенные в [примерах кода](#code-samples) для полного кода.
 
 ### <a name="delegated-permissions"></a>Делегированные разрешения
 
@@ -114,7 +114,7 @@ var app = ConfidentialClientApplicationBuilder
 // The permission scope required for EWS access
 var ewsScopes = new string[] { "https://outlook.office.com/.default" };
 
-//Make the toekn request
+//Make the token request
 AuthenticationResult authResult = await app.AcquireTokenForClient(ewsScopes).ExecuteAsync();
 
 ```
@@ -279,7 +279,7 @@ namespace ews_oauth_samples
 }
 ```
 
-В примере кода в обоих случаях требуется файл **app. config** со следующими записями:
+В примере кода в обоих случаях требуется файл **App.config** со следующими записями:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>

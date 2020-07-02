@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 4b3eb746-74c4-42a0-aa2c-742c147f1871
 description: Узнайте, как создавать, получать, обновлять и удалять папки с помощью управляемого API EWS или EWS в Exchange.
 localization_priority: Priority
-ms.openlocfilehash: a184d8da4d6949f01f47afc6a9fb7ed30729fd3b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c09c0c76edda4af025a6ac7121fdf9ab9660fcab
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456383"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012547"
 ---
 # <a name="work-with-folders-by-using-ews-in-exchange"></a>Работа с папками с помощью EWS в Exchange
 
@@ -38,7 +38,7 @@ ms.locfileid: "44456383"
   
 В этих примерах предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) и что пользователь прошел проверку подлинности на сервере Exchange. 
   
-```cs
+```csharp
 // Create a custom folder.
 Folder folder = new Folder(service);
 folder.DisplayName = "Custom Folder";
@@ -49,7 +49,7 @@ folder.Save(WellKnownFolderName.Inbox);
 
 Чтобы создать папку другого типа, например, [календарфолдер](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.calendarfolder%28v=exchg.80%29.aspx), [контактсфолдер](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contactsfolder%28v=exchg.80%29.aspx), [SearchFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)или [тасксфолдер](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx), создайте новый экземпляр определенного класса (вместо универсального класса **папки** ) и не задавайте свойство **фолдеркласс** . Например, в приведенном ниже примере кода показано, как создать новый объект [тасксфолдер](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx).
   
-```cs
+```csharp
 // Create a custom Tasks folder.
 TasksFolder folder = new TasksFolder(service);
 folder.DisplayName = "Custom Tasks";
@@ -71,7 +71,7 @@ folder.Save(WellKnownFolderName.Inbox);
   
 Это также запрос XML, который управляемый API EWS отправляет, когда вы создаете новую папку и вызываете метод [Folder. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) . 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
@@ -115,7 +115,7 @@ folder.Save(WellKnownFolderName.Inbox);
   
 В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
-```cs
+```csharp
 // As a best practice, limit the properties returned to only those that are required.
 // In this scenario, you only need the FolderId.
 PropertySet propSet = new PropertySet(BasePropertySet.IdOnly);
@@ -139,7 +139,7 @@ Folder rootfolder = Folder.Bind(service, WellKnownFolderName.Inbox, propSet);
   
 Чтобы получить несколько папок, включите несколько элементов [фолдеридс](https://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) в сообщение с запросом операции "операция с **папкой** ". 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
@@ -160,7 +160,7 @@ Folder rootfolder = Folder.Bind(service, WellKnownFolderName.Inbox, propSet);
 
 В следующем примере XML-кода показано сообщение [жетфолдерреспонсе](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) , которое отправляется от сервера клиенту в ответ на запрос операции- **папки** . Он содержит только значение [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) папки "Входящие". Для удобства значения некоторых атрибутов и элементов были сокращены. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
@@ -202,7 +202,7 @@ Folder rootfolder = Folder.Bind(service, WellKnownFolderName.Inbox, propSet);
   
 В этом примере предполагается, что **служба** является действительным объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx), и что пользователь прошел проверку подлинности на сервере Exchange server. 
   
-```XML
+```csharp
 // Create a new folder view, and pass in the maximum number of folders to return.
 FolderView view = new FolderView(folderViewSize);
 // Create an extended property definition for the PR_ATTR_HIDDEN property,
@@ -226,7 +226,7 @@ FindFoldersResults findFolderResults = service.FindFolders(WellKnownFolderName.M
   
 Это также запрос XML, который управляемый API EWS отправляет при вызове метода [финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) . 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
@@ -260,7 +260,7 @@ FindFoldersResults findFolderResults = service.FindFolders(WellKnownFolderName.M
   
 Кроме того, это XML-ответ, который управляемый API EWS отправляет при получении нескольких папок с помощью метода [FindFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) . Значения некоторых атрибутов и элементов были сокращены для удобочитаемости, а некоторые папки не были включены для краткости. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
@@ -368,7 +368,7 @@ folder.Update();
   
 Это также запрос XML, который отправляет управляемый API EWS при обновлении папки с помощью метода [Folder. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) . Для удобства значения некоторых атрибутов и элементов были сокращены. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
@@ -425,7 +425,7 @@ folder.Delete(DeleteMode.HardDelete);
   
 Это также запрос XML, который отправляет управляемый API EWS при удалении папки с помощью метода [Folder. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) . Для удобства значения некоторых атрибутов и элементов были сокращены. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
