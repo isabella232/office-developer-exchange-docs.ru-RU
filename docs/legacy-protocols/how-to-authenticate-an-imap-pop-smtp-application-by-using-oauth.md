@@ -4,12 +4,12 @@ description: Узнайте, как использовать проверку п
 author: svpsiva
 ms.date: 02/19/2020
 ms.audience: Developer
-ms.openlocfilehash: f83a932790cde558e741ece1e87403103aff18fd
-ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
+ms.openlocfilehash: fbe4eaefc5befcc173096c9b8526adebf74a0aad
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012561"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44438438"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Проверка подлинности подключения по протоколу IMAP, POP или SMTP с помощью OAuth
 
@@ -91,10 +91,6 @@ base64("user=test@contoso.onmicrosoft.com^Aauth=Bearer EwBAAl3BAAUFFpUAo7J3Ve0bj
 dXNlcj10ZXN0QGNvbnRvc28ub25taWNyb3NvZnQuY29tAWF1dGg9QmVhcmVy
 IEV3QkFBbDNCQUFVRkZwVUFvN0ozVmUwYmpMQldaV0NjbFJDM0VvQUEBAQ==
 ```
-
-### <a name="sasl-xoauth2-authentication-for-shared-mailboxes-in-office-365"></a>Проверка подлинности SASL XOAUTH2 для общих почтовых ящиков в Office 365
-
-В случае доступа к общему почтовому ящику с помощью OAuth приложению необходимо получить маркер доступа от имени пользователя, но заменить поле userName в зашифрованной строке SASL XOAUTH2 на адрес электронной почты общего почтового ящика. 
 
 ### <a name="imap-protocol-exchange"></a>Обмен протоколами IMAP
 
