@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: b4fff4c9-c625-4d2a-9d14-bb28a5da5baf
 description: Узнайте о политиках регулирования, влияющих на EWS при использовании Exchange.
 localization_priority: Priority
-ms.openlocfilehash: 0c6ac49629ad4cdb4419cc8638d8e60ecb6509d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 27db12c01180abbaf92b5b9a09a072212b6012ec
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455403"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012554"
 ---
 # <a name="ews-throttling-in-exchange"></a>EWS регулирование в Exchange
 
@@ -239,7 +239,7 @@ while (fiResults.MoreAvailable == true);
 
 Если приложение уведомления является многопотоковым и создает одновременные запросы на подключение для получения дополнительных сведений о конкретном сообщении, которое было получено учетной записью пользователя, ограничение политики **евсмаксконкурренци** может быть превышено. Для этого следует рассмотреть возможность мониторинга параллельных подключений в приложении, в том числе тех, которые могут использоваться сервером, и реализации очереди запросов на клиенте.
 
-**Хангингконнектионлимит** применяется только к потоковым уведомлениям. Это значение задается в файле Web. config, что означает, что администратор Exchange может задать это значение на локальном сервере Exchange Server, но почтовые ящики Exchange Online должны использовать значение по умолчанию для этого ограничения, равное 3 для Exchange Online и Exchange 2013. Чтобы узнать больше, посмотрите, [какие значения регулирования необходимо учитывать?](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).
+**Хангингконнектионлимит** применяется только к потоковым уведомлениям. Это значение задается в файле web.config, что означает, что администратор Exchange может задать это значение на локальном сервере Exchange Server, но почтовые ящики Exchange Online должны использовать значение по умолчанию для этого ограничения, равное 10 для Exchange Online, Exchange 2019, Exchange 2016 и 3 для Exchange 2013. Чтобы узнать больше, посмотрите, [какие значения регулирования необходимо учитывать?](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).
 
 ## <a name="throttling-policy-and-application-performance"></a>Политика регулирования и производительность приложения
 
