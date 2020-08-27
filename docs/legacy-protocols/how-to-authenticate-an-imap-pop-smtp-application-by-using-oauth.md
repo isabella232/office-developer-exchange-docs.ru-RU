@@ -4,18 +4,18 @@ description: Узнайте, как использовать проверку п
 author: svpsiva
 ms.date: 02/19/2020
 ms.audience: Developer
-ms.openlocfilehash: f83a932790cde558e741ece1e87403103aff18fd
-ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
+ms.openlocfilehash: e1bef8e35d78c35693dadc94b24b6aeecaf4e439
+ms.sourcegitcommit: 636c05a929279812c6ef87d75b01c166a4a05584
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012561"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47254988"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Проверка подлинности подключения по протоколу IMAP, POP или SMTP с помощью OAuth
 
 Узнайте, как использовать проверку подлинности OAuth для подключения к протоколам IMAP, POP или SMTP и доступа к данным электронной почты для пользователей Office 365.
 
-> OAuth2 поддержка протоколов IMAP, POP и SMTP, как описано ниже, не поддерживается для пользователей Outlook.com.
+> OAuth2 поддержка протокола IMAP, POP, протокола SMTP, как описано ниже, поддерживается как для Microsoft 365 (включая Office в Интернете), так и для пользователей Outlook.com.
 
 Если вы не знакомы с OAuth 2,0, начните с ознакомления с [обзором платформы Microsoft Identity Platform (v 2.0)](/azure/active-directory/develop/v2-overview). В этом документе описываются различные компоненты платформы удостоверений Майкрософт, в том числе пакеты SDK.
 

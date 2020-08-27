@@ -1,17 +1,17 @@
 ---
 title: Начало работы с клиентскими приложениями EWS
 manager: sethgros
-ms.date: 11/16/2014
+ms.date: 8/26/2020
 ms.audience: Developer
 ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
 description: Создание первого приложения с помощью веб-служб Exchange (EWS) в Exchange.
 localization_priority: Priority
-ms.openlocfilehash: fd02c46777dabd04b492ba3c4420a0737640c5eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
-ms.translationtype: MT
+ms.openlocfilehash: 81d4cb69d20f17945658ab4ad16c9fe3a47d4eec
+ms.sourcegitcommit: 636c05a929279812c6ef87d75b01c166a4a05584
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528400"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47254981"
 ---
 # <a name="get-started-with-ews-client-applications"></a>Начало работы с клиентскими приложениями EWS
 
@@ -25,7 +25,7 @@ EWS  это комплексная служба, которую приложен
 
 Если у вас уже есть учетная запись почтового ящика Exchange, вы можете пропустить этот шаг. Если это не так, ниже приведены несколько вариантов настройки почтового ящика Exchange для вашего первого приложения EWS.
   
-- [Создайте Сайт разработчика в Office 365](https://msdn.microsoft.com/library/office/fp179924.aspx) (рекомендуется). Так можно получить почтовый ящик Exchange быстрее всего.
+- [Создайте Сайт разработчика в Office 365](https://developer.microsoft.com/microsoft-365/dev-program) (рекомендуется). Так можно получить почтовый ящик Exchange быстрее всего.
     
 - Скачайте [Exchange Server](https://office.microsoft.com/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
 
