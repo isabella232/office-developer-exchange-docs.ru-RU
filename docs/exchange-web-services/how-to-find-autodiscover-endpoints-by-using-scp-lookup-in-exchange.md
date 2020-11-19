@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: b24228a8-5127-4bac-aef0-9c9e8843c9ff
 description: Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Сведения о том, как найти объекты точек подключения к службе автообнаружения в доменных службах Active Directory (AD DS), чтобы с их помощью находить URL-адреса конечных точек автообнаружения, которые затем будут использоваться совместно со службой автообнаружения Exchange.
 localization_priority: Priority
-ms.openlocfilehash: c0c0364a7d69364e12db902f1f22d65c4b5a0cc5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5468c18b6d614016915c292c2e02c1a4b570ae37
+ms.sourcegitcommit: 37d4ecd4f469690ba1de87baad2f2f58c40c96ba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44455879"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49348810"
 ---
 # <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>Обнаружение конечных точек автообнаружения с помощью поиска SCP в Exchange
 
@@ -173,7 +173,7 @@ namespace ScpLookup
                     {
                         // Save the first SCP pointer that is not scoped to a domain as a fallback
                         // in case you do not get any results from this server.
-                        if (entryKeywords.Count == 1 &amp;&amp; string.IsNullOrEmpty(fallBackLdapPath))
+                        if (entryKeywords.Count == 1 && string.IsNullOrEmpty(fallBackLdapPath))
                         {
                             fallBackLdapPath = ptrLdapPath;
                             Console.WriteLine("Saved fallback SCP pointer: " + fallBackLdapPath);
@@ -283,7 +283,7 @@ namespace ScpLookup
                 }
                 // If after all this, you still have no URLs in your list,
                 // try the fallback SCP pointer, if you have one.
-                if (scpUrlList.Count == 0 &amp;&amp; fallBackLdapPath != null)
+                if (scpUrlList.Count == 0 && fallBackLdapPath != null)
                 {
                     return GetScpUrls(fallBackLdapPath, domain);
                 }

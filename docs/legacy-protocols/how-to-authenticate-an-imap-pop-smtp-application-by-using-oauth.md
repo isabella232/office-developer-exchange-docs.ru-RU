@@ -4,12 +4,12 @@ description: Узнайте, как использовать проверку п
 author: svpsiva
 ms.date: 02/19/2020
 ms.audience: Developer
-ms.openlocfilehash: e1bef8e35d78c35693dadc94b24b6aeecaf4e439
-ms.sourcegitcommit: 636c05a929279812c6ef87d75b01c166a4a05584
+ms.openlocfilehash: 4662aa904ed162edcced6c096eac8cf636180f6a
+ms.sourcegitcommit: 37d4ecd4f469690ba1de87baad2f2f58c40c96ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47254988"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49348817"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Проверка подлинности подключения по протоколу IMAP, POP или SMTP с помощью OAuth
 
@@ -17,11 +17,11 @@ ms.locfileid: "47254988"
 
 > OAuth2 поддержка протокола IMAP, POP, протокола SMTP, как описано ниже, поддерживается как для Microsoft 365 (включая Office в Интернете), так и для пользователей Outlook.com.
 
-Если вы не знакомы с OAuth 2,0, начните с ознакомления с [обзором платформы Microsoft Identity Platform (v 2.0)](/azure/active-directory/develop/v2-overview). В этом документе описываются различные компоненты платформы удостоверений Майкрософт, в том числе пакеты SDK.
+Если вы не знакомы с протоколом OAuth 2,0, начните с чтения [протокола oauth 2,0 на платформе идентификации Майкрософт](/azure/active-directory/develop/active-directory-v2-protocols). Чтобы узнать больше о Либариерс проверки подлинности Майкрософт (MSAL), которые реализуют протокол OAuth 2,0 для проверки подлинности пользователей и доступа к защищенным API, прочитайте [Обзор MSAL](/azure/active-directory/develop/msal-overview).
 
 Вы можете использовать службу проверки подлинности OAuth, предоставляемую Azure Active Directory, чтобы разрешить приложению подключаться с помощью протоколов IMAP, POP или SMTP для доступа к Exchange Online в Office 365. Чтобы использовать OAuth с приложением, необходимо выполнить следующие действия:
 
-1. [Зарегистрируйте свое приложение](#register-your-application) с помощью Azure Active Directory.
+1. [Регистрация приложения](#register-your-application) в Azure Active Directory.
 1. [Настройте приложение](#configure-your-application) в Azure Active Directory.
 1. [Получение маркера доступа](#get-an-access-token) от сервера маркеров.
 1. [Проверка подлинности запросов на подключение](#authenticate-connection-requests) с помощью маркера доступа.
