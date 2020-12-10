@@ -1,17 +1,17 @@
 ---
 title: Проверка подлинности приложения EWS с помощью OAuth
 manager: sethgros
-ms.date: 11/19/2020
+ms.date: 11/25/2020
 ms.audience: Developer
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: Узнайте, как использовать проверку подлинности OAuth для приложений на основе API, управляемого EWS.
 localization_priority: Priority
-ms.openlocfilehash: c52b254f14cadd287a709bb68f8464e7cfe1837a
-ms.sourcegitcommit: 2d16ba247a8cb4b6c8ca9941cb079f75202aae1e
+ms.openlocfilehash: a7b1d2a099cf5f3c95f8453605363de12ff33c54
+ms.sourcegitcommit: 843a2e030a94b12aec70c553ca4e06e39ac02d82
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "49356495"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49603829"
 ---
 <!-- markdownlint-disable MD025 -->
 # <a name="authenticate-an-ews-application-by-using-oauth"></a>Проверка подлинности приложения EWS с помощью OAuth
@@ -31,7 +31,7 @@ ms.locfileid: "49356495"
 Чтобы использовать код, приведенный в этой статье, необходимо иметь доступ к следующему:
 
 - Учетной записи Microsoft 365 с почтовым ящиком Exchange Online. Если у вас нет учетной записи Microsoft 365, [зарегистрируйтесь в программе для разработчиков Microsoft 365](https://developer.microsoft.com/microsoft-365/dev-program), чтобы получить бесплатную подписку на Microsoft 365.
-- [Библиотеке проверки подлинности Майкрософт для .NET](/dotnet/api/microsoft.identity.client).
+- [библиотеке проверки подлинности Майкрософт для .NET](/dotnet/api/microsoft.identity.client);
 - [API, управляемому EWS](https://github.com/officedev/ews-managed-api).
 
 Существует два типа разрешений OAuth, которые можно использовать для доступа к API, управляемому EWS, в Exchange Online. Перед тем как приступить к выполнению описанных в руководстве действий, нужно выбрать конкретный тип разрешения.
@@ -57,7 +57,7 @@ ms.locfileid: "49356495"
 
 ### <a name="configure-for-delegated-authentication"></a>Настройка делегированной проверки подлинности
 
-Если приложение использует делегированную проверку подлинности, дополнительные настройки не требуются. Служба [Платформа удостоверений Майкрософт для разработчиков] позволяет приложениям динамически запрашивать разрешения, поэтому вам не нужно предварительно настраивать разрешения на регистрацию приложений. Тем не менее в некоторых ситуациях (например, [в потоке "от имени"](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)) требуются предварительно настроенные разрешения. Чтобы предварительно настроить разрешения EWS, выполните действия ниже.
+Если приложение использует делегированную проверку подлинности, дополнительные настройки не требуются. [Платформа удостоверений Майкрософт для разработчиков](/azure/active-directory/develop/v2-overview) позволяет приложениям динамически запрашивать разрешения, поэтому вам не нужно предварительно настраивать разрешения на регистрацию приложений. Тем не менее в некоторых ситуациях (например, [в потоке "от имени"](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)) требуются предварительно настроенные разрешения. Чтобы предварительно настроить разрешения EWS, выполните действия ниже.
 
 1. Нажмите **Манифест** в области навигации слева в разделе **Управление**.
 
@@ -119,12 +119,19 @@ ms.locfileid: "49356495"
 
 ```cs
 // Using Microsoft.Identity.Client 4.22.0
+
+// Configure the MSAL client to get tokens
+var pcaOptions = new PublicClientApplicationOptions
+{
+    ClientId = ConfigurationManager.AppSettings["appId"],
+    TenantId = ConfigurationManager.AppSettings["tenantId"]
+};
+
 var pca = PublicClientApplicationBuilder
-    .Create(ConfigurationManager.AppSettings["appId"])
-    .Build();
+    .CreateWithApplicationOptions(pcaOptions).Build();
 
 // The permission scope required for EWS access
-var ewsScopes = new string[] { "EWS.AccessAsUser.All" };
+var ewsScopes = new string[] { "https://outlook.office365.com/EWS.AccessAsUser.All" };
 
 // Make the interactive token request
 var authResult = await pca.AcquireTokenInteractive(ewsScopes).ExecuteAsync();
@@ -144,7 +151,7 @@ var cca = ConfidentialClientApplicationBuilder
 var ewsScopes = new string[] { "https://outlook.office365.com/.default" };
 
 //Make the token request
-var authResult = await app.AcquireTokenForClient(ewsScopes).ExecuteAsync();
+var authResult = await cca.AcquireTokenForClient(ewsScopes).ExecuteAsync();
 ```
 
 ## <a name="add-an-authentication-token-to-ews-requests"></a>Добавление токена проверки подлинности в запросы EWS
@@ -184,11 +191,19 @@ namespace EwsOAuth
         static async System.Threading.Tasks.Task Main(string[] args)
         {
             // Using Microsoft.Identity.Client 4.22.0
-            var pca = PublicClientApplicationBuilder
-                .Create(ConfigurationManager.AppSettings["appId"])
-                .Build();
 
-            var ewsScopes = new string[] { "EWS.AccessAsUser.All" };
+            // Configure the MSAL client to get tokens
+            var pcaOptions = new PublicClientApplicationOptions
+            {
+                ClientId = ConfigurationManager.AppSettings["appId"],
+                TenantId = ConfigurationManager.AppSettings["tenantId"]
+            };
+
+            var pca = PublicClientApplicationBuilder
+                .CreateWithApplicationOptions(pcaOptions).Build();
+
+            // The permission scope required for EWS access
+            var ewsScopes = new string[] { "https://outlook.office365.com/EWS.AccessAsUser.All" };
 
             try
             {
