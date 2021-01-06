@@ -1,5 +1,5 @@
 ---
-title: респонсемессажес
+title: ResponseMessages
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2071bed8-ea66-4627-aa4f-a1d9a025cf3d
-description: Элемент Респонсемессажес содержит ответные сообщения для запроса веб-служб Exchange.
+description: Элемент ResponseMessages содержит сообщения ответа для запроса веб-служб Exchange.
 ms.openlocfilehash: 93d83fbba3ea4bfe33f574eea7991157a4f10b88
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465403"
 ---
-# <a name="responsemessages"></a>респонсемессажес
+# <a name="responsemessages"></a>ResponseMessages
 
-Элемент **респонсемессажес** содержит ответные сообщения для запроса веб-служб Exchange. 
+Элемент **ResponseMessages** содержит сообщения ответа для запроса веб-служб Exchange. 
   
 ```XML
 <ResponseMessages>
@@ -300,108 +300,108 @@ ms.locfileid: "44465403"
 ```
 
 
-**аррайофреспонсемессажестипе**
+**ArrayOfResponseMessagesType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[копифолдерреспонсемессаже](copyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CopyFolder.  <br/> |
-|[копитемреспонсемессаже](copyitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CopyItem.  <br/> |
-|[креатеаттачментреспонсемессаже](createattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateAttachment.  <br/> |
-|[креатефолдерреспонсемессаже](createfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateFolder.  <br/> |
-|[креатеитемреспонсемессаже](createitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateItem.  <br/> |
-|[креатеманажедфолдерреспонсемессаже](createmanagedfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateManagedFolder.  <br/> |
-|[делетеаттачментреспонсемессаже](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса DeleteAttachment.  <br/> |
-|[делетефолдерреспонсемессаже](deletefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса DeleteFolder.  <br/> |
-|[делетеитемреспонсемессаже](deleteitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса DeleteItem.  <br/> |
-|[емптифолдерреспонсемессаже](emptyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [EmptyFolder](emptyfolder.md) .  <br/> |
-|[експанддлреспонсемессаже](expanddlresponsemessage.md) <br/> |Содержит состояние и результат одного запроса ExpandDL.  <br/> |
-|[финдфолдерреспонсемессаже](findfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса FindFolder.  <br/> |
-|[финдитемреспонсемессаже](finditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса FindItem.  <br/> |
-|[жетаттачментреспонсемессаже](getattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetAttachment.  <br/> |
-|[уплоадитемсреспонсемессаже](uploaditemsresponsemessage.md) <br/> |Содержит состояние и результаты одного запроса UploadItems.  <br/> |
-|[експортитемсреспонсемессаже](exportitemsresponsemessage.md) <br/> |Содержит состояние и результаты одного запроса ExportItems.  <br/> |
-|[жетевентсреспонсемессаже](geteventsresponsemessage.md) <br/> |Содержит состояние и результат запроса на единичные события.  <br/> |
-|[жетстреаминжевентсреспонсемессаже](getstreamingeventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetStreamingEvents.  <br/> |
-|[жетфолдерреспонсемессаже](getfolderresponsemessage.md) <br/> |Содержит сведения о состоянии и результатах одного запроса на получение вложенной папки.  <br/> |
-|[жетитемреспонсемессаже](getitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetItem.  <br/> |
-|[мовефолдерреспонсемессаже](movefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса MoveFolder.  <br/> |
-|[мовеитемреспонсемессаже](moveitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса MoveItem.  <br/> |
-|[ресолвенамесреспонсемессаже](resolvenamesresponsemessage.md) <br/> |Содержит состояние и результат запроса ResolveNames.  <br/> |
-|[сендитемреспонсемессаже](senditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса SendItem.  <br/> |
-|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Содержит состояние и результат одного запроса Сенднотификатион.  <br/> |
-|[субскрибереспонсемессаже](subscriberesponsemessage.md) <br/> |Содержит состояние и результат запроса одиночной подписки.  <br/> |
-|[синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderHierarchy.  <br/> |
-|[синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderItems.  <br/> |
-|[унсубскрибереспонсемессаже](unsubscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса отказа от подписки.  <br/> |
-|[упдатефолдерреспонсемессаже](updatefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса операцию UpdateFolder.  <br/> |
-|[упдатеитемреспонсемессаже](updateitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса UpdateItem.  <br/> |
-|[конвертидреспонсемессаже](convertidresponsemessage.md) <br/> |Содержит состояние и результат запроса ConvertId.  <br/> |
-|[жетшарингметадатареспонсемессаже](getsharingmetadataresponsemessage.md) <br/> |Содержит состояние и результаты запроса GetSharingMetadata.  <br/> |
-|[рефрешшарингфолдерреспонсемессаже](refreshsharingfolderresponsemessage.md) <br/> |Содержит состояние и результаты запроса RefreshSharingFolder.  <br/> |
-|[жетшарингфолдерреспонсемессаже](getsharingfolderresponsemessage.md) <br/> |Содержит состояние и результаты запроса GetSharingFolder.  <br/> |
-|[креатеусерконфигуратионреспонсемессаже](createuserconfigurationresponsemessage.md) <br/> |Содержит состояние и результаты запроса CreateUserConfiguration.  <br/> |
-|[делетеусерконфигуратионреспонсемессаже](deleteuserconfigurationresponsemessage.md) <br/> |Содержит состояние и результаты запроса DeleteUserConfiguration.  <br/> |
-|[жетусерконфигуратионреспонсемессаже](getuserconfigurationresponsemessage.md) <br/> |Содержит состояние и результаты запроса GetUserConfiguration.  <br/> |
-|[упдатеусерконфигуратионреспонсемессаже](updateuserconfigurationresponsemessage.md) <br/> |Содержит состояние и результаты запроса UpdateUserConfiguration.  <br/> |
-|[жетрумлистсреспонсе](getroomlistsresponse.md) <br/> |Содержит состояние и результаты запроса GetRoomLists.  <br/> |
-|[жетрумсреспонсе](getroomsresponse.md) <br/> |Содержит состояние запроса на получение помещений и его результаты.  <br/> |
-|[жетреминдерсреспонсе](getremindersresponse.md) <br/> |Содержит сведения о состоянии и результатах запроса.  <br/> |
-|[перформреминдерактионреспонсе](performreminderactionresponse.md) <br/> |Содержит состояние и результаты запроса PerformReminderAction.  <br/> |
-|[жетсервертимезонесреспонсемессаже](getservertimezonesresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetServerTimeZones.  <br/> |
-|[аппликонверсатионактионреспонсемессаже](applyconversationactionresponsemessage.md) <br/> |Содержит состояние и результаты запроса [операции ApplyConversationAction](applyconversationaction-operation.md) .  <br/> |
+|[CopyFolderResponseMessage](copyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CopyFolder.  <br/> |
+|[CopyItemResponseMessage](copyitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CopyItem.  <br/> |
+|[CreateAttachmentResponseMessage](createattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateAttachment.  <br/> |
+|[CreateFolderResponseMessage](createfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateFolder.  <br/> |
+|[CreateItemResponseMessage](createitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateItem.  <br/> |
+|[CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateManagedFolder.  <br/> |
+|[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса DeleteAttachment.  <br/> |
+|[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса DeleteFolder.  <br/> |
+|[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса DeleteItem.  <br/> |
+|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [EmptyFolder.](emptyfolder.md)  <br/> |
+|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Содержит состояние и результат одного запроса ExpandDL.  <br/> |
+|[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса FindFolder.  <br/> |
+|[FindItemResponseMessage](finditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса FindItem.  <br/> |
+|[GetAttachmentResponseMessage](getattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetAttachment.  <br/> |
+|[UploadItemsResponseMessage](uploaditemsresponsemessage.md) <br/> |Содержит состояние и результаты одного запроса UploadItems.  <br/> |
+|[ExportItemsResponseMessage](exportitemsresponsemessage.md) <br/> |Содержит состояние и результаты одного запроса ExportItems.  <br/> |
+|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetEvents.  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetStreamingEvents.  <br/> |
+|[GetFolderResponseMessage](getfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetFolder.  <br/> |
+|[GetItemResponseMessage](getitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetItem.  <br/> |
+|[MoveFolderResponseMessage](movefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса MoveFolder.  <br/> |
+|[MoveItemResponseMessage](moveitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса MoveItem.  <br/> |
+|[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Содержит состояние и результат запроса ResolveNames.  <br/> |
+|[SendItemResponseMessage](senditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса SendItem.  <br/> |
+|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Содержит состояние и результат одного запроса SendNotification.  <br/> |
+|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса на подписку.  <br/> |
+|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderHierarchy.  <br/> |
+|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderItems.  <br/> |
+|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса на отписки.  <br/> |
+|[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса UpdateFolder.  <br/> |
+|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса UpdateItem.  <br/> |
+|[ConvertIdResponseMessage](convertidresponsemessage.md) <br/> |Содержит состояние и результат запроса ConvertId.  <br/> |
+|[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |Содержит состояние и результаты запроса GetSharingMetadata.  <br/> |
+|[RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md) <br/> |Содержит состояние и результаты запроса RefreshSharingFolder.  <br/> |
+|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Содержит состояние и результаты запроса GetSharingFolder.  <br/> |
+|[CreateUserConfigurationResponseMessage](createuserconfigurationresponsemessage.md) <br/> |Содержит состояние и результаты запроса CreateUserConfiguration.  <br/> |
+|[DeleteUserConfigurationResponseMessage](deleteuserconfigurationresponsemessage.md) <br/> |Содержит состояние и результаты запроса DeleteUserConfiguration.  <br/> |
+|[GetUserConfigurationResponseMessage](getuserconfigurationresponsemessage.md) <br/> |Содержит состояние и результаты запроса GetUserConfiguration.  <br/> |
+|[UpdateUserConfigurationResponseMessage](updateuserconfigurationresponsemessage.md) <br/> |Содержит состояние и результаты запроса UpdateUserConfiguration.  <br/> |
+|[GetRoomListsResponse](getroomlistsresponse.md) <br/> |Содержит состояние и результаты запроса GetRoomLists.  <br/> |
+|[GetRoomsResponse](getroomsresponse.md) <br/> |Содержит состояние и результаты запроса GetRooms.  <br/> |
+|[GetRemindersResponse](getremindersresponse.md) <br/> |Содержит состояние и результаты запроса GetReminders.  <br/> |
+|[PerformReminderActionResponse](performreminderactionresponse.md) <br/> |Содержит состояние и результаты запроса PerformReminderAction.  <br/> |
+|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetServerTimeZones.  <br/> |
+|[ApplyConversationActionResponseMessage](applyconversationactionresponsemessage.md) <br/> |Содержит состояние и результаты запроса на операцию [ApplyConversationAction.](applyconversationaction-operation.md)  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[копифолдерреспонсе](copyfolderresponse.md) <br/> |Определяет ответ на запрос CopyFolder.  <br/> |
-|[копитемреспонсе](copyitemresponse.md) <br/> |Определяет ответ на запрос CopyItem.  <br/> |
-|[креатеаттачментреспонсе](createattachmentresponse.md) <br/> |Определяет ответ на запрос CreateAttachment.  <br/> |
-|[креатефолдерреспонсе](createfolderresponse.md) <br/> |Определяет ответ на запрос CreateFolder.  <br/> |
-|[креатеитемреспонсе](createitemresponse.md) <br/> |Определяет ответ на запрос CreateItem.  <br/> |
-|[креатеманажедфолдерреспонсе](createmanagedfolderresponse.md) <br/> |Определяет ответ на запрос CreateManagedFolder.  <br/> |
-|[делетеаттачментреспонсе](deleteattachmentresponse.md) <br/> |Определяет ответ на запрос DeleteAttachment.  <br/> |
-|[делетефолдерреспонсе](deletefolderresponse.md) <br/> |Определяет ответ на запрос DeleteFolder.  <br/> |
-|[делетеитемреспонсе](deleteitemresponse.md) <br/> |Определяет ответ на запрос DeleteItem.  <br/> |
-|[емптифолдерреспонсе](emptyfolderresponse.md) <br/> |Определяет ответ на запрос EmptyFolder.  <br/> |
-|[експанддлреспонсе](expanddlresponse.md) <br/> |Определяет ответ на запрос ExpandDL.  <br/> |
-|[експортитемсреспонсе](exportitemsresponse.md) <br/> |Представляет ответ на один запрос ExportItems.  <br/> |
-|[финдфолдерреспонсе](findfolderresponse.md) <br/> |Определяет ответ на запрос FindFolder.  <br/> |
-|[финдитемреспонсе](finditemresponse.md) <br/> |Определяет ответ на запрос FindItem.  <br/> |
-|[жетаттачментреспонсе](getattachmentresponse.md) <br/> |Определяет ответ на запрос GetAttachment.  <br/> |
-|[жетевентсреспонсе](geteventsresponse.md) <br/> |Определяет ответ на запрос событий с событиями.  <br/> |
-|[жетстреаминжевентсреспонсе](getstreamingeventsresponse.md) <br/> |Определяет ответ на запрос GetStreamingEvents.  <br/> |
-|[жетфолдерреспонсе](getfolderresponse.md) <br/> |Определяет ответ на запрос на получение папки.  <br/> |
-|[жетитемреспонсе](getitemresponse.md) <br/> |Определяет ответ на запрос GetItem.  <br/> |
-|[мовефолдерреспонсе](movefolderresponse.md) <br/> |Определяет ответ на запрос MoveFolder.  <br/> |
-|[мовеитемреспонсе](moveitemresponse.md) <br/> |Определяет ответ на запрос MoveItem.  <br/> |
-|[ресолвенамесреспонсе](resolvenamesresponse.md) <br/> |Определяет ответ на запрос ResolveNames.  <br/> |
-|[сендитемреспонсе](senditemresponse.md) <br/> |Определяет ответ на запрос SendItem.  <br/> |
-|[сенднотификатионресулт](sendnotificationresult.md) <br/> |Определяет ответ на запрос Сенднотификатион.  <br/> |
-|[субскрибереспонсе](subscriberesponse.md) <br/> |Определяет ответ на запрос подписки.  <br/> |
-|[синкфолдерхиерарчиреспонсе](syncfolderhierarchyresponse.md) <br/> |Определяет ответ на запрос SyncFolderHierarchy.  <br/> |
-|[синкфолдеритемсреспонсе](syncfolderitemsresponse.md) <br/> |Определяет ответ на запрос SyncFolderItems.  <br/> |
-|[унсубскрибереспонсе](unsubscriberesponse.md) <br/> |Определяет ответ на запрос отмены подписки.  <br/> |
-|[упдатефолдерреспонсе](updatefolderresponse.md) <br/> |Определяет ответ на запрос операцию UpdateFolder.  <br/> |
-|[упдатеитемреспонсе](updateitemresponse.md) <br/> |Определяет ответ на запрос UpdateItem.  <br/> |
-|[конвертидреспонсе](convertidresponse.md) <br/> |Содержит ответ на запрос ConvertId.  <br/> |
-|[жетсервертимезонесреспонсе](getservertimezonesresponse.md) <br/> |Определяет ответ на запрос GetServerTimeZones.  <br/> |
-|[креатеусерконфигуратионреспонсе](createuserconfigurationresponse.md) <br/> |Определяет ответ на запрос Креатеусерконфиуратион.  <br/> |
-|[делетеусерконфигуратионреспонсе](deleteuserconfigurationresponse.md) <br/> |Определяет ответ на запрос DeleteUserConfiguration.  <br/> |
-|[жетусерконфигуратионреспонсе](getuserconfigurationresponse.md) <br/> |Определяет ответ на запрос GetUserConfiguration.  <br/> |
-|[упдатеусерконфигуратионреспонсе](updateuserconfigurationresponse.md) <br/> |Определяет ответ на запрос UpdateUserConfiguration.  <br/> |
-|[аппликонверсатионактионреспонсе](applyconversationactionresponse.md) <br/> |Определяет ответ на запрос [операции ApplyConversationAction](applyconversationaction-operation.md) .  <br/> |
-|[жетпассвордекспиратиондатереспонсе](getpasswordexpirationdateresponse.md) <br/> |Определяет ответ на запрос операции [GetPasswordExpirationDate](getpasswordexpirationdate-operation.md) .  <br/> |
+|[CopyFolderResponse](copyfolderresponse.md) <br/> |Определяет ответ на запрос CopyFolder.  <br/> |
+|[CopyItemResponse](copyitemresponse.md) <br/> |Определяет ответ на запрос CopyItem.  <br/> |
+|[CreateAttachmentResponse](createattachmentresponse.md) <br/> |Определяет ответ на запрос CreateAttachment.  <br/> |
+|[CreateFolderResponse](createfolderresponse.md) <br/> |Определяет ответ на запрос CreateFolder.  <br/> |
+|[CreateItemResponse](createitemresponse.md) <br/> |Определяет ответ на запрос CreateItem.  <br/> |
+|[CreateManagedFolderResponse](createmanagedfolderresponse.md) <br/> |Определяет ответ на запрос CreateManagedFolder.  <br/> |
+|[DeleteAttachmentResponse](deleteattachmentresponse.md) <br/> |Определяет ответ на запрос DeleteAttachment.  <br/> |
+|[DeleteFolderResponse](deletefolderresponse.md) <br/> |Определяет ответ на запрос DeleteFolder.  <br/> |
+|[DeleteItemResponse](deleteitemresponse.md) <br/> |Определяет ответ на запрос DeleteItem.  <br/> |
+|[EmptyFolderResponse](emptyfolderresponse.md) <br/> |Определяет ответ на запрос EmptyFolder.  <br/> |
+|[ExpandDLResponse](expanddlresponse.md) <br/> |Определяет ответ на запрос ExpandDL.  <br/> |
+|[ExportItemsResponse](exportitemsresponse.md) <br/> |Представляет ответ на один запрос ExportItems.  <br/> |
+|[FindFolderResponse](findfolderresponse.md) <br/> |Определяет ответ на запрос FindFolder.  <br/> |
+|[FindItemResponse](finditemresponse.md) <br/> |Определяет ответ на запрос FindItem.  <br/> |
+|[GetAttachmentResponse](getattachmentresponse.md) <br/> |Определяет ответ на запрос GetAttachment.  <br/> |
+|[GetEventsResponse](geteventsresponse.md) <br/> |Определяет ответ на запрос GetEvents.  <br/> |
+|[GetStreamingEventsResponse](getstreamingeventsresponse.md) <br/> |Определяет ответ на запрос GetStreamingEvents.  <br/> |
+|[GetFolderResponse](getfolderresponse.md) <br/> |Определяет ответ на запрос GetFolder.  <br/> |
+|[GetItemResponse](getitemresponse.md) <br/> |Определяет ответ на запрос GetItem.  <br/> |
+|[MoveFolderResponse](movefolderresponse.md) <br/> |Определяет ответ на запрос MoveFolder.  <br/> |
+|[MoveItemResponse](moveitemresponse.md) <br/> |Определяет ответ на запрос MoveItem.  <br/> |
+|[ResolveNamesResponse](resolvenamesresponse.md) <br/> |Определяет ответ на запрос ResolveNames.  <br/> |
+|[SendItemResponse](senditemresponse.md) <br/> |Определяет ответ на запрос SendItem.  <br/> |
+|[SendNotificationResult](sendnotificationresult.md) <br/> |Определяет ответ на запрос SendNotification.  <br/> |
+|[SubscribeResponse](subscriberesponse.md) <br/> |Определяет ответ на запрос на подписку.  <br/> |
+|[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) <br/> |Определяет ответ на запрос SyncFolderHierarchy.  <br/> |
+|[SyncFolderItemsResponse](syncfolderitemsresponse.md) <br/> |Определяет ответ на запрос SyncFolderItems.  <br/> |
+|[UnsubscribeResponse](unsubscriberesponse.md) <br/> |Определяет ответ на запрос отписаться.  <br/> |
+|[UpdateFolderResponse](updatefolderresponse.md) <br/> |Определяет ответ на запрос UpdateFolder.  <br/> |
+|[UpdateItemResponse](updateitemresponse.md) <br/> |Определяет ответ на запрос UpdateItem.  <br/> |
+|[ConvertIdResponse](convertidresponse.md) <br/> |Содержит ответ на запрос ConvertId.  <br/> |
+|[GetServerTimeZonesResponse](getservertimezonesresponse.md) <br/> |Определяет ответ на запрос GetServerTimeZones.  <br/> |
+|[CreateUserConfigurationResponse](createuserconfigurationresponse.md) <br/> |Определяет ответ на запрос CreateUserConfiuration.  <br/> |
+|[DeleteUserConfigurationResponse](deleteuserconfigurationresponse.md) <br/> |Определяет ответ на запрос DeleteUserConfiguration.  <br/> |
+|[GetUserConfigurationResponse](getuserconfigurationresponse.md) <br/> |Определяет ответ на запрос GetUserConfiguration.  <br/> |
+|[UpdateUserConfigurationResponse](updateuserconfigurationresponse.md) <br/> |Определяет ответ на запрос UpdateUserConfiguration.  <br/> |
+|[ApplyConversationActionResponse](applyconversationactionresponse.md) <br/> |Определяет ответ на запрос [операции ApplyConversationAction.](applyconversationaction-operation.md)  <br/> |
+|[GetPasswordExpirationDateResponse](getpasswordexpirationdateresponse.md) <br/> |Определяет ответ на запрос [операции GetPasswordExpirationDate.](getpasswordexpirationdate-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -417,7 +417,7 @@ ms.locfileid: "44465403"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,5 +1,5 @@
 ---
-title: унсубскрибереспонсе
+title: UnsubscribeResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 125e0326-6522-42cd-b20e-6977e6fde249
-description: Элемент Унсубскрибереспонсе определяет ответ на запрос отмены подписки.
+description: Элемент UnsubscribeResponse определяет ответ на запрос отписаться.
 ms.openlocfilehash: 1a8ddf93499acb7aa369ec9e91a7106e5cb4bd53
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467202"
 ---
-# <a name="unsubscriberesponse"></a>унсубскрибереспонсе
+# <a name="unsubscriberesponse"></a>UnsubscribeResponse
 
-Элемент **унсубскрибереспонсе** определяет ответ на запрос отмены подписки. 
+Элемент **UnsubscribeResponse** определяет ответ на запрос отписаться. 
   
 ```xml
 <UnsubscribeResponse>
@@ -29,20 +29,20 @@ ms.locfileid: "44467202"
 </UnsubscribeResponse>
 ```
 
- **унсубскрибереспонсетипе**
+ **UnsubscribeResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения отклика для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "44467202"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

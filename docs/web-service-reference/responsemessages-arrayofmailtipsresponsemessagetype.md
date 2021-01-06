@@ -1,5 +1,5 @@
 ---
-title: Респонсемессажес (Аррайофмаилтипсреспонсемессажетипе)
+title: ResponseMessages (ArrayOfMailTipsResponseMessageType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 00878187-fac2-45b9-ba1c-df7ffac71089
-description: Элемент Респонсемессажес представляет список ответных сообщений с советами по почте.
+description: Элемент ResponseMessages представляет список ответных сообщений с подсказками.
 ms.openlocfilehash: 2db58029ead9332b832006bc81d751d77df54b07
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
@@ -19,9 +19,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465452"
 ---
-# <a name="responsemessages-arrayofmailtipsresponsemessagetype"></a>Респонсемессажес (Аррайофмаилтипсреспонсемессажетипе)
+# <a name="responsemessages-arrayofmailtipsresponsemessagetype"></a>ResponseMessages (ArrayOfMailTipsResponseMessageType)
 
-Элемент **респонсемессажес** представляет список ответных сообщений с советами по почте. 
+Элемент **ResponseMessages** представляет список ответных сообщений с подсказками. 
   
 ```XML
 <ResponseMessages>
@@ -29,26 +29,26 @@ ms.locfileid: "44465452"
 </ResponseMessages>
 ```
 
- **аррайофмаилтипсреспонсемессажетипе**
+ **ArrayOfMailTipsResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[маилтипсреспонсемессажетипе](mailtipsresponsemessagetype.md) <br/> |Представляет параметры почтовых подсказок.  <br/> |
+|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |Представляет параметры подсказок почты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[жетмаилтипсреспонсе](getmailtipsresponse.md) <br/> |Представляет ответное сообщение для операции с помощью [подсказки](getmailtips-operation.md).  <br/> |
+|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |Представляет ответное сообщение для операции [GetMailTips.](getmailtips-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -64,7 +64,7 @@ ms.locfileid: "44465452"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
