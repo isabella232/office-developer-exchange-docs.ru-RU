@@ -1,5 +1,5 @@
 ---
-title: манажермаилбокс
+title: ManagerMailbox
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 70c324d5-2196-406d-a674-73323f8d8b92
-description: Элемент Манажермаилбокс содержит SMTP-информацию, определяющую почтовый ящик руководителя контакта.
+description: Элемент ManagerMailbox содержит сведения SMTP, определяющие почтовый ящик руководителя контакта.
 ms.openlocfilehash: da9e26c3efdd22000694839f5962a6bb0256f748
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
@@ -15,32 +15,32 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/03/2020
 ms.locfileid: "44453968"
 ---
-# <a name="managermailbox"></a>манажермаилбокс
+# <a name="managermailbox"></a>ManagerMailbox
 
-Элемент **манажермаилбокс** содержит SMTP-информацию, определяющую почтовый ящик руководителя контакта. 
+Элемент **ManagerMailbox** содержит сведения SMTP, определяющие почтовый ящик руководителя контакта. 
   
 ```XML
 <ManagerMailbox/>
 ```
 
- **синглереЦипиенттипе**
+ **SingleRecipientType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Имя элемента**|**Описание**|
 |:-----|:-----|
-|[контакт](contact.md); <br/> |Представляет элемент контакта в хранилище Exchange.  <br/> |
+|[Contact](contact.md) <br/> |Представляет элемент контакта в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -58,7 +58,7 @@ ms.locfileid: "44453968"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

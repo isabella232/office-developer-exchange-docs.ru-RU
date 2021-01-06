@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dbd102b8-db70-4196-affe-d7ed66bf3371
-description: Элемент PersonName указывает имя пользователя, найденного с помощью извлечения сущностей.
+description: Элемент PersonName указывает имя человека, найденного с помощью извлечения сущности.
 ms.openlocfilehash: 7784cf1abb9098c181450baeb80468faf46c7d99
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "44434087"
 ---
 # <a name="personname"></a>PersonName
 
-Элемент **PersonName** указывает имя пользователя, найденного с помощью извлечения сущностей. 
+Элемент **PersonName** указывает имя человека, найденного с помощью извлечения сущности. 
   
 ```XML
 <PersonName></PersonName>
@@ -26,23 +26,23 @@ ms.locfileid: "44434087"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Контактное лицо (Контакттипе)](contact-contacttype.md)
+[Contact (ContactType)](contact-contacttype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **PersonName** — имя пользователя, найденного в результате извлечения объекта. 
+Текстовое значение элемента **PersonName** — это имя человека, найденного в результате извлечения сущности. 
   
 ## <a name="remarks"></a>Примечания
 
@@ -56,7 +56,7 @@ ms.locfileid: "44434087"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

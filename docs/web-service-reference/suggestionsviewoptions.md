@@ -1,5 +1,5 @@
 ---
-title: сугжестионсвиевоптионс
+title: SuggestionsViewOptions
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: bb04ae38-e62d-4a69-a479-8ff326ca726e
-description: Элемент Сугжестионсвиевоптионс содержит параметры для получения сведений о предложении о собрании.
+description: Элемент SuggestionsViewOptions содержит параметры для получения сведений о предложении собрания.
 ms.openlocfilehash: f584b19997f98760bd4e438dcd48a5c18cc63e4b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/03/2020
 ms.locfileid: "44433996"
 ---
-# <a name="suggestionsviewoptions"></a>сугжестионсвиевоптионс
+# <a name="suggestionsviewoptions"></a>SuggestionsViewOptions
 
-Элемент **сугжестионсвиевоптионс** содержит параметры для получения сведений о предложении о собрании. 
+Элемент **SuggestionsViewOptions** содержит параметры для получения сведений о предложении собрания. 
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[сугжестионсвиевоптионс](suggestionsviewoptions.md)
+[SuggestionsViewOptions](suggestionsviewoptions.md)
   
 ```xml
 <SuggestionsViewOptions>
@@ -41,37 +41,37 @@ ms.locfileid: "44433996"
 </SuggestionsViewOptions>
 ```
 
- **сугжестионсвиевоптионстипе**
+ **SuggestionsViewOptionsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[гудсрешолд](goodthreshold.md) <br/> |Указывает процент участников, которые должны иметь период времени, который должен быть указан в качестве приемлемого времени проведения собрания.  <br/> |
-|[максимумресултсбидай](maximumresultsbyday.md) <br/> |Указывает количество предложенных собраний в день, возвращаемых в ответе.  <br/> |
-|[максимумнонворкхаурресултсбидай](maximumnonworkhourresultsbyday.md) <br/> |Указывает количество предполагаемых результатов для времени проведения собрания, не входящих в число обычных рабочих часов в день.  <br/> |
-|[митингдуратионинминутес](meetingdurationinminutes.md) <br/> |Указывает предполагаемую длину собрания.  <br/> |
-|[минимумсугжестионкуалити](minimumsuggestionquality.md) <br/> |Указывает качество предложений собраний, возвращаемых в ответе.  <br/> |
-|[детаиледсугжестионсвиндов](detailedsuggestionswindow.md) <br/> |Определяет интервал времени, на который запрашивается подробная информация о предложенном времени проведения собрания.  <br/> |
-|[куррентмитингтиме](currentmeetingtime.md) <br/> |Представляет время начала собрания, которое вы хотите обновить с учетом предложенного времени проведения собрания.  <br/> |
-|[глобалобжектид](globalobjectid.md) <br/> |Этот элемент не используется.  <br/> |
+|[GoodThreshold](goodthreshold.md) <br/> |Указывает процент участников, которые должны иметь период времени, открытый для периода времени, чтобы квалифицироваться как рекомендуемый период собрания.  <br/> |
+|[MaximumResultsByDay](maximumresultsbyday.md) <br/> |Указывает число рекомендуемого времени собрания в день, возвращаемого в ответе.  <br/> |
+|[MaximumNonWorkHourResultsByDay](maximumnonworkhourresultsbyday.md) <br/> |Указывает количество предлагаемых результатов для времени собрания вне обычного рабочего времени в день.  <br/> |
+|[MeetingDurationInMinutes](meetingdurationinminutes.md) <br/> |Указывает длительность предложенного собрания.  <br/> |
+|[MinimumSuggestionQuality](minimumsuggestionquality.md) <br/> |Указывает качество предложений собрания, возвращаемого в ответе.  <br/> |
+|[DetailedSuggestionsWindow](detailedsuggestionswindow.md) <br/> |Определяет промежуток времени, в течение который запрашивается подробная информация о рекомендуемом времени собрания.  <br/> |
+|[CurrentMeetingTime](currentmeetingtime.md) <br/> |Представляет время начала собрания, которое вы хотите обновить с помощью предложенных результатов.  <br/> |
+|[GlobalObjectId](globalobjectid.md) <br/> |Этот элемент не используется.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[жетусераваилабилитирекуест](getuseravailabilityrequest.md) <br/> |Содержит аргументы, используемые для получения сведений о доступности пользователя. Это корневой элемент.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Содержит аргументы, используемые для получения сведений о доступности пользователей. Это корневой элемент.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Этот элемент не является обязательным и может быть использован только один раз. Это значение может быть равно null, если значение элемента [фрибусивиевоптионс](freebusyviewoptions.md) отлично от NULL. 
+Этот элемент не требуется и может возникать только один раз, если он используется. Это значение может иметь значение null, если значение элемента [FreeBusyViewOptions](freebusyviewoptions.md) не null. 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
@@ -82,7 +82,7 @@ ms.locfileid: "44433996"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

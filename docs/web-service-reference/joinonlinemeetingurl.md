@@ -1,5 +1,5 @@
 ---
-title: жоинонлинемитингурл
+title: JoinOnlineMeetingUrl
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6a819bff-b6fc-4082-b311-179267ae8b4f
-description: Элемент Жоинонлинемитингурл указывает URL-адрес для присоединения к собранию по сети.
+description: Элемент JoinOnlineMeetingUrl указывает URL-адрес для присоединиться к собранию по сети.
 ms.openlocfilehash: 57fb6c144d673f7e25b98e5450759f42312564a4
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/03/2020
 ms.locfileid: "44454129"
 ---
-# <a name="joinonlinemeetingurl"></a>жоинонлинемитингурл
+# <a name="joinonlinemeetingurl"></a>JoinOnlineMeetingUrl
 
-Элемент **жоинонлинемитингурл** указывает URL-адрес для присоединения к собранию по сети. 
+Элемент **JoinOnlineMeetingUrl** указывает URL-адрес для присоединиться к собранию по сети. 
   
 ```XML
 <JoinOnlineMeetingUrl></JoinOnlineMeetingUrl>
@@ -26,23 +26,23 @@ ms.locfileid: "44454129"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[календаритем](calendaritem.md)
+[CalendarItem](calendaritem.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **жоинонлинемитингурл** — URL-адрес собрания по сети. 
+Текстовое значение элемента **JoinOnlineMeetingUrl** является URL-адресом собрания по сети. 
   
 ## <a name="remarks"></a>Примечания
 

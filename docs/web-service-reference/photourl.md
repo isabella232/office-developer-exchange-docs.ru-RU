@@ -1,5 +1,5 @@
 ---
-title: фотаурл
+title: PhotoUrl
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0d6d1709-01b2-4599-8145-47f51da4bb26
-description: Элемент Фотаурл предназначен только для внутреннего использования.
+description: Элемент PhotoUrl предназначен только для внутреннего использования.
 ms.openlocfilehash: f14b62da13ba407355b5422bc61b3cefc869fa96
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
@@ -15,21 +15,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/03/2020
 ms.locfileid: "44434066"
 ---
-# <a name="photourl"></a>фотаурл
+# <a name="photourl"></a>PhotoUrl
 
-Элемент **фотаурл** предназначен только для внутреннего использования. 
+Элемент **PhotoUrl** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 

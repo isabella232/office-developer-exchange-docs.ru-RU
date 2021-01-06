@@ -24,13 +24,13 @@ ms.locfileid: "44451469"
 Операция **DeleteUserConfiguration** удаляет объект конфигурации пользователя в папке. 
   
 > [!IMPORTANT]
-> Операция **DeleteUserConfiguration** инициирует событие Move для системы уведомления о событиях. Объект конфигурации пользователя будет перемещен в корзину. 
+> Операция **DeleteUserConfiguration** вызывает событие перемещения для системы уведомлений о событиях. Объект конфигурации пользователя будет перемещен в контейнер. 
   
 ## <a name="deleteuserconfiguration-request-example"></a>Пример запроса DeleteUserConfiguration
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **DeleteUserConfiguration** показано, как сформировать запрос на удаление объекта конфигурации пользователя в папке "Черновики". 
+В следующем примере **запроса DeleteUserConfiguration** показано, как создать запрос на удаление объекта конфигурации пользователя в папке "Черновики". 
   
 ### <a name="code"></a>Код
 
@@ -56,9 +56,9 @@ ms.locfileid: "44451469"
 
 ## <a name="deleteuserconfiguration-response-example"></a>Пример отклика DeleteUserConfiguration
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **DeleteUserConfiguration** . 
+В следующем примере показан успешный ответ на запрос **DeleteUserConfiguration.** 
   
 ### <a name="code"></a>Код
 
