@@ -1,91 +1,79 @@
 ---
-title: Проверка подлинности подключения по протоколу IMAP, POP или SMTP с помощью OAuth
-description: Узнайте, как использовать проверку подлинности OAuth с приложениями IMAP, POP и SMTP.
+title: Проверка подлинности подключения IMAP, POP или SMTP с помощью OAuth
+description: Узнайте, как использовать проверку подлинности OAuth в приложениях IMAP, POP и SMTP.
 author: svpsiva
-ms.date: 02/19/2020
+ms.date: 07/08/2021
 ms.audience: Developer
-ms.openlocfilehash: 4662aa904ed162edcced6c096eac8cf636180f6a
-ms.sourcegitcommit: 37d4ecd4f469690ba1de87baad2f2f58c40c96ba
+ms.openlocfilehash: 4a307a6e329d5320b2b304d17a78a61db6d111bd
+ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49348817"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58764590"
 ---
-# <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Проверка подлинности подключения по протоколу IMAP, POP или SMTP с помощью OAuth
+# <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Проверка подлинности подключения IMAP, POP или SMTP с помощью OAuth
 
-Узнайте, как использовать проверку подлинности OAuth для подключения к протоколам IMAP, POP или SMTP и доступа к данным электронной почты для пользователей Office 365.
+Узнайте, как использовать проверку подлинности OAuth для подключения к протоколам IMAP, POP или SMTP и доступа к данным электронной почты для Office 365 пользователей.
 
-> OAuth2 поддержка протокола IMAP, POP, протокола SMTP, как описано ниже, поддерживается как для Microsoft 365 (включая Office в Интернете), так и для пользователей Outlook.com.
+> Поддержка OAuth2 протоколов IMAP, POP, SMTP, как описано ниже, поддерживается как для пользователей Microsoft 365 (включая Office в Интернете), так и для Outlook.com.
 
-Если вы не знакомы с протоколом OAuth 2,0, начните с чтения [протокола oauth 2,0 на платформе идентификации Майкрософт](/azure/active-directory/develop/active-directory-v2-protocols). Чтобы узнать больше о Либариерс проверки подлинности Майкрософт (MSAL), которые реализуют протокол OAuth 2,0 для проверки подлинности пользователей и доступа к защищенным API, прочитайте [Обзор MSAL](/azure/active-directory/develop/msal-overview).
+Если вы не знакомы с протоколом OAuth 2.0, начните с чтения протокола [OAuth 2.0](/azure/active-directory/develop/active-directory-v2-protocols)в платформа удостоверений Майкрософт обзоре. Дополнительные сведения о либарисах проверки подлинности Майкрософт (MSAL), реализующих протокол OAuth 2.0 для проверки подлинности пользователей и доступа к безопасным API, см. в обзоре [MSAL.](/azure/active-directory/develop/msal-overview)
 
-Вы можете использовать службу проверки подлинности OAuth, предоставляемую Azure Active Directory, чтобы разрешить приложению подключаться с помощью протоколов IMAP, POP или SMTP для доступа к Exchange Online в Office 365. Чтобы использовать OAuth с приложением, необходимо выполнить следующие действия:
+Вы можете использовать службу проверки подлинности OAuth, предоставляемую Azure Active Directory, чтобы позволить приложению подключаться к протоколам IMAP, POP или SMTP для доступа к Exchange Online в Office 365. Чтобы использовать OAuth с приложением, необходимо:
 
 1. [Регистрация приложения](#register-your-application) в Azure Active Directory.
-1. [Настройте приложение](#configure-your-application) в Azure Active Directory.
-1. [Получение маркера доступа](#get-an-access-token) от сервера маркеров.
+1. [Настройка приложения в](#configure-your-application) Azure Active Directory.
+1. [Получите маркер доступа с](#get-an-access-token) сервера маркеров.
 1. [Проверка подлинности запросов на подключение](#authenticate-connection-requests) с помощью маркера доступа.
 
 ## <a name="register-your-application"></a>Регистрация приложения
 
 Чтобы использовать OAuth, приложение должно быть зарегистрировано в Azure Active Directory.
 
-Следуйте инструкциям в статье [Регистрация приложения с помощью платформы удостоверений Майкрософт](/azure/active-directory/develop/quickstart-register-app) для создания нового приложения.
-
-## <a name="configure-your-application"></a>Настройка приложения
-
-Следуйте инструкциям, приведенным в разделе [Настройка клиентского приложения для доступа к веб-API](/azure/active-directory/develop/quickstart-configure-app-access-web-apis)
-
-Не забудьте добавить одну или несколько следующих областей разрешений, соответствующих протоколам, с которыми вы хотите выполнить интеграцию. В мастере **добавления разрешений** выберите **Microsoft Graph** , а затем **делегированные разрешения** , чтобы найти перечисленные ниже области разрешений.
-
-| Протокол  | Область разрешений        |
-|-----------|-------------------------|
-| IMAP      | `IMAP.AccessAsUser.All` |
-| POP       | `POP.AccessAsUser.All`  |
-| ПРОВЕРКА ПОДЛИННОСТИ SMTP | `SMTP.Send`             |
+Следуйте инструкциям, перечисленным в [Списке](/azure/active-directory/develop/quickstart-register-app) приложения с платформа удостоверений Майкрософт создать новое приложение.
 
 ## <a name="get-an-access-token"></a>Получение токена доступа
 
-Вы можете использовать одну из наших [клиентских библиотек MSAL](/azure/active-directory/develop/msal-overview) для получения маркера доступа из клиентского приложения.
+Вы можете использовать одну из наших клиентских библиотек [MSAL](/azure/active-directory/develop/msal-overview) для получения маркера доступа из клиентского приложения.
 
-Кроме того, вы можете выбрать соответствующий поток из приведенного ниже списка и выполнить соответствующие действия, чтобы вызвать базовые API REST платформы идентификации и получить маркер доступа.
+Кроме того, вы можете выбрать соответствующий поток из следующего списка и следуйте соответствующим шагам, чтобы вызвать API-API платформы REST и получить маркер доступа.
 
-1. [Потоки кода авторизации OAuth2](/azure/active-directory/develop/v2-oauth2-auth-code-flow)
-1. [Процесс предоставления авторизации устройства OAuth2](/azure/active-directory/develop/v2-oauth2-device-code)
+1. [Поток кода авторизации OAuth2](/azure/active-directory/develop/v2-oauth2-auth-code-flow)
+1. [Поток грантов на авторизацию устройств OAuth2](/azure/active-directory/develop/v2-oauth2-device-code)
 
-Доступ OAuth к протоколам авторизации протокола IMAP, POP, SMTP с помощью OAuth2, потоки предоставления учетных данных клиента не поддерживаются. Если для приложения требуется постоянный доступ ко всем почтовым ящикам в организации Microsoft 365, рекомендуется использовать API Microsoft Graph, которые позволяют доступ без пользователя, включать детализированные разрешения и предоставлять администраторам доступ к определенному набору почтовых ящиков.
+Доступ OAuth к протоколам IMAP, POP, SMTP AUTH через поток клиентских учетных данных OAuth2 не поддерживается. Если вашему приложению необходим постоянный доступ ко всем почтовым ящикам в Microsoft 365 организации, рекомендуется использовать API Microsoft Graph, которые позволяют получить доступ без пользователя, включить гранулярные разрешения и разрешить администраторам использовать такой доступ к определенному набору почтовых ящиков.
 
-Обязательно укажите полные области, в том числе URL-адреса ресурсов Outlook, при авторизации приложения и запросе маркера доступа.
+Убедитесь, что при авторизации приложения и запросе маркера доступа укажите полные области, в том числе URL Outlook ресурсов.
 
-| Протокол  | Строка области разрешений |
+| Протокол  | Строка область разрешений |
 |-----------|-------------------------|
 | IMAP      | `https://outlook.office.com/IMAP.AccessAsUser.All` |
 | POP       | `https://outlook.office.com/POP.AccessAsUser.All`  |
-| ПРОВЕРКА ПОДЛИННОСТИ SMTP | `https://outlook.office.com/SMTP.Send`             |
+| SMTP AUTH | `https://outlook.office.com/SMTP.Send`             |
 
-Кроме того, вы можете запросить [offline_accessную](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) область. Когда пользователь утверждает область offline_access, ваше приложение может получать маркеры обновления из конечной точки маркера платформы удостоверений Майкрософт. Маркеры обновления долгое время существованы. Ваше приложение может получить новые маркеры доступа, срок действия которых истек.
+Кроме того, вы можете запросить [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) области. Когда пользователь утверждает область offline_access, ваше приложение может получать маркеры обновления из конечной точки платформа удостоверений Майкрософт маркера. Маркеры обновления являются длительными. Ваше приложение может получать новые маркеры доступа по мере истечения срока действия старых маркеров.
 
 ## <a name="authenticate-connection-requests"></a>Проверка подлинности запросов на подключение
 
-Вы можете инициировать подключение к почтовым серверам Office 365 с помощью [параметров электронной почты IMAP и POP для Office 365](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353).
+Вы можете инициировать подключение к Office 365 почтовым серверам с помощью параметров электронной почты [IMAP](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)и POP для Office 365 .
 
 ### <a name="sasl-xoauth2"></a>SASL XOAUTH2
 
-Для интеграции OAuth с приложением необходимо использовать формат SASL XOAUTH2 для кодирования и передачи маркера доступа. SASL XOAUTH2 кодирует имя пользователя, маркер доступа вместе в следующем формате:
+Интеграция OAuth с требует от приложения использования формата SASL XOAUTH2 для кодиации и передачи маркера доступа. SASL XOAUTH2 кодирует имя пользователя, маркер доступа вместе в следующем формате:
 
 ```text
 base64("user=" + userName + "^Aauth=Bearer " + accessToken + "^A^A")
 ```
 
-`^A`представляет **элемент управления**  +  **a** ( `%x01` ).
+`^A`представляет **управление**  +  **A** ( `%x01` ).
 
-Например, для доступа `test@contoso.onmicrosoft.com` с помощью маркера доступа используется формат XOAUTH2 SASL `EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA` :
+Например, формат SASL XOAUTH2 для доступа `test@contoso.onmicrosoft.com` с маркером `EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA` доступа:
 
 ```text
 base64("user=test@contoso.onmicrosoft.com^Aauth=Bearer EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA^A^A")
 ```
 
-После кодирования Base64 это преобразуется в следующую строку. Обратите внимание, что для удобочитаемости вставляются разрывы строк.
+После кодирования base64 это переводится на следующую строку. Обратите внимание, что для читаемости вставляются разрывы строк.
 
 ```text
 dXNlcj10ZXN0QGNvbnRvc28ub25taWNyb3NvZnQuY29tAWF1dGg9QmVhcmVy
@@ -94,17 +82,17 @@ IEV3QkFBbDNCQUFVRkZwVUFvN0ozVmUwYmpMQldaV0NjbFJDM0VvQUEBAQ==
 
 ### <a name="sasl-xoauth2-authentication-for-shared-mailboxes-in-office-365"></a>Проверка подлинности SASL XOAUTH2 для общих почтовых ящиков в Office 365
 
-В случае доступа к общему почтовому ящику с помощью OAuth приложению необходимо получить маркер доступа от имени пользователя, но заменить поле userName в зашифрованной строке SASL XOAUTH2 на адрес электронной почты общего почтового ящика. 
+В случае общего доступа к почтовым ящикам с помощью OAuth приложению необходимо получить маркер доступа от имени пользователя, но заменить поле userName в закодированной строке SASL XOAUTH2 на адрес электронной почты общего почтового ящика. 
 
-### <a name="imap-protocol-exchange"></a>Обмен протоколами IMAP
+### <a name="imap-protocol-exchange"></a>Протокол IMAP Exchange
 
-Для проверки подлинности подключения к серверу IMAP клиент должен ответить на `AUTHENTICATE` команду в следующем формате:
+Чтобы проверить подлинность подключения к серверу IMAP, клиент должен будет ответить командой `AUTHENTICATE` в следующем формате:
 
 ```text
 AUTHENTICATE XOAUTH2 <base64 string in XOAUTH2 format>
 ```
 
-Пример обмена сообщениями между клиентом и сервером, что приводит к успеху проверки подлинности:
+Пример обмена сообщениями клиента и сервера, который приводит к успеху проверки подлинности:
 
 ```text
 [connection begins]
@@ -115,7 +103,7 @@ C: A01 AUTHENTICATE XOAUTH2 dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5
 S: A01 OK AUTHENTICATE completed.
 ```
 
-Пример обмена сообщениями клиент — сервер, что приводит к сбою проверки подлинности:
+Пример обмена сообщениями клиента и сервера, который приводит к сбою проверки подлинности:
 
 ```text
 [connection begins]
@@ -125,16 +113,16 @@ C: A01 AUTHENTICATE XOAUTH2 dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5
 S: A01 NO AUTHENTICATE failed.
 ```
 
-### <a name="pop-protocol-exchange"></a>Обмен протоколом POP
+### <a name="pop-protocol-exchange"></a>Протокол POP Exchange
 
-Чтобы проверить подлинность подключения к серверу POP, клиенту необходимо `AUTH` разделить команду на две строки в следующем формате:    
+Чтобы проверить подлинность подключения к pop-серверу, клиент должен будет ответить командой, разделенной на две строки в `AUTH` следующем формате:    
 
 ```text 
 AUTH XOAUTH2 
 <base64 string in XOAUTH2 format>   
 ``` 
 
-Пример обмена сообщениями между клиентом и сервером, что приводит к успеху проверки подлинности:    
+Пример обмена сообщениями клиента и сервера, который приводит к успеху проверки подлинности:    
 
 ```text 
 [connection begins] 
@@ -147,7 +135,7 @@ S: +OK User successfully authenticated.
 [connection continues...]   
 ``` 
 
-Пример обмена сообщениями клиент — сервер, что приводит к сбою проверки подлинности:    
+Пример обмена сообщениями клиента и сервера, который приводит к сбою проверки подлинности:    
 
 ```text 
 [connection begins] 
@@ -159,15 +147,15 @@ l0Q2cBAQ=
 S: -ERR Authentication failure: unknown user name or bad password.  
 ```
 
-### <a name="smtp-protocol-exchange"></a>Обмен протоколами SMTP
+### <a name="smtp-protocol-exchange"></a>Протокол SMTP Exchange
 
-Чтобы проверить подлинность подключения SMTP-сервера, клиент должен ответить на `AUTH` команду в следующем формате:
+Чтобы проверить подлинность подключения smTP-сервера, клиент должен будет ответить командой `AUTH` в следующем формате:
 
 ```text
 AUTH XOAUTH2 <base64 string in XOAUTH2 format>
 ```
 
-Пример обмена сообщениями между клиентом и сервером, что приводит к успеху проверки подлинности:
+Пример обмена сообщениями клиента и сервера, который приводит к успеху проверки подлинности:
 
 ```text
 [connection begins]
@@ -180,7 +168,7 @@ S: 235 2.7.0 Authentication successful
 [connection continues...]
 ```
 
-Пример обмена сообщениями клиент — сервер, что приводит к сбою проверки подлинности:
+Пример обмена сообщениями клиента и сервера, который приводит к сбою проверки подлинности:
 
 ```text
 [connection begins]
@@ -195,7 +183,7 @@ S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.co
 ## <a name="see-also"></a>См. также
 
 - [Проверка подлинности и EWS в Exchange](../exchange-web-services/authentication-and-ews-in-exchange.md)
-- [IMAP, параметры подключения POP](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
-- [Протокол доступа к сообщениям через Интернет](https://tools.ietf.org/html/rfc3501)
-- [Протокол Post Office](https://tools.ietf.org/html/rfc1081)
+- [Параметры IMAP, pop Connection](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
+- [Протокол доступа к интернет-сообщениям](https://tools.ietf.org/html/rfc3501)
+- [Протокол Office](https://tools.ietf.org/html/rfc1081)
 - [Расширение службы SMTP для проверки подлинности](https://tools.ietf.org/html/rfc4954)

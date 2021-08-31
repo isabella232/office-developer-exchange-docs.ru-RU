@@ -1,5 +1,5 @@
 ---
-title: респонсеобжектс
+title: ResponseObjects
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,23 +11,24 @@ api_name:
 api_type:
 - schema
 ms.assetid: ad29e064-3f3d-4b7b-aa4c-9ec27326381d
-description: Элемент Респонсеобжектс содержит коллекцию всех объектов Response, связанных с элементом в хранилище Exchange.
-ms.openlocfilehash: 675bfda4addb38535736efc0c790577ff4739108
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ResponseObjects содержит коллекцию всех объектов отклика, связанных с элементом в Exchange магазине.
+ms.openlocfilehash: 9f80fd9703dcd7d9293a3a51eccb6cf2b6903064
+ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457440"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58764583"
 ---
-# <a name="responseobjects"></a>респонсеобжектс
+# <a name="responseobjects"></a>ResponseObjects
 
-Элемент **респонсеобжектс** содержит коллекцию всех объектов Response, связанных с элементом в хранилище Exchange. 
+Элемент **ResponseObjects** содержит коллекцию всех объектов отклика, связанных с элементом в Exchange магазине. 
   
 ```XML
 <ResponseObjects>
    <AcceptItem/>
    <TentativelyAcceptItem/>
    <DeclineItem/>
+   <ProposeNewTime>
    <ReplyToItem/>
    <ForwardItem/>
    <ReplyAllToItem/>
@@ -39,48 +40,49 @@ ms.locfileid: "44457440"
 </ResponseObjects>
 ```
 
- **нонемптяррайофреспонсеобжектстипе**
+ **NonEmptyArrayOfResponseObjectsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[акцептитем](acceptitem.md) <br/> |Представляет ответ на принять приглашение на собрание.  <br/> |
-|[тентативелякцептитем](tentativelyacceptitem.md) <br/> |Представляет под вопросом ответ на приглашения на собрание.  <br/> |
-|[деклинеитем](declineitem.md) <br/> |Представляет отклонить ответ на приглашения на собрание.  <br/> |
-|[реплитоитем](replytoitem.md) <br/> |Содержит ответ создателем элемента в хранилище Exchange.  <br/> |
-|[форвардитем](forwarditem.md) <br/> |Содержит элемент хранилища Exchange переадресация получателям.  <br/> |
-|[репляллтоитем](replyalltoitem.md) <br/> |Содержит ответить всем получателям определенного элемента в хранилище Exchange.  <br/> |
-|[канцелкалендаритем](cancelcalendaritem.md) <br/> |Представляет объект Response, используемый для отмены собрания.  <br/> |
+|[AcceptItem](acceptitem.md) <br/> |Представляет ответ на принять приглашение на собрание.  <br/> |
+|[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |Представляет под вопросом ответ на приглашения на собрание.  <br/> |
+|[DeclineItem](declineitem.md) <br/> |Представляет отклонить ответ на приглашения на собрание.  <br/> |
+|[ProposeNewTime](proposenewtime.md) <br/> |Указывает, что участник собрания может предложить новое время собрания. Этот элемент был представлен в Microsoft Exchange Server 2013 Пакет обновления 1 (SP1).  <br/> |
+|[ReplyToItem](replytoitem.md) <br/> |Содержит ответ создателем элемента в хранилище Exchange.  <br/> |
+|[ForwardItem](forwarditem.md) <br/> |Содержит элемент хранилища Exchange переадресация получателям.  <br/> |
+|[ReplyAllToItem](replyalltoitem.md) <br/> |Содержит ответить всем получателям определенного элемента в хранилище Exchange.  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Представляет объект ответа, используемый для отмены собрания.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Удаляет элемент из хранилища Exchange.  <br/> |
-|[постреплитем](postreplyitem.md) <br/> |Содержит ответ на элемент POST. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
-|[суппрессреадрецеипт](suppressreadreceipt.md) <br/> |Используется для подавления запросов уведомления о прочтении.  <br/> |
-|[акцептшарингинвитатион](acceptsharinginvitation.md) <br/> |Используется для принятия приглашения, позволяющего получить доступ к данным календаря или контактов другого пользователя.  <br/> |
+|[PostReplyItem](postreplyitem.md) <br/> |Содержит ответ на сообщение элемента. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
+|[SuppressReadReceipt](suppressreadreceipt.md) <br/> |Используется для подавления запросов на получение чтения.  <br/> |
+|[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |Используется для получения приглашения, которое позволяет получать доступ к данным календаря или контактов другого пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
-|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Удаляет элемент из хранилища Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -90,7 +92,7 @@ ms.locfileid: "44457440"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
