@@ -7,20 +7,22 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 70c324d5-2196-406d-a674-73323f8d8b92
-description: Элемент ManagerMailbox содержит сведения SMTP, определяющие почтовый ящик руководителя контакта.
-ms.openlocfilehash: da9e26c3efdd22000694839f5962a6bb0256f748
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ManagerMailbox содержит сведения SMTP, идентифицирующие почтовый ящик руководителя контакта.
+ms.openlocfilehash: c30a343ad7071e92c826925407f8447ae6baccae
+ms.sourcegitcommit: 63e48eaf2891a6db1a718b55cd69e3a0433c4a9c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453968"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58851116"
 ---
 # <a name="managermailbox"></a>ManagerMailbox
 
-Элемент **ManagerMailbox** содержит сведения SMTP, определяющие почтовый ящик руководителя контакта. 
+Элемент **ManagerMailbox содержит** сведения SMTP, идентифицирующие почтовый ящик руководителя контакта. 
   
 ```XML
-<ManagerMailbox/>
+<ManagerMailbox>
+   <Mailbox/>
+</ManagerMailbox>
 ```
 
  **SingleRecipientType**
@@ -34,19 +36,17 @@ ms.locfileid: "44453968"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Нет.
+|**Элемент**|**Описание**|
+|:-----|:-----|
+|[Mailbox](mailbox.md) <br/> |Определяет объект Active Directory с включенной почтой, который идентифицирует отправитель.  <br/> |
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Имя элемента**|**Описание**|
 |:-----|:-----|
-|[Contact](contact.md) <br/> |Представляет элемент контакта в хранилище Exchange.  <br/> |
-   
-## <a name="text-value"></a>Текстовое значение
+|[Contact](contact.md) <br/> |Представляет элемент контакта в Exchange магазине.  <br/> |
 
-Нет.
-  
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -68,5 +68,5 @@ ms.locfileid: "44453968"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

@@ -7,46 +7,46 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ab88739f-9018-4887-ae46-f1471242628c
-description: Элемент DirectReports содержит SMTP-информацию, определяющую прямые отчеты о контакте.
-ms.openlocfilehash: d7a1077d334862df2a24e27bc23e02539a1bafb1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DirectReports содержит сведения SMTP, идентифицирующие прямые отчеты контакта.
+ms.openlocfilehash: 216f6e99a3caf46f9d3bc792dcb4641c3681a9fb
+ms.sourcegitcommit: 63e48eaf2891a6db1a718b55cd69e3a0433c4a9c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462075"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58851109"
 ---
 # <a name="directreports"></a>DirectReports
 
-Элемент **DirectReports** содержит SMTP-информацию, определяющую прямые отчеты о контакте. 
+Элемент **DirectReports содержит** сведения SMTP, идентифицирующие прямые отчеты контакта. 
   
 ```XML
-<DirectReports/>
+<DirectReports>
+   <Mailbox/>
+</DirectReports>
 ```
 
- **синглереЦипиенттипе**
+ **SingleRecipientType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
-  
+|**Элемент**|**Описание**|
+|:-----|:-----|
+|[Mailbox](mailbox.md) <br/> |Определяет объект службы каталогов с включенной поддержкой почты Active Directory.  <br/> |
+     
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Имя элемента**|**Описание**|
 |:-----|:-----|
-|[контакт](contact.md); <br/> |Представляет элемент Contact в хранилище Exchange.  <br/> |
+|[Contact](contact.md) <br/> |Представляет контактный элемент в Exchange магазине.  <br/> |
    
-## <a name="text-value"></a>Текстовое значение
-
-Нет.
-  
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -58,11 +58,11 @@ ms.locfileid: "44462075"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 
