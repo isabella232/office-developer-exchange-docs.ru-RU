@@ -1,23 +1,23 @@
 ---
-title: Action (Сетклиентекстенсионактионтипе)
+title: Action (SetClientExtensionActionType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5624a87-3436-40ce-8d6b-cc01eecab64d
-description: Элемент Action содержит действие, которое сервер Exchange должен выполнить в приложении.
-ms.openlocfilehash: 29579e26377edacb5fb0bb8406144eeb116b8d15
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Action содержит действие, которое должен Exchange сервер приложения.
+ms.openlocfilehash: a0f5c2743ef976db2faddbb7509a8a015ef4dd8f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529688"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510381"
 ---
-# <a name="action-setclientextensionactiontype"></a>Action (Сетклиентекстенсионактионтипе)
+# <a name="action-setclientextensionactiontype"></a>Action (SetClientExtensionActionType)
 
-Элемент **Action** содержит действие, которое сервер Exchange должен выполнить в приложении. 
+Элемент **Action** содержит действие, которое должен Exchange сервер приложения. 
   
 ```XML
 <Action ActionId="" ExtensionId="">
@@ -25,17 +25,17 @@ ms.locfileid: "44529688"
 </Action>
 ```
 
- **сетклиентекстенсионактионтипе**
+ **SetClientExtensionActionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|ActionId  <br/> |Задает идентификатор действия. Этот атрибут является обязательным.  <br/> |
-|екстенсионид  <br/> |Задает идентификатор расширения. Этот атрибут является необязательным.  <br/> |
+|ActionId  <br/> |Указывает идентификатор действия. Этот атрибут является обязательным.  <br/> |
+|ExtensionId  <br/> |Указывает идентификатор расширения. Этот атрибут является необязательным.  <br/> |
    
 #### <a name="actionid"></a>ActionId
 
@@ -43,21 +43,21 @@ ms.locfileid: "44529688"
 |:-----|:-----|
 |Configure (Настроить)  <br/> |Указывает действие конфигурации.  <br/> |
 |Установка  <br/> |Указывает действие установки.  <br/> |
-|Uninstall  <br/> |Указывает действие по удалению.  <br/> |
+|Удалить  <br/> |Указывает действие по отмывку.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[клиентекстенсион](clientextension.md) <br/> |Содержит сведения о пользователях и конфигурации приложения.  <br/> |
+|[ClientExtension](clientextension.md) <br/> |Содержит сведения о пользователе и конфигурации приложения.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Actions (Аррайофсетклиентекстенсионактионстипе)](actions-arrayofsetclientextensionactionstype.md) <br/> |Указывает массив элементов **Action** .  <br/> |
+|[Actions (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md) <br/> |Указывает массив элементов **Action.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -69,7 +69,7 @@ ms.locfileid: "44529688"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

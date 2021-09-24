@@ -1,37 +1,37 @@
 ---
-title: Create (Фолдерсинк)
+title: Create (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Create
 api_type:
 - schema
 ms.assetid: 6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1
-description: Элемент create определяет одну папку для создания в локальном хранилище клиента.
-ms.openlocfilehash: 43f6a6b3c084c8ecae767c512181bbdf50c7e786
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Create определяет одну папку, создаемую в локальном клиентской магазине.
+ms.openlocfilehash: 941fb580e3f10270cf213a7d9b78e4ef5b199d7c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458378"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536550"
 ---
-# <a name="create-foldersync"></a>Create (Фолдерсинк)
+# <a name="create-foldersync"></a>Create (FolderSync)
 
-Элемент **CREATE** определяет одну папку для создания в локальном хранилище клиента. 
+Элемент **Create** определяет одну папку, создаемую в локальном клиентской магазине. 
   
-[синкфолдерхиерарчиреспонсе](syncfolderhierarchyresponse.md)
+[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
   
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
-[синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md)
+[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
   
-[Изменения (иерархия)](changes-hierarchy.md)
+[Changes (Hierarchy)](changes-hierarchy.md)
   
-[Create (Фолдерсинк)](create-foldersync.md)
+[Create (FolderSync)](create-foldersync.md)
   
 ```xml
 <Create>
@@ -43,32 +43,32 @@ ms.locfileid: "44458378"
 </Create>
 ```
 
- **синкфолдерхиерарчикреатеорупдатетипе**
+ **SyncFolderHierarchyCreateOrUpdateType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |Определяет папку для создания, получения, поиска, синхронизации или обновления.  <br/> |
-|[календарфолдер](calendarfolder.md) <br/> |Представляет папку, в которой в основном содержатся элементы календаря.  <br/> |
-|[контактсфолдер](contactsfolder.md) <br/> |Представляет папку контактов в почтовом ящике.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержащуюся в почтовом ящике.  <br/> |
-|[тасксфолдер](tasksfolder.md) <br/> |Представляет папку задач, содержащуюся в почтовом ящике.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Представляет папку, которая в основном содержит элементы календаря.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Представляет папку контактов в почтовом ящике.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержаную в почтовом ящике.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Представляет папку задач, которая содержится в почтовом ящике.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Изменения (иерархия)](changes-hierarchy.md) <br/> |Содержит массив последовательности типов изменений, представляющих тип различий между элементами на клиенте и элементами на сервере Exchange.  <br/> |
+|[Changes (Hierarchy)](changes-hierarchy.md) <br/> |Содержит массив типов изменений последовательности, которые представляют тип различий между элементами на клиенте и элементами на Exchange сервере.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -78,7 +78,7 @@ ms.locfileid: "44458378"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

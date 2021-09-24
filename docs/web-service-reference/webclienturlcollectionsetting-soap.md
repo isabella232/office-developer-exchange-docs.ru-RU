@@ -1,26 +1,26 @@
 ---
-title: Вебклиентурлколлектионсеттинг (SOAP)
+title: WebClientUrlCollectionSetting (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: d49329d7-e095-474f-8391-c3d61cac2e95
-description: Элемент Вебклиентурлколлектионсеттинг (SOAP) представляет параметр пользователя, который представляет собой коллекцию URL-адресов веб-клиента Exchange.
-ms.openlocfilehash: 5cfa82517ebfa7f6c019ad179fb8b2def8a35265
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент WebClientUrlCollectionSetting (SOAP) представляет параметр пользователя, представляюющий коллекцию URL Exchange веб-клиента.
+ms.openlocfilehash: 622c3fe49a89eb2288d3bd56a6a452e656a25e9b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464968"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517268"
 ---
-# <a name="webclienturlcollectionsetting-soap"></a>Вебклиентурлколлектионсеттинг (SOAP)
+# <a name="webclienturlcollectionsetting-soap"></a>WebClientUrlCollectionSetting (SOAP)
 
-Элемент [вебклиентурлколлектионсеттинг (SOAP)](webclienturlcollectionsetting-soap.md) представляет параметр пользователя, который представляет собой коллекцию URL-адресов веб-клиента Exchange. 
+Элемент [WebClientUrlCollectionSetting (SOAP)](webclienturlcollectionsetting-soap.md) представляет параметр пользователя, представляюющий коллекцию URL Exchange веб-клиентов. 
   
-[Вебклиентурлколлектионсеттинг (SOAP)](webclienturlcollectionsetting-soap.md)
+[WebClientUrlCollectionSetting (SOAP)](webclienturlcollectionsetting-soap.md)
   
 ```XML
 <WebClientUrlCollection>
@@ -28,36 +28,36 @@ ms.locfileid: "44464968"
 </WebClientUrlCollection>
 ```
 
- **вебклиентурлколлектионсеттинг**
+ **WebClientUrlCollectionSetting**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Вебклиентурл (SOAP)](webclienturl-soap.md) <br/> |Представляет URL-адрес веб-клиента Exchange.  <br/> |
+|[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |Представляет URL-адрес веб Exchange клиента.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 

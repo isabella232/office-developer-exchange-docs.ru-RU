@@ -1,29 +1,29 @@
 ---
-title: експанддлреспонсе
+title: ExpandDLResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExpandDLResponse
 api_type:
 - schema
 ms.assetid: 1c60dd64-a083-460a-9840-021d30f871d6
-description: Элемент Експанддлреспонсе определяет ответ на запрос для развертывания списка рассылки.
-ms.openlocfilehash: a5b162fe2c29f760b7499e9e946b700ce69be970
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ExpandDLResponse определяет ответ на запрос о расширении списка рассылки.
+ms.openlocfilehash: af081703a99ce1f69994516fab71e1fc9437ecb5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456943"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510115"
 ---
-# <a name="expanddlresponse"></a>експанддлреспонсе
+# <a name="expanddlresponse"></a>ExpandDLResponse
 
-Элемент **експанддлреспонсе** определяет ответ на запрос для развертывания списка рассылки. 
+Элемент **ExpandDLResponse** определяет ответ на запрос о расширении списка рассылки. 
   
-[експанддлреспонсе](expanddlresponse.md)
+[ExpandDLResponse](expanddlresponse.md)
   
 ```xml
 <ExpandDLResponse>
@@ -31,26 +31,26 @@ ms.locfileid: "44456943"
 </ExpandDLResponse>
 ```
 
- **експанддлреспонсетипе**
+ **ExpandDLResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения отклика для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44456943"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

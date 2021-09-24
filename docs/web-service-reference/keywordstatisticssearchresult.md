@@ -1,23 +1,23 @@
 ---
-title: кэйвордстатистикссеарчресулт
+title: KeywordStatisticsSearchResult
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0278642-2b15-4605-974e-325b829a0528
-description: Элемент Кэйвордстатистикссеарчресулт содержит один результат поиска ключевых слов.
-ms.openlocfilehash: f433640aecb10a01c66f890bb30b7a120df3298f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент KeywordStatisticsSearchResult содержит один результат поиска по ключевому слову.
+ms.openlocfilehash: 21e4dfd8c30ff8340b213f6ed5c5b72bddc3fa6d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530038"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522875"
 ---
-# <a name="keywordstatisticssearchresult"></a>кэйвордстатистикссеарчресулт
+# <a name="keywordstatisticssearchresult"></a>KeywordStatisticsSearchResult
 
-Элемент **кэйвордстатистикссеарчресулт** содержит один результат поиска ключевых слов. 
+Элемент **KeywordStatisticsSearchResult** содержит один результат поиска по ключевому слову. 
   
 
   
@@ -29,24 +29,24 @@ ms.locfileid: "44530038"
 </KeywordStatisticsSearchResult>
 ```
 
- **кэйвордстатистикссеарчресулттипе**
+ **KeywordStatisticsSearchResultType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Ключевое слово](keyword.md)  |  [Итемхитс](itemhits.md)  |  [Размер (длинный)](size-long.md)
+[Ключевое слово](keyword.md)  |  [ItemHits](itemhits.md)  |  [Размер (длинный)](size-long.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[маилбоксстатистикссеарчресулт](mailboxstatisticssearchresult.md)
+[MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44530038"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

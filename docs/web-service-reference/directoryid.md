@@ -1,23 +1,23 @@
 ---
-title: директорид
+title: DirectoryId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4958764f-64dd-4ae7-ade1-0255cb414fcc
-description: Элемент Директорид содержит идентификатор каталога контакта.
-ms.openlocfilehash: bdc75f72cecd6424a3e85588b7af24003bf45d6b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DirectoryId содержит ID каталога контакта.
+ms.openlocfilehash: 544cee39a5581bb44556f2879d2a8b99c23c3756
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462096"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510164"
 ---
-# <a name="directoryid"></a>директорид
+# <a name="directoryid"></a>DirectoryId
 
-Элемент **директорид** содержит идентификатор каталога контакта. 
+Элемент **DirectoryId** содержит ID каталога контакта. 
   
 ```XML
 <DirectoryId/>
@@ -26,15 +26,15 @@ ms.locfileid: "44462096"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -44,9 +44,9 @@ ms.locfileid: "44462096"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение — это строка, представляющая идентификатор каталога контакта.
+Текстовое значение — это строка, которая представляет ID каталога контакта.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -58,11 +58,11 @@ ms.locfileid: "44462096"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

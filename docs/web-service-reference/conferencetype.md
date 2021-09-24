@@ -1,27 +1,27 @@
 ---
-title: конференцетипе
+title: ConferenceType
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConferenceType
 api_type:
 - schema
 ms.assetid: 6bcf6c18-2695-44b1-aabe-dadc52b2633a
-description: Элемент Конференцетипе описывает тип конференций, который выполняется с элементом календаря.
-ms.openlocfilehash: 482fc09d709e2b151b255107af59cb98de236aec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ConferenceType описывает тип конференц-связи, выполняемый с элементом календаря.
+ms.openlocfilehash: ffb25793176dfb723581074bd73739459010ed45
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523197"
 ---
-# <a name="conferencetype"></a>конференцетипе
+# <a name="conferencetype"></a>ConferenceType
 
-Элемент **конференцетипе** описывает тип конференций, который выполняется с элементом календаря. 
+Элемент **ConferenceType** описывает тип конференц-связи, выполняемый с элементом календаря. 
   
 ```xml
 <ConferenceType/>
@@ -30,36 +30,36 @@ ms.locfileid: "44463932"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-При использовании этого элемента необходимо указать текстовое значение, представляющее целое значение. Ниже приведены возможные значения для этого элемента.
+Если используется этот элемент, требуется текстовое значение, представляю которое представляет значение integer. Возможные значения для этого элемента:
   
 - 0 = NetMeeting
     
 - 1 = NetShow
     
-- 2 = чат
+- 2 = Чат
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Свойство **митингворкспацеурл** доступно для записи в элементе календаря организатора. Он доступен только для чтения для приглашений на собрания и элементов календаря участника. 
+Свойство **MeetingWorkspaceUrl** является читаемым для элемента календаря организатора. Это только для чтения запросов на собрания и для элементов календаря участника. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
   
@@ -69,7 +69,7 @@ ms.locfileid: "44463932"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

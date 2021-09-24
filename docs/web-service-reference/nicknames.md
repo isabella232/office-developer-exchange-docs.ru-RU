@@ -1,23 +1,23 @@
 ---
-title: Псевдонимам
+title: Nicknames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bbafce39-7fc6-4099-bc27-b40c0ad44c77
-description: Элемент Псевдонимы определяет массив значений псевдонимов и идентификаторы их исходных атрибутов для соответствующего пользователя.
-ms.openlocfilehash: c6b7de5e1c93797603a2950b4a9527c5d370f93d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Nicknames указывает массив значений псевдонимов и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 38ae06233a6b6f9eb07881faec1e530f5c0cb559
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457776"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537626"
 ---
-# <a name="nicknames"></a>Псевдонимам
+# <a name="nicknames"></a>Nicknames
 
-Элемент **псевдонимы** определяет массив значений псевдонимов и идентификаторы их исходных атрибутов для соответствующего пользователя. 
+Элемент **Nicknames** указывает массив значений псевдонимов и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <Nicknames>
@@ -25,25 +25,25 @@ ms.locfileid: "44457776"
 </Nicknames>
 ```
 
-**аррайофстрингаттрибутедвалуестипе**
+**ArrayOfStringAttributedValuesType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[стрингаттрибутедвалуе](stringattributedvalue.md)
+[StringAttributedValue](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44457776"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

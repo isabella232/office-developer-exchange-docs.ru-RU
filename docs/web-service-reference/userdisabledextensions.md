@@ -5,15 +5,15 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8294eee-6588-4e42-965d-c8261a4770c9
 description: Элемент UserDisabledExtensions перечисляет отключенные приложения.
-ms.openlocfilehash: 42fd16f342e8c5a4f7a5526cb7513cf77ba8246f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e18eb1a7e53eab83c72fb6d974e25e7efbe2dd9c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433681"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517373"
 ---
 # <a name="userdisabledextensions"></a>UserDisabledExtensions
 
@@ -36,13 +36,13 @@ ms.locfileid: "44433681"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Строка](string.md)
+[String](string.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [UserParameters](userparameters.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

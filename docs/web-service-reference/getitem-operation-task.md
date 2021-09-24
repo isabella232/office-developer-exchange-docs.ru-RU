@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 8265dd06-1752-4470-8074-5f0e3e970f52
-description: Операция GetItem используется для получения задач из хранилища Exchange.
-ms.openlocfilehash: 17a23d4c2a35761e831610f3514c980a5a67e12b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetItem используется для получения задач из Exchange магазина.
+ms.openlocfilehash: 36e7b5ecc37c05f64c3b6617f45396805be0e532
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463337"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509842"
 ---
 # <a name="getitem-operation-task"></a>Операция GetItem (задача)
 
-Операция GetItem используется для получения задач из хранилища Exchange.
+Операция GetItem используется для получения задач из Exchange магазина.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Формат запроса GetItem для задач такой же, что и GetItem для любого другого типа элемента. Единственное отличие заключается в том, что дополнительные свойства можно запросить в фигуре ответа. Такие дополнительные свойства должны быть свойствами или расширенными свойствами, связанными с задачей.
+Формат запроса GetItem для задач такой же, как и для любого другого типа элементов. Единственное отличие состоит в том, какие дополнительные свойства можно запрашивать в форме ответа. Такие дополнительные свойства должны быть либо свойствами, связанными с задачами, либо расширенными свойствами.
   
 ## <a name="task-getitem-request-example"></a>Пример запроса задачи GetItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса GetItem показано, как получить элемент задачи.
+В следующем примере запроса GetItem показано, как получить элемент задачи.
   
 ### <a name="code"></a>Код
 
@@ -58,25 +58,25 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 ### <a name="comments"></a>Комментарии
 
 > [!NOTE]
-> Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор элемента и ключ изменения были сокращены для сохранения читаемости. 
   
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
 - [GetItem](getitem.md)
     
-- [итемшапе](itemshape.md)
+- [ItemShape](itemshape.md)
     
-- [басешапе](baseshape.md)
+- [BaseShape](baseshape.md)
     
-- [итемидс](itemids.md)
+- [ItemIds](itemids.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="task-getitem-response-example"></a>Пример отклика "задача GetItem"
+## <a name="task-getitem-response-example"></a>Пример ответа задачи GetItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
 В следующем примере показан успешный ответ на запрос GetItem.
   
@@ -136,27 +136,27 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 ### <a name="comments"></a>Комментарии
 
 > [!NOTE]
-> Идентификаторы элементов и папок, а также ключи изменения были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификаторы элементов и папок и ключи изменений были сокращены для сохранения читаемости. 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [жетитемреспонсе](getitemresponse.md)
+- [GetItemResponse](getitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [жетитемреспонсемессаже](getitemresponsemessage.md)
+- [GetItemResponseMessage](getitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Items](items.md)
     
-- [Task](task.md)
+- [Задача](task.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
 - [ParentFolderId](parentfolderid.md)
     
@@ -166,7 +166,7 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 - [Sensitivity](sensitivity.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
@@ -174,17 +174,17 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 - [Importance](importance.md)
     
-- [Отправлено](issubmitted.md)
+- [IsSubmitted](issubmitted.md)
     
-- [Черновик](isdraft.md)
+- [IsDraft](isdraft.md)
     
-- [исфромме](isfromme.md)
+- [IsFromMe](isfromme.md)
     
-- [исресенд](isresend.md)
+- [IsResend](isresend.md)
     
-- [исунмодифиед](isunmodified.md)
+- [IsUnmodified](isunmodified.md)
     
-- [датетимесент](datetimesent.md)
+- [DateTimeSent](datetimesent.md)
     
 - [DateTimeCreated](datetimecreated.md)
     
@@ -192,17 +192,17 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     
 - [Culture](culture.md)
     
-- [чанжекаунт](changecount.md)
+- [ChangeCount](changecount.md)
     
-- [Выполнение](iscomplete.md)
+- [IsComplete](iscomplete.md)
     
 - [IsRecurring](isrecurring.md)
     
 - [PercentComplete](percentcomplete.md)
     
-- [Status](status.md)
+- [Состояние](status.md)
     
-- [статусдескриптион](statusdescription.md)
+- [StatusDescription](statusdescription.md)
     
 ## <a name="see-also"></a>См. также
 

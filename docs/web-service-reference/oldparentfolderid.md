@@ -1,56 +1,56 @@
 ---
-title: олдпарентфолдерид
+title: OldParentFolderId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OldParentFolderId
 api_type:
 - schema
 ms.assetid: da1b8c88-c650-455d-b749-0cd160b012d8
-description: Элемент Олдпарентфолдерид содержит идентификатор родительской папки элемента или папки, которая была скопирована или перемещена.
-ms.openlocfilehash: ad787e95f95b551393878b15783461d93ac08481
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент OldParentFolderId содержит идентификатор родительской папки элемента или папки, которая была скопирована или перемещена.
+ms.openlocfilehash: 9cf7eb834c0c7b70f234df26b466977e8e11957a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467230"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537459"
 ---
-# <a name="oldparentfolderid"></a>олдпарентфолдерид
+# <a name="oldparentfolderid"></a>OldParentFolderId
 
-Элемент **олдпарентфолдерид** содержит идентификатор родительской папки элемента или папки, которая была скопирована или перемещена. 
+Элемент **OldParentFolderId** содержит идентификатор родительской папки элемента или папки, которая была скопирована или перемещена. 
   
 ```xml
 <OldParentFolderId Id="" ChangeKey=""/>
 ```
 
- **фолдеридтипе**
+ **FolderIdType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**Id** <br/> |Содержит строку, определяющую папку в хранилище Exchange. Этот атрибут является обязательным.  <br/> |
-|**чанжекэй** <br/> |Содержит строку, определяющую версию папки, определяемую атрибутом ID. Этот атрибут является необязательным. Используйте этот атрибут, чтобы убедиться, что используется правильная версия папки.  <br/> |
+|**Id** <br/> |Содержит строку, которая идентифицирует папку в Exchange магазине. Этот атрибут является обязательным.  <br/> |
+|**ChangeKey** <br/> |Содержит строку, определяемую версией папки, идентифицируемой атрибутом Id. Этот атрибут является необязательным. Используйте этот атрибут, чтобы убедиться, что используется правильная версия папки.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[копиедевент](copiedevent.md) <br/> |Представляет событие, в котором копируется элемент или папка.  <br/> |
-|[моведевент](movedevent.md) <br/> |Представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую.  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |Представляет событие, в котором копируется элемент или папка.  <br/> |
+|[MovedEvent](movedevent.md) <br/> |Представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую родительную.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44467230"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -71,7 +71,7 @@ ms.locfileid: "44467230"
   
 [Операция GetEvents](getevents-operation.md)
   
-[Операция по отмене подписки](unsubscribe-operation.md)
+[Операция Unsubscribe](unsubscribe-operation.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

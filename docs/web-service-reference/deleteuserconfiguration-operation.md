@@ -5,32 +5,32 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteUserConfiguration
 api_type:
 - schema
 ms.assetid: 93e44690-be2d-4fdb-96a8-4ded3c193aed
 description: Операция DeleteUserConfiguration удаляет объект конфигурации пользователя в папке.
-ms.openlocfilehash: 064e1ace2c2f51783431ce42670b2a4fd8146b54
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4332515a91d9207f3ef8f9905edd2b9155042d65
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44451469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510178"
 ---
 # <a name="deleteuserconfiguration-operation"></a>Операция DeleteUserConfiguration
 
 Операция **DeleteUserConfiguration** удаляет объект конфигурации пользователя в папке. 
   
 > [!IMPORTANT]
-> Операция **DeleteUserConfiguration** вызывает событие перемещения для системы уведомлений о событиях. Объект конфигурации пользователя будет перемещен в контейнер. 
+> Операция **DeleteUserConfiguration** вызовет событие перемещения для системы уведомлений о событиях. Объект конфигурации пользователя будет перемещен в контейнер. 
   
-## <a name="deleteuserconfiguration-request-example"></a>Пример запроса DeleteUserConfiguration
+## <a name="deleteuserconfiguration-request-example"></a>Пример запроса на deleteUserConfiguration
 
 ### <a name="description"></a>Описание
 
-В следующем примере **запроса DeleteUserConfiguration** показано, как создать запрос на удаление объекта конфигурации пользователя в папке "Черновики". 
+В следующем примере запроса **DeleteUserConfiguration** показано, как сформировать запрос на удаление объекта конфигурации пользователя в папке Drafts. 
   
 ### <a name="code"></a>Код
 
@@ -54,7 +54,7 @@ ms.locfileid: "44451469"
 </soap:Envelope>
 ```
 
-## <a name="deleteuserconfiguration-response-example"></a>Пример отклика DeleteUserConfiguration
+## <a name="deleteuserconfiguration-response-example"></a>Пример ответа DeleteUserConfiguration
 
 ### <a name="description"></a>Описание
 

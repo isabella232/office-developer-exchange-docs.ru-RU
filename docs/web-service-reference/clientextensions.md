@@ -1,23 +1,23 @@
 ---
-title: клиентекстенсионс
+title: ClientExtensions
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0073d195-75fd-4c89-97e0-2ad6d91f99f9
-description: Элемент Клиентекстенсионс содержит массив сведений о пользователях и конфигурации приложений.
-ms.openlocfilehash: 016b4c910f3c21a20d72b926a1c568925aa9d37e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ClientExtensions содержит массив сведений о пользователях и конфигурации приложений.
+ms.openlocfilehash: f9cd68ebdd0a376d57fe1e413ec094f8304c2cd3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461459"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536891"
 ---
-# <a name="clientextensions"></a>клиентекстенсионс
+# <a name="clientextensions"></a>ClientExtensions
 
-Элемент **клиентекстенсионс** содержит массив сведений о пользователях и конфигурации приложений. 
+Элемент **ClientExtensions содержит** массив сведений о пользователях и конфигурации приложений. 
   
 ```XML
 <ClientExtensions>
@@ -25,28 +25,28 @@ ms.locfileid: "44461459"
 </ClientExtensions>
 ```
 
- **аррайофклиентекстенсионстипе**
+ **ArrayOfClientExtensionsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[клиентекстенсион](clientextension.md) <br/> |Содержит сведения о пользователях и конфигурации приложения.  <br/> |
+|[ClientExtension](clientextension.md) <br/> |Содержит сведения о пользователе и конфигурации приложения.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[жетклиентекстенсионреспонсе](getclientextensionresponse.md) <br/> |Представляет ответ для получения сведений о конфигурации приложения.  <br/> |
+|[GetClientExtensionResponse](getclientextensionresponse.md) <br/> |Представляет ответ для получения сведений о конфигурации приложения.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

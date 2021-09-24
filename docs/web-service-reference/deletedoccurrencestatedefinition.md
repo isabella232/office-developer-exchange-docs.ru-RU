@@ -1,23 +1,23 @@
 ---
-title: делетедоккурренцестатедефинитион
+title: DeletedOccurrenceStateDefinition
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9c01c64-e76c-4adc-8b04-88af97bd0cc8
-description: Делетедоккурренцестатедефинитион указывает состояние удаленного экземпляра элемента календаря.
-ms.openlocfilehash: ff8ad1d9c35d7bab3f6fe2cd1896bb16384c18e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Раздел DeletedOccurrenceStateDefinition указывает состояние для удаленного появления элемента календаря.
+ms.openlocfilehash: 296eb1c99d5cc32cf8d1711bdb605ae10230ab34
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458798"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510283"
 ---
-# <a name="deletedoccurrencestatedefinition"></a>делетедоккурренцестатедефинитион
+# <a name="deletedoccurrencestatedefinition"></a>DeletedOccurrenceStateDefinition
 
-**Делетедоккурренцестатедефинитион** указывает состояние удаленного экземпляра элемента календаря. 
+Раздел **DeletedOccurrenceStateDefinition** указывает состояние для удаленного появления элемента календаря. 
   
 ```XML
 <DeletedOccurrenceStateDefinition>
@@ -26,29 +26,29 @@ ms.locfileid: "44458798"
 </DeletedOccurrenceStateDefinition>
 ```
 
- **делетедоккурренцестатедефинитионтипе**
+ **DeletedOccurrenceStateDefinitionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Вхождение (переход часового пояса)](occurrence-time-zone-transition.md) <br/> |Указывает дату вхождения элемента календаря.  <br/> |
-|[исоккурренцепресент](isoccurrencepresent.md) <br/> |Задает логическое значение, указывающее, присутствует ли экземпляр элемента календаря.  <br/> |
+|[Occurrence (смена часовых поясов)](occurrence-time-zone-transition.md) <br/> |Указывает дату возникновения элемента календаря.  <br/> |
+|[IsOccurrencePresent](isoccurrencepresent.md) <br/> |Указывает значение Boolean, которое указывает, присутствует ли элемент календаря.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[статедефинитион](statedefinition.md) <br/> |Задает определение состояния.  <br/> |
+|[StateDefinition](statedefinition.md) <br/> |Указывает определение состояния.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44458798"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

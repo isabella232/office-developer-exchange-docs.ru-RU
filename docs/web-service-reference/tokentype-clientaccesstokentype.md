@@ -1,50 +1,50 @@
 ---
-title: Токентипе (Клиентакцесстокентипе)
+title: TokenType (ClientAccessTokenType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96103f15-a3e0-497c-af21-90adbf9a4b14
-description: Элемент Токентипе определяет тип маркера клиентского доступа, который будет возвращен в ответе GetClientAccessToken.
-ms.openlocfilehash: 49ba2973967b12396e0c7f56129c89c40ccbcf97
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TokenType определяет тип маркера клиентского доступа, который будет возвращен в ответе GetClientAccessToken.
+ms.openlocfilehash: 967d64796799147876ef6443b40b16154b55c01a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466054"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523358"
 ---
-# <a name="tokentype-clientaccesstokentype"></a>Токентипе (Клиентакцесстокентипе)
+# <a name="tokentype-clientaccesstokentype"></a>TokenType (ClientAccessTokenType)
 
-Элемент **токентипе** определяет тип маркера клиентского доступа, который будет возвращен в ответе **GetClientAccessToken** . 
+Элемент **TokenType** определяет тип маркера клиентского доступа, который будет возвращен в **ответе GetClientAccessToken.** 
   
 ```XML
 <TokenType>CallerIdentity | ExtensionCallback | ScopedToken</TokenType>
 ```
 
- **клиентакцесстокентипетипе**
+ **ClientAccessTokenType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Токенрекуест](tokenrequest.md)  |  [Маркер (клиентакцесстокентипе)](token-clientaccesstokentype.md)
+[TokenRequest](tokenrequest.md)  |  [Маркер (ClientAccessTokenType)](token-clientaccesstokentype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **каллеридентити** означает, что возвращается маркер доступа клиента идентификации звонящего. Текстовое значение **екстенсионкаллбакк** указывает на то, что маркер доступа клиента обратного вызова для расширения возвращается. Текстовое значение **скопедтокен** указывает на то, что маркер клиентского доступа является маркером с областью действия. 
+Текстовое значение **callerIdentity означает,** что возвращается маркер клиентского доступа к удостоверениям вызывающего пользователя. Текстовое значение **ExtensionCallback** указывает, что возвращается маркер клиентского доступа к продлению обратного вызова. Текстовое значение **ScopedToken** указывает, что маркер клиентского доступа — это маркер с областью действия. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44466054"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

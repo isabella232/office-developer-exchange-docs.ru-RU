@@ -1,23 +1,23 @@
 ---
-title: тоталнумберофпеоплеинвиев
+title: TotalNumberOfPeopleInView
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f1037fef-628b-4e44-96e7-a701a9ca8404
-description: Элемент Тоталнумберофпеоплеинвиев указывает общее количество персонажей, возвращенных в ответе FindPeople.
-ms.openlocfilehash: d89aa65d595814a7277f85e569ca10f9058c6aac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TotalNumberOfPeopleInView указывает общее число лиц, возвращенных в ответе FindPeople.
+ms.openlocfilehash: 350dcaf4a498a590350c7f2b72d542057ae6eb7b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467510"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523281"
 ---
-# <a name="totalnumberofpeopleinview"></a>тоталнумберофпеоплеинвиев
+# <a name="totalnumberofpeopleinview"></a>TotalNumberOfPeopleInView
 
-Элемент **тоталнумберофпеоплеинвиев** указывает общее количество персонажей, возвращенных в ответе **FindPeople** . 
+Элемент **TotalNumberOfPeopleInView** указывает общее число лиц, возвращенных в **ответе FindPeople.** 
   
 ```XML
 <TotalNumberOfPeopleInView></TotalNumberOfPeopleInView>
@@ -26,25 +26,25 @@ ms.locfileid: "44467510"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[финдпеоплереспонсе](findpeopleresponse.md)
+[FindPeopleResponse](findpeopleresponse.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **тоталнумберофпеоплеинвиев** — общее количество персонажей, возвращенных в ответе **FindPeople** . 
+Текстовое значение элемента **TotalNumberOfPeopleInView** — это общее число лиц, возвращенных в **ответе FindPeople.** 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44467510"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

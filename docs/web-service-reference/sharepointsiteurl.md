@@ -1,23 +1,23 @@
 ---
-title: шарепоинтситеурл
+title: SharePointSiteUrl
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de9a7e43-518e-49aa-9826-f54bab4279a3
-description: Элемент Шарепоинтситеурл содержит URL-адрес сайта SharePoint, связанного с почтовым ящиком сайта.
-ms.openlocfilehash: 461ca904e9a050d20b9e067cb40875939608c101
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SharePointSiteURL содержит единый локатор ресурсов (URL-адрес) сайта SharePoint, связанного с почтовым ящиком сайта.
+ms.openlocfilehash: c36dacadddf2706437a8a51dd2e115529210d542
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467307"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517683"
 ---
-# <a name="sharepointsiteurl"></a>шарепоинтситеурл
+# <a name="sharepointsiteurl"></a>SharePointSiteUrl
 
-Элемент **шарепоинтситеурл** содержит URL-адрес сайта SharePoint, связанного с почтовым ящиком сайта. 
+Элемент **SharePointSiteURL** содержит единый локатор ресурсов (URL SharePoint сайта, связанного с почтовым ящиком сайта. 
   
 ```XML
 <SharePointSiteURL></SharePointSiteURL>
@@ -27,25 +27,25 @@ ms.locfileid: "44467307"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеттеаммаилбокс](setteammailbox.md)
+[SetTeamMailbox](setteammailbox.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **шарепоинтситеурл** — это URL-адрес сайта SharePoint, связанного с почтовым ящиком сайта. 
+Текстовое значение элемента **SharePointSiteURL** — URL-адрес веб-SharePoint, связанного с почтовым ящиком сайта. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44467307"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

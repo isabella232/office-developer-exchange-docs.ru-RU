@@ -1,23 +1,23 @@
 ---
-title: аппровалдеЦисион
+title: ApprovalDecision
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e7c5687-cb9e-4f0b-ac8f-b82591914a39
-description: Элемент АппровалдеЦисион указывает решение, принятое в сообщении с запросом на утверждение.
-ms.openlocfilehash: a8dc168edec882ba97cdea764f8d20c71ed85f8a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ApprovalDecision указывает решение, принятое в сообщении запроса на утверждение.
+ms.openlocfilehash: 903b75f04255a19ebb7a9b4d0e47b685f22d4339
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463449"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517233"
 ---
-# <a name="approvaldecision"></a>аппровалдеЦисион
+# <a name="approvaldecision"></a>ApprovalDecision
 
-Элемент **аппровалдеЦисион** указывает решение, принятое в сообщении с запросом на утверждение. 
+Элемент **ApprovalDecision** указывает решение, принятое в сообщении запроса на утверждение. 
   
 ```XML
 <ApprovalDecision> 1 | 2 </ApprovalDecision>
@@ -26,25 +26,25 @@ ms.locfileid: "44463449"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[аппровалрекуестдата](approvalrequestdata.md)
+[ApprovalRequestData](approvalrequestdata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **аппровалдеЦисион** равно 1, если оно утверждено, и 2, если отклоняется. 
+Текстовое значение элемента **ApprovalDecision** : 1 при утверждении и 2 при отклонении. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -56,11 +56,11 @@ ms.locfileid: "44463449"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [аппровалрекуестдата](approvalrequestdata.md)
+- [ApprovalRequestData](approvalrequestdata.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

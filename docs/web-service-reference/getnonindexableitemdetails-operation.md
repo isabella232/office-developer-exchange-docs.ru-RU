@@ -5,47 +5,47 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9279c3ad-f7c8-4bbc-b0a7-2c78416cb39a
-description: Поиск сведений о GetNonIndexableItemDetailsной операции EWS.
-ms.openlocfilehash: a443e04b0622ddbaaeb1bc8c04bfd05679c6207e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetNonIndexableItemDetails EWS.
+ms.openlocfilehash: d494765d56bc06c2e7f90b99174622b00449116d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530213"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516974"
 ---
 # <a name="getnonindexableitemdetails-operation"></a>Операция GetNonIndexableItemDetails
 
-Поиск сведений о **GetNonIndexableItemDetailsной** операции EWS. 
+Сведения об операции **GetNonIndexableItemDetails** EWS. 
   
-Операция **GetNonIndexableItemDetails** получает сведения об элементах, которые не удается индексировать. Это относится только к идентификатору элемента, к коду ошибки, описанию ошибки, при попытке индексирования элемента и дополнительной информации о файле. 
+Операция **GetNonIndexableItemDetails** извлекает сведения о не индексируемых элементов. Это включает идентификатор элемента, код ошибки, описание ошибки при попытке индексации элемента и дополнительные сведения о файле. 
   
 > [!NOTE]
-> Несмотря на то что схема указывает на то, что можно выполнять поиск в нескольких почтовых ящиках, в исходной версии Exchange 2013 служба поддерживает только извлечение сведений об элементах для неиндексируемых элементов в одном почтовом ящике. 
+> Хотя схема указывает на то, что можно искать несколько почтовых ящиков, в начальной версии выпуска Exchange 2013 г. служба поддерживает получение сведений о элементах для неиндекционных элементов в одном почтовом ящике. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-getnonindexableitemdetails-operation"></a>Использование операции GetNonIndexableItemDetails
 
-Операция **GetNonIndexableItemDetails** определяет элементы почтового ящика, которые не удается индексировать, и предоставляет сведения о причинах, по которым не удается индексировать элементы. Элементы, которые не могут индексироваться, не ищутся во время поиска обнаружения. 
+Операция **GetNonIndexableItemDetails** определяет элементы почтовых ящиков, которые нельзя индексировать, и предоставляет сведения о том, почему эти элементы нельзя индексировать. Элементы, которые нельзя индексировать, не ищутся во время поиска обнаружения. 
   
-### <a name="getnonindexableitemdetails-operation-soap-headers"></a>Заголовки SOAP операции GetNonIndexableItemDetails
+### <a name="getnonindexableitemdetails-operation-soap-headers"></a>GetNonIndexableItemDetails operation SOAP headers
 
-Операция **GetNonIndexableItemDetails** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции GetNonIndexableItemDetails** можно использовать заголовки SOAP, перечисленные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для того, чтобы вызывающий абонент мог выполнить запрос. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для запроса вызываемой. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="getnonindexableitemdetails-operation-request-example-get-the-details-of-an-item-that-cannot-be-indexed"></a>Пример запроса операции GetNonIndexableItemDetails: получение сведений о элементе, который не удается индексировать
+## <a name="getnonindexableitemdetails-operation-request-example-get-the-details-of-an-item-that-cannot-be-indexed"></a>Пример запроса на операцию GetNonIndexableItemDetails: получить сведения о элементе, который нельзя индексировать
 
-В приведенном ниже примере запроса операции **GetNonIndexableItemDetails** показано, как запросить сведения для элементов, которые не удается индексировать для одного почтового ящика. Поиск выполняется как в основном, так и в архивных почтовых ящиках. 
+В следующем примере запроса на операцию **GetNonIndexableItemDetails** показано, как запрашивать сведения для элементов, которые нельзя индексировать для одного почтового ящика. Поиск выполняется как в основных, так и в архивных почтовых ящиках. 
   
 > [!NOTE]
-> Все устаревшие доменные имена в этом примере сокращены, чтобы сохранить удобочитаемость. 
+> Все устаревшие доменные имена в этом примере сокращены для сохранения читаемости. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -67,19 +67,19 @@ ms.locfileid: "44530213"
 
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
     
-- [Почтовые ящики (Нонемптяррайофлегациднстипе)](mailboxes-nonemptyarrayoflegacydnstype.md)
+- [Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md)
     
 - [LegacyDN](legacydn.md)
     
-- [сеарчарчивеонли](searcharchiveonly.md)
+- [SearchArchiveOnly](searcharchiveonly.md)
     
-## <a name="successful-getnonindexableitemdetails-operation-response"></a>Успешный отклик операции GetNonIndexableItemDetails
+## <a name="successful-getnonindexableitemdetails-operation-response"></a>Успешный ответ на операцию GetNonIndexableItemDetails
 
-В следующем примере показан успешный ответ на запрос операции **GetNonIndexableItemDetails** для получения элементов, которые не удается индексировать для одного почтового ящика. В этом примере элемент, который не удается индексировать, — это файл бинарифиле. ABC, который имеет неизвестный формат. 
+В следующем примере показан успешный ответ на запрос **операции GetNonIndexableItemDetails** для получения элементов, которые нельзя индексировать для одного почтового ящика. Элемент в этом примере, который нельзя индексировать, — это файл binaryfile.abc неизвестного формата. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -121,37 +121,37 @@ ms.locfileid: "44530213"
 
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [жетнониндексаблеитемдетаилсреспонсе](getnonindexableitemdetailsresponse.md)
+- [GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [нониндексаблеитемдетаилсресулт](nonindexableitemdetailsresult.md)
+- [NonIndexableItemDetailsResult](nonindexableitemdetailsresult.md)
     
-- [нониндексаблеитемдетаил](nonindexableitemdetail.md)
+- [NonIndexableItemDetail](nonindexableitemdetail.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-- [ErrorCode (Итеминдексеррортипе)](errorcode-itemindexerrortype.md)
+- [ErrorCode (ItemIndexErrorType)](errorcode-itemindexerrortype.md)
     
-- [еррордескриптион](errordescription.md)
+- [ErrorDescription](errordescription.md)
     
-- [испартиаллиндексед](ispartiallyindexed.md)
+- [IsPartiallyIndexed](ispartiallyindexed.md)
     
-- [исперманентфаилуре](ispermanentfailure.md)
+- [IsPermanentFailure](ispermanentfailure.md)
     
-- [сортвалуе](sortvalue.md)
+- [SortValue](sortvalue.md)
     
-- [аттемпткаунт](attemptcount.md)
+- [AttemptCount](attemptcount.md)
     
-- [ластаттемпттиме](lastattempttime.md)
+- [LastAttemptTime](lastattempttime.md)
     
-- [аддитионалинфо](additionalinfo.md)
+- [AdditionalInfo](additionalinfo.md)
     
-## <a name="getnonindexableitemdetails-operation-error-response"></a>Ответ об ошибке операции GetNonIndexableItemDetails
+## <a name="getnonindexableitemdetails-operation-error-response"></a>Ответ на ошибку операции GetNonIndexableItemDetails
 
-В следующем примере показан ответ об ошибке для запроса операции **GetNonIndexableItemDetails** . Это ответ на запрос получения сведений об элементах, которые не удается индексировать из нескольких почтовых ящиков. 
+В следующем примере показан ответ на ошибку запроса на операцию **GetNonIndexableItemDetails.** Это ответ на запрос о том, чтобы получить сведения о элементах, которые нельзя индексировать из более чем одного почтового ящика. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -177,17 +177,17 @@ ms.locfileid: "44530213"
 </s:Envelope>
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [жетнониндексаблеитемдетаилсреспонсе](getnonindexableitemdetailsresponse.md)
+- [GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
+Дополнительные коды ошибок, общие для EWS и специфические для этой операции, см. [в ответе.](responsecode.md)
   
 ## <a name="see-also"></a>См. также
 

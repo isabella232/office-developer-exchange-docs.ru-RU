@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Subject
 api_type:
 - schema
 ms.assetid: c140d6c2-deb1-4f67-a908-9397197c4ae7
-description: Элемент subject представляет свойство Subject элементов хранилища Exchange. Тема может иметь не более 255 символов.
-ms.openlocfilehash: c4d7c21ab70c21ceb63e53d008d25aebf8e22270
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Subject представляет свойство субъекта элементов Exchange хранения. Субъект ограничен 255 символами.
+ms.openlocfilehash: 95e165de80388a8ae691a894f38e669d204a46f4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458973"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509310"
 ---
 # <a name="subject"></a>Subject
 
-Элемент **subject** представляет свойство Subject элементов хранилища Exchange. Тема может иметь не более 255 символов. 
+Элемент **Subject** представляет свойство субъекта элементов Exchange хранения. Субъект ограничен 255 символами. 
   
 ```XML
 <Subject/>
@@ -30,44 +30,44 @@ ms.locfileid: "44458973"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[канцелкалендаритем](cancelcalendaritem.md) <br/> |Представляет объект отклика элемента календаря Cancel.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Представляет объект ответа на элемент отмены календаря.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
-|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Задает условия для типов сообщений, которые требуется найти.  <br/> |
-|[форвардитем](forwarditem.md) <br/> |Представляет объект прямого отклика элементов вперед.  <br/> |
+|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Указывает критерии для типов сообщений, которые необходимо найти.  <br/> |
+|[ForwardItem](forwarditem.md) <br/> |Представляет объект smart response для элемента forward.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании в хранилище Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты в хранилище Exchange.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Представляет сообщение собрания в Exchange магазине.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Представляет электронную почту в Exchange магазине.  <br/> |
 |[MessageTrackingReport](messagetrackingreport.md) <br/> |Содержит одно сообщение, которое возвращается в [Операция GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
-|[мессажетраккингсеарчресулт](messagetrackingsearchresult.md) <br/> |Содержит один результат одного сообщения для элемента [финдмессажетраккингрепортреспонсе](findmessagetrackingreportresponse.md) .  <br/> |
-|[RemoveItem](removeitem.md) <br/> |Представляет объект ответа "удалить элемент".  <br/> |
-|[репляллтоитем](replyalltoitem.md) <br/> |Представляет объект Smart отклика "ответить всем".  <br/> |
-|[реплитоитем](replytoitem.md) <br/> |Представляет объект интеллектуального ответа "ответить на элемент".  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Содержит один результат сообщения для [элемента FindMessageTrackingReportResponse.](findmessagetrackingreportresponse.md)  <br/> |
+|[RemoveItem](removeitem.md) <br/> |Представляет объект ответа на удаление элемента.  <br/> |
+|[ReplyAllToItem](replyalltoitem.md) <br/> |Представляет объект интеллектуального ответа для всех.  <br/> |
+|[ReplyToItem](replytoitem.md) <br/> |Представляет объект смарт-ответа от ответа к элементу.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, содержащее тему элемента Exchange, является обязательным.
+Требуется текстовое значение, содержаее субъект Exchange элемента.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -77,7 +77,7 @@ ms.locfileid: "44458973"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

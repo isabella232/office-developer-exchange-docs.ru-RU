@@ -1,23 +1,23 @@
 ---
-title: филеасес
+title: FileAses
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f81efc37-bb70-4d52-a614-cec87d1b0f04
-description: Элемент Филеасес указывает массив элементов Стрингаттрибутедвалуе и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 9d97c2c7210e9ae20326d7327c9de4159d5df5a6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FileAses указывает массив элементов StringAttributedValue и идентификаторы их атрибуций источника для связанной персоны.
+ms.openlocfilehash: 349a16063167f8c716169443acc42a0851f5e545
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461081"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535236"
 ---
-# <a name="fileases"></a>филеасес
+# <a name="fileases"></a>FileAses
 
-Элемент **филеасес** указывает массив элементов **стрингаттрибутедвалуе** и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **FileAses** указывает массив элементов **StringAttributedValue** и идентификаторы их атрибуций источника для связанной персоны. 
   
 ```XML
 <FileAses>
@@ -25,28 +25,28 @@ ms.locfileid: "44461081"
 </FileAses>
 ```
 
- **аррайофстрингаттрибутедвалуестипе**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[стрингаттрибутедвалуе](stringattributedvalue.md) <br/> |Указывает экземпляр в массиве атрибутов, связанных с элементом персоны.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Указывает экземпляр в массиве атрибутов, связанных с элементом persona.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44461081"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

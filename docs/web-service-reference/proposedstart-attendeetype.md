@@ -5,15 +5,15 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94a233d8-2eb4-4cec-913d-965aca4c975b
 description: Элемент ProposedStart (AttendeeType) указывает время начала предложенного участника собрания.
-ms.openlocfilehash: cf5b6492ae21d5e2722f0b87cd4c6c0908f8df59
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9a202cca79c3881f2bbb8d59a72122fb2c599ada
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465613"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534658"
 ---
 # <a name="proposedstart-attendeetype"></a>ProposedStart (AttendeeType)
 
@@ -23,28 +23,28 @@ ms.locfileid: "44465613"
 <ProposedStart/>
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Участник](attendee.md)
+[Attendee](attendee.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
 Текстовое значение элемента **ProposedStart (AttendeeType)** является Предложенная дата и время начала собрания. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -56,14 +56,14 @@ ms.locfileid: "44465613"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Участник](attendee.md)
+[Attendee](attendee.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

@@ -1,27 +1,27 @@
 ---
-title: календарфолдер
+title: CalendarFolder
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarFolder
 api_type:
 - schema
 ms.assetid: 48687a78-e757-4c04-9641-bf4302c6b565
-description: Элемент Календарфолдер представляет папку, в которой в основном содержатся элементы календаря.
-ms.openlocfilehash: dcd0ab9d7dea1152766997de0618b3dcceed5567
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CalendarFolder представляет папку, которая в основном содержит элементы календаря.
+ms.openlocfilehash: 95feefa88af7b961154e742987737db7e6e9fe19
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461494"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537068"
 ---
-# <a name="calendarfolder"></a>календарфолдер
+# <a name="calendarfolder"></a>CalendarFolder
 
-Элемент **календарфолдер** представляет папку, в которой в основном содержатся элементы календаря. 
+Элемент **CalendarFolder представляет** папку, которая в основном содержит элементы календаря. 
   
 ```xml
 <CalendarFolder>
@@ -39,42 +39,42 @@ ms.locfileid: "44461494"
 </CalendarFolder>
 ```
 
- **календарфолдертипе**
+ **CalendarFolderType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Содержит идентификатор и ключ изменения папки.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки, содержащей папку.  <br/> |
-|[фолдеркласс](folderclass.md) <br/> |Представляет класс папки для данной папки.  <br/> |
-|[DisplayName (строка)](displayname-string.md) <br/> |Содержит отображаемое имя папки.  <br/> |
-|[тоталкаунт](totalcount.md) <br/> |Представляет общее количество элементов в заданной папке.  <br/> |
-|[чилдфолдеркаунт](childfoldercount.md) <br/> |Представляет количество дочерних папок, содержащихся в папке. Это свойство доступно только для чтения.  <br/> |
-|[ExtendedProperty](extendedproperty.md) <br/> |Определяет расширенные свойства для папок.  <br/> |
-|[манажедфолдеринформатион](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
-|[еффективеригхтс](effectiverights.md) <br/> |Содержит права клиента на основе параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.  <br/> |
-|[Шаринжеффективеригхтс (Календарпермиссионреадакцесстипе)](sharingeffectiverights-calendarpermissionreadaccesstype.md) <br/> |Указывает разрешения, которые есть у пользователя для данных календаря, к которым предоставлен общий доступ.  <br/> |
-|[PermissionSet (Календарпермиссионсеттипе)](permissionset-calendarpermissionsettype.md) <br/> |Содержит все настроенные разрешения для папки "Календарь".  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки, которая содержит папку.  <br/> |
+|[FolderClass](folderclass.md) <br/> |Представляет класс папки для данной папки.  <br/> |
+|[DisplayName (string)](displayname-string.md) <br/> |Содержит отображаемую папку.  <br/> |
+|[TotalCount](totalcount.md) <br/> |Представляет общее количество элементов в данной папке.  <br/> |
+|[ChildFolderCount](childfoldercount.md) <br/> |Представляет количество детских папок, содержащихся в папке. Это свойство доступно только для чтения.  <br/> |
+|[ExtendedProperty](extendedproperty.md) <br/> |Определяет расширенные свойства в папках.  <br/> |
+|[ManagedFolderInformation](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Содержит права клиента на основе параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.  <br/> |
+|[SharingEffectiveRights (CalendarPermissionReadAccessType)](sharingeffectiverights-calendarpermissionreadaccesstype.md) <br/> |Указывает разрешения, которые у пользователя есть для общих данных календаря.  <br/> |
+|[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |Содержит все настроенные разрешения для папки календаря.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аппендтофолдерфиелд](appendtofolderfield.md) <br/> |Задает данные, добавляемые к свойству folder во время [операции операцию UpdateFolder](updatefolder-operation.md).  <br/> |
-|[Create (Фолдерсинк)](create-foldersync.md) <br/> |Определяет одну папку для создания в локальном хранилище клиента.  <br/> |
-|[сетфолдерфиелд](setfolderfield.md) <br/> |Представляет обновление одного свойства папки в [операции операцию UpdateFolder](updatefolder-operation.md).  <br/> |
-|[Обновление (Фолдерсинк)](update-foldersync.md) <br/> |Определяет одну папку для обновления в локальном хранилище клиента.  <br/> |
-|[Folders](folders-ex15websvcsotherref.md) <br/> |Содержит массив папок, используемых в операциях с папками.  <br/> |
+|[AppendToFolderField](appendtofolderfield.md) <br/> |Указывает данные для приложения к свойству папки во время операции [UpdateFolder.](updatefolder-operation.md)  <br/> |
+|[Create (FolderSync)](create-foldersync.md) <br/> |Определяет одну папку, создаемую в локальном клиентской магазине.  <br/> |
+|[SetFolderField](setfolderfield.md) <br/> |Представляет обновление одного свойства в папке в операции [UpdateFolder.](updatefolder-operation.md)  <br/> |
+|[Update (FolderSync)](update-foldersync.md) <br/> |Определяет одну папку для обновления в локальном клиентской магазине.  <br/> |
+|[Folders](folders-ex15websvcsotherref.md) <br/> |Содержит массив папок, используемых в операциях папок.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -84,7 +84,7 @@ ms.locfileid: "44461494"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

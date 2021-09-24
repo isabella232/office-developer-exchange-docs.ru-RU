@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e524a09-86f8-4a71-ac5c-66527ae70790
-description: Элемент GetUserPhoto содержит запрос на получение фотографии пользователя.
-ms.openlocfilehash: 64b0ec67abd70fb237549eb0fed1968275c615ba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetUserPhoto содержит запрос на фото пользователя.
+ms.openlocfilehash: 16697acbf3d6559915ea0e72f908cc72da971d58
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463911"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522980"
 ---
 # <a name="getuserphoto"></a>GetUserPhoto
 
-Элемент **GetUserPhoto** содержит запрос на получение фотографии пользователя. 
+Элемент **GetUserPhoto** содержит запрос на фото пользователя. 
   
 ```XML
 <GetUserPhoto>
@@ -26,24 +26,24 @@ ms.locfileid: "44463911"
 </GetUserPhoto>
 ```
 
- **жетусерфототипе**
+ **GetUserPhotoType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Электронная почта (строка)](email-string.md)  |  [Сизерекуестед](sizerequested.md)
+[Электронная почта (строка)](email-string.md)  |  [SizeRequested](sizerequested.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44463911"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

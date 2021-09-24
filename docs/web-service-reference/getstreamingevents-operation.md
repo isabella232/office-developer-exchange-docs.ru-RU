@@ -5,31 +5,31 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetStreamingEvents
 api_type:
 - schema
 ms.assetid: 8da95423-72bc-4034-90a8-162eedcd059b
-description: Поиск сведений о GetStreamingEventsной операции EWS.
-ms.openlocfilehash: 27744ec40d7c7cb551f35ed5f6fcb726f23d4865
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetStreamingEvents EWS.
+ms.openlocfilehash: 794407c2224e606be4f32cc610eff9f95e65a83b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530171"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523064"
 ---
 # <a name="getstreamingevents-operation"></a>Операция GetStreamingEvents
 
-Поиск сведений о **GetStreamingEventsной** операции EWS. 
+Сведения об операции **GetStreamingEvents** EWS. 
   
-Операция **GetStreamingEvents** используется клиентами попотоковой подписки для запроса уведомлений с сервера клиентского доступа. Ответ **GetStreamingEvents** возвращает массив элементов и событий, произошедших в почтовом ящике с момента последнего уведомления. 
+Операция **GetStreamingEvents** используется клиентами потоковой подписки для запроса уведомлений с сервера клиентского доступа. Ответ **GetStreamingEvents** возвращает массив элементов и событий, произошедших в почтовом ящике с момента последнего уведомления. 
   
 ## <a name="getstreamingevents-request-example"></a>Пример запроса GetStreamingEvents
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере операции **GetStreamingEvents** показано, как запросить события и элементы, связанные с подпиской, которая определяется идентификатором подписки. 
+В следующем примере **операции GetStreamingEvents** показано, как запрашивать события и элементы, связанные с подпиской, определяемой идентификатором подписки. 
   
 ### <a name="code"></a>Код
 
@@ -57,11 +57,11 @@ ms.locfileid: "44530171"
     
 - [ConnectionTimeout](connectiontimeout.md)
     
-## <a name="successful-getstreamingevents-response-example"></a>Пример успешного ответа GetStreamingEvents
+## <a name="successful-getstreamingevents-response-example"></a>Успешный пример ответа GetStreamingEvents
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере ответа **GetStreamingEvents** показаны уведомления, которые отправляются клиенту при получении нового сообщения электронной почты. Он включает уведомления для следующих событий: Креатедевент, NewMail и Модифиедевент. 
+В следующем примере **ответа GetStreamingEvents** показаны уведомления, которые отправляются клиенту при получении нового сообщения электронной почты. Он включает уведомления для следующих событий: CreatedEvent, NewMail и ModifiedEvent. 
   
 ### <a name="code"></a>Код
 
@@ -104,27 +104,27 @@ ms.locfileid: "44530171"
 
 ### <a name="getstreamingevents-response-elements"></a>Элементы ответа GetStreamingEvents
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [жетстреаминжевентсреспонсе](getstreamingeventsresponse.md)
+- [GetStreamingEventsResponse](getstreamingeventsresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [жетстреаминжевентсреспонсемессаже](getstreamingeventsresponsemessage.md)
+- [GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md)
     
-- [нотесфолдерпермиссионлевел](notesfolderpermissionlevel.md)
+- [NotesFolderPermissionLevel](notesfolderpermissionlevel.md)
     
 - [Уведомление](notification-ex15websvcsotherref.md)
     
 - [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md)
     
-Чтобы найти другие параметры для ответного сообщения операции **GetStreamingEvents** , изучите иерархию схемы. Начните с элемента [уведомления](notification-ex15websvcsotherref.md) . 
+Чтобы найти другие варианты ответного сообщения операции **GetStreamingEvents,** ознакомьтесь с иерархией схемы. Начните с элемента [Уведомление.](notification-ex15websvcsotherref.md) 
   
-## <a name="getstreamingevents-error-response-example"></a>Пример ответа на сообщение об ошибке GetStreamingEvents
+## <a name="getstreamingevents-error-response-example"></a>Пример ответа на ошибки GetStreamingEvents
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке для запроса **GetStreamingEvents** . 
+В следующем примере показан ответ на ошибку на запрос **GetStreamingEvents.** 
   
 ### <a name="code"></a>Код
 
@@ -153,23 +153,23 @@ ms.locfileid: "44530171"
 </soap:Envelope>
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-При обработке запроса **GetStreamingEvents** сервер клиентского доступа выполняет следующие действия: 
+При обработке **запроса GetStreamingEvents** сервер клиентского доступа выполняет следующие действия: 
   
-1. Значение [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) запроса подтверждено допустимой подпиской, которая размещена на сервере клиентского доступа. В противном случае вызов **GetStreamingEvents** завершается с ошибкой. 
+1. Подписка [(GetStreamingEvents)](subscriptionid-getstreamingevents.md) запроса подтверждена как действительная подписка, которая находится на сервере клиентского доступа. Если это не так, **вызов GetStreamingEvents сбой.** 
     
-2. SMTP-адрес пользователя, прошедшего проверку подлинности для запроса, проверяется на наличие прав олицетворения. В противном случае запрос **GetStreamingEvents** завершается с ошибкой. 
+2. SmTP-адрес пользователя с проверкой подлинности для запроса проверяется на право на обезличение. Если этого не сделать, **запрос GetStreamingEvents** сбой. 
     
-3. Очередь подписки запрашивает события, ожидающие отправки клиенту. Если очередь не пустая, первые 50 событий из очереди извлекаются из очереди и кодируются в уведомление.
+3. Очередь подписки запрашивается для событий, ожидающих их отослать клиенту. Если очередь не пуста, первые 50 событий из очереди будут выдергированы из очереди и закодированы в уведомление.
     
-4. Если в очереди не найдено ни одного события, создается [статусевент](statusevent.md) и кодируется в ответ на уведомление. 
+4. Если события в очереди не найдены, [создается StatusEvent](statusevent.md) и закодирован в ответ уведомления. 
     
-5. Ответ на уведомление возвращается клиенту.
+5. Ответ уведомления возвращается клиенту.
     
-6. События, включенные в уведомление, удаляются из очереди подписки, а последний водяной знак для локального сервера клиентского доступа для подписки задается водяным знаком последнего возвращаемого события.
+6. События, включенные в уведомление, удаляются из очереди подписки, а последний водяной знак сервера клиентского доступа для подписки устанавливается в водяной знак последнего возвращаемого события.
     
-7. Таймер времени ожидания для подписки сбрасывается.
+7. Отостановка времени действия подписки.
     
 ## <a name="see-also"></a>См. также
 
@@ -177,5 +177,5 @@ ms.locfileid: "44530171"
 
 [Операции подписки](subscribe-operation.md)
   
-[Операция по отмене подписки](unsubscribe-operation.md)
+[Операция Unsubscribe](unsubscribe-operation.md)
 

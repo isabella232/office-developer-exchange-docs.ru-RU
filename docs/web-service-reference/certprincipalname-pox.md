@@ -1,34 +1,34 @@
 ---
-title: ЦертпринЦипалнаме (POX)
+title: CertPrincipalName (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a24092c9-58be-4008-92c4-68ec5c6c0fa6
-description: Элемент ЦертпринЦипалнаме указывает имя участника сертификата SSL, необходимое для подключения к организации Microsoft Exchange Server 2007 с помощью протокола SSL.
-ms.openlocfilehash: fb2a1c8577bce41945b669be56f2a94a2c4dca26
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CertPrincipalName указывает основное имя сертификата Secure Sockets Layer (SSL), необходимое для подключения к организации Microsoft Exchange Server 2007 г. с помощью SSL.
+ms.openlocfilehash: 69ee49cdad09032c269ffbbcc918044daf61cb9b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463344"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523253"
 ---
-# <a name="certprincipalname-pox"></a>ЦертпринЦипалнаме (POX)
+# <a name="certprincipalname-pox"></a>CertPrincipalName (POX)
 
-Элемент **цертпринЦипалнаме** указывает имя участника сертификата SSL, необходимое для подключения к организации Microsoft Exchange Server 2007 с помощью протокола SSL. 
+Элемент **CertPrincipalName** указывает основное имя сертификата Secure Sockets Layer (SSL), необходимое для подключения к организации Microsoft Exchange Server 2007 г. с помощью SSL. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Протокол (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[ЦертпринЦипалнаме (POX)](certprincipalname-pox.md)
+[CertPrincipalName (POX)](certprincipalname-pox.md)
   
 ```xml
 <CertPrincipalName>none or servername</CertPrinicpalName>
@@ -36,35 +36,35 @@ ms.locfileid: "44463344"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором работает Exchange 2007, на котором установлена роль сервера клиентского доступа.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру 2007 Exchange 2007 года с установленной ролью сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение указывает имя субъекта сертификата SSL, которое требуется для подключения к организации Microsoft Exchange с помощью протокола SSL.
+В текстовом значении указывается основное имя сертификата SSL, необходимое для подключения к организации Microsoft Exchange с помощью SSL.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если элемент **цертпринЦипалнаме** не указан, по умолчанию задается значение МССТД: Server, где Server — это значение, указанное в элементе [Server (POX)](server-pox.md) . Например, если параметр SERVER указан как example.com, а **цертпринЦипалнаме** остается пустым с включенным [протоколом SSL (POX)](ssl-pox.md) , значение по умолчанию **цертпринЦипалнаме** будет мсстд:ексампле. com. 
+Если элемент **CertPrincipalName** не указан, по умолчанию задан msstd:SERVER, где SERVER — это значение, указанное в элементе [Server (POX).](server-pox.md) Например, если сервер указывается как example.com и **CertPrincipalName** остается пустым с включенной [SSL (POX),](ssl-pox.md) по умолчанию значение **CertPrincipalName** будет msstd:example.com. 
   
-Если **этот параметр не** указан, Windows будет проверять имя субъекта сертификата в соответствии с информацией, которая находится в разделе " [имена субъектов](https://go.microsoft.com/fwlink/?LinkId=93417) " на сайте MSDN. 
+Если **ничего** не указано, Windows будет проверять основное имя сертификата в соответствии с сведениями, найденными в разделе [Основные](https://go.microsoft.com/fwlink/?LinkId=93417) имена в MSDN. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

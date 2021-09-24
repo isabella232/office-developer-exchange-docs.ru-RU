@@ -1,27 +1,27 @@
 ---
-title: Модератор
+title: IsModerated
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsModerated
 api_type:
 - schema
 ms.assetid: a7562256-feb9-41a1-857e-b5d41cbed680
-description: Элемент "с модератором" указывает, является ли почтовый ящик получателя ведущим.
-ms.openlocfilehash: 930d5a7e09712f35d22850a93462d051a34785a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsModerated указывает, модерируется ли почтовый ящик получателя.
+ms.openlocfilehash: e06e7e01e08cb8418adafaae09cae94ceb5c3b2c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44435487"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522903"
 ---
-# <a name="ismoderated"></a>Модератор
+# <a name="ismoderated"></a>IsModerated
 
-Элемент "с **модератором** " указывает, является ли почтовый ящик получателя ведущим. 
+Элемент **IsModerated** указывает, модерируется ли почтовый ящик получателя. 
   
 ```XML
 <IsModerated>true | false</IsModerated>
@@ -30,27 +30,27 @@ ms.locfileid: "44435487"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Подсказки](mailtips.md) <br/> |Представляет значения для различных типов советов по использованию электронной почты.  <br/> |
+|[Подсказки](mailtips.md) <br/> |Представляет значения для различных типов советов почты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение этого элемента имеет значение true, если для почтового ящика получателя выбрано **значение** "Модератор". Значение **false** , если почтовый ящик получателя не является ведущим. 
+Значение текста для этого элемента **верно,** если почтовый ящик получателя модерироваться. Значение является **ложным,** если почтовый ящик получателя не модерироваться. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44435487"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

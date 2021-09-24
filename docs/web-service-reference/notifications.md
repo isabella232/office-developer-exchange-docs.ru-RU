@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Notifications
 api_type:
 - schema
 ms.assetid: 153cc420-d2fe-42f1-afb2-9a31ee09a750
-description: Элемент Notifications содержит массив сведений о подписке и событиях, произошедших с момента последнего уведомления.
-ms.openlocfilehash: 88fc56ba6e672e3dea7a1d31f7cc1fda018b9a15
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Notifications содержит массив сведений о подписке и событиях, произошедших после последнего уведомления.
+ms.openlocfilehash: ab3c5bff205c450b71d772316b977040cded9ad5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462621"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537527"
 ---
 # <a name="notifications"></a>Уведомления
 
-Элемент **Notifications** содержит массив сведений о подписке и событиях, произошедших с момента последнего уведомления. 
+Элемент **Notifications** содержит массив сведений о подписке и событиях, произошедших после последнего уведомления. 
   
 ```xml
 <Notifications>
@@ -29,14 +29,14 @@ ms.locfileid: "44462621"
 </Notifications>
 ```
 
- **нонемптяррайофнотификатионстипе**
+ **NonEmptyArrayOfNotificationsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -48,13 +48,13 @@ ms.locfileid: "44462621"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[жетстреаминжевентсреспонсемессаже](getstreamingeventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции GetStreamingEvents.](getstreamingevents-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -62,9 +62,9 @@ ms.locfileid: "44462621"
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages и https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Имя схемы  <br/> |Схема сообщений; Схема Types  <br/> |
-|Файл проверки  <br/> |Messages. xsd; Types. xsd  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages и https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Имя схемы  <br/> |Схема сообщений; Схема типов  <br/> |
+|Файл проверки  <br/> |Messages.xsd; Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

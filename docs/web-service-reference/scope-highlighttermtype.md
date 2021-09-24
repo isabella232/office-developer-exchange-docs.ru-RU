@@ -1,23 +1,23 @@
 ---
-title: Область действия (Хигхлигхттермтипе)
+title: Scope (HighlightTermType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b16170c-cb46-4ac5-9ce1-884f1b00b974
-description: Элемент scope указывает строку, которая будет выделена.
-ms.openlocfilehash: 6cd8035831bae4f9e1e73ebe2238e5eb89b7d31c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Scope указывает строку, которая должна быть выделена.
+ms.openlocfilehash: 061c64b3fddee6db45ca4dbc44a039ce94549a89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530361"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509380"
 ---
-# <a name="scope-highlighttermtype"></a>Область действия (Хигхлигхттермтипе)
+# <a name="scope-highlighttermtype"></a>Scope (HighlightTermType)
 
-Элемент **Scope** указывает строку, которая будет выделена. 
+Элемент **Scope** указывает строку, которая должна быть выделена. 
   
 ```XML
 <Scope></Scope>
@@ -26,15 +26,15 @@ ms.locfileid: "44530361"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44530361"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Scope** является областью выделенного термина. 
+Текстовое значение элемента **Scope** — область выделенного термина. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44530361"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,60 +1,60 @@
 ---
-title: Раутингтипе (EmailAddressType)
+title: RoutingType (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RoutingType
 api_type:
 - schema
 ms.assetid: 683216be-9972-4f48-a148-c34bfe7f53e5
-description: Элемент Раутингтипе определяет тип адреса для почтового ящика.
-ms.openlocfilehash: d4229f2857a5c99cc9bb7ff9b9b103de099a0055
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RoutingType определяет тип адреса для почтового ящика.
+ms.openlocfilehash: fdbe40bd74debe517739e0fe0c47ed108bd614c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465088"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509370"
 ---
-# <a name="routingtype-emailaddresstype"></a>Раутингтипе (EmailAddressType)
+# <a name="routingtype-emailaddresstype"></a>RoutingType (EmailAddressType)
 
-Элемент **раутингтипе** определяет тип адреса для почтового ящика. 
+Элемент **RoutingType** определяет тип адреса для почтового ящика. 
   
 ```XML
 <RoutingType/>
 ```
 
- **нонемптистрингтипе**
+ **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[актингас](actingas.md) <br/> |Указывает, кому отправляется вызывающий абонент.  <br/> |
+|[ActingAs](actingas.md) <br/> |Определяет, кому отправляется вызываемая.  <br/> |
 |[Mailbox](mailbox.md) <br/> |Определяет полностью разрешенный адрес электронной почты.  <br/> |
-|[RoomList](roomlist.md) <br/> |Определяет список комнат для собраний.  <br/> |
+|[RoomList](roomlist.md) <br/> |Определяет список комнат собраний.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет тип маршрутизации. SMTP — это обычное текстовое значение для этого элемента.
+Текстовое значение представляет тип маршрутивки. SMTP — это типичное текстовое значение для этого элемента.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент является необязательным для элемента [Mailbox](mailbox.md) . Для операций доступности используется другой элемент [раутингтипе (EmailAddress)](routingtype-emailaddress.md) . 
+Этот элемент необязателен в [элементе Почтовый ящик.](mailbox.md) Другой [элемент RoutingType (EmailAddress)](routingtype-emailaddress.md) используется для операций доступности. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -64,7 +64,7 @@ ms.locfileid: "44465088"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

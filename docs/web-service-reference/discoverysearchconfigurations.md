@@ -1,23 +1,23 @@
 ---
-title: дисковерисеарчконфигуратионс
+title: DiscoverySearchConfigurations
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f04b14c9-384c-4016-b113-52a49e15e73b
-description: Элемент Дисковерисеарчконфигуратионс указывает массив элементов Дисковерисеарчконфигуратион.
-ms.openlocfilehash: 6af4c8198f2ad73f8b39f9718e11b88aa8075c39
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DiscoverySearchConfigurations указывает массив элементов DiscoverySearchConfiguration.
+ms.openlocfilehash: 0bb104451d4bfe24e5e1bc9c5d2c98f226794c22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461382"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535535"
 ---
-# <a name="discoverysearchconfigurations"></a>дисковерисеарчконфигуратионс
+# <a name="discoverysearchconfigurations"></a>DiscoverySearchConfigurations
 
-Элемент **дисковерисеарчконфигуратионс** указывает массив элементов **дисковерисеарчконфигуратион** . 
+Элемент **DiscoverySearchConfigurations** указывает массив элементов **DiscoverySearchConfiguration.** 
   
 ```XML
 <DiscoverySearchConfigurations>
@@ -25,28 +25,28 @@ ms.locfileid: "44461382"
 </DiscoverySearchConfigurations>
 ```
 
- **аррайофдисковерисеарчконфигуратионтипе**
+ **ArrayOfDiscoverySearchConfigurationType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[дисковерисеарчконфигуратион](discoverysearchconfiguration.md) <br/> |Задает конфигурацию для поиска обнаружения электронных данных.  <br/> |
+|[DiscoverySearchConfiguration](discoverysearchconfiguration.md) <br/> |Указывает конфигурацию для поиска по обнаружению электронных сообщений.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[жетдисковерисеарчконфигуратионреспонсемессаже](getdiscoverysearchconfigurationresponsemessage.md) <br/> |Задает ответное сообщение для запроса **GetDiscoverySearchConfiguration** .  <br/> |
+|[GetDiscoverySearchConfigurationResponseMessage](getdiscoverysearchconfigurationresponsemessage.md) <br/> |Указывает сообщение ответа для **запроса GetDiscoverySearchConfiguration.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44461382"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

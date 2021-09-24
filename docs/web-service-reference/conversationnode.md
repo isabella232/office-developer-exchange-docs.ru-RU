@@ -1,23 +1,23 @@
 ---
-title: конверсатионноде
+title: ConversationNode
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7f7acd3-ed65-441e-9976-8b4ed5f12c0b
-description: Элемент Конверсатионноде указывает узел в беседе.
-ms.openlocfilehash: 074209c1b5669db8dd1ea4ba7f9dea064628afbd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ConversationNode указывает узел в беседе.
+ms.openlocfilehash: 2668d3cfaa8b43812a4a20ab8d92f419d636e368
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462705"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510360"
 ---
-# <a name="conversationnode"></a>конверсатионноде
+# <a name="conversationnode"></a>ConversationNode
 
-Элемент **конверсатионноде** указывает узел в беседе. 
+Элемент **ConversationNode** указывает узел в беседе. 
   
 ```XML
 <ConversationNode>
@@ -27,30 +27,30 @@ ms.locfileid: "44462705"
 </ConversationNode>
 ```
 
- **конверсатионнодетипе**
+ **ConversationNodeType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[InternetMessageId](internetmessageid.md) <br/> |Представляет идентификатор сообщения Интернета для элемента.  <br/> |
-|[парентинтернетмессажеид](parentinternetmessageid.md) <br/> |Задает идентификатор родительского Интернет – сообщения.  <br/> |
-|[Итемидс (Нонемптяррайофитемидстипе)](itemids-nonemptyarrayofitemidstype.md) <br/> |Задает все элементы в узле беседы.  <br/> |
+|[InternetMessageId](internetmessageid.md) <br/> |Представляет идентификатор сообщения в Интернете элемента.  <br/> |
+|[ParentInternetMessageId](parentinternetmessageid.md) <br/> |Указывает идентификатор родительского сообщения в Интернете.  <br/> |
+|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Указывает все элементы в узле беседы.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[конверсатионнодес](conversationnodes.md) <br/> |Задает коллекцию узлов беседы.  <br/> |
+|[ConversationNodes](conversationnodes.md) <br/> |Указывает коллекцию узлов беседы.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44462705"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

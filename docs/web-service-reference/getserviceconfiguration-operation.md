@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServiceConfiguration
 api_type:
 - schema
 ms.assetid: 070cbfe5-325a-4955-8e4a-8230ea0459a7
-description: Операция GetServiceConfiguration получает сведения о конфигурации для указанного типа службы. Эта операция может возвращать параметры конфигурации для единой системы обмена сообщениями, правил защиты и почтовых подсказок.
-ms.openlocfilehash: b8ea2cef366a52765850dddcc8c1ef1e8fa68b22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetServiceConfiguration получает сведения о конфигурации для указанного типа службы. Эта операция может возвращать параметры конфигурации для служб единой системы обмена сообщениями, правил защиты и Советы почты.
+ms.openlocfilehash: 29246e17313e4f3d9fb02532513eb3fbd033a86e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460913"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516932"
 ---
 # <a name="getserviceconfiguration-operation"></a>Операция GetServiceConfiguration
 
-Операция **GetServiceConfiguration** получает сведения о конфигурации для указанного типа службы. Эта операция может возвращать параметры конфигурации для единой системы обмена сообщениями, правил защиты и почтовых подсказок. 
+Операция **GetServiceConfiguration** получает сведения о конфигурации для указанного типа службы. Эта операция может возвращать параметры конфигурации для служб единой системы обмена сообщениями, правил защиты и Советы почты. 
   
 ## <a name="getserviceconfiguration-request-example"></a>Пример запроса GetServiceConfiguration
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **GetServiceConfiguration** показано, как сформировать запрос на получение сведений о конфигурации для службы единой системы обмена сообщениями. 
+В следующем примере **запроса GetServiceConfiguration** показано, как сформировать запрос для получения сведений о конфигурации для службы единой системы обмена сообщениями. 
   
 ### <a name="code"></a>Код
 
@@ -51,11 +51,11 @@ ms.locfileid: "44460913"
 </soap:Envelope>
 ```
 
-## <a name="getserviceconfiguration-response-example"></a>Пример отклика GetServiceConfiguration
+## <a name="getserviceconfiguration-response-example"></a>Пример ответа GetServiceConfiguration
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **GetServiceConfiguration** . 
+В следующем примере показан успешный ответ на **запрос GetServiceConfiguration.** 
   
 ### <a name="code"></a>Код
 
@@ -93,11 +93,11 @@ ms.locfileid: "44460913"
 </s:Envelope>
 ```
 
-## <a name="getserviceconfiguration-error-response-example"></a>Пример ответа на сообщение об ошибке GetServiceConfiguration
+## <a name="getserviceconfiguration-error-response-example"></a>Пример ответа на ошибку GetServiceConfiguration
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке для запроса **GetServiceConfiguration** . Эта ошибка вызвана неправильным именем конфигурации. 
+В следующем примере показан ответ на ошибку **запроса GetServiceConfiguration.** Эта ошибка была вызвана неправильным именем конфигурации. 
   
 ### <a name="code"></a>Код
 

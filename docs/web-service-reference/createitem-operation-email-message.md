@@ -1,33 +1,33 @@
 ---
-title: Операция CreateItem (сообщение электронной почты)
+title: Операция CreateItem (электронное сообщение)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1
 description: Операция CreateItem используется для создания сообщений электронной почты.
-ms.openlocfilehash: 384ed8ff653029c2b7db0b36986d85842b0a06cf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 74784d72ed14fa139c616cd11740a62efd17b338
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457118"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536470"
 ---
-# <a name="createitem-operation-email-message"></a>Операция CreateItem (сообщение электронной почты)
+# <a name="createitem-operation-email-message"></a>Операция CreateItem (электронное сообщение)
 
 Операция CreateItem используется для создания сообщений электронной почты.
   
 ## <a name="createitem-request-example"></a>Пример запроса CreateItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере запроса CreateItem показано, как создать новое сообщение электронной почты, отправить сообщение и сохранить его копию в папке "Черновики".
+В следующем примере запроса CreateItem показано, как создать новое сообщение электронной почты, отправить сообщение и сохранить его копию в папке черновиков.
   
 ### <a name="code"></a>Код
 
@@ -58,15 +58,15 @@ ms.locfileid: "44457118"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы: 
   
 - [CreateItem](createitem.md)
     
-- [саведитемфолдерид](saveditemfolderid.md)
+- [SavedItemFolderId](saveditemfolderid.md)
     
-- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [Сообщение](message-ex15websvcsotherref.md)
     
@@ -74,21 +74,21 @@ ms.locfileid: "44457118"
     
 - [Тема](subject.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
 - [ToRecipients](torecipients.md)
     
 - [Mailbox](mailbox.md)
     
-- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
 - [IsRead](isread.md)
     
-Чтобы найти другие параметры сообщения Request операции CreateItem, изучите иерархию схемы. Начните с элемента [CreateItem](createitem.md) . 
+Чтобы найти другие параметры сообщения запроса операции CreateItem, ознакомьтесь с иерархией схемы. Начните с [элемента CreateItem.](createitem.md) 
   
-## <a name="successful-createitem-response"></a>Успешный отклик CreateItem
+## <a name="successful-createitem-response"></a>Успешный ответ createItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
 В следующем примере показан успешный ответ на запрос CreateItem.
   
@@ -119,25 +119,25 @@ ms.locfileid: "44457118"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответ включаются следующие элементы: 
+В ответ включены следующие элементы: 
   
-- [креатеитемреспонсе](createitemresponse.md)
+- [CreateItemResponse](createitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [креатеитемреспонсемессаже](createitemresponsemessage.md)
+- [CreateItemResponseMessage](createitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Items](items.md)
     
-Чтобы найти другие параметры для ответного сообщения операции CreateItem, изучите иерархию схемы. Начните с элемента [креатеитемреспонсе](createitemresponse.md) . 
+Чтобы найти другие параметры ответного сообщения операции CreateItem, ознакомьтесь с иерархией схемы. Начните с [элемента CreateItemResponse.](createitemresponse.md) 
   
-## <a name="error-createitem-response"></a>Ошибка CreateItem Response
+## <a name="error-createitem-response"></a>Ответ на ошибки CreateItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке для запроса CreateItem.
+В следующем примере показан ответ на ошибку на запрос CreateItem.
   
 ### <a name="code"></a>Код
 
@@ -166,25 +166,25 @@ ms.locfileid: "44457118"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ошибочного ответа
+### <a name="error-response-elements"></a>Элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы: 
+В ответе на ошибку используются следующие элементы: 
   
-- [креатеитемреспонсе](createitemresponse.md)
+- [CreateItemResponse](createitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [креатеитемреспонсемессаже](createitemresponsemessage.md)
+- [CreateItemResponseMessage](createitemresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
 - [Items](items.md)
     
-Чтобы найти другие варианты сообщения об ошибке при выполнении операции CreateItem, изучите иерархию схемы. Начните с элемента [креатеитемреспонсе](createitemresponse.md) . 
+Чтобы найти другие варианты сообщения ответа на ошибки операции CreateItem, ознакомьтесь с иерархией схемы. Начните с [элемента CreateItemResponse.](createitemresponse.md) 
   
 ## <a name="see-also"></a>См. также
 

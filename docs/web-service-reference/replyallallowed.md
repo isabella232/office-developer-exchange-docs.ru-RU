@@ -1,23 +1,23 @@
 ---
-title: репляллалловед
+title: ReplyAllAllowed
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d22f68cf-b18b-45d0-a9ff-414b7db0e67e
-description: Элемент Репляллалловед указывает, разрешен ли ответ ALL для данных, управляемых правами.
-ms.openlocfilehash: 56dfe7670ed87581999bfe0a340bcc72c99d04ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ReplyAllAllowed указывает, разрешен ли все ответы для управляемых данных с правами.
+ms.openlocfilehash: 56b383e4273ca78ee291eeb658d69873109593f3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467916"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523596"
 ---
-# <a name="replyallallowed"></a>репляллалловед
+# <a name="replyallallowed"></a>ReplyAllAllowed
 
-Элемент **репляллалловед** указывает, разрешен ли ответ ALL для данных, управляемых правами. 
+Элемент **ReplyAllAllowed** указывает, разрешен ли все ответы для управляемых данных с правами. 
   
 ```XML
 <ReplyAllAllowed> true | false </ReplyAllAllowed>
@@ -26,25 +26,25 @@ ms.locfileid: "44467916"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[ригхтсманажементлиценседата](rightsmanagementlicensedata.md)
+[RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **репляллалловед** указывает на то, что ответ ALL разрешен для данных, управляемых правами. Значение **false** указывает, что ответ ALL не разрешен. 
+Значение текста, **истинное** для **элемента ReplyAllAllowed,** указывает, что для управляемых данных прав разрешен ответ. Значение false **указывает** на то, что все ответы не разрешены. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44467916"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

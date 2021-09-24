@@ -1,25 +1,25 @@
 ---
-title: Values
+title: Значения
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Values
 api_type:
 - schema
 ms.assetid: 4b14c714-51fa-4225-82ad-83ba9f611824
-description: Элемент values содержит коллекцию значений для расширенного свойства.
-ms.openlocfilehash: 2018f7a734725abe8d8e456492862d1142fda205
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Values содержит коллекцию значений для расширенного свойства.
+ms.openlocfilehash: 405f558a17b3ec66c1e0427e1d17d2dcef310647
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465207"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510626"
 ---
-# <a name="values"></a>Values
+# <a name="values"></a>Значения
 
 Элемент **Values** содержит коллекцию значений для расширенного свойства. 
   
@@ -29,15 +29,15 @@ ms.locfileid: "44465207"
 </Values>
 ```
 
-**нонемптяррайофпропертивалуестипе**
+**NonEmptyArrayOfPropertyValuesType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -49,9 +49,9 @@ ms.locfileid: "44465207"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ExtendedProperty](extendedproperty.md) <br/> |Определяет расширенные свойства для папок и элементов.  <br/> |
+|[ExtendedProperty](extendedproperty.md) <br/> |Определяет расширенные свойства папок и элементов.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44465207"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

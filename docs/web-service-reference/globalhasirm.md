@@ -1,23 +1,23 @@
 ---
-title: глобалхасирм
+title: GlobalHasIrm
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 425272b2-7a4e-4376-aea9-d9b10c1ad6ee
-description: Элемент Глобалхасирм указывает, является ли по крайней мере одно сообщение в беседе и во всех папках сообщением, защищенным службой управления правами на доступ к данным.
-ms.openlocfilehash: 10b99c9a6421a89a549b69e918087f3e542ffa09
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GlobalHasIrm указывает, является ли по крайней мере одно сообщение в беседе и во всех папках защищенным сообщением IRM.
+ms.openlocfilehash: bd3414136a115b016c291fa0482682efcc7d9e1a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459471"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516834"
 ---
-# <a name="globalhasirm"></a>глобалхасирм
+# <a name="globalhasirm"></a>GlobalHasIrm
 
-Элемент **глобалхасирм** указывает, является ли по крайней мере одно сообщение в беседе и во всех папках сообщением, защищенным службой управления правами на доступ к данным. 
+Элемент **GlobalHasIrm** указывает, является ли по крайней мере одно сообщение в беседе и во всех папках защищенным сообщением IRM. 
   
 ```XML
 <GlobalHasIrm> true | false </GlobalHasIrm>
@@ -26,15 +26,15 @@ ms.locfileid: "44459471"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44459471"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **глобалхасирм** имеет значение **true** , если по крайней мере одно сообщение в беседе и во всех папках является сообщением, защищенным службой управления правами на доступ к данным. В противном случае — значение **false**.
+Значение текста элемента **GlobalHasIrm**  верно, если по крайней мере одно сообщение в беседе и во всех папках — это сообщение, защищенное IRM. В противном случае значение является **ложным.**
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -56,7 +56,7 @@ ms.locfileid: "44459471"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

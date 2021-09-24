@@ -1,23 +1,23 @@
 ---
-title: суппрессреадрецеиптс
+title: SuppressReadReceipts
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0805560-7a2f-455b-94d2-ec4f1e3652c3
-description: Элемент Суппрессреадрецеиптс указывает, следует ли подавлять уведомления о прочтении.
-ms.openlocfilehash: aa604d4907582bd73727ba664958a589a222f9cb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SuppressReadReceipts указывает, следует ли подавлять квитанции для чтения.
+ms.openlocfilehash: 1f63f46f4e74a3123661caba39b737910bc2ef30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455935"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517653"
 ---
-# <a name="suppressreadreceipts"></a>суппрессреадрецеиптс
+# <a name="suppressreadreceipts"></a>SuppressReadReceipts
 
-Элемент **суппрессреадрецеиптс** указывает, следует ли подавлять уведомления о прочтении. 
+Элемент **SuppressReadReceipts** указывает, следует ли подавлять квитанции для чтения. 
   
 ```XML
 <SuppressReadReceipts>true | false</SuppressReadReceipts>
@@ -26,25 +26,25 @@ ms.locfileid: "44455935"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Конверсатионактион](conversationaction.md)  |  [MarkAllItemsAsRead](markallitemsasread.md)
+[ConversationAction](conversationaction.md)  |  [MarkAllItemsAsRead](markallitemsasread.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **суппрессреадреЦиептс** указывает, что уведомления о прочтении подавляются. Значение **false** указывает, что уведомления о прочтении отправляются отправителю. 
+Значение текста, **истинное** для элемента **SuppressReadReciepts,** указывает на подавление поступлений чтения. Значение false **указывает,** что чеки чтения будут отправлены отправителю. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44455935"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

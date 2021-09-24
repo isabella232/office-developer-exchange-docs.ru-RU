@@ -1,40 +1,40 @@
 ---
-title: TTL (Срок жизни)
+title: TTL
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cfefc053-1e3c-46fb-8014-b56a654f2fb3
-description: Элемент TTL указывает время действия маркера в минутах.
-ms.openlocfilehash: 3d5b4ec7e2184035737dbc94f3bb1ad83eb3fef4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TTL указывает время, в течение нескольких минут, когда маркер действителен.
+ms.openlocfilehash: b5fc6b529452641ababe8f308bf38dc70ef276db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456397"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517534"
 ---
-# <a name="ttl"></a>TTL (Срок жизни)
+# <a name="ttl"></a>TTL
 
-Элемент **TTL** указывает время действия маркера в минутах. 
+Элемент **TTL** указывает время, в течение нескольких минут, когда маркер действителен. 
   
 ```XML
 <TTL></TTL>
 ```
 
- **положительн**
+ **integer**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44456397"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **TTL** — это время в минутах, в течение которого токен является допустимым. 
+Текстовое значение элемента **TTL** — это время в минутах, когда маркер действителен. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44456397"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

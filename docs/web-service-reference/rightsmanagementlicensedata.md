@@ -1,23 +1,23 @@
 ---
-title: ригхтсманажементлиценседата
+title: RightsManagementLicenseData
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38f0b7f4-2338-4e90-af67-e0951e8edfa3
-description: Элемент Ригхтсманажементлиценседата указывает сведения о лицензии на управление правами для элемента.
-ms.openlocfilehash: 892edfd6775838b1e6329e8db0ee9bb8e3c519ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RightsManagementLicenseData указывает сведения о лицензии на управление правами для элемента.
+ms.openlocfilehash: 8875e9bad425224f86b6de5149f87a36c2a2581e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463190"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523470"
 ---
-# <a name="rightsmanagementlicensedata"></a>ригхтсманажементлиценседата
+# <a name="rightsmanagementlicensedata"></a>RightsManagementLicenseData
 
-Элемент **ригхтсманажементлиценседата** указывает сведения о лицензии на управление правами для элемента. 
+Элемент **RightsManagementLicenseData** указывает сведения о лицензии на управление правами для элемента. 
   
 ```XML
 <RightsManagementLicenseData>
@@ -40,24 +40,24 @@ ms.locfileid: "44463190"
 </RightsManagementLicenseData>
 ```
 
- **ригхтсманажементлиценседататипе**
+ **RightsManagementLicenseDataType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Ригхтсманажедмессажедекриптионстатус](rightsmanagedmessagedecryptionstatus.md)  |  [Рмстемплатеид](rmstemplateid.md)  |  [Templatename](templatename.md)  |  [Темплатедескриптион](templatedescription.md)  |  [Едиталловед](editallowed.md)  |  [Реплялловед](replyallowed.md)  |  [Репляллалловед](replyallallowed.md)  |  [Форвардалловед](forwardallowed.md)  |  [МодифиреЦипиентсалловед](modifyrecipientsallowed.md)  |  [Екстракталловед](extractallowed.md)  |  [Принталловед](printallowed.md)  |  [Експорталловед](exportallowed.md)  |  [Программатикакцессалловед](programmaticaccessallowed.md)  |  [Владелец](isowner.md)  |  [Контентовнер](contentowner.md)  |  [Контентекспиридате](contentexpirydate.md)
+[RightsManagedMessageDecryptionStatus](rightsmanagedmessagedecryptionstatus.md)  |  [RMSTemplateId](rmstemplateid.md)  |  [TemplateName](templatename.md)  |  [TemplateDescription](templatedescription.md)  |  [EditAllowed](editallowed.md)  |  [ReplyAllowed](replyallowed.md)  |  [ReplyAllAllowed](replyallallowed.md)  |  [ForwardAllowed](forwardallowed.md)  |  [ModifyRecipientsAllowed](modifyrecipientsallowed.md)  |  [ExtractAllowed](extractallowed.md)  |  [PrintAllowed](printallowed.md)  |  [ExportAllowed](exportallowed.md)  |  [ProgrammaticAccessAllowed](programmaticaccessallowed.md)  |  [IsOwner](isowner.md)  |  [ContentOwner](contentowner.md)  |  [ContentExpiryDate](contentexpirydate.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Элемент](item.md)  |  [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [Митингмессаже](meetingmessage.md)  |  [Свойство meetingrequest](meetingrequest.md)  |  [Митингреспонсе](meetingresponse.md)  |  [Митингканцеллатион](meetingcancellation.md)  |  [Task (задача](task.md)  |  ) [Элемент](postitem.md)  |  i [Календаритем](calendaritem.md)  |  [Contact (контакт](contact.md)  |  ) [Дистрибутионлист](distributionlist.md)
+[Item](item.md)  |  [Сообщение](message-ex15websvcsotherref.md)  |  [MeetingMessage](meetingmessage.md)  |  [MeetingRequest](meetingrequest.md)  |  [MeetingResponse](meetingresponse.md)  |  [MeetingCancellation](meetingcancellation.md)  |  [Задача](task.md)  |  [PostItem](postitem.md)  |  [CalendarItem](calendaritem.md)  |  [Контакт](contact.md)  |  [DistributionList](distributionlist.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -69,7 +69,7 @@ ms.locfileid: "44463190"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

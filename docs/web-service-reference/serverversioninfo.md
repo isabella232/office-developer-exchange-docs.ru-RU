@@ -1,27 +1,27 @@
 ---
-title: серверверсионинфо
+title: ServerVersionInfo
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ServerVersionInfo
 api_type:
 - schema
 ms.assetid: c04a6872-ca27-432b-aac2-36b023d0afc6
-description: Элемент Серверверсионинфо представляет номер версии Microsoft Exchange Server.
-ms.openlocfilehash: 5bd1fbd8fdee584a9d272fa8ab82f2a31c1357fe
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ServerVersionInfo представляет номер Microsoft Exchange Server версии.
+ms.openlocfilehash: 6907559e1ac98981028a017b64a38a343c36da70
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466831"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517716"
 ---
-# <a name="serverversioninfo"></a>серверверсионинфо
+# <a name="serverversioninfo"></a>ServerVersionInfo
 
-Элемент **серверверсионинфо** представляет номер версии Microsoft Exchange Server. 
+Элемент **ServerVersionInfo** представляет номер Microsoft Exchange Server версии. 
   
 ```xml
 <ServerVersionInfo MajorVersion="" MinorVersion="" MajorBuildNumber="" MinorBuildNumber="" Version="" />
@@ -29,31 +29,31 @@ ms.locfileid: "44466831"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
 |MajorVersion  <br/> |Описывает основной номер версии.  <br/> |
-|MinorVersion  <br/> |Описывает дополнительный номер версии.  <br/> |
-|мажорбуилднумбер  <br/> |Описывает основной номер сборки.  <br/> |
-|минорбуилднумбер  <br/> |Описывает дополнительный номер сборки.  <br/> |
-|Версия  <br/> |Описывает версию схемы веб-служб Exchange (EWS).  <br/> |
+|MinorVersion  <br/> |Описывает второстепенный номер версии.  <br/> |
+|MajorBuildNumber  <br/> |Описывает основной номер сборки.  <br/> |
+|MinorBuildNumber  <br/> |Описывает незначительный номер сборки.  <br/> |
+|Версия  <br/> |Описывает версию схемы Exchange веб-служб (EWS).  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент возвращается в заголовке SOAP ответного сообщения веб-служб Exchange.
+Этот элемент возвращается в заглавной части SOAP сообщения Exchange веб-служб.
   
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает сервер Microsoft Exchange с установленной ролью сервера клиентского доступа. 
+Схема, описываемая этим элементом, расположена в виртуальном каталоге компьютера EWS, на Microsoft Exchange Server установлена роль сервера клиентского доступа. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -61,7 +61,7 @@ ms.locfileid: "44466831"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

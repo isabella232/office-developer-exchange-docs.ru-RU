@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConnectionTimeout
 api_type:
 - schema
 ms.assetid: 14da68a0-bcca-4281-a774-47644baa4ee9
-description: Элемент ConnectionTimeout указывает количество минут, в течение которых подключение будет оставаться открытым.
-ms.openlocfilehash: 671e3cf5466ee8b3543036811708bd7f54afdcce
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ConnectionTimeout указывает количество минут для сохраняемого подключения.
+ms.openlocfilehash: 7ca7a0b0b71d40a4f7888b63663b7d1e0f81b449
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463855"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536829"
 ---
 # <a name="connectiontimeout"></a>ConnectionTimeout
 
-Элемент **ConnectionTimeout** указывает количество минут, в течение которых подключение будет оставаться открытым. 
+Элемент **ConnectionTimeout** указывает количество минут для сохраняемого подключения. 
   
 [Операция GetStreamingEvents](getstreamingevents-operation.md)
   
@@ -34,27 +34,27 @@ ms.locfileid: "44463855"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetStreamingEvents](getstreamingevents.md) <br/> |Определяет запрос на получение уведомлений о событиях из потокового подключения.  <br/> |
+|[GetStreamingEvents](getstreamingevents.md) <br/> |Определяет запрос на получения уведомлений о событиях из потокового подключения.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет целое число, которое описывает максимальное число минут, в течение которых будет открыто потоковое подключение. Значение должно находиться в пределах от 1 до 30 включительно.
+Текстовое значение представляет собой целый ряд, который описывает максимальное количество минут для сохраняемого потокового подключения. Значение должно быть от 1 до 30 включительно.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -64,7 +64,7 @@ ms.locfileid: "44463855"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

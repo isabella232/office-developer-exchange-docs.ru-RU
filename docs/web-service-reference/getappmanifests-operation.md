@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21a4987c-c24d-4a6e-ace4-e81edcda6303
-description: Поиск сведений о GetAppManifestsной операции EWS.
-ms.openlocfilehash: 4d4c1d32f14cf144335ddfdf8c9cd4c88a4421d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetAppManifests EWS.
+ms.openlocfilehash: 979a09d24d0c9365a92e589aa169bebf2340411b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463008"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509919"
 ---
 # <a name="getappmanifests-operation"></a>Операция GetAppManifests
 
-Поиск сведений о **GetAppManifestsной** операции EWS. 
+Сведения об операции **GetAppManifests** EWS. 
   
-Операция **GetAppManifests** получает манифесты приложений. 
+Операция **GetAppManifests** извлекает манифесты приложений. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-getappmanifests-operation"></a>Использование операции GetAppManifests
 
-Операция **GetAppManifests** не имеет аргументов для запроса манифестов приложений для почтового ящика. Ответ будет содержать XML-файлы манифеста в кодировке Base64 для каждого приложения, установленного в почтовом ящике. 
+Операция **GetAppManifests** не принимает никаких аргументов для запроса манифестов приложения для почтового ящика. Ответ будет содержать файлы манифеста XML с кодом base64 для каждого приложения, установленного в почтовом ящике. 
   
-### <a name="getappmanifests-operation-soap-headers"></a>Заголовки SOAP операции GetAppManifests
+### <a name="getappmanifests-operation-soap-headers"></a>Загонщики операции GetAppManifests
 
-Операция **GetAppManifests** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции GetAppManifests** можно использовать заглавные таблицы SOAP, указанные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="getappmanifests-operation-request-example-get-the-app-manifests-for-a-mailbox"></a>Пример запроса операции GetAppManifests: получение манифестов приложений для почтового ящика
+## <a name="getappmanifests-operation-request-example-get-the-app-manifests-for-a-mailbox"></a>Пример запроса на операцию GetAppManifests: получить манифесты приложения для почтового ящика
 
-В следующем примере запроса операции **GetAppManifests** показано, как получить манифесты приложения для почтового ящика. Элементы [апиверсионсуппортед](apiversionsupported.md) и [счемаверсионсуппортед](schemaversionsupported.md) являются необязательными. 
+В следующем примере запроса на операцию **GetAppManifests** показано, как получить манифесты приложения для почтового ящика. Элемент [ApiVersionSupported](apiversionsupported.md) и [элемент SchemaVersionSupported](schemaversionsupported.md) являются необязательными. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -62,20 +62,20 @@ ms.locfileid: "44463008"
 
 ```
 
-Текст SOAP запроса содержит следующий элемент:
+Тело SOAP запроса содержит следующий элемент:
   
 - [GetAppManifests](getappmanifests.md)
     
-- [апиверсионсуппортед](apiversionsupported.md)
+- [ApiVersionSupported](apiversionsupported.md)
     
-- [счемаверсионсуппортед](schemaversionsupported.md)
+- [SchemaVersionSupported](schemaversionsupported.md)
     
-## <a name="successful-getappmanifests-operation-response"></a>Успешный отклик операции GetAppManifests
+## <a name="successful-getappmanifests-operation-response"></a>Успешный ответ на операцию GetAppManifests
 
-В следующем примере показан успешный ответ на запрос операции **GetAppManifests** для получения манифестов приложений для почтового ящика. 
+В следующем примере показан успешный ответ на запрос **операции GetAppManifests** для получения манифестов приложения для почтового ящика. 
   
 > [!NOTE]
-> Все манифесты приложений Base64 были произвольно усечены, чтобы сохранить удобочитаемость. 
+> Все манифесты приложений base64 были произвольно усечены для сохранения читаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -106,11 +106,11 @@ ms.locfileid: "44463008"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [жетаппманифестсреспонсе](getappmanifestsresponse.md)
+- [GetAppManifestsResponse](getappmanifestsresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Приложения](apps.md)
     
@@ -118,13 +118,13 @@ ms.locfileid: "44463008"
     
 - [Манифест](manifest.md)
     
-Тело SOAP отклика также может содержать следующий элемент:
+Тело SOAP ответа также может содержать следующий элемент:
   
 - [Манифесты](manifests.md)
     
-## <a name="getappmanifests-operation-error-response"></a>Ответ об ошибке операции GetAppManifests
+## <a name="getappmanifests-operation-error-response"></a>Ответ на ошибку операции GetAppManifests
 
-Ошибки, возвращаемые для этой операции, связаны с недопустимым форматом входных параметров или общими ошибками EWS. Коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
+Ошибки, возвращаемые для этой операции, связаны с недействительным форматом параметров ввода или являются общими ошибками EWS. Коды ошибок, общие для EWS и специфические для этой операции, см. [в рубрике ResponseCode.](responsecode.md)
   
 ```
 <?xml version="1.0" encoding="utf-8"?>

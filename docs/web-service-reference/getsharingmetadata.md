@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetSharingMetadata
 api_type:
 - schema
 ms.assetid: b609ee26-6d28-4559-81b6-b8e8d4759a23
-description: Элемент GetSharingMetadata определяет запрос на получение непрозрачного маркера проверки подлинности, который определяет приглашение к совместному использованию. Этот элемент является базовым элементом для операции GetSharingMetadata.
-ms.openlocfilehash: 406908e566d6d4249003b1a19a9ce79b8b328c4e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetSharingMetadata определяет запрос на получения непрозрачного маркера проверки подлинности, который идентифицирует приглашение к совместному доступу. Этот элемент является базовым элементом для операции GetSharingMetadata.
+ms.openlocfilehash: 65da8371b25c42e59f898c79403f06fa17e5a24a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530848"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523056"
 ---
 # <a name="getsharingmetadata"></a>GetSharingMetadata
 
-Элемент **GetSharingMetadata** определяет запрос на получение непрозрачного маркера проверки подлинности, который определяет приглашение к совместному использованию. Этот элемент является базовым элементом для [операции GetSharingMetadata](getsharingmetadata-operation.md).
+Элемент **GetSharingMetadata** определяет запрос на получения непрозрачного маркера проверки подлинности, который идентифицирует приглашение к совместному доступу. Этот элемент является базовым элементом для [операции GetSharingMetadata.](getsharingmetadata-operation.md)
   
 ```XML
 <GetSharingMetadata>
@@ -31,26 +31,26 @@ ms.locfileid: "44530848"
 </GetSharingMetadata>
 ```
 
- **жетшарингметадататипе**
+ **GetSharingMetadataType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[идоффолдертошаре](idoffoldertoshare.md) <br/> |Представляет идентификатор папки на сервере, к которой будет предоставлен общий доступ. Этот элемент обязательный.  <br/> |
-|[SenderSmtpAddress](sendersmtpaddress.md) <br/> |Представляет SMTP-адрес электронной почты, соответствующий почтовому ящику, содержащему папку, определяемую элементом [идоффолдертошаре](idoffoldertoshare.md) . Этот элемент обязательный.  <br/> |
-|[Получатели (Аррайофсмтпаддресстипе)](recipients-arrayofsmtpaddresstype.md) <br/> |Представляет SMTP-адреса электронной почты одного или нескольких сущностей, которым будет предоставлен доступ к данным в папке, указанной с помощью элемента [идоффолдертошаре](idoffoldertoshare.md) . Этот элемент обязательный.  <br/> |
+|[IdOfFolderToShare](idoffoldertoshare.md) <br/> |Представляет идентификатор папки на сервере, который будет общим. Этот элемент обязательный.  <br/> |
+|[SenderSmtpAddress](sendersmtpaddress.md) <br/> |Представляет адрес электронной почты SMTP, соответствующий почтовому ящику, который содержит папку, идентифицированную элементом [IdOfFolderToShare.](idoffoldertoshare.md) Этот элемент обязательный.  <br/> |
+|[Recipients (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |Представляет адреса электронной почты SMTP одного или более сущностям, которые будут предоставлены доступ к данным в папке, идентифицированной элементом [IdOfFolderToShare.](idoffoldertoshare.md) Этот элемент обязательный.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -58,7 +58,7 @@ ms.locfileid: "44530848"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

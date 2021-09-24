@@ -4,29 +4,29 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhone
 api_type:
 - schema
 ms.assetid: 7d55be55-f8b6-4e96-a61e-26fa190217fd
-description: Операция PlayOnPhone выполняет исходящий вызов и воспроизводит указанное сообщение по телефону, заданному элементом DialString.
-ms.openlocfilehash: c5ff82bcd822aa2c659d1782ea4a1349d198bc80
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция PlayOnPhone выполняет исходящие вызовы и воспроизводит указанное сообщение по телефону, указанному элементом DialString.
+ms.openlocfilehash: 4d18727da18c36e6410c3cc6ab3bbf873993be72
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466236"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516567"
 ---
 # <a name="playonphone-operation-um-web-service"></a>Операция PlayOnPhone (веб-служба единой системы обмена сообщениями)
 
-Операция PlayOnPhone выполняет исходящий вызов и воспроизводит указанное сообщение по телефону, заданному элементом **DialString** . 
+Операция PlayOnPhone выполняет исходящие вызовы и воспроизводит указанное сообщение по телефону, указанному элементом **DialString.** 
   
 ## <a name="playonphone-request-example"></a>Пример запроса PlayOnPhone
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса PlayOnPhone показано, как создать запрос на получение исходящего вызова и прослушивание сообщения.
+В следующем примере запроса PlayOnPhone показано, как сформировать запрос, чтобы сделать исходящие вызовы и сыграть сообщение.
   
 ### <a name="code"></a>Код
 
@@ -44,9 +44,9 @@ ms.locfileid: "44466236"
 
 ## <a name="successful-playonphone-response-example"></a>Пример успешного ответа PlayOnPhone
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере ответа PlayOnPhone показан ответ на запрос PlayOnPhone.
+В следующем примере ответа PlayOnPhone показан ответ на запрос PlayOnPhone.
   
 ### <a name="code"></a>Код
 

@@ -1,27 +1,27 @@
 ---
-title: даилиреженератион
+title: DailyRegeneration
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DailyRegeneration
 api_type:
 - schema
 ms.assetid: cafb57e4-c518-45e0-b565-2babd0dab1df
-description: Элемент Даилиреженератион описывает частоту повторного создания задачи (в днях).
-ms.openlocfilehash: 518e4666031131f4a5fc80cc72c28a2110b468c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DailyRegeneration описывает частоту в днях, в которых задача регенерируется.
+ms.openlocfilehash: 7fbcb05e45a8700a3d23d1e8ed0d6f9e2ba75db2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462166"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535950"
 ---
-# <a name="dailyregeneration"></a>даилиреженератион
+# <a name="dailyregeneration"></a>DailyRegeneration
 
-Элемент **даилиреженератион** описывает частоту повторного создания задачи (в днях). 
+Элемент **DailyRegeneration** описывает частоту в днях, в которых задача регенерируется. 
   
 ```xml
 <DailyRegeneration>
@@ -29,29 +29,29 @@ ms.locfileid: "44462166"
 </DailyRegeneration>
 ```
 
-**даилиреженератингпаттернтипе**
+**DailyRegeneratingPatternType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |Определяет интервал (в днях) между двумя последовательными повторяющимися элементами. Значение должно находиться в диапазоне от 1 до 999.  <br/> |
+|[Interval](interval.md) <br/> |Определяет интервал между двумя повторяющимися элементами в днях. Значение должно быть в диапазоне от 1 до 999.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторяющихся задачах.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44462166"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,23 +1,23 @@
 ---
-title: хасирм
+title: HasIrm
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fedc04e0-cfd2-4652-a2a8-51de859ae847
-description: Элемент Хасирм указывает, является ли по крайней мере одно сообщение в беседе и в текущей папке защищенным сообщением управления правами на доступ к данным.
-ms.openlocfilehash: 1596610ed5f6b2bac353900624fbec9140aaa693
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент HasIrm указывает, является ли по крайней мере одно сообщение в беседе и текущая папка защищенным сообщением IRM.
+ms.openlocfilehash: ef194c045bfd2b416e382c12381afd68ba56dcf3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462782"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516694"
 ---
-# <a name="hasirm"></a>хасирм
+# <a name="hasirm"></a>HasIrm
 
-Элемент **хасирм** указывает, является ли по крайней мере одно сообщение в беседе и в текущей папке защищенным сообщением управления правами на доступ к данным. 
+Элемент **HasIrm** указывает, является ли по крайней мере одно сообщение в беседе и текущая папка защищенным сообщением IRM. 
   
 ```XML
 <HasIrm> true | false </HasIrm>
@@ -26,15 +26,15 @@ ms.locfileid: "44462782"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44462782"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **хасирм** имеет значение **true** , если по крайней мере одно сообщение в беседе и текущая папка имеют IRM. В противном случае — значение **false**.
+Значение текста элемента **HasIrm**  верно, если по крайней мере одно сообщение в беседе и текущая папка имеет IRM. В противном случае значение является **ложным.**
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -56,7 +56,7 @@ ms.locfileid: "44462782"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

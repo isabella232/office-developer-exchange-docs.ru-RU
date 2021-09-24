@@ -1,27 +1,27 @@
 ---
-title: копиедевент
+title: CopiedEvent
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopiedEvent
 api_type:
 - schema
 ms.assetid: 82f2fcac-deaa-4ff8-801f-4fe28d8a19f5
-description: Элемент Копиедевент представляет событие, в котором копируется элемент или папка.
-ms.openlocfilehash: 928910ddbe0bf1e48549d1665ab373f7382366d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CopiedEvent представляет событие, в котором копируется элемент или папка.
+ms.openlocfilehash: bc4902eb1e62344a7d5980ec573ac13b1bb084ee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529247"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536595"
 ---
-# <a name="copiedevent"></a>копиедевент
+# <a name="copiedevent"></a>CopiedEvent
 
-Элемент **копиедевент** представляет событие, в котором копируется элемент или папка. 
+Элемент **CopiedEvent** представляет событие, в котором копируется элемент или папка. 
   
 ```xml
 <CopiedEvent>
@@ -40,33 +40,33 @@ ms.locfileid: "44529247"
    <TimeStamp/>
    <ItemId/>
    <ParentFolderId/>
-   <OldFolderId/>
+   <OldItemId/>
    <OldParentFolderId/>
 </CopiedEvent>
 ```
 
-**моведкопиедевенттипе**
+**MovedCopiedEventType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |Представляет закладку Events в таблице событий почтовых ящиков.  <br/> |
-|[Метка времени](timestamp.md) <br/> |Представляет метку времени события копирования элемента или папки почтового ящика.  <br/> |
+|[Watermark](watermark.md) <br/> |Представляет закладки событий в таблице событий почтового ящика.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Представляет время события почтового ящика с копией или папкой.  <br/> |
 |[FolderId](folderid.md) <br/> |Представляет идентификатор папки.  <br/> |
-|[Идентификатор](itemid.md) <br/> |Представляет идентификатор элемента.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор папки, содержащей копию.  <br/> |
-|[олдфолдерид](oldfolderid.md) <br/> |Представляет идентификатор исходной папки перед ее копированием.  <br/> |
-|[олдитемид](olditemid.md) <br/> |Содержит уникальный идентификатор исходного элемента перед его копированием.  <br/> |
-|[олдпарентфолдерид](oldparentfolderid.md) <br/> |Содержит идентификатор исходной родительской папки для скопированного элемента или папки.  <br/> |
+|[ItemId](itemid.md) <br/> |Представляет идентификатор элемента.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор папки, которая содержит копию.  <br/> |
+|[OldFolderId](oldfolderid.md) <br/> |Представляет идентификатор папки исходной папки перед ее копированием.  <br/> |
+|[OldItemId](olditemid.md) <br/> |Содержит уникальный идентификатор исходного элемента перед его копированием.  <br/> |
+|[OldParentFolderId](oldparentfolderid.md) <br/> |Содержит идентификатор исходной родительской папки элемента или папки, которая была скопирована.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -74,7 +74,7 @@ ms.locfileid: "44529247"
 |:-----|:-----|
 |[Уведомление](notification-ex15websvcsotherref.md) <br/> |Содержит сведения о подписке и событиях, произошедших с момента последнего уведомления.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -84,14 +84,14 @@ ms.locfileid: "44529247"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операции подписки](subscribe-operation.md) 
 - [Операция GetEvents](getevents-operation.md) 
-- [Операция по отмене подписки](unsubscribe-operation.md)
-- [Использование подписок по запросу](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx) 
+- [Операция Unsubscribe](unsubscribe-operation.md)
+- [Использование подписки pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx) 
 - [Пример приложения для push-уведомлений](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

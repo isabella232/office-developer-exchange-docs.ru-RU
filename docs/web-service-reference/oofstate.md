@@ -1,73 +1,73 @@
 ---
-title: уфстате
+title: OofState
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OofState
 api_type:
 - schema
 ms.assetid: 3c486a38-06da-4382-ad20-664d067d76ac
-description: Элемент Уфстате используется для получения или задания состояния отсутствия на работе пользователя.
-ms.openlocfilehash: 6aef7d989ee6978019a483f2673895e68a88a7c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент OofState используется для получения или набора состояния Office (OOF).
+ms.openlocfilehash: 4d0d893e364fc85d36e37400538a336473832efd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459737"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509540"
 ---
-# <a name="oofstate"></a>уфстате
+# <a name="oofstate"></a>OofState
 
-Элемент **уфстате** используется для получения или задания состояния отсутствия на работе пользователя. 
+Элемент **OofState** используется для получения или набора состояния Office (OOF). 
   
 ```xml
 <OofState>Disabled or Enabled or Scheduled</OofState>
 ```
 
- **уфстате**
+ **OofState**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[усеруфсеттингс](useroofsettings.md) <br/> |Задает параметры отсутствия на работе.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[уфсеттингс](oofsettings.md) <br/> |Содержит параметры отсутствия на работе.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Указывает параметры OOF.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Содержит параметры OOF.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Для элемента **уфстате** необходимо указать текстовое значение. Следующий список содержит возможные значения для этого элемента: 
+Для элемента **OofState** требуется текстовое значение. Следующий список содержит возможные значения для этого элемента: 
   
 - **Disabled**
     
 - **Enabled**
     
-- **Scheduled**
+- **Запланированный**
     
-Значение **Schedule** указывает на то, что состояние неизвестных состояний " **включено** " в течение периода времени, определяемого элементом [Duration (усеруфсеттингс)](duration-useroofsettings.md) . 
+Значение **Scheduled** указывает, что состояние OOF  установлено для включения в течение периода времени, определенного элементом [Duration (UserOofSettings).](duration-useroofsettings.md) 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент является обязательным в сообщениях Сетусерсуфсеттингрекуест и Жетусеруфсеттингреспонсе.
+Этот элемент необходим как в сообщении SetUsersOofSettingRequest, так и в сообщении GetUserOofSettingResponse.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
 ## <a name="example"></a>Пример
 
-Следующий пример запроса SetUserOofSettings включает **уфстате**.
+В следующем примере запроса SetUserOofSettings **включается OofState.**
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -104,7 +104,7 @@ ms.locfileid: "44459737"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

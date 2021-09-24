@@ -1,41 +1,41 @@
 ---
-title: екстендедаттрибутес
+title: ExtendedAttributes
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90b71f6a-b894-43a8-bb83-38d3db8329ed
-description: Элемент Екстендедаттрибутес предназначен только для внутреннего использования.
-ms.openlocfilehash: a1e13db7931c37b50c0d3652c81a95d9b284a838
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ExtendedAttributes предназначен только для внутреннего использования.
+ms.openlocfilehash: dfa480f3edea42b1049a9716fad51120773a4eb4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456509"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516988"
 ---
-# <a name="extendedattributes"></a>екстендедаттрибутес
+# <a name="extendedattributes"></a>ExtendedAttributes
 
-Элемент **екстендедаттрибутес** предназначен только для внутреннего использования. 
+Элемент **ExtendedAttributes** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

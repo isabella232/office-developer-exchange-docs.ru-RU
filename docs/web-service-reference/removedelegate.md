@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RemoveDelegate
 api_type:
 - schema
 ms.assetid: f21c5171-62e7-47c8-99b1-22e1ff5883bb
 description: Элемент RemoveDelegate определяет запрос на удаление делегатов из почтового ящика. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: eca357ad1ed2dc692f9f192b97abd3a5d765fafb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8ef8e2f6fb296ea4d3a9b8739f856bfe9a50985a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465522"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523582"
 ---
 # <a name="removedelegate"></a>RemoveDelegate
 
@@ -30,27 +30,27 @@ ms.locfileid: "44465522"
 </RemoveDelegate>
 ```
 
- **ремоведелегатетипе**
+ **RemoveDelegateType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Mailbox](mailbox.md) <br/> |Определяет почтовый ящик субъекта.  <br/> |
-|[UserIds](userids.md) <br/> |Содержит массив делегированных пользователей, которые необходимо удалить из почтового ящика участника. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[Mailbox](mailbox.md) <br/> |Определяет почтовый ящик директора.  <br/> |
+|[UserIds](userids.md) <br/> |Содержит массив пользователей делегирования, которые необходимо удалить из почтового ящика директора. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44465522"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

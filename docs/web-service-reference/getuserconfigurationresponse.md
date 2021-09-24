@@ -1,46 +1,46 @@
 ---
-title: жетусерконфигуратионреспонсе
+title: GetUserConfigurationResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserConfigurationResponse
 api_type:
 - schema
 ms.assetid: 5e418c91-c836-4de0-a80d-f0dad0c684d7
-description: Элемент Жетусерконфигуратионреспонсе определяет ответ на один запрос GetUserConfiguration.
-ms.openlocfilehash: d80f281f8dc02f911281959b8629b0d8908f4e97
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetUserConfigurationResponse определяет ответ на один запрос GetUserConfiguration.
+ms.openlocfilehash: e3981ae2860e4baf34cc5e3b17be0967f387aa4a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457706"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522987"
 ---
-# <a name="getuserconfigurationresponse"></a>жетусерконфигуратионреспонсе
+# <a name="getuserconfigurationresponse"></a>GetUserConfigurationResponse
 
-Элемент **жетусерконфигуратионреспонсе** определяет ответ на один запрос GetUserConfiguration. 
+Элемент **GetUserConfigurationResponse** определяет ответ на один запрос GetUserConfiguration. 
   
 ```xml
 <GetUserConfigurationResponse>   <ResponseMessages/></GetUserConfigurationResponse>
 ```
 
- **жетусерконфигуратионреспонсетипе**
+ **GetUserConfigurationResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения отклика для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,7 +48,7 @@ ms.locfileid: "44457706"
   
 ## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
+Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2010, с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -56,7 +56,7 @@ ms.locfileid: "44457706"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

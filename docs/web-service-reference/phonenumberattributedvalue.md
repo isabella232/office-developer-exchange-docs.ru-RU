@@ -1,23 +1,23 @@
 ---
-title: фоненумбераттрибутедвалуе
+title: PhoneNumberAttributedValue
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8bf16552-b672-424a-91b6-6470e20a49ad
-description: Элемент Фоненумбераттрибутедвалуе указывает экземпляр массива номеров телефонов и связанные с ними атрибуты.
-ms.openlocfilehash: b1597ea33973d0dde5bd528061cf732101582c9d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PhoneNumberAttributedValue указывает экземпляр массива номеров телефонов и связанных с ними атрибутов.
+ms.openlocfilehash: 05d90c069cb139d83d81941d38bc0f59aa29b64b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465627"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516673"
 ---
-# <a name="phonenumberattributedvalue"></a>фоненумбераттрибутедвалуе
+# <a name="phonenumberattributedvalue"></a>PhoneNumberAttributedValue
 
-Элемент **фоненумбераттрибутедвалуе** указывает экземпляр массива номеров телефонов и связанные с ними атрибуты. 
+Элемент **PhoneNumberAttributedValue** указывает экземпляр массива номеров телефонов и связанных с ними атрибутов. 
   
 ```XML
 <PhoneNumberAttributedValue>
@@ -26,24 +26,24 @@ ms.locfileid: "44465627"
 </PhoneNumberAttributedValue>
 ```
 
- **фоненумбераттрибутедвалуетипе**
+ **PhoneNumberAttributedValueType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Значение (персонафоненумбертипе)](value-personaphonenumbertype.md)  |  [Атрибуты (аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
+[Значение (PersonaPhoneNumberType)](value-personaphonenumbertype.md)  |  [Атрибуция (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Бусинессфоненумберс](businessphonenumbers.md)  |  [BusinessPhoneNumbers2](businessphonenumbers2.md)  |  [Хомефонес](homephones.md)  |  [HomePhones2](homephones2.md)  |  [Мобилефонес](mobilephones.md)  |  [MobilePhones2](mobilephones2.md)  |  [Ассистантфоненумберс](assistantphonenumbers.md)  |  [Каллбаккфонес](callbackphones.md)  |  [Карфонес](carphones.md)  |  [Хомефаксес](homefaxes.md)  |  [Организатионмаинфонес](organizationmainphones.md)  |  [Осерфаксес](otherfaxes.md)  |  [Осертелефонес](othertelephones.md)  |  [OtherPhones2](otherphones2.md)  |  [Пейджеры](pagers.md)  |  [Радиофонес](radiophones.md)  |  [Телекснумберс](telexnumbers.md)  |  [Ттитддфоненумберс](ttytddphonenumbers.md)  |  [Воркфаксес](workfaxes.md)
+[BusinessPhoneNumbers](businessphonenumbers.md)  |  [BusinessPhoneNumbers2](businessphonenumbers2.md)  |  [HomePhones](homephones.md)  |  [HomePhones2](homephones2.md)  |  [MobilePhones](mobilephones.md)  |  [MobilePhones2](mobilephones2.md)  |  [AssistantPhoneNumbers](assistantphonenumbers.md)  |  [CallbackPhones](callbackphones.md)  |  [CarPhones](carphones.md)  |  [HomeFaxes](homefaxes.md)  |  [OrganizationMainPhones](organizationmainphones.md)  |  [OtherFaxes](otherfaxes.md)  |  [OtherTelephones](othertelephones.md)  |  [OtherPhones2](otherphones2.md)  |  [Пейджеры](pagers.md)  |  [RadioPhones](radiophones.md)  |  [TelexNumbers](telexnumbers.md)  |  [TTYTDDDPhoneNumbers](ttytddphonenumbers.md)  |  [WorkFaxes](workfaxes.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44465627"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

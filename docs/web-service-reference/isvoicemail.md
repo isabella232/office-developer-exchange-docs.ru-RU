@@ -1,25 +1,25 @@
 ---
-title: Голосовая почта
+title: IsVoicemail
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsVoicemail
 api_type:
 - schema
 ms.assetid: 96d81d6e-4b75-43ad-b151-2dd4fd57db94
 description: Элемент IsVoicemail указывает, должен ли входящих сообщений сообщения голосовой почты в порядке для условие или исключение для применения.
-ms.openlocfilehash: 8c60513a54cbf2398fde4b71ab1fbcf8a5efb608
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: df7233f282d9b6b2e5a0833aef389cc50614d986
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522847"
 ---
-# <a name="isvoicemail"></a>Голосовая почта
+# <a name="isvoicemail"></a>IsVoicemail
 
 Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Элемент **IsVoicemail** указывает, должен ли входящих сообщений сообщения голосовой почты в порядке для условие или исключение для применения. 
   
@@ -30,15 +30,15 @@ ms.locfileid: "44458140"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -51,7 +51,7 @@ ms.locfileid: "44458140"
 
 Текстовое значение **true** указывает, что сообщения должны быть сообщения голосовой почты в порядке для условие или исключение для применения. Значение **false** указывает, что сообщение не должна быть сообщения голосовой почты в порядке для условие или исключение для применения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44458140"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

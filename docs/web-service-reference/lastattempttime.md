@@ -1,50 +1,50 @@
 ---
-title: ластаттемпттиме
+title: LastAttemptTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4ffdf0f-1210-429d-8eea-665db2aad3bb
-description: Элемент Ластаттемпттиме содержит время и дату последнего попытки индексации элемента.
-ms.openlocfilehash: 8ef7d8d436f7e12a5c1e6a1d0762fcf777a95d05
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент LastAttemptTime содержит время и дату последней попытки индексировать элемент.
+ms.openlocfilehash: 7bc0ffa9a0b7b6fd0079ce2430689d1b5f5f2f35
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459849"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509632"
 ---
-# <a name="lastattempttime"></a>ластаттемпттиме
+# <a name="lastattempttime"></a>LastAttemptTime
 
-Элемент **ластаттемпттиме** содержит время и дату последнего попытки индексации элемента. 
+Элемент **LastAttemptTime** содержит время и дату последней попытки индексировать элемент. 
   
 ```XML
 <LastAttemptTime></LastAttemptTime>
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[нониндексаблеитемдетаил](nonindexableitemdetail.md)
+[NonIndexableItemDetail](nonindexableitemdetail.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ластаттемпттиме** представляет время и дату, когда была выполнена последняя попытка индексирования элемента. 
+Текстовое значение элемента **LastAttemptTime** представляет время и дату, в течение которых была предпринята последняя попытка индексировать элемент. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44459849"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

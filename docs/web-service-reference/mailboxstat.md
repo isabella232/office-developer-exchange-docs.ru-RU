@@ -1,23 +1,23 @@
 ---
-title: маилбоксстат
+title: MailboxStat
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5f24dc30-3ac2-4c82-9dfc-be9dbdb585be
-description: Элемент Маилбоксстат указывает статистику для почтового ящика, в котором выполняется поиск обнаружения.
-ms.openlocfilehash: 417f63f5e1aa34c2157b1d5ad868461113afec7b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MailboxStat указывает статистику для почтового ящика, который искали при поиске обнаружения.
+ms.openlocfilehash: d48f033df4cfec47313ce690acd19d916b963c00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44451434"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522812"
 ---
-# <a name="mailboxstat"></a>маилбоксстат
+# <a name="mailboxstat"></a>MailboxStat
 
-Элемент **маилбоксстат** указывает статистику для почтового ящика, в котором выполняется поиск обнаружения. 
+Элемент **MailboxStat** указывает статистику для почтового ящика, который искали при поиске обнаружения. 
   
 ```XML
 <MailboxStat>
@@ -28,25 +28,25 @@ ms.locfileid: "44451434"
 </MailboxStat>
 ```
 
-**маилбоксстатистикситемтипе**
+**MailboxStatisticsItemType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[MailboxId](mailboxid.md)  |  [DisplayName (строка)](displayname-string.md)  |  [ItemCount](itemcount.md)  |  [Размер (длинный)](size-long.md)
+[Почтовый ящикId](mailboxid.md)  |  [DisplayName (string)](displayname-string.md)  |  [ItemCount](itemcount.md)  |  [Размер (длинный)](size-long.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[маилбоксстатс](mailboxstats.md)
+[MailboxStats](mailboxstats.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44451434"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

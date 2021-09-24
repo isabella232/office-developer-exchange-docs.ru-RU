@@ -1,23 +1,23 @@
 ---
-title: овалинк
+title: OwaLink
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d217b6-d7c0-4b99-ada9-19c758ae4a5b
-description: Элемент Овалинк указывает ссылку для предварительного просмотра элемента в Microsoft Outlook Web App.
-ms.openlocfilehash: 176484387d690bb8e0040507c11feffd6b4f4be5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент OwaLink указывает ссылку для предварительного просмотра элемента в Microsoft Outlook Web App.
+ms.openlocfilehash: 38b90251cf5aa1b4d058d2be70d12f9fd4c25424
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467461"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534907"
 ---
-# <a name="owalink"></a>овалинк
+# <a name="owalink"></a>OwaLink
 
-Элемент **овалинк** указывает ссылку для предварительного просмотра элемента в Microsoft Outlook Web App. 
+Элемент **OwaLink** указывает ссылку для предварительного просмотра элемента в Microsoft Outlook Web App. 
   
 ```XML
 <OwaLink></OwaLink>
@@ -26,25 +26,25 @@ ms.locfileid: "44467461"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеарчпревиевитем](searchpreviewitem.md)
+[SearchPreviewItem](searchpreviewitem.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **овалинк** — URL-адрес для просмотра элемента в Outlook Web App. 
+Текстовое значение элемента **OwaLink** — URL-адрес для просмотра элемента в Outlook Web App. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44467461"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

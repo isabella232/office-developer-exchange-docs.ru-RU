@@ -1,27 +1,27 @@
 ---
-title: исфолдерконтакт
+title: IsFolderContact
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsFolderContact
 api_type:
 - schema
 ms.assetid: 8b456255-f4ae-4ca0-845a-13c195f1c867
-description: Элемент Исфолдерконтакт указывает, является ли пользователь контактом для папки. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: b7830a94237b721d02409e2d93b27c2c5ef015e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsFolderContact указывает, является ли пользователь контактом для папки. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+ms.openlocfilehash: 21f5f55a07b6f5acc6310398a7578154b3428265
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455284"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522973"
 ---
-# <a name="isfoldercontact"></a>исфолдерконтакт
+# <a name="isfoldercontact"></a>IsFolderContact
 
-Элемент **исфолдерконтакт** указывает, является ли пользователь контактом для папки. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **IsFolderContact** указывает, является ли пользователь контактом для папки. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <IsFolderContact/>
@@ -30,28 +30,28 @@ ms.locfileid: "44455284"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Разрешение](permission.md) <br/> |Определяет доступ пользователя к папке. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
-|[календарпермиссион](calendarpermission.md) <br/> |Определяет доступ пользователя к папке календаря. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[CalendarPermission](calendarpermission.md) <br/> |Определяет доступ пользователя к папке календаря. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** указывает, что пользователь является контактом для указанной папки. Значение **false** указывает, что пользователь не является контактом для указанной папки. 
+Значение текста указывает **на** то, что пользователь является контактом для указанной папки. Значение false **указывает,** что пользователь не является контактом для указанной папки. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44455284"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

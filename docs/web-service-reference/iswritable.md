@@ -1,23 +1,23 @@
 ---
-title: Доступный для записи
+title: IsWritable
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4af8eee-7001-4a8e-b9bd-d14882f2406b
-description: Элемент с возможностью записи указывает, можно ли записывать базовый контакт или получателя Active Directory в.
-ms.openlocfilehash: 96075adc1772027456f8829eee43bdc734644c09
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsWritable указывает, может ли быть написана информация о контакте или получателе Active Directory.
+ms.openlocfilehash: 2663e18f2589516f304930b86a717455b6ab77c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467573"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516715"
 ---
-# <a name="iswritable"></a>Доступный для записи
+# <a name="iswritable"></a>IsWritable
 
-Элемент с **возможностью записи** указывает, можно ли записывать базовый контакт или получателя Active Directory в. 
+Элемент **IsWritable** указывает, может ли быть написана информация о контакте или получателе Active Directory. 
   
 ```XML
 <IsWritable> true | false </IsWritable>
@@ -26,25 +26,25 @@ ms.locfileid: "44467573"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Атрибуты (Персонааттрибутионтипе)](attribution-personaattributiontype.md)
+[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента, доступного для **записи** , указывает на то, что контакт или объект Active Directory доступны для записи. Значение **false** указывает на то, что контакт или объект Active Directory недоступен для записи. 
+Значение текста, **истинное** для **элемента IsWritable,** указывает, что объект contact или Active Directory доступен для доступа к записи. Значение false **указывает,** что контакт или объект Active Directory недоступны для доступа к записи. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

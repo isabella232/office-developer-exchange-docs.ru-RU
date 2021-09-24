@@ -1,34 +1,34 @@
 ---
-title: Тип (POX)
+title: Type (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 9a627244-554f-4223-b9d8-a601b81a4a1a
-description: Элемент Type определяет тип настроенной почтовой учетной записи.
-ms.openlocfilehash: ad3570094ebe28498dfdc375cf7fc255434ba20d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Type определяет тип настроенной учетной записи почты.
+ms.openlocfilehash: bb92913071509fec46736341bce56b1a00730f6b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465102"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517527"
 ---
-# <a name="type-pox"></a>Тип (POX)
+# <a name="type-pox"></a>Type (POX)
 
-Элемент **Type** определяет тип настроенной почтовой учетной записи. 
+Элемент **Type** определяет тип настроенной учетной записи почты. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Протокол (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[Тип (POX)](type-pox.md)
+[Type (POX)](type-pox.md)
   
 ```XML
 <Type>WEB or EXCH or EXPR or EXHTTP</Type>
@@ -36,40 +36,40 @@ ms.locfileid: "44465102"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к серверу Exchange Server.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к Exchange серверу.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет тип учетной записи почты. В приведенной ниже таблице перечислены возможные значения.
+Текстовое значение представляет тип учетной записи почты. В следующей таблице перечислены возможные значения.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|EXCH  <br/> |Протокол, используемый для подключения к серверу, — RPC RPC.  <br/> |
-|ексхттп  <br/> |Протокол, используемый для подключения к серверу RPC/HTTP-подключениям.  <br/> |
-|ВЫРАЖЕН  <br/> |Протокол, используемый для подключения к серверу, — это Exchange RPC через HTTP с использованием прокси-сервера RPC.  <br/> Этот параметр применяется, только если для элемента [AccountType (POX)](accounttype-pox.md) задано значение email.  <br/> |
-|WEB  <br/> |Доступ к электронной почте осуществляется из веб-браузера с помощью URL-адреса, указанного в элементе [Server (POX)](server-pox.md) .  <br/> Этот параметр применяется, только если для элемента [AccountType (POX)](accounttype-pox.md) задано значение email.  <br/> |
+|EXCH  <br/> |Протокол, используемый для подключения к серверу, Exchange RPC.  <br/> |
+|EXHTTP  <br/> |Протокол, используемый для подключения к соединениям RPC/HTTP сервера.  <br/> |
+|EXPR  <br/> |Протокол, используемый для подключения к серверу, Exchange RPC над HTTP с помощью прокси-сервера RPC.  <br/> Это применимо только в том случае, если элемент [AccountType (POX)](accounttype-pox.md) настроен на электронную почту.  <br/> |
+|WEB  <br/> |К электронной почте можно получить доступ из веб-браузера с помощью URL-адреса, указанного в элементе [Server (POX).](server-pox.md)  <br/> Это применимо только в том случае, если элемент [AccountType (POX)](accounttype-pox.md) настроен на электронную почту.  <br/> |
    
 ### <a name="version-differences"></a>Различия версий
 
-Office 365, Exchange Online и локальная версия Exchange, начиная с сборки 15.00.0995.014, возвращают значение "ЕКСХТТП" только в том случае, если сервер настроен на прием подключений RPC/HTTP, а клиент содержит заголовок [X-клиентканхандле](pox-autodiscover-request-for-exchange.md) , который содержит "ексхттпинфо". 
+Office 365, Exchange Online и локальной версии Exchange начиная со сборки 15.00.0995.014 возвращают значение "EXHTTP" только в том случае, если сервер настроен на прием подключений RPC/HTTP, а клиент включает в себя загон [X-ClientCanHandle,](pox-autodiscover-request-for-exchange.md) содержащий "ExHttpInfo". 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

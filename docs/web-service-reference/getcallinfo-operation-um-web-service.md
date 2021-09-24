@@ -4,29 +4,29 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetCallInfo
 api_type:
 - schema
 ms.assetid: 6bccd418-caf7-4eb9-8a6f-410e56a635c3
-description: Операция GetCallInfo возвращает состояние исходящего вызова, указанного в параметре CallId (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: 6b5664dfe16f9c74cc7175098145141b815a6355
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetCallInfo возвращает состояние исходящие вызовы, заданные callId (веб-служба UM).
+ms.openlocfilehash: 0563190ab267b3a48d7ccacbdb1e136c6e3da0b4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461242"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509946"
 ---
 # <a name="getcallinfo-operation-um-web-service"></a>Операция GetCallInfo (веб-служба единой системы обмена сообщениями)
 
-Операция GetCallInfo возвращает состояние исходящего вызова, указанного в параметре [CallId (веб-служба единой системы обмена сообщениями)](callid-um-web-service.md).
+Операция GetCallInfo возвращает состояние исходящие вызовы, заданные [CallId (веб-служба um)](callid-um-web-service.md).
   
 ## <a name="getcallinfo-request-example"></a>Пример запроса GetCallInfo
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере запроса GetCallInfo показано, как сформировать запрос для получения сведений об указанном исходящем вызове.
+В следующем примере запроса GetCallInfo показано, как сформировать запрос для получения сведений о указанном исходящие вызовы.
   
 ### <a name="code"></a>Код
 
@@ -43,9 +43,9 @@ ms.locfileid: "44461242"
 
 ## <a name="successful-getcallinfo-response-example"></a>Пример успешного ответа GetCallInfo
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере ответа GetCallInfo показан ответ на запрос GetCallInfo.
+В следующем примере ответа GetCallInfo показан ответ на запрос GetCallInfo.
   
 ### <a name="code"></a>Код
 
@@ -69,11 +69,11 @@ ms.locfileid: "44461242"
 
 [GetCallInfo (веб-служба единой системы обмена сообщениями)](getcallinfo-um-web-service.md)
   
-[Жеткаллинфореспонсе (веб-служба единой системы обмена сообщениями)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (веб-служба единой системы обмена сообщениями)](getcallinforesponse-um-web-service.md)
   
 [CallId (веб-служба единой системы обмена сообщениями)](callid-um-web-service.md)
   
-[Каллстате (веб-служба единой системы обмена сообщениями)](callstate-um-web-service.md)
+[CallState (веб-служба единой системы обмена сообщениями)](callstate-um-web-service.md)
   
-[Евенткаусе (веб-служба единой системы обмена сообщениями)](eventcause-um-web-service.md)
+[EventCause (веб-служба единой системы обмена сообщениями)](eventcause-um-web-service.md)
 

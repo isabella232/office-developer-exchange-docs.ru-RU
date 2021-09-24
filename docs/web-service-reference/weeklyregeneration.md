@@ -1,27 +1,27 @@
 ---
-title: виклиреженератион
+title: WeeklyRegeneration
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WeeklyRegeneration
 api_type:
 - schema
 ms.assetid: f128fdaa-ca3d-4614-8e55-f25e76a67b6c
-description: Элемент Виклиреженератион описывает частоту повторного создания задачи в неделях.
-ms.openlocfilehash: dc333e051fd2213942e629a3f2764c72abfaeba5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент WeeklyRegeneration описывает частоту в неделях, в которых задача регенерируется.
+ms.openlocfilehash: 179299ca0beae23ffd7ad8636729f6117eaa0aad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459751"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509324"
 ---
-# <a name="weeklyregeneration"></a>виклиреженератион
+# <a name="weeklyregeneration"></a>WeeklyRegeneration
 
-Элемент **виклиреженератион** описывает частоту повторного создания задачи в неделях. 
+Элемент **WeeklyRegeneration** описывает частоту в неделях, в которых задача регенерируется. 
   
 ```xml
 <WeeklyRegeneration>
@@ -29,28 +29,28 @@ ms.locfileid: "44459751"
 </WeeklyRegeneration>
 ```
 
- **виклиреженератингпаттернтипе**
+ **WeeklyRegeneratingPatternType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |Определяет интервал (в неделях) с момента завершения задачи, после которого новая задача создается повторно.  <br/> |
+|[Interval](interval.md) <br/> |Определяет интервал через несколько недель после завершения задачи, после чего новая задача будет регенерирована.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторяющихся задачах.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44459751"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

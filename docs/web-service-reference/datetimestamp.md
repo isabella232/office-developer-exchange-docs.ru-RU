@@ -1,59 +1,59 @@
 ---
-title: датетиместамп
+title: DateTimeStamp
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DateTimeStamp
 api_type:
 - schema
 ms.assetid: c996c319-28f1-4bed-ab7a-4d0fc866e675
-description: Элемент Датетиместамп указывает дату и время создания экземпляра объекта Calendar.
-ms.openlocfilehash: 96c3f005e0ffd403afe723bb8b274b7ac2abca1b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DateTimeStamp указывает дату и время создания экземпляра объекта календаря.
+ms.openlocfilehash: c99e1ac53f0a9dcc367c9dc96dc517f2fa3662ca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461410"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535573"
 ---
-# <a name="datetimestamp"></a>датетиместамп
+# <a name="datetimestamp"></a>DateTimeStamp
 
-Элемент **датетиместамп** указывает дату и время создания экземпляра объекта Calendar. 
+Элемент **DateTimeStamp** указывает дату и время создания экземпляра объекта календаря. 
   
 ```xml
 <DateTimeStamp/>
 ```
 
-**дата и время**
+**dateTime**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание.  <br/> |
-|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание.  <br/> |
-|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Представляет сообщение собрания.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет запрос на собрание.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ собрания.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет значение даты и времени, идентифицирующее вхождение календаря.
+Текстовое значение представляет значение даты и времени, которое определяет возникновение календаря.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -61,7 +61,7 @@ ms.locfileid: "44461410"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,23 +1,23 @@
 ---
-title: хасчанжед
+title: HasChanged
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15ff513d-f39e-44ed-a13f-ab3f86fa37e1
-description: Элемент Хасчанжед указывает, изменилась ли фотография пользователя.
-ms.openlocfilehash: d777220f55d33cde548d8257cf249b57481a43f8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент HasChanged указывает, изменилась ли фотография пользователя.
+ms.openlocfilehash: 456660272815aac27ea99919eb92a02f754fb4ff
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462789"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516792"
 ---
-# <a name="haschanged"></a>хасчанжед
+# <a name="haschanged"></a>HasChanged
 
-Элемент **хасчанжед** указывает, изменилась ли фотография пользователя. 
+Элемент **HasChanged** указывает, изменилась ли фотография пользователя. 
   
 ```XML
 <HasChanged> true | false </HasChanged>
@@ -26,25 +26,25 @@ ms.locfileid: "44462789"
  ****
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[жетусерфотореспонсе](getuserphotoresponse.md)
+[GetUserPhotoResponse](getuserphotoresponse.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **хасчанжед** указывает на то, что фото изменилось со времени последнего возврата. Значение **false** указывает, что фото не изменилось со времени последнего возврата. 
+Значение текста, **истинное** для элемента **HasChanged,** указывает на то, что фотография изменилась с момента последнего возвращения. Значение false **указывает** на то, что фотография не изменилась с момента последнего возвращения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44462789"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

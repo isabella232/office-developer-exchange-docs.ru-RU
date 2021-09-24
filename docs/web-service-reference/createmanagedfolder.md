@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateManagedFolder
 api_type:
 - schema
 ms.assetid: cfdf01a9-0191-47c7-a7ad-5254d8bdee4a
 description: Элемент CreateManagedFolder определяет запрос на добавление управляемых пользовательских папок в почтовый ящик.
-ms.openlocfilehash: 01fe8b7341c38ad33089c56271434ad3f9a4e5f0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ca6850cfdc8a37bf0480db0c040b035591a59ce6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458364"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536375"
 ---
 # <a name="createmanagedfolder"></a>CreateManagedFolder
 
@@ -30,36 +30,36 @@ ms.locfileid: "44458364"
 </CreateManagedFolder>
 ```
 
- **креатеманажедфолдеррекуесттипе**
+ **CreateManagedFolderRequestType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фолдернамес](foldernames.md) <br/> |Содержит массив именованных управляемых папок для добавления к почтовому ящику.  <br/> |
+|[FolderNames](foldernames.md) <br/> |Содержит массив именных управляемых папок, которые необходимо добавить в почтовый ящик.  <br/> |
 |[Mailbox](mailbox.md) <br/> |Определяет объект службы каталогов с включенной поддержкой почты Active Directory.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Учетная запись пользователя, выполняющего запрос, должен иметь разрешения FullAccess для почтового ящика, в котором создаются управляемые папки. Для назначения разрешения FullAccess можно использовать параметр _ – AccessRights _ с командлетом **Add – MailboxPermission** консоли управления Exchange. 
+Учетная запись пользователя, который делает запрос, должна иметь разрешения FullAccess в почтовом ящике, где создаются управляемые папки. Чтобы назначить разрешение FullAccess, можно использовать параметр _-AccessRights _ с помощью Exchange управления shell **add-MailboxPermission.** 
   
-Несмотря на то, что вы можете использовать веб-службы Exchange для добавления управляемых папок в почтовый ящик, вы не можете использовать веб-службы Exchange для доступа к списку доступных управляемых папок. Чтобы получить список доступных управляемых папок, используйте командлет **Get – ManagedFolder** Exchange Management Shell. Список, возвращаемый **командлетом Get-ManagedFolder** , будет содержать как управляемые настраиваемые папки, так и управляемые папки по умолчанию. Можно добавлять только папки типа **манажедкустомфолдер** в почтовый ящик с помощью операции CreateManagedFolder. 
+Несмотря на Exchange веб-служб для добавления управляемых папок в почтовый ящик, вы не можете использовать Exchange-службы для доступа к списку доступных управляемых папок. Чтобы получить список доступных управляемых папок, используйте комлет **get-managedfolder** Exchange Management Shell. Список, возвращаемый комлетом **get-managedfolder,** будет содержать как управляемые пользовательские папки, так и управляемые папки по умолчанию. В почтовый ящик можно добавить папки типа **managedcustomfolder,** используя операцию CreateManagedFolder. 
   
 > [!NOTE]
-> Вы также можете получить список управляемых папок с помощью API DirectoryServices платформы Microsoft .NET Framework. 
+> Вы также можете получить список управляемых папок с помощью API DirectoryServices microsoft платформа .NET Framework. 
   
-Вы можете использовать [операцию FindFolder](findfolder-operation.md) для поиска управляемых папок в почтовом ящике. Управляемые папки можно отличать, присвоив элементу [басешапе](baseshape.md) значение аллпропертиес в запросе. Ответ будет содержать элемент [манажедфолдеринформатион](managedfolderinformation.md) для различения управляемых папок из папок хранилища Exchange. Вы можете удалять управляемые папки так же, как и другие типы папок. 
+Операцию [FindFolder](findfolder-operation.md) можно использовать для поиска управляемых папок в почтовом ящике. Управляемые папки можно отличить, задав элемент [BaseShape](baseshape.md) allProperties в запросе. Ответ будет содержать элемент [ManagedFolderInformation,](managedfolderinformation.md) чтобы отличать управляемые папки от Exchange папок магазина. Вы можете удалять управляемые папки таким же образом, как и другие типы папок. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -69,7 +69,7 @@ ms.locfileid: "44458364"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

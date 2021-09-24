@@ -4,23 +4,23 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneResponse
 api_type:
 - schema
 ms.assetid: 42b16880-1271-4690-abd0-0072d95b04b7
-description: Элемент PlayOnPhoneResponse определяет ответ на запрос для операции PlayOnPhone (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: ddb9cc9a8feaeb476e6502339fdc74d024797b9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PlayOnPhoneResponse определяет ответ на запрос операции PlayOnPhone (веб-служба um).
+ms.openlocfilehash: 9c2893837a1bc9c4836dc3cab6fb14e0d1fd611b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459618"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516526"
 ---
 # <a name="playonphoneresponse-um-web-service"></a>PlayOnPhoneResponse (веб-служба единой системы обмена сообщениями)
 
-Элемент **PlayOnPhoneResponse** определяет ответ на запрос для [операции PlayOnPhone (веб-служба единой системы обмена сообщениями)](playonphone-operation-um-web-service.md) . 
+Элемент **PlayOnPhoneResponse** определяет ответ на запрос [операции PlayOnPhone (веб-служба um).](playonphone-operation-um-web-service.md) 
   
 [PlayOnPhoneResponse (веб-служба единой системы обмена сообщениями)](playonphoneresponse-um-web-service.md)
   
@@ -31,23 +31,23 @@ ms.locfileid: "44459618"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Текстовое значение — это идентификатор вызова, используемый для значения [CallId (веб-служба единой системы обмена сообщениями)](callid-um-web-service.md) в запросах [GetCallInfo (веб](getcallinfo-operation-um-web-service.md) -служба единой системы обмена сообщениями) или запросах на [Отключение (веб-служба единой системы обмена](disconnect-operation-um-web-service.md) сообщениями). 
+Требуется текстовое значение. Текстовое значение — это идентификатор вызова, который используется для значения CallId (веб-службы [um)](callid-um-web-service.md) в запросе [операции GetCallInfo (веб-служба um)](getcallinfo-operation-um-web-service.md) или запросе на отключение [(веб-служба](disconnect-operation-um-web-service.md) um). 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -55,7 +55,7 @@ ms.locfileid: "44459618"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

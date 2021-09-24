@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 51186691-46d2-4d5c-b8bc-4ee2bb20fbe7
-description: Поиск сведений о GetImItemsной операции EWS.
-ms.openlocfilehash: 960f4683dd478b0e5f8cf18fa8d1593b7433a249
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetImItems EWS.
+ms.openlocfilehash: fb9368d825880f5763ade8893585639e9b267540
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456047"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509856"
 ---
 # <a name="getimitems-operation"></a>Операция GetImItems
 
-Поиск сведений о **GetImItemsной** операции EWS. 
+Сведения об операции **GetImItems** EWS. 
   
-Операция **GetImItems** получает сведения о группах обмена мгновенными сообщениями и пользователях контактов для обмена мгновенными сообщениями. 
+Операция **GetImItems** извлекает сведения о группах обмена мгновенными сообщениями и личном контакте с мгновенными сообщениями. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-getimitems-operation"></a>Использование операции GetImItems
 
-Операция **GetImItems** принимает идентификаторы элементов Group и Contact и возвращает набор сведений о группах и контактах. Наборы свойств, возвращаемые в ответе, идентифицируются с помощью расширенных свойств, нескольких идентификаторов контакта, идентификаторов групп и определений расширенных свойств в качестве аргументов. 
+Операция **GetImItems** принимает идентификаторы групп и контактных элементов и возвращает набор сведений о группах и контактах. Наборы свойств, возвращенные в ответ, определяются расширенными свойствами, несколькими идентификаторами контактов, идентификаторами групп и расширенными определениями свойств в качестве аргументов. 
   
-### <a name="getimitems-operation-soap-headers"></a>Заголовки SOAP операции GetImItems
+### <a name="getimitems-operation-soap-headers"></a>Заготчики операции GetImItems
 
-Операция **GetImItems** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции GetImItems** можно использовать заглавные таблицы SOAP, указанные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
-|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает. Этот заглавный заглавник применим к запросу.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет культуру, определяемую в RFC 3066 , "Теги для идентификации языков", которая будет использоваться для доступа к почтовому ящику. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="getimitems-operation-request-example-get-detailed-information-about-im-contacts-and-groups"></a>Пример запроса операции GetImItems: получение подробных сведений о контактах и группах для обмена мгновенными сообщениями
+## <a name="getimitems-operation-request-example-get-detailed-information-about-im-contacts-and-groups"></a>Пример запроса на операцию GetImItems: подробные сведения о контактах и группах чата
 
-В следующем примере запроса операции **GetImItems** показано, как запросить подробные сведения о контактах и группах для обмена мгновенными сообщениями. Операция **GetImItems** может запросить один или несколько сведений о контакте или группе. Вы также можете использовать расширенные свойства для получения настраиваемых свойств для групп и контактов. Если запрошенное расширенное свойство не существует для элемента, то ответ будет игнорировать запрошенное свойство и возвращать ответ для набора свойств по умолчанию. В этом примере показано, как получить отображаемое имя с помощью расширенных свойств. 
+В следующем примере запроса на операцию **GetImItems** показано, как запрашивать подробные сведения о контактах и группах чата. Операция **GetImItems** может запрашивать одну или несколько контактных или групповых сведений. Вы также можете использовать расширенные свойства для получения настраиваемой свойства для групп и контактов. Если запрашиваемая расширенная свойство не существует на элементе, ответ игнорирует запрашиваемую свойство и возвращает ответ для набора свойств по умолчанию. В этом примере показано, как получить имя отображения с помощью расширенных свойств. 
   
 > [!NOTE]
-> Все идентификаторы элементов и изменения ключей в этой статье были сокращены, чтобы сохранить удобочитаемость. Обратите внимание, что для этой операции в службе игнорируются ключи изменений. 
+> Для сохранения читаемости сокращены все идентификаторы элементов и ключи изменений в этой статье. Обратите внимание, что клавиши изменения игнорируются службой для этой операции. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -70,23 +70,23 @@ ms.locfileid: "44456047"
 </soap:Envelope>
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [GetImItems](getimitems.md)
     
-- [контактидс](contactids.md)
+- [ContactIds](contactids.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-- [граупидс](groupids.md)
+- [GroupIds](groupids.md)
     
-- [Екстендедпропертиес (Нонемптяррайофекстендедфиелдурис)](extendedproperties-nonemptyarrayofextendedfielduris.md)
+- [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
     
-- [ExtendedProperty (Пастоекстендедфиелдтипе)](extendedproperty-pathtoextendedfieldtype.md)
+- [ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
     
-## <a name="successful-getimitems-operation-response"></a>Успешный отклик операции GetImItems
+## <a name="successful-getimitems-operation-response"></a>Успешный ответ на операцию GetImItems
 
-В следующем примере показан успешный ответ на запрос **GetImItems** для получения контакта и группы для обмена мгновенными сообщениями. Отображаемое имя запрашивается в расширенном свойстве. Контакты для обмена мгновенными сообщениями возвращаются в виде пользователя. 
+В следующем примере показан успешный ответ на **запрос GetImItems** для получения контакта и группы чата. Имя отображения запрашивается в расширенном свойстве. Контакты im возвращаются в виде persona. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -189,77 +189,77 @@ ms.locfileid: "44456047"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [жетимитемсреспонсе](getimitemsresponse.md)
+- [GetImItemsResponse](getimitemsresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [имитемлист](imitemlist.md)
+- [ImItemList](imitemlist.md)
     
-- [Groups (Аррайофимграуптипе)](groups-arrayofimgrouptype.md)
+- [Groups (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)
     
-- [Группа](imgroup.md)
+- [ImGroup](imgroup.md)
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
 - [GroupType](grouptype.md)
     
-- [ексчанжестореид](exchangestoreid.md)
+- [ExchangeStoreId](exchangestoreid.md)
     
-- [мемберкоррелатионкэй](membercorrelationkey.md)
+- [MemberCorrelationKey](membercorrelationkey.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-- [Екстендедпропертиес (Нонемптяррайофекстендедфиелдурис)](extendedproperties-nonemptyarrayofextendedfielduris.md)
+- [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
     
-- [ExtendedProperty (Пастоекстендедфиелдтипе)](extendedproperty-pathtoextendedfieldtype.md)
+- [ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
     
-- [Фиктивные пользователи](personas-ex15websvcsotherref.md)
+- [Personas](personas-ex15websvcsotherref.md)
     
-- [персонаид](personaid.md)
+- [PersonaId](personaid.md)
     
-- [персонатипе](personatype.md)
+- [PersonaType](personatype.md)
     
 - [CreationTime](creationtime.md)
     
-- [дисплайнамефирстласт](displaynamefirstlast.md)
+- [DisplayNameFirstLast](displaynamefirstlast.md)
     
-- [дисплайнамеластфирст](displaynamelastfirst.md)
+- [DisplayNameLastFirst](displaynamelastfirst.md)
     
 - [FileAs](fileas.md)
     
-- [Филеасид](fileasid.md) филеасид 
+- [FileAsId](fileasid.md) FileAsId 
     
-- [Адрес (String)](imaddress-string.md)
+- [ImAddress (строка)](imaddress-string.md)
     
-- [релеванцескоре](relevancescore.md)
+- [RelevanceScore](relevancescore.md)
     
-- [Атрибуты (Аррайофперсонааттрибутионстипе)](attributions-arrayofpersonaattributionstype.md)
+- [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
-- [Атрибуты (Персонааттрибутионтипе)](attribution-personaattributiontype.md)
+- [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
 - [ID (строка)](id-string.md)
     
 - [SourceId](sourceid.md)
     
-- [Доступный для записи](iswritable.md)
+- [IsWritable](iswritable.md)
     
-- [искуиккконтакт](isquickcontact.md)
+- [IsQuickContact](isquickcontact.md)
     
 - [IsHidden](ishidden.md)
     
-- [стрингаттрибутедвалуе](stringattributedvalue.md)
+- [StringAttributedValue](stringattributedvalue.md)
     
-- [филеасидс](fileasids.md)
+- [FileAsIds](fileasids.md)
     
-- [Адреса](imaddresses.md)
+- [ImAddresses](imaddresses.md)
     
-- [Значение (Екстендедпропертитипе)](value-extendedpropertytype.md)
+- [Value (ExtendedPropertyType)](value-extendedpropertytype.md)
     
-## <a name="getimitems-operation-error-response"></a>Ответ об ошибке операции GetImItems
+## <a name="getimitems-operation-error-response"></a>Ответ на ошибку операции GetImItems
 
-Операция **GetImItems** не проверяет идентификаторы и не возвращает ожидаемый ответ об ошибке **ерроринвалидимконтактид** или **ерроринвалидимграупид** , если службе предоставлен недопустимый идентификатор контакта или группы. 
+Операция **GetImItems** не проверяет идентификаторы и не возвращает ожидаемый ответ на ошибку **ErrorInvalidImContactId** или **ErrorInvalidImGroupId,** если в службу будет предоставлен недействительный идентификатор контакта или группы. 
   
 ## <a name="see-also"></a>См. также
 

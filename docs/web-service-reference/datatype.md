@@ -5,60 +5,60 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DataType
 api_type:
 - schema
 ms.assetid: 267fe5aa-f9b1-4d4c-ac11-0f2e50ec2627
-description: Элемент DataType описывает тип данных, к которым общий доступ предоставляется в общей папке.
-ms.openlocfilehash: a7df8d38e10f0ab31038d790d8f35208d1be66d5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DataType описывает тип данных, общих для общей папки.
+ms.openlocfilehash: 858165f32aebd523b10840246425c015353d659a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535858"
 ---
 # <a name="datatype"></a>DataType
 
-Элемент **DataType** описывает тип данных, к которым общий доступ предоставляется в общей папке. 
+Элемент **DataType** описывает тип данных, общих для общей папки. 
   
 ```xml
 <DataType>Calendar or Contacts</DataType>
 ```
 
-**шарингдататипе**
+**SharingDataType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetSharingFolder](getsharingfolder.md) <br/> |Определяет запрос на получение идентификатора локальной папки указанной общей папки.  <br/> |
+|[GetSharingFolder](getsharingfolder.md) <br/> |Определяет запрос для получения локального идентификатора папки указанной общей папки.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **DataType** . 
+В следующей таблице перечислены возможные значения элемента **DataType.** 
   
 **Значения элементов DataType**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Календарь  <br/> |Указывает, что общая папка содержит данные календаря.  <br/> |
+|Календарь  <br/> |Указывает, что общая папка содержит сведения о календаре.  <br/> |
 |Контакты  <br/> |Указывает, что общая папка содержит контактные данные.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -68,7 +68,7 @@ ms.locfileid: "44458833"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

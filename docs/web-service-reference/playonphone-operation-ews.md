@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhone
 api_type:
 - schema
 ms.assetid: 70e6ef33-2046-4eb8-9987-e106009be04b
-description: Операция PlayOnPhone инициирует исходящий вызов и воспроизводит сообщение по телефону.
-ms.openlocfilehash: 18af810160e72856599f296c4faa83cf9c73c393
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция PlayOnPhone инициирует исходящие вызовы и воспроизводит сообщение по телефону.
+ms.openlocfilehash: f6f5ef30849e1ed536316fe48a8dd29d3d68b230
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467958"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516554"
 ---
 # <a name="playonphone-operation-ews"></a>Операция PlayOnPhone (EWS)
 
-Операция **PlayOnPhone** инициирует исходящий вызов и воспроизводит сообщение по телефону. 
+Операция **PlayOnPhone** инициирует исходящие вызовы и воспроизводит сообщение по телефону. 
   
 ## <a name="playonphone-request-example"></a>Пример запроса PlayOnPhone
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **PlayOnPhone** показано, как сформировать запрос на прослушивание сообщения на телефоне. 
+В следующем примере **запроса PlayOnPhone** показано, как сформировать запрос для воспроизведения сообщения на телефоне. 
   
 ### <a name="code"></a>Код
 
@@ -50,11 +50,11 @@ ms.locfileid: "44467958"
 </soap:Envelope>
 ```
 
-## <a name="playonphone-response-example"></a>Пример отклика PlayOnPhone
+## <a name="playonphone-response-example"></a>Пример ответа PlayOnPhone
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **PlayOnPhone** . 
+В следующем примере показан успешный ответ на **запрос PlayOnPhone.** 
   
 ### <a name="code"></a>Код
 

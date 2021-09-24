@@ -1,65 +1,65 @@
 ---
-title: рутитемид
+title: RootItemId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RootItemId
 api_type:
 - schema
 ms.assetid: f613c705-17ce-48ce-aa64-4dc2cea25e31
-description: Элемент Рутитемид определяет корневой элемент удаленного вложения.
-ms.openlocfilehash: d8badd465fd5a93e1a6354d55ac5c4b080897152
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RootItemId определяет корневой элемент удаленного вложения.
+ms.openlocfilehash: eab3cc30c2e3f2b6cdc443ba8eb7ae4bfa38d257
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457097"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509372"
 ---
-# <a name="rootitemid"></a>рутитемид
+# <a name="rootitemid"></a>RootItemId
 
-Элемент **рутитемид** определяет корневой элемент удаленного вложения. 
+Элемент **RootItemId** определяет корневой элемент удаленного вложения. 
   
-[делетеаттачментреспонсе](deleteattachmentresponse.md)
+[DeleteAttachmentResponse](deleteattachmentresponse.md)
   
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
-[делетеаттачментреспонсемессаже](deleteattachmentresponsemessage.md)
+[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md)
   
-[рутитемид](rootitemid.md)
+[RootItemId](rootitemid.md)
   
 ```xml
 <RootItemId RootItemId="" RootItemChangeKey="" />
 ```
 
- **рутитемидтипе**
+ **RootItemIdType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**рутитемид** <br/> |Определяет корневой элемент удаленного вложения.  <br/> |
-|**рутитемчанжекэй** <br/> |Определяет новый ключ изменения корневого элемента удаленного вложения.  <br/> |
+|**RootItemId** <br/> |Определяет корневой элемент удаленного вложения.  <br/> |
+|**RootItemChangeKey** <br/> |Определяет новый ключ изменения корневого элемента удаленного вложения.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[делетеаттачментреспонсемессаже](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат запроса DeleteAttachment.  <br/> |
+|[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат запроса DeleteAttachment.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **рутитемид** используется только в ответах DeleteAttachment. Это определяет идентификатор корневого элемента и, что более важно, новый ключ изменения для родительского элемента. 
+Элемент **RootItemId** используется только в ответах DeleteAttachment. Это определяет идентификатор корневого элемента и, что еще более важно, новый ключ изменения родительского элемента. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -69,7 +69,7 @@ ms.locfileid: "44457097"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

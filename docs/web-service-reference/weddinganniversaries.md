@@ -1,23 +1,23 @@
 ---
-title: веддинганниверсариес
+title: WeddingAnniversaries
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9e1388cc-ddc4-42f7-889b-17d781e80ace
-description: Элемент Веддинганниверсариес указывает массив дат юбилея свадьбы, хранящихся в виде строк, и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 0aa55af7a546a7a403a75e2dabb753bb8d76ece7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент WeddingAnniversaries указывает массив дат годовщины свадьбы, хранимых в качестве строк, и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 254bd2dcb95bed66f39edb20e065d55d6691034d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464884"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517261"
 ---
-# <a name="weddinganniversaries"></a>веддинганниверсариес
+# <a name="weddinganniversaries"></a>WeddingAnniversaries
 
-Элемент **веддинганниверсариес** указывает массив дат юбилея свадьбы, хранящихся в виде строк, и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **WeddingAnniversaries** указывает массив дат годовщины свадьбы, хранимых в качестве строк, и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <WeddingAnniversaries>
@@ -25,24 +25,24 @@ ms.locfileid: "44464884"
 </WeddingAnniversaries>
 ```
 
- **аррайофстрингаттрибутедвалуестипе**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[стрингаттрибутедвалуе](stringattributedvalue.md)
+[StringAttributedValue](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44464884"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

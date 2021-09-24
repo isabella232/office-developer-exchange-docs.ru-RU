@@ -1,23 +1,23 @@
 ---
-title: UID (Реминдертипе)
+title: UID (ReminderType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 169e7825-4480-46d2-9f84-cdab27c8bcfb
-description: Элемент UID (Реминдертипе) определяет элемент календаря, связанный с напоминанием.
-ms.openlocfilehash: ab7e59725a87ff21bb2df052b5893abf6217f78a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UID (ReminderType) определяет элемент календаря, связанный с напоминанием.
+ms.openlocfilehash: e8abb5890bd82a78b019a9d9f66e008095384c1a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530375"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517513"
 ---
-# <a name="uid-remindertype"></a>UID (Реминдертипе)
+# <a name="uid-remindertype"></a>UID (ReminderType)
 
-Элемент **UID (реминдертипе)** определяет элемент календаря, связанный с напоминанием. 
+Элемент **UID (ReminderType)** определяет элемент календаря, связанный с напоминанием. 
   
 ```XML
 <UID />
@@ -26,21 +26,21 @@ ms.locfileid: "44530375"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **UID (реминдертипе)** определяет элемент календаря. 
+Текстовое значение элемента **UID (ReminderType)** определяет элемент календаря. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -52,7 +52,7 @@ ms.locfileid: "44530375"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

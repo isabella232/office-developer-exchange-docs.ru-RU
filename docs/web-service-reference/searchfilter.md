@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a7ee364-b7da-4197-aab2-57134537109a
-description: Элемент SearchFilter содержит строку запроса, чтобы отфильтровать почтовые ящики, которые должны быть возвращены из запроса GetSearchableMailboxes.
-ms.openlocfilehash: 5bc7389ecc54dd6d1c97debdb97e6fce42517ef4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SearchFilter содержит строку запроса для фильтрации почтовых ящиков, возвращаемых из запроса GetSearchableMailboxes.
+ms.openlocfilehash: 19bb3109942c9a3064cbeaae4a19380d97c94feb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467433"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509359"
 ---
 # <a name="searchfilter"></a>SearchFilter
 
-Элемент **SearchFilter** содержит строку запроса, чтобы отфильтровать почтовые ящики, которые должны быть возвращены из запроса **GetSearchableMailboxes** . 
+Элемент **SearchFilter содержит** строку запроса для фильтрации почтовых ящиков, возвращаемых из **запроса GetSearchableMailboxes.** 
   
 ```XML
 <SearchFilter></SearchFilter>
@@ -26,15 +26,15 @@ ms.locfileid: "44467433"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44467433"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **SearchFilter** — строка запроса для фильтрации почтовых ящиков для поиска обнаружения. 
+Текстовое значение элемента **SearchFilter** — строка запросов для фильтрации почтовых ящиков для поиска обнаружения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44467433"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

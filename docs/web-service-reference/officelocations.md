@@ -1,23 +1,23 @@
 ---
-title: оффицелокатионс
+title: OfficeLocations
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3488d56-a00d-4c41-a348-45aad4af6439
-description: Элемент Оффицелокатионс указывает массив расположений Office и идентификаторы их исходных атрибутов для соответствующего пользователя.
-ms.openlocfilehash: 57493c69288b3d6cfb5e2df311d8d311b87507cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент OfficeLocations указывает массив расположения офисов и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: baa9013e25177c3d2342669ccedbb78761e37e7b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509539"
 ---
-# <a name="officelocations"></a>оффицелокатионс
+# <a name="officelocations"></a>OfficeLocations
 
-Элемент **оффицелокатионс** указывает массив расположений Office и идентификаторы их исходных атрибутов для соответствующего пользователя. 
+Элемент **OfficeLocations** указывает массив расположения офисов и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <OfficeLocations>   
@@ -25,24 +25,24 @@ ms.locfileid: "44467062"
 <OfficeLocations>
 ```
 
- **аррайофстрингаттрибутедвалуестипе**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[стрингаттрибутедвалуе](stringattributedvalue.md)
+[StringAttributedValue](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44467062"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

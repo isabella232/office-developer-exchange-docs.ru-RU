@@ -1,23 +1,23 @@
 ---
-title: конверсатионнодес
+title: ConversationNodes
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c8a35b8-a940-4b3e-8768-9ba95766fd79
-description: Элемент Конверсатионнодес указывает коллекцию узлов беседы.
-ms.openlocfilehash: 39ffb97f1004535e2fc70b58f8d56afe129e8ee2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ConversationNodes указывает коллекцию узлов беседы.
+ms.openlocfilehash: 8bacbc83676d9642ae8f842affbc11338cbdff0c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461396"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536626"
 ---
-# <a name="conversationnodes"></a>конверсатионнодес
+# <a name="conversationnodes"></a>ConversationNodes
 
-Элемент **конверсатионнодес** указывает коллекцию узлов беседы. 
+Элемент **ConversationNodes** указывает коллекцию узлов беседы. 
   
 ```XML
 <ConversationNodes>
@@ -25,28 +25,28 @@ ms.locfileid: "44461396"
 </ConversationNodes>
 ```
 
- **аррайофконверсатионнодестипе**
+ **ArrayOfConversationNodesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[конверсатионноде](conversationnode.md) <br/> |Указывает узел в беседе.  <br/> |
+|[ConversationNode](conversationnode.md) <br/> |Указывает узел в беседе.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Беседа (Конверсатионреспонсетипе)](conversation-conversationresponsetype.md) <br/> |Представляет один диалог, возвращенный в ответе **GetConversationItems** .  <br/> |
+|[Conversation (ConversationResponseType)](conversation-conversationresponsetype.md) <br/> |Представляет один разговор, возвращаемый в **ответе GetConversationItems.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44461396"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

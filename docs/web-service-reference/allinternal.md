@@ -1,57 +1,57 @@
 ---
-title: аллинтернал
+title: AllInternal
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AllInternal
 api_type:
 - schema
 ms.assetid: b7e5072f-5d9f-4ee0-b58b-4d75d878ea1c
-description: Элемент Аллинтернал имеет значение true, если все получатели сообщения электронной почты являются внутренними для организации отправителя.
-ms.openlocfilehash: c5ffe15eca5d680994acb62913ebf5effacce214
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AllInternal оценивается до true, если все получатели сообщения электронной почты являются внутренними в организации отправитель.
+ms.openlocfilehash: 5ccc484de19449bc47a39f170f691649ae4beb7f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464835"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523231"
 ---
-# <a name="allinternal"></a>аллинтернал
+# <a name="allinternal"></a>AllInternal
 
-Элемент **аллинтернал** имеет **значение true** , если все получатели сообщения электронной почты являются внутренними для организации отправителя. 
+Элемент **AllInternal** оценивается  до true, если все получатели сообщения электронной почты являются внутренними в организации отправитель. 
   
 ```xml
 <AllInternal/>
 ```
 
- **протектионрулеаллинтерналтипе**
+ **ProtectionRuleAllInternalType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Условие](condition.md) <br/> |Определяет условие, которое должно быть удовлетворено для части действия правила, которое необходимо выполнить.  <br/> |
-|[И (Протектионрулеандтипе)](and-protectionruleandtype.md) <br/> |Указывает, что все дочерние элементы должны сопоставляться со значением **true**.  <br/> |
+|[Condition](condition.md) <br/> |Определяет условие, которое должно быть удовлетворено для исполняемой части правила действий.  <br/> |
+|[And (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Указывает, что все детские элементы должны соответствовать для оценки **true.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Элемент **аллинтернал** должен быть пустым. 
+Элемент **AllInternal должен** быть пустым. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44464835"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,27 +1,27 @@
 ---
-title: фиелдордер
+title: FieldOrder
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FieldOrder
 api_type:
 - schema
 ms.assetid: b9364842-bbe2-4221-afef-bf5022bc89ec
-description: Элемент Фиелдордер представляет одно поле, по которому сортируются результаты, и указывает направление сортировки.
-ms.openlocfilehash: 19dee7175d541dd99b53e004ea8ccd785b619184
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FieldOrder представляет одно поле для сортировки результатов и указывает направление для сортировки.
+ms.openlocfilehash: 9130e3ccb5319408399628d280f8101c9e1697aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461263"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510079"
 ---
-# <a name="fieldorder"></a>фиелдордер
+# <a name="fieldorder"></a>FieldOrder
 
-Элемент **фиелдордер** представляет одно поле, по которому сортируются результаты, и указывает направление сортировки. 
+Элемент **FieldOrder** представляет одно поле для сортировки результатов и указывает направление для сортировки. 
   
 ```xml
 <FieldOrder Order="">
@@ -41,33 +41,33 @@ ms.locfileid: "44461263"
 </FieldOrder>
 ```
 
-**фиелдордертипе**
+**FieldOrderType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**Order** <br/> | Описывает направление порядка сортировки.<br/><br/> Ниже перечислены возможные значения. <br/> <br/>По возрастанию  <br/>По убыванию  <br/> |
+|**Order** <br/> | Описывает направление сортировки.<br/><br/> Ниже перечислены возможные значения. <br/> <br/>- Восходящий  <br/>- Убывка  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фиелдури](fielduri.md) <br/> |Определяет часто упоминаемые свойства по URI.  <br/> |
-|[индекседфиелдури](indexedfielduri.md) <br/> |Определяет отдельные элементы словаря.  <br/> |
-|[екстендедфиелдури](extendedfielduri.md) <br/> |Определяет свойства MAPI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Определяет часто ссылаясь свойства по URI.  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |Определяет отдельных членов словаря.  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |Определяет свойства MAPI.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SortOrder](sortorder.md) <br/> |Определяет порядок сортировки элементов в запросе FindItem.  <br/> Ниже приведено выражение XPath для этого элемента:`/FindItem/SortOrder` <br/> |
+|[SortOrder](sortorder.md) <br/> |Определяет сортировку элементов в запросе FindItem.  <br/> Ниже приводится выражение XPath к этому элементу:  `/FindItem/SortOrder` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -77,7 +77,7 @@ ms.locfileid: "44461263"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

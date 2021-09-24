@@ -5,53 +5,53 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndDateTime
 api_type:
 - schema
 ms.assetid: 54d14e47-a8f7-400b-a859-c7ea7ce4c6a4
-description: Элемент EndDateTime указывает дату и время окончания для правила или поиска.
-ms.openlocfilehash: 9556e4c1ef405ae66a71d19d99d9a71a61f54efc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EndDateTime указывает даты окончания и время для правила или поиска.
+ms.openlocfilehash: 19f2e64e37323f90f5c576acd5551675105f3bd3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460136"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517093"
 ---
 # <a name="enddatetime"></a>EndDateTime
 
-Элемент **EndDateTime** указывает дату и время окончания для правила или поиска. 
+Элемент **EndDateTime** указывает даты окончания и время для правила или поиска. 
   
 ```XML
 <EndDateTime/>
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Содержит условия для типов сообщений, которые требуется найти.  <br/> |
-|[висиндатеранже](withindaterange.md) <br/> |Указывает диапазон дат, в течение которого должны быть получены входящие сообщения, чтобы применялось условие или исключение.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Содержит критерии для типов сообщений, которые необходимо найти.  <br/> |
+|[WithinDateRange](withindaterange.md) <br/> |Указывает диапазон дат, в пределах которого должны быть получены входящие сообщения, чтобы применить условие или исключение.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-При использовании этого элемента необходимо указать текстовое значение, представляющее дату и время.
+Если используется этот элемент, требуется текстовое значение, представляю которое представляет дату и время.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44460136"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

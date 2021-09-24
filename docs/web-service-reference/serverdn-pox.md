@@ -1,34 +1,34 @@
 ---
-title: Сервердн (POX)
+title: ServerDN (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2ef73d13-e8bb-43f6-96c7-3ee157fed739
-description: Элемент Сервердн указывает различающееся имя компьютера, на котором работает Microsoft Exchange Server 2007.
-ms.openlocfilehash: 16c6e7368e221b7e54c8d7d63532bb29464a7e54
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ServerDN указывает отличительное имя компьютера, запущенного Microsoft Exchange Server 2007 г.
+ms.openlocfilehash: 4ae47f2e6ddecf37f9cc13529d8ce7c393d82129
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461998"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517800"
 ---
-# <a name="serverdn-pox"></a>Сервердн (POX)
+# <a name="serverdn-pox"></a>ServerDN (POX)
 
-Элемент **сервердн** указывает различающееся имя компьютера, на котором работает Microsoft Exchange Server 2007. 
+Элемент **ServerDN** указывает отличительное имя компьютера, запущенного Microsoft Exchange Server 2007 г. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Протокол (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[Сервердн (POX)](serverdn-pox.md)
+[ServerDN (POX)](serverdn-pox.md)
   
 ```xml
 <ServerDN/>
@@ -36,33 +36,33 @@ ms.locfileid: "44461998"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором работает Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на Microsoft Exchange Server 2007 г., на который установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет различающееся имя сервера Exchange.
+Текстовое значение представляет собой отличительное имя Exchange сервера.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Значение **сервердн** используется только в том случае, если [тип (POX)](type-pox.md) равен курсу. 
+Значение **ServerDN** используется только в том случае, если [type (POX)](type-pox.md) равен EXCH. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

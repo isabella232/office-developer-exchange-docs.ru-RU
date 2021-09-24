@@ -1,51 +1,51 @@
 ---
-title: маилбоксскопе
+title: MailboxScope
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9778823-f290-4827-ba19-5f391ed4f877
-description: Элемент Маилбоксскопе указывает, следует ли выполнять поиск или получение для беседы в основном почтовом ящике, архивном почтовом ящике или основном и архивном почтовом ящике.
-ms.openlocfilehash: 92823c06d4fe186917c3cfb532eda821bd6a95a7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MailboxScope определяет, должен ли поиск или извлечение для беседы охватывать основной почтовый ящик, архивный почтовый ящик или основной и архивный почтовый ящик.
+ms.openlocfilehash: 705c72ae2aefbb16599f392eb712d080668490b0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455375"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522882"
 ---
-# <a name="mailboxscope"></a>маилбоксскопе
+# <a name="mailboxscope"></a>MailboxScope
 
-Элемент **маилбоксскопе** указывает, следует ли выполнять поиск или получение для беседы в основном почтовом ящике, архивном почтовом ящике или основном и архивном почтовом ящике. 
+Элемент **MailboxScope** определяет, должен ли поиск или извлечение для беседы охватывать основной почтовый ящик, архивный почтовый ящик или основной и архивный почтовый ящик. 
   
 ```XML
 <MailboxScope> PrimaryOnly | ArchiveOnly | All </MailboxScope>
 ```
 
-**маилбокссеарчлокатионтипе**
+**MailboxSearchLocationType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[FindConversation](findconversation.md)  |  [GetConversationItems](getconversationitems.md)  |  [Беседа (конверсатионтипе)](conversation-conversationtype.md)
+[FindConversation](findconversation.md)  |  [GetConversationItems](getconversationitems.md)  |  [Беседа (ConversationType)](conversation-conversationtype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **маилбоксскопе** является областью для поиска или получение элементов в беседе в основных почтовых ящиках, архивных почтовых ящиках или как в основном, так и в архивных почтовых ящиках. Текстовое значение **PrimaryOnly** указывает область, предназначенную для основного почтового ящика пользователя. Текстовое значение **ArchiveOnly** указывает область, предназначенную для архивного почтового ящика пользователя. Текстовое значение **ALL** указывает область, которая предназначена как для основного почтового ящика, так и для архивного почтового ящика. 
+Текстовое значение элемента **MailboxScope** — это область поиска или получения элементов в беседе между основными почтовыми ящиками, архивными почтовыми ящиками или первичными и архивными почтовыми ящиками. Текстовое значение **PrimaryOnly указывает** область, которая ориентирована на основной почтовый ящик для пользователя. Текстовое значение **ArchiveOnly указывает** область, которая нацелена на почтовый ящик архива для пользователя. Текстовое значение **All** указывает область, которая ориентирована как на основной почтовый ящик, так и на архивный почтовый ящик. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44455375"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

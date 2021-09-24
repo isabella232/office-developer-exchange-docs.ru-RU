@@ -1,23 +1,23 @@
 ---
-title: фаиледмаилбокс
+title: FailedMailbox
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d4c9816-54bb-4932-b4ba-f057c9173a1a
-description: Элемент Фаиледмаилбокс указывает сообщение об ошибке для почтового ящика, на который произошел сбой поиска.
-ms.openlocfilehash: 404084bc342eb555db61c4216e936bee6ced9c36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FailedMailbox указывает сообщение об ошибке для почтового ящика, сбоя в поиске.
+ms.openlocfilehash: 5e2bfbce5da35ecacd1757a9c612ed226af963ee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461963"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535260"
 ---
-# <a name="failedmailbox"></a>фаиледмаилбокс
+# <a name="failedmailbox"></a>FailedMailbox
 
-Элемент **фаиледмаилбокс** указывает сообщение об ошибке для почтового ящика, на который произошел сбой поиска. 
+Элемент **FailedMailbox** указывает сообщение об ошибке для почтового ящика, сбоя в поиске. 
   
 ```XML
 <FailedMailbox>
@@ -28,31 +28,31 @@ ms.locfileid: "44461963"
 </FailedMailbox>
 ```
 
- **фаиледсеарчмаилбокстипе**
+ **FailedSearchMailboxType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Mailbox (строка)](mailbox-string.md) <br/> |Содержит идентификатор для почтового ящика.  <br/> |
-|[ErrorCode (int)](errorcode-int.md) <br/> |Указывает код ошибки почтового ящика, в котором произошел сбой поиска.  <br/> |
+|[Mailbox (строка)](mailbox-string.md) <br/> |Содержит идентификатор почтового ящика.  <br/> |
+|[ErrorCode (int)](errorcode-int.md) <br/> |Указывает код ошибки почтового ящика, который не справился с поиском.  <br/> |
 |[ErrorMessage](errormessage.md) <br/> |Представляет причину ошибки проверки.  <br/> |
-|[IsArchive](isarchive.md) <br/> |Задает логическое значение, указывающее, является ли почтовый ящик архивным.  <br/> |
+|[IsArchive](isarchive.md) <br/> |Указывает значение Boolean, которое указывает, является ли почтовый ящик архивом.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фаиледмаилбоксес](failedmailboxes.md) <br/> |Указывает массив неудачных почтовых ящиков.  <br/> |
+|[FailedMailboxes](failedmailboxes.md) <br/> |Указывает массив сбоя почтовых ящиков.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -64,7 +64,7 @@ ms.locfileid: "44461963"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

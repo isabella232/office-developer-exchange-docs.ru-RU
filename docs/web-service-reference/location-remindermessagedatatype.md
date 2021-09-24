@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 173148af-5dda-4322-8d0c-da3ba3780a43
-description: Элемент Location (ReminderMessageDataType) указывает расположение элемента календаря, для который нужно напоминание.
-ms.openlocfilehash: 16474c1b635a3e2337a89b98b6660293276774bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Location (ReminderMessageDataType) указывает расположение элемента календаря, для который требуется напоминание.
+ms.openlocfilehash: db6b8ab0ff5970d6d18af6c7baf4e6ba6609ccd7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433723"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509639"
 ---
 # <a name="location-remindermessagedatatype"></a>Location (ReminderMessageDataType)
 
-Элемент **Location (ReminderMessageDataType)** указывает расположение элемента календаря, для который нужно напоминание. 
+Элемент **Location (ReminderMessageDataType)** указывает расположение элемента календаря, для который требуется напоминание. 
   
 ```xml
 <Location/>
@@ -42,9 +42,9 @@ ms.locfileid: "44433723"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Location** — это расположение элемента календаря. 
+Текстовое значение элемента **Location** — расположение элемента календаря. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

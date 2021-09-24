@@ -1,23 +1,23 @@
 ---
-title: реадфлаг
+title: ReadFlag
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d91aa89-9f9f-4877-846d-aaf48bbeec7c
-description: Элемент Реадфлаг указывает состояние чтения, которое необходимо задать для элементов в папке.
-ms.openlocfilehash: 1d3b9f3fe199ed2e63bdb632135120a5f89f4d1f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ReadFlag указывает состояние чтения для набора элементов в папке.
+ms.openlocfilehash: ac079f6adbdb2686221dd52d748b05ac4141d6c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529898"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523652"
 ---
-# <a name="readflag"></a>реадфлаг
+# <a name="readflag"></a>ReadFlag
 
-Элемент **реадфлаг** указывает состояние чтения, которое необходимо задать для элементов в папке. 
+Элемент **ReadFlag** указывает состояние чтения для набора элементов в папке. 
   
 ```XML
 <ReadFlag>true | false</ReadFlag>
@@ -26,15 +26,15 @@ ms.locfileid: "44529898"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44529898"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **реадфлаг** указывает на то, что элементы в папке помечаются как прочтенные. Значение **false** указывает на то, что элементы в папке помечаются как непрочтенные. 
+Значение текста, **истинное** для **элемента ReadFlag,** указывает на то, что элементы в папке будут помечены как чтение. Значение false **указывает,** что элементы в папке будут помечены как непрочитанные. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44529898"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

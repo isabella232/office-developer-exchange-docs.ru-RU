@@ -1,33 +1,33 @@
 ---
-title: Операция по отмене подписки
+title: Операция Unsubscribe
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Unsubscribe
 api_type:
 - schema
 ms.assetid: 994a9d2b-1501-4804-90f0-12bd914496ec
-description: Операция unsubscribe используется для завершения подписки на уведомления по запросу. Используйте эту операцию вместо времени ожидания подписки. Эта операция допустима только для уведомлений о опрашивающей репликации.
-ms.openlocfilehash: 054f89af1ba5c780c7de5016a6dfe34086c97f02
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция "Отписка" используется для окончания подписки на уведомление о вытягии. Используйте эту операцию, а не разрешая время действия подписки. Эта операция действительна только для уведомлений о вытягиве.
+ms.openlocfilehash: 96d30bcd585b07a7ed0497a4a4c723485e8626ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468028"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517506"
 ---
-# <a name="unsubscribe-operation"></a>Операция по отмене подписки
+# <a name="unsubscribe-operation"></a>Операция Unsubscribe
 
-Операция unsubscribe используется для завершения подписки на уведомления по запросу. Используйте эту операцию вместо времени ожидания подписки. Эта операция допустима только для уведомлений о опрашивающей репликации.
+Операция "Отписка" используется для окончания подписки на уведомление о вытягии. Используйте эту операцию, а не разрешая время действия подписки. Эта операция действительна только для уведомлений о вытягиве.
   
-## <a name="unsubscribe-request-example"></a>Пример запроса unsubscribe
+## <a name="unsubscribe-request-example"></a>Пример запроса на отписки
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показано SOAP-сообщение SOAP, отправляемое для отмены подписки клиента из службы уведомлений.
+В следующем примере показано сообщение SOAP XML, которое отправляется для отписки клиента из службы уведомлений.
   
 ### <a name="code"></a>Код
 
@@ -43,19 +43,19 @@ ms.locfileid: "44468028"
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-request-elements"></a>Элементы запроса отменять подписку
+### <a name="unsubscribe-request-elements"></a>Отписать элементы запроса
 
 В запросе используются следующие элементы:
   
 - [Отмена подписки](unsubscribe.md)
     
-- [SubscriptionId (Events)](subscriptionid-getevents.md)
+- [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
-## <a name="successful-unsubscribe-response-example"></a>Пример успешного отклика отмены подписки
+## <a name="successful-unsubscribe-response-example"></a>Успешный пример ответа на отписки
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос отказа от подписки.
+В следующем примере показан успешный ответ на запрос отписки.
   
 ### <a name="code"></a>Код
 
@@ -82,25 +82,25 @@ ms.locfileid: "44468028"
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-response-elements"></a>Элементы отклика для отмены подписки
+### <a name="unsubscribe-response-elements"></a>Отписать элементы ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
 - [Отмена подписки](unsubscribe.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [унсубскрибереспонсемессаже](unsubscriberesponsemessage.md)
+- [UnsubscribeResponseMessage](unsubscriberesponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-## <a name="unsubscribe-error-response-example"></a>Пример отклика об отмене подписки
+## <a name="unsubscribe-error-response-example"></a>Пример ответа на ошибку, отписав
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-Следующий пример ответа об отказе от подписки возникает в ответ на попытку отменить подписку с помощью идентификатора подписки, который не удается найти в хранилище Exchange.
+Следующий пример ответа на ошибку от подписки возникает в ответ на попытку отписаться с помощью идентификатора подписки, который не может быть расположен в Exchange магазине.
   
 ### <a name="code"></a>Код
 
@@ -129,27 +129,27 @@ ms.locfileid: "44468028"
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-error-response-elements"></a>Элементы отклика на сообщение об ошибке отклика
+### <a name="unsubscribe-error-response-elements"></a>Отписать элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [унсубскрибереспонсе](unsubscriberesponse.md)
+- [UnsubscribeResponse](unsubscriberesponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [унсубскрибереспонсемессаже](unsubscriberesponsemessage.md)
+- [UnsubscribeResponseMessage](unsubscriberesponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 
 - [Операции подписки](subscribe-operation.md)
 - [Операция GetEvents](getevents-operation.md)
-- [Использование подписок по запросу](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+- [Использование подписки pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

@@ -1,43 +1,43 @@
 ---
-title: Subject (Календаревентдетаилс)
+title: Subject (CalendarEventDetails)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Subject
 api_type:
 - schema
 ms.assetid: 05e955b5-8e90-4043-b06b-6ce523eaed9b
-description: Элемент subject представляет тему элемента календаря.
-ms.openlocfilehash: 268e5fa4bb8d02d83154267fc8e475c6d2b7c31c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Subject представляет субъект элемента календаря.
+ms.openlocfilehash: a52e660d9c11a677609f8a42261d725af20a6df5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463057"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517667"
 ---
-# <a name="subject-calendareventdetails"></a>Subject (Календаревентдетаилс)
+# <a name="subject-calendareventdetails"></a>Subject (CalendarEventDetails)
 
-Элемент **subject** представляет тему элемента календаря. 
+Элемент **Subject** представляет субъект элемента календаря. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[фрибусиреспонсеаррай](freebusyresponsearray.md)
+[FreeBusyResponseArray](freebusyresponsearray.md)
   
-[фрибусиреспонсе](freebusyresponse.md)
+[FreeBusyResponse](freebusyresponse.md)
   
-[фрибусивиев](freebusyview.md)
+[FreeBusyView](freebusyview.md)
   
-[календаревентаррай](calendareventarray.md)
+[CalendarEventArray](calendareventarray.md)
   
-[календаревент](calendarevent.md)
+[CalendarEvent](calendarevent.md)
   
-[календаревентдетаилс](calendareventdetails.md)
+[CalendarEventDetails](calendareventdetails.md)
   
-[Subject (Календаревентдетаилс)](subject-calendareventdetails.md)
+[Subject (CalendarEventDetails)](subject-calendareventdetails.md)
   
 ```xml
 <Subject/>
@@ -46,27 +46,27 @@ ms.locfileid: "44463057"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаревентдетаилс](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения о событии календаря.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения для события календаря.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным, если этот элемент возвращается в ответе. Этот элемент не возвращается, если значение элемента. [Private](isprivate.md) равно **true**. Этот элемент может содержать пустую строку. Этот элемент является необязательным, если используется элемент [календаревентдетаилс](calendareventdetails.md) . 
+Если этот элемент возвращается в ответ, требуется текстовое значение. Этот элемент не будет возвращен, если значение [элемента IsPrivate](isprivate.md) равно значению **true.** Этот элемент может содержать пустую строку. Этот элемент необязателен, если используется элемент [CalendarEventDetails.](calendareventdetails.md) 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -76,7 +76,7 @@ ms.locfileid: "44463057"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -85,7 +85,7 @@ ms.locfileid: "44463057"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

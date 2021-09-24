@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 211731a3-2470-49af-bda3-1ddfc15a8e46
-description: Поиск сведений о DisableAppной операции EWS.
-ms.openlocfilehash: 8e1f3a257a70c042a01ed70da97cfa0573a2d454
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции DisableApp EWS.
+ms.openlocfilehash: 7a4d3a13351042cc1a192388416381ebe28206bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462068"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510157"
 ---
 # <a name="disableapp-operation"></a>Операция DisableApp
 
-Поиск сведений о **DisableAppной** операции EWS. 
+Сведения об операции **DisableApp** EWS. 
   
 Операция **DisableApp** отключает почтовое приложение для Outlook. 
   
@@ -25,20 +25,20 @@ ms.locfileid: "44462068"
   
 ## <a name="using-the-disableapp-operation"></a>Использование операции DisableApp
 
-Операция **DisableApp** принимает в запросе два аргумента, которые определяют, что почтовое приложение будет отключено, и причины, по которым оно было отключено. 
+Операция **DisableApp** принимает два аргумента в запросе, определяемом для отключения почтового приложения, и причина его отключения. 
   
-### <a name="disableapp-operation-soap-headers"></a>Заголовки SOAP операции DisableApp
+### <a name="disableapp-operation-soap-headers"></a>Отключение загодеров soap операции
 
-Операция **DisableApp** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции DisableApp** можно использовать заглавные таблицы SOAP, указанные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="disableapp-operation-request-example-disable-a-mail-app-installed-in-a-mailbox"></a>Пример запроса операции DisableApp: Отключение почтового приложения, установленного в почтовом ящике
+## <a name="disableapp-operation-request-example-disable-a-mail-app-installed-in-a-mailbox"></a>Пример запроса на операцию DisableApp: отключить почтовое приложение, установленное в почтовом ящике.
 
-В следующем примере запроса операции **DisableApp** показано, как отключить почтовое приложение. Идентификатор приложения можно найти в манифесте приложения, который возвращается в ответе [операции GetAppManifests](getappmanifests-operation.md) . 
+В следующем примере запроса на операцию **DisableApp** показано, как отключить почтовое приложение. Идентификатор приложения можно найти в манифесте приложения, возвращаемом в ответе [операции GetAppManifests.](getappmanifests-operation.md) 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -61,17 +61,17 @@ ms.locfileid: "44462068"
 </soap:Envelope>
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [DisableApp](disableapp.md)
     
 - [ID (строка)](id-string.md)
     
-- [дисаблереасон](disablereason.md)
+- [DisableReason](disablereason.md)
     
-## <a name="successful-disableapp-operation-response"></a>Успешный отклик операции DisableApp
+## <a name="successful-disableapp-operation-response"></a>Успешный ответ на операцию DisableApp
 
-В следующем примере показан успешный ответ на запрос операции **DisableApp** для отключения почтового приложения. 
+В следующем примере показан успешный ответ на запрос на операцию **DisableApp,** чтобы отключить почтовое приложение. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,15 +97,15 @@ ms.locfileid: "44462068"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [дисаблеаппреспонсе](disableappresponse.md)
+- [DisableAppResponse](disableappresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-## <a name="disableapp-operation-error-response"></a>Ответ об ошибке операции DisableApp
+## <a name="disableapp-operation-error-response"></a>Отключение ответа на ошибку операции вApp
 
-В следующем примере показан ответ об ошибке для запроса операции **DisableApp** . Это ответ на запрос на отключение почтового приложения, которое не установлено в почтовом ящике. 
+В следующем примере показан ответ на ошибку на запрос **операции DisableApp.** Это ответ на запрос отключить почтовое приложение, которое не установлено в почтовом ящике. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -123,17 +123,17 @@ ms.locfileid: "44462068"
 </s:Envelope>
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [дисаблеаппреспонсе](disableappresponse.md)
+- [DisableAppResponse](disableappresponse.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
+Дополнительные коды ошибок, общие для EWS и специфические для этой операции, см. [в ответе.](responsecode.md)
   
 ## <a name="see-also"></a>См. также
 

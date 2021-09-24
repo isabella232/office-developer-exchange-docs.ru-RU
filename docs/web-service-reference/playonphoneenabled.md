@@ -1,27 +1,27 @@
 ---
-title: плайонфонинаблед
+title: PlayOnPhoneEnabled
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneEnabled
 api_type:
 - schema
 ms.assetid: 6f800912-be4c-46f9-aa1e-dff0bbf877c5
-description: Элемент Плайонфонинаблед указывает, включена ли функция проигрывания на телефоне.
-ms.openlocfilehash: 8342e2bcc9c767903e0f6c180000a0f00eccc311
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PlayOnPhoneEnabled указывает, включена ли функция Play-on-Телефон.
+ms.openlocfilehash: ebbcea0d055b8cdc869f468295eb20396caa99fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529933"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516519"
 ---
-# <a name="playonphoneenabled"></a>плайонфонинаблед
+# <a name="playonphoneenabled"></a>PlayOnPhoneEnabled
 
-Элемент **плайонфонинаблед** указывает, включена ли функция проигрывания на телефоне. 
+Элемент **PlayOnPhoneEnabled** указывает, включена ли функция Play-on-Телефон. 
   
 ```XML
 <PlayOnPhoneEnabled>true | false</PlayOnPhoneEnabled>
@@ -30,27 +30,27 @@ ms.locfileid: "44529933"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[унифиедмессагингконфигуратион](unifiedmessagingconfiguration.md) <br/> |Содержит сведения о конфигурации для службы единой системы обмена сообщениями.  <br/> |
+|[UnifiedMessagingConfiguration](unifiedmessagingconfiguration.md) <br/> |Содержит сведения о конфигурации для службы единой системы обмена сообщениями.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Элемент **плайонфонинаблед** имеет значение **true** , если для учетной записи включено воспроизводимое по телефону; в противном случае — значение **false**.
+Элемент **PlayOnPhoneEnabled** имеет значение **true,** если для учетной записи включена игра на телефоне; в противном случае значение является **ложным.**
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент обязательный.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44529933"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

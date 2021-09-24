@@ -1,23 +1,23 @@
 ---
-title: Дочерние элементы (Аррайофстрингаррайаттрибутедвалуестипе)
+title: Children (ArrayOfStringArrayAttributedValuesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d37b3fd5-63f1-4003-a6ec-54adfce23d52
-description: Элемент Children указывает массив дочерних имен и идентификаторов их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: f4217f8a444bfdb6d86ff7b912294cfad9cbdcdc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Children указывает массив имен детей и идентификаторов их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 878f491af3047d313920cd0f3574de2daa8c21f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460234"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536976"
 ---
-# <a name="children-arrayofstringarrayattributedvaluestype"></a>Дочерние элементы (Аррайофстрингаррайаттрибутедвалуестипе)
+# <a name="children-arrayofstringarrayattributedvaluestype"></a>Children (ArrayOfStringArrayAttributedValuesType)
 
-Элемент **Children** указывает массив дочерних имен и идентификаторов их исходных атрибутов для связанного пользователя. 
+Элемент **Children** указывает массив имен детей и идентификаторов их исходных атрибутов для связанной персоны. 
   
 ```XML
 <Children>
@@ -25,28 +25,28 @@ ms.locfileid: "44460234"
 </Children>
 ```
 
- **аррайофстрингаррайаттрибутедвалуестипе**
+ **ArrayOfStringArrayAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[стрингаррайаттрибутедвалуе](stringarrayattributedvalue.md) <br/> |Задает экземпляр массива строковых данных для элемента персоны.  <br/> |
+|[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |Указывает экземпляр массива строковых данных для элемента persona.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44460234"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateUserConfiguration
 api_type:
 - schema
 ms.assetid: eb5b8ab6-9743-481c-aac9-f9aa889bd353
-description: Операция CreateUserConfiguration создает объект конфигурации пользователя для папки.
-ms.openlocfilehash: 0c9233146d21c7014be15896426b968106485200
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция CreateUserConfiguration создает объект конфигурации пользователя в папке.
+ms.openlocfilehash: 7b18bf732126ab7296cdc9afd598470102e17c60
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463785"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536273"
 ---
 # <a name="createuserconfiguration-operation"></a>Операция CreateUserConfiguration
 
-Операция **CreateUserConfiguration** создает объект конфигурации пользователя для папки. 
+Операция **CreateUserConfiguration** создает объект конфигурации пользователя в папке. 
   
-## <a name="createuserconfiguration-request-example"></a>Пример запроса CreateUserConfiguration
+## <a name="createuserconfiguration-request-example"></a>Пример запроса createUserConfiguration
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **CreateUserConfiguration** показано, как сформировать запрос на создание объекта конфигурации пользователя в папке "Черновики". 
+В следующем примере **запроса CreateUserConfiguration** показано, как сформировать запрос на создание объекта конфигурации пользователя в папке Drafts. 
   
 ### <a name="code"></a>Код
 
@@ -67,11 +67,11 @@ ms.locfileid: "44463785"
 </soap:Envelope>
 ```
 
-## <a name="createuserconfiguration-response-example"></a>Пример отклика CreateUserConfiguration
+## <a name="createuserconfiguration-response-example"></a>Пример ответа createUserConfiguration
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **CreateUserConfiguration** . 
+В следующем примере показан успешный ответ на **запрос CreateUserConfiguration.** 
   
 ### <a name="code"></a>Код
 

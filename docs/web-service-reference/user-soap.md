@@ -1,24 +1,24 @@
 ---
-title: Пользователь (SOAP)
+title: User (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: c6bc0031-bc1d-41bd-84e4-9074a5b77012
-description: Элемент User представляет идентификатор одного пользователя.
-ms.openlocfilehash: f151ffa8050a10cdbb4562471d815f8692596cc3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент User представляет удостоверение одного пользователя.
+ms.openlocfilehash: 545869e21726d60ecdd503106c743d66fc752414
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456348"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517380"
 ---
-# <a name="user-soap"></a>Пользователь (SOAP)
+# <a name="user-soap"></a>User (SOAP)
 
-Элемент **User** представляет идентификатор одного пользователя. 
+Элемент **User** представляет удостоверение одного пользователя. 
   
 ```XML
 <User>
@@ -28,40 +28,40 @@ ms.locfileid: "44456348"
 </User>
 ```
 
- **User**
+ **Пользователь**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[LegacyDN (SOAP)](legacydn-soap.md) <br/> |Представляет альтернативное различающееся имя устаревшего почтового ящика.  <br/> |
-|[Почтовый ящик (SOAP)](mailbox-soap.md) <br/> |Содержит адрес электронной почты пользователя, которого требуется обнаружить.  <br/> |
-|[Рекуестедсеттингс (SOAP)](requestedsettings-soap.md) <br/> |Содержит имена запрошенных параметров конфигурации.  <br/> |
+|[LegacyDN (SOAP)](legacydn-soap.md) <br/> |Представляет альтернативное имя почтового ящика.  <br/> |
+|[Mailbox (SOAP)](mailbox-soap.md) <br/> |Содержит обнаруженный адрес электронной почты пользователя.  <br/> |
+|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Содержит имена параметров запрашиваемой конфигурации.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователи (SOAP)](users-soap.md) <br/> |Представляет коллекцию элементов **User** .  <br/> |
+|[Users (SOAP)](users-soap.md) <br/> |Представляет коллекцию **элементов User.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,7 +70,7 @@ ms.locfileid: "44456348"
 
 [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
+[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
   
-[Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
+[Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 

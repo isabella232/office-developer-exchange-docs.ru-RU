@@ -1,27 +1,27 @@
 ---
-title: конфликтингмитингкаунт
+title: ConflictingMeetingCount
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConflictingMeetingCount
 api_type:
 - schema
 ms.assetid: 11f4d93a-b514-4a27-8d19-f4f0a35a185e
-description: Элемент Конфликтингмитингкаунт представляет количество собраний, которые конфликтуют с элементом календаря.
-ms.openlocfilehash: d53245e1b5d1f0182b28b15bf55ba9742bbb2a07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ConflictingMeetingCount представляет количество собраний, конфликтующих с элементом календаря.
+ms.openlocfilehash: e6929160dacdf026ba8551bbcf6f991fbdc0b909
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463862"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536884"
 ---
-# <a name="conflictingmeetingcount"></a>конфликтингмитингкаунт
+# <a name="conflictingmeetingcount"></a>ConflictingMeetingCount
 
-Элемент **конфликтингмитингкаунт** представляет количество собраний, которые конфликтуют с элементом календаря. 
+Элемент **ConflictingMeetingCount** представляет количество собраний, конфликтующих с элементом календаря. 
   
 ```xml
 <ConflictingMeetingCount/>
@@ -30,30 +30,30 @@ ms.locfileid: "44463862"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет целое число. Это свойство доступно только для чтения.
+Текстовое значение представляет собой integer. Это свойство доступно только для чтения.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент календаря считается конфликтующим, если он происходит, по крайней мере, частично, в то же время, что и другой элемент календаря в той же папке "Календарь". Если элемент календаря находится в папке "некалендарный", он сравнивается с элементами календаря в папке "Календарь" по умолчанию. Приглашения на собрания сравниваются с элементами календаря в папке "Календарь" по умолчанию.
+Элемент календаря считается конфликтующий, если он происходит, по крайней мере частично, одновременно с другим элементом календаря в той же папке календаря. Если элемент календаря находится в некалендарной папке, его сравнивают с элементами календаря в папке календаря по умолчанию. Запросы на собрания сравниваются с элементами календаря в папке календаря по умолчанию.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -63,7 +63,7 @@ ms.locfileid: "44463862"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

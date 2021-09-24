@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 12c5da4d-290c-4a8a-a965-0bf5d55c7978
-description: Операция CreateItem создает элементы Task в хранилище Exchange.
-ms.openlocfilehash: 502108843193e7ed8377b0fade9e106ef3d1976c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция CreateItem создает элементы задач в Exchange магазине.
+ms.openlocfilehash: 814a32e82cd5c1c95be252d1b53387741898dd40
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457104"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510261"
 ---
 # <a name="createitem-operation-task"></a>Операция CreateItem (задача)
 
-Операция CreateItem создает элементы Task в хранилище Exchange.
+Операция CreateItem создает элементы задач в Exchange магазине.
   
-## <a name="task-createitem-request"></a>Запрос CreateItem задачи
+## <a name="task-createitem-request"></a>Запрос на создание задач
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса CreateItem показано, как создать элемент задачи в почтовом ящике.
+В следующем примере запроса CreateItem показано, как создать элемент задачи в почтовом ящике.
   
 ### <a name="code"></a>Код
 
@@ -55,47 +55,47 @@ ms.locfileid: "44457104"
 
 ### <a name="comments"></a>Комментарии
 
-Запросы на повторяющиеся задачи изменяются при их получении на компьютере под управлением Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа. Происходят следующие изменения:
+Запросы на повторяющиеся задачи изменяются, когда они получаются на компьютере, который Microsoft Exchange Server 2007, где установлена роль сервера клиентского доступа. Происходят следующие изменения:
   
-- Только дата сохраняется в свойстве [StartDate (повторение)](startdate-recurrence.md) для интервала повторения задачи. Часть времени усекается. 
+- Для свойства [StartDate (Recurrence)](startdate-recurrence.md) диапазона повторяемости задачи сохранена только дата. Временная часть усечена. 
     
-- Свойство [StartDate (повторение)](startdate-recurrence.md) можно изменить в зависимости от расписания повторения. Например, если расписание повторения задано как каждый понедельник, а значение StartDate равно 26 октября 2006 г., то есть четверг, Дата начала StartDate составляет 30 октября 2006, то есть на следующий понедельник. 
+- Свойство [StartDate (Recurrence)](startdate-recurrence.md) может быть скорректировано в зависимости от шаблона повторения. Например, если шаблон повторения указывается как каждый понедельник, а startDate — 26 октября 2006 г., то есть четверг, StartDate корректируется до 30 октября 2006 г., то есть на следующий понедельник. 
     
-- Если свойство [StartDate](startdate.md) задания задано, оно обновляется в соответствующем поле [StartDate (повторение)](startdate-recurrence.md) диапазона повторения. Свойство [DueDate](duedate.md) задачи также обновляется в соответствии с новым [StartDate](startdate.md).
+- Если [задано свойство StartDate](startdate.md) задачи, оно обновляется в соответствие с [диапазоном повторения StartDate (Recurrence).](startdate-recurrence.md) Свойство [DueDate](duedate.md) задачи также обновляется на основе нового [StartDate.](startdate.md)
     
-- Если [StartDate](startdate.md) не задан, обновляется только свойство [DueDate](duedate.md) , которое будет иметь значение [StartDate (повторение)](startdate-recurrence.md) диапазона повторения. 
+- Если [startDate](startdate.md) не установлен, обновляется только свойство [DueDate,](duedate.md) чтобы соответствовать [диапазону повторения StartDate (Recurrence).](startdate-recurrence.md) 
     
-В следующей таблице показаны изменения, которые сервер клиентского доступа выполняет с повторяющейся задачей, у которой есть задача. повторять. шаблон каждого понедельника.
+В следующей таблице показаны изменения, которые сервер клиентского доступа вносит в повторяемую задачу, которая имеет task.Recurrence.Pattern каждого понедельника.
   
-**Изменение повторяющейся задачи**
+**Изменения в повторяющейся задаче**
 
-|**Свойство**|**Исходное значение**|**Обновленное значение**|
+|**Property**|**Исходное значение**|**Обновленное значение**|
 |:-----|:-----|:-----|
-|Task. StartDate  <br/> |1 января 2006 г.  <br/> |30 октября 2006 г.  <br/> |
-|Task. DueDate  <br/> |3 января 2006 г.  <br/> |1 ноября 2006 г.  <br/> |
-|Task. повторяющуюся. Range. StartDate  <br/> |26 октября 2006 г.  <br/> |30 октября 2006 г.  <br/> |
+|Task.StartDate  <br/> |1 января 2006 г.  <br/> |30 октября 2006 г.  <br/> |
+|Task.DueDate  <br/> |3 января 2006 г.  <br/> |1 ноября 2006 г.  <br/> |
+|Task.Recurrence.Range.StartDate  <br/> |26 октября 2006 г.  <br/> |30 октября 2006 г.  <br/> |
    
-По умолчанию, если папка назначения не указана, элементы задач создаются в папке "задачи".
+По умолчанию, если папка назначения не указана, элементы задач создаются в папке Задачи.
   
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
 - [CreateItem](createitem.md)
     
-- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
-- [Task](task.md)
+- [Задача](task.md)
     
 - [Тема](subject.md)
     
 - [DueDate](duedate.md)
     
-- [Status](status.md)
+- [Состояние](status.md)
     
-## <a name="successful-task-createitem-response"></a>Отклик об успешном выполнении операции CreateItem
+## <a name="successful-task-createitem-response"></a>Успешный ответ createItem задачи
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
 В следующем примере показан успешный ответ на запрос CreateItem.
   
@@ -131,23 +131,23 @@ ms.locfileid: "44457104"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В ответ включаются следующие элементы:
+В ответ включены следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [креатеитемреспонсе](createitemresponse.md)
+- [CreateItemResponse](createitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [креатеитемреспонсемессаже](createitemresponsemessage.md)
+- [CreateItemResponseMessage](createitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
-- [Task](task.md)
+- [Задача](task.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
 ## <a name="see-also"></a>См. также
 

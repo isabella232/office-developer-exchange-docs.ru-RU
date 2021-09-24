@@ -1,21 +1,21 @@
 ---
-title: Операция Жеторганизатионрелатионшипсеттингс (SOAP)
+title: Операция GetOrganizationRelationshipSettings (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef3ef966-b24b-4f38-816f-0a10bed0103e
-description: Операция Жеторганизатионрелатионшипсеттинг получает параметры из всех подходящих Организатионрелатионшипс, которые имеют по крайней мере один домен в свойстве имя_домена, который сопоставляется по крайней мере с одним утверждением EmailAddress в маркере. Операция Жеторганизатионрелатионшипсеттинг предназначена только для внутреннего использования. Эта операция не используется клиентами.
-ms.openlocfilehash: bf3a249b1380f60dced985acbfae5a6aa0e8ac8a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetOrganizationRelationshipSetting извлекает параметры из всех совпадающих organizationRelationships, которые имеют по крайней мере один домен в свойстве DomainNames, который соответствует по крайней мере одному утверждению EmailAddress в маркере. Операция GetOrganizationRelationshipSetting используется только для внутреннего использования. Эта операция не используется клиентами.
+ms.openlocfilehash: 286f9338476179702c72748c40c7de4d98354c67
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452750"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516946"
 ---
-# <a name="getorganizationrelationshipsettings-operation-soap"></a>Операция Жеторганизатионрелатионшипсеттингс (SOAP)
+# <a name="getorganizationrelationshipsettings-operation-soap"></a>Операция GetOrganizationRelationshipSettings (SOAP)
 
-Операция **жеторганизатионрелатионшипсеттинг** получает параметры из всех подходящих организатионрелатионшипс, которые имеют по крайней мере один домен в свойстве **имя_домена** , который сопоставляется по крайней мере с одним утверждением **EmailAddress** в маркере. Операция **жеторганизатионрелатионшипсеттинг** предназначена только для внутреннего использования. Эта операция не используется клиентами. 
+Операция **GetOrganizationRelationshipSetting** извлекает параметры из всех совпадающих organizationRelationships, которые имеют по крайней мере один домен в свойстве **DomainNames,** который соответствует по крайней мере одному утверждению **EmailAddress** в маркере. Операция **GetOrganizationRelationshipSetting** используется только для внутреннего использования. Эта операция не используется клиентами. 
   
 
