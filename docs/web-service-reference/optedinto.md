@@ -1,23 +1,23 @@
 ---
-title: оптединто
+title: OptedInto
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 083a23d9-acc3-4c15-9d30-c20bf7e6808d
-description: Элемент Оптединто указывает логическое значение, которое указывает, выбрал ли пользователь в политике хранения.
-ms.openlocfilehash: 1095a8c2527546b8c945dd7efb5c0218f9a151c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент OptedInto указывает значение Boolean, которое указывает, выбрал ли пользователь политику хранения.
+ms.openlocfilehash: 6dbfe898ad6eb3141b265d51c8ec0cb830916a9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468770"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518066"
 ---
-# <a name="optedinto"></a>оптединто
+# <a name="optedinto"></a>OptedInto
 
-Элемент **оптединто** указывает логическое значение, которое указывает, выбрал ли пользователь в политике хранения. 
+Элемент **OptedInto** указывает значение Boolean, которое указывает, выбрал ли пользователь политику хранения. 
   
 ```XML
 <OptedInto>true | false</OptedInto>
@@ -26,25 +26,25 @@ ms.locfileid: "44468770"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Retentionpolicytag используется](retentionpolicytag.md)
+[RetentionPolicyTag](retentionpolicytag.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **оптединто** указывает на то, что пользователь выбрал политику хранения. Значение **false** указывает, что пользователь не решил политику хранения. 
+Текстовое **значение, истинное** для элемента **OptedInto,** указывает на то, что пользователь выбрал политику хранения. Значение false **указывает** на то, что пользователь не выбрал политику хранения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44468770"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

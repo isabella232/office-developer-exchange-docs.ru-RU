@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnsubscribeResponseMessage
 api_type:
 - schema
 ms.assetid: 92c53b13-0ca1-4b44-b925-b23682e9417c
 description: Элемент UnsubscribeResponseMessage содержит состояние и результаты одного запроса операции Unsubscribe.
-ms.openlocfilehash: e5b42404d09e6367c134934409ec2a45351e135e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
-ms.translationtype: HT
+ms.openlocfilehash: 9efede10d5c99092ba2ca5a09acdb505d5c614da
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467167"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522497"
 ---
 # <a name="unsubscriberesponsemessage"></a>UnsubscribeResponseMessage
 

@@ -1,27 +1,27 @@
 ---
-title: ParentFolderId (Таржетфолдеридтипе)
+title: ParentFolderId (TargetFolderIdType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ParentFolderId
 api_type:
 - schema
 ms.assetid: 0e3e6e5f-06d0-499b-8ca4-d36036521658
 description: Элемент ParentFolderId определяет папку, в которой создается новая папка, или папку для поиска операции FindConversation.
-ms.openlocfilehash: 36e63266d10603c4d453a37e2b0d22e02599e516
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 53a5721b2c20c211a61b7e71b2e4f636700456b4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467804"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524625"
 ---
-# <a name="parentfolderid-targetfolderidtype"></a>ParentFolderId (Таржетфолдеридтипе)
+# <a name="parentfolderid-targetfolderidtype"></a>ParentFolderId (TargetFolderIdType)
 
-Элемент **ParentFolderId** определяет папку, в которой создается новая папка, или папку для поиска [операции FindConversation](findconversation-operation.md).
+Элемент **ParentFolderId** определяет папку, в которой создается новая папка, или папку для поиска операции [FindConversation.](findconversation-operation.md)
   
 ```xml
 <ParentFolderId>
@@ -35,37 +35,37 @@ ms.locfileid: "44467804"
 </ParentFolderId>
 ```
 
-**таржетфолдеридтипе**
+**TargetFolderIdType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-Элемент **ParentFolderId** содержит два дочерних элемента. Дочерние элементы в схеме являются взаимоисключающими. 
+Элемент **ParentFolderId содержит** два детских элемента. Детские элементы являются взаимоисключающими в схеме. 
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Содержит обязательный идентификатор и необязательный ключ изменения папки, в которой создается новая папка, или папки, в которой выполняется поиск [операции FindConversation](findconversation-operation.md). Использование этого элемента исключает использование элемента [дистингуишедфолдерид](distinguishedfolderid.md) .  <br/> |
-|[дистингуишедфолдерид](distinguishedfolderid.md) <br/> |Определяет стандартные папки Microsoft Exchange Server 2007. Использование этого элемента исключает использование элемента [FolderId](folderid.md) .  <br/> |
+|[FolderId](folderid.md) <br/> |Содержит необходимый идентификатор и необязательный ключ изменения папки, в которой создается новая папка, или папку, которая будет искать для операции [FindConversation.](findconversation-operation.md) Использование этого элемента исключает использование элемента [DistinguishedFolderId.](distinguishedfolderid.md)  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Определяет папки Microsoft Exchange Server 2007 года. Использование этого элемента исключает использование элемента [FolderId.](folderid.md)  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CreateFolder](createfolder.md) <br/> |Определяет запрос на создание папки в базе данных Exchange.  <br/> Ниже приведено выражение XPath для этого элемента:`/CreateFolder` <br/> |
+|[CreateFolder](createfolder.md) <br/> |Определяет запрос на создание папки в Exchange базе данных.  <br/> Ниже приводится выражение XPath к этому элементу:  `/CreateFolder` <br/> |
 |[FindConversation](findconversation.md) <br/> |Определяет запрос на поиск бесед в почтовом ящике.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Два дочерних элемента используются для определения папки, которая будет содержать новую папку. Чтобы определить родительскую папку для новой папки, необходимо выбрать элемент [FolderId](folderid.md) или [дистингуишедфолдерид](distinguishedfolderid.md) . Одновременное использование обоих элементов невозможно. Этот элемент необходим для создания папок. 
+Два детских элемента используются для определения папки, которая будет содержать новую папку. Чтобы определить родительную папку новой папки, необходимо выбрать элемент [FolderId](folderid.md) или [Элемент DistinguishedFolderId.](distinguishedfolderid.md) Вы не можете использовать оба элемента одновременно. Этот элемент необходим для создания папок. 
   
 Элемент [ParentFolderId](parentfolderid.md) описывает расположение существующих элементов и папок. 
   
@@ -77,12 +77,12 @@ ms.locfileid: "44467804"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция CreateFolder](createfolder-operation.md)
 - [Операция FindConversation](findconversation-operation.md)
-- [Создание папок (веб-службы Exchange)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+- [Создание папок (Exchange веб-служб)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

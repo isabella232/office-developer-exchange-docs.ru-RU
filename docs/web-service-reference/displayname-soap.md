@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 37c31ecb-a21e-47c8-befe-1bf4415f244c
-description: Элемент DisplayName представляет отображаемое имя.
-ms.openlocfilehash: 894c80f86b4532453ef0b7186c8b7558e882a3b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DisplayName представляет имя отображения.
+ms.openlocfilehash: 7df5f13249f862459598af539223ef4f2d27b63b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521997"
 ---
 # <a name="displayname-soap"></a>DisplayName (SOAP)
 
-Элемент **DisplayName** представляет отображаемое имя. 
+Элемент **DisplayName** представляет имя отображения. 
   
 ```XML
 <DisplayName/>
@@ -27,37 +27,37 @@ ms.locfileid: "44526902"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Алтернатемаилбокс (SOAP)](alternatemailbox-soap.md) <br/> |Представляет альтернативный почтовый ящик.  <br/> |
-|[Документшаринглокатион (SOAP)](documentsharinglocation-soap.md) <br/> |Представляет сведения о местоположении и метаданных для расположения общего доступа к документу.  <br/> |
+|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |Представляет альтернативный почтовый ящик.  <br/> |
+|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Представляет сведения о расположении и метаданных для расположения общего доступа к документам.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **DisplayName** — отображаемое имя параметра. 
+Текстовое значение элемента **DisplayName** — это имя отображения параметра. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Алтернатемаилбокс (SOAP)](alternatemailbox-soap.md)
+- [AlternateMailbox (SOAP)](alternatemailbox-soap.md)
 

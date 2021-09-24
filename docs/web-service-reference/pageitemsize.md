@@ -1,50 +1,50 @@
 ---
-title: пажеитемсизе
+title: PageItemSize
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7cbd6b60-69fc-4007-aeb9-bdf41c45cba3
-description: Элемент Пажеитемсизе указывает количество элементов, возвращаемых при разбивке результатов поиска.
-ms.openlocfilehash: e4f02d9b0012d0514903e41e74677e37b6cafcca
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PageItemSize указывает количество элементов, возвращаемых в пагинации результатов поиска.
+ms.openlocfilehash: c642b3eedf2e2294bcbbefc146275e0e672f7532
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462334"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521790"
 ---
-# <a name="pageitemsize"></a>пажеитемсизе
+# <a name="pageitemsize"></a>PageItemSize
 
-Элемент **пажеитемсизе** указывает количество элементов, возвращаемых при разбивке результатов поиска. 
+Элемент **PageItemSize** указывает количество элементов, возвращаемых в пагинации результатов поиска. 
   
 ```XML
 <PageItemSize></PageItemSize>
 ```
 
- **большом**
+ **long**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеарчмаилбоксесресулт](searchmailboxesresult.md)
+[SearchMailboxesResult](searchmailboxesresult.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **пажеитемсизе** — количество элементов, возвращаемых при разбивке результатов поиска. 
+Текстовое значение элемента **PageItemSize** — это количество элементов, возвращаемых в пагинации результатов поиска. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44462334"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

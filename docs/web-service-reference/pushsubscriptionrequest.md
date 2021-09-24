@@ -1,31 +1,31 @@
 ---
-title: пушсубскриптионрекуест
+title: PushSubscriptionRequest
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PushSubscriptionRequest
 api_type:
 - schema
 ms.assetid: 70caa0ca-40a1-421f-b4e6-0658f22d0b8e
-description: Элемент Пушсубскриптионрекуест представляет подписку на подписку на уведомления о событиях на основе push-уведомлений.
-ms.openlocfilehash: dcdb767ed175468aa4ec940f3147c164e4707e40
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PushSubscriptionRequest представляет подписку на подписку на push-уведомление о событиях.
+ms.openlocfilehash: 6eb76bba92e78e048ae97dbec5fc6c4d698a815f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465515"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523729"
 ---
-# <a name="pushsubscriptionrequest"></a>пушсубскриптионрекуест
+# <a name="pushsubscriptionrequest"></a>PushSubscriptionRequest
 
-Элемент **пушсубскриптионрекуест** представляет подписку на подписку на уведомления о событиях на основе push-уведомлений. 
+Элемент **PushSubscriptionRequest** представляет подписку на подписку на push-уведомление о событиях. 
   
-[Подписаться](subscribe.md)
+[Subscribe](subscribe.md)
   
-[пушсубскриптионрекуест](pushsubscriptionrequest.md)
+[PushSubscriptionRequest](pushsubscriptionrequest.md)
   
 ```XML
 <PushSubscriptionRequest SubscribeToAllFolders="">
@@ -37,38 +37,38 @@ ms.locfileid: "44465515"
 </PushSubscriptionRequest>
 ```
 
- **пушсубскриптионрекуесттипе**
+ **PushSubscriptionRequestType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**субскрибетоаллфолдерс** <br/> |Указывает, следует ли подписываться на все доступные папки. Этот атрибут является необязательным.  <br/> |
+|**SubscribeToAllFolders** <br/> |Указывает, следует ли подписываться на все доступные папки. Этот атрибут является необязательным.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фолдеридс](folderids.md) <br/> |Содержит массив идентификаторов папок, которые используются для определения папок, которые необходимо отслеживать для получения уведомлений о событиях.  <br/> |
-|[евенттипес](eventtypes.md) <br/> |Содержит коллекцию уведомлений о событиях, которые используются для создания подписки.  <br/> |
-|[Watermark](watermark.md) <br/> |Представляет закладку события в таблице событий почтовых ящиков. Используется для создания подписки, начиная с события, представленного водяным знаком. Если водяной знак из запроса на подписку не найден, клиенту будет возвращен ответ об ошибке. Это может произойти, если водяной знак старше 30 дней или если водяной знак никогда не присутствовал в почтовом ящике.  <br/> |
-|[StatusFrequency](statusfrequency.md) <br/> |Представляет частоту, заданную в минутах, с которой сообщения уведомлений будут отправляться клиенту при отсутствии событий.  <br/> |
-|[Адрес](url-ex15websvcsotherref.md) <br/> |Представляет расположение клиентской веб-службы для push-уведомлений.  <br/> |
+|[FolderIds](folderids.md) <br/> |Содержит массив идентификаторов папок, используемых для идентификации папок для мониторинга уведомлений о событиях.  <br/> |
+|[EventTypes](eventtypes.md) <br/> |Содержит коллекцию уведомлений о событиях, используемых для создания подписки.  <br/> |
+|[Watermark](watermark.md) <br/> |Представляет закладки событий в таблице событий почтового ящика. Это используется для создания подписки, начиная с события, представленного водяной знак. Если водяной знак из запроса Подписка не найден, клиенту будет возвращен ответ на ошибку. Это может произойти, если водяной знак старше 30 дней или если водяной знак никогда не присутствовал в почтовом ящике.  <br/> |
+|[StatusFrequency](statusfrequency.md) <br/> |Представляет частоту, указанную в минутах, при которой сообщения уведомлений будут отправляться клиенту, если события не произошли.  <br/> |
+|[URL-адрес ](url-ex15websvcsotherref.md) <br/> |Представляет расположение клиентской веб-службы для push-уведомлений.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Подписаться](subscribe.md) <br/> |Содержит свойства, используемые для создания подписок.  <br/> |
+|[Subscribe](subscribe.md) <br/> |Содержит свойства, используемые для создания подписок.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -78,7 +78,7 @@ ms.locfileid: "44465515"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -89,5 +89,5 @@ ms.locfileid: "44465515"
   
 [Операция GetEvents](getevents-operation.md)
   
-[Операция по отмене подписки](unsubscribe-operation.md)
+[Операция Unsubscribe](unsubscribe-operation.md)
 

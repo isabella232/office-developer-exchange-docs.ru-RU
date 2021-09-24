@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 486a0340-3163-4905-abd5-1372995c9a3a
-description: Элемент Schools указывает массив имен School и идентификаторы их исходных атрибутов для соответствующего пользователя.
-ms.openlocfilehash: e24d5318a38aa0a902d4976d7b31a376399d2cfd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Schools указывает массив имен школ и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 22c8242e0da906b75baa4cffe9c9ec4dd0e52cd3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465270"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524506"
 ---
 # <a name="schools"></a>Учебные заведения
 
-Элемент **Schools** указывает массив имен School и идентификаторы их исходных атрибутов для соответствующего пользователя. 
+Элемент **Schools** указывает массив имен школ и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <Schools>
@@ -25,24 +25,24 @@ ms.locfileid: "44465270"
 </Schools>
 ```
 
- **аррайофстрингаттрибутедвалуестипе**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[стрингаттрибутедвалуе](stringattributedvalue.md)
+[StringAttributedValue](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44465270"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

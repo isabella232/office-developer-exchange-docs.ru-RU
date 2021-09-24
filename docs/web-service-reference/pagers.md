@@ -1,23 +1,23 @@
 ---
-title: Пейджеры
+title: Pagers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fde3caef-ebbe-4a0b-a839-b1fb8157dcb4
-description: Элемент страничных навигатора указывает массив номеров телефонов пейджера и идентификаторы их исходных сопоставлений для соответствующего пользователя.
-ms.openlocfilehash: 196fae886d5a12bc03e0688c2be15e4fbd22e443
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Pagers указывает массив номеров телефонов пейджеров и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 517e7bf4318e6d48b6c6a2177a7d14aacb236a03
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462327"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521741"
 ---
-# <a name="pagers"></a>Пейджеры
+# <a name="pagers"></a>Pagers
 
-Элемент **страничных навигатора** указывает массив номеров телефонов пейджера и идентификаторы их исходных сопоставлений для соответствующего пользователя. 
+Элемент **Pagers** указывает массив номеров телефонов пейджеров и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <Pagers>
@@ -26,24 +26,24 @@ ms.locfileid: "44462327"
 
 ```
 
- **аррайоффоненумбераттрибутедвалуестипе**
+ **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[фоненумбераттрибутедвалуе](phonenumberattributedvalue.md)
+[PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44462327"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

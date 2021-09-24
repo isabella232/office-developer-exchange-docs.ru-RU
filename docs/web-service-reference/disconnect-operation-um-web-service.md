@@ -1,32 +1,32 @@
 ---
-title: Операция отключения (веб-служба единой системы обмена сообщениями)
+title: Операция Disconnect (веб-служба единой системы обмена сообщениями)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Disconnect
 api_type:
 - schema
 ms.assetid: a987000b-d6e6-49d7-944c-e9c278d0236f
-description: Операция отключения завершает вызов, идентифицируемый заданным CallId (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: a1268f9ea3d879f472e019bf1847fc13d65d1819
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция Disconnect завершает вызов, который определяется указанной веб-службой CallId (веб-служба um).
+ms.openlocfilehash: 42e069233fbfc255d43983571c0bb28475a1fe90
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529072"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522014"
 ---
-# <a name="disconnect-operation-um-web-service"></a>Операция отключения (веб-служба единой системы обмена сообщениями)
+# <a name="disconnect-operation-um-web-service"></a>Операция Disconnect (веб-служба единой системы обмена сообщениями)
 
-Операция отключения завершает вызов, идентифицируемый заданным [CallId (веб-служба единой системы обмена сообщениями)](callid-um-web-service.md).
+Операция Отключение завершает вызов, который определяется указанной [службой CallId (веб-служба um).](callid-um-web-service.md)
   
 ## <a name="disconnect-request-example"></a>Пример запроса на отключение
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса на отключение показано, как сформировать запрос на отключение вызова.
+В следующем примере запроса на отключение показано, как сформировать запрос на отключение вызова.
   
 ### <a name="code"></a>Код
 
@@ -41,11 +41,11 @@ ms.locfileid: "44529072"
 </soap:Envelope>
 ```
 
-## <a name="successful-disconnect-response-example"></a>Пример отклика об успешном отключении
+## <a name="successful-disconnect-response-example"></a>Успешный пример ответа на отключение
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере ответа на отключение показан ответ на запрос на отключение.
+В следующем примере ответа на отключение показан ответ на запрос Отключение.
   
 ### <a name="code"></a>Код
 
@@ -60,7 +60,7 @@ ms.locfileid: "44529072"
 
 ## <a name="see-also"></a>См. также
 
-- [Отключение (веб-служба единой системы обмена сообщениями)](disconnect-um-web-service.md) 
-- [Дисконнектреспонсе (веб-служба единой системы обмена сообщениями)](disconnectresponse-um-web-service.md) 
+- [Disconnect (веб-служба единой системы обмена сообщениями)](disconnect-um-web-service.md) 
+- [DisconnectResponse (веб-служба единой системы обмена сообщениями)](disconnectresponse-um-web-service.md) 
 - [CallId (веб-служба единой системы обмена сообщениями)](callid-um-web-service.md)
 

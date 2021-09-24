@@ -1,65 +1,65 @@
 ---
-title: арчиветаг
+title: ArchiveTag
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c4cb0718-37cd-41aa-86e7-b492c4bb86aa
-description: Элемент Арчиветаг указывает идентификатор хранения набора тегов архива для элемента или папки.
-ms.openlocfilehash: 23167f3c96a6756fe4c6d915a4de91e815e620d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ArchiveTag указывает идентификатор хранения тега архива, заданного на элементе или папке.
+ms.openlocfilehash: c3545b505dc0596d7465154e0be7d6c758b24ec9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464765"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525241"
 ---
-# <a name="archivetag"></a>арчиветаг
+# <a name="archivetag"></a>ArchiveTag
 
-Элемент **арчиветаг** указывает идентификатор хранения набора тегов архива для элемента или папки. 
+Элемент **ArchiveTag** указывает идентификатор хранения тега архива, заданного на элементе или папке. 
   
 ```XML
 <ArchiveTag IsExplicit=""></ArchiveTag>
 ```
 
- **ретентионтагтипе**
+ **RetentionTagType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**Явный** <br/> |Указывает, будет ли политика хранения явно задана для элемента или папки, а также от того, унаследована ли она от родительской папки.  <br/> |
+|**IsExplicit** <br/> |Указывает, установлена ли политика хранения явно на элементе или папке или наследуется ли она из родительской папки.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календарфолдер](calendarfolder.md) <br/> |Представляет папку, в которой в основном содержатся элементы календаря.  <br/> |
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[контакт](contact.md); <br/> |Представляет элемент контакта в хранилище Exchange.  <br/> |
-|[контактсфолдер](contactsfolder.md) <br/> |Представляет папку "Контакты", содержащуюся в почтовом ящике.  <br/> |
-|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Представляет папку, которая в основном содержит элементы календаря.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[Contact](contact.md) <br/> |Представляет элемент контакта в Exchange магазине.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Представляет папку контактов, которая содержится в почтовом ящике.  <br/> |
+|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Folder](folder.md) <br/> |Определяет папку для создания, получения, поиска, синхронизации или обновления.  <br/> |
-|[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Microsoft Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Представляет элемент POST в хранилище Exchange.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержащуюся в почтовом ящике.  <br/> |
+|[Элемент](item.md) <br/> |Представляет универсальный элемент в Exchange магазине.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange Майкрософт.  <br/> |
+|[PostItem](postitem.md) <br/> |Представляет элемент столба в Exchange магазине.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, которая содержится в почтовом ящике.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
-|[тасксфолдер](tasksfolder.md) <br/> |Представляет папку Tasks, содержащуюся в почтовом ящике.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Представляет папку задач, которая содержится в почтовом ящике.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **арчиветаг** — идентификатор GUID, определяющий политику хранения. 
+Текстовое значение элемента **ArchiveTag** — это GUID, определяющие политику хранения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -71,7 +71,7 @@ ms.locfileid: "44464765"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

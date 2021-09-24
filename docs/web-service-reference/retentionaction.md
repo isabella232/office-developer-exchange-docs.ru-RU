@@ -5,60 +5,60 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bdf5955-1212-48a1-b3b5-743086866c91
-description: Элемент RetentionAction указывает действие, выполняемое с элементами с помощью тега хранения.
-ms.openlocfilehash: c16988413e732ddc3cd6ebc355cb73c4d96550c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RetentionAction указывает действие, выполняемые на элементах с тегом хранения.
+ms.openlocfilehash: ecea4326f0e50460635966991cd55badf8946993
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465235"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517947"
 ---
 # <a name="retentionaction"></a>RetentionAction
 
-Элемент **RetentionAction** указывает действие, выполняемое с элементами с помощью тега хранения. 
+Элемент **RetentionAction** указывает действие, выполняемые на элементах с тегом хранения. 
   
 ```XML
 <RetentionAction> None | MoveToDeletedItems | MoveToFolder | DeleteAndAllowRecovery | PermanentlyDelete | MarkAsPastRetentionLimit | MoveToArchive <RetentionAction>
 ```
 
- **ретентионактионтипе**
+ **RetentionActionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Retentionpolicytag используется](retentionpolicytag.md)
+[RetentionPolicyTag](retentionpolicytag.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **RetentionAction** — это действие, выполняемое над элементами. Следующий список содержит текстовые значения для элемента **RetentionAction** . 
+Текстовое значение элемента **RetentionAction** — это действие, выполняемые на элементах. Следующий список содержит текстовые значения элемента **RetentionAction.** 
   
-> **None** — для элемента не выполняется никаких действий. 
+> **Нет** . Действие на элементе не выполняется. 
     
-> **MoveToDeletedItems** — элемент перемещается в папку "Удаленные" по умолчанию. 
+> **MoveToDeletedItems** — элемент перемещается в папку удаленных элементов по умолчанию. 
     
 > **MoveToFolder** — элемент перемещается в указанную папку. 
     
-> **Делетеандалловрековери** — элемент удален и помещен в корзину. 
+> **DeleteAndAllowRecovery** — элемент удаляется и помещется в контейнер. 
     
-> **PermanentlyDelete** — элемент безвозвратно удаляется из почтового ящика. 
+> **PermanentlyDelete** — элемент постоянно удаляется из почтового ящика. 
     
-> **Маркаспастретентионлимит** — элемент с пометкой о превышении предельного времени хранения. 
+> **MarkAsPastRetentionLimit** — элемент помечен как превышение срока хранения. 
     
-> **MoveToArchive** — элемент перемещается в архивный почтовый ящик. 
+> **MoveToArchive** — элемент перемещается в почтовый ящик архива. 
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -70,7 +70,7 @@ ms.locfileid: "44465235"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

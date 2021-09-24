@@ -1,23 +1,23 @@
 ---
-title: йомиластнамес
+title: YomiLastNames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 893409f1-fe76-40a4-ad7b-8a6bbc2bce12
-description: Элемент Йомиластнамес указывает массив фонетических фамилий японского языка и идентификаторы их исходных имен для соответствующего пользователя.
-ms.openlocfilehash: bc0ffcd796a29a24be3edbc7129333cc332596b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент YomiLastNames указывает массив фонетических японских фамилий и идентификаторов их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 420077e59cf0dde897ce5c87c0463f128cf45a9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467090"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525465"
 ---
-# <a name="yomilastnames"></a>йомиластнамес
+# <a name="yomilastnames"></a>YomiLastNames
 
-Элемент **йомиластнамес** указывает массив фонетических фамилий японского языка и идентификаторы их исходных имен для соответствующего пользователя. 
+Элемент **YomiLastNames** указывает массив фонетических японских фамилий и идентификаторов их исходных атрибутов для связанной персоны. 
   
 ```XML
 <YomiLastNames>
@@ -25,24 +25,24 @@ ms.locfileid: "44467090"
 </YomiLastNames>
 ```
 
- **аррайофстрингаттрибутедвалуестипе**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[стрингаттрибутедвалуе](stringattributedvalue.md)
+[StringAttributedValue](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44467090"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

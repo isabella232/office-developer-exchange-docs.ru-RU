@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c94cfb7-42e2-42e4-9c6d-a1b0f4747f83
 description: Элемент GetHoldOnMailboxes указывает начало запроса GetHoldOnMailboxes.
-ms.openlocfilehash: f3f2cb5a83a662fc83c0a861f740571f089c10d8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e85518c046aa2c20e5767f15f869b81df28c40b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458356"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522007"
 ---
 # <a name="getholdonmailboxes"></a>GetHoldOnMailboxes
 
-Элемент **GetHoldOnMailboxes** указывает начало запроса **GetHoldOnMailboxes** . 
+Элемент **GetHoldOnMailboxes** указывает начало запроса **GetHoldOnMailboxes.** 
   
 ```XML
 <GetHoldOnMailboxes>
@@ -25,24 +25,24 @@ ms.locfileid: "44458356"
 </GetHoldOnMailboxes>
 ```
 
- **жесолдонмаилбоксестипе**
+ **GetHoldOnMailboxesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[холдид](holdid.md)
+[HoldId](holdid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44458356"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

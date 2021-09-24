@@ -1,29 +1,29 @@
 ---
-title: Управление параметрами сохраняемого приложения с помощью EWS в Exchange
+title: Управление настойчивыми настройками приложений с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90f561f2-e40e-4f5b-b321-f86dbf4a1b71
-description: Узнайте, как создавать, искать, получать, обновлять и удалять параметры сохраняемого приложения с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: ab7b3ef5f87d8a26a412ca7187dc93c58d73112f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Узнайте, как создавать, находить, получать, обновлять и удалять настойчивые параметры приложений с помощью управляемого API или EWS EWS в Exchange.
+ms.openlocfilehash: 0756f8dabe5f0b898619102b8565b65a536791b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455732"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522280"
 ---
-# <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>Управление параметрами сохраняемого приложения с помощью EWS в Exchange
+# <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>Управление настойчивыми настройками приложений с помощью EWS в Exchange
 
-Узнайте, как создавать, искать, получать, обновлять и удалять параметры сохраняемого приложения с помощью управляемого API EWS или EWS в Exchange. 
+Узнайте, как создавать, находить, получать, обновлять и удалять настойчивые параметры приложений с помощью управляемого API или EWS EWS в Exchange. 
   
-Объекты конфигурации пользователя — это оптимальный способ хранения параметров конфигурации для клиентского приложения Exchange, в основном потому, что они скрыты от результатов поиска в большинстве клиентских приложений. Как правило, клиентские приложения скрывают эти параметры, так как конечный пользователь не видит их, а пользователь случайно не получает доступ к этой информации. В примерах кода, приведенных в этой статье, показано, как можно использовать объекты конфигурации пользователей для управления сохраняемыми параметрами, включая создание, поиск, получение, обновление и удаление параметров постоянного приложения, хранящихся в пользовательских объектах конфигурации.
+Объекты конфигурации пользователей — это оптимальный вариант для хранения параметров конфигурации для Exchange клиентского приложения, в первую очередь потому, что они скрыты от результатов поиска в большинстве клиентских приложений. Клиентские приложения обычно скрывают эти параметры, так как конечный пользователь не должен их видеть, и чтобы пользователь не случайно мог получить доступ к этой информации. В примерах кода в этой статье покажите, как можно использовать объекты конфигурации пользователей для управления настойчивыми настройками, в том числе для создания, поиска, получения, обновления и удаления настойчивых параметров приложений, хранимых в объектах конфигурации пользователей.
 
 <a name="createconfiguration"> </a>
 
 ## <a name="create-an-application-setting-by-using-the-ews-managed-api"></a>Создание параметра приложения с помощью управляемого API EWS
 
-Для создания настраиваемого параметра конфигурации можно использовать метод [усерконфигуратион. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx) для управляемого API EWS. Объект конфигурации пользователя может содержать XML-файл, двоичный код, словарь данных или сочетание этих трех типов данных. В приведенном ниже примере показано, как сохранить объект конфигурации пользователя с именем Контосодрафтсеттингс, который содержит двоичные данные в папке "Черновики", с помощью управляемого API EWS. Это может быть полезно, если вы хотите хранить сведения о конфигурации для отображения элементов черновиков в клиентском приложении. 
+Для создания настраиваемого параметра конфигурации можно использовать метод [UserConfiguration.Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.save%28v=exchg.80%29.aspx) метод управляемого API EWS. Объект конфигурации пользователя может содержать XML, двоичный, словарь данных или сочетание этих трех типов данных. В следующем примере показано, как сохранить объект конфигурации пользователя с именем ContosoDraftSettings, который содержит двоичные данные в папку Drafts с помощью управляемого API EWS. Это может быть полезно, если вы хотите сохранить сведения о конфигурации, как отображаются черновики элементов в клиентских приложениях. 
   
 ```cs
 private static void CreateUserConfiguration(ExchangeService service, byte[] binaryData)
@@ -41,7 +41,7 @@ private static void CreateUserConfiguration(ExchangeService service, byte[] bina
 ## <a name="create-an-application-setting-by-using-ews"></a>Создание параметра приложения с помощью EWS
 <a name="bk_createEWS"> </a>
 
-Для создания настраиваемых параметров конфигурации можно использовать операцию [CreateUserConfiguration](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) EWS. В следующем примере показан XML-код запроса для создания объекта конфигурации пользователя с именем Контосодрафтсеттингс. Запрос пытается сохранить двоичный поток в объект конфигурации пользователя в папке "Черновики". Это тот же XML-код, который создается в примере управляемого API EWS. 
+Вы можете использовать операцию [CreateUserConfiguration](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) EWS для создания настраиваемой настройки конфигурации. В следующем примере показан XML запроса для создания объекта конфигурации пользователя с именем ContosoDraftSettings. Запрос пытается сохранить двоичный поток для объекта конфигурации пользователя в папке Drafts. Это тот же XML, который создается в примере управляемого API EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -65,12 +65,12 @@ private static void CreateUserConfiguration(ExchangeService service, byte[] bina
 </soap:Envelope>
 ```
 
-[ОТКЛИК XML](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) является простым и указывает, был ли запрос на создание успешным или возникла ошибка. 
+[XML-ответ](https://msdn.microsoft.com/library/eb5b8ab6-9743-481c-aac9-f9aa889bd353%28Office.15%29.aspx) прост и указывает, был ли запрос на создание успешным или произошла ошибка. 
   
 ## <a name="find-an-application-setting-by-using-the-ews-managed-api"></a>Поиск параметра приложения с помощью управляемого API EWS
 <a name="findconfiguration"> </a>
 
-Для поиска объектов конфигурации пользователя можно использовать метод Managed API [Folder. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) EWS с соответствующим параметром обхода. В приведенном ниже примере кода показано, как найти объекты конфигурации пользователя, хранящиеся в папке "Черновики", с помощью управляемого API EWS. 
+Чтобы найти объекты конфигурации пользователя, можно использовать метод Управляемый API [Folder.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) EWS с связанной опцией обхода. В следующем примере кода показано, как найти объекты конфигурации пользователей, хранимые в папке Drafts с помощью API управляемых EWS. 
   
 ```cs
 private static void FindAssociated(ExchangeService service)
@@ -107,12 +107,12 @@ private static void FindAssociated(ExchangeService service)
 }
 ```
 
-## <a name="find-an-application-setting-by-using-ews"></a>Поиск параметров приложения с помощью EWS
+## <a name="find-an-application-setting-by-using-ews"></a>Поиск параметра приложения с помощью EWS
 <a name="bk_findEWS"> </a>
 
-Для поиска объектов конфигурации пользователя можно использовать операцию [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS. 
+Вы можете использовать операцию [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) EWS для поиска объектов конфигурации пользователей. 
   
-В следующем примере показан XML-код запроса для поиска объектов конфигурации пользователя. Это тот же XML-код, который создается в примере управляемого API EWS.
+В следующем примере показан XML запроса для поиска объектов конфигурации пользователей. Это тот же XML, который создается в примере управляемого API EWS.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -140,11 +140,11 @@ private static void FindAssociated(ExchangeService service)
 </soap:Envelope>
 ```
 
-В следующем примере показан успешный XML-код ответа для поиска объектов конфигурации пользователя. Это тот же XML-код, который обрабатывается в примере управляемого API EWS. Обратите внимание на следующее в этом ответе XML: 
+В следующем примере показан XML успешного отклика для поиска объектов конфигурации пользователей. Это тот же XML, который обрабатывается в примере управляемого API EWS. Обратите внимание на следующее в этом ответе XML: 
   
-- Мы сократили идентификатор и изменили ключи для удобочитаемости.
+- Мы сократили идентификатор и изменили ключи для чтения.
     
-- Два объекта конфигурации пользователя возвращаются в виде сообщений. Это связано с тем, что операция **FindItem** возвращает все элементы, не определенные в схеме EWS в виде элементов сообщения. 
+- Два объекта конфигурации пользователя возвращаются в качестве сообщений. Это потому, что операция **FindItem** возвращает все элементы, которые не определены в схеме EWS в качестве элементов сообщений. 
     
 - Свойства [ItemClass](https://msdn.microsoft.com/library/56020078-50b4-4880-894a-a9f234033cfb%28Office.15%29.aspx) для двух объектов конфигурации пользователей отличаются. Первый объект конфигурации пользователя был создан с помощью EWS. Второй объект был создан другим API. 
     
@@ -190,10 +190,10 @@ private static void FindAssociated(ExchangeService service)
 </s:Envelope>
 ```
 
-## <a name="get-and-update-application-settings-by-using-the-ews-managed-api"></a>Получение и обновление параметров приложения с помощью управляемого API EWS
+## <a name="get-and-update-application-settings-by-using-the-ews-managed-api"></a>Получение и обновление параметров приложений с помощью управляемого API EWS
 <a name="getconfiguration"> </a>
 
-Найдя объект конфигурации пользователя, вы можете использовать метод управляемого API [усерконфигуратион. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) EWS, чтобы получить объект Configuration из почтового ящика. После получения объекта Configuration можно использовать метод [усерконфигуратион. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) , чтобы обновить его. В приведенном ниже примере показано, как получить и обновить объект конфигурации пользователя с помощью управляемого API EWS. 
+После поиска объекта конфигурации пользователя можно использовать [метод UserConfiguration.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) EWS Managed API для получения объекта конфигурации из почтового ящика. После получения объекта конфигурации для его обновления можно использовать [метод UserConfiguration.Update.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.bind%28v=exchg.80%29.aspx) В следующем примере показано, как получить и обновить объект конфигурации пользователя с помощью управляемого API EWS. 
   
 ```cs
 private static void GetAndUpdateUserConfiguration(ExchangeService service)
@@ -230,10 +230,10 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 }
 ```
 
-## <a name="get-and-update-application-settings-by-using-ews"></a>Получение и обновление параметров приложения с помощью EWS
+## <a name="get-and-update-application-settings-by-using-ews"></a>Получение и обновление параметров приложений с помощью EWS
 <a name="bk_getEWS"> </a>
 
-С помощью операции [GetUserConfiguration](https://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) EWS можно получить объект конфигурации из почтового ящика и [UpdateUserConfiguration](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) для обновления объекта. В следующем примере показан XML-код запроса для получения объекта конфигурации пользователя с именем Тестконфиг. Запрос утверждает, что все конфигурации должны быть возвращены в ответе. Это тот же XML-код, который создается в примере управляемого API EWS. 
+Для получения объекта конфигурации из почтового ящика можно использовать операцию [GetUserConfiguration](https://msdn.microsoft.com/library/71d50e3c-92bd-435f-8118-b28bb85f8138%28Office.15%29.aspx) EWS и [updateUserConfiguration](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) для обновления объекта. В следующем примере показан XML запроса для получения объекта конфигурации пользователя с именем TestConfig. В запросе говорится, что все конфигурации должны быть возвращены в ответе. Это тот же XML, который создается в примере управляемого API EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -255,7 +255,7 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 </soap:Envelope>
 ```
 
-В следующем примере показан успешный XML-код отклика для возврата объектов конфигурации пользователя. Ответ содержит словарь данных. Это тот же XML-код, который обрабатывается в примере управляемого API EWS. 
+В следующем примере показан XML успешного отклика для получения объектов конфигурации пользователя. Ответ содержит словарь данных. Это тот же XML, который обрабатывается в примере управляемого API EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -313,7 +313,7 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 </s:Envelope>
 ```
 
-В следующем примере показан XML-код запроса для обновления объекта конфигурации пользователя. Запрос утверждает, что все конфигурации должны быть возвращены в ответе. Это тот же XML-код, который создается с помощью управляемого API EWS в примере, в котором вызывается метод **усерконфигуратион. Update** . Вы видите, что XML-файл обновления содержит существующие записи словаря и дополнительный, добавленный перед обновлением. 
+В следующем примере показан XML запроса для обновления объекта конфигурации пользователя. В запросе говорится, что все конфигурации должны быть возвращены в ответе. Это тот же XML, который создается в примере управляемого API EWS, который вызывает **метод UserConfiguration.Update.** Вы можете видеть, что XML обновления содержит существующие записи словаря и дополнительные, которые были добавлены перед обновлением. 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -368,12 +368,12 @@ private static void GetAndUpdateUserConfiguration(ExchangeService service)
 </soap:Envelope>
 ```
 
-[ОТКЛИК XML](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) является простым и указывает, было ли обновление успешным или произошла ошибка. 
+XML [ответа](https://msdn.microsoft.com/library/eda73b62-6a3a-43ae-8fd9-f30892811f27%28Office.15%29.aspx) прост и указывает, было ли обновление успешным или произошла ошибка. 
   
 ## <a name="delete-an-application-setting-by-using-the-ews-managed-api"></a>Удаление параметра приложения с помощью управляемого API EWS
 <a name="deleteconfiguration"> </a>
 
-Для удаления объектов конфигурации пользователя можно использовать метод [усерконфигуратион. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) для управляемого API EWS. В приведенном ниже примере кода показано, как удалить объект конфигурации пользователя Контосодрафтсеттингс с помощью управляемого API EWS. 
+Для удаления объектов конфигурации пользователей можно использовать метод [UserConfiguration.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.userconfiguration.delete%28v=exchg.80%29.aspx) EWS Managed API. В следующем примере кода показано, как удалить объект конфигурации пользователя ContosoDraftSettings с помощью управляемого API EWS. 
   
 ```cs
 private static void DeleteUserConfiguration(ExchangeService service)
@@ -392,9 +392,9 @@ private static void DeleteUserConfiguration(ExchangeService service)
 ## <a name="delete-an-application-setting-by-using-ews"></a>Удаление параметра приложения с помощью EWS
 <a name="bk_deleteEWS"> </a>
 
-Для удаления объектов конфигурации пользователя можно использовать операцию [DeleteUserConfiguration](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) EWS. 
+Для удаления объектов конфигурации пользователей можно использовать операцию [DeleteUserConfiguration](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) EWS. 
   
-В следующем примере показан XML-код запроса для удаления объекта конфигурации пользователя с именем Контосодрафтсеттингс, который был применен к папке "Черновики". Это тот же XML-код, который создается в примере управляемого API EWS.
+В следующем примере показан XML запроса на удаление объекта конфигурации пользователя с именем ContosoDraftSettings, который был применен к папке Drafts. Это тот же XML, который создается в примере управляемого API EWS.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -415,7 +415,7 @@ private static void DeleteUserConfiguration(ExchangeService service)
 </soap:Envelope>
 ```
 
-[XML-код отклика](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) прост и указывает, был ли запрос на удаление успешным, или возникла ли ошибка. 
+[XML-ответ](https://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) прост и указывает, был ли запрос на удаление успешным или произошла ошибка. 
   
 ## <a name="see-also"></a>См. также
 

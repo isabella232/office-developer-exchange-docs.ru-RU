@@ -1,23 +1,23 @@
 ---
-title: актионурл
+title: ActionUrl
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9697f2e5-a5f7-471a-a052-ae79e06eb09d
-description: Элемент Актионурл определяет URL-адрес, по которому должен перейти пользователь, чтобы устранить проблему, указанную в элементе Аппстатус.
-ms.openlocfilehash: 2335595b4be6452f41c25f15d359e6939609c9b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ActionUrl определяет URL-адрес, на который должен ориентироваться пользователь, чтобы устранить проблему, указанную элементом AppStatus.
+ms.openlocfilehash: 21bffd1d9300488dad5eec5f0eb67b8a48ec3f00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529674"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522196"
 ---
-# <a name="actionurl"></a>актионурл
+# <a name="actionurl"></a>ActionUrl
 
-Элемент **актионурл** определяет URL-адрес, по которому должен перейти пользователь, чтобы устранить проблему, указанную в элементе [аппстатус](appstatus-ex15websvcsotherref.md) . 
+Элемент **ActionUrl** определяет URL-адрес, на который должен ориентироваться пользователь, чтобы устранить проблему, указанную [элементом AppStatus.](appstatus-ex15websvcsotherref.md) 
   
 ```XML
 <ActionUrl/>
@@ -26,15 +26,15 @@ ms.locfileid: "44529674"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44529674"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **актионурл** определяет URL-адрес, по которому должен перейти пользователь, чтобы устранить проблему, указанную в элементе **аппстатус** . 
+Текстовое значение элемента **ActionUrl** определяет URL-адрес, на который должен ориентироваться пользователь, чтобы устранить проблему, указанную **элементом AppStatus.** 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

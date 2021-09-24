@@ -1,23 +1,23 @@
 ---
-title: Элементы (Аррайофсеарчпревиевитемстипе)
+title: Items (ArrayOfSearchPreviewItemsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b860638-d655-4a49-91c4-60e59b596b48
-description: Элемент Items указывает список элементов, доступных для предварительного просмотра в результате выполнения операции SearchMailboxes.
-ms.openlocfilehash: 99d8af67370b75774def0db3b6c274c65a432aab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Items указывает список элементов, доступных для предварительного просмотра в качестве результатов операции SearchMailboxes.
+ms.openlocfilehash: 6df2c8c9c1072c6cc85fdf88e72c54e303b37e8e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459863"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524100"
 ---
-# <a name="items-arrayofsearchpreviewitemstype"></a>Элементы (Аррайофсеарчпревиевитемстипе)
+# <a name="items-arrayofsearchpreviewitemstype"></a>Items (ArrayOfSearchPreviewItemsType)
 
-Элемент **Items** указывает список элементов, доступных для предварительного просмотра в результате выполнения операции **SearchMailboxes** . 
+Элемент **Items** указывает список элементов, доступных для предварительного просмотра в качестве результатов операции **SearchMailboxes.** 
   
 ```XML
 <Items>
@@ -25,24 +25,24 @@ ms.locfileid: "44459863"
 </Items>
 ```
 
- **аррайофсеарчпревиевитемстипе**
+ **ArrayOfSearchPreviewItemsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[сеарчпревиевитем](searchpreviewitem.md)
+[SearchPreviewItem](searchpreviewitem.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеарчмаилбоксесресулт](searchmailboxesresult.md)
+[SearchMailboxesResult](searchmailboxesresult.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

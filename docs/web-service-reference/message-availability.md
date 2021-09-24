@@ -1,27 +1,27 @@
 ---
-title: Сообщение (доступность)
+title: Message (доступность)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Message
 api_type:
 - schema
 ms.assetid: 1eec24dd-c981-41f4-a2f0-c51d43f1d7c0
-description: Элемент Message содержит ответ "нет на месте" (отсутствие на работе).
-ms.openlocfilehash: 13d118422ccb5a2897c21b6d124f170bf461dbf6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Message содержит ответ Office (OOF).
+ms.openlocfilehash: d5698e8eeca25d0386ccad04b36dcfbf9dfa8d14
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467006"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523946"
 ---
-# <a name="message-availability"></a>Сообщение (доступность)
+# <a name="message-availability"></a>Message (доступность)
 
-Элемент **Message** содержит ответ "нет на месте" (отсутствие на работе). 
+Элемент **Message** содержит ответ Office (OOF). 
   
 ```xml
 <Message/> 
@@ -30,35 +30,35 @@ ms.locfileid: "44467006"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[интерналрепли](internalreply.md) <br/> | Содержит сообщение об отсутствии на работе, отправленное другим пользователям в домене отправителя. <br/> <br/>  Ниже приведены возможные выражения XPath для этого элемента. <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
-|[екстерналрепли](externalreply.md) <br/> | Содержит сообщение об отсутствии на работе, которое отправляется адресам, не входящим в домен отправителя.  <br/> <br/> Ниже приведены возможные выражения XPath для этого элемента.  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
-|[реплибоди](replybody.md) <br/> |Содержит сообщение об отсутствии на месте и язык, используемый для сообщения.  <br/> |
+|[InternalReply](internalreply.md) <br/> | Содержит сообщение OOF, отправленное другим пользователям в домене отправщика. <br/> <br/>  Возможные выражения XPath к этому элементу: <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
+|[ExternalReply](externalreply.md) <br/> | Содержит сообщение OOF, которое отправляется адресам за пределами домена отправитель.  <br/> <br/> Возможные выражения XPath к этому элементу:  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
+|[ReplyBody](replybody.md) <br/> |Содержит сообщение OOF и язык, используемый для сообщения.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Для установки сообщения об отсутствии на месте требуется текстовое значение.
+Для набора сообщения OOF требуется текстовое значение.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
 ## <a name="example"></a>Пример
 
-В следующем примере запроса [операции SetUserOofSettings](setuseroofsettings-operation.md) задается для [уфстате](oofstate.md) значение **Enabled**, устанавливается время бездействия в 10 дней, а также задаются внутренние и внешние сообщения об отсутствии на работе.
+Следующий пример запроса операции [SetUserOofSettings](setuseroofsettings-operation.md) задает [OofState](oofstate.md) для **включения,** задает продолжительность OOF до 10 дней и задает внутренние и внешние сообщения OOF.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -95,7 +95,7 @@ ms.locfileid: "44467006"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,50 +1,50 @@
 ---
-title: итемхитс
+title: ItemHits
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b0d54f5-1a04-4781-9f4a-d3e933a8b235
-description: Элемент Итемхитс определяет, сколько раз было найдено ключевое слово.
-ms.openlocfilehash: a7e9165e2628fc1b66323b1d19a9c24131909e34
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ItemHits определяет, сколько раз было найдено ключевое слово.
+ms.openlocfilehash: e6bfd11274eb62a14ff792041426e784dc457b40
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460311"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525003"
 ---
-# <a name="itemhits"></a>итемхитс
+# <a name="itemhits"></a>ItemHits
 
-Элемент **итемхитс** определяет, сколько раз было найдено ключевое слово. 
+Элемент **ItemHits** определяет, сколько раз было найдено ключевое слово. 
   
 ```XML
 <ItemHits></ItemHits>
 ```
 
- **положительн**
+ **integer**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[кэйвордстат](keywordstat.md)
+[KeywordStat](keywordstat.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **итемхитс** — количество случаев, когда ключевое слово было найдено в поиске по ключевым словам. 
+Текстовое значение элемента **ItemHits** — это количество раз, когда ключевое слово было найдено в поиске по ключевому слову. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

@@ -1,30 +1,30 @@
 ---
-title: Акцептаблереспонсесчема (POX)
+title: AcceptableResponseSchema (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2f0f77bd-4cbe-4c02-880d-a93b387141d9
-description: Элемент Акцептаблереспонсесчема определяет схему для ответа автообнаружения.
-ms.openlocfilehash: ffc06f33144af7c8f06e81a12bcb5077719b15b8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AcceptableResponseSchema определяет схему ответа автооткрытия.
+ms.openlocfilehash: 96a3957683879897377c3182bc8b5a95d6c7a2b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460409"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522273"
 ---
-# <a name="acceptableresponseschema-pox"></a>Акцептаблереспонсесчема (POX)
+# <a name="acceptableresponseschema-pox"></a>AcceptableResponseSchema (POX)
 
-Элемент **акцептаблереспонсесчема** определяет схему для ответа автообнаружения. 
+Элемент **AcceptableResponseSchema** определяет схему ответа автооткрытия. 
   
-- [Служба автообнаружения (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Запрос (POX)](request-pox.md)
+- [Request (POX)](request-pox.md)
   
-- [Акцептаблереспонсесчема (POX)](acceptableresponseschema-pox.md)
+- [AcceptableResponseSchema (POX)](acceptableresponseschema-pox.md)
   
 ```xml
 <AcceptableResponseSchema/>
@@ -32,27 +32,27 @@ ms.locfileid: "44460409"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Запрос (POX)](request-pox.md) <br/> |Содержит запрос к службе автообнаружения.  <br/> |
+|[Request (POX)](request-pox.md) <br/> |Содержит запрос в службу автооткрытия.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение определяет расположение схемы ответа автообнаружения.
+Текстовое значение определяет расположение схемы ответа автооткрытия.
   
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,23 +1,23 @@
 ---
-title: спаусенамес
+title: SpouseNames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e18f46fe-ab83-4df1-b1a5-9c8e73173ccf
-description: Элемент Спаусенамес указывает массив имен супруга или партнера и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 9b7960e7aee8652d16561f8dd2eb3d891fb8d694
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SpouseNames указывает массив имен супругов или партнеров и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 6856674db8ef1e636631c2b381f5b21bbc857495
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467629"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521307"
 ---
-# <a name="spousenames"></a>спаусенамес
+# <a name="spousenames"></a>SpouseNames
 
-Элемент **спаусенамес** указывает массив имен супруга или партнера и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **SpouseNames** указывает массив имен супругов или партнеров и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <SpouseNames>
@@ -25,24 +25,24 @@ ms.locfileid: "44467629"
 </SpouseNames>
 ```
 
- **аррайофстрингаттрибутедвалуестипе**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[стрингаттрибутедвалуе](stringattributedvalue.md)
+[StringAttributedValue](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44467629"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,27 +1,27 @@
 ---
-title: манажедфолдеринформатион
+title: ManagedFolderInformation
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ManagedFolderInformation
 api_type:
 - schema
 ms.assetid: dea980eb-8303-47fe-a380-20a8efc9ead6
-description: Элемент Манажедфолдеринформатион содержит сведения о настраиваемой управляемой папке.
-ms.openlocfilehash: ce15dcb15cccdce253494beefd2f4a2a7a0c0ad8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ManagedFolderInformation содержит сведения об управляемой пользовательской папке.
+ms.openlocfilehash: f25daeff82b4a30574a627f290c2fcd336a38a6c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44450951"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524800"
 ---
-# <a name="managedfolderinformation"></a>манажедфолдеринформатион
+# <a name="managedfolderinformation"></a>ManagedFolderInformation
 
-Элемент **манажедфолдеринформатион** содержит сведения о настраиваемой управляемой папке. 
+Элемент **ManagedFolderInformation содержит** сведения об управляемой пользовательской папке. 
   
 ```xml
 <ManagedFolderInformation>
@@ -38,39 +38,39 @@ ms.locfileid: "44450951"
 </ManagedFolderInformation>
 ```
 
- **манажедфолдеринформатионтипе**
+ **ManagedFolderInformationType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[канделете](candelete.md) <br/> |Указывает, может ли клиент удалить управляемую папку.  <br/> |
-|[канренамеормове](canrenameormove.md) <br/> |Указывает, может ли пользователь переименование или перемещение данной управляемой папки.  <br/> |
-|[мустдисплайкоммент](mustdisplaycomment.md) <br/> |Указывает, должен ли отображаться комментарий к управляемой папке.  <br/> |
-|[хаскуота](hasquota.md) <br/> |Указывает, есть ли у управляемой папки квота.  <br/> |
-|[исманажедфолдерсрут](ismanagedfoldersroot.md) <br/> |Указывает, является ли управляемая папка корневой для всех управляемых папок.  <br/> |
-|[манажедфолдерид](managedfolderid.md) <br/> |Содержит идентификатор управляемой папки.  <br/> |
+|[CanDelete](candelete.md) <br/> |Указывает, может ли клиент удалить управляемые папки.  <br/> |
+|[CanRenameOrMove](canrenameormove.md) <br/> |Указывает, может ли клиент переименовать или перенаправить указанную управляемой папку.  <br/> |
+|[MustDisplayComment](mustdisplaycomment.md) <br/> |Указывает, должен ли отображаться комментарий управляемой папки.  <br/> |
+|[HasQuota](hasquota.md) <br/> |Указывает, имеет ли у управляемой папки квота.  <br/> |
+|[IsManagedFoldersRoot](ismanagedfoldersroot.md) <br/> |Указывает, является ли управляемый папка корнем для всех управляемых папок.  <br/> |
+|[ManagedFolderId](managedfolderid.md) <br/> |Содержит ID папки управляемой папки.  <br/> |
 |[Comment](comment.md) <br/> |Содержит комментарий, связанный с управляемой папкой.  <br/> |
-|[StorageQuota](storagequota.md) <br/> |Описывает квоту хранилища для управляемой папки.  <br/> |
+|[StorageQuota](storagequota.md) <br/> |Описывает квоту хранения для управляемой папки.  <br/> |
 |[FolderSize](foldersize.md) <br/> |Описывает общий размер всего содержимого управляемой папки.  <br/> |
-|[HomePage](homepage.md) <br/> |Задает URL-адрес, который будет домашней страницей по умолчанию для управляемой папки.  <br/> |
+|[HomePage](homepage.md) <br/> |Указывает URL-адрес, который будет домашней страницей по умолчанию для управляемой папки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Folder](folder.md) <br/> |Представляет папку в хранилище Exchange. Управляемые папки могут быть только вложенными папками с именем " **управляемые папки**".  <br/> |
-|[календарфолдер](calendarfolder.md) <br/> |Не применимо.  <br/> |
-|[контактсфолдер](contactsfolder.md) <br/> |Не применимо.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Не применимо.  <br/> |
-|[тасксфолдер](tasksfolder.md) <br/> |Неприменимо.  <br/> |
+|[Folder](folder.md) <br/> |Представляет папку в Exchange магазине. Управляемые пользовательские папки могут быть только подмостки папки с именем **Управляемые папки**.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Неприменимо.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Неприменимо.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Неприменимо.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Неприменимо.  <br/> |
    
 ## <a name="remarks"></a>Заметки
 
@@ -82,7 +82,7 @@ ms.locfileid: "44450951"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

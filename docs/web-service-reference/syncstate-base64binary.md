@@ -1,23 +1,23 @@
 ---
-title: Синкстате (base64Binary)
+title: SyncState (base64Binary)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 89650cd4-c790-4a37-b5e5-46a57501e100
-description: Элемент Синкстате указывает состояние синхронизации беседы.
-ms.openlocfilehash: 85c525176931b66354ebdd8873673f04c6a722f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SyncState указывает состояние синхронизации беседы.
+ms.openlocfilehash: e5096dd6f0fa9abfd92e725343d3f8f7fd08c103
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522580"
 ---
-# <a name="syncstate-base64binary"></a>Синкстате (base64Binary)
+# <a name="syncstate-base64binary"></a>SyncState (base64Binary)
 
-Элемент **синкстате** указывает состояние синхронизации беседы. 
+Элемент **SyncState** указывает состояние синхронизации беседы. 
   
 ```XML
 <SyncState></SyncState>
@@ -26,25 +26,25 @@ ms.locfileid: "44468140"
  **base64Binary**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Беседа (конверсатионрекуесттипе)](conversation-conversationrequesttype.md)  |  [Беседа (конверсатионреспонсетипе)](conversation-conversationresponsetype.md)
+[Разговор (ConversationRequestType)](conversation-conversationrequesttype.md)  |  [Conversation (ConversationResponseType)](conversation-conversationresponsetype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **синкстате** — состояние синхронизации для беседы. 
+Текстовое значение элемента **SyncState** — это состояние синхронизации для беседы. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44468140"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

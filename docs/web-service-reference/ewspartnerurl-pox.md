@@ -1,32 +1,32 @@
 ---
-title: Евспартнерурл (POX)
+title: EwsPartnerUrl (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ebae21c-3efa-4239-9b49-4a3a8871449b
-description: Элемент Евспартнерурл указывает URL-адрес лучшего экземпляра конечной точки для веб-служб Exchange (EWS) для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: a67eb17bb3db67a922c53ba5e37900ee0a9b956b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EwsPartnerUrl указывает URL-адрес лучшего экземпляра конечной точки для Exchange веб-служб (EWS) для пользователя с поддержкой почты.
+ms.openlocfilehash: 88ee0abdc5b8db09a938fc5fdba717a166b42399
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526111"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524324"
 ---
-# <a name="ewspartnerurl-pox"></a>Евспартнерурл (POX)
+# <a name="ewspartnerurl-pox"></a>EwsPartnerUrl (POX)
 
-Элемент **евспартнерурл** указывает URL-адрес лучшего экземпляра конечной точки для веб-служб Exchange (EWS) для пользователя с включенной поддержкой почты. 
+Элемент **EwsPartnerUrl** указывает URL-адрес наилучшего экземпляра конечной точки для Exchange веб-служб (EWS) для пользователя с включенной почтой. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Протокол (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[Евспартнерурл (POX)](ewspartnerurl-pox.md)
+[EwsPartnerUrl (POX)](ewspartnerurl-pox.md)
   
 ```XML
 <EwsPartnerUrl/>
@@ -34,33 +34,33 @@ ms.locfileid: "44526111"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором установлен сервер Microsoft Exchange с установленной ролью сервера клиентского доступа.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на Microsoft Exchange Server установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Текстовое значение представляет URL-адрес конечной точки EWS для пользователя.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **евспартнерурл** является необязательным дочерним элементом элемента **Protocol** . Он эквивалентен элементу [EwsUrl (POX)](ewsurl-pox.md) . 
+Элемент **EwsPartnerUrl является** необязательным детским элементом элемента **Protocol.** Он эквивалентен элементу [EwsUrl (POX).](ewsurl-pox.md) 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

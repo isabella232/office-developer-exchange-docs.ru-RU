@@ -3,15 +3,15 @@ title: Обновление часового пояса встречи с пом
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc2240c1-5500-4d5c-97d5-09d63ffd30d5
 description: Узнайте, как изменить часовой пояс для существующей встречи или собрания с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 064f99997b7c3d1197cb8d1ee6a24f8fb874f706
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 525feb1c7e37914ef4105312e89af8f1a8cf856b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455844"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521069"
 ---
 # <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>Обновление часового пояса встречи с помощью EWS в Exchange
 

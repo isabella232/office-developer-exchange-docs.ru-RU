@@ -1,23 +1,23 @@
 ---
-title: Атрибуты (Персонааттрибутионтипе)
+title: Attribution (PersonaAttributionType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc59e17e-baea-4617-8ca1-4382a89de0d7
-description: Элемент Attribute указывает экземпляр в массиве атрибутов для элемента Персонатипе.
-ms.openlocfilehash: 05b0d41c116f2ed7b8dbb3ac44108bb879256b5c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Attribution указывает экземпляр в массиве атрибутов элемента PersonaType.
+ms.openlocfilehash: eb2fe66042b6c7f52732be20195f0f4b94ab867c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464177"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524380"
 ---
-# <a name="attribution-personaattributiontype"></a>Атрибуты (Персонааттрибутионтипе)
+# <a name="attribution-personaattributiontype"></a>Attribution (PersonaAttributionType)
 
-Элемент **Attribute** указывает экземпляр в массиве атрибутов для элемента **персонатипе** . 
+Элемент **Attribution** указывает экземпляр в массиве атрибутов элемента **PersonaType.** 
   
 ```XML
 <Attribution>
@@ -31,34 +31,34 @@ ms.locfileid: "44464177"
 </Attribution>
 ```
 
- **персонааттрибутионтипе**
+ **PersonaAttributionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ID (строка)](id-string.md) <br/> |Указывает строку, которая уникально идентифицирует приложение или атрибуты в имени пользователя.  <br/> |
+|[ID (строка)](id-string.md) <br/> |Указывает строку, которая однозначно идентифицирует приложение или атрибут в персоне.  <br/> |
 |[SourceId](sourceid.md) <br/> |Указывает идентификатор контакта или получателя Active Directory.  <br/> |
-|[DisplayName (строка)](displayname-string.md) <br/> |Определяет отображаемое имя папки, контакта, списка рассылки, делегированного пользователя или правила.  <br/> |
-|[Доступный для записи](iswritable.md) <br/> |Указывает, можно ли записывать базового контакта или получателя Active Directory.  <br/> |
-|[искуиккконтакт](isquickcontact.md) <br/> |Задает логическое значение, указывающее, является ли основной контакт или получатель Active Directory быстрым контактом.  <br/> |
-|[IsHidden](ishidden.md) <br/> |Содержит логическое значение, которое указывает, следует ли скрывать или показывать базовый контакт или получатель Active Directory в составе персонажа.  <br/> |
+|[DisplayName (string)](displayname-string.md) <br/> |Определяет имя отображения папки, контакта, списка рассылки, пользователя делегирования или правила.  <br/> |
+|[IsWritable](iswritable.md) <br/> |Указывает, можно ли написать для конкретного контакта или получателя Active Directory.  <br/> |
+|[IsQuickContact](isquickcontact.md) <br/> |Указывает значение Boolean, которое указывает, является ли контактный контакт или получатель Active Directory быстрым.  <br/> |
+|[IsHidden](ishidden.md) <br/> |Содержит значение Boolean, которое указывает, должен ли скрытый или активный получатель Каталога в качестве части персоны.  <br/> |
 |[FolderId](folderid.md) <br/> |Содержит идентификатор и ключ изменения папки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Атрибуты (Аррайофперсонааттрибутионстипе)](attributions-arrayofpersonaattributionstype.md) <br/> |Задает массив сведений о сопоставлении для одного или нескольких получателей контактов или Active Directory (AD), собранных в сопоставленный с ним пользователь.  <br/> |
+|[Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Указывает массив сведений об атрибуции для одного или более контактов или активных получателей каталога(AD), агрегированных в связанное лицо.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -70,7 +70,7 @@ ms.locfileid: "44464177"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

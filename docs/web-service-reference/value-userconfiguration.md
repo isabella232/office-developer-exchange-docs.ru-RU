@@ -1,27 +1,27 @@
 ---
-title: Значение (Усерконфигуратион)
+title: Value (UserConfiguration)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Value
 api_type:
 - schema
 ms.assetid: 4f3c54e9-df5e-4cf4-8171-91f1e1cb2dbd
-description: Элемент value указывает значение объекта Dictionary в виде String.
-ms.openlocfilehash: ec1c06c5e730af8b40b5c868cc73efa481876591
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Value указывает значение объекта словаря в качестве строки.
+ms.openlocfilehash: 75e01ea175964ae8d948901af4d9551364fa52cc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468063"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522420"
 ---
-# <a name="value-userconfiguration"></a>Значение (Усерконфигуратион)
+# <a name="value-userconfiguration"></a>Value (UserConfiguration)
 
-Элемент **value** указывает значение объекта Dictionary в виде String. 
+Элемент **Value** указывает значение объекта словаря в качестве строки. 
   
 ```xml
 <Value/>
@@ -31,26 +31,26 @@ ms.locfileid: "44468063"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[диктионарикэй](dictionarykey.md) <br/> |Задает ключ словаря для свойства Dictionary.  <br/> |
-|[диктионаривалуе](dictionaryvalue.md) <br/> |Задает значение словаря для свойства Dictionary.  <br/> |
+|[DictionaryKey](dictionarykey.md) <br/> |Указывает ключ словаря для свойства словаря.  <br/> |
+|[DictionaryValue](dictionaryvalue.md) <br/> |Указывает значение словаря для свойства словаря.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
+Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2010, с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -58,7 +58,7 @@ ms.locfileid: "44468063"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,27 +1,27 @@
 ---
-title: спаусенаме
+title: SpouseName
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SpouseName
 api_type:
 - schema
 ms.assetid: 9aadecc3-54ba-4a25-b2b2-a5e2b63922f6
-description: Элемент Спаусенаме представляет имя супруга или партнера контакта.
-ms.openlocfilehash: 53d08731653b9dd22af2d33a1f0ece0ad0305096
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SpouseName представляет имя супруга или партнера контакта.
+ms.openlocfilehash: c8005526b329be57b0fd0d25e100ae7311bef195
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468210"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521335"
 ---
-# <a name="spousename"></a>спаусенаме
+# <a name="spousename"></a>SpouseName
 
-Элемент **спаусенаме** представляет имя супруга или партнера контакта. 
+Элемент **SpouseName** представляет имя супруга или партнера контакта. 
   
 ```xml
 <SpouseName/>
@@ -30,15 +30,15 @@ ms.locfileid: "44468210"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,9 +48,9 @@ ms.locfileid: "44468210"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение.
+Требуется текстовое значение.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44468210"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,7 +70,7 @@ ms.locfileid: "44468210"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
 [Обновление контактов](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   

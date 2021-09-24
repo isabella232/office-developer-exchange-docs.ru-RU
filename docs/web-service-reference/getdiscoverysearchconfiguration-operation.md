@@ -5,47 +5,47 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a54a6dc-110c-4972-a8bc-5ddb43c4b857
-description: Поиск сведений о GetDiscoverySearchConfigurationной операции EWS.
-ms.openlocfilehash: 4db435988a9954b921e7851986b6f92ffedbad94
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetDiscoverySearchConfiguration EWS.
+ms.openlocfilehash: 62cadc818219e13199aa246e87066571d78c4e3d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461025"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525080"
 ---
 # <a name="getdiscoverysearchconfiguration-operation"></a>Операция GetDiscoverySearchConfiguration
 
-Поиск сведений о **GetDiscoverySearchConfigurationной** операции EWS. 
+Сведения об операции **GetDiscoverySearchConfiguration** EWS. 
   
-Операция **GetDiscoverySearchConfiguration** возвращает сведения о конфигурации для удержаний на месте, сохраненных поисков и почтовых ящиков, которые включены для поиска обнаружения. 
+Операция **GetDiscoverySearchConfiguration** возвращает сведения о конфигурации для фиксирования на месте, сохраненных поисков обнаружения и почтовых ящиков, включенных для поиска обнаружения. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-getdiscoverysearchconfiguration-operation"></a>Использование операции GetDiscoverySearchConfiguration
 
-Операция **GetDiscoverySearchConfiguration** предоставляет сведения о конфигурации для поиска при обнаружении. Запросы могут содержать один или несколько из следующих аргументов: 
+Операция **GetDiscoverySearchConfiguration** предоставляет сведения о конфигурации для поиска обнаружения. Запросы могут содержать один или несколько следующих аргументов: 
   
-1. [Сеарчид](searchid.md) — определяет сохраненный поисковый запрос на обнаружение. Если этот аргумент отправляется в запросе, значения других аргументов игнорируются. 
+1. [SearchId](searchid.md) — определяет сохраненный поиск обнаружения. Если этот аргумент отправляется в запросе, значения других аргументов игнорируются. 
     
-2. [Експандграупмембершип](expandgroupmembership.md) — указывает, развернут ли в ответе членство в группе. Значение **true** указывает, что членство в группе развернуто, и в ответе возвращаются все доступные для поиска почтовые ящики. Значение **false** указывает, что в ответе возвращается только группа. 
+2. [ExpandGroupMembership](expandgroupmembership.md) — указывает, расширяется ли членство в группе в ответе. Значение true **указывает,** что членство в группе расширяется таким образом, что все почтовые ящики, которые можно найти, будут возвращены в ответ. Значение false **указывает,** что в ответ возвращается только группа. 
     
-3. [Инплацехолдконфигуратиононли](inplaceholdconfigurationonly.md) — указывает, возвращаются ли все доступные для поиска почтовые ящики в дополнение к конфигурации хранения на месте. Значение **true** указывает, что возвращаются только конфигурации хранения на месте. Значение **false** указывает, что все идентификаторы почтовых ящиков, доступные для поиска, возвращаются в дополнение к идентификаторам хранения на месте. Если этот элемент отсутствует, то поведением по умолчанию является эквивалент значения **false**. 
+3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) — указывает, возвращаются ли все поисковые почтовые ящики в дополнение к конфигурации удержания на месте. Значение true **указывает,** что возвращаются только конфигурации удержания на месте. Значение false **указывает,** что все идентификаторы почтовых ящиков, которые можно найти, возвращаются в дополнение к идентификаторам удержания на месте. Если этого элемента нет, по умолчанию поведение эквивалентно значению **false**. 
     
-### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>Заголовки SOAP операции GetDiscoverySearchConfiguration
+### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>GetDiscoverySearchConfiguration operation SOAP headers
 
-Операция **GetDiscoverySearchConfiguration** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+Операция **GetDiscoverySearchConfiguration** может использовать заголовки SOAP, перечисленные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для того, чтобы вызывающий абонент мог выполнить запрос. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для запроса вызываемой. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>Пример запроса операции GetDiscoverySearchConfiguration: получение конфигурации поиска при обнаружении для сохраненного поиска
+## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>Пример запроса на операцию GetDiscoverySearchConfiguration: получите конфигурацию поиска обнаружения для сохраненного поиска
 
-В следующем примере запроса операции **GetDiscoverySearchConfiguration** показано, как запросить конфигурацию сохраненного поиска с именем "мидисксеарчфор — сбровн". Аргументы для элементов [експандграупмембершип](expandgroupmembership.md) и [инплацехолдконфигуратиононли](inplaceholdconfigurationonly.md) игнорируются. 
+В следующем примере запроса **операции GetDiscoverySearchConfiguration** показано, как запрашивать конфигурацию сохраненного поиска под названием "MyDiscSearchFor-sbrown". Аргументы для элементов [ExpandGroupMembership](expandgroupmembership.md) и [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) игнорируются. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -66,19 +66,19 @@ ms.locfileid: "44461025"
 
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [GetDiscoverySearchConfiguration](getdiscoverysearchconfiguration.md)
     
-- [сеарчид](searchid.md)
+- [SearchId](searchid.md)
     
-- [експандграупмембершип](expandgroupmembership.md)
+- [ExpandGroupMembership](expandgroupmembership.md)
     
-- [инплацехолдконфигуратиононли](inplaceholdconfigurationonly.md)
+- [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>Успешный отклик операции GetDiscoverySearchConfiguration: запрос на один сохраненный поиск
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>Успешный ответ операции GetDiscoverySearchConfiguration: Запрос на один сохраненный поиск
 
-В следующем примере показан успешный ответ на запрос операции **GetDiscoverySearchConfiguration** для получения конфигурации сохраненного поиска с именем "мидисксеарчфор — сбровн". 
+В следующем примере показан успешный ответ на запрос **операции GetDiscoverySearchConfiguration** для получения конфигурации сохраненного поиска под названием "MyDiscSearchFor-sbrown". 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -111,41 +111,41 @@ ms.locfileid: "44461025"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [жетдисковерисеарчконфигуратионреспонсе](getdiscoverysearchconfigurationresponse.md)
+- [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дисковерисеарчконфигуратионс](discoverysearchconfigurations.md)
+- [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
     
-- [дисковерисеарчконфигуратион](discoverysearchconfiguration.md)
+- [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
     
-- [сеарчид](searchid.md)
+- [SearchId](searchid.md)
     
 - [SearchQuery](searchquery.md)
     
-- [сеарчаблемаилбоксес](searchablemailboxes.md)
+- [SearchableMailboxes](searchablemailboxes.md)
     
-- [сеарчаблемаилбокс](searchablemailbox.md)
+- [SearchableMailbox](searchablemailbox.md)
     
 - [Guid](guid-ex15websvcsotherref.md)
     
 - [PrimarySmtpAddress (строка)](primarysmtpaddress-string.md)
     
-- [исекстерналмаилбокс](isexternalmailbox.md)
+- [IsExternalMailbox](isexternalmailbox.md)
     
 - [ExternalEmailAddress](externalemailaddress.md)
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
-- [исмембершипграуп](ismembershipgroup.md)
+- [IsMembershipGroup](ismembershipgroup.md)
     
 - [ReferenceId](referenceid.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>Успешный отклик операции GetDiscoverySearchConfiguration: запрос удержания на месте
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>Успешный ответ операции GetDiscoverySearchConfiguration: запрос на удерживание на месте
 
-В следующем примере показан успешный ответ на запрос операции **GetDiscoverySearchConfiguration** для получения только удержаний на месте. 
+В следующем примере показан успешный ответ на запрос **операции GetDiscoverySearchConfiguration,** чтобы получить только удерживание на месте. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -186,27 +186,27 @@ ms.locfileid: "44461025"
 
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [жетдисковерисеарчконфигуратионреспонсе](getdiscoverysearchconfigurationresponse.md)
+- [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дисковерисеарчконфигуратионс](discoverysearchconfigurations.md)
+- [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
     
-- [дисковерисеарчконфигуратион](discoverysearchconfiguration.md)
+- [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
     
-- [сеарчид](searchid.md)
+- [SearchId](searchid.md)
     
 - [SearchQuery](searchquery.md)
     
 - [InPlaceHoldIdentity](inplaceholdidentity.md)
     
-- [манажедбйорганизатион](managedbyorganization.md)
+- [ManagedByOrganization](managedbyorganization.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>Успешный отклик операции GetDiscoverySearchConfiguration: запрос для всех сохраненных конфигураций поиска для обнаружения
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>Успешный ответ операции GetDiscoverySearchConfiguration: Запрос на все сохраненные конфигурации поиска обнаружения
 
-В следующем примере показан успешный ответ на запрос операции **GetDiscoverySearchConfiguration** для получения всех сохраненных поисков обнаружения. 
+В следующем примере показан успешный ответ на запрос **операции GetDiscoverySearchConfiguration,** чтобы получить все сохраненные поиски обнаружения. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -273,41 +273,41 @@ ms.locfileid: "44461025"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [жетдисковерисеарчконфигуратионреспонсе](getdiscoverysearchconfigurationresponse.md)
+- [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дисковерисеарчконфигуратионс](discoverysearchconfigurations.md)
+- [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
     
-- [дисковерисеарчконфигуратион](discoverysearchconfiguration.md)
+- [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
     
-- [сеарчид](searchid.md)
+- [SearchId](searchid.md)
     
 - [SearchQuery](searchquery.md)
     
-- [сеарчаблемаилбоксес](searchablemailboxes.md)
+- [SearchableMailboxes](searchablemailboxes.md)
     
-- [сеарчаблемаилбокс](searchablemailbox.md)
+- [SearchableMailbox](searchablemailbox.md)
     
 - [Guid](guid-ex15websvcsotherref.md)
     
 - [PrimarySmtpAddress (строка)](primarysmtpaddress-string.md)
     
-- [исекстерналмаилбокс](isexternalmailbox.md)
+- [IsExternalMailbox](isexternalmailbox.md)
     
 - [ExternalEmailAddress](externalemailaddress.md)
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
-- [исмембершипграуп](ismembershipgroup.md)
+- [IsMembershipGroup](ismembershipgroup.md)
     
 - [ReferenceId](referenceid.md)
     
-## <a name="getdiscoverysearchconfiguration-operation-error-response"></a>Ответ об ошибке операции GetDiscoverySearchConfiguration
+## <a name="getdiscoverysearchconfiguration-operation-error-response"></a>Ответ на ошибку операции GetDiscoverySearchConfiguration
 
-В следующем примере показан ответ об ошибке для запроса операции **GetDiscoverySearchConfiguration** . Это ответ на запрос на получение сохраненного поиска, не найденного на сервере. 
+В следующем примере показан ответ на ошибку запроса **операции GetDiscoverySearchConfiguration.** Это ответ на запрос о том, чтобы получить сохраненный поиск, который не найден на сервере. 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -336,19 +336,19 @@ ms.locfileid: "44461025"
 
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [жетдисковерисеарчконфигуратионреспонсе](getdiscoverysearchconfigurationresponse.md)
+- [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [дисковерисеарчконфигуратионс](discoverysearchconfigurations.md)
+- [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
     
-Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
+Дополнительные коды ошибок, общие для EWS и специфические для этой операции, см. [в ответе.](responsecode.md)
   
 ## <a name="see-also"></a>См. также
 

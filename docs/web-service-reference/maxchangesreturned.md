@@ -1,31 +1,31 @@
 ---
-title: максчанжесретурнед
+title: MaxChangesReturned
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaxChangesReturned
 api_type:
 - schema
 ms.assetid: f471db84-a666-4dfa-9993-8ca9113a0384
-description: Элемент Максчанжесретурнед описывает максимальное число изменений, которые могут быть возвращены в ответе синхронизации.
-ms.openlocfilehash: caf96b6e95f2e63d0e544ead26fbea18cd637861
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MaxChangesReturned описывает максимальное количество изменений, которые могут быть возвращены в ответ на синхронизацию.
+ms.openlocfilehash: 8169e1a87ed22b68e5115cd7eaaa1084e44e8f33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460087"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523938"
 ---
-# <a name="maxchangesreturned"></a>максчанжесретурнед
+# <a name="maxchangesreturned"></a>MaxChangesReturned
 
-Элемент **максчанжесретурнед** описывает максимальное число изменений, которые могут быть возвращены в ответе синхронизации. 
+Элемент **MaxChangesReturned** описывает максимальное количество изменений, которые могут быть возвращены в ответ на синхронизацию. 
   
 [SyncFolderItems](syncfolderitems.md)
   
-[максчанжесретурнед](maxchangesreturned.md)
+[MaxChangesReturned](maxchangesreturned.md)
   
 ```xml
 <MaxChangesReturned/>
@@ -34,27 +34,27 @@ ms.locfileid: "44460087"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |Определяет запрос на синхронизацию элементов в папке хранилища Exchange.  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Определяет запрос на синхронизацию элементов в Exchange папке.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет целое число, которое описывает максимальное количество элементов, возвращаемых при каждом вызове синхронизации. Значение должно находиться в диапазоне от 1 до 512 включительно.
+Текстовое значение представляет собой целый ряд, который описывает максимальное количество элементов, возвращаемых в одном вызове синхронизации. Значение должно быть от 1 до 512 включительно.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -64,7 +64,7 @@ ms.locfileid: "44460087"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

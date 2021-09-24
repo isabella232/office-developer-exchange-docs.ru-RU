@@ -1,62 +1,62 @@
 ---
-title: стандардграупби
+title: StandardGroupBy
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StandardGroupBy
 api_type:
 - schema
 ms.assetid: 04a84f71-b7eb-44dc-ac2c-ed504b52c463
-description: Элемент Стандардграупби представляет стандартные механизмы группирования и агрегирования для операции сгруппированной операции FindItem.
-ms.openlocfilehash: 3e135feba322979de3d66d5a45d423654ccc9100
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент StandardGroupBy представляет стандартные механизмы группировки и агрегации для сгруппированной операции FindItem.
+ms.openlocfilehash: b19157b9ff3a19379880b7f6b9c52835c170df21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467559"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521279"
 ---
-# <a name="standardgroupby"></a>стандардграупби
+# <a name="standardgroupby"></a>StandardGroupBy
 
-Элемент **стандардграупби** представляет стандартные механизмы группирования и агрегирования для операции сгруппированной операции FindItem. 
+Элемент **StandardGroupBy** представляет стандартные механизмы группировки и агрегации для сгруппированной операции FindItem. 
   
 [FindItem](finditem.md)
   
-[дистингуишедграупби](distinguishedgroupby.md)
+[DistinguishedGroupBy](distinguishedgroupby.md)
   
-[стандардграупби](standardgroupby.md)
+[StandardGroupBy](standardgroupby.md)
   
 ```xml
 <StandardGroupBy/>
 ```
 
- **стандардграупбитипе**
+ **StandardGroupByType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[дистингуишедграупби](distinguishedgroupby.md) <br/> |Предоставляет стандартные группирования для запросов FindItem.  <br/> |
+|[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |Предоставляет стандартные группировки для запросов FindItem.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Для этого элемента можно использовать только значение **ConversationTopic**. **ConversationTopic** группы по сообщению: ConversationTopic и статистические выражения для элемента: DateTimeReceived (Maximum). Дополнительные сведения о агрегации приведены в разделе [аггрегатеон](aggregateon.md).
+Требуется текстовое значение. Единственное значение, которое можно использовать для этого элемента, **— ConversationTopic**. **ConversationTopic** groups by message:ConversationTopic and aggregates on item:DateTimeReceived (maximum). Дополнительные сведения об агрегации см. в [агрегации AggregateOn.](aggregateon.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -66,7 +66,7 @@ ms.locfileid: "44467559"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

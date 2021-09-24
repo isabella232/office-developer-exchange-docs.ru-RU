@@ -1,27 +1,27 @@
 ---
-title: ассигнкатегориес
+title: AssignCategories
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AssignCategories
 api_type:
 - schema
 ms.assetid: f5c73fed-7b00-446d-8296-71a0c86e7fc6
-description: Элемент Ассигнкатегориес представляет категории, помеченные в сообщениях электронной почты.
-ms.openlocfilehash: e2dad0e2ef46421ae92a0d2826d161e5e2af3b93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AssignCategories представляет категории, штампующиеся в сообщениях электронной почты.
+ms.openlocfilehash: 9ef23f03f54f0c10ed8bdbf287f949119626cd51
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464744"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525220"
 ---
-# <a name="assigncategories"></a>ассигнкатегориес
+# <a name="assigncategories"></a>AssignCategories
 
-Элемент **ассигнкатегориес** представляет категории, помеченные в сообщениях электронной почты. 
+Элемент **AssignCategories** представляет категории, штампующиеся в сообщениях электронной почты. 
   
 - [Правило (RuleType)](rule-ruletype.md)
   
@@ -33,20 +33,20 @@ ms.locfileid: "44464744"
 </AssignCategories>
 ```
 
- **аррайофстрингстипе**
+ **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Содержит строку, определяющую одну категорию.  <br/> |
+|[Строка](string.md) <br/> |Содержит строку, определяемую одной категорией.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "44464744"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -68,7 +68,7 @@ ms.locfileid: "44464744"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

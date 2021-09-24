@@ -1,23 +1,23 @@
 ---
-title: Руководители
+title: Managers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9be5f734-af42-4bf1-9eb4-f3e4f0917640
-description: Элемент руководители указывает массив имен диспетчеров и идентификаторы их исходных атрибутов для пользователя.
-ms.openlocfilehash: 49fccb4e6e4b920887d6f8fbc41c5ccdba1cbbe2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Managers указывает массив имен менеджеров и идентификаторов их исходных атрибутов для персоны.
+ms.openlocfilehash: a36b85ccefa7e13f9bdc482d5d613044532c7347
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530897"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524009"
 ---
-# <a name="managers"></a>Руководители
+# <a name="managers"></a>Managers
 
-Элемент **руководители** указывает массив имен диспетчеров и идентификаторы их исходных атрибутов для пользователя. 
+Элемент **Managers** указывает массив имен менеджеров и идентификаторов их исходных атрибутов для персоны. 
   
 ```XML
 <Managers>
@@ -25,24 +25,24 @@ ms.locfileid: "44530897"
 </Managers>
 ```
 
- **аррайофстрингаттрибутедвалуестипе**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[стрингаттрибутедвалуе](stringattributedvalue.md)
+[StringAttributedValue](stringattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44530897"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

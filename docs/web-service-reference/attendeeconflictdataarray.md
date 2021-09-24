@@ -1,41 +1,41 @@
 ---
-title: аттендиконфликтдатааррай
+title: AttendeeConflictDataArray
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttendeeConflictDataArray
 api_type:
 - schema
 ms.assetid: 1d758547-28c5-4649-8334-427480c282d6
-description: Элемент Аттендиконфликтдатааррай содержит массив данных о конфликтах для запрашиваемых участников, идентифицированных в операции GetUserAvailability.
-ms.openlocfilehash: 770e8c00ca248ec3562180dc9d3626fd5b58f4d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AttendeeConflictDataArray содержит массив конфликтных данных для запрашиваемого участника, выявленного в операции GetUserAvailability.
+ms.openlocfilehash: 1054fba62c7e0746a13471433d6d619a304ff848
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455802"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524364"
 ---
-# <a name="attendeeconflictdataarray"></a>аттендиконфликтдатааррай
+# <a name="attendeeconflictdataarray"></a>AttendeeConflictDataArray
 
-Элемент **аттендиконфликтдатааррай** содержит массив данных о конфликтах для запрашиваемых участников, идентифицированных в [операции GetUserAvailability](getuseravailability-operation.md).
+Элемент **AttendeeConflictDataArray** содержит массив конфликтных данных для запрашиваемого участника, выявленного в операции [GetUserAvailability.](getuseravailability-operation.md)
   
-- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-- [сугжестионсреспонсе](suggestionsresponse.md)
+- [SuggestionsResponse](suggestionsresponse.md)
   
-- [сугжестиондайресултаррай](suggestiondayresultarray.md)
+- [SuggestionDayResultArray](suggestiondayresultarray.md)
   
-- [сугжестиондайресулт](suggestiondayresult.md)
+- [SuggestionDayResult](suggestiondayresult.md)
   
-- [сугжестионаррай](suggestionarray.md)
+- [SuggestionArray](suggestionarray.md)
   
 - [Предложение](suggestion.md)
   
-- [аттендиконфликтдатааррай](attendeeconflictdataarray.md)
+- [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
 ```xml
 <ArrayOfAttendeeConflictData>
@@ -46,33 +46,33 @@ ms.locfileid: "44455802"
 </ArrayOfAttendeeConflictData>
 ```
 
- **аррайофаттендиконфликтдата**
+ **ArrayOfAttendeeConflictData**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ункновнаттендиконфликтдата](unknownattendeeconflictdata.md) <br/> |Представляет неразрешимого участника или участника, который не является пользователем, списком рассылки или контактом.  <br/> |
-|[индивидуалаттендиконфликтдата](individualattendeeconflictdata.md) <br/> |Содержит сведения о занятости пользователя или контакта для временного периода, выполняемого одновременно с указанным в элементе [предложение](suggestion.md) временем собрания.  <br/> |
-|[тубигграупаттендиконфликтдата](toobiggroupattendeeconflictdata.md) <br/> |Представляет участника, которое разрешалось как список рассылки, который был слишком большим для расширения.  <br/> |
-|[граупаттендиконфликтдата](groupattendeeconflictdata.md) <br/> |Содержит статистические сведения о количестве доступных пользователей, количестве пользователей с конфликтами и количестве пользователей, не имеющих сведений о доступности, в списке рассылки для предполагаемого времени проведения собрания.  <br/> |
+|[UnknownAttendeeConflictData](unknownattendeeconflictdata.md) <br/> |Представляет нераспределяемого участника или участника, который не является пользователем, списком рассылки или контактом.  <br/> |
+|[IndividualAttendeeConflictData](individualattendeeconflictdata.md) <br/> |Содержит состояние свободного или занятого пользователя или контакта для окне времени, которое происходит одновременно с предложенным временем собрания, идентифицированным в [элементе Предложение.](suggestion.md)  <br/> |
+|[TooBigGroupAttendeeConflictData](toobiggroupattendeeconflictdata.md) <br/> |Представляет участника, который был разрешен в качестве списка рассылки, который был слишком велик для расширения.  <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Содержит сводную конфликтную информацию о количестве доступных пользователей, количестве пользователей, имеющих конфликты, и количестве пользователей, не имеющих сведений о доступности в списке рассылки в течение предложенного времени собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Предложение](suggestion.md) <br/> |Представляет один вариант времени собрания.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[Предложение](suggestion.md) <br/> |Представляет одно предложение о времени собрания.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Положение каждого элемента в **аттендиконфликтдатааррай** соответствует положению запрашиваемых участников в элементе [маилбоксдатааррай](mailboxdataarray.md) . Каждый запрашиваемый Участник должен соответствовать одному из дочерних элементов **аттендиконфликтдатааррай** . Эти элементы представляют один конфликт с предложенным временем собрания, указанным в элементе " [предложение](suggestion.md) ". 
+Положение каждого элемента **в элементе AttendeeConflictDataArray** соответствует позиции запрашиваемого участника элемента [MailboxDataArray.](mailboxdataarray.md) Каждый запрашиваемый участник должен соответствовать одному из детских элементов **AttendeeConflictDataArray.** Эти элементы представляют собой один конфликт с предложенным временем собрания, указанным в [элементе Предложение.](suggestion.md) 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -82,12 +82,12 @@ ms.locfileid: "44455802"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md) 
-- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 - [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -1,23 +1,23 @@
 ---
-title: сетимлистмигратионкомплетедреспонсе
+title: SetImListMigrationCompletedResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e9ab484-7100-422d-ab22-d8ddb97098c1
-description: Элемент Сетимлистмигратионкомплетедреспонсе представляет ответ на запрос Сетимлистмигратионкомплетед.
-ms.openlocfilehash: 66d85362319df1c88064130e99bba98f21b50db7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SetImListMigrationCompletedResponse представляет ответ на запрос SetImListMigrationCompleted.
+ms.openlocfilehash: 6bb75e9e14f19a98553976fd1e94e59e71a0522e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464821"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521426"
 ---
-# <a name="setimlistmigrationcompletedresponse"></a>сетимлистмигратионкомплетедреспонсе
+# <a name="setimlistmigrationcompletedresponse"></a>SetImListMigrationCompletedResponse
 
-Элемент **сетимлистмигратионкомплетедреспонсе** представляет ответ на запрос **сетимлистмигратионкомплетед** . 
+Элемент **SetImListMigrationCompletedResponse** представляет ответ на запрос **SetImListMigrationCompleted.** 
   
 ```XML
 <SetImListMigrationCompletedResponse>
@@ -28,24 +28,24 @@ ms.locfileid: "44464821"
 </SetImListMigrationCompletedResponse>
 ```
 
- **сетимлистмигратионкомплетедреспонсемессажетипе**
+ **SetImListMigrationCompletedResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44464821"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

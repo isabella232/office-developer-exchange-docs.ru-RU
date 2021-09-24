@@ -1,23 +1,23 @@
 ---
-title: сеарчаблемаилбокс
+title: SearchableMailbox
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 339005cd-a3b9-47dd-bc7b-a860b699625b
-description: Элемент Сеарчаблемаилбокс указывает почтовый ящик, возвращенный из запроса GetSearchableMailboxes.
-ms.openlocfilehash: f790d9a707f10f64a776b2fc35255c233ad854b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SearchableMailbox указывает почтовый ящик, возвращаемый из запроса GetSearchableMailboxes.
+ms.openlocfilehash: 75d5680de8b0776b1ecf441ff71266ee74c4aa66
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524429"
 ---
-# <a name="searchablemailbox"></a>сеарчаблемаилбокс
+# <a name="searchablemailbox"></a>SearchableMailbox
 
-Элемент **сеарчаблемаилбокс** указывает почтовый ящик, возвращенный из запроса **GetSearchableMailboxes** . 
+Элемент **SearchableMailbox** указывает почтовый ящик, возвращаемый из **запроса GetSearchableMailboxes.** 
   
 ```XML
 <SearchableMailbox>
@@ -31,24 +31,24 @@ ms.locfileid: "44467454"
 </SearchableMailbox>
 ```
 
- **сеарчаблемаилбокстипе**
+ **SearchableMailboxType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Идентификатор GUID](guid-ex15websvcsotherref.md)  |  [PrimarySmtpAddress (строка)](primarysmtpaddress-string.md)  |  [Исекстерналмаилбокс](isexternalmailbox.md)  |  [ExternalEmailAddress](externalemailaddress.md)  |  [DisplayName (строка)](displayname-string.md)  |  [Исмембершипграуп](ismembershipgroup.md)  |  [Референцеид](referenceid.md)
+[Guid](guid-ex15websvcsotherref.md)  |  [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)  |  [IsExternalMailbox](isexternalmailbox.md)  |  [ExternalEmailAddress](externalemailaddress.md)  |  [DisplayName (string)](displayname-string.md)  |  [IsMembershipGroup](ismembershipgroup.md)  |  [ReferenceId](referenceid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеарчаблемаилбоксес](searchablemailboxes.md)
+[SearchableMailboxes](searchablemailboxes.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44467454"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

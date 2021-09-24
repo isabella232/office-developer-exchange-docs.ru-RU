@@ -1,41 +1,41 @@
 ---
-title: исворктиме
+title: IsWorkTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsWorkTime
 api_type:
 - schema
 ms.assetid: 5243dd19-3593-4a81-bb2d-90496e04cb98
-description: Элемент Исворктиме указывает, встречается ли предложенное время собрания в запланированные рабочие часы.
-ms.openlocfilehash: a3f3c73d585bee6f73863e2be64eea245be674f4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsWorkTime представляет, происходит ли предложенное время собрания в запланированные часы работы.
+ms.openlocfilehash: caa00221d36d67957fb20e9b245bac0c3b9e9c3f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467580"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525031"
 ---
-# <a name="isworktime"></a>исворктиме
+# <a name="isworktime"></a>IsWorkTime
 
-Элемент **исворктиме** указывает, встречается ли предложенное время собрания в запланированные рабочие часы. 
+Элемент **IsWorkTime** представляет, происходит ли предложенное время собрания в запланированные часы работы. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[сугжестионсреспонсе](suggestionsresponse.md)
+[SuggestionsResponse](suggestionsresponse.md)
   
-[сугжестиондайресултаррай](suggestiondayresultarray.md)
+[SuggestionDayResultArray](suggestiondayresultarray.md)
   
-[сугжестиондайресулт](suggestiondayresult.md)
+[SuggestionDayResult](suggestiondayresult.md)
   
-[сугжестионаррай](suggestionarray.md)
+[SuggestionArray](suggestionarray.md)
   
 [Предложение](suggestion.md)
   
-[исворктиме](isworktime.md)
+[IsWorkTime](isworktime.md)
   
 ```xml
 <IsWorkTime>true or false</IsWorkTime>
@@ -44,27 +44,27 @@ ms.locfileid: "44467580"
  **boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Предложение](suggestion.md) <br/> |Представляет один вариант времени собрания.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[Предложение](suggestion.md) <br/> |Представляет одно предложение о времени собрания.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Текстовое значение, представляющее логическое значение является обязательным.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -74,7 +74,7 @@ ms.locfileid: "44467580"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -83,7 +83,7 @@ ms.locfileid: "44467580"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

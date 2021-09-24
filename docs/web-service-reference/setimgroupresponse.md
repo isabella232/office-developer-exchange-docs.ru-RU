@@ -1,23 +1,23 @@
 ---
-title: сетимграупреспонсе
+title: SetImGroupResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5562b38-6a3e-49e0-b1db-ec8cd0683863
-description: Элемент Сетимграупреспонсе представляет ответ на запрос SetImGroup.
-ms.openlocfilehash: 9c5f6bb5c2a4ffe4626f242ec06b7e022ef21bbf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SetImGroupResponse представляет ответ на запрос SetImGroup.
+ms.openlocfilehash: fdf88ee36f24e1657d85c2724c8f868520895a48
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44438056"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521411"
 ---
-# <a name="setimgroupresponse"></a>сетимграупреспонсе
+# <a name="setimgroupresponse"></a>SetImGroupResponse
 
-Элемент **сетимграупреспонсе** представляет ответ на запрос **SetImGroup** . 
+Элемент **SetImGroupResponse** представляет ответ на запрос **SetImGroup.** 
   
 ```XML
 <SetImGroupResponse>
@@ -28,24 +28,24 @@ ms.locfileid: "44438056"
 </SetImGroupResponse>
 ```
 
- **сетимграупреспонсемессажетипе**
+ **SetImGroupResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44438056"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

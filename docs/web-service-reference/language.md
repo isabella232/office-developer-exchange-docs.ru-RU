@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e24e672-7b17-49c8-b368-a078ca1d4dd1
-description: Элемент Language содержит язык, используемый для поискового запроса.
-ms.openlocfilehash: 3d1843ea5d38f5efee8453623f450a4486e4d18b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Language содержит язык, используемый для запроса поиска.
+ms.openlocfilehash: b8e3bf0d1fede8febe4a1b4e1e349de4ddc6a18a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524107"
 ---
 # <a name="language"></a>Язык
 
-Элемент **Language** содержит язык, используемый для поискового запроса. 
+Элемент **Language** содержит язык, используемый для запроса поиска. 
   
 ```XML
 <Language></Language>
@@ -26,15 +26,15 @@ ms.locfileid: "44468700"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44468700"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Language** — это язык, используемый для поиска при обнаружении. 
+Текстовое значение элемента **Language** — это язык, используемый в поиске обнаружения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44468700"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,27 +1,27 @@
 ---
-title: исреадрецеиптрекуестед
+title: IsReadReceiptRequested
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsReadReceiptRequested
 api_type:
 - schema
 ms.assetid: 7ab6edd5-c7ed-4701-8de3-d7dc7ecfa9c2
-description: Элемент Исреадрецеиптрекуестед указывает, запрашивает ли отправитель элемента уведомление о прочтении.
-ms.openlocfilehash: ff0c512ef23b315d4de1194432408f5b408029d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsReadReceiptRequested указывает, запрашивает ли отправитель элемента получение чтения.
+ms.openlocfilehash: 0ecc70116512103c252692295bd61fd102d7b5ea
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457790"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524142"
 ---
-# <a name="isreadreceiptrequested"></a>исреадрецеиптрекуестед
+# <a name="isreadreceiptrequested"></a>IsReadReceiptRequested
 
-Элемент **исреадрецеиптрекуестед** указывает, запрашивает ли отправитель элемента уведомление о прочтении. 
+Элемент **IsReadReceiptRequested** указывает, запрашивает ли отправитель элемента получение чтения. 
   
 ```xml
 <IsReadReceiptRequested/>
@@ -30,15 +30,15 @@ ms.locfileid: "44457790"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -46,25 +46,25 @@ ms.locfileid: "44457790"
 |:-----|:-----|
 |[RemoveItem](removeitem.md) <br/> |Удаляет элемент из хранилища Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
-|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
-|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[акцептитем](acceptitem.md) <br/> |Представляет ответ на принять приглашение на собрание.  <br/> |
-|[тентативелякцептитем](tentativelyacceptitem.md) <br/> |Представляет под вопросом ответ на приглашения на собрание.  <br/> |
-|[деклинеитем](declineitem.md) <br/> |Представляет отклонить ответ на приглашения на собрание.  <br/> |
-|[реплитоитем](replytoitem.md) <br/> |Содержит ответ создателем элемента в хранилище Exchange.  <br/> |
-|[репляллтоитем](replyalltoitem.md) <br/> |Содержит ответить всем получателям определенного элемента в хранилище Exchange.  <br/> |
-|[форвардитем](forwarditem.md) <br/> |Содержит элемент хранилища Exchange переадресация получателям.  <br/> |
-|[канцелкалендаритем](cancelcalendaritem.md) <br/> |Представляет объект ответа, используемый для отмены собрания.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[AcceptItem](acceptitem.md) <br/> |Представляет ответ на принять приглашение на собрание.  <br/> |
+|[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |Представляет под вопросом ответ на приглашения на собрание.  <br/> |
+|[DeclineItem](declineitem.md) <br/> |Представляет отклонить ответ на приглашения на собрание.  <br/> |
+|[ReplyToItem](replytoitem.md) <br/> |Содержит ответ создателем элемента в хранилище Exchange.  <br/> |
+|[ReplyAllToItem](replyalltoitem.md) <br/> |Содержит ответить всем получателям определенного элемента в хранилище Exchange.  <br/> |
+|[ForwardItem](forwarditem.md) <br/> |Содержит элемент хранилища Exchange переадресация получателям.  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Представляет объект ответа, используемый для отмены собрания.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** указывает, что уведомление о прочтении запрашивается у получателя элемента. 
+Текстовое значение **true указывает,** что получение чтения запрашивается у получателя элемента. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если **исреадрецеиптрекуестед** имеет **значение true**, параметру [Read](isread.md) to **true** отправляется уведомление о прочтении. Получатель может отключить уведомления о прочтении, отправив объект ответа [суппрессреадрецеипт](suppressreadreceipt.md) , прежде чем устанавливать свойство- **Read** . 
+Если **isReadReceiptRequested** является **верным,** параметр [IsRead](isread.md) для **true** отправляет квитанцию о прочтение. Получатель может подавлять получение чтения, перед тем как установить свойство **IsRead,** перед отправкой объекта [ответа SuppressReadReceipt.](suppressreadreceipt.md) 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -74,7 +74,7 @@ ms.locfileid: "44457790"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

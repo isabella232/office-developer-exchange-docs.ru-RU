@@ -1,31 +1,31 @@
 ---
-title: саурцеидс
+title: SourceIds
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SourceIds
 api_type:
 - schema
 ms.assetid: 0043abd5-ba9c-4d67-8832-325f32bf7651
-description: Элемент Саурцеидс содержит идентификаторы источника для преобразования.
-ms.openlocfilehash: 1c4990f2185788c5cfaab5483cb6a54a0d850596
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SourceIds содержит исходные идентификаторы для преобразования.
+ms.openlocfilehash: e6a0767de0928578fb6ae16996ff39908580d45c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466110"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521342"
 ---
-# <a name="sourceids"></a>саурцеидс
+# <a name="sourceids"></a>SourceIds
 
-Элемент **саурцеидс** содержит идентификаторы источника для преобразования. 
+Элемент **SourceIds** содержит исходные идентификаторы для преобразования. 
   
 [ConvertId](convertid.md)
   
-[саурцеидс](sourceids.md)
+[SourceIds](sourceids.md)
   
 ```xml
 <SourceIds>
@@ -35,32 +35,32 @@ ms.locfileid: "44466110"
 </SourceIds>
 ```
 
- **нонемптяррайофалтернатеидстипе**
+ **NonEmptyArrayOfAlternateIdsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AlternateId](alternateid.md) <br/> |Описывает идентификатор элемента или папки, который требуется преобразовать.  <br/> |
-|[алтернатепубликфолдерид](alternatepublicfolderid.md) <br/> |Описывает идентификатор общедоступной папки для преобразования.  <br/> |
-|[алтернатепубликфолдеритемид](alternatepublicfolderitemid.md) <br/> |Описывает идентификатор элемента общедоступной папки, который требуется преобразовать.  <br/> |
+|[AlternateId](alternateid.md) <br/> |Описывает идентификатор элемента или папки для преобразования.  <br/> |
+|[AlternatePublicFolderId](alternatepublicfolderid.md) <br/> |Описывает идентификатор общедоступных папок для преобразования.  <br/> |
+|[AlternatePublicFolderItemId](alternatepublicfolderitemid.md) <br/> |Описывает идентификатор элемента общедоступных папок для преобразования.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ConvertId](convertid.md) <br/> |Определяет запрос на преобразование идентификаторов элементов и папок между поддерживаемыми форматами Exchange.  <br/> |
+|[ConvertId](convertid.md) <br/> |Определяет запрос на преобразование идентификаторов элементов и папок между Exchange поддерживаемых форматов.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором установлен сервер Exchange, на котором установлена роль сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в виртуальном каталоге компьютера EWS, на Exchange Server который установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -68,7 +68,7 @@ ms.locfileid: "44466110"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

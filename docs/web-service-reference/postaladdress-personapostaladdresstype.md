@@ -1,23 +1,23 @@
 ---
-title: Посталаддресс (Персонапосталаддресстипе)
+title: PostalAddress (PersonaPostalAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 075f7d65-9d05-47cb-af26-0dd6d5593439
-description: Элемент Посталаддресс указывает почтовый адрес пользователя.
-ms.openlocfilehash: 9e316e5e0135c2d18fab4067241988c65eceec66
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PostalAddress указывает почтовый адрес для персоны.
+ms.openlocfilehash: 4e95a94c5a7ce917a0a4b9abf7b7ef120301ae6c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465389"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523904"
 ---
-# <a name="postaladdress-personapostaladdresstype"></a>Посталаддресс (Персонапосталаддресстипе)
+# <a name="postaladdress-personapostaladdresstype"></a>PostalAddress (PersonaPostalAddressType)
 
-Элемент **посталаддресс** указывает почтовый адрес пользователя. 
+Элемент **PostalAddress** указывает почтовый адрес для персоны. 
   
 ```XML
 <PostalAddress>
@@ -39,24 +39,24 @@ ms.locfileid: "44465389"
 </PostalAddress>
 ```
 
- **персонапосталаддресстипе**
+ **PersonaPostalAddressType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Улица](street.md)  |  [City (город](city.md)  |  ) [State (состояние](state-ex15websvcsotherref.md)  |  ) [Country (страна](country.md)  |  ) [PostalCode](postalcode.md)  |  [PostOfficeBox](postofficebox.md)  |  [Тип (строка)](type-string.md)  |  [Широта](latitude.md)  |  [Долгота](longitude.md)  |  [Точность](accuracy.md)  |  [Высота](altitude.md)  |  [Алтитудеаккураци](altitudeaccuracy.md)  |  [Форматтедаддресс](formattedaddress.md)  |  [LocationUri](locationuri.md)  |  [Локатионсаурце](locationsource.md)
+[Street](street.md)  |  [Город](city.md)  |  [Состояние](state-ex15websvcsotherref.md)  |  [Страна](country.md)  |  [Почтовый индекс](postalcode.md)  |  [PostOfficeBox](postofficebox.md)  |  [Тип (строка)](type-string.md)  |  [Широта](latitude.md)  |  [Долгота](longitude.md)  |  [Точность](accuracy.md)  |  [Высота](altitude.md)  |  [AltitudeAccuracacacy](altitudeaccuracy.md)  |  [FormattedAddress](formattedaddress.md)  |  [LocationUri](locationuri.md)  |  [LocationSource](locationsource.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [EnhancedLocation](enhancedlocation.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -68,7 +68,7 @@ ms.locfileid: "44465389"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

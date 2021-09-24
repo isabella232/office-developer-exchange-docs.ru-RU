@@ -1,23 +1,23 @@
 ---
-title: сортвалуе
+title: SortValue
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec32b455-59c8-4cf5-978e-bb9f255bc93c
-description: Элемент Сортвалуе указывает значение, используемое для сортировки.
-ms.openlocfilehash: 099cfe248de893e1b044c3e2228bfa979e9a1243
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SortValue указывает значение, используемого для сортировки.
+ms.openlocfilehash: 282879124802c30725b13bd6dbe52edb7739e126
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467258"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521377"
 ---
-# <a name="sortvalue"></a>сортвалуе
+# <a name="sortvalue"></a>SortValue
 
-Элемент **сортвалуе** указывает значение, используемое для сортировки. 
+Элемент **SortValue** указывает значение, используемого для сортировки. 
   
 ```XML
 <SortValue></SortValue>
@@ -26,25 +26,25 @@ ms.locfileid: "44467258"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Сеарчпревиевитем](searchpreviewitem.md)  |  [Нониндексаблеитемдетаил](nonindexableitemdetail.md)
+[SearchPreviewItem](searchpreviewitem.md)  |  [NonIndexableItemDetail](nonindexableitemdetail.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента [сортвалуе](sortvalue.md) — это поле, используемое для сортировки набора результатов. 
+Текстовое значение элемента [SortValue](sortvalue.md) — это поле, используемая для сортировки набора результатов. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44467258"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,50 +1,50 @@
 ---
-title: ригхтсманажедмессажедекриптионстатус
+title: RightsManagedMessageDecryptionStatus
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17c7af54-aa44-4065-86ce-ac9f2edbf464
-description: Элемент Ригхтсманажедмессажедекриптионстатус указывает состояние расшифровки управления правами для элемента.
-ms.openlocfilehash: 2d10a78b18b977518ee6c8301da40d2bd5a58900
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RightsManagedMessageDecryptionStatus указывает состояние расшифровки элемента управления правами.
+ms.openlocfilehash: a662f86bd0fa22ee2f79eee6f4dfc9d80ba213b1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457426"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524541"
 ---
-# <a name="rightsmanagedmessagedecryptionstatus"></a>ригхтсманажедмессажедекриптионстатус
+# <a name="rightsmanagedmessagedecryptionstatus"></a>RightsManagedMessageDecryptionStatus
 
-Элемент **ригхтсманажедмессажедекриптионстатус** указывает состояние расшифровки управления правами для элемента. 
+Элемент **RightsManagedMessageDecryptionStatus** указывает состояние расшифровки элемента управления правами. 
   
 ```XML
 <RightsManagedMessageDecryptionStatus></RightsManagedMessageDecryptionStatus>
 ```
 
- **положительн**
+ **integer**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[ригхтсманажементлиценседата](rightsmanagementlicensedata.md)
+[RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ригхтсманажедмессажедекриптионстатус** — состояние расшифровки элемента, защищенного правами. 
+Текстовое значение элемента **RightsManagedMessageDecryptionStatus** — это состояние расшифровки защищенного элемента. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44457426"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

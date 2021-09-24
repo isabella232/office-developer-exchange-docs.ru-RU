@@ -1,27 +1,27 @@
 ---
-title: Операции
+title: Отдел операций
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Operations
 api_type:
 - schema
 ms.assetid: d8cd41b1-28ae-4c95-9ff6-8b25c8e18306
-description: Элемент Operations содержит массив операций с правилами, которые можно выполнить для папки "Входящие".
-ms.openlocfilehash: 4bbec4ad6424f802bb6781a870d65f23705e88c4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Operations содержит массив операций правил, которые можно выполнять в почтовом ящике.
+ms.openlocfilehash: 48679c9c7c0482ab53d3af5c661dc6efe513e637
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462488"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518073"
 ---
-# <a name="operations"></a>Операции
+# <a name="operations"></a>Отдел операций
 
-Элемент **Operations** содержит массив операций с правилами, которые можно выполнить для папки "Входящие". 
+Элемент **Operations** содержит массив операций правил, которые можно выполнять в почтовом ящике. 
   
 [UpdateInboxRules](updateinboxrules.md)
   
@@ -33,30 +33,30 @@ ms.locfileid: "44462488"
 </Operations>
 ```
 
- **аррайофрулеоператионстипе**
+ **ArrayOfRuleOperationsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[креатерулеоператион](createruleoperation.md) <br/> |Представляет операцию для создания нового правила для папки "Входящие".  <br/> |
-|[сетрулеоператион](setruleoperation.md) <br/> |Представляет операцию обновления правила для папки "Входящие".  <br/> |
-|[делетерулеоператион](deleteruleoperation.md) <br/> |Представляет операцию удаления правила для папки "Входящие".  <br/> |
+|[CreateRuleOperation](createruleoperation.md) <br/> |Представляет операцию по созданию нового правила "Входящие".  <br/> |
+|[SetRuleOperation](setruleoperation.md) <br/> |Представляет операцию по обновлению правила "Входящие".  <br/> |
+|[DeleteRuleOperation](deleteruleoperation.md) <br/> |Представляет операцию по удалите правило "Входящие".  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[UpdateInboxRules](updateinboxrules.md) <br/> |Определяет запрос на обновление правил папки "Входящие" в почтовом ящике в хранилище сервера.  <br/> |
+|[UpdateInboxRules](updateinboxrules.md) <br/> |Определяет запрос на обновление правил "Входящие" в почтовом ящике в серверном магазине.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -66,7 +66,7 @@ ms.locfileid: "44462488"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

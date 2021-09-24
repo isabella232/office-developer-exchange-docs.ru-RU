@@ -1,27 +1,27 @@
 ---
-title: Элементы (Нонемптяррайофаллитемстипе)
+title: Items (NonEmptyArrayOfAllItemsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Items
 api_type:
 - schema
 ms.assetid: d61ef1cc-ddfc-480a-9625-7b436cb33ae0
-description: Элемент Items содержит набор элементов, которые необходимо создать.
-ms.openlocfilehash: 0f70f1fe4348b5b74cef6be6414618af1e3de260
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Items содержит набор элементов для создания.
+ms.openlocfilehash: a511fa9e81cdfb4d5c84705edb0d37f75eb76049
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459856"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524996"
 ---
-# <a name="items-nonemptyarrayofallitemstype"></a>Элементы (Нонемптяррайофаллитемстипе)
+# <a name="items-nonemptyarrayofallitemstype"></a>Items (NonEmptyArrayOfAllItemsType)
 
-Элемент **Items** содержит набор элементов, которые необходимо создать. 
+Элемент **Items** содержит набор элементов для создания. 
   
 ```XML
 <Items>
@@ -49,49 +49,49 @@ ms.locfileid: "44459856"
 </Items>
 ```
 
- **нонемптяррайофаллитемстипе**
+ **NonEmptyArrayOfAllItemsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[Сообщение](message-ex15websvcsotherref.md) <br/> |Представляет сообщение Exchange электронной почты.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
-|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
-|[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании в хранилище Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
-|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Представляет сообщение собрания в Exchange магазине.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
-|[реплитоитем](replytoitem.md) <br/> |Содержит ответ отправителю элемента в хранилище Exchange.  <br/> |
-|[форвардитем](forwarditem.md) <br/> |Содержит элемент хранилища Exchange переадресация получателям.  <br/> |
-|[репляллтоитем](replyalltoitem.md) <br/> |Содержит ответ на отправителя и всех идентифицированных получателей элемента в хранилище Exchange.  <br/> |
-|[акцептитем](acceptitem.md) <br/> |Представляет ответ на принять приглашение на собрание.  <br/> |
-|[тентативелякцептитем](tentativelyacceptitem.md) <br/> |Представляет под вопросом ответ на приглашения на собрание.  <br/> |
-|[деклинеитем](declineitem.md) <br/> |Представляет отклонить ответ на приглашения на собрание.  <br/> |
-|[канцелкалендаритем](cancelcalendaritem.md) <br/> |Представляет объект ответа, которая используется для отмены собрания.  <br/> |
-|[RemoveItem](removeitem.md) <br/> |Представляет объект Response, который используется для удаления элемента собрания при получении сообщения Митингканцеллатион.  <br/> |
-|[постреплитем](postreplyitem.md) <br/> |Содержит ответ на элемент POST.  <br/> |
-|[суппрессреадрецеипт](suppressreadreceipt.md) <br/> |Используется для отключения уведомлений о прочтении.  <br/> |
-|[акцептшарингинвитатион](acceptsharinginvitation.md) <br/> |Используется для принятия приглашения, позволяющего получить доступ к данным календаря или контактов другого пользователя.  <br/> |
+|[ReplyToItem](replytoitem.md) <br/> |Содержит ответ отправительу элемента в Exchange магазине.  <br/> |
+|[ForwardItem](forwarditem.md) <br/> |Содержит элемент хранилища Exchange переадресация получателям.  <br/> |
+|[ReplyAllToItem](replyalltoitem.md) <br/> |Содержит ответ отправительу и всем идентифицированным получателям элемента в Exchange магазине.  <br/> |
+|[AcceptItem](acceptitem.md) <br/> |Представляет ответ на принять приглашение на собрание.  <br/> |
+|[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |Представляет под вопросом ответ на приглашения на собрание.  <br/> |
+|[DeclineItem](declineitem.md) <br/> |Представляет отклонить ответ на приглашения на собрание.  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Представляет объект ответа, которая используется для отмены собрания.  <br/> |
+|[RemoveItem](removeitem.md) <br/> |Представляет объект ответа, используемый для удаления элемента собрания при получении сообщения MeetingCancellation.  <br/> |
+|[PostReplyItem](postreplyitem.md) <br/> |Содержит ответ на сообщение элемента.  <br/> |
+|[SuppressReadReceipt](suppressreadreceipt.md) <br/> |Используется для подавления получения чтения.  <br/> |
+|[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |Используется для получения приглашения, которое позволяет получать доступ к данным календаря или контактов другого пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CreateItem](createitem.md) <br/> |Определяет запрос на создание элемента в хранилище Exchange.  <br/> Ниже приведено выражение XPath для этого элемента:`/CreateItem` <br/> |
-|[конверсатионноде](conversationnode.md) <br/> |Определяет один узел в беседе.  <br/> |
+|[CreateItem](createitem.md) <br/> |Определяет запрос на создание элемента в Exchange магазине.  <br/> Ниже приводится выражение XPath к этому элементу:  `/CreateItem` <br/> |
+|[ConversationNode](conversationnode.md) <br/> |Определяет один узел в беседе.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -101,7 +101,7 @@ ms.locfileid: "44459856"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -113,5 +113,5 @@ ms.locfileid: "44459856"
 [Операция CreateItem](createitem-operation.md)
 
 
-[Создание папок (веб-службы Exchange)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+[Создание папок (Exchange веб-служб)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

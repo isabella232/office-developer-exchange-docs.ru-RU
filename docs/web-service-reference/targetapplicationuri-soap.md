@@ -1,62 +1,62 @@
 ---
-title: Таржетаппликатионури (SOAP)
+title: TargetApplicationUri (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e13c0edd-2ab1-49bb-a993-54a8db2dfbb9
-description: Элемент Таржетаппликатионури определяет универсальный код ресурса (URI) конечного приложения. Элемент Таржетаппликатионури предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: 88968aac604b77cd057dbc69c396227a489ac9a8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TargetApplicationUri определяет целевое приложение URI. Элемент TargetApplicationUri используется только для внутреннего использования. Этот элемент не используется клиентами.
+ms.openlocfilehash: 3bed26b697fc3638782de5abd53a68fd04f031e6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457090"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522574"
 ---
-# <a name="targetapplicationuri-soap"></a>Таржетаппликатионури (SOAP)
+# <a name="targetapplicationuri-soap"></a>TargetApplicationUri (SOAP)
 
-Элемент **таржетаппликатионури** определяет универсальный код ресурса (URI) конечного приложения. Элемент **таржетаппликатионури** предназначен только для внутреннего использования. Этот элемент не используется клиентами. 
+Элемент **TargetApplicationUri** определяет целевое приложение URI. Элемент **TargetApplicationUri** используется только для внутреннего использования. Этот элемент не используется клиентами. 
   
 ```XML
 <TargetApplicationUri/>
 ```
 
- **анюри**
+ **anyURI**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Организатионрелатионшипсеттингс (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений Организации для одной организации  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений организации для одной организации  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент определяет целевой универсальный код ресурса (URI) внешней организации.
+Этот элемент определяет целевой URI внешней организации.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция Жеторганизатионрелатионшипсеттингс (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+[Операция GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

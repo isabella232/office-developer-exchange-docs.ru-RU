@@ -1,71 +1,71 @@
 ---
-title: мессажеснапшот
+title: messageSnapshot
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - messageSnapshot
 api_type:
 - schema
 ms.assetid: f157e44c-b950-463f-b086-31d5da94b7ff
-description: 'Дата последнего изменения: 17 сентября 2015 г.'
-ms.openlocfilehash: 8a58444580c803efb7312df95d75d697bc42e8e0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'Последнее изменение: 17 сентября 2015 г.'
+ms.openlocfilehash: 2ac38dd3f50b5d9d070262f3daffb72b02df5d82
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461844"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525458"
 ---
-# <a name="messagesnapshot"></a>мессажеснапшот
+# <a name="messagesnapshot"></a>messageSnapshot
 
-**Применимо к:** Exchange Server 2013
+**Применяется к:** Exchange Server 2013 г.
   
-Элемент **мессажеснапшот** содержит атрибут, указывающий, включена ли функция трассировки конвейера для сервера Exchange, на котором установлена роль сервера клиентского доступа или сервера почтовых ящиков. 
+Элемент **messageSnapshot** содержит атрибут, который указывает, включена ли функция отслеживания конвейера для сервера Exchange, на который установлен клиентский доступ или установлена роль сервера почтовых ящиков. 
   
 - [configuration](configuration.md)  
-- [мексрунтиме](mexruntime.md) 
-- [текущего](monitoring.md) 
-- [мессажеснапшот](messagesnapshot.md)
+- [mexRuntime](mexruntime.md) 
+- [мониторинг](monitoring.md) 
+- [messageSnapshot](messagesnapshot.md)
   
 ```XML
 <messageSnapshot enabled="" />
 ```
 
-**Мессажеснапшоттипе (Boolean)**
+**messageSnapshotType (Boolean)**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**enabled** <br/> |Логическое значение, которое указывает, включена ли функция трассировки конвейера для клиентского доступа или сервера почтовых ящиков. Значение **true** , если включена трассировка конвейера; в противном случае — значение **false** или элемент отсутствует.  <br/> |
+|**enabled** <br/> |Значение Boolean, которое указывает, включена ли функция трассиры конвейера для клиентского доступа или сервера почтовых ящиков. Значение **верно, если** включена трассировка конвейера; в противном случае значение является **ложным** или элемент не присутствует.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[текущего](monitoring.md) <br/> |Содержит сведения о конфигурации, определяющие, как и когда служба транспорта наблюдает за установленными агентами.  <br/> |
+|[мониторинг](monitoring.md) <br/> |Содержит сведения о конфигурации, определяя, как и когда транспортная служба отслеживает установленные агенты.  <br/> |
    
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |В этом файле не определено пространство имен.  <br/> |
+|Пространство имен  <br/> |Этот файл не определяет пространство имен.  <br/> |
 |Имя схемы  <br/> |Недоступно.  <br/> |
 |Файл проверки  <br/> |Недоступно.  <br/> |
 |Может быть пустым  <br/> |Неверно.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Элементы файла конфигурации агентов для Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Элементы конфигурации файлов агентов для Exchange 2013 г.](agents-configuration-file-elements-for-exchange-2013.md)
 

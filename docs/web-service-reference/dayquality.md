@@ -1,68 +1,68 @@
 ---
-title: дайкуалити
+title: DayQuality
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DayQuality
 api_type:
 - schema
 ms.assetid: cd0eb239-6e7f-4a5a-b245-659f170550b7
-description: Элемент Дайкуалити представляет качество дня, в котором для качества предлагается время проведения собрания.
-ms.openlocfilehash: 41cc8313dccb1a5172fefc167e6ed90a21109ec5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DayQuality представляет качество дня для содержащего время собрания, предложенное качеством.
+ms.openlocfilehash: 849ce4bef88c8c77223b03ce209ca31d857c906c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455116"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525122"
 ---
-# <a name="dayquality"></a>дайкуалити
+# <a name="dayquality"></a>DayQuality
 
-Элемент **дайкуалити** представляет качество дня, в котором для качества предлагается время проведения собрания. 
+Элемент **DayQuality** представляет качество дня для содержащего время собрания, предложенное качеством. 
   
-- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)  
-- [сугжестионсреспонсе](suggestionsresponse.md) 
-- [сугжестиондайресултаррай](suggestiondayresultarray.md)  
-- [сугжестиондайресулт](suggestiondayresult.md) 
-- [дайкуалити](dayquality.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
+- [SuggestionsResponse](suggestionsresponse.md) 
+- [SuggestionDayResultArray](suggestiondayresultarray.md)  
+- [SuggestionDayResult](suggestiondayresult.md) 
+- [DayQuality](dayquality.md)
   
 ```xml
 <DayQuality>Excellent or Good or Fair or Poor</DayQuality>
 ```
 
-**сугжестионкуалити**
+**SuggestionQuality**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестиондайресулт](suggestiondayresult.md) <br/> |Представляет один день, который содержит предложенное время проведения собрания.  <br/><br/>Ниже приведено выражение XPath 2,0 для этого элемента:<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |Представляет один день, содержащий рекомендуемые время собраний.  <br/><br/>Ниже приводится выражение XPath 2.0 к этому элементу:<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Ниже приведены возможные значения для этого элемента.
+Требуется текстовое значение. Возможные значения для этого элемента:
   
 - **Отличная**   
 - **Good**    
-- **Честно**    
+- **Ярмарка**    
 - **Плохо**
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -72,12 +72,12 @@ ms.locfileid: "44455116"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)  
-- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 - [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

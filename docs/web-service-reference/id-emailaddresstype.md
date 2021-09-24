@@ -1,31 +1,31 @@
 ---
-title: ID (EmailAddressType)
+title: Id (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Id
 api_type:
 - schema
 ms.assetid: 3e1e37b5-5469-4447-ad1f-c2c6d4e0482f
-description: Элемент ID определяет комнату для собраний в организации Exchange Server.
-ms.openlocfilehash: aa09e7764746ac6bc283de2d13248d769aba75b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Id определяет комнату собраний в организации Exchange сервера.
+ms.openlocfilehash: 40f2163c4525e766e0fe0377820e87a806562001
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460780"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525824"
 ---
-# <a name="id-emailaddresstype"></a>ID (EmailAddressType)
+# <a name="id-emailaddresstype"></a>Id (EmailAddressType)
 
-Элемент **ID** определяет комнату для собраний в организации Exchange Server. 
+Элемент **Id** определяет комнату собраний в организации Exchange сервера. 
   
 [Комната](room.md)
   
-[ID (EmailAddressType)](id-emailaddresstype.md)
+[Id (EmailAddressType)](id-emailaddresstype.md)
   
 ```xml
 <Id>
@@ -40,31 +40,31 @@ ms.locfileid: "44460780"
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (EmailAddressType)](name-emailaddresstype.md) <br/> |Определяет имя комнаты для собраний. Этот элемент является необязательным.  <br/> |
-|[EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md) <br/> |Определяет SMTP-адрес комнаты для собраний. Этот элемент является необязательным.  <br/> |
-|[Раутингтипе (EmailAddress)](routingtype-emailaddress.md) <br/> |Определяет маршрутизацию, используемую для почтового ящика. По умолчанию используется протокол SMTP. Этот элемент является необязательным.  <br/> |
+|[Name (EmailAddressType)](name-emailaddresstype.md) <br/> |Определяет имя комнаты собраний. Этот элемент является необязательным.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Определяет простой протокол передачи почты (SMTP) в комнате собраний. Этот элемент является необязательным.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Определяет маршрутику, используемую для почтового ящика. По умолчанию значение SMTP. Этот элемент является необязательным.  <br/> |
 |[MailboxType](mailboxtype.md) <br/> |Определяет тип почтового ящика пользователя почтового ящика. Этот элемент является необязательным.  <br/> |
-|[Идентификатор](itemid.md) <br/> |Определяет идентификатор контакта или частный список рассылки для получателей из папки "Контакты" пользователя. Этот элемент является необязательным.  <br/> |
+|[ItemId](itemid.md) <br/> |Определяет идентификатор элемента контактного или частного списка рассылки для получателей из папки контактов пользователя. Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Комната](room.md) <br/> |Определяет комнату для собраний в организации Exchange Server.  <br/> |
+|[Комната](room.md) <br/> |Определяет комнату собраний в Exchange серверной организации.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в каталоге EWS компьютера под управлением Microsoft Exchange Server, на котором установлена роль сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в каталоге EWS компьютера, на Microsoft Exchange Server который установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -72,7 +72,7 @@ ms.locfileid: "44460780"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

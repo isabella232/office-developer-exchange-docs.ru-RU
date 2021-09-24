@@ -1,23 +1,23 @@
 ---
-title: парентинтернетмессажеид
+title: ParentInternetMessageId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b8769d30-045a-4fa7-814d-d00702f0c258
-description: Элемент Парентинтернетмессажеид указывает идентификатор интернетового сообщения родительского сообщения в беседе.
-ms.openlocfilehash: c53bc8c74f2b352d12880c885ebbe626693a54d2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ParentInternetMessageId указывает идентификатор интернет-сообщения родительского сообщения в беседе.
+ms.openlocfilehash: 7c75f4f688984da58aeeea8bf6b3ece4af342f75
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529975"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521709"
 ---
-# <a name="parentinternetmessageid"></a>парентинтернетмессажеид
+# <a name="parentinternetmessageid"></a>ParentInternetMessageId
 
-Элемент **парентинтернетмессажеид** указывает идентификатор интернетового сообщения родительского сообщения в беседе. 
+Элемент **ParentInternetMessageId** указывает идентификатор интернет-сообщения родительского сообщения в беседе. 
   
 ```XML
 <ParentInternetMessageId></ParentInternetMessageId>
@@ -27,25 +27,25 @@ ms.locfileid: "44529975"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[конверсатионноде](conversationnode.md)
+[ConversationNode](conversationnode.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **парентинтернетмессажеид** — это идентификатор Интернет-сообщения родительского сообщения в беседе. 
+Текстовое значение элемента **ParentInternetMessageId** — это идентификатор сообщения в Интернете родительского сообщения в беседе. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44529975"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

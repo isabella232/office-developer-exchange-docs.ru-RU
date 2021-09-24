@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: c7cfa0d1-fcb2-441f-8489-3a549da33b34
-description: Элемент ResponseMessages содержит массив ответных сообщений конфигурации службы.
-ms.openlocfilehash: cf271224141ffeb6dc00069abf430ab33d3ca2fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ResponseMessages содержит массив сообщений о конфигурации службы.
+ms.openlocfilehash: 6ea5ccf62e22927911252d56a52d2fc40b2da68e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521727"
 ---
 # <a name="responsemessages-arrayofserviceconfigurationresponsemessagetype"></a>ResponseMessages (ArrayOfServiceConfigurationResponseMessageType)
 
-Элемент **ResponseMessages** содержит массив ответных сообщений конфигурации службы. 
+Элемент **ResponseMessages содержит** массив сообщений о конфигурации службы. 
   
 ```XML
 <ResponseMessages>
@@ -54,7 +54,7 @@ ms.locfileid: "44457454"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   

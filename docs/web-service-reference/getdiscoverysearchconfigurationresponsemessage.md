@@ -1,23 +1,23 @@
 ---
-title: жетдисковерисеарчконфигуратионреспонсемессаже
+title: GetDiscoverySearchConfigurationResponseMessage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b84a4c6-cb0a-4bca-85b2-fec32227930b
-description: Элемент Жетдисковерисеарчконфигуратионреспонсемессаже указывает ответное сообщение для запроса GetDiscoverySearchConfiguration.
-ms.openlocfilehash: 23d1c5b7a61a9161d7383ec8b38cd0ebbebfc8cf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetDiscoverySearchConfigurationResponseMessage указывает сообщение ответа для запроса GetDiscoverySearchConfiguration.
+ms.openlocfilehash: b74af89b47f31ce78c2a97855cdff248bc132c28
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460976"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521951"
 ---
-# <a name="getdiscoverysearchconfigurationresponsemessage"></a>жетдисковерисеарчконфигуратионреспонсемессаже
+# <a name="getdiscoverysearchconfigurationresponsemessage"></a>GetDiscoverySearchConfigurationResponseMessage
 
-Элемент **жетдисковерисеарчконфигуратионреспонсемессаже** указывает ответное сообщение для запроса **GetDiscoverySearchConfiguration** . 
+Элемент **GetDiscoverySearchConfigurationResponseMessage** указывает сообщение ответа для запроса **GetDiscoverySearchConfiguration.** 
   
 ```XML
 <GetDiscoverySearchConfigurationResponseMessage>
@@ -29,24 +29,24 @@ ms.locfileid: "44460976"
 </GetDiscoverySearchConfigurationResponseMessage>
 ```
 
- **жетдисковерисеарчконфигуратионреспонсемессажетипе**
+ **GetDiscoverySearchConfigurationResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Дисковерисеарчконфигуратионс](discoverysearchconfigurations.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44460976"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

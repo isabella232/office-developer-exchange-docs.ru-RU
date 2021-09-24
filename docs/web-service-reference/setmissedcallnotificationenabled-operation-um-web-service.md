@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetMissedCallNotificationEnabled
 api_type:
 - schema
 ms.assetid: 6693b5db-ac6b-43bc-af83-a9c94fc425bf
 description: Операция SetMissedCallNotificationEnabled включает или отключает уведомления о пропущенных вызовах.
-ms.openlocfilehash: ca4942942a81bc187e8e18a5e6f003f8587f79d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 31f59887041aac02e5876b596931902373870203
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467398"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521419"
 ---
 # <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>Операция SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)
 
@@ -24,9 +24,9 @@ ms.locfileid: "44467398"
   
 ## <a name="setmissedcallnotificationenabled-request-example"></a>Пример запроса SetMissedCallNotificationEnabled
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере запроса SetMissedCallNotificationEnabled показано, как сформировать запрос на включение уведомлений о пропущенных звонках.
+В следующем примере запроса SetMissedCallNotificationEnabled показано, как сформировать запрос, чтобы включить уведомления о пропущенных вызовах.
   
 ### <a name="code"></a>Код
 
@@ -43,9 +43,9 @@ ms.locfileid: "44467398"
 
 ## <a name="successful-setmissedcallnotificationenabled-response-example"></a>Пример успешного ответа SetMissedCallNotificationEnabled
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере ответа PlayOnPhoneGreeting показан ответ на запрос SetMissedCallNotificationEnabled.
+В следующем примере ответа PlayOnPhoneGreeting показан ответ на запрос SetMissedCallNotificationEnabled.
   
 ### <a name="code"></a>Код
 
@@ -64,7 +64,7 @@ ms.locfileid: "44467398"
 
 [SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-um-web-service.md)
   
-[Сетмисседкаллнотификатионенабледреспонсе (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabledresponse-um-web-service.md)
+[SetMissedCallNotificationEnabledResponse (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabledresponse-um-web-service.md)
   
-[Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
+[Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
 

@@ -1,23 +1,23 @@
 ---
-title: ретентионполицитагс
+title: RetentionPolicyTags
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ed4a48a-d510-4cbe-a172-145c33ffb297
-description: Элемент Ретентионполицитагс содержит список тегов хранения, возвращаемых в ответ на операцию WSDL GetUserRetentionPolicyTags.
-ms.openlocfilehash: c3a5a165db242092132b4ff0b322dbad2029da36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RetentionPolicyTags содержит список тегов хранения, возвращаемого в ответ на операцию WSDL GetUserRetentionPolicyTags.
+ms.openlocfilehash: 9bd41a0826aff38e8fc2420553d4c7527c5a8e33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462880"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524534"
 ---
-# <a name="retentionpolicytags"></a>ретентионполицитагс
+# <a name="retentionpolicytags"></a>RetentionPolicyTags
 
-Элемент **ретентионполицитагс** содержит список тегов хранения, возвращаемых в ответ на операцию WSDL **GetUserRetentionPolicyTags** . 
+Элемент **RetentionPolicyTags** содержит список тегов хранения, возвращаемого в ответ на операцию WSDL **GetUserRetentionPolicyTags.** 
   
 ```XML
 <RetentionPolicyTags>
@@ -25,24 +25,24 @@ ms.locfileid: "44462880"
 </RetentionPolicyTags>
 ```
 
- **аррайофретентионполицитагстипе**
+ **ArrayOfRetentionPolicyTagsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Retentionpolicytag используется](retentionpolicytag.md)
+[RetentionPolicyTag](retentionpolicytag.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[жетусерретентионполицитагсреспонсе](getuserretentionpolicytagsresponse.md)
+[GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44462880"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

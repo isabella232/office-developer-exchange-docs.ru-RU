@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ccb4cd62-9779-4ca7-a4fe-5a96e6af8f48
-description: Элемент Query содержит запрос поиска для удержания.
-ms.openlocfilehash: 52b7f58ee0304621d37fc592a0377f5fd82cea29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Запрос содержит запрос поиска для удержания.
+ms.openlocfilehash: a9e66a0861a07336aa3a02eaca5b65ab97a3d6cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468861"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523792"
 ---
 # <a name="query"></a>Запрос
 
-Элемент **Query** содержит запрос поиска для удержания. 
+Элемент **Запрос** содержит запрос поиска для удержания. 
   
 ```XML
 <Query></Query>
@@ -26,25 +26,25 @@ ms.locfileid: "44468861"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SetHoldOnMailboxes](setholdonmailboxes.md)  |  [Маилбоксхолдресулт](mailboxholdresult.md)  |  [Маилбокскуери](mailboxquery.md)
+[SetHoldOnMailboxes](setholdonmailboxes.md)  |  [MailboxHoldResult](mailboxholdresult.md)  |  [MailboxQuery](mailboxquery.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Query** — это строка поискового запроса для поиска обнаружения. 
+Текстовое значение элемента **Запрос** — строка запроса поиска для поиска обнаружения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44468861"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

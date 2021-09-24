@@ -5,55 +5,55 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttachmentId
 api_type:
 - schema
 ms.assetid: 55a5fd77-60d1-40fa-8144-770600cedc6a
-description: Элемент AttachmentId определяет вложенный элемент или файл. Этот элемент используется в ответах CreateAttachment.
-ms.openlocfilehash: b5dc9299b615f0fc01b8afcbaabf0ec7996e53d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AttachmentId определяет элемент или вложение файла. Этот элемент используется в ответах CreateAttachment.
+ms.openlocfilehash: a6363fad4e7ef9f0c21377f2c1ea8c19c494cdef
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459113"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522021"
 ---
 # <a name="attachmentid"></a>AttachmentId
 
-Элемент **AttachmentId** определяет вложенный элемент или файл. Этот элемент используется в ответах CreateAttachment. 
+Элемент **AttachmentId** определяет элемент или вложение файла. Этот элемент используется в ответах CreateAttachment. 
   
 ```xml
 <AttachmentId Id="" RootItemId="" RootItemChangeKey="" />
 ```
 
- **аттачментидтипе**
+ **AttachmentIdType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
 |**Id** <br/> |Определяет уникальный идентификатор вложения.  <br/> |
-|**рутитемид** <br/> |Определяет уникальный идентификатор элемента корневого хранилища, к которому присоединено вложение.  <br/> |
-|**рутитемчанжекэй** <br/> |Определяет ключ изменения элемента корневого хранилища, к которому присоединено вложение.  <br/> |
+|**RootItemId** <br/> |Определяет уникальный идентификатор элемента корневого магазина, к которому присоединено вложение.  <br/> |
+|**RootItemChangeKey** <br/> |Определяет ключ изменения элемента корневого магазина, к которому присоединено вложение.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[ItemAttachment](itemattachment.md) <br/> |Представляет элемент Exchange, присоединенный к другому элементу Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Представляет файл, присоединенный к элементу в хранилище Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Представляет файл, присоединенный к элементу в Exchange магазине.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Важно отметить, что при создании вложения изменяется ключ изменения корневого элемента.
+Важно отметить, что при создания вложения изменяется ключ изменения корневого элемента.
   
 Элемент [AttachmentId (GetAttachment и DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) используется в запросах DeleteAttachment и GetAttachment. 
   
@@ -65,7 +65,7 @@ ms.locfileid: "44459113"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

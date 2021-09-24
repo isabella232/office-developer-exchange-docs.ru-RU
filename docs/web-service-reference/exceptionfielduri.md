@@ -1,68 +1,68 @@
 ---
-title: ексцептионфиелдури
+title: ExceptionFieldURI
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExceptionFieldURI
 api_type:
 - schema
 ms.assetid: 7afda93a-0f8c-4c9e-8e09-f1b0bfc928bf
-description: Элемент Ексцептионфиелдури определяет определенные ошибки в запросе. Этот элемент используется только в ответ на сообщение об ошибке в узле Мессажексмл.
-ms.openlocfilehash: a47d44098f85d8bacb1e7a2c48a33e478e56c7ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ExceptionFieldURI определяет определенные ошибки в запросе. Этот элемент используется только в качестве части ответа на ошибку в узле MessageXml.
+ms.openlocfilehash: 7368fd51e8eca2081b1fd50c86bce9ffa469c6b1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454346"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524331"
 ---
-# <a name="exceptionfielduri"></a>ексцептионфиелдури
+# <a name="exceptionfielduri"></a>ExceptionFieldURI
 
-Элемент **ексцептионфиелдури** определяет определенные ошибки в запросе. Этот элемент используется только в ответ на сообщение об ошибке в узле [мессажексмл](messagexml.md) . 
+Элемент **ExceptionFieldURI** определяет определенные ошибки в запросе. Этот элемент используется только в качестве части ответа на ошибку в узле [MessageXml.](messagexml.md) 
   
 ```xml
 <ExceptionFieldURI FieldURI="" />
 ```
 
- **ексцептионпропертюритипе**
+ **ExceptionPropertyURIType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**фиелдури** <br/> |Определяет свойство вхождения повторяющегося элемента. Этот атрибут является обязательным.  <br/> |
+|**FieldURI** <br/> |Определяет свойство возникновения повторяющегося элемента. Этот атрибут является обязательным.  <br/> |
    
-#### <a name="fielduri-attribute"></a>Атрибут Фиелдури
+#### <a name="fielduri-attribute"></a>Атрибут FieldURI
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|вложение: имя  <br/> |Определяет имя вложения, содержащее ошибку.  <br/> |
-|вложение: ContentType  <br/> |Определяет тип контента, который содержит ошибку.  <br/> |
-|вложение: контент  <br/> |Определяет содержимое, содержащее ошибку.  <br/> |
-|повторение: месяц  <br/> |Определяет поле месяца, содержащее ошибку.  <br/> |
-|повторение: Дайофвикиндекс  <br/> |Указывает индекс дня недели, содержащий ошибку.  <br/> |
-|повторение: DaysOfWeek  <br/> |Определяет свойство DaysOfWeek, содержащее ошибку.  <br/> |
-|повторение: DayOfMonth  <br/> |Определяет DayOfMonth как содержащий ошибку.  <br/> |
-|повторение: интервал  <br/> |Определяет интервал, содержащий ошибку.  <br/> |
-|повторение: Нумберофоккурренцес  <br/> |Определяет количество вхождений, содержащих ошибку.  <br/> |
+|attachment:Name  <br/> |Определяет имя вложения как содержащее ошибку.  <br/> |
+|attachment:ContentType  <br/> |Определяет тип контента как содержащий ошибку.  <br/> |
+|attachment:Content  <br/> |Определяет содержимое как содержащее ошибку.  <br/> |
+|recurrence:Month  <br/> |Определяет поле месяца как содержащее ошибку.  <br/> |
+|recurrence:DayOfWeekIndex  <br/> |Определяет день индекса недели как содержащий ошибку.  <br/> |
+|recurrence:DaysOfWeek  <br/> |Определяет свойство DaysOfWeek как содержащее ошибку.  <br/> |
+|recurrence:DayOfMonth  <br/> |Определяет DayOfMonth как содержащий ошибку.  <br/> |
+|recurrence:Interval  <br/> |Определяет интервал как содержащий ошибку.  <br/> |
+|recurrence:NumberOfOccurrences  <br/> |Определяет количество случаев, содержащих ошибку.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[мессажексмл](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Предоставляет дополнительные сведения об отклике с ошибкой.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -72,7 +72,7 @@ ms.locfileid: "44454346"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

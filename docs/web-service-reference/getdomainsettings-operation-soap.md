@@ -1,30 +1,30 @@
 ---
-title: Операция Жетдомаинсеттингс (SOAP)
+title: Операция GetDomainSettings (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a6f4a53d-d7f6-4ad1-8afb-78745c500eaa
-description: Операция Жетдомаинсеттингс получает указанные параметры домена для пользователя. Служба автообнаружения возвращает домены, которые должны быть обнаружены, и запрошенные параметры этих доменов.
-ms.openlocfilehash: fd655e088b73372bc1dd68a740ebc2b516d1804a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetDomainSettings извлекает указанные параметры домена для пользователя. Автономная возвращает обнаруженные домены и запрашиваемую настройку этих доменов.
+ms.openlocfilehash: 7f52ea840bd7f46198d95ba5f0c07894873cf6e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460969"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525052"
 ---
-# <a name="getdomainsettings-operation-soap"></a>Операция Жетдомаинсеттингс (SOAP)
+# <a name="getdomainsettings-operation-soap"></a>Операция GetDomainSettings (SOAP)
 
-Операция **жетдомаинсеттингс** получает указанные параметры домена для пользователя. Служба автообнаружения возвращает домены, которые должны быть обнаружены, и запрошенные параметры этих доменов. 
+Операция **GetDomainSettings** извлекает указанные параметры домена для пользователя. Автономная возвращает обнаруженные домены и запрашиваемую настройку этих доменов. 
   
-## <a name="getdomainsettings-request-example"></a>Пример запроса Жетдомаинсеттингс
+## <a name="getdomainsettings-request-example"></a>Пример запроса GetDomainSettings
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере запроса **жетдомаинсеттингс** показано, как запросить параметры домена **екстерналевсурл** пользователя. Клиент отправляет этот запрос на сервер. 
+В следующем примере **запроса GetDomainSettings** показан запрос на параметры домена **externalEWSUrl** пользователя. Клиент отправляет этот запрос на сервер. 
   
 ### <a name="code"></a>Код
 
@@ -58,27 +58,27 @@ ms.locfileid: "44460969"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
-- [Жетдомаинсеттингсрекуестмессаже (SOAP)](getdomainsettingsrequestmessage-soap.md)
+- [GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md)
     
-- [Запрос (SOAP)](request-soap.md)
+- [Request (SOAP)](request-soap.md)
     
-- [Домены (SOAP)](domains-soap.md)
+- [Domains (SOAP)](domains-soap.md)
     
-- [Домен (SOAP)](domain-soap.md)
+- [Domain (SOAP)](domain-soap.md)
     
-- [Рекуестедсеттингс (SOAP)](requestedsettings-soap.md)
+- [RequestedSettings (SOAP)](requestedsettings-soap.md)
     
-- [Параметр (SOAP)](setting-soap.md)
+- [Setting (SOAP)](setting-soap.md)
     
-## <a name="getdomainsettings-response-example"></a>Пример отклика Жетдомаинсеттингс
+## <a name="getdomainsettings-response-example"></a>Пример ответа GetDomainSettings
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **жетдомаинсеттингс** , отправляемый сервером клиенту. 
+В следующем примере показан успешный ответ на **запрос GetDomainSettings,** который сервер отправляет клиенту. 
   
 ### <a name="code"></a>Код
 
@@ -122,33 +122,33 @@ ms.locfileid: "44460969"
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Элементы Response
+### <a name="response-elements"></a>Элементы ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [Жетдомаинсеттингсреспонсемессаже (SOAP)](getdomainsettingsresponsemessage-soap.md)
+- [GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md)
     
-- [Отклик (SOAP)](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
 - [ErrorCode (SOAP)](errorcode-soap.md)
     
 - [ErrorMessage (SOAP)](errormessage-soap.md)
     
-- [Домаинреспонсес (SOAP)](domainresponses-soap.md)
+- [DomainResponses (SOAP)](domainresponses-soap.md)
     
-- [Домаинреспонсе (SOAP)](domainresponse-soap.md)
+- [DomainResponse (SOAP)](domainresponse-soap.md)
     
-- [Домаинсеттинжеррорс (SOAP)](domainsettingerrors-soap.md)
+- [DomainSettingErrors (SOAP)](domainsettingerrors-soap.md)
     
-- [Домаинсеттингс (SOAP)](domainsettings-soap.md)
+- [DomainSettings (SOAP)](domainsettings-soap.md)
     
-- [Домаинсеттинг (SOAP)](domainsetting-soap.md)
+- [DomainSetting (SOAP)](domainsetting-soap.md)
     
-- [Имя (SOAP)](name-soap.md)
+- [Name (SOAP)](name-soap.md)
     
-- [Значение (SOAP)](value-soap.md)
+- [Value (SOAP)](value-soap.md)
     
-- [Редиректтаржет (SOAP)](redirecttarget-soap.md)
+- [RedirectTarget (SOAP)](redirecttarget-soap.md)
     
 ## <a name="see-also"></a>См. также
 
@@ -156,5 +156,5 @@ ms.locfileid: "44460969"
 
 [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
+[Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 

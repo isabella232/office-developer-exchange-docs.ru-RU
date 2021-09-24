@@ -1,25 +1,25 @@
 ---
-title: Состояние
+title: Статус
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Status
 api_type:
 - schema
 ms.assetid: 80121e41-291b-4fc0-a55e-6f677d4b5fb5
 description: Элемент Status представляет состояние элемента задачи.
-ms.openlocfilehash: 5d022827990b96fd8790ae9566ef49028ebe404c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5ec50e3f0c06ad3ec8301ddbe8e7bd249b1e8fe9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459961"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525542"
 ---
-# <a name="status"></a>Состояние
+# <a name="status"></a>Статус
 
 Элемент **Status** представляет состояние элемента задачи. 
   
@@ -27,18 +27,18 @@ ms.locfileid: "44459961"
 <Status/>
 ```
 
- **таскстатустипе**
+ **TaskStatusType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,21 +48,21 @@ ms.locfileid: "44459961"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Ниже приведены возможные текстовые значения для этого элемента:
+Требуется текстовое значение. Возможные текстовые значения для этого элемента:
   
 - NotStarted
     
 - InProgress
     
-- Completed
+- Завершено
     
-- ваитингоносерс
+- WaitingOnOthers
     
-- Deferred
+- Отложенный
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Установка [комплетедате](completedate.md) имеет тот же последствия, что и установка [PercentComplete](percentcomplete.md) в 100 или **состояние** на " **завершено**". В запросе, который задает по крайней мере два из этих свойств, Последнее обработанное свойство будет определять значение, заданное для этих элементов. Например, если для параметра **PercentComplete** задано значение 100, **комплетедате** — 1/1/2007, а **состояние** — NotStarted, а свойства передаются в потоке в этом порядке, то результатом будет установка для задачи **состояния** NotStarted, **комплетедате** — **null**, а **PercentComplete** — 0. 
+Параметр [CompleteDate имеет](completedate.md) тот же эффект, что и параметр [PercentComplete](percentcomplete.md) до 100 или **Состояние** **завершено.** В запросе, который задает по крайней мере два из этих свойств, последнее обработанное свойство определяет значение, запредельное для этих элементов. Например, если **PercentComplete** 100, **CompleteDate** — это 1/1/2007, а состояние нестареется, а свойства будут передаваться  в этом порядке, эффект будет в том, чтобы установить состояние задачи для NotStarted, **CompleteDate** до **null** и **PercentComplete** до 0.  
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -72,7 +72,7 @@ ms.locfileid: "44459961"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

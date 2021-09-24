@@ -1,21 +1,21 @@
 ---
-title: Состояние (Холдстатустипе)
+title: Status (HoldStatusType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fee3f1f9-e868-49fa-a554-7ff096964718
 description: Элемент Status указывает состояние удержания для почтового ящика.
-ms.openlocfilehash: cecfdfaf67b00b6f8cf02188e7a4df7062a732e4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a055dde61ae52c266f2349036c881d2b00557171
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459989"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521237"
 ---
-# <a name="status-holdstatustype"></a>Состояние (Холдстатустипе)
+# <a name="status-holdstatustype"></a>Status (HoldStatusType)
 
 Элемент **Status** указывает состояние удержания для почтового ящика. 
   
@@ -23,38 +23,38 @@ ms.locfileid: "44459989"
 <Status> NotOnHold | Pending | OnHold | PartialHold | Failed </Status>
 ```
 
- **холдстатустипе**
+ **HoldStatusType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[маилбоксхолдстатус](mailboxholdstatus.md)
+[MailboxHoldStatus](mailboxholdstatus.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Status** — это состояние удержания почтового ящика. Элемент **Status** может иметь значения из следующего списка. 
+Текстовое значение элемента **Status** — состояние удержания почтового ящика. Элемент **Status** может иметь значения в следующем списке. 
   
-> Нотонхолд — почтовый ящик не находится на удержании.
+> NotOnHold — почтовый ящик не находится на удержании.
     
-> Ожидание — почтовый ящик находится в состоянии ожидания размещения или освобождения. 
+> Ожидание — почтовый ящик находится в ожидании, если его помещают или выпускают на удержание. 
     
-> Onhold — удержание успешно применено к почтовому ящику. 
+> OnHold . Удержание было успешно применено к почтовому ящику. 
     
-> Партиалхолд — удержание успешно применено к некоторым почтовым ящикам, но не ко всем почтовым ящикам.
+> PartialHold . Удержание было успешно применено к некоторым почтовым ящикам, но не для всех почтовых ящиков.
     
-> Сбой: не удалось применить удержание к почтовому ящику.
+> Не удалось . Удержание не удалось применить к почтовому ящику.
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -66,7 +66,7 @@ ms.locfileid: "44459989"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

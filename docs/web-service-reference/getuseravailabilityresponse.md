@@ -1,27 +1,27 @@
 ---
-title: жетусераваилабилитиреспонсе
+title: GetUserAvailabilityResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserAvailabilityResponse
 api_type:
 - schema
 ms.assetid: 6999510a-d60e-43da-8964-57b5fb3e9d11
-description: Элемент Жетусераваилабилитиреспонсе является корневым элементом, содержащим свойства, которые определяют сведения о доступности пользователей или сведения о предложенном времени проведения собрания.
-ms.openlocfilehash: ceb24bc8b31a7d7313add213c26bef5efd3c89ae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetUserAvailabilityResponse — это корневой элемент, содержащий свойства, определяющие сведения о доступности пользователей или рекомендуемые сведения о времени собраний.
+ms.openlocfilehash: 16a6f79f6ccc930e3847867a560bc042657f12a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458217"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521910"
 ---
-# <a name="getuseravailabilityresponse"></a>жетусераваилабилитиреспонсе
+# <a name="getuseravailabilityresponse"></a>GetUserAvailabilityResponse
 
-Элемент **жетусераваилабилитиреспонсе** является корневым элементом, содержащим свойства, которые определяют сведения о доступности пользователей или сведения о предложенном времени проведения собрания. 
+Элемент **GetUserAvailabilityResponse** — это корневой элемент, содержащий свойства, определяющие сведения о доступности пользователей или рекомендуемые сведения о времени собраний. 
   
 ```xml
 <GetUserAvailabilityResponse>
@@ -30,33 +30,33 @@ ms.locfileid: "44458217"
 </GetUserAvailabilityResponse>
 ```
 
- **жетусераваилабилитиреспонсетипе**
+ **GetUserAvailabilityResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фрибусиреспонсеаррай](freebusyresponsearray.md) <br/> |Содержит сведения о доступности запрошенных пользователей и состояние отклика.  <br/> |
-|[сугжестионсреспонсе](suggestionsresponse.md) <br/> |Содержит сведения о состоянии отклика и сведения о предложении для запрошенных предложений о собрании.  <br/> |
+|[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Содержит сведения о доступности запрашиваемого пользователя и состояние отклика.  <br/> |
+|[SuggestionsResponse](suggestionsresponse.md) <br/> |Содержит сведения о состоянии отклика и сведения о предложениях для запрашиваемого предложения собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
 ## <a name="example"></a>Пример
 
-В приведенном ниже примере ответа GetUserAvailability показан ответ на запрос GetUserAvailability.
+В следующем примере ответа GetUserAvailability показан ответ на запрос GetUserAvailability.
   
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -118,7 +118,7 @@ ms.locfileid: "44458217"
 </GetUserAvailabilityResponse>
 ```
 
-Содержимое элемента [ID](id.md) было сокращено, чтобы сохранить удобочитаемость. 
+Содержимое [элемента ID](id.md) было сокращено для сохранения читаемости. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -126,14 +126,14 @@ ms.locfileid: "44458217"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

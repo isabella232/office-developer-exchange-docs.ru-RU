@@ -1,23 +1,23 @@
 ---
-title: персонаобжектстатус
+title: PersonaObjectStatus
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1354c86e-7740-42c4-9e63-b372b3906846
-description: Элемент Персонаобжектстатус указывает, является ли информация в связанном пользователе полностью или частичной.
-ms.openlocfilehash: 66dbe30cebb0aa5845d9580ad057d1cf5ab9b037
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PersonaObjectStatus указывает, является ли информация в связанной персоне полной или частичной.
+ms.openlocfilehash: db50ea8e9b308e670f557e6bc162793a265a8855
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457237"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524590"
 ---
-# <a name="personaobjectstatus"></a>персонаобжектстатус
+# <a name="personaobjectstatus"></a>PersonaObjectStatus
 
-Элемент **персонаобжектстатус** указывает, является ли информация в связанном пользователе полностью или частичной. 
+Элемент **PersonaObjectStatus** указывает, является ли информация в связанной персоне полной или частичной. 
   
 ```XML
 <PersonaObjectStatus></PersonaObjectStatus>
@@ -26,15 +26,15 @@ ms.locfileid: "44457237"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44457237"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **персонаобжектстатус** указывает, является ли персонаж завершенным или неполным. 
+Текстовое значение элемента **PersonaObjectStatus** указывает, является ли персона полной или частичной. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44457237"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,43 +1,43 @@
 ---
-title: Местоположение (Календаревентдетаилс)
+title: Location (CalendarEventDetails)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Location
 api_type:
 - schema
 ms.assetid: 883cce6e-66b8-4dbc-935c-83ef5100a953
 description: Элемент Location представляет поле расположения элемента календаря.
-ms.openlocfilehash: 4a590c315d2211ce9128305a514e68f1c785596c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7264d086b295b442b51376ac0a4e2b1b03521249
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468000"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524905"
 ---
-# <a name="location-calendareventdetails"></a>Местоположение (Календаревентдетаилс)
+# <a name="location-calendareventdetails"></a>Location (CalendarEventDetails)
 
 Элемент **Location** представляет поле расположения элемента календаря. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[фрибусиреспонсеаррай](freebusyresponsearray.md)
+[FreeBusyResponseArray](freebusyresponsearray.md)
   
-[фрибусиреспонсе](freebusyresponse.md)
+[FreeBusyResponse](freebusyresponse.md)
   
-[фрибусивиев](freebusyview.md)
+[FreeBusyView](freebusyview.md)
   
-[календаревентаррай](calendareventarray.md)
+[CalendarEventArray](calendareventarray.md)
   
-[календаревент](calendarevent.md)
+[CalendarEvent](calendarevent.md)
   
-[календаревентдетаилс](calendareventdetails.md)
+[CalendarEventDetails](calendareventdetails.md)
   
-[Местоположение (Календаревентдетаилс)](location-calendareventdetails.md)
+[Location (CalendarEventDetails)](location-calendareventdetails.md)
   
 ```xml
 <Location/>
@@ -46,29 +46,29 @@ ms.locfileid: "44468000"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаревентдетаилс](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения о событии календаря.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения для события календаря.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным, если этот элемент возвращается в ответе. Этот элемент может содержать пустую строку. Этот элемент является необязательным, если используется элемент [календаревентдетаилс](calendareventdetails.md) . 
+Если этот элемент возвращается в ответ, требуется текстовое значение. Этот элемент может содержать пустую строку. Этот элемент необязателен, если используется элемент [CalendarEventDetails.](calendareventdetails.md) 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент сопоставлен с именованным свойством PR_Location MAPI.
+Этот элемент показывает свойство PR_Location MAPI.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -78,7 +78,7 @@ ms.locfileid: "44468000"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -87,7 +87,7 @@ ms.locfileid: "44468000"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

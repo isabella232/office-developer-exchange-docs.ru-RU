@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a796535-7e83-4aa8-850a-d217059050f8
-description: Элемент Term указывает выделенный термин в отклике FindConversation или FindItem.
-ms.openlocfilehash: fb102e21d6e7866110735cacd60cd2c3c68a9675
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Term указывает выделенный термин в ответе FindConversation или FindItem.
+ms.openlocfilehash: 12aba499ebfcad392a4e72b29a8cb3522a4f964f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459492"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522539"
 ---
 # <a name="term"></a>Термин
 
-Элемент **Term** указывает выделенный термин в отклике **FindConversation** или **FindItem** . 
+Элемент **Term** указывает выделенный термин в **ответе FindConversation** или **FindItem.** 
   
 ```XML
 <Term>
@@ -26,24 +26,24 @@ ms.locfileid: "44459492"
 </Term>
 ```
 
- **хигхлигхттермтипе**
+ **HighlightTermType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Область действия (хигхлигхттермтипе)](scope-highlighttermtype.md)  |  [Value (значение](value.md) )
+[Область (HighlightTermType)](scope-highlighttermtype.md)  |  [Значение](value.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[хигхлигхттермс](highlightterms.md)
+[HighlightTerms](highlightterms.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44459492"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

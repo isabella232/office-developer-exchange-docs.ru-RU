@@ -5,15 +5,15 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70c324d5-2196-406d-a674-73323f8d8b92
 description: Элемент ManagerMailbox содержит сведения SMTP, идентифицирующие почтовый ящик руководителя контакта.
-ms.openlocfilehash: c30a343ad7071e92c826925407f8447ae6baccae
-ms.sourcegitcommit: 63e48eaf2891a6db1a718b55cd69e3a0433c4a9c
+ms.openlocfilehash: 605ecfe40d3d2c2d43378cddda4cf5789098e3f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "58851116"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524793"
 ---
 # <a name="managermailbox"></a>ManagerMailbox
 
@@ -46,7 +46,7 @@ ms.locfileid: "58851116"
 |:-----|:-----|
 |[Contact](contact.md) <br/> |Представляет элемент контакта в Exchange магазине.  <br/> |
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   

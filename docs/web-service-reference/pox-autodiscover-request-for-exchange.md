@@ -1,30 +1,30 @@
 ---
-title: Запрос автообнаружения POX для Exchange
+title: Запрос автооткрытия POX для Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 75671b1d-f35b-497b-8d8c-706f3f2535fd
-description: Запрос автообнаружения содержит запрос для конфигурации клиентского доступа пользователя.
-ms.openlocfilehash: b2138f9813c7b75aef9afb90089b9b874aac7532
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Запрос автооткрытия содержит запрос для конфигурации клиентского доступа пользователя.
+ms.openlocfilehash: 8a0960dcff21276baf723512befacc4eca35950f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461669"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523868"
 ---
-# <a name="pox-autodiscover-request-for-exchange"></a>Запрос автообнаружения POX для Exchange
+# <a name="pox-autodiscover-request-for-exchange"></a>Запрос автооткрытия POX для Exchange
 
-Запрос автообнаружения содержит запрос для конфигурации клиентского доступа пользователя.
+Запрос автооткрытия содержит запрос для конфигурации клиентского доступа пользователя.
   
-## <a name="autodiscover-request-example"></a>Пример запроса автообнаружения
+## <a name="autodiscover-request-example"></a>Пример запроса автооткрытия
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере XML-кода показан текст запроса автообнаружения.
+В следующем примере XML показан орган запроса автонаружения.
   
 ### <a name="code"></a>Код
 
@@ -37,53 +37,53 @@ ms.locfileid: "44461669"
  </Autodiscover>
 ```
 
-### <a name="request-headers"></a>Заголовки запросов
+### <a name="request-headers"></a>Запрашивать заглавные
 
-Следующие заголовки HTTP необязательны при отправке запросов автообнаружения.
+Следующие http-заголовки необязательны при отправке запросов автооткрытия.
   
-**Таблица 1. Заголовки HTTP-запросов**
+**Таблица 1. Http request headers**
 
 |**Header**|**Описание**|
 |:-----|:-----|
-|X — Мапихттпкапабилити  <br/> |Если указано значение "1", клиент запрашивает сведения, которые можно использовать для подключения к серверу с помощью протокола MAPI/HTTP. Этот заголовок применяется для клиентов, которые реализуют протокол MAPI/HTTP.  <br/> |
-|X — Клиентканхандле  <br/> |Этот заголовок содержит разделенный запятыми список возможностей, поддерживаемых клиентом. Возможные значения указаны в таблице 2.  <br/> |
+|X-MapiHttpCapability  <br/> |Если присутствует и задается "1", указывает, что клиент запрашивает сведения, которые можно использовать для подключения к серверу с помощью протокола MAPI/HTTP. Этот заголик применим к клиентам, реализуемым протоколу MAPI/HTTP.  <br/> |
+|X-ClientCanHandle  <br/> |В этом загородных загонах содержится список возможностей, поддерживаемых клиентом. Возможные значения указаны в таблице 2.  <br/> |
    
-**Таблица 2. Значения заголовков X – Клиентканхандле**
+**Таблица 2. Значения загона X-ClientCanHandle**
 
-|**Значение X-Клиентканхандле (без учета регистра)**|**Минимальная версия сервера**|**Описание**|
+|**Значение X-ClientCanHandle (нечувствительный к делу)**|**Минимальная версия сервера**|**Описание**|
 |:-----|:-----|:-----|
-|Подключение  <br/> |15.00.0995.014  <br/> |Если задано это значение, сервер возвратит значение "Negotiate" в элементе [ауспаккаже (POX)](authpackage-pox.md) , если сервер настроен для приема проверки подлинности согласования. Если это значение отсутствует, сервер не возвратит значение "Negotiate" в элементе **ауспаккаже** .  <br/> |
-|ексхттпинфо  <br/> |15.00.0995.014  <br/> |Если это значение задано, сервер возвратит элемент [протокола (POX)](protocol-pox.md) с элементом [Type (POX)](type-pox.md) со значением "ексхттп", если сервер НАСТРОЕН для приема подключений RPC/HTTP. Если это значение отсутствует, сервер не возвращает элемент **Protocol** , у которого для элемента **Type** задано значение "ексхттп".  <br/> |
+|Согласование  <br/> |15.00.0995.014  <br/> |Если это значение присутствует, сервер возвращает значение "Согласование" в [элементе AuthPackage (POX),](authpackage-pox.md) если сервер настроен на согласование проверки подлинности. Если этого значения нет, сервер не возвращает значение "Negotiate" в **элементе AuthPackage.**  <br/> |
+|ExHttpInfo  <br/> |15.00.0995.014  <br/> |Если это значение присутствует, сервер возвращает элемент [Protocol (POX)](protocol-pox.md) с элементом [Type (POX)](type-pox.md) с набором "EXHTTP", если сервер настроен на прием подключений RPC/HTTP. Если этого значения нет, сервер не возвращает элемент **Протокол** с элементом **Type,** заданной "EXHTTP".  <br/> |
    
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
-В тексте запроса используются следующие элементы:
+В теле запроса используются следующие элементы:
   
-- [Служба автообнаружения (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
     
-- [Запрос (POX)](request-pox.md)
+- [Request (POX)](request-pox.md)
     
-- [Акцептаблереспонсесчема (POX)](acceptableresponseschema-pox.md)
+- [AcceptableResponseSchema (POX)](acceptableresponseschema-pox.md)
     
 - [EMailAddress (POX)](emailaddress-pox.md)
     
 > [!NOTE]
-> Элемент [LegacyDN (POX)](legacydn-pox.md) можно использовать вместо элемента [EMailAddress (POX)](emailaddress-pox.md) . 
+> Элемент [LegacyDN (POX)](legacydn-pox.md) может использоваться на месте элемента [EMailAddress (POX).](emailaddress-pox.md) 
   
 ### <a name="version-differences"></a>Различия версий
 
-Заголовок X-Мапихттпкапабилити доступен в Office 365, Exchange Online и локальных версиях Exchange, начиная с сборки 15.00.0847.032 (Exchange Server 2013 с пакетом обновления 1 (SP1)).
+Загон X-MapiHttpCapability доступен в Office 365, Exchange Online и локальной версии Exchange начиная с сборки 15.00.0847.032 (Exchange Server 2013 SP1).
   
-Заголовок X-Клиентканхандле доступен в Office 365, Exchange Online и локальных версиях Exchange, начиная с сборки 15.00.0995.014.
+Загон X-ClientCanHandle доступен в Office 365, Exchange Online и локальной версии Exchange начиная с сборки 15.00.0995.014.
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Отклик автообнаружения POX для Exchange](pox-autodiscover-response-for-exchange.md)
+[Ответ автооткрытия POX для Exchange](pox-autodiscover-response-for-exchange.md)
 
 
-[Справочник по веб-службе автообнаружения POX для Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
+[Ссылка веб-службы автооткрытия POX для Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
   
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -5,47 +5,47 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a67c1d8-d021-4e68-aa62-35f7d9c2edc7
-description: Поиск сведений о SearchMailboxesной операции EWS.
-ms.openlocfilehash: 9ec7e9dd4ef17f22f236e64ca1fdbeb65e6e56fe
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции EWS SearchMailboxes.
+ms.openlocfilehash: 6e154525f5ff2c3d4f24ddc50e1dae1b04a891ba
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456776"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521684"
 ---
 # <a name="searchmailboxes-operation"></a>Операция SearchMailboxes
 
 > [!NOTE]
-> Эта операция устарела и больше не поддерживается корпорацией Майкрософт.  В качестве замены используйте операцию [FindItem](finditem-operation.md) .
+> Эта операция не поддерживается Корпорацией Майкрософт.  В качестве замены используйте операцию [FindItem.](finditem-operation.md)
 
-Поиск сведений о **SearchMailboxesной** операции EWS. 
+Сведения об операции **EWS SearchMailboxes.** 
   
-Операция **SearchMailboxes** выполняет поиск в почтовых ящиках вхождений терминов в элементах почтового ящика. 
+Операция **SearchMailboxes** ищет почтовые ящики для возникновения терминов в элементов почтовых ящиков. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-searchmailboxes-operation"></a>Использование операции SearchMailboxes
 
-Для выполнения поиска в нескольких почтовых ящиках с помощью операции **SearchMailboxes** можно использовать несколько одновременных запросов поиска. Результаты могут представлять собой статистическую информацию о количестве выполняемых условий поиска или предварительном просмотре элементов, содержащих условия поиска. 
+Операция **SearchMailboxes может** использовать множество одновременных поисковых запросов для выполнения поиска обнаружения в нескольких почтовых ящиках. Результаты могут быть как статистическими сведениями о количестве времени поиска, так и предварительным просмотром элементов, содержащих термины поиска. 
   
-### <a name="searchmailboxes-operation-soap-headers"></a>Заголовки SOAP операции SearchMailboxes
+### <a name="searchmailboxes-operation-soap-headers"></a>Заголовки операции SEARCHMailboxes
 
-Операция **SearchMailboxes** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции SearchMailboxes** можно использовать заголовки SOAP, перечисленные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для того, чтобы вызывающий абонент мог выполнить запрос. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Определяет роли сервера, необходимые для запроса вызываемой. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="searchmailboxes-operation-request-example-search-mailboxes-for-number-of-search-term-hits"></a>Пример запроса операции SearchMailboxes: почтовые ящики поиска для количества совпадений со словами поиска
+## <a name="searchmailboxes-operation-request-example-search-mailboxes-for-number-of-search-term-hits"></a>Пример запроса на операцию SearchMailboxes: поиск почтовых ящиков для количества просмотров терминов поиска
 
-В приведенном ниже примере запроса операции **SearchMailboxes** показано, как использовать два разных запроса для поиска в трех разных почтовых ящиках статистические сведения о том, сколько раз термин отображается в каждом почтовом ящике. 
+В следующем примере запроса на операцию **SearchMailboxes** показано, как использовать два различных запроса для поиска трех разных почтовых ящиков для получения статистических сведений о том, сколько раз в каждом почтовом ящике появляется термин. 
   
 > [!NOTE]
-> В этом примере элемент [Query](query.md) является пустым. В этом примере показано, как успешный запрос может содержать условия ошибки для каждой базы для поиска почтовых ящиков. 
+> В этом примере элемент [Запроса](query.md) намеренно остается пустым. Это показывает, как успешный запрос может содержать условия ошибки на основе поиска почтовых ящиков. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -88,29 +88,29 @@ ms.locfileid: "44456776"
 
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [SearchMailboxes](searchmailboxes.md)
     
-- [сеарчкуериес](searchqueries.md)
+- [SearchQueries](searchqueries.md)
     
-- [маилбокскуери](mailboxquery.md)
+- [MailboxQuery](mailboxquery.md)
     
 - [Query](query.md)
     
-- [маилбокссеарчскопес](mailboxsearchscopes.md)
+- [MailboxSearchScopes](mailboxsearchscopes.md)
     
-- [маилбокссеарчскопе](mailboxsearchscope.md)
+- [MailboxSearchScope](mailboxsearchscope.md)
     
 - [Mailbox (строка)](mailbox-string.md)
     
 - [SearchScope](searchscope.md)
     
-- [Тип](resulttype.md)
+- [ResultType](resulttype.md)
     
-## <a name="successful-searchmailboxes-operation-response"></a>Успешный отклик операции SearchMailboxes
+## <a name="successful-searchmailboxes-operation-response"></a>Успешный ответ на операцию SearchMailboxes
 
-В следующем примере показан успешный ответ на запрос операции **SearchMailboxes** для получения статистической информации о количестве найденных терминов поиска в целевых почтовых ящиках. Последний запрос содержит пустой элемент **запроса** , в котором отображается неудачный Поиск в почтовом ящике. 
+В следующем примере показан успешный ответ на запрос операции **SearchMailboxes,** чтобы получить статистическую информацию о количестве терминов поиска в целевых почтовых ящиках. Последний запрос содержит пустой элемент **Запрос,** в котором показан неудачный поиск почтовых ящиков. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -178,51 +178,51 @@ ms.locfileid: "44456776"
 
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [сеарчмаилбоксесреспонсе](searchmailboxesresponse.md)
+- [SearchMailboxesResponse](searchmailboxesresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [сеарчмаилбоксесреспонсемессаже](searchmailboxesresponsemessage.md)
+- [SearchMailboxesResponseMessage](searchmailboxesresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [сеарчмаилбоксесресулт](searchmailboxesresult.md)
+- [SearchMailboxesResult](searchmailboxesresult.md)
     
-- [сеарчкуериес](searchqueries.md)
+- [SearchQueries](searchqueries.md)
     
-- [маилбокскуери](mailboxquery.md)
+- [MailboxQuery](mailboxquery.md)
     
 - [Query](query.md)
     
-- [маилбокссеарчскопес](mailboxsearchscopes.md)
+- [MailboxSearchScopes](mailboxsearchscopes.md)
     
-- [маилбокссеарчскопе](mailboxsearchscope.md)
+- [MailboxSearchScope](mailboxsearchscope.md)
     
 - [Mailbox (строка)](mailbox-string.md)
     
 - [SearchScope](searchscope.md)
     
-- [Тип](resulttype.md)
+- [ResultType](resulttype.md)
     
 - [ItemCount](itemcount.md)
     
-- [Размер (длинный)](size-long.md)
+- [Size (long)](size-long.md)
     
-- [пажеитемкаунт](pageitemcount.md)
+- [PageItemCount](pageitemcount.md)
     
-- [кэйвордстатс](keywordstats.md)
+- [KeywordStats](keywordstats.md)
     
-- [кэйвордстат](keywordstat.md)
+- [KeywordStat](keywordstat.md)
     
-- [Недопустим](keyword.md)
+- [Ключевое слово](keyword.md)
     
-- [итемхитс](itemhits.md)
+- [ItemHits](itemhits.md)
     
-- [фаиледмаилбоксес](failedmailboxes.md)
+- [FailedMailboxes](failedmailboxes.md)
     
-- [фаиледмаилбокс](failedmailbox.md)
+- [FailedMailbox](failedmailbox.md)
     
 - [Mailbox (строка)](mailbox-string.md)
     
@@ -232,9 +232,9 @@ ms.locfileid: "44456776"
     
 - [IsArchive](isarchive.md)
     
-## <a name="searchmailboxes-operation-error-response"></a>Ответ об ошибке операции SearchMailboxes
+## <a name="searchmailboxes-operation-error-response"></a>Ответ на ошибку операции SearchMailboxes
 
-В следующем примере показан ответ об ошибке для запроса операции **SearchMailboxes** . Это ответ на запрос поиска в почтовом ящике при неправильном идентификаторе почтового ящика. 
+В следующем примере показан ответ на ошибку на запрос операции **SearchMailboxes.** Это ответ на запрос на поиск почтового ящика при неправильном идентификаторе почтового ящика. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -295,45 +295,45 @@ ms.locfileid: "44456776"
 
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [сеарчмаилбоксесреспонсе](searchmailboxesresponse.md)
+- [SearchMailboxesResponse](searchmailboxesresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [сеарчмаилбоксесреспонсемессаже](searchmailboxesresponsemessage.md)
+- [SearchMailboxesResponseMessage](searchmailboxesresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [сеарчмаилбоксесресулт](searchmailboxesresult.md)
+- [SearchMailboxesResult](searchmailboxesresult.md)
     
-- [сеарчкуериес](searchqueries.md)
+- [SearchQueries](searchqueries.md)
     
-- [маилбокскуери](mailboxquery.md)
+- [MailboxQuery](mailboxquery.md)
     
 - [Query](query.md)
     
-- [маилбокссеарчскопес](mailboxsearchscopes.md)
+- [MailboxSearchScopes](mailboxsearchscopes.md)
     
-- [маилбокссеарчскопе](mailboxsearchscope.md)
+- [MailboxSearchScope](mailboxsearchscope.md)
     
 - [Mailbox (строка)](mailbox-string.md)
     
 - [SearchScope](searchscope.md)
     
-- [Тип](resulttype.md)
+- [ResultType](resulttype.md)
     
 - [ItemCount](itemcount.md)
     
-- [Размер (длинный)](size-long.md)
+- [Size (long)](size-long.md)
     
-- [пажеитемкаунт](pageitemcount.md)
+- [PageItemCount](pageitemcount.md)
     
-- [пажеитемсизе](pageitemsize.md)
+- [PageItemSize](pageitemsize.md)
     
-- [фаиледмаилбоксес](failedmailboxes.md)
+- [FailedMailboxes](failedmailboxes.md)
     
-- [фаиледмаилбокс](failedmailbox.md)
+- [FailedMailbox](failedmailbox.md)
     
 - [Mailbox (строка)](mailbox-string.md)
     
@@ -343,7 +343,7 @@ ms.locfileid: "44456776"
     
 - [IsArchive](isarchive.md)
     
-Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
+Дополнительные коды ошибок, общие для EWS и специфические для этой операции, см. [в ответе.](responsecode.md)
   
 ## <a name="see-also"></a>См. также
 

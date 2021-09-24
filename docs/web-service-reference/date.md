@@ -5,59 +5,59 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Date
 api_type:
 - schema
 ms.assetid: 2f6bc090-fff4-45b1-8d7e-8fd6e060cce2
-description: Элемент Date представляет дату, которая содержит предложенное время проведения собрания.
-ms.openlocfilehash: bcc152ed6aba94907189b5579b998815be45db16
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Date представляет дату, содержаную рекомендуемые сроки собраний.
+ms.openlocfilehash: 077420a268d574267cc8ea352b90e581391275b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44443790"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524407"
 ---
 # <a name="date"></a>Дата
 
-Элемент **Date** представляет дату, которая содержит предложенное время проведения собрания. 
+Элемент **Date** представляет дату, содержаную рекомендуемые сроки собраний. 
   
-- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md) 
-- [сугжестионсреспонсе](suggestionsresponse.md) 
-- [сугжестиондайресултаррай](suggestiondayresultarray.md)  
-- [сугжестиондайресулт](suggestiondayresult.md)  
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md) 
+- [SuggestionsResponse](suggestionsresponse.md) 
+- [SuggestionDayResultArray](suggestiondayresultarray.md)  
+- [SuggestionDayResult](suggestiondayresult.md)  
 - [Date](date.md)
   
 ```xml
 <Date>...</Date>
 ```
 
-**дата и время**
+**dateTime**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестиондайресулт](suggestiondayresult.md) <br/> |Представляет один день, который содержит предложенное время проведения собрания.  <br/><br/>Ниже приведено выражение XPath 2,0 для этого элемента:<br/><br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |Представляет один день, содержащий рекомендуемые время собраний.  <br/><br/>Ниже приводится выражение XPath 2.0 к этому элементу:<br/><br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Изучите рекомендации консорциума типов данных схемы консорциума W3C для формата данных примитива dateTime.
+Требуется текстовое значение. Просмотрите рекомендации по типу данных схемы world Wide Web Consortium (W3C) для формата примитивного datatype dateTime.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -67,12 +67,12 @@ ms.locfileid: "44443790"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md) 
-- [жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 - [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

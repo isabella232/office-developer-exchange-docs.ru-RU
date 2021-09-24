@@ -5,32 +5,32 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UploadItems
 api_type:
 - schema
 ms.assetid: a88cbe99-7968-454d-a545-4f92c330909f
-description: Операция UploadItems отправляет поток элементов в почтовый ящик Exchange.
-ms.openlocfilehash: 57e722c7775baa090736875077781cee869c3b01
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция UploadItems загружает поток элементов в Exchange почтовый ящик.
+ms.openlocfilehash: 333b72eb93395bb1fc0b97a90951ae68285794b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468504"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522427"
 ---
 # <a name="uploaditems-operation"></a>Операция UploadItems
 
-Операция **UploadItems** отправляет поток элементов в почтовый ящик Exchange. 
+Операция **UploadItems** загружает поток элементов в Exchange почтовый ящик. 
   
 > [!IMPORTANT]
-> Операция **UploadItems** ограничена в майкрософт exchange Server 2010 с пакетом обновления 1 (SP1) до максимальной полезных данных импорта 25MB данных, закодированных с помощью Base64. Параметр можно изменить в файле Web. config. 
+> Операция **UploadItems** ограничена в MicrosoftExchange Server 2010 Пакет обновления 1 (SP1) максимальной полезной нагрузкой импорта в 25 МБ из кодируемых данных base64. Параметр может быть изменен в web.config файле. 
   
-## <a name="uploaditems-request-example"></a>Пример запроса UploadItems
+## <a name="uploaditems-request-example"></a>Пример запроса uploadItems
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **UploadItems** показано, как отправить два элемента в почтовый ящик. Первый элемент — новый элемент. Второй элемент представляет собой обновленную версию существующего элемента в почтовом ящике. 
+В следующем примере **запроса UploadItems** показано, как загрузить два пункта в почтовый ящик. Первый элемент — это новый элемент. Второй элемент — обновленная версия существующего элемента в почтовом ящике. 
   
 ### <a name="code"></a>Код
 
@@ -80,31 +80,31 @@ ms.locfileid: "44468504"
 
 ### <a name="comments"></a>Комментарии
 
-Идентификаторы и данные элементов были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы и данные элемента были сокращены для сохранения читаемости.
   
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
-- [рекуестсерверверсион](requestserverversion.md)
+- [RequestServerVersion](requestserverversion.md)
     
 - [UploadItems](uploaditems.md)
     
-- [Элементы (Нонемптяррайофуплоадитемстипе)](items-nonemptyarrayofuploaditemstype.md)
+- [Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
     
-- [Элемент (Уплоадитемтипе)](item-uploaditemtype.md)
+- [Item (UploadItemType)](item-uploaditemtype.md)
     
 - [ParentFolderId](parentfolderid.md)
     
 - [Data (base64Binary)](data-base64binary.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
 ## <a name="successful-uploaditems-response-example"></a>Пример успешного ответа UploadItems
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **UploadItems** . 
+В следующем примере показан успешный ответ на **запрос UploadItems.** 
   
 ### <a name="code"></a>Код
 
@@ -143,29 +143,29 @@ ms.locfileid: "44468504"
 
 ### <a name="comments"></a>Комментарии
 
-Идентификаторы элементов были сокращены для сохранения удобочитаемости.
+Идентификаторы элементов были сокращены для сохранения читаемости.
   
-### <a name="response-elements"></a>Элементы Response
+### <a name="response-elements"></a>Элементы ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [уплоадитемсреспонсе](uploaditemsresponse.md)
+- [UploadItemsResponse](uploaditemsresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [уплоадитемсреспонсемессаже](uploaditemsresponsemessage.md)
+- [UploadItemsResponseMessage](uploaditemsresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="uploaditems-error-response-example"></a>Пример ответа на сообщение об ошибке UploadItems
+## <a name="uploaditems-error-response-example"></a>Пример ответа на ошибку uploadItems
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере показан ответ на запрос **UploadItems** , который содержит ошибку, вызванную попыткой обновления элемента, который не удается найти в почтовом ящике. 
+В следующем примере показан ответ на запрос **UploadItems,** содержащий ошибку, вызванную попыткой обновить элемент, который невозможно найти в почтовом ящике. 
   
 ### <a name="code"></a>Код
 
@@ -199,23 +199,23 @@ ms.locfileid: "44468504"
 </s:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ошибочного ответа
+### <a name="error-response-elements"></a>Элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [уплоадитемсреспонсе](uploaditemsresponse.md)
+- [UploadItemsResponse](uploaditemsresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [уплоадитемсреспонсемессаже](uploaditemsresponsemessage.md)
+- [UploadItemsResponseMessage](uploaditemsresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

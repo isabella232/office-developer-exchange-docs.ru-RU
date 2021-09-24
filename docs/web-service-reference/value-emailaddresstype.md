@@ -1,23 +1,23 @@
 ---
-title: Значение (EmailAddressType)
+title: Value (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24eaa473-0024-47e2-b7d2-051d5dd4f53c
-description: Элемент value указывает значение EmailAddress, связанное с массивом сопоставлений.
-ms.openlocfilehash: 45af2aaab7d2475ae46ae24ed13b1435f5b352c6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Value указывает значение emailAddress, связанного с массивом атрибуций.
+ms.openlocfilehash: 21859c6cc4c05e55029758ce25bdf312b5f084fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467601"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522518"
 ---
-# <a name="value-emailaddresstype"></a>Значение (EmailAddressType)
+# <a name="value-emailaddresstype"></a>Value (EmailAddressType)
 
-Элемент **value** указывает значение **EmailAddress** , связанное с массивом сопоставлений. 
+Элемент **Value** указывает значение **emailAddress,** связанного с массивом атрибуций. 
   
 ```XML
 <Value>
@@ -34,21 +34,21 @@ ms.locfileid: "44467601"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Имя (строка)](name-string.md)  |  [EmailAddress (нонемптистрингтипе)](emailaddress-nonemptystringtype.md)  |  [Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md)  |  [MailboxType](mailboxtype.md)  |  [ItemId](itemid.md)  |  [Оригиналдисплайнаме](originaldisplayname.md)
+[Имя (строка)](name-string.md)  |  [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)  |  [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)  |  [Почтовый ящикType](mailboxtype.md)  |  [ItemId](itemid.md)  |  [OriginalDisplayName](originaldisplayname.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[емаиладдрессаттрибутедвалуе](emailaddressattributedvalue.md)
+[EmailAddressAttributedValue](emailaddressattributedvalue.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44467601"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

@@ -3,44 +3,44 @@ title: Удаление вложений с помощью EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 71871ac7-ee1a-4f93-9e81-77f312d432f4
-description: Узнайте, как удалять вложения из элементов с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 854f723e9c7452b955d0e7d7a38da7f6224dc8b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Узнайте, как удалить вложения из элементов с помощью управляемого API или EWS EWS в Exchange.
+ms.openlocfilehash: bc9b8bbf5833cfdb44f9ca4e8387681473fad3c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455893"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521153"
 ---
 # <a name="delete-attachments-by-using-ews-in-exchange"></a>Удаление вложений с помощью EWS в Exchange
 
-Узнайте, как удалять вложения из элементов с помощью управляемого API EWS или EWS в Exchange.
+Узнайте, как удалить вложения из элементов с помощью управляемого API или EWS EWS в Exchange.
   
-Существует несколько вариантов удаления вложенных файлов и элементов из элементов с помощью управляемого API EWS. Вы можете удалить все вложения из сообщения, удалить его по имени или удалить по позиции в коллекции. Для каждого из этих параметров существует метод [аттачментколлектион](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection%28v=exchg.80%29.aspx) . 
+При удалении файлов и вложений элементов из элементов с помощью управляемого API EWS у вас есть несколько вариантов. Вы можете удалить все вложения из сообщения, удалить с помощью имени файла или удалить по позиции в коллекции. Для каждого из этих параметров используется метод [AttachmentCollection.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection%28v=exchg.80%29.aspx) 
   
-С другой стороны, у вас независимо от того, вы удаляете все вложения из элемента или только из одной, последовательность операций одинакова. В отличие от управляемого API EWS, EWS не включает отдельные операции для удаления в зависимости от имени или положения в массиве вложений.
+И наоборот, в EWS независимо от того, удаляете ли вы все вложения из элемента или из одного элемента, последовательность операций будет одинаковой. В отличие от управляемого API EWS, EWS не включает отдельные операции для удаления на основе имени или позиции в массиве вложений.
   
 **Таблица 1. Методы управляемого API EWS и операции EWS для удаления вложений**
 
 |**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Удаление всех вложений из элемента.  <br/> |[Item. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), за которым следует [аттачментколлектион. Clear](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.clear%28v=exchg.80%29.aspx), за которым следует [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) , за которым следует [DeleteAttachment](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
-|Удаление вложения из элемента по имени.  <br/> |[Item. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), за которым следует [Аттачментколлектион. Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx), за которым следует [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) , за которым следует [DeleteAttachment](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
-|Удаление вложения из элемента по позиции в коллекции.  <br/> |[Item. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), за которым следует [аттачментколлектион. RemoveAt](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.removeat%28v=exchg.80%29.aspx), за которым следует [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) , за которым следует [DeleteAttachment](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
+|Удаление всех вложений из элемента.  <br/> |[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), а затем [AttachmentCollection.Clear](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.clear%28v=exchg.80%29.aspx), а затем [EmailMessage.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) с последующим [удалением](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
+|Удаление вложения из элемента по имени.  <br/> |[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), а затем [AttachmentCollection.Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx), а затем [EmailMessage.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) с последующим [удалением](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
+|Удаление вложения из элемента по позиции в коллекции.  <br/> |[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx), а затем [AttachmentCollection.RemoveAt](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.removeat%28v=exchg.80%29.aspx), а затем [EmailMessage.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) с последующим [удалением](https://msdn.microsoft.com/library/43d0c1cb-92ca-4399-9b3a-acb2b5c22624%28Office.15%29.aspx) <br/> |
    
 ## <a name="delete-all-attachments-from-an-email-by-using-the-ews-managed-api"></a>Удаление всех вложений из электронной почты с помощью управляемого API EWS
 <a name="bk_deleteattachewsma"> </a>
 
-В приведенном ниже примере кода показано, как удалить все вложения из сообщения электронной почты, выполнив следующие действия:
+В следующем примере кода показано, как удалить все вложения из электронной почты по следующим адресам:
   
-1. С помощью метода [EmailMessage. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) можно выполнить присоединение к существующему сообщению электронной почты и получить коллекцию [вложений](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx).
+1. Использование метода [EmailMessage.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) для привязки к существующему сообщению электронной почты и получения коллекции [вложений.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx)
     
-2. Использование метода [аттачментколлектион. Clear](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.clear%28v=exchg.80%29.aspx) для удаления всех вложений из электронной почты. 
+2. Использование метода [AttachmentCollection.Clear](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.clear%28v=exchg.80%29.aspx) для удаления всех вложений из электронной почты. 
     
-3. Использование метода [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) для сохранения изменений. 
+3. Для сохранения изменений используется метод [EmailMessage.Update.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) 
     
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , идентификатором **ItemId** является идентификатором [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) сообщения, из которого удаляются вложения, и что пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что служба является допустимым объектом [ExchangeService,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) itemId —  **itemId** сообщения, из которого будут удалены вложения, и что пользователь был аутентификацией Exchange сервера. [](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) 
   
 ```cs
 public static void DeleteAllAttachments(ExchangeService service, ItemId itemId)
@@ -56,18 +56,18 @@ public static void DeleteAllAttachments(ExchangeService service, ItemId itemId)
 }
 ```
 
-## <a name="delete-an-attachment-by-name-from-an-email-by-using-the-ews-managed-api"></a>Удаление вложения по имени из сообщения электронной почты с помощью управляемого API EWS
+## <a name="delete-an-attachment-by-name-from-an-email-by-using-the-ews-managed-api"></a>Удаление вложения по имени из электронной почты с помощью управляемого API EWS
 <a name="bk_deleteattachewsma"> </a>
 
-В приведенном ниже примере кода показано, как удалить вложение по имени, выполнив следующие действия:
+В следующем примере кода показано, как удалить вложение по имени:
   
-1. С помощью метода [EmailMessage. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) можно выполнить присоединение к существующему сообщению электронной почты и получить коллекцию [вложений](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx).
+1. Использование метода [EmailMessage.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) для привязки к существующему сообщению электронной почты и получения коллекции [вложений.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx)
     
-2. Использование метода [аттачментколлектион. Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx) для удаления вложения с именем FileAttachment. txt. 
+2. Использование метода [AttachmentCollection.Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx) для удаления вложения с именем FileAttachment.txt. 
     
-3. Использование метода [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) для сохранения изменений. 
+3. Для сохранения изменений используется метод [EmailMessage.Update.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) 
     
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , **ItemId** — [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) сообщения, из которого удаляется вложение, и что пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что служба является допустимым объектом [ExchangeService,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) itemId — это  **ItemId** сообщения, из которого будет удалено вложение, и что пользователь был аутентификацией Exchange сервера. [](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) 
   
 ```cs
 public static void DeleteNamedAttachments(ExchangeService service, ItemId itemId)
@@ -90,18 +90,18 @@ public static void DeleteNamedAttachments(ExchangeService service, ItemId itemId
 }
 ```
 
-## <a name="delete-attachments-by-position-by-using-the-ews-managed-api"></a>Удаление вложений по положению с помощью управляемого API EWS
+## <a name="delete-attachments-by-position-by-using-the-ews-managed-api"></a>Удаление вложений по позиции с помощью управляемого API EWS
 <a name="bk_deleteattachewsma"> </a>
 
-В приведенном ниже примере кода показано, как удалить вложение по позиции, выполнив следующие действия:
+В следующем примере кода показано, как удалить вложение по позиции:
   
-1. С помощью метода [EmailMessage. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) можно выполнить присоединение к существующему сообщению электронной почты и получить коллекцию [вложений](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx) и свойство [EmailMessage. HasAttachments](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.hasattachments%28v=exchg.80%29.aspx) . 
+1. Использование метода [EmailMessage.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) для привязки к существующему [](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.attachments%28v=exchg.80%29.aspx) сообщению электронной почты и получения коллекции вложений и свойства [EmailMessage.HasAttachments.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.hasattachments%28v=exchg.80%29.aspx) 
     
-2. Использование метода [аттачментколлектион. Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx) для удаления первого вложения в коллекции. 
+2. Использование метода [AttachmentCollection.Remove](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachmentcollection.remove%28v=exchg.80%29.aspx) для удаления первого вложения в коллекции. 
     
-3. Использование метода [EmailMessage. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) для сохранения изменений. 
+3. Для сохранения изменений используется метод [EmailMessage.Update.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.update%28v=exchg.80%29.aspx) 
     
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , **ItemId** — [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) сообщения, из которого удаляется вложение, и что пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что служба является допустимым объектом [ExchangeService,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) itemId — это  **ItemId** сообщения, из которого будет удалено вложение, и что пользователь был аутентификацией Exchange сервера. [](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) 
   
 ```cs
 public static void DeleteAttachmentByPosition(ExchangeService service, ItemId itemId)
@@ -123,9 +123,9 @@ public static void DeleteAttachmentByPosition(ExchangeService service, ItemId it
 ## <a name="delete-attachments-from-an-item-by-using-ews"></a>Удаление вложений из элемента с помощью EWS
 <a name="bk_deleteattachewsma"> </a>
 
-Чтобы удалить вложения с помощью EWS, сначала необходимо получить сообщение и коллекцию вложений, чтобы определить [AttachmentId (GetAttachment и DeleteAttachment)](https://msdn.microsoft.com/library/4bea1cb5-0a0f-4e14-9b09-f91af8cf9899%28Office.15%29.aspx) вложения, которое требуется удалить. После удаления одного или нескольких значений **AttachmentId** вызовите операцию [DeleteAttachment](https://msdn.microsoft.com/library/4d48e595-b98c-48e7-bbeb-cacf91d12a78%28Office.15%29.aspx) , чтобы удалить указанные вложения из сообщения. 
+Чтобы удалить вложения с помощью EWS, сначала необходимо получить сообщение и коллекцию вложений для определения вложения [(GetAttachment и DeleteAttachment)](https://msdn.microsoft.com/library/4bea1cb5-0a0f-4e14-9b09-f91af8cf9899%28Office.15%29.aspx) вложения для удаления. После удаления одного или более значений **AttachmentId** вызывайте операцию [DeleteAttachment,](https://msdn.microsoft.com/library/4d48e595-b98c-48e7-bbeb-cacf91d12a78%28Office.15%29.aspx) чтобы удалить указанные вложения из сообщения. 
   
-В следующем примере кода показано, как использовать операцию [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) для получения сообщения электронной почты и коллекции вложений сообщения. Кроме того, это первый XML-запрос, который отправляет управляемый API EWS при использовании управляемого API EWS для [удаления всех вложений из электронной почты](#bk_deleteattachewsma). Значения некоторых атрибутов укорочены для удобства чтения.
+В следующем примере кода показано, как использовать операцию [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) для получения сообщения электронной почты и коллекции вложений сообщения. Это также первый XML-запрос, который отправляет управляемый API EWS при использовании управляемого API EWS для удаления всех вложений из [электронной почты.](#bk_deleteattachewsma) Значения некоторых атрибутов укорочены для удобства чтения.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -213,7 +213,7 @@ public static void DeleteAttachmentByPosition(ExchangeService service, ItemId it
 </s:Envelope>
 ```
 
-Определив вложение, которое необходимо удалить, вызовите операцию [DeleteAttachment](https://msdn.microsoft.com/library/4d48e595-b98c-48e7-bbeb-cacf91d12a78%28Office.15%29.aspx) и добавьте значения **AttachmentId** для удаляемых вложений. 
+После определения вложения, которое необходимо удалить, позвоните в операцию [DeleteAttachment](https://msdn.microsoft.com/library/4d48e595-b98c-48e7-bbeb-cacf91d12a78%28Office.15%29.aspx) и включите значения **AttachmentId** для удаления вложений. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -241,7 +241,7 @@ public static void DeleteAttachmentByPosition(ExchangeService service, ItemId it
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос DeleteAttachment с сообщением [делетеаттачментреспонсе](https://msdn.microsoft.com/library/24099a88-4ab6-4bf3-8ed5-efec8e07b9b9%28Office.15%29.aspx) , которое включает в [себя значение](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) **DeleteAttachment** **для каждого** [делетеаттачментреспонсемессаже](https://msdn.microsoft.com/library/1edb085f-1674-48e5-8ec3-42351adeac7d%28Office.15%29.aspx), что означает, что каждое вложение было удалено успешно. Значения некоторых атрибутов укорочены для удобства чтения.
+Сервер отвечает на запрос **DeleteAttachment** [сообщением DeleteAttachmentResponse,](https://msdn.microsoft.com/library/24099a88-4ab6-4bf3-8ed5-efec8e07b9b9%28Office.15%29.aspx) которое включает значение [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) **NoError** для каждого [deleteAttachmentResponseMessage,](https://msdn.microsoft.com/library/1edb085f-1674-48e5-8ec3-42351adeac7d%28Office.15%29.aspx)что указывает на успешное удаление каждого вложения. Значения некоторых атрибутов укорочены для удобства чтения.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

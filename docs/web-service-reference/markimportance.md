@@ -1,44 +1,44 @@
 ---
-title: маркимпортанце
+title: MarkImportance
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MarkImportance
 api_type:
 - schema
 ms.assetid: 32b8b08f-65e9-4764-b40a-63245551f4a3
-description: Элемент Маркимпортанце указывает важность отметки сообщений.
-ms.openlocfilehash: 051307c0943a22e0c46439410806d168603d8a69
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MarkImportance указывает значение, которое должно быть штампуется в сообщениях.
+ms.openlocfilehash: 3c0084423a690b2acf758bf6cd91ae65194020b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530883"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523981"
 ---
-# <a name="markimportance"></a>маркимпортанце
+# <a name="markimportance"></a>MarkImportance
 
-Элемент **маркимпортанце** указывает важность отметки сообщений. 
+Элемент **MarkImportance** указывает значение, которое должно быть штампуется в сообщениях. 
   
 ```XML
 <MarkImportance/>
 ```
 
- **импортанцечоицестипе**
+ **ImportanceChoicesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,15 +48,15 @@ ms.locfileid: "44530883"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение для этого элемента ограничено одним из следующих строковых значений:
+Текстовое значение этого элемента ограничено одним из следующих значений строки:
   
-- Низкий
+- Низкие
     
 - Normal
     
-- Высокая
+- Спам с
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -66,7 +66,7 @@ ms.locfileid: "44530883"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

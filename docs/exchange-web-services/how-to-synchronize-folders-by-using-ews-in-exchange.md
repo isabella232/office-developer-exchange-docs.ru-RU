@@ -3,30 +3,30 @@ title: Синхронизация папок с помощью EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d3bbacd1-8e4b-4fd0-8d27-4cbbc045ec3f
-description: Узнайте, как использовать управляемый API EWS или EWS для получения списка папок или списка папок, которые были изменены, чтобы синхронизировать клиент.
-ms.openlocfilehash: e49fdaf2faf97c2369f2ad7dbb141c5ac3100884
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Узнайте, как использовать управляемый API или EWS EWS для получения списка папок или списка измененных папок, чтобы синхронизировать клиента.
+ms.openlocfilehash: f22cb3b4ba92da9c044e08e7164d116293cf43ff
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455865"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521094"
 ---
 # <a name="synchronize-folders-by-using-ews-in-exchange"></a>Синхронизация папок с помощью EWS в Exchange
 
-Узнайте, как использовать управляемый API EWS или EWS для получения списка папок или списка папок, которые были изменены, чтобы синхронизировать клиент.
+Узнайте, как использовать управляемый API или EWS EWS для получения списка папок или списка измененных папок, чтобы синхронизировать клиента.
   
-Служба EWS в Exchange использует синхронизацию элементов и синхронизацию папок для синхронизации содержимого почтовых ящиков между клиентом и сервером. Синхронизация папок получает исходный список папок из корневой папки, а затем получает изменения, внесенные в эти папки, а также создает новые папки.
+EWS Exchange синхронизации элементов и синхронизации папок для синхронизации контента почтовых ящиков между клиентом и сервером. Синхронизация папок получает начальный список папок из корневой папки, а затем со временем получает изменения, внесенные в эти папки, и получает новые папки.
   
-Если вы выполняете синхронизацию папок с помощью управляемого API EWS, сначала необходимо [получить исходный список папок в корневой папке](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma) с помощью метода [ExchangeService. SyncFolderHierarchy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) . Затем необходимо обновить значение параметра _ксинкстате_ во время последующих вызовов, чтобы получить список новых и измененных папок. 
+Если выполняется синхронизация папок с помощью управляемого API EWS, сначала вы получите начальный список папок в корневой папке с помощью метода [ExchangeService.SyncFolderHierarchy.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) [](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma) Затем во время последующих вызовов обновляется значение параметра  _cSyncState,_ чтобы получить список новых и измененных папок. 
   
-Чтобы выполнить синхронизацию папок с помощью EWS, запросите [исходный список папок в корневой папке](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncewsrequest) с помощью операции [SyncFolderHierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) , выполните синтаксический анализ ответа, а затем в некоторый момент в будущем [получите изменения папок в корне](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncrespews)и проанализируйте ответ. После получения клиентом списка начальной или измененной папки он [выполняет локальное обновление](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps). Как и когда вы извлечете изменения в будущем, зависит от [шаблона проекта синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_syncpatterns) , используемого приложением. 
+Чтобы выполнить синхронизацию папок с помощью EWS, вы запросите начальный список папок в корневой папке с помощью операции [SyncFolderHierarchy,](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) разберите ответ, а затем в будущем получите изменения в папках в корне [и](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncrespews)разберите ответ. [](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncewsrequest) После получения клиентом списка начальных или измененных папок он делает обновления [локально.](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps) Как и когда вы извлекаете изменения в будущем, зависит от шаблона проектирования [синхронизации,](mailbox-synchronization-and-ews-in-exchange.md#bk_syncpatterns) используемой вашим приложением. 
   
-## <a name="get-the-list-of-all-folders-or-changed-folders-by-using-the-ews-managed-api"></a>Получение списка всех папок или измененных папок с помощью управляемого API EWS
+## <a name="get-the-list-of-all-folders-or-changed-folders-by-using-the-ews-managed-api"></a>Получите список всех папок или измененных папок с помощью управляемого API EWS
 <a name="bk_cesyncinitialewsma"> </a>
 
-В приведенном ниже примере кода показано, как получить исходный список папок в корневой папке, а затем получить список изменений в папках корневой папки, произошедших с момента предыдущей синхронизации. Во время начального вызова метода [ExchangeService. SyncFolderHierarchy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) задайте для параметра _ксинкстате_ значение null. После выполнения метода сохраните значение _ксинкстате_ локально, чтобы использовать его в следующем вызове метода **SyncFolderHierarchy** . При первом вызове и последующих вызовах папки извлекаются в пакетах десяти, с помощью последовательных вызовов метода **SyncFolderHierarchy** , пока не будут сохранены другие изменения. В этом примере параметру _Property_ присваивается значение идонли для уменьшения числа вызовов к базе данных Exchange, что является [наилучшим вариантом синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). В этом примере предполагается, что **Служба** является допустимой привязкой объекта **ExchangeService** и _ксинкстате_ представляет состояние синхронизации, возвращенное предыдущим вызовом в **SyncFolderHierarchy**. 
+В следующем примере кода показано, как получить начальный список папок в корневой папке, а затем получить список изменений папок в корневой папке, которые произошли после предыдущей синхронизации. Во время начального вызова метода [ExchangeService.SyncFolderHierarchy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) установите значение  _cSyncState_ на нуль. После завершения метода сохраните локальное значение _cSyncState_ для использования в следующем вызове **метода SyncFolderHierarchy.** В начальных и последующих вызовах папки извлекаются пакетами из десяти, используя последовательные вызовы к методу **SyncFolderHierarchy,** пока больше не будут внесены изменения. В этом примере параметр _propertySet_ задает IdOnly для уменьшения вызовов в базу данных Exchange, что является наилучшей практикой [синхронизации.](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices) В этом примере  мы предполагаем, что служба является допустимой привязкой объекта **ExchangeService** и _что cSyncState_ представляет состояние синхронизации, которое было возвращено по предварительному вызову **в SyncFolderHierarchy**. 
   
 ```cs
 // Get a list of all folders in the mailbox by calling SyncFolderHierarchy.
@@ -62,12 +62,12 @@ string fSyncState = fcc.SyncState;
 
 ```
 
-После получения списка новых или измененных папок на сервере [Создайте или обновите папки на клиенте](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps).
+После получения списка новых или измененных папок на сервере создайте или обновим [папки на клиенте.](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps)
   
-## <a name="get-the-initial-list-of-folders-by-using-ews"></a>Получение исходного списка папок с помощью EWS
+## <a name="get-the-initial-list-of-folders-by-using-ews"></a>Получите начальный список папок с помощью EWS
 <a name="bk_cesyncewsrequest"> </a>
 
-В следующем примере показан XML-запрос для получения исходной иерархии папок с помощью операции [SyncFolderHierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) . Это также запрос XML, который управляемый API EWS отправляет при [получении списка исходных папок с помощью метода SyncFolderHierarchy](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma). Элемент [синкстате](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) операции [SyncFolderHierarchy](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) не включается, так как это начальная синхронизация. В этом примере для элемента [басешапе](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) задается значение **идонли** для уменьшения числа вызовов к базе данных Exchange, что является [наилучшим вариантом синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices).
+В следующем примере показан XML-запрос для получения начальной иерархии папок с помощью операции [SyncFolderHierarchy.](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) Это также XML-запрос, который отправляет управляемый API EWS при ирисовке списка начальных папок с помощью метода [SyncFolderHierarchy.](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma) Элемент [SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) операции [SyncFolderHierarchy](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) не включен, так как это первоначальная синхронизация. В этом примере элемент [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) устанавливается **в IdOnly** для уменьшения вызовов в базу данных Exchange, что является наилучшей практикой [синхронизации.](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -91,7 +91,7 @@ string fSyncState = fcc.SyncState;
 </soap:Envelope>
 ```
 
-В следующем примере показан ответ XML, возвращенный сервером после обработки запроса операции [SyncFolderHierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) . Исходный ответ содержит элементы [CREATE](https://msdn.microsoft.com/library/6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1%28Office.15%29.aspx) для всех папок, так как во время начальной синхронизации все папки считаются новыми. Значения некоторых атрибутов и элементов были сокращены для удобочитаемости, а некоторые блоки элементов **создания** были удалены для краткости. 
+В следующем примере показан XML-ответ, который возвращается сервером после обработки запроса на операцию [SyncFolderHierarchy.](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) Первоначальный ответ включает [создание](https://msdn.microsoft.com/library/6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1%28Office.15%29.aspx) элементов для всех папок, так как все папки считаются новыми во время начальной синхронизации. Значения некоторых атрибутов и элементов были сокращены для читаемости, а некоторые блоки **элементов Create** были удалены для краткости. 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -150,12 +150,12 @@ string fSyncState = fcc.SyncState;
 </s:Envelope>
 ```
 
-После получения списка новых папок на сервере [Создайте папки на клиенте](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps).
+После получения списка новых папок на сервере создайте папки [на клиенте.](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps)
   
-## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>Получение изменений с момента последней синхронизации с помощью EWS
+## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>Получить изменения после последней синхронизации с помощью EWS
 <a name="bk_cesyncrespews"> </a>
 
-В следующем примере показан XML-запрос для получения списка изменений в папках корневой папки с помощью операции [SyncFolderHierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) . Это также запрос XML, который отправляет управляемый API EWS при [получении списка изменений в корневой папке](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma). В этом примере для элемента [синкстате](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) задается значение, возвращенное в предыдущем ответе. Для демонстрационных целей в этом примере для элемента [басешапе](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) задается значение **аллпропертиес** вместо **идонли** для отображения возвращаемых дополнительных свойств. Задание элемента [басешапе](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) равным **идонли** является [наилучшим методом синхронизации](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). Значение **синкстате** было сокращено для удобочитаемости. 
+В следующем примере показан XML-запрос для получения списка изменений папок в корневой папке с помощью операции [SyncFolderHierarchy.](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) Это также XML-запрос, который отправляет управляемый API EWS при ирисовке списка изменений в [корневой папке.](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma) В этом примере значение [элемента SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) определяется значением, возвращенным в предыдущем ответе. В этом примере в демонстрационных целях элемент  BaseShape вместо **IdOnly** задает элемент [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) для показа возвращенных дополнительных свойств. Настройка элемента [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **для IdOnly** — это передовая [практика синхронизации.](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices) Значение **SyncState** было сокращено для читаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -180,9 +180,9 @@ string fSyncState = fcc.SyncState;
 </soap:Envelope>
 ```
 
-В следующем примере показан ответ XML, возвращенный сервером после обработки запроса [операции SyncFolderHierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) от клиента. Этот ответ указывает на то, что одна папка была обновлена, была создана одна папка и удалена одна папка с момента предыдущей синхронизации. Значение элемента [синкстате](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) , атрибуты **ID** и атрибуты **чанжекэй** были сокращены для удобочитаемости. 
+В следующем примере показан XML-ответ, который возвращается сервером после обработки запроса на операцию [SyncFolderHierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) от клиента. В этом ответе указывается, что одна папка была обновлена, одна была создана, а одна папка была удалена с момента предыдущей синхронизации. Значение элемента [SyncState,](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) **атрибутов Id** и **атрибутов ChangeKey** было сокращено для чтения. 
   
-Помните, что запрос включал в себя **аллпропертиес**[басешапе](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx). Это только для демонстрационных целей. Рекомендуется присвоить элементу **басешапе** значение **идонли** в рабочей среде. 
+Помните, что запрос включал **базу AllProperties.**[](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) Это только для демонстрационных целей. Рекомендуется настроить элемент **BaseShape** на **IdOnly** в производстве. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -258,14 +258,14 @@ string fSyncState = fcc.SyncState;
 ## <a name="update-the-client"></a>Обновление клиента
 <a name="bk_nextsteps"> </a>
 
-Если вы используете управляемый API EWS, после получения списка новых или измененных папок используйте метод [Folder. Load](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.load%28v=exchg.80%29.aspx) для получения свойств новых или измененных элементов, сравнения свойств с локальными значениями, а также для обновления или создания папок на клиенте. 
+Если вы используете управляемый API EWS, после получения списка новых или измененных папок используйте метод [Folder.Load,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.load%28v=exchg.80%29.aspx) чтобы получить свойства для новых или измененных элементов, сравнить свойства с локальными значениями и обновить или создать папки на клиенте. 
   
-Если вы используете EWS, используйте операцию " [операция с папкой](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) " для получения свойств новых или измененных папок и обновления или создания папок на клиенте. 
+Если вы используете EWS, используйте операцию [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) для получения свойств в новых или измененных папках и обновления или создания папок на клиенте. 
   
 ## <a name="see-also"></a>См. также
 
 - [Синхронизация почтового ящика и веб-службах Exchange](mailbox-synchronization-and-ews-in-exchange.md)   
 - [Синхронизация элементов с помощью EWS в Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)   
-- [Обработка ошибок, связанных с синхронизацией, в EWS в Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
+- [Обработка ошибок, связанных с синхронизацией в EWS в Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
     
 

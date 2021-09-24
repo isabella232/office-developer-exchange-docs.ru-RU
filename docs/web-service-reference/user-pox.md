@@ -1,30 +1,30 @@
 ---
-title: Пользователь (POX)
+title: User (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 7c42b516-77f6-4aee-99d8-b866d82d793a
-description: Элемент User предоставляет сведения, относящиеся к пользователю.
-ms.openlocfilehash: 8f53319bcf34595305748adafc9aa1e25283611e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент User предоставляет сведения, определенные пользователю.
+ms.openlocfilehash: 832e0a63e75a08406b3aa397ac29ad5aa300cfe0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522410"
 ---
-# <a name="user-pox"></a>Пользователь (POX)
+# <a name="user-pox"></a>User (POX)
 
-Элемент **User** предоставляет сведения, относящиеся к пользователю. 
+Элемент **User** предоставляет сведения, определенные пользователю. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Пользователь (POX)](user-pox.md)
+[User (POX)](user-pox.md)
   
 ```xml
 <User>
@@ -37,34 +37,34 @@ ms.locfileid: "44530220"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DisplayName (строка)](displayname-string.md) <br/> |Представляет отображаемое имя пользователя.  <br/> |
-|[LegacyDN (POX)](legacydn-pox.md) <br/> |Определяет почтовый ящик пользователя, используя устаревшее различающееся имя.  <br/> |
-|[Деплойментид (POX)](deploymentid-pox.md) <br/> |Уникальный идентификатор леса Exchange.  <br/> |
-|[Аутодисковерсмтпаддресс (POX)](autodiscoversmtpaddress-pox.md) <br/> |Содержит SMTP-адрес пользователя, который используется для процесса автообнаружения.  <br/> |
+|[DisplayName (string)](displayname-string.md) <br/> |Представляет отображаемое имя пользователя.  <br/> |
+|[LegacyDN (POX)](legacydn-pox.md) <br/> |Определяет почтовый ящик пользователя по устаревшему имени.  <br/> |
+|[DeploymentId (POX)](deploymentid-pox.md) <br/> |Уникально определяет лес Exchange.  <br/> |
+|[AutoDiscoverSMTPAddress (POX)](autodiscoversmtpaddress-pox.md) <br/> |Содержит SMTP-адрес пользователя, используемый для процесса автооткрытия.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ответ (POX)](response-pox.md) <br/> |Содержит ответ от службы автообнаружения.  <br/> |
+|[Response (POX)](response-pox.md) <br/> |Содержит ответ от службы автооткрытия.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Запросы и ответы автообнаружения должны быть закодированы в кодировке UTF 8.
+Автоматические запросы и ответы должны быть закодированы в UTF-8.
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

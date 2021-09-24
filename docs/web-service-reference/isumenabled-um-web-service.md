@@ -4,23 +4,23 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsUMEnabled
 api_type:
 - schema
 ms.assetid: 33810bbd-837f-4a71-9ed9-cb4b8c52186d
-description: Элемент IsUMEnabled указывает, включен ли для почтового ящика единая система обмена сообщениями.
-ms.openlocfilehash: ea5bde677c62664acad8afd5c8142e96d82b7a74
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsUMEnabled указывает, включен ли почтовый ящик для единой системы обмена сообщениями.
+ms.openlocfilehash: 43632c28c5fb0c526dcf2ad936784953b00cc14a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458231"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524121"
 ---
 # <a name="isumenabled-um-web-service"></a>IsUMEnabled (веб-служба единой системы обмена сообщениями)
 
-Элемент **IsUMEnabled** указывает, включен ли для почтового ящика единая система обмена сообщениями. 
+Элемент **IsUMEnabled** указывает, включен ли почтовый ящик для единой системы обмена сообщениями. 
   
 ```xml
 <IsUMEnabled/>
@@ -29,27 +29,27 @@ ms.locfileid: "44458231"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Если этот элемент включен, необходимо указать текстовое значение, представляющее логическое значение. Значение **true** указывает на то, что для почтового ящика включена поддержка единой системы обмена сообщениями. Значение **false** означает, что для почтового ящика не включена поддержка единой системы обмена сообщениями. 
+Если этот элемент включен, необходимо текстовое значение, которое представляет значение Boolean. Значение true **указывает,** что почтовый ящик включен для единой системы обмена сообщениями. Значение false **означает,** что почтовый ящик не включен для единой системы обмена сообщениями. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Чтобы определить, включен ли для почтового ящика единая система обмена сообщениями, используйте [операцию IsUMEnabled (веб-служба единой системы обмена](isumenabled-operation-um-web-service.md)сообщениями).
+Чтобы определить, включен ли почтовый ящик для единой системы обмена сообщениями, используйте [операцию IsUMEnabled (веб-служба единой системы обмена сообщениями).](isumenabled-operation-um-web-service.md)
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -57,7 +57,7 @@ ms.locfileid: "44458231"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -67,5 +67,5 @@ ms.locfileid: "44458231"
 [Операция IsUMEnabled (веб-служба единой системы обмена сообщениями)](isumenabled-operation-um-web-service.md)
 
 
-[XML-элементы веб-службы единой системы обмена сообщениями для Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
+[XML-элементы единой веб-службы обмена сообщениями для Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

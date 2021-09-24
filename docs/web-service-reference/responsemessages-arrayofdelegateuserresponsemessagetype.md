@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: 14819975-ce54-4f0e-9f90-d4b275895ea0
-description: Элемент ResponseMessages содержит сообщения ответа для запроса на управление делегированием веб-служб Exchange.
-ms.openlocfilehash: 6b035f4ee46af1750a275e2c61b2cddea06b37a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ResponseMessages содержит сообщения отклика для запроса Exchange управления веб-службами.
+ms.openlocfilehash: aa90d2572679ecf3e5d99cc55731d388e083ff01
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465459"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525569"
 ---
 # <a name="responsemessages-arrayofdelegateuserresponsemessagetype"></a>ResponseMessages (ArrayOfDelegateUserResponseMessageType)
 
-Элемент **ResponseMessages** содержит сообщения ответа для запроса на управление делегированием веб-служб Exchange. 
+Элемент **ResponseMessages содержит** сообщения отклика для запроса управления Exchange веб-служб. 
   
 ```
 <ResponseMessages>
@@ -42,22 +42,22 @@ ms.locfileid: "44465459"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |Содержит ответные сообщения для операций управления делегированием.  <br/> |
+|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |Содержит сообщения отклика для операций управления делегированием.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[AddDelegateResponse](adddelegateresponse.md) <br/> |Содержит состояние и результат запроса на операцию [AddDelegate.](adddelegate-operation.md)  <br/> |
+|[AddDelegateResponse](adddelegateresponse.md) <br/> |Содержит состояние и результат запроса [операции AddDelegate.](adddelegate-operation.md)  <br/> |
 |[GetDelegateResponse](getdelegateresponse.md) <br/> |Содержит состояние и результат запроса на операцию [GetDelegate.](getdelegate-operation.md)  <br/> |
-|[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |Содержит состояние и результат запроса [операции UpdateDelegate.](updatedelegate-operation.md)  <br/> |
-|[RemoveDelegateResponse](removedelegateresponse.md) <br/> |Содержит состояние и результат запроса на операцию [RemoveDelegate.](removedelegate-operation.md)  <br/> |
+|[UpdateDelegateResponse](updatedelegateresponse.md) <br/> |Содержит состояние и результат запроса на операцию [UpdateDelegate.](updatedelegate-operation.md)  <br/> |
+|[RemoveDelegateResponse](removedelegateresponse.md) <br/> |Содержит состояние и результат запроса [на операцию RemoveDelegate.](removedelegate-operation.md)  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент используется в [операциях AddDelegate,](adddelegate-operation.md) [GetDelegate,](getdelegate-operation.md) [UpdateDelegate](updatedelegate-operation.md)и [RemoveDelegate.](removedelegate-operation.md) Реакции на операции управления делегированием структурированы иначе, чем другие ответы. Сообщения ответа на запросы управления делегированием строго типимы.
+Этот элемент используется в операции [AddDelegate,](adddelegate-operation.md) [операции GetDelegate,](getdelegate-operation.md)операции [UpdateDelegate](updatedelegate-operation.md)и [операции RemoveDelegate.](removedelegate-operation.md) Ответы на операции управления делегатами структурированы иначе, чем другие ответы. Сообщения ответов управления делегатами строго введите.
   
-Схема, описывающую этот элемент, расположена в виртуальном каталоге EWS компьютера, на Exchange Server с установленной ролью сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в виртуальном каталоге компьютера EWS, который Exchange Server с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 

@@ -1,23 +1,23 @@
 ---
-title: Уполномоченные
+title: Assignees
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20ef18c2-daa0-4f65-a515-e84e9993a77f
-description: Элемент уполномоченные указывает пользователей, которым назначена задача.
-ms.openlocfilehash: 3e98273e859dbe2128b0ad3b4df42c8016fd3bc5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Assignees указывает людей, которым назначена задача.
+ms.openlocfilehash: 1b5368dbe478e51a23f1f0761635e017b935911d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464716"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525192"
 ---
-# <a name="assignees"></a>Уполномоченные
+# <a name="assignees"></a>Assignees
 
-Элемент **уполномоченные** указывает пользователей, которым назначена задача. 
+Элемент **Assignees** указывает людей, которым назначена задача. 
   
 ```XML
 <Assignees>
@@ -26,21 +26,21 @@ ms.locfileid: "44464716"
 </Assignees>
 ```
 
- **емаилусертипе**
+ **EmailUserType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (EmailAddress)](name-emailaddress.md) <br/> |Представляет отображаемое имя пользователя почтового ящика.  <br/> |
-|[UserId (строка)](userid-string.md) <br/> |Указывает идентификатор пользователя электронной почты.  <br/> |
+|[Name (EmailAddress)](name-emailaddress.md) <br/> |Отображает имя пользователя почтового ящика.  <br/> |
+|[UserId (строка)](userid-string.md) <br/> |Указывает идентификатор пользователя пользователя электронной почты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,7 +48,7 @@ ms.locfileid: "44464716"
 |:-----|:-----|
 |[TaskSuggestion](tasksuggestion.md) <br/> |Указывает предложенную задачу.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44464716"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

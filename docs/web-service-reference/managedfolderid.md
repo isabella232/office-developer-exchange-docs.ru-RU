@@ -1,27 +1,27 @@
 ---
-title: манажедфолдерид
+title: ManagedFolderId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ManagedFolderId
 api_type:
 - schema
 ms.assetid: 3efb7abb-0e91-4d8a-9fa2-3dec8bd17c30
-description: Элемент Манажедфолдерид содержит идентификатор папки управляемой папки.
-ms.openlocfilehash: eacfe580342e6667fd9fc84ad953a5e4070b6ed7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ManagedFolderId содержит ID папки управляемой папки.
+ms.openlocfilehash: 85564ecb8e88b5f03dd74f167b26d065b9f00e0d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465823"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524807"
 ---
-# <a name="managedfolderid"></a>манажедфолдерид
+# <a name="managedfolderid"></a>ManagedFolderId
 
-Элемент **манажедфолдерид** содержит идентификатор папки управляемой папки. 
+Элемент **ManagedFolderId** содержит ID папки управляемой папки. 
   
 ```xml
 <ManagedFolderId/>
@@ -30,29 +30,29 @@ ms.locfileid: "44465823"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[манажедфолдеринформатион](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
+|[ManagedFolderInformation](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Для этого элемента требуется указать текстовое значение.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Значение идентификатора **манажедфолдерид** эквивалентно свойству **GUID** , которое извлекается с помощью `Get-ManagedFolder` команды Microsoft Windows PowerShell. Он также является значением атрибута **objectGUID** для управляемой папки в службе каталогов Active Directory. 
+Значение **идентификатора ManagedFolderId** эквивалентно свойству **Guid,** которое извлекает команда `Get-ManagedFolder` Microsoft Windows Powershell. Это также значение атрибута **objectGUID** для управляемой папки в службе каталогов Active Directory. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44465823"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

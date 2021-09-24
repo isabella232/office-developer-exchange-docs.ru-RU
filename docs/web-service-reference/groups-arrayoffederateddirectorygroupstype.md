@@ -1,41 +1,41 @@
 ---
-title: Groups (Аррайоффедератеддиректориграупстипе)
+title: Groups (ArrayOfFederatedDirectoryGroupsType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: afd3a2ff-b20e-47b8-9053-bcace2d77c56
-description: Элемент Groups (Аррайоффедератеддиректориграупстипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: 1fcb34cea099347ceabe267dd64791006b5498c1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Groups (ArrayOfFederatedDirectoryGroupsType) предназначен только для внутреннего использования.
+ms.openlocfilehash: 39c845b68f37a94acd1404955a5e2301f76eb293
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530798"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525848"
 ---
-# <a name="groups-arrayoffederateddirectorygroupstype"></a>Groups (Аррайоффедератеддиректориграупстипе)
+# <a name="groups-arrayoffederateddirectorygroupstype"></a>Groups (ArrayOfFederatedDirectoryGroupsType)
 
-Элемент **Groups (аррайоффедератеддиректориграупстипе)** предназначен только для внутреннего использования. 
+Элемент **Groups (ArrayOfFederatedDirectoryGroupsType)** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

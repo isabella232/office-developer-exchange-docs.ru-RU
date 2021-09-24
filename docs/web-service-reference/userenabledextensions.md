@@ -1,23 +1,23 @@
 ---
-title: усеренабледекстенсионс
+title: UserEnabledExtensions
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13719747-08b7-4083-a400-5cfb5e99f177
-description: Элемент Усеренабледекстенсионс содержит список включенных приложений.
-ms.openlocfilehash: c09afe1c7ff9617d200a7faeea87efbbe2656b45
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UserEnabledExtensions перечисляет включенные приложения.
+ms.openlocfilehash: dd815141da34df3e193b5c033ee68bb631829a0b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522411"
 ---
-# <a name="userenabledextensions"></a>усеренабледекстенсионс
+# <a name="userenabledextensions"></a>UserEnabledExtensions
 
-Элемент **усеренабледекстенсионс** содержит список включенных приложений. 
+Элемент **UserEnabledExtensions** перечисляет включенные приложения. 
   
 ```XML
 <UserEnabledExtensions>
@@ -25,14 +25,14 @@ ms.locfileid: "44460220"
 </UserEnabledExtensions>
 ```
 
- **аррайофстрингстипе**
+ **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -40,9 +40,9 @@ ms.locfileid: "44460220"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[усерпараметерс](userparameters.md)
+[UserParameters](userparameters.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44460220"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RoomList
 api_type:
 - schema
 ms.assetid: cb02bdf0-df9f-4e31-b7dd-cd9f2f2cc2b2
-description: Элемент RoomList принимают одиночные представляет адрес электронной почты, который определяет список комнат для собраний.
-ms.openlocfilehash: 0444475cb9fffbb89ba2861096baee0c7e645995
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RoomList представляет адрес электронной почты, который определяет список комнат собраний.
+ms.openlocfilehash: ae461424b6affbc3dd362d5a7d0a5cc3fdc46fab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460521"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524492"
 ---
 # <a name="roomlist"></a>RoomList
 
-Элемент **RoomList принимают одиночные** представляет адрес электронной почты, который определяет список комнат для собраний. 
+Элемент **RoomList** представляет адрес электронной почты, который определяет список комнат собраний. 
   
 [GetRooms](getrooms.md)
   
@@ -40,33 +40,33 @@ ms.locfileid: "44460521"
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (EmailAddressType)](name-emailaddresstype.md) <br/> |Определяет отображаемое имя списка помещений. Этот элемент является необязательным.  <br/> |
-|[EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md) <br/> |Определяет SMTP-адрес списка помещений. Этот элемент является необязательным.  <br/> |
-|[Раутингтипе (EmailAddress)](routingtype-emailaddress.md) <br/> |Определяет маршрутизацию, используемую для почтового ящика. По умолчанию используется протокол SMTP. Этот элемент является необязательным.  <br/> |
+|[Name (EmailAddressType)](name-emailaddresstype.md) <br/> |Определяет имя отображения списка номеров. Этот элемент является необязательным.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Определяет простой протокол передачи почты (SMTP) списка номеров. Этот элемент является необязательным.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Определяет маршрутику, используемую для почтового ящика. По умолчанию значение SMTP. Этот элемент является необязательным.  <br/> |
 |[MailboxType](mailboxtype.md) <br/> |Определяет тип почтового ящика пользователя почтового ящика. Этот элемент является необязательным.  <br/> |
-|[Идентификатор](itemid.md) <br/> |Определяет идентификатор контакта или частный список рассылки для получателей из папки "Контакты" пользователя. Этот элемент является необязательным.  <br/> |
+|[ItemId](itemid.md) <br/> |Определяет идентификатор элемента контактного или частного списка рассылки для получателей из папки Контакты пользователя. Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetRooms](getrooms.md) <br/> |Корневой элемент запроса для получения списка комнат в определенном списке помещений.  <br/> |
+|[GetRooms](getrooms.md) <br/> |Корневой элемент запроса для получения списка комнат в определенном списке комнат.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -76,7 +76,7 @@ ms.locfileid: "44460521"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

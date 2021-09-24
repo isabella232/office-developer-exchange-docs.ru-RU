@@ -1,41 +1,41 @@
 ---
-title: Пользователь (МаилбоксассоЦиатионтипе)
+title: User (MailboxAssociationType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6e2677b-2b60-4def-8566-015a50da8605
-description: Элемент User (МаилбоксассоЦиатионтипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: 65bc95aa6645b2824bcb126d30e53bb5b7b102d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент User (MailboxAssociationType) предназначен только для внутреннего использования.
+ms.openlocfilehash: 3a50e9927121fc9ddc010a47706587487634d708
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530227"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522433"
 ---
-# <a name="user-mailboxassociationtype"></a>Пользователь (МаилбоксассоЦиатионтипе)
+# <a name="user-mailboxassociationtype"></a>User (MailboxAssociationType)
 
-Элемент **User (маилбоксассоЦиатионтипе)** предназначен только для внутреннего использования. 
+Элемент **User (MailboxAssociationType)** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

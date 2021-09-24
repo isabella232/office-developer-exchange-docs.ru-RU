@@ -1,23 +1,23 @@
 ---
-title: сеарчмаилбоксесреспонсемессаже
+title: SearchMailboxesResponseMessage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f1bcbfb-d7f6-4fa0-b6f8-681a0b067007
-description: Элемент Сеарчмаилбоксесреспонсемессаже указывает ответное сообщение для запроса SearchMailboxes.
-ms.openlocfilehash: 342223b9a8cc7e91b97d637cb104f7bb160b7d5a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SearchMailboxesResponseMessage указывает сообщение ответа на запрос SearchMailboxes.
+ms.openlocfilehash: d37fd5b194e35a2c163499096686decbab45458c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448424"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517870"
 ---
-# <a name="searchmailboxesresponsemessage"></a>сеарчмаилбоксесреспонсемессаже
+# <a name="searchmailboxesresponsemessage"></a>SearchMailboxesResponseMessage
 
-Элемент **сеарчмаилбоксесреспонсемессаже** указывает ответное сообщение для запроса **SearchMailboxes** . 
+Элемент **SearchMailboxesResponseMessage** указывает сообщение ответа на запрос **SearchMailboxes.** 
   
 ```XML
 <SearchMailboxesResponseMessage>
@@ -29,24 +29,24 @@ ms.locfileid: "44448424"
 </SearchMailboxesResponseMessage>
 ```
 
- **сеарчмаилбоксесреспонсемессажетипе**
+ **SearchMailboxesResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Сеарчмаилбоксесресулт](searchmailboxesresult.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [SearchMailboxesResult](searchmailboxesresult.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44448424"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

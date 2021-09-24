@@ -1,27 +1,27 @@
 ---
-title: сенднотификатион
+title: SendNotification
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendNotification
 api_type:
 - schema
 ms.assetid: e45c4451-a286-4aec-a691-119ec41c58e0
-description: Элемент Сенднотификатион содержит push-уведомления, отправленные компьютером, на котором работает Microsoft Exchange Server 2007, к клиентскому приложению.
-ms.openlocfilehash: 49f2f6cb7f5c8e1171b54ff965ee1d22accc9bf2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SendNotification содержит push-уведомления, которые отправляются на компьютере, который Microsoft Exchange Server 2007 г. в клиентскую заявку.
+ms.openlocfilehash: 11eebbcb93808d0576b5a6790bf9997fe1518412
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462117"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521580"
 ---
-# <a name="sendnotification"></a>сенднотификатион
+# <a name="sendnotification"></a>SendNotification
 
-Элемент **сенднотификатион** содержит push-уведомления, отправленные компьютером, на котором работает Microsoft Exchange Server 2007, к клиентскому приложению. 
+Элемент **SendNotification** содержит push-уведомления, которые отправляются на компьютере, который Microsoft Exchange Server 2007 г. в клиентскую заявку. 
   
 ```xml
 <SendNotification>
@@ -29,26 +29,26 @@ ms.locfileid: "44462117"
 </SendNotification>
 ```
 
- **сенднотификатионреспонсетипе**
+ **SendNotificationResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[респонсемессажес](responsemessages.md) <br/> |Содержит push-уведомления, отправляемые сервером клиентского доступа.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Содержит push-уведомления, отправленные сервером клиентского доступа.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44462117"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

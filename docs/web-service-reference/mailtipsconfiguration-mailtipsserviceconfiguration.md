@@ -1,27 +1,27 @@
 ---
-title: Маилтипсконфигуратион (Маилтипссервицеконфигуратион)
+title: MailTipsConfiguration (MailTipsServiceConfiguration)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailTipsConfiguration
 api_type:
 - schema
 ms.assetid: 9a34515e-815b-4c61-b118-d5f66b80238f
-description: Элемент Маилтипсконфигуратион содержит сведения о конфигурации службы для почтовых подсказок.
-ms.openlocfilehash: 9128ee99545066899c3b27b624f10a9f1bd36c9d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MailTipsConfiguration содержит сведения о конфигурации службы для службы советов почты.
+ms.openlocfilehash: eb86291572f6854710d01badcee2db24406844c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467790"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524037"
 ---
-# <a name="mailtipsconfiguration-mailtipsserviceconfiguration"></a>Маилтипсконфигуратион (Маилтипссервицеконфигуратион)
+# <a name="mailtipsconfiguration-mailtipsserviceconfiguration"></a>MailTipsConfiguration (MailTipsServiceConfiguration)
 
-Элемент **маилтипсконфигуратион** содержит сведения о конфигурации службы для почтовых подсказок. 
+Элемент **MailTipsConfiguration содержит** сведения о конфигурации службы для службы советов почты. 
   
 ```XML
 <MailTipsConfiguration>
@@ -34,37 +34,37 @@ ms.locfileid: "44467790"
 </MailTipsConfiguration>
 ```
 
- **маилтипссервицеконфигуратион**
+ **MailTipsServiceConfiguration**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[маилтипсенаблед](mailtipsenabled.md) <br/> |Указывает, доступна ли служба советов по работе с почтой. Этот элемент обязательный.  <br/> |
-|[максреЦипиентспержетмаилтипсрекуест](maxrecipientspergetmailtipsrequest.md) <br/> |Указывает максимальное количество получателей, которые могут быть переданы в операцию с помощью [подсказок](getmailtips-operation.md). Этот элемент обязательный.  <br/> |
-|[MaxMessageSize](maxmessagesize.md) <br/> |Представляет максимальный размер сообщения, которое может принимать получатель. Этот элемент обязательный.  <br/> |
-|[ларжеаудиенцесрешолд](largeaudiencethreshold.md) <br/> |Представляет пороговое значение большой аудитории для клиента. Этот элемент обязательный.  <br/> |
-|[шовекстерналреЦипиенткаунт](showexternalrecipientcount.md) <br/> |Указывает, должны ли потребители [операции](getmailtips-operation.md) с подсказками отображать подсказки для почты, указывающие количество внешних получателей, на которые адресовано сообщение. Этот элемент обязательный.  <br/> |
-|[Имена внутренних доменов (Смтпдомаинлист)](internaldomains-smtpdomainlist.md) <br/> |Определяет список внутренних доменов SMTP Организации. Этот элемент обязательный.  <br/> |
+|[MailTipsEnabled](mailtipsenabled.md) <br/> |Указывает, доступна ли служба советов почты. Этот элемент обязательный.  <br/> |
+|[MaxRecipientsPerGetMailTipsRequest](maxrecipientspergetmailtipsrequest.md) <br/> |Указывает максимальное число получателей, которые могут быть переданы в [операцию GetMailTips.](getmailtips-operation.md) Этот элемент обязательный.  <br/> |
+|[MaxMessageSize](maxmessagesize.md) <br/> |Представляет максимальный размер сообщения, который может принять получатель. Этот элемент обязательный.  <br/> |
+|[LargeAudienceThreshold](largeaudiencethreshold.md) <br/> |Представляет порог большой аудитории для клиента. Этот элемент обязательный.  <br/> |
+|[ShowExternalRecipientCount](showexternalrecipientcount.md) <br/> |Указывает, должны ли пользователи операции [GetMailTips](getmailtips-operation.md) показывать советы по почте, которые указывают количество внешних получателей, к которым адресовано сообщение. Этот элемент обязательный.  <br/> |
+|[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |Определяет список внутренних доменов SMTP организации. Этот элемент обязательный.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сервицеконфигуратионреспонсемессажетипе](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -74,7 +74,7 @@ ms.locfileid: "44467790"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

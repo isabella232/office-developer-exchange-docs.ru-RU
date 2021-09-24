@@ -1,17 +1,17 @@
 ---
-title: Управление папкой "Входящие" и веб-службы Exchange
+title: Управление папкой "Входящие" и EWS в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3dfa0fc9-64bb-4d18-bff7-bf6b3bed4a0d
 description: Узнайте, как управлять папкой "Входящие" в приложении, использующем управляемый API EWS или веб-службы Exchange, с помощью правил для папки "Входящие" и списка заблокированных отправителей.
-ms.openlocfilehash: 7c88015386dc882f14184765e0046a866e8c0e10
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6dddb8d462276c4983fd04a0206d4d4a9be32df8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456318"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522217"
 ---
 # <a name="inbox-management-and-ews-in-exchange"></a>Управление папкой "Входящие" и EWS в Exchange
 
@@ -71,7 +71,7 @@ ms.locfileid: "44456318"
 ### <a name="putting-the-pieces-together---parts-of-a-rule"></a>Составные части правила
 <a name="bk_Pieces"> </a>
 
-Чтобы понять, как устроено правило, представьте, что даете указания человеку, которому поручено упорядочить вашу входящую почту. Вы можете сказать: "когда сообщение приступит к этому человеку, \<insert conditions here\> если оно не \<insert actions here\> указано \<insert exceptions here\> . Рассмотрим каждую часть более подробно.
+Чтобы понять, как устроено правило, представьте, что даете указания человеку, которому поручено упорядочить вашу входящую почту. Вы можете сказать этому человеку: "Когда приходит \<insert conditions here\> сообщение, что , \<insert actions here\> делать, если сообщение \<insert exceptions here\> . Рассмотрим каждую часть более подробно.
   
 #### <a name="conditions"></a>Условия
 <a name="bk_Conditions"> </a>
@@ -125,7 +125,7 @@ ms.locfileid: "44456318"
 
 Хотя вы можете создать правило, которое перемещает все сообщения от определенного отправителя в папку нежелательной почты, это также можно сделать с помощью списка заблокированных отправителей в параметрах нежелательной почты. Так как количество правил для одного пользователя ограничено, имеет смысл использовать список заблокированных отправителей. Вы можете [добавлять и удалять отдельные адреса из списка заблокированных отправителей](how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md), используя метод [ExchangeService.MarkAsJunk](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) управляемого API EWS или операцию [MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) веб-служб Exchange. Обратите внимание: чтобы веб-службы Exchange могли получить доступ к списку заблокированных отправителей, почтовый ящик пользователя должен содержать сообщение, отправленное с добавляемого или удаляемого адреса. 
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе:
 <a name="bk_InThisSection"> </a>
 
 - [Управление правилами папки "Входящие" с помощью EWS в Exchange](how-to-manage-inbox-rules-by-using-ews-in-exchange.md)

@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateDelegate
 api_type:
 - schema
 ms.assetid: 03f618ac-ad1a-4772-9b81-c5bb0f12d6ab
-description: Операция UpdateDelegate обновляет разрешения представителя для почтового ящика участника.
-ms.openlocfilehash: b7cf5325d925f8d6588115a8657a2077e940f9d2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция UpdateDelegate обновляет разрешения делегирования в почтовом ящике директора.
+ms.openlocfilehash: 0adf17e45490d9b3e8d498b7e95094497c451f80
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468560"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522490"
 ---
 # <a name="updatedelegate-operation"></a>Операция UpdateDelegate
 
-Операция **UpdateDelegate** обновляет разрешения представителя для почтового ящика участника. 
+Операция **UpdateDelegate** обновляет разрешения делегирования в почтовом ящике директора. 
   
-## <a name="soap-headers"></a>Заголовки SOAP
+## <a name="soap-headers"></a>Заготчики SOAP
 
-Операция **UpdateDelegate** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
+Операция **UpdateDelegate** может использовать заглавные таблицы SOAP, которые перечислены и описаны в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|Олицетворение  <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение.  <br/> |
-|маилбокскултуре  <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры RFC3066, которые будут использоваться для доступа к почтовому ящику.  <br/> |
-|рекуестверсион  <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции.  <br/> |
-|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
+|Олицетворение  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает.  <br/> |
+|MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет культуру RFC3066, которая будет использоваться для доступа к почтовому ящику.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию.  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос.  <br/> |
    
 ## <a name="updatedelegate-request-example"></a>Пример запроса UpdateDelegate
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **UpdateDelegate** показано, как обновить разрешения представителей для учетной записи user1's. Пользователю Пользователь2 предоставляется уровень разрешений None для папки Tasks, и ему предоставляется разрешение на просмотр частных элементов. User3 получает разрешения рецензента для папки журнала. Приглашения на собрания отправляются представителям, а сведения о запросе отправляются пользователю User1. 
+В следующем примере **запроса UpdateDelegate** показано, как обновить разрешения делегирования в учетной записи пользователя1. User2 предоставляется уровень разрешений None для папки Задачи и предоставляется разрешение на просмотр частных элементов. User3 предоставляется разрешения рецензента для папки Журнала. Делегатам отправляются запросы на собрания, а сведения о запросе отправляются в User1. 
   
 ### <a name="code"></a>Код
 
@@ -82,13 +82,13 @@ ms.locfileid: "44468560"
 
 ### <a name="comments"></a>Комментарии
 
-Запрос [UpdateDelegate](updatedelegate.md) не требует, чтобы обновления были применены к делегатам. Клиенты могут изменять только параметр **деливермитингмессаже** . 
+Запрос [UpdateDelegate](updatedelegate.md) не требует, чтобы обновления применялись к делегатам. Клиенты могут изменять только параметр **DeliverMeetingMessage.** 
   
-## <a name="updatedelegate-response-example"></a>Пример отклика UpdateDelegate
+## <a name="updatedelegate-response-example"></a>Пример ответа UpdateDelegate
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на операцию **UpdateDelegate** . 
+В следующем примере показана успешная реакция на **операцию UpdateDelegate.** 
   
 ### <a name="code"></a>Код
 
@@ -141,11 +141,11 @@ ms.locfileid: "44468560"
 </soap:Envelope>
 ```
 
-## <a name="updatedelegate-error-response-example"></a>Пример ответа на сообщение об ошибке UpdateDelegate
+## <a name="updatedelegate-error-response-example"></a>Пример ответа на ошибку UpdateDelegate
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке для запроса **UpdateDelegate** . Ошибка была создана, так как делегат не существует в списке представителей субъекта. 
+В следующем примере показан ответ на ошибку на **запрос UpdateDelegate.** Ошибка была сгенерирована из-за того, что делегат не существует в списке делегирования директора. 
   
 ### <a name="code"></a>Код
 
