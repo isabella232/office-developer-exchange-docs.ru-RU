@@ -5,38 +5,38 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetUserOofSettings
 api_type:
 - schema
 ms.assetid: 36277ef0-18ee-4b35-9e6e-8c321d8f5433
-description: Веб-метод SetUserOofSettings устанавливает параметры и сообщение "нет на месте" для пользователя почтового ящика.
-ms.openlocfilehash: 88b5475dd2f0fe6d334bad51a0fe8d0beb767634
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Веб-метод SetUserOofSettings задает параметры Office и сообщения пользователя почтового ящика.
+ms.openlocfilehash: 21a860b2a1ae4a660e08554d7d67049c1ae0d858
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531876"
 ---
 # <a name="setuseroofsettings-operation"></a>Операция SetUserOofSettings
 
-Веб-метод **SetUserOofSettings** устанавливает параметры и сообщение "нет на месте" для пользователя почтового ящика. 
+**Веб-метод SetUserOofSettings** задает параметры и сообщения пользователя Office почтового ящика. 
   
-## <a name="soap-headers"></a>Заголовки SOAP
+## <a name="soap-headers"></a>Заготчики SOAP
 
-Операция **SetUserOofSettings** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
+Операция **SetUserOofSettings** может использовать заглавные таблицы SOAP, перечисленные и описанные в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|Олицетворение  <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение.  <br/> |
-|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
+|Олицетворение  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает.  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос.  <br/> |
    
-## <a name="setuseroofsettings-request-example"></a>Пример запроса SetUserOofSettings
+## <a name="setuseroofsettings-request-example"></a>Пример запроса setUserOofSettings
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере запроса **SetUserOofSettings** задается значение параметра "отсутствие на работе" в течение 10 дней. 
+В следующем примере **запроса SetUserOofSettings** устанавливается параметр OOF в течение 10 дней. 
   
 ### <a name="code"></a>Код
 
@@ -69,43 +69,43 @@ ms.locfileid: "44463155"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
-- [сетусеруфсеттингсрекуест](setuseroofsettingsrequest.md)
+- [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
     
 - [Mailbox (доступность)](mailbox-availability.md)
     
-- [Имя (EmailAddress)](name-emailaddress.md)
+- [Name (EmailAddress)](name-emailaddress.md)
     
 - [Address (строка)](address-string.md)
     
-- [Раутингтипе (EmailAddress)](routingtype-emailaddress.md)
+- [RoutingType (EmailAddress)](routingtype-emailaddress.md)
     
-- [усеруфсеттингс](useroofsettings.md)
+- [UserOofSettings](useroofsettings.md)
     
-- [уфстате](oofstate.md)
+- [OofState](oofstate.md)
     
-- [екстерналаудиенце](externalaudience.md)
+- [ExternalAudience](externalaudience.md)
     
-- [Продолжительность (Усеруфсеттингс)](duration-useroofsettings.md)
+- [Duration (UserOofSettings)](duration-useroofsettings.md)
     
 - [StartTime](starttime.md)
     
 - [EndTime](endtime.md)
     
-- [интерналрепли](internalreply.md)
+- [InternalReply](internalreply.md)
     
-- [Сообщение (доступность)](message-availability.md)
+- [Message (доступность)](message-availability.md)
     
-- [екстерналрепли](externalreply.md)
+- [ExternalReply](externalreply.md)
     
 ## <a name="successful-setuseroofsettings-response-example"></a>Пример успешного ответа SetUserOofSettings
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **SetUserOofSettings** . 
+В следующем примере показан успешный ответ на **запрос SetUserOofSettings.** 
   
 ### <a name="code"></a>Код
 
@@ -129,15 +129,15 @@ ms.locfileid: "44463155"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [сетусеруфсеттингсреспонсе](setuseroofsettingsresponse.md)
+- [SetUserOofSettingsResponse](setuseroofsettingsresponse.md)
     
-- [респонсемессаже](responsemessage.md)
+- [ResponseMessage](responsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 ## <a name="see-also"></a>См. также
 

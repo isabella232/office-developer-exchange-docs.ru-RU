@@ -1,41 +1,41 @@
 ---
-title: Идентификатор
+title: ID
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ID
 api_type:
 - schema
 ms.assetid: 8caf922f-56bd-466a-a68f-d6cb236f2eec
-description: Элемент ID представляет идентификатор записи элемента календаря.
-ms.openlocfilehash: 429413bbfb0206effc3ea97eb11527449c67211c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ID представляет собой входной ID элемента календаря.
+ms.openlocfilehash: 75916d2598429362e238e645d33c474308b92535
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456488"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529902"
 ---
-# <a name="id"></a>Идентификатор
+# <a name="id"></a>ID
 
-Элемент **ID** представляет идентификатор записи элемента календаря. 
+Элемент **ID** представляет собой входной ID элемента календаря. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[фрибусиреспонсеаррай](freebusyresponsearray.md)
+[FreeBusyResponseArray](freebusyresponsearray.md)
   
-[фрибусиреспонсе](freebusyresponse.md)
+[FreeBusyResponse](freebusyresponse.md)
   
-[фрибусивиев](freebusyview.md)
+[FreeBusyView](freebusyview.md)
   
-[календаревентаррай](calendareventarray.md)
+[CalendarEventArray](calendareventarray.md)
   
-[календаревент](calendarevent.md)
+[CalendarEvent](calendarevent.md)
   
-[календаревентдетаилс](calendareventdetails.md)
+[CalendarEventDetails](calendareventdetails.md)
   
 [ИД](id.md)
   
@@ -46,27 +46,27 @@ ms.locfileid: "44456488"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаревентдетаилс](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения о событии календаря.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения для события календаря.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение является обязательным, если этот элемент возвращается в ответе. Этот элемент является обязательным, если используется элемент [календаревентдетаилс](calendareventdetails.md) . 
+Если этот элемент возвращается в ответ, требуется текстовое значение. Этот элемент необходим, если используется [элемент CalendarEventDetails.](calendareventdetails.md) 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -76,7 +76,7 @@ ms.locfileid: "44456488"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -85,7 +85,7 @@ ms.locfileid: "44456488"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

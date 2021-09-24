@@ -1,52 +1,52 @@
 ---
-title: Метка
+title: Annotation
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0392635-9d0f-46d5-84ef-0a8a3036479a
-description: Элемент Annotation содержит необязательные заметки, добавленные пользователем.
-ms.openlocfilehash: 291d875085f9bc13e92a14b844b66878f5e6eb2a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Аннотации содержит необязательные заметки, добавленные пользователем.
+ms.openlocfilehash: c34f19190003de218baf9e3d8923688224b1f804
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466117"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531231"
 ---
-# <a name="annotation"></a>Метка
+# <a name="annotation"></a>Annotation
 
-Элемент **Annotation** содержит необязательные заметки, добавленные пользователем. 
+Элемент **Аннотации содержит** необязательные заметки, добавленные пользователем. 
   
 ```XML
 <Annotation></Annotation>
 ```
 
- **xs: String**
+ **xs:string**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[EnhancedLocation](enhancedlocation.md) <br/> |Задает сведения о расположении, такие как имя, адрес и дополнительные заметки о расположении.  <br/> |
+|[EnhancedLocation](enhancedlocation.md) <br/> |Указывает сведения о расположении, такие как имя, адрес и необязательные заметки о расположении.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента Annotation — пользователь добавил Примечание о расположении.
+Текстовое значение элемента Аннотации — добавленная пользователем заметка о расположении.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44466117"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

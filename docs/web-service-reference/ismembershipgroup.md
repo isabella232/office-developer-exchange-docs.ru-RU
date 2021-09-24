@@ -1,23 +1,23 @@
 ---
-title: исмембершипграуп
+title: IsMembershipGroup
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dc3e285-8f49-48ad-b844-37041c0d782b
-description: Элемент Исмембершипграуп указывает логическое значение, которое указывает, является ли объект группой рассылки или почтовым ящиком.
-ms.openlocfilehash: ed79961c6d13ab226c0b489103ef3d2c4a08668d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsMembershipGroup указывает значение Boolean, которое указывает, является ли объект группой рассылки или почтовым ящиком.
+ms.openlocfilehash: 111a517a5258a48aada1c7768c908d62f3a47b9e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459288"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540981"
 ---
-# <a name="ismembershipgroup"></a>исмембершипграуп
+# <a name="ismembershipgroup"></a>IsMembershipGroup
 
-Элемент **исмембершипграуп** указывает логическое значение, которое указывает, является ли объект группой рассылки или почтовым ящиком. 
+Элемент **IsMembershipGroup** указывает значение Boolean, которое указывает, является ли объект группой рассылки или почтовым ящиком. 
   
 ```XML
 <IsMembershipGroup>true | false</IsMembershipGroup>
@@ -26,27 +26,27 @@ ms.locfileid: "44459288"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сеарчаблемаилбокс](searchablemailbox.md) <br/> |Указывает почтовый ящик, возвращенный из запроса **GetSearchableMailboxes** .  <br/> |
+|[SearchableMailbox](searchablemailbox.md) <br/> |Указывает почтовый ящик, возвращаемый из **запроса GetSearchableMailboxes.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **исмембершипграуп** указывает на то, что сущность является группой рассылки или почтовым ящиком. Значение false указывает, что объект не является группой рассылки или почтовым ящиком. 
+Текстовое **значение, истинное** для **элемента IsMembershipGroup,** указывает на то, что объект — это группа рассылки или почтовый ящик. Значение false указывает, что объект не является группой рассылки или почтовым ящиком. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44459288"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

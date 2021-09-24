@@ -1,27 +1,27 @@
 ---
-title: интерналрепли
+title: InternalReply
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InternalReply
 api_type:
 - schema
 ms.assetid: 1d784ded-b874-4eb1-8f6d-2e0e03330e1e
-description: Элемент Интерналрепли содержит ответ "нет на месте" (отсутствие на месте), отправленный другим пользователям в домене пользователя или доверенных доменах.
-ms.openlocfilehash: 24c278ebd3acf83e87fbf72650eb3d5d438d5c22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент InternalReply содержит ответ из офиса (OOF), отправленный другим пользователям в домене пользователя или доверенных доменах.
+ms.openlocfilehash: bbf25d05330463e44d9c865749943ed45a64e157
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465585"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541107"
 ---
-# <a name="internalreply"></a>интерналрепли
+# <a name="internalreply"></a>InternalReply
 
-Элемент **интерналрепли** содержит ответ "нет на месте" (отсутствие на месте), отправленный другим пользователям в домене пользователя или доверенных доменах. 
+Элемент **InternalReply** содержит ответ из офиса (OOF), отправленный другим пользователям в домене пользователя или доверенных доменах. 
   
 ```XML
 <InternalReply>
@@ -29,37 +29,37 @@ ms.locfileid: "44465585"
 </InternalReply>
 ```
 
- **реплибоди**
+ **ReplyBody**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|XML: lang  <br/> |Указывает язык, используемый в сообщении **интерналрепли** . Возможные значения этого атрибута определены в документе IETF RFC 3066.  <br/> |
+|xml:lang  <br/> |Указывает язык, используемый в **сообщении InternalReply.** Возможные значения этого атрибута определяются IETF RFC 3066.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Сообщение (доступность)](message-availability.md) <br/> |Содержит отклик на отсутствие на работе.  <br/> |
+|[Message (доступность)](message-availability.md) <br/> |Содержит ответ OOF.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[усеруфсеттингс](useroofsettings.md) <br/> |Задает параметры отсутствия на работе.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[уфсеттингс](oofsettings.md) <br/> |Содержит параметры отсутствия на работе.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Указывает параметры OOF.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Содержит параметры OOF.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
 ## <a name="example"></a>Пример
 
-В следующем примере запроса SetUserOofSettings задается для [уфстате](oofstate.md) значение **Enabled**, устанавливается длительность бездействия в течение 10 дней, а также задаются внутренние и внешние сообщения об отсутствии на работе.
+Следующий пример запроса SetUserOofSettings задает [OofState](oofstate.md) для **включения,** задает продолжительность OOF в течение 10 дней и задает внутренние и внешние сообщения OOF.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -96,7 +96,7 @@ ms.locfileid: "44465585"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

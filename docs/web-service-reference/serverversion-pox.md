@@ -1,30 +1,30 @@
 ---
-title: Серверверсион (POX)
+title: ServerVersion (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a
-description: Элемент Серверверсион представляет номер версии компьютера, на котором работает Microsoft Exchange Server.
-ms.openlocfilehash: 3ef531a69d2dd00ee9784c9eb191684ce517e842
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ServerVersion представляет номер версии компьютера, на который Microsoft Exchange Server.
+ms.openlocfilehash: bc7f9daa62e628e41f7541a609550e90af211928
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461970"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527379"
 ---
-# <a name="serverversion-pox"></a>Серверверсион (POX)
+# <a name="serverversion-pox"></a>ServerVersion (POX)
 
-Элемент **серверверсион** представляет номер версии компьютера, на котором работает Microsoft Exchange Server. 
+Элемент **ServerVersion** представляет номер версии компьютера, на который Microsoft Exchange Server. 
   
-- [Служба автообнаружения (POX)](autodiscover-pox.md) 
-- [Ответ (POX)](response-pox.md)
-- [Учетная запись (POX)](account-pox.md)
-- [Протокол (POX)](protocol-pox.md)
-- [Серверверсион (POX)](serverversion-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Response (POX)](response-pox.md)
+- [Account (POX)](account-pox.md)
+- [Protocol (POX)](protocol-pox.md)
+- [ServerVersion (POX)](serverversion-pox.md)
   
 ```xml
 <ServerVersion/>
@@ -32,33 +32,33 @@ ms.locfileid: "44461970"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором выполняется Microsoft Exchange, на котором установлена роль сервера клиентского доступа.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на Exchange который установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет номер версии сервера Exchange Server.
+Текстовое значение представляет номер Exchange версии сервера.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Значение **серверверсион** является допустимым только в том случае, если элемент [Type (POX)](type-pox.md) РАВЕН сумме или expr. Значение **серверверсион** — это шестнадцатеричное число, которое содержит MajorVersion, minorversion и мажорбуилднумбер сервера. 
+Значение **ServerVersion** допустимо только в том случае, если элемент [Type (POX)](type-pox.md) равен EXCH или EXPR. Значение **ServerVersion** — это hexadecimal номер, содержащий majorVersion, MinorVersion и MajorBuildNumber сервера. 
   
 ## <a name="example"></a>Пример
 
-В следующем примере показано, как преобразовать значение **серверверсион** , которое возвращается в ответе автообнаружения для получения и отображения MajorVersion, minorversion и мажорбуилднумбер. В этом примере показано, как ввести шестнадцатеричное значение для значения **серверверсион** . Если значение **серверверсион** не введено, используется значение **серверверсион** по умолчанию 738180DA. 
+В следующем примере скрыто значение **ServerVersion,** которое возвращается в ответе автонаружения для получения и отображения MajorVersion, MinorVersion и MajorBuildNumber. В этом примере вы можете ввести значение hexadecimal для **значения ServerVersion.** Если значение **ServerVersion не** вступило, используется значение **ServerVersion** по умолчанию 738180DA. 
   
 ```csharp
 static void Main(string[] args)
@@ -105,5 +105,5 @@ static void Main(string[] args)
 
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

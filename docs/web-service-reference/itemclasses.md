@@ -1,27 +1,27 @@
 ---
-title: итемклассес
+title: ItemClasses
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemClasses
 api_type:
 - schema
 ms.assetid: f95430cc-2860-47c1-af2d-8c4156c9b281
-description: Элемент Итемклассес представляет классы элементов, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение.
-ms.openlocfilehash: 56b99cad2abef0a9953e1793e5b633acca83a9eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ItemClasses представляет классы элементов, которые должны быть маркироваться на входящих сообщениях, чтобы применить условие или исключение.
+ms.openlocfilehash: a04c773d40d199902de7a7963e02444ed1def4fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511429"
 ---
-# <a name="itemclasses"></a>итемклассес
+# <a name="itemclasses"></a>ItemClasses
 
-Элемент **итемклассес** представляет классы элементов, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение. 
+Элемент **ItemClasses** представляет классы элементов, которые должны быть маркироваться на входящих сообщениях, чтобы применить условие или исключение. 
   
 ```XML
 <ItemClasses>
@@ -29,20 +29,20 @@ ms.locfileid: "44460115"
 </ItemClasses>
 ```
 
- **аррайофстрингстипе**
+ **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Представляет один класс элемента.  <br/> |
+|[Строка](string.md) <br/> |Представляет один класс элементов.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "44460115"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44460115"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

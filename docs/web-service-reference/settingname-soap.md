@@ -1,24 +1,24 @@
 ---
-title: Свойства settingname (SOAP)
+title: SettingName (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 8bcb0411-58b0-4e37-b97e-00c07dcbecb1
-description: Элемент свойства settingname представляет имя параметра в ответе.
-ms.openlocfilehash: d492b82b7385d6403f15c08356db5d0503792d54
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SettingName представляет имя параметра в ответе.
+ms.openlocfilehash: 1a676f55ad86496ae8bdbdfbeaeb9827b1aa6646
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531883"
 ---
-# <a name="settingname-soap"></a>Свойства settingname (SOAP)
+# <a name="settingname-soap"></a>SettingName (SOAP)
 
-Элемент **Свойства settingname** представляет имя параметра в ответе. 
+Элемент **SettingName** представляет имя параметра в ответе. 
   
 ```XML
 <SettingName/>
@@ -27,26 +27,26 @@ ms.locfileid: "44466726"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Усерсеттинжеррор (SOAP)](usersettingerror-soap.md) <br/> |Представляет ошибку, возвращаемую при получении параметра пользователя.  <br/> |
-|[Домаинсеттинжеррор (SOAP)](domainsettingerror-soap.md) <br/> |Представляет ошибку, возникшую при получении параметра домена. Представляет ошибку в запросе **жетдомаинсеттингс** .  <br/> |
+|[UserSettingError (SOAP)](usersettingerror-soap.md) <br/> |Представляет ошибку, возвращаемую при искомом параметре пользователя.  <br/> |
+|[DomainSettingError (SOAP)](domainsettingerror-soap.md) <br/> |Представляет ошибку, которая произошла при искомом параметре домена. Это представляет ошибку из **запроса GetDomainSettings.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Значение элемента **Свойства settingname** представляет имя параметра в отклике. 
+Значение элемента **SettingName** представляет имя параметра в ответе. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -55,8 +55,8 @@ ms.locfileid: "44466726"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 

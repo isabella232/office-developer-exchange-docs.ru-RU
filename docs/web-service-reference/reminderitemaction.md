@@ -1,23 +1,23 @@
 ---
-title: реминдеритемактион
+title: ReminderItemAction
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe67512c-5b15-4f07-8628-74cf873c2d71
-description: Элемент Реминдеритемактион указывает действие для элемента напоминания.
-ms.openlocfilehash: 60722235ed3e73e6a9923df8d3c63a6fc123599a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ReminderItemAction указывает действие элемента напоминания.
+ms.openlocfilehash: 7cd6898bb44ecd442a02f162008225d904396ba0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466229"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512466"
 ---
-# <a name="reminderitemaction"></a>реминдеритемактион
+# <a name="reminderitemaction"></a>ReminderItemAction
 
-Элемент **реминдеритемактион** указывает действие для элемента напоминания. 
+Элемент **ReminderItemAction** указывает действие элемента напоминания. 
   
 ```XML
 <ReminderItemAction>
@@ -27,24 +27,24 @@ ms.locfileid: "44466229"
 </ReminderItemAction>
 ```
 
- **реминдеритемактионтипе**
+ **ReminderItemActionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Себя [(реминдерактионтипе)](actiontype-reminderactiontype.md)  |  [ItemId](itemid.md)  |  [Невреминдертиме](newremindertime.md)
+[ActionType (ReminderActionType)](actiontype-reminderactiontype.md)  |  [ItemId](itemid.md)  |  [NewReminderTime](newremindertime.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[реминдеритемактионс](reminderitemactions.md)
+[ReminderItemActions](reminderitemactions.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,14 +56,14 @@ ms.locfileid: "44466229"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[реминдеритемактионс](reminderitemactions.md)
+[ReminderItemActions](reminderitemactions.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

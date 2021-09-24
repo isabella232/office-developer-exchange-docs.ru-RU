@@ -1,23 +1,23 @@
 ---
-title: посталаддрессаттрибутедвалуе
+title: PostalAddressAttributedValue
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f92aa41-1499-4d96-a973-24529ec64d24
-description: Элемент Посталаддрессаттрибутедвалуе указывает экземпляр массива почтовых адресов и связанные с ними атрибуты.
-ms.openlocfilehash: bf5becca8ee0f143728010c5d0b1ed5a380838ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PostalAddressAttributedValue указывает экземпляр массива почтовых адресов и связанных с ними присвоений.
+ms.openlocfilehash: a4f89b7b2dd54aafe51e0b20da032cc28a90cfeb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465382"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519221"
 ---
-# <a name="postaladdressattributedvalue"></a>посталаддрессаттрибутедвалуе
+# <a name="postaladdressattributedvalue"></a>PostalAddressAttributedValue
 
-Элемент **посталаддрессаттрибутедвалуе** указывает экземпляр массива почтовых адресов и связанные с ними атрибуты. 
+Элемент **PostalAddressAttributedValue** указывает экземпляр массива почтовых адресов и связанных с ними присвоений. 
   
 ```XML
 <PostalAddressAttributedValue>
@@ -26,24 +26,24 @@ ms.locfileid: "44465382"
 </PostalAddressAttributedValue>
 ```
 
- **посталаддрессаттрибутедвалуетипе**
+ **PostalAddressAttributedValueType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Значение (персонапосталаддресстипе)](value-personapostaladdresstype.md)  |  [Атрибуты (аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
+[Значение (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [Атрибуция (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Бусинессаддрессес](businessaddresses.md)  |  [Хомеаддрессес](homeaddresses.md)  |  [Осераддрессес](otheraddresses.md)
+[BusinessAddresses](businessaddresses.md)  |  [HomeAddresses](homeaddresses.md)  |  [OtherAddresses](otheraddresses.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44465382"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

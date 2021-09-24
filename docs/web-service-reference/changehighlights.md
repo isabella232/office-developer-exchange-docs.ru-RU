@@ -1,23 +1,23 @@
 ---
-title: чанжехигхлигхтс
+title: ChangeHighlights
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9bd7323-44db-4d2f-aaaa-94c2dfdeead6
-description: Элемент Чанжехигхлигхтс указывает, что изменилось между двумя версиями сообщения с приглашением на собрание.
-ms.openlocfilehash: 6c78d2c96449ee41032859f90bf51d6e0faa92ae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ChangeHighlights указывает, что изменилось между двумя версиями сообщения о запросе на собрание.
+ms.openlocfilehash: 95f665f30c62d723cd97eaa2bd3eb3b2ed479967
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463281"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512214"
 ---
-# <a name="changehighlights"></a>чанжехигхлигхтс
+# <a name="changehighlights"></a>ChangeHighlights
 
-Элемент **чанжехигхлигхтс** указывает, что изменилось между двумя версиями сообщения с приглашением на собрание. 
+Элемент **ChangeHighlights** указывает, что изменилось между двумя версиями сообщения о запросе на собрание. 
   
 ```XML
 <ChangeHighlights>
@@ -30,33 +30,33 @@ ms.locfileid: "44463281"
 </ChangeHighlights>
 ```
 
- **чанжехигхлигхтстипе**
+ **ChangeHighlightsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[хаслокатиончанжед](haslocationchanged.md) <br/> |Указывает, изменилось ли свойство Location на собрании.  <br/> |
-|[Location](location.md) <br/> |Представляет место собрания или встречи.  <br/> |
-|[хасстарттимечанжед](hasstarttimechanged.md) <br/> |Указывает, изменилось ли время начала собрания.  <br/> |
-|[Начало](start.md) <br/> |Представляет начало длительности.  <br/> |
-|[хасендтимечанжед](hasendtimechanged.md) <br/> |Указывает, изменилось ли время окончания собрания.  <br/> |
-|[Оканчиваться](end-ex15websvcsotherref.md) <br/> |Представляет конец длительности.  <br/> |
+|[HasLocationChanged](haslocationchanged.md) <br/> |Указывает, изменилось ли свойство расположения собрания.  <br/> |
+|[Location](location.md) <br/> |Представляет расположение собрания или встречи.  <br/> |
+|[HasStartTimeChanged](hasstarttimechanged.md) <br/> |Указывает, изменилось ли время начала собрания.  <br/> |
+|[Start](start.md) <br/> |Представляет начало продолжительности.  <br/> |
+|[HasEndTimeChanged](hasendtimechanged.md) <br/> |Указывает, изменилось ли время окончания собрания.  <br/> |
+|[End ](end-ex15websvcsotherref.md) <br/> |Представляет собой конец продолжительности.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -68,7 +68,7 @@ ms.locfileid: "44463281"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

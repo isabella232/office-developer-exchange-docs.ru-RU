@@ -5,48 +5,48 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 689cd498-4ee0-4a41-8907-4f0d7137477e
-description: Элемент GetAppManifests является базовым элементом для запроса на возврат манифеста для приложений.
-ms.openlocfilehash: 067075741d5f4eca3f41e327d8bd17fc54450fdd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetAppManifests является базовым элементом запроса на возвращение манифеста для приложений.
+ms.openlocfilehash: 26ce82c5a0ac73644f75043589c576de857bd02a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463001"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541219"
 ---
 # <a name="getappmanifests"></a>GetAppManifests
 
-Элемент **GetAppManifests** является базовым элементом для запроса на возврат манифеста для приложений. 
+Элемент **GetAppManifests** является базовым элементом запроса на возвращение манифеста для приложений. 
   
 ```xml
 <GetAppManifests />
 ```
 
- **жетаппманифестстипе**
+ **GetAppManifestsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Апиверсионсуппортед](apiversionsupported.md)  |  [Счемаверсионсуппортед](schemaversionsupported.md)
+[ApiVersionSupported](apiversionsupported.md)  |  [SchemaVersionSupported](schemaversionsupported.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **GetAppManifests** применяется для клиентов, которые ориентированы на Exchange Online и версии Microsoft Exchange Server, начиная с Exchange 2013. 
+Элемент **GetAppManifests** применим для клиентов, которые Exchange Online и версии Microsoft Exchange Server начиная с Exchange 2013 года. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -54,7 +54,7 @@ ms.locfileid: "44463001"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

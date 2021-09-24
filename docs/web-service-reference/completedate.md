@@ -1,27 +1,27 @@
 ---
-title: комплетедате
+title: CompleteDate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CompleteDate
 api_type:
 - schema
 ms.assetid: b2b53b87-6a0b-4a55-bcfc-3bf67d3c1700
-description: Элемент Комплетедате представляет дату завершения элемента.
-ms.openlocfilehash: fff3d5d3105bf63c9cdd34cbcf828d57ca287b86
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CompleteDate представляет дату завершения элемента.
+ms.openlocfilehash: 07f6034b4fd91d22ad07167d931bcd02a74782f9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461424"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518780"
 ---
-# <a name="completedate"></a>комплетедате
+# <a name="completedate"></a>CompleteDate
 
-Элемент **комплетедате** представляет дату завершения элемента. 
+Элемент **CompleteDate** представляет дату завершения элемента. 
   
 ```xml
 <CompleteDate/>
@@ -30,30 +30,30 @@ ms.locfileid: "44461424"
  **DateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
-|[Флаг](flag.md) <br/> |Указывает флаг для элемента почтового ящика.  <br/> |
+|[Флаг](flag.md) <br/> |Указывает флаг на элементе почтового ящика.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее дату и время, является обязательным при использовании этого элемента.
+Если используется этот элемент, требуется текстовое значение, которое представляет дату и время.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Установка **комплетедате** имеет тот же последствия, что и установка [PercentComplete](percentcomplete.md) в 100 или [состояние](status.md) на " **завершено**". В запросе, который задает по крайней мере два из этих свойств, Последнее обработанное свойство будет определять значение, заданное для этих элементов. Например, если [PercentComplete](percentcomplete.md) равен 100, **Комплетедате** — 1 января 2007, а [состояние](status.md) — **NotStarted**, а свойства передаются в потоке в таком порядке, то результатом будет установка для задачи [состояния](status.md) **NotStarted**, [комплетедате](completedate.md) — **null**, а [PercentComplete](percentcomplete.md) — 0. 
+Параметр **CompleteDate имеет** тот же эффект, что и параметр [PercentComplete](percentcomplete.md) до 100 или [Состояние](status.md) **завершено.** В запросе, который задает по крайней мере два из этих свойств, последнее обработанное свойство определяет значение, запредельное для этих элементов. Например, если [PercentComplete](percentcomplete.md) [](status.md) 100, **CompleteDate** — 1 января 2007 г., а состояние нестареется, и свойства будут [](status.md) передаваться в этом порядке, эффектом будет задать состояние задачи **NotStarted,** [CompleteDate](completedate.md) до **null** и [PercentComplete](percentcomplete.md) до 0.  
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -63,7 +63,7 @@ ms.locfileid: "44461424"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

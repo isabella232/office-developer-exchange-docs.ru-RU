@@ -1,27 +1,27 @@
 ---
-title: Выполнение
+title: IsComplete
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsComplete
 api_type:
 - schema
 ms.assetid: 5331f0a8-51b2-46e1-a07b-a2358f2d5ab0
-description: Элемент завершения указывает, завершена ли задача.
-ms.openlocfilehash: cad2bd1972c71e4cc63991567fb5db7e91529cb4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsComplete указывает, выполнена ли задача.
+ms.openlocfilehash: 04584d09b74dfb00203de7873f8416b8c384067c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465536"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541023"
 ---
-# <a name="iscomplete"></a>Выполнение
+# <a name="iscomplete"></a>IsComplete
 
-Элемент **завершения** указывает, завершена ли задача. 
+Элемент **IsComplete указывает,** выполнена ли задача. 
   
 ```xml
 <IsComplete/>
@@ -30,15 +30,15 @@ ms.locfileid: "44465536"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,9 +48,9 @@ ms.locfileid: "44465536"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение — это логическое значение, указывающее, завершена ли задача.
+Текстовое значение — это значение Boolean, которое указывает, выполнена ли задача.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44465536"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

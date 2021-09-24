@@ -1,23 +1,23 @@
 ---
-title: Телефон (Фонинтититипе)
+title: Phone (PhoneEntityType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6925cc9-7f22-478f-b9ba-b77575772471
-description: Элемент Phone указывает один телефонный номер, полученный в результате извлечения объекта из номера телефона.
-ms.openlocfilehash: eec05fbb1cbbfa5c9b47cdb3cef1af6085ab51b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Телефон указывает один телефонный номер, полученный в результате извлечения объекта с телефонным номером.
+ms.openlocfilehash: a8f0404c2cb9f141bf818dfe2fd07d3f4b1dacb8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457559"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528478"
 ---
-# <a name="phone-phoneentitytype"></a>Телефон (Фонинтититипе)
+# <a name="phone-phoneentitytype"></a>Phone (PhoneEntityType)
 
-Элемент **Phone** указывает один телефонный номер, полученный в результате извлечения объекта из номера телефона. 
+Элемент **Телефон** указывает один телефонный номер, который является результатом извлечения сущности номера телефона. 
   
 ```XML
 <Phone>
@@ -28,24 +28,24 @@ ms.locfileid: "44457559"
 </Phone>
 ```
 
- **фонинтититипе**
+ **PhoneEntityType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Положение](position.md)  |  [OriginalPhoneString](originalphonestring.md)  |  [PhoneString](phonestring.md)  |  [Тип (строка)](type-string.md)
+[Позиция](position.md)  |  [OriginalPhoneString](originalphonestring.md)  |  [PhoneString](phonestring.md)  |  [Тип (строка)](type-string.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[PhoneNumbers (Аррайоффонинтитиестипе)](phonenumbers-arrayofphoneentitiestype.md)
+[PhoneNumbers (ArrayOfPhoneEntitiesType)](phonenumbers-arrayofphoneentitiestype.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44457559"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

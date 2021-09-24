@@ -5,27 +5,27 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeWindow
 api_type:
 - schema
 ms.assetid: 49c79266-353a-4036-a8e2-8a4660d0d8ea
-description: Элемент TimeWindow определяет интервал времени, запрошенный для сведений о доступности пользователя.
-ms.openlocfilehash: 5c66614520f9d616687d67ad609b3d55d9cf6571
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TimeWindow определяет период времени, запрашиваемой для сведений о доступности пользователей.
+ms.openlocfilehash: 93a486a5bc2306cfa61b74de82d795a711dbbceb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458931"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531346"
 ---
 # <a name="timewindow"></a>TimeWindow
 
-Элемент **TimeWindow** определяет интервал времени, запрошенный для сведений о доступности пользователя. 
+Элемент **TimeWindow** определяет период времени, запрашиваемой для сведений о доступности пользователей. 
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[фрибусивиевоптионс](freebusyviewoptions.md)
+[FreeBusyViewOptions](freebusyviewoptions.md)
   
 [TimeWindow](timewindow.md)
   
@@ -39,31 +39,31 @@ ms.locfileid: "44458931"
  **Duration**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |Представляет начало интервала времени, запрошенного для сведений о доступности пользователя.  <br/> |
-|[EndTime](endtime.md) <br/> |Представляет конец интервала времени, запрошенного для сведений о доступности пользователя.  <br/> |
+|[StartTime](starttime.md) <br/> |Представляет начало периода времени, запрашиваемого для сведений о доступности пользователей.  <br/> |
+|[EndTime](endtime.md) <br/> |Представляет собой конец периода времени, запрашиваемого для сведений о доступности пользователей.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фрибусивиевоптионс](freebusyviewoptions.md) <br/> |Указывает тип сведений о доступности, возвращаемых в ответе.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
+|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Указывает тип бесплатных и загруженных сведений, возвращаемой в ответе.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Максимальное значение для этого периода времени составляет 42 дней. Это максимальное значение можно изменить. Все запросы сведений о доступности пользователей за пределами максимального значения будут возвращать ошибку. Если какие-либо встречи частично указаны в диапазоне времени, определенном элементами [StartTime](starttime.md) и [EndTime](endtime.md) , эта встреча включается целиком. 
+Максимальное значение для этого периода времени — 42 дня. Это максимальное значение можно изменить. Любые запросы на сведения о доступности пользователей за пределами максимального значения возвращают ошибку. Если какие-либо встречи частично находятся в промежутке времени, определенном элементами [StartTime](starttime.md) и [EndTime,](endtime.md) это назначение включается в полном объеме. 
   
 > [!NOTE]
-> Схема, описывающая этот элемент, находится в каталоге/ЕВС/компьютера, на котором работает Microsoft® Exchange Server 2007, на котором установлена роль сервера клиентского доступа. 
+> Схема, описываемая этим элементом, расположена в каталоге /EWS/на компьютере под управлением Microsoft® Exchange Server 2007, где установлена роль сервера клиентского доступа. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -71,7 +71,7 @@ ms.locfileid: "44458931"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

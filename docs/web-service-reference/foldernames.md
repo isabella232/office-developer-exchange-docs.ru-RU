@@ -1,31 +1,31 @@
 ---
-title: фолдернамес
+title: FolderNames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FolderNames
 api_type:
 - schema
 ms.assetid: 6cbe4083-5705-4695-a54e-8dab3e472662
-description: Элемент Фолдернамес содержит массив именованных управляемых папок для добавления к почтовому ящику.
-ms.openlocfilehash: 00cb1a81f420469033ccbc745313d2719b155aff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FolderNames содержит массив именных управляемых папок, которые необходимо добавить в почтовый ящик.
+ms.openlocfilehash: be9b11ca9ca9c81914082f26ee61dbcd1990e9f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530988"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530299"
 ---
-# <a name="foldernames"></a>фолдернамес
+# <a name="foldernames"></a>FolderNames
 
-Элемент **фолдернамес** содержит массив именованных управляемых папок для добавления к почтовому ящику. 
+Элемент **FolderNames содержит** массив именных управляемых папок, которые необходимо добавить в почтовый ящик. 
   
 [CreateManagedFolder](createmanagedfolder.md)
   
-[фолдернамес](foldernames.md)
+[FolderNames](foldernames.md)
   
 ```xml
 <FolderNames>
@@ -33,28 +33,28 @@ ms.locfileid: "44530988"
 </FolderNames>
 ```
 
- **нонемптяррайоффолдернаместипе**
+ **NonEmptyArrayOfFolderNamesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderName](foldername.md) <br/> |Определяет единую управляемую папку для добавления к почтовому ящику.  <br/> |
+|[FolderName](foldername.md) <br/> |Определяет одну управляемой папку, которая будет добавлена в почтовый ящик.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[CreateManagedFolder](createmanagedfolder.md) <br/> |Корневой элемент запроса на добавление управляемой папки в почтовый ящик.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/CreateManagedFolder` <br/> |
+|[CreateManagedFolder](createmanagedfolder.md) <br/> |Корневой элемент в запросе на добавление управляемой папки в почтовый ящик.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/CreateManagedFolder` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -64,7 +64,7 @@ ms.locfileid: "44530988"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

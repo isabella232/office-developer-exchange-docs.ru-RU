@@ -1,41 +1,41 @@
 ---
-title: испин
+title: IsPin
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 157e8649-ecfc-48ef-a70b-c2c7368d72e0
-description: Элемент Испин предназначен только для внутреннего использования.
-ms.openlocfilehash: e451534874b87aad8e1cdf12a8f7409f63ca14bb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsPin предназначен только для внутреннего использования.
+ms.openlocfilehash: 461927980f7f663953a893ca21b39a53c7ca019b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468462"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540953"
 ---
-# <a name="ispin"></a>испин
+# <a name="ispin"></a>IsPin
 
-Элемент **испин** предназначен только для внутреннего использования. 
+Элемент **IsPin** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

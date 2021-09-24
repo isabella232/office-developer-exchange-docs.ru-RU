@@ -1,45 +1,45 @@
 ---
-title: нумберофмемберсвиснодата
+title: NumberOfMembersWithNoData
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NumberOfMembersWithNoData
 api_type:
 - schema
 ms.assetid: 7ca9c57c-9519-442c-a9f4-dca2b0309716
-description: Элемент Нумберофмемберсвиснодата представляет количество участников списка рассылки, у которых нет опубликованных данных о занятости для сравнения с предложенным временем собрания. Этот элемент представляет слишком большое количество элементов списка рассылки или членов, у которых нет состояния данных.
-ms.openlocfilehash: df41adc14f4c35c0e24d0f3c54f74a63527859d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент NumberOfMembersWithNoData представляет число участников списка рассылки, которые не опубликовали бесплатные или загруженные данные для сравнения с предложенным временем собрания. Этот элемент представляет членов слишком большого списка рассылки или членов, не в которых нет данных.
+ms.openlocfilehash: 4b021ce75a84eca3e1b5a66cf51f6b5d7adec86b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462551"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529687"
 ---
-# <a name="numberofmemberswithnodata"></a>нумберофмемберсвиснодата
+# <a name="numberofmemberswithnodata"></a>NumberOfMembersWithNoData
 
-Элемент **нумберофмемберсвиснодата** представляет количество участников списка рассылки, у которых нет опубликованных данных о занятости для сравнения с предложенным временем собрания. Этот элемент представляет слишком большое количество элементов списка рассылки или членов, у которых нет состояния **данных** . 
+Элемент **NumberOfMembersWithNoData** представляет число участников списка рассылки, которые не опубликовали бесплатные или загруженные данные для сравнения с предложенным временем собрания. Этот элемент представляет членов слишком большого списка рассылки или членов, не в которых **нет данных.** 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[сугжестионсреспонсе](suggestionsresponse.md)
+[SuggestionsResponse](suggestionsresponse.md)
   
-[сугжестиондайресултаррай](suggestiondayresultarray.md)
+[SuggestionDayResultArray](suggestiondayresultarray.md)
   
-[сугжестиондайресулт](suggestiondayresult.md)
+[SuggestionDayResult](suggestiondayresult.md)
   
-[сугжестионаррай](suggestionarray.md)
+[SuggestionArray](suggestionarray.md)
   
 [Предложение](suggestion.md)
   
-[аттендиконфликтдатааррай](attendeeconflictdataarray.md)
+[AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
-[граупаттендиконфликтдата](groupattendeeconflictdata.md)
+[GroupAttendeeConflictData](groupattendeeconflictdata.md)
   
-[нумберофмемберсвиснодата](numberofmemberswithnodata.md)
+[NumberOfMembersWithNoData](numberofmemberswithnodata.md)
   
 ```xml
 <NumberOfMembersWithNoData>...</NumberOfMembersWithNoData>
@@ -48,31 +48,31 @@ ms.locfileid: "44462551"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[граупаттендиконфликтдата](groupattendeeconflictdata.md) <br/> |Содержит статистические сведения о количестве доступных пользователей, количестве пользователей с конфликтами и количестве пользователей, не имеющих сведений о доступности, в списке рассылки для предполагаемого времени проведения собрания.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Содержит сводную конфликтную информацию о количестве доступных пользователей, количестве пользователей, имеющих конфликты, и количестве пользователей, не имеющих сведений о доступности в списке рассылки в течение предложенного времени собрания.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Контакт в группе, у которого нет почтового ящика, это пример элемента списка рассылки, у которого нет данных календаря. Контакт может также не иметь состояния **данных** по следующим причинам: 
+Контакт в группе, у которого нет почтового ящика, является примером члена списка рассылки, у которого нет данных календаря. Контакт может также иметь **статус "Нет данных"** по следующим причинам: 
   
-- Недостаточно разрешений.
+- Разрешений недостаточно.
     
-- Слишком большой список рассылки для расширения.
+- Список рассылки слишком велик для расширения.
     
-- Служба каталогов Active Directory недоступна.
+- Служба каталога Active Directory недоступна.
     
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -82,7 +82,7 @@ ms.locfileid: "44462551"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -91,7 +91,7 @@ ms.locfileid: "44462551"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

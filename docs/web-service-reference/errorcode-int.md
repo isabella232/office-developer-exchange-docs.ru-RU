@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65537d96-edf9-41ee-9ad5-91ffe37e2269
-description: Элемент ErrorCode указывает код ошибки при неудачном поиске, выполненном для почтового ящика.
-ms.openlocfilehash: 24170a56e5fa23c3811fcbd27f0240e6ba3c87b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ErrorCode указывает код ошибки неудачного поиска, выполняемого в почтовом ящике.
+ms.openlocfilehash: 25a0b14ecefce76707a8dfa73f99d8b93b445af7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460668"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530839"
 ---
 # <a name="errorcode-int"></a>ErrorCode (int)
 
-Элемент **ErrorCode** указывает код ошибки при неудачном поиске, выполненном для почтового ящика. 
+Элемент **ErrorCode** указывает код ошибки неудачного поиска, выполняемого в почтовом ящике. 
   
 ```XML
 <ErrorCode></ErrorCode>
@@ -26,27 +26,27 @@ ms.locfileid: "44460668"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фаиледмаилбокс](failedmailbox.md) <br/> |Указывает состояние удержания почтового ящика.  <br/> |
+|[FailedMailbox](failedmailbox.md) <br/> |Указывает состояние удержания почтового ящика.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ErrorCode** — это код ошибки, возвращенный для неудачного поиска, выполненного для почтового ящика. 
+Текстовое значение элемента **ErrorCode** — это код ошибки, возвращаемый для неудачного поиска, выполненного в почтовом ящике. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44460668"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

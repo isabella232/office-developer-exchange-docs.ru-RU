@@ -1,27 +1,27 @@
 ---
-title: ноендрекурренце
+title: NoEndRecurrence
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NoEndRecurrence
 api_type:
 - schema
 ms.assetid: ab2ebd9c-388e-45f1-abf9-56e293ef123b
-description: Элемент Ноендрекурренце описывает дату начала для шаблона повторения элемента, у которого нет определенной конечной даты.
-ms.openlocfilehash: 31a3bd6ae2d7ce94debbeebc4fd4f536447433a7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент NoEndRecurrence описывает дату начала шаблона повторения элементов, который не имеет определенной конечной даты.
+ms.openlocfilehash: 862bd58c295aabe807768f93506b4002d83c4552
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466796"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529809"
 ---
-# <a name="noendrecurrence"></a>ноендрекурренце
+# <a name="noendrecurrence"></a>NoEndRecurrence
 
-Элемент **ноендрекурренце** описывает дату начала для шаблона повторения элемента, у которого нет определенной конечной даты. 
+Элемент **NoEndRecurrence** описывает дату начала шаблона повторения элементов, который не имеет определенной конечной даты. 
   
 ```xml
 <NoEndRecurrence>
@@ -29,29 +29,29 @@ ms.locfileid: "44466796"
 </NoEndRecurrence>
 ```
 
- **ноендрекурренцеранжетипе**
+ **NoEndRecurrenceRangeType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StartDate (повторение)](startdate-recurrence.md) <br/> |Представляет дату начала повторяющейся задачи или элемента календаря.  <br/> |
+|[StartDate (Recurrence)](startdate-recurrence.md) <br/> |Представляет дату начала повторяющейся задачи или элемента календаря.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашений на собрание.  <br/> |
-|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и запросов на собрания.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторяющихся задачах.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44466796"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

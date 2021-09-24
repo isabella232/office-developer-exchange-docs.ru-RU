@@ -1,24 +1,24 @@
 ---
-title: Минорбуилднумбер (SOAP)
+title: MinorBuildNumber (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 3d2b9edc-8e57-44dc-b63b-75a2eb47c84e
-description: Элемент Минорбуилднумбер представляет дополнительный номер сборки для сервера.
-ms.openlocfilehash: d5e4d80c448180baa18d2d90eb0440e12c2ed02b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MinorBuildNumber представляет небольшой номер сборки для сервера.
+ms.openlocfilehash: f82716218e2df7b5c7539673a73e04e051870aac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466992"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510941"
 ---
-# <a name="minorbuildnumber-soap"></a>Минорбуилднумбер (SOAP)
+# <a name="minorbuildnumber-soap"></a>MinorBuildNumber (SOAP)
 
-Элемент **минорбуилднумбер** представляет дополнительный номер сборки для сервера. 
+Элемент **MinorBuildNumber** представляет небольшой номер сборки для сервера. 
   
 ```XML
 <MinorBuildNumber/>
@@ -27,33 +27,33 @@ ms.locfileid: "44466992"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Серверверсионинфо (SOAP)](serverversioninfo-soap.md) <br/> |Содержит версию сервера, который обработал запрос.  <br/> |
+|[ServerVersionInfo (SOAP)](serverversioninfo-soap.md) <br/> |Содержит версию сервера, обрабатываемого запросом.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Целое значение, представляющее дополнительный номер сборки сервера, который обработал запрос.
+Integer value that represents the minor build number of the server that processed the request.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 

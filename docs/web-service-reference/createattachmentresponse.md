@@ -1,27 +1,27 @@
 ---
-title: креатеаттачментреспонсе
+title: CreateAttachmentResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachmentResponse
 api_type:
 - schema
 ms.assetid: cf6bd8bb-5317-4a03-bd75-297dd359b5da
-description: Элемент Креатеаттачментреспонсе определяет ответ на запрос CreateAttachment.
-ms.openlocfilehash: df2b0e37adaeaef32f845e5a28615ce874cb3447
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CreateAttachmentResponse определяет ответ на запрос CreateAttachment.
+ms.openlocfilehash: 507d7794c566331f7abf1de1f9016c6b20f1320b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466418"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529001"
 ---
-# <a name="createattachmentresponse"></a>креатеаттачментреспонсе
+# <a name="createattachmentresponse"></a>CreateAttachmentResponse
 
-Элемент **креатеаттачментреспонсе** определяет ответ на запрос CreateAttachment. 
+Элемент **CreateAttachmentResponse** определяет ответ на запрос CreateAttachment. 
   
 ```xml
 <CreateAttachmentResponse>
@@ -29,26 +29,26 @@ ms.locfileid: "44466418"
 </CreateAttachmentResponse>
 ```
 
- **креатеаттачментреспонсетипе**
+ **CreateAttachmentResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения отклика для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44466418"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

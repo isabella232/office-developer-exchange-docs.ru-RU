@@ -1,37 +1,37 @@
 ---
-title: календаревентаррай
+title: CalendarEventArray
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarEventArray
 api_type:
 - schema
 ms.assetid: a00f7f56-d7f1-429d-ae02-97043718c864
-description: Элемент Календаревентаррай содержит набор уникальных экземпляров элемента календаря, представляющих доступность запрошенного пользователя.
-ms.openlocfilehash: 6badba2477a9d48c6d109740de454e2815d3c211
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CalendarEventArray содержит набор уникальных событий элементов календаря, которые представляют доступность запрашиваемого пользователя.
+ms.openlocfilehash: 6faf9d85139ce99a6a60da5a05f171a229843b92
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463372"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526836"
 ---
-# <a name="calendareventarray"></a>календаревентаррай
+# <a name="calendareventarray"></a>CalendarEventArray
 
-Элемент **календаревентаррай** содержит набор уникальных экземпляров элемента календаря, представляющих доступность запрошенного пользователя. 
+Элемент **CalendarEventArray** содержит набор уникальных событий элементов календаря, которые представляют доступность запрашиваемого пользователя. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[фрибусиреспонсеаррай](freebusyresponsearray.md)
+[FreeBusyResponseArray](freebusyresponsearray.md)
   
-[фрибусиреспонсе](freebusyresponse.md)
+[FreeBusyResponse](freebusyresponse.md)
   
-[фрибусивиев](freebusyview.md)
+[FreeBusyView](freebusyview.md)
   
-[календаревентаррай](calendareventarray.md)
+[CalendarEventArray](calendareventarray.md)
   
 ```xml
 <CalendarEventArray>
@@ -39,30 +39,30 @@ ms.locfileid: "44463372"
 </CalendarEventArray>
 ```
 
- **аррайофкалендаревент**
+ **ArrayOfCalendarEvent**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаревент](calendarevent.md) <br/> |Представляет уникальное вхождение элемента календаря.  <br/> |
+|[CalendarEvent](calendarevent.md) <br/> |Представляет уникальный случай элементов календаря.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фрибусивиев](freebusyview.md) <br/> |Содержит сведения о доступности для определенного пользователя.  <br/> Ниже приведено выражение XPath 2,0 для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
+|[FreeBusyView](freebusyview.md) <br/> |Содержит сведения о доступности для определенного пользователя.  <br/> Ниже приводится выражение XPath 2.0 к этому элементу:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Уровень детализации, предоставляемый этим элементом, зависит от разрешений, предоставленных запрашивающему участнику. Этот элемент включается, если для элемента [фрибусивиевтипе](freebusyviewtype.md) задано **значение FreeBusy**, **Фрибусимержед**, **Detailed**или **детаиледмержед**. Этот элемент не включает никакие дочерние элементы, если в окне запрошенного времени нет элементов календаря. 
+Уровень детализации, предоставляемой этим элементом, зависит от разрешений, предоставленных запросчику. Этот элемент включается, когда элемент [FreeBusyViewType](freebusyviewtype.md) задается **freeBusy,** **FreeBusyMerged,** **Detailed** или **DetailedMerged.** Этот элемент не содержит никаких элементов для детей, если в запрашиваемом окне времени нет элементов календаря. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -72,7 +72,7 @@ ms.locfileid: "44463372"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -81,7 +81,7 @@ ms.locfileid: "44463372"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

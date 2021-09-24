@@ -5,46 +5,46 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb7aaa46-3a04-4197-aebb-8881ff10603f
 description: Элемент ParentId указывает идентификатор родительского элемента в предварительном просмотре поиска.
-ms.openlocfilehash: e09b5f9e463c7ecdfc595c87a84584f69cab3f2c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cbef7b9419af8821f830a77a6f8e295375c975d5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529023"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519270"
 ---
 # <a name="parentid"></a>ParentId
 
-Элемент **ParentID** указывает идентификатор родительского элемента в предварительном просмотре поиска. 
+Элемент **ParentId** указывает идентификатор родительского элемента в предварительном просмотре поиска. 
   
 ```XML
 <ParentId Id="" ChangeKey=""/>
 ```
 
-**итемидтипе**
+**ItemIdType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|Id  <br/> |Текстовое значение атрибута **ID** — идентификатор родительского элемента.  <br/> |
-|чанжекэй  <br/> |Текстовое значение атрибута **чанжекэй** — это ключ изменения родительского элемента.  <br/> |
+|Id  <br/> |Текстовое значение атрибута **Id** — это идентификатор родительского элемента.  <br/> |
+|ChangeKey  <br/> |Текстовое значение **атрибута ChangeKey** — это ключ изменения родительского элемента.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеарчпревиевитем](searchpreviewitem.md)
+[SearchPreviewItem](searchpreviewitem.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44529023"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |true  <br/> |
    
 

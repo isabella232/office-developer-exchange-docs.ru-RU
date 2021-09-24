@@ -1,23 +1,23 @@
 ---
-title: Контактное лицо (Контакттипе)
+title: Contact (ContactType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f7119b7-f5b4-484d-a7de-fa74836d9aee
-description: Элемент Contact указывает контакт в едином хранилище контактов.
-ms.openlocfilehash: e8ebc28456f8bfc26f5d790ac9ff278930041ea0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Contact указывает контакт в Едином магазине контактов.
+ms.openlocfilehash: e52573841f934a11c05a1da9e19f91146ed9c774
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461522"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511995"
 ---
-# <a name="contact-contacttype"></a>Контактное лицо (Контакттипе)
+# <a name="contact-contacttype"></a>Contact (ContactType)
 
-Элемент **Contact** указывает контакт в едином хранилище контактов. 
+Элемент **Contact** указывает контакт в Едином магазине контактов. 
   
 ```XML
 <Contact>
@@ -30,34 +30,34 @@ ms.locfileid: "44461522"
 </Contact>
 ```
 
- **контакттипе**
+ **ContactType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[PersonName](personname.md) <br/> |Указывает имя пользователя.  <br/> |
-|[BusinessName](businessname.md) <br/> |Указывает название организации.  <br/> |
-|[PhoneNumbers](phonenumbers.md) <br/> |Представляет коллекцию телефонных номеров контакта.  <br/> |
-|[Urls](urls.md) <br/> |Указывает массив URL-адресов для пользователя.  <br/> |
-|[EmailAddresses (Аррайофекстрактедемаиладдрессес)](emailaddresses-arrayofextractedemailaddresses.md) <br/> |Указывает массив извлеченных адресов электронной почты.  <br/> |
-|[Адреса (Аррайофаддрессестипе)](addresses-arrayofaddressestype.md) <br/> |Указывает массив элементов **Address** .  <br/> |
-|[контактстринг](contactstring.md) <br/> |Задает отображаемое имя контакта.  <br/> |
+|[PersonName](personname.md) <br/> |Указывает имя отдельного человека.  <br/> |
+|[BusinessName](businessname.md) <br/> |Указывает имя бизнеса.  <br/> |
+|[PhoneNumbers](phonenumbers.md) <br/> |Представляет коллекцию номеров телефонов для контакта.  <br/> |
+|[Urls](urls.md) <br/> |Указывает массив URL-адресов для персоны.  <br/> |
+|[EmailAddresses (ArrayOfExtractedEmailAddresses)](emailaddresses-arrayofextractedemailaddresses.md) <br/> |Указывает массив извлеченных адресов электронной почты.  <br/> |
+|[Addresses (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Указывает массив элементов **Address.**  <br/> |
+|[ContactString](contactstring.md) <br/> |Указывает имя отображения контакта.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Contacts (Аррайофконтактстипе)](contacts-arrayofcontactstype.md) <br/> |Указывает массив контактов.  <br/> |
+|[Contacts (ArrayOfContactsType)](contacts-arrayofcontactstype.md) <br/> |Указывает массив контактов.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -69,7 +69,7 @@ ms.locfileid: "44461522"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

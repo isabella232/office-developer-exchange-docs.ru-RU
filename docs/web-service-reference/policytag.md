@@ -1,52 +1,52 @@
 ---
-title: полицитаг
+title: PolicyTag
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa4b1447-dc7b-47ad-a677-78fcee443dc6
-description: Элемент Полицитаг указывает идентификатор хранения для элемента или папки.
-ms.openlocfilehash: ddc4d890d1e514586ba5ea7f6a8b541b2e4786c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PolicyTag указывает идентификатор хранения в элементе или папке.
+ms.openlocfilehash: 16759748dded6978e68450a6b8d504dd378c04be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460899"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519256"
 ---
-# <a name="policytag"></a>полицитаг
+# <a name="policytag"></a>PolicyTag
 
-Элемент **полицитаг** указывает идентификатор хранения для элемента или папки. 
+Элемент **PolicyTag** указывает идентификатор хранения в элементе или папке. 
   
 ```xml
 <PolicyTag IsExplicit="true | false"></PolicyTag>
 ```
 
- **ретентионтагтипе**
+ **RetentionTagType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|Явный  <br/> |Указывает, был ли явно задан тег политики для элемента или папки.  <br/> Текстовое значение **true** для атрибута **explicit** указывает на то, что тег политики был явно задан для элемента или папки. Текстовое значение **false** указывает на то, что тег политики неявно задан для элемента или папки на основе тега политики родительской папки.  <br/> |
+|IsExplicit  <br/> |Указывает, был ли метка политики явно установлена на элементе или папке.  <br/> Текстовое **значение, истинное** для атрибута **IsExplicit,** указывает на то, что тег политики был явно за установлен на элементе или папке. Текстовое значение **false** указывает на то, что тег политики был неявно установлен на элементе или папке на основе тега политики родительской папки.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Сеарчпревиевитем](searchpreviewitem.md)  |  [Элемент](item.md)  |  [Contact (контакт](contact.md)  |  ) [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [Дистрибутионлист](distributionlist.md)  |  [Календаритем](calendaritem.md)  |  [Элемент](postitem.md)  |  i [Task (задача](task.md) )
+[SearchPreviewItem](searchpreviewitem.md)  |  [Item](item.md)  |  [Контакт](contact.md)  |  [Сообщение](message-ex15websvcsotherref.md)  |  [DistributionList](distributionlist.md)  |  [CalendarItem](calendaritem.md)  |  [PostItem](postitem.md)  |  [Задача](task.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **полицитаг** — идентификатор тега политики. Идентификатор тега политики — GUID. 
+Текстовое значение элемента **PolicyTag** — идентификатор тега политики. Идентификатор тега политики — GUID. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44460899"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,23 +1,23 @@
 ---
-title: сеарчаблемаилбоксес
+title: SearchableMailboxes
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb0a7897-c642-4c93-a238-be03128af54e
-description: Элемент Сеарчаблемаилбоксес содержит массив почтовых ящиков, возвращенных из запроса GetSearchableMailboxes.
-ms.openlocfilehash: 5de15e1c2ae4a587052f836b189651450a1e7482
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SearchableMailboxes содержит массив почтовых ящиков, возвращаемых из запроса GetSearchableMailboxes.
+ms.openlocfilehash: 5d8b1f19a4d4e2e78ab4d4a251d3c7538ccdd9ff
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467447"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510843"
 ---
-# <a name="searchablemailboxes"></a>сеарчаблемаилбоксес
+# <a name="searchablemailboxes"></a>SearchableMailboxes
 
-Элемент **сеарчаблемаилбоксес** содержит массив почтовых ящиков, возвращенных из запроса **GetSearchableMailboxes** . 
+Элемент **SearchableMailboxes содержит** массив почтовых ящиков, возвращаемых из **запроса GetSearchableMailboxes.** 
   
 ```XML
 <SearchableMailboxes>
@@ -25,24 +25,24 @@ ms.locfileid: "44467447"
 </SearchableMailboxes>
 ```
 
- **аррайофсеарчаблемаилбоксестипе**
+ **ArrayOfSearchableMailboxesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[сеарчаблемаилбокс](searchablemailbox.md)
+[SearchableMailbox](searchablemailbox.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[жетсеарчаблемаилбоксесреспонсе](getsearchablemailboxesresponse.md)
+[GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44467447"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

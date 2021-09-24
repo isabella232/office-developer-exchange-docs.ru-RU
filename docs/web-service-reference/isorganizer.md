@@ -1,23 +1,23 @@
 ---
-title: Подорганизатор
+title: IsOrganizer
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a31ac268-5061-4272-a433-ffaea2fbcfa9
-description: Элемент, который указывает, является ли этот пользователь организатором собрания.
-ms.openlocfilehash: 45b7a66068dc00f6e60b7380240bea6836282fd4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsOrganizer указывает значение Boolean, которое указывает, является ли этот человек организатором собрания.
+ms.openlocfilehash: a60485146e333e69391dc1771b2c72ef25043a8b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466565"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518269"
 ---
-# <a name="isorganizer"></a>Подорганизатор
+# <a name="isorganizer"></a>IsOrganizer
 
-Элемент **, который указывает** , является ли этот пользователь организатором собрания. 
+Элемент **IsOrganizer** указывает значение Boolean, которое указывает, является ли этот человек организатором собрания. 
   
 ```XML
 <IsOrganizer>true | false</IsOrganizer>
@@ -26,28 +26,28 @@ ms.locfileid: "44466565"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[митингмессаже](meetingmessage.md) <br/> |Представляет сообщение о собрании.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Представляет сообщение собрания.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для **элемента "," указывает** на то, что пользователь создал элемент календаря или сообщение о собрании. Значение **false** указывает, что элемент календаря или сообщение о собрании не были созданы БВ пользователем. 
+Текстовое **значение, истинное** для **элемента IsOrganizer,** указывает, что элемент календаря или сообщение собрания был создан пользователем. Значение false **указывает,** что элемент календаря или сообщение собрания не были созданы bv пользователем. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -59,7 +59,7 @@ ms.locfileid: "44466565"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Generation
 api_type:
 - schema
 ms.assetid: a4812843-8aec-4fc4-945f-3aeb17a6593a
-description: Элемент Generation представляет аббревиатуру создания, которая соответствует полному имени контакта.
-ms.openlocfilehash: 75246153d19632c1a0ad245a460584731275565e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Generation представляет собой сокращение поколений, которое следует полному имени контакта.
+ms.openlocfilehash: 80065d52605c3ceb6647e9f80d009fdcc3c0758d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463022"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541281"
 ---
 # <a name="generation"></a>Generation
 
-Элемент **Generation** представляет аббревиатуру создания, которая соответствует полному имени контакта. 
+Элемент **Generation** представляет собой сокращение поколений, которое следует полному имени контакта. 
   
 ```xml
 <Generation/>
@@ -30,15 +30,15 @@ ms.locfileid: "44463022"
  **String**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,11 +48,11 @@ ms.locfileid: "44463022"
    
 ## <a name="text-value"></a>Текстовое значение
 
-При использовании этого элемента необходимо указать текстовое значение.
+Если используется этот элемент, требуется текстовое значение.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент представляет ту же информацию, которая представлена свойством PR_Generation MAPI.
+Этот элемент представляет те же сведения, что и PR_Generation MAPI.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44463022"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -72,7 +72,7 @@ ms.locfileid: "44463022"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
 [Обновление контактов](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   

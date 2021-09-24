@@ -1,23 +1,23 @@
 ---
-title: жетаппманифестсреспонсе
+title: GetAppManifestsResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86cf88f4-09c4-436a-a100-ac5cba0c4388
-description: Элемент Жетаппманифестсреспонсе определяет ответ на запрос операции GetAppManifests.
-ms.openlocfilehash: a01f6265d6d534e2f7868b17acf19f0f5d52a01f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetAppManifestsResponse определяет ответ на запрос операции GetAppManifests.
+ms.openlocfilehash: 06d814ddd7d8369cf54f156fd1bd493f8b933a25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462966"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541205"
 ---
-# <a name="getappmanifestsresponse"></a>жетаппманифестсреспонсе
+# <a name="getappmanifestsresponse"></a>GetAppManifestsResponse
 
-Элемент **жетаппманифестсреспонсе** определяет ответ на запрос операции **GetAppManifests** . 
+Элемент **GetAppManifestsResponse** определяет ответ на запрос операции **GetAppManifests.** 
   
 ```xml
 <GetAppManifestsResponse>
@@ -33,25 +33,25 @@ ms.locfileid: "44462966"
 </GetAppManifestsResponse>
 ```
 
-**жетаппманифестсреспонсетипе**
+**GetAppManifestsResponseType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Респонсекоде](responsecode.md)  |  [Манифесты](manifests.md)  |  [Приложения](apps.md)
+[ResponseCode](responsecode.md)  |  [Манифесты](manifests.md)  |  [Приложения](apps.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -63,7 +63,7 @@ ms.locfileid: "44462966"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

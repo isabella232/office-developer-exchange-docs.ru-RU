@@ -1,30 +1,30 @@
 ---
-title: дистингуишедграупби
+title: DistinguishedGroupBy
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DistinguishedGroupBy
 api_type:
 - schema
 ms.assetid: 6ff3ac48-02ba-40ec-a71b-c401bb2b127c
-description: Элемент Дистингуишедграупби предоставляет стандартные группирования для запросов FindItem.
-ms.openlocfilehash: 004613d55419a19f69e960203ae13d8d906b74c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DistinguishedGroupBy предоставляет стандартные группировки для запросов FindItem.
+ms.openlocfilehash: 8b6001994603e49cd1c77288a93cfb9270d51e21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463141"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511838"
 ---
-# <a name="distinguishedgroupby"></a>дистингуишедграупби
+# <a name="distinguishedgroupby"></a>DistinguishedGroupBy
 
-Элемент **дистингуишедграупби** предоставляет стандартные группирования для запросов FindItem. 
+Элемент **DistinguishedGroupBy** предоставляет стандартные группировки для запросов FindItem. 
   
 - [FindItem](finditem.md) 
-- [дистингуишедграупби](distinguishedgroupby.md)
+- [DistinguishedGroupBy](distinguishedgroupby.md)
   
 ```xml
 <DistinguishedGroupBy>
@@ -32,30 +32,30 @@ ms.locfileid: "44463141"
 </DistinguishedGroupBy>
 ```
 
- **дистингуишедграупбитипе**
+ **DistinguishedGroupByType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[стандардграупби](standardgroupby.md) <br/> |Представляет стандартные механизмы группирования и агрегирования для операции сгруппированной операции FindItem.  <br/> |
+|[StandardGroupBy](standardgroupby.md) <br/> |Представляет стандартные механизмы группировки и агрегации для сгруппированной операции FindItem.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Определяет запрос на поиск элементов в почтовом ящике.<br/><br/>Ниже приведено выражение XPath для этого элемента:`/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Определяет запрос на поиск элементов в почтовом ящике.<br/><br/>Ниже приводится выражение XPath к этому элементу:  `/FindItem` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **дистингуишедграупби** можно добавить в операцию FindItem при условии, что результаты должны быть сгруппированы, а одна из стандартных групп соответствует требованиям к группированию. Если не указан ни элемент **дистингуишедграупби** , ни элемент [GroupBy](groupby.md) , результаты FindItem будут отходиться на несгруппированные результаты. 
+Элемент **DistinguishedGroupBy** можно добавить в операцию FindItem, когда результаты должны возвращаться сгруппировка и когда одна из стандартных групп соответствует требованиям группировки. Если не задан **ни элемент DistinguishedGroupBy,** ни [элемент GroupBy,](groupby.md) результаты FindItem будут негруппироваться. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44463141"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

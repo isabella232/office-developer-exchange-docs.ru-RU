@@ -1,54 +1,54 @@
 ---
-title: Доступ к контактам как представителю с помощью EWS в Exchange
+title: Доступ к контактам в качестве делегата с помощью EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3cd34c14-18b0-4fe2-a4c2-d884318c88fc
-description: Узнайте, как получить доступ к контактам как представителю с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 06faf7dd7459b14792abbea21761e909c8eb9fb6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Узнайте, как получить доступ к контактам в качестве делегата с помощью управляемого API или EWS EWS в Exchange.
+ms.openlocfilehash: a1ebef7f447f0b04bb3f73a8c418f291399486e3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455347"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512193"
 ---
-# <a name="access-contacts-as-a-delegate-by-using-ews-in-exchange"></a>Доступ к контактам как представителю с помощью EWS в Exchange
+# <a name="access-contacts-as-a-delegate-by-using-ews-in-exchange"></a>Доступ к контактам в качестве делегата с помощью EWS в Exchange
 
-Узнайте, как получить доступ к контактам как представителю с помощью управляемого API EWS или EWS в Exchange.
+Узнайте, как получить доступ к контактам в качестве делегата с помощью управляемого API или EWS EWS в Exchange.
   
-С помощью управляемого API EWS или EWS вы можете предоставить пользователю доступ к папке контактов владельца почтового ящика. После этого делегат может создавать контакты от имени владельца почтового ящика, а также получать, обновлять и удалять контакты из папки "Контакты" владельца почтового ящика в зависимости от их разрешений.
+Вы можете использовать управляемый API или EWS EWS, чтобы предоставить пользователю доступ к папке Контакты владельца почтового ящика. Затем делегат может создавать контакты от имени владельца почтового ящика и извлекать, обновлять и удалять контакты из папки Контакты владельца почтового ящика в зависимости от их разрешений.
   
-В качестве представителя вы можете использовать те же методы и операции для доступа к папке контактов владельца почтового ящика, которая используется для доступа к собственной папке контактов. Основное отличие заключается в том, что для поиска или создания элемента контакта необходимо использовать [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicit) , а затем после определения идентификатора элемента можно использовать [неявный доступ](delegate-access-and-ews-in-exchange.md#bk_implicit) для получения, обновления или удаления элемента. 
+В качестве делегата вы используете те же методы и операции для доступа к папке Контактов владельца почтового ящика, которая используется для доступа к собственной папке Контакты. Главное отличие состоит в том, что для поиска или создания контактного элемента необходимо использовать явный [](delegate-access-and-ews-in-exchange.md#bk_implicit) доступ, а после идентификации элемента можно использовать неявный доступ для получения, обновления или удаления элемента. [](delegate-access-and-ews-in-exchange.md#bk_explicit) 
   
 **Таблица 1. Методы управляемого API EWS и операции EWS для доступа к контакту в качестве делегата**
 
 |**Задача**|**Используйте этот метод управляемого API EWS...**|**Используйте эту операцию EWS...**|
 |:-----|:-----|:-----|
-|Создание контакта в качестве представителя  <br/> |[Item. Save](https://msdn.microsoft.com/library/dd635209%28v=exchg.80%29.aspx) , где параметр [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке контактов владельца почтового ящика  <br/> |[CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) , где элемент [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) определяет значение [EmailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
-|Создание нескольких контактов в качестве делегата  <br/> |[ExchangeService. CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) , где параметр **FolderId** предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке контактов владельца почтового ящика  <br/> |[CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) , где элемент [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) определяет значение [EmailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
-|Разрешение контакта в качестве представителя  <br/> |[ExchangeService. ресолвенаме](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.resolvename%28v=exchg.80%29.aspx) , где параметр [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке контактов владельца почтового ящика  <br/> |[ResolveNames](https://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) , где элемент [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) определяет значение [EmailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
-|Поиск и поиск контакта в качестве представителя  <br/> |[ExchangeService. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) , где параметр **FolderId** предоставляет [явный доступ](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) к папке контактов владельца почтового ящика  <br/> |[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) , где элемент [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) определяет значение [EmailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
-|Получение контакта в качестве представителя  <br/> |[Contact. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
-|Обновление контакта представителем  <br/> |[Contact. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) , за которым следует [Contact. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , за которым следует [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Удаление контакта в качестве представителя  <br/> |[Contact. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) , за которым следует [Contact. Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , за которым следует [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
+|Создание контакта в качестве делегата  <br/> |[Item.Save,](https://msdn.microsoft.com/library/dd635209%28v=exchg.80%29.aspx) где параметр [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) предоставляет явный доступ к папке Контактов владельца почтового ящика [](delegate-access-and-ews-in-exchange.md#bk_explicitewsma)  <br/> |[CreateItem,](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) где элемент [почтовых ящиков](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) указывает [emailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
+|Создание нескольких контактов в качестве делегата  <br/> |[ExchangeService.CreateItems,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) где параметр **FolderId** предоставляет явный доступ к папке Контактов владельца почтового ящика [](delegate-access-and-ews-in-exchange.md#bk_explicitewsma)  <br/> |[CreateItem,](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) где элемент [почтовых ящиков](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) указывает [emailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
+|Разрешение контакта в качестве делегата  <br/> |[ExchangeService.ResolveName,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.resolvename%28v=exchg.80%29.aspx) где параметр [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) предоставляет явный доступ к папке Контакты владельца почтового ящика [](delegate-access-and-ews-in-exchange.md#bk_explicitewsma)  <br/> |[ResolveNames,](https://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) где элемент [почтовых ящиков](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) указывает [emailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
+|Поиск или поиск контакта в качестве делегата  <br/> |[ExchangeService.FindItems,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) где параметр **FolderId** предоставляет явный доступ к папке Контактов владельца почтового ящика [](delegate-access-and-ews-in-exchange.md#bk_explicitewsma)  <br/> |[FindItem,](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) где элемент [почтовых ящиков](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) указывает [emailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) владельца почтового ящика  <br/> |
+|Получить контакт в качестве делегата  <br/> |[Contact.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
+|Обновление контакта в качестве делегата  <br/> |[Contact.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) с [последующим обновлением Contact.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) с последующим [обновлениемItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|Удаление контакта в качестве делегата  <br/> |[Contact.Bind,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) а затем [Contact.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) следуют [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 > [!NOTE]
-> В примерах кода, приведенных в этой статье, primary@contoso.com является владельцем почтового ящика. 
+> В примерах кода в этой статье primary@contoso.com является владельцем почтового ящика. 
 
 <a name="bk_prereq"> </a>
 
-## <a name="prerequisite-tasks"></a>Предварительные задачи
+## <a name="prerequisite-tasks"></a>Обязательные задачи
 
-Прежде чем пользователь сможет получить доступ к папке контактов владельца почтового ящика в качестве представителя, пользователь должен быть [добавлен в качестве представителя с разрешениями](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md) для папки "Контакты" владельца почтового ящика. 
+Прежде чем пользователь сможет получить доступ к папке Контакты владельца почтового [](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md) ящика в качестве делегата, он должен быть добавлен в качестве делегата с разрешениями в папку Контакты владельца почтового ящика. 
 
 <a name="bk_createewsma"> </a>
 
 ## <a name="create-a-contact-as-a-delegate-by-using-the-ews-managed-api"></a>Создание контакта в качестве делегата с помощью управляемого API EWS
 
-Управляемый API EWS позволяет использовать объект Service для делегированного пользователя, чтобы создавать контакты для владельца почтового ящика. В этом примере показано, как использовать метод [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) для создания собрания и отправки приглашений на собрание участникам. 
+Управляемый API EWS позволяет использовать объект службы для пользователя делегирования для создания контактов для владельца почтового ящика. В этом примере показано, как использовать метод [Сохранить](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) для создания собрания и отправки запросов на собрания участникам. 
   
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для делегата, а представителю предоставлены соответствующие разрешения для папки "Контакты" владельца почтового ящика. 
+В этом примере предполагается, что служба является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для делегата и что делегату были предоставлены соответствующие разрешения для папки Контактов владельца почтового ящика.  
   
 ```cs
  public static void DelegateAccessCreateContact(ExchangeService service)
@@ -86,13 +86,13 @@ ms.locfileid: "44455347"
 }
 ```
 
-Обратите внимание, что при сохранении элемента вызов метода [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) должен определить папку контактов владельца почтового ящика. Если папка "Контакты" владельца почтового ящика не указана, приглашение на собрание сохраняется в папке "Контакты" представителя, а не в папке "Контакты" владельца почтового ящика. Вы можете включить папку контактов владельца почтового ящика в вызов метода **Save** двумя способами. Мы рекомендуем создать экземпляр нового экземпляра объекта [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) с помощью [веллкновнфолдернаме](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) и SMTP-адреса владельца почтового ящика. 
+Обратите внимание, что при сохранения элемента вызов метода [Сохранить](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) должен определить папку Контактов владельца почтового ящика. Если папка "Контакты" владельца почтового ящика не указана, запрос на собрание будет сохранен в папке Контакты делегата, а не в папку Контакты владельца почтового ящика. Вы можете включить папку Контактов владельца почтового ящика в вызов метода **Сохранить** двумя способом. Рекомендуется мгновенно использовать новый экземпляр объекта [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) с помощью [wellKnownFolderName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) и SMTP-адреса владельца почтового ящика. 
   
 ```cs
 contact.Save(new FolderId(WellKnownFolderName.Contacts, "primary@contoso.com"));
 ```
 
-Однако сначала можно [выполнить привязывание](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) к папке Contacts, а затем использовать идентификатор папки в вызове метода **Save** . Однако имейте в виду, что при этом создается дополнительный вызов EWS. 
+Однако сначала [можно](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) привязать к папке Контакты, а затем использовать ID папки в вызове метода **Сохранить.** Однако следует помнить, что это создает дополнительный вызов EWS. 
   
 ```cs
     // Identify the mailbox owner's SMTP address 
@@ -106,11 +106,11 @@ contact.Save(new FolderId(WellKnownFolderName.Contacts, "primary@contoso.com"));
 
 <a name="bk_createews"> </a>
 
-## <a name="create-a-contact-as-a-delegate-by-using-ews"></a>Создание контакта в качестве представителя с помощью EWS
+## <a name="create-a-contact-as-a-delegate-by-using-ews"></a>Создание контакта в качестве делегата с помощью EWS
 
-Служба EWS позволяет использовать объект Service для делегированного пользователя, чтобы создавать элементы контактов для владельца почтового ящика. В этом примере показано, как использовать операцию [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания контакта. 
+EWS позволяет использовать объект службы для пользователя делегирования для создания контактных элементов для владельца почтового ящика. В этом примере показано, как использовать [операцию CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) для создания контакта. 
   
-Это также запрос XML, который отправляет управляемый API EWS при использовании метода **Save** для [создания контакта](#bk_createewsma).
+Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **Сохранить** [для создания контакта.](#bk_createewsma)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -153,13 +153,13 @@ contact.Save(new FolderId(WellKnownFolderName.Contacts, "primary@contoso.com"));
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает, что контакт был создан успешно. Ответ также содержит идентификатор элемента нового контакта.
+Сервер отвечает на запрос **CreateItem сообщением** [CreateItemResponse,](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) которое включает элемент [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) значения **NoError,** что указывает на успешное создание контакта. В ответе также содержится ID элемента вновь созданного контакта.
 
 <a name="bk_resolveewsma"> </a>
 
-## <a name="resolve-a-contact-as-a-delegate-by-using-the-ews-managed-api"></a>Разрешение контакта в качестве делегата с помощью управляемого API EWS
+## <a name="resolve-a-contact-as-a-delegate-by-using-the-ews-managed-api"></a>Разрешить контакт в качестве делегата с помощью управляемого API EWS
 
-Чтобы найти контакт на основе потенциально неоднозначного имени или термина, необходимо использовать один из методов [ExchangeService. ресолвенаме](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.resolvename%28v=exchg.80%29.aspx) , включающий параметр [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) , чтобы можно было указать папку контактов владельца почтового ящика. 
+Чтобы найти контакт на основе возможно неоднозначного имени или термина, необходимо использовать один из методов [ExchangeService.ResolveName,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.resolvename%28v=exchg.80%29.aspx) который включает параметр [FolderId,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) чтобы можно было указать папку контактов владельца почтового ящика. 
   
 ```cs
 private static void DelegateAccessResolveContacts(ExchangeService service)
@@ -184,15 +184,15 @@ private static void DelegateAccessResolveContacts(ExchangeService service)
 }
 ```
 
-После того как вызов метода **ResolveNames** возвращает ответ с идентификатором, вы можете [получить, обновить или удалить контакт](#bk_getewsma) с помощью идентификатора и [неявного доступа](delegate-access-and-ews-in-exchange.md#bk_implicit) &mdash; , а также не указывать SMTP-адрес владельца почтового ящика. 
+После того как вызов **метода ResolveNames** возвращает ответ с помощью ID, вы можете [](delegate-access-and-ews-in-exchange.md#bk_implicit) [получить,](#bk_getewsma) обновить или удалить контакт с помощью ID и неявного доступа, и вам не нужно указывать SMTP-адрес владельца почтового &mdash; ящика. 
 
 <a name="bk_resolveews"> </a>
 
-## <a name="resolve-a-contact-as-a-delegate-by-using-ews"></a>Разрешение контакта в качестве делегата с помощью EWS
+## <a name="resolve-a-contact-as-a-delegate-by-using-ews"></a>Разрешить контакт в качестве делегата с помощью EWS
 
-Служба EWS позволяет использовать объект Service для делегированного пользователя для разрешения частичных имен в папке "Контакты" владельца почтового ящика. В этом примере показано, как использовать операцию [ResolveNames](https://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) для поиска собраний в папке "Контакты" владельца почтового ящика, содержащей слово "Johnson". 
+EWS позволяет использовать объект службы для пользователя делегирования для устранения частичных имен в папке Контакты владельца почтового ящика. В этом примере показано, как использовать операцию [ResolveNames](https://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) для поиска собраний в папке Контакты владельца почтовых ящиков, содержащих слово "джонсон". 
   
-Это также запрос XML, который отправляет управляемый API EWS при использовании метода **ресолвенаме** для [разрешения контакта](#bk_resolveewsma).
+Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **ResolveName** для [разрешения контакта.](#bk_resolveewsma)
   
 ```xml
  <?xml version="1.0" encoding="utf-8"?>
@@ -219,9 +219,9 @@ private static void DelegateAccessResolveContacts(ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **ResolveNames** с сообщением [ресолвенамесреспонсе](https://msdn.microsoft.com/library/5e7be1e2-44ea-403f-9135-2388d030078c%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает на то, что операция выполнена успешно и обнаружила только один результат, или **еррорнамересолутионмултиплересултс** , если найдено несколько результатов (то есть в третьем примере кода, основанном на контакте [Создание контакта в качестве делегата с помощью управляемого API EWS](#bk_createewsma)). Ответ также содержит идентификатор [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) каждого результата. 
+Сервер отвечает на запрос **ResolveNames** [сообщением ResolveNamesResponse,](https://msdn.microsoft.com/library/5e7be1e2-44ea-403f-9135-2388d030078c%28Office.15%29.aspx) которое включает в себя значение элемента [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError,** которое указывает, что операция успешно выполнена и найден только один результат, или **ErrorNameResolutionMultipleResults,** если найдено несколько результатов , что показано в третьем примере кода на основе контакта Создать контакт в качестве делегата с помощью управляемого [API EWS](#bk_createewsma). Ответ также содержит [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) каждого результата. 
   
-Значение элемента **ItemId** было сокращено для удобочитаемости. 
+Значение элемента **ItemId** было сокращено для читаемости. 
   
 ```XML
  <?xml version="1.0" encoding="utf-8"?>
@@ -275,41 +275,41 @@ private static void DelegateAccessResolveContacts(ExchangeService service)
 </s:Envelope>
 ```
 
-Теперь, когда у вас есть идентификатор **ItemId** для контактов, которые совпадают с неоднозначным именем, вы можете [получать, обновлять и удалять элементы контакта в качестве делегата с помощью EWS](#bk_getews) , используя идентификатор **ItemId** и [неявный доступ](delegate-access-and-ews-in-exchange.md#bk_implicit) &mdash; , и вам не нужно указывать SMTP-адрес владельца почтового ящика. 
+Теперь, когда у вас есть **ItemId** для контактов, которые совпадают с неоднозначным именем, вы можете получить, [](delegate-access-and-ews-in-exchange.md#bk_implicit)обновить или удалить элементы контакта в качестве делегата с помощью [EWS](#bk_getews) с помощью **ItemId** и неявного доступа, и вам не нужно указывать SMTP-адрес владельца почтового &mdash; ящика. 
 
 <a name="bk_getewsma"> </a>
 
-## <a name="get-update-or-delete-contact-items-as-a-delegate-by-using-the-ews-managed-api"></a>Получение, обновление и удаление элементов контактов в качестве делегата с помощью управляемого API EWS
+## <a name="get-update-or-delete-contact-items-as-a-delegate-by-using-the-ews-managed-api"></a>Получите, обновите или удалите контактные элементы в качестве делегата с помощью управляемого API EWS
 
-Вы можете использовать управляемый API EWS для получения, обновления или удаления контакта аналогично выполнению этих действий, если вы не используете делегированный доступ. Единственное отличие заключается в том, что объект службы предназначен для делегированного пользователя. Идентификатор элемента, включенный в вызов метода **BIND** , уникальным образом определяет элемент в хранилище почтовых ящиков в папке "Контакты" владельца почтового ящика. 
+Управляемый API EWS можно использовать для получения, обновления или удаления контакта таким же образом, как вы выполняете эти действия, если вы не используете доступ делегатов. Единственное отличие состоит в том, что объект службы для пользователя делегирования. Идентификатор элемента, включенный в вызов метода **Bind,** однозначно идентифицирует элемент в магазине почтовых ящиков в папке Контакты владельца почтового ящика. 
   
 **Таблица 2. Методы управляемого API EWS, работающие с контактом в качестве делегата**
 
 |**Задача**|**Метод управляемого API EWS**|**Пример кода**|
 |:-----|:-----|:-----|
-|Получение контакта.  <br/> |[Базу](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[Получение элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getewsma) <br/> |
-|Обновление контакта  <br/> |[Привязка](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) , за которой следует [Обновление](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[Изменение элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_updateewsma) <br/> |
-|Удалить контакт  <br/> |[Привязка](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) , за которой следует [Удаление](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[Удаление элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma) <br/> |
+|Получение контакта.  <br/> |[Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[Получение элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getewsma) <br/> |
+|Обновление контакта  <br/> |[Привязка](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) с последующим [обновлением](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[Изменение элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_updateewsma) <br/> |
+|Удалить контакт  <br/> |[Привязка](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) с последующим [удалением](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[Удаление элемента с помощью управляемого API EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma) <br/> |
 
 <a name="bk_getews"> </a>
 
-## <a name="get-update-or-delete-contact-items-as-a-delegate-by-using-ews"></a>Получение, обновление и удаление элементов контактов в качестве делегата с помощью EWS
+## <a name="get-update-or-delete-contact-items-as-a-delegate-by-using-ews"></a>Получить, обновить или удалить контактные элементы в качестве делегата с помощью EWS
 
-С помощью EWS вы можете получать, обновлять и удалять контакты собрания или встречи так же, как и при использовании делегированного доступа. Единственное отличие заключается в том, что объект службы предназначен для делегированного пользователя. Идентификатор элемента, включенный в запрос [GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , однозначно определяет элемент в хранилище почтовых ящиков в папке "Контакты" владельца почтового ящика. 
+Вы можете использовать EWS для получения, обновления или удаления контакта собрания или встречи так же, как вы выполняете эти действия, если вы не используете доступ делегатов. Единственное отличие состоит в том, что объект службы для пользователя делегирования. Идентификатор элемента, включенный в запрос [GetItem,](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) однозначно идентифицирует элемент в магазине почтовых ящиков в папке Контакты владельца почтового ящика. 
   
 **Таблица 3. Операции EWS для работы с контактом в качестве делегата**
 
-|**Task**|**Операция служб EWS**|**Пример**|
+|**Задача**|**Операция служб EWS**|**Пример**|
 |:-----|:-----|:-----|
 |Получение контакта.  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |[Получение элемента с помощью веб-служб Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getews) <br/> |
-|Обновление контакта  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , за которым следует [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |[Изменение элемента с помощью веб-служб Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_updateews) <br/> |
-|Удалить контакт  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , за которым следует [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |[Удаление элемента с помощью веб-служб Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews) <br/> |
+|Обновление контакта  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) с последующим [обновлениемItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |[Изменение элемента с помощью веб-служб Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_updateews) <br/> |
+|Удалить контакт  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) следуют [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |[Удаление элемента с помощью веб-служб Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews) <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Передача прав доступа и EWS в Exchange](delegate-access-and-ews-in-exchange.md)
 - [Добавление и удаление делегатов с помощью EWS в Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
-- [Задание разрешений для папки другого пользователя с помощью EWS в Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
+- [Установите разрешения папок для другого пользователя с помощью EWS в Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
 - [Пользователи и контакты в EWS для Exchange](people-and-contacts-in-ews-in-exchange.md)
 - [Устранение неоднозначности имен с помощью EWS в Exchange 2013](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md)
     

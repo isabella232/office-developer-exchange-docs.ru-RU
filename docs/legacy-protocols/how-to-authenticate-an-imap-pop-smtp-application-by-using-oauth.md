@@ -4,12 +4,12 @@ description: Узнайте, как использовать проверку п
 author: svpsiva
 ms.date: 07/08/2021
 ms.audience: Developer
-ms.openlocfilehash: 4a307a6e329d5320b2b304d17a78a61db6d111bd
-ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
+ms.openlocfilehash: cfc9de18a53ce4cfdd8535f26fe3b04aab9cde55
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58764590"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531325"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Проверка подлинности подключения IMAP, POP или SMTP с помощью OAuth
 
@@ -17,7 +17,7 @@ ms.locfileid: "58764590"
 
 > Поддержка OAuth2 протоколов IMAP, POP, SMTP, как описано ниже, поддерживается как для пользователей Microsoft 365 (включая Office в Интернете), так и для Outlook.com.
 
-Если вы не знакомы с протоколом OAuth 2.0, начните с чтения протокола [OAuth 2.0](/azure/active-directory/develop/active-directory-v2-protocols)в платформа удостоверений Майкрософт обзоре. Дополнительные сведения о либарисах проверки подлинности Майкрософт (MSAL), реализующих протокол OAuth 2.0 для проверки подлинности пользователей и доступа к безопасным API, см. в обзоре [MSAL.](/azure/active-directory/develop/msal-overview)
+Если вы не знакомы с протоколом OAuth 2.0, начните с чтения протокола [OAuth 2.0](/azure/active-directory/develop/active-directory-v2-protocols)в платформа удостоверений Майкрософт обзоре. Дополнительные сведения о библиотеках проверки подлинности Майкрософт (MSAL), которые реализуют протокол OAuth 2.0 для проверки подлинности пользователей и доступа к защищенным API, см. в обзоре [MSAL.](/azure/active-directory/develop/msal-overview)
 
 Вы можете использовать службу проверки подлинности OAuth, предоставляемую Azure Active Directory, чтобы позволить приложению подключаться к протоколам IMAP, POP или SMTP для доступа к Exchange Online в Office 365. Чтобы использовать OAuth с приложением, необходимо:
 

@@ -1,27 +1,27 @@
 ---
-title: маилбокссмтпаддресс
+title: MailboxSmtpAddress
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailboxSmtpAddress
 api_type:
 - schema
 ms.assetid: de7c9035-ebbc-4473-ac14-3b22ce62768c
-description: Элемент Маилбокссмтпаддресс представляет SMTP-адрес пользователя, чьи правила папки "Входящие" извлекаются или обновляются; или Дата окончания срока действия пароля, который необходимо получить.
-ms.openlocfilehash: 613e8098210257280bec47f2b22a2d29d04fa07c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MailboxSmtpAddress представляет SMTP-адрес пользователя, правила которого должны быть извлечены или обновлены; или срок действия пароля, который должен быть извлечен.
+ms.openlocfilehash: 86a39c416b9674e1f48f0a75508c003ad9d620f1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511133"
 ---
-# <a name="mailboxsmtpaddress"></a>маилбокссмтпаддресс
+# <a name="mailboxsmtpaddress"></a>MailboxSmtpAddress
 
-Элемент **маилбокссмтпаддресс** представляет SMTP-адрес пользователя, чьи правила папки "Входящие" извлекаются или обновляются; или Дата окончания срока действия пароля, который необходимо получить. 
+Элемент **MailboxSmtpAddress** представляет SMTP-адрес пользователя, правила которого должны быть извлечены или обновлены; или срок действия пароля, который должен быть извлечен. 
   
 ```XML
 <MailboxSmtpAddress/>
@@ -31,31 +31,31 @@ ms.locfileid: "44530546"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetInboxRules](getinboxrules.md) <br/> |Определяет запрос на получение правил для папки "Входящие" для почтового ящика в хранилище сервера.  <br/> |
-|[GetPasswordExpirationDate](getpasswordexpirationdate.md) <br/> |Определяет запрос на получение даты истечения срока действия пароля учетной записи электронной почты.  <br/> |
-|[UpdateInboxRules](updateinboxrules.md) <br/> |Определяет запрос на обновление правил папки "Входящие" в почтовом ящике в хранилище сервера.  <br/> |
+|[GetInboxRules](getinboxrules.md) <br/> |Определяет запрос для получения правил входящие в почтовый ящик в серверном магазине.  <br/> |
+|[GetPasswordExpirationDate](getpasswordexpirationdate.md) <br/> |Определяет запрос для получения даты истечения срока действия пароля учетной записи электронной почты.  <br/> |
+|[UpdateInboxRules](updateinboxrules.md) <br/> |Определяет запрос на обновление правил "Входящие" в почтовом ящике в серверном магазине.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **маилбокссмтпаддресс** является необязательным элементом. Если элемент **маилбокссмтпаддресс** опущен, используется адрес пользователя, выполнившего вход в систему. 
+Элемент **MailboxSmtpAddress** является необязательным элементом. Если **элемент MailboxSmtpAddress** опущен, используется адрес зарегистрированного пользователя. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44530546"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

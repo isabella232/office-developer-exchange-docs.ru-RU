@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7707aa6a-381d-43f7-a454-54f6343ed127
-description: Поиск сведений о UninstallAppной операции EWS.
-ms.openlocfilehash: 27931636ee13a251fb03fe804987d7b01a325230
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции UninstallApp EWS.
+ms.openlocfilehash: 8a301360b2b4c38d85e8c5be2e80c79378d0fd97
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467153"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527148"
 ---
 # <a name="uninstallapp-operation"></a>Операция UninstallApp
 
-Поиск сведений о **UninstallAppной** операции EWS. 
+Сведения об операции **UninstallApp** EWS. 
   
-При выполнении операции **UninstallApp** удаляется почтовое приложение для Outlook. 
+Операция **UninstallApp** анинсталирует почтовое приложение для Outlook. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-uninstallapp-operation"></a>Использование операции UninstallApp
 
-Операция **UninstallApp** принимает в запросе один аргумент, идентифицирующий почтовое приложение, которое требуется удалить. 
+Операция **UninstallApp** принимает один аргумент в запросе, который идентифицирует почтовое приложение, чтобы удалить. 
   
-### <a name="uninstallapp-operation-soap-headers"></a>Заголовки SOAP операции UninstallApp
+### <a name="uninstallapp-operation-soap-headers"></a>Заглавы операции UninstallApp
 
-Операция **UninstallApp** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+Операция **UninstallApp** может использовать заглавные таблицы SOAP, перечисленные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="uninstallapp-operation-request-example-uninstall-a-mail-app-in-a-mailbox"></a>Пример запроса операции UninstallApp: Удаление почтового приложения в почтовом ящике
+## <a name="uninstallapp-operation-request-example-uninstall-a-mail-app-in-a-mailbox"></a>Пример запроса на операцию UninstallApp: удалить почтовое приложение в почтовом ящике
 
-В следующем примере запроса операции **UninstallApp** показано, как удалить почтовое приложение с помощью идентификатора приложения. Идентификатор приложения можно найти в манифесте приложения, возвращенном [операцией GetAppManifests](getappmanifests-operation.md).
+В следующем примере запроса операции **UninstallApp** показано, как удалить почтовое приложение с помощью идентификатора приложения. Идентификатор приложения можно найти в манифесте приложения, возвращаемом операцией [GetAppManifests.](getappmanifests-operation.md)
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -56,15 +56,15 @@ ms.locfileid: "44467153"
 </soap:Envelope>
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [UninstallApp](uninstallapp.md)
     
 - [ID (строка)](id-string.md)
     
-## <a name="successful-uninstallapp-operation-response"></a>Успешный отклик операции UninstallApp
+## <a name="successful-uninstallapp-operation-response"></a>Успешный ответ на операцию UninstallApp
 
-В следующем примере показан успешный ответ на запрос операции **UninstallApp** для удаления почтового приложения. 
+В следующем примере показан успешный ответ на запрос операции **UninstallApp,** чтобы удалить почтовое приложение. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,15 +90,15 @@ ms.locfileid: "44467153"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [унинсталлаппреспонсе](uninstallappresponse.md)
+- [UninstallAppResponse](uninstallappresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-## <a name="uninstallapp-operation-error-response"></a>Ответ об ошибке операции UninstallApp
+## <a name="uninstallapp-operation-error-response"></a>Ответ на ошибку операции UninstallApp
 
-В следующем примере показан ответ об ошибке для запроса операции **UninstallApp** . Это ответ на запрос на удаление почтового приложения, которое уже удалено. 
+В следующем примере показан ответ на ошибку на запрос операции **UninstallApp.** Это ответ на запрос о том, чтобы удалить почтовое приложение, которое уже было неустановлено. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -126,17 +126,17 @@ ms.locfileid: "44467153"
 </s:Envelope>
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [унинсталлаппреспонсе](uninstallappresponse.md)
+- [UninstallAppResponse](uninstallappresponse.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
+Дополнительные коды ошибок, общие для EWS и специфические для этой операции, см. [в ответе.](responsecode.md)
   
 ## <a name="see-also"></a>См. также
 

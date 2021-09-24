@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1124eac3-ebf2-4b81-96d3-96838c840433
-description: Элемент PictureData содержит поток данных изображения.
-ms.openlocfilehash: 1d131e88a4927b0b0d3d873ea73973389b46e615
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PictureData содержит поток данных изображений.
+ms.openlocfilehash: 623ddf6d1340ef1d37eec73d501414704bcef434
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466257"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528025"
 ---
 # <a name="picturedata"></a>PictureData
 
-Элемент **PictureData** содержит поток данных изображения. 
+Элемент **PictureData** содержит поток данных изображений. 
   
 ```XML
 <PictureData></PictureData>
@@ -26,25 +26,25 @@ ms.locfileid: "44466257"
  **base64Binary**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[жетусерфотореспонсе](getuserphotoresponse.md)
+[GetUserPhotoResponse](getuserphotoresponse.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **PictureData** — это поток данных изображений в кодировке Base64. 
+Текстовое значение элемента **PictureData** — это базовый поток данных изображений. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44466257"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

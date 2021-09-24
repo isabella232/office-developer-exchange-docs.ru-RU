@@ -1,40 +1,40 @@
 ---
-title: дисаблереасон
+title: DisableReason
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f41b5be6-9b79-4e83-8cdb-aa779e13cb3f
-description: Элемент Дисаблереасон указывает причину отключения приложения.
-ms.openlocfilehash: 1406d69647bde5389dc9bb61adf7537a57d5adfc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DisableReason указывает причину отключения приложения.
+ms.openlocfilehash: 8156dac17e81dd1c3f49575491924185b04d53e9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463673"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528838"
 ---
-# <a name="disablereason"></a>дисаблереасон
+# <a name="disablereason"></a>DisableReason
 
-Элемент **дисаблереасон** указывает причину отключения приложения. 
+Элемент **DisableReason** указывает причину отключения приложения. 
   
 ```XML
 <DisableReason> NoReason | OutlookClientPerformance | OWAClientPerformance | MobileClientPerformance </DisableReason>
 ```
 
- **дисаблереасонтипе**
+ **DisableReasonType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -44,16 +44,16 @@ ms.locfileid: "44463673"
    
 ## <a name="text-value"></a>Текстовое значение
 
-**Текстовое значение элемента Дисаблереасон**
+**Значение текста элемента DisableReason**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Причина  <br/> |Причина не задана  <br/> |
-|аутлукклиентперформанце  <br/> |Для повышения производительности почтового клиента.  <br/> |
-|оваклиентперформанце  <br/> |Для повышения производительности клиента веб-приложения.  <br/> |
-|мобилеклиентперформанце  <br/> |Для повышения производительности мобильных клиентов.  <br/> |
+|NoReason  <br/> |Причина не дается  <br/> |
+|OutlookClientPerformance  <br/> |Повышение производительности клиента электронной почты.  <br/> |
+|OWAClientPerformance  <br/> |Повышение производительности клиентов веб-приложений.  <br/> |
+|MobileClientPerformance  <br/> |Повышение производительности мобильных клиентов.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44463673"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

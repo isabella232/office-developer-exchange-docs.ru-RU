@@ -1,31 +1,31 @@
 ---
-title: синкфолдеритемсреспонсемессаже
+title: SyncFolderItemsResponseMessage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderItemsResponseMessage
 api_type:
 - schema
 ms.assetid: f58e773f-94a7-4729-90f0-ac4c71b4ba59
-description: Элемент Синкфолдеритемсреспонсемессаже содержит состояние и результат одного запроса операции SyncFolderItems.
-ms.openlocfilehash: 87de1b679fad4affa29a6dfdea72f5312b9191d5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SyncFolderItemsResponseMessage содержит состояние и результат одного запроса на операцию SyncFolderItems.
+ms.openlocfilehash: c11f896c2d9f0dec498a4e2048aa78d17da33d0e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463043"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531441"
 ---
-# <a name="syncfolderitemsresponsemessage"></a>синкфолдеритемсреспонсемессаже
+# <a name="syncfolderitemsresponsemessage"></a>SyncFolderItemsResponseMessage
 
-Элемент **синкфолдеритемсреспонсемессаже** содержит состояние и результат одного запроса [операции SyncFolderItems](syncfolderitems-operation.md) . 
+Элемент **SyncFolderItemsResponseMessage** содержит состояние и результат одного запроса на операцию [SyncFolderItems.](syncfolderitems-operation.md) 
   
-- [синкфолдеритемсреспонсе](syncfolderitemsresponse.md) 
-- [респонсемессажес](responsemessages.md)
-- [синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md)
+- [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
+- [ResponseMessages](responsemessages.md)
+- [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
   
 ```xml
 <SyncFolderItemsResponseMessage ResponseClass="">
@@ -39,42 +39,42 @@ ms.locfileid: "44463043"
 </SyncFolderItemsResponseMessage>
 ```
 
- **синкфолдеритемсреспонсемессажетипе**
+ **SyncFolderItemsResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**респонсекласс** <br/> | Описывает состояние ответа [операции SyncFolderItems](syncfolderitems-operation.md) . <br/><br/>Для этого атрибута допустимы следующие значения: <br/> <br/>Успешное выполнение  <br/>— Предупреждение  <br/>— Ошибка  <br/> |
+|**ResponseClass** <br/> | Описывает состояние ответа на операцию [SyncFolderItems.](syncfolderitems-operation.md) <br/><br/>Для данного атрибута допустимы следующие значения: <br/> <br/>–  Success  <br/>–  Warning  <br/>–  Error  <br/> |
    
-#### <a name="responseclass-attribute"></a>Атрибут Респонсекласс
+#### <a name="responseclass-attribute"></a>Атрибут ResponseClass
 
 |**Значение**|**Описание**|
 |:-----|:-----|
 |**Success** <br/> |Описывает выполненный запрос.  <br/> |
-|**Warning** <br/> | Описывает запрос, который не был обработан. Если при обработке элемента в запросе возникла ошибка, и последующие элементы не могут быть обработаны, может быть возвращено предупреждение. <br/><br/>Ниже приведены примеры источников предупреждений.  <br/><br/>— Хранилище Exchange находится в автономном режиме во время выполнения пакета.  <br/>-Доменные службы Active Directory (AD DS) находятся в автономном режиме.  <br/>— Почтовые ящики были перемещены.  <br/>— База данных сообщений (MDB) находится в автономном режиме.  <br/>— Срок действия пароля истек.  <br/>— Превышена квота.  <br/> |
-|**Error** <br/> | Описывает запрос, который не может быть выполнен. <br/><br/>Ниже приведены примеры источников ошибок.  <br/><br/>— Недопустимые атрибуты или элементы  <br/>— Атрибуты или элементы, которые выходят за пределы допустимого диапазона  <br/>— Неизвестный тег  <br/>— Атрибут или элемент, который не является допустимым в контексте  <br/>— Любой клиент пытается получить любой несанкционированный доступ.  <br/>— Любой сбой на стороне сервера в ответ на действительный вызов на стороне клиента  <br/>  <br/>Сведения об ошибке можно найти в элементах [респонсекоде](responsecode.md) и [мессажетекст](messagetext.md) .  <br/> |
+|**Warning** <br/> | Описывает необработанный запрос. Предупреждение может быть возвращено, если ошибка произошла при обработке элемента в запросе и последующие элементы не могут быть обработаны. <br/><br/>Ниже приведены примеры источников предупреждений:  <br/><br/>– Хранилище Exchange находится в автономном режиме при обработке пакета.  <br/>– Доменные службы Active Directory (AD DS) находятся в автономном режиме.  <br/>- Почтовые ящики были перемещены.  <br/>– База данных сообщений (MDB) находится в автономном режиме.  <br/>- Срок действия пароля истек.  <br/>- Квота была превышена.  <br/> |
+|**Error** <br/> | Описывает запрос, который невозможно выполнить. <br/><br/>Ниже приведены примеры источников ошибок:  <br/><br/>– Недопустимые атрибуты или элементы  <br/>- Атрибуты или элементы, которые находятся вне диапазона  <br/>- Неизвестный тег  <br/>— атрибут или элемент, не допустимый в контексте  <br/>- Любая несанкционированная попытка доступа любого клиента  <br/>- Любой сбой на стороне сервера в ответ на допустимый клиентский вызов  <br/>  <br/>Сведения об ошибке доступны в элементах [ResponseCode](responsecode.md) и [MessageText](messagetext.md).  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[мессажетекст](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
-|[респонсекоде](responsecode.md) <br/> |Предоставляет код ошибки, определяющий конкретную ошибку, обнаруженную в запросе.  <br/> |
-|[дескриптивелинккэй](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервировано для последующего использования. Он содержит значение 0.  <br/> |
-|[мессажексмл](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке.  <br/> |
-|[синкстате](syncstate-ex15websvcsotherref.md) <br/> |Содержит форму синхронизации данных с кодировкой base64, которая обновляется после каждого успешного выполнения запроса. Используется для определения состояния синхронизации.  <br/> |
-|[инклудесластитеминранже](includeslastiteminrange.md) <br/> |Указывает, включен ли в ответ последний элемент для синхронизации.  <br/> |
-|[Изменения (элементы)](changes-items.md) <br/> |Содержит массив последовательности типов изменений, которые представляют типы различий между элементами на клиенте и элементами на сервере Exchange.  <br/> |
+|[MessageText](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Предоставляет код ошибки, определяющий конкретную ошибку, с которой столкнулся запрос.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервирован для последующего применения. Он содержит значение 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Предоставляет дополнительные сведения об отклике с ошибкой.  <br/> |
+|[SyncState](syncstate-ex15websvcsotherref.md) <br/> |Содержит кодированную базовую форму данных синхронизации, обновляемую после каждого успешного запроса. Это используется для определения состояния синхронизации.  <br/> |
+|[IncludesLastItemInRange](includeslastiteminrange.md) <br/> |Указывает, включен ли последний элемент для синхронизации в ответ.  <br/> |
+|[Changes (Items)](changes-items.md) <br/> |Содержит массив типов изменений последовательности, которые представляют типы различий между элементами клиента и элементами на Exchange сервере.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения отклика для запроса веб-служб Exchange.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -86,7 +86,7 @@ ms.locfileid: "44463043"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

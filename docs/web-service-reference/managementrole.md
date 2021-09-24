@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5ee3299-1b2c-4a2a-9fe4-997febc7267a
-description: Элемент ManagementRole указывает список ролей управления пользователями и приложениями.
-ms.openlocfilehash: 4e4ac1b38869d3c5dabe142c63b2aac9477036fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ManagementRole указывает список ролей пользователя и управления приложениями.
+ms.openlocfilehash: 806b27c36eec3715e44db2dbc6762ba2472e7a09
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44450916"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519347"
 ---
 # <a name="managementrole"></a>ManagementRole
 
-Элемент **ManagementRole** указывает список ролей управления пользователями и приложениями. 
+Элемент **ManagementRole** указывает список ролей пользователя и управления приложениями. 
   
 ```XML
 <ManagementRole>
@@ -26,24 +26,24 @@ ms.locfileid: "44450916"
 </ManagementRole>
 ```
 
- **манажементролетипе**
+ **ManagementRoleType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[UserRoles](userroles.md)  |  [Аппликатионролес](applicationroles.md)
+[UserRoles](userroles.md)  |  [ApplicationRoles](applicationroles.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44450916"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,23 +1,23 @@
 ---
-title: контентекспиридате
+title: ContentExpiryDate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 475351f7-e8c1-4494-92e5-83bdb4bf2eaf
-description: Элемент Контентекспиридате указывает дату окончания срока действия контента.
-ms.openlocfilehash: 80081de9cd45d8d63b8a1a1e29da38514f2c2d82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ContentExpiryDate указывает срок действия контента.
+ms.openlocfilehash: 57c60d8c438179fad30d58ee8670435c018dcdaf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527112"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511988"
 ---
-# <a name="contentexpirydate"></a>контентекспиридате
+# <a name="contentexpirydate"></a>ContentExpiryDate
 
-Элемент **контентекспиридате** указывает дату окончания срока действия контента. 
+Элемент **ContentExpiryDate** указывает срок действия контента. 
   
 ```XML
 <ContentExpiryDate></ContentExpiryDate>
@@ -26,27 +26,27 @@ ms.locfileid: "44527112"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ригхтсманажементлиценседата](rightsmanagementlicensedata.md) <br/> |Указывает сведения о лицензии на управление правами.  <br/> |
+|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Указывает сведения о лицензии на управление правами.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **контентекспиридате** — это строка, указывающая срок действия контента. 
+Текстовое значение элемента **ContentExpiryDate** — это строка, указывая дату истечения срока действия контента. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44527112"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

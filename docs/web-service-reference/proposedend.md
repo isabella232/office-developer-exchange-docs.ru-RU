@@ -1,50 +1,50 @@
 ---
-title: пропоседенд
+title: ProposedEnd
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8b574dd-ce26-424f-b0f5-3311d93a4806
-description: Элемент Пропоседенд указывает предполагаемое время окончания собрания.
-ms.openlocfilehash: 68ad4bb7c3a4d78695ccb88c0994cafd0956828f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ProposedEnd указывает предлагаемое время окончания собрания.
+ms.openlocfilehash: 13d74c1fda54fce028ea64d62dbbfbe9a076b234
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529905"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519158"
 ---
-# <a name="proposedend"></a>пропоседенд
+# <a name="proposedend"></a>ProposedEnd
 
-Элемент **пропоседенд** указывает предполагаемое время окончания собрания. 
+Элемент **ProposedEnd** указывает предлагаемое время окончания собрания. 
   
 ```XML
 <ProposedEnd></ProposedEnd>
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[митингреспонсе](meetingresponse.md)
+[MeetingResponse](meetingresponse.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **пропоседенд** — это предполагаемое время окончания, отправленное участником организатору собрания. 
+Текстовое значение элемента **ProposedEnd** — это предлагаемое время окончания, отправленное участникам организатору собрания. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44529905"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

@@ -1,23 +1,23 @@
 ---
-title: испартиаллиндексед
+title: IsPartiallyIndexed
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 542e7b90-eafe-4711-a9d7-71bbc30d9646
-description: Элемент Испартиаллиндексед указывает, является ли элемент частичным индексированием.
-ms.openlocfilehash: 4bf0c3e5dd7b75a90ac087958fbceda334306af1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsPartiallyIndexed указывает, частично ли индексировать элемент.
+ms.openlocfilehash: 3917f14bbdae13f4485edcbbcd595989c3cd907f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466488"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540988"
 ---
-# <a name="ispartiallyindexed"></a>испартиаллиндексед
+# <a name="ispartiallyindexed"></a>IsPartiallyIndexed
 
-Элемент **испартиаллиндексед** указывает, является ли элемент частичным индексированием. 
+Элемент **IsPartiallyIndexed указывает,** частично ли индексировать элемент. 
   
 ```XML
 <IsPartiallyIndexed>true | false</IsPartiallyIndexed>
@@ -26,25 +26,25 @@ ms.locfileid: "44466488"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[нониндексаблеитемдетаил](nonindexableitemdetail.md)
+[NonIndexableItemDetail](nonindexableitemdetail.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **испартиаллиндексед** указывает на то, что элемент почтового ящика частично индексируется. Значение **false** указывает на то, что элемент почтового ящика не является частично индексированным. 
+Значение **текста, истинное** для **элемента IsPartiallyIndexed,** указывает на то, что элемент почтового ящика частично индексироваться. Значение false **указывает** на то, что элемент почтового ящика не индексироваться частично. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44466488"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

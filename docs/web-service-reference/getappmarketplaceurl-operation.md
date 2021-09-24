@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c016fc3-0e13-4624-9a5b-d3e84577a860
-description: Поиск сведений о GetAppMarketplaceUrlной операции EWS.
-ms.openlocfilehash: 6797af44c3aaa6653c440b3d53a282d8c90a4381
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetAppMarketplaceUrl EWS.
+ms.openlocfilehash: f9dd41a43b92910ec596b95a0ce1e99a239ba01e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459527"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530092"
 ---
 # <a name="getappmarketplaceurl-operation"></a>Операция GetAppMarketplaceUrl
 
-Поиск сведений о **GetAppMarketplaceUrlной** операции EWS. 
+Сведения об операции **GetAppMarketplaceUrl** EWS. 
   
-Операция **GetAppMarketplaceUrl** извлекает URL-адрес магазина приложений, который клиент может посетить для получения приложений для установки в почтовом ящике. 
+Операция **GetAppMarketplaceUrl** извлекает URL-адрес для рынка приложений, который клиент может посетить для приобретения приложений для установки в почтовом ящике. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-getappmarketplaceurl-operation"></a>Использование операции GetAppMarketplaceUrl
 
-Операция **GetAppMarketplaceUrl** не имеет аргументов для запроса URL-адреса Marketplace, с которого клиент может устанавливать приложения. Ответ будет содержать URL-адрес Marketplace для приложения. 
+Операция **GetAppMarketplaceUrl** не принимает никаких аргументов для запроса URL-адреса для рынка, с которого клиент может устанавливать приложения. Ответ будет содержать URL-адрес на рынке приложений. 
   
-### <a name="getappmarketplaceurl-operation-soap-headers"></a>Заголовки SOAP операции GetAppMarketplaceUrl
+### <a name="getappmarketplaceurl-operation-soap-headers"></a>Заглавы мыла операции GetAppMarketplaceUrl
 
-Операция **GetAppMarketplaceUrl** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции GetAppMarketplaceUrl** можно использовать заголовки SOAP, перечисленные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="getappmarketplaceurl-operation-request-example-get-the-app-marketplace-url-for-a-mailbox"></a>Пример запроса операции GetAppMarketplaceUrl: получение URL-адреса магазина приложений для почтового ящика
+## <a name="getappmarketplaceurl-operation-request-example-get-the-app-marketplace-url-for-a-mailbox"></a>Пример запроса на операцию GetAppMarketplaceUrl: Получите URL-адрес рынка приложений для почтового ящика
 
-В следующем примере запроса операции **GetAppMarketplaceUrl** показано, как получить URL-адрес рынка приложений для почтового ящика. 
+В следующем примере запроса на операцию **GetAppMarketplaceUrl** показано, как получить URL-адрес рынка приложений для почтового ящика. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -62,20 +62,20 @@ ms.locfileid: "44459527"
 
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [GetAppMarketplaceUrl](getappmarketplaceurl.md)
     
-- [апиверсионсуппортед](apiversionsupported.md)
+- [ApiVersionSupported](apiversionsupported.md)
     
-- [счемаверсионсуппортед](schemaversionsupported.md)
+- [SchemaVersionSupported](schemaversionsupported.md)
     
-## <a name="successful-getappmarketplaceurl-operation-response"></a>Успешный отклик операции GetAppMarketplaceUrl
+## <a name="successful-getappmarketplaceurl-operation-response"></a>Успешный ответ на операции GetAppMarketplaceUrl
 
-В следующем примере показан успешный ответ на запрос операции **GetAppMarketplaceUrl** для получения URL-адреса рынка приложений для почтового ящика. 
+В следующем примере показан успешный ответ на запрос **операции GetAppMarketplaceUrl,** чтобы получить URL-адрес рынка приложений для почтового ящика. 
   
 > [!NOTE]
-> URL-адрес магазина приложений изменен в целях сохранения читаемости. 
+> URL-адрес рынка приложений был изменен для сохранения читаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -103,19 +103,19 @@ ms.locfileid: "44459527"
 
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [жетаппмаркетплацеурлреспонсе](getappmarketplaceurlresponse.md)
+- [GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [аппмаркетплацеурл](appmarketplaceurl.md)
+- [AppMarketplaceUrl](appmarketplaceurl.md)
     
-## <a name="getappmarketplaceurl-operation-error-response"></a>Ответ об ошибке операции GetAppMarketPlaceUrl
+## <a name="getappmarketplaceurl-operation-error-response"></a>Ответ на ошибку операции GetAppMarketPlaceUrl
 
-Ошибки, возвращаемые для этой операции, связаны с неправильной конфигурацией службы или общими ошибками EWS. Коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md). 
+Ошибки, возвращаемые для этой операции, связаны либо с неправильной конфигурацией службы, либо с общими ошибками EWS. Коды ошибок, общие для EWS и специфические для этой операции, см. [в рубрике ResponseCode.](responsecode.md) 
   
-В следующем примере показан ответ об ошибке, который возвращается, если внешняя панель управления Exchange (ECP) не настроена.
+В следующем примере показан ответ на ошибку, возвращаемый при Exchange панели управления (ECP).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -143,15 +143,15 @@ ms.locfileid: "44459527"
 </s:Envelope>
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [жетаппмаркетплацеурлреспонсе](getappmarketplaceurlresponse.md)
+- [GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

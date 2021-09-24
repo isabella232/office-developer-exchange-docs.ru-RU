@@ -1,27 +1,27 @@
 ---
-title: мустдисплайкоммент
+title: MustDisplayComment
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MustDisplayComment
 api_type:
 - schema
 ms.assetid: 11d4d3c3-4652-4ed4-9b29-a0b5f85b82b7
-description: Элемент Мустдисплайкоммент указывает, должен ли отображаться комментарий к управляемой папке.
-ms.openlocfilehash: e86b0c6e2c1d7c3cc00561c17c82b3be82d81242
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MustDisplayComment указывает, должен ли отображаться комментарий управляемой папки.
+ms.openlocfilehash: da1a5e01c1cf244385964db0a3c1a4be705cc25f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463211"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518129"
 ---
-# <a name="mustdisplaycomment"></a>мустдисплайкоммент
+# <a name="mustdisplaycomment"></a>MustDisplayComment
 
-Элемент **мустдисплайкоммент** указывает, должен ли отображаться комментарий к управляемой папке. 
+Элемент **MustDisplayComment** указывает, должен ли отображаться комментарий управляемой папки. 
   
 ```xml
 <MustDisplayComment/>
@@ -30,27 +30,27 @@ ms.locfileid: "44463211"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[манажедфолдеринформатион](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
+|[ManagedFolderInformation](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет логическое значение. Значение **true** указывает, что комментарий должен отображаться; значение **false** указывает, что комментарий не нужно отображать. 
+Текстовое значение представляет значение Boolean. Значение true **указывает,** что комментарий должен отображаться; значение false **указывает,** что комментарий не должен отображаться. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44463211"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

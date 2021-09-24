@@ -1,23 +1,23 @@
 ---
-title: Долгота
+title: Longitude
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c000b36-13b6-4ce2-a686-6e0bc207553d
-description: Элемент долготы указывает долготу расположения связанного почтового адреса.
-ms.openlocfilehash: a226d907ddf124c8e38d3d56da81cadde1abd70e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Longitude указывает долготу расположения связанного почтового адреса.
+ms.openlocfilehash: a3d22a7c4f835070e25f89c00be92248955d8f16
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530756"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519368"
 ---
-# <a name="longitude"></a>Долгота
+# <a name="longitude"></a>Longitude
 
-Элемент **долготы** указывает долготу расположения связанного почтового адреса. 
+Элемент **Longitude** указывает долготу расположения связанного почтового адреса. 
   
 ```XML
 <Longitude></Longitude>
@@ -26,25 +26,25 @@ ms.locfileid: "44530756"
  **двойной**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Значение (персонапосталаддресстипе)](value-personapostaladdresstype.md)  |  [Посталаддресс (персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md)
+[Значение (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **долготы** — это лонгитудиналные координаты почтовых адресов. 
+Текстовое значение элемента **Longitude** — это продольные координаты почтового адреса. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: 00878187-fac2-45b9-ba1c-df7ffac71089
-description: Элемент ResponseMessages представляет список ответных сообщений с подсказками.
-ms.openlocfilehash: 2db58029ead9332b832006bc81d751d77df54b07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ResponseMessages представляет список сообщений ответов на советы почты.
+ms.openlocfilehash: fda62e93c8cc0c6eee6f97e360695eb9a690ba3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465452"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518976"
 ---
 # <a name="responsemessages-arrayofmailtipsresponsemessagetype"></a>ResponseMessages (ArrayOfMailTipsResponseMessageType)
 
-Элемент **ResponseMessages** представляет список ответных сообщений с подсказками. 
+Элемент **ResponseMessages** представляет список сообщений ответов на советы почты. 
   
 ```XML
 <ResponseMessages>
@@ -42,19 +42,19 @@ ms.locfileid: "44465452"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |Представляет параметры подсказок почты.  <br/> |
+|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |Представляет параметры советов почты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |Представляет ответное сообщение для операции [GetMailTips.](getmailtips-operation.md)  <br/> |
+|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |Представляет сообщение ответа для [операции GetMailTips.](getmailtips-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   

@@ -1,23 +1,23 @@
 ---
-title: маилбокскуери
+title: MailboxQuery
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e4b496f7-63fa-479a-b045-73276573f64f
-description: Элемент Маилбокскуери указывает запрос и область поиска обнаружения.
-ms.openlocfilehash: 754a2a6dec50c8c4074ed6a01f04ba176c66c0d4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MailboxQuery указывает запрос и область поиска обнаружения.
+ms.openlocfilehash: 9ab2d44822012a264fe136f0c170c91ad5b62f22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44531023"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519340"
 ---
-# <a name="mailboxquery"></a>маилбокскуери
+# <a name="mailboxquery"></a>MailboxQuery
 
-Элемент **маилбокскуери** указывает запрос и область поиска обнаружения. 
+Элемент **MailboxQuery** указывает запрос и область поиска обнаружения. 
   
 ```XML
 <MailboxQuery>
@@ -26,25 +26,25 @@ ms.locfileid: "44531023"
 </MailboxQuery>
 ```
 
-**маилбокскуеритипе**
+**Почтовый ящикQueryType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Query (запрос](query.md)  |  ) [Маилбокссеарчскопес](mailboxsearchscopes.md)
+[Запрос](query.md)  |  [MailboxSearchScopes](mailboxsearchscopes.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеарчкуериес](searchqueries.md)
+[SearchQueries](searchqueries.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44531023"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

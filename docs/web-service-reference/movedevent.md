@@ -1,27 +1,27 @@
 ---
-title: моведевент
+title: MovedEvent
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MovedEvent
 api_type:
 - schema
 ms.assetid: 572f8b40-dfa8-47bc-b0c1-e1a7138506fd
-description: Элемент Моведевент представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую.
-ms.openlocfilehash: 1f8fb57dba7edb769fe0dd658d89c032dccf8c5f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MovedEvent представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую родительную.
+ms.openlocfilehash: 4e0795fc3f335139e22fb51a4cf215a870ec62c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530410"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518136"
 ---
-# <a name="movedevent"></a>моведевент
+# <a name="movedevent"></a>MovedEvent
 
-Элемент **моведевент** представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую. 
+Элемент **MovedEvent** представляет событие, в котором элемент или папка перемещаются из одной родительской папки в другую родительную. 
   
 ```xml
 <MovedEvent>
@@ -46,28 +46,28 @@ ms.locfileid: "44530410"
 ```
 
 
-**моведкопиедевенттипе**
+**MovedCopiedEventType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |Представляет закладку Events в таблице событий почтовых ящиков.  <br/> |
-|[Метка времени](timestamp.md) <br/> |Представляет метку времени для события перемещения элемента/почтового ящика папки.  <br/> |
+|[Watermark](watermark.md) <br/> |Представляет закладки событий в таблице событий почтового ящика.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Представляет время перемещения события почтовых ящиков элемента и папки.  <br/> |
 |[FolderId](folderid.md) <br/> |Представляет идентификатор перемещенной папки.  <br/> |
-|[Идентификатор](itemid.md) <br/> |Представляет идентификатор перемещенного элемента.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор папки, содержащей перемещенный элемент или папку.  <br/> |
-|[олдфолдерид](oldfolderid.md) <br/> |Содержит идентификатор исходной папки перед ее перемещением или копированием.  <br/> |
-|[олдитемид](olditemid.md) <br/> |Содержит уникальный идентификатор исходного элемента перед его перемещением.  <br/> |
-|[олдпарентфолдерид](oldparentfolderid.md) <br/> |Содержит идентификатор исходной родительской папки для перемещенного элемента или папки.  <br/> |
+|[ItemId](itemid.md) <br/> |Представляет идентификатор перемещенного элемента.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор папки, которая содержит перенесенный элемент или папку.  <br/> |
+|[OldFolderId](oldfolderid.md) <br/> |Содержит идентификатор папки исходной папки перед ее перемещением или копированием.  <br/> |
+|[OldItemId](olditemid.md) <br/> |Содержит уникальный идентификатор исходного элемента перед его перемещением.  <br/> |
+|[OldParentFolderId](oldparentfolderid.md) <br/> |Содержит идентификатор исходной родительской папки перемещаемого элемента или папки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -75,7 +75,7 @@ ms.locfileid: "44530410"
 |:-----|:-----|
 |[Уведомление](notification-ex15websvcsotherref.md) <br/> |Содержит сведения о подписке и событиях, произошедших с момента последнего уведомления.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -85,12 +85,12 @@ ms.locfileid: "44530410"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операции подписки](subscribe-operation.md) 
 - [Операция GetEvents](getevents-operation.md) 
-- [Операция по отмене подписки](unsubscribe-operation.md)
+- [Операция Unsubscribe](unsubscribe-operation.md)
 

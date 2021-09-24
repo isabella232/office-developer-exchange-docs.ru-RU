@@ -1,71 +1,71 @@
 ---
-title: минимумсугжестионкуалити
+title: MinimumSuggestionQuality
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MinimumSuggestionQuality
 api_type:
 - schema
 ms.assetid: 3725cbd4-9bc1-4f7d-8929-b2c68cb46114
-description: Элемент Минимумсугжестионкуалити определяет качество предложений о встречах, возвращаемых в ответе.
-ms.openlocfilehash: c85cbf65a63ac0b09408c14e01889f97a05b27b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MinimumSuggestionQuality определяет качество предложений собрания, которые будут возвращены в ответе.
+ms.openlocfilehash: c1126158f7a521fbefaf34fda906d60dd15c2af4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467482"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510934"
 ---
-# <a name="minimumsuggestionquality"></a>минимумсугжестионкуалити
+# <a name="minimumsuggestionquality"></a>MinimumSuggestionQuality
 
-Элемент **минимумсугжестионкуалити** определяет качество предложений о встречах, возвращаемых в ответе. 
+Элемент **MinimumSuggestionQuality** определяет качество предложений собрания, которые будут возвращены в ответе. 
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[сугжестионсвиевоптионс](suggestionsviewoptions.md)
+[SuggestionsViewOptions](suggestionsviewoptions.md)
   
-[минимумсугжестионкуалити](minimumsuggestionquality.md)
+[MinimumSuggestionQuality](minimumsuggestionquality.md)
   
 ```xml
 <MinimumSuggestionQuality>...</MinimumSuggestionQuality>
 ```
 
- **сугжестионкуалити**
+ **SuggestionQuality**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. В следующей таблице приведены возможные значения для этого элемента:
+Требуется текстовое значение. В следующей таблице перечислены возможные значения для этого элемента:
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|**Отличная** <br/> |0% участников конфликтуют с предложенным временем собрания.  <br/> |
-|**Good** <br/> |Процент, который считается хорошим, задается с помощью элемента [гудсрешолд](goodthreshold.md) .  <br/> |
-|**Честно** <br/> |Процент, который считается честным, задается с помощью элемента [гудсрешолд](goodthreshold.md) .  <br/> |
-|**Плохо** <br/> |50% или несколько участников конфликтуют с предложенным временем собрания.  <br/> |
+|**Отличная** <br/> |0% участников имеют конфликт с предложенным временем собрания.  <br/> |
+|**Good** <br/> |Процент, который считается хорошим, устанавливается с помощью элемента [GoodThreshold.](goodthreshold.md)  <br/> |
+|**Ярмарка** <br/> |Процент, который считается справедливым, устанавливается с помощью элемента [GoodThreshold.](goodthreshold.md)  <br/> |
+|**Плохо** <br/> |У 50% или более участников есть конфликт с предложенным временем собрания.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент является обязательным, если используется элемент [сугжестионсвиевоптионс](suggestionsviewoptions.md) . 
+Этот элемент необходим, если используется элемент [SuggestionsViewOptions.](suggestionsviewoptions.md) 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
@@ -76,7 +76,7 @@ ms.locfileid: "44467482"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

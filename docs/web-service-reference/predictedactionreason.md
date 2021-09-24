@@ -1,41 +1,41 @@
 ---
-title: предиктедактионреасон
+title: PredictedActionReason
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8372fecd-9dd2-40e5-b3e9-18ab9151590b
-description: Элемент Предиктедактионреасон предназначен только для внутреннего использования.
-ms.openlocfilehash: a7f9e2b57c6dcfe83aba85e3239fd8177e5345df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PredictedActionReason предназначен только для внутреннего использования.
+ms.openlocfilehash: aa4171d2fcb855e355fbff10b6279b0d11136172
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462236"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519193"
 ---
-# <a name="predictedactionreason"></a>предиктедактионреасон
+# <a name="predictedactionreason"></a>PredictedActionReason
 
-Элемент **предиктедактионреасон** предназначен только для внутреннего использования. 
+Элемент **PredictedActionReason** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

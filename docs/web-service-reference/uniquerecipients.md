@@ -1,35 +1,35 @@
 ---
-title: уникуереЦипиентс
+title: UniqueRecipients
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniqueRecipients
 api_type:
 - schema
 ms.assetid: 9f46ed05-5370-46ee-80f5-83f97224c76e
 description: Элемент UniqueRecipients содержит список бесед в определенной папке. Этот элемент доступен только для чтения.
-ms.openlocfilehash: d7f6b0aa01aceb6a251fb0c46d89b34cad260acd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d611efa7d632a07e14740bd211c4bfa796173a68
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530728"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510794"
 ---
-# <a name="uniquerecipients"></a>уникуереЦипиентс
+# <a name="uniquerecipients"></a>UniqueRecipients
 
 Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Элемент **UniqueRecipients** содержит список бесед в определенной папке. Этот элемент доступен только для чтения. 
   
-[финдконверсатионреспонсе](findconversationresponse.md)
+[FindConversationResponse](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[уникуереЦипиентс](uniquerecipients.md)
+[UniqueRecipients](uniquerecipients.md)
   
 ```XML
 <UniqueRecpients>
@@ -37,14 +37,14 @@ ms.locfileid: "44530728"
 </UniqueRecpients>
 ```
 
- **аррайофстрингстипе**
+ **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -62,7 +62,7 @@ ms.locfileid: "44530728"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -72,7 +72,7 @@ ms.locfileid: "44530728"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

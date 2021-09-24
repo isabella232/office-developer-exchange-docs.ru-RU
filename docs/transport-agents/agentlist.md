@@ -1,33 +1,33 @@
 ---
-title: ажентлист
+title: agentList
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - agentList
 api_type:
 - schema
 ms.assetid: e877b7ef-e303-4270-964d-8d116ff2a865
-description: 'Дата последнего изменения: 17 сентября 2015 г.'
-ms.openlocfilehash: 99e4e24c3bca77c7e7d5f2c59bb21cee1317fed2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'Последнее изменение: 17 сентября 2015 г.'
+ms.openlocfilehash: eadae2a22e4c844f1f2edce9211100bb9ef2776d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44446394"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529358"
 ---
-# <a name="agentlist"></a>ажентлист
+# <a name="agentlist"></a>agentList
   
-**Применимо к:** Exchange Server 2013
+**Применяется к:** Exchange Server 2013 г.
   
-Элемент **ажентлист** содержит элемент [Agent](agent.md) для каждого установленного агента. 
+Элемент **agentList** содержит элемент [агента](agent.md) для каждого установленного агента. 
   
 - [configuration](configuration.md)
-- [мексрунтиме](mexruntime.md)
-- [ажентлист](agentlist.md)
+- [mexRuntime](mexruntime.md)
+- [agentList](agentlist.md)
   
 ```XML
 <agentList>
@@ -35,38 +35,38 @@ ms.locfileid: "44446394"
 </agentList>
 ```
 
-**Ажентлисттипе (complexType)**
+**agentListType (complexType)**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[агента](agent.md) <br/> |Содержит сведения о конфигурации установленного агента.  <br/> |
+|[агент](agent.md) <br/> |Содержит сведения о конфигурации установленного агента.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[мексрунтиме](mexruntime.md) <br/> |Содержит элементы, определяющие сведения о конфигурации для мониторинга агентов и сведения о конфигурации установленных агентов.  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |Содержит элементы, определяющие сведения о конфигурации для мониторинга агентов и сведений о конфигурации установленных агентов.  <br/> |
    
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |В этом файле не определено пространство имен.  <br/> |
+|Пространство имен  <br/> |Этот файл не определяет пространство имен.  <br/> |
 |Имя схемы  <br/> |Недоступно.  <br/> |
 |Файл проверки  <br/> |Недоступно.  <br/> |
 |Может быть пустым  <br/> |Неверно.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Элементы файла конфигурации агентов для Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Элементы конфигурации файлов агентов для Exchange 2013 г.](agents-configuration-file-elements-for-exchange-2013.md)
 

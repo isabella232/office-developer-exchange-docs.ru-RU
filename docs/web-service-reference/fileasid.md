@@ -1,23 +1,23 @@
 ---
-title: филеасид
+title: FileAsId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7773f92c-cddc-44e5-9fd5-06b1dac355d8
-description: Элемент Филеасид указывает идентификатор свойств fileas.
-ms.openlocfilehash: f534dd9283608eefe94b02718a69ff60651d414a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FileAsId указывает идентификатор FileAs.
+ms.openlocfilehash: a2f298123b4c92b17799141066b1ee459efbf785
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461053"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541352"
 ---
-# <a name="fileasid"></a>филеасид
+# <a name="fileasid"></a>FileAsId
 
-Элемент **филеасид** указывает идентификатор **свойств fileas** . 
+Элемент **FileAsId** указывает идентификатор **FileAs.** 
   
 ```XML
 <FileAsId></FileAsId
@@ -26,27 +26,27 @@ ms.locfileid: "44461053"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **филеасид** указывает идентификатор **свойств fileas** . 
+Текстовое значение элемента **FileAsId** указывает идентификатор **FileAs.** 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44461053"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

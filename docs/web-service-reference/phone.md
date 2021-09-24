@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9381d8e0-b705-49fd-a822-00fb485bdbab
-description: Элемент Phone указывает один номер телефона, который является результатом извлечения контактных объектов.
-ms.openlocfilehash: 7b0047eda90f2e2bb94fd7d0b8d317715ac5d2c9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Телефон указывает один телефонный номер, полученный в результате извлечения объекта контакта.
+ms.openlocfilehash: fa9e0be88c2142b30304c3c5b758624fa73da7d1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459709"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528362"
 ---
 # <a name="phone"></a>Phone
 
-Элемент **Phone** указывает один номер телефона, который является результатом извлечения контактных объектов. 
+Элемент **Телефон** указывает один телефонный номер, полученный в результате извлечения объекта контакта. 
   
 ```XML
 <Phone>
@@ -27,14 +27,14 @@ ms.locfileid: "44459709"
 </Phone>
 ```
 
- **фонетипе**
+ **PhoneType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44459709"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[PhoneNumbers (Аррайоффонестипе)](phonenumbers-arrayofphonestype.md)
+[PhoneNumbers (ArrayOfPhonesType)](phonenumbers-arrayofphonestype.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44459709"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

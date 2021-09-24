@@ -1,65 +1,65 @@
 ---
-title: календаритемтипе
+title: CalendarItemType
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarItemType
 api_type:
 - schema
 ms.assetid: 1feb0788-adf7-4a7c-830c-005214ad930f
-description: Элемент Календаритемтипе представляет тип элемента календаря.
-ms.openlocfilehash: 05e93b6db3ae574c03f6e43c5ebec2288edec3e5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CalendarItemType представляет тип элемента календаря.
+ms.openlocfilehash: fcb661bb219944e03479abc6bf1d579db58f29fb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527196"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526775"
 ---
-# <a name="calendaritemtype"></a>календаритемтипе
+# <a name="calendaritemtype"></a>CalendarItemType
 
-Элемент **календаритемтипе** представляет тип элемента календаря. 
+Элемент **CalendarItemType** представляет тип элемента календаря. 
   
 ```xml
 <CalendarItemType/>
 ```
 
- **календаритемтипетипе**
+ **CalendarItemTypeType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-При использовании этого элемента необходимо указать текстовое значение. Ниже приведены возможные значения для этого элемента.
+Если используется этот элемент, требуется текстовое значение. Возможные значения для этого элемента:
   
-- **Один** Элемент не связан с повторяющимся элементом календаря. 
+- **Single** Элемент не связан с повторяющимся элементом календаря. 
     
-- **Экземпляр** Элемент является экземпляром повторяющегося элемента календаря. 
+- **Вхождение** Элемент является возникновением повторяющегося элемента календаря. 
     
-- **Exception (исключение** ) Элемент является исключением повторяющегося элемента календаря. 
+- **Исключение** Элемент является исключением из повторяющегося элемента календаря. 
     
-- **Рекуррингмастер** Элемент является главным для набора повторяющихся элементов календаря. 
+- **RecurringMaster** Элемент является мастером для набора повторяющихся элементов календаря. 
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -69,7 +69,7 @@ ms.locfileid: "44527196"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

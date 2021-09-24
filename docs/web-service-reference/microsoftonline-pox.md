@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b88f02a-9c50-44b3-841b-560b24e37af5
-description: Элемент MicrosoftOnline содержит значение, которое указывает, размещается ли почтовый ящик пользователя в Exchange Online или Exchange Online в составе Office 365.
-ms.openlocfilehash: f3144a673a4c98aad821e21c562141b0ae00f426
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MicrosoftOnline содержит значение, которое указывает, размещен ли почтовый ящик пользователя в Exchange Online или Exchange Online в Office 365.
+ms.openlocfilehash: fbf230df18ca488babb1523cc7f689923eaeb55b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467986"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510947"
 ---
 # <a name="microsoftonline-pox"></a>MicrosoftOnline (POX)
 
-Элемент **MicrosoftOnline** содержит значение, которое указывает, размещается ли почтовый ящик пользователя в Exchange Online или Exchange Online в составе Office 365. 
+Элемент **MicrosoftOnline** содержит значение, которое указывает, размещен ли почтовый ящик пользователя в Exchange Online или Exchange Online в Office 365. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [MicrosoftOnline (POX)](microsoftonline-pox.md)
   
@@ -32,29 +32,29 @@ ms.locfileid: "44467986"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Учетная запись (POX)](account-pox.md) <br/> |Задает параметры учетной записи пользователя или содержит ошибочные ответы.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Указывает параметры учетной записи для пользователя или содержит ответы на ошибки.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Текстовое значение указывает, размещен ли почтовый ящик пользователя в Exchange Online. Значение **true** , если почтовый ящик пользователя размещен в Exchange Online; в противном случае — **false**.
+Текстовое значение указывает, находится ли почтовый ящик пользователя в Exchange Online. Значение **верно, если** почтовый ящик пользователя находится в Exchange Online; в противном **случае, false**.
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

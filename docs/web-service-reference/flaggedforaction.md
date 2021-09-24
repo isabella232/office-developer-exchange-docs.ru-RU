@@ -1,44 +1,44 @@
 ---
-title: флагжедфорактион
+title: FlaggedForAction
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FlaggedForAction
 api_type:
 - schema
 ms.assetid: 6a08c48a-7b32-4754-8940-adbda55e8133
-description: Элемент Флагжедфорактион указывает флаг для значения действия, который должен отображаться в входящих сообщениях, чтобы применить условие или исключение.
-ms.openlocfilehash: f996dc4bcf30db32e1d73fb302ab137f0a6ad4d4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FlaggedForAction указывает флаг для значения действия, которое должно отображаться на входящих сообщениях, чтобы применить условие или исключение.
+ms.openlocfilehash: 978d10286785f341437e3213ddbd3c296c4621fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466243"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518381"
 ---
-# <a name="flaggedforaction"></a>флагжедфорактион
+# <a name="flaggedforaction"></a>FlaggedForAction
 
-Элемент **флагжедфорактион** указывает флаг для значения действия, который должен отображаться в входящих сообщениях, чтобы применить условие или исключение. 
+Элемент **FlaggedForAction** указывает флаг для значения действия, которое должно отображаться на входящих сообщениях, чтобы применить условие или исключение. 
   
 ```XML
 <FlaggedForAction/>
 ```
 
- **флагжедфорактионтипе**
+ **FlaggedForActionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,31 +49,31 @@ ms.locfileid: "44466243"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Ниже приведены возможные текстовые значения для этого элемента:
+Требуется текстовое значение. Возможные текстовые значения для этого элемента:
   
-- Любые
+- Любое
     
 - Звонок
     
-- донотфорвард
+- DoNotForward
     
-- Следующего
+- FollowUp
     
-- СВЕДЕНИЮ
+- FYI
     
 - Перенаправление
     
-- нореспонсенецессари
+- NoResponseNecessary
     
 - Чтение
     
 - Ответить
     
-- реплитоалл
+- ReplyToAll
     
 - Проверка
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -83,7 +83,7 @@ ms.locfileid: "44466243"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

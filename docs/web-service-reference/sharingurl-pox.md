@@ -1,32 +1,32 @@
 ---
-title: Шарингурл (POX)
+title: SharingUrl (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d590188a-5aa6-46c6-ab5f-2a0dd6793109
-description: Элемент Шарингурл содержит URL-адрес сервера общего доступа, используемого для совместного использования календарей и контактов между организациями.
-ms.openlocfilehash: 9c793935808dbd20d2dc0631b82ee74db3f8a19f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SharingUrl содержит URL-адрес сервера общего доступа, используемого для меж организации общего доступа к календарям и контактам.
+ms.openlocfilehash: f76f29133f81ff92a78c8ae84da5ad9f107a709d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465256"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531774"
 ---
-# <a name="sharingurl-pox"></a>Шарингурл (POX)
+# <a name="sharingurl-pox"></a>SharingUrl (POX)
 
-Элемент **шарингурл** содержит URL-адрес сервера общего доступа, используемого для совместного использования календарей и контактов между организациями. 
+Элемент **SharingUrl содержит** URL-адрес сервера общего доступа, используемого для меж организации общего доступа к календарям и контактам. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Протокол (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[Шарингурл (POX)](sharingurl-pox.md)
+[SharingUrl (POX)](sharingurl-pox.md)
   
 ```XML
 <SharingUrl/>
@@ -34,33 +34,33 @@ ms.locfileid: "44465256"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором установлен сервер Microsoft Exchange с установленной ролью сервера клиентского доступа.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на Microsoft Exchange Server установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет URL-адрес сервера общего доступа, используемого для совместного использования календарей и контактов между организациями.
+Текстовое значение представляет URL-адрес сервера общего доступа, используемого для меж организации общего доступа к календарям и контактам.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **шарингурл** является необязательным дочерним элементом элемента **Protocol** . 
+Элемент **SharingUrl** — необязательный детский элемент **элемента Protocol.** 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

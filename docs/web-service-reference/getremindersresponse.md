@@ -1,23 +1,23 @@
 ---
-title: жетреминдерсреспонсе
+title: GetRemindersResponse
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b1c7288-2a98-4142-8961-4d2ebca5c37c
-description: Элемент Жетреминдерсреспонсе указывает ответ на запрос с раснапоминанием.
-ms.openlocfilehash: 4e4d6a662d2b734b8bb93e3dd4b325bf6e46a6fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetRemindersResponse указывает ответ на запрос GetReminders.
+ms.openlocfilehash: 0ddabd8eb617713ada5aeef7bbc4aa504ba3cce3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458294"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518353"
 ---
-# <a name="getremindersresponse"></a>жетреминдерсреспонсе
+# <a name="getremindersresponse"></a>GetRemindersResponse
 
-Элемент **жетреминдерсреспонсе** указывает ответ на запрос с **раснапоминанием** . 
+Элемент **GetRemindersResponse** указывает ответ на запрос **GetReminders.** 
   
 ```XML
 <GetRemindersResponse>
@@ -26,14 +26,14 @@ ms.locfileid: "44458294"
 
 ```
 
- **жетреминдерсреспонсемессажетипе**
+ **GetRemindersResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -41,9 +41,9 @@ ms.locfileid: "44458294"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,14 +55,14 @@ ms.locfileid: "44458294"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

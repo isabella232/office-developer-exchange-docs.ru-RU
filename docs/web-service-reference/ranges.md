@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a573b4af-9bed-41cf-aea4-5f9cc0ab43a6
-description: Элемент Ranges указывает массив диапазонов повторения.
-ms.openlocfilehash: 884ef5d8ffbc5dd0fbc153a7b17430ccc7e131c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Ranges указывает массив диапазонов повторяемости.
+ms.openlocfilehash: bce20ee1ff5490c7084ba26aa8aa4267012f79d4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528881"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519095"
 ---
 # <a name="ranges"></a>Диапазоны
 
-Элемент **Ranges** указывает массив диапазонов повторения. 
+Элемент **Ranges** указывает массив диапазонов повторяемости. 
   
 ```XML
 <Ranges>
@@ -25,14 +25,14 @@ ms.locfileid: "44528881"
 </Ranges>
 ```
 
- **аррайофоккурренцеранжестипе**
+ **ArrayOfOccurrenceRangesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -40,9 +40,9 @@ ms.locfileid: "44528881"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[рекуррингмастеритемидранжес](recurringmasteritemidranges.md)
+[RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44528881"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

@@ -1,54 +1,54 @@
 ---
-title: мсексчанжецертификате
+title: MSExchangeCertificate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c514f22f-be3e-4cad-ac56-bdff6bafcee6
-description: Элемент Мсексчанжецертификате содержит значение, которое кодирует сертификат Microsoft Exchange контакта.
-ms.openlocfilehash: 60bbcfb45e52dc92140d03cdd24a251ea84217b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MSExchangeCertificate содержит значение, кодировка Exchange сертификата контакта.
+ms.openlocfilehash: 14993f2a1067334bba5c8980bc57eaff550f09d0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465676"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529799"
 ---
-# <a name="msexchangecertificate"></a>мсексчанжецертификате
+# <a name="msexchangecertificate"></a>MSExchangeCertificate
 
-Элемент **мсексчанжецертификате** содержит значение, которое кодирует сертификат Microsoft Exchange контакта. 
+Элемент **MSExchangeCertificate** содержит значение, которое кодирует сертификат microsoft Exchange контакта. 
   
 ```XML
 <MSExchangeCertificate/>
 ```
 
- **аррайофбинаритипе**
+ **ArrayOfBinaryType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Имя элемента**|**Описание**|
 |:-----|:-----|
-|[Base64Binary](base64binary.md) <br/> |Содержит значение, закодированное в формате Base64.  <br/> |
+|[Base64Binary](base64binary.md) <br/> |Содержит кодированное значение Base64.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Имя элемента**|**Описание**|
 |:-----|:-----|
-|[контакт](contact.md); <br/> |Представляет элемент контакта в хранилище Exchange.  <br/> |
+|[Contact](contact.md) <br/> |Представляет элемент контакта в Exchange магазине.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44465676"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,5 +70,5 @@ ms.locfileid: "44465676"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

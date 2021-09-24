@@ -1,71 +1,71 @@
 ---
-title: фонекаллстате
+title: PhoneCallState
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PhoneCallState
 api_type:
 - schema
 ms.assetid: ac009eb3-6334-49ce-82be-48fe83577f9c
-description: Элемент Фонекаллстате указывает текущее состояние телефонного звонка.
-ms.openlocfilehash: d2088b9b2811befe80684188d49c8034c577cc55
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PhoneCallState указывает текущее состояние для телефонного звонка.
+ms.openlocfilehash: 8c0b8357b58826f18f05eb0fedc0865be1623c2b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528304"
 ---
-# <a name="phonecallstate"></a>фонекаллстате
+# <a name="phonecallstate"></a>PhoneCallState
 
-Элемент **фонекаллстате** указывает текущее состояние телефонного звонка. 
+Элемент **PhoneCallState** указывает текущее состояние для телефонного звонка. 
   
 ```xml
 <PhoneCallState>Idle or Connecting or Alerted or Connected or Disconnected or Incoming or Transferring or Forwarding</PhoneCallState>
 ```
 
- **фонекаллстатетипе**
+ **PhoneCallStateType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фонекаллинформатион](phonecallinformation.md) <br/> |Задает сведения о состоянии для телефонного звонка.  <br/> |
+|[PhoneCallInformation](phonecallinformation.md) <br/> |Указывает сведения о состоянии для телефонного звонка.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **фонекаллстате** . 
+В следующей таблице перечислены возможные значения элемента **PhoneCallState.** 
   
-**Значения элементов Фонекаллстате**
+**Значения элементов PhoneCallState**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Простоя  <br/> |Начальное состояние вызова.  <br/> |
+|Idle  <br/> |Начальное состояние вызова.  <br/> |
 |Connecting  <br/> |Система набирает этот вызов.  <br/> |
-|Предупрежден  <br/> |Вызов находится в состоянии оповещения (телефонный звонок).  <br/> |
-|Подключено  <br/> |Вызов находится в подключенном состоянии.  <br/> |
-|Отключено  <br/> |Вызов отключается.  <br/> |
-|Входящее  <br/> |Вызов является входящим.  <br/> |
-|Мещают  <br/> |Вызов передается в другой целевой объект.  <br/> |
-|Сообщений  <br/> |Вызов перенаправляется в другую точку назначения.  <br/> |
+|Оповещено  <br/> |Вызов находится в состоянии оповещений (звонит телефон).  <br/> |
+|Подключение  <br/> |Вызов находится в подключенной состоянии.  <br/> |
+|Отключено  <br/> |Вызов отключен.  <br/> |
+|Входящие  <br/> |Вызов входящий.  <br/> |
+|Перенос  <br/> |Вызов передается в другое место назначения.  <br/> |
+|Переададка  <br/> |Вызов перенаправлен в другое место.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в каталоге/ЕВС/компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в каталоге /ews/directory компьютера, который работает Microsoft Exchange Server 2010 г., где установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -73,7 +73,7 @@ ms.locfileid: "44468532"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

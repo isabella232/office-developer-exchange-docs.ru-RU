@@ -1,23 +1,23 @@
 ---
-title: EmailAddresses (Аррайофемаиладдрессентитиестипе)
+title: EmailAddresses (ArrayOfEmailAddressEntitiesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3
-description: Элемент EmailAddresses указывает массив сущностей адресов электронной почты.
-ms.openlocfilehash: bd478b369f3b359edc6007db9231af50c36877e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EmailAddresses указывает массив сущностями адресов электронной почты.
+ms.openlocfilehash: acb784e89bbc4cc6618bf5bad6e5cf0c7274bdfb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463428"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531016"
 ---
-# <a name="emailaddresses-arrayofemailaddressentitiestype"></a>EmailAddresses (Аррайофемаиладдрессентитиестипе)
+# <a name="emailaddresses-arrayofemailaddressentitiestype"></a>EmailAddresses (ArrayOfEmailAddressEntitiesType)
 
-Элемент **EmailAddresses** указывает массив сущностей адресов электронной почты. 
+Элемент **EmailAddresses** указывает массив сущностями адресов электронной почты. 
   
 ```XML
 <EmailAddresses>
@@ -25,28 +25,28 @@ ms.locfileid: "44463428"
 </EmailAddresses>
 ```
 
- **аррайофемаиладдрессентитиестипе**
+ **ArrayOfEmailAddressEntitiesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[емаиладдрессентити](emailaddressentity.md) <br/> |Указывает одну сущность адреса электронной почты.  <br/> |
+|[EmailAddressEntity](emailaddressentity.md) <br/> |Указывает одно лицо адресов электронной почты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ентитекстрактионресулт](entityextractionresult.md) <br/> |Задает свойство **ентитекстрактионресулт** элемента.  <br/> |
+|[EntityExtractionResult](entityextractionresult.md) <br/> |Указывает свойство **EntityExtractionResult** элемента.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44463428"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

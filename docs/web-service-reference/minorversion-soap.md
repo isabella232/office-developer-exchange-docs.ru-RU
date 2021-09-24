@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2ef4e181-7324-4c88-94a9-1cffefc8c008
-description: Элемент MinorVersion представляет дополнительный номер версии для сервера.
-ms.openlocfilehash: 79e617e65e7cecffa1b8ca7ccfe9ac799bb475b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MinorVersion представляет небольшой номер версии для сервера.
+ms.openlocfilehash: 4518a1cb342187099aefa9ac9d9d5069e51fa9ca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467755"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518199"
 ---
 # <a name="minorversion-soap"></a>MinorVersion (SOAP)
 
-Элемент **minorversion** представляет дополнительный номер версии для сервера. 
+Элемент **MinorVersion** представляет небольшой номер версии для сервера. 
   
 ```XML
 <MinorVersion/>
@@ -27,33 +27,33 @@ ms.locfileid: "44467755"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Серверверсионинфо (SOAP)](serverversioninfo-soap.md) <br/> |Содержит версию сервера, который обработал запрос.  <br/> |
+|[ServerVersionInfo (SOAP)](serverversioninfo-soap.md) <br/> |Содержит версию сервера, обрабатываемого запросом.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Целое значение, представляющее дополнительный номер версии сервера, который обработал запрос.
+Integer value that represents the minor version number of the server that processed the request.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 

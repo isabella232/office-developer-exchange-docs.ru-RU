@@ -1,23 +1,23 @@
 ---
-title: ендтимезонеид
+title: EndTimeZoneId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02cf4611-affc-48bc-8e37-53d8694eca58
-description: Элемент Ендтимезонеид указывает часовой пояс, в котором выполняется собрание.
-ms.openlocfilehash: 9033e3eaeff9a955cce9d2a6c81d4c0222f00dc0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EndTimeZoneId указывает часовой пояс, в котором происходит собрание.
+ms.openlocfilehash: 72c413b399b1f032e9a731cf870f22eba50f9342
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462980"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530968"
 ---
-# <a name="endtimezoneid"></a>ендтимезонеид
+# <a name="endtimezoneid"></a>EndTimeZoneId
 
-Элемент **ендтимезонеид** указывает часовой пояс, в котором выполняется собрание. 
+Элемент **EndTimeZoneId** указывает часовой пояс, в котором происходит собрание. 
   
 ```XML
 <EndTimeZoneId></EndTimeZoneId>
@@ -26,27 +26,27 @@ ms.locfileid: "44462980"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Элемент **ендтимезонеид** указывает идентификатор часового пояса. 
+Элемент **EndTimeZoneId** указывает идентификатор часового пояса. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44462980"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

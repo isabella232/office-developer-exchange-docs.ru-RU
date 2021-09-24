@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Condition
 api_type:
 - schema
 ms.assetid: 0790a3f2-cb31-4036-a757-7821aa0722cb
-description: Элемент Condition определяет условие, которое должно быть удовлетворено для части действия правила, которое необходимо выполнить.
-ms.openlocfilehash: 2aea11197f072a4dbe21292bb47075d6f273d31b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Condition определяет условие, которое должно быть выполнено для исполняемой части правила.
+ms.openlocfilehash: 80efb2121e813a966faf419233cac4d23e971bc6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463225"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512009"
 ---
 # <a name="condition"></a>Условие
 
-Элемент **Condition** определяет условие, которое должно быть удовлетворено для части действия правила, которое необходимо выполнить. 
+Элемент **Condition** определяет условие, которое должно быть выполнено для исполняемой части правила. 
   
 ```xml
 <Condition>
@@ -53,25 +53,25 @@ ms.locfileid: "44463225"
 </Condition>
 ```
 
-**протектионрулекондитионтипе**
+**ProtectionRuleConditionType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аллинтернал](allinternal.md) <br/> |Возвращает **значение true** , если все получатели сообщения электронной почты являются внутренними для организации отправителя.  <br/> |
-|[И (Протектионрулеандтипе)](and-protectionruleandtype.md) <br/> |Указывает, что все дочерние элементы должны сопоставляться со значением **true**. Указывает, что должно быть больше одного дочернего условия правила защиты.  <br/> |
-|[Получательявляется](recipientis.md) <br/> |Указывает, что любой получатель сообщения электронной почты соответствует любому из указанных получателей в дочерних элементах [value (протектионрулевалуетипе)](value-protectionrulevaluetype.md) .  <br/> |
-|[сендердепартментс](senderdepartments.md) <br/> |Указывает, что отдел отправителя соответствует любой из указанных отделов в дочерних элементах [value (протектионрулевалуетипе)](value-protectionrulevaluetype.md) .  <br/> |
-|[True](true.md) <br/> |Задает условие, которое всегда соответствует.  <br/> |
+|[AllInternal](allinternal.md) <br/> |Оценивается **до true,** если все получатели сообщения электронной почты являются внутренними в организации отправитель.  <br/> |
+|[And (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Указывает, что все детские элементы должны соответствовать для оценки **true.** Указывает, что должно быть несколько условий для ребенка правила защиты.  <br/> |
+|[RecipientIs](recipientis.md) <br/> |Указывает, что любой получатель сообщения электронной почты соответствует любому из указанных получателей в элементах [Child Value (ProtectionRuleValueType).](value-protectionrulevaluetype.md)  <br/> |
+|[SenderDepartments](senderdepartments.md) <br/> |Указывает, что отдел отправитель соответствует любому из указанных отделов в элементах [child Value (ProtectionRuleValueType).](value-protectionrulevaluetype.md)  <br/> |
+|[True](true.md) <br/> |Указывает условие, которое всегда совпадает.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -83,7 +83,7 @@ ms.locfileid: "44463225"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -93,7 +93,7 @@ ms.locfileid: "44463225"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

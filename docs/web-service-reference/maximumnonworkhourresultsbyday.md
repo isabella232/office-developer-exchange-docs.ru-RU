@@ -1,33 +1,33 @@
 ---
-title: максимумнонворкхаурресултсбидай
+title: MaximumNonWorkHourResultsByDay
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaximumNonWorkHourResultsByDay
 api_type:
 - schema
 ms.assetid: 9fb7314d-779c-4b1f-9d7c-b5cb092ed134
-description: Элемент Максимумнонворкхаурресултсбидай указывает количество предполагаемых результатов для времени проведения собрания, которое не превышает обычные рабочие часы в день.
-ms.openlocfilehash: 410d6bd84838d979af6bc53ca47f445ae55a09e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MaximumNonWorkHourResultsByDay указывает количество предложенных результатов для времени собраний за пределами обычных рабочих часов в день.
+ms.openlocfilehash: e5fc7be91b8551215d14783d4d7640a722d50968
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465501"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511154"
 ---
-# <a name="maximumnonworkhourresultsbyday"></a>максимумнонворкхаурресултсбидай
+# <a name="maximumnonworkhourresultsbyday"></a>MaximumNonWorkHourResultsByDay
 
-Элемент **максимумнонворкхаурресултсбидай** указывает количество предполагаемых результатов для времени проведения собрания, которое не превышает обычные рабочие часы в день. 
+Элемент **MaximumNonWorkHourResultsByDay** указывает количество предложенных результатов для времени собраний за пределами обычных рабочих часов в день. 
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[сугжестионсвиевоптионс](suggestionsviewoptions.md)
+[SuggestionsViewOptions](suggestionsviewoptions.md)
   
-[максимумнонворкхаурресултсбидай](maximumnonworkhourresultsbyday.md)
+[MaximumNonWorkHourResultsByDay](maximumnonworkhourresultsbyday.md)
   
 ```xml
 <MaximumNonWorkHourResultsByDay>...</MaximumNonWorkHourResultsByDay>
@@ -36,29 +36,29 @@ ms.locfileid: "44465501"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Текстовое значение представляет целое число.
+Требуется текстовое значение. Текстовое значение представляет собой integer.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент является обязательным, если используется элемент [сугжестионсвиевоптионс](suggestionsviewoptions.md) . 
+Этот элемент необходим, если используется элемент [SuggestionsViewOptions.](suggestionsviewoptions.md) 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
@@ -69,7 +69,7 @@ ms.locfileid: "44465501"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

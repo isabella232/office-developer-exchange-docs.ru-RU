@@ -1,48 +1,48 @@
 ---
-title: полицинуджерулесконфигуратион
+title: PolicyNudgeRulesConfiguration
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6f7c824-1284-4a65-a459-9fc22b66e30a
-description: Элемент Полицинуджерулесконфигуратион содержит данные конфигурации защиты от потери данных.
-ms.openlocfilehash: dd801fe140dee66d153e388781f97254d1a2f2ef
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PolicyNudgeRulesConfiguration содержит данные о конфигурации конфигурации предотвращения потери данных.
+ms.openlocfilehash: ad0bee85bb9b03a3584baa39a2436c8ad68b7e4d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459611"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527933"
 ---
-# <a name="policynudgerulesconfiguration"></a>полицинуджерулесконфигуратион
+# <a name="policynudgerulesconfiguration"></a>PolicyNudgeRulesConfiguration
 
-Элемент **полицинуджерулесконфигуратион** содержит данные конфигурации защиты от потери данных. 
+Элемент **PolicyNudgeRulesConfiguration содержит** данные о конфигурации конфигурации предотвращения потери данных. 
   
 ```XML
 <PolicyNudgeRulesConfiguration></PolicyNudgeRulesConfiguration>
 ```
 
- **полицинуджерулессервицеконфигуратион**
+ **PolicyNudgeRulesServiceConfiguration**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сервицеконфигуратионреспонсемессажетипе](serviceconfigurationresponsemessagetype.md)
+[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Содержимое элемента **полицинуджерулесконфигуратион** не определено схемой веб-служб Exchange. 
+Содержимое **элемента PolicyNudgeRulesConfiguration** не определяет схему Exchange веб-служб. 
   
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44459611"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

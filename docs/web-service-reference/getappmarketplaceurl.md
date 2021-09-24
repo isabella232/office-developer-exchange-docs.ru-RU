@@ -5,42 +5,42 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4cb08a3b-74aa-4506-abda-c000ae97f981
-description: Элемент GetAppMarketplaceUrl указывает запрос на получение URL-адреса для приложения.
-ms.openlocfilehash: 1252df9833aa44ae6406dd5e19140aec02369ee5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetAppMarketplaceUrl указывает запрос на извлечение URL-адреса приложения.
+ms.openlocfilehash: 154b97e4dec9e06d84646a81c4963f9212d16985
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530862"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530035"
 ---
 # <a name="getappmarketplaceurl"></a>GetAppMarketplaceUrl
 
-Элемент **GetAppMarketplaceUrl** указывает запрос на получение URL-адреса для приложения. 
+Элемент **GetAppMarketplaceUrl указывает** запрос на извлечение URL-адреса приложения. 
   
 ```XML
 <GetAppMarketplaceUrl/>
 ```
 
- **жетаппмаркетплацеурлтипе**
+ **GetAppMarketplaceUrlType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Апиверсионсуппортед](apiversionsupported.md)  |  [Счемаверсионсуппортед](schemaversionsupported.md)
+[ApiVersionSupported](apiversionsupported.md)  |  [SchemaVersionSupported](schemaversionsupported.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -52,7 +52,7 @@ ms.locfileid: "44530862"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |true  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,23 +1,23 @@
 ---
-title: Почтовые ящики (Аррайофстрингстипе)
+title: Mailboxes (ArrayOfStringsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20596ebd-ed0f-4ad0-8631-e504220f1016
-description: Элемент почтовых ящиков содержит список почтовых ящиков, на которые влияет удержание.
-ms.openlocfilehash: 376bd1f007e4b3d27bc44076a7b09993c49bd416
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Почтовые ящики содержит список почтовых ящиков, затронутых удержанием.
+ms.openlocfilehash: d7eab2b3fb6566380f2ccc4d2419f5eb4a45460a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468161"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528532"
 ---
-# <a name="mailboxes-arrayofstringstype"></a>Почтовые ящики (Аррайофстрингстипе)
+# <a name="mailboxes-arrayofstringstype"></a>Mailboxes (ArrayOfStringsType)
 
-Элемент **почтовых ящиков** содержит список почтовых ящиков, на которые влияет удержание. 
+Элемент **Почтовые ящики** содержит список почтовых ящиков, затронутых удержанием. 
   
 ```XML
 <Mailboxes>
@@ -25,15 +25,15 @@ ms.locfileid: "44468161"
 </Mailboxes>
 ```
 
-**аррайофстрингстипе**
+**ArrayOfStringsType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -43,7 +43,7 @@ ms.locfileid: "44468161"
 
 [SetHoldOnMailboxes](setholdonmailboxes.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44468161"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

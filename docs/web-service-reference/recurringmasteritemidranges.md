@@ -1,23 +1,23 @@
 ---
-title: рекуррингмастеритемидранжес
+title: RecurringMasterItemIdRanges
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c9c89b5-4ce8-437b-a332-fa7ed35c8388
-description: Элемент Рекуррингмастеритемидранжес указывает массив диапазонов вхождений.
-ms.openlocfilehash: 784676844c5c58c65b8cc6177843bf26d351b7d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RecurringMasterItemIdRanges указывает массив диапазонов возникновения.
+ms.openlocfilehash: 582cbe27d468c1ff7ec22f03ba9f6976d244e234
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528757"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529372"
 ---
-# <a name="recurringmasteritemidranges"></a>рекуррингмастеритемидранжес
+# <a name="recurringmasteritemidranges"></a>RecurringMasterItemIdRanges
 
-Элемент **рекуррингмастеритемидранжес** указывает массив диапазонов вхождений. 
+Элемент **RecurringMasterItemIdRanges** указывает массив диапазонов возникновения. 
   
 ```XML
 <RecurringMasterItemIdRanges Id="" ChangeKey="">
@@ -25,17 +25,17 @@ ms.locfileid: "44528757"
 </RecurringMasterItemIdRanges>
 ```
 
- **рекуррингмастеритемидранжестипе**
+ **RecurringMasterItemIdRangesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**Id** <br/> |Текстовое значение атрибута **ID** — это уникальный идентификатор повторяющегося элемента шаблона. Это **строковое** значение.  <br/> |
-|**чанжекэй** <br/> |Текстовое значение атрибута **чанжекэй** является ключом повторяющегося изменения элемента шаблона. Это **строковое** значение.  <br/> |
+|**Id** <br/> |Текстовое значение атрибута **Id** — уникальный идентификатор повторяющегося элемента. Это **строковая** величина.  <br/> |
+|**ChangeKey** <br/> |Текстовое значение атрибута **ChangeKey** — это повторяющийся ключ изменения мастера элемента. Это **строковая** величина.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -43,9 +43,9 @@ ms.locfileid: "44528757"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Итемидс](itemids.md)  |  [Глобалитемидс](globalitemids.md)  |  [Драфтитемидс](draftitemids.md)  |  [Контактидс](contactids.md)  |  [Граупидс](groupids.md)
+[ItemIds](itemids.md)  |  [GlobalItemIds](globalitemids.md)  |  [DraftItemIds](draftitemids.md)  |  [ContactIds](contactids.md)  |  [GroupIds](groupids.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44528757"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

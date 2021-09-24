@@ -4,23 +4,23 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhone
 api_type:
 - schema
 ms.assetid: 206a2ad1-a01d-4e71-99a1-90c2530423da
-description: Элемент PlayOnPhone определяет запрос на воспроизведения элемента на телефоне.
-ms.openlocfilehash: 9acbf9edbf4a889506558b24f5736a44d5015d3f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PlayOnPhone определяет запрос на игру элемента на телефоне.
+ms.openlocfilehash: 240c8f474c87e0c123a6d8239eb691079385e348
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44434080"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527991"
 ---
 # <a name="playonphone-um-web-service"></a>PlayOnPhone (веб-служба единой системы обмена сообщениями)
 
-Элемент **PlayOnPhone** определяет запрос на воспроизведения элемента на телефоне. 
+Элемент **PlayOnPhone** определяет запрос на игру элемента на телефоне. 
   
 [PlayOnPhone (веб-служба единой системы обмена сообщениями)](playonphone-um-web-service.md)
   
@@ -44,8 +44,8 @@ ms.locfileid: "44434080"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[entryId (веб-служба единой системы обмена сообщениями)](entryid-um-web-service.md) <br/> |Содержит значение, которое представляет идентификатор элемента для воспроизведения на телефоне в запросе операции [PlayOnPhone (веб-служба um).](playonphone-operation-um-web-service.md)  <br/> |
-|[dialString (веб-служба единой системы обмена сообщениями)](dialstring-um-web-service.md) <br/> |Содержит значение телефонного номера для набора.  <br/> |
+|[entryId (веб-служба единой системы обмена сообщениями)](entryid-um-web-service.md) <br/> |Содержит значение, которое представляет идентификатор элемента для воспроизведения по телефону в запросе [операции PlayOnPhone (веб-служба um).](playonphone-operation-um-web-service.md)  <br/> |
+|[dialString (веб-служба единой системы обмена сообщениями)](dialstring-um-web-service.md) <br/> |Содержит значение для номера телефона для набора.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 

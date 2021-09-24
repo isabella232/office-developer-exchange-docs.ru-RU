@@ -1,52 +1,52 @@
 ---
-title: Уровнем
+title: Altitude
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c2c8bd-db54-4b03-9a97-190ff9e908b3
-description: Элемент высота определяет высоту почтовых адресов.
-ms.openlocfilehash: 7cbb3872cd0ad53b1617f9f712633e19e6fe397d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Altitude указывает высоту почтового адреса.
+ms.openlocfilehash: e3f4559b3baf99bf60fa7da85b363450a65d8747
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458840"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518962"
 ---
-# <a name="altitude"></a>Уровнем
+# <a name="altitude"></a>Altitude
 
-Элемент **Высота** определяет высоту почтовых адресов. 
+Элемент **Altitude** указывает высоту почтового адреса. 
   
 ```XML
 <Altitude></Altitude>
 ```
 
- **xs: Double**
+ **xs:double**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Посталаддресс (Персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md) <br/> |Указывает почтовый адрес расположения.  <br/> |
+|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Указывает почтовый адрес расположения.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента высота — высота почтового адреса.
+Текстовое значение элемента Altitude — высота почтового адреса.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44458840"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

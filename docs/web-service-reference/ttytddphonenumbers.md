@@ -1,23 +1,23 @@
 ---
-title: ттитддфоненумберс
+title: TTYTDDPhoneNumbers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e10ca10-3cf6-4f84-92f1-61eaa277f83a
-description: Элемент Ттитддфоненумберс указывает массив телефонных номеров TTY или TDD и идентификаторы их исходных атрибутов для соответствующего пользователя.
-ms.openlocfilehash: 2a68953537b2f1e1e9a60da8f41c98024451ea36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TTYTDDDPhoneNumbers указывает массив номеров текстовых телефонов TTY или TDD и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 087e3560515f65135cc6db84febb129e293f6386
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527229"
 ---
-# <a name="ttytddphonenumbers"></a>ттитддфоненумберс
+# <a name="ttytddphonenumbers"></a>TTYTDDPhoneNumbers
 
-Элемент **ттитддфоненумберс** указывает массив телефонных номеров TTY или TDD и идентификаторы их исходных атрибутов для соответствующего пользователя. 
+Элемент **TTYTDDDPhoneNumbers** указывает массив номеров текстовых телефонов TTY или TDD и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <TTYTDDPhoneNumbers>
@@ -25,24 +25,24 @@ ms.locfileid: "44457069"
 </TTYTDDPhoneNumbers>
 ```
 
- **аррайоффоненумбераттрибутедвалуестипе**
+ **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[фоненумбераттрибутедвалуе](phonenumberattributedvalue.md)
+[PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44457069"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

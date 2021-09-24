@@ -1,35 +1,35 @@
 ---
-title: уникуеунреадсендерс
+title: UniqueUnreadSenders
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniqueUnreadSenders
 api_type:
 - schema
 ms.assetid: eb7d1274-ce2e-4ef8-b47f-e911174aab0c
-description: Элемент Уникуеунреадсендерс содержит список всех пользователей, которые отправили сообщения, которые в настоящее время не прочитаны в текущей папке. Этот элемент доступен только для чтения.
-ms.openlocfilehash: 0e45362e88be4930b8bc2f641c1fb00cc63c0605
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UniqueUnreadSenders содержит список всех людей, отправивших сообщения, которые в настоящее время нечитаются в этом разговоре в текущей папке. Этот элемент доступен только для чтения.
+ms.openlocfilehash: 6d4099a45d65ab01a12132417eeaa2fde1c1b174
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527010"
 ---
-# <a name="uniqueunreadsenders"></a>уникуеунреадсендерс
+# <a name="uniqueunreadsenders"></a>UniqueUnreadSenders
 
-Элемент **уникуеунреадсендерс** содержит список всех пользователей, которые отправили сообщения, которые в настоящее время не прочитаны в текущей папке. Этот элемент доступен только для чтения. 
+Элемент **UniqueUnreadSenders** содержит список всех людей, отправивших сообщения, которые в настоящее время нечитаются в этом разговоре в текущей папке. Этот элемент доступен только для чтения. 
   
-[финдконверсатионреспонсе](findconversationresponse.md)
+[FindConversationResponse](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[уникуеунреадсендерс](uniqueunreadsenders.md)
+[UniqueUnreadSenders](uniqueunreadsenders.md)
   
 ```XML
 <UniqueUnreadSenders>
@@ -37,20 +37,20 @@ ms.locfileid: "44458854"
 </UniqueUnreadSenders>
 ```
 
- **аррайофстрингстипе**
+ **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Содержит одного отправителя беседы.  <br/> |
+|[Строка](string.md) <br/> |Содержит одного отправитель беседы.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -62,9 +62,9 @@ ms.locfileid: "44458854"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1). Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, на котором размещаются веб-службы Exchange.
+Этот элемент был представлен в Exchange Server 2010 Пакет обновления 1 (SP1). Схема, описываемая этим элементом, расположена в виртуальном каталоге IIS, в котором Exchange веб-служб.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -72,7 +72,7 @@ ms.locfileid: "44458854"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

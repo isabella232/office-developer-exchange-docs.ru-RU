@@ -1,25 +1,25 @@
 ---
-title: Получатели (АррайофреЦипиентстипе)
+title: Recipients (ArrayOfRecipientsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Recipients
 api_type:
 - schema
 ms.assetid: f4b71403-cbae-4176-8b2e-3597048c057b
 description: Элемент Recipients представляет коллекцию получателей, которые получают копию сообщения.
-ms.openlocfilehash: 0e18152a8143b888ad27f48137c06613694f5713
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 232dbb88f54cb551f4f8017ff9d18049a4984783
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463876"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529545"
 ---
-# <a name="recipients-arrayofrecipientstype"></a>Получатели (АррайофреЦипиентстипе)
+# <a name="recipients-arrayofrecipientstype"></a>Recipients (ArrayOfRecipientsType)
 
 Элемент **Recipients** представляет коллекцию получателей, которые получают копию сообщения. 
   
@@ -29,32 +29,32 @@ ms.locfileid: "44463876"
 </Recipients>
 ```
 
- **аррайофреЦипиентстипе**
+ **ArrayOfRecipientsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Mailbox](mailbox.md) <br/> |Определяет объект Active Directory с включенной поддержкой почты.  <br/> |
+|[Mailbox](mailbox.md) <br/> |Определяет объект Active Directory с поддержкой почты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetMailTips](getmailtips.md) <br/> |Содержит получателей и типы советов по работе с почтой, которые необходимо получить.  <br/> |
+|[GetMailTips](getmailtips.md) <br/> |Содержит получателей и типы советов по извлечению почты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -64,7 +64,7 @@ ms.locfileid: "44463876"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

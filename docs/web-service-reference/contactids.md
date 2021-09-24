@@ -1,23 +1,23 @@
 ---
-title: контактидс
+title: ContactIds
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c444f818-412b-41ac-9523-50246e50eae0
-description: Элемент Контактидс содержит массив идентификаторов элементов Contact.
-ms.openlocfilehash: 5c3b5621808a6931760433148e0cfe3239cd75f1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ContactIds содержит массив идентификаторов контактных элементов.
+ms.openlocfilehash: 05c26af6dc1a5b826025e4145116d3df5eee8d62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460192"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529219"
 ---
-# <a name="contactids"></a>контактидс
+# <a name="contactids"></a>ContactIds
 
-Элемент **контактидс** содержит массив идентификаторов элементов Contact. 
+Элемент **ContactIds содержит** массив идентификаторов контактных элементов. 
   
 ```XML
 <ContactIds>
@@ -28,24 +28,24 @@ ms.locfileid: "44460192"
 </ContactIds>
 ```
 
- **нонемптяррайофбасеитемидстипе**
+ **NonEmptyArrayOfBaseItemIdsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ItemId](itemid.md)  |  [Оккурренцеитемид](occurrenceitemid.md)  |  [Рекуррингмастеритемид](recurringmasteritemid.md)  |  [Рекуррингмастеритемидранжес](recurringmasteritemidranges.md)
+[ItemId](itemid.md)  |  [OccurrenceItemId](occurrenceitemid.md)  |  [RecurringMasterItemId](recurringmasteritemid.md)  |  [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [GetImItems](getimitems.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44460192"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

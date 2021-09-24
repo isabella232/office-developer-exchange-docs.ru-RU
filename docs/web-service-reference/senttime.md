@@ -1,50 +1,50 @@
 ---
-title: сенттиме
+title: SentTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e74b4a03-45b0-469c-8889-c7cc5aa88a68
-description: Элемент Сенттиме указывает время отправки элемента.
-ms.openlocfilehash: 51404b1fe12cf31f935740dd4afe3deaab0777de
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SentTime указывает время, в которое был отправлен элемент.
+ms.openlocfilehash: dd7f80c51be9ceeabdd9bb648b27d3b4f2b7c77f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463169"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532127"
 ---
-# <a name="senttime"></a>сенттиме
+# <a name="senttime"></a>SentTime
 
-Элемент **сенттиме** указывает время отправки элемента. 
+Элемент **SentTime** указывает время, в которое был отправлен элемент. 
   
 ```XML
 <SentTime></SentTime>
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеарчпревиевитем](searchpreviewitem.md)
+[SearchPreviewItem](searchpreviewitem.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **сенттиме** — это дата и время отправки элемента. 
+Текстовое значение элемента **SentTime** — это дата и время, когда был отправлен элемент. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44463169"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

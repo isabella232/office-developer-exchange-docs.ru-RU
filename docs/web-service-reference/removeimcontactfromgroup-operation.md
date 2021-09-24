@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a190bbec-c71b-4e6a-880b-55854c724d8c
-description: Поиск сведений о RemoveImContactFromGroupной операции EWS.
-ms.openlocfilehash: 4750ef57794c3da540ac36baa8ef6ef093939ea1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции RemoveImContactFromGroup EWS.
+ms.openlocfilehash: 696e05bfa12f3ddd0c9d7bfca4a58368ee115c2b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466971"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512417"
 ---
 # <a name="removeimcontactfromgroup-operation"></a>Операция RemoveImContactFromGroup
 
-Поиск сведений о **RemoveImContactFromGroupной** операции EWS. 
+Сведения об операции **RemoveImContactFromGroup** EWS. 
   
-Операция **RemoveImContactFromGroup** удаляет один контакт для обмена мгновенными сообщениями из группы обмена мгновенными сообщениями. 
+Операция **RemoveImContactFromGroup** удаляет один чат-контакт из группы im. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-removeimcontactfromgroup-operation"></a>Использование операции RemoveImContactFromGroup
 
-Для операции **RemoveImContactFromGroup** используются два аргумента: идентификатор элемента контакта и соответствующая группа обмена мгновенными сообщениями, из которой удаляется контакт. 
+Операция **RemoveImContactFromGroup** принимает два аргумента: идентификатор контактного элемента и соответствующую группу мгновенных сообщений (IM), из которой удаляется контакт. 
   
-### <a name="removeimcontactfromgroup-operation-soap-headers"></a>Заголовки SOAP операции RemoveImContactFromGroup
+### <a name="removeimcontactfromgroup-operation-soap-headers"></a>RemoveImContactFromGroup operation SOAP headers
 
-Операция **RemoveImContactFromGroup** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+Операция **RemoveImContactFromGroup** может использовать заглавные таблицы SOAP, перечисленные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
-|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает. Этот заглавный заглавник применим к запросу.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет культуру, определяемую в RFC 3066 , "Теги для идентификации языков", которая будет использоваться для доступа к почтовому ящику. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="removeimcontactfromgroup-operation-request-example"></a>Пример запроса операции RemoveImContactFromGroup
+## <a name="removeimcontactfromgroup-operation-request-example"></a>Пример запроса на операцию RemoveImContactFromGroup
 
-В следующем примере запроса операции **RemoveImContactFromGroup** показано, как удалить контакт для обмена мгновенными сообщениями из группы обмена мгновенными сообщениями. 
+В следующем примере запроса на операцию **RemoveImContactFromGroup** показано, как удалить контакт с чатом из группы im. 
   
 > [!NOTE]
-> Идентификаторы групп и контактов были сокращены, чтобы сохранить удобочитаемость. 
+> Для сохранения читаемости сокращены идентификаторы группы и контактов. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -65,7 +65,7 @@ ms.locfileid: "44466971"
 </soap:Envelope>
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [RemoveImContactFromGroup](removeimcontactfromgroup.md)
     
@@ -73,9 +73,9 @@ ms.locfileid: "44466971"
     
 - [GroupId](groupid.md)
     
-## <a name="successful-removeimcontactfromgroup-operation-response"></a>Успешный отклик операции RemoveImContactFromGroup
+## <a name="successful-removeimcontactfromgroup-operation-response"></a>Успешный ответ на операцию RemoveImContactFromGroup
 
-В следующем примере показан успешный ответ на запрос операции **RemoveImContactFromGroup** . 
+В следующем примере показан успешный ответ на запрос на операцию **RemoveImContactFromGroup.** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -101,15 +101,15 @@ ms.locfileid: "44466971"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [ремовеимконтактфромграупреспонсе](removeimcontactfromgroupresponse.md)
+- [RemoveImContactFromGroupResponse](removeimcontactfromgroupresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-## <a name="removeimcontactfromgroup-operation-errorinvalidimcontactid-error-response"></a>Ответ об ошибке Ерроринвалидимконтактид операции RemoveImContactFromGroup
+## <a name="removeimcontactfromgroup-operation-errorinvalidimcontactid-error-response"></a>RemoveImContactFromGroup operation ErrorInvalidImContactId error response
 
-В следующем примере показан ответ об ошибке для запроса операции **RemoveImContactFromGroup** . При попытке удалить элемент контакта, который не существует в группе IM, возникает следующий ответ об ошибке. 
+В следующем примере показан ответ на ошибку запроса на операцию **RemoveImContactFromGroup.** Следующий ответ на ошибку возникает при попытке удалить элемент контакта, который не существует в группе im. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -137,15 +137,15 @@ ms.locfileid: "44466971"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [ремовеимконтактфромграупреспонсе](removeimcontactfromgroupresponse.md)
+- [RemoveImContactFromGroupResponse](removeimcontactfromgroupresponse.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 
@@ -171,6 +171,6 @@ ms.locfileid: "44466971"
     
 - [Операция SetImGroup](setimgroup-operation.md)
     
-- [сетимлистмигратионкомплетед](setimlistmigrationcompleted-operation.md)
+- [SetImListMigrationCompleted](setimlistmigrationcompleted-operation.md)
     
 

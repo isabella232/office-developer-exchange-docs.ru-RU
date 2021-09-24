@@ -1,23 +1,23 @@
 ---
-title: сетимлистмигратионкомплетед
+title: SetImListMigrationCompleted
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b806441-0429-44c4-90b7-1ae5c6ab9128
-description: Элемент Сетимлистмигратионкомплетед представляет запрос, указывающий, содержит ли хранилище Exchange элементы для обмена мгновенными сообщениями, используемые клиентами обмена мгновенными сообщениями.
-ms.openlocfilehash: e5b16044ee72a9e931a2707d3f7823931f8a642a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SetImListMigrationCompleted представляет запрос, чтобы указать, содержит ли Exchange хранилище элементы обмена мгновенными сообщениями, используемые клиентами обмена мгновенными сообщениями.
+ms.openlocfilehash: 80ba542fac320a81fbcd044300bfed94f52c34f5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464828"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510885"
 ---
-# <a name="setimlistmigrationcompleted"></a>сетимлистмигратионкомплетед
+# <a name="setimlistmigrationcompleted"></a>SetImListMigrationCompleted
 
-Элемент **сетимлистмигратионкомплетед** представляет запрос, указывающий, содержит ли хранилище Exchange элементы для обмена мгновенными сообщениями, используемые клиентами обмена мгновенными сообщениями. 
+Элемент **SetImListMigrationCompleted** представляет запрос, чтобы указать, содержит ли Exchange хранилище элементы обмена мгновенными сообщениями, используемые клиентами мгновенных сообщений. 
   
 ```XML
 <SetImListMigrationCompleted>
@@ -25,14 +25,14 @@ ms.locfileid: "44464828"
 </SetImListMigrationCompleted>
 ```
 
- **сетимлистмигратионкомплетедтипе**
+ **SetImListMigrationCompletedType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -42,7 +42,7 @@ ms.locfileid: "44464828"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44464828"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

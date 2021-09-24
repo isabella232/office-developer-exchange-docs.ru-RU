@@ -1,27 +1,27 @@
 ---
-title: канренамеормове
+title: CanRenameOrMove
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CanRenameOrMove
 api_type:
 - schema
 ms.assetid: fe0cdb04-5f2b-4f1d-9d12-7ace0883cd86
-description: Элемент Канренамеормове указывает, можно ли переименовать или переместить управляемую папку клиентом.
-ms.openlocfilehash: eb6aaeb8b0edcab5b67212c426a44daf32a0cf73
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CanRenameOrMove указывает, может ли клиент переименовать или перенаправить управляемые папки.
+ms.openlocfilehash: 7c452ed65860939e834d77894bdb5e913ecb36a8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463365"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518810"
 ---
-# <a name="canrenameormove"></a>канренамеормове
+# <a name="canrenameormove"></a>CanRenameOrMove
 
-Элемент **канренамеормове** указывает, можно ли переименовать или переместить управляемую папку клиентом. 
+Элемент **CanRenameOrMove** указывает, может ли клиент переименовать или перенаправить управляемые папки. 
   
 ```xml
 <CanRenameOrMove/>
@@ -30,27 +30,27 @@ ms.locfileid: "44463365"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[манажедфолдеринформатион](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
+|[ManagedFolderInformation](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет логическое значение. Значение **true** указывает, что папка может быть переименована или перемещена; значение **false** указывает, что папка не может быть переименована или перемещена. 
+Текстовое значение представляет значение Boolean. Значение true **указывает,** что папку можно переименовать или переименовать; значение false **указывает** на то, что папку нельзя переименовать или переименовать. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44463365"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

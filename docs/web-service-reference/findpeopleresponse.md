@@ -1,23 +1,23 @@
 ---
-title: финдпеоплереспонсе
+title: FindPeopleResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95f016a9-002f-4be3-abd6-f5e3528afd44
-description: Элемент Финдпеоплереспонсе указывает ответ на запрос FindPeople.
-ms.openlocfilehash: b969ac3f7bc2bbd3fc77bf753a15696c3b6d8216
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FindPeopleResponse указывает ответ на запрос FindPeople.
+ms.openlocfilehash: ce612b203ac30f51b2ea979dda3cf914606e0084
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466404"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518402"
 ---
-# <a name="findpeopleresponse"></a>финдпеоплереспонсе
+# <a name="findpeopleresponse"></a>FindPeopleResponse
 
-Элемент **финдпеоплереспонсе** указывает ответ на запрос **FindPeople** . 
+Элемент **FindPeopleResponse** указывает ответ на запрос **FindPeople.** 
   
 ```XML
 <FindPeopleResponse ResponseClass=" Success | Warning | Error ">
@@ -30,43 +30,43 @@ ms.locfileid: "44466404"
 </FindPeopleResponse>
 ```
 
- **финдпеоплереспонсемессажетипе**
+ **FindPeopleResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|респонсекласс  <br/> |Указывает класс ответа.  <br/> |
+|ResponseClass  <br/> |Указывает класс отклика.  <br/> |
    
-#### <a name="responseclass"></a>респонсекласс
+#### <a name="responseclass"></a>ResponseClass
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Успешно  <br/> |Указывает на успешное выполнение.  <br/> |
-|Предупреждение  <br/> |Указывает на предупреждение.  <br/> |
-|Ошибка  <br/> |Указывает на ошибку.  <br/> |
+|Успешно  <br/> |Указывает на успех.  <br/> |
+|Предупреждение  <br/> |Указывает предупреждение.  <br/> |
+|Error  <br/> |Указывает на ошибку.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Люди](people.md) <br/> |Указывает массив данных о пользователях, возвращаемых в результате запроса **FindPeople** .  <br/> |
-|[тоталнумберофпеоплеинвиев](totalnumberofpeopleinview.md) <br/> |Указывает общее количество пользователей, хранящихся на сервере, которые возвращаются запросом **FindPeople** .  <br/> |
-|[мессажетекст](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
-|[респонсекоде](responsecode.md) <br/> |Предоставляет сведения о состоянии запроса.  <br/> |
-|[дескриптивелинккэй](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервировано для будущего использования.  <br/> |
-|[мессажексмл](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке.  <br/> |
+|[Люди](people.md) <br/> |Указывает массив данных persona, возвращенных в результате запроса **FindPeople.**  <br/> |
+|[TotalNumberOfPeopleInView](totalnumberofpeopleinview.md) <br/> |Указывает общее число лиц, хранимых на сервере, которые возвращаются по **запросу FindPeople.**  <br/> |
+|[MessageText](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Предоставляет сведения о состоянии запроса.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |В настоящее время неиспользированы и зарезервированы для использования в будущем.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Предоставляет дополнительные сведения об отклике с ошибкой.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[респонсемессажес](responsemessages.md) <br/> |Указывает массив ответных сообщений.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Указывает массив ответных сообщений.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -78,7 +78,7 @@ ms.locfileid: "44466404"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

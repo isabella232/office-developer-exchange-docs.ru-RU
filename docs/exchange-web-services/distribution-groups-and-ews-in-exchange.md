@@ -3,15 +3,15 @@ title: Группы рассылки и EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe08c2e3-92a0-43ec-bc61-69b14caee8fe
 description: Сведения о различных типах групп рассылки, доступных в Exchange, и способах управления ими с использованием приложения EWS или управляемого API EWS.
-ms.openlocfilehash: 083a2c7380e8b9677ddacc9ae3c9465d6a9db97f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 71dc1a1e4c71310943eb19f8a5d6b3f470ab7ccb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528435"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512305"
 ---
 # <a name="distribution-groups-and-ews-in-exchange"></a>Группы рассылки и EWS в Exchange
 

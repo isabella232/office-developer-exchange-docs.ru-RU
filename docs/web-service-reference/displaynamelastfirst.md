@@ -1,23 +1,23 @@
 ---
-title: дисплайнамеластфирст
+title: DisplayNameLastFirst
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d392e138-a514-4bce-81b1-1f484e353d1c
-description: Элемент Дисплайнамеластфирст указывает отображаемое имя связанного пользователя в формате, фамилии, имени.
-ms.openlocfilehash: d569a87ce77a4f1840ed4f865e671399726ede78
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DisplayNameLastFirst указывает имя отображения связанной персоны в формате,имя и имя.
+ms.openlocfilehash: 36013d4cd62de3a229cee76be1594eadc9ac0ffd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463162"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511824"
 ---
-# <a name="displaynamelastfirst"></a>дисплайнамеластфирст
+# <a name="displaynamelastfirst"></a>DisplayNameLastFirst
 
-Элемент **дисплайнамеластфирст** указывает отображаемое имя связанного пользователя в формате "Фамилия имя", "имя пользователя". 
+Элемент **DisplayNameLastFirst** указывает имя отображения связанной персоны в формате "Имя", "Имя". 
   
 ```XML
 <DisplayNameLastFirst></DisplayNameLastFirst>
@@ -26,27 +26,27 @@ ms.locfileid: "44463162"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **дисплайнамеластфирст** — это строковое значение, которое задает отображаемое имя с фамилией. 
+Текстовое значение элемента **DisplayNameLastFirst** — это строковое значение, которое указывает имя отображения с сначала фамилией. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44463162"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

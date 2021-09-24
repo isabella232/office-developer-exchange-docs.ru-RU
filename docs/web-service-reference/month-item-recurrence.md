@@ -5,77 +5,77 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Month
 api_type:
 - schema
 ms.assetid: d2352001-f959-436a-afd5-a0a07b8ae02a
-description: Элемент month описывает месяц, когда происходит ежегодно повторяющийся элемент.
-ms.openlocfilehash: d881c617374bc9545552ad77f2f2b355efdf2359
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Месяц описывает месяц, когда происходит каждый год повторяющийся элемент.
+ms.openlocfilehash: 01d8874db3b539ba1f4c64b3fbd9b83b5b0828b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468637"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510962"
 ---
 # <a name="month-item-recurrence"></a>Month (повторение элемента)
 
-Элемент **Month** описывает месяц, когда происходит ежегодно повторяющийся элемент. 
+Элемент **Месяц** описывает месяц, когда происходит каждый год повторяющийся элемент. 
   
 ```xml
 <Month/>
 ```
 
- **монснаместипе**
+ **MonthNamesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[абсолутэйеарлирекурренце](absoluteyearlyrecurrence.md) <br/> |Представляет шаблон ежегодного повторения.  <br/> |
-|[релативэйеарлирекурренце](relativeyearlyrecurrence.md) <br/> |Описывает относительный ежегодный шаблон повторения.  <br/> |
+|[AbsoluteYearlyRecurrence](absoluteyearlyrecurrence.md) <br/> |Представляет шаблон повторяющихся периодов в течение года.  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Описывает относительное ежегодное повторение.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Ниже приведены возможные текстовые значения для этого элемента:
+Требуется текстовое значение. Возможные текстовые значения для этого элемента:
   
-- Ого
+- Январь
     
-- Февраля
+- Февраль
     
-- Марта
+- Март
     
 - Апрель
     
-- Вероятно
+- Май
     
 - Июнь
     
-- Июля
+- Июль
     
-- Августа
+- Август
     
 - Сентябрь
     
 - Октябрь
     
-- За
+- Ноябрь
     
 - Декабрь
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -85,7 +85,7 @@ ms.locfileid: "44468637"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

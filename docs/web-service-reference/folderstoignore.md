@@ -1,23 +1,23 @@
 ---
-title: фолдерстоигноре
+title: FoldersToIgnore
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b5d18516-a617-4daf-8baf-c7ce29c76f6b
-description: Элемент Фолдерстоигноре определяет список папок, которые игнорируются при извлечении элементов в беседе. Все элементы беседы в игнорируемых папках не возвращаются в ответе GetConversationItems.
-ms.openlocfilehash: 07813a54a9a3afa3de23ae94f1c9b191d1cb6fac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FoldersToIgnore определяет список папок, которые игнорируются при получении элементов в беседе. Все элементы беседы в пропущенных папках не возвращаются в ответе GetConversationItems.
+ms.openlocfilehash: c0102d12b24df2cadd5e307e80c5acda9a3c0589
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453359"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528662"
 ---
-# <a name="folderstoignore"></a>фолдерстоигноре
+# <a name="folderstoignore"></a>FoldersToIgnore
 
-Элемент **фолдерстоигноре** определяет список папок, которые игнорируются при извлечении элементов в беседе. Все элементы беседы в игнорируемых папках не возвращаются в ответе **GetConversationItems** . 
+Элемент **FoldersToIgnore** определяет список папок, которые игнорируются при получении элементов в беседе. Все элементы беседы в пропущенных папках не возвращаются в **ответе GetConversationItems.** 
   
 ```XML
 <FoldersToIgnore>
@@ -26,24 +26,24 @@ ms.locfileid: "44453359"
 </FoldersToIgnore>
 ```
 
- **нонемптяррайофбасефолдеридстипе**
+ **NonEmptyArrayOfBaseFolderIdsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[FolderId](folderid.md)  |  [Дистингуишедфолдерид](distinguishedfolderid.md)
+[FolderId](folderid.md)  |  [DistinguishedFolderId](distinguishedfolderid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [GetConversationItems](getconversationitems.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44453359"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

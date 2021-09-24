@@ -1,23 +1,23 @@
 ---
-title: комплетефиндингалспичрекогнитион
+title: CompleteFindInGALSpeechRecognition
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31211d0b-da0e-450c-8df2-159571fa3a19
-description: Элемент Комплетефиндингалспичрекогнитион предназначен только для внутреннего использования.
-ms.openlocfilehash: 11d8153f262ea115798e0f00b43bd47390b69688
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CompleteFindInGALSpeechRecognition предназначен только для внутреннего использования.
+ms.openlocfilehash: 13f05850174757c9d0a77875433fe4f54a49a052
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459043"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512048"
 ---
-# <a name="completefindingalspeechrecognition"></a>комплетефиндингалспичрекогнитион
+# <a name="completefindingalspeechrecognition"></a>CompleteFindInGALSpeechRecognition
 
-Элемент **комплетефиндингалспичрекогнитион** предназначен только для внутреннего использования. 
+Элемент **CompleteFindInGALSpeechRecognition** предназначен только для внутреннего использования. 
   
 ```XML
 <CompleteFindInGALSpeechRecognition />
@@ -25,21 +25,21 @@ ms.locfileid: "44459043"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -51,7 +51,7 @@ ms.locfileid: "44459043"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

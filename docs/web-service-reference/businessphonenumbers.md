@@ -1,23 +1,23 @@
 ---
-title: бусинессфоненумберс
+title: BusinessPhoneNumbers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ecbe4f1c-1c9e-44e0-a8f7-08c160a0fddb
-description: Элемент Бусинессфоненумберс указывает массив номеров рабочих телефонов и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 8713af3ad302a2940cab247ff7188e55e8021ca0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент BusinessPhoneNumbers указывает массив номеров бизнес-телефонов и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 6de6bb2be8632c2872ff7ac771d559121c6454a0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461620"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518885"
 ---
-# <a name="businessphonenumbers"></a>бусинессфоненумберс
+# <a name="businessphonenumbers"></a>BusinessPhoneNumbers
 
-Элемент **бусинессфоненумберс** указывает массив номеров рабочих телефонов и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **BusinessPhoneNumbers** указывает массив номеров бизнес-телефонов и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <BusinessPhoneNumbers>
@@ -26,29 +26,29 @@ ms.locfileid: "44461620"
 </BusinessPhoneNumbers>
 ```
 
- **аррайоффоненумбераттрибутедвалуестипе**
+ **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Значение (Персонафоненумбертипе)](value-personaphonenumbertype.md) <br/> |Указывает номер телефона и тип сведений, а также связанный с набором сопоставлений.  <br/> |
-|[Атрибуты (Аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md) <br/> |Задает массив атрибутов для связанного элемента **value** .  <br/> |
+|[Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Указывает номер телефона и сведения о типе и связан с набором атрибуций.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Указывает массив атрибуций для связанного с ним **элемента Value.**  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44461620"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

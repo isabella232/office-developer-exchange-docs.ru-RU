@@ -1,27 +1,27 @@
 ---
-title: Ошибка
+title: Error
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Error
 api_type:
 - schema
 ms.assetid: b1f54673-578a-496b-99f5-0fde2c669278
-description: Элемент error представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action.
-ms.openlocfilehash: 9c28f63aa79446d89152868c81c85ffa7b3a8b39
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Error представляет одну ошибку проверки для определенного значения свойства правила, предикационного значения свойства или свойства действия.
+ms.openlocfilehash: aeeda25ccc3e657e99bd6f2fea12322fdd3e720d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460682"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530863"
 ---
-# <a name="error"></a>Ошибка
+# <a name="error"></a>Error
 
-Элемент **Error** представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action. 
+Элемент **Error** представляет одну ошибку проверки для определенного значения свойства правила, предикационного значения свойства или свойства действия. 
   
 ```XML
 <Error>
@@ -32,35 +32,35 @@ ms.locfileid: "44460682"
 </Error>
 ```
 
- **рулевалидатионеррортипе**
+ **RuleValidationErrorType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Фиелдури (правило)](fielduri-rule.md) <br/> |Задает универсальный код ресурса (URI) для поля правила, вызвавшего ошибку проверки.  <br/> |
-|[ErrorCode](errorcode.md) <br/> |Представляет код ошибки проверки правила, указывающий, что не прошло проверку для каждого предиката правила или действия.  <br/> |
+|[FieldUri (Rule)](fielduri-rule.md) <br/> |Указывает URI в поле правил, которое вызвало ошибку проверки.  <br/> |
+|[ErrorCode](errorcode.md) <br/> |Представляет код ошибки проверки правил, в который описывается, что не удалось проверки для каждого правила предиката или действия.  <br/> |
 |[ErrorMessage](errormessage.md) <br/> |Представляет причину ошибки проверки.  <br/> |
-|[FieldValue](fieldvalue.md) <br/> |Представляет значение поля, вызвавшего ошибку проверки.  <br/> |
+|[FieldValue](fieldvalue.md) <br/> |Представляет значение поля, вызываемого ошибкой проверки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[валидатионеррорс](validationerrors.md) <br/> |Представляет массив ошибок проверки правил для каждого поля правила, в котором возникла ошибка.  <br/> |
+|[ValidationErrors](validationerrors.md) <br/> |Представляет массив ошибок проверки правил в каждом поле правил, в которых имеется ошибка.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -70,7 +70,7 @@ ms.locfileid: "44460682"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

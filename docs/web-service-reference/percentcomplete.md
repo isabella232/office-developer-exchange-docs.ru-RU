@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PercentComplete
 api_type:
 - schema
 ms.assetid: 58a67f8a-c4dc-42dc-97ae-a9e5cc672d2d
-description: Элемент PercentComplete описывает состояние выполнения задачи.
-ms.openlocfilehash: b7dd2f18bd3ef6addeb6d3a7b004510f35b9cb3d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PercentComplete описывает состояние завершения задачи.
+ms.openlocfilehash: 48e6163377d51d64f63e966c525def48f930733e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456887"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519249"
 ---
 # <a name="percentcomplete"></a>PercentComplete
 
-Элемент **PercentComplete** описывает состояние выполнения задачи. 
+Элемент **PercentComplete** описывает состояние завершения задачи. 
   
 ```xml
 <PercentComplete/>
@@ -30,15 +30,15 @@ ms.locfileid: "44456887"
  **двойной**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,11 +48,11 @@ ms.locfileid: "44456887"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее целое число от 0 до 100, обязательно.
+Требуется текстовое значение, представляю которое представляет ряд от 0 до 100.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Установка **PercentComplete** в 100 имеет то же самое, что и установка элемента [комплетедате](completedate.md) или установка для элемента [Status](status.md) значения **Completed**. В запросе, который задает по крайней мере два из этих свойств, Последнее обработанное свойство будет определять значение, заданное для этих элементов. Например, если для **PercentComplete** задано значение 100, [Комплетедате](completedate.md) — 1 января 2007, а [состояние](status.md) — NotStarted, а свойства передаются в потоке в этом порядке, то результатом будет установка для задачи [состояния](status.md) NotStarted, [комплетедате](completedate.md) — **null**, а **PercentComplete** — 0. 
+Параметр **PercentComplete** до 100 имеет тот же эффект, что и настройка элемента [CompleteDate](completedate.md) или настройка элемента [Status](status.md) для **завершения**. В запросе, который задает по крайней мере два из этих свойств, последнее обработанное свойство определяет значение, запредельное для этих элементов. Например, если **PercentComplete** 100, [CompleteDate](completedate.md) — 1 января 2007 г., а состояние нестареется, а свойства будут [](status.md) передаваться в этом порядке, то будет установлен статус задачи notStarted, [CompleteDate](completedate.md) — **null** и **PercentComplete** — 0. [](status.md) 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44456887"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

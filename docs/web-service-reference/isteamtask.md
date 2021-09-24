@@ -1,27 +1,27 @@
 ---
-title: истеамтаск
+title: IsTeamTask
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsTeamTask
 api_type:
 - schema
 ms.assetid: af0095da-e5bb-4138-a01c-c203f1a5a33f
-description: Элемент Истеамтаск указывает, принадлежит ли задача группе.
-ms.openlocfilehash: 27b5efbac028dbe7cf5858b198e3a33f9f6cdc86
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsTeamTask указывает, принадлежит ли задача команде.
+ms.openlocfilehash: aa644bd812f046bc708f9839a70d088468d558be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468448"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529797"
 ---
-# <a name="isteamtask"></a>истеамтаск
+# <a name="isteamtask"></a>IsTeamTask
 
-Элемент **истеамтаск** указывает, принадлежит ли задача группе. 
+Элемент **IsTeamTask** указывает, принадлежит ли задача команде. 
   
 ```xml
 <IsTeamTask/>
@@ -30,15 +30,15 @@ ms.locfileid: "44468448"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,9 +48,9 @@ ms.locfileid: "44468448"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет логическое значение, которое указывает, принадлежит ли задача группе. Это свойство доступно только для чтения.
+Текстовое значение представляет значение Boolean, которое указывает, принадлежит ли задача команде. Это свойство только для чтения.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44468448"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
