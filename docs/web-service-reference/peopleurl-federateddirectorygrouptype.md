@@ -1,41 +1,41 @@
 ---
-title: Пеоплеурл (Федератеддиректориграуптипе)
+title: PeopleUrl (FederatedDirectoryGroupType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0b9db28-f9f5-4793-be5c-edd5e4afb0bb
-description: Элемент Пеоплеурл (Федератеддиректориграуптипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: e6789fa0f683459f226660bdc3c8dbbe1ec206f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PeopleUrl (FederatedDirectoryGroupType) предназначен только для внутреннего использования.
+ms.openlocfilehash: e329ffc21e78b6c6c461410747bd7e9e7658f626
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529961"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515322"
 ---
-# <a name="peopleurl-federateddirectorygrouptype"></a>Пеоплеурл (Федератеддиректориграуптипе)
+# <a name="peopleurl-federateddirectorygrouptype"></a>PeopleUrl (FederatedDirectoryGroupType)
 
-Элемент **пеоплеурл (федератеддиректориграуптипе)** предназначен только для внутреннего использования. 
+Элемент **PeopleUrl (FederatedDirectoryGroupType)** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

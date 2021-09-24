@@ -1,51 +1,51 @@
 ---
-title: Создание средств командной консоли Exchange
+title: Создание инструментов командной консоли Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46e4812f-37a8-449f-bd37-bc4a94605db9
-description: Найдите сведения, чтобы приступить к созданию средств командной консоли Exchange для Exchange.
-ms.openlocfilehash: c6e11fa5b55aa514b12f4f52bc9346ac213d3781
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Поиск сведений для начала создания Exchange для Exchange.
+ms.openlocfilehash: 93bb8aa3b13ef8d7fdcada3e185b5eb5226346a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463729"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516134"
 ---
-# <a name="create-exchange-management-shell-tools"></a>Создание средств командной консоли Exchange
+# <a name="create-exchange-management-shell-tools"></a>Создание инструментов командной консоли Exchange
 
-Найдите сведения, чтобы приступить к созданию средств командной консоли Exchange для Exchange.
+Поиск сведений для начала создания Exchange для Exchange.
 
-**Применимо к:** Exchange Online | Exchange Server 2013 | Office 365
+**Применяется к:** Exchange Online | Exchange Server 2013 | Office 365
   
-Командная консоль Exchange предоставляет богатый набор команд, основанный на платформе Windows PowerShell, для управления Exchange Online, Exchange Online в составе Office 365 или локальной версии Exchange, начиная с Exchange 2013. Команды командной консоли Exchange можно использовать для автоматизации администрирования сервера путем непосредственного выполнения команд или с помощью командных сценариев.
+В Exchange Management Shell предоставляется богатый набор команд, основанных на платформе Windows PowerShell, для управления Exchange Online, Exchange Online в составе Office 365 или локальной версии Exchange начиная с Exchange 2013 г. Можно использовать Exchange командной оболочки для автоматизации администрирования сервера путем непосредственного выполнения команд или с помощью скриптов команд.
   
-Если вы хотите использовать команды командной консоли Exchange из приложения для хостинга, такого как административное приложение, запущенное на настольном компьютере администратора или через веб-приложение, вы можете вызвать командлеты командной консоли Exchange из приложения Visual Basic или C# для управления сервером Exchange.
+Если необходимо использовать команды Exchange Management Shell из приложения-хостинга, например административного приложения, запущенного на рабочем столе администратора или через веб-приложение, вы можете вызвать командлеты Exchange Management Shell из приложения Visual Basic или C# для управления Exchange сервером.
   
-## <a name="get-started-with-exchange-management-shell-tools"></a>Начало работы с инструментами командной консоли Exchange
+## <a name="get-started-with-exchange-management-shell-tools"></a>Начало работы с Exchange средствами управления Shell
 <a name="SP15GettingStartedTemplate_WhatDoYouNeed"> </a>
 
-Если вы знакомы с созданием ведущих приложений Windows PowerShell и хотите увидеть пример, в котором показано, как вызвать командлеты командной консоли Exchange из приложения или просмотреть пример типов приложений, которые можно создать с помощью командлетов командной консоли Exchange, ознакомьтесь со [статьей получение списка почтовых пользователей с помощью командной консоли Exchange](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md).
+Если вы знакомы с созданием Windows PowerShell хост-приложений и хотите увидеть пример, в который показано, как вызывать команды Exchange Management Shell из приложения, или посмотреть пример типов приложений, которые можно создать с помощью команды Exchange Management Shell, см. в статью Получение списка пользователей почты с помощью [Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md).
   
-Командлеты командной консоли Exchange — это расширения для Windows PowerShell, Командная консоль командной строки на основе задач и язык сценариев, предназначенный специально для администрирования системы. Windows PowerShell построен на платформе .NET Framework и предоставляет объектно-ориентированный API для разработчиков командлетов, поставщиков и ведущих приложений. Чтобы узнать о программировании Windows PowerShell, обратитесь к [пакету SDK для Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28VS.85%29.aspx).
+Командлеты Exchange Management Shell — это расширения до Windows PowerShell, командной строки на основе задач и языка скриптов, разработанных специально для системного администрирования. Windows PowerShell построена на платформа .NET Framework и предоставляет объектно-ориентированный API для разработчиков cmdlet, provider и host application. Подробнее о программировании Windows PowerShell см. в [Windows PowerShell SDK.](https://msdn.microsoft.com/library/dd835506%28VS.85%29.aspx)
   
-Командлеты командной консоли Exchange принимают и возвращают объекты. Список командлетов командной консоли Exchange и их входных и выходных данных можно найти в разделе [input and Output Type командлета командной консоли Exchange](exchange-management-shell-cmdlet-input-and-output-types.md).
+Команды Exchange management Shell принимают и возвращают объекты. Список всех этих Exchange и их типов ввода и вывода см. в Exchange [типах](exchange-management-shell-cmdlet-input-and-output-types.md)ввода и вывода.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Новые и обновленные командлеты командной консоли Exchange](new-and-updated-exchange-management-shell-cmdlets.md)  
+- [Новые и обновленные Exchange управления Shell](new-and-updated-exchange-management-shell-cmdlets.md)  
 - [Типы входных и выходных данных командлетов командной консоли Exchange](exchange-management-shell-cmdlet-input-and-output-types.md)
-- [Получение списка пользователей почты с помощью командной консоли Exchange](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
-- [Использование ответа командлета командной консоли Exchange](how-to-use-the-exchange-management-shell-cmdlet-response.md)
+- [Получить список пользователей почты с помощью Exchange shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
+- [Используйте ответ команды Exchange Management Shell](how-to-use-the-exchange-management-shell-cmdlet-response.md)
 
 
 ## <a name="see-also"></a>См. также
 
 - [Пространства имен командной консоли Exchange](exchange-management-shell-namespaces.md)  
-- [PowerShell в Exchange Server (Командная консоль Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
+- [Exchange Server PowerShell (Exchange управленческой оболочки)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
 - [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
     
 

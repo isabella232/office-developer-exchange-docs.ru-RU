@@ -1,27 +1,27 @@
 ---
-title: контаинссендерстрингс
+title: ContainsSenderStrings
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsSenderStrings
 api_type:
 - schema
 ms.assetid: 3e16163f-cffe-4c4e-9a2a-00245d25ba96
-description: Элемент Контаинссендерстрингс указывает строки, которые должны отображаться в свойстве From входящих сообщений, чтобы применялось условие или исключение.
-ms.openlocfilehash: e7b78f1311d288db7969a0024bde84433e18d37f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ContainsSenderStrings указывает строки, которые должны отображаться в свойстве From входящих сообщений для применения условия или исключения.
+ms.openlocfilehash: bf4fbe30bc5ed58ad4ac780b82d79965136c8d5d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458980"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514748"
 ---
-# <a name="containssenderstrings"></a>контаинссендерстрингс
+# <a name="containssenderstrings"></a>ContainsSenderStrings
 
-Элемент **контаинссендерстрингс** указывает строки, которые должны отображаться в свойстве **from** входящих сообщений, чтобы применялось условие или исключение. 
+Элемент **ContainsSenderStrings** указывает строки, которые должны отображаться в свойстве **From** входящих сообщений для применения условия или исключения. 
   
 ```XML
 <ContainsSenderStrings>
@@ -29,20 +29,20 @@ ms.locfileid: "44458980"
 </ContainsSenderStrings>
 ```
 
- **аррайофстрингстипе**
+ **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Строка](string.md) <br/> |Представляет строку, которая должна отображаться в свойстве **from** входящих сообщений, чтобы применить условие или исключение.  <br/> |
+|[Строка](string.md) <br/> |Представляет строку, которая должна отображаться в свойстве **"От** входящих сообщений", чтобы применить условие или исключение.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "44458980"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44458980"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

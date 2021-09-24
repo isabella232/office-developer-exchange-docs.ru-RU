@@ -1,23 +1,23 @@
 ---
-title: Language (Дисковерисеарчконфигуратионтипе)
+title: Language (DiscoverySearchConfigurationType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 34eab81c-d832-4925-9f76-d69f24b36931
-description: Элемент Language (Дисковерисеарчконфигуратионтипе) определяет язык и региональные параметры, используемые для форматирования диапазонов дат для определенного языка и региональных параметров. Он также определяет язык, используемый в поисковом запросе.
-ms.openlocfilehash: 3cf85525147bec5d6dfc6fe2b2af5916d42c44be
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Language (DiscoverySearchConfigurationType) определяет культуру, используемую для определенного для культуры формата диапазонов дат. Он также указывает язык, используемый в поисковом запросе.
+ms.openlocfilehash: 5d51960aa00b2c47d96972abc05e4d6027eeecb3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463288"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540897"
 ---
-# <a name="language-discoverysearchconfigurationtype"></a>Language (Дисковерисеарчконфигуратионтипе)
+# <a name="language-discoverysearchconfigurationtype"></a>Language (DiscoverySearchConfigurationType)
 
-Элемент **Language (дисковерисеарчконфигуратионтипе)** определяет язык и региональные параметры, используемые для форматирования диапазонов дат для определенного языка и региональных параметров. Он также определяет язык, используемый в поисковом запросе. 
+Элемент **Language (DiscoverySearchConfigurationType)** определяет культуру, используемую для определенного для культуры формата диапазонов дат. Он также указывает язык, используемый в поисковом запросе. 
   
 ```XML
 <Language />
@@ -26,27 +26,27 @@ ms.locfileid: "44463288"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[дисковерисеарчконфигуратион](discoverysearchconfiguration.md)
+[DiscoverySearchConfiguration](discoverysearchconfiguration.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Language (дисковерисеарчконфигуратионтипе)** — это язык и региональные параметры или язык. 
+Текстовое значение элемента **Language (DiscoverySearchConfigurationType)** — это культура или язык. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент указывает формат диапазонов дат, указанных в [операции SearchMailboxes](searchmailboxes-operation.md) или [SetHoldOnMailboxes](setholdonmailboxes-operation.md).
+Этот элемент указывает формат диапазонов дат, указанных в операции [SearchMailboxes](searchmailboxes-operation.md) или [операции SetHoldOnMailboxes.](setholdonmailboxes-operation.md)
   
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -58,14 +58,14 @@ ms.locfileid: "44463288"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[дисковерисеарчконфигуратион](discoverysearchconfiguration.md)
+[DiscoverySearchConfiguration](discoverysearchconfiguration.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

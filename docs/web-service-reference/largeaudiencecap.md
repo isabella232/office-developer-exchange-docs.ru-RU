@@ -1,50 +1,50 @@
 ---
-title: ларжеаудиенцекап
+title: LargeAudienceCap
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90709f5b-4a1d-49d2-9236-ecd02bb3cdf8
-description: Элемент Ларжеаудиенцекап указывает максимальное количество получателей сообщения электронной почты.
-ms.openlocfilehash: 932cac7ac1a62de7066573bbb2db3d0a338b2379
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент LargeAudienceCap указывает максимальное число получателей для сообщения электронной почты.
+ms.openlocfilehash: 71644e297595273a8025c8efd6d685f5da2591df
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460108"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514426"
 ---
-# <a name="largeaudiencecap"></a>ларжеаудиенцекап
+# <a name="largeaudiencecap"></a>LargeAudienceCap
 
-Элемент **ларжеаудиенцекап** указывает максимальное количество получателей сообщения электронной почты. 
+Элемент **LargeAudienceCap** указывает максимальное число получателей для сообщения электронной почты. 
   
 ```XML
 <LargeAudienceCap></LargeAudienceCap>
 ```
 
- **положительн**
+ **integer**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Маилтипсконфигуратион (Маилтипссервицеконфигуратион)](mailtipsconfiguration-mailtipsserviceconfiguration.md)
+[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ларжеаудиенцекап** — максимальное количество получателей, которые могут быть адресованы в сообщении электронной почты. 
+Текстовое значение элемента **LargeAudienceCap** — это максимальное число получателей, которые можно адресовать в сообщении электронной почты. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

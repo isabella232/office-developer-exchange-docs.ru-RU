@@ -1,23 +1,23 @@
 ---
-title: арчивесаурцефолдерид
+title: ArchiveSourceFolderId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5b6a099-3b87-44ef-a197-8198730ff72d
-description: Элемент Арчивесаурцефолдерид указывает идентификатор исходной папки для элемента архива.
-ms.openlocfilehash: 403f40cb4529cf72f07b8a04c0803d757c24e470
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ArchiveSourceFolderId указывает Id папки источника для элемента архива.
+ms.openlocfilehash: 1fa87526ce010d74d5ed88a7eb9d1658937d947b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463386"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540281"
 ---
-# <a name="archivesourcefolderid"></a>арчивесаурцефолдерид
+# <a name="archivesourcefolderid"></a>ArchiveSourceFolderId
 
-Элемент **арчивесаурцефолдерид** указывает идентификатор исходной папки для элемента архива. 
+Элемент **ArchiveSourceFolderId** указывает Id папки источника для элемента архива. 
   
 ```XML
 <ArchiveSourceFolderId>
@@ -27,24 +27,24 @@ ms.locfileid: "44463386"
 </ArchiveSourceFolderId>
 ```
 
- **таржетфолдеридтипе**
+ **TargetFolderIdType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[FolderId](folderid.md)  |  [Дистингуишедфолдерид](distinguishedfolderid.md)  |  [Аддресслистид](addresslistid.md)
+[FolderId](folderid.md)  |  [DistinguishedFolderId](distinguishedfolderid.md)  |  [AddressListId](addresslistid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [ArchiveItem](archiveitem.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44463386"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

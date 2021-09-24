@@ -1,23 +1,23 @@
 ---
-title: Значения (Аррайофстрингвалуетипе)
+title: Values (ArrayOfStringValueType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d7e7af1e-7917-40a3-9427-cd932f696222
-description: Элемент values указывает значения в массиве свойств пользователя, связанных с массивом "атрибуты".
-ms.openlocfilehash: 8a7b12c69ec4221f4034dab8caa1514aea44b64b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Values указывает значения в массиве свойств persona, связанных с массивом атрибуций.
+ms.openlocfilehash: 15491e1423e724cd7a71a69271e3feb49e2a22c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530925"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513922"
 ---
-# <a name="values-arrayofstringvaluetype"></a>Значения (Аррайофстрингвалуетипе)
+# <a name="values-arrayofstringvaluetype"></a>Values (ArrayOfStringValueType)
 
-Элемент **Values** указывает значения в массиве свойств пользователя, связанных с массивом "атрибуты". 
+Элемент **Values** указывает значения в массиве свойств persona, связанных с массивом атрибуций. 
   
 ```XML
 <Values>
@@ -25,25 +25,25 @@ ms.locfileid: "44530925"
 </Values>
 ```
 
-**аррайофстрингвалуетипе**
+**ArrayOfStringValueType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Значение (Аррайофстрингвалуетипе)](value-arrayofstringvaluetype.md)
+[Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[стрингаррайаттрибутедвалуе](stringarrayattributedvalue.md)
+[StringArrayAttributedValue](stringarrayattributedvalue.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44530925"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

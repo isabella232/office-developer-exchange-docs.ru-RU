@@ -1,70 +1,70 @@
 ---
-title: ункновнаттендиконфликтдата
+title: UnknownAttendeeConflictData
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnknownAttendeeConflictData
 api_type:
 - schema
 ms.assetid: 70e41268-c231-4587-9d23-e46927fe5272
-description: Элемент Ункновнаттендиконфликтдата представляет неразрешимого участника или участника, который не является пользователем, списком рассылки или контактом.
-ms.openlocfilehash: b4362e0117e3939c21342a1ab8079d95512aec79
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UnknownAttendeeConflictData представляет неразрешимого участника или участника, который не является пользователем, списком рассылки или контактом.
+ms.openlocfilehash: e7aec79a2aa15cfd149e47affb1efb2b215497e1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459870"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515091"
 ---
-# <a name="unknownattendeeconflictdata"></a>ункновнаттендиконфликтдата
+# <a name="unknownattendeeconflictdata"></a>UnknownAttendeeConflictData
 
-Элемент **ункновнаттендиконфликтдата** представляет неразрешимого участника или участника, который не является пользователем, списком рассылки или контактом. 
+Элемент **UnknownAttendeeConflictData** представляет неразрешимого участника или участника, который не является пользователем, списком рассылки или контактом. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[сугжестионсреспонсе](suggestionsresponse.md)
+[SuggestionsResponse](suggestionsresponse.md)
   
-[сугжестиондайресултаррай](suggestiondayresultarray.md)
+[SuggestionDayResultArray](suggestiondayresultarray.md)
   
-[сугжестиондайресулт](suggestiondayresult.md)
+[SuggestionDayResult](suggestiondayresult.md)
   
-[сугжестионаррай](suggestionarray.md)
+[SuggestionArray](suggestionarray.md)
   
 [Предложение](suggestion.md)
   
-[аттендиконфликтдатааррай](attendeeconflictdataarray.md)
+[AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
-[ункновнаттендиконфликтдата](unknownattendeeconflictdata.md)
+[UnknownAttendeeConflictData](unknownattendeeconflictdata.md)
   
 ```xml
 <UnknownAttendeeConflictData/>
 ```
 
- **ункновнаттендиконфликтдата**
+ **UnknownAttendeeConflictData**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аттендиконфликтдатааррай](attendeeconflictdataarray.md) <br/> |Содержит массив данных о конфликтах для запрашиваемых участников, идентифицированных в [операции GetUserAvailability](getuseravailability-operation.md).  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Содержит массив конфликтных данных для запрашиваемого участника, выявленного в операции [GetUserAvailability.](getuseravailability-operation.md)  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Неизвестный участник является неизвестным, если ему не удается разрешить доступ к объекту службы каталогов Active Directory. Участник является неразрешенным, если не может быть определен как пользователь, группа или контакт. Например, участник не будет разрешен, если это общедоступная папка с включенной поддержкой почты.
+Участник неизвестен, если он не может быть разрешен с объектом службы каталога Active Directory. Если не удается определить, что он является пользователем, группой или контактом, участник не будет разрешен. Например, посетитель не будет разрешен, если это публичная папка с включенной почтой.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -74,7 +74,7 @@ ms.locfileid: "44459870"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -83,7 +83,7 @@ ms.locfileid: "44459870"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

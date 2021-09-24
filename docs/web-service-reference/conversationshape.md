@@ -1,23 +1,23 @@
 ---
-title: конверсатионшапе
+title: ConversationShape
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6ea8816-04cc-4ccf-8498-bc89d46a32e8
-description: Элемент Конверсатионшапе определяет набор свойств, возвращаемый в ответе операции FindConversation.
-ms.openlocfilehash: 18f652e7580a5521a4da25ccf19ae73e6614c3d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ConversationShape определяет свойство, возвращаемую в ответе операции FindConversation.
+ms.openlocfilehash: 7dca85b3803da6d56e6099f68e83138231a0a6fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457615"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515952"
 ---
-# <a name="conversationshape"></a>конверсатионшапе
+# <a name="conversationshape"></a>ConversationShape
 
-Элемент **конверсатионшапе** определяет набор свойств, возвращаемый в ответе операции **FindConversation** . 
+Элемент **ConversationShape** определяет свойство, возвращаемую в ответе операции **FindConversation.** 
   
 ```XML
 <ConversationShape>
@@ -29,21 +29,21 @@ ms.locfileid: "44457615"
  ****
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Басешапе](baseshape.md)  |  [Аддитионалпропертиес](additionalproperties.md)
+[BaseShape](baseshape.md)  |  [Дополнительные свойства](additionalproperties.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [FindConversation](findconversation.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44457615"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

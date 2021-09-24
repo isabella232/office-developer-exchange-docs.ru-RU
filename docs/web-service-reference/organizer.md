@@ -1,27 +1,27 @@
 ---
-title: Организатор
+title: Organizer
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Organizer
 api_type:
 - schema
 ms.assetid: 63892b57-3805-4d60-b9f7-20552a69c241
-description: Элемент Organizer представляет организатора собрания.
-ms.openlocfilehash: c1188c9b3a894e86a08b8869045c3647e394f506
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Organizer представляет организатор собрания.
+ms.openlocfilehash: 05a96b7c7dfa2802f67b65800bea217a4665871e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462418"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514230"
 ---
-# <a name="organizer"></a>Организатор
+# <a name="organizer"></a>Organizer
 
-Элемент **Organizer** представляет организатора собрания. 
+Элемент **Organizer** представляет организатор собрания. 
   
 ```xml
 <Organizer>
@@ -29,15 +29,15 @@ ms.locfileid: "44462418"
 </Organizer>
 ```
 
-**синглереЦипиенттипе**
+**SingleRecipientType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -49,10 +49,10 @@ ms.locfileid: "44462418"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44462418"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

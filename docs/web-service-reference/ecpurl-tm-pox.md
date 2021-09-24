@@ -1,32 +1,32 @@
 ---
-title: Екпурл-TM (POX)
+title: EcpUrl-tm (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f35d5ac-55be-4d3a-ad03-7d6e9349d923
-description: Элемент Екпурл-TM указывает частичный URL-адрес, который можно сочетать со значением элемента Екпурл (POX) для создания URL-адреса, который можно использовать для доступа к списку всех почтовых ящиков сайта, участником которых является в данный момент пользователь с включенной поддержкой почты.
-ms.openlocfilehash: 8d4c787e2eeae5300cd0496f199ea71baace98ba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EcpUrl-tm указывает частичный URL-адрес, который можно сочетать со значением элемента EcpUrl (POX) для создания URL-адреса, который можно использовать для доступа к списку всех почтовых ящиков сайтов, членом которых в настоящее время является пользователь с поддержкой почты.
+ms.openlocfilehash: 5d24a198a3466bb84e14f925e4b6fa15fa229b24
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463547"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526307"
 ---
-# <a name="ecpurl-tm-pox"></a>Екпурл-TM (POX)
+# <a name="ecpurl-tm-pox"></a>EcpUrl-tm (POX)
 
-Элемент **екпурл-TM** указывает частичный URL-адрес, который можно сочетать со значением элемента [екпурл (POX)](ecpurl-pox.md) для создания URL-адреса, который можно использовать для доступа к списку всех почтовых ящиков сайта, участником которых является в данный момент пользователь с включенной поддержкой почты. 
+Элемент **EcpUrl-tm** указывает частичный URL-адрес, который можно сочетать со значением [элемента EcpUrl (POX)](ecpurl-pox.md) для создания URL-адреса, который можно использовать для доступа к списку всех почтовых ящиков сайтов, членом которых в настоящее время является пользователь с поддержкой почты. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Протокол (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[Екпурл-TM (POX)](ecpurl-tm-pox.md)
+[EcpUrl-tm (POX)](ecpurl-tm-pox.md)
   
 ```XML
 <EcpUrl-tm/>
@@ -34,33 +34,33 @@ ms.locfileid: "44463547"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором установлен сервер Microsoft Exchange с установленной ролью сервера клиентского доступа.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на Microsoft Exchange Server установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет собой частичный URL-адрес, который можно сочетать со значением элемента [екпурл (POX)](ecpurl-pox.md) для создания URL-адреса, который можно использовать для доступа к списку почтовых ящиков сайта для пользователя. 
+Текстовое значение представляет частичный URL-адрес, который можно сочетать со значением [элемента EcpUrl (POX)](ecpurl-pox.md) для создания URL-адреса, который можно использовать для доступа к списку почтовых ящиков сайта для пользователя. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **екпурл-TM** является необязательным дочерним элементом элемента **Protocol** . 
+Элемент **EcpUrl-tm** является необязательным детским элементом элемента **Protocol.** 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

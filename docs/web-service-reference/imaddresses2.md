@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 328f29b9-3a9c-4d9a-a85f-5ffff84e266a
-description: Элемент ImAddresses2 указывает массив адресов обмена мгновенными сообщениями и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: b2a9f61ba31c1324ac5563bb6ab6b30f0271c653
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ImAddresses2 указывает массив адресов мгновенных сообщений и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: aaad3fba834d8793328d2e4de061880f073f6971
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460766"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515686"
 ---
 # <a name="imaddresses2"></a>ImAddresses2
 
-Элемент **ImAddresses2** указывает массив адресов обмена мгновенными сообщениями и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **ImAddresses2** указывает массив адресов мгновенных сообщений и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <ImAddresses2>
@@ -25,28 +25,28 @@ ms.locfileid: "44460766"
 </ImAddresses2>
 ```
 
- **аррайофстрингаттрибутедвалуестипе**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[стрингаттрибутедвалуе](stringattributedvalue.md) <br/> |Указывает экземпляр в массиве атрибутов, связанных с элементом персоны.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Указывает экземпляр в массиве атрибутов, связанных с элементом persona.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44460766"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

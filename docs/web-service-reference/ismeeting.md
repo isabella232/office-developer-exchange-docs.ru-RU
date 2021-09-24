@@ -1,27 +1,27 @@
 ---
-title: "\"Собрание\""
+title: IsMeeting
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeeting
 api_type:
 - schema
 ms.assetid: 6ce22f17-7a31-46c4-b643-0894d087e852
-description: Элемент "собрание" указывает, является ли элемент календаря собранием или встречей.
-ms.openlocfilehash: fd72766977567210cd08b47d0723cd73aa53a622
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsMeeting указывает, является ли элемент календаря собранием или встречей.
+ms.openlocfilehash: 2fc3917328b190923f2c554ceacb5003704f048e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465970"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539488"
 ---
-# <a name="ismeeting"></a>"Собрание"
+# <a name="ismeeting"></a>IsMeeting
 
-Элемент " **собрание** " указывает, является ли элемент календаря собранием или встречей. 
+Элемент **IsMeeting** указывает, является ли элемент календаря собранием или встречей. 
   
 ```xml
 <IsMeeting/>
@@ -30,28 +30,28 @@ ms.locfileid: "44465970"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Если этот элемент включен, необходимо указать текстовое значение, представляющее логическое значение. Значение **true** указывает, что элемент календаря является собранием. Значение **false** указывает, что элемент календаря является встречей. 
+Если этот элемент включен, необходимо текстовое значение, которое представляет значение Boolean. Значение true **указывает,** что элемент календаря является собранием. Значение false **указывает,** что элемент календаря является назначением. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44465970"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

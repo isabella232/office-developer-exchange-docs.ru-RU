@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContentType
 api_type:
 - schema
 ms.assetid: f91ff0df-0d8a-43ea-a188-d80f0e885f19
-description: Элемент ContentType описывает тип MIME для содержимого вложения в многоцелевом формате.
-ms.openlocfilehash: cb326bb761ea28e0e9f77501bf754c7c1f0318fb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ContentType описывает тип многоцелевых расширений интернет-почты (MIME) контента вложений.
+ms.openlocfilehash: 3f00aaa2f3b93ab7a8a3ccc4905b1353dce6b083
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455228"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526653"
 ---
 # <a name="contenttype"></a>Контент
 
-Элемент **ContentType** описывает тип MIME для содержимого вложения в многоцелевом формате. 
+Элемент **ContentType** описывает тип многоцелевых расширений интернет-почты (MIME) контента вложений. 
   
 ```xml
 <ContentType/>
@@ -30,28 +30,28 @@ ms.locfileid: "44455228"
  **String**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[ItemAttachment](itemattachment.md) <br/> |Представляет элемент Exchange, присоединенный к другому элементу Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Представляет файл, присоединенный к элементу в хранилище Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Представляет файл, присоединенный к элементу в Exchange магазине.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение — это строковое значение, представляющее тип контента вложения.
+Текстовое значение — это строковое значение, которое представляет тип контента вложения.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44455228"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

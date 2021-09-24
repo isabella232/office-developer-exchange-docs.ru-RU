@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15a1758e-6a5c-4e85-acb9-374abe81b9c7
-description: Элемент Mailbox содержит идентификатор для почтового ящика.
-ms.openlocfilehash: 3a115f40360aebfdb818580464c08e61a527ac55
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент почтовых ящиков содержит идентификатор для почтового ящика.
+ms.openlocfilehash: 750bd6531e8f6472eca77b256e1320bc0230b25d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467279"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514279"
 ---
 # <a name="mailbox-string"></a>Mailbox (строка)
 
-Элемент **Mailbox** содержит идентификатор для почтового ящика. 
+Элемент **почтовых ящиков** содержит идентификатор для почтового ящика. 
   
 ```XML
 <Mailbox></Mailbox>
@@ -27,25 +27,25 @@ ms.locfileid: "44467279"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Нониндексаблеитемстатистик](nonindexableitemstatistic.md)  |  [Маилбоксхолдстатус](mailboxholdstatus.md)  |  [Фаиледмаилбокс](failedmailbox.md)  |  [Маилбокссеарчскопе](mailboxsearchscope.md)
+[NonIndexableItemStatistic](nonindexableitemstatistic.md)  |  [MailboxHoldStatus](mailboxholdstatus.md)  |  [FailedMailbox](failedmailbox.md)  |  [MailboxSearchScope](mailboxsearchscope.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **почтового ящика** — идентификатор почтового ящика. 
+Текстовое значение элемента **Почтовый ящик** — это идентификатор для почтового ящика. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

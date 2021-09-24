@@ -1,23 +1,23 @@
 ---
-title: принталловед
+title: PrintAllowed
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7232505a-bab0-4d78-87bc-6cc4b568937a
-description: Элемент Принталловед указывает, включена ли печать.
-ms.openlocfilehash: ac38491d563916160b4d00165b743c51cb29fe00
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PrintAllowed указывает, включена ли печать.
+ms.openlocfilehash: 4de966d498914d78e385e482b500b3f0fac76144
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468749"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516414"
 ---
-# <a name="printallowed"></a>принталловед
+# <a name="printallowed"></a>PrintAllowed
 
-Элемент **принталловед** указывает, включена ли печать. 
+Элемент **PrintAllowed** указывает, включена ли печать. 
   
 ```XML
 <PrintAllowed> true | false </PrintAllowed>
@@ -26,25 +26,25 @@ ms.locfileid: "44468749"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[ригхтсманажементлиценседата](rightsmanagementlicensedata.md)
+[RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **принталловед** указывает на то, что печать содержимого разрешена для элемента, управляемого правами. Значение **false** указывает, что печать не разрешена. 
+Значение текста, **истинное** для **элемента PrintAllowed,** указывает, что печать контента разрешена для элемента, управляемого правами. Значение false **указывает** на то, что печать не разрешена. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44468749"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

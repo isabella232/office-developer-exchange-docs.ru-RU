@@ -1,27 +1,27 @@
 ---
-title: протектионрулесконфигуратион
+title: ProtectionRulesConfiguration
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ProtectionRulesConfiguration
 api_type:
 - schema
 ms.assetid: e5b4699a-476e-4053-bb52-873eb921c046
-description: Элемент Протектионрулесконфигуратион содержит сведения о конфигурации службы для службы правил защиты.
-ms.openlocfilehash: e664fba78f170c9f4c59b49b3a08c0dd2e4ed4cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ProtectionRulesConfiguration содержит сведения о конфигурации службы для службы правил защиты.
+ms.openlocfilehash: 0d88f5c8ef414c96ae5f65cf3f82362fe2137472
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456774"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516406"
 ---
-# <a name="protectionrulesconfiguration"></a>протектионрулесконфигуратион
+# <a name="protectionrulesconfiguration"></a>ProtectionRulesConfiguration
 
-Элемент **протектионрулесконфигуратион** содержит сведения о конфигурации службы для службы правил защиты. 
+Элемент **ProtectionRulesConfiguration содержит** сведения о конфигурации службы для службы правил защиты. 
   
 ```XML
 <ProtectionRulesConfiguration RefreshInterval="">
@@ -30,37 +30,37 @@ ms.locfileid: "44456774"
 </ProtectionRulesConfiguration>
 ```
 
- **протектионрулессервицеконфигуратион**
+ **ProtectionRulesServiceConfiguration**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**RefreshInterval** <br/> |Указывает, как часто клиент должен запрашивать правила защиты от сервера в течение всего времени. Этот атрибут является обязательным, а его значение должно быть целым числом, равным или большим 1.  <br/> |
+|**RefreshInterval** <br/> |Указывает, как часто в течение нескольких часов клиент должен запрашивать у сервера правила защиты. Этот атрибут необходим, и его значение должно быть не более 1.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Условия](rules-ex15websvcsotherref.md) <br/> |Массив правил защиты. Этот элемент обязательный.  <br/> |
-|[Имена внутренних доменов (Смтпдомаинлист)](internaldomains-smtpdomainlist.md) <br/> |Определяет список внутренних доменов SMTP Организации. Этот элемент обязательный.  <br/> |
+|[Правила ](rules-ex15websvcsotherref.md) <br/> |Массив правил защиты. Этот элемент обязательный.  <br/> |
+|[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |Определяет список внутренних доменов SMTP организации. Этот элемент обязательный.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сервицеконфигуратионреспонсемессажетипе](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Содержит параметры конфигурации службы.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Конфигурация службы правил защиты состоит из списка правил, внутренних доменов и интервалов обновления.
+Конфигурация службы правил защиты состоит из списка правил, внутренних доменов и интервала обновления.
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -70,7 +70,7 @@ ms.locfileid: "44456774"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

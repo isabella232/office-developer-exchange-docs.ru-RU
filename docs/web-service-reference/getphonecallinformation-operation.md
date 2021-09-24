@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetPhoneCallInformation
 api_type:
 - schema
 ms.assetid: 418bd6ca-39d9-49a9-841e-7a71ede1fa51
-description: Операция GetPhoneCallInformation возвращает сведения об указанном телефонном звонке.
-ms.openlocfilehash: 231b160713526f44433188e2b1e3bd98012370b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetPhoneCallInformation возвращает сведения о указанном телефонном вызове.
+ms.openlocfilehash: 7cb9ecbb30e6cdd4d85b60215f40e0be5f4aaa84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458315"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539959"
 ---
 # <a name="getphonecallinformation-operation"></a>Операция GetPhoneCallInformation
 
-Операция **GetPhoneCallInformation** возвращает сведения об указанном телефонном звонке. 
+Операция **GetPhoneCallInformation** возвращает сведения о указанном телефонном вызове. 
   
-## <a name="getphonecallinformation-request-example"></a>Пример запроса GetPhoneCallInformation
+## <a name="getphonecallinformation-request-example"></a>Пример запроса на GetPhoneCallInformation
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере запроса **GetPhoneCallInformation** показано, как сформировать запрос для получения сведений об определенном телефонном звонке. 
+В следующем примере **запроса GetPhoneCallInformation** показано, как сформировать запрос для получения сведений о конкретном телефонном звонке. 
   
 ### <a name="code"></a>Код
 
@@ -49,11 +49,11 @@ ms.locfileid: "44458315"
 </soap:Envelope>
 ```
 
-## <a name="getphonecallinformation-response-example"></a>Пример отклика GetPhoneCallInformation
+## <a name="getphonecallinformation-response-example"></a>Пример ответа GetPhoneCallInformation
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **GetPhoneCallInformation** . Ответ представляет телефонный звонок, который в настоящее время подключен. 
+В следующем примере показан успешный ответ на **запрос GetPhoneCallInformation.** Ответ представляет собой телефонный звонок, подключенный в настоящее время. 
   
 ### <a name="code"></a>Код
 

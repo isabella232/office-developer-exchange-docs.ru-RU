@@ -1,23 +1,23 @@
 ---
-title: енднодеурл
+title: EndNodeUrl
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e57ce96-895d-40c5-a670-19f3bc610dbd
-description: Элемент Енднодеурл указывает URL-адрес почтового приложения в магазине Office.
-ms.openlocfilehash: 0ace98bd41c49a31d528b08d0d0f4011d783866c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EndNodeUrl указывает URL-адрес почтового приложения в Office Store.
+ms.openlocfilehash: 59cfbde63d5bd30f6f47d5e2f7f4a6e3d02b8639
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458406"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514699"
 ---
-# <a name="endnodeurl"></a>енднодеурл
+# <a name="endnodeurl"></a>EndNodeUrl
 
-Элемент **енднодеурл** указывает URL-адрес почтового приложения в магазине Office. 
+Элемент **EndNodeUrl** указывает URL-адрес почтового приложения в Office Store. 
   
 ```XML
 <EndNodeUrl/>
@@ -26,15 +26,15 @@ ms.locfileid: "44458406"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44458406"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **енднодеурл** — URL-адрес почтового приложения в магазине Office. 
+Текстовое значение элемента **EndNodeUrl** — URL-адрес почтового приложения в Office Store. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

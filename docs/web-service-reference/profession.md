@@ -1,27 +1,27 @@
 ---
-title: Профессия
+title: Profession
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Profession
 api_type:
 - schema
 ms.assetid: 0f6a73b1-9e8a-4736-87ab-604791c615f3
-description: Элемент профессия представляет профессия контакта.
-ms.openlocfilehash: d7c80cb432a20147d1788919c47b25e17642aca4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Profession представляет профессию контакта.
+ms.openlocfilehash: 4eb0c669e90a2445423dbbd8d6f1ebb70d11a348
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462222"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515273"
 ---
-# <a name="profession"></a>Профессия
+# <a name="profession"></a>Profession
 
-Элемент **профессия** представляет профессия контакта. 
+Элемент **Profession** представляет профессию контакта. 
   
 ```xml
 <Profession/>
@@ -30,15 +30,15 @@ ms.locfileid: "44462222"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,9 +48,9 @@ ms.locfileid: "44462222"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение, представляющее профессия.
+Требуется текстовое значение, представляю которое представляет профессию.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44462222"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,7 +70,7 @@ ms.locfileid: "44462222"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
 [Обновление контактов](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   

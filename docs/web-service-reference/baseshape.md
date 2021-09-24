@@ -1,40 +1,40 @@
 ---
-title: басешапе
+title: BaseShape
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BaseShape
 api_type:
 - schema
 ms.assetid: 42c04f3b-abaa-4197-a3d6-d21677ffb1c0
-description: Элемент Басешапе определяет набор свойств, возвращаемых в ответе элемента или папки.
-ms.openlocfilehash: 9b3f00ff94fbfe6ad6373b16ad95eb9136f81c64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент BaseShape определяет набор свойств, возвращаемого в ответе элемента или папки.
+ms.openlocfilehash: b4e7f5c6d6520e7338f274b6275e371366b1bed5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464492"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514860"
 ---
-# <a name="baseshape"></a>басешапе
+# <a name="baseshape"></a>BaseShape
 
-Элемент **басешапе** определяет набор свойств, возвращаемых в ответе элемента или папки. 
+Элемент **BaseShape** определяет набор свойств, возвращаемого в ответе элемента или папки. 
   
 ```xml
 <BaseShape>IdOnly or Default or AllProperties</BaseShape>
 ```
 
- **дефаултшапенаместипе**
+ **DefaultShapeNamesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -44,40 +44,40 @@ ms.locfileid: "44464492"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фолдершапе](foldershape.md) <br/> | Определяет свойства папки, которые необходимо включить в ответ "GetResponse Folder", "FindFolder" или "SyncFolderHierarchy".<br/><br/>Ниже приведены выражения XPath для этого элемента.<br/><br/>`/GetFolder/FolderShape` <br/>  `/FindFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
-|[итемшапе](itemshape.md) <br/> | Определяет свойства и контент элемента, включаемые в ответ GetItem, FindItem или SyncFolderItems.<br/><br/>Ниже приведены выражения XPath для этого элемента.<br/><br/>`/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[FolderShape](foldershape.md) <br/> | Определяет свойства папок, которые необходимо включить в ответ GetFolder, FindFolder или SyncFolderHierarchy.<br/><br/>Ниже приводится выражение XPath к этому элементу:<br/><br/>`/GetFolder/FolderShape` <br/>  `/FindFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Определяет свойства и содержимое элемента, которые необходимо включить в ответ GetItem, FindItem или SyncFolderItems.<br/><br/>Ниже приводится выражение XPath к этому элементу:<br/><br/>`/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. В приведенной ниже таблице перечислены возможные текстовые значения.
+Требуется текстовое значение. В следующей таблице перечислены возможные текстовые значения.
   
-**Текстовые значения для элемента Басешапе**
+**Текстовые значения элемента BaseShape**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|идонли  <br/> |Возвращает только идентификатор элемента или папки.  <br/> |
-|По умолчанию  <br/> |Возвращает набор свойств, которые определены как значения по умолчанию для элемента или папки.  <br/> |
-|аллпропертиес  <br/> |Возвращает все свойства, используемые уровнем бизнес-логики Exchange для создания папки.  <br/> |
+|IdOnly  <br/> |Возвращает только элемент или папку.  <br/> |
+|По умолчанию  <br/> |Возвращает набор свойств, определяемого как по умолчанию для элемента или папки.  <br/> |
+|AllProperties  <br/> |Возвращает все свойства, используемые в Exchange бизнес-логики для построения папки.  <br/> |
    
-В следующей таблице перечислены свойства по умолчанию, которые возвращаются для запроса FindFolder. Все подпапки данной папки возвращаются в порядке по имени.
+В следующей таблице перечислены свойства по умолчанию, возвращаемые для запроса FindFolder. Все подмостки данной папки возвращаются в порядке по имени.
   
 **Свойства по умолчанию**
 
 |**Folder**|**Свойства по умолчанию**|
 |:-----|:-----|
-|Inbox;  <br/> |FolderId, отображаемое имя, непрочтенное количество, общее количество, число вложений  <br/> |
-|Контакты  <br/> |FolderId, отображаемое имя, общее количество, число вложенных папок  <br/> |
-|Календарь  <br/> |FolderId, отображаемое имя, число вложенных папок  <br/> |
-|Черновики  <br/> |FolderId, отображаемое имя, непрочтенное количество, общее количество, число вложений  <br/> |
-|Удаленные элементы  <br/> |FolderId, отображаемое имя, непрочтенное количество, общее количество, число вложений  <br/> |
-|Другие папки  <br/> |FolderId, отображаемое имя, непрочтенное количество, общее количество, число вложений  <br/> |
-|Исходящие  <br/> |FolderId, отображаемое имя, непрочтенное количество, общее количество, число вложений  <br/> |
-|Задачи  <br/> |FolderId, отображаемое имя, количество просроченных, общее количество, число вложенных папок  <br/> |
-|Примечания  <br/> |FolderId, отображаемое имя, общее количество, число вложенных папок  <br/> |
+|Inbox;  <br/> |FolderId, display name, unread count, total count, subfolder count  <br/> |
+|Контакты  <br/> |FolderId, display name, total count, subfolder count  <br/> |
+|Календарь  <br/> |FolderId, display name, subfolder count  <br/> |
+|Черновики  <br/> |FolderId, display name, unread count, total count, subfolder count  <br/> |
+|Удаленные элементы  <br/> |FolderId, display name, unread count, total count, subfolder count  <br/> |
+|Другие папки  <br/> |FolderId, display name, unread count, total count, subfolder count  <br/> |
+|Исходящие  <br/> |FolderId, display name, unread count, total count, subfolder count  <br/> |
+|Задачи  <br/> |FolderId, display name, past due count, total count, subfolder count  <br/> |
+|Примечания.  <br/> |FolderId, display name, total count, subfolder count  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Чтобы вернуть свойства в дополнение к элементам, идентифицируемым элементом [басешапе](baseshape.md) , используйте элемент [аддитионалпропертиес](additionalproperties.md) . 
+Чтобы вернуть свойства в дополнение к свойствам, идентифицированным элементом [BaseShape,](baseshape.md) используйте [элемент AdditionalProperties.](additionalproperties.md) 
   
 ## <a name="example"></a>Пример
 
@@ -104,11 +104,11 @@ ms.locfileid: "44464492"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [фолдершапе](foldershape.md)
-- [итемшапе](itemshape.md)
+- [FolderShape](foldershape.md)
+- [ItemShape](itemshape.md)
 

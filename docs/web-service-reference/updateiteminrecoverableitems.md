@@ -1,23 +1,23 @@
 ---
-title: упдатеитеминрековераблеитемс
+title: UpdateItemInRecoverableItems
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c49816b1-dbb5-4716-86c7-30790e86f30e
-description: Элемент Упдатеитеминрековераблеитемс указывает запрос на обновление элемента в элементах с возможностью восстановления.
-ms.openlocfilehash: f3dae55097c613b84a80795185baad559e312b90
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UpdateItemInRecoverableItems указывает запрос на обновление элемента в извлекаемых элементах.
+ms.openlocfilehash: 8d3ffdd2d3f60e48514ae1a9d7cb4ca4e1bf06ac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459786"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515020"
 ---
-# <a name="updateiteminrecoverableitems"></a>упдатеитеминрековераблеитемс
+# <a name="updateiteminrecoverableitems"></a>UpdateItemInRecoverableItems
 
-Элемент **упдатеитеминрековераблеитемс** указывает запрос на обновление элемента в элементах с возможностью восстановления. 
+Элемент **UpdateItemInRecoverableItems** указывает запрос на обновление элемента в извлекаемых элементах. 
   
 ```XML
 <UpdateItemInRecoverableItems>
@@ -28,24 +28,24 @@ ms.locfileid: "44459786"
 </UpdateItemInRecoverableItems>
 ```
 
- **упдатеитеминрековераблеитемстипе**
+ **UpdateItemInRecoverableItemsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ItemId](itemid.md)  |  [Обновления (элемент)](updates-item.md)  |  [Вложения](attachments-ex15websvcsotherref.md)  |  [Макеитемиммутабле](makeitemimmutable.md)
+[ItemId](itemid.md)  |  [Обновления (Элемент)](updates-item.md)  |  [Вложения](attachments-ex15websvcsotherref.md)  |  [MakeItemImmutable](makeitemimmutable.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44459786"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

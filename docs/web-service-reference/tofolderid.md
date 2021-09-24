@@ -1,27 +1,27 @@
 ---
-title: тофолдерид
+title: ToFolderId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ToFolderId
 api_type:
 - schema
 ms.assetid: bd6a4265-ad40-43f6-bcc4-0bf5df4e984c
-description: Элемент Тофолдерид представляет папку назначения для скопированного или перемещенного элемента или папки.
-ms.openlocfilehash: c9cceb17fd55b7357d54b37bf4c8da1137d39b6a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ToFolderId представляет папку назначения для скопированного или перемещенного элемента или папки.
+ms.openlocfilehash: b58192aa4d1ffe609da78dfdf1b5c86522fc45c8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468777"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515168"
 ---
-# <a name="tofolderid"></a>тофолдерид
+# <a name="tofolderid"></a>ToFolderId
 
-Элемент **тофолдерид** представляет папку назначения для скопированного или перемещенного элемента или папки. 
+Элемент **ToFolderId** представляет папку назначения для скопированного или перемещенного элемента или папки. 
   
 ```xml
 <ToFolderId>
@@ -35,33 +35,33 @@ ms.locfileid: "44468777"
 </ToFolderId>
 ```
 
-**таржетфолдеридтипе**
+**TargetFolderIdType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Содержит идентификатор папки назначения для скопированного или перемещенного элемента или папки.  <br/> |
-|[дистингуишедфолдерид](distinguishedfolderid.md) <br/> |Определяет именованную папку назначения для скопированного или перемещенного элемента или папки.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Определяет именоваемую папку назначения для скопированного или перемещенного элемента или папки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MoveFolder](movefolder.md) <br/> |Определяет запрос на перемещение папки в хранилище Exchange.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/MoveFolder` <br/> |
-|[CopyFolder](copyfolder.md) <br/> |Определяет запрос на копирование папки в хранилище Exchange.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/CopyFolder` <br/> |
-|[MoveItem](moveitem.md) <br/> |Определяет запрос на перемещение элемента в хранилище Exchange.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/MoveItem` <br/> |
-|[CopyItem](copyitem.md) <br/> |Определяет запрос на копирование элемента в хранилище Exchange.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/CopyItem` <br/> |
+|[MoveFolder](movefolder.md) <br/> |Определяет запрос на перемещение папки в Exchange магазине.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/MoveFolder` <br/> |
+|[CopyFolder](copyfolder.md) <br/> |Определяет запрос на копирование папки в Exchange магазине.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/CopyFolder` <br/> |
+|[MoveItem](moveitem.md) <br/> |Определяет запрос на перемещение элемента в Exchange магазине.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/MoveItem` <br/> |
+|[CopyItem](copyitem.md) <br/> |Определяет запрос на копирование элемента в Exchange магазине.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/CopyItem` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -71,7 +71,7 @@ ms.locfileid: "44468777"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

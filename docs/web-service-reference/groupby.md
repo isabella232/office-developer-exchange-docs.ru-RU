@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GroupBy
 api_type:
 - schema
 ms.assetid: 9728619b-4674-4b9d-9f6c-e75c6165966c
 description: Элемент GroupBy указывает произвольную группировку для запросов FindItem.
-ms.openlocfilehash: 0d681e5376e4dd71921cc97f270211e49179db85
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 15e2d818ceae81f08ad0c52d9bdc881f7c3e2579
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530101"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539804"
 ---
 # <a name="groupby"></a>GroupBy
 
@@ -47,43 +47,43 @@ ms.locfileid: "44530101"
 </GroupBy>
 ```
 
-**граупбитипе**
+**GroupByType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**Order** <br/> | Определяет порядок групп в массиве сгруппированных элементов, который возвращается в ответе. Этот атрибут относится к типу Сортдиректионтипе.  <br/> |
+|**Order** <br/> | Определяет порядок групп в массиве сгрупповых элементов, возвращаемом в ответе. Этот атрибут имеет тип SortDirectionType.  <br/> |
    
-#### <a name="order-attribute-values"></a>Значения атрибутов Order
+#### <a name="order-attribute-values"></a>Значения атрибута заказа
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|По возрастанию  <br/> |Группы упорядочиваются в порядке возрастания.  <br/> |
-|Убыванию  <br/> |Группы упорядочиваются по убыванию.  <br/> |
+|По возрастанию  <br/> |Группы заказываться в порядке восходящей.  <br/> |
+|Убывка  <br/> |Группы упорядочены в порядке убывания.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фиелдури](fielduri.md) <br/> |Определяет часто упоминаемые свойства по URI.  <br/> |
-|[индекседфиелдури](indexedfielduri.md) <br/> |Определяет отдельные элементы словаря.  <br/> |
-|[екстендедфиелдури](extendedfielduri.md) <br/> |Определяет расширенные свойства MAPI, которые необходимо получить, задать или создать.  <br/> |
-|[аггрегатеон](aggregateon.md) <br/> |Представляет поле, используемое для определения порядка групп в отклике.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Определяет часто ссылаясь свойства по URI.  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |Определяет отдельных членов словаря.  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |Определяет расширенные свойства MAPI для получения, набора или создания.  <br/> |
+|[AggregateOn](aggregateon.md) <br/> |Представляет поле, которое используется для определения порядка групп в ответе.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Определяет запрос на поиск элементов в почтовом ящике.  <br/><br/> Ниже приведено выражение XPath для этого элемента:`/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Определяет запрос на поиск элементов в почтовом ящике.  <br/><br/> Ниже приводится выражение XPath к этому элементу:  `/FindItem` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Ответ FindItem будет содержать коллекцию групп. Каждая группа будет содержать все элементы с соответствующими значениями свойства **GroupBy** . Свойство, которое определяет группирование, определяется в элементе [фиелдури](fielduri.md), [индекседфиелдури](indexedfielduri.md)или [екстендедфиелдури](extendedfielduri.md) . 
+Ответ FindItem будет содержать коллекцию групп. Каждая группа будет содержать все элементы, которые имели совпадающие значения для свойства **GroupBy.** Свойство, определяющий группировку, определяется в [элементе FieldURI,](fielduri.md) [IndexedFieldURI](indexedfielduri.md)или [ExtendedFieldURI.](extendedfielduri.md) 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -93,7 +93,7 @@ ms.locfileid: "44530101"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

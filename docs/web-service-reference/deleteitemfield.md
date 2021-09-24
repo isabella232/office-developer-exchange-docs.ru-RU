@@ -1,33 +1,33 @@
 ---
-title: делетеитемфиелд
+title: DeleteItemField
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteItemField
 api_type:
 - schema
 ms.assetid: 3893be6a-49a7-49f6-bf53-c7f819ec3f87
-description: Элемент Делетеитемфиелд представляет операцию удаления данного свойства из элемента во время вызова UpdateItem.
-ms.openlocfilehash: e6f5ee8a1130d7c040f3ddd94021eff6d4a758b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DeleteItemField представляет операцию по удалите заданное свойство из элемента во время вызова UpdateItem.
+ms.openlocfilehash: 7f29dd4e4c14262d7954fb7422e5bee35112e2e4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455676"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540190"
 ---
-# <a name="deleteitemfield"></a>делетеитемфиелд
+# <a name="deleteitemfield"></a>DeleteItemField
 
-Элемент **делетеитемфиелд** представляет операцию удаления данного свойства из элемента во время вызова UpdateItem. 
+Элемент **DeleteItemField** представляет операцию по удалите заданное свойство из элемента во время вызова UpdateItem. 
  
 - [UpdateItem](updateitem.md)  
-- [итемчанжес](itemchanges.md) 
+- [ItemChanges](itemchanges.md) 
 - [ItemChange](itemchange.md) 
-- [Обновления (элемент)](updates-item.md) 
-- [делетеитемфиелд](deleteitemfield.md)
+- [Updates (Item)](updates-item.md) 
+- [DeleteItemField](deleteitemfield.md)
   
 ```xml
 <DeleteItemField>
@@ -47,31 +47,31 @@ ms.locfileid: "44455676"
 </DeleteItemField>
 ```
 
-**делетеитемфиелдтипе**
+**DeleteItemFieldType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фиелдури](fielduri.md) <br/> |Определяет часто упоминаемые свойства по URI.  <br/> |
-|[индекседфиелдури](indexedfielduri.md) <br/> |Определяет отдельные элементы свойства Dictionary.  <br/> |
-|[екстендедфиелдури](extendedfielduri.md) <br/> |Определяет расширенные свойства MAPI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Определяет часто ссылаясь свойства по URI.  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |Определяет отдельных членов свойства словаря.  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |Определяет расширенные свойства MAPI.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Обновления (элемент)](updates-item.md) <br/> |Содержит набор элементов, определяющих Добавление, установку и удаление изменений свойств элемента.  <br/><br/>Ниже приведено выражение XPath для этого элемента:<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Updates (Item)](updates-item.md) <br/> |Содержит набор элементов, определяющие приложение, набор и удаление изменений свойств элементов.  <br/><br/>Ниже приводится выражение XPath к этому элементу:<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -80,8 +80,8 @@ ms.locfileid: "44455676"
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Имя схемы  <br/> |схема типов  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

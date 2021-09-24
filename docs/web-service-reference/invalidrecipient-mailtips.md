@@ -1,27 +1,27 @@
 ---
-title: ИнвалидреЦипиент (подсказки)
+title: InvalidRecipient (MailTips)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InvalidRecipient
 api_type:
 - schema
 ms.assetid: 48959a99-bb0d-4004-963e-5a5baaa96476
-description: Элемент ИнвалидреЦипиент указывает, является ли получатель недопустимым.
-ms.openlocfilehash: fddd75beb2228c50084bd38b4f4745064cc281dc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент InvalidRecipient указывает, является ли получатель недействительным.
+ms.openlocfilehash: 747210c234ecf39bd711ace938ad16af2353eaad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530009"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539572"
 ---
-# <a name="invalidrecipient-mailtips"></a>ИнвалидреЦипиент (подсказки)
+# <a name="invalidrecipient-mailtips"></a>InvalidRecipient (MailTips)
 
-Элемент **инвалидреЦипиент** указывает, является ли получатель недопустимым. 
+Элемент **InvalidRecipient** указывает, является ли получатель недействительным. 
   
 ```XML
 <InvalidRecipient>true | false</InvalidRecipient>
@@ -30,27 +30,27 @@ ms.locfileid: "44530009"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Подсказки](mailtips.md) <br/> |Представляет значения для различных типов советов по использованию электронной почты.  <br/> |
+|[Подсказки](mailtips.md) <br/> |Представляет значения для различных типов советов почты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение этого элемента равно **true** , если получатель не является допустимым. Значение **false** , если получатель не является допустимым. 
+Значение текста этого элемента **верно,** если получатель недействителен. Значение является **ложным,** если получатель не является недействительным. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44530009"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

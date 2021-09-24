@@ -1,24 +1,24 @@
 ---
-title: Жетусерсеттингсреспонсе (SOAP)
+title: GetUserSettingsResponse (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: e7cd470d-5861-41e7-9e66-73ef7a59700b
-description: Элемент Жетусерсеттингсреспонсе представляет ответ на запрос операции GetUserSettings (SOAP).
-ms.openlocfilehash: a41a195a003789ddaef81f844e47aad689df0937
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetUserSettingsResponse представляет ответ на запрос операции GetUserSettings (SOAP).
+ms.openlocfilehash: cc45a652332547c0a6312536a261f0cd8b04f9c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530150"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526102"
 ---
-# <a name="getusersettingsresponse-soap"></a>Жетусерсеттингсреспонсе (SOAP)
+# <a name="getusersettingsresponse-soap"></a>GetUserSettingsResponse (SOAP)
 
-Элемент **жетусерсеттингсреспонсе** представляет ответ на запрос [операции GetUserSettings (SOAP)](getusersettings-operation-soap.md) . 
+Элемент **GetUserSettingsResponse** представляет ответ на запрос [операции GetUserSettings (SOAP).](getusersettings-operation-soap.md) 
   
 ```XML
 <GetUserSettingsResponse>
@@ -28,38 +28,38 @@ ms.locfileid: "44530150"
 </GetUserSettingsResponse>
 ```
 
- **жетусерсеттингсреспонсе**
+ **GetUserSettingsResponse**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Представляет код ошибки, возвращенный службой автообнаружения.  <br/> |
-|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Представляет сообщение, связанное с кодом ошибки, возвращаемым службой автообнаружения.  <br/> |
-|[Усерреспонсес (SOAP)](userresponses-soap.md) <br/> |Содержит параметры конфигурации для каждого запрошенного пользователя.  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Представляет код ошибки, возвращаемый службой автооткрытия.  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Представляет сообщение, связанное с кодом ошибки, который возвращается службой автооткрытия.  <br/> |
+|[UserResponses (SOAP)](userresponses-soap.md) <br/> |Содержит параметры конфигурации для каждого запрашиваемой пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

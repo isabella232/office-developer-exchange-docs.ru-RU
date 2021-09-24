@@ -1,41 +1,41 @@
 ---
-title: упдатемаилбоксассоЦиатионреспонсемессаже
+title: UpdateMailboxAssociationResponseMessage
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a70d177f-d7f2-4912-a753-b2da11ad94b5
-description: Элемент УпдатемаилбоксассоЦиатионреспонсемессаже предназначен только для внутреннего использования.
-ms.openlocfilehash: ce2afcd72315c079d9376704839163bf66369e63
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UpdateMailboxAssociationResponseMessage предназначен только для внутреннего использования.
+ms.openlocfilehash: fc2579f92ba9a2324adf666a36ea1b26aa51532d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514013"
 ---
-# <a name="updatemailboxassociationresponsemessage"></a>упдатемаилбоксассоЦиатионреспонсемессаже
+# <a name="updatemailboxassociationresponsemessage"></a>UpdateMailboxAssociationResponseMessage
 
-Элемент **упдатемаилбоксассоЦиатионреспонсемессаже** предназначен только для внутреннего использования. 
+Элемент **UpdateMailboxAssociationResponseMessage** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

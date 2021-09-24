@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Periods
 api_type:
 - schema
 ms.assetid: 7920d81d-abba-4232-8bfe-49267b6c9a36
-description: Элемент Periods представляет массив периодов, которые определяют смещение времени на разных стадиях часового пояса.
-ms.openlocfilehash: 773457a6e4c0237eaeaf23109a7022427cc7dd0d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Periods представляет массив периодов, определяющие смещение времени на разных этапах часового пояса.
+ms.openlocfilehash: e4a614c71e7194dd85db740da1796b69d9f25d69
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467776"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515315"
 ---
 # <a name="periods"></a>Periods
 
-Элемент **Periods** представляет массив периодов, которые определяют смещение времени на разных стадиях часового пояса. 
+Элемент **Periods** представляет массив периодов, определяющие смещение времени на разных этапах часового пояса. 
   
 ```xml
 <Periods>
@@ -29,14 +29,14 @@ ms.locfileid: "44467776"
 </Periods>
 ```
 
- **нонемптяррайофпериодстипе**
+ **NonEmptyArrayOfPeriodsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -48,13 +48,13 @@ ms.locfileid: "44467776"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StartTimeZone](starttimezone.md) <br/> |Определяет часовой пояс времени начала [календаритем](calendaritem.md) или [свойство meetingrequest](meetingrequest.md).  <br/> |
-|[EndTimeZone](endtimezone.md) <br/> |Определяет часовой пояс для времени окончания [календаритем](calendaritem.md) или [свойство meetingrequest](meetingrequest.md).  <br/> |
-|[тимезонедефинитион](timezonedefinition.md) <br/> |Определяет часовой пояс.  <br/> |
+|[StartTimeZone](starttimezone.md) <br/> |Определяет часовой пояс для времени начала [работы CalendarItem](calendaritem.md) или [MeetingRequest.](meetingrequest.md)  <br/> |
+|[EndTimeZone](endtimezone.md) <br/> |Определяет часовой пояс для конечного времени [calendarItem](calendaritem.md) или [MeetingRequest.](meetingrequest.md)  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |Определяет часовой пояс.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает сервер Microsoft Exchange с установленной ролью сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в виртуальном каталоге компьютера EWS, на Microsoft Exchange Server установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -62,7 +62,7 @@ ms.locfileid: "44467776"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

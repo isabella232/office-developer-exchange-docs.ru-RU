@@ -1,34 +1,34 @@
 ---
-title: Уфурл (POX)
+title: OOFUrl (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 76c5532b-de5f-4227-9284-eab8ef076c55
-description: Элемент Уфурл указывает URL-адрес лучшего экземпляра службы доступности для пользователя с включенной поддержкой почты.
-ms.openlocfilehash: f32ec4416bc0a1a144ff21aa9d2dac89bac30495
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент OOFUrl указывает URL-адрес лучшего экземпляра службы доступности для пользователя с поддержкой почты.
+ms.openlocfilehash: 9473b1fe24de70b9a16b45bd4fb76ae0ba4f1ae2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462523"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539214"
 ---
-# <a name="oofurl-pox"></a>Уфурл (POX)
+# <a name="oofurl-pox"></a>OOFUrl (POX)
 
-Элемент **уфурл** указывает URL-адрес лучшего экземпляра службы доступности для пользователя с включенной поддержкой почты. 
+Элемент **OOFUrl** указывает URL-адрес лучшего экземпляра службы доступности для пользователя с поддержкой почты. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Протокол (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[Уфурл (POX)](oofurl-pox.md)
+[OOFUrl (POX)](oofurl-pox.md)
   
 ```xml
 <OOFUrl/>
@@ -36,29 +36,29 @@ ms.locfileid: "44462523"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на котором работает Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на Microsoft Exchange Server 2007 г., на который установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение указывает URL-адрес сервера конфигурации вне офиса для топологии Exchange.
+В текстовом значении указывается url-адрес сервера конфигурации вне офиса для топологии Exchange.
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

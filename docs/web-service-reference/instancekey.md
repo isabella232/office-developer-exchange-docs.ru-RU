@@ -1,23 +1,23 @@
 ---
-title: инстанцекэй
+title: InstanceKey
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb4dbe9b-aea0-4527-b7d6-e928066caf38
-description: Элемент Инстанцекэй указывает ключ экземпляра для элемента или беседы.
-ms.openlocfilehash: a6b55b9021fe63be7f678f0a1bcb24e88aeba005
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент InstanceKey указывает ключ экземпляра для элемента или беседы.
+ms.openlocfilehash: 4665620d49f153fe70a57c5214b3bd28cd97ca50
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459975"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539565"
 ---
-# <a name="instancekey"></a>инстанцекэй
+# <a name="instancekey"></a>InstanceKey
 
-Элемент **инстанцекэй** указывает ключ экземпляра для элемента или беседы. 
+Элемент **InstanceKey** указывает ключ экземпляра для элемента или беседы. 
   
 ```XML
 <InstanceKey></InstanceKey>
@@ -26,28 +26,28 @@ ms.locfileid: "44459975"
  **base64Binary**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Беседы (ConversationType)](conversation-conversationtype.md) <br/> |Представляет одну беседу.  <br/> |
-|[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
+|[Элемент](item.md) <br/> |Представляет универсальный элемент в Exchange магазине.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **инстанцекэй** — это ключ экземпляра для элемента или беседы. 
+Текстовое значение элемента **InstanceKey** — это ключ экземпляра для элемента или беседы. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -59,7 +59,7 @@ ms.locfileid: "44459975"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

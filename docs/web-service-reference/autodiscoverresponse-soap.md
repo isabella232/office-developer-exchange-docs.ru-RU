@@ -1,26 +1,26 @@
 ---
-title: Аутодисковерреспонсе (SOAP)
+title: AutodiscoverResponse (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 203a5ac3-ebd0-4514-acbe-bc1c74638127
-description: Элемент Аутодисковерреспонсе (SOAP) представляет базовый элемент для всех ответов, возвращаемых службой автообнаружения.
-ms.openlocfilehash: 81fd557578bde9552d07e24386c93903e44a9afa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AutodiscoverResponse (SOAP) представляет базовый элемент для всех ответов, возвращаемого службой автооткрытия.
+ms.openlocfilehash: 71bbb0f1aa6602a260c163ccfdfd3c3d38442e31
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514874"
 ---
-# <a name="autodiscoverresponse-soap"></a>Аутодисковерреспонсе (SOAP)
+# <a name="autodiscoverresponse-soap"></a>AutodiscoverResponse (SOAP)
 
-Элемент **аутодисковерреспонсе (SOAP)** представляет базовый элемент для всех ответов, возвращаемых службой автообнаружения. 
+Элемент **AutodiscoverResponse (SOAP)** представляет базовый элемент для всех ответов, возвращаемого службой автооткрытия. 
   
-- [Аутодисковерреспонсе (SOAP)](autodiscoverresponse-soap.md)
+- [AutodiscoverResponse (SOAP)](autodiscoverresponse-soap.md)
   
 ```XML
 <AutodiscoverResponse>
@@ -31,43 +31,43 @@ ms.locfileid: "44463967"
 
 ```
 
- **аутодисковерреспонсе**
+ **AutodiscoverResponse**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Усерреспонсес (SOAP)](userresponses-soap.md) <br/> |Представляет коллекцию элементов [усерреспонсе (SOAP)](userresponse-soap.md) .  <br/> |
-|[Усерсеттинжеррорс (SOAP)](usersettingerrors-soap.md) <br/> |Представляет коллекцию элементов [усерсеттинжеррор (SOAP)](usersettingerror-soap.md) .  <br/> |
-|[Усерсеттингс (SOAP)](usersettings-soap.md) <br/> |Представляет коллекцию элементов [усерсеттинг (SOAP)](usersetting-soap.md) .  <br/> |
+|[UserResponses (SOAP)](userresponses-soap.md) <br/> |Представляет коллекцию [элементов UserResponse (SOAP).](userresponse-soap.md)  <br/> |
+|[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |Представляет коллекцию элементов [UserSettingError (SOAP).](usersettingerror-soap.md)  <br/> |
+|[UserSettings (SOAP)](usersettings-soap.md) <br/> |Представляет коллекцию элементов [UserSetting (SOAP).](usersetting-soap.md)  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
-- [Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
-- [Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
+- [Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+- [Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
 

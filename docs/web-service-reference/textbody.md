@@ -1,23 +1,23 @@
 ---
-title: текстбоди
+title: TextBody
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd0c0bce-3e7c-47c7-af7f-5ee5f5ad9820
-description: Элемент Текстбоди указывает текст текста.
-ms.openlocfilehash: c0002785fb990a251267218f7a5f232e521db41a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TextBody указывает текстовое тело.
+ms.openlocfilehash: 5dfc0aa76f0b0778d785e46fe12259c4a226b89f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459485"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515182"
 ---
-# <a name="textbody"></a>текстбоди
+# <a name="textbody"></a>TextBody
 
-Элемент **текстбоди** указывает текст текста. 
+Элемент **TextBody** указывает текстовое тело. 
   
 ```XML
 <TextBody BodyTypeType=" HTML | Text" IsTruncated=" true | false"></TextBody>
@@ -26,28 +26,28 @@ ms.locfileid: "44459485"
  **BodyType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|бодитипетипе  <br/> |Указывает тип тела. Значение **Text** для атрибута **бодитипетипе** указывает на то, что текст отображается в виде обычного текста. Значение **HTML** для атрибута **бодитипетипе** указывает на то, что текст находится в HTML-форме. Атрибут **бодитипетипе** является обязательным.  <br/> |
-|Усечено  <br/> |Указывает, что содержимое тела было усечено. Текстовое значение **false** для атрибута **Truncate** указывает на то, что содержимое основного текста не было усечено. Нормализованный текст будет усечен, если длина текста текста превышает значение, заданное в элементе [максимумбодисизе](maximumbodysize.md) .  <br/> |
+|BodyTypeType  <br/> |Указывает тип тела. Значение текста **для** **атрибута BodyTypeType** указывает на то, что тело находится в обычной текстовой форме. Значение **HTML для** **атрибута BodyTypeType** указывает на то, что тело находится в HTML-форме. Атрибут **BodyTypeType** необходим.  <br/> |
+|IsTruncated  <br/> |Указывает, что содержимое тела было усечено. Текстовое значение **false для** **атрибута IsTruncated** указывает на то, что содержимое тела не было усечено. Нормализуемое тело будет усечено, если длина текстового тела больше значения, задатого в [элементе MaximumBodySize.](maximumbodysize.md)  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Элемент](item.md)  |  [Contact (контакт](contact.md)  |  ) [Message (сообщение](message-ex15websvcsotherref.md)  |  ) [Дистрибутионлист](distributionlist.md)  |  [Календаритем](calendaritem.md)  |  [Элемент](postitem.md)  |  i [Task (задача](task.md) )
+[Item](item.md)  |  [Контакт](contact.md)  |  [Сообщение](message-ex15websvcsotherref.md)  |  [DistributionList](distributionlist.md)  |  [CalendarItem](calendaritem.md)  |  [PostItem](postitem.md)  |  [Задача](task.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **текстбоди** — основной текст элемента. 
+Текстовое значение элемента **TextBody** — текстовое тело элемента. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -59,7 +59,7 @@ ms.locfileid: "44459485"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

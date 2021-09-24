@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1834b40-ab2a-4c67-a93a-eaadc9523fda
 description: Элемент Keyword указывает одно ключевое слово.
-ms.openlocfilehash: cdb944aa7b5a8335d840555400381f1d863ded82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 62d993f0f36a3d02991f15f4e37435c6db19c24f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458105"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514433"
 ---
 # <a name="keyword"></a>Ключевое слово
 
-Элемент **keyword** указывает одно ключевое слово. 
+Элемент **Keyword** указывает одно ключевое слово. 
   
 ```XML
 <Keyword></Keyword>
@@ -26,25 +26,25 @@ ms.locfileid: "44458105"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[кэйвордстат](keywordstat.md)
+[KeywordStat](keywordstat.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **keyword** — это имя одного ключевого слова, которое представляет собой одну статистику по ключевым словам. 
+Текстовое значение элемента **Keyword** — это имя одного ключевого слова, представляюного одну статистику ключевых слов. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

@@ -1,32 +1,32 @@
 ---
-title: Граупингинформатион (POX)
+title: GroupingInformation (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d8a007f-d79c-43c8-90e3-2c6d883f3a7c
-description: Элемент Граупингинформатион содержит значение, используемое для группировки почтового ящика пользователя при подписке на уведомления через несколько почтовых ящиков.
-ms.openlocfilehash: 7cab5d68f7dd5ec1f6caded5b9da6cfee03f3a67
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GroupingInformation содержит значение, которое используется для группировки почтового ящика пользователя для сохранения сродства при подписке на уведомления в нескольких почтовых ящиках.
+ms.openlocfilehash: 14e751adcd0b966907ce495a2753b2b26d812a86
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530080"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525886"
 ---
-# <a name="groupinginformation-pox"></a>Граупингинформатион (POX)
+# <a name="groupinginformation-pox"></a>GroupingInformation (POX)
 
-Элемент **граупингинформатион** содержит значение, используемое для группировки почтового ящика [пользователя при](https://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx) подписке на уведомления через несколько почтовых ящиков. 
+Элемент **GroupingInformation** содержит значение, которое используется для группировки [](https://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx) почтового ящика пользователя для сохранения сродства при подписке на уведомления в нескольких почтовых ящиках. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[Протокол (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[Граупингинформатион (POX)](groupinginformation-pox.md)
+[GroupingInformation (POX)](groupinginformation-pox.md)
   
 ```XML
 <GroupingInformation/>
@@ -34,32 +34,32 @@ ms.locfileid: "44530080"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к серверу Exchange Server.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к Exchange серверу.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение сравнивается со значением элемента **граупингинформатион** для других почтовых ящиков. Почтовые ящики, имеющие одинаковое значение и использующие одну конечную точку веб-служб Exchange (EWS), можно объединять для поддержания сходства. Более подробную информацию можно узнать [в статье поддержание сходства между группой подписок и сервером почтовых ящиков в Exchange](https://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx).
+Текстовое значение сравнивается со значением элемента **GroupingInformation** для других почтовых ящиков. Почтовые ящики, которые имеют одинаковое значение и используют ту же конечную точку Exchange веб-службы (EWS), можно сгруппить для сохранения сродства. Дополнительные сведения см. в [материале Maintain affinity between a group of subscriptions and the Mailbox server in Exchange.](https://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **граупингинформатион** применяется только к элементам **протокола** , имеющим дочерний элемент [Type (POX)](type-pox.md) со значением "expr". 
+Элемент **GroupingInformation** применим только к элементам **Протокола,** которые имеют детский элемент [Type (POX)](type-pox.md) со значением "EXPR". 
   
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 - [Поддержание сходства между группой подписок и сервером почтовых ящиков в Exchange](https://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx)
 

@@ -1,23 +1,23 @@
 ---
-title: нониндексаблеитемдетаилсресулт
+title: NonIndexableItemDetailsResult
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7cbdbc21-5405-4cbc-8ca0-d7b0257927aa
-description: Элемент Нониндексаблеитемдетаилсресулт указывает результаты операции WSDL GetNonIndexableItemDetails.
-ms.openlocfilehash: 647f58b5e7285af70bbfb3a203ba71c9a3ccebcc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент NonIndexableItemDetailsResult указывает результаты операции GetNonIndexableItemDetails WSDL.
+ms.openlocfilehash: 16f3c8a74f635fdd8204fe207777b4b30bc4d2ed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465445"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539284"
 ---
-# <a name="nonindexableitemdetailsresult"></a>нониндексаблеитемдетаилсресулт
+# <a name="nonindexableitemdetailsresult"></a>NonIndexableItemDetailsResult
 
-Элемент **нониндексаблеитемдетаилсресулт** указывает результаты операции WSDL **GetNonIndexableItemDetails** . 
+Элемент **NonIndexableItemDetailsResult** указывает результаты операции **GetNonIndexableItemDetails** WSDL. 
   
 ```XML
 <NonIndexableItemDetailsResult>
@@ -26,24 +26,24 @@ ms.locfileid: "44465445"
 </NonIndexableItemDetailsResult>
 ```
 
- **нониндексаблеитемдетаилресулттипе**
+ **NonIndexableItemDetailResultType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Items (аррайофнониндексаблеитемдетаилстипе)](items-arrayofnonindexableitemdetailstype.md) , [фаиледмаилбоксес](failedmailboxes.md)
+[Элементы (ArrayOfNonIndexableItemDetailsType),](items-arrayofnonindexableitemdetailstype.md) [failedMailboxes](failedmailboxes.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Жетнониндексаблеитемдетаилсреспонсе](getnonindexableitemdetailsresponse.md) , [жетнониндексаблеитемдетаилсреспонсемессаже](getnonindexableitemdetailsresponsemessage.md)
+[GetNonIndexableItemDetailsResponse,](getnonindexableitemdetailsresponse.md) [GetNonIndexableItemDetailsResponseMessage](getnonindexableitemdetailsresponsemessage.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44465445"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

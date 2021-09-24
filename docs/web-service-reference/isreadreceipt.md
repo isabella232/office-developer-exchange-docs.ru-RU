@@ -1,27 +1,27 @@
 ---
-title: исреадрецеипт
+title: IsReadReceipt
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsReadReceipt
 api_type:
 - schema
 ms.assetid: e60e525f-c136-469a-b68b-b3dc01f400a6
-description: Элемент Исреадрецеипт указывает, должны ли входящие сообщения принимать уведомления о прочтении для того, чтобы условие или исключение применялось.
-ms.openlocfilehash: e86a7776bc43204dae9fc92f21d4304255ddb888
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsReadReceipt указывает, должны ли входящие сообщения быть считывающимися квитанциями для применения условия или исключения.
+ms.openlocfilehash: 65ed10e4bc3fa38aed0566e672d57ec720556b94
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463904"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514475"
 ---
-# <a name="isreadreceipt"></a>исреадрецеипт
+# <a name="isreadreceipt"></a>IsReadReceipt
 
-Элемент **исреадрецеипт** указывает, должны ли входящие сообщения принимать уведомления о прочтении для того, чтобы условие или исключение применялось. 
+Элемент **IsReadReceipt** указывает, должны ли входящие сообщения быть считывающимися квитанциями для применения условия или исключения. 
   
 ```XML
 <IsReadReceipt> true | false</IsReadReceipt>
@@ -30,15 +30,15 @@ ms.locfileid: "44463904"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,9 +49,9 @@ ms.locfileid: "44463904"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** указывает, что сообщение должно быть уведомлением о прочтении, чтобы применялось условие или исключение. Если сообщение не обязательно должно быть уведомлением о прочтении для условия или исключения, значение равно **false**.
+Значение текста указывает **на** то, что сообщение должно быть квитанцией для чтения, чтобы применить условие или исключение. Если сообщение не должно быть квитанцией для чтения для применения условия или исключения, значение является **ложным.**
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44463904"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

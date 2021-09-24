@@ -5,46 +5,46 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8cc0c4fa-9e13-45cb-88da-0486f2ac1bd0
-description: Сведения о том, как использовать командную консоль Exchange для разработки средств для администрирования Exchange Server.
-ms.openlocfilehash: 38e75339a4ad97cf8ff99e1cbe9c01059e157941
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения о том, как использовать Exchange для разработки средств администрирования Exchange сервера.
+ms.openlocfilehash: ee1cbcb174c7153ca6cd9bb089580b372bf9029b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44435809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516155"
 ---
 # <a name="exchange-management-shell"></a>Командная консоль Exchange
 
-Сведения о том, как использовать командную консоль Exchange для разработки средств для администрирования Exchange Server.
+Сведения о том, как использовать Exchange для разработки средств администрирования Exchange сервера.
   
-**Применимо к:** Exchange Online | Exchange Server 2013 | Office 365
+**Применяется к:** Exchange Online | Exchange Server 2013 | Office 365
   
-Командная консоль Exchange предоставляет богатый набор команд, основанный на платформе Windows PowerShell, для управления Exchange Online, Exchange Online в составе Office 365 или локальной версии Exchange, начиная с Exchange 2013. С помощью командной консоли Exchange можно создавать два типа инструментов: сценарии командной строки, работающие в среде Windows PowerShell, и средства, использующие командлеты командной консоли Exchange через управляемый интерфейс. С помощью управляемых приложений можно создать стандартный пользовательский интерфейс Windows или веб-интерфейс для администрирования сервера Exchange Server. 
+В Exchange Management Shell предоставляется богатый набор команд, основанных на платформе Windows PowerShell, для управления Exchange Online, Exchange Online в составе Office 365 или локальной версии Exchange начиная с Exchange 2013 г. С помощью Exchange командной оболочки можно создать два типа инструментов: скрипты командной строки, которые работают в среде Windows PowerShell, и средства, которые используют командлеты Exchange Management Shell с помощью управляемого интерфейса. Управляемые приложения можно использовать для создания стандартного пользовательского Windows или веб-интерфейса для администрирования Exchange сервера. 
   
-## <a name="what-you-need-to-know-about-the-exchange-management-shell"></a>Что нужно знать о командной консоли Exchange
+## <a name="what-you-need-to-know-about-the-exchange-management-shell"></a>Что нужно знать о Exchange управленческой оболочки
 
-|Если вас интересует|Прочтите это|
+|Если вам интересно,|Прочтите это|
 |:-----|:-----|
-|Доступность  <br/> |Команды Командная консоль Exchange устанавливаются на всех серверах, где запущены версии Exchange, начиная с Exchange 2007.<br/>Клиентские приложения можно развертывать на любом компьютере, работающем под управлением Windows PowerShell 2,0.<br/> Сведения о доступе к оболочке можно найти в статье [Exchange Server PowerShell (Командная консоль Exchange)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps).  <br/> |
-|Языки и инструменты  <br/> |Вы можете создавать сценарии командной консоли Exchange в любом текстовом редакторе.<br/>Можно использовать один или несколько сторонних средств для создания сценариев Windows PowerShell, которые можно использовать в командной консоли Exchange.  <br/> [Объектная модель Командная консоль Exchange](exchange-management-shell-namespaces.md) основана на платформе .NET Framework.<br/>Для разработки приложений командной консоли Exchange можно использовать любой язык .NET.  <br/> |
-|Доступные инструменты для тестирования и отладки  <br/> |Для тестирования и отладки сценариев консоли управления Exchange можно использовать одно из многих сторонних приложений.  <br/> С помощью Visual Studio и сторонних средств можно тестировать и отлаживать управляемые приложения командной консоли Exchange.  <br/> |
-|Требования к платформе сервера  <br/> |Командную консоль Exchange можно использовать на любом сервере Exchange, на котором установлен Windows PowerShell 2,0.  <br/> |
-|Требования к платформе клиента  <br/> |Клиентским приложениям командной консоли Exchange требуется Windows PowerShell 2,0.  <br/> |
-|Permissions  <br/> |Для запуска приложения командной консоли Exchange необходимо, чтобы у пользователя были права на управление доступом на основе ролей для затронутых данных в хранилище Exchange.<br/>Более подробную информацию об управлении доступом на основе ролей можно узнать в статье Общие сведения об [управлении доступом на основе](https://technet.microsoft.com/library/dd298183.aspx)ролей.  <br/> |
+|Доступность  <br/> |Exchange Команды команд команд командной оболочки управления устанавливаются на всех серверах, на Exchange начиная с Exchange 2007 года.<br/>Клиентские приложения можно развернуть на любом компьютере с Windows PowerShell 2.0.<br/> Сведения о доступе к оболочке см. в [Exchange Server PowerShell (Exchange Management Shell).](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  <br/> |
+|Языки и инструменты  <br/> |Вы можете создавать Exchange в любом текстовом редакторе.<br/>Вы можете использовать один из многих сторонних средств для создания Windows PowerShell сценариев, которые можно использовать с помощью Exchange Management Shell.  <br/> Объектная [модель Exchange Management Shell](exchange-management-shell-namespaces.md) основана на платформа .NET Framework.<br/>Вы можете использовать любой язык .NET для разработки Exchange приложений для управления shell.  <br/> |
+|Доступные инструменты для тестирования и отладки  <br/> |Вы можете использовать одно из многих сторонних приложений для тестирования и отлаговки сценариев Exchange управления Shell.  <br/> Вы можете использовать Visual Studio и сторонние средства для тестирования и отламывки управляемых Exchange приложений управленческой оболочки.  <br/> |
+|Требования к платформе сервера  <br/> |Вы можете использовать Exchange на любом сервере Exchange, на Windows PowerShell установлено 2.0.  <br/> |
+|Требования к платформе клиента  <br/> |Exchange Клиентские приложения Management Shell требуют Windows PowerShell 2.0.  <br/> |
+|Permissions  <br/> |Для Exchange приложения Management Shell требуется, чтобы пользователь мог управлять правами на управление доступом на основе ролей к затронутым данным в Exchange магазине.<br/>Дополнительные сведения о контроле доступа на основе ролей см. в см. в нем [Understanding Role Based Access Control.](https://technet.microsoft.com/library/dd298183.aspx)  <br/> |
    
-В статьях этого раздела описываются функции оболочки управления Exchange, важные для создания средств управления Exchange. Сведения о планировании, настройке или обслуживании Exchange можно найти на сайте [Exchange](https://docs.microsoft.com/exchange/) .
+В статьях в этом разделе описываются Exchange, важные для создания Exchange управления. Сведения о планировании, настройке или обслуживании Exchange [](https://docs.microsoft.com/exchange/) см. в Exchange сайте.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Создание средств командной консоли Exchange](create-exchange-management-shell-tools.md)
+- [Создание инструментов командной консоли Exchange](create-exchange-management-shell-tools.md)
     
 - [Пространства имен командной консоли Exchange](exchange-management-shell-namespaces.md)
     
 ## <a name="see-also"></a>См. также
   
-- [Документация по Windows PowerShell](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6)
-- [Сценарии PowerShell](https://docs.microsoft.com/powershell/scripting/powershell-scripting?view=powershell-6)
+- [Windows PowerShell документации](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6)
+- [Сценарий PowerShell](https://docs.microsoft.com/powershell/scripting/powershell-scripting?view=powershell-6)
     
 

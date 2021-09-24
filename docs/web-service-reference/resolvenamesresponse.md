@@ -1,27 +1,27 @@
 ---
-title: ресолвенамесреспонсе
+title: ResolveNamesResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResolveNamesResponse
 api_type:
 - schema
 ms.assetid: 5e7be1e2-44ea-403f-9135-2388d030078c
-description: Элемент Ресолвенамесреспонсе определяет ответ на запрос ResolveNames.
-ms.openlocfilehash: 29ae2d20db9f2d689f315f66d62385252046c055
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ResolveNamesResponse определяет ответ на запрос ResolveNames.
+ms.openlocfilehash: 654e60926915da4a43823a44ae1e86d086692774
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455606"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514139"
 ---
-# <a name="resolvenamesresponse"></a>ресолвенамесреспонсе
+# <a name="resolvenamesresponse"></a>ResolveNamesResponse
 
-Элемент **ресолвенамесреспонсе** определяет ответ на запрос ResolveNames. 
+Элемент **ResolveNamesResponse** определяет ответ на запрос ResolveNames. 
   
 ```xml
 <ResolveNamesResponse>
@@ -29,26 +29,26 @@ ms.locfileid: "44455606"
 </ResolveNamesResponse>
 ```
 
- **ресолвенамесреспонсетипе**
+ **ResolveNamesResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения отклика для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44455606"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |схема сообщений  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -67,7 +67,7 @@ ms.locfileid: "44455606"
 
 [ResolveNames](resolvenames.md)
   
-[ресолвенамесреспонсемессаже](resolvenamesresponsemessage.md)
+[ResolveNamesResponseMessage](resolvenamesresponsemessage.md)
   
 [Операция ResolveNames](resolvenames-operation.md)
 

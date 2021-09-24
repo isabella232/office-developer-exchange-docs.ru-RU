@@ -1,27 +1,27 @@
 ---
-title: ассигнедтиме
+title: AssignedTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AssignedTime
 api_type:
 - schema
 ms.assetid: 37b273a4-7595-47d5-87c5-32856d7a045b
-description: Элемент Ассигнедтиме представляет время, когда задача назначена контакту.
-ms.openlocfilehash: 26c3fd4e117a962c690d0fff0d4dad5b5c24dd0c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AssignedTime представляет время, когда задача назначена контакту.
+ms.openlocfilehash: e8ccf62c6976b0510b8e84cfe9270df98ff5ca4f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464730"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540260"
 ---
-# <a name="assignedtime"></a>ассигнедтиме
+# <a name="assignedtime"></a>AssignedTime
 
-Элемент **ассигнедтиме** представляет время, когда задача назначена контакту. 
+Элемент **AssignedTime** представляет время, когда задача назначена контакту. 
   
 ```xml
 <AssignedTime/>
@@ -30,15 +30,15 @@ ms.locfileid: "44464730"
  **DateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "44464730"
 
 Это свойство доступно только для чтения.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44464730"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

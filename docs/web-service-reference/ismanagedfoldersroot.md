@@ -1,27 +1,27 @@
 ---
-title: исманажедфолдерсрут
+title: IsManagedFoldersRoot
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsManagedFoldersRoot
 api_type:
 - schema
 ms.assetid: 00823fb9-bf8b-49bb-8e1b-d698c6d4063f
-description: Элемент Исманажедфолдерсрут указывает, является ли управляемая папка корневой для всех управляемых папок.
-ms.openlocfilehash: 4373dba9dce92de8e175948d889f0806e100fa6c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsManagedFoldersRoot указывает, является ли управляемый папка корнем для всех управляемых папок.
+ms.openlocfilehash: 85c806f1bb3f3613f8faf33b763e2a8c20f5ef40
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466026"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539495"
 ---
-# <a name="ismanagedfoldersroot"></a>исманажедфолдерсрут
+# <a name="ismanagedfoldersroot"></a>IsManagedFoldersRoot
 
-Элемент **исманажедфолдерсрут** указывает, является ли управляемая папка корневой для всех управляемых папок. 
+Элемент **IsManagedFoldersRoot** указывает, является ли управляемый папка корнем для всех управляемых папок. 
   
 ```xml
 <IsManagedFoldersRoot/>
@@ -30,27 +30,27 @@ ms.locfileid: "44466026"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[манажедфолдеринформатион](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
+|[ManagedFolderInformation](managedfolderinformation.md) <br/> |Содержит сведения об управляемой папке.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-При наличии этого элемента необходимо указать текстовое значение, представляющее логическое значение. Значение **true** указывает, что папка является корневой папкой управляемой папки; значение **false** указывает, что папка не является корневой папкой управляемой папки. 
+Если этот элемент присутствует, необходимо текстовое значение, представляю которое представляет значение Boolean. Значение true **указывает,** что папка является корневой папкой управляемой папки; значение false **указывает,** что папка не является корневой папкой управляемой папки. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44466026"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

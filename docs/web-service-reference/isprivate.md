@@ -1,43 +1,43 @@
 ---
-title: Частный
+title: IsPrivate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsPrivate
 api_type:
 - schema
 ms.assetid: 1712bc94-9789-4507-8521-bde1be51e331
-description: Элемент ". Private" указывает, является ли элемент календаря частным.
-ms.openlocfilehash: c36c659414700439436cd2ca903e443164c1473b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsPrivate указывает, является ли элемент календаря закрытым.
+ms.openlocfilehash: 0b9eb8d7086f951e448e7ee620637b7f39934610
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457804"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539411"
 ---
-# <a name="isprivate"></a>Частный
+# <a name="isprivate"></a>IsPrivate
 
-Элемент ". **Private** " указывает, является ли элемент календаря частным. 
+Элемент **IsPrivate** указывает, является ли элемент календаря закрытым. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[фрибусиреспонсеаррай](freebusyresponsearray.md)
+[FreeBusyResponseArray](freebusyresponsearray.md)
   
-[фрибусиреспонсе](freebusyresponse.md)
+[FreeBusyResponse](freebusyresponse.md)
   
-[фрибусивиев](freebusyview.md)
+[FreeBusyView](freebusyview.md)
   
-[календаревентаррай](calendareventarray.md)
+[CalendarEventArray](calendareventarray.md)
   
-[календаревент](calendarevent.md)
+[CalendarEvent](calendarevent.md)
   
-[календаревентдетаилс](calendareventdetails.md)
+[CalendarEventDetails](calendareventdetails.md)
   
-[Частный](isprivate.md)
+[IsPrivate](isprivate.md)
   
 ```xml
 <IsPrivate>true or false</IsPrivate>
@@ -46,29 +46,29 @@ ms.locfileid: "44457804"
  **boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаревентдетаилс](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения о событии календаря.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения о событии календаря.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Текстовое значение, представляющее логическое значение является обязательным.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-При использовании этого элемента другие элементы в элементе [календаревентдетаилс](calendareventdetails.md) не будут включены в ответ. 
+Если этот элемент используется, другие элементы элемента [CalendarEventDetails](calendareventdetails.md) не будут включены в ответ. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -78,7 +78,7 @@ ms.locfileid: "44457804"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -87,7 +87,7 @@ ms.locfileid: "44457804"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

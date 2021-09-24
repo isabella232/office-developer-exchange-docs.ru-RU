@@ -1,27 +1,27 @@
 ---
-title: жетусераваилабилитирекуест
+title: GetUserAvailabilityRequest
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserAvailabilityRequest
 api_type:
 - schema
 ms.assetid: 7906711b-80a1-42ae-8b33-26eeac036a5a
-description: Элемент Жетусераваилабилитирекуест содержит аргументы, используемые для получения сведений о доступности пользователя. Это корневой элемент.
-ms.openlocfilehash: 6c2e2c5452b6379171e49cf6aea2d437152ecb9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetUserAvailabilityRequest содержит аргументы, используемые для получения сведений о доступности пользователей. Это корневой элемент.
+ms.openlocfilehash: 8c0e14dc27ce7a742aa052bb1d424706407de484
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459120"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515812"
 ---
-# <a name="getuseravailabilityrequest"></a>жетусераваилабилитирекуест
+# <a name="getuseravailabilityrequest"></a>GetUserAvailabilityRequest
 
-Элемент **жетусераваилабилитирекуест** содержит аргументы, используемые для получения сведений о доступности пользователя. Это корневой элемент. 
+Элемент **GetUserAvailabilityRequest** содержит аргументы, используемые для получения сведений о доступности пользователей. Это корневой элемент. 
   
 ```xml
 <GetUserAvailabilityRequest>
@@ -32,35 +32,35 @@ ms.locfileid: "44459120"
 </GetUserAvailabilityRequest>
 ```
 
- **жетусераваилабилитирекуесттипе**
+ **GetUserAvailabilityRequestType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Часовой пояс (доступность)](timezone-availability.md) <br/> |Содержит элементы, определяющие сведения о часовом поясе. Этот элемент также содержит сведения о переходе со стандартного времени на летнее время.  <br/> |
-|[маилбоксдатааррай](mailboxdataarray.md) <br/> |Содержит список почтовых ящиков, в которых запрашиваются сведения о доступности.  <br/> |
-|[фрибусивиевоптионс](freebusyviewoptions.md) <br/> |Указывает тип сведений о доступности, возвращаемых в ответе.  <br/> |
-|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> |
+|[TimeZone (доступность)](timezone-availability.md) <br/> |Содержит элементы, определяющие сведения о часовом поясе. Этот элемент также содержит сведения о переходе между стандартным временем и летнее время.  <br/> |
+|[MailboxDataArray](mailboxdataarray.md) <br/> |Содержит список почтовых ящиков для запроса сведений о доступности.  <br/> |
+|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Указывает тип бесплатных и загруженных сведений, возвращаемой в ответе.  <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры получения сведений о предложении собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в каталоге/ЕВС/компьютера под управлением Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в каталоге /EWS/computer, который работает Microsoft Exchange Server 2007 г., где установлена роль сервера клиентского доступа.
   
 ## <a name="example"></a>Пример
 
-В приведенном ниже примере показан запрос сведений о доступности.
+В следующем примере показан запрос на бесплатную или занятую информацию.
   
 ```
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -116,7 +116,7 @@ ms.locfileid: "44459120"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -125,7 +125,7 @@ ms.locfileid: "44459120"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

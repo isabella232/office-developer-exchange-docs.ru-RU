@@ -1,27 +1,27 @@
 ---
-title: исонлинемитинг
+title: IsOnlineMeeting
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsOnlineMeeting
 api_type:
 - schema
 ms.assetid: c29df676-0f3a-4694-a42f-522c6d16872f
-description: Элемент Исонлинемитинг указывает, находится ли собрание в сети.
-ms.openlocfilehash: d2d60c8a51ad7e03c33b57709d9173e79d162268
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsOnlineMeeting указывает, находится ли собрание в сети.
+ms.openlocfilehash: 3521cf82f2b6b2b2514b82478fc4e1e5c6edb563
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460402"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514517"
 ---
-# <a name="isonlinemeeting"></a>исонлинемитинг
+# <a name="isonlinemeeting"></a>IsOnlineMeeting
 
-Элемент **исонлинемитинг** указывает, находится ли собрание в сети. 
+Элемент **IsOnlineMeeting** указывает, находится ли собрание в сети. 
   
 ```xml
 <IsOnlineMeeting/>
@@ -30,32 +30,32 @@ ms.locfileid: "44460402"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-При использовании этого элемента необходимо указать текстовое значение, представляющее логическое значение. Значение **true** указывает, что собрание находится в сети. Значение **false** указывает, что собрание находится не в сети. 
+Если этот элемент используется, требуется текстовое значение, представляю которое представляет значение Boolean. Значение true **указывает,** что собрание находится в сети. Значение false **указывает** на то, что собрание не находится в сети. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Свойство Исонлинемитинг доступно для записи в элементе календаря организатора. Он доступен только для чтения для приглашений на собрания и элементов календаря участников.
+Свойство IsOnlineMeeting можно прочитать для элемента календаря организатора. Это только для чтения запросов на собрания и для элементов календаря участников.
   
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает Майкрософт Exchange 2007, на котором установлена роль сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в виртуальном каталоге компьютера EWS под управлением MicrosoftExchange 2007 с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -63,7 +63,7 @@ ms.locfileid: "44460402"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

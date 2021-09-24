@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsRead
 api_type:
 - schema
 ms.assetid: 161455d5-a870-4c99-b2eb-c759c538f1bc
-description: Элемент читал указывает, было ли Прочитано сообщение.
-ms.openlocfilehash: b6f2c2d72dd550f7ec8ed9a3415dc0715b3e376f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsRead указывает, было ли прочитано сообщение.
+ms.openlocfilehash: cbd2fb90a413e1ec700cf07a11e0082a985545b4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460374"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539397"
 ---
 # <a name="isread"></a>IsRead
 
-Элемент **читал** указывает, было ли Прочитано сообщение. 
+Элемент **IsRead** указывает, было ли прочитано сообщение. 
   
 ```XML
 <IsRead/>
@@ -30,15 +30,15 @@ ms.locfileid: "44460374"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -46,20 +46,20 @@ ms.locfileid: "44460374"
 |:-----|:-----|
 |[RemoveItem](removeitem.md) <br/> |Удаляет элемент из хранилища Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
-|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
-|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Представляет элемент POST в хранилище Exchange. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
-|[конверсатионактион](conversationaction.md) <br/> |Содержит одно действие, которое будет применено к одной беседе.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[PostItem](postitem.md) <br/> |Представляет элемент столба в Exchange магазине. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Содержит одно действие, которое необходимо применить к одному разговору.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** указывает, что сообщение прочитано. Текстовое значение **false** указывает на то, что сообщение не было прочитано. 
+Текстовое значение **true указывает,** что сообщение было прочитано. Ложное **текстовое** значение указывает на то, что сообщение не было прочитано. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если [исреадрецеиптрекуестед](isreadreceiptrequested.md) имеет **значение true**, параметру **Read** to **true** отправляется уведомление о прочтении. Получатель может отключить уведомления о прочтении, отправив объект ответа [суппрессреадрецеипт](suppressreadreceipt.md) , прежде чем устанавливать свойство- **Read** . 
+Если [isReadReceiptRequested](isreadreceiptrequested.md) является **верным,** параметр **IsRead** для **true** отправляет квитанцию о прочтение. Получатель может подавлять получение чтения, перед тем как установить свойство **IsRead,** перед отправкой объекта [ответа SuppressReadReceipt.](suppressreadreceipt.md) 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -69,7 +69,7 @@ ms.locfileid: "44460374"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

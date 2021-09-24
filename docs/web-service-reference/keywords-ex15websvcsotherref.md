@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c466c845-9806-4a9a-8ba6-ee908b80d012
-description: Элемент keywords указывает ключевые слова для поиска операции Финдмаилбоксстатистиксбикэйвордс.
-ms.openlocfilehash: d23840c4b651f5d4f42f36a0307a0fe5b25471f4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Keywords указывает ключевые слова для поиска операции FindMailboxStatisticsByKeywords.
+ms.openlocfilehash: 10d43ff4facef8a7eac271586ae46dd0c263e4f7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44451637"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514412"
 ---
 # <a name="keywords"></a>Ключевые слова
 
-Элемент **keywords** указывает ключевые слова для поиска операции **финдмаилбоксстатистиксбикэйвордс** . 
+Элемент **Keywords** указывает ключевые слова для поиска **операции FindMailboxStatisticsByKeywords.** 
   
 ```XML
 <KeyWords>
@@ -25,14 +25,14 @@ ms.locfileid: "44451637"
 </KeyWords>
 ```
 
- **аррайофстрингстипе**
+ **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -40,9 +40,9 @@ ms.locfileid: "44451637"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[финдмаилбоксстатистиксбикэйвордс](findmailboxstatisticsbykeywords.md)
+[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

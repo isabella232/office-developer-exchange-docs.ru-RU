@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba9bb159-362d-48e0-889d-823cb46ecebf
-description: Элемент HomePhones2 указывает массив значений HomePhone2 и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: 5763b38506655828cd86f6633b462873362e8062
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент HomePhones2 указывает массив значений HomePhone2 и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 39833532fba65d809f50f60be240ab89a03a9496
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460822"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515707"
 ---
 # <a name="homephones2"></a>HomePhones2
 
-Элемент **HomePhones2** указывает массив значений **HomePhone2** и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **HomePhones2 указывает** массив значений **HomePhone2** и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <HomePhones2>
@@ -25,28 +25,28 @@ ms.locfileid: "44460822"
 </HomePhones2>
 ```
 
- **аррайоффоненумбераттрибутедвалуестипе**
+ **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фоненумбераттрибутедвалуе](phonenumberattributedvalue.md) <br/> |Содержит номер телефона с одним атрибутом для пользователя.  <br/> |
+|[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |Содержит один присвоенный номер телефона для персоны.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44460822"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

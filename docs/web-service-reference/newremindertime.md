@@ -1,23 +1,23 @@
 ---
-title: невреминдертиме
+title: NewReminderTime
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff1b6b1c-3557-41d4-8aa6-9528fdb3a21a
-description: Элемент Невреминдертиме указывает новое время напоминания.
-ms.openlocfilehash: a10f7e481b474501f33dba4c09060766568952b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент NewReminderTime указывает новое время напоминания.
+ms.openlocfilehash: 9e6cb75396f35f606bcd974e374f24957ee5d1ec
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465956"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515448"
 ---
-# <a name="newremindertime"></a>невреминдертиме
+# <a name="newremindertime"></a>NewReminderTime
 
-Элемент **невреминдертиме** указывает новое время напоминания. 
+Элемент **NewReminderTime** указывает новое время напоминания. 
   
 ```XML
 <NewReminderTime/>
@@ -26,25 +26,25 @@ ms.locfileid: "44465956"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[реминдеритемактион](reminderitemaction.md)
+[ReminderItemAction](reminderitemaction.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **невреминдертиме** — новое время напоминания. Элемент **невреминдертиме** используется, [когда элемент "](actiontype-reminderactiontype.md) элемент" имеет значение **отсрочки**, чтобы отложить напоминание. Значение Невреминдертиме должно быть больше, чем [ReminderTime](remindertime.md) , возвращенное [операцией](getreminders-operation.md) **NewReminderTime** .
+Текстовое значение элемента **NewReminderTime** — это новое время для напоминания. Элемент **NewReminderTime** используется, когда элемент [ActionType](actiontype-reminderactiontype.md) настроен на **Snooze,** чтобы отложить напоминание. Значение **NewReminderTime** должно быть больше, чем значение [ReminderTime,](remindertime.md) возвращенного операцией [GetReminders.](getreminders-operation.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,14 +56,14 @@ ms.locfileid: "44465956"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[реминдеритемактион](reminderitemaction.md)
+[ReminderItemAction](reminderitemaction.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

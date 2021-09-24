@@ -1,72 +1,72 @@
 ---
-title: индекседфиелдури
+title: IndexedFieldURI
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IndexedFieldURI
 api_type:
 - schema
 ms.assetid: 5c9cd0b5-7eca-480a-8730-fe98b1779afa
-description: Элемент Индекседфиелдури определяет отдельные элементы словаря.
-ms.openlocfilehash: f794d9970590417d916925f7258b28d4f0920d0e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IndexedFieldURI определяет отдельных членов словаря.
+ms.openlocfilehash: 851d0d4296e926ab21e5bd1b842d5a215c27308a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467020"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539628"
 ---
-# <a name="indexedfielduri"></a>индекседфиелдури
+# <a name="indexedfielduri"></a>IndexedFieldURI
 
-Элемент **индекседфиелдури** определяет отдельные элементы словаря. 
+Элемент **IndexedFieldURI** определяет отдельных членов словаря. 
   
 ```xml
 <IndexedFieldURI FieldURI="" FieldIndex="" />
 ```
 
- **пастоиндекседфиелдтипе**
+ **PathToIndexedFieldType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**фиелдури** <br/> |Определяет словарь, содержащий возвращаемый член. Этот атрибут является обязательным.  <br/> |
-|**фиелдиндекс** <br/> |Определяет возвращаемый элемент словаря. Этот атрибут является обязательным.  <br/> |
+|**FieldURI** <br/> |Определяет словарь, содержащий возвращаемого участника. Этот атрибут является обязательным.  <br/> |
+|**FieldIndex** <br/> |Определяет члена словаря для возврата. Этот атрибут является обязательным.  <br/> |
    
-#### <a name="fielduri-attribute"></a>Атрибут Фиелдури
+#### <a name="fielduri-attribute"></a>Атрибут FieldURI
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|элемент: InternetMessageHeader  <br/> |Представляет заголовок сообщения для элемента.  <br/> |
-|Контакты: адрес  <br/> |Представляет адрес обмена мгновенными сообщениями контакта.  <br/> |
-|Контакты: PhysicalAddress: улица  <br/> |Представляет почтовый адрес контакта.  <br/> |
-|Контакты: PhysicalAddress: City  <br/> |Представляет город контакта.  <br/> |
-|Контакты: PhysicalAddress: State  <br/> |Представляет состояние контакта.  <br/> |
-|Контакты: PhysicalAddress: Country  <br/> |Представляет страну или регион контакта.  <br/> |
-|Contacts: PhysicalAddress: PostalCode  <br/> |Представляет почтовый индекс контакта.  <br/> |
-|Контакты: PhoneNumber  <br/> |Представляет номер телефона контакта.  <br/> |
-|Contacts: EmailAddress  <br/> |Представляет адрес электронной почты контакта.  <br/> |
-|дистрибутионлист: Members: Member  <br/> |Представляет члена списка рассылки.  <br/> |
+|item:InternetMessageHeader  <br/> |Представляет заглавную часть сообщения элемента.  <br/> |
+|contacts:ImAddress  <br/> |Представляет адрес обмена мгновенными сообщениями контакта.  <br/> |
+|contacts:PhysicalAddress:Street  <br/> |Представляет уличный адрес контакта.  <br/> |
+|contacts:PhysicalAddress:City  <br/> |Представляет город контакта.  <br/> |
+|contacts:PhysicalAddress:State  <br/> |Представляет состояние контакта.  <br/> |
+|contacts:PhysicalAddress:Country  <br/> |Представляет страну или регион контакта.  <br/> |
+|contacts:PhysicalAddress:PostalCode  <br/> |Представляет почтовый код контакта.  <br/> |
+|contacts:PhoneNumber  <br/> |Представляет телефонный номер контакта.  <br/> |
+|contacts:EmailAddress  <br/> |Представляет адрес электронной почты контакта.  <br/> |
+|distributionlist:Members:Member  <br/> |Представляет члена списка рассылки.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аддитионалпропертиес](additionalproperties.md) <br/> |Определяет дополнительные свойства, которые необходимо получить, задать или создать.  <br/> |
-|[аггрегатеон](aggregateon.md) <br/> |Представляет свойство, используемое для определения порядка сгруппированных элементов для группового результирующего набора FindItem.  <br/> |
-|[GroupBy](groupby.md) <br/> |Указывает произвольное группирование для запросов FindItem.  <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> |Определяет дополнительные свойства для получения, набора или создания.  <br/> |
+|[AggregateOn](aggregateon.md) <br/> |Представляет свойство, которое используется для определения порядка сгруппи-ных элементов для сгруппенного набора результатов FindItem.  <br/> |
+|[GroupBy](groupby.md) <br/> |Указывает произвольную группу для запросов FindItem.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -76,7 +76,7 @@ ms.locfileid: "44467020"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

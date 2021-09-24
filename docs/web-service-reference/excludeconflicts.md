@@ -1,35 +1,35 @@
 ---
-title: ексклудеконфликтс
+title: ExcludeConflicts
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExcludeConflicts
 api_type:
 - schema
 ms.assetid: ec33ef23-8537-41eb-8d89-7eb906a1fad7
-description: Элемент Ексклудеконфликтс указывает, следует ли возвращать предлагаемые моменты времени для конфликтов между участниками.
-ms.openlocfilehash: d20c594ae600abf110681ea678b2d95a23bf7809
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ExcludeConflicts указывает, следует ли возвращать рекомендуемые сроки для календарного времени, которое конфликтуется между участниками.
+ms.openlocfilehash: 6182ff8faed62cefc39015d3242bf7e669660b4a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456978"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539910"
 ---
-# <a name="excludeconflicts"></a>ексклудеконфликтс
+# <a name="excludeconflicts"></a>ExcludeConflicts
 
-Элемент **ексклудеконфликтс** указывает, следует ли возвращать предлагаемые моменты времени для конфликтов между участниками. 
+Элемент **ExcludeConflicts** указывает, следует ли возвращать рекомендуемые сроки для календарного времени, которое конфликтуется между участниками. 
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[маилбоксдатааррай](mailboxdataarray.md)
+[MailboxDataArray](mailboxdataarray.md)
   
 [MailboxData](mailboxdata.md)
   
-[ексклудеконфликтс](excludeconflicts.md)
+[ExcludeConflicts](excludeconflicts.md)
   
 ```xml
 <ExcludeConflicts>true or false</ExcludeConflicts>
@@ -38,15 +38,15 @@ ms.locfileid: "44456978"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,9 +56,9 @@ ms.locfileid: "44456978"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Возможные значения: Boolean **true** или **false**.
+Требуется текстовое значение. Возможные значения — значение Boolean **true или** **false.**
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент обязательный.
   
@@ -71,7 +71,7 @@ ms.locfileid: "44456978"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -80,7 +80,7 @@ ms.locfileid: "44456978"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

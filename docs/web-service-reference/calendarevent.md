@@ -1,39 +1,39 @@
 ---
-title: календаревент
+title: CalendarEvent
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarEvent
 api_type:
 - schema
 ms.assetid: 91958c01-1fcb-4ac0-8601-5e5b434c988a
-description: Элемент Календаревент представляет уникальное вхождение элемента календаря.
-ms.openlocfilehash: 8bf37c907ed726e33dd2b1eff9add5d6235704da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CalendarEvent представляет уникальный элемент календаря.
+ms.openlocfilehash: fd57517595659f2081c82fe9f4665ce2c39059fe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459078"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514825"
 ---
-# <a name="calendarevent"></a>календаревент
+# <a name="calendarevent"></a>CalendarEvent
 
-Элемент **календаревент** представляет уникальное вхождение элемента календаря. 
+Элемент **CalendarEvent** представляет уникальный элемент календаря. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[фрибусиреспонсеаррай](freebusyresponsearray.md)
+[FreeBusyResponseArray](freebusyresponsearray.md)
   
-[фрибусиреспонсе](freebusyresponse.md)
+[FreeBusyResponse](freebusyresponse.md)
   
-[фрибусивиев](freebusyview.md)
+[FreeBusyView](freebusyview.md)
   
-[календаревентаррай](calendareventarray.md)
+[CalendarEventArray](calendareventarray.md)
   
-[календаревент](calendarevent.md)
+[CalendarEvent](calendarevent.md)
   
 ```xml
 <CalendarEvent>
@@ -44,33 +44,33 @@ ms.locfileid: "44459078"
 </CalendarEvent>
 ```
 
- **календаревент**
+ **CalendarEvent**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |Представляет начало события календаря. Это обязательный дочерний элемент.  <br/> |
-|[EndTime](endtime.md) <br/> |Представляет конец события календаря. Это обязательный дочерний элемент.  <br/> |
-|[буситипе](busytype.md) <br/> |Представляет состояние занятости, заданное для события календаря. Это обязательный дочерний элемент.  <br/> |
-|[календаревентдетаилс](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения о событии календаря. Это необязательный дочерний элемент.  <br/> |
+|[StartTime](starttime.md) <br/> |Представляет начало события календаря. Это необходимый детский элемент.  <br/> |
+|[EndTime](endtime.md) <br/> |Представляет собой конец события календаря. Это необходимый детский элемент.  <br/> |
+|[BusyType](busytype.md) <br/> |Представляет набор состояния free/busy для события календаря. Это необходимый детский элемент.  <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Предоставляет дополнительные сведения для события календаря. Это необязательный детский элемент.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаревентаррай](calendareventarray.md) <br/> |Содержит набор уникальных экземпляров элемента календаря, представляющих доступность запрошенного пользователя.  <br/> Ниже приведено выражение XPath 2,0 для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray` <br/> |
+|[CalendarEventArray](calendareventarray.md) <br/> |Содержит набор уникальных событий элементов календаря, которые представляют доступность запрашиваемого пользователя.  <br/> Ниже приводится выражение XPath 2.0 к этому элементу:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Время встреч и собраний возвращается в часовом поясе клиента. Все дочерние элементы перечислены в той последовательности, в которой они выполняются. Уровень детализации, предоставляемый этим элементом, зависит от разрешений, предоставленных запрашивающему участнику.
+Время встречи и собрания возвращается в часовом поясе клиента. Все элементы ребенка перечислены в последовательности, в которой они происходят. Уровень детализации, предоставляемой этим элементом, зависит от разрешений, предоставленных запросчику.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -80,7 +80,7 @@ ms.locfileid: "44459078"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -89,7 +89,7 @@ ms.locfileid: "44459078"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

@@ -1,23 +1,23 @@
 ---
-title: маилбоксстатс
+title: MailboxStats
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 022d6512-7e91-4b60-8a7b-3bcd571f3107
-description: Элемент Маилбоксстатс указывает список из одного или нескольких элементов Маилбоксстат.
-ms.openlocfilehash: 1f712aa10816f100ca8092c750abfb444354c4bb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MailboxStats указывает список одного или более элементов MailboxStat.
+ms.openlocfilehash: e912b2db411a45521356b71a924c2cacc504b276
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44440549"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540792"
 ---
-# <a name="mailboxstats"></a>маилбоксстатс
+# <a name="mailboxstats"></a>MailboxStats
 
-Элемент **маилбоксстатс** указывает список из одного или нескольких элементов **маилбоксстат** . 
+Элемент **MailboxStats** указывает список одного или более элементов **MailboxStat.** 
   
 ```XML
 <MailboxStats>
@@ -25,25 +25,25 @@ ms.locfileid: "44440549"
 </MailboxStats>
 ```
 
-**аррайофмаилбоксстатистикситемстипе**
+**ArrayOfMailboxStatisticsItemsType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[маилбоксстат](mailboxstat.md)
+[MailboxStat](mailboxstat.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеарчмаилбоксесресулт](searchmailboxesresult.md)
+[SearchMailboxesResult](searchmailboxesresult.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44440549"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

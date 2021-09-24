@@ -1,27 +1,27 @@
 ---
-title: абсолутедате
+title: AbsoluteDate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AbsoluteDate
 api_type:
 - schema
 ms.assetid: 8bc59a26-6fe1-42e9-968c-69a94a3fb0ae
-description: Элемент Абсолутедате представляет дату, когда время изменяется со стандартного или летнего времени.
-ms.openlocfilehash: 1874fea02c1eeeb41522046963e1d1b2fcea645a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AbsoluteDate представляет дату, когда время меняется от стандартного или летнего времени.
+ms.openlocfilehash: 5482afcfda1de76d11fea548709836f14c6c2aca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461732"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540371"
 ---
-# <a name="absolutedate"></a>абсолутедате
+# <a name="absolutedate"></a>AbsoluteDate
 
-Элемент **абсолутедате** представляет дату, когда время изменяется со стандартного или летнего времени. 
+Элемент **AbsoluteDate** представляет дату, когда время меняется от стандартного или летнего времени. 
   
 ```xml
 <AbsoluteDate/>
@@ -31,28 +31,28 @@ ms.locfileid: "44461732"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Standard](standard.md) <br/> |Представляет дату и время изменения времени с летнего на стандартное время.  <br/> |
-|[Переход](daylight.md) <br/> |Представляет дату и время изменения времени со стандартного времени на летнее.  <br/> |
+|[Standard](standard.md) <br/> |Представляет дату и время, когда время меняется с летнего времени на обычное.  <br/> |
+|[Daylight](daylight.md) <br/> |Представляет дату и время, когда время меняется от стандартного времени к летнему времени.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет дату, с которой происходит смена стандартного или летнего времени.
+Текстовое значение представляет дату, когда происходит переход между стандартным или летнее время.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44461732"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

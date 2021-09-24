@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: 2071bed8-ea66-4627-aa4f-a1d9a025cf3d
-description: Элемент ResponseMessages содержит сообщения ответа для запроса веб-служб Exchange.
-ms.openlocfilehash: 93d83fbba3ea4bfe33f574eea7991157a4f10b88
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ResponseMessages содержит сообщения отклика для запроса Exchange веб-служб.
+ms.openlocfilehash: 23fa25b29cec0377d83ecf56a094da86af6c5213
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465403"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516392"
 ---
 # <a name="responsemessages"></a>ResponseMessages
 
-Элемент **ResponseMessages** содержит сообщения ответа для запроса веб-служб Exchange. 
+Элемент **ResponseMessages содержит** сообщения отклика для запроса Exchange веб-служб. 
   
 ```XML
 <ResponseMessages>
@@ -320,10 +320,10 @@ ms.locfileid: "44465403"
 |[CreateFolderResponseMessage](createfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateFolder.  <br/> |
 |[CreateItemResponseMessage](createitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateItem.  <br/> |
 |[CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса CreateManagedFolder.  <br/> |
-|[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса DeleteAttachment.  <br/> |
+|[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |Содержит состояние и результат одного запроса deleteAttachment.  <br/> |
 |[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса DeleteFolder.  <br/> |
 |[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса DeleteItem.  <br/> |
-|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [EmptyFolder.](emptyfolder.md)  <br/> |
+|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного [запроса EmptyFolder.](emptyfolder.md)  <br/> |
 |[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Содержит состояние и результат одного запроса ExpandDL.  <br/> |
 |[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса FindFolder.  <br/> |
 |[FindItemResponseMessage](finditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса FindItem.  <br/> |
@@ -339,10 +339,10 @@ ms.locfileid: "44465403"
 |[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Содержит состояние и результат запроса ResolveNames.  <br/> |
 |[SendItemResponseMessage](senditemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса SendItem.  <br/> |
 |[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Содержит состояние и результат одного запроса SendNotification.  <br/> |
-|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса на подписку.  <br/> |
+|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса подписки.  <br/> |
 |[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderHierarchy.  <br/> |
 |[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Содержит состояние и результат запроса SyncFolderItems.  <br/> |
-|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса на отписки.  <br/> |
+|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |Содержит состояние и результат одного запроса отписки.  <br/> |
 |[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса UpdateFolder.  <br/> |
 |[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Содержит состояние и результат одного запроса UpdateItem.  <br/> |
 |[ConvertIdResponseMessage](convertidresponsemessage.md) <br/> |Содержит состояние и результат запроса ConvertId.  <br/> |
@@ -358,7 +358,7 @@ ms.locfileid: "44465403"
 |[GetRemindersResponse](getremindersresponse.md) <br/> |Содержит состояние и результаты запроса GetReminders.  <br/> |
 |[PerformReminderActionResponse](performreminderactionresponse.md) <br/> |Содержит состояние и результаты запроса PerformReminderAction.  <br/> |
 |[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Содержит состояние и результат одного запроса GetServerTimeZones.  <br/> |
-|[ApplyConversationActionResponseMessage](applyconversationactionresponsemessage.md) <br/> |Содержит состояние и результаты запроса на операцию [ApplyConversationAction.](applyconversationaction-operation.md)  <br/> |
+|[ApplyConversationActionResponseMessage](applyconversationactionresponsemessage.md) <br/> |Содержит состояние и результаты запроса [операции ApplyConversationAction.](applyconversationaction-operation.md)  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -388,10 +388,10 @@ ms.locfileid: "44465403"
 |[ResolveNamesResponse](resolvenamesresponse.md) <br/> |Определяет ответ на запрос ResolveNames.  <br/> |
 |[SendItemResponse](senditemresponse.md) <br/> |Определяет ответ на запрос SendItem.  <br/> |
 |[SendNotificationResult](sendnotificationresult.md) <br/> |Определяет ответ на запрос SendNotification.  <br/> |
-|[SubscribeResponse](subscriberesponse.md) <br/> |Определяет ответ на запрос на подписку.  <br/> |
+|[SubscribeResponse](subscriberesponse.md) <br/> |Определяет ответ на запрос Подписка.  <br/> |
 |[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) <br/> |Определяет ответ на запрос SyncFolderHierarchy.  <br/> |
 |[SyncFolderItemsResponse](syncfolderitemsresponse.md) <br/> |Определяет ответ на запрос SyncFolderItems.  <br/> |
-|[UnsubscribeResponse](unsubscriberesponse.md) <br/> |Определяет ответ на запрос отписаться.  <br/> |
+|[UnsubscribeResponse](unsubscriberesponse.md) <br/> |Определяет ответ на запрос отписки.  <br/> |
 |[UpdateFolderResponse](updatefolderresponse.md) <br/> |Определяет ответ на запрос UpdateFolder.  <br/> |
 |[UpdateItemResponse](updateitemresponse.md) <br/> |Определяет ответ на запрос UpdateItem.  <br/> |
 |[ConvertIdResponse](convertidresponse.md) <br/> |Содержит ответ на запрос ConvertId.  <br/> |
@@ -401,13 +401,13 @@ ms.locfileid: "44465403"
 |[GetUserConfigurationResponse](getuserconfigurationresponse.md) <br/> |Определяет ответ на запрос GetUserConfiguration.  <br/> |
 |[UpdateUserConfigurationResponse](updateuserconfigurationresponse.md) <br/> |Определяет ответ на запрос UpdateUserConfiguration.  <br/> |
 |[ApplyConversationActionResponse](applyconversationactionresponse.md) <br/> |Определяет ответ на запрос [операции ApplyConversationAction.](applyconversationaction-operation.md)  <br/> |
-|[GetPasswordExpirationDateResponse](getpasswordexpirationdateresponse.md) <br/> |Определяет ответ на запрос [операции GetPasswordExpirationDate.](getpasswordexpirationdate-operation.md)  <br/> |
+|[GetPasswordExpirationDateResponse](getpasswordexpirationdateresponse.md) <br/> |Определяет ответ на запрос операции [GetPasswordExpirationDate.](getpasswordexpirationdate-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   

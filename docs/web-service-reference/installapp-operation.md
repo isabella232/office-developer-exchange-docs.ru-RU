@@ -5,43 +5,43 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 596eae95-3e78-489a-8bb2-d2dd4a026405
-description: Поиск сведений о InstallAppной операции EWS.
-ms.openlocfilehash: ae6aab7f7176aa827bafa9abf1aa67d458d309d2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции InstallApp EWS.
+ms.openlocfilehash: 87e6f1caddd6949d5dc98edc074acd365de818d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465690"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515581"
 ---
 # <a name="installapp-operation"></a>Операция InstallApp
 
-Поиск сведений о **InstallAppной** операции EWS. 
+Сведения об операции **InstallApp** EWS. 
   
-Операция **InstallAPP** устанавливает почтовое приложение для Outlook в почтовом ящике. 
+Операция **InstallApp** устанавливает почтовое приложение для Outlook в почтовом ящике. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-installapp-operation"></a>Использование операции InstallApp
 
-Операция **InstallAPP** принимает в качестве аргумента один аргумент, определяющий устанавливаемое почтовое приложение. Аргумент содержит манифест с кодировкой base64 для почтового приложения. 
+Операция **InstallApp** использует один аргумент, который идентифицирует почтовое приложение для установки. Аргумент содержит манифест с кодом base64 для почтового приложения. 
   
-### <a name="installapp-operation-soap-headers"></a>Заголовки SOAP операции InstallApp
+### <a name="installapp-operation-soap-headers"></a>Заготчики операции InstallApp SOAP
 
-Операция **InstallAPP** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции InstallApp** можно использовать заглавные таблицы SOAP, указанные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="installapp-operation-request-example-install-a-mail-app-in-a-mailbox"></a>Пример запроса операции InstallApp: Установка почтового приложения в почтовом ящике
+## <a name="installapp-operation-request-example-install-a-mail-app-in-a-mailbox"></a>Пример запроса на операцию InstallApp: Установка почтового приложения в почтовом ящике
 
-В следующем примере запроса операции **InstallAPP** показано, как установить почтовое приложение для Outlook. Манифест приложения можно найти с помощью [операции GetAppManifests](getappmanifests-operation.md).
+В следующем примере запроса на операцию **InstallApp** показано, как установить почтовое приложение для Outlook. Манифест приложения можно найти с помощью [операции GetAppManifests.](getappmanifests-operation.md)
   
 > [!NOTE]
-> Манифест приложения в кодировке Base64 произвольно усечен, чтобы сохранить удобочитаемость и не представляет допустимый манифест. 
+> Манифест приложения с кодом base64 был произвольно усечен для сохранения читаемости и не представляет допустимого манифеста. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -60,15 +60,15 @@ ms.locfileid: "44465690"
 
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [InstallApp](installapp.md)
     
 - [Манифест](manifest.md)
     
-## <a name="successful-installapp-operation-response"></a>Успешный отклик операции InstallApp
+## <a name="successful-installapp-operation-response"></a>Успешный ответ операции InstallApp
 
-В следующем примере показан успешный ответ на запрос операции **InstallAPP** для установки почтового приложения. 
+В следующем примере показан успешный ответ на запрос на операцию **InstallApp** для установки почтового приложения. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -94,15 +94,15 @@ ms.locfileid: "44465690"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [инсталлаппреспонсе](installappresponse.md)
+- [InstallAppResponse](installappresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-## <a name="installapp-operation-error-response"></a>Ответ об ошибке операции InstallApp
+## <a name="installapp-operation-error-response"></a>Ответ на ошибку операции InstallApp
 
-В следующем примере показан ответ об ошибке для запроса операции **InstallAPP** . Это ответ на запрос, который содержит недопустимый манифест. 
+В следующем примере показан ответ на ошибку на запрос **операции InstallApp.** Это ответ на запрос, содержащий недействительный манифест. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -131,15 +131,15 @@ ms.locfileid: "44465690"
 
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [инсталлаппреспонсе](installappresponse.md)
+- [InstallAppResponse](installappresponse.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
 ## <a name="see-also"></a>См. также
 

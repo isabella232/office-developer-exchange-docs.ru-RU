@@ -1,27 +1,27 @@
 ---
-title: граупсидс
+title: GroupSids
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GroupSids
 api_type:
 - schema
 ms.assetid: ebb00653-83f0-4080-a902-c38df6719800
-description: Элемент Граупсидс представляет коллекцию идентификаторов безопасности объектов группы службы каталогов Active Directory.
-ms.openlocfilehash: 40f36176fcaa3e2160237f269fb2dc3b12bf8af2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GroupSids представляет коллекцию идентификаторов объектов безопасности группы объектов службы каталогов Active Directory.
+ms.openlocfilehash: 9dde1c87a82dbef2a9e1278de2cc202189f309c7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530066"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539677"
 ---
-# <a name="groupsids"></a>граупсидс
+# <a name="groupsids"></a>GroupSids
 
-Элемент **граупсидс** представляет коллекцию идентификаторов безопасности объектов группы службы каталогов Active Directory. 
+Элемент **GroupSids** представляет коллекцию идентификаторов объектов безопасности группы объектов службы каталогов Active Directory. 
   
 ```xml
 <GroupSids>
@@ -29,28 +29,28 @@ ms.locfileid: "44530066"
 </GroupSids>
 ```
 
- **нонемптяррайофграупидентифиерстипе**
+ **NonEmptyArrayOfGroupIdentifiersType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[граупидентифиер](groupidentifier.md) <br/> |Представляет один идентификатор безопасности и атрибут для группы объектов Active Directory, членом которой является учетная запись.  <br/> |
+|[GroupIdentifier](groupidentifier.md) <br/> |Представляет один идентификатор безопасности и атрибут для группы объектов Active Directory, членом которой является учетная запись.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сериализедсекуритиконтекст](serializedsecuritycontext.md) <br/> |Используется в заголовке протокола SOAP для сериализации маркеров при проверке подлинности "сервер-сервер". Сериализация маркеров не поддерживается.  <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Используется в Протокол SOAP (SOAP) для сериализации маркеров в проверке подлинности от сервера к серверу. Сериализация маркеров не поддерживается.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44530066"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

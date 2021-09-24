@@ -1,29 +1,29 @@
 ---
-title: Перечисление функция cchksgfiles. Идбинвалид
+title: Перечисление CChkSGFiles.iDbInvalid
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - iDbInvalid
 api_type:
 - dllExport
 ms.assetid: 3d2b754f-2161-4377-b5f8-35abe3033b68
-description: 'Дата последнего изменения: 22 февраля 2013 г.'
-ms.openlocfilehash: 5a2d32da114391a623d5b0cc2d6c5ca49db78148
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'Последнее изменение: 22 февраля 2013 г.'
+ms.openlocfilehash: d0e6689d27ce3b18dfda19103321e1e1bb3f990c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455508"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516267"
 ---
-# <a name="cchksgfilesidbinvalid-enumeration"></a>Перечисление функция cchksgfiles. Идбинвалид
+# <a name="cchksgfilesidbinvalid-enumeration"></a>Перечисление CChkSGFiles.iDbInvalid
 
-**Применимо к:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
+**Применяется к: Exchange Server** 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 г.
   
-Указывает недопустимый индекс базы данных.
+Указывает недействительный индекс базы данных.
   
 ```cs
 Enum { iDbInvalid = 0xFFFFFFF }
@@ -32,8 +32,8 @@ Enum { iDbInvalid = 0xFFFFFFF }
 
 ## <a name="requirements"></a>Requirements
 
-Exchange Server 2013 включает в себя только 64-разрядную версию API ЧКСГФИЛЕС.
+Exchange Server 2013 включает только 64-битную версию API CHKSGFILES.
   
-Учетная запись, под которой выполняется приложение, должна иметь разрешения на чтение для базы данных и файлов журнала, которые необходимо проверить.
+Учетная запись, в которой работает приложение, должна иметь разрешения на доступ к базе данных и файлы журналов, которые необходимо проверить.
   
 

@@ -1,27 +1,27 @@
 ---
-title: ункновнентриес
+title: UnknownEntries
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnknownEntries
 api_type:
 - schema
 ms.assetid: 107ec73e-083a-4956-9d37-33d4734cc157
-description: Элемент Ункновнентриес содержит массив неизвестных записей разрешений, которые не удается разрешить в службе каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 68cb2518b895ca0a74e6b9ed649ee92b7502ab05
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UnknownEntries содержит массив неизвестных записей разрешений, которые невозможно разрешить в службе каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+ms.openlocfilehash: 9ada724abbecddf192b5f345c1800ac38a8b41aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459421"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514083"
 ---
-# <a name="unknownentries"></a>ункновнентриес
+# <a name="unknownentries"></a>UnknownEntries
 
-Элемент **ункновнентриес** содержит массив неизвестных записей разрешений, которые не удается разрешить в службе каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **UnknownEntries содержит** массив неизвестных записей разрешений, которые невозможно разрешить в службе каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <UnknownEntries>
@@ -29,31 +29,31 @@ ms.locfileid: "44459421"
 </UnknownEntries>
 ```
 
- **аррайофункновнентриестипе**
+ **ArrayOfUnknownEntriesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ункновнентри](unknownentry.md) <br/> |Представляет одну неизвестную запись разрешения, которая не может быть разрешена в Active Directory. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[UnknownEntry](unknownentry.md) <br/> |Представляет одну неизвестную запись разрешения, которая не может быть разрешена в active Directory. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[PermissionSet (Пермиссионсеттипе)](permissionset-permissionsettype.md) <br/> |Содержит все разрешения, настроенные для папки. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
-|[PermissionSet (Календарпермиссионсеттипе)](permissionset-calendarpermissionsettype.md) <br/> |Содержит все разрешения, настроенные для папки календаря. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |Содержит все разрешения, настроенные для папки. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |Содержит все разрешения, настроенные для папки календаря. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Вы можете удалять неизвестные записи из папки с помощью операции операцию UpdateFolder с элементом [сетфолдерфиелд](setfolderfield.md) . Неизвестные записи удаляются при сбросе набора разрешений с помощью параметра Сетфолдерфиелд операции операцию UpdateFolder. Веб-службы Exchange не поддерживают удаление отдельных записей. 
+Удалить неизвестные записи из папки можно с помощью операции UpdateFolder с помощью [элемента SetFolderField.](setfolderfield.md) Неизвестные записи удаляются при сбросе PermissionSet с помощью параметра SetFolderField операции UpdateFolder. Exchange Веб-службы не поддерживают удаление отдельных записей. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -63,7 +63,7 @@ ms.locfileid: "44459421"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

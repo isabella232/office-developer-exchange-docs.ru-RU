@@ -1,23 +1,23 @@
 ---
-title: едиталловед
+title: EditAllowed
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e63c4f7e-77c0-4826-b4e2-43b795d03914
-description: Элемент Едиталловед указывает, можно ли изменять управление правами на доступ к данным.
-ms.openlocfilehash: 979fbaa9fcfbd1015468a8ae00628959bad0bf56
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EditAllowed указывает, можно ли изменить управление правами на информацию.
+ms.openlocfilehash: 2bd88dd47eb3f1964eae678412a6748ee8d28ec8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463484"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540120"
 ---
-# <a name="editallowed"></a>едиталловед
+# <a name="editallowed"></a>EditAllowed
 
-Элемент **едиталловед** указывает, можно ли изменять управление правами на доступ к данным. 
+Элемент **EditAllowed** указывает, можно ли изменить управление правами на информацию. 
   
 ```XML
 <EditAllowed> true | false </EditAllowed>
@@ -26,27 +26,27 @@ ms.locfileid: "44463484"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ригхтсманажементлиценседата](rightsmanagementlicensedata.md) <br/> |Указывает сведения о лицензии на управление правами.  <br/> |
+|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Указывает сведения о лицензии на управление правами.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **едиталловед** указывает на то, что Управление правами на доступ к данным (IRM) можно изменить. Значение **false** указывает, что Управление правами на доступ к данным не может быть изменено. 
+Значение текста, **истинное** для **элемента EditAllowed,** указывает на то, что управление правами на информацию (IRM) может быть изменено. Значение false **указывает,** что IRM нельзя изменить. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44463484"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

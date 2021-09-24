@@ -1,27 +1,27 @@
 ---
-title: делегатеусерс
+title: DelegateUsers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DelegateUsers
 api_type:
 - schema
 ms.assetid: f30f80d9-20c8-41cc-afc7-a5eec1e0c5ea
-description: Элемент Делегатеусерс содержит идентификаторы делегатов, которые добавляются в почтовый ящик или обновляются в нем. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 69f5aab65634f41ec0f820da05dee79a300fb32e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DelegateUsers содержит удостоверения делегатов, которые необходимо добавить или обновить в почтовом ящике. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+ms.openlocfilehash: 7eae154297eb385903c57cbd8fe9b3feeb96c816
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457377"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540211"
 ---
-# <a name="delegateusers"></a>делегатеусерс
+# <a name="delegateusers"></a>DelegateUsers
 
-Элемент **делегатеусерс** содержит идентификаторы делегатов, которые добавляются в почтовый ящик или обновляются в нем. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **DelegateUsers** содержит удостоверения делегатов, которые необходимо добавить или обновить в почтовом ящике. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <DelegateUsers>
@@ -29,21 +29,21 @@ ms.locfileid: "44457377"
 </DelegateUsers>
 ```
 
-**аррайофделегатеусертипе**
+**ArrayOfDelegateUserType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[делегатеусер](delegateuser.md) <br/> |Определяет одного делегата для добавления или обновления в почтовом ящике.  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |Определяет одного делегата для добавления или обновления в почтовом ящике.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "44457377"
 |[AddDelegate](adddelegate.md) <br/> |Определяет запрос на добавление делегатов в почтовый ящик. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
 |[UpdateDelegate](updatedelegate.md) <br/> |Определяет запрос на обновление делегатов в почтовом ящике. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44457377"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

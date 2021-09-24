@@ -1,24 +1,24 @@
 ---
-title: Стрингсеттинг (SOAP)
+title: StringSetting (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bf7096d8-42d4-4bf5-bbdd-851af2754000
-description: Элемент Стрингсеттинг представляет параметр пользователя, имеющий тип String.
-ms.openlocfilehash: 215d1187c0968577e894c9f9cddea050789697b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент StringSetting представляет пользователя, значение которого — строка типа.
+ms.openlocfilehash: 16a59475c82a4088421f5916f1416ab91e7d78d6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463078"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540393"
 ---
-# <a name="stringsetting-soap"></a>Стрингсеттинг (SOAP)
+# <a name="stringsetting-soap"></a>StringSetting (SOAP)
 
-Элемент **стрингсеттинг** представляет параметр пользователя, имеющий тип String. 
+Элемент **StringSetting** представляет пользователя, значение которого — строка типа. 
   
 ```XML
 <StringSetting>
@@ -27,41 +27,41 @@ ms.locfileid: "44463078"
 </StringSetting>
 ```
 
- **стрингсеттинг**
+ **StringSetting**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (SOAP)](name-soap.md) <br/> |Представляет имя параметра пользователя.  <br/> |
-|[Значение (SOAP)](value-soap.md) <br/> |Представляет значение параметра пользователя.  <br/> |
+|[Name (SOAP)](name-soap.md) <br/> |Представляет имя параметра пользователя.  <br/> |
+|[Value (SOAP)](value-soap.md) <br/> |Представляет значение параметра пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Тип **стрингсеттинг** расширяет тип **усерсеттинг** . 
+Тип **StringSetting** расширяет **тип UserSetting.** 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,7 +70,7 @@ ms.locfileid: "44463078"
 
 [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
   
-[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
+[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
   
-[Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
+[Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 

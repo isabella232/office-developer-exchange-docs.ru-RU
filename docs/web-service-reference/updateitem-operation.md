@@ -5,50 +5,50 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateItem
 api_type:
 - schema
 ms.assetid: 5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4
-description: Операция UpdateItem используется для изменения свойств существующего элемента в хранилище Exchange.
-ms.openlocfilehash: c001b7656862144023e9704cb04e6b4c0030f9df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция UpdateItem используется для изменения свойств существующего элемента в Exchange магазине.
+ms.openlocfilehash: 6ac09c24c13efff8053fc605ec2c0e6cf2957429
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459393"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514062"
 ---
 # <a name="updateitem-operation"></a>Операция UpdateItem
 
-Операция **UpdateItem** используется для изменения свойств существующего элемента в хранилище Exchange. 
+Операция **UpdateItem** используется для изменения свойств существующего элемента в Exchange магазине. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Для элемента можно выполнить три основные действия по обновлению. В следующей таблице перечислены действия, которые можно выполнить.
+Вы можете выполнить три основных действия обновления элемента. В следующей таблице перечислены действия, которые можно выполнить.
   
 |**Действие**|**Описание**|
 |:-----|:-----|
-|Error  <br/> |Добавляет данные к существующему свойству. Это действие сохранит текущие данные. Append не применяется ко всем свойствам.  <br/> |
-|Set  <br/> |Заменяет данные для свойства, если свойство содержит данные, или создает свойство и задает его значение, если свойство не существует. Действие Set применяется только к записываемым свойствам.  <br/> |
-|Удаление  <br/> |Удаляет свойство из элемента. Это отличается от присвоения свойству пустого значения. По завершении этого действия свойство для элемента не существует. DELETE применяется только к записываемым свойствам.  <br/> |
+|Приложение  <br/> |Добавляет данные в существующее свойство. Это действие сохраняет текущие данные. Приложение не применяется к всем свойствам.  <br/> |
+|Set  <br/> |Заменяет данные для свойства, если свойство содержит данные, или создает свойство и задает его значение, если свойство не существует. Действие набора применимо только к рукописным свойствам.  <br/> |
+|Удалить  <br/> |Удаляет свойство из элемента. Это отличается от установки свойства на пустое значение. По завершению этого действия свойство не существует для элемента. Удаление применимо только к writable свойствам.  <br/> |
    
-Вызов **UpdateItem** можно использовать для изменения одного или нескольких элементов и одного или нескольких свойств каждого элемента. Элемент [итемчанжес](itemchanges.md) содержит все изменения, которые необходимо выполнить в рамках этого вызова. Элемент [итемчанже](itemchange.md) , являющийся дочерним по отношению к элементу [итемчанжес](itemchanges.md) , представляет изменения, которые необходимо выполнить для одного элемента. Элемент [итемчанже](itemchange.md) содержит набор действий обновления, которые можно выполнить для одного элемента. Эти изменения включены в элемент [Updates (Item)](updates-item.md) . Элемент [ItemId](itemid.md) определяет обновляемый элемент. Чтобы обновить несколько свойств элемента, необходимо предоставить [сетитемфиелд](setitemfield.md), [аппендтоитемфиелд](appendtoitemfield.md)или [делетеитемфиелд](deleteitemfield.md) для каждого свойства, для которого требуется обновление. 
+Вызов **UpdateItem** можно использовать для изменения одного или более элементов и одного или более свойств каждого элемента. Элемент [ItemChanges](itemchanges.md) содержит все изменения, которые должны выполняться в рамках этого вызова. Элемент [ItemChange,](itemchange.md) дитя элемента [ItemChanges,](itemchanges.md) представляет изменения, выполняемые на одном элементе. Элемент [ItemChange](itemchange.md) содержит набор действий обновления, которые можно выполнить на одном элементе. Эти изменения содержатся в [элементе Updates (Item).](updates-item.md) Элемент [ItemId](itemid.md) определяет элемент для обновления. Чтобы обновить несколько свойств элемента, для каждого свойства, требуемого обновления, необходимо уполномочить [SetItemField,](setitemfield.md) [AppendToItemField](appendtoitemfield.md)или [DeleteItemField.](deleteitemfield.md) 
   
 > [!NOTE]
-> Действия по обновлению применяются в том порядке, в котором они указаны. 
+> Действия обновления применяются в порядке, в котором они указаны. 
   
-Для каждого изменения необходимо указать путь к свойству, которое необходимо изменить, и представление этого элемента с новым значением. Действие DELETE слегка отличается от того, что требуется только путь к удаляемому свойству. Для действий Set и Append указанный путь должен относиться к тому же свойству, которое задается в представлении элемента. Если они отличаются, будет возвращена ошибка.
+Для каждого изменения необходимо указать путь изменения свойства и представление этого элемента с его новым значением. Действие удаления немного отличается тем, что требуется только путь удаляемого свойства. Для действий набора и приложения указанный путь должен ссылаться на то же свойство, которое задано в представлении элемента. Если они отличаются, будет возвращена ошибка.
   
-Для операции **UpdateItem** можно задать время [начала](start.md) и [окончания](end-ex15websvcsotherref.md) для элемента хранилища Exchange. В запросе **UpdateItem** время [начала](start.md) может быть задано без указания времени [окончания](end-ex15websvcsotherref.md) . Это может привести к ошибке, если время [начала](start.md) позже времени [окончания](end-ex15websvcsotherref.md) . Имейте в виду, что клиентские приложения должны настроить время [окончания](end-ex15websvcsotherref.md) при изменении времени [начала](start.md) , чтобы сохранить длительность. 
+Операция **UpdateItem** может установить [](end-ex15websvcsotherref.md) [время](start.md) начала и окончания элемента Exchange магазина. В **запросе UpdateItem** [можно](start.md) установить время запуска без установки [конечного](end-ex15websvcsotherref.md) времени. Это может привести к ошибке, [если](start.md) время начала более позднее, чем [время окончания.](end-ex15websvcsotherref.md) Следует помнить, что клиентские [](end-ex15websvcsotherref.md) приложения должны [](start.md) настроить время окончания при смене времени начала, чтобы сохранить продолжительность. 
   
-Когда один элемент календаря обновляется, чтобы стать повторяющимся элементом основного календаря, свойство [митингтимезоне](meetingtimezone.md) должно быть задано операцией **UpdateItem** для сохранения исходного часового пояса элемента календаря. 
+Когда один элемент календаря обновляется, чтобы стать повторяющимся элементом календаря, свойство [MeetingTimeZone](meetingtimezone.md) должно быть задано операцией **UpdateItem,** чтобы сохранить исходный часовой пояс элемента календаря. 
   
-## <a name="setitemfield-request-example"></a>Пример запроса Сетитемфиелд
+## <a name="setitemfield-request-example"></a>Пример запроса SetItemField
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **UpdateItem** показано, как задать свойство "чувствительность" для элемента. 
+В следующем примере **запроса UpdateItem** показано, как установить свойство чувствительности для элемента. 
   
 ### <a name="code"></a>Код
 
@@ -81,35 +81,35 @@ ms.locfileid: "44459393"
 
 ### <a name="comments"></a>Комментарии
 
-Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
+Идентификатор элемента и ключ изменения были сокращены для сохранения читаемости.
   
-### <a name="setitemfield-request-elements"></a>Элементы запроса Сетитемфиелд
+### <a name="setitemfield-request-elements"></a>Элементы запроса SetItemField
 
 В запросе используются следующие элементы:
   
 - [UpdateItem](updateitem.md)
     
-- [итемчанжес](itemchanges.md)
+- [ItemChanges](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-- [Обновления (элемент)](updates-item.md)
+- [Updates (Item)](updates-item.md)
     
-- [сетитемфиелд](setitemfield.md)
+- [SetItemField](setitemfield.md)
     
-- [фиелдури](fielduri.md)
+- [FieldURI](fielduri.md)
     
 - [Сообщение](message-ex15websvcsotherref.md)
     
 - [Sensitivity](sensitivity.md)
     
-## <a name="appendtoitemfield-request-example"></a>Пример запроса Аппендтоитемфиелд
+## <a name="appendtoitemfield-request-example"></a>Пример запроса AppendToItemField
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **UpdateItem** показано, как добавить текст в свойство Body элемента. 
+В следующем примере **запроса UpdateItem** показано, как приложение текста к свойству тела на элементе. 
   
 ### <a name="code"></a>Код
 
@@ -142,43 +142,43 @@ ms.locfileid: "44459393"
 
 ### <a name="comments"></a>Комментарии
 
-Действие Append поддерживается следующими свойствами:
+Следующие свойства поддерживают действие приложения:
   
-- **сообщение: ReplyTo**
+- **message:ReplyTo**
     
-- **элемент: Body**
+- **item:Body**
     
 - Все свойства коллекции получателей и участников
     
-Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
+Идентификатор элемента и ключ изменения были сокращены для сохранения читаемости.
   
-### <a name="appendtoitemfield-request-elements"></a>Элементы запроса Аппендтоитемфиелд
+### <a name="appendtoitemfield-request-elements"></a>Элементы запроса AppendToItemField
 
 В запросе используются следующие элементы:
   
 - [UpdateItem](updateitem.md)
     
-- [итемчанжес](itemchanges.md)
+- [ItemChanges](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-- [Обновления (элемент)](updates-item.md)
+- [Updates (Item)](updates-item.md)
     
-- [аппендтоитемфиелд](appendtoitemfield.md)
+- [AppendToItemField](appendtoitemfield.md)
     
-- [фиелдури](fielduri.md)
+- [FieldURI](fielduri.md)
     
 - [Сообщение](message-ex15websvcsotherref.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
-## <a name="deleteitemfield-request-example"></a>Пример запроса Делетеитемфиелд
+## <a name="deleteitemfield-request-example"></a>Пример запроса DeleteItemField
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере запроса **UpdateItem** показано, как удалить свойство элемента. 
+В следующем примере **запроса UpdateItem** показано, как удалить свойство элемента. 
   
 ### <a name="code"></a>Код
 
@@ -207,31 +207,31 @@ ms.locfileid: "44459393"
 
 ### <a name="comments"></a>Комментарии
 
-Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
+Идентификатор элемента и ключ изменения были сокращены для сохранения читаемости.
   
-### <a name="deleteitemfield-request-elements"></a>Элементы запроса Делетеитемфиелд
+### <a name="deleteitemfield-request-elements"></a>Элементы запроса DeleteItemField
 
 В запросе используются следующие элементы:
   
 - [UpdateItem](updateitem.md)
     
-- [итемчанжес](itemchanges.md)
+- [ItemChanges](itemchanges.md)
     
 - [ItemChange](itemchange.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-- [Обновления (элемент)](updates-item.md)
+- [Updates (Item)](updates-item.md)
     
-- [делетеитемфиелд](deleteitemfield.md)
+- [DeleteItemField](deleteitemfield.md)
     
-- [фиелдури](fielduri.md)
+- [FieldURI](fielduri.md)
     
 ## <a name="successful-response-example"></a>Пример успешного ответа
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **UpdateItem** . 
+В следующем примере показан успешный ответ на запрос **UpdateItem.** 
   
 ### <a name="code"></a>Код
 
@@ -265,35 +265,35 @@ ms.locfileid: "44459393"
 
 ### <a name="comments"></a>Комментарии
 
-Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
+Идентификатор элемента и ключ изменения были сокращены для сохранения читаемости.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [упдатеитемреспонсе](updateitemresponse.md)
+- [UpdateItemResponse](updateitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [упдатеитемреспонсемессаже](updateitemresponsemessage.md)
+- [UpdateItemResponseMessage](updateitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Items](items.md)
     
 - [Сообщение](message-ex15websvcsotherref.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция UpdateItem (Task)](updateitem-operation-task.md)
+[Операция UpdateItem (задача)](updateitem-operation-task.md)
   
-[Операция UpdateItem (Contact)](updateitem-operation-contact.md)
+[Операция UpdateItem (контакт)](updateitem-operation-contact.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

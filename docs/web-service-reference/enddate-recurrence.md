@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndDate
 api_type:
 - schema
 ms.assetid: 16026595-26f8-4770-8a6d-0d3e4157effd
-description: Элемент EndDate представляет дату окончания повторяющейся задачи или элемент календаря с типом шаблона Енддатерекурренце.
-ms.openlocfilehash: 53d9b04faf1d8f740c858080b5fcbeadf577df0d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EndDate представляет даты окончания повторяющейся задачи или элемента календаря с типом шаблона EndDateRecurrence.
+ms.openlocfilehash: c53d83a3fb2f3a6a841d7e16c94d20dd3c7a92a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460164"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540097"
 ---
 # <a name="enddate-recurrence"></a>EndDate (повторение)
 
-Элемент **EndDate** представляет дату окончания повторяющейся задачи или элемент календаря с типом шаблона енддатерекурренце. 
+Элемент **EndDate представляет** даты окончания повторяющейся задачи или элемента календаря с типом шаблона EndDateRecurrence. 
   
 ```xml
 <EndDate/>
@@ -30,27 +30,27 @@ ms.locfileid: "44460164"
  **дата**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[енддатерекурренце](enddaterecurrence.md) <br/> |Описывает дату начала и дату окончания расписания повторения элемента.  <br/> |
+|[EndDateRecurrence](enddaterecurrence.md) <br/> |Описывает дату начала и дату окончания шаблона повторения элементов.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее дату, является обязательным при использовании этого элемента. Значение не может превышать 1 сентября 4500 00:00:00.
+Если используется этот элемент, требуется текстовое значение, представляю которое представляет дату. Значение не может быть больше 1 сентября 4500 00:00:00.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44460164"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

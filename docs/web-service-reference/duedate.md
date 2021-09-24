@@ -1,57 +1,57 @@
 ---
-title: Дата выполнения
+title: DueDate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DueDate
 api_type:
 - schema
 ms.assetid: dd9b6c43-a512-4b3b-a071-4abde02ed55f
-description: Элемент DueDate представляет дату, на которую должен быть выполнен элемент.
-ms.openlocfilehash: b88bb5c64ee48e02b1600c6865ce650e7bcdaa3b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DueDate представляет дату, когда должен быть вызван элемент.
+ms.openlocfilehash: 039008ae2ceb2faf280c5b434a5068b580ee885c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463561"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540084"
 ---
-# <a name="duedate"></a>Дата выполнения
+# <a name="duedate"></a>DueDate
 
-Элемент **DueDate** представляет дату, на которую должен быть выполнен элемент. 
+Элемент **DueDate** представляет дату, когда должен быть вызван элемент. 
   
 ```xml
 <DueDate/>
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
-|[Флаг](flag.md) <br/> |Указывает флаг для элемента почтового ящика.  <br/> |
+|[Флаг](flag.md) <br/> |Указывает флаг на элементе почтового ящика.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение, представляющее дату и время, является обязательным при использовании этого элемента.
+Если используется этот элемент, требуется текстовое значение, которое представляет дату и время.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44463561"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

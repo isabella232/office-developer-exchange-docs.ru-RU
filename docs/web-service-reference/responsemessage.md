@@ -1,27 +1,27 @@
 ---
-title: респонсемессаже
+title: ResponseMessage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessage
 api_type:
 - schema
 ms.assetid: bf57265a-d354-4cd7-bbfc-d93e19cbede6
-description: Элемент Респонсемессаже предоставляет описательные сведения о состоянии отклика для одной сущности в запросе.
-ms.openlocfilehash: a7f4240b1e988cb69d67118c6db58db0d7babba5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ResponseMessage предоставляет описательные сведения о состоянии ответа для одной сущности в запросе.
+ms.openlocfilehash: 21db84698b693fc97c67285c8ca89da028b4e59b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467160"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516378"
 ---
-# <a name="responsemessage"></a>респонсемессаже
+# <a name="responsemessage"></a>ResponseMessage
 
-Элемент **респонсемессаже** предоставляет описательные сведения о состоянии отклика для одной сущности в запросе. 
+Элемент **ResponseMessage** предоставляет описательные сведения о состоянии ответа для одной сущности в запросе. 
   
 ```xml
 <ResponseMessage ResponseClass="">
@@ -32,82 +32,82 @@ ms.locfileid: "44467160"
 </ResponseMessage>
 ```
 
- **респонсемессажетипе**
+ **ResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**респонсекласс** <br/> | Представляет состояние ответа. <br/><br/>Для этого атрибута допустимы следующие значения:  <br/><br/>Успешное выполнение  <br/>— Предупреждение  <br/>— Ошибка  <br/> |
+|**ResponseClass** <br/> | Представляет состояние ответа. <br/><br/>Для данного атрибута допустимы следующие значения:  <br/><br/>–  Success  <br/>–  Warning  <br/>–  Error  <br/> |
    
-#### <a name="responseclass-attribute-values"></a>Значения атрибутов Респонсекласс
+#### <a name="responseclass-attribute-values"></a>Значения атрибута ResponseClass
 
 |**Значение**|**Описание**|
 |:-----|:-----|
 |Успешно  <br/> |Описывает выполненный запрос.  <br/> |
-|Предупреждение  <br/> | Описывает запрос, который не был обработан. Если при обработке элемента в запросе возникла ошибка, которая не может быть обработана, может быть возвращено предупреждение. <br/><br/>Ниже приведены некоторые возможные причины появления предупреждений.  <br/><br/>— Хранилище Exchange находится в автономном режиме во время выполнения пакета.  <br/>— Служба каталогов Active Directory находится в автономном режиме.  <br/>— Почтовые ящики перемещаются.  <br/>— База данных сообщений (MDB) находится в автономном режиме.  <br/>— Срок действия пароля истек.  <br/>— Превышена квота.  <br/> |
-|Ошибка  <br/> | Описывает запрос, который не может быть выполнен. <br/><br/>Ниже приведены некоторые возможные причины ошибок.  <br/><br/>— Недопустимые атрибуты или элементы  <br/>— Атрибуты или элементы выходят за пределы допустимого диапазона  <br/>— Неизвестный тег  <br/>— Атрибут или элемент не является допустимым в контексте  <br/>— Попытки несанкционированного доступа, выполняемые любым клиентом;  <br/>Ошибка на стороне сервера в ответ на действительный вызов на стороне клиента  <br/> <br/> Сведения об ошибке можно найти в элементах [респонсекоде](responsecode.md) и [мессажетекст](messagetext.md) .  <br/> |
+|Предупреждение  <br/> | Описывает необработанный запрос. Предупреждение может возвращаться, если произошла ошибка при обработке элемента запроса и невозможности обработки последующих элементов. <br/><br/>Ниже приводится несколько возможных причин для предупреждений:  <br/><br/>– Хранилище Exchange находится в автономном режиме при обработке пакета.  <br/>- Служба каталогов Active Directory отключена.  <br/>– Почтовые ящики перемещены.  <br/>– База данных сообщений (MDB) находится в автономном режиме.  <br/>– Срок действия пароля истек.  <br/>– Превышена квота  <br/> |
+|Error  <br/> | Описывает запрос, который невозможно выполнить. <br/><br/>Ниже возможен ряд причин ошибок:  <br/><br/>– Недопустимые атрибуты или элементы  <br/>– Атрибуты или элементы находятся вне диапазона  <br/>– Неизвестный тег  <br/>– Атрибут или элемент недопустим в контексте  <br/>– Попытка неавторизованного доступа любым клиентом  <br/>– Сбой на стороне сервера в ответ на допустимый клиентский вызов  <br/> <br/> Сведения об ошибке доступны в элементах [ResponseCode](responsecode.md) и [MessageText](messagetext.md).  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[мессажетекст](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
-|[респонсекоде](responsecode.md) <br/> |Предоставляет код ошибки, определяющий конкретную ошибку, обнаруженную в запросе.  <br/> |
-|[дескриптивелинккэй](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервировано для последующего использования. Он содержит значение 0.  <br/> |
-|[мессажексмл](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке.  <br/> |
+|[MessageText](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Предоставляет код ошибки, определяющий конкретную ошибку, с которой столкнулся запрос.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервирован для последующего применения. Содержит значение 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Предоставляет дополнительные сведения об отклике с ошибкой.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фрибусиреспонсе](freebusyresponse.md) <br/> |Содержит сведения о доступности для одного пользователя почтового ящика. <br/> <br/> Ниже приведено выражение XPath 2,0 для этого элемента: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray[i]/FreeBusyResponse` <br/> |
-|[сугжестионсреспонсе](suggestionsresponse.md) <br/> |Содержит данные ответа и предложения для запрошенных предложений о собрании.  <br/><br/> Ниже приведено выражение XPath 2,0 для этого элемента:<br/>  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
-|[жетусеруфсеттингсреспонсе](getuseroofsettingsresponse.md) <br/> |Содержит результаты ответа и параметры отсутствия на отсутствие для пользователя.  <br/><br/> Ниже приведено выражение XPath 2,0 для этого элемента:  <br/><br/>  `/GetUserOofSettingsResponse` <br/> |
-|[сетусеруфсеттингсреспонсе](setuseroofsettingsresponse.md) <br/> |Содержит результат предпринятого сообщения [сетусеруфсеттингсрекуест](setuseroofsettingsrequest.md) . <br/> <br/> Ниже приведено выражение XPath 2,0 для этого элемента:  <br/><br/>  `/SetUserOofSettingsResponse` <br/> |
+|[FreeBusyResponse](freebusyresponse.md) <br/> |Содержит сведения о бесплатном/загружении для одного пользователя почтового ящика. <br/> <br/> Ниже приводится выражение XPath 2.0 к этому элементу: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray[i]/FreeBusyResponse` <br/> |
+|[SuggestionsResponse](suggestionsresponse.md) <br/> |Содержит сведения о откликах и предложениях для запрашиваемой информации о собраниях.  <br/><br/> Ниже приводится выражение XPath 2.0 к этому элементу:<br/>  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
+|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Содержит результаты ответа и параметры OOF для пользователя.  <br/><br/> Ниже приводится выражение XPath 2.0 к этому элементу:  <br/><br/>  `/GetUserOofSettingsResponse` <br/> |
+|[SetUserOofSettingsResponse](setuseroofsettingsresponse.md) <br/> |Содержит результат попытки [сообщения SetUserOofSettingsRequest.](setuseroofsettingsrequest.md) <br/> <br/> Ниже приводится выражение XPath 2.0 к этому элементу:  <br/><br/>  `/SetUserOofSettingsResponse` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Тип **респонсемессажетипе** является общим для всех ответов на веб-службы Exchange. Тип **респонсемессажетипе** расширяется следующими сложными типами: 
+Тип **ResponseMessageType** является общим для всех Exchange веб-служб. Тип **ResponseMessageType** расширяется следующими сложными типами: 
   
-- **аппликонверсатионактионреспонсемессажетипе**
+- **ApplyConversationActionResponseMessageType**
     
-- **аттачментинфореспонсемессажетипе**
+- **AttachmentInfoResponseMessageType**
     
-- **делетеаттачментреспонсемессажетипе**
+- **DeleteAttachmentResponseMessageType**
     
-- **делетеитемреспонсемессажетипе**
+- **DeleteItemResponseMessageType**
     
-- **експанддлреспонсемессажетипе**
+- **ExpandDLResponseMessageType**
     
-- **финдфолдерреспонсемессажетипе**
+- **FindFolderResponseMessageType**
     
-- **финдитемреспонсемессажетипе**
+- **FindItemResponseMessageType**
     
-- **фолдеринфореспонсемессажетипе**
+- **FolderInfoResponseMessageType**
     
-- **жетевентсреспонсемессажетипе**
+- **GetEventsResponseMessageType**
     
-- **итеминфореспонсемессажетипе**
+- **ItemInfoResponseMessageType**
     
-- **ресолвенамесреспонсемессажетипе**
+- **ResolveNamesResponseMessageType**
     
-- **субскрибереспонсемессажетипе**
+- **SubscribeResponseMessageType**
     
-- **сенднотификатионреспонсемессажетипе**
+- **SendNotificationResponseMessageType**
     
-- **синкфолдерхиерарчиреспонсемессажетипе**
+- **SyncFolderHierarchyResponseMessageType**
     
-- **синкфолдеритемсреспонсемессажетипе**
+- **SyncFolderItemsResponseMessageType**
     
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
 ### <a name="version-differences"></a>Различия версий
 
-Типы **аппликонверсатионактионреспонсемессаже** и **делетеитемреспонсемессажетипе** были представлены в Exchange Build 15.00.0986.00. 
+Типы **ApplyConversationActionResponseMessage** и **DeleteItemResponseMessageType** были представлены в Exchange сборки 15.00.0986.00. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -115,7 +115,7 @@ ms.locfileid: "44467160"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

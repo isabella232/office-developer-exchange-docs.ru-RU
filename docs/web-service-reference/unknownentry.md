@@ -1,27 +1,27 @@
 ---
-title: ункновнентри
+title: UnknownEntry
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnknownEntry
 api_type:
 - schema
 ms.assetid: 3cb4c62e-052a-4326-8639-8c41dfd047b2
-description: Элемент Ункновнентри представляет одну неизвестную запись разрешения, которая не может быть разрешена для службы каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 452857690f719ba3ee9dffa29e576ca4f3b2b945
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UnknownEntry представляет одну неизвестную запись разрешений, которую невозможно разрешить в службе каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+ms.openlocfilehash: 62d006de35955e0fe495d8435dce6f199b46249a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459400"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515042"
 ---
-# <a name="unknownentry"></a>ункновнентри
+# <a name="unknownentry"></a>UnknownEntry
 
-Элемент **ункновнентри** представляет одну неизвестную запись разрешения, которая не может быть разрешена для службы каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **UnknownEntry представляет** одну неизвестную запись разрешений, которую невозможно разрешить в службе каталогов Active Directory. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <UnknownEntry/>
@@ -30,27 +30,27 @@ ms.locfileid: "44459400"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ункновнентриес](unknownentries.md) <br/> |Содержит массив неизвестных записей разрешений, которые не удается разрешить в Active Directory. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[UnknownEntries](unknownentries.md) <br/> |Содержит массив неизвестных записей разрешений, которые невозможно разрешить с помощью Active Directory. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет запись разрешения, которая не может быть разрешена в Active Directory. Текстовое значение представляет идентификатор безопасности (SID).
+Текстовое значение представляет запись разрешения, которая не может быть разрешена в active Directory. Текстовое значение представляет идентификатор безопасности (SID).
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44459400"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

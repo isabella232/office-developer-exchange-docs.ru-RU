@@ -1,23 +1,23 @@
 ---
-title: воркЦити
+title: WorkCity
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9850a25-1560-4ed8-969c-dc3e59dde207
-description: Элемент ВоркЦити указывает город, в котором работает связанный персонаж.
-ms.openlocfilehash: 712544d60fde15b3d630ecd00b9b5dfbb16a7dd5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент WorkCity указывает город, в котором работает связанная персона.
+ms.openlocfilehash: c498c40d66b6bd57833f37bbe88c12bef85f9a99
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459716"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514958"
 ---
-# <a name="workcity"></a>воркЦити
+# <a name="workcity"></a>WorkCity
 
-Элемент **воркЦити** указывает город, в котором работает связанный персонаж. 
+Элемент **WorkCity** указывает город, в котором работает связанная персона. 
   
 ```XML
 <WorkCity></WorkCity>
@@ -26,15 +26,15 @@ ms.locfileid: "44459716"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44459716"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **воркЦити** — город, в котором работает связанный персонаж. 
+Текстовое значение элемента **WorkCity** — это город, в котором работает связанная персона. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44459716"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

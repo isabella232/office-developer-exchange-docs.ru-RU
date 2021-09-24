@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be003e12-3496-468d-a61c-48af0b819654
-description: Элемент UserRoles указывает роли пользователей, с которыми работает вызывающий пользователь, или пользователя, от которого работает партнерское приложение, необходимо применить к текущему вызову.
-ms.openlocfilehash: 5155b82781321b16d1b58fdcaffe7b8cf2372717
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UserRoles указывает роли пользователя, которые пользователь вызывает, или пользователя, который действует в качестве партнера по вызову, который хочет применить к текущему вызову.
+ms.openlocfilehash: c861cda9a010e909c9ecc5303ddc637a14bcb824
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467132"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514979"
 ---
 # <a name="userroles"></a>UserRoles
 
-Элемент **UserRoles** указывает роли пользователей, с которыми работает вызывающий пользователь, или пользователя, от которого работает партнерское приложение, необходимо применить к текущему вызову. 
+Элемент **UserRoles** указывает роли пользователя, которые пользователь вызывает, или пользователя, который действует в качестве партнера по вызову, который хочет применить к текущему вызову. 
   
 ```XML
 <UserRoles>
@@ -25,14 +25,14 @@ ms.locfileid: "44467132"
 </UserRoles>
 ```
 
- **нонемптяррайофролетипе**
+ **NonEmptyArrayOfRoleType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -42,7 +42,7 @@ ms.locfileid: "44467132"
 
 [ManagementRole](managementrole.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44467132"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

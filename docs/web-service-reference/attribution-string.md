@@ -1,52 +1,52 @@
 ---
-title: Атрибуты (строка)
+title: Attribution (строка)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 736be0bc-12c4-410e-bd17-a89f996ac432
-description: Элемент Attribute указывает строку, используемую для идентификации атрибута пользователя.
-ms.openlocfilehash: 9a3243904c02c3bdeea7e4a4e7dcb240d4ad3563
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Attribution указывает строку, используемую для определения атрибута персоны.
+ms.openlocfilehash: ce0dff53d48b4b198c21a4bcb6099608abbae7eb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513831"
 ---
-# <a name="attribution-string"></a>Атрибуты (строка)
+# <a name="attribution-string"></a>Attribution (строка)
 
-Элемент **Attribute** указывает строку, используемую для идентификации атрибута пользователя. 
+Элемент **Attribution** указывает строку, используемую для определения атрибута персоны. 
   
 ```XML
 <Attribution></Attribution>
 ```
 
- **xs: String**
+ **xs:string**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Атрибуты (Аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md) <br/> |Задает массив атрибутов для связанного элемента **value** .  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Указывает массив атрибуций для связанного с ним **элемента Value.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое **значение элемента** Attributes — это строковое значение, которое применяет к исходному контакту значение свойства. 
+Текстовое значение элемента **атрибуции** — это строковое значение, которое связывает значение свойства с исходным контактом. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44464163"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

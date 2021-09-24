@@ -1,23 +1,23 @@
 ---
-title: унинсталлаппреспонсе
+title: UninstallAppResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e3f13cc-e3b3-4eea-9128-12c98b5197f4
-description: Элемент Унинсталлаппреспонсе указывает ответ на запрос UninstallApp.
-ms.openlocfilehash: 12d74669aed0c380e32dd568bb99b88c30fdb22d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UninstallAppResponse указывает ответ на запрос UninstallApp.
+ms.openlocfilehash: 566ae5e4669373f167f8be6bf7ad8b257968e272
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459456"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514090"
 ---
-# <a name="uninstallappresponse"></a>унинсталлаппреспонсе
+# <a name="uninstallappresponse"></a>UninstallAppResponse
 
-Элемент **унинсталлаппреспонсе** указывает ответ на запрос **UninstallApp** . 
+Элемент **UninstallAppResponse** указывает ответ на запрос **UninstallApp.** 
   
 ```XML
 <UninstallAppResponse>
@@ -28,24 +28,24 @@ ms.locfileid: "44459456"
 </UninstallAppResponse>
 ```
 
- **унинсталлаппреспонсетипе**
+ **UninstallAppResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажексмл](messagexml.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)
+[MessageXml](messagexml.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44459456"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

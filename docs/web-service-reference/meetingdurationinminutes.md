@@ -1,33 +1,33 @@
 ---
-title: митингдуратионинминутес
+title: MeetingDurationInMinutes
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingDurationInMinutes
 api_type:
 - schema
 ms.assetid: bb86b275-9c29-4daf-8196-8d505b87a4f4
-description: Элемент Митингдуратионинминутес указывает продолжительность собрания.
-ms.openlocfilehash: b41e234be40c2ad8b28047ae2e812edfd66af644
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MeetingDurationInMinutes указывает продолжительность предложенного собрания.
+ms.openlocfilehash: af2fa447ef278ec79b4215486368c7bbeceb4163
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539383"
 ---
-# <a name="meetingdurationinminutes"></a>митингдуратионинминутес
+# <a name="meetingdurationinminutes"></a>MeetingDurationInMinutes
 
-Элемент **митингдуратионинминутес** указывает продолжительность собрания. 
+Элемент **MeetingDurationInMinutes** указывает продолжительность предложенного собрания. 
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[сугжестионсвиевоптионс](suggestionsviewoptions.md)
+[SuggestionsViewOptions](suggestionsviewoptions.md)
   
-[митингдуратионинминутес](meetingdurationinminutes.md)
+[MeetingDurationInMinutes](meetingdurationinminutes.md)
   
 ```xml
 <MeetingDurationInMinutes>...</MeetingDurationInMinutes>
@@ -36,29 +36,29 @@ ms.locfileid: "44467489"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Текстовое значение представляет целое число.
+Требуется текстовое значение. Текстовое значение представляет собой integer.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент является обязательным, если используется элемент [сугжестионсвиевоптионс](suggestionsviewoptions.md) . 
+Этот элемент необходим, если используется элемент [SuggestionsViewOptions.](suggestionsviewoptions.md) 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
@@ -69,7 +69,7 @@ ms.locfileid: "44467489"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

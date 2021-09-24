@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveFolder
 api_type:
 - schema
 ms.assetid: f2bb0a73-94d7-4bc7-8902-bd9c69120221
-description: Элемент MoveFolder определяет запрос на перемещение папки в хранилище Exchange.
-ms.openlocfilehash: d2fe33a6d7893d45fa116a1516fcc6ab2dea3bcf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MoveFolder определяет запрос на перемещение папки в Exchange магазине.
+ms.openlocfilehash: 5fab9fab243d0720166f2eecdb3d0eee04110235
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457293"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515546"
 ---
 # <a name="movefolder"></a>MoveFolder
 
-Элемент **MoveFolder** определяет запрос на перемещение папки в хранилище Exchange. 
+Элемент **MoveFolder** определяет запрос на перемещение папки в Exchange магазине. 
   
 ```xml
 <MoveFolder>
@@ -30,27 +30,27 @@ ms.locfileid: "44457293"
 </MoveFolder>
 ```
 
- **мовефолдертипе**
+ **MoveFolderType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[тофолдерид](tofolderid.md) <br/> |Представляет папку назначения для перемещенной папки.  <br/> |
-|[фолдеридс](folderids.md) <br/> |Содержит массив папок для перемещения в папку, определяемую элементом [тофолдерид](tofolderid.md) .  <br/> |
+|[ToFolderId](tofolderid.md) <br/> |Представляет папку назначения для перемещенной папки.  <br/> |
+|[FolderIds](folderids.md) <br/> |Содержит массив папок для перемещения в папку, идентифицированную [элементом ToFolderId.](tofolderid.md)  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44457293"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

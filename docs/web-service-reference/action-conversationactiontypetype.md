@@ -1,80 +1,80 @@
 ---
-title: Action (Конверсатионактионтипетипе)
+title: Action (ConversationActionTypeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Action
 api_type:
 - schema
 ms.assetid: 8bbc12f2-76c5-4fda-828f-56b2086a0454
-description: Элемент Action содержит действие, которое необходимо выполнить для диалога, указанного элементом ConversationId.
-ms.openlocfilehash: f97b04b98cdc29bee9aff5fa1fc6f37400b8314c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Action содержит действие для выполнения беседы, указанной элементом ConversationId.
+ms.openlocfilehash: e75d9d5df75894d1de9831b0022269e7ace4fa63
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514895"
 ---
-# <a name="action-conversationactiontypetype"></a>Action (Конверсатионактионтипетипе)
+# <a name="action-conversationactiontypetype"></a>Action (ConversationActionTypeType)
 
-Элемент **Action** содержит действие, которое необходимо выполнить для диалога, указанного элементом [ConversationId](conversationid.md) . 
+Элемент **Action** содержит действие для выполнения беседы, указанной элементом [ConversationId.](conversationid.md) 
   
 - [ApplyConversationAction](applyconversationaction.md)
   
-- [конверсатионактионс](conversationactions.md)
+- [ConversationActions](conversationactions.md)
   
-- [конверсатионактион](conversationaction.md)
+- [ConversationAction](conversationaction.md)
   
-- [Action (Конверсатионактионтипетипе)](action-conversationactiontypetype.md)
+- [Action (ConversationActionTypeType)](action-conversationactiontypetype.md)
   
 ```XML
 <Action> AlwaysCategorize | AlwaysDelete | AlwaysMove | Delete | Move | Copy | SetReadState </Action>
 ```
 
- **конверсатионактионтипетипе**
+ **ConversationActionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[конверсатионактион](conversationaction.md) <br/> |Содержит одно действие, которое будет применено к одной беседе.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Содержит одно действие, которое необходимо применить к одному разговору.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Action** указывает, какое действие будет выполнено для беседы. Ниже приведены возможные текстовые значения и соответствующие действия. 
+Текстовое значение элемента **Action** указывает, какое действие будет выполняться во время беседы. Ниже следующую возможность текстовых значений и соответствующих действий: 
   
-- **Алвайскатегоризе** . для текущих элементов и новых элементов в беседе будут автоматически заданы категории, указанные в элементе [Categories](categories-ex15websvcsotherref.md) . 
+- **AlwaysCategorize** — текущие элементы и новые элементы в беседе будут автоматически задатки с категориями, которые определены в [элементе Categories.](categories-ex15websvcsotherref.md) 
     
-- **Алвайсделете** — текущие элементы и новые элементы беседы будут автоматически удалены. Режим удаления задается элементом [делететипе](deletetype.md) . 
+- **AlwaysDelete** — текущие элементы и новые элементы в беседе будут автоматически удалены. Режим удаления устанавливается элементом [DeleteType.](deletetype.md) 
     
-- **Алвайсмове** — текущие элементы и новые элементы в беседе будут автоматически перемещены в папку, определяемую элементом [дестинатионфолдерид](destinationfolderid.md) . 
+- **AlwaysMove** — текущие элементы и новые элементы в беседе будут автоматически перемещены в папку, идентифицированную [элементом DestinationFolderId.](destinationfolderid.md) 
     
-- **Delete** — будут удалены текущие элементы беседы. Последующие элементы беседы не будут удалены. Режим удаления задается элементом [делететипе](deletetype.md) . 
+- **Удаление** . Текущие элементы в беседе будут удалены. Последующие элементы в беседе не будут удалены. Режим удаления устанавливается элементом [DeleteType.](deletetype.md) 
     
-- **Move** — текущие элементы беседы будут перемещены в папку, указанную элементом [дестинатионфолдерид](destinationfolderid.md) . Последующие элементы беседы не будут перемещены. 
+- **Move** . Текущие элементы в беседе будут перемещены в папку, идентифицированную [элементом DestinationFolderId.](destinationfolderid.md) Последующие элементы в беседе не будут перемещены. 
     
-- **Copy** — текущие элементы в беседе будут скопированы в папку, определяемую элементом [дестинатионфолдерид](destinationfolderid.md) . Последующие элементы беседы не будут скопированы. 
+- **Скопируйте** . Текущие элементы в беседе будут скопированы в папку, идентифицированную элементом [DestinationFolderId.](destinationfolderid.md) Последующие элементы в беседе не будут скопированы. 
     
-- **Сетреадстате** . для текущих элементов беседы будет задано состояние чтения. Состояние чтения задается элементом [читал](isread.md) . 
+- **SetReadState** . Текущие элементы в беседе будут иметь набор состояния чтения. Состояние чтения устанавливается [элементом IsRead.](isread.md) 
     
-- **Flag** — флагы для текущих элементов в беседе будут установлены, как определено элементом [Flag](flag.md) . 
+- **Флаг** . Текущие элементы в беседе будут иметь набор флага, определенный [элементом Флаг.](flag.md) 
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -84,7 +84,7 @@ ms.locfileid: "44527546"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

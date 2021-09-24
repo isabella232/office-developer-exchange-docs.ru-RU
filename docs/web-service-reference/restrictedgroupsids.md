@@ -1,27 +1,27 @@
 ---
-title: рестриктедграупсидс
+title: RestrictedGroupSids
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RestrictedGroupSids
 api_type:
 - schema
 ms.assetid: 569ab552-5616-444a-a7f5-de366a684a34
-description: Элемент Рестриктедграупсидс представляет коллекцию ограниченных групп из маркера пользователя.
-ms.openlocfilehash: 739a73d2ac4bdbbee03650d035271b5c8d9ea25a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RestrictedGroupSids представляет коллекцию ограниченных групп из маркера пользователя.
+ms.openlocfilehash: 20e412eb6eb97bc33052d6625035afb7711ad34f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465361"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514111"
 ---
-# <a name="restrictedgroupsids"></a>рестриктедграупсидс
+# <a name="restrictedgroupsids"></a>RestrictedGroupSids
 
-Элемент **рестриктедграупсидс** представляет коллекцию ограниченных групп из маркера пользователя. 
+Элемент **RestrictedGroupSids** представляет коллекцию ограниченных групп из маркера пользователя. 
   
 ```xml
 <RestrictedGroupSids>
@@ -29,28 +29,28 @@ ms.locfileid: "44465361"
 </RestrictedGroupSids>
 ```
 
- **нонемптяррайофрестриктедграупидентифиерстипе**
+ **NonEmptyArrayOfRestrictedGroupIdentifiersType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[рестриктедграупидентифиер](restrictedgroupidentifier.md) <br/> |Представляет идентификатор безопасности группы (SID) и атрибуты для группы с ограниченным доступом.  <br/> |
+|[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |Представляет идентификатор безопасности группы (SID) и атрибуты для ограниченной группы.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сериализедсекуритиконтекст](serializedsecuritycontext.md) <br/> |Используется в заголовке SOAP для сериализации маркеров при проверке подлинности "сервер — сервер". Сериализация маркеров не поддерживается.  <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Используется в загонах SOAP для сериализации маркеров в проверке подлинности от сервера к серверу. Сериализация маркеров не поддерживается.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44465361"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

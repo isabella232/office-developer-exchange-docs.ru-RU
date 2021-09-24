@@ -1,27 +1,27 @@
 ---
-title: аутофоффице
+title: OutOfOffice
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OutOfOffice
 api_type:
 - schema
 ms.assetid: fe1256ab-5c0f-467d-abb3-b38a2dc312ae
-description: Элемент Аутофоффице представляет ответное сообщение и время для отправки ответного сообщения.
-ms.openlocfilehash: 082a81b62e2b783b302b3e749e0066131a46d73e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент OutOfOffice представляет сообщение отклика и время для отправки ответа.
+ms.openlocfilehash: f976da79fd0910c1d3bb2e3ba27e0cdd48f5cf01
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456901"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539222"
 ---
-# <a name="outofoffice"></a>аутофоффице
+# <a name="outofoffice"></a>OutOfOffice
 
-Элемент **аутофоффице** представляет ответное сообщение и время для отправки ответного сообщения. 
+Элемент **OutOfOffice представляет** сообщение отклика и время для отправки ответа. 
   
 ```XML
 <OutOfOffice>
@@ -36,34 +36,34 @@ ms.locfileid: "44456901"
 </OutOfOffice>
 ```
 
-**аутофоффицемаилтип**
+**OutOfOfficeMailTip**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[реплибоди](replybody.md) <br/> |Содержит сообщение об отсутствии на работе (отсутствие на работе) и язык, используемый для сообщения.  <br/> |
-|[Продолжительность (Усеруфсеттингс)](duration-useroofsettings.md) <br/> |Содержит время, в течение которого состояние отсутствия на работе включено, если для элемента [уфстате](oofstate.md) задано значение Scheduled.  <br/> |
+|[ReplyBody](replybody.md) <br/> |Содержит сообщение out of Office (OOF) и язык, используемый для сообщения.  <br/> |
+|[Duration (UserOofSettings)](duration-useroofsettings.md) <br/> |Содержит продолжительность включения состояния OOF, если элемент [OofState](oofstate.md) настроен на Scheduled.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Подсказки](mailtips.md) <br/> |Представляет значения для различных типов советов по использованию электронной почты.  <br/> |
+|[Подсказки](mailtips.md) <br/> |Представляет значения для различных типов советов почты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -73,7 +73,7 @@ ms.locfileid: "44456901"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,23 +1,23 @@
 ---
-title: ассистантфоненумберс
+title: AssistantPhoneNumbers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9bd9ac1-7db3-44ea-9117-18488dddde15
-description: Элемент Ассистантфоненумберс указывает массив телефонных номеров помощника и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: a72c8d646750b5d7cf9ebca13a51f4df84bf7bdb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AssistantPhoneNumbers указывает массив номеров помощников телефонов и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 5653cb5ec10aeac20d43a65116af9dabebfc15e3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464485"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540225"
 ---
-# <a name="assistantphonenumbers"></a>ассистантфоненумберс
+# <a name="assistantphonenumbers"></a>AssistantPhoneNumbers
 
-Элемент **ассистантфоненумберс** указывает массив телефонных номеров помощника и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **AssistantPhoneNumbers** указывает массив номеров помощников телефонов и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <AssistantPhoneNumbers>
@@ -25,28 +25,28 @@ ms.locfileid: "44464485"
 </AssistantPhoneNumbers>
 ```
 
- **аррайоффоненумбераттрибутедвалуестипе**
+ **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фоненумбераттрибутедвалуе](phonenumberattributedvalue.md) <br/> |Указывает экземпляр массива номеров телефонов и связанные с ними атрибуты.  <br/> |
+|[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |Указывает экземпляр массива номеров телефонов и связанных с ними атрибуций.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44464485"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

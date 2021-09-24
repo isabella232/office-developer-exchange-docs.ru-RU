@@ -1,26 +1,26 @@
 ---
-title: Служба автообнаружения (POX)
+title: AutoDiscover (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 611fcf5f-780a-42ea-bccb-9462a2f0c095
-description: Элемент автообнаружения является корневым элементом запроса на обнаружение или ответа.
-ms.openlocfilehash: 6fc889dc700a9fb068949d3ba5e4e6907b839f3c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AutoDiscover является корневым элементом в запросе или ответе автооткрытия.
+ms.openlocfilehash: 923f514b49ace6a9bb39cdd87099f7b391ec2604
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527434"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514888"
 ---
-# <a name="autodiscover-pox"></a>Служба автообнаружения (POX)
+# <a name="autodiscover-pox"></a>AutoDiscover (POX)
 
-Элемент **автообнаружения** является корневым элементом запроса на обнаружение или ответа. 
+Элемент **AutoDiscover** является корневым элементом в запросе или ответе автооткрытия. 
   
-- [Служба автообнаружения (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
 ```xml
  <Autodiscover>
@@ -36,18 +36,18 @@ ms.locfileid: "44527434"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Запрос (POX)](request-pox.md) <br/> |Содержит запрос к службе автообнаружения.  <br/> |
-|[Ответ (POX)](response-pox.md) <br/> |Содержит ответ от службы автообнаружения.  <br/> |
+|[Request (POX)](request-pox.md) <br/> |Содержит запрос в службу автооткрытия.  <br/> |
+|[Response (POX)](response-pox.md) <br/> |Содержит ответ от службы автооткрытия.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -55,5 +55,5 @@ ms.locfileid: "44527434"
   
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

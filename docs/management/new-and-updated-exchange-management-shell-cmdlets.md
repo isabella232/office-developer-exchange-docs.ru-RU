@@ -1,152 +1,152 @@
 ---
-title: Новые и обновленные командлеты командной консоли Exchange
+title: Новые и обновленные Exchange управления Shell
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5941a439-94d2-4133-81fc-7240863a13df
-description: Сведения о новых возможностях командной консоли Exchange в Exchange.
-ms.openlocfilehash: bda6607be20f2a21bc22d472d63615d46634d8ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения о новинках в Exchange в Exchange.
+ms.openlocfilehash: b90d7edb83f3cdcaeed11c3692e6981931eaaae1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457146"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513873"
 ---
-# <a name="new-and-updated-exchange-management-shell-cmdlets"></a>Новые и обновленные командлеты командной консоли Exchange
+# <a name="new-and-updated-exchange-management-shell-cmdlets"></a>Новые и обновленные Exchange управления Shell
 
-Сведения о новых возможностях командной консоли Exchange в Exchange.
+Сведения о новинках в Exchange в Exchange.
   
-**Применимо к:** Exchange Online | Exchange Server 2013 | Office 365
+**Применяется к:** Exchange Online | Exchange Server 2013 | Office 365
   
-В этой статье приводятся сведения о новых командлетах командной консоли Exchange, командлетах, которые были изменены в, а также командлетах, которые были удалены из Exchange Online, Exchange Online в составе Office 365 или локальной версии Exchange.
+В этой статье данная статья содержит сведения о новых Exchange-коде, комлетах, которые были изменены, и о комлетах, которые были удалены из Exchange Online, Exchange Online в составе Office 365 или локальной версии Exchange.
   
-## <a name="new-and-updated-cmdlets-in-exchange-2013-sp1"></a>Новые и обновленные командлеты в Exchange 2013 SP1
+## <a name="new-and-updated-cmdlets-in-exchange-2013-sp1"></a>Новые и обновленные cmdlets в Exchange 2013 SP1
 
 ### <a name="new-cmdlets"></a>Новые командлеты
 
-Следующие командлеты были представлены в сборке 15.00.0847.032 (Exchange Server 2013 с пакетом обновления 1 (SP1)):
+В сборке 15.00.0847.032 (Exchange Server 2013 SP1) были представлены следующие cmdlets:
   
-- **Get — Authredirect используется**
+- **Get-AuthRedirect**
     
-- **New — Authredirect используется**
+- **New-AuthRedirect**
     
-- **Remove — Authredirect используется**
+- **Remove-AuthRedirect**
     
-- **Set — Authredirect используется**
+- **Set-AuthRedirect**
     
-- **Новая классификация**
+- **New-DataClassification**
     
-- **Remove — Classification**
+- **Remove-DataClassification**
     
-- **Set — классификация**
+- **Set-DataClassification**
     
-- **Новый — отпечаток пальца**
+- **New-FingerPrint**
     
-- **Get — Мапивиртуалдиректори\***
+- **Get-MapiVirtualDirectory\***
     
-- **New — Мапивиртуалдиректори\***
+- **New-MapiVirtualDirectory\***
     
-- **Remove — Мапивиртуалдиректори\***
+- **Remove-MapiVirtualDirectory\***
     
-- **Set — Мапивиртуалдиректори\***
+- **Set-MapiVirtualDirectory\***
     
-- **Get — OMEConfiguration**
+- **Get-OMEConfiguration**
     
-- **Set — OMEConfiguration**
+- **Set-OMEConfiguration**
     
-- **Get — SmimeConfig**
+- **Get-SmimeConfig**
     
-- **Set — SmimeConfig**
+- **Set-SmimeConfig**
     
-- **Get — IntraOrganizationConfiguration**
+- **Get-IntraOrganizationConfiguration**
     
-- **Get — Intraorganizationconnector используется**
+- **Get-IntraOrganizationConnector**
     
-- **New — Intraorganizationconnector используется**
+- **New-IntraOrganizationConnector**
     
-- **Remove — Intraorganizationconnector используется**
+- **Remove-IntraOrganizationConnector**
     
-- **Set — Intraorganizationconnector используется**
+- **Set-IntraOrganizationConnector**
     
-- **Get — HistoricalSearch**
+- **Get-HistoricalSearch**
     
-- **Start — HistoricalSearch**
+- **Start-HistoricalSearch**
     
-- **Stop — HistoricalSearch**
+- **Stop-HistoricalSearch**
     
-- **New — Searchdocumentformat используется**
+- **New-SearchDocumentFormat**
     
-- **Remove — Searchdocumentformat используется**
+- **Remove-SearchDocumentFormat**
     
-### <a name="updated-cmdlets"></a>Обновленные командлеты
+### <a name="updated-cmdlets"></a>Обновленные комлеты
 
-Следующие командлеты были обновлены в сборке 15.00.0847.032 (Exchange 2013 с пакетом обновления 1 (SP1)):
+Следующие cmdlets были обновлены в сборке 15.00.0847.032 (Exchange 2013 SP1):
   
-- **Get — Аудитлогсеарч**
+- **Get-AuditLogSearch**
     
-- **Get — QuarantineMessage**
+- **Get-QuarantineMessage**
     
-- **New — Inboundconnector используется**
+- **New-InboundConnector**
     
-- **New — MailboxDatabase**
+- **New-MailboxDatabase**
     
-- **New — PublicFolderMoveRequest**
+- **New-PublicFolderMoveRequest**
     
-- **New — TransportRule**
+- **New-TransportRule**
     
-- **Set — FrontEndTransportService используется**
+- **Set-FrontendTransportService**
     
-- **Set — Inboundconnector используется**
+- **Set-InboundConnector**
     
 - **Set-Mailbox**
     
-- **Set — MailboxTransportService**
+- **Set-MailboxTransportService**
     
-- **Set — MoveRequest**
+- **Set-MoveRequest**
     
-- **Set — OrganizationConfig**
+- **Set-OrganizationConfig**
     
-- **Set — OwaMailboxPolicy**
+- **Set-OwaMailboxPolicy**
     
-- **Set — OwaVirtualDirectory**
+- **Set-OwaVirtualDirectory**
     
-- **Set — TransportConfig**
+- **Set-TransportConfig**
     
-- **Set — TransportRule**
+- **Set-TransportRule**
     
-- **Set — TransportServer**
+- **Set-TransportServer**
     
-- **Set — TransportService**
+- **Set-TransportService**
     
 - **Test-MRSHealth**
     
 - **Test-OAuthConnectivity**
     
-### <a name="removed-cmdlets"></a>Удаленные командлеты
+### <a name="removed-cmdlets"></a>Удаленные комлеты
 
-Следующие командлеты были удалены из сборки 15.00.0847.032 (Exchange 2013 с пакетом обновления 1 (SP1)):
+Следующие cmdlets были удалены из сборки 15.00.0847.032 (Exchange 2013 SP1):
   
-- **Get — AvailabilityReportOutage используется**
+- **Get-AvailabilityReportOutage**
     
-- **New — AvailabilityReportOutage используется**
+- **New-AvailabilityReportOutage**
     
-- **Remove — AvailabilityReportOutage используется**
+- **Remove-AvailabilityReportOutage**
     
-- **Set — AvailabilityReportOutage используется**
+- **Set-AvailabilityReportOutage**
     
-## <a name="new-and-updated-cmdlets-in-exchange-2013"></a>Новые и обновленные командлеты в Exchange 2013
+## <a name="new-and-updated-cmdlets-in-exchange-2013"></a>Новые и обновленные cmdlets в Exchange 2013
 
 ### <a name="new-cmdlets"></a>Новые командлеты
 <a name="bk_new"> </a>
 
-Следующие командлеты были представлены в Exchange 2013:
+В 2013 г. были представлены следующие Exchange:
   
-- **Get — Activesyncdeviceautoblockthreshold используется**
+- **Get-ActiveSyncDeviceAutoblockThreshold**
     
-- **Set — Activesyncdeviceautoblockthreshold используется**
+- **Set-ActiveSyncDeviceAutoblockThreshold**
     
 - **Disable-App**
     
@@ -160,369 +160,369 @@ ms.locfileid: "44457146"
     
 - **Set-App**
     
-- **Get — AuthConfig**
+- **Get-AuthConfig**
     
-- **Set — AuthConfig**
+- **Set-AuthConfig**
     
-- **Get — AuthServer**
+- **Get-AuthServer**
     
-- **New — AuthServer**
+- **New-AuthServer**
     
-- **Remove — AuthServer**
+- **Remove-AuthServer**
     
-- **Set — AuthServer**
+- **Set-AuthServer**
     
-- **New — AvailabilityConfig**
+- **New-AvailabilityConfig**
     
-- **Remove — AvailabilityConfig**
+- **Remove-AvailabilityConfig**
     
-- **Get — Календардиагностиканалисис**
+- **Get-CalendarDiagnosticAnalysis**
     
-- **Get — ClassificationRuleCollection**
+- **Get-ClassificationRuleCollection**
     
-- **New — ClassificationRuleCollection**
+- **New-ClassificationRuleCollection**
     
-- **Remove — ClassificationRuleCollection**
+- **Remove-ClassificationRuleCollection**
     
-- **Set — ClassificationRuleCollection**
+- **Set-ClassificationRuleCollection**
     
-- **Get — Connectsubscription используется**
+- **Get-ConnectSubscription**
     
-- **New — Connectsubscription используется**
+- **New-ConnectSubscription**
     
-- **Remove — Connectsubscription используется**
+- **Remove-ConnectSubscription**
     
-- **Set — Connectsubscription используется**
+- **Set-ConnectSubscription**
     
-- **Получение классификации**
+- **Get-DataClassification**
     
-- **Get — Датаклассификатионконфиг**
+- **Get-DataClassificationConfig**
     
-- **Get — DlpPolicy используется**
+- **Get-DlpPolicy**
     
-- **New — DlpPolicy используется**
+- **New-DlpPolicy**
     
-- **Remove — DlpPolicy используется**
+- **Remove-DlpPolicy**
     
-- **Set — DlpPolicy используется**
+- **Set-DlpPolicy**
     
-- **Export — Dlppolicycollection используется**
+- **Export-DlpPolicyCollection**
     
-- **Import — Dlppolicycollection используется**
+- **Import-DlpPolicyCollection**
     
-- **Get — Dlppolicytemplate используется**
+- **Get-DlpPolicyTemplate**
     
-- **Import — Dlppolicytemplate используется**
+- **Import-DlpPolicyTemplate**
     
-- **Remove — Dlppolicytemplate используется**
+- **Remove-DlpPolicyTemplate**
     
-- **Get — Ексчанжесерверакцесслиценсе**
+- **Get-ExchangeServerAccessLicense**
     
-- **Get — Ексчанжесерверакцесслиценсеусер**
+- **Get-ExchangeServerAccessLicenseUser**
     
-- **Get — Ффомигратионрепорт**
+- **Get-FfoMigrationReport**
     
-- **Get — FrontEndTransportService используется**
+- **Get-FrontendTransportService**
     
-- **Set — FrontEndTransportService используется**
+- **Set-FrontendTransportService**
     
-- **Add — GlobalMonitoringOverride**
+- **Add-GlobalMonitoringOverride**
     
-- **Get — GlobalMonitoringOverride**
+- **Get-GlobalMonitoringOverride**
     
-- **Remove — GlobalMonitoringOverride**
+- **Remove-GlobalMonitoringOverride**
     
-- **Get — Граупактивитирепорт**
+- **Get-GroupActivityReport**
     
-- **Get — Хеалсрепорт**
+- **Get-HealthReport**
     
-- **Get — Hostedconnectionfilterpolicy используется**
+- **Get-HostedConnectionFilterPolicy**
     
-- **New — Hostedconnectionfilterpolicy используется**
+- **New-HostedConnectionFilterPolicy**
     
-- **Remove — Hostedconnectionfilterpolicy используется**
+- **Remove-HostedConnectionFilterPolicy**
     
-- **Set — Hostedconnectionfilterpolicy используется**
+- **Set-HostedConnectionFilterPolicy**
     
-- **Get — HostedContentFilterPolicy**
+- **Get-HostedContentFilterPolicy**
     
-- **New — HostedContentFilterPolicy**
+- **New-HostedContentFilterPolicy**
     
-- **Remove — HostedContentFilterPolicy**
+- **Remove-HostedContentFilterPolicy**
     
-- **Set — HostedContentFilterPolicy**
+- **Set-HostedContentFilterPolicy**
     
-- **Get — Хостедаутбаундспамфилтерполици**
+- **Get-HostedOutboundSpamFilterPolicy**
     
-- **Set — Хостедаутбаундспамфилтерполици**
+- **Set-HostedOutboundSpamFilterPolicy**
     
-- **Remove — HybridConfiguration**
+- **Remove-HybridConfiguration**
     
-- **Get — Hybridmailflow используется**
+- **Get-HybridMailflow**
     
-- **Set — Hybridmailflow используется**
+- **Set-HybridMailflow**
     
-- **Get — Хибридмаилфловдатацентерипс**
+- **Get-HybridMailflowDatacenterIPs**
     
-- **Get — Inboundconnector используется**
+- **Get-InboundConnector**
     
-- **New — Inboundconnector используется**
+- **New-InboundConnector**
     
-- **Remove — Inboundconnector используется**
+- **Remove-InboundConnector**
     
-- **Set — Inboundconnector используется**
+- **Set-InboundConnector**
     
-- **Get — Маилбоксактивитирепорт**
+- **Get-MailboxActivityReport**
     
-- **Disable — Mailboxquarantine используется**
+- **Disable-MailboxQuarantine**
     
-- **Enable — Mailboxquarantine используется**
+- **Enable-MailboxQuarantine**
     
-- **Get — MailboxTransportService**
+- **Get-MailboxTransportService**
     
-- **Set — MailboxTransportService**
+- **Set-MailboxTransportService**
     
-- **Get — Маилдетаилдлпполицирепорт**
+- **Get-MailDetailDlpPolicyReport**
     
-- **Get — Маилдетаилмалваререпорт**
+- **Get-MailDetailMalwareReport**
     
-- **Get — Маилдетаилрепорт**
+- **Get-MailDetailReport**
     
-- **Get — Маилдетаилспамрепорт**
+- **Get-MailDetailSpamReport**
     
-- **Get — Маилдетаилтранспортрулерепорт**
+- **Get-MailDetailTransportRuleReport**
     
-- **Get — Маилфилтерлистрепорт**
+- **Get-MailFilterListReport**
     
-- **Get — Mailtrafficpolicyreport используется**
+- **Get-MailTrafficPolicyReport**
     
-- **Get — Маилтраффикрепорт**
+- **Get-MailTrafficReport**
     
-- **Get — Маилтраффиксуммарирепорт**
+- **Get-MailTrafficSummaryReport**
     
-- **Get — Маилтраффиктопрепорт**
+- **Get-MailTrafficTopReport**
     
-- **Get — MalwareFilteringServer используется**
+- **Get-MalwareFilteringServer**
     
-- **Set — MalwareFilteringServer используется**
+- **Set-MalwareFilteringServer**
     
-- **Get — MalwareFilterPolicy**
+- **Get-MalwareFilterPolicy**
     
-- **New — MalwareFilterPolicy**
+- **New-MalwareFilterPolicy**
     
-- **Remove — MalwareFilterPolicy**
+- **Remove-MalwareFilterPolicy**
     
-- **Set — MalwareFilterPolicy**
+- **Set-MalwareFilterPolicy**
     
-- **Get — MalwareFilterRecoveryItem используется**
+- **Get-MalwareFilterRecoveryItem**
     
-- **Remove — MalwareFilterRecoveryItem используется**
+- **Remove-MalwareFilterRecoveryItem**
     
-- **Resume — MalwareFilterRecoveryItem используется**
+- **Resume-MalwareFilterRecoveryItem**
     
-- **Send — Маписубмитсистемпробе**
+- **Send-MapiSubmitSystemProbe**
     
 - **Redirect-Message**
     
-- **Get — MessageTrace**
+- **Get-MessageTrace**
     
-- **Get — MessageTraceDetail**
+- **Get-MessageTraceDetail**
     
-- **Complete — MigrationBatch**
+- **Complete-MigrationBatch**
     
-- **Remove — MigrationBatch**
+- **Remove-MigrationBatch**
     
-- **Get — Migrationconfig используется**
+- **Get-MigrationConfig**
     
-- **Set — Migrationconfig используется**
+- **Set-MigrationConfig**
     
-- **Get — Migrationendpoint используется**
+- **Get-MigrationEndpoint**
     
-- **New — Migrationendpoint используется**
+- **New-MigrationEndpoint**
     
-- **Remove — Migrationendpoint используется**
+- **Remove-MigrationEndpoint**
     
-- **Set — Migrationendpoint используется**
+- **Set-MigrationEndpoint**
     
-- **Get — Мигратионстатистикс**
+- **Get-MigrationStatistics**
     
-- **Get — MigrationUser**
+- **Get-MigrationUser**
     
-- **Remove — MigrationUser**
+- **Remove-MigrationUser**
     
-- **Get — Мигратионусерстатистикс**
+- **Get-MigrationUserStatistics**
     
-- **Clear — MobileDevice**
+- **Clear-MobileDevice**
     
-- **Get — MobileDevice**
+- **Get-MobileDevice**
     
-- **Remove — MobileDevice**
+- **Remove-MobileDevice**
     
-- **Get — MobileDeviceMailboxPolicy**
+- **Get-MobileDeviceMailboxPolicy**
     
-- **New — MobileDeviceMailboxPolicy**
+- **New-MobileDeviceMailboxPolicy**
     
-- **Remove — MobileDeviceMailboxPolicy**
+- **Remove-MobileDeviceMailboxPolicy**
     
-- **Set — MobileDeviceMailboxPolicy**
+- **Set-MobileDeviceMailboxPolicy**
     
-- **Get — Мобиледевицестатистикс**
+- **Get-MobileDeviceStatistics**
     
-- **Get — Мониторингитемхелп**
+- **Get-MonitoringItemHelp**
     
-- **Get — Мониторингитемидентити**
+- **Get-MonitoringItemIdentity**
     
-- **Invoke — Мониторингпробе**
+- **Invoke-MonitoringProbe**
     
-- **Get — уведомление**
+- **Get-Notification**
     
-- **Set — Notification**
+- **Set-Notification**
     
 - **Test-OAuthConnectivity**
     
-- **Get — Onpremisesorganization используется**
+- **Get-OnPremisesOrganization**
     
-- **New — Onpremisesorganization используется**
+- **New-OnPremisesOrganization**
     
-- **Remove — Onpremisesorganization используется**
+- **Remove-OnPremisesOrganization**
     
-- **Set — Onpremisesorganization используется**
+- **Set-OnPremisesOrganization**
     
-- **Enable — Организатионкустомизатион**
+- **Enable-OrganizationCustomization**
     
-- **Get — OutboundConnector**
+- **Get-OutboundConnector**
     
-- **New — OutboundConnector**
+- **New-OutboundConnector**
     
-- **Remove — OutboundConnector**
+- **Remove-OutboundConnector**
     
-- **Set — OutboundConnector**
+- **Set-OutboundConnector**
     
-- **Get — Partnerapplication используется**
+- **Get-PartnerApplication**
     
-- **New — Partnerapplication используется**
+- **New-PartnerApplication**
     
-- **Remove — Partnerapplication используется**
+- **Remove-PartnerApplication**
     
-- **Set — Partnerapplication используется**
+- **Set-PartnerApplication**
     
-- **Get — PendingFederatedDomain используется**
+- **Get-PendingFederatedDomain**
     
-- **Set — PendingFederatedDomain используется**
+- **Set-PendingFederatedDomain**
     
-- **Get — PolicyTipConfig**
+- **Get-PolicyTipConfig**
     
-- **New — PolicyTipConfig**
+- **New-PolicyTipConfig**
     
-- **Remove — PolicyTipConfig**
+- **Remove-PolicyTipConfig**
     
-- **Set — PolicyTipConfig**
+- **Set-PolicyTipConfig**
     
-- **Dump — Provisioningcache используется**
+- **Dump-ProvisioningCache**
     
-- **Reset — Provisioningcache используется**
+- **Reset-ProvisioningCache**
     
-- **Update — Публикфолдермаилбокс**
+- **Update-PublicFolderMailbox**
     
-- **Get — Публикфолдермаилбоксдиагностикс**
+- **Get-PublicFolderMailboxDiagnostics**
     
-- **Get — PublicFolderMigrationRequest**
+- **Get-PublicFolderMigrationRequest**
     
-- **New — PublicFolderMigrationRequest**
+- **New-PublicFolderMigrationRequest**
     
-- **Remove — PublicFolderMigrationRequest**
+- **Remove-PublicFolderMigrationRequest**
     
-- **Resume — PublicFolderMigrationRequest**
+- **Resume-PublicFolderMigrationRequest**
     
-- **Set — PublicFolderMigrationRequest**
+- **Set-PublicFolderMigrationRequest**
     
-- **Suspend — PublicFolderMigrationRequest**
+- **Suspend-PublicFolderMigrationRequest**
     
-- **Get — Публикфолдермигратионрекуестстатистикс**
+- **Get-PublicFolderMigrationRequestStatistics**
     
-- **Get — QuarantineMessage**
+- **Get-QuarantineMessage**
     
-- **Release — QuarantineMessage**
+- **Release-QuarantineMessage**
     
-- **Get — QueueDigest**
+- **Get-QueueDigest**
     
-- **Get — ResourcePolicy используется**
+- **Get-ResourcePolicy**
     
-- **New — ResourcePolicy используется**
+- **New-ResourcePolicy**
     
-- **Remove — ResourcePolicy используется**
+- **Remove-ResourcePolicy**
     
-- **Set — ResourcePolicy используется**
+- **Set-ResourcePolicy**
     
-- **Add — ResubmitRequest используется**
+- **Add-ResubmitRequest**
     
-- **Get — ResubmitRequest используется**
+- **Get-ResubmitRequest**
     
-- **Remove — ResubmitRequest используется**
+- **Remove-ResubmitRequest**
     
-- **Set — ResubmitRequest используется**
+- **Set-ResubmitRequest**
     
-- **Get — ServerComponentState**
+- **Get-ServerComponentState**
     
-- **Set — ServerComponentState**
+- **Set-ServerComponentState**
     
-- **Get — Серверхеалс**
+- **Get-ServerHealth**
     
-- **Set — Сервермонитор**
+- **Set-ServerMonitor**
     
-- **Add — ServerMonitoringOverride**
+- **Add-ServerMonitoringOverride**
     
-- **Get — ServerMonitoringOverride**
+- **Get-ServerMonitoringOverride**
     
-- **Get — SiteMailbox**
+- **Get-SiteMailbox**
     
-- **New — SiteMailbox**
+- **New-SiteMailbox**
     
-- **Set — SiteMailbox**
+- **Set-SiteMailbox**
     
 - **Test-SiteMailbox**
     
-- **Update — SiteMailbox**
+- **Update-SiteMailbox**
     
-- **Get — Ситемаилбоксдиагностикс**
+- **Get-SiteMailboxDiagnostics**
     
-- **Get — Sitemailboxprovisioningpolicy используется**
+- **Get-SiteMailboxProvisioningPolicy**
     
-- **New — Sitemailboxprovisioningpolicy используется**
+- **New-SiteMailboxProvisioningPolicy**
     
-- **Remove — Sitemailboxprovisioningpolicy используется**
+- **Remove-SiteMailboxProvisioningPolicy**
     
-- **Set — Sitemailboxprovisioningpolicy используется**
+- **Set-SiteMailboxProvisioningPolicy**
     
-- **Undo — SoftDeletedMailbox**
+- **Undo-SoftDeletedMailbox**
     
-- **Get — Сталемаилбоксдетаилрепорт**
+- **Get-StaleMailboxDetailReport**
     
-- **Get — StaleMailboxReport**
+- **Get-StaleMailboxReport**
     
-- **Update — StoreMailboxState**
+- **Update-StoreMailboxState**
     
-- **New — Синкмаилпубликфолдер**
+- **New-SyncMailPublicFolder**
     
-- **Get — TransportService**
+- **Get-TransportService**
     
-- **Set — TransportService**
+- **Set-TransportService**
     
-- **Disable — UMCallAnsweringRule**
+- **Disable-UMCallAnsweringRule**
     
-- **Enable — UMCallAnsweringRule**
+- **Enable-UMCallAnsweringRule**
     
-- **Get — UMCallAnsweringRule**
+- **Get-UMCallAnsweringRule**
     
-- **New — UMCallAnsweringRule**
+- **New-UMCallAnsweringRule**
     
-- **Remove — UMCallAnsweringRule**
+- **Remove-UMCallAnsweringRule**
     
-- **Set — UMCallAnsweringRule**
+- **Set-UMCallAnsweringRule**
     
-- **Get — UMCallRouterSettings**
+- **Get-UMCallRouterSettings**
     
-- **Set — UMCallRouterSettings**
+- **Set-UMCallRouterSettings**
     
 - **Disable-UMService**
     
@@ -532,208 +532,208 @@ ms.locfileid: "44457146"
     
 - **Set-UMService**
     
-- **Get — UserPhoto**
+- **Get-UserPhoto**
     
-- **Remove — UserPhoto**
+- **Remove-UserPhoto**
     
-- **Set — UserPhoto**
+- **Set-UserPhoto**
     
-- **Get — WorkloadManagementPolicy**
+- **Get-WorkloadManagementPolicy**
     
-- **New — WorkloadManagementPolicy**
+- **New-WorkloadManagementPolicy**
     
-- **Remove — WorkloadManagementPolicy**
+- **Remove-WorkloadManagementPolicy**
     
-- **Get — Workloadpolicy используется**
+- **Get-WorkloadPolicy**
     
-- **New — Workloadpolicy используется**
+- **New-WorkloadPolicy**
     
-- **Remove — Workloadpolicy используется**
+- **Remove-WorkloadPolicy**
     
-- **Set — Workloadpolicy используется**
+- **Set-WorkloadPolicy**
     
-### <a name="modified-cmdlets"></a>Измененные командлеты
+### <a name="modified-cmdlets"></a>Измененные cmdlets
 <a name="bk_update"> </a>
 
-Типы входных и выходных данных для следующих командлетов были изменены в Exchange 2013:
+В 2013 г. были изменены типы ввода или вывода для следующих Exchange.
   
-- **Clear — ActiveSyncDevice**
+- **Clear-ActiveSyncDevice**
     
-- **Remove — ActiveSyncDevice**
+- **Remove-ActiveSyncDevice**
     
-- **Get — ActiveSyncMailboxPolicy**
+- **Get-ActiveSyncMailboxPolicy**
     
-- **New — ActiveSyncMailboxPolicy**
+- **New-ActiveSyncMailboxPolicy**
     
-- **New — ActiveSyncVirtualDirectory**
+- **New-ActiveSyncVirtualDirectory**
     
-- **New — AutodiscoverVirtualDirectory используется**
+- **New-AutodiscoverVirtualDirectory**
     
-- **Set — AvailabilityConfig**
+- **Set-AvailabilityConfig**
     
-- **Enable — ExchangeCertificate**
+- **Enable-ExchangeCertificate**
     
-- **Export — ExchangeCertificate**
+- **Export-ExchangeCertificate**
     
-- **Import — ExchangeCertificate**
+- **Import-ExchangeCertificate**
     
-- **Remove — ExchangeCertificate**
+- **Remove-ExchangeCertificate**
     
-- **Get — Фаиледконтентиндексдокументс**
+- **Get-FailedContentIndexDocuments**
     
-- **Get — FederationInformation**
+- **Get-FederationInformation**
     
-- **New — HybridConfiguration**
+- **New-HybridConfiguration**
     
-- **Set — HybridConfiguration**
+- **Set-HybridConfiguration**
     
 - **New-Mailbox**
     
-- **Resume — MailboxDatabaseCopy**
+- **Resume-MailboxDatabaseCopy**
     
-- **Set — MailboxDatabaseCopy**
+- **Set-MailboxDatabaseCopy**
     
-- **Suspend — MailboxDatabaseCopy**
+- **Suspend-MailboxDatabaseCopy**
     
 - **Update-MailboxDatabaseCopy**
     
-- **Get — MailboxExportRequest**
+- **Get-MailboxExportRequest**
     
-- **Set — MailboxExportRequest**
+- **Set-MailboxExportRequest**
     
-- **Add — MailboxFolderPermission**
+- **Add-MailboxFolderPermission**
     
-- **Remove — MailboxFolderPermission**
+- **Remove-MailboxFolderPermission**
     
-- **Set — MailboxFolderPermission**
+- **Set-MailboxFolderPermission**
     
-- **Get — MailboxImportRequest**
+- **Get-MailboxImportRequest**
     
-- **Set — MailboxImportRequest**
+- **Set-MailboxImportRequest**
     
-- **Get — MailboxRestoreRequest**
+- **Get-MailboxRestoreRequest**
     
-- **Set — MailboxRestoreRequest**
+- **Set-MailboxRestoreRequest**
     
-- **Get — MailboxSearch**
+- **Get-MailboxSearch**
     
-- **Remove — MailboxSearch**
+- **Remove-MailboxSearch**
     
-- **Set — MailboxSearch**
+- **Set-MailboxSearch**
     
-- **Start — MailboxSearch**
+- **Start-MailboxSearch**
     
-- **Stop — MailboxSearch**
+- **Stop-MailboxSearch**
     
-- **Disable — MailPublicFolder**
+- **Disable-MailPublicFolder**
     
-- **Get — MailPublicFolder**
+- **Get-MailPublicFolder**
     
-- **Set — MailPublicFolder**
+- **Set-MailPublicFolder**
     
-- **Get — MigrationBatch**
+- **Get-MigrationBatch**
     
-- **New — MigrationBatch**
+- **New-MigrationBatch**
     
-- **Set — MigrationBatch**
+- **Set-MigrationBatch**
     
-- **Test-Мигратионсервераваилабилити**
+- **Test-MigrationServerAvailability**
     
-- **Get — MoveRequest**
+- **Get-MoveRequest**
     
-- **New — OfflineAddressBook**
+- **New-OfflineAddressBook**
     
-- **Get — OrganizationConfig**
+- **Get-OrganizationConfig**
     
-- **Set — OrganizationConfig**
+- **Set-OrganizationConfig**
     
 - **Test-OutlookConnectivity**
     
-- **Test-Аутлуквебсервицес**
+- **Test-OutlookWebServices**
     
-- **Get — OwaMailboxPolicy**
+- **Get-OwaMailboxPolicy**
     
-- **New — OwaVirtualDirectory**
+- **New-OwaVirtualDirectory**
     
-- **New — PowerShellVirtualDirectory**
+- **New-PowerShellVirtualDirectory**
     
-- **Get — PublicFolder**
+- **Get-PublicFolder**
     
-- **New — PublicFolder**
+- **New-PublicFolder**
     
-- **Set — PublicFolder**
+- **Set-PublicFolder**
     
-- **Add — PublicFolderClientPermission**
+- **Add-PublicFolderClientPermission**
     
-- **Get — PublicFolderClientPermission**
+- **Get-PublicFolderClientPermission**
     
-- **Remove — PublicFolderClientPermission**
+- **Remove-PublicFolderClientPermission**
     
-- **Get — PublicFolderItemStatistics**
+- **Get-PublicFolderItemStatistics**
     
-- **Get — PublicFolderStatistics**
+- **Get-PublicFolderStatistics**
     
 - **Get-Recipient**
     
-- **Set — ResourceConfig**
+- **Set-ResourceConfig**
     
-- **Test-webservicesconnectivity используется**
+- **Test-WebServicesConnectivity**
     
-- **New — Webservicesvirtualdirectory используется**
+- **New-WebServicesVirtualDirectory**
     
-### <a name="removed-cmdlets"></a>Удаленные командлеты
+### <a name="removed-cmdlets"></a>Удаленные комлеты
 <a name="bk_removed"> </a>
 
-Следующие командлеты были удалены из Exchange 2013:
+Следующие cmdlets были удалены из Exchange 2013:
   
-- **Update — Филедистрибутионсервице**
+- **Update-FileDistributionService**
     
-- **Restore — Mailbox**
+- **Восстановление-почтовый ящик**
     
-- **Чистка — MailboxDatabase**
+- **Clean-MailboxDatabase**
     
 - **Полная миграция**
     
-- **Get — Мигратионстатус**
+- **Get-MigrationStatus**
     
-- **Update — PublicFolder**
+- **Update-PublicFolder**
     
-- **Add — PublicFolderAdministrativePermission**
+- **Add-PublicFolderAdministrativePermission**
     
-- **Get — PublicFolderAdministrativePermission**
+- **Get-PublicFolderAdministrativePermission**
     
-- **Remove — PublicFolderAdministrativePermission**
+- **Remove-PublicFolderAdministrativePermission**
     
-- **New — PublicFolderDatabase**
+- **New-PublicFolderDatabase**
     
-- **Remove — PublicFolderDatabase**
+- **Remove-PublicFolderDatabase**
     
-- **Set — PublicFolderDatabase**
+- **Set-PublicFolderDatabase**
     
-- **New — Публикфолдердатабасерепаиррекуест**
+- **New-PublicFolderDatabaseRepairRequest**
     
-- **Update — Публикфолдерхиерарчи**
+- **Update-PublicFolderHierarchy**
     
-- **Resume — Публикфолдеррепликатион**
+- **Resume-PublicFolderReplication**
     
-- **Suspend — Публикфолдеррепликатион**
+- **Suspend-PublicFolderReplication**
     
-- **Start — Ретентионаутотаглеарнинг**
+- **Start-RetentionAutoTagLearning**
     
-- **Test-Системхеалс**
+- **Test-SystemHealth**
     
-- **Disable — UMServer**
+- **Disable-UMServer**
     
-- **Enable — UMServer**
+- **Enable-UMServer**
     
-- **Get — UMServer**
+- **Get-UMServer**
     
-- **Set — UMServer**
+- **Set-UMServer**
     
 ## <a name="see-also"></a>См. также
 
 - [Типы входных и выходных данных командлетов командной консоли Exchange](exchange-management-shell-cmdlet-input-and-output-types.md)    
-- [Получение списка пользователей почты с помощью командной консоли Exchange](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
+- [Получить список пользователей почты с помощью Exchange shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
 - [Exchange 2013 cmdlets](https://technet.microsoft.com/library/bb124413%28v=exchg.150%29.aspx)
     
 
