@@ -5,50 +5,50 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cb5525f-faa3-48f1-9551-df55ffc26f46
-description: Поиск сведений о AddNewImContactToGroupной операции EWS.
-ms.openlocfilehash: e91cc067b4161b366e6713a9adc16873e63b1562
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции AddNewImContactToGroup EWS.
+ms.openlocfilehash: 0060b7a0f169e5d8ce0034625ea0c4b367521301
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465031"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520138"
 ---
 # <a name="addnewimcontacttogroup-operation"></a>Операция AddNewImContactToGroup
 
-Поиск сведений о **AddNewImContactToGroupной** операции EWS. 
+Сведения об операции **AddNewImContactToGroup** EWS. 
   
-Операция **AddNewImContactToGroup** добавляет новый контакт в группу мгновенных сообщений (IM). 
+Операция **AddNewImContactToGroup** добавляет новый контакт в группу обмена мгновенными сообщениями. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-addnewimcontacttogroup-operation"></a>Использование операции AddNewImContactToGroup
 
-Для добавления нового контакта в группу обмена мгновенными сообщениями в операции **AddNewImContactToGroup** используются три указанных ниже аргумента. 
+Операция **AddNewImContactToGroup** приводит следующие три аргумента, чтобы добавить новый контакт в группу im: 
   
-- Свойство " **Address** " — определяет адрес для обмена мгновенными сообщениями контакта. Это свойство является обязательным. 
+- **Свойство ImAddress** — определяет im-адрес контакта. Это свойство является обязательным. 
     
-- Свойство **DisplayName** — определяет отображаемое имя контакта. 
+- **Свойство DisplayName** — определяет имя отображения контакта. 
     
-- **GroupId** свойство — определяет группу, в которую добавляется контакт. 
+- **Свойство GroupId** — определяет группу, в которую добавляется контакт. 
     
-Эта операция возвращает пользователя контакта, который был добавлен в группу.
+Эта операция возвращает персону контакта, добавленного в группу.
   
-### <a name="addnewimcontacttogroup-operation-soap-headers"></a>Заголовки SOAP операции AddNewImContactToGroup
+### <a name="addnewimcontacttogroup-operation-soap-headers"></a>Надстройки для операции ADDNewImContactToGroup
 
-Операция **AddNewImContactToGroup** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+Операция **AddNewImContactToGroup** может использовать заглавные таблицы SOAP, перечисленные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
-|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает. Этот заглавный заглавник применим к запросу.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет культуру, определяемую в RFC 3066 , "Теги для идентификации языков", которая будет использоваться для доступа к почтовому ящику. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="addnewimcontacttogroup-operation-request-example-add-a-new-im-contact-to-a-group"></a>Пример запроса операции AddNewImContactToGroup: Добавление нового контакта для обмена мгновенными сообщениями в группу
+## <a name="addnewimcontacttogroup-operation-request-example-add-a-new-im-contact-to-a-group"></a>Пример запроса на операцию AddNewImContactToGroup: добавление нового контакта с чатом в группу
 
-В следующем примере запроса операции **AddNewImContactToGroup** показано, как добавить новый контакт в существующую группу обмена мгновенными сообщениями. Значение свойства **groupId** для этого примера было возвращено из результатов [операции AddImGroup](addimgroup-operation.md). Свойство **ексчанжестореид** содержит значение свойства **groupId** . 
+В следующем примере запроса **операции AddNewImContactToGroup** показано, как добавить новый контакт в существующую группу im. Значение **свойства GroupId** для этого примера было возвращено по результатам операции [AddImGroup.](addimgroup-operation.md) Свойство **ExchangeStoreId** содержит значение **свойства GroupId.** 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -74,24 +74,24 @@ ms.locfileid: "44465031"
 ```
 
 > [!NOTE]
-> Значение **groupId** было сокращено, чтобы сохранить удобочитаемость. 
+> Значение **GroupId** было сокращено для сохранения читаемости. 
   
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [AddNewImContactToGroup](addnewimcontacttogroup.md)
     
-- [Адрес (String)](imaddress-string.md)
+- [ImAddress (строка)](imaddress-string.md)
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-addnewimcontacttogroup-operation-response"></a>Успешный отклик операции AddNewImContactToGroup
+## <a name="successful-addnewimcontacttogroup-operation-response"></a>Успешный ответ операции AddNewImContactToGroup
 
-В следующем примере показан успешный ответ на запрос операции **AddNewImContactToGroup** . Ответ содержит пользователя созданного контакта. Контакт будет добавлен в папку "Быстрые контакты" в Exchange. 
+В следующем примере показан успешный ответ на запрос **операции AddNewImContactToGroup.** Ответ содержит персону вновь созданного контакта. Контакт добавляется в папку Быстрые контакты в Exchange. 
   
 > [!NOTE]
-> Идентификаторы сокращены для сохранения удобочитаемости. 
+> Для сохранения читаемости были сокращены идентификаторы. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -190,71 +190,71 @@ ms.locfileid: "44465031"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [аддневимконтакттограупреспонсе](addnewimcontacttogroupresponse.md)
+- [AddNewImContactToGroupResponse](addnewimcontacttogroupresponse.md)
     
 - [Роль](persona.md)
     
-- [персонаид](personaid.md)
+- [PersonaId](personaid.md)
     
-- [персонатипе](personatype.md)
+- [PersonaType](personatype.md)
     
 - [CreationTime](creationtime.md)
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
-- [дисплайнамефирстласт](displaynamefirstlast.md)
+- [DisplayNameFirstLast](displaynamefirstlast.md)
     
-- [дисплайнамеластфирст](displaynamelastfirst.md)
+- [DisplayNameLastFirst](displaynamelastfirst.md)
     
-- [филеасид](fileasid.md)
+- [FileAsId](fileasid.md)
     
 - [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
     
-- [Имя (EmailAddressType)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
 - [Address (строка)](address-string.md)
     
-- [Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
-- [Адрес (String)](imaddress-string.md)
+- [ImAddress (строка)](imaddress-string.md)
     
-- [релеванцескоре](relevancescore.md)
+- [RelevanceScore](relevancescore.md)
     
-- [Атрибуты (Аррайофперсонааттрибутионстипе)](attributions-arrayofpersonaattributionstype.md)
+- [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
-- [Атрибуты (Персонааттрибутионтипе)](attribution-personaattributiontype.md)
+- [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
 - [ID (строка)](id-string.md)
     
 - [SourceId](sourceid.md)
     
-- [Доступный для записи](iswritable.md)
+- [IsWritable](iswritable.md)
     
-- [искуиккконтакт](isquickcontact.md)
+- [IsQuickContact](isquickcontact.md)
     
 - [IsHidden](ishidden.md)
     
 - [FolderId](folderid.md)
     
-- [DisplayName](displaynames.md)
+- [DisplayNames](displaynames.md)
     
-- [стрингаттрибутедвалуе](stringattributedvalue.md)
+- [StringAttributedValue](stringattributedvalue.md)
     
-- [Значение (Аррайофстрингвалуетипе)](value-arrayofstringvaluetype.md)
+- [Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
     
-- [филеасидс](fileasids.md)
+- [FileAsIds](fileasids.md)
     
 - [Emails1](emails1.md)
     
-- [емаиладдрессаттрибутедвалуе](emailaddressattributedvalue.md)
+- [EmailAddressAttributedValue](emailaddressattributedvalue.md)
     
-- [Адреса](imaddresses.md)
+- [ImAddresses](imaddresses.md)
     
-## <a name="addnewimcontacttogroup-operation-error-response"></a>Ответ об ошибке операции AddNewImContactToGroup
+## <a name="addnewimcontacttogroup-operation-error-response"></a>Ответ на ошибку операции AddNewImContactToGroup
 
-В следующем примере показан ответ об ошибке для запроса операции **AddNewImContactToGroup** . Это ответ на запрос на добавление контакта в группу, которая не находится в почтовом ящике запросившего. 
+В следующем примере показан ответ на ошибку запроса **операции AddNewImContactToGroup.** Это ответ на запрос о добавлении контакта в группу, которая не находится в почтовом ящике запрашиваемой группы. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -285,19 +285,19 @@ ms.locfileid: "44465031"
 </s:Envelope>
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [аддневимконтакттограупреспонсе](addnewimcontacttogroupresponse.md)
+- [AddNewImContactToGroupResponse](addnewimcontacttogroupresponse.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [мессажексмл](messagexml.md)
+- [MessageXml](messagexml.md)
     
-Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
+Дополнительные коды ошибок, общие для EWS и специфические для этой операции, см. [в ответе.](responsecode.md)
   
 ## <a name="see-also"></a>См. также
 

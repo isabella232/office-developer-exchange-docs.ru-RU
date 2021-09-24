@@ -3,40 +3,40 @@ title: Добавление и удаление делегатов с помощ
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc7760bf-633b-483a-84ae-b52f437af2d3
-description: Узнайте, как добавлять делегаты или удалять делегаты из почтовых ящиков пользователей с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 9db0171db51c0847d54bbcec7e28937eaed18d43
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Узнайте, как добавить делегатов для или удалить делегатов из почтовых ящиков пользователей с помощью управляемого API EWS или EWS в Exchange.
+ms.openlocfilehash: 67370360e24da55b7a908d0a34b7ac1ec949877d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455340"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520208"
 ---
 # <a name="add-and-remove-delegates-by-using-ews-in-exchange"></a>Добавление и удаление делегатов с помощью EWS в Exchange
 
-Узнайте, как добавлять делегаты или удалять делегаты из почтовых ящиков пользователей с помощью управляемого API EWS или EWS в Exchange.
+Узнайте, как добавить делегатов для или удалить делегатов из почтовых ящиков пользователей с помощью управляемого API EWS или EWS в Exchange.
   
-Вы можете использовать управляемый API EWS или EWS, чтобы позволить представителям действовать от имени владельца почтового ящика или удалять доступ представителя к почтовому ящику. Пользователи, добавленные в качестве представителей и обладающие разрешениями, могут выполнять задачи от имени владельца почтового ящика. Например, они могут создавать и отправлять приглашения на собрания, отправлять сообщения электронной почты и отвечать на приглашения на собрания от имени владельца почтового ящика. 
+Вы можете использовать управляемый API или EWS EWS, чтобы позволить делегатам действовать от имени владельца почтового ящика или удалять доступ делегата к почтовому ящику. Пользователи, которые добавляются в качестве делегата и имеют разрешения, могут выполнять задачи от имени владельца почтового ящика. Например, они могут создавать и отправлять приглашения на собрания, отправлять электронные письма и отвечать на запросы собраний от имени владельца почтового ящика. 
   
 **Таблица 1. Методы управляемого API EWS и операции EWS для добавления и удаления делегатов**
 
 |**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Добавление делегатов  <br/> |[ExchangeService. Аддделегатес](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) <br/> |[AddDelegate](https://msdn.microsoft.com/library/646fb994-229e-4d90-8b95-6541191cb3ae%28Office.15%29.aspx) <br/> |
-|Удаление делегатов  <br/> |[ExchangeService. Ремоведелегатес](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) <br/> |[RemoveDelegate](https://msdn.microsoft.com/library/f21c5171-62e7-47c8-99b1-22e1ff5883bb%28Office.15%29.aspx) <br/> |
+|Добавление делегатов  <br/> |[ExchangeService.AddDelegates](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) <br/> |[AddDelegate](https://msdn.microsoft.com/library/646fb994-229e-4d90-8b95-6541191cb3ae%28Office.15%29.aspx) <br/> |
+|Удаление делегатов  <br/> |[ExchangeService.RemoveDelegates](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) <br/> |[RemoveDelegate](https://msdn.microsoft.com/library/f21c5171-62e7-47c8-99b1-22e1ff5883bb%28Office.15%29.aspx) <br/> |
    
-После предоставления представителю разрешений на доступ к папке они могут работать над элементами в папке и во всех вложенных папках в соответствии с [разрешениями делегата](delegate-access-and-ews-in-exchange.md#bk_delegateperms). Разрешения для делегатов применяются только к подпапкам, созданным после предоставления доступа представителя. Чтобы обновить разрешения папки для уже существующих папок или других папок, ознакомьтесь с [разрешениями задание разрешений для папки для другого пользователя с помощью EWS в Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
+После того как делегату будут предоставлены разрешения в папку, они могут действовать по пунктам в папке и в подмостках в соответствии с разрешениями [делегатов.](delegate-access-and-ews-in-exchange.md#bk_delegateperms) Разрешения для делегатов применяются только к подмосткам, созданным после предоставления доступа делегата. Чтобы обновить разрешения папок для уже существующих папок или других папок, см. в примере [Set folder permissions for another user by using EWS in Exchange.](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
   
-Обратите внимание, что делегаты можно добавлять только к учетным записям с поддержкой почтовых ящиков, включая группы безопасности с включенной поддержкой почты. По умолчанию один вызов делегированного доступа EWS может получить доступ к не более чем 255 разных почтовых ящиков.
+Обратите внимание, что делегаты могут быть добавлены только в учетные записи с поддержкой почтовых ящиков, включая группы безопасности с поддержкой почты. По умолчанию один вызов доступа делегата EWS может получить доступ к не более чем 255 различным почтовым ящикам.
 
 <a name="bk_adddelegateewsma"> </a>
 
 ## <a name="add-delegates-by-using-the-ews-managed-api"></a>Добавление делегатов с помощью управляемого API EWS
 
-Вы можете добавлять делегаты в почтовый ящик с помощью метода управляемого API [аддделегатес](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) EWS. В этом примере создается новый календарь, Контактное лицо и объект электронной почты [делегатеусер](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegateuser%28v=exchg.80%29.aspx) , и каждому представителю предоставляются [разрешения редактора](delegate-access-and-ews-in-exchange.md#bk_delegateperms) для соответствующей папки. Вы можете изменить этот пример, чтобы добавить делегата в любую папку, указанную в [свойствах делегатепермиссионс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatepermissions_properties%28v=exchg.80%29.aspx), а также задать разрешения для любого значения, указанного в перечислении [делегатефолдерпермиссионлевел](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) . 
+Делегаты можно добавлять в почтовый ящик с помощью метода Управляемый API [AddDelegates](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) EWS. В этом примере создается новый объект для календаря, контактов и [](delegate-access-and-ews-in-exchange.md#bk_delegateperms) электронной почты [DelegateUser,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegateuser%28v=exchg.80%29.aspx) и каждому делегату даются разрешения редактора для соответствующей папки. Вы можете изменить пример, чтобы добавить делегата в любую папку, указанную свойствами [DelegatePermissions,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatepermissions_properties%28v=exchg.80%29.aspx)и можно настроить разрешения на любое из значений, указанных в переумериях [DelegateFolderPermissionLevel.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) 
   
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что служба является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь был аутентификацией Exchange сервера.  
   
 ```cs
 public static Collection<DelegateUserResponse> AddDelegates(ExchangeService service)
@@ -81,9 +81,9 @@ public static Collection<DelegateUserResponse> AddDelegates(ExchangeService serv
 
 ## <a name="add-delegates-by-using-ews"></a>Добавление делегатов с помощью EWS
 
-В приведенном ниже примере кода показано, как добавить отдельные делегаты календаря, контакта и электронной почты с помощью операции [AddDelegate](https://msdn.microsoft.com/library/012d8cc5-648c-4ba0-a155-15c422b1e994%28Office.15%29.aspx) EWS. Почтовые ящики, которые требуется изменить, задаются элементом [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) , а параметры [разрешений](delegate-access-and-ews-in-exchange.md#bk_delegateperms) для каждого делегата хранятся в элементе [делегатеусер](https://msdn.microsoft.com/library/aac4e74e-f69b-4c41-a0c9-489610330fbf%28Office.15%29.aspx) . Каждому представителю были предоставлены разрешения редактора для целевой папки. 
+В следующем примере кода показано, как добавить отдельные делегаты календаря, контактов и электронной почты с помощью операции [AddDelegate](https://msdn.microsoft.com/library/012d8cc5-648c-4ba0-a155-15c422b1e994%28Office.15%29.aspx) EWS. Почтовый ящик для изменения указывается элементом [Почтовый](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) ящик, а параметры разрешений для каждого делегата содержатся в [](delegate-access-and-ews-in-exchange.md#bk_delegateperms) [элементе DelegateUser.](https://msdn.microsoft.com/library/aac4e74e-f69b-4c41-a0c9-489610330fbf%28Office.15%29.aspx) Каждому из делегатов были предоставлены разрешения редактора в их целевой папке. 
   
-Это также запрос XML, который отправляет управляемый API EWS при использовании метода **аддделегатес** для [добавления делегатов](#bk_adddelegateewsma).
+Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **AddDelegates** для [добавления делегатов.](#bk_adddelegateewsma)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -152,7 +152,7 @@ public static Collection<DelegateUserResponse> AddDelegates(ExchangeService serv
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **AddDelegate** с сообщением [аддделегатереспонсе](https://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает, что делегаты успешно созданы.
+Сервер отвечает на запрос **AddDelegate** [сообщением AddDelegateResponse,](https://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) которое включает элемент [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) значения **NoError,** что указывает на успешное создания делегатов.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -221,9 +221,9 @@ public static Collection<DelegateUserResponse> AddDelegates(ExchangeService serv
 
 ## <a name="remove-delegates-by-using-the-ews-managed-api"></a>Удаление делегатов с помощью управляемого API EWS
 
-Вы можете удалить делегатов из целевого почтового ящика с помощью метода [ExchangeService. ремоведелегатес](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) EWS Managed API. В этом примере удаляются разрешения делегатов, заданные в [примере Add a Delegate](#bk_adddelegateewsma) . 
+Делегаты можно удалить из целевого почтового ящика с помощью метода Управляемый API [ExchangeService.RemoveDelegates](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) EWS. В этом примере удаляются разрешения делегатов, заданной [в](#bk_adddelegateewsma) примере добавления делегата. 
   
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что служба является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь был аутентификацией Exchange сервера.  
   
 ```cs
 public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService service)
@@ -255,9 +255,9 @@ public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService s
 
 ## <a name="remove-delegates-by-using-ews"></a>Удаление делегатов с помощью EWS
 
-Вы можете удалить делегатов из почтового ящика с помощью операции [RemoveDelegate](https://msdn.microsoft.com/library/1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a%28Office.15%29.aspx) EWS. В этом примере удаляются разрешения делегатов, заданные в [примере Add a Delegate](#bk_adddelegateews) . 
+Можно удалить делегатов из почтового ящика с помощью операции [RemoveDelegate](https://msdn.microsoft.com/library/1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a%28Office.15%29.aspx) EWS. В этом примере удаляются разрешения делегатов, заданной [в](#bk_adddelegateews) примере добавления делегата. 
   
-Это также запрос XML, который отправляет управляемый API EWS при использовании метода **ремоведелегатес** для [удаления делегатов](#bk_removedelegateewsma).
+Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **RemoveDelegates** для [удаления делегатов.](#bk_removedelegateewsma)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -289,27 +289,27 @@ public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService s
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **RemoveDelegate** с сообщением [аддделегатереспонсе](https://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает на то, что делегаты были успешно удалены.
+Сервер отвечает на запрос **RemoveDelegate** [сообщением AddDelegateResponse,](https://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) которое включает элемент [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) значения **NoError,** что указывает на успешное удаление делегатов.
 
 <a name="bk_nextsteps"> </a>
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-После добавления делегатов в папки "Календарь", "Электронная почта" и "задачи" представитель может получить доступ к элементам в папках. Чтобы узнать больше, ознакомьтесь со следующими статьями:
+После добавления делегатов в папки календаря, электронной почты и задач делегат может получить доступ к пунктам в папках. Дополнительные статьи см. в следующих статьях:
   
-- [Доступ к электронной почте как представителю с помощью EWS в Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
+- [Доступ к электронной почте в качестве делегата с помощью EWS в Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [Доступ к календарю как представителю с помощью EWS в Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
+- [Доступ к календарю в качестве делегата с помощью EWS в Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [Доступ к контактам как представителю с помощью EWS в Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
+- [Доступ к контактам в качестве делегата с помощью EWS в Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
     
-Если папки, для которых были добавлены представители, содержат дочерние папки, созданные до предоставления доступа представителю, то представитель не сможет получить доступ к этим папкам без дополнительных разрешений. Чтобы добавить эти разрешения или изменить разрешения для других папок, ознакомьтесь со статьей [Set Permissions Folders for другого пользователя с помощью EWS в Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
+Если в папки, для которых добавлены делегаты, входят детские папки, созданные до предоставления доступа делегата, делегат не сможет получить доступ к этим папкам без дополнительных разрешений. Чтобы добавить эти разрешения или изменить разрешения для других папок, см. в примере [Set folder permissions for another user by using EWS in Exchange.](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
   
 ## <a name="see-also"></a>См. также
 
 - [Передача прав доступа и EWS в Exchange](delegate-access-and-ews-in-exchange.md)
-- [Exchange 2013: Программное добавление делегатов в учетную запись электронной почты](https://code.msdn.microsoft.com/exchange/Exchange-2013-Adding-1024511f)   
-- [Exchange 2013: программное обновление делегатов, связанных с учетными записями электронной почты](https://code.msdn.microsoft.com/exchange/Exchange-2013-Update-b40d3bac)   
-- [Exchange 2013: Программное удаление делегатов, связанных с учетными записями электронной почты](https://code.msdn.microsoft.com/exchange/Exchange-2013-Remove-686f7714)
+- [Exchange 2013 г. Добавьте пользователей делегирования в учетную запись электронной почты программным образом](https://code.msdn.microsoft.com/exchange/Exchange-2013-Adding-1024511f)   
+- [Exchange 2013 г.: программа обновления делегатов, связанных с учетными записями электронной почты](https://code.msdn.microsoft.com/exchange/Exchange-2013-Update-b40d3bac)   
+- [Exchange 2013 г. Удаление делегатов, связанных с учетными записями электронной почты, программным образом](https://code.msdn.microsoft.com/exchange/Exchange-2013-Remove-686f7714)
     
 

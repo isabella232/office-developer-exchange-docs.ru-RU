@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: aa4a7c94-f668-4bd2-8079-c855f6ab17e1
-description: Операция CreateItem создает элементы календаря в хранилище Exchange.
-ms.openlocfilehash: 535edf9fe567bc3063a5b853f01d604ea4c7eb95
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция CreateItem создает элементы календаря в Exchange магазине.
+ms.openlocfilehash: 4b2506dd4d5353c7670cab0ddb029e542d5861ba
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457503"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538424"
 ---
 # <a name="createitem-operation-calendar-item"></a>Операция CreateItem (элемент календаря)
 
-Операция CreateItem создает элементы календаря в хранилище Exchange.
+Операция CreateItem создает элементы календаря в Exchange магазине.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Операция CreateItem создает встречи, собрания и приглашения на собрания. Если элемент календаря создан без участников, он считается встречей. Если указаны участники, элемент календаря является собранием. При создании собрания с помощью операции CreateItem приглашения на собрания автоматически отправляются определенным участникам, если для атрибута Сендмитингинвитатионс задано значение отправки приглашений на собрание.
+Операция CreateItem создает встречи, собрания и запросы на собрания. Если элемент календаря создается без участников, он считается встречей. Если заданы участники, элемент календаря — это собрание. Когда собрание создается с помощью операции CreateItem, запросы на собрания автоматически отправляются выявленным участникам, если атрибут SendMeetingInvitations настроен на отправку запросов собрания.
   
-## <a name="createitem-calendar-item-request-example"></a>Пример запроса CreateItem (элемента календаря)
+## <a name="createitem-calendar-item-request-example"></a>Пример запроса CreateItem (Элемент календаря)
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса CreateItem показано, как создать собрание с двумя обязательными участниками. Этот запрос отправляет приглашения на собрание двум участникам.
+В следующем примере запроса CreateItem показано, как создать собрание с двумя нужными участниками. Этот запрос будет отправлять запросы на собрание двум участникам.
   
 ### <a name="code"></a>Код
 
@@ -79,51 +79,51 @@ ms.locfileid: "44457503"
 
 ### <a name="comments"></a>Комментарии
 
-Пример ответа на приглашение на собрание представлен в разделе [Операция CreateItem (приглашение на собрание)](createitem-operation-meeting-request.md) . 
+Пример ответа на запрос собрания см. в разделе [CreateItem operation (meeting request).](createitem-operation-meeting-request.md) 
   
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
 - [CreateItem](createitem.md)
     
-- [саведитемфолдерид](saveditemfolderid.md)
+- [SavedItemFolderId](saveditemfolderid.md)
     
-- [дистингуишедфолдерид](distinguishedfolderid.md)
+- [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
-- [календаритем](calendaritem.md)
+- [CalendarItem](calendaritem.md)
     
 - [Тема](subject.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
-- [реминдериссет](reminderisset.md)
+- [ReminderIsSet](reminderisset.md)
     
 - [ReminderMinutesBeforeStart](reminderminutesbeforestart.md)
     
-- [Начало](start.md)
+- [Start](start.md)
     
-- [Оканчиваться](end-ex15websvcsotherref.md)
+- [End ](end-ex15websvcsotherref.md)
     
-- [исаллдайевент](isalldayevent.md)
+- [IsAllDayEvent](isalldayevent.md)
     
-- [легацифрибусистатус](legacyfreebusystatus.md)
+- [LegacyFreeBusyStatus](legacyfreebusystatus.md)
     
 - [Location](location.md)
     
 - [RequiredAttendees](requiredattendees.md)
     
-- [Участник](attendee.md)
+- [Attendee](attendee.md)
     
 - [Mailbox](mailbox.md)
     
-- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-## <a name="successful-createitem-calendar-item-response"></a>Успешный отклик CreateItem (элемент календаря)
+## <a name="successful-createitem-calendar-item-response"></a>Успешный ответ CreateItem (Элемент календаря)
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
 В следующем примере показан успешный ответ на запрос CreateItem.
   
@@ -159,27 +159,27 @@ ms.locfileid: "44457503"
 
 ### <a name="comments"></a>Комментарии
 
-Атрибуты **ID** и **чанжекэй** элемента [ItemId](itemid.md) были сокращены для сохранения удобочитаемости. 
+Атрибуты [элемента ItemId](itemid.md) **и** **ChangeKey** были сокращены для сохранения читаемости. 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [креатеитемреспонсе](createitemresponse.md)
+- [CreateItemResponse](createitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [креатеитемреспонсемессаже](createitemresponsemessage.md)
+- [CreateItemResponseMessage](createitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Items](items.md)
     
-- [календаритем](calendaritem.md)
+- [CalendarItem](calendaritem.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
 ## <a name="see-also"></a>См. также
 

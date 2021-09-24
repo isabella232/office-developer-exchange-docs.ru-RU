@@ -1,27 +1,27 @@
 ---
-title: диагностикслевел
+title: DiagnosticsLevel
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DiagnosticsLevel
 api_type:
 - schema
 ms.assetid: 66794226-f5e0-44f0-8a0e-1f194bb0ba0f
-description: Элемент Диагностикслевел представляет сведения о времени и производительности, которые будут использоваться для получения отчета.
-ms.openlocfilehash: 3060d4f1b8449a5870d964bdfcdbf0d503905abc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DiagnosticsLevel представляет сведения о времени и производительности, которые будут использоваться для получения отчета.
+ms.openlocfilehash: c7e74f324385ca76a58872e2e735ea2c5d926a53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467832"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519802"
 ---
-# <a name="diagnosticslevel"></a>диагностикслевел
+# <a name="diagnosticslevel"></a>DiagnosticsLevel
 
-Элемент **диагностикслевел** представляет сведения о времени и производительности, которые будут использоваться для получения отчета. 
+Элемент **DiagnosticsLevel** представляет сведения о времени и производительности, которые будут использоваться для получения отчета. 
   
 ```XML
 <DiagnosticsLevel/>
@@ -30,28 +30,28 @@ ms.locfileid: "44467832"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Содержит условия для типов сообщений, которые требуется найти.  <br/> |
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Содержит запрос для [операции GetMessageTrackingReport](getmessagetrackingreport-operation.md) , чтобы получить полный отчет об отслеживании сообщений для указанного идентификатора.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Содержит критерии для типов сообщений, которые необходимо найти.  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Содержит запрос на операцию [GetMessageTrackingReport](getmessagetrackingreport-operation.md) для получения полного отчета по отслеживанию сообщений для указанного ID.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-При использовании этого элемента необходимо указать текстовое значение, представляющее строку.
+Если используется этот элемент, требуется текстовое значение, представляю которое представляет строку.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44467832"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ad95936-f61b-431a-9d86-df160b5d4b2d
-description: Элемент Emails2 содержит массив значений Емаиладдрессаттрибутедвалуе и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: b9445dfdc556ade1ad96d6e56c35ec1e56627e8c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Emails2 содержит массив значений EmailAddressAttributedValue и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 4f72dc160607bc2b92d25c9e62ea5a73d5f8fc6a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463414"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520789"
 ---
 # <a name="emails2"></a>Emails2
 
-Элемент **Emails2** содержит массив значений **емаиладдрессаттрибутедвалуе** и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **Emails2** содержит массив значений **EmailAddressAttributedValue** и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <Emails2>
@@ -25,28 +25,28 @@ ms.locfileid: "44463414"
 </Emails2>
 ```
 
- **аррайофемаиладдрессаттрибутедвалуестипе**
+ **ArrayOfEmailAddressAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[емаиладдрессаттрибутедвалуе](emailaddressattributedvalue.md) <br/> |Указывает экземпляр массива адресов электронной почты и связанные с ними атрибуты.  <br/> |
+|[EmailAddressAttributedValue](emailaddressattributedvalue.md) <br/> |Указывает экземпляр массива адресов электронной почты и связанных с ними атрибуций.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44463414"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

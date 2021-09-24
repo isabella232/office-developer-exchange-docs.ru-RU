@@ -5,15 +5,15 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b847017-fa89-4094-bfa1-cc436b760207
 description: Элемент EmailAddress указывает один адрес электронной почты.
-ms.openlocfilehash: b245611868d473e35f96e0d0b37f7cb4fbe9c94c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 84e41d4346bc280e07587b0ed192de03e56ffab0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526230"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520808"
 ---
 # <a name="emailaddress-string"></a>EmailAddress (строка)
 
@@ -26,27 +26,27 @@ ms.locfileid: "44526230"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[емаиладдрессентити](emailaddressentity.md) <br/> |Указывает одну сущность адреса электронной почты.  <br/> |
+|[EmailAddressEntity](emailaddressentity.md) <br/> |Указывает одно лицо адресов электронной почты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **EmailAddress** — это строковое значение, задающее адрес электронной почты. 
+Текстовое значение элемента **EmailAddress** — это строковое значение, которое указывает адрес электронной почты. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44526230"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

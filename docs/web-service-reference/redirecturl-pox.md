@@ -1,32 +1,32 @@
 ---
-title: RedirectUrl адресом (POX)
+title: RedirectUrl (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: c54f310f-8c99-4c37-8e73-ac87722b6229
-description: Элемент redirectUrl адресом содержит URL-адрес компьютера, на котором работает Microsoft Exchange Server 2007 с установленной ролью сервера клиентского доступа, который следует использовать для получения параметров автообнаружения.
-ms.openlocfilehash: 5400b1e7a4bb7ebebc58b6a0f1fc9bf37f5a2e22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RedirectUrl содержит URL-адрес компьютера 2007 Microsoft Exchange Server 2007 года с установленной ролью сервера клиентского доступа, который следует использовать для получения параметров автооткрытия.
+ms.openlocfilehash: d515f3f79f2370dc496614bab0a3f77300ad4e30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468091"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513530"
 ---
-# <a name="redirecturl-pox"></a>RedirectUrl адресом (POX)
+# <a name="redirecturl-pox"></a>RedirectUrl (POX)
 
-Элемент **redirectUrl адресом** содержит URL-адрес компьютера, на котором работает Microsoft Exchange Server 2007 с установленной ролью сервера клиентского доступа, который следует использовать для получения параметров автообнаружения. 
+Элемент **RedirectUrl** содержит URL-адрес компьютера, на Microsoft Exchange Server 2007 года с установленной ролью сервера клиентского доступа, который следует использовать для получения параметров автооткрытия. 
   
-[Служба автообнаружения (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Ответ (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Учетная запись (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
-[RedirectUrl адресом (POX)](redirecturl-pox.md)
+[RedirectUrl (POX)](redirecturl-pox.md)
   
 ```xml
 <RedirectUrl/>
@@ -34,33 +34,33 @@ ms.locfileid: "44468091"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Учетная запись (POX)](account-pox.md) <br/> |Задает параметры учетной записи пользователя.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Указывает параметры учетной записи для пользователя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет URL-адрес сервера клиентского доступа, который должен использоваться для получения параметров автообнаружения.
+Текстовое значение представляет URL-адрес сервера клиентского доступа, который необходимо использовать для получения параметров автооткрытия.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Клиентское приложение должно прекратить перенаправление после 10 перенаправлений.
+Клиентская заявка должна прекратить перенаправление после 10 перенаправлений.
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

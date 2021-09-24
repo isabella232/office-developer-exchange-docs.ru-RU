@@ -1,41 +1,41 @@
 ---
-title: статедефинитион
+title: StateDefinition
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 771039e6-5438-49ef-b213-58dd969e156b
-description: Элемент Статедефинитион предназначен только для внутреннего использования.
-ms.openlocfilehash: faca89c2c78febe8373cf02f8d84732f2611a6fb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент StateDefinition предназначен только для внутреннего использования.
+ms.openlocfilehash: 1831a21e382b7fb739bff3172ec8935a72fe4c9e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459513"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538956"
 ---
-# <a name="statedefinition"></a>статедефинитион
+# <a name="statedefinition"></a>StateDefinition
 
-Элемент **статедефинитион** предназначен только для внутреннего использования. 
+Элемент **StateDefinition** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -47,7 +47,7 @@ ms.locfileid: "44459513"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

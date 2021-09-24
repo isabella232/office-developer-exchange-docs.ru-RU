@@ -1,23 +1,23 @@
 ---
-title: мессажетипес
+title: MessageTypes
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fac1cfe0-8e7b-4196-b3ad-4e86043d9c9b
-description: Элемент Мессажетипес указывает массив сообщений для поиска.
-ms.openlocfilehash: 2cfca82ea060792d59088ee8755530d82f7f77f6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MessageTypes указывает массив сообщений для поиска.
+ms.openlocfilehash: 9ee57f73ae0b574ad5aebe742376a333c43b3ffb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512885"
 ---
-# <a name="messagetypes"></a>мессажетипес
+# <a name="messagetypes"></a>MessageTypes
 
-Элемент **мессажетипес** указывает массив сообщений для поиска. 
+Элемент **MessageTypes** указывает массив сообщений для поиска. 
   
 ```XML
 <MessageTypes>
@@ -25,24 +25,24 @@ ms.locfileid: "44468665"
 </MessageTypes>
 ```
 
- **аррайофсеарчитемкиндстипе**
+ **ArrayOfSearchItemKindsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[сеарчитемкинд](searchitemkind.md)
+[SearchItemKind](searchitemkind.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[финдмаилбоксстатистиксбикэйвордс](findmailboxstatisticsbykeywords.md)
+[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44468665"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,41 +1,41 @@
 ---
-title: исоккурренцепресент
+title: IsOccurrencePresent
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c738518-d99e-4043-bbf0-463085b58eb0
-description: Элемент Исоккурренцепресент предназначен только для внутреннего использования.
-ms.openlocfilehash: 3077179db89c9a9908b16199717cc5c110c195b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsOccurrencePresent предназначен только для внутреннего использования.
+ms.openlocfilehash: b07224c9936951583d1ddcaee96409da9df90fa1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460423"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532736"
 ---
-# <a name="isoccurrencepresent"></a>исоккурренцепресент
+# <a name="isoccurrencepresent"></a>IsOccurrencePresent
 
-Элемент **исоккурренцепресент** предназначен только для внутреннего использования. 
+Элемент **IsOccurrencePresent** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 455e5709-6c06-49fd-bfb2-403fc912287c
-description: Элемент Request GetImItems определяет запрос на получение сведений об указанных группах мгновенных сообщений и контактных лиц обмена мгновенными сообщениями.
-ms.openlocfilehash: e3973cbbf800ffe91472b9c733c4d4a927b91c9f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент запроса GetImItems определяет запрос на получения сведений о указанных группах обмена мгновенными сообщениями и контактных лицах для обмена мгновенными сообщениями.
+ms.openlocfilehash: 99be8e898623b5bc8c517886132b77da40a7fb1e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456453"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513593"
 ---
 # <a name="getimitems"></a>GetImItems
 
-Элемент Request **GetImItems** определяет запрос на получение сведений об указанных группах мгновенных сообщений и контактных лиц обмена мгновенными сообщениями. 
+Элемент **запроса GetImItems** определяет запрос на получения сведений о указанных группах обмена мгновенными сообщениями и контактных лицах для обмена мгновенными сообщениями. 
   
 ```XML
 <GetImItems>
@@ -27,24 +27,24 @@ ms.locfileid: "44456453"
 </GetImItems>
 ```
 
- **жетимитемстипе**
+ **GetImItemsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Контактидс](contactids.md)  |  [Граупидс](groupids.md)  |  [Екстендедпропертиес (нонемптяррайофекстендедфиелдурис)](extendedproperties-nonemptyarrayofextendedfielduris.md)
+[ContactIds](contactids.md)  |  [GroupIds](groupids.md)  |  [Расширенные свойства (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44456453"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

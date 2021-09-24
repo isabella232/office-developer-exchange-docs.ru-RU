@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb70326a-2b34-43d1-a1a1-5fb0049d32f3
-description: Элемент уточнений задает список из одного или нескольких элементов уточнения.
-ms.openlocfilehash: a89a18550355ccc9ef916637305a189276ee2224
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Refiners указывает список одного или более элементов refiner.
+ms.openlocfilehash: 1b22b7255e15227aaa6d9a53518c7120d20f67fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457223"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513502"
 ---
 # <a name="refiners"></a>Refiners
 
-Элемент **уточнений** задает список из одного или нескольких элементов **уточнения** . 
+Элемент **Refiners** указывает список одного или более элементов **refiner.** 
   
 ```XML
 <Refiners>
@@ -25,24 +25,24 @@ ms.locfileid: "44457223"
 </Refiners>
 ```
 
- **аррайофсеарчрефинеритемстипе**
+ **ArrayOfSearchRefinerItemsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Уточнение](refiner.md)
+[Refiner](refiner.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[сеарчмаилбоксесресулт](searchmailboxesresult.md)
+[SearchMailboxesResult](searchmailboxesresult.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44457223"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

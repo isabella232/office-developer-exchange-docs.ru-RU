@@ -1,23 +1,23 @@
 ---
-title: телекснумберс
+title: TelexNumbers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 51992f35-54be-4424-8d3f-c3a3a1d05a4d
-description: Элемент Телекснумберс указывает массив номеров телекса и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: fc236fe9b1f0229dd2de687e9f2967eefcbf928b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TelexNumbers указывает массив номеров Telex и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: 3280216aab8a9bbe928e904424f35024c71e5785
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459954"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534217"
 ---
-# <a name="telexnumbers"></a>телекснумберс
+# <a name="telexnumbers"></a>TelexNumbers
 
-Элемент **телекснумберс** указывает массив номеров телекса и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **TelexNumbers** указывает массив номеров Telex и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <TelexNumbers>
@@ -25,24 +25,24 @@ ms.locfileid: "44459954"
 </TelexNumbers>
 ```
 
- **аррайоффоненумбераттрибутедвалуестипе**
+ **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[фоненумбераттрибутедвалуе](phonenumberattributedvalue.md)
+[PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44459954"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

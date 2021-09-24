@@ -1,27 +1,27 @@
 ---
-title: парентфолдеридс
+title: ParentFolderIds
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ParentFolderIds
 api_type:
 - schema
 ms.assetid: e7998023-e5e0-465c-91fa-2aa6d1559f64
-description: Элемент Парентфолдеридс определяет папки для операций FindItem и FindFolder для поиска.
-ms.openlocfilehash: 6bc4b9cfe96c6c83cbeb623ec176e33177356bbc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ParentFolderIds определяет папки для операций FindItem и FindFolder для поиска.
+ms.openlocfilehash: e9e0f14651b205ad64be04dbe1d0707a109f3edc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465431"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512907"
 ---
-# <a name="parentfolderids"></a>парентфолдеридс
+# <a name="parentfolderids"></a>ParentFolderIds
 
-Элемент **парентфолдеридс** определяет папки для операций FindItem и FindFolder для поиска. 
+Элемент **ParentFolderIds** определяет папки для операций FindItem и FindFolder для поиска. 
   
 ```xml
 <ParentFolderIds>
@@ -35,22 +35,22 @@ ms.locfileid: "44465431"
 <ParentFolderIds>
 ```
 
-**нонемптяррайофбасефолдеридстипе**
+**NonEmptyArrayOfBaseFolderIdsType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Содержит идентификатор и ключ изменения папки. Элемент **парентфолдеридс** должен использовать либо этот элемент, либо элемент [дистингуишедфолдерид](distinguishedfolderid.md) .  <br/> |
-|[дистингуишедфолдерид](distinguishedfolderid.md) <br/> |Определяет папки Microsoft Exchange Server 2007, на которые можно ссылаться по имени. Элемент **парентфолдеридс** должен использовать либо этот элемент, либо элемент [FolderId](folderid.md) .  <br/> |
+|[FolderId](folderid.md) <br/> |Содержит идентификатор и ключ изменения папки. Элемент **ParentFolderIds должен** использовать либо этот элемент, либо [элемент DistinguishedFolderId.](distinguishedfolderid.md)  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Определяет Microsoft Exchange Server 2007 года, на которые можно ссылаться по имени. Элемент **ParentFolderIds должен** использовать либо этот элемент, либо [элемент FolderId.](folderid.md)  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,9 +60,9 @@ ms.locfileid: "44465431"
 |[FindItem](finditem.md) <br/> |Определяет запрос на поиск элементов в почтовом ящике.  <br/> |
 |[ResolveNames](resolvenames.md) <br/> |Определяет запрос на разрешение неоднозначных имен.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **парентфолдеридс** должен использовать элемент [FolderId](folderid.md) или [дистингуишедфолдерид](distinguishedfolderid.md) . Для поиска может быть определено неограниченное количество папок. 
+Элемент **ParentFolderIds** должен использовать элемент [FolderId](folderid.md) или [DistinguishedFolderId.](distinguishedfolderid.md) Для поиска можно определить неограниченное количество папок. 
   
 ## <a name="example"></a>Пример
 
@@ -89,7 +89,7 @@ ms.locfileid: "44465431"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

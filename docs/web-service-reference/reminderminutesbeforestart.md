@@ -5,62 +5,62 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReminderMinutesBeforeStart
 api_type:
 - schema
 ms.assetid: 65ea14bc-5f19-48cc-aef1-46227e06f5f5
-description: Элемент Реминдерминутесбефорестарт представляет количество минут до возникновения события при отображении напоминания.
-ms.openlocfilehash: 056ba06c5d8f878e13c72859746242f1694528e9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ReminderMinutesBeforeStart представляет количество минут до события при отображдении напоминания.
+ms.openlocfilehash: d2020aa1602f01bca8b110ecd9579e9c4f929e3e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513418"
 ---
 # <a name="reminderminutesbeforestart"></a>ReminderMinutesBeforeStart
 
-Элемент **реминдерминутесбефорестарт** представляет количество минут до возникновения события при отображении напоминания. 
+Элемент **ReminderMinutesBeforeStart** представляет количество минут до события при отображдении напоминания. 
   
 ```xml
 <ReminderMinutesBeforeStart/>
 ```
 
- **реминдерминутесбефорестарттипе**
+ **ReminderMinutesBeforeStartType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
-|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
 |[Элемент](item.md) <br/> |Представляет элемент в хранилище Exchange.  <br/> |
-|[митингканцеллатион](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
-|[митингмессаже](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
-|[митингреспонсе](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Представляет отмену собрания в хранилище Exchange.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Представляет ответ на приглашение на собрание в хранилище Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Представляет сообщение электронной почты Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Удаляет элемент из хранилища Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет время до возникновения события при отображении напоминания (в минутах).
+Текстовое значение представляет за несколько минут время перед событием при отобратии напоминания.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -70,7 +70,7 @@ ms.locfileid: "44458546"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

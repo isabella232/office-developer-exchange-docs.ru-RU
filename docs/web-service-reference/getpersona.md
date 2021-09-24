@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea5b3ce2-40db-41e8-a8cd-934e8f72e782
-description: Элемент person содержит запрос на получение пользователя.
-ms.openlocfilehash: 8e31e2688b9313d7db6c73e2d1f92e8d7cf4f246
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetPersona содержит запрос на получения персоны.
+ms.openlocfilehash: 401a1a302a4894e5e7e6a908c2912d5322195e53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455613"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533548"
 ---
 # <a name="getpersona"></a>GetPersona
 
-Элемент **Person** содержит запрос на получение пользователя. 
+Элемент **GetPersona** содержит запрос на получения персоны. 
   
 ```XML
 <GetPersona>
@@ -25,24 +25,24 @@ ms.locfileid: "44455613"
 </GetPersona>
 ```
 
- **жетперсонатипе**
+ **GetPersonaType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[персонаид](personaid.md)
+[PersonaId](personaid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44455613"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

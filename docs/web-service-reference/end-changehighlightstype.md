@@ -1,50 +1,50 @@
 ---
-title: End (Чанжехигхлигхтстипе)
+title: End (ChangeHighlightsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62b7d14c-8d71-4f28-b93e-8fe42d99022b
-description: Элемент End указывает изменения времени окончания собрания при возникновении обновления собрания.
-ms.openlocfilehash: 61d8c46af1999a506258dfa0cebf3a712962772a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент End указывает изменения, внесенные в время окончания собрания при обновлении собрания.
+ms.openlocfilehash: 584ddbe4aea23e7940506fc4ce46ffa9e8cb5683
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526202"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520705"
 ---
-# <a name="end-changehighlightstype"></a>End (Чанжехигхлигхтстипе)
+# <a name="end-changehighlightstype"></a>End (ChangeHighlightsType)
 
-Элемент **End** указывает изменения времени окончания собрания при возникновении обновления собрания. 
+Элемент **End** указывает изменения, внесенные в время окончания собрания при обновлении собрания. 
   
 ```XML
 <End></End>
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[чанжехигхлигхтс](changehighlights.md)
+[ChangeHighlights](changehighlights.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **End** элемента — это новое время окончания собрания. 
+Текстовое значение элемента **End** — это новое время окончания собрания. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44526202"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

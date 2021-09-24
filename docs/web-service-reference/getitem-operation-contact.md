@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 6b96dace-1260-4b83-869a-7c31c5583daa
-description: Операция GetItem используется для получения элементов контактов из хранилища Exchange.
-ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetItem используется для получения контактных элементов из Exchange магазина.
+ms.openlocfilehash: 1a055791f1b6dd5085ae914c1f7b2ae7e97d6090
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460024"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520537"
 ---
 # <a name="getitem-operation-contact"></a>Операция GetItem (контакт)
 
-Операция GetItem используется для получения элементов контактов из хранилища Exchange.
+Операция GetItem используется для получения контактных элементов из Exchange магазина.
   
 ## <a name="getitem-contact-request-example"></a>Пример запроса GetItem (Contact)
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере показано, как получить элемент из хранилища Exchange.
+В следующем примере показано, как получить элемент из Exchange магазина.
   
 ### <a name="code"></a>Код
 
@@ -51,30 +51,30 @@ ms.locfileid: "44460024"
 
 ### <a name="comments"></a>Комментарии
 
-Запрос на получение элемента из хранилища Exchange имеет одну и ту же форму для всех типов элементов. Ответы на запросы для различных элементов будут отличаться, так как различные элементы возвращают разные сведения на основе фигур ответа.
+Запрос на получения элемента из Exchange принимает ту же форму для всех типов элементов. Ответы на запросы для различных элементов будут разными, так как различные элементы возвращают различные сведения в зависимости от форм ответа.
   
 > [!NOTE]
-> Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость. 
+> Идентификатор элемента был сокращен для сохранения читаемости. 
   
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
 - [GetItem](getitem.md)
     
-- [итемшапе](itemshape.md)
+- [ItemShape](itemshape.md)
     
-- [басешапе](baseshape.md)
+- [BaseShape](baseshape.md)
     
-- [итемидс](itemids.md)
+- [ItemIds](itemids.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="successful-getitem-contact-response"></a>Успешный отклик GetItem (контакт)
+## <a name="successful-getitem-contact-response"></a>Успешный ответ GetItem (Contact)
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере кода показан успешный отклик GetItem для объекта **аллпропертиес**[басешапе](baseshape.md).
+В следующем примере кода показан успешный ответ GetItem для Базы[AllPropertiesShape.](baseshape.md) 
   
 ### <a name="code"></a>Код
 
@@ -153,27 +153,27 @@ ms.locfileid: "44460024"
 
 ### <a name="comments"></a>Комментарии
 
-Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
+Идентификатор элемента был сокращен для сохранения читаемости.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-Следующие элементы используются в ответе на запрос GetItem с формой ответа **аллпропертиес** для элемента Contact. 
+Следующие элементы используются в ответе на запрос GetItem с формой отклика **AllProperties** для контактного элемента. 
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [жетитемреспонсе](getitemresponse.md)
+- [GetItemResponse](getitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [жетитемреспонсемессаже](getitemresponsemessage.md)
+- [GetItemResponseMessage](getitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Items](items.md)
     
-- [контакт](contact.md);
+- [Contact](contact.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
 - [ParentFolderId](parentfolderid.md)
     
@@ -181,7 +181,7 @@ ms.locfileid: "44460024"
     
 - [Sensitivity](sensitivity.md)
     
-- [Body](body.md)
+- [Основной текст](body.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
@@ -189,17 +189,17 @@ ms.locfileid: "44460024"
     
 - [Importance](importance.md)
     
-- [Отправлено](issubmitted.md)
+- [IsSubmitted](issubmitted.md)
     
-- [Черновик](isdraft.md)
+- [IsDraft](isdraft.md)
     
-- [исфромме](isfromme.md)
+- [IsFromMe](isfromme.md)
     
-- [исресенд](isresend.md)
+- [IsResend](isresend.md)
     
-- [исунмодифиед](isunmodified.md)
+- [IsUnmodified](isunmodified.md)
     
-- [датетимесент](datetimesent.md)
+- [DateTimeSent](datetimesent.md)
     
 - [DateTimeCreated](datetimecreated.md)
     
@@ -209,15 +209,15 @@ ms.locfileid: "44460024"
     
 - [FileAs](fileas.md)
     
-- [филеасмаппинг](fileasmapping.md)
+- [FileAsMapping](fileasmapping.md)
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
 - [GivenName](givenname.md)
     
 - [Initials](initials.md)
     
-- [комплетенаме](completename.md)
+- [CompleteName](completename.md)
     
 - [FirstName](firstname.md)
     
@@ -229,13 +229,13 @@ ms.locfileid: "44460024"
     
 - [EmailAddresses](emailaddresses.md)
     
-- [Запись (EmailAddress)](entry-emailaddress.md)
+- [Entry (EmailAddress)](entry-emailaddress.md)
     
-- [фисикаладдрессес](physicaladdresses.md)
+- [PhysicalAddresses](physicaladdresses.md)
     
-- [Запись (PhysicalAddress)](entry-physicaladdress.md)
+- [Entry (PhysicalAddress)](entry-physicaladdress.md)
     
-- [Назван](street.md)
+- [Street](street.md)
     
 - [City](city.md)
     
@@ -245,17 +245,17 @@ ms.locfileid: "44460024"
     
 - [PhoneNumbers](phonenumbers.md)
     
-- [Запись (PhoneNumber)](entry-phonenumber.md)
+- [Entry (PhoneNumber)](entry-phonenumber.md)
     
 - [JobTitle](jobtitle.md)
     
-- [ФИО](surname.md)
+- [Фамилия](surname.md)
     
-## <a name="invalid-getitem-contact-request-example"></a>Недопустимый пример запроса GetItem (Contact)
+## <a name="invalid-getitem-contact-request-example"></a>Пример запроса на недействительный запрос GetItem (Contact)
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере кода показан недопустимый запрос.
+В следующем примере кода показан недействительный запрос.
   
 ### <a name="code"></a>Код
 
@@ -280,13 +280,13 @@ ms.locfileid: "44460024"
 
 ### <a name="comments"></a>Комментарии
 
-Идентификаторы элементов были сокращены для сохранения удобочитаемости.
+Идентификаторы элементов были сокращены для сохранения читаемости.
   
-## <a name="getitem-contact-error-response"></a>Ответ об ошибке GetItem (Contact)
+## <a name="getitem-contact-error-response"></a>Ответ на ошибку GetItem (Contact)
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере кода показан ответ с сообщением об ошибке для запроса GetItem (Contact).
+В следующем примере кода показан ответ на ошибку на запрос GetItem (Contact).
   
 ### <a name="code"></a>Код
 
@@ -316,23 +316,23 @@ ms.locfileid: "44460024"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ошибочного ответа
+### <a name="error-response-elements"></a>Элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [жетитемреспонсе](getitemresponse.md)
+- [GetItemResponse](getitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [жетитемреспонсемессаже](getitemresponsemessage.md)
+- [GetItemResponseMessage](getitemresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
 - [Items](items.md)
     

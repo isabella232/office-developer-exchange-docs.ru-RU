@@ -1,43 +1,43 @@
 ---
-title: индивидуалаттендиконфликтдата
+title: IndividualAttendeeConflictData
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IndividualAttendeeConflictData
 api_type:
 - schema
 ms.assetid: d45d3c34-abe1-40da-afd3-23bc5c3ef474
-description: Элемент Индивидуалаттендиконфликтдата содержит сведения о занятости пользователя или контакта для периода времени, выполняемого одновременно с предложенным временем собрания, указанным в элементе "предложение".
-ms.openlocfilehash: 55210230259b78e5ed9c4f0744aae003cf2e7ae5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IndividualAttendeeConflictData содержит состояние свободного или занятого пользователя для окна времени, которое происходит одновременно с предложенным временем собрания, идентифицированным в элементе Предложение.
+ms.openlocfilehash: e7308ca951e906edf4e4606c058f5e0e7a61fd5c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459316"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532991"
 ---
-# <a name="individualattendeeconflictdata"></a>индивидуалаттендиконфликтдата
+# <a name="individualattendeeconflictdata"></a>IndividualAttendeeConflictData
 
-Элемент **индивидуалаттендиконфликтдата** содержит сведения о занятости пользователя или контакта для периода времени, выполняемого одновременно с предложенным временем собрания, указанным в элементе " [предложение](suggestion.md) ". 
+Элемент **IndividualAttendeeConflictData** содержит состояние свободного или занятого пользователя для окна времени, которое происходит одновременно с предложенным временем собрания, идентифицированным в элементе [Предложение.](suggestion.md) 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[сугжестионсреспонсе](suggestionsresponse.md)
+[SuggestionsResponse](suggestionsresponse.md)
   
-[сугжестиондайресултаррай](suggestiondayresultarray.md)
+[SuggestionDayResultArray](suggestiondayresultarray.md)
   
-[сугжестиондайресулт](suggestiondayresult.md)
+[SuggestionDayResult](suggestiondayresult.md)
   
-[сугжестионаррай](suggestionarray.md)
+[SuggestionArray](suggestionarray.md)
   
 [Предложение](suggestion.md)
   
-[аттендиконфликтдатааррай](attendeeconflictdataarray.md)
+[AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
-[индивидуалаттендиконфликтдата](individualattendeeconflictdata.md)
+[IndividualAttendeeConflictData](individualattendeeconflictdata.md)
   
 ```xml
 <IndividualAttendeeConflictData>
@@ -45,28 +45,28 @@ ms.locfileid: "44459316"
 </IndividualAttendeeConflictData>
 ```
 
- **индивидуалаттендиконфликтдата**
+ **IndividualAttendeeConflictData**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[буситипе](busytype.md) <br/> |Представляет сведения о доступности пользователя для предполагаемого времени проведения собрания.  <br/> |
+|[BusyType](busytype.md) <br/> |Представляет состояние свободного/занятого пользователя в течение предложенного времени собрания.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аттендиконфликтдатааррай](attendeeconflictdataarray.md) <br/> |Содержит массив данных о конфликтах для участников, идентифицируемых в [жетусераваилабилитирекуест](getuseravailabilityrequest.md).  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Содержит массив конфликтных данных для участников, идентифицированных в [GetUserAvailabilityRequest.](getuseravailabilityrequest.md)  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -76,7 +76,7 @@ ms.locfileid: "44459316"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -85,7 +85,7 @@ ms.locfileid: "44459316"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

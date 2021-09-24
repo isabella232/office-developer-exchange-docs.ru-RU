@@ -1,27 +1,27 @@
 ---
-title: жетусеруфсеттингсрекуест
+title: GetUserOofSettingsRequest
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserOofSettingsRequest
 api_type:
 - schema
 ms.assetid: 15dea99c-7f5d-4af1-82ff-4255127fe567
-description: Элемент Жетусеруфсеттингсрекуест является корневым элементом, который содержит аргументы, используемые для получения параметров отсутствия на работе пользователя почтового ящика (отсутствие на работе).
-ms.openlocfilehash: f515e8cf016d3aff6c652ae92a0da71a8f0a5f6b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetUserOofSettingsRequest — это корневой элемент, содержащий аргументы, используемые для получения параметров out of Office (OOF).
+ms.openlocfilehash: ea14636dbcf3042a0286ac64fa4fc701144e4920
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457832"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519683"
 ---
-# <a name="getuseroofsettingsrequest"></a>жетусеруфсеттингсрекуест
+# <a name="getuseroofsettingsrequest"></a>GetUserOofSettingsRequest
 
-Элемент **жетусеруфсеттингсрекуест** является корневым элементом, который содержит аргументы, используемые для получения параметров отсутствия на работе пользователя почтового ящика (отсутствие на работе). 
+Элемент **GetUserOofSettingsRequest** — это корневой элемент, содержащий аргументы, используемые для получения параметров пользователя почтового ящика Office (OOF). 
   
 ```xml
 <GetUserOofSettingsRequest>
@@ -29,14 +29,14 @@ ms.locfileid: "44457832"
 </GetUserOofSettingsRequest>
 ```
 
- **жетусеруфсеттингсрекуест**
+ **GetUserOofSettingsRequest**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -48,13 +48,13 @@ ms.locfileid: "44457832"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
 ## <a name="example"></a>Пример
 
-Ниже приведен пример запроса GetUserOofSettings, который получает сведения об отсутствии на работе отдельных пользователей.
+Ниже приводится пример запроса GetUserOofSettings, который получает сведения об OOF одного пользователя.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -77,7 +77,7 @@ ms.locfileid: "44457832"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

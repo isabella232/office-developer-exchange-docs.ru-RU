@@ -1,23 +1,23 @@
 ---
-title: релативефолдерпас
+title: RelativeFolderPath
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54e3ba52-08a6-4d48-8a44-6fd5fdbffb25
-description: Элемент Релативефолдерпас содержит массив папок, указывающих относительный путь к папке, которую нужно создать.
-ms.openlocfilehash: 8a0fc0020943afdbe6cd4c79d51d61337f8dd329
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RelativeFolderPath содержит массив папок, которые указывают относительный путь папки создаемого пути к папке.
+ms.openlocfilehash: f9a1f193678e9dbd7686376c630ab2fbd0eaf1bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457160"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513460"
 ---
-# <a name="relativefolderpath"></a>релативефолдерпас
+# <a name="relativefolderpath"></a>RelativeFolderPath
 
-Элемент **релативефолдерпас** содержит массив папок, указывающих относительный путь к папке, которую нужно создать. 
+Элемент **RelativeFolderPath** содержит массив папок, которые указывают относительный путь папки создаемого пути к папке. 
   
 ```XML
 <RelativeFolderPath>
@@ -29,24 +29,24 @@ ms.locfileid: "44457160"
 </RelativeFolderPath>
 ```
 
- **нонемптяррайоффолдерстипе**
+ **NonEmptyArrayOfFoldersType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Folder (папка](folder.md)  |  ) [Календарфолдер](calendarfolder.md)  |  [Контактсфолдер](contactsfolder.md)  |  [SearchFolder](searchfolder.md)  |  [Тасксфолдер](tasksfolder.md)
+[Папка](folder.md)  |  [CalendarFolder](calendarfolder.md)  |  [ContactsFolder](contactsfolder.md)  |  [SearchFolder](searchfolder.md)  |  [TasksFolder](tasksfolder.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [CreateFolderPath](createfolderpath.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44457160"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,46 +1,46 @@
 ---
-title: Фиелдури (правило)
+title: FieldUri (Rule)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cecdea78-de9c-48be-ae31-03877feafeec
-description: Элемент Фиелдури указывает универсальный код ресурса (URI) для поля правила, вызвавшего ошибку проверки.
-ms.openlocfilehash: 3d88efdf951af580f81b5e2e7a544dcdf70ea830
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FieldURI указывает URI в поле правил, которое вызвало ошибку проверки.
+ms.openlocfilehash: c1390f6643614216fa86053368ba012cd0883ff7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461249"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513733"
 ---
-# <a name="fielduri-rule"></a>Фиелдури (правило)
+# <a name="fielduri-rule"></a>FieldUri (Rule)
 
-Элемент **фиелдури** указывает универсальный код ресурса (URI) для поля правила, вызвавшего ошибку проверки. 
+Элемент **FieldURI** указывает URI в поле правил, которое вызвало ошибку проверки. 
   
 ```XML
 <FieldURI/>
 ```
 
- **рулефиелдуритипе**
+ **RuleFieldURIType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Error](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, значения свойства предиката или значения свойства Action.  <br/> |
+|[Ошибка](error.md) <br/> |Представляет одну ошибку проверки для определенного значения свойства правила, предикационного значения свойства или свойства действия.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
@@ -50,183 +50,183 @@ ms.locfileid: "44461249"
     
 - DisplayName
     
-- Priority
+- Приоритет
     
-- иснотсуппортед
+- IsNotSupported
     
 - Действия
     
-- Условие: категории
+- Condition:Categories
     
-- Условие: Контаинсбодистрингс
+- Condition:ContainsBodyStrings
     
-- Условие: Контаиншеадерстрингс
+- Condition:ContainsHeaderStrings
     
-- Условие: КонтаинсреЦипиентстрингс
+- Condition:ContainsRecipientStrings
     
-- Условие: Контаинссендерстрингс
+- Condition:ContainsSenderStrings
     
-- Условие: Контаинссубжекторбодистрингс
+- Condition:ContainsSubjectOrBodyStrings
     
-- Условие: Контаинссубжектстрингс
+- Condition:ContainsSubjectStrings
     
-- Условие: Флагжедфорактион
+- Condition:FlaggedForAction
     
-- Условие: Фромаддрессес
+- Condition:FromAddresses
     
-- Условие: Фромконнектедаккаунтс
+- Condition:FromConnectedAccounts
     
-- Условие: HasAttachments
+- Condition:HasAttachments
     
-- Условие: важно!
+- Condition:Importance
     
-- Условие: Исаппровалрекуест
+- Condition:IsApprovalRequest
     
-- Условие: Исаутоматикфорвард
+- Condition:IsAutomaticForward
     
-- Условие: Исаутоматикрепли
+- Condition:IsAutomaticReply
     
-- Условие: "с шифрованием"
+- Condition:IsEncrypted
     
-- Условие: Исмитингрекуест
+- Condition:IsMeetingRequest
     
-- Условие: Исмитингреспонсе
+- Condition:IsMeetingResponse
     
-- Условие: Исндр
+- Condition:IsNDR
     
-- Условие: Испермиссионконтроллед
+- Condition:IsPermissionControlled
     
-- Условие: Исреадрецеипт
+- Condition:IsReadReceipt
     
-- Условие: с подписью
+- Condition:IsSigned
     
-- Условие: Голосовая почта
+- Condition:IsVoicemail
     
-- Условие: Итемклассес
+- Condition:ItemClasses
     
-- Условие: Мессажеклассификатионс
+- Condition:MessageClassifications
     
-- Условие: Нотсенттоме
+- Condition:NotSentToMe
     
-- Условие: Сентккме
+- Condition:SentCcMe
     
-- Условие: Сентонлитоме
+- Condition:SentOnlyToMe
     
-- Условие: Сенттоаддрессес
+- Condition:SentToAddresses
     
-- Условие: Сенттоме
+- Condition:SentToMe
     
-- Условие: Сенттурккме
+- Condition:SentToOrCcMe
     
-- Условие: чувствительность
+- Condition:Sensitivity
     
-- Условие: Висиндатеранже
+- Condition:WithinDateRange
     
-- Условие: Висинсизеранже
+- Condition:WithinSizeRange
     
-- Исключение: категории
+- Исключение:Категории
     
-- Исключение: Контаинсбодистрингс
+- Исключение:ContainsBodyStrings
     
-- Исключение: Контаиншеадерстрингс
+- Исключение:ContainsHeaderStrings
     
-- Исключение: КонтаинсреЦипиентстрингс
+- Исключение:ContainsRecipientStrings
     
-- Исключение: Контаинссендерстрингс
+- Исключение:ContainsSenderStrings
     
-- Исключение: Контаинссубжекторбодистрингс
+- Исключение:ContainsSubjectOrBodyStrings
     
-- Исключение: Контаинссубжектстрингс
+- Исключение:ContainsSubjectStrings
     
-- Исключение: Флагжедфорактион
+- Exception:FlaggedForAction
     
-- Исключение: Фромаддрессес
+- Exception:FromAddresses
     
-- Исключение: Фромконнектедаккаунтс
+- Exception:FromConnectedAccounts
     
-- Исключение: HasAttachments
+- Exception:HasAttachments
     
-- Исключение: важность
+- Exception:Importance
     
-- Исключение: Исаппровалрекуест
+- Исключение:IsApprovalRequest
     
-- Исключение: Исаутоматикфорвард
+- Исключение:IsAutomaticForward
     
-- Исключение: Исаутоматикрепли
+- Исключение:IsAutomaticReply
     
-- Исключение: не зашифровано
+- Исключение:IsEncrypted
     
-- Исключение: Исмитингрекуест
+- Исключение:IsMeetingRequest
     
-- Исключение: Исмитингреспонсе
+- Исключение:IsMeetingResponse
     
-- Исключение: Исндр
+- Исключение:IsNDR
     
-- Исключение: Испермиссионконтроллед
+- Исключение:IsPermissionControlled
     
-- Исключение: Исреадрецеипт
+- Исключение:IsReadReceipt
     
-- Исключение: подпись
+- Исключение:IsSigned
     
-- Исключение: Голосовая почта
+- Исключение:IsVoicemail
     
-- Исключение: Итемклассес
+- Exception:ItemClasses
     
-- Исключение: Мессажеклассификатионс
+- Exception:MessageClassifications
     
-- Исключение: Нотсенттоме
+- Исключение:NotSentToMe
     
-- Исключение: Сентккме
+- Exception:SentCcMe
     
-- Исключение: Сентонлитоме
+- Exception:SentOnlyToMe
     
-- Исключение: Сенттоаддрессес
+- Exception:SentToAddresses
     
-- Исключение: Сенттоме
+- Exception:SentToMe
     
-- Исключение: Сенттурккме
+- Exception:SentToOrCcMe
     
-- Исключение: чувствительность
+- Исключение:Чувствительность
     
-- Исключение: Висиндатеранже
+- Исключение:WithinDateRange
     
-- Исключение: Висинсизеранже
+- Исключение:WithinSizeRange
     
-- Действие: Ассигнкатегориес
+- Action:AssignCategories
     
-- Действие: CopyToFolder
+- Action:CopyToFolder
     
-- Действие: Delete
+- Action:Delete
     
-- Действие: ФорвардасаттачменттореЦипиентс
+- Action:ForwardAsAttachmentToRecipients
     
-- Действие: ФорвардтореЦипиентс
+- Action:ForwardToRecipients
     
-- Действие: Маркимпортанце
+- Action:MarkImportance
     
-- Действие: Маркасреад
+- Action:MarkAsRead
     
-- Действие: MoveToFolder
+- Action:MoveToFolder
     
-- Действие: Перманентделете
+- Action:PermanentDelete
     
-- Действие: RedirectToRecipients
+- Action:RedirectToRecipients
     
-- Действие: СендсмсалерттореЦипиентс
+- Action:SendSMSAlertToRecipients
     
-- Действие: Серверрепливисмессаже
+- Action:ServerReplyWithMessage
     
-- Действие: StopProcessingRules
+- Action:StopProcessingRules
     
 - IsEnabled
     
-- исинеррор
+- IsInError
     
 - Условия
     
 - Исключения
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -236,7 +236,7 @@ ms.locfileid: "44461249"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -5,44 +5,44 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ae00a99-b37b-4194-829c-fe300db6ab99
-description: Поиск сведений о операции GetConversationItems.
-ms.openlocfilehash: ddeb5386e56653a32ca2e6d212518704cd0f0c58
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetConversationItems.
+ms.openlocfilehash: 0de9a380aa2f9b25e9a7ef90ebe7a9f485ca60d0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457783"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513670"
 ---
 # <a name="getconversationitems-operation"></a>Операция GetConversationItems
 
-Поиск сведений о операции **GetConversationItems** . 
+Сведения об операции **GetConversationItems.** 
   
-Операция **GetConversationItems** получает один или несколько наборов элементов, организованных в узлы в беседе. 
+Операция **GetConversationItems** получает один или несколько наборов элементов, организованных в узлах в беседе. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-getconversationitems-operation"></a>Использование операции GetConversationItems
 
-Вы можете использовать операцию **GetConversationItems** для получения элементов в беседах как для основного, так и для архивного почтовых ящиков. 
+Вы можете использовать **операцию GetConversationItems** для получения элементов в беседах для основных и архивных почтовых ящиков. 
   
-### <a name="getconversationitems-operation-soap-headers"></a>Заголовки SOAP операции GetConversationItems
+### <a name="getconversationitems-operation-soap-headers"></a>Заглавные заготки операции GetConversationItems
 
-Операция **GetConversationItems** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции GetConversationItems** можно использовать заглавные таблицы SOAP, указанные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Минимальное значение для этого элемента — **Exchange2013**. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Минимальное значение для этого элемента **Exchange2013**. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="getconversationitems-operation-request-example-get-items-in-a-single-conversation"></a>Пример запроса операции GetConversationItems: получение элементов в одной беседе
+## <a name="getconversationitems-operation-request-example-get-items-in-a-single-conversation"></a>Пример запроса на операцию GetConversationItems: получить элементы в одном разговоре
 
-В следующем примере запроса операции **GetConversationItems** показано, как получить все элементы беседы в одной беседе, за исключением элементов, расположенных в папках "Удаленные" и "Черновики". Каждый элемент, возвращенный в ответе, будет содержать идентификатор элемента, тему и время получения элемента в почтовом ящике. 
+В следующем примере запроса на операцию **GetConversationItems** показано, как получить все элементы беседы в одном разговоре, за исключением элементов, расположенных в папках Удаленные элементы и черновики. Каждый элемент, возвращенный в ответе, будет содержать идентификатор элемента, субъект и время, когда элемент был получен в почтовом ящике. 
   
 > [!NOTE]
-> Все идентификаторы элементов и изменения ключей в этой статье были сокращены, чтобы сохранить удобочитаемость. 
+> Для сохранения читаемости сокращены все идентификаторы элементов и ключи изменений в этой статье. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -77,41 +77,41 @@ ms.locfileid: "44457783"
 </soap:Envelope>
 ```
 
-В этом примере запроса **GetConversationItems** не входят следующие параметры: 
+В этом примере **запроса GetConversationItems** не содержатся следующие параметры: 
   
-- Элемент [макситемсторетурн](maxitemstoreturn.md) , который задает максимальное количество элементов, возвращаемых в ответе. 
+- Элемент [MaxItemsToReturn,](maxitemstoreturn.md) который задает максимальное количество элементов, возвращаемого в ответ. 
     
-- Элемент [маилбоксскопе](mailboxscope.md) , который задает область почтового ящика, указывая, следует ли выполнять операцию **GetConversationItems** для основного почтового ящика, архивного почтового ящика или обоих почтовых ящиков. 
+- Элемент [MailboxScope,](mailboxscope.md) который задает область почтового ящика, указывает, должна ли выполняться операция **GetConversationItems** на основном почтовом ящике, архивном почтовом ящике или обоих почтовых ящиках. 
     
-- Элемент [синкстате (base64Binary)](syncstate-base64binary.md) , который задает состояние синхронизации для получения только новых или обновленных элементов беседы. Этот элемент задается для каждого диалога. 
+- Элемент [SyncState (base64Binary),](syncstate-base64binary.md) который задает состояние синхронизации для получения только новых или обновленных элементов беседы. Этот элемент заданной для каждого разговора. 
     
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [GetConversationItems](getconversationitems.md)
     
-- [итемшапе](itemshape.md)
+- [ItemShape](itemshape.md)
     
-- [басешапе](baseshape.md)
+- [BaseShape](baseshape.md)
     
-- [аддитионалпропертиес](additionalproperties.md)
+- [AdditionalProperties](additionalproperties.md)
     
-- [фиелдури](fielduri.md)
+- [FieldURI](fielduri.md)
     
-- [фолдерстоигноре](folderstoignore.md)
+- [FoldersToIgnore](folderstoignore.md)
     
-- [дистингуишедфолдерид](distinguishedfolderid.md)
+- [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [SortOrder (Конверсатионнодесортордер)](sortorder-conversationnodesortorder.md)
+- [SortOrder (ConversationNodeSortOrder)](sortorder-conversationnodesortorder.md)
     
 - [Беседы](conversations-ex15websvcsotherref.md)
     
-- [Беседа (Конверсатионрекуесттипе)](conversation-conversationrequesttype.md)
+- [Conversation (ConversationRequestType)](conversation-conversationrequesttype.md)
     
 - [ConversationId](conversationid.md)
     
-## <a name="successful-getconversationitems-operation-response"></a>Успешный отклик операции GetConversationItems
+## <a name="successful-getconversationitems-operation-response"></a>Успешный ответ на операцию GetConversationItems
 
-В следующем примере показан успешный ответ на запрос операции **GetConversationItems** для получения элементов в одной беседе. 
+В следующем примере показан успешный ответ на запрос **операции GetConversationItems** для получения элементов в одном разговоре. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -201,43 +201,43 @@ ms.locfileid: "44457783"
 </s:Envelope>
 ```
 
-Рекомендуется сохранить Синкстате для последующих запросов на операции **GetConversationItems** . 
+Рекомендуется сохранить SyncState для последующих запросов на операции **GetConversationItems.** 
   
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [жетконверсатионитемсреспонсе](getconversationitemsresponse.md)
+- [GetConversationItemsResponse](getconversationitemsresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [жетконверсатионитемсреспонсемессаже](getconversationitemsresponsemessage.md)
+- [GetConversationItemsResponseMessage](getconversationitemsresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [Беседа (Конверсатионреспонсетипе)](conversation-conversationresponsetype.md)
+- [Conversation (ConversationResponseType)](conversation-conversationresponsetype.md)
     
 - [ConversationId](conversationid.md)
     
-- [Синкстате (base64Binary)](syncstate-base64binary.md)
+- [SyncState (base64Binary)](syncstate-base64binary.md)
     
-- [конверсатионнодес](conversationnodes.md)
+- [ConversationNodes](conversationnodes.md)
     
-- [конверсатионноде](conversationnode.md)
+- [ConversationNode](conversationnode.md)
     
 - [InternetMessageId](internetmessageid.md)
     
-- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 - [Сообщение](message-ex15websvcsotherref.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
 - [Тема](subject.md)
     
 - [DateTimeReceived](datetimereceived.md)
     
-## <a name="getconversationitems-operation-error-response"></a>Ответ об ошибке операции GetConversationItems
+## <a name="getconversationitems-operation-error-response"></a>Ответ на ошибку операции GetConversationItems
 
-В приведенном ниже примере показан ответ об ошибке запроса операции **GetConversationItems** для получения элементов в беседе, которые больше не существуют в почтовом ящике, или для которых все элементы беседы находятся в папках, которые игнорируются. 
+В следующем примере показан ответ на запрос операции **GetConversationItems** для получения элементов в беседе, которые либо больше не существуют в почтовом ящике, либо для которых все элементы беседы находятся в папках, которые игнорируются. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

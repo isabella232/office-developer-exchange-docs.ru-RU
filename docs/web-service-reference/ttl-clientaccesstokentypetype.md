@@ -1,50 +1,50 @@
 ---
-title: TTL (Клиентакцесстокентипетипе)
+title: TTL (ClientAccessTokenTypeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc8f8caa-fced-49b6-9861-d112590b218a
-description: Элемент TTL указывает срок жизни (TTL) для маркера.
-ms.openlocfilehash: 0275e97ce02e41cc377f4003aee12c6fff0995e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TTL указывает время для живого значения маркера.
+ms.openlocfilehash: 9f8fa983a4cbe1fd7f9f1862eeca1030a7446916
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467391"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538746"
 ---
-# <a name="ttl-clientaccesstokentypetype"></a>TTL (Клиентакцесстокентипетипе)
+# <a name="ttl-clientaccesstokentypetype"></a>TTL (ClientAccessTokenTypeType)
 
-Элемент **TTL** указывает срок жизни (TTL) для маркера. 
+Элемент **TTL** указывает время для живого значения маркера. 
   
 ```XML
 <TTL></TTL>
 ```
 
- **положительн**
+ **integer**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Токенрекуест](tokenrequest.md)  |  [Token (маркер](token.md) )
+[TokenRequest](tokenrequest.md)  |  [Маркер](token.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение для элемента **TTL** указывает, сколько времени токен остается действительным. 
+Текстовое значение элемента **TTL** указывает, как долго маркер остается действительным. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44467391"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

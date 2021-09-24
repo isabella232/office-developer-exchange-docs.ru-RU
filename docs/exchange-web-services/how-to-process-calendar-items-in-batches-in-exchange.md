@@ -1,36 +1,36 @@
 ---
-title: Обработка элементов календаря в пакетах Exchange
+title: Обработка элементов календаря пакетами в Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb2952e2-cbfe-43ac-b746-f071faa7665c
-description: Узнайте, как создавать, получать, обновлять и удалять пакеты элементов календаря в едином вызове с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 10c5c28e4dda27c9ac9770088db122f0a8e8c101
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Узнайте, как создавать, получать, обновлять или удалять пакеты элементов календаря в одном вызове с помощью управляемого API EWS или EWS в Exchange.
+ms.openlocfilehash: 1c4431ab86088d4a8a5d8e2e8378e392786fa8b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527903"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513110"
 ---
-# <a name="process-calendar-items-in-batches-in-exchange"></a>Обработка элементов календаря в пакетах Exchange
+# <a name="process-calendar-items-in-batches-in-exchange"></a>Обработка элементов календаря пакетами в Exchange
 
-Узнайте, как создавать, получать, обновлять и удалять пакеты элементов календаря в едином вызове с помощью управляемого API EWS или EWS в Exchange.
+Узнайте, как создавать, получать, обновлять или удалять пакеты элементов календаря в одном вызове с помощью управляемого API EWS или EWS в Exchange.
 
-Вы можете использовать управляемый API EWS или EWS для работы с пакетами встреч и собраний, чтобы уменьшить количество звонков клиента на сервер Exchange. При использовании управляемого API EWS для создания, получения, обновления и удаления пакета элементов календаря используются методы объекта [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , а при работе с одними элементами календаря используются методы объекта [встреча](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) . Если вы используете EWS, вы используете одну и ту же операцию для пакетных вызовов, которые используются для отдельных вызовов.
+Управляемый API или EWS EWS можно использовать для работы с пакетами встреч и встреч, чтобы уменьшить количество вызовов, которые клиент совершает на Exchange сервер. При использовании управляемого API EWS для создания, получения, обновления и удаления пакета элементов календаря используются методы объектов [ExchangeService,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) в то время как при работе с одними элементами календаря используются объектные методы назначения. [](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) Если вы используете EWS, вы используете ту же операцию для пакетных вызовов, которые используются для одиночных вызовов.
 
 **Таблица 1. Методы управляемого API EWS и операции EWS для работы с пакетами элементов календаря**
 
 |**Задача**|**Используйте этот метод управляемого API EWS**|**Используйте эту операцию EWS**|
 |:-----|:-----|:-----|
-|Создание элементов календаря в пакетах  <br/> |[CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|Получение элементов календаря в пакетном режиме  <br/> |[биндтоитемс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
-|Обновление элементов календаря в пакетах  <br/> |[упдатеитемс](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Удаление элементов календаря в пакетах  <br/> |[делетеитемс](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
+|Создание элементов календаря пакетами  <br/> |[CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
+|Получить элементы календаря пакетами  <br/> |[BindToItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
+|Обновление элементов календаря пакетами  <br/> |[UpdateItems](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|Удаление элементов календаря пакетами  <br/> |[DeleteItems](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
 
 В этой статье вы узнаете, как выполнить основные задачи для пакетов элементов календаря с помощью управляемого API EWS или EWS.
 
-Обратите внимание, что в примерах управляемого API EWS, приведенных в этой статье, если методы вызываются последовательно, можно создать, получить, обновить и удалить пакет элементов календаря.
+Обратите внимание, что в примерах управляемого API EWS в этой статье, если методы называются последовательно, можно создать, получить, обновить и удалить пакет элементов календаря.
 
 ```cs
 Collection<ItemId> itemIds = BatchCreateCalendarItems(service);
@@ -40,12 +40,12 @@ BatchDeleteCalendarItemsTwice(service, itemIds);
 
 ```
 
-## <a name="create-calendar-items-in-batches-by-using-the-ews-managed-api"></a>Создание элементов календаря в пакетах с помощью управляемого API EWS
+## <a name="create-calendar-items-in-batches-by-using-the-ews-managed-api"></a>Создание элементов календаря пакетами с помощью управляемого API EWS
 <a name="bk_createewsma"> </a>
 
-Вы можете создавать элементы календаря в пакетах, используя метод управляемого API [CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) EWS, как показано в следующем примере. В этом примере создаются три объекта [встречи](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) : встреча с одним экземпляром, повторяющаяся встреча и собрание, а затем они добавляются в коллекцию.
+Элементы календаря можно создавать пакетами с помощью метода управляемого API [CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) EWS, как показано в следующем примере. В этом примере создаются три объекта [назначения](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) : встреча в одном экземпляре, повторяющиеся встречи и собрание, а затем добавляет их в коллекцию.
 
-В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**.
+В этом примере предполагается, что вы сдали Exchange сервер и приобрели службу с именем [объекта ExchangeService.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
 
 ```cs
 public static Collection<ItemId> BatchCreateCalendarItems(ExchangeService service)
@@ -122,12 +122,12 @@ return itemIds;
 
 ```
 
-Объекты [встреч](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) в коллекции могут представлять собой встречи или собрания, а также отдельные экземпляры или повторяющиеся последовательности.
+Объектами [встречи](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) в коллекции могут быть встречи или собрания, а также отдельные экземпляры или повторяющиеся серии.
 
-## <a name="create-calendar-items-in-batches-by-using-ews"></a>Создание элементов календаря в пакетах с помощью EWS
+## <a name="create-calendar-items-in-batches-by-using-ews"></a>Создание элементов календаря пакетами с помощью EWS
 <a name="bk_createews"> </a>
 
-Вы можете создавать элементы календаря в пакетах с помощью операции [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) EWS, как показано в следующем примере кода. Это также запрос XML, который отправляет управляемый API EWS при использовании управляемого API EWS для [создания элементов календаря в пакетах](#bk_createewsma).
+Элементы календаря можно создавать пакетами с помощью операции [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) EWS, как показано в следующем примере кода. Это также XML-запрос, который отправляет управляемый API EWS при использовании управляемого API EWS для создания элементов календаря [пакетами.](#bk_createewsma)
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -206,11 +206,11 @@ return itemIds;
 
 ```
 
-Сервер отвечает на запрос **CreateItem** с сообщением [креатеитемреспонсе](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **для каждого** из новых элементов календаря, что означает, что каждый элемент календаря был создан успешно.
+Сервер отвечает на запрос **CreateItem** [сообщением CreateItemResponse,](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) которое включает значение [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError** для каждого из новых элементов календаря, что указывает на успешное создание каждого элемента календаря.
 
-Обратите внимание, что элементы календаря представляют собой собрания или встречи, а также отдельные экземпляры или повторяющиеся ряды в соответствии со значениями элементов каждого элемента календаря, переданного на сервер Exchange.
+Обратите внимание, что элементы календаря являются собраниями или встречами, или одиночными экземплярами или повторяющимися сериями, в соответствии со значениями элементов каждого элемента календаря, передающимися на Exchange сервер.
 
-Ниже приведен ответ от сервера. Атрибуты **ItemId** и **чанжекэй** сокращаются для удобочитаемости.
+Ниже приводится ответ с сервера. Атрибуты **ItemId** и **ChangeKey** сокращаются для читаемости.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -256,12 +256,12 @@ return itemIds;
 
 ```
 
-## <a name="get-calendar-items-in-batches-by-using-the-ews-managed-api"></a>Получение элементов календаря в пакетах с помощью управляемого API EWS
+## <a name="get-calendar-items-in-batches-by-using-the-ews-managed-api"></a>Получить элементы календаря пакетами с помощью управляемого API EWS
 <a name="bk_getewsma"> </a>
 
-Вы можете получать элементы календаря в пакетах, используя метод управляемого API [биндтоитемс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) EWS, как показано в следующем примере.
+Элементы календаря можно получать пакетами с помощью метода управляемого API [BindToItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) EWS, как показано в следующем примере.
 
-В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**.
+В этом примере предполагается, что вы сдали Exchange сервер и приобрели службу с именем [объекта ExchangeService.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
 
 ```cs
 public static Collection<Appointment> BatchGetCalendarItems(ExchangeService service, Collection<ItemId> itemIds)
@@ -310,12 +310,12 @@ public static Collection<Appointment> BatchGetCalendarItems(ExchangeService serv
 
 ```
 
-## <a name="get-calendar-items-in-batches-by-using-ews"></a>Получение элементов календаря в пакетах с помощью EWS
+## <a name="get-calendar-items-in-batches-by-using-ews"></a>Получить элементы календаря пакетами с помощью EWS
 <a name="bk_getews"> </a>
 
-Вы можете получать элементы календаря в пакетах с помощью операции [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) EWS, как показано в следующем примере. Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [получения элементов календаря в пакетах](#bk_getewsma).
+Элементы календаря можно получать пакетами с помощью операции [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) EWS, как показано в следующем примере. Это также XML-запрос, который отправляет управляемый API EWS при использовании управляемого API EWS для получения элементов календаря [пакетами.](#bk_getewsma)
 
-Атрибуты **ItemId** и **чанжекэй** сокращаются для удобочитаемости.
+Атрибуты **ItemId** и **ChangeKey** сокращаются для читаемости.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -355,7 +355,7 @@ public static Collection<Appointment> BatchGetCalendarItems(ExchangeService serv
 
 ```
 
-Сервер отвечает на запрос **GetItem** с сообщением [жетитемреспонсе](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) с запрошенными свойствами для каждого элемента, как показано в следующем примере.
+Сервер отвечает на запрос **GetItem** [сообщением GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) с запрашиваемой свойствами для каждого элемента, как показано в следующем примере.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -474,12 +474,12 @@ public static Collection<Appointment> BatchGetCalendarItems(ExchangeService serv
 
 ```
 
-## <a name="update-calendar-items-in-batches-by-using-the-ews-managed-api"></a>Обновление элементов календаря в пакетах с помощью управляемого API EWS
+## <a name="update-calendar-items-in-batches-by-using-the-ews-managed-api"></a>Обновление элементов календаря пакетами с помощью управляемого API EWS
 <a name="bk_updateewsma"> </a>
 
-Вы можете обновлять свойства элементов календаря в пакетах, используя метод управляемого API [упдатеитемс](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) EWS, как показано в следующем примере.
+Свойства элементов календаря можно обновлять пакетами с помощью метода управляемого API [UpdateItems](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) EWS, как показано в следующем примере.
 
-В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**.
+В этом примере предполагается, что вы сдали Exchange сервер и приобрели службу с именем [объекта ExchangeService.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
 
 ```cs
 public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService service, Collection<Appointment> calendarItems)
@@ -527,10 +527,10 @@ public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService servic
 
 ```
 
-## <a name="update-calendar-items-in-batches-by-using-ews"></a>Обновление элементов календаря в пакетах с помощью EWS
+## <a name="update-calendar-items-in-batches-by-using-ews"></a>Обновление элементов календаря пакетами с помощью EWS
 <a name="bk_updateews"> </a>
 
-Вы можете обновить несколько элементов календаря с помощью операции [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS, как показано в следующем примере кода. Это также запрос XML, который отправляет управляемый API EWS при использовании управляемого API EWS для [обновления элементов календаря в пакетах](#bk_updateewsma).
+Можно обновить несколько элементов календаря с помощью операции [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS, как показано в следующем примере кода. Это также XML-запрос, который отправляет управляемый API EWS при использовании API управляемых EWS для обновления элементов календаря [пакетами.](#bk_updateewsma)
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -592,7 +592,7 @@ public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService servic
 
 ```
 
-Сервер отвечает на запрос **UpdateItem** с сообщением [упдатеитемреспонсе](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , указывающее на то **, что**все обновления успешно сохранены на сервере. Все конфликты включаются в элемент [конфликтресулт](https://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx) .
+Сервер отвечает на запрос **UpdateItem** [сообщением UpdateItemResponse,](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) которое включает значение [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError,** которое указывает, что каждое из обновлений было успешно сохранено на сервере. Любые конфликты сообщаются в [элементе ConflictResult.](https://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx)
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -647,12 +647,12 @@ public static Collection<ItemId> BatchUpdateCalendarItems(ExchangeService servic
 
 ```
 
-## <a name="delete-calendar-items-in-batches-by-using-the-ews-managed-api"></a>Удаление элементов календаря в пакетах с помощью управляемого API EWS
+## <a name="delete-calendar-items-in-batches-by-using-the-ews-managed-api"></a>Удаление элементов календаря пакетами с помощью управляемого API EWS
 <a name="bk_deleteewsma"> </a>
 
-Вы можете удалять элементы календаря в пакетах, используя метод управляемого API [делетеитемс](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) EWS, как показано в следующем примере. В этом примере отменяется запрос на удаление во второй раз, чтобы показать, что исключения не возникают, но сервер возвращает ошибку **ерроритемнотфаунд** , указывающую на то, что элементы для удаления не были внесены в хранилище при вызове. Эта ошибка возвращается, если элемент уже удален или на сервер передается идентификатор ошибочного элемента.
+Элементы календаря можно удалять пакетами с помощью метода управляемого API [DeleteItems](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) EWS, как показано в следующем примере. В этом примере во второй раз делается запрос на удаление, чтобы показать, что исключений не было, но сервер возвращает ошибку **ErrorItemNotFound,** чтобы указать, что элементы, которые нужно удалить, не были в магазине при вызове. Эта ошибка возвращается, если элемент уже удален или если плохой ID элемента передается серверу.
 
-В этом примере предполагается, что вы прошли проверку подлинности на сервере Exchange и приобрели объект [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) с именем **Service**.
+В этом примере предполагается, что вы сдали Exchange сервер и приобрели службу с именем [объекта ExchangeService.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
 
 ```cs
 public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collection<ItemId> itemIds)
@@ -693,14 +693,14 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 
 ```
 
-Если метод **делетеитемс** вызывается во второй раз, исключение не создается, но сервер возвращает ошибку **ерроритемнотфаунд** в результате.
+Когда метод **DeleteItems** вызван во второй раз, не будет отброшено исключение, но сервер возвращает ошибку **ErrorItemNotFound** в результате.
 
-## <a name="delete-calendar-items-in-batches-by-using-ews"></a>Удаление элементов календаря в пакетах с помощью EWS
+## <a name="delete-calendar-items-in-batches-by-using-ews"></a>Удаление элементов календаря пакетами с помощью EWS
 <a name="bk_deleteews"> </a>
 
-Вы можете удалять элементы календаря в пакетах с помощью операции [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS, как показано в следующем примере кода. Это также запрос XML, который отправляет управляемый API EWS, когда вы используете управляемый API EWS для [удаления элементов календаря в пакетах](#bk_deleteewsma).
+Элементы календаря можно удалять пакетами с помощью операции [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS, как показано в следующем примере кода. Это также XML-запрос, который отправляет управляемый API EWS при использовании API управляемых EWS для удаления элементов календаря [пакетами.](#bk_deleteewsma)
 
-Атрибуты **ItemId** и **чанжекэй** сокращаются для удобочитаемости.
+Атрибуты **ItemId** и **ChangeKey** сокращаются для читаемости.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -729,7 +729,7 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 
 ```
 
-Сервер отвечает на запрос **DeleteItem** с сообщением [делетеитемреспонсе](https://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) , которое содержит значение [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **для удаления для каждого** удаленного элемента.
+Сервер отвечает на запрос **DeleteItem** [сообщением DeleteItemResponse,](https://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) которое включает значение [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError** для каждого удаляемого элемента.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -761,7 +761,7 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 
 ```
 
-Обратите внимание, что при выполнении запроса **DeleteItem** , когда связанные элементы уже были удалены, исключение не создается, но сервер возвратит ошибку **ерроритемнотфаунд** в результат. В следующем примере показан ответ сервера на запрос **DeleteItem** , когда связанные элементы уже были удалены.
+Обратите внимание, что если запрос **DeleteItem** выполнен, когда связанные элементы уже удалены, исключение не будет отброшено, но сервер возвращает ошибку **ErrorItemNotFound** в результате. В следующем примере показан ответ сервера на запрос **DeleteItem,** когда связанные элементы уже удалены.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -799,26 +799,26 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 
 ```
 
-## <a name="verifying-that-a-batch-process-completed-successfully"></a>Проверка успешного завершения пакетной обработки
+## <a name="verifying-that-a-batch-process-completed-successfully"></a>Проверка успешного завершения пакетного процесса
 <a name="bk_successful"> </a>
 
-Если один или несколько элементов календаря в пакетном запросе не могут быть обработаны как запрошенные, возвращается ошибка для каждого элемента календаря с ошибкой, а остальные элементы календаря в пакете обрабатываются должным образом. Ошибки в пакетной обработке могут возникать, если элемент был удален, поэтому не может быть отправлен, извлечен или обновлен, или если элемент перемещен в другую папку, и поэтому не может быть изменен с помощью идентификатора элемента. Сведения в этом разделе показывают, как получить сведения об ошибках при пакетной обработке элементов календаря.
+Если один или несколько элементов календаря в пакетном запросе не могут быть обработаны по запросу, для каждого сбойного элемента календаря возвращается ошибка, а остальные элементы календаря в пакете обрабатываются как ожидалось. Сбои в пакетной обработке могут возникать, если элемент был удален и поэтому не может быть отправлен, извлечен или обновлен, или если элемент перемещен в другую папку и поэтому имеет новый ID элемента и не может быть изменен с помощью отправленного ID элемента. В этом разделе показано, как получить сведения об ошибках при пакетной обработке элементов календаря.
 
-Чтобы проверить успешность пакетной обработки с помощью управляемого API EWS, можно проверить, что свойство [овераллресулт](https://msdn.microsoft.com/library/dd634515%28v=exchg.80%29.aspx) объекта [сервицереспонсеколлектион](https://msdn.microsoft.com/library/dd633715%28v=exchg.80%29.aspx) равно [сервицересулт. Success](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx). В таком случае все элементы календаря обрабатывались успешно. Если **овераллресулт** не равно **сервицересулт. Success**, один или несколько элементов календаря не были обработаны успешно. Каждый из объектов, возвращенных в **сервицереспонсеколлектион** , содержит следующие свойства:
+Чтобы проверить успешность пакетного процесса с помощью управляемого API EWS, можно проверить, что свойство [OverallResult](https://msdn.microsoft.com/library/dd634515%28v=exchg.80%29.aspx) [службыResponseCollection](https://msdn.microsoft.com/library/dd633715%28v=exchg.80%29.aspx) равно [ServiceResult.Success.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx) В этом случае все элементы календаря были успешно обработаны. Если **overallResult** не равен **ServiceResult.Success,** один или несколько элементов календаря не были успешно обработаны. Каждый из объектов, возвращенных в **ServiceResponseCollection,** содержит следующие свойства:
 
 - [ErrorCode](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
 
-- [еррордетаилс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
+- [ErrorDetails](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
 
 - [ErrorMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errormessage%28v=exchg.80%29.aspx)
 
-- [еррорпропертиес](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errorproperties%28v=exchg.80%29.aspx)
+- [Свойства ошибок](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errorproperties%28v=exchg.80%29.aspx)
 
 - [Результат](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.serviceresponse.result%28v=exchg.80%29.aspx)
 
-Эти свойства содержат сведения о том, почему не удалось обработать элементы календаря по запросу. В примерах, приведенных в этой статье, распечатываться **результат**, **ErrorCode**и **ErrorMessage** для каждого ошибочного элемента. Вы можете использовать эти результаты для изучения проблемы.
+Эти свойства содержат сведения о том, почему элементы календаря не могут обрабатываться по запросу. В примерах этой статьи распечатывания **результатов,** **errorCode** и **ErrorMessage** для каждого неудатного элемента. Эти результаты можно использовать для изучения проблемы.
 
-Для проверки успешности пакетного процесса в EWS проверьте атрибут [респонсекласс](https://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx) для каждого обрабатываемого элемента. Ниже приведена базовая структура **респонсемессажетипе**, базовый тип которого является производным от всех ответных сообщений.
+Чтобы проверить успешность пакетного процесса, проверьте атрибут [ResponseClass](https://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx) для каждого обрабатываемого элемента. Ниже приводится базовая структура **ResponseMessageType**, базового типа, из которого получаются все сообщения отклика.
 
 ```XML
 <ResponseMessage ResponseClass="Success | Warning | Error">
@@ -829,19 +829,19 @@ public static void BatchDeleteCalendarItemsTwice(ExchangeService service, Collec
 </ResponseMessage>
 ```
 
-Атрибут **респонсекласс** имеет значение **Success** , если элемент календаря был обработан успешно, или **Ошибка** , если она не была успешно обработана. Для элементов календаря не будет появляться **предупреждение** во время пакетной обработки. Если **Респонсекласс** **успешно**, элемент [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , который следует за ним, также всегда имеет значение " **Ошибка**". Если **респонсекласс** является **ошибкой**, необходимо проверить значения элементов [мессажетекст](https://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx), **респонсекоде**и [мессажексмл](https://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx) , чтобы определить, что привело к проблеме. [Дескриптивелинккэй](https://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) в настоящее время не используется.
+Атрибут **ResponseClass** настроен на **Успех,** если элемент календаря был успешно обработан, или **Ошибка,** если он не был успешно обработан. Для элементов календаря при пакетной обработке вы не **столкнетесь** с предупреждением. Если **ResponseClass —** **это успех,** то элемент [ResponseCode,](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) который следует, также всегда задаваем **noError.** Если **в ResponseClass** **есть** ошибка, необходимо проверить значения элементов [MessageText,](https://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx) **ResponseCode** и [MessageXml,](https://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx) чтобы определить причину проблемы. [ОписательныйLinkKey в](https://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) настоящее время неиспользован.
 
 ## <a name="see-also"></a>См. также
 
 
 - [Календари и веб-службах Exchange](calendars-and-ews-in-exchange.md)
 
-- [Получение встреч и собраний с помощью EWS в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Встреча и собрания с помощью EWS в Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
 
 - [Обновление встречи и собрания с помощью веб-служб Exchange в Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
 
 - [Удаление встреч и отмена собраний с помощью EWS в Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
 
-- [Обработка элементов календаря в пакетах Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
+- [Обработка элементов календаря пакетами в Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
 
-- [Влияние регулирования на пакетные запросы EWS](ews-throttling-in-exchange.md#throttling-implications-for-ews-batch-requests)
+- [Последствия регулирования для пакетных запросов EWS](ews-throttling-in-exchange.md#throttling-implications-for-ews-batch-requests)

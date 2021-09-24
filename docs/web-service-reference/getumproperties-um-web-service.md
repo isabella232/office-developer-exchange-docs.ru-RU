@@ -4,23 +4,23 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUMProperties
 api_type:
 - schema
 ms.assetid: 19873b72-ec12-4811-ae5f-6b61f2dbf0cc
-description: Элемент GetUMProperties определяет операцию GetUMProperties (веб-службу единой системы обмена сообщениями).
-ms.openlocfilehash: 2cab45ec6b1058f459b65992cf7345f1be171ce7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetUMProperties определяет запрос на операцию GetUMProperties (веб-служба um).
+ms.openlocfilehash: 3f13eeb445300dabe6ae3cafc8f89ba7d9cd5411
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459134"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538057"
 ---
 # <a name="getumproperties-um-web-service"></a>GetUMProperties (веб-служба единой системы обмена сообщениями)
 
-Элемент **GetUMProperties** определяет [операцию GetUMProperties (веб-службу единой системы обмена сообщениями)](getumproperties-operation-um-web-service.md) . 
+Элемент **GetUMProperties** определяет запрос [на операцию GetUMProperties (веб-служба um).](getumproperties-operation-um-web-service.md) 
   
 [GetUMProperties (веб-служба единой системы обмена сообщениями)](getumproperties-um-web-service.md)
   
@@ -31,23 +31,23 @@ ms.locfileid: "44459134"
  **complexType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -55,7 +55,7 @@ ms.locfileid: "44459134"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

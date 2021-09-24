@@ -1,33 +1,33 @@
 ---
-title: гудсрешолд
+title: GoodThreshold
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GoodThreshold
 api_type:
 - schema
 ms.assetid: 68f607f5-7271-46a6-8ffc-91878185a683
-description: Элемент Гудсрешолд указывает процент участников, для которых должен быть открыт период времени, чтобы определить, какой период времени должен быть приемлемым для предполагаемого времени проведения собрания.
-ms.openlocfilehash: 34ea433ad7315d61df8cf8e22bae1166d3210af3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GoodThreshold указывает процент участников, которые должны иметь открытый период времени для того, чтобы период времени мог квалифицироваться как хорошее предложенное время собрания.
+ms.openlocfilehash: bec5159b46a350cb01f8d573c68e1925aeb40ac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457314"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533222"
 ---
-# <a name="goodthreshold"></a>гудсрешолд
+# <a name="goodthreshold"></a>GoodThreshold
 
-Элемент **гудсрешолд** указывает процент участников, для которых должен быть открыт период времени, чтобы определить, какой период времени должен быть приемлемым для предполагаемого времени проведения собрания. 
+Элемент **GoodThreshold** указывает процент участников, которые должны иметь открытый период времени для того, чтобы период времени мог квалифицироваться как хорошее предложенное время собрания. 
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[сугжестионсвиевоптионс](suggestionsviewoptions.md)
+[SuggestionsViewOptions](suggestionsviewoptions.md)
   
-[гудсрешолд](goodthreshold.md)
+[GoodThreshold](goodthreshold.md)
   
 ```xml
 <GoodThreshold>...</GoodThreshold>
@@ -36,29 +36,29 @@ ms.locfileid: "44457314"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Ожидаемые целые значения находятся в диапазоне от 0 до 50.
+Требуется текстовое значение. Ожидаемые значения в несколько раз от 0 до 50.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент является обязательным, если используется элемент [сугжестионсвиевоптионс](suggestionsviewoptions.md) . Элемент **гудсрешолд** также определяет, что встречами считается удовлетворительно. В процентах от участников с конфликтами меньше, чем на 50 процентов, рекомендуемое время проведения собрания определено как справедливое. Хорошее пороговое значение плюс 50 соответствует проценту, определяющему хорошее/приемлемое пороговое значение. 
+Этот элемент необходим, если используется элемент [SuggestionsViewOptions.](suggestionsviewoptions.md) Элемент **GoodThreshold** также определяет, какие собрания считаются справедливыми. Это процент участников с конфликтами меньше, чем хороший порог и выше 50 процентов, предложенное время собрания квалифицируется как Справедливое. Хороший порог плюс 50 равняется проценту, который определяет пороговое значение Good/Fair. 
   
 > [!NOTE]
 > Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
@@ -69,7 +69,7 @@ ms.locfileid: "44457314"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

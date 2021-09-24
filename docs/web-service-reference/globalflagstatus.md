@@ -1,52 +1,52 @@
 ---
-title: глобалфлагстатус
+title: GlobalFlagStatus
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalFlagStatus
 api_type:
 - schema
 ms.assetid: 3ba300f3-3355-4cab-9e77-0dcc2902e712
-description: Элемент Глобалфлагстатус содержит сводный статус флага для всех элементов бесед в почтовом ящике.
-ms.openlocfilehash: f9984a1bb7e8205a98dd3ef91f841b48a7ab9389
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GlobalFlagStatus содержит агрегированное состояние флага для всех элементов беседы в почтовом ящике.
+ms.openlocfilehash: 2f9b0e05770eef497323150888c1302d5895f345
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459506"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519655"
 ---
-# <a name="globalflagstatus"></a>глобалфлагстатус
+# <a name="globalflagstatus"></a>GlobalFlagStatus
 
-Элемент **глобалфлагстатус** содержит сводный статус флага для всех элементов бесед в почтовом ящике. 
+Элемент **GlobalFlagStatus содержит** агрегированное состояние флага для всех элементов беседы в почтовом ящике. 
   
-[финдконверсатионреспонсе](findconversationresponse.md)
+[FindConversationResponse](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[глобалфлагстатус](globalflagstatus.md)
+[GlobalFlagStatus](globalflagstatus.md)
   
 ```XML
 <GlobalFlagStatus> NotFlagged | Flagged | Complete </GlobalFlagStatus>
 ```
 
- **флагстатустипе**
+ **FlagStatusType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,15 +56,15 @@ ms.locfileid: "44459506"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **глобалфлагстатус** — это сводный статус флага для элементов беседы в текущей папке. Ниже приведены возможные текстовые значения. 
+Текстовое значение элемента **GlobalFlagStatus** — это агрегированное состояние флага для элементов беседы в текущей папке. Возможные текстовые значения: 
   
-- **Нотфлагжед** — указывает состояние "без отметки". 
+- **NotFlagged** — указывает состояние, не помеченное флагом. 
     
-- **Отмечено** — указывает на состояние помечено. 
+- **Помечено** . Указывает состояние флага. 
     
-- **Complete** — полный статус флага. 
+- **Полное** — указывает полное состояние флага. 
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -74,7 +74,7 @@ ms.locfileid: "44459506"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

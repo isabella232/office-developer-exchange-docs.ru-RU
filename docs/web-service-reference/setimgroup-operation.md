@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d48aa07-8152-4c3d-a519-061253e80174
-description: Поиск сведений о SetImGroupной операции EWS.
-ms.openlocfilehash: 37b290559fff0b2de57669741547ba4b1b56c28c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции SetImGroup EWS.
+ms.openlocfilehash: 3499647aa9aaa62b56336f5e016344a05cf7578f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44438077"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534295"
 ---
 # <a name="setimgroup-operation"></a>Операция SetImGroup
 
-Поиск сведений о **SetImGroupной** операции EWS. 
+Сведения об операции **SetImGroup** EWS. 
   
-Операция **SetImGroup** изменяет отображаемое имя группы обмена мгновенными сообщениями (IM). 
+Операция **SetImGroup** меняет имя отображения группы обмена мгновенными сообщениями. 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-setimgroup-operation"></a>Использование операции SetImGroup
 
-Для операции **SetImGroup** используется только один аргумент Display Name. 
+Операция **SetImGroup** принимает только один аргумент имени отображения. 
   
-### <a name="setimgroup-operation-soap-headers"></a>Заголовки SOAP операции SetImGroup
+### <a name="setimgroup-operation-soap-headers"></a>Заготчики операции SetImGroup
 
-Операция **SetImGroup** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции SetImGroup** можно использовать заглавные таблицы SOAP, указанные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
-|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает. Этот заглавный заглавник применим к запросу.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет культуру, определяемую в RFC 3066 , "Теги для идентификации языков", которая будет использоваться для доступа к почтовому ящику. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="setimgroup-operation-request-example"></a>Пример запроса операции SetImGroup
+## <a name="setimgroup-operation-request-example"></a>Пример запроса на операцию SetImGroup
 
-В следующем примере запроса операции **SetImGroup** показано, как изменить отображаемое имя группы IM на "миневграупнаме". 
+В следующем примере запроса на операцию **SetImGroup** показано, как изменить имя отображения группы im на "MyNewGroupName". 
   
 > [!NOTE]
-> Идентификатор хранилища Exchange был сокращен, чтобы сохранить удобочитаемость. 
+> Идентификатор Exchange магазина был сокращен для сохранения читаемости. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -64,17 +64,17 @@ ms.locfileid: "44438077"
 </soap:Envelope>
 ```
 
-Текст SOAP Request содержит следующие элементы:
+Тело SOAP запроса содержит следующие элементы:
   
 - [SetImGroup](setimgroup.md)
     
 - [GroupId](groupid.md)
     
-- [невдисплайнаме](newdisplayname.md)
+- [NewDisplayName](newdisplayname.md)
     
-## <a name="successful-setimgroup-operation-response"></a>Успешный отклик операции SetImGroup
+## <a name="successful-setimgroup-operation-response"></a>Успешный ответ на операции SetImGroup
 
-В следующем примере показан успешный ответ на запрос операции **SetImGroup** . 
+В следующем примере показан успешный ответ на запрос **операции SetImGroup.** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -100,15 +100,15 @@ ms.locfileid: "44438077"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [сетимграупреспонсе](setimgroupresponse.md)
+- [SetImGroupResponse](setimgroupresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-## <a name="setimgroup-operation-error-response"></a>Ответ об ошибке операции SetImGroup
+## <a name="setimgroup-operation-error-response"></a>Ответ на ошибку операции SetImGroup
 
-В следующем примере показан ответ об ошибке для запроса операции **SetImGroup** . Следующий ответ об ошибке возникает при попытке изменить отображаемое имя группы на отображаемое имя существующей группы. 
+В следующем примере показан ответ на ошибку на запрос **операции SetImGroup.** Следующий ответ на ошибку возникает при попытке изменить имя отображения группы на существующее имя отображения группы. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -136,17 +136,17 @@ ms.locfileid: "44438077"
 </s:Envelope>
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [сетимграупреспонсе](setimgroupresponse.md)
+- [SetImGroupResponse](setimgroupresponse.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
+Дополнительные коды ошибок, общие для EWS и специфические для этой операции, см. [в ответе.](responsecode.md)
   
 ## <a name="see-also"></a>См. также
 

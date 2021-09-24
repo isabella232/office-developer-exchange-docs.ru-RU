@@ -1,23 +1,23 @@
 ---
-title: жетдисковерисеарчконфигуратионреспонсе
+title: GetDiscoverySearchConfigurationResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d963e6c-e94d-462b-8c44-95d55c848fb2
-description: Элемент Жетдисковерисеарчконфигуратионреспонсе указывает ответ на запрос GetDiscoverySearchConfiguration.
-ms.openlocfilehash: 98393943434b5e3460485b7d75c2b5285983f597
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetDiscoverySearchConfigurationResponse указывает ответ на запрос GetDiscoverySearchConfiguration.
+ms.openlocfilehash: 978d3a8a2081da3837b9e58f1efab3e9d6afccd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460983"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512991"
 ---
-# <a name="getdiscoverysearchconfigurationresponse"></a>жетдисковерисеарчконфигуратионреспонсе
+# <a name="getdiscoverysearchconfigurationresponse"></a>GetDiscoverySearchConfigurationResponse
 
-Элемент **жетдисковерисеарчконфигуратионреспонсе** указывает ответ на запрос **GetDiscoverySearchConfiguration** . 
+Элемент **GetDiscoverySearchConfigurationResponse** указывает ответ на запрос **GetDiscoverySearchConfiguration.** 
   
 ```XML
 <GetDiscoverySearchConfigurationResponse>
@@ -29,24 +29,24 @@ ms.locfileid: "44460983"
 </GetDiscoverySearchConfigurationResponse>
 ```
 
- **жетдисковерисеарчконфигуратионреспонсемессажетипе**
+ **GetDiscoverySearchConfigurationResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Дисковерисеарчконфигуратионс](discoverysearchconfigurations.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44460983"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

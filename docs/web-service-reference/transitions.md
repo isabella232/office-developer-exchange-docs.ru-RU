@@ -1,27 +1,27 @@
 ---
-title: Выполняет
+title: Transitions
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Transitions
 api_type:
 - schema
 ms.assetid: 26f38f1c-96a3-440e-805c-1437886d11c5
-description: Элемент TRANSITIONS представляет массив переходов часового пояса.
-ms.openlocfilehash: d48fb8872b2f7e052f733c32e5dd1c9b4d04d898
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Transitions представляет массив переходов часового пояса.
+ms.openlocfilehash: 7756878ed21bbe778bf51e99ade212f53414f998
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467440"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520313"
 ---
-# <a name="transitions"></a>Выполняет
+# <a name="transitions"></a>Transitions
 
-Элемент **TRANSITIONS** представляет массив переходов часового пояса. 
+Элемент **Transitions** представляет массив переходов часового пояса. 
   
 ```xml
 <Transitions Id="">
@@ -32,10 +32,10 @@ ms.locfileid: "44467440"
 </Transitions>
 ```
 
- **аррайофтранситионстипе**
+ **ArrayOfTransitionsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -47,24 +47,24 @@ ms.locfileid: "44467440"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[абсолутедатетранситион](absolutedatetransition.md) <br/> |Представляет переход часового пояса, который выполняется в определенный день и в определенное время.  <br/> |
-|[рекуррингдайтранситион](recurringdaytransition.md) <br/> |Представляет переход часового пояса, который выполняется в один день каждого года.  <br/> |
-|[рекуррингдатетранситион](recurringdatetransition.md) <br/> |Представляет переход часового пояса, который выполняется в указанный день года.  <br/> |
-|[Ветвление](transition.md) <br/> |Представляет переход часового пояса.  <br/> |
+|[AbsoluteDateTransition](absolutedatetransition.md) <br/> |Представляет переход часовой пояс, который происходит в определенную дату и в определенное время.  <br/> |
+|[RecurringDayTransition](recurringdaytransition.md) <br/> |Представляет переход часовой зоны, который происходит каждый год в один и тот же день.  <br/> |
+|[RecurringDateTransition](recurringdatetransition.md) <br/> |Представляет переход часового пояса, который происходит в указанный день года.  <br/> |
+|[Transition](transition.md) <br/> |Представляет переход часовой пояс.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StartTimeZone](starttimezone.md) <br/> |Определяет часовой пояс времени начала [календаритем](calendaritem.md) или [свойство meetingrequest](meetingrequest.md).  <br/> |
-|[EndTimeZone](endtimezone.md) <br/> |Определяет часовой пояс для времени окончания [календаритем](calendaritem.md) или [свойство meetingrequest](meetingrequest.md).  <br/> |
-|[тимезонедефинитион](timezonedefinition.md) <br/> |Определяет часовой пояс.  <br/> |
+|[StartTimeZone](starttimezone.md) <br/> |Определяет часовой пояс для времени начала [работы CalendarItem](calendaritem.md) или [MeetingRequest.](meetingrequest.md)  <br/> |
+|[EndTimeZone](endtimezone.md) <br/> |Определяет часовой пояс для конечного времени [calendarItem](calendaritem.md) или [MeetingRequest.](meetingrequest.md)  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |Определяет часовой пояс.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -74,7 +74,7 @@ ms.locfileid: "44467440"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

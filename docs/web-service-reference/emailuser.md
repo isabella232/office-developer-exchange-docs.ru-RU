@@ -1,23 +1,23 @@
 ---
-title: Свойства emailuser
+title: EmailUser
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc8133ff-c34e-4921-bb56-06e79aee0a8a
-description: Элемент свойства emailuser указывает получателя электронной почты.
-ms.openlocfilehash: c090106a536f4f40908d364cc3c9c43f6fe42beb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EmailUser указывает получателя электронной почты.
+ms.openlocfilehash: d3c1657938f8b4b21123b2f7cb67252e31f3d7b2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456537"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538211"
 ---
-# <a name="emailuser"></a>Свойства emailuser
+# <a name="emailuser"></a>EmailUser
 
-Элемент **Свойства emailuser** указывает получателя электронной почты. 
+Элемент **EmailUser** указывает получателя электронной почты. 
   
 ```XML
 <EmailUser>
@@ -26,29 +26,29 @@ ms.locfileid: "44456537"
 </EmailUser>
 ```
 
- **емаилусертипе**
+ **EmailUserType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (строка)](name-string.md) <br/> |Задает имя или ключ уточнения поиска или имя пользователя электронной почты.  <br/> |
-|[UserId (строка)](userid-string.md) <br/> |Указывает идентификатор пользователя электронной почты.  <br/> |
+|[Name (строка)](name-string.md) <br/> |Указывает имя или ключ поиска или имя пользователя электронной почты.  <br/> |
+|[UserId (строка)](userid-string.md) <br/> |Указывает идентификатор пользователя пользователя электронной почты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|['](attendees.md) <br/> |Указывает получателей приглашения на собрание.  <br/> |
+|[Участники](attendees.md) <br/> |Указывает получателей приглашения на собрание.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44456537"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

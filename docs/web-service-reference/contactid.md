@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86f66275-1e39-48ed-bd89-ac3bffc465a7
-description: Элемент ContactId однозначно идентифицирует контакт.
-ms.openlocfilehash: 17e8012283078d5d6e2cd1d2e88eef37b008be42
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ContactId однозначно определяет контакт.
+ms.openlocfilehash: 6b00d2f83c31905b5901a9d0dec2994c23fcb21d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463183"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533902"
 ---
 # <a name="contactid"></a>ContactId
 
-Элемент **ContactId** однозначно идентифицирует контакт. 
+Элемент **ContactId** однозначно определяет контакт. 
   
 ```XML
 <ContactId Id="" ChangeKey=""/>
 ```
 
- **итемидтипе**
+ **ItemIdType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|Id  <br/> |Текстовое значение атрибута **ID** — идентификатор элемента контакта.  <br/> |
-|чанжекэй  <br/> |Текстовое значение атрибута **чанжекэй** — это ключ изменения элемента Contact.  <br/> |
+|Id  <br/> |Текстовое значение атрибута **Id** — это идентификатор контактного элемента.  <br/> |
+|ChangeKey  <br/> |Текстовое значение **атрибута ChangeKey** — это ключ изменения контактного элемента.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [AddImContactToGroup](addimcontacttogroup.md)  |  [RemoveContactFromImList](removecontactfromimlist.md)  |  [RemoveImContactFromGroup](removeimcontactfromgroup.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44463183"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

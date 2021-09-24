@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ce3994c1-3bb4-4571-b026-34a6c5705410
-description: Элемент GetNonIndexableItemDetails указывает запрос на получение сведений о неиндексируемых элементах.
-ms.openlocfilehash: 1c04b4cd7a86183210be869973c9779188fa0adf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetNonIndexableItemDetails указывает запрос на извлечение неиндекционных деталей элемента.
+ms.openlocfilehash: 896b978b9b222454b9e3f016aa0593521e92e33d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458602"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533613"
 ---
 # <a name="getnonindexableitemdetails"></a>GetNonIndexableItemDetails
 
-Элемент **GetNonIndexableItemDetails** указывает запрос на получение сведений о неиндексируемых элементах. 
+Элемент **GetNonIndexableItemDetails** указывает запрос на извлечение неиндекционных деталей элемента. 
   
 ```XML
 <GetNonIndexableItemDetails>
@@ -28,29 +28,29 @@ ms.locfileid: "44458602"
 </GetNonIndexableItemDetails>
 ```
 
- **жетнониндексаблеитемдетаилстипе**
+ **GetNonIndexableItemDetailsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Почтовые ящики (Нонемптяррайофлегациднстипе)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Указывает массив элементов **почтового ящика** .  <br/> |
-|[PageSize](pagesize.md) <br/> |Содержит количество элементов, возвращаемых на одной странице для результатов поиска.  <br/> |
-|[пажеитемреференце](pageitemreference.md) <br/> |Указывает ссылку на элемент страницы.  <br/> |
-|[пажедиректион](pagedirection.md) <br/> |Содержит направление разбивки в результатах поиска.  <br/> |
+|[Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Указывает массив элементов **почтовых ящиков.**  <br/> |
+|[PageSize](pagesize.md) <br/> |Содержит количество элементов, которые будут возвращены на одной странице для результата поиска.  <br/> |
+|[PageItemReference](pageitemreference.md) <br/> |Указывает ссылку на элемент страницы.  <br/> |
+|[PageDirection](pagedirection.md) <br/> |Содержит направление для pagination в результатах поиска.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44458602"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

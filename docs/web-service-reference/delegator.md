@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Delegator
 api_type:
 - schema
 ms.assetid: d359f7e8-765f-40ba-a7a0-9ce428f84523
-description: Элемент "Делегирование" содержит имя представителя, которому назначена задача.
-ms.openlocfilehash: 63f97838d732c29e1e434783e7a12cf45e195e76
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Делегатор содержит имя делегатора, которому назначена задача.
+ms.openlocfilehash: 29fa0d7bc773af83fb3d9969528729dbef04e317
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457363"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519858"
 ---
 # <a name="delegator"></a>Delegator
 
-Элемент " **Делегирование** " содержит имя представителя, которому назначена задача. 
+Элемент **Делегатор** содержит имя делегатора, которому назначена задача. 
   
 ```xml
 <Delegator/>
@@ -31,15 +31,15 @@ ms.locfileid: "44457363"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -49,9 +49,9 @@ ms.locfileid: "44457363"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет имя представителя.
+Текстовое значение представляет имя делегатора.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44457363"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

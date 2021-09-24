@@ -1,52 +1,52 @@
 ---
-title: глобалсизе
+title: GlobalSize
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalSize
 api_type:
 - schema
 ms.assetid: 23c24437-8dab-4c86-888d-471d23af675a
-description: Элемент Глобалсизе содержит размер диалога, вычисленный на основе размера всех элементов бесед в почтовом ящике.
-ms.openlocfilehash: d23ab080dadb006cd5eff9d712d081fe7d94a2a8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GlobalSize содержит размер беседы, вычисляемой из размера всех элементов беседы в почтовом ящике.
+ms.openlocfilehash: 39172ecb719de61eb3144ddd2f365c4e97c9822e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462453"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533293"
 ---
-# <a name="globalsize"></a>глобалсизе
+# <a name="globalsize"></a>GlobalSize
 
-Элемент **глобалсизе** содержит размер диалога, вычисленный на основе размера всех элементов бесед в почтовом ящике. 
+Элемент **GlobalSize** содержит размер беседы, вычисляемой из размера всех элементов беседы в почтовом ящике. 
   
-[финдконверсатионреспонсе](findconversationresponse.md)
+[FindConversationResponse](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[глобалсизе](globalsize.md)
+[GlobalSize](globalsize.md)
   
 ```XML
 <GlobalSize/>
 ```
 
- **xs: int**
+ **xs:int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,9 +56,9 @@ ms.locfileid: "44462453"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **глобалсизе** — размер диалога, рассчитанный на основе размера всех элементов бесед в почтовом ящике. 
+Текстовое значение элемента **GlobalSize** — это размер беседы, вычисляемой из размера всех элементов беседы в почтовом ящике. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -68,7 +68,7 @@ ms.locfileid: "44462453"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

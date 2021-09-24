@@ -1,23 +1,23 @@
 ---
-title: инклудеунсеарчаблеитемс
+title: IncludeUnsearchableItems
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a9bd2dc-f5b9-4b82-a6a0-f643d2951080
-description: Элемент Инклудеунсеарчаблеитемс указывает, следует ли включать элементы, поиск которых невозможен.
-ms.openlocfilehash: 19fe450f5b1647be2df75138dbe67dd9e1c05c21
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IncludeUnsearchableItems указывает, следует ли включать элементы, которые нельзя искать.
+ms.openlocfilehash: 3bffd68c20623aa4c63dd295d8b4619999c1d4a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465704"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533106"
 ---
-# <a name="includeunsearchableitems"></a>инклудеунсеарчаблеитемс
+# <a name="includeunsearchableitems"></a>IncludeUnsearchableItems
 
-Элемент **инклудеунсеарчаблеитемс** указывает, следует ли включать элементы, поиск которых невозможен. 
+Элемент **IncludeUnsearchableItems** указывает, следует ли включать элементы, которые нельзя искать. 
   
 ```XML
 <IncludeUnsearchableItems>true | false</IncludeUnsearchableItems>
@@ -26,27 +26,27 @@ ms.locfileid: "44465704"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[финдмаилбоксстатистиксбикэйвордс](findmailboxstatisticsbykeywords.md) <br/> |Указывает запрос на поиск статистики почтовых ящиков по ключевому слову.  <br/> |
+|[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md) <br/> |Указывает запрос на поиск статистики почтовых ящиков по ключевому слову.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **инклудеунсеарчаблеитемс** указывает на то, что статистика не включается для элементов, которые не могут быть доступны для поиска. Значение **false** указывает, что статистика включена для элементов, которые не могут быть доступны для поиска. 
+Текстовое **значение, истинное** для элемента **IncludeUnsearchableItems,** указывает на то, что статистика не включается для элементов, которые не являются поиском. Значение false **указывает** на то, что статистика включена для элементов, которые не являются поисковими. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44465704"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

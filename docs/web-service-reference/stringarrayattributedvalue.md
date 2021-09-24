@@ -1,23 +1,23 @@
 ---
-title: стрингаррайаттрибутедвалуе
+title: StringArrayAttributedValue
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 919509f6-ee58-4eac-a689-c167a36349cc
-description: Элемент Стрингаррайаттрибутедвалуе указывает экземпляр массива строковых данных для элемента персоны.
-ms.openlocfilehash: 7b52cfb373049337bdd6550f8ba593e96ddab4ae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент StringArrayAttributedValue указывает экземпляр массива данных строк для элемента persona.
+ms.openlocfilehash: aa2095d60c1a5ffb4bfd7ee2cfd308bceb49d801
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463092"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513313"
 ---
-# <a name="stringarrayattributedvalue"></a>стрингаррайаттрибутедвалуе
+# <a name="stringarrayattributedvalue"></a>StringArrayAttributedValue
 
-Элемент **стрингаррайаттрибутедвалуе** указывает экземпляр массива строковых данных для элемента персоны. 
+Элемент **StringArrayAttributedValue** указывает экземпляр массива данных строк для элемента persona. 
   
 ```XML
 <StringArrayAttributedValue>
@@ -26,24 +26,24 @@ ms.locfileid: "44463092"
 </StringArrayAttributedValue>
 ```
 
- **стрингаррайаттрибутедвалуетипе**
+ **StringArrayAttributedValueType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Value (значение](value.md)  |  ) [Атрибуты (аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
+[Значение](value.md)  |  [Атрибуция (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Дочерние элементы (Аррайофстрингаррайаттрибутедвалуестипе)](children-arrayofstringarrayattributedvaluestype.md)
+[Children (ArrayOfStringArrayAttributedValuesType)](children-arrayofstringarrayattributedvaluestype.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44463092"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

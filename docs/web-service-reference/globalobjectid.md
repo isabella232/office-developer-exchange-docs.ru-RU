@@ -1,57 +1,57 @@
 ---
-title: глобалобжектид
+title: GlobalObjectId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalObjectId
 api_type:
 - schema
 ms.assetid: ef5618d3-9b52-4a00-ab66-159dc1091e93
-description: Элемент Глобалобжектид не используется.
-ms.openlocfilehash: c5d9fa91709cf979fa2143b791fbb880425e2ccd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GlobalObjectId не используется.
+ms.openlocfilehash: dfe8e0860143b059f5e00e35857f99085b607dc5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537996"
 ---
-# <a name="globalobjectid"></a>глобалобжектид
+# <a name="globalobjectid"></a>GlobalObjectId
 
-Элемент **глобалобжектид** не используется. 
+Элемент **GlobalObjectId** не используется. 
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[сугжестионсвиевоптионс](suggestionsviewoptions.md)
+[SuggestionsViewOptions](suggestionsviewoptions.md)
   
-[глобалобжектид](globalobjectid.md)
+[GlobalObjectId](globalobjectid.md)
   
 ```xml
 <GlobalObjectId>...</GlobalObjectId>
 ```
 
-**дата и время**
+**dateTime**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -59,7 +59,7 @@ ms.locfileid: "44459379"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

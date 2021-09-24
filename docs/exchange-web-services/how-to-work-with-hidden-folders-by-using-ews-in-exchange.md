@@ -1,39 +1,39 @@
 ---
-title: Работать с скрытыми папками с помощью EWS в Exchange
+title: Работа со скрытыми папками с помощью EWS в Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7ae7c045-cd90-4c9f-baf5-0464d5058f45
-description: Сведения о том, как сделать папку скрытой и найти скрытые папки с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: d4fa44a0399542350668359e8abb88d2a0a9d579
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Узнайте, как сделать папку скрытой и найти скрытые папки с помощью управляемого API или EWS EWS в Exchange.
+ms.openlocfilehash: 722cc09aa62ae4201362c59f7d7d2b4988e25837
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456376"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513075"
 ---
-# <a name="work-with-hidden-folders-by-using-ews-in-exchange"></a>Работать с скрытыми папками с помощью EWS в Exchange
+# <a name="work-with-hidden-folders-by-using-ews-in-exchange"></a>Работа со скрытыми папками с помощью EWS в Exchange
 
-Сведения о том, как сделать папку скрытой и найти скрытые папки с помощью управляемого API EWS или EWS в Exchange.
+Узнайте, как сделать папку скрытой и найти скрытые папки с помощью управляемого API или EWS EWS в Exchange.
   
-С одним исключением папки в корне почтового ящика Exchange (поддерево без IPM) скрыты от пользователя. И наоборот, все папки в **мсгфолдеррут** (поддерево IPM) видимы пользователю. Как скрыть папку в **мсгфолдеррут**? Это не то, что очень просто — он передается только одному свойству, расширенному свойству [пидтагаттрибутехидден](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) (0x10F4000B). Если для этого свойства задано **значение true**, Outlook или другой клиент, использующий свойство для определения видимости папки, будет скрывать эту папку из представления пользователя. Так как это расширенное свойство, оно более сложно использовать, чем свойство среднего значения папки, поэтому в этой статье рассматриваются основные сценарии.
+За одним исключением папки в корне почтового ящика Exchange (подтрий, не относячий к IPM) скрыты от пользователя. И наоборот, все папки **в msgFolderRoot** (подтрию IPM) видны пользователю. Итак, как скрыть папку под **MsgFolderRoot?** Это не так сложно — оно сводится только к одному свойству — расширенному свойству [PidTagAttributeHidden](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) (0x10F4000B). Если это свойство заданной для **true,** Outlook или другой клиент, использующий свойство для определения видимости папок, будет скрывать папку от представления пользователя. Так как это расширенное свойство, его сложнее использовать, чем среднее свойство папки, поэтому в этой статье вы сможете ходить по основным сценариям.
   
-**Таблица 1. Методы управляемого API EWS и операции EWS для работы с скрытыми папками**
+**Таблица 1. Методы управляемого API EWS и операции EWS для работы со скрытыми папками**
 
 |**Задача**|**Метод управляемого API EWS**|**Операция EWS**|
 |:-----|:-----|:-----|
-|Скрытие папки  <br/> |[Folder. Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) , за которым следует [Папка. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[Папка](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) , за которой следует [операцию UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
-|Поиск скрытых папок  <br/> |[финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
+|Скрыть папку  <br/> |[Folder.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) с [последующим обновлением folder.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) с [последующим обновлениемFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
+|Поиск скрытых папок  <br/> |[FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
    
-Хотите узнать, что такое одно исключение — то есть какая папка в корне видна пользователям? Это папка Finder (также называемая значением перечисления **SearchFolders**[веллкновнфолдер](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) или значением **SearchFolders**[дистингуишедфолдерид](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) ), которая содержит папки поиска пользователей. Папки поиска, созданные в папке Finder, видимы для пользователей Outlook. Если вам нужно создать папку поиска, невидимую для пользователей, переместите ее в корневую папку, чтобы скрыть ее. В отличие от других папок, если задать **PidTagAttributeHidden** для свойства пидтагаттрибутехидден **значение true** , папка поиска в папке Finder не будет скрыта. 
+Вам интересно, что является одним исключением — то есть, какая папка в корневой ИИ видна пользователям? Это папка Finder (также известная как значение переоформления **SearchFolders**[WellKnownFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) или значение элемента [DistinguishedFolderId)](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) в папках поиска пользователей. Папки поиска, созданные в папке Finder, видны Outlook пользователям. Если требуется создать папку поиска, которая не видна пользователям, перемести ее в корневую папку, чтобы скрыть ее. В отличие от других папок, если свойство **PidTagAttributeHidden** верно, не скрывает папку поиска в папке Finder.  
   
-## <a name="hide-a-folder-by-using-the-ews-managed-api"></a>Скрытие папки с помощью управляемого API EWS
+## <a name="hide-a-folder-by-using-the-ews-managed-api"></a>Скрыть папку с помощью управляемого API EWS
 <a name="bk_hideewsma"> </a>
 
-Можно [сделать существующую папку](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_createfolderewsma) скрытой, изменив расширенное свойство [пидтагаттрибутехидден](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) на **true**. Сначала создайте [Определение расширенного свойства для свойства](properties-and-extended-properties-in-ews-in-exchange.md). Затем используйте метод [BIND](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) для получения папки, а затем обновите значение свойства **пидтагаттрибутехидден** на true и используйте метод [Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) для сохранения изменений. 
+Можно сделать [существующую](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_createfolderewsma) папку скрытой папкой, изменив расширенное свойство [PidTagAttributeHidden](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) на **true.** Сначала создайте [расширенное определение свойства для свойства.](properties-and-extended-properties-in-ews-in-exchange.md) Далее используйте метод [Bind,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) чтобы добраться до папки, а затем обновить значение свойства **PidTagAttributeHidden** до true и использовать метод [Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) для сохранения изменений. 
   
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика, что пользователь прошел проверку подлинности на сервере Exchange, а **FolderId** — допустимый [Folder.ID](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) , определяющий папку для скрытия. 
+В этом примере предполагается, что служба является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтовых ящиков, что пользователь [](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.id%28v=exchg.80%29.aspx) был аутентификацией на сервер Exchange, и что папкаId является допустимым Folder.Id, который идентифицирует папку для сокрытия.   
   
 ```cs
 private static void MakeHidden(FolderId folderId, ExchangeService service)
@@ -50,14 +50,14 @@ private static void MakeHidden(FolderId folderId, ExchangeService service)
 }
 ```
 
-## <a name="hide-a-folder-by-using-ews"></a>Скрытие папки с помощью EWS
+## <a name="hide-a-folder-by-using-ews"></a>Скрыть папку с помощью EWS
 <a name="bk_hideews"> </a>
 
-С помощью EWS можно [сделать существующую папку](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_createfolderewsma) скрытой, изменив свойство [пидтагаттрибутехидден](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) расширенного свойства на **true**. Сначала [используйте операцию GetSetting для получения папки,](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) а затем извлеките свойство **пидтагаттрибутехидден** , включив элемент [екстендедфиелдури](https://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) , и установите для параметра **Пропертитаг** значение 4340, а для параметра **propertyType** значение — Boolean. 
+Вы можете использовать EWS, чтобы сделать существующую папку скрытой папкой, изменив свойство [PidTagAttributeHidden](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) на **true.** [](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_createfolderewsma) Сначала используйте операцию [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) для получения папки, а затем извлеките свойство **PidTagAttributeHidden,** включив элемент [ExtendedFieldURI](https://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) и установив значение **PropertyTag** до 4340 и **значение PropertyType** для Boolean. 
   
-Это также запрос XML, который отправляет управляемый API EWS при использовании метода **BIND** для получения папки перед тем, как [сделать ее скрытой папкой](#bk_hideewsma).
+Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **Bind** для получения папки, прежде чем сделать ее [скрытой папкой.](#bk_hideewsma)
   
-Значение [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) укорачивается для удобочитаемости. 
+Значение [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) сокращается для читаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -85,7 +85,7 @@ private static void MakeHidden(FolderId folderId, ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос к **папке** жетфолдерреспонсе с сообщением [GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает, что папка была получена успешно. В ответ также включается [значение](https://msdn.microsoft.com/library/196278d4-5e77-4e0a-8af6-8ac065610510%28Office.15%29.aspx) для параметра [ExtendedProperty](https://msdn.microsoft.com/library/f9701409-b620-4afe-b9ee-4c1e95507af7%28Office.15%29.aspx). В этом примере **значение** равно **false**, что означает, что папка в настоящее время не скрыта.
+Сервер отвечает на запрос **GetFolder** с сообщением [GetFolderResponse,](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) которое включает в себя значение элемента [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError,** что указывает на успешное извлечение папки. Ответ также включает [значение](https://msdn.microsoft.com/library/196278d4-5e77-4e0a-8af6-8ac065610510%28Office.15%29.aspx) [для ExtendedProperty](https://msdn.microsoft.com/library/f9701409-b620-4afe-b9ee-4c1e95507af7%28Office.15%29.aspx). В этом примере **значение заданной** для false **,** что означает, что папка в настоящее время не скрыта.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -126,9 +126,9 @@ private static void MakeHidden(FolderId folderId, ExchangeService service)
 </s:Envelope>
 ```
 
-Чтобы изменить значение свойства **ExtendedProperty** на true, используйте операцию [операцию UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) . Включите элементы **ExtendedProperty**, **екстендедфиелдури**и **value** для расширенного свойства **Пидтагаттрибутехидден** и присвойте элементу **value значение** **true** , чтобы скрыть папку. 
+Чтобы изменить значение **ExtendedProperty** на true, используйте операцию [UpdateFolder.](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) Включите элементы  **ExtendedProperty,** **ExtendedFieldURI** и **Value** для расширенного свойства **PidTagAttributeHidden** и установите значение значение true, чтобы скрыть папку.  
   
-Это также запрос XML, который отправляет управляемый API EWS при использовании метода **Update** для обновления папки, чтобы [сделать ее скрытой папкой](#bk_hideewsma).
+Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **Update** для обновления папки, чтобы сделать ее [скрытой папкой.](#bk_hideewsma)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -165,14 +165,14 @@ private static void MakeHidden(FolderId folderId, ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **операцию UpdateFolder** с сообщением [упдатефолдерреспонсе](https://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает на то, что папка успешно обновлена, и теперь скрыта.
+Сервер отвечает на запрос **UpdateFolder** [сообщением UpdateFolderResponse,](https://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) которое включает значение элемента [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError,** которое указывает, что папка была успешно обновлена и теперь скрыта.
   
 ## <a name="find-all-hidden-folders-by-using-the-ews-managed-api"></a>Поиск всех скрытых папок с помощью управляемого API EWS
 <a name="bk_findhiddenewsma"> </a>
 
-Все скрытые папки можно найти в родительской папке, создав [Определение расширенного свойства](properties-and-extended-properties-in-ews-in-exchange.md) для расширенного свойства **пидтагаттрибутехидден** , а затем используя метод [финдфолдерс](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) для поиска папок со значением **пидтагаттрибутехидден** , равным **true**. В этом примере используется Мсгфолдеррут, также называемый верхней частью банка данных или поддерево IPM, в качестве родительской папки для поиска в.
+Вы можете найти все скрытые папки в [](properties-and-extended-properties-in-ews-in-exchange.md) родительской папке, создав расширенное определение свойства для расширенного свойства **PidTagAttributeHidden,** а затем с помощью метода [FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) найти папки с значением **PidTagAttributeHidden,** которое установлено значение **true**. В этом примере в качестве родительской папки используется MsgFolderRoot, также известная как Top of Information Store или IPM Subtree.
   
-В этом примере предполагается, что **Служба** является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь прошел проверку подлинности на сервере Exchange. 
+В этом примере предполагается, что служба является допустимым объектом [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) для владельца почтового ящика и что пользователь был аутентификацией Exchange сервера.  
   
 ```cs
 private static void FindHiddenFolders(ExchangeService service)
@@ -202,9 +202,9 @@ private static void FindHiddenFolders(ExchangeService service)
 ## <a name="find-all-hidden-folders-by-using-ews"></a>Поиск всех скрытых папок с помощью EWS
 <a name="bk_findhiddenews"> </a>
 
-С помощью EWS можно найти все скрытые папки в существующей папке, вызвав операцию [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) и выполнив поиск папок, у которых расширенное свойство [пидтагаттрибутехидден](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) имеет значение **true**. Для этого включите[ограничение](https://msdn.microsoft.com/library/77f19014-d112-4999-8e83-ecc32a117a73%28Office.15%29.aspx) [исекуалто](https://msdn.microsoft.com/library/48e7e067-049c-4184-8026-071e6f558e8a%28Office.15%29.aspx), которое выполняет поиск элемента [Екстендедфиелдури](https://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) для свойства **пидтагаттрибутехидден** ( **пропертитаг** значение равным 4243, а значение **propertyType** — Boolean), как показано в следующем запросе. В этом примере используется Мсгфолдеррут, также называемый верхней частью банка данных или поддерево IPM, в качестве родительской папки для поиска в. 
+Вы можете использовать EWS, чтобы найти все скрытые папки в существующей папке, позвонив в операцию [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) и ища папки, расширенное свойство [Которых PidTagAttributeHidden](https://msdn.microsoft.com/library/cc433490%28v=exchg.80%29.aspx) настроено как true **.** Для этого включите ограничение [IsEqualTo,](https://msdn.microsoft.com/library/48e7e067-049c-4184-8026-071e6f558e8a%28Office.15%29.aspx)[](https://msdn.microsoft.com/library/77f19014-d112-4999-8e83-ecc32a117a73%28Office.15%29.aspx) которое ищет элемент [ExtendedFieldURI](https://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) для свойства **PidTagAttributeHidden** **(значение PropertyTag** до 4243 и **значение PropertyType** для Boolean), как показано в следующем запросе. В этом примере в качестве родительской папки используется MsgFolderRoot, также известная как Top of Information Store или IPM Subtree. 
   
-Это также запрос XML, который отправляет управляемый API EWS при использовании метода **финдфолдерс** для [поиска всех скрытых папок](#bk_findhiddenewsma).
+Это также XML-запрос, который отправляет управляемый API EWS при использовании метода **FindFolders** для поиска всех [скрытых папок.](#bk_findhiddenewsma)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -248,9 +248,9 @@ private static void FindHiddenFolders(ExchangeService service)
 </soap:Envelope>
 ```
 
-Сервер отвечает на запрос **FindFolder** с сообщением [финдфолдерреспонсе](https://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) , которое содержит значение **ошибки**элемента [респонсекоде](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) , которое указывает, что поиск в папке выполнен успешно, а также все скрытые папки в корневой папке сообщений.
+Сервер отвечает на запрос **FindFolder** [сообщением FindFolderResponse,](https://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) которое содержит значение элемента [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError,** что указывает на успешность поиска в папке, а также все скрытые папки в корневой папке сообщений.
   
-Значения [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) сокращаются для удобочитаемости. 
+Значения [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) сокращаются для читаемости. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -349,7 +349,7 @@ private static void FindHiddenFolders(ExchangeService service)
 ## 
 <a name="bk_findhiddenews"> </a>
 
-После скрытия или скрытия папок может потребоваться получить иерархию папок или [синхронизировать иерархию папок](how-to-synchronize-folders-by-using-ews-in-exchange.md). В примерах, показывающих, как [получить иерархию папок с помощью управляемого API EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyewsma) или [получения иерархии папок с помощью EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyews) , также указываются скрытые папки в иерархии. 
+После сокрытия или разгрузки папок может потребоваться получить иерархию папок или синхронизировать [иерархию папок.](how-to-synchronize-folders-by-using-ews-in-exchange.md) Примеры, в которых покажут, как получить иерархию папок с помощью управляемого [API EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyewsma) или получить иерархию папок с помощью [EWS,](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyews) также указывают, какие папки в иерархии скрыты. 
   
 ## <a name="see-also"></a>См. также
 
@@ -358,6 +358,6 @@ private static void FindHiddenFolders(ExchangeService service)
     
 - [Работа с папками с помощью EWS в Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
     
-- [Работайте с папками поиска с помощью EWS в Exchange](how-to-work-with-search-folders-by-using-ews-in-exchange.md)
+- [Работа с папками поиска с помощью EWS в Exchange](how-to-work-with-search-folders-by-using-ews-in-exchange.md)
     
 

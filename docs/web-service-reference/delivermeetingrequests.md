@@ -1,44 +1,44 @@
 ---
-title: деливермитингрекуестс
+title: DeliverMeetingRequests
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeliverMeetingRequests
 api_type:
 - schema
 ms.assetid: 04b999af-0b27-4e6d-a8b1-400955a1afaa
-description: Элемент Деливермитингрекуестс определяет способ обработки приглашений на собрание между представителем и участником. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 3998443613437bca2267678f7bc2c5584b779135
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DeliverMeetingRequests определяет, как обрабатываются запросы на собрания между делегатом и директором. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+ms.openlocfilehash: 8e61af87337cb1fc8936b4de7753fca2d6c1161e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463680"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519830"
 ---
-# <a name="delivermeetingrequests"></a>деливермитингрекуестс
+# <a name="delivermeetingrequests"></a>DeliverMeetingRequests
 
-Элемент **деливермитингрекуестс** определяет способ обработки приглашений на собрание между представителем и участником. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **DeliverMeetingRequests** определяет, как обрабатываются запросы на собрания между делегатом и директором. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```XML
 <DeliverMeetingRequests>DelegatesOnly or DelegatesAndMe or DelegatesAndSendInformationToMe or NoForward</DeliverMeetingRequests>
 ```
 
- **деливермитингрекуестстипе**
+ **DeliverMeetingRequestsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -46,24 +46,24 @@ ms.locfileid: "44463680"
 |:-----|:-----|
 |[AddDelegate](adddelegate.md) <br/> |Определяет запрос на добавление делегатов в почтовый ящик. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
 |[UpdateDelegate](updatedelegate.md) <br/> |Определяет запрос на обновление делегатов в почтовом ящике. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
-|[жетделегатереспонсе](getdelegateresponse.md) <br/> |Содержит состояние и результат запроса делегата. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[GetDelegateResponse](getdelegateresponse.md) <br/> |Содержит состояние и результат запроса GetDelegate. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **деливермитингрекуестс** . 
+В следующей таблице перечислены возможные значения элемента **DeliverMeetingRequests.** 
   
-**Значения элементов Деливермитингрекуестс**
+**Значения элементов DeliverMeetingRequests**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|делегатесонли  <br/> |Приглашения на собрания пересылаются представителю и перемещаются в папку "Удаленные" в почтовом ящике субъекта.  <br/> |
-|делегатесандме  <br/> |Приглашения на собрания пересылаются представителю и сохраняются в папке "Входящие" в почтовом ящике субъекта.  <br/> |
-|делегатесандсендинформатионтоме  <br/> |Приглашения на собрания пересылаются представителю и хранятся в папке "Входящие" в почтовом ящике участника, но кнопки "принять", "под вопросом" и "отклонить" не отображаются в области чтения Microsoft Office Outlook.  <br/> |
-|Не пересылать  <br/> |Приглашения на собрания не пересылаются представителю.  <br/> |
+|DelegatesOnly  <br/> |Запросы на собрание перенакладыются делегату и перемещаются в папку "Удаленные элементы" в почтовом ящике директора.  <br/> |
+|DelegatesAndMe  <br/> |Запросы на собрание перенакладыются делегату и остаются в папке "Входящие" в почтовом ящике директора.  <br/> |
+|DelegatesAndSendInformationToMe  <br/> |Запросы на собрание пересылаются делегату и остаются в папке "Входящие" в почтовом ящике директора, но кнопки Accept, Tentative и Decline не отображаются в области Microsoft Office Outlook чтения.  <br/> |
+|NoForward  <br/> |Запросы на собрание не переадад- ются делегату.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Параметр **деливермитингрекуестс** влияет на всех делегатов в почтовом ящике участника. 
+Параметр **DeliverMeetingRequests затрагивает** всех делегатов в почтовом ящике директора. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -73,7 +73,7 @@ ms.locfileid: "44463680"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,23 +1,23 @@
 ---
-title: аппровалдеЦисионмакер
+title: ApprovalDecisionMaker
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12e055c3-e7a4-4dbc-8385-bbf69571a0ce
-description: Элемент АппровалдеЦисионмакер указывает отображаемое имя пользователя, который принял решение об утверждении.
-ms.openlocfilehash: d64b9d1816d4df99093ef4d60610e9946f3f98ec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ApprovalDecisionMaker указывает имя отображения человека, который принял решение об утверждении.
+ms.openlocfilehash: e81bd3bd10febde73ebae50ec6b3c15413c31c86
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461648"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520061"
 ---
-# <a name="approvaldecisionmaker"></a>аппровалдеЦисионмакер
+# <a name="approvaldecisionmaker"></a>ApprovalDecisionMaker
 
-Элемент **аппровалдеЦисионмакер** указывает отображаемое имя пользователя, который принял решение об утверждении. 
+Элемент **ApprovalDecisionMaker** указывает имя отображения человека, который принял решение об утверждении. 
   
 ```XML
 <ApprovalDecisionMaker />
@@ -26,25 +26,25 @@ ms.locfileid: "44461648"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[аппровалрекуестдата](approvalrequestdata.md)
+[ApprovalRequestData](approvalrequestdata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **аппровалдеЦисионмакер** — отображаемое имя. 
+Текстовое значение элемента **ApprovalDecisionMaker** — это имя отображения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -56,11 +56,11 @@ ms.locfileid: "44461648"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [аппровалрекуестдата](approvalrequestdata.md)
+- [ApprovalRequestData](approvalrequestdata.md)
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 

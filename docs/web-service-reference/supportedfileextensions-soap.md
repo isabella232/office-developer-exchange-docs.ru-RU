@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f73d18c-7bb1-4ab6-a23b-6d948e590b53
-description: Элемент SupportedFileExtensions перечисляет расширения файлов, которые можно хранить в расположении для общего доступа к документам.
-ms.openlocfilehash: d783b147a25ebbe3bff59c2142012b50bd80004e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SupportedFileExtensions перечисляет расширения файлов, которые можно хранить в расположении общего доступа к документам.
+ms.openlocfilehash: 0b0fd8bb36bf284155cbdad1da70f38b22a0a2b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433989"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538963"
 ---
 # <a name="supportedfileextensions-soap"></a>SupportedFileExtensions (SOAP)
 
-Элемент **SupportedFileExtensions** перечисляет расширения файлов, которые можно хранить в расположении для общего доступа к документам. 
+Элемент **SupportedFileExtensions** перечисляет расширения файлов, которые можно хранить в расположении общего доступа к документам. 
   
 ```XML
 <SupportedFileExtensions /> 
@@ -41,14 +41,14 @@ ms.locfileid: "44433989"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Представляет сведения о расположении и метаданных для общего доступа к документам.  <br/> |
+|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Представляет сведения о расположении и метаданных для расположения общего доступа к документам.  <br/> |
    
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автооружия  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
 |Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
@@ -59,7 +59,7 @@ ms.locfileid: "44433989"
 [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
 
 
-[Справочник по веб-службе автообнаружия для Exchange](autodiscover-web-service-reference-for-exchange.md)
+[Ссылка на веб-службу автооткрытия для Exchange](autodiscover-web-service-reference-for-exchange.md)
   
-[XML-элементы автообнаружения SOAP для Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Элементы XML автооткрытия SOAP для Exchange 2013 г.](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

@@ -1,58 +1,58 @@
 ---
-title: сендпромпт
+title: SendPrompt
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22cb5a30-75d9-49a8-9d98-255f2e8a722d
-description: Элемент Сендпромпт указывает тип действия, разрешенного для параметра голосования.
-ms.openlocfilehash: 98ffc69cdc94c3f7b9c325bee0c1ebaeb407ee96
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SendPrompt указывает тип действий, разрешенных для выбора.
+ms.openlocfilehash: 32537210aadce91911d1fb5002fbafcaa70aa9ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462103"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532134"
 ---
-# <a name="sendprompt"></a>сендпромпт
+# <a name="sendprompt"></a>SendPrompt
 
-Элемент **сендпромпт** указывает тип действия, разрешенного для параметра голосования. 
+Элемент **SendPrompt** указывает тип действий, разрешенных для выбора. 
   
 ```XML
 <SendPrompt> None | Send | VotingOption </SendPrompt>
 ```
 
- **сендпромпттипе**
+ **SendPromptType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[вотингоптиондата](votingoptiondata.md)
+[VotingOptionData](votingoptiondata.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **сендпромпт** — действие параметра голосования. В таблице ниже перечислены возможные варианты последнего. 
+Текстовое значение элемента **SendPrompt** — это действие параметра голосования. В таблице ниже перечислены возможные варианты последнего. 
   
 ****
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Нет  <br/> |Действие отсутствует.  <br/> |
-|Отправить  <br/> |Ответ отправляется немедленно.  <br/> |
-|вотингоптион  <br/> |Утверждающее лицо может вводить комментарии при утверждении или отклонении.  <br/> |
+|Нет  <br/> |Никаких действий.  <br/> |
+|Send  <br/> |Ответ отправляется немедленно.  <br/> |
+|VotingOption  <br/> |Утвердитель может вводить комментарии при одобрении или отклонении.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -64,14 +64,14 @@ ms.locfileid: "44462103"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[вотингоптиондата](votingoptiondata.md)
+[VotingOptionData](votingoptiondata.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

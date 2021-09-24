@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserOofSettings
 api_type:
 - schema
 ms.assetid: 153e4440-495b-4972-9811-2fbea740142a
-description: Операция GetUserOofSettings Возвращает параметры и сообщения пользователя почтового ящика "нет на месте" (отсутствие на работе).
-ms.openlocfilehash: 622faa622b0ea231a6331ff62631885d4252c1f5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetUserOofSettings получает параметры и сообщения пользователя почтового ящика Office (OOF).
+ms.openlocfilehash: 9298681bff1cce5be37e8bee978ddeb0431bacdc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457699"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533412"
 ---
 # <a name="getuseroofsettings-operation"></a>Операция GetUserOofSettings
 
-Операция **GetUserOofSettings** Возвращает параметры и сообщения пользователя почтового ящика "нет на месте" (отсутствие на работе). 
+Операция **GetUserOofSettings** получает параметры Office и сообщений пользователя почтового ящика. 
   
-## <a name="soap-headers"></a>Заголовки SOAP
+## <a name="soap-headers"></a>Заготчики SOAP
 
-Операция **GetUserOofSettings** может использовать заголовки SOAP, указанные в приведенной ниже таблице и описанные в следующей таблице. 
+В **операции GetUserOofSettings** можно использовать заглавные таблицы SOAP, которые перечислены и описаны в следующей таблице. 
   
 |**Header**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|Олицетворение  <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение.  <br/> |
-|серверверсион  <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос.  <br/> |
+|Олицетворение  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает.  <br/> |
+|ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос.  <br/> |
    
 ## <a name="using-the-getuseroofsettings-operation"></a>Использование операции GetUserOofSettings
 
-Операция **GetUserOofSettings** предоставляет доступ к параметрам отсутствия на работе пользователя. Пользователь идентифицируется по адресу электронной почты пользователя. Если сообщение об отсутствии на работе имеет значение NULL и включено отсутствие на работе, сообщение об отсутствии на месте не отправляется. 
+Операция **GetUserOofSettings** предоставляет доступ к настройкам OOF пользователя. Пользователь идентифицирован по адресу электронной почты пользователя. Если сообщение OOF является null и включено OOF, сообщение OOF не отправляется. 
   
 > [!IMPORTANT]
-> Если сообщения об отсутствии на работе задаются Майкрософтofficeoutlook, эта операция возвратит сообщения об отсутствии на работе в формате HTML. 
+> Если OOF-сообщения заданной MicrosoftOfficeOutlook, эта операция возвращает сообщения OOF в формате HTML. 
   
-## <a name="getuseroofsettings-request-example"></a>Пример запроса GetUserOofSettings
+## <a name="getuseroofsettings-request-example"></a>Пример запроса getUserOofSettings
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере показан запрос **GetUserOofSettings** , который получает сведения об отсутствии на работе отдельных пользователей. 
+В следующем примере показан **запрос GetUserOofSettings,** который получает сведения об OOF одного пользователя. 
   
 ### <a name="code"></a>Код
 
@@ -62,11 +62,11 @@ ms.locfileid: "44457699"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
-- [жетусеруфсеттингсрекуест](getuseroofsettingsrequest.md)
+- [GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
     
 - [Mailbox (доступность)](mailbox-availability.md)
     
@@ -74,9 +74,9 @@ ms.locfileid: "44457699"
     
 ## <a name="successful-getuseroofsettings-response-example"></a>Пример успешного ответа GetUserOofSettings
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показано отключенное состояние отсутствия на работе с сообщениями об отсутствии на работе.
+В следующем примере показано отключенное состояние OOF с сообщениями OOF.
   
 ### <a name="code"></a>Код
 
@@ -116,41 +116,41 @@ ms.locfileid: "44457699"
 
 ### <a name="successful-getuseroofsettings-response-elements"></a>Успешные элементы ответа GetUserOofSettings
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [жетусеруфсеттингсреспонсе](getuseroofsettingsresponse.md)
+- [GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
     
-- [респонсемессаже](responsemessage.md)
+- [ResponseMessage](responsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [уфсеттингс](oofsettings.md)
+- [OofSettings](oofsettings.md)
     
-- [уфстате](oofstate.md)
+- [OofState](oofstate.md)
     
-- [екстерналаудиенце](externalaudience.md)
+- [ExternalAudience](externalaudience.md)
     
-- [Продолжительность (Усеруфсеттингс)](duration-useroofsettings.md)
+- [Duration (UserOofSettings)](duration-useroofsettings.md)
     
 - [StartTime](starttime.md)
     
 - [EndTime](endtime.md)
     
-- [интерналрепли](internalreply.md)
+- [InternalReply](internalreply.md)
     
-- [екстерналрепли](externalreply.md)
+- [ExternalReply](externalreply.md)
     
 - [Сообщение](message-ex15websvcsotherref.md)
     
-- [алловекстерналуф](allowexternaloof.md)
+- [AllowExternalOof](allowexternaloof.md)
     
-## <a name="getuseroofsettings-error-response-example"></a>Пример ответа на сообщение об ошибке GetUserOofSettings
+## <a name="getuseroofsettings-error-response-example"></a>Пример ответа на ошибку GetUserOofSettings
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке, вызванный попыткой доступа к сведениям об отсутствии на работе другого пользователя.
+В следующем примере показан ответ на ошибку, вызванный попыткой получить доступ к OOF-данным другого пользователя.
   
 ### <a name="code"></a>Код
 

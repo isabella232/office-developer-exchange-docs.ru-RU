@@ -1,23 +1,23 @@
 ---
-title: Напоминание
+title: Reminder
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54dd748a-23a5-4ea2-88f2-b74c68a3c48f
-description: Элемент напоминания указывает напоминание для задачи или элемента календаря.
-ms.openlocfilehash: 71e54d920a169b8060d22bb7d7d294208c344c2e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Reminder указывает напоминание для задачи или элемента календаря.
+ms.openlocfilehash: 97b4a1dfb2739ff9ea335bca1e61e264715ced30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512494"
 ---
-# <a name="reminder"></a>Напоминание
+# <a name="reminder"></a>Reminder
 
-Элемент **напоминания** указывает напоминание для задачи или элемента календаря. 
+Элемент **Reminder** указывает напоминание для задачи или элемента календаря. 
   
 ```XML
 <Reminder>
@@ -34,24 +34,24 @@ ms.locfileid: "44457489"
 
 ```
 
- **реминдертипе**
+ **ReminderType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Subject (тема](subject.md)  |  ) [Location (расположение](location.md)  |  ) [ReminderTime](remindertime.md)  |  [StartDate](startdate.md)  |  [EndDate (реминдертипе)](enddate-remindertype.md)  |  [ItemId](itemid.md)  |  [Рекуррингмастеритемид (итемидтипе)](recurringmasteritemid-itemidtype.md)  |  [Реминдерграуп](remindergroup.md)  |  [UID (UID](uid.md) )
+[Subject](subject.md)  |  [Расположение](location.md)  |  [ReminderTime](remindertime.md)  |  [StartDate](startdate.md)  |  [EndDate (ReminderType)](enddate-remindertype.md)  |  [ItemId](itemid.md)  |  [RecurringMasterItemid (ItemIdType)](recurringmasteritemid-itemidtype.md)  |  [ReminderGroup](remindergroup.md)  |  [UID](uid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Reminders](reminders.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -63,7 +63,7 @@ ms.locfileid: "44457489"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

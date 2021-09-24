@@ -1,27 +1,27 @@
 ---
-title: Timeout
+title: Превышено время ожидания
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Timeout
 api_type:
 - schema
 ms.assetid: c2e1ca5a-6667-4f6f-aac4-89de33bddc54
-description: Элемент timeout представляет продолжительность в минутах, в течение которого подписка может быть бездействовать без запроса на получение событий от клиента.
-ms.openlocfilehash: 6f3228cd480bf0eaf259c4f321bc74d0845b9bba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Timeout представляет длительность, в течение нескольких минут, чтобы подписка оставалась простаивающим без запроса GetEvents от клиента.
+ms.openlocfilehash: d0b5945f5d116e0ebb7a24a23970e785761fb0c9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459898"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534169"
 ---
-# <a name="timeout"></a>Timeout
+# <a name="timeout"></a>Превышено время ожидания
 
-Элемент **timeout** представляет продолжительность в минутах, в течение которого подписка может быть бездействовать без запроса на получение событий от клиента. 
+Элемент **Timeout** представляет длительность, в течение нескольких минут, чтобы подписка оставалась простаивающим без запроса GetEvents от клиента. 
   
 ```xml
 <Timeout/>
@@ -30,29 +30,29 @@ ms.locfileid: "44459898"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[пуллсубскриптионрекуест](pullsubscriptionrequest.md) <br/> |Представляет подписку на подписку на уведомления о событиях по запросу.  <br/> |
+|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Представляет подписку на подписку на уведомление о событиях на основе тяги.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-При использовании этого элемента необходимо указать текстовое значение, представляющее целое число. Возможные значения для этого элемента — от 1 до 1440 включительно. Этот элемент обязательный.
+Если используется этот элемент, требуется текстовое значение, представляю которое представляет несколько элементов. Возможные значения для этого элемента : от 1 до 1440 включительно. Этот элемент обязательный.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Таймер времени ожидания для подписки сбрасывается из-за успешных запросов на получение событий.
+Timer timeout для подписки сбрасывается успешным запросом GetEvents.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа. 
   
@@ -62,7 +62,7 @@ ms.locfileid: "44459898"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -73,5 +73,5 @@ ms.locfileid: "44459898"
   
 [Операция GetEvents](getevents-operation.md)
   
-[Операция по отмене подписки](unsubscribe-operation.md)
+[Операция Unsubscribe](unsubscribe-operation.md)
 

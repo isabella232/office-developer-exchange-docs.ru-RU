@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e31d14e1-0c1f-4b69-98b7-157d59c13698
-description: Поиск сведений о GetImItemListной операции EWS.
-ms.openlocfilehash: aabe84054b93e7de8af6145942493a0224932e45
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetImItemList EWS.
+ms.openlocfilehash: c16d3d84c1ede4ef05c70ec31806a91ddca10d9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456068"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513600"
 ---
 # <a name="getimitemlist-operation"></a>Операция GetImItemList
 
-Поиск сведений о **GetImItemListной** операции EWS. 
+Сведения об операции **GetImItemList** EWS. 
   
 ## <a name="using-the-getimitemlist-operation"></a>Использование операции GetImItemList
 
-Операция **GetImItemList** извлекает список групп мгновенных сообщений и пользователей контактов для обмена мгновенными сообщениями в почтовом ящике. Операция **GetImItemList** не имеет аргументов. 
+Операция **GetImItemList** извлекает список групп обмена мгновенными сообщениями и контактных лиц обмена мгновенными сообщениями в почтовом ящике. Операция **GetImItemList** не принимает никаких аргументов. 
   
 Эта операция появилась в Exchange Server 2013.
   
-### <a name="getimitemlist-operation-soap-headers"></a>Заголовки SOAP операции GetImItemList
+### <a name="getimitemlist-operation-soap-headers"></a>Заготчики операции GetImItemList
 
-Операция **GetImItemList** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции GetImItemList** можно использовать заглавные таблицы SOAP, перечисленные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
-|**маилбокскултуре** <br/> |[маилбокскултуре](mailboxculture.md) <br/> |Определяет язык и региональные параметры, определенные в документе RFC 3066 "Теги для идентификации языков", которые будут использоваться для доступа к почтовому ящику. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает. Этот заглавный заглавник применим к запросу.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Определяет культуру, определяемую в RFC 3066 , "Теги для идентификации языков", которая будет использоваться для доступа к почтовому ящику. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a>Пример запроса операции GetImItemList: запрос списка элементов для обмена мгновенными сообщениями
+## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a>Пример запроса на операцию GetImItemList: Запрос списка элементов im
 
-В следующем примере запроса операции **GetImItemList** показано, как запросить список групп IM и пользователей контактов для обмена мгновенными сообщениями в почтовом ящике. Элемент **GetImItemList** является единственным параметром element в теле SOAP. 
+В следующем примере запроса на операцию **GetImItemList** показано, как запрашивать список групп мгновенных сообщений и контактных лиц в почтовом ящике. Элемент **GetImItemList** является единственным элементом в теле SOAP. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -55,18 +55,18 @@ ms.locfileid: "44456068"
 </soap:Envelope>
 ```
 
-Текст SOAP запроса содержит следующий элемент:
+Тело SOAP запроса содержит следующий элемент:
   
 - [GetImItemList](getimitemlist.md)
     
-## <a name="successful-getimitemlist-operation-response"></a>Успешный отклик операции GetImItemList
+## <a name="successful-getimitemlist-operation-response"></a>Успешный ответ на операцию GetImItemList
 
-В следующем примере показан успешный ответ на запрос операции **GetImItemList** . Ответ содержит четыре группы для обмена мгновенными сообщениями. Три группы для обмена мгновенными сообщениями — другие контакты, размеченные Теги и Избранное — это группы по умолчанию в хранилище Exchange. Группа MyCustomGroup2 — это пользовательская группа, созданная пользователем. Другие контакты и группы с тегами не имеют членов. Группа "Избранное" имеет одного участника контакта. У MyCustomGroup2 есть два контакта. Идентификаторы элементов предоставляются таким образом, что для получения дополнительных сведений о контактах для обмена мгновенными сообщениями можно выполнить последующие запросы **GetItem** . 
+В следующем примере показан успешный ответ на запрос на операцию **GetImItemList.** Ответ содержит четыре группы чата. Три группы чата — Другие контакты, теги и избранное — являются группами по умолчанию в Exchange магазине. Группа MyCustomGroup2 — это настраиваемая группа, созданная пользователем. Другие группы "Контакты" и "Теги" не имеют участников. В группе Избранное имеется один контактный член. MyCustomGroup2 имеет два контакта с членами. Идентификаторы элементов предоставляются таким образом, чтобы можно было выполнять последующие запросы **GetItem,** чтобы получить дополнительные сведения о контактах чата. 
   
-В этом примере возвращаются два пользователя. Первый персонаж представляет два элемента контактов: Ансони Смит и Tony Смит. В объекте **персоны** возвращается Объединенная Контактная информация. Второй персонаж представляет один контакт с отображаемым именем Теренце Adams. 
+В этом примере возвращаются два человека. Первый человек представляет два контактных пункта: Энтони Смит и Тони Смит. Комбинированная контактная информация возвращается в **объекте Persona.** Второй человек представляет один контакт с отображаемой именем Теренса Адамса. 
   
 > [!NOTE]
-> Идентификаторы хранилища Exchange, идентификаторы элементов, идентификаторы источников, идентификаторы папок и идентификаторы пользователей были сокращены для сохранения удобочитаемости. 
+> Для сохранения читаемости были сокращены идентификаторы Exchange, идентификаторы элементов, исходные идентификаторы, идентификаторы папок и идентификаторы persona. 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -348,99 +348,99 @@ ms.locfileid: "44456068"
 </s:Envelope>
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- [жетимитемлистреспонсе](getimitemlistresponse.md)
+- [GetImItemListResponse](getimitemlistresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [имитемлист](imitemlist.md)
+- [ImItemList](imitemlist.md)
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
 - [GroupType](grouptype.md)
     
-- [ексчанжестореид](exchangestoreid.md)
+- [ExchangeStoreId](exchangestoreid.md)
     
-- [мемберкоррелатионкэй](membercorrelationkey.md)
+- [MemberCorrelationKey](membercorrelationkey.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-- [Фиктивные пользователи](personas-ex15websvcsotherref.md)
+- [Personas](personas-ex15websvcsotherref.md)
     
-- [персонаид](personaid.md)
+- [PersonaId](personaid.md)
     
-- [персонатипе](personatype.md)
+- [PersonaType](personatype.md)
     
 - [CreationTime](creationtime.md)
     
-- [дисплайнамефирстласт](displaynamefirstlast.md)
+- [DisplayNameFirstLast](displaynamefirstlast.md)
     
-- [дисплайнамеластфирст](displaynamelastfirst.md)
+- [DisplayNameLastFirst](displaynamelastfirst.md)
     
 - [FileAs](fileas.md)
     
-- [филеасид](fileasid.md)
+- [FileAsId](fileasid.md)
     
 - [GivenName](givenname.md)
     
-- [ФИО](surname.md)
+- [Фамилия](surname.md)
     
-- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [Имя (EmailAddressType)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
-- [Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
-- [EmailAddresses (Аррайофемаиладдрессестипе)](emailaddresses-arrayofemailaddressestype.md)
+- [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)
     
-- [Адрес (String)](imaddress-string.md)
+- [ImAddress (строка)](imaddress-string.md)
     
-- [релеванцескоре](relevancescore.md)
+- [RelevanceScore](relevancescore.md)
     
-- [Атрибуты (Аррайофперсонааттрибутионстипе)](attributions-arrayofpersonaattributionstype.md)
+- [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
-- [Атрибуты (Персонааттрибутионтипе)](attribution-personaattributiontype.md)
+- [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
 - [ID (строка)](id-string.md)
     
 - [SourceId](sourceid.md)
     
-- [Доступный для записи](iswritable.md)
+- [IsWritable](iswritable.md)
     
-- [искуиккконтакт](isquickcontact.md)
+- [IsQuickContact](isquickcontact.md)
     
 - [IsHidden](ishidden.md)
     
 - [FolderId](folderid.md)
     
-- [стрингаттрибутедвалуе](stringattributedvalue.md)
+- [StringAttributedValue](stringattributedvalue.md)
     
-- [филеасес](fileases.md)
+- [FileAses](fileases.md)
     
-- [филеасидс](fileasids.md)
+- [FileAsIds](fileasids.md)
     
-- [гивеннамес](givennames.md)
+- [GivenNames](givennames.md)
     
-- [Фамилии](surnames.md)
+- [Surnames](surnames.md)
     
-- [хомефонес](homephones.md)
+- [HomePhones](homephones.md)
     
-- [фоненумбераттрибутедвалуе](phonenumberattributedvalue.md)
+- [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
     
-- [мобилефонес](mobilephones.md)
+- [MobilePhones](mobilephones.md)
     
 - [Emails1](emails1.md)
     
-- [емаиладдрессаттрибутедвалуе](emailaddressattributedvalue.md)
+- [EmailAddressAttributedValue](emailaddressattributedvalue.md)
     
-- [Адреса](imaddresses.md)
+- [ImAddresses](imaddresses.md)
     
-- [Значение (Екстендедпропертитипе)](value-extendedpropertytype.md)
+- [Value (ExtendedPropertyType)](value-extendedpropertytype.md)
     
-## <a name="getimitemlist-operation-error-response"></a>Ответ об ошибке операции GetImItemList
+## <a name="getimitemlist-operation-error-response"></a>Ответ на ошибку операции GetImItemList
 
-В следующем примере показан ответ об ошибке для запроса операции **GetImItemList** . Это ответ на запрос, который содержит неверную версию запрошенного сервера в заголовке SOAP. Этот ошибочный ответ является причиной сбоя SOAP и не представлен в схеме EWS. 
+В следующем примере показан ответ на ошибку запроса на операцию **GetImItemList.** Это ответ на запрос, содержащий неправильную запрашиваемую версию сервера в загонах SOAP. Этот ответ на ошибку является ошибкой SOAP и не представлен в схеме EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

@@ -5,32 +5,32 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderHierarchy
 api_type:
 - schema
 ms.assetid: b31916b1-bc6c-4451-a475-b7c5417f752d
-description: Операция SyncFolderHierarchy синхронизирует папки между компьютером, на котором работает Microsoft Exchange Server 2010 и клиентом.
-ms.openlocfilehash: 1c7ad2413064161ba54e8a7a30bfcd6f23f218bd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция SyncFolderHierarchy синхронизирует папки между компьютером, который Microsoft Exchange Server 2010 г. и клиентом.
+ms.openlocfilehash: 43182d267d4c09d4626669746ac64af9b0f890b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456432"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513306"
 ---
 # <a name="syncfolderhierarchy-operation"></a>Операция SyncFolderHierarchy
 
-Операция SyncFolderHierarchy синхронизирует папки между компьютером, на котором работает Microsoft Exchange Server 2010 и клиентом.
+Операция SyncFolderHierarchy синхронизирует папки между компьютером, который Microsoft Exchange Server 2010 г. и клиентом.
   
 > [!NOTE]
-> Операция SyncFolderHierarchy не возвращает папки при изменении свойств [унреадкаунт](unreadcount.md) или [тоталкаунт](totalcount.md) . 
+> Операция SyncFolderHierarchy не возвращает папки при изменениях свойств [UnreadCount](unreadcount.md) или [TotalCount.](totalcount.md) 
   
 ## <a name="syncfolderhierarchy-request-example"></a>Пример запроса SyncFolderHierarchy
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса SyncFolderHierarchy показано, как синхронизировать иерархию клиентских папок с сервером Exchange. В этом примере показана иерархия папок, которая уже синхронизирована по крайней мере один раз. Элемент [синкстате](syncstate-ex15websvcsotherref.md) не включается в запрос первой попытки синхронизации клиента с сервером Exchange. Первый запрос возвратит все папки в почтовом ящике. Элемент [синкстате](syncstate-ex15websvcsotherref.md) будет возвращен в [синкфолдерхиерарчиреспонсе](syncfolderhierarchyresponse.md). Этот элемент используется для синхронизации состояния последующих запросов SyncFolderHierarchy.
+В следующем примере запроса SyncFolderHierarchy показано, как синхронизировать иерархию папок клиента с Exchange сервером. В этом примере показана иерархия папок, которая уже синхронизирована по крайней мере один раз. Элемент [SyncState](syncstate-ex15websvcsotherref.md) не включен в запрос на первую попытку синхронизации клиента с Exchange сервером. Первый запрос возвращает все папки в почтовом ящике. Элемент [SyncState](syncstate-ex15websvcsotherref.md) будет возвращен в [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md). Этот элемент используется для синхронизации состояния для последующих запросов SyncFolderHierarchy.
   
 ### <a name="code"></a>Код
 
@@ -51,28 +51,28 @@ ms.locfileid: "44456432"
 
 ### <a name="comments"></a>Комментарии
 
-Данные элемента [синкстате](syncstate-ex15websvcsotherref.md) с кодировкой base64 были сокращены для сохранения удобочитаемости. 
+Для сохранения читаемости была сокращена база элементов [SyncState.](syncstate-ex15websvcsotherref.md) 
   
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
 - [SyncFolderHierarchy](syncfolderhierarchy.md)
     
-- [фолдершапе](foldershape.md)
+- [FolderShape](foldershape.md)
     
-- [басешапе](baseshape.md)
+- [BaseShape](baseshape.md)
     
-- [синкстате](syncstate-ex15websvcsotherref.md)
+- [SyncState](syncstate-ex15websvcsotherref.md)
     
 > [!NOTE]
-> Схема, описывающая эти элементы, находится в виртуальном каталоге EWS компьютера, на котором работает сервер Майкрософт Exchange Server 2007, на котором установлена роль сервера клиентского доступа. 
+> Схема, описываемая этими элементами, расположена в виртуальном каталоге EWS компьютера под управлением MicrosoftExchange Server 2007, где установлена роль сервера клиентского доступа. 
   
-## <a name="successful-syncfolderhierarchy-response"></a>Успешный ответ SyncFolderHierarchy
+## <a name="successful-syncfolderhierarchy-response"></a>Успешное реагирование syncFolderHierarchy
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос SyncFolderHierarchy. В этом примере выполняется синхронизация новой папки.
+В следующем примере показан успешный ответ на запрос SyncFolderHierarchy. В этом примере синхронизирована новая папка.
   
 ### <a name="code"></a>Код
 
@@ -117,29 +117,29 @@ ms.locfileid: "44456432"
 
 ### <a name="comments"></a>Комментарии
 
-Данные элемента [синкстате](syncstate-ex15websvcsotherref.md) с кодировкой base64 и идентификатора папки были сокращены, чтобы сохранить удобочитаемость. 
+Для сохранения читаемости были сокращены данные элементной базы [SyncState](syncstate-ex15websvcsotherref.md) и данные идентификатора папок. 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [синкфолдерхиерарчиреспонсе](syncfolderhierarchyresponse.md)
+- [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md)
+- [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [синкстате](syncstate-ex15websvcsotherref.md)
+- [SyncState](syncstate-ex15websvcsotherref.md)
     
-- [инклудесластфолдеринранже](includeslastfolderinrange.md)
+- [IncludesLastFolderInRange](includeslastfolderinrange.md)
     
-- [Изменения (иерархия)](changes-hierarchy.md)
+- [Changes (Hierarchy)](changes-hierarchy.md)
     
-- [Create (Фолдерсинк)](create-foldersync.md)
+- [Create (FolderSync)](create-foldersync.md)
     
 - [Folder](folder.md)
     
@@ -147,21 +147,21 @@ ms.locfileid: "44456432"
     
 - [ParentFolderId](parentfolderid.md)
     
-- [фолдеркласс](folderclass.md)
+- [FolderClass](folderclass.md)
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
-- [тоталкаунт](totalcount.md)
+- [TotalCount](totalcount.md)
     
-- [чилдфолдеркаунт](childfoldercount.md)
+- [ChildFolderCount](childfoldercount.md)
     
-- [унреадкаунт](unreadcount.md)
+- [UnreadCount](unreadcount.md)
     
-## <a name="syncfolderhierarchy-error-response"></a>Ответ об ошибке SyncFolderHierarchy
+## <a name="syncfolderhierarchy-error-response"></a>SyncFolderHierarchy error response
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке для запроса SyncFolderHierarchy. Эта ошибка вызвана недопустимым Синкстате.
+В следующем примере показан ответ на ошибку на запрос SyncFolderHierarchy. Эта ошибка была вызвана недействительным SyncState.
   
 ### <a name="code"></a>Код
 
@@ -193,27 +193,27 @@ ms.locfileid: "44456432"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ошибочного ответа
+### <a name="error-response-elements"></a>Элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [синкфолдерхиерарчиреспонсе](syncfolderhierarchyresponse.md)
+- [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md)
+- [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [синкстате](syncstate-ex15websvcsotherref.md)
+- [SyncState](syncstate-ex15websvcsotherref.md)
     
-- [инклудесластфолдеринранже](includeslastfolderinrange.md)
+- [IncludesLastFolderInRange](includeslastfolderinrange.md)
     
 ## <a name="see-also"></a>См. также
 

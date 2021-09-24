@@ -1,40 +1,40 @@
 ---
-title: реминдерграуп
+title: ReminderGroup
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e23c2a1-05d8-4fec-897c-f684a5b97e4c
-description: Элемент Реминдерграуп указывает, относится ли напоминание к элементу календаря или к задаче.
-ms.openlocfilehash: be6f4a7d7e9d495ed7b42ed40c60f016468e8c2c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ReminderGroup указывает, является ли напоминание для элемента календаря или задачи.
+ms.openlocfilehash: 7ec19505e9237680aee1b3a31332db7fdc4c0dd4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529870"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512473"
 ---
-# <a name="remindergroup"></a>реминдерграуп
+# <a name="remindergroup"></a>ReminderGroup
 
-Элемент **реминдерграуп** указывает, относится ли напоминание к элементу календаря или к задаче. 
+Элемент **ReminderGroup** указывает, является ли напоминание для элемента календаря или задачи. 
   
 ```XML
 <ReminderGroup> Calendar | Task </ReminderGroup>
 ```
 
- **реминдерграуптипе**
+ **ReminderGroupType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44529870"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **реминдерграуп** — тип группы напоминания. Текстовое значение **Calendar** указывает, что напоминание предназначено для элемента календаря. Текстовое значение **Task** указывает, что напоминание относится к элементу задачи. 
+Текстовое значение элемента **ReminderGroup** — групповой тип напоминания. В текстовом **значении Calendar** указывается, что напоминание для элемента календаря. В текстовом **значении Task** указывается, что напоминание для элемента задачи. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44529870"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

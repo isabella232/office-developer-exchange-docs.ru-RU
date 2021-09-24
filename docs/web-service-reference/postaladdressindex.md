@@ -1,44 +1,44 @@
 ---
-title: посталаддрессиндекс
+title: PostalAddressIndex
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PostalAddressIndex
 api_type:
 - schema
 ms.assetid: 170fec26-5cb7-4578-ac09-140da9a6c84e
-description: Элемент Посталаддрессиндекс представляет типы отображения для физических адресов.
-ms.openlocfilehash: ee2c4c30c82abf74edb5e83daab68a3fcd2d6050
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PostalAddressIndex представляет типы отображения для физических адресов.
+ms.openlocfilehash: 8b2b8eedc7e422ca06810ba42e895d4e0f4165f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529919"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512627"
 ---
-# <a name="postaladdressindex"></a>посталаддрессиндекс
+# <a name="postaladdressindex"></a>PostalAddressIndex
 
-Элемент **посталаддрессиндекс** представляет типы отображения для физических адресов. 
+Элемент **PostalAddressIndex** представляет типы отображения для физических адресов. 
   
 ```xml
 <PostalAddressIndex/>
 ```
 
- **фисикаладдрессиндекстипе**
+ **PhysicalAddressIndexType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,17 +48,17 @@ ms.locfileid: "44529919"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Ниже приведены возможные текстовые значения для этого элемента:
+Требуется текстовое значение. Возможные текстовые значения для этого элемента:
   
 - Нет
     
-- Бизнес
+- Для бизнеса
     
 - Главная
     
-- Другое
+- Другие
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -68,20 +68,20 @@ ms.locfileid: "44529919"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
- **посталаддрессиндекс**
+ **PostalAddressIndex**
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
 [Обновление контактов](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   

@@ -1,23 +1,23 @@
 ---
-title: ентитекстрактионресулт
+title: EntityExtractionResult
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 643b99ab-ff90-4411-864c-1077623028d6
-description: Элемент Ентитекстрактионресулт указывает свойство Ентитекстрактионресулт элемента.
-ms.openlocfilehash: f2f069717a5862adff3349090c35f95499d135f8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EntityExtractionResult указывает свойство EntityExtractionResult элемента.
+ms.openlocfilehash: b550953233999bfd9c4dc08a7f892e798029df3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456957"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520677"
 ---
-# <a name="entityextractionresult"></a>ентитекстрактионресулт
+# <a name="entityextractionresult"></a>EntityExtractionResult
 
-Элемент **ентитекстрактионресулт** указывает свойство **ентитекстрактионресулт** элемента. 
+Элемент **EntityExtractionResult** указывает свойство **EntityExtractionResult** элемента. 
   
 ```XML
 <EntityExtractionResult>
@@ -31,34 +31,34 @@ ms.locfileid: "44456957"
 </EntityExtractionResult>
 ```
 
- **ентитекстрактионресулттипе**
+ **EntityExtractionResultType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Адреса (Аррайофаддрессентитиестипе)](addresses-arrayofaddressentitiestype.md) <br/> |Указывает массив элементов **аддрессентити** .  <br/> |
-|[MeetingSuggestions](meetingsuggestions.md) <br/> |Указывает массив элементов **Свойства meetingsuggestion** .  <br/> |
-|[TaskSuggestions](tasksuggestions.md) <br/> |Указывает массив элементов **TaskSuggestion** .  <br/> |
-|[EmailAddresses (Аррайофемаиладдрессентитиестипе)](emailaddresses-arrayofemailaddressentitiestype.md) <br/> |Указывает массив сущностей адресов электронной почты.  <br/> |
-|[Contacts (Аррайофконтактстипе)](contacts-arrayofcontactstype.md) <br/> |Указывает массив контактов.  <br/> |
-|[URL-адреса (Аррайофурлентитиестипе)](urls-arrayofurlentitiestype.md) <br/> |Указывает массив URL-адресов.  <br/> |
-|[PhoneNumbers (Аррайоффонинтитиестипе)](phonenumbers-arrayofphoneentitiestype.md) <br/> |Указывает массив телефонных номеров.  <br/> |
+|[Addresses (ArrayOfAddressEntitiesType)](addresses-arrayofaddressentitiestype.md) <br/> |Указывает массив элементов **AddressEntity.**  <br/> |
+|[MeetingSuggestions](meetingsuggestions.md) <br/> |Указывает массив элементов **MeetingSuggestion.**  <br/> |
+|[TaskSuggestions](tasksuggestions.md) <br/> |Указывает массив элементов **TaskSuggestion.**  <br/> |
+|[EmailAddresses (ArrayOfEmailAddressEntitiesType)](emailaddresses-arrayofemailaddressentitiestype.md) <br/> |Указывает массив сущностями адресов электронной почты.  <br/> |
+|[Contacts (ArrayOfContactsType)](contacts-arrayofcontactstype.md) <br/> |Указывает массив контактов.  <br/> |
+|[Urls (ArrayOfUrlEntitiesType)](urls-arrayofurlentitiestype.md) <br/> |Указывает массив URL-адресов.  <br/> |
+|[PhoneNumbers (ArrayOfPhoneEntitiesType)](phonenumbers-arrayofphoneentitiestype.md) <br/> |Указывает массив номеров телефонов.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
+|[Элемент](item.md) <br/> |Представляет универсальный элемент в Exchange магазине.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -70,7 +70,7 @@ ms.locfileid: "44456957"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

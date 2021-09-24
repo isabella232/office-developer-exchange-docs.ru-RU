@@ -1,24 +1,24 @@
 ---
-title: Усерсеттинг (SOAP)
+title: UserSetting (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: aac6dc31-edd2-49d7-b845-1df4d77da58c
-description: Элемент Усерсеттинг (SOAP) представляет один параметр пользователя.
-ms.openlocfilehash: 8b9bb41e460c0c9d15c9823acb509b0f837eef32
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UserSetting (SOAP) представляет один параметр пользователя.
+ms.openlocfilehash: e59f997f925f7d9885fab27df618d474269eacac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459772"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538494"
 ---
-# <a name="usersetting-soap"></a>Усерсеттинг (SOAP)
+# <a name="usersetting-soap"></a>UserSetting (SOAP)
 
-Элемент [усерсеттинг (SOAP)](usersetting-soap.md) представляет один параметр пользователя. 
+Элемент [UserSetting (SOAP)](usersetting-soap.md) представляет один параметр пользователя. 
   
 ```XML
 <UserSetting>
@@ -26,38 +26,38 @@ ms.locfileid: "44459772"
 </UserSetting>
 ```
 
- **усерсеттинг**
+ **UserSetting**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (SOAP)](name-soap.md) <br/> |Представляет имя параметра пользователя.  <br/> |
+|[Name (SOAP)](name-soap.md) <br/> |Представляет имя параметра пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Усерсеттингс (SOAP)](usersettings-soap.md) <br/> |Представляет коллекцию параметров пользователя.  <br/> |
+|[UserSettings (SOAP)](usersettings-soap.md) <br/> |Представляет коллекцию параметров пользователя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 

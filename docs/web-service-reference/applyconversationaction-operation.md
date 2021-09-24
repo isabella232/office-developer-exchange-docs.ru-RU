@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationAction
 api_type:
 - schema
 ms.assetid: 73d7943d-d361-4f8b-9948-d85f886efa1a
-description: Операция ApplyConversationAction устанавливает действие однократным или дальнейшим действием для всех элементов в беседе. С помощью операции ApplyConversationAction можно классифицировать, перемещать, копировать, удалять и задавать состояние чтения для всех элементов в беседе. Для новых сообщений в беседе можно также задать действия.
-ms.openlocfilehash: cdab239a5b0b1406d2ce31f4604e4737d037cd7e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция ApplyConversationAction задает одно или последующие действия по всем пунктам в беседе. Операция ApplyConversationAction позволяет классифицировать, перемещать, копировать, удалять и устанавливать состояние чтения для всех элементов в беседе. Действия также можно настроить для новых сообщений в беседе.
+ms.openlocfilehash: ed3ed02dc045a095bcc86124b8d3e1c5a65dae84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463505"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520103"
 ---
 # <a name="applyconversationaction-operation"></a>Операция ApplyConversationAction
 
-Операция **ApplyConversationAction** устанавливает действие однократным или дальнейшим действием для всех элементов в беседе. С помощью операции **ApplyConversationAction** можно классифицировать, перемещать, копировать, удалять и задавать состояние чтения для всех элементов в беседе. Для новых сообщений в беседе можно также задать действия. 
+Операция **ApplyConversationAction** задает одно или последующие действия по всем пунктам в беседе. Операция **ApplyConversationAction** позволяет классифицировать, перемещать, копировать, удалять и устанавливать состояние чтения для всех элементов в беседе. Действия также можно настроить для новых сообщений в беседе. 
   
 ## <a name="applyconversationaction-request-example"></a>Пример запроса ApplyConversationAction
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **ApplyConversationAction** показано, как переместить элементы в указанной беседе в другую папку. Элементы, добавляемые в беседу, также будут перемещены в указанную папку. 
+В следующем примере **запроса ApplyConversationAction** показано, как переместить элементы в указанной беседе в другую папку. Элементы, добавленные в беседу, также будут перемещены в указанную папку. 
   
 ### <a name="code"></a>Код
 
@@ -57,15 +57,15 @@ ms.locfileid: "44463505"
 </soap:Envelope>
 ```
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Заметки
 
-Идентификаторы бесед и папок были сокращены, чтобы сохранить удобочитаемость.
+Идентификаторы разговоров и папок были сокращены для сохранения читаемости.
   
-## <a name="applyconversationaction-response-example"></a>Пример отклика ApplyConversationAction
+## <a name="applyconversationaction-response-example"></a>Пример ответа ApplyConversationAction
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **ApplyConversationAction** . 
+В следующем примере показан успешный ответ на запрос **ApplyConversationAction.** 
   
 ### <a name="code"></a>Код
 

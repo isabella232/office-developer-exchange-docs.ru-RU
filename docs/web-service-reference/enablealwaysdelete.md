@@ -1,64 +1,64 @@
 ---
-title: енаблеалвайсделете
+title: EnableAlwaysDelete
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EnableAlwaysDelete
 api_type:
 - schema
 ms.assetid: 7753aec5-3f93-4aeb-a28e-8b9b42ca7f9b
-description: Элемент Енаблеалвайсделете указывает флаг, который позволяет удалять все новые элементы в беседе.
-ms.openlocfilehash: 14784d3a6ba52c76b64b81e15c0522d66d125cbf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EnableAlwaysDelete указывает флаг, который позволяет удалять все новые элементы в беседе.
+ms.openlocfilehash: 7b0704ebd7187ac06293589277aefd53f6bceaaa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526209"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520726"
 ---
-# <a name="enablealwaysdelete"></a>енаблеалвайсделете
+# <a name="enablealwaysdelete"></a>EnableAlwaysDelete
 
-Элемент **енаблеалвайсделете** указывает флаг, который позволяет удалять все новые элементы в беседе. 
+Элемент **EnableAlwaysDelete** указывает флаг, который позволяет удалять все новые элементы в беседе. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
-[конверсатионактионс](conversationactions.md)
+[ConversationActions](conversationactions.md)
   
-[конверсатионактион](conversationaction.md)
+[ConversationAction](conversationaction.md)
   
-[енаблеалвайсделете](enablealwaysdelete.md)
+[EnableAlwaysDelete](enablealwaysdelete.md)
   
 ```XML
 <EnableAlwaysDelete/>
 ```
 
- **xs: Boolean**
+ **xs:boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[конверсатионактион](conversationaction.md) <br/> |Содержит одно действие, которое будет применено к одной беседе.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Содержит одно действие, которое необходимо применить к одному разговору.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **енаблеалвайсделете** равно **true** , чтобы включить удаление всех элементов в беседе; в противном случае — **false**.
+Значение текста элемента **EnableAlwaysDelete**  верно, чтобы включить удаление всех элементов в беседе; в противном **случае, false**.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -68,7 +68,7 @@ ms.locfileid: "44526209"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

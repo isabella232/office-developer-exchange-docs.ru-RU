@@ -1,27 +1,27 @@
 ---
-title: Member
+title: Элемент
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Member
 api_type:
 - schema
 ms.assetid: af9c5ff8-02a4-41fc-876d-14ac05f1ee77
 description: Элемент Member представляет члена списка рассылки.
-ms.openlocfilehash: e84223b7c41846ca2f174293bff46a8825777a0e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1cd8132e8383af0901c53e9432254b383c5c6215
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457307"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532399"
 ---
-# <a name="member"></a>Member
+# <a name="member"></a>Элемент
 
-Элемент **member** представляет члена списка рассылки. 
+Элемент **Member** представляет члена списка рассылки. 
   
 ```xml
 <Member Key="">
@@ -30,32 +30,32 @@ ms.locfileid: "44457307"
 </Member>
 ```
 
-**мембертипе**
+**MemberType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|Key  <br/> |Предоставляет уникальный идентификатор для члена списка рассылки. Этот атрибут является необязательным.  <br/> |
+|Key  <br/> |Предоставляет уникальный идентификатор для участника списка рассылки. Этот атрибут является необязательным.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Представляет адрес электронной почты участника списка рассылки. Этот элемент является необязательным.  <br/> |
-|[Состояние (Мемберстатустипе)](status-memberstatustype.md) <br/> |Предоставляет сведения о состоянии члена списка рассылки. Этот элемент является необязательным.  <br/> |
+|[Status (MemberStatusType)](status-memberstatustype.md) <br/> |Предоставляет сведения о состоянии участника списка рассылки. Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Members (Мемберлисттипе)](members-memberlisttype.md) <br/> |Содержит список участников списка рассылки.  <br/> |
+|[Members (MemberListType)](members-memberlisttype.md) <br/> |Содержит список участников списка рассылки.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44457307"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

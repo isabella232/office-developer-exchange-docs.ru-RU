@@ -1,23 +1,23 @@
 ---
-title: упдатедитемидс
+title: UpdatedItemIds
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9199aeb2-abdf-40c5-8743-40b61853c951
-description: Элемент Упдатедитемидс указывает идентификаторы обновленных элементов напоминания.
-ms.openlocfilehash: 4a87bf50f90e80c0c887ee3a66b9f201ea1c8440
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UpdatedItemIds указывает идентификаторы обновленных элементов напоминаний.
+ms.openlocfilehash: 59e17e32d5df3f8a6000b05899f2fe0c5de2ec00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465038"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538613"
 ---
-# <a name="updateditemids"></a>упдатедитемидс
+# <a name="updateditemids"></a>UpdatedItemIds
 
-Элемент **упдатедитемидс** указывает идентификаторы обновленных элементов напоминания. 
+Элемент **UpdatedItemIds** указывает идентификаторы обновленных элементов напоминаний. 
   
 ```XML
 <UpdatedItemIds>
@@ -26,30 +26,30 @@ ms.locfileid: "44465038"
 
 ```
 
- **нонемптяррайофитемидстипе**
+ **NonEmptyArrayOfItemIdsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Идентификатор](itemid.md)
+[ItemId](itemid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[перформреминдерактионреспонсе](performreminderactionresponse.md)
+[PerformReminderActionResponse](performreminderactionresponse.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
-Если операция [PerformReminderAction](performreminderaction-operation.md) завершилась неудачно или на сервере не было внесено изменений, элемент **упдатедитемидс** возвращается как пустое значение. 
+Если операция [PerformReminderAction](performreminderaction-operation.md) не завершилась успешно или на сервере не были внесены изменения, элемент **UpdatedItemIds** возвращается как пустое значение. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -57,14 +57,14 @@ ms.locfileid: "44465038"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[перформреминдерактионреспонсе](performreminderactionresponse.md)
+[PerformReminderActionResponse](performreminderactionresponse.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

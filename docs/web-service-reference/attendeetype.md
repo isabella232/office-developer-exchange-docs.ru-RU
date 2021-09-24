@@ -5,27 +5,27 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttendeeType
 api_type:
 - schema
 ms.assetid: 048043a8-dbad-45a0-97c8-4cad63d8898b
 description: Элемент AttendeeType обозначает тип участника, указанного в элементе Электронной почты (EmailAddressType). Этот элемент используется в запросах, которые содержат предложения о собраниях.
-ms.openlocfilehash: 104b9f38cc891310ecb47c0b47837a912ced6ab7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5bcec50fe6cccc3df48ca9615dbd0d9418211b4b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462299"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533936"
 ---
 # <a name="attendeetype"></a>AttendeeType
 
 Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Элемент **AttendeeType** обозначает тип участника, указанного в элементе [Электронной почты (EmailAddressType)](email-emailaddresstype.md). Этот элемент используется в запросах, которые содержат предложения о собраниях. 
   
-- [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-- [маилбоксдатааррай](mailboxdataarray.md)
+- [MailboxDataArray](mailboxdataarray.md)
   
 - [MailboxData](mailboxdata.md)
   
@@ -35,18 +35,18 @@ ms.locfileid: "44462299"
 <AttendeeType>Organizer or Required or Optional or Room or Resource</AttendeeType>
 ```
 
- **митингаттендитипе**
+ **MeetingAttendeeType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -66,7 +66,7 @@ ms.locfileid: "44462299"
 |Room  <br/> |Объект почтового ящика, который указывает на помещение для проведения собрания.  <br/> |
 |Resource  <br/> |Оборудование, которое будет использоваться во время собрания, например, телевизор или проектор.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент относится к обязательным дочерним элементам элемента [MailboxData](mailboxdata.md). Он упоминается в [MailboxData](mailboxdata.md) только один раз. Схема с описанием этого элемента находится в каталоге /EWS/ на компьютере, на котором запущено приложение MicrosoftExchange Server 2007 с установленной ролью сервера клиентского доступа. 
   
@@ -79,12 +79,12 @@ ms.locfileid: "44462299"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Операция GetUserAvailability](getuseravailability-operation.md)
-- [жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
 - [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

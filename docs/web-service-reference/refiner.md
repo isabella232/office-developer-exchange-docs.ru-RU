@@ -1,23 +1,23 @@
 ---
-title: Уточнение
+title: Refiner
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8395b45f-3b94-4473-82ac-2a12c4309170
-description: Элемент уточнения задает уточнение поиска.
-ms.openlocfilehash: 5be73cfd0a5005f79651e9de76fd5aaf18ba0119
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Refiner указывает переработчик поиска.
+ms.openlocfilehash: 4338a3aa1c7551663b657cd082b159c9e81935be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456761"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512541"
 ---
-# <a name="refiner"></a>Уточнение
+# <a name="refiner"></a>Refiner
 
-Элемент **уточнения** задает уточнение поиска. 
+Элемент **Refiner** указывает переработчик поиска. 
   
 ```XML
 <Refiner>
@@ -28,24 +28,24 @@ ms.locfileid: "44456761"
 </Refiner>
 ```
 
- **сеарчрефинеритемтипе**
+ **SearchRefinerItemType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Имя (строка)](name-string.md)  |  [Value (значение](value.md)  |  ) [Count (количество](count.md)  |  ) [Маркер (строка)](token-string.md)
+[Имя (строка)](name-string.md)  |  [Значение](value.md)  |  [Count](count.md)  |  [Маркер (String)](token-string.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Уточнители](refiners.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44456761"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

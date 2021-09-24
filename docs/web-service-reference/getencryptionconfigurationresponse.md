@@ -1,41 +1,41 @@
 ---
-title: жетенкриптионконфигуратионреспонсе
+title: GetEncryptionConfigurationResponse
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6e80af47-6ec4-48f6-9c5d-10bf1324510e
-description: Элемент Жетенкриптионконфигуратионреспонсе предназначен только для внутреннего использования.
-ms.openlocfilehash: 93a4d3a6b6bba53e508468c2114447384b34f4ef
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetEncryptionConfigurationResponse предназначен только для внутреннего использования.
+ms.openlocfilehash: 7484ab024f4425c798e86264bf2e995ddf4c4043
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461830"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538126"
 ---
-# <a name="getencryptionconfigurationresponse"></a>жетенкриптионконфигуратионреспонсе
+# <a name="getencryptionconfigurationresponse"></a>GetEncryptionConfigurationResponse
 
-Элемент **жетенкриптионконфигуратионреспонсе** предназначен только для внутреннего использования. 
+Элемент **GetEncryptionConfigurationResponse** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

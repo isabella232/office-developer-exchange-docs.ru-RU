@@ -5,41 +5,41 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e2146df0-53d0-4caf-9758-b600bbc14b6a
-description: Поиск сведений о работе EWS.
-ms.openlocfilehash: 2b335c694a85f87c96432ea6d7c1c674613d2f17
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetPersona EWS.
+ms.openlocfilehash: 47713ee42b7d726693efe91a5bc29c10f3aea91c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460948"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533555"
 ---
 # <a name="getpersona-operation"></a>Операция GetPersona
 
-Поиск сведений о работе **EWS.** 
+Сведения об операции **GetPersona** EWS. 
   
-Операция **Доличного пользователя** возвращает набор свойств, связанных с пользователем. 
+Операция **GetPersona** возвращает набор свойств, связанных с персоной. 
   
 Эта операция появилась в Exchange Server 2013.
   
-## <a name="using-the-getpersona-operation"></a>Использование операции "@ Person"
+## <a name="using-the-getpersona-operation"></a>Использование операции GetPersona
 
-Операция **GetPersona** долево предоставляет доступ к сводным сведениям о контакте в форме пользователя. Элемент [персонаид](personaid.md) в запросе определяет пользователя, возвращаемого в ответе. Отклик может содержать набор свойств пользователя по умолчанию или набор настраиваемых свойств. Рекомендуется указать набор настраиваемых свойств, чтобы неиспользуемые свойства не обрабатывались и не отправлялись с сервера клиенту. 
+Операция **GetPersona** предоставляет доступ к агрегированной контактной информации в виде persona. Элемент [PersonaId](personaid.md) в запросе определяет персону, возвращаемую в ответ. Ответ может содержать набор свойств persona по умолчанию или настраиваемый набор свойств. Рекомендуется указать настраиваемый набор свойств, чтобы неиспользоваемые свойства не обрабатывались и не отправляли с сервера клиенту. 
   
-### <a name="getpersona-operation-soap-headers"></a>Заголовки SOAP для операции с сотрудниками
+### <a name="getpersona-operation-soap-headers"></a>Заготчики операции GetPersona
 
-Операция **Доличного пользователя** может использовать заголовки SOAP, перечисленные в следующей таблице. 
+В **операции GetPersona** можно использовать заглавные таблицы SOAP, указанные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**Олицетворение** <br/> |[ексчанжеимперсонатион](exchangeimpersonation.md) <br/> |Идентифицирует пользователя, который олицетворяет клиентское приложение. Этот заголовок является применимым для запроса.  <br/> |
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**Олицетворение** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Определяет пользователя, которого клиентская заявка выдвигает. Этот заглавный заглавник применим к запросу.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="getpersona-operation-request-example-return-a-default-set-of-properties-for-a-persona"></a>Пример запроса операции с помощью параметра "персоны пользователя": Возврат набора свойств пользователя по умолчанию
+## <a name="getpersona-operation-request-example-return-a-default-set-of-properties-for-a-persona"></a>Пример запроса на операцию GetPersona: возврат набора свойств по умолчанию для персоны
 
-В примере ниже показано, как вернуть набор свойств, связанных с **пользователем** , по умолчанию. 
+В следующем примере запроса на операцию **GetPersona** показано, как вернуть по умолчанию набор свойств, связанных с персоной. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -57,18 +57,18 @@ ms.locfileid: "44460948"
 
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
 - [GetPersona](getpersona.md)
     
-- [персонаид](personaid.md)
+- [PersonaId](personaid.md)
     
-## <a name="successful-getpersona-operation-response"></a>Успешный отклик операции GetResponse.
+## <a name="successful-getpersona-operation-response"></a>Успешный ответ на операцию GetPersona
 
-В следующем примере показан успешный **ответ на запрос операции GetResponse** . 
+В следующем примере показан успешный ответ на запрос **операции GetPersona.** 
   
 > [!NOTE]
-> Все идентификаторы элементов и изменения ключей в этой статье были сокращены, чтобы сохранить удобочитаемость. 
+> Для сохранения читаемости сокращены все идентификаторы элементов и ключи изменений в этой статье. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -180,87 +180,87 @@ ms.locfileid: "44460948"
 
 ```
 
-Тело SOAP отклика содержит следующие элементы:
+Тело SOAP ответа содержит следующие элементы:
   
-- жетперсонареспонсемессаже
+- GetPersonaResponseMessage
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Роль](persona.md)
     
-- [персонаид](personaid.md)
+- [PersonaId](personaid.md)
     
-- [персонатипе](personatype.md)
+- [PersonaType](personatype.md)
     
 - [CreationTime](creationtime.md)
     
-- [дисплайнамефирстласт](displaynamefirstlast.md)
+- [DisplayNameFirstLast](displaynamefirstlast.md)
     
-- [дисплайнамеластфирст](displaynamelastfirst.md)
+- [DisplayNameLastFirst](displaynamelastfirst.md)
     
 - [FileAs](fileas.md)
     
-- [филеасид](fileasid.md)
+- [FileAsId](fileasid.md)
     
 - [GivenName](givenname.md)
     
-- [ФИО](surname.md)
+- [Фамилия](surname.md)
     
 - [CompanyName](companyname.md)
     
-- [релеванцескоре](relevancescore.md)
+- [RelevanceScore](relevancescore.md)
     
-- [Атрибуты (Аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
+- [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
     
-- [Атрибуты (строка)](attribution-string.md)
+- [Attribution (строка)](attribution-string.md)
     
 - [ID (строка)](id-string.md)
     
-- [SourceID](sourceid.md) Идентификатор 
+- [SourceId](sourceid.md) SourceId 
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
-- [Доступный для записи](iswritable.md)
+- [IsWritable](iswritable.md)
     
-- [искуиккконтакт](isquickcontact.md)
+- [IsQuickContact](isquickcontact.md)
     
 - [IsHidden](ishidden.md)
     
 - [FolderId](folderid.md)
     
-- [DisplayName](displaynames.md)
+- [DisplayNames](displaynames.md)
     
-- [стрингаттрибутедвалуе](stringattributedvalue.md)
+- [StringAttributedValue](stringattributedvalue.md)
     
-- [Значение (Аррайофстрингвалуетипе)](value-arrayofstringvaluetype.md)
+- [Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
     
-- [Атрибуты (Аррайофперсонааттрибутионстипе)](attributions-arrayofpersonaattributionstype.md)
+- [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
-- [Атрибуты (Персонааттрибутионтипе)](attribution-personaattributiontype.md)
+- [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
-- [филеасес](fileases.md)
+- [FileAses](fileases.md)
     
-- [филеасидс](fileasids.md)
+- [FileAsIds](fileasids.md)
     
-- [гивеннамес](givennames.md)
+- [GivenNames](givennames.md)
     
-- [Фамилии](surnames.md)
+- [Surnames](surnames.md)
     
-- [мобилефонес](mobilephones.md)
+- [MobilePhones](mobilephones.md)
     
-- [фоненумбераттрибутедвалуе](phonenumberattributedvalue.md)
+- [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
     
-- [Значение (Персонафоненумбертипе)](value-personaphonenumbertype.md)
+- [Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md)
     
 - [Number](number.md)
     
 - [Тип (строка)](type-string.md)
     
-- [компанинамес](companynames.md)
+- [CompanyNames](companynames.md)
     
-## <a name="getpersona-operation-error-response"></a>Ответ на ошибку операции GetResponse.
+## <a name="getpersona-operation-error-response"></a>Ответ на ошибку операции GetPersona
 
-В следующем примере показан ответ об ошибке для **запроса операции GetResponse** . Это ответ на запрос, который содержит неправильно указанный идентификатор пользователя. 
+В следующем примере показан ответ на ошибку запроса на операцию **GetPersona.** Это ответ на запрос, содержащий неправильно указанный идентификатор persona. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -288,17 +288,17 @@ ms.locfileid: "44460948"
 </s:Envelope>
 ```
 
-Основной текст сообщения об ошибке SOAP содержит следующие элементы:
+Тело SOAP ответа на ошибку содержит следующие элементы:
   
-- [жетперсонареспонсемессаже](getpersonaresponsemessage.md)
+- [GetPersonaResponseMessage](getpersonaresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Дополнительные коды ошибок, которые являются общими для EWS и специфичными для этой операции, можно найти в разделе [респонсекоде](responsecode.md).
+Дополнительные коды ошибок, общие для EWS и специфические для этой операции, см. [в ответе.](responsecode.md)
   
 ## <a name="see-also"></a>См. также
 

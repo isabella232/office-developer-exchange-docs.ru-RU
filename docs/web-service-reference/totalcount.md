@@ -1,27 +1,27 @@
 ---
-title: тоталкаунт
+title: TotalCount
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TotalCount
 api_type:
 - schema
 ms.assetid: c48c6388-8449-4622-bc38-6f0e84293872
-description: Элемент Тоталкаунт представляет общее количество элементов в заданной папке.
-ms.openlocfilehash: 3d068b558cddf73265b6bbff9fb0760738e54cec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент TotalCount представляет общее количество элементов в данной папке.
+ms.openlocfilehash: d17e2c10fa1d542225f33ab61a934fdf832ad6fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467524"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538774"
 ---
-# <a name="totalcount"></a>тоталкаунт
+# <a name="totalcount"></a>TotalCount
 
-Элемент **тоталкаунт** представляет общее количество элементов в заданной папке. 
+Элемент **TotalCount** представляет общее количество элементов в данной папке. 
   
 ```xml
 <TotalCount/>
@@ -30,31 +30,31 @@ ms.locfileid: "44467524"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |Представляет папку в почтовом ящике.  <br/> |
-|[календарфолдер](calendarfolder.md) <br/> |Представляет папку "Календарь" в почтовом ящике.  <br/> |
-|[контактсфолдер](contactsfolder.md) <br/> |Представляет папку "Контакты" в почтовом ящике.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Представляет папку календаря в почтовом ящике.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Представляет папку контактов в почтовом ящике.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска в почтовом ящике.  <br/> |
-|[тасксфолдер](tasksfolder.md) <br/> |Представляет папку задач в почтовом ящике.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Представляет папку задач в почтовом ящике.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет целое значение. Это свойство доступно только для чтения.
+Текстовое значение представляет собой значение integer. Это свойство доступно только для чтения.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -64,7 +64,7 @@ ms.locfileid: "44467524"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

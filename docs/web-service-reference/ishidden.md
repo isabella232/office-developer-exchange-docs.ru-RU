@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2377b584-bd1e-49fc-b80a-a6634721a297
-description: Элемент Hidden содержит логическое значение, которое указывает, следует ли скрыть или отобразить основной контакт в составе персонажа.
-ms.openlocfilehash: a22628e9ab4a46de04fe395f2d6c1b70083a5c77
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsHidden содержит значение Boolean, которое указывает, следует ли скрывать или отображаться в качестве элемента persona.
+ms.openlocfilehash: 7ff24eaa5e8e7b25c87af0bf299fcca0d88dc0b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464240"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532790"
 ---
 # <a name="ishidden"></a>IsHidden
 
-Элемент **Hidden** содержит логическое значение, которое указывает, следует ли скрыть или отобразить основной контакт в составе персонажа. 
+Элемент **IsHidden** содержит значение Boolean, которое указывает, следует ли скрывать или отображаться в качестве элемента persona. 
   
 ```XML
 <IsHidden>true | false</IsHidden>
@@ -26,27 +26,27 @@ ms.locfileid: "44464240"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Атрибуты (Персонааттрибутионтипе)](attribution-personaattributiontype.md) <br/> |Указывает экземпляр в массиве атрибутов для элемента **персоны** .  <br/> |
+|[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Указывает экземпляр в массиве атрибутов элемента **Persona.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **Hidden** указывает на то, что основной контакт должен быть скрыт или отображаться в составе персонажа. Значение **false** указывает, что базовый контакт не должен быть скрытым или отображаться как часть персонажа. 
+Значение текста,  истинное для **элемента IsHidden,** указывает на то, что указанный в нем контакт должен быть скрыт или отображаться в составе персоны. Значение false **указывает** на то, что указанный в нем контакт не должен скрываться или отображаться как часть персоны. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44464240"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

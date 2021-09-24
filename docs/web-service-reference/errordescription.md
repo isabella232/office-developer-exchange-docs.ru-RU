@@ -1,23 +1,23 @@
 ---
-title: еррордескриптион
+title: ErrorDescription
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 409c7893-7b69-4b0b-9d5b-112a0dfacde7
-description: Элемент Еррордескриптион описывает сообщение об ошибке, которое возвращается в сведениях о элементе, который невозможно индексировать.
-ms.openlocfilehash: d12e8b3dfc377097f649ef6f863bc59c1a59df9a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ErrorDescription описывает ошибку, возвращаемую в сведениях о элементе, который нельзя индексировать.
+ms.openlocfilehash: 22910f02bf31a85606ed2f68c3fadefa681b7691
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460073"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520656"
 ---
-# <a name="errordescription"></a>еррордескриптион
+# <a name="errordescription"></a>ErrorDescription
 
-Элемент **еррордескриптион** описывает сообщение об ошибке, которое возвращается в сведениях о элементе, который невозможно индексировать. 
+Элемент **ErrorDescription** описывает ошибку, возвращаемую в сведениях о элементе, который нельзя индексировать. 
   
 ```XML
 <ErrorDescription></ErrorDescription>
@@ -26,25 +26,25 @@ ms.locfileid: "44460073"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[нониндексаблеитемдетаил](nonindexableitemdetail.md)
+[NonIndexableItemDetail](nonindexableitemdetail.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **еррордескриптион** содержит описание ошибки на уровне элемента. 
+Текстовое значение элемента **ErrorDescription** содержит описание ошибки уровня элемента. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44460073"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

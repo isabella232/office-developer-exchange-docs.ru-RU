@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Resolution
 api_type:
 - schema
 ms.assetid: 573bed4b-d7b1-4baf-b16f-0795cdebf1a7
 description: Элемент Resolution содержит одну разрешенную сущность.
-ms.openlocfilehash: 63c80f3c8d7dabf7e6dc1494df04c0be821b28bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 41e37c7224ca269bbd7c37b084806e9b8ecc67f3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468287"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539082"
 ---
 # <a name="resolution"></a>Решение
 
 Элемент **Resolution** содержит одну разрешенную сущность. 
   
-[ресолвенамесреспонсе](resolvenamesresponse.md)
+[ResolveNamesResponse](resolvenamesresponse.md)
   
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
-[ресолвенамесреспонсемессаже](resolvenamesresponsemessage.md)
+[ResolveNamesResponseMessage](resolvenamesresponsemessage.md)
   
-[Авторешение](resolutionset.md)
+[ResolutionSet](resolutionset.md)
   
-[Resolution](resolution.md)
+[Решение](resolution.md)
   
 ```xml
 <Resolution>
@@ -40,14 +40,14 @@ ms.locfileid: "44468287"
 </Resolution>
 ```
 
- **ресолутионтипе**
+ **ResolutionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -60,9 +60,9 @@ ms.locfileid: "44468287"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Авторешение](resolutionset.md) <br/> |Содержит массив разрешений для неоднозначного имени.  <br/> |
+|[ResolutionSet](resolutionset.md) <br/> |Содержит массив разрешений для неоднозначного имени.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -72,7 +72,7 @@ ms.locfileid: "44468287"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -81,7 +81,7 @@ ms.locfileid: "44468287"
 
 [ResolveNames](resolvenames.md)
   
-[ресолвенамесреспонсе](resolvenamesresponse.md)
+[ResolveNamesResponse](resolvenamesresponse.md)
   
 [Операция ResolveNames](resolvenames-operation.md)
 

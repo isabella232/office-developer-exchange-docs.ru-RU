@@ -1,43 +1,43 @@
 ---
-title: ендтимеинминутес
+title: EndTimeInMinutes
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndTimeInMinutes
 api_type:
 - schema
 ms.assetid: ef05bdda-7a66-44db-bb73-a2ce8316c257
-description: Элемент Ендтимеинминутес представляет конец рабочего дня пользователя почтового ящика.
-ms.openlocfilehash: cb564f9de944848734749a30c813a94d6b5c4187
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EndTimeInMinutes представляет собой конец рабочего дня для пользователя почтового ящика.
+ms.openlocfilehash: 32d386969dd1f918de5f88c570f2e3e3bc97c82f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459653"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520684"
 ---
-# <a name="endtimeinminutes"></a>ендтимеинминутес
+# <a name="endtimeinminutes"></a>EndTimeInMinutes
 
-Элемент **ендтимеинминутес** представляет конец рабочего дня пользователя почтового ящика. 
+Элемент **EndTimeInMinutes** представляет собой конец рабочего дня для пользователя почтового ящика. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[фрибусиреспонсеаррай](freebusyresponsearray.md)
+[FreeBusyResponseArray](freebusyresponsearray.md)
   
-[фрибусиреспонсе](freebusyresponse.md)
+[FreeBusyResponse](freebusyresponse.md)
   
-[фрибусивиев](freebusyview.md)
+[FreeBusyView](freebusyview.md)
   
-[воркингхаурс](workinghours-ex15websvcsotherref.md)
+[WorkingHours](workinghours-ex15websvcsotherref.md)
   
-[воркингпериодаррай](workingperiodarray.md)
+[WorkingPeriodArray](workingperiodarray.md)
   
-[воркингпериод](workingperiod.md)
+[WorkingPeriod](workingperiod.md)
   
-[ендтимеинминутес](endtimeinminutes.md)
+[EndTimeInMinutes](endtimeinminutes.md)
   
 ```xml
 <StartTimeInMinutes>...</StartTimeInMinutes>
@@ -46,29 +46,29 @@ ms.locfileid: "44459653"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[воркингпериод](workingperiod.md) <br/> |Содержит рабочие недели, дни и часы пользователя почтового ящика.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i]` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Содержит дни и часы работы пользователя почтового ящика.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i]` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Текстовое значение представляет конец рабочего дня, в течение которого прошло несколько минут с момента начала дня. Например, время окончания — 6 часов представляется в виде 1080 минут.
+Требуется текстовое значение. Текстовое значение представляет конец рабочего дня по времени с момента начала рабочего дня. Например, время окончания 18:00. представляет 1080 минут.
   
-Диапазон допустимых значений для этого элемента — от 0 до 1440.
+Диапазон возможных значений для этого элемента — от 0 до 1440.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -78,7 +78,7 @@ ms.locfileid: "44459653"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -87,7 +87,7 @@ ms.locfileid: "44459653"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

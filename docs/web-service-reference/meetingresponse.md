@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingResponse
 api_type:
 - schema
 ms.assetid: 9f798e79-dafd-4d4d-9967-95fd8e5c0502
 description: Элемент MeetingResponse представляет ответ собрания в Exchange магазине.
-ms.openlocfilehash: 5f1e8b4c220f2b93d339d50541c266a11cb5262b
-ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
+ms.openlocfilehash: 7fa4c8d618291e69a668fcc2f9ddcd72e9ca28bc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58764625"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532617"
 ---
 # <a name="meetingresponse"></a>MeetingResponse
 
@@ -89,7 +89,7 @@ ms.locfileid: "58764625"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -104,7 +104,7 @@ ms.locfileid: "58764625"
 |[Основной текст](body.md) <br/> |Представляет фактическое содержимое тела сообщения.  <br/> |
 |[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, присоединенные к элементу в Exchange магазине.  <br/> |
 |[DateTimeReceived](datetimereceived.md) <br/> |Представляет данные и время, полученные элементом в почтовом ящике.  <br/> |
-|[Size](size.md) <br/> |Представляет размер в bytes элемента. Это свойство доступно только для чтения.  <br/> |
+|[Размер](size.md) <br/> |Представляет размер в bytes элемента. Это свойство доступно только для чтения.  <br/> |
 |[Categories](categories-ex15websvcsotherref.md) <br/> |Представляет коллекцию строк, которые определяют, к какой категории относится элемент в почтовом ящике.  <br/> |
 |[Importance](importance.md) <br/> |Описывает важность элемента.  <br/> |
 |[InReplyTo](inreplyto.md) <br/> |Представляет идентификатор элемента, на который этот элемент является ответом.  <br/> |
@@ -167,7 +167,7 @@ ms.locfileid: "58764625"
 |[SetItemField](setitemfield.md) <br/> |Представляет обновление одного свойства элемента в операции [UpdateItem.](updateitem-operation.md)  <br/> |
 |[Update (ItemSync)](update-itemsync.md) <br/> |Определяет один элемент для обновления в локальном клиентской магазине.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   

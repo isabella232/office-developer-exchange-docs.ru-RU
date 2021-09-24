@@ -1,27 +1,27 @@
 ---
-title: шовекстерналреЦипиенткаунт
+title: ShowExternalRecipientCount
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ShowExternalRecipientCount
 api_type:
 - schema
 ms.assetid: db28dbcb-d051-4e5c-a9c2-4b8d5149b4e1
-description: Элемент ШовекстерналреЦипиенткаунт указывает, должны ли потребители операции с подсказками показывать подсказки, указывающие количество внешних получателей, на которые адресовано сообщение.
-ms.openlocfilehash: fc32e5c4a95f0e33b5532af9c77d31bd6446e641
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ShowExternalRecipientCount указывает, должны ли пользователи операции GetMailTips показывать советы по почте, которые указывают количество внешних получателей, к которым адресовано сообщение.
+ms.openlocfilehash: 30615dcb1091dff01cf13679e3e1ed68c8b25af9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460472"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539102"
 ---
-# <a name="showexternalrecipientcount"></a>шовекстерналреЦипиенткаунт
+# <a name="showexternalrecipientcount"></a>ShowExternalRecipientCount
 
-Элемент **шовекстерналреЦипиенткаунт** указывает, должны ли потребители [операции](getmailtips-operation.md) с подсказками показывать подсказки, указывающие количество внешних получателей, на которые адресовано сообщение. 
+Элемент **ShowExternalRecipientCount** указывает, должны ли пользователи операции [GetMailTips](getmailtips-operation.md) показывать советы по почте, которые указывают количество внешних получателей, к которым адресовано сообщение. 
   
 ```XML
 <ShowExternalRecipientCount>true | false</ShowExternalRecipientCount>
@@ -30,27 +30,27 @@ ms.locfileid: "44460472"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Маилтипсконфигуратион (Маилтипссервицеконфигуратион)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Содержит сведения о конфигурации службы для советов почтового ящика.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Содержит сведения о конфигурации службы для службы советов почты.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение этого элемента имеет значение **true** , если потребители [операции](getmailtips-operation.md) с подсказками должны отображать подсказки для почты, указывающие количество внешних получателей, на которые адресовано сообщение. Значение **false** , если потребители [операции](getmailtips-operation.md) с подсказками не должны показывать подсказки, указывающие количество внешних получателей, на которые адресовано сообщение. 
+Значение текста этого элемента  верно, если пользователи операции [GetMailTips](getmailtips-operation.md) должны показывать советы по почте, указывающие количество внешних получателей, к которым адресовано сообщение. Значение является **ложным,** если пользователям операции [GetMailTips](getmailtips-operation.md) не нужно показывать советы по почте, которые указывают количество внешних получателей, к которым адресовано сообщение. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44460472"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

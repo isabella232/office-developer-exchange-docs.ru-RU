@@ -1,50 +1,50 @@
 ---
-title: ProposedStart (Митингрегистратионреспонсеобжекттипе)
+title: ProposedStart (MeetingRegistrationResponseObjectType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c58cef7-bc43-493a-a323-ba4dc6a33704
-description: Элемент ProposedStart (Митингрегистратионреспонсеобжекттипе) указывает предполагаемое новое время начала собрания.
-ms.openlocfilehash: 6f105556c39fa6549b3bec2f7a6fee50d4049358
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ProposedStart (MeetingRegistrationResponseObjectType) указывает новое время начала собрания.
+ms.openlocfilehash: 98866001465083c924dc990c5a0199e4dbcc5d1f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465592"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532358"
 ---
-# <a name="proposedstart-meetingregistrationresponseobjecttype"></a>ProposedStart (Митингрегистратионреспонсеобжекттипе)
+# <a name="proposedstart-meetingregistrationresponseobjecttype"></a>ProposedStart (MeetingRegistrationResponseObjectType)
 
-Элемент **ProposedStart (митингрегистратионреспонсеобжекттипе)** указывает предполагаемое новое время начала собрания. 
+Элемент **ProposedStart (MeetingRegistrationResponseObjectType)** указывает новое время начала собрания. 
   
 ```XML
 <ProposedStart />
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Акцептитем](acceptitem.md)  |  [Тентативелякцептитем](tentativelyacceptitem.md)  |  [Деклинеитем](declineitem.md)
+[AcceptItem](acceptitem.md)  |  [ПредварительноAcceptItem](tentativelyacceptitem.md)  |  [DeclineItem](declineitem.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ProposedStart (митингрегистратионреспонсеобжекттипе)** — это предлагаемые Дата и время начала собрания. 
+Текстовое значение элемента **ProposedStart (MeetingRegistrationResponseObjectType)** является предлагаемой датой начала и временем собрания. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   
@@ -56,18 +56,18 @@ ms.locfileid: "44465592"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[акцептитем](acceptitem.md)
+[AcceptItem](acceptitem.md)
   
-[деклинеитем](declineitem.md)
+[DeclineItem](declineitem.md)
   
-[тентативелякцептитем](tentativelyacceptitem.md)
+[TentativelyAcceptItem](tentativelyacceptitem.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

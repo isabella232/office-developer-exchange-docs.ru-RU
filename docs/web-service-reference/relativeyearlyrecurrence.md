@@ -1,27 +1,27 @@
 ---
-title: релативэйеарлирекурренце
+title: RelativeYearlyRecurrence
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RelativeYearlyRecurrence
 api_type:
 - schema
 ms.assetid: 25b67876-9979-4a30-a637-357ea10a93b8
-description: Элемент Релативэйеарлирекурренце описывает относительный ежегодный шаблон повторения.
-ms.openlocfilehash: 2abe09ddfe52c24211ef5d0a392ddecaf15bf7bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RelativeYearlyRecurrence описывает относительный шаблон повторения.
+ms.openlocfilehash: ce6d724735cb23fb08bf541123341ede35011c4c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456741"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512501"
 ---
-# <a name="relativeyearlyrecurrence"></a>релативэйеарлирекурренце
+# <a name="relativeyearlyrecurrence"></a>RelativeYearlyRecurrence
 
-Элемент **релативэйеарлирекурренце** описывает относительный ежегодный шаблон повторения. 
+Элемент **RelativeYearlyRecurrence** описывает относительный шаблон повторения. 
   
 ```xml
 <RelativeYearlyRecurrence>
@@ -31,33 +31,33 @@ ms.locfileid: "44456741"
 </RelativeYearlyRecurrence>
 ```
 
- **релативэйеарлирекурренцепаттернтипе**
+ **RelativeYearlyRecurrencePatternType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DaysOfWeek (Дайофвиктипе)](daysofweek-dayofweektype.md) <br/> |Описывает дни недели, которые используются в шаблонах повторения элементов.  <br/> |
-|[дайофвикиндекс](dayofweekindex.md) <br/> |Описывает, какая неделя месяца используется в качестве относительного ежегодного повторения.  <br/> |
-|[Month (повторение элемента)](month-item-recurrence.md) <br/> |Описывает месяц, когда происходит ежегодно повторяющийся элемент.  <br/> |
+|[DaysOfWeek (DayOfWeekType)](daysofweek-dayofweektype.md) <br/> |Описывает дни недели, используемые в шаблонах повторения элементов.  <br/> |
+|[DayOfWeekIndex](dayofweekindex.md) <br/> |Описывает, какая неделя в месяц используется в относительном шаблоне повторяющихся повторений.  <br/> |
+|[Month (повторение элемента)](month-item-recurrence.md) <br/> |Описывает месяц, когда происходит каждый год повторяющийся элемент.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
-|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашений на собрание.  <br/> |
-|[Standard](standard.md) <br/> |Представляет дату и время изменения времени с летнего на стандартное время.  <br/> |
-|[Переход](daylight.md) <br/> |Представляет дату и время изменения времени со стандартного времени на летнее.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторяющихся задачах.  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и запросов на собрания.  <br/> |
+|[Standard](standard.md) <br/> |Представляет дату и время, когда время меняется с летнего времени на обычное.  <br/> |
+|[Daylight](daylight.md) <br/> |Представляет дату и время, когда время меняется от стандартного времени к летнему времени.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -67,7 +67,7 @@ ms.locfileid: "44456741"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

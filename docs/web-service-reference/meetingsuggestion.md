@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6012063-eb67-4e83-a4a6-33482685083f
-description: Элемент свойства meetingsuggestion указывает предложенное собрание.
-ms.openlocfilehash: 132ed907886c0ee9f3c4f46cc835d4b4fc6aa621
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MeetingSuggestion указывает предлагаемое собрание.
+ms.openlocfilehash: 20523a77fc9fcdf22c837f2e4101ed699e1d4a7b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466313"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532491"
 ---
 # <a name="meetingsuggestion"></a>MeetingSuggestion
 
-Элемент **Свойства meetingsuggestion** указывает предложенное собрание. 
+Элемент **MeetingSuggestion** указывает предлагаемое собрание. 
   
 ```XML
 <MeetingSuggestion>
@@ -30,24 +30,24 @@ ms.locfileid: "44466313"
 </MeetingSuggestion>
 ```
 
- **митингсугжестионтипе**
+ **MeetingSuggestionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Участники](attendees.md)  |  [Location (расположение](location.md)  |  ) [Subject (тема](subject.md)  |  ) [MeetingString](meetingstring.md)  |  Время [начала](starttime.md)  |  [EndTime](endtime.md)
+[Участники](attendees.md)  |  [Расположение](location.md)  |  [Subject](subject.md)  |  [MeetingString](meetingstring.md)  |  [StartTime](starttime.md)  |  [EndTime](endtime.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [MeetingSuggestions](meetingsuggestions.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -59,7 +59,7 @@ ms.locfileid: "44466313"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

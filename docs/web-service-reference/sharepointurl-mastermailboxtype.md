@@ -1,41 +1,41 @@
 ---
-title: SharePointUrl (Мастермаилбокстипе)
+title: SharePointUrl (MasterMailboxType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c0e86ed-8156-48de-9b22-c627db273e1e
-description: Элемент SharePointUrl (Мастермаилбокстипе) предназначен только для внутреннего использования.
-ms.openlocfilehash: a4c9f83c8717f9f96293faf3fbc944bad693fe7a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SharePointUrl (MasterMailboxType) предназначен только для внутреннего использования.
+ms.openlocfilehash: cb45fcfd1bf5b8e310a5c12d51f981e65b6c3c69
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458616"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539061"
 ---
-# <a name="sharepointurl-mastermailboxtype"></a>SharePointUrl (Мастермаилбокстипе)
+# <a name="sharepointurl-mastermailboxtype"></a>SharePointUrl (MasterMailboxType)
 
-Элемент **SharePointUrl (мастермаилбокстипе)** предназначен только для внутреннего использования. 
+Элемент **SharePointUrl (MasterMailboxType)** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

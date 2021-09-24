@@ -1,23 +1,23 @@
 ---
-title: инплацехолдконфигуратиононли
+title: InPlaceHoldConfigurationOnly
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 921ecc73-b7e2-40a7-8458-68f18dd5a13b
-description: Элемент Инплацехолдконфигуратиононли указывает, следует ли включить конфигурацию хранения на месте.
-ms.openlocfilehash: ca364ee7d8a9e2e4a608f8f6c4ca5851fa7d4b64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент InPlaceHoldConfigurationOnly указывает, следует ли включать конфигурацию удержания на месте.
+ms.openlocfilehash: 3b1f12bb2d021693b20c3a9013c889b1a8074e62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466103"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532929"
 ---
-# <a name="inplaceholdconfigurationonly"></a>инплацехолдконфигуратиононли
+# <a name="inplaceholdconfigurationonly"></a>InPlaceHoldConfigurationOnly
 
-Элемент **инплацехолдконфигуратиононли** указывает, следует ли включить конфигурацию хранения на месте. 
+Элемент **InPlaceHoldConfigurationOnly** указывает, следует ли включать конфигурацию удержания на месте. 
   
 ```XML
 <InPlaceHoldConfigurationOnly>true | false</InPlaceHoldConfigurationOnly>
@@ -26,15 +26,15 @@ ms.locfileid: "44466103"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44466103"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **инплацехолдконфигуратиононли** указывает на то, что включена конфигурация хранения на месте. Значение **false** указывает на то, что конфигурация хранения на месте не включена. 
+Текстовое **значение, истинное** для элемента **InPlaceHoldConfigurationOnly,** указывает, что конфигурация удержания на месте включена. Значение false **указывает,** что конфигурация удержания на месте не включена. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44466103"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

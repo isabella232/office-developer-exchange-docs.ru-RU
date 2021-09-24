@@ -1,23 +1,23 @@
 ---
-title: фаиледмаилбоксес
+title: FailedMailboxes
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f34fb6f6-057e-4ae3-8e10-bc92112eafba
-description: Элемент Фаиледмаилбоксес указывает массив почтовых ящиков, которые не удалось найти.
-ms.openlocfilehash: 10f10d3f2ac4379d7ddcb3a13019d17a17bb676a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FailedMailboxes указывает массив почтовых ящиков, которые не удалось найти.
+ms.openlocfilehash: a2225a44255b8dbb9a110dc1f9765f51abcfe628
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461956"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513747"
 ---
-# <a name="failedmailboxes"></a>фаиледмаилбоксес
+# <a name="failedmailboxes"></a>FailedMailboxes
 
-Элемент **фаиледмаилбоксес** указывает массив почтовых ящиков, которые не удалось найти. 
+Элемент **FailedMailboxes** указывает массив почтовых ящиков, которые не удалось найти. 
   
 ```XML
 <FailedMailboxes>
@@ -25,28 +25,28 @@ ms.locfileid: "44461956"
 <FailedMailboxes>
 ```
 
- **аррайоффаиледсеарчмаилбоксестипе**
+ **ArrayOfFailedSearchMailboxesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фаиледмаилбокс](failedmailbox.md) <br/> |Указывает сообщение об ошибке для почтового ящика, на который произошел сбой поиска.  <br/> |
+|[FailedMailbox](failedmailbox.md) <br/> |Указывает сообщение об ошибке для почтового ящика, сбоя в поиске.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сеарчмаилбоксесресулт](searchmailboxesresult.md) <br/> |Содержит результат запроса **SearchMailboxes** .  <br/> |
+|[SearchMailboxesResult](searchmailboxesresult.md) <br/> |Содержит результат **запроса SearchMailboxes.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44461956"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0480b7f5-9312-4efe-bb37-9fffcd7e7a9d
-description: Элемент LocationUri содержит строку, указывающую универсальный код ресурса (URI) связанного почтового адреса.
-ms.openlocfilehash: 1cf857e29b67fdacdb73fc5bd921973d7dbd481e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент LocationUri содержит строку с указанием единого идентификатора ресурса (URI) связанного почтового адреса.
+ms.openlocfilehash: 443df5d79fb958ebb9576f7fe169602a3be39f0e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467097"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513551"
 ---
 # <a name="locationuri"></a>LocationUri
 
-Элемент **LocationUri** содержит строку, указывающую универсальный код ресурса (URI) связанного почтового адреса. 
+Элемент **LocationUri** содержит строку с указанием единого идентификатора ресурса (URI) связанного почтового адреса. 
   
 ```XML
 <LocationUri></LocationUri>
@@ -26,25 +26,25 @@ ms.locfileid: "44467097"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Значение (персонапосталаддресстипе)](value-personapostaladdresstype.md)  |  [Посталаддресс (персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md)
+[Значение (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **LocationUri** — это строка, указывающая универсальный код ресурса (URI) для получения сведений о почтовом адресе. 
+Текстовое значение элемента **LocationUri** — это строка, которая указывает URI на сведения о почтовом адресе. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

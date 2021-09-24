@@ -5,15 +5,15 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4f2c8e66-698c-4313-98d0-24d7298489f6
 description: Элемент TaskString содержит предложенную задачу.
-ms.openlocfilehash: a48a47917dd2ec47678b53f04f00c99887eec0b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 74bb36ac96803bbc2db0173f61af85442b95e576
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530876"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538906"
 ---
 # <a name="taskstring"></a>TaskString
 
@@ -27,15 +27,15 @@ ms.locfileid: "44530876"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -43,9 +43,9 @@ ms.locfileid: "44530876"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **TaskString** является предложенной задачей, полученной из объекта задачи, извлеченного из элемента в почтовом ящике. 
+Текстовое значение элемента **TaskString** — это предложенная задача, которая вылилась в объект задачи, извлеченный из элемента в почтовом ящике. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44530876"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

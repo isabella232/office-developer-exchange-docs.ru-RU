@@ -1,24 +1,24 @@
 ---
-title: Жетфедератионинформатионрекуест (SOAP)
+title: GetFederationInformationRequest (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: df5bface-f070-49e0-8527-6129ed8e8095
-description: Элемент Жетфедератионинформатионрекуест представляет параметры вызова операции операции Жетфедератионинформатион (SOAP).
-ms.openlocfilehash: 1df0a88ed8fbc75eb5723d1390baeefd3ad73652
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetFederationInformationRequest представляет параметры вызова для операции GetFederationInformation (SOAP).
+ms.openlocfilehash: b4f2c9fa060bf0701072b462233b2d4217e8b8b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456586"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538081"
 ---
-# <a name="getfederationinformationrequest-soap"></a>Жетфедератионинформатионрекуест (SOAP)
+# <a name="getfederationinformationrequest-soap"></a>GetFederationInformationRequest (SOAP)
 
-Элемент **жетфедератионинформатионрекуест** представляет параметры вызова операции [операции жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md).
+Элемент **GetFederationInformationRequest** представляет параметры вызова для операции [GetFederationInformation (SOAP).](getfederationinformation-operation-soap.md)
   
 ```XML
 <GetFederationInformationRequest>
@@ -26,40 +26,40 @@ ms.locfileid: "44456586"
 </GetFederationInformationRequest>
 ```
 
-**жетфедератионинформатионрекуест**
+**GetFederationInformationRequest**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Домен (Жетфедератионинформатион) (SOAP)](domain-getfederationinformationsoap.md) <br/> |Определяет домен, который имеет доверие федерации.  <br/> |
+|[Domain (GetFederationInformation) (SOAP)](domain-getfederationinformationsoap.md) <br/> |Определяет домен, в котором имеется доверие федерации.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют. 
+Нет. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
+- [Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 

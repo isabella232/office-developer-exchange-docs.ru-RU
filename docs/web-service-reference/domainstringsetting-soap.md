@@ -1,24 +1,24 @@
 ---
-title: Домаинстрингсеттинг (SOAP)
+title: DomainStringSetting (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 268805b5-baf7-4826-b92e-cb9f9f5792ea
-description: Элемент Домаинстрингсеттинг представляет параметр домена со значением типа String.
-ms.openlocfilehash: 791c4598d9f1ed471c3ce3b6083498b5da0f2b72
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DomainStringSetting представляет домен, значение которого — строка типа.
+ms.openlocfilehash: 80ea8665a91bbc35fd00b6e951a585dc0ea6ca0f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463589"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520796"
 ---
-# <a name="domainstringsetting-soap"></a>Домаинстрингсеттинг (SOAP)
+# <a name="domainstringsetting-soap"></a>DomainStringSetting (SOAP)
 
-Элемент **домаинстрингсеттинг** представляет параметр домена со значением типа String. 
+Элемент **DomainStringSetting представляет** домен, значение которого — строка типа. 
   
 ```XML
 <DomainStringSetting>
@@ -27,40 +27,40 @@ ms.locfileid: "44463589"
 </DomainStringSetting>
 ```
 
- **домаинстрингсеттинг**
+ **DomainStringSetting**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (SOAP)](name-soap.md) <br/> |Представляет имя параметра.  <br/> |
-|[Значение (SOAP)](value-soap.md) <br/> |Представляет значение параметра пользователя.  <br/> |
+|[Name (SOAP)](name-soap.md) <br/> |Представляет имя параметра.  <br/> |
+|[Value (SOAP)](value-soap.md) <br/> |Представляет значение параметра пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
-Отсутствуют.
+Нет.
   
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
+- [Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
 

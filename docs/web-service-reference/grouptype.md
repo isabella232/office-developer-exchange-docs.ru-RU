@@ -5,48 +5,48 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c31552f-22b8-4bf0-8cac-046fd92ac0d4
-description: Элемент GroupType указывает класс группы для группы обмена мгновенными сообщениями (IM).
-ms.openlocfilehash: b8790a23507c51dfffceaddf3641ce820223c366
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GroupType указывает групповой класс группы обмена мгновенными сообщениями.
+ms.openlocfilehash: f54a78c5780d7d435531be0dc74e354594b754bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462803"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533140"
 ---
 # <a name="grouptype"></a>GroupType
 
-Элемент **groupType** указывает класс группы для группы обмена мгновенными сообщениями (IM). 
+Элемент **GroupType** указывает групповой класс группы обмена мгновенными сообщениями. 
   
 ```XML
 <GroupType></GroupType>
 ```
 
- **нонемптистрингтипе**
+ **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Группа](imgroup.md) <br/> |Представляет группу мгновенных сообщений.  <br/> |
+|[ImGroup](imgroup.md) <br/> |Представляет группу обмена мгновенными сообщениями.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **groupType** — это строковое значение, задающее тип группы. 
+Текстовое значение элемента **GroupType** — это строковое значение, которое указывает тип группы. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44462803"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

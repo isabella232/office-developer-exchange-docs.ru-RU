@@ -1,52 +1,52 @@
 ---
-title: Приведен
+title: Accuracy
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0d14b7f-5bde-4c0b-b6f7-816d11081286
-description: Элемент точности указывает точность широты и долготы связанного почтового адреса.
-ms.openlocfilehash: ab251caee427a5209482eb9381fd2e243bc3a3d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Accuracy указывает точность широты и долготы связанного почтового адреса.
+ms.openlocfilehash: f0abbbbf9bca5bbb8bec010710469f0315ed5a2c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527553"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520187"
 ---
-# <a name="accuracy"></a>Приведен
+# <a name="accuracy"></a>Accuracy
 
-Элемент **точности** указывает точность широты и долготы связанного почтового адреса. 
+Элемент **Accuracy** указывает точность широты и долготы связанного почтового адреса. 
   
 ```XML
 <Accuracy></Accuracy>
 ```
 
- **xs: Double**
+ **xs:double**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Посталаддресс (Персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md) <br/> |Указывает почтовый адрес пользователя.  <br/> |
+|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Указывает почтовый адрес для персоны.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44527553"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -3,28 +3,28 @@ title: 'Как: создать группы контактов с помощью
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acec6e73-c016-419d-be1a-8ec5d993addb
-description: Узнайте, как создать группу контактов с помощью управляемого API EWS или EWS в Exchange.
-ms.openlocfilehash: 1da876bbda72f5bea08fd9855aa3f554135d54aa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Узнайте, как создать контактную группу с помощью управляемого API или EWS EWS в Exchange.
+ms.openlocfilehash: ade7fa68b00b055268cd5f0c34a75e0abbdb18ee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528141"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513222"
 ---
 # <a name="create-contact-groups-by-using-ews-in-exchange"></a>Как: создать группы контактов с помощью EWS в Exchange
 
-Узнайте, как создать группу контактов с помощью управляемого API EWS или EWS в Exchange.
+Узнайте, как создать контактную группу с помощью управляемого API или EWS EWS в Exchange.
   
-Вы можете создать группу контактов, которая представляет собой частную [группу рассылки](distribution-groups-and-ews-in-exchange.md), с помощью управляемого API EWS или EWS. Для создания групп контактов используйте методы в классе управляемого API [ContactGroup](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx) EWS или используйте операцию [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS. 
+Вы можете создать контактную группу, которая является частной группой [рассылки,](distribution-groups-and-ews-in-exchange.md)с помощью управляемого API EWS или EWS. Для создания контактных групп используйте методы в классе управляемый API [ContactGroup](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx) EWS или используйте операцию [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS. 
   
-Обратите внимание, что вы не можете создать универсальную группу рассылки или группу безопасности с помощью управляемого API EWS или EWS. Чтобы создать универсальную группу рассылки или группу безопасности, можно использовать командлет [New – DistributionGroup](https://technet.microsoft.com/library/aa998856%28v=exchg.150%29.aspx)[Exchange Management Shell](https://msdn.microsoft.com/library/ff326159%28v=exchg.140%29.aspx). 
+Обратите внимание, что для создания универсальной группы рассылки или группы безопасности нельзя использовать управляемый API EWS или EWS. Чтобы создать универсальную группу рассылки или группу безопасности, можно использовать команды [New-DistributionGroup](https://technet.microsoft.com/library/aa998856%28v=exchg.150%29.aspx)[Exchange Management Shell.](https://msdn.microsoft.com/library/ff326159%28v=exchg.140%29.aspx) 
   
-## <a name="create-a-contact-group-by-using-the-ews-managed-api"></a>Создание группы контактов с помощью управляемого API EWS
+## <a name="create-a-contact-group-by-using-the-ews-managed-api"></a>Создание контактной группы с помощью управляемого API EWS
 <a name="bk_EWSMA"> </a>
 
-Для создания группы контактов необходимо всего несколько сведений: имя группы и членов, добавляемых в группу. В приведенном ниже примере показано, как создать простую группу контактов, содержащую пару участников группы.
+Чтобы создать контактную группу, необходимо просто добавить в группу несколько частей информации: имя группы и ее участников. В следующем примере показано, как создать простую контактную группу, которая содержит несколько членов группы.
   
 ```cs
 // Create a new contact group object.
@@ -39,10 +39,10 @@ myContactGroup.Save();
 
 ```
 
-## <a name="create-a-contact-group-by-using-ews"></a>Создание группы контактов с помощью EWS
+## <a name="create-a-contact-group-by-using-ews"></a>Создание контактной группы с помощью EWS
 <a name="bk_EWSMA"> </a>
 
-Может потребоваться еще несколько строк кода, но вы можете создать группу контактов с помощью операции [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS. В приведенном ниже примере XML-запроса показано, как можно создать группу контактов. Это также XML-запрос, который отправляется при [использовании управляемого API EWS для создания группы контактов](#bk_EWSMA).
+Может потребоваться несколько строк кода, но можно создать контактную группу с помощью операции [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS. В следующем примере запроса XML показано, как создать контактную группу. Это также XML-запрос, который отправляется при использовании API управляемых [EWS для создания контактной группы.](#bk_EWSMA)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -74,7 +74,7 @@ MessageDisposition="SaveOnly">
    </CreateItem>
 ```
 
-Ниже приведен пример успешного XML-ответа на запрос. Обратите внимание, что возвращаемые значения включают идентификатор элемента для новой группы контактов и ключ изменения, который можно использовать в другом коде для изменения группы контактов или для развертывания группы, чтобы увидеть ее участников. Идентификатор элемента сокращается для удобочитаемости.
+Ниже приводится пример успешного XML-ответа на запрос. Обратите внимание, что возвращенные значения включают код элемента для новой контактной группы и ключ изменения, который можно использовать в другом коде для изменения контактной группы или расширения группы, чтобы увидеть участников. ID элемента сокращается для читаемости.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

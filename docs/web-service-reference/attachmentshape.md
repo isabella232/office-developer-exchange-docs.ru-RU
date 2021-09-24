@@ -1,31 +1,31 @@
 ---
-title: аттачментшапе
+title: AttachmentShape
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttachmentShape
 api_type:
 - schema
 ms.assetid: 734914b5-3a16-4744-90a5-741fd30c4676
-description: Элемент Аттачментшапе определяет дополнительные свойства, возвращаемые в ответе на запрос GetAttachment.
-ms.openlocfilehash: e70fbaad0f649c5afdc151b777efef0f8927ba1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AttachmentShape определяет дополнительные свойства, возвращающиеся в ответ на запрос GetAttachment.
+ms.openlocfilehash: 2c7ceb25f481ec07577117e46e26537e657e18c7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529667"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520040"
 ---
-# <a name="attachmentshape"></a>аттачментшапе
+# <a name="attachmentshape"></a>AttachmentShape
 
-Элемент **аттачментшапе** определяет дополнительные свойства, возвращаемые в ответе на запрос [GetAttachment](getattachment.md) . 
+Элемент **AttachmentShape** определяет дополнительные свойства, возвращающиеся в ответ на запрос [GetAttachment.](getattachment.md) 
   
 - [GetAttachment](getattachment.md)
   
-- [аттачментшапе](attachmentshape.md)
+- [AttachmentShape](attachmentshape.md)
   
 ```xml
 <AttachmentShape>
@@ -36,35 +36,35 @@ ms.locfileid: "44529667"
 </AttachmentShape>
 ```
 
- **аттачментреспонсешапетипе**
+ **AttachmentResponseShapeType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[инклудемимеконтент](includemimecontent.md) <br/> |Указывает, возвращается ли в ответе MIME-контент элемента или вложения. Этот элемент является необязательным.  <br/> |
-|[BodyType](bodytype.md) <br/> |Определяет способ форматирования основного текста в отклике. Этот элемент является необязательным.  <br/> |
-|[филтерхтмлконтент](filterhtmlcontent.md) <br/> |Указывает, фильтруется ли потенциально небезопасное содержимое HTML из вложения. Этот элемент является необязательным.  <br/> |
-|[аддитионалпропертиес](additionalproperties.md) <br/> |Определяет дополнительные свойства, возвращаемые в ответе. Этот элемент является необязательным.  <br/> |
+|[IncludeMimeContent](includemimecontent.md) <br/> |Указывает, возвращается ли в ответ многоцелевой контент расширения интернет-почты (MIME) элемента или вложения. Этот элемент является необязательным.  <br/> |
+|[BodyType](bodytype.md) <br/> |Определяет форматирование текста тела в ответе. Этот элемент является необязательным.  <br/> |
+|[FilterHtmlContent](filterhtmlcontent.md) <br/> |Указывает, фильтруется ли потенциально небезопасное содержимое HTML из вложения. Этот элемент является необязательным.  <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> |Определяет дополнительные свойства, возвращаемые в ответ. Этот элемент является необязательным.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[GetAttachment](getattachment.md) <br/> |Элемент, определяющий запрос на получение вложения из почтового ящика в хранилище Exchange.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetAttachment` <br/> |
+|[GetAttachment](getattachment.md) <br/> |Элемент, определяющие запрос на вложение из почтового ящика в Exchange магазине.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetAttachment` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -74,7 +74,7 @@ ms.locfileid: "44529667"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

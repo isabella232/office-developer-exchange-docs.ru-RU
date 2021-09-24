@@ -1,23 +1,23 @@
 ---
-title: Флаг
+title: Flag
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b47bc74-a60d-4308-8674-5d52444a1753
-description: Элемент Flag указывает флаг для элемента почтового ящика.
-ms.openlocfilehash: 7229a26181ee9baf80be5c32c0ef99483310ccb3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Флаг указывает флаг на элементе почтового ящика.
+ms.openlocfilehash: dffc550dc4235c2121b6641f3a6eac30594f75b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466264"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513698"
 ---
-# <a name="flag"></a>Флаг
+# <a name="flag"></a>Flag
 
-Элемент **Flag** указывает флаг для элемента почтового ящика. 
+Элемент **Флаг** указывает флаг на элементе почтового ящика. 
   
 ```XML
 <Flag>
@@ -28,32 +28,32 @@ ms.locfileid: "44466264"
 </Flag>
 ```
 
- **флагтипе**
+ **FlagType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[FlagStatus](flagstatus.md) <br/> |Содержит сводный статус флагов для элементов в текущей папке.  <br/> |
+|[FlagStatus](flagstatus.md) <br/> |Содержит агрегированное состояние флага для элементов в текущей папке.  <br/> |
 |[StartDate](startdate.md) <br/> |Представляет дату начала элемента.  <br/> |
-|[DueDate](duedate.md) <br/> |Представляет дату выполнения элемента.  <br/> |
-|[комплетедате](completedate.md) <br/> |Представляет дату завершения элемента.  <br/> |
+|[DueDate](duedate.md) <br/> |Представляет дату, когда должен быть элемент.  <br/> |
+|[CompleteDate](completedate.md) <br/> |Представляет дату завершения элемента.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[конверсатионактион](conversationaction.md) <br/> |Содержит одно действие, которое будет применено к одной беседе.  <br/> |
-|[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Содержит одно действие, которое необходимо применить к одному разговору.  <br/> |
+|[Элемент](item.md) <br/> |Представляет универсальный элемент в Exchange магазине.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44466264"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

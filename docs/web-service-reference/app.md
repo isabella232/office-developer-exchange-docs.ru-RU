@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92b776b5-fec6-4443-a606-51ccb06f7afd
 description: Элемент App содержит сведения о XML-файле манифеста для почтового приложения, установленного в почтовом ящике.
-ms.openlocfilehash: b5870164b059d2e50930ee33c09cbd030501f171
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 548df0f5547c4d7bf3ffacd32308be6824fadaf2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460360"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520124"
 ---
 # <a name="app"></a>Приложение
 
-Элемент **app** содержит сведения о XML-файле манифеста для почтового приложения, установленного в почтовом ящике. 
+Элемент **App** содержит сведения о XML-файле манифеста для почтового приложения, установленного в почтовом ящике. 
   
 ```XML
 <App>
@@ -28,21 +28,21 @@ ms.locfileid: "44460360"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Metadata (метаданные](metadata-ex15websvcsotherref.md)  |  ) [Manifest](manifest.md)
+[Метаданные](metadata-ex15websvcsotherref.md)  |  [Манифест](manifest.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Приложения](apps.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

@@ -1,23 +1,23 @@
 ---
-title: емаиладдрессаттрибутедвалуе
+title: EmailAddressAttributedValue
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ebdf224d-3796-4179-aa0a-87942e7585ff
-description: Элемент Емаиладдрессаттрибутедвалуе указывает экземпляр массива адресов электронной почты и связанные с ними атрибуты.
-ms.openlocfilehash: 09fdd5921cef3d70a6da4b6d4d38f08834c5d482
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EmailAddressAttributedValue указывает экземпляр массива адресов электронной почты и связанных с ними атрибуций.
+ms.openlocfilehash: 2b5e9b431b6a62c63e815bfee190c923f454c867
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530693"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519767"
 ---
-# <a name="emailaddressattributedvalue"></a>емаиладдрессаттрибутедвалуе
+# <a name="emailaddressattributedvalue"></a>EmailAddressAttributedValue
 
-Элемент **емаиладдрессаттрибутедвалуе** указывает экземпляр массива адресов электронной почты и связанные с ними атрибуты. 
+Элемент **EmailAddressAttributedValue** указывает экземпляр массива адресов электронной почты и связанных с ними атрибуций. 
   
 ```XML
 <EmailAddressAttributedValue>
@@ -26,31 +26,31 @@ ms.locfileid: "44530693"
 <EmailAddressAttributedValue>
 ```
 
- **емаиладдрессаттрибутедвалуетипе**
+ **EmailAddressAttributedValueType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Значение (EmailAddressType)](value-emailaddresstype.md) <br/> |Задает значение **EmailAddress** , связанное с массивом сопоставлений.  <br/> |
-|[Атрибуты (Аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md) <br/> |Задает массив атрибутов для связанного элемента **value** .  <br/> |
+|[Value (EmailAddressType)](value-emailaddresstype.md) <br/> |Указывает значение **emailAddress,** связанного с массивом атрибуций.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Указывает массив атрибуций для связанного с ним **элемента Value.**  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Emails1](emails1.md) <br/> |Указывает массив значений электронной почты и идентификаторы их исходных атрибутов для связанного пользователя.  <br/> |
-|[Emails2](emails2.md) <br/> |Указывает массив значений электронной почты и идентификаторы их исходных атрибутов для связанного пользователя.  <br/> |
-|[Emails3](emails3.md) <br/> |Указывает массив значений электронной почты и идентификаторы их исходных атрибутов для связанного пользователя.  <br/> |
+|[Emails1](emails1.md) <br/> |Указывает массив значений электронной почты и идентификаторы их исходных атрибутов для связанной персоны.  <br/> |
+|[Emails2](emails2.md) <br/> |Указывает массив значений электронной почты и идентификаторы их исходных атрибутов для связанной персоны.  <br/> |
+|[Emails3](emails3.md) <br/> |Указывает массив значений электронной почты и идентификаторы их исходных атрибутов для связанной персоны.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44530693"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

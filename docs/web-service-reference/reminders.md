@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19294300-ab84-4784-8aa7-3395a08de640
-description: Элемент памятки указывает напоминания, возвращаемые в ответе на запрос с помощью распомниок.
-ms.openlocfilehash: 1ddf1c10872dcce103919dbed3d1c5e04cdfca74
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Reminders указывает напоминания, возвращенные в ответ на запрос GetReminders.
+ms.openlocfilehash: 0b760e93bf27f0fdaad9464580fad924367dea32
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458497"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513411"
 ---
 # <a name="reminders"></a>Reminders
 
-Элемент **памятки** указывает напоминания, возвращаемые в ответе на запрос с помощью **распомниок** . 
+Элемент **Reminders** указывает напоминания, возвращенные в ответ на **запрос GetReminders.** 
   
 ```XML
 <Reminders>
@@ -25,14 +25,14 @@ ms.locfileid: "44458497"
 </Reminders>
 ```
 
- **аррайофреминдерстипе**
+ **ArrayOfRemindersType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -40,9 +40,9 @@ ms.locfileid: "44458497"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[жетреминдерсреспонсе](getremindersresponse.md)
+[GetRemindersResponse](getremindersresponse.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,14 +54,14 @@ ms.locfileid: "44458497"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[жетреминдерсреспонсе](getremindersresponse.md)
+[GetRemindersResponse](getremindersresponse.md)
 
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)

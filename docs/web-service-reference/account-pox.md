@@ -1,28 +1,28 @@
 ---
-title: Учетная запись (POX)
+title: Account (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 488fdbdc-e9d9-4301-91ab-e22eb42e549e
-description: Элемент Account указывает параметры учетной записи пользователя или содержит ошибочные ответы.
-ms.openlocfilehash: ffd8ebe4b7bd9d4b3f6a9b42fc557ac6189a068d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Учетной записи указывает параметры учетной записи для пользователя или содержит ответы на ошибки.
+ms.openlocfilehash: 89799ab62a2aa4945b0e8f3209ab1fbc7d2fa2e6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462320"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534055"
 ---
-# <a name="account-pox"></a>Учетная запись (POX)
+# <a name="account-pox"></a>Account (POX)
 
-Элемент **Account** указывает параметры учетной записи пользователя или содержит ошибочные ответы. 
+Элемент **Учетной** записи указывает параметры учетной записи для пользователя или содержит ответы на ошибки. 
   
-- [Служба автообнаружения (POX)](autodiscover-pox.md)
-- [Ответ (POX)](response-pox.md)
-- [Учетная запись (POX)](account-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
+- [Response (POX)](response-pox.md)
+- [Account (POX)](account-pox.md)
   
 ```XML
 <Account>
@@ -48,34 +48,34 @@ ms.locfileid: "44462320"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[AccountType (POX)](accounttype-pox.md) <br/> |Представляет тип учетной записи.  <br/> |
-|[Action (POX)](action-pox.md) <br/> |Предоставляет сведения, используемые, чтобы определить, требуется ли другой запрос автообнаружения для возврата сведений о конфигурации пользователя.  <br/> |
-|[MicrosoftOnline (POX)](microsoftonline-pox.md) <br/> |Содержит значение, указывающее, размещается ли почтовый ящик пользователя в Exchange Online или Exchange Online в составе Office 365.  <br/> |
-|[RedirectUrl адресом (POX)](redirecturl-pox.md) <br/> |Содержит URL-адрес компьютера, на котором установлен сервер Exchange с установленной ролью сервера клиентского доступа, который следует использовать для получения параметров автообнаружения.  <br/> |
-|[Редиректаддр (POX)](redirectaddr-pox.md) <br/> |Указывает адрес электронной почты, который будет использоваться для последующего запроса автообнаружения.  <br/> |
-|[Image (POX)](image-pox.md) <br/> |Содержит путь к изображению, используемому для фирменной настройки.  <br/> |
-|[Сервицехоме (POX)](servicehome-pox.md) <br/> |Содержит URL-адрес домашней страницы поставщика услуг Интернета.  <br/> |
-|[Протокол (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к серверу клиентского доступа.  <br/> |
-|[Публикфолдеринформатион (POX)](publicfolderinformation-pox.md) <br/> |Содержит сведения, которые клиенты могут использовать для отправки запроса на автообнаружение для обнаружения сведений о общедоступных папках для пользователя.  <br/> |
-|[Ошибка (POX)](error-pox.md) <br/> |Содержит ответ об ошибке автообнаружения.  <br/> |
+|[Action (POX)](action-pox.md) <br/> |Предоставляет сведения, которые используются для определения того, требуется ли другой запрос автооткрытия для возврата сведений о конфигурации пользователя.  <br/> |
+|[MicrosoftOnline (POX)](microsoftonline-pox.md) <br/> |Содержит значение, которое указывает, размещен ли почтовый ящик пользователя в Exchange Online или Exchange Online в Office 365.  <br/> |
+|[RedirectUrl (POX)](redirecturl-pox.md) <br/> |Содержит URL-адрес компьютера, на Exchange Server который установлена роль сервера клиентского доступа, который следует использовать для получения параметров автооткрытия.  <br/> |
+|[RedirectAddr (POX)](redirectaddr-pox.md) <br/> |Указывает адрес электронной почты, который следует использовать для последующего запроса автооткрытия.  <br/> |
+|[Image (POX)](image-pox.md) <br/> |Содержит путь изображения, используемого для брендинга работы конфигурации.  <br/> |
+|[ServiceHome (POX)](servicehome-pox.md) <br/> |Содержит URL-адрес домашней страницы поставщика интернет-услуг (ISP).  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к серверу клиентского доступа.  <br/> |
+|[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Содержит сведения, которые клиенты могут использовать для отправки запроса автооткрытия для обнаружения общедоступных папок для пользователя.  <br/> |
+|[Error (POX)](error-pox.md) <br/> |Содержит ответ на ошибку автонаруже.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ответ (POX)](response-pox.md) <br/> |Содержит ответ от службы автообнаружения.  <br/> |
+|[Response (POX)](response-pox.md) <br/> |Содержит ответ от службы автооткрытия.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

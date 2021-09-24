@@ -1,23 +1,23 @@
 ---
-title: радиофонес
+title: RadioPhones
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea650c84-0b3e-4099-bb76-9619949b4092
-description: Элемент Радиофонес указывает массив телефонных номеров радио и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: d77980c40e3b87bab9a3d82ead079cc5dd651d33
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RadioPhones указывает массив номеров радио телефонов и идентификаторы их исходных атрибуций для связанной персоны.
+ms.openlocfilehash: 1253016c12e2db0e41f9b2742cbf31bdeb5e0d31
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461634"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512550"
 ---
-# <a name="radiophones"></a>радиофонес
+# <a name="radiophones"></a>RadioPhones
 
-Элемент **радиофонес** указывает массив телефонных номеров радио и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **RadioPhones** указывает массив номеров радио телефонов и идентификаторы их исходных атрибуций для связанной персоны. 
   
 ```XML
 <RadioPhones>
@@ -25,24 +25,24 @@ ms.locfileid: "44461634"
 </RadioPhones>
 ```
 
- **аррайоффоненумбераттрибутедвалуестипе**
+ **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[фоненумбераттрибутедвалуе](phonenumberattributedvalue.md)
+[PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44461634"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

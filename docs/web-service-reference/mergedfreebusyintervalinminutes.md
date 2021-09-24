@@ -1,33 +1,33 @@
 ---
-title: мержедфрибусинтервалинминутес
+title: MergedFreeBusyIntervalInMinutes
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MergedFreeBusyIntervalInMinutes
 api_type:
 - schema
 ms.assetid: 481cdbc6-d5aa-49fa-a3fa-9d119d3dca99
-description: Элемент Мержедфрибусинтервалинминутес представляет разницу во времени между двумя последовательными слотами в представлении Фрибусимержед.
-ms.openlocfilehash: 6228ee5b66202634e6bb3b6c1ad6b8897a109d58
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MergedFreeBusyIntervalInMinutes представляет разницу во времени между двумя последовательными слотами в представлении FreeBusyMerged.
+ms.openlocfilehash: 543a631ffe85e50e3efe84fb8109b190a276ed8f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468791"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532392"
 ---
-# <a name="mergedfreebusyintervalinminutes"></a>мержедфрибусинтервалинминутес
+# <a name="mergedfreebusyintervalinminutes"></a>MergedFreeBusyIntervalInMinutes
 
-Элемент **мержедфрибусинтервалинминутес** представляет разницу во времени между двумя последовательными слотами в представлении **фрибусимержед** . 
+Элемент **MergedFreeBusyIntervalInMinutes** представляет разницу во времени между двумя последовательными слотами в **представлении FreeBusyMerged.** 
   
-[жетусераваилабилитирекуест](getuseravailabilityrequest.md)
+[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[фрибусивиевоптионс](freebusyviewoptions.md)
+[FreeBusyViewOptions](freebusyviewoptions.md)
   
-[мержедфрибусинтервалинминутес](mergedfreebusyintervalinminutes.md)
+[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)
   
 ```xml
 <MergedFreeBusyIntervalInMinutes>...</MergedFreeBusyIntervalInMinutes>
@@ -36,29 +36,29 @@ ms.locfileid: "44468791"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фрибусивиевоптионс](freebusyviewoptions.md) <br/> |Указывает тип сведений о доступности, возвращаемых в ответе.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
+|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Указывает тип бесплатных и загруженных сведений, возвращаемой в ответе.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Текстовое значение представляет время в минутах. Значение по умолчанию  30 минут. Шесть минут — это минимальный интервал и один день (1440 минут) — это максимальный интервал для этого элемента.
+Требуется текстовое значение. Текстовое значение представляет время в минутах. Значение по умолчанию  30 минут. Шесть минут — это минимальный интервал, а один день (1440 минут) — максимальный интервал для этого элемента.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Это значение используется только в том случае, если элемент [рекуестедвиев](requestedview.md) равен **мержедонли**, **фрибусимержед**или **детаиледмерже**. Это тип данных Integer. Поток, содержащий интервалы, заданные этим элементом, возвращается в элементе [мержедфрибуси](mergedfreebusy.md) . 
+Это значение используется только в том случае, если элемент [RequestedView](requestedview.md) равен **MergedOnly,** **FreeBusyMerged** или **DetailedMerge.** Это тип данных в виде integer. Поток, содержащий интервалы, определенные этим элементом, возвращается в [элементе MergedFreeBusy.](mergedfreebusy.md) 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -66,7 +66,7 @@ ms.locfileid: "44468791"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

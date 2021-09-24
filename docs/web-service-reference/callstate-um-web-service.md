@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CallState
 api_type:
 - schema
 ms.assetid: 88670707-12f7-41c5-ac81-dda0c354a2cb
 description: Элемент CallState содержит значение, которое указывает состояние вызова.
-ms.openlocfilehash: 44614c460286ff49ebc2373263c1827c6be5cc08
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9435124e98cfb75beab5917c1e832096ca193e0c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454612"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519970"
 ---
 # <a name="callstate-um-web-service"></a>CallState (веб-служба единой системы обмена сообщениями)
 
@@ -53,11 +53,11 @@ ms.locfileid: "44454612"
 
 Требуется текстовое значение. Ниже перечислены возможные значения.
   
-- Бездействие
+- Idle
     
 - Connecting
     
-- Оповещение
+- Оповещено
     
 - Подключение
     
@@ -67,7 +67,7 @@ ms.locfileid: "44454612"
     
 - Перенос
     
-- Переад вперед
+- Переададка
     
 ## <a name="element-information"></a>Сведения об элементе
 
