@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 37ad46ab-7817-4fdd-ad2d-26cb525cd96b
-description: Элемент PublicFolderServer содержит полное доменное имя сервера общедоступных папок для пользователя.
-ms.openlocfilehash: 868eab83d05387f570bc033522121f25f09817c4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PublicFolderServer содержит полное доменное имя (FQDN) сервера общедоступных папок для пользователя.
+ms.openlocfilehash: d81d7cdc10cdf0c5f06e9c4bf9e1c8a089de293d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433688"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542955"
 ---
 # <a name="publicfolderserver-pox"></a>PublicFolderServer (POX)
 
-Элемент **PublicFolderServer** содержит полное доменное имя сервера общедоступных папок для пользователя. 
+Элемент **PublicFolderServer** содержит полное доменное имя (FQDN) сервера общедоступных папок для пользователя. 
   
 [AutoDiscover (POX)](autodiscover-pox.md)
   
@@ -48,19 +48,19 @@ ms.locfileid: "44433688"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на Microsoft Exchange Server с установленной ролью сервера клиентского доступа.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Содержит спецификации для подключения клиента к компьютеру, на Microsoft Exchange Server установлена роль сервера клиентского доступа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет имя FQDN сервера общедоступных папок для пользователя.
+Текстовое значение представляет FQDN сервера общедоступных папок для пользователя.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **PublicFolderServer** является необязательным дополнительным элементом элемента **Protocol.** 
+Элемент **PublicFolderServer** является необязательным детским элементом **элемента Protocol.** 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

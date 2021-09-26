@@ -1,57 +1,57 @@
 ---
-title: Басешапе (Превиевитембасешапетипе)
+title: BaseShape (PreviewItemBaseShapeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b9e2fdd-5678-4178-9297-7f12a3ca9d64
-description: Элемент Басешапе указывает либо предварительный просмотр по умолчанию, и все возвращенные свойства, либо режим Compact Preview с меньшим количеством возвращаемых свойств.
-ms.openlocfilehash: 29f008840d649f97dfb299fee8e7bf5aaa573404
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент BaseShape указывает либо предварительный просмотр по умолчанию со всеми возвращенными свойствами, либо компактный предварительный просмотр с меньшем количеством возвращенных свойств.
+ms.openlocfilehash: b30922a5f8e11200679ffe5aa813d3a0e5f4578e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527420"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545694"
 ---
-# <a name="baseshape-previewitembaseshapetype"></a>Басешапе (Превиевитембасешапетипе)
+# <a name="baseshape-previewitembaseshapetype"></a>BaseShape (PreviewItemBaseShapeType)
 
-Элемент **басешапе** указывает либо предварительный просмотр по умолчанию, и все возвращенные свойства, либо режим Compact Preview с меньшим количеством возвращаемых свойств. 
+Элемент **BaseShape** указывает либо предварительный просмотр по умолчанию со всеми возвращенными свойствами, либо компактный предварительный просмотр с меньшем количеством возвращенных свойств. 
   
 ```XML
 <BaseShape> Default | Compact</BaseShape>
 ```
 
- **превиевитембасешапетипе**
+ **PreviewItemBaseShapeType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[превиевитемреспонсешапе](previewitemresponseshape.md) <br/> |Содержит форму отклика.  <br/> |
+|[PreviewItemResponseShape](previewitemresponseshape.md) <br/> |Содержит форму ответа.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-**Текстовые значения элементов Басешапе**
+**Текстовые значения элемента BaseShape**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|По умолчанию  <br/> |Указывает, что отображаются все свойства.  <br/> |
-|Компактный  <br/> |Указывает, что отображаются только выбранные свойства.  <br/> |
+|По умолчанию  <br/> |Указывает, что все свойства показаны.  <br/> |
+|Compact  <br/> |Указывает, что показаны только выбранные свойства.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -63,7 +63,7 @@ ms.locfileid: "44527420"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

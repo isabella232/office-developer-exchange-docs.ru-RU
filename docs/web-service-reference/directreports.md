@@ -5,15 +5,15 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab88739f-9018-4887-ae46-f1471242628c
 description: Элемент DirectReports содержит сведения SMTP, идентифицирующие прямые отчеты контакта.
-ms.openlocfilehash: 216f6e99a3caf46f9d3bc792dcb4641c3681a9fb
-ms.sourcegitcommit: 63e48eaf2891a6db1a718b55cd69e3a0433c4a9c
+ms.openlocfilehash: a84e37836b645ec679208094ed893d04793f01d2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "58851109"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542353"
 ---
 # <a name="directreports"></a>DirectReports
 
@@ -46,7 +46,7 @@ ms.locfileid: "58851109"
 |:-----|:-----|
 |[Contact](contact.md) <br/> |Представляет контактный элемент в Exchange магазине.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   

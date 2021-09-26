@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54fcd4ab-bfab-4b69-9841-d2ac827f4d45
-description: Элемент BusinessName указывает название организации.
-ms.openlocfilehash: cea37d61b9614084db7cf9532e5e55ec4f438554
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент BusinessName указывает имя бизнеса.
+ms.openlocfilehash: 71f9942e8dbe872168d0f5001ca2e9f1f468cb64
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527203"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545596"
 ---
 # <a name="businessname"></a>BusinessName
 
-Элемент **BusinessName** указывает название организации. 
+Элемент **BusinessName** указывает имя бизнеса. 
   
 ```XML
 <BusinessName></BusinessName>
@@ -26,27 +26,27 @@ ms.locfileid: "44527203"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Контактное лицо (Контакттипе)](contact-contacttype.md) <br/> |Указывает контакт в едином хранилище контактов.  <br/> |
+|[Contact (ContactType)](contact-contacttype.md) <br/> |Указывает контакт в Едином магазине контактов.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **BusinessName** — имя предприятия. 
+Текстовое значение элемента **BusinessName** — это имя бизнеса. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44527203"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

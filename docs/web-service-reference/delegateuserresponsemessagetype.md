@@ -1,27 +1,27 @@
 ---
-title: делегатеусерреспонсемессажетипе
+title: DelegateUserResponseMessageType
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DelegateUserResponseMessageType
 api_type:
 - schema
 ms.assetid: 3dc9552c-1e2d-40ac-a137-827883c2bb88
-description: Элемент Делегатеусерреспонсемессажетипе содержит ответное сообщение для одного делегированного пользователя.
-ms.openlocfilehash: d7addac2ef05d50e0043490ac20d299ece7d577b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DelegateUserResponseMessageType содержит сообщение ответа для одного пользователя-делегата.
+ms.openlocfilehash: 7318c80d72022384ca4f0352ec85f68aeede8e22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457384"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545470"
 ---
-# <a name="delegateuserresponsemessagetype"></a>делегатеусерреспонсемессажетипе
+# <a name="delegateuserresponsemessagetype"></a>DelegateUserResponseMessageType
 
-Элемент **делегатеусерреспонсемессажетипе** содержит ответное сообщение для одного делегированного пользователя. 
+Элемент **DelegateUserResponseMessageType** содержит сообщение ответа для одного пользователя-делегата. 
   
 ```xml
 <DelegateUserResponseMessageType>
@@ -33,35 +33,35 @@ ms.locfileid: "44457384"
 </DelegateUserResponseMessageType>
 ```
 
-**делегатеусерреспонсемессажетипе**
+**DelegateUserResponseMessageType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[мессажетекст](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
-|[респонсекоде](responsecode.md) <br/> |Предоставляет код ошибки, определяющий конкретную ошибку, обнаруженную в запросе.  <br/> |
-|[дескриптивелинккэй](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервировано для последующего использования. Он содержит значение 0.  <br/> |
-|[мессажексмл](messagexml.md) <br/> |Предоставляет дополнительные сведения об ошибке.  <br/> |
-|[делегатеусер](delegateuser.md) <br/> |Определяет один делегат, который возвращается в ответе управления представителями.  <br/> |
+|[MessageText](messagetext.md) <br/> |Предоставляет текстовое описание состояния отклика.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Предоставляет код ошибки, определяющий конкретную ошибку, с которой столкнулся запрос.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |В настоящее время не используется и зарезервирован для последующего применения. Содержит значение 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Предоставляет дополнительные сведения об отклике с ошибкой.  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |Определяет одного делегата, возвращаемого в ответе управления делегатом.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Респонсемессажес (Аррайофделегатеусерреспонсемессажетипе)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Содержит ответные сообщения для запроса управления делегированием веб-служб Exchange.  <br/> |
+|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Содержит сообщения ответа для запроса Exchange веб-служб.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором установлен сервер Exchange Server с установленной ролью сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в виртуальном каталоге компьютера EWS, который Exchange Server с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -69,7 +69,7 @@ ms.locfileid: "44457384"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

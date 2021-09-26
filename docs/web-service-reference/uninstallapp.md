@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a762128-8d5f-4774-8627-49f1dc8ba30d
-description: Элемент UninstallApp указывает запрос на удаление приложения по его идентификатору.
-ms.openlocfilehash: 822a3cb2c0242111c857e50e3c49379b8ed95fe6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UninstallApp указывает запрос на отсоединение приложения его идентификатором.
+ms.openlocfilehash: 7742fe0250329fd0e3b0c030b1d2f255bdbf8f44
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458861"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541835"
 ---
 # <a name="uninstallapp"></a>UninstallApp
 
-Элемент **UninstallApp** указывает запрос на удаление приложения по его идентификатору. 
+Элемент **UninstallApp** указывает запрос на отсоединение приложения его идентификатором. 
   
 ```XML
 <UninstallApp>
@@ -25,14 +25,14 @@ ms.locfileid: "44458861"
 </UninstallApp>
 ```
 
- **унинсталлапптипе**
+ **UninstallAppType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -42,7 +42,7 @@ ms.locfileid: "44458861"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44458861"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

@@ -1,40 +1,40 @@
 ---
-title: Адрес (Нонемптистрингтипе)
+title: ImAddress (NonEmptyStringType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13c7b0cc-f506-490b-adaa-3d01fc2400eb
-description: Элемент address содержит адрес обмена мгновенными сообщениями нового контакта, который будет добавлен в группу мгновенных сообщений.
-ms.openlocfilehash: eac3b6494f3f52dec007171462a95f9d7306530e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ImAddress содержит адрес обмена мгновенными сообщениями нового контакта, который будет добавлен в группу обмена мгновенными сообщениями.
+ms.openlocfilehash: 241ff33369a10f493d63da48e4ab80974780de0e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457608"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542248"
 ---
-# <a name="imaddress-nonemptystringtype"></a>Адрес (Нонемптистрингтипе)
+# <a name="imaddress-nonemptystringtype"></a>ImAddress (NonEmptyStringType)
 
-Элемент **Address** содержит адрес обмена мгновенными сообщениями нового контакта, который будет добавлен в группу мгновенных сообщений. 
+Элемент **ImAddress содержит** адрес обмена мгновенными сообщениями нового контакта, который будет добавлен в группу обмена мгновенными сообщениями. 
   
 ```XML
 <ImAddress></ImAddress>
 ```
 
- **нонемптистрингтипе**
+ **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44457608"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Address** является адресом для обмена мгновенными сообщениями. 
+Текстовое значение элемента **ImAddress** — это адрес обмена мгновенными сообщениями. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44457608"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

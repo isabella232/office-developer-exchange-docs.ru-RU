@@ -1,68 +1,68 @@
 ---
-title: деливеристатус
+title: DeliveryStatus
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeliveryStatus
 api_type:
 - schema
 ms.assetid: eab55db3-affb-42be-a586-5caa04052433
-description: Элемент Деливеристатус указывает состояние сообщения.
-ms.openlocfilehash: ae32202284d3dd272f693fbb7b76070cb6019d28
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DeliveryStatus указывает состояние сообщения.
+ms.openlocfilehash: f11952f401e0d22d780725598bfb32cbd3a8d622
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461403"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543389"
 ---
-# <a name="deliverystatus"></a>деливеристатус
+# <a name="deliverystatus"></a>DeliveryStatus
 
-Элемент **деливеристатус** указывает состояние сообщения. 
+Элемент **DeliveryStatus** указывает состояние сообщения. 
   
 ```XML
 <DeliveryStatus>Unsuccessful | Pending | Delivered | Transferred | Read</DeliveryStatus>
 ```
 
- **мессажетраккингделиверистатустипе**
+ **MessageTrackingDeliveryStatusType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[реЦипиенттраккинжевент](recipienttrackingevent.md) <br/> |Содержит сведения об отдельном событии получателя.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Содержит сведения для одного события для получателя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные текстовые значения для элемента **деливеристатус** . 
+В следующей таблице перечислены возможные текстовые значения элемента **DeliveryStatus.** 
   
-**Значения элементов Деливеристатус**
+**Значения элементов DeliveryStatus**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Безуспешных  <br/> |Указывает, что сообщение не было доставлено.  <br/> |
-|Pending  <br/> |Указывает, что сообщение ожидает утверждения модератором.  <br/> |
-|Отобран  <br/> |Указывает, что сообщение было доставлено всем указанным получателям.  <br/> |
-|Скопирован  <br/> |Указывает, что сообщение было передано на сервер за пределами области поиска.  <br/> |
-|Чтение  <br/> |Указывает, что сообщение было доставлено и Прочитано получателями.  <br/> |
+|Неудачный результат  <br/> |Указывает, что сообщение не было доставлено.  <br/> |
+|Рассмотрение  <br/> |Указывает, что сообщение ожидает утверждения от модератора.  <br/> |
+|Доставлено  <br/> |Указывает, что сообщение было доставлено всем указанным получателям.  <br/> |
+|Перенесено  <br/> |Указывает, что сообщение было передано на сервер вне области поиска.  <br/> |
+|Чтение  <br/> |Указывает, что сообщение было доставлено и прочитано получателями.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **деливеристатус** имел тип **Мессажетраккингделиверистатустипе** в Exchange Server 2010. 
+Элемент **DeliveryStatus** был типа **MessageTrackingDeliveryStatusType** в Exchange Server 2010 г. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -72,7 +72,7 @@ ms.locfileid: "44461403"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

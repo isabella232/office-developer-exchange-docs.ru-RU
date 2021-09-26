@@ -1,27 +1,27 @@
 ---
-title: мессажеклассификатионс
+title: MessageClassifications
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageClassifications
 api_type:
 - schema
 ms.assetid: 041b3d48-8f43-47f3-869f-72b66bef372a
-description: Элемент Мессажеклассификатионс представляет классификации сообщений, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение.
-ms.openlocfilehash: 63481aa8903c4e9637870130eb9154118471c3b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MessageClassifications представляет классификации сообщений, которые необходимо маркировать на входящих сообщениях, чтобы применить условие или исключение.
+ms.openlocfilehash: 88ccd4be40d66de2fec859de67aa0e365f451bd4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467972"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542087"
 ---
-# <a name="messageclassifications"></a>мессажеклассификатионс
+# <a name="messageclassifications"></a>MessageClassifications
 
-Элемент **мессажеклассификатионс** представляет классификации сообщений, которые должны быть помечены для входящих сообщений, чтобы применить условие или исключение. 
+Элемент **MessageClassifications** представляет классификации сообщений, которые необходимо маркировать на входящих сообщениях, чтобы применить условие или исключение. 
   
 ```XML
 <MessageClassifications>
@@ -29,10 +29,10 @@ ms.locfileid: "44467972"
 </MessageClassifications>
 ```
 
- **аррайофстрингстипе**
+ **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -55,7 +55,7 @@ ms.locfileid: "44467972"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44467972"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

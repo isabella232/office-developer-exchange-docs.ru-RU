@@ -1,21 +1,21 @@
 ---
-title: Маркер (Клиентакцесстокентипе)
+title: Token (ClientAccessTokenType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cddd6075-06b6-4858-9ffa-9db4d9d9b030
 description: Элемент Token указывает маркер клиентского доступа.
-ms.openlocfilehash: d195e81d8d20eb2288e921c640c7b2898a5341ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b9cd0887d082c2ddd9abe0505ebec993f0261fad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467867"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545736"
 ---
-# <a name="token-clientaccesstokentype"></a>Маркер (Клиентакцесстокентипе)
+# <a name="token-clientaccesstokentype"></a>Token (ClientAccessTokenType)
 
 Элемент **Token** указывает маркер клиентского доступа. 
   
@@ -28,24 +28,24 @@ ms.locfileid: "44467867"
 </Token>
 ```
 
- **клиентакцесстокентипе**
+ **ClientAccessTokenType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ID (строка)](id-string.md)  |  [Токентипе](tokentype.md)  |  [Токенвалуе](tokenvalue.md)  |  [Срок жизни](ttl.md)
+[ID (String)](id-string.md)  |  [TokenType](tokentype.md)  |  [TokenValue](tokenvalue.md)  |  [TTL](ttl.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[жетклиентакцесстокенреспонсемессаже](getclientaccesstokenresponsemessage.md)
+[GetClientAccessTokenResponseMessage](getclientaccesstokenresponsemessage.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44467867"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

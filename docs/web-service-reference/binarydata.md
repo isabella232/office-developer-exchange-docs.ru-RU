@@ -1,27 +1,27 @@
 ---
-title: бинаридата
+title: BinaryData
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BinaryData
 api_type:
 - schema
 ms.assetid: 57e9fba3-5751-4c37-b0c8-ac6dde1c7544
-description: Элемент Бинаридата содержит содержимое свойства двоичных данных.
-ms.openlocfilehash: 8f7f62e37613ef74aa760014cf27291b80cca127
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент BinaryData содержит содержимое свойства двоичных данных.
+ms.openlocfilehash: 2fb81e5abd3c0f1a052423c8e4d5989791edf144
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545645"
 ---
-# <a name="binarydata"></a>бинаридата
+# <a name="binarydata"></a>BinaryData
 
-Элемент **бинаридата** содержит содержимое свойства двоичных данных. 
+Элемент **BinaryData содержит** содержимое свойства двоичных данных. 
   
 ```xml
 <BinaryData/>
@@ -30,27 +30,27 @@ ms.locfileid: "44527413"
  **Base64Binary**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[усерконфигуратион](userconfiguration.md) <br/> |Определяет один объект конфигурации пользователя.  <br/> |
+|[UserConfiguration](userconfiguration.md) <br/> |Определяет один объект конфигурации пользователя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Элемент **бинаридата** содержит двоичные данные. 
+Элемент **BinaryData содержит** двоичные данные. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44527413"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

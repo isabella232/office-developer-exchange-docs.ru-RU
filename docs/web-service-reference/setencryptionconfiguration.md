@@ -1,41 +1,41 @@
 ---
-title: сетенкриптионконфигуратион
+title: SetEncryptionConfiguration
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8beccc00-3515-4ecd-85f0-c0f2b03e8f7d
-description: Элемент Сетенкриптионконфигуратион предназначен только для внутреннего использования.
-ms.openlocfilehash: a4f0d2118fbefb5ed345a96b4760e5eb152a604e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SetEncryptionConfiguration предназначен только для внутреннего использования.
+ms.openlocfilehash: 9edb92e4bdabf895b67d1510f2dd77d99f89395c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459022"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541849"
 ---
-# <a name="setencryptionconfiguration"></a>сетенкриптионконфигуратион
+# <a name="setencryptionconfiguration"></a>SetEncryptionConfiguration
 
-Элемент **сетенкриптионконфигуратион** предназначен только для внутреннего использования. 
+Элемент **SetEncryptionConfiguration** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013 с пакетом обновления 1 (SP1).
   

@@ -1,23 +1,23 @@
 ---
-title: драфтитемидс
+title: DraftItemIds
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c228f7e7-6dc8-476d-9b8c-99cd5b6f9f0c
-description: Элемент Драфтитемидс содержит массив идентификаторов элементов для черновиков элементов в беседе.
-ms.openlocfilehash: 5e635e354c9d2d768bab5efaafafde272fe568d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DraftItemIds содержит массив идентификаторов элементов для разработки элементов в беседе.
+ms.openlocfilehash: 9c114e509418138d442ae2cf20278cda410bf9dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463575"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541443"
 ---
-# <a name="draftitemids"></a>драфтитемидс
+# <a name="draftitemids"></a>DraftItemIds
 
-Элемент **драфтитемидс** содержит массив идентификаторов элементов для черновиков элементов в беседе. 
+Элемент **DraftItemIds содержит** массив идентификаторов элементов для разработки элементов в беседе. 
   
 ```XML
 <DraftItemIds>
@@ -28,24 +28,24 @@ ms.locfileid: "44463575"
 </DraftItemIds>
 ```
 
- **нонемптяррайофбасеитемидстипе**
+ **NonEmptyArrayOfBaseItemIdsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ItemId](itemid.md)  |  [Оккурренцеитемид](occurrenceitemid.md)  |  [Рекуррингмастеритемид](recurringmasteritemid.md)  |  [Рекуррингмастеритемидранжес](recurringmasteritemidranges.md)
+[ItemId](itemid.md)  |  [OccurrenceItemId](occurrenceitemid.md)  |  [RecurringMasterItemId](recurringmasteritemid.md)  |  [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44463575"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

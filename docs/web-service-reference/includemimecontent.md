@@ -1,27 +1,27 @@
 ---
-title: инклудемимеконтент
+title: IncludeMimeContent
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IncludeMimeContent
 api_type:
 - schema
 ms.assetid: 3f3c2300-55cd-41c0-900e-b470b290d52f
-description: Элемент Инклудемимеконтент указывает, будет ли в ответе возвращаться содержимое MIME для элемента или вложения.
-ms.openlocfilehash: 6198e4bef2dc59e6e56a8d3cbe463dad13e544e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IncludeMimeContent указывает, возвращается ли в ответ многоцелевой контент расширения интернет-почты (MIME) элемента или вложения.
+ms.openlocfilehash: 04d015ea450907f3968200dcbb6f411eb6343681
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457195"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542178"
 ---
-# <a name="includemimecontent"></a>инклудемимеконтент
+# <a name="includemimecontent"></a>IncludeMimeContent
 
-Элемент **инклудемимеконтент** указывает, будет ли в ответе ВОЗВРАЩАТЬСЯ содержимое MIME для элемента или вложения. 
+Элемент **IncludeMimeContent** указывает, возвращается ли в ответ многоцелевой контент расширения интернет-почты (MIME) элемента или вложения. 
   
 ```xml
 <IncludeMimeContent>true or false</IncludeMimeContent>
@@ -30,28 +30,28 @@ ms.locfileid: "44457195"
  **boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аттачментшапе](attachmentshape.md) <br/> | Определяет дополнительные свойства, возвращаемые в ответе на запрос [GetAttachment](getattachment.md) .  <br/> <br/> Ниже приведено выражение XPath для этого элемента:  <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
-|[итемшапе](itemshape.md) <br/> | Определяет свойства и контент элемента, включаемые в ответ GetItem, FindItem или SyncFolderItems.  <br/> <br/> Ниже приведены выражения XPath для этого элемента.<br/>  <br/>  `/GetItem/ItemShape` <br/><br/>  `/FindItem/ItemShape` <br/><br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> | Определяет дополнительные свойства, возвращаемые в ответ на запрос [GetAttachment.](getattachment.md)  <br/> <br/> Ниже приводится выражение XPath к этому элементу:  <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Определяет свойства и содержимое элемента, которые необходимо включить в ответ GetItem, FindItem или SyncFolderItems.  <br/> <br/> Ниже приводится выражение XPath к этому элементу:<br/>  <br/>  `/GetItem/ItemShape` <br/><br/>  `/FindItem/ItemShape` <br/><br/>  `/SyncFolderItems/ItemShape` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Этот элемент может иметь **значение true** или **false**. Значение по умолчанию — **false**. Это логический тип данных.
+Этот элемент может быть как **true, так** и **false**. Значение по умолчанию — **false**. Это тип данных Boolean.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент является необязательным.
   
@@ -59,7 +59,7 @@ ms.locfileid: "44457195"
   
 ## <a name="example"></a>Пример
 
-В приведенном ниже примере запроса показано, как задать элемент **инклудемимеконтент** . 
+В следующем примере запроса показано, как установить элемент **IncludeMimeContent.** 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -82,7 +82,7 @@ ms.locfileid: "44457195"
 </soap:Envelope>
 ```
 
-Атрибут идентификатора вложения усекается для сохранения удобочитаемости.
+Атрибут Id вложения усечен для сохранения читаемости.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -90,7 +90,7 @@ ms.locfileid: "44457195"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 

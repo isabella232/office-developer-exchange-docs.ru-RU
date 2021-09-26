@@ -1,44 +1,44 @@
 ---
-title: исассигнментедитабле
+title: IsAssignmentEditable
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsAssignmentEditable
 api_type:
 - schema
 ms.assetid: 0ddf9181-f65e-4ad6-ad69-7b074ea0f2e7
-description: Элемент Исассигнментедитабле представляет тип задачи.
-ms.openlocfilehash: 5eb091b24e2c97f7aa6072044fed998b6c9c1651
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент IsAssignmentEditable представляет тип задачи.
+ms.openlocfilehash: 10676cc8c6196a7294f3550856a47dce7d717e6a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468056"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544952"
 ---
-# <a name="isassignmenteditable"></a>исассигнментедитабле
+# <a name="isassignmenteditable"></a>IsAssignmentEditable
 
-Элемент **исассигнментедитабле** представляет тип задачи. 
+Элемент **IsAssignmentEditable** представляет тип задачи. 
   
 ```xml
 <IsAssignmentEditable/>
 ```
 
- **положительн**
+ **integer**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,18 +48,18 @@ ms.locfileid: "44468056"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Это свойство доступно только для чтения. В приведенной ниже таблице перечислены возможные значения.
+Это свойство доступно только для чтения. В следующей таблице перечислены возможные значения.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|нуль  <br/> |Значение по умолчанию для всех элементов Task.  <br/> |
+|0  <br/> |По умолчанию для всех элементов задач.  <br/> |
 |1   <br/> |Запрос задачи.  <br/> |
 |2  <br/> |Принятие задачи от получателя запроса задачи.  <br/> |
-|4  <br/> |Отклонение задачи от получателя запроса задачи.  <br/> |
-|4   <br/> |Обновление запроса на предыдущую задачу.  <br/> |
-|5   <br/> |Не используется.  <br/> |
+|3   <br/> |Отклонение задачи от получателя запроса задачи.  <br/> |
+|4   <br/> |Обновление предыдущего запроса задачи.  <br/> |
+|5  <br/> |Не используется.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -69,7 +69,7 @@ ms.locfileid: "44468056"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

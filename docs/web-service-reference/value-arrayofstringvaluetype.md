@@ -1,23 +1,23 @@
 ---
-title: Значение (Аррайофстрингвалуетипе)
+title: Value (ArrayOfStringValueType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 83865da6-0bcd-445a-ba3c-0eff481b14ab
-description: Элемент value указывает значение в массиве свойств пользователя, связанных с массивом "атрибуты".
-ms.openlocfilehash: ceca9290ea93a505709d6046d1b6ab8e2c32f4ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Value указывает значение в массиве свойств persona, связанных с массивом атрибуций.
+ms.openlocfilehash: 2a2631debfe3e6000fc6855e8d8859740bad4bcc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467622"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541681"
 ---
-# <a name="value-arrayofstringvaluetype"></a>Значение (Аррайофстрингвалуетипе)
+# <a name="value-arrayofstringvaluetype"></a>Value (ArrayOfStringValueType)
 
-Элемент **value** указывает значение в массиве свойств пользователя, связанных с массивом "атрибуты". 
+Элемент **Value** указывает значение в массиве свойств persona, связанных с массивом атрибуций. 
   
 ```XML
 <Value></Value>
@@ -27,25 +27,25 @@ ms.locfileid: "44467622"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Значения (Аррайофстрингвалуетипе)](values-arrayofstringvaluetype.md)
+[Values (ArrayOfStringValueType)](values-arrayofstringvaluetype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **value** — это значение в массиве свойств пользователя, связанных с массивом "атрибуты". 
+Текстовое значение элемента **Value** — это значение в массиве свойств persona, связанных с массивом атрибуций. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44467622"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

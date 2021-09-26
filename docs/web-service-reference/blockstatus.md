@@ -1,23 +1,23 @@
 ---
-title: блоккстатус
+title: BlockStatus
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08556ee9-0923-437c-99a4-bb630f04e973
-description: Элемент Блоккстатус указывает состояние блокировки элемента.
-ms.openlocfilehash: e88236274bfa70216e872025c2a94231f837df1f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент BlockStatus указывает состояние блока элемента.
+ms.openlocfilehash: e26562ddaecaf49102f6646f004d86b07383888b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462278"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545610"
 ---
-# <a name="blockstatus"></a>блоккстатус
+# <a name="blockstatus"></a>BlockStatus
 
-Элемент **блоккстатус** указывает состояние блокировки элемента. 
+Элемент **BlockStatus** указывает состояние блока элемента. 
   
 ```XML
 <BlockStatus> true | false </BlockStatus
@@ -26,30 +26,30 @@ ms.locfileid: "44462278"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[контакт](contact.md); <br/> |Представляет элемент контакта в хранилище Exchange.  <br/> |
-|[дистрибутионлист](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
-|[Ресурс](item.md) <br/> |Представляет общий элемент в хранилище Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[Contact](contact.md) <br/> |Представляет элемент контакта в Exchange магазине.  <br/> |
+|[DistributionList](distributionlist.md) <br/> |Представляет список рассылки.  <br/> |
+|[Элемент](item.md) <br/> |Представляет универсальный элемент в Exchange магазине.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **блоккстатус** указывает на то, что элемент заблокирован. Значение **false** указывает на то, что элемент не блокируется. 
+Значение текста, **истинное** для **элемента BlockStatus,** указывает на блокировку элемента. Значение false **указывает,** что элемент не заблокирован. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44462278"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

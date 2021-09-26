@@ -1,40 +1,40 @@
 ---
-title: SortOrder (Конверсатионнодесортордер)
+title: SortOrder (ConversationNodeSortOrder)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9c4295c-8089-4533-b92f-2051eae9afeb
-description: Элемент SortOrder указывает порядок сортировки, используемый для результатов запроса GetConversationItems.
-ms.openlocfilehash: 69d362b9f769749bcc9692825b64ff486e8b60a0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SortOrder указывает порядок сортировки, используемый в результате запроса GetConversationItems.
+ms.openlocfilehash: 0091968f1359b0cf744525139b5c6a8cf1687d81
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544677"
 ---
-# <a name="sortorder-conversationnodesortorder"></a>SortOrder (Конверсатионнодесортордер)
+# <a name="sortorder-conversationnodesortorder"></a>SortOrder (ConversationNodeSortOrder)
 
-Элемент **SortOrder** указывает порядок сортировки, используемый для результатов запроса **GetConversationItems** . 
+Элемент **SortOrder** указывает порядок сортировки, используемый в результате запроса **GetConversationItems.** 
   
 ```XML
 <SortOrder>TreeOrderAscending | TreeOrderDescending | DateOrderAscending | DateOrderDescending</SortOrder>
 ```
 
- **конверсатионнодесортордер**
+ **ConversationNodeSortOrder**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44530967"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **SortOrder** — это порядок, в котором упорядочиваются обсуждения. Текстовое значение **триордерасцендинг** указывает, что беседы упорядочиваются в соответствии с деревом бесед в возрастающем порядке. Текстовое значение **триордердесцендинг** указывает, что беседы упорядочиваются по дереву бесед в порядке убывания. Текстовое значение **датеордерасцендинг** указывает, что беседы упорядочиваются в соответствии с датой беседы в возрастающем порядке. Текстовое значение **датеордердесцендинг** указывает, что беседы упорядочиваются в соответствии с датой беседы в убывающем порядке. 
+Текстовое значение элемента **SortOrder** — это порядок, в котором упорядочены беседы. Текстовое значение **TreeOrderAscending** указывает, что беседы заказываться в соответствии с деревом беседы в порядке восходящей. Текстовое значение **TreeOrderDescending** указывает, что беседы заказываться в соответствии с деревом беседы в порядке убывания. Текстовое значение **DateOrderAscending** указывает, что беседы заказываться в соответствии с датой беседы в порядке восходящей. Текстовое значение **DateOrderDescending** указывает, что беседы заказываться в соответствии с датой беседы в порядке убывания. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44530967"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

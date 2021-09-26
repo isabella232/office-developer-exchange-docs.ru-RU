@@ -1,23 +1,23 @@
 ---
-title: Екстендедпропертиес (Нонемптяррайофекстендедфиелдурис)
+title: ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 282ddb7f-00e3-4260-ab85-73fea9317c0e
-description: Элемент Екстендедпропертиес содержит расширенные свойства, используемые для операций с единым хранилищем контактов.
-ms.openlocfilehash: 78580e69c37657d1873ed95a6b3761c6a458e28f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ExtendedProperties содержит расширенные свойства, используемые для операций Единого магазина контактов.
+ms.openlocfilehash: 5b927fc3de291af5058ea8f37de8ee7065d3102e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463120"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543298"
 ---
-# <a name="extendedproperties-nonemptyarrayofextendedfielduris"></a>Екстендедпропертиес (Нонемптяррайофекстендедфиелдурис)
+# <a name="extendedproperties-nonemptyarrayofextendedfielduris"></a>ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)
 
-Элемент **екстендедпропертиес** содержит расширенные свойства, используемые для операций с единым хранилищем контактов. 
+Элемент **ExtendedProperties** содержит расширенные свойства, используемые для операций Единого магазина контактов. 
   
 ```XML
 <ExtendedProperties>
@@ -25,24 +25,24 @@ ms.locfileid: "44463120"
 </ExtendedProperties>
 ```
 
- **нонемптяррайофекстендедфиелдурис**
+ **NonEmptyArrayOfExtendedFieldURIs**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ExtendedProperty (Пастоекстендедфиелдтипе)](extendedproperty-pathtoextendedfieldtype.md)
+[ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [GetImItems](getimitems.md)  |  [GetImItemList](getimitemlist.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44463120"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

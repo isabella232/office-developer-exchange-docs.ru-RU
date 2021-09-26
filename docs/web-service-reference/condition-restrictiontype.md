@@ -1,23 +1,23 @@
 ---
-title: Condition (Рестриктионтипе)
+title: Condition (RestrictionType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4fdb373e-bf1b-4cb0-bbfb-444c6c6cec50
-description: Элемент Condition указывает условие, которое используется для определения конца поиска для операции FindItem или FindConversation.
-ms.openlocfilehash: 00c5b5e615ed9b253c79dae9dc2b89c797853089
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Condition указывает условие, используемое для определения окончания поиска для операции FindItem или FindConversation.
+ms.openlocfilehash: f6292d2d25b9d236d0bb611c41a4cfcf490b6df4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463939"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543529"
 ---
-# <a name="condition-restrictiontype"></a>Condition (Рестриктионтипе)
+# <a name="condition-restrictiontype"></a>Condition (RestrictionType)
 
-Элемент **Condition** указывает условие, которое используется для определения конца поиска для операции **FindItem** или **FindConversation** . 
+Элемент **Condition** указывает условие, используемое для определения окончания поиска для **операции FindItem** или **FindConversation.** 
   
 ```XML
 <Condition>
@@ -25,28 +25,28 @@ ms.locfileid: "44463939"
 </Condition>
 ```
 
- **рестриктионтипе**
+ **RestrictionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сеарчекспрессион](searchexpression.md) <br/> |Абстрактный элемент, представляющий замененный элемент в ограничении.  <br/> |
+|[SearchExpression](searchexpression.md) <br/> |Абстрактный элемент, представляюющий замещающий элемент в пределах ограничения.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сиктокондитионпажеитемвиев](seektoconditionpageitemview.md) <br/> |Определяет условие, используемое для определения конца поиска, начального индекса поиска, максимальных возвращаемых записей и направления поиска для операции **FindItem** или **FindConversation** .  <br/> |
+|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |Определяет условие, используемое для определения конца поиска, начального индекса поиска, максимального возврата записей и направлений поиска для **операции FindItem** или **FindConversation.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44463939"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

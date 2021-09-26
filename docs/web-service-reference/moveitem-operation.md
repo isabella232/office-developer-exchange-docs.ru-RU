@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveItem
 api_type:
 - schema
 ms.assetid: dcf40fa7-7796-4a5c-bf5b-7a509a18d208
-description: Операция MoveItem используется для перемещения одного или нескольких элементов в одну целевую папку.
-ms.openlocfilehash: 6a455e483ad2e5c84b91cfaa7562f4f1ec46a112
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция MoveItem используется для перемещения одного или более элементов в одну папку назначения.
+ms.openlocfilehash: 2d86d06e522e0d42815971c92e754308224f5e8f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465683"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544852"
 ---
 # <a name="moveitem-operation"></a>Операция MoveItem
 
-Операция **MoveItem** используется для перемещения одного или нескольких элементов в одну целевую папку. 
+Операция **MoveItem** используется для перемещения одного или более элементов в одну папку назначения. 
   
 ## <a name="moveitem-request-example"></a>Пример запроса MoveItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **MoveItem** показано, как переместить элемент в папку "Черновики". 
+В следующем примере **запроса MoveItem** показано, как переместить элемент в папку Черновики. 
   
 ### <a name="code"></a>Код
 
@@ -36,10 +36,10 @@ ms.locfileid: "44465683"
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <MoveItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <MoveItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <ToFolderId>
         <t:DistinguishedFolderId Id="drafts"/>
       </ToFolderId>
@@ -53,32 +53,32 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 
 ### <a name="comments"></a>Комментарии
 
-Элемент [тофолдерид](tofolderid.md) указывает папку, в которую будут перемещены элементы. Обратите внимание, что все элементы, перечисленные в коллекции [итемидс](itemids.md) , будут находиться в конечной папке. Для размещения элементов в разных папках назначения необходимо выполнить отдельные вызовы **MoveItem** . 
+Элемент [ToFolderId](tofolderid.md) указывает папку, в которую будут перемещены элементы. Обратите внимание, что все элементы, перечисленные в коллекции [ItemIds,](itemids.md) будут в конечном итоге в папке назначения. Чтобы разместить элементы в разных папках назначения, необходимо сделать отдельные вызовы **MoveItem.** 
   
 > [!NOTE]
-> Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
+> Идентификатор элемента и ключ изменения были сокращены для сохранения читаемости. 
   
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
 - [MoveItem](moveitem.md)
     
-- [тофолдерид](tofolderid.md)
+- [ToFolderId](tofolderid.md)
     
-- [дистингуишедфолдерид](distinguishedfolderid.md)
+- [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [итемидс](itemids.md)
+- [ItemIds](itemids.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="moveitem-response-example"></a>Пример отклика MoveItem
+## <a name="moveitem-response-example"></a>Пример ответа MoveItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **MoveItem** . 
+В следующем примере показан успешный ответ на **запрос MoveItem.** 
   
-В ответном сообщении возвращается идентификатор элемента нового элемента. Идентификаторы элементов не возвращаются в ответах на операции **MoveItem** для нескольких почтовых ящиков или почтовых ящиков в общедоступных папках. 
+Идентификатор элемента нового элемента возвращается в ответное сообщение. Идентификаторы элементов не возвращаются в ответах для кросс-почтовых ящиков или почтовых ящиков в общедоступные операции **MoveItem** папки. 
   
 ### <a name="code"></a>Код
 
@@ -89,12 +89,12 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <MoveItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:MoveItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -112,21 +112,21 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 
 ### <a name="comments"></a>Комментарии
 
-Если перемещение прошло успешно, операция **MoveItem** будет указывать на успешное выполнение. 
+Операция **MoveItem будет** указывать на успешность, если перемещение было успешным. 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [мовеитемреспонсе](moveitemresponse.md)
+- [MoveItemResponse](moveitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [мовеитемреспонсемессаже](moveitemresponsemessage.md)
+- [MoveItemResponseMessage](moveitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Items](items.md)
     

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseObjects
 api_type:
 - schema
 ms.assetid: ad29e064-3f3d-4b7b-aa4c-9ec27326381d
 description: Элемент ResponseObjects содержит коллекцию всех объектов отклика, связанных с элементом в Exchange магазине.
-ms.openlocfilehash: 9f80fd9703dcd7d9293a3a51eccb6cf2b6903064
-ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
+ms.openlocfilehash: 65676bba6a78ce4533eb4dabab51106f9799d625
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58764583"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544803"
 ---
 # <a name="responseobjects"></a>ResponseObjects
 
@@ -47,7 +47,7 @@ ms.locfileid: "58764583"
   
 ### <a name="attributes"></a>Атрибуты
 
-Нет
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -82,7 +82,7 @@ ms.locfileid: "58764583"
 |[RemoveItem](removeitem.md) <br/> |Удаляет элемент из хранилища Exchange.  <br/> |
 |[Задача](task.md) <br/> |Представляет задачу в хранилище Exchange.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   

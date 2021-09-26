@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetInboxRules
 api_type:
 - schema
 ms.assetid: b4b2701a-4a23-4acc-8c75-19f7955ad7ae
-description: Операция GetInboxRules использует веб-службы Exchange для получения правил для папки "Входящие" в почтовом ящике определенного пользователя.
-ms.openlocfilehash: f4c4c03f55c9f32be4a067024f4387888edd5fe9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetInboxRules использует Exchange веб-службы для получения правил входящие в почтовый ящик идентифицированного пользователя.
+ms.openlocfilehash: 3e312ed08494b92c212595d081454b5f2ca6117e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457937"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546254"
 ---
 # <a name="getinboxrules-operation"></a>Операция GetInboxRules
 
-Операция **GetInboxRules** использует веб-службы Exchange для получения правил для папки "Входящие" в почтовом ящике определенного пользователя. 
+Операция **GetInboxRules** использует Exchange веб-службы для получения правил "Входящие" в почтовом ящике идентифицированного пользователя. 
   
 ## <a name="getinboxrules-request-example"></a>Пример запроса GetInboxRules
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан XML-код запроса, который клиент отправляет на сервер. Запрос идентифицирует пользователя в элементе [маилбокссмтпаддресс](mailboxsmtpaddress.md) . Все правила для папки "Входящие" для указанного пользователя возвращаются в ответе. 
+В следующем примере показан XML-запрос, который клиент отправляет на сервер. Запрос идентифицирует пользователя в [элементе MailboxSmtpAddress.](mailboxsmtpaddress.md) Все правила почтового ящика для идентифицированного пользователя должны быть возвращены в ответе. 
   
 ### <a name="code"></a>Код
 
@@ -48,20 +48,20 @@ ms.locfileid: "44457937"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
-Запрос включает следующий необязательный элемент:
+Запрос включает в себя следующий необязательный элемент:
   
-- [маилбокссмтпаддресс](mailboxsmtpaddress.md)
+- [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
 ## <a name="successful-getinboxrules-response-example"></a>Пример успешного ответа GetInboxRules
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере кода для протокола SOAP показан успешный ответ на запрос **GetInboxRules** . В этом примере ответ включает одно правило. 
+В следующем примере Протокол SOAP (SOAP) показан успешный ответ на запрос **GetInboxRules.** В этом примере ответ включает одно правило. 
   
 > [!NOTE]
-> Значения **ID** и атрибуты **чанжекэй** элемента [FolderId](folderid.md) были сокращены для сохранения удобочитаемости. 
+> Для сохранения читаемости были сокращены значения **Id** и **атрибутов ChangeKey** элемента [FolderId.](folderid.md) 
   
 ### <a name="code"></a>Код
 
@@ -107,17 +107,17 @@ ms.locfileid: "44457937"
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Элементы Response
+### <a name="response-elements"></a>Элементы ответа
 
-В ответ включаются следующие элементы:
+В ответ включены следующие элементы:
   
-- [жетинбоксрулесреспонсе](getinboxrulesresponse.md)
+- [GetInboxRulesResponse](getinboxrulesresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [аутлукрулеблобексистс](outlookruleblobexists.md)
+- [OutlookRuleBlobExists](outlookruleblobexists.md)
     
-- [инбоксрулес](inboxrules.md)
+- [InboxRules](inboxrules.md)
     
 ## <a name="see-also"></a>См. также
 

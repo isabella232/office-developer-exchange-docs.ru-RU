@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cdabfcb-7658-4c7d-bb03-1e776ed11e43
-description: Элемент EmailAddress указывает полностью разрешенный SMTP-адрес почтового ящика сайта или связанного пользователя.
-ms.openlocfilehash: 8b04b75e91cc16be7f88c9a0ac08c5e36855056e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент EmailAddress указывает полностью решенный SMTP-адрес для почтового ящика сайта или связанного с ним лица.
+ms.openlocfilehash: 76b279a82f6f277d9f231866437359ceae46df59
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545260"
 ---
 # <a name="emailaddress-emailaddresstype"></a>EmailAddress (EmailAddressType)
 
-Элемент **EmailAddress** указывает полностью РАЗРЕШЕННЫЙ SMTP-адрес почтового ящика сайта или связанного пользователя. 
+Элемент **EmailAddress** указывает полностью решенный SMTP-адрес для почтового ящика сайта или связанного с ним лица. 
   
 ```xml
 <EmailAddress>
@@ -32,37 +32,37 @@ ms.locfileid: "44463463"
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Имя (строка)](name-string.md) <br/> |Задает имя или ключ уточнения поиска или имя пользователя электронной почты.  <br/> |
-|[EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md) <br/> |Определяет основной SMTP-адрес пользователя почтового ящика.  <br/> |
-|[Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md) <br/> |Указывает тип маршрутизации адреса электронной почты.  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |Представляет тип почтового ящика, представленного адресом электронной почты.  <br/> |
-|[Идентификатор](itemid.md) <br/> |Содержит уникальный идентификатор и ключ изменения элемента в хранилище Exchange.  <br/> |
+|[Name (строка)](name-string.md) <br/> |Указывает имя или ключ поиска или имя пользователя электронной почты.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Определяет основной SMTP-адрес пользователя почтового ящика.  <br/> |
+|[RoutingType (EmailAddressType)](routingtype-emailaddresstype.md) <br/> |Указывает тип маршрутивки адреса электронной почты.  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |Представляет тип почтового ящика, который представлен адресом электронной почты.  <br/> |
+|[ItemId](itemid.md) <br/> |Содержит уникальный идентификатор и ключ изменения элемента в Exchange магазине.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент является необязательным.
   
-Элемент **EmailAddress** применяется для клиентов, которые ориентированы на Exchange Online и версии Microsoft Exchange Server, начиная с Exchange 2013. 
+Элемент **EmailAddress** применим для клиентов, которые Exchange Online и версии Microsoft Exchange Server начиная с Exchange 2013 года. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -70,7 +70,7 @@ ms.locfileid: "44463463"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

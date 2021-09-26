@@ -1,37 +1,37 @@
 ---
-title: Операция CreateItem (Contact)
+title: Операция CreateItem (контакт)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 417e994b-0a17-4c24-9527-04796b80b029
-description: Операция CreateItem используется для создания контактов в хранилище Exchange.
-ms.openlocfilehash: e1d78392b94d328cf687655cd93e6c9568f6274f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция CreateItem используется для создания контактов в Exchange магазине.
+ms.openlocfilehash: ced103046214830db868f4c62583e73297146d25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457125"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545505"
 ---
-# <a name="createitem-operation-contact"></a>Операция CreateItem (Contact)
+# <a name="createitem-operation-contact"></a>Операция CreateItem (контакт)
 
-Операция CreateItem используется для создания контактов в хранилище Exchange.
+Операция CreateItem используется для создания контактов в Exchange магазине.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Создание частных списков рассылки не поддерживается. Все свойства в контейнере [комплетенаме](completename.md) доступны только для чтения и не могут быть заданы для элемента контакта. 
+Создание частных списков рассылки не поддерживается. Все свойства в [контейнере CompleteName](completename.md) являются только для чтения и не могут быть настроены на контактный элемент. 
   
 ## <a name="createitem-request-example"></a>Пример запроса CreateItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере допустимого запроса в виде CreateItem SOAP показано, как создать контакт в папке "Контакты" по умолчанию.
+В следующем примере допустимого запроса CreateItem SOAP показано, как создать контакт в папке Контакты по умолчанию.
   
 ### <a name="code"></a>Код
 
@@ -74,19 +74,19 @@ ms.locfileid: "44457125"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
 - [CreateItem](createitem.md)
     
-- [саведитемфолдерид](saveditemfolderid.md)
+- [SavedItemFolderId](saveditemfolderid.md)
     
-- [дистингуишедфолдерид](distinguishedfolderid.md)
+- [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
-- [контакт](contact.md);
+- [Contact](contact.md)
     
 - [FileAs](fileas.md)
     
@@ -96,13 +96,13 @@ ms.locfileid: "44457125"
     
 - [EmailAddresses](emailaddresses.md)
     
-- [Запись (EmailAddress)](entry-emailaddress.md)
+- [Entry (EmailAddress)](entry-emailaddress.md)
     
-- [фисикаладдрессес](physicaladdresses.md)
+- [PhysicalAddresses](physicaladdresses.md)
     
-- [Запись (PhysicalAddress)](entry-physicaladdress.md)
+- [Entry (PhysicalAddress)](entry-physicaladdress.md)
     
-- [Назван](street.md)
+- [Street](street.md)
     
 - [City](city.md)
     
@@ -112,17 +112,17 @@ ms.locfileid: "44457125"
     
 - [PhoneNumbers](phonenumbers.md)
     
-- [Запись (PhoneNumber)](entry-phonenumber.md)
+- [Entry (PhoneNumber)](entry-phonenumber.md)
     
 - [JobTitle](jobtitle.md)
     
-- [ФИО](surname.md)
+- [Фамилия](surname.md)
     
-## <a name="successful-createitem-request"></a>Успешный запрос CreateItem
+## <a name="successful-createitem-request"></a>Успешный запрос createItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос CreateItem, который создал контакт. В этом примере ответ содержит идентификатор только что созданного элемента.
+В следующем примере показан успешный ответ на запрос CreateItem, создав контакт. В этом примере ответ содержит идентификатор вновь созданного элемента.
   
 ### <a name="code"></a>Код
 
@@ -156,33 +156,33 @@ ms.locfileid: "44457125"
 
 ### <a name="comments"></a>Комментарии
 
-Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость.
+Идентификатор элемента был сокращен для сохранения читаемости.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [креатеитемреспонсе](createitemresponse.md)
+- [CreateItemResponse](createitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [креатеитемреспонсемессаже](createitemresponsemessage.md)
+- [CreateItemResponseMessage](createitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
-- [контакт](contact.md);
+- [Contact](contact.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="invalid-createitem-request-example"></a>Недопустимый пример запроса CreateItem
+## <a name="invalid-createitem-request-example"></a>Пример запроса на недействительный createItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан запрос, который содержит допустимый XML, но несовместимые инструкции. Невозможно создать контакт в папке поиска.
+В следующем примере показан запрос, содержащий допустимые XML, но несовместимые инструкции. Контакт не может быть создан в папке поиска.
   
 ### <a name="code"></a>Код
 
@@ -206,11 +206,11 @@ ms.locfileid: "44457125"
 </soap:Envelope>
 ```
 
-## <a name="createitem-contact-error-response"></a>Запрос ошибки CreateItem (Contact)
+## <a name="createitem-contact-error-response"></a>Реагирование на ошибку CreateItem (Contact)
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере показан ответ об ошибке для запроса CreateItem (Contact).
+В следующем примере показан ответ на ошибку на запрос CreateItem (Contact).
   
 ### <a name="code"></a>Код
 
@@ -240,25 +240,25 @@ ms.locfileid: "44457125"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ошибочного ответа
+### <a name="error-response-elements"></a>Элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [креатеитемреспонсе](createitemresponse.md)
+- [CreateItemResponse](createitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [креатеитемреспонсемессаже](createitemresponsemessage.md)
+- [CreateItemResponseMessage](createitemresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md)
+- [Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md)
     
 ## <a name="see-also"></a>См. также
 

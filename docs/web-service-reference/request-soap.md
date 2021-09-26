@@ -1,24 +1,24 @@
 ---
-title: Запрос (SOAP)
+title: Request (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 75696436-997e-49f1-a31b-eb9a8c3526f3
-description: Элемент Request содержит запрошенные параметры конфигурации и целевые пользователи.
-ms.openlocfilehash: 4358713d19e763b75d2a43f147385026f43b1255
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Request содержит запрашиваемую настройку конфигурации и целевых пользователей.
+ms.openlocfilehash: 533419d6e622bb1d415f739868aaf30c79c41635
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448991"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542807"
 ---
-# <a name="request-soap"></a>Запрос (SOAP)
+# <a name="request-soap"></a>Request (SOAP)
 
-Элемент **request** содержит запрошенные параметры конфигурации и целевые пользователи. 
+Элемент **Request** содержит запрашиваемую настройку конфигурации и целевых пользователей. 
   
 ```XML
 <Request>
@@ -28,40 +28,40 @@ ms.locfileid: "44448991"
 </Request>
 ```
 
- **жетусерсеттингсрекуест**
+ **GetUserSettingsRequest**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователи (SOAP)](users-soap.md) <br/> |Представляет коллекцию адресов электронной почты пользователей, для которых необходимо извлечь параметры.  <br/> |
-|[Рекуестедсеттингс (SOAP)](requestedsettings-soap.md) <br/> |Содержит имена запрошенных параметров конфигурации.  <br/> |
-|[Рекуестедверсион (SOAP)](requestedversion-soap.md) <br/> |Указывает конкретную версию сервера, которую необходимо использовать поставщику.  <br/> |
+|[Users (SOAP)](users-soap.md) <br/> |Представляет коллекцию адресов электронной почты пользователей, для которых необходимо извлечь параметры.  <br/> |
+|[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Содержит имена параметров запрашиваемой конфигурации.  <br/> |
+|[RequestedVersion (SOAP)](requestedversion-soap.md) <br/> |Указывает конкретную версию сервера, которую поставщик хотел бы использовать.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Жетусерсеттингсрекуестмессаже (SOAP)](getusersettingsrequestmessage-soap.md) <br/> |Представляет запрос [операции GetUserSettings (SOAP)](getusersettings-operation-soap.md) .  <br/> |
+|[GetUserSettingsRequestMessage (SOAP)](getusersettingsrequestmessage-soap.md) <br/> |Представляет запрос [на операцию GetUserSettings (SOAP).](getusersettings-operation-soap.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

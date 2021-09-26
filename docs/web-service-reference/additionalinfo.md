@@ -1,53 +1,53 @@
 ---
-title: аддитионалинфо
+title: AdditionalInfo
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50bebbab-2fef-4a27-a5a9-32d7200820b6
-description: Элемент Аддитионалинфо указывает дополнительные сведения о состоянии удержания почтового ящика.
-ms.openlocfilehash: 1911ff3ac0baf7a8854c0609e08959a54cc27b6d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AdditionalInfo указывает дополнительные сведения о состоянии удержания почтового ящика.
+ms.openlocfilehash: d8b707fb04ffe91d5c7aa793c6b56c8bb048f160
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455823"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544320"
 ---
-# <a name="additionalinfo"></a>аддитионалинфо
+# <a name="additionalinfo"></a>AdditionalInfo
 
-Элемент **аддитионалинфо** указывает дополнительные сведения о состоянии удержания почтового ящика. 
+Элемент **AdditionalInfo** указывает дополнительные сведения о состоянии удержания почтового ящика. 
   
 ```XML
 <AdditionalInfo></AdditionalInfo>
 ```
 
- **xs: String**
+ **xs:string**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[маилбоксхолдстатус](mailboxholdstatus.md) <br/> |Указывает состояние удержания почтового ящика.  <br/> |
-|[нониндексаблеитемдетаил](nonindexableitemdetail.md) <br/> |Задает сведения для элемента, который не может индексироваться.  <br/> |
+|[MailboxHoldStatus](mailboxholdstatus.md) <br/> |Указывает состояние удержания почтового ящика.  <br/> |
+|[NonIndexableItemDetail](nonindexableitemdetail.md) <br/> |Указывает подробности для элемента, который не может быть проиндексировать.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента Аддитионалинфо — дополнительные сведения о состоянии удержания почтового ящика.
+Текстовое значение элемента AdditionalInfo — это дополнительные сведения о состоянии удержания почтового ящика.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент является необязательным.
   
@@ -61,7 +61,7 @@ ms.locfileid: "44455823"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

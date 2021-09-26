@@ -1,30 +1,30 @@
 ---
-title: Аутодисковерсмтпаддресс (POX)
+title: AutoDiscoverSMTPAddress (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
-description: Элемент Аутодисковерсмтпаддресс содержит SMTP-адрес пользователя, который используется для процесса автообнаружения.
-ms.openlocfilehash: cd40fac8b7ab4eaa9ea50e82d6fc8bdbd4c3c7b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AutoDiscoverSMTPAddress содержит SMTP-адрес пользователя, используемый для процесса автооткрытия.
+ms.openlocfilehash: cb5871eee3cf61d388ad83b53df2bad733722d4e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463953"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543683"
 ---
-# <a name="autodiscoversmtpaddress-pox"></a>Аутодисковерсмтпаддресс (POX)
+# <a name="autodiscoversmtpaddress-pox"></a>AutoDiscoverSMTPAddress (POX)
 
-Элемент **аутодисковерсмтпаддресс** содержит SMTP-адрес пользователя, который используется для процесса автообнаружения. 
+Элемент **AutoDiscoverSMTPAddress** содержит SMTP-адрес пользователя, используемый для процесса автооткрытия. 
   
-- [Служба автообнаружения (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Ответ (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [Пользователь (POX)](user-pox.md)
+- [User (POX)](user-pox.md)
   
-- [Аутодисковерсмтпаддресс (POX)](autodiscoversmtpaddress-pox.md)
+- [AutoDiscoverSMTPAddress (POX)](autodiscoversmtpaddress-pox.md)
   
 ```XML
 <AutoDiscoverSMTPAddress/>
@@ -32,31 +32,31 @@ ms.locfileid: "44463953"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь (POX)](user-pox.md) <br/> |Предоставляет сведения, относящиеся к пользователю.  <br/> |
+|[User (POX)](user-pox.md) <br/> |Предоставляет сведения о пользователях.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет SMTP-адрес пользователя, используемый для процесса автообнаружения.
+Текстовое значение представляет SMTP-адрес пользователя, используемый для процесса автооткрытия.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **аутодисковерсмтпаддресс** является необязательным дочерним элементом элемента **User** . 
+Элемент **AutoDiscoverSMTPAddress** — необязательный детский элемент **элемента User.** 
   
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

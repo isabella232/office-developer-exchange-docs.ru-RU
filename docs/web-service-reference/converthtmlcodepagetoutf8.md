@@ -5,50 +5,50 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f02c8331-0a4e-4d01-adc2-2b93ed838a42
-description: Элемент ConvertHtmlCodePageToUTF8 указывает, преобразуется ли HTML-текст элемента в формат UTF8.
-ms.openlocfilehash: a714eacd8cc105146a1471f062ec35dc16730d61
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ConvertHtmlCodePageToUTF8 указывает, преобразуется ли html-тело элемента в UTF8.
+ms.openlocfilehash: e43de22b6d8050c14eb18d0fdd5a72f463335189
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457594"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545575"
 ---
 # <a name="converthtmlcodepagetoutf8"></a>ConvertHtmlCodePageToUTF8
 
-Элемент **ConvertHtmlCodePageToUTF8** указывает, преобразуется ли HTML-текст элемента в формат UTF8. 
+Элемент **ConvertHtmlCodePageToUTF8 указывает,** преобразуется ли html-тело элемента в UTF8. 
   
 ```XML
 <ConvertHtmlCodePageToUTF8/>
 ```
 
- **xs: Boolean**
+ **xs:boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[итемшапе](itemshape.md) <br/> |Определяет набор свойств, возвращаемых в ответе.  <br/> |
+|[ItemShape](itemshape.md) <br/> |Определяет набор свойств, возвращаемого в ответ.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **ConvertHtmlCodePageToUTF8** указывает на то, что HTML-текст преобразуется в кодировку UTF8. Текстовое значение **false** указывает, что HTML-текст не преобразуется в UTF8. 
+Значение текста, **истинное** для элемента **ConvertHtmlCodePageToUTF8,** указывает на то, что htmL-тело преобразуется в UTF8. Ложное **текстовое** значение указывает на то, что htmL-тело не преобразуется в UTF8. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-По умолчанию используется значение **true** , если элемент **ConvertHtmlCodePageToUTF8** не указан в запросе. 
+Значение true **по** умолчанию используется, если элемент **ConvertHtmlCodePageToUTF8** не указан в запросе. 
   
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -58,7 +58,7 @@ ms.locfileid: "44457594"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

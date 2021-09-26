@@ -1,50 +1,50 @@
 ---
-title: Время ожидания (длительность)
+title: Timeout (продолжительность)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb15f9a7-8ea5-4765-9877-762c3f98bf50
-description: Элемент timeout указывает продолжительность времени до истечения срока действия подписки по запросу на сервере.
-ms.openlocfilehash: b5b0e77d794080cd8e0da1e14acf4cb059b80b08
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Timeout указывает продолжительность времени, прежде чем на сервере будет приумножаться подписка на тягу.
+ms.openlocfilehash: a5a9e094c25f609c0bcfa207ab96ae7f0877f43f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460283"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545771"
 ---
-# <a name="timeout-duration"></a>Время ожидания (длительность)
+# <a name="timeout-duration"></a>Timeout (продолжительность)
 
-Элемент **timeout** указывает продолжительность времени до истечения срока действия подписки по запросу на сервере. 
+Элемент **Timeout** указывает продолжительность времени, прежде чем на сервере будет приумножаться подписка на тягу. 
   
 ```XML
 <Timeout></Timeout>
 ```
 
- **субскриптионтимеауттипе**
+ **SubscriptionTimeoutType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[пуллсубскриптионрекуест](pullsubscriptionrequest.md)
+[PullSubscriptionRequest](pullsubscriptionrequest.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **timeout** — это продолжительность времени в минутах до истечения времени ожидания подписки по запросу на сервере. Минимальное значение — 1; Максимальное значение — 1440. 
+Текстовое значение элемента **Timeout** — это время, за несколько минут до того, как сервер приумносит подписку на тягу. Минимальное значение — 1; максимальное значение — 1440. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44460283"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

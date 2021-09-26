@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 837bb372-39eb-48ae-9c09-0d2552511f93
-description: Элемент участники указывает получателей приглашения на собрание.
-ms.openlocfilehash: 3a63bdf7e49309697ac503be5f4c95eb805b9635
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Attendees указывает получателей приглашения на собрание.
+ms.openlocfilehash: 2ac547ee56e5a001e08957265053265d69ded42e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460332"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545717"
 ---
 # <a name="attendees"></a>Участники
 
-Элемент **Участники** указывает получателей приглашения на собрание. 
+Элемент **Attendees** указывает получателей приглашения на собрание. 
   
 ```XML
 <Attendees>
@@ -25,28 +25,28 @@ ms.locfileid: "44460332"
 </Attendees>
 ```
 
- **аррайофемаилусерстипе**
+ **ArrayOfEmailUsersType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Свойства emailuser](emailuser.md) <br/> |Указывает получателя электронной почты или контакта Active Directory.  <br/> |
+|[EmailUser](emailuser.md) <br/> |Указывает получателя электронной почты или контакт Active Directory.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[MeetingSuggestion](meetingsuggestion.md) <br/> |Указывает предложенное собрание.  <br/> |
+|[MeetingSuggestion](meetingsuggestion.md) <br/> |Указывает предлагаемое собрание.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44460332"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

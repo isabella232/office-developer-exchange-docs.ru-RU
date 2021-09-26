@@ -1,24 +1,24 @@
 ---
-title: Усерсеттинжеррор (SOAP)
+title: UserSettingError (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: abb175c5-4f38-4dcc-81e3-b511686862eb
-description: Элемент Усерсеттинжеррор представляет ошибку, которая возвращается в результате попытки получить параметр пользователя.
-ms.openlocfilehash: 61603038ce93780f690d72226b1356b239d2002d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UserSettingError представляет ошибку, возвращаемую в результате попытки получить параметр пользователя.
+ms.openlocfilehash: 6ae3bd62e886df0b8641daa1aeb94fa7a10a7851
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468609"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542612"
 ---
-# <a name="usersettingerror-soap"></a>Усерсеттинжеррор (SOAP)
+# <a name="usersettingerror-soap"></a>UserSettingError (SOAP)
 
-Элемент **усерсеттинжеррор** представляет ошибку, которая возвращается в результате попытки получить параметр пользователя. 
+Элемент **UserSettingError** представляет ошибку, возвращаемую в результате попытки получить параметр пользователя. 
   
 ```XML
 <UserSettingError>
@@ -28,45 +28,45 @@ ms.locfileid: "44468609"
 </UserSettingError>
 ```
 
- **усерсеттинжеррор**
+ **UserSettingError**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Представляет код ошибки, возвращенный службой автообнаружения.  <br/> |
-|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Респресентс сообщение, связанное с кодом ошибки, возвращаемым службой автообнаружения.  <br/> |
-|[Свойства settingname (SOAP)](settingname-soap.md) <br/> |Представляет имя параметра пользователя.  <br/> |
+|[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Представляет код ошибки, возвращаемый службой автооткрытия.  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Respresents сообщение, связанное с кодом ошибки, который возвращается службой автооткрытия.  <br/> |
+|[SettingName (SOAP)](settingname-soap.md) <br/> |Представляет имя параметра пользователя.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Усерсеттинжеррорс (SOAP)](usersettingerrors-soap.md) <br/> |Представляет коллекцию сведений о параметрах, которые не удалось вернуть.  <br/> |
+|[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |Представляет коллекцию сведений о параметрах, которые не удалось вернуть.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Отсутствуют.
+Нет.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения SOAP для Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Элементы XML автооткрытия SOAP для Exchange 2013 г.](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

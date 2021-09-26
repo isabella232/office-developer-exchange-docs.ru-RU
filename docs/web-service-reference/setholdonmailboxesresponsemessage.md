@@ -1,23 +1,23 @@
 ---
-title: сесолдонмаилбоксесреспонсемессаже
+title: SetHoldOnMailboxesResponseMessage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d61de0f3-24e0-434a-946a-c53d393b7d04
-description: Элемент Сесолдонмаилбоксесреспонсемессаже указывает ответное сообщение для запроса SetHoldOnMailboxes.
-ms.openlocfilehash: a6af4181218391bc9d3c177467295d771cce4c89
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SetHoldOnMailboxesResponseMessage указывает сообщение ответа на запрос SetHoldOnMailboxes.
+ms.openlocfilehash: 9fbfde90f2a3b9fc90e602fd3bd90289e1041f39
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456411"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545988"
 ---
-# <a name="setholdonmailboxesresponsemessage"></a>сесолдонмаилбоксесреспонсемессаже
+# <a name="setholdonmailboxesresponsemessage"></a>SetHoldOnMailboxesResponseMessage
 
-Элемент **сесолдонмаилбоксесреспонсемессаже** указывает ответное сообщение для запроса **SetHoldOnMailboxes** . 
+Элемент **SetHoldOnMailboxesResponseMessage** указывает сообщение ответа на запрос **SetHoldOnMailboxes.** 
   
 ```XML
 <SetHoldOnMailboxesResponseMessage>
@@ -29,24 +29,24 @@ ms.locfileid: "44456411"
 </SetHoldOnMailboxesResponseMessage>
 ```
 
- **сесолдонмаилбоксесреспонсемессажетипе**
+ **SetHoldOnMailboxesResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Маилбоксхолдресулт](mailboxholdresult.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [MailboxHoldResult](mailboxholdresult.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44456411"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,31 +1,31 @@
 ---
-title: детаиледсугжестионсвиндов
+title: DetailedSuggestionsWindow
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DetailedSuggestionsWindow
 api_type:
 - schema
 ms.assetid: 7b348d63-6a7d-45f4-9562-5c42243d63a5
-description: Элемент Детаиледсугжестионсвиндов определяет интервал времени, на который запрашивается подробная информация о предложенном времени проведения собрания.
-ms.openlocfilehash: 45d582f2642c0e3d8f6330b09946230c8842618d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DetailedSuggestionsWindow определяет период времени, запрашиваемого для получения подробных сведений о предлагаемых времени собраний.
+ms.openlocfilehash: 56f66d9ee7be25de20a892823a02174c75b40601
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467846"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545337"
 ---
-# <a name="detailedsuggestionswindow"></a>детаиледсугжестионсвиндов
+# <a name="detailedsuggestionswindow"></a>DetailedSuggestionsWindow
 
-Элемент **детаиледсугжестионсвиндов** определяет интервал времени, на который запрашивается подробная информация о предложенном времени проведения собрания. 
+Элемент **DetailedSuggestionsWindow** определяет период времени, запрашиваемого для получения подробных сведений о предлагаемых времени собраний. 
   
-- [жетусераваилабилитирекуест](getuseravailabilityrequest.md) 
-- [сугжестионсвиевоптионс](suggestionsviewoptions.md) 
-- [детаиледсугжестионсвиндов](detailedsuggestionswindow.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md) 
+- [SuggestionsViewOptions](suggestionsviewoptions.md) 
+- [DetailedSuggestionsWindow](detailedsuggestionswindow.md)
   
 ```xml
 <DetailedSuggestionsWindow>
@@ -37,28 +37,28 @@ ms.locfileid: "44467846"
  **Duration**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |Представляет начало интервала времени, запрашиваемого для получения подробных сведений о предложенном времени проведения собрания.  <br/> |
-|[EndTime](endtime.md) <br/> |Представляет конец интервала времени, запрошенного для получения подробных сведений о предложенном времени проведения собрания.  <br/> |
+|[StartTime](starttime.md) <br/> |Представляет начало периода времени, запрашиваемого для получения подробных сведений о предлагаемых времени собраний.  <br/> |
+|[EndTime](endtime.md) <br/> |Представляет собой конец периода времени, запрашиваемого для получения подробных сведений о предлагаемых времени собраний.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестионсвиевоптионс](suggestionsviewoptions.md) <br/> |Содержит параметры для получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Содержит параметры получения сведений о предложении собрания.  <br/> XPath для этого элемента:  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент не является обязательным.
+Этот элемент не требуется.
   
 > [!NOTE]
 > Схема с описанием этого элемента находится в каталоге /EWS/ на компьютере, на котором запущено приложение MicrosoftExchange Server 2007 с установленной ролью сервера клиентского доступа. 
@@ -69,7 +69,7 @@ ms.locfileid: "44467846"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

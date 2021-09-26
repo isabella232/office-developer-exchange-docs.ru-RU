@@ -1,60 +1,60 @@
 ---
-title: дайордер
+title: DayOrder
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DayOrder
 api_type:
 - schema
 ms.assetid: 3022f839-12a2-42a9-820e-3ea585ce8657
-description: Элемент Дайордер представляет n-й экземпляр дня, указанного в элементе DayOfWeek (TimeZone), представляющий дату перехода со стандартного и летнего времени.
-ms.openlocfilehash: 53a8cb979bdb7aefead5623b4680f4c1a4ef5509
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DayOrder представляет nth возникновение дня, указанного в элементе DayOfWeek (TimeZone), который представляет дату перехода от стандартного времени и летнего времени.
+ms.openlocfilehash: bc216984a92fef58ac6f46dc4646a0deca837563
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526965"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543445"
 ---
-# <a name="dayorder"></a>дайордер
+# <a name="dayorder"></a>DayOrder
 
-Элемент **дайордер** представляет _n_th вхождение дня, указанного в элементе [DayOfWeek (TimeZone)](dayofweek-timezone.md) , который представляет дату перехода со стандартного и летнего времени. 
+Элемент **DayOrder** представляет _n_th дня, указанного в элементе [DayOfWeek (TimeZone),](dayofweek-timezone.md) который представляет дату перехода от стандартного и летнего времени. 
   
 ```xml
 <DayOrder>...</DayOrder>
 ```
 
-**сроки**
+**short**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> | Представляет смещение относительно времени относительно времени в формате UTC, представленного элементом [смещения (UTC)](bias-utc.md) .<br/><br/>Этот элемент также содержит сведения о переходе на зимнее время с летнего времени в регионах, где наблюдается летнее время.<br/><br/>Ниже приведены выражения XPath для элемента [StandardTime](standardtime.md) :<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
-|[DaylightTime](daylighttime.md) <br/> | Представляет смещение относительно времени в формате UTC, представленного элементом [смещения (UTC)](bias-utc.md) в регионах, где наблюдается летнее время.<br/><br/>Этот элемент также содержит сведения о том, когда происходит переход на летнее время из стандартного времени.<br/><br/>Ниже приведены выражения XPath для элемента [DaylightTime](daylighttime.md) :<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
+|[StandardTime](standardtime.md) <br/> | Представляет смещение времени по отношению к координированному универсальному времени (UTC), представленного элементом [Bias (UTC).](bias-utc.md)<br/><br/>Этот элемент также содержит сведения о переходе на стандартное время с летнего времени в регионах, где наблюдается летнее время.<br/><br/>Ниже приводится выражение XPath к [элементу StandardTime:](standardtime.md)<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
+|[DaylightTime](daylighttime.md) <br/> | Представляет смещение времени по отношению к UTC, представленного элементом [Bias (UTC)](bias-utc.md) в регионах, где наблюдается летнее время.<br/><br/>Этот элемент также содержит сведения о том, когда происходит переход на летнее время со стандартного времени.<br/><br/>Ниже приводится выражение XPath к [элементу DaylightTime:](daylighttime.md)<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime`<br/><br/>`/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение. Значение для элемента **дайордер** может быть от 1 до 5. Максимальное значение этого элемента может быть равно 4 или 5, в зависимости от месяца и года. 
+Требуется текстовое значение. Значение элемента **DayOrder** может быть от 1 до 5. Максимальное значение для этого элемента может быть 4 или 5 в зависимости от месяца и года. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент [StandardTime](standardtime.md) , содержащий элемент **дайордер** , который имеет значение 5, элемент [Month](month.md) со значением 10, и элемент [DayOfWeek (TimeZone)](dayofweek-timezone.md) , имеющий значение воскресенье, означает, что переход со стандартного времени на летнее время приходится на пятое воскресенье десятого месяца. 
+Элемент [StandardTime,](standardtime.md) содержащий элемент **DayOrder** со значением 5, элемент Месяц со значением 10, и элемент [DayOfWeek (TimeZone),](dayofweek-timezone.md) который имеет значение воскресенье, означает, что переход от стандартного времени к летнему времени происходит в пятое воскресенье десятого месяца. [](month.md) 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -62,7 +62,7 @@ ms.locfileid: "44526965"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

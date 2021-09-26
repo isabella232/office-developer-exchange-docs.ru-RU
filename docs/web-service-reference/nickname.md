@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Nickname
 api_type:
 - schema
 ms.assetid: 3d35b207-d28c-4f3f-8b00-55339d30d19a
-description: Элемент псевдонима представляет псевдоним контакта.
-ms.openlocfilehash: cc562d1fc0f02cb3e6742ac951005a8b965bc543
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Nickname представляет прозвище контакта.
+ms.openlocfilehash: 2e7297b2bdaf003942796f62c7a4d56217e1f6a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466803"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541982"
 ---
 # <a name="nickname"></a>Nickname
 
-Элемент **псевдонима** представляет псевдоним контакта. 
+Элемент **Nickname** представляет прозвище контакта. 
   
 ```xml
 <Nickname/>
@@ -31,28 +31,28 @@ ms.locfileid: "44466803"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[комплетенаме](completename.md) <br/> |Представляет полное имя контакта.  <br/> |
+|[CompleteName](completename.md) <br/> |Представляет полное имя контакта.  <br/> |
 |[Контакт](contact.md) <br/> |Представляет элемент контакта Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Элемент **псевдонима** принимает строковое значение. 
+Элемент **Nickname** принимает значение строки. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент является необязательным.
   
@@ -64,11 +64,11 @@ ms.locfileid: "44466803"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
-- [Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

@@ -1,64 +1,64 @@
 ---
-title: Респонсекоде (ИнвалидреЦипиентреспонсекодетипе)
+title: ResponseCode (InvalidRecipientResponseCodeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseCode
 api_type:
 - schema
 ms.assetid: 582e9caa-d2bc-4be1-a460-739294f9ef18
-description: Элемент Респонсекоде предоставляет сведения о причине неправильного получателя.
-ms.openlocfilehash: d78de64de7725007ec51a55dad13d1cc892a25e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ResponseCode предоставляет сведения о том, почему получатель является недействительным.
+ms.openlocfilehash: 33cd05aca672e250f288aec72d876734132d2e36
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529723"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544810"
 ---
-# <a name="responsecode-invalidrecipientresponsecodetype"></a>Респонсекоде (ИнвалидреЦипиентреспонсекодетипе)
+# <a name="responsecode-invalidrecipientresponsecodetype"></a>ResponseCode (InvalidRecipientResponseCodeType)
 
-Элемент **респонсекоде** предоставляет сведения о причине неправильного получателя. 
+Элемент **ResponseCode** предоставляет сведения о том, почему получатель является недействительным. 
   
 ```XML
 <ResponseCode>OtherError or RecipientOrganizationNotFederated or CannotObtainTokenFromSTS or SystemPolicyBlocksSharingWithThisRecipient or RecipientOrganizationFederatedWithUnknownTokenIssuer</ResponseCode>
 ```
 
- **инвалидреЦипиентреспонсекодетипе**
+ **InvalidRecipientResponseCodeType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[инвалидреЦипиент](invalidrecipient.md) <br/> |Содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым.  <br/> |
+|[InvalidRecipient](invalidrecipient.md) <br/> |Содержит SMTP-адрес недопустимого получателя и сведения о почему получатель является недопустимым.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **респонсекоде** . 
+В следующей таблице перечислены возможные значения элемента **ResponseCode.** 
   
 |**Code**|**Описание**|
 |:-----|:-----|
-|осереррор  <br/> |Указывает на то, что ошибка не указана другим кодом ответа на сообщение об ошибке.  <br/> |
-|реЦипиенторганизатионнотфедератед  <br/> |Указывает, что отношение общего доступа недоступно в Организации, указанной в SMTP-адресе электронной почты получателя.  <br/> |
-|каннотобтаинтокенфромстс  <br/> |Указывает, что при получении маркера безопасности от сервера маркеров возникла проблема.  <br/> |
-|системполициблокксшарингвиссисреЦипиент  <br/> |Указывает, что системный администратор установил системную политику, которая блокирует общий доступ для указанного получателя.  <br/> |
-|реЦипиенторганизатионфедератедвисункновнтокениссуер  <br/> |Указывает, что служба безопасного токена, используемая указанным получателем, неизвестна.  <br/> |
+|OtherError  <br/> |Указывает, что ошибка не указана другим кодом ответа на ошибку.  <br/> |
+|RecipientOrganizationNotFederated  <br/> |Указывает, что связь общего доступа недоступна с организацией, указанной в smTP-адресе электронной почты получателя.  <br/> |
+|CannotObtainTokenFromSTS  <br/> |Указывает, что возникла проблема с получением маркера безопасности с сервера маркеров.  <br/> |
+|SystemPolicyBlocksSharingWithThisRecipient  <br/> |Указывает, что системный администратор установил системную политику, которая блокирует общий доступ к указанному получателю.  <br/> |
+|RecipientOrganizationFederatedWithUnknownTokenIssuer  <br/> |Указывает, что служба безопасного маркера, используемая указанным получателем, неизвестна.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -68,7 +68,7 @@ ms.locfileid: "44529723"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

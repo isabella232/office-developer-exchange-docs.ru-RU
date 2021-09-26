@@ -1,33 +1,33 @@
 ---
-title: Операции подписки
+title: Операции Subscribe
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Subscribe
 api_type:
 - schema
 ms.assetid: f17c3d08-c79e-41f1-ba31-6e41e7aafd87
-description: Операция Subscribe используется для подписки клиентских приложений на Push-или опрашивающие уведомления. Важно знать, что структура сообщений запросов и ответов различается в зависимости от типа уведомления о событии.
-ms.openlocfilehash: c40e0e434f698c6535ff5d03fd4d45a453959dd6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция Subscribe используется для подписки на клиентские приложения для push-уведомлений. Важно знать, что структура сообщений и ответов запроса отличается в зависимости от типа уведомления о событии.
+ms.openlocfilehash: 546f7ab252c7d3a201130cd48e2b30ca52d00088
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467048"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544537"
 ---
-# <a name="subscribe-operation"></a>Операции подписки
+# <a name="subscribe-operation"></a>Операции Subscribe
 
-Операция Subscribe используется для подписки клиентских приложений на Push-или опрашивающие уведомления. Важно знать, что структура сообщений запросов и ответов различается в зависимости от типа уведомления о событии. 
+Операция Subscribe используется для подписки на клиентские приложения для push-уведомлений. Важно знать, что структура сообщений и ответов запроса отличается в зависимости от типа уведомления о событии. 
   
-## <a name="pull-subscription-subscribe-request-example"></a>Пример запроса на получение подписки по запросу
+## <a name="pull-subscription-subscribe-request-example"></a>Пример запроса на подписку на подписку
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере кода показано, как подписаться на подписку на уведомления о событиях опрашивающей репликации. Подписка информирует клиентское приложение о добавлении новой почты в папку "Входящие" и удалении элемента из папки "Входящие". Если клиент не запрашивает сведения о событиях в течение десяти минут, произойдет время ожидания подписки. Если срок действия подписки истечет, необходимо установить новую подписку, чтобы продолжить запрашивать уведомления.
+В следующем примере кода показано, как подписаться на подписку на уведомление о событии pull. Подписка информирует клиентское приложение о добавлении новой почты в почтовый ящик и удалении элемента из почтового ящика. Если клиент не запрашивает сведения о событиях в течение 10 минут, подписка будет отсвеятена. Если срок действия подписки истекает, необходимо установить новую подписку для продолжения запроса уведомлений.
   
 ### <a name="code"></a>Код
 
@@ -52,31 +52,31 @@ ms.locfileid: "44467048"
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-subscribe-request-elements"></a>Элементы запроса подписки по запросу на получение подписки
+### <a name="pull-subscription-subscribe-request-elements"></a>Элементы запроса подписки на подписку
 
 В запросе используются следующие элементы:
   
-- [Подписаться](subscribe.md)
+- [Subscribe](subscribe.md)
     
-- [пуллсубскриптионрекуест](pullsubscriptionrequest.md)
+- [PullSubscriptionRequest](pullsubscriptionrequest.md)
     
-- [фолдеридс](folderids.md)
+- [FolderIds](folderids.md)
     
-- [дистингуишедфолдерид](distinguishedfolderid.md)
+- [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [евенттипес](eventtypes.md)
+- [EventTypes](eventtypes.md)
     
 - [EventType](eventtype.md)
     
 - [Timeout](timeout.md)
     
-Чтобы найти другие варианты сообщения запроса операции Subscribe, изучите иерархию схемы. Начните с элемента [пуллсубскриптионрекуест](pullsubscriptionrequest.md) . 
+Чтобы найти другие варианты сообщения запроса операции Подписка, ознакомьтесь с иерархией схемы. Начните с элемента [PullSubscriptionRequest.](pullsubscriptionrequest.md) 
   
-## <a name="successful-pull-subscription-subscribe-response-example"></a>Пример успешных откликов подписки по запросу
+## <a name="successful-pull-subscription-subscribe-response-example"></a>Успешный пример ответа подписки на подписку pull
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на подписку по запросу. Ответ содержит идентификатор и водяной знак подписки, которые используются для получения массива событий, связанных с подпиской. Идентификатор подписки также используется для отказа от подписки клиента из подписки.
+В следующем примере показан успешный ответ на подписку на тянуть. Ответ содержит идентификатор подписки и водяной знак, используемый для получения массива событий, связанных с подпиской. Идентификатор подписки также используется для отписки клиента из подписки.
   
 ### <a name="code"></a>Код
 
@@ -105,29 +105,29 @@ ms.locfileid: "44467048"
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-subscribe-response-elements"></a>Элементы ответа на подписку по запросу
+### <a name="pull-subscription-subscribe-response-elements"></a>Pull Subscription Subscribe response elements
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [субскрибереспонсе](subscriberesponse.md)
+- [SubscribeResponse](subscriberesponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [субскрибереспонсемессаже](subscriberesponsemessage.md)
+- [SubscribeResponseMessage](subscriberesponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [SubscriptionId (Events)](subscriptionid-getevents.md)
+- [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
 - [Watermark](watermark.md)
     
-## <a name="pull-subscription-subscribe-error-response-example"></a>Пример ответа на сообщение об ошибке подписки по запросу
+## <a name="pull-subscription-subscribe-error-response-example"></a>Пример ответа на ошибку подписки подписки на подписку
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере показан ответ об ошибке запроса на подписку. Ошибка вызвана попыткой подписаться на уведомления с помощью делегированного доступа.
+В следующем примере показан ответ на ошибку на запрос Подписка. Ошибка вызвана попыткой подписаться на уведомления с помощью доступа делегатов.
   
 ### <a name="code"></a>Код
 
@@ -156,29 +156,29 @@ ms.locfileid: "44467048"
 </soap:Envelope>
 ```
 
-### <a name="pull-subscription-error-response-elements"></a>Элементы ответа об ошибке подписки по запросу
+### <a name="pull-subscription-error-response-elements"></a>Pull Subscription Error response elements
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [субскрибереспонсе](subscriberesponse.md)
+- [SubscribeResponse](subscriberesponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [субскрибереспонсемессаже](subscriberesponsemessage.md)
+- [SubscribeResponseMessage](subscriberesponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## <a name="push-subscription-request-example"></a>Пример запроса на принудительную подписку
+## <a name="push-subscription-request-example"></a>Пример запроса на подписку push
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере кода показано, как подписаться на подписку на push-уведомления о событиях. Запрос определяет папки для мониторинга, типы событий для отслеживания, частоту уведомлений о состоянии и URL-адрес веб-службы клиента, которая прослушивает push-уведомления.
+В следующем примере кода показано, как подписаться на подписку на push-событие. Запрос определяет папки для мониторинга, типы событий для мониторинга, частоту уведомлений о состоянии и URL-адрес клиентской веб-службы, которая прослушивает push-уведомления.
   
 ### <a name="code"></a>Код
 
@@ -211,35 +211,35 @@ ms.locfileid: "44467048"
 
 ### <a name="comments"></a>Комментарии
 
-Клиентская веб-служба должна быть настроена перед отправкой запроса на подписку с Push-уведомлениями; в противном случае первое уведомление не будет отправлено в действительную конечную точку, а push-уведомление завершится с ошибками. Для получения дополнительных сведений обратитесь к разделу [пример приложения push-уведомлений](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx).
+Веб-служба клиента должна быть настроена перед отправлением запроса на подписку на push-уведомление; в противном случае первое уведомление не будет отправлено на допустимую конечную точку, и push-уведомление не будет отправлено. Дополнительные сведения см. в [примере приложения Push Notification.](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
   
-При повторной подписку создается новый идентификатор [SubscriptionId (Events)](subscriptionid-getevents.md) . Использование водяного знака предыдущей подписки для повторной подписки на момент окончания предыдущей подписки. 
+При повторной подписке создается новый [SubscriptionId (GetEvents).](subscriptionid-getevents.md) Используйте водяной знак предыдущей подписки для повторной подписки в точке окончания предыдущей подписки. 
   
-### <a name="push-subscription-request-elements"></a>Элементы запроса на принудительную подписку
+### <a name="push-subscription-request-elements"></a>Элементы запроса на подписку push
 
 В запросе используются следующие элементы:
   
-- [Подписаться](subscribe.md)
+- [Subscribe](subscribe.md)
     
-- [пушсубскриптионрекуест](pushsubscriptionrequest.md)
+- [PushSubscriptionRequest](pushsubscriptionrequest.md)
     
-- [фолдеридс](folderids.md)
+- [FolderIds](folderids.md)
     
-- [дистингуишедфолдерид](distinguishedfolderid.md)
+- [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [евенттипес](eventtypes.md)
+- [EventTypes](eventtypes.md)
     
 - [EventType](eventtype.md)
     
 - [StatusFrequency](statusfrequency.md)
     
-- [Адрес](url-ex15websvcsotherref.md)
+- [URL-адрес ](url-ex15websvcsotherref.md)
     
-## <a name="successful-push-subscription-response-example"></a>Пример успешной принудительной подписки
+## <a name="successful-push-subscription-response-example"></a>Пример успешного ответа push-подписки
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на принудительную подписку. 
+В следующем примере показан успешный ответ на push-подписку. 
   
 ### <a name="code"></a>Код
 
@@ -268,21 +268,21 @@ ms.locfileid: "44467048"
 </soap:Envelope>
 ```
 
-### <a name="push-subscription-response-elements"></a>Элементы ответа на принудительную подписку
+### <a name="push-subscription-response-elements"></a>Элементы отклика push-подписки
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [субскрибереспонсе](subscriberesponse.md)
+- [SubscribeResponse](subscriberesponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [субскрибереспонсемессаже](subscriberesponsemessage.md)
+- [SubscribeResponseMessage](subscriberesponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [SubscriptionId (Events)](subscriptionid-getevents.md)
+- [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
 - [Watermark](watermark.md)
     
@@ -290,12 +290,12 @@ ms.locfileid: "44467048"
 
 
 
-[Операция по отмене подписки](unsubscribe-operation.md)
+[Операция Unsubscribe](unsubscribe-operation.md)
   
 [Операция GetEvents](getevents-operation.md)
 
 
-[Использование подписок по запросу](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Использование подписки pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
   
 [Пример приложения для push-уведомлений](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

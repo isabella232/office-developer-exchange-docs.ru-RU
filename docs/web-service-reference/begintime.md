@@ -1,40 +1,40 @@
 ---
-title: бегинтиме
+title: BeginTime
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a60c89c-9c21-4041-9593-b244ac1608ef
-description: Элемент Бегинтиме указывает начало интервала времени, в течение которого запрашиваются напоминания.
-ms.openlocfilehash: 4f926b8e4931c187cd4d5b97d6182d609bc15a1b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент BeginTime указывает начало периода времени для запроса напоминаний.
+ms.openlocfilehash: 2e3bc6ef91e27641d131b0e2b16b70421ee59bcd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541499"
 ---
-# <a name="begintime"></a>бегинтиме
+# <a name="begintime"></a>BeginTime
 
-Элемент **бегинтиме** указывает начало интервала времени, в течение которого запрашиваются напоминания. 
+Элемент **BeginTime** указывает начало периода времени для запроса напоминаний. 
   
 ```XML
 <BeginTime/>
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44463379"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **бегинтиме** — время начала элемента, для которого предназначено напоминание. 
+Текстовое значение элемента **BeginTime** — это время начала элемента, для который будет напоминать. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44463379"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

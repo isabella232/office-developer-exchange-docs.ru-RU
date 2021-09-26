@@ -1,23 +1,23 @@
 ---
-title: жетклиентекстенсионреспонсе
+title: GetClientExtensionResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef4b1aba-a55d-4d64-ac80-5d4e6c4e72bd
-description: Элемент Жетклиентекстенсионреспонсе содержит ответ для получения сведений о конфигурации приложения.
-ms.openlocfilehash: 65c1995fe75b3894607d27ed65548fbbdce0664a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetClientExtensionResponse содержит ответ для получения сведений о конфигурации приложения.
+ms.openlocfilehash: 6a29ad81bb69a8d1f959b2e17d5cbf48faeca516
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459520"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546345"
 ---
-# <a name="getclientextensionresponse"></a>жетклиентекстенсионреспонсе
+# <a name="getclientextensionresponse"></a>GetClientExtensionResponse
 
-Элемент **жетклиентекстенсионреспонсе** содержит ответ для получения сведений о конфигурации приложения. 
+Элемент **GetClientExtensionResponse** содержит ответ для получения сведений о конфигурации приложения. 
   
 ```XML
 <GetClientExtensionResponse>
@@ -30,24 +30,24 @@ ms.locfileid: "44459520"
 </GetClientExtensionResponse>
 ```
 
- **клиентекстенсионреспонсетипе**
+ **ClientExtensionResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Клиентекстенсионс](clientextensions.md)  |  [Равмастертаблексмл](rawmastertablexml.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [ClientExtensions](clientextensions.md)  |  [RawMasterTableXml](rawmastertablexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -59,7 +59,7 @@ ms.locfileid: "44459520"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

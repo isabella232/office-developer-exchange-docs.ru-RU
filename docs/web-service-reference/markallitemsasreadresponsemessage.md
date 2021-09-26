@@ -1,23 +1,23 @@
 ---
-title: маркаллитемсасреадреспонсемессаже
+title: MarkAllItemsAsReadResponseMessage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e52f56d4-c6a3-458a-8abb-4e0c19d32341
-description: Элемент Маркаллитемсасреадреспонсемессаже указывает ответное сообщение для запроса MarkAllItemsAsRead.
-ms.openlocfilehash: a3609f356dd20e121105b5ca57b389d492e852ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MarkAllItemsAsReadResponseMessage указывает сообщение ответа на запрос MarkAllItemsAsRead.
+ms.openlocfilehash: 4b8539c1c0a7330fe682276a7038bc06a35f202b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465816"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544103"
 ---
-# <a name="markallitemsasreadresponsemessage"></a>маркаллитемсасреадреспонсемессаже
+# <a name="markallitemsasreadresponsemessage"></a>MarkAllItemsAsReadResponseMessage
 
-Элемент **маркаллитемсасреадреспонсемессаже** указывает ответное сообщение для запроса **MarkAllItemsAsRead** . 
+Элемент **MarkAllItemsAsReadResponseMessage** указывает сообщение ответа на **запрос MarkAllItemsAsRead.** 
   
 ```XML
 <MarkAllItemsAsReadResponseMessage>
@@ -31,21 +31,21 @@ ms.locfileid: "44465816"
  ****
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44465816"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

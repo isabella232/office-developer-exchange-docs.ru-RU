@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d47141c-3c3f-45b8-90c5-33a44adb34b2
-description: Элемент UserMailbox определяет почтовый ящик пользователя.
-ms.openlocfilehash: 9bb1b08320f5e6f4843383a8e3aff96fc3dcccad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент UserMailbox идентифицирует почтовый ящик пользователя.
+ms.openlocfilehash: c2a66b23de5e4b312f60019f0b4ecfb4088b3da2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465319"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542619"
 ---
 # <a name="usermailbox"></a>UserMailbox
 
-Элемент **UserMailbox** определяет почтовый ящик пользователя. 
+Элемент **UserMailbox** идентифицирует почтовый ящик пользователя. 
   
 ```XML
 <UserMailbox Id="" IsArchive=""/>
 ```
 
- **усермаилбокстипе**
+ **UserMailboxType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|Id  <br/> |Текстовое значение атрибута **ID** — идентификатор почтового ящика.  <br/> |
-|IsArchive  <br/> |Текстовое значение атрибута **Archive** указывает, является ли почтовый ящик архивным. Текстовое значение **true** для атрибута **Archive** указывает на то, что почтовый ящик является архивным почтовым ящиком. Значение **false** для атрибута **Archive** указывает на то, что почтовый ящик является основным почтовым ящиком.  <br/> |
+|Id  <br/> |Текстовое значение атрибута **Id** — идентификатор почтового ящика.  <br/> |
+|IsArchive  <br/> |Текстовое значение **атрибута IsArchive** указывает, является ли почтовый ящик архивным. Значение текста, **истинное для** **атрибута IsArchive,** указывает на то, что почтовый ящик — это архивный почтовый ящик. Значение false **для** **атрибута IsArchive** указывает, что почтовый ящик является основным почтовым ящиком.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Почтовые ящики (аррайофусермаилбоксестипе)](mailboxes-arrayofusermailboxestype.md)  |  [Маилбоксстатистикссеарчресулт](mailboxstatisticssearchresult.md)
+[Почтовые ящики (ArrayOfUserMailboxesType)](mailboxes-arrayofusermailboxestype.md)  |  [MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44465319"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |true  <br/> |
    
 

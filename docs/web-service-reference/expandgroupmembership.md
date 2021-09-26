@@ -1,23 +1,23 @@
 ---
-title: експандграупмембершип
+title: ExpandGroupMembership
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8989e96b-8fa1-4858-93b2-2cbdb30b9ca9
-description: Элемент Експандграупмембершип указывает, следует ли расширять членство в группе, возвращенной из запроса GetSearchableMailboxes.
-ms.openlocfilehash: 8a94aa3da165ecc13282127e75c8d166f3972ead
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ExpandGroupMembership указывает, следует ли расширять членство группы, возвращаемой из запроса GetSearchableMailboxes.
+ms.openlocfilehash: fb835f8f1fa9fb957c6b3bf3ddef80e68d9c049f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456908"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541401"
 ---
-# <a name="expandgroupmembership"></a>експандграупмембершип
+# <a name="expandgroupmembership"></a>ExpandGroupMembership
 
-Элемент **експандграупмембершип** указывает, следует ли расширять членство в группе, возвращенной из запроса **GetSearchableMailboxes** . 
+Элемент **ExpandGroupMembership** указывает, следует ли расширять членство группы, возвращаемой из **запроса GetSearchableMailboxes.** 
   
 ```XML
 <ExpandGroupMembership>true | false</ExpandGroupMembership>
@@ -26,15 +26,15 @@ ms.locfileid: "44456908"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44456908"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **експандграупелемент** указывает на то, что членство в группе развернуто. Значение **false** указывает, что членство в группе не разворачивается для отображения членов группы. 
+Значение текста, **истинное для** **элемента ExpandGroupElement,** указывает на расширение членства в группе. Значение false **указывает,** что членство в группе не расширяется, чтобы показать членов группы. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44456908"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

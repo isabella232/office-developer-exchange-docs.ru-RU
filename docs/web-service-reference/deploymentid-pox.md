@@ -1,29 +1,29 @@
 ---
-title: Деплойментид (POX)
+title: DeploymentId (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: b879c134-307e-4645-bb53-55d8ba4fad9c
-description: Элемент Деплойментид однозначно идентифицирует лес Microsoft Exchange Server 2007.
-ms.openlocfilehash: 4986a3404763e88fb3e84d52a5d30d54c810f93a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DeploymentId уникально определяет лес Microsoft Exchange Server 2007 года.
+ms.openlocfilehash: 37d66eadb38f02e75a35d0516b36aff07dfdafa6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467923"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545358"
 ---
-# <a name="deploymentid-pox"></a>Деплойментид (POX)
+# <a name="deploymentid-pox"></a>DeploymentId (POX)
 
-Элемент **деплойментид** однозначно идентифицирует лес Microsoft Exchange Server 2007. 
+Элемент **DeploymentId** уникально определяет лес Microsoft Exchange Server 2007 года. 
   
-- [Служба автообнаружения (POX)](autodiscover-pox.md)  
-- [Ответ (POX)](response-pox.md) 
-- [Пользователь (POX)](user-pox.md)  
-- [Деплойментид (POX)](deploymentid-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)  
+- [Response (POX)](response-pox.md) 
+- [User (POX)](user-pox.md)  
+- [DeploymentId (POX)](deploymentid-pox.md)
   
 ```xml
 <DeploymentId/>
@@ -31,31 +31,31 @@ ms.locfileid: "44467923"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Пользователь (POX)](user-pox.md) <br/> |Предоставляет сведения, относящиеся к пользователю.  <br/> |
+|[User (POX)](user-pox.md) <br/> |Предоставляет сведения о пользователях.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение однозначно определяет лес Exchange 2007 в формате GUID.
+Текстовое значение уникально определяет лес 2007 Exchange в формате GUID.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если вы удаляете и затем переустанавливаете Exchange 2007 и используете одно и то же имя сервера, значение **деплойментид** изменяется. 
+Если удалить и переустановить Exchange 2007 и использовать одно имя сервера, значение **DeploymentId** изменится. 
   
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

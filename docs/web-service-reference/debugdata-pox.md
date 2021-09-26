@@ -1,27 +1,27 @@
 ---
-title: Дебугдата (POX)
+title: DebugData (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bf614551-f5b0-4f80-bdac-628f685faee9
-description: Элемент Дебугдата содержит данные отладки для ответа об ошибке автообнаружения.
-ms.openlocfilehash: 79b5f4d3fa1379b7052dcd03053bc8bac6430017
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DebugData содержит данные отлаговки для ответа на ошибку автообнаружа.
+ms.openlocfilehash: ff339e6e92eb8dd9d3d0c1b96c0e4f733a383dc3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526951"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543417"
 ---
-# <a name="debugdata-pox"></a>Дебугдата (POX)
+# <a name="debugdata-pox"></a>DebugData (POX)
 
-Элемент **дебугдата** содержит данные отладки для ответа об ошибке автообнаружения. 
+Элемент **DebugData содержит** данные отлаговки для ответа на ошибку автообнаружа. 
   
-- [Ошибка (POX)](error-pox.md) 
-- [Дебугдата (POX)](debugdata-pox.md)
+- [Error (POX)](error-pox.md) 
+- [DebugData (POX)](debugdata-pox.md)
   
 ```xml
 <DebugData/>
@@ -29,27 +29,27 @@ ms.locfileid: "44526951"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Ошибка (POX)](error-pox.md) <br/> |Содержит ответ об ошибке автообнаружения.  <br/> |
+|[Error (POX)](error-pox.md) <br/> |Содержит ответ на ошибку автонаруже.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет данные отладки для ответа об ошибке автообнаружения.
+Текстовое значение представляет данные отлаговки для ответа на ошибку автообнаружа.
   
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

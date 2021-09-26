@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Task
 api_type:
 - schema
 ms.assetid: 7c84927e-db28-4c5d-b0b5-cbcc2b88d869
-description: Элемент Task представляет задачу в хранилище Exchange.
-ms.openlocfilehash: 669f90dfa74cd085091e9836a1d31ca53bbf165e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Task представляет задачу в Exchange магазине.
+ms.openlocfilehash: 1a9d44480ec92c9adf158e7e71cf3f928b20b64d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458945"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544523"
 ---
 # <a name="task"></a>Задача
 
-Элемент **Task** представляет задачу в хранилище Exchange. 
+Элемент **Task** представляет задачу в Exchange магазине. 
   
 ```xml
 <Task>
@@ -87,99 +87,99 @@ ms.locfileid: "44458945"
 </Task>
 ```
 
-**тасктипе**
+**TaskType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Сохранитьmimecontent](mimecontent.md) <br/> |Содержит собственный многоцелевой поток расширений почты в Интернете (MIME) объекта, представленного в формате base64Binary.  <br/> |
-|[Идентификатор](itemid.md) <br/> |Содержит уникальный идентификатор и ключ изменения элемента в хранилище Exchange.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки, содержащей элемент или папку.  <br/> |
-|[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента.  <br/> |
-|[Тема](subject.md) <br/> |Представляет тему для элементов хранилища Exchange и объектов ответа.  <br/> |
-|[Sensitivity](sensitivity.md) <br/> |Содержит статус чувствительности элемента.  <br/> |
-|[Body](body.md) <br/> |Представляет реальное содержимое основного текста сообщения.  <br/> |
-|[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, вложенные в элемент в хранилище Exchange.  <br/> |
-|[DateTimeReceived](datetimereceived.md) <br/> |Представляет дату и время получения элемента в почтовом ящике.  <br/> |
-|[Размер](size.md) <br/> |Представляет размер элемента (в байтах). Это свойство доступно только для чтения.  <br/> |
-|[Категории](categories-ex15websvcsotherref.md) <br/> |Представляет коллекцию строк, определяющих, к каким категориям принадлежит элемент в почтовом ящике.  <br/> |
+|[MimeContent](mimecontent.md) <br/> |Содержит родной многоцелевой поток расширения интернет-почты (MIME) объекта, представленного в формате base64Binary.  <br/> |
+|[ItemId](itemid.md) <br/> |Содержит уникальный идентификатор и ключ изменения элемента в Exchange магазине.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки, которая содержит элемент или папку.  <br/> |
+|[ItemClass](itemclass.md) <br/> |Представляет класс сообщения элемента.  <br/> |
+|[Тема](subject.md) <br/> |Представляет субъект для Exchange элементов и объектов отклика.  <br/> |
+|[Sensitivity](sensitivity.md) <br/> |Содержит состояние чувствительности элемента.  <br/> |
+|[Основной текст](body.md) <br/> |Представляет фактическое содержимое тела сообщения.  <br/> |
+|[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, присоединенные к элементу в Exchange магазине.  <br/> |
+|[DateTimeReceived](datetimereceived.md) <br/> |Представляет дату и время, когда элемент в почтовом ящике был получен.  <br/> |
+|[Размер](size.md) <br/> |Представляет размер в bytes элемента. Это свойство доступно только для чтения.  <br/> |
+|[Categories](categories-ex15websvcsotherref.md) <br/> |Представляет коллекцию строк, которые определяют, к какой категории относится элемент в почтовом ящике.  <br/> |
 |[Importance](importance.md) <br/> |Описывает важность элемента.  <br/> |
-|[инреплито](inreplyto.md) <br/> |Представляет идентификатор элемента, который является ответом на этот элемент.  <br/> |
-|[Отправлено](issubmitted.md) <br/> |Указывает, был ли элемент отправлен в папку "Исходящие" по умолчанию.  <br/> |
-|[Черновик](isdraft.md) <br/> |Указывает, был ли элемент еще не отправлен.  <br/> |
-|[исфромме](isfromme.md) <br/> |Указывает, отправляет ли пользователь элемент.  <br/> |
-|[исресенд](isresend.md) <br/> |Указывает, был ли ранее отправлен элемент.  <br/> |
-|[исунмодифиед](isunmodified.md) <br/> |Указывает, был ли изменен элемент.  <br/> |
-|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Представляет коллекцию всех заголовков сообщений Интернета, которые находятся в элементе почтового ящика.  <br/> |
-|[датетимесент](datetimesent.md) <br/> |Представляет дату и время отправки элемента в почтовом ящике.  <br/> |
-|[DateTimeCreated](datetimecreated.md) <br/> |Представляет дату и время создания определенного элемента в почтовом ящике.  <br/> |
-|[респонсеобжектс](responseobjects.md) <br/> |Содержит коллекцию всех объектов ответа, связанных с элементом в хранилище Exchange.  <br/> |
-|[реминдердуеби](reminderdueby.md) <br/> |Представляет дату и время возникновения события. Он используется элементом [реминдерминутесбефорестарт](reminderminutesbeforestart.md) для определения времени отображения напоминания.  <br/> |
-|[реминдериссет](reminderisset.md) <br/> |Указывает, задано ли напоминание для элемента в хранилище Exchange.  <br/> |
-|[ReminderMinutesBeforeStart](reminderminutesbeforestart.md) <br/> |Представляет количество минут до события при отображении напоминания.  <br/> |
-|[дисплайкк](displaycc.md) <br/> |Представляет отображаемую строку, используемую для содержимого поля "копия". Это объединенная строка всех отображаемых имен получателей копии.  <br/> |
-|[дисплайто](displayto.md) <br/> |Представляет отображаемую строку, используемую для содержимого поля "Кому". Это объединенная строка для отображаемых имен получателей.  <br/> |
-|[HasAttachments](hasattachments.md) <br/> |Представляет свойство, для которого задано значение **true** , если элемент имеет по крайней мере одно видимое вложение. Это свойство доступно только для чтения.  <br/> |
-|[ExtendedProperty](extendedproperty.md) <br/> |Определяет расширенные свойства для папок и элементов.  <br/> |
-|[Culture](culture.md) <br/> |Представляет язык и региональные параметры для определенного элемента в почтовом ящике.  <br/> |
-|[ActualWork](actualwork.md) <br/> |Представляет фактическое количество времени, затраченное на выполнение задачи.  <br/> |
-|[ассигнедтиме](assignedtime.md) <br/> |Представляет время, когда задача назначена контакту.  <br/> |
-|[BillingInformation](billinginformation.md) <br/> |Содержит сведения о выставлении счетов для задачи.  <br/> |
-|[чанжекаунт](changecount.md) <br/> |Указывает версию задачи.  <br/> |
+|[InReplyTo](inreplyto.md) <br/> |Представляет идентификатор элемента, на который этот элемент является ответом.  <br/> |
+|[IsSubmitted](issubmitted.md) <br/> |Указывает, был ли элемент отправлен в папку по умолчанию "Избокс".  <br/> |
+|[IsDraft](isdraft.md) <br/> |Представляет, был ли элемент еще не отправлен.  <br/> |
+|[IsFromMe](isfromme.md) <br/> |Указывает, отправил ли пользователь элемент ему или себе.  <br/> |
+|[IsResend](isresend.md) <br/> |Указывает, был ли ранее отправлен элемент.  <br/> |
+|[IsUnmodified](isunmodified.md) <br/> |Указывает, был ли элемент изменен.  <br/> |
+|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Представляет коллекцию всех заглавных сообщений в Интернете, содержащихся в элементе в почтовом ящике.  <br/> |
+|[DateTimeSent](datetimesent.md) <br/> |Представляет дату и время, когда был отправлен элемент в почтовом ящике.  <br/> |
+|[DateTimeCreated](datetimecreated.md) <br/> |Представляет дату и время создания данного элемента в почтовом ящике.  <br/> |
+|[ResponseObjects](responseobjects.md) <br/> |Содержит коллекцию всех объектов отклика, связанных с элементом в Exchange магазине.  <br/> |
+|[ReminderDueBy](reminderdueby.md) <br/> |Представляет дату и время, когда происходит событие. Этот элемент используется [элементом ReminderMinutesBeforeStart](reminderminutesbeforestart.md) для определения времени отображения напоминания.  <br/> |
+|[ReminderIsSet](reminderisset.md) <br/> |Указывает, установлено ли напоминание для элемента в Exchange магазине.  <br/> |
+|[ReminderMinutesBeforeStart](reminderminutesbeforestart.md) <br/> |Представляет количество минут до события, когда отображается напоминание.  <br/> |
+|[DisplayCc](displaycc.md) <br/> |Представляет строку отображения, используемую для содержимого окна Cc. Это совмещенная строка всех имен отображения получателей Cc.  <br/> |
+|[DisplayTo](displayto.md) <br/> |Представляет строку отображения, используемую для содержимого окна To. Это конкаентированная строка всех имен отображения получателей.  <br/> |
+|[HasAttachments](hasattachments.md) <br/> |Представляет свойство, которое настроено на **верное,** если элемент имеет хотя бы одно видимое вложение. Это свойство доступно только для чтения.  <br/> |
+|[ExtendedProperty](extendedproperty.md) <br/> |Определяет расширенные свойства папок и элементов.  <br/> |
+|[Culture](culture.md) <br/> |Представляет культуру для данного элемента в почтовом ящике.  <br/> |
+|[ActualWork](actualwork.md) <br/> |Представляет фактическое время, затраченное на задачу.  <br/> |
+|[AssignedTime](assignedtime.md) <br/> |Представляет время, когда задача назначена контакту.  <br/> |
+|[BillingInformation](billinginformation.md) <br/> |Содержит сведения о выставлении счета для задачи.  <br/> |
+|[ChangeCount](changecount.md) <br/> |Указывает версию задачи.  <br/> |
 |[Companies](companies.md) <br/> |Представляет коллекцию компаний, связанных с контактом или задачей.  <br/> |
-|[комплетедате](completedate.md) <br/> |Представляет дату завершения задачи.  <br/> |
+|[CompleteDate](completedate.md) <br/> |Представляет дату завершения задачи.  <br/> |
 |[Контакты](contacts-ex15websvcsotherref.md) <br/> |Содержит список контактов, связанных с задачей.  <br/> |
 |[DelegationState](delegationstate.md) <br/> |Представляет состояние делегированной задачи.  <br/> |
-|[Delegator](delegator.md) <br/> |Содержит имя представителя, которому назначена задача.  <br/> |
-|[DueDate](duedate.md) <br/> |Представляет дату выполнения элемента задачи.  <br/> |
-|[исассигнментедитабле](isassignmenteditable.md) <br/> |Указывает, является ли задача редактируемой.  <br/> |
-|[Выполнение](iscomplete.md) <br/> |Указывает, завершена ли задача.  <br/> |
+|[Delegator](delegator.md) <br/> |Содержит имя делегатора, которому назначена задача.  <br/> |
+|[DueDate](duedate.md) <br/> |Представляет дату, когда должен быть поставлен элемент задачи.  <br/> |
+|[IsAssignmentEditable](isassignmenteditable.md) <br/> |Указывает, является ли задача редактируемой или нет.  <br/> |
+|[IsComplete](iscomplete.md) <br/> |Указывает, выполнена ли задача или нет.  <br/> |
 |[IsRecurring](isrecurring.md) <br/> |Указывает, является ли задача частью повторяющегося элемента. Этот элемент доступен только для чтения.  <br/> |
-|[истеамтаск](isteamtask.md) <br/> |Указывает, принадлежит ли задача группе или нет.  <br/> |
-|[Mileage](mileage.md) <br/> |Представляет расстояние для элемента задачи.  <br/> |
+|[IsTeamTask](isteamtask.md) <br/> |Указывает, принадлежит ли задача команде или нет.  <br/> |
+|[Mileage](mileage.md) <br/> |Представляет пробег для элемента задачи.  <br/> |
 |[Owner](owner.md) <br/> |Представляет владельца задачи.  <br/> |
-|[PercentComplete](percentcomplete.md) <br/> |Описывает состояние выполнения задачи.  <br/> |
-|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
+|[PercentComplete](percentcomplete.md) <br/> |Описывает состояние завершения задачи.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторяющихся задачах.  <br/> |
 |[StartDate](startdate.md) <br/> |Представляет дату начала элемента задачи.  <br/> |
-|[Status](status.md) <br/> |Представляет состояние элемента задачи.  <br/> |
-|[статусдескриптион](statusdescription.md) <br/> |Содержит описание состояния задачи.  <br/> |
-|[TotalWork](totalwork.md) <br/> |Содержит описание объема работы, связанного с элементом.  <br/> |
-|[еффективеригхтс](effectiverights.md) <br/> |Содержит права клиента на основе параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.  <br/> |
-|[ластмодифиеднаме](lastmodifiedname.md) <br/> |Содержит отображаемое имя последнего пользователя для изменения элемента.  <br/> |
-|[LastModifiedTime](lastmodifiedtime.md) <br/> |Указывает время последнего изменения элемента.  <br/> |
-|[Связанный](isassociated.md) <br/> |Указывает, связан ли элемент с папкой.  <br/> |
-|[вебклиентреадформкуеристринг](webclientreadformquerystring.md) <br/> |Представляет URL-адрес для сцепления с конечной точкой Microsoft Office Outlook Web App для чтения элемента в Outlook Web App.  <br/> |
-|[вебклиентедитформкуеристринг](webclienteditformquerystring.md) <br/> |Представляет URL-адрес для сцепления с конечной точкой Outlook Web App для изменения элемента в Outlook Web App.  <br/> |
+|[Состояние](status.md) <br/> |Представляет состояние элемента задачи.  <br/> |
+|[StatusDescription](statusdescription.md) <br/> |Содержит объяснение состояния задачи.  <br/> |
+|[TotalWork](totalwork.md) <br/> |Содержит описание того, сколько работы связано с элементом.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Содержит права клиента на основе параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.  <br/> |
+|[LastModifiedName](lastmodifiedname.md) <br/> |Содержит имя отображения последнего пользователя, который должен изменить элемент.  <br/> |
+|[LastModifiedTime](lastmodifiedtime.md) <br/> |Указывает, когда элемент был изменен в последний раз.  <br/> |
+|[IsAssociated](isassociated.md) <br/> |Указывает, связан ли элемент с папкой.  <br/> |
+|[WebClientReadFormQueryString](webclientreadformquerystring.md) <br/> |Представляет URL-адрес для одновременного Microsoft Office Outlook конечной точки веб-приложения для чтения элемента в Outlook Web App.  <br/> |
+|[WebClientEditFormQueryString](webclienteditformquerystring.md) <br/> |Представляет URL-адрес для одновременного Outlook Web App конечной точки для редактирования элемента в Outlook Web App.  <br/> |
 |[ConversationId](conversationid.md) <br/> |Содержит идентификатор элемента или беседы.  <br/> |
-|[UniqueBody](uniquebody.md) <br/> |Представляет фрагмент HTML или обычный текст, представляющий уникальный основной текст этой беседы.  <br/> |
+|[UniqueBody](uniquebody.md) <br/> |Представляет фрагмент HTML или простой текст, который представляет уникальное тело этого разговора.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аджацентмитингс](adjacentmeetings.md) <br/> |Описывает все элементы календаря, смежные с временем собрания.  <br/> |
-|[аппендтоитемфиелд](appendtoitemfield.md) <br/> |Определяет данные, добавляемые в одно свойство элемента/папки во время [операции UpdateItem](updateitem-operation.md).  <br/> |
-|[конфликтингмитингс](conflictingmeetings.md) <br/> |Определяет все элементы, которые конфликтуют с временем собрания.  <br/> |
-|[Create (Итемсинк)](create-itemsync.md) <br/> |Определяет один элемент, который необходимо создать в локальном хранилище клиента.  <br/> |
+|[AdjacentMeetings](adjacentmeetings.md) <br/> |Описывает все элементы календаря, которые примыкают к времени собрания.  <br/> |
+|[AppendToItemField](appendtoitemfield.md) <br/> |Определяет данные для приложения к одному свойству элемента или папки во время операции [UpdateItem.](updateitem-operation.md)  <br/> |
+|[ConflictingMeetings](conflictingmeetings.md) <br/> |Определяет все элементы, конфликтуя со временем собрания.  <br/> |
+|[Create (ItemSync)](create-itemsync.md) <br/> |Определяет один элемент, который необходимо создать в локальном клиентской магазине.  <br/> |
 |[ItemAttachment](itemattachment.md) <br/> |Представляет элемент Exchange, присоединенный к другому элементу Exchange.  <br/> |
 |[Items](items.md) <br/> |Содержит массив элементов.  <br/> |
-|[сетитемфиелд](setitemfield.md) <br/> |Представляет обновление одного свойства элемента в [операции UpdateItem](updateitem-operation.md).  <br/> |
-|[Обновление (Итемсинк)](update-itemsync.md) <br/> |Определяет один элемент для обновления в локальном хранилище клиента.  <br/> |
+|[SetItemField](setitemfield.md) <br/> |Представляет обновление одного свойства элемента в операции [UpdateItem.](updateitem-operation.md)  <br/> |
+|[Update (ItemSync)](update-itemsync.md) <br/> |Определяет один элемент для обновления в локальном клиентской магазине.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -189,7 +189,7 @@ ms.locfileid: "44458945"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

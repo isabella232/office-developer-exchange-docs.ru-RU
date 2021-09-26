@@ -1,27 +1,27 @@
 ---
-title: басеоффсет
+title: BaseOffset
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BaseOffset
 api_type:
 - schema
 ms.assetid: 0ffad7a6-8e1b-452b-9d87-8e0f6c77f0a6
-description: Элемент Басеоффсет представляет почасовое смещение от времени в формате UTC для текущего часового пояса.
-ms.openlocfilehash: 1e29f123dfac2e29807e0a2077d47adb14844f4e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент BaseOffset представляет почасовую компенсацию из согласованного универсального времени (UTC) для текущего часового пояса.
+ms.openlocfilehash: e12eab618a57d3340358174de2b6b9d7bf94135a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460262"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543676"
 ---
-# <a name="baseoffset"></a>басеоффсет
+# <a name="baseoffset"></a>BaseOffset
 
-Элемент **басеоффсет** представляет почасовое смещение от времени в формате UTC для текущего часового пояса. 
+Элемент **BaseOffset представляет** почасовую компенсацию из согласованного универсального времени (UTC) для текущего часового пояса. 
   
 ```xml
 <BaseOffset/>
@@ -30,7 +30,7 @@ ms.locfileid: "44460262"
  **duration**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
@@ -38,15 +38,15 @@ ms.locfileid: "44460262"
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[митингтимезоне](meetingtimezone.md) <br/> |Представляет часовой пояс для расположения, в котором размещается собрание.  <br/> |
+|[MeetingTimeZone](meetingtimezone.md) <br/> |Представляет часовой пояс расположения, где проходит собрание.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44460262"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

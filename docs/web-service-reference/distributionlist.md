@@ -1,27 +1,27 @@
 ---
-title: дистрибутионлист
+title: DistributionList
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DistributionList
 api_type:
 - schema
 ms.assetid: f65aea01-e870-44a2-8571-fa6c001341cc
-description: Элемент Дистрибутионлист представляет список рассылки.
-ms.openlocfilehash: 5eb97bef349ca02848f65fa58370b9c81c6653d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DistributionList представляет список рассылки.
+ms.openlocfilehash: 1ca198543c6da62827f2f2b0fe2b7ec9c7e79615
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457006"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545274"
 ---
-# <a name="distributionlist"></a>дистрибутионлист
+# <a name="distributionlist"></a>DistributionList
 
-Элемент **дистрибутионлист** представляет список рассылки. 
+Элемент **DistributionList** представляет список рассылки. 
   
 ```xml
 <DistributionList>
@@ -70,80 +70,80 @@ ms.locfileid: "44457006"
 </DistributionList>
 ```
 
- **дистрибутионлисттипе**
+ **DistributionListType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Сохранитьmimecontent](mimecontent.md) <br/> |Содержит собственный поток MIME объекта, представленный в формате base64Binary.  <br/> |
-|[Идентификатор](itemid.md) <br/> |Содержит уникальный идентификатор и ключ изменения элемента списка рассылки в хранилище Exchange.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки, содержащей элемент списка рассылки.  <br/> |
-|[ItemClass](itemclass.md) <br/> |Представляет класс сообщения для элемента списка рассылки.  <br/> |
-|[Тема](subject.md) <br/> |Представляет тему для элементов хранилища Exchange и объектов ответа.  <br/> |
+|[MimeContent](mimecontent.md) <br/> |Содержит родной поток MIME объекта, представленного в формате base64Binary.  <br/> |
+|[ItemId](itemid.md) <br/> |Содержит уникальный идентификатор и ключ к изменению элемента списка рассылки в Exchange магазине.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки, которая содержит элемент списка рассылки.  <br/> |
+|[ItemClass](itemclass.md) <br/> |Представляет класс сообщений элемента списка рассылки.  <br/> |
+|[Тема](subject.md) <br/> |Представляет субъект для Exchange элементов и объектов отклика.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Содержит состояние чувствительности элемента списка рассылки.  <br/> |
-|[Body](body.md) <br/> |Представляет фактический основной контент элемента списка рассылки.  <br/> |
-|[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, вложенные в элемент списка рассылки в хранилище Exchange.  <br/> |
-|[DateTimeReceived](datetimereceived.md) <br/> |Представляет дату и время получения элемента списка рассылки в почтовом ящике.  <br/> |
-|[Размер](size.md) <br/> |Представляет размер элемента списка рассылки (в байтах). Это свойство доступно только для чтения.  <br/> |
-|[Категории](categories-ex15websvcsotherref.md) <br/> |Представляет коллекцию строк, указывающих, к каким категориям принадлежит элемент списка рассылки в почтовом ящике.  <br/> |
+|[Основной текст](body.md) <br/> |Представляет фактическое содержимое тела элемента списка рассылки.  <br/> |
+|[Вложения](attachments-ex15websvcsotherref.md) <br/> |Содержит элементы или файлы, присоединенные к элементу списка рассылки в Exchange магазине.  <br/> |
+|[DateTimeReceived](datetimereceived.md) <br/> |Представляет дату и время, когда был получен элемент списка рассылки в почтовом ящике.  <br/> |
+|[Размер](size.md) <br/> |Представляет размер в bytes элемента списка рассылки. Это свойство доступно только для чтения.  <br/> |
+|[Categories](categories-ex15websvcsotherref.md) <br/> |Представляет коллекцию строк, которые определяют, к какой категории относится элемент списка рассылки в почтовом ящике.  <br/> |
 |[Importance](importance.md) <br/> |Описывает важность элемента списка рассылки.  <br/> |
-|[инреплито](inreplyto.md) <br/> |Представляет идентификатор элемента, который является ответом для этого элемента.  <br/> |
-|[Отправлено](issubmitted.md) <br/> |Указывает, был ли элемент отправлен в папку "Исходящие" по умолчанию.  <br/> |
-|[Черновик](isdraft.md) <br/> |Указывает, был ли элемент еще не отправлен.  <br/> |
-|[исфромме](isfromme.md) <br/> |Указывает, отправил ли пользователь элемент самому себе.  <br/> |
-|[исресенд](isresend.md) <br/> |Указывает, был ли ранее отправлен элемент.  <br/> |
-|[исунмодифиед](isunmodified.md) <br/> |Указывает, был ли изменен элемент.  <br/> |
-|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Представляет коллекцию всех заголовков сообщений Интернета, содержащихся в элементе почтового ящика.  <br/> |
-|[датетимесент](datetimesent.md) <br/> |Представляет дату и время отправки элемента в почтовом ящике.  <br/> |
-|[DateTimeCreated](datetimecreated.md) <br/> |Представляет дату и время создания определенного элемента в почтовом ящике.  <br/> |
-|[респонсеобжектс](responseobjects.md) <br/> |Содержит коллекцию всех объектов ответа, связанных с элементом в хранилище Exchange.  <br/> |
-|[реминдердуеби](reminderdueby.md) <br/> |Представляет дату и время возникновения события. Он используется элементом [реминдерминутесбефорестарт](reminderminutesbeforestart.md) для определения времени отображения напоминания.  <br/> |
-|[реминдериссет](reminderisset.md) <br/> |Указывает, задано ли напоминание для элемента в хранилище Exchange.  <br/> |
-|[ReminderMinutesBeforeStart](reminderminutesbeforestart.md) <br/> |Представляет количество минут до события при отображении напоминания.  <br/> |
-|[дисплайкк](displaycc.md) <br/> |Представляет отображаемую строку, используемую для содержимого строки "копия". Это объединенная строка всех отображаемых имен получателей копии.  <br/> |
-|[дисплайто](displayto.md) <br/> |Представляет отображаемую строку, используемую для содержимого строки "Кому". Это объединенная строка для отображаемых имен получателей.  <br/> |
-|[HasAttachments](hasattachments.md) <br/> |Представляет свойство, для которого задано значение **true** , если элемент имеет по крайней мере одно видимое вложение. Это свойство доступно только для чтения.  <br/> |
-|[ExtendedProperty](extendedproperty.md) <br/> |Определяет расширенные свойства для элемента списка рассылки.  <br/> |
-|[Culture](culture.md) <br/> |Представляет язык и региональные параметры для элемента списка рассылки в почтовом ящике.  <br/> |
-|[еффективеригхтс](effectiverights.md) <br/> |Содержит права клиента на основе параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.  <br/> |
-|[ластмодифиеднаме](lastmodifiedname.md) <br/> |Содержит отображаемое имя последнего пользователя для изменения элемента.  <br/> |
-|[LastModifiedTime](lastmodifiedtime.md) <br/> |Указывает время последнего изменения элемента.  <br/> |
-|[Связанный](isassociated.md) <br/> |Указывает, связан ли элемент с папкой.  <br/> |
-|[вебклиентреадформкуеристринг](webclientreadformquerystring.md) <br/> |Представляет URL-адрес для сцепления с конечной точкой Microsoft Office Outlook Web App для чтения элемента в Outlook Web App.  <br/> |
-|[вебклиентедитформкуеристринг](webclienteditformquerystring.md) <br/> |Представляет URL-адрес для сцепления с конечной точкой Outlook Web App для изменения элемента в Outlook Web App.  <br/> |
+|[InReplyTo](inreplyto.md) <br/> |Представляет идентификатор элемента, ответом которого является этот элемент.  <br/> |
+|[IsSubmitted](issubmitted.md) <br/> |Указывает, был ли элемент отправлен в папку по умолчанию "Избокс".  <br/> |
+|[IsDraft](isdraft.md) <br/> |Представляет, был ли элемент еще не отправлен.  <br/> |
+|[IsFromMe](isfromme.md) <br/> |Указывает, отправил ли пользователь элемент самому себе.  <br/> |
+|[IsResend](isresend.md) <br/> |Указывает, был ли ранее отправлен элемент.  <br/> |
+|[IsUnmodified](isunmodified.md) <br/> |Указывает, был ли элемент изменен.  <br/> |
+|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Представляет коллекцию всех заглавных сообщений в Интернете, содержащихся в элементе в почтовом ящике.  <br/> |
+|[DateTimeSent](datetimesent.md) <br/> |Представляет дату и время, когда был отправлен элемент в почтовом ящике.  <br/> |
+|[DateTimeCreated](datetimecreated.md) <br/> |Представляет дату и время создания данного элемента в почтовом ящике.  <br/> |
+|[ResponseObjects](responseobjects.md) <br/> |Содержит коллекцию всех объектов отклика, связанных с элементом в Exchange магазине.  <br/> |
+|[ReminderDueBy](reminderdueby.md) <br/> |Представляет дату и время, когда происходит событие. Этот элемент используется [элементом ReminderMinutesBeforeStart](reminderminutesbeforestart.md) для определения времени отображения напоминания.  <br/> |
+|[ReminderIsSet](reminderisset.md) <br/> |Указывает, установлено ли напоминание для элемента в Exchange магазине.  <br/> |
+|[ReminderMinutesBeforeStart](reminderminutesbeforestart.md) <br/> |Представляет количество минут до события, когда отображается напоминание.  <br/> |
+|[DisplayCc](displaycc.md) <br/> |Представляет строку отображения, используемую для содержимого строки Cc. Это совмещенная строка всех имен отображения получателей Cc.  <br/> |
+|[DisplayTo](displayto.md) <br/> |Представляет строку отображения, используемую для содержимого строки To. Это конкаентированная строка всех имен отображения получателей.  <br/> |
+|[HasAttachments](hasattachments.md) <br/> |Представляет свойство, которое настроено на **верное,** если элемент имеет хотя бы одно видимое вложение. Это свойство доступно только для чтения.  <br/> |
+|[ExtendedProperty](extendedproperty.md) <br/> |Определяет расширенные свойства в элементе списка рассылки.  <br/> |
+|[Culture](culture.md) <br/> |Представляет культуру элемента списка рассылки в почтовом ящике.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Содержит права клиента на основе параметров разрешений для элемента или папки. Этот элемент доступен только для чтения.  <br/> |
+|[LastModifiedName](lastmodifiedname.md) <br/> |Содержит имя отображения последнего пользователя, который должен изменить элемент.  <br/> |
+|[LastModifiedTime](lastmodifiedtime.md) <br/> |Указывает, когда элемент был изменен в последний раз.  <br/> |
+|[IsAssociated](isassociated.md) <br/> |Указывает, связан ли элемент с папкой.  <br/> |
+|[WebClientReadFormQueryString](webclientreadformquerystring.md) <br/> |Представляет URL-адрес для одновременного Microsoft Office Outlook конечной точки веб-приложения для чтения элемента в Outlook Web App.  <br/> |
+|[WebClientEditFormQueryString](webclienteditformquerystring.md) <br/> |Представляет URL-адрес для одновременного Outlook Web App конечной точки для редактирования элемента в Outlook Web App.  <br/> |
 |[ConversationId](conversationid.md) <br/> |Содержит идентификатор элемента или беседы.  <br/> |
-|[UniqueBody](uniquebody.md) <br/> |Представляет фрагмент HTML или обычный текст, представляющий уникальный основной текст этой беседы.  <br/> |
-|[DisplayName (строка)](displayname-string.md) <br/> |Определяет отображаемое имя списка рассылки.  <br/> |
-|[FileAs](fileas.md) <br/> |Представляет способ хранения списка рассылки в папке "Контакты".  <br/> |
-|[контактсаурце](contactsource.md) <br/> |Указывает, находится ли контакт в хранилище Exchange или в доменных службах Active Directory (AD DS).  <br/> |
-|[Members (Мемберлисттипе)](members-memberlisttype.md) <br/> |Содержит список членов списка рассылки.  <br/> |
+|[UniqueBody](uniquebody.md) <br/> |Представляет фрагмент HTML или простой текст, который представляет уникальное тело этого разговора.  <br/> |
+|[DisplayName (string)](displayname-string.md) <br/> |Определяет имя отображения списка рассылки.  <br/> |
+|[FileAs](fileas.md) <br/> |Представляет, как список рассылки подан в папке "Контакты".  <br/> |
+|[ContactSource](contactsource.md) <br/> |Описывает, находится ли контакт в Exchange или в службе домена Active Directory (AD DS).  <br/> |
+|[Members (MemberListType)](members-memberlisttype.md) <br/> |Содержит список участников списка рассылки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аджацентмитингс](adjacentmeetings.md) <br/> |Описывает все элементы календаря, смежные с временем собрания.  <br/> |
-|[аппендтоитемфиелд](appendtoitemfield.md) <br/> |Определяет данные, добавляемые к одному свойству списка рассылки во время [операции UpdateItem](updateitem-operation.md).  <br/> |
-|[конфликтингмитингс](conflictingmeetings.md) <br/> |Определяет все элементы, которые конфликтуют с временем собрания.  <br/> |
-|[Create (Итемсинк)](create-itemsync.md) <br/> |Определяет один список рассылки для создания в локальном хранилище клиента.  <br/> |
-|[Обновление (Итемсинк)](update-itemsync.md) <br/> |Определяет один список рассылки для обновления в локальном хранилище клиента.  <br/> |
+|[AdjacentMeetings](adjacentmeetings.md) <br/> |Описывает все элементы календаря, которые примыкают к времени собрания.  <br/> |
+|[AppendToItemField](appendtoitemfield.md) <br/> |Определяет данные для приложения к одному свойству списка рассылки во время операции [UpdateItem.](updateitem-operation.md)  <br/> |
+|[ConflictingMeetings](conflictingmeetings.md) <br/> |Определяет все элементы, конфликтуя со временем собрания.  <br/> |
+|[Create (ItemSync)](create-itemsync.md) <br/> |Определяет единый список рассылки, который необходимо создать в локальном клиентской магазине.  <br/> |
+|[Update (ItemSync)](update-itemsync.md) <br/> |Определяет единый список рассылки для обновления в локальном магазине клиентов.  <br/> |
 |[Items](items.md) <br/> |Содержит массив элементов.  <br/> |
-|[Элементы (Нонемптяррайофаллитемстипе)](items-nonemptyarrayofallitemstype.md) <br/> |Содержит массив элементов для создания в папке, определенной элементом [ParentFolderId (таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md) .  <br/> |
-|[сетитемфиелд](setitemfield.md) <br/> |Представляет обновление одного свойства элемента списка рассылки в [операции UpdateItem](updateitem-operation.md).  <br/> |
+|[Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Содержит массив элементов, которые необходимо создать в папке, идентифицированной элементом [ParentFolderId (TargetFolderIdType).](parentfolderid-targetfolderidtype.md)  <br/> |
+|[SetItemField](setitemfield.md) <br/> |Представляет обновление одного свойства элемента списка рассылки в операции [UpdateItem.](updateitem-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -153,7 +153,7 @@ ms.locfileid: "44457006"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

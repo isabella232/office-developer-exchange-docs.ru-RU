@@ -1,27 +1,27 @@
 ---
-title: еррорсубскриптионидс
+title: ErrorSubscriptionIds
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ErrorSubscriptionIds
 api_type:
 - schema
 ms.assetid: e64e76ff-4d98-4082-9acc-a1114ae45f44
-description: Элемент Еррорсубскриптионидс содержит массив недопустимых идентификаторов подписки.
-ms.openlocfilehash: bdc5c86560800464d677a9043607bed3f7872e32
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ErrorSubscriptionIds содержит массив недействительных ИД подписки.
+ms.openlocfilehash: 7a84a945991e0c002701586e21f5e8612c884334
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526188"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545211"
 ---
-# <a name="errorsubscriptionids"></a>еррорсубскриптионидс
+# <a name="errorsubscriptionids"></a>ErrorSubscriptionIds
 
-Элемент **еррорсубскриптионидс** содержит массив недопустимых идентификаторов подписки. 
+Элемент **ErrorSubscriptionIds** содержит массив недействительных ИД подписки. 
   
 ```xml
 <ErrorSubscriptionIds>
@@ -29,32 +29,32 @@ ms.locfileid: "44526188"
 </ErrorSubscriptionIds>
 ```
 
- **нонемптяррайофсубскриптионидстипе**
+ **NonEmptyArrayOfSubscriptionIdsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SubscriptionId (Events)](subscriptionid-getevents.md) <br/> |Представляет идентификатор подписки.  <br/> |
+|[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Представляет идентификатор подписки.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[жетстреаминжевентсреспонсемессаже](getstreamingeventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции GetStreamingEvents.](getstreamingevents-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -62,9 +62,9 @@ ms.locfileid: "44526188"
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages и https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Имя схемы  <br/> |Схема сообщений; Схема Types  <br/> |
-|Файл проверки  <br/> |Messages. xsd; Types. xsd  <br/> |
+|Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages и https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Имя схемы  <br/> |Схема сообщений; Схема типов  <br/> |
+|Файл проверки  <br/> |Messages.xsd; Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

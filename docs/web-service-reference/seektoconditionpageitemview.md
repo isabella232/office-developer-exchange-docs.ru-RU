@@ -1,23 +1,23 @@
 ---
-title: сиктокондитионпажеитемвиев
+title: SeekToConditionPageItemView
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3b86720-d086-47c3-94af-921fdd719edf
-description: Элемент Сиктокондитионпажеитемвиев определяет условие, которое используется для определения конца поиска, начального индекса поиска, максимальных возвращаемых записей и инструкций поиска для поиска FindItem или FindConversation.
-ms.openlocfilehash: dbb073263740ccdf75367f85f672b7d5ec78f7a0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SeekToConditionPageItemView определяет условие, используемое для определения конца поиска, начального индекса поиска, максимального возврата записей и направлений поиска для поиска FindItem или FindConversation.
+ms.openlocfilehash: 6f4797a6b90456a50922db1c829757711816273e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466838"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546107"
 ---
-# <a name="seektoconditionpageitemview"></a>сиктокондитионпажеитемвиев
+# <a name="seektoconditionpageitemview"></a>SeekToConditionPageItemView
 
-Элемент **сиктокондитионпажеитемвиев** определяет условие, которое используется для определения конца поиска, начального индекса поиска, максимальных возвращаемых записей и инструкций поиска для поиска **FindItem** или **FindConversation** . 
+Элемент **SeekToConditionPageItemView** определяет условие, используемое для определения конца поиска, начального индекса поиска, максимального возврата записей и направлений поиска для поиска **FindItem** или **FindConversation.** 
   
 ```XML
 <SeekToConditionPageItemView BasePoint="" MaxEntriesReturned="">
@@ -25,27 +25,27 @@ ms.locfileid: "44466838"
 </SeekToConditionPageItemView>
 ```
 
- **сиктокондитионпажевиевтипе**
+ **SeekToConditionPageViewType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|басепоинт  <br/> |Текстовое значение атрибута **басепоинт** — это базовая точка, с которой начнется поиск. Текстовое значение **start указывает на** то, что поиск начнется с начала набора результатов. Текстовое значение **End** указывает на то, что поиск начнется в конце набора результатов.  <br/> |
-|максентриесретурнед  <br/> |Текстовое значение атрибута **максентриесретурнед** — максимальное количество элементов, которые могут быть возвращены в наборе результатов.  <br/> |
+|BasePoint  <br/> |Текстовое значение атрибута **BasePoint** — это базовая точка, с которой начнется поиск. Текстовое значение **Beginning** указывает, что поиск начнется в начале набора результатов. Текстовое значение **End** указывает, что поиск начнется в конце набора результатов.  <br/> |
+|MaxEntriesReturned  <br/> |Текстовое значение **атрибута MaxEntriesReturned** — это максимальное количество элементов, которые могут быть возвращены в наборе результатов.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Condition (Рестриктионтипе)](condition-restrictiontype.md)
+[Condition (RestrictionType)](condition-restrictiontype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [FindConversation](findconversation.md)  |  [FindItem](finditem.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44466838"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

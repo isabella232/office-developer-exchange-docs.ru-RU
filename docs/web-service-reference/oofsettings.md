@@ -1,31 +1,31 @@
 ---
-title: уфсеттингс
+title: OofSettings
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OofSettings
 api_type:
 - schema
 ms.assetid: 8f37d174-db11-427c-bbed-fdde754a60c7
-description: Элемент Уфсеттингс содержит параметры заместителя (отсутствие на работе).
-ms.openlocfilehash: c1b214fd8bfab5b7a82d41a5187cf6e0fc4ba79c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент OofSettings содержит параметры Out of Office (OOF).
+ms.openlocfilehash: 0a612cacb69464dfda3c1f235c32f569d3e45775
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467195"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543172"
 ---
-# <a name="oofsettings"></a>уфсеттингс
+# <a name="oofsettings"></a>OofSettings
 
-Элемент **уфсеттингс** содержит параметры заместителя (отсутствие на работе). 
+Элемент **OofSettings** содержит параметры Out of Office (OOF). 
   
-[жетусеруфсеттингсреспонсе](getuseroofsettingsresponse.md)
+[GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
   
-[уфсеттингс](oofsettings.md)
+[OofSettings](oofsettings.md)
   
 ```xml
 <OofSettings>
@@ -37,32 +37,32 @@ ms.locfileid: "44467195"
 </OofSettings>
 ```
 
- **усеруфсеттингс**
+ **UserOofSettings**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[уфстате](oofstate.md) <br/> |Содержит состояние отсутствия на работе пользователя.  <br/> |
-|[екстерналаудиенце](externalaudience.md) <br/> |Содержит значение, определяющее, кому отправляются внешние сообщения об отсутствии на работе.  <br/> |
-|[Продолжительность (Усеруфсеттингс)](duration-useroofsettings.md) <br/> |Содержит время, в течение которого состояние отсутствия на работе включено, если для элемента [уфстате](oofstate.md) задано значение " **запланировано**". Если для элемента [уфстате](oofstate.md) задано значение **Enabled** или **disabled**, значение этого элемента игнорируется.  <br/> |
-|[интерналрепли](internalreply.md) <br/> |Содержит ответ о нерабочем месте, отправленный другим пользователям в домене пользователя или доверенном домене.  <br/> |
-|[екстерналрепли](externalreply.md) <br/> |Содержит ответ о нерабочем месте, отправленный на адреса, не входящие в домен получателя или доверенные домены.  <br/> |
+|[OofState](oofstate.md) <br/> |Содержит состояние OOF пользователя.  <br/> |
+|[ExternalAudience](externalaudience.md) <br/> |Содержит значение, которое определяет, кому отправляются внешние сообщения OOF.  <br/> |
+|[Duration (UserOofSettings)](duration-useroofsettings.md) <br/> |Содержит продолжительность, для которой включен статус OOF, если элемент [OofState](oofstate.md) настроен **на Scheduled**. Если элемент [OofState](oofstate.md) заданной для включения или **отключения,** значение этого элемента игнорируется.   <br/> |
+|[InternalReply](internalreply.md) <br/> |Содержит ответ OOF, отправленный другим пользователям в домене пользователя или доверенного домена.  <br/> |
+|[ExternalReply](externalreply.md) <br/> |Содержит ответ OOF, отправленный на адреса, не в домены получателя или доверенные домены.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[жетусеруфсеттингсреспонсе](getuseroofsettingsresponse.md) <br/> |Содержит результаты ответа и параметры отсутствия на отсутствие для пользователя.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserOofSettingsResponse` <br/> |
+|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Содержит результаты ответа и параметры OOF для пользователя.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserOofSettingsResponse` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -72,7 +72,7 @@ ms.locfileid: "44467195"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

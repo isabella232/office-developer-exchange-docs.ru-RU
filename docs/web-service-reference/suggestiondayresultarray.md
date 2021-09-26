@@ -1,33 +1,33 @@
 ---
-title: сугжестиондайресултаррай
+title: SuggestionDayResultArray
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SuggestionDayResultArray
 api_type:
 - schema
 ms.assetid: eeba9eff-5eca-4002-b5a5-8fb794feaba1
-description: Элемент Сугжестиондайресултаррай содержит массив предложений о собрании, организованных по дате.
-ms.openlocfilehash: 277d4cf71c31aba26cbff6f598eaa62769cae552
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SuggestionDayResultArray содержит массив предложений о собраниях, организованных по дате.
+ms.openlocfilehash: 4ce2b7a7ff2c90ef1876b2d71a528b42f0951598
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457986"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543949"
 ---
-# <a name="suggestiondayresultarray"></a>сугжестиондайресултаррай
+# <a name="suggestiondayresultarray"></a>SuggestionDayResultArray
 
-Элемент **сугжестиондайресултаррай** содержит массив предложений о собрании, организованных по дате. 
+Элемент **SuggestionDayResultArray** содержит массив предложений о собраниях, организованных по дате. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[сугжестионсреспонсе](suggestionsresponse.md)
+[SuggestionsResponse](suggestionsresponse.md)
   
-[сугжестиондайресултаррай](suggestiondayresultarray.md)
+[SuggestionDayResultArray](suggestiondayresultarray.md)
   
 ```xml
 <SuggestionDayResultArray>
@@ -35,28 +35,28 @@ ms.locfileid: "44457986"
 </SuggestionDayResultArray>
 ```
 
- **аррайофсугжестиондайресулт**
+ **ArrayOfSuggestionDayResult**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестиондайресулт](suggestiondayresult.md) <br/> |Представляет один день, который содержит предложенное время проведения собрания.  <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |Представляет один день, содержащий рекомендуемые время собраний.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[сугжестионсреспонсе](suggestionsresponse.md) <br/> |Содержит данные ответа и предложения для запрошенных предложений о собрании  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
+|[SuggestionsResponse](suggestionsresponse.md) <br/> |Содержит сведения о откликах и предложениях для запрашиваемой рекомендации собрания  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -66,7 +66,7 @@ ms.locfileid: "44457986"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -75,7 +75,7 @@ ms.locfileid: "44457986"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

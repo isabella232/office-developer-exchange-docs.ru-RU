@@ -1,23 +1,23 @@
 ---
-title: инлинеимажеурлтемплате
+title: InlineImageUrlTemplate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40238799-25f0-431c-91be-34b915110f03
-description: Элемент Инлинеимажеурлтемплате указывает шаблон для URL-адреса встроенного изображения.
-ms.openlocfilehash: 2cb9cd31d1adf0c6fecf803a8b42bc88330a14d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент InlineImageUrlTemplate указывает шаблон для URL-адреса образа.
+ms.openlocfilehash: a209d030f9f6ede56dd790731f6d1b36c8f886ac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468735"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542206"
 ---
-# <a name="inlineimageurltemplate"></a>инлинеимажеурлтемплате
+# <a name="inlineimageurltemplate"></a>InlineImageUrlTemplate
 
-Элемент **инлинеимажеурлтемплате** указывает шаблон для URL-адреса встроенного изображения. 
+Элемент **InlineImageUrlTemplate** указывает шаблон для URL-адреса образа. 
   
 ```XML
 <InlineImageUrlTemplate></InlineImageUrlTemplate>
@@ -26,27 +26,27 @@ ms.locfileid: "44468735"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[итемшапе](itemshape.md) <br/> |Определяет набор свойств, возвращаемых при [выполнении операции GetItem](getitem-operation.md), [операции FindItem](finditem-operation.md)или [SyncFolderItems операции](syncfolderitems-operation.md) .  <br/> |
+|[ItemShape](itemshape.md) <br/> |Определяет набор свойств, возвращаемого в операции [GetItem,](getitem-operation.md) [операции FindItem](finditem-operation.md)или в ответ на операцию [SyncFolderItems.](syncfolderitems-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **инлинеимажеурлтемплате** указывает шаблон для URL-адреса встроенного изображения. 
+Текстовое значение элемента **InlineImageUrlTemplate** указывает шаблон для URL-адреса образа. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44468735"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

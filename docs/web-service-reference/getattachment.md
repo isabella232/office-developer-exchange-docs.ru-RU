@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetAttachment
 api_type:
 - schema
 ms.assetid: 9443cf96-b451-4530-b868-490dff798673
-description: Элемент GetAttachment является корневым элементом запроса для получения вложения из хранилища Exchange.
-ms.openlocfilehash: d03d086ff443db87b0104a2ec83599eb9eaea6b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetAttachment — это корневой элемент запроса на вложение из Exchange магазина.
+ms.openlocfilehash: 057b42e78845f583cf1e52804e0108f335ef951c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546373"
 ---
 # <a name="getattachment"></a>GetAttachment
 
-Элемент **GetAttachment** является корневым элементом запроса для получения вложения из хранилища Exchange. 
+Элемент **GetAttachment** — это корневой элемент запроса на вложение из Exchange магазина. 
   
 ```xml
 <GetAttachment>
@@ -30,29 +30,29 @@ ms.locfileid: "44463981"
 </GetAttachment>
 ```
 
- **жетаттачменттипе**
+ **GetAttachmentType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аттачментшапе](attachmentshape.md) <br/> |Определяет дополнительные свойства расширенного элемента, которые возвращаются в ответ на запрос [GetAttachment](getattachment.md) . Этот элемент является необязательным.  <br/> |
-|[аттачментидс](attachmentids.md) <br/> |Содержит массив идентификаторов вложений.  <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> |Определяет дополнительные свойства расширенных элементов, которые возвращаются в ответ на запрос [GetAttachment.](getattachment.md) Этот элемент является необязательным.  <br/> |
+|[AttachmentIds](attachmentids.md) <br/> |Содержит массив идентификаторов вложений.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент [аттачментшапе](attachmentshape.md) не требуется для определения свойств, возвращаемых в ответе. [Операция GetAttachment](getattachment-operation.md) возвращает имя, ContentType, ContentId, ContentLocation и свойства содержимого для вложенных файлов. Для вложений элемента возвращаемыми свойствами являются имя, ContentType, идентификатор ContentId, ContentLocation и все свойства вложенного элемента. Это эквивалентно использованию базовой фигуры Аллпропертиес в запросе [GetItem](getitem.md) . 
+Элемент [AttachmentShape](attachmentshape.md) не требуется для определения свойств, возвращенных в ответе. Операция [GetAttachment](getattachment-operation.md) возвращает свойства Name, ContentType, ContentId, ContentLocation и свойств контента для вложений файлов. Для вложений элементов возвращаются свойства Name, ContentType, ContentId, ContentLocation и все свойства присоединенного элемента. Это эквивалентно использованию базовой формы AllProperties в [запросе GetItem.](getitem.md) 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -62,7 +62,7 @@ ms.locfileid: "44463981"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -71,5 +71,5 @@ ms.locfileid: "44463981"
 
 [Операция GetAttachment](getattachment-operation.md)
   
-[жетаттачментреспонсе](getattachmentresponse.md)
+[GetAttachmentResponse](getattachmentresponse.md)
 

@@ -1,40 +1,40 @@
 ---
-title: релеванцескоре
+title: RelevanceScore
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78266287-481e-43c1-b143-2cafd0063c95
-description: Элемент Релеванцескоре указывает целое число, представляющее степень релевантности ассоциированного пользователя с клиентом.
-ms.openlocfilehash: 54d0912d33a64e26ed415d8009561a32b97ce3f6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент RelevanceScore указывает, как релевантно связанное лицо для клиента.
+ms.openlocfilehash: 0cebd8b9954b54cb2d7b275a26fc06abc1b6cebf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457496"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542878"
 ---
-# <a name="relevancescore"></a>релеванцескоре
+# <a name="relevancescore"></a>RelevanceScore
 
-Элемент **релеванцескоре** указывает целое число, представляющее степень релевантности ассоциированного пользователя с клиентом. 
+Элемент **RelevanceScore** указывает, как релевантно связанное лицо для клиента. 
   
 ```XML
 <RelevanceScore></RelevanceScore>
 ```
 
- **положительн**
+ **integer**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44457496"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **релеванцескоре** является определением того, как релевантность пользователя относится к клиенту. Этот элемент доступен только для чтения. 
+Текстовое значение элемента **RelevanceScore** — это определение того, насколько он актуален для клиента. Этот элемент доступен только для чтения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44457496"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

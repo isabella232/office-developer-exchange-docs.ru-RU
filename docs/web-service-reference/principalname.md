@@ -1,58 +1,58 @@
 ---
-title: Имя участника-
+title: PrincipalName
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PrincipalName
 api_type:
 - schema
 ms.assetid: 88c142d4-0bc7-43ea-a997-d7200664d900
-description: Элемент имя участника-представляет имя участника-пользователя (UPN) учетной записи, которая будет использоваться для олицетворения Exchange.
-ms.openlocfilehash: 31412c1461264e28bf8d52c957a457e8d1e847ef
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PrincipalName представляет основное имя пользователя (UPN) учетной записи, используемой для Exchange олицетворения.
+ms.openlocfilehash: f3cc23b1cab69e166b59d7c358f663772e71ea09
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44440192"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543018"
 ---
-# <a name="principalname"></a>Имя участника-
+# <a name="principalname"></a>PrincipalName
 
-Элемент **имя участника-** представляет имя участника-пользователя (UPN) учетной записи, которая будет использоваться для олицетворения Exchange. 
+Элемент **PrincipalName** представляет основное имя пользователя (UPN) учетной записи, используемой для Exchange олицетворения. 
   
 ```xml
 <PrincipalName/>
 ```
 
- **принЦипалнаметипе**
+ **PrincipalNameType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[коннектингсид](connectingsid.md) <br/> |Представляет учетную запись для олицетворения при использовании заголовка SOAP Ексчанжеимперсонатион.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
+|[ConnectingSID](connectingsid.md) <br/> |Представляет учетную запись для олицетворения при использовании мыла ExchangeImpersonation.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет имя участника-пользователя. Это значение существует для объекта пользователя в службе каталогов Active Directory. Содержит имя входа пользователя и доменное имя, определяющее домен, в котором расположена учетная запись пользователя, в следующем формате: `someone@example.com` .
+Текстовое значение представляет upN пользователя. Это значение существует на объекте пользователя в службе каталогов Active Directory. Это имя пользователя с логотипом и доменное имя, которое определяет домен, в котором расположена учетная запись пользователя, в следующем формате:  `someone@example.com` .
   
 ## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
+Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2010, с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -60,7 +60,7 @@ ms.locfileid: "44440192"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -70,5 +70,5 @@ ms.locfileid: "44440192"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Авторизация между серверами в EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+[Авторизация от сервера до сервера в EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 1e87e78e-d143-4abc-b753-386500d227a5
 description: Элемент AccountType представляет тип учетной записи.
-ms.openlocfilehash: 20ff7cf4e73f1b50668616d3f11edeeb1409815e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dbcc9f3c925f60a8cc2c0875344b798319f2496f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462313"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544411"
 ---
 # <a name="accounttype-pox"></a>AccountType (POX)
 
 Элемент **AccountType** представляет тип учетной записи. 
   
-- [Служба автообнаружения (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Ответ (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [Учетная запись (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
 - [AccountType (POX)](accounttype-pox.md)
   
@@ -34,27 +34,27 @@ ms.locfileid: "44462313"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Учетная запись (POX)](account-pox.md) <br/> |Задает параметры учетной записи пользователя.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Указывает параметры учетной записи для пользователя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет тип учетной записи. Возможные значения: **Email**, которое указывает параметры для сервера электронной почты. 
+Текстовое значение представляет тип учетной записи. Возможное значение **— это электронная** почта, которая указывает параметры сервера электронной почты. 
   
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

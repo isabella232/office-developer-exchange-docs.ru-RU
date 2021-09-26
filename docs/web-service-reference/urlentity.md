@@ -1,23 +1,23 @@
 ---
-title: урлентити
+title: UrlEntity
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4609903b-c071-4a16-98d2-05686828cc56
-description: Элемент Урлентити определяет одну извлеченную сущность URL-адреса.
-ms.openlocfilehash: 2990d99009a18af8ba588244b055eb4e2d461b9c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент URLEntity идентифицирует одно извлеченные объекты URL-адресов.
+ms.openlocfilehash: f193b849e7e7c3395169f653673842dbd127ba5b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465017"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542724"
 ---
-# <a name="urlentity"></a>урлентити
+# <a name="urlentity"></a>UrlEntity
 
-Элемент **урлентити** определяет одну извлеченную сущность URL-адреса. 
+Элемент **URLEntity** идентифицирует одно извлеченные объекты URL-адресов. 
   
 ```XML
 <UrlEntity>
@@ -26,24 +26,24 @@ ms.locfileid: "44465017"
 </UrlEntity>
 ```
 
- **урлентититипе**
+ **UrlEntityType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Положение](position.md)  |  [URL-адрес](url-ex15websvcsotherref.md)
+[Позиция](position.md)  |  [URL-адрес](url-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[URL-адреса (Аррайофурлентитиестипе)](urls-arrayofurlentitiestype.md)
+[Urls (ArrayOfUrlEntitiesType)](urls-arrayofurlentitiestype.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44465017"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

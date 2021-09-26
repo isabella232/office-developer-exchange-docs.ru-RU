@@ -1,56 +1,56 @@
 ---
-title: постедтиме
+title: PostedTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PostedTime
 api_type:
 - schema
 ms.assetid: e8b3813c-fc7e-4674-a4c6-6818c13d2bcf
-description: Элемент Постедтиме представляет время отправки почтового элемента. Этот элемент доступен только для чтения. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 5fc670bfee97a46700bc4442d489696a4489f88a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PostedTime представляет время публикации PostItem. Этот элемент доступен только для чтения. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+ms.openlocfilehash: 9aba5d0c8fad521e54ee4c8f9d877d17607d0dd0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459197"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543109"
 ---
-# <a name="postedtime"></a>постедтиме
+# <a name="postedtime"></a>PostedTime
 
-Элемент **постедтиме** представляет время отправки почтового [элемента](postitem.md) . Этот элемент доступен только для чтения. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **PostedTime** представляет время публикации [PostItem.](postitem.md) Этот элемент доступен только для чтения. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <PostedTime/>
 ```
 
- **дата и время**
+ **dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[PostItem](postitem.md) <br/> |Представляет элемент в хранилище Exchange. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
+|[PostItem](postitem.md) <br/> |Представляет postItem в Exchange магазине. Этот элемент появился в Exchange 2007 с пакетом обновления 1.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение — это дата и время, которые представляют момент публикации **элемента** . Это свойство доступно только для чтения. 
+Текстовое значение — dateTime, которое представляет при публикации **PostItem.** Это свойство доступно только для чтения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44459197"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

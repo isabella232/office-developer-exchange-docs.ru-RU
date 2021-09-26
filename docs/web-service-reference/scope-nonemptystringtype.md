@@ -1,44 +1,44 @@
 ---
-title: Область действия (Нонемптистрингтипе)
+title: Scope (NonEmptyStringType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Scope
 api_type:
 - schema
 ms.assetid: 7efb6fd9-1615-469e-96f6-0f7846ad9b44
-description: Элемент SCOPE определяет область отчета об отслеживании сообщений.
-ms.openlocfilehash: f86f6198e84e094e61ee569f6d005549316bbb9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Scope указывает область отчета отслеживания сообщений.
+ms.openlocfilehash: 036ff1007c9e7ec9cc385f8df81c045b7b9335b0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466943"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546128"
 ---
-# <a name="scope-nonemptystringtype"></a>Область действия (Нонемптистрингтипе)
+# <a name="scope-nonemptystringtype"></a>Scope (NonEmptyStringType)
 
-Элемент **Scope** определяет область отчета об отслеживании сообщений. 
+Элемент **Scope** указывает область отчета отслеживания сообщений. 
   
 ```XML
 <Scope>Organization | Forest | Site</Scope>
 ```
 
- **нонемптистрингтипе**
+ **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -46,15 +46,15 @@ ms.locfileid: "44466943"
   
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **Scope** . 
+В следующей таблице перечислены возможные значения элемента **Scope.** 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Организация  <br/> |Области отслеживания сообщений охватываются в пределах организации.  <br/> |
-|Лес  <br/> |Области отслеживания сообщений охватываются в пределах леса.  <br/> |
-|Site  <br/> |Области отслеживания сообщений охватываются на сайте.  <br/> |
+|Организация  <br/> |Области отслеживания сообщений охватывают всю организацию.  <br/> |
+|Лес  <br/> |Области отслеживания сообщений охватывают лес.  <br/> |
+|Сайт  <br/> |Области отслеживания сообщений охватывают весь сайт.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -64,7 +64,7 @@ ms.locfileid: "44466943"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

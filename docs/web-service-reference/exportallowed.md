@@ -1,23 +1,23 @@
 ---
-title: експорталловед
+title: ExportAllowed
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dcff5ccc-31dc-4941-9f71-d6519133aebb
-description: Элемент Експорталловед указывает, включено ли экспорт.
-ms.openlocfilehash: f5a9aa3040c45d535ef338010bb37bcedb797ffc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ExportAllowed указывает, включен ли экспорт.
+ms.openlocfilehash: 5f7193fa8065124281b96b329105bbc6a0933e58
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460633"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545148"
 ---
-# <a name="exportallowed"></a>експорталловед
+# <a name="exportallowed"></a>ExportAllowed
 
-Элемент **експорталловед** указывает, включено ли экспорт. 
+Элемент **ExportAllowed** указывает, включен ли экспорт. 
   
 ```XML
 <ExportAllowed>true | false</ExportAllowed>
@@ -26,27 +26,27 @@ ms.locfileid: "44460633"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ригхтсманажементлиценседата](rightsmanagementlicensedata.md) <br/> |Указывает сведения о лицензии на управление правами.  <br/> |
+|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Указывает сведения о лицензии на управление правами.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение **true** для элемента **експорталловед** указывает на то, что экспорт разрешен. Значение **false** указывает, что экспорт запрещен. 
+Текстовое **значение, истинное** для **элемента ExportAllowed,** указывает, что экспорт разрешен. Значение false **указывает,** что экспорт запрещен. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент является необязательным.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44460633"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

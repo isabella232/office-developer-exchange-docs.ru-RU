@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Department
 api_type:
 - schema
 ms.assetid: 1a5bca89-0769-4497-8ca0-4e6b908f8eaa
-description: Элемент Department представляет подразделение контакта на рабочем месте.
-ms.openlocfilehash: b9057f3ebfcb989eec188a0eba22ebfc0ecc24bd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Department представляет отдел контакта на работе.
+ms.openlocfilehash: 3978a8ca36f8e7c98dd5d05c7d485e0a9c2e3888
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464128"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542402"
 ---
 # <a name="department"></a>Отдел
 
-Элемент **Department** представляет подразделение контакта на рабочем месте. 
+Элемент **Department** представляет отдел контакта на работе. 
   
 ```xml
 <Department/>
@@ -30,15 +30,15 @@ ms.locfileid: "44464128"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,9 +48,9 @@ ms.locfileid: "44464128"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение.
+Требуется текстовое значение.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   
@@ -60,10 +60,10 @@ ms.locfileid: "44464128"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Создание контактов (веб-службы Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Создание контактов (Exchange веб-служб)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

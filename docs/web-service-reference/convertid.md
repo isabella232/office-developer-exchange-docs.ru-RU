@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConvertId
 api_type:
 - schema
 ms.assetid: 9684c22c-29d4-4f7f-befc-8cd41da56d38
-description: Элемент ConvertId определяет запрос на преобразование идентификаторов элементов и папок между поддерживаемами форматами Exchange. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: d421baf1f29fb59a8c6eb2b09e1fa0e8a38ffaa4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ConvertId определяет запрос на преобразование идентификаторов элементов и папок между поддерживаемой Exchange форматами. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
+ms.openlocfilehash: fe7d46697ba72ba6458136541488f5cd498169f4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452540"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545561"
 ---
 # <a name="convertid"></a>ConvertId
 
-Элемент **ConvertId** определяет запрос на преобразование идентификаторов элементов и папок между поддерживаемами форматами Exchange. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
+Элемент **ConvertId** определяет запрос на преобразование идентификаторов элементов и папок между поддерживаемой Exchange форматами. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1). 
   
 ```xml
 <ConvertId DestinationFormat="">
@@ -38,30 +38,30 @@ ms.locfileid: "44452540"
 
 |**Атрибут**|**Описание**|
 |:-----|:-----|
-|**DestinationFormat** <br/> |Описывает формат идентификатора, который будет возвращен для всех преобразованных идентификаторов. DestinationFormat описывается с помощью IdFormatType.  <br/> |
+|**DestinationFormat** <br/> |Описывает формат идентификатора, который будет возвращен для всех преобразованных идентификаторов. DestinationFormat описывается IdFormatType.  <br/> |
    
 #### <a name="destinationformat-attribute"></a>Атрибут DestinationFormat
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|**EwsLegacyId** <br/> |Представляет формат идентификатора, используемый для идентификаторов веб-служб Exchange, предоставленных в первоначальной версии выпуска Exchange 2007.  <br/> |
-|**EwsId** <br/> |Представляет формат идентификатора, используемый для идентификаторов веб-служб Exchange, начиная с Exchange Server 2007 SP1.  <br/> |
-|**EntryId** <br/> |Представляет идентификатор MAPI, как в свойстве PR_ENTRYID.  <br/> |
-|**HexEntryId** <br/> |Представляет идентификатор события календаря доступности. Это представление свойства, закодированное в PR_ENTRYID кодировки.  <br/> |
-|**StoreId** <br/> |Представляет идентификатор магазина Exchange.  <br/> |
-|**OwaId** <br/> |Представляет формат идентификатора Outlook Web Access.  <br/> |
+|**EwsLegacyId** <br/> |Представляет формат идентификаторов, используемый для идентификаторов Exchange веб-служб, представленных в начальной версии Exchange 2007 г.  <br/> |
+|**EwsId** <br/> |Представляет формат идентификатора, который используется для идентификаторов Exchange веб-служб, начиная с Exchange Server 2007 sp1.  <br/> |
+|**EntryId** <br/> |Представляет идентификатор MAPI, как и в свойстве PR_ENTRYID.  <br/> |
+|**HexEntryId** <br/> |Представляет идентификатор события календаря доступности. Это кодированное в hexadecimal представление свойства PR_ENTRYID.  <br/> |
+|**StoreId** <br/> |Представляет идентификатор Exchange магазина.  <br/> |
+|**OwaId** <br/> |Представляет формат идентификатора Outlook веб-доступа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[SourceIds](sourceids.md) <br/> |Содержит идентификаторы источника, которые необходимо преобразовать.  <br/> |
+|[SourceIds](sourceids.md) <br/> |Содержит исходные идентификаторы для преобразования.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2007, с установленной ролью сервера клиентского доступа.
   

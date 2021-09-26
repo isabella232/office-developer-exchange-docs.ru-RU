@@ -1,23 +1,23 @@
 ---
-title: онлинемитингсеттингс
+title: OnlineMeetingSettings
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c7af00c-8dca-40f4-9420-e042a0b5303c
-description: Элемент Онлинемитингсеттингс указывает параметры собраний по сети.
-ms.openlocfilehash: a89b89d2fa602e46925bcdae51631df0d9573300
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент OnlineMeetingSettings указывает параметры для собраний в Интернете.
+ms.openlocfilehash: 22942f181ca4be5a9c831db9d3649e64190d97d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467209"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541933"
 ---
-# <a name="onlinemeetingsettings"></a>онлинемитингсеттингс
+# <a name="onlinemeetingsettings"></a>OnlineMeetingSettings
 
-Элемент **онлинемитингсеттингс** указывает параметры собраний по сети. 
+Элемент **OnlineMeetingSettings** указывает параметры для собраний в Интернете. 
   
 ```XML
 <OnlineMeetingSettings>
@@ -27,24 +27,24 @@ ms.locfileid: "44467209"
 </OnlineMeetingSettings>
 ```
 
- **онлинемитингсеттингстипе**
+ **OnlineMeetingSettingsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Лоббибипасс](lobbybypass.md)  |  [AccessLevel](accesslevel.md)  |  [Выступающие](presenters.md)
+[LobbyBypass](lobbybypass.md)  |  [AccessLevel](accesslevel.md)  |  [Presenters](presenters.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[календаритем](calendaritem.md)
+[CalendarItem](calendaritem.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44467209"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

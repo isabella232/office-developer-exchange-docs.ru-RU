@@ -5,43 +5,43 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 36d63aa6-1b72-4670-b5c3-da685f3017cb
-description: Поиск сведений об агентах транспорта в Exchange 2013.
-ms.openlocfilehash: 62fb259672c47242a57b939deb4887e1e5519e2a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения о транспортных агентах Exchange 2013 г.
+ms.openlocfilehash: d005b3f09d2ced02d5cee26dd259b78a605e1ada
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461760"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544439"
 ---
 # <a name="transport-agents-in-exchange"></a>Агенты транспорта в Exchange
   
-Exchange 2013 предоставляет библиотеку классов, поддерживающих расширение режима транспорта Exchange и обеспечивающее возможность чтения, записи и преобразования типов контента. Эти классы можно использовать для создания приложений транспорта Exchange, которые читают, пишут и обрабатывают сообщения в транспортном конвейере.
+Exchange 2013 г. предоставляет библиотеку классов, поддерживающих расширение Exchange транспорта и позволяющих читать, писать и преобразовывать типы контента. Эти классы можно использовать для создания Exchange приложений для чтения, записи и обработки сообщений в конвейере транспорта.
   
-## <a name="what-you-need-to-know-about-transport-agents"></a>Что нужно знать об агентах транспорта
+## <a name="what-you-need-to-know-about-transport-agents"></a>Что нужно знать о транспортных агентах
 
-|Если вас интересует...|Прочтите это|
+|Если вам интересно...|Прочтите это|
 |:-----|:-----|
-|Доступность  <br/> |Агенты транспорта доступны в версиях Exchange, начиная с Exchange 2007. Агенты транспорта не поддерживаются в Office 365 или Exchange Online.  <br/> |
-|Удаленное использование  <br/> |Агенты транспорта выполняются на сервере Exchange Server и не поддерживают удаленное использование.  <br/> |
-|Поддерживаемые языки  <br/> |Для работы с агентами транспорта можно использовать любой язык платформы .NET Framework.  <br/> |
-|Доступные инструменты для тестирования и отладки  <br/> |Используйте версии Visual Studio, начиная с Visual Studio 2012, для отладки агентов транспорта.  <br/> |
-|Методы развертывания  <br/> |Приложения агента транспорта можно установить с помощью сценария [командной консоли Exchange](../management/exchange-management-shell.md) .  <br/> |
+|Доступность  <br/> |Транспортные агенты доступны в версиях Exchange начиная с Exchange 2007 года. Транспортные агенты не поддерживаются в Office 365 или Exchange Online.  <br/> |
+|Удаленное использование  <br/> |Транспортные агенты работают на Exchange сервере и не поддерживают удаленное использование.  <br/> |
+|Поддерживаемые языки  <br/> |Вы можете использовать любой платформа .NET Framework для работы с транспортными агентами.  <br/> |
+|Доступные инструменты для тестирования и отладки  <br/> |Используйте версии Visual Studio начиная Visual Studio 2012 г. для отлаговки транспортных агентов.  <br/> |
+|Методы развертывания  <br/> |Приложения транспортного агента можно установить с помощью [сценария Exchange Management Shell.](../management/exchange-management-shell.md)  <br/> |
    
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Новые и обновленные API агента транспорта в Exchange 2013](new-and-updated-transport-agent-apis-in-exchange-2013.md)
+- [Новые и обновленные API транспортных агентов в Exchange 2013 г.](new-and-updated-transport-agent-apis-in-exchange-2013.md)
     
-- [Примеры кода агента транспорта для Exchange 2013](transport-agent-code-samples-for-exchange-2013.md)
+- [Примеры кода транспортного агента для Exchange 2013 г.](transport-agent-code-samples-for-exchange-2013.md)
     
-- [Основные понятия, связанные с агентами транспорта в Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
+- [Концепции транспортного агента в Exchange 2013 г.](transport-agent-concepts-in-exchange-2013.md)
     
-- [Чтение и изменение сообщений в транспортном конвейере Exchange 2013](reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md)
+- [Чтение и изменение сообщений в конвейере Exchange 2013 г.](reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md)
     
-- [Создание агентов транспорта для Exchange 2013](creating-transport-agents-for-exchange-2013.md)
+- [Создание транспортных агентов Exchange 2013 г.](creating-transport-agents-for-exchange-2013.md)
     
-- [Справочник по агентам транспорта для Exchange 2013](transport-agent-reference-for-exchange-2013.md)
+- [Ссылка агента транспорта на Exchange 2013 г.](transport-agent-reference-for-exchange-2013.md)
     
 ## <a name="see-also"></a>См. также
 

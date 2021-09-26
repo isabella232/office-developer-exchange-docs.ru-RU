@@ -1,52 +1,52 @@
 ---
-title: ластделиверитиме
+title: LastDeliveryTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastDeliveryTime
 api_type:
 - schema
 ms.assetid: 23d02ceb-f28e-40f2-8f63-673723a50e2a
-description: Элемент Ластделиверитиме содержит время доставки сообщения, которое было последний раз получено в этой беседе в текущей папке.
-ms.openlocfilehash: 77147693a9394e983575afa6fcfda242f8f76ae3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент LastDeliveryTime содержит время доставки последнего сообщения, полученного в этом разговоре в текущей папке.
+ms.openlocfilehash: bb0ad41272d26efecf36113d9c82a647c237ac47
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458112"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546177"
 ---
-# <a name="lastdeliverytime"></a>ластделиверитиме
+# <a name="lastdeliverytime"></a>LastDeliveryTime
 
-Элемент **ластделиверитиме** содержит время доставки сообщения, которое было последний раз получено в этой беседе в текущей папке. 
+Элемент **LastDeliveryTime** содержит время доставки последнего сообщения, полученного в этом разговоре в текущей папке. 
   
-[финдконверсатионреспонсе](findconversationresponse.md)
+[FindConversationResponse](findconversationresponse.md)
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
 [Беседы (ConversationType)](conversation-conversationtype.md)
   
-[ластделиверитиме](lastdeliverytime.md)
+[LastDeliveryTime](lastdeliverytime.md)
   
 ```XML
 <LastDeliveryTime/>
 ```
 
- **xs: dateTime**
+ **xs:dateTime**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,9 +56,9 @@ ms.locfileid: "44458112"
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **ластделиверитиме** — это дата и время последнего сообщения, полученного в этой беседе в текущей папке. 
+Текстовое значение элемента **LastDeliveryTime** — это дата и время последнего сообщения, полученного в этом разговоре в текущей папке. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -68,7 +68,7 @@ ms.locfileid: "44458112"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

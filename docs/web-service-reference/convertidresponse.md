@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConvertIdResponse
 api_type:
 - schema
 ms.assetid: ac1f044f-04a4-42ef-b762-cac5cd37894d
 description: Элемент ConvertIdResponse содержит ответ на запрос ConvertId. Этот элемент появился в Exchange Server 2007 с пакетом обновления 1 (SP1).
-ms.openlocfilehash: 690f0f2109dfc36dd8f359b7cef1e65beb47fc6e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 142818b6b2374da2a8c3d589caa23ed2ab0eba80
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452526"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545526"
 ---
 # <a name="convertidresponse"></a>ConvertIdResponse
 
@@ -48,9 +48,9 @@ ms.locfileid: "44452526"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Ответные сообщения, содержащиеся в [элементе ResponseMessages,](responsemessages.md) будут экземплярами ConvertIdResponseMessageType. 
+Сообщения отклика, содержащиеся в [элементе ResponseMessages,](responsemessages.md) будут экземплярами ConvertIdResponseMessageType. 
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   

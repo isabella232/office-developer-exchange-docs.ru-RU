@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 710c893a-3037-4f04-b336-aefedd36c406
-description: Операция CreateItem используется для принятия приглашения на доступ к данным календаря или контактов другого пользователя.
-ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция CreateItem используется для того, чтобы принять приглашение поделиться данными календаря или контактов другого пользователя.
+ms.openlocfilehash: 37068657e77f4ceb35f9cb9601863fcae520c018
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457517"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543436"
 ---
 # <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
 
-Операция **CreateItem** используется для принятия приглашения на доступ к данным календаря или контактов другого пользователя. 
+Операция **CreateItem** используется для того, чтобы принять приглашение поделиться данными календаря или контактов другого пользователя. 
   
-## <a name="accept-sharing-invitation-request-example"></a>Пример принятия запроса на получение приглашения на совместное использование
+## <a name="accept-sharing-invitation-request-example"></a>Пример запроса на обмен приглашениями
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере показано, как принять приглашение к совместному использованию.
+В следующем примере показано, как принять приглашение на обмен.
   
 ### <a name="code"></a>Код
 
@@ -47,7 +47,7 @@ ms.locfileid: "44457517"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
@@ -55,19 +55,19 @@ ms.locfileid: "44457517"
     
 - [Items](items.md)
     
-- [акцептшарингинвитатион](acceptsharinginvitation.md)
+- [AcceptSharingInvitation](acceptsharinginvitation.md)
     
-- [референцеитемид](referenceitemid.md)
+- [ReferenceItemId](referenceitemid.md)
     
 ### <a name="comments"></a>Комментарии
 
-Идентификатор элемента и ключ изменения были сокращены, чтобы сохранить удобочитаемость.
+Идентификатор элемента и ключ изменения были сокращены для сохранения читаемости.
   
-## <a name="successful-accept-sharing-invitation-response-example"></a>Пример принятия ответа для успешного предоставления приглашения совместного доступа
+## <a name="successful-accept-sharing-invitation-response-example"></a>Пример успешного использования приглашения для обмена приглашениями
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **CreateItem** . 
+В следующем примере показан успешный ответ на **запрос CreateItem.** 
   
 ### <a name="code"></a>Код
 
@@ -101,25 +101,25 @@ ms.locfileid: "44457517"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [креатеитемреспонсе](createitemresponse.md)
+- [CreateItemResponse](createitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [креатеитемреспонсемессаже](createitemresponsemessage.md)
+- [CreateItemResponseMessage](createitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Items](items.md)
     
-## <a name="accept-sharing-invitation-error-response-example"></a>Пример ответа на сообщение об ошибке принятия приглашения на совместное использование
+## <a name="accept-sharing-invitation-error-response-example"></a>Принять пример ответа на ошибку при совместном использовании приглашения
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке для запроса **CreateItem** . Ошибка вызвана попыткой принять приглашение к совместному использованию, которое не удается найти в хранилище Exchange. 
+В следующем примере показан ответ на ошибку на **запрос CreateItem.** Ошибка вызвана попыткой принять приглашение общего доступа, которое невозможно найти в Exchange магазине. 
   
 ### <a name="code"></a>Код
 
@@ -153,23 +153,23 @@ ms.locfileid: "44457517"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ошибочного ответа
+### <a name="error-response-elements"></a>Элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [креатеитемреспонсе](createitemresponse.md)
+- [CreateItemResponse](createitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [креатеитемреспонсемессаже](createitemresponsemessage.md)
+- [CreateItemResponseMessage](createitemresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
 - [Items](items.md)
     

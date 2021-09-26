@@ -1,22 +1,22 @@
 ---
-title: Маилтипсакцессенаблед (SOAP)
+title: MailTipsAccessEnabled (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 205606b0-8b39-4acf-941a-e544efcedd6c
-description: Элемент Маилтипсакцессенаблед представляет флаг Маилтипсакцессенаблед (). Элемент Маилтипсакцессенаблед предназначен только для внутреннего использования. Этот элемент не используется клиентами.
-ms.openlocfilehash: 72476d72a3b5faef358bba52f6038c065d51ff6f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MailTipsAccessEnabled представляет флаг MailTipsAccessEnabled(). Элемент MailTipsAccessEnabled используется только для внутреннего использования. Этот элемент не используется клиентами.
+ms.openlocfilehash: 5ff4ddc47a242300b20ab526521b0994f7fbb4a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467797"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544110"
 ---
-# <a name="mailtipsaccessenabled-soap"></a>Маилтипсакцессенаблед (SOAP)
+# <a name="mailtipsaccessenabled-soap"></a>MailTipsAccessEnabled (SOAP)
 
-Элемент **маилтипсакцессенаблед** представляет флаг **маилтипсакцессенаблед ()** . Элемент **маилтипсакцессенаблед** предназначен только для внутреннего использования. Этот элемент не используется клиентами. 
+Элемент **MailTipsAccessEnabled** представляет флаг **MailTipsAccessEnabled().** Элемент **MailTipsAccessEnabled** используется только для внутреннего использования. Этот элемент не используется клиентами. 
   
 ```XML
 <MailTipsAccessEnabled>true | false</ MailTipsAccessEnabled>
@@ -25,34 +25,34 @@ ms.locfileid: "44467797"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Организатионрелатионшипсеттингс (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений Организации для одной организации.  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений организации для одной организации.  <br/> |
    
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция Жеторганизатионрелатионшипсеттингс (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+[Операция GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

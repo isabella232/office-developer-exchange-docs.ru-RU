@@ -1,44 +1,44 @@
 ---
-title: Состояние (Мемберстатустипе)
+title: Status (MemberStatusType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Status
 api_type:
 - schema
 ms.assetid: 4f8a860b-0a48-4a0d-9a7a-69a0304aa747
-description: Элемент Status предоставляет сведения о состоянии члена списка рассылки на сервере.
-ms.openlocfilehash: bfa0c349d6af51c1b2238c9749d2656541d31906
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Status предоставляет сведения о состоянии участника списка рассылки на сервере.
+ms.openlocfilehash: 0142ac1fa88c4cc4e513f23bbfad2869e7df32e7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465466"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544600"
 ---
-# <a name="status-memberstatustype"></a>Состояние (Мемберстатустипе)
+# <a name="status-memberstatustype"></a>Status (MemberStatusType)
 
-Элемент **Status** предоставляет сведения о состоянии члена списка рассылки на сервере. 
+Элемент **Status** предоставляет сведения о состоянии участника списка рассылки на сервере. 
   
 ```
 <Status>Unrecognized or Normal or Demoted</Status>
 ```
 
- **мемберстатустипе**
+ **MemberStatusType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -48,19 +48,19 @@ ms.locfileid: "44465466"
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **Status** . 
+В следующей таблице перечислены возможные значения элемента **Status.** 
   
-**Значения элементов Status**
+**Значения элементов status**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Нераспознанный  <br/> |Сведения об участниках являются недопустимыми или неопознанными.  <br/> |
-|Normal  <br/> |Сведения об участниках в списке рассылки синхронизируются с объектом, на который указывает ссылка.  <br/> |
-|Понижения  <br/> |Объект, на который указывает ссылка, недоступен.  <br/> |
+|Непризнана  <br/> |Сведения о членах недействительны или непризнанны.  <br/> |
+|Normal  <br/> |Сведения о членах в списке рассылки синхронизируются со ссылкой на объект.  <br/> |
+|Понижение  <br/> |Объект, на который ссылается, не доступен.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает сервер Microsoft Exchange с установленной ролью сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в виртуальном каталоге компьютера EWS, на Microsoft Exchange Server установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -68,7 +68,7 @@ ms.locfileid: "44465466"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,23 +1,23 @@
 ---
-title: маркасжункреспонсемессаже
+title: MarkAsJunkResponseMessage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e2b7b53-ef3c-438e-93df-b08409dbab46
-description: Элемент Маркасжункреспонсемессаже указывает ответное сообщение для запроса MarkAsJunk.
-ms.openlocfilehash: be03fc964b56c463320f09e68d143a0377300f5c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MarkAsJunkResponseMessage указывает сообщение ответа для запроса MarkAsJunk.
+ms.openlocfilehash: 1effc7f1bbb360c0f421d2a0429edf0d2652e88d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460101"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544075"
 ---
-# <a name="markasjunkresponsemessage"></a>маркасжункреспонсемессаже
+# <a name="markasjunkresponsemessage"></a>MarkAsJunkResponseMessage
 
-Элемент **маркасжункреспонсемессаже** указывает ответное сообщение для запроса **MarkAsJunk** . 
+Элемент **MarkAsJunkResponseMessage** указывает сообщение ответа для **запроса MarkAsJunk.** 
   
 ```XML
 <MarkAsJunkResponseMessage>
@@ -29,24 +29,24 @@ ms.locfileid: "44460101"
 </MarkAsJunkResponseMessage>
 ```
 
- **маркасжункреспонсемессажетипе**
+ **MarkAsJunkResponseMessageType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Мессажетекст](messagetext.md)  |  [Респонсекоде](responsecode.md)  |  [Дескриптивелинккэй](descriptivelinkkey.md)  |  [Мессажексмл](messagexml.md)  |  [Моведитемид](moveditemid.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [ОписательныйLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [MovedItemId](moveditemid.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44460101"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

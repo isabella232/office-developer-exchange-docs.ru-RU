@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 282576cb-a921-49f7-8748-64158fd50c41
-description: Элемент CreateFolderPath используется для создания пути к папке и включает идентификатор родительской папки и относительный путь к папке.
-ms.openlocfilehash: e6ce6c9b6e12a6a0fb6792b63368a79c87d06f07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент CreateFolderPath используется для создания пути папки и включает в себя родительский и относительный путь папок.
+ms.openlocfilehash: 603bdd0d7a36c169dfe48db02c3db0591fbe253b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457538"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543424"
 ---
 # <a name="createfolderpath"></a>CreateFolderPath
 
-Элемент **CreateFolderPath** используется для создания пути к папке и включает идентификатор родительской папки и относительный путь к папке. 
+Элемент **CreateFolderPath** используется для создания пути папки и включает в себя родительский и относительный путь папок. 
   
 ```XML
 <CreateFolderPath>
@@ -26,24 +26,24 @@ ms.locfileid: "44457538"
 </CreateFolderPath>
 ```
 
- **креатефолдерпастипе**
+ **CreateFolderPathType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[ParentFolderId (таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md)  |  [Релативефолдерпас](relativefolderpath.md)
+[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)  |  [RelativeFolderPath](relativefolderpath.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44457538"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

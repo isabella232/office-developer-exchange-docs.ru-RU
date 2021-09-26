@@ -1,22 +1,22 @@
 ---
-title: Имя (SOAP)
+title: Name (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: dce6d823-dc33-4a47-babe-6370a15ac7b4
 description: Элемент Name представляет имя параметра.
-ms.openlocfilehash: 74e6d6b59d972d7230c23b38cd3f4a8591401bbd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 39bb2b6bbf7e29dedb13a9bf828f130c076dfb6b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466887"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541996"
 ---
-# <a name="name-soap"></a>Имя (SOAP)
+# <a name="name-soap"></a>Name (SOAP)
 
 Элемент **Name** представляет имя параметра. 
   
@@ -28,46 +28,46 @@ ms.locfileid: "44466887"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Домаинсеттинг (SOAP)](domainsetting-soap.md) <br/> |Содержит параметры домена, которые возвращаются запросом [операции жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md) .  <br/> |
-|[Домаинстрингсеттинг (SOAP)](domainstringsetting-soap.md) <br/> |Представляет параметр домена со значением типа String.  <br/> |
-|[Организатионрелатионшипсеттингс (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений Организации для одной организации.  <br/> |
-|[Усерсеттинг (SOAP)](usersetting-soap.md) <br/> |Представляет один параметр пользователя.  <br/> |
-|[Протоколконнектионколлектионсеттинг (SOAP)](protocolconnectioncollectionsetting-soap.md) <br/> |Представляет коллекцию параметров подключения по протоколу сервера.  <br/> |
-|[Стрингсеттинг (SOAP)](stringsetting-soap.md) <br/> |Представляет пользовательское значение, для которого задано значение типа String.  <br/> |
-|[Вебклиентурлколлектионсеттинг (SOAP)](webclienturlcollectionsetting-soap.md) <br/> |Представляет параметр пользователя, который является коллекцией URL-адресов веб-клиента Exchange.  <br/> |
-|[Алтернатемаилбоксколлектионсеттинг (SOAP)](alternatemailboxcollectionsetting-soap.md) <br/> |Содержит коллекцию альтернативных параметров почтового ящика.  <br/> |
+|[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |Содержит параметры домена, возвращаемые по запросу [Операции GetDomainSettings (SOAP).](getdomainsettings-operation-soap.md)  <br/> |
+|[DomainStringSetting (SOAP)](domainstringsetting-soap.md) <br/> |Представляет домен, значение которого — строка типа.  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Представляет список отношений организации для одной организации.  <br/> |
+|[UserSetting (SOAP)](usersetting-soap.md) <br/> |Представляет один параметр пользователя.  <br/> |
+|[ProtocolConnectionCollectionSetting (SOAP)](protocolconnectioncollectionsetting-soap.md) <br/> |Представляет коллекцию параметров подключения к протоколу сервера.  <br/> |
+|[StringSetting (SOAP)](stringsetting-soap.md) <br/> |Представляет пользователя, заметив значение, для которого имеется строка типа.  <br/> |
+|[WebClientUrlCollectionSetting (SOAP)](webclienturlcollectionsetting-soap.md) <br/> |Представляет параметр пользователя, который представляет коллекцию URL-адресов Exchange веб-клиентов.  <br/> |
+|[AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md) <br/> |Содержит коллекцию параметров альтернативных почтовых ящиков.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **Name** — имя параметра. 
+Текстовое значение элемента **Name** — это имя параметра. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Имя схемы  <br/> |Схема автообнаружения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Имя схемы  <br/> |Схема автооткрытия  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
+- [Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
 - [Операция GetUserSettings (SOAP)](getusersettings-operation-soap.md)
-- [Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
-- [Операция Жеторганизатионрелатионшипсеттингс (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
+- [Операция GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

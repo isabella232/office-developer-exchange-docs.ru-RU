@@ -1,27 +1,27 @@
 ---
-title: сериализедсекуритиконтекст
+title: SerializedSecurityContext
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SerializedSecurityContext
 api_type:
 - schema
 ms.assetid: a02c4fc1-ed1a-40d9-a18e-6cfdae21a690
-description: Элемент Сериализедсекуритиконтекст используется в заголовке протокола SOAP для сериализации маркеров при проверке подлинности "сервер-сервер". Сериализация маркеров не поддерживается.
-ms.openlocfilehash: 58fea1c7f613315d59e81935561f92f318afc769
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SerializedSecurityContext используется в Протокол SOAP (SOAP) для сериализации маркеров в проверке подлинности от сервера к серверу. Сериализация маркеров не поддерживается.
+ms.openlocfilehash: 55fe752813fc2d7e3ed5416401ff46b5e00516e3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462054"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546044"
 ---
-# <a name="serializedsecuritycontext"></a>сериализедсекуритиконтекст
+# <a name="serializedsecuritycontext"></a>SerializedSecurityContext
 
-Элемент **сериализедсекуритиконтекст** используется в заголовке протокола SOAP для сериализации маркеров при проверке подлинности "сервер-сервер". Сериализация маркеров не поддерживается. 
+Элемент **SerializedSecurityContext** используется в Протокол SOAP (SOAP) для сериализации маркеров при проверке подлинности от сервера к серверу. Сериализация маркеров не поддерживается. 
   
 ```xml
 <SerializedSecurityContext>
@@ -32,31 +32,31 @@ ms.locfileid: "44462054"
 </SerializedSecurityContext>
 ```
 
- **сериализедсекуритиконтексттипе**
+ **SerializedSecurityContextType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[О.](usersid.md) <br/> |Представляет форму языка определения дескрипторов безопасности (SDDL) для идентификатора безопасности пользователя в сериализованном SOAP-заголовке контекста безопасности.  <br/> |
-|[граупсидс](groupsids.md) <br/> |Представляет коллекцию идентификаторов безопасности объектов группы службы каталогов Active Directory.  <br/> |
-|[рестриктедграупсидс](restrictedgroupsids.md) <br/> |Представляет идентификатор и атрибуты безопасности группы для группы с ограниченным доступом.  <br/> |
-|[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Представляет основной SMTP-адрес учетной записи, которая будет использоваться для авторизации "сервер-сервер".  <br/> |
+|[UserSid](usersid.md) <br/> |Представляет язык определения дескриптора безопасности (SDDL) идентификатора безопасности пользователя в заголовке SOAP контекста безопасности.  <br/> |
+|[GroupSids](groupsids.md) <br/> |Представляет коллекцию идентификаторов объектов безопасности группы объектов службы каталогов Active Directory.  <br/> |
+|[RestrictedGroupSids](restrictedgroupsids.md) <br/> |Представляет идентификатор безопасности группы и атрибуты для ограниченной группы.  <br/> |
+|[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Представляет основной простой протокол передачи почты (SMTP) учетной записи, используемой для авторизации от сервера к серверу.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера, на котором работает Microsoft Exchange Server 2007, на котором установлена роль сервера клиентского доступа (CAS).
+Схема, описываемая этим элементом, расположена в виртуальном каталоге компьютера EWS, который работает Microsoft Exchange Server 2007 г., где установлена роль сервера клиентского доступа (CAS).
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -64,7 +64,7 @@ ms.locfileid: "44462054"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -74,5 +74,5 @@ ms.locfileid: "44462054"
 - [Элементы XML веб-служб Exchange в Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Авторизация между серверами в EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+[Авторизация от сервера до сервера в EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

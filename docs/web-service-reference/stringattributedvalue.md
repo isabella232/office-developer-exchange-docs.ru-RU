@@ -1,23 +1,23 @@
 ---
-title: стрингаттрибутедвалуе
+title: StringAttributedValue
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 911fec52-bde7-44a3-9231-04f327a42107
-description: Элемент Стрингаттрибутедвалуе указывает экземпляр в массиве атрибутов, связанных с элементом персоны.
-ms.openlocfilehash: bf4f5cd67bb254bd61f293cbef3699e588c6075b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент StringAttributedValue указывает экземпляр в массиве атрибутов, связанных с элементом persona.
+ms.openlocfilehash: 197e1f93a6ae3087cdbb399d718e6c5f770859e4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463085"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543970"
 ---
-# <a name="stringattributedvalue"></a>стрингаттрибутедвалуе
+# <a name="stringattributedvalue"></a>StringAttributedValue
 
-Элемент **стрингаттрибутедвалуе** указывает экземпляр в массиве атрибутов, связанных с элементом персоны. 
+Элемент **StringAttributedValue** указывает экземпляр в массиве атрибутов, связанных с элементом persona. 
   
 ```XML
 <StringAttributedValue>
@@ -26,24 +26,24 @@ ms.locfileid: "44463085"
 </StringAttributedValue>
 ```
 
- **стрингаттрибутедвалуетипе**
+ **StringAttributedValueType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Value (значение](value.md)  |  ) [Атрибуты (аррайофвалуеаттрибутионстипе)](attributions-arrayofvalueattributionstype.md)
+[Значение](value.md)  |  [Атрибуция (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[DisplayName](displaynames.md)  |  [Филеасес](fileases.md)  |  [Филеасидс](fileasids.md)  |  [Дисплайнамепрефиксес](displaynameprefixes.md)  |  [Гивеннамес](givennames.md)  |  [Миддленамес](middlenames.md)  |  [Фамилии](surnames.md)  |  [Поколения](generations.md)  |  [Псевдонимы](nicknames.md)  |  [Инициалы](initials.md)  |  [Йомикомпанинамес](yomicompanynames.md)  |  [Йомифирстнамес](yomifirstnames.md)  |  [Йомиластнамес](yomilastnames.md)  |  [Бусинесшомепажес](businesshomepages.md)  |  [Персоналхомепажес](personalhomepages.md)  |  [Оффицелокатионс](officelocations.md)  |  [Адреса](imaddresses.md)  |  [ImAddresses2](imaddresses2.md)  |  [ImAddresses3](imaddresses3.md)  |  [Названия](titles.md)  |  [Отделы](departments.md)  |  [Компанинамес](companynames.md)  |  [Руководители](managers.md)  |  [Ассистантнамес](assistantnames.md)  |  [Профессии](professions.md)  |  [Спаусенамес](spousenames.md)  |  [Школы](schools.md)  |  [Увлечения](hobbies.md)  |  [Веддинганниверсариес](weddinganniversaries.md)  |  [Дни рождения](birthdays.md)  |  [Расположения](locations.md)
+[DisplayNames](displaynames.md)  |  [FileAses](fileases.md)  |  [FileAsIds](fileasids.md)  |  [DisplayNamePrefixes](displaynameprefixes.md)  |  [GivenNames](givennames.md)  |  [MiddleNames](middlenames.md)  |  [Фамилии](surnames.md)  |  [Generations](generations.md)  |  [Псевдонимы](nicknames.md)  |  [Инициалы](initials.md)  |  [YomiCompanyNames](yomicompanynames.md)  |  [YomiFirstNames](yomifirstnames.md)  |  [YomiLastNames](yomilastnames.md)  |  [BusinessHomePages](businesshomepages.md)  |  [PersonalHomePages](personalhomepages.md)  |  [OfficeLocations](officelocations.md)  |  [ImAddresses](imaddresses.md)  |  [ImAddresses2](imaddresses2.md)  |  [ImAddresses3](imaddresses3.md)  |  [Заголовки](titles.md)  |  [Отделы](departments.md)  |  [CompanyNames](companynames.md)  |  [Менеджеры](managers.md)  |  [AssistantNames](assistantnames.md)  |  [Профессии](professions.md)  |  [Имя spouseNames](spousenames.md)  |  [Школы](schools.md)  |  [Хобби](hobbies.md)  |  [WeddingAnniversaries](weddinganniversaries.md)  |  [Дни рождения](birthdays.md)  |  [Расположения](locations.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44463085"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

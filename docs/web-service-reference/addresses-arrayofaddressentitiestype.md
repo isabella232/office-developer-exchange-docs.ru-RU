@@ -1,23 +1,23 @@
 ---
-title: Адреса (Аррайофаддрессентитиестипе)
+title: Addresses (ArrayOfAddressEntitiesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e
-description: Элемент Addresses указывает массив элементов Аддрессентити.
-ms.openlocfilehash: 48cf8c0fda6a8ef894ef8d3a4c154f7255b218bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Addresses указывает массив элементов AddressEntity.
+ms.openlocfilehash: 83463f5137db2007c9cffea37a7323dadb146904
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463631"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541548"
 ---
-# <a name="addresses-arrayofaddressentitiestype"></a>Адреса (Аррайофаддрессентитиестипе)
+# <a name="addresses-arrayofaddressentitiestype"></a>Addresses (ArrayOfAddressEntitiesType)
 
-Элемент **addresses** указывает массив элементов **аддрессентити** . 
+Элемент **Addresses** указывает массив элементов **AddressEntity.** 
   
 ```XML
 <Addresses>
@@ -25,28 +25,28 @@ ms.locfileid: "44463631"
 </Addresses>
 ```
 
- **аррайофаддрессентитиестипе**
+ **ArrayOfAddressEntitiesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[аддрессентити](addressentity.md) <br/> |Указывает одну сущность адреса.  <br/> |
+|[AddressEntity](addressentity.md) <br/> |Указывает одно объект адресов.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[ентитекстрактионресулт](entityextractionresult.md) <br/> |Задает свойство **ентитекстрактионресулт** элемента.  <br/> |
+|[EntityExtractionResult](entityextractionresult.md) <br/> |Указывает свойство **EntityExtractionResult** элемента.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44463631"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

@@ -1,27 +1,27 @@
 ---
-title: аппоинтментстате
+title: AppointmentState
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AppointmentState
 api_type:
 - schema
 ms.assetid: ab3f5d04-ace1-4a15-9107-cefa6c41abc7
-description: Элемент Аппоинтментстате указывает состояние встречи.
-ms.openlocfilehash: 8b0e827d02e9051f31d43199503dc286c50e2125
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AppointmentState указывает состояние встречи.
+ms.openlocfilehash: f984bbd5a1319a6051a3394ed04d56deabbb2c5a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463477"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544284"
 ---
-# <a name="appointmentstate"></a>аппоинтментстате
+# <a name="appointmentstate"></a>AppointmentState
 
-Элемент **аппоинтментстате** указывает состояние встречи. 
+Элемент **AppointmentState** указывает состояние встречи. 
   
 ```XML
 <AppointmentState/>
@@ -30,37 +30,37 @@ ms.locfileid: "44463477"
  **int**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет собрание в хранилище Exchange.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Этот элемент содержит текстовое значение, представляющее набор битов. Это в виде целого числа. Этот элемент доступен только для чтения. Он будет возвращен только в ответе.
+Этот элемент содержит текстовое значение, которое представляет набор битов. Это в форме integer. Этот элемент доступен только для чтения. Он будет возвращен только в ответе.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Возвращаемое целое значение представляет битовую маску состояния встречи. В приведенной ниже таблице описывается каждый из этих бит.
+Возвращаемая сумма представляет битмаску состояния назначения. В следующей таблице описывается каждый бит.
   
-|**имя**|**Битовая**|**Описание**|
+|**Имя**|**Bit**|**Описание**|
 |:-----|:-----|:-----|
-|Нет  <br/> |0x0000  <br/> |Флаги не заданы. Используется только для встречи, не включающей участников.  <br/> |
-|Назначить  <br/> |0x0001  <br/> |Эта встреча является собранием.  <br/> |
-|ПОЛУЧЕНО  <br/> |0x0002  <br/> |Эта встреча получена.  <br/> |
-|Canceled.  <br/> |0x0004  <br/> |Эта встреча отменена.  <br/> |
+|Нет  <br/> |0x0000  <br/> |Флаги не установлены. Это используется только для встречи, в которую не входят участники.  <br/> |
+|Собрание  <br/> |0x0001  <br/> |Это собрание.  <br/> |
+|ПОЛУЧЕНО  <br/> |0x0002  <br/> |Это назначение получено.  <br/> |
+|Canceled.  <br/> |0x0004  <br/> |Это назначение отменено.  <br/> |
    
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -70,7 +70,7 @@ ms.locfileid: "44463477"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

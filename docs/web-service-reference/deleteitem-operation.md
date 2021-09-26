@@ -5,35 +5,35 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteItem
 api_type:
 - schema
 ms.assetid: 3e26c416-fa12-476e-bfd2-5c1f4bb7b348
-description: Операция DeleteItem удаляет элементы из хранилища Exchange.
-ms.openlocfilehash: f068e08ef0d0f590c9ed8274f77d4dae9f942995
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция DeleteItem удаляет элементы в Exchange магазине.
+ms.openlocfilehash: b62655b9046678d27ed0f24bc92d1840f3e3b343
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526937"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545414"
 ---
 # <a name="deleteitem-operation"></a>Операция DeleteItem
 
-Операция **DeleteItem** удаляет элементы из хранилища Exchange. 
+Операция **DeleteItem** удаляет элементы в Exchange магазине. 
   
 > [!NOTE]
-> Если делегат пытается удалить элемент в почтовом ящике участника, задав для Диспосалтипе значение MoveToDeletedItems, возвращается сообщение об ошибке, которое включает код ошибки Еррорканнотделетеобжект для операции **DeleteItem** . Чтобы удалить элемент, переместив его в папку "Удаленные", делегат должен использовать [операцию MoveItem](moveitem-operation.md). 
+> Ответ на ошибку, который включает код ошибки ErrorCannotDeleteObject, будет возвращен для операции **DeleteItem,** когда делегат попытается удалить элемент в почтовом ящике директора, установив Тип распоряжения moveToDeletedItems. Чтобы удалить элемент, переместив его в папку "Удаленные элементы", делегат должен использовать операцию [MoveItem.](moveitem-operation.md) 
   
 ## <a name="deleteitem-request-example"></a>Пример запроса DeleteItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **DeleteItem** показано, как выполнить окончательное удаление элемента из почтового ящика. 
+В следующем примере **запроса DeleteItem** показано, как выполнить жесткое удаление элемента из почтового ящика. 
   
 > [!NOTE]
-> Идентификатор элемента был сокращен, чтобы сохранить удобочитаемость. 
+> ID элемента был сокращен для сохранения читаемости. 
   
 ### <a name="code"></a>Код
 
@@ -51,23 +51,23 @@ ms.locfileid: "44526937"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
 - [DeleteItem](deleteitem.md)
     
-- [итемидс](itemids.md)
+- [ItemIds](itemids.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-Чтобы найти другие параметры сообщения Request операции **DeleteItem** , изучите иерархию схемы. Начните с элемента [DeleteItem](deleteitem.md) . 
+Чтобы найти другие варианты сообщения запроса операции **DeleteItem,** ознакомьтесь с иерархией схемы. Начните с [элемента DeleteItem.](deleteitem.md) 
   
 ## <a name="successful-deleteitem-response"></a>Успешный ответ DeleteItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **DeleteItem** . 
+В следующем примере показан успешный ответ на **запрос DeleteItem.** 
   
 ### <a name="code"></a>Код
 
@@ -96,25 +96,25 @@ ms.locfileid: "44526937"
 
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [делетеитемреспонсе](deleteitemresponse.md)
+- [DeleteItemResponse](deleteitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [делетеитемреспонсемессаже](deleteitemresponsemessage.md)
+- [DeleteItemResponseMessage](deleteitemresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-Чтобы найти другие параметры для ответного сообщения операции **DeleteItem** , изучите иерархию схемы. Начните с элемента [делетеитемреспонсе](deleteitemresponse.md) . 
+Чтобы найти другие параметры ответного сообщения операции **DeleteItem,** ознакомьтесь с иерархией схемы. Начните с [элемента DeleteItemResponse.](deleteitemresponse.md) 
   
-## <a name="deleteitem-error-response"></a>Ответ об ошибке DeleteItem
+## <a name="deleteitem-error-response"></a>Ответ на ошибку DeleteItem
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке для запроса **DeleteItem** . Ошибка была создана, так как Операция попыталась удалить элемент, который не был найден в хранилище Exchange. 
+В следующем примере показан ответ на ошибку на **запрос DeleteItem.** Ошибка была создана из-за того, что операция попыталась удалить элемент, который не был найден в Exchange магазине. 
   
 ### <a name="code"></a>Код
 
@@ -143,25 +143,25 @@ ms.locfileid: "44526937"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ошибочного ответа
+### <a name="error-response-elements"></a>Элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [делетеитемреспонсе](deleteitemresponse.md)
+- [DeleteItemResponse](deleteitemresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [делетеитемреспонсемессаже](deleteitemresponsemessage.md)
+- [DeleteItemResponseMessage](deleteitemresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Чтобы найти другие параметры сообщения об ошибке при выполнении операции **DeleteItem** , изучите иерархию схемы. Начните с элемента [делетеитемреспонсе](deleteitemresponse.md) . 
+Чтобы найти другие варианты сообщения ответа на ошибки операции **DeleteItem,** ознакомьтесь с иерархией схемы. Начните с [элемента DeleteItemResponse.](deleteitemresponse.md) 
   
 ## <a name="see-also"></a>См. также
 

@@ -1,23 +1,23 @@
 ---
-title: бусинесшомепажес
+title: BusinessHomePages
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9961c0c2-7cac-4af1-84ac-0eafdce0a6ab
-description: Элемент Бусинесшомепажес указывает массив рабочих домашних страниц и идентификаторы их исходных атрибутов для связанного пользователя.
-ms.openlocfilehash: f0e85e0b3c857e44d94bd42c6d3ea757d015eb25
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент BusinessHomePages указывает массив домашних страниц бизнеса и идентификаторы их исходных атрибутов для связанной персоны.
+ms.openlocfilehash: b8382681bd0abebcff2ddaec67d56cbe568e07f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465914"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543578"
 ---
-# <a name="businesshomepages"></a>бусинесшомепажес
+# <a name="businesshomepages"></a>BusinessHomePages
 
-Элемент **бусинесшомепажес** указывает массив рабочих домашних страниц и идентификаторы их исходных атрибутов для связанного пользователя. 
+Элемент **BusinessHomePages** указывает массив домашних страниц бизнеса и идентификаторы их исходных атрибутов для связанной персоны. 
   
 ```XML
 <BusinessHomePages>
@@ -25,28 +25,28 @@ ms.locfileid: "44465914"
 </BusinessHomePages>
 ```
 
- **аррайофстрингаттрибутедвалуестипе**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[стрингаттрибутедвалуе](stringattributedvalue.md) <br/> |Указывает экземпляр в массиве атрибутов, связанных с элементом персоны.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Указывает экземпляр в массиве атрибутов, связанных с элементом persona.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Роль](persona.md) <br/> |Задает набор данных о пользователях, возвращаемых запросом к **другому человеку** .  <br/> |
+|[Роль](persona.md) <br/> |Указывает набор данных persona, возвращаемого по запросу **GetPersona.**  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -58,7 +58,7 @@ ms.locfileid: "44465914"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема типа  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 ## <a name="see-also"></a>См. также

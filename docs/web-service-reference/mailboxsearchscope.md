@@ -1,23 +1,23 @@
 ---
-title: маилбокссеарчскопе
+title: MailboxSearchScope
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef4a4203-61e5-46b8-9fa4-d1a10e785aa2
-description: Элемент Маилбокссеарчскопе указывает почтовый ящик и область поиска для поиска обнаружения.
-ms.openlocfilehash: 20f528ddfb4812de8468af33bcb0b47d7d851f1d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MailboxSearchScope указывает почтовый ящик и область поиска для поиска обнаружения.
+ms.openlocfilehash: 832992e4e1dcf96029be4228906b2762f11f3fbe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457188"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544124"
 ---
-# <a name="mailboxsearchscope"></a>маилбокссеарчскопе
+# <a name="mailboxsearchscope"></a>MailboxSearchScope
 
-Элемент **маилбокссеарчскопе** указывает почтовый ящик и область поиска для поиска обнаружения. 
+Элемент **MailboxSearchScope** указывает почтовый ящик и область поиска для поиска обнаружения. 
   
 ```XML
 <MailboxSearchScope>
@@ -26,25 +26,25 @@ ms.locfileid: "44457188"
 <MailboxSearchScope>
 ```
 
-**маилбокссеарчскопетипе**
+**MailboxSearchScopeType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Mailbox (строка)](mailbox-string.md)  |  [SearchScope](searchscope.md)
+[Почтовый ящик (строка)](mailbox-string.md)  |  [SearchScope](searchscope.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[маилбокссеарчскопес](mailboxsearchscopes.md)
+[MailboxSearchScopes](mailboxsearchscopes.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44457188"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

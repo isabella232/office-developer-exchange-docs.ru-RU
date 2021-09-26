@@ -1,27 +1,27 @@
 ---
-title: невмаилевент
+title: NewMailEvent
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NewMailEvent
 api_type:
 - schema
 ms.assetid: 45057945-a3ec-4dac-92db-f0dc5fcfc34d
-description: Элемент Невмаилевент представляет событие, которое вызывается новым почтовым элементом в почтовом ящике.
-ms.openlocfilehash: aa562b60a7299543af8653bbc767edf329075644
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент NewMailEvent представляет событие, запускаемое новым элементом почты в почтовом ящике.
+ms.openlocfilehash: 9116ff7b1a01c7d31e52565759443afd7b63860a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466817"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541975"
 ---
-# <a name="newmailevent"></a>невмаилевент
+# <a name="newmailevent"></a>NewMailEvent
 
-Элемент **невмаилевент** представляет событие, которое вызывается новым почтовым элементом в почтовом ящике. 
+Элемент **NewMailEvent** представляет событие, запускаемое новым элементом почты в почтовом ящике. 
   
 ```xml
 <NewMailEvent>
@@ -32,23 +32,23 @@ ms.locfileid: "44466817"
 </NewMailEvent>
 ```
 
- **басеобжектчанжедевенттипе**
+ **BaseObjectChangedEventType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |Представляет закладку события в таблице событий почтовых ящиков.  <br/> |
-|[Метка времени](timestamp.md) <br/> |Представляет метку времени прибытия нового почтового элемента в почтовом ящике.  <br/> |
-|[Идентификатор](itemid.md) <br/> |Представляет идентификатор нового почтового элемента.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки нового почтового элемента.  <br/> |
+|[Watermark](watermark.md) <br/> |Представляет закладки событий в таблице событий почтового ящика.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Представляет время прибытия нового элемента почты в почтовый ящик.  <br/> |
+|[ItemId](itemid.md) <br/> |Представляет идентификатор нового элемента почты.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Представляет идентификатор родительской папки нового элемента почты.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -56,7 +56,7 @@ ms.locfileid: "44466817"
 |:-----|:-----|
 |[Уведомление](notification-ex15websvcsotherref.md) <br/> |Содержит сведения о подписке и событиях, произошедших с момента последнего уведомления.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -66,7 +66,7 @@ ms.locfileid: "44466817"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -77,5 +77,5 @@ ms.locfileid: "44466817"
   
 [Операция GetEvents](getevents-operation.md)
   
-[Операция по отмене подписки](unsubscribe-operation.md)
+[Операция Unsubscribe](unsubscribe-operation.md)
 

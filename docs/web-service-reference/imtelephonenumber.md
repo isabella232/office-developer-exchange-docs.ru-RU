@@ -1,40 +1,40 @@
 ---
-title: имтелефоненумбер
+title: ImTelephoneNumber
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78ed7503-7d65-45e8-b1b0-d26534217058
-description: Элемент Имтелефоненумбер представляет номер телефона контакта, добавляемого в группу обмена мгновенными сообщениями (IM).
-ms.openlocfilehash: df2f089b6aef9dfe6cc8aa8f3a1748029b1a37d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент ImTelephoneNumber представляет номер телефона для контакта, добавляемого в группу обмена мгновенными сообщениями.
+ms.openlocfilehash: e969ea2fbf5dd16e98ae5b9714980627ceeea5f1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460647"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542192"
 ---
-# <a name="imtelephonenumber"></a>имтелефоненумбер
+# <a name="imtelephonenumber"></a>ImTelephoneNumber
 
-Элемент **имтелефоненумбер** представляет номер телефона контакта, добавляемого в группу обмена мгновенными сообщениями (IM). 
+Элемент **ImTelephoneNumber** представляет номер телефона для контакта, добавляемого в группу обмена мгновенными сообщениями. 
   
 ```XML
 <ImTelephoneNumber></ImTelephoneNumber>
 ```
 
- **нонемптистрингтипе**
+ **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44460647"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **имтелефоненумбер** — номер телефона контакта. 
+Текстовое значение элемента **ImTelephoneNumber** — телефонный номер контакта. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44460647"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 

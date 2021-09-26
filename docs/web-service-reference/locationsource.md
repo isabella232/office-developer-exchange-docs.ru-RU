@@ -1,61 +1,61 @@
 ---
-title: локатионсаурце
+title: LocationSource
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc4d77d5-6200-4cf3-848a-1088fec0e0d6
-description: Элемент Локатионсаурце указывает сведения о происхождении связанного почтового адреса, например контакт или телефонной книги.
-ms.openlocfilehash: ceba52c43d1c798bb8f5492b779c7c45d7d00b0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент LocationSource указывает сведения о происхождении связанного почтового адреса, например контакта или телефонной книги.
+ms.openlocfilehash: f3569494d3e662fbc46060944c8bd399b62d656b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467104"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543263"
 ---
-# <a name="locationsource"></a>локатионсаурце
+# <a name="locationsource"></a>LocationSource
 
-Элемент **локатионсаурце** указывает сведения о происхождении связанного почтового адреса, например контакт или телефонной книги. 
+Элемент **LocationSource** указывает сведения о происхождении связанного почтового адреса, например контакта или телефонной книги. 
   
 ```XML
 <LocationSource> None | LocationServices | PhonebookServices | Device | Contact | Resource </LocationSource>
 ```
 
- **локатионсаурцетипе**
+ **LocationSourceType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Значение (персонапосталаддресстипе)](value-personapostaladdresstype.md)  |  [Посталаддресс (персонапосталаддресстипе)](postaladdress-personapostaladdresstype.md)
+[Значение (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовые значения для элемента **локатионсаурце** перечислены в следующей таблице. 
+Текстовые значения элемента **LocationSource** перечислены в следующей таблице: 
   
-**Текстовые значения элементов Локатионсаурце**
+**Текстовые значения элемента LocationSource**
 
 |**Значение**|**Описание**|
 |:-----|:-----|
-|Нет  <br/> |Источник расположения отсутствует.  <br/> |
-|локатионсервицес  <br/> |Сведения получены из служб расположения.  <br/> |
-|фонебуксервицес  <br/> |Сведения получены из службы телефонной книги.  <br/> |
-|Device  <br/> |Сведения получены с устройства.  <br/> |
-|Контакт  <br/> |Сведения получены из контакта.  <br/> |
-|Resource  <br/> |Сведения получены из ресурса.  <br/> |
+|Нет  <br/> |Источник расположения не существует.  <br/> |
+|LocationServices  <br/> |Информация была получена из служб расположения.  <br/> |
+|PhonebookServices  <br/> |Эта информация была получена из служб телефонной книги.  <br/> |
+|Устройство  <br/> |Информация была получена с устройства.  <br/> |
+|Контакт  <br/> |Информация была получена из контакта.  <br/> |
+|Ресурс  <br/> |Сведения получены с ресурса.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   

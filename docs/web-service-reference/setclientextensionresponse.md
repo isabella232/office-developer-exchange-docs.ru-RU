@@ -1,23 +1,23 @@
 ---
-title: сетклиентекстенсионреспонсе
+title: SetClientExtensionResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e335b166-3ddc-469e-81cb-5679bfad5c14
-description: Элемент Сетклиентекстенсионреспонсе содержит ответ на запрос Сетклиентекстенсион.
-ms.openlocfilehash: 97c3a54c6bbaeb1bf22bc87505d7f7f59d10c20b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SetClientExtensionResponse содержит ответ на запрос SetClientExtension.
+ms.openlocfilehash: 1825984e9d7c4e85d225bfab6bd5d927691c7d8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44438091"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544768"
 ---
-# <a name="setclientextensionresponse"></a>сетклиентекстенсионреспонсе
+# <a name="setclientextensionresponse"></a>SetClientExtensionResponse
 
-Элемент **сетклиентекстенсионреспонсе** содержит ответ на запрос **сетклиентекстенсион** . 
+Элемент **SetClientExtensionResponse** содержит ответ на запрос **SetClientExtension.** 
   
 ```XML
 <SetClientExtensionResponse>
@@ -25,24 +25,24 @@ ms.locfileid: "44438091"
 </SetClientExtensionResponse>
 ```
 
- **сетклиентекстенсионреспонсетипе**
+ **SetClientExtensionResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[респонсемессажес](responsemessages.md)
+[ResponseMessages](responsemessages.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44438091"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

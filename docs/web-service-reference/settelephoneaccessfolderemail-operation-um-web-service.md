@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetTelephoneAccessFolderEmail
 api_type:
 - schema
 ms.assetid: 2c92d914-bdee-4337-b3ea-0655fdb658e9
 description: Операция SetTelephoneAccessFolderEmail задает папку, из которой единая система обмена сообщениями будет читать сообщения пользователю по телефону.
-ms.openlocfilehash: a2bb630f812ca811b4cbe68db1308dc18e5d3ba0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cf8e80e021d6467ba3a724cc0d04e165e00e8397
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467335"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544719"
 ---
 # <a name="settelephoneaccessfolderemail-operation-um-web-service"></a>Операция SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)
 
@@ -24,9 +24,9 @@ ms.locfileid: "44467335"
   
 ## <a name="settelephoneaccessfolderemail-request-example"></a>Пример запроса SetTelephoneAccessFolderEmail
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса SetTelephoneAccessFolderEmail показано, как сформировать запрос на установку папки, из которой единая система обмена сообщениями будет прочитана пользователю по телефону.
+В следующем примере запроса SetTelephoneAccessFolderEmail показано, как сформировать запрос для набора папки, из которой единая система обмена сообщениями будет считываться пользователю по телефону.
   
 ### <a name="code"></a>Код
 
@@ -43,9 +43,9 @@ ms.locfileid: "44467335"
 
 ## <a name="successful-settelephoneaccessfolderemail-response-example"></a>Пример успешного ответа SetTelephoneAccessFolderEmail
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере ответа SetTelephoneAccessFolderEmail показан ответ на запрос SetTelephoneAccessFolderEmail.
+В следующем примере ответа SetTelephoneAccessFolderEmail показан ответ на запрос SetTelephoneAccessFolderEmail.
   
 ### <a name="code"></a>Код
 
@@ -64,7 +64,7 @@ ms.locfileid: "44467335"
 
 [SetTelephoneAccessFolderEmail (веб-служба единой системы обмена сообщениями)](settelephoneaccessfolderemail-um-web-service.md)
   
-[Сеттелефонеакцессфолдеремаилреспонсе (веб-служба единой системы обмена сообщениями)](settelephoneaccessfolderemailresponse-um-web-service.md)
+[SetTelephoneAccessFolderEmailResponse (веб-служба единой системы обмена сообщениями)](settelephoneaccessfolderemailresponse-um-web-service.md)
   
 [base64FolderId (веб-служба единой системы обмена сообщениями)](base64folderid-um-web-service.md)
 

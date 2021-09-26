@@ -1,49 +1,49 @@
 ---
-title: Операция UpdateFolder
+title: Операцию UpdateFolder
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateFolder
 api_type:
 - schema
 ms.assetid: 3494c996-b834-4813-b1ca-d99642d8b4e7
-description: 'Операция операцию UpdateFolder используется для изменения свойств существующего элемента в хранилище Exchange. Каждая операция операцию UpdateFolder состоит из следующих элементов:'
-ms.openlocfilehash: fb894d9f42358b67f81e9fe8ae41ba61e6f46460
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'Операция UpdateFolder используется для изменения свойств существующего элемента в Exchange магазине. Каждая операция UpdateFolder состоит из следующих действий:'
+ms.openlocfilehash: be8e39e13681cea34e312158c348c60a94374bec
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467363"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541765"
 ---
-# <a name="updatefolder-operation"></a>Операция UpdateFolder
+# <a name="updatefolder-operation"></a>Операцию UpdateFolder
 
-Операция операцию UpdateFolder используется для изменения свойств существующего элемента в хранилище Exchange. Каждая операция операцию UpdateFolder состоит из следующих элементов:
+Операция UpdateFolder используется для изменения свойств существующего элемента в Exchange магазине. Каждая операция UpdateFolder состоит из следующих действий:
   
-- Элемент [FolderId](folderid.md) , указывающий папку, которую требуется обновить. 
+- Элемент [FolderId,](folderid.md) который указывает папку для обновления. 
     
-- Внутренний путь к элементу в папке, как указано в фигуре папки, в которой задаются данные для обновления.
+- Внутренний путь элемента в папке, указанный фигурой папки, которая указывает данные для обновления.
     
-- Папка, содержащая новое значение обновленного поля, если обновление не является удалением.
+- Папка с новым значением обновленного поля, если обновление не является удалением.
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Для элемента можно выполнить три основных действия обновления. Эти действия перечислены в приведенной ниже таблице.
+В элементе можно выполнить три базовых действия обновления. Эти действия перечислены в следующей таблице.
   
 |**Действие**|**Описание**|
 |:-----|:-----|
-|Error  <br/> |Действие Append добавляет данные к существующему свойству. Они сохраняют текущие данные. Append не применимо ко всем свойствам.  <br/> |
-|Set  <br/> |Действие Set замещает данные для свойства, если оно содержит данные, или создает свойство и задает его значение, если оно не существует. Действие Set применяется только к записываемым свойствам.  <br/> |
-|Удаление  <br/> |Действие DELETE удаляет свойство из папки. Это отличается от присвоения пустого значения. По завершении свойство для папки не существует. DELETE применяется только к записываемым свойствам.  <br/> |
+|Приложение  <br/> |Действие приложения добавляет данные в существующее свойство. Он сохраняет данные, которые находятся в настоящее время. Приложение не применимо к всем свойствам.  <br/> |
+|Set  <br/> |Действие набора заменяет данные для свойства, если оно содержит данные, или создает свойство и задает его значение, если оно не существует. Действие набора применимо только к рукописным свойствам.  <br/> |
+|Удалить  <br/> |Действие удаления удаляет свойство из папки. Это отличается от установки его на пустое значение. По завершению свойство не существует для папки. Удаление применимо только к writable свойствам.  <br/> |
    
-## <a name="updatefolder-request-example"></a>Пример запроса операцию UpdateFolder
+## <a name="updatefolder-request-example"></a>Пример запроса UpdateFolder
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса операцию UpdateFolder показано, как обновить отображаемое имя папки. 
+В следующем примере запроса UpdateFolder показано, как обновить имя отображения папки. 
   
 ### <a name="code"></a>Код
 
@@ -74,43 +74,43 @@ ms.locfileid: "44467363"
 
 ### <a name="comments"></a>Комментарии
 
-В этом примере показано изменение отображаемого имени папки на Невфолдернаме.
+В этом примере имя отображения папки изменяется на NewFolderName.
   
 > [!NOTE]
-> Значения атрибутов **ID** и **чанжекэй** элемента [FolderId](folderid.md) сокращены для удобочитаемости. 
+> Для читаемости сокращены значения атрибутов **Id** и **ChangeKey** элемента [FolderId.](folderid.md) 
   
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
 - [UpdateFolder](updatefolder.md)
     
-- [фолдерчанжес](folderchanges.md)
+- [FolderChanges](folderchanges.md)
     
 - [FolderChange](folderchange.md)
     
 - [FolderId](folderid.md)
     
-- [Обновления (папка)](updates-folder.md)
+- [Updates (Folder)](updates-folder.md)
     
-- [сетфолдерфиелд](setfolderfield.md)
+- [SetFolderField](setfolderfield.md)
     
-- [фиелдури](fielduri.md)
+- [FieldURI](fielduri.md)
     
 - [Folder](folder.md)
     
-- [DisplayName (строка)](displayname-string.md)
+- [DisplayName (string)](displayname-string.md)
     
-В схеме представлены дополнительные элементы, которые можно использовать для формирования запроса операцию UpdateFolder.
+См. схему дополнительных элементов, которые можно использовать для формирования запроса UpdateFolder.
   
 > [!NOTE]
-> Расположение схемы по умолчанию находится в виртуальном каталоге EWS на компьютере, на котором установлена роль сервера клиентского доступа. 
+> Расположение схемы по умолчанию находится в виртуальном каталоге EWS на компьютере с установленной ролью сервера клиентского доступа. 
   
-## <a name="updatefolder-response-example"></a>Пример отклика операцию UpdateFolder
+## <a name="updatefolder-response-example"></a>Пример ответа UpdateFolder
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос операцию UpdateFolder. В этом примере возвращается новый ключ изменения, который отражает обновленное состояние папки.
+В следующем примере показан успешный ответ на запрос UpdateFolder. В этом примере возвращается новый ключ изменения для отражения обновленного состояния папки.
   
 ### <a name="code"></a>Код
 
@@ -145,23 +145,23 @@ ms.locfileid: "44467363"
 ### <a name="comments"></a>Комментарии
 
 > [!NOTE]
-> Идентификатор папки и ключ изменения были сокращены, чтобы сохранить удобочитаемость. 
+> ID папки и ключ изменения были сокращены для сохранения читаемости. 
   
-Идентификатор папки, возвращаемой в ответе, представляет обновленную папку.
+Возвращаемая в ответ папка представляет обновленную папку.
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [упдатефолдерреспонсе](updatefolderresponse.md)
+- [UpdateFolderResponse](updatefolderresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [упдатефолдерреспонсемессаже](updatefolderresponsemessage.md)
+- [UpdateFolderResponseMessage](updatefolderresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
 - [Folders](folders-ex15websvcsotherref.md)
     
@@ -169,11 +169,11 @@ ms.locfileid: "44467363"
     
 - [FolderId](folderid.md)
     
-## <a name="updatefolder-error-response-example"></a>Пример ответа на сообщение об ошибке операцию UpdateFolder
+## <a name="updatefolder-error-response-example"></a>Пример ответа на ошибку UpdateFolder
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке для запроса операцию UpdateFolder.
+В следующем примере показан ответ на ошибку на запрос UpdateFolder.
   
 ### <a name="code"></a>Код
 
@@ -205,25 +205,25 @@ ms.locfileid: "44467363"
 
 ### <a name="comments"></a>Комментарии
 
-В этом примере показан ответ об ошибке, вызванный недопустимым атрибутом **чанжекэй** в запросе. 
+В этом примере показан ответ на ошибку, вызванный недействительным атрибутом **ChangeKey** в запросе. 
   
-### <a name="error-response-elements"></a>Элементы ошибочного ответа
+### <a name="error-response-elements"></a>Элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [упдатефолдерреспонсе](updatefolderresponse.md)
+- [UpdateFolderResponse](updatefolderresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [упдатефолдерреспонсемессаже](updatefolderresponsemessage.md)
+- [UpdateFolderResponseMessage](updatefolderresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
 - [Folders](folders-ex15websvcsotherref.md)
     

@@ -1,33 +1,33 @@
 ---
-title: Delete (Фолдерсинк)
+title: Delete (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Delete
 api_type:
 - schema
 ms.assetid: c4397d91-43ef-40a9-a80e-d31501a33caa
-description: Элемент Delete определяет отдельную папку, которую необходимо удалить из локального хранилища клиентов.
-ms.openlocfilehash: 68f8687b8cf0723d7fd63a3d55da8ef7c2f98f8e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Delete определяет одну папку, удаляемую в локальном клиентской магазине.
+ms.openlocfilehash: bd57c2f093fceda9948d8289fbd55b527bcf10cc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454983"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542500"
 ---
-# <a name="delete-foldersync"></a>Delete (Фолдерсинк)
+# <a name="delete-foldersync"></a>Delete (FolderSync)
 
-Элемент **Delete** определяет отдельную папку, которую необходимо удалить из локального хранилища клиентов. 
+Элемент **Delete** определяет одну папку, удаляемую в локальном клиентской магазине. 
   
-- [синкфолдерхиерарчиреспонсе](syncfolderhierarchyresponse.md)  
-- [респонсемессажес](responsemessages.md)  
-- [синкфолдерхиерарчиреспонсемессаже](syncfolderhierarchyresponsemessage.md)  
-- [Изменения (иерархия)](changes-hierarchy.md)  
-- [Delete (Фолдерсинк)](delete-foldersync.md)
+- [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)  
+- [ResponseMessages](responsemessages.md)  
+- [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
+- [Changes (Hierarchy)](changes-hierarchy.md)  
+- [Delete (FolderSync)](delete-foldersync.md)
   
 ```xml
 <Delete>
@@ -35,15 +35,15 @@ ms.locfileid: "44454983"
 </Delete>
 ```
 
-**синкфолдерхиерарчиделететипе**
+**SyncFolderHierarchyDeleteType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -55,11 +55,11 @@ ms.locfileid: "44454983"
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Изменения (иерархия)](changes-hierarchy.md) <br/> |Содержит упорядоченный массив типов изменений, которые представляют тип различий между папками на клиенте и папками на компьютере, на котором работает Microsoft Exchange Server 2007.  <br/> |
+|[Changes (Hierarchy)](changes-hierarchy.md) <br/> |Содержит последовательное множество типов изменений, которые представляют тип различий между папками на клиенте и папками на компьютере, который Microsoft Exchange Server 2007.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера Exchange 2007, на котором установлена роль сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в виртуальном каталоге EWS компьютера 2007 Exchange 2007 года с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -67,7 +67,7 @@ ms.locfileid: "44454983"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

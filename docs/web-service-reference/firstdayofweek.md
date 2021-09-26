@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FirstDayOfWeek
 api_type:
 - schema
 ms.assetid: d6cf1bd3-a19b-4d5f-9e25-8e337a4939e0
 description: Элемент FirstDayOfWeek указывает первый день недели.
-ms.openlocfilehash: 1b4aee8e1ce2548cd6b0047623b0bcda47ad316b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1b983cfc27d0e818a0487625b9af8c9e6b0afd93
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530974"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545092"
 ---
 # <a name="firstdayofweek"></a>FirstDayOfWeek
 
@@ -27,30 +27,30 @@ ms.locfileid: "44530974"
 <FirstDayOfWeek> Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday</FirstDayOfWeek>
 ```
 
- **дайофвиктипе**
+ **DayOfWeekType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[виклирекурренце](weeklyrecurrence.md) <br/> |Описывает еженедельный шаблон повторения.  <br/> |
+|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |Описывает недельный шаблон повторения.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **FirstDayOfWeek** указывает, какой день недели используется как первый день недели. Ниже приведены возможные текстовые значения. 
+Текстовое значение элемента **FirstDayOfWeek** указывает, какой день недели используется в качестве первого дня недели. Возможные текстовые значения: 
   
-- Воскресеньям
+- Воскресенье
     
 - Понедельник
     
@@ -64,7 +64,7 @@ ms.locfileid: "44530974"
     
 - Суббота
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.Этот элемент появился в Exchange Server 2010 с пакетом обновления 1 (SP1).
   
@@ -74,7 +74,7 @@ ms.locfileid: "44530974"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

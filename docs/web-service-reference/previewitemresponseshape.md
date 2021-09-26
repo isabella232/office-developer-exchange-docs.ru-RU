@@ -1,23 +1,23 @@
 ---
-title: превиевитемреспонсешапе
+title: PreviewItemResponseShape
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 183f4a06-c056-4770-b00b-ad850b97e03d
-description: Элемент Превиевитемреспонсешапе содержит набор запрошенных свойств, который должен быть возвращен при поиске обнаружения.
-ms.openlocfilehash: 6f00849cdd564a45084b64704e36a6cd09c698f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент PreviewItemResponseShape содержит запрошенное свойство, которое будет возвращено в поиске обнаружения.
+ms.openlocfilehash: 1ec65d40dc7ad70db3d488fa899877360bbba3f8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468098"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543053"
 ---
-# <a name="previewitemresponseshape"></a>превиевитемреспонсешапе
+# <a name="previewitemresponseshape"></a>PreviewItemResponseShape
 
-Элемент **превиевитемреспонсешапе** содержит набор запрошенных свойств, который должен быть возвращен при поиске обнаружения. 
+Элемент **PreviewItemResponseShape** содержит запрошенное свойство, которое будет возвращено в поиске обнаружения. 
   
 ```XML
 <PreviewItemResponseShape>
@@ -26,24 +26,24 @@ ms.locfileid: "44468098"
 </PreviewItemResponseShape>
 ```
 
- **превиевитемреспонсешапетипе**
+ **PreviewItemResponseShapeType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[Басешапе (превиевитембасешапетипе)](baseshape-previewitembaseshapetype.md)  |  [Аддитионалпропертиес](additionalproperties.md)
+[BaseShape (PreviewItemBaseShapeType)](baseshape-previewitembaseshapetype.md)  |  [Дополнительные свойства](additionalproperties.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [SearchMailboxes](searchmailboxes.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -55,7 +55,7 @@ ms.locfileid: "44468098"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

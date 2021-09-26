@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 769df8eb-9c72-48b5-a49f-82c6b86bc5fc
-description: Элемент GetItem определяет запрос на получение элемента из почтового ящика в хранилище Exchange.
-ms.openlocfilehash: a02403ee84195a41387d5dbe1785ae6d12b47da5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент GetItem определяет запрос на получения элемента из почтового ящика в Exchange магазине.
+ms.openlocfilehash: 7d5a7253db54fd67bb8e8772c2a5aedb86abdeee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546233"
 ---
 # <a name="getitem"></a>GetItem
 
-Элемент **GetItem** определяет запрос на получение элемента из почтового ящика в хранилище Exchange. 
+Элемент **GetItem** определяет запрос на получения элемента из почтового ящика в Exchange магазине. 
   
 ```xml
 <GetItem>
@@ -30,27 +30,27 @@ ms.locfileid: "44458700"
 </GetItem>
 ```
 
- **ItemType**
+ **GetItemType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[итемшапе](itemshape.md) <br/> |Определяет свойства и контент элемента, включаемые в отклик **GetItem** .  <br/> |
-|[итемидс](itemids.md) <br/> |Содержит уникальные идентификаторы элементов, элементы вхождений и повторяющиеся элементы шаблона, которые используются для получения элементов из хранилища Exchange. Эти элементы представляют контакты, задачи, сообщения, элементы календаря, приглашения на собрания и другие допустимые элементы в почтовом ящике.  <br/> |
+|[ItemShape](itemshape.md) <br/> |Определяет свойства и содержимое элемента для включаемой в **ответ GetItem.**  <br/> |
+|[ItemIds](itemids.md) <br/> |Содержит уникальные удостоверения элементов, элементов возникновения и повторяющихся мастер-элементов, которые используются для получения элементов из Exchange магазина. Эти элементы представляют контакты, задачи, сообщения, элементы календаря, запросы на собрания и другие допустимые элементы в почтовом ящике.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44458700"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема сообщения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

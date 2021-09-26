@@ -5,35 +5,35 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderItems
 api_type:
 - schema
 ms.assetid: 7f0de089-8876-47ec-a871-df118ceae75d
-description: Операция SyncFolderItems синхронизирует элементы между сервером Exchange Server и клиентом.
-ms.openlocfilehash: 1a28d895eda11dd43f77ec2662a60a426cfc463c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция SyncFolderItems синхронизирует элементы между Exchange сервером и клиентом.
+ms.openlocfilehash: 07915f5f9f7ae1fc6f5a743f2e0480a32cb808a7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468147"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545834"
 ---
 # <a name="syncfolderitems-operation"></a>Операция SyncFolderItems
 
-Операция SyncFolderItems синхронизирует элементы между сервером Exchange Server и клиентом.
+Операция SyncFolderItems синхронизирует элементы между Exchange сервером и клиентом.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Для операции SyncFolderItems будет возвращено не более 512 изменений. Для получения дополнительных изменений необходимо выполнить последующие запросы SyncFolderItems. 
+Операция SyncFolderItems возвращает максимум 512 изменений. Чтобы получить дополнительные изменения, необходимо выполнить последующие запросы SyncFolderItems. 
   
-SyncFolderItems аналогичен операции FindItem, так как она не может возвращать такие свойства, как текст или вложения. Если операция SyncFolderItems не возвращает нужные свойства, можно использовать [операцию GetItem](getitem-operation.md) для получения определенного набора свойств для каждого элемента, возвращенного SyncFolderItems. 
+SyncFolderItems аналогична операции FindItem, так как она не может возвращать свойства, такие как Body или Attachments. Если операция SyncFolderItems не возвращает необходимые свойства, вы можете использовать [операцию GetItem](getitem-operation.md) для получения определенного набора свойств для каждого элемента, возвращенного syncFolderItems. 
   
 ## <a name="syncfolderitems-request-example"></a>Пример запроса SyncFolderItems
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса SyncFolderItems показано, как синхронизировать элементы в папке. В этом примере показана синхронизация элемента папки, которая не является первой синхронизацией, которая возникла для папки "Отправленные". Элемент [синкстате](syncstate-ex15websvcsotherref.md) не включается в запрос первой попытки синхронизации клиента с сервером Exchange. При первой попытке синхронизации элементов в иерархии папок будут возвращены все элементы почтового ящика, кроме элементов, указанных в элементе [Ignore](ignore.md) . Этот запрос SyncFolderItems попытается выполнить синхронизацию всех изменений элементов папки с момента последней синхронизации. Этот запрос будет игнорировать попытку синхронизации одного элемента, указанного в элементе [Ignore](ignore.md) . 
+В следующем примере запроса SyncFolderItems показано, как синхронизировать элементы в папке. В этом примере показана синхронизация элемента папки, которая не является первой синхронизацией для папки отправленных элементов. Элемент [SyncState](syncstate-ex15websvcsotherref.md) не включен в запрос на первую попытку синхронизации клиента с Exchange сервером. Первая попытка синхронизации элементов в иерархии папок возвращает все элементы в почтовом ящике, за исключением элементов, идентифицированных в [элементе Ignore.](ignore.md) Этот запрос SyncFolderItems будет пытаться синхронизировать все изменения в папках с момента последней синхронизации. Этот запрос будет игнорировать попытку синхронизировать один элемент, который определен в [элементе Ignore.](ignore.md) 
   
 ### <a name="code"></a>Код
 
@@ -61,35 +61,35 @@ SyncFolderItems аналогичен операции FindItem, так как о
 
 ### <a name="comments"></a>Комментарии
 
-Данные элемента [синкстате](syncstate-ex15websvcsotherref.md) с кодировкой base64 и атрибут **идентификатора** элемента [ItemId](itemid.md) были сокращены для сохранения удобочитаемости. 
+Для сохранения читаемости были сокращены базовые элементы  [SyncState](syncstate-ex15websvcsotherref.md) и [атрибут ItemId.](itemid.md) 
   
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
 В запросе используются следующие элементы:
   
 - [SyncFolderItems](syncfolderitems.md)
     
-- [итемшапе](itemshape.md)
+- [ItemShape](itemshape.md)
     
-- [басешапе](baseshape.md)
+- [BaseShape](baseshape.md)
     
-- [синкфолдерид](syncfolderid.md)
+- [SyncFolderId](syncfolderid.md)
     
-- [дистингуишедфолдерид](distinguishedfolderid.md)
+- [DistinguishedFolderId](distinguishedfolderid.md)
     
-- [синкстате](syncstate-ex15websvcsotherref.md)
+- [SyncState](syncstate-ex15websvcsotherref.md)
     
 - [Ignore](ignore.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
-- [максчанжесретурнед](maxchangesreturned.md)
+- [MaxChangesReturned](maxchangesreturned.md)
     
-## <a name="successful-syncfolderitems-response"></a>Успешный ответ SyncFolderItems
+## <a name="successful-syncfolderitems-response"></a>Успешное реагирование syncFolderItems
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос SyncFolderItems. В этом примере приглашение на собрание синхронизируется из папки "Отправленные".
+В следующем примере показан успешный ответ на запрос SyncFolderItems. В этом примере запрос на собрание синхронизируется с папкой Отправленные элементы.
   
 ### <a name="code"></a>Код
 
@@ -144,33 +144,33 @@ SyncFolderItems аналогичен операции FindItem, так как о
 
 ### <a name="comments"></a>Комментарии
 
-Данные элемента [синкстате](syncstate-ex15websvcsotherref.md) с кодировкой base64 и атрибут **идентификатора** элемента [ItemId](itemid.md) были сокращены для сохранения удобочитаемости. 
+Для сохранения читаемости были сокращены базовые элементы  [SyncState](syncstate-ex15websvcsotherref.md) и [атрибут ItemId.](itemid.md) 
   
 ### <a name="successful-response-elements"></a>Элементы успешного ответа
 
-В отклике используются следующие элементы:
+В ответе используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [синкфолдеритемсреспонсе](syncfolderitemsresponse.md)
+- [SyncFolderItemsResponse](syncfolderitemsresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md)
+- [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [синкстате](syncstate-ex15websvcsotherref.md)
+- [SyncState](syncstate-ex15websvcsotherref.md)
     
-- [инклудесластитеминранже](includeslastiteminrange.md)
+- [IncludesLastItemInRange](includeslastiteminrange.md)
     
-- [Изменения (элементы)](changes-items.md)
+- [Changes (Items)](changes-items.md)
     
-- [Create (Итемсинк)](create-itemsync.md)
+- [Create (ItemSync)](create-itemsync.md)
     
-- [Свойство meetingrequest](meetingrequest.md)
+- [MeetingRequest](meetingrequest.md)
     
-- [Идентификатор](itemid.md)
+- [ItemId](itemid.md)
     
 - [Тема](subject.md)
     
@@ -178,15 +178,15 @@ SyncFolderItems аналогичен операции FindItem, так как о
     
 - [IsOutOfDate](isoutofdate.md)
     
-- [хасбинпроцессед](hasbeenprocessed.md)
+- [HasBeenProcessed](hasbeenprocessed.md)
     
 - [ResponseType](responsetype.md)
     
-- [интендедфрибусистатус](intendedfreebusystatus.md)
+- [IntendedFreeBusyStatus](intendedfreebusystatus.md)
     
-- [Начало](start.md)
+- [Start](start.md)
     
-- [Оканчиваться](end-ex15websvcsotherref.md)
+- [End ](end-ex15websvcsotherref.md)
     
 - [Location](location.md)
     
@@ -194,17 +194,17 @@ SyncFolderItems аналогичен операции FindItem, так как о
     
 - [Mailbox](mailbox.md)
     
-- [Имя (EmailAddressType)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
-- [EmailAddress (Нонемптистрингтипе)](emailaddress-nonemptystringtype.md)
+- [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [Раутингтипе (EmailAddressType)](routingtype-emailaddresstype.md)
+- [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
-## <a name="syncfolderitems-error-response"></a>Ответ об ошибке SyncFolderItems
+## <a name="syncfolderitems-error-response"></a>Реакция на ошибку SyncFolderItems
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан ответ об ошибке для запроса SyncFolderItems. Эта ошибка вызвана недопустимым Синкстате.
+В следующем примере показан ответ на ошибку на запрос SyncFolderItems. Эта ошибка была вызвана недействительным SyncState.
   
 ### <a name="code"></a>Код
 
@@ -236,27 +236,27 @@ SyncFolderItems аналогичен операции FindItem, так как о
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a>Элементы ошибочного ответа
+### <a name="error-response-elements"></a>Элементы ответа на ошибки
 
-В ответе на сообщение об ошибке используются следующие элементы:
+В ответе на ошибку используются следующие элементы:
   
-- [серверверсионинфо](serverversioninfo.md)
+- [ServerVersionInfo](serverversioninfo.md)
     
-- [синкфолдеритемсреспонсе](syncfolderitemsresponse.md)
+- [SyncFolderItemsResponse](syncfolderitemsresponse.md)
     
-- [респонсемессажес](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
     
-- [синкфолдеритемсреспонсемессаже](syncfolderitemsresponsemessage.md)
+- [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
     
-- [мессажетекст](messagetext.md)
+- [MessageText](messagetext.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [дескриптивелинккэй](descriptivelinkkey.md)
+- [DescriptiveLinkKey](descriptivelinkkey.md)
     
-- [синкстате](syncstate-ex15websvcsotherref.md)
+- [SyncState](syncstate-ex15websvcsotherref.md)
     
-- [инклудесластитеминранже](includeslastiteminrange.md)
+- [IncludesLastItemInRange](includeslastiteminrange.md)
     
 ## <a name="see-also"></a>См. также
 

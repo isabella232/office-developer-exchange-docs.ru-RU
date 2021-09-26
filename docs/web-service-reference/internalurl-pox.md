@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4649baa9-eec9-426d-952b-361818c25fe0
-description: Элемент InternalUrl содержит URL-адрес для подключения клиента к серверу адресной книги или почтового ящика пользователя внутри организации пользователя с помощью протокола MAPI/HTTP.
-ms.openlocfilehash: 9c6ba621a681ec54d88089de6b7ae1eefdebc679
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент InternalUrl содержит URL-адрес для подключения клиента к серверу адресной книги или почтовому ящику пользователя из организации пользователя с помощью протокола MAPI/HTTP.
+ms.openlocfilehash: 4ce04743c7d0f260439849a02f8f6d389f6c83fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465578"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542198"
 ---
 # <a name="internalurl-pox"></a>InternalUrl (POX)
 
-Элемент **InternalUrl** содержит URL-адрес для подключения клиента к серверу адресной книги или почтового ящика пользователя внутри организации пользователя с помощью протокола MAPI/HTTP. 
+Элемент **InternalUrl** содержит URL-адрес для подключения клиента к серверу адресной книги или почтовому ящику пользователя из организации пользователя с помощью протокола MAPI/HTTP. 
   
 ```XML
 <InternalUrl/>
@@ -24,36 +24,36 @@ ms.locfileid: "44465578"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[AddressBook (POX)](addressbook-pox.md) <br/> |Содержит спецификации для подключения клиента к серверу адресной книги с помощью протокола MAPI/HTTP.  <br/> |
-|[Маилсторе (POX)](mailstore-pox.md) <br/> |Содержит спецификации для подключения клиента к почтовому ящику пользователя с помощью протокола MAPI/HTTP.  <br/> |
+|[MailStore (POX)](mailstore-pox.md) <br/> |Содержит спецификации для подключения клиента к почтовому ящику пользователя с помощью протокола MAPI/HTTP.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет собой URL-адрес, который можно использовать для доступа к почтовому ящику сервера адресной книги или пользователя из Организации.
+Текстовое значение представляет URL-адрес, который можно использовать для доступа к серверу адресной книги или почтовому ящику пользователя из организации пользователя.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **InternalUrl** может присутствовать в отклике, у которого есть элемент [Protocol (POX)](protocol-pox.md) со значением атрибута **Type** "возможно". 
+Элемент **InternalUrl может** присутствовать в ответе, который имеет элемент [Протокол (POX)](protocol-pox.md) со значением атрибута **Type** "mapiHttp". 
   
-Элемент **InternalUrl** доступен для клиентов, которые реализуют протокол MAPI/HTTP и целевую среду Exchange Online, Exchange Online в составе Office 365, а локальные версии Exchange, начиная с сборки 15.00.0847.032 (Exchange Server 2013 SP1). 
+Элемент **InternalUrl** доступен клиентам, реализующими протокол MAPI/HTTP и целевой Exchange Online, Exchange Online в составе Office 365 и локальной версии Exchange, начиная со сборки 15.00.0847.032 (Exchange Server 2013 SP1). 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

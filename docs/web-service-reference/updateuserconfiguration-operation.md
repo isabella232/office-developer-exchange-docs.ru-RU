@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateUserConfiguration
 api_type:
 - schema
 ms.assetid: eda73b62-6a3a-43ae-8fd9-f30892811f27
 description: Операция UpdateUserConfiguration обновляет объект конфигурации пользователя в папке.
-ms.openlocfilehash: 95fe6518fa30104463ec7f0aec8f786183eb513b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 18caad56d3add618c4f426af824e61ce54c15bc7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541702"
 ---
 # <a name="updateuserconfiguration-operation"></a>Операция UpdateUserConfiguration
 
 Операция **UpdateUserConfiguration** обновляет объект конфигурации пользователя в папке. 
   
-## <a name="updateuserconfiguration-request-example"></a>Пример запроса UpdateUserConfiguration
+## <a name="updateuserconfiguration-request-example"></a>Пример запроса updateUserConfiguration
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере запроса **UpdateUserConfiguration** показано, как сформировать запрос на обновление объекта конфигурации пользователя в папке "Черновики". 
+В следующем примере **запроса UpdateUserConfiguration** показано, как сформировать запрос на обновление объекта конфигурации пользователя в папке Drafts. 
   
 ### <a name="code"></a>Код
 
@@ -65,11 +65,11 @@ ms.locfileid: "44468546"
 </soap:Envelope>
 ```
 
-## <a name="updateuserconfiguration-response-example"></a>Пример отклика UpdateUserConfiguration
+## <a name="updateuserconfiguration-response-example"></a>Пример ответа updateUserConfiguration
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ на запрос **UpdateUserConfiguration** . 
+В следующем примере показан успешный ответ на **запрос UpdateUserConfiguration.** 
   
 ### <a name="code"></a>Код
 

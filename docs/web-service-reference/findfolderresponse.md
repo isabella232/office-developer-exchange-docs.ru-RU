@@ -1,29 +1,29 @@
 ---
-title: финдфолдерреспонсе
+title: FindFolderResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FindFolderResponse
 api_type:
 - schema
 ms.assetid: f5dd813c-9698-4a39-8fca-3a825df365ed
-description: Элемент Финдфолдерреспонсе определяет ответ на запрос FindFolder.
-ms.openlocfilehash: 365e4e81b04419ed42f0bd9c8e022b6f8e559a2a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FindFolderResponse определяет ответ на запрос FindFolder.
+ms.openlocfilehash: 6f596d3dc6dd4f4a7274c153f4ceb62c17ac0f22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462572"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545113"
 ---
-# <a name="findfolderresponse"></a>финдфолдерреспонсе
+# <a name="findfolderresponse"></a>FindFolderResponse
 
-Элемент **финдфолдерреспонсе** определяет ответ на запрос FindFolder. 
+Элемент **FindFolderResponse** определяет ответ на запрос FindFolder. 
   
-[финдфолдерреспонсе](findfolderresponse.md)
+[FindFolderResponse](findfolderresponse.md)
   
 ```xml
 <FindFolderResponse>
@@ -31,26 +31,26 @@ ms.locfileid: "44462572"
 </FindFolderResponse>
 ```
 
- **финдфолдерреспонсетипе**
+ **FindFolderResponseType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[респонсемессажес](responsemessages.md) <br/> |Содержит ответные сообщения для запроса веб-служб Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Содержит сообщения отклика для запроса веб-служб Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44462572"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
