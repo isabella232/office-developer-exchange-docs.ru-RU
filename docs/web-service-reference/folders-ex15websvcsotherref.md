@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Folders
 api_type:
 - schema
 ms.assetid: 8e71cb44-1df6-444a-add7-0c1363863f65
-description: Элемент Folders содержит массив папок, которые используются в операциях с папками.
-ms.openlocfilehash: b087be0501f04390b80458458e7e7ccc24bf27bd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Folders содержит массив папок, используемых в операциях папок.
+ms.openlocfilehash: 77442965c9d372a2895404cf1c919be38e98abb5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546436"
 ---
 # <a name="folders"></a>Folders
 
-Элемент **Folders** содержит массив папок, которые используются в операциях с папками. 
+Элемент **Folders** содержит массив папок, используемых в операциях папок. 
   
 ```xml
 <Folders>
@@ -53,45 +53,45 @@ ms.locfileid: "44530981"
 </Folders>
 ```
 
-**Аррайоффолдерстипе** или **нонемптяррайоффолдерстипе**
+**ArrayOfFoldersType** или **NonEmptyArrayOfFoldersType**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
 |[Folder](folder.md) <br/> |Определяет папку для создания, получения, поиска, синхронизации или обновления.  <br/> |
-|[календарфолдер](calendarfolder.md) <br/> |Представляет папку, в которой в основном содержатся элементы календаря.  <br/> |
-|[контактсфолдер](contactsfolder.md) <br/> |Представляет папку "Контакты" в почтовом ящике.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Представляет папку поиска, содержащуюся в почтовом ящике.  <br/> |
-|[тасксфолдер](tasksfolder.md) <br/> |Представляет папку Tasks в почтовом ящике.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Представляет папку, которая в основном содержит элементы календаря.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Представляет папку Контакты в почтовом ящике.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Представляет папку Поиска, содержаную в почтовом ящике.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Представляет папку Задачи в почтовом ящике.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[копифолдерреспонсемессаже](copyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CopyFolder](copyfolder-operation.md) .  <br/> |
-|[CreateFolder](createfolder.md) <br/> |Определяет запрос на создание папки в хранилище Exchange.  <br/> |
-|[креатефолдерреспонсемессаже](createfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CreateFolder](createfolder-operation.md) .  <br/> |
-|[креатеманажедфолдерреспонсемессаже](createmanagedfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CreateManagedFolder](createmanagedfolder-operation.md) .  <br/> |
-|[жетфолдерреспонсемессаже](getfolderresponsemessage.md) <br/> |Содержит состояние и результат запроса операции " [операция с папкой](getfolder-operation.md) ".  <br/> |
-|[мовефолдерреспонсемессаже](movefolderresponsemessage.md) <br/> |Содержит состояние и результат запроса [операции MoveFolder](movefolder-operation.md) .  <br/> |
-|[ParentFolderId (Таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md) <br/> |Определяет папку, в которой создается новая папка.  <br/> |
-|[Рутфолдер (Финдфолдерреспонсемессаже)](rootfolder-findfolderresponsemessage.md) <br/> |Содержит результаты поиска в одной корневой папке во время [операции FindFolder](findfolder-operation.md).  <br/> |
-|[упдатефолдерреспонсемессаже](updatefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции операцию UpdateFolder](updatefolder-operation.md) .  <br/> |
+|[CopyFolderResponseMessage](copyfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CopyFolder.](copyfolder-operation.md)  <br/> |
+|[CreateFolder](createfolder.md) <br/> |Определяет запрос на создание папки в Exchange магазине.  <br/> |
+|[CreateFolderResponseMessage](createfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CreateFolder.](createfolder-operation.md)  <br/> |
+|[CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции CreateManagedFolder.](createmanagedfolder-operation.md)  <br/> |
+|[GetFolderResponseMessage](getfolderresponsemessage.md) <br/> |Содержит состояние и результат запроса на операцию [GetFolder.](getfolder-operation.md)  <br/> |
+|[MoveFolderResponseMessage](movefolderresponsemessage.md) <br/> |Содержит состояние и результат запроса на операцию [MoveFolder.](movefolder-operation.md)  <br/> |
+|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |Определяет папку, в которой создается новая папка.  <br/> |
+|[RootFolder (FindFolderResponseMessage)](rootfolder-findfolderresponsemessage.md) <br/> |Содержит результаты поиска одной корневой папки во время операции [FindFolder.](findfolder-operation.md)  <br/> |
+|[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |Содержит состояние и результат одного запроса [операции UpdateFolder.](updatefolder-operation.md)  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Этот элемент является обязательным дочерним элементом элемента [ParentFolderId (таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md) . 
+Этот элемент является обязательной детской частью элемента [ParentFolderId (TargetFolderIdType).](parentfolderid-targetfolderidtype.md) 
   
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
+Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2010, с установленной ролью сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -99,10 +99,10 @@ ms.locfileid: "44530981"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [ParentFolderId (Таржетфолдеридтипе)](parentfolderid-targetfolderidtype.md)
+- [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
 

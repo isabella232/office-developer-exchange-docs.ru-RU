@@ -1,25 +1,25 @@
 ---
-title: форвардтореЦипиентс
+title: ForwardToRecipients
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ForwardToRecipients
 api_type:
 - schema
 ms.assetid: dd58fd72-591d-4891-b226-465bcf12c19b
 description: Элемент ForwardToRecipients указывает адреса электронной почты, к которым сообщения, для перенаправления.
-ms.openlocfilehash: d565fa9f59794a4e10e91b05a507354a2f6ef0c9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8fcf93f01493fb558ed3c0a1982387dae101e598
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458322"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546443"
 ---
-# <a name="forwardtorecipients"></a>форвардтореЦипиентс
+# <a name="forwardtorecipients"></a>ForwardToRecipients
 
 Информация, содержащаяся в этом документе, может относиться к функциям и продуктам предварительной версии и может претерпеть значительные изменения до окончательного коммерческого выпуска. Настоящий документ предоставляется "как есть" и служит только для информационных целей. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, в связи с этим документом Элемент **ForwardToRecipients** указывает адреса электронной почты, к которым сообщения, для перенаправления. 
   
@@ -29,14 +29,14 @@ ms.locfileid: "44458322"
 </ForwardToRecipients>
 ```
 
- **аррайофемаиладдрессестипе**
+ **ArrayOfEmailAddressesType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "44458322"
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -64,7 +64,7 @@ ms.locfileid: "44458322"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>См. также

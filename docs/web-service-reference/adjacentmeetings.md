@@ -1,27 +1,27 @@
 ---
-title: аджацентмитингс
+title: AdjacentMeetings
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AdjacentMeetings
 api_type:
 - schema
 ms.assetid: 50a9c381-9166-476e-8421-29e51b94499b
-description: Элемент Аджацентмитингс определяет все элементы календаря, смежные с временем собрания.
-ms.openlocfilehash: 7c89095e24af799df22a848be06a0fd65d53be7f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AdjacentMeetings определяет все элементы календаря, которые примыкают к времени собрания.
+ms.openlocfilehash: 9ce022da9cc9ca2c6a5d7866a20b749d72fb0537
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463582"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546781"
 ---
-# <a name="adjacentmeetings"></a>аджацентмитингс
+# <a name="adjacentmeetings"></a>AdjacentMeetings
 
-Элемент **аджацентмитингс** определяет все элементы календаря, смежные с временем собрания. 
+Элемент **AdjacentMeetings** определяет все элементы календаря, которые примыкают к времени собрания. 
   
 ```xml
 <AdjacentMeetings>
@@ -29,34 +29,34 @@ ms.locfileid: "44463582"
 </AdjacentMeetings>
 ```
 
- **нонемптяррайофаллитемстипе**
+ **NonEmptyArrayOfAllItemsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календаритем](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
-|[Свойство meetingrequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Представляет элемент календаря Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Представляет приглашение на собрание в хранилище Exchange.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге EWS компьютера под управлением Microsoft Exchange Server 2010, на котором установлена роль сервера клиентского доступа.
+Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере, работающем под управлением Microsoft Exchange Server 2010, с установленной ролью сервера клиентского доступа.
   
 > [!NOTE]
-> Несмотря на то что в схеме допустимы дополнительные дочерние элементы, элемент [календаритем](calendaritem.md) является единственным дочерним элементом, который веб-службы Exchange (EWS) будут возвращать в элементе **аджацентмитингс** . В этой статье не перечислены дочерние элементы, допустимые для схемы, но не возвращенные службой EWS. 
+> Хотя в схеме допустимы дополнительные детские элементы, элемент [CalendarItem](calendaritem.md) является единственным детским элементом, который Exchange веб-службы (EWS) будут возвращаться в **элементе AdjacentMeetings.** В этом разделе не перечисляются детские элементы, допустимые в схеме, но не возвращенные EWS. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -64,7 +64,7 @@ ms.locfileid: "44463582"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

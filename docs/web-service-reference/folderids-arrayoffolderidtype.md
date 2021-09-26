@@ -1,23 +1,23 @@
 ---
-title: Фолдеридс (Аррайоффолдеридтипе)
+title: FolderIds (ArrayOfFolderIdType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4cc6b414-f702-4822-bb09-9771ab462700
-description: Элемент Фолдеридс содержит список идентификаторов папок.
-ms.openlocfilehash: 758801f528d8b2b33c9b4344fea77f2b90592bab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FolderIds содержит список идентификаторов папок.
+ms.openlocfilehash: 2f472e8eaf0bfe8125e75cf268db66543756bb7e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461375"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546471"
 ---
-# <a name="folderids-arrayoffolderidtype"></a>Фолдеридс (Аррайоффолдеридтипе)
+# <a name="folderids-arrayoffolderidtype"></a>FolderIds (ArrayOfFolderIdType)
 
-Элемент **фолдеридс** содержит список идентификаторов папок. 
+Элемент **FolderIds** содержит список идентификаторов папок. 
   
 ```XML
 <FolderIds>
@@ -25,14 +25,14 @@ ms.locfileid: "44461375"
 </FolderIds>
 ```
 
- **аррайоффолдеридтипе**
+ **ArrayOfFolderIdType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -42,7 +42,7 @@ ms.locfileid: "44461375"
 
 [Роль](persona.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44461375"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

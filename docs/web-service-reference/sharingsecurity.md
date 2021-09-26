@@ -1,52 +1,52 @@
 ---
-title: шарингсекурити
+title: SharingSecurity
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SharingSecurity
 api_type:
 - schema
 ms.assetid: d4831cac-a8f9-419a-ac42-481e34230cba
-description: Элемент Шарингсекурити используется в заголовке протокола SOAP для календаря или общего доступа к контактам.
-ms.openlocfilehash: 456190079cc539c170aa96e795031071b5d9f1ad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SharingSecurity используется в Протокол SOAP (SOAP) для общего доступа к календарю или контактам.
+ms.openlocfilehash: 32432f09b2e291aced8f87fb685f80069a4de3fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466712"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547052"
 ---
-# <a name="sharingsecurity"></a>шарингсекурити
+# <a name="sharingsecurity"></a>SharingSecurity
 
-Элемент **шарингсекурити** используется в заголовке протокола SOAP для календаря или общего доступа к контактам. 
+Элемент **SharingSecurity** используется в Протокол SOAP (SOAP) для общего доступа к календарю или контактам. 
   
 ```xml
 <SharingSecurity/>
 ```
 
- **енкриптеддатаконтаинертипе**
+ **EncryptedDataContainerType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, на котором размещены веб-службы Exchange компьютера, на котором установлен сервер Microsoft Exchange, на котором установлена роль сервера клиентского доступа.
+Схема, описываемая этим элементом, расположена в виртуальном каталоге IIS, Exchange веб-службы компьютера, на котором Microsoft Exchange Server установлена роль сервера клиентского доступа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -54,7 +54,7 @@ ms.locfileid: "44466712"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -1,32 +1,32 @@
 ---
-title: мексрунтиме
+title: mexRuntime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - mexRuntime
 api_type:
 - schema
 ms.assetid: eabb2f12-10a7-4ce2-ae4b-9c04010c765f
-description: 'Дата последнего изменения: 17 сентября 2015 г.'
-ms.openlocfilehash: f192965a8375eb46d1ca5b46d3b768a3299c284d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'Последнее изменение: 17 сентября 2015 г.'
+ms.openlocfilehash: c7ae630a01ac0339433a7c78859c06006efab4b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461837"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546912"
 ---
-# <a name="mexruntime"></a>мексрунтиме
+# <a name="mexruntime"></a>mexRuntime
   
-**Применимо к:** Exchange Server 2013
+**Применяется к:** Exchange Server 2013 г.
   
-Элемент **мексрунтиме** содержит элементы, определяющие сведения о конфигурации для мониторинга агентов и сведения о конфигурации агентов маршрутизации SMTP и маршрутизации, которые установлены. 
+Элемент **mexRuntime содержит** элементы, определяющие сведения о конфигурации для агентов мониторинга и конфигурации для установленных агентов SMTP и маршрутов. 
   
 - [configuration](configuration.md)  
-- [мексрунтиме](mexruntime.md)
+- [mexRuntime](mexruntime.md)
   
 ```XML
 <mexRuntime>
@@ -35,39 +35,39 @@ ms.locfileid: "44461837"
 </mexRuntime>
 ```
 
-**Мексрунтиметипе (complexType)**
+**mexRuntimeType (complexType)**
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[текущего](monitoring.md) <br/> |Содержит сведения о конфигурации, определяющие, как и когда транспортный монитор устанавливает агенты.  <br/> |
-|[ажентлист](agentlist.md) <br/> |Содержит элемент [Agent](agent.md) для каждого установленного агента.  <br/> |
+|[мониторинг](monitoring.md) <br/> |Содержит сведения о конфигурации, определяя, как и когда транспорт отслеживает установленные агенты.  <br/> |
+|[agentList](agentlist.md) <br/> |Содержит элемент [агента](agent.md) для каждого установленного агента.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[configuration](configuration.md) <br/> |Корневой элемент для файла конфигурации агентов.  <br/> |
+|[configuration](configuration.md) <br/> |Корневой элемент файла конфигурации агентов.  <br/> |
    
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |В этом файле не определено пространство имен.  <br/> |
+|Пространство имен  <br/> |Этот файл не определяет пространство имен.  <br/> |
 |Имя схемы  <br/> |Недоступно.  <br/> |
 |Файл проверки  <br/> |Недоступно.  <br/> |
 |Может быть пустым  <br/> |Неверно.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Элементы файла конфигурации агентов для Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Элементы конфигурации файлов агентов для Exchange 2013 г.](agents-configuration-file-elements-for-exchange-2013.md)
 

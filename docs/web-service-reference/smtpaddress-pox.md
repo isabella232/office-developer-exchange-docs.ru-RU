@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 984ccd97-c337-47b6-ba42-3405a8b55a71
-description: Элемент SmtpAddress содержит SMTP-адрес, назначенный хранилищу сообщений общедоступных папок, настроенному для пользователя.
-ms.openlocfilehash: 48703a11fb056967c6c76073c2e928d5f6efa264
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SmtpAddress содержит адрес SMTP, задаемый в хранилище сообщений общедоступных папок, настроенном для пользователя.
+ms.openlocfilehash: d257b193a3254afceaa72d396a8c2724bb3165c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468644"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546989"
 ---
 # <a name="smtpaddress-pox"></a>SmtpAddress (POX)
 
-Элемент **SmtpAddress** содержит SMTP-адрес, назначенный хранилищу сообщений общедоступных папок, настроенному для пользователя. 
+Элемент **SmtpAddress содержит** адрес SMTP, задаемый в хранилище сообщений общедоступных папок, настроенном для пользователя. 
   
-- [Служба автообнаружения (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Ответ (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [Учетная запись (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-- [Публикфолдеринформатион (POX)](publicfolderinformation-pox.md)
+- [PublicFolderInformation (POX)](publicfolderinformation-pox.md)
   
 - [SmtpAddress (POX)](smtpaddress-pox.md)
   
@@ -34,31 +34,31 @@ ms.locfileid: "44468644"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Публикфолдеринформатион (POX)](publicfolderinformation-pox.md) <br/> |Содержит сведения, которые клиенты могут использовать для отправки запроса на автообнаружение для обнаружения сведений о общедоступных папках для пользователя.  <br/> |
+|[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Содержит сведения, которые клиенты могут использовать для отправки запроса автооткрытия для обнаружения общедоступных папок для пользователя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение представляет SMTP-адрес, назначенный хранилищу общедоступных папок, настроенному для пользователя. Этот SMTP-адрес можно использовать в элементе [EMailAddress (POX)](emailaddress-pox.md) запроса на автообнаружение для обнаружения параметров общедоступных папок. 
+Текстовое значение представляет адрес SMTP, назначенный в хранилище общедоступных папок, настроенном для пользователя. Этот SMTP-адрес можно использовать в [элементе EMailAddress (POX)](emailaddress-pox.md) запроса автооткрытия для обнаружения параметров общедоступных папок. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **SmtpAddress** является обязательным дочерним элементом элемента **публикфолдеринформатион** . 
+Элемент **SmtpAddress** — это необходимый детский элемент элемента **PublicFolderInformation.** 
   
 ## <a name="see-also"></a>См. также
 
-- [XML-элементы автообнаружения POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Элементы XML автооткрытия POX для Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

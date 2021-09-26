@@ -1,23 +1,23 @@
 ---
-title: аггрегатионрестриктион
+title: AggregationRestriction
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d05044f9-d2ff-4aca-956c-20c9cb2f7709
-description: Элемент Аггрегатионрестриктион указывает значение, которое применяется к набору свойств пользователя, полученному при запросе FindPeople, и фильтрует результат в соответствии с указанным ограничением.
-ms.openlocfilehash: f07e54235cf13b43da26ed1c56596d3c7c357bf2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AggregationRestriction указывает значение, которое применяется к набору свойств Persona в результате запроса FindPeople и фильтрует результат в соответствии с указанным ограничением.
+ms.openlocfilehash: 6a00035f87e0f365f4551df1a6ff570e01761770
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463526"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546793"
 ---
-# <a name="aggregationrestriction"></a>аггрегатионрестриктион
+# <a name="aggregationrestriction"></a>AggregationRestriction
 
-Элемент **аггрегатионрестриктион** указывает значение, которое применяется к набору свойств пользователя, полученному при запросе FindPeople, и фильтрует результат в соответствии с указанным ограничением. 
+Элемент **AggregationRestriction** указывает значение, которое применяется к набору свойств Persona в результате запроса FindPeople и фильтрует результат в соответствии с указанным ограничением. 
   
 ```XML
 <AggregationRestriction>
@@ -25,26 +25,26 @@ ms.locfileid: "44463526"
 </AggregationRestriction>
 ```
 
- **рестриктионтипе**
+ **RestrictionType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-[сеарчекспрессион](searchexpression.md)
+[SearchExpression](searchexpression.md)
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 [FindPeople](findpeople.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент **аггрегатионрестриктион** может содержать любой дочерний элемент, в котором используется группа подстановки **сеарчекспрессион** . Элементами, которые являются частью группы подстановки **сеарчекспрессион** : [Contains](contains.md), [Exclude](excludes.md), [Exists](exists.md), [Not](not.md), [or](or.md) [и](and.md), [исекуалто](isequalto.md), [иснотекуалто](isnotequalto.md), [исгреатерсан](isgreaterthan.md), [исгреатерсанорекуалто](isgreaterthanorequalto.md), [ислесссан](islessthan.md)и [IsLessThanOrEqualTo](islessthanorequalto.md).
+Элемент **AggregationRestriction** может содержать любой детский элемент, использующий группу **замены SearchExpression.** Элементы, которые являются частью группы замены **SearchExpression** [являются:](contains.md) [](exists.md)Содержит [,](excludes.md)Исключает [](and.md), Существует , [Не](not.md) [,](or.md)Или , и , [IsEqualTo](isequalto.md), [IsNotEqualTo](isnotequalto.md), IsGreaterThan , [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md), [IsLessThanThan](islessthan.md)и [](isgreaterthan.md) [IsLessThanOrEqualTo](islessthanorequalto.md).
   
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44463526"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |messages. xsd  <br/> |
+|Файл проверки  <br/> |messages.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

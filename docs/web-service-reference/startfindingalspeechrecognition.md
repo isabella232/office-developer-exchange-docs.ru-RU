@@ -1,41 +1,41 @@
 ---
-title: стартфиндингалспичрекогнитион
+title: StartFindInGALSpeechRecognition
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fcbc9f67-a211-4a6a-b816-0a9b0a81a283
-description: Элемент Стартфиндингалспичрекогнитион предназначен только для внутреннего использования.
-ms.openlocfilehash: 2ed598516aa49f10ccc20964577f5929aaf6af5a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент StartFindInGALSpeechRecognition предназначен только для внутреннего использования.
+ms.openlocfilehash: 434ec02d6a5689964a12c6a3c79e4f333188a666
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530312"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546954"
 ---
-# <a name="startfindingalspeechrecognition"></a>стартфиндингалспичрекогнитион
+# <a name="startfindingalspeechrecognition"></a>StartFindInGALSpeechRecognition
 
-Элемент **стартфиндингалспичрекогнитион** предназначен только для внутреннего использования. 
+Элемент **StartFindInGALSpeechRecognition** предназначен только для внутреннего использования. 
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 Нет.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -47,7 +47,7 @@ ms.locfileid: "44530312"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

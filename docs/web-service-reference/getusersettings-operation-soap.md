@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 758d965c-ef63-4de4-9120-e293abf14ff8
-description: Операция GetUserSettings содержит запрос для настройки клиентского доступа пользователей.
-ms.openlocfilehash: e274fd4e1ca954ea25ea91a52e363c9a434b290a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Операция GetUserSettings содержит запрос на конфигурацию клиентского доступа пользователей.
+ms.openlocfilehash: 79e9d5827cbcc4885c99cf5a497868284dda4494
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466145"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547409"
 ---
 # <a name="getusersettings-operation-soap"></a>Операция GetUserSettings (SOAP)
 
-Операция **GetUserSettings** содержит запрос для настройки клиентского доступа пользователей. 
+Операция **GetUserSettings содержит** запрос на конфигурацию клиентского доступа пользователей. 
   
 ## <a name="getusersettings-request-example"></a>Пример запроса GetUserSettings
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В приведенном ниже примере XML-кода показан основной текст запроса автообнаружения, который запрашивает отображаемое имя пользователя, различающееся имя, идентификатор развертывания, сервер почтовых ящиков, различающееся имя почтового ящика, сервер Active Directory, версию сервера клиентского доступа и поддерживаемые схемы веб-служб Exchange.
+В следующем примере XML показан орган запроса автообнаружения, который запрашивает имя отображения пользователя, его имя, ИД развертывания, сервер почтовых ящиков, имя почтового ящика, сервер Active Directory, версию сервера клиентского доступа и поддерживаемые схемы Exchange веб-служб.
   
 ### <a name="code"></a>Код
 
@@ -64,31 +64,31 @@ ms.locfileid: "44466145"
 
 ```
 
-### <a name="request-elements"></a>Элементы Request
+### <a name="request-elements"></a>Элементы запроса
 
-В тексте запроса используются следующие элементы:
+В теле запроса используются следующие элементы:
   
-- [Жетусерсеттингсрекуестмессаже (SOAP)](getusersettingsrequestmessage-soap.md)
+- [GetUserSettingsRequestMessage (SOAP)](getusersettingsrequestmessage-soap.md)
     
-- [Почтовый ящик (SOAP)](mailbox-soap.md)
+- [Mailbox (SOAP)](mailbox-soap.md)
     
-- [Запрос (SOAP)](request-soap.md)
+- [Request (SOAP)](request-soap.md)
     
-- [Рекуестедсерверверсион (SOAP)](requestedserverversion-soap.md)
+- [RequestedServerVersion (SOAP)](requestedserverversion-soap.md)
     
-- [Рекуестедсеттингс (SOAP)](requestedsettings-soap.md)
+- [RequestedSettings (SOAP)](requestedsettings-soap.md)
     
-- [Параметр (SOAP)](setting-soap.md)
+- [Setting (SOAP)](setting-soap.md)
     
-- [Пользователь (SOAP)](user-soap.md)
+- [User (SOAP)](user-soap.md)
     
-- [Пользователи (SOAP)](users-soap.md)
+- [Users (SOAP)](users-soap.md)
     
-## <a name="getusersettings-response-example"></a>Пример отклика GetUserSettings
+## <a name="getusersettings-response-example"></a>Пример ответа GetUserSettings
 
-### <a name="description"></a>Description
+### <a name="description"></a>Описание
 
-В следующем примере показан успешный ответ **GetUserSettings** . 
+В следующем примере показан успешный **ответ GetUserSettings.** 
   
 ### <a name="code"></a>Код
 
@@ -150,42 +150,42 @@ ms.locfileid: "44466145"
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Элементы Response
+### <a name="response-elements"></a>Элементы ответа
 
-В тексте отклика используются следующие элементы:
+В теле отклика используются следующие элементы:
   
 - [ErrorCode (SOAP)](errorcode-soap.md)
     
 - [ErrorMessage (SOAP)](errormessage-soap.md)
     
-- [Жетусерсеттингсреспонсемессаже (SOAP)](getusersettingsresponsemessage-soap.md)
+- [GetUserSettingsResponseMessage (SOAP)](getusersettingsresponsemessage-soap.md)
     
-- [Имя (SOAP)](name-soap.md)
+- [Name (SOAP)](name-soap.md)
     
-- [Редиректтаржет (SOAP)](redirecttarget-soap.md)
+- [RedirectTarget (SOAP)](redirecttarget-soap.md)
     
-- [Отклик (SOAP)](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
-- [Усерреспонсе (SOAP)](userresponse-soap.md)
+- [UserResponse (SOAP)](userresponse-soap.md)
     
-- [Усерреспонсес (SOAP)](userresponses-soap.md)
+- [UserResponses (SOAP)](userresponses-soap.md)
     
-- [Усерсеттинг (SOAP)](usersetting-soap.md)
+- [UserSetting (SOAP)](usersetting-soap.md)
     
-- [Усерсеттинжеррорс (SOAP)](usersettingerrors-soap.md)
+- [UserSettingErrors (SOAP)](usersettingerrors-soap.md)
     
-- [Усерсеттингс (SOAP)](usersettings-soap.md)
+- [UserSettings (SOAP)](usersettings-soap.md)
     
-- [Значение (SOAP)](value-soap.md)
+- [Value (SOAP)](value-soap.md)
     
 ## <a name="see-also"></a>См. также
 
 
 
-[Операция Жетдомаинсеттингс (SOAP)](getdomainsettings-operation-soap.md)
+[Операция GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)
   
-[Операция Жетфедератионинформатион (SOAP)](getfederationinformation-operation-soap.md)
+[Операция GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 
 
-[XML-элементы автообнаружения SOAP для Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Элементы XML автооткрытия SOAP для Exchange 2013 г.](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

@@ -1,56 +1,56 @@
 ---
-title: интерналид
+title: InternalId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InternalId
 api_type:
 - schema
 ms.assetid: c179db1a-95c9-40da-bd3f-0bed548c0325
-description: Элемент Интерналид представляет целое значение для идентификации события.
-ms.openlocfilehash: 66d5852e104de843911b46a225154ebd991e2220
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент InternalId представляет для идентификации событий значение в несколько раз.
+ms.openlocfilehash: 5a1f84fcaa599f5dc2cdf38dd3edeb3d32eb7388
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459940"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547143"
 ---
-# <a name="internalid"></a>интерналид
+# <a name="internalid"></a>InternalId
 
-Элемент **интерналид** представляет целое значение для идентификации события. 
+Элемент **InternalId** представляет для идентификации событий значение в несколько раз. 
   
 ```XML
 <InternalId/>
 ```
 
- **ноннегативеинтежер**
+ **nonNegativeInteger**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[реЦипиенттраккинжевент](recipienttrackingevent.md) <br/> |Содержит сведения об отдельном событии получателя.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Содержит сведения для одного события для получателя.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-При использовании этого элемента необходимо указать текстовое значение, представляющее целое число.
+Если используется этот элемент, требуется текстовое значение, представляю которое представляет несколько элементов.
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -60,7 +60,7 @@ ms.locfileid: "44459940"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

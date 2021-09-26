@@ -1,35 +1,35 @@
 ---
-title: фрибусивиев
+title: FreeBusyView
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FreeBusyView
 api_type:
 - schema
 ms.assetid: cb18434f-5f41-4e05-a5ce-d921b2721a8c
-description: Элемент Фрибусивиев содержит сведения о доступности для определенного пользователя.
-ms.openlocfilehash: e5cc3bea6b57d5c400dd9be44bf9f9aaf9e43eb9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент FreeBusyView содержит сведения о доступности для определенного пользователя.
+ms.openlocfilehash: c662e8a44118f61b4c8be642d9ac862051c3a15d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456103"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546415"
 ---
-# <a name="freebusyview"></a>фрибусивиев
+# <a name="freebusyview"></a>FreeBusyView
 
-Элемент **фрибусивиев** содержит сведения о доступности для определенного пользователя. 
+Элемент **FreeBusyView** содержит сведения о доступности для определенного пользователя. 
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[фрибусиреспонсеаррай](freebusyresponsearray.md)
+[FreeBusyResponseArray](freebusyresponsearray.md)
   
-[фрибусиреспонсе](freebusyresponse.md)
+[FreeBusyResponse](freebusyresponse.md)
   
-[фрибусивиев](freebusyview.md)
+[FreeBusyView](freebusyview.md)
   
 ```xml
 <FreeBusyView>
@@ -40,33 +40,33 @@ ms.locfileid: "44456103"
 </FreeBusyView>
 ```
 
- **фрибусивиев**
+ **FreeBusyView**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фрибусивиевтипе](freebusyviewtype.md) <br/> |Представляет тип запрошенных сведений о доступности, возвращаемых в ответе.  <br/> |
-|[мержедфрибуси](mergedfreebusy.md) <br/> |Содержит Объединенный поток данных о занятости.  <br/> |
-|[календаревентаррай](calendareventarray.md) <br/> |Содержит набор уникальных экземпляров элемента календаря, представляющих доступность запрошенного пользователя.  <br/> |
-|[воркингхаурс](workinghours-ex15websvcsotherref.md) <br/> |Представляет параметры часового пояса и рабочие часы для запрошенного пользователя почтового ящика.  <br/> |
+|[FreeBusyViewType](freebusyviewtype.md) <br/> |Представляет тип запрашиваемой бесплатной или занятой информации, возвращаемой в ответе.  <br/> |
+|[MergedFreeBusy](mergedfreebusy.md) <br/> |Содержит объединенный свободный и загруженный поток данных.  <br/> |
+|[CalendarEventArray](calendareventarray.md) <br/> |Содержит набор уникальных событий элементов календаря, которые представляют доступность запрашиваемого пользователя.  <br/> |
+|[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |Представляет параметры часовой зоны и рабочие часы для запрашиваемой пользователя почтового ящика.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[фрибусиреспонсе](freebusyresponse.md) <br/> |Содержит сведения о доступности для одного пользователя почтового ящика.  <br/> Ниже приведено выражение XPath для этого элемента:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse` <br/> |
+|[FreeBusyResponse](freebusyresponse.md) <br/> |Содержит сведения о бесплатном/загружении для одного пользователя почтового ящика.  <br/> Ниже приводится выражение XPath к этому элементу:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse` <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Все дочерние элементы перечислены в той последовательности, в которой они выполняются. Уровень детализации, предоставляемый этим элементом, зависит от разрешений, предоставленных запрашивающему участнику.
+Все элементы ребенка перечислены в последовательности, в которой они происходят. Уровень детализации, предоставляемой этим элементом, зависит от разрешений, предоставленных запросчику.
   
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -76,7 +76,7 @@ ms.locfileid: "44456103"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
@@ -85,7 +85,7 @@ ms.locfileid: "44456103"
 
 [Операция GetUserAvailability](getuseravailability-operation.md)
   
-[жетусераваилабилитиреспонсе](getuseravailabilityresponse.md)
+[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
 [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)

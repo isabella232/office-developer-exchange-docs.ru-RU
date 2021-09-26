@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bcef790d-094f-40ba-b4cf-8abd9c79cc7a
-description: Элемент MailboxId указывает идентификатор для почтового ящика, к которому выполняется поиск обнаружения.
-ms.openlocfilehash: 7ec43492010dfb54f3e847d037425f9ed919559c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент MailboxId указывает идентификатор почтового ящика, к нему можно получить доступ при поиске обнаружения.
+ms.openlocfilehash: 5f9d39339e9d54476efa025622d117be0f8219a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466369"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547136"
 ---
 # <a name="mailboxid"></a>MailboxId
 
-Элемент **MailboxId** указывает идентификатор для почтового ящика, к которому выполняется поиск обнаружения. 
+Элемент **MailboxId** указывает идентификатор почтового ящика, к нему можно получить доступ при поиске обнаружения. 
   
 ```XML
 <MailboxId></MailboxId>
@@ -27,25 +27,25 @@ ms.locfileid: "44466369"
 
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Маилбоксстат](mailboxstat.md)  |  [Почтовый ящик (превиевитеммаилбокстипе)](mailbox-previewitemmailboxtype.md)
+[MailboxStat](mailboxstat.md)  |  [Почтовый ящик (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **MailboxId** — это идентификатор почтового ящика, доступного для поиска при обнаружении. 
+Текстовое значение элемента **MailboxId** — это идентификатор почтового ящика почтового ящика, доступ к нему для поиска обнаружения. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -57,7 +57,7 @@ ms.locfileid: "44466369"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

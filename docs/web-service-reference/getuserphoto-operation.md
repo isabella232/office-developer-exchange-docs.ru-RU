@@ -5,43 +5,43 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e
-description: Поиск сведений о GetUserPhotoной операции EWS.
-ms.openlocfilehash: 6769842d31519f0aac2cf9bda10c1cab70558301
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Сведения об операции GetUserPhoto EWS.
+ms.openlocfilehash: 6dd1ce73d6291e60ce188b98b917a4c79ce792b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461816"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547486"
 ---
 # <a name="getuserphoto-operation"></a>Операция GetUserPhoto
 
-Поиск сведений о **GetUserPhotoной** операции EWS. 
+Сведения об операции **GetUserPhoto** EWS. 
   
-Операция **GetUserPhoto** получает фотографию пользователя из доменных служб Active Directory (AD DS). 
+Операция **GetUserPhoto** получает фотографию пользователя из служб домена Active Directory (AD DS). 
   
 Эта операция появилась в Exchange Server 2013.
   
 ## <a name="using-the-getuserphoto-operation"></a>Использование операции GetUserPhoto
 
-Операция **RemoveContactFromImList** — это простая операция, которая принимает адрес электронной почты пользователя и запрошенный размер фотографии и возвращает поток фото в ответе. 
+Операция **RemoveContactFromImList** — это простая операция, которая принимает адрес электронной почты пользователя и запрашиваемую фотографию и возвращает поток фотографий в ответ. 
   
 > [!NOTE]
-> Для получения фотографий пользователей у веб EWS есть как SOAP, так и операция REST. Сведения о интерфейсе REST приведены в статье [Получение фотографий пользователей с помощью EWS в Exchange](https://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx). 
+> EWS имеет как SOAP, так и операцию на основе REST для получения фотографий пользователей. Сведения об интерфейсе REST см. в фотоснимки пользователей [с помощью EWS в Exchange.](https://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx) 
   
-### <a name="getuserphoto-operation-soap-headers"></a>Заголовки SOAP операции GetUserPhoto
+### <a name="getuserphoto-operation-soap-headers"></a>Заготавлители мыла для операции GetUserPhoto
 
-Операция **GetUserPhoto** может использовать заголовки SOAP, указанные в приведенной ниже таблице. 
+В **операции GetUserPhoto** можно использовать заглавные таблицы SOAP, указанные в следующей таблице. 
   
 |**Имя заголовка**|**Элемент**|**Описание**|
 |:-----|:-----|:-----|
-|**рекуестверсион** <br/> |[рекуестсерверверсион](requestserverversion.md) <br/> |Определяет версию схемы для запроса операции. Этот заголовок является применимым для запроса.  <br/> |
-|**серверверсион** <br/> |[серверверсионинфо](serverversioninfo.md) <br/> |Определяет версию сервера, который ответил на запрос. Этот заголовок является применимым для отклика.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Определяет версию схемы для запроса на операцию. Этот заглавный заглавник применим к запросу.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Определяет версию сервера, отвечаемого на запрос. Этот заглавный заглавник применим к ответу.  <br/> |
    
-## <a name="getuserphoto-operation-request-example-get-a-users-photo"></a>Пример запроса операции GetUserPhoto: получение фотографии пользователя
+## <a name="getuserphoto-operation-request-example-get-a-users-photo"></a>Пример запроса на операцию GetUserPhoto: получить фотографию пользователя
 
-В приведенном ниже примере запроса операции **GetUserPhoto** показано, как получить фотографию пользователя. В этом примере запрашивается фотография пользователя 48x48 пикселей. 
+В следующем примере запроса **на операцию GetUserPhoto** показано, как получить фотографию пользователя. В этом примере запрашивается фотография пользователя с размером 48x48 пикселей. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -62,15 +62,15 @@ ms.locfileid: "44461816"
 </soap:Envelope>
 ```
 
-В теле SOAP запроса используются следующие элементы:
+В корпусе SOAP запроса используются следующие элементы:
   
 - [GetUserPhoto](getuserphoto.md)
     
-- [Электронная почта (строка)](email-string.md)
+- [Email (строка)](email-string.md)
     
-- [сизерекуестед](sizerequested.md)
+- [SizeRequested](sizerequested.md)
     
-## <a name="successful-getuserphoto-operation-response"></a>Успешный отклик операции GetUserPhoto
+## <a name="successful-getuserphoto-operation-response"></a>Успешный ответ на операцию GetUserPhoto
 
 В следующем примере показан успешный ответ на операцию **GetUserPhoto** для получения фотографии пользователя. 
   
@@ -101,19 +101,19 @@ ms.locfileid: "44461816"
 
 ```
 
-В теле SOAP отклика используются следующие элементы:
+В корпусе SOAP ответа используются следующие элементы:
   
-- [жетусерфотореспонсе](getuserphotoresponse.md)
+- [GetUserPhotoResponse](getuserphotoresponse.md)
     
-- [респонсекоде](responsecode.md)
+- [ResponseCode](responsecode.md)
     
-- [хасчанжед](haschanged.md)
+- [HasChanged](haschanged.md)
     
-- [жетусерфотореспонсе](getuserphotoresponse.md)
+- [GetUserPhotoResponse](getuserphotoresponse.md)
     
-## <a name="getuserphoto-operation-error-response"></a>Ответ об ошибке операции GetUserPhoto
+## <a name="getuserphoto-operation-error-response"></a>Ответ на ошибку операции GetUserPhoto
 
-При попытке получить фотографию пользователя для адреса электронной почты, который не существует в Организации, конверт SOAP не будет возвращать код ошибки. Код состояния HTTP 500 будет возвращен в ответе, чтобы указать, что запрос был выполнен неудачно. 
+Конверт SOAP не возвращает код ошибки, если предпринята попытка получить фотографию пользователя для адреса электронной почты, который не существует в организации. Код состояния HTTP 500 будет возвращен в ответ, чтобы указать, что запрос был неудачным. 
   
 ## <a name="see-also"></a>См. также
 

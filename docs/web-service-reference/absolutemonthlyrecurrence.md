@@ -1,27 +1,27 @@
 ---
-title: абсолутемонслирекурренце
+title: AbsoluteMonthlyRecurrence
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AbsoluteMonthlyRecurrence
 api_type:
 - schema
 ms.assetid: 178fa0ae-9dfc-417f-933c-d657d31c2161
-description: Элемент Абсолутемонслирекурренце представляет месячный шаблон повторения.
-ms.openlocfilehash: 3176cd30a1cfe7b2310f960ce377ab7a277e795a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент AbsoluteMonthlyRecurrence представляет ежемесячный шаблон повторения.
+ms.openlocfilehash: 7fcc1811a7c42fc653344fb3c052adac820d6a5d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460437"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546919"
 ---
-# <a name="absolutemonthlyrecurrence"></a>абсолутемонслирекурренце
+# <a name="absolutemonthlyrecurrence"></a>AbsoluteMonthlyRecurrence
 
-Элемент **абсолутемонслирекурренце** представляет месячный шаблон повторения. 
+Элемент **AbsoluteMonthlyRecurrence** представляет ежемесячный шаблон повторения. 
   
 ```xml
 <AbsoluteMonthlyRecurrence>
@@ -30,30 +30,30 @@ ms.locfileid: "44460437"
 </AbsoluteMonthlyRecurrence>
 ```
 
- **абсолутемонслирекурренцепаттернтипе**
+ **AbsoluteMonthlyRecurrencePatternType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[DayOfMonth](dayofmonth.md) <br/> |Описывает день месяца, в который происходит повторяющийся элемент. Диапазон значений этого свойства — от 1 до 31. Если для определенного месяца это значение превышает количество дней в месяце, для этого свойства подразумевается последний день месяца.  <br/> |
-|[Interval](interval.md) <br/> |Определяет интервал между двумя последовательными повторяющимися элементами. Например, если элемент **Interval** имеет значение 5, повторяющийся элемент повторяется каждые 5 месяцев. Диапазон допустимых значений: от 1 до 99.  <br/> |
+|[DayOfMonth](dayofmonth.md) <br/> |Описывает день в месяц, когда возникает повторяющийся элемент. Диапазон значений для этого свойства составляет от 1 до 31. Если за определенный месяц это значение превышает количество дней в месяце, для этого свойства предполагается последний день месяца.  <br/> |
+|[Interval](interval.md) <br/> |Определяет интервал между двумя повторяющимися элементами. Например, если элемент **Interval** имеет значение 5, повторяющийся элемент происходит каждые 5 месяцев. Диапазон допустимого значения от 1 до 99.  <br/> |
    
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[Повторение (Таскрекурренцетипе)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторении для повторяющихся задач.  <br/> |
-|[Повторение (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и приглашений на собрание.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Содержит сведения о повторяющихся задачах.  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Содержит шаблон повторения для элементов календаря и запросов на собрания.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, расположена в виртуальном каталоге EWS на компьютере с MicrosoftExchange Server 2007 и установленной ролью сервера клиентского доступа.
   
@@ -63,7 +63,7 @@ ms.locfileid: "44460437"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

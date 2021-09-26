@@ -1,50 +1,50 @@
 ---
-title: Размер (длинный)
+title: Size (long)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96514301-9195-420f-ba17-5f512116ee46
-description: Элемент Size указывает общий размер одного или нескольких элементов почтового ящика.
-ms.openlocfilehash: 622752688dd41d6e42f1f405ea1dd389eff1ee98
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Size указывает общий размер одного или более элементов почтового ящика.
+ms.openlocfilehash: a95c0c3963364edf74647b0a7e62efd9ffad6c8c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468035"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547003"
 ---
-# <a name="size-long"></a>Размер (длинный)
+# <a name="size-long"></a>Size (long)
 
-Элемент **size** указывает общий размер одного или нескольких элементов почтового ящика. 
+Элемент **Size** указывает общий размер одного или более элементов почтового ящика. 
   
 ```XML
 <Size></Size>
 ```
 
- **большом**
+ **long**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[Кэйвордстат](keywordstat.md)  |  [Маилбоксстат](mailboxstat.md)  |  [Сеарчмаилбоксесресулт](searchmailboxesresult.md)  |  [Сеарчпревиевитем](searchpreviewitem.md)
+[KeywordStat](keywordstat.md)  |  [MailboxStat](mailboxstat.md)  |  [SearchMailboxesResult](searchmailboxesresult.md)  |  [SearchPreviewItem](searchpreviewitem.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **size** — общий размер одного или нескольких элементов почтовых ящиков. 
+Текстовое значение элемента **Size** — это общий размер одного или более элементов почтового ящика. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44468035"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

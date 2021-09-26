@@ -1,63 +1,63 @@
 ---
-title: Шаринжеффективеригхтс (Календарпермиссионреадакцесстипе)
+title: SharingEffectiveRights (CalendarPermissionReadAccessType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SharingEffectiveRights
 api_type:
 - schema
 ms.assetid: b519f642-a9ef-4300-92e6-ed8202855fde
-description: Элемент Шаринжеффективеригхтс указывает разрешения, которые есть у пользователя для данных календаря, к которым предоставлен доступ.
-ms.openlocfilehash: 5581e9cc001608a124ae94e69eba836f6fd98520
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SharingEffectiveRights указывает разрешения, которые есть у пользователя для общих данных календаря.
+ms.openlocfilehash: d1e669b70ad816cc24e34554a116159025e267e6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458581"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547073"
 ---
-# <a name="sharingeffectiverights-calendarpermissionreadaccesstype"></a>Шаринжеффективеригхтс (Календарпермиссионреадакцесстипе)
+# <a name="sharingeffectiverights-calendarpermissionreadaccesstype"></a>SharingEffectiveRights (CalendarPermissionReadAccessType)
 
-Элемент **шаринжеффективеригхтс** указывает разрешения, которые есть у пользователя для данных календаря, к которым предоставлен доступ. 
+Элемент **SharingEffectiveRights** указывает разрешения, которые есть у пользователя для общих данных календаря. 
   
 ```XML
 <SharingEffectiveRights>None | TimeOnly | TimeAndSubjectAndLocation | FullDetails</SharingEffectiveRights>
 ```
 
- **календарпермиссионреадакцесстипе**
+ **CalendarPermissionReadAccessType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[календарфолдер](calendarfolder.md) <br/> |Представляет папку, в которой в основном содержатся элементы календаря.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Представляет папку, которая в основном содержит элементы календаря.  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-В следующей таблице приведены возможные значения для элемента **шаринжеффективеригхтс** . 
+В следующей таблице перечислены возможные значения элемента **SharingEffectiveRights.** 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
 |Нет  <br/> |Указывает, что у пользователя нет разрешения на просмотр элементов в календаре.  <br/> |
-|тимеонли  <br/> |Указывает, что у пользователя есть разрешение на просмотр сведений о занятости в календаре.  <br/> |
-|тимеандсубжектандлокатион  <br/> |Указывает, что пользователь имеет разрешение на просмотр сведений о занятости в календаре и теме и местоположении встреч.  <br/> |
-|фуллдетаилс  <br/> |Указывает, что у пользователя есть разрешение на просмотр всех элементов календаря, в том числе сведения о занятости, теме, местоположении и сведения о встречах.  <br/> |
+|TimeOnly  <br/> |Указывает, что у пользователя есть разрешение на просмотр только свободного или занятого времени в календаре.  <br/> |
+|TimeAndSubjectAndLocation  <br/> |Указывает, что у пользователя есть разрешение на просмотр свободного или занятого времени в календаре, а также субъекта и расположения встреч.  <br/> |
+|FullDetails  <br/> |Указывает, что у пользователя есть разрешение на просмотр всех элементов в календаре, в том числе свободного/занятого времени и темы, расположения и сведений о встречах.  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Схема, описывающая этот элемент, находится в виртуальном каталоге IIS, в котором размещены веб-службы Exchange.
   
@@ -67,7 +67,7 @@ ms.locfileid: "44458581"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

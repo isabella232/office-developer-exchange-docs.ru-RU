@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54f45774-00a0-4392-af1b-8c5f2208a53f
-description: Элемент InPlaceHoldIdentity указывает идентификатор удержания, который сохраняет элементы почтового ящика.
-ms.openlocfilehash: a06f72e478e7dc5bd1a499dceefeb352b14d7362
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент InPlaceHoldIdentity указывает удостоверение удержания, которое сохраняет элементы почтовых ящиков.
+ms.openlocfilehash: 0a5f02b908adf49328461c6e3676dab3698879c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466096"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547213"
 ---
 # <a name="inplaceholdidentity"></a>InPlaceHoldIdentity
 
-Элемент **InPlaceHoldIdentity** указывает идентификатор удержания, который сохраняет элементы почтового ящика. 
+Элемент **InPlaceHoldIdentity** указывает удостоверение удержания, которое сохраняет элементы почтовых ящиков. 
   
 ```XML
 <InPlaceHoldIdentity></InPlaceHoldIdentity>
@@ -26,25 +26,25 @@ ms.locfileid: "44466096"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[SetHoldOnMailboxes](setholdonmailboxes.md)  |  [Дисковерисеарчконфигуратион](discoverysearchconfiguration.md)
+[SetHoldOnMailboxes](setholdonmailboxes.md)  |  [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **InPlaceHoldIdentity** — идентификатор удержания почтового ящика. 
+Текстовое значение элемента **InPlaceHoldIdentity** — идентификатор удержания почтовых ящиков. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44466096"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Схема Messages  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также

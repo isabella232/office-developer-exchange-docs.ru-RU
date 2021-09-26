@@ -1,23 +1,23 @@
 ---
-title: дисплайнамефирстластсорткэй
+title: DisplayNameFirstLastSortKey
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18f8c676-0fc0-49ff-9a90-5fd43e7e7e39
-description: Элемент Дисплайнамефирстластсорткэй содержит ключ сортировки для отображаемого имени в поле имя, последний порядк имен.
-ms.openlocfilehash: 1cc0241f5e2d0b0d02bc14011e770c95bdc1d6e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент DisplayNameFirstLastSortKey содержит ключ сортировки для имени отображения с именем и фамилией.
+ms.openlocfilehash: 94528e72af8b5f4a978ee0bcf2564b250d6195b7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456208"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546632"
 ---
-# <a name="displaynamefirstlastsortkey"></a>дисплайнамефирстластсорткэй
+# <a name="displaynamefirstlastsortkey"></a>DisplayNameFirstLastSortKey
 
-Элемент **дисплайнамефирстластсорткэй** содержит ключ сортировки для отображаемого имени в поле имя, последний порядк имен. 
+Элемент **DisplayNameFirstLastSortKey** содержит ключ сортировки для имени отображения с именем и фамилией. 
   
 ```XML
 <DisplayNameFirstLastSortKey></DisplayNameFirstLastSortKey>
@@ -26,15 +26,15 @@ ms.locfileid: "44456208"
  **строка**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -42,9 +42,9 @@ ms.locfileid: "44456208"
   
 ## <a name="text-value"></a>Текстовое значение
 
-Текстовое значение элемента **дисплайнамефирстластсорткэй** — это ключ сортировки отображаемого имени пользователя, в поле имя и фамилия. 
+Текстовое значение элемента **DisplayNameFirstLastSortKey** — это ключ сортировки для отображения имени пользователя с именем и фамилией. 
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -56,7 +56,7 @@ ms.locfileid: "44456208"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> ||
    
 

@@ -1,23 +1,23 @@
 ---
-title: спеЦификусерс
+title: SpecificUsers
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 121b0063-5447-4063-8e54-d3fcbb8cd2be
-description: Элемент СпеЦификусерс указывает учетные записи электронной почты, которые могут получать доступ к приложению.
-ms.openlocfilehash: ef003b6da20031f82d9a8be1dc1d1187288d6f60
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент SpecificUsers указывает учетные записи электронной почты, которые могут получить доступ к приложению.
+ms.openlocfilehash: 41335a4302da7c056e3f6d5a34eb1c34cfb1d826
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467636"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546975"
 ---
-# <a name="specificusers"></a>спеЦификусерс
+# <a name="specificusers"></a>SpecificUsers
 
-Элемент **спеЦификусерс** указывает учетные записи электронной почты, которые могут получать доступ к приложению. 
+Элемент **SpecificUsers** указывает учетные записи электронной почты, которые могут получить доступ к приложению. 
   
 ```XML
 <SpecificUsers>
@@ -25,14 +25,14 @@ ms.locfileid: "44467636"
 </SpecificUsers>
 ```
 
- **аррайофстрингстипе**
+ **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -40,9 +40,9 @@ ms.locfileid: "44467636"
   
 ### <a name="parent-elements"></a>Родительские элементы
 
-[клиентекстенсион](clientextension.md)
+[ClientExtension](clientextension.md)
   
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Этот элемент появился в Exchange Server 2013.
   
@@ -54,7 +54,7 @@ ms.locfileid: "44467636"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Имя схемы  <br/> |Схема Types  <br/> |
-|Файл проверки  <br/> |Types. xsd  <br/> |
+|Файл проверки  <br/> |Types.xsd  <br/> |
 |Может быть пустым  <br/> |false  <br/> |
    
 

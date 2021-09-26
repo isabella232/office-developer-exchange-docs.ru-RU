@@ -1,30 +1,30 @@
 ---
-title: Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)
+title: Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Status
 api_type:
 - schema
 ms.assetid: e272d905-1a66-44f6-bb1d-59fa9e4d8dea
-description: Элемент Status определяет значение, которое будет использоваться в SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена сообщениями).
-ms.openlocfilehash: f184c3af49033bc09c28dd66f786935b72c3590b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Элемент Status определяет значение, используемое в запросе setMissedCallNotificationEnabled (веб-служба um).
+ms.openlocfilehash: f67d50a42e3f48254c6253f1dba60ba4177492c9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526860"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546947"
 ---
-# <a name="status-um-web-service---setmissedcallnotificationenabled"></a>Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)
+# <a name="status-um-web-service---setmissedcallnotificationenabled"></a>Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)
 
-Элемент **Status** определяет значение, которое будет использоваться в [SetMissedCallNotificationEnabled операции (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
+Элемент **Status** определяет значение, используемое в запросе [setMissedCallNotificationEnabled (веб-служба um).](setmissedcallnotificationenabled-operation-um-web-service.md) 
   
 [SetMissedCallNotificationEnabled (веб-служба единой системы обмена сообщениями)](setmissedcallnotificationenabled-um-web-service.md)
   
-[Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
+[Status (веб-служба единой системы обмена сообщениями — SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
   
 ```xml
 <SetMissedCallNotificationEnabled>
@@ -35,29 +35,29 @@ ms.locfileid: "44526860"
  **Boolean**
 ## <a name="attributes-and-elements"></a>Атрибуты и элементы
 
-В следующих разделах описываются атрибуты, дочерние и родительские элементы.
+В разделах ниже приводится описание атрибутов, дочерних и родительских элементов.
   
 ### <a name="attributes"></a>Атрибуты
 
-Отсутствуют.
+Нет.
   
 ### <a name="child-elements"></a>Дочерние элементы
 
-Отсутствуют.
+Нет.
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|SetMissedCallNotificationEnabled  <br/> |Определяет запрос для [операции SetMissedCallNotificationEnabled (веб-службы единой системы обмена сообщениями)](setmissedcallnotificationenabled-operation-um-web-service.md) .  <br/> |
+|SetMissedCallNotificationEnabled  <br/> |Определяет запрос на запрос [операции SetMissedCallNotificationEnabled (веб-служба um).](setmissedcallnotificationenabled-operation-um-web-service.md)  <br/> |
    
 ## <a name="text-value"></a>Текстовое значение
 
-Необходимо указать текстовое значение Boolean. Ниже перечислены возможные значения.
+Требуется текстовое значение Boolean. Ниже перечислены возможные значения.
   
-- Верно.
+- Верно
     
-- False
+- Неверно
     
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -65,7 +65,7 @@ ms.locfileid: "44526860"
 |:-----|:-----|
 |Пространство имен  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Имя схемы  <br/> |Сообщения  <br/> |
-|Файл проверки  <br/> |Messages. xsd  <br/> |
+|Файл проверки  <br/> |Messages.xsd  <br/> |
 |Может быть пустым  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>См. также
