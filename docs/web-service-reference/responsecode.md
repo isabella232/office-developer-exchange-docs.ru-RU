@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4b84d670-74c9-4d6d-84e7-f0a9f76f0d93
 description: Элемент ResponseCode предоставляет сведения о состоянии запроса.
-ms.openlocfilehash: 9d662ee93870c2aabe045d801222deb881d0a28b
-ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
+ms.openlocfilehash: fc328ffde3a21add77ce6870a87bc7092f3f46ab
+ms.sourcegitcommit: f13a3a4a61fa23ca6414b7c96ddf087adbe3dc9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59512389"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60262220"
 ---
 # <a name="responsecode"></a>ResponseCode
 
@@ -180,6 +180,7 @@ ms.locfileid: "59512389"
 |ErrorClientIntentInvalidStateDefinition  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
 |ErrorClientIntentNotFound  <br/> |Эта ошибка предназначена только для внутреннего использования.  <br/> |
 |ErrorConnectionFailed  <br/> |Эта ошибка возникает, Exchange веб-службы не могут подключиться к почтовому ящику.  <br/> |
+|ErrorConnectionFailedTransientError  <br/> |Эта ошибка возникает, Exchange веб-службы не могут подключиться к почтовому ящику. Этот код ошибки указывает на переходную ошибку. Клиенты могут повторно подключиться к серверу при получении этой ошибки. <br/> |
 |ErrorContainsFilterWrongType  <br/> |Эта ошибка указывает, что свойство, которое было проверено для фильтра Contains, не является типом строки.  <br/> |
 |ErrorContentConversionFailed  <br/> |Операция **GetItem** возвращает эту ошибку, Exchange веб-службы не могут получить содержимое MIME для запрашиваемой номенклатуры. <br/><br/>Операция **CreateItem** возвращает эту ошибку, Exchange веб-службы не могут создать элемент из предоставленного контента MIME. Обычно это указывает на то, что свойство элемента повреждено или усечено.  <br/> |
 |ErrorContentIndexingNotEnabled  <br/> |Эта ошибка возникает, когда запрос на поиск выполнен с помощью параметра QueryString, а индексация контента не включена для целевого почтового ящика.  <br/> |
@@ -586,7 +587,7 @@ ms.locfileid: "59512389"
 |ErrorInvalidLicense  <br/> |У пользователя нет допустимой лицензии.  <br/> |
 |ErrorMessagePerFolderCountReceiveQuotaExceeded  <br/> |Квота получения сообщения на одну папку превышена.  <br/> |
    
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
 Этот элемент не требуется и не входит во все ответы. 
   

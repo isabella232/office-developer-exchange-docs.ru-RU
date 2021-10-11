@@ -1,19 +1,19 @@
 ---
 title: Создание транспортного агента RoutingAgent для Exchange 2013 г.
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 09/21/2021
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3f0e745f-9289-4f31-8877-926692a8c133
 description: Узнайте, как создать настраиваемый транспортный агент RoutingAgent для использования с Exchange 2013 г.
-ms.openlocfilehash: 70dbfc3c25e18195bb4b42fd3e750da11b0423d6
-ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
+ms.openlocfilehash: 89c70e7d021b9b2cc46f65ee3bbff334430fecc7
+ms.sourcegitcommit: f13a3a4a61fa23ca6414b7c96ddf087adbe3dc9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59534176"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60262213"
 ---
 # <a name="create-a-routingagent-transport-agent-for-exchange-2013"></a>Создание транспортного агента RoutingAgent для Exchange 2013 г.
 
@@ -23,9 +23,9 @@ ms.locfileid: "59534176"
   
 Связанные фрагменты кода и примеры приложений:
 
-- [Exchange 2013 г.: Создание транспортного агента для ведения журнала пропускной способности](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
+- [Exchange 2013 г.: Создание транспортного агента для ведения журнала пропускной способности](/exchange/client-developer/transport-agents/transport-agent-code-samples-for-exchange-2013.md)
   
-Классы [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) и [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) являются базовыми классами для транспортных агентов, предназначенных для работы на транспортной службе на сервере почтовых ящиков Exchange Server 2013 г. Класс [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) предоставляет события, перечисленные в следующей таблице, для которых можно реализовать обработчики в транспортном агенте RoutingAgent. 
+Классы [RoutingAgentFactory](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564164(v=exchg.150)) и [RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) являются базовыми классами для транспортных агентов, предназначенных для работы на транспортной службе на сервере почтовых ящиков Exchange Server 2013 г. Класс [RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) предоставляет события, перечисленные в следующей таблице, для которых можно реализовать обработчики в транспортном агенте RoutingAgent. 
   
 **Таблица 1. События класса RoutingAgent**
 
